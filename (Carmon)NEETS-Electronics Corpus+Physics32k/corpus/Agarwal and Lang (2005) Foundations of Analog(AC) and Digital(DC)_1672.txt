@@ -1,0 +1,6 @@
+To illustrate the typical behavior of second-order circuits, and to moti-
+vate their study, consider the behavior of the two cascaded inverters shown in
+Figure 12.1. Given a square-wave input to the first inverter at vIN1, we expect
+to see a square-wave output at vOUT1 and vIN2, as illustrated in Figure 12.2.
+However, in Chapter 9 we saw that the presence of the parasitic MOSFET
+gate capacitance in the second inverter results in the slower output waveform

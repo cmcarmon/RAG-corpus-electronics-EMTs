@@ -1,0 +1,9 @@
+In Chapter 9, we saw that the voltage across a capacitor is continuous unless
+the current through it contains an impulse. We also saw that the current through
+an inductor is continuous unless the voltage across it contains an impulse. Since
+vIN contains no impulses, we can therefore assume that both vC and iL are
+continuous across the step at t = 0. Consequently, since both states are zero
+for t ≤ 0, Equations 12.133 and 12.134 must both evaluate to zero as t → 0.
+This observation allows us to use the initial conditions to determine A1 and
+A2. Evaluation of both equations as t → 0, followed by the substitution of the
+initial conditions, yields

@@ -1,0 +1,9 @@
+INPUT OFFSET VOLTAGE VOS
+When both inputs are tied to ground, i.e., both differential-mode and common-mode inputs are
+zero, the output should be zero. In practice there will be mismatches in ampliﬁer components, and
+if there is a mismatch in an input stage, the effect will be ampliﬁed, leading to a signiﬁcant output
+voltage. The input offset voltage VOS is the differential input voltage required to make the output
+zero, and is typically 1 mV. With some op amps, e.g., the 741, two voltage offset terminals are
+provided, and by connecting a potentiometer between them and taking the slider to the speciﬁed
+dc supply rail (or bus), as in Figure 5.3.4, the potentiometer can then be adjusted to zero the offset
+voltage.

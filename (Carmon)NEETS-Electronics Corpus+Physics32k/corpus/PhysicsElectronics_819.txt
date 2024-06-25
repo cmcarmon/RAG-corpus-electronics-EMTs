@@ -1,0 +1,7 @@
+The one-shot (also called a monostable multivibrator) is essentially an unstable ﬂip-ﬂop.
+When a one-shot is set by an input clock or trigger pulse, it will return to the reset state
+on its own accord after a ﬁxed time delay. Hence a one-shot is able to generate a pulse
+of a particular width following an input pulse. One-shots are often used in pairs with the
+output of the ﬁrst used to trigger the second. Unfortunately the time relationship between
+the signals becomes excessively interdependent and it is better to generate signal transitions
+synchronized with the circuit clock.

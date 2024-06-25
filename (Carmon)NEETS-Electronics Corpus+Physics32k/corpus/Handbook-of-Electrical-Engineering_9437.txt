@@ -1,0 +1,9 @@
+Time redundancy methods attempt to reduce the amount of extra hardware at the expense of using additional
+time.  In  many  applications,  the  time  is  of  much  less  importance  than  the  hardware  because  hardware  is  a
+physical entity that impacts weight, size, power consumption, and cost. Time, on the other hand, may be readily
+available in some applications. The basic concept of time redundancy is the repetition of computations in ways
+that allow faults to be detected. Time redundancy can function in a system in several ways. The fundamental
+concept  is  to  perform  the  same  computation  two  or  more  times  and  compare  the  results  to  determine  if  a
+discrepancy exists. If an error is detected, the computations can be performed again to see if the disagreement
+remains or disappears. Such approaches are often good for detecting errors resulting from transient faults but
+cannot provide protection against errors resulting from permanent faults.

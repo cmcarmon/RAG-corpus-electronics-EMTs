@@ -1,0 +1,19 @@
+The back-off algorithm uses the delay of 0 to 2 time units for
+the ﬁrst 11 attempts and 0 to 1023 time units for 12 to 16
+attempts. The transmitting station gives up when it reaches the
+16th attempt. This is the last-in ﬁrst-out unfair algorithm and
+requires imposing the minimum frame size for the purpose of
+collision detection. In principle, the minimum frame size is
+based on the signal propagation delay on the network and is
+different between baseband and broadband networks. The
+baseband network uses digital signaling, and there is only
+one channel used for the transmission, while the broadband
+network uses analog signaling, and it can have more than one
+channel. One channel is used for transmitting, and another
+channel can be used for receiving. The baseband network has
+two times the propagation delay between the farthest stations
+in the network, and the broadband network has four times the
+propagation delay from the station to the headend, with two
+stations close to each other and as far as possible from the
+‘‘headend.’’ The delay is the minimum transmission time and
+can be converted into the minimum frame size.

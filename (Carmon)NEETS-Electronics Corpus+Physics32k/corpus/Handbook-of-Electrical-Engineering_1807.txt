@@ -1,0 +1,7 @@
+All of the methods described in this subsection assume that the intensity at a given pixel location is reasonably
+constant over time. In addition, the gradient methods assume that the size of the displacements is small. Block
+matching algorithms have been used extensively in real systems, because the computational complexity is not
+too great. The one disadvantage is that there is only one displacement estimate per block. To date, optical ﬂow
+algorithms have found limited use because of their sensitivity to noise. Token matching methods work well for
+applications in which the features are well deﬁned and easily extracted. They are probably not suitable for most
+video communications applications.

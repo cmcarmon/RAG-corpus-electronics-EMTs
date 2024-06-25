@@ -1,0 +1,35 @@
+In the Babbage design, one iteration (i.e., one full set of addition and carry operations) happens for each rotation of the main shaft. Odd and even columns alternately perform an addition in one cycle. The sequence of operations for column
+
+
+
+n
+
+
+{\displaystyle n}
+is thus:
+Count up, receiving the value from column
+
+
+
+n
++
+1
+
+
+{\displaystyle n+1}
+(Addition step)
+Perform carry propagation on the counted up value
+Count down to zero, adding to column
+
+
+
+n
+−
+1
+
+
+{\displaystyle n-1}
+
+Reset the counted-down value to its original value
+Steps 1,2,3,4 occur for every odd column, while steps 3,4,1,2 occur for every even column.
+While Babbage's original design placed the crank directly on the main shaft, it was later realized that the force required to crank the machine would have been too great for a human to handle comfortably. Therefore, the two models that were built incorporate a 4:1 reduction gear at the crank, and four revolutions of the crank are required to perform one full cycle.

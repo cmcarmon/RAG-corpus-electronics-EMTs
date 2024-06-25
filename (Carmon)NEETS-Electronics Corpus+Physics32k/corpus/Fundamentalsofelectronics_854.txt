@@ -1,0 +1,7 @@
+6.21 Source Coding Theorem28
+The signiﬁcance of an alphabet’s entropy rests in how we can represent it with a sequence of bits. Bit
+sequences form the “coin of the realm” in digital communications: they are the universal way of representing
+symbolic-valued signals. We convert back and forth between symbols to bit-sequences with what is known
+as a codebook: a table that associates symbols to bit sequences. In creating this table, we must be able to
+assign a unique bit sequence to each symbol so that we can go between symbol and bit sequences without
+error.

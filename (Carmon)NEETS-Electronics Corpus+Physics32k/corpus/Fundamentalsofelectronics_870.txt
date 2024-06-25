@@ -1,0 +1,6 @@
+6.23 Subtleties of Coding31
+In the Huﬀman code, the bit sequences that represent individual symbols can have diﬀering lengths so the
+bitstream index m does not increase in lock step with the symbol-valued signal’s index n. To capture how
+often bits must be transmitted to keep up with the source’s production of symbols, we can only compute
+averages. If our source code averages B (A) bits/symbol and symbols are produced at a rate R, the average
+bit rate equals B (A) R, and this quantity determines the bit interval duration T .

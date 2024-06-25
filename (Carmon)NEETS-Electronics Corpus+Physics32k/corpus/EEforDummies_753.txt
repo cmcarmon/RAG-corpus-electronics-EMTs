@@ -1,0 +1,6 @@
+You can use a one‐shot to safely trigger a digital logic device (such as the 
+4017 CMOS decade counter described later in this chapter). Mechanical 
+switches tend to “bounce” when closed, producing multiple voltage spikes 
+which a digital IC can misinterpret as multiple trigger signals. Instead, if you 
+trigger a one‐shot with a mechanical switch, and use the output of the one‐
+shot to trigger the digital IC, you can effectively “de‐bounce” the switch.

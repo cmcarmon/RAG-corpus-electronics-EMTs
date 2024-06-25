@@ -1,0 +1,7 @@
+The common-base transistor clamper is similar to the dual diode limiter in figure 4-15, except for the 
+addition of a transistor. In the previous clampers, we have clamped the output signal to a reference. In the 
+transistor common-base clamper, we want to clamp the amplitude of the input to no more than nor less 
+than certain values in the output. Also, we do not want phase inversion in the output. View (A) of figure 
+4-24 shows such a circuit. The transistor does not amplify the input and the output is not inverted. 
+However, the two diode circuits serve to clamp the output between −2 volts and −8 volts, no matter what 
+the varying input positive and negative extremes. 

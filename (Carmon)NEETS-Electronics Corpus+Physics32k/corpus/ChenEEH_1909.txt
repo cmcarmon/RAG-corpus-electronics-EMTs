@@ -1,0 +1,14 @@
+Error-correcting RESO (Laha and Patel, 1983) is essentially
+triple-time redundancy. The circuit and its operands are divided
+into at least three partitions. Successive recomputations are
+performed while shifting the operand portions such that each
+portion is recomputed into three different circuit partitions. In
+a circuit with dependent partitions, such as an adder, an erro-
+neous carry may propagate an error between partitions, making
+it impossible for a given portion of the result to be computed
+correctly. To avoid this problem, comparison of intermediate
+results produces error syndromes that can identify the faulty
+partition and allow correct carries to be saved and then rerouted
+in successive recomputations. Variations on the technique trade
+off additional hardware with a fourth computation. Finally,
+correct result portions are located and assembled into a

@@ -1,0 +1,5 @@
+Fast Fourier Transform
+One of the approaches to speed the computation of the DFT of a sequence is the decimation-in-time method.
+This approach is one of breaking the N-point transform into two (N/2)-point transforms, breaking each (N/2)-
+point transform into two (N/4)-point transforms, and continuing the above process until we obtain the two-
+point transform. We start with the DFT expression and factor it into two DFTs of length N/2:

@@ -1,0 +1,35 @@
+We must ﬁnally come to terms with the apparent contradic-
+tion between the need for zeros in the model and the desire to
+avoid them. Indeed, R(z) itself is composed of a single zero and
+no poles. Some of the early writings on this subject argued that
+if equation 3.2 is a good model for the glottal dynamics, then
+one of the poles of G(z) will approximately cancel the zero zo
+in R(z). This does not, however, resolve the question of
+whether G(z) should contain zeros, or whether, in certain
+cases, T(z) should include zeros to appropriately model a
+phoneme. The answer to these questions depends largely on
+what aspect of speech we are trying to model. In most applica-
+tions, correct spectral magnitude information is all that is
+required of the model. Generally speaking, this is because the
+human auditory system is ‘‘phase deaf ’’ (Milner, 1970), so
+information gleaned from the speech is extracted from its
+magnitude spectrum. While a detailed discussion is beyond
+our current scope (Deller et al., 2000), the critical fact that
+justiﬁes the all-pole model is that a magnitude (but not a
+phase) spectrum for any rational system function can be mod-
+eled to an arbitrary degree of accuracy with a sufﬁcient
+number of stable poles. Therefore, the all-pole model can
+exactly preserve the magnitude spectral dynamics (the ‘‘infor-
+mation’’) in the speech but might not retain the phase charac-
+teristics. In fact, for the speech model to be stable and all pole,
+it must necessarily have a minimum phase spectrum, regardless
+of the true characteristics of the signal being encoded. Ideally,
+the all-pole model will have the correct magnitude spectrum
+but minimum phase characteristic with respect to the ‘‘true’’
+model. If the objective is to code, store, resynthesize, and
+perform other such tasks on the magnitude spectral character-
+istics but not necessarily on the temporal dynamics, the all-
+pole model is perfectly adequate. One should not, however,
+anticipate that the all-pole model can preserve time-domain
+features of speech waveforms because such features depend
+explicitly on the phase spectrum.

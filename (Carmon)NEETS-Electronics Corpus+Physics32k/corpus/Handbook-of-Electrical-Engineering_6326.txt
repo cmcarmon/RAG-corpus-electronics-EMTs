@@ -1,0 +1,6 @@
+Figure 69.22 shows a general block diagram of a digital HDTV transmitter. Each frame from the camera is
+digitized,  and  the  system  has  the  capability  of  storing  one  entire  frame.  Thus  the  processor  works  with  two
+inputs—the  current  frame  (A)  and  the  previous  frame  (B).  The  current  frame  and  the  previous  frame  are
+compared  in  a  motion detector  that  generates  coded  motion  information  (C). Algorithms  used  for  motion
+estimation attempt to produce three-dimensional parameters from sequential two-dimensional information.
+Parameters may include velocity estimates for blocks of the picture.

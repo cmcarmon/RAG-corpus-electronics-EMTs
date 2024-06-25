@@ -1,0 +1,5 @@
+Of course, care must be taken in sizing the shunt resistor low enough so that it doesn’t
+adversely affect the circuit’s normal operation, but this is generally not difﬁcult to do. This
+technique might also be useful in computer circuit analysis, where we might want to have the
+computer display current through a circuit in terms of a voltage (with SPICE, this would allow
+us to avoid the idiosyncrasy of reading negative current values):

@@ -1,0 +1,6 @@
+Disk Caches
+Disk caches place buffer memories between the host and the device. If disk data is likely to be re-referenced,
+caches can be effective in eliminating the seek and rotational latencies. Unfortunately, this effectiveness depends
+critically on the access behavior of the applications. Truly random access with little re-referencing cannot make
+effective  use  of  disk  caches.  However,  applications  that  exhibit  a  large  degree  of  sequential  access  can  use  a
+cache to good purpose, because data can be staged into the cache before it is actually requested.

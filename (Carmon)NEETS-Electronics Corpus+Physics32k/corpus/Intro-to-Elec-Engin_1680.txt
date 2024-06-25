@@ -1,0 +1,6 @@
+Figure 16.3.4(a) shows the block diagram of a simpliﬁed single-axis (pitch, yaw, or roll) autopilot
+control system with digital data. The objective of the control is to make the position of the airframe
+follow the command signal. The rate loop included here helps to improve system stability. Figure
+16.3.4(b) illustrates a digital autopilot control system in which the position and rate information
+are obtained by digital transducers. Sample-and-hold devices are shown on the block diagram.
+While a sampler essentially samples an analog signal at some uniform sampling period, the hold

@@ -1,0 +1,17 @@
+The bounded amplitude performance results are intuitively
+satisfying because they are similar in ﬂavor to the H1 results
+of Becker and Packard (1994); parameter-dependent controller
+synthesis requires the feasibility of a ‘‘controller’’ Riccati in-
+equality (equation 9.18), an ‘‘observer’’ Riccati
+inequality
+(equation 9.20), and a ‘‘spectral radius’’ coupling inequality
+(equation 9.19). Thus, the approach to bounded amplitude
+control described here requires the same type of numerical
+solutions as, for example, induced-L2 control, though the
+bounded amplitude problem may be more computationally
+intensive due to the line search over a.
+As in the induced-L2 problem, the synthesis conditions are
+represented by a set of constraints that must be satisﬁed for
+each u 2 Q and therefore represent an inﬁnite number of
+constraints. The techniques discussed for the induced-L2
+problem are applicable here as well.

@@ -1,0 +1,7 @@
+Pulse-Code Modulation
+PCM  is  essentially  analog-to-digital  conversion  of  a  special  type,  where  the  information  contained  in  the
+instantaneous samples of an analog signal is represented by digital words in a serial bit stream. The PCM signal
+is  generated  by  carrying  out  three  basic  operations:  sampling,  quantizing,  and  encoding  (see  Fig. 69.5).  The
+sampling  operation  generates  a  ﬂat-top  pulse  amplitude  modulation  (PAM)  signal.  The  quantizing  converts
+the  actual  sampled  value  into  the  nearest  of  the  M  amplitude  levels.  The  PCM  signal  is  obtained  from  the
+quantized PAM signal by encoding each quantized sample value into a digital word.

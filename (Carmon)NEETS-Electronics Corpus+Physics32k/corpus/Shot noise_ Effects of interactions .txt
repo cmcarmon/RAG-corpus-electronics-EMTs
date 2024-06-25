@@ -1,0 +1,108 @@
+While this is the result when the electrons contributing to the current occur completely randomly, unaffected by each other, there are important cases in which these natural fluctuations are largely suppressed due to a charge build up. Take the previous example in which an average of 100 electrons go from point A to point B every nanosecond. During the first half of a nanosecond we would expect 50 electrons to arrive at point B on the average, but in a particular half nanosecond there might well be 60 electrons which arrive there. This will create a more negative electric charge at point B than average, and that extra charge will tend to repel the further flow of electrons from leaving point A during the remaining half nanosecond. Thus the net current integrated over a nanosecond will tend more to stay near its average value of 100 electrons rather than exhibiting the expected fluctuations (10 electrons rms) we calculated. This is the case in ordinary metallic wires and in metal film resistors, where shot noise is almost completely cancelled due to this anti-correlation between the motion of individual electrons, acting on each other through the coulomb force.
+However this reduction in shot noise does not apply when the current results from random events at a potential barrier which all the electrons must overcome due to a random excitation, such as by thermal activation. This is the situation in p-n junctions, for instance. A semiconductor diode is thus commonly used as a noise source by passing a particular DC current through it.
+In other situations interactions can lead to an enhancement of shot noise, which is the result of a super-poissonian statistics. For example, in a resonant tunneling diode the interplay of electrostatic interaction and of the density of states in the quantum well leads to a strong enhancement of shot noise when the device is biased in the negative differential resistance region of the current-voltage characteristics.
+Shot noise is distinct from voltage and current fluctuations expected in thermal equilibrium; this occurs without any applied DC voltage or current flowing. These fluctuations are known as Johnson–Nyquist noise or thermal noise and increase in proportion to the Kelvin temperature of any resistive component. However both are instances of white noise and thus cannot be distinguished simply by observing them even though their origins are quite dissimilar.
+Since shot noise is a Poisson process due to the finite charge of an electron, one can compute the root mean square current fluctuations as being of a magnitude
+
+
+
+
+
+σ
+
+i
+
+
+=
+
+
+2
+
+q
+
+I
+
+Δ
+f
+
+
+
+
+{\displaystyle \sigma _{i}={\sqrt {2\,q\,I\,\Delta f}}}
+
+where q is the elementary charge of an electron, Δf is the single-sided bandwidth in hertz over which the noise is considered, and I is the DC current flowing.
+For a current of 100 mA, measuring the current noise over a bandwidth of 1 Hz, we obtain
+
+
+
+
+
+σ
+
+i
+
+
+=
+0.18
+
+
+n
+A
+
+
+.
+
+
+{\displaystyle \sigma _{i}=0.18\,\mathrm {nA} \;.}
+
+If this noise current is fed through a resistor a noise voltage of
+
+
+
+
+
+σ
+
+v
+
+
+=
+
+σ
+
+i
+
+
+
+R
+
+
+{\displaystyle \sigma _{v}=\sigma _{i}\,R}
+
+would be generated. Coupling this noise through a capacitor, one could supply a noise power of
+
+
+
+
+P
+=
+
+
+1
+2
+
+
+
+q
+
+I
+
+Δ
+f
+R
+.
+
+
+{\displaystyle P={\frac {1}{2}}\,q\,I\,\Delta fR.}
+
+to a matched load.

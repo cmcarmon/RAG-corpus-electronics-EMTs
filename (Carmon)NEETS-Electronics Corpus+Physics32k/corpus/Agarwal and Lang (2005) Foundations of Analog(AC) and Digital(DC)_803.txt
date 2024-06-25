@@ -1,0 +1,8 @@
+Although the switch is a nonlinear device, circuits containing a switch
+and other linear devices can be analyzed by considering two linear subcir-
+cuits: one when the switch is in its ON state and one for the switch in its
+OFF state. Thus, standard linear techniques can be applied to each subcir-
+cuit. Figure 6.4 illustrates the two subcircuits for our lightbulb circuit example.
+Analyzing Figure 6.4a, it is easy to see that the current I is zero when the switch
+is OFF. Similarly, analyzing Figure 6.4b, the current is given by I = V/R when
+the switch is in the ON state.

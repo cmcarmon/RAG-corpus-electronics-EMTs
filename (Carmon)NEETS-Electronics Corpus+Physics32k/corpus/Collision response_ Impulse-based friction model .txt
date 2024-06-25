@@ -1,0 +1,565 @@
+One of the most popular models for describing friction is the Coulomb friction model. This model defines coefficients of static friction
+
+
+
+
+
+μ
+
+
+s
+
+
+∈
+
+R
+
+
+
+{\displaystyle {\mu }_{s}\in \mathbb {R} }
+and dynamic friction
+
+
+
+
+
+μ
+
+
+d
+
+
+∈
+
+R
+
+
+
+{\displaystyle {\mu }_{d}\in \mathbb {R} }
+such that
+
+
+
+
+
+μ
+
+
+s
+
+
+>
+
+
+μ
+
+
+d
+
+
+
+
+{\displaystyle {\mu }_{s}>{\mu }_{d}}
+. These coefficients describe the two types of friction forces in terms of the reaction forces acting on the bodies. More specifically, the static and dynamic friction force magnitudes
+
+
+
+
+f
+
+s
+
+
+,
+
+f
+
+d
+
+
+∈
+
+R
+
+
+
+{\displaystyle f_{s},f_{d}\in \mathbb {R} }
+are computed in terms of the reaction force magnitude
+
+
+
+
+f
+
+r
+
+
+=
+
+|
+
+
+
+f
+
+
+r
+
+
+
+|
+
+
+
+{\displaystyle f_{r}=|\mathbf {f} _{r}|}
+as follows
+The value
+
+
+
+
+f
+
+s
+
+
+
+
+{\displaystyle f_{s}}
+defines a maximum magnitude for the friction force required to counter the tangential component of any external sum force applied on a relatively static body, such that it remains static. Thus, if the external force is large enough, static friction is unable to fully counter this force, at which point the body gains velocity and becomes subject to dynamic friction of magnitude
+
+
+
+
+f
+
+d
+
+
+
+
+{\displaystyle f_{d}}
+acting against the sliding velocity.
+The Coulomb friction model effectively defines a friction cone within which the tangential component of a force exerted by one body on the surface of another in static contact, is countered by an equal and opposite force such that the static configuration is maintained. Conversely, if the force falls outside the cone, static friction gives way to dynamic friction.
+Given the contact normal
+
+
+
+
+
+
+n
+^
+
+
+
+∈
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {\hat {n}} \in \mathbb {R} ^{3}}
+and relative velocity
+
+
+
+
+
+v
+
+
+r
+
+
+∈
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {v} _{r}\in \mathbb {R} ^{3}}
+of the contact point, a tangent vector
+
+
+
+
+
+
+t
+^
+
+
+
+∈
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {\hat {t}} \in \mathbb {R} ^{3}}
+, orthogonal to
+
+
+
+
+
+
+n
+^
+
+
+
+
+
+{\displaystyle \mathbf {\hat {n}} }
+, may be defined such that
+where
+
+
+
+
+
+f
+
+
+e
+
+
+∈
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {f} _{e}\in \mathbb {R} ^{3}}
+is the sum of all external forces on the body. The multi-case definition of
+
+
+
+
+
+
+t
+^
+
+
+
+
+
+{\displaystyle \mathbf {\hat {t}} }
+is required for robustly computing the actual friction force
+
+
+
+
+
+f
+
+
+f
+
+
+∈
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {f} _{f}\in \mathbb {R} ^{3}}
+for both the general and particular states of contact. Informally, the first case computes the tangent vector along the relative velocity component perpendicular to the contact normal
+
+
+
+
+
+
+n
+^
+
+
+
+
+
+{\displaystyle \mathbf {\hat {n}} }
+. If this component is zero, the second case derives
+
+
+
+
+
+
+t
+^
+
+
+
+
+
+{\displaystyle \mathbf {\hat {t}} }
+in terms of the tangent component of the external force
+
+
+
+
+
+f
+
+
+e
+
+
+∈
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {f} _{e}\in \mathbb {R} ^{3}}
+. If there is no tangential velocity or external forces, then no friction is assumed, and
+
+
+
+
+
+
+t
+^
+
+
+
+
+
+{\displaystyle \mathbf {\hat {t}} }
+may be set to the zero vector. Thus,
+
+
+
+
+
+f
+
+
+f
+
+
+∈
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {f} _{f}\in \mathbb {R} ^{3}}
+is computed as
+Equations (6a), (6b), (7) and (8) describe the Coulomb friction model in terms of forces. By adapting the argument for instantaneous impulses, an impulse-based version of the Coulomb friction model may be derived, relating a frictional impulse
+
+
+
+
+
+j
+
+
+f
+
+
+∈
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {j} _{f}\in \mathbb {R} ^{3}}
+, acting along the tangent
+
+
+
+
+
+
+t
+^
+
+
+
+
+
+{\displaystyle \mathbf {\hat {t}} }
+, to the reaction impulse
+
+
+
+
+
+j
+
+
+r
+
+
+∈
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {j} _{r}\in \mathbb {R} ^{3}}
+. Integrating (6a) and (6b) over the collision time interval
+
+
+
+[
+
+t
+
+0
+
+
+.
+.
+
+t
+
+1
+
+
+]
+
+
+{\displaystyle [t_{0}..t_{1}]}
+yields
+where
+
+
+
+
+j
+
+r
+
+
+=
+
+|
+
+
+
+j
+
+
+r
+
+
+
+|
+
+
+
+{\displaystyle j_{r}=|\mathbf {j} _{r}|}
+is the magnitude of the reaction impulse acting along contact normal
+
+
+
+
+
+
+n
+^
+
+
+
+
+
+{\displaystyle \mathbf {\hat {n}} }
+. Similarly, by assuming
+
+
+
+
+
+
+t
+^
+
+
+
+
+
+{\displaystyle \mathbf {\hat {t}} }
+constant throughout the time interval, the integration of (8) yields
+Equations (5) and (10) define an impulse-based contact model that is ideal for impulse-based simulations. When using this model, care must be taken in the choice of
+
+
+
+
+
+μ
+
+
+s
+
+
+
+
+{\displaystyle {\mu }_{s}}
+and
+
+
+
+
+
+μ
+
+
+d
+
+
+
+
+{\displaystyle {\mu }_{d}}
+as higher values may introduce additional kinetic energy into the system.

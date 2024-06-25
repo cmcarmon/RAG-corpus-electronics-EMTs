@@ -1,0 +1,55 @@
+In fluid dynamics, the continuity equation states that the rate at which mass enters a system is equal to the rate at which mass leaves the system plus the accumulation of mass within the system. The differential form of the continuity equation is:
+
+
+
+
+
+
+
+∂
+ρ
+
+
+∂
+t
+
+
+
++
+∇
+⋅
+(
+ρ
+
+u
+
+)
+=
+0
+
+
+{\displaystyle {\frac {\partial \rho }{\partial t}}+\nabla \cdot (\rho \mathbf {u} )=0}
+
+where
+ρ is fluid density,
+t is time,
+u is the flow velocity vector field.
+The time derivative can be understood as the accumulation (or loss) of mass in the system, while the divergence term represents the difference in flow in versus flow out. In this context, this equation is also one of the Euler equations (fluid dynamics). The Navier–Stokes equations form a vector continuity equation describing the conservation of linear momentum.
+If the fluid is an incompressible flow (ρ is constant), the mass continuity equation simplifies to a volume continuity equation:
+
+
+
+
+∇
+⋅
+
+u
+
+=
+0
+,
+
+
+{\displaystyle \nabla \cdot \mathbf {u} =0,}
+
+which means that the divergence of velocity field is zero everywhere. Physically, this is equivalent to saying that the local volume dilation rate is zero, hence a flow of water through a converging pipe will adjust solely by increasing its velocity as water is largely incompressible.

@@ -1,0 +1,14 @@
+In most digital systems, a clock signal is provided to different modules of the
+system. A clock signal is typically a square wave between 0 volts and the supply
+voltage. The clock signal provides a global time base that prescribes when
+actions happen in systems. The use of a clock attempts to solve the following
+problem faced by the receiver in a pair of communicating digital systems: How
+to determine when a signal supplied by the sender is valid. Or conversely,
+how to recognize when a signal might be in the midst of transitioning to a
+new value. For example, we might use a stable-high clock discipline in which
+the sender promises to provide output signals so that they remain stable during
+the high part of the clock waveform. In other words, signals are allowed to
+transition only during the low parts of a clock. Correspondingly, the receiver
+promises to observe incoming signals only when the clock is high. Accordingly,
+the receiver circuit guarantees that its own outputs are stable when the clock is
+high, provided, of course, valid inputs are fed to it.

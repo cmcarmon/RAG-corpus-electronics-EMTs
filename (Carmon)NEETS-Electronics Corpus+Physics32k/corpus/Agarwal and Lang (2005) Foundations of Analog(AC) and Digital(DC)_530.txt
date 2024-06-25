@@ -1,0 +1,9 @@
+An analogous derivation to that in Section 3.6.1 gives rise to the Norton equiv-
+alent network. Recall that our goal is to find the v i relation for the network in
+Figure 3.75a so that we can replace the network with a simple equivalent circuit
+that yields the same v i relation as the original network. To find the v i relation-
+ship, this time we apply a test voltage vtest to the circuit, as in Figure 3.75b, and
+find the resultant current it. Using superposition, the two subcircuits needed
+to find it are shown in Figure 3.75c and 3.75d. In 3.75c, vtest is set to zero
+and we measure ia. In 3.75d, all independent sources are set to zero and we
+measure ib. Then,

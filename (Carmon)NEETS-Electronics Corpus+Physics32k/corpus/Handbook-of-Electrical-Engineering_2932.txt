@@ -1,0 +1,7 @@
+The smallest signal that can be ampliﬁed is always limited by the inherent random noise internal to the op
+amp  itself.  In  Fig.  27.3  the  noise  effects  are  represented  by  an  equivalent  input  voltage  source  (ENV),  which
+when multiplied by the gain of the op amp would equal the total output noise present if the inputs to the op
+amp were shorted. In a similar fashion, if the inputs to the op amp were open circuited, the total output noise
+would equal the sum of the noise due to the equivalent input current sources (ENI+ and ENI–), each multiplied
+by  their  respective  current  gain  to  the  output.  Because  noise  is  a  random  variable,  this  summation  must  be
+accomplished in a squared fashion, i.e.,

@@ -1,0 +1,19 @@
+1998; Zhang and Jiang, 1999; Laparo et al., 1991), complete
+online fault detection and diagnosis are still impossible at
+present due to the inherent complexity of the problems and
+the time constraint in online operations. Until the invention
+of breakthrough technology for FDD, from the realistic point
+of view, ﬁnding a better trade-off solution for real implemen-
+tation based on contemporary technology is the best an engi-
+neer can do. Moreover, from the system online safety point of
+view, false alarms are always preferable over missed detection.
+Thus, a conservative fault-detection scheme with least compu-
+tational cost is a good choice to guarantee avoidance of missed
+detection in online situations. The problem of failure isolation
+is even more difﬁcult to solve when there is more than one
+fault involved. Similarly, the conservative diagnostic attitude
+should be preferable since the price of the misdiagnosis and
+mistreatment could be instability and unaffordable loss.
+A possible cost-effective and conservative fault-detection and
+diagnosis schemes used in the later online simulation section is
+shown in equations 8.29 and 8.30, respectively:

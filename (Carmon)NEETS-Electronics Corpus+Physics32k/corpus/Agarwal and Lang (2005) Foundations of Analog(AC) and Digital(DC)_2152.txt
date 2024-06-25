@@ -1,0 +1,5 @@
+The fact that the current through RL is independent of the value of RL
+suggests that the Op Amp circuit looks like a current source. It is a simple
+matter to verify this more formally: Replace RL by a test source, and find the
+Thévenin output resistance of the circuit. In this case we choose a test current
+source it, as in Figure 15.16:

@@ -1,0 +1,10 @@
+Feedback  analysis  uses  a  block  diagram  representation  of  the  system  based 
+around the path of signal flow. In this representation, the signal can be voltage, current, 
+or  any  other  physical  quantity.  All  physical  mechanisms  and  circuit  networks  are 
+abstracted  as  linear  operations  on  the  signal,  which  consists  of  either  multiplying  the 
+signal by a constant factor or summing two or more signals together. It is important to 
+remember that these linear operations are complex and that means both the amplitude and 
+phase of the signal may be modified. 
+ 
+ 
+10.3 Non-inverting Amplifier 

@@ -1,0 +1,13 @@
+The mixed-mode property of the entity DAC is easily visible
+from the interface description. There is both a signal and
+a terminal deﬁnition at ports. Obviously, the model is aimed
+to the behavioral abstraction level. The branch quantities
+related to the terminal A linked to the nature Electrical are
+deﬁned in the architectural body. There are two architecture
+statements in the executable part of the architectural body: a
+compound simultaneous statement (if . . . use . . . else . . . end
+use) and the break statement that is sensitive to an event on
+the signal S. The output voltage [V] of the D/A converter is
+recalculated each time the signal value of S changes. Note that
+no additional equations or deﬁnitions are required to enforce
+conservation laws at port A.

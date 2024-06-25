@@ -1,0 +1,15 @@
+Creating a speciﬁc transfer function with op-amps does not have a unique answer. As opposed to design
+with passive circuits, electronics is more ﬂexible (a cascade of circuits can be built so that each has little
+eﬀect on the others; see Problem 3.43) and gain (increase in power and amplitude) can result. To complete
+our example, let’s assume we want a lowpass ﬁlter that emulates what the telephone companies do. Signals
+transmitted over the telephone have an upper frequency limit of about 3 kHz. For the second design choice,
+we require RF C = 5.3 × 10−5. Thus, many choices for resistance and capacitance values are possible. A
+1 µF capacitor and a 330 Ω resistor, 10 nF and 33 kΩ, and 10 pF and 33 MΩ would all theoretically work.
+Let’s also desire a voltage gain of ten: RF
+. Recall that we must have R < Rin.
+R
+As the op-amp’s input impedance is about 1 MΩ, we don’t want R too large, and this requirement means
+that the last choice for resistor/capacitor values won’t work. We also need to ask for less gain than the
+op-amp can provide itself. Because the feedback “element” is an impedance (a parallel resistor capacitor
+combination), we need to examine the gain requirement more carefully. We must have
+< 105 for all

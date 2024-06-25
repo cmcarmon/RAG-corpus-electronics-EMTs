@@ -1,0 +1,12 @@
+A problem that is even more signiﬁcant than parasitic substrate dynamics stems from the fact that the hybrid-
+pi equivalent circuit in Fig. 28.11 is premised on a uniform transistor structure whose emitter-base and base-
+collector junction areas are identical. In a monolithic device, however, the effective base-collector junction area
+is much larger than that of the emitter-base junction because the base region is diffused or implanted into the
+collector [Glaser and Subak-Sharpe, 1977]. The effect of such a geometry is twofold. First, the actual value of
+Cm is larger than the value predicated on the physical considerations that surround a simpliﬁed uniform structure
+BJT. Second, Cm is not a single lumped capacitance that is incident with only the intrinsic base-collector junction.
+Rather,  the  effective  value  of  Cm  is  distributed  between  the  intrinsic  collector  and  the  entire  base-collector
+junction  interface. A  ﬁrst-order  account  of  this  capacitance  distribution  entails  partitioning Cm  in  Fig.  28.11
+into two capacitances, say Cm1 and Cm2, as indicated in Fig. 28.13. In general, Cm2 is 3 to 5 times larger than Cm1.
+Whereas  Cm1  is  proportional  to  the  emitter-base  junction  area,  Cm2  is  proportional  to  the  net  base-collector
+junction area, less the area of the emitter-base junction.

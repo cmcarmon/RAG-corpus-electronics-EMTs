@@ -1,0 +1,13 @@
+Sonar flow meters are non-intrusive clamp on devices that measure flow in pipes conveying slurries, corrosive fluids, multiphase fluids and flows where insertion type flow meters are not desired. Sonar flow meters have been widely adopted in mining, metals processing, and upstream oil and gas industries where traditional technologies have certain limitations due to their tolerance to various flow regimes and turn down ratios.
+Sonar flow meters have the capacity of measuring the velocity of liquids or gases non intrusively within the pipe and then leverage this velocity measurement into a flow rate by using the cross sectional area of the pipe and the line pressure and temperature. The principle behind this flow measurement is the use of underwater acoustics.
+In underwater acoustics, to locate an object underwater, sonar uses two knowns:
+The speed of sound propagation through the array (i.e. the sound speed of sea water)
+The spacing between the sensors in the sensor array
+and then calculates the unknown:
+The location (or angle) of the object.
+Likewise, sonar flow measurement uses the same techniques and algorithms employed in underwater acoustics, but applies them to flow measurement of oil and gas wells and flow lines.
+To measure flow velocity, sonar flow meters use two knowns:
+The location (or angle) of the object, which is 0 degrees since the flow is moving along the pipe, which is aligned with the sensor array
+The spacing between the sensors in the sensor array
+and then calculates the unknown:
+The speed of propagation through the array (i.e. the flow velocity of the medium in the pipe).

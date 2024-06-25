@@ -1,0 +1,242 @@
+If the Earth were an airless world like the Moon, the above calculations would be accurate. However, Earth has an atmosphere of air, whose density and refractive index vary considerably depending on the temperature and pressure. This makes the air refract light to varying extents, affecting the appearance of the horizon. Usually, the density of the air just above the surface of the Earth is greater than its density at greater altitudes. This makes its refractive index greater near the surface than at higher altitudes, which causes light that is travelling roughly horizontally to be refracted downward. This makes the actual distance to the horizon greater than the distance calculated with geometrical formulas. With standard atmospheric conditions, the difference is about 8%. This changes the factor of 3.57, in the metric formulas used above, to about 3.86. This correction can be, and often is, applied as a fairly good approximation when conditions are close to standard. When conditions are unusual, this approximation fails. Refraction is strongly affected by temperature gradients, which can vary considerably from day to day, especially over water. In extreme cases, usually in springtime, when warm air overlies cold water, refraction can allow light to follow the Earth's surface for hundreds of kilometres. Opposite conditions occur, for example, in deserts, where the surface is very hot, so hot, low-density air is below cooler air. This causes light to be refracted upward, causing mirage effects that make the concept of the horizon somewhat meaningless. Calculated values for the effects of refraction under unusual conditions are therefore only approximate. Nevertheless, attempts have been made to calculate them more accurately than the simple approximation described above.
+Outside the visual wavelength range, refraction will be different. For radar (e.g. for wavelengths 300 to 3 mm i.e. frequencies between 1 and 100 GHz) the radius of the Earth may be multiplied by 4/3 to obtain an effective radius giving a factor of 4.12 in the metric formula i.e. the radar horizon will be 15% beyond the geometrical horizon or 7% beyond the visual. The 4/3 factor is not exact, as in the visual case the refraction depends on atmospheric conditions.
+Integration method—Sweer
+If the density profile of the atmosphere is known, the distance d to the horizon is given by
+
+
+
+
+d
+=
+
+
+
+R
+
+
+E
+
+
+
+
+(
+
+ψ
++
+δ
+
+)
+
+
+,
+
+
+{\displaystyle d={{R}_{\text{E}}}\left(\psi +\delta \right)\,,}
+
+where RE is the radius of the Earth, ψ is the dip of the horizon and δ is the refraction of the horizon. The dip is determined fairly simply from
+
+
+
+
+cos
+⁡
+ψ
+=
+
+
+
+
+
+R
+
+
+E
+
+
+
+
+μ
+
+
+0
+
+
+
+
+
+(
+
+
+
+
+R
+
+
+E
+
+
+
++
+h
+
+)
+
+μ
+
+
+
+
+,
+
+
+{\displaystyle \cos \psi ={\frac {{R}_{\text{E}}{\mu }_{0}}{\left({{R}_{\text{E}}}+h\right)\mu }}\,,}
+
+where h is the observer's height above the Earth, μ is the index of refraction of air at the observer's height, and μ0 is the index of refraction of air at Earth's surface.
+The refraction must be found by integration of
+
+
+
+
+δ
+=
+−
+
+∫
+
+0
+
+
+h
+
+
+
+tan
+⁡
+ϕ
+
+
+
+
+d
+
+μ
+
+μ
+
+
+
+
+,
+
+
+{\displaystyle \delta =-\int _{0}^{h}{\tan \phi {\frac {{\text{d}}\mu }{\mu }}}\,,}
+
+where
+
+
+
+ϕ
+
+
+
+
+{\displaystyle \phi \,\!}
+is the angle between the ray and a line through the center of the Earth. The angles ψ and
+
+
+
+ϕ
+
+
+
+
+{\displaystyle \phi \,\!}
+are related by
+
+
+
+
+ϕ
+=
+90
+
+
+
+
+
+∘
+
+
+−
+ψ
+
+.
+
+
+{\displaystyle \phi =90{}^{\circ }-\psi \,.}
+
+Simple method—Young
+A much simpler approach, which produces essentially the same results as the first-order approximation described above, uses the geometrical model but uses a radius R′ = 7/6 RE. The distance to the horizon is then
+
+
+
+
+d
+=
+
+
+2
+
+R
+
+′
+
+
+h
+
+
+
+.
+
+
+{\displaystyle d={\sqrt {2R^{\prime }h}}\,.}
+
+Taking the radius of the Earth as 6371 km, with d in km and h in m,
+
+
+
+
+d
+≈
+3.86
+
+
+h
+
+
+
+;
+
+
+{\displaystyle d\approx 3.86{\sqrt {h}}\,;}
+
+with d in mi and h in ft,
+
+
+
+
+d
+≈
+1.32
+
+
+h
+
+
+
+.
+
+
+{\displaystyle d\approx 1.32{\sqrt {h}}\,.}
+
+Results from Young's method are quite close to those from Sweer's method, and are sufficiently accurate for many purposes.

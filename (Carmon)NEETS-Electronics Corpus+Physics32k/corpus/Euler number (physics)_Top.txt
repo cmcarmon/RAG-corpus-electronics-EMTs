@@ -1,0 +1,259 @@
+The Euler number (Eu) is a dimensionless number used in fluid flow calculations. It expresses the relationship between a local pressure drop caused by a restriction and the kinetic energy per volume of the flow, and is used to characterize energy losses in the flow, where a perfect frictionless flow corresponds to an Euler number of 0. The inverse of the Euler number is referred to as the Ruark Number with the symbol Ru.
+It is defined as
+
+
+
+
+
+E
+u
+
+=
+
+
+
+
+pressure forces
+
+
+inertial forces
+
+
+
+
+=
+
+
+
+
+(pressure)(area)
+
+
+(mass)(acceleration)
+
+
+
+
+=
+
+
+
+(
+
+p
+
+u
+
+
+−
+
+p
+
+d
+
+
+)
+
+
+L
+
+2
+
+
+
+
+(
+ρ
+
+L
+
+3
+
+
+)
+(
+
+v
+
+2
+
+
+
+/
+
+L
+)
+
+
+
+=
+
+
+
+
+p
+
+u
+
+
+−
+
+p
+
+d
+
+
+
+
+ρ
+
+v
+
+2
+
+
+
+
+
+
+
+{\displaystyle \mathrm {Eu} ={\dfrac {\mbox{pressure forces}}{\mbox{inertial forces}}}={\dfrac {\mbox{(pressure)(area)}}{\mbox{(mass)(acceleration)}}}={\frac {(p_{u}-p_{d})\,L^{2}}{(\rho L^{3})(v^{2}/L)}}={\frac {p_{u}-p_{d}}{\rho v^{2}}}}
+
+where
+
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+is the density of the fluid.
+
+
+
+
+
+p
+
+u
+
+
+
+
+{\displaystyle p_{u}}
+is the upstream pressure.
+
+
+
+
+
+p
+
+d
+
+
+
+
+{\displaystyle p_{d}}
+is the downstream pressure.
+
+
+
+
+v
+
+
+{\displaystyle v}
+is a characteristic velocity of the flow.
+The cavitation number has a similar structure, but a different meaning and use:
+The Cavitation number (Ca) is a dimensionless number used in flow calculations. It expresses the relationship between the difference of a local absolute pressure from the vapor pressure and the kinetic energy per volume, and is used to characterize the potential of the flow to cavitate.
+It is defined as
+
+
+
+
+
+C
+a
+
+=
+
+
+
+p
+−
+
+p
+
+
+v
+
+
+
+
+
+
+
+1
+2
+
+
+ρ
+
+v
+
+2
+
+
+
+
+
+
+
+{\displaystyle \mathrm {Ca} ={\frac {p-p_{\mathrm {v} }}{{\frac {1}{2}}\rho v^{2}}}}
+
+where
+
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+is the density of the fluid.
+
+
+
+
+p
+
+
+{\displaystyle p}
+is the local pressure.
+
+
+
+
+
+p
+
+
+v
+
+
+
+
+
+{\displaystyle p_{\mathrm {v} }}
+is the vapor pressure of the fluid.
+
+
+
+
+v
+
+
+{\displaystyle v}
+is a characteristic velocity of the flow.

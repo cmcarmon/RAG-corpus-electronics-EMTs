@@ -1,0 +1,57 @@
+There have been many dozens of derivations of the Lorentz transformations since Einstein's original work in 1905, each with its particular focus. Although Einstein's derivation was based on the invariance of the speed of light, there are other physical principles that may serve as starting points. Ultimately, these alternative starting points can be considered different expressions of the underlying principle of locality, which states that the influence that one particle exerts on another can not be transmitted instantaneously.
+The derivation given here and illustrated in Fig. 3‑5 is based on one presented by Bais and makes use of previous results from the Relativistic Composition of Velocities, Time Dilation, and Length Contraction sections. Event P has coordinates (w, x) in the black "rest system" and coordinates (w′, x′) in the red frame that is moving with velocity parameter β = v/c. How do we determine w′ and x′ in terms of w and x? (Or the other way around, of course.)
+It is easier at first to derive the inverse Lorentz transformation.
+We start by noting that there can be no such thing as length expansion/contraction in the transverse directions. y' must equal y and z′ must equal z, otherwise whether a fast moving 1 m ball could fit through a 1 m circular hole would depend on the observer. The first postulate of relativity states that all inertial frames are equivalent, and transverse expansion/contraction would violate this law.
+From the drawing, w = a + b and x = r + s
+From previous results using similar triangles, we know that s/a = b/r = v/c = β.
+We know that because of time dilation, a = γw′
+Substituting equation (4) into s/a = β yields s = γw′β.
+Length contraction and similar triangles give us r = γx′ and b = βr = βγ'x′
+Substituting the expressions for s, a, r and b into the equations in Step 2 immediately yield
+
+
+
+
+w
+=
+γ
+
+w
+′
+
++
+β
+γ
+
+x
+′
+
+
+
+{\displaystyle w=\gamma w'+\beta \gamma x'}
+
+
+
+
+
+x
+=
+γ
+
+x
+′
+
++
+β
+γ
+
+w
+′
+
+
+
+{\displaystyle x=\gamma x'+\beta \gamma w'}
+
+
+The above equations are alternate expressions for the t and x equations of the inverse Lorentz transformation, as can be seen by substituting ct for w, ct′ for w′, and v/c for β. From the inverse transformation, the equations of the forwards transformation can be derived by solving for t′ and x′.
+Return to Introduction

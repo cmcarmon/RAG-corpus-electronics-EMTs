@@ -1,0 +1,297 @@
+The COR is not a material property because it changes with the shape of the material and the specifics of the collision, but it can be predicted from material properties and the velocity of impact when the specifics of the collision are simplified. To avoid the complications of rotational and frictional losses, we can consider the ideal case of an identical pair of spherical objects, colliding so that their centers of mass and relative velocity are all in-line.
+Many materials like metals and ceramics (but not rubbers and plastics) are assumed to be perfectly elastic when their yield strength is not approached during impact. The impact energy is theoretically stored only in the spring-effect of elastic compression and results in e = 1. But this applies only at velocities less than about 0.1 m/s to 1 m/s. The elastic range can be exceeded at higher velocities because all the kinetic energy is concentrated at the point of impact. Specifically, the yield strength is usually exceeded in part of the contact area, losing energy to plastic deformation by not remaining in the elastic region. To account for this, the following estimates the COR by estimating the percent of the initial impact energy that did not get lost to plastic deformation. Approximately, it divides how easy a volume of the material can store energy in compression (
+
+
+
+1
+
+/
+
+
+elastic modulus
+
+
+
+{\displaystyle 1/{\text{elastic modulus}}}
+) by how well it can stay in the elastic range (
+
+
+
+1
+
+/
+
+
+yield strength
+
+
+
+{\displaystyle 1/{\text{yield strength}}}
+):
+
+
+
+
+%
+
+impact energy available for restitution
+
+∝
+
+
+yield strength
+elastic modulus
+
+
+
+
+{\displaystyle \%{\text{impact energy available for restitution}}\propto {\frac {\text{yield strength}}{\text{elastic modulus}}}}
+
+For a given material density and velocity this results in:
+
+
+
+
+
+coefficient of restitution
+
+∝
+
+
+
+yield strength
+elastic modulus
+
+
+
+
+
+{\displaystyle {\text{coefficient of restitution}}\propto {\sqrt {\frac {\text{yield strength}}{\text{elastic modulus}}}}}
+
+A high yield strength allows more of the "contact volume" of the material to stay in the elastic region at higher energies. A lower elastic modulus allows a larger contact area to develop during impact so the energy is distributed to a larger volume beneath the surface at the contact point. This helps prevent the yield strength from being exceeded.
+A more precise theoretical development shows the velocity and density of the material to also be important when predicting the COR at moderate velocities faster than elastic collision (greater than 0.1 m/s for metals) and slower than large permanent plastic deformation (less than 100 m/s). A lower velocity increases the coefficient by needing less energy to be absorbed. A lower density also means less initial energy needs to be absorbed. The density instead of mass is used because the volume of the sphere cancels out with the volume of the affected volume at the contact area. In this way, the radius of the sphere does not affect the coefficient. A pair of colliding spheres of different sizes but of the same material have the same coefficient as below, but multiplied by
+
+
+
+
+
+(
+
+
+
+R
+
+1
+
+
+
+R
+
+2
+
+
+
+
+)
+
+
+
+3
+8
+
+
+
+
+
+{\displaystyle \left({\frac {R_{1}}{R_{2}}}\right)^{\frac {3}{8}}}
+
+Combining these four variables, a theoretical estimation of the coefficient of restitution can be made when a ball is dropped onto a surface of the same material.
+e = coefficient of restitution
+Sy = dynamic yield strength (dynamic "elastic limit")
+E′ = effective elastic modulus
+ρ = density
+v = velocity at impact
+μ = Poisson's ratio
+
+
+
+
+e
+=
+3.1
+
+
+(
+
+
+
+S
+
+y
+
+
+1
+
+
+)
+
+
+
+5
+8
+
+
+
+
+
+(
+
+
+1
+
+E
+′
+
+
+
+)
+
+
+
+1
+2
+
+
+
+
+
+(
+
+
+1
+v
+
+
+)
+
+
+
+1
+4
+
+
+
+
+
+(
+
+
+1
+ρ
+
+
+)
+
+
+
+1
+8
+
+
+
+
+
+{\displaystyle e=3.1\left({\frac {S_{\text{y}}}{1}}\right)^{\frac {5}{8}}\left({\frac {1}{E'}}\right)^{\frac {1}{2}}\left({\frac {1}{v}}\right)^{\frac {1}{4}}\left({\frac {1}{\rho }}\right)^{\frac {1}{8}}}
+
+
+
+
+
+
+E
+′
+
+=
+
+
+E
+
+1
+−
+
+μ
+
+2
+
+
+
+
+
+
+
+{\displaystyle E'={\frac {E}{1-\mu ^{2}}}}
+
+This equation overestimates the actual COR. For metals, it applies when v is approximately between 0.1 m/s and 100 m/s and in general when:
+
+
+
+
+0.001
+<
+
+
+
+ρ
+
+v
+
+2
+
+
+
+
+S
+
+y
+
+
+
+
+<
+0.1
+
+
+{\displaystyle 0.001<{\frac {\rho v^{2}}{S_{\text{y}}}}<0.1}
+
+At slower velocities the COR is higher than the above equation predicts, theoretically reaching e=1 when the above fraction is less than
+
+
+
+
+10
+
+−
+6
+
+
+
+
+{\displaystyle 10^{-6}}
+m/s. It gives the following theoretical coefficient of restitution for solid spheres dropped 1 meter (v = 4.5 m/s). Values greater than 1 indicate that the equation has errors. Yield strength instead of dynamic yield strength was used.
+The COR for plastics and rubbers are greater than their actual values because they do not behave as ideally elastic as metals, glasses, and ceramics due to heating during compression. So the following is only a guide to ranking of polymers.
+Polymers (overestimated compared to metals and ceramics):
+polybutadiene (golf balls shell) 11.8
+butyl rubber 6.24
+EVA 4.85
+silicone elastomers 2.80
+polycarbonate 1.46
+nylon 1.28
+polyethylene 1.24
+Teflon 1.21
+polypropylene 1.14
+ABS 1.12
+acrylic 1.06
+PET 0.95
+polystyrene 0.87
+PVC 0.86
+For metals the range of speeds to which this theory can apply is about 0.1 to 5 m/s which is a drop of 0.5 mm to 1.25 meters (page 366).

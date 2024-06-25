@@ -1,0 +1,8 @@
+In principle, the solution is rather simple. Whenever a thread will manipulate memory or perform an I/O
+ thread that will modify that memory location or do I/O to that ﬁle
+operation, it must ensure that it is the 
+. A lock is a mechanism that allows
+until it has completed the operation. To do so, the programmer uses a 
+only a single thread to execute a given code segment at a time. Consider an application with several threads of
+control. Each thread performs an action and writes the result to a ﬁle—the same ﬁle. Within each thread we
+might have code that looks as follows:

@@ -1,0 +1,8 @@
+The latency is half the revolution period of the disk, since a randomly selected sector is, on the average, halfway
+along the track from the point where the head initially lands. Thus for a disk rotating at 1200 rpm tl = 25 ms,
+while at 3600 rpm tl  . 8.3 ms. The seek time, on the other hand, is independent of the rotation speed, but is
+determined by the traveling distance of the head during an average seek, as well as by the mechanism of head
+actuation. It can be shown that the average length of travel in a random seek is one third of the full stroke. (In
+our notation the full stroke is rmax – rmin.) In magnetic disk drives where the head/actuator assembly is relatively
+light-weight  (a  typical Winchester  head  weighs  about  5  grams)  the  acceleration  and  deceleration  periods  are
+short, and seek times are typically around 10 ms in small drives (i.e., 5.25 and 3.5 in.). In optical disk systems,

@@ -1,0 +1,22 @@
+behavior, and a Gray code is optimal in such a case (Mehendale
+et al., 1998a, 1998b; Su et al., 1994) (as much as a 50% reduction
+is cited in (Mehendale et al., 1998a). Another similar technique
+is the asymptotic zero-transition encoding used in Benini et al.
+(1997). Taking this further, there is really no need to actually
+send a new sequential address for burst transfers on a synchro-
+nous bus; only the ﬁrst address is actually transferred, whereas
+the next addresses in the burst are locally generated. Another
+low-power encoding scheme is to add redundancy in a con-
+trolled manner such that the correlation in time between suc-
+cessive data values reduces the switching activity. One example
+of these techniques is the bus-invert encoding (BIE) (Fujiwara
+and Pradhan, 1990; Stan and Burleson, 1995) used for buses
+with lengths K > 2. The idea is to use one extra bus line, called
+an invert. The method computes the Hamming distance be-
+tween the present encoded bus value and the next data value. If
+the distance is greater than K/2, then the transmitter inverts the
+next value and signals the inversion with invert ¼ 1. Otherwise,
+the next value is not inverted and invert ¼ 0. The value of invert
+must be transmitted over the bus to recover the correct infor-
+mation at the receiver; hence, the method increases the number
+of bus lines by one.

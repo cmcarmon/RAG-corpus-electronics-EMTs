@@ -1,0 +1,6 @@
+As the second step, we must determine linearized small-signal models for each of the
+circuit components. This step is trivial for our example, since all the elements are linear
+(including the BJT, since we are given that it always operates in its active region). The
+small-signal equivalents for the DC sources are short circuits, and those for the linear
+resistors are the resistors themselves. Finally, we will use the small-signal model for the
+BJT operating in its active region (developed in Example 8.6) illustrated in Figure 8.42c.

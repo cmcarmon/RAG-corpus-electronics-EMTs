@@ -1,0 +1,5 @@
+The repetition code (p. 224) represents a special case of what is known as block channel coding. For every
+K bits that enter the block channel coder, it inserts an additional N − K error-correction bits to produce a
+block of N bits for transmission. We use the notation (N, K) to represent a given block code’s parameters.
+In the three-fold repetition code (p. 224), K = 1 and N = 3. A block code’s coding eﬃciency E equals
+the ratio K/N, and quantiﬁes the overhead introduced by channel coding. The rate at which bits must be

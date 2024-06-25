@@ -1,0 +1,209 @@
+The Stokes number (Stk), named after George Gabriel Stokes, is a dimensionless number characterising the behavior of particles suspended in a fluid flow. The Stokes number is defined as the ratio of the characteristic time of a particle (or droplet) to a characteristic time of the flow or of an obstacle, or
+
+
+
+
+
+S
+t
+k
+
+=
+
+
+
+
+t
+
+0
+
+
+
+
+u
+
+0
+
+
+
+
+l
+
+0
+
+
+
+
+
+
+{\displaystyle \mathrm {Stk} ={\frac {t_{0}\,u_{0}}{l_{0}}}}
+
+where
+
+
+
+
+t
+
+0
+
+
+
+
+{\displaystyle t_{0}}
+is the relaxation time of the particle (the time constant in the exponential decay of the particle velocity due to drag),
+
+
+
+
+u
+
+0
+
+
+
+
+{\displaystyle u_{0}}
+is the fluid velocity of the flow well away from the obstacle and
+
+
+
+
+l
+
+0
+
+
+
+
+{\displaystyle l_{0}}
+is the characteristic dimension of the obstacle (typically its diameter). A particle with a low Stokes number follows fluid streamlines (perfect advection), while a particle with a large Stokes number is dominated by its inertia and continues along its initial trajectory.
+In the case of Stokes flow, which is when the particle (or droplet) Reynolds number is less than unity. Then the particle drag coefficient is inversely proportional to the Reynolds number itself, the characteristic time of the particle can be defined as
+
+
+
+
+
+t
+
+0
+
+
+=
+
+
+
+
+ρ
+
+p
+
+
+
+d
+
+p
+
+
+2
+
+
+
+
+18
+
+μ
+
+g
+
+
+
+
+
+
+
+{\displaystyle t_{0}={\frac {\rho _{p}d_{p}^{2}}{18\mu _{g}}}}
+
+where
+
+
+
+
+ρ
+
+p
+
+
+
+
+{\displaystyle \rho _{p}}
+is the particle density,
+
+
+
+
+d
+
+p
+
+
+
+
+{\displaystyle d_{p}}
+is the particle diameter and
+
+
+
+
+μ
+
+g
+
+
+
+
+{\displaystyle \mu _{g}}
+is the gas dynamic viscosity.
+In experimental fluid dynamics, the Stokes number is a measure of flow tracer fidelity in particle image velocimetry (PIV) experiments where very small particles are entrained in turbulent flows and optically observed to determine the speed and direction of fluid movement (also known as the velocity field of the fluid). For acceptable tracing accuracy, the particle response time should be faster than the smallest time scale of the flow. Smaller Stokes numbers represent better tracing accuracy; for
+
+
+
+
+S
+t
+k
+
+≫
+1
+
+
+{\displaystyle \mathrm {Stk} \gg 1}
+, particles will detach from a flow especially where the flow decelerates abruptly. For
+
+
+
+
+S
+t
+k
+
+≪
+1
+
+
+{\displaystyle \mathrm {Stk} \ll 1}
+, particles follow fluid streamlines closely. If
+
+
+
+
+S
+t
+k
+
+<
+0.1
+
+
+{\displaystyle \mathrm {Stk} <0.1}
+, tracing accuracy errors are below 1%.

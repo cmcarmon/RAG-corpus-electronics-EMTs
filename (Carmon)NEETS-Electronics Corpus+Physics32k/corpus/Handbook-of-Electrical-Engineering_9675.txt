@@ -1,0 +1,11 @@
+Two-Party Protocols
+Secure  multi-party  protocols  with  honest  majority  can  even  tolerate  a  situation  in  which  a  minority  of  the
+parties  abort  the  execution.  This  cannot  be  expected  to  happen  when  there  is  no  honest  majority  (e.g.,  in  a
+two-party computation). In light of this fact, we consider an ideal model in which each of the two parties can
+“shut down” the trusted (third) party at any point in time. In particular, this can happen after the trusted party
+has supplied the outcome of the computation to one party, but before it has supplied it to the second. A secure
+two-party computation allowing abort is required to simulate this ideal model. That is, each party’s “effective
+malfunctioning” in a secure protocol is restricted to supplying an initial input of its choice and aborting the
+computation at any point in time. We stress that, as above, the choice of the initial input of each party may
+not depend on the input of the other party. Again, it turns out that efﬁcient and secure two-party computation
+(allowing abort) of any functionality is possible, provided that trapdoor permutations do exist [Yao, 1986].

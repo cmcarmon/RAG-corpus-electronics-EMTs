@@ -1,0 +1,9 @@
+The VAF (volume air flow) sensor measures the air flow into the engine with a spring-loaded air vane (flap/door) attached to a variable resistor (potentiometer). The vane moves in proportion to the airflow. A voltage is applied to the potentiometer and a proportional voltage appears on the output terminal of the potentiometer in proportion to the angle the vane rotates, or the movement of the vane may directly regulate the amount of fuel injected, as in the K-Jetronic system.
+Many VAF sensors have an air-fuel adjustment screw, which opens or closes a small air passage on the side of the VAF sensor. This screw controls the air-fuel mixture by letting a metered amount of air flow past the air flap, thereby leaning or richening the mixture. By turning the screw clockwise the mixture is enriched and counterclockwise the mixture is leaned.
+The vane moves because of the drag force of the air flow against it; it does not measure volume or mass directly. The drag force depends on air density (air density in turn depends on air temperature), air velocity and the shape of the vane, see drag equation. Some VAF sensors include an additional intake air temperature sensor (IAT sensor) to allow the engines ECU to calculate the density of the air, and the fuel delivery accordingly.
+The vane meter approach has some drawbacks:
+it restricts airflow which limits engine output
+its moving electrical or mechanical contacts can wear
+finding a suitable mounting location within a confined engine compartment is problematic
+the vane has to be oriented with respect to gravity.
+in some manufacturers fuel pump control was also part on the VAF internal wiring.

@@ -1,0 +1,3 @@
+GET UNIQUE <record type> WHERE <restrictions>
+Such a command retrieves the leftmost record that meets the imposed restrictions. The search always starts
+at the root of the tree pointed to by the currency indicator.

@@ -1,0 +1,4 @@
+Note that the same index, [r5], is used for both arrays. On the left, the contents of r5 are multiplied by 2
+and added to r4 to get the address; on the right, the address is r5*4+r6. You would be saying: “Convert the 4th
+word to the 4th longword.” This is undoubtedly compact and sometimes convenient. It is also unique to the VAX.
+For the 68000, the designers folded both base-displacement and base-index into one mode and made room

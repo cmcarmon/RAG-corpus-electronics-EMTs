@@ -1,0 +1,16 @@
+. Session control: As said previously, a multimedia session
+involves multiple media streams. The information con-
+tained in these data streams is often interrelated, and
+the multimedia communication network must guarantee
+to maintain such relationships as the streams are trans-
+mitted and presented to the user. This is called multi-
+media synchronization and can be achieved by putting
+time stamps in every media packet. Moreover, many
+Internet multimedia users may want to control the play-
+back of continuous media by pausing, playing back, re-
+positioning the playback to a future or past point in time,
+visual fast-forwarding, or visual rewinding of the play-
+back (Kurose and Ross, 2001). This functionality is simi-
+lar to what we have in a VCR while watching a video or
+is similar to what we have in a CD player when listening
+to a CD.

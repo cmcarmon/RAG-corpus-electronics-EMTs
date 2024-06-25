@@ -1,0 +1,12 @@
+(15.2.4)
+such that the envelope of sAM(t) or xc(t) will never go negative and may at most become zero.
+The spectral behavior is depicted in Figure 15.2.2, assuming φ0 = 0 for simplicity. The spectral
+impulses are due to the carrier and will always be present, even if the message were to disappear.
+The effect of AM is to shift half-amplitude replicas of the signal spectrum out to angular
+frequencies ωc and −ωc. The band of frequencies above ωc or below −ωc is called the upper
+sideband (USB). The one on the opposing side is known as the lower sideband (LSB). Since AM
+transmits both USB and LSB, it is known as double-sideband modulation. If the maximum circular
+(radian) frequency extent of f (t) is Wf rad/s, the frequency extent of the standard AM waveform
+is 2Wf. Thus, the low-pass signal is translated in frequency to the passband of the channel so that
+the spectrum of the transmitted bandpass signal will match the passband characteristics of the
+channel.

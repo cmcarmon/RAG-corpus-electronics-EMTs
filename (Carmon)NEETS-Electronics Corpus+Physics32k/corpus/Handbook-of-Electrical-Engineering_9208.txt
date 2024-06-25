@@ -1,0 +1,3 @@
+Finally, the RBS interfaces with the audio system by sending two signals. The RBS may send a MUTE-ON
+signal to the audio system causing the audio system to disable the audio output. A MUTE-OFF signal would
+cause the audio system to enable the audio output.

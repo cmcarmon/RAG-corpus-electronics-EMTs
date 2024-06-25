@@ -1,0 +1,10 @@
+Problem QP-1 is a constrained QP problem with bounded
+variables—methods such as active constraints exist for solving
+such problems (Ciarlet and Lions, 1990; Farebrother, 1988;
+Osborne, 1985; Fletcher, 1987; Bjo¨rck, 1996). These methods
+are both analytically and numerically challenging, so a two-
+phase solution process is suggested here such that a con-
+strained version of problem QP-1 is solved initially. If the
+result is not feasible, a rapidly converging iterative reﬁnement
+of the objective g is performed until the feasibility of s is
+satisﬁed. This two-phase process is deﬁned formally as:

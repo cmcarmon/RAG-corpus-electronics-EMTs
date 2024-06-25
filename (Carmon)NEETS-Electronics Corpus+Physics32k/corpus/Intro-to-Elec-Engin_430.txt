@@ -1,0 +1,5 @@
+A typical value for a µA 741 is 80 nA; for a µA 771 it is 50 pA. When the resistance of the source
+feeding the op amp is large enough, the input bias current may have an adverse effect. As shown
+in Figure 5.3.6, where the noninverting input is grounded and the inverting input is connected
+to a source of 1-M resistance and of voltage vS momentarily at 0 V, the bias current of 80 nA
+generates a voltage of −80 mV on the noninverting input.

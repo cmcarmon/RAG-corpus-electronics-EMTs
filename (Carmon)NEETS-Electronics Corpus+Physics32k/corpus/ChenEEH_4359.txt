@@ -1,0 +1,15 @@
+the transient response increases monotonically or oscillates
+with increasing amplitude. This represents an unstable system.
+For such a system, as soon as the power is turned on, the
+output may increase with time. If no saturation takes place in
+the system and no mechanical stop is provided, then the
+system may eventually be subjected to damage and fail since
+the response of a real physical system cannot increase indeﬁ-
+nitely. Hence, closed-loop poles in the right half of the s plane
+are not permissible in the usual linear control systems. If all
+closed-loop poles lie to the left of the jv axis, any transient
+response eventually reaches equilibrium. This represents a stable
+system. Therefore, for BIBO stability, the roots of the charac-
+teristic equation, or the poles of the transfer function H(s),
+must all lie in the left half of the s plane. Note that when a
+system has roots on the jv axis, it is unstable by this deﬁnition.

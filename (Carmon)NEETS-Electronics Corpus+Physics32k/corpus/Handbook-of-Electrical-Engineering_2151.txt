@@ -1,0 +1,14 @@
+ and back-propagating them up
+to the input layer [Haykin, 1994]. The dual topology is obtained from the original one by reversing data ﬂow
+and substituting summing junctions by splitting nodes and vice versa. The error at each PE of the dual topology
+is then multiplied by the activation of the original network to compute the weight updates. So, effectively the
+dual topology is being used to compute the local errors which makes the procedure highly efﬁcient. This is the
+N,
+reason back-propagation trains a network of 
+)) for previous methods of computing partial derivatives known in control theory.
+(
+O
+(
+N
+Using the dual topology to implement back-propagation is the best and most general method to program the
+algorithm in a digital computer.

@@ -1,0 +1,215 @@
+In semiconductors and insulating materials, an electric field causes charged particles like electrons to reach a specific "drift velocity" that is parallel to the direction of the field. It is different from the behavior of the free charged particles in a vacuum, in which a field accelerates the particle. The proportionality factor between the magnitudes of the drift-velocity
+
+
+
+v
+
+
+{\displaystyle v}
+and the electric field
+
+
+
+
+
+E
+
+
+
+
+{\displaystyle {\mathcal {E}}}
+is called the mobility
+
+
+
+μ
+
+
+{\displaystyle \mu }
+:
+
+
+
+
+v
+=
+μ
+
+
+E
+
+
+
+
+{\displaystyle v=\mu {\mathcal {E}}}
+
+The Child's Law behavior of a space charge limited current that applies in a vacuum diode doesn't generally apply in a solid, and is replaced by the Mott-Gurney form. For a thin slab of material of thickness
+
+
+
+L
+
+
+{\displaystyle L}
+, the electric current density
+
+
+
+J
+
+
+{\displaystyle J}
+flowing through the slab is:
+
+
+
+
+J
+=
+
+
+
+9
+
+ϵ
+
+
+μ
+
+
+
+
+V
+
+a
+
+
+
+
+2
+
+
+
+
+8
+
+
+L
+
+
+3
+
+
+
+
+
+
+
+{\displaystyle J={\frac {9{\epsilon }{\mu }{V_{a}}^{2}}{8{L}^{3}}}}
+,
+where
+
+
+
+
+V
+
+a
+
+
+
+
+{\displaystyle V_{a}}
+is the voltage that has been applied across the slab and
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+is the dielectric constant of the solid.
+In the velocity-saturation regime, this equation takes the following form
+
+
+
+
+J
+=
+
+
+
+2
+
+ϵ
+
+
+v
+
+
+
+V
+
+a
+
+
+
+
+
+
+L
+
+
+2
+
+
+
+
+
+
+{\displaystyle J={\frac {2{\epsilon }{v}{V_{a}}}{{L}^{2}}}}
+
+Note the different dependence of
+
+
+
+J
+
+
+{\displaystyle J}
+on
+
+
+
+
+V
+
+a
+
+
+
+
+{\displaystyle V_{a}}
+in each of the two cases. Interestingly, in the ballistic case (assuming no collisions), the Mott-Gurney equation takes the form of the more familiar Child-Langmuir law.
+The above derivations make the following assumptions:
+There is only one type of charge carrier present.
+The material has no intrinsic conductivity, but charges are injected into it from one electrode and captured by the other.
+The carrier mobility
+
+
+
+μ
+
+
+{\displaystyle \mu }
+and the dielectric permittivity
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+are constant throughout the sample.
+The electric field at the charge-injecting cathode is zero.
+As an application example, the steady-state space-charge-limited current across a piece of silicon with a charge carrier mobility of 1500 cm2/V-s, a dielectric constant of 11.9, an area of 10−8cm2 and a thickness of 10−4cm can be calculated by an on line calculator as 126.4uA at voltage 3V.

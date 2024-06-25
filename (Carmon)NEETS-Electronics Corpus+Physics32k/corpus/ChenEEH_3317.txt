@@ -1,0 +1,10 @@
+As compared with the Gauss-Seidel algorithm, each iter-
+ation step in the NR algorithm is computationally much
+more intensive because of (a) evaluating the Jacobian and (b)
+solving the linear equations 7.55. On the other hand, the error
+convergence rate of the NR algorithm is spectacularly faster,
+and hence, the NR algorithm requires much fewer iterations to
+reach comparable solution accuracies. In usual practice, the
+Gauss-Seidel algorithm is used only for ﬂat starts with poorly
+known initial conditions. In most other situations, the NR
+algorithm is the preferred choice.

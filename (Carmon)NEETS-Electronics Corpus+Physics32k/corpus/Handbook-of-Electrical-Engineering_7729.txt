@@ -1,0 +1,6 @@
+Figure 80.15  shows  another  way  of  thinking  about  the  varying  demands  of  I/O  intensive  applications.  It
+shows the percentage of time different applications spend in the three components of I/O service time. Trans-
+action processing systems spend the majority of their service time in seek and rotational latency; thus techno-
+logical  advances  which  reduce  the  transfer  time  will  not  affect  their  performance  very  much.  On  the  other
+hand, scientiﬁc applications spend a more equal amount of time in seek and data transfer, and their performance
+is sensitive to any improvement in disk technology.

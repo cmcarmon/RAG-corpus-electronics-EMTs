@@ -1,0 +1,52 @@
+Many applications require a measure of "similarity" between objects. One obvious example is the "find-similar-document" query, on traditional text corpora or the World-Wide Web. More generally, a similarity measure can be used to cluster objects, such as for collaborative filtering in a recommender system, in which “similar” users and items are grouped based on the users’ preferences.
+Various aspects of objects can be used to determine similarity, usually depending on the domain and the appropriate definition of similarity for that domain. In a document corpus, matching text may be used, and for collaborative filtering, similar users may be identified by common preferences. SimRank is a general approach that exploits the object-to-object relationships found in many domains of interest. On the Web, for example, two pages are related if there are hyperlinks between them. A similar approach can be applied to scientific papers and their citations, or to any other document corpus with cross-reference information. In the case of recommender systems, a user’s preference for an item constitutes a relationship between the user and the item. Such domains are naturally modeled as graphs, with nodes representing objects and edges representing relationships.
+The intuition behind the SimRank algorithm is that, in many domains, similar objects are referenced by similar objects. More precisely, objects
+
+
+
+a
+
+
+{\displaystyle a}
+and
+
+
+
+b
+
+
+{\displaystyle b}
+are considered to be similar if they are pointed from objects
+
+
+
+c
+
+
+{\displaystyle c}
+and
+
+
+
+d
+
+
+{\displaystyle d}
+, respectively, and
+
+
+
+c
+
+
+{\displaystyle c}
+and
+
+
+
+d
+
+
+{\displaystyle d}
+are themselves similar. The base case is that objects are maximally similar to themselves .
+It is important to note that SimRank is a general algorithm that determines only the similarity of structural context. SimRank applies to any domain where there are enough relevant relationships between objects to base at least some notion of similarity on relationships. Obviously, similarity of other domain-specific aspects are important as well; these can — and should be combined with relational structural-context similarity for an overall similarity measure. For example, for Web pages SimRank can be combined with traditional textual similarity; the same idea applies to scientific papers or other document corpora. For recommendation systems, there may be built-in known similarities between items (e.g., both computers, both clothing, etc.), as well as similarities between users (e.g., same gender, same spending level). Again, these similarities can be combined with the similarity scores that are computed based on preference patterns, in order to produce an overall similarity measure.

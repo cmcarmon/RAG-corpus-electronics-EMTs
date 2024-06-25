@@ -1,0 +1,106 @@
+Another possibility is the particle mesh method in which space is discretised on a mesh and, for the purposes of computing the gravitational potential, particles are assumed to be divided between the nearby vertices of the mesh. Finding the potential energy Φ is easy, because the Poisson equation
+
+
+
+
+
+∇
+
+2
+
+
+Φ
+=
+4
+π
+G
+
+ρ
+
+,
+
+
+
+{\displaystyle \nabla ^{2}\Phi =4\pi G{\rho },\,}
+
+where G is Newton's constant and
+
+
+
+
+ρ
+
+
+
+{\displaystyle {\rho }}
+is the density (number of particles at the mesh points), is trivial to solve by using the fast Fourier transform to go to the frequency domain where the Poisson equation has the simple form
+
+
+
+
+
+
+
+Φ
+^
+
+
+
+=
+−
+4
+π
+G
+
+
+
+
+ρ
+^
+
+
+
+k
+
+2
+
+
+
+
+,
+
+
+
+{\displaystyle {\hat {\Phi }}=-4\pi G{\frac {\hat {\rho }}{k^{2}}},\,}
+
+where
+
+
+
+
+
+
+k
+→
+
+
+
+
+
+{\displaystyle {\vec {k}}}
+is the comoving wavenumber and the hats denote Fourier transforms. The gravitational field can now be found by multiplying by
+
+
+
+
+
+
+k
+→
+
+
+
+
+
+{\displaystyle {\vec {k}}}
+and computing the inverse Fourier transform (or computing the inverse transform and then using some other method). Since this method is limited by the mesh size, in practice a smaller mesh or some other technique (such as combining with a tree or simple particle-particle algorithm) is used to compute the small-scale forces. Sometimes an adaptive mesh is used, in which the mesh cells are much smaller in the denser regions of the simulation.

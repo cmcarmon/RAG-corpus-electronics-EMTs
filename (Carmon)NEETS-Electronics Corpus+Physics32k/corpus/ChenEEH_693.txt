@@ -1,0 +1,16 @@
+For on-chip (embedded) RAMs as used in ASICs, a clocked
+RAM is typically preferred as it is embedded in the rest of the
+(usually synchronous) architecture. These are nearly always
+SRAMs. Sometimes they are also used as stand-alone L2
+cache, but the trend is to embed that cache level as well on
+the processor chip. A possible timing (clock) diagram for such
+a RAM is illustrated in Figure 2.10. The highest speeds can
+almost be achieved with embedded SRAMs. These memories
+are used in the so-called L1 cache of the modern microproces-
+sors, where hundreds of megahertz are required to keep up
+with the speed of the CPU core. Representative examples
+of this category are a 2-ns (333-MHz) 256-kb (semi) set-
+associative cache (Covino et al., 1996) that requires 8.7 W in
+a 2.5-V 0.5-mm CMOS technology and a 500-MHz 288-kb
+directly mapped cache (Furumochi et al., 1996) requiring
+1 W in a 2.5-V 0.25-mm CMOS technology.

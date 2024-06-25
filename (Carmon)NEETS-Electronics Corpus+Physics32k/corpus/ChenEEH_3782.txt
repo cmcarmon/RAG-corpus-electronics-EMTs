@@ -1,0 +1,13 @@
+Not unexpectedly, the training procedures for such an
+embedded system of models require some enhancement and
+reconsideration of methods applied to the simple word
+models. Nevertheless, the basic ideas are the same, and the
+same F–B and Viterbi reestimation algorithms are applicable.
+One remarkable property of the HMM is evident in the
+training process. In working with continuous speech, we
+must face the problem of not knowing where the temporal
+boundaries (i.e., phonetic or word) are in the acoustic obser-
+vation strings used for training (or recognition). The creation
+of sufﬁciently large databases marked according to phonetic
+is generally impractical. An important
+time boundaries

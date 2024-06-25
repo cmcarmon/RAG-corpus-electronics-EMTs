@@ -1,0 +1,258 @@
+In this section we will motivate an expression for the thermal conductivity in terms of microscopic parameters.
+Consider a gas of particles of negligible volume governed hard-core interactions and within a vertical temperature gradient. The upper side is hot and the lower side cold. There is a downward energy flow because the gas atoms, going down, have a higher energy than the atoms going up. The net flow of energy per second is the heat flow H, which is proportional to the number of particles that cross the area A per second. In fact, H should also be proportional to the particle density n, the mean particle velocity v, the amount of energy transported per particle so with the heat capacity per particle c and some characteristic temperature difference ΔT. So far, in our model,
+
+
+
+
+H
+∝
+n
+
+v
+
+c
+
+A
+
+Δ
+T
+.
+
+
+{\displaystyle H\propto n\,v\,c\,A\,\Delta T.}
+
+The unit of H is J/s and of the right-hand side it is (particle/m3) × (m/s) × (J/(K × particle)) × (m2) × (K) = J/s, so this is already of the right dimension. Only a numerical factor is missing. For ΔT we take the temperature difference of the gas between two collisions
+
+
+
+Δ
+T
+=
+l
+
+
+
+d
+T
+
+
+d
+z
+
+
+
+
+
+{\displaystyle \Delta T=l{\frac {dT}{dz}}}
+where l is the mean free path.
+Detailed kinetic calculations show that the numerical factor is -1/3, so, all in all,
+
+
+
+
+H
+=
+−
+
+
+1
+3
+
+
+
+n
+
+v
+
+c
+
+l
+
+A
+
+
+
+
+d
+T
+
+
+d
+z
+
+
+
+.
+
+
+{\displaystyle H=-{\frac {1}{3}}\,n\,v\,c\,l\,A\,{\frac {dT}{dz}}.}
+
+Comparison with the one-dimension expression for the heat flow, given above, gives an expression for the factor k
+
+
+
+
+k
+=
+
+
+1
+3
+
+
+
+n
+
+v
+
+c
+
+l
+.
+
+
+{\displaystyle k={\frac {1}{3}}\,n\,v\,c\,l.}
+
+The particle density and the heat capacity per particle can be combined as the heat capacity per unit volume
+so
+
+
+
+
+k
+=
+
+
+1
+3
+
+
+
+v
+
+l
+
+
+
+
+C
+
+V
+
+
+
+V
+
+m
+
+
+
+
+
+
+{\displaystyle k={\frac {1}{3}}\,v\,l\,{\frac {C_{V}}{V_{m}}}}
+
+where CV is the molar heat capacity at constant volume and Vm the molar volume.
+More rigorously, the mean free path of a molecule in a gas is given by
+
+
+
+l
+∝
+
+
+1
+
+n
+σ
+
+
+
+
+
+{\displaystyle l\propto {\frac {1}{n\sigma }}}
+where σ is the collision cross section. So
+
+
+
+
+k
+∝
+
+
+c
+σ
+
+
+v
+.
+
+
+{\displaystyle k\propto {\frac {c}{\sigma }}v.}
+
+The heat capacity per particle c and the cross section σ both are temperature independent so the temperature dependence of k is determined by the T dependence of v. For a monatomic gas, with atomic mass M, v is given by
+
+
+
+v
+=
+
+
+
+
+3
+R
+T
+
+M
+
+
+
+.
+
+
+{\displaystyle v={\sqrt {\frac {3RT}{M}}}.}
+So
+
+
+
+
+k
+∝
+
+
+
+T
+M
+
+
+
+.
+
+
+{\displaystyle k\propto {\sqrt {\frac {T}{M}}}.}
+
+This expression also shows why gases with a low mass (hydrogen, helium) have a high thermal conductivity.
+For metals at low temperatures the heat is carried mainly by the free electrons. In this case the mean velocity is the Fermi velocity which is temperature independent. The mean free path is determined by the impurities and the crystal imperfections which are temperature independent as well. So the only temperature-dependent quantity is the heat capacity c, which, in this case, is proportional to T. So
+
+
+
+
+k
+=
+
+k
+
+0
+
+
+
+T
+
+(metal at low temperature)
+
+
+
+{\displaystyle k=k_{0}\,T{\text{     (metal at low temperature)}}}
+
+with k0 a constant. For pure metals such as copper, silver, etc. l is large, so the thermal conductivity is high. At higher temperatures the mean free path is limited by the phonons, so the thermal conductivity tends to decrease with temperature. In alloys the density of the impurities is very high, so l and, consequently k, are small. Therefore, alloys, such as stainless steel, can be used for thermal insulation.

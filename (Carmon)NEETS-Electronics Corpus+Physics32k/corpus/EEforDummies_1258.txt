@@ -1,0 +1,7 @@
+▶✓ The body: The second section, on the right of the schematic, contains 
+a 4017 CMOS decade counter chip with LEDs connected to each of its 
+10 output pins. As I explain in Chapter 11, pins 1–7 and pins 9–11 on the 
+4017 chip go from low to high one at a time (but not in the same order as 
+the pin numbers) when a trigger signal is connected to pin 14. Resistor 
+R3 limits the current passing through whichever LED is activated at any 
+given time.

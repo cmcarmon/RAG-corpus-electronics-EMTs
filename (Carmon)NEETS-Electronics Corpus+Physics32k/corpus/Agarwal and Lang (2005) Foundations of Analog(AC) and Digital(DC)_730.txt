@@ -1,0 +1,6 @@
+Furthermore, recall that Disco’s systems operate under a static discipline with the
+following voltage thresholds: VIL = 2 V, VIH = 3.5 V, VOL = 1.5 V, and VOH = 4 V.
+The Yikes development team first looks at the output voltage levels required by Disco’s
+static discipline. They observe that the 4.5-V output produced by their new adders falls
+within Disco’s legitimate range for a logical 1 (between VOH = 4 V and 5 V), thus
+satisfying the VOH requirement.

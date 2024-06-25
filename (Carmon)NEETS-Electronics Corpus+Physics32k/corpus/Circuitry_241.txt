@@ -1,0 +1,39 @@
+(typically less than 6 V). A similar effect occurs in 
+less heavily doped diodes. These avalanche diodes 
+also  exhibit  a  rapid  breakdown  with  negligible 
+current flowing below the avalanche voltage and an 
+increasingly 
+the 
+avalanche voltage has been reached. For avalanche 
+diodes,  this  breakdown  voltage  usually  occurs  at 
+voltages  above  6  V.  In  practice,  however,  both 
+types  of  diode  are  referred  to  as  zener  diodes.  A 
+typical  characteristic  for  a  12  V  zener  diode  is 
+shown in Fig. 5.10.  
+  Whereas 
+is  a  highly 
+undesirable effect in circuits  that use conventional 
+diodes,  it  can  be  extremely  useful  in  the  case  of 
+zener  diodes  where  the  breakdown  voltage  is 
+precisely  known.  When  a  diode  is  undergoing 
+reverse  breakdown  and  provided  its  maximum 
+ratings  are  not  exceeded  the  voltage  appearing 
+across it will remain substantially constant (equal to 
+the nominal zener voltage) regardless of the current 
+flowing. This property makes the zener diode ideal 
+for use as a voltage regulator (see Chapter 6). 
+  Zener  diodes  are  available  in  various  families 
+(according 
+characteristics, 
+encapsulation  and  power  ratings)  with  reverse 
+breakdown  (zener)  voltages  in  the  E12  and  E24 
+series  (ranging  from  2.4  V  to  91  V).  Table  5.2 
+summarizes  the  characteristics  of  common  zener 
+diodes. 
+  Figure  5.11  shows  a  test  circuit  for  obtaining 
+zener  diode  characteristics.  The  circuit  is  shown 
+with  the  diode  connected  in  the  forward  direction 
+and it must be reverse connected in order to obtain 
+the reverse characteristic. Finally, it is important to 
+note  that,  when  used  as  a  voltage  regulator,  the 
+cathode connection is the more positive terminal. 

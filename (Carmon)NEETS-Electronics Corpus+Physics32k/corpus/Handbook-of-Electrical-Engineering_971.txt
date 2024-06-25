@@ -1,0 +1,8 @@
+BSIM2. The BSIM2 model was developed to address the shortcomings of the BSIM model. This was basically
+an extension of the BSIM model, removing certain parameters that had very little effect, ﬁxing fundamental
+problems such as currents varying the wrong way as a function of certain parameters, adding more unphysical
+ﬁtting parameters, and adding parameters to allow ﬁtting Gds . BSIM2 does ﬁt better than BSIM, but with more
+than twice as many parameters as BSIM, it should. However, it does not address the crucial problem of ﬁtting
+large geometry variations. Its major strengths over BSIM are ﬁtting the subthreshold region better, and ﬁtting
+Gds  better.  Most  of  the  other  shortcomings  of  BSIM  are  also  present  in  BSIM2,  and  the  large  number  of
+parameters in BSIM2 makes it a real chore to use in device characterization.

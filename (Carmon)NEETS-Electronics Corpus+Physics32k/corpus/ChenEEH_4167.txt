@@ -1,0 +1,11 @@
+. Synchronous transmission. In this technique, all charac-
+ters are blocked together and transmitted without a gap
+between two characters being transmitted. It requires
+more complicated hardware to handle buffering and
+blocking, but this hardware more efﬁcient. For example,
+assume that there are 240 characters and 3 SYN char-
+acters in one block. Then the number of data bits
+¼ 240  8 ¼ 1920 bits, the number of SYN character
+bits ¼ 3 8¼ 24 bits, and efﬁciency ¼ 1920=1944 99%
+variable efﬁciency; the larger the block is, the higher the
+efﬁciency.

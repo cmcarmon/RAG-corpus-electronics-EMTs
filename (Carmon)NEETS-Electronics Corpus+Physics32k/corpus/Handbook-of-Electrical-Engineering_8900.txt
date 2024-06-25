@@ -1,0 +1,4 @@
+An alternative method applicable to a system containing both virtual memory and a cache is to store the
+virtual  address  in  the  tag  memory  instead  of  the  physical  address.  This  technique  introduces  consistency
+problems in virtual memory systems that permit more than a single address space or allow a single physical
+page to be mapped to more than a single virtual page. This problem is known as the aliasing problem.

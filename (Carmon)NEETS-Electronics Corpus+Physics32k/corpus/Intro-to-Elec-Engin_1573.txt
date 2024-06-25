@@ -1,0 +1,10 @@
+15.3.9 A differential encoding scheme converts the orig-
+inal sequence of digits, denoted by {bk}, to a new
+sequence of digits, denoted by {ak}, by using the
+differential encoder shown in Figure P15.3.9. The
+output digit in the kth interval is given by ak =
+ak−1 ⊕ bk, where ⊕ represents modulo-2 addition
+(i.e., 0 ⊕ 0 = 0; 0 ⊕ 1 = 1; 1 ⊕ 0 = 1; and
+1⊕1 = 0). The new sequence is used in waveform
+formatting. For the input sequence {bk} given be-
+low, ﬁnd the sequences {ak} and {ak−1} by letting

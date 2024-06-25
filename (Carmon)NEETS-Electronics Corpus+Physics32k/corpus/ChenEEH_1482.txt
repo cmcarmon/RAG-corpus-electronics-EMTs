@@ -1,0 +1,14 @@
+POSIX is the ﬁrst serious attempt to reconcile the two
+ﬂavors of UNIX and was sponsored by the IEEE Standards
+Board, a highly respected neutral body. The POSIX committee
+produced a series of standards known as 1003.n-yyyy, where
+1003 is the IEEE POSIX project, n denotes the document, and
+yyyy is the year the standard was completed or last amended. It
+deﬁnes a set of library procedures that every conformant UNIX
+system must supply. There are actually more than 20 standards
+and draft documents under the POSIX umbrella. The 1003.1–
+1990 describes interfaces to operating system services at the
+source-code level. It describes syntax (in the C language) and
+behavior, not implementation of the interface by the operating
+system. The 1003.2–1992 describes a programmable shell and
+related utilities (Walli, 1995).

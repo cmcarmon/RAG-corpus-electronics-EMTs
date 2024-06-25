@@ -1,0 +1,8 @@
+As stated before, when output power is not of prime importance, transistor oscillators may be biased 
+class A to ensure stability and minimize distortion. When this is done, the dc operating point established 
+by the power supply is chosen so that the operation of the transistor oscillator occurs over the most linear 
+portion of the transistor's characteristic curve. When the operation of the circuit falls into the nonlinear 
+portion of the characteristic curve, the transistor's parameters (voltages and currents) vary. These 
+parameters are basic to the stable frequency of the transistor oscillator. Operating frequency variations 
+may occur with changes in these bias voltages. Thus, a constant supply voltage is a prime requirement for 
+good frequency stability. 

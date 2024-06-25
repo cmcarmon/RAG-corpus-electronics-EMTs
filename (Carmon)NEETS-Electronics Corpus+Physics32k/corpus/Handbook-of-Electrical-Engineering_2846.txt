@@ -1,0 +1,9 @@
+Thermal management issues remain major concerns in the successful design of an SMT board and product.
+Consideration must be taken of the variables affecting both board temperature and junction temperature of
+the IC. The reader is referred to Chapter 33 in this Handbook for the basics of Thermal Management, and to
+Bar-Cohen and Kraus [1988] for a more detailed treatment on thermal issues affecting ICs and PCB design.
+The design team must understand the basic heat transfer characteristics of most SMT IC packages [Capillo,
+1993].  Since  the  silicon  chip  of  an  SMD  is  equivalent  to  the  chip  in  an  identical-function  DIP  package,  the
+smaller SMD package means the internal lead frame metal has a smaller mass than the lead frame in a DIP
+package. This lesser ability to conduct heat away from the chip is somewhat offset by the leadframe of many
+SMDs being constructed of copper, which has a lower thermal resistance than the Kovar and Alloy 42 materials

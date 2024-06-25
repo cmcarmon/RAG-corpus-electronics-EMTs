@@ -1,0 +1,34 @@
+Operators and state vectors in the interaction picture are related by a change of basis (unitary transformation) to those same operators and state vectors in the Schrödinger picture.
+To switch into the interaction picture, we divide the Schrödinger picture Hamiltonian into two parts:
+
+Any possible choice of parts will yield a valid interaction picture; but in order for the interaction picture to be useful in simplifying the analysis of a problem, the parts will typically be chosen so that H0,S is well understood and exactly solvable, while H1,S contains some harder-to-analyze perturbation to this system.
+If the Hamiltonian has explicit time-dependence (for example, if the quantum system interacts with an applied external electric field that varies in time), it will usually be advantageous to include the explicitly time-dependent terms with H1,S, leaving H0,S time-independent. We proceed assuming that this is the case. If there is a context in which it makes sense to have H0,S be time-dependent, then one can proceed by replacing
+
+
+
+
+e
+
+±
+i
+
+H
+
+0
+,
+
+S
+
+
+
+t
+
+/
+
+ℏ
+
+
+
+
+{\displaystyle e^{\pm iH_{0,{\text{S}}}t/\hbar }}
+by the corresponding time-evolution operator in the definitions below.

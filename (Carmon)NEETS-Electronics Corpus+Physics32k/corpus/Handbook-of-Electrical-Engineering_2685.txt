@@ -1,0 +1,11 @@
+What Is Layout?
+For a speciﬁc circuit, a layout speciﬁes the position and dimension of the different layers of materials as they
+would be laid on the silicon wafer. However, the layout description is only a symbolic representation, which
+simpliﬁes  the  description  of  the  actual  fabrication  process.  For  example,  the  layout  representation  does  not
+explicitly indicate the thickness of the layers, thickness of oxide coating, amount of ionization in the transistors
+channels, etc., but these factors are implicitly understood in the fabrication process. Some of the main layers
+p
+-diffusion, poly, metal-1, and metal-2. Each of these layers is
+used in any layout description are 
+represented by a polygon of a particular color or pattern. As an example, Fig. 25.4 presents a speciﬁc pattern
+for each layer that will be used through the rest of this section.

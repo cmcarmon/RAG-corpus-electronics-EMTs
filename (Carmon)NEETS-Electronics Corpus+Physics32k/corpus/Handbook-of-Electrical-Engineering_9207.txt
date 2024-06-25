@@ -1,0 +1,5 @@
+ by means of a common memory location. This single-byte memory
+location contains a non-negative integer value which represents a station selection. (For example, 0000 0000
+might  represent  87.9  MHz,  0000  0001  might  represent  88.1  MHz,  etc.)  The  RBS  may “read”  this  memory
+location to “memorize” a current station selection. The RBS may also “write” to this memory location to cause
+the tuning system to select another station.

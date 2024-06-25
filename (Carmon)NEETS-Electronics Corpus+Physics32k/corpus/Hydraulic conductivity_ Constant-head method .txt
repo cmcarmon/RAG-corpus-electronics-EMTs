@@ -1,0 +1,187 @@
+The constant-head method is typically used on granular soil. This procedure allows water to move through the soil under a steady state head condition while the quantity (volume) of water flowing through the soil specimen is measured over a period of time. By knowing the quantity
+
+
+
+Q
+
+
+{\displaystyle Q}
+of water measured, length
+
+
+
+L
+
+
+{\displaystyle L}
+of specimen, cross-sectional area
+
+
+
+A
+
+
+{\displaystyle A}
+of the specimen, time
+
+
+
+t
+
+
+{\displaystyle t}
+required for the quantity of water
+
+
+
+Q
+
+
+{\displaystyle Q}
+to be discharged, and head
+
+
+
+h
+
+
+{\displaystyle h}
+, the hydraulic conductivity can be calculated:
+
+
+
+
+
+
+Q
+t
+
+
+=
+A
+v
+
+
+
+{\displaystyle {\frac {Q}{t}}=Av\,}
+
+where
+
+
+
+v
+
+
+{\displaystyle v}
+is the flow velocity. Using Darcy's Law:
+
+
+
+
+v
+=
+K
+i
+
+
+
+{\displaystyle v=Ki\,}
+
+and expressing the hydraulic gradient
+
+
+
+i
+
+
+{\displaystyle i}
+as:
+
+
+
+
+i
+=
+
+
+h
+L
+
+
+
+
+{\displaystyle i={\frac {h}{L}}}
+
+where
+
+
+
+h
+
+
+{\displaystyle h}
+is the difference of hydraulic head over distance
+
+
+
+L
+
+
+{\displaystyle L}
+, yields:
+
+
+
+
+
+
+Q
+t
+
+
+=
+
+
+
+A
+K
+h
+
+L
+
+
+
+
+{\displaystyle {\frac {Q}{t}}={\frac {AKh}{L}}}
+
+Solving for
+
+
+
+K
+
+
+{\displaystyle K}
+gives:
+
+
+
+
+K
+=
+
+
+
+Q
+L
+
+
+A
+h
+t
+
+
+
+
+
+{\displaystyle K={\frac {QL}{Aht}}}

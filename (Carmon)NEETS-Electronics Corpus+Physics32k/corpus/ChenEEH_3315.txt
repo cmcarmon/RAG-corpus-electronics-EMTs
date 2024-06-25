@@ -1,0 +1,17 @@
+Note that the linearization of equation 7.51 will be a good
+approximation if the estimate xk is close to the true solution of
+x since F(x) ¼ 0. The NR algorithm stated in equation 7.52
+can be proved to converge to the true solution x when the
+initial condition x0 is sufﬁciently close to x. On the other hand,
+for initial conditions away from x, the approximation of equa-
+tion 7.51 becomes poorly justiﬁed, and the iterations can
+quickly diverge away from x. When the iterations converge,
+owing to the linearized nature of the algorithm, the norm of the
+error decreases to zero in a ‘‘quadratic’’ fashion. Roughly speak-
+ing, the ratios of the error norm from one iteration to the square
+of the error norm in the previous iteration tend to be a constant.
+An example would be that the error norms decrease from 0.1 in
+one iteration, to 0.01 in the next iteration, to 0.0001 in the
+following iteration. Therefore, given good initial conditions,
+the NR algorithm can typically get to an accurate solution
+estimate within a few iterations.

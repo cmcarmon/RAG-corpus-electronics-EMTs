@@ -1,0 +1,7 @@
+Data presented to the eight separate inputs is loaded into the register in parallel when the shift/load input
+is taken low. Shifting occurs when the shift/load input is high and the clock pulse is applied, the action taking
+place on the low-to-high transition of the clock pulse. Registers are available which switch on the other clock
+edge. For example, the 74LS295A, which is a four-bit shift register with serial and parallel operating modes,
+carries  out  all  data  transfers  and  shifting  operations  on  the  high-to-low  clock  transition.  This  device  also
+provides 3S operation. Selection of the mode of operation is carried out by suitable combinations of the MODE
+SELECT inputs.

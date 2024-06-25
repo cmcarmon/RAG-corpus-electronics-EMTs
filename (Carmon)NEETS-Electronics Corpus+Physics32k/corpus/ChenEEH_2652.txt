@@ -1,0 +1,19 @@
+The second step in the moment method is to expand the un-
+known function of the integral equation in terms of basis func-
+tions. There are two classes of basis functions. The ﬁrst class is
+deﬁned over the entire solution domain and hence called the
+entire-domain basis functions. For most electromagnetic prob-
+lems, the solution domain is complicated, and it is difﬁcult to
+ﬁnd entire-domain basis functions that can form approximately
+a complete set over the domain. For this reason, the entire-
+domain basis functions have limited use. Contrasted with the
+entire-domain basis functions is the second class deﬁned over
+small parts of the solution domain. This class is called the sub-
+domain basis functions. Although the unknown function over
+the entire solution domain can be complicated and cannot be
+represented by simple functions, its behavior over a sufﬁciently
+small region can be rather simple and hence representable with
+simple functions. For this reason, the subdomain basis functions
+are widely used in the moment method for a variety of electro-
+magnetic problems. In the following subsections, we describe
+some commonly used subdomain basis functions.

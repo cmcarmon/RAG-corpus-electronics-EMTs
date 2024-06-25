@@ -1,0 +1,464 @@
+Some insight into the expansion can be obtained from a Newtonian expansion model which leads to a simplified version of the Friedman equation. It relates the proper distance (which can change over time, unlike the comoving distance which is constant) between a pair of objects, e.g. two galaxy clusters, moving with the Hubble flow in an expanding or contracting FLRW universe at any arbitrary time
+
+
+
+t
+
+
+{\displaystyle t}
+to their distance at some reference time
+
+
+
+
+t
+
+0
+
+
+
+
+{\displaystyle t_{0}}
+. The formula for this is:
+
+
+
+
+d
+(
+t
+)
+=
+a
+(
+t
+)
+
+d
+
+0
+
+
+,
+
+
+
+{\displaystyle d(t)=a(t)d_{0},\,}
+
+where
+
+
+
+d
+(
+t
+)
+
+
+{\displaystyle d(t)}
+is the proper distance at epoch
+
+
+
+t
+
+
+{\displaystyle t}
+,
+
+
+
+
+d
+
+0
+
+
+
+
+{\displaystyle d_{0}}
+is the distance at the reference time
+
+
+
+
+t
+
+0
+
+
+
+
+{\displaystyle t_{0}}
+and
+
+
+
+a
+(
+t
+)
+
+
+{\displaystyle a(t)}
+is the scale factor. Thus, by definition,
+
+
+
+a
+(
+
+t
+
+0
+
+
+)
+=
+1
+
+
+{\displaystyle a(t_{0})=1}
+.
+The scale factor is dimensionless, with
+
+
+
+t
+
+
+{\displaystyle t}
+counted from the birth of the universe and
+
+
+
+
+t
+
+0
+
+
+
+
+{\displaystyle t_{0}}
+set to the present age of the universe:
+
+
+
+13.799
+±
+0.021
+
+
+G
+y
+r
+
+
+
+{\displaystyle 13.799\pm 0.021\,\mathrm {Gyr} }
+giving the current value of
+
+
+
+a
+
+
+{\displaystyle a}
+as
+
+
+
+a
+(
+
+t
+
+0
+
+
+)
+
+
+{\displaystyle a(t_{0})}
+or
+
+
+
+1
+
+
+{\displaystyle 1}
+.
+The evolution of the scale factor is a dynamical question, determined by the equations of general relativity, which are presented in the case of a locally isotropic, locally homogeneous universe by the Friedmann equations.
+The Hubble parameter is defined:
+
+
+
+
+H
+≡
+
+
+
+
+
+
+a
+˙
+
+
+
+(
+t
+)
+
+
+a
+(
+t
+)
+
+
+
+
+
+{\displaystyle H\equiv {{\dot {a}}(t) \over a(t)}}
+
+where the dot represents a time derivative. From the previous equation
+
+
+
+d
+(
+t
+)
+=
+
+d
+
+0
+
+
+a
+(
+t
+)
+
+
+{\displaystyle d(t)=d_{0}a(t)}
+one can see that
+
+
+
+
+
+
+d
+˙
+
+
+
+(
+t
+)
+=
+
+d
+
+0
+
+
+
+
+
+a
+˙
+
+
+
+(
+t
+)
+
+
+{\displaystyle {\dot {d}}(t)=d_{0}{\dot {a}}(t)}
+, and also that
+
+
+
+
+d
+
+0
+
+
+=
+
+
+
+d
+(
+t
+)
+
+
+a
+(
+t
+)
+
+
+
+
+
+{\displaystyle d_{0}={\frac {d(t)}{a(t)}}}
+, so combining these gives
+
+
+
+
+
+
+d
+˙
+
+
+
+(
+t
+)
+=
+
+
+
+d
+(
+t
+)
+
+
+
+a
+˙
+
+
+
+(
+t
+)
+
+
+a
+(
+t
+)
+
+
+
+
+
+{\displaystyle {\dot {d}}(t)={\frac {d(t){\dot {a}}(t)}{a(t)}}}
+, and substituting the above definition of the Hubble parameter gives
+
+
+
+
+
+
+d
+˙
+
+
+
+(
+t
+)
+=
+H
+d
+(
+t
+)
+
+
+{\displaystyle {\dot {d}}(t)=Hd(t)}
+which is just Hubble's law.
+Current evidence suggests that the expansion rate of the universe is accelerating, which means that the second derivative of the scale factor
+
+
+
+
+
+
+a
+¨
+
+
+
+(
+t
+)
+
+
+{\displaystyle {\ddot {a}}(t)}
+is positive, or equivalently that the first derivative
+
+
+
+
+
+
+a
+˙
+
+
+
+(
+t
+)
+
+
+{\displaystyle {\dot {a}}(t)}
+is increasing over time. This also implies that any given galaxy recedes from us with increasing speed over time, i.e. for that galaxy
+
+
+
+
+
+
+d
+˙
+
+
+
+(
+t
+)
+
+
+{\displaystyle {\dot {d}}(t)}
+is increasing with time. In contrast, the Hubble parameter seems to be decreasing with time, meaning that if we were to look at some fixed distance d and watch a series of different galaxies pass that distance, later galaxies would pass that distance at a smaller velocity than earlier ones.
+According to the Friedmann–Lemaître–Robertson–Walker metric which is used to model the expanding universe, if at the present time we receive light from a distant object with a redshift of z, then the scale factor at the time the object originally emitted that light is
+
+
+
+a
+(
+t
+)
+=
+
+
+1
+
+1
++
+z
+
+
+
+
+
+{\displaystyle a(t)={\frac {1}{1+z}}}
+.

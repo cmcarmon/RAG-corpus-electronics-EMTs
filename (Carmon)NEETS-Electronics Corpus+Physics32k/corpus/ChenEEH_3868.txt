@@ -1,0 +1,13 @@
+The basic problem of UMA concerns allowing users to access
+multimedia content anytime, anywhere, and without concern
+for particular formats, devices, networks, and so forth. Con-
+sider the server–proxy–client network architecture shown in
+Figure 5.1. UMA can be enabled in a number of ways. First, it
+is possible to store multiple variations of the content at the
+server and select the best variation for each particular request
+(Li et al., 1998). Given multiple media resources in a presenta-
+tion, it may be necessary to make the selection of multiple
+variants jointly to meet the overall delivery constraints (Smith
+et al., 1999). As an alternative, it is possible to perform content
+adaptation at the server or in the network, such as at the proxy
+device. For example, considering a scenario in which a user

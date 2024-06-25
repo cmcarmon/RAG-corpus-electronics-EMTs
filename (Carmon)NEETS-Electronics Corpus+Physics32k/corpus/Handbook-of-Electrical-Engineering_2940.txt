@@ -1,0 +1,7 @@
+The most widely used op amp macromodel that includes dc offset effects is the Boyle model [Boyle et al.,
+1974].  Most  op  amp  manufacturers  use  this  model,  usually  with  additions  to  add  more  poles  (and  perhaps
+zeroes). The various resistor and capacitor values, as well as transistor, and current and voltage generator, values
+are intimately related to the speciﬁcations of the op amp, as shown earlier in the nonideal model of Fig. 27.3.
+The appropriate equations are too involved to list here; instead, the interested reader is referred to the article
+by  Boyle  in  the  listed  references.  The  Boyle  model  does  not  accurately  model  noise  effects,  nor  does  it  fully
+model PSRR and CMRR effects.

@@ -1,0 +1,7 @@
+Yet another related technique is to use pseudo-exhaustive testing that aims at breaking a circuit into separate
+partitions and testing each partition exhaustively [Barzilai et al., 1985; Dervisoglu, 1985; Bardell and McAnney,
+1984]. Pseudo-exhaustive testing uses the same techniques used in exhaustive testing for testing the individual
+partitions without generating test patterns that cover the entire circuit. Mathematical considerations for pseudo-
+random/pseudo-exhaustive testing are too complex to describe here. The following example is presented for
+illustration purposes only. Figure 85.21 depicts the combinational portion of a digital circuit consisting of a
+number  of  overlapping  logic  cones  that  each  produce  a  single  output  signal.  All  inputs  are  assumed  to  be

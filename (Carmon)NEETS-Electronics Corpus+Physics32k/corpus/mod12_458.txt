@@ -1,0 +1,11 @@
+Figure 3-13 is a simplified schematic diagram of a ratio detector at resonance. The voltage applied to
+the cathode of CR1 is the vector sum of e1 and ep. Likewise, the voltage applied to the anode of CR2 is
+the vector sum of e2  and ep. No phase shift occurs at resonance and both voltages are equal. Both diodes
+conduct equally. This equal current flow causes the same voltage drop across both R1 and R2. C3 and C4
+will charge to equal voltages with opposite polarities. Let’s assume that the voltages across C3 and C4 are
+equal in amplitude (5 volts) and of opposite polarity and the total charge across C5 is 10 volts. R1 and R2
+will each have 5 volts dropped across them because they are of equal values. The output is taken between
+points A and B. To find the output voltage, you algebraically add the voltages between points A and B
+(loop ACB or ADB). Point A to point D is - 5 volts. Point D to point B is + 5 volts. Their algebraic sum is
+0 volts and the output voltage is 0 at resonance. If the voltages on branch ACB were figured, the same
+output would be found because the circuit branches are in parallel.

@@ -1,0 +1,8 @@
+Recording Modes
+Several recording modes are used with the express objective of storing data at the highest density and with the
+greatest reliability of noncorruption of retrieved data. Two popular but contrasting modes are the non-return-
+to-zero  (NRZ)  and phase  encoding  (PE)  modes.  These  are  incompatible  although  some  magnetic  tape  drives
+have detectors to sense the mode and operate in a bimodal way. The NRZ technique is shown in Fig. 80.19,
+where only the 1 bit is displayed by a reversal of magnetization on the tape. The magnetic polarity remains
+unchanged  for  logic  0.  An  external  clock  track  is  also  required  for  this  mode  because  a  pulse  is  not  always
+generated for each row of data on the tape.

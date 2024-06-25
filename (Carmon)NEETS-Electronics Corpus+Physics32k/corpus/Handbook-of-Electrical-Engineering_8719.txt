@@ -1,0 +1,4 @@
+Suppose  the  storage  for  A,  B,  and  C  in  the  previous  example  is  not  known  at  the  time  the  program  is
+compiled. We might want to allocate storage on-the-ﬂy while the program is running, because we do not know
+in advance that the storage is needed. This is an example of delayed binding of a variable to its storage location
+in memory.

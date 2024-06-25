@@ -1,0 +1,4 @@
+Without gated agc, a large jamming signal would cause the automatic gain control to follow the
+interfering signal. This would decrease the target return signal amplitude to an unusable value. Gated agc
+produces an output signal for only short time periods; therefore, the agc output voltage must be averaged
+over several cycles to keep the automatic gain control from becoming unstable.

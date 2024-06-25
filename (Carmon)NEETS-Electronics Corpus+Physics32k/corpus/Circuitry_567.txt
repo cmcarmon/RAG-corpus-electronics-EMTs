@@ -1,0 +1,21 @@
+Example 12.1 
+ 
+Design  a  timer  circuit  that  will  produce  a  10  ms 
+pulse  when  a  negative-going  trigger  pulse  is 
+applied to it. 
+ 
+Solution 
+ 
+Using  the  circuit  shown  in  Fig.  12.4,  the  value  of 
+monostable  timing  period  can  be  calculated  from 
+the formula: 
+ 
+ton = 1.1 C R
+We need to choose an appropriate value for C that 
+is  in  the  range  stated  earlier.  Since  we  require  a 
+fairly  modest  time  period  we  will  choose  a  mid-
+range value for C. This should help to ensure that 
+the value of R is neither too small nor too large. A 
+value of 100 nF  should be appropriate and should 
+also be easy to obtain. Making R the subject of the 
+formula and substituting for C = 100 nF gives: 

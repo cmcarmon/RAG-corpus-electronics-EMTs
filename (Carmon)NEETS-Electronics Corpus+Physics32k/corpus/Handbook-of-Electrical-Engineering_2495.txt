@@ -1,0 +1,5 @@
+When using a JFET as a VVR, it is necessary to limit VDS to values that are small compared to VP to maintain
+good  linearity.  In  addition  VGS  should  preferably  not  exceed  0.8 VP  for  good  linearity,  control,  and  stability.
+This limitation corresponds to an rds resistance ratio of about 10:1. As  VGS approaches VP , a small change in
+VP can produce a large change in rds. Thus unit-to-unit variations in VP as well as changes in VP with temperature
+can result in large changes in rds as VGS approaches VP .

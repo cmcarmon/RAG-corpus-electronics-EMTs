@@ -1,0 +1,32 @@
+To calculate the accelerations the gravitational attraction of each body on each other body is to be taken into account. As a consequence the amount of calculation in the simulation goes up with the square of the number of bodies: Doubling the number of bodies increases the work with a factor four. To increase the accuracy of the simulation not only more decimals are to be taken but also smaller timesteps, again quickly increasing the amount of work. Evidently tricks are to be applied to reduce the amount of work. Some of these tricks are given here.
+By far the most important trick is the use of a proper integration method, as already outlined above.
+The choice of units is important. Rather than to work in SI units, which would make some values extremely small and some extremely large, all units are to be scaled such that they are in the neighbourhood of 1. For example for distances in the Solar System the astronomical unit is most straightforward. If this is not done one is almost certain to see a simulation aborted in the middle of a calculation on a floating point overflow or underflow, and if not that bad, still accuracy is likely to get lost due to truncation errors.
+If N is large (not so much in Solar System simulations, but more in galaxy simulations) it is customary to create dynamic groups of bodies. All bodies in a particular direction and on large distance from the reference body, which is being calculated at that moment, are taken together and their gravitational attraction is averaged over the whole group.
+The total amount of energy and angular momentum of a closed system are conserved quantities. By calculating these amounts after every time step the simulation can be programmed to increase the stepsize Δt if they do not change significantly, and to reduce it if they start to do so. Combining the bodies in groups as in the previous and apply larger and thus less timesteps on the faraway bodies than on the closer ones, is also possible.
+To allow for an excessively rapid change of the acceleration when a particular body is close to the reference body, it is customary to introduce a small softness parameter e so that
+
+
+
+a
+=
+
+
+
+G
+M
+
+
+
+r
+
+2
+
+
++
+e
+
+
+
+
+
+{\displaystyle a={\frac {GM}{r^{2}+e}}}

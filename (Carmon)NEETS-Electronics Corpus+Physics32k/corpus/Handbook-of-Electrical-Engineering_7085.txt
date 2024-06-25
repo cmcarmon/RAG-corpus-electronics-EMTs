@@ -1,0 +1,9 @@
+Data Compression in Practice
+The previous subsections discussed the fundamental limits to compression for a stochastic source. We will now
+consider the application of these algorithms to some practical sources, namely, text, speech, images, and video.
+In real applications, the sources may not be stationary or ergodic, and the distributions underlying the source
+are often unknown. Also, in addition to the efﬁciency of the algorithm, important considerations in practical
+applications include the computational speed and memory requirements of the algorithm, the perceptual quality
+of the reproductions to a human observer, etc. A considerable amount of research and engineering has gone
+into the development of these algorithms, and many issues are only now being explored. We will not go into
+the details but simply list some popular algorithms for the different sources.

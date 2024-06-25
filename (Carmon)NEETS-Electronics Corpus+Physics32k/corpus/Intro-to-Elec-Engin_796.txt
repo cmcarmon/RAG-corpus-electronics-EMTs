@@ -1,0 +1,15 @@
+The switching action in the CMOS circuit is rather sharp, as compared with that of Figure
+9.3.1(c). A general voltage-transfer characteristic shown in Figure 9.3.3 illustrates this feature. A
+very small change in vin is sufﬁcient to produce a relatively large change in vout. The voltages VOH
+and VOL, indicated in Figure 9.3.3, are, respectively, the nominal high and low output voltages of
+the circuit. VIL and VIH are the input voltages at which |dVout/dVin| = 1. These are seen to be the
+boundaries of the low and high ranges. The region between VIL and VIH is known as the transition
+region, and the transition width is given by VI H − VI L. The lower and upper noise margins are
+given by VI L − VOL ≡ NML and VOH − VI H ≡ NMH , respectively. The noise margins indicate
+the largest random noise voltages that can be added to vin (when it is low) or subtracted from vin
+(when it is high), without yielding an input in the forbidden transition region. A typical voltage-
+transfer characteristic and drain current ID1 versus input voltage vin for the CMOS inverter are
+∼= 0. The maximum value of ID1 that occurs
+shown in Figure 9.3.4. Note that when vin is inside either the low or the high states (and not in
+the transition region), the drain current ID1
+during transition is indeed very small.

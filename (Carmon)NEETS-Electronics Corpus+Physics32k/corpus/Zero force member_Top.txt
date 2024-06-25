@@ -1,0 +1,7 @@
+In the field of engineering mechanics, a zero force member refers to a member (a single truss segment) in a truss which, given a specific load, is at rest: neither in tension, nor in compression. In a truss a zero force member is often found at pins (any connections within the truss) where no external load is applied and three or fewer truss members meet. Recognizing basic zero force members can be accomplished by analyzing the forces acting on an individual pin in a physical system.
+NOTE: If the pin has an external force or moment applied to it, then all of the members attached to that pin are not zero force members UNLESS the external force acts in a manner that fulfills one of the rules below:
+If two non-collinear members meet in an unloaded joint, both are zero-force members.
+If three members meet in an unloaded joint of which two are collinear, then the third member is a zero-force member.
+Reasons for Zero-force members in a truss system
+These members contribute to the stability of the structure, by providing buckling prevention for long slender members under compressive forces
+These members can carry loads in the event that variations are introduced in the normal external loading configuration

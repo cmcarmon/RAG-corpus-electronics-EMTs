@@ -1,0 +1,308 @@
+For any fixed set
+
+
+
+S
+
+
+{\displaystyle S}
+of
+
+
+
+n
+
+
+{\displaystyle n}
+keys, using a universal family guarantees the following properties.
+For any fixed
+
+
+
+x
+
+
+{\displaystyle x}
+in
+
+
+
+S
+
+
+{\displaystyle S}
+, the expected number of keys in the bin
+
+
+
+h
+(
+x
+)
+
+
+{\displaystyle h(x)}
+is
+
+
+
+n
+
+/
+
+m
+
+
+{\displaystyle n/m}
+. When implementing hash tables by chaining, this number is proportional to the expected running time of an operation involving the key
+
+
+
+x
+
+
+{\displaystyle x}
+(for example a query, insertion or deletion).
+The expected number of pairs of keys
+
+
+
+x
+,
+y
+
+
+{\displaystyle x,y}
+in
+
+
+
+S
+
+
+{\displaystyle S}
+with
+
+
+
+x
+≠
+y
+
+
+{\displaystyle x\neq y}
+that collide (
+
+
+
+h
+(
+x
+)
+=
+h
+(
+y
+)
+
+
+{\displaystyle h(x)=h(y)}
+) is bounded above by
+
+
+
+n
+(
+n
+−
+1
+)
+
+/
+
+2
+m
+
+
+{\displaystyle n(n-1)/2m}
+, which is of order
+
+
+
+O
+(
+
+n
+
+2
+
+
+
+/
+
+m
+)
+
+
+{\displaystyle O(n^{2}/m)}
+. When the number of bins,
+
+
+
+m
+
+
+{\displaystyle m}
+, is
+
+
+
+O
+(
+n
+)
+
+
+{\displaystyle O(n)}
+, the expected number of collisions is
+
+
+
+O
+(
+n
+)
+
+
+{\displaystyle O(n)}
+. When hashing into
+
+
+
+
+n
+
+2
+
+
+
+
+{\displaystyle n^{2}}
+bins, there are no collisions at all with probability at least a half.
+The expected number of keys in bins with at least
+
+
+
+t
+
+
+{\displaystyle t}
+keys in them is bounded above by
+
+
+
+2
+n
+
+/
+
+(
+t
+−
+2
+(
+n
+
+/
+
+m
+)
++
+1
+)
+
+
+{\displaystyle 2n/(t-2(n/m)+1)}
+. Thus, if the capacity of each bin is capped to three times the average size (
+
+
+
+t
+=
+3
+n
+
+/
+
+m
+
+
+{\displaystyle t=3n/m}
+), the total number of keys in overflowing bins is at most
+
+
+
+O
+(
+m
+)
+
+
+{\displaystyle O(m)}
+. This only holds with a hash family whose collision probability is bounded above by
+
+
+
+1
+
+/
+
+m
+
+
+{\displaystyle 1/m}
+. If a weaker definition is used, bounding it by
+
+
+
+O
+(
+1
+
+/
+
+m
+)
+
+
+{\displaystyle O(1/m)}
+, this result is no longer true.
+As the above guarantees hold for any fixed set
+
+
+
+S
+
+
+{\displaystyle S}
+, they hold if the data set is chosen by an adversary. However, the adversary has to make this choice before (or independent of) the algorithm's random choice of a hash function. If the adversary can observe the random choice of the algorithm, randomness serves no purpose, and the situation is the same as deterministic hashing.
+The second and third guarantee are typically used in conjunction with rehashing. For instance, a randomized algorithm may be prepared to handle some
+
+
+
+O
+(
+n
+)
+
+
+{\displaystyle O(n)}
+number of collisions. If it observes too many collisions, it chooses another random
+
+
+
+h
+
+
+{\displaystyle h}
+from the family and repeats. Universality guarantees that the number of repetitions is a geometric random variable.

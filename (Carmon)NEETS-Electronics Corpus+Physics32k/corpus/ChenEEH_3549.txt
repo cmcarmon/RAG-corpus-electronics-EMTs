@@ -1,0 +1,12 @@
+low-pass ﬁlter can only approximate the
+ideal
+low-pass response. In practice, ﬁlters have passband
+magnitude within a tolerance of unity and have stop-
+band magnitude within a tolerance of zero. When practical
+ﬁlters are speciﬁed, transition bands are allowed between
+adjacent passbands and stopbands so that the magnitude
+response in the transition bands may swing between the
+allowed passband and stopband magnitudes. The impulse
+response h[n] of a practical ﬁlter can vary depending on
+given ﬁlter speciﬁcations. The task of determining h[n] to
+satisfy the speciﬁcations is called ﬁlter design.

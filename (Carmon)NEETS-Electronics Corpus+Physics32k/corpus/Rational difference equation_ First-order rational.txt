@@ -1,0 +1,113 @@
+A first-order rational difference equation is a nonlinear difference equation of the form
+
+
+
+
+
+w
+
+t
++
+1
+
+
+=
+
+
+
+a
+
+w
+
+t
+
+
++
+b
+
+
+c
+
+w
+
+t
+
+
++
+d
+
+
+
+.
+
+
+{\displaystyle w_{t+1}={\frac {aw_{t}+b}{cw_{t}+d}}.}
+
+When
+
+
+
+a
+,
+b
+,
+c
+,
+d
+
+
+{\displaystyle a,b,c,d}
+and the initial condition
+
+
+
+
+w
+
+0
+
+
+
+
+{\displaystyle w_{0}}
+are real numbers, this difference equation is called a Riccati difference equation.
+Such an equation can be solved by writing
+
+
+
+
+w
+
+t
+
+
+
+
+{\displaystyle w_{t}}
+as a nonlinear transformation of another variable
+
+
+
+
+x
+
+t
+
+
+
+
+{\displaystyle x_{t}}
+which itself evolves linearly. Then standard methods can be used to solve the linear difference equation in
+
+
+
+
+x
+
+t
+
+
+
+
+{\displaystyle x_{t}}
+.

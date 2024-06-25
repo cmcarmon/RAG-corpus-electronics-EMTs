@@ -1,0 +1,9 @@
+The balance point temperature is mathematically defined as:
+Equation 1: tbalance = tthermostat - QIHG + QSOL/Ubldg
+Where:
+tbalance is the balance point outdoor air temperature, given in °C (°F).
+tThermostat is the building thermostat set-point temperature, given in °C (°F).
+QIHG is the internal heat generation rate per unit floor area due to occupancy, electric lighting and mechanical equipment, given in W/m2 (Btu/s/ft2). This internal heat generation is not constant due to variability in occupancy, lighting, and equipment operation schedule but is largely considered constant to a first order approximation.
+QSOL is the building heat gain per unit floor area due to solar radiation, given in W/m2 (Btu/s/ft2). This heat gain is not constant due to solar variability with time of day and year but is largely considered constant to a first order approximation. In winter, it is reasonable to assume QSOL=0.
+Ubldg is the rate of heat transfer across the building envelope per degree temperature difference between outdoor and indoor temperature and per unit floor area, given in W/°C/m2 (Btu/s/°F/ft2). This heat transfer can vary due to variations of fresh air ventilation rate but is largely considered constant to a first order approximation.
+This equation is simplified by assuming steady state heat transfer between the building and the environment and only provides an approximate building balance point temperature. The 2013 ASHRAE Handbook – Fundamentals, Chapter F18 provides more rigorous methodologies to calculate the heating loads in a nonresidential buildings. The ASHRAE heat balance method, for example, fully delineates the heat transfer through the inner and outer boundaries of the building wall by incorporating radiative (e.g. sun, indoor surfaces), convective (e.g. indoor and outdoor air), and conductive (e.g. inner to outer boundary) modes of heat transfer.

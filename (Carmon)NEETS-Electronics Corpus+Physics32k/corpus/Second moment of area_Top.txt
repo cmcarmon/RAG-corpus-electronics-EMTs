@@ -1,0 +1,102 @@
+The 2nd moment of area, also known as moment of inertia of plane area, area moment of inertia, or second area moment, is a geometrical property of an area which reflects how its points are distributed with regard to an arbitrary axis. The second moment of area is typically denoted with either an
+
+
+
+I
+
+
+{\displaystyle I}
+for an axis that lies in the plane or with a
+
+
+
+J
+
+
+{\displaystyle J}
+for an axis perpendicular to the plane. In both cases, it is calculated with a multiple integral over the object in question. Its dimension is L (length) to the fourth power. Its unit of dimension when working with the International System of Units is meters to the fourth power, m4, or inches to the fourth power, in4, when working in the Imperial System of Units.
+In structural engineering, the second moment of area of a beam is an important property used in the calculation of the beam's deflection and the calculation of stress caused by a moment applied to the beam. The planar second moment of area provides insight into a beam's resistance to bending due to an applied moment, force, or distributed load perpendicular to its neutral axis, as a function of its shape. The polar second moment of area provides insight into a beam's resistance to torsional deflection, due to an applied moment parallel to its cross-section, as a function of its shape. This resistance to deflection or torsion is only a function of shape, and not due to a beam's material stiffness, or Elastic Modulus.
+Note: Different disciplines use the term moment of inertia (MOI) to refer to either the x, y, or both of the planar second moments of area,
+
+
+
+I
+=
+
+
+∬
+
+R
+
+
+
+x
+
+2
+
+
+
+
+d
+
+A
+
+
+
+{\displaystyle I=\textstyle \iint _{R}x^{2}\,\mathrm {d} A}
+, where x is the distance to some reference plane, or the polar second moment of area,
+
+
+
+I
+=
+
+
+∬
+
+R
+
+
+
+r
+
+2
+
+
+
+
+d
+
+A
+
+
+
+{\displaystyle I=\textstyle \iint _{R}r^{2}\,\mathrm {d} A}
+, where r is the distance to some reference axis. In each case the integral is over all the infinitesimal elements of area, dA, in some two-dimensional cross-section. In math and physics, moment of inertia is strictly the second moment of mass with respect to distance from an axis:
+
+
+
+I
+=
+
+
+∫
+
+Q
+
+
+
+r
+
+2
+
+
+
+d
+
+m
+
+
+
+{\displaystyle I=\textstyle \int _{Q}r^{2}\mathrm {d} m}
+, where r is the distance to some potential rotation axis, and the integral is over all the infinitesimal elements of mass, dm, in a three-dimensional space occupied by an object Q. The MOI, in this sense, is the analog of mass for rotational problems. In engineering (especially mechanical and civil), moment of inertia commonly refers to the second moment of the area.

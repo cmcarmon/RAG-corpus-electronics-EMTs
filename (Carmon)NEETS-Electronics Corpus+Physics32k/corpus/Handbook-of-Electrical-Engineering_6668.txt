@@ -1,0 +1,9 @@
+Prior  to  the  late  1970s,  signaling  for  circuit  establishment  was  in-band.  That  is,  in  order  to  set  up  a  call
+through the network, the call set-up information was sent sequentially from switch to switch using the actual
+circuit that would eventually become the circuit used to connect the end users. In an extreme case, this amounted
+to trying to ﬁnd a path through a maze, sometimes having to retrace one’s steps before ﬁnally emerging at the
+destination or just simply giving up when no path could be found. This had two negative characteristics: ﬁrst,
+the rate of signaling information transfer was limited to the circuit speed, and second, the circuits that could
+have been used for accomplishing the end objective were being consumed simply to ﬁnd a path between the
+end-points. This resulted in tremendous bottlenecks on major holidays, which were solved by virtually disal-
+lowing alternate routes through the toll switching network.

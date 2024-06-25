@@ -1,0 +1,4 @@
+The  instruction  explicitly  speciﬁes  the  size  and  indicates  how  the  CPU  should  calculate  the  address.  An
+instruction  to  load  a  byte,  for  example,  is  LB,  MOVE.B,  or  MOVB  on  the  SPARC,  MC68000,  and  VAX,
+respectively. These are followed immediately by an expression which speciﬁes an address. We will discuss how
+to specify an address later. First, we must introduce the concept of a register.

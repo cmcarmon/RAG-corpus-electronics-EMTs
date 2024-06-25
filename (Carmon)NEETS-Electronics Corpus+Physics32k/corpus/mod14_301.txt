@@ -1,0 +1,6 @@
+The combination of gates in figure 3-6 will also produce the desired results. When A and B are both
+LOW (0), the output of each AND gate is LOW (0); therefore, the output of the OR gate is LOW (0).
+When A is HIGH and B is LOW, then B  is HIGH and AND gate 1 produces a HIGH output, resulting in
+a sum of 1 at gate 3. With A LOW and B HIGH, gate 2 output is HIGH, and the sum is 1. When both A
+and B are HIGH, neither AND gate has an output, and the output of gate 3 is LOW (0); no carry is
+produced.

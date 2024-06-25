@@ -1,0 +1,14 @@
+Although a custom memory organization has the potential to
+signiﬁcantly reduce the system cost, achieving these cost re-
+ductions is far from trivial, especially manually. Figure 2.21
+illustrates the problem of ﬁnding a custom memory architec-
+ture for an application. In this case, the application is speciﬁed
+using the C programming language. This speciﬁcation con-
+tains arrays and accesses to them that have to be mapped into a
+background memory architecture. Designing such a custom
+memory architecture means deciding how many memories to
+use and which type. In addition, the memory accesses have to
+be ordered in time, so that the real-time constraints (the cycle
+budget) are met. Finally, each array must be assigned to a
+memory to enable arrays to be accessed in parallel as required
+to meet the real-time constraints.

@@ -1,0 +1,9 @@
+where w¢ = wT is the normalized DT frequency axis expressed in radians. Note that S(e jwT) = S(e jw¢) consists
+of an inﬁnite number of replicas of the CT spectrum S( jw), positioned at intervals of (2p/T) on the w axis (or
+at intervals of 2p on the w¢ axis), as illustrated in Fig. 14.7. If S( j w) is band limited with a bandwidth wc and
+if T is chosen sufﬁciently small so that ws > 2wc, then the DT spectrum is a copy of S( jw) (scaled by 1/T) in
+the baseband. The limiting case of ws = 2wc is called the Nyquist sampling frequency. Whenever a CT signal
+is  sampled  at  or  above  the  Nyquist  rate,  no  aliasing  distortion  occurs  (i.e.,  the  baseband  spectrum  does  not
+overlap with the higher-order replicas) and the CT signal can be exactly recovered from its samples by extracting
+the baseband spectrum of S(e jw¢) with an ideal low-pass ﬁlter that recovers the original CT spectrum by removing
+all spectral replicas outside the baseband and scaling the baseband by a factor of T.

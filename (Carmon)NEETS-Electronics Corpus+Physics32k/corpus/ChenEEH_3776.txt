@@ -1,0 +1,12 @@
+In a typical application, the speech would be sampled at
+8 kHz and analyzed on frames of 256 points with a 156-point
+overlap. The analysis frame end-times, say 100, 200, . . . , M,
+become observation times t ¼ 1, 2, . . ., T . For a typical word
+utterance lasting 1 sec, T ¼ 80 observations. On each frame,
+8 to 10 LP coefﬁcients are computed, which are then converted
+to 12 cepstral coefﬁcients. Alternatively, 12 mel-cepstral coefﬁ-
+cients might be computed directly from the data. To add
+dynamic information, 12 differenced cepstral coefﬁcients are
+also included in the vector. Finally a short-term energy meas-
+ure and a differenced energy measure are included for each
+frame, for a total of 26 features in the observation.

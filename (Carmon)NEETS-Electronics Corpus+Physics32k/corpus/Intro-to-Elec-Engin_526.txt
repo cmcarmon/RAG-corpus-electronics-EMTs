@@ -1,0 +1,8 @@
+term clocked ﬂip-ﬂop indicates that this device cannot change its state (i.e., Q cannot change)
+unless a speciﬁc change instruction is given through the clock (Ck) input. The value of Q after the
+change instruction is equal to the value of D at the time the change instruction is received. The
+value of Q before the change instruction does not matter. Figure 6.1.20(b) illustrates the values
+taken by Q after the change instruction for various inputs D and prior values of Q. While there
+are several variations of the device, in the rising-edge triggered ﬂip-ﬂop a change instruction is
+effected whenever the Ck input makes a change from 0 to 1. Note that only a positive-going
+transition of Ck is a change instruction, and a constant Ck input is not a change instruction.

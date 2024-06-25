@@ -1,0 +1,9 @@
+problem is solved by making the overcurrent relays directional.
+By  this  is  meant  that  the  relays  will  respond  as  overcurrent
+relays  only  if  the  fault  is  in  the  forward  direction  from  the
+relays, i.e., in the direction in which their zone of protection
+extends.  The  directionality  is  provided  by  making  the  relay
+sensitive  to  the  phase  angle  between  the  fault  current  and  a
+reference quantity, such as the line voltage at the relay location.
+Other  reference  sources  are  also  possible,  including  currents
+in the neutral of a transformer bank at the substation.

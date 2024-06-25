@@ -1,0 +1,4 @@
+changes from a one to a zero or from a zero to a one. Figure 7-4 also shows how the digital data word
+101100011010 is stored onto the magnetic tape using the NRZ-L encoding method. Note that the NRZ-L
+method looks just like the NRZ method, except for the first input one data bit. This is because NRZ does
+not consider the first data bit to be a polarity change, where NRZ-L does.

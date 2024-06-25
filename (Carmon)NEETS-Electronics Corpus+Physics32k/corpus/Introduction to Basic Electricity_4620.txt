@@ -1,0 +1,9 @@
+Figure 45-25 shows a truth table based on these 
+rules. The letter D represents the difference column. 
+The borrow column is represented by B0. Notice that 
+the difference output (D) is 1 only when the input 
+variables are not equal. Therefore, the difference can 
+be expressed as the exclusive OR of the input variables. 
+The output borrow is generated only when A is 0 and 
+B is 1. Therefore, the borrow output is the complement 
+of A “AND”ed with B.

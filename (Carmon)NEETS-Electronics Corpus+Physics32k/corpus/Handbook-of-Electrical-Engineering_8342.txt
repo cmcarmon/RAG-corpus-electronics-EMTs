@@ -1,0 +1,10 @@
+Another mandatory feature of the IEEE 1149.1 Standard is the instruction register and an associated list of
+mandatory/permissible instructions that govern the behavior of the IC component during testing. The three
+mandatory instructions are called SAMPLE/PRELOAD, BYPASS, and EXTEST. SAMPLE allows taking a snap-
+shot of the normal operation of the IC, whereas PRELOAD is used for shifting the captured values out while
+new  values  are  loaded  into  the  boundary-scan  register.  BYPASS  allows  shortening  the  (electrical)  distance
+between the TDI and TDO pins by providing a single-bit register as a shortcut during scan operations involving
+multiple IC components that are connected in series. EXTEST is the “workhorse” instruction that allows driving
+the signal values on the component’s output pads from the boundary register while capturing the input values
+into their respective cells in the boundary register. This is followed by shifting the captured values out (using
+the TDO output) while simultaneously shifting in the new driving values (using the TDI input).

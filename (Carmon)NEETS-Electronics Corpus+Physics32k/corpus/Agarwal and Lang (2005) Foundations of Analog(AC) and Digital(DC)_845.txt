@@ -1,0 +1,7 @@
+(cid:1) At their inputs, the inverters must recognize voltages greater than VIH = 3.5 V as
+a logical 1. Since our inverters recognize voltages above 1 V as a logical 1, they
+satisfy this condition as well.
+Finally, at their inputs, the inverters must recognize voltages less than VIL = 1.5 V
+as a logical 0 if they are to satisfy Disco’s static discipline. Unfortunately, our
+inverters can recognize voltages only below 1 V as a 0, and thus do not satisfy this
+condition.

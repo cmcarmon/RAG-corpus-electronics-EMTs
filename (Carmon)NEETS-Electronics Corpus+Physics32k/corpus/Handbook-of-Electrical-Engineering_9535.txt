@@ -1,0 +1,8 @@
+The concept of views can serve as a convenient security mechanism. Consider a relation EMPLOYEE that
+gives the name of an employee, date of birth, the department worked for, address, phone number, and salary.
+A database user who is not allowed to have access to the salary of employees from his own department can
+have this portion of the database hidden from him. This can be achieved by limiting his access to a view obtained
+from the relation EMPLOYEE by selecting only those tuples where the department attribute is different from his.
+Database security can be enhanced by using data encryption. The idea here is to encrypt the data using some
+coding technique. An unauthorized user will have difﬁculty deciphering the encrypted data. Only authorized
+users are provided with keys to decipher the encoded data.

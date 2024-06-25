@@ -1,0 +1,6 @@
+1. Insert into a stack all the single-branch paths corresponding to the words of the vocabulary.
+2. Sort these entries in descending order of a function F(wi), where wi ˛
+3. If the top entry in the stack is the end of the utterance, the search ends; otherwise, each entry in the
+stack is extended using F(·) for all possible words in the vocabulary and inserted into the stack while
+maintaining the stack order.
+F(·) is

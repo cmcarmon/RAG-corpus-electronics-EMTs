@@ -1,0 +1,6 @@
+Basic  stuck-at  fault  testing  techniques  address  combinational  digital  systems.  Three  of  the  most  popular
+stuck-at fault testing techniques are the D algorithm, the Path-Oriented Decision Making (Podem) algorithm,
+and the Fan algorithm. These algorithms ﬁrst identify a circuit fault, e.g., stuck-at-0 or stuck-at-1, and then
+try to generate an input stimulus that detects the fault and makes the fault visible at an output. Detecting a
+fault is called fault sensitization and making a fault visible is called fault propagation. To illustrate this process,
+consider the simple combinational design in Fig. 34.18 [Goel, 1981; Fujiwara and Shimono, 1983].

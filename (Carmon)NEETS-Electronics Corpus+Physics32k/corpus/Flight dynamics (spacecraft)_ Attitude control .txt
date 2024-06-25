@@ -1,0 +1,102 @@
+Attitude control is the exercise of control over the orientation of an object with respect to an inertial frame of reference or another entity (the celestial sphere, certain fields, nearby objects, etc.). The attitude of a craft can be described using three mutually perpendicular axes of rotation, generally referred to as roll, pitch, and yaw angles respectively (with the roll axis in line with the primary engine direction of thrust). Orientation can be determined by calibration using an external guidance system, such as determining the angles to a reference star or the Sun, then internally monitored using an inertial system of mechanical or optical gyroscopes. Orientation is a vector quantity described by three angles for the instantaneous direction, and the instantaneous rates of roll in all three axes of rotation. The aspect of control implies both awareness of the instantaneous orientation and rates of roll and the ability to change the roll rates to assume a new orientation using either a reaction control system or other means.
+Newton's second law, applied to rotational rather than linear motion, becomes:
+
+
+
+
+
+τ
+
+=
+
+I
+
+x
+
+
+
+α
+
+,
+
+
+{\displaystyle \mathbf {\tau } =I_{x}\mathbf {\alpha } ,}
+
+where τ is the net torque (or moment) exerted on the vehicle, Ix is its moment of inertia about the axis of rotation, and α is the angular acceleration vector in radians per second per second. Therefore, the rotational rate in degrees per second per second is
+
+
+
+
+
+α
+
+=
+(
+180
+
+/
+
+π
+)
+
+T
+
+
+/
+
+
+I
+
+x
+
+
+,
+
+
+{\displaystyle \mathbf {\alpha } =(180/\pi )\mathbf {T} /I_{x},}
+
+and the angular rotation rate ω (degrees per second) is obtained by integrating α over time, and the angular rotation θ is the time integral of the rate, analogous to linear motion. The three principal moments of inertia Ix, Iy, and Iz about the roll, pitch and yaw axes, are determined through the spacecraft's center of mass.
+Attitude control torque, absent aerodynamic forces, is frequently applied by a reaction control system, a set of thrusters located about the vehicle. The thrusters are fired, either manually or under automatic guidance control, in short bursts to achieve the desired rate of rotation, and then fired in the opposite direction to halt rotation at the desired position. The torque about a specific axis is:
+
+
+
+
+
+τ
+
+=
+
+∑
+
+i
+=
+1
+
+
+N
+
+
+(
+
+r
+
+i
+
+
+×
+
+
+F
+
+i
+
+
+
+)
+,
+
+
+{\displaystyle \mathbf {\tau } =\sum _{i=1}^{N}(r_{i}\times \mathbf {F_{i}} ),}
+
+where r is its distance from the center of mass, and F is the thrust of an individual thruster (only the component of F perpendicular to r is included.)
+For situations where propellant consumption may be a problem (such as long-duration satellites or space stations), alternative means may be used to provide the control torque, such as reaction wheels or control moment gyroscopes.

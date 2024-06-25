@@ -1,0 +1,9 @@
+To determine the network resistance, we turn the network into a complete circuit by
+connecting a hypothetical current source to its terminals as shown in Figure 2.53. Note
+that the circuit in Figure 2.53 is now much the same as the circuit in Figure 2.25; the two
+circuits differ only in the complexity of the resistive network across the current source.
+Next, we compute the voltage across the port that appears in response to the application
+of the current source. The ratio of this voltage to the source current is then the equivalent
+resistance of the network as viewed through the port. Note that this procedure does
+work as desired for the circuit in Figure 2.25 since the division of Equation 2.22 by I
+yields v2/I = R.

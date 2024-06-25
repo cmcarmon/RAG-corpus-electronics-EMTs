@@ -1,0 +1,33 @@
+Error Requirements
+As discussed in earlier sections, different media types have
+vastly different error requirements, ranging from being com-
+pletely error intolerant to being somewhat error tolerant
+depending on the application. An error is said to have
+occurred when a packet is either lost or damaged. Most
+error-tolerant multimedia applications use error concealment
+techniques to deal with lost or damaged packets by predicting
+lost information from correctly received packets. Errors are
+handled using various Forward Error Correction (FEC) codes
+that can be used to detect and correct single or multiple errors.
+The use of FEC codes implies that extra information has to
+be added to the packet stream to handle errors. However, if the
+communication path over which the packets are transmitted
+introduces additional errors beyond the level of degradation
+for which the FEC was designed, then some errors will remain
+undetected or may not be corrected, and the performance will
+surely degrade. Thus, it is essential for a multimedia applica-
+tion to know the error characteristics of the communication
+network so that an adequate level of FEC is introduced to
+supplement the packet stream and protect against data loss
+or damage. As an example, wireless networks usually rely
+much more heavily on FEC than wired networks because the
+latter has a higher probability of packet loss. The minimization
+of packet retransmission achieved by using FEC can be too
+costly in wired networks that are characterized by very low
+probability of packet loss. The cost incurred is attributed to the
+additional bandwidth required for the representation of FEC
+information. The use of FEC is also critically dependent on the
+application. For instance, in real-time applications, some level
+of FEC is introduced for both wired and wireless communi-
+cation networks because retransmissions are generally pro-
+hibited due to delay constraints.

@@ -1,0 +1,9 @@
+Two-Port Parameter Selection
+The choice of parameters to use for a particular analysis or design problem is based on analytical convenience
+or the physics of the device or network at hand. For example, an ideal transformer cannot be represented with
+z parameters. I1 and I2 are not linearly independent variables, since they are related through the turns ratio. A
+similar argument applies to the y-parameter representation of a transformer. Here V1 and V2 are not indepen-
+dent, since they too are related via the turns ratio. A possible choice for the transformer is the transmission
+parameters. For an ideal transformer, B and C would be zero. For a BJT transistor, there is effectively linear
+independence between the input current and the output voltage. Thus, the hybrid parameters are the parameters
+of choice for the transistor.

@@ -1,0 +1,7 @@
+Following the particular structure provided by the MPEG-7
+transcoding hints, consider that each region Ri has an import-
+ance Ii and spatial resolution hint Si. Consider also that each
+region has a content value score Vi after rescaling the image
+globally using rescaling factor L, which is a function of its im-
+portance Ii and spatial resolution hint Si. Rescaling goes as
+follows:

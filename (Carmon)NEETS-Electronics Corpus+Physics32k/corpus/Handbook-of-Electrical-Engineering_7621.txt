@@ -1,0 +1,12 @@
+The  main  difference  between  a  latch  and  an  edge-triggered  ﬂip-ﬂop  is  the  question  of  transparency.  The
+gated D latch is transparent (the Q output follows the D input when the control input C = l) and it latches,
+captures, or stores the value at the D input at the time the control input C goes to 0. The positive edge-triggered
+D ﬂip-ﬂop is never transparent from its data input D to its output Q. When the control input C is 0 the output
+Q does not follow the D input and remains unchanged; however, the value at the D input is latched, captured,
+or stored at the time the control input C makes a 0 to 1 transition. The characteristic that makes edge-triggered
+ﬂip-ﬂops desirable for feedback applications is that, due to their nontransparent property, their outputs can
+be fed back as inputs to the device without causing oscillation. This is true for all types of edge-triggered ﬂip-
+ﬂops.  A  negative  edge-triggered  J-K  ﬂip-ﬂop  circuit  is  shown  in  the  circuit  diagram  in  Fig. 79.21  with  its
+corresponding IEEE symbol. Notice that the J-K ﬂip-ﬂop requires eight logic gates compared to only six logic
+gates for the D ﬂip-ﬂop in Fig. 79.20. The reduced characteristic table for this negative edge-triggered ﬂip-ﬂop
+is shown in Table 79.14.

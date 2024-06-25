@@ -1,0 +1,5 @@
+15. We can also modify the memory element circuit to include a reset signal as follows: In this
+circuit, we use a second switch to discharge the capacitor to ground when the reset signal is high.
+Additionally, to make this circuit work, we must use non-ideal switches that are designed such that
+the ON resistance of the reset switch is much lower than that of the store switch. By doing so, we
+can ensure that reset will override the store when the store and reset are on at the same time.

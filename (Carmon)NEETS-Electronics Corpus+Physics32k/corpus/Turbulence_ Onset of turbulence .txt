@@ -1,0 +1,38 @@
+The onset of turbulence can be predicted by the Reynolds number, which is the ratio of inertial forces to viscous forces within a fluid which is subject to relative internal movement due to different fluid velocities, in what is known as a boundary layer in the case of a bounding surface such as the interior of a pipe. A similar effect is created by the introduction of a stream of higher velocity fluid, such as the hot gases from a flame in air. This relative movement generates fluid friction, which is a factor in developing turbulent flow. Counteracting this effect is the viscosity of the fluid, which as it increases, progressively inhibits turbulence, as more kinetic energy is absorbed by a more viscous fluid. The Reynolds number quantifies the relative importance of these two types of forces for given flow conditions, and is a guide to when turbulent flow will occur in a particular situation.
+This ability to predict the onset of turbulent flow is an important design tool for equipment such as piping systems or aircraft wings, but the Reynolds number is also used in scaling of fluid dynamics problems, and is used to determine dynamic similitude between two different cases of fluid flow, such as between a model aircraft, and its full size version. Such scaling is not linear and the application of Reynolds numbers to both situations allows scaling factors to be developed. A flow situation in which the kinetic energy is significantly absorbed due to the action of fluid molecular viscosity gives rise to a laminar flow regime. For this the dimensionless quantity the Reynolds number (Re) is used as a guide.
+With respect to laminar and turbulent flow regimes:
+laminar flow occurs at low Reynolds numbers, where viscous forces are dominant, and is characterized by smooth, constant fluid motion;
+turbulent flow occurs at high Reynolds numbers and is dominated by inertial forces, which tend to produce chaotic eddies, vortices and other flow instabilities.
+The Reynolds number is defined as
+
+
+
+
+
+R
+e
+
+=
+
+
+
+ρ
+v
+L
+
+μ
+
+
+
+,
+
+
+{\displaystyle \mathrm {Re} ={\frac {\rho vL}{\mu }}\,,}
+
+where:
+ρ is the density of the fluid (SI units: kg/m3)
+v is a characteristic velocity of the fluid with respect to the object (m/s)
+L is a characteristic linear dimension (m)
+μ is the dynamic viscosity of the fluid (Pa·s or N·s/m2 or kg/(m·s)).
+While there is no theorem directly relating the non-dimensional Reynolds number to turbulence, flows at Reynolds numbers larger than 5000 are typically (but not necessarily) turbulent, while those at low Reynolds numbers usually remain laminar. In Poiseuille flow, for example, turbulence can first be sustained if the Reynolds number is larger than a critical value of about 2040; moreover, the turbulence is generally interspersed with laminar flow until a larger Reynolds number of about 4000.
+The transition occurs if the size of the object is gradually increased, or the viscosity of the fluid is decreased, or if the density of the fluid is increased.

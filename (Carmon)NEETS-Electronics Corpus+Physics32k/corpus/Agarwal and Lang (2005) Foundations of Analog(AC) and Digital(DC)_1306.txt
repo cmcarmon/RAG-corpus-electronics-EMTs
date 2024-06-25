@@ -1,0 +1,10 @@
+The behavior seen in Figure 9.37 also begins to explain the delays seen
+in Figure 9.3, although as we shall see in Chapter 10 the details are slightly
+different. As we see in Figure 9.37, it takes time for a finite current source to
+charge a capacitor, and hence to raise its voltage. In the case of the two inverters
+shown in Figure 9.1, it takes time for the first inverter to change the voltage at
+the input to the second inverter. This is because it takes time for the first inverter
+to charge and discharge the gate-to-source capacitance of the MOSFET in the
+second inverter. The time it takes for this voltage to cross the threshold voltage
+of the MOSFET is also ultimately responsible for a delay at the output of the
+second inverter.

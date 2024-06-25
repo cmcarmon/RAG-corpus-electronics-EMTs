@@ -1,0 +1,197 @@
+Quantum uncertainty becomes visible when identical measurements of the same quantity (observable) on identical objects (here: modes of light) give different results (eigen values). In case of a single freely propagating monochromatic laser beam, the individual measurements are performed on consecutive time intervals of identical length. One interval must last much longer than the light's period; otherwise the monochromatic property would be significantly disturbed. Such consecutive measurements correspond to a time series of fluctuating eigen values. Let us consider an example in which the amplitude quadrature
+
+
+
+X
+
+
+{\displaystyle X}
+was repeatedly measured. The time series can be used for different purposes. Averaging over the full data set just gives the average electric field amplitude over the total measuring time. This number is not meaningful in terms of a quantum statistical analysis, because there is just a single number. The amplitude of the light wave might be different before and after our measurement. The amplitude of the light beam could even be strongly modulated on time scales much longer than our data taking. This is a rather fundamental issue, since any data taking lasts for a finite time. Our time series, however, does provide meaningful information about fast changes of the light's amplitude, i.e. changes at frequencies higher than the inverse of the full measuring time. Changes that are faster than the duration of a single measurement, however, are invisible again. A quantum statistical characterization through consecutive measurements on some sort of a carrier is thus always related to a specific frequency interval, for instance described by
+
+
+
+f
+±
+Δ
+f
+
+/
+
+2
+
+
+{\displaystyle f\pm \Delta f/2}
+with
+
+
+
+f
+>
+Δ
+f
+
+/
+
+2
+>
+0.
+
+
+{\displaystyle f>\Delta f/2>0.}
+Based on this inside, we can describe the physical meaning of the observable
+
+
+
+
+X
+
+ϑ
+
+
+
+
+{\displaystyle X_{\vartheta }}
+more clearly :
+
+The quantum statistical characterization using identical consecutive modes carried by a laser beam confers to the laser beam's electric field modulation within a frequency interval. The actual observable needs to be labeled accordingly, for instance as
+
+
+
+
+X
+
+ϑ
+,
+f
+,
+Δ
+f
+
+
+
+
+{\displaystyle X_{\vartheta ,f,\Delta f}}
+.
+
+
+
+
+X
+
+f
+,
+Δ
+f
+
+
+
+
+{\displaystyle X_{f,\Delta f}}
+is the amplitude (or depth) of the amplitude modulation and
+
+
+
+
+Y
+
+f
+,
+Δ
+f
+
+
+
+
+{\displaystyle Y_{f,\Delta f}}
+the amplitude (or depth) of the phase modulation in the respective frequency interval. This leads to the doggerel expressions 'amplitude quadrature amplitude' and 'phase quadrature amplitude'.
+Within some limitations, for instance set by the speed of the electronics,
+
+
+
+f
+
+
+{\displaystyle f}
+and
+
+
+
+Δ
+f
+
+
+{\displaystyle \Delta f}
+can be freely chosen in course of data acquisition and, in particular, data processing. This choice also defines the measurement object, i.e. the mode that is characterized by the statistics of the eigen values of
+
+
+
+
+X
+
+f
+,
+Δ
+f
+
+
+
+
+{\displaystyle X_{f,\Delta f}}
+and
+
+
+
+
+Y
+
+f
+,
+Δ
+f
+
+
+
+
+{\displaystyle Y_{f,\Delta f}}
+. The measurement object thus is a modulation mode that is carried by the light beam. – In many experiments, one is interested in a continuous spectrum of many modulation modes carried by the same light beam . Fig. 2 shows the squeeze factors of many neighboring modulation modes versus
+
+
+
+f
+
+
+{\displaystyle f}
+. The upper trace refers to the uncertainties of the same modes being in their vacuum states, which serves as the 0 dB reference.
+The observables in squeezed light experiments correspond exactly to those being used in optical communication. Amplitude modulation (AM) and frequency modulation (FM) are the classical means to imprint information on a carrier field. (Frequency modulation is mathematically closely related to phase modulation). The observables
+
+
+
+
+X
+
+f
+,
+Δ
+f
+
+
+
+
+{\displaystyle X_{f,\Delta f}}
+and
+
+
+
+
+Y
+
+f
+,
+Δ
+f
+
+
+
+
+{\displaystyle Y_{f,\Delta f}}
+also correspond to the measurement quantities in laser interferometers, such as in Sagnac interferometers measuring rotation changes and in Michelson interferometers observing gravitational waves. Squeezed states of light thus have ample applications in optical communication and optical measurements.

@@ -1,0 +1,18 @@
+Among many VLSI implementations, a modiﬁed trace-back
+Viterbi algorithm (Truong, 1992) has been proposed to save
+register storage. The survivor path is traced back through the
+trellis diagram and used to determine the decoded information
+bit in the window of length 5K. Besides, a 1-Gb/s K ¼ 2
+convolutional code sliding block Viterbi decoder has been
+recently reported (Black and Menge, 1997). It is designed for
+a high throughput magnetic and optical storage channel. Both
+backward and forward processing exist, with total window
+length of M ¼ 2L where L ¼ 5K . However, L ¼ 3 is chosen
+for performance/complexity trade-off. Thus, each processing
+unit uses an L-stage trace-back decoding unit.
+Its fully
+systolic architecture results in a very high throughput of
+2Lfclk ¼ 2  6  83 ’ 1 Gb/s, where fclk ¼ 83 MHz. Each pipe-
+line stage is an add-compare-select (ACS) unit. The fabricated
+chip size is 9:21  8:77 nm2 with a 1.2-mm double-metal
+CMOS technology.

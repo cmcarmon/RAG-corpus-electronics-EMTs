@@ -1,0 +1,11 @@
+To illustrate the use of MATLAB in computing some of the steps mentioned above, we use a speech signal
+collected at 8 kHz. After loading the signal from a data ﬁle, we will remove any linear trend that might have
+been introduced in the collection process (this also removes any constant term). Figure 21.1 contains a plot of
+the signal which clearly shows the time-varying nature of the signal. Figure 21.2 contains a histogram of the
+distribution of the values, showing that the values are closer to a Laplacian or Gamma distribution than to a
+uniform or Gaussian distribution. Figure 21.3 contains a spectogram which displays the frequency content of
+the signal computed using short overlapping time windows. The MATLAB code that generated these plots is
+shown in Fig. 21.4. This code illustrates some of the important characteristics of high-level computational tools.
+The fundamental data structure is a matrix, and all operations and functions are designed to work with matrices.
+Hence, loops are rarely necessary, and thus the code is generally much shorter, more readable, and more self-
+documenting.

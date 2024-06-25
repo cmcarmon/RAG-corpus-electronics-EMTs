@@ -1,0 +1,51 @@
+One of the predominant themes in classical neurobiology is the concept of a digital component to neurons. This concept was quickly absorbed by computer scientists where it evolved into the simple weighting function for coupled artificial neural networks. Neurobiologists call the critical voltage at which neurons fire a threshold. The dynamical criticism of this digital concept is that neurons don't truly exhibit all-or-none firing and should instead be thought of as resonators.
+In dynamical systems, this kind of property is known as excitability. An excitable system starts at some stable point. Imagine an empty lake at the top of a mountain with a ball in it. The ball is in a stable point. Gravity is pulling it down, so it's fixed at the lake bottom. If we give it a big enough push, it will pop out of the lake and roll down the side of the mountain, gaining momentum and going faster. Let's say we fashioned a loop-de-loop around the base of the mountain so that the ball will shoot up it and return to the lake (no rolling friction or air resistance). Now we have a system that stays in its rest state (the ball in the lake) until a perturbation knocks it out (rolling down the hill) but eventually returns to its rest state (back in the lake). In this example, gravity is the driving force and spatial dimensions x (horizontal) and y (vertical) are the variables. In the Morris Lecar neuron, the fundamental force is electromagnetic and
+
+
+
+V
+
+
+{\displaystyle V}
+and
+
+
+
+N
+
+
+{\displaystyle N}
+are the new phase space, but the dynamical picture is essentially the same. The electromagnetic force acts along
+
+
+
+V
+
+
+{\displaystyle V}
+just as gravity acts along
+
+
+
+y
+
+
+{\displaystyle y}
+. The shape of the mountain and the loop-de-loop act to couple the y and x dimensions to each other. In the neuron, nature has already decided how
+
+
+
+V
+
+
+{\displaystyle V}
+and
+
+
+
+N
+
+
+{\displaystyle N}
+are coupled, but the relationship is much more complicated than the gravitational example.
+This property of excitability is what gives neurons the ability to transmit information to each other, so it is important to dynamical neuron networks, but the Morris Lecar can also operate in another parameter regime where it exhibits oscillatory behavior, forever oscillating around in phase space. This behavior is comparable to pacemaker cells in the heart, that don't rely on excitability but may excite neurons that do.

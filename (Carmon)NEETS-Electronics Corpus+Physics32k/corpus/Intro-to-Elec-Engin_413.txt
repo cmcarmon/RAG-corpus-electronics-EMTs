@@ -1,0 +1,7 @@
+the constant region from the high-frequency band for which the open-loop gain decreases.
+fh is also called the half-power frequency since the magnitude of A is 3 dB below its low-
+frequency value A0. The frequency f GB at which AdB = 0, or the magnitude A = 1, is the
+gain–bandwidth product given by A0fh. Typical values of fh and f GB are 10 Hz and 1 MHz,
+respectively. To overcome this frequency limitation, both inverting and noninverting op-amp
+stages (which are examples of feedback ampliﬁers) are frequently used. These will be discussed
+later in examples.

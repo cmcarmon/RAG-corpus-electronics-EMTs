@@ -1,0 +1,17 @@
+Because image coding and indexing are quite overlapping
+processes in terms of storage and searching, one approach is to
+unify the two problems in a single framework. There has been
+a recent shift in trends in terms of transformation used for
+frequency domain processing, from DCT to discrete wavelet
+transform (DWT) because of DWT’s time frequency and
+multiresolution analysis nature. DWT has been incorporated
+in modern image and video compression standards like JPEG-
+2000 and MPEG-4. One such system that uses DWT for
+compression and indexing of images is proposed in Liang et
+al. (1999). The wavelet-based image encoding techniques
+depend on successive approximate quantization (SAQ) of
+wavelet coefﬁcients in different subbands from wavelet decom-
+position. The image indexing from DWT encoded image is
+mainly based on signiﬁcant coefﬁcients in each subband. Sig-
+niﬁcant coefﬁcients in each sub band are recognized as the
+ones whose magnitude is greater than a certain threshold,

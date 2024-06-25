@@ -1,0 +1,259 @@
+If the current through a conductor with inductance is increasing, a voltage
+
+
+
+v
+(
+t
+)
+
+
+{\displaystyle v(t)}
+will be induced across the conductor with a polarity which opposes the current, as described above (this is in addition to any voltage drop caused by the conductor's resistance). The charges flowing through the circuit lose potential energy moving from the higher voltage to the lower voltage end. The energy from the external circuit required to overcome this "potential hill" is being stored in the increased magnetic field around the conductor. Therefore, any inductance with a current through it stores energy in its magnetic field. At any given time
+
+
+
+t
+
+
+{\displaystyle t}
+the power
+
+
+
+p
+(
+t
+)
+
+
+{\displaystyle p(t)}
+flowing into the magnetic field, which is equal to the rate of change of the stored energy
+
+
+
+U
+
+
+{\displaystyle U}
+, is the product of the current
+
+
+
+i
+(
+t
+)
+
+
+{\displaystyle i(t)}
+and voltage
+
+
+
+v
+(
+t
+)
+
+
+{\displaystyle v(t)}
+across the conductor
+
+
+
+
+p
+(
+t
+)
+=
+
+
+
+d
+U
+
+
+d
+t
+
+
+
+=
+v
+(
+t
+)
+i
+(
+t
+)
+
+
+
+{\displaystyle p(t)={dU \over dt}=v(t)i(t)\,}
+
+From (1) above
+
+
+
+
+
+
+
+d
+U
+
+
+d
+t
+
+
+
+=
+L
+(
+i
+)
+i
+
+
+
+d
+i
+
+
+d
+t
+
+
+
+
+
+
+{\displaystyle {dU \over dt}=L(i)i{di \over dt}\,}
+
+
+
+
+
+d
+U
+=
+L
+(
+i
+)
+i
+d
+i
+
+
+
+{\displaystyle dU=L(i)idi\,}
+
+When there is no current, there is no magnetic field and the stored energy is zero. Neglecting resistive losses, the energy
+
+
+
+U
+
+
+{\displaystyle U}
+(measured in joules, in SI) stored by an inductance with a current
+
+
+
+I
+
+
+{\displaystyle I}
+through it is equal to the amount of work required to establish the current through the inductance from zero, and therefore the magnetic field. This is given by:
+
+
+
+
+U
+=
+
+∫
+
+0
+
+
+I
+
+
+L
+(
+i
+)
+i
+d
+i
+
+
+
+{\displaystyle U=\int _{0}^{I}L(i)idi\,}
+
+If the inductance
+
+
+
+L
+(
+I
+)
+
+
+{\displaystyle L(I)}
+is constant over the current range, the stored energy is
+
+
+
+
+U
+=
+L
+
+∫
+
+0
+
+
+I
+
+
+i
+d
+i
+
+
+{\displaystyle U=L\int _{0}^{I}idi}
+
+
+
+
+
+U
+=
+
+
+1
+2
+
+
+L
+
+I
+
+2
+
+
+
+
+{\displaystyle U={1 \over 2}LI^{2}}
+
+So therefore inductance is also proportional to how much energy is stored in the magnetic field for a given current. This energy is stored as long as the current remains constant. If the current decreases, the magnetic field will decrease, inducing a voltage in the conductor in the opposite direction, negative at the end through which current enters and positive at the end through which it leaves. This will return stored magnetic energy to the external circuit.
+If ferromagnetic materials are located near the conductor, such as in an inductor with a magnetic core, the above equation is only valid for linear regions of the magnetic flux, at currents below the level at which the ferromagnetic material saturates, where the inductance is approximately constant. If the magnetic field in the inductor approaches the level at which the core saturates, the inductance will begin to change with current, and the integral equation must be used.

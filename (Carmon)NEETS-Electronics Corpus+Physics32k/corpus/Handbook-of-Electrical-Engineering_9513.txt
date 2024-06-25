@@ -1,0 +1,4 @@
+GET NEXT [<record type> WHERE <restrictions>]
+Starting from the current position, this command uses the preodrer algorithm to retrieve the next record
+that satisﬁes the restrictions. The clause enclosed between brackets is optional. GET NEXT is used to retrieve
+the next (preorder) record from the current position.

@@ -1,0 +1,7 @@
+Audio  coders  that  employ  common  frequency-domain  models  of  masking  start  out  by  splitting  and  sub-
+sampling the input signal into different frequency bands (using ﬁlterbanks such as subband ﬁlterbanks or time-
+ masked threshold) is determined, followed
+frequency transforms). Then, the masking threshold (i.e., 
+by quantization of the spectral information and (optional) noiseless compression using variable-length coding.
+The  encoding  process  is  completed  by  multiplexing  the  spectral  information  with  side  information,  adding
+error protection, etc.

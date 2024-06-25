@@ -1,0 +1,126 @@
+The mixing matrix
+
+
+
+M
+(
+t
+)
+∈
+
+Mat
+
+n
+×
+n
+
+
+⁡
+(
+
+R
+
+)
+
+
+{\displaystyle M(t)\in \operatorname {Mat} _{n\times n}(\mathbb {R} )}
+of
+
+
+
+G
+
+
+{\displaystyle G}
+at time
+
+
+
+t
+
+
+{\displaystyle t}
+is defined as
+
+
+
+M
+(
+t
+)
+:=
+U
+(
+t
+)
+∘
+U
+(
+−
+t
+)
+
+
+{\displaystyle M(t):=U(t)\circ U(-t)}
+.
+Mixing matrices are symmetric doubly-stochastic matrices obtained from CTQWs on graphs:
+
+
+
+
+
+M
+(
+t
+)
+
+
+u
+,
+v
+
+
+
+
+{\displaystyle {M(t)}_{u,v}}
+gives the probability of
+
+
+
+u
+
+
+{\displaystyle u}
+transitioning to
+
+
+
+v
+
+
+{\displaystyle v}
+at time
+
+
+
+t
+
+
+{\displaystyle t}
+for any vertices
+
+
+
+u
+
+
+{\displaystyle u}
+and v on
+
+
+
+G
+
+
+{\displaystyle G}
+.

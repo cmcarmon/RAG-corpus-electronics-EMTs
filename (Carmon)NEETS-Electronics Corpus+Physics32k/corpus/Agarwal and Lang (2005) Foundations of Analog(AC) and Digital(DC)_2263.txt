@@ -1,0 +1,5 @@
+Any time vi is less than vC, the circuit will be forced into the ON state. The
+degenerate nature of the circuit, which is modeled here as having zero resis-
+tance in this state, may be troublesome. Think of adding a small resistance
+associated with the source, or with the forward-biased diode. Now to keep the
+diode ON, the diode current iD must be positive, so

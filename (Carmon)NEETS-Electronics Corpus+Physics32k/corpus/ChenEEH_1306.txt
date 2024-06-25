@@ -1,0 +1,12 @@
+asynchronous receiver transmitters (UARTs), and parallel
+input/outputs (PIOs). A video graphics adapter (VGA) inter-
+face is used to send signals to a monitor; a parallel port is used
+to communicate with a printer; and a serial port is used to
+communicate with a mouse, and so on. First, an interface takes
+signals from busses according to an I/O addresses. For
+example, a UART chip can read a byte from the data bus and
+output it in a serial format with parity check. It can be conﬁg-
+ured as various transmission speeds from 1200 bps to 115,200
+bps. Different interfaces have their own speciﬁcations and
+transmission protocols. The following subsections give a brief
+introduction.

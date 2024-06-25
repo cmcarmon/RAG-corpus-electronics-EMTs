@@ -1,0 +1,16 @@
+When there is ambiguity in piece movement, there is a complex system of movement description using the symbols below. The movement descriptors consist of (a) a dropped piece indicator, (b) movement toward destination indicators, and (c) movement origin indicators.
+
+The symbol for a dropped piece is 打 following the piece's character. In the usual course of a game, most dropped pieces will probably be unambiguous. In these unambiguous cases, explicit notation for the dropped piece is not required and usually omitted (unlike in western notation where the drop notation is obligatory). For example, a western notation such as P*23 will be notated simply as ２三歩 instead of ２三歩打. In other situations, there is a possibility that either a piece that is already in play on the board can move to a certain square or a piece of the same kind that is held in hand can be dropped to that square. In this case, when the piece on the board moves to that square, the notation simply notates the move as usual with no drop indication. However, when the piece in hand is dropped to that location, then the drop indication must be present in the notation in order to resolve the ambiguity. In other words, 打 is only used when the following two conditions are met: (i) a piece is dropped and (ii) there is ambiguity with another piece on the board.
+For ambiguity resolution with pieces on the board, the main notation symbols are 引 for downward movement, 寄 for horizontal movement, and 上 for upward movement. Note that these three indicators describe movement toward their destination square.
+In the example below, three golds can move to the ７八 (= 78) square. The gold that originates on ７七 (= 77) and moves down is notated as ７八金引 (= G77-78). The other two possibilities are notated as ７八金寄 (= G68-78) and ７八金上 (= G79-78).
+
+The 引 and 上 indicate downward and upward movement, respectively, that can be both vertical as well as diagonal.
+
+There are two less common alternate symbols used instead of 上: 行 and 入. However, these alternate symbols are reserved for indicating only the two most powerful promoted dragon 龍 and horse 馬 pieces. Thus, ５五龍行 or ５五龍入 instead of ５五龍上, but not ５五金行 or ５五金入.
+In certain situations, an indication of movement toward the destination square (that is, with 引, 寄, 上) is not sufficient to resolve ambiguity. In these cases, the origin square of the piece is notated with a relative positional indicator. These are 右 for a piece moving from a right square (and thus moving leftward) and 左 for a piece moving from a left square (rightward).
+
+This positional information is relative to each player's directions. Thus, △５二金右 (literally: "white 5-2 gold right") refers to the silver on the right from White's perspective (which would be on the left from Black's perspective).
+
+In the special case of golds and silvers as well as promoted pieces with gold-like movements (成銀, 成桂, 成香, と), it is possible for there to be a three-way ambiguity in upward movement. In this case, a third positional origin indicator is used: 直 for vertical (straight up) movement.
+
+Additionally, this 直 indicator tends to always be used for vertical movement even when simply using 右 ("right") and 左 ("left") would suffice. Relatedly, 直 tends to be used only for golds and silvers and not for other pieces.

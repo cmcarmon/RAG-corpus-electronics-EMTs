@@ -1,0 +1,10 @@
+The d(t) is the Dirac delta function. The power spectral
+density matrices Q(t) and R(t ) are symmetric positive deﬁnite
+for all t.
+State estimation may be desired for two reasons. First, when
+the measurement matrix H 6¼ I , then the state is not directly
+measured; however, knowledge of the full state may be desir-
+able (e.g., for control). Second, even if H ¼ I, it may be
+beneﬁcial to ﬁlter the measurements to decrease the effects of
+the measurement noise. Filtering can be considered as a state
+estimation process.

@@ -1,0 +1,12 @@
+that is, we expect the input resistance to be very low. For example, for a typical
+case of Rf = 10 k, rt = 1000 , A = 105, the input resistance measured
+−
+at the v
+terminal will be 0.1 ohm. Simple physical reasoning serves to support
+this result. If we imagine applying a small voltage to the input, say 0.1 mV, then
+the Op Amp will immediately drive vo to -A times 0.1 mV, or -10 volts. So
+resistor Rf has a large voltage across it, hence a large current will flow. This large
+current must come from the input source, and is 105 times as large as one might
+expect for such a small input voltage. Large current for small voltage means the
+effective input resistance will be very small, in fact roughly the feedback resistor
+Rf divided by A.

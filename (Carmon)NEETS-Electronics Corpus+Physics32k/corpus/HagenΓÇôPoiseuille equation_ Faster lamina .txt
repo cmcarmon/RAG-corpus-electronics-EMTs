@@ -1,0 +1,47 @@
+Assume that we are figuring out the force on the lamina with radius r. From the equation above, we need to know the area of contact and the velocity gradient. Think of the lamina as a ring of radius r, thickness dr, and length Δx. The area of contact between the lamina and the faster one is simply the area of the inside of the cylinder: A = 2πr Δx. We don't know the exact form for the velocity of the liquid within the tube yet, but we do know (from our assumption above) that it is dependent on the radius. Therefore, the velocity gradient is the change of the velocity with respect to the change in the radius at the intersection of these two laminae. That intersection is at a radius of r. So, considering that this force will be positive with respect to the movement of the liquid (but the derivative of the velocity is negative), the final form of the equation becomes
+
+
+
+
+
+F
+
+viscosity, fast
+
+
+=
+−
+2
+π
+r
+μ
+
+Δ
+x
+
+
+
+
+
+
+
+d
+v
+
+
+d
+r
+
+
+
+|
+
+
+r
+
+
+
+
+{\displaystyle F_{\text{viscosity, fast}}=-2\pi r\mu \,\Delta x\,\left.{\frac {dv}{dr}}\right|_{r}}
+
+where the vertical bar and subscript r following the derivative indicates that it should be taken at a radius of r.

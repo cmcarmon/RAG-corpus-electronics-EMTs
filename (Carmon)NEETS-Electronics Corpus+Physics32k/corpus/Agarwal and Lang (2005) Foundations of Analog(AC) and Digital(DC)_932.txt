@@ -1,0 +1,6 @@
+gates is one in which the gate voltage is high and the drain voltage is relatively
+low. For example, we might have VOH = 4 V applied as a logical-high input
+to the gate of a MOSFET in an inverter (assume VT for the MOSFET is given
+to be 1 V), which might produce as the output a corresponding logical-low
+drain voltage VOL = 1 V. With these values, vDS = 1 V, vGS = 4 V. Since
+VT = 1 V, the constraint in Equation 7.5 is satisfied.

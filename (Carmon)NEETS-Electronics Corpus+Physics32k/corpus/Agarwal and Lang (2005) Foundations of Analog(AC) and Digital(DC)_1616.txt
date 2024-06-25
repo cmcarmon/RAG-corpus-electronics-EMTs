@@ -1,0 +1,10 @@
+Suppose we have a square-wave signal input to the inverter representing
+a sequence of alternating 1’s and 0’s. Let the time period of the square wave
+be T. Therefore, the frequency of the square wave is f = 1/T. As depicted in
+Figure 11.8, when the input voltage is low, the MOSFET is off, and the load
+capacitor CL is charged up to VS by the power supply through the resistor RL.
+As suggested in Figure 11.9, when the input signal is high, the MOSFET is on,
+and the capacitor discharges through the on resistance of the MOSFET. After a
+long time, the voltage on the load capacitor will reach the steady state value of
+VSRON/(RON + RL). Assume that the period of the input square wave is long
+enough for the capacitor to charge and discharge completely.

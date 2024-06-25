@@ -1,0 +1,7 @@
+The ﬁrst stage, the ﬁlter bank, has the following requirements. First, decomposing and then simply recon-
+structing  the  signal  should  not  lead  to  distortions  (“perfect  reconstruction  ﬁlterbank”).  This  results  in  the
+advantage that all distortions are due to the quantization of the spectral data. Since each quantizer works on
+band-limited  data,  the  distortion  (also  band-limited  due  to  reﬁltering)  is  controllable  by  using  the  masking
+models described above. Second, the bandwidths of the ﬁlters should be narrow to provide sufﬁcient coding
+gain.  On  the  other  hand,  the  length  of  the  impulse  responses  of  the  ﬁlters  should  be  short  enough  (time
+resolution of the coder!) to avoid so-called pre-echoes, that is, backward spreading of distortion components

@@ -1,0 +1,14 @@
+. Note
+that the second two terms on the right hand side of the above equation are dependent only on the capacitor
+voltage and current from the previous time step, and are therefore ﬁxed constants as far as the present step is
+t
+) multiplied by the capacitor voltage, and the
+g
+ = 2
+concerned. The ﬁrst term is effectively a conductance (
+second two terms could be represented by an independent current source. The entire transient model for the
+capacitor therefore consists of a conductance in parallel with two current sources (the numerical values of these
+are, of course, different at each time step). Once the capacitors and inductors have been replaced as indicated,
+the normal method of DC analysis is used. One complete DC analysis must be performed for each time point.
+This is the reason that transient analysis is so CPU intensive. The method outlined here is the trapezoidal time
+integration method and is used as the default in SPICE.

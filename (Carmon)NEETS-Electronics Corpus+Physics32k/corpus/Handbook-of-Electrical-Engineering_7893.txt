@@ -1,0 +1,6 @@
+Quad, octal, 9-bit, and 10-bit transparent latches are readily available as off-the-shelf IC devices for these
+types of applications. For proper asynchronous circuit operation, the signal applied to the data input D of the
+fundamental-mode circuit in Fig. 81.25 must meet a minimum setup time and hold time requirement relative
+to the control input C, changing the latch to the memory mode when C goes to 0. This is a basic requirement
+for asynchronous circuits with level inputs, i.e., only one input signal is allowed to change at one time. Another
+restriction requires letting the circuit reach a stable state before allowing the next input signal to change.

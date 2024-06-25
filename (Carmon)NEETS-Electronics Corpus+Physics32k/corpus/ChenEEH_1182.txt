@@ -1,0 +1,23 @@
+Signal encoding schemes have been proposed to minimize
+transition activities on busses while ignoring crosscoupled
+capacitances. When statistical properties are unknown a
+priori, the bus-invert method (Stan and Burleson, 1995) and
+the on-line adaptive scheme (Benini et al., 1999) can be ap-
+plied to encode randomly distributed signals. On the other
+hand, highly correlated access patterns exhibit a spatiotem-
+poral
+locality that can be exploited for energy reduction
+(Panda and Dutt, 1996) in Gray code (Mehta et al., 1996; Su
+et al., 1994), the TO method (Benini et al., 1997), the working-
+zone encoding (Musoll et al., 1998), the combined bus-invert/
+TO (Benini et al., 1998), and the coupling-driven method
+(Kim et al., 2000). Lower bounds for minimum achievable
+transition activity have been derived for noiseless busses in
+(Ramprasad et al., 1999) and for noisy busses in Hegde and
+Shanbhag (1998). In Zhang et al., (1998), a segmentation
+method was introduced to reduce power consumption. Speci-
+ﬁcation transformation approaches have also been used to
+reduce the number of memory accesses at the behavioral
+level (Catthoor et al., 1994). The effectiveness of various en-
+coding schemes was compared at the system level by Fornaciari
+et al. (1999).

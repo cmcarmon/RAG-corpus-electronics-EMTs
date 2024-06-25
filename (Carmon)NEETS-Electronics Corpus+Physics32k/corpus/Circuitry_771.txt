@@ -1,0 +1,26 @@
+ports,  external  circuitry  will  normally  be  required 
+to  drive  anything  other  than  the  most  modest  of 
+typical 
+loads.  Figure  16.27 
+arrangements 
+types  of 
+medium-  and  high-current  load.  Fig.  16.27(a) 
+shows  how  an  NPN  transistor  can  be  used  to 
+operate  a 
+the  relay 
+requires an appreciable operating current (say, 150 
+mA,  or  more)  a  plastic  encapsulated  Darlington 
+power transistor should be used as shown in Figure 
+16.27(b). Alternatively, a power MOSFET may be 
+preferred, as shown in Fig. 16.27(c). Such devices 
+offer  very  low  values  of  ‘on’  resistance  coupled 
+with  a  very  high  ‘off’  resistance.  Furthermore, 
+unlike  conventional  bipolar  transistors,  a  power 
+FET will impose a negligible load on an I/O port. 
+Figure 16.27(d) shows a filament lamp driver based 
+on  a  plastic  Darlington  power  transistor.  This 
+circuit  will  drive  lamps  rated  at  up  to  24  V,  500 
+mA. Finally, where visual indication of the state of 
+a relay is desirable it is a simple  matter to add an 
+LED indicator to the driver stage, as shown in Fig. 
+16.28. 

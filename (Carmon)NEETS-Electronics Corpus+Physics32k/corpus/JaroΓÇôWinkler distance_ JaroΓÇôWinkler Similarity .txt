@@ -1,0 +1,238 @@
+Jaro–Winkler similarity uses a prefix scale
+
+
+
+p
+
+
+{\displaystyle p}
+which gives more favorable ratings to strings that match from the beginning for a set prefix length
+
+
+
+ℓ
+
+
+{\displaystyle \ell }
+. Given two strings
+
+
+
+
+s
+
+1
+
+
+
+
+{\displaystyle s_{1}}
+and
+
+
+
+
+s
+
+2
+
+
+
+
+{\displaystyle s_{2}}
+, their Jaro–Winkler similarity
+
+
+
+s
+i
+
+m
+
+w
+
+
+
+
+{\displaystyle sim_{w}}
+is:
+
+
+
+
+s
+i
+
+m
+
+w
+
+
+=
+s
+i
+
+m
+
+j
+
+
++
+(
+ℓ
+p
+(
+1
+−
+s
+i
+
+m
+
+j
+
+
+)
+)
+,
+
+
+{\displaystyle sim_{w}=sim_{j}+(\ell p(1-sim_{j})),}
+
+where:
+
+
+
+
+s
+i
+
+m
+
+j
+
+
+
+
+{\displaystyle sim_{j}}
+is the Jaro similarity for strings
+
+
+
+
+s
+
+1
+
+
+
+
+{\displaystyle s_{1}}
+and
+
+
+
+
+s
+
+2
+
+
+
+
+{\displaystyle s_{2}}
+
+
+
+
+
+ℓ
+
+
+{\displaystyle \ell }
+is the length of common prefix at the start of the string up to a maximum of four characters
+
+
+
+
+p
+
+
+{\displaystyle p}
+is a constant scaling factor for how much the score is adjusted upwards for having common prefixes.
+
+
+
+p
+
+
+{\displaystyle p}
+should not exceed 0.25, otherwise the distance can become larger than 1. The standard value for this constant in Winkler's work is
+
+
+
+p
+=
+0.1
+
+
+{\displaystyle p=0.1}
+
+The Jaro-Winkler distance
+
+
+
+
+d
+
+w
+
+
+
+
+{\displaystyle d_{w}}
+is defined as
+
+
+
+
+d
+
+w
+
+
+=
+1
+−
+s
+i
+
+m
+
+w
+
+
+
+
+{\displaystyle d_{w}=1-sim_{w}}
+.
+Although often referred to as a distance metric, the Jaro–Winkler distance is not a metric in the mathematical sense of that term because it does not obey the triangle inequality. The Jaro–Winkler distance also does not satisfy that axiom that states that
+
+
+
+d
+(
+x
+,
+y
+)
+=
+0
+↔
+x
+=
+y
+
+
+{\displaystyle d(x,y)=0\leftrightarrow x=y}
+.

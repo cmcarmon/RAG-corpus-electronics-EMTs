@@ -1,0 +1,297 @@
+In quantum mechanics, as in classical mechanics, the Hamiltonian is the generator of time translations. This means that the state at a slightly later time differs from the state at the current time by the result of acting with the Hamiltonian operator (multiplied by the negative imaginary unit, −i). For states with a definite energy, this is a statement of the de Broglie relation between frequency and energy, and the general relation is consistent with that plus the superposition principle.
+The Hamiltonian in classical mechanics is derived from a Lagrangian, which is a more fundamental quantity relative to special relativity. The Hamiltonian indicates how to march forward in time, but the time is different in different reference frames. The Lagrangian is a Lorentz scalar, while the Hamiltonian is the time component of a four-vector. So the Hamiltonian is different in different frames, and this type of symmetry is not apparent in the original formulation of quantum mechanics.
+The Hamiltonian is a function of the position and momentum at one time, and it determines the position and momentum a little later. The Lagrangian is a function of the position now and the position a little later (or, equivalently for infinitesimal time separations, it is a function of the position and velocity). The relation between the two is by a Legendre transformation, and the condition that determines the classical equations of motion (the Euler–Lagrange equations) is that the action has an extremum.
+In quantum mechanics, the Legendre transform is hard to interpret, because the motion is not over a definite trajectory. In classical mechanics, with discretization in time, the Legendre transform becomes
+
+
+
+
+ε
+H
+=
+p
+(
+t
+)
+
+
+(
+
+
+q
+(
+t
++
+ε
+)
+−
+q
+(
+t
+)
+
+
+)
+
+
+−
+ε
+L
+
+
+{\displaystyle \varepsilon H=p(t){\big (}q(t+\varepsilon )-q(t){\big )}-\varepsilon L}
+
+and
+
+
+
+
+p
+=
+
+
+
+∂
+L
+
+
+∂
+
+
+
+q
+˙
+
+
+
+
+
+
+,
+
+
+{\displaystyle p={\frac {\partial L}{\partial {\dot {q}}}},}
+
+where the partial derivative with respect to
+
+
+
+
+
+
+q
+˙
+
+
+
+
+
+{\displaystyle {\dot {q}}}
+holds q(t + ε) fixed. The inverse Legendre transform is
+
+
+
+
+ε
+L
+=
+ε
+p
+
+
+
+q
+˙
+
+
+
+−
+ε
+H
+,
+
+
+{\displaystyle \varepsilon L=\varepsilon p{\dot {q}}-\varepsilon H,}
+
+where
+
+
+
+
+
+
+
+q
+˙
+
+
+
+=
+
+
+
+∂
+H
+
+
+∂
+p
+
+
+
+,
+
+
+{\displaystyle {\dot {q}}={\frac {\partial H}{\partial p}},}
+
+and the partial derivative now is with respect to p at fixed q.
+In quantum mechanics, the state is a superposition of different states with different values of q, or different values of p, and the quantities p and q can be interpreted as noncommuting operators. The operator p is only definite on states that are indefinite with respect to q. So consider two states separated in time and act with the operator corresponding to the Lagrangian:
+
+
+
+
+
+e
+
+i
+
+
+[
+
+
+p
+
+
+(
+
+
+q
+(
+t
++
+ε
+)
+−
+q
+(
+t
+)
+
+
+)
+
+
+−
+ε
+H
+(
+p
+,
+q
+)
+
+
+]
+
+
+
+
+.
+
+
+{\displaystyle e^{i{\big [}p{\big (}q(t+\varepsilon )-q(t){\big )}-\varepsilon H(p,q){\big ]}}.}
+
+If the multiplications implicit in this formula are reinterpreted as matrix multiplications, the first factor is
+
+
+
+
+
+e
+
+−
+i
+p
+q
+(
+t
+)
+
+
+,
+
+
+{\displaystyle e^{-ipq(t)},}
+
+and if this is also interpreted as a matrix multiplication, the sum over all states integrates over all q(t), and so it takes the Fourier transform in q(t) to change basis to p(t). That is the action on the Hilbert space – change basis to p at time t.
+Next comes
+
+
+
+
+
+e
+
+−
+i
+ε
+H
+(
+p
+,
+q
+)
+
+
+,
+
+
+{\displaystyle e^{-i\varepsilon H(p,q)},}
+
+or evolve an infinitesimal time into the future.
+Finally, the last factor in this interpretation is
+
+
+
+
+
+e
+
+i
+p
+q
+(
+t
++
+ε
+)
+
+
+,
+
+
+{\displaystyle e^{ipq(t+\varepsilon )},}
+
+which means change basis back to q at a later time.
+This is not very different from just ordinary time evolution: the H factor contains all the dynamical information – it pushes the state forward in time. The first part and the last part are just Fourier transforms to change to a pure q basis from an intermediate p basis.
+
+Another way of saying this is that since the Hamiltonian is naturally a function of p and q, exponentiating this quantity and changing basis from p to q at each step allows the matrix element of H to be expressed as a simple function along each path. This function is the quantum analog of the classical action. This observation is due to Paul Dirac.
+Dirac further noted that one could square the time-evolution operator in the S representation:
+
+
+
+
+
+e
+
+i
+ε
+S
+
+
+,
+
+
+{\displaystyle e^{i\varepsilon S},}
+
+and this gives the time-evolution operator between time t and time t + 2ε. While in the H representation the quantity that is being summed over the intermediate states is an obscure matrix element, in the S representation it is reinterpreted as a quantity associated to the path. In the limit that one takes a large power of this operator, one reconstructs the full quantum evolution between two states, the early one with a fixed value of q(0) and the later one with a fixed value of q(t). The result is a sum over paths with a phase, which is the quantum action. Crucially, Dirac identified in this article the deep quantum-mechanical reason for the principle of least action controlling the classical limit (see quotation box).

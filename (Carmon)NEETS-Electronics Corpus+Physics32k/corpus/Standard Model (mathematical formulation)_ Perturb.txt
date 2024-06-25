@@ -1,0 +1,39 @@
+Much of the qualitative descriptions of the standard model in terms of "particles" and "forces" comes from the perturbative quantum field theory view of the model. In this, the Langrangian is decomposed as
+
+
+
+
+
+L
+
+
+=
+
+
+
+L
+
+
+
+0
+
+
++
+
+
+
+L
+
+
+
+
+I
+
+
+
+
+
+{\displaystyle {\mathcal {L}}={\mathcal {L}}_{0}+{\mathcal {L}}_{\mathrm {I} }}
+into separate free field and interaction Langrangians. The free fields care for particles in isolation, whereas processes involving several particles arise through interactions. The idea is that the state vector should only change when particles interact, meaning a free particle is one whose quantum state is constant. This corresponds to the interaction picture in quantum mechanics.
+In the more common Schrödinger picture, even the states of free particles change over time: typically the phase changes at a rate which depends on their energy. In the alternative Heisenberg picture, state vectors are kept constant, at the price of having the operators (in particular the observables) be time-dependent. The interaction picture constitutes an intermediate between the two, where some time dependence is placed in the operators (the quantum fields) and some in the state vector. In QFT, the former is called the free field part of the model, and the latter is called the interaction part. The free field model can be solved exactly, and then the solutions to the full model can be expressed as perturbations of the free field solutions, for example using the Dyson series.
+It should be observed that the decomposition into free fields and interactions is in principle arbitrary. For example, renormalization in QED modifies the mass of the free field electron to match that of a physical electron (with an electromagnetic field), and will in doing so add a term to the free field Lagrangian which must be cancelled by a counterterm in the interaction Lagrangian, that then shows up as a two-line vertex in the Feynman diagrams. This is also how the Higgs field is thought to give particles mass: the part of the interaction term which corresponds to the (nonzero) vacuum expectation value of the Higgs field is moved from the interaction to the free field Lagrangian, where it looks just like a mass term having nothing to do with Higgs.

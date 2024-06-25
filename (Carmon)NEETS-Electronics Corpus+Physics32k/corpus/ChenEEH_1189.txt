@@ -1,0 +1,7 @@
+To reduce the number of transitions, the offset is en-
+coded in a one-hot code. Because the one-hot code
+produces two transitions if the previous reference was
+also in the one-hot code and an average of n/2 transi-
+tions when the previous reference is arbitrary, using
+a transition-signaling code reduces the number of
+transitions (Musoll et al., 1998).

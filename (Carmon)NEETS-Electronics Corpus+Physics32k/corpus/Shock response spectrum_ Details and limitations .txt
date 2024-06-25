@@ -1,0 +1,7 @@
+Any transient waveform can be presented as an SRS, but the relationship is not unique; many different transient waveforms can produce the same SRS (something one can take advantage of through a process called "Shock Synthesis"). Due to only tracking the peak instantaneous acceleration the SRS does not contain all the information in the transient waveform from which it was created.
+Different damping ratios produce different SRSs for the same shock waveform. Zero damping will produce a maximum response. Very high damping produces a very boring SRS: A horizontal line. The level of damping is demonstrated by the "quality factor", Q which can also be thought of transmissibility in sinusoidal vibration case. Relative damping of 5% results in a Q of 10. An SRS plot is incomplete if it doesn't specify the assumed Q value.
+An SRS is of little use for fatigue-type damage scenarios, as the transform removes information of how many times a peak acceleration (and inferred stress) is reached.
+The SDOF system model also can be used to characterize the severity of vibrations, with two criteria:
+the exceeding of characteristic instantaneous stress limits (yield stress, ultimate stress etc.). We then define the extreme response spectrum (ERS), similar to the shock response spectrum;
+the damage by fatigue following the application of a large number of cycles, thus taking into account the duration of the vibration (Fatigue damage spectrum (FDS)).
+Like many other useful tools, the SRS is not applicable to significantly non-linear systems.

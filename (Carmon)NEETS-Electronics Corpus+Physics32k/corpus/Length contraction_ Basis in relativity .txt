@@ -1,0 +1,232 @@
+First it is necessary to carefully consider the methods for measuring the lengths of resting and moving objects. Here, "object" simply means a distance with endpoints that are always mutually at rest, i.e., that are at rest in the same inertial frame of reference. If the relative velocity between an observer (or his measuring instruments) and the observed object is zero, then the proper length
+
+
+
+
+L
+
+0
+
+
+
+
+{\displaystyle L_{0}}
+of the object can simply be determined by directly superposing a measuring rod. However, if the relative velocity > 0, then one can proceed as follows:
+
+The observer installs a row of clocks that either are synchronized a) by exchanging light signals according to the Poincaré-Einstein synchronization, or b) by "slow clock transport", that is, one clock is transported along the row of clocks in the limit of vanishing transport velocity. Now, when the synchronization process is finished, the object is moved along the clock row and every clock stores the exact time when the left or the right end of the object passes by. After that, the observer only has to look after the position of a clock A that stored the time when the left end of the object was passing by, and a clock B at which the right end of the object was passing by at the same time. It's clear that distance AB is equal to length
+
+
+
+L
+
+
+{\displaystyle L}
+of the moving object. Using this method, the definition of simultaneity is crucial for measuring the length of moving objects.
+Another method is to use a clock indicating its proper time
+
+
+
+
+T
+
+0
+
+
+
+
+{\displaystyle T_{0}}
+, which is traveling from one endpoint of the rod to the other in time
+
+
+
+T
+
+
+{\displaystyle T}
+as measured by clocks in the rod's rest frame. The length of the rod can be computed by multiplying its travel time by its velocity, thus
+
+
+
+
+L
+
+0
+
+
+=
+T
+⋅
+v
+
+
+{\displaystyle L_{0}=T\cdot v}
+in the rod's rest frame or
+
+
+
+L
+=
+
+T
+
+0
+
+
+⋅
+v
+
+
+{\displaystyle L=T_{0}\cdot v}
+in the clock's rest frame.
+In Newtonian mechanics, simultaneity and time duration are absolute and therefore both methods lead to the equality of
+
+
+
+L
+
+
+{\displaystyle L}
+and
+
+
+
+
+L
+
+0
+
+
+
+
+{\displaystyle L_{0}}
+. Yet in relativity theory the constancy of light velocity in all inertial frames in connection with relativity of simultaneity and time dilation destroys this equality. In the first method an observer in one frame claims to have measured the object's endpoints simultaneously, but the observers in all other inertial frames will argue that the object's endpoints were not measured simultaneously. In the second method, times
+
+
+
+T
+
+
+{\displaystyle T}
+and
+
+
+
+
+T
+
+0
+
+
+
+
+{\displaystyle T_{0}}
+are not equal due to time dilation, resulting in different lengths too.
+The deviation between the measurements in all inertial frames is given by the formulas for Lorentz transformation and time dilation (see Derivation). It turns out that the proper length remains unchanged and always denotes the greatest length of an object, and the length of the same object measured in another inertial reference frame is shorter than the proper length. This contraction only occurs along the line of motion, and can be represented by the relation
+
+
+
+
+L
+=
+
+L
+
+0
+
+
+
+/
+
+γ
+(
+v
+)
+
+
+{\displaystyle L=L_{0}/\gamma (v)}
+
+where
+L is the length observed by an observer in motion relative to the object
+L0 is the proper length (the length of the object in its rest frame)
+γ(v) is the Lorentz factor, defined as
+
+
+
+
+γ
+(
+v
+)
+≡
+
+
+1
+
+1
+−
+
+v
+
+2
+
+
+
+/
+
+
+c
+
+2
+
+
+
+
+
+
+
+
+{\displaystyle \gamma (v)\equiv {\frac {1}{\sqrt {1-v^{2}/c^{2}}}}\ }
+
+where
+v is the relative velocity between the observer and the moving object
+c is the speed of light
+Replacing the Lorentz factor in the original formula leads to the relation
+
+
+
+
+L
+=
+
+L
+
+0
+
+
+
+
+1
+−
+
+v
+
+2
+
+
+
+/
+
+
+c
+
+2
+
+
+
+
+
+
+{\displaystyle L=L_{0}{\sqrt {1-v^{2}/c^{2}}}}
+
+In this equation both L and L0 are measured parallel to the object's line of movement. For the observer in relative movement, the length of the object is measured by subtracting the simultaneously measured distances of both ends of the object. For more general conversions, see the Lorentz transformations. An observer at rest viewing an object travelling very close to the speed of light would observe the length of the object in the direction of motion as very near zero.
+Then, at a speed of 13,400,000 m/s (30 million mph, 0.0447c) contracted length is 99.9% of the length at rest; at a speed of 42,300,000 m/s (95 million mph, 0.141c), the length is still 99%. As the magnitude of the velocity approaches the speed of light, the effect becomes prominent.

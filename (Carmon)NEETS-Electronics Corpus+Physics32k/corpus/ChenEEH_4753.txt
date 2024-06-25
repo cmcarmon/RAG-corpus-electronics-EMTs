@@ -1,0 +1,10 @@
+These simple guidelines may become very useful when per-
+forming a real control design. Moreover, notice that the bound
+on
+i (t) makes it possible to specify the compact sets of
+the approximators so that, even throughout the transient, it
+can be guaranteed that the states will remain within the com-
+pact sets without the need for a global bounding control term.
+This has been a recurrent shortcoming of many online func-
+tion approximation-based methods, and the explicit bound on
+the transient makes it possible to overcome it.

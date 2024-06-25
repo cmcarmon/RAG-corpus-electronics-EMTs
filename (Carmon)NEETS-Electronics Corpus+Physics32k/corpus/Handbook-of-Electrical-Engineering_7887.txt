@@ -1,0 +1,8 @@
+Synchronous Sequential Logic Circuits
+Synchronous sequential logic circuits change states only at the rising or falling edge of the synchronous clock
+signal. To allow proper circuit operation, any external input signals to the synchronous sequential logic circuit
+must  generate  excitation  inputs  that  occur  with  the  proper  setup  time  (tsu)  and  hold  time  (th)  requirements
+relative to the designated clock edge for the memory elements being used. Synchronous or clock-mode sequen-
+tial logic circuits depend on the present state of memory devices called bistables or ﬂip-ﬂops (asynchronous
+sequential logic circuits) that are driven by a system clock as illustrated by the synchronous sequential logic
+circuit in Fig. 81.23.

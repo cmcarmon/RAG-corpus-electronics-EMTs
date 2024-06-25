@@ -1,0 +1,7 @@
+For a line-of-sight radio system, the primary source of loss is the decrease of the signal power due to uniform propagation, proportional to the inverse square of the distance (geometric spreading).
+Transmitting antennas are for the most part neither isotropic (an imaginary class of antenna with uniform radiation in 3 dimensions) nor omnidirectional (a real class of antenna with uniform radiation in 2 dimensions).
+The use of omnidirectional antennas is rare in telecommunication systems, so almost every link budget equation must consider antenna gain.
+Transmitting antennas typically concentrate the signal power in a favoured direction, normally that in which the receiving antenna is placed.
+Transmitter power is effectively increased (in the direction of highest antenna gain). This systemic gain is expressed by including the antenna gain in the link budget.
+The receiving antenna is also typically directional, and when properly oriented collects more power than an isotropic antenna would; as a consequence, the receiving antenna gain (in decibels from isotropic, dBi) adds to the received power.
+The antenna gains (transmitting or receiving) are scaled by the wavelength of the radiation in question. This step may not be required if adequate systemic link budgets are achieved.

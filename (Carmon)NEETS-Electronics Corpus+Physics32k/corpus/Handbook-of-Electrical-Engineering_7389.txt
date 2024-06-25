@@ -1,0 +1,15 @@
+The  preceding  paragraphs  describe  a  number  of  the  requirements  placed  upon  telemetry  systems  by  the
+transducers and quantities being measured. Unfortunately, the development of telemetry has not been such as
+to  satisfy  all  requirements,  and  in  many  cases  the  telemetry  system  seriously  limits  the  measurement.  A
+compromise is therefore required between telemetry capabilities and the requirements of measurement. The
+shortcomings and limitations of the telemetry system place restrictions upon measurements above and beyond
+those encountered in the laboratory when the telemeter is not used. In the ﬁrst place, an electrical output from
+the measuring device is required in order that the measurement may be placed on a radio link. Consequently,
+transducers that produce an electrical output on one form or another are necessary. Also, the telemetry system
+may not be perfectly stable down to zero frequency (dc), and transducers and methods of measurement must
+be  chosen  to  minimize  the  effects  of  drift.  Overmodulating  the  subcarrier,  or  the  time-division  multiplexer,
+may also affect adjacent channels, as well as produce erroneous data in its own channel. If various measuring
+devices are switched, the switching transients must be minimized, or the accuracy of the telemetry system may
+be  impaired.  When  mechanical  commutators  or  time  multiplexers  are  used,  the  measurement  of  the  time
+occurrence of the event, such as the impact of cosmic particles or the receipt of a guidance pulse, is made more
+difﬁcult and the time ambiguity of the multiplexed system is a serious limitation.

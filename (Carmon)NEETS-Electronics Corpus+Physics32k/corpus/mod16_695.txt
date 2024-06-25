@@ -1,0 +1,7 @@
+The frequency control section accomplishes the tuning of the first and second LOs within the
+converter section. The frequency immediately being analyzed is controlled by the current frequencies of
+the LOs. To analyze another frequency, you must change an LO frequency to allow the new frequency to
+be converted to a 10 MHz signal by the converter section. Periodically, the unit sweeps and analyzes a
+frequency range centered on the frequency set by the FREQUENCY knob. Adjusting the FREQUENCY
+knob will cause the LOs to be tuned to the new frequency. Only the LOs of the first two converters can be
+changed to vary the frequency being analyzed.

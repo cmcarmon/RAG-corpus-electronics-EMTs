@@ -1,0 +1,6 @@
+where AD is called the difference-mode gain and AC is called the common-mode gain.
+The key in using a difference amplifier is to encode the useful signal in the difference-
+mode component and the noise in the common-mode component. Then if we make
+AD large and AC small, we achieve our goal of noise reduction. Usually we use the
+common-mode rejection ratio (CMRR) to describe the ability of the amplifier to reject
+the common-mode noise:

@@ -1,0 +1,15 @@
+where vC is the capacitor voltage defined positively at the upper node, iL is the inductor current
+defined positively in the downwards direction, and G, C and L are the conductance, capacitance
+and inductance of the resistor, capacitor and inductor respectively. A comparison of the two sets of
+equations shows that the second set can be constructed from the first with iL replaced by vC, −vC
+replaced by iL, R replaced by G, L replaced by C and C replaced by L. Therefore, the homogeneous
+response of the circuit shown in Figure 12.14a can be constructed directly from Equations 12.58
+and 12.59 in the same way. See, for example, Equations 12.100 and 12.101. Indeed, all results in
+Section 12.4 can be derived from those in Section 12.2 in the same way. Further, duality continues
+to hold when the circuit shown in Figure 12.14a is extended to include a parallel current source
+while the circuit shown in Figure 12.14b is extended to include a series voltage source. Thus, all
+results in Section 12.6 can be derived directly from the results in Section 12.5.
+5. Interestingly, as we will see in Section 12.4, the dynamics of the parallel RLC circuit will be
+essentially identical to that of the series circuit for all three cases, except for a reversal in the role of
+R. The identical dynamics for the two circuits arises because they both have the same characteristic
+equation when it is represented in the standard form shown in Equation 12.43.

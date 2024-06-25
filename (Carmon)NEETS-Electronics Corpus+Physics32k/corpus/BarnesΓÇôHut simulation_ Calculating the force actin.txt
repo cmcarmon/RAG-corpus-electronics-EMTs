@@ -1,0 +1,14 @@
+To calculate the net force on a particular body, the nodes of the tree are traversed, starting from the root. If the center of mass of an internal node is sufficiently far from the body, the bodies contained in that part of the tree are treated as a single particle whose position and mass is respectively the center of mass and total mass of the internal node. If the internal node is sufficiently close to the body, the process is repeated for each of its children.
+Whether a node is or isn't sufficiently far away from a body, depends on the quotient
+
+
+
+s
+
+/
+
+d
+
+
+{\displaystyle s/d}
+, where s is the width of the region represented by the internal node, and d is the distance between the body and the node’s center of mass. The node is sufficiently far away when this ratio is smaller than a threshold value θ. The parameter θ determines the accuracy of the simulation; larger values of θ increase the speed of the simulation but decreases its accuracy. If θ = 0, no internal node is treated as a single body and the algorithm degenerates to a direct-sum algorithm.

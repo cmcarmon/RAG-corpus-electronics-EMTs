@@ -1,0 +1,7 @@
+In the second stage, the (time-varying) masking threshold as determined by the psychoacoustic model usually
+controls an iterative analysis-by-synthesis quantization and coding loop. It can incorporate rules for masking
+of tones by noise and of noise by tones, though little is known in the psychoacoustic literature for more general
+signals. Quantizer step sizes can be set and bits can be allocated according to the known spectral estimate, by
+block companding with transmission of the scale factors as side information or iteratively in a variable-length
+coding loop (Huffman coding). In the latter case, one can low-pass ﬁlter the signal if the total required bit rate
+is too high.

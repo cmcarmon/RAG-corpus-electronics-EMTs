@@ -1,0 +1,8 @@
+A system is said to have output-rate damping when the generation of the output quantity in some
+way is made to depend upon the rate at which the controlled variable is varying. Output-rate control
+often involves the creation of an auxiliary loop, making the system multiloop. For the system of
+Figure 16.2.7, output-rate damping can be obtained by means of a tachometer generator, driven
+from the servomotor shaft. The complete block diagram of the servomechanism with output-rate
+damping is depicted in Figure 16.2.12, where Ko is the output-rate gain factor (V·s/rad) and the
+output-rate signal is given by Ko(dc/dt ). By applying the feedback relationship of Equation
+(16.2.3) to the minor (inner) loop, one gets

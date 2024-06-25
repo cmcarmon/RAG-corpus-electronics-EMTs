@@ -1,0 +1,4 @@
+The SCSI (pronounced skuzzy) is very different from both the ST-506/412 and the ESDI. The SCSI 
+is an 8-bit, parallel, high-level interface. High-level means that instead of a host computer asking for data 
+by specifying a track, cylinder, and sector number, all it asks for is a logical sector number. The SCSI 
+then translates the logical sector number into the actual disk location. 

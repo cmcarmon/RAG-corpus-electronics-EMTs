@@ -1,0 +1,8 @@
+Target model ﬁdelity and adaptivity are fundamental issues in track ﬁlter mechanization. Independent one-
+dimensional tracking loops may be implemented to control pulse-to-pulse range gate positioning and antenna
+pointing. The performance of one-dimensional polynomial algorithms, such as the alpha-beta ﬁlter, to track
+targets  from  one  pulse  to  the  next  and  provide  modest  smoothing  is  generally  adequate.  However,  one-
+dimensional closed-loop tracking ignores knowledge of the equations of motion governing the target so that
+their smoothing and long-term prediction performance is relatively poor for targets with known equations of
+motion. In addition, simple one-dimensional tracking-loop ﬁlters do not incorporate any adaptivity or measure
+of estimation quality.

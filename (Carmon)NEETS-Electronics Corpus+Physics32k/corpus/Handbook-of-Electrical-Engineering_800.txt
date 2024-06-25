@@ -1,0 +1,9 @@
+Figure 11.4 shows the magnitude and phase curves for a zero term of the form (s/wz + 1) and a pole term
+of the form 1/(s/wp + 1). Exact plots of the magnitude and phase curves are shown as dashed lines. Straight
+line approximations to these curves are shown as solid lines. Note that the straight line approximations are so
+good that they obscure the exact curves at most frequencies. For this reason, some of the curves in this and
+later ﬁgures have been displaced slightly to enhance clarity. The greatest error between the exact and approximate
+magnitude curves is –3 dB. The approximation for phase is always within 7(cid:176) of the exact curve and usually
+much closer. The approximations for magnitude consist of two straight lines. The points of intersection between
+these two lines (w = wz for the zero term and w = wp for the pole) are breakpoints of the curves. Breakpoints
+of Bode gain curves always correspond to locations of poles or zeros in the transfer function.

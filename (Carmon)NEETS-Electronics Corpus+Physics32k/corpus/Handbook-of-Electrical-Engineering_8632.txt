@@ -1,0 +1,4 @@
+How different is the SPARC! The parameters to be passed are placed in the out registers (six are available
+for this purpose). Only the overﬂow, if any, would go on the stack. In general, registers are saved by window-
+blinding rather than moving them to the stack. On return, data is returned in the in registers and the registers
+restored by reverse window-blinding.

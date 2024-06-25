@@ -1,0 +1,8 @@
+Hardware support provided for a virtual memory system generally includes the ability to translate the virtual
+addresses provided by the processor into the physical addresses needed to access main memory. Thus, only on
+a virtual address miss is the operating system invoked. An important aspect of a computer implementing virtual
+memory, however, is the necessity of freezing the processor at the point where a miss occurs, servicing the page
+table fault, and later returning to continue the execution as if no page fault had occurred. This requirement
+means  either  that  it  must  be  possible  to  halt  execution  at  any  point—including  possibly  in  the  middle  of  a
+complex instruction—or it must be possible to guarantee that all memory accesses will be to pages resident in
+main memory.

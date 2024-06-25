@@ -1,0 +1,10 @@
+LFSRs as Signature Analyzer
+If the leftmost cell of an LFSR is connected to an external input, as shown in Fig. 85.7, the LFSR can be used
+as a compactor [Bardell et al., 1987; Abramovici, 1992]. In general, the underlying operation of the LFSR is to
+compute polynomial division over a ﬁnite ﬁeld, and the theoretical analysis of the effectiveness of  signature
+analysis is based on this functionality. The polynomial describing the LFSR implementation is seen to be the
+divisor  polynomial.  The  binary  input  stream  can  be  seen  to  represent  the  coefﬁcients  (high  order  ﬁrst)  of  a
+dividend  polynomial.  For  example,  if  the  input  stream  is  1001011  (bits  are  input  left  to  right  in  time),  the
+dividend polynomial is  x6 + x3 + x + 1. After seven clock cycles for all the input bits to have entered the LFSR,
+the  binary  output  stream  exiting  from  the  right  denotes  the  quotient  polynomial,  while  the  last  state  of  the
+cells in the LFSR denotes the remainder polynomial.

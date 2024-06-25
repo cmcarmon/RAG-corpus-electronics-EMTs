@@ -1,0 +1,6 @@
+where E = qd – q and can be made to go to zero asymptotically by selecting the gains Kv and Kp appropriately.
+This method has a deﬁnite advantage over the earlier method because the model need not be evaluated in real
+time. However, it does not provide complete decoupling because the inertia matrix is not diagonal. Furthermore,
+since the gains are continuously modiﬁed by the inertia matrix, the response is a function of the conﬁguration
+and the payload. A way to circumvent this problem is to continuously modify the gains Kv and Kp. This obviously
+suggests an adaptive control approach.

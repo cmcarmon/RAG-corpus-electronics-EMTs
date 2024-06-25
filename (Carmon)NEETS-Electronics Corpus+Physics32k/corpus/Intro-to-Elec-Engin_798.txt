@@ -1,0 +1,6 @@
+For the NOR gate of Figure 9.3.5(b), when both inputs VA and VB are low, both NMOS
+devices will be off with both PMOS devices on, and the output Vout is high around VSS. If, on
+the other hand, one of the inputs goes to be high, the associated PMOS device turns off and the
+corresponding NMOS device turns on, thereby yielding an output Vout to be low. Thus, the CMOS
+device of Figure 9.3.5(b) functions as a NOR gate. Note that neither gate in Figure 9.3.5 draws
+virtually any power-supply current, so that there is virtually no power consumption.

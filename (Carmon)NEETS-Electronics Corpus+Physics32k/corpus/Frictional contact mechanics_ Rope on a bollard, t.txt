@@ -1,0 +1,406 @@
+Consider a rope where equal forces (e.g.,
+
+
+
+
+F
+
+hold
+
+
+=
+400
+
+
+N
+
+
+
+{\displaystyle F_{\text{hold}}=400\,\mathrm {N} }
+) are exerted on both sides. By this the rope is stretched a bit and an internal tension
+
+
+
+T
+
+
+{\displaystyle T}
+is induced (
+
+
+
+T
+=
+400
+
+
+N
+
+
+
+{\displaystyle T=400\,\mathrm {N} }
+on every position along the rope). The rope is wrapped around a fixed item such as a bollard; it is bent and makes contact to the item's surface over a contact angle (e.g.,
+
+
+
+
+180
+
+∘
+
+
+
+
+{\displaystyle 180^{\circ }}
+). Normal pressure comes into being between the rope and bollard, but no friction occurs yet. Next the force on one side of the bollard is increased to a higher value (e.g.,
+
+
+
+
+F
+
+load
+
+
+=
+600
+
+
+N
+
+
+
+{\displaystyle F_{\text{load}}=600\,\mathrm {N} }
+). This does cause frictional shear stresses in the contact area. In the final situation the bollard exercises a friction force. on the rope such that a static situation occurs.
+The tension distribution in the rope in this final situation is described by the capstan equation, with solution:
+
+
+
+
+
+
+
+
+T
+(
+ϕ
+)
+
+
+
+=
+
+T
+
+hold
+
+
+,
+
+
+ϕ
+
+
+
+∈
+
+[
+
+
+ϕ
+
+hold
+
+
+,
+
+ϕ
+
+intf
+
+
+
+]
+
+
+
+
+
+T
+(
+ϕ
+)
+
+
+
+=
+
+T
+
+load
+
+
+
+e
+
+−
+μ
+ϕ
+
+
+,
+
+
+ϕ
+
+
+
+∈
+
+[
+
+
+ϕ
+
+intf
+
+
+,
+
+ϕ
+
+load
+
+
+
+]
+
+
+
+
+
+
+ϕ
+
+intf
+
+
+
+
+
+=
+
+
+1
+μ
+
+
+log
+⁡
+
+(
+
+
+
+T
+
+load
+
+
+
+T
+
+hold
+
+
+
+
+)
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}T(\phi )&=T_{\text{hold}},&\phi &\in \left[\phi _{\text{hold}},\phi _{\text{intf}}\right]\\T(\phi )&=T_{\text{load}}e^{-\mu \phi },&\phi &\in \left[\phi _{\text{intf}},\phi _{\text{load}}\right]\\\phi _{\text{intf}}&={\frac {1}{\mu }}\log \left({\frac {T_{\text{load}}}{T_{\text{hold}}}}\right)&\end{aligned}}}
+
+The tension increases from
+
+
+
+
+T
+
+hold
+
+
+
+
+{\displaystyle T_{\text{hold}}}
+on the slack side (
+
+
+
+ϕ
+=
+
+ϕ
+
+hold
+
+
+
+
+{\displaystyle \phi =\phi _{\text{hold}}}
+) to
+
+
+
+
+T
+
+load
+
+
+
+
+{\displaystyle T_{\text{load}}}
+on the high side
+
+
+
+ϕ
+=
+
+ϕ
+
+load
+
+
+
+
+{\displaystyle \phi =\phi _{\text{load}}}
+. When viewed from the high side, the tension drops exponentially, until it reaches the lower load at
+
+
+
+ϕ
+=
+
+ϕ
+
+intf
+
+
+
+
+{\displaystyle \phi =\phi _{\text{intf}}}
+. From there on it is constant at this value. The transition point
+
+
+
+
+ϕ
+
+intf
+
+
+
+
+{\displaystyle \phi _{\text{intf}}}
+is determined by the ratio of the two loads and the friction coefficient. Here the tensions
+
+
+
+T
+
+
+{\displaystyle T}
+are in Newtons and the angles
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+in radians.
+The tension
+
+
+
+T
+
+
+{\displaystyle T}
+in the rope in the final situation is increased with respect to the initial state. Therefore, the rope is elongated a bit. This means that not all surface particles of the rope can have held their initial position on the bollard surface. During the loading process, the rope slipped a little bit along the bollard surface in the slip area
+
+
+
+ϕ
+∈
+[
+
+ϕ
+
+intf
+
+
+,
+
+ϕ
+
+load
+
+
+]
+
+
+{\displaystyle \phi \in [\phi _{\text{intf}},\phi _{\text{load}}]}
+. This slip is precisely large enough to get to the elongation that occurs in the final state. Note that there is no slipping going on in the final state; the term slip area refers to the slippage that occurred during the loading process. Note further that the location of the slip area depends on the initial state and the loading process. If the initial tension is
+
+
+
+600
+
+
+N
+
+
+
+{\displaystyle 600\,\mathrm {N} }
+and the tension is reduced to
+
+
+
+400
+
+
+N
+
+
+
+{\displaystyle 400\,\mathrm {N} }
+at the slack side, then the slip area occurs at the slack side of the contact area. For initial tensions between
+
+
+
+400
+
+
+{\displaystyle 400}
+and
+
+
+
+600
+
+
+N
+
+
+
+{\displaystyle 600\,\mathrm {N} }
+, there can be slip areas on both sides with a stick area in between.

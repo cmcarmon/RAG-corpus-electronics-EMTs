@@ -1,0 +1,33 @@
+A relatively simple version  of the vertical fluid pressure variation is simply that the pressure difference between two elevations is the product of elevation change, gravity, and density. The equation is as follows:
+
+
+
+
+
+
+
+d
+P
+
+
+d
+h
+
+
+
+=
+−
+ρ
+g
+
+
+{\displaystyle {\frac {dP}{dh}}=-\rho g}
+, and
+where
+P is pressure,
+ρ is density,
+g is acceleration of gravity, and
+h is height.
+The delta symbol indicates a change in a given variable. Since g is negative, an increase in height will correspond to a decrease in pressure, which fits with the previously mentioned reasoning about the weight of a column of fluid.
+When density and gravity are approximately constant (that is, for relatively small changes in height), simply multiplying height difference, gravity, and density will yield a good approximation of pressure difference. Where different fluids are layered on top of one another, the total pressure difference would be obtained by adding the two pressure differences; the first being from point 1 to the boundary, the second being from the boundary to point 2; which would just involve substituting the ρ and Δh values for each fluid and taking the sum of the results. If the density of the fluid varies with height, mathematical integration would be required.
+Whether or not density and gravity can be reasonably approximated as constant depends on the level of accuracy needed, but also on the length scale of height difference, as gravity and density also decrease with higher elevation. For density in particular, the fluid in question is also relevant; seawater, for example, is considered an incompressible fluid; its density can vary with height, but much less significantly than that of air. Thus water's density can be more reasonably approximated as constant than that of air, and given the same height difference, the pressure differences in water are approximately equal at any height.

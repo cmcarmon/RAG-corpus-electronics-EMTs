@@ -1,0 +1,7 @@
+A sender wishing to place a logical 0 on a wire can therefore output the
+voltage VL, which falls within the valid range for a logical 0. Receivers observing
+the value VL transmitted on the wire will correctly interpret it as a logical 0.
+However, the presence of even the smallest amount of (positive) noise will force
+the voltage signal on the wire into the forbidden region, thereby causing the
+signal to become invalid. Thus, we say that the representation of Figure 5.5
+offers no margin for noise.

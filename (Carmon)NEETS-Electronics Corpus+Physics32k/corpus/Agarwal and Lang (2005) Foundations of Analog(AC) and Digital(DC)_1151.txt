@@ -1,0 +1,6 @@
+As depicted in Figure 8.22, we can compute the current gain by applying a
+small test voltage at the input and measuring both the input current itest and
+the output current io. The ratio io/itest is the current gain. Note that the output
+current is not the current that flows through the dependent current source,
+rather it is the current that is drawn by an external load resister RO. Because
+it is dependent on the value of the load resistor, the current gain is defined

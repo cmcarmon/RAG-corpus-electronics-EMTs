@@ -1,0 +1,11 @@
+An implementation of a digital signal processing (DSP)
+algorithm consists of the computer program of that algorithm
+and the hardware on which the program is executed. In many
+signal processing applications, real-time processing is an essen-
+tial requirement. Real-time implies that the results of a signal
+processing algorithm must be computed by a predeﬁned dead-
+line after the inputs are sampled. For example, in a cellular
+phone, the speech coding signal processing algorithm must be
+executed to match the speed of normal conversation. An im-
+plementation of a real-time signal processing application has
+three special characteristics:

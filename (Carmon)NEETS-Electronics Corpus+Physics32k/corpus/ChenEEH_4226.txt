@@ -1,0 +1,12 @@
+3. The station sends a contention resolution frame for the
+multiple responses and waits for any valid response.
+Each station can only respond in one of four time slot
+windows based on its two address bits and refrains
+from its claim if it hears anything before its window
+slot arrives. If the token holder station receives a valid
+it passes the token to the de-
+set-successor frame,
+mander. Otherwise,
+it tries for the next iteration.
+Only the stations that responded the previous time
+are allowed to respond.

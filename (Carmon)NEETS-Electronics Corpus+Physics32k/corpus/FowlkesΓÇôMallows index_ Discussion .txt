@@ -1,0 +1,9 @@
+Since the index is directly proportional to the number of true positives, a higher index means greater similarity between the two clusterings used to determine the index. One of the most basic thing to test the validity of this index is to compare two clusterings that are unrelated to each other. Fowlkes and Mallows showed that on using two unrelated clusterings, the value of this index approaches zero as the number of total data points chosen for clustering increase; whereas the value for the Rand index for the same data quickly approaches
+
+
+
+1
+
+
+{\displaystyle 1}
+making Fowlkes–Mallows index a much more accurate representation for unrelated data. This index also performs well if noise is added to an existing dataset and their similarity compared. Fowlkes and Mallows showed that the value of the index decreases as the component of the noise increases. The index also showed similarity even when the noisy dataset had a different number of clusters than the clusters of the original dataset. Thus making it a reliable tool for measuring similarity between two clusters.

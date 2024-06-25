@@ -1,0 +1,31 @@
+A simple feedback loop is shown in the diagram. If the loop gain AB is positive, then a condition of positive or regenerative feedback exists.
+If the functions A and B are linear and AB is smaller than unity, then the overall system gain from the input to output is finite, but can be very large as AB approaches unity. In that case, it can be shown that the overall or "closed loop" gain from input to output is:
+
+
+
+
+
+G
+
+c
+
+
+=
+A
+
+/
+
+(
+1
+−
+A
+B
+)
+
+
+{\displaystyle G_{c}=A/(1-AB)}
+
+When AB > 1, the system is unstable, so does not have a well-defined gain; the gain may be called infinite.
+Thus depending on the feedback, state changes can be convergent, or divergent. The result of positive feedback is to augment changes, so that small perturbations may result in big changes.
+A system in equilibrium in which there is positive feedback to any change from its current state may be unstable, in which case the equilibrium is said to be in an unstable equilibrium. The magnitude of the forces that act to move such a system away from its equilibrium are an increasing function of the "distance" of the state from the equilibrium.
+Positive feedback does not necessarily imply instability of an equilibrium, for example stable on and off states may exist in positive-feedback architectures.

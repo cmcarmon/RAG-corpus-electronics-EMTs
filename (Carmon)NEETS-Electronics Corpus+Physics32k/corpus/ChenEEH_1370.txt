@@ -1,0 +1,9 @@
+Counters and timers allow precise information to be made
+available by inserting extra code to count the number of times
+a portion of source code has been executed or how long is
+spent executing it. Counters require manual user insertion of
+codes or special compiler action. They have the advantage of
+revealing precise information, unlike sampling techniques;
+however, timers can be complex, and the presence of the
+counter or timer may itself interfere with the result that is
+trying to be measured to some extent.

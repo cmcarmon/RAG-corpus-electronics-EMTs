@@ -1,0 +1,6 @@
+The same type of constant expression can be found and removed with a global perspective, typically from within
+loops. A simple example is the best way to describe how they can be removed and to offer some caveats when the
+compiler cannot see the global picture. The following example code updates each element in the vector by adding
+the  ﬁrst  element  scaled  by  a  constant  y. An  observation  shows  that  the  subexpression,  vector[0]  *  y,  is  constant
+throughout all executions of the loop. An obvious improvement in code is to calculate the product of vector[0] *
+y outside of the loop and store its value in a temporary variable. This is done in the second example.

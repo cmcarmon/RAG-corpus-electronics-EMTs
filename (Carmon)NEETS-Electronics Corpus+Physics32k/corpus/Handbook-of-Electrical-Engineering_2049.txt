@@ -1,0 +1,7 @@
+Adaptive ﬁlter theory suggests several algorithms for use in echo cancellation. The most popular one is the
+so-called least-mean square (LMS) algorithm that models the echo path by an FIR ﬁlter with an impulse response
+$
+h(t). Using vector notation h for the true echo path impulse response, $h for its estimate, and x for the excitation
+time  signal,  an  estimate  of  the  echo  is  obtained  by $y(t)  = $h¢x,  where  the  prime  denotes  vector  transpose. A
+reasonable objective for a canceller is to minimize the instantaneous squared error e 2(t), where e(t) = y(t) – $y(t).
+The time derivative of $h can be set to

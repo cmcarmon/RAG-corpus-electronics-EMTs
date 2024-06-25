@@ -1,0 +1,72 @@
+Both charged and uncharged particles lose energy while passing through matter, but stopping power describes only the energy loss of charged particles. Positive ions are considered in most cases below. The stopping power depends on the type and energy of the radiation and on the properties of the material it passes. Since the production of an ion pair (usually a positive ion and a (negative) electron) requires a fixed amount of energy (for example, 33.97 eV in dry air), the density of ionization is proportional to the stopping power. The stopping power of the material is numerically equal to the loss of energy E per unit path length, x:
+
+
+
+
+S
+(
+E
+)
+=
+−
+d
+E
+
+/
+
+d
+x
+
+
+{\displaystyle S(E)=-dE/dx}
+
+The minus sign makes S positive.
+
+The force usually increases toward the end of range and reaches a maximum, the Bragg peak, shortly before the energy drops to zero. The curve that describes the force as function of the material depth is called the Bragg curve. This is of great practical importance for radiation therapy.
+The equation above defines the linear stopping power which in the international system is expressed in N but is usually indicated in other units like MeV/mm or similar. If a substance is compared in gaseous and solid form, then the linear stopping powers of the two states are very different just because of the different density. One therefore often divides the force by the density of the material to obtain the mass stopping power which in the international system is expressed in m4/s2 but is usually found in units like MeV/(mg/cm2) or similar. The mass stopping power then depends only very little on the density of the material.
+The picture shows how the stopping power of 5.49 MeV alpha particles increases while the particle traverses air, until it reaches the maximum. This particular energy corresponds to that of the alpha particle radiation from naturally radioactive gas radon (222Rn) which is present in the air in minute amounts.
+The mean range can be calculated by integrating the reciprocal stopping power over energy:
+
+
+
+
+Δ
+x
+=
+
+∫
+
+0
+
+
+
+E
+
+0
+
+
+
+
+
+
+1
+
+S
+(
+E
+)
+
+
+
+
+d
+E
+
+
+{\displaystyle \Delta x=\int _{0}^{E_{0}}{\frac {1}{S(E)}}\,dE}
+
+where:
+E0 is the initial kinetic energy of the particle
+Δx is the "continuous slowing down approximation (CSDA)" range and
+S(E) is the linear stopping power.
+The deposited energy can be obtained by integrating the stopping power over the entire path length of the ion while it moves in the material.

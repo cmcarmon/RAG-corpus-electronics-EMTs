@@ -1,0 +1,8 @@
+View B is a schematic diagram for the same series voltage regulator with one significant difference. 
+The output voltage is shown as 14.2 volts instead of the desired 14.3 volts. In this case, the load has 
+increased causing a lowered voltage drop across R L to 14.2 volts. When the output decreases, the forward 
+bias of Q1 increases to 0.8 volt because Zener diode CR1 maintains the base voltage of Q1 at 15 volts. 
+This 0.8 volt is the difference between the Zener reference voltage of 15 volts and the momentary output 
+voltage. (15 V − 14.2 V = 0.8 V). At this point, the larger forward bias on Q1 causes the resistance of Q1 
+to decrease, thereby causing the voltage drop across Q1 to return to 5.7 volts. This then causes the output 
+voltage to return to 14.3 volts. 

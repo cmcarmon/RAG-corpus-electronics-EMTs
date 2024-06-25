@@ -1,0 +1,6 @@
+In this particular example the input signal frequency is 1 MHz, and this is the frequency at which the Fourier
+analysis is requested. Since there are no energy storage elements in the circuit another frequency would have
+given identical results. To determine the Fourier components accurately a small value of the parameter RELTOL
+is used and a sufﬁcient number of points for transient analysis are speciﬁed. From the output voltage waveforms
+and the Fourier analysis it is seen that the harmonic distortion increases signiﬁcantly when the input voltage
+amplitude is increased from 10 mV to 100 mV.

@@ -1,0 +1,5 @@
+As with all AND gates, all the inputs must be HIGH at the same time to produce a HIGH output.
+Don’t be confused if the complement of a variable is used as an input. When a complement is indicated as
+an input to an AND gate, it must also be HIGH to satisfy the input requirements of the gate. The Boolean
+expression for the output is formulated based on the TRUE inputs that give a TRUE output. Here is an
+adage that might help you better understand the AND gate:

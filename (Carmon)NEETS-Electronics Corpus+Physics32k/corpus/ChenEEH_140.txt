@@ -1,0 +1,13 @@
+Ajoy Opal
+Figure 3.6. The ﬁnal value V2 ¼ 0:6823 V is reached at about
+t ¼ 8 s. Note that the ﬁnal value is the same as that obtained in
+the dc solution above.
+Choosing a large step size h ¼ 10 s and calculating the time
+response will give the results V2(10) ¼ 0:6697 V, V2(20) ¼
+0:6816 V, V2(30) ¼ 0:6823 V, . . . . Note that even though
+the result at t ¼ 10 s is not accurate, the error does not
+grow with each time step and the correct value is reached
+after a few more steps. Such time domain integration
+methods are called stable and are preferred over the Euler
+Forward method that may not give correct results for large
+time steps.

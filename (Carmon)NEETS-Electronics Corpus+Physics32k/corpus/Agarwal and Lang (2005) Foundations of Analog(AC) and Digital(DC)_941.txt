@@ -1,0 +1,10 @@
+it is also possible to model the complete operation of the
+MOSFET (for any value of vGS) using a more sophisticated nonlinear model.
+This results in the Switch Unified (SU) model, which is discussed further in
+Section 7.8. Although the SU model captures the complete characteristics of
+the MOSFET, for simplicity, we will focus on the SR and the SCS models.
+Accordingly, unless specifically mentioned otherwise, we will use the SR model
+for the triode region of the MOSFET when analyzing digital systems (since we
+work with a fixed high value of vGS, where vGS ≥ VT and vDS < vGS − VT),
+and the SCS model in the saturation region (vGS ≥ VT and vDS ≥ vGS − VT)
+for analog systems.

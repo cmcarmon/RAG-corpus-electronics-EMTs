@@ -1,0 +1,8 @@
+Implementation. Rather  than  continuously  stopping  and  resetting  external  counters,  it  is  possible  to  take
+advantage of features often found in modern microcontrollers, microprocessors containing additional interface
+circuitry.  Microcontrollers  often  contain  counters,  timers,  and capture registers.  Capture  registers  allow  the
+storing of timer or counter values triggered by an external signal. At the start of evaluation, the rising edge of
+the next encoder pulse triggers the capture of the timer count and the pulse count. After a minimum evaluation
+time has elapsed, the next encoder pulse again triggers the capture of the current counter values. The rotational
+speed can then be computed using the difference between the captured values. A ﬂowchart of the algorithm is
+shown in Fig. 82.3.

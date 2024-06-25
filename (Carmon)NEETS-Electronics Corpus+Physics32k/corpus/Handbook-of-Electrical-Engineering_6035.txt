@@ -1,0 +1,7 @@
+The minimum cost dispatch occurs when the incremental cost of all the generators is equal. The cost functions
+of the generators are nonlinear and discontinuous. For the equal marginal cost algorithm to work it is necessary
+for  them  to  be  convex.  These  incremental  cost  curves  are  often  represented  as  monotonically  increasing
+piecewise-linear  functions.  A  binary  search  for  the  optimal  marginal  cost  is  conducted  by  summing  all  the
+generation at a certain marginal cost and comparing it with the total power demand. If the demand is higher,
+a higher marginal cost is needed, and vice versa. This algorithm produces the ideal setpoints for all the generators
+for that particular demand, and this calculation is done every few minutes as the demand changes.

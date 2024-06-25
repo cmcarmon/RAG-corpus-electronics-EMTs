@@ -1,0 +1,6 @@
+tpd,0→1 Similarly, we define tpd,0→1 for a given input terminal and a given output
+terminal of a combinational circuit as the signal propagation delay through
+input-output terminal pair for a low to high instantaneous transition at the
+input. More precisely, tpd,0→1 for an input-output terminal pair is the time
+interval from the moment that the input changes from a 0 to a 1 to the
+moment that the output reaches a corresponding valid output voltage level.

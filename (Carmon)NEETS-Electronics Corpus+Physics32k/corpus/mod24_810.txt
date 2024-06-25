@@ -1,0 +1,7 @@
+Once a system design has been formulated, each link is analyzed to determine its viability. Link
+analysis involves calculating each link's power budget and risetime budget. Calculating a power budget
+involves identifying all of the sources of loss in the fiber optic link. These losses and an additional safety
+margin are then compared to the difference between the transmitter output power and the receiver
+sensitivity. The difference between the transmitter output power and the receiver sensitivity is referred to
+as the available power. If the sources of loss plus the safety margin are less than the available power in
+the link, the design is viable.

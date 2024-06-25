@@ -1,0 +1,5 @@
+If our program were to scan the indented block of code above, it would report ﬁnding six numbers. The symbols
+that the program recognizes as potentially part of a number include the digits 0 to 9 and the symbols ‘e’, ‘E’, ‘ . ’, ‘–’
+and ‘+’. Now it is certainly possible to include other symbols in legitimate numbers, such as HEX numbers or
+the like, but this little routine will not properly deal with them. Our purpose was not to handle all comers but
+to provide a routine with some variety of expression and possible application. Let us begin.

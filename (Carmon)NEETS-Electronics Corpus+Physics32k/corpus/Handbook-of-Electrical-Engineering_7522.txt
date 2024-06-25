@@ -1,0 +1,8 @@
+Storage time (the time it takes for the transistor to come out of saturation) is a major factor of propagation
+delay for saturated BJT transistors. A long storage time limits the switching speed of a standard TTL circuit.
+The  propagation  delay  can  be  decreased  and,  therefore,  the  switching  speed  can  be  increased,  by  placing  a
+Schottky diode between the base and collector of each transistor that might saturate. The resulting Schottky-
+clamped  transistors  do  not  go  into  saturation  (effectively  eliminating  storage  time)  since  the  diode  shunts
+current from the base into the collector before the transistor can achieve saturation. Today, digital circuit designs
+implemented with TTL logic almost exclusively use one of the Schottky subfamilies to take advantage of the
+signiﬁcant improvement in switching speed.

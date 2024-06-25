@@ -1,0 +1,7 @@
+Objective: study of a crank-connecting rod system.
+We want to model a crank-connecting rod system through a system dynamic model. Two different full descriptions of the physical system with related systems of equations can be found here (in English) and here (in French); they give the same results. In this example, the crank, with variable radius and angular frequency, will drive a piston with a variable connecting rod length.
+System dynamic modeling: the system is now modeled, according to a stock and flow system dynamic logic.
+The figure below shows the stock and flow diagram
+
+Simulation: the behavior of the crank-connecting rod dynamic system can then be simulated.
+The next figure is a 3D simulation created using procedural animation. Variables of the model animate all parts of this animation: crank, radius, angular frequency, rod length, and piston position.

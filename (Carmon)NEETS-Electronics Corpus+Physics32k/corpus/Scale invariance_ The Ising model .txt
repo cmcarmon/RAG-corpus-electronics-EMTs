@@ -1,0 +1,41 @@
+An example that links together many of the ideas in this article is the phase transition of the Ising model, a simple model of ferromagnetic substances. This is a statistical mechanics model, which also has a description in terms of conformal field theory. The system consists of an array of lattice sites, which form a D-dimensional periodic lattice. Associated with each lattice site is a magnetic moment, or spin, and this spin can take either the value +1 or −1. (These states are also called up and down, respectively.)
+The key point is that the Ising model has a spin-spin interaction, making it energetically favourable for two adjacent spins to be aligned. On the other hand, thermal fluctuations typically introduce a randomness into the alignment of spins. At some critical temperature, Tc , spontaneous magnetization is said to occur. This means that below Tc the spin-spin interaction will begin to dominate, and there is some net alignment of spins in one of the two directions.
+An example of the kind of physical quantities one would like to calculate at this critical temperature is the correlation between spins separated by a distance r. This has the generic behaviour:
+
+
+
+
+G
+(
+r
+)
+∝
+
+
+1
+
+r
+
+D
+−
+2
++
+η
+
+
+
+
+,
+
+
+{\displaystyle G(r)\propto {\frac {1}{r^{D-2+\eta }}},}
+
+for some particular value of
+
+
+
+η
+
+
+{\displaystyle \eta }
+, which is an example of a critical exponent.

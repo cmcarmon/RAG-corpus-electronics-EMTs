@@ -1,0 +1,9 @@
+Even if two stations produce identical beat frequencies, they can be separated by adjusting the
+local-oscillator or BEAT-FREQUENCY OSCILLATOR (bfo) frequency. For example, if the second
+station in the previous example had been operating at 10,002,000 hertz, then both stations would have
+produced a 1,000-hertz beat frequency and interference would have occurred. Adjusting the
+local-oscillator frequency to 9,999,000 hertz would have caused the desired station at 10,000,000 hertz to
+produce a 1,000-hertz beat frequency. The other station, at 10,002,000 hertz, would have produced a beat
+frequency of 3,000 hertz. Either selective circuits or the operator can easily distinguish between these
+widely differing tones. A trained operator can use the variable local oscillator to distinguish between
+stations that vary in frequency by only a few hundred hertz.

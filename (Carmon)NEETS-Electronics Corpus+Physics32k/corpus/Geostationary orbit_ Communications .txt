@@ -1,0 +1,53 @@
+Satellites in geostationary orbits are far enough away from Earth that communication latency becomes significant — about a quarter of a second for a trip from one ground-based transmitter to the satellite and back to another ground-based transmitter; close to half a second for a round-trip communication from one Earth station to another and then back to the first.
+For example, for ground stations at latitudes of φ = ±45° on the same meridian as the satellite, the time taken for a signal to pass from Earth to the satellite and back again can be computed using the cosine rule, given the geostationary orbital radius r (derived below), the Earth's radius R and the speed of light c, as
+
+
+
+
+Δ
+t
+=
+
+
+2
+c
+
+
+
+
+
+R
+
+2
+
+
++
+
+r
+
+2
+
+
+−
+2
+R
+r
+cos
+⁡
+φ
+
+
+≈
+253
+
+
+ms
+
+.
+
+
+{\displaystyle \Delta t={\frac {2}{c}}{\sqrt {R^{2}+r^{2}-2Rr\cos \varphi }}\approx 253~{\text{ms}}.}
+
+(Note that r is the orbital radius, the distance from the centre of the Earth, not the height above the equator.)
+This delay presents problems for latency-sensitive applications such as voice communication.
+Geostationary satellites are directly overhead at the equator and appear lower in the sky to an observer nearer the poles. As the observer's latitude increases, communication becomes more difficult due to factors such as atmospheric refraction, Earth's thermal emission, line-of-sight obstructions, and signal reflections from the ground or nearby structures. At latitudes above about 81°, geostationary satellites are below the horizon and cannot be seen at all. Because of this, some Russian communication satellites have used elliptical Molniya and Tundra orbits, which have excellent visibility at high latitudes.

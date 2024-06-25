@@ -1,0 +1,6 @@
+Other “fast” algorithms were discovered, all of which make use of how many common factors the transform
+length N has. In number theory, the number of prime factors a given integer has measures how composite
+it is. The numbers 16 and 81 are highly composite (equaling 24 and 34 respectively), the number 18 is less so
+(21 · 32), and 17 not at all (it’s prime). In over thirty years of Fourier transform algorithm development, the
+original Cooley-Tukey algorithm is far and away the most frequently used. It is so computationally eﬃcient
+that power-of-two transform lengths are frequently used regardless of what the actual length of the data.

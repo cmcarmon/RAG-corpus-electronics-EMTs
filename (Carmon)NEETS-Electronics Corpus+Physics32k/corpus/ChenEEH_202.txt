@@ -1,0 +1,20 @@
+element, not counting the voltage and current independent
+sources. A circuit element is called nonlinear if its constitutive
+relationship between its voltage (established across) and its
+current (ﬂowing through) is a nonlinear function or a non-
+linear relation. All physical circuits are nonlinear. When ana-
+lyzing circuits, we often simplify the behavior of circuit
+elements and model them as linear elements. This simpliﬁes
+the model of the circuit to a linear system, which is then
+described by a set of linear equations that are easier to solve.
+In many cases, this simpliﬁcation is not possible and the non-
+linear elements govern the behavior of the circuit. In such
+cases, approximation to a linear circuit is possible only over
+a limited range of circuit variables (voltages and currents),
+over a limited range of circuit parameters (resistance, capaci-
+tance, or inductance), or over a limited range of environmental
+conditions (temperature, humidity, or aging) that may affect
+the behavior of the circuit. If global behavior of a circuit is
+sought, linearization is often not possible and the designer has
+to deal with the circuit’s nonlinear behavior (Chua et al., 1987;
+Hasler and Neirynck, 1986; Mathis, 1987; Willson, 1975).

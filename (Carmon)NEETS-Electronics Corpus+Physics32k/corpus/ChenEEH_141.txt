@@ -1,0 +1,9 @@
+1. The discretization equation 3.11 is an approximation,
+since only the ﬁrst two terms in the Taylor series expan-
+sion are included. As a result of this approximation, the
+numerically computed results contain an error at each
+time step, called the local truncation error (LTE). In
+general, the smaller the time step used, the smaller will
+be the LTE. The normal expectation is that if the error
+is reduced at each time step, then the overall error in
+the numerical results will also be small.

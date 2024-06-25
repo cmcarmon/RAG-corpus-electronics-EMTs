@@ -1,0 +1,13 @@
+machine state stored in a latch, functional failure will result.
+Even when noise does not cause functional failure, it has an
+impact on timing, affecting both delay and slew. Noise can also
+cause the dissipation of extra power due to incorrect switching.
+Digital circuits create deterministic noise several orders
+of magnitude greater than noise from stochastic physical
+sources. Problems due to these noise sources were ﬁrst
+observed in mixed signal applications that plunged highly
+noise sensitive analog circuits into a noisy digital environment.
+Although digital circuits create much more noise than analog
+circuits, digital systems are prevalent because they are inher-
+ently immune to noise. Figure 7.2 shows valid voltage ranges
+for deﬁning the digital 0 and 1.

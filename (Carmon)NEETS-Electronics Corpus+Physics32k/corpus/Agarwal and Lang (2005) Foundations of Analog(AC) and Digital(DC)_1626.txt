@@ -1,0 +1,5 @@
+To obtain the worst-case dynamic power dissipation, we assume that the load capacitor
+is charged and discharged every cycle. Under these conditions, Equation 11.27 gives the
+formula for the worst-case dynamic power (with RON replaced by RONpd, where RONpd
+is the resistance of the pulldown network). We rewrite this equation here by replacing
+RON in the equation with the resistance of the pulldown network RONpd:

@@ -1,0 +1,14 @@
+One of the most convenient architectures for microstrip arrays is the single-layer design where the microstrip
+feed lines are printed on the same substrate layer as the radiating patch elements. This results in a simple, low-
+proﬁle, inexpensive, and easily fabricated antenna assembly. An example of a 2 · 4 microstrip array using this
+type of conﬁguration is shown in Fig. 38.20. The microstrip feed network consists of a main feed line driving
+three levels of coplanar two-way power dividers, which in turn drive eight edge-fed patches. This is an example
+of a corporate feed network, in contrast to a series type of feed where array elements are tapped off of a single
+microstrip line. The corporate feed provides good bandwidth and allows precise control of element excitation,
+but requires considerable substrate area and can be lossy. A series feed can be very compact and efﬁcient, but
+its  bandwidth  is  typically  limited  to  a  few  percent.  Both  types  of  feeds  can  be  used  for  single  and  dual
+polarizations. More ﬂexibility for feed network layout can be obtained by using a two-sided aperture-coupled
+patch geometry. This allows the feed network to be isolated from the radiating aperture by the ground plane,
+and  the  extra  substrate  area  can  be  very  useful  for  arrays  that  require  dual  polarization  or  dual-frequency
+operation.  Similar  features  can  be  obtained  by  using  feedthrough  pins  or  vias,  but  the  added  fabricational
+complexity of solder connections can be formidable in a large array.

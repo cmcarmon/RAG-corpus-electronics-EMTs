@@ -1,0 +1,9 @@
+Digital dividers are widely available and may either have programmable or ﬁxed division ratios depending
+on the application. For optimum noise performance a synchronous type of divider should be used. When a
+programmable divider is required to operate at a high frequency (>50 MHz), a dual modulus circuit is normally
+ to extend the range of normal programmable divider
+used. This circuit uses a technique called 
+integrated  circuits  by  using  a  dual  modulus  prescaler  (usually  ECL).  The  dual  modulus  prescaler  is  a  high-
+frequency divider that can be programmed to divide by only two sequential values. A second programmable
+divider section is then used to control the prescaler. Further details of this type of divider are available from
+component manufacturers’ data sheets as well as in the references.

@@ -1,0 +1,8 @@
+A radio telemetry system comprises (1) transducers that convert measurements into electrical systems, (2) a
+subcarrier oscillator modulated by the transducers, (3) a radio transmitter modulated by the subcarrier, (4) a
+transmitting antenna, (5) a receiving antenna, (6) a radio receiver, and (7) a subcarrier discriminator. The radio
+link can transmit an analog of the continuous variable being measured, or, with pulse-code methods, it sends
+the measurement data digitally as a ﬁnite number of symbols representing a ﬁnite number of possible values
+of the measurement signal at the time it is sampled. The range of a radio link is limited by the power radiated
+toward the receiver from the transmitter and by the sensitivity of the receiver. The wider the bandwidth, the
+more the effect from noise, and therefore the more transmitted power required for a detectable signal.

@@ -1,0 +1,6 @@
+In the circuit switching case, there is a one-to-one correspondence between the number of trunks between
+nodes  and  the  number  of  simultaneous  calls  that  can  be  carried.  That  is,  a  trunk  is  a  facility  between  two
+switches that can service exactly one call, and it does not matter how this transmission facility is derived. Major
+design issues include the speciﬁcation of the number of trunks between node pairs and the routing strategy
+used  to  determine  the  path  through  a  network  in  order  to  achieve  a  given  call  blocking  probability.  When
+blocked calls are queued, the number of calls that may be queued is also a design question.

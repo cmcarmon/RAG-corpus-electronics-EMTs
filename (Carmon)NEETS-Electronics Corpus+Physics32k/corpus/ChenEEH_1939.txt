@@ -1,0 +1,7 @@
+Under the NC approach, each logic cell u in the FPGA is
+assigned a cover cell that can be reconﬁgured to replace the
+logic cell in the event that cell u becomes faulty. Reconﬁgu-
+ration around a faulty u is completed by a replacement
+sequence in which u is replaced by one of its covers which in
+turn is replaced by one of its covers, and so on until a spare cell
+is conﬁgured in.

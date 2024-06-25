@@ -1,0 +1,14 @@
+Lastly, DCMOS circuits cannot be cascaded; they have to
+be interleaved by inverting functions for proper operation,
+a solution provided by Domino logic circuits. In addition,
+Domino circuits are noninverting in nature and cannot
+implement all functions. All these problems have aided in ruling
+out the use of DCMOS and favoring the use of SCMOS style.
+Another approach to design low-power circuits is to use
+complementary-pass-transistor logic (CPL) or transmission
+gate theory. CPL features low-power consumption and a
+reduced number of transistors. In addition, certain functions
+are more efﬁciently implemented using this family, such as
+XOR gates and MUXs. One major drawback of this family is
+the weak driving capability with reduced swing outputs, which
+limits the number of CPL stages that can be cascaded.

@@ -1,0 +1,9 @@
+The  relation  of  Fig.  94.5,  which  is  in  2NF,  highlights  update  anomalies  and  data  redundancy  due  to  the
+transitive dependency of a nonprime attribute on a key. The relation gives the name of a client (client_name),
+the corresponding supplier (supplier_name), and the supplier’s location. Each client is assumed to have one
+supplier. The relation’s key is client_name, and each supplier has only one location. A supplier and his location
+cannot  be  inserted  in  SUPPLIES  unless  the  supplier  has  at  least  one  client.  In  addition,  the  relation  has  a
+deletion anomaly since if Tillis is no longer a client of Rudd, the information about Rudd as a supplier and his
+location is lost. A change to a supplier’s location may require updating the location attribute name of several
+tuples in the relation. Also, although each supplier has only one location, such a location is sometimes repeated
+several time unnecessarily, leading to data redundancy.

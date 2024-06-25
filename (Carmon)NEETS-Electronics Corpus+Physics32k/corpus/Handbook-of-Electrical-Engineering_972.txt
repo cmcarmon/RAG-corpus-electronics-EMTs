@@ -1,0 +1,6 @@
+BSIM3. Realizing the shortcomings of BSIM2, UC Berkeley recently introduced the BSIM3 model. This is an
+unfortunate choice of name because it implies BSIM3 is related to BSIM and BSIM2. In reality, BSIM3 is an
+entirely new model that in some sense is related more to level 2 and 3 than BSIM or BSIM2. The BSIM3 model
+abandons the length and width dependence approach of BSIM and BSIM2, preferring to go back to incorpo-
+rating the geometry dependence directly into the model equations, as do level 2 and 3. In addition, BSIM3 is
+a more physically based model, with about 30 ﬁtting parameters (the model has many more parameters, but

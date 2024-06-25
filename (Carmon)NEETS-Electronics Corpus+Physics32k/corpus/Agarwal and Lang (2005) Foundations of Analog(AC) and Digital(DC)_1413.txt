@@ -1,0 +1,6 @@
+Let us begin by reviewing the basic inverter circuit. Assume that the
+threshold voltage for both MOSFETs is 1 volt. When vIN1 is low (< 1 volt),
+MOSFET A is turned off, and no current flows from its drain to its source.
+Output voltage vOUT1 is high. In contrast, when vIN1 is high, MOSFET A is
+turned on. Its output voltage vOUT1 is given by the voltage-divider relationship
+RON

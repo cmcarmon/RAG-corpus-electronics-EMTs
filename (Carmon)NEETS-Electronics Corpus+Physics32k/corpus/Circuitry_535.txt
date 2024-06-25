@@ -1,0 +1,12 @@
+or  RAM)  or  it  can  be  considered  to  be  associated 
+with input/output (I/O). 
+  Since  the  data  bus  is  connected  to  a  number  of 
+VLSI  devices,  an  essential  requirement  of  such 
+chips (e.g., ROM or RAM) is that their data outputs 
+should  be  capable  of  being  isolated  from  the  bus 
+whenever  necessary.  These  chips  are  fitted  with 
+select  or  enable  inputs  that  are  driven  by  address 
+decoding logic (not shown in Fig. 11.2). This logic 
+ensures  that  ROM,  RAM  and  I/O  devices  never 
+simultaneously attempt to place data on the bus! 
+ 

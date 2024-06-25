@@ -1,0 +1,7 @@
+To compute the energy dissipated by the circuit, we first need to determine
+the currents through the resistors R1 and R2. To facilitate the computation of
+the currents, let us first determine vC. To simplify the calculation of vC, we
+transform the circuit shown in Figure 11.3 to its Thévenin equivalent shown in
+Figure 11.4. We assume that time t starts from 0 at the moment that the signal
+S transitions from low to high. From the circuit in Figure 11.4, we can write an
+expression for the voltage vC as

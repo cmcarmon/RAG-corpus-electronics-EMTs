@@ -1,0 +1,9 @@
+5.4
+In  this  and  the  following  sections,  we  consider  some  useful  op  amp
+circuits  that  often  serve  as  modules  for  designing  more  complex  cir-
+cuits. The ﬁrst of such op amp circuits is the inverting ampliﬁer shown
+in  Fig.  5.10.  In  this  circuit,  the  noninverting  input  is  grounded,  vi is
+connected to the inverting input through R1, and the feedback resistor
+Rf is connected between the inverting input and output. Our goal is to
+obtain the relationship between the input voltage vi and the output volt-
+age vo. Applying KCL at node 1,

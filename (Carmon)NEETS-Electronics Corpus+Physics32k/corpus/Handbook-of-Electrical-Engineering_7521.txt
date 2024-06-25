@@ -1,0 +1,9 @@
+A TTL NAND gate is very similar to the inverter circuit, with the exception that the input coupling transistor
+Q1 is constructed with multiple emitter-base junctions and each input to the NAND is connected to a separate
+emitter terminal. Any of the transistor’s multiple emitters can be used to turn on Q1. The TTL NAND gate
+thus functions in the same manner as the inverter in that if any of the NAND gate inputs are low, the same
+circuit action will take place as with a low input to the inverter. Therefore, any time a low input is applied to
+the NAND gate it will produce a high ouput. Only if all of the NAND gate inputs are simultaneously high will
+it then produce the same circuit action as the inverter with its single input high, and the resultant output will
+be low. Input coupling transistors with up to eight emitter-base junctions, and therefore, eight input NAND
+gates, are constructed.

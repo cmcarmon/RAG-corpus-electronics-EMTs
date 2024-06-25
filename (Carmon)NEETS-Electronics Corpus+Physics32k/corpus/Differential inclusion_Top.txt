@@ -1,0 +1,56 @@
+In mathematics, differential inclusions are a generalization of the concept of ordinary differential equation of the form
+
+
+
+
+
+
+
+d
+x
+
+
+d
+t
+
+
+
+(
+t
+)
+∈
+F
+(
+t
+,
+x
+(
+t
+)
+)
+,
+
+
+{\displaystyle {\frac {dx}{dt}}(t)\in F(t,x(t)),}
+
+where F is a multivalued map, i.e. F(t, x) is a set rather than a single point in
+
+
+
+
+
+
+
+R
+
+
+
+d
+
+
+
+
+
+{\displaystyle \scriptstyle {\mathbb {R} }^{d}}
+. Differential inclusions arise in many situations including differential variational inequalities, projected dynamical systems, dynamic Coulomb friction problems and fuzzy set arithmetic.
+For example, the basic rule for Coulomb friction is that the friction force has magnitude μN in the direction opposite to the direction of slip, where N is the normal force and μ is a constant (the friction coefficient). However, if the slip is zero, the friction force can be any force in the correct plane with magnitude smaller than or equal to μN Thus, writing the friction force as a function of position and velocity leads to a set-valued function.

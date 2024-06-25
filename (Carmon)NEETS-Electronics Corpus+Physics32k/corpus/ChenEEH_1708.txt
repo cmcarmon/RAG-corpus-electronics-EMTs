@@ -1,0 +1,8 @@
+a bounding box is used to track an object throughout the
+compressed video stream. This is accomplished by exploiting
+the motion vector information embedded in the coded video
+bit stream. A k-means clustering of the motion vectors is used
+to avoid occlusions. Schonfeld et al. (2003) presented an ex-
+tension of this approach. After initial segmentation of the
+object contour, they used an adaptive block matching process
+to predict the object contour in successive image sequences.

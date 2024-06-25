@@ -1,0 +1,11 @@
+where q denotes the rotor position relative to a certain rotating frame, M the inertia of rotor, and D damping.
+The term dq/dt represents the angular velocity and d2q/dt2 is the angular acceleration of the rotor. The preceding
+differential equation is derived from Newton’s law for rotational motions and, in some respects, resembles the
+dynamical equation of a swinging pendulum (with Pin ~ driving torque, and Pout ~ restoring torque). The term
+Pin, which drives the rotor shaft, can be considered constant in many cases. The term Pout, the power sent out
+to the system, may behave in a very complicated way. Qualitatively, Pout tends to increase (respectively, decrease)
+as  the  rotor  position  moves  forward  (respectively,  backward)  relative  to  the  synchronous  rotating  frame.
+However,  such  a  stable  operation  can  take  place  only  when  the  system  is  capable  of  absorbing  (respectively,
+providing) the extra power. In a multimachine system, conﬂict might arise when various machines compete
+with  each  other  in  sending  out  more  (or  sending  out  less)  electrical  power;  as  a  result,  the  stabilizing  effect
+might be reduced or even lost.

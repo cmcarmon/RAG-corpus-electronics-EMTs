@@ -1,0 +1,7 @@
+Let’s examine the cardinal series more closely. Eval-
+uate  Eq.  (73.74)  at t  =  m/2B.  Since  sinc(n)  is  one  for
+n = 0 and is otherwise zero, only the sample at t = m/2B
+contributes  to  the  interpolation  at  that  point.  This  is
+illustrated in Fig. 73.11, where the reconstruction of a signal from its samples using the cardinal series is shown.
+The value of x(t) at a point other than a sample location [e.g., t = (m + 1⁄2)/2B] is determined by all of the
+sample values.

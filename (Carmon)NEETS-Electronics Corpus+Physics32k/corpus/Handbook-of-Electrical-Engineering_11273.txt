@@ -1,0 +1,9 @@
+the individual chest leads V1 through V6 and any 2 of the limb leads, e.g., I and III, are needed to calculate the
+full 12-lead ECG. Figure 115.9 is a block diagram of a modern digital-based ECG system. This system uses up
+to  13  single-ended  ampliﬁers  and  a  16-bit A/D  converter,  all  within  a  small  lead  wire  manifold  or  ampliﬁer
+lead  stage.  The  digital  signals  are  optically  isolated  and  sent  via  a  high-speed  serial  link  to  the  main  ECG
+instrument.  Here  the  32-bit  CPU  and  DSP  chip  perform  all  of  the  calculations  and  a  hard  copy  report  is
+generated (Fig. 115.7). Notice that each functional block has its own controller and the system requires a real-
+time, multitasking operating system to coordinate all system functions. Concomitant with the data acquisition
+is the automatic interpretation of the ECG. These programs are quite sophisticated and are continually evolving.
+It is still a medical/legal requirement that these ECGs be over-read by the physician.

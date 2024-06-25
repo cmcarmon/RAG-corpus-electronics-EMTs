@@ -1,0 +1,7 @@
+This  material  covers  only  the  carry  lookahead  approach.  However,  before  beginning  that  discussion,  let’s
+brieﬂy explain why fully parallel adders are not feasible. Addition is a combinational process so it is theoretically
+possible to construct a 2n-bit “full-adder” that can be realized by a three-level combinational logic circuit and
+that can perform addition of two n-bit numbers in the time equal to the delay of the circuit. However, such
+circuits are too costly in terms of gate fan-in to be implemented for reasonable values of  n. Carry lookahead
+is a practical and effective compromise between fully parallel adders and ripple-carry adders. The block diagram
+of a four-bit CLA is shown in Fig. 81.52(a).

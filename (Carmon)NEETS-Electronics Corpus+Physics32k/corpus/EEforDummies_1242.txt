@@ -1,0 +1,11 @@
+How your warbler works
+This circuit (refer to Figure 17-6) uses two 555 timer chips. You rig both chips 
+to act as astable multivibrators; that is, they constantly change their output 
+from low to high to low to high — over and over again. The two timers run at 
+different frequencies. The timer chip on the right in Figure 17-6 is configured 
+as a tone generator, producing an audible frequency at its output pin, pin 3. 
+(Humans can hear frequencies in the range of 20 Hz to 20 kHz, give or take a 
+few frequencies.) If the timer chip on the right were acting alone, you would 
+hear a steady, medium‐pitch sound from the speaker connected to its output. 
+But instead, the 555 timer chip on the right is acting in concert with the 555 
+timer chip on the left.

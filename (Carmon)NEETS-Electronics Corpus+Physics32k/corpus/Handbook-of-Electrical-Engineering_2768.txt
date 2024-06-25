@@ -1,0 +1,10 @@
+Standard Cell ASIC Technology
+Consider  a  full  custom  circuit  design  completed  using  only  predeﬁned  logic  cells  from  a  foundry-provided
+speciﬁc library and physical design processes provided by standard EDA/CAD tools. This approach, standard
+cell design [Heinbuch, 1987, SCMOS Standard Cell Library, 1989], is one of the primary ASIC technologies. A
+critical  issue  impacting  standard  cell ASIC  design  is  the  quality  of  the  standard  cell  library  provided  by  the
+foundry. By providing a rich set of library cells, the coordination between the logical design and the physical
+design is substantially more effective. Figure 25.31(a) also illustrates the general standard cell approach, using
+standard  library  cells  of  design-speciﬁed  height  (according  to  cells  used),  design-speciﬁed  width  logic  rows,
+and  varying  width  of  the  wiring  channel  to  accommodate  the  number  of  interconnection  wires  determined
+during place and route.

@@ -1,0 +1,15 @@
+We use a ﬁnite sum here merely for simplicity (fewer parameters to determine). An important aspect of
+the spectrum is that each frequency component ck can be manipulated separately: Instead of ﬁnding the
+Fourier spectrum from a time-domain speciﬁcation, let’s construct it in the frequency domain by selecting
+the ck according to some rule that relates coeﬃcient values to the alphabet. In deﬁning this rule, we want to
+always create a real-valued signal x (t). Because of the Fourier spectrum’s properties (Property 4.1, p. 99),
+the spectrum must have conjugate symmetry. This requirement means that we can only assign positive-
+indexed coeﬃcients (positive frequencies), with negative-indexed ones equaling the complex conjugate of the
+corresponding positive-indexed ones.
+Assume we have N letters to encode: {a1, . . . , aN}. One simple encoding rule could be to make a single
+Fourier coeﬃcient be non-zero and all others zero for each letter. For example, if an occurs, we make cn = 1
+and ck = 0, k (cid:54)= n. In this way, the nth harmonic of the frequency 1/T is used to represent a letter. Note
+that the bandwidth—the range of frequencies required for the encoding—equals N/T . Another possibility
+is to consider the binary representation of the letter’s index. For example, if the letter a13 occurs, converting
+13 to its base-2 representation, we have 13 = 11012. We can use the pattern of zeros and ones to represent
+directly which Fourier coeﬃcients we “turn on” (set equal to one) and which we “turn oﬀ.”

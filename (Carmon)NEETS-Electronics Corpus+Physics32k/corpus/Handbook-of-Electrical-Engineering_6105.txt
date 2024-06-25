@@ -1,0 +1,10 @@
+Where the capability chart is extended to cover more than one power system component, the two-dimensional
+capability chart associated with a single busbar can be regarded as being a single slice of an overall 2
+n
+ dimensional
+capability chart for the 
+n
+ busbars that make up a general power system. If the system is small, a contour plotting
+approach can be used to gradually trace out the locus on the complex power plane. A load ﬂow algorithm is
+used to iteratively solve the operating equations at each point on the contour, without having to resort to an
+explicit closed form solution.

@@ -1,0 +1,14 @@
+. The sum TC heuristic is the most time-efﬁcient for both
+the worst- and average-case simulations with average
+reconﬁguration times over all circuits of about 43 sec
+and 18 sec, respectively. These times are quite promising.
+. The suitability of heuristic TCs for time-efﬁciency was
+demonstrated by an experiment in which we randomly
+chose transitions only for the O-net (root of the T-DAG);
+the transitions for the other nodes were chosen based on
+the sum TC3. On the average, the partial-random case
+shows an increase in reconﬁguration time over that of
+the full sum TC case by 65% for the worst-case fault-
+pattern and by 126% for the average-case pattern. The
+track overheads remain the same as that of the sum
+TC used.

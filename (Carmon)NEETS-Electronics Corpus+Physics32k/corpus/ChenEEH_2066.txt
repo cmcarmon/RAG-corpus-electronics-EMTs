@@ -1,0 +1,16 @@
+In He and Lee (1990) and He and Ding (1992), we de-
+veloped an axiomatic approach of using temporal logic to
+analyze PrTNs. The essential
+ideas are to derive system-
+dependent temporal inference rules from PrTN transitions.
+These inference rules capture the causal relationships of tran-
+sition ﬁrings. Thus, executions of a PrTN become temporal
+logic deductions in the derived axiomatic system. We have
+proved that safety properties (Manna and Pnueli, 1992) can
+be effectively analyzed using this axiomatic approach. Further-
+more, we have shown how to analyze liveness properties
+(Manna and Pnueli, 1992) using the above temporal formula
+(He, 1991).
+Given TN ¼ (NG, Sig , V , H, Type, AN , M0, f ), we can
+obtain the following system-dependent temporal axiom sys-
+tem L:

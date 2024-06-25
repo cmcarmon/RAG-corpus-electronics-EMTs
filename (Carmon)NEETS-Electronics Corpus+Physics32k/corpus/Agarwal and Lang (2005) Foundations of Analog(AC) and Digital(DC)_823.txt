@@ -1,0 +1,6 @@
+The left-hand side of Figure 6.16 shows the corresponding abstract
+inverter with the power connections, and the right-hand side shows the inverter
+abstraction as we know it with implicit power connections. Notice that the
+inverter abstraction hides the internal circuit details and provides a simple usage
+model to the user of the inverter logic gate. The internal details are irrelevant
+to the gate-level logic designer.7

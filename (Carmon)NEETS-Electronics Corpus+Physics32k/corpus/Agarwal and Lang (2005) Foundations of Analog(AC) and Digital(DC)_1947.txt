@@ -1,0 +1,14 @@
+A problem with the amplifier circuit shown in Figure 13.38a is that it
+cannot be cascaded easily. In other words, the output port of an amplifier
+A cannot easily be coupled to the input of another amplifier B because the
+biasing of one stage affects the biasing of all cascaded stages. This form of
+coupling might be useful if a designer wants to build an amplifier whose gain
+is greater than that of a single amplifier stage. Notice in Figure 13.38 that the
+output of the amplifier is the sum of a bias output voltage VO and a small-
+signal output vo. Notice further that the output of our amplifier in Figure 13.38
+(call it amplifier A) cannot be fed directly to the input of another amplifier
+B because of the biasing requirement for saturation operation of B. If the
+output of amplifier A is fed directly to the input of amplifier B, then the out-
+put bias voltage of A will become the input bias for B, and amplifier design
+requirements often result in conflicting values for the output and input bias
+voltages.

@@ -1,0 +1,25 @@
+A specific method of data redundancy is duplication, which can be applied in several ways, as described in the following:
+Data duplication
+To cope with corruption of data, multiple copies of important registers and variables can be stored. Consistency checks between memory locations storing the same values, or voting techniques, can then be performed when accessing the data.
+Two different modifications to the source code need to be implemented.
+
+The first one corresponds to duplicating some or all of the program variables to introduce data redundancy, and modifying all the operators to manage the introduced replica of the variables.
+
+The second modification introduces consistency checks in the control flow, so that consistency between the two copies of each variable is verified.
+
+When the data is read out, the two sets of data are compared. A disturbance is detected if the two data sets are not equal. An error can be reported. If both sets of data are corrupted, a significant error can be reported and the system can react accordingly.
+In most cases, safety-critical applications have strict constraints in terms of memory occupation and system performance. The duplication of the whole set of variables and the introduction of a consistency check before every read operation represent the optimum choice from the fault coverage point of view. Duplication of the whole set of variables enables an extremely high percentage of faults to be covered by this software redundancy technique. On the other side, by duplicating a lower percentage of variables one can trade off the obtained fault coverage with the CPU time overhead.
+
+The experimental result shows that duplicating only 50% of the variables is enough to cover 85% of faults with a CPU time overhead of just 28%.
+Attention should also be paid to the implementation of the consistency check, as it is usually carried out after each read operation or at the end of each variable's life period. Carefully implementing this check can minimize the CPU time and code size for this application.
+
+Function parameter duplication
+As the detection of errors in data is achieved through duplicating all variables and adding consistency checks after every read operation, special considerations have to be applied according to the procedure interfaces. Parameters passed to procedures, as well as return values, are considered to be variables. Hence, every procedure parameter is duplicated, as well as the return values. A procedure is still called only once, but it returns two results, which must hold the same value. The source listing to the right shows a sample implementation of function parameter duplication.
+Test duplication
+To duplicate a test is one of the most robust methods that exists for generic soft error detection. A drawback is that no strict assumption on the cause of the errors (EMI, ESD etc.), nor on the type of errors to expect (errors affecting the control flow, errors affecting data etc.) can be made. Erroneous bit-changes in data-bytes while stored in memory, cache, register, or transmitted on a bus are known. These data-bytes could be operation codes (instructions), memory addresses, or data. Thus, this method is able to detect a wide range of faults, and is not limited to a specific fault model. Using this method, memory increases about four times, and execution time is about 2.5 times as long as the same program without test duplication. Source listing to the right shows a sample implementation of the duplication of test conditions.
+Branching duplication
+
+Compared to test duplication, where one condition is cross-checked, with branching duplication the condition is duplicated.
+For every conditional test in the program, the condition and the resulting jump should be reevaluated, as shown in the figure. Only if the condition is met again, the jump is executed, else an error has occurred.
+Instruction duplication and diversity in implementation
+What is the benefit of when data, tests, and branches are duplicated when the calculated result is incorrect? One solution is to duplicate an instruction entirely, but implement them differently. So two different programs with the same functionality, but with different sets of data and different implementations are executed. Their outputs are compared, and must be equal. This method covers not just bit-flips or processor faults but also programming errors (bugs). If it is intended to especially handle hardware (CPU) faults, the software can be implemented using different parts of the hardware; for example, one implementation uses a hardware multiply and the other implementation multiplies by shifting or adding. This causes a significant overhead (more than a factor of two for the size of the code). On the other hand, the results are outstandingly accurate.

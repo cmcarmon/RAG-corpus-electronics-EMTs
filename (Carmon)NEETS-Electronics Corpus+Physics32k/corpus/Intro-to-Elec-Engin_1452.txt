@@ -1,0 +1,8 @@
+One approach to obtaining a voltage-variable reactance is through a varactor diode, whose
+capacitance changes with the applied voltage, such as the junction capacitance of a reverse-
+biased diode, which depends on the amount of bias. Figure 15.2.13 illustrates the varactor-diode
+implementation of an angle modulator. The frequency of the tuned circuit and the oscillator will
+change in accordance with the message signal f (t). Varactor-controlled VCOs can have a nearly
+linear frequency–voltage characteristic, but often yield only small frequency deviations, i.e., small
+ω. Since any VCO is inherently unstable as its frequency is varied to produce FM, it becomes
+necessary in many applications to stabilize the carrier’s frequency.

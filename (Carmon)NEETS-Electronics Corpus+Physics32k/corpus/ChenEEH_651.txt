@@ -1,0 +1,6 @@
+Mixed radix representations associated with the RNS
+numbers can be used to detect overﬂows as well as to detect
+and correct errors in redundant RNS systems. For example,
+to detect overﬂows, a redundant modulus mNþ1 is added to
+the base and the corresponding highest order mixed radix
+digit aNþ1 is found and compared to zero. Assuming that the

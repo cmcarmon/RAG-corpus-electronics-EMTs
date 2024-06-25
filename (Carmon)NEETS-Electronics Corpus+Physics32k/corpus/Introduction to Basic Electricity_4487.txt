@@ -1,0 +1,16 @@
+Asynchronous counters are commonly referred to 
+as ripple counters. The input clock pulse is first felt 
+by the first flip-flop. The effect is not felt by the second 
+flip-flop immediately because of the delay through the 
+first flip-flop. In a multistage counter, the delay is felt 
+through each flip-flop, so the effect of the input clock 
+pulse “ripples” through the counter. Figure 44-12 shows 
+a three-stage binary counter and timing chart for each 
+of the stages. A truth table shows the counting sequence.
+Synchronous means “occurring at the same time.” 
+A synchronous counter is a counter in which each 
+stage is clocked at the same time. This is accomplished 
+by connecting the clock input to each stage of the 
+counter (Figure 44-13). A synchronous counter is also 
+called a parallel counter because the clock input is 
+connected in parallel to each flip-flop.

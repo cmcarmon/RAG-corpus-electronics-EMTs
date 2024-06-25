@@ -1,0 +1,6 @@
+Addition and Subtraction in Sign and Magnitude System
+In the SM number system addition/subtraction is performed on pairs (us, um) and (ws, wm) resulting in a sum
+(ss, sm), where us and ws are sign bits and um and wm are magnitudes. The algorithm is relatively complex because
+it  requires  comparisons  of  the  signs  and  magnitudes  as  well.  Extending  the  addition  algorithm  in  order  to
+perform subtraction is relatively easy because it only involves change of the sign of the operand being subtracted.
+Therefore, we will consider only the addition algorithm.

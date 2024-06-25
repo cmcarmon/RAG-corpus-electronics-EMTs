@@ -1,0 +1,501 @@
+Homogeneous nucleation is much rarer than heterogeneous nucleation. However, homogeneous nucleation is simpler and easier to understand than heterogeneous nucleation, so the easiest way to understand heterogeneous nucleation is to start with homogeneous nucleation. So we will outline the CNT calculation for the homogeneous nucleation barrier
+
+
+
+Δ
+
+G
+
+∗
+
+
+
+
+{\displaystyle \Delta G^{*}}
+.
+
+To understand if nucleation is fast or slow,
+
+
+
+Δ
+G
+(
+r
+)
+
+
+{\displaystyle \Delta G(r)}
+needs to be calculated. The classical theory assumes that even for a microscopic nucleus of the new phase, we can write the free energy of a droplet
+
+
+
+Δ
+G
+
+
+{\displaystyle \Delta G}
+as the sum of a bulk term that is proportional to the volume of the nucleus, and a surface term, that is proportional to its surface area
+
+
+
+
+Δ
+G
+=
+
+
+4
+3
+
+
+π
+
+r
+
+3
+
+
+Δ
+g
++
+4
+π
+
+r
+
+2
+
+
+σ
+
+
+{\displaystyle \Delta G={\frac {4}{3}}\pi r^{3}\Delta g+4\pi r^{2}\sigma }
+
+The first term is the volume term, and as we are assuming that the nucleus is spherical, this is the volume of a sphere of radius
+
+
+
+r
+
+
+{\displaystyle r}
+.
+
+
+
+Δ
+g
+
+
+{\displaystyle \Delta g}
+is the difference in free energy per unit volume between the thermodynamic phase nucleation is occurring in, and the phase that is nucleating. For example, if water is nucleating in supersaturated air, then
+
+
+
+Δ
+g
+
+
+{\displaystyle \Delta g}
+is the free energy per unit volume of the supersaturated air minus that of water at the same pressure. As nucleation only occurs when the air is supersaturated,
+
+
+
+Δ
+g
+
+
+{\displaystyle \Delta g}
+is always negative. The second term comes from the interface at surface of the nucleus, which is why it is proportional to the surface area of a sphere.
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+is the surface tension of the interface between the nucleus and its surroundings, which is always positive.
+For small
+
+
+
+r
+
+
+{\displaystyle r}
+the second surface term dominates and
+
+
+
+Δ
+G
+(
+r
+)
+>
+0
+
+
+{\displaystyle \Delta G(r)>0}
+. The free energy is the sum of an
+
+
+
+
+r
+
+2
+
+
+
+
+{\displaystyle r^{2}}
+and
+
+
+
+
+r
+
+3
+
+
+
+
+{\displaystyle r^{3}}
+terms. Now the
+
+
+
+
+r
+
+3
+
+
+
+
+{\displaystyle r^{3}}
+terms varies more rapidly with
+
+
+
+r
+
+
+{\displaystyle r}
+than the
+
+
+
+
+r
+
+2
+
+
+
+
+{\displaystyle r^{2}}
+term, so as small
+
+
+
+r
+
+
+{\displaystyle r}
+the
+
+
+
+
+r
+
+2
+
+
+
+
+{\displaystyle r^{2}}
+term dominates and the free energy is positive while for large
+
+
+
+r
+
+
+{\displaystyle r}
+, the
+
+
+
+
+r
+
+3
+
+
+
+
+{\displaystyle r^{3}}
+term dominates and the free energy is negative. This shown in the figure to the right. Thus at some intermediate value of
+
+
+
+r
+
+
+{\displaystyle r}
+, the free energy goes through a maximum, and so the probability of formation of a nucleus goes through a minimum. There is a least-probable nucleus occurs, i.e., the one with the highest value of
+
+
+
+Δ
+G
+
+
+{\displaystyle \Delta G}
+where
+
+
+
+
+
+
+
+d
+G
+
+
+d
+r
+
+
+
+=
+0
+
+
+{\displaystyle {\frac {dG}{dr}}=0}
+
+Addition of new molecules to nuclei larger than this critical radius decreases the free energy, so these nuclei are more probable. The rate at which nucleation occurs is then limited by, i.e., determined by the probability, of forming the critical nucleus. This is just the exponential of minus the free energy of the critical nucleus
+
+
+
+Δ
+
+G
+
+∗
+
+
+
+
+{\displaystyle \Delta G^{*}}
+, which is
+
+
+
+
+Δ
+
+G
+
+∗
+
+
+=
+
+
+
+16
+π
+
+σ
+
+3
+
+
+
+
+3
+(
+Δ
+g
+
+)
+
+2
+
+
+
+
+
+
+
+{\displaystyle \Delta G^{*}={\frac {16\pi \sigma ^{3}}{3(\Delta g)^{2}}}}
+
+
+This is the free energy barrier needed in the CNT expression for
+
+
+
+R
+
+
+{\displaystyle R}
+above.
+From an experimental standpoint, this theory grants tuning of the critical radius through the dependence of
+
+
+
+Δ
+G
+
+
+{\displaystyle \Delta G}
+on temperature. The variable
+
+
+
+Δ
+g
+
+
+{\displaystyle \Delta g}
+, described above, can be expressed as
+
+
+
+
+
+
+
+
+H
+
+f
+
+
+(
+
+T
+
+m
+
+
+)
+−
+T
+
+
+T
+
+m
+
+
+
+
+
+
+{\displaystyle {\frac {H_{f}(T_{m})-T}{T_{m}}}}
+
+where
+
+
+
+
+T
+
+m
+
+
+
+
+{\displaystyle T_{m}}
+is the melting point and
+
+
+
+
+H
+
+f
+
+
+
+
+{\displaystyle H_{f}}
+is the enthalpy of formation for the material. Furthermore, the critical radius can be expressed as
+
+
+
+
+
+r
+
+c
+
+
+
+=
+
+
+
+
+−
+2
+σ
+
+T
+
+m
+
+
+
+
+Δ
+
+H
+
+f
+
+
+
+
+
+
+
+1
+
+
+T
+
+m
+
+
+−
+T
+
+
+
+
+
+{\displaystyle r_{c}\ =\ {\frac {-2\sigma T_{m}}{\Delta H_{f}}}{\frac {1}{T_{m}-T}}}
+
+revealing a dependence of reaction temperature. Thus as you increase the temperature near
+
+
+
+
+T
+
+m
+
+
+
+
+{\displaystyle T_{m}}
+, the critical radius will increase.

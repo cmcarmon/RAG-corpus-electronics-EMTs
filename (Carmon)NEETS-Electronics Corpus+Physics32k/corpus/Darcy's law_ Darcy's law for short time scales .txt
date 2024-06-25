@@ -1,0 +1,32 @@
+For very short time scales, a time derivative of flux may be added to Darcy's law, which results in valid solutions at very small times (in heat transfer, this is called the modified form of Fourier's law),
+
+
+
+
+τ
+
+
+
+∂
+q
+
+
+∂
+t
+
+
+
++
+q
+=
+−
+κ
+∇
+h
+
+,
+
+
+{\displaystyle \tau {\frac {\partial q}{\partial t}}+q=-\kappa \nabla h\,,}
+
+where τ is a very small time constant which causes this equation to reduce to the normal form of Darcy's law at "normal" times (> nanoseconds). The main reason for doing this is that the regular groundwater flow equation (diffusion equation) leads to singularities at constant head boundaries at very small times. This form is more mathematically rigorous, but leads to a hyperbolic groundwater flow equation, which is more difficult to solve and is only useful at very small times, typically out of the realm of practical use.

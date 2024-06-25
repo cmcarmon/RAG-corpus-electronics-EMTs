@@ -1,0 +1,10 @@
+Real-time trafﬁc requires strong bounds on packet delay and
+jitter, and the current Internet cannot provide any such
+bounds. Packet delay and jitter effects are contributed at dif-
+ferent stages of packet transmission, and different techniques
+are used to reduce them. An analysis of these different com-
+ponents is essential in understanding the overall cause because
+almost all enhancements to the current Internet architecture
+aim to reduce one of these components. We explain each of
+these components (Bertsekas and Gallager, 1987) in more
+detail in the following subsection.

@@ -1,0 +1,9 @@
+Process and Device Simulation
+Process and devices simulation are the steps that precede analog circuit simulation in the overall simulation
+ﬂow (see Fig. 13.9). The simulators are also different in that they are not measurement driven as are analog
+circuit simulators. The input to a process simulator is the sequence of process steps performed (times, temper-
+atures, gas concentrations) as well as the mask dimensions. The output from the process simulator is a detailed
+description of the solid-state device (doping proﬁles, oxide thickness, junction depths, etc.). The input to the
+device  simulator  is  the  detailed  description  generated  by  the  process  simulator  (or  via  measurement).  The
+output of the device simulator is the electrical characteristics of the device (IV curves, capacitances, switching
+transient curves).

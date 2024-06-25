@@ -1,0 +1,4 @@
+Register  transfer  synthesis  takes  as  input  the  results  of  algorithmic  synthesis  and  addresses  “per-cycle”
+behavior, which means the behavior during one clock cycle. Register transfer synthesis selects logic to realize
+the hardware computational units generated during algorithmic synthesis, such as realizing an addition oper-
+ation with a carry–save adder or realizing addition and subtraction operations with an arithmetic logic unit.

@@ -1,0 +1,21 @@
+Next, focus on the time instant when the input voltage vIN1 switches from
+a high to a low value (for example, 5 to 0 volts), turning the first MOSFET off.
+At this transition instant, the capacitor CGS2 is almost completely discharged
+(assuming that RL (cid:5) RON for the inverters). Therefore, the voltage across
+CGS2, which corresponds to the voltage vOUT1 on the output of inverter A, will
+be initially close to 0 V. This is depicted as the time instant A in Figure 10.16.
+After the first MOSFET turns off, Figure 10.20 applies. Focus again on the
+part of the circuit bounded by the dashed box. It is easy to see that the circuit
+inside the dashed box is a first-order RC circuit. Remember, the voltage across
+CGS2 is low initially. Now, VS begins to charge CGS2 through the resistor RL.
+The equivalent RC circuit for the devices in the box are shown in Figure 10.21.
+As the capacitor charges up, the output voltage of inverter A rises. This voltage
+must rise above the valid logical output high threshold, namely VOH, to satisfy
+the static discipline. Notice that although the second MOSFET will turn on
+when vOUT1 crosses its VT threshold (for example, 1 V), we require vOUT1 to
+reach VOH to achieve a modest noise margin. Notice that the presence of the
+capacitor CGS2 makes vOUT1 take a finite amount of time to rise to the required
+VOH level. As we saw before, this interval of time is called the propagation delay
+for the inverter for a high to low transition at the input and is denoted by tpd,1→0.
+As discussed earlier, the output capacitor charge-up time is also called the rise
+time of the inverter.

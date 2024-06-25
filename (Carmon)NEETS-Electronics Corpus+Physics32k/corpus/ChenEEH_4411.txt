@@ -1,0 +1,14 @@
+To analyze stability robustness, consider the unity feedback
+system in Figure 3.1. A basic plant uncertainty representation
+is Gp(s) ¼ Gpo(s) þ Da(s), where Gpo(s) is the nominal plant
+model and where Da(s) is the additive uncertainty. Other
+uncertainty representations include the output multiplicative
+uncertainty, Gp(s) ¼ (I þ Do(s))Gpo(s), and the input multi-
+plicative one, Gp(s) ¼ Gpo(s)(I þ Di(s)). For design purposes,
+it helps to normalize the uncertainty representations. For
+example, consider that the real plant is represented with an
+output multiplicative uncertainty, and let Do(s) ¼ Wo(s)~DDo(s),
+where ~DDo(s)
+and stable with
+k~DDo(s)k1  1 and where Wo(s) is a frequency-dependent
+3.1 will be robustly stable if and only if kToWok1  1.

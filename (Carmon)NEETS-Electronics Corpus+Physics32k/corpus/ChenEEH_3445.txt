@@ -1,0 +1,19 @@
+inherent limitation is the inﬂuence of the current in-feed from
+the other end as described earlier. The other source of possible
+error is the fault resistance, which cannot be measured online.
+Therefore, it has to be assumed at the time of the relay setting
+computation, when a value different from what is actually
+present during the fault may be picked up. The anticipated
+value of the fault resistance is selected arbitrarily and may be a
+cause for a gross error when computing the impedance for a
+ground fault. Yet another source of error is the mutual
+coupling between adjacent transmission line or phases, which
+if signiﬁcant, can adversely affect relay operation if not taken
+adequately into account when computing the fault impedance.
+The distance relaying becomes particularly difﬁcult and some-
+times unreliable if applied to some special protection case,
+such as multiterminal lines, lines with series compensation,
+very short lines, and parallel lines. In all of the cases, selecting
+relay settings is quite involved and prone to errors due to
+some arbitrary assumptions about the value of the fault im-
+pedance.

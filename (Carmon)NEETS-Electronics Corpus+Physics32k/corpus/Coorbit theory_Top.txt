@@ -1,0 +1,147 @@
+In mathematics, coorbit theory was developed by Hans Georg Feichtinger and Karlheinz Gröchenig around 1990. It provides theory for atomic decomposition of a range of Banach spaces of distributions. Among others the well established wavelet transform and the short-time Fourier transform are covered by the theory.
+The starting point is a square integrable representation
+
+
+
+π
+
+
+{\displaystyle \pi }
+of a locally compact group
+
+
+
+
+
+G
+
+
+
+
+{\displaystyle {\mathcal {G}}}
+on a Hilbert space
+
+
+
+
+
+H
+
+
+
+
+{\displaystyle {\mathcal {H}}}
+, with which one can define a transform of a function
+
+
+
+f
+∈
+
+
+H
+
+
+
+
+{\displaystyle f\in {\mathcal {H}}}
+with respect to
+
+
+
+g
+∈
+
+
+H
+
+
+
+
+{\displaystyle g\in {\mathcal {H}}}
+by
+
+
+
+
+V
+
+g
+
+
+f
+(
+x
+)
+=
+⟨
+f
+,
+π
+(
+x
+)
+g
+⟩
+
+
+{\displaystyle V_{g}f(x)=\langle f,\pi (x)g\rangle }
+. Many important transforms are special cases of the transform, e.g. the short-time Fourier transform and the wavelet transform for the Heisenberg group and the affine group respectively. Representation theory yields the reproducing formula
+
+
+
+
+V
+
+g
+
+
+f
+=
+
+V
+
+g
+
+
+f
+∗
+
+V
+
+g
+
+
+g
+
+
+{\displaystyle V_{g}f=V_{g}f*V_{g}g}
+. By discretization of this continuous convolution integral it can be shown that by sufficiently dense sampling in phase space the corresponding functions will span a frame for the Hilbert space.
+An important aspect of the theory is the derivation of atomic decompositions for Banach spaces. One of the key steps is to define the voice transform for distributions in a natural way. For a given Banach space
+
+
+
+Y
+
+
+{\displaystyle Y}
+, the corresponding coorbit space is defined as the set of all distributions such that
+
+
+
+
+V
+
+g
+
+
+f
+∈
+Y
+
+
+{\displaystyle V_{g}f\in Y}
+. The reproducing formula is true also in this case and therefore it is possible to obtain atomic decompositions for coorbit spaces.
+
+
+== References ==

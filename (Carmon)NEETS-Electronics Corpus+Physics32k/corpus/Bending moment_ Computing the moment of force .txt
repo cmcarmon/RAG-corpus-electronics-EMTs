@@ -1,0 +1,109 @@
+An important part of determining bending moments in practical problems is the computation of moments of force. Let
+
+
+
+
+F
+
+
+
+{\displaystyle \mathbf {F} }
+be a force vector acting at a point A in a body. The moment of this force about a reference point (O) is defined as
+
+
+
+
+
+M
+
+=
+
+r
+
+×
+
+F
+
+
+
+{\displaystyle \mathbf {M} =\mathbf {r} \times \mathbf {F} }
+
+where
+
+
+
+
+M
+
+
+
+{\displaystyle \mathbf {M} }
+is the moment vector and
+
+
+
+
+r
+
+
+
+{\displaystyle \mathbf {r} }
+is the position vector from the reference point (O) to the point of application of the force (A). The
+
+
+
+×
+
+
+{\displaystyle \times }
+symbol indicates the vector cross product. For many problems, it is more convenient to compute the moment of force about an axis that passes through the reference point O. If the unit vector along the axis is
+
+
+
+
+e
+
+
+
+{\displaystyle \mathbf {e} }
+, the moment of force about the axis is defined as
+
+
+
+
+M
+=
+
+e
+
+⋅
+
+M
+
+=
+
+e
+
+⋅
+(
+
+r
+
+×
+
+F
+
+)
+
+
+{\displaystyle M=\mathbf {e} \cdot \mathbf {M} =\mathbf {e} \cdot (\mathbf {r} \times \mathbf {F} )}
+
+where
+
+
+
+⋅
+
+
+{\displaystyle \cdot }
+indicates the vector dot product.

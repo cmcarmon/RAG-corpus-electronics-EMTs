@@ -1,0 +1,12 @@
+Discrete Arrays for Beamforming
+An array of sensors could be distributed at distinct points in space in various ways. Line arrays, planar arrays,
+and volumetric arrays could be either uniformly spaced or nonuniformly spaced, including the possibility of
+placing  sensors  randomly  according  to  some  probability  distribution  function.  Uniform  spacing  along  each
+coordinate axis permits one to exploit the well-developed multidimensional signal processing techniques con-
+cerned with ﬁlter design, DFT computation via FFT, and high-resolution spectral analysis of sampled signals
+[Dudgeon, 1977]. Nonuniform spacing sometimes might be useful for reducing the number of sensors, which
+otherwise  might  be  constrained  to  satisfy  a  maximum  spacing  between  uniformly  placed  sensors  to  avoid
+grating lobes due to aliasing, as explained later. A discrete array, uniformly spaced, is convenient for the synthesis
+of a digital ﬁlter or beamformer by the performing of digital signal processing operations (namely delay, sum,
+and  multiplication  or  weighting)  on  the  signal  received  by  a  collection  of  sensors  distributed  in  space.  The
+sequence of the nature of operations dictates the types of beamformer. Common beamforming systems are of

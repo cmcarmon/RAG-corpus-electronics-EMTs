@@ -1,0 +1,18 @@
+Firing artillery at targets beyond visual range historically has required computations based on firing tables. The impact point of a projectile is a function of many variables:
+
+Air temperature
+Air density
+Wind
+Range
+Earth rotation
+Projectile, fuze, weapon characteristics
+Muzzle velocity
+Propellant temperature
+Drift
+Parallax between the guns and the rangefinders and radar systems
+Elevation difference between target and artillery piece
+
+The firing tables provide data for an artillery piece firing under standardized conditions and the corrections required to determine the point of impact under actual conditions. There were a number of ways to implement a firing table using cams. Consider Figure 5 for example. In this case the gun angle as a function of target's range and the target's relative elevation is represented by the thickness of the cam at a given axial distance and angle. A gun direction officer would input the target range and relative elevation using dials. The pin height then represents the required gun angle. This pin height could be used to drive cams or gears that would make other corrections, such as for propellant temperature and projectile type.
+The cams used in a rangekeeper needed to be very precisely machined in order to accurately direct the guns. Because these cams were machined to specifications composed of data tables, they became an early application of CNC machine tools.
+In addition to the target and ballistic corrections, the rangekeeper must also correct for the ships undulating motion. The warships had a gyroscope with its spin axis vertical. This gyro determined two angles that defined the tilt of the ship's deck with respect to the vertical. Those two angle were fed to the rangekeeper, which applied a correction based on these angles.
+While the rangekeeper designers spent an enormous amount of time working to minimize the sources of error in the rangekeeper calculations, there were errors and information uncertainties that contributed to projectiles missing their targets on the first shot. The rangekeeper had dials that allowed manual corrections to be incorporated into the rangekeeper firing solution. When artillery spotters would call in a correction, the rangekeeper operators would manually incorporate the correction using these dials.

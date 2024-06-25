@@ -1,0 +1,9 @@
+11.4 N M O S L O G I C
+The pullup device that we have been using thus far (and seen previously in
+Section 6.11) in our digital gates is a resistor (for example, see the inverter in
+Figure 11.6). In practice, we do not really use resistors as we know them they
+would take up too much area. Rather, as displayed in Figure 11.14), we might
+use another MOSFET with its gate connected to a second supply voltage VA,
+where VA is at least one threshold voltage higher that the supply voltage VS.
+This way, the pullup MOSFET remains in its ON state for any voltage between
+0 and VS applied at its source.

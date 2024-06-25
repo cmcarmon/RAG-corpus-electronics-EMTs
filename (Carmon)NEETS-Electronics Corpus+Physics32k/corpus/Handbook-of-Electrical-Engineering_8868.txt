@@ -1,0 +1,6 @@
+ cache maps each memory location into either of two locations in the cache and
+can be constructed essentially as two identical direct-mapped caches. However, both caches must be searched
+at each memory access and the appropriate data selected and multiplexed on a tag match (hit). On a miss, a
+choice must be made between the two possible cache lines as to which is to be replaced. A single LRU bit can
+be saved for each such pair of lines to remember which line has been accessed more recently. This bit must be
+toggled to the current state each time either of the cache lines is accessed.

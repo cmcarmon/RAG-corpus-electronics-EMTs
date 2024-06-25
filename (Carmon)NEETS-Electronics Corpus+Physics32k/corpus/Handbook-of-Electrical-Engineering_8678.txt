@@ -1,0 +1,7 @@
+Additionally,  HLL  debuggers  do  not  always  work  well  with  the  optimization  option  since  the  one-to-one
+correspondence between HLL code and the object code may have been removed by optimization. Consider the
+reassignment of *source to a data register which is performed by the 68000 C compiler. If a debugger were to
+modify  the  contents  of  *source,  then  it  would  have  to  know  about  the  two  locations  where  it  is  stored:  the
+memory and the register. Other types of optimizations which may cause problems are when unneeded variables
+are removed or when code is resequenced. If a HLL debugger tries to single-step through HLL code, there may
+not be corresponding assembly code, and its execution will appear erroneous.

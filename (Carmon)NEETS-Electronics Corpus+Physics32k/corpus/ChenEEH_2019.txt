@@ -1,0 +1,15 @@
+The susceptibility of the ﬂoating point checksum test to round
+off inaccuracies can be largely mitigated by applying integer
+checksums to various (linear) computations that are ‘‘mantissa
+preserving.’’ This results in high error coverage and zero false
+alarms because integer checksums do not have to contend with
+the roundoff error problem of ﬂoating point checksums. The
+integers involved are derived from the mantissas of the inter-
+mediate ﬂoating point results of the ﬂoating point computa-
+tion. To date, we have successfully applied integer checksums
+(hereafter also called mantissa checksums) to two important
+matrix computations: matrix–matrix multiplication and LU
+decomposition (using the GE algorithm) (Assaad and Dutt,
+1992; Dutt and Assaad, 1996). We will brieﬂy discuss the
+general theory of mantissa checksums and how they are
+applied to these two computations.

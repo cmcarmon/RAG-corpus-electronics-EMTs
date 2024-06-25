@@ -1,0 +1,13 @@
+Plotting the frequency response of a network with the aid of a computer
+for arbitrary system transfer functions as illustrated in Figure 13.13 is quite easy.
+Nevertheless, it is still useful to be able to make approximate sketches of the
+frequency response by inspection. We’ve already seen that obtaining insight into
+the frequency response at low frequencies and high frequencies is a relatively
+simple matter, as demonstrated by Equations 13.51 and 13.52 in Section 13.3.1.
+At intermediate frequencies, however, the relation between output and input is
+somewhat more complicated, especially for a network with several inductors
+or capacitors. This section will show how the general shape of the frequency
+response for first-order circuits can be sketched by inspection. Chapter 14 will
+do the same
+for an important class of second-order circuits. We will resort to
+computer analysis for other circuits.4

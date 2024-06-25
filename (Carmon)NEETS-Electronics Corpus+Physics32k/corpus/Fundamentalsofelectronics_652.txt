@@ -1,0 +1,15 @@
+These examples illustrate the point that systems described (and implemented) by diﬀerence equations serve
+as ﬁlters for discrete-time signals. The ﬁlter’s order is given by the number p of denominator coeﬃcients
+in the transfer function (if the system is IIR) or by the number q of numerator coeﬃcients if the ﬁlter is
+FIR. When a system’s transfer function has both terms, the system is usually IIR, and its order equals p
+regardless of q. By selecting the coeﬃcients and ﬁlter type, ﬁlters having virtually any frequency response
+desired can be designed. This design ﬂexibility can’t be found in analog systems. In the next section, we
+detail how analog signals can be ﬁltered by computers, oﬀering a much greater range of ﬁltering possibilities
+than is possible with circuits.
+5.14 Filtering in the Frequency Domain28
+Because we are interested in actual computations rather than analytic calculations, we must consider the
+details of the discrete Fourier transform. To compute the length-N DFT, we assume that the signal has a
+duration less than or equal to N. Because frequency responses have an explicit frequency-domain speciﬁcation
+(5.47) in terms of ﬁlter coeﬃcients, we don’t have a direct handle on which signal has a Fourier transform
+equaling a given frequency response. Finding this signal is quite easy. First of all, note that the discrete-
+time Fourier transform of a unit sample equals one for all frequencies. Because the input and output of

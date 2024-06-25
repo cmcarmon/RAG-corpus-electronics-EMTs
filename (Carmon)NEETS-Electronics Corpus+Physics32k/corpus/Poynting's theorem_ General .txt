@@ -1,0 +1,73 @@
+In words, the theorem is an energy balance:
+The rate of energy transfer (per unit volume) from a region of space equals the rate of work done on a charge distribution plus the energy flux leaving that region.
+A second statement can also explain the theorem - "The decrease in the electromagnetic energy per unit time in a certain volume is equal to the sum of work done by the field forces and the net outward flux per unit time".
+Mathematically, this is summarised in differential form as:
+
+where ∇•S is the divergence of the Poynting vector (energy flow) and J•E is the rate at which the fields do work on a charged object (J is the current density corresponding to the motion of charge, E is the electric field, and • is the dot product). The energy density u is given by:
+
+
+
+
+u
+=
+
+
+1
+2
+
+
+
+(
+
+
+ϵ
+
+0
+
+
+
+E
+
+⋅
+
+E
+
++
+
+
+1
+
+μ
+
+0
+
+
+
+
+
+B
+
+⋅
+
+B
+
+
+)
+
+
+
+{\displaystyle u={\frac {1}{2}}\left(\epsilon _{0}\mathbf {E} \cdot \mathbf {E} +{\frac {1}{\mu _{0}}}\mathbf {B} \cdot \mathbf {B} \right)}
+
+in which B is the magnetic flux density. Using the divergence theorem, Poynting's theorem can be rewritten in integral form:
+
+where
+
+
+
+∂
+V
+
+
+
+{\displaystyle \partial V\!}
+is the boundary of a volume V. The shape of the volume is arbitrary but fixed for the calculation.

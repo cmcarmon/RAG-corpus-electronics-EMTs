@@ -1,0 +1,11 @@
+Model-based reasoning contains a diverse set of approaches
+and a collection of loosely connected techniques, with most
+applications in the areas of monitoring, control, and diagnosis.
+For diagnosis applications, model-based reasoning usually
+consists of the following elements: (a) simulate and predict
+the normal behavior of the system, (b) record dependencies
+between internal model components and predicted observa-
+tions, (c) upon detection of abnormal observations, use the
+dependencies to identify conﬂicting model assumptions, and
+(d) in the presence of multiple candidates, apply a measure-
+ment strategy to reduce the number of candidates.

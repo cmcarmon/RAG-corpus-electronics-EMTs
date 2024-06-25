@@ -1,0 +1,3 @@
+The first step of algorithm is calculating the hashing based on the most frequent k characters. The hashing algorithm has below steps:
+
+Above function, simply gets an input string and an integer K value and outputs the most frequent K characters from the input string. The only condition during the creation of output string is adding the first occurring character first, if the frequencies of two characters are equal. Similar to the most of hashing functions, Most Frequent K Hashing is also a one way function.

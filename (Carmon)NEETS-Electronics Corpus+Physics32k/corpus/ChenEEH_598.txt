@@ -1,0 +1,13 @@
+During turn-off, the current is held constant while the
+collector voltage rises. This is followed by a sharp decline in
+collector current as the MOS channel turns off. The turn-off
+transient until this phase is similar to a MOSFET. However, the
+IGBT has excess charge in the drift region during on-state
+conduction that must be removed to turn the device off. This
+high concentration of minority carriers stored in the n-drift
+region supports current ﬂow even after the MOS channel is cut
+off. As the minority carrier density decays due to recombin-
+ation, it leads to a gradual reduction in the collector current
+and results in a current tail. For an on-state current of ION , the
+magnitude of the current tail and turn-off time are roughly
+expressed as:

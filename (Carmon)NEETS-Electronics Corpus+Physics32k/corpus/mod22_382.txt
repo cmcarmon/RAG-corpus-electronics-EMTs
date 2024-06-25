@@ -1,0 +1,9 @@
+In primary storage, many magnetic cores are strung together on a screen of wire to form what is 
+called a core plane (fig. 4-8, view A). As you may know, each core can store one binary bit (0 or 1) of 
+data. A core is magnetized by current flowing through the wires on which the core is strung. Hence, a 
+core magnetized in one direction represents a binary 0, and when magnetized in the opposite direction, a 
+binary 1. It is the direction that the core is magnetized that determines whether it contains a binary 0 or a 
+binary 1 (refer to fig. 4-8, view B). These core planes look very much like small window screens and are 
+arranged vertically to represent data as shown in figure 4-8, view C. In looking at this figure, you will 
+notice that nine planes are needed to code in 8-bit EBCDIC. The ninth plane provides for a parity (check) 
+bit. Figure 4-8, view C, shows DP-3 in EBCDIC code, even parity. 

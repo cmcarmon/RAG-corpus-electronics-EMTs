@@ -1,0 +1,8 @@
+Maintaining a centralized directory has the least overhead in
+terms of storage (Stenstrom, 1990), but it suffers from several
+disadvantages. Every local action that could possibly cause a
+change in global state must be reported to the controller,
+causing a bottleneck due to its centralized nature. In addition,
+a hardware search mechanism must be implemented that
+allows the controller to search through all duplicates to ﬁnd
+which caches have copies of a particular block.

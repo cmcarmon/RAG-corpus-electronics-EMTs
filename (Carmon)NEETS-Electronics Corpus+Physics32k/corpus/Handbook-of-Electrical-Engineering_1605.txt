@@ -1,0 +1,6 @@
+The basic elements in the parameter estimation are a vector parameter qm, a vector space %m where qm takes
+its  values,  a  stochastic  process  X(t)  parameterized  by  qm  and  a  performance  criterion  or  cost  function.  The
+estimate q^
+m(xn) based on the observation vector xn = [x1, x2 , ..., xn] is a solution of some optimization problem
+according  to  the  performance  criterion.  In  the  following,  the  function  f (xn*qm)  will  denote  the  conditional
+joint probability density function of the random variables x1, ..., xn.

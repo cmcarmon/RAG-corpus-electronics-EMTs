@@ -1,0 +1,17 @@
+There are four types of possible transitions when dynamic
+charge distribution is considered over cross coupling capaci-
+tances as in Figure 7.10. Two parallel wires are placed with
+minimum spacing. A type I transition occurs when one of the
+signals switches while the other stays unchanged such that the
+cross coupling capacitance is then charged up to klCxV , where
+the coefﬁcient k1 is introduced as a reference for other types of
+transition. In a type II transition, one bus switches from low to
+high while the other switches from high to low. The effective
+capacitance will be larger than k1 by a factor of k2, the value of
+which is usually k2 ¼ 2. In a type III transition, both signals
+switch simultaneously, and Cx will not be charged. Because of
+possible misalignment of the two transitions, however, the
+amount of power consumption varies according to the dy-
+namic characteristics by a factor of k3. In a type IV transition,
+there is no dynamic charge distribution over cross coupling
+capacitance. Thus, k4 is set to zero.

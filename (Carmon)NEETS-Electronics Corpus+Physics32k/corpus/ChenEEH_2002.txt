@@ -1,0 +1,10 @@
+The RAM method uses a small RAM and a pointer to the
+last stored value of the register to create a circular buffer.
+Like the previous solution, a R/W operation is performed on
+the current register (see Figure 8.18). During a write operation,
+the old value of the current register is written into the RAM
+location that immediately follows the pointer, and the pointer
+is then updated to point to this location. For microrollback, it
+is simply necessary to subtract the desired rollback distance
+from the pointer and move the value in the entry following the
+newly pointed location to the current register.

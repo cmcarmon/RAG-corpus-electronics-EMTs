@@ -1,0 +1,13 @@
+The  capacitor,  C, will  now  discharge,  with 
+current  flowing  through  R2 into  the  collector  of 
+TR1. At a certain point, the voltage appearing at the 
+trigger input (pin-2) will have fallen back to one- 
+third of the supply voltage at which point the lower 
+comparator  will  change  state  and  the  voltage 
+transition at S will return the bistable to its original 
+set condition. The inverted Q output then goes low, 
+TR1  switches  off  (no  longer  conducting),  and  the 
+output  (pin-3)  goes  high. Thereafter,  the  entire 
+charge/discharge cycle is repeated indefinitely.  
+  The output waveform produced by the circuit of 
+Fig. 12.7 is shown in Fig. 12.8. The waveform has 

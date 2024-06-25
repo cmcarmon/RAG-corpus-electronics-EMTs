@@ -1,0 +1,11 @@
+Most of the communication applications like GSM require
+digital coding of voice for efﬁcient, secure storage and trans-
+mission. We have used a linear predictive coding (LPC) vo-
+coder, also called a voice coder, that provides an analysis–
+synthesis approach for speech signals (Rabiner and Schafer,
+1988). In our algorithm, speech characteristics (energy, trans-
+fer function, and pitch) are extracted from a frame of 240
+consecutive samples of speech. Consecutive frames share 60
+overlapping samples. All information to reproduce the speech
+signal with an acceptable quality is coded in 54 bits.
+The general characteristics of the algorithm are presented in

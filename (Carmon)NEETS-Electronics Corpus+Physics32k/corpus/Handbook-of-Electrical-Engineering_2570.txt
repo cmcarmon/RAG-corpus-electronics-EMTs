@@ -1,0 +1,10 @@
+Note that this is considerably larger than the gain for a common-mode input signal; that is, the difference
+stage ampliﬁes difference signals well but largely rejects common-mode signals. This common-mode rejection
+property is very useful, for often, small signals appear across leads, both of which may contain identical electrical
+noise.  So,  the  difference  stage  tends  to  reject  the  noise  while  still  amplifying  the  signal.  Furthermore,  the
+difference stage has the advantage that it needs no coupling or bypass capacitors and so will amplify frequencies
+down to zero (dc). Also, it is very stable biaswise and lends itself perfectly to realization on a monolithic IC.
+To make the above derivation valid, the long-tail resistance RX should be as large as possible so that most of
+the signal current enters the emitter of  Q2. However, RX must also carry the quiescent current, which would
+produce a very high quiescent voltage drop and so require a very high value of VC C – . To overcome this, another
+transistor structure may be used within a conﬁguration known as a current mirror.

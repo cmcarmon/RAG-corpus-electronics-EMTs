@@ -1,0 +1,73 @@
+The flow velocity of a fluid is a vector field which is used to mathematically describe the motion of a continuum. The length of the flow velocity vector is the flow speed and is a scalar. The flow velocity
+
+
+
+
+u
+
+
+
+{\displaystyle \mathbf {u} }
+of a fluid is a vector field
+
+
+
+
+
+u
+
+=
+
+u
+
+(
+x
+,
+y
+,
+z
+,
+t
+)
+,
+
+
+{\displaystyle \mathbf {u} =\mathbf {u} (x,y,z,t),}
+
+which gives the velocity of an element of fluid at a position
+
+
+
+(
+x
+,
+y
+,
+z
+)
+
+
+
+{\displaystyle (x,y,z)\,}
+and time
+
+
+
+t
+.
+
+
+
+{\displaystyle t.\,}
+The Lambda2 method determines for any point
+
+
+
+
+u
+
+
+
+{\displaystyle \mathbf {u} }
+in the fluid whether this point is part of a vortex core. A vortex is now defined as a connected region for which every point inside this region is part of a vortex core.
+Usually one will also obtain a large number of small vortices when using the above definition. In order to detect only real vortices, a threshold can be used to discard any vortices below a certain size (e.g. volume or number of points contained in the vortex).

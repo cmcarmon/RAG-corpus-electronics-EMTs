@@ -1,0 +1,9 @@
+nondeterministically. The ﬁring of an elementary transition is
+atomic, and the ﬁring of a super transition implies the ﬁring of
+some elementary transition and may not be atomic. We deﬁne
+the behavior of an HPrTN to be the set of all possible maximal
+execution sequences containing only elementary transitions.
+Each execution sequence represents consecutively reachable
+markings from the initial marking in which a successor
+marking is obtained through a step (ﬁring of some enabled
+transitions) from the predecessor marking.

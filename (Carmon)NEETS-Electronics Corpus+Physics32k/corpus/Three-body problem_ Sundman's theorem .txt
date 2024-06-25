@@ -1,0 +1,64 @@
+In 1912, the Finnish mathematician Karl Fritiof Sundman proved that there exists a series solution in powers of t1/3 for the 3-body problem. This series is convergent for all real t, except initial data that correspond to zero angular momentum. However, these initial data are not generic since they have Lebesgue measure zero.
+An important issue in proving this result is the fact that the radius of convergence for this series is determined by the distance to the nearest singularity. Therefore, it is necessary to study the possible singularities of the 3-body problems. As it will be briefly discussed below, the only singularities in the 3-body problem are binary collisions (collisions between two particles at an instant), and triple collisions (collisions between three particles at an instant).
+Now collisions, whether binary or triple (in fact any number), are somewhat improbable, since it has been shown they correspond to a set of initial data of measure zero. However, there is no criterion known to be put on the initial state in order to avoid collisions for the corresponding solution. So Sundman's strategy consisted of the following steps:
+Using an appropriate change of variables to continue analyzing the solution beyond the binary collision, in a process known as regularization.
+Proving that triple collisions only occur when the angular momentum L vanishes. By restricting the initial data to L ≠ 0, he removed all real singularities from the transformed equations for the 3-body problem.
+Showing that if L ≠ 0, then not only can there be no triple collision, but the system is strictly bounded away from a triple collision. This implies, by using Cauchy's existence theorem for differential equations, there are no complex singularities in a strip (depending on the value of L) in the complex plane centered around the real axis (shades of Kovalevskaya).
+Find a conformal transformation that maps this strip into the unit disc. For example, if s = t1/3 (the new variable after the regularization) and if |ln s| ≤ β then this map is given by:
+
+
+
+
+σ
+=
+
+
+
+
+e
+
+
+
+π
+s
+
+
+2
+β
+
+
+
+
+−
+1
+
+
+
+e
+
+
+
+π
+s
+
+
+2
+β
+
+
+
+
++
+1
+
+
+
+
+.
+
+
+{\displaystyle \sigma ={\frac {e^{\frac {\pi s}{2\beta }}-1}{e^{\frac {\pi s}{2\beta }}+1}}\,.}
+
+
+This finishes the proof of Sundman's theorem.
+Unfortunately the corresponding convergent series converges very slowly. That is, getting the value to any useful precision requires so many terms that his solution is of little practical use. Indeed, in 1930, David Beloriszky calculated that if Sundman’s series were to be used for astronomical observations then the computations would involve at least 108,000,000 terms.

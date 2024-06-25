@@ -1,0 +1,8 @@
+The difference signal is compressed to form the transmitted video signal (F). This compression is performed
+both in the time and transform domains. Entropy coding of the type used in facsimile can be incorporated to
+take spatial continuity into account (i.e., a picture usually does not change over the span of a single picture
+element,  so  variations  of  “run  length”  coding  can  often  compress  the  data).  The  compression  technique
+incorporates the MPEG-2 syntax. The actual compression algorithms (based on the discrete cosine transform)
+are adaptive so a variety of formats can be accommodated (e.g., 1080-line interlaced scanning, 720-line pro-
+gressive, bi-directional). The main feature is that the data rate is decreased by extracting essential parameters
+that describe the waveform.

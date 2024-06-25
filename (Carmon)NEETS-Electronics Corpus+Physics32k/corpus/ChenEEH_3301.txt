@@ -1,0 +1,18 @@
+when the power generations and loads are speciﬁed. For a
+power system with N buses, there are 2N number of power
+ﬂow equations. At
+six variables:
+PGi, QGi, PLi, QLi, Vi, and di. Depending on the nature of the
+bus, four of these variables will be speciﬁed at each bus, leaving
+two unknown variables at each bus. We will end up with 2N
+unknown variables related by 2N equations 7.43 and 7.44, and
+our aim in the rest of this section is to develop algorithms for
+solving this problem.
+is, with
+PGi ¼ QGi ¼ 0. In this case, the loads PLi and QLi are assumed
+to be known either from measurements or from load esti-
+mates, and the bus voltage variables Vi and di are the unknown
+variables. Purely load busses with no generation support are
+called PQ busses in power ﬂow studies because both real-
+power injection Pi and reactive power Qi have been speciﬁed
+at these busses.

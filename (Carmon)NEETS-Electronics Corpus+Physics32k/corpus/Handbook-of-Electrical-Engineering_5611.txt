@@ -1,0 +1,20 @@
+Architecture for a Computer Relay
+There are many ways of implementing computer-based relays. Figure 61.48 is a fairly typical block diagram of
+a computer relay architecture. The input signals consisting of voltage and currents and contact status are ﬁltered
+to remove undesired frequency components and potentially damaging surges. These signals are sampled by the
+CPU under the control of a sampling clock. Typical sampling frequency used in a modern digital relay varies
+between 4 and 32 times the nominal power system frequency. The sampled data is processed by the CPU with
+a digital ﬁltering algorithm, which estimates the appropriate relaying quantity. A typical relaying quantity may
+be  the  rms  value  of  a  current,  the  voltage  or  current  phasor,  or  the  apparent  impedance.  The  estimated
+parameters  are  then  compared  with  prestored  relay  characteristics,  and  the  appropriate  control  action  is
+initiated. The decision of the relay is communicated to the substation equipment, such as the circuit breaker,
+through  the  output  ports.  These  outputs  must  also  be  ﬁltered  to  block  any  surges  from  entering  the  relay
+through  the  output  lines.  In  most  cases,  the  relay  can  also  communicate  with  the  outside  world  through  a
+modem. The data created by a fault is usually saved by the relaying computer and can be used for fault analysis
+or for sequence-of-event analysis following a power system disturbance. The user may interface with the relay
+through a keyboard, a control panel, or a communication port. In any case, provision must be made to enter
+relay settings in the relay and to save these settings in case the station power supply fails. Although the block
+diagram in Fig. 61.48 shows different individual subsystems, the actual hardware composition of the subsystems
+is dependent on the computer manufacturer. Thus, we may ﬁnd several microprocessors in a given implemen-
+tation, each controlling one or more subsystems. Also, the hardware technology is in a state of ﬂux, and in a
+few years, we may see an entirely different realization of the computer relays.

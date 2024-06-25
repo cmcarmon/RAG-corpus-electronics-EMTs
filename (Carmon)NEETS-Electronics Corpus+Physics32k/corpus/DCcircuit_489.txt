@@ -1,0 +1,8 @@
+One of the most common mistakes made by beginning electronics students in their application
+of Ohm’s Laws is mixing the contexts of voltage, current, and resistance. In other words, a
+student might mistakenly use a value for I through one resistor and the value for E across a
+set of interconnected resistors, thinking that they’ll arrive at the resistance of that one resistor.
+Not so! Remember this important rule: The variables used in Ohm’s Law equations must be
+common to the same two points in the circuit under consideration. I cannot overemphasize
+this rule. This is especially important in series-parallel combination circuits where nearby
+components may have different values for both voltage drop and current.

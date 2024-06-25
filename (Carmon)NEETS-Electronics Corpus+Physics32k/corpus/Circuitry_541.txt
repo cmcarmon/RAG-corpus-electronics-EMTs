@@ -1,0 +1,35 @@
+Figure  11.11  shows  the  arrangement  of  a  typical 
+microcontroller  system.  The  sensed  quantities 
+(temperature,  position,  etc.)  are  converted 
+to 
+corresponding  electrical  signals  by  means  of  a 
+number of sensors. The outputs from the sensors (in 
+either digital or analogue form) are passed as input 
+signals to the microcontroller. The microcontroller 
+also  accepts  inputs  from  the  user.  These  user  set 
+options typically include target values for variables 
+(such  as  desired  room  temperature),  limit  values 
+(such as maximum shaft speed), or time constraints 
+(such as ‘on’ time and ‘off’ time, delay time, etc). 
+  The  operation  of 
+is 
+controlled  by  a  sequence  of  software  instructions 
+known as a control program. The control program 
+operates  continuously,  examining 
+inputs  from 
+sensors, user settings, and time data before making 
+changes  to  the  output  signals  sent  to  one  or  more 
+controlled devices. 
+  The  controlled  quantities  are  produced  by  the 
+controlled  devices  in  response  to  output  signals 
+from  the  microcontroller.  The  controlled  device 
+generally  converts  energy  from  one  form  into 
+energy in another form. For example, the controlled 
+device  might  be  an  electrical  heater  that  converts 
+electrical  energy  from  the  AC  mains  supply  into 
+heat  energy  thus  producing  a  given  temperature 
+(the controlled quantity). 
+ 
+In most real-world systems there is a requirement 
+for  the  system  to  be  automatic  or  self-regulating. 
+Once  set,  such  systems  will  continue  to  operate 

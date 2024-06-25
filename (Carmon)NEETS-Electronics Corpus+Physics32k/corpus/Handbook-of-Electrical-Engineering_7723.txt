@@ -1,0 +1,5 @@
+The  second  component  of  service  time  is  rotational latency.  It  takes  some  time  for  the  desired  sector  to
+rotate under the head position before it can be read or written. Today’s devices spin at a rate of approximately
+3600  rpm,  or  60  revolutions  per  second  (we  expect  to  see  rotation  speeds  increase  to  5400  rpm  in  the  near
+future). For today’s disks, a full revolution is 16 ms, and the average latency is 8 ms. Note that the worst-case
+latencies are comparable to average seeks.

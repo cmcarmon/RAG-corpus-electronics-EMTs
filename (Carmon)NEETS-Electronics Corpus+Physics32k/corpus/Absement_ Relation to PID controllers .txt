@@ -1,0 +1,8 @@
+PID controllers are controllers that work on a signal that is proportional to a physical quantity (e.g. displacement, proportional to position) and its integral(s) and derivative(s), thusly defining PID in the context of Integrals and Derivatives of a position of a control element in the Bratland sense
+
+depending on the type of sensor inputs, PID controllers can contain gains proportional to position, velocity, acceleration or the time integral of position (absement)…
+
+Example of PID controller (Bratland 2014):
+P, Position;
+I, Absement;
+D, Velocity.

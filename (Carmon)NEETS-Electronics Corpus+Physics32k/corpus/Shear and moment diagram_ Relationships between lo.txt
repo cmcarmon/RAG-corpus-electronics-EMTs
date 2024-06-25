@@ -1,0 +1,48 @@
+Since this method can easily become unnecessarily complicated with relatively simple problems, it can be quite helpful to understand different relations between the loading, shear, and moment diagram. The first of these is the relationship between a distributed load on the loading diagram and the shear diagram. Since a distributed load varies the shear load according to its magnitude it can be derived that the slope of the shear diagram is equal to the magnitude of the distributed load. The relationship between distributed load and shear force magnitude is:
+
+
+
+
+
+
+
+d
+Q
+
+
+d
+x
+
+
+
+=
+−
+q
+
+
+{\displaystyle {\frac {dQ}{dx}}=-q}
+
+Some direct results of this is that a shear diagram will have a point change in magnitude if a point load is applied to a member, and a linearly varying shear magnitude as a result of a constant distributed load. Similarly it can be shown that the slope of the moment diagram at a given point is equal to the magnitude of the shear diagram at that distance. The relationship between distributed shear force and bending moment is:
+
+
+
+
+
+
+
+d
+M
+
+
+d
+x
+
+
+
+=
+Q
+
+
+{\displaystyle {\frac {dM}{dx}}=Q}
+
+A direct result of this is that at every point the shear diagram crosses zero the moment diagram will have a local maximum or minimum. Also if the shear diagram is zero over a length of the member, the moment diagram will have a constant value over that length. By calculus it can be shown that a point load will lead to a linearly varying moment diagram, and a constant distributed load will lead to a quadratic moment diagram.

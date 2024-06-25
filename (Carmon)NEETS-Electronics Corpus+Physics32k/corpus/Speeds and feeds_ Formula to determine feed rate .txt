@@ -1,0 +1,27 @@
+This formula can be used to figure out the feed rate that the cutter travels into or around the work. This would apply to cutters on a milling machine, drill press and a number of other machine tools. This is not to be used on the lathe for turning operations, as the feed rate on a lathe is given as feed per revolution.
+
+
+
+
+F
+R
+=
+
+R
+P
+M
+×
+T
+×
+C
+L
+
+
+
+{\displaystyle FR={RPM\times T\times CL}}
+
+Where:
+FR = the calculated feed rate in inches per minute or mm per minute.
+RPM = is the calculated speed for the cutter.
+T = Number of teeth on the cutter.
+CL = The chip load or feed per tooth. This is the size of chip that each tooth of the cutter takes.

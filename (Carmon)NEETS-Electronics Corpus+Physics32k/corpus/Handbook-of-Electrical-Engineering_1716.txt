@@ -1,0 +1,13 @@
+) that modify the range of
+histogram
+the gray levels of the pixels. An important feature that describes a great deal about an image is the 
+of the pixel values. A histogram is a table that lists how many pixels in an image take on a particular gray value.
+histogram
+These  data  are  often  plotted  as  a  function  of  the  gray  value.  Point  operations  are  also  known  as 
+.  The  contrast  enhancement  operation  shown  in  Fig. 17.4  modiﬁes  the
+modiﬁcation
+histogram of the resultant image by stretching the gray values from a range of 0–63 to a range of 0–252. Some
+point operations are such that the resulting histogram of the processed image has a particular shape. A popular
+, whereby the pixels are modiﬁed such that
+form of histogram modiﬁcation is known as 
+the histogram of the processed image is almost ﬂat, i.e., all the pixel values occur equally.

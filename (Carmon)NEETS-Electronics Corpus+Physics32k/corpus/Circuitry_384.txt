@@ -1,0 +1,36 @@
+Multi-stage amplifiers 
+ 
+In order to provide sufficiently large values of gain, 
+it  is  frequently  necessary  to  use  a  number  of 
+interconnected  stages  within  an  amplifier.  The 
+overall gain of an amplifier with several stages (i.e. 
+a multi-stage amplifier) is simply the product of the 
+individual voltage gains. Hence: 
+ 
+AV = AV1 × AV2 × AV3  etc. 
+ 
+Note, however, that the bandwidth of a multi-stage 
+amplifier  will  be  less  than  the  bandwidth  of  each 
+individual stage. In other words, an increase in gain 
+can only be achieved at the expense of a reduction 
+in bandwidth. 
+  Signals  can  be  coupled  between  the  individual 
+stages  of  a  multi-stage  amplifier  using  one  of  a 
+number of different methods shown in Fig. 7.43.  
+  The most commonly used method is that of R–C 
+coupling as shown in Fig. 7.43(a). In this coupling 
+method,  the  stages  are  coupled  together  using 
+capacitors  having  a  low  reactance  at  the  signal 
+frequency  and  resistors  (which  also  provide  a 
+means  of  connecting  the  supply).  Figure  7.44 
+shows a practical example of this coupling method.   
+  A similar  coupling  method,  known  as  L–C 
+coupling, is shown in Fig. 7.43(b). In this method, 
+the  inductors  have  a  high  reactance  at  the  signal 
+frequency.  This type of coupling is generally only 
+used in RF and high-frequency amplifiers. 
+  Two further methods, transformer coupling and 
+direct  coupling  are  shown  in  Figures  7.43(c)  and 
+7.43(d)  respectively.  The  latter  method  is  used 
+where  d.c.  levels  present  on  signals  must  be 
+preserved.   

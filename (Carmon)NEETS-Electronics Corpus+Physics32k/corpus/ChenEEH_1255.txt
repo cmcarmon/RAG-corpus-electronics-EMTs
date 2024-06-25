@@ -1,0 +1,10 @@
+Microprogramming is usually located in read-only memory
+(ROM), directly controls physical devices, and provides a
+cleaner interface to the machine language. It is actually an
+interpreter, fetching the machine language instruction, such
+as ADD, MOVE, and JUMP, and carrying the instruction out
+as a series of little steps. To carry out an ADD instruction,
+for example, the microprogram must determine where the
+numbers to be added are located, fetch them, add them, and
+store the result somewhere. The set of instructions that the
+microprogram interprets deﬁnes the machine language, which

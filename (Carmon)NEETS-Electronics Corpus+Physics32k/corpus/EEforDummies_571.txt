@@ -1,0 +1,9 @@
+Because Zener diodes are so good at maintaining a constant reverse‐biased 
+voltage, even as current varies, they’re used to regulate voltage in circuits. In 
+the circuit in Figure 9­8, for example, a 9 V DC supply is being used to power 
+a load, and a Zener diode is placed so that the DC supply exceeds the break­
+down voltage of 6.8 V. (Note that this voltage is reverse‐biasing the diode.) 
+Because the load is in parallel with the Zener diode, the voltage drop across 
+the load is the same as the Zener voltage, which is 6.8 V. The remaining 
+supply voltage is dropped across the resistor (which is there to limit the cur­
+rent through the diode so the power rating is not exceeded).

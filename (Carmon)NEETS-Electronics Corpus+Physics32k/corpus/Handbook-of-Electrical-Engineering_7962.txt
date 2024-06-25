@@ -1,0 +1,6 @@
+The single-array devices described so far cannot be extended in size indeﬁnitely; it is difﬁcult to efﬁciently
+use large arrays, and the long internal lines required cannot be driven fast enough while maintaining a reasonable
+power  consumption.  For  these  reasons  many  PLD  architectures  based  on  partitioned  arrays  and  switching
+matrices have been introduced. There is not space to elaborate on these here. A number of these designs are
+described in Moore and Luk [1991]. However, the most important high-complexity array structure, the FPGA,
+is introduced in the next section.

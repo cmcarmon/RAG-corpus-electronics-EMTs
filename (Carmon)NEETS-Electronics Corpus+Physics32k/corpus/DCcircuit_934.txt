@@ -1,0 +1,10 @@
+Unlike the Wheatstone and Kelvin bridges, which provide measurement at a condition of
+perfect balance and therefore function irrespective of source voltage, the amount of source (or
+”excitation”) voltage matters in an unbalanced bridge like this. Therefore, strain gauge bridges
+are rated in millivolts of imbalance produced per volt of excitation, per unit measure of force.
+A typical example for a strain gauge of the type used for measuring force in industrial envi-
+ronments is 15 mV/V at 1000 pounds. That is, at exactly 1000 pounds applied force (either
+compressive or tensile), the bridge will be unbalanced by 15 millivolts for every volt of excita-
+tion voltage. Again, such a ﬁgure is precise if the bridge circuit is full-active (four active strain
+gauges, one in each arm of the bridge), but only approximate for half-bridge and quarter-bridge
+arrangements.

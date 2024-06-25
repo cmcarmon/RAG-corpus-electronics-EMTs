@@ -1,0 +1,18 @@
+encoding techniques is that the required number of extra bus
+lines increases exponentially as the transition activity is re-
+duced. An alternative is to keep the number of bus lines
+constant and inject redundancy in time by using extra transfer
+cycles. In the deep-submicron era, interconnect wires (more
+speciﬁcally global wires, such as buses and clock signals) and
+the associated driver and receiver circuits are responsible for a
+large fraction of the energy consumption of an integrated
+circuit (Zhang and Rabaey, 1998). The low-swing signaling
+technique is used for information transfers on long wires
+where wires achieve low-power consumption as they assume
+reduced voltage swings on the transmitted signals. Such tech-
+nique requires special transmitter and receiver circuits to pro-
+vide and sense the low swing voltages on signals ﬂowing in
+these busses; normal circuits cannot detect these low swing
+circuits correctly. Examples of these interfacing circuits can be
+found in (Nakagome et al., 1993; Burd, 1998; Colshan and
+Jaroun, 1994; Hiraki et al., 1995).

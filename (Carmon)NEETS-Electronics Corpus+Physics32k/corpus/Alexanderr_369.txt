@@ -1,0 +1,5 @@
+If necessary, dc PSpice analysis is ﬁrst carried out to determine the
+initial  conditions. Then  the  initial  conditions  are  used  in  the  transient
+PSpice analysis  to  obtain  the  transient  responses.  It  is  recommended
+but not necessary that during this dc analysis, all capacitors should be
+open-circuited while all inductors should be short-circuited.

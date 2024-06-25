@@ -1,0 +1,15 @@
+Slip Power Recovery Drive of Induction Motor
+In a cage-type induction motor, the rotor current at slip frequency reacting with the airgap ﬂux develops the
+torque. The corresponding slip power is dissipated in the rotor resistance. In a wound rotor induction motor,
+the slip power can be controlled to control the torque and speed of a machine. Figure 30.49 shows a popular
+slip  power-controlled  drive,  known  as  a  static  Kramer  drive.  The  slip  power  is  rectiﬁed  to  dc  with  a  diode
+rectiﬁer  and  is  then  pumped  back  to  an  ac  line  through  a  thyristor  phase-controlled  inverter.  The  method
+permits speed control in the subsynchronous speed range. It can be shown that the developed machine torque
+is  proportional  to  the  dc  link  current  Id  and  the  voltage  Vd  varies  directly  with  speed  deviation  from  the
+synchronous  speed.  The  current  Id  is  controlled  by  the  ﬁring  angle  of  the  inverter.  Since Vd  and VI  voltages
+balance at steady state, at synchronous speed the voltage Vd is zero and the ﬁring angle is 90 degrees. The ﬁring
+angle increases as the speed falls, and at 50% synchronous speed the ﬁring angle is near 180 degrees. This is
+practically the lowest speed in static Kramer drive. The transformer steps down the inverter input voltage to
+get  a  180-degree  ﬁring  angle  at  lowest  speed.  The  advantage  of  this  drive  is  that  the  converter  rating  is  low
+compared  with  the  machine  rating.  Disadvantages  are  that  the  line  power  factor  is  low  and  the  machine  is
+expensive. For limited speed range applications, this drive has been popular.

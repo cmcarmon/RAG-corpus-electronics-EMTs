@@ -1,0 +1,5 @@
+COUNTER-CONTROLLED A/D CONVERTER
+Figure 6.2.13 shows the block diagram of a counter-controlled A/D converter. Resetting the binary
+counter to zero produces D/A output voltage V2 = 0 and initiates the analog-to-digital conversion.
+When the analog input V1 is larger than the DAC (D/A converter) output voltage, the comparator
+output will be high, thereby enabling the AND gate and incrementing the counter. V2 is increased

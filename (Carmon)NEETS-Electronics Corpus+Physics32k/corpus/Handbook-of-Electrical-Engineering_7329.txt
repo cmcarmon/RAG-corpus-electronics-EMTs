@@ -1,0 +1,5 @@
+One of the simplest types of phase detectors to implement uses an exclusive OR gate to digitally multiply
+the  two  signals  together.  The  output  must  then  be  low-pass  ﬁltered  to  extract  only  the  dc  component.  The
+main  drawback  to  this  circuit  is  the  large  component  that  exists  in  the  output  at  twice  the  input  frequency.
+This requires a large amount of low-pass ﬁltering and may restrict the PLL design. The phase range of this type
+of circuit is 

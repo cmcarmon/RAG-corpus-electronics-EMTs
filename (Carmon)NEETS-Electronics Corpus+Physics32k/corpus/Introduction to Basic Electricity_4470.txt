@@ -1,0 +1,12 @@
+A D flip-flop is useful where only 1 data bit (1 or 0) 
+is to be stored. Figure 44-6 shows the logic diagram 
+for a D flip-flop. It has a single data input and a clock 
+input. The D flip-flop is also referred to as a delay flip-
+flop. The D input is delayed one clock pulse from get-
+ting to the output (Q). Sometimes the D flip-flop has 
+a PS (preset) input and CLR (clear) input. The preset 
+input sets output Q to a 1 when a low or 0 is applied to 
+it. The clear input clears the Q output to a 0 when it is 
+enabled by a low or 0. D flip-flops are wired together 
+to form shift registers and storage registers. These reg-
+isters are widely used in digital systems.

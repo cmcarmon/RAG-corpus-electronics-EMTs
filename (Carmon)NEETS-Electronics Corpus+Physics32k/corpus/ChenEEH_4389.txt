@@ -1,0 +1,6 @@
+Stability is an important system property. This section is
+mostly interested in two types: asymptotic and bounded-
+input and bounded-output (BIBO) stability. Asymptotic sta-
+bility is a property of an internal representation, such as a
+state-space. The representation in 3.3 is said to be asymptoti-
+cally stable if the solutions of _xx(t) ¼ Ax(t ) approach the origin

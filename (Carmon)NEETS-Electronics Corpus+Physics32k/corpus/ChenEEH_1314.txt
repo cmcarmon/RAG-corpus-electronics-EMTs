@@ -1,0 +1,14 @@
+There are several versions of SCSI standards: SCSI-1 stan-
+dard supports transfer rates of up to 3 MBPs, SCSI-2 supports
+up to 20 MBPs, and SCSI-3 supports up to 40 MBPs. In a chain
+of SCSI devices, any one can be either an initiator or a target.
+Normally, the SCSI controller, acting as an initiator, issues
+commands to other SCSI devices acting as targets. The com-
+mands descriptor block (CDB) can be up to 16 bytes and tells
+the target what to do. These CDB commands are also used to
+arbitrate the bus when more than two SCSI devices try to use
+the bus as the same time. This arbitration mechanism im-
+proves performance by allowing more than two SCSI devices
+to be activated at the same time, whereas only one IDE device
+can be activated at one time. The following are lists of charac-
+teristics for different SCSIs:

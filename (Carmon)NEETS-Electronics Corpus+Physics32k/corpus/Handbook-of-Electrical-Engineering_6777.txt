@@ -1,0 +1,6 @@
+architectural concept is a simple one. When a customer places a telephone call which requires special handling,
+such as a toll-free call (800 Service) or credit card call, that call is intercepted by the switching system which
+suspends call processing while it launches a query through a signaling network to a centralized database. The
+database, in turn, retrieves the necessary information to handle the call and returns that information through
+the signaling network to the switch so that the call can be completed. The role of the operations support system
+is to administer the appropriate network and customer information that resides in the database.

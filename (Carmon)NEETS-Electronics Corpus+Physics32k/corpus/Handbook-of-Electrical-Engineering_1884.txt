@@ -1,0 +1,9 @@
+Although  having  a  common  register  ﬁle  is  very  ﬂexible,  there  are  physical  limitations  on  the  number  of
+function units that can be connected to a single register ﬁle. A single addition requires three ports to the register
+ﬁle:  one  to  read  each  operand  and  a  third  to  write  the  result  back  to  the  register  ﬁle.  Register  ﬁles  are  built
+from static random access memory (SRAMs) and slow down as the number of read/write ports grows. As a
+result, VLIW machines are typically built in clusters as shown in Fig. 17.29. Each cluster has its own register
+ﬁle and function units, with three or four function units per cluster typical in today’s technology. A separate
+interconnection network allows data transfers between the clusters. When data held in one register ﬁle is needed
+in a different cluster, an instruction must be executed to transfer the data over the interconnection network to
+the other register ﬁle.

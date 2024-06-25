@@ -1,0 +1,71 @@
+There are many applications for pressure sensors:
+Pressure sensing
+This is where the measurement of interest is pressure, expressed as a force per unit area. This is useful in weather instrumentation, aircraft, automobiles, and any other machinery that has pressure functionality implemented.
+Altitude sensing
+This is useful in aircraft, rockets, satellites, weather balloons, and many other applications. All these applications make use of the relationship between changes in pressure relative to the altitude. This relationship is governed by the following equation:
+
+
+
+
+h
+=
+(
+1
+−
+(
+P
+
+/
+
+
+P
+
+
+r
+e
+f
+
+
+
+
+)
+
+0.190284
+
+
+)
+×
+145366.45
+
+f
+t
+
+
+
+{\displaystyle h=(1-(P/P_{\mathrm {ref} })^{0.190284})\times 145366.45\mathrm {ft} }
+
+
+This equation is calibrated for an altimeter, up to 36,090 feet (11,000 m). Outside that range, an error will be introduced which can be calculated differently for each different pressure sensor. These error calculations will factor in the error introduced by the change in temperature as we go up.
+Barometric pressure sensors can have an altitude resolution of less than 1 meter, which is significantly better than GPS systems (about 20 meters altitude resolution). In navigation applications altimeters are used to distinguish between stacked road levels for car navigation and floor levels in buildings for pedestrian navigation.
+Flow sensing
+This is the use of pressure sensors in conjunction with the venturi effect to measure flow. Differential pressure is measured between two segments of a venturi tube that have a different aperture. The pressure difference between the two segments is directly proportional to the flow rate through the venturi tube. A low pressure sensor is almost always required as the pressure difference is relatively small.
+Level / depth sensing
+
+A pressure sensor may also be used to calculate the level of a fluid. This technique is commonly employed to measure the depth of a submerged body (such as a diver or submarine), or level of contents in a tank (such as in a water tower). For most practical purposes, fluid level is directly proportional to pressure. In the case of fresh water where the contents are under atmospheric pressure, 1psi = 27.7 inH20 / 1Pa = 9.81 mmH20. The basic equation for such a measurement is
+
+
+
+
+P
+=
+ρ
+g
+h
+
+
+{\displaystyle P=\rho gh}
+
+
+where P = pressure, ρ = density of the fluid, g = standard gravity, h = height of fluid column above pressure sensor
+Leak testing
+A pressure sensor may be used to sense the decay of pressure due to a system leak. This is commonly done by either comparison to a known leak using differential pressure, or by means of utilizing the pressure sensor to measure pressure change over time.

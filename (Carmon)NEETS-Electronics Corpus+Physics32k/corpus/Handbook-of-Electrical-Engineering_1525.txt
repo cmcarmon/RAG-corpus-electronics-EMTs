@@ -1,0 +1,11 @@
+Tri-Phones
+In order to take into account the inﬂuence of context on pronunciation, many speech recognizers base their
+modeling on the tri-phone concept. The tri-phone concept was ﬁrst introduced by Chow et al. [5, 24] and Lee
+et  al.  [7,  8]  in  the  1980s.  In  this  concept,  the  pronunciation  of  a  phone  is  inﬂuenced  by  the  preceding  and
+following phone (i.e., the triplet is used to model the realization of the phone). The phone p embedded in the
+context p1 and p2 is speciﬁed by the tri-phone p1pp2, where p1 and p2 are the previous and the following phones.
+Different such realizations of p are called allophones. This amounts to saying that the contextual inﬂuence of
+the preceding and following phone is most important. If this solution were carried out literally, the resulting
+allophone alphabet would be too large to be useful. For example, a phonetic alphabet of size M would produce
+M3 allophones. Even though in practice, not all M3 allophones occur, the number of possible allophones is still
+large.

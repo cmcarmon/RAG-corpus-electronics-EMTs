@@ -1,0 +1,6 @@
+The new adders of Yikes have the following properties: For a logical 0, the new adders
+produce a voltage level of 1.7 V at their outputs. Similarly, when outputting a logical 1,
+their adders produce the voltage level of 4.5 V. The new Yikes adders interpret all
+signals between 0 V and 1.5 V at their inputs as a logical 0, and all signals between 4 V
+and 5 V as a logical 1. Their behavior for input signals in the 1.5 V to 4 V range is
+undefined.

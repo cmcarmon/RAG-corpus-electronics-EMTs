@@ -1,0 +1,8 @@
+The time variation of the excitation may be either pulsed or sine wave. The advantage of the pulse is that
+response for a wide frequency range can be obtained. But, for accurate results, the frequency-dependent behavior
+of biological materials must be included in the calculations. Methods for doing this are well known [Kunz and
+Luebbers,  1993;  Taﬂove,  1995]  so  that  transient  electromagnetic  ﬁeld  amplitudes  for  pulse  excitation  can  be
+calculated using FDTD [Furse et al., 1994]. When results at a single frequency or at a few speciﬁc frequencies
+are desired, then sine wave excitation is preferred. This is especially true if results for the entire body, such as
+SAR,  are  needed,  since  storing  the  transient  results  for  the  entire  body  mesh  and  then  applying  fast  Fourier
+transformation to calculate the SAR vs. frequency requires extremely large amounts of computer storage.

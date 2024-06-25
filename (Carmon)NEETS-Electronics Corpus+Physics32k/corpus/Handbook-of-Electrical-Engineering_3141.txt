@@ -1,0 +1,13 @@
+a
+,  full
+supply voltage (neglecting the SCR drop) is applied to the load. For a purely resistive load, during the positive
+half cycle, the output voltage waveform follows the input ac voltage waveform. During the negative half cycle,
+the SCR is turned off. In the case of inductive load, the energy stored in the inductance causes the current to
+ﬂow  in  the  load  circuit  even  after  the  reversal  of  the  supply  voltage,  as  shown  in  Fig.  30.9(b).  If  there  is  no
+, the load current is discontinuous. A freewheeling diode is connected across the load to
+freewheeling diode 
+turn off the SCR as soon as the input voltage polarity reverses, as shown in Fig. 30.9(c). When the SCR is off,
+the load current will freewheel through the diode. The power ﬂows from the input to the load only when the
+SCR is conducting. If there is no freewheeling diode, during the negative portion of the supply voltage, SCR
+returns  the  energy  stored  in  the  load  inductance  to  the  supply.  The  freewheeling  diode  improves  the  input
+power factor.

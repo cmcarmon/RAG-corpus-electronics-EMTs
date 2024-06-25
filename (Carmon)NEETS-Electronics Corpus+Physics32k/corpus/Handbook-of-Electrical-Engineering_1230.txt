@@ -1,0 +1,10 @@
+Positive-Semideﬁnite Matrices
+Positive-semideﬁnite matrices frequently arise in applications related to random and deterministic time series.
+For example, if x ˛  C n is a vector whose components are random variables, it is well known that the associated
+n ·  n correlation matrix as deﬁned by Rxx =  E{xx*} is positive-semideﬁnite Hermitian, where E designates the
+expected value operator. Similarly, orthogonal projection matrices are often used to describe vector subspaces
+that identify signals present in empirical data. An orthogonal projection matrix is a positive-semideﬁnite matrix
+which has the additional requirements of being idempotent (i.e., A2 = A) and Hermitian (i.e., A* = A). It is
+well known that the eigenvalues associated with an orthogonal projection matrix are exclusively equal to zero
+and  one.  With  these  examples  serving  as  motivation,  we  shall  now  examine  some  of  the  salient  algebraic
+characteristics of positive-semideﬁnite matrices.

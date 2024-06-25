@@ -1,0 +1,14 @@
+Solution:
+Using  Schematics,  we  draw  the  circuit  in  Fig.  5.6(a)  as  shown  in
+Fig. 5.35. Notice that the positive terminal of the voltage source vs is
+connected to the inverting terminal (pin 2) via the 10-k⍀ resistor, while
+the noninverting terminal (pin 3) is grounded as required in Fig. 5.6(a).
+Also,  notice  how  the  op  amp  is  powered;  the  positive  power  supply
+terminal V⫹ (pin  7)  is  connected  to  a  15-V dc  voltage  source,  while
+the negative power supply terminal V⫺ (pin 4) is connected to ⫺15 V.
+Pins  1  and  5  are  left  ﬂoating  because  they  are  used  for  offset  null
+adjustment, which does not concern us in this chapter. Besides adding
+the dc power supplies to the original circuit in Fig. 5.6(a), we have also
+added  pseudocomponents  VIEWPOINT and  IPROBE  to  respectively
+measure  the  output  voltage  vo at  pin  6  and  the  required  current  i
+through the 20-k⍀ resistor.

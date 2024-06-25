@@ -1,0 +1,268 @@
+For a closed system (a system from which no matter can enter or exit), one version of the first law of thermodynamics states that the change in internal energy ΔU of the system is equal to the amount of heat Q supplied to the system minus the amount of work W done by system on its surroundings. The foregoing sign convention for work is used in the present article, but an alternate sign convention, followed by IUPAC, for work, is to consider the work performed on the system by its surroundings as positive. This is the convention adopted by many modern textbooks of physical chemistry, such as those by Peter Atkins and Ira Levine, but many textbooks on physics define work as work done by the system.
+
+
+
+
+Δ
+U
+=
+Q
+−
+W
+
+.
+
+
+{\displaystyle \Delta U=Q-W\,.}
+
+This formula can be re-written so as to express a definition of quantity of energy transferred as heat, based purely on the concept of adiabatic work, if it is supposed that ΔU is defined and measured solely by processes of adiabatic work:
+
+
+
+
+Q
+=
+Δ
+U
++
+W
+.
+
+
+{\displaystyle Q=\Delta U+W.}
+
+The work done by the system includes boundary work (when the system increases its volume against an external force, such as that exerted by a piston) and other work (e.g. shaft work performed by a compressor fan), which is called isochoric work:
+
+
+
+
+Q
+=
+Δ
+U
++
+
+W
+
+boundary
+
+
++
+
+W
+
+isochoric
+
+
+.
+
+
+{\displaystyle Q=\Delta U+W_{\text{boundary}}+W_{\text{isochoric}}.}
+
+In this Section we will neglect the "other-" or isochoric work contribution.
+The internal energy, U, is a state function. In cyclical processes, such as the operation of a heat engine, state functions of the working substance return to their initial values upon completion of a cycle.
+The differential, or infinitesimal increment, for the internal energy in an infinitesimal process is an exact differential dU. The symbol for exact differentials is the lowercase letter d.
+In contrast, neither of the infinitesimal increments δQ nor δW in an infinitesimal process represents the state of the system. Thus, infinitesimal increments of heat and work are inexact differentials. The lowercase Greek letter delta, δ, is the symbol for inexact differentials. The integral of any inexact differential over the time it takes for a system to leave and return to the same thermodynamic state does not necessarily equal zero.
+As recounted below, in the section headed Entropy, the second law of thermodynamics observes that if heat is supplied to a system in which no irreversible processes take place and which has a well-defined temperature T, the increment of heat δQ and the temperature T form the exact differential
+
+
+
+
+
+d
+
+S
+=
+
+
+
+δ
+Q
+
+T
+
+
+,
+
+
+{\displaystyle \mathrm {d} S={\frac {\delta Q}{T}},}
+
+and that S, the entropy of the working body, is a function of state. Likewise, with a well-defined pressure, P, behind the moving boundary, the work differential, δW, and the pressure, P, combine to form the exact differential
+
+
+
+
+
+d
+
+V
+=
+
+
+
+δ
+W
+
+P
+
+
+,
+
+
+{\displaystyle \mathrm {d} V={\frac {\delta W}{P}},}
+
+with V the volume of the system, which is a state variable. In general, for homogeneous systems,
+
+
+
+
+
+d
+
+U
+=
+T
+
+d
+
+S
+−
+P
+
+d
+
+V
+.
+
+
+{\displaystyle \mathrm {d} U=T\mathrm {d} S-P\mathrm {d} V.}
+
+Associated with this differential equation is that the internal energy may be considered to be a function U (S,V) of its natural variables S and V. The internal energy representation of the fundamental thermodynamic relation is written
+
+
+
+
+U
+=
+U
+(
+S
+,
+V
+)
+.
+
+
+{\displaystyle U=U(S,V).}
+
+If V is constant
+
+
+
+
+T
+
+d
+
+S
+=
+
+d
+
+U
+
+
+
+
+
+
+
+
+
+
+
+
+(
+V
+
+
+
+constant)
+
+
+
+{\displaystyle T\mathrm {d} S=\mathrm {d} U\,\,\,\,\,\,\,\,\,\,\,\,(V\,\,{\text{constant)}}}
+
+and if P is constant
+
+
+
+
+T
+
+d
+
+S
+=
+
+d
+
+H
+
+
+
+
+
+
+
+
+
+
+
+
+(
+P
+
+
+
+constant)
+
+
+
+{\displaystyle T\mathrm {d} S=\mathrm {d} H\,\,\,\,\,\,\,\,\,\,\,\,(P\,\,{\text{constant)}}}
+
+with H the enthalpy defined by
+
+
+
+
+H
+=
+U
++
+P
+V
+.
+
+
+{\displaystyle H=U+PV.}
+
+The enthalpy may be considered to be a function H (S,P) of its natural variables S and P. The enthalpy representation of the fundamental thermodynamic relation is written
+
+
+
+
+H
+=
+H
+(
+S
+,
+P
+)
+.
+
+
+{\displaystyle H=H(S,P).}
+
+The internal energy representation and the enthalpy representation are partial Legendre transforms of one another. They contain the same physical information, written in different ways. Like the internal energy, the enthalpy stated as a function of its natural variables is a thermodynamic potential and contains all thermodynamic information about a body.

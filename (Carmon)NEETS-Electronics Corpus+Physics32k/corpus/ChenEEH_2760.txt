@@ -1,0 +1,19 @@
+Examples of Calculations of Pulse Propagation
+in a One-Dimensional Grid
+Figure 9.7(A) graphs examples of the calculated propagation of
+a 40-cell-wide rectangular pulse in free space for two cases of
+the Courant factor: S ¼ 1 (i.e., Dt is equal to the value for
+dispersionless propagation in a one-dimensional grid) and
+S ¼ 0:99. To permit a direct comparison of these results,
+both ‘‘snapshots’’ are taken at the same absolute time after
+the onset of time-stepping. There are three key observations:
+1. When S ¼ 1, the rectangular shape and spatial width of
+the pulse are completely preserved. For this case, the
+abrupt step discontinuities of the propagating pulse are
+modeled perfectly. In fact, this is expected since ~vvp  c
+for all numerical modes in the grid.
+2. When S ¼ 0:99, there is appreciable ‘‘ringing’’ located
+behind the leading and trailing edges of the pulse. This
+is due to short-wavelength numerical modes in the grid
+generated at the step discontinuities of the wave. These
+numerical modes are poorly sampled in space and,

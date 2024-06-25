@@ -1,0 +1,8 @@
+programmers’ interface.
+Sometimes this is termed an 
+ or API. System calls provide the mechanism for an
+application program to obtain services from the system. System calls exist to perform ﬁle operations such as
+create, open, close, read, 
+ For terminals, system calls would perform such functions as changing the
+baud rate and number of parity bits. Network connections may be established or network protocol options,
+such as the size of network buffers, are also controlled through system calls.

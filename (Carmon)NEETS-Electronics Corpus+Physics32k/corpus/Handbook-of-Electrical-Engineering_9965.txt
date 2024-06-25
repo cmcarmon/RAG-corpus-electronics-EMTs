@@ -1,0 +1,11 @@
+Single-Loop Linear Control Laws
+Consider the case where a single variable of the process is to be controlled, as illustrated in Fig. 100.38. The
+output of the plant y(t) is to be sampled every T seconds by an A/D converter, and this sequence of numbers
+will be denoted as y(kT), k = 0, 1, 2, . . . . The goal is to make the sequence y(kT) follow some desired known
+sequence [the reference sequence r(kT)]. Consequently, the sequence y(kT) is subtracted from r(kT) to obtain
+the so-called error sequence e(kT). The control computer then acts on the error sequence, using some control
+algorithms, to produce the control effort sequence u(kT) that is supplied to the digital-to-analog (D/A) converter
+which then drives the actuating hardware with a signal proportional to u(kT). The output of the D/A converter
+is then held constant on the current time interval, and the control computer waits for the next sample of the
+variable  to  be  controlled,  the  arrival  of  which  repeats  the  sequence.  The  most  commonly  employed  control
+algorithm or control law is a linear difference equation of the form

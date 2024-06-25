@@ -1,0 +1,102 @@
+This coefficient is not very different in form from the Jaccard index. In fact, both are equivalent in the sense that given a value for the Sørensen–Dice coefficient
+
+
+
+S
+
+
+{\displaystyle S}
+, one can calculate the respective Jaccard index value
+
+
+
+J
+
+
+{\displaystyle J}
+and vice versa, using the equations
+
+
+
+J
+=
+S
+
+/
+
+(
+2
+−
+S
+)
+
+
+{\displaystyle J=S/(2-S)}
+and
+
+
+
+S
+=
+2
+J
+
+/
+
+(
+1
++
+J
+)
+
+
+{\displaystyle S=2J/(1+J)}
+.
+Since the Sørensen–Dice coefficient doesn't satisfy the triangle inequality, it can be considered a semimetric version of the Jaccard index.
+The function ranges between zero and one, like Jaccard. Unlike Jaccard, the corresponding difference function
+
+
+
+
+d
+=
+1
+−
+
+
+
+2
+
+|
+
+X
+∩
+Y
+
+|
+
+
+
+
+|
+
+X
+
+|
+
++
+
+|
+
+Y
+
+|
+
+
+
+
+
+
+{\displaystyle d=1-{\frac {2|X\cap Y|}{|X|+|Y|}}}
+
+is not a proper distance metric as it does not possess the property of triangle inequality. The simplest counterexample of this is given by the three sets {a}, {b}, and {a,b}, the distance between the first two being 1, and the difference between the third and each of the others being one-third. To satisfy the triangle inequality, the sum of any two of these three sides must be greater than or equal to the remaining side. However, the distance between {a} and {a,b} plus the distance between {b} and {a,b} equals 2/3 and is therefore less than the distance between {a} and {b} which is 1.

@@ -1,0 +1,8 @@
+The DFT computes the Fourier transform at a ﬁnite set of frequencies — samples the true spectrum —
+which can lead to aliasing in the time-domain unless we sample suﬃciently fast. The sampling interval here
+is 1
+for a length-K DFT: faster sampling to avoid aliasing thus requires a longer transform calculation.
+K
+Since the longest signal among the input, unit-sample response and output is the output, it is that signal’s
+duration that determines the transform length. We simply extend the other two signals with zeros (zero-pad)
+to compute their DFTs.

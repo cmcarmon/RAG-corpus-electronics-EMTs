@@ -1,0 +1,25 @@
+To tackle the complexity of ﬁnding a custom memory organ-
+ization, a methodological approach is called for. Only few tech-
+niques for allocation and assignment of background memories
+have been proposed as opposed to the abundance of work on the
+scalar level (Stok, 1994; Pavlin and Knight, 1989; Verhaegh,
+1995). As usual, when resources (memories) have to be used
+under timing constraints, there is a phase coupling problem
+between the scheduling of the resource and the allocation of it.
+Some techniques start from a given schedule (Lippens et al.,
+1993). Others optimize the scheduling itself (Passos and Sha,
+1995; Verhaegh, 1995), minimizing the parallelism of memory
+accesses. Still another technique bases the memory allocation on
+a bandwidth requirement estimation step (Balasa et al., 1994).
+In this discussion, we present an approach in two steps
+(Catthoor et al., 1998; Slock et al., 1997; Vandecappelle et al.,
+1999). First, there is the storage cycle budget distribution
+(SCBD) step that does a partial ordering of the application’s
+memory accesses. The ordering is driven by a cost function
+based on the nature of the conﬂicts that are created to leave as
+much freedom as possible for the next step. In the memory
+allocation and assignment (MAA) step, the memory architec-
+ture is deﬁned by allocating memories and assigning arrays to
+them. To connect the two steps by propagating constraints
+from SCBD to MAA, we have developed the model of an
+(extended) conﬂict graph.

@@ -1,0 +1,11 @@
+The performance measure for speech enhancement is task dependent. For signal estimation and coding, this
+measure is given in terms of a distortion measure between the clean signal and the estimated or the encoded
+signals, respectively. For signal classiﬁcation applications the performance measure is normally the probability
+of misclassiﬁcation. Commonly used distortion measures are the mean-squared error (MSE) and the Itakura-
+Saito  distortion  measures.  The  Itakura-Saito  distortion  measure  is  a  measure  between  two  power  spectral
+densities, of which one is usually that of the clean signal and the other of a model for that signal [Gersho and
+Gray, 1991]. This distortion measure is normally used in designing speech coding systems and it is believed to
+be perceptually meaningful. Both measures are mathematically tractable and lead to intuitive estimation and
+coding  schemes.  Systems  designed  using  these  two  measures  need  not  be  optimal  only  in  the  MSE  and  the
+Itakura-Saito  sense,  but  they  may  as  well  be  optimal  in  other  more  meaningful  senses  (see  a  discussion  in
+Ephraim [1992]).

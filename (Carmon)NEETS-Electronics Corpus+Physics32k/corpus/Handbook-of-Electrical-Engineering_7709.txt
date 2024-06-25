@@ -1,0 +1,5 @@
+execution  environment  of  a  channel  program,  similar  to  a  process  on  a  conventional  CPU.  Formerly,  a
+subchannel was statically assigned for execution to a particular channel, but a major innovation in high-end
+IBM systems (308X and 3090) allows subchannels to be dynamically switched among channel paths. This is
+like  allocating  a  process  to  a  new  processor  within  a  multiprocessor  system  every  time  it  is  rescheduled  for
+execution.

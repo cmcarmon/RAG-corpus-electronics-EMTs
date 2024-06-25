@@ -1,0 +1,3 @@
+where  Gc(s)  is  the  compensator  transfer  function,  Gp(s)  is  the  plant  transfer  function,  and  H(s)  is  the  sensor
+transfer  function.  The  transfer  function  from  the  disturbance  input  D(s)  to  the  output  is  Gd(s)/[1  +
+Gc(s)Gp(s)H(s)]. The function Gc(s)Gp(s)H(s) is called the open-loop function.

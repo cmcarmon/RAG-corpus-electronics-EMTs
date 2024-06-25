@@ -1,0 +1,216 @@
+The first general equation of motion developed was Newton's second law of motion, in its most general form states the rate of change of momentum p = p(t) = mv(t) of an object equals the force F = F(x(t), v(t), t) acting on it,
+
+
+
+
+
+F
+
+=
+
+
+
+d
+
+p
+
+
+
+d
+t
+
+
+
+
+
+{\displaystyle \mathbf {F} ={\frac {d\mathbf {p} }{dt}}}
+
+The force in the equation is not the force the object exerts. Replacing momentum by mass times velocity, the law is also written more famously as
+
+
+
+
+
+F
+
+=
+m
+
+a
+
+
+
+{\displaystyle \mathbf {F} =m\mathbf {a} }
+
+since m is a constant in Newtonian mechanics.
+Newton's second law applies to point-like particles, and to all points in a rigid body. They also apply to each point in a mass continua, like deformable solids or fluids, but the motion of the system must be accounted for, see material derivative. In the case the mass is not constant, it is not sufficient to use the product rule for the time derivative on the mass and velocity, and Newton's second law requires some modification consistent with conservation of momentum, see variable-mass system.
+It may be simple to write down the equations of motion in vector form using Newton's laws of motion, but the components may vary in complicated ways with spatial coordinates and time, and solving them is not easy. Often there is an excess of variables to solve for the problem completely, so Newton's laws are not always the most efficient way to determine the motion of a system. In simple cases of rectangular geometry, Newton's laws work fine in Cartesian coordinates, but in other coordinate systems can become dramatically complex.
+The momentum form is preferable since this is readily generalized to more complex systems, generalizes to special and general relativity (see four-momentum). It can also be used with the momentum conservation. However, Newton's laws are not more fundamental than momentum conservation, because Newton's laws are merely consistent with the fact that zero resultant force acting on an object implies constant momentum, while a resultant force implies the momentum is not constant. Momentum conservation is always true for an isolated system not subject to resultant forces.
+For a number of particles (see many body problem), the equation of motion for one particle i influenced by other particles is
+
+
+
+
+
+
+
+d
+
+
+p
+
+
+i
+
+
+
+
+d
+t
+
+
+
+=
+
+
+F
+
+
+E
+
+
++
+
+∑
+
+i
+≠
+j
+
+
+
+
+F
+
+
+i
+j
+
+
+
+
+
+
+{\displaystyle {\frac {d\mathbf {p} _{i}}{dt}}=\mathbf {F} _{E}+\sum _{i\neq j}\mathbf {F} _{ij}\,\!}
+
+where pi is the momentum of particle i, Fij is the force on particle i by particle j, and FE is the resultant external force due to any agent not part of system. Particle i does not exert a force on itself.
+Euler's laws of motion are similar to Newton's laws, but they are applied specifically to the motion of rigid bodies. The Newton–Euler equations combine the forces and torques acting on a rigid body into a single equation.
+Newton's second law for rotation takes a similar form to the translational case,
+
+
+
+
+
+τ
+
+=
+
+
+
+d
+
+L
+
+
+
+d
+t
+
+
+
+
+,
+
+
+{\displaystyle {\boldsymbol {\tau }}={\frac {d\mathbf {L} }{dt}}\,,}
+
+by equating the torque acting on the body to the rate of change of its angular momentum L. Analogous to mass times acceleration, the moment of inertia tensor I depends on the distribution of mass about the axis of rotation, and the angular acceleration is the rate of change of angular velocity,
+
+
+
+
+
+τ
+
+=
+
+I
+
+⋅
+
+α
+
+.
+
+
+{\displaystyle {\boldsymbol {\tau }}=\mathbf {I} \cdot {\boldsymbol {\alpha }}.}
+
+Again, these equations apply to point like particles, or at each point of a rigid body.
+Likewise, for a number of particles, the equation of motion for one particle i is
+
+
+
+
+
+
+
+d
+
+
+L
+
+
+i
+
+
+
+
+d
+t
+
+
+
+=
+
+
+τ
+
+
+E
+
+
++
+
+∑
+
+i
+≠
+j
+
+
+
+
+τ
+
+
+i
+j
+
+
+
+,
+
+
+{\displaystyle {\frac {d\mathbf {L} _{i}}{dt}}={\boldsymbol {\tau }}_{E}+\sum _{i\neq j}{\boldsymbol {\tau }}_{ij}\,,}
+
+where Li is the angular momentum of particle i, τij the torque on particle i by particle j, and τE is resultant external torque (due to any agent not part of system). Particle i does not exert a torque on itself.

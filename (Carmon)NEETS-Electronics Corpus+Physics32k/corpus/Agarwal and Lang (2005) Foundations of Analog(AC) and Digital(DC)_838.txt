@@ -1,0 +1,7 @@
+Output voltage levels are generally stricter than input voltage levels (higher
+than the corresponding input high and lower than the corresponding input low)
+to provide for noise margins. Figure 6.26 illustrates the asymmetry between
+inputs and outputs. At the input of the gate, any voltage level lower than VIL
+is recognized as a valid low, and any voltage higher than VIH is a valid high. At
+its output, the gate guarantees to produce a voltage level higher than VOH for
+a valid high, and a voltage level lower than VOL for a valid low.

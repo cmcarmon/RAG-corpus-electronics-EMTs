@@ -1,0 +1,79 @@
+In this system heat is transferred from a vertical plate to a fluid moving parallel to it by natural convection. This will occur in any system wherein the density of the moving fluid varies with position. These phenomena will only be of significance when the moving fluid is minimally affected by forced convection.
+When considering the flow of fluid is a result of heating, the following correlations can be used, assuming the fluid is an ideal diatomic, has adjacent to a vertical plate at constant temperature and the flow of the fluid is completely laminar.
+Num = 0.478(Gr0.25)
+Mean Nusselt Number = Num = hmL/k
+Where
+hm = mean coefficient applicable between the lower edge of the plate and any point in a distance L (W/m2. K)
+L = height of the vertical surface (m)
+k = thermal conductivity (W/m. K)
+Grashof Number = Gr =
+
+
+
+[
+g
+
+L
+
+3
+
+
+(
+
+t
+
+s
+
+
+−
+
+t
+
+∞
+
+
+)
+]
+
+/
+
+
+v
+
+2
+
+
+T
+
+
+{\displaystyle [gL^{3}(t_{s}-t_{\infty })]/v^{2}T}
+
+Where
+g = gravitational acceleration (m/s2)
+L = distance above the lower edge (m)
+ts = temperature of the wall (K)
+t∞ = fluid temperature outside the thermal boundary layer (K)
+v = kinematic viscosity of the fluid (m²/s)
+T = absolute temperature (K)
+When the flow is turbulent different correlations involving the Rayleigh Number (a function of both the Grashof Number and the Prandtl Number) must be used.
+Note that the above equation differs from the usual expression for Grashof number because the value
+
+
+
+β
+
+
+{\displaystyle \beta }
+has been replaced by its approximation
+
+
+
+1
+
+/
+
+T
+
+
+{\displaystyle 1/T}
+, which applies for ideal gases only (a reasonable approximation for air at ambient pressure).

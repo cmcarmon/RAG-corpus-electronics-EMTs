@@ -1,0 +1,12 @@
+Sample-and-hold systems are primarily used to maintain a constant magnitude representing the input, across
+sample-and-hold
+the input of the ADC throughout a precisely known period of time. Such systems are called 
+ampliﬁers
+ (SHA), and their characteristics are crucial to the overall system accuracy and reliability of digital
+–
+(1/2)LSB
+data. The SHA is not an essential item in applications where the analog input does not vary more than 
+of voltage. As the name indicates, a SHA operates in two different modes, which are digitally controlled. In the
+sampling  mode  it  acts  as  an  input  voltage  follower,  where,  once  it  is  triggered  into  its  hold  mode,  it  should
+ideally retain the signal voltage level at the time of the trigger. When it is brought back into the sampling mode,
+it instantly assumes the voltage level at the input.

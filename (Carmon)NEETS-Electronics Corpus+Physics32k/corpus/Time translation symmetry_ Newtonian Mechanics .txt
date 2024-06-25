@@ -1,0 +1,143 @@
+To formally describe time translation symmetry we say the equations, or laws, that describe a system at times
+
+
+
+t
+
+
+{\displaystyle t}
+and
+
+
+
+t
++
+τ
+
+
+{\displaystyle t+\tau }
+are the same for any value of
+
+
+
+t
+
+
+{\displaystyle t}
+and
+
+
+
+τ
+
+
+{\displaystyle \tau }
+.
+For example, considering Newton’s equation:
+
+
+
+
+m
+
+
+
+x
+¨
+
+
+
+=
+−
+
+
+
+d
+V
+
+
+d
+x
+
+
+
+(
+x
+)
+
+
+{\displaystyle m{\ddot {x}}=-{\frac {dV}{dx}}(x)}
+
+One finds for its solutions
+
+
+
+x
+=
+x
+(
+t
+)
+
+
+{\displaystyle x=x(t)}
+the combination:
+
+
+
+
+
+
+1
+2
+
+
+m
+
+
+
+x
+˙
+
+
+
+(
+t
+
+)
+
+2
+
+
++
+V
+(
+x
+(
+t
+)
+)
+
+
+{\displaystyle {\frac {1}{2}}m{\dot {x}}(t)^{2}+V(x(t))}
+
+does not depend on the variable
+
+
+
+t
+
+
+{\displaystyle t}
+. Of course, this quantity describes the total energy whose conservation is due to the time translation invariance of the equation of motion. By studying the composition of symmetry transformations, e.g. of geometric objects, one reaches the conclusion that they form a group and, more specifically, a Lie transformation group if one considers continuous, finite symmetry transformations. Different symmetries form different groups with different geometries. Time independent Hamiltonian systems form a group of time translations that is described by the non-compact, abelian, Lie group
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+. TTS is therefore a dynamical or Hamiltonian dependent symmetry rather than a kinematical symmetry which would be the same for the entire set of Hamiltonians at issue. Other examples can be seen in the study of time evolution equations of classical and quantum physics.
+Many differential equations describing time evolution equations are expressions of invariants associated to some Lie group and the theory of these groups provides a unifying viewpoint for the study of all special functions and all their properties. In fact, Sophus Lie invented the theory of Lie groups when studying the symmetries of differential equations. The integration of a (partial) differential equation by the method of separation of variables or by Lie algebraic methods is intimately connected with the existence of symmetries. For example, the exact solubility of the Schrodinger equation in quantum mechanics can be traced back to the underlying invariances. In the latter case, the investigation of symmetries allows for an interpretation of the degeneracies, where different configurations to have the same energy, which generally occur in the energy spectrum of quantum systems. Continuous symmetries in physics are often formulated in terms of infinitesimal rather than finite transformations, i.e. one considers the Lie algebra rather than the Lie group of transformations

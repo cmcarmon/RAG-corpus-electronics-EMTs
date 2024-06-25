@@ -1,0 +1,3 @@
+Before the parity bit is added, the original incoming data is compressed in time. This is done so that
+when the parity bit is added, the eight-bit data word takes up the same amount of time as the original-
+seven bit data word. When the tape is reproduced, the parity bit is taken out.

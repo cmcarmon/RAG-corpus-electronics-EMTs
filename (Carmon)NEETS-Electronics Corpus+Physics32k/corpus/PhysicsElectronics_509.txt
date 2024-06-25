@@ -1,0 +1,6 @@
+For small input signals it is often desirable to retain the large voltage gain of the basic CE
+ampliﬁer even though an emitter resistor is used for DC stability. This can be done if a large
+capacitor CE is used to bypass the AC signal around the emitter resistor. CE shorts out the
+emitter bias resistor RE for AC signals. The magnitude of the resulting transfer function is
+similar to a high-pass ﬁlter, with RE setting the gain (A = RC/RE) at low frequencies and
+the capacitor maximizing the gain (A = hf eRC/hie) at high frequencies.

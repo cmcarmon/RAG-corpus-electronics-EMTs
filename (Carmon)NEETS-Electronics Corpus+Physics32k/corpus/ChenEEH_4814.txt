@@ -1,0 +1,24 @@
+As computers have become faster and as communication
+networks have become more efﬁcient in the ﬂow of informa-
+tion, the practice of providing speed through tight coupling of
+control system software modules has become less necessary.
+Replacing the need for speed is the need for ease of system
+integration and system evolution. A very desirable feature is
+plug and play, which refers to ready interchangeability of
+modules and system reconﬁguration with minimal software
+or protocol changes. For example, as new sensors become
+available, it would be nice to pull out the old sensors and put
+in the new sensors with drivers that are ‘‘plug and play’’ with
+the rest of the system. Also, for the sake of adaptability, it
+would be helpful to have run-time reconﬁguration of the
+software (such as updating or changing algorithms online in
+real-time). Another desirable feature would be interoperabil-
+ity among different processor platforms and different lan-
+guages. For example, suppose a processor embedded in an
+application is running one type of operating system and a
+desktop computer attached to the system is running on an-
+other operating system. Data transfer between these two
+systems is not trivial; for example, the memory byte ordering
+is different between Windows-based platforms and Unix plat-
+forms, and word-size differences on 32-bit versus 64-bit pro-
+cessor architectures cause incompatibilities.

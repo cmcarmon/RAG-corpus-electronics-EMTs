@@ -1,0 +1,6 @@
+BSIM Extraction Strategy in Detail
+All MOS model strategies have basic features in common; namely, ﬁt the linear region at zero back-bias to get
+the  basic  zero-order  parameters,  ﬁt  the  linear  region  at  nonzero  back-bias,  ﬁt  the  saturation  region  at  zero
+back-bias, ﬁt the saturation region at nonzero back-bias, and then ﬁt the subthreshold region. It is possible to
+extend the type of strategy we covered for level 3 to the BSIM model, but that is not the way BSIM was intended
+to be used.

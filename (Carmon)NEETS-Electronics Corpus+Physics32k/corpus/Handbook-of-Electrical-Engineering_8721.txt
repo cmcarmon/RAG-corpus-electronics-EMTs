@@ -1,0 +1,4 @@
+The type statement is an abstraction that deﬁnes a template and access mechanism for the variables A, B,
+and C that are to be created on-the-ﬂy. The var statement is similar to the DIMENSION statement in that it
+tells the translator to allocate space for three pointers: Aptr, Bptr, and Cptr. Each of these allocations will point
+to the actual values of A, B, and C according to the previous type statement.

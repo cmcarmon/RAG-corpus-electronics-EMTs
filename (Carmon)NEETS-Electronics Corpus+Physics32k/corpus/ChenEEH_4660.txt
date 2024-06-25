@@ -1,0 +1,18 @@
+In this section, we describe an extension of an idea that ﬁrst
+appeared in Fiagbedzi and Pearson (1986, 1987) for transform-
+ing delayed systems. Dividing the unstable poles of the delayed
+system with a given stability margin into N sets, where each set
+contains n unstable poles, N characteristic matrices can be
+found that inherit the nN unstable poles. A linear transfor-
+mation can then be applied to convert the original delayed
+system to a delay-free system with the state matrix being the
+direct sum of the N characteristic matrices. The novelty of the
+approach described here is in showing that SMC can then be
+designed based on the delay-free system, and asymptotic sta-
+bility can be shown for both delay-free and delayed systems
+on certain sliding surfaces. The reaching condition is proved in
+the case of bounded and matched external disturbance, and
+the sliding surface is chosen by the means of a Lyapunov
+function. It should be noted that the sliding surface is a
+function of previous system states and controls and has intui-
+tive appeal for time-delay systems.

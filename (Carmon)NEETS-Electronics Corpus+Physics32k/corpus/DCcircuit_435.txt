@@ -1,0 +1,7 @@
+SPICE tells us that the voltage ”at” node number 1 (actually, this means the voltage be-
+tween nodes 1 and 0, node 0 being the default reference point for all voltage measurements) is
+equal to 24 volts. The current through battery ”v1” is displayed as -4.800E+00 amps. This is
+SPICE’s method of denoting scientiﬁc notation. What its really saying is ”-4.800 x 100 amps,”
+or simply -4.800 amps. The negative value for current here is due to a quirk in SPICE and does
+not indicate anything signiﬁcant about the circuit itself. The ”total power dissipation” is given
+to us as 1.15E+02 watts, which means ”1.15 x 102 watts,” or 115 watts.

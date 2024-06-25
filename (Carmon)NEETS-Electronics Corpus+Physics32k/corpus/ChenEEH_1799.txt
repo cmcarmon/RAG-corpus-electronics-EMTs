@@ -1,0 +1,6 @@
+Token bucket algorithm (Tanenbaum, 1996) is almost
+always used for trafﬁc shaping. Token bucket is synonymous
+to a bucket with depth b, in which tokens are collected at a rate
+r. When the bucket becomes full, extra tokens are lost. A source
+can send data only if it can grab and destroy sufﬁcient tokens
+from the bucket.

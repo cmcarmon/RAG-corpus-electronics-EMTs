@@ -1,0 +1,7 @@
+A key concept in all operating systems is the process. A process
+is basically a program in execution. It consists of the executable
+programs; the program’s data and stack; its program counter,
+stack pointer, and other registers; and all the other information
+needed to run the program. In a time-sharing system, the
+operating system periodically decides to stop running one
+process and starts running another.

@@ -1,0 +1,24 @@
+was developed applies to other uses of the model. For large
+vocabulary systems, it is necessary to use HMMs to model
+sub-word acoustic units (e.g., phones or phonemes) since
+appropriate training of thousands of isolated-word models is
+prohibitive. Regardless of whether we view speech as con-
+structed of phones or words (or some other acoustic unit),
+the structure of human language is, of course, much more
+complex than that conveyed by isolated acoustic units.
+A major part of the information in the speech code is conveyed
+by the way in which the units are ordered. Still more infor-
+mation is carried in other acoustic cues such as intonation,
+nonspeech cues like hand gestures and facial expressions, and
+in abstract notions like the physical environment of the con-
+versation or the meaning of a phrase in the context of the
+overall message. Generally speaking, a set of rules by which
+fundamental acoustic units of speech ultimately become com-
+plete utterances is called a language model (LM). From the
+earliest efforts to do large vocabulary speech recognition, it has
+been clear to researchers that a good LM is critical to a
+successful performance (Lowerre and Reddy, 1980). For large
+vocabulary systems, acoustic processing will almost never pro-
+vide satisfactory recognition as a stand-alone technology. LMs
+have been a very active area of research on speech processing
+for many years.

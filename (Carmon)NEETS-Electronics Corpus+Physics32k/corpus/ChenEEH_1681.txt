@@ -1,0 +1,34 @@
+Relevance Feedback
+The problem of content-based image retrieval is different than
+the conventional computer vision-based pattern recognition
+task. The fundamental difference between the two is that in
+the latter, we are looking for exact match for the object to be
+searched with as small and as accurate a retrieved list as
+possible. But in the former, the goal is to extract as many
+‘‘similar’’ objects as possible, the notion of similarity being
+very loose as compared to the notion of exact match. Moreover,
+the human user is the indispensable part in the former. Early
+literature and CBIR systems emphasized fully automatic oper-
+ation. This approach did not take into account the fact that the
+ultimate end user of the CBIR system is human, and the image
+is inherently a subjective medium (i.e., the perception of image
+content is very subjective, and the same content can be inter-
+preted differently by users having different search criteria). This
+human perception subjectivity has different levels to it: one
+user might be more interested in a different dominant feature
+of the image than the other, or two users might be interested in
+the same feature (e.g., texture), but the perception of a speciﬁc
+texture might be different for the two users. Recent drive is
+oriented more toward how humans perceive image content and
+how to integrate such a ‘‘human model’’ into the image re-
+trieval systems. Rui et al. (1998) have reported a formal model
+of a CBIR system with relevance feedback integrated into it.
+They ﬁrst initialized a retrieval system with uniformly distrib-
+uted weights for each feature. Then user’s information need is
+distributed among all the features. The similarity is then com-
+puted on the basis of weights by user’s input, and retrieval
+results are displayed to the user. The user marks each retrieved
+result as highly relevant, relevant, no-opinion, irrelevant, and
+highly irrelevant according to his or her information needs
+and perception subjectivity. The system updates its weights and
+goes back into the loop.

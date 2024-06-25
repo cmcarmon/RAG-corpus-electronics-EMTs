@@ -1,0 +1,4 @@
+Figure 72.8 shows an example of how an ISO/OSI host might connect to an ATM network. Below the data
+link layer is the ATM adaption layer (AAL), which provides for call control across the ATM network and for
+segmentation  and  reassembly  of  frames  from  the  data  link  layer.  The  current  estimate  for  the  amount  of
+overhead needed per cell for AAL purposes is 4 octets, leaving 44 octets for user information.

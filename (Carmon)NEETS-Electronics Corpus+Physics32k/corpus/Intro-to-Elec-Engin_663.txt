@@ -1,0 +1,10 @@
+With varying but positive base current, as seen from Figure 7.3.4(a), vBE stays nearly constant at
+the junction threshold voltage Vγ , which is about 0.7 V for a typical silicon BJT.
+The Early effect and the Early voltage −VA (whose magnitude is on the order of 50 to
+100 V) for a typical npn BJT are illustrated in Figure 7.3.5, in which the linear curves are
+extrapolated back to the vCE-axis to meet at a point −VA. The Early effect causes the nonzero
+slope and is due to the fact that increasing vBE makes the width of the depletion region of the
+CBJ larger, thereby reducing the effective width of the base. ISE in Equation (7.3.1) is inversely
+proportional to the base width; so iC increases according to Equation (7.3.2). The increase in iC
+can be accounted for by adding a factor to ISE and modifying Equation (7.3.2) such that αiE is
+replaced by αiE(1 + vCE/VA).

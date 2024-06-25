@@ -1,0 +1,11 @@
+Figure 16.3.5 illustrates the basic elements of a minicomputer system in terms of a block diagram
+for speed and voltage control (as well as data acquisition) of a turbine-generator unit. Typical
+output variables of the generator are speed, rotor angle, terminal voltage, ﬁeld (excitation) current,
+armature current, and real and reactive power. Some output variables are measured by digital
+transducers, whose outputs are then digitally multiplexed and sent back to the minicomputer.
+Some other output variables may be measured by analog transducers, whose outputs are processed
+through an analog multiplexer which performs a time-division multiplexing operation. The output
+of the analog multiplexer is connected to a sample-and-hold device, which samples the output
+of the multiplexer at a ﬁxed time interval and then holds the signal level at its output until the
+A/D converter performs the analog-to-digital conversion. Thus, following the multiplexer, time
+sharing is done amid a number of signal channels.

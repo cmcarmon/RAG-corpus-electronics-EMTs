@@ -1,0 +1,26 @@
+Further research has also been devoted to the indexing and
+retrieval of object trajectories. One such system that makes use
+of
+features extracted from objects in the video
+sequence with particular emphasis on object motion is VideoQ
+(Chang et al., 1998). Once the object trajectory has been
+extracted, modeling of this motion trail is essential for index-
+ing and retrieval applications. A trajectory in this sense is a set
+of 2-tuples {(xk, yk): k ¼ 1, . . ., N }, where (xk, yk) is the
+location of the object’s centroid in the kth frame, and the object
+has been tracked for a total of N frames. The trajectory is treated
+as separable in its x and y-coordinates, and the two are pro-
+cessed separately as 1-D signals. VideoQ models object trajec-
+tory based on physical features like acceleration, velocity, and
+arc length. In this approach, the trajectory is ﬁrst segmented
+into smaller units called subtrajectories. The motivation of this
+is two-fold. First, modeling of full object trajectories can be very
+computationally intensive. Second, there might be many sce-
+narios in which a part of the object trajectory is not available
+due to occlusion. Moreover, the user might be interested in
+certain partial movements of the objects. Physical feature-
+based modeling is used to index each subtrajectory using accel-
+eration and velocity, for example. These features are extracted
+from the original subtrajectory by ﬁtting it with a second-order
+polynomial as in the following equation:
+r(t ) ¼ (x(t ), y(t )) ¼ 0:5at 2 þ v0t ,

@@ -1,0 +1,35 @@
+To prepare a desired multi-photon quantum state for LOQC, a single-photon state is first required. Therefore, non-linear optical elements, such as single-photon generators and some optical modules, will be employed. For example, optical parametric down-conversion can be used to conditionally generate the
+
+
+
+
+|
+
+1
+⟩
+≡
+
+|
+
+1
+,
+0
+
+⟩
+
+V
+H
+
+
+
+
+{\displaystyle |1\rangle \equiv |1,0\rangle _{VH}}
+state in the vertical polarization channel at time
+
+
+
+t
+
+
+{\displaystyle t}
+(subscripts are ignored for this single qubit case). By using a conditional single-photon source, the output state is guaranteed, although this may require several attempts (depending on the success rate). A joint multi-qubit state can be prepared in a similar way. In general, an arbitrary quantum state can be generated for QIP with a proper set of photon sources.

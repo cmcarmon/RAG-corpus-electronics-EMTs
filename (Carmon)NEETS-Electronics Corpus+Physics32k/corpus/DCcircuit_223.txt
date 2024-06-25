@@ -1,0 +1,6 @@
+This line of text tells SPICE that we have a voltage source connected between nodes 1 and
+0, direct current (DC), 10 volts. That’s all the computer needs to know regarding the battery.
+Now we turn to the resistor: SPICE requires that resistors be described with a letter ”r,” the
+numbers of the two nodes (connection points), and the resistance in ohms. Since this is a
+computer simulation, there is no need to specify a power rating for the resistor. That’s one nice
+thing about ”virtual” components: they can’t be harmed by excessive voltages or currents!

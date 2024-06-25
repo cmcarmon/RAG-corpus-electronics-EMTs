@@ -1,0 +1,8 @@
+If you use a potentiometer in a circuit, bear in mind that if the wiper is dialed 
+down all the way, you have zero resistance, and you aren’t limiting current 
+with this device. It’s common practice to insert a fixed resistor in series with 
+a potentiometer as a safety net to limit current. You just choose a value for 
+the fixed resistor so it works with your variable resistor to produce the range 
+of resistance you need. (Look for details about figuring out the total resis­
+tance of multiple resistors in series in the “Combining Resistors” section, 
+later in this chapter.)

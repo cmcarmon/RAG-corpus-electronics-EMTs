@@ -1,0 +1,11 @@
+Detection mechanisms have to ﬁnd out whether the actual state
+of the system is erroneous. To this end, the original system is
+supplemented by additional components that perform checks.
+Ideal checks are based solely on the speciﬁcation and check
+the complete behavior of the system independently from the
+checked system to avoid the effects of errors to the checks
+(Lee and Anderson, 1990). The complexity of the system and
+the need of accessing the information to be checked usually
+prevents the implementation of an ideal checker. Less strict
+checks do not guarantee the absence of errors, but the results
+can still be accepted with a high probability.

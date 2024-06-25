@@ -1,0 +1,359 @@
+The situation of shooting on an incline is illustrated in Figure 4.
+
+Figure 4 illustrates both the horizontal shooting situation and the inclined shooting situation. When shooting on an incline with a rifle that has been zeroed at
+
+
+
+
+R
+
+H
+
+
+
+
+{\displaystyle R_{H}}
+, the bullet will impact along the incline as if it were zeroed at a longer range
+
+
+
+
+R
+
+S
+
+
+
+
+{\displaystyle R_{S}}
+. Observe that if the rifleman does not make a range adjustment, his rifle will appear to hit above its intended aim point. In fact, riflemen often report their rifle "shoots high" when they engage a target on an incline and they have not applied the rifleman's rule.
+Equation 6 is the exact form of the rifleman's equation. It is derived from Equation 11 in Trajectory.
+
+
+
+
+
+R
+
+S
+
+
+=
+
+R
+
+H
+
+
+
+(
+1
+−
+tan
+⁡
+(
+δ
+θ
+)
+tan
+⁡
+(
+α
+)
+)
+sec
+⁡
+(
+α
+)
+
+
+
+{\displaystyle R_{S}=R_{H}\,(1-\tan(\delta \theta )\tan(\alpha ))\sec(\alpha )\,}
+(Equation 6)
+The complete derivation of Equation 6 is given below. Equation 6 is valid for all
+
+
+
+δ
+θ
+
+
+{\displaystyle \delta \theta }
+,
+
+
+
+α
+
+
+{\displaystyle \alpha }
+, and
+
+
+
+
+R
+
+H
+
+
+
+
+{\displaystyle R_{H}}
+. For small
+
+
+
+δ
+θ
+
+
+{\displaystyle \delta \theta }
+and
+
+
+
+α
+
+
+{\displaystyle \alpha }
+, we can say that
+
+
+
+1
+−
+tan
+⁡
+(
+δ
+θ
+)
+tan
+⁡
+(
+α
+)
+≈
+1
+
+
+{\displaystyle 1-\tan(\delta \theta )\tan(\alpha )\approx 1}
+. This means we can approximate
+
+
+
+
+R
+
+S
+
+
+
+
+{\displaystyle R_{S}}
+as shown in Equation 7.
+
+
+
+
+
+R
+
+S
+
+
+≈
+
+R
+
+H
+
+
+sec
+⁡
+(
+α
+)
+
+
+
+{\displaystyle R_{S}\approx R_{H}\sec(\alpha )\,}
+(Equation 7)
+Since the
+
+
+
+sec
+⁡
+(
+α
+)
+≥
+1
+
+
+
+{\displaystyle \sec(\alpha )\geq 1\,}
+, we can see that a bullet fired up an incline with a rifle that was zeroed at
+
+
+
+
+R
+
+H
+
+
+
+
+{\displaystyle R_{H}}
+will impact the incline at a distance
+
+
+
+
+R
+
+S
+
+
+>
+
+R
+
+H
+
+
+
+
+{\displaystyle R_{S}>R_{H}}
+. If the rifleman wishes to adjust his rifle to strike a target at a distance
+
+
+
+
+R
+
+H
+
+
+
+
+{\displaystyle R_{H}}
+instead of
+
+
+
+
+R
+
+S
+
+
+
+
+{\displaystyle R_{S}}
+along an incline, he needs to adjust the bore angle of his rifle so that the bullet will strike the target at
+
+
+
+
+R
+
+H
+
+
+
+
+{\displaystyle R_{H}}
+. This requires adjusting the rifle to a horizontal zero distance setting of
+
+
+
+
+R
+
+Z
+e
+r
+o
+
+
+=
+
+R
+
+H
+
+
+cos
+⁡
+(
+α
+)
+
+
+{\displaystyle R_{Zero}=R_{H}\cos(\alpha )}
+. Equation 8 demonstrates the correctness of this assertion.
+
+
+
+
+
+R
+
+S
+
+
+=
+
+R
+
+Z
+e
+r
+o
+
+
+sec
+⁡
+(
+α
+)
+=
+
+(
+
+
+R
+
+H
+
+
+cos
+⁡
+(
+α
+)
+
+)
+
+sec
+⁡
+(
+α
+)
+=
+
+R
+
+H
+
+
+
+
+{\displaystyle R_{S}=R_{Zero}\sec(\alpha )=\left(R_{H}\cos(\alpha )\right)\sec(\alpha )=R_{H}}
+(Equation 8)
+This completes the demonstration of the rifleman's rule that is seen in routine practice. Slight variations in the rule do exist.

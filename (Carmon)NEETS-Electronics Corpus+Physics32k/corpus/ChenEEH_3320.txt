@@ -1,0 +1,12 @@
+It is a well-known property of power systems that variations
+in the bus voltage magnitudes mostly affect the reactive power
+injections under nominal operating conditions. Similarly, the
+variations in the bus voltage phase angles mostly inﬂuence the
+real power injections. By idealizing this property, we assume
+that all the Jacobian entries of the form
+are all
+identically zero. Next, if we assume that the bus voltage mag-
+nitudes are all close to one pu, and the voltage phase angle
+differences on the two ends of any transmission line are all
+close to zero, the NR algorithm greatly simpliﬁes to the fast
+decoupled algorithm stated in equation 7.58.

@@ -1,0 +1,25 @@
+Practical investigation  
+ 
+Objective 
+ 
+To 
+a  Z80 
+microprocessor  using  a  simulator  to  run  a  simple 
+assembly language program. 
+ 
+Simulator 
+Oshonsoft  Z80  Simulator  or  similar  Integrated 
+Development  Environment  (IDE).  The    Oshonsoft 
+IDE can be downloaded from www.oshonsoft.com.   
+Alternatively,  a  Z80  development  system  with 
+resident assembler and I/O ports can be used (note 
+that  port  addresses  used 
+the  Practical 
+Investigation  may  need to be  modified in order to 
+agree with those available).  
+ 
+System configuration and required operation 
+ 
+For  the  purposes  of  this  investigation  we  shall 
+assume  that  the  system  has  eight  input  switches 
+connected  to  port  address  80H  and  eight  LED 

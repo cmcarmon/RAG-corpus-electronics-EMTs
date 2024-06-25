@@ -1,0 +1,248 @@
+The basic pitot tube consists of a tube pointing directly into the fluid flow. As this tube contains fluid, a pressure can be measured; the moving fluid is brought to rest (stagnates) as there is no outlet to allow flow to continue. This pressure is the stagnation pressure of the fluid, also known as the total pressure or (particularly in aviation) the pitot pressure.
+The measured stagnation pressure cannot itself be used to determine the fluid flow velocity (airspeed in aviation). However, Bernoulli's equation states:
+Stagnation pressure = static pressure + dynamic pressure
+Which can also be written
+
+
+
+
+
+p
+
+t
+
+
+=
+
+p
+
+s
+
+
++
+
+(
+
+
+
+ρ
+
+u
+
+2
+
+
+
+2
+
+
+)
+
+
+.
+
+
+{\displaystyle p_{t}=p_{s}+\left({\frac {\rho u^{2}}{2}}\right)\,.}
+
+Solving that for flow velocity gives
+
+
+
+
+u
+=
+
+
+
+
+2
+(
+
+p
+
+t
+
+
+−
+
+p
+
+s
+
+
+)
+
+ρ
+
+
+
+
+,
+
+
+{\displaystyle u={\sqrt {\frac {2(p_{t}-p_{s})}{\rho }}}\,,}
+
+where
+
+
+
+
+u
+
+
+{\displaystyle u}
+is the flow velocity;
+
+
+
+
+
+p
+
+t
+
+
+
+
+{\displaystyle p_{t}}
+is the stagnation or total pressure;
+
+
+
+
+
+p
+
+s
+
+
+
+
+{\displaystyle p_{s}}
+is the static pressure;
+and
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+is the fluid density.
+NOTE: The above equation applies only to fluids that can be treated as incompressible. Liquids are treated as incompressible under almost all conditions. Gases under certain conditions can be approximated as incompressible. See Compressibility.
+The dynamic pressure, then, is the difference between the stagnation pressure and the static pressure. The dynamic pressure is then determined using a diaphragm inside an enclosed container. If the air on one side of the diaphragm is at the static pressure, and the other at the stagnation pressure, then the deflection of the diaphragm is proportional to the dynamic pressure.
+In aircraft, the static pressure is generally measured using the static ports on the side of the fuselage. The dynamic pressure measured can be used to determine the indicated airspeed of the aircraft. The diaphragm arrangement described above is typically contained within the airspeed indicator, which converts the dynamic pressure to an airspeed reading by means of mechanical levers.
+Instead of separate pitot and static ports, a pitot-static tube (also called a Prandtl tube) may be employed, which has a second tube coaxial with the pitot tube with holes on the sides, outside the direct airflow, to measure the static pressure.
+If a liquid column manometer is used to measure the pressure difference
+
+
+
+Δ
+p
+≡
+
+p
+
+t
+
+
+−
+
+p
+
+s
+
+
+
+
+{\displaystyle \Delta p\equiv p_{t}-p_{s}}
+,
+
+
+
+
+Δ
+h
+=
+
+
+
+Δ
+p
+
+
+
+ρ
+
+l
+
+
+g
+
+
+
+
+,
+
+
+{\displaystyle \Delta h={\frac {\Delta p}{\rho _{l}g}}\,,}
+
+where
+
+
+
+
+Δ
+h
+
+
+{\displaystyle \Delta h}
+is the height difference of the columns;
+
+
+
+
+
+ρ
+
+l
+
+
+
+
+{\displaystyle \rho _{l}}
+is the density of the liquid in the manometer;
+g is the standard acceleration due to gravity.
+Therefore,
+
+
+
+
+u
+=
+
+
+
+
+2
+
+Δ
+h
+
+
+ρ
+
+l
+
+
+g
+
+ρ
+
+
+
+
+.
+
+
+{\displaystyle u={\sqrt {\frac {2\,\Delta h\,\rho _{l}g}{\rho }}}\,.}

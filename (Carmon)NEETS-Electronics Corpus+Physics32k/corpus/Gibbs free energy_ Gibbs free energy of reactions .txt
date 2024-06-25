@@ -1,0 +1,102 @@
+The system under consideration is held at constant temperature and pressure, and is closed (no matter can come in or out). The Gibbs energy of any system is G=U+PV-TS and an infinitesimal change in G, at constant temperature and pressure yields:
+
+
+
+
+d
+G
+=
+d
+U
++
+P
+d
+V
+−
+T
+d
+S
+
+
+{\displaystyle dG=dU+PdV-TdS}
+
+By the first law of thermodynamics, a change in the internal energy U is given by
+
+
+
+
+d
+U
+=
+δ
+Q
++
+δ
+W
+
+
+{\displaystyle dU=\delta Q+\delta W}
+
+where δQ is energy added as heat, and δW is energy added as work. The work done on the system may be written as δW=-PdV+δWx, where -PdV is the mechanical work of compression/expansion done on the system and δWx is all other forms of work, which may include electrical, magnetic, etc. Assuming that only mechanical work is done,
+
+
+
+
+d
+U
+=
+δ
+Q
+−
+P
+d
+V
+
+
+{\displaystyle dU=\delta Q-PdV}
+
+and the infinitesimal change in G is:
+
+
+
+
+d
+G
+=
+δ
+Q
+−
+T
+d
+S
+
+
+{\displaystyle dG=\delta Q-TdS}
+
+The second law of thermodynamics states that for a closed system,
+
+
+
+T
+d
+S
+≥
+δ
+Q
+
+
+{\displaystyle TdS\geq \delta Q}
+, and so it follows that:
+
+
+
+
+d
+G
+≤
+0
+
+
+{\displaystyle dG\leq 0}
+
+This means that for a system which is not in equilibrium, its Gibbs energy will always be decreasing, and when it is in equilibrium (i.e. no longer changing), the infinitesimal change dG will be zero. In particular, this will be true if the system is experiencing any number of internal chemical reactions on its path to equilibrium.

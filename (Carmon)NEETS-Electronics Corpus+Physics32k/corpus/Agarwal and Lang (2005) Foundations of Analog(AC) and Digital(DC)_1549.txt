@@ -1,0 +1,11 @@
+namely vINB, to fall from VS to VL following the 0 to 1 transition at the input of INV A.
+Express your answer in terms of VS, VL, RON, CGS, the wire length l, and the wire
+model parameters. By what factor does the delay increase for a 2× increase in the wire
+length l?
+p r o b l e m 10.5
+Figure 10.99 illustrates an inverter INV A driving n other invert-
+ers INV1 through INVn. As in Problem 10.1, each of the inverters is constructed
+using a MOSFET and a resistor RL, and the inverters satisfy the static discipline with
+voltage thresholds VIL = VOL = VL and VIH = VOH = VH. Model the MOSFETs
+using the SRC model with MOSFET on resistance RON and gate capacitance CGS as in
+Problem 10.1 (see Figure 10.93.)

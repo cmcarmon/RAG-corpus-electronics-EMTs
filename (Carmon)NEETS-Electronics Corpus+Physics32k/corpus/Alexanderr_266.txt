@@ -1,0 +1,9 @@
+Table  5.2  summarizes  the  result  of  the  digital-to-analog  conversion.
+Note that we have assumed that each bit has a value of 0.125 V. Thus,
+in this system, we cannot represent a voltage between 1.000 and 1.125,
+for example. This lack of resolution is a major limitation of digital-to-
+analog conversions. For greater accuracy, a word representation with a
+greater  number  of  bits  is  required.  Even  then  a  digital  representation
+of  an  analog  voltage  is  never  exact.  In  spite  of  this  inexact  represen-
+tation,  digital  representation  has  been  used  to  accomplish  remarkable
+things such as audio CDs and digital photography.

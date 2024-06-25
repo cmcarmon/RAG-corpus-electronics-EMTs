@@ -1,0 +1,5 @@
+Furthermore, the ”loop” we trace for KVL doesn’t even have to be a real current path in the
+closed-circuit sense of the word. All we have to do to comply with KVL is to begin and end at
+the same point in the circuit, tallying voltage drops and polarities as we go between the next
+and the last point. Consider this absurd example, tracing ”loop” 2-3-6-3-2 in the same parallel
+resistor circuit:

@@ -1,0 +1,55 @@
+This is a methods which treat the free surface as a sharp interface whose motion is followed. In this method, boundary-fitted grids are used and advanced each time the free surface is moved.
+Interface tracking method is useful in situations like calculation of flow around submerged bodies. This is done by linearizing about unperturbed free surface, so a height function is introduced for the free surface elevation relative to its unperturbed state.
+
+
+
+
+Z
+=
+H
+(
+x
+,
+y
+,
+t
+)
+
+
+{\displaystyle Z=H(x,y,t)}
+
+This gives the kinematic boundary condition a new form:
+∂H/∂t = uz - ux∂H/∂x - uy∂H/∂y
+This equation can be integrated and the fluid velocity at free surface can be obtained either by extrapolation from the interior or by using dynamic boundary condition. For the calculation of flow, FV method is widely used. The steps for a fully conservative FV method of this type are:
+momentum equation is solved to obtain velocity
+
+
+
+u
+
+
+{\displaystyle u}
+
+
+
+
+i
+
+
+{\displaystyle i}
+
+
+
+
+∗
+
+
+{\displaystyle *}
+at the current free surface using specified pressure.
+Local mass conservation is enforced in each CV by solving a pressure-correction equation. Mass is conserved both globally and locally, but velocity-correction is produced at free surface giving a non-zero mass flux.
+Position of free surface is corrected to compensate for the non-zero mass flux with the volume flux due to the movement of the each free-surface cell face by enforcing the kinematic boundary conditions.
+Iterate until no further correction is needed, satisfying the continuity and momentum equations.
+Advance to the next time step.
+The main problem with the algorithm in this procedure is that there is only one equation for one cell but large number of grid nodes moving. To avoid instability and wave reflection, the method is modified as follows:
+From the previous steps, we can calculate the volume of fluid to be flowed in or out of the CV to have mass conservation. To obtain the coordinates of CV vertices at free surface, we have more unknowns and less equations due to single volumetric flow rate for each cell.
+Hence the CVs are defined by the cell face centers rather than vertices and vertices are obtained by interpolation. This gives a tridiagonal system for 2D and can be solved using TDMA method. For 3D, the system is block tridiagonal and is best solved by one of the iterative solvers.

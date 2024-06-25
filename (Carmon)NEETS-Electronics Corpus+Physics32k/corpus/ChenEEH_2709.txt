@@ -1,0 +1,12 @@
+3. As illustrated in Figure 9.2, the Yee algorithm also
+centers its ~EE and ~HH components in time in what is
+termed a leapfrog arrangement. All of the ~EE computa-
+tions in the modeled space are completed and stored in
+memory for a particular time point using previously
+stored ~HH data. Then, all of the ~HH computations in the
+space are completed and stored in memory using the ~EE
+data just computed. The cycle begins again with the
+recomputation of the ~EE components based on the
+newly obtained ~HH. This process continues until time-
+stepping is concluded.
+. Leapfrog time-stepping is

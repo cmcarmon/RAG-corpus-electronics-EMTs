@@ -1,0 +1,24 @@
+signal transition. Thus, 2(N-1) bits are sufﬁcient to represent
+the whole set of couplings in an N-bit bus per bus cycle.
+According to the types of correlated transition between neigh-
+boring busses, the coupling encoder generates a codeword as
+follows: 00 for a type III or IV transition, 01 for a type I
+transition, and 11 for a type II transition. The reason 11 is
+assigned to a type II transition is that switchings in different
+directions require the change in polarity of the charge stored in
+the coupling capacitance, hence consuming about twice the
+amount of charge required for a type I transition. The code-
+word 11, instead of 10, helps to make a decision on data
+inversion using a majority voter because the majority voter
+outputs high when at least eight input lines are high out of
+ﬁfteen inputs. The majority voter can be implemented by using
+either full-adder circuitry or resistors and a voltage compara-
+tor. The control signal inv can be transmitted to the receiver
+using extra bus lines or extra transfer cycles. One problem of
+additional bus lines for control is the area overhead that may
+not be allowed due to physical constraints. In some cases,
+widening the space between signal bus lines can reduce the
+coupling effects more effectively than introducing extra con-
+trol lines because the coupling capacitance is inversely propor-
+tional to net space. Temporal redundancy is an alternative and
+uses extra clock cycles to transfer control signals.

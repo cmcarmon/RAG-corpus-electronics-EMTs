@@ -1,0 +1,479 @@
+Approximating the continuous string with a finite number of equidistant mass points one gets the following physical model:
+
+If each mass point has the mass m, the tension of the string is f, the separation between the mass points is Δx and ui, i = 1, ..., n are the offset of these n points from their equilibrium points (i.e. their position on a straight line between the two attachment points of the string) the vertical component of the force towards point i+1 is
+and the vertical component of the force towards point i−1 is
+Taking the sum of these two forces and dividing with the mass m one gets for the vertical motion:
+As the mass density is
+
+
+
+
+ρ
+=
+
+
+m
+
+Δ
+x
+
+
+
+
+
+{\displaystyle \rho ={\frac {m}{\Delta x}}}
+
+this can be written
+The wave equation is obtained by letting Δx → 0 in which case ui(t) takes the form u(x, t) where u(x, t) is continuous function of two variables,
+
+
+
+
+
+
+
+u
+¨
+
+
+
+
+i
+
+
+
+
+{\displaystyle {\ddot {u}}_{i}}
+takes the form
+
+
+
+
+
+∂
+
+2
+
+
+u
+
+
+∂
+
+t
+
+2
+
+
+
+
+
+{\displaystyle \partial ^{2}u \over \partial t^{2}}
+and
+
+
+
+
+
+
+
+
+u
+
+i
++
+1
+
+
++
+
+u
+
+i
+−
+1
+
+
+
+−
+
+2
+
+u
+
+i
+
+
+
+
+
+Δ
+x
+
+
+2
+
+
+
+
+→
+
+
+
+
+∂
+
+2
+
+
+u
+
+
+∂
+
+x
+
+2
+
+
+
+
+
+
+
+{\displaystyle {\frac {u_{i+1}+u_{i-1}\ -\ 2u_{i}}{{\Delta x}^{2}}}\rightarrow {\frac {\partial ^{2}u}{\partial x^{2}}}}
+
+But the discrete formulation (3) of the equation of state with a finite number of mass point is just the suitable one for a numerical propagation of the string motion. The boundary condition
+
+
+
+
+u
+(
+0
+,
+t
+)
+=
+u
+(
+L
+,
+t
+)
+=
+0
+
+
+{\displaystyle u(0,t)=u(L,t)=0}
+
+where L is the length of the string takes in the discrete formulation the form that for the outermost points u1 and un the equation of motion are
+and
+while for 1 < i < n
+where
+
+
+
+c
+=
+
+
+
+f
+ρ
+
+
+
+
+
+{\displaystyle c={\sqrt {\frac {f}{\rho }}}}
+
+If the string is approximated with 100 discrete mass points one gets the 100 coupled second order differential equations (5), (6) and (7) or equivalently 200 coupled first order differential equations.
+Propagating these up to the times
+
+
+
+
+
+
+L
+c
+
+
+
+k
+
+0.05
+
+
+k
+=
+0
+,
+⋯
+,
+5
+
+
+{\displaystyle {\frac {L}{c}}\ k\ 0.05\ \ k=0,\cdots ,5}
+
+using an 8th order multistep method the 6 states displayed in figure 2 are found:
+
+The red curve is the initial state at time zero at which the string is "let free" in a predefined shape with all
+
+
+
+
+
+
+
+u
+˙
+
+
+
+
+i
+
+
+=
+0
+
+
+{\displaystyle {\dot {u}}_{i}=0}
+. The blue curve is the state at time
+
+
+
+
+
+L
+c
+
+
+
+0.25
+
+
+{\displaystyle {\frac {L}{c}}\ 0.25}
+, i.e. after a time that corresponds to the time a wave that is moving with the nominal wave velocity
+
+
+
+c
+=
+
+
+
+f
+ρ
+
+
+
+
+
+{\displaystyle c={\sqrt {\frac {f}{\rho }}}}
+would need for one fourth of the length of the string.
+Figure 3 displays the shape of the string at the times
+
+
+
+
+
+L
+c
+
+
+
+k
+
+0.05
+
+
+k
+=
+6
+,
+⋯
+,
+11
+
+
+{\displaystyle {\frac {L}{c}}\ k\ 0.05\ \ k=6,\cdots ,11}
+. The wave travels in direction right with the speed
+
+
+
+c
+=
+
+
+
+f
+ρ
+
+
+
+
+
+{\displaystyle c={\sqrt {\frac {f}{\rho }}}}
+without being actively constraint by the boundary conditions at the two extremes of the string. The shape of the wave is constant, i.e. the curve is indeed of the form f(x−ct).
+Figure 4 displays the shape of the string at the times
+
+
+
+
+
+L
+c
+
+
+
+k
+
+0.05
+
+
+k
+=
+12
+,
+⋯
+,
+17
+
+
+{\displaystyle {\frac {L}{c}}\ k\ 0.05\ \ k=12,\cdots ,17}
+. The constraint on the right extreme starts to interfere with the motion preventing the wave to raise the end of the string.
+Figure 5 displays the shape of the string at the times
+
+
+
+
+
+L
+c
+
+
+
+k
+
+0.05
+
+
+k
+=
+18
+,
+⋯
+,
+23
+
+
+{\displaystyle {\frac {L}{c}}\ k\ 0.05\ \ k=18,\cdots ,23}
+when the direction of motion is reversed. The red, green and blue curves are the states at the times
+
+
+
+
+
+L
+c
+
+
+
+k
+
+0.05
+
+
+k
+=
+18
+,
+⋯
+,
+20
+
+
+{\displaystyle {\frac {L}{c}}\ k\ 0.05\ \ k=18,\cdots ,20}
+while the 3 black curves correspond to the states at times
+
+
+
+
+
+L
+c
+
+
+
+k
+
+0.05
+
+
+k
+=
+21
+,
+⋯
+,
+23
+
+
+{\displaystyle {\frac {L}{c}}\ k\ 0.05\ \ k=21,\cdots ,23}
+with the wave starting to move back towards left.
+Figure 6 and figure 7 finally display the shape of the string at the times
+
+
+
+
+
+L
+c
+
+
+
+k
+
+0.05
+
+
+k
+=
+24
+,
+⋯
+,
+29
+
+
+{\displaystyle {\frac {L}{c}}\ k\ 0.05\ \ k=24,\cdots ,29}
+and
+
+
+
+
+
+L
+c
+
+
+
+k
+
+0.05
+
+
+k
+=
+30
+,
+⋯
+,
+35
+
+
+{\displaystyle {\frac {L}{c}}\ k\ 0.05\ \ k=30,\cdots ,35}
+. The wave now travels towards left and the constraints at the end points are not active any more. When finally the other extreme of the string the direction will again be reversed in a way similar to what is displayed in figure 6

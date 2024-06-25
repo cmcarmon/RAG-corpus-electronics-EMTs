@@ -1,0 +1,9 @@
+The analog capacitive system uses the same metallic overlay, but
+the metallic surface is continuous rather than etched. The connec-
+tions at the four ends are each connected to a separate oscillator,
+and the frequency of each is measured and stored. Then when the
+overlay is touched the change in capacitance will have a different
+effect on the frequency of each oscillator. These are measured and
+the differences are used to determine the coordinates of the touch
+by means of an algorithm. This technique is capable of much higher
+resolution (250 · 250) than the digital approach and is preferred for graphics or other high-density displays.

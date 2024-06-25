@@ -1,0 +1,10 @@
+terminal a_Depth, a_Error : electrical;
+signal Clk : std_logic :¼ ‘0’;
+signal nClk : std_logic;
+signal Rst : std_logic; –Reset
+signal T_Data : std_logic_vector((T_ADC_Width-
+1) downto 0);
+signal P_Data : std_logic_vector((P_ADC_Width-
+1) downto 0);
+signal D_Data : std_logic_vector((Depth_Width-
+1) downto 0);

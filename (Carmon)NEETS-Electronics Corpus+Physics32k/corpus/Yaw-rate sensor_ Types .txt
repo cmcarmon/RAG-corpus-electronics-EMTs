@@ -1,0 +1,4 @@
+There are basically two types of Yaw rate sensors: piezoelectric type and micromechanical type.
+In the piezoelectric type, the sensor is a "tuning fork"-shaped structure with four piezo elements (two on top and two below). During straight ahead driving, the upper ones produce no voltage as no Coriolis force acts. But in cornering, the rotational movement causes the upper part of the tuning fork to leave the oscillatory plane creating an alternating current voltage which is proportional to the yaw rate and oscillatory speed. The output signal's sign depends on the direction (left or right).
+In the micromechanical type, the Coriolis acceleration is measured by a micro-mechanical capacitive acceleration sensor placed on an oscillating element. This acceleration is proportional to the product of yaw rate and the oscillatory velocity, which is maintained electronically at a constant value.
+A yaw-sensor is needed for Electronic stability control.

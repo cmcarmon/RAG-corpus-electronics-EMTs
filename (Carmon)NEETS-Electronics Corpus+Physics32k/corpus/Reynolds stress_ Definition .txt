@@ -1,0 +1,223 @@
+The velocity field of a flow can be split into a mean part and a fluctuating part using Reynolds decomposition. We write
+
+
+
+
+
+u
+
+i
+
+
+=
+
+
+
+u
+
+i
+
+
+¯
+
+
++
+
+u
+
+i
+
+′
+
+,
+
+
+
+{\displaystyle u_{i}={\overline {u_{i}}}+u_{i}',\,}
+
+with
+
+
+
+
+u
+
+(
+
+x
+
+,
+t
+)
+
+
+{\displaystyle \mathbf {u} (\mathbf {x} ,t)}
+being the flow velocity vector having components
+
+
+
+
+u
+
+i
+
+
+
+
+{\displaystyle u_{i}}
+in the
+
+
+
+
+x
+
+i
+
+
+
+
+{\displaystyle x_{i}}
+coordinate direction (with
+
+
+
+
+x
+
+i
+
+
+
+
+{\displaystyle x_{i}}
+denoting the components of the coordinate vector
+
+
+
+
+x
+
+
+
+{\displaystyle \mathbf {x} }
+). The mean velocities
+
+
+
+
+
+
+u
+
+i
+
+
+¯
+
+
+
+
+{\displaystyle {\overline {u_{i}}}}
+are determined by either time averaging, spatial averaging or ensemble averaging, depending on the flow under study. Further
+
+
+
+
+u
+
+i
+
+′
+
+
+
+{\displaystyle u'_{i}}
+denotes the fluctuating (turbulence) part of the velocity.
+We consider a homogeneous fluid, whose density ρ is taken to be a constant. For such a fluid, the components τ'ij of the Reynolds stress tensor are defined as:
+
+
+
+
+
+τ
+
+i
+j
+
+′
+
+≡
+ρ
+
+
+
+
+
+u
+
+i
+
+′
+
+
+
+u
+
+j
+
+′
+
+
+¯
+
+
+,
+
+
+
+{\displaystyle \tau '_{ij}\equiv \rho \,{\overline {u'_{i}\,u'_{j}}},\,}
+
+Another – often used – definition, for constant density, of the Reynolds stress components is:
+
+
+
+
+
+τ
+
+i
+j
+
+″
+
+≡
+
+
+
+
+u
+
+i
+
+′
+
+
+
+u
+
+j
+
+′
+
+
+¯
+
+
+,
+
+
+
+{\displaystyle \tau ''_{ij}\equiv {\overline {u'_{i}\,u'_{j}}},\,}
+
+which has the dimensions of velocity squared, instead of stress.

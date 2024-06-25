@@ -1,0 +1,4 @@
+Hamming distance between the two. The error correction capability of a channel code is limited by how close
+together any two error-free blocks are. Bad codes would produce blocks close together, which would result
+in ambiguity when assigning a block of data bits to a received block. The quantity to examine, therefore, in
+designing code error correction codes is the minimum distance between codewords.

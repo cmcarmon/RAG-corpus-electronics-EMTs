@@ -1,0 +1,180 @@
+A current
+
+
+
+i
+
+
+{\displaystyle i}
+flowing through a conductor generates a magnetic field around the conductor, which is described by Ampere's circuital law. The total magnetic flux through a circuit
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+is equal to the product of the magnetic field and the area of the surface spanning the current path. If the current varies, the magnetic flux
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+through the circuit changes. By Faraday's law of induction, any change in flux through a circuit induces an electromotive force (EMF) or voltage
+
+
+
+v
+
+
+{\displaystyle v}
+in the circuit, proportional to the rate of change of flux
+
+
+
+
+v
+(
+t
+)
+=
+−
+
+
+
+d
+Φ
+(
+t
+)
+
+
+d
+t
+
+
+
+
+
+
+{\displaystyle v(t)=-{d\Phi (t) \over dt}\,}
+
+The negative sign in the equation indicates that the induced voltage is in a direction which opposes the change in current that created it; this is called Lenz's law. The potential is therefore called a back EMF. If the current is increasing, the voltage is positive at the end of the conductor through which the current enters and negative at the end through which it leaves, tending to reduce the current. If the current is decreasing, the voltage is positive at the end through which the current leaves the conductor, tending to maintain the current. Self-inductance, usually just called inductance,
+
+
+
+L
+
+
+{\displaystyle L}
+is the ratio between the induced voltage and the rate of change of the current
+
+
+
+
+
+v
+(
+t
+)
+=
+L
+
+
+
+d
+i
+(
+t
+)
+
+
+d
+t
+
+
+
+
+
+(
+1
+)
+
+
+
+{\displaystyle \;v(t)=L{di(t) \over dt}\qquad \qquad (1)\;}
+
+Thus, inductance is a property of a conductor or circuit, due to its magnetic field, which tends to oppose changes in current through the circuit. The unit of inductance in the SI system is the henry (H), named after American scientist Joseph Henry, which is the amount of inductance which generates a voltage of one volt when the current is changing at a rate of one ampere per second.
+All conductors have some inductance, which may have either desirable or detrimental effects in practical electrical devices. The inductance of a circuit depends on the geometry of the current path, and on the magnetic permeability of nearby materials; ferromagnetic materials with a higher permeability like iron near a conductor tend to increase the magnetic field and inductance. Any alteration to a circuit which increases the flux (total magnetic field) through the circuit produced by a given current increases the inductance, because inductance is also equal to the ratio of magnetic flux to current
+
+
+
+
+L
+=
+
+
+
+Φ
+(
+i
+)
+
+i
+
+
+
+
+{\displaystyle L={\Phi (i) \over i}}
+
+An inductor is an electrical component consisting of a conductor shaped to increase the magnetic flux, to add inductance to a circuit. Typically it consists of a wire wound into a coil or helix. A coiled wire has a higher inductance than a straight wire of the same length, because the magnetic field lines pass through the circuit multiple times, it has multiple flux linkages. The inductance is proportional to the square of the number of turns in the coil.
+The inductance of a coil can be increased by placing a magnetic core of ferromagnetic material in the hole in the center. The magnetic field of the coil magnetizes the material of the core, aligning its magnetic domains, and the magnetic field of the core adds to that of the coil, increasing the flux through the coil. This is called a ferromagnetic core inductor. A magnetic core can increase the inductance of a coil by thousands of times.
+If multiple electric circuits are located close to each other, the magnetic field of one can pass through the other; in this case the circuits are said to be inductively coupled. Due to Faraday's law of induction, a change in current in one circuit can cause a change in magnetic flux in another circuit and thus induce a voltage in another circuit. The concept of inductance can be generalized in this case by defining the mutual inductance
+
+
+
+
+M
+
+i,j
+
+
+
+
+{\displaystyle M_{\text{i,j}}}
+of circuit
+
+
+
+i
+
+
+{\displaystyle i}
+and circuit
+
+
+
+j
+
+
+{\displaystyle j}
+as the ratio of voltage induced in circuit
+
+
+
+j
+
+
+{\displaystyle j}
+to the rate of change of current in circuit
+
+
+
+i
+
+
+{\displaystyle i}
+. This is the principle behind a transformer.
+The sections below will describe self-inductance, the effect of inductance in a single conductor or circuit. Mutual inductance, inductance between circuits, is described in the section at the end.

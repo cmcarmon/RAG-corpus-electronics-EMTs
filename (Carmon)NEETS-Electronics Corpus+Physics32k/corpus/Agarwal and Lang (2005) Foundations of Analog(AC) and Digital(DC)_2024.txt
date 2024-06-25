@@ -1,0 +1,12 @@
+At this point, although we do not as yet have a complete understand-
+ing of the frequency response (for example, the cause of the peakiness of
+certain second-order system functions), we know enough to develop the
+form of the response plot by identifying a few constraints. Specifically, Equa-
+tions 14.32, 14.35 and 14.38 establish the basic structure of the frequency
+response, Figure 14.7. As illustrated in the figure, the system function mag-
+nitude has low-frequency and high-frequency asymptotes of ωL and 1/ωC,
+respectively. From Equations 14.29 and 14.30, these asymptotes intersect at
+ωo, the resonant frequency. Further, we know at frequency ω = ωo, the sys-
+tem function H( jω) = R. These three constraints are shown in Figure 14.7.
+Together, the three constraints point to the form of the actual magnitude curve
+as shown in Figure 14.8.

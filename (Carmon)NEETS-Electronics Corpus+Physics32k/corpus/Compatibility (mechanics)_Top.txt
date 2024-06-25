@@ -1,0 +1,90 @@
+In continuum mechanics, a compatible deformation (or strain) tensor field in a body is that unique tensor field that is obtained when the body is subjected to a continuous, single-valued, displacement field. Compatibility is the study of the conditions under which such a displacement field can be guaranteed. Compatibility conditions are particular cases of integrability conditions and were first derived for linear elasticity by Barré de Saint-Venant in 1864 and proved rigorously by Beltrami in 1886.
+In the continuum description of a solid body we imagine the body to be composed of a set of infinitesimal volumes or material points. Each volume is assumed to be connected to its neighbors without any gaps or overlaps. Certain mathematical conditions have to be satisfied to ensure that gaps/overlaps do not develop when a continuum body is deformed. A body that deforms without developing any gaps/overlaps is called a compatible body. Compatibility conditions are mathematical conditions that determine whether a particular deformation will leave a body in a compatible state.
+In the context of infinitesimal strain theory, these conditions are equivalent to stating that the displacements in a body can be obtained by integrating the strains. Such an integration is possible if the Saint-Venant's tensor (or incompatibility tensor)
+
+
+
+
+R
+
+(
+
+ε
+
+)
+
+
+{\displaystyle {\boldsymbol {R}}({\boldsymbol {\varepsilon }})}
+vanishes in a simply-connected body where
+
+
+
+
+ε
+
+
+
+{\displaystyle {\boldsymbol {\varepsilon }}}
+is the infinitesimal strain tensor and
+
+
+
+
+
+R
+
+:=
+
+∇
+
+×
+(
+
+∇
+
+×
+
+ε
+
+)
+
+.
+
+
+{\displaystyle {\boldsymbol {R}}:={\boldsymbol {\nabla }}\times ({\boldsymbol {\nabla }}\times {\boldsymbol {\varepsilon }})~.}
+
+For finite deformations the compatibility conditions take the form
+
+
+
+
+
+R
+
+:=
+
+∇
+
+×
+
+F
+
+=
+
+0
+
+
+
+{\displaystyle {\boldsymbol {R}}:={\boldsymbol {\nabla }}\times {\boldsymbol {F}}={\boldsymbol {0}}}
+
+where
+
+
+
+
+F
+
+
+
+{\displaystyle {\boldsymbol {F}}}
+is the deformation gradient.

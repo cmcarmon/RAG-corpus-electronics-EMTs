@@ -1,0 +1,7 @@
+Below about 4 kbps, the subjective quality of CELP coders is inferior to other architectures. Much research in
+variable-rate CELP implementations has resulted in alternative coder architectures which adjust their coding
+rates based on a number of channel conditions or sophisticated, speech-speciﬁc cues such as phonetic segmen-
+tation [Wang and Gersho, 1989; Paksoy et al., 1993]. Notably, most variable-rate CELP coders are implemen-
+tations of ﬁnite-state CELP wherein a vector of speech cues controls the evolution of a state-machine to prescribe
+mode-dependent  bit  allocations  for  coder  parameters.  With  these  architectures,  excellent  speech  quality  at
+average rates below 2 kbps has been reported.

@@ -1,0 +1,15 @@
+Some ohmmeters are equipped with a selector switch for selecting the multiplication scale desired,
+so only two test lead jacks are necessary. Other meters have a separate jack for each range, as shown in
+figure 1-33. The range to be used in measuring any particular unknown resistance (Rx in figure 1-33)
+depends on the approximate value of the unknown resistance. For instance, assume the ohmmeter in
+figure 1-33 is calibrated in divisions from 0 to 1,000. If Rx is greater than 1,000 ohms, and the R x 1 range
+is being used, the ohmmeter cannot measure it. This occurs because the combined series resistance of
+resistor R ·  1 and Rx is too great to allow sufficient battery current to flow to deflect the pointer away
+from infinity ( ¥ ). (Infinity is a quantity larger than the largest quantity you can measure.) The test lead
+would have to be plugged into the next range, R ·  10. With this done, assume the pointer deflects to
+indicate 375 ohms. This would indicate that Rx has 375 ohms ·  10, or 3,750 ohms resistance. The change
+of range caused the deflection because resistor R ·  10 has about 1/10 the resistance of resistor R ·  1.
+Thus, selecting the smaller series resistance permitted a battery current of sufficient amount to cause a
+useful pointer deflection. If the R ·  100 range were used to measure the same 3,750-ohm resistor, the
+pointer would deflect still further, to the 37.5-ohm position. This increased deflection would occur
+because resistor R ·  100 has about 1/10 the resistance of resistor R ·  10.

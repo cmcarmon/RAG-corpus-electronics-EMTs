@@ -1,0 +1,14 @@
+Computer-Aided Design
+With progress in the theory of architectures, the computer-aided design (CAD) systems for DSP application
+also become more powerful. In early 1980, the ﬁrst silicon compiler system for signal processing was developed
+at the University of Edinburgh and was referred to as the FIRST design system. This system only addressed the
+computer-aided  design  of  bit-serial  signal  processing  systems.  Since  then  more  powerful  systems  have  been
+developed. The Cathedral I system from Katholieke Universiteit Leuven and the BSSC (bit-serial silicon com-
+piler) from GE Research Center in Schenectady, New York, also addressed synthesis of bit-serial circuits. The
+Cathedral system has now gone through many revisions, and the new versions can systhesize parallel multi-
+processor data paths and can perform more powerful scheduling and allocation. The Lager design tool at the
+University of California at Berkeley was developed to synthesize the DSP algorithms using parametrizable macro
+building  blocks  (such  as ALU,  RAM,  ROM).  This  system  has  also  gone  through  many  revisions.  The  Hyper
+system also developed at the University of California at Berkeley and the MARS design system developed at
+the University of Minnesota at Minneapolis perform higher level transformations and perform scheduling and
+allocation. These CAD tools are crucial to rapid prototyping of high-performance DSP integrated circuits.

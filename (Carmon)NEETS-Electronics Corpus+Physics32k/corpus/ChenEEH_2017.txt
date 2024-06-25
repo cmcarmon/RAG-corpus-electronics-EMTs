@@ -1,0 +1,13 @@
+quantities. The notation mant (a) is used to denote the man-
+tissa of the ﬂoating point number a treated as an integers. For
+example, considering 4-bit mantissas and integers, if 1.100 is
+the mantissa portion of a, with its implicit binary point shown,
+then the value of the mantissa is 1.5 in decimal. However, mant
+(a) ¼ 1100 and has value 12 in decimal. Furthermore,
+for a vector v:¼ (v1, . . ., vn)T , mant (v):¼ (mant) (v1), . . .,
+mant(vn))T , and for a matrix A:¼ [ai, j], Amant :¼ mant
+(A):¼ [mant (ai, j) ]. The :¼ symbol is used to denote equal-
+ity by deﬁnition, ¼ to denote the standard (derived) equality,
+and ¼? to denote an equality test of two quantities that are
+theoretically supposed to be equal but may not be due to errors
+and/or round-off.

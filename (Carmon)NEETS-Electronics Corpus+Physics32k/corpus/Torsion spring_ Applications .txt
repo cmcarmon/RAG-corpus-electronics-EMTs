@@ -1,0 +1,167 @@
+The balance wheel of a mechanical watch is a harmonic oscillator whose resonant frequency
+
+
+
+
+f
+
+n
+
+
+
+
+
+{\displaystyle f_{n}\,}
+sets the rate of the watch. The resonant frequency is regulated, first coarsely by adjusting
+
+
+
+I
+
+
+
+{\displaystyle I\,}
+with weight screws set radially into the rim of the wheel, and then more finely by adjusting
+
+
+
+κ
+
+
+
+{\displaystyle \kappa \,}
+with a regulating lever that changes the length of the balance spring.
+In a torsion balance the drive torque is constant and equal to the unknown force to be measured
+
+
+
+F
+
+
+
+{\displaystyle F\,}
+, times the moment arm of the balance beam
+
+
+
+L
+
+
+
+{\displaystyle L\,}
+, so
+
+
+
+τ
+(
+t
+)
+=
+F
+L
+
+
+
+{\displaystyle \tau (t)=FL\,}
+. When the oscillatory motion of the balance dies out, the deflection will be proportional to the force:
+
+
+
+
+θ
+=
+F
+L
+
+/
+
+κ
+
+
+
+{\displaystyle \theta =FL/\kappa \,}
+
+To determine
+
+
+
+F
+
+
+
+{\displaystyle F\,}
+it is necessary to find the torsion spring constant
+
+
+
+κ
+
+
+
+{\displaystyle \kappa \,}
+. If the damping is low, this can be obtained by measuring the natural resonant frequency of the balance, since the moment of inertia of the balance can usually be calculated from its geometry, so:
+
+
+
+
+κ
+=
+(
+2
+π
+
+f
+
+n
+
+
+
+)
+
+2
+
+
+I
+
+
+
+{\displaystyle \kappa =(2\pi f_{n})^{2}I\,}
+
+In measuring instruments, such as the D'Arsonval ammeter movement, it is often desired that the oscillatory motion die out quickly so the steady state result can be read off. This is accomplished by adding damping to the system, often by attaching a vane that rotates in a fluid such as air or water (this is why magnetic compasses are filled with fluid). The value of damping that causes the oscillatory motion to settle quickest is called the critical damping
+
+
+
+
+C
+
+c
+
+
+
+
+
+{\displaystyle C_{c}\,}
+:
+
+
+
+
+
+C
+
+c
+
+
+=
+2
+
+
+κ
+I
+
+
+
+
+
+{\displaystyle C_{c}=2{\sqrt {\kappa I}}\,}

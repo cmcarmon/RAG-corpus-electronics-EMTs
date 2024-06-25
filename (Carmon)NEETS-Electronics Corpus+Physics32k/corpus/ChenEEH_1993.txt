@@ -1,0 +1,16 @@
+The method described in the previous paragraphs for per-
+forming a partial derived signature checking CFC (partial
+CFC, for brevity) was implemented for a processor system
+with an internal cache for a Motorola 68040 processor. The
+processor’s initial VHDL description was obtained from
+(Heishman et al.). It was augmented greatly and various struc-
+tural descriptions were added to the original behavioral de-
+scription for CFC and partial CFC implementations (Rota,
+2002; Trovo, 2002). A cache-less 68040 (or equivalently a
+68040 with an external cache) was also simulated with the
+WD then being able to monitor the program ﬂow completely
+and thus perform a full CFC. The two different WDs were also
+described in VHDL. Simulations performed show that the
+error coverage for K ¼ 2 of the partial CFC scheme for an
+internal cache system is almost as good as that for full CFC.
+This result is shown in Figure 8.15 for two and four faults

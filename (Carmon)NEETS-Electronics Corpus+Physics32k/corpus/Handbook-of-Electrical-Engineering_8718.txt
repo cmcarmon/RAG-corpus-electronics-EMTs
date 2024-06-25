@@ -1,0 +1,4 @@
+In  most  cases,  FORTRAN  is  translated  by  a  compiler  program.  The  idea  behind  a  compiler  is  that  the
+translator converts the source program in its entirety before any part of the resulting object program is actually
+run  on  the  computer.  That  is,  compiling  is  a  two-step  process.  In  some  HLLs,  however,  it  is  impossible  to
+entirely convert a source program into an object program until the program executes.

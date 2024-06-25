@@ -1,0 +1,6 @@
+systems. For linear time-invariant control systems the roots of the characteristic equation determine the stability
+of the system. For a stable continuous-data system the roots must all lie in the left half of the s plane. For a
+digital control system to be stable, the roots of the characteristic equation must all lie inside the unit circle *z*
+= 1 in the z plane. Thus, in the s plane, the imaginary axis is the stability boundary, whereas in the z plane the
+stability boundary is the unit circle. The location of the characteristic equation roots with respect to the stability
+boundary also determine the relative stability, i.e., the degree of stability, of the system.

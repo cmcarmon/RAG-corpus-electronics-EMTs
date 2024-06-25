@@ -1,0 +1,12 @@
+. lc(0): Initial learning rate of the critic network
+. la(0): Initial learning rate of the action network
+. lc(t ): Learning rate of the critic network at time t , which
+is decreased by 0.05 every 5 time-steps until it reaches
+0.005 and stays at lc(f ) ¼ 0:005 thereafter
+. la(t ): Learning rate of the action network at time t , which
+is decreased by 0.05 every 5 time-steps until it reaches
+0.005 and stays at la(f ) ¼ 0:005 thereafter
+. Nc: Internal cycle of the critic network
+. Na: Internal cycle of the action network
+. Tc: Internal training error threshold for the critic network
+. Ta: Internal training error threshold for the action net-

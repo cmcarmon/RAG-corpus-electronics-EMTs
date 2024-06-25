@@ -1,0 +1,639 @@
+Let
+
+
+
+G
+,
+H
+
+
+{\displaystyle G,H}
+be Lie groups with Lie algebras
+
+
+
+
+
+g
+
+
+,
+
+
+h
+
+
+
+
+{\displaystyle {\mathfrak {g}},{\mathfrak {h}}}
+, respectively.
+1. Let
+
+
+
+
+
+O
+
+
+(
+F
+)
+,
+F
+∈
+
+
+
+g
+
+
+
+∗
+
+
+
+
+{\displaystyle {\mathcal {O}}(F),F\in {\mathfrak {g}}^{*}}
+be a coadjoint orbit. Then there exists a unique symplectic structure on
+
+
+
+
+
+O
+
+
+(
+F
+)
+
+
+{\displaystyle {\mathcal {O}}(F)}
+such that inclusion map
+
+
+
+
+
+O
+
+
+(
+F
+)
+↪
+
+
+
+g
+
+
+
+∗
+
+
+
+
+{\displaystyle {\mathcal {O}}(F)\hookrightarrow {\mathfrak {g}}^{*}}
+is a moment map.
+2. Let
+
+
+
+G
+
+
+{\displaystyle G}
+act on a symplectic manifold
+
+
+
+(
+M
+,
+ω
+)
+
+
+{\displaystyle (M,\omega )}
+with
+
+
+
+
+Φ
+
+G
+
+
+:
+M
+→
+
+
+
+g
+
+
+
+∗
+
+
+
+
+{\displaystyle \Phi _{G}:M\rightarrow {\mathfrak {g}}^{*}}
+a moment map for the action, and
+
+
+
+ψ
+:
+H
+→
+G
+
+
+{\displaystyle \psi :H\rightarrow G}
+be a Lie group homomorphism, inducing an action of
+
+
+
+H
+
+
+{\displaystyle H}
+on
+
+
+
+M
+
+
+{\displaystyle M}
+. Then the action of
+
+
+
+H
+
+
+{\displaystyle H}
+on
+
+
+
+M
+
+
+{\displaystyle M}
+is also Hamiltonian, with moment map given by
+
+
+
+(
+
+d
+
+ψ
+
+)
+
+e
+
+
+∗
+
+
+∘
+
+Φ
+
+G
+
+
+
+
+{\displaystyle (\mathrm {d} \psi )_{e}^{*}\circ \Phi _{G}}
+, where
+
+
+
+(
+
+d
+
+ψ
+
+)
+
+e
+
+
+∗
+
+
+:
+
+
+
+g
+
+
+
+∗
+
+
+→
+
+
+
+h
+
+
+
+∗
+
+
+
+
+{\displaystyle (\mathrm {d} \psi )_{e}^{*}:{\mathfrak {g}}^{*}\rightarrow {\mathfrak {h}}^{*}}
+is the dual map to
+
+
+
+(
+
+d
+
+ψ
+
+)
+
+e
+
+
+:
+
+
+h
+
+
+→
+
+
+g
+
+
+
+
+{\displaystyle (\mathrm {d} \psi )_{e}:{\mathfrak {h}}\rightarrow {\mathfrak {g}}}
+(
+
+
+
+e
+
+
+{\displaystyle e}
+denotes the identity element of
+
+
+
+H
+
+
+{\displaystyle H}
+). A case of special interest is when
+
+
+
+H
+
+
+{\displaystyle H}
+is a Lie subgroup of
+
+
+
+G
+
+
+{\displaystyle G}
+and
+
+
+
+ψ
+
+
+{\displaystyle \psi }
+is the inclusion map.
+3. Let
+
+
+
+(
+
+M
+
+1
+
+
+,
+
+ω
+
+1
+
+
+)
+
+
+{\displaystyle (M_{1},\omega _{1})}
+be a Hamiltonian
+
+
+
+G
+
+
+{\displaystyle G}
+-manifold and
+
+
+
+(
+
+M
+
+2
+
+
+,
+
+ω
+
+2
+
+
+)
+
+
+{\displaystyle (M_{2},\omega _{2})}
+a Hamiltonian
+
+
+
+H
+
+
+{\displaystyle H}
+-manifold. Then the natural action of
+
+
+
+G
+×
+H
+
+
+{\displaystyle G\times H}
+on
+
+
+
+(
+
+M
+
+1
+
+
+×
+
+M
+
+2
+
+
+,
+
+ω
+
+1
+
+
+×
+
+ω
+
+2
+
+
+)
+
+
+{\displaystyle (M_{1}\times M_{2},\omega _{1}\times \omega _{2})}
+is Hamiltonian, with moment map the direct sum of the two moment maps
+
+
+
+
+Φ
+
+G
+
+
+
+
+{\displaystyle \Phi _{G}}
+and
+
+
+
+
+Φ
+
+H
+
+
+
+
+{\displaystyle \Phi _{H}}
+. Here
+
+
+
+
+ω
+
+1
+
+
+×
+
+ω
+
+2
+
+
+:=
+
+π
+
+1
+
+
+∗
+
+
+
+ω
+
+1
+
+
++
+
+π
+
+2
+
+
+∗
+
+
+
+ω
+
+2
+
+
+
+
+{\displaystyle \omega _{1}\times \omega _{2}:=\pi _{1}^{*}\omega _{1}+\pi _{2}^{*}\omega _{2}}
+, where
+
+
+
+
+π
+
+i
+
+
+:
+
+M
+
+1
+
+
+×
+
+M
+
+2
+
+
+→
+
+M
+
+i
+
+
+
+
+{\displaystyle \pi _{i}:M_{1}\times M_{2}\rightarrow M_{i}}
+denotes the projection map.
+4. Let
+
+
+
+M
+
+
+{\displaystyle M}
+be a Hamiltonian
+
+
+
+G
+
+
+{\displaystyle G}
+-manifold, and
+
+
+
+N
+
+
+{\displaystyle N}
+a submanifold of
+
+
+
+M
+
+
+{\displaystyle M}
+invariant under
+
+
+
+G
+
+
+{\displaystyle G}
+such that the restriction of the symplectic form on
+
+
+
+M
+
+
+{\displaystyle M}
+to
+
+
+
+N
+
+
+{\displaystyle N}
+is non-degenerate. This imparts a symplectic structure to
+
+
+
+N
+
+
+{\displaystyle N}
+in a natural way. Then the action of
+
+
+
+G
+
+
+{\displaystyle G}
+on
+
+
+
+N
+
+
+{\displaystyle N}
+is also Hamiltonian, with moment map the composition of the inclusion map with
+
+
+
+M
+
+
+{\displaystyle M}
+'s moment map.

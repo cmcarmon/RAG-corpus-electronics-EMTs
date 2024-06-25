@@ -1,0 +1,22 @@
+The  fundamental  reason  the  LPE  representation  outlined  above  is  popular  in  simulation  is  that  one  can
+of linear time-invariant bandpass ﬁlters. The LPE of the output of a bandpass ﬁlter
+easily generate 
+is merely the convolution of the LPE of the input signal and the LPE of the impulse response of the ﬁlter. It is
+far  more  difﬁcult  to  determine  a  LPE  model  for  nonlinear  and  time-varying  systems.  There  are  numerous
+approaches  that  trade  off  ﬂexibility  and  simplicity.  If  the  system  is  nonlinear  and  time  invariant,  a Volterra
+series can be used. While this series will exactly represent the nonlinear device, it is often analytically intractable
+and  numerically  inefﬁcient.  For  nonlinear  devices  with  a  limited  amount  of  memory  the AM/AM, AM/PM
+[Shimbo, 1971] LPE model is useful. This model accurately describes the response of many microwave ampliﬁers
+including  traveling-wave  tubes,  solid-state  limiting  ampliﬁers,  and,  under  certain  conditions,  devices  which
+exhibit hysteresis. The Chebyshev transform [Blachman, 1964] is useful for memoryless nonlinearities such as
+hard and soft limiters. If the nonlinear device is so complex that none of the conventional LPE models can be
+used, one may need to convert the LPE signal back to its bandpass representation, route the bandpass signal
+through a model of the nonlinear device, and then reconvert the output to a LPE signal for further processing.
+If  this  must  be  done,  one  has  the  choice  of  increasing  the  sampling  rate  for  the  entire  simulation  or  using
+different sampling rates for various sections of the simulation. The second of these approaches is known as a
+multirate simulation
+ [Cochiere and Rabiner, 1983]. The interpolation and decimation operations required to
+convert between sampling rates can consume signiﬁcant amounts of processor time. One must carefully examine
+this trade-off to determine if a multirate simulation will substantially reduce the execution time over a single,
+high sampling rate simulation. Efﬁcient and ﬂexible modeling of nonlinear devices is in general a difﬁcult task
+and continues to be an area of active research.

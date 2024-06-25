@@ -1,0 +1,5 @@
+Thus, in the circuit above, battery B1 and resistor R1 are seen as a Thevenin source to be
+converted into a Norton source of 7 amps (28 volts / 4 Ω) in parallel with a 4 Ω resistor. The
+rightmost branch will be converted into a 7 amp current source (7 volts / 1 Ω) and 1 Ω resistor
+in parallel. The center branch, containing no voltage source at all, will be converted into a
+Norton source of 0 amps in parallel with a 2 Ω resistor:

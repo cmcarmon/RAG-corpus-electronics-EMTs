@@ -1,0 +1,14 @@
+A dB meter is a form of ac electronic voltmeter calibrated in dB's. These meters are useful for 
+making measurements where direct indication in decibels is desired. However, remember that these are 
+voltmeters, and power measurements are not meaningful unless the circuit impedance is known. When the 
+dB meter is calibrated, a reference point, based on a specific power or value of voltage across a specified 
+resistance, is selected to represent 0 dB. Many electronic voltmeters use a single dB scale based on 1 
+milliwatt into a 600-ohm load to represent 0 dBm. Based on this reference point, various voltage readings 
+could be made on the low ac-voltage scale. The +dB numbers corresponding to voltage ratios that exist 
+between successive ranges and the low ac range have been computed for each range. These numbers, 
+shown on the front panel of the instrument, are added algebraically to each successive range reading to 
+produce the correct value for the range. The term decibel does not, in itself, indicate power. It indicates a 
+ratio or comparison between two power levels that permits you to calculate the power. Often, it is more 
+desirable to express performance measurements in terms of decibels using a fixed power level as a 
+reference. The original standard reference level was 6 milliwatts, but to simplify calculations a standard 
+reference level of 1 milliwatt has been adopted. 

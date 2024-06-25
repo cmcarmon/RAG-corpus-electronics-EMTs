@@ -1,0 +1,12 @@
+Block Diagrams
+The mathematical relationships of control systems are usually represented by block diagrams,
+which show the role of various components of the system and the interaction of variables in it.
+It is common to use a block diagram in which each component in the system (or sometimes a
+group of components) is represented by a block. An entire system may, then, be represented by the
+interconnection of the blocks of the individual elements, so that their contributions to the overall
+performance of the system may be evaluated. The simple conﬁguration shown in Figure 3.4.11
+is actually the basic building block of a complex block diagram. In the case of linear systems,
+the input–output relationship is expressed as a transfer function, which is the ratio of the Laplace
+transform of the output to the Laplace transform of the input with initial conditions of the system
+set to zero. The arrows on the diagram imply that the block diagram has a unilateral property. In
+other words, signal can only pass in the direction of the arrows.

@@ -1,0 +1,4 @@
+▶✓ Light: The resistance of the photoresistor is low, so the base voltage of 
+transistor Q1 is low, causing Q1 to turn on and conduct current through 
+R2, which then raises the voltage on reset pin 4 of the 555 timer. As a 
+result, the 555 timer oscillates and the alarm sounds.

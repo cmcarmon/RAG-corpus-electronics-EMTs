@@ -1,0 +1,129 @@
+Though the polar moment of inertia is most often used to calculate the angular displacement of an object subjected to a moment (torque) applied parallel to the cross-section, it must be noted that the provided value of rigidity does not have any bearing on the torsional resistance provided to an object as a function of its constituent materials. The rigidity provided by an object's material is a characteristic of its shear modulus,
+
+
+
+G
+
+
+{\displaystyle G}
+. Combining these two features, one is able to calculate a shaft's angular deflection,
+
+
+
+θ
+
+
+{\displaystyle \theta }
+, due to the applied torque,
+
+
+
+T
+
+
+{\displaystyle T}
+:
+
+
+
+
+θ
+=
+
+
+
+T
+L
+
+
+J
+G
+
+
+
+
+
+{\displaystyle \theta ={\frac {TL}{JG}}}
+
+Where
+
+
+
+L
+
+
+{\displaystyle L}
+is the length of the shaft and
+
+
+
+T
+
+
+{\displaystyle T}
+is the applied torque. As shown, the larger the material's shear modulus and polar moment of area (i.e. larger cross-sectional area), the greater resistance to torsional deflection.
+The polar moment of area appears in the formulae that describe torsional stress and angular displacement.
+Torsional stresses:
+
+
+
+
+τ
+=
+
+
+
+T
+r
+
+
+J
+
+z
+
+
+
+
+
+
+{\displaystyle \tau ={\frac {Tr}{J_{z}}}}
+
+Where
+
+
+
+τ
+
+
+{\displaystyle \tau }
+is the torsional shear stress,
+
+
+
+T
+
+
+{\displaystyle T}
+is the applied torque,
+
+
+
+r
+
+
+{\displaystyle r}
+is the distance from the central axis, and
+
+
+
+
+J
+
+z
+
+
+
+
+{\displaystyle J_{z}}
+is the polar moment of area.
+Note: In a circular shaft, the shear stress is maximal at the surface of the shaft.

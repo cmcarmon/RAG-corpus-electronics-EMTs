@@ -1,0 +1,8 @@
+The OG can be used as an effective model in the evaluation
+of the required T-DAG. Since it represents the circuit routing
+in the FPGA, a T-DAG is a DAG embedded in the OG (the
+undirected edges of the OG become directed arcs in the direc-
+tion of the transitions 8b), as in Figure 8.8(B). A converging
+T-DAG rooted at an O-net can be determined by performing a
+search on the DAG until all leaf nodes of the search DAG are
+spare nodes.

@@ -1,0 +1,119 @@
+The stationary phase approximation can be used to analyze the form of precursor waves without solving the general-form integral given in the Basic Theory section above. The stationary phase approximation states that for any speed of wave propagation
+
+
+
+
+
+x
+t
+
+
+
+
+{\displaystyle {\frac {x}{t}}}
+determined from any distance
+
+
+
+x
+
+
+{\displaystyle x}
+and time
+
+
+
+t
+
+
+{\displaystyle t}
+, the dominant frequency
+
+
+
+
+ω
+
+D
+
+
+
+
+{\displaystyle \omega _{D}}
+of the precursor is the frequency whose group velocity equals
+
+
+
+
+
+x
+t
+
+
+
+
+{\displaystyle {\frac {x}{t}}}
+:
+
+
+
+
+
+v
+
+g
+
+
+(
+
+ω
+
+D
+
+
+)
+=
+
+
+
+
+
+
+d
+ω
+
+
+d
+k
+
+
+
+|
+
+
+
+ω
+
+D
+
+
+
+
+=
+
+
+x
+t
+
+
+.
+
+
+{\displaystyle v_{g}(\omega _{D})=\left.{\frac {d\omega }{dk}}\right|_{\omega _{D}}={\frac {x}{t}}.}
+
+Therefore, one can determine the approximate period of a precursor waveform at a particular distance and time by calculating the period of the frequency component that would arrive at that distance and time based on its group velocity. In a region of normal dispersion, high-frequency components have a faster group velocity than low-frequency ones, so the front of the precursor should have a period corresponding to that of the highest-frequency component of the original impulse; with increasing time, components with lower and lower frequencies arrive, so the period of the precursor becomes longer and longer until the lowest-frequency component arrives. As more and more components arrive, the amplitude of the precursor also increases. The particular type of precursor characterized by increasing period and amplitude is known as the high-frequency Sommerfeld precursor.
+In a region of anomalous dispersion, where low-frequency components have faster group velocities than high-frequency ones, the opposite of the above situation occurs: the onset of the precursor is characterized by a long period, and the period of the signal decreases with time. This type of precursor is called a low-frequency Sommerfeld precursor.
+In certain situations of wave propagation (for instance, fluid surface waves), two or more frequency components may have the same group velocity for particular ranges of frequency; this is typically accompanied by a local extremum in the group velocity curve. This means that for certain values of time and distance, the precursor waveform will consist of a superposition of both low- and high-frequency Sommerfeld precursors. Any local extrema only correspond to single frequencies, so at these points there will be a contribution from a precursor signal with a constant period; this is known as a Brillouin precursor.
+
+
+== References ==

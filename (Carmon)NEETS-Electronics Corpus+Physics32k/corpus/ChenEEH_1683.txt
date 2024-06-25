@@ -1,0 +1,43 @@
+QBIC is the ﬁrst commercial content-based image retrieval
+system. Developed by IBM Almaden Research Centre, it is an
+open framework technology that can be used for both static
+and dynamic image retrieval. QBIC has undergone several
+iterations since it was ﬁrst reported (Niblack et al., 1998).
+QBIC allows users to graphically pose and reﬁne queries
+based on multiple visual properties, including color, shape,
+and texture. QBIC supports several query types: simple, multi-
+feature, and multipass. A simple query involves only one
+feature. For example, identifying images that have a color
+distribution similar to the query image can involve a complex
+query with more than one feature, which can take the form of a
+multifeature or a multi-pass query. For identifying images that
+have similar color and texture features, a multifeature query
+would be possible and involve the system searching through
+the different types of feature data in the database to identify
+similar images. All feature classes would have equal weightings
+during the search, and all feature tables would be searched in
+parallel. In contrast, with a multipass query, the output of an
+initial search would be used as the basis for the next search.
+The system would reorganize the search results from a previ-
+ous pass based on the ‘‘feature distances’’ in the current pass.
+For example, a user could identify images that have a similar
+color distribution and then reorder the results based on color
+composition. With multifeature and multipass queries, users
+can weight features to specify their relative importance. QBIC
+technology has been incorporated into several IBM software
+products, including DB2 Image Extender and Digital Library.
+QBIC supports several matching features,
+including color,
+shape, and texture. The global color function computes the
+average RGB colors in the entire image for both the dominant
+color and the variation of color throughout the entire image.
+Similarity is based on the three average color values. The local
+color function computes the color distribution for both the
+dominant color and the variation for each image in a predeter-
+mined 256 color space. Image similarity is based on the simi-
+larity of the color distribution. The shape function analyzes
+images for combinations of area, circularity, eccentricity, and
+major axis orientation. All shapes are assumed to be nonoc-
+cluded planar shapes, allowing each shape to be represented as
+a binary image. The texture function analyzes areas for global
+coarseness, contrast, and directionality features.

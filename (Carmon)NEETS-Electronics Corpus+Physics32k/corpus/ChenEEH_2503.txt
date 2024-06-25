@@ -1,0 +1,25 @@
+A stub is a typical one-port passive element in which one
+of the two ports of a transmission line is terminated by
+a certain reactive and/or resistive load denoted by ZL or
+YL(YL ¼ 1=ZL), as shown in Figure 7.3(A). A stub is an attach-
+ment to the main transmission line path, either at its end or
+somewhere along the line in parallel or in series. The input
+terminal of a stub (the part attached to the main transmission
+line), depending on its load condition and length, can appear
+as a capacitive or inductive impedance, as a series or parallel
+resonance circuit, or as purely inductive or purely capacitive.
+A transmission line stub is essentially an impedance trans-
+former that must be mismatched at its end terminal to
+become effective or operative. Because of a wide range of
+input impedance possible, stubs are widely used as impedance
+transformers and matching networks, as tuning elements or
+dc-bias networks (a kind of low-pass ﬁlter), and as baluns or
+ﬁlters. The most commonly used load conditions of a stub are
+either a short load (ZL ¼ 0) or an open load (YL ¼ 0). Their
+effect, however, is typically only narrow band. If broadband
+stubs are needed, so-called radial microstrip open-ended
+stubs (Figure 7.3), for example, are utilized. Other loads may
+be in the form of a lumped capacitor or a lumped inductor
+or a mixture of both. From transmission line theory (Collin,
+1992), the input impedance Zi of a stub can simply be formu-
+lated by:

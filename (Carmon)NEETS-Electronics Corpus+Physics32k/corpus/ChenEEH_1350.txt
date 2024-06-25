@@ -1,0 +1,11 @@
+Snoopy protocols distribute the responsibility for cache co-
+herence between all cache controllers. Some mechanism must
+be incorporated so that each cache knows when a line is also in
+another cache. If this line is subsequently updated, it must
+inform the other caches that this update has taken place. There
+are two approaches in snoopy systems: either the write is
+broadcasted to all caches so that they can update their line
+accordingly (write-broadcast), or the write is simply used to
+invalidate the lines in the other caches (write-invalidate). The
+MESI protocol is an example of write-invalidate and is used by
+the Pentium II processor (Shanley, 1998).

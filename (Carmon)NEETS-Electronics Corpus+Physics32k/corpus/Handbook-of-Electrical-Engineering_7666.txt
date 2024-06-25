@@ -1,0 +1,22 @@
+Dynamic RAMs (DRAMs)
+The universally used storage cell circuit of one transistor and
+one capacitor has remained unchanged for over 20 years. The
+physical  implementation,  however,  has  undergone  much
+diversity  and  many  reﬁnements.  The  innovation  in  physical
+implementation is driven primarily by the need to maintain
+a nearly constant value of capacitance while the surface area
+of the cell has decreased. A nearly ﬁxed value of capacitance
+is needed to meet two important design goals. The cell has no
+internal ampliﬁcation. Once the information is accessed, the
+stored voltage is vastly attenuated by the much larger bit line
+capacitance (see Fig. 80.1). The resulting signal must be kept
+larger  than  the  resolution  limits  of  the  sensing  ampliﬁer.
+DRAMs in particular are also sensitive to a problem called soft
+errors. These are typically initiated by atomic events such as
+the incidence of a single alpha particle. An alpha particle can
+cause a spurious signal of 50,000 electrons or more. All mod-
+ern DRAM designs resolve this problem by constructing the
+capacitor  in  space  out  of  the  plane  of  the  transistors  (see
+Fig. 80.2  for  examples).  Placing  the  capacitor  in  space  unusable  for  transistor  fabrication  has  allowed  great
+strides in DRAM density, generally at the expense of fabrication complexity. DRAM chip capacity has increased
+by about a factor of four every three years.

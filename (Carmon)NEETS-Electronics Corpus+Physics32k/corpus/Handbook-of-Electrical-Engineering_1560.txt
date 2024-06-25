@@ -1,0 +1,6 @@
+Tree Search vs. Viterbi Search
+A Viterbi search of a trellis ﬁnds the most likely succession of transitions through a composite HMM composed
+of word HMMs. The number of states in a trellis stage (determined by the end states of the word HMMs) must
+be limited to keep the search’s storage and computational requirements feasible. The tree search imposed no
+such constraints on the number of end states as long as this search does not prune out the correct path. Both
+algorithms are suboptimal in the sense that they do not guarantee to ﬁnd the most probable word string.

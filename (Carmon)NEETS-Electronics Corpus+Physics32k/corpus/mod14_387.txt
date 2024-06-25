@@ -1,0 +1,4 @@
+As clock pulse 2 goes LOW, FF1 resets, turning off lamp A. In turn, FF2 will set, lighting lamp B
+and showing a count of 0102. The HIGH from FF2 is also felt by the AND gate. The AND gate is not
+activated at this time because the signal from FF1 is now a LOW. A LOW is present on the J and K inputs
+of FF3, so it is not toggled by the clock.

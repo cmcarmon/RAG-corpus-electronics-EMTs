@@ -1,0 +1,9 @@
+Coding  test  techniques  encode  signal  information  so  that  errors  can  be  detected  and  possibly  corrected.
+Although often implemented in software, coding techniques can also be implemented in hardware. For example,
+a  simple  coding  technique  called  parity  checking  is  often  implemented  in  hardware.  Parity  checking  adds  an
+extra bit to multibit data. The parity bit is set such that the total number of logic 1s in the multibit data and
+parity bit is either an even number (even parity) or an odd number (odd parity). An error has occurred if an
+even-parity-encoded signal contains an odd number of logic 1s or if an odd-parity-encoded signal contains an
+even number of logic 1s. Coding techniques are used extensively to detect and correct transmission errors on
+system buses and networks, storage errors in system memory, and computational errors in processors [Peterson
+and Weldon, 1972].

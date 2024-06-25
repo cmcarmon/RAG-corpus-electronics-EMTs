@@ -1,0 +1,7 @@
+The VPI together with the virtual channel identiﬁer (VCI) form the routing label (identiﬁer of the connec-
+tion).  The VPI  itself  marks  only  the  virtual  path  (VP).  The VP  concept  allows  the  ﬂexible  conﬁguration  of
+ network or virtual private network), which can be independent of the
+individual subnetworks (e.g., 
+underlying transmission network. VP networks are under the control of network management. The bandwidth
+of a VP will be allocated according to its requirements. Within the VP network the individual connections are
+established and cleared down dynamically (by signaling).

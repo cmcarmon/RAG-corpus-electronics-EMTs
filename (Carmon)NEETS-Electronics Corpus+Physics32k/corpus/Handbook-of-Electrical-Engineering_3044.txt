@@ -1,0 +1,14 @@
+A  ﬁlter  structure  capable  of  producing  a  VTF  of  the
+form of Eq. (29.7) was introduced as a state-variable real-
+ization by its originators [Kerwin et al., 1967]. The struc-
+ture  comprises  two  op  amp  integrators  and  an  op  amp
+summer connected in a loop and was based on the inte-
+grator-summer analog computer used in control/analog
+systems  analysis,  where  system  state  is  characterized  by
+some  set  of  so-called  state  variables.  It  is  also  often
+referred to as a ring-of-three structure. Many subsequent
+reﬁnements  of  this  design  have  appeared  (Schaumann
+et al.,  [1990]  gives  a  useful  treatment  of  some  of  these
+developments) and the state-variable biquad has achieved considerable popularity as the basis of many com-
+mercial universal packaged active ﬁlter building blocks. By selecting appropriate chip/package output terminals,
+and with the use of external trimming components, a very wide range of ﬁlter responses can be obtained.

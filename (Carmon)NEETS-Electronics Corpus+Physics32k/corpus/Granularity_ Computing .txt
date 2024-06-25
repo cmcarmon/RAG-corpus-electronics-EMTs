@@ -1,0 +1,4 @@
+In parallel computing, granularity means the amount of computation in relation to communication, i.e., the ratio of computation to the amount of communication.
+Fine-grained parallelism means individual tasks are relatively small in terms of code size and execution time. The data is transferred among processors frequently in amounts of one or a few memory words. Coarse-grained is the opposite: data is communicated infrequently, after larger amounts of computation.
+The finer the granularity, the greater the potential for parallelism and hence speed-up, but the greater the overheads of synchronization and communication.
+In order to attain the best parallel performance, the best balance between load and communication overhead needs to be found. If the granularity is too fine, the performance can suffer from the increased communication overhead. On the other side, if the granularity is too coarse, the performance can suffer from load imbalance.

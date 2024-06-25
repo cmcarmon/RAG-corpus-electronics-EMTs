@@ -1,0 +1,24 @@
+The cepstrum is particularly well-suited to working with a
+warped frequency axis since it is based directly on the magni-
+tude spectrum of the speech. Suppose one desires to compute
+the cepstral parameters at frequencies distributed linearly on
+the range 0–1 kHz and logarithmically above 1 kHz. One ap-
+proach is to ‘‘oversample’’ the frequency axis with the DFT–
+IDFT pair by using, say, a N0 ¼ 1024 or 2048 point DFT, then
+selecting those frequency components in the DFT that repre-
+sent the appropriate distribution. The remaining components
+can be set to zero, or, more commonly, a second psychoacous-
+tic principle is invoked.
+Loosely speaking, it has been found that the perception of a
+particular frequency by the auditory system, say F0, is inﬂu-
+enced by energy in a critical band of frequencies around F0
+(O’Shaughnessy, 1987). Further, the bandwidth of these crit-
+ical bands varies with frequency, beginning at about 100 Hz for
+frequencies below 1 kHz, then increasing logarithmically above
+1 kHz. Therefore, rather than simply using the mel-distributed
+log magnitude frequency components to compute the cep-
+strum, it has become common to use the log total energy in
+critical bands around the mel frequencies as inputs to the ﬁnal
+DFT. The energy components in each critical band are
+weighted by a critical band ﬁlter to account for their relative
+inﬂuences in the band (Davis and Mermelstein, 1980; Dautrich

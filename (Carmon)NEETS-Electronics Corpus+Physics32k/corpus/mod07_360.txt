@@ -1,0 +1,9 @@
+The phase shift of 180 degrees between input and output signals is the same as that of common-
+cathode vacuum tube circuits (and common-emitter transistor circuits). The reason for the phase shift can 
+be seen easily by observing the operation of the N-channel JFET. On the positive alternation of the input 
+signal, the amount of reverse bias on the P-type gate material is reduced, thus increasing the effective 
+cross-sectional area of the channel and decreasing source-to-drain resistance. When resistance decreases, 
+current flow through the JFET increases. This increase causes the voltage drop across R3 to increase, 
+which in turn causes the drain voltage to decrease. On the negative alternation of the cycle, the amount of 
+reverse bias on the gate of the JFET is increased and the action of the circuit is reversed. The result is an 
+output signal, which is an amplified 180-degree-out-of-phase version of the input signal. 

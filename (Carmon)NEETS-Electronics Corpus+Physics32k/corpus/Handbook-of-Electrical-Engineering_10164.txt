@@ -1,0 +1,12 @@
+Joint torque sensors, as the name implies, are placed at the joints of the manipulator. If F represent the vector
+of forces at the end effector, then the corresponding vector of joint torques is obtained by using t =[J(q)]T F,
+where J(q) is the Jacobian and q are the generalized joint coordinates. Joint torque sensing has some drawbacks.
+First, to obtain the endpoint forces F, the Jacobian which changes with the conﬁguration has to be inverted in
+real time. Second, the sensors at the joints not only measure the forces and torques applied at the hand but
+also those applied at the other points of the manipulator. Wrist sensors are better at reducing this uncertainty
+because they are placed close to the end effector and below the last powered joint of the manipulator. Several
+wrist sensors are available commercially with necessary electronics to obtain force/torque measurements at high
+speeds suitable for real-time force control. Another method for providing information about the gripping forces
+is  by  mounting  tactile  sensors  at  the  ﬁngertips.  However,  these  may  not  be  suitable  in  situations  where  high
+gripping forces are required. Force pedestals are employed when a common platform is used for many tasks. In
+this case, the platform is instrumented to measure interacting forces and torques.

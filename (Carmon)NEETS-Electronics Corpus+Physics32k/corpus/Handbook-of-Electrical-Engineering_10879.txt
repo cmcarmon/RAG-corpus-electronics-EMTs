@@ -1,0 +1,5 @@
+that are used in CACSD, and none of them takes a standard approach to packing data structures. Thus, the
+data structures used in the Multivariable Control Systems Toolbox are completely incompatible with those used
+in the Systems Identiﬁcation Toolbox, which itself is incompatible with the standard Control Systems Toolbox.
+The consequence is that each toolbox must supply conversion tools and the situation is similar to the problems
+faced with integrating data from two different packages.

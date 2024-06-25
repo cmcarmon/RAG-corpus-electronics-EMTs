@@ -1,0 +1,7 @@
+Figure 6.2.15(a) shows the block diagram of a dual-ramp (dual-slope) A/D converter. After a
+start-of-conversion pulse, the counter is cleared and the analog input Vin becomes the input of the
+ramp generator (integrator). When the output of the ramp generator Vo reaches zero, the counter
+starts to count. After a ﬁxed amount of time T, as shown in Figure 6.2.15(b), the output of the
+ramp generator is proportional to the analog input signal. At the end of T, the reference voltage
+Vref is selected, when the integrator gives out a ramp with a positive slope. As Vo increases, the
+counter is incremented until Vo reaches the comparator threshold voltage of 0 V, when the counter

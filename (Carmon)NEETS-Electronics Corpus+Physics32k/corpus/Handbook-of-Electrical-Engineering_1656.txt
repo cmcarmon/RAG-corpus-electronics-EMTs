@@ -1,0 +1,5 @@
+The covariance matrix of the prediction errors is Mk, and Rk is the measurement error covariance matrix. If
+Mk is large, then the ﬁrst term in J is weighted less because the prediction, xk, is relatively inaccurate. Similarly,
+if Rk is large, then the second term in J is weighted less because the measurement, zk, is relatively inaccurate.
+The  weighted  least  squares  criterion,  J,  strikes  a  balance  between  prediction  errors  and  measurement  errors.
+To ﬁnd the value of ˆxk that minimizes J, we can set the derivative of J with respect to ˆxk equal to zero:

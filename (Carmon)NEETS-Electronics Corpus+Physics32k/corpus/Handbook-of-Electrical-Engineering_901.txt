@@ -1,0 +1,14 @@
+Noise analysis is performed by including noise sources in the models. Typical noise sources include thermal
+ is
+= 4
+noise in resistors 
+ is the bandwidth of the circuit. These noise sources
+temperature in Kelvins, 
+) into the AC model. The resulting current due to the noise
+are inserted as independent current sources, In
+source is then calculated at a user-speciﬁed summation node(s) by multiplying by the gain function between
+the noise source and the summation node 
+). This procedure is repeated for each noise source and then
+the contributions at the reference node are root mean squared (RMS) summed to give the total noise at the
+reference  node.  The  equivalent  input  noise  is  then  easily  calculated  from  the  transfer  function  between  the
+circuit input and the reference node 

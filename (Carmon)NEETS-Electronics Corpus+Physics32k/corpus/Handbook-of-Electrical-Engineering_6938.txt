@@ -1,0 +1,4 @@
+Next, let X(t) = [a + S(t)]cos[2pft + F], where the signal S(t) is a nondeterministic stochastic process. This
+is an amplitude-modulated sine wave carrier. The carrier cos[2pft + F] has random initial condition F and
+is  deterministic.  Because  S(t)  is  nondeterministic,  X(t)  is  also.  The  expected  value  E[X(t)]  =  E[a  +
+S(t)]E[cos(2pft + F)] can be found as above by independence of S(t) and F.

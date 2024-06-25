@@ -1,0 +1,5 @@
+In this subsection, we illustrate how in-place mapping on
+arrays with partly nonoverlapping lifetimes allows the reduc-
+tion of the required memory size for an algorithm. We use the
+autocorrelation part of a linear predictive coding vocoder
+algorithm introduced in Section 2.7.3.

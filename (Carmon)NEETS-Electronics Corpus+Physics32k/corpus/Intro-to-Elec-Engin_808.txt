@@ -1,0 +1,5 @@
+The timing functions are performed by counting the output cycles of a timing oscillator,
+which generates a square wave with a precise period of 0.1 s. The digital signals produced by the
+counter are passed on to a digital comparator, which compares them with signals from a reference
+count generator and decides when the pulse generator is to deliver an output pulse of a speciﬁed
+amplitude and duration.

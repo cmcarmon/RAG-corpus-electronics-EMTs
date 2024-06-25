@@ -1,0 +1,11 @@
+These  higher  levels  of  abstraction  support  a  more  expressive, “higher-bandwidth”  communication  interface
+between  engineers  and  DA  programs.  Engineers  can  focus  their  creative,  cognitive  skills  on  concept  and
+behavior,  rather  than  on  the  complexities  of  detailed  implementation.  Associated  design  entry  mechanisms
+typically use hardware description languages with a combination of textual and graphic techniques [Birtwistle
+and Subrahmanyan, 1988].
+ Figure 34.7 shows an example of a simple state diagram. The state diagram deﬁnes three states, denoted by
+circles. State-to-state transitions are denoted by labeled arcs; state transitions depend on the present state and
+the  input  X.  The  output,  Z,  per  state  is  given  within  each  state.  Since  the  output  is  dependent  on  only  the
+. If the output is dependent on the
+present state, the digital system is classiﬁed as a Moore 
+present state and input, then the digital system is classiﬁed as a Mealy ﬁnite state machine.

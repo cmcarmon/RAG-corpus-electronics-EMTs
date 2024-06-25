@@ -1,0 +1,12 @@
+Given this information, the optimization goal is to compute
+a feasible clock schedule s (respectively t
+cd) so as to minimize
+the least square error between the computed clock schedule s
+and the objective clock schedule g. Recall that the least square
+error et (described by equation 4.20) is deﬁned as the sum of
+the squares of the distances (algebraic differences) between the
+actual and objective clock skews over all local data paths in
+the circuit. This problem is described in a formal framework
+in the following section. Also in the following section, the
+mathematical algorithm to solve this revised problem is
+explained in greater detail.

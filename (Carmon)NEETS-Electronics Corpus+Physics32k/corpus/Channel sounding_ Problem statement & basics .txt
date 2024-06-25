@@ -1,0 +1,7 @@
+In a multipath system, the wireless channel is frequency dependent, time dependent, and position dependent. Therefore, the following parameters describe the channel:
+Direction of departure(DOD)
+Direction of arrival (DOA)
+Time delay
+Doppler shift
+Complex polarimetric path weight matrix
+To characterize the propagation path between each transmitter element and each receiver element, engineers transmit a broadband multi-tone test signal. The transmitter's continuous periodic test sequence arrives at the receiver, and is correlated with the original sequence. This impulse-like auto correlation function is called channel impulse response (CIR). By obtaining the transfer function of CIR, we can make an estimation of the channel environment and improve the performance.

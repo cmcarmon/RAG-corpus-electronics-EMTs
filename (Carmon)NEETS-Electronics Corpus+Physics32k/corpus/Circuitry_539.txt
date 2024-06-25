@@ -1,0 +1,16 @@
+ 
+Interrupts 
+ 
+A program that simply executes a loop indefinitely 
+has  a  rather  limited  practical  application.  In  most 
+microprocessor  systems  we  want  to  be  able  to 
+interrupt  the  normal  sequence  of  program  flow  in 
+order to alert the microprocessor to the need to do 
+something. We can do this with a signal known as 
+an  interrupt. There  are  two  types  of  interrupt;  
+maskable and non-maskable. 
+  When  a  non-maskable 
+is 
+asserted,  the  processor  must  suspend  execution  of 
+the current instruction and respond immediately to 
+the interrupt. In the case of a maskable interrupt,

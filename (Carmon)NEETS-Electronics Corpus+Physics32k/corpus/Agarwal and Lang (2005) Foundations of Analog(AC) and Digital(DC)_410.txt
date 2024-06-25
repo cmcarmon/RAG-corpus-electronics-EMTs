@@ -1,0 +1,13 @@
+3.1 I N T R O D U C T I O N
+The basic network analysis method introduced in Chapter 2 is fundamental
+but unfortunately often insufficient. The problem is that frequently we deal
+with complicated circuits in which we are interested in relating only one output
+variable to one input variable. For example, in analyzing a high-fidelity audio
+amplifier, we might wish to find only the relationship between the voltage at
+the output terminals and the voltage at the input terminals. The intermediate
+voltage and current variables might be of no direct interest to us, yet by the
+analysis method of Chapter 2, we are forced to define all such variables, and then
+systematically eliminate them. Even worse, a circuit with N branches, each with
+its own voltage and current, will in general have 2N unknown branch variables.
+Thus, 2N equations must be solved simultaneously in order to complete the
+analysis. Even for a simple circuit, 2N can be an unwieldy number.

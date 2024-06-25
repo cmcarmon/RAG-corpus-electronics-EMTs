@@ -1,0 +1,5 @@
+Next, they turn their attention to the output voltage level required for a logical 0. To
+their disappointment, they discover that the 1.7-V output produced by their new adders
+for a logical 0 output is greater than the maximum value of VOL = 1.5 V allowed by
+Disco. Thus their new adders violate the VOL requirement. At this point, the Yikes
+development team reluctantly concludes that their new adders cannot be sold to Disco.

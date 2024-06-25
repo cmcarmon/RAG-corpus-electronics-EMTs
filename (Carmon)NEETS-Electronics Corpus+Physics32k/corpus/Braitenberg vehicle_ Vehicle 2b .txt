@@ -1,0 +1,3 @@
+The agent has the same two (left and right) symmetric sensors (e.g. light detectors), but each one stimulating a wheel on the other side of the body. It obeys the following rule:
+More light left → right wheel turns faster → turns towards the left, closer to the light.
+As a result, the robot follows the light; it moves to be closer to the light.

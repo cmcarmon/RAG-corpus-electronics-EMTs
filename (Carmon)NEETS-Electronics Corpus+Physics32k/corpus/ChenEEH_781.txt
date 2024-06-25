@@ -1,0 +1,19 @@
+algorithm, we have more accesses to the main memory than to
+the local memory. In contrast, for the globally optimized case,
+we access the main memory only a bit more than once per
+location. The rest of the accesses are to the local memory. This
+is due to the increased data locality that is brought about by the
+loop transformations and reduced working set sizes from data
+layout reorganization. Figure 2.29(C) gives the total power
+consumption in the memories for the different local memory
+sizes and optimization levels. We observe two issues here ﬁrst,
+the globally optimized algorithm always performs better, and
+second the lowest power consumption for the globally opti-
+mized case is for a local memory size of 128 words and not for
+any higher size. This is because as we increase the local memory
+size, the number of memory accesses to this local memory does
+not increase proportionately and the number of accesses to the
+main memory remains the same. Hence, the total power con-
+sumption increases due to the increase in size of the local
+memory. Pure performance optimization does not lead to the
+best power solution.

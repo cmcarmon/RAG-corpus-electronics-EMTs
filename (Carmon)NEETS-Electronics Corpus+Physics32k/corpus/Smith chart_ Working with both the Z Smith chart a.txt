@@ -1,0 +1,85 @@
+In RF circuit and matching problems sometimes it is more convenient to work with admittances (representing conductances and susceptances) and sometimes it is more convenient to work with impedances (representing resistances and reactances). Solving a typical matching problem will often require several changes between both types of Smith chart, using normalised impedance for series elements and normalised admittances for parallel elements. For these a dual (normalised) impedance and admittance Smith chart may be used. Alternatively, one type may be used and the scaling converted to the other when required. In order to change from normalised impedance to normalised admittance or vice versa, the point representing the value of reflection coefficient under consideration is moved through exactly 180 degrees at the same radius. For example, the point P1 in the example representing a reflection coefficient of
+
+
+
+0.63
+∠
+
+60
+
+∘
+
+
+
+
+
+{\displaystyle 0.63\angle 60^{\circ }\,}
+has a normalised impedance of
+
+
+
+
+z
+
+P
+
+
+=
+0.80
++
+j
+1.40
+
+
+
+{\displaystyle z_{P}=0.80+j1.40\,}
+. To graphically change this to the equivalent normalised admittance point, say Q1, a line is drawn with a ruler from P1 through the Smith chart centre to Q1, an equal radius in the opposite direction. This is equivalent to moving the point through a circular path of exactly 180 degrees. Reading the value from the Smith chart for Q1, remembering that the scaling is now in normalised admittance, gives
+
+
+
+
+y
+
+P
+
+
+=
+0.30
+−
+j
+0.54
+
+
+
+{\displaystyle y_{P}=0.30-j0.54\,}
+. Performing the calculation
+
+
+
+
+
+y
+
+T
+
+
+=
+
+
+1
+
+z
+
+T
+
+
+
+
+
+
+
+{\displaystyle y_{\text{T}}={\frac {1}{z_{\text{T}}}}\,}
+
+manually will confirm this.
+Once a transformation from impedance to admittance has been performed the scaling changes to normalised admittance until such time that a later transformation back to normalised impedance is performed.
+The table below shows examples of normalised impedances and their equivalent normalised admittances obtained by rotation of the point through 180°. Again these may either be obtained by calculation or using a Smith chart as shown, converting between the normalised impedance and normalised admittances planes.

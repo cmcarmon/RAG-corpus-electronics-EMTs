@@ -1,0 +1,10 @@
+AB ¼ B regardless of choice of B. In such case, A is said to
+be the identity matrix and is most often represented by the
+symbol I. The identity matrix is an example of a diagonal
+matrix, where all aij ¼ 0 when i 6¼ j, written as A ¼
+diag {1, 1, . . . , 1}. In MATLAB, I nn is generated with the
+command eye (n). Taken all together, the set of square matrices
+over F, matrix addition, matrix multiplication, and the zero
+and identity matrices satisfy the six properties of a ring. A
+discussion of a multiplicative inverse in the context of matrices
+is left for Section 1.4.

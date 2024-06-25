@@ -1,0 +1,11 @@
+Output switching circuitry is needed in order to time and create these waveforms. Since the load impedance
+of the deﬁbrillation system ranges from 20 to 70 Ω, it is possible to have peak currents of 40 A in the output
+circuit.  There  is,  therefore,  a  need  for  high-power  electronic  switches  to  carry  the  current,  such  as  Silicon
+Controlled Rectiﬁers (SCRs), Metal Oxide Semiconductor Field Effect Transistors (MOSFETs), and Insulated
+Gate  Bipolar  Transistors  (IGBTs).  In  addition,  these  switches  must  be  mounted  so  that  there  are  very  low
+junctional resistances to minimize power loss. MOSFETs and IGBTs are often used in bridge circuits to facilitate
+switching  of  biphasic  waveforms.  SCRs  were  used  mostly  in  generating  monophasic  waveforms,  but  are  still
+used in some biphasic waveform circuits. Because these types of switches require around 15 V for the control,
+it is necessary to use a low-power dc/dc converter to boost the 6 V from the battery. Timing of the switching
+is  either  controlled  by  timing  circuitry,  or  by  voltage  monitoring  circuitry  that  causes  a  polarity  reversal  to
+occur when the voltage falls to a certain threshold.

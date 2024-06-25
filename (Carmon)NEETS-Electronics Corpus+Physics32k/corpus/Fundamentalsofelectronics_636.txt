@@ -1,0 +1,7 @@
+aside: There is an asymmetry in the coeﬃcients: where is a0? This coeﬃcient would multiply the
+y (n) term in (5.42). We have essentially divided the equation by it, which does not change the
+input-output relationship. We have thus created the convention that a0 is always one.
+As opposed to diﬀerential equations, which only provide an implicit description of a system (we must
+somehow solve the diﬀerential equation), diﬀerence equations provide an explicit way of computing the
+output for any input. We simply express the diﬀerence equation by a program that calculates each output
+from the previous output values, and the current and previous inputs.

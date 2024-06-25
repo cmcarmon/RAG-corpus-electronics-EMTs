@@ -1,0 +1,19 @@
+transmission network. Both real and reactive power ﬂows play
+equally important roles in determining the power ﬂow prop-
+erties of the system. Power ﬂow studies are among the most
+signiﬁcant computational studies carried out in power system
+planning and operations in the industry. Power ﬂow equations
+allow the computation of the bus voltage magnitudes and their
+phase angles as well as the transmission line current magni-
+tudes. In actual system operation, both the voltage and current
+magnitudes need to be maintained within strict tolerances for
+meeting consumer power quality requirements and for pre-
+venting overheating of the transmission lines, respectively. The
+difﬁculty in computing the power ﬂow solutions arises from
+the fact that the equations are inherently nonlinear because of
+the balancing of power quantities. Moreover, the large size of
+the power network implies that power ﬂow studies involve
+solving a very large number of simultaneous nonlinear equa-
+tions. Fortunately, the sparse interconnected nature of the
+power network reﬂects itself in the computational process,
+facilitating the computational algorithms.

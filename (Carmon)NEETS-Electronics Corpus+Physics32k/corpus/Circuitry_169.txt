@@ -1,0 +1,31 @@
+or  
+ 
+C = 10 × 1049 F = 10 nF 
+ 
+In  practice,  any  value  equal  or  less  than  10  nF 
+would  be  adequate.  A  very  small  value  (say  less 
+than 1 nF) will, however, generate pulses of a very 
+narrow width. 
+ 
+Example 3.14 
+ 
+A circuit  is  required  to  produce  a  triangular 
+waveform from a square wave of frequency 1 kHz. 
+Devise  a  suitable  C–R  arrangement  and  specify 
+suitable values. 
+ 
+Solution 
+ 
+This time we require an integrating circuit like that 
+shown in Fig. 3.33. In order that the circuit operates 
+effectively  as  an  integrator,  we  need  to  make  the 
+time  constant,  C × R, very  much  less  than  the 
+periodic time of the input waveform (1 ms).    
+  Assuming that we choose a medium value for R
+of, say, 10 kF, the minimum value which we could 
+allow  C to  have  would  be  that  which  satisfies  the 
+equation: 
+ 
+C × R = 10 t 
+ 
+where R = l0 kF and t = 1 ms. Thus 

@@ -1,0 +1,5 @@
+Although the network is linear, load ﬂow analysis is iterative because of nodal (busbar) constraints. At most
+busbars the active and reactive powers being delivered to customers are known but the voltage level is not. As
+far as the load ﬂow analysis is concerned, these busbars are referred to as PQ buses. The generators are scheduled
+to deliver a speciﬁc active power to the system and usually the voltage magnitude of the generator terminals is
+ﬁxed by automatic voltage regulation. These busbars are known as PV buses.

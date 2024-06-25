@@ -1,0 +1,20 @@
+Random-access memory (RAM) allows storage location to be
+accessed in any order and access time to be ﬁxed regardless of
+the accessed location. Unlike sequential access memory (e.g.,
+magnetic tape), for which data access can only start from the
+beginning and the address is searched sequentially, RAM can
+access any address in a constant time. For example, if the access
+time of a RAM is stated to be 60 ns, any address location inside
+that RAM can be accessed within that time. RAM is, therefore,
+much faster to read from and write to than other storage
+devices such as hard disks, ﬂoppy disks, and magnetic tapes.
+However, the stored information in RAM is volatile. RAM
+loses all of its contents as soon as the power to the system is
+turned off. There are two types of RAM: static (SRAM) and
+dynamic (DRAM). It is worth noting that the terms static and
+dynamic do not refer to mechanical movement in storage
+device; instead, they refer to the need to refresh the contents.
+In DRAM, the stored contents have a tendency to decay over-
+time. Thus, periodic recharging (refreshing) is needed to
+maintain the content correctness. SRAM, on the other hand,
+does not require refreshing. A typical refresh rate is 15 ms.

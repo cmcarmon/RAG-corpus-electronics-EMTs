@@ -1,0 +1,14 @@
+that the relay can ‘‘see’’ the faults occurring in a forward
+direction, looking from the relay position toward the adjacent
+line terminal and beyond. The BR setting is selected so that the
+relay can ‘‘see’’ the faults occurring in the backward direction,
+causing a reversal of the power ﬂow. If the relay R1 (at location
+A) has ‘‘seen’’ the fault (at location X1) in zone FO behind the
+relay R2 positioned at the other end (at location B) of the line,
+the relay is blocked by relay R2 from operating. Relay R2 has
+‘‘seen’’ the fault at location X1 in a BR zone and, hence, can
+‘‘tell’’ the relay R1 not to trip by sending a blocking signal.
+Should a fault occur in between the two relays (location X2),
+the blocking signal is not sent, and both relays operate instan-
+taneously since both relays ‘‘see’’ the fault in zone FO and
+neither in zone BR.

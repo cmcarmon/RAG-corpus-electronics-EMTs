@@ -1,0 +1,14 @@
+Some prefer to use a more global approach with BSIM, ﬁtting to measured data with ParL and ParW terms
+directly. Although this is certainly possible, it is deﬁnitely not a recommended approach. It represents the worst
+form of blind curve ﬁtting, with no regard for physical correctness or understanding. The BSIM model was
+originally developed with the idea of obtaining the model parameters via extraction as opposed to optimization.
+In  fact,  UC  Berkeley  provides  software  for  obtaining  BSIM  parameters  using  extraction  algorithms,  with  no
+optimization at all. As stated previously, this has the advantage of being relatively fast and easy. Unfortunately,
+it does not always work. One of the major drawbacks of the BSIM model is that certain values of the parameters
+can cause the model to produce negative values of Gds in saturation. This is highly undesirable, not only from
+a modeling standpoint, but also because of the convergence problems it can cause in circuit simulators. If an
+extraction strategy is used that does not guarantee non-negative Gds , very little can be done to ﬁx the problem
+when Gds becomes negative. Of course, the extraction algorithms can be modiﬁed, but this is difﬁcult and time
+consuming. With  optimization  strategies,  one  can  weight  the  ﬁtting  for Gds  more  heavily  and  thus  force  the
+model  to  produce  non-negative  Gds . We,  therefore,  do  not  favor  extraction  strategies  for  BSIM,  or  anything
+else. As with most things in life, minimal effort provides minimal rewards.

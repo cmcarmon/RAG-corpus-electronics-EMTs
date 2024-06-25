@@ -1,0 +1,16 @@
+Figure 5-30 shows a typical tracking generator used with the Hewlett-Packard 141 T spectrum 
+analyzer. A TRACKING GENERATOR is basically a sweep generator in which the sweep rate is 
+matched to that of the spectrum analyzer. The output circuitry of the tracking generator contains a 
+network that ensures a constant output amplitude over the entire range being swept. When the fm signal 
+produced by the tracking generator is applied to a device or circuit under test, the instantaneous output 
+amplitude is always proportional to the response of the circuit to the frequency at that instant. Thus, the 
+original fm input signal is changed in passing through the circuit under test. The output signal, therefore, 
+would consist of an fm signal that is also amplitude-modulated. For equal deviations, the positive and 
+negative portions of this envelope are symmetrical, making it necessary to observe only one side of the 
+envelope. After the detection stage in the spectrum analyzer, only the modulation remains to appear on 
+the face of the crt. This presentation will appear as a continuous curve because of the persistence of vision 
+and the phosphor characteristic of the crt. The polarity of the detector determines whether a positive or a 
+negative output is displayed. The frequency at any point on the crt display can be analyzed by arresting 
+the scan of the spectrum analyzer either electronically or manually at the point of interest. For greater 
+accuracy in frequency determination, a frequency counter may be attached to the output of the tracking 
+generator at the point of the arrested scan. 

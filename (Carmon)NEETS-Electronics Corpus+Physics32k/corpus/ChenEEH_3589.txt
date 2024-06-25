@@ -1,0 +1,8 @@
+In equation 2.2, vLP is the cutoff frequency of the designed
+low-pass ﬁlter. The vLP shall be chosen to guarantee no alias-
+ing (i.e., vc < vLP < vs=2). The impulse response in the
+above equation is depicted in Figure 2.5. It is easy to verify
+that a causal ﬁlter with this exact impulse response cannot be
+implemented. In practice, it is possible to design analog ﬁlters
+that are good approximations for the frequency response in
+Figure 2.5.

@@ -1,0 +1,12 @@
+Figure 1-4 illustrates a radar system with a 1 millisecond prt. The pulses are shown at the top, and
+examples of two transmitted pulses hitting targets and returning are shown at the bottom. In the case of
+target A, the pulse travels round trip in 0.5 millisecond, which equates to a target range of 82,000 yards.
+Since 0.5 millisecond is less than 1 millisecond, displaying a correct range is no problem. However, target
+B is 196,800 yards distant from the radar system. In this case, total pulse travel time is 1.2 milliseconds
+and exceeds the prt limitation of 1 millisecond for this radar. While the first transmitted pulse is traveling
+to and returning from target B, a second pulse is transmitted and the radar system is reset to 0 again. The
+first pulse from target B continues its journey back to the radar system, but arrives during the timing
+period for the second pulse. This results in an inaccurate reading. In this case, the first return pulse from
+target B arrives 0.2 millisecond into the second timing period. This results in a range of 32,800 yards
+instead of the actual 196,800 yards. You should see from this example that pulse returns in excess of the
+prt of the radar system result in ambiguous ranges while pulse returns within the prt limits result in

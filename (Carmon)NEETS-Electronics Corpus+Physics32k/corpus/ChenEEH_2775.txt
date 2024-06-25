@@ -1,0 +1,9 @@
+We see from the above discussion that the solution growth
+factor q under conditions of numerical instability is the same,
+regardless of the dimensionality of the FDTD space lattice if
+the same normalized Courant factor is used. A normalized
+Courant factor equal to 1 yields no exponential solution
+growth for any dimensionality grid. However, a normalized
+Courant factor only 0.05% larger, yields a multiplicative solu-
+tion growth of 1.0653 every time-step for each dimensionality
+grid:

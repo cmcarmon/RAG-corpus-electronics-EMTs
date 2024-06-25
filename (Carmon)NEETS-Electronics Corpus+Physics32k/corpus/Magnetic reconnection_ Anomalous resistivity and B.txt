@@ -1,0 +1,213 @@
+In the Sweet-Parker model, the common assumption is that the magnetic diffusivity is constant. This can be estimated using the equation of motion for an electron with mass
+
+
+
+m
+
+
+{\displaystyle m}
+and electric charge
+
+
+
+e
+
+
+{\displaystyle e}
+:
+
+
+
+
+
+
+
+d
+
+
+v
+
+
+
+
+d
+t
+
+
+
+=
+
+
+e
+m
+
+
+
+
+E
+
+
+−
+ν
+
+
+v
+
+
+,
+
+
+{\displaystyle {d{\mathbf {v} } \over dt}={e \over m}{\mathbf {E} }-\nu {\mathbf {v} },}
+
+where
+
+
+
+ν
+
+
+{\displaystyle \nu }
+is the collision frequency. Since in the steady state,
+
+
+
+d
+
+
+v
+
+
+
+/
+
+d
+t
+=
+0
+
+
+{\displaystyle d{\mathbf {v} }/dt=0}
+, then the above equation along with the definition of electric current,
+
+
+
+
+
+J
+
+
+=
+e
+n
+
+
+v
+
+
+
+
+{\displaystyle {\mathbf {J} }=en{\mathbf {v} }}
+, where
+
+
+
+n
+
+
+{\displaystyle n}
+is the electron number density, yields
+
+
+
+
+η
+=
+ν
+
+
+
+c
+
+2
+
+
+
+ω
+
+p
+i
+
+
+2
+
+
+
+
+.
+
+
+{\displaystyle \eta =\nu {c^{2} \over \omega _{pi}^{2}}.}
+
+Nevertheless, if the drift velocity of electrons exceeds the thermal velocity of plasma, a steady state cannot be achieved and magnetic diffusivity should be much larger than what is given in the above. This is called anomalous resistivity,
+
+
+
+
+η
+
+a
+n
+o
+m
+
+
+
+
+{\displaystyle \eta _{anom}}
+, which can enhance the reconnection rate in the Sweet-Parker model by a factor of
+
+
+
+
+η
+
+a
+n
+o
+m
+
+
+
+/
+
+η
+
+
+{\displaystyle \eta _{anom}/\eta }
+.
+Another proposed mechanism is known as the Bohm diffusion across the magnetic field. This replaces the Ohmic resistivity with
+
+
+
+
+v
+
+A
+
+
+2
+
+
+(
+m
+c
+
+/
+
+e
+B
+)
+
+
+{\displaystyle v_{A}^{2}(mc/eB)}
+, however, its effect, similar to the anomalous resistivity, is still too small compared with the observations.

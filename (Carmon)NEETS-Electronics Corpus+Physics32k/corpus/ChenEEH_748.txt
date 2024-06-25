@@ -1,0 +1,9 @@
+For a given application, one can conceive numerous memory
+organizations: many memories or few memories, arrays stacked
+together into a memory or spread out over different memories,
+and memories with multiple ports to access the arrays in paral-
+lel, for example. Very few of these many alternative memory
+organizations, however, are acceptable. Most of them are actu-
+ally very costly or dissipate a lot of energy. Many of them also fail
+to meet the real-time constraints: they don’t provide the pro-
+cessor with the required data fast enough. Finally, some of them

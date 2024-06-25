@@ -1,0 +1,193 @@
+In relativity, the Newtonian concept of acceleration turns out not to be clear cut. For a black hole, which must be treated relativistically, one cannot define a surface gravity as the acceleration experienced by a test body at the object's surface. This is because the acceleration of a test body at the event horizon of a black hole turns out to be infinite in relativity. Because of this, a renormalized value is used that corresponds to the Newtonian value in the non-relativistic limit. The value used is generally the local proper acceleration (which diverges at the event horizon) multiplied by the gravitational time dilation factor (which goes to zero at the event horizon). For the Schwarzschild case, this value is mathematically well behaved for all non-zero values of r and M.
+When one talks about the surface gravity of a black hole, one is defining a notion that behaves analogously to the Newtonian surface gravity, but is not the same thing. In fact, the surface gravity of a general black hole is not well defined. However, one can define the surface gravity for a black hole whose event horizon is a Killing horizon.
+The surface gravity
+
+
+
+κ
+
+
+{\displaystyle \kappa }
+of a static Killing horizon is the acceleration, as exerted at infinity, needed to keep an object at the horizon. Mathematically, if
+
+
+
+
+k
+
+a
+
+
+
+
+{\displaystyle k^{a}}
+is a suitably normalized Killing vector, then the surface gravity is defined by
+
+
+
+
+
+k
+
+a
+
+
+
+
+∇
+
+a
+
+
+
+k
+
+b
+
+
+=
+κ
+
+k
+
+b
+
+
+,
+
+
+{\displaystyle k^{a}\,\nabla _{a}k^{b}=\kappa k^{b},}
+
+where the equation is evaluated at the horizon. For a static and asymptotically flat spacetime, the normalization should be chosen so that
+
+
+
+
+k
+
+a
+
+
+
+k
+
+a
+
+
+→
+−
+1
+
+
+{\displaystyle k^{a}k_{a}\rightarrow -1}
+as
+
+
+
+r
+→
+∞
+
+
+{\displaystyle r\rightarrow \infty }
+, and so that
+
+
+
+κ
+≥
+0
+
+
+{\displaystyle \kappa \geq 0}
+. For the Schwarzschild solution, we take
+
+
+
+
+k
+
+a
+
+
+
+
+{\displaystyle k^{a}}
+to be the time translation Killing vector
+
+
+
+
+k
+
+a
+
+
+
+∂
+
+a
+
+
+=
+
+
+∂
+
+∂
+t
+
+
+
+
+
+{\displaystyle k^{a}\partial _{a}={\frac {\partial }{\partial t}}}
+, and more generally for the Kerr–Newman solution we take
+
+
+
+
+k
+
+a
+
+
+
+∂
+
+a
+
+
+=
+
+
+∂
+
+∂
+t
+
+
+
++
+Ω
+
+
+∂
+
+∂
+φ
+
+
+
+
+
+{\displaystyle k^{a}\partial _{a}={\frac {\partial }{\partial t}}+\Omega {\frac {\partial }{\partial \varphi }}}
+, the linear combination of the time translation and axisymmetry Killing vectors which is null at the horizon, where
+
+
+
+Ω
+
+
+{\displaystyle \Omega }
+is the angular velocity.

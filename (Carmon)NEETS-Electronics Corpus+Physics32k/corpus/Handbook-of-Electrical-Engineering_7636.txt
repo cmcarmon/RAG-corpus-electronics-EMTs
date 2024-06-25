@@ -1,0 +1,12 @@
+Single-Pass Devices
+An example of an all-optical single-pass optical logic gate is the soliton NOR gate. It is an all-ﬁber logic gate
+based on time shifts resulting from soliton dragging. A NOR gate consists of two birefringent ﬁbers connected
+through a polarizing beamsplitter with the output ﬁltered by a polarizer as shown in Fig. 79.23. The clock pulse,
+which provides both gain and logic level restoration, propagates along one principal axis in both ﬁbers. For
+the NOR gate the ﬁber length is trimmed so that in the absence of any signal the entering clock pulse will arrive
+within the output time window corresponding to a “1.” When either or both of the input signals are incident,
+they interact with the clock pulse through soliton dragging and shift the clock pulse out of the allowed output
+time  window  creating  a “0”  output.  In  soliton  dragging  two  temporally  coincident,  orthogonally  polarized
+pulses interact in the ﬁber through cross-phase modulation and shift each other’s velocities. This velocity shift
+converts into a time shift after propagating some distance in the ﬁber. To implement the device, the two input
+signal  pulses g1  and g2  are  polarized  orthogonal  to  the  clock.  The  signals  are  timed  so  that g1  and  the  clock

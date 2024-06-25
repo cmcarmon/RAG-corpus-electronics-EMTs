@@ -1,0 +1,113 @@
+In Stokes flow, at very low Reynolds number, the convective acceleration terms in the Navier–Stokes equations are neglected. Then the flow equations become, for an incompressible steady flow:
+
+
+
+
+
+
+
+
+
+∇
+p
+=
+μ
+
+
+∇
+
+2
+
+
+
+u
+
+=
+−
+μ
+
+∇
+×
+
+ω
+
+,
+
+
+
+
+
+∇
+⋅
+
+u
+
+=
+0
+,
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}&\nabla p=\mu \,\nabla ^{2}\mathbf {u} =-\mu \,\nabla \times \mathbf {\boldsymbol {\omega }} ,\\&\nabla \cdot \mathbf {u} =0,\end{aligned}}}
+
+where:
+p is the fluid pressure (in Pa),
+u is the flow velocity (in m/s), and
+ω is the vorticity (in s−1), defined as
+
+
+
+
+ω
+
+=
+∇
+×
+
+u
+
+.
+
+
+{\displaystyle {\boldsymbol {\omega }}=\nabla \times \mathbf {u} .}
+
+By using some vector calculus identities, these equations can be shown to result in Laplace's equations for the pressure and each of the components of the vorticity vector:
+
+
+
+
+
+∇
+
+2
+
+
+
+ω
+
+=
+0
+
+
+{\displaystyle \nabla ^{2}{\boldsymbol {\omega }}=0}
+and
+
+
+
+
+∇
+
+2
+
+
+p
+=
+0.
+
+
+{\displaystyle \nabla ^{2}p=0.}
+
+Additional forces like those by gravity and buoyancy have not been taken into account, but can easily be added since the above equations are linear, so linear superposition of solutions and associated forces can be applied.

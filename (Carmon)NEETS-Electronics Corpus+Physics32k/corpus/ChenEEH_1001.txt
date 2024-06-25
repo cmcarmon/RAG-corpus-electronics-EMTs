@@ -1,0 +1,19 @@
+The dynamic power dissipation is the power required for the
+circuit to perform its anticipated tasks. In other words, it is the
+power needed for charging and discharging all nodes in a
+CMOS circuit. This power is only consumed when the circuit
+input signals change. In CMOS circuits, the dyanmic power
+dominates the total power dissipation. Such characteristic is
+greatly affected by current processes or the deep sub-micron
+processes (DSM), for which the ratio of leakage power to
+dynamic power is increasing. More details about this issue
+are presented in Subsection 5.3.3. Dynamic power dissipation
+is illustrated in Figure 5.9 for a simple static CMOS inverter.
+When the input signal falls, the PMOS transistor switches on
+while the NMOS transistor switches off, creating a path from
+the supply voltage to the output capacitance, thus allowing the
+output load to charge up to the supply voltage. On the other
+hand, when the input signal rises, the opposite scenario occurs:
+the NMOS transistor switches on, and the PMOS transistor
+switches off, creating a direct path from the output load to
+ground and allowing the output load to discharge.

@@ -1,0 +1,4 @@
+As an exercise in futility, the development engineers further investigate the input voltage
+levels. Disco’s static discipline requires that devices interpret any voltage between 0 V
+and 2 V (VIL) as a logical 0. The new adders from Yikes fail this test because they are
+unable to interpret signals above 1.5 V as a logical 0.

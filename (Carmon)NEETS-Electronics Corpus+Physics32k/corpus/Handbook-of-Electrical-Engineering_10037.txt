@@ -1,0 +1,8 @@
+where S and Q are symmetric, positive-semideﬁnite weighting matrices; and R is a symmetric, positive-deﬁnite
+weighting matrix. In this criterion, the term ½xT (tf)Sx(tf) represents a penalty for the state at the ﬁnal time tf
+being different from zero. The term inside the integral, xT (t)Qx(t), represents a penalty on the transient response
+of the state vector. The term uT(t)Ru(t) represents a penalty on the size of the control input u(t). We allow S
+and Q to be positive-semideﬁnite because we can generally tolerate unbounded state variables, provided they
+are not observed at the output. However, by forcing R to be positive-deﬁnite, we can guarantee that the process
+of minimizing Eq. (100.146) gives a bounded input. Minimization of this control energy is one of the primary
+reasons for using optimal control.

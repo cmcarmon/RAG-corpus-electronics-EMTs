@@ -1,0 +1,13 @@
+Observing the fact that single features cannot be used accu-
+rately in a wide variety of situations, Chen et al. (2004) have
+proposed to construct a high-dimensional feature vector called
+generalized trace (GT) by extracting a set of features from each
+dc frame. For each frame, GT contains the number of intra-
+coded as well as forward- and backward-predicted macro-
+blocks; a histogram intersection of current and previous
+frames for Y, U, and V color components; and a standard
+deviation of Y, U, and V components for the current frame.
+GT is then used in a binary regression tree to determine the
+probability that each frame is a shot boundary. These prob-
+abilities are used to determine the frames that most likely
+correspond to the shot boundary.

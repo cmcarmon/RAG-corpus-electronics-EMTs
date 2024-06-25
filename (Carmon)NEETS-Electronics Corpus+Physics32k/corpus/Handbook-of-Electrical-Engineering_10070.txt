@@ -1,0 +1,11 @@
+Successful adaptation of online neural controllers in many cases requires careful and substantial design effort.
+One  of  the  common  practices  is  to  pre-train  a  neural  controller  ofﬂine,  based  on  some  simpliﬁed  design
+methods, in the same way that a PI controller is designed based on approximated system models that can provide
+reasonable control performance, before putting the neural controller for online ﬁne-tuning [Chow and Menozzi,
+1993;  Chow  and  Teeter,  1995;  Teeter  et al.,  1996].  This  approach,  as  shown  in  Fig. 100.56,  can  speed  up  the
+neural  controller  online  adaptation  process  and  increase  the  closed-loop  online  adaptation  stability  because
+the initial weights of the neural controller are much closer to the optimal ﬁnal weights (if they exist) after the
+pre-training process. By learning online, the ANN controller can adapt to changing operating environments.
+This chapter section brieﬂy describes the feedforward net paradigm to facilitate the discussion of the neural
+observer and neural controller concepts in later sections. An example of using neural control for an HVAC system
+will then be provided to demonstrate its effectiveness for solving real-world problems.

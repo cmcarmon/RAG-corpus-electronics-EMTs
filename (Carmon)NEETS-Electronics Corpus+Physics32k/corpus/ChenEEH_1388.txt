@@ -1,0 +1,16 @@
+To ease the development of reconﬁgurable designs, it is
+desirable to automate the identiﬁcation of reconﬁgurable
+regions (Shirazi et al., 1998a). This involves the following
+steps: (1) identiﬁcation of identical or similar components
+between two successive designs and (2) placement of such
+components to minimize reconﬁguration time. An example
+of this process is shown in Figure 3.1. In this design, blocks A,
+B, and C are present in both design 1 and design 2, while block
+D is present only in design 1 and block E only in design 2.
+Given these two designs, the task of a tool is to produce a run-
+time reconﬁgurable (RTR) design such that, when reconﬁg-
+uring from design 1 to design 2, only block D needs to be
+reconﬁgured to block E. In other words, the blocks have to be
+physically aligned to minimize the reconﬁgurable region
+covered by blocks D and E; blocks A, B, and C are outside
+the reconﬁgurable region and will not be reconﬁgured.

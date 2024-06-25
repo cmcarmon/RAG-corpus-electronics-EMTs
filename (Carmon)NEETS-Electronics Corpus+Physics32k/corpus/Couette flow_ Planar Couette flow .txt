@@ -1,0 +1,143 @@
+Couette flow is frequently used in undergraduate physics and engineering courses to illustrate shear-driven fluid motion. The simplest conceptual configuration finds two infinite, parallel plates separated by a distance
+
+
+
+h
+
+
+{\displaystyle h}
+. One plate, say the top one, translates with a constant velocity
+
+
+
+U
+
+
+{\displaystyle U}
+in its own plane. Neglecting pressure gradients, the Navier–Stokes equations simplify to
+
+
+
+
+
+
+
+
+d
+
+2
+
+
+u
+
+
+d
+
+y
+
+2
+
+
+
+
+
+=
+0
+,
+
+
+{\displaystyle {\frac {d^{2}u}{dy^{2}}}=0,}
+
+where
+
+
+
+y
+
+
+{\displaystyle y}
+is a spatial coordinate normal to the plates and
+
+
+
+u
+(
+y
+)
+
+
+{\displaystyle u(y)}
+is the velocity distribution. This equation reflects the assumption that the flow is uni-directional. That is, only one of the three velocity components
+
+
+
+(
+u
+,
+v
+,
+w
+)
+
+
+{\displaystyle (u,v,w)}
+is non-trivial. If y originates at the lower plate, the boundary conditions are
+
+
+
+u
+(
+0
+)
+=
+0
+
+
+{\displaystyle u(0)=0}
+and
+
+
+
+u
+(
+h
+)
+=
+U
+
+
+{\displaystyle u(h)=U}
+. The exact solution
+
+
+
+
+u
+(
+y
+)
+=
+U
+
+
+y
+h
+
+
+
+
+{\displaystyle u(y)=U{\frac {y}{h}}}
+
+can be found by integrating twice and solving for the constants using the boundary conditions. A notable aspect of the flow is that shear stress is constant throughout the flow domain. In particular, the first derivative of the velocity,
+
+
+
+U
+
+/
+
+h
+
+
+{\displaystyle U/h}
+, is constant. (This is implied by the straight-line profile in the figure.) According to Newton's Law of Viscosity (Newtonian fluid), the shear stress is the product of this expression and the (constant) fluid viscosity.

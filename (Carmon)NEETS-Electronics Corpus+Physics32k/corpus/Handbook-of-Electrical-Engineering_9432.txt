@@ -1,0 +1,9 @@
+The  Hamming  distance  gives  insight  into  the  requirements  of  error  detecting  codes  and  error  correcting
+of a code as the minimum Hamming distance between any two valid code words.
+codes. We deﬁne the 
+If a binary code has a distance of two, then any single-bit error introduced into a code word will result in the
+erroneous word being an invalid code word because all valid code words differ in at least two bit positions. If
+a code has a distance of 3, then any single-bit error or any double-bit error will result in the erroneous word
+being  an  invalid  code  word  because  all  valid  code  words  differ  in  at  least  three  positions.  However,  a  code
+distance of 3 allows any single-bit error to be corrected, if it is desired to do so, because the erroneous word
+with a single-bit error will be a Hamming distance of 1 from the correct code word and at least a Hamming

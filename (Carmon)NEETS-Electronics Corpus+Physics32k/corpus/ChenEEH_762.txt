@@ -1,0 +1,8 @@
+The other end of the spectrum is to store all the arrays in
+different memories. This leads to a relatively high energy
+consumption because then the external global interconnection
+lines connecting all these (small) memories with each other
+and with the data paths become an important contributor.
+Likewise, the area occupied by the memory system increases,
+due to the interconnections and the ﬁxed address decoding
+and other overhead per memory.

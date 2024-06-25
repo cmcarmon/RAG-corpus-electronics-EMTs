@@ -1,0 +1,8 @@
+Another precision rectiﬁer circuit is shown in Fig. 5.18. In this circuit, the load voltage is an ampliﬁed and
+inverted version of the negative variations in the input signal, and is 0 when the input is positive. Also in contrast
+with the previous circuit, the ampliﬁer in this rectiﬁer is not driven to one of its output extremes. When vin is
+negative, the ampliﬁer output, vo, is positive, so diode D1 is reverse biased and diode D2 is forward biased. D1
+is  open  and  D2  connects  the  ampliﬁer  output  through  Rf  to  v –.  Thus,  the  circuit  behaves  like  an  ordinary
+inverting  ampliﬁer  with  gain  –R f/R1.  The  load  voltage  is  an  ampliﬁed  and  inverted  (positive)  version  of  the
+negative  variations  in  vin.  When  vin  becomes  positive,  vo  is  negative,  D1  is  forward  biased,  and  D2  is  reverse
+biased. D1 shorts the output vo to  v–, which is held at virtual ground, so vL is 0.

@@ -1,0 +1,10 @@
+Generally speaking, DTW is used to match an incoming test
+word (represented by a string of features) with numerous
+reference words (also represented by feature strings). The
+reference word with the best match score is declared the
+‘‘recognized’’ word. In fairness to the correct reference string,
+the test features should be aligned with it in the manner that
+gives the best matching score to prevent time differences from
+unduly inﬂuencing the match. On the other hand, constraints
+on the matching process prevent unreasonable alignments
+from taking place.

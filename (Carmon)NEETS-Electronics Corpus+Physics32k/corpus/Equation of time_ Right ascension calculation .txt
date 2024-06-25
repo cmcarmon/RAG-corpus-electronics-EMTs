@@ -1,0 +1,92 @@
+The right ascension, and hence the equation of time, can be calculated from Newton's two-body theory of celestial motion, in which the bodies (Earth and Sun) describe elliptical orbits about their common mass center. Using this theory, the equation of time becomes
+Δt = M + λp − α
+where the new angles that appear are
+M = 2π(t − tp)/tY, is the mean anomaly, the angle from the periapsis of the elliptical orbit to the mean Sun; its range is from 0 to 2π as t increases from tp to tp + tY;
+tY = 365.2596358 days is the length of time in an anomalistic year: the time interval between two successive passages of the periapsis;
+λp = Λ − M, is the ecliptic longitude of the periapsis;
+t is dynamical time, the independent variable in the theory. Here it is taken to be identical with the continuous time based on UT (see above), but in more precise calculations (of E or EOT) the small difference between them must be accounted for as well as the distinction between UT1 and UTC.
+To complete the calculation three additional angles are required:
+E, the Sun's eccentric anomaly (note that this is different from M);
+ν, the Sun's true anomaly;
+λ = ν + λp, the Sun's true longitude on the ecliptic.
+
+All these angles are shown in the figure on the right, which shows the celestial sphere and the Sun's elliptical orbit seen from the Earth (the same as the Earth's orbit seen from the Sun). In this figure ε is the obliquity, while e = √1 − (b/a)2 is the eccentricity of the ellipse.
+Now given a value of 0 ≤ M ≤ 2π, one can calculate α(M) by means of the following well-known procedure:
+First, given M, calculate E from Kepler's equation:
+M = E − e sin E
+Although this equation cannot be solved exactly in closed form, values of E(M) can be obtained from infinite (power or trigonometric) series, graphical, or numerical methods. Alternatively, note that for e = 0, E = M, and by iteration:
+E ≈ M + e sin M.
+This approximation can be improved, for small e, by iterating again,
+E ≈ M + e sin M + 1/2e2 sin 2M,
+and continued iteration produces successively higher order terms of the power series expansion in e. For small values of e (much less than 1) two or three terms of the series give a good approximation for E; the smaller e, the better the approximation.
+Next, knowing E, calculate the true anomaly ν from an elliptical orbit relation
+
+
+
+
+ν
+=
+2
+
+tan
+
+−
+1
+
+
+⁡
+
+(
+
+
+
+
+
+1
++
+e
+
+
+1
+−
+e
+
+
+
+
+tan
+⁡
+
+
+
+1
+2
+
+
+
+E
+
+)
+
+
+
+{\displaystyle \nu =2\tan ^{-1}\left({\sqrt {\frac {1+e}{1-e}}}\tan {\tfrac {1}{2}}E\right)}
+
+The correct branch of the multiple valued function tan−1 x to use is the one that makes ν a continuous function of E(M) starting from νE=0 = 0. Thus for 0 ≤ E < π use tan−1 x = Tan−1 x, and for π < E ≤ 2π use tan−1 x = Tan−1 x + π. At the specific value E = π for which the argument of tan is infinite, use ν = E. Here Tan−1 x is the principal branch, |Tan−1 x| < π/2; the function that is returned by calculators and computer applications. Alternatively, this function can be expressed in terms of its Taylor series in e, the first three terms of which are:
+ν ≈ E + e sin E + 1/4e2 sin 2E.
+For small e this approximation (or even just the first two terms) is a good one. Combining the approximation for E(M) with this one for ν(E) produces
+ν ≈ M + 2e sin M + 5/4e2 sin 2M.
+The relation ν(M) is called the equation of the center; the expression written here is a second-order approximation in e. For the small value of e that characterises the Earth's orbit this gives a very good approximation for ν(M).
+Next, knowing ν, calculate λ from its definition:
+λ = ν + λp
+The value of λ varies non-linearly with M because the orbit is elliptical and not circular. From the approximation for ν:
+λ ≈ M + λp + 2e sin M + 5/4e2 sin 2M.
+Finally, knowing λ calculate α from a relation for the right triangle on the celestial sphere shown above
+α = tan−1(cos ε tan λ)
+Note that the quadrant of α is the same as that of λ, therefore reduce λ to the range 0 to 2π and write
+α = Tan−1 (cos ε tan λ) + kπ,
+where k is 0 if λ is in quadrant 1, it is 1 if λ is in quadrants 2 or 3 and it is 2 if λ is in quadrant 4. For the values at which tan is infinite, α = λ.
+Although approximate values for α can be obtained from truncated Taylor series like those for ν, it is more efficacious to use the equation
+α = λ − sin−1 [y sin (α + λ)]
+where y = tan2(ε/2). Note that for ε = y = 0, α = λ and iterating twice:
+α ≈ λ − y sin 2λ + 1/2y2 sin 4λ.

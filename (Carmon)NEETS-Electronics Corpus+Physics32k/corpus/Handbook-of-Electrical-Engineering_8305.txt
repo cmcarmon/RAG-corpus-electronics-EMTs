@@ -1,0 +1,12 @@
+For the purpose of test pattern (i.e., input stimulus) generation it is often assumed that the circuit under test
+(CUT) is either fault-free or it contains only one node which is permanently stuck at a particular logic state.
+Thus, the most widely used fault model is the so-called single stuck-at fault model. Using this model each fault
+is tested by applying a speciﬁc test pattern that, in a good circuit, drives the particular node to the logic state
+which has the opposite value from the state of the fault assumed to be present in the faulty circuit. For example,
+to test if node v is stuck at logic state x (denoted by v/x or v-x), a test pattern must be used that would cause
+node v to be driven to the opposite of logic state x if the circuit is not faulty. Thus, the test pattern attempts
+to show that node v is not stuck at x by driving the node to a value other than x, which for a two-valued digital
+circuit must be the opposite of x (denoted by ~x). This leads to the requirement that to detect any stuck-at
+fault v/x, it is necessary to be able to control the logic value at node v so that it can be set to ~v. If the signal
+value at node v can be observed directly by connecting it to a test equipment, the particular fault v/x can be
+detected  readily.  However,  in  most  cases,  node  v  may  be  an  internal  node,  which  is  inaccessible  for  direct

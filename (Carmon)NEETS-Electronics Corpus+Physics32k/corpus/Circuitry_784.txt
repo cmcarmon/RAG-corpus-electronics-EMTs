@@ -1,0 +1,12 @@
+determines  linearized,  small-signal  models  for  all 
+of the non-linear devices in the circuit (e.g. diodes 
+and transistors).  The resultant linear circuit is then 
+analysed over a user-specified range of frequencies.  
+The desired output of an AC small-signal analysis 
+is  usually  a 
+transfer  function  (voltage  gain, 
+transimpedance,  etc.).    If  the  circuit  has  only  one 
+AC input, it is convenient to set that input to unity 
+and  zero  phase,  so  that  output  variables  have  the 
+same  value  as  the  transfer  function  of  the  output 
+variable with respect to the input. 

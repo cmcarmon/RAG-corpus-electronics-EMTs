@@ -1,0 +1,10 @@
+In this study, a run consists of a maximum of 100 consecu-
+tive trials. It is considered successful if the last trial (trial
+number less than 100) of the run has lasted 800 time-steps
+(with a step size of 0.05 sec). Otherwise, if the NDP controller
+is unable to swing up and keep the pendulum balanced at the
+top within 100 trials (i.e., none of the 100 trails has lasted over
+800 time-steps), then the run is considered unsuccessful. In
+this discussion’s simulations, a trial is either terminated at the
+end of the 800 times-steps or when the angular velocity of the
+pendulum is greater than 2p (i.e., v > 2p).

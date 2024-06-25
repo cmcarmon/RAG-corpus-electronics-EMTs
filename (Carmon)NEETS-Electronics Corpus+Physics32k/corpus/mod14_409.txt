@@ -1,0 +1,5 @@
+A negative-going pulse is applied to all PS terminals to start the countdown. This causes all the FFs
+to set and also lights indicators A, B, and C. The beginning count is 1112 (710). At the same time, LOWs
+are applied to the CLK inputs of FF2 and FF3, but they do not toggle because the PS overrides any
+change. All actions in the counter will take place on the negative-going portion of the input pulse. Let’s go
+through the pulse sequences in figure 3-27, view B.

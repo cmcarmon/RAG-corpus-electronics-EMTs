@@ -1,0 +1,14 @@
+Much as we did for the switch, we can plot the v i characteristics between
+the D and S terminals of the MOSFET for various gate-to-source voltages using
+the S model. Figure 6.11 shows this graph. Notice that the curves are shown
+only for the top-right quadrant. Because we define the drain to be the terminal
+with the higher voltage, by definition, vDS can never be negative.6 Therefore, the
+left quadrants are irrelevant. Similarly, the bottom-right quadrant is not shown
+because iDS is positive when vDS is positive. Unlike the MOSFET, devices for
+which this is not true (for example, batteries) are capable of providing power.
+Like the switch with a zero on its control input, the connection between the
+D and S terminals looks like an open circuit (iDS = 0) when vGS < VT. In
+contrast, the connection between D and S looks like a short circuit (vDS = 0)
+when vGS ≥ VT.
+We can summarize the S model for the MOSFET in algebraic form by stating
+its v i characteristics as follows:

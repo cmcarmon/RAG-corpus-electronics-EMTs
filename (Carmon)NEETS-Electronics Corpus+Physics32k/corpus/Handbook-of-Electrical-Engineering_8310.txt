@@ -1,0 +1,12 @@
+Before  discussing  the  various  techniques  that  may  be  used  to  improve  testability  of  digital  circuits,  it  is
+necessary to mention the related problem of determining test effectiveness. A typical digital system contains a
+very large number of possible stuck-at faults. This and the logical complexity of the circuits make it unacceptable
+to “guess”  how  effective  the  test  patterns  (or  the  diagnostic  program)  will  be  in  detecting  all  possible  faults.
+This  problem  is  often  approached  in  a  formal  manner  by  using  a  class  of  test  tool  called  a  fault  simulator
+program. A fault simulator uses the given set of test patterns to simulate the given circuit ﬁrst when there are
+no faults assumed present (i.e., good circuit simulation). Next, the circuit is simulated with the same set of test
+patterns, but this time the effects of each possible stuck-at fault are considered one at a time. For a given test
+pattern,  and  given  stuck-at-type  fault,  if  the  output  of  the  good  circuit  simulation  differs  from  the  output
+obtained during fault simulation, then the given fault will be detected by the given test pattern. This way, it is
+possible to determine the percentage of all possible stuck-at faults that may be present in a digital circuit which
+will be covered by the given set of test patterns.

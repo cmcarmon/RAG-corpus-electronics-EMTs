@@ -1,0 +1,4 @@
+In distributed databases, data is decomposed into fragments that are allocated to the different sites. A fragment
+is  allocated  to  a  site  in  a  way  that  maximizes  local  use.  This  allocation  scheme,  which  is  known  as  data
+localization, reduces the frequency of remote access. In addition, since each site deals with only a portion of
+the database, local query processing is expected to exhibit increased performance.

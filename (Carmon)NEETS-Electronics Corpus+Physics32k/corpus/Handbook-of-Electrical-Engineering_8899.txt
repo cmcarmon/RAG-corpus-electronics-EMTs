@@ -1,0 +1,3 @@
+For such a cache, the index into the cache can be determined strictly from the page offset. Since the virtual
+page offset is identical to the physical page offset, no translation is necessary, and the cache can be accessed
+concurrently with the TLB. The physical address must be obtained before the tag can be compared.

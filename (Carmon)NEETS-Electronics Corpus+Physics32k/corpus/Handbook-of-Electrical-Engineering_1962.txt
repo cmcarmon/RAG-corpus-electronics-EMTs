@@ -1,0 +1,13 @@
+Associativity Transformation
+The addition operations in many signal processing algorithms can be interchanged since the add operations
+satisfy associativity. Thus, it is possible to move the add operations outside the critical loops to increase the
+maximum  achievable  speed  of  the  system.  As  an  example  of  the  associative  transformation,  consider  the
+realization of a second-order recursion x(n) = 5/8x(n – 1) – 3/4x(n – 2) + u(n). Two possible realizations are
+shown in Fig. 18.7(a). The realization on the left contains one multiplication and two add operations in the
+critical inner loop, whereas the realization on the right contains one multiplication and one add operation in
+the critical inner loop. The realization on the left can be transformed to the realization on the right using the
+associativity transformation. Figure 18.7(b) shows a bit-serial implementation of this second-order recursion
+for the realization on the right for a word length of 8. This bit-serial system can be operated in a functionally
+correct manner for any word length greater than or equal to 5 since the inner loop computation latency is 5
+cycles. On the other hand, if associativity were not exploited, then the minimum realizable word length would
+be 6. Thus, associativity can improve the achievable speed of the system.

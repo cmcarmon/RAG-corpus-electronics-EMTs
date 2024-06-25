@@ -1,0 +1,5 @@
+When both A and B inputs are at the LOW level of –1.75 V, T2 will be active, with its emitter voltage at –1.35
+– 0.8 = –2.15 V. The current through the 365-W resistor becomes [–2.15 – (–5.2)]/0.365 = 8.2 mA. This current
+ﬂows through the 112-W resistor pulling the base of T4 down to –0.94 V, so that the (A + B) output will be at
+the LOW level of –1.75 V. With T1A and T1B cut off, the base of T5 is close to 0.0 V, and the (A + B) output will
+therefore be at the nominal HIGH level of –0.9 V.

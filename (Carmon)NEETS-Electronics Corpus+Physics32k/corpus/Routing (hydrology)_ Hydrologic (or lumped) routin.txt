@@ -1,0 +1,47 @@
+Hydrologic routing uses the continuity equation for hydrology. In its simplest form, inflow to the river reach is equal to the outflow of the river reach plus the change of storage:
+
+
+
+
+I
+=
+O
++
+
+
+
+Δ
+S
+
+
+Δ
+t
+
+
+
+
+
+{\displaystyle I=O+{\frac {\Delta S}{\Delta t}}}
+, where
+I is average inflow to the reach during
+
+
+
+Δ
+t
+
+
+{\displaystyle \Delta t}
+
+O is average outflow from the reach during
+
+
+
+Δ
+t
+
+
+{\displaystyle \Delta t}
+; and
+S is the water currently in the reach (known as storage)
+The hydrologic models (e.g. linear and nonlinear Muskingum models) need to estimate hydrologic parameters using recorded data in both upstream and downstream sections of rivers and/or by applying robust optimization techniques to solve the one-dimensional conservation of mass and storage-continuity equation.

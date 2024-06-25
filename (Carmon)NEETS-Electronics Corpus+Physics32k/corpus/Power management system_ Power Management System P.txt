@@ -1,0 +1,18 @@
+Electrical energy in any combination of the Generators is implemented according to calculations of the electric power tables of each vessel. PMS System decides which Generators combination will be the best according to the Load Consumptions. The capacity of the Generators is such that in the event of any one generating set will be stopped then it will still be possible to supply all services necessary to provide normal operational conditions of propulsion and safety. Furthermore, it will be sufficient to start the largest motor of the ship without causing any other motor to stop or having any adverse effect on other equipment in operation. In general a PMS Power Management System performs the following functions on a Ship:
+Automatic Synchronizing
+Automatic Load Sharing
+Automatic Start/Stop/Stby Generators according to Load Demand
+Large Motors Automatic Blocking
+Load Analysis and Monitoring
+Three (3) Phase Management and Voltage Matching
+Redundant Power Distribution
+Frequency Control
+Blackout Start
+Selection of Generators Priority (first leading main, second and third stby generator in sequence)
+Equal Load Division between generators
+Tripping of non-essential load groups (load shedding in two steps)
+Blocking of heavy consumers
+Operation of second generator in case first generator will be loaded 80% of its capacity
+Operation of standby generator, in case of malfunction in any one of the two generators
+Manual, secured, semi-automatic and automatic mode operation selection of generators
+Control selection for generators in engine control room

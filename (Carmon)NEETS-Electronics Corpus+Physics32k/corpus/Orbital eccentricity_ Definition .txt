@@ -1,0 +1,125 @@
+In a two-body problem with inverse-square-law force, every orbit is a Kepler orbit. The eccentricity of this Kepler orbit is a non-negative number that defines its shape.
+The eccentricity may take the following values:
+circular orbit: e = 0
+elliptic orbit: 0 < e < 1 (see ellipse)
+parabolic trajectory: e = 1 (see parabola)
+hyperbolic trajectory: e > 1 (see hyperbola)
+The eccentricity e is given by
+
+
+
+
+e
+=
+
+
+1
++
+
+
+
+2
+E
+
+L
+
+2
+
+
+
+
+
+m
+
+red
+
+
+
+α
+
+2
+
+
+
+
+
+
+
+
+
+{\displaystyle e={\sqrt {1+{\frac {2EL^{2}}{m_{\text{red}}\alpha ^{2}}}}}}
+
+where E is the total orbital energy, L is the angular momentum, mred is the reduced mass, and α the coefficient of the inverse-square law central force such as gravity or electrostatics in classical physics:
+
+
+
+
+F
+=
+
+
+α
+
+r
+
+2
+
+
+
+
+
+
+{\displaystyle F={\frac {\alpha }{r^{2}}}}
+
+(α is negative for an attractive force, positive for a repulsive one; see also Kepler problem)
+
+or in the case of a gravitational force:
+
+
+
+
+e
+=
+
+
+1
++
+
+
+
+2
+ε
+
+h
+
+2
+
+
+
+
+μ
+
+2
+
+
+
+
+
+
+
+
+{\displaystyle e={\sqrt {1+{\frac {2\varepsilon h^{2}}{\mu ^{2}}}}}}
+
+where ε is the specific orbital energy (total energy divided by the reduced mass), μ the standard gravitational parameter based on the total mass, and h the specific relative angular momentum (angular momentum divided by the reduced mass).
+For values of e from 0 to 1 the orbit's shape is an increasingly elongated (or flatter) ellipse; for values of e from 1 to infinity the orbit is a hyperbola branch making a total turn of 2 arccsc e, decreasing from 180 to 0 degrees. The limit case between an ellipse and a hyperbola, when e equals 1, is parabola.
+Radial trajectories are classified as elliptic, parabolic, or hyperbolic based on the energy of the orbit, not the eccentricity. Radial orbits have zero angular momentum and hence eccentricity equal to one. Keeping the energy constant and reducing the angular momentum, elliptic, parabolic, and hyperbolic orbits each tend to the corresponding type of radial trajectory while e tends to 1 (or in the parabolic case, remains 1).
+For a repulsive force only the hyperbolic trajectory, including the radial version, is applicable.
+For elliptical orbits, a simple proof shows that arcsin(
+
+
+
+e
+
+
+{\displaystyle e}
+) yields the projection angle of a perfect circle to an ellipse of eccentricity e. For example, to view the eccentricity of the planet Mercury (e = 0.2056), one must simply calculate the inverse sine to find the projection angle of 11.86 degrees. Next, tilt any circular object (such as a coffee mug viewed from the top) by that angle and the apparent ellipse projected to your eye will be of that same eccentricity.

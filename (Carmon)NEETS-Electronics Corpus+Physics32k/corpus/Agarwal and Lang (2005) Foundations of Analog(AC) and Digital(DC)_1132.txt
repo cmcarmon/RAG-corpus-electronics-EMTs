@@ -1,0 +1,7 @@
+Notice that because 1/K(VGS − VT) is a constant, vds is directly proportional to ids,
+which is a resistor relationship. Remarkably, a MOSFET with its gate and drain terminals
+connected behaves like a resistor with resistance 1/K(VGS − VT) to small signals.
+The small-signal equivalent circuit for the preceding element is shown in Figure 8.13.
+Because of its resistive behavior for small signals, and because MOSFETs with a high
+resistance are easier to fabricate than resistors, MOSFETs are commonly used as the
+load resistor in amplifiers.

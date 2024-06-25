@@ -1,0 +1,5 @@
+This setting and resetting of the FFs will continue until all the FFs are set and all the lamps are lit. At
+that time the count will be 11112 or 1510. Clock pulse 16 will cause FF1 to reset and lamp A to go out.
+This will cause FF2 through FF4 to reset, in order, and will extinguish lamps B, C, and D. The counter
+would then start at 00012 on clock pulse 17. To display a count of 1610 or 100002, we would need to add
+another FF.

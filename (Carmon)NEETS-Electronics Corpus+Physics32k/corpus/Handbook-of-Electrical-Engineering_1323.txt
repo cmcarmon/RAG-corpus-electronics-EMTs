@@ -1,0 +1,16 @@
+Analysis-by-Synthesis
+A signiﬁcant drawback to traditional “instantaneous” coding approaches such as DPCM lies in the perceptual
+or  subjective  relevance  of  the  distortion  measure  and  the  signals  to  which  it  is  applied.  Thus,  the  advent  of
+analysis-by-synthesis coding techniques poses an important milestone in the evolution of medium- to low-rate
+speech coding. An analysis-by-synthesis coder chooses the coder excitation by minimizing distortion between
+the original signal and the set of synthetic signals produced by every possible codebook excitation sequence.
+In  contrast,  time-domain  predictive  coders  must  produce  an  estimated  prediction  residual  (innovations
+sequence)  to  drive  the  spectral  shaping  ﬁlter(s)  of  the  LPC  model,  and  the  classical  DPCM  approach  is  to
+quantize  the  residual  sequence  directly  using  scalar  or  vector  quantizers.  The  incorporation  of  frequency-
+weighted distortion in the optimization of analysis-by-synthesis coders is signiﬁcant in that it de-emphasizes
+(increases the tolerance for) quantization noise surrounding spectral peaks. This effect is perceptually trans-
+parent since the ear is less sensitive to error around frequencies having higher energy [Atal and Schroeder, 1979].
+This approach has resulted in signiﬁcant improvements in low-rate coder performance, and recent increases
+in  processor  speed  and  power  are  crucial  enabling  techniques  for  these  applications.  Analysis-by-synthesis
+coders based on linear prediction are generally described as hybrid coders since they fall between waveform
+coders and vocoders.

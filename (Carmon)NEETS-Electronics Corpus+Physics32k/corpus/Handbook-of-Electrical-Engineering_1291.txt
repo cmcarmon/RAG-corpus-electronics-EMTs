@@ -1,0 +1,8 @@
+In this latter representation, Yp and Xq are referred to as the (N + 1) ·  (p + 1) response matrix and the (N + 1)
+·  (q + 1) excitation matrix, respectively. Similarly, ap and bq are the recursive coefficient vectors identifying the
+recursive  operator. With  this  preliminary  development,  the  basic  attributes  characterizing  recursively  related
+data are now formally spelled out [see Cadzow and Solomon, 1988].
+Theorem 13. Let the excitation-response data (x(n),y(n)) for 0 £ n £ N be related through a reduced-order
+recursive  relationship (˜p, ˜q)  in  which ˜p  £  p  and ˜q  £  q.  It  then  follows  that  the  extended-order  recursive
+relationship (14.143) will always have a solution. Moreover, if the excitation and response matrices are full rank
+so that

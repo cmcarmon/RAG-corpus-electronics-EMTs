@@ -1,0 +1,14 @@
+Heterogeneous architectures are designed by careful examination of the algorithm to be implemented. The
+most time-critical functions must be identiﬁed early. Those operations are typically implemented as special-
+purpose function units. For example, the block motion estimation engine of Fig. 17.26 can be used as a special-
+purpose function unit in a more complex application like an MPEG video compressor. Communication links
+must be provided between the function units to provide adequate bandwidth for the data transfers. In structured
+communication architectures, data transfers can be organized around buses or more general communication
+networks like crossbars. Heterogeneous communication systems make specialized connections as required by
+the  algorithm.  Many  modern  heterogeneous  video  processors  use  as  much  structured  communication  as
+possible but add specialized communication links as required to meet performance requirements. Many modern
+heterogeneous processors are at least somewhat programmable. Basic architectures may use registers to control
+certain parameters of the algorithm. More complex algorithms may use general-purpose microprocessors as
+elements of the architecture. Small microcontrollers are frequently used for system interfacing, such as talking
+to a keyboard or other controlling device. Larger microprocessors can be used to run algorithms that do not
+beneﬁt from special-purpose function units.

@@ -1,0 +1,11 @@
+There have also been designs proposed that can correct a
+single error, and these are classiﬁed as one-fault tolerant
+(1-FT). These designs arise by using fault masking as in
+error-correcting RESO (Laha and Patel, 1983) and triple
+modular redundancy (TMR) (Johnson, 1989), using a hybrid
+redundancy scheme as in partitioned TMR (PTMR) (Arian
+and Gumusel, 1992; Chen et al., 1992; Hsu and Swartzlander,
+1992), or using arithmetic codes (Rao, 1971). In such schemes,
+the circuit can still operate correctly in the presence of a single
+permanent fault but will become useless when a second per-
+manent fault occurs.

@@ -1,0 +1,132 @@
+Consider an infinitely long plate which suddenly made to move with constant velocity
+
+
+
+U
+
+
+{\displaystyle U}
+in the
+
+
+
+x
+
+
+{\displaystyle x}
+direction, which is located at
+
+
+
+y
+=
+0
+
+
+{\displaystyle y=0}
+in an infinite domain of fluid, which is at rest initially everywhere. The incompressible Navier-Stokes equations reduce to
+
+
+
+
+
+
+
+∂
+u
+
+
+∂
+t
+
+
+
+=
+ν
+
+
+
+
+∂
+
+2
+
+
+u
+
+
+∂
+
+y
+
+2
+
+
+
+
+
+
+
+{\displaystyle {\frac {\partial u}{\partial t}}=\nu {\frac {\partial ^{2}u}{\partial y^{2}}}}
+
+where
+
+
+
+ν
+
+
+{\displaystyle \nu }
+is the kinematic viscosity. The initial and the no-slip condition on the wall are
+
+
+
+
+u
+(
+y
+,
+0
+)
+=
+0
+,
+
+u
+(
+0
+,
+t
+>
+0
+)
+=
+U
+,
+
+u
+(
+∞
+,
+t
+>
+0
+)
+=
+0
+,
+
+
+{\displaystyle u(y,0)=0,\quad u(0,t>0)=U,\quad u(\infty ,t>0)=0,}
+
+the last condition is due to the fact that the motion at
+
+
+
+y
+=
+0
+
+
+{\displaystyle y=0}
+is not felt at infinity. The flow is only due to the motion of the plate, there is no imposed pressure gradient.

@@ -1,0 +1,14 @@
+Wiring faults are unwanted opens and shorts. Two wires or networks that should be electrically connected, but
+are not connected constitute an open. Two wires or networks that should not be electrically connected, but are
+connected constitute a short. Wiring faults can be caused by manufacturing defects, such as metallization and
+.  Dielectric  faults  are  electrical
+etching  problems,  or  aging  defects,  such  as  corrosion  and 
+masking  defects
+,  chemical  impurities,  material  imperfections,  or
+isolation  defects  that  can  be  caused  by 
+electrostatic discharge. Threshold faults occur when the turn-on and turn-off voltage potentials of electrical
+devices exceed allowed ranges. Soft faults occur when radiation exposure temporarily changes electrical charge
+distributions. Such changes can alter circuit voltage potentials, which can, in turn, change logical values, also
+. Radiation effects are called “soft” faults because the hardware is not permanently damaged
+called 
+[Zobrist, 1993].

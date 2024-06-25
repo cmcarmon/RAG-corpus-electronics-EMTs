@@ -1,0 +1,3 @@
+post-sampling ﬁlters. They sample at high frequencies, 44.1 kHz for example, and hope the signal contains
+no frequencies above the Nyquist frequency (22.05 kHz in our example). If, however, the signal contains
+frequencies beyond the sound card’s Nyquist frequency, the resulting aliasing can be impossible to remove.

@@ -1,0 +1,5 @@
+Functions, Sets, Relations, Graphs
+Functions  with  reasonably  small  domains  can  be  represented  by  arrays,  as  described  earlier.  Similarly,  sets
+formed from a reasonably small universal set, relations on small domains, and graphs with not too many vertices
+can be represented by their characteristic functions implemented as bit arrays. In fact, Pascal provides a type
+constructor for sets that are derived from small universal sets.

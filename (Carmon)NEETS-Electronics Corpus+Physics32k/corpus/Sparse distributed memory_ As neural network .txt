@@ -1,0 +1,10 @@
+The SDM may be regarded either as a content-addressable extension of a classical random-access memory (RAM) or as a special type of three layer feedforward neural network. The main SDM alterations to the RAM are:
+The SDM calculates Hamming distances between the reference address and each location address. For each distance which is less or equal to the given radius the corresponding location is selected.
+The memory is represented by counters (where n is number of locations and m is the input data length) instead of single-bit storage elements.
+Writing to the memory, instead of overwriting, is as follows:
+if the i-bit of the input data is 1, the corresponding counters (counters in the selected locations (rows) and in the i-th columns) are incremented,
+if the i-bit of the input data is 0, the corresponding counters are decremented.
+
+Reading (or recall) from the memory is similar:
+The contents of the selected locations are summed columnwise.
+Each sum is thresholded. If the sum is greater than or equal to the threshold value the corresponding output bit is set to 1, in the opposite case it is cleared. Note that the thresholds may be zero, if the training input vectors are closed to orthogonal ones.

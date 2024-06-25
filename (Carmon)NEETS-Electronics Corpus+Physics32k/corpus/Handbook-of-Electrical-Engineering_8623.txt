@@ -1,0 +1,6 @@
+For the powerful but simple SPARC, the simple base-index form shown in 1.4 is all that you have (or need).
+The double-indirect format, 1.5, is so rarely used that it has been left out of almost all designs but the VAX.
+What makes it occasionally useful is that subroutines get pointers to “pass by pointer” variables. Thus, if you
+want to get the variable, ﬁrst you must load the address and then the variable. The VAX allows you to do this
+in one instruction. While that sounds compact, it is expensive in memory cycles. If you want to use that pointer
+again, it pays to have it in register.

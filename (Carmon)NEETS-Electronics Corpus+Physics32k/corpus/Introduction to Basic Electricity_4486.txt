@@ -1,0 +1,8 @@
+Notice that the Q output of the first stage is cou-
+pled to the clock input of the second stage. The second 
+stage only changes state when triggered by the transi-
+tion of the output of the first stage. Because of the de-
+lay through the flip-flop, the second flip-flop does not 
+change state at the same time the clock pulse is applied. 
+Therefore, the two flip-flops are never simultaneously 
+triggered, which results in asynchronous operation.

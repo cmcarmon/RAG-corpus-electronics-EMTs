@@ -1,0 +1,12 @@
+Line sampling is a method used in reliability engineering to compute small (i.e., rare event) failure probabilities encountered in engineering systems. The method is particularly suitable for high-dimensional reliability problems, in which the performance function exhibits moderate non-linearity with respect to the uncertain parameters  The method is suitable for analyzing Black box systems, and unlike the Importance sampling method of Variance reduction, does not require detailed knowledge of the system.
+The basic idea behind line sampling is to refine estimates obtained from the First-order reliability method (FORM), which may be incorrect due to the non-linearity of the limit state function. Conceptually, this is achieved by averaging the result of different FORM simulations. In practice, this is made possible by identifying the importance direction
+
+
+
+
+α
+
+
+
+{\displaystyle {\boldsymbol {\alpha }}}
+in the input parameter space, which points towards the region which most strongly contributes to the overall failure probability. The importance direction can be closely related to the center of mass of the failure region, or to the failure point with the highest probability density, which often falls at the closest point to the origin of the limit state function, when the random variables of the problem have been transformed into the standard normal space. Once the importance direction has been set to point towards the failure region, samples are randomly generated from the standard normal space and lines are drawn parallel to the importance direction in order to compute the distance to the limit state function, which enables the probability of failure to be estimated for each sample. These failure probabilities can then be averaged to obtain an improved estimate.

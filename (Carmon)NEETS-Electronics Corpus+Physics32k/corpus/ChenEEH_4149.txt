@@ -1,0 +1,18 @@
+In this section, we studied the modulation and demodulation
+processes that are applicable to GSM and DECT (and its North
+American variant PWT). Since baseband signals are can only
+be transmitted over short distances with wires and require very
+long antennas to transmit them without wires, the baseband
+signals are modulated onto radio frequency carriers. First, we
+studied amplitude shift keying (ASK) to determine its prob-
+ability of error and methods for demodulation. From ASK, we
+studied phase modulation and the speciﬁc form (p=4-
+DQPSK) used for PWT. We showed that p=4-DQPSK has
+the same shaped error rate curve as ASK, but the signal-
+to-noise ratio deﬁnition is different. We then studied MSK, a
+form of frequency modulation, as a ﬁrst step toward GMSK,
+which is used for DECT and GSM. Based on the literature, the
+error performance for GMSK also has the same shaped curve
+as ASK with the proper deﬁnition of a correcting factor a. For
+GSM where BT ¼ 0:3, a  0:9; for DECT where BT ¼ 0:5,
+a  0:97.

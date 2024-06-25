@@ -1,0 +1,6 @@
+Robustness  problems  are  usually  treated  analytically  via  minimax  formulations  that  seek  best  worst-case
+performance as the design objective. This formulation has proven to be very useful in the design and charac-
+terization of robust detectors for a wide variety of detection problems. Solutions typically call for the intro-
+duction of light limiting to prevent extremes of gain dictated by an (unrealistic) nominal model. For example,
+the correlation detector of Fig. 73.1 can be made robust against deviations from the Gaussian noise model by
+introducing a soft-limiter between the multiplier and the accumulator.

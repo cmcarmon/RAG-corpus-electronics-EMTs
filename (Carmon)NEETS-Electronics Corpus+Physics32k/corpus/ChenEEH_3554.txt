@@ -1,0 +1,14 @@
+encloses the origin. To compute the inverse z-transform, we
+need information not only about the functional form of the z-
+transform but also about the region of convergence. In fact,
+two identical functions with different regions of convergence
+have different inverse transforms.
+Let us consider the case of a z-transform X(z) with two
+poles located at z ¼ a and z ¼ b, aj j < bj j. There are three
+possible regions of convergence:
+. ROC1—the region zj j < aj j
+. ROC2—the annulus aj j < zj j < bj j
+. ROC3—the region zj j > bj j
+Figure 1.13 shows the three possible regions of convergence
+for a ¼ 1=2 and b ¼ 2. To select the correct region of conver-
+gence, we need further information about the signal.

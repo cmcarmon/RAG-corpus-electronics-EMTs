@@ -1,0 +1,4 @@
+Inputs A, B, C, and D are input to gates 1, 2, 3, and 4, respectively. When the READ IN input goes
+HIGH, AND gates 1, 2, and 4 go HIGH, causing FF1, FF2, and FF4 to set. The output of AND gate 3
+does not change since the C input is LOW. The 4-bit word, 1101, is now stored in the register. The
+outputs of FFs 1, 2, 3, and 4 are applied to AND gates 5, 6, 7, and 8, respectively.

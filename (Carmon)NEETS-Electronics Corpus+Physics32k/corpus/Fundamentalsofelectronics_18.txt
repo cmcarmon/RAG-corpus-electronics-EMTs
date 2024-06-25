@@ -1,0 +1,14 @@
+1.2 Signals Represent Information5
+Whether analog or digital, information is represented by the fundamental quantity in electrical engineering:
+the signal. Stated in mathematical terms, a signal is merely a function. Analog signals are continuous-
+valued; digital signals are discrete-valued. The independent variable of the signal could be time (speech, for
+example), space (images), or the integers (denoting the sequencing of letters and numbers in the football
+score).
+1.2.1 Analog Signals
+Analog signals are usually signals deﬁned over continuous independent variable(s). Speech, as
+described in Section 4.10, is produced by your vocal cords exciting acoustic resonances in your vocal tract.
+The result is pressure waves propagating in the air, and the speech signal thus corresponds to a function
+having independent variables of space and time and a value corresponding to air pressure: s (x, t) (Here we
+use vector notation x to denote spatial coordinates). When you record someone talking, you are evaluating
+the speech signal at a particular spatial location, x0 say. An example of the resulting waveform s (x0, t) is
+shown in Figure 1.1.

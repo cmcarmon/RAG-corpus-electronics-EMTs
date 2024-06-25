@@ -1,0 +1,11 @@
+Systems  generally  require  a  greater  number  of  memory  locations  than  are  available  in  the  main  memory
+(i.e., a larger address space). The entire address space that the CPU uses is kept on large magnetic or optical
+disks; this is called the virtual address space, or virtual memory. The most frequently used sections of the virtual
+memory are kept in main memory (physical memory), and are moved back and forth in units called pages.
+The  place  at  which  a  virtual  address  lies  in  main  memory  is  called  its  physical  address.  Since  a  much  larger
+address space (virtual memory) is mapped onto a much smaller one (physical memory), the CPU must translate
+the memory addresses issued by a program (virtual addresses) into their corresponding locations in physical
+memory (physical addresses). This mapping is maintained in a memory structure called the page table. When
+the CPU attempts to access a virtual address that does not have a corresponding entry in physical memory, a
+page fault occurs. Since a page fault requires an access to a slow mechanical storage device (such as a disk), the
+CPU usually switches to a different task while the needed page is read from the disk.

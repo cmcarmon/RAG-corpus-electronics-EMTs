@@ -1,0 +1,3 @@
+It appears that the clock pulse and the AND output both go to 0 at the same time, but the clock pulse
+arrives at FF3 before the AND gate goes LOW because of the transit time of the signal through FF1, FF2,
+and the AND gate.

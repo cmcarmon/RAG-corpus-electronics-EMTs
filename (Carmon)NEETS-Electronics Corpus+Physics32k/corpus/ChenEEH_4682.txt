@@ -1,0 +1,6 @@
+Because the manifold pressure sensor is located upstream
+from the idle valve actuator (after the throttle plate), it cannot
+measure the pressure changes caused by the idle valve actuator.
+Thus, a state observer is necessary. Moreover, since the torque
+disturbance appears in the system state equations, it must also
+be estimated to estimate the intake manifold pressure accu-

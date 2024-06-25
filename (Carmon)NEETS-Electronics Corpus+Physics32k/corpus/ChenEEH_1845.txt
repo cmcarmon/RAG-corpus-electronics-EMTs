@@ -1,0 +1,19 @@
+IpSec (Chapman and Chapman, 2000; Opplinger, 1998) pro-
+vides a suite of protocols that can be used to carry out secure
+transactions. IpSec adds security protection to IP packets. This
+approach allows applications to communicate securely without
+having to be modiﬁed. For example, before IpSec came into
+picture, applications often used SSH or SSL for having a secure
+peer-to-peer communication, but this required modifying cer-
+tain APIs in the application source code and subsequent
+recompilation. IpSec cleanly separates policy from enforce-
+ment. The policy (which trafﬁc ﬂow is secured and how it is
+secured) is provided by the system administrator, while the
+enforcement of this policy is carried out by a set of protocols:
+Authentication Header (AH) and Encapsulated Security Pay-
+load (ESP). These policies are placed as rules in a Secure Policy
+Database (SPD), consulted for every inbound/outbound
+packet, and tell IpSec how to deal with a particular packet: if
+a IpSec mechanism needs to be applied to the packet, if the
+packet should be dropped, or if the packet should be for-
+warded without placing any security mechanism. If the admin-

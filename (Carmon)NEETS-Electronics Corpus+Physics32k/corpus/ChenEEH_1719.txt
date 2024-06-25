@@ -1,0 +1,20 @@
+Semantic Modeling and Querying of Video Data
+Owing to its distinguished characteristics from textual or
+image data—very rich information content, temporal as well
+as spatial dimensions, unstructured organization, massive
+volume, and complex and ill-deﬁned relationship among
+entities—robust video data modeling is an active area of
+research. The most important issue that arises in the design
+of video database management systems (VDBMSs) is the de-
+scription of video data structure in a form that is appropriate
+for querying, that is sufﬁciently easy for updating, and that is
+compact enough for capturing the rich information content of
+the video. The process of designing the high-level abstraction
+of raw video facilitates various information retrieval and
+manipulation operations is the crux of VDBMSs. To this end,
+current semantic-based approaches can be classiﬁed into
+segmentation-based and stratiﬁcation-based. The drawback
+of the former approaches is lack of ﬂexibility and incapability
+of representing semantics residing in overlapping segments.
+The latter models, however, segment contextual information
+of video instead of simply partitioning it.

@@ -1,0 +1,7 @@
+Since a single RC time constant is involved, the voltage gain of the CE stage will appear to fall at 6 dB/octave
+as the frequency is reduced because more and more of the signal is dropped across C c. However, even if CE is very
+large, it too will contribute to a fall in gain as it allows more and more of the output signal to be dropped across
+uuXCE combination, this being applied also to the input loop, resulting in negative feedback. So, at very low
+the R E
+frequencies, the gain roll-off will tend to 12 dB/octave. The question therefore arises of how large CE should be,
+and this can be conveniently answered by considering a second basic form of transistor connection as follows.

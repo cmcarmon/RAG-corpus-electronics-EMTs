@@ -1,0 +1,4 @@
+Pulse-Doppler radar must be multi-mode to handle aircraft turning and crossing trajectory.
+Once in track mode, pulse-Doppler radar must include a way to modify Doppler filtering for the volume of space surrounding a track when radial velocity falls below the minimum detection velocity. Doppler filter adjustment must be linked with a radar track function to automatically adjust Doppler rejection speed within the volume of space surrounding the track.
+Tracking will cease without this feature because the target signal will otherwise be rejected by the Doppler filter when radial velocity approaches zero.
+Multi-mode operation may also include continuous wave illumination for semi-active radar homing.

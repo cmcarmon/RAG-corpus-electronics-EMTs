@@ -1,0 +1,8 @@
+Decomposition Methods for the Covariance Solution
+The covariance method equations to be solved are of the form
+of equation 3.16. Similar to the autocorrelation matrix Rs, the
+covariance matrix Fs
+is symmetric and positive deﬁnite.
+Unlike Rs, however, Fs
+it is not Toeplitz, so there is less
+structure to exploit the solution. The most common solution

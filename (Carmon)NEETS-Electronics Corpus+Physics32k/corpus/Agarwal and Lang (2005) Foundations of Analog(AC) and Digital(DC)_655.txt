@@ -1,0 +1,7 @@
+for vO > 0.
+The current iD is 0 for vO ≤ 0. Assume K = 1 mA/V2.
+We assume that the supposedly DC source (vI) supplying the circuit in reality has 5 volts
+of DC (VI) with 50 mV of AC (vi, also called a ripple) superimposed. The regulator
+is designed to reduce this unwanted AC component relative to the DC. Our task is
+to determine the magnitude of the ripple in the output, and the extent to which our
+regulator has been able to reduce the ripple amplitude relative to the DC voltage.

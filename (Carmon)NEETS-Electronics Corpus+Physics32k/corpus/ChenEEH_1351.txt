@@ -1,0 +1,5 @@
+3. Write hit: On a write hit to a modiﬁed line, the cache
+controller simply updates the line in the local cache.
+On a write hit to an exclusive line, the cache controller
+modiﬁes the line in its local cache, but it must also
+change the state of the line to ‘‘modiﬁed.’’ On a write

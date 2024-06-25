@@ -1,0 +1,129 @@
+A PI Controller (proportional-integral controller) is a special case of the PID controller in which the derivative (D) of the error is not used.
+The controller output is given by
+
+
+
+
+
+K
+
+P
+
+
+Δ
++
+
+K
+
+I
+
+
+∫
+Δ
+
+d
+t
+
+
+{\displaystyle K_{P}\Delta +K_{I}\int \Delta \,dt}
+
+where
+
+
+
+Δ
+
+
+{\displaystyle \Delta }
+is the error or deviation of actual measured value (PV) from the setpoint (SP).
+
+
+
+
+Δ
+=
+S
+P
+−
+P
+V
+
+
+{\displaystyle \Delta =SP-PV}
+.
+A PI controller can be modelled easily in software such as Simulink or Xcos using a "flow chart" box involving Laplace operators:
+
+
+
+
+C
+=
+
+
+
+G
+(
+1
++
+τ
+s
+)
+
+
+τ
+s
+
+
+
+
+
+{\displaystyle C={\frac {G(1+\tau s)}{\tau s}}}
+
+where
+
+
+
+
+G
+=
+
+K
+
+P
+
+
+
+
+{\displaystyle G=K_{P}}
+= proportional gain
+
+
+
+
+G
+
+/
+
+τ
+=
+
+K
+
+I
+
+
+
+
+{\displaystyle G/\tau =K_{I}}
+= integral gain
+Setting a value for
+
+
+
+G
+
+
+{\displaystyle G}
+is often a trade off between decreasing overshoot and increasing settling time.
+The lack of derivative action may make the system more steady in the steady state in the case of noisy data. This is because derivative action is more sensitive to higher-frequency terms in the inputs.
+Without derivative action, a PI-controlled system is less responsive to real (non-noise) and relatively fast alterations in state and so the system will be slower to reach setpoint and slower to respond to perturbations than a well-tuned PID system may be.

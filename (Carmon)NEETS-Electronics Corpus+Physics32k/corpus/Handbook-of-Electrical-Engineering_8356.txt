@@ -1,0 +1,8 @@
+Path-Delay Testing
+Path-delay testing is aimed at testing whether a given component/system operates at a speciﬁed performance
+level that is often measured as the maximum system clock frequency. For example, the lower bound for the
+maximum clock frequency which a microprocessor IC is speciﬁed that it can reach needs to be veriﬁed. However,
+due to the very large number of different operations that a microprocessor can perform it is not practical to
+verify correct behavior of such a component operating at maximum clock frequency for every possible single
+operation or sequence of operations that it is designed to perform. On the other hand, it may be possible to
+examine the structure of the design to discover its logic paths and verify that signals can be propagated along

@@ -1,0 +1,5 @@
+While SPICE is capable of several types of analysis, here we illustrate how to solve resistive
+circuits containing dc sources using the DC command. PSpice can sweep the value of the source,
+when the starting value, the end value, and the increment between values are given. If the
+starting and end values are the same, the solution is carried out for only a single value of the
+source.

@@ -1,0 +1,172 @@
+Assume a rifle is being fired that shoots with the bullet drop table given in Table 1. This means that the rifle sight setting for any range from 0 to 500 meters is available. The sight adjustment procedure can be followed step-by-step.
+1. Determine the slant range to the target.
+Assume that a range finder is available that determines that the target is exactly 300 meters distance.
+2. Determine the elevation angle of the target.
+Assume that an angle measurement tool is used that measures the target to be at an angle of
+
+
+
+
+20
+
+∘
+
+
+
+
+{\displaystyle 20^{\circ }}
+with respect to horizontal.
+3. Apply the rifleman's rule to determine the equivalent horizontal range.
+
+
+
+
+
+R
+
+H
+
+
+=
+300
+
+
+meters
+
+
+cos
+⁡
+(
+
+20
+
+∘
+
+
+)
+=
+282
+
+
+meters
+
+
+
+
+{\displaystyle R_{H}=300{\mbox{ meters}}\cos(20^{\circ })=282{\mbox{ meters}}}
+
+4. Use the bullet drop table to determine the bullet drop over that equivalent horizontal range.
+Linear interpolation can be used to estimate the bullet drop as follows:
+
+
+
+
+
+
+bullet drop
+
+
+=
+
+
+
+−
+11.0
+⋅
+(
+282
+−
+200
+)
++
+−
+2.9
+⋅
+(
+300
+−
+282
+)
+
+
+300
+−
+200
+
+
+
+=
+−
+9.5
+
+
+cm
+
+
+
+
+{\displaystyle {\mbox{bullet drop}}={\frac {-11.0\cdot (282-200)+-2.9\cdot (300-282)}{300-200}}=-9.5{\mbox{ cm}}}
+
+5. Compute the bore angle correction that is to be applied to the sight.
+
+
+
+
+
+
+angle correction
+
+
+=
+−
+
+
+
+−
+9.5
+
+
+cm
+
+
+
+
+282
+
+
+meters
+
+
+
+
+
+=
+0.00094
+
+
+radians
+
+
+=
+0.94
+
+
+mil
+
+
+=
+
+3.2
+′
+
+
+
+(minutes of angle)
+
+
+
+
+{\displaystyle {\mbox{angle correction}}=-{\frac {-9.5{\mbox{ cm}}}{282{\mbox{ meters}}}}=0.00094{\mbox{ radians}}=0.94{\mbox{ mil}}=3.2'{\mbox{ (minutes of angle)}}}
+
+6. Adjust the bore angle by the angle correction.
+The gun sight is adjusted up by 0.94 mil or 3.2' in order to compensate for the bullet drop. The gunsights are usually adjustable in unit of ​1⁄2 minutes, ​1⁄4 minutes of angle or 0.1 milliradians.

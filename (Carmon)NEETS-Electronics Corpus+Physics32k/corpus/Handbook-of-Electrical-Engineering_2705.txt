@@ -1,0 +1,9 @@
+All  exact  methods  known  for  determining  an  optimal  solution  require  a  computing  effort  that  increases
+exponentially with number of cells. To overcome this problem, many heuristics have been proposed [Preas and
+Lorenzetti, 1988]. There are basically three strategies of heuristics for solving the placement problem, namely,
+constructive,  partitioning,  and  iterative  methods.  Constructive  methods  create  placement  in  an  incremental
+manner where a complete placement is only available when the method terminates. They often start by placing
+a seed (a seed can be a single cell or a group of cells) on the chip and then continuously placing other cells
+based on some heuristics such as size of cells, connectivity between the cells, design condition for connection
+lengths, or size of chip. This process continues until all the cells are placed on the chip. Partitioning methods
+divide the cells into two or more partitions so that the number of connections that cross the partition boundaries

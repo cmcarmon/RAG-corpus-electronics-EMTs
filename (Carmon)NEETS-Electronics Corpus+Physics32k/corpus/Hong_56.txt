@@ -1,0 +1,14 @@
+There are simple procedures to determine VTH, IN, ZN, and ZTH for a given circuit. 
+To determine VTH, set the load as an open circuit. The voltage across the output is VTH. To 
+determine IN, set the load as a short circuit, and then the current through the short circuit 
+is IN. An important link between Thevenin and Norton equivalent circuits is that ZTH and 
+ZN are exactly the same value. To determine ZTH or ZN, short-circuit the voltage sources 
+and  open-circuit  the  current  sources  in  the  circuit.  ZTH  or  ZN  is  then  the  resulting 
+equivalent impedance of the circuit. 
+ 
+###  Need  Example  circuit  here  with  procedure  for  determining  Thevenin  and  Norton 
+equivalent circuits.### 
+ 
+ 
+4.3 Source and Load Model of Electronic Circuits 
+ 

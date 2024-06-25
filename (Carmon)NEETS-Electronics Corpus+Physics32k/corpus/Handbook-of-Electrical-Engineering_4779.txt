@@ -1,0 +1,11 @@
+This design is inconvenient to implement and modern Sawyer Tower circuits have the capability to shift the
+reference phase either electronically or digitally to compensate for the loss and static components. A contem-
+porary  version,  which  has  compensation  and  no  voltage  loss  across  the  integrating  capacitor,  is  shown  in
+Fig. 49.5. The op-amp integrator provides a virtual ground at the input, reducing the voltage loss to negligible
+values.  The  output  from  this  circuit  is  the  sum  of  the  polarization  and  the  capacitive  and  loss  components.
+These  contributions  can  be  canceled  using  a  purely  real  (resistive)  and  a  purely  imaginary  (capacitive,  90(cid:176)
+phaseshift)  compensation  component  proportional  to  the  drive  across  the  sample.  Both  need  to  be  scaled
+(magnitude adjustments) to match them to the device being measured and then have to be subtracted (adding
+negatively)  from  the  output  of  the  op  amp.  The  remainder  is  the  polarization.  The  hysteresis  for  typical
+ferroelectrics is frequency dependent and traditionally the reported values of the polarization are measured at
+50 or 60 Hz.

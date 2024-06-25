@@ -1,0 +1,128 @@
+A physical system can have as many resonant frequencies as it has degrees of freedom; each degree of freedom can vibrate as a harmonic oscillator. Systems with one degree of freedom, such as a mass on a spring, pendulums, balance wheels, and LC tuned circuits have one resonant frequency. Systems with two degrees of freedom, such as coupled pendulums and resonant transformers can have two resonant frequencies. A crystal lattice composed of N atoms bound together can have N resonant frequencies. As the number of coupled harmonic oscillators grows, the time it takes to transfer energy from one to the next becomes significant. The vibrations in them begin to travel through the coupled harmonic oscillators in waves, from one oscillator to the next.
+The term resonator is most often used for a homogeneous object in which vibrations travel as waves, at an approximately constant velocity, bouncing back and forth between the sides of the resonator. The material of the resonator, through which the waves flow, can be viewed as being made of millions of coupled moving parts (such as atoms). Therefore, they can have millions of resonant frequencies, although only a few may be used in practical resonators. The oppositely moving waves interfere with each other, and at its resonant frequencies reinforce each other to create a pattern of standing waves in the resonator. If the distance between the sides is
+
+
+
+d
+
+
+
+{\displaystyle d\,}
+, the length of a round trip is
+
+
+
+2
+d
+
+
+
+{\displaystyle 2d\,}
+. To cause resonance, the phase of a sinusoidal wave after a round trip must be equal to the initial phase so the waves self-reinforce. The condition for resonance in a resonator is that the round trip distance,
+
+
+
+2
+d
+
+
+
+{\displaystyle 2d\,}
+, is equal to an integer number of wavelengths
+
+
+
+λ
+
+
+
+{\displaystyle \lambda \,}
+of the wave:
+
+
+
+
+2
+d
+=
+N
+λ
+,
+
+
+N
+∈
+{
+1
+,
+2
+,
+3
+,
+…
+}
+
+
+{\displaystyle 2d=N\lambda ,\qquad \qquad N\in \{1,2,3,\dots \}}
+
+If the velocity of a wave is
+
+
+
+c
+
+
+
+{\displaystyle c\,}
+, the frequency is
+
+
+
+f
+=
+c
+
+/
+
+λ
+
+
+
+{\displaystyle f=c/\lambda \,}
+so the resonant frequencies are:
+
+
+
+
+f
+=
+
+
+
+N
+c
+
+
+2
+d
+
+
+
+
+
+N
+∈
+{
+1
+,
+2
+,
+3
+,
+…
+}
+
+
+{\displaystyle f={\frac {Nc}{2d}}\qquad \qquad N\in \{1,2,3,\dots \}}
+
+So the resonant frequencies of resonators, called normal modes, are equally spaced multiples (harmonics) of a lowest frequency called the fundamental frequency. The above analysis assumes the medium inside the resonator is homogeneous, so the waves travel at a constant speed, and that the shape of the resonator is rectilinear. If the resonator is inhomogeneous or has a nonrectilinear shape, like a circular drumhead or a cylindrical microwave cavity, the resonant frequencies may not occur at equally spaced multiples of the fundamental frequency. They are then called overtones instead of harmonics. There may be several such series of resonant frequencies in a single resonator, corresponding to different modes of vibration.

@@ -1,0 +1,4 @@
+Such redundancies can be reduced to a large extent through the use of logical links. A logical link associates
+a  virtual  record  from  a  hierarchical  schema  with  an  actual  record  from  either  the  same  schema  or  another
+schema. The redundant copy of the actual record is therefore replaced by a virtual record, which is nothing
+more than a pointer to the actual one.

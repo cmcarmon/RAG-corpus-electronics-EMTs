@@ -1,0 +1,8 @@
+Afc circuits are used in situations where you must accurately control the frequency of an oscillator
+by some external signal. Basically, this type circuit does two things: It senses the difference between the
+actual oscillator frequency and the frequency that is desired and produces a control voltage proportional
+to the difference; it also uses the control voltage to change the oscillator to the desired frequency. Afc
+circuits are used to control the frequency of sinusoidal oscillators and nonsinusoidal oscillators. Only
+sinusoidal afc circuits will be covered here. Afc circuits are used in radio receivers, fm transmitters, and
+frequency synthesizers to maintain frequency stability. Figure 2-26 is a block diagram illustrating afc
+operation in a receiver. Let’s run through the applicable parts of this block diagram.

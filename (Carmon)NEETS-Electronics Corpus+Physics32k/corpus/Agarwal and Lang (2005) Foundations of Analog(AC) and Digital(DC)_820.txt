@@ -1,0 +1,10 @@
+6. When fabricated on a VLSI chip, the physical MOSFET itself is symmetric with respect to
+the drain and source. (Note, however, discrete MOSFET devices suitable for use on a bread-
+board are not symmetric.) So its drain and source labels can be interchanged without changing the
+device. Accordingly, if the drain and source nomenclature was unrelated to the potential difference
+between the two terminals, the MOSFET characteristic would look like as in the adjacent figure.
+As depicted, there is an open circuit between D and S when vGS < VT, and a short circuit when
+vGS ≥ VT. When the open circuit exists, vDS can take on any value (positive or negative) as deter-
+mined by external circuit constraints. Similarly, when the short circuit exists, iDS is unconstrained.
+Interestingly, notice here that the model we choose for an element depends on the way we use the
+element as much as on the physical construction of the element!

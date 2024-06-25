@@ -1,0 +1,5 @@
+Because there is no interaction among digits (channels) in
+residue arithmetic, any errors generated at one digit cannot
+propagate and contaminate other channels during subsequent
+operations, given that no conversion has occurred from the
+RNS to a weighted representation.

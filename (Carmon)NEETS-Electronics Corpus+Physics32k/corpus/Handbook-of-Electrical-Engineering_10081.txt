@@ -1,0 +1,5 @@
+Methods for directly adjusting control parameters based on the output error ec are generally not available.
+This is because the unknown nonlinear plant in Fig. 100.61 lies between the controller and the output error.
+Until  such  methods  are  developed,  adaptive  control  of  nonlinear  plants  must  be  performed  using  indirect
+methods  [Narendra  and  Parthasarathy,  1990].  Figure 100.62  depicts  a  general  method  of  indirect  adaptive
+control using artiﬁcial neural networks.

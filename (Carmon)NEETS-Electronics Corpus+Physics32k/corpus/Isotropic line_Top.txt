@@ -1,0 +1,225 @@
+In the geometry of quadratic forms, an isotropic line or null line is a line for which the quadratic form applied to the displacement vector between any pair of its points is zero. An isotropic line occurs only with an isotropic quadratic form, and never with a definite quadratic form.
+Using complex geometry, Edmond Laguerre first suggested the existence of two isotropic lines through the point (α, β) that depend on the imaginary unit i:
+First system:
+
+
+
+(
+y
+−
+β
+)
+=
+(
+x
+−
+α
+)
+i
+,
+
+
+{\displaystyle (y-\beta )=(x-\alpha )i,}
+
+Second system:
+
+
+
+(
+y
+−
+β
+)
+=
+−
+i
+(
+x
+−
+α
+)
+.
+
+
+{\displaystyle (y-\beta )=-i(x-\alpha ).}
+
+Laguerre then interpreted these lines as geodesics:
+An essential property of isotropic lines, and which can be used to define them, is the following: the distance between any two points of an isotropic line situated at a finite distance in the plane is zero. In other terms, these lines satisfy the differential equation ds2 = 0. On an arbitrary surface one can study curves that satisfy this differential equation; these curves are the geodesic lines of the surface, and we also call them isotropic lines.
+In the complex projective plane, points are represented by homogeneous coordinates
+
+
+
+(
+
+x
+
+1
+
+
+,
+
+x
+
+2
+
+
+,
+
+x
+
+3
+
+
+)
+
+
+{\displaystyle (x_{1},x_{2},x_{3})}
+and lines by homogeneous coordinates
+
+
+
+(
+
+a
+
+1
+
+
+,
+
+a
+
+2
+
+
+,
+
+a
+
+3
+
+
+)
+
+
+{\displaystyle (a_{1},a_{2},a_{3})}
+. An isotropic line in the complex projective plane satisfies the equation:
+
+
+
+
+
+a
+
+3
+
+
+(
+
+x
+
+2
+
+
+±
+i
+
+x
+
+1
+
+
+)
+=
+(
+
+a
+
+2
+
+
+±
+i
+
+a
+
+1
+
+
+)
+
+x
+
+2
+
+
+.
+
+
+{\displaystyle a_{3}(x_{2}\pm ix_{1})=(a_{2}\pm ia_{1})x_{2}.}
+
+In terms of the affine subspace x3 = 1, an isotropic line through the origin is
+
+
+
+
+
+x
+
+2
+
+
+=
+±
+i
+
+x
+
+1
+
+
+.
+
+
+{\displaystyle x_{2}=\pm ix_{1}.}
+
+In projective geometry, the isotropic lines are the ones passing through the circular points at infinity.
+In the real orthogonal geometry of Emil Artin, isotropic lines occur in pairs:
+A non-singular plane which contains an isotropic vector shall be called a hyperbolic plane. It can always be spanned by a pair N, M of vectors which satisfy
+
+
+
+
+N
+
+2
+
+
+
+=
+
+
+M
+
+2
+
+
+
+=
+
+0
+,
+
+N
+M
+
+=
+
+1
+
+.
+
+
+{\displaystyle N^{2}\ =\ M^{2}\ =\ 0,\quad NM\ =\ 1\ .}
+
+We shall call any such ordered pair N, M a hyperbolic pair. If V is a non-singular plane with orthogonal geometry and N ≠ 0 is an isotropic vector of V, then there exists precisely one M in V such that N, M is a hyperbolic pair. The vectors x N and y M are then the only isotropic vectors of V.

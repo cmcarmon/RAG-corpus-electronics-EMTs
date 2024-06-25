@@ -1,0 +1,29 @@
+In equations 8.29 and 8.30, k0 is the current time-step, pfi,
+and ny represent the time domain signatures of the postfailure
+model i and the nominal model, respectively. Equation 8.29
+will examine the system’s state every vf time-steps. In cases of
+failure alarms caused by unexpected disturbances or measure-
+ment noises, the detection scheme will eventually recognize the
+false alarm situations by comparing the signatures of the actual
+system behavior with the nominal system using a prespeciﬁed
+threshold value and recommend nominal control actions to
+avoid the unnecessary control effort after the effect resulting
+from unexpected disturbances or noises decay. Sharing the
+spirit of the multiple model approach, the effective control
+actions to achieve successful
+failure accommodations for
+anticipated faults are selected based on the matching condi-
+tions of the signatures between the actual failures and the
+multiple model-based failures. The fault isolation process is
+to compare the most recent time domain signatures between
+the actual failure and the postfailures. The differences be-
+tween the actual measurements and the outputs of the nominal
+model are considered as the outputs from the failure dynamics,
+and they are compared with the ‘‘signatures,’’ outputs, from
+the postfailure models within a certain length of time-shifting
+window, vf diag. A prespeciﬁed threshold value is used to
+compare with cf diagi
+for the proper selection of the anti-
+cipated failure condition. If none of the ‘‘signatures’’ of the
+anticipated failures meets the criterion, the system status will
+be switched to the unanticipated failure situation, and the

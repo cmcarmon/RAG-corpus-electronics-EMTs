@@ -1,0 +1,9 @@
+7. The rise and fall times are sometimes defined slightly differently. For example, the rise time of a
+node that transitions from a low to a high voltage might be defined as the time taken by a signal
+at that node to rise from 5% to 95% of the change in voltage. Alternatively, the rise time can be
+defined as the time taken by a signal at that node to rise from a valid low voltage VOL to a valid
+high voltage VOH. As one more possibility, the rise time might be defined as the time taken by
+a signal to rise from its lowest value to 50% of the voltage difference. Corresponding definitions
+for the fall time also exist. The vagueness of these definitions only serves the interests of product
+marketeers, but for us, the important thing to learn is how to calculate the time intervals between
+any pair of signal values.

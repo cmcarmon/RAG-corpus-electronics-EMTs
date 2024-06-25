@@ -1,0 +1,10 @@
+In most electron-tube circuits, the operating level of a tube is determined by the level of bias. When a
+negative-bias voltage is applied to the control grid of a tube, with no input signal, the conduction through
+the tube is reduced; thus the damage to the tube is minimized. There is one drawback to this. Because the
+control grid is already negatively charged by the bias voltage, the negative alternation of a large input
+signal will drive the tube into cutoff long before the positive alternation can drive the tube into saturation.
+Once the negative alternation reaches a certain level (determined by the bias voltage and tube
+characteristics), the tube simply cuts off. For this reason, conventional tubes, which you previously
+studied, are called SHARP-CUTOFF TUBES. Because of this sharp cutoff, the range of amplification of
+the conventional tube is limited by the bias voltage and tube characteristics. Once this range is exceeded,
+the output becomes distorted due to cutoff.

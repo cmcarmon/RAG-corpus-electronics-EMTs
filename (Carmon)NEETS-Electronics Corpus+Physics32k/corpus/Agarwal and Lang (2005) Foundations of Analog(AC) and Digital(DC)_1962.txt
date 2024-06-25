@@ -1,0 +1,14 @@
+(13.133)
+The constant K cannot be evaluated in the usual way (that is, setting vo = 0
+for t = 0 and solving for K), because the two capacitors form a loop facing
+the voltage source. Thus when the step is applied, in theory infinite current
+flows through the capacitors for an instant, and the capacitor voltages change
+instantaneously. Thus immediately after the step, at t = 0
++
+, the initial condition
+on vo will not be 0.
+Instead, we can proceed as follows to find the initial condition at t = 0
++
+.
+Because the same current flows through each capacitor, both capacitors receive
+equal charge:

@@ -1,0 +1,4 @@
+The output of the envelope detector is also applied to circuits that separate the sync signals
+needed to lock in the horizontal and vertical sweep circuits of the receiver. The bursts of color
+carriers are isolated such that a PLL can lock to the phase of the color carrier, and thereby provide
+the reference signals for the chrominance synchronous detectors.

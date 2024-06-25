@@ -1,0 +1,14 @@
+signal  level  increases,  the  d.c.  level  from  the 
+demodulator  stage  increases  and  this  is  used  to 
+reduce the gain of both the RF and IF amplifiers. 
+ The  superhet  receiver’s  intermediate  frequency  
+fIF, is the difference between the signal frequency,  
+fRF, and  the  local  oscillator  frequency,  fLO. The 
+desired local oscillator frequency can be calculated 
+from the relationship: 
+ 
+fLO = fRF ± fIF 
+Note  that  in  most  cases  (and  in  order  to  simplify 
+tuning  arrangements)  the  local  oscillator  operates 
+above the signal frequency, i.e. fLO = fRF + fIF 
+.

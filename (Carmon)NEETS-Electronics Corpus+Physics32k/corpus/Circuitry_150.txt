@@ -1,0 +1,25 @@
+and  B  when  all  of  the  voltage  sources  (assumed 
+perfect)  are  replaced  by  short-circuit  connections. 
+Note that if the voltage sources are not perfect (i.e. 
+if they have some internal resistance) the equivalent 
+circuit  must  be  constructed  on  the  basis  that  each 
+voltage  source  is  replaced  by  its  own  internal 
+resistance. 
+  Once  we  have  values  for  Voc  and  R, we  can 
+determine how the network will behave when it is 
+connected  to  a  load  (i.e.  when  a  resistor  is 
+connected across the terminals A and B). 
+ 
+Example 3.7 
+ 
+Figure 3.16 shows a Wheatstone bridge. Determine 
+the current that will flow in a 100 F load connected  
+between terminals A and B. 
+ 
+Solution 
+ 
+First we need to find the Thévenin equivalent of the 
+circuit.  To  find  Voc  we  can  treat  the  bridge 
+arrangement as two potential dividers.  
+  The voltage across R2 will be given by: 
+V

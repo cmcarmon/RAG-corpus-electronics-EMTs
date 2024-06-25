@@ -1,0 +1,14 @@
+m
+P receives instructions, from its internal or external memory, and data, as a combination of zeros and
+ones; it is this machine code instruction that controls the operation of the system. The writing of such machine
+code is far too tedious. An English-like language, machine mnemonics, is used to describe each machine operation
+and this is then translated to the 0’s and 1’s which are stored in the memory. For example ADD 123 may stand
+for the machine code necessary to perform the addition of the number contained in memory location 123 to
+the content of the computer’s arithmetic register, leaving the result in the arithmetic register. The manufacturers
+m
+P
+supply assemblers to accomplish the mnemonic language assembly into code that may be loaded into the 
+memory. These assemblers typically will run on personal computers and various minicomputer systems. Pro-
+m
+P serial port(s) are effective development tools.
+grams that monitor the operation of an actual chip through the 

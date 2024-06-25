@@ -1,0 +1,4 @@
+Figure 3-26, view A, shows a typical four-stage ring counter. This particular counter is composed of
+R-S FFs. J-K FFs may be used as well. Notice that the output of each AND gate is input to the R, or reset
+side, of the nearest FF and to the S, or set side, of the next FF. The Q output of each FF is applied to the B
+input of the AND gate that is connected to its own R input.

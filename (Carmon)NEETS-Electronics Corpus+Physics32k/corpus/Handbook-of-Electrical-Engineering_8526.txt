@@ -1,0 +1,6 @@
+When the execution of some instruction I depends on the results of a previous instruction, J, which is not
+yet  completed,  instruction  I  must  be  delayed.  The  pipeline  is  said  to  be  stalled,  waiting  for  the  execution  of
+instruction J to be completed. While it is not possible to eliminate such situations altogether, it is important
+to minimize the probability of their occurrence. This is a key consideration in the design of the instruction set
+of modern processors and the design of the compilers that translate high-level language programs into machine
+language.

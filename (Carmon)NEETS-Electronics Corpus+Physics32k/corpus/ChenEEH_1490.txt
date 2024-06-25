@@ -1,0 +1,8 @@
+Levels 1 through 7 are called single-machine levels because the
+operating system at these levels deals exclusively with the
+resources of a single machine. A single machine may contain
+one or several processors that share a common memory. A
+multimachine consists of several physically separate computer
+systems, each of which has its own processor(s) and private
+memory. There is no shared memory among the separate
+computers in a multimachine.

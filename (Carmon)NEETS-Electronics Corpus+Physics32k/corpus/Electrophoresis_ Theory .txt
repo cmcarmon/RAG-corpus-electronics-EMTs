@@ -1,0 +1,188 @@
+Suspended particles have an electric surface charge, strongly affected by surface adsorbed species, on which an external electric field exerts an electrostatic Coulomb force. According to the double layer theory, all surface charges in fluids are screened by a diffuse layer of ions, which has the same absolute charge but opposite sign with respect to that of the surface charge. The electric field also exerts a force on the ions in the diffuse layer which has direction opposite to that acting on the surface charge. This latter force is not actually applied to the particle, but to the ions in the diffuse layer located at some distance from the particle surface, and part of it is transferred all the way to the particle surface through viscous stress. This part of the force is also called electrophoretic retardation force. When the electric field is applied and the charged particle to be analyzed is at steady movement through the diffuse layer, the total resulting force is zero :
+
+
+
+
+
+F
+
+t
+o
+t
+
+
+=
+0
+=
+
+F
+
+e
+l
+
+
++
+
+F
+
+f
+
+
++
+
+F
+
+r
+e
+t
+
+
+
+
+{\displaystyle F_{tot}=0=F_{el}+F_{f}+F_{ret}}
+
+Considering the drag on the moving particles due to the viscosity of the dispersant, in the case of low Reynolds number and moderate electric field strength E, the drift velocity of a dispersed particle v is simply proportional to the applied field, which leaves the electrophoretic mobility μe defined as:
+
+
+
+
+
+μ
+
+e
+
+
+=
+
+
+v
+E
+
+
+.
+
+
+{\displaystyle \mu _{e}={v \over E}.}
+
+The most well known and widely used theory of electrophoresis was developed in 1903 by Smoluchowski:
+
+
+
+
+
+μ
+
+e
+
+
+=
+
+
+
+
+ε
+
+r
+
+
+
+ε
+
+0
+
+
+ζ
+
+η
+
+
+
+
+{\displaystyle \mu _{e}={\frac {\varepsilon _{r}\varepsilon _{0}\zeta }{\eta }}}
+,
+where εr is the dielectric constant of the dispersion medium, ε0 is the permittivity of free space (C² N−1 m−2), η is dynamic viscosity of the dispersion medium (Pa s), and ζ is zeta potential (i.e., the electrokinetic potential of the slipping plane in the double layer).
+The Smoluchowski theory is very powerful because it works for dispersed particles of any shape at any concentration. It has limitations on its validity. It follows, for instance, because it does not include Debye length κ−1. However, Debye length must be important for electrophoresis, as follows immediately from the Figure on the right. Increasing thickness of the double layer (DL) leads to removing the point of retardation force further from the particle surface. The thicker the DL, the smaller the retardation force must be.
+Detailed theoretical analysis proved that the Smoluchowski theory is valid only for sufficiently thin DL, when particle radius a is much greater than the Debye length:
+
+
+
+
+a
+κ
+≫
+1
+
+
+{\displaystyle a\kappa \gg 1}
+.
+This model of "thin double layer" offers tremendous simplifications not only for electrophoresis theory but for many other electrokinetic theories. This model is valid for most aqueous systems, where the Debye length is usually only a few nanometers. It only breaks for nano-colloids in solution with ionic strength close to water.
+The Smoluchowski theory also neglects the contributions from surface conductivity. This is expressed in modern theory as condition of small Dukhin number:
+
+
+
+
+D
+u
+≪
+1
+
+
+{\displaystyle Du\ll 1}
+
+In the effort of expanding the range of validity of electrophoretic theories, the opposite asymptotic case was considered, when Debye length is larger than particle radius:
+
+
+
+
+a
+κ
+<
+
+
+1
+
+
+{\displaystyle a\kappa <\!\,1}
+.
+Under this condition of a "thick double layer", Hückel predicted the following relation for electrophoretic mobility:
+
+
+
+
+
+μ
+
+e
+
+
+=
+
+
+
+2
+
+ε
+
+r
+
+
+
+ε
+
+0
+
+
+ζ
+
+
+3
+η
+
+
+
+
+
+{\displaystyle \mu _{e}={\frac {2\varepsilon _{r}\varepsilon _{0}\zeta }{3\eta }}}
+.
+This model can be useful for some nanoparticles and non-polar fluids, where Debye length is much larger than in the usual cases.
+There are several analytical theories that incorporate surface conductivity and eliminate the restriction of a small Dukhin number, pioneered by Overbeek. and Booth. Modern, rigorous theories valid for any Zeta potential and often any aκ stem mostly from Dukhin–Semenikhin theory. In the thin double layer limit, these theories confirm the numerical solution to the problem provided by O'Brien and White.

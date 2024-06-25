@@ -1,0 +1,33 @@
+Artiﬁcial intelligence had strong ties with automatic control during its early development stages several decades
+ago.  Typical  examples  of  these  ties  are  the  development  of  cybernetics,  robotics,  and  early  learning  systems.
+Recent efforts to incorporate aspects of artiﬁcial intelligence into the design and operation of automatic control
+systems have focused on using techniques such as artiﬁcial neural networks, fuzzy logic, and expert systems.
+The application of one or more of these techniques in the design of control systems has come to be known as
+intelligent control [Antsaklis et al., 1994], a term questioned by some for its implications. Whether or not such
+systems  should  be  classiﬁed  as  intelligent,  they  represent  signiﬁcant  contributions  to  the  ﬁeld  of  automatic
+control, as evidenced by the rapidly growing wealth of literature devoted to the successful application of such
+systems to complex control problems [Chow and Menozzi, 1994a; 1994b; Chow and Teeter, 1997; Chow and
+Yee, 1991; Hunt et al., 1992; Miller et al., 1990; Nguyen and Widrow, 1990; Psaltis et al., 1988; Werbos, 1990].
+The nonlinear functional mapping properties of Artiﬁcial Neural Networks (ANNs) are central to their use
+in system identiﬁcation and control [Narendra and Parthasarathy, 1990]. Although a number of key theoretical
+problems remain, results pertaining to the approximation capabilities of neural networks demonstrate that they
+have great promise in the modeling and control of nonlinear systems. The artiﬁcial neural network technology
+has become increasingly popular as a tool for performing tasks such as automatic control, system identiﬁcation,
+pattern recognition, and time series prediction. Most of the conventional methods, such as PI control, are based
+on mathematical and statistical procedures for the modeling of the system and the estimation of the optimal
+controller  parameters.  In  practice,  the  plant  to  be  controlled  is  often  highly  nonlinear  and  a  mathematical
+model may be difﬁcult to derive. In such cases, conventional techniques may prove to be suboptimal and may
+lack robustness in the face of modeling error, because they are only as accurate as the model that was used to
+design them. With the advancement of technology, however, sophisticated control using artiﬁcial neural network
+techniques has been developed and used successfully to improve the control of systems that cannot be easily
+handled by conventional control, thus giving rise to terminology such as neural control and intelligent control.
+Usually,  a  human  operator  is  responsible  for  adjusting  the  controller’s  parameters  in  order  to  use  his/her
+own idea of good performance. Indirectly, the operator is performing a minimization of a cost function based
+on his/her knowledge. More generally, when confronted with a problem situation, humans execute a mapping
+between a set of events and the set of corresponding appropriate actions. The appropriateness of these actions
+is due to some basic acquired knowledge, or even instinct, that guides the initial stages of the mapping. Then,
+through experience and a set of implicit guidelines, the human learns to perform a better mapping. This is an
+ongoing process throughout a person’s life. Similarly, an ANN, if given initial guidance, can learn to improve
+its performance through a set of guidelines, (e.g., minimize a cost function). In fact, a properly structured ANN
+can  learn  any  arbitrarily  complicated  mapping  [Cybenko,  1989;  Rumelhart  and  McClelland,  1986;  Werbos,
+1974].

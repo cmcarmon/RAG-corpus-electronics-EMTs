@@ -1,0 +1,8 @@
+Failure management in a cluster depends on the cluster
+method. Two approaches are often adopted: high-availability
+clusters and fault-tolerant clusters. A high-availability cluster
+supports migration of services from failed nodes although
+partially executed transactions have to be recovered by the
+application program. A fault-tolerant cluster guarantees ser-
+vice availability by using redundant resources, and there are
+facilities to complete partially executed transactions.

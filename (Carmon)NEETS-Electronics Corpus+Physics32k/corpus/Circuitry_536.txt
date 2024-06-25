@@ -1,0 +1,27 @@
+preserved in the flag register so that, for example, 
+an  overflow,  zero  or  negative  result  can  be 
+detected. 
+  The control unit is responsible for the movement 
+of  data  within  the  CPU  and  the  management  of 
+control  signals,  both  internal  and  external.  The 
+control unit asserts the requisite signals to read or 
+write data as appropriate to the current instruction. 
+ 
+Input and output 
+ 
+The transfer of data within a microprocessor system 
+involves  moving  groups  of  8,  16  or  32-bits  using 
+the bus architecture described earlier. Consequently 
+it is a relatively simple matter to transfer data into 
+and out of the system in parallel form. This process 
+is  further  simplified  by  using  a  Programmable 
+Parallel I/O device (a Z80PIO, 8255, or equivalent 
+VLSI  chip).  This  device  provides  registers  for  the 
+temporary  storage  of  data  that  not  only  buffer  the 
+data but also provide a degree of electrical isolation 
+from the system data bus. 
+  Parallel data transfer is primarily suited to  high-
+speed  operation  over  relatively  short  distances,  a 
+typical 
+a 
+microcomputer  to  an  adjacent  dot  matrix  printer. 

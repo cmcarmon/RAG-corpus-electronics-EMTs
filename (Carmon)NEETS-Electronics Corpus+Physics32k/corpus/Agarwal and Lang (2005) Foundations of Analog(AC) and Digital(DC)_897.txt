@@ -1,0 +1,5 @@
+Observe further that the transfer curve for the buffer passes through the
+forbidden region. Doesn’t this violate our initial premise that voltages in the
+forbidden region were disallowed? Recall that the static discipline requires
+the logic gate to guarantee valid outputs only for valid inputs. That the outputs
+are in the forbidden region when the inputs are invalid is of no consequence.

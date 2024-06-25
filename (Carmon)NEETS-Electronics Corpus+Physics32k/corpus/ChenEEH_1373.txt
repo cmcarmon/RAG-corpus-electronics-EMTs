@@ -1,0 +1,17 @@
+With the introduction of the single-chip multiprocessor
+(Olukotun et al., 1996), the dividing line between research
+into high-performance system architectures and high-per-
+formance processors is becoming blurred. Very coarse-grained
+programmable logic devices such as Chess (Marshall et al.,
+1999) or the RAW machines proposed by Waingold et al.
+(1997) can be considered radically different forms of multi-
+processor architecture. These approaches eliminate traditional
+instruction-set interfaces and instead rely heavily on compi-
+lation to directly customize the hardware to a particular ap-
+plication. Relying on compilation is possible because the
+hardware consists of a simple regular array of interchangable
+processing units. Clearly, this blurs the boundary between
+compiler research and traditional high-level synthesis, another
+area under intense investigation (Detton and Wawrzynek,
+1999) Extending this approach of exposing the inner archi-
+tecture of a processor to the compiler even further results

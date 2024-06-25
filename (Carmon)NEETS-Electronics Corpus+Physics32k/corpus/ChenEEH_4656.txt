@@ -1,0 +1,37 @@
+differential-difference equations in the block form. A linear
+transformation for distributed time-delay systems is proposed
+in Zheng et al. (1995), and the developed SMC algorithm is
+applied to liquid propellent rocket motors. In Hu et al. (1998),
+a transformation for systems with delay only in the control is
+used to design a sliding-mode controller for the transformed
+systems; the advantages over state feedback control are given.
+Sufﬁcient conditions for sliding-mode control of systems with
+uncertain, continuously differentiable, and bounded time delay
+in the states are given in Sinha et al. (1997), using an in-
+variant cone of positive initial functions. Finally, we note that
+El-Khazali (1998) proposes an output feedback sliding-mode
+control design method for similar uncertain time-delay systems.
+With respect to the second area, discrete-time systems, it is
+well-known that ‘‘chattering’’ or oscillation problems occur at
+the boundary layer when the controls are implemented by
+digital computers at a given sampling frequency (Furuta,
+1990). For this reason, researchers have been investigating the
+development of discrete sliding-mode control (DSMC) for
+more than 10 years; see, for example, the works of Furuta
+(1990), Sira-Ramirez (1991), Spurgeon (1991), and Kaynak
+and Denker (1993). One particular direction of research along
+these lines has been toward the coupling of adaptation with
+DSMC, primarily because the discrete sliding-mode control
+might not exist in the presence of system parameter uncertain-
+ties or external disturbances; this, in fact, is one of the main
+differences between DSMC and continuous sliding-mode con-
+trol. There have appeared several good works on adaptive
+DSMC for linear time-invariant systems. For example, Chan
+(1997) proposes a nonswitching type of adaptive DSMC design
+method for a minimum-phase plant in the input/output form
+with bounded disturbances, whereas Furuta suggests using a
+switching type control law (Furuta, 1993). Both of these works
+prove that the state trajectories will converge to a small neigh-
+borhood of the deﬁned sliding surface in ﬁnite time. Bartolini
+et al. (1995) combined adaptive control with sliding-mode
+control for discrete linear systems in state-space forms.

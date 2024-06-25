@@ -1,0 +1,10 @@
+(16.2.34)
+where Qi = KiKpKm and K = KpKaKm, as deﬁned earlier. Since the integral term stands alone
+without combining with the viscous-friction F term (as was the case with error-rate and output-rate
+controls), its inﬂuence on system performance differs basically from the previous compensation
+schemes. Also note that the order of the system is changed from second to third, because of the
+integral-error compensation. The inclusion of the integral term implies that a third independent
+energy-storing element is present. The position lag error, which exists with error-rate and output-
+rate control, disappears with integral-error control. This is a characteristic of integral control
+which greatly improves steady-state performance and system accuracy. However, it may make
+the dynamic behavior more difﬁcult to cope with successfully.

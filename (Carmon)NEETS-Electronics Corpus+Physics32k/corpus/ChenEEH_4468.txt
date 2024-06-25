@@ -1,0 +1,10 @@
+The left column of Figure 4.5 shows the covariance analysis
+using the method of Section 4.5.2 for a scenario where the
+position aiding is available at 1 Hz for the ﬁrst 60 sec but not
+available for the subsequent 15 sec. In the ﬁrst 60 sec the
+position and velocity error standard deviations (STDs) have
+effectively reached their steady-state accuracy. These plots
+clearly show that error accumulates during each 1 sec of INS
+integration and is reduced by each 1 Hz position update. The
+accelerometer bias error is still being slowly corrected at the
+end of the 60 sec of position corrections.

@@ -1,0 +1,12 @@
+Balanced mixer
+Noise that accompanies the LO signal can appear at the IF.
+A method of eliminating LO noise is via the balanced mixer.
+A balanced mixer uses a four-port hybrid junction as shown in
+Figure 10.2. The LO and RF signals are applied to the two
+ports. Diode mixers are in each of the remaining two ports. At
+one diode, the sum of the RF and LO signals appears, and at
+the other diode is the difference of the two signals. The two
+diode mixers should have the same characteristics and be well
+matched. The IF signal is the subtraction of the two diode
+outputs. Because the LO noise at the two diode mixers are in
+phase, it will be canceled at the output.

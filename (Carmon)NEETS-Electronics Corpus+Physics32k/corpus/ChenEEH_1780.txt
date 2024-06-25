@@ -1,0 +1,25 @@
+. Medium access control (MAC) access delay: If the trans-
+mission link is shared, a suitable MAC protocol must be
+used for accessing the link (Yu and Khanvilkar, 2002).
+The choice of MAC protocol largely inﬂuences this delay.
+For example, if the transmission capacity is C bps, and the
+packet length is L bits, time taken to transmit is L/C,
+assuming a dedicated link. However, if the MAC protocol
+uses time division multiple access (TDMA) with m slots,
+this delay becomes mL/C, which is m times larger than the
+earlier case. The widespread ethernet networks cannot
+provide any ﬁrm guarantees on this access delay (and
+hence the overall QoS) due to the indeterminism of the
+carrier sense multiple access/collision detection (CSMA/
+CD) approach toward sharing of network capacity (Wolf
+et al., 1997). The reason for this is that the collisions,
+which occur in the bus-based ethernet when two stations
+start transmitting at the same time, lead to delayed service
+time. Fast ethernet exploits the same conﬁguration as
+10 Mbps ethernet and increases the bandwidth with the
+use of new hardware in hubs and end stations to
+100 Mbps but provides no QoS guarantees. Isochronous
+ethernet (integrated voice data LAN, IEEE 802.9) and
+demand priority ethernet (100Base-VG, AnyLAN, IEEE
+802.12) can provide QoS, yet their market potential
+remains questionable.

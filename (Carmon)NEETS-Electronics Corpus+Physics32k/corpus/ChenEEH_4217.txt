@@ -1,0 +1,9 @@
+. Different collision detection (CD) techniques: Baseband
+compares the received signal with a collision detection
+(CD) threshold. If the received signal exceeds the threshold,
+it claims that the collision is detected. It may fail to detect a
+collision due to signal attenuation. Broadband performs a
+bit-by-bit comparison or lets the headend perform colli-
+sion detection by checking whether higher signal strength is
+received at the headend. If the headend detects a collision, it
+sends a jamming signal to the outbound channel.

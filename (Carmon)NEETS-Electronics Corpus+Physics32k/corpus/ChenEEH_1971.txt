@@ -1,0 +1,11 @@
+the
+nodes are executed in an allowed sequence (i.e., that the
+main processor traverses the CFG correctly), which is not
+necessarily the correct sequence of the program execution
+since the selection itself is unchecked. To check the contents
+of a node and the type and sequence of the instructions in it,
+derived signature methods are required. One of the ﬁrst
+methods developed to perform CFC using assigned signatures
+is structural integrity checking (SIC) (Lu, 1982; Mahmood and
+McCluskey, 1988), which makes use of the control structure
+embedded in the syntax of the programming language.

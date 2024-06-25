@@ -1,0 +1,6 @@
+But how do we create the necessary proportioning circuit? Well, if our intention is to allow
+this meter movement to measure a greater voltage than it does now, what we need is a voltage
+divider circuit to proportion the total measured voltage into a lesser fraction across the meter
+movement’s connection points. Knowing that voltage divider circuits are built from series re-
+sistances, we’ll connect a resistor in series with the meter movement (using the movement’s
+own internal resistance as the second resistance in the divider):

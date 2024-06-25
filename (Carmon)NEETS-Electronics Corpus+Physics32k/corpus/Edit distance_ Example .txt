@@ -1,0 +1,11 @@
+The Levenshtein distance between "kitten" and "sitting" is 3. A minimal edit script that transforms the former into the latter is:
+kitten → sitten (substitution of "s" for "k")
+sitten → sittin (substitution of "i" for "e")
+sittin → sitting (insertion of "g" at the end).
+LCS distance (insertions and deletions only) gives a different distance and minimal edit script:
+delete k at 0
+insert s at 0
+delete e at 4
+insert i at 4
+insert g at 6
+for a total cost/distance of 5 operations.

@@ -1,0 +1,52 @@
+Values of the Biot number smaller than 0.1 imply that the heat conduction inside the body is much faster than the heat convection away from its surface, and temperature gradients are negligible inside of it. This can indicate the applicability (or inapplicability) of certain methods of solving transient heat transfer problems. For example, a Biot number less than 0.1 typically indicates less than 5% error will be present when assuming a lumped-capacitance model of transient heat transfer (also called lumped system analysis). Typically this type of analysis leads to simple exponential heating or cooling behavior ("Newtonian" cooling or heating) since the amount of thermal energy (loosely, amount of "heat") in the body is directly proportional to its temperature, which in turn determines the rate of heat transfer into or out of it. This leads to a simple first-order differential equation which describes heat transfer in these systems.
+Having a Biot number smaller than 0.1 labels a substance as "thermally thin," and temperature can be assumed to be constant throughout the material's volume. The opposite is also true: A Biot number greater than 0.1 (a "thermally thick" substance) indicates that one cannot make this assumption, and more complicated heat transfer equations for "transient heat conduction" will be required to describe the time-varying and non-spatially-uniform temperature field within the material body. Analytic methods for handling these problems, which may exist for simple geometric shapes and uniform material thermal conductivity, are described in the article on the heat equation. Examples of verified analytic solutions along with precise numerical values are available . Often such problems are too difficult to be done except numerically, with the use of a computer model of heat transfer.
+Together with the Fourier number, the Biot number can be used in transient conduction problems in a lumped parameter solution, which can be written as,
+
+
+
+
+
+
+
+T
+−
+
+T
+
+∞
+
+
+
+
+
+T
+
+0
+
+
+−
+
+T
+
+∞
+
+
+
+
+
+=
+
+e
+
+
+−
+B
+i
+F
+o
+
+
+
+
+
+{\displaystyle {T-T_{\infty } \over T_{0}-T_{\infty }}=e^{\mathrm {-BiFo} }}

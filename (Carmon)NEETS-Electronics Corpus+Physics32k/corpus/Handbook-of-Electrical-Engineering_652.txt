@@ -1,0 +1,6 @@
+Low-Pass Equivalent Models for Chaotic Communications Systems
+The previous sections have described chaotic digital modulation schemes. The output of these modulations is
+generally  a  low-pass  signal.  Many  telecommunications  channels,  such  as  a  radio  channel,  can  transmit  only
+bandpass signals, so a second modulation scheme must be used to produce an RF output in these cases. An
+exception is the FM-DCSK modulation scheme, where the output of the FM modulator is already a bandpass
+RF signal and the DCSK modulation is applied directly to this signal.

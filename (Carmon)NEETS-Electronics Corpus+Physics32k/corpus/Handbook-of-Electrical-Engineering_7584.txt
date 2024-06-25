@@ -1,0 +1,12 @@
+Observe that the output transistors T4 and T5 are always active and function as emitter followers, providing
+the low-output impedances required for driving capacitive loads. As T1A and/or T1B turn on, and T2 turns off
+as a consequence, the transition is accomplished with very little current change in the 365-W emitter resistor.
+It follows that the supply current from VEE does not undergo the sudden increases and decreases prevalent in
+TTL,  thus  eliminating  the  need  for  decoupling  capacitors.  This  is  a  major  reason  why  ECL  can  be  operated
+successfully with the low noise margins which are inherent in logic having a relatively small voltage difference
+between the HIGH and LOW voltage levels (see Table 79.7). The small level shifts between LOW and HIGH
+also permit low propagation times without excessively fast rise and fall times. This reduces the effects of residual
+capacitive coupling between gates, thereby lessening the required noise margin. For this reason the faster ECL
+(100xxx) should not be used where the speed of the 10xxx series is sufﬁcient. A comparison of three ECL series
+is  given  in  Table  79.7.  The  propagation  times tPLH and  tPHL  and  transition  times  tTLH  and  tTHL  are  deﬁned  in
+Fig. 79.7. Transitions are between the 20 and 80% levels.

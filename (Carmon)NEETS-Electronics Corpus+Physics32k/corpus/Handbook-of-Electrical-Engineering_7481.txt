@@ -1,0 +1,7 @@
+A word is in order regarding spectral estimation techniques. Two basic techniques can be used for spectral
+estimation: Fourier techniques and model-based techniques. In most simulation problems one is blessed with
+a tremendous amount of data concerning sampled waveforms but does not have a simple model describing
+how these waveforms are produced. For this reason model-based spectral estimation is typically not used. The
+most common form of spectral estimation used in simulation is the Welch periodogram. While this approach
+is straightforward, the effects of windowing the data sequence must be carefully considered, and tens or even
+hundreds of data windows must be averaged to achieve an accurate estimate of the power spectral density.

@@ -1,0 +1,4 @@
+δ(n) is the unit-sample deﬁned in equation (2.28). Using this deﬁnition, δ(k − l) equals one when k − l = 0
+(k = l) and zero when k − l (cid:54)= 0 (k (cid:54)= l). Assuming for the moment that the Fourier series “works,” we can
+ﬁnd a signal’s Fourier coeﬃcients, its spectrum, by exploiting this orthogonality property. Simply multiply
+each side of (4.1) by e−j2πlt and integrate over the interval [0, T ].

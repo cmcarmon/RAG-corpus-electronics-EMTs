@@ -1,0 +1,9 @@
+circuit containing many sources and resistors, and one capacitor, as suggested
+in Figure 10.3. Let us assume we wish to find the capacitor voltage vC. We will
+use the node method described in Chapter 3 to do so. As shown in Figure 10.2a,
+we take the bottom node as ground, which leaves us with one unknown node
+voltage corresponding to the top node. The voltage at the top node is the same
+as the voltage across the capacitor, and so we will proceed to work with vC
+as our unknown. Next, according to Step 3 of the node method, we write
+KCL for the top node in Figure 10.2a, substituting the constituent relation for
+a capacitor from Equation 9.9,

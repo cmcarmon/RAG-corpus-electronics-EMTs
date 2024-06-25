@@ -1,0 +1,7 @@
+Distributed RC Model: If the line is sufﬁciently long, the signal sees a decreasing resistance and capacitance
+toward the destination as the signal traverses the line. To represent this changing RC, the distributed RC
+model divides the overall line into shorter segments, each of which can be represented by the lumped
+RC model above. The transfer function of the overall line is then the product of the transfer functions
+of  the  sections.  The  propagation  delay  is  negligible,  though  the  rise/fall  times  increase  as  the  signal
+propagates toward the far-end gates (signiﬁcant if the line is tapped along its length to drive multiple
+gates).

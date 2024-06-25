@@ -1,0 +1,11 @@
+The main problem with many time redundancy techniques is assuring that the system has the same data to
+manipulate each time it redundantly performs a computation. If a transient fault has occurred, a system’s data
+may be completely corrupted, making it difﬁcult to repeat a given computation. Time redundancy has been
+used primarily to detect transients in systems. One of the biggest potentials of time redundancy, however, now
+appears to be the ability to detect permanent faults while using a minimum of extra hardware. The fundamental
+concept  is  illustrated  in  Fig.  93.5.  During  the  ﬁrst  computation  or  transmission,  the  operands  are  used  as
+presented and the results are stored in a register. Prior to the second computation or transmission, the operands
+are  encoded  in  some  fashion  using  an  encoding  function. After  the  operations  have  been  performed  on  the
+encoded  data,  the  results  are  then  decoded  and  compared  to  those  obtained  during  the  ﬁrst  operation.  The
+selection of the encoding function is made so as to allow faults in the hardware to be detected. Example encoding
+functions might include the complementation operator and an arithmetic shift.

@@ -1,0 +1,6 @@
+SPICE Computer Models
+The use of op amps can be considerably simpliﬁed by computer-aided analysis using the program SPICE. SPICE
+originated with the University of California, Berkeley, in 1975 [Nagel, 1975], although more recent user-friendly
+commercial versions are now available such as HSPICE, HPSPICE, IS-SPICE, PSPICE, and ZSPICE, to mention
+a few of those most widely used. A simple macromodel for a near-ideal op amp could be simply stated with
+the SPICE subcircuit ﬁle (* indicates a comment that is not processed by the ﬁle)

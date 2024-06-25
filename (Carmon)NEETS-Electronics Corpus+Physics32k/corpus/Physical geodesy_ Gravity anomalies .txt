@@ -1,0 +1,153 @@
+Above we already made use of gravity anomalies
+
+
+
+Δ
+g
+
+
+{\displaystyle \Delta g}
+. These are computed as the differences between true (observed) gravity
+
+
+
+g
+=
+‖
+
+
+
+g
+→
+
+
+
+‖
+
+
+{\displaystyle g=\|{\vec {g}}\|}
+, and calculated (normal) gravity
+
+
+
+γ
+=
+‖
+
+
+
+γ
+→
+
+
+
+‖
+=
+‖
+∇
+U
+‖
+
+
+{\displaystyle \gamma =\|{\vec {\gamma }}\|=\|\nabla U\|}
+. (This is an oversimplification; in practice the location in space at which γ is evaluated will differ slightly from that where g has been measured.) We thus get
+
+
+
+
+Δ
+g
+=
+g
+−
+γ
+.
+
+
+
+{\displaystyle \Delta g=g-\gamma .\,}
+
+These anomalies are called free-air anomalies, and are the ones to be used in the above Stokes equation.
+In geophysics, these anomalies are often further reduced by removing from them the attraction of the topography, which for a flat, horizontal plate (Bouguer plate) of thickness H is given by
+
+
+
+
+
+a
+
+B
+
+
+=
+2
+π
+G
+ρ
+H
+,
+
+
+
+{\displaystyle a_{B}=2\pi G\rho H,\,}
+
+The Bouguer reduction to be applied as follows:
+
+
+
+
+Δ
+
+g
+
+B
+
+
+=
+Δ
+
+g
+
+F
+A
+
+
+−
+
+a
+
+B
+
+
+,
+
+
+
+{\displaystyle \Delta g_{B}=\Delta g_{FA}-a_{B},\,}
+
+so-called Bouguer anomalies. Here,
+
+
+
+Δ
+
+g
+
+F
+A
+
+
+
+
+{\displaystyle \Delta g_{FA}}
+is our earlier
+
+
+
+Δ
+g
+
+
+{\displaystyle \Delta g}
+, the free-air anomaly.
+In case the terrain is not a flat plate (the usual case!) we use for H the local terrain height value but apply a further correction called the terrain correction (TC).

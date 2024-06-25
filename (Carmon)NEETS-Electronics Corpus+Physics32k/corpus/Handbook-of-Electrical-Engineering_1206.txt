@@ -1,0 +1,11 @@
+Attribute Sets: Closed Convex Sets
+Although the case in which the signal attribute sets are closed subspaces is of theoretical interest, it is typically
+found to be too restrictive for most practical applications. As we will now see, however, it is possible to extend
+these concepts to the more general case of closed convex attribute sets. The set C is said to be convex if for any
+two vectors x,y ˛  C their convex sum as deﬁned by l  x + (1 – l)y is also contained in C for all 0 £ l £  1. The
+ability  to  broaden  the  class  of  attribute  sets  to  include  closed  convex  sets  signiﬁcantly  expands  the  class  of
+problems  that  can  be  treated  by  signal  restoration.  The  following  well-known  functional  analysis  theorem
+provides the framework for this development.
+Theorem 4. Let  C be a nonempty closed convex set of Hilbert space X. Corresponding to any vector x ˛  X,
+there is a unique vector xo ˛  C such that **x – xo** £ **x – y** for all y ˛  C. Furthermore, a necessary and sufﬁcient
+condition that xo be the unique minimizing vector is that <x – xo, y – xo> £  0 for all y ˛  C.

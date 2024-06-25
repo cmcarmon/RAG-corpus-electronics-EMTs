@@ -1,0 +1,6 @@
+The basic acoustic unit modeled by the HMM can be either a word or a subword unit. For small recognition
+vocabularies,  the  lexicon  typically  consists  of  whole-word  models  similar  to  the  model  shown  in  Fig. 15.18.
+The number of states in such a model can either be ﬁxed or be made to depend on word duration. For larger
+vocabularies,  words  are  more  often  deﬁned  in  the  lexicon  as  concatenations  of  phone  or  triphone  models.
+Triphones are phone models with left and right context speciﬁed [Lee, 1988]; they are used to model acoustic
+variability which results from the coarticulation of adjacent speech sounds.

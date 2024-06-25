@@ -1,0 +1,13 @@
+CELP
+The general CELP architecture is described as a blockwise analysis-by-synthesis selection of an LPC excitation
+sequence. In low-rate CELP coders, a forward-adaptive linear predictive analysis is performed at 20 to 30 msec
+intervals.  The  gross  spectral  characterization  is  used  to  reconstruct,  via  linear  prediction,  candidate  speech
+segments derived from a constrained set of plausible ﬁlter excitations (the “codebook”). The excitation vector
+that produces the synthetic speech segment with smallest perceptually weighted distortion (with respect to the
+original speech) is chosen for transmission. Typically, the excitation vector is optimized more often than the
+ for the excitation is signiﬁcant in bit-rate reduction.
+LPC spectral model. The use of 
+The use of perceptual weighting in the CELP reconstruction stage and analysis-by-synthesis optimization of
+the dominant low-frequency (pitch) component are key concepts in maintaining good quality encoded speech
+at lower rates. CELP-based speech coders are the predominant coding methodologies for rates between 4 kbits/s
+and 16 kbits/s due to their excellent subjective performance. Some of the most notable are detailed below.

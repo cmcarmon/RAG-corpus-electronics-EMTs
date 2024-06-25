@@ -1,0 +1,4 @@
+Since it is clear from the formula that the dynamic power is maximized when RONpd is
+minimized, we assume that all the pulldown MOSFETs are turned on when the clock
+signal goes high. Accordingly, if the on resistance for a MOSFET is RON, we must use
+the following value for RONpd:

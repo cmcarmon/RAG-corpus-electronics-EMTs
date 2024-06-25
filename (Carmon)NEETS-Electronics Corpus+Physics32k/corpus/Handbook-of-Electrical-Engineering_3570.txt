@@ -1,0 +1,4 @@
+During normal device operation, the scan rings are disabled and the registers serve as conventional memory
+(state) storage elements. During test operation, the scan rings are enabled and stimulus test vectors are shifted
+into the memory elements to set the state of the digital system. The digital system is exercised for one clock
+cycle and then the results are shifted out of the scan ring to record the response.

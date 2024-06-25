@@ -1,0 +1,11 @@
+A single shift register can be arranged to provide its own input by means of feedback circuits, and its action
+then becomes autonomous, since the only external signal required is the clock signal. There are only a ﬁnite
+number of states of the feedback shift register (FSR), and the output sequence from the register will, therefore,
+repeat  with  a  cycle  length  not  greater  than  2n  bits,  where  n  is  the  number  of  ﬂip-ﬂops  in  the  register.  This
+property can be used to create a counter known as a Johnson counter in which the shift register has the J and
+K inputs of the ﬁrst stage fed directly from the  Q¢ and Q outputs, respectively, of the last stage. This simple
+form of feedback leads to the name twisted-ring counter, and the result is the generation of a creeping or stepping
+code with 2n different states. This form of counter is convenient only when the count is small, as the number
+of ﬂip-ﬂops quickly becomes excessive, but is ideal for a simple decade counter. Unlike standard binary decade
+counters, the Johnson decade counter requires ﬁve ﬂip-ﬂops but no additional feedback circuitry. Gating needed
+to detect speciﬁc settings of the counter is also very simple [Bannister and Whitehead, 1987].

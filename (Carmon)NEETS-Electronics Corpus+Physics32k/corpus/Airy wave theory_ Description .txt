@@ -1,0 +1,169 @@
+Airy wave theory uses a potential flow (or velocity potential) approach to describe the motion of gravity waves on a fluid surface. The use of – inviscid and irrotational – potential flow in water waves is remarkably successful, given its failure to describe many other fluid flows where it is often essential to take viscosity, vorticity, turbulence and/or flow separation into account. This is due to the fact that for the oscillatory part of the fluid motion, wave-induced vorticity is restricted to some thin oscillatory Stokes boundary layers at the boundaries of the fluid domain.
+Airy wave theory is often used in ocean engineering and coastal engineering. Especially for random waves, sometimes called wave turbulence, the evolution of the wave statistics – including the wave spectrum – is predicted well over not too long distances (in terms of wavelengths) and in not too shallow water. Diffraction is one of the wave effects which can be described with Airy wave theory. Further, by using the WKBJ approximation, wave shoaling and refraction can be predicted.
+Earlier attempts to describe surface gravity waves using potential flow were made by, among others, Laplace, Poisson, Cauchy and Kelland. But Airy was the first to publish the correct derivation and formulation in 1841. Soon after, in 1847, the linear theory of Airy was extended by Stokes for non-linear wave motion – known as Stokes' wave theory – correct up to third order in the wave steepness. Even before Airy's linear theory, Gerstner derived a nonlinear trochoidal wave theory in 1802, which however is not irrotational.
+Airy wave theory is a linear theory for the propagation of waves on the surface of a potential flow and above a horizontal bottom. The free surface elevation η(x,t) of one wave component is sinusoidal, as a function of horizontal position x and time t:
+
+
+
+
+η
+(
+x
+,
+t
+)
+
+=
+
+a
+
+cos
+
+
+(
+
+k
+x
+
+−
+
+ω
+t
+
+)
+
+
+
+{\displaystyle \eta (x,t)\,=\,a\,\cos \,\left(kx\,-\,\omega t\right)}
+
+where
+a is the wave amplitude in metre,
+cos is the cosine function,
+k is the angular wavenumber in radian per metre, related to the wavelength λ as
+
+
+
+
+k
+
+=
+
+
+
+
+2
+π
+
+λ
+
+
+,
+
+
+
+{\displaystyle k\,=\,{\frac {2\pi }{\lambda }},\,}
+
+ω is the angular frequency in radian per second, related to the period T and frequency f by
+
+
+
+
+ω
+
+=
+
+
+
+
+2
+π
+
+T
+
+
+
+=
+
+2
+π
+
+f
+.
+
+
+
+{\displaystyle \omega \,=\,{\frac {2\pi }{T}}\,=\,2\pi \,f.\,}
+
+The waves propagate along the water surface with the phase speed cp:
+
+
+
+
+
+c
+
+p
+
+
+
+=
+
+
+
+ω
+k
+
+
+
+=
+
+
+
+λ
+T
+
+
+.
+
+
+{\displaystyle c_{p}\,=\,{\frac {\omega }{k}}\,=\,{\frac {\lambda }{T}}.}
+
+The angular wavenumber k and frequency ω are not independent parameters (and thus also wavelength λ and period T are not independent), but are coupled. Surface gravity waves on a fluid are dispersive waves – exhibiting frequency dispersion – meaning that each wavenumber has its own frequency and phase speed.
+Note that in engineering the wave height H – the difference in elevation between crest and trough – is often used:
+
+
+
+
+H
+
+=
+
+2
+
+a
+
+
+and
+
+
+a
+
+=
+
+
+
+1
+2
+
+
+
+H
+,
+
+
+{\displaystyle H\,=\,2\,a\qquad {\text{and}}\qquad a\,=\,{\frac {1}{2}}\,H,}
+
+valid in the present case of linear periodic waves.
+
+Underneath the surface, there is a fluid motion associated with the free surface motion. While the surface elevation shows a propagating wave, the fluid particles are in an orbital motion. Within the framework of Airy wave theory, the orbits are closed curves: circles in deep water, and ellipses in finite depth—with the ellipses becoming flatter near the bottom of the fluid layer. So while the wave propagates, the fluid particles just orbit (oscillate) around their average position. With the propagating wave motion, the fluid particles transfer energy in the wave propagation direction, without having a mean velocity. The diameter of the orbits reduces with depth below the free surface. In deep water, the orbit's diameter is reduced to 4% of its free-surface value at a depth of half a wavelength.
+In a similar fashion, there is also a pressure oscillation underneath the free surface, with wave-induced pressure oscillations reducing with depth below the free surface – in the same way as for the orbital motion of fluid parcels.

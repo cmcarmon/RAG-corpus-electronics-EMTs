@@ -1,0 +1,4 @@
+The  radial  basis  function  (RBF)  network  constitutes  another  way  of  implementing  arbitrary  input/output
+mappings. The most signiﬁcant difference between the MLP and RBF lies in the PE nonlinearity. While the PE
+in the MLP responds to the full input space, the PE in the RBF is local, normally a Gaussian kernel in the input
+space. Hence, it only responds to inputs that are close to its center; i.e., it has basically a local response.

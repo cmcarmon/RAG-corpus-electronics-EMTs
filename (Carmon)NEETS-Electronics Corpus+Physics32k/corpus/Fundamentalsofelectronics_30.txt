@@ -1,0 +1,15 @@
+(1.1)
+A is known as the sinusoid’s amplitude, and determines the sinusoid’s size. The amplitude conveys the
+sinusoid’s physical units (volts, lumens, etc). The frequency f has units of Hz (Hertz) or s−1, and determines
+how rapidly the sinusoid oscillates per unit time. The temporal variable t always has units of seconds, and
+thus the frequency determines how many oscillations/second the sinusoid has. AM radio stations have carrier
+frequencies of about 1 MHz (one mega-hertz or 106 Hz), while FM stations have carrier frequencies of about
+100 MHz. Frequency can also be expressed by the symbol ω, which has units of radians/second. Clearly,
+ω = 2πf.
+In communications, we most often express frequency in Hertz. Finally, φ is the phase, and
+determines the sine wave’s behavior at the origin (t = 0). It has units of radians, but we can express it in
+degrees, realizing that in computations we must convert from degrees to radians. Note that if φ = − π
+2 , the
+sinusoid corresponds to a sine function, having a zero value at the origin.
+2πf t + φ − π
+2

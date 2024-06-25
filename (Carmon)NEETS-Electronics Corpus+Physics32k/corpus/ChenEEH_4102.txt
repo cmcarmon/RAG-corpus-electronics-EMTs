@@ -1,0 +1,16 @@
+characteristics. The process to correct channel-induced distor-
+tion is referred to as equalization. The adjustable ﬁlter is called
+an equalizer. Equalizers may be preset or adaptive. The
+parameters of a preset equalizer are adjusted by making
+measurements of channel impulse response and solving a set
+of equations for the parameters using these measurements. An
+adaptive equalizer is automatically adjusted by sending a
+known signal through the channel and allowing the equalizer
+to adjust its own parameters in response to this known signal.
+A transversal ﬁlter—a delay line with T-second taps (where
+T is the symbol duration)—is a common choice for the equal-
+izer. The outputs of the taps are ampliﬁed, summed, and fed to
+a decision device. The tap coefﬁcients Cn are set to subtract the
+effects of interference from symbols that are adjacent in time to
+the desired symbol. The output samples yk of the equalizer are
+written as:

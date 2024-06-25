@@ -1,0 +1,6 @@
+Track ﬁltering generally provides smoothing and prediction of target position and velocity via a recursive
+prediction-correction process. The ﬁlter predicts the target’s position at the time of the next measurement based
+on the current smoothed estimates of position, velocity, and possibly acceleration. The subsequent difference
+between the measured position at this time and the predicted position is used to update the smoothed estimates.
+The  update  process  incorporates  a  weighting  vector  that  determines  the  relative  signiﬁcance  given  the  track
+ﬁlter prediction versus the new measurement in updating the smoothed estimate.

@@ -1,0 +1,8 @@
+The Continuous Space
+When used to truncate an FDTD lattice, the PML has a
+thickness d and is terminated by the outer boundary of the
+lattice. If the outer boundary is assumed to be a PEC wall,
+ﬁnite power reﬂects back into the primary computation zone.
+For a wave impinging on the PML at angle u relative to the w-
+directed surface normal, this reﬂection can be computed using
+transmission line analysis, yielding:

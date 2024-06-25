@@ -1,0 +1,10 @@
+5.15 Eﬃciency of Frequency-Domain Filtering29
+To determine for what signal and ﬁlter durations a time- or frequency-domain implementation would be
+the most eﬃcient, we need only count the computations required by each. For the time-domain, diﬀerence-
+equation approach, we need (Nx +q) (2q + 1). As Figure 5.20 shows, the frequency-domain approach requires
+three Fourier transforms but we need to only compute two of them: typically, H(k) is computed once and
+stored. Each requires 5K
+log2 K computations for a length-K FFT. We must multiply two complex-valued
+2
+length-K spectra; that requires 6K computations. Because the output-signal-duration-determined length
+must be at least Nx + q, we must compare

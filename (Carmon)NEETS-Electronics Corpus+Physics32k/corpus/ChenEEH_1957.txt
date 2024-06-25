@@ -1,0 +1,10 @@
+Experimental Results
+The algorithms in Figure 8.9 were coded for the FPGA model of
+single-length segments and tested on a number of benchmark
+circuits (obtained from the University of Toronto FPGA group)
+ranging from about 80 cells and nets to about 500 cells and nets.
+The input to the incremental routing software of Dutt et al.
+(1999) is the mapped and routed circuits produced by the
+Toronto’s group SEGA tools (Lemieux and Brown, 1993). Two
+important metrics, track overhead and reconﬁguration time
+(essentially, rerouting time), are the focus of these experiments.

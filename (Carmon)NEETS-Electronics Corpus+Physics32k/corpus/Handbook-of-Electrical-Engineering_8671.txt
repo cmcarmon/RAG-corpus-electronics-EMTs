@@ -1,0 +1,5 @@
+An astute coder who does not trust compilers would not allow two memory references for vector[x] in the
+same  conditional  statement  and  would  rewrite  the  code  by  assigning  vector[x]  to  a  temporary  variable  and
+using  that  variable  in  the  conditional. An  astute  compiler  would  also  recognize  the  constant  expression  and
+assign vector[x] to a scratch pad register and use this register for both comparisons. This type of optimization,
+where small sections of code (typically one source line) are optimized, is called peep-hole optimization.

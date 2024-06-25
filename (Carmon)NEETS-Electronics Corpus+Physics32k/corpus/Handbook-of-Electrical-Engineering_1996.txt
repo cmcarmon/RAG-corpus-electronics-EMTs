@@ -1,0 +1,14 @@
+1. An evaluation module (EVM). The EVM is a powerful, yet relatively inexpensive 8-bit card that plugs
+into a slot on an IBM AT compatible. It includes the third-generation TMS320C30, 16 K of user RAM,
+and an AIC for I/O. A serial port connector available on the EVM can be used to interface the TMS320C30
+to other input/output devices (the TMS320C30 has two serial ports). An additional AIC can be interfaced
+to the TMS320C30 through this serial port connector. A very powerful, yet inexpensive, analog evaluation
+ﬁxture,  available  from  Burr-Brown  (Arizona),  can  also  be  readily  interfaced  to  the  serial  port  on  the
+EVM. This complete two-channel analog evaluation ﬁxture includes an 18-bit DSP102 ADC, an 18-bit
+DSP202 DAC, antialiasing and reconstruction ﬁlters. The ADC has a maximum sampling rate of 200 kHz.
+2. An XDS1000 emulator—powerful but quite expensive. A module can be readily built as a target system
+to interface to the XDS1000 [Chassaing, 1992]. This module contains the TMS320C30, 16 K of static
+RAM.  Two  connectors  are  included  on  this  module,  for  interfacing  to  either  an  AIC  module  or  to  a
+second-generation  analog  interface  board  (AIB).  The  AIC  was  discussed  in  conjunction  with  the
+TMS320C25. The AIB includes Burr-Brown’s 16-bit ADC and DAC with a maximum sampling rate of
+58 kHz. An AIC is also included on this newer AIB version.

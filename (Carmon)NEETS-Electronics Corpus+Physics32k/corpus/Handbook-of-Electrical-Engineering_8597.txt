@@ -1,0 +1,6 @@
+Some machines require that the datum be properly aligned with the stacking order of the memory columns
+in Fig. 87.1. Thus, on the SPARC, a longword must have an address ending in 00 (xxx00 in Fig. 87.1), and a
+word address must end in 0. The programmer who arranges to violate this rule will be greeted with an address
+error.  Since  the  MC68000  has  only  two  columns,  it  complains  only  if  you  ask  for  words  or  longwords  with
+odd addresses. Successor models of that chip (68020, 30, and 40), like the VAX, accept any address and have
+the CPU read two longwords and do the proper repacking.

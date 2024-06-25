@@ -1,0 +1,17 @@
+Figure 44-25 shows a typical 4-bit shift register 
+constructed of JK flip-flops. The serial data and their 
+complements are applied to the JK inputs of the A flip-
+flop. The other flip-flops are cascaded, with the out-
+puts of one connected to the inputs of the next. The 
+toggles of all the flip-flops are connected together, and 
+the clock pulse is applied to this line. Because all the 
+flip-flops are toggled together, this is a synchronous 
+circuit. Also, the clear inputs of each flip-flop are tied 
+together to form a reset line. Data applied to the in-
+put are shifted through the flip-flops 1 bit position for 
+each clock pulse. For example, if the binary number 
+1011 is applied to the input of the shift register and a 
+shift pulse is applied, the number stored in the shift 
+register is shifted out and lost while the external num-
+ber is shifted in. Figure 44-26 shows the sequence of 
+events for storing a number in the shift register.

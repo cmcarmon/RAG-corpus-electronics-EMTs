@@ -1,0 +1,10 @@
+Our method of applying node analysis to a circuit containing dependent
+sources begins by assuming that we know the value of each dependent source.
+This assumption allows us to treat each dependent source as an independent
+source, and carry out a node analysis of the circuit as described in the previ-
+ous subsections. For example, in the case of a dependent current source (see
+Figure 3.23), we replace the dependent source with an independent current
+source with some assumed current, say I (see Figure 3.24), and carry out our
+usual five-step node analysis. As part of this analysis we solve for the branch
+variables that control the dependent sources in terms of the assumed source
+values.

@@ -1,0 +1,13 @@
+The v i curve for a switch is shown in Figure 6.3. Thus far, we drew the v i
+curves for two-terminal devices by plotting the relationship between the voltage
+and current for the two terminals. Likewise, for our three-terminal switch, we
+can draw the v i characteristics at the input-output terminal pair. The effect of
+the control terminal can be taken into account by drawing a different v i curve
+for each value at the control terminal. Thus, as illustrated in Figure 6.3, when
+the control input is a logical 0, the v i curve for the input-output terminal pair
+indicates that the current through the switch is 0, irrespective of the voltage
+applied. Conversely, the switch behaves like a short circuit between its input
+and output terminals when the control input is a logical 1. When behaving like
+a short circuit, the voltage across the input and output terminals is zero, and the
+current is unconstrained by the switch (rather, it is determined by constraints
+that are external to the switch).

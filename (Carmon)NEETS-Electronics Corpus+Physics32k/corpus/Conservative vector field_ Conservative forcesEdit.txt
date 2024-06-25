@@ -1,0 +1,271 @@
+If the vector field associated to a force
+
+
+
+
+F
+
+
+
+{\displaystyle \mathbf {F} }
+is conservative, then the force is said to be a conservative force.
+The most prominent examples of conservative forces are the gravitational force and the electric force associated to an electrostatic field. According to Newton's law of gravitation, the gravitational force
+
+
+
+
+
+F
+
+
+G
+
+
+
+
+{\displaystyle \mathbf {F} _{G}}
+acting on a mass
+
+
+
+m
+
+
+{\displaystyle m}
+due to a mass
+
+
+
+M
+
+
+{\displaystyle M}
+, which is a distance
+
+
+
+r
+
+
+{\displaystyle r}
+between them, obeys the equation
+
+
+
+
+
+
+F
+
+
+G
+
+
+=
+−
+
+
+
+G
+m
+M
+
+
+r
+
+2
+
+
+
+
+
+
+
+
+r
+
+^
+
+
+
+,
+
+
+{\displaystyle \mathbf {F} _{G}=-{\frac {GmM}{r^{2}}}{\hat {\mathbf {r} }},}
+
+where
+
+
+
+G
+
+
+{\displaystyle G}
+is the gravitational constant and
+
+
+
+
+
+
+
+r
+
+^
+
+
+
+
+
+{\displaystyle {\hat {\mathbf {r} }}}
+is a unit vector pointing from
+
+
+
+M
+
+
+{\displaystyle M}
+toward
+
+
+
+m
+
+
+{\displaystyle m}
+. The force of gravity is conservative because
+
+
+
+
+
+F
+
+
+G
+
+
+=
+−
+∇
+
+Φ
+
+G
+
+
+
+
+{\displaystyle \mathbf {F} _{G}=-\nabla \Phi _{G}}
+, where
+
+
+
+
+
+Φ
+
+G
+
+
+
+
+
+
+
+=
+
+
+def
+
+
+
+
+−
+
+
+
+G
+m
+M
+
+r
+
+
+
+
+{\displaystyle \Phi _{G}~{\stackrel {\text{def}}{=}}-{\frac {GmM}{r}}}
+
+is the gravitational potential energy.
+For conservative forces, path independence can be interpreted to mean that the work done in going from a point
+
+
+
+A
+
+
+{\displaystyle A}
+to a point
+
+
+
+B
+
+
+{\displaystyle B}
+is independent of the path chosen, and that the work
+
+
+
+W
+
+
+{\displaystyle W}
+done in going around a simple closed loop is
+
+
+
+0
+
+
+{\displaystyle 0}
+:
+
+
+
+
+W
+=
+
+
+
+
+∮
+
+
+
+
+
+
+C
+
+
+⁡
+
+F
+
+⋅
+d
+
+
+r
+
+
+=
+0.
+
+
+{\displaystyle W=\oint _{C}\mathbf {F} \cdot d{\mathbf {r} }=0.}
+
+The total energy of a particle moving under the influence of conservative forces is conserved, in the sense that a loss of potential energy is converted to an equal quantity of kinetic energy, or vice versa.

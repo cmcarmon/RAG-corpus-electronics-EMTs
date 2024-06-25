@@ -1,0 +1,15 @@
+Dynamic Threshold Technique
+Dynamic threshold MOS (DTMOS), as noted by Fariborz et al.
+(1997), is a scheme that allows for a self-adjusting threshold
+voltage. By tying the gate to the body, the threshold voltage
+decreases as the gate voltage increases and vice versa. In this
+manner, a higher zero-bias threshold can be used to reduce the
+leakage current. In a speed-adaptive threshold-voltage CMOS
+(SA-Vt CMOS) circuit miyazaki (1998) the substrate bias is
+controlled so that delay in the circuit stays constant. Distribu-
+tions of device speeds are squeezed under fast-operation con-
+ditions. With a ring oscillator using 0.25-mm CMOS devices as
+a test circuit, the worst-case operating frequency was improved
+from 20 MHz to 55 MHz, and the ﬂuctuation of the operating
+frequency was suppressed from 44 to 15%; the supply-voltage
+variation was under 0.1 V with a 1.8-V supply voltage.

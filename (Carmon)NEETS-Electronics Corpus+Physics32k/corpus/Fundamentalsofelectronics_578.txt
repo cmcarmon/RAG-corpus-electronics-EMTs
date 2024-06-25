@@ -1,0 +1,15 @@
+fD and fA represent discrete-time and analog frequency variables, respectively. Figure 5.4 inspires another
+way of deriving this result. As the duration of each pulse in the periodic sampling signal pTs (t) narrows, the
+amplitudes of the signal’s spectral repetitions, which are governed by the Fourier series coeﬃcients (4.10) of
+pTs (t), become increasingly equal. Examination of the periodic pulse signal (Figure 4.1) reveals that as ∆
+decreases, the value of c0, the largest Fourier coeﬃcient, decreases to zero: |c0| =
+. Thus, to maintain
+a mathematically viable Sampling Theorem, the amplitude A must increase as 1
+, becoming inﬁnitely large
+∆
+as the pulse duration decreases. Practical systems use a small value of ∆, say 0.1 · Ts and use ampliﬁers to
+rescale the signal. Thus, the sampled signal’s spectrum becomes periodic with period 1
+. Thus, the Nyquist
+Ts
+frequency 1
+2Ts

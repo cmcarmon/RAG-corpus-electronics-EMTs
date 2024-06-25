@@ -1,0 +1,58 @@
+The expansion scalar measures the fractional rate at which the volume of a small ball of matter changes with respect to time as measured by a central comoving observer (and so it may take negative values). In other words, the above equation gives us the evolution equation for the expansion of the timelike congruence. If the derivative (with respect to proper time) of this quantity turns out to be negative along some world line (after a certain event), then any expansion of a small ball of matter (whose center of mass follows the world line in question) must be followed by recollapse. If not, continued expansion is possible.
+The shear tensor measures any tendency of an initially spherical ball of matter to become distorted into an ellipsoidal shape. The vorticity tensor measures any tendency of nearby world lines to twist about one another (if this happens, our small blob of matter is rotating, as happens to fluid elements in an ordinary fluid flow which exhibits nonzero vorticity).
+The right hand side of Raychaudhuri's equation consists of two types of terms:
+terms which promote (re)-collapse
+initially nonzero expansion scalar,
+nonzero shearing,
+positive trace of the tidal tensor; this is precisely the condition guaranteed by assuming the strong energy condition, which holds for the most important types of solutions, such as physically reasonable fluid solutions),
+
+terms which oppose (re)-collapse
+nonzero vorticity, corresponding to Newtonian centrifugal forces,
+positive divergence of the acceleration vector (e.g., outward pointing acceleration due to a spherically symmetric explosion, or more prosaically, due to body forces on fluid elements in a ball of fluid held together by its own self-gravitation).
+
+Usually one term will win out. However, there are situations in which a balance can be achieved. This balance may be:
+stable: in the case of hydrostatic equilibrium of a ball of perfect fluid (e.g. in a model of a stellar interior), the expansion, shear, and vorticity all vanish, and a radial divergence in the acceleration vector (the necessary body force on each blob of fluid being provided by the pressure of surrounding fluid) counteracts the Raychaudhuri scalar, which for a perfect fluid is
+
+
+
+E
+[
+
+
+
+X
+→
+
+
+
+
+]
+
+a
+b
+
+
+=
+4
+π
+(
+μ
++
+3
+p
+)
+
+
+{\displaystyle E[{\vec {X}}]_{ab}=4\pi (\mu +3p)}
+. In Newtonian gravitation, the trace of the tidal tensor is
+
+
+
+4
+π
+μ
+
+
+{\displaystyle 4\pi \mu }
+; in general relativity, the tendency of pressure to oppose gravity is partially offset by this term, which under certain circumstances can become important.
+unstable: for example, the world lines of the dust particles in the Gödel solution have vanishing shear, expansion, and acceleration, but constant vorticity just balancing a constant Raychuadhuri scalar due to nonzero vacuum energy ("cosmological constant").

@@ -1,0 +1,17 @@
+P
+for a matrix
+C ¼ (c1, . . ., cm)
+rowsum (C):¼ ( ~þ (c1), . . ., ~þ (cm))
+as
+where ~þ (v):¼
+m
+j¼1 vi, we obtain the decomposition of
+the vector–matrix product as stated in theorem 2 (Dutt and
+Assaad, 1996):
+Theorem 2: The vector–matrix product uT  B:¼ fB(u) ¼
+rowsum  hB(u).
+Since matrix multiplication A  B is a sequence of fB(ai)
+computations, one for each row of A, one can apply a man-
+tissa-based integer row checksum test to the hB(ai) components
+to precisely check for errors in the ﬂoating point multiplicant in
+A  B. This integer row checksum test is as follows:

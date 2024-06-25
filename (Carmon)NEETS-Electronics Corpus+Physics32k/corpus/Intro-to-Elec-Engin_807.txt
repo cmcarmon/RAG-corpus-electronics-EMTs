@@ -1,0 +1,7 @@
+The input ampliﬁer ampliﬁes the natural heart signals, which have a small amplitude on the
+order of 1 mV. Filtering eliminates certain frequency components so that heartbeats can be better
+detected. A comparative circuit is then used to compare the ampliﬁed and ﬁltered signal with
+a threshold value and detect either a natural heartbeat or an output pacing pulse. This detection
+decision is passed on to the counting and timing circuitry through an AND gate. The second input
+to the AND gate comes from the counter circuit, such that input signals for 0.4 s after the start of
+a natural or forced beat are ignored.

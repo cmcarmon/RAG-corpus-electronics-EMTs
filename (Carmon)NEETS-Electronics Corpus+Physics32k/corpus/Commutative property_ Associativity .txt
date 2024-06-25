@@ -1,0 +1,75 @@
+The associative property is closely related to the commutative property. The associative property of an expression containing two or more occurrences of the same operator states that the order operations are performed in does not affect the final result, as long as the order of terms doesn't change. In contrast, the commutative property states that the order of the terms does not affect the final result.
+Most commutative operations encountered in practice are also associative. However, commutativity does not imply associativity. A counterexample is the function
+
+
+
+
+f
+(
+x
+,
+y
+)
+=
+
+
+
+x
++
+y
+
+2
+
+
+,
+
+
+{\displaystyle f(x,y)={\frac {x+y}{2}},}
+
+which is clearly commutative (interchanging x and y does not affect the result), but it is not associative (since, for example,
+
+
+
+f
+(
+−
+4
+,
+f
+(
+0
+,
++
+4
+)
+)
+=
+−
+1
+
+
+{\displaystyle f(-4,f(0,+4))=-1}
+but
+
+
+
+f
+(
+f
+(
+−
+4
+,
+0
+)
+,
++
+4
+)
+=
++
+1
+
+
+{\displaystyle f(f(-4,0),+4)=+1}
+). More such examples may be found in commutative non-associative magmas.

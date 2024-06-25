@@ -1,0 +1,7 @@
+Finally, it should be noted that overhead is imposed for
+linear-to-logarithmic and logarithmic-to-linear conversion.
+Conversion overhead contributes additional area and time
+complexity as well as power dissipation. As the number of
+operations grows, however, the conversion overhead remains
+constant; therefore, the overhead’s contribution to the overall
+budget becomes negligible.

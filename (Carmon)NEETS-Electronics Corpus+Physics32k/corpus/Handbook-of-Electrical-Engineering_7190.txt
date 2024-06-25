@@ -1,0 +1,21 @@
+a direct wave and a ground-reﬂected wave. These two waves act in canceling their average signal strengths
+and result in excessive pathloss at the receiver.
+Multipath fading:
+ Due to the human-made environment in which mobile units travel, the instantaneous
+signal sent from the base station is reﬂected back and forth from buildings and other ground objects
+before  arriving  at  the  mobile  unit  and  causes  signal  fading  received  in  the  time  domain.  This  signal
+fading causes an increase in the bit error rate (BER) and in the degradation of voice quality.
+Human-made noise:
+ The antenna height of mobile units is usually low. Therefore, human-made industrial
+noise,  automotive  ignition  noise,  etc.  are  very  easily  received  by  the  mobile  unit.  This  noise  will  raise
+the noise ﬂoor and impact system performance.
+Dispersive  medium: 
+Due  to  the  human-made  environment  and  the  low  antenna  height  of  the  mobile
+unit,  the  signal  after  bouncing  back  and  forth  from  the  human-made  structures  produces  multiple
+reﬂected waves which arrive at the mobile unit at different times. One impulse sent from the base station
+propagating through the medium becomes multiple reﬂected impulses received at different times at the
+mobile unit. This medium is called a dispersive medium. First the dispersive medium does not affect
+the  analog  voice  channel,  but  does  affect  the  data  channels.  Second,  the  medium  becomes  effective
+depending  on  the  transmission  symbol  rate  of  the  system.  The  dispersive  medium  will  impact  the
+reception performance when the transmission rate is over 20 kbps. Third, the dispersive medium becomes
+more effective in urban areas than in suburban areas.

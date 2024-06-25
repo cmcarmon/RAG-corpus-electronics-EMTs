@@ -1,0 +1,4 @@
+In order to adaptively train a neural controller using gradient descent, the partial derivatives of a cost index,
+Jk, with respect to the network weights, w, must be obtained [Chow and Yee, 1991]. Let Jk have the form Jk =
+L(y(k+1),u(k+1))+L(y(k+2),u(k+2)) + … + L(y(k+n),u(k+n)) where k is the current sample. For simplicity
+of notation, let L(y(k+i),u(k+i)) be denoted by L(k+i). Application of the chain rule yields

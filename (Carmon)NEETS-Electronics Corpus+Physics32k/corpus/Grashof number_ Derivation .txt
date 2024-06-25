@@ -1,0 +1,185 @@
+The first step to deriving the Grashof number is manipulating the volume expansion coefficient,
+
+
+
+
+β
+
+
+
+{\displaystyle \mathrm {\beta } }
+as follows.
+
+
+
+
+β
+=
+
+
+1
+v
+
+
+
+
+(
+
+
+
+∂
+v
+
+
+∂
+T
+
+
+
+)
+
+
+p
+
+
+=
+
+
+
+−
+1
+
+ρ
+
+
+
+
+(
+
+
+
+∂
+ρ
+
+
+∂
+T
+
+
+
+)
+
+
+p
+
+
+
+
+{\displaystyle \beta ={\frac {1}{v}}\left({\frac {\partial v}{\partial T}}\right)_{p}={\frac {-1}{\rho }}\left({\frac {\partial \rho }{\partial T}}\right)_{p}}
+
+It should be noted that the
+
+
+
+v
+
+
+{\displaystyle v}
+in the equation above, which represents specific volume, is not the same as the
+
+
+
+v
+
+
+{\displaystyle v}
+in the subsequent sections of this derivation, which will represent a velocity. This partial relation of the volume expansion coefficient,
+
+
+
+
+β
+
+
+
+{\displaystyle \mathrm {\beta } }
+, with respect to fluid density,
+
+
+
+
+ρ
+
+
+
+{\displaystyle \mathrm {\rho } }
+, given constant pressure, can be rewritten as
+
+
+
+
+ρ
+=
+
+ρ
+
+o
+
+
+(
+1
+−
+β
+Δ
+T
+)
+
+
+{\displaystyle \rho =\rho _{o}(1-\beta \Delta T)}
+
+where:
+
+
+
+
+
+ρ
+
+o
+
+
+
+
+{\displaystyle \rho _{o}}
+is the bulk fluid density
+
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+is the boundary layer density
+
+
+
+
+Δ
+T
+=
+(
+T
+−
+
+T
+
+o
+
+
+)
+
+
+{\displaystyle \Delta T=(T-T_{o})}
+, the temperature difference between boundary layer and bulk fluid.
+There are two different ways to find the Grashof number from this point. One involves the energy equation while the other incorporates the buoyant force due to the difference in density between the boundary layer and bulk fluid.

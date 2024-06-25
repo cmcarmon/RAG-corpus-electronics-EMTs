@@ -1,0 +1,7 @@
+When a process is temporarily suspended like this, all infor-
+mation about the process must be explicitly saved during the
+suspension. The process must be resumed (restarted) later in
+exactly the same state it was in when it was stopped by restor-
+ing the previously saved information. In many time-sharing
+operating systems, all the information about each process is
+stored in an operating system table called the process table;

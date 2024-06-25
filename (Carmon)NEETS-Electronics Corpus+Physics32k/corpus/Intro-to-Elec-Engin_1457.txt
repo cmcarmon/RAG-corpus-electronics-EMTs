@@ -1,0 +1,7 @@
+An alternative to the FMFB demodulator is the use of a PLL, as shown in Figure 15.2.17,
+in which the phase of the VCO’s output signal is forced to follow (or lock to) the phase of
+the input FM waveform with small error. Since the VCO acts as an integrator, and phase
+is the integral of frequency, the ampliﬁed error voltage appearing at the VCO input will be
+proportional to the message signal f (t). The ﬁlter is selected with a closed-loop bandwidth that
+is wide enough to yield demodulation with minor distortion of f (t), and narrow enough to reject
+noise.

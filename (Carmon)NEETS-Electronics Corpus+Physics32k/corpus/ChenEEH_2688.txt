@@ -1,0 +1,11 @@
+For computational modeling of electromagnetic wave inter-
+action structures using FDTD and related space-grid time-
+domain techniques, it is useful to consider the concept of a
+predictive dynamic range. Let the power density of the primary
+(incident) wave in the space grid be P0W=m2. Further, let the
+minimum observable power density of a secondary (scattered)
+wave be PSW=m2, where ‘‘minimum observable’’ means that
+the accuracy of the ﬁeld computation degrades due to numer-
+ical artifacts to poorer than n decibels (some desired ﬁgure of
+merit) at lower levels than PS. Then, the predictive dynamic
+range can be deﬁned as 10 log10 (P0=PS)dB.

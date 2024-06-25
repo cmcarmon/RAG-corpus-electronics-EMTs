@@ -1,0 +1,9 @@
+where  K(s,s¢)  is  the  IE  kernel  function,  and  sn and  s¢m  are  the nth  and mth  locations  of  the  observation  and
+source integration samples. Thus, the ﬁnal, direct-matrix coefﬁcients can be seen to be constructed from sums
+of  the  more  elementary  coefﬁcients  z(i,j,m,n)  weighted  by  the  quadrature  coefﬁcients pm  and  qn  used  in  the
+numerical integration, which will be the case whenever analytical expressions are not available for the Zi, j. These
+elementary coefﬁcients, given by wi(sn)bj(s¢m)K(sn,s¢m), can in turn be seen to be simply products of samples of
+the IE kernel or operator and sampled basis and testing functions. It should be apparent from this expanded
+expression for the direct-matrix coefﬁcients that interchanging the basis and weight functions leaves the ﬁnal
+problem  description  unchanged,  although  the  added  observation  that  two  different  IEs  can  yield  identical
+matrices when using equivalent numerical treatments is less obvious.

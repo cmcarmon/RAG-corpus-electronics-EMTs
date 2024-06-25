@@ -1,0 +1,106 @@
+Several methods can be employed to measure porosity:
+Direct methods (determining the bulk volume of the porous sample, and then determining the volume of the skeletal material with no pores (pore volume = total volume − material volume).
+Optical methods (e.g., determining the area of the material versus the area of the pores visible under the microscope). The "areal" and "volumetric" porosities are equal for porous media with random structure.
+Computed tomography method (using industrial CT scanning to create a 3D rendering of external and internal geometry, including voids. Then implementing a defect analysis utilizing computer software)
+Imbibition methods, i.e., immersion of the porous sample, under vacuum, in a fluid that preferentially wets the pores.
+Water saturation method (pore volume = total volume of water − volume of water left after soaking).
+
+Water evaporation method (pore volume = (weight of saturated sample − weight of dried sample)/density of water)
+Mercury intrusion porosimetry (several non-mercury intrusion techniques have been developed due to toxicological concerns, and the fact that mercury tends to form amalgams with several metals and alloys).
+Gas expansion method. A sample of known bulk volume is enclosed in a container of known volume. It is connected to another container with a known volume which is evacuated (i.e., near vacuum pressure). When a valve connecting the two containers is opened, gas passes from the first container to the second until a uniform pressure distribution is attained. Using ideal gas law, the volume of the pores is calculated as
+
+
+
+
+
+V
+
+V
+
+
+=
+
+V
+
+T
+
+
+−
+
+V
+
+a
+
+
+−
+
+V
+
+b
+
+
+
+
+
+P
+
+2
+
+
+
+
+P
+
+2
+
+
+−
+
+P
+
+1
+
+
+
+
+
+
+
+{\displaystyle V_{V}=V_{T}-V_{a}-V_{b}{P_{2} \over {P_{2}-P_{1}}}}
+,
+where
+VV is the effective volume of the pores,
+VT is the bulk volume of the sample,
+Va is the volume of the container containing the sample,
+Vb is the volume of the evacuated container,
+P1 is the initial pressure in the initial pressure in volume Va and VV, and
+P2 is final pressure present in the entire system.
+The porosity follows straightforwardly by its proper definition
+
+
+
+
+ϕ
+=
+
+
+
+V
+
+V
+
+
+
+V
+
+T
+
+
+
+
+
+
+{\displaystyle \phi ={\frac {V_{V}}{V_{T}}}}
+.
+Note that this method assumes that gas communicates between the pores and the surrounding volume. In practice, this means that the pores must not be closed cavities.
+Thermoporosimetry and cryoporometry. A small crystal of a liquid melts at a lower temperature than the bulk liquid, as given by the Gibbs-Thomson equation. Thus if a liquid is imbibed into a porous material, and frozen, the melting temperature will provide information on the pore-size distribution. The detection of the melting can be done by sensing the transient heat flows during phase-changes using differential scanning calorimetry – (DSC thermoporometry), measuring the quantity of mobile liquid using nuclear magnetic resonance – (NMR cryoporometry) or measuring the amplitude of neutron scattering from the imbibed crystalline or liquid phases – (ND cryoporometry).

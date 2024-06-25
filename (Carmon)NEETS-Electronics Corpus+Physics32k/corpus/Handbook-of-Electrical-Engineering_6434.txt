@@ -1,0 +1,12 @@
+Basic Concepts and Terminology
+To describe this process analytically and at the same time introduce some terminology that is common in spread
+spectrum  parlance,  we  proceed  as  follows.  Consider  a  communicator  that  desires  to  send  a  message  using  a
+transmitted  power S Watts  (W)  at  an  information  rate Rb  bits/s  (bps).  By  introducing  a  SS  modulation,  the
+bandwidth  of  the  transmitted  signal  is  increased  from  Rb  Hz  to Wss  Hz  where Wss  @  Rb  denotes  the  spread
+spectrum bandwidth. Assume that the channel introduces, in addition to the usual thermal noise (assumed
+to  have  a  single-sided  power  spectral  density  (PSD)  equal  to  N0 W/Hz),  an  additive  interference  (jamming)
+having power J distributed over some bandwidth WJ. After despreading, the desired signal bandwidth is once
+again  now  equal  to  Rb  Hz  and  the  interference  PSD  is  now NJ  =  J/Wss.  Note  that  since  the  thermal  noise  is
+assumed to be white, i.e., it is uniformly distributed over all frequencies, its PSD is unchanged by the despreading
+operation and, thus, remains equal to N0. Regardless of the signal and interferer waveforms, the equivalent bit
+energy-to-total noise ratio is, in terms of the given parameters,

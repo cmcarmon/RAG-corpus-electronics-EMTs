@@ -1,0 +1,12 @@
+that zone. Because all small offsets should be encoded
+in a one-hot code, the latter approach is the most
+convenient. As a simple example, consider an applica-
+tion that works with three vectors (A, B, and C) as
+shown in Figure 7.8. Memory references are often
+interleaved among the three vectors and frequently
+close to the previous reference to the vector. Thus, if
+both the sender and the receiver had three registers
+(henceforth named p) holding a pointer to each active
+working zone, the sender would only need to send:
+a. The offset of the current memory reference with
+to the one associated with the current

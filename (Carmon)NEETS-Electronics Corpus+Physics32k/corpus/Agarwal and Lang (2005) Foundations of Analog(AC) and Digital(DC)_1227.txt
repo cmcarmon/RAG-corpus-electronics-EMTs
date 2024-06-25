@@ -1,0 +1,17 @@
+shows two inverters communicating over a long interconnect. As we discussed
+in Chapter 1, within our lumped-circuit abstraction, the interconnect is perfect.
+Specifically, by the definition of the lumped circuit abstraction (see Section 1.2),
+the wires interconnecting the elements have no resistance. Furthermore, by the
+lumped matter discipline which underlies the lumped circuit abstraction, the
+wires and other circuit elements store no electric charge and link no magnetic
+flux outside the elements. Reality, however, is different, and in some cases this
+difference is important. As Figure 9.4 shows, any interconnect having a potential
+difference with its surroundings actually stores an electric charge q that sources
+an electric field E between that charge and its image. Furthermore, in order to
+supply the charge, a current i must flow around the interconnect loop. This
+current in turn generates a magnetic flux density B that is linked by the loop.
+So, real interconnects do store electric charge and do link external magnetic
+flux, thereby appearing to violate the lumped matter discipline. They will also
+exhibit a nonzero resistance. These factors can all contribute to a reduction in
+the speed of the circuit as a whole, and at times it is important to study these
+effects.

@@ -1,0 +1,13 @@
+where u‘, w‘ 2 Cn are right and left eigenvectors of A, respect-
+ively, and H denotes complex-conjugate transpose. The effect of
+the ‘th pole on the ith output is determined by the 1  n residue
+matrix Ciu‘w H
+‘ B and the product of this residue times the vector
+of inputs u(s). If each entry in the residue matrix is small, then
+this pole will have little effect on yi(t ). It is also possible for some
+entries of the residue matrix not to be small but the product of a
+residue with the vector of inputs to still be small. This indicates
+that for some directions of the input vector, a pole may have a
+more signiﬁcant effect than in other directions. The concept of
+input directions is unique to MIMO systems, and it will be
+discussed again in the next subsection.

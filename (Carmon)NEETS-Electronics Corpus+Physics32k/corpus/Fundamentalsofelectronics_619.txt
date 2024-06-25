@@ -1,0 +1,7 @@
+The resulting discrete-time signal, shown in the bottom of Figure 5.14, clearly changes its character with
+time. To display these spectral changes, the long signal was sectioned into frames: comparatively short,
+contiguous groups of samples. Conceptually, a Fourier transform of each frame is calculated using the FFT.
+Each frame is not so long that signiﬁcant signal variations are retained within a frame, but not so short
+that we lose the signal’s spectral character. Roughly speaking, the speech signal’s spectrum is evaluated
+over successive time segments and stacked side by side so that the x-axis corresponds to time and the y-axis
+frequency, with color indicating the spectral amplitude.

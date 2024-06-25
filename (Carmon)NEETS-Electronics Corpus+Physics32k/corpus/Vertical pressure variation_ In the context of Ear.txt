@@ -1,0 +1,186 @@
+If one is to analyze the vertical pressure variation of the Atmosphere of Earth, the length scale is very significant (troposphere alone being several kilometres tall; thermosphere being several hundred kilometres) and the involved fluid (air) is compressible. Gravity can still be reasonably approximated as constant, because length scales on the order of kilometres are still small in comparison to Earth's radius, which is on average about 6371 km, and gravity is a function of distance from Earth's core.
+Density, on the other hand, varies more significantly with height. It follows from the ideal gas law that
+
+
+
+
+ρ
+=
+
+
+
+m
+P
+
+
+k
+T
+
+
+
+,
+
+
+{\displaystyle \rho ={\frac {mP}{kT}},}
+
+where
+m is average mass per air molecule,
+P is pressure at a given point,
+k is the Boltzmann constant,
+T is the temperature in kelvins.
+Put more simply, air density depends on air pressure. Given that air pressure also depends on air density, it would be easy to get the impression that this was circular definition, but it is simply interdependency of different variables. This then yields a more accurate formula, of the form
+
+
+
+
+
+P
+
+h
+
+
+=
+
+P
+
+0
+
+
+
+e
+
+−
+
+
+
+m
+g
+h
+
+
+k
+T
+
+
+
+
+
+,
+
+
+{\displaystyle P_{h}=P_{0}e^{-{\frac {mgh}{kT}}},}
+
+where
+Ph is the pressure at height h,
+P0 is the pressure at reference point 0 (typically referring to sea level),
+m is the mass per air molecule,
+g is gravity,
+h is height difference from reference point 0,
+k is the Boltzmann constant,
+T is the temperature in kelvins.
+Therefore, instead of pressure being a linear function of height as one might expect from the more simple formula given in the "basic formula" section, it is more accurately represented as an exponential function of height.
+Note that even that is a simplification, as temperature also varies with height. However, the temperature variation within the lower layers (troposphere, stratosphere) is only in the dozens of degrees, as opposed to difference between either and absolute zero, which is in the hundreds, so it is a reasonably small difference. For smaller height differences, including those from top to bottom of even the tallest of buildings, (like the CN tower) or for mountains of comparable size, the temperature variation will easily be within the single-digits. (See also lapse rate.)
+An alternative derivation, shown by the Portland State Aerospace Society, is used to give height as a function of pressure instead. This may seem counter-intuitive, as pressure results from height rather than vice versa, but such a formula can be useful in finding height based on pressure difference when one knows the latter and not the former. Different formulas are presented for different kinds of approximations; for comparison with the previous formula, the first referenced from the article will be the one applying the same constant-temperature approximation; in which case:
+
+
+
+
+z
+=
+−
+
+
+
+R
+T
+
+g
+
+
+ln
+⁡
+
+
+P
+
+P
+
+0
+
+
+
+
+
+
+{\displaystyle z=-{\frac {RT}{g}}\ln {\frac {P}{P_{0}}}}
+
+where (with values used in the article)
+z is the elevation,
+R is the specific gas constant = 287.053 J/(kg K)
+T is the absolute temperature in kelvins = 288.15 K at sea level,
+g is the acceleration due to gravity = 9.80665 m/s2,
+P is the pressure at a given point at elevation z, and
+P0 is pressure at the reference point = 101325 Pa at sea level.
+A more general formula derived in the same article accounts for a linear change in temperature as a function of height (lapse rate), and reduces to above when the temperature is constant:
+
+
+
+
+z
+=
+
+
+
+T
+
+0
+
+
+L
+
+
+
+(
+
+
+
+(
+
+
+P
+
+P
+
+0
+
+
+
+
+)
+
+
+−
+
+
+
+L
+R
+
+g
+
+
+
+
+−
+1
+
+)
+
+
+
+{\displaystyle z={\frac {T_{0}}{L}}\left(\left({\frac {P}{P_{0}}}\right)^{-{\frac {LR}{g}}}-1\right)}
+
+where
+L is the atmospheric lapse rate (change in temperature divided by distance) = −6.5×10−3 K/m, and
+T0 is the temperature at the same reference point for which P = P0
+and the other quantities are the same as those above. This is the recommended formula to use.

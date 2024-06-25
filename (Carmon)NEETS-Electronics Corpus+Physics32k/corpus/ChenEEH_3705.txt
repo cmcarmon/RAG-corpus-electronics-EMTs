@@ -1,0 +1,20 @@
+The Cepstrum
+As its name suggests, cepstral analysis represents a variation
+on speech spectral analysis. The nominal goal of cepstral
+processing is a representation of a voiced speech signal, the
+cepstrum, in which the excitation information is separated, or
+deconvolved from the dynamics of the speech system impulse
+response. With such a representation,
+the speech system
+dynamics and the excitation signal can be studied, coded,
+and manipulated separately. Applications of the cepstrum
+have included pitch detection (using the voice component)
+and ‘‘homomorphic’’ vocoding (using the speech production
+system component of the cepstrum to derive an efﬁcient repre-
+sentation of the speech dynamics) (Deller et al., 2000; Rabiner
+and Huang, 1993). The history of the cepstrum is interesting
+and the details of the theory are extensive. The objective of
+this treatment is to present an overview of the main concepts
+and then focus on a modern application of the cepstrum in
+which most of the connections to the original motivations and
+theoretical underpinnings are obscured.

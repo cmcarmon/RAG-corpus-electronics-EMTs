@@ -1,0 +1,12 @@
+pointing (Alewine et al., 1992). Full checkpointing maintains
+snapshots of the entire state of the system (essentially all register,
+cache, and memory contents) at the checkpoints, whereas in-
+cremental checkpointing maintains only the changes to the state
+from the immediately preceding checkpoint (e.g., contents of
+registers written between the checkpoints). Rollback in full
+checkpointing schemes involves setting the current state to be
+the desired checkpointed state, while in incremental check-
+pointing, rollback involves undoing or backing out of the state
+changes made after the desired checkpointed state. We will
+focus on incremental checkpointing in the discussion of hard-
+ware microrollback in the rest of this section.

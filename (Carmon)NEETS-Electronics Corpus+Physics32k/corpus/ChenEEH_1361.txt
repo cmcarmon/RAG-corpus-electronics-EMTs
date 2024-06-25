@@ -1,0 +1,17 @@
+This section provides an overview of three methods for parallel
+programming (Foster, 1995). The ﬁrst two are based on
+extending existing sequential
+languages, C and FORTRAN.
+The third method, MPI, consists of a library for managing
+communication in parallel programs and is largely language-
+independent.
+Compositional C11, or CC þ þ, consists of six new key-
+words in addition to all of the existing ones in C þ þ (Chandy
+and Kesselman, 1993). Each new keyword supports a basic
+abstraction for parallel programming: speciﬁcation of sequen-
+tial code execution in a ‘‘processor object’’, linking together
+processor objects, speciﬁcation and synchronization of pro-
+gram threads for concurrent execution on one or more pro-
+cessor objects, control of interleave execution of threads in the
+same processor object, and transfer of data structure between
+processor objects. These abstractions provide the means for

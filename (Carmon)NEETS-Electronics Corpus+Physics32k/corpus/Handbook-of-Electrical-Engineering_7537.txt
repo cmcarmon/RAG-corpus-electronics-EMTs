@@ -1,0 +1,4 @@
+Interfacing Between Logic Families
+The interconnection of logic chips requires that input and output speciﬁcations be satisﬁed. Figure 79.6 illus-
+trates voltage and current requirements. The driving chip’s VOH(min) must be greater than the driven circuit’s
+VIH(min), and the driver’s VOL(max) must be less than VIL(max) for the loading circuit. Voltage level shifters must be

@@ -1,0 +1,6 @@
+The relations created through the CREATE TABLE command are known as base relations. A base relation
+exists physically and is stored as a ﬁle by the DBMS. SQL can be used to create views using the CREATE VIEW
+command. In contrast to base relations, the creation of a view results in a virtual relation, that is, one that does
+not necessarily correspond to a physical ﬁle. Consider the database of Fig. 94.4, and suppose that we want to
+create  a  view  giving  the  name  of  all  suppliers  located  in  Metairie,  the  products  each  one  provides,  and  the
+corresponding prices. Such a view, called METAIRIE_SUPPLIER, can be created as follows:

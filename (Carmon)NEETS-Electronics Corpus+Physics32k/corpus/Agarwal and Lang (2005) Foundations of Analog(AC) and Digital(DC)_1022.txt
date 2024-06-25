@@ -1,0 +1,6 @@
+Although we can analyze circuits directly with the model in Figure 7.49b, our analysis
+can be significantly simplified by using simple piecewise-linear models for the diodes.
+Figure 7.49c depicts such a piecewise-linear model for the BJT, in which we have replaced
+the diodes with simple piecewise-linear diode models comprising an ideal diode in series
+with a voltage source (from Figure 4.33a). In the model in Figure 7.49c, the dependent
+current source models the horizontal active region curves of the BJT.

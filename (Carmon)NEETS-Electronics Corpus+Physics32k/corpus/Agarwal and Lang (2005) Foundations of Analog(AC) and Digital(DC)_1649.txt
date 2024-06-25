@@ -1,0 +1,5 @@
+Because the two MOSFETs in Figure 11.23 are never on at the same time, the CMOS
+inverter does not exhibit static dissipation. This a major advantage of CMOS logic over
+NMOS logic. The only dissipation is dynamic dissipation, which is the same as for the
+inverter in Example 11.3 because VS, CL, and f are all the same. Thus the average power
+dissipated in the CMOS inverter is 1.125 µW.

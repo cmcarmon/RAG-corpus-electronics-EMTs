@@ -1,0 +1,8 @@
+Clearly, the number of confusable words grows substantially with the vocabulary size. As the vocabulary size
+increases, it becomes impractical to model each word individually, because neither the necessary training data
+nor the requisite storage is available. Instead, models must be based on sub-word units. These sub-word models
+usually lead to degraded performance because they fail to capture co-articulation effects as well as whole-word
+models. Additionally, the computational complexity of the search requires the introduction of efﬁcient search
+methods  such  as  “fast  match”  [26]  which  reject  all  but  the  most  plausible  word  hypotheses  to  limit  the
+computation effort. These word hypotheses which survive the “fast match” are then subjected to the full detailed
+analysis. Naturally, this process may introduce search errors, reducing the accuracy.

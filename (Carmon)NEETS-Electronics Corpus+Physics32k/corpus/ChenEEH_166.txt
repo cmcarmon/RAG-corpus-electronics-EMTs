@@ -1,0 +1,12 @@
+Before we go into the details of the approximations, we ﬁrst
+pose a question: what kind of properties should a lowpass ﬁlter
+have to transfer, without distortion, a certain frequency band
+and suppress completely all other frequencies. The thought
+comes immediately to mind that all components should be
+ampliﬁed equally. This is true but not sufﬁcient. In addition,
+the phase response must be a straight line; thus, the group
+delay must be a constant for all frequencies of interest. The
+conditions are sketched in Figure 4.15. We will see that this is
+impossible to achieve and that we have to accept some ap-
+proximations when comparing with Figures 4.13(A) through
+4.13(D) and Figure 4.14.

@@ -1,0 +1,14 @@
+For amplifiers greater than 10 watts, it is diffi-
+cult and expensive to match NPN and PNP transis-
+tors to ensure that they have the same characteristics. 
+ Figure 38-10 shows a circuit that uses two NPN tran-
+sistors for the output-power transistors. The power 
+transistors are driven by lower-power NPN and PNP 
+transistors, and the upper set of transistors is con-
+nected in a Darlington configuration. The lower set of 
+transistors uses a PNP transistor and an NPN transis-
+tor. Operating as a single unit, they respond like a PNP 
+transistor. This type of amplifier is called a quasi-
+complementary amplifier. It operates like a com-
+plementary amplifier but does not require high-power 
+complementary output transistors.

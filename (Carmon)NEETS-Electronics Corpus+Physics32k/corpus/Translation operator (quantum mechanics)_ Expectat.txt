@@ -1,0 +1,134 @@
+Consider a single particle in one dimension. Unlike classical mechanics, in quantum mechanics, a particle neither has a well defined position nor a well defined momentum. In the quantum formulation the expectation values play the role of the classical variables. For example, if a particle is in state
+
+
+
+
+|
+
+ψ
+⟩
+
+
+{\displaystyle |\psi \rangle }
+, then the expectation value of position is
+
+
+
+⟨
+ψ
+
+|
+
+
+
+
+r
+^
+
+
+
+
+|
+
+ψ
+⟩
+
+
+{\displaystyle \langle \psi |\mathbf {\hat {r}} |\psi \rangle }
+, where
+
+
+
+
+
+
+r
+^
+
+
+
+
+
+{\displaystyle \mathbf {\hat {r}} }
+is the position operator.
+If a translation operator
+
+
+
+
+
+
+T
+^
+
+
+
+(
+
+x
+
+)
+
+
+{\displaystyle {\hat {T}}(\mathbf {x} )}
+acts on the state
+
+
+
+
+|
+
+ψ
+⟩
+
+
+{\displaystyle |\psi \rangle }
+, creating a new state
+
+
+
+
+|
+
+
+ψ
+
+2
+
+
+⟩
+
+
+{\displaystyle |\psi _{2}\rangle }
+then the expectation value of position for
+
+
+
+
+|
+
+
+ψ
+
+2
+
+
+⟩
+
+
+{\displaystyle |\psi _{2}\rangle }
+is equal to the expectation value of position for
+
+
+
+
+|
+
+ψ
+⟩
+
+
+{\displaystyle |\psi \rangle }
+plus the vector x. This result is consistent with what you would expect from an operation that shifts the particle by that amount.
+
+On the other hand, when the translation operator acts on a state, the expectation value of momentum is not changed. This can be proven in a similar way as the above, but using the fact that translation operators commute with the momentum operator. This result is again consistent with expectations: Translating a particle does not change its velocity or mass, so its momentum should not change.

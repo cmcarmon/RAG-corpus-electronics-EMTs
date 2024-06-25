@@ -1,0 +1,16 @@
+Example 7.6 
+ 
+A BFY50  transistor  is  used  in  a  common-emitter 
+amplifier  stage  with  RL = 10  kP and  IC = 1 mA. 
+Determine the output voltage produced by an input 
+signal of 10 mV. (You may ignore the effect of hre 
+and  any  bias  components  that  may  be  present 
+externally.) 
+ 
+Solution 
+ 
+The equivalent circuit (with hre replaced by a short 
+circuit) is shown in Fig. 7.30. The load effectively 
+appears between the collector and emitter while the 
+input signal appears between base and emitter. First 
+we need to find the value of input current, Ib, from: 

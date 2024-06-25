@@ -1,0 +1,5 @@
+We  note  that  the  computer  time  is  eventually  dominated  by  computation  of  the  solution  matrix  and  can
+grow  as  (L/DL)3,  (L/DL)6,  and  (L/DL)9  (or  f 3,  f 6,  and  f 9),  respectively,  for  wire,  surface,  and  volume  objects
+modeled using integral equations and matrix factorization or inversion. Thus, in spite of the fact that mainframe
+computer  power  has  grown  by  a  factor  of  about  106  from  the  UNIVAC-1  to  the  CRAY2,  a  growth  that  is
+anticipated to continue during the near future as shown in Fig. 45.2, the growth in problem size is much less

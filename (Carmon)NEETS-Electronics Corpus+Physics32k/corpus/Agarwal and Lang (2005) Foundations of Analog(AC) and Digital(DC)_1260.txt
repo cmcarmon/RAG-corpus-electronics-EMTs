@@ -1,0 +1,6 @@
+A real inductor exhibits richer behavior than that described here. For exam-
+ple, it can exhibit a significant coil resistance. The practical significance of this
+resistance is that it eventually dissipates any energy stored in the inductor.
+Unfortunately, this resistance is usually significant so that inductors make poor
+memory devices. When it is necessary to model this energy loss, the coil
+resistance can be modeled as a resistor in series with the ideal inductor.

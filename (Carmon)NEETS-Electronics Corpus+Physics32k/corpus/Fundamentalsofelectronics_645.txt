@@ -1,0 +1,10 @@
+Response) because their unit sample responses have ﬁnite duration. Plotting this response (Fig-
+ure 5.19) shows that the unit-sample response is a pulse of width q and height 1
+. This waveform
+q
+is also known as a boxcar, hence the name boxcar ﬁlter given to this system. We’ll derive its
+frequency response and develop its ﬁltering interpretation in the next section. For now, note that
+the diﬀerence equation says that each output value equals the average of the input’s current and
+previous values. Thus, the output equals the running average of input’s previous q values. Such a
+system could be used to produce the average weekly temperature (q = 7) that could be updated
+daily.

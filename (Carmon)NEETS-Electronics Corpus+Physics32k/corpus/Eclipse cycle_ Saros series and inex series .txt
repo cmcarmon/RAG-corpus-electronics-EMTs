@@ -1,0 +1,3 @@
+Any eclipse can be assigned to a given saros series and inex series. The year of a solar eclipse (in the Gregorian calendar) is then given approximately by:
+year = 28.945 × number of the saros series + 18.030 × number of the inex series − 2882.55
+When this is greater than 1, the integer part gives the year AD, but when it is negative the year BC is obtained by taking the integer part and adding 2. For instance, the eclipse in saros series zero and inex series zero was in the middle of 2884 BC.

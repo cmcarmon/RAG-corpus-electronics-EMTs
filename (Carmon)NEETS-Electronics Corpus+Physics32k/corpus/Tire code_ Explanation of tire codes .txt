@@ -1,0 +1,22 @@
+The ISO Metric tire code consists of a string of letters and numbers, as follows:
+An optional letter (or letters) indicating the intended use or vehicle class for the tire:
+P: Passenger Car
+LT: Light Truck
+ST: Special Trailer
+T: Temporary (restricted usage for "space-saver" spare wheels)
+
+P indicates that the tire is engineered to TRA standards, and absence of a letter indicates that the tire is engineered to ETRTO standards. In practice, the standards of the two organizations have evolved together and are fairly interchangeable, but not fully, since the Load Index will be different for the same size tire.
+3-digit number: The "nominal section width" of the tire in millimeters; the widest point from both outer edges (side wall to side wall). The tire surface that touches the road usually has smaller width.
+/: Slash character for character separation.
+2- or 3-digit number: The "aspect ratio" of the sidewall height as a percentage of the nominal section width of the tire. If the information is omitted, it is assumed to be 82% (if written, it should be like xxx/82). If the number is larger than 200, then this is the diameter of the entire tire in millimeters.
+An optional letter indicating the speed rating of the tire. Alternatively, the letter may appear at the end, following the load index. If the letter here is Z, indicating a maximum speed in excess of 240km/h (149mph), then a more specific letter W or Y may appear after the load index (see speed rating, below).
+An optional letter indicating construction of the fabric carcass of the tire:
+B: bias belt (where the sidewalls are the same material as the tread, leading to a rigid ride)
+D: diagonal
+R: radial
+if omitted, then it is a cross-ply tire
+
+1- or 2-digit number: Diameter in inches of the wheel that the tires are designed to fit. There is the rare exception of metric-diameter tires, such as the use of the 390 size, which in this case would indicate a wheel of 390 mm in diameter. Few tires are made to this size currently. The number may be longer where a half-inch size is used, for example many heavy transport trucks now use 22.5-inch tires.
+2- or 3-digit number: Load index; see table below. Some light-truck tires are approved for "dual use", that is they can be run in pairs next to each other. If so, separate load indexes will be specified for single and dual usage. In the example shown in the light-truck tire illustration, the tire has a load index of 114 if used as a single tire, and a load index of 111 if used in a dual pair. Tires without this designation are unsafe for dual usage.
+1- or 2-digit/letter combo: Speed rating; see table below
+Additional marks: See subheading below.

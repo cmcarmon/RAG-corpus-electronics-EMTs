@@ -1,0 +1,11 @@
+Instead of implementing common operators such as multi-
+plication using ﬁne-grain FPGA resources, it can be more
+effective to have customized conﬁgurable blocks designed
+speciﬁcally for such operators. For instance, Haynes et al.
+(1999) have proposed conﬁgurable blocks for efﬁcient multi-
+plication. An array of these blocks are capable of being conﬁg-
+ured to perform any 8-m by 8-nb signed and unsigned
+multiplication. The architecture is based on the radix-4 over-
+lapped multiple-bit scanning algorithm. When compared with
+existing FPGAs for implementing multipliers, this design is
+shown to be both faster and require fewer transistors.

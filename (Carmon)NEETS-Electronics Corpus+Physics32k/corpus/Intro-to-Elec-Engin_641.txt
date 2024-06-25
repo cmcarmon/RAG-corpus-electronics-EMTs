@@ -1,0 +1,14 @@
+Elementary Diode Circuits
+Semiconductor diodes are used in a wide variety of applications. Their usage abounds in com-
+munication systems (limiters, gates, clippers, mixers), computers (clamps, clippers, logic gates),
+television (clamps, limiters, phase detectors), radar (power detectors, phase detectors, gain-control
+circuits, parametric ampliﬁers), and radio (mixers, automatic gain-control circuits, message
+detectors). Several simple diode circuits are presented in this section to serve only as examples.
+In solving circuit problems with a nonlinear element, such as a diode, a useful technique
+employed in many cases is a graphical approach. After plotting a nonlinear characteristic of the
+element, such as the volt–ampere characteristic of a diode, one can superimpose a plot of the
+circuit response (excluding the nonlinear element), which is the equation of a straight line in the
+i–v plane given by the loop equation for the network. Such an equation of the straight line is
+known as the load line equation. The intersection of the load line with the characteristic of the
+nonlinear element in the i–v plane determines the quiescent (operating) point, which is the desired
+solution. Example 7.2.1 illustrates the procedure.

@@ -1,0 +1,13 @@
+. The pixel values in a
+particular image may occupy only a small region of gray level distribution. For instance, the pixels in an image
+may only take on values between 0 and 63, when they could nominally take on values between 0 and 255. This
+is sometimes caused by the way the image was digitized and/or by the type of transducer used. When this image
+is examined on a CRT display the contrast looks washed out. A simple point operation that multiplies each
+pixel value in the image by four will increase the apparent contrast in the image; the new image now has gray
+values between 0 and 252. This operation is shown in Fig. 17.4. Possibly the most widely used point operation
+. In this point operation all the pixels in the image with a particular gray
+in medical imaging is 
+. Various schemes have been proposed for appropriate pseudo-color tables that assign
+value are assigned a 
+the  gray  values  to  colors.  It  should  be  mentioned  that  point  operations  are  often  cascaded,  i.e.,  an  image
+undergoes contrast enhancement and then pseudo-coloring.

@@ -1,0 +1,6 @@
+Interaction between charged atoms adds potential energy to the protein based on distance of the distance between pairs of atoms defined over Selectro, the set of pairs of atoms with electrostatic interactions, as follows;
+Eelectro = Σ (i,j) E Selectro ( qiqj)/(eijrij)
+where:
+eij is a constant
+qiqj are charges of atoms
+rij is the distance between atoms

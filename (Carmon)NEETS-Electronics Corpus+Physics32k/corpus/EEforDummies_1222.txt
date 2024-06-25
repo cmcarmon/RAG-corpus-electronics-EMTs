@@ -1,0 +1,7 @@
+Note that the reset pin (pin 4) of the 555 timer is not tied to the positive 
+power supply, as it has been in 555 oscillator circuits described previously in 
+this chapter. This fact is significant because if the reset pin is tied high, the 
+555 timer will just keep on oscillating (and the speaker will keep producing a 
+tone) as long as power is applied. If a low voltage is applied to the reset pin, 
+however, the 555 timer’s internal timing circuit is reset, the output (pin 3) 
+goes low, and the speaker is quiet.

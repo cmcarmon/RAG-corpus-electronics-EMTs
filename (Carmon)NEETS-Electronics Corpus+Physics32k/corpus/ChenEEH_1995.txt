@@ -1,0 +1,17 @@
+Microrollback is a technique that is coupled with concurrent
+error detection mechanisms (such as FD arithmetic circuits
+[see Section 8.2] and program CFC [see Section 8.4]) and
+allows a processor system to recover from detected errors by
+going back to a state prior to the occurrence of these errors and
+restarting execution from that point. In general, to perform
+such a rollback to a previous state, it is necessary to have copies
+of all previous states of the system up to a certain time interval.
+Because a lot of memory is required to store this kind of
+information, it is necessary to consider the fact that only a
+reduced number of snapshots of previous states can be kept.
+Due to this limitation, it is necessary to determine critical
+points, called checkpoints at which we need to or it is appro-
+priate to store the state of the system (Bowden and Pradhan,
+1992; Chandy and Ramamoorthy). This decision process is
+important for software rollback, but is too complex for a
+completely hardware solution.

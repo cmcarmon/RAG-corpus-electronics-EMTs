@@ -1,0 +1,7 @@
+Example 13.2.
+ Here, we ﬁnd the gain, bandwidth, input impedance,
+and output noise of a cascode ampliﬁer. The circuit for the ampliﬁer is shown in Fig. 13.5. The circuit is assumed
+to be fabricated in a monolithic IC process, so it will be necessary to consider some of the parasitics of the IC
+process. A cross-section of a typical IC bipolar transistor is shown in Fig. 13.4 along with some of the parasitic
+elements. These parasitic elements are easily included in the ampliﬁer by creating a “macro model” for each
+transistor. The macro model is then implemented in SPICE form using subcircuits.

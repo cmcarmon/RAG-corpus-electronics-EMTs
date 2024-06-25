@@ -1,0 +1,24 @@
+p r o b l e m 5.3
+The truth table for a ‘‘ones count’’ circuit is given in Table 5.15.
+This circuit has four inputs: A, B, C, and D, and three outputs OUT0, OUT1, and OUT2.
+Together, the signals OUT0, OUT1, and OUT2 represent a three-bit positive integer
+OUT2OUT1OUT0. The output integer OUT2OUT1OUT0 reflects the number of ones
+in the input. Using only NAND, NOR, and NOT gates, design an implementation for
+the circuit. Each gate may have an arbitrary number of inputs.
+p r o b l e m 5.4 A four-input multiplexer module is shown in Figure 5.36. The
+multiplexer has two select signals S1 and S0. The value on the select signals determines
+which of the inputs A, B, C, and D appears at the output. As illustrated in the figure,
+A is selected if S1S0 is 00, B if S1S0 is 01, C if S1S0 is 10, and D if S1S0 is 11. Write a
+boolean expression for Z in terms of S1S0, A, B, C, and D. Implement the multiplexer
+using only NAND gates.
+p r o b l e m 5.5 A four-input demultiplexer module is shown in Figure 5.37. The
+demultiplexer has two select signals, S1 and S0. The select signals determine on which
+of the outputs (OUT0, OUT1, OUT2, or OUT3) the input IN appears. As illustrated in
+the figure, IN appears at output OUT0 if S1S0 is 00, at OUT1 if S1S0 is 01, at OUT2 if
+S1S0 is 10, and at OUT3 if S1S0 is 11. An output is 0 if it is not selected. Write a boolean
+expression for each of the outputs in terms of S1S0 and IN. Implement the demultiplexer
+using only NAND gates.
+p r o b l e m 5.6
+Implement the ‘‘greater-than’’ circuit depicted in Figure 5.38
+using NAND gates. A and B represent one-bit positive integers. The output Z is 1
+if A is greater than B, otherwise Z is 0.

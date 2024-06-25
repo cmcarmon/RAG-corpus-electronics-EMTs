@@ -1,0 +1,3 @@
+The block diagram for this is shown in Fig. 14.12. This method involves storing the present and previous N
+values of the input, multiplying each sample by the corresponding impulse response coefﬁcient, and summing
+the products to compute the output. This method is referred to as a tapped delay line structure.

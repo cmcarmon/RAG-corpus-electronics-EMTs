@@ -1,0 +1,4 @@
+Total jitter (T) is the combination of random jitter (R) and deterministic jitter (D):
+T = Dpeak-to-peak + 2× n×Rrms,
+in which the value of n is based on the bit error rate (BER) required of the link.
+A common bit error rate used in communication standards such as Ethernet is 10−12.

@@ -1,0 +1,15 @@
+This chapter develops a common theory that underlies how such systems work. We describe and analyze
+several such systems, some old like AM radio, some new like computer networks. The question as to which is
+better, analog or digital communication, has been answered, because of Claude Shannon’s fundamental work
+on a theory of information published in 1948, the development of cheap, high-performance computers, and
+the creation of high-bandwidth communication systems. The answer is to use a digital communication
+strategy. In most cases, you should convert all information-bearing signals into discrete-time, amplitude-
+quantized signals. Fundamentally digital signals, like computer ﬁles (which are a special case of symbolic
+signals), are in the proper form. Because of the Sampling Theorem, we know how to convert analog signals
+into digital ones. Shannon showed that once in this form, a properly engineered system can communi-
+cate digital information with no error despite the fact that the communication channel thrusts
+noise onto all transmissions. This startling result has no counterpart in analog systems; AM radio
+will remain noisy. The convergence of these theoretical and engineering results on communications systems
+has had important consequences in other arenas. The audio compact disc (CD) and the digital videodisk
+(DVD) are now considered digital communications systems, with communication design considerations used
+throughout.

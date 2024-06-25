@@ -1,0 +1,7 @@
+The second category obtains a displacement estimate at each pixel in a frame. These techniques are referred
+to  as  pel  recursive  methods.  They  tend  to  provide  more  accurate  estimates  of  the  displacement  but  at  the
+expense of higher complexity. Both categories of techniques have been applied to video data; however, block
+matching is used more often in real systems. The primary reason is that more efﬁcient implementations have
+been feasible. It should be noted, however, that every pixel in a block will be assigned the same displacement
+estimate. Thus, the larger the block size the greater the potential for errors in the displacement estimate for a
+given pixel. More details can be found in Musmann et al. [1985].

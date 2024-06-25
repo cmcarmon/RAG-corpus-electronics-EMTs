@@ -1,0 +1,10 @@
+The transducer in some cases may have a local ground that cannot be disconnected. In such
+a case, a separate ground strap (braided-wire straps used because of their low inductance) is used
+to connect the local ground and the system ground point. The shield is also disconnected from
+the ampliﬁer so as to prevent ground-loop current through the shield. Because the ground strap
+has nonzero resistance, any stray current through the strap will cause an interference voltage vcm
+known as common-mode voltage since it appears at both the transducer and the shield terminals.
+vcm is generally quite small; however, when the information-bearing signal voltage itself is rather
+small, the common-mode voltage may pose a problem, which can be eliminated by using the
+differential ampliﬁer, as shown in Figure 14.3.1. The analysis with the virtual-short model of the
+op-amp reveals that

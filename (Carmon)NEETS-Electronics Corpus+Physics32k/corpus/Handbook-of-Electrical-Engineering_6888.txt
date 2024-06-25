@@ -1,0 +1,6 @@
+Measuring Thermal Noise
+In Fig. 73.7, the thermal noise from a noisy resistor R is to be measured, where RL is the measurement load.
+The incremental noise power in R over an incremental frequency band of width df is PWW(d f ) = 4kTRdf W,
+by Eq. (73.24). PYY(d f ) is the integral of SYY(w) over df by Eqs. (73.21), where SYY(w) = *H(w)*2SWW(w), by Eq.
+(73.22). In this case, the transfer function H(w) is nonreactive and does not depend upon the radian frequency
+(we can factor it out of the integral). Thus,

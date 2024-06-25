@@ -1,0 +1,12 @@
+In the MPEG-2 standard, pictures can be interlaced, whereas
+in MPEG-1, the pictures are progressive only. The dimensions
+of the units of blocks used for motion estimation/compen-
+sation can change. Because the number of lines per ﬁeld is half
+the number of lines per frame in the interlaced pictures,
+for motion estimation it might be appropriate to choose
+blocks of 16  8 (i.e., 16 pixels over 8 lines) with equal hori-
+zontal and vertical resolutions. The second major difference
+between the two is scalability. The scalable modes of MPEG-2
+video encoders are intended to offer interoperability among
+different services or to accommodate the varying capabilities
+of different receivers and networks upon which a single service

@@ -1,0 +1,6 @@
+1. The WZE takes into account the locality of the memory
+references: applications favor a few working zones of
+their address space at each instant. In such cases,
+a reference can be described by an identiﬁer of the
+working zone and by an offset. This encoding is sent
+through the bus.

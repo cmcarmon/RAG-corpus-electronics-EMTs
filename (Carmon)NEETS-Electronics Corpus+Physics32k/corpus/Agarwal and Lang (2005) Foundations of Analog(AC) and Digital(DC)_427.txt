@@ -1,0 +1,10 @@
+As discussed in the previous section, since node voltages are defined with
+respect to a common reference, we first need to choose our reference ground
+node. While any node may be selected as the ground node, some nodes are
+more useful as ground nodes than others. Such useful nodes include those
+with the maximum number of circuit elements connected to it. Another useful
+ground node is one that connects to the maximum number of voltage sources.
+Sometimes the operation of a circuit may be more intuitively understood with
+a particular selection of the ground node. Alternatively, voltage measurements
+are often more easily or safely made with respect to a certain node and so that
+node might naturally be selected as the ground node.

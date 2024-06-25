@@ -1,0 +1,5 @@
+10. Note, however, that the small-signal gain of each amplifier stage depends on the load offered by
+the subsequent stage. Specifically, when computing the small-signal gain, assuming the capacitor
+C behaves as a short for the frequencies of interest, the load seen by each of the first and second
+stages will not by RL alone, rather it will be RL in parallel with R1 and R2. We saw an example of
+a loading effect, specifically a capacitive loading effect, in Section 13.3.4.

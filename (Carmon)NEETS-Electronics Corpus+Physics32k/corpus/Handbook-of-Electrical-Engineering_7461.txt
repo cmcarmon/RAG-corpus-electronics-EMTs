@@ -1,0 +1,4 @@
+Many digital communication systems use m bit (M-ary) sources where m > 1. Figure 78.7 depicts a simple
+algorithm for generating a M-ary random sequence from a binary sequence. The clock must now cycle through
+m cycles for every generated symbol, and the period of the generator has been reduced by a factor of m. This
+may force the use of a longer-period BSR. Another common application of PN sequence generators is to produce

@@ -1,0 +1,8 @@
+The pcm demodulator will reproduce the correct standard amplitude represented by the pulse-code
+group. However, it will reproduce the correct standard only if it is able to recognize correctly the presence
+or absence of pulses in each position. For this reason, noise introduces no error at all if the signal-to-noise
+ration is such that the largest peaks of noise are not mistaken for pulses. When the noise is random (circuit
+and tube noise), the probability of the appearance of a noise peak comparable in amplitude to the pulses
+can be determined. This probability can be determined mathematically for any ration of signal-to-average-
+noise power. When this is done for 10 5 pulses per second, the approximate error rate for three values of
+signal power to average noise power is:

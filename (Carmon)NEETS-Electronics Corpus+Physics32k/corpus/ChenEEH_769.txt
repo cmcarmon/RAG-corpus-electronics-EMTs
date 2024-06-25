@@ -1,0 +1,10 @@
+In the past, techniques for estimating memory reuse have
+been proposed (Cierniak and Li, 1995; Eisenbeis et al., 1991;
+Wilde and Rajopadhye, 1996). These techniques however have
+provided only a memory reuse model and not a (complete)
+strategy for actually reusing memory space inside an array as
+well as between different arrays. This is due to the lack of exact
+mathematical model(s) of memory usage. In contrast, we have
+presented exact mathematical models for memory usage in
+examples presented by Catthoor et al. (1998), which allows
+us to perform more aggressive optimizations.

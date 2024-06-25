@@ -1,0 +1,16 @@
+Before you insert your multimeter into the circuit, switch your multime-
+ter to measure DC current in milliamps (a range of 20 mA is fine). Then, 
+move the resistor lead that is connected to the pot to another column 
+in your breadboard (or just leave the disconnected lead hanging). Now 
+you’ve broken the circuit.
+Connect the positive multimeter lead to the open side of the 1 kΩ resis-
+tor and the negative multimeter lead to the open side of the pot. Note 
+the current reading.
+Is this the reading you expect to get by applying Ohm’s Law to your cir-
+cuit? Remember that because the pot is dialed all the way down to 0 Ω, 
+the total resistance in your circuit — let’s call that Rtotal — is roughly 1 kΩ.
+You should expect a current of roughly 9 mA because 
+V
+battery
+in the supply voltage, the tolerance of the resistor, and the slight resis-
+tance of the multimeter.

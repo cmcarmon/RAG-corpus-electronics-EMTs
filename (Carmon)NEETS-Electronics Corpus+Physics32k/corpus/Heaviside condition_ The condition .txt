@@ -1,0 +1,39 @@
+A transmission line can be represented as a distributed element model of its primary line constants as shown in the figure. The primary constants are the electrical properties of the cable per unit length and are: capacitance C (in farads per meter), inductance L (in henries per meter), series resistance R (in ohms per meter), and shunt conductance G (in siemens per meter). The series resistance and shunt conductivity cause losses in the line; for an ideal transmission line,
+
+
+
+
+R
+=
+G
+=
+0
+
+
+
+{\displaystyle \scriptstyle R=G=0}
+.
+The Heaviside condition is satisfied when
+
+
+
+
+
+
+G
+C
+
+
+=
+
+
+R
+L
+
+
+.
+
+
+{\displaystyle {\frac {G}{C}}={\frac {R}{L}}.}
+
+This condition is for no distortion, but not for no loss.

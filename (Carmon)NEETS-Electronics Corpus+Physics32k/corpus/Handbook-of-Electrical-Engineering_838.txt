@@ -1,0 +1,5 @@
+To gain some intuition, think of a closed-loop negative feedback system. Apply a small sinusoid at frequency
+w to the input. Assume that the gain around the loop, KGH, is 1 or more, and that the phase lag is 180 degrees.
+The summing junction will ﬂip over the fed back signal and add it to the original signal. The result is a signal
+that is bigger than what came in. This signal will circulate around this loop, getting bigger and bigger until the
+real system no longer matches the model. This is what we call instability.

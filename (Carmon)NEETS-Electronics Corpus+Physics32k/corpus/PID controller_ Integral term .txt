@@ -1,0 +1,40 @@
+The contribution from the integral term is proportional to both the magnitude of the error and the duration of the error. The integral in a PID controller is the sum of the instantaneous error over time and gives the accumulated offset that should have been corrected previously. The accumulated error is then multiplied by the integral gain (Ki) and added to the controller output.
+The integral term is given by
+
+
+
+
+
+I
+
+out
+
+
+=
+
+K
+
+i
+
+
+
+∫
+
+0
+
+
+t
+
+
+e
+(
+τ
+)
+
+d
+τ
+
+
+{\displaystyle I_{\text{out}}=K_{\text{i}}\int _{0}^{t}e(\tau )\,d\tau }
+.
+The integral term accelerates the movement of the process towards setpoint and eliminates the residual steady-state error that occurs with a pure proportional controller. However, since the integral term responds to accumulated errors from the past, it can cause the present value to overshoot the setpoint value (see the section on loop tuning).

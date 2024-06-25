@@ -1,0 +1,10 @@
+Formulation of MNA equations of nonlinear circuits follows
+the same steps as equation formulation for linear circuits.
+Consider the circuit in Figure 3.5 with a nonlinear resistor
+deﬁned by IR ¼ g (VR) ¼ 0:001(VR)3 and a nonlinear capacitor
+deﬁned by QC ¼ q(VC ) ¼ 0:001(VC )3. The current through
+the capacitor is given by IC ¼ (d=dt )QC. Both the nonlinear
+elements are called voltage-controlled elements because the
+current through the resistor and charge on the capacitor are
+nonlinear functions of the voltage across the individual elem-
+ents. Let the input be a DC source E(t ) ¼ 1 V.

@@ -1,0 +1,5 @@
+Overﬂow oscillations can be prevented in several different ways. One technique is to employ ﬂoating-point
+arithmetic that renders overﬂow virtually impossible due to the large dynamic range which can be represented.
+In ﬁxed-point arithmetic implementations it is possible to scale the calculations so that overﬂow is impossible
+[Roberts and Mullis, 1987], to use saturation arithmetic [Ritzerfeld, 1989], or to choose a realization for which
+overﬂow transients are guaranteed to decay to zero [Roberts and Mullis, 1987].

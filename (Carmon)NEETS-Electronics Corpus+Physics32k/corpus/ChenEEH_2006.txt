@@ -1,0 +1,15 @@
+HC and, if the corresponding instruction or data line fetched is
+stored in cache. Subsequently, when the instruction is fetched
+from cache, it will always be erroneous. If this error is subse-
+quently detected by the WD monitoring the cache-processor
+bus or the HC on that bus, a microrollback occurs. After the
+microrollback occurs, the same instruction (with permanent
+errors) will be fetched again, and the microrollback and subse-
+quent fetch will repeat ad inﬁnitum. This type of inﬁnite loop
+can be detected with high probability if the WD can be aug-
+mented to detect the number of microrollbacks of the same
+type (e.g., deﬁned by just the microrollback distance) and then
+send a signal to the processor to terminate the program when
+10 consecutive microrollbacks of the same type are detected.
+Such termination is a fail-safe termination of the program as
+its results are not deemed reliable.

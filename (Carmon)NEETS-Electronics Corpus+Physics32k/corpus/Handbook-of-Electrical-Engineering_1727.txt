@@ -1,0 +1,9 @@
+Figure 17.5 shows the essential components of an image compression system. At the system input, the image
+is  encoded  into  its  compressed  form  by  the  image  coder.  The  compressed  image  may  then  be  subjected  to
+further digital processing, such as error control coding, encryption, or multiplexing with other data sources,
+before being used to modulate the analog signal that is actually transmitted through the channel or stored in
+a storage medium. At the system output, the image is processed step by step to undo each of the operations
+that was performed on it at the system input. At the ﬁnal step, the image is decoded into its original uncom-
+pressed  form  by  the  image  decoder.  Because  of  the  role  of  the  image  encoder  and  decoder  in  an  image
+compression  system,  image coding  is  often  used  as  a  synonym  for  image  compression.  If  the  reconstructed
+image is identical to the original image, the compression is said to be lossless. Otherwise, it is lossy.

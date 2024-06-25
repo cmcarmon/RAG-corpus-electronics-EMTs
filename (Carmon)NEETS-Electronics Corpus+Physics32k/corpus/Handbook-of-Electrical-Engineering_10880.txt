@@ -1,0 +1,10 @@
+There  is,  therefore,  an  identiﬁed  need  for  matrix  environments  to  provide  a  wider  range  of  data  types,
+preferably user deﬁnable. These would be used in the same way as record datatypes are used in conventional
+programming systems and would be considerably safer to use since the types expected and returned by functions
+could be speciﬁed in advance and the scope for misuse would be much reduced. In addition, the need to invent
+new  types  for  each  application  would  be  somewhat  reduced.  This  approach  has  been  taken  in  the  matrix
+environment  X-Math  and  similar  features  are  planned  for  a  future  release  of  MATLAB.  Some  of  the  other
+requirements listed above, such as graphical systems input, graphical display of results, and spreadsheet data
+manipulation, are covered to a greater or lesser extent by the current generation of matrix environments. The
+others, namely symbolic data processing and database support, are not but are considered to be outside the
+scope of this article.

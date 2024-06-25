@@ -1,0 +1,11 @@
+■ METHOD 2 We  can  simulate  the  circuit  in  Fig.  7.67  directly,
+since  PSpice can  handle  the  open  and  closed  switches  and  determine
+the initial conditions automatically. Using this approach, the schematic
+is  drawn  as  shown  in  Fig.  7.70.  After  drawing  the  circuit,  we  select
+Analysis/Setup/Transient and  set  Print  Step to  0.1  s  and  Final  Step
+We save the circuit, then select Analysis/Simulate to sim-
+to 
+ulate the circuit. In the PSpice A/D window, we select Trace/Add and
+display 
+The  plot  of
+v(t)

@@ -1,0 +1,8 @@
+Constructive Method
+In most of the constructive methods, at each step an unplaced cell is selected and then located in the proper
+area. There are different strategies for selecting a cell from the collection of unplaced cells [Wimer and Koren,
+1988]. One strategy is to select the cell that is most strongly connected to already placed cells. For each unplaced
+cell, we ﬁnd the total of its connections to all of the already placed cells. Then we select the unplaced cell that
+has the maximum number of connections. As an example consider the cells in Fig. 25.15. Assume that cells c1
+and  c2 are already placed on the chip. In Fig. 25.16 we see that cell  c5 has been selected as the next cell to be
+placed. This is because cell c5 has the largest number of connections (i.e., three) to cells c1 and c2.

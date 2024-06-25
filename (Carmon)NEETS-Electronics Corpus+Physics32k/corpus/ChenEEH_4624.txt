@@ -1,0 +1,17 @@
+Gain scheduling is typically performed on an exogenous
+scheduling parameter that characterizes the operating environ-
+ment. In a missile guidance application, for example, autopilot
+gains might be scheduled on temperature, air pressure, Mach
+number, or a combination of these. The scheduling parameter
+will be denoted by an s-dimensional vector, u, that takes values
+in a compact subset, Q  <s, called the parameter set. Asso-
+ciated with Q is a signal space known as the parameter vari-
+ation set, F Q, that is the set of all continuous functions
+mapping <þ into Q.
+The notation u 2 F Q denotes a function in the parameter
+variation set; u 2 Q denotes a vector in a compact subset of <s.
+Note that both F Q and, for instance, Ln1 represent signal
+spaces. Technically, F Q  Ls1 since F Q consists of supremum
+bounded s-dimensional vectors that vary continuously in time.
+In this discussion, F Q will always refer to parameter signals or
+parameter variations; Ln1 will refer to signals in the plant

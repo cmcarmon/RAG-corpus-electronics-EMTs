@@ -1,0 +1,9 @@
+The highly non-linear current-voltage relationship of diodes also make them ideal 
+for making voltage references. As shown in Figure 6.8, silicon diodes biased in the on-
+state  can  be  used  to  generate  a  0.7V  reference.  For  references  from  1.8V  and  above, 
+Zener diodes biased in the reverse direction can be used in a similar circuit. The output 
+current  sourcing  capacity  is  limited  by  the  bias  current  through  the  diode.  In  order  to 
+maintain the correct bias in the diode, the bias current through diode should be at least a 
+few mA greater than the maximum current that the reference will be required to source. 
+The resistor value can be selected using the same procedure for the LED circuit. 
+ 

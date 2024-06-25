@@ -1,0 +1,14 @@
+The total number of computations for the m scalar meas-
+urement updates is m( 3
+2 n) plus m scalar divisions. Thus,
+it can be seen that m scalar updates are computationally
+cheaper for any m.
+(k) and
+Pþ(k) will be identical to the values that would have been
+computed by the corresponding vector measurement update.
+The state feedback measurement vectors K i corresponding to
+the scalar updates are not equal to the columns of the state
+feedback gain matrix that would result from the corresponding
+vector update. This is due to the different ordering of the
+updates affecting the error covariance matrix Pi at the inter-
+mediate steps during the scalar updates.

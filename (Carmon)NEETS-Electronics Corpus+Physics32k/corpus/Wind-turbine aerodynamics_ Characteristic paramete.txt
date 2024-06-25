@@ -1,0 +1,67 @@
+Wind turbines come in a variety of sizes. Once in operation, a wind turbine experiences a wide range of conditions. This variability complicates the comparison of different types of turbines. To deal with this, nondimensionalization is applied to various qualities. Nondimensionalization allows one to make comparisons between different turbines, without having to consider the effect of things like size and wind conditions from the comparison. One of the qualities of nondimensionalization is that though geometrically similar turbines will produce the same non-dimensional results, other factors (difference in scale, wind properties) cause them to produce very different dimensional properties.
+The coefficient of power is the most important variable in wind-turbine aerodynamics. The Buckingham π theorem can be applied to show that the non-dimensional variable for power is given by the equation below. This equation is similar to efficiency, so values between 0 and less than 1 are typical. However, this is not exactly the same as efficiency and thus in practice, some turbines can exhibit greater than unity power coefficients. In these circumstances, one cannot conclude the first law of thermodynamics is violated because this is not an efficiency term by the strict definition of efficiency.
+
+Where:
+
+
+
+
+C
+
+P
+
+
+
+
+{\displaystyle C_{P}}
+is the coefficient of power,
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+is the air density, A is the area of the wind turbine, and V is the wind speed.
+The thrust coefficient is another important dimensionless number in wind turbine aerodynamics.
+
+Equation (1) shows two important dependents. The first is the speed (U) that the machine is going at. The speed at the tip of the blade is usually used for this purpose, and is written as the product of the blade radius and the rotational speed of the wind ("U=\omega r", where "\omega" is the rotational velocity in radians/second).[please clarify] This variable is nondimensionalized by the wind speed, to obtain the speed ratio:
+
+The force vector is not straightforward, as stated earlier there are two types of aerodynamic forces, lift and drag. Accordingly, there are two non-dimensional parameters. However both variables are non-dimensionalized in a similar way. The formula for lift is given below, the formula for drag is given after:
+
+Where:
+
+
+
+
+C
+
+L
+
+
+
+
+{\displaystyle C_{L}}
+is the lift coefficient,
+
+
+
+
+C
+
+D
+
+
+
+
+{\displaystyle C_{D}}
+is the drag coefficient,
+
+
+
+W
+
+
+{\displaystyle W}
+is the relative wind as experienced by the wind turbine blade, and A is the area. Note that A may not be the same area used in the power non-dimensionalization of power.
+The aerodynamic forces have a dependency on W, this speed is the relative speed and it is given by the equation below. Note that this is vector subtraction.

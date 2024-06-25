@@ -1,0 +1,8 @@
+Once  the  video  signal  has  been  sampled  and  quantized,  it  can  be  processed  digitally.  Processing  can  be
+performed  on  special-purpose  hardware  or  general-purpose  computers.  The  type  of  processing  performed
+depends on the particular application. For example, if the objective is to generate high-deﬁnition television,
+the processing would typically include compression and motion estimation. In fact, in most of the applications
+listed above these are the fundamental operations. Compression is the process of compactly representing the
+information  contained  in  an  image  or  video  signal.  Motion estimation is  the  process  of  estimating  the  dis-
+placement  of  the  moving  objects  in  a  video  sequence.  The  displacement  information  can  then  be  used  to
+interpolate missing frame data or to improve the performance of compression algorithms.

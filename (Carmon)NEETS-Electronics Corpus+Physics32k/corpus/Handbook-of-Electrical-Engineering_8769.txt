@@ -1,0 +1,3 @@
+In each case, the special-purpose operations deﬁned in Plus() and Times() reuse Binop’s code to perform
+the  pointer  operations.  Then  they  add  a  member  function  eval()  to  carry  out  the  operation.  This  illustrates
+reuse and the value of inheritance.

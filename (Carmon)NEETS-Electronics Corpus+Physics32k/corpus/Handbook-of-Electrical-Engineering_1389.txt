@@ -1,0 +1,10 @@
+Model-Based Approach
+The  model-based  approach  [Ephraim,  1992]  is  a  Bayesian  approach  for  estimating  the  clean  signal  or  any
+functional of that signal from the observed noisy signal. This approach assumes CSMs for the clean signal and
+noise  process.  The  models  are  estimated  from  training  sequences  of  those  processes  using  the  maximum
+likelihood (ML) estimation approach. Under ideal conditions the ML model estimate is consistent and asymp-
+totically  efﬁcient.  The  ML  model  estimation  is  performed  using  the  expectation-maximization  (EM)  or  the
+Baum iterative algorithm [Rabiner, 1989; Ephraim, 1992]. Given the CSMs for the signal and noise, the clean
+signal  is  estimated  by  minimizing  the  expected  value  of  the  chosen  distortion  measure.  The  model-based
+approach uses signiﬁcantly more statistical knowledge about the signal and noise compared to either the spectral
+subtraction or the sample average approaches.

@@ -1,0 +1,8 @@
+Register Transfer Language
+The transfer of data between registers is described using a simple notation termed the register transfer language
+or RTL. For data transferred from register A to register B we write: B ‹ A. The symbol ‹ is called the transfer
+operator. Note that this statement does not indicate how many bits are to be transferred. To deﬁne the size of
+the  register  we  declare  the  size  thus: A[8],  B[16],  here  deﬁning  an  8-bit  register  and  a  16-bit  register.  If  the
+action to be taken is the transfer of the most signiﬁcant bit (7th bit) of register A to the least signiﬁcant bit
+(bit 0) of register B, then we write: B[0] ‹  A[7]. Usually data is transferred by the control signal or a clock
+pulse. If such a signal is designated “C,” then we would describe the action by C: B ‹  A.

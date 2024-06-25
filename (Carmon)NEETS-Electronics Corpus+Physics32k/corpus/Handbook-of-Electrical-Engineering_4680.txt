@@ -1,0 +1,7 @@
+A SAW ﬁlter is composed of two cascaded transducers. In addition, the overall ﬁlter function is the product of
+two  acoustic  transfer  functions,  two  electrical  transfer  functions,  and  a  delay  line  function,  as  illustrated  in
+Fig. 47.6.  The  acoustic  ﬁlter  functions  are  as  designed  by  each  SAW  transducer.  The  delay  line  function  is
+dependent on several parameters, the most important being frequency and transducer separation. The propa-
+gation  path  transfer  function,  D(w),  is  normally  assumed  unity,  although  this  may  not  be  true  for  high
+frequencies ( f >  500 MHz)  or  if  there  are  ﬁlms  in  the  propagation  path.  The  electrical  networks  may  cause
+distortion of the acoustic response and are typically compensated in the initial SAW transducer’s design.

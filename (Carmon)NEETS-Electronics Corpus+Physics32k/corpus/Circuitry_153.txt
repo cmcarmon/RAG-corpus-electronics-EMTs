@@ -1,0 +1,38 @@
+Norton’s Theorem 
+ 
+Norton’s  Theorem  provides  an  alternative  method 
+of
+reducing  a  complex  network  to  a  simple 
+equivalent  circuit.  Unlike  Thévenin’s  Theorem, 
+Norton’s  Theorem  makes  use  of  a  current  source 
+rather than a voltage source. The Norton equivalent 
+circuit allows us to replace a complicated network 
+of  resistances  and  voltage  sources  with  a  simple 
+equivalent  circuit  comprising  a  single  constant 
+current  source  connected  in  parallel  with  a  single 
+resistance (see Fig. 3.20). 
+  The  constant  current  source  in  the  Norton 
+equivalent  circuit,  Isc, is  simply  the  short-circuit 
+current  that  would  flow  if  A  and  B  were  to  be 
+linked directly together. The resistance that appears 
+in the Norton equivalent circuit, R, is the resistance 
+that  would  be  seen  looking  into  the  network 
+between  A  and  B  when  all  of  the  voltage  sources 
+are  replaced  by  short-circuit  connections.  Once 
+again, it is worth noting that, if the voltage sources 
+have  any  appreciable 
+the 
+equivalent circuit must be constructed on the basis 
+that  each  voltage  source  is  replaced  by  its  own 
+internal resistance.  
+  As  with 
+the  Thévenin  equivalent,  we  can 
+determine how a network will behave by obtaining 
+values for Isc and R. 
+ 
+Example 3.8 
+ 
+Three  temperature  sensors  having  the  following 
+characteristics  shown 
+table  below  are 
+connected in parallel as shown in Fig. 3.21: 

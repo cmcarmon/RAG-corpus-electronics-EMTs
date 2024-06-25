@@ -1,0 +1,13 @@
+Intrasignal In-Place Mapping
+In a ﬁrst phase, we optimize the internal organization of each
+array separately, resulting in a partially ﬁxed storage order for
+each array. The intrasignal in-place mapping phase comprises
+calculation of the address reference window for-every array as
+shown in Figure 2.27 (A) and identiﬁcation of an (optimal)
+intra-array storage order as shown in Figure 2.27 (D) (Greef et
+al., 1997; Catthoor et al., 1998). The address reference window
+represents the maximum distance between two addresses being
+occupied by the array at the same time.8 This is calculated
+using the geometrical domains for each array referred to as
+occupied address/time domains (OATD’s) as shown in Figure
+2.27 (A) (Greef et al., 1997).

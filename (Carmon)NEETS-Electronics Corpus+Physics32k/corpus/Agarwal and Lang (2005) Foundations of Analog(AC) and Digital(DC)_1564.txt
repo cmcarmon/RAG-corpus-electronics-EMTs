@@ -1,0 +1,12 @@
+For simplicity, assume the voltage from source vS is a square wave. Assume that at t = 0,
+vO = 0, that is, the circuit is at rest. Now assuming that R is small enough to make
+the circuit time constant much smaller than t1 or t2, calculate the voltage waveforms for
+each half cycle of the input wave. Find the average value of the output voltage vO for
+t1 = t2. Sketch the waveforms carefully. For this choice of R, it should be clear that no
+useful smoothing has been accomplished.
+p r o b l e m 10.11
+For R much larger than the value used in Problem 10.10, so
+that the circuit time constant is much larger than t1 or t2, (so that the exponentials can be
+approximated by straight lines) calculate vO for the first half cycle of vS, and the second
+half cycle. Sketch the result. Note that the solution does not return to the initial point
+of vO = 0 after one cycle, so is not in the ‘‘steady state’’ yet.

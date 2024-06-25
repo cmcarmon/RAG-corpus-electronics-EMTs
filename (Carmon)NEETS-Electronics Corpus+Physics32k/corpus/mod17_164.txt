@@ -1,0 +1,7 @@
+Designing and building a stable crystal oscillator is difficult. As operating frequencies increase, the
+crystal must be ground so thin that it often cracks while vibrating. You will find that you can get around
+this problem by operating the oscillators in most transmitters at comparatively low frequencies,
+sometimes as low as 1/100 (.01) of the output frequency. You raise the oscillator frequency to the
+required output frequency by passing it through one or more frequency multipliers. Frequency multipliers
+are special power amplifiers that multiply the input frequency. Stages that multiply the frequency by 2 are
+called doublers; those that multiply by 3 are triplers; and those multiplying by 4 are quadruplers.

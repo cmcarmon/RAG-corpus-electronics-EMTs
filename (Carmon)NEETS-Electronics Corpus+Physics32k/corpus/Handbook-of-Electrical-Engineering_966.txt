@@ -1,0 +1,10 @@
+MOS Levels 1, 2, and 3. Originally, SPICE came with three MOS models known as level 1, level 2, and level 3.
+The level 1 MOS model is a very crude ﬁrst-order model that is rarely used. The level 2 and level 3 MOS models
+are extensions of the level 1 model and have been used extensively in the past and present [Vladimirescu and
+Liu, 1980]. These two models contain about 15 DC parameters each and are usually considered useful for digital
+circuit simulation down to 1 mm channel length technologies. They can ﬁt the drain current for wide transistors
+of varying length with reasonable accuracy (about 5% RMS error), but have very little advanced ﬁtting capability
+for analog application. They have only one parameter for ﬁtting the subthreshold region, and no parameters
+for ﬁtting the derivative of drain current with respect to drain voltage, Gds (usually considered critical for analog
+applications). They also have no ability to vary the mobility degradation with back-bias, so the ﬁts to Ids in the
+saturation region at high back-bias are not very good. Finally, these models do not interpolate well over device

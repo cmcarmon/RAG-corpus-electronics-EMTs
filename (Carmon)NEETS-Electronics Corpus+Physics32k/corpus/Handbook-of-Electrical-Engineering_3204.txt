@@ -1,0 +1,11 @@
+Load voltage regulation is achieved by decreasing the switching frequency below the rated value. Since
+the inverter output current i leads the inverter output voltage vAB, this type of operation is also called a
+leading  PF  mode  of  operation.  If  transistors  are  used  as  the  switching  devices,  then  for  operation  in
+DCM,  the  pulsewidth  can  be  kept  constant  while  decreasing  the  switching  frequency  to  avoid  CCM
+operation. DCM operation has the advantages of negligible switching losses due to ZCS, lower di/dt and
+dv/dt stresses, and simple control circuitry. However, DCM operation results in higher switch peak currents.
+From the waveforms shown in Fig. 30.33, the following problems can be identiﬁed for operation in
+the  below-resonance  mode:  requirement  of  di/dt  inductors  to  limit  the  large  turn-on  switch  currents
+and a need for lossy RC snubbers and fast recovery diodes. Since the switching frequency is decreased
+to control the load power, the HF transformer and magnetics must be designed for the lowest switching
+frequency, resulting in increased size of the converter.

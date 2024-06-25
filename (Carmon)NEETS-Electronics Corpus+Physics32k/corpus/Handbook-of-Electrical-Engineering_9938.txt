@@ -1,0 +1,5 @@
+With KI = 0, the compensator is phase-lead, with a single zero and the pole moved to inﬁnity. Hence, the
+gain continues to increase with increasing frequency. If high-frequency noise is a problem, it may be necessary
+to  add  one  or  more  poles  to  the  PD  or  PID  compensators.  These  poles  must  be  placed  at  high  frequencies
+relative to the phase-margin frequency such that the phase margin (stability characteristics) of the system is
+not degraded. PD compensators realized using rate sensors minimize noise problems [Phillips and Harbor, 1991].

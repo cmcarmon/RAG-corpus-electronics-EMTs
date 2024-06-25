@@ -1,0 +1,6 @@
+Now let us consider how to estimate the computer resources required. Given the shortest wavelength of interest,
+the cell dimensions are determined as 1/10 of this wavelength (or less if greater accuracy is required). From
+this and the physical size of the problem geometry the total number of cells in the problem space (here denoted
+as  NC)  can  be  determined.  We  assume  that  the  material  information  for  each  cell  edge  is  stored  in  1  byte
+(INTEGER*1) arrays with only dielectric materials considered. Then, to estimate the computer storage in bytes
+required, and assuming single-precision FORTRAN ﬁeld variables, we can use the relationship

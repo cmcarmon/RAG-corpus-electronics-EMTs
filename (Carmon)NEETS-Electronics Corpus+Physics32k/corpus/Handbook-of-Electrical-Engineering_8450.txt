@@ -1,0 +1,5 @@
+There still remains the question of how the number 0 is to be represented. If the  F ﬁeld is zero, then the
+exponent can be anything and the number will be zero. However, in computers the normalized FPN2 limits  F
+to 0.5 £ F < 1 since the MSB for  F is always 1. The solution to this problem is to assume that the number is
+zero if the exponent bits are all zero regardless of the value of the mantissa. This leads, however, to a discontinuity
+in normalized FPN2 representation at the low end.

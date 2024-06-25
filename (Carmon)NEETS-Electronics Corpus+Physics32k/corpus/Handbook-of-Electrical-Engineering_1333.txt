@@ -1,0 +1,14 @@
+An MBE coder decomposes the instantaneous speech spectrum into subbands centered at harmonics of the
+fundamental glottal excitation (pitch). The spectral envelope of the signal is approximated by samples taken at
+pitch harmonics, and these harmonic amplitudes are compared to adaptive thresholds (which may be determined
+via  analysis-by-synthesis)  to  determine  subbands  of  high  spectral  activity.  Subbands  that  are  determined  to  be
+“voiced” are labeled, and their energies and phases are encoded for transmission. Subbands having relatively low
+spectral activity are declared “unvoiced”. These segments are approximated by an appropriately ﬁltered segment
+of white noise, or a locally dense collection of sinusoids with random phase. Careful tracking of the evolution of
+individual spectral peaks and phases in successive frames is critical in the implementation of MBE-style coders.
+An efﬁcient implementation of an MBE coder was adopted for the International Maritime Satellite (INMAR-
+SAT)  voice  processor,  and  is  known  as  Improved-MBE,  or  IMBE  [Hardwick  and  Lim,  1991].  This  coder
+optimizes several components of the general MBE architecture, including grouping neighboring harmonics for
+subband  voicing  decisions,  using  non-integer  pitch  resolution  for  higher  speaker  ﬁdelity,  and  differentially
+encoding the log-amplitudes of voiced harmonics using a DCT-based scheme. The IMBE coder requires high
+delay (about 80 msec), but produces very good quality encoded speech.

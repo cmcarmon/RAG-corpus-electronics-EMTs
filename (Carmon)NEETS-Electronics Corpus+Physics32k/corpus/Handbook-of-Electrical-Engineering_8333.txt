@@ -1,0 +1,5 @@
+Scan Path. The scan-path [Funatsu et al., 1975] approach can be seen as a generalization of the LSSD approach
+since it follows the same principles but uses standard D-type ﬂip-ﬂops as the storage elements instead of the
+SRLs. The scannable ﬂip-ﬂops can be implemented using dual-ported latches (similar to the L1 latch in the
+SRL) or using a multiplexor to select between the scan-in and system data-in signals to feed the D input of a
+standard D-type ﬂip-ﬂop, as shown in Fig. 85.14.

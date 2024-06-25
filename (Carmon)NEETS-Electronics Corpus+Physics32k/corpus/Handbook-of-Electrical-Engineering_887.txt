@@ -1,0 +1,6 @@
+DC (Steady-State) Analysis
+DC analysis calculates the state of a circuit with ﬁxed (non-time varying) inputs after an inﬁnite period of time.
+DC analysis is useful to determine the operating point (Q-point) of a circuit, power consumption, regulation
+and  output  voltage  of  power  supplies,  transfer  functions,  noise  margin  and  fanout  in  logic  gates,  and  many
+other types of analysis. In addition DC analysis is used to ﬁnd the starting point for AC and transient analysis.
+To perform the analysis the simulator performs the following steps:

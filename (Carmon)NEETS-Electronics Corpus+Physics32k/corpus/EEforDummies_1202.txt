@@ -1,0 +1,6 @@
+Assuming the forward voltage drop across the LED is about 2.0 V (a typical 
+value), you know that when the pulse is on, the voltage drop across resistor 
+R3 is about 7 V. You get this result by taking the 9 V at pin 3 and subtract-
+ing the 2 V dropped across the LED. From that, you can use Ohm’s Law (see 
+Chapter 6) to calculate the current through R3, which is the same as the cur-
+rent through the LED, as follows:

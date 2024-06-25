@@ -1,0 +1,32 @@
+To further reduce uncertainty, the 17th CGPM in 1983 replaced the definition of the metre with its current definition, thus fixing the length of the metre in terms of the second and the speed of light:
+
+The metre is the length of the path travelled by light in vacuum during a time interval of 1/299792458 second.
+
+This definition fixed the speed of light in vacuum at exactly 299792458 metres per second (≈300000 km/s). An intended by-product of the 17th CGPM's definition was that it enabled scientists to compare lasers accurately using frequency, resulting in wavelengths with one-fifth the uncertainty involved in the direct comparison of wavelengths, because interferometer errors were eliminated. To further facilitate reproducibility from lab to lab, the 17th CGPM also made the iodine-stabilised helium–neon laser "a recommended radiation" for realising the metre. For the purpose of delineating the metre, the BIPM currently considers the HeNe laser wavelength, λHeNe, to be 632.99121258 nm with an estimated relative standard uncertainty (U) of 2.1×10−11. This uncertainty is currently one limiting factor in laboratory realisations of the metre, and it is several orders of magnitude poorer than that of the second, based upon the caesium fountain atomic clock (U = 5×10−16). Consequently, a realisation of the metre is usually delineated (not defined) today in labs as 1579800.762042(33) wavelengths of helium-neon laser light in a vacuum, the error stated being only that of frequency determination. This bracket notation expressing the error is explained in the article on measurement uncertainty.
+Practical realisation of the metre is subject to uncertainties in characterising the medium, to various uncertainties of interferometry, and to uncertainties in measuring the frequency of the source. A commonly used medium is air, and the National Institute of Standards and Technology (NIST) has set up an online calculator to convert wavelengths in vacuum to wavelengths in air. As described by NIST, in air, the uncertainties in characterising the medium are dominated by errors in measuring temperature and pressure. Errors in the theoretical formulas used are secondary. By implementing a refractive index correction such as this, an approximate realisation of the metre can be implemented in air, for example, using the formulation of the metre as 1579800.762042(33) wavelengths of helium–neon laser light in vacuum, and converting the wavelengths in a vacuum to wavelengths in air. Air is only one possible medium to use in a realisation of the metre, and any partial vacuum can be used, or some inert atmosphere like helium gas, provided the appropriate corrections for refractive index are implemented.
+The metre is defined as the path length travelled by light in a given time and practical laboratory length measurements in metres are determined by counting the number of wavelengths of laser light of one of the standard types that fit into the length, and converting the selected unit of wavelength to metres. Three major factors limit the accuracy attainable with laser interferometers for a length measurement:
+uncertainty in vacuum wavelength of the source,
+uncertainty in the refractive index of the medium,
+least count resolution of the interferometer.
+Of these, the last is peculiar to the interferometer itself. The conversion of a length in wavelengths to a length in metres is based upon the relation
+
+
+
+
+λ
+=
+
+
+c
+
+n
+f
+
+
+
+,
+
+
+{\displaystyle \lambda ={\frac {c}{nf}},}
+
+which converts the unit of wavelength λ to metres using c, the speed of light in vacuum in m/s. Here n is the refractive index of the medium in which the measurement is made, and f is the measured frequency of the source. Although conversion from wavelengths to metres introduces an additional error in the overall length due to measurement error in determining the refractive index and the frequency, the measurement of frequency is one of the most accurate measurements available.

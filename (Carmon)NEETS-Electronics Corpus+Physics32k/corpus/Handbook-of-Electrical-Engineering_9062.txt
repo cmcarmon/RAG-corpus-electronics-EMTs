@@ -1,0 +1,14 @@
+just the right instant to provide good character registration. Third, it must have a short impact time. The impact
+force and energy are determined by the kinetic energy transferred by the hammer; this is the main factor in
+determining the amount of ink transfer to the paper. The hammer energy is typically 4–8 mJ. The total time
+from electronic print impulse to impact with the ribbon/paper set must be closely controlled to achieve good
+character registration, increasing in importance with band loop speed. The ﬂight time variance must not be
+more than 1.7 ms to yield a print registration error of no greater than 0.05 mm with a loop speed of 30 m/s.
+This can best be done by automatically and periodically measuring the time to impact (using a piezoelectric
+impact  bar)  and  then  making  microcode/electronic  impulse  delay  adjustments.  To  minimize “slur”  (i.e.,  the
+blurring of a character caused by lateral relative motion between the engraved character and the ribbon/paper
+set  during  impact),  short  impact  time  is  important.  It  may  be  shown  that  this  impact  time  is  inversely
+proportional to the square root of the hammer mass (for given hammer kinetic energy), and inversely propor-
+tional to the hammer velocity (for given ribbon/paper set thickness and compliance). For a given amount of
+acceptable slur, the hammer velocity must increase proportional to the band loop velocity, and the hammer
+mass (for ﬁxed kinetic energy) must decrease—inversely proportional to the square of the band loop velocity.

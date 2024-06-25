@@ -1,0 +1,4 @@
+Transactions scheduling based on locking achieves serializability in two phases. This is known as two-phase
+locking. During the ﬁrst phase, the growing phase, a transaction can only lock new data items, but it cannot
+release any locked ones. During the second phase, the shrinking phase, existing locks can be released, but no
+new data item can be locked. The two-phase locking scheme guarantees the serializability of a schedule.

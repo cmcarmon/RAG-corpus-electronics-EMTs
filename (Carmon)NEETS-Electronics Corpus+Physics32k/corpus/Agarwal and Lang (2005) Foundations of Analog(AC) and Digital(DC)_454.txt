@@ -1,0 +1,9 @@
+Node analysis as described here does not work for circuits that contain floating
+independent voltage sources such as the one shown in Figure 3.20. A floating
+independent voltage source is a voltage source that has neither terminal con-
+nected to ground, neither directly nor through one or more other independent
+voltage sources. The reason node analysis does not work is that the element
+law for an independent voltage source does not relate its branch current to its
+branch voltage. Therefore, it is not possible to complete Step 3 of node analysis
+if the circuit contains a floating independent voltage source. In this case, it is
+necessary to modify the node analysis slightly.

@@ -1,0 +1,659 @@
+To see this unstable behavior more quantitatively, consider the equations of motion for a fluid element mass in circular motion with an angular velocity
+
+
+
+Ω
+
+.
+
+
+{\displaystyle \Omega \ .}
+In general
+
+
+
+Ω
+
+
+{\displaystyle \Omega }
+will be a function of the distance from the rotation axis
+
+
+
+R
+
+,
+
+
+{\displaystyle R\ ,}
+and we assume that the orbital radius is
+
+
+
+r
+=
+
+R
+
+0
+
+
+
+.
+
+
+{\displaystyle r=R_{0}\ .}
+The centripetal acceleration required to keep the mass in orbit is
+
+
+
+−
+R
+
+Ω
+
+2
+
+
+(
+R
+)
+
+,
+
+
+{\displaystyle -R\Omega ^{2}(R)\ ,}
+the minus sign indicates a direction toward the center. If this force is gravity from a point mass at the center, then the centripetal acceleration is simply
+
+
+
+−
+G
+M
+
+/
+
+
+R
+
+2
+
+
+,
+
+
+{\displaystyle -GM/R^{2},}
+where
+
+
+
+G
+
+
+{\displaystyle G}
+is the gravitational constant and
+
+
+
+M
+
+
+{\displaystyle M}
+is the central mass. Let us now consider small departures from the circular motion of the orbiting mass element caused by some perturbing force. We transform variables into a rotating frame moving with the orbiting mass element at angular velocity
+
+
+
+Ω
+(
+
+R
+
+0
+
+
+)
+=
+
+Ω
+
+0
+
+
+
+,
+
+
+{\displaystyle \Omega (R_{0})=\Omega _{0}\ ,}
+with origin located at the unperturbed, orbiting location of the mass element. As usual when working in a rotating frame, we need to add to the equations of motion a Coriolis force
+
+
+
+−
+2
+
+
+Ω
+
+
+0
+
+
+×
+
+v
+
+
+
+{\displaystyle -2{\boldsymbol {\Omega }}_{0}\times {\boldsymbol {v}}}
+plus a centrifugal force
+
+
+
+R
+
+Ω
+
+0
+
+
+2
+
+
+
+.
+
+
+{\displaystyle R\Omega _{0}^{2}\ .}
+The velocity
+
+
+
+v
+
+
+{\displaystyle v}
+is the velocity as measured in the rotating frame. Furthermore, we restrict our attention to a small neighborhood near
+
+
+
+
+R
+
+0
+
+
+
+,
+
+
+{\displaystyle R_{0}\ ,}
+say
+
+
+
+
+R
+
+0
+
+
++
+x
+
+,
+
+
+{\displaystyle R_{0}+x\ ,}
+with
+
+
+
+x
+
+
+{\displaystyle x}
+much smaller than
+
+
+
+
+R
+
+0
+
+
+
+.
+
+
+{\displaystyle R_{0}\ .}
+Then the sum of the centrifugal and centripetal forces is
+
+to linear order in
+
+
+
+x
+
+.
+
+
+{\displaystyle x\ .}
+With our
+
+
+
+x
+
+
+{\displaystyle x}
+axis pointing radial outward from the unperturbed location of the fluid element and our
+
+
+
+y
+
+
+{\displaystyle y}
+axis pointing in the direction of increasing azimuthal angle (the direction of the unperturbed orbit), the
+
+
+
+x
+
+
+{\displaystyle x}
+and
+
+
+
+y
+
+
+{\displaystyle y}
+equations of motion for a small departure from a circular orbit
+
+
+
+R
+=
+
+R
+
+0
+
+
+
+
+{\displaystyle R=R_{0}}
+are:
+
+where
+
+
+
+
+f
+
+x
+
+
+
+
+{\displaystyle f_{x}}
+and
+
+
+
+
+f
+
+y
+
+
+
+
+{\displaystyle f_{y}}
+are the forces per unit mass in the
+
+
+
+x
+
+
+{\displaystyle x}
+and
+
+
+
+y
+
+
+{\displaystyle y}
+directions, and a dot indicates a time derivative (i.e.,
+
+
+
+
+
+
+x
+˙
+
+
+
+
+
+{\displaystyle {\dot {x}}}
+is the
+
+
+
+x
+
+
+{\displaystyle x}
+velocity,
+
+
+
+
+
+
+x
+¨
+
+
+
+
+
+{\displaystyle {\ddot {x}}}
+is the
+
+
+
+x
+
+
+{\displaystyle x}
+acceleration, etc.). Provided that
+
+
+
+
+f
+
+x
+
+
+
+
+{\displaystyle f_{x}}
+and
+
+
+
+
+f
+
+y
+
+
+
+
+{\displaystyle f_{y}}
+are either 0 or linear in x and y, this is a system of coupled second-order linear differential equations that can be solved analytically. In the absence of external forces,
+
+
+
+
+f
+
+x
+
+
+=
+0
+
+
+{\displaystyle f_{x}=0}
+and
+
+
+
+
+f
+
+y
+
+
+=
+0
+
+
+{\displaystyle f_{y}=0}
+, the equations of motion have solutions with the time dependence
+
+
+
+
+e
+
+i
+ω
+t
+
+
+
+,
+
+
+{\displaystyle e^{i\omega t}\ ,}
+where the angular frequency
+
+
+
+ω
+
+
+{\displaystyle \omega }
+satisfies the equation
+
+where
+
+
+
+
+κ
+
+2
+
+
+
+
+{\displaystyle \kappa ^{2}}
+is known as the epicyclic frequency. In our solar system, for example, deviations from a sun-centered circular orbit that are familiar ellipses when viewed by an external viewer at rest, appear instead as small radial and azimuthal oscillations of the orbiting element when viewed by an observer moving with the undisturbed circular motion. These oscillations trace out a small retrograde ellipse (i.e. rotating in the opposite sense of the large circular orbit), centered on the undisturbed orbital location of the mass element.
+The epicyclic frequency may equivalently be written
+
+
+
+(
+1
+
+/
+
+
+R
+
+3
+
+
+)
+(
+d
+
+R
+
+4
+
+
+
+Ω
+
+2
+
+
+
+/
+
+d
+R
+)
+
+,
+
+
+{\displaystyle (1/R^{3})(dR^{4}\Omega ^{2}/dR)\ ,}
+which shows that it is proportional to the radial derivative of the angular momentum per unit mass, or specific angular momentum. The specific angular momentum must increase outward if stable epicyclic oscillations are to exist, otherwise displacements would grow exponentially, corresponding to instability. This is a very general result known as the Rayleigh criterion (Chandrasekhar 1961) for stability. For orbits around a point mass, the specific angular momentum is proportional to
+
+
+
+
+R
+
+1
+
+/
+
+2
+
+
+
+,
+
+
+{\displaystyle R^{1/2}\ ,}
+so the Rayleigh criterion is well satisfied.
+Consider next the solutions to the equations of motion if the mass element is subjected to an external restoring force,
+
+
+
+
+f
+
+x
+
+
+=
+−
+K
+x
+
+,
+
+
+{\displaystyle f_{x}=-Kx\ ,}
+
+
+
+
+
+f
+
+y
+
+
+=
+−
+K
+y
+
+
+{\displaystyle f_{y}=-Ky}
+where
+
+
+
+K
+
+
+{\displaystyle K}
+is an arbitrary constant (the "spring constant"). If we now seek solutions for the modal displacements in
+
+
+
+x
+
+
+{\displaystyle x}
+and
+
+
+
+y
+
+
+{\displaystyle y}
+with time dependence
+
+
+
+
+e
+
+i
+ω
+t
+
+
+
+,
+
+
+{\displaystyle e^{i\omega t}\ ,}
+we find a much more complex equation for
+
+
+
+ω
+
+:
+
+
+{\displaystyle \omega \ :}
+
+
+Even though the spring exerts an attractive force, it may destabilize. For example, if the spring constant
+
+
+
+K
+
+
+{\displaystyle K}
+is sufficiently weak, the dominant balance will be between the final two terms on the left side of the equation. Then, a decreasing outward angular velocity profile will produce negative values for
+
+
+
+
+ω
+
+2
+
+
+
+,
+
+
+{\displaystyle \omega ^{2}\ ,}
+and both positive and negative imaginary values for
+
+
+
+ω
+
+.
+
+
+{\displaystyle \omega \ .}
+The negative imaginary root results not in oscillations, but in exponential growth of very small displacements. A weak spring therefore causes the type of instability described qualitatively at the end of the previous section. A strong spring on the other hand, will produce oscillations, as one intuitively expects.

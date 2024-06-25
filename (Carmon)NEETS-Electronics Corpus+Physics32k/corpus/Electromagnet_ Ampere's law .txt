@@ -1,0 +1,39 @@
+For definitions of the variables below, see box at end of article.
+The magnetic field of electromagnets in the general case is given by Ampere's Law:
+
+
+
+
+∫
+
+J
+
+⋅
+d
+
+A
+
+=
+
+
+
+∮
+
+
+
+
+
+⁡
+
+H
+
+⋅
+d
+
+l
+
+
+
+{\displaystyle \int \mathbf {J} \cdot d\mathbf {A} =\oint \mathbf {H} \cdot d\mathbf {l} }
+
+which says that the integral of the magnetizing field H around any closed loop of the field is equal to the sum of the current flowing through the loop. Another equation used, that gives the magnetic field due to each small segment of current, is the Biot–Savart law. Computing the magnetic field and force exerted by ferromagnetic materials is difficult for two reasons. First, because the strength of the field varies from point to point in a complicated way, particularly outside the core and in air gaps, where fringing fields and leakage flux must be considered. Second, because the magnetic field B and force are nonlinear functions of the current, depending on the nonlinear relation between B and H for the particular core material used. For precise calculations, computer programs that can produce a model of the magnetic field using the finite element method are employed.

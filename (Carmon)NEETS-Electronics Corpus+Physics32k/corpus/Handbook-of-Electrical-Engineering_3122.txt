@@ -1,0 +1,17 @@
+To eliminate high base current requirements, Darlington con-
+ﬁgurations are commonly used. They are available in monolithic
+or  in  isolated  packages.  The  basic  Darlington  conﬁguration  is
+shown schematically in Fig. 30.4. The Darlington conﬁguration
+presents a speciﬁc advantage in that it can considerably increase
+the current switched by the transistor for a given base drive. The
+V
+ for the Darlington is generally more than that of a single
+transistor of similar rating with corresponding increase in on-
+state power loss. During switching, the reverse-biased collector
+junction may show hot spot breakdown effects that are speciﬁed
+by  reverse-bias  safe  operating  area  (RBSOA)  and  forward  bias
+safe operating area (FBSOA). Modern devices with highly inter-
+digited emitter base geometry force more uniform current dis-
+tribution and therefore considerably improve second breakdown
+effects.  Normally,  a  well-designed  switching  aid  network  con-
+strains the device operation well within the SOAs.

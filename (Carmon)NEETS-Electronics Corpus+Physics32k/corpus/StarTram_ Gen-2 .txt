@@ -1,0 +1,134 @@
+Gen-2 introduces particular extra challenge with its elevated launch tube, levitating both the vehicle and part of the tube (unlike Gen-1 and Gen-1.5 which only levitate the vehicle). As of 2010 operating maglev systems levitate the train by approximately 15 millimeters (0.59 in). For the Gen-2 version of the StarTram, it is necessary to levitate the track over up to 22 kilometres (14 mi), a distance greater by a factor of 1.5 million.
+The force between two conducting lines is given by
+
+
+
+F
+=
+(
+μ
+
+I
+
+1
+
+
+
+I
+
+2
+
+
+l
+)
+
+/
+
+(
+2
+π
+r
+)
+
+
+{\displaystyle F=(\mu I_{1}I_{2}l)/(2\pi r)}
+, (Ampère's force law). Here F is the force,
+
+
+
+μ
+=
+
+μ
+
+0
+
+
+
+μ
+
+r
+
+
+
+
+{\displaystyle \mu =\mu _{0}\mu _{r}}
+the permeability,
+
+
+
+
+I
+
+1
+
+
+,
+
+I
+
+2
+
+
+
+
+{\displaystyle I_{1},I_{2}}
+the electric currents,
+
+
+
+l
+
+
+{\displaystyle l}
+the length of the lines and
+
+
+
+r
+
+
+{\displaystyle r}
+their distance. To exert 4,000 kg/m (8,100 lb/yd) over a distance of 20 kilometres (12 mi) in air (
+
+
+
+
+μ
+
+r
+
+
+
+
+{\displaystyle \mu _{r}}
+≈ 1) ground
+
+
+
+
+I
+
+1
+
+
+
+
+{\displaystyle I_{1}}
+≈ 280 x 106A is needed if levitated
+
+
+
+
+I
+
+2
+
+
+
+
+{\displaystyle I_{2}}
+≈ 14 x 106A. For comparison, in lightning the maximal current is about 105A, c.f. properties of lightning, though resistive power dissipation involved in a current flowing through a conductor is proportional to the voltage drop, high for a lightning discharge of millions of volts in air but ideally zero for a zero-resistance superconductor.
+While the performance of niobium-titanium superconductor is technically sufficient (a critical current density of 5 x 105 A/cm2 under the relevant magnetic field conditions for the levitated platform, 40% of that in practice after a safety factor), uncertainties on economics include a far more optimistic assumption for Gen-2 of $0.2 per kA-meter of superconductor compared to the $2 per kA-meter assumed for Gen-1 (where Gen-1 doesn't have any of its launch tube levitated but uses superconducting cable for a large SMES and within the maglev craft launched). NbTi was the design choice under the available economies of scale for cooling, since it presently costs $1 per kA-meter, while high temperature superconductors so far still cost much more for the conductor itself per kA-meter.
+If considering a design with an acceleration up to 10 g (which is higher than the re-entry acceleration of Apollo 16) then the whole track must be at least 326 kilometres (203 mi) long for a passenger version of the Gen-2 system. Such length allows use of the approximation for an infinite line to calculate the force. The preceding neglects how only the final portion of the track is levitated, but a more complex calculation only changes the result for force per unit length of it by 10-20% (fgl = 0.8 to 0.9 instead of 1).
+The researchers themselves do not consider there to be any doubt whether the levitation would work in terms of force exerted (a consequence of Ampère's force law) but see the primary challenge as the practical engineering complexities of erection of the tube, while a substantial portion of engineering analysis focused on handling bending caused by wind. The active structure is calculated to bend by a fraction of a meter per kilometer under wind in the very thin air at its high altitude, a slight curvature theoretically handled by guidance loops, with net levitation force beyond structure weight exceeding wind force by a factor of 200+ to keep tethers taut, and with the help of computer-controlled control tethers.

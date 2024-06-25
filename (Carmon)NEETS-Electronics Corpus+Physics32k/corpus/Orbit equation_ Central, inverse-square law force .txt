@@ -1,0 +1,420 @@
+Consider a two-body system consisting of a central body of mass M and a much smaller, orbiting body of mass m, and suppose the two bodies interact via a central, inverse-square law force (such as gravitation). In polar coordinates, the orbit equation can be written as
+
+
+
+
+r
+=
+
+
+
+ℓ
+
+2
+
+
+
+
+m
+
+2
+
+
+γ
+
+
+
+
+
+1
+
+1
++
+e
+cos
+⁡
+θ
+
+
+
+
+
+{\displaystyle r={\frac {\ell ^{2}}{m^{2}\gamma }}{\frac {1}{1+e\cos \theta }}}
+
+where
+
+
+
+r
+
+
+{\displaystyle r}
+is the separation distance between the two bodies and
+
+
+
+θ
+
+
+{\displaystyle \theta }
+is the angle that
+
+
+
+
+r
+
+
+
+{\displaystyle \mathbf {r} }
+makes with the axis of periapsis (also called the true anomaly). The parameter
+
+
+
+ℓ
+
+
+{\displaystyle \ell }
+is the angular momentum of the orbiting body about the central body, and is equal to
+
+
+
+m
+
+r
+
+2
+
+
+
+
+
+θ
+˙
+
+
+
+
+
+{\displaystyle mr^{2}{\dot {\theta }}}
+. The parameter
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+is the constant for which
+
+
+
+γ
+
+/
+
+
+r
+
+2
+
+
+
+
+{\displaystyle \gamma /r^{2}}
+equals the acceleration of the smaller body (for gravitation,
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+is the standard gravitational parameter,
+
+
+
+G
+M
+
+
+{\displaystyle GM}
+). For a given orbit, the larger
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+, the faster the orbiting body moves in it: twice as fast if the attraction is four times as strong. The parameter
+
+
+
+e
+
+
+{\displaystyle e}
+is the eccentricity of the orbit, and is given by
+
+
+
+
+e
+=
+
+
+1
++
+
+
+
+2
+E
+
+ℓ
+
+2
+
+
+
+
+
+m
+
+3
+
+
+
+γ
+
+2
+
+
+
+
+
+
+
+
+
+{\displaystyle e={\sqrt {1+{\frac {2E\ell ^{2}}{m^{3}\gamma ^{2}}}}}}
+
+where
+
+
+
+E
+
+
+{\displaystyle E}
+is the energy of the orbit.
+The above relation between
+
+
+
+r
+
+
+{\displaystyle r}
+and
+
+
+
+θ
+
+
+{\displaystyle \theta }
+describes a conic section. The value of
+
+
+
+e
+
+
+{\displaystyle e}
+controls what kind of conic section the orbit is. When
+
+
+
+e
+<
+1
+
+
+{\displaystyle e<1}
+, the orbit is elliptic; when
+
+
+
+e
+=
+1
+
+
+{\displaystyle e=1}
+, the orbit is parabolic; and when
+
+
+
+e
+>
+1
+
+
+{\displaystyle e>1}
+, the orbit is hyperbolic.
+The minimum value of r in the equation is
+
+
+
+
+r
+=
+
+
+
+
+ℓ
+
+2
+
+
+
+
+
+m
+
+2
+
+
+γ
+
+
+
+
+
+
+1
+
+
+1
++
+e
+
+
+
+
+
+{\displaystyle r={{\ell ^{2}} \over {m^{2}\gamma }}{{1} \over {1+e}}}
+
+while, if
+
+
+
+e
+<
+1
+
+
+{\displaystyle e<1}
+, the maximum value is
+
+
+
+
+r
+=
+
+
+
+
+ℓ
+
+2
+
+
+
+
+
+m
+
+2
+
+
+γ
+
+
+
+
+
+
+1
+
+
+1
+−
+e
+
+
+
+
+
+{\displaystyle r={{\ell ^{2}} \over {m^{2}\gamma }}{{1} \over {1-e}}}
+
+If the maximum is less than the radius of the central body, then the conic section is an ellipse which is fully inside the central body and no part of it is a possible trajectory. If the maximum is more, but the minimum is less than the radius, part of the trajectory is possible:
+if the energy is non-negative (parabolic or hyperbolic orbit): the motion is either away from the central body, or towards it.
+if the energy is negative: the motion can be first away from the central body, up to
+
+
+
+
+r
+=
+
+
+
+
+ℓ
+
+2
+
+
+
+
+
+m
+
+2
+
+
+γ
+
+
+
+
+
+
+1
+
+
+1
+−
+e
+
+
+
+
+
+{\displaystyle r={{\ell ^{2}} \over {m^{2}\gamma }}{{1} \over {1-e}}}
+
+after which the object falls back.
+If
+
+
+
+r
+
+
+{\displaystyle r}
+becomes such that the orbiting body enters an atmosphere, then the standard assumptions no longer apply, as in atmospheric reentry.

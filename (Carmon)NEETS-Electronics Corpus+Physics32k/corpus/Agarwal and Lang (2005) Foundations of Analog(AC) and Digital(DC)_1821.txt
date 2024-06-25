@@ -1,0 +1,11 @@
+First, we replace each capacitor by an independent voltage source having
+a voltage equal to the corresponding capacitor state. Additionally, we replace
+each inductor by an independent current source having a current equal to the
+corresponding inductor state. Second, we analyze the new circuit, which now
+contains only sources and resistors, to find the capacitor currents and inductor
+voltages. This analysis may be carried out using the node method developed
+in Chapter 3. It results in expressions that depend on the independent sources
+within the new circuit, namely the original independent sources and the sources
+representing the circuit states. Finally, we substitute the expressions for the
+capacitor currents and inductor voltages into equations of the form of Equations
+12.249 and 12.250. This yields the desired state equations.

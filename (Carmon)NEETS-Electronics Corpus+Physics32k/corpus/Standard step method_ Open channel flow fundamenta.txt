@@ -1,0 +1,82 @@
+The energy equation used for open channel flow computations is a simplification of the Bernoulli Equation (See Bernoulli Principle), which takes into account pressure head, elevation head, and velocity head. (Note, energy and head are synonymous in Fluid Dynamics. See Pressure head for more details.) In open channels, it is assumed that changes in atmospheric pressure are negligible, therefore the “pressure head” term used in Bernoulli’s Equation is eliminated. The resulting energy equation is shown below:
+
+
+
+
+H
+=
+z
++
+y
++
+
+
+
+v
+
+2
+
+
+
+2
+g
+
+
+
+
+
+{\displaystyle H=z+y+{\frac {v^{2}}{2g}}}
+Equation 1
+For a given flow rate and channel geometry, there is a relationship between flow depth and total energy. This is illustrated below in the plot of energy vs. flow depth, widely known as an E-y diagram. In this plot, the depth where the minimum energy occurs is known as the critical depth. Consequently, this depth corresponds to a Froude Number
+
+
+
+(
+
+F
+
+n
+
+
+)
+
+
+{\displaystyle (F_{n})}
+of 1. Depths greater than critical depth are considered “subcritical” and have a Froude Number less than 1, while depths less than critical depth are considered supercritical and have Froude Numbers greater than 1. (For more information, see Dimensionless Specific Energy Diagrams for Open Channel Flow.)
+
+
+
+
+
+F
+
+n
+
+
+=
+
+
+v
+
+(
+g
+
+
+A
+B
+
+
+
+)
+
+0.5
+
+
+
+
+
+
+
+{\displaystyle F_{n}={\frac {v}{(g{\frac {A}{B}})^{0.5}}}}
+Equation 2
+Under steady state flow conditions (e.g. no flood wave), open channel flow can be subdivided into three types of flow: uniform flow, gradually varying flow, and rapidly varying flow. Uniform flow describes a situation where flow depth does not change with distance along the channel. This can only occur in a smooth channel that does not experience any changes in flow, channel geometry, roughness or channel slope. During uniform flow, the flow depth is known as normal depth (yn). This depth is analogous to the terminal velocity of an object in free fall, where gravity and frictional forces are in balance (Moglen, 2013). Typically, this depth is calculated using the Manning formula. Gradually varied flow occurs when the change in flow depth per change in flow distance is very small. In this case, hydrostatic relationships developed for uniform flow still apply. Examples of this include the backwater behind an in-stream structure (e.g. dam, sluice gate, weir, etc.), when there is a constriction in the channel, and when there is a minor change in channel slope. Rapidly varied flow occurs when the change in flow depth per change in flow distance is significant. In this case, hydrostatics relationships are not appropriate for analytical solutions, and continuity of momentum must be employed. Examples of this include large changes in slope like a spillway, abrupt constriction/expansion of flow, or a hydraulic jump.

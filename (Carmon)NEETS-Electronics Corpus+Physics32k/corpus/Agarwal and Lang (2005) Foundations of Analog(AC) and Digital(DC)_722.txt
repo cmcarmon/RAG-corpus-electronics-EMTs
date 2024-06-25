@@ -1,0 +1,15 @@
+When designing logic devices, we are often interested in maximizing the
+noise margins to achieve maximum noise immunity. Referring to Figure 5.8,
+the 0 noise margin, NM0 = VIL − VOL, can be maximized by maximizing
+VIL and minimizing VOL. Similarly, the 1 noise margin, NM1 = VOH − VIH,
+can be maximized by maximizing VOH and minimizing VIH. As we will see in
+Chapter 6, the maximum noise margins for devices are limited by the device
+characteristics or by considerations of symmetry between the low and high
+noise margins.
+e x a m p l e 5.1 o b s e r v i n g a s t a t i c d i s c i p l i n e The device
+company Yehaa Microelectronics, Inc. has developed a new process technology that is
+able to produce large quantities of a certain type of digital device known as an adder at
+a very low cost. For a logical 0, their adders produce a voltage level of 0.5 V at their
+outputs. Similarly, when outputting a logical 1, their adders produce the voltage level of
+4.5 V. Furthermore, the Yehaa adders are able to interpret all signals between 0 V and
+2 V at their inputs as a logical 0, and all signals between 3 V and 5 V as a logical 1.

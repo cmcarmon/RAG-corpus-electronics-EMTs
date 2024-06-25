@@ -1,0 +1,4 @@
+The  constraint  on  clock  timing  is  a  bound  on  clock  skew,  not  a  requirement  for  zero  clock  skew.  In
+Fig. 25.35(c), the clock network uses multiple buffers but allows different path lengths consistent with clock
+skew  margins.  For  tight  margins,  an  H-tree  can  be  used  to  deliver  clock  pulses  to  local  regions  in  which
+distribution proceeds using a different buffered network approach such as that in Fig. 25.35(c).

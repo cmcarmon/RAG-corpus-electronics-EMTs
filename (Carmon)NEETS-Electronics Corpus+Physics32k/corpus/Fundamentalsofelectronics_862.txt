@@ -1,0 +1,7 @@
+Shannon’s Source Coding Theorem states that symbolic-valued signals require on the average at least
+H (A) number of bits to represent each of its values, which are symbols drawn from the alphabet A. In the
+Section 6.21, we found that using a so-called ﬁxed rate source coder, one that produces a ﬁxed number of
+bits/symbol, may not be the most eﬃcient way of encoding symbols into bits. What is not discussed there is
+a procedure for designing an eﬃcient source coder: one guaranteed to produce the fewest bits/symbol on
+the average. That source coder is not unique, and one approach that does achieve that limit is the Huﬀman
+source coding algorithm.

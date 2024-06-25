@@ -1,0 +1,8 @@
+Although  we  have  focused  attention  on  the  design  of  frequency-selective  ﬁlters,  other  types  of  FIR  ﬁlters
+exist.  For  example,  the  Parks-McClellan  program  will  also  design  linear-phase  FIR  ﬁlters  for  differentiating
+broadband signals and for approximating the Hilbert transform of such signals. A simple modiﬁcation to this
+program  permits  arbitrary  magnitude  responses  to  be  approximated  with  linear-phase  ﬁlters.  Other  design
+techniques are available that permit the design of FIR ﬁlters which approximate an arbitrary complex response
+[Parks and Burrus, 1987; Chen and Parks, 1987], and, in cases where a nonlinear phase response is acceptable,
+design techniques are available that give a shorter impulse response length than would be required by a linear-
+phase design [Goldberg et al., 1981].

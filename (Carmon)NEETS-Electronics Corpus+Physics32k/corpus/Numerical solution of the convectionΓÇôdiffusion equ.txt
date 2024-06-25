@@ -1,0 +1,21 @@
+In implicit scheme, the temperature is dependent at the new time level
+
+
+
+t
++
+Δ
+t
+
+
+{\displaystyle t+\Delta t}
+. After using implicit scheme, it was found that all coefficients are positive. It makes the implicit scheme unconditionally stable for any size of time step. This scheme is preferred for general purpose transient calculations because of its robustness and unconditional stability. The disadvantage of this method is that more procedures are involved and due to larger
+
+
+
+Δ
+t
+
+
+{\displaystyle \Delta t}
+, truncation error is also larger.

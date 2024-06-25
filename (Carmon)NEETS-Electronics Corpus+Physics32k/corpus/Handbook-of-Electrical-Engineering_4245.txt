@@ -1,0 +1,11 @@
+Radar Waveforms
+Pulse Compression
+Typical pulse radar waveforms are summarized in Table 41.6. In most cases, the signal processor is designed
+to closely approximate a matched ﬁlter. As indicated in Table 41.5, the range and Doppler resolution of any
+match-ﬁltered  waveform  are  inversely  proportional  to  the  waveform  bandwidth  and  duration,  respectively.
+Pulse compression, using modulated waveforms, is attractive since S/N is proportional to pulse duration rather
+than  bandwidth  in  matched  ﬁlter  implementations.  Ideally,  the  intrapulse  modulation  is  chosen  to  attain
+adequate range resolution and range sidelobe suppression performance while the pulse duration is chosen to
+provide the required sensitivity. Pulse compression waveforms are characterized as having a time bandwidth
+product  (TBP)  signiﬁcantly  greater  than  unity,  in  contrast  to  an  unmodulated  pulse,  which  has  a  TBP  of
+approximately unity.

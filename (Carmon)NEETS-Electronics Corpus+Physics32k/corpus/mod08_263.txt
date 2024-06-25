@@ -1,0 +1,8 @@
+Figure 2-19 is the schematic diagram of a typical rf amplifier that is used in an AM radio receiver. In
+figure 2-19, the input circuit is the antenna of the radio (L1-a coil) which forms part of an LC circuit
+which is tuned to the desired station by variable capacitor C1. L1 is wound on the same core as L2, which
+couples the input signal through C2 to the transistor (Q1). R1 is used to provide proper bias to Q1 from
+the base power supply (VBB). R2 provides proper bias to the emitter of Q1, and C3 is used to bypass R2.
+The primary of T1 and capacitor C4 form a parallel LC circuit which acts as the load for Q1. This LC
+circuit is tuned by C4, which is ganged to C1 allowing the antenna and the LC circuit to be tuned
+together. The primary of T1 is center-tapped to provide proper impedance matching with Q1.

@@ -1,0 +1,18 @@
+RNS may reduce power dissipation because it reduces the
+hardware cost, the switching activity, and the supply voltage
+(Freking and Parhi, 1997). By employing binary-like RNS ﬁlter
+structures (Ibrahim, 1994), it has been reported that RNS
+reduces the bit activity up to 38% in (4  4)-bit multipliers.
+As the critical path in an RNS architecture increases logarith-
+mically with the equivalent binary word length, RNS can
+tolerate a larger reduction in the supply voltage than the
+corresponding binary architecture while achieving a particu-
+lar delay speciﬁcation. To demonstrate the overall impact of
+the RNS on the power budget of an FIR ﬁlter, Freking and
+Parhi (1997) report that a ﬁlter unit with 16-bit coefﬁcients
+and 32-bit dynamic range, operating at 50 MHz, dissipates
+26.2 mW on average for a two’s complement implementation,
+while the RNS equivalent architecture dissipates 3.8 mW.
+Hence, power dissipation reduction becomes more signiﬁcant
+as the number of ﬁlter taps increases, and a 3-fold reduction is
+possible for ﬁlters with more than 100 taps.

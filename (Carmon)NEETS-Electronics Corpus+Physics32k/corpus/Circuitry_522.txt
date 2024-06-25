@@ -1,0 +1,56 @@
+operation whilst as a destination register it will be 
+used to hold the result of a particular operation. The 
+accumulator (or A-register) features in a very large 
+number of microprocessor operations, consequently 
+more  reference  is  made  to  this  register  than  any 
+others. 
+ 
+Instruction register 
+ 
+temporary 
+The  instruction  register  provides  a 
+storage 
+current 
+the 
+microprocessor instruction is held whilst it is being 
+decoded.  Program  instructions  are  passed  into  the 
+microprocessor, one at time, through the data bus.   
+  On  the  first  part  of  each  machine  cycle, the 
+instruction is fetched and decoded. The instruction 
+is  executed  on 
+the  second  (and  subsequent) 
+machine cycles. Each  machine cycle takes a finite 
+time  (usually  less  than  a  microsecond)  depending 
+upon the frequency of the microprocessor’s clock. 
+ 
+Data bus (D0 to D7) 
+ 
+The external data bus provides a highway for data 
+that  links  all  of  the  system  components  (such  as 
+random  access  memory,  read-only  memory,  and 
+input/output  devices)  together.  In  an  8-bit  system, 
+the  data  bus  has  eight  data  lines,  labelled  D0  (the 
+least  significant  bit) to  D7  (the  most  significant 
+bit) and  data  is  moved  around  in  groups  of  eight 
+bits, or bytes. With a sixteen bit data bus the data 
+lines are labelled D0 to D15, and so on. 
+ 
+Data bus buffer 
+ 
+The data bus buffer is a temporary register through 
+which bytes of data pass on their way into, and out 
+of, the  microprocessor. The buffer is  thus referred 
+to  as  bi-directional  with  data  passing  out  of  the 
+microprocessor  on  a write operation  and  into  the 
+processor  during  a  read  operation. The  direction 
+of data transfer is determined by the control unit as 
+it responds to each individual program instruction. 
+ 
+Internal data bus 
+ 
+The internal data bus is a high-speed data highway 
+that  links  all  of  the  microprocessor’s  internal 
+elements  together.  Data 
+is  constantly  flowing 
+backwards and forwards along the internal data bus 
+lines. 

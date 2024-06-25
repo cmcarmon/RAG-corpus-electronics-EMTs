@@ -1,0 +1,12 @@
+In statistical mechanics, the statistical weight is the relative probability (possibly unnormalized) of a particular feature of a state. If the energy associated with the feature is ΔE, the statistical weight is given by the Boltzmann factor e−ΔE/kT, where k is the Boltzmann constant and T is the temperature in kelvins.
+The statistical weight is a convenient shorthand that is often used in transfer matrix solutions of problems in statistical mechanics.
+In statistical mechanics, we always seek the number of microstates corresponding to a given macrostate ( N, V, U). it is called the thermodynamic probability or the Statistical Weight of the macrostate and is denoted by W( N, V, U). This variable is related to the thermodynamic variable entropy S . You will observe that the relation between the entropy S and the thermodynamic probability W forms the basis of entire statistical analysis.
+Derivation of Relation between entropy and thermodynamic probability .
+We now search for a microscopic explanation for S in terms of . We start from the TdS equation
+T dS = dU + P dV �dN .....(1)
+So,
+S =� f (E; V;N) .....(2)
+Also
+� W = g(E; V;N) ......(3)
+Note : In adiabatic changes, for example, volume increase with no heat added (dQ = 0). dS = 0 i.e. S is constant.Also dnj = 0 so W is also constant .
+During irreversible changes, the total S in the Universe increases. The total W of the Universe also increases because the equilibrium macrostate must be the maximum W.

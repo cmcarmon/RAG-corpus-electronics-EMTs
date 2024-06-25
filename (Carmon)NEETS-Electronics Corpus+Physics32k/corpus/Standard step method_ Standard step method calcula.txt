@@ -1,0 +1,62 @@
+The STM numerically solves equation 3 through an iterative process. This can be done using the bisection or Newton-Raphson Method, and is essentially solving for total head at a specified location using equations 4 and 5 by varying depth at the specified location.
+
+
+
+
+
+H
+
+2
+
+
+=
+
+H
+
+1
+
+
+−
+
+h
+
+f
+
+
+
+
+{\displaystyle H_{2}=H_{1}-h_{f}}
+Equation 4
+
+
+
+
+
+H
+
+2
+
+
+=
+
+h
+
+v
+e
+l
+
+
++
+
+h
+
+e
+l
+e
+
+
+
+
+{\displaystyle H_{2}=h_{vel}+h_{ele}}
+Equation 5
+In order to use this technique, it is important to note you must have some understanding of the system you are modeling. For each gradually varied flow transition, you must know both boundary conditions and you must also calculate length of that transition. (e.g. For an M1 Profile, you must find the rise at the downstream boundary condition, the normal depth at the upstream boundary condition, and also the length of the transition.) To find the length of the gradually varied flow transitions, iterate the “step length”, instead of height, at the boundary condition height until equations 4 and 5 agree. (e.g. For an M1 Profile, position 1 would be the downstream condition and you would solve for position two where the height is equal to normal depth.)

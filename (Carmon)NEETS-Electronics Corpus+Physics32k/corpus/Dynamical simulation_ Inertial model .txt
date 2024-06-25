@@ -1,0 +1,92 @@
+Bodies in the real world deform as forces are applied to them, so we call them “soft,” but often the deformation is negligibly small compared to the motion, and it is very complicated to model, so most physics engines ignore deformation. A body that is assumed to be non-deformable is called a rigid body. Rigid body dynamics deals with the motion of objects that cannot change shape, size, or mass but can change orientation and position.
+To account for rotational energy and momentum, we must describe how force is applied to the object using a moment, and account for the mass distribution of the object using an inertia tensor. We describe these complex interactions with an equation somewhat similar to the definition of force above:
+
+
+
+
+
+
+
+
+d
+
+(
+
+I
+
+
+ω
+
+)
+
+
+
+d
+
+t
+
+
+
+=
+
+∑
+
+j
+=
+1
+
+
+N
+
+
+
+τ
+
+j
+
+
+
+
+{\displaystyle {\frac {\mathrm {d} (\mathbf {I} {\boldsymbol {\omega }})}{\mathrm {d} t}}=\sum _{j=1}^{N}\tau _{j}}
+
+where
+
+
+
+
+I
+
+
+
+{\displaystyle \mathbf {I} }
+is the central inertia tensor,
+
+
+
+
+
+
+ω
+→
+
+
+
+
+
+{\displaystyle {\vec {\omega }}}
+is the angular velocity vector, and
+
+
+
+
+τ
+
+j
+
+
+
+
+{\displaystyle \tau _{j}}
+is the moment of the jth external force about the mass center.
+The inertia tensor describes the location of each particle of mass in a given object in relation to the object's center of mass. This allows us to determine how an object will rotate dependent on the forces applied to it. This angular motion is quantified by the angular velocity vector.
+As long as we stay below relativistic speeds (see Relativistic dynamics), this model will accurately simulate all relevant behavior. This method requires the Physics engine to solve six ordinary differential equations at every instant we want to render, which is a simple task for modern computers.

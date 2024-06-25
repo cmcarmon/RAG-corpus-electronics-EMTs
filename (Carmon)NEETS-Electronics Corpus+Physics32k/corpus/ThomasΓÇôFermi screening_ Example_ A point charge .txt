@@ -1,0 +1,54 @@
+If a point charge Q is placed at r=0 in a solid, what field will it produce, taking electron screening into account?
+One seeks a self-consistent solution to two equations:
+The Thomas–Fermi screening formula gives the charge density at each point r as a function of the potential
+
+
+
+ϕ
+(
+
+r
+
+)
+
+
+{\displaystyle \phi (\mathbf {r} )}
+at that point.
+The Poisson equation (derived from Gauss's law) relates the second derivative of the potential to the charge density.
+For the nonlinear Thomas-Fermi formula, solving these simultaneously can be difficult, and usually there is no analytical solution. However, the linearized formula has a simple solution:
+
+
+
+
+ϕ
+(
+
+r
+
+)
+=
+
+
+Q
+r
+
+
+
+e
+
+−
+
+k
+
+0
+
+
+r
+
+
+
+
+{\displaystyle \phi (\mathbf {r} )={\frac {Q}{r}}e^{-k_{0}r}}
+(cgs-Gaussian)
+With k0=0 (no screening), this becomes the familiar Coulomb's law.
+Note that there may be dielectric permittivity in addition to the screening discussed here; for example due to the polarization of immobile core electrons. In that case, replace Q by Q/ε, where ε is the relative permittivity due to these other contributions.

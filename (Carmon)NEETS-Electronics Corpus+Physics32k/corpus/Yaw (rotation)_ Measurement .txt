@@ -1,0 +1,6 @@
+Yaw velocity can be measured by measuring the ground velocity at two geometrically separated points on the body, or by a gyroscope, or it can be synthesized from accelerometers and the like. It is the primary measure of how drivers sense a car's turning visually.
+
+It is important in electronic stabilized vehicles. The yaw rate is directly related to the lateral acceleration of the vehicle turning at constant speed around a constant radius, by the relationship
+tangential speed*yaw velocity = lateral acceleration = tangential speed^2/radius of turn, in appropriate units
+The sign convention can be established by rigorous attention to coordinate systems.
+In a more general manoeuvre where the radius is varying, and/or the speed is varying, the above relationship no longer holds.

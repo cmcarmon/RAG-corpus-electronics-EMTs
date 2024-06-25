@@ -1,0 +1,9 @@
+With the development of partially reconﬁgurable FPGAs, it
+is possible to reduce the overhead of reconﬁguration: the
+smaller the circuit to be conﬁgured, the shorter time it takes.
+Existing components are replaced by new ones at run time by
+partially reconﬁguring the appropriate parts of the FPGA,
+while the rest of the FPGA continues to operate. The same
+principle applies to systems containing multiple FPGAs; com-
+putation and conﬁguration can take place concurrently in
+different devices.

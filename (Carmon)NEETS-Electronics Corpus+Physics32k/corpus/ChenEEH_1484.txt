@@ -1,0 +1,18 @@
+With multiprocessors and computer networks in the early
+1980s, operating systems began to manage the resources of
+multiple computers at once. Two early examples are the StarOS
+and Medusa operating systems for the CM* (pronounced ‘‘CM
+star’’) machine, a multicomputer consisting of several dozen
+individual computers linked by a special network (Jones et al.,
+1979; Ousterhout et al., 1980). Established, single-machine
+operating systems, such as UNIX and DEC’S VMS, evolved
+to accommodate networks of computers. Such operating
+systems typically support standards for accessing ﬁles on
+remote servers from any machine in a network. SUN’s Net-
+work File System (NFS) was one of the ﬁrst widely available
+UNIX-based ﬁle systems that provided a single ﬁlename space
+on top of a network of servers and workstations (Sandberg
+et al., 1985). Carnegie-Mellon’s Andrew system provides a
+UNIX-based network ﬁle system that spans more than 5,000
+computers around the campus; it allows users to access ﬁles
+without having to know their locations, and it improves per-

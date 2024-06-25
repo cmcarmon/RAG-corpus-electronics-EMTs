@@ -1,0 +1,89 @@
+The two equations that describe the deformation of a Timoshenko beam have to be augmented with boundary conditions if they are to be solved. Four boundary conditions are needed for the problem to be well-posed. Typical boundary conditions are:
+Simply supported beams: The displacement
+
+
+
+w
+
+
+{\displaystyle w}
+is zero at the locations of the two supports. The bending moment
+
+
+
+
+M
+
+x
+x
+
+
+
+
+{\displaystyle M_{xx}}
+applied to the beam also has to be specified. The rotation
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+and the transverse shear force
+
+
+
+
+Q
+
+x
+
+
+
+
+{\displaystyle Q_{x}}
+are not specified.
+Clamped beams: The displacement
+
+
+
+w
+
+
+{\displaystyle w}
+and the rotation
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+are specified to be zero at the clamped end. If one end is free, shear force
+
+
+
+
+Q
+
+x
+
+
+
+
+{\displaystyle Q_{x}}
+and bending moment
+
+
+
+
+M
+
+x
+x
+
+
+
+
+{\displaystyle M_{xx}}
+have to be specified at that end.

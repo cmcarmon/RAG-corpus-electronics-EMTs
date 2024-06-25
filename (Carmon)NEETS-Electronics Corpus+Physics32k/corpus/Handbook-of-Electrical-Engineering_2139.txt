@@ -1,0 +1,6 @@
+When one adds one layer to the perceptron creating a one hidden layer MLP, the type of separation surfaces
+changes drastically. It can be shown that this learning machine is able to create “bumps” in the input space,
+i.e., an area of high response surrounded by low responses [Zurada, 1992]. The function of each PE is always
+the same, no matter if the PE is part of a perceptron or an MLP. However, notice that the output layer in the
+MLP works with the result of hidden layer activations, creating an embedding of functions and producing more
+complex separation surfaces. The one-hidden-layer MLP is able to produce 

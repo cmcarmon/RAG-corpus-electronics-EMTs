@@ -1,0 +1,10 @@
+To remove these shortcomings, the enhanced Internet ser-
+vice models use admission control, bandwidth reservations,
+and trafﬁc policing mechanisms. The application must ﬁrst
+get permission from some authority to send trafﬁc at a given
+rate and with some given trafﬁc characteristics. If the authority
+accepts admission, it will reserve appropriate resources (band-
+width and buffers) along the path for the application to send
+data at the requested rate. Trafﬁc policing mechanisms are
+used to ensure that applications do not send at a rate higher
+than what was initially negotiated.

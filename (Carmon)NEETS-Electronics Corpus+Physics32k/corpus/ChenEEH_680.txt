@@ -1,0 +1,12 @@
+Synchronous DRAMs (SDRAM) can have a larger pipeline
+that provides a huge theoretical bandwidth. Basically, the
+internal state machine enables to enlarge the pipeline. An
+SDRAM can sustain this high throughput rate by data access
+interleaving over several banks. However, the address needs to
+be known several cycles prior to when the data are actually
+needed. Otherwise the data path will stall, canceling the
+advantage of the pipelined memory. As already mentioned,
+modern stand-alone DRAM chips, which are often of this
+SDRAM type, also offer low-power solutions, but this comes
+at a price. Internally they contain banks and a small cache with
+a (very) wide width connected to the external high-speed bus

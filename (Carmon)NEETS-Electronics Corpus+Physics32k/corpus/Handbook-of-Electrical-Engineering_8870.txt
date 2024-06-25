@@ -1,0 +1,5 @@
+Write operations require special handling in the cache. If the main memory copy is updated with each write
+—the writes may force operations to stall while
+operation—a technique known as 
+the write operations are completing. This can happen after a series of write operations even if the processor is
+allowed to proceed before the write to the memory has completed. If the main memory copy is not updated

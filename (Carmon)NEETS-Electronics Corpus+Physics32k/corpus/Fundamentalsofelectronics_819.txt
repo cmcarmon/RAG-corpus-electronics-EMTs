@@ -1,0 +1,5 @@
+The choice of signals to represent bit values is arbitrary to some degree. Clearly, we do not want to
+choose signal set members to be the same; we couldn’t distinguish bits if we did so. We could also have
+made the negative-amplitude pulse represent a 0 and the positive one a 1. This choice is indeed arbitrary
+and will have no eﬀect on performance assuming the receiver knows which signal represents which bit. As
+in all communication systems, we design transmitter and receiver together.

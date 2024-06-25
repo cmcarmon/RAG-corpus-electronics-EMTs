@@ -1,0 +1,12 @@
+Now, let us find the Norton equivalent circuit for Network A. Referring to Figure 3.94,
+the short-circuit current isc is V/R1. Therefore, the Norton equivalent network is as
+shown on the right-hand side of Figure 3.93.
+The v i curve of the circuit must pass through points (voc, 0) and (0,−isc), as
+shown in Figure 3.95.
+Let us now analyze Network B. Turning off the current source results in the circuit
+shown in Figure 3.92, which yields R1R2/(R1 + R2) as the equivalent resistance for both
+the Thévenin and Norton equivalent networks. The open-circuit voltage is IR1(cid:2)R2.
+Thus, voc = R1R2I/(R1 + R2). As illustrated in Figure 3.96, all of the current will flow
+through the branch with zero resistance, that is isc = I.
+The equivalent networks are shown in Figure 3.97, and the v i characteristics are
+shown in Figure 3.98.

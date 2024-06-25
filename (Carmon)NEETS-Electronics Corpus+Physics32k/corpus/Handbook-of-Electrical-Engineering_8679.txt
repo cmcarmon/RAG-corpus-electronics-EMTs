@@ -1,0 +1,9 @@
+High-Level Language and Assembly Language Relations
+In comparing the various assembly languages from the compiler-generated code, we have not presented a full
+vocabulary of assembly languages or the minutiae of the underlying machines. Exploring only the code generated
+by  the  compilers  may  lead  one  to  believe  that  all  assembly  languages  and  processor  architectures  are  pretty
+much the same. This is not really the case. What we have shown is that compilers typically use the same assembly
+language instructions regardless of the underlying machines. The compiler writer’s motivation for this apparent
+similarity is not because all architectures are the same, but because it is difﬁcult—arguably even nonproduc-
+tive—for  the  compiler  to  take  advantage  of  the  complex  features  which  some  CPU  architectures  offer.  An
+argument may be made that compilers generate the best code by developing code rather independently of the

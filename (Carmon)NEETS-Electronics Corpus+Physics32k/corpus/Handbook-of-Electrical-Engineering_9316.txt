@@ -1,0 +1,6 @@
+Almost all programming languages support  functional abstraction by providing facilities for the deﬁnition
+of subprograms. The deﬁnition of a subprogram (procedure or function) associates a possibly complex sequence
+of  instructions  with  an  identiﬁer  and  (usually)  a  list  of  parameters.  The  instruction  sequence  may  then  be
+performed by referring to its associated identiﬁer and providing the required parameters. We could, for example,
+deﬁne  a  procedure  ﬁndRecord  that  searches  a  given  list  of  records  for  a  record  with  a  given  key,  e.g.,  an
+identiﬁcation number. We could then use the statement

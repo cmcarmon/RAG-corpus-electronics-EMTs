@@ -1,0 +1,9 @@
+c.  The VAX compiler takes a totally different approach—a rather poor one, actually. It leaves not only
+the byte in memory but even the pointer to the byte. Thus, every time it wants to refer to the byte—and
+it does so numerous times—it must ﬁrst fetch the address from memory and then fetch the byte itself.
+This double memory reference is what @4(ap) means: “At the address you will ﬁnd at address 4(ap).”
+The only thing that makes all this apparent coming and going even remotely acceptable is that the
+VAX will cache (place in a fast local memory) both the address and the character the ﬁrst time that
+it gets them. Then, it can refer to them rapidly again. Cache references, however, are not as fast as
+register references.
+2.  Testing the character:

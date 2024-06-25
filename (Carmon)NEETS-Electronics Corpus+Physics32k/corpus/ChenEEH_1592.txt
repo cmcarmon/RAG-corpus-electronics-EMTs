@@ -1,0 +1,16 @@
+To perform backward-chaining reasoning, the top-level goal,
+p(X), is placed in the working memory as shown in Figure
+5.3(A), where X is a variable that can match with any object.
+The conclusions of three rules (rules 2, 3, and 4) match with
+the expression in the working memory. If we solve conﬂicts in
+favor of the lower-numbered rule, then rule 2 will be selected
+and ﬁre. This causes X to be bound to s1 and the two premises
+of rule 2 to be placed in the working memory as in Figure
+5.3(B). Then, since the conclusion of rule 1 matches with a fact
+in the working memory, we then ﬁre rule 1 and place its
+promises in the working memory as in Figure 5.3(C). At this
+point, there are three entries in the working memory (a, b, d)
+that do not match with any rule conclusion. The expert system
+will query the user directly about these subgoals. If the user
+conﬁrms them as true, the expert system will have successfully
+determined the causes for the top-level goal p(X).

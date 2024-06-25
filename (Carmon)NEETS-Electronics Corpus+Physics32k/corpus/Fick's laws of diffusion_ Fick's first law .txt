@@ -1,0 +1,136 @@
+Fick's first law relates the diffusive flux to the concentration under the assumption of steady state. It postulates that the flux goes from regions of high concentration to regions of low concentration, with a magnitude that is proportional to the concentration gradient (spatial derivative), or in simplistic terms the concept that a solute will move from a region of high concentration to a region of low concentration across a concentration gradient. In one (spatial) dimension, the law is:
+
+
+
+
+J
+=
+−
+D
+
+
+
+d
+φ
+
+
+d
+x
+
+
+
+
+
+{\displaystyle J=-D{\frac {d\varphi }{dx}}}
+
+where
+J is the "diffusion flux," of which the dimension is amount of substance per unit area per unit time, so it is expressed in such units as mol m−2 s−1. J measures the amount of substance that will flow through a unit area during a unit time interval.
+D is the diffusion coefficient or diffusivity. Its dimension is area per unit time, so typical units for expressing it would be m2/s.
+
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+(for ideal mixtures) is the concentration, of which the dimension is amount of substance per unit volume. It might be expressed in units of mol/m3.
+x is position, the dimension of which is length. It might thus be expressed in the unit m.
+D is proportional to the squared velocity of the diffusing particles, which depends on the temperature, viscosity of the fluid and the size of the particles according to the Stokes-Einstein relation. In dilute aqueous solutions the diffusion coefficients of most ions are similar and have values that at room temperature are in the range of 0.6 × 10−9 to 2 × 10−9 m2/s. For biological molecules the diffusion coefficients normally range from 10−11 to 10−10 m2/s.
+In two or more dimensions we must use ∇, the del or gradient operator, which generalises the first derivative, obtaining
+
+
+
+
+
+J
+
+=
+−
+D
+∇
+φ
+
+
+{\displaystyle \mathbf {J} =-D\nabla \varphi }
+
+where J denotes the diffusion flux vector.
+The driving force for the one-dimensional diffusion is the quantity −∂φ/∂x, which for ideal mixtures is the concentration gradient. In chemical systems other than ideal solutions or mixtures, the driving force for diffusion of each species is the gradient of chemical potential of this species. Then Fick's first law (one-dimensional case) can be written as:
+
+
+
+
+
+J
+
+i
+
+
+=
+−
+
+
+
+D
+
+c
+
+i
+
+
+
+
+R
+T
+
+
+
+
+
+
+∂
+
+μ
+
+i
+
+
+
+
+∂
+x
+
+
+
+
+
+{\displaystyle J_{i}=-{\frac {Dc_{i}}{RT}}{\frac {\partial \mu _{i}}{\partial x}}}
+
+where the index i denotes the ith species, c is the concentration (mol/m3), R is the universal gas constant [J/(K.mol)], T is the absolute temperature (K), and μ is the chemical potential (J/mol).
+If the primary variable is mass fraction (yi, given, for example, in kg/kg), then the equation changes to:
+
+
+
+
+
+J
+
+i
+
+
+=
+−
+ρ
+D
+∇
+
+y
+
+i
+
+
+
+
+{\displaystyle J_{i}=-\rho D\nabla y_{i}}
+
+where ρ is the fluid density (for example, in kg/m3). Note that the density is outside the gradient operator.

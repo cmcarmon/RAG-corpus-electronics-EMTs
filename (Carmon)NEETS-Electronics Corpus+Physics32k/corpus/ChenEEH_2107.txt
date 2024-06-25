@@ -1,0 +1,25 @@
+super_node.element_name, where super_node is the partial
+name of the superclass and element_name is the internal name
+of the element in the superclass. Renaming of relevant arcs are
+also necessary to reﬂect the current context and to ensure ﬂow
+balance. It is clear that inheritance does not reduce the size of
+an HPrTN speciﬁcation since inherited elements are embed-
+ded; an alternative way to embedding is through delegation, as
+explained by Abadi and Cardelli (1996). However, the advan-
+tages are obvious since the meaning or structure (the most
+difﬁcult part in writing an HPrTN speciﬁcation) of an in-
+herited element is already available and is obtained without
+any additional effort; furthermore, many known properties of
+the inherited element might be maintained through inheri-
+tance (structural properties are surely kept, but behavioral
+properties may need additional validation). It is worth noting
+that (1) only public components of a superclass can be in-
+herited; (2) inheritances from multiple superclasses are sup-
+ported, and an element can be inherited by multiple subclasses
+because no ambiguity will occur due to the naming conven-
+tion; and (3) a redeﬁned (overriding) operation is considered
+as a new operation in a subclass and is distinguished from an
+inherited operation such that an overriding operation in a
+subclass has the same name as the overriden operation in the
+superclass; this distinction between inheritance and overriding
+was also made by Abadi and Cardelli (1996).

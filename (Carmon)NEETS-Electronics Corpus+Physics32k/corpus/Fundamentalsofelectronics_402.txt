@@ -1,0 +1,6 @@
+Thus, the output has a Fourier series, which means that it too is periodic. Its Fourier coeﬃcients equal
+. To obtain the spectrum of the output, we simply multiply the input spectrum by
+ckH
+the frequency response. The circuit modiﬁes the magnitude and phase of each Fourier coeﬃcient. Note
+especially that while the Fourier coeﬃcients do not depend on the signal’s period, the circuit’s transfer
+function does depend on frequency, which means that the circuit’s output will diﬀer as the period varies.

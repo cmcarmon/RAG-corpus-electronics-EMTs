@@ -1,0 +1,6 @@
+(2) A station drops its claim after transmitting its claim
+token and then hears anything transmitted on the bus;
+otherwise, it tries to claim a token at the next iteration
+with the next two address bits. A station uses all of its
+address bits; if the station succeeds on the last iter-
+ation, it is considered a token holder.

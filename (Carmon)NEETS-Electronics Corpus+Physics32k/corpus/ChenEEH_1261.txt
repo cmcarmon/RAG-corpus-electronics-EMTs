@@ -1,0 +1,17 @@
+. Caches are the areas of high-speed memory used to store
+frequently used data and instructions. Caches allow the
+CPU to access instructions and data much quicker than if
+it were to access the data from the main memory. In a
+nutshell, cache memory works as follows: if the CPU
+requests a memory access, the memory management
+unit (MMU) ﬁrst checks to see if the requested address
+is in the caches. If the address is in the caches, the data are
+returned to the CPU (in case of a read request) or up-
+dated in the cache (in case of a write request). On the
+other hand, if the address is not in the cache, the contents
+of that address (and perhaps its neighbor) must be
+brought into the cache from the main memory. In today’s
+system, there are often multiple levels of cache memory.
+For example, Intel’s Pentium II uses two levels of cache. In
+level 1, separate instruction and data caches are used and
+each with a 16-KB capacity. In level 2, 512 KB of uniﬁed

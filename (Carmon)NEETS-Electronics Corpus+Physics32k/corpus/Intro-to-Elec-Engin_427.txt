@@ -1,0 +1,13 @@
+To explain further, an op amp can be considered a special type of differential ampliﬁer.
+The object of a differential ampliﬁer, which is formally presented a little later, is to amplify
+“differences” in voltage between the two inputs, and to be unresponsive to voltage changes that
+appear simultaneously on both inputs. The differential-mode input signal is the difference between
+vp and vn; that is to say, vd= vp− vn. The common-mode input signal is the average value of the two
+input signals; that is to say, vc = (v1 + v2)/2. The output voltage of the ampliﬁer vo is given by vo
+= vdAd + vcAc, where Ad (called simply A previously) is the differential-mode voltage gain and Ac
+is the common-mode voltage gain. Under ideal conditions, Ac is equal to zero and the differential
+ampliﬁer completely rejects the common-mode signals. The departure from this ideal condition
+is a ﬁgure of merit for a differential ampliﬁer and is measured by CMRR, which is the ratio of
+Ad to Ac. CMRR can thus be seen as a measure of an ampliﬁer’s ability to distinguish between
+differential-mode and common-mode signals. One of the practical advantages of a differential
+ampliﬁer is its rejection of unwanted signals or noise.

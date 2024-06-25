@@ -1,0 +1,9 @@
+FH systems are traditionally classiﬁed in accordance with the relationship between Th and Ts. Fast frequency-
+hopped (FFH) systems are ones in which there exists one or more hops per data symbol, that is, Ts = NTh (N
+an integer) whereas slow frequency-hopped (SFH) systems are ones in which there exists more than one symbol
+per hop, that is, Th = NTs. It is customary in SS parlance to refer to the FH/MFSK tone of shortest duration as
+a “chip”, despite the same usage for the PN chips associated with the code generator that drives the frequency
+synthesizer.  Keeping  this  distinction  in  mind,  in  an  FFH  system  where,  as  already  stated,  there  are  multiple
+hops per data symbol, a chip is equal to a hop. For SFH, where there are multiple data symbols per hop, a chip
+is equal to an MFSK symbol. Combining these two statements, the chip rate Rc in an FH system is given by
+the larger of Rh = 1/Th and Rs = 1/Ts and, as such, is the highest system clock rate.

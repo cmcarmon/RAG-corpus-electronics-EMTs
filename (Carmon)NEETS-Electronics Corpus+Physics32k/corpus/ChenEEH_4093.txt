@@ -1,0 +1,12 @@
+We assume that the receiver has knowledge of the starting
+and ending times of each transmitted pulse; in other words,
+the receiver has prior knowledge of the pulse shape but not its
+polarity. Given the noisy signal, the receiver has to make a
+decision in each signaling interval as to whether the transmit-
+ted symbol is 1 or 0.
+We refer to Figure 3.1 step 1 involves reducing the received
+waveform to a single number z(t ¼ T ). This operation can be
+performed by a linear ﬁlter followed by a sampler or optimally
+by a matched ﬁlter. The initial conditions of the ﬁlter are set
+to zero just before the arrival of each new symbol. At the end of a
+symbol duration T , the output of step 1 yields the sample z(T ):

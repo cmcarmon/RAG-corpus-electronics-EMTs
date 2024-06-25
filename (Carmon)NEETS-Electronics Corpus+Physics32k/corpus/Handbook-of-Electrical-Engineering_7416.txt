@@ -1,0 +1,6 @@
+If one wants accuracy in temperature measurement, it can be attained by choosing a transducer that provides
+a large variation in output signal over a small range of temperature. The resolution that this provides may be
+translated to true accuracy by careful transducer calibration. Typical analog telemetry links maintain a measure-
+ment accuracy on a single channel to 1%. This is not a limitation of the total system, since 1% of a 100-degree
+temperature change would only be 1 degree, so several telemetry channels can easily share the total temperature
+range to be measured, say, a 100 range divided into four 25 ranges to produce an accuracy of 1⁄4 degree.

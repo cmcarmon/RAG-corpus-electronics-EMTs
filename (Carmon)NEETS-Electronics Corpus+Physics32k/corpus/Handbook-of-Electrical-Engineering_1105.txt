@@ -1,0 +1,3 @@
+Replaces DATA by its discrete Fourier transform, if SIGN is input as 1; or replaces DATA by NN times its inverse 
+discrete Fourier transform, if ISIGN is input as –1. DATA is a complex array of length NN or, equivalently, a real 
+array of length 2*NN. NN must be an integer power of 2.

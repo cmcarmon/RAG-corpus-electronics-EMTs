@@ -1,0 +1,7 @@
+Edge Elements
+Using potentials and nodal ﬁnite elements (see Fig. 44.1) rather than ﬁeld components directly has the advantage
+that difﬁculties arising from ﬁeld discontinuities at material interfaces can be avoided. However, if the element
+, say) constrained along an element edge,
+basis functions [see Eq. (44.5)] are expressed in terms of the ﬁeld (
+then tangential ﬁeld continuity is enforced [Bossavit, 1988]. The ﬁeld equations [Eq. (44.1)] in terms of the
+ﬁeld intensity for the low frequency limit reduce to

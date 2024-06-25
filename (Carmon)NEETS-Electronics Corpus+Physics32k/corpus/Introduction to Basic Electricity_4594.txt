@@ -1,0 +1,16 @@
+Multiplexers handle two basic types of data: analog 
+and digital. For analog applications, multiplexers are 
+built of relays and transistor switches. For digital appli-
+cations, multiplexers are built from standard logic gates.
+Digital multiplexers allow digital data from sev-
+eral individual sources to be routed through a com-
+mon line for transmission to a common destination. 
+A basic multiplexer has several input lines with a 
+single  output line. The input lines are activated by data 
+ selection input that identifies the line the data are to 
+be received on. Figure 45-13 shows the logic circuit for 
+an eight-input multiplexer. Notice that there are three 
+ input-control lines, labeled A, B, and C. Any of the 
+eight input lines can be selected by the proper expres-
+sion of the input-control line. The symbol used to rep-
+resent a digital multiplexer is shown in Figure 45-14.

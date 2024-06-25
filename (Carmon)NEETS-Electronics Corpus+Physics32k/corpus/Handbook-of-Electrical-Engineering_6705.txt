@@ -1,0 +1,11 @@
+As we have mentioned previously, there is really no requirement that the physical media between two adjacent
+data  link  layers  be  composed  of  a  single  link.  In  fact,  if  a  path  through  the  network  is  initially  established
+between two data link entities, there is no reason that DLC protocols need to be executed at intermediate nodes.
+Figure  72.7,  adapted  from  Bhargava  and  Hluchyj  [1990]  shows  how  the  end-to-end  connection  might  be
+implemented. A network implemented in the fashion indicated in Fig. 72.7 is called a fast packet network (FPN).
+From  Fig.  72.7,  it  is  seen  that  the  data  link  layer  is  partitioned  into  three  sublayers:  the  data  link  control
+sublayer (which parallels the LLC layer of LANs), the fast packet adaption (FPA) sublayer, and the fast packet
+relay  (FPR)  sublayer.  The  function  of  the  fast  packet  adaption  sublayer  is  to  segment  the  layer-2  PDU,  the
+frame, into smaller units, called fast packets, for transmission over the FPN. These fast packets contain infor-
+mation that identiﬁes the source and destination node names and the frame to which they belong so that they
+can be routed through the network and reassembled at the destination.

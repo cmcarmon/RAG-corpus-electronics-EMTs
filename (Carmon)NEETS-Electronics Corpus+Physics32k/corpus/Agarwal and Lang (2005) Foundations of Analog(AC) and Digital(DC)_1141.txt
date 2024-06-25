@@ -1,0 +1,8 @@
+Since the input offset is 2.2 V, and the maximum valid input voltage is
+2.32 V, the maximum positive swing for saturation region operation of the
+MOSFET is given by 2.32 V − 2.2 V = 0.12 V. Thus, the maximum peak-
+to-peak swing for the input sinusoid is 2 × 0.12 V = 0.24 V. Notice the clear
+tradeoff we have made between gain and dynamic range. To increase the gain,
+we had to bias the amplifier with a high input bias voltage, which was close
+to the high end of the valid input signal range. However, the high input bias
+voltage limited the positive signal swing.

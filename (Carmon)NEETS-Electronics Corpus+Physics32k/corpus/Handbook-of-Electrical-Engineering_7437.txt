@@ -1,0 +1,8 @@
+A communication link is usually a single source, a single user, and the components and channel between
+source and user. A typical link architecture is shown in Fig. 78.1. The important performance parameter in a
+digital communication link is typically the reliability of the communication link as measured by the symbol
+or bit error rate (BER). In an analog communication link the performance parameter of interest is typically
+the  signal-to-noise  ratio  (SNR)  at  the  receiver  input  or  the  mean-square  error  of  the  receiver  output.  The
+simulation is usually performed to determine the effect of system parameters, such as ﬁlter bandwidths or code
+rate,  or  to  determine  the  effect  of  environmental  parameters,  such  as  noise  levels,  noise  statistics,  or  power
+spectral densities.

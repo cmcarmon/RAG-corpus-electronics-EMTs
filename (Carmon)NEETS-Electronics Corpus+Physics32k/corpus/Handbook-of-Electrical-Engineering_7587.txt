@@ -1,0 +1,6 @@
+While ECL is not compatible with any other logic family, interfacing buffers, called translators, are available.
+In particular, the 10124 converts TTL output levels to ECL complementary levels, and the 10125 converts either
+single-ended  or  differential  ECL  outputs  to  TTL  levels.  Among  other  applications  of  these  translators,  they
+allow the use of ECL for the highest speed requirements of a system while the rest of the system uses the more
+rugged TTL. Another translator is the 10177, which converts the ECL output levels to n-channel metal-oxide
+semiconductor (NMOS) levels. This is designed for interfacing ECL with n-channel memory systems.

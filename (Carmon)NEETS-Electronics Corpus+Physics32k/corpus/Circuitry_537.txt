@@ -1,0 +1,27 @@
+There  are,  however,  some  applications  in  which 
+parallel  data  transfer  is  inappropriate,  the  most 
+common  example  being  data  communication  by 
+means of telephone lines.  In such cases data must 
+be sent serially (one bit after another) rather than in 
+parallel form. 
+  To transmit data in serial form, the parallel data 
+from the microprocessor must be reorganized into a 
+stream  of  bits.  This  task  is  greatly  simplified  by 
+using  an  LSI  interface  device  that  contains  a  shift 
+register  that  is  loaded  with  parallel  data  from  the 
+data  bus.  This  data  is  then  read  out  as  a  serial  bit 
+stream by successive shifting.  The reverse process, 
+serial-to-parallel  conversion,  also  uses  a  shift 
+register. Here data is loaded in serial form, each bit 
+shifting  further  into  the  register  until  it  becomes 
+full.  Data  is  then  placed  simultaneously  on  the 
+parallel  output  lines.    The  basic  principles  of 
+parallel-to-serial 
+data 
+conversion are illustrated in Fig. 11.9. 
+ 
+An example program 
+ 
+The following example program (see Table 11.3) is 
+written in assembly code. The program transfers 8-
+bit data from an input port (Port A), complements 

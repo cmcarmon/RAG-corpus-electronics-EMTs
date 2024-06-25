@@ -1,0 +1,6 @@
+For the newer Internet service models, the sender applica-
+tion has to go through admission control. At this time, the
+sender can specify the maximum error that it can tolerate. If
+the network uses a QoS-based routing algorithm, explained
+later in this discussion, and is unable to ﬁnd a path that can
+satisfy this requirement, it will just reject the connection or

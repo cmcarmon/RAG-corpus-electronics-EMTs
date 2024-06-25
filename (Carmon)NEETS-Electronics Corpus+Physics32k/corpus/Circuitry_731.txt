@@ -1,0 +1,30 @@
+pulse  has  been  completed,  the  probe  tip  adopts  a 
+tri-state  (high  impedance)  condition.  Hence  the 
+probe does not permanently affect the logical state 
+of the point in question. 
+  Logic pulsers derive their power supply from the 
+circuit  under  test  in  the  same  manner  as  logic 
+probes.  Here  again, 
+the  supply  and  ground 
+connections  usually  make  suitable  connecting 
+points. 
+  A  typical  logic  pulser  circuit  is  shown  in  
+Fig. 15.20. The circuit comprises a 555 monostable 
+pulse  generator  triggered  from  a  push-button.  The 
+output  of 
+to  a 
+complementary  transistor  arrangement  in  order  to 
+make  it  fully  TTL-compatible.    As  with  the  logic 
+pulser, this circuit derives its power from the circuit 
+under test (usually +5V). 
+  Figure 15.21 shows an example of the combined 
+use of a logic probe and a logic pulser for testing a 
+simple  J-K  bistable.  The  logic  probe  is  used  to 
+check  the  initial  state  of  the  bistable  outputs  (see 
+Fig. 15.21(a) and (b)). Note that the outputs should 
+be complementary. Next, the logic pulser is applied 
+to  the  clock  (CK)  input  of  the  bistable  (Fig. 
+15.21(c))  and  the  Q  output  is  checked  using  the 
+logic  probe.  The  application  of  a  pulse  (using  the 
+trigger  button)  should  cause  the  Q  output  of  the 
+bistable to change state (see Fig. 15.21(d)). 

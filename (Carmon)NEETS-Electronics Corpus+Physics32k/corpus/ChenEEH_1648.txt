@@ -1,0 +1,6 @@
+Such an option increases motion compensation efﬁciency
+especially when there are occluded objects in the scene. From
+the two forward and backward motion vectors, the encoder has
+a choice of choosing either any of the two or a weighted
+average of the two, where weights are inversely proportional
+to the distance of the B-picture with its anchor position.

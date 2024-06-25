@@ -1,0 +1,41 @@
+Normally, Hagen-Poiseuille flow implies not just the relation for the pressure drop, above, but also the full solution for the laminar flow profile, which is parabolic. However, the result for the pressure drop can be extended to turbulent flow by inferring an effective turbulent viscosity in the case of turbulent flow, even though the flow profile in turbulent flow is strictly speaking not actually parabolic. In both cases, laminar or turbulent, the pressure drop is related to the stress at the wall, which determines the so-called friction factor. The wall stress can be determined phenomenologically by the Darcy–Weisbach equation in the field of hydraulics, given a relationship for the friction factor in terms of the Reynolds number. In the case of laminar flow:
+
+
+
+
+Λ
+=
+
+
+64
+
+R
+e
+
+
+
+,
+
+
+R
+e
+
+=
+
+
+
+ρ
+v
+d
+
+μ
+
+
+,
+
+
+{\displaystyle \Lambda ={\frac {64}{\mathrm {Re} }},\quad \mathrm {Re} ={\frac {\rho vd}{\mu }},}
+
+where Re is the Reynolds number, ρ is the fluid density, v is the mean flow velocity, which is half the maximal flow velocity in the case of laminar flow. It proves more useful to define the Reynolds number in terms of the mean flow velocity because this quantity remains well defined even in the case of turbulent flow, whereas the maximal flow velocity may not be, or in any case, it may be difficult to infer. In this form the law approximates the Darcy friction factor, the energy (head) loss factor, friction loss factor or Darcy (friction) factor Λ in the laminar flow at very low velocities in cylindrical tube. The theoretical derivation of a slightly different form of the law was made independently by Wiedman in 1856 and Neumann and E. Hagenbach in 1858 (1859, 1860). Hagenbach was the first who called this law the Poiseuille's law.
+The law is also very important in hemorheology and hemodynamics, both fields of physiology.
+Poiseuille's law was later in 1891 extended to turbulent flow by L. R. Wilberforce, based on Hagenbach's work.

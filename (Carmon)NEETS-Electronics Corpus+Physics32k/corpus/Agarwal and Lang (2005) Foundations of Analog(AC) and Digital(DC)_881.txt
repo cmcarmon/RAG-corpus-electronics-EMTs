@@ -1,0 +1,5 @@
+Like the inverter, the NAND gate produces an output high of 5 V, and
+therefore satisfies the output-high voltage threshold of 4.5 V. Similarly, the
+NAND gate satisfies both the VIH = 4 V and the VIL = 0.9 V thresholds since
+it interprets voltages above 4 V at its input as a logical 1 and voltages below
+0.9 V at its inputs as a logical 0.

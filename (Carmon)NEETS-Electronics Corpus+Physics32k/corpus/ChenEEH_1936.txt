@@ -1,0 +1,19 @@
+One software-based method focuses on noting the locations
+of faulty cells and/or interconnects and rerouting the circuit to
+avoid using spares or unused cells/interconnects (McDonald et
+al., 1991; Narasimhan et al., 1994; Roy and Nag, 1995). This
+has been proposed for use in factory programmable gate arrays
+and potentially requires a different routing for every chip to
+which the user’s circuit is mapped (Narasimhan et al., 1994).
+This software-based method has also been proposed in the
+context of ﬁeld reconﬁguration for logic cell faults by Mc-
+Donald et al. (1991) and for interconnect faults by Roy and
+Nag (1995). Requiring the layout tools to perform a new routing
+of a circuit for each new faulty cell or interconnect location
+encountered, however, puts a heavy burden on the user who
+must also keep track of all of the different routings for a
+given circuit design. Furthermore, in a mission- or life-critical
+system, it is desirable to perform fault reconﬁguration quickly
+so that system function is suspended for only seconds. Com-
+plete rerouting of large FPGA circuits can take hours, which is
+unacceptable in such systems.

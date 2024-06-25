@@ -1,0 +1,18 @@
+Technology-wise, the basic access speed of memory planes
+increases slowly (less than 10% per year [Przybylski, 1997]). In
+contrast, the speed of the data path is doubling every 18 months
+(Moore’s law). As a result, the performance gap between memory
+and data path increases rapidly. Advanced memory implemen-
+tations are used to keep up with the path speed, but, in many
+cases, these can be quite energy consuming. Note that the max-
+imal power consumption is not relevant in this context but that
+the actual energy consumed to execute a given application in a
+speciﬁc time period (cycle budget) is important. In many cases,
+from the application point of view, the external memory organ-
+ization is used in an inefﬁcient way. Sometimes data caches can
+overcome the problems partly at runtime, but these caches have
+a big area and energy overhead, especially when they are set-
+associative (Kamble and Ghose, 1997; Ko et al., 1995; Su and
+Despain, 1995). Future memory organization solutions will have
+to provide more effective bandwidth at a reasonable actual
+energy consumption.

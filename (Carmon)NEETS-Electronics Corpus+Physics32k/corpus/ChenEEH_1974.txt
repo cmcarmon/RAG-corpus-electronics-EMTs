@@ -1,0 +1,12 @@
+A newer control ﬂow technique is the extended structural
+integrity
+(Mahmood and McCluskey,
+1988), which extends the checking capabilities of SIC to
+check run-time computed procedure calls and interrupt
+handlers. The nodes of the CFG are encoded by successive
+numbers, and the reference information is extracted in the
+form of a stored reference signature database in which the
+valid successors of each signature are given in a sparse matrix
+format. The ﬁrst and last nodes of a procedure are tagged by
+special ﬂags, SOP start of procedure (SOP) and end of proced-
+ure (EOP). If an SOP signature is received (procedure call),

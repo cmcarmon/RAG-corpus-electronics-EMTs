@@ -1,0 +1,249 @@
+Changes to each individual gait parameter affects the energetic cost of walking. However, these same changes also affect other gait parameters, leading to trade offs that require the human body to apply optimizations that minimize energetic cost.
+Step Length
+Energetic cost increases with longer step lengths due to increased ground reaction forces during double-support and more hip torque during the swing phase. According to the dynamic walking model, mechanical work in the step-to-step transitions increases proportional to step length and can be described by
+
+
+
+
+
+
+
+W
+˙
+
+
+
+
+α
+
+
+l
+
+4
+
+
+
+
+
+{\displaystyle \textstyle {\dot {W}}\;\alpha \;l^{4}}
+, where
+
+
+
+
+
+
+
+W
+˙
+
+
+
+
+
+
+{\displaystyle \textstyle {\dot {W}}}
+is mechanical work rate and
+
+
+
+
+l
+
+
+
+{\displaystyle \textstyle l}
+is step length, which equates to a proportional increase in net metabolic rate. This relationship is due to reduced vertical force contribution for redirecting the COM at the wider step angles associated with longer step lengths. Larger step lengths also require additional hip torque during the swing phase to travel a wider angle, which contributes to the rate of metabolic cost by a factor of leg length squared
+Cadence
+Increase in cadence yields more instances of leg swings and step-to-step transitions within a unit of time, leading to an increase in the rate of energetic cost. The relationship between mechanical work and step frequency can be described by
+
+
+
+
+
+
+
+W
+˙
+
+
+
+
+α
+
+
+f
+
+3
+
+
+
+
+
+{\displaystyle \textstyle {\dot {W}}\;\alpha \;f^{3}}
+for the step-to-step transitions, where
+
+
+
+
+
+
+
+W
+˙
+
+
+
+
+
+
+{\displaystyle \textstyle {\dot {W}}}
+is the mechanical work rate and
+
+
+
+
+f
+
+
+
+{\displaystyle \textstyle f}
+is the step frequency. Rate of metabolic cost also follows this relationship. The impact of cadence on leg swing metabolic cost is approximated as
+
+
+
+
+
+
+
+E
+˙
+
+
+
+
+α
+
+
+f
+
+4
+
+
+
+
+
+{\displaystyle \textstyle {\dot {E}}\;\alpha \;f^{4}}
+, where
+
+
+
+
+
+
+
+E
+˙
+
+
+
+
+
+
+{\displaystyle \textstyle {\dot {E}}}
+is the rate of metabolic cost and
+
+
+
+
+f
+
+
+
+{\displaystyle \textstyle f}
+is the step frequency
+Step Width
+Similar to selection of stride length and frequency, humans also select for a metabolically optimal step width. Adopting a wider stance increases the stability of a passive dynamic system, as well as increases the lateral clearance of the swing leg from the stance leg. According to the dynamic walking model, the mediolateral "rocking" of the legs can be also described by the inverted pendulum paradigm, and a wider stance would similarly require increased ground reaction force to redirect the COM, and thus increase the metabolic demand. For a narrower stance, due to insufficient clearance, hip torque may be increased to project the swing leg out laterally, leading to increased metabolic cost as well. The relationship between step width and energetic cost for the step-to-step transitions can be described as
+
+
+
+
+
+
+
+E
+˙
+
+
+
+
+α
+
+
+
+
+W
+˙
+
+
+
+
+α
+
+
+w
+
+2
+
+
+
+
+
+{\displaystyle \textstyle {\dot {E}}\;\alpha \;{\dot {W}}\;\alpha \;w^{2}}
+, where
+
+
+
+
+
+
+
+E
+˙
+
+
+
+
+
+
+{\displaystyle \textstyle {\dot {E}}}
+is the rate of metabolic cost,
+
+
+
+
+
+
+
+W
+˙
+
+
+
+
+
+
+{\displaystyle \textstyle {\dot {W}}}
+is the mechanical work rate, and
+
+
+
+
+w
+
+
+
+{\displaystyle \textstyle w}
+is the step width.
+Step Variability
+Step width variability is associated with the active control of the nervous system for walking stability, and is reduced in the presence of external stabilizers while increased with exposure to balance perturbations. Step length variability is similarly attributed due to a coupling that exists between medio-lateral and fore-aft motion in walking, but to a diminished degree. Step width variability is positively correlated with rate of metabolic cost, and with respect to the variability associated with mediolateral balance, accounts for about 6% of metabolic cost in preferred gait. While some of the energetic cost encountered with step variability may arise due to the net changes in step width and step length, there exists a portion of the cost that can be attributed to the effort of stability control during walking.

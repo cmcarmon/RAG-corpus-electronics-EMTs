@@ -1,0 +1,82 @@
+ 
+ 
+ 
+ 
+6.  Unless the design makes extensive use of PCB 
+ 
+edge  connectors,  try  to  ensure  that  a  common  
+ 
+0  V  foil  is  run  all  round  the  periphery  of  the 
+  PCB. This has a number of advantages  not the 
+least  of  which  is  the  fact  that  it  will  then  be 
+ 
+ 
+relatively simple to find a route to the 0 V rail 
+ 
+from almost anywhere on the board. 
+7.  Consider the  means of  mounting the PCB and, 
+if  it  is  to  be  secured  using  bolts  and  threaded 
+ 
+ 
+spacers (or equivalent) you should ascertain the 
+ 
+number and location of the holes required. You 
+  may  also  wish  to  ensure  that  the  holes  are 
+coincident with the 0 V foil, alternatively where 
+ 
+ 
+the 0 V rail is not to be taken to chassis ground, 
+ 
+it  will  be  necessary  to  ensure  that  the  PCB 
+  mounting holes occur in an area of the PCB that 
+ 
+8.  Commence the PCB design in rough first using 
+ 
+paper  ruled  with  squares.  This  process  can  be 
+carried  out  ‘actual  size’  using  0.1  in.  graph 
+ 
+paper  or  suitably  enlarged  by  means  of  an 
+ 
+ 
+appropriate choice of paper. For preference, it is 
+  wise to choose paper with a feint blue or green 
+ 
+grid  as  this  will  subsequently  disappear  after 
+ 
+photocopying leaving you with a ‘clean’ layout. 
+9.  Using the square grid as a guide, try to arrange 
+all components so that they are mounted on the 
+ 
+ 
+standard  0.1  in.  matrix.  This  may  complicate 
+things  a  little  but  is  important  if  you  should 
+ 
+subsequently  wish  to  convert  the  design  using 
+ 
+computer-aided    design  (CAD)  techniques  (see 
+ 
+ 
+later).  
+10. Arrange straight runs of track so that they align 
+  with one dimension of the board or another. Try 
+ 
+11. Identify  all  conductors  that  will  be  handling 
+ 
+significant  current  (i.e.  in  excess  of  about 
+ 
+500  mA)  and  ensure  that  tracks  have  adequate 
+  widths.  Table  19.1  will  acts  as  a  rough  guide. 
+  Note that, as a general rule, the width of the 0 V 
+track should be at least twice that used for any 
+ 
+ 
+other track. 
+12. Identify  all  conductors  that  will  be  handling 
+high voltages (i.e. those in excess of 150 V d.c. 
+ 
+ 
+or  100  V  r.m.s.  a.c.)  and  ensure  that  these  are 
+adequately spaced from other tracks. Table 19.2 
+ 
+ 
+provides you with a rough guide. 

@@ -1,0 +1,14 @@
+(1) Schema disjunction: Schema disjunction has the
+form New ^¼¼ Old1 _ Old2, where New, Old1, and
+Old2 are schema names. The declaration part of new
+schema New is obtained by merging the declaration
+parts of Old1 and Old2, and the predicate part of New
+is obtained by making a disjunction of the predicate
+part of Old1 with that of Old2.
+(2) Schema conjunction: Schema conjunction has the
+form New ^¼¼ Old1 ^ Old2, where New, Old1, and
+Old2 are schema names. The declaration part of new
+schema New is obtained by merging the declaration
+parts of Old1 and Old2, and the predicate part of New
+is obtained by making a conjunction of the predicate
+part of Old1 with that of Old2.

@@ -1,0 +1,25 @@
+There are several formal analogies that can be made between electricity, which is invisible to the eye, and more familiar physical notions, such as the flowing of water or the motion of mechanical devices.
+In the case of capacitance, one analogy to a capacitor in mechanical rectilineal terms is a spring where the compliance of the spring is analogous to the capacitance. Thus in electrical engineering, a capacitor may be defined as an ideal electrical component which satisfies this equation V = (1/C)ʃIdt where:
+V is voltage measured at the terminals of the capacitor
+C is the capacitance of the capacitor
+I is the current flowing between the terminals of the capacitor
+t is time
+The equation quoted above has the same form as that describing an ideal massless spring: F = (1/k)ʃvdt where:
+F is the force applied between the two ends of the spring
+k is the compliance of the spring defined as displacement/force
+v is the speed (or velocity) of one end of the spring, the other end being fixed.
+Note that in the electrical case, current (I) is defined as the rate of change of charge (Q) with respect to time:
+I = dQ/dt
+While in the mechanical case, velocity (v) is defined as the rate of change of displacement (d) with respect to time:
+v = dd/dt
+Thus, in this analogy:
+Charge is represented by linear displacement,
+current is represented by linear velocity,
+voltage by force.
+time by time
+Also, these analogous relationships apply:
+energy. Energy stored in a spring is 0.5d^2/k, while energy stored in a capacitor is 0.5Q^2/C.
+Electric power. Here there is an analogy between the mechanical concept of power as the scalar product of velocity and displacement, and the electrical concept that in an AC circuit with sinusoidal excitation, power is the product VIcos(ф) where ф is the phase angle between V and I, measured in RMS terms.
+Electrical resistance (R) is analogous to mechanical viscous drag coefficient (force being proportional to velocity is analogous to Ohm's law - voltage being proportional to current).
+Mass (m) is analogous to inductance (L), since F = mdv/dt, while V = LdI/dt. Thus an ideal inductor with inductance L is analogous to a rigid body with mass m.
+This analogy of the capacitor forms part of the more comprehensive impedance analogy of mechanical to electrical systems.

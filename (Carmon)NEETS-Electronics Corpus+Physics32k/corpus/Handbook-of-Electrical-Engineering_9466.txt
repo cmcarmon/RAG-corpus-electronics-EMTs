@@ -1,0 +1,14 @@
+Database Abstraction
+A DBMS is expected to provide for 
+ without any
+need  for  the  knowledge  of  how  the  data  is  stored  in  actual  ﬁles.  This  implies  that  the  internal  ﬁle  structure
+could be modiﬁed without any change to the user’s perception of the database. To achieve data independence,
+the Standards Planning and Requirements Committee (SPARC) of the American National Standards Institute
+(ANSI) in its 1977 report recommended three levels of database abstraction (see Fig. 94.1). The lowest level in
+the abstraction is the internal level. Here, the database is viewed as a collection of ﬁles organized according to
+one of several possible internal data organizations (e.g., B
+-tree data organization). In the conceptual level, the
++
+database is viewed at an abstract level. The user at this level is shielded from the internal storage details. At the
+of the database. Each view is derived from
+external level, each group of users has their own perception or 

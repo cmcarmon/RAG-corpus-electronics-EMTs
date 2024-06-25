@@ -1,0 +1,7 @@
+Numerical Method
+In a transient analysis time is discretized into intervals called time steps. Typically the time steps are of unequal
+length, with the smallest steps being taken during portions of the analysis when the circuit voltages and currents
+are changing most rapidly. The capacitors and inductors in the circuit are then replaced by voltage and current
+sources based on the following procedure.
+I
+c

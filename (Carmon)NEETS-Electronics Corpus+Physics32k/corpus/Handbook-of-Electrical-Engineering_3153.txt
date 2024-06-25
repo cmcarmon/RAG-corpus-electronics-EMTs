@@ -1,0 +1,8 @@
+The harmonic components in a PWM wave are easily ﬁltered because they are shifted to a higher-frequency
+region. It is desirable to have a high ratio of carrier frequency to fundamental frequency to reduce the harmonics
+of  lower-frequency  components.  There  are  several  other  PWM  techniques  mentioned  in  the  literature.  The
+most notable ones are selected harmonic elimination, hysteresis controller, and space vector PWM technique.
+In inverters, if SCRs are used as power switching devices, an external forced commutation circuit has to be
+used to turn off the devices. Now, with the availability of IGBTs above 1000-A, 1000-V ratings, they are being
+used  in  applications  up  to  300-kW  motor  drives.  Above  this  power  rating,  GTOs  are  generally  used.  Power
+Darlington transistors, which are available up to 800 A, 1200 V, could also be used for inverter applications.

@@ -1,0 +1,13 @@
+The advantage of CC-NUMA over a standard SMP design is
+that there are several local busses, so each one need not carry
+all transactions occurring throughout the system. This in turn
+means that a larger number of processors can be used than in
+the equivalent SMP design, allowing a greater level of parallel-
+ism. The Sequent NUMA-Q system can support over two
+hundred Pentium II processors. CC-NUMA has a clear advan-
+tage over clusters of communicating computers—because the
+nonlocal memory accesses and cache coherence is maintained
+automatically, it is a much easier process to port software
+developed for an SMP to a CC-NUMA system than to a
+cluster. In addition, the programming paradigm is signiﬁcantly
+simpler.

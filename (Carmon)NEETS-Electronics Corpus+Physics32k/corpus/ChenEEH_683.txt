@@ -1,0 +1,14 @@
+From the process technology point of view, this problem is
+not so surprising, especially for submicron technologies. The
+relative power cost of interconnections is increasing rapidly
+compared to the transistor (active circuit) related components.
+Clearly, local data paths, and controllers themselves contribute
+little to this overall interconnect compared to the major data/
+instruction busses and the internal connections in the large
+memories. Hence, if all other parameters remain constant, the
+energy consumption (and also the delay or area) in the storage
+and transfer organization will become even more dominant in
+the future, especially for deep submicron technologies. The
+remaining basic limitation lies in transporting the data and
+the control (like addresses and internal signals) over large
+on-chip distances and in storing them.

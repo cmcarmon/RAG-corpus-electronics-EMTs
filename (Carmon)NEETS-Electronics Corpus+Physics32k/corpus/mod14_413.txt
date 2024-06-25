@@ -1,0 +1,3 @@
+CP4 toggles FF1 and causes it to set, lighting lamp A. Now FF1, output Q , goes LOW causing FF2
+to toggle. This causes FF2 to set and lights lamp B. Output of FF2, Q , then goes LOW, which causes
+FF3 to reset and turn off lamp C. The indicated count is now 0112 (310).

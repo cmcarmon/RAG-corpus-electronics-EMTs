@@ -1,0 +1,10 @@
+Any point that is rigidly connected to the body can be used as reference point (origin of coordinate system L) to describe the linear motion of the body (the linear position, velocity and acceleration vectors depend on the choice).
+However, depending on the application, a convenient choice may be:
+the center of mass of the whole system, which generally has the simplest motion for a body moving freely in space;
+a point such that the translational motion is zero or simplified, e.g. on an axle or hinge, at the center of a ball and socket joint, etc.
+When the center of mass is used as reference point:
+The (linear) momentum is independent of the rotational motion. At any time it is equal to the total mass of the rigid body times the translational velocity.
+The angular momentum with respect to the center of mass is the same as without translation: at any time it is equal to the inertia tensor times the angular velocity. When the angular velocity is expressed with respect to a coordinate system coinciding with the principal axes of the body, each component of the angular momentum is a product of a moment of inertia (a principal value of the inertia tensor) times the corresponding component of the angular velocity; the torque is the inertia tensor times the angular acceleration.
+Possible motions in the absence of external forces are translation with constant velocity, steady rotation about a fixed principal axis, and also torque-free precession.
+The net external force on the rigid body is always equal to the total mass times the translational acceleration (i.e., Newton's second law holds for the translational motion, even when the net external torque is nonzero, and/or the body rotates).
+The total kinetic energy is simply the sum of translational and rotational energy.

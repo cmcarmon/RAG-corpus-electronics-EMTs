@@ -1,0 +1,7 @@
+First, a data-ﬂow transformation is applied to remove the
+computation of the maximum of the whole image in the
+function Reverse(). Although this computation is negligible
+in terms of CPU time, it is very important in terms of data
+transfer and storage because the whole image has to read from
+memory and be stored again before the next function Detect-
+Roots() can proceed.

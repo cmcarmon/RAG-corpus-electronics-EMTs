@@ -1,0 +1,12 @@
+In Zhou et al. (2000), FTHN is extended by adding a time
+interval with a possibility value p in the form of p[a, b] to
+each transition. That is, each transition is associated with a
+ﬁring interval denoted p[a, b], where the default interval is
+1[0, 0] (a transition deﬁnitely ﬁres as soon as it is enabled). If a
+transition t is enabled at time instant t, it may not ﬁre before
+time instant t þ a and must ﬁre before or at time instant
+t þ b. Possibility p is a value in the interval [0, 1], where p is
+1 if transition t is not in structural conﬂict with any other
+transition, and p can be less than 1 when we want to assign
+different chances to transitions in conﬂict. Here, structural
+conﬂict means that a transition t shares some input place

@@ -1,0 +1,9 @@
+The op amp is composed of a number of transistor stages on a single chip and pro-
+vides the characteristics of a voltage-controlled voltage source. The so-called ideal op amp
+is characterized by inﬁnite bandwidth. However, it is pertinent to mention that the band-
+width of an op amp without feedback is quite small. In commercially available op amps,
+while the open-loop voltage gain A is rather large (usually 105 or greater), the range of fre-
+quency for which this gain is achieved is limited. The asymptotic Bode diagram shown in
+Figure 5.2.3 illustrates the frequency characteristic for the open-loop voltage gain. For fre-
+quencies below fh, the open-loop gain is a constant Ao; for frequencies beyond fh, the open-
+loop gain decreases. The frequency fh is known as the open-loop bandwidth, as it separates

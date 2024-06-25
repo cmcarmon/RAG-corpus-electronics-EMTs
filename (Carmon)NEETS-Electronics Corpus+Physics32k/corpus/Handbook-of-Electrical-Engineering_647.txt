@@ -1,0 +1,6 @@
+FM-DCSK
+The  power  of  a frequency-modulated  (FM)  signal  is  independent  of  the  modulation.  Therefore,  if  a  chaotic
+signal is applied to the input of an FM modulator, and the output of the FM modulator is applied to the input
+of a DCSK modulator, then the resulting output of the DCSK modulator has constant energy per symbol. If
+this  signal  is  applied  directly  to  a  DCSK  correlation  receiver,  then  the  observation  signal  in  the  receiver  has
+zero variance in the noise-free case and the estimation problem is solved.

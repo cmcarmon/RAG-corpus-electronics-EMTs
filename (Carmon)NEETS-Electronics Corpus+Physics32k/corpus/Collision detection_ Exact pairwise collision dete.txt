@@ -1,0 +1,121 @@
+Once we're done pruning, we are left with a number of candidate pairs to check for exact collision detection.
+A basic observation is that for any two convex objects which are disjoint, one can find a plane in space so that one object lies completely on one side of that plane, and the other object lies on the opposite side of that plane. This allows the development of very fast collision detection algorithms for convex objects.
+Early work in this area involved "separating plane" methods. Two triangles collide essentially only when they can not be separated by a plane going through three vertices. That is, if the triangles are
+
+
+
+
+
+v
+
+1
+
+
+,
+
+v
+
+2
+
+
+,
+
+v
+
+3
+
+
+
+
+
+{\displaystyle {v_{1},v_{2},v_{3}}}
+and
+
+
+
+
+
+v
+
+4
+
+
+,
+
+v
+
+5
+
+
+,
+
+v
+
+6
+
+
+
+
+
+{\displaystyle {v_{4},v_{5},v_{6}}}
+where each
+
+
+
+
+v
+
+j
+
+
+
+
+{\displaystyle v_{j}}
+is a vector in
+
+
+
+
+
+
+R
+
+
+
+3
+
+
+
+
+{\displaystyle {\mathbb {R} }^{3}}
+, then we can take three vertices,
+
+
+
+
+v
+
+i
+
+
+,
+
+v
+
+j
+
+
+,
+
+v
+
+k
+
+
+
+
+{\displaystyle v_{i},v_{j},v_{k}}
+, find a plane going through all three vertices, and check to see if this is a separating plane. If any such plane is a separating plane, then the triangles are deemed to be disjoint. On the other hand, if none of these planes are separating planes, then the triangles are deemed to intersect. There are twenty such planes.
+If the triangles are coplanar, this test is not entirely successful. One can add some extra planes, for instance, planes that are normal to triangle edges, to fix the problem entirely. In other cases, objects that meet at a flat face must necessarily also meet at an angle elsewhere, hence the overall collision detection will be able to find the collision.
+Better methods have since been developed. Very fast algorithms are available for finding the closest points on the surface of two convex polyhedral objects. Early work by Ming C. Lin used a variation on the simplex algorithm from linear programming. The Gilbert-Johnson-Keerthi distance algorithm has superseded that approach. These algorithms approach constant time when applied repeatedly to pairs of stationary or slow-moving objects, when used with starting points from the previous collision check.
+The end result of all this algorithmic work is that collision detection can be done efficiently for thousands of moving objects in real time on typical personal computers and game consoles.

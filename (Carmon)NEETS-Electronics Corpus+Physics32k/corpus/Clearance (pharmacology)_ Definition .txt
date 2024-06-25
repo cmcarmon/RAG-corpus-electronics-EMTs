@@ -1,0 +1,87 @@
+When referring to the function of the kidney, clearance is considered to be the amount of liquid filtered out of the blood that gets processed by the kidneys or the amount of blood cleaned per time because it has the units of a volumetric flow rate [ volume / time ]. However, it does not refer to a real value; "the kidney does not completely remove a substance from the total renal plasma flow." From a mass transfer perspective and physiologically, volumetric blood flow (to the dialysis machine and/or kidney) is only one of several factors that determine blood concentration and removal of a substance from the body. Other factors include the mass transfer coefficient, dialysate flow and dialysate recirculation flow for hemodialysis, and the glomerular filtration rate and the tubular reabsorption rate, for the kidney. A physiologic interpretation of clearance (at steady-state) is that clearance is a ratio of the mass generation and blood (or plasma) concentration.
+Its definition follows from the differential equation that describes exponential decay and is used to model kidney function and hemodialysis machine function:
+
+
+
+
+V
+
+
+
+d
+C
+
+
+d
+t
+
+
+
+=
+−
+K
+⋅
+C
++
+
+
+
+m
+˙
+
+
+
+
+(
+1
+)
+
+
+{\displaystyle V{\frac {dC}{dt}}=-K\cdot C+{\dot {m}}\qquad (1)}
+
+Where:
+
+
+
+
+
+
+
+m
+˙
+
+
+
+
+
+{\displaystyle {\dot {m}}}
+is the mass generation rate of the substance - assumed to be a constant, i.e. not a function of time (equal to zero for foreign substances/drugs) [mmol/min] or [mol/s]
+t is dialysis time or time since injection of the substance/drug [min] or [s]
+V is the volume of distribution or total body water [L] or [m³]
+K is the clearance [mL/min] or [m³/s]
+C is the concentration [mmol/L] or [mol/m³] (in the United States often [mg/mL])
+From the above definitions it follows that
+
+
+
+
+
+
+d
+C
+
+
+d
+t
+
+
+
+
+
+{\displaystyle {\frac {dC}{dt}}}
+is the first derivative of concentration with respect to time, i.e. the change in concentration with time.
+It is derived from a mass balance.
+Clearance of a substance is sometimes expressed as the inverse of the time constant that describes its removal rate from the body divided by its volume of distribution (or total body water).
+In steady-state, it is defined as the mass generation rate of a substance (which equals the mass removal rate) divided by its concentration in the blood.
+Clearance, half-life and distribution volume
+There is an important relationship between clearance, elimination half-life and distribution volume. The elimination rate constant of a drug Κel is equivalent to total clearance divided by the distribution volume (Κel=Cltot/Vd)(note the usage of Cl and not Κ, not to confuse with Κel). But Κel is also equivalent to ln2 divided by elimination rate half-life t1/2 (Κel=ln2t1/2). Thus, Cltot = ln2 Vd/t1/2. This means, for example, that an increase in elimination rate half-life results in an increased total clearance, provided distribution volume is constant. Derivation of these equations can be found in e.g Rang and Dale's Pharmacology

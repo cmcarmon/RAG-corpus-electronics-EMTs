@@ -1,0 +1,4 @@
+Single-pole ﬁlters are rather limited (6 dB/octave slope). For better band-pass and band-
+reject ﬁlters we require more poles and zeros and thus more reactive circuit elements. A
+simple solution is to connect two or more single-pole RC ﬁlters in sequence. If ﬁlter H2
+draws no current from ﬁlter H1, the transfer function for the combined ﬁlter is

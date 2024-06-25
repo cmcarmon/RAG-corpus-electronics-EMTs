@@ -1,0 +1,348 @@
+A monochromatic or harmonic plane wave is one which has a single frequency, and thus the variation of amplitude is sinusoidal, represented by a sine or cosine function. A harmonic plane wave traveling to the right along the x-axis can be represented by the equation
+
+
+
+
+A
+(
+x
+,
+t
+)
+=
+
+A
+
+o
+
+
+cos
+⁡
+(
+k
+x
+−
+ω
+t
++
+φ
+)
+
+
+{\displaystyle A(x,t)=A_{o}\cos(kx-\omega t+\varphi )}
+
+In the above equation:
+
+
+
+
+A
+(
+x
+,
+t
+)
+
+
+
+{\displaystyle A(x,t)\,}
+is the magnitude or disturbance of the wave at a given point in space and time. An example would be to let
+
+
+
+A
+(
+x
+,
+t
+)
+
+
+
+{\displaystyle A(x,t)\,}
+represent the variation of air pressure relative to the norm in the case of a sound wave.
+
+
+
+
+
+A
+
+o
+
+
+
+
+
+{\displaystyle A_{o}\,}
+is the amplitude of the wave which is the peak magnitude of the oscillation.
+
+
+
+
+k
+
+
+
+{\displaystyle k\,}
+is the wave’s wave number, conceptually the radian spatial frequency, or more specifically the angular wave number and equals 2π/λ, where λ is the wavelength of the wave.
+
+
+
+k
+
+
+
+{\displaystyle k\,}
+has the units of radians per unit distance and is a measure of how rapidly the disturbance changes over a given distance at a particular point in time.
+
+
+
+
+x
+
+
+
+{\displaystyle x\,}
+is a point along the x-axis.
+
+
+
+y
+
+
+
+{\displaystyle y\,}
+and
+
+
+
+z
+
+
+
+{\displaystyle z\,}
+are not part of the equation because the wave's magnitude and phase are the same at every point on any given y-z plane in this example.
+
+
+
+
+ω
+
+
+
+{\displaystyle \omega \,}
+is the wave’s angular frequency which equals 2π/T, where T is the period of the wave.
+
+
+
+ω
+
+
+
+{\displaystyle \omega \,}
+has the units of radians per unit time and is a measure of how rapidly the disturbance changes over a given length of time at a particular point in space.
+
+
+
+
+t
+
+
+
+{\displaystyle t\,}
+is a given point in time
+
+
+
+
+φ
+
+
+
+{\displaystyle \varphi \,}
+is the phase shift of the wave and has the units of radians. A positive phase shift, at a given moment of time, shifts the wave in the negative x-axis direction. A phase shift of 2π radians shifts it exactly one wavelength.
+Since
+
+
+
+f
+=
+1
+
+/
+
+T
+
+
+
+
+{\displaystyle f=1/T\,\!}
+and
+
+
+
+c
+=
+λ
+
+/
+
+T
+=
+ω
+
+/
+
+k
+
+
+
+
+{\displaystyle c=\lambda /T=\omega /k\,\!}
+, the above equation can be written using other combinations of parameters: wavelength
+
+
+
+λ
+
+
+
+{\displaystyle \lambda \,}
+, period
+
+
+
+T
+
+
+
+{\displaystyle T\,}
+, frequency
+
+
+
+f
+
+
+
+{\displaystyle f\,}
+and velocity
+
+
+
+c
+
+
+
+{\displaystyle c\,}
+, as shown below
+
+
+
+
+A
+=
+
+A
+
+o
+
+
+cos
+⁡
+[
+2
+π
+(
+x
+
+/
+
+λ
+−
+t
+
+/
+
+T
+)
++
+φ
+]
+
+
+
+{\displaystyle A=A_{o}\cos[2\pi (x/\lambda -t/T)+\varphi ]\,}
+
+
+
+
+
+A
+=
+
+A
+
+o
+
+
+cos
+⁡
+[
+2
+π
+(
+x
+
+/
+
+λ
+−
+f
+t
+)
++
+φ
+]
+
+
+
+{\displaystyle A=A_{o}\cos[2\pi (x/\lambda -ft)+\varphi ]\,}
+
+
+
+
+
+A
+=
+
+A
+
+o
+
+
+cos
+⁡
+[
+(
+2
+π
+
+/
+
+λ
+)
+(
+x
+−
+c
+t
+)
++
+φ
+]
+
+
+
+{\displaystyle A=A_{o}\cos[(2\pi /\lambda )(x-ct)+\varphi ]\,}

@@ -1,0 +1,95 @@
+Nonlinear dynamical systems can be most easily understood with a one-dimensional example system where the change in some measurement of protein x's abundance depends only on itself:
+
+
+
+
+
+
+
+x
+˙
+
+
+
+=
+
+
+
+d
+x
+
+
+d
+t
+
+
+
+=
+f
+(
+x
+)
+
+
+
+{\displaystyle {\dot {x}}={\frac {dx}{dt}}=f(x)\,}
+
+Instead of solving the system analytically which can be difficult for many functions, it is often best to take a geometric approach and draw a phase portrait. A phase portrait is a qualitative sketch of the differential equation's behavior that shows equilibrium solutions or fixed points and the vector field on the real line.
+Bifurcations describe changes in the stability or existence of fixed points as a control parameter in the system changes. As a very simple explanation of a bifurcation in a dynamical system, consider an object balanced on top of a vertical beam. The mass of the object can be thought of as the control parameter. As the mass of the object increases, the beam's deflection from vertical, which is x, the dynamic variable, remains relatively stable. But when the mass reaches a certain point – the bifurcation point – the beam will suddenly buckle. Changes in the control parameter eventually changed the qualitative behavior of the system.
+For a more rigorous example, consider the dynamical system shown in figure 2
+
+
+
+
+
+
+
+x
+˙
+
+
+
+=
+−
+
+x
+
+2
+
+
++
+ε
+
+
+{\displaystyle {\dot {x}}=-x^{2}+\varepsilon }
+
+where ε is the control parameter. At first, when ε is greater than 0, the system has one stable fixed point and one unstable fixed point. As ε decreases the fixed points move together, briefly collide into a semi-stable fixed point at ε = 0, and then cease to exist when ε < 0.
+
+In this case, because the behavior of the system changes significantly when the control parameter ε is 0, 0 is a bifurcation point. This example bifurcation is called the saddle-node bifurcation and its bifurcation diagram (this time for
+
+
+
+
+
+
+x
+˙
+
+
+
+=
+
+x
+
+2
+
+
++
+ε
+
+
+{\displaystyle {\dot {x}}=x^{2}+\varepsilon }
+) is shown in figure 3.
+Other types of bifurcations are also important in dynamical systems, but the saddle node bifurcation is more important in biology. The reason for this is that biological systems are real and include small stochastic variations. For example, adding a very small term, 0 < h << 1 to a pitchfork bifurcation yields a stable fixed point and a saddle node bifurcation (figure 4). Similarly, a small error term collapses a transcritical bifurcation to two saddle-node bifurcations.
+
+Combined saddle node bifurcations in a system can generate multistability. Bistability (a special case of multistability) is an important property in many biological systems often produced by network architecture that contains positive feedback interactions and ultra-sensitive elements. Bistable systems are hysteretic, that is, their behavior depends on the history of the input. A hysteretic network can produce different output values for the same input value depending on its state (produce by the history of the input), a property crucial for switch-like control of cellular processes.

@@ -1,0 +1,17 @@
+MPLS uses the concept of forward equivalence class (FEC)
+to provide differential treatment to different media types. A
+group of packets that are forwarded in the same manner are
+said to belong to the same FEC. There is no limit to the
+number and granularity of FECs that can exists. Thus, it is
+possible to deﬁne a separate FEC for every ﬂow (which is not
+advisable due to large overheads) or for every media type, each
+tailored for that media type. One important thing to note here
+is that labels have only local signiﬁcance in the sense that two
+LSRs agree to use a particular label to signify a particular FEC
+among themselves. The same label can be used to distinguish a
+different FEC by another pair of LSRs. Thus,
+it becomes
+necessary to do label assignments, which includes label alloca-
+tion and label-to-FEC bindings on every hop of the LSP before
+the trafﬁc ﬂow can use the LSP. Label assignments can be
+initiated in one of the following three ways:

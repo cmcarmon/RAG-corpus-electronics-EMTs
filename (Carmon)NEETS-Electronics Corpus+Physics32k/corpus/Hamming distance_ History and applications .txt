@@ -1,0 +1,66 @@
+The Hamming distance is named after Richard Hamming, who introduced the concept in his fundamental paper on Hamming codes Error detecting and error correcting codes in 1950. Hamming weight analysis of bits is used in several disciplines including information theory, coding theory, and cryptography.
+It is used in telecommunication to count the number of flipped bits in a fixed-length binary word as an estimate of error, and therefore is sometimes called the signal distance. For q-ary strings over an alphabet of size q ≥ 2 the Hamming distance is applied in case of the q-ary symmetric channel, while the Lee distance is used for phase-shift keying or more generally channels susceptible to synchronization errors because the Lee distance accounts for errors of ±1. If
+
+
+
+q
+=
+2
+
+
+{\displaystyle q=2}
+or
+
+
+
+q
+=
+3
+
+
+{\displaystyle q=3}
+both distances coincide because any pair of elements from
+
+
+
+
+Z
+
+
+/
+
+2
+
+Z
+
+
+
+{\textstyle \mathbb {Z} /2\mathbb {Z} }
+or
+
+
+
+
+Z
+
+
+/
+
+3
+
+Z
+
+
+
+{\textstyle \mathbb {Z} /3\mathbb {Z} }
+differ by 1, but the distances are different for larger
+
+
+
+q
+
+
+{\displaystyle q}
+.
+The Hamming distance is also used in systematics as a measure of genetic distance.
+However, for comparing strings of different lengths, or strings where not just substitutions but also insertions or deletions have to be expected, a more sophisticated metric like the Levenshtein distance is more appropriate.

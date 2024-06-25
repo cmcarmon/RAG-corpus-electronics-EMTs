@@ -1,0 +1,9 @@
+Another very useful analysis is the time response of nonlinear
+circuits. This requires the solution of the differential equation
+3.6, and once again numerical methods are used. Usually the
+solution of the network at time t ¼ 0 is known, and the
+response is calculated after a time step of h at t þ h. All
+numerical solution methods replace the time derivative in
+equation 3.6 with a suitable approximation, and then the
+resulting equations are solved. Expanding the solution in a
+Taylor series, the following is obtained:

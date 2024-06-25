@@ -1,0 +1,7 @@
+OpenCard Framework
+OpenCard Framework (OCF) [6] objective is to offer to the programmer a transparency with regard to smart
+card  operating  systems,  card  terminals,  and  card  issuers.  To  achieve  this,  OCF  has  deﬁned  a  provision  of
+functions to support installation, removal, enumeration, selection of applications on the card and of functions
+to perform name resolution for data ﬁles on the card. Several mechanisms allow a user to develop an application
+without knowing where the card issuer placed his applications. OpenCard Framework based its architecture
+on two main parts: the CardTerminal layer and the CardService layer.

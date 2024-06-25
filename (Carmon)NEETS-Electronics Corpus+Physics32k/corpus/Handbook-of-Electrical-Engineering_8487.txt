@@ -1,0 +1,11 @@
+The 4:2 compressor (Fig. 86.5) actually compresses ﬁve partial product bits into three; however, it is connected
+in such a way that four of the inputs are coming from the same bit position of the weight j while one bit is fed
+from the neighboring position j-1 (known as carry-in). The output of such a 4-2 module consists of one bit
+in the position j and two bits in the position j+1. This structure does not represent a counter (though it became
+erroneously  known  as  a “4-2  counter”)  but  a “compressor”  which  would  compress  four  partial  product  bits
+into two (while using one bit laterally connected between adjacent 4-2 compressors). The efﬁciency of such a
+structure  is  higher  (it  reduces  the  number  of  partial  product  bits  by  one  half).  The  speed  of  such  a  4-2
+compressor  has  been  determined  by  the  speed  of  3  XOR  gates  in  series  (in  the  redesigned  version  of  4-2
+compressor) making such a scheme more efﬁcient that the one using 3:2 counters in a regular Wallace Tree.
+The other equally important feature of the use of a 4-2 compressor is that the interconnections between such
+cells follow more regular patterns than in the case of the Wallace Tree.

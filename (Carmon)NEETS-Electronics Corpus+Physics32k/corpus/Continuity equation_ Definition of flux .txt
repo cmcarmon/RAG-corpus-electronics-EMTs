@@ -1,0 +1,28 @@
+Before we can write down the continuity equation (below), we must first define flux, a quantity specifying flow or motion. (Note that the concept that we term "flux" is alternatively termed "flux density" in some literature, in which context "flux" denotes the surface integral of flux density. See the main article on Flux for details.)
+The continuity equation is useful when there is some quantity q which can flow or move, such as mass, energy, electric charge, momentum, number of molecules, etc. Let ρ be the volume density of this property, that is, the amount of q per unit volume.
+The way that this quantity q is flowing is described by its flux. The flux of q is a vector field, which we denote as j. Here are some examples and properties of flux:
+The dimension of flux is "amount of q flowing per unit time, through a unit area". For example, in the mass continuity equation for flowing water, if 1 gram per second of water is flowing through a pipe with cross-sectional area 1 cm2, then the average mass flux j inside the pipe is (1 gram / second) / cm2, and its direction is along the pipe in the direction that the water is flowing. Outside the pipe, where there is no water, the flux is zero.
+If there is a velocity field u which describes the relevant flow—in other words, if all of the quantity q at a point x is moving with velocity u(x)—then the flux is by definition equal to the density times the velocity field:
+
+
+
+
+
+j
+
+=
+ρ
+
+u
+
+
+
+{\displaystyle \mathbf {j} =\rho \mathbf {u} }
+
+
+For example, if in the mass continuity equation for flowing water, u is the water's velocity at each point, and ρ is the water's density at each point, then j would be the mass flux.
+In a well-known example, the flux of electric charge is the electric current density.
+
+If there is an imaginary surface S, then the surface integral of flux over S is equal to the amount of q that is passing through the surface S per unit time:
+
+in which ∬S dS is a surface integral.

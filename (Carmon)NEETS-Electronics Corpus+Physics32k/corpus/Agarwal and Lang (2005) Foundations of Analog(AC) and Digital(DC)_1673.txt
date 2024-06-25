@@ -1,0 +1,8 @@
+shown in Figure 9.3. In Section 10.4 we analyzed this waveform in detail and
+found that it contains a decaying exponential. This decaying exponential is
+the homogeneous response of the first-order circuit formed by the Thévenin
+equivalent of the first inverter and the MOSFET gate capacitance in the sec-
+ond inverter. Now suppose that the interconnect between the two inverters is
+long, so that its parasitic inductance also becomes important. In this case, the
+dynamics of the cascaded inverters change considerably, and the waveform of
+vIN2 takes on the second-order character shown in Figure 12.3.

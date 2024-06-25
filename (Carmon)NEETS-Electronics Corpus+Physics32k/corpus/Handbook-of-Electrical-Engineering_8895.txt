@@ -1,0 +1,14 @@
+The virtual memory hierarchy is different than the cache/main memory hierarchy in a number of respects,
+resulting primarily from the fact that there is a much greater difference in latency between accesses to the disk
+and the main memory. While a typical latency ratio for cache and main memory is one order of magnitude
+(main memory has a latency ten times larger than the cache), the latency ratio between disk and main memory
+is often four orders of magnitude or more. This large ratio exists because the disk is a mechanical device—with
+a latency partially determined by velocity and inertia—whereas main memory is limited only by electronic and
+energy constraints. Because of the much larger penalty for a page miss, many design decisions are affected by
+the need to minimize the frequency of misses. When a miss does occur, the processor could be idle for a period
+during  which  it  could  execute  tens  of  thousands  of  instructions.  Rather  than  stall  during  this  time,  as  may
+occur upon a cache miss, the processor invokes the operating system and may switch to a different task. Because
+the operating system is being invoked anyway, it is convenient to rely on the operating system to set up and
+maintain the page table, unlike cache memory, where it is done entirely in hardware. The fact that this accounting
+occurs in the operating system enables the system to use virtual memory to enforce protection on the memory.
+This ensures that no program can corrupt the data in memory that belong to any other program.

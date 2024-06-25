@@ -1,0 +1,54 @@
+Let C be a category. A subcategory S of C is given by
+a subcollection of objects of C, denoted ob(S),
+a subcollection of morphisms of C, denoted hom(S).
+such that
+for every X in ob(S), the identity morphism idX is in hom(S),
+for every morphism f : X → Y in hom(S), both the source X and the target Y are in ob(S),
+for every pair of morphisms f and g in hom(S) the composite f o g is in hom(S) whenever it is defined.
+These conditions ensure that S is a category in its own right: the collection of objects is ob(S), the collection of morphisms is hom(S), and the identities and composition are as in C. There is an obvious faithful functor I : S → C, called the inclusion functor which takes objects and morphisms to themselves.
+Let S be a subcategory of a category C. We say that S is a full subcategory of C if for each pair of objects X and Y of S
+
+
+
+
+
+
+H
+o
+m
+
+
+
+S
+
+
+
+(
+X
+,
+Y
+)
+=
+
+
+H
+o
+m
+
+
+
+C
+
+
+
+(
+X
+,
+Y
+)
+.
+
+
+{\displaystyle \mathrm {Hom} _{\mathcal {S}}(X,Y)=\mathrm {Hom} _{\mathcal {C}}(X,Y).}
+
+A full subcategory is one that includes all morphisms between objects of S. For any collection of objects A in C, there is a unique full subcategory of C whose objects are those in A.

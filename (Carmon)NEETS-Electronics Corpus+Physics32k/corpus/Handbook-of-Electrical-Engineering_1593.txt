@@ -1,0 +1,7 @@
+The solution to this problem is closely related to the trigonometric moment problem, and it has a long and
+continuing history through the works of Schur [1917]; Nevanlinna, Akheizer and Krein [Akheizer and Krein,
+1962]; Geronimus [1954]; and Shohat and Tamarkin [1970], to name a few. If the given autocorrelations are
+such that the matrix Tn in Eq. (16.4) is singular, then there exists an m £ n such that Tm – 1 is positive deﬁnite
+(Tm – 1 > 0) and Tm is singular [det Tm = 0, det (.) representing the determinant of (.)]. In that case, there exists
+a  unique  vector  X  =  (x0,  x1,  .  .  .,  xm)T  such  that  Tm X  =  0  and  further,  the  autocorrelations  have  a  unique
+extension given by

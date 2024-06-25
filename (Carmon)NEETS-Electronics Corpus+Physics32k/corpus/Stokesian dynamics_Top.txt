@@ -1,0 +1,154 @@
+Stokesian dynamics is a solution technique for the Langevin equation, which is the relevant form of Newton's 2nd law for a Brownian particle. The method treats the suspended particles in a discrete sense while the continuum approximation remains valid for the surrounding fluid, i.e., the suspended particles are generally assumed to be significantly larger than the molecules of the solvent. The particles then interact through hydrodynamic forces transmitted via the continuum fluid, and when the particle Reynolds number is small, these forces are determined through the linear Stokes equations (hence the name of the method). In addition, the method can also resolve non-hydrodynamic forces, such as Brownian forces, arising from the fluctuating motion of the fluid, and interparticle or external forces. Stokesian Dynamics can thus be applied to a variety of problems, including sedimentation, diffusion and rheology, and it aims to provide the same level of understanding for multiphase particulate systems as molecular dynamics does for statistical properties of matter. For
+
+
+
+N
+
+
+{\displaystyle N}
+rigid particles of radius
+
+
+
+a
+
+
+{\displaystyle a}
+suspended in an incompressible Newtonian fluid of viscosity
+
+
+
+η
+
+
+{\displaystyle \eta }
+and density
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+, the motion of the fluid is governed by the Navier–Stokes equations, while the motion of the particles is described by the coupled equation of motion:
+
+
+
+
+
+m
+
+
+
+
+d
+
+U
+
+
+
+d
+t
+
+
+
+=
+
+
+F
+
+
+
+H
+
+
+
++
+
+
+F
+
+
+
+B
+
+
+
++
+
+
+F
+
+
+
+P
+
+
+
+.
+
+
+{\displaystyle \mathbf {m} {\frac {d\mathbf {U} }{dt}}=\mathbf {F} ^{\mathrm {H} }+\mathbf {F} ^{\mathrm {B} }+\mathbf {F} ^{\mathrm {P} }.}
+
+In the above equation
+
+
+
+
+U
+
+
+
+{\displaystyle \mathbf {U} }
+is the particle translational/rotational velocity vector of dimension 6N.
+
+
+
+
+
+F
+
+
+
+H
+
+
+
+
+
+{\displaystyle \mathbf {F} ^{\mathrm {H} }}
+is the hydrodynamic force, i.e., force exerted by the fluid on the particle due to relative motion between them.
+
+
+
+
+
+F
+
+
+
+B
+
+
+
+
+
+{\displaystyle \mathbf {F} ^{\mathrm {B} }}
+is the stochastic Brownian force due to thermal motion of fluid particles.
+
+
+
+
+
+F
+
+
+
+P
+
+
+
+
+
+{\displaystyle \mathbf {F} ^{\mathrm {P} }}
+is the deterministic nonhydrodynamic force, which may be almost any form of interparticle or external force, e.g. electrostatic repulsion between like charged particles. Brownian dynamics is one of the popular techniques of solving the Langevin equation, but the hydrodynamic interaction in Brownian dynamics is highly simplified and normally includes only the isolated body resistance. On the other hand, Stokesian dynamics includes the many body hydrodynamic interactions. Hydrodynamic interaction is very important for non-equilibrium suspensions, like a sheared suspension, where it plays a vital role in its microstructure and hence its properties. Stokesian dynamics is used primarily for non-equilibrium suspensions where it has been shown to provide results which agree with experiments.

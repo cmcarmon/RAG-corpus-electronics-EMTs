@@ -1,0 +1,9 @@
+will be called the circuit connectivity matrix, and each row of
+B corresponds to a cycle of the circuit graph and contains
+elements from the incidence matrix A combined with zeros
+depending on whether a skew (an edge) belongs to the cycle.
+Note that since each cycle contains exactly one chord, the
+cycles can always be permuted such that the cycles appear in
+the order of the chords i.e. C1 corresponds to e1, C2 corres-
+ponds to e2, and so on). If this correspondence is applied, the
+matrix B can be represented as:

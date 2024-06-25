@@ -1,0 +1,14 @@
+The control ﬂow of a program can be represented by a
+control ﬂow graph (CFG) in which the nodes represent
+some program unit, and edges represent the syntactically
+allowed ﬂow of control. A node can be a single statement or
+a block of statements. Formally, a node of the CFG is a block of
+the program with exactly one entry point at the top of the
+block and exactly one exit point at the bottom of the block.
+The last instruction in a block may be a branch or
+jump
+instruction, although this is not necessary. There is an arc in
+the CFG from node i to node j if the program execution can
+correctly ﬂow from the last instruction of block i to the ﬁrst
+instruction of block j. An example of CFG extraction from a
+program is shown in Figure 8.11.

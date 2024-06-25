@@ -1,0 +1,8 @@
+RTCP is a control protocol that works in conjunction with
+RTP and provides participants with useful statistics about the
+number of packets sent, number of packets lost, interarrival
+jitter, and round trip time. This information can be used by the
+sources to adjust their data rate. Other information, such as
+e-mail address, name, and phone number are included in the
+RTCP packets and allow all users to know the identities of the
+other users for that session.

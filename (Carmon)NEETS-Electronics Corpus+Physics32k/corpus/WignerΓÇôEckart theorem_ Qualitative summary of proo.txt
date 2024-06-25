@@ -1,0 +1,97 @@
+The Wigner–Eckart theorem works because all 45 of these different calculations are related to each other by rotations. If an electron is in one of the 2p orbitals, rotating the system will generally move it into a different 2p orbital (usually it will wind up in a quantum superposition of all three basis states, m = +1, 0, −1). Similarly, if an electron is in one of the 4d orbitals, rotating the system will move it into a different 4d orbital. Finally, an analogous statement is true for the position operator: when the system is rotated, the three different components of the position operator are effectively interchanged or mixed.
+If we start by knowing just one of the 45 values (say, we know that
+
+
+
+⟨
+2
+p
+,
+
+m
+
+1
+
+
+
+|
+
+
+r
+
+i
+
+
+
+|
+
+4
+d
+,
+
+m
+
+2
+
+
+⟩
+=
+K
+
+
+{\displaystyle \langle 2p,m_{1}|r_{i}|4d,m_{2}\rangle =K}
+) and then we rotate the system, we can infer that K is also the matrix element between the rotated version of
+
+
+
+⟨
+2
+p
+,
+
+m
+
+1
+
+
+
+|
+
+
+
+{\displaystyle \langle 2p,m_{1}|}
+, the rotated version of
+
+
+
+
+r
+
+i
+
+
+
+
+{\displaystyle r_{i}}
+, and the rotated version of
+
+
+
+
+|
+
+4
+d
+,
+
+m
+
+2
+
+
+⟩
+
+
+{\displaystyle |4d,m_{2}\rangle }
+. This gives an algebraic relation involving K and some or all of the 44 unknown matrix elements. Different rotations of the system lead to different algebraic relations, and it turns out that there is enough information to figure out all of the matrix elements in this way.
+(In practice, when working through this math, we usually apply angular momentum operators to the states, rather than rotating the states. But this is fundamentally the same thing, because of the close mathematical relation between rotations and angular momentum operators.)

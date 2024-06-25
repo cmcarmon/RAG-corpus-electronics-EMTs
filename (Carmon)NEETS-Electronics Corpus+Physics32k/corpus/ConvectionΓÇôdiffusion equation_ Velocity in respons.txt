@@ -1,0 +1,106 @@
+In some cases, the average velocity field
+
+
+
+
+
+
+v
+→
+
+
+
+
+
+{\displaystyle {\vec {v}}}
+exists because of a force; for example, the equation might describe the flow of ions dissolved in a liquid, with an electric field pulling the ions in some direction (as in gel electrophoresis). In this situation, it is usually called the drift-diffusion equation or the Smoluchowski equation, after Marian Smoluchowski who described it in 1915 (not to be confused with the Einstein–Smoluchowski relation or Smoluchowski coagulation equation).
+Typically, the average velocity is directly proportional to the applied force, giving the equation:
+
+
+
+
+
+
+
+∂
+c
+
+
+∂
+t
+
+
+
+=
+∇
+⋅
+(
+D
+∇
+c
+)
+−
+∇
+⋅
+(
+
+ζ
+
+−
+1
+
+
+
+
+
+F
+→
+
+
+
+c
+)
++
+R
+
+
+{\displaystyle {\frac {\partial c}{\partial t}}=\nabla \cdot (D\nabla c)-\nabla \cdot (\zeta ^{-1}{\vec {F}}c)+R}
+
+where
+
+
+
+
+
+
+F
+→
+
+
+
+
+
+{\displaystyle {\vec {F}}}
+is the force, and
+
+
+
+ζ
+
+
+{\displaystyle \zeta }
+characterizes the friction or viscous drag. (The inverse
+
+
+
+
+ζ
+
+−
+1
+
+
+
+
+{\displaystyle \zeta ^{-1}}
+is called mobility.)

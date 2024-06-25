@@ -1,0 +1,39 @@
+Equations or systems that are nonlinear can give rise to a richer variety of behavior than can linear systems. One example is Newton's method of iterating to a root of a nonlinear expression. If the expression has more than one real root, some starting points for the iterative algorithm will lead to one of the roots asymptotically, and other starting points will lead to another. The basins of attraction for the expression's roots are generally not simple—it is not simply that the points nearest one root all map there, giving a basin of attraction consisting of nearby points. The basins of attraction can be infinite in number and arbitrarily small. For example, for the function
+
+
+
+f
+(
+x
+)
+=
+
+x
+
+3
+
+
+−
+2
+
+x
+
+2
+
+
+−
+11
+x
++
+12
+
+
+{\displaystyle f(x)=x^{3}-2x^{2}-11x+12}
+, the following initial conditions are in successive basins of attraction:
+
+2.35287527 converges to 4;
+2.35284172 converges to −3;
+2.35283735 converges to 4;
+2.352836327 converges to −3;
+2.352836323 converges to 1.
+Newton's method can also be applied to complex functions to find their roots. Each root has a basin of attraction in the complex plane; these basins can be mapped as in the image shown. As can be seen, the combined basin of attraction for a particular root can have many disconnected regions. For many complex functions, the boundaries of the basins of attraction are fractals.

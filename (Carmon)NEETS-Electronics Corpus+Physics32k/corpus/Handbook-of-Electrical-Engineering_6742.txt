@@ -1,0 +1,7 @@
+The MAC sublayer speciﬁes the media access protocol that stations use to share the media. In fully broadcast
+media no more than one station may transmit at a time, so the MAC sublayer manages exclusive access to the
+broadcast media. The ring topology is well suited to a token-passing MAC protocol, which gives transmission
+rights to the station holding the token. The token is represented by a special packet that is passed sequentially
+from station to station. When a station recognizes the token, it seizes it and begins transmitting buffered packets,
+or passes the token to the next station if it has no packet to transmit. To limit the time that a station can hold
+the token, the MAC protocol can implement one of several disciplines:

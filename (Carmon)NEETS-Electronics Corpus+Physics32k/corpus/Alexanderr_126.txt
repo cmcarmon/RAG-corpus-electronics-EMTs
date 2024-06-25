@@ -1,0 +1,13 @@
+The third step in nodal analysis is to solve for the node voltages.
+If we apply KCL to 
+simul-
+taneous  equations  such  as  Eqs.  (3.5)  and  (3.6)  or  (3.7)  and  (3.8).  For
+the circuit of Fig. 3.2, we solve Eqs. (3.5) and (3.6) or (3.7) and (3.8)
+to obtain the node voltages 
+using any standard method, such
+as  the  substitution  method,  the  elimination  method,  Cramer’s  rule,  or
+matrix inversion. To use either of the last two methods, one must cast
+the simultaneous equations in matrix form. For example, Eqs. (3.7) and
+(3.8) can be cast in matrix form as
+  ⫺G 2
+  G 2 ⫹ G 3d c v1

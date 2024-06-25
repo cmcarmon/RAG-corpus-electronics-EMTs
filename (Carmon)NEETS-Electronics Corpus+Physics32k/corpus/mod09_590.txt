@@ -1,0 +1,9 @@
+From T0 to T1 the output follows the input because of the increasing emitter-base forward bias. 
+However, at T1 the collector voltage reaches −2 volts and D2 is forward biased. D2 conducts and limits 
+the output to −2 volts (the value of B3). D2 conducts until T2 when the input decreases below −2 volts. At 
+this time, D2 cuts off and the output again follows the input because of the decreasing forward bias on 
+Q1. At T3 the input reaches −8 volts and forward biases D1. D1 conducts and any further increase 
+(beyond −8 volts) of the input has no effect on the output. When the input returns to a value more positive 
+than −8 volts, D1 cuts off and the output again follows the input. This circuit action is the same for all 
+inputs. The output remains the same as the input except that both positive and negative extremes are 
+clamped at −2 and −8 volts, respectively. 

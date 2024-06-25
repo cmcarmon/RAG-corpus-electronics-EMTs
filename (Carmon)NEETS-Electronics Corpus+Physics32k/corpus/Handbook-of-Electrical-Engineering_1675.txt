@@ -1,0 +1,7 @@
+The  best  possible  performance  for  EKFs  can  be  computed  using  theoretical  lower  bounds  on  the  error
+covariance matrix, such as the Cramér-Rao bound (CRB) for parameter estimation. For the standard Kalman
+ﬁlter setup with zero process noise (Qk = 0), it turns out that the CRB is simply the Kalman ﬁlter error covariance
+matrix itself; see Taylor [1979]. On the other hand, for non-zero process noise, the available bounds are much
+more complex to compute and they are generally not tight; see Kerr [1989] for a detailed review of the state
+of the art. More generally, the theory of error bounds when data association errors are considered is developed
+in Daum [1997a, b].

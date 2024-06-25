@@ -1,0 +1,14 @@
+using this approach on the ladder in Figure 4.9 results in the
+circuit in Figure 4.19, in complete analogy with the GIC circuit
+in Figure 4.11. Notice that all gm cells in the simulated ladder
+are the same, a convenience for matching and design automa-
+tion. The circuits in Figures 4.11 and 4.19 have identical
+performance in all respects, except that the useful frequency
+range of the OTA-based design is much larger. Even when
+using fast ampliﬁers with, say, f t  100 MHz, the useful oper-
+ating frequencies of the GIC ﬁlter in Figure 4.11 will be less
+than about 10 MHz, whereas it is not difﬁcult to achieve
+operation at several 100 MHz with the OTA-based circuit.
+A signal-ﬂow graph method need not be discussed here be-
+cause, as we stated, the resulting circuitry is identical to the one
+obtained with the element replacement method.

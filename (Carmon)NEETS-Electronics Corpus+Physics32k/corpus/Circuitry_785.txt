@@ -1,0 +1,10 @@
+Transient analysis 
+ 
+The transient analysis feature of a SPICE package 
+computes 
+transient  output  variables  as  a 
+function of time over a user-specified time interval.  
+The initial conditions are automatically determined 
+by  a  DC  analysis.    All  sources  that  are  not  time 
+dependent (for example, power supplies) are set to 
+their DC value.   

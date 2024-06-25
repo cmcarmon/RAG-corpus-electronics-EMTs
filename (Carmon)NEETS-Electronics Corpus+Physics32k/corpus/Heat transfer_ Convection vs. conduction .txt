@@ -1,0 +1,185 @@
+In a body of fluid that is heated from underneath its container, conduction and convection can be considered to compete for dominance. If heat conduction is too great, fluid moving down by convection is heated by conduction so fast that its downward movement will be stopped due to its buoyancy, while fluid moving up by convection is cooled by conduction so fast that its driving buoyancy will diminish. On the other hand, if heat conduction is very low, a large temperature gradient may be formed and convection might be very strong.
+The Rayleigh number (
+
+
+
+R
+a
+
+
+{\displaystyle Ra}
+) is the product of the Grashof and Prandtl numbers. It is a measure which determines the relative strength of conduction and convection.
+
+
+
+
+R
+a
+=
+G
+r
+P
+r
+=
+
+
+
+g
+Δ
+ρ
+
+L
+
+3
+
+
+
+
+μ
+α
+
+
+
+=
+
+
+
+g
+β
+Δ
+T
+
+L
+
+3
+
+
+
+
+ν
+α
+
+
+
+
+
+{\displaystyle Ra=GrPr={\frac {g\Delta \rho L^{3}}{\mu \alpha }}={\frac {g\beta \Delta TL^{3}}{\nu \alpha }}}
+
+where
+g is acceleration due to gravity,
+ρ is the density with
+
+
+
+Δ
+ρ
+
+
+{\displaystyle \Delta \rho }
+being the density difference between the lower and upper ends,
+μ is the dynamic viscosity,
+α is the Thermal diffusivity,
+β is the volume thermal expansivity (sometimes denoted α elsewhere),
+T is the temperature,
+ν is the kinematic viscosity, and
+L is characteristic length.
+The Rayleigh number can be understood as the ratio between the rate of heat transfer by convection to the rate of heat transfer by conduction; or, equivalently, the ratio between the corresponding timescales (i.e. conduction timescale divided by convection timescale), up to a numerical factor. This can be seen as follows, where all calculations are up to numerical factors depending on the geometry of the system.
+The buoyancy force driving the convection is roughly
+
+
+
+g
+Δ
+ρ
+
+L
+
+3
+
+
+
+
+{\displaystyle g\Delta \rho L^{3}}
+, so the corresponding pressure is roughly
+
+
+
+g
+Δ
+ρ
+L
+
+
+{\displaystyle g\Delta \rho L}
+. In steady state, this is canceled by the shear stress due to viscosity, and therefore roughly equals
+
+
+
+μ
+V
+
+/
+
+L
+=
+μ
+
+/
+
+
+T
+
+c
+o
+n
+v
+
+
+
+
+{\displaystyle \mu V/L=\mu /T_{conv}}
+, where V is the typical fluid velocity due to convection and
+
+
+
+
+T
+
+c
+o
+n
+v
+
+
+
+
+{\displaystyle T_{conv}}
+the order of its timescale. The conduction timescale, on the other hand, is of the order of
+
+
+
+
+T
+
+c
+o
+n
+d
+
+
+=
+
+L
+
+2
+
+
+
+/
+
+α
+
+
+{\displaystyle T_{cond}=L^{2}/\alpha }
+.
+Convection occurs when the Rayleigh number is above 1,000–2,000.

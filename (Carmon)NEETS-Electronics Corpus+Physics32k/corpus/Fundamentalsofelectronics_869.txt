@@ -1,0 +1,13 @@
+If the alphabet probabilities were diﬀerent, clearly a diﬀerent tree, and therefore diﬀerent code,
+could well result. Furthermore, we may not be able to achieve the entropy limit. If our symbols
+had the probabilities Pr [a1] = 1
+20, the average number
+of bits/symbol resulting from the Huﬀman coding algorithm would equal 1.75 bits. However, the
+entropy limit is 1.68 bits. The Huﬀman code does satisfy the Source Coding Theorem—its average
+length is within one bit of the alphabet’s entropy—but you might wonder if a better code existed.
+David Huﬀman showed mathematically that no other code could achieve a shorter average code
+than his. We can’t do better.
+Exercise 6.22
+(Solution on p. 257.)
+Derive the Huﬀman code for this second set of probabilities, and verify the claimed average code
+length and alphabet entropy.

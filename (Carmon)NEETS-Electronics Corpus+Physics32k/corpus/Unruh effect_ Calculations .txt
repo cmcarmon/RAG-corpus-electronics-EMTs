@@ -1,0 +1,172 @@
+In special relativity, an observer moving with uniform proper acceleration a through Minkowski spacetime is conveniently described with Rindler coordinates. The line element in Rindler coordinates is
+
+
+
+
+d
+
+s
+
+2
+
+
+=
+−
+
+ρ
+
+2
+
+
+
+d
+
+σ
+
+2
+
+
++
+d
+
+ρ
+
+2
+
+
+,
+
+
+{\displaystyle ds^{2}=-\rho ^{2}\,d\sigma ^{2}+d\rho ^{2},}
+
+where ρ = 1/a, and where σ is related to the observer's proper time τ by σ = aτ (here c = 1). Rindler coordinates are related to the standard (Cartesian) Minkowski coordinates by
+
+
+
+
+
+
+
+
+x
+
+
+
+=
+ρ
+cosh
+⁡
+σ
+
+
+
+
+t
+
+
+
+=
+ρ
+sinh
+⁡
+σ
+.
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}x&=\rho \cosh \sigma \\t&=\rho \sinh \sigma .\end{aligned}}}
+
+An observer moving with fixed ρ traces out a hyperbola in Minkowski space, therefore this type of motion is called hyperbolic motion.
+An observer moving along a path of constant ρ is uniformly accelerating, and is coupled to field modes which have a definite steady frequency as a function of σ. These modes are constantly Doppler shifted relative to ordinary Minkowski time as the detector accelerates, and they change in frequency by enormous factors, even after only a short proper time.
+Translation in σ is a symmetry of Minkowski space: It is a boost around the origin. For a detector coupled to modes with a definite frequency in σ, the boost operator is then the Hamiltonian. In the Euclidean field theory, these boosts analytically continue to rotations, and the rotations close after 2π. So
+
+
+
+
+
+e
+
+2
+π
+i
+H
+
+
+=
+1.
+
+
+{\displaystyle e^{2\pi iH}=1.}
+
+The path integral for this Hamiltonian is closed with period 2π which guarantees that the H modes are thermally occupied with temperature 1/2π. This is not an actual temperature, because H is dimensionless. It is conjugate to the timelike polar angle σ, which is also dimensionless. To restore the length dimension, note that a mode of fixed frequency f in σ at position ρ has a frequency which is determined by the square root of the (absolute value of the) metric at ρ, the redshift factor. From the equation for the line element given above, it is easily seen that this is just ρ. The actual inverse temperature at this point is therefore
+
+
+
+
+β
+=
+2
+π
+ρ
+.
+
+
+{\displaystyle \beta =2\pi \rho .}
+
+Since the acceleration of a trajectory at constant ρ is equal to 1/a, the actual inverse temperature observed is
+
+
+
+
+β
+=
+
+
+
+2
+π
+
+a
+
+
+.
+
+
+{\displaystyle \beta ={\frac {2\pi }{a}}.}
+
+Restoring units yields
+
+
+
+
+
+k
+
+B
+
+
+T
+=
+
+
+
+ℏ
+a
+
+
+2
+π
+c
+
+
+
+.
+
+
+{\displaystyle k_{\text{B}}T={\frac {\hbar a}{2\pi c}}.}
+
+The temperature of the vacuum, seen by an isolated observer accelerating at the Earth's gravitational acceleration of g = 9.81 m s−2, is only 4×10−20 K. For an experimental test of the Unruh effect it is planned to use accelerations up to 1026 m s−2, which would give a temperature of about 400000 K.
+The Rindler derivation of the Unruh effect is unsatisfactory to some, since the detector's path is super-deterministic. Unruh later developed the Unruh–DeWitt particle detector model to circumvent this objection.

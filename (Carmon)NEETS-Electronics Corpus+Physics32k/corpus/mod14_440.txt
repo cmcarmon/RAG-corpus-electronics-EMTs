@@ -1,0 +1,5 @@
+At CP4, FF2 and FF4 reset, and FF3 sets. FF1 remains reset because of the HIGH at the K input. The
+output of AND gate 2 goes LOW because the output of FF4 is LOW and the third digit of the number is
+output on the serial line. CP5 causes FF4 to set and FF3 to reset. CP5 and the HIGH from FF4 cause
+AND gate 2 to output the last digit of the number on the serial line. It took a total of four CLK pulses to
+input the number in parallel and output it in serial.

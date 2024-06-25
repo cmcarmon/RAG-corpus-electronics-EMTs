@@ -1,0 +1,10 @@
+In the previous section, an n-level nested Do-loop can be
+regarded as a terminating program. In this section, a nonter-
+minating recurrent program is taken into consideration.
+Examples of this kind of algorithm include IIR and adaptive
+ﬁlters. These algorithms are characterized by a current output
+that is deﬁned by a given function of the previous outputs and
+the current input. As such, the validity of the output depends
+on how often its computation is initiated, called the initiation
+period. Two optimization techniques loop unfolding and
+look-ahead transformation are discussed next.

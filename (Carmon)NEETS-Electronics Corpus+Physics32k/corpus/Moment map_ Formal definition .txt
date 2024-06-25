@@ -1,0 +1,334 @@
+Let M be a manifold with symplectic form ω. Suppose that a Lie group G acts on M via symplectomorphisms (that is, the action of each g in G preserves ω). Let
+
+
+
+
+
+g
+
+
+
+
+{\displaystyle {\mathfrak {g}}}
+be the Lie algebra of G,
+
+
+
+
+
+
+g
+
+
+
+∗
+
+
+
+
+{\displaystyle {\mathfrak {g}}^{*}}
+its dual, and
+
+
+
+
+⟨
+,
+⟩
+:
+
+
+
+g
+
+
+
+∗
+
+
+×
+
+
+g
+
+
+→
+
+R
+
+
+
+{\displaystyle \langle ,\rangle :{\mathfrak {g}}^{*}\times {\mathfrak {g}}\to \mathbf {R} }
+
+the pairing between the two. Any ξ in
+
+
+
+
+
+g
+
+
+
+
+{\displaystyle {\mathfrak {g}}}
+induces a vector field ρ(ξ) on M describing the infinitesimal action of ξ. To be precise, at a point x in M the vector
+
+
+
+ρ
+(
+ξ
+
+)
+
+x
+
+
+
+
+{\displaystyle \rho (\xi )_{x}}
+is
+
+
+
+
+
+
+
+
+
+d
+
+d
+t
+
+
+
+|
+
+
+t
+=
+0
+
+
+exp
+⁡
+(
+t
+ξ
+)
+⋅
+x
+,
+
+
+{\displaystyle \left.{\frac {d}{dt}}\right|_{t=0}\exp(t\xi )\cdot x,}
+
+where
+
+
+
+exp
+:
+
+
+g
+
+
+→
+G
+
+
+{\displaystyle \exp :{\mathfrak {g}}\to G}
+is the exponential map and
+
+
+
+⋅
+
+
+{\displaystyle \cdot }
+denotes the G-action on M. Let
+
+
+
+
+ι
+
+ρ
+(
+ξ
+)
+
+
+ω
+
+
+
+{\displaystyle \iota _{\rho (\xi )}\omega \,}
+denote the contraction of this vector field with ω. Because G acts by symplectomorphisms, it follows that
+
+
+
+
+ι
+
+ρ
+(
+ξ
+)
+
+
+ω
+
+
+
+{\displaystyle \iota _{\rho (\xi )}\omega \,}
+is closed for all ξ in
+
+
+
+
+
+g
+
+
+
+
+{\displaystyle {\mathfrak {g}}}
+.
+A moment map for the G-action on (M, ω) is a map
+
+
+
+μ
+:
+M
+→
+
+
+
+g
+
+
+
+∗
+
+
+
+
+{\displaystyle \mu :M\to {\mathfrak {g}}^{*}}
+such that
+
+
+
+
+d
+(
+⟨
+μ
+,
+ξ
+⟩
+)
+=
+
+ι
+
+ρ
+(
+ξ
+)
+
+
+ω
+
+
+{\displaystyle d(\langle \mu ,\xi \rangle )=\iota _{\rho (\xi )}\omega }
+
+for all ξ in
+
+
+
+
+
+g
+
+
+
+
+{\displaystyle {\mathfrak {g}}}
+. Here
+
+
+
+⟨
+μ
+,
+ξ
+⟩
+
+
+{\displaystyle \langle \mu ,\xi \rangle }
+is the function from M to R defined by
+
+
+
+⟨
+μ
+,
+ξ
+⟩
+(
+x
+)
+=
+⟨
+μ
+(
+x
+)
+,
+ξ
+⟩
+
+
+{\displaystyle \langle \mu ,\xi \rangle (x)=\langle \mu (x),\xi \rangle }
+. The moment map is uniquely defined up to an additive constant of integration.
+A moment map is often also required to be G-equivariant, where G acts on
+
+
+
+
+
+
+g
+
+
+
+∗
+
+
+
+
+{\displaystyle {\mathfrak {g}}^{*}}
+via the coadjoint action. If the group is compact or semisimple, then the constant of integration can always be chosen to make the moment map coadjoint equivariant; however in general the coadjoint action must be modified to make the map equivariant (this is the case for example for the Euclidean group). The modification is by a 1-cocycle on the group with values in
+
+
+
+
+
+
+g
+
+
+
+∗
+
+
+
+
+{\displaystyle {\mathfrak {g}}^{*}}
+, as first described by Souriau (1970).

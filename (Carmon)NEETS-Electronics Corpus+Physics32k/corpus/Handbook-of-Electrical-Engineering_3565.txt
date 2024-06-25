@@ -1,0 +1,9 @@
+To  simplify  the  task  of  fault  testing,  the  physical  faults  described  above  are  translated  into  logical  faults.
+Typically,  a  single  logical  fault  covers  several  physical  faults. A  popular  logical  fault  model  is  the single  stuck
+line (SSL) fault model. The single stuck line fault model supports faults that denote wires permanently set to
+a logic 0, “stuck-at-0,” or a logic 1, “stuck-at-1.” Building on the single stuck line fault model, the multiple stuck
+line (MSL) fault model supports faults where multiple wires are stuck-at-0/stuck-at-1. Stuck fault models do
+not address all physical faults because not all physical faults result in signal lines permanently set to low or high
+voltages,  i.e.,  stuck-at-0  or  stuck-at-1  logic  faults.  Thus,  other  fault  models  have  been  developed  to  address
+speciﬁc  failure  mechanisms.  For  example,  the  bridging  fault  model  addresses  electrical  shorts  that  cause
+unwanted coupling or spurious feedback loops.

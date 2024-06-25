@@ -1,0 +1,170 @@
+In most flows of liquids, and of gases at low Mach number, the density of a fluid parcel can be considered to be constant, regardless of pressure variations in the flow. Therefore, the fluid can be considered to be incompressible and these flows are called incompressible flows. Bernoulli performed his experiments on liquids, so his equation in its original form is valid only for incompressible flow. A common form of Bernoulli's equation, valid at any arbitrary point along a streamline, is:
+
+where:
+v is the fluid flow speed at a point on a streamline,
+g is the acceleration due to gravity,
+z is the elevation of the point above a reference plane, with the positive z-direction pointing upward – so in the direction opposite to the gravitational acceleration,
+p is the pressure at the chosen point, and
+ρ is the density of the fluid at all points in the fluid.
+The constant on the right-hand side of the equation depends only on the streamline chosen, whereas v, z and p depend on the particular point on that streamline.
+The following assumptions must be met for this Bernoulli equation to apply:
+the flow must be steady, i.e. the fluid properties (velocity, density, etc...) at a point cannot change with time,
+the flow must be incompressible – even though pressure varies, the density must remain constant along a streamline;
+friction by viscous forces has to be negligible.
+For conservative force fields (not limited to the gravitational field), Bernoulli's equation can be generalized as:
+
+
+
+
+
+
+
+v
+
+2
+
+
+2
+
+
++
+Ψ
++
+
+
+p
+ρ
+
+
+=
+
+constant
+
+
+
+{\displaystyle {\frac {v^{2}}{2}}+\Psi +{\frac {p}{\rho }}={\text{constant}}}
+
+where Ψ is the force potential at the point considered on the streamline. E.g. for the Earth's gravity Ψ = gz.
+By multiplying with the fluid density ρ, equation (A) can be rewritten as:
+
+
+
+
+
+
+
+1
+2
+
+
+
+ρ
+
+v
+
+2
+
+
++
+ρ
+g
+z
++
+p
+=
+
+constant
+
+
+
+{\displaystyle {\tfrac {1}{2}}\rho v^{2}+\rho gz+p={\text{constant}}}
+
+or:
+
+
+
+
+q
++
+ρ
+g
+h
+=
+
+p
+
+0
+
+
++
+ρ
+g
+z
+=
+
+constant
+
+
+
+{\displaystyle q+\rho gh=p_{0}+\rho gz={\text{constant}}}
+
+where
+q = 1/2ρv2 is dynamic pressure,
+h = z + p/ρg is the piezometric head or hydraulic head (the sum of the elevation z and the pressure head) and
+p0 = p + q is the total pressure (the sum of the static pressure p and dynamic pressure q).
+The constant in the Bernoulli equation can be normalised. A common approach is in terms of total head or energy head H:
+
+
+
+
+H
+=
+z
++
+
+
+p
+
+ρ
+g
+
+
+
++
+
+
+
+v
+
+2
+
+
+
+2
+g
+
+
+
+=
+h
++
+
+
+
+v
+
+2
+
+
+
+2
+g
+
+
+
+,
+
+
+{\displaystyle H=z+{\frac {p}{\rho g}}+{\frac {v^{2}}{2g}}=h+{\frac {v^{2}}{2g}},}
+
+The above equations suggest there is a flow speed at which pressure is zero, and at even higher speeds the pressure is negative. Most often, gases and liquids are not capable of negative absolute pressure, or even zero pressure, so clearly Bernoulli's equation ceases to be valid before zero pressure is reached. In liquids – when the pressure becomes too low – cavitation occurs. The above equations use a linear relationship between flow speed squared and pressure. At higher flow speeds in gases, or for sound waves in liquid, the changes in mass density become significant so that the assumption of constant density is invalid.

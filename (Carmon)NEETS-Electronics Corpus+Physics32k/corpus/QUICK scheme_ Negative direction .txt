@@ -1,0 +1,6 @@
+When the flow is in negative direction the value of the velocities will be uw < 0 and ue < 0,
+For west face w the bracketing nodes are W and P, upstream node is E and for the east face E the bracketing nodes are P and E, upstream node is EE
+For Fw < 0 and Fe < 0 the flux across the west and east boundaries is given by the expressions :
+Φw = 6/8ΦP + 3/8ΦW - 1/8ΦE
+Φe = 6/8ΦE + 3/8ΦP - 1/8ΦEE
+Substitution of these two formulae for the convective terms in the discretized convection-diffusion equation together with central differencing for the diffusion terms leads, after re-arrangement similar to positive direction as above, to the following coefficients.

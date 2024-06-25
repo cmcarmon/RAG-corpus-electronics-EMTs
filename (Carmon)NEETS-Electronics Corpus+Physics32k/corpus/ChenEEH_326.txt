@@ -1,0 +1,12 @@
+As VDS is increased beyond VD, sat , the width of the pinch-
+off region increases. However, the voltage that drops across the
+inversion layer remains constant and equal to VD, sat . The
+portion of the drain bias in excess of VD, sat appears across
+the pinch-off region. In a long channel MOSFET, the width of
+the pinch-off region is assumed small relative to the length
+of the channel. Thus, neither the length nor the voltage across
+the inversion layer change beyond the pinch-off, resulting in a
+drain current independent of drain bias. Consequently, the
+drain current saturates. In smaller devices, this assumption
+falls apart and leads to channel length modulation, which is
+discussed later in the chapter.

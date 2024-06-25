@@ -1,0 +1,174 @@
+For free convection near a vertical wall, the Rayleigh number is defined as:
+
+
+
+
+
+
+R
+a
+
+
+x
+
+
+=
+
+
+
+g
+β
+
+
+ν
+α
+
+
+
+(
+
+T
+
+s
+
+
+−
+
+T
+
+∞
+
+
+)
+
+x
+
+3
+
+
+=
+
+
+G
+r
+
+
+x
+
+
+
+P
+r
+
+
+
+{\displaystyle \mathrm {Ra} _{x}={\frac {g\beta }{\nu \alpha }}(T_{s}-T_{\infty })x^{3}=\mathrm {Gr} _{x}\mathrm {Pr} }
+
+where:
+x is the characteristic length
+Rax is the Rayleigh number for characteristic length x
+g is acceleration due to gravity
+β is the thermal expansion coefficient (equals to 1/T, for ideal gases, where T is absolute temperature).
+
+
+
+
+ν
+
+
+{\displaystyle \nu }
+is the kinematic viscosity
+α is the thermal diffusivity
+Ts is the surface temperature
+T∞ is the quiescent temperature (fluid temperature far from the surface of the object)
+Grx is the Grashof number for characteristic length x
+Pr is the Prandtl number
+In the above, the fluid properties Pr, ν, α and β are evaluated at the film temperature, which is defined as:
+
+
+
+
+
+T
+
+f
+
+
+=
+
+
+
+
+T
+
+s
+
+
++
+
+T
+
+∞
+
+
+
+2
+
+
+.
+
+
+{\displaystyle T_{f}={\frac {T_{s}+T_{\infty }}{2}}.}
+
+For a uniform wall heating flux, the modified Rayleigh number is defined as:
+
+
+
+
+
+
+R
+a
+
+
+x
+
+
+∗
+
+
+=
+
+
+
+g
+β
+
+q
+
+o
+
+″
+
+
+
+ν
+α
+k
+
+
+
+
+x
+
+4
+
+
+
+
+{\displaystyle \mathrm {Ra} _{x}^{*}={\frac {g\beta q''_{o}}{\nu \alpha k}}x^{4}}
+
+where:
+q"o is the uniform surface heat flux
+k is the thermal conductivity.
+For most engineering purposes, the Rayleigh number is large, somewhere around 106 to 108.

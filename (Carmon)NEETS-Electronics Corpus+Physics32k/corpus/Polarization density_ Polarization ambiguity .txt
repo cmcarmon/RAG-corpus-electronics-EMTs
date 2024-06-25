@@ -1,0 +1,89 @@
+The polarization inside a solid is not, in general, uniquely defined: It depends on which electrons are paired up with which nuclei. (See figure.) In other words, two people, Alice and Bob, looking at the same solid, may calculate different values of P, and neither of them will be wrong. Alice and Bob will agree on the microscopic electric field E in the solid, but disagree on the value of the displacement field
+
+
+
+
+D
+
+=
+
+ε
+
+0
+
+
+
+E
+
++
+
+P
+
+
+
+{\displaystyle \mathbf {D} =\varepsilon _{0}\mathbf {E} +\mathbf {P} }
+. They will both find that Gauss's law is correct (
+
+
+
+∇
+⋅
+
+D
+
+=
+
+ρ
+
+f
+
+
+
+
+{\displaystyle \nabla \cdot \mathbf {D} =\rho _{f}}
+), but they will disagree on the value of
+
+
+
+
+ρ
+
+f
+
+
+
+
+{\displaystyle \rho _{f}}
+at the surfaces of the crystal. For example, if Alice interprets the bulk solid to consist of dipoles with positive ions above and negative ions below, but the real crystal has negative ions as the topmost surface, then Alice will say that there is a negative free charge at the topmost surface. (She might view this as a type of surface reconstruction).
+On the other hand, even though the value of P is not uniquely defined in a bulk solid, variations in P are uniquely defined. If the crystal is gradually changed from one structure to another, there will be a current inside each unit cell, due to the motion of nuclei and electrons. This current results in a macroscopic transfer of charge from one side of the crystal to the other, and therefore it can be measured with an ammeter (like any other current) when wires are attached to the opposite sides of the crystal. The time-integral of the current is proportional to the change in P. The current can be calculated in computer simulations (such as density functional theory); the formula for the integrated current turns out to be a type of Berry's phase.
+The non-uniqueness of P is not problematic, because every measurable consequence of P is in fact a consequence of a continuous change in P. For example, when a material is put in an electric field E, which ramps up from zero to a finite value, the material's electronic and ionic positions slightly shift. This changes P, and the result is electric susceptibility (and hence permittivity). As another example, when some crystals are heated, their electronic and ionic positions slightly shift, changing P. The result is pyroelectricity. In all cases, the properties of interest are associated with a change in P.
+Even though the polarization is in principle non-unique, in practice it is often (not always) defined by convention in a specific, unique way. For example, in a perfectly centrosymmetric crystal, P is usually defined by convention to be exactly zero. As another example, in a ferroelectric crystal, there is typically a centrosymmetric configuration above the Curie temperature, and P is defined there by convention to be zero. As the crystal is cooled below the Curie temperature, it shifts gradually into a more and more non-centrosymmetric configuration. Since gradual changes in P are uniquely defined, this convention gives a unique value of P for the ferroelectric crystal, even below its Curie temperature.
+Another problem in the definition of P is related to the arbitrary choice of the "unit volume", or more precisely to the system's scale . For example, at microscopic scale a plasma can be regarded as a gas of free charges, thus P should be zero. On the contrary, at a macroscopic scale the same plasma can be described as a continuous medium, exhibiting a permittivity
+
+
+
+
+ε
+(
+ω
+)
+≠
+1
+
+
+
+{\displaystyle \scriptstyle \varepsilon (\omega )\neq 1}
+and thus a net polarization P
+
+
+
+
+≠
+
+0
+
+
+
+
+{\displaystyle \scriptstyle \neq \mathbf {0} }
+.

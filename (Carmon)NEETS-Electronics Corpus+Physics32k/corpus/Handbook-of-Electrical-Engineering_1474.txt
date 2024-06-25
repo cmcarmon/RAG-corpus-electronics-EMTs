@@ -1,0 +1,6 @@
+HMM-based  continuous  speech  recognition  involves  determining  an  optimal  word  sequence  using  the
+Viterbi algorithm. This algorithm uses dynamic programming to ﬁnd the optimal state sequence through an
+HMM network representing the recognizer vocabulary and grammar. The optimal state sequence Q* = (q1* …
+qT*)  is  deﬁned  as  the  sequence  which  maximizes  P(Q *O,l),  or  equivalently  P(Q,O*l).  Let d
+t(i)  be  the  joint
+probability of the optimal state sequence and the observations up to time t, ending in state Si at time t. Then

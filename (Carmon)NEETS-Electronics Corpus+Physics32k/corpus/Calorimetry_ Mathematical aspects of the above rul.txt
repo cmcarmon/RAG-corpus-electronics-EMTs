@@ -1,0 +1,518 @@
+The use of 'very small' quantities such as
+
+
+
+δ
+Q
+
+
+
+{\displaystyle \delta Q\ }
+is related to the physical requirement for the quantity
+
+
+
+p
+(
+V
+,
+T
+)
+
+
+
+{\displaystyle p(V,T)\ }
+to be 'rapidly determined' by
+
+
+
+V
+
+
+
+{\displaystyle V\ }
+and
+
+
+
+T
+
+
+
+{\displaystyle T\ }
+; such 'rapid determination' refers to a physical process. These 'very small' quantities are used in the Leibniz approach to the infinitesimal calculus. The Newton approach uses instead 'fluxions' such as
+
+
+
+
+
+
+V
+˙
+
+
+
+(
+t
+)
+=
+
+
+
+
+
+
+d
+V
+
+
+d
+t
+
+
+
+|
+
+
+t
+
+
+
+
+{\displaystyle {\dot {V}}(t)=\left.{\frac {dV}{dt}}\right|_{t}}
+, which makes it more obvious that
+
+
+
+p
+(
+V
+,
+T
+)
+
+
+
+{\displaystyle p(V,T)\ }
+must be 'rapidly determined'.
+In terms of fluxions, the above first rule of calculation can be written
+
+
+
+
+
+
+
+Q
+˙
+
+
+
+(
+t
+)
+
+=
+
+C
+
+T
+
+
+(
+V
+)
+
+
+(
+V
+,
+T
+)
+
+
+
+
+V
+˙
+
+
+
+(
+t
+)
+
++
+
+
+C
+
+V
+
+
+(
+T
+)
+
+
+(
+V
+,
+T
+)
+
+
+
+
+T
+˙
+
+
+
+(
+t
+)
+
+
+{\displaystyle {\dot {Q}}(t)\ =C_{T}^{(V)}(V,T)\,{\dot {V}}(t)\,+\,C_{V}^{(T)}(V,T)\,{\dot {T}}(t)}
+
+where
+
+
+
+
+t
+
+
+
+{\displaystyle t\ }
+denotes the time
+
+
+
+
+
+
+
+Q
+˙
+
+
+
+(
+t
+)
+
+
+
+{\displaystyle {\dot {Q}}(t)\ }
+denotes the time rate of heating of the calorimetric material at time
+
+
+
+t
+
+
+
+{\displaystyle t\ }
+
+
+
+
+
+
+
+
+V
+˙
+
+
+
+(
+t
+)
+
+
+
+{\displaystyle {\dot {V}}(t)\ }
+denotes the time rate of change of volume of the calorimetric material at time
+
+
+
+t
+
+
+
+{\displaystyle t\ }
+
+
+
+
+
+
+
+
+T
+˙
+
+
+
+(
+t
+)
+
+
+
+{\displaystyle {\dot {T}}(t)\ }
+denotes the time rate of change of temperature of the calorimetric material.
+The increment
+
+
+
+δ
+Q
+
+
+
+{\displaystyle \delta Q\ }
+and the fluxion
+
+
+
+
+
+
+Q
+˙
+
+
+
+(
+t
+)
+
+
+
+{\displaystyle {\dot {Q}}(t)\ }
+are obtained for a particular time
+
+
+
+t
+
+
+
+{\displaystyle t\ }
+that determines the values of the quantities on the righthand sides of the above rules. But this is not a reason to expect that there should exist a mathematical function
+
+
+
+Q
+(
+V
+,
+T
+)
+
+
+
+{\displaystyle Q(V,T)\ }
+. For this reason, the increment
+
+
+
+δ
+Q
+
+
+
+{\displaystyle \delta Q\ }
+is said to be an 'imperfect differential' or an 'inexact differential'. Some books indicate this by writing
+
+
+
+q
+
+
+
+{\displaystyle q\ }
+instead of
+
+
+
+δ
+Q
+
+
+
+{\displaystyle \delta Q\ }
+. Also, the notation đQ is used in some books. Carelessness about this can lead to error.
+The quantity
+
+
+
+Δ
+Q
+(
+P
+(
+
+t
+
+1
+
+
+,
+
+t
+
+2
+
+
+)
+)
+
+
+
+{\displaystyle \Delta Q(P(t_{1},t_{2}))\ }
+is properly said to be a functional of the continuous joint progression
+
+
+
+P
+(
+
+t
+
+1
+
+
+,
+
+t
+
+2
+
+
+)
+
+
+
+{\displaystyle P(t_{1},t_{2})\ }
+of
+
+
+
+V
+(
+t
+)
+
+
+
+{\displaystyle V(t)\ }
+and
+
+
+
+T
+(
+t
+)
+
+
+
+{\displaystyle T(t)\ }
+, but, in the mathematical definition of a function,
+
+
+
+Δ
+Q
+(
+P
+(
+
+t
+
+1
+
+
+,
+
+t
+
+2
+
+
+)
+)
+
+
+
+{\displaystyle \Delta Q(P(t_{1},t_{2}))\ }
+is not a function of
+
+
+
+(
+V
+,
+T
+)
+
+
+
+{\displaystyle (V,T)\ }
+. Although the fluxion
+
+
+
+
+
+
+Q
+˙
+
+
+
+(
+t
+)
+
+
+
+{\displaystyle {\dot {Q}}(t)\ }
+is defined here as a function of time
+
+
+
+t
+
+
+
+{\displaystyle t\ }
+, the symbols
+
+
+
+Q
+
+
+
+{\displaystyle Q\ }
+and
+
+
+
+Q
+(
+V
+,
+T
+)
+
+
+
+{\displaystyle Q(V,T)\ }
+respectively standing alone are not defined here.

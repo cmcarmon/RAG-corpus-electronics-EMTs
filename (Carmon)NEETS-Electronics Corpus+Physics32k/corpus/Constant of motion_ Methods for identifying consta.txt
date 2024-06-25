@@ -1,0 +1,82 @@
+There are several methods for identifying constants of motion.
+The simplest but least systematic approach is the intuitive ("psychic") derivation, in which a quantity is hypothesized to be constant (perhaps because of experimental data) and later shown mathematically to be conserved throughout the motion.
+The Hamilton–Jacobi equations provide a commonly used and straightforward method for identifying constants of motion, particularly when the Hamiltonian adopts recognizable functional forms in orthogonal coordinates.
+Another approach is to recognize that a conserved quantity corresponds to a symmetry of the Lagrangian. Noether's theorem provides a systematic way of deriving such quantities from the symmetry. For example, conservation of energy results from the invariance of the Lagrangian under shifts in the origin of time, conservation of linear momentum results from the invariance of the Lagrangian under shifts in the origin of space (translational symmetry) and conservation of angular momentum results from the invariance of the Lagrangian under rotations. The converse is also true; every symmetry of the Lagrangian corresponds to a constant of motion, often called a conserved charge or current.
+A quantity
+
+
+
+A
+
+
+{\displaystyle A}
+is conserved if it is not explicitly time-dependent and if its Poisson bracket with the Hamiltonian is zero
+
+
+
+
+
+
+
+d
+A
+
+
+d
+t
+
+
+
+=
+
+
+
+∂
+A
+
+
+∂
+t
+
+
+
++
+{
+A
+,
+H
+}
+
+
+{\displaystyle {\frac {dA}{dt}}={\frac {\partial A}{\partial t}}+\{A,H\}}
+
+Another useful result is Poisson's theorem, which states that if two quantities
+
+
+
+A
+
+
+{\displaystyle A}
+and
+
+
+
+B
+
+
+{\displaystyle B}
+are constants of motion, so is their Poisson bracket
+
+
+
+{
+A
+,
+B
+}
+
+
+{\displaystyle \{A,B\}}
+.
+A system with n degrees of freedom, and n constants of motion, such that the Poisson bracket of any pair of constants of motion vanishes, is known as a completely integrable system. Such a collection of constants of motion are said to be in involution with each other.

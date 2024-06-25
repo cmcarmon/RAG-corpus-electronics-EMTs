@@ -1,0 +1,6 @@
+Let's take the example of a robotic arm, that can be moved and positioned by a control loop. An electric motor may lift or lower the arm, depending on forward or reverse power applied, but power cannot be a simple function of position because of the inertial mass of the arm, forces due to gravity, external forces on the arm such as a load to lift or work to be done on an external object.
+The sensed position is the process variable (PV).
+The desired position is called the setpoint (SP).
+The difference between the PV and SP is the error (e), which quantifies whether the arm is too low or too high and by how much.
+The input to the process (the electric current in the motor) is the output from the PID controller. It is called either the manipulated variable (MV) or the control variable (CV).
+By measuring the position (PV), and subtracting it from the setpoint (SP), the error (e) is found, and from it the controller calculates how much electric current to supply to the motor (MV).

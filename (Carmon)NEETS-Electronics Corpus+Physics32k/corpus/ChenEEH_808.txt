@@ -1,0 +1,11 @@
+Statements in the architectural body of a design entity may
+consist of, as already detailed, both concurrent and simultan-
+eous statements. This is of special interest to a modeler because
+it supports a consistent description of design objects operating
+in mixed-mode without an artiﬁcial separation into event-
+discrete and time-continuous parts. Mixing up event-oriented
+and time-continuous behavior in many cases results in dealing
+with model discontinuities. This problem is addressed by the
+‘‘break’’ statement used for both initialization and for discon-
+tinuity handling. A simple example for a 1-bit D/A converter
+given in Figure 3.9 illustrates its usage.

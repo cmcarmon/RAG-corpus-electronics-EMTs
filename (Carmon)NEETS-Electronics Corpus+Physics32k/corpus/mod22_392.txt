@@ -1,0 +1,8 @@
+Working in a variable-word-length environment, each address holds one alphanumeric character as 
+shown in figure 4-9, view B. Since a byte usually represents a single alphanumeric character, unless you 
+are using packed decimal, a flexible computer is often said to be byte-addressable. Don't become 
+confused; the terms character-addressable, character-oriented, and byte-addressable all have the same 
+meaning. By using the appropriate program instructions, a programmer can retrieve a stored data element 
+by identifying the address of the first character (say position 300 as in fig. 4-9, view B) and specifying the 
+number of address locations to be included in the word. In this case there are seven, positions 300 through 
+306. 

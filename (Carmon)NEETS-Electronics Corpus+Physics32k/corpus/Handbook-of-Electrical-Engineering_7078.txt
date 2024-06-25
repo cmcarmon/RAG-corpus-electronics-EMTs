@@ -1,0 +1,5 @@
+Common information sources like speech produce continuous waveforms, not discrete sequences of random
+variables  as  in  the  models  we  have  been  considering  so  far.  By  sampling  the  signal  at  twice  the  maximum
+frequency  present  (the  Nyquist  rate),  however,  we  convert  the  continuous  time  signal  into  a  set  of  discrete
+samples from which the original signal can be recovered (the sampling theorem). We can then apply the theory
+of rate distortion and vector quantization to such waveform sources as well.

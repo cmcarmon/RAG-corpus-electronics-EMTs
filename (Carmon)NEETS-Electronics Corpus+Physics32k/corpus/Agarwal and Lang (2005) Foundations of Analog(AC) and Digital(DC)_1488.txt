@@ -1,0 +1,6 @@
+We know from our previous examples that slow rise and fall times at the output
+of a circuit result in signal delay. The rise and fall times are proportional to the
+RC time constant. A large value for C results in long rise and fall times, thereby
+limiting the clock frequency. As Figure 10.43 illustrates, notice that to achieve a
+valid clock signal, the clock period T must be larger than the sum of the rise and
+fall times of the clock signal. For the clock example, let us define the rise time

@@ -1,0 +1,8 @@
+The principle behind all acoustic networks is the same. Distance = speed x travel time. If the travel time and speed of the sound signal are known, we can calculate the distance between source and receiver. In most networks, the speed of the acoustic signal is assumed at a specific value. This value is either derived from measuring a signal between two known points, or by using specific equipment to calculate it from environmental conditions.
+The diagram below shows the basic operation of measuring a single range.
+
+At a specified time the processor issues a signal to the source, which then sends out the sound wave.
+Once the sound wave is received another signal is received at the processor resulting in a time difference between transmission and reception. This gives the travel time.
+Using the travel time and assumed speed of the signal, the processor can calculate the distance between source and receiver.
+If the operator is using acoustic ranges to position items in unknown locations they will need to use more than the single range example shown above.
+As there is only one measurement, the receiver could be anywhere on a circle with a radius equal to the calculated range and centered on the transmitter.

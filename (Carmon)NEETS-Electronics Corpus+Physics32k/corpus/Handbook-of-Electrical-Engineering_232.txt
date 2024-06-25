@@ -1,0 +1,5 @@
+are performing a nodal analysis on a circuit containing a current-controlled current source. For purposes of
+counting  independent  nodes,  the  controlled  current  source  is  treated  as  an  open  circuit. After  equations  are
+written  for  the  unknown  node  voltages,  the  current  source  will  introduce  into  at  least  one  equation  its
+controlling  current,  which  is  not  one  of  the  nodal  variables.  The  additional  step  required  by  the  controlled
+source is that of expressing the controlling current in terms of the nodal variables.

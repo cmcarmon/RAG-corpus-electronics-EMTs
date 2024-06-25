@@ -1,0 +1,6 @@
+this method, all eight positions surrounding the initial location
+with a step size of w/2 are searched ﬁrst. At each minimum
+position, the search step size is halved and the next eight
+positions are searched. The process is outlined in Figure 6.3.
+This method, for w set as 6 pixels per frame, searches 25
+positions to locate the best match.

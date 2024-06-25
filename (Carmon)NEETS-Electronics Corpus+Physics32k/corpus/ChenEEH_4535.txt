@@ -1,0 +1,13 @@
+To obtain an intuitive feel for what types of manipulations
+one performs on f to solve the systems problems previously
+mentioned, consider, for example, a classical passive network
+synthesis problem. In this problem, one is given the input/
+output relation S, and one knows what type of network struc-
+ture is desired. For example, a ladder synthesis problem state-
+ment consists of a transfer function speciﬁcation and the
+‘‘connection information’’ of ladder structure. The S and f are
+speciﬁed, and it is desired to determine Z (the components).
+Clearly, to ﬁnd Z, one must invert f. In this case, one seeks a
+right inverse of f because the uniqueness of Z is not a concern
+and f is viewed as ‘‘onto’’ the class of transfer functions of
+interest.

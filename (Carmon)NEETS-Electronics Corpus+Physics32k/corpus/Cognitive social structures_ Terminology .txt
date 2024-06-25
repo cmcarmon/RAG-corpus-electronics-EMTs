@@ -1,0 +1,22 @@
+Broker: A member who connects those who would otherwise be unconnected.
+Centrality: Influence measured by number of connections and distance from others with high centrality
+Eigenvector centrality: How well connected an individual is to other well-connected members
+
+Closure/Balance: Given a member who is directly connected to two others, the triad is balanced if the other two are also connected
+
+Alice is friends with Bob and Charlie. The triad is said to be balanced if Bob and Charlie are also friends. It is unbalanced if Bob and Charlie are not friends.
+
+Degree: The number of direct connections
+In-degree: The number of ties directed towards the person
+Out-degree: The number of directed ties from the person to others
+
+Alice goes to Bob and Charlie for advice. Bob goes to Alice for advice. Alice has in-degree 1, and out-degree 2.
+
+Geodesic Distance: The shortest path between two individuals
+
+Alice is friends with Bob who is friends with Charlie who is friends with David. The geodesic distance between Alice and Bob is one, between Alice and Charlie is two, and between Alice and David is three.
+
+Homophily: How similar an individual is to those directly connected to them
+Reciprocity/Mutuality: Given a directed relation from person A to person B, whether or not there is also a directed relation from person B to person A.
+
+Alice goes to Bob for advice. This relationship is reciprocal if Bob also goes to Alice for advice.

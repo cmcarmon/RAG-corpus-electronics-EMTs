@@ -1,0 +1,103 @@
+Assume that a stationary object is hidden in one of n boxes. For each box
+
+
+
+i
+
+
+{\displaystyle i}
+there are three known parameters: the cost of a single search at location
+
+
+
+i
+
+
+{\displaystyle i}
+,
+
+
+
+
+c
+
+i
+
+
+
+
+{\displaystyle c_{i}}
+; the probability of finding the object by a single search at location
+
+
+
+i
+
+
+{\displaystyle i}
+if it is at this location,
+
+
+
+
+a
+
+i
+
+
+
+
+{\displaystyle a_{i}}
+; and the probability that the object is at location
+
+
+
+i
+
+
+{\displaystyle i}
+,
+
+
+
+
+p
+
+i
+
+
+
+
+{\displaystyle p_{i}}
+. A searcher looks for the object. They know the a priori probabilities at the beginning and updates them by Bayes’ law after each (unsuccessful) attempt. The problem of finding the object in minimal expected cost is a classical problem solved by David Blackwell. Surprisingly, the optimal policy is easy to describe: at each stage look into the location which maximizes
+
+
+
+
+
+
+
+p
+
+i
+
+
+
+a
+
+i
+
+
+
+
+c
+
+i
+
+
+
+
+
+
+{\displaystyle {\frac {p_{i}a_{i}}{c_{i}}}}
+. This is actually a special case of Gittins index.

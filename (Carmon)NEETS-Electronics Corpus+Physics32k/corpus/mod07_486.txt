@@ -1,0 +1,6 @@
+C1 reduces the ripple to a relatively low level (view B). L1 and C2 form the LC filter, which reduces 
+the ripple even further. L1 is a large value iron-core induct (choke). L1 has a high value of inductance an 
+therefore, a high value of XL which offers a high reactance to the ripple frequency. At the same time, C2 
+offers a very low reactance to ac ripple. L1 and C2 for an ac voltage divider and, because the reactance of 
+L1 much higher than that of C2, most of the ripple voltage is dropped across L1. Only a slight trace of 
+ripple appears across C2 and the load (view C). 

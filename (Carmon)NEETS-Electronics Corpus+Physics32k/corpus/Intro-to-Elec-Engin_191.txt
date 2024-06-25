@@ -1,0 +1,6 @@
+Sometimes, for clarity, additional letters following a numerical value may be used; but these are
+ignored by SPICE. For example, 4.4 KOHMS is recognized as the value 4400, and “ohms” is
+ignored by the program. Comment statements are identiﬁed by an asterisk (*) in the ﬁrst column,
+and these are helpful for making the program meaningful to users. PSpice also allows inserting
+comments on any line by starting the comment with a semicolon. Figure 2.5.2 shows the four
+types of controlled sources and their corresponding PSpice statements.

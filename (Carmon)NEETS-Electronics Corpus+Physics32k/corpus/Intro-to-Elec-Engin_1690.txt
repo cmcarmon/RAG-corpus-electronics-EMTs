@@ -1,0 +1,7 @@
+Figure 16.3.12 illustrates the adaptive control process as applied to a motor-speed control
+system, which is based on adjustments of the armature resistance. Using all of the data inputs,
+the computer computes the optimum value of Ra such that the motor speed is appropriate to
+the load. The signal corresponding to the computed value of Ra is in turn used to position the
+potentiometer arm of the variable resistance. The actual armature resistance is then controlled by
+the position of the potentiometer arm, which in turn may be controlled by a sampled-data version
+of the position-control system.

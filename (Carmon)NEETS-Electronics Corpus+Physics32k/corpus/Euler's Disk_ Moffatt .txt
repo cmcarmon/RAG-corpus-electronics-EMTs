@@ -1,0 +1,278 @@
+In the early 2000s, research was sparked by an article in the April 20, 2000 edition of Nature, where Keith Moffatt showed that viscous dissipation in the thin layer of air between the disk and the table would be sufficient to account for the observed abruptness of the settling process. He also showed that the motion concluded in a finite-time singularity. His first theoretical hypothesis was contradicted by subsequent research, which showed that rolling friction is actually the dominant factor.
+Moffatt showed that, as time
+
+
+
+t
+
+
+{\displaystyle t}
+approaches a particular time
+
+
+
+
+t
+
+0
+
+
+
+
+{\displaystyle t_{0}}
+(which is mathematically a constant of integration), the viscous dissipation approaches infinity. The singularity that this implies is not realized in practice, because the magnitude of the vertical acceleration cannot exceed the acceleration due to gravity (the disk loses contact with its support surface). Moffatt goes on to show that the theory breaks down at a time
+
+
+
+τ
+
+
+{\displaystyle \tau }
+before the final settling time
+
+
+
+
+t
+
+0
+
+
+
+
+{\displaystyle t_{0}}
+, given by:
+
+
+
+
+τ
+≃
+
+
+[
+
+
+
+(
+
+
+
+2
+a
+
+
+9
+g
+
+
+
+)
+
+
+3
+
+
+
+
+
+2
+π
+μ
+a
+
+M
+
+
+
+]
+
+
+
+1
+5
+
+
+
+
+
+{\displaystyle \tau \simeq \left[\left({\frac {2a}{9g}}\right)^{3}{\frac {2\pi \mu a}{M}}\right]^{\frac {1}{5}}}
+
+where
+
+
+
+a
+
+
+{\displaystyle a}
+is the radius of the disk,
+
+
+
+g
+
+
+{\displaystyle g}
+is the acceleration due to Earth's gravity,
+
+
+
+μ
+
+
+{\displaystyle \mu }
+the dynamic viscosity of air, and
+
+
+
+M
+
+
+{\displaystyle M}
+the mass of the disk. For the commercially available Euler’s Disk toy (see link in "External links" below),
+
+
+
+τ
+
+
+{\displaystyle \tau }
+is about
+
+
+
+
+10
+
+−
+2
+
+
+
+
+{\displaystyle 10^{-2}}
+seconds, at which time the angle between the coin and the surface,
+
+
+
+α
+
+
+{\displaystyle \alpha }
+, is approximately 0.005 radians and the rolling angular velocity,
+
+
+
+Ω
+
+
+{\displaystyle \Omega }
+, is about 500 Hz.
+Using the above notation, the total spinning/rolling time is:
+
+
+
+
+
+t
+
+0
+
+
+=
+
+
+
+
+α
+
+0
+
+
+3
+
+
+M
+
+
+2
+π
+μ
+a
+
+
+
+
+
+{\displaystyle t_{0}={\frac {\alpha _{0}^{3}M}{2\pi \mu a}}}
+
+where
+
+
+
+
+α
+
+0
+
+
+
+
+{\displaystyle \alpha _{0}}
+is the initial inclination of the disk, measured in radians. Moffatt also showed that, if
+
+
+
+
+t
+
+0
+
+
+−
+t
+>
+τ
+
+
+{\displaystyle t_{0}-t>\tau }
+, the finite-time singularity in
+
+
+
+Ω
+
+
+{\displaystyle \Omega }
+is given by
+
+
+
+
+Ω
+∼
+(
+
+t
+
+0
+
+
+−
+t
+
+)
+
+−
+
+
+1
+6
+
+
+
+
+
+
+{\displaystyle \Omega \sim (t_{0}-t)^{-{\frac {1}{6}}}}

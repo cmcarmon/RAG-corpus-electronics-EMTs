@@ -1,0 +1,13 @@
+As a result of these larger ﬁelds along the channel direction, a small fraction of the channel carriers have
+enough  energy  to  enter  the  insulating  layer  near  the  drain.  In  silicon-based  p-channel  MOSFETs,  energetic
+holes  can  become  trapped  in  the  oxide,  leading  to  a  positive  oxide  charge  near  the  drain  that  reduces  the
+strength of the channel, degrading device behavior. In n-channel MOSFETs, energetic electrons entering the
+oxide create interface traps and oxide wear-out, eventually leading to gate-to-drain shorts [Pimbley et al., 1989].
+To cope with these problems “drain-engineering” has been tried, the most common solution being the lightly
+doped drain [Chen, 1990; Einspruch and Gildenblat, 1989; Pimbley et al., 1989]. In this design, a lightly doped
+extension of the drain is inserted between the channel and the drain proper. To keep the ﬁeld moderate and
+reduce  any  peaks  in  the  ﬁeld,  the  lightly  doped  drain  extension  is  designed  to  spread  the  drain-to-channel
+voltage drop as evenly as possible. The aim is to smooth out the ﬁeld at a value close to Fsat so that energetic
+carriers are kept to a minimum. The expense of this solution is an increase in drain resistance and a decreased
+gain. To increase packing density, this lightly doped drain extension can be stacked vertically alongside the gate,
+rather than laterally under the gate, to control the overall device area.

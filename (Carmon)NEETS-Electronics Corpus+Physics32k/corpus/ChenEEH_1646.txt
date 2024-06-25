@@ -1,0 +1,12 @@
+The encoding process for the MPEG-1 encoder is as follows.
+For a given macroblock, the coding mode is ﬁrst chosen. This
+depends on the picture type, the effectiveness of motion-
+compensated prediction in that local region, and the nature
+of the signal in the block. Next, depending on the coding
+mode, a motion-compensated prediction of the contents of
+the block based on past and/or future reference pictures is
+formed. This prediction is subtracted from the actual data in
+the current macroblock to form an error signal. After that, this
+error signal is divided into 8  8 blocks, and a DCT is per-
+formed on each block. The resulting 2-D 8  8 block of DCT
+coefﬁcients is quantized and scanned in zigzag order to convert

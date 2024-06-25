@@ -1,0 +1,17 @@
+The memory cost increases when lowering the cycle budget
+(see Figure 2.16). When lowering the cycle budget, a more
+energy consuming and more complex (larger) memory archi-
+tecture is needed to deliver the required bandwidth. Note that
+the lower cycle budget is not obtained by reducing the number
+of memory accesses, as in the case of the algorithmic changes
+and data-ﬂow transformations (discussed in Section 2.4).
+These high-level code transformation related optimizations
+can be performed platform- and cycle-budget independent,
+prior to the trade-off that is the focus here. Therefore, during
+the currently discussed step in the system design trajectory, the
+amount of data transferred to the data-path remains equal
+over the complete cycle budget range. Nevertheless, some
+control ﬂow transformations and data reuse optimizations
+can be beneﬁcial for energy consumption and not for the
+cycle budget (or vice versa). These type of optimizations still
+have to be considered in the trade-off.

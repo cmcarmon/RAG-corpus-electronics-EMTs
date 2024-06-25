@@ -1,0 +1,10 @@
+The  laser  used  for  readout  is  usually  the  same  as  that  used  for  recording,  but  its  output  power  level  is
+substantially reduced in order to avoid erasing (or otherwise obliterating) the previously recorded information.
+For instance, if the power of the write/erase beam is 20 mW, then for the read operation the beam is attenuated
+to about 3 or 4 mW. The same objective lens that focuses the write beam is now used to focus the read beam,
+creating a diffraction-limited spot for resolving the recorded marks. Whereas in writing the laser was pulsed
+to selectively reverse-magnetize small regions along the track, in readout it operates with constant power, i.e.,
+in CW mode. Both up- and down-magnetized regions are read as the track passes under the focused spot. The
+reﬂected beam, which is now polarization-modulated, goes back through the objective and becomes collimated
+once again; its information content is subsequently decoded by polarization-sensitive optics, and the scanned
+pattern of magnetization is reproduced as an electronic signal.

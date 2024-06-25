@@ -1,0 +1,10 @@
+The challenges of processing streaming data in realtime are made greater by the fact that video processing
+algorithms are becoming very complex. Video compression algorithms make use of several different techniques
+and  complex  search  algorithms  to  maximize  their  ability  to  compress  the  video  data;  video  display  systems
+provide much more sophisticated controls to the user; content analysis systems make use of multiple complex
+algorithms  working  together;  mixed  computer  graphics-video  systems  combine  geometric  algorithms  with
+traditional video algorithms. Expect video processing algorithms to become more complex in the future. This
+complexity puts greater demands on the realtime nature of the video architecture: more complex algorithms
+generally have less predictable execution times. The architecture should be designed so that algorithms can take
+advantage of idle hardware caused by early completions of functions, rather than letting hardware sit idle while
+it waits for other operations to complete.

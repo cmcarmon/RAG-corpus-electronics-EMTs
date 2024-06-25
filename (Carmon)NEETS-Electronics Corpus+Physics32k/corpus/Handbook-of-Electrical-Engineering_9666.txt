@@ -1,0 +1,7 @@
+Message Authentication Schemes
+Message authentication is a task related to the setting considered for encryption schemes; that is, communication
+over an insecure channel. This time, we consider an active adversary that is monitoring the channel and may
+alter the messages sent on it. The parties communicating through this insecure channel wish to authenticate
+the  messages  they  send  so  that  their  counterpart  can  tell  an  original  message  (sent  by  the  sender)  from  a
+modiﬁed one (i.e., modiﬁed by the adversary). Loosely speaking, a scheme for message authentication requires
+that:

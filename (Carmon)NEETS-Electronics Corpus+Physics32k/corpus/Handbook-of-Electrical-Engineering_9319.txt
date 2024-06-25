@@ -1,0 +1,6 @@
+The essential property of a data object is not its representation (is it an array, a record or something else?)
+but the operations that can be applied to it. The separation of these (abstract) operations from the subprograms
+that implement them, as well as from the representation of the object, is called data abstraction. This separation
+is possible because only the implementations of the operations need to know about the actual representation
+of  the  object. A  system  of  data  objects  and  operations  deﬁned  by  data  abstraction  is  called  an abstract  data
+type. See Chapter 81.3 on data types and data structures for more details.

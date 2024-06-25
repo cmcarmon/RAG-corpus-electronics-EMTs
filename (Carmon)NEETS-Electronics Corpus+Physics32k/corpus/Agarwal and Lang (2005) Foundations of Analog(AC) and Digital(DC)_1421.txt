@@ -1,0 +1,13 @@
+How does the propagation delay impact our digital abstraction? Notice
+that the slowly rising output of the inverter now spends a nonzero amount of
+time in the invalid output voltage range, namely VIL → VIH. This appears to
+violate the static discipline. Recall that the static discipline requires that devices
+produce valid output voltages that satisfy the output thresholds when valid input
+voltages are supplied. We get around this difficulty by observing that the inverter
+output eventually crosses the valid output threshold. Furthermore, notice that
+the static discipline does not take a position on time. In other words, it does
+not require gates to produce valid outputs instantaneously if the inputs change.
+Accordingly, to make the this fact explicit, we can modify the statement of the
+static discipline by requiring that devices produce valid output voltages (in a finite
+amount of time) that satisfy the output thresholds when valid input voltages are
+supplied.

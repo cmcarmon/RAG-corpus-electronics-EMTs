@@ -1,0 +1,10 @@
+To minimize the latency caused by copying into and out of buffers, the IBM I/O system uses little buffering
+between  the  device  and  memory.1  In  a  high-performance  environment,  devices  spend  a  good  deal  of  time
+waiting for the pathway’s resources to become free. These resources are used for time periods related to disk
+transfer  speeds,  measured  in  milliseconds.  One  possible  method  for  improving  utilization  is  to  support  dis-
+connect/reconnect. A subchannel can connect to a device, issue a seek, disconnect to free the channel path for
+other requests, and reconnect later to perform the transfer when the seek is completed. Unfortunately, not all
+reconnects can be serviced immediately, because the control units are busy servicing other devices. These RPS
+misses (to be described in more detail in the next section) are a major source of delay in heavily utilized IBM
+storage subsystems [Buzen and Shum, 1987]. Performance can be further improved by providing multiple paths
+between  memory  and  devices.  To  this  purpose,  IBM’s  high-end  systems  support  dynamic  path  reconnect,  a

@@ -1,0 +1,6 @@
+A most important test data register deﬁned by the IEEE 1149.1 Standard is the boundary-scan register that
+has individual cells associated with each I/O pin of the IC component. Mandatory and permissible features of
+the boundary-scan register cells are deﬁned by the standard. In addition, a special single-bit register called the
+BYPASS register has been provided to furnish a more efﬁcient way to shift data through IC components when
+multiple ICs are chained together by connecting the TDO output from one component to the TDI input of
+another.

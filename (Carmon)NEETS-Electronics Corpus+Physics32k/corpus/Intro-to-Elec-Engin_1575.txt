@@ -1,0 +1,20 @@
+output.
+(iii) Check whether the original sequence
+{bk} is recovered in both cases, when{ak}
+of (i) and (ii) is put through a differential
+decoder, as shown in Figure P15.3.11.
+(c) For the ﬁrst 10 digits of the sequence {bk}, il-
+lustrate the Manchester-formatted waveform.
+*15.3.12 An audio message is band-limited to 15 kHz, sam-
+pled at twice the Nyquist rate, and encoded by
+a 12-bit natural binary code that corresponds to
+Lb = 212 = 4096 levels, all of which span the
+message’s variations. Find the ﬁrst-null bandwidth
+(given by ωb/2π = 1/Tb) required to support a
+polar waveform format. Also, determine the best
+possible signal-to-noise ratio S0/Nq with a crest
+factor of 3.8.
+15.3.13 In Equation (15.3.24), for polar and Manchester
+PCM, Eb = A2Tb. Find the noise level N0/2 at the
+input to the polar PCM receiver that corresponds
+to Pe = 10

@@ -1,0 +1,24 @@
+There  are  two  types  of  SAW  systems  in  use,  namely
+those using reﬂective techniques and those using atten-
+uation as the source of position information. The reﬂec-
+tive systems are similar to sonar where the time from the
+source  to  the  pointing  ﬁnger  and  then  from  the  ﬁnger
+to  the  receiver  is  measured  to  arrive  at  ﬁnger  location.
+The  attenuation  technology  is  illustrated  in  Fig. 89.17
+and consists of two transducers, two receivers, and four
+reﬂector  strips,  all  mounted  on  a  glass  substrate.  One
+transducer-receiver pair is used for X and the other for
+Y location. Figure 89.17 shows the X axis pair, and the
+transducer transmits a burst of acoustic energy in a hor-
+izontal  wave.  The  wave  is  partially  reﬂected  by  the  top
+reﬂector strips and travels down to the bottom strip where the reﬂectors are at an angle such that it is reﬂected
+to the lower left corner receiver. The wave now has a long rectangular shape, and each point in time corresponds
+to a speciﬁc vertical path across the substrate. The Y axis is scanned in the same fashion after the X wave dies
+out. Then, when the ﬁnger touches the substrate, its water content absorbs some of the energy in the wave,
+and the wave is attenuated. The dip in the wave amplitude corresponds to the amount of absorbed energy, and
+the time of the lowest point can be determined, allowing the location of the ﬁnger to be calculated. Finally, in
+addition to the X and Y coordinates, a Z coordinate can be determined, depending on how hard the user presses.
+This depends on surface contact, which affects the amount of attenuation. The advantages of this system are
+high resolution, speed of transmission, and the availability of a Z axis component. Its main disadvantages are
+the variation in moisture content in ﬁngers and sensitivity to local moisture on the substrate. However, it is
+being used in developmental units and should be considered as another input device technology.

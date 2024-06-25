@@ -1,0 +1,12 @@
+A dependent source will also complicate the node analysis previously described
+when its element law does not easily relate its branch current to its branch
+voltage. In this case, it will again not be possible to complete Step 3, and so it is
+again necessary to modify the node analysis slightly. Since there are four types
+of dependent sources, and the branch currents and voltages that control them
+can appear through or across many different types of elements, it is impractical
+to treat each case separately in its most efficient manner. As a compromise,
+we present here a single method that treats all cases of dependent sources, and
+illustrate how this method can be made more efficient in a few illustrative cases.
+We will illustrate the method using the circuit in Figure 3.23, which contains a
+dependent current source, whose current is some function of a branch variable
+i as shown in the figure.

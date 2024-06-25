@@ -1,0 +1,11 @@
+Source Coding
+An  encoder for  the  clean  signal  maps  vectors  of  that  signal  onto  a  ﬁnite  set  of  representative  signal  vectors
+referred  to  as  codewords.  The  mapping  is  performed  by  assigning  each  signal  vector  to  its  nearest  neighbor
+codeword. The index of the chosen codeword is transmitted to the receiver in a signal communication system,
+and the signal is reconstructed using a copy of the chosen codeword. The codewords are designed to minimize
+the  average  distortion  resulting  from  the  nearest  neighbor  mapping.  The  codewords  may  simply  represent
+waveform vectors of the signal. In another important application of low bit-rate speech coding, the codewords
+represent a set of parameter vectors of the AR model for the speech signal. Such coding systems synthesize the
+signal using the speech model in Fig. 15.2. The synthesis is performed using the encoded vector of AR coefﬁcients
+as well as the parameters of the excitation signal. Reasonably good speech quality can be obtained using this
+coding approach at rates as low as 2400–4800 bits/sample [Gersho and Gray, 1991].

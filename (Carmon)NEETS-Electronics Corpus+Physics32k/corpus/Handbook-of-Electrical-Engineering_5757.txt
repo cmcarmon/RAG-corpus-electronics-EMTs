@@ -1,0 +1,14 @@
+The  ﬁrst  condition  is  called  the  bifurcation  subsystem  condition  and  the  second  is  called  the  geometric
+decoupling condition. Finding a bifurcation subsystem for any bifurcation of the full system model requires
+ﬁnding the combination of correct dimension, correct subset of equations, and correct subset of variables such
+that  the  subsystem  experiences  the  bifurcation  (Eq. (63.49))  of  the  full  system  model  (Eq. (63.48))  but  also
+produces that bifurcation since the external model is completely uncoupled from the bifurcation subsystem in
+the  direction  of  the  right  eigenvector  (Eq. (63.50)).  The  right  eigenvector  is  an  approximation  of  the  center
+manifold at bifurcation, and the center manifold is the subsystem that actually experiences the bifurcation and
+is obtained via a nonlinear transformation of the model. The expectation of ﬁnding a bifurcation subsystem
+for  any  loadﬂow  bifurcation,  noting  the  above  requirements  for  identifying  such  a  bifurcation  subsystem,  is
+that  the  difﬁculty  in  ﬁnding  a  bifurcation  subsystem  would  be  great  even  though  one  may  exist  for  some
+bifurcations. The results in [Schlueter, 1998b; f] prove that one cannot only describe the bifurcation subsystem
+(where)  for  every  clogging  voltage  instability  and  for  every  loss  of  control  voltage  instability,  but  also  can
+theoretically establish diagnostic information on when, proximity, and cure for a speciﬁc bifurcation in a speciﬁc
+bifurcation subsystem for clogging or for loss of control voltage instability [Schlueter, 1998b; f].

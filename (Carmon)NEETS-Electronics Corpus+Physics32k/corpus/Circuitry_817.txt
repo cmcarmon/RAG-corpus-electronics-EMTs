@@ -1,0 +1,41 @@
+//Defines for the PIC microcontroller 
+char PORTC@0x07; 
+char TRISC@0x87; 
+char PORTD@0x08; 
+char TRISD@0x88; 
+char PORTE@0x09; 
+char TRISE@0x89; 
+ 
+//PIC Functions 
+#pragma CLOCK_FREQ 4000000 
+#define P16F877A 
+#include <system.h> 
+#define MX_EE 
+#define MX_EE_TYPE2 
+const char MX_EE_SIZE = 256; 
+#define MX_SPI 
+#define MX_SPI_C 
+#define MX_SPI_SDI 4 
+#define MX_SPI_SDO 5 
+#define MX_SPI_SCK 3 
+#define MX_UART 
+#define MX_UART_C 
+#define MX_UART_TX 6 
+#define MX_UART_RX 7 
+ 
+//Macro function declarations 
+ 
+//Variable declarations 
+char FCV_SWITCHSTATE; 
+ 
+//Macro implementations 
+ 
+void main() 
+{
+//PIC Initialisation 
+adcon1 = 0x07; 
+ 
+//Interrupt initialisation code 
+option_reg = 0xC0; 
+ 
+while(1) 

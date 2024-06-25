@@ -1,0 +1,6 @@
+The Pulay Stress (named for Peter Pulay) is an error that occurs in the stress tensor obtained from plane-wave density functional theory calculations due to the incompleteness of the basis set.
+A plane-wave density functional calculation on a crystal with specified lattice vectors will typically include in the basis set all plane waves with energies below the specified energy cutoff. This corresponds to all points on the reciprocal lattice that lie within a sphere whose radius is related to the energy cutoff. Consider what happens when the lattice vectors are varied, resulting in a change in the reciprocal lattice vectors. The points on the reciprocal lattice which represent the basis set will no longer correspond to a sphere, but an ellipsoid. This change in the basis set will result in errors in the calculated ground state energy change.
+The Pulay stress is often nearly isotropic, and tends to result in an underestimate of the equilibrium volume. Pulay stress can be reduced by increasing the energy cutoff. Another way to mitigate the effect of Pulay stress on the equilibrium cell shape is to calculate the energy at different lattice vectors with a fixed energy cutoff.
+
+
+== References ==

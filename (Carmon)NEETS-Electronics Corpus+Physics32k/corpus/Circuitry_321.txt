@@ -1,0 +1,40 @@
+will  be  equal  to  BVout  (less  the  small  forward 
+voltage  drop  of  the  switching  diode,  D).  The 
+average current through the inductor, IL , is equal to 
+the  load  current,  Iout. Note  that  a  small  amount  of 
+ripple voltage appears superimposed on the steady 
+output  voltage,  Vout. This  ripple  voltage  can  be 
+reduced  by  using  a  relatively  large  value  for  the 
+capacitor, C. 
+ 
+In  order  to  control  the  voltage  delivered  to  the 
+load, Vout, it is simply necessary to adjust the ratio 
+of  on  to  off  time  of  the  switch.  A  larger  ratio  of 
+‘on’ to ‘off’ time (i.e. a larger duty  cycle or mark 
+to  space  ratio) produces a greater output voltage, 
+and vice versa. 
+ 
+In  a  practical  switched  mode  power  supply,  the 
+witch, S1, is replaced by a semiconductor switching 
+device  (i.e.  a  bipolar  switching  transistor  or  a 
+MOSFET device). The switching device must have 
+a low ‘on’ resistance and a high ‘off’ resistance and 
+must be capable of switching from the ‘on’ state to 
+the ‘off’ state in a very short time. 
+  Regardless of whether it is a bipolar transistor or 
+a MOSFET, the switching device is controlled by a 
+train  of  rectangular  pulses  applied  to  its  base  or 
+gate terminal. The output voltage can be controlled 
+by varying the width of the pulses in this train. In a 
+practical  switched  mode  power  supply,  a  closed-
+loop feedback path is employed in which the output 
+voltage is sensed and fed back to the control input 
+of  a  pulse  generator.  The  result  is  pulse  width 
+modulation  (PWM) of  the  pulse  train  to  the 
+switching device. This pulse width modulation can 
+be achieved using a handful of discrete components 
+or, more usually, is based on a dedicated switched 
+mode controller chip. 
+  The  job  of  controlling  a  switched  mode  power 
+supply is an ideal task for an integrated circuit and 
+Fig.  6.29  shows  the  internal  arrangement  of    a 

@@ -1,0 +1,14 @@
+Here w(t) and v(t) are vector Brownian motions. The meaning
+of a Brownian motion, such as w(t), can be given directly or in
+terms of its differential dw(t). In the latter case, the dw(t) is a
+Gaussian random process with zero mean, covariance matrix
+W dt, and independent increments. A similar description ap-
+plies to dv(t), with covariance V dt. It is assumed that dw(t)
+and dv(t) are independent. The matrices A, B, C, and E are of
+compatible size. It should be remarked that the formalism of
+equation 5.1 is that of a stochastic differential equation. Intui-
+tively, one thinks of dividing both sides of this equation by dt
+to obtain the more colloquial form. But the formal derivative
+of a Brownian motion—which is known as white noise—is not
+a well-deﬁned random process, and this motivates an alternate
+way of thinking.

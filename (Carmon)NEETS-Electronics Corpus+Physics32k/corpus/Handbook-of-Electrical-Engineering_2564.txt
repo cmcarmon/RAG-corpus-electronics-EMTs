@@ -1,0 +1,12 @@
+Integrated Circuits
+Monolithic ICs are fabricated on single chips of silicon or dice (the singular being die). This means that the
+active and passive structures on the chips are manufactured all at the same time, so it is easy to ensure that a
+large number of such structures are identical, or bear some ﬁxed ratio to one another, but it is more difﬁcult
+to establish precise values for such sets of structures. For example, a set of transistors may all exhibit almost
+the  same  values  of  hFE,  but  the  actual  numerical  value  of  hFE  may  be  subject  to  wider  tolerances.  Similarly,
+many  pairs  of  resistors  may  bear  a  ratio  n:1  to  each  other,  but  the  actual  values  of  these  resistors  are  more
+difﬁcult to deﬁne. So, in IC design, it is very desirable to exploit the close similarity of devices (or close ratios)
+rather  than  depend  upon  their  having  predictable  absolute  values.  This  approach  has  led  to  two  ubiquitous
+circuit conﬁgurations, both of which depend upon device similarity: the long-tailed pair or difference ampliﬁer
+(often called the differential ampliﬁer), and the current mirror. This section will treat both, and the former is
+best introduced by considering the degenerate common-emitter stage.

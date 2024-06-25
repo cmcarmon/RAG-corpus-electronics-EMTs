@@ -1,0 +1,7 @@
+A control system is said to possess integral-error control when the generation of the output in
+some way depends upon the integral of the actuating signal. By designing the servoampliﬁer such
+that it makes available an output voltage that contains an integral term and a proportional term,
+integral-error control can be obtained. By modifying the transfer function of the servoampliﬁer in
+the block diagram, the complete block diagram of the servomechanism with integral-error control
+is shown in Figure 16.2.14, where Ki is the proportionality factor of the integral-error component.
+The direct transmission function is then given by

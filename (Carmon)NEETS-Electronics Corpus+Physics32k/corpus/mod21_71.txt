@@ -1,0 +1,7 @@
+Current can be measured with an oscilloscope by shunting the input terminals with a low-value
+resistor. The input terminals must then be connected in series with the circuit being tested. The value of
+the resistor must be small enough not to interfere with the operation of the circuit under test. At the same
+time, it must be large enough that the voltage developed will cause adequate deflection of the oscilloscope
+trace. For example, if an oscilloscope with a vertical deflection sensitivity of 0.1volt rms per centimeter
+(cm) is used in conjunction with a 10-ohm shunt resistor to measure a 25-milliamp current, the vertical
+trace will be deflected 2.5 centimeters, as shown in the following example:

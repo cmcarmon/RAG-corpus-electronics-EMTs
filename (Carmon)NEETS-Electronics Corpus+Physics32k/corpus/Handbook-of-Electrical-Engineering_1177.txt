@@ -1,0 +1,14 @@
+It can be shown that the set of conjugate-symmetric sequences Ccs is a closed vector space. Moreover, the set
+of nonnegative deﬁnite sequences Cnnd is a closed convex cone subset of Ccs.
+Normed Vector Space Formulation
+The  primary  objective  of  this  paper  is  to  present  several  algorithms  which  have  been  proposed  for  solving
+optimization  problem  (14.69)  using  an  iterative  approach.  These  algorithms  take  on  a  similar  form  and  are
+distinguished by the algebraic restrictions placed on the underlying attribute subsets. To provide for a satisfac-
+tory mathematical characterization of the restoration problem and its solution, it is essential that we provide
+an  algebraic  structure  to  the  underlying  metric  space.  In  particular,  the  ability  to  add  vectors  and  multiply
+vectors  by  scalars  provides  a  useful  means  for  interpreting  the  measurement  signal  and  more  importantly
+considerably increases the arsenal of analysis tools at our disposal. Fortunately, little loss in generality is incurred
+by  introducing  these  two  algebraic  operations  since  in  most  signal  processing  applications  of  interest  there
+exists an intuitively obvious means for their implementation. For example, if the metric space is taken to be
+Rn (or C n), then the sum of any two vectors x,y ˛Rn (or  Cn) has as its  kth component x(k) + y(k), while the
+scalar product ax has as its  k th component  ax(k) for 1 £  k £  n.

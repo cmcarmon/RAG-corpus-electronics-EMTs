@@ -1,0 +1,5 @@
+is l¯ = 2.31 binary digits. Here ln is the number of code letters in the code word for the source symbol an. This
+is the average number of binary digits per source symbol that would be needed to encode the source, and it is
+equal to the entropy. Thus, for this particular source, the Huffman code achieves the lower bound. It can be
+shown that in general the rate for the Huffman code will always be within 1 binary digit of the source entropy.
+By grouping source symbols into blocks of length L and assigning code words to each block, this maximum

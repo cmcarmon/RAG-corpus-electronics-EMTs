@@ -1,0 +1,26 @@
+An FM transmitter 
+ 
+Figure 13.9 shows the block schematic of a simple 
+FM transmitter. Once again, an accurate and stable 
+RF oscillator generates the radio frequency carrier 
+signal.  As  with  the  AM  transmitter,  the  output  of 
+this stage is amplified and passed to an RF power 
+amplifier  stage.  Here  again,  the  inclusion  of  an 
+amplifier  between  the  RF  oscillator  and  the  RF 
+power stage helps to improve frequency stability.  
+  The  low-level  signal  from  the  microphone  is 
+amplified using an AF amplifier before it is passed 
+to  a  variable  reactance  element  (e.g.  a  variable 
+capacitance  diode—see  page  93)  within  the  RF 
+oscillator  tuned  circuit.  The  application  of  the  AF 
+signal to the variable reactance element causes the 
+frequency  of  the  RF  oscillator  to  increase  and 
+decrease in sympathy with the AF signal. 
+  The final RF signal from the power amplifier is 
+passed  through  an  aerial  tuning  unit  that  matches 
+the aerial to the RF power amplifier and also helps 
+to  reduce  the  level  of  any  unwanted  harmonic 
+components that may be present. As with the final 
+stages  of  an  AM  transmitter,  the  RF  power 
+amplifier usually operates at an appreciable power 
+level and this uses Class C to increase efficiency. 

@@ -1,0 +1,7 @@
+Pitfalls.
+Many novice users will forget that AC analysis is a linear analysis. They will, for example, apply a
+1-V signal to an ampliﬁer with 5-V power supplies and a gain of 1000 and be surprised when SPICE tells them
+that the output voltage is 1000 V. Of course, the voltage generated in a simple ampliﬁer must be less than the
+power supply voltage, but to examine such clipping effects, transient analysis must be used. Likewise, selection
+of a proper Q point is important. If the ampliﬁer is biased in a saturated portion of its response and AC analysis
+is performed, the gain reported will be much smaller than the actual large signal gain.

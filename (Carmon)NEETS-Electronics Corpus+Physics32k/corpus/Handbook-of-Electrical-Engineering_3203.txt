@@ -1,0 +1,10 @@
+current i then oscillates sinusoidally and goes to zero in the natural way. The current tries to reverse,
+and the path for this current is provided by the diode D1. Conduction of D1 feeds the reactive energy in
+the load and the tank circuit back to the supply. The on-state of D1 also provides a reverse voltage across
+S1, allowing it to turn off. After providing a time equal to or greater than the turn-off time of S1, switch
+S2 can be turned on to initiate the second half cycle. The process is similar to the ﬁrst half cycle, with
+the voltage across vAB being of opposite polarity, and the functions of D1, S1 will be assumed by D2, S2.
+With  this  type  of  operation,  the  converter  works  in  the  continuous  current  mode  as  the  switches  are
+turned on before the currents in the diodes reach zero. If the switching on of S1 and S2 is delayed such
+that  the  currents  through  the  previously  conducting  diodes  reach  zero,  then  there  are  zero  current
+intervals and the inverter operates in the DCM [Fig. 30.33(b)].

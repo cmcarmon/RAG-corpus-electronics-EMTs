@@ -1,0 +1,6 @@
+Every memory request issued by the CPU requires an address translation, which in turn requires an access
+to the page table stored in memory. A translation lookaside buffer (TLB) is used to reduce the number of page
+table lookups. The most frequent virtual-to-physical mappings are kept in the TLB, which is a small associative
+memory tightly coupled with the CPU. If the needed mapping is found in the TLB, the translation is performed
+quickly and no access to the page table needs to be made. Virtual memory allows systems to run larger or more
+programs than are able to ﬁt in main memory, enhancing the capabilities of the system.

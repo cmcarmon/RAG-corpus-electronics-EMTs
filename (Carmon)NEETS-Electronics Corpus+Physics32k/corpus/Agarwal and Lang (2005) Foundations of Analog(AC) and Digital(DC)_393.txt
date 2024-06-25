@@ -1,0 +1,9 @@
+The analysis of circuits with idealized dependent sources admits one other
+simplification. In an idealized dependent source, the input port (or control port)
+is an open circuit if the guiding variable is a voltage. Similarly, the input is a
+short circuit if the guiding variable is a current. Thus, the presence of the input
+port does not really affect the behavior of the input part of the circuit. The
+idealized input port is simply present to sample the value of a branch current or
+voltage without changing the value of the existing branch variable. Therefore,
+we do not really need to show the input port of the dependent source explicitly,
+thereby reducing the number of branch variables that we have to deal with.

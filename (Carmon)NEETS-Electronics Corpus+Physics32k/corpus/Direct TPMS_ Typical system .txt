@@ -1,0 +1,11 @@
+In most current designs of direct TPMS, a small electronic assembly which is rugged enough to be mounted inside a tire, measures the pressure using a microelectromechanical system (MEMS) pressure sensor and then transmits this and other information to one or more vehicle receivers. Other information can include a serial number, temperature, acceleration and the status of the complete tire pressure monitoring system. The purpose of the serial number is to allow the vehicle to ignore transmissions from other vehicles and operate with a unique data field. A typical direct TPMS (e.g. Ford, BMW or Toyota) comprises the following components on a vehicle:
+A direct TPM sensor fitted to the back of the valve stem on each wheel
+A TPM Warning Light
+Unique identifier (ID's) for which tire is providing the data including speed and the direction of rotation
+A tire pressure monitor electronic control unit (ECU)
+Antenna(s)
+Controller for periodic measurements
+Source of power
+Diagnostics and wake up system
+Most direct TPMS systems use ultra high frequency (UHF) radio in one of the 'unlicensed' ISM bands (industrial, scientific and medical) for transmitting the data, often around 434 MHz in Europe and 315 MHz in much of the rest of the world. On some systems there is a separate receiver or antenna near each wheel whilst more commonly there is a single receiver which receives data from all of the wheels on the vehicle. Commonly this receiver is also used for remote keyless entry system (RKE) as this also usually uses UHF radio transmissions.
+TPM sensors can be fitted to the wheels in a number of ways. They can be mounted on the back of the tire valves stem or attached using adhesive or to a band which is then securely wrapped around the rim inside the tire, usually in the drop zone.

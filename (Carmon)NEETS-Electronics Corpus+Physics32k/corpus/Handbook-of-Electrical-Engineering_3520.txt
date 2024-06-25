@@ -1,0 +1,9 @@
+  of  the  Moore  ﬁnite  state  machine  is  given  in
+”  description  style  to  describe  the  state
+Fig. 34.8.  The VHDL  model,  called  a 
+machine [Dewey, 1983, 1992, 1997]. The entity statement deﬁnes the interface, i.e., the ports. The ports include
+two input signals, X and CLK, and an output signal Z. The ports are of type BIT, which speciﬁes that the signals
+may  only  carry  the  values  0  or  1.  The  architecture  statement  deﬁnes  the  input/output  transform  via  two
+concurrent signal assignment statements. The internal signal STATE holds the ﬁnite state information and is
+driven  by  a  guarded,  conditional  concurrent  signal  assignment  statement  that  executes  when  the  associated
+block expression

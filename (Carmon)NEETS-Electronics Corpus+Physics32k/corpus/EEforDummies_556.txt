@@ -1,0 +1,11 @@
+Conducting current through a diode
+After current starts flowing through a diode, the forward voltage drop across 
+the diode remains fairly constant — even if you increase the forward current. 
+For instance, most silicon diodes have a forward voltage of between 0.6 V 
+and 0.7 V over a wide range of forward currents. If you’re analyzing a circuit 
+that contains a silicon diode (such as the circuit on the left in Figure 9­5),  
+you can assume that the voltage drop across the diode is about 0.7 V — even 
+if you increase the source voltage from 6 V to 9 V. Increasing the source 
+ voltage increases the current through the circuit, but the diode voltage  
+drop remains the same, so the increased source voltage is dropped across 
+the lamp.

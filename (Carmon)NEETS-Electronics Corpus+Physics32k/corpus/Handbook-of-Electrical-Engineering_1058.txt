@@ -1,0 +1,10 @@
+Even when Eq. (14.7) is satisﬁed, mean-squared error (mse) convergence does not guarantee that s(t) = s¢(t)
+at every value of t. In particular, it is known that at values of t where s(t) is discontinuous the Fourier series
+converges to the average of the limiting values to the left and right of the discontinuity. For example, if t0 is a
+point of discontinuity, then s¢(t0) = [s(t 0
++) were deﬁned previously (note that
+at points of continuity, this condition is also satisﬁed by the very deﬁnition of continuity). Since the Dirichlet
+conditions require that s(t) have at most a ﬁnite number of points of discontinuity in one period, the set St
+such that s(t) „ s¢(t) within one period contains a ﬁnite number of points, and St is a set of measure zero in
+the formal mathematical sense. Therefore, s(t) and its Fourier series expansion s¢(t ) are equal almost everywhere,
+and s(t) can be considered identical to s¢(t) for analysis in most practical engineering problems.

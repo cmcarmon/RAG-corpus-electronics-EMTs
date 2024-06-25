@@ -1,0 +1,6 @@
+and the observed output is y(n) = ya(n) + w(n), where w(n) is the measurement noise at the output. In this
+example, the input signal is zero-mean unit variance white Gaussian noise. The signal-to-noise ratio at the
+output is 12 dB, and 300 samples of the input and output signals are used. The results for p = 2 are shown
+in Fig. 14.21; the true frequency response is given by the solid line, the dotted line is the solution that would
+result if no signal restoration were performed, and the dashed line depicts the solution after signal restoration
+(25 iterations).

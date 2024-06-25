@@ -1,0 +1,9 @@
+Comparing the adjustments used by the algorithms described
+by equations 2.62 through 2.65 and illustrated by Figure 2.19,
+with the piecewise-constant weight function used by the WLS
+method, it is possible to derive a very simple approach for
+designing digital ﬁlters with some compromises on minimax
+and WLS constraints (Diniz and Netto, 1999). This approach
+consists of a modiﬁcation on the weight-function updating
+procedure in such way that it becomes constant after a par-
+ticular extreme of the stopband of Bk(v):

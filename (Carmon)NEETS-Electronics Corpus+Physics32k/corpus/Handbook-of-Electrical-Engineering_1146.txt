@@ -1,0 +1,4 @@
+Another technique of block processing of data using DFTs is the overlap-add method in which L – N-point
+blocks of input data are zero-padded to L points, the resulting output blocks are overlapped by N points, and
+corresponding samples added together. This method requires more computation than the overlap-save method
+and is somewhat more difﬁcult to program. Therefore, its usage is not as widespread as the overlap-save method.

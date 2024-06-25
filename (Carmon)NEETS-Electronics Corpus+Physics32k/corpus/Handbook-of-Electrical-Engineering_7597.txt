@@ -1,0 +1,3 @@
+2. CMOS inputs should never be driven when the supply voltage VDD is off, since damage to the input-
+protecting diodes could result. Inputs wired to edge connectors should be shunted by resistors to VDD
+or VSS to guard against this possibility.

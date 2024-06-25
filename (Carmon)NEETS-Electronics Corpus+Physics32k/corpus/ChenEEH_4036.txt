@@ -1,0 +1,11 @@
+4. Partitioning, mapping, placing, and routing (PMPR):
+Partitioning is required for multichip design if it is also
+necessary for multichip implementation. After design
+is partitioned for an individual FPGA chip, logic for-
+mulation is mapped to underlying logic cells and
+placed according to the desired ﬂoor plan. Logic cells
+are interconnected by an automatic routing tool. A
+mapping, placing, and routing tool is provided by the
+manufacturer or locally implemented and integrated to
+the design ﬂow such as IRIS (Woods et al., 1997) for
+faster execution time.

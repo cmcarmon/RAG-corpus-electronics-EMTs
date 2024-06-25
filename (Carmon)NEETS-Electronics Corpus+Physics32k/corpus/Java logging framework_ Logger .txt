@@ -1,0 +1,1 @@
+A Logger is an object that allows the application to log without regard to where the output is sent/stored. The application logs a message by passing an object or an object and an exception with an optional severity level to the logger object under a given a name/identifier.

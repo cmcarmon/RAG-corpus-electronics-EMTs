@@ -1,0 +1,8 @@
+This theorem’s proof is a direct consequence of the fact that the Frobenius and Euclidean norm of the matrix
+A and Q*AQ are equal for any unitary matrix Q. Upon setting Q equal to the n ·  n matrix whose columns are
+equal  to  the n  orthonormal  eigenvectors  of  matrix A,  it  follows  that  the  Frobenius  (Euclidean)  norm  of  the
+matrices A – B and Q*[A – B]Q are equal. From this equality the optimality of positive-deﬁnite matrix (14.107)
+immediately  follows  since  Q*AQ  is  equal  to  the  diagonal  matrix  with  the  eigenvalues  of  A  as  its  diagonal
+components. The closest positive-semideﬁnite matrix (14.107) is obtained by simply truncating the SVD to the
+positive  singular  value  outer  products.  Similarly,  the  closest  orthogonal  projection  matrix  is  obtained  by
+replacing each singular value by 1 if the singular value is greater than or equal to 0.5 and by 0 otherwise.

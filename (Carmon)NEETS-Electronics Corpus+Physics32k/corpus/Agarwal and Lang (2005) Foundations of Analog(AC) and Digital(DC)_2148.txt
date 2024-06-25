@@ -1,0 +1,12 @@
+This expression shows that for the non-inverting connection, the effective input
+resistance in the active region is very high, (roughly the Op Amp input resis-
+tance ri multiplied by the loop gain) in contrast to the result for the inverting
+if we apply a voltage vt at the
+case, Equation 15.38. Reasoning physically,
+−
+input, the output voltage adjusts itself so that v
+is very nearly equal to vt,
+so there is very little voltage across ri, hence much less current flowing in it
+than we might expect. Hence the circuit input resistance is large. This prop-
+erty enables the non-inverting connection to be particularly useful in buffering
+applications.

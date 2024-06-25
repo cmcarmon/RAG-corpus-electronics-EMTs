@@ -1,0 +1,23 @@
+sequence  of  instruction  fetch  and  execute  cycles. 
+The act of fetching an instruction code (or operand 
+or  data  value)  from  memory  involves  a  read 
+operation  whilst  the  act  of  moving  data  from  the 
+microprocessor  to  a  memory  location  involves  a 
+write operation – see Fig. 11.6. 
+  Each  cycle  of  CPU  operation  is  known  as  a 
+machine  cycle.  Program  instructions  may  require 
+several machine cycles (typically between two and 
+five). The first machine cycle in any cycle consists 
+of an instruction fetch (the instruction code is read 
+from the memory) and it is known as the M1 cycle. 
+Subsequent cycles M2, M3, and so on, depend on 
+the type of instruction that is being executed. This 
+fetch-execute sequence is shown in Fig. 11.7. 
+  Microprocessors  determine  the  source  of  data 
+(when it is being read) and the destination of data 
+(when  it  is  being  written)  by  placing  a  unique 
+address  on  the  address  bus.  The  address  at  which 
+the data is to be placed (during a write operation) or 
+from  which  it  is  to  be  fetched  (during  a  read 
+operation) can either constitute part of the memory 
+of the system (in which case it may be within ROM 

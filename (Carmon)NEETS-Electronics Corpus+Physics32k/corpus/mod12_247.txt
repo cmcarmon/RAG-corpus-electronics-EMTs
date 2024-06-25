@@ -1,0 +1,9 @@
+In fsk the output is abruptly changed between two differing frequencies by opening and closing the
+key. This is shown in view (D). For illustrative purposes, the spacing frequency in view (D) is shown as
+double the marking frequency. However, in practice the difference is usually less than 1,000 hertz, even
+when operating at several megahertz. You should also note that the limit of frequency shift is determined
+without reference to the amplitude of the keying signal in the fsk system. The frequency shift may be set
+at plus or minus 425 hertz from the allocated channel frequency. The total shift between mark and space
+would be 850 hertz. Either the mark or space may use the higher of the two frequencies. The upper
+frequency of the transmitted signal is usually the spacing interval and the lower frequency is the marking
+interval.

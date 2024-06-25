@@ -1,0 +1,8 @@
+Each digital variable is stored in a ﬁnite length register and is
+represented by a ﬁnite number of bits, B. There are two
+possible ways of representing data in binary form: ﬁxed
+point and ﬂoating point. In ﬁxed point representation, the
+binary point is ﬁxed at a speciﬁc location, and the implemen-
+tation of arithmetic operations takes into account this prop-
+erty. On the other hand, in the ﬂoating point representation,
+each number is represented by two parameters: a mantissa,

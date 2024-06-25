@@ -1,0 +1,4 @@
+When the data is required for some other operation, a positive-going pulse is applied to the READ
+OUT inputs of the AND gates. This HIGH, along with the HIGHs from the FFs, causes the outputs of
+AND gates 5, 6, and 8 to go HIGH. Since the Q output of FF3 is LOW, the output of gate 7 will be LOW.
+The 4-bit word, 1101, is transferred to where it is needed.

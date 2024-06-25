@@ -1,0 +1,7 @@
+p r o b l e m 15.15
+The capacitor you calculated in Problem 15.14c is (or should
+be) much larger than the maximum capacitor that can be included on a VLSI chip. For
+this reason, the circuit in Figure 15.82 must usually be built of Op Amps, discrete R’s
+and C’s. To allow the circuit to be built on a chip, the resistor is replaced by a switched
+capacitor, which can produce a very large ‘‘effective resistor’’ with reasonable capacitor
+values. This circuit is shown in Figure 15.83.

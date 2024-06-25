@@ -1,0 +1,9 @@
+With this architecture, when a customer places a Calling Card call, the call is routed to an operator services
+system  (OSS)  which  suspends  call  processing  and  launches  a  query  through  a  CCS7  signaling  network.  The
+query is delivered to an SCP which contains the line information database (LIDB) application software. The
+LIDB application can provide routing information, such as identifying the customer-speciﬁed carrier which is
+to handle the call, as well as provide screening functions, such as the Calling Card validation used to authorize
+a call. The LIDB then returns the appropriate information to the OSS so that the call can be completed. The
+LIDBs are supported by the database administration system (DBAS), which is an operations support system
+that processes updates for Calling Card Service as well as other services. Multiple DBAS systems typically support
+each LIDB.

@@ -1,0 +1,6 @@
+Computing the output resistance needs more work. As depicted in Figure 8.40, let us
+turn off the independent sources, apply a small test voltage vtest at the output terminal
+and measure the corresponding current itest. The output resistance will be given by
+rout = vtest/itest.
+In order to compute rout, we apply KCL at node a shown in Figure 8.40. The dependent
+source current ids depends on vgs, and vgs equals −vtest. Therefore, we have

@@ -1,0 +1,344 @@
+Mathematical Explanation(Ray theory)
+The equation of motion in rectangular Cartesian coordinates can be written as
+
+where t is the time,
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+is the density,
+
+
+
+
+U
+
+j
+
+
+
+
+{\displaystyle U_{j}}
+is the component of the displacement vector U, and
+
+
+
+
+c
+
+i
+j
+k
+l
+
+
+
+
+{\displaystyle c_{ijkl}}
+represents the elastic tensor.
+A wavefront can be described by the equation
+
+The solution to (1) can be expressed as a ray series
+
+where the function
+
+
+
+
+f
+
+n
+
+
+
+(
+ϑ
+)
+
+
+
+{\displaystyle f_{n}\left(\vartheta \right)}
+satisfies the relation
+
+Substitute (3) into (1),
+
+where the vector operators N,M,L are given by the formula:
+
+where
+
+For the first order
+
+
+
+n
+=
+0
+
+
+{\displaystyle n=0}
+, so
+
+
+
+
+U
+
+
+(
+
+−
+1
+
+)
+
+
+
+=
+
+U
+
+
+(
+
+−
+2
+
+)
+
+
+
+=
+0
+
+
+{\displaystyle U^{\left(-1\right)}=U^{\left(-2\right)}=0}
+, and only the first component of the equation (5) is left.
+Thus,
+
+To obtain the solution of (8), the eigenvalues and eigenvectors of matrix
+
+
+
+
+Γ
+
+j
+k
+
+
+
+
+{\displaystyle \Gamma _{jk}}
+are needed,
+
+which can be rewritten as
+
+where the values
+
+
+
+P
+,
+Q
+
+
+{\displaystyle P,Q}
+and
+
+
+
+R
+
+
+{\displaystyle R}
+are the invariants of the symmetric matrix
+
+
+
+
+Γ
+
+j
+k
+
+
+
+
+{\displaystyle \Gamma _{jk}}
+.
+The matrix
+
+
+
+
+Γ
+
+j
+k
+
+
+
+
+{\displaystyle \Gamma _{jk}}
+has three eigenvectors:
+
+
+
+
+g
+
+1
+
+
+,
+
+
+g
+
+2
+
+
+,
+
+
+g
+
+3
+
+
+
+
+{\displaystyle g_{1},~g_{2},~g_{3}}
+, which correspond to three eigenvalues of
+
+
+
+
+G
+
+1
+
+
+,
+
+
+G
+
+2
+
+
+,
+
+
+{\displaystyle G_{1},~G_{2},}
+and
+
+
+
+
+
+G
+
+3
+
+
+
+
+{\displaystyle ~G_{3}}
+.
+For isotropic media,
+
+
+
+
+G
+
+1
+
+
+=
+
+α
+
+2
+
+
+
+p
+
+i
+
+
+
+p
+
+i
+
+
+
+
+{\displaystyle G_{1}=\alpha ^{2}p_{i}p_{i}}
+corresponds to the compressional wave and
+
+
+
+
+G
+
+2
+
+
+=
+
+G
+
+3
+
+
+=
+
+β
+
+2
+
+
+
+p
+
+i
+
+
+
+p
+
+i
+
+
+
+
+{\displaystyle G_{2}=G_{3}=\beta ^{2}p_{i}p_{i}}
+corresponds to the two shear waves traveling together.
+For anisotropic media,
+
+
+
+
+G
+
+2
+
+
+≠
+
+G
+
+3
+
+
+
+
+{\displaystyle G_{2}\neq G_{3}}
+, indicates that the two shear waves have split.

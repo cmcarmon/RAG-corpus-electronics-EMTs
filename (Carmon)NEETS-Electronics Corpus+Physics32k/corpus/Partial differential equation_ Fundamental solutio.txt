@@ -1,0 +1,2 @@
+Inhomogeneous equations can often be solved (for constant coefficient PDEs, always be solved) by finding the fundamental solution (the solution for a point source), then taking the convolution with the boundary conditions to get the solution.
+This is analogous in signal processing to understanding a filter by its impulse response.

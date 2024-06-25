@@ -1,0 +1,112 @@
+In order to decrease the time in which an island is detected, rate of change of frequency has been adopted as a detection method. The rate of change of frequency is given by the following expression:
+
+
+
+
+
+
+
+
+d
+
+f
+
+
+
+d
+
+t
+
+
+
+=
+R
+O
+C
+O
+F
+=
+
+
+
+Δ
+P
+f
+
+
+2
+G
+H
+
+
+
+
+
+{\displaystyle {\frac {\mathrm {d} f}{\mathrm {d} t}}=ROCOF={\frac {\Delta Pf}{2GH}}}
+
+where
+
+
+
+f
+
+
+{\displaystyle f}
+is the system frequency,
+
+
+
+t
+
+
+{\displaystyle t}
+is the time,
+
+
+
+Δ
+P
+
+
+{\displaystyle \Delta P}
+is the power imbalance (
+
+
+
+Δ
+P
+=
+
+P
+
+m
+
+
+−
+
+P
+
+e
+
+
+
+
+{\displaystyle \Delta P=P_{m}-P_{e}}
+),
+
+
+
+G
+
+
+{\displaystyle G}
+is the system capacity, and
+
+
+
+H
+
+
+{\displaystyle H}
+is the system inertia.
+Should the rate of change of frequency, or ROCOF value, be greater than a certain value, the embedded generation will be disconnected from the network.

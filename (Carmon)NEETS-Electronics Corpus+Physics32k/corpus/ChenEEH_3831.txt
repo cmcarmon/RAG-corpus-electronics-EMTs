@@ -1,0 +1,10 @@
+Figure 4.14(D) shows the image recovered from the blurred
+and quantized image. In the implementation of the Wiener
+ﬁlter, it was supposed that the ensemble of the input could be
+modeled by a ﬁrst-order Gauss-Markov process [AR(1)] with
+correlation coefﬁcient equal to 0.95. Since the image has a
+dynamic range of 256 and was quantized with quantization
+interval 1, the noise was supposed to be white and uniform
+with density 1/12 (see equation 4.15). We note that the recov-
+ery is far better than the one obtained with the pseudo-inverse
+ﬁlter.

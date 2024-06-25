@@ -1,0 +1,12 @@
+The simple time constant formula (τ =RC) is based on a simple series resistance connected to
+the capacitor. For that matter, the time constant formula for an inductive circuit (τ =L/R) is also
+based on the assumption of a simple series resistance. So, what can we do in a situation like
+this, where resistors are connected in a series-parallel fashion with the capacitor (or inductor)?
+The answer comes from our studies in network analysis. Thevenin’s Theorem tells us that
+we can reduce any linear circuit to an equivalent of one voltage source, one series resistance,
+and a load component through a couple of simple steps. To apply Thevenin’s Theorem to our
+scenario here, we’ll regard the reactive component (in the above example circuit, the capaci-
+tor) as the load and remove it temporarily from the circuit to ﬁnd the Thevenin voltage and
+Thevenin resistance. Then, once we’ve determined the Thevenin equivalent circuit values,
+we’ll re-connect the capacitor and solve for values of voltage or current over time as we’ve been
+doing so far.

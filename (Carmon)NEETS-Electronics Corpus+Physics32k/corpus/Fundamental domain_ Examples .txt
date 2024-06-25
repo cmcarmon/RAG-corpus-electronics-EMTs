@@ -1,0 +1,9 @@
+Examples in the three-dimensional Euclidean space R3.
+for n-fold rotation: an orbit is either a set of n points around the axis, or a single point on the axis; the fundamental domain is a sector
+for reflection in a plane: an orbit is either a set of 2 points, one on each side of the plane, or a single point in the plane; the fundamental domain is a half-space bounded by that plane
+for inversion in a point: an orbit is a set of 2 points, one on each side of the center, except for one orbit, consisting of the center only; the fundamental domain is a half-space bounded by any plane through the center
+for 180° rotation about a line: an orbit is either a set of 2 points opposite to each other with respect to the axis, or a single point on the axis; the fundamental domain is a half-space bounded by any plane through the line
+for discrete translational symmetry in one direction: the orbits are translates of a 1D lattice in the direction of the translation vector; the fundamental domain is an infinite slab
+for discrete translational symmetry in two directions: the orbits are translates of a 2D lattice in the plane through the translation vectors; the fundamental domain is an infinite bar with parallelogrammatic cross section
+for discrete translational symmetry in three directions: the orbits are translates of the lattice; the fundamental domain is a primitive cell which is e.g. a parallelepiped, or a Wigner-Seitz cell, also called Voronoi cell/diagram.
+In the case of translational symmetry combined with other symmetries, the fundamental domain is part of the primitive cell. For example, for wallpaper groups the fundamental domain is a factor 1, 2, 3, 4, 6, 8, or 12 smaller than the primitive cell.

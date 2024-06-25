@@ -1,0 +1,30 @@
+g
+i inputs are also separated
+its complement, 
+in time from the clock inputs as shown in Fig. 79.25(b). The gi and 
+i inputs, which represent the incoming
+i > gi, the S-SEED will enter a state
+data and its complement, are used to set the state of the device. When 
+g
+where the upper MQW pin diode will be reﬂective, forcing the lower diode to be absorptive. When gi > 
+i the
+opposite condition will occur. Low switching intensities are able to change the device’s state when the clock
+signals are not present. After the device has been put into its proper state, the clock beams are applied to both
+inputs. The ratio of the power between the two clock beams should be approximately one, which will prevent
+the device from changing states. These higher energy clock pulses, on reﬂection, will transmit the state of the device
+to the next stage of the system. Since the inputs gi and 
+i are low-intensity pulses and the clock signals are high-
+intensity pulses, a large differential gain may be achieved. This type of gain is referred to as time-sequential gain.
+The operation of an S-SEED is determined by the power transfer characteristic shown in Fig. 79.26(c). The
+optical power reﬂected by the yi window, when the clock signal is applied, is plotted against the ratio of the
+total optical signal power impinging on the gi and 
+i windows (when the clock signal is not applied). Assuming
+the clock power incident on both signal windows, gi and 
+i, the output power is proportional to the reﬂectivity,
+Ri. The ratio of the input signal powers is deﬁned as the input contrast ratio Cin = Pg/P i. As Cin is increased
+from zero, the reﬂectivity of the yi window switches from a low value, R1, to a high value, R2, at a Cin value
+approximately  equal  to  the  ratio  of  the  absorbances  of  the  two  optical  windows:  T  =  (1  –  R1)/(1  –  R2).
+Simultaneously, the reﬂectivity of the other window (yi) switches from R2 to R1. The return transition point
+(ideally)  occurs  when  Cin  =  (1  –  R2)/(1  –  R1)  =  l/T.  The  ratio  of  the  two  reﬂectivities,  R2/R1,  is  the  output
+contrast, Cout. Typical measured values of the preceding parameters include Cout = 3.2, T = 1.4, R2 = 50% and
+R1 = 15%. The switching energy for these devices has been measured at ~7 fJ/mm2.

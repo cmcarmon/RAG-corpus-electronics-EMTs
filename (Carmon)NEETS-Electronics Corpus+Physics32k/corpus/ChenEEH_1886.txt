@@ -1,0 +1,21 @@
+ﬁrm. It has been estimated that due to such downtime and
+associated system maintenance and recovery costs, the total
+cost of ownership is ﬁve to ten times or more compared to
+hardware and software purchase price (Patterson et al., 2002).
+Consequently, system dependability today is a critical require-
+ment
+for high-performance multiprocessor systems. This
+chapter focuses primarily on fault-tolerance techniques for
+uniprocessor computer systems and will not discuss multipro-
+cessor fault-tolerance methods. The reader is directed to the
+various works cited previously for structural fault-tolerance
+methods for multiprocessor systems. There also exists a consid-
+erable amount of work on software-based fault-tolerance tech-
+niques, primarily checkpointing and rollback recovery for
+multiprocessor and distributed-processor systems that the
+reader can also peruse: Chandy and Ramamoorthy, Elnozahy
+et al. (2002), Huang and Kintala (1993), Koo and Toveg, Li and
+Fuchs (1990), Long et al. (1992), Ssu et al. (1999), and Wang
+et al., (1995). Both classes of fault-tolerance techniques, struc-
+tural/hardware and software/rollback-recovery are important
+for multiprocessor dependability.

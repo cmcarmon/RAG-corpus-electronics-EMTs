@@ -1,0 +1,450 @@
+As the biquaternions have been a fixture of linear algebra since the beginnings of mathematical physics, there is an array of concepts that are illustrated or represented by biquaternion algebra. The transformation group
+
+
+
+G
+=
+{
+g
+:
+g
+
+g
+
+∗
+
+
+=
+1
+}
+
+
+{\displaystyle G=\lbrace g:gg^{*}=1\rbrace }
+has two parts,
+
+
+
+G
+∩
+H
+
+
+{\displaystyle G\cap H}
+and
+
+
+
+G
+∩
+M
+.
+
+
+{\displaystyle G\cap M.}
+The first part is characterized by
+
+
+
+g
+=
+
+g
+
+⋆
+
+
+
+
+{\displaystyle g=g^{\star }}
+; then the Lorentz transformation corresponding to g is given by
+
+
+
+T
+(
+q
+)
+=
+
+g
+
+−
+1
+
+
+q
+g
+
+
+{\displaystyle T(q)=g^{-1}qg}
+since
+
+
+
+
+g
+
+∗
+
+
+=
+
+g
+
+−
+1
+
+
+.
+
+
+{\displaystyle g^{*}=g^{-1}.}
+Such a transformation is a rotation by quaternion multiplication, and the collection of them is O(3)
+
+
+
+≅
+G
+∩
+H
+.
+
+
+{\displaystyle \cong G\cap H.}
+But this subgroup of G is not a normal subgroup, so no quotient group can be formed.
+To view
+
+
+
+G
+∩
+M
+
+
+{\displaystyle G\cap M}
+it is necessary to show some subalgebra structure in the biquaternions. Let r represent an element of the sphere of square roots of minus one in the real quaternion subalgebra ℍ. Then (hr)2 = +1 and the plane of biquaternions given by
+
+
+
+
+D
+
+r
+
+
+=
+{
+z
+=
+x
++
+y
+h
+r
+:
+x
+,
+y
+∈
+
+R
+
+}
+
+
+{\displaystyle D_{r}=\lbrace z=x+yhr:x,y\in \mathbb {R} \rbrace }
+is a commutative subalgebra isomorphic to the plane of split-complex numbers. Just as the ordinary complex plane has a unit circle,
+
+
+
+
+D
+
+r
+
+
+
+
+{\displaystyle D_{r}}
+has a unit hyperbola given by
+
+
+
+
+e
+x
+p
+(
+a
+h
+r
+)
+=
+cosh
+⁡
+(
+a
+)
++
+h
+r
+
+sinh
+⁡
+(
+a
+)
+,
+
+a
+∈
+R
+.
+
+
+{\displaystyle exp(ahr)=\cosh(a)+hr\ \sinh(a),\quad a\in R.}
+
+Just as the unit circle turns by multiplication through one of its elements, so the hyperbola turns because
+
+
+
+exp
+⁡
+(
+a
+h
+r
+)
+exp
+⁡
+(
+b
+h
+r
+)
+=
+exp
+⁡
+(
+(
+a
++
+b
+)
+h
+r
+)
+.
+
+
+{\displaystyle \exp(ahr)\exp(bhr)=\exp((a+b)hr).}
+Hence these algebraic operators on the hyperbola are called hyperbolic versors. The unit circle in ℂ and unit hyperbola in Dr are examples of one-parameter groups. For every square root r of minus one in ℍ, there is a one-parameter group in the biquaternions given by
+
+
+
+G
+∩
+
+D
+
+r
+
+
+.
+
+
+{\displaystyle G\cap D_{r}.}
+
+The space of biquaternions has a natural topology through the Euclidean metric on 8-space. With respect to this topology, G is a topological group. Moreover, it has analytic structure making it a six-parameter Lie group. Consider the subspace of bivectors
+
+
+
+A
+=
+{
+q
+:
+
+q
+
+∗
+
+
+=
+−
+q
+}
+
+
+{\displaystyle A=\lbrace q:q^{*}=-q\rbrace }
+. Then the exponential map
+
+
+
+exp
+:
+A
+→
+G
+
+
+{\displaystyle \exp :A\to G}
+takes the real vectors to
+
+
+
+G
+∩
+H
+
+
+{\displaystyle G\cap H}
+and the h-vectors to
+
+
+
+G
+∩
+M
+.
+
+
+{\displaystyle G\cap M.}
+When equipped with the commutator, A forms the Lie algebra of G. Thus this study of a six-dimensional space serves to introduce the general concepts of Lie theory. When viewed in the matrix representation, G is called the special linear group SL(2,C) in M(2, ℂ).
+Many of the concepts of special relativity are illustrated through the biquaternion structures laid out. The subspace M corresponds to Minkowski space, with the four coordinates giving the time and space locations of events in a resting frame of reference. Any hyperbolic versor exp(ahr) corresponds to a velocity in direction r of speed c tanh a where c is the velocity of light. The inertial frame of reference of this velocity can be made the resting frame by applying the Lorentz boost T given by g = exp(0.5ahr) since then
+
+
+
+
+g
+
+⋆
+
+
+=
+exp
+⁡
+(
+−
+0.5
+a
+h
+r
+)
+=
+
+g
+
+∗
+
+
+
+
+{\displaystyle g^{\star }=\exp(-0.5ahr)=g^{*}}
+so that
+
+
+
+T
+(
+exp
+⁡
+(
+a
+h
+r
+)
+)
+=
+1.
+
+
+{\displaystyle T(\exp(ahr))=1.}
+Naturally the hyperboloid
+
+
+
+G
+∩
+M
+,
+
+
+{\displaystyle G\cap M,}
+which represents the range of velocities for sub-luminal motion, is of physical interest. There has been considerable work associating this "velocity space" with the hyperboloid model of hyperbolic geometry. In special relativity, the hyperbolic angle parameter of a hyperbolic versor is called rapidity. Thus we see the biquaternion group G provides a group representation for the Lorentz group.
+After the introduction of spinor theory, particularly in the hands of Wolfgang Pauli and Élie Cartan, the biquaternion representation of the Lorentz group was superseded. The new methods were founded on basis vectors in the set
+
+
+
+
+{
+q
+
+:
+
+q
+
+q
+
+∗
+
+
+=
+0
+}
+=
+{
+w
++
+x
+
+i
+
++
+y
+
+j
+
++
+z
+
+k
+
+
+:
+
+
+w
+
+2
+
+
++
+
+x
+
+2
+
+
++
+
+y
+
+2
+
+
++
+
+z
+
+2
+
+
+=
+0
+}
+
+
+{\displaystyle \lbrace q\ :\ qq^{*}=0\rbrace =\lbrace w+x\mathbf {i} +y\mathbf {j} +z\mathbf {k} \ :\ w^{2}+x^{2}+y^{2}+z^{2}=0\rbrace }
+
+which is called the complex light cone.

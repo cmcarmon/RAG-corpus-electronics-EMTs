@@ -1,0 +1,12 @@
+From Example 7.3, the voltage drop across the drift region at
+a current density of 100 ˚A=cm2 is 3.1 V. With technological
+limitations and following the design guidelines, the unit cell
+dimension of a 500 V MOSFET is about 8 mm. Then, consider-
+ing that the channel has an on-state resistance of 0:68 V
+(example 7.4), the channel drop is 0.35 V. Thus, the overall
+MOSFET voltage drop is 3.45 V. The IGBT will have the same
+channel drop. However, the voltage across the diode in the
+equivalent representation of the IGBT is given by equation 7.19
+to be 0.43 V. Thus, the overall voltage-drop of the IGBT is
+0.78 V. This illustrates the superior on-state performance of
+IGBTs over MOSFETs at higher voltage levels.

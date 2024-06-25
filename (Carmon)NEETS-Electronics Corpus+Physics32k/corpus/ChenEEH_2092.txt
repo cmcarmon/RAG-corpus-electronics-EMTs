@@ -1,0 +1,16 @@
+A is a function that annotates each arc with a term that
+when evaluated (for some binding) results in a multiset
+over the associated place’s type. Furthermore, all simple
+labels of a compound label must have distinct identiﬁers,
+and all simple labels of arcs connected to the same node
+must have distinct identiﬁers. Because compound labels
+deﬁne data ﬂows as well as control ﬂows, the following
+basic control ﬂow patterns (He and Lee, 1991) must be
+correctly labeled: (1) data ﬂowing into and out of an
+elementary transition must take place concurrently, and
+(2) data ﬂowing into and out of an elementary predicate
+can occur at different times. Furthermore, data ﬂows
+between different levels of hierarchies must be balanced
+(i.e., a simple label occurs in a nonterminating arc if and
+only if it also appears in an arc with the same direction
+connected to the enclosing super node).

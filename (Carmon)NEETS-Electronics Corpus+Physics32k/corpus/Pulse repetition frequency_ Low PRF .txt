@@ -1,0 +1,57 @@
+Systems using PRF below 3 kHz are considered low PRF because direct range can be measured to a distance of at least 50 km. Radar systems using low PRF typically produce unambiguous range.
+Unambiguous Doppler processing becomes an increasing challenge due to coherency limitations as PRF falls below 3 kHz.
+For example, an L-Band radar with 500 Hz pulse rate produces ambiguous velocity above 75 m/s (170 mile/hour), while detecting true range up to 300 km. This combination is appropriate for civilian aircraft radar and weather radar.
+
+
+
+
+
+300 km range
+
+=
+
+
+C
+
+2
+×
+500
+
+
+
+
+
+{\displaystyle {\text{300 km range}}={\frac {C}{2\times 500}}}
+
+
+
+
+
+
+75 m/s velocity
+
+=
+
+
+
+500
+×
+C
+
+
+2
+×
+
+10
+
+9
+
+
+
+
+
+
+
+{\displaystyle {\text{75 m/s velocity}}={\frac {500\times C}{2\times 10^{9}}}}
+
+Low PRF radar have reduced sensitivity in the presence of low-velocity clutter that interfere with aircraft detection near terrain. Moving target indicator is generally required for acceptable performance near terrain, but this introduces radar scalloping issues that complicate the receiver. Low PRF radar intended for aircraft and spacecraft detection are heavily degraded by weather phenomenon, which cannot be compensated using moving target indicator.

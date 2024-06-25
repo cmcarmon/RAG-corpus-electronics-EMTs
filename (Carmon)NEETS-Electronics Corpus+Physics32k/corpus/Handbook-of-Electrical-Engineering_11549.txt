@@ -1,0 +1,8 @@
+The actual FDTD calculations may be excited in different ways. Most commonly the electric ﬁelds on one
+or more mesh edges are determined by an analytical function of time, such as a Gaussian pulse or sine wave.
+This then acts as a driven voltage source. This may be used to excite an antenna. For example, a short monopole
+antenna on a rectangular box may approximate a portable telephone. This monopole antenna could be driven
+by a drive voltage source located on the mesh edge at the monopole base next to the top of the box. Both Kunz
+and Luebbers [1993] and Taﬂove [1995] describe methods for modeling RF sources. A variety of FDTD sources,
+including current sources, are described in Piket-May et al. [1994]. Alternatively a plane wave may be incident
+on the object as the excitation source.

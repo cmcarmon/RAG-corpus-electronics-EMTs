@@ -1,0 +1,8 @@
+Of course, the average (relative) error is not the only way to
+compare the accuracy of computing systems. Especially true
+for signal processing systems, one may use the signal-to-noise
+ratio (SNR), assuming that quantization errors represent
+noise, to compare the precision of two systems. In that case,
+by equating the SNRs of the LNS and the ﬁxed-point system
+that covers the required dynamic range, the integer and frac-
+tional word lengths of the LNS may be computed.

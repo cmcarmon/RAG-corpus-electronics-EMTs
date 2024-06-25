@@ -1,0 +1,327 @@
+A more common variation of this thought experiment is to send back the signal to the sender (a similar one was given by David Bohm). Suppose Alice (A) is on a spacecraft moving away from the Earth in the positive x-direction with a speed
+
+
+
+v
+
+
+{\displaystyle v}
+, and she wants to communicate with Bob (B) back home. Assume both of them have a device that is capable of transmitting and receiving faster-than-light signals at a speed of
+
+
+
+a
+
+
+{\displaystyle a}
+
+
+
+
+c
+
+
+{\displaystyle c}
+with
+
+
+
+a
+>
+1
+
+
+{\displaystyle a>1}
+. Alice uses this device to send a message to Bob, who sends a reply back. Let us choose the origin of the coordinates of Bob's reference frame,
+
+
+
+S
+
+
+{\displaystyle S}
+, to coincide with the reception of Alice's message to him. If Bob immediately sends a message back to Alice, then in his rest frame the coordinates of the reply signal (in natural units so that c=1) are given by:
+
+
+
+
+(
+t
+,
+x
+)
+=
+(
+t
+,
+a
+t
+)
+
+
+{\displaystyle (t,x)=(t,at)}
+
+To find out when the reply is received by Alice, we perform a Lorentz transformation to Alice's frame
+
+
+
+
+S
+′
+
+
+
+{\displaystyle S'}
+moving in the positive x-direction with velocity
+
+
+
+v
+
+
+{\displaystyle v}
+with respect to the Earth. In this frame Alice is at rest at position
+
+
+
+
+x
+′
+
+=
+L
+
+
+{\displaystyle x'=L}
+, where
+
+
+
+L
+
+
+{\displaystyle L}
+is the distance that the signal Alice sent to Earth traversed in her rest frame. The coordinates of the reply signal are given by:
+
+
+
+
+
+t
+′
+
+=
+γ
+
+(
+
+1
+−
+a
+v
+
+)
+
+t
+
+
+{\displaystyle t'=\gamma \left(1-av\right)t}
+
+
+
+
+
+
+x
+′
+
+=
+γ
+
+(
+
+a
+−
+v
+
+)
+
+t
+
+
+{\displaystyle x'=\gamma \left(a-v\right)t}
+
+The reply is received by Alice when
+
+
+
+
+x
+′
+
+=
+L
+
+
+{\displaystyle x'=L}
+. This means that
+
+
+
+t
+=
+
+
+
+L
+
+γ
+(
+a
+−
+v
+)
+
+
+
+
+
+
+{\displaystyle t={\tfrac {L}{\gamma (a-v)}}}
+and thus:
+
+
+
+
+
+t
+′
+
+=
+
+
+
+1
+−
+a
+v
+
+
+a
+−
+v
+
+
+
+L
+
+
+{\displaystyle t'={\frac {1-av}{a-v}}L}
+
+Since the message Alice sent to Bob took a time of
+
+
+
+
+
+
+L
+a
+
+
+
+
+
+{\displaystyle {\tfrac {L}{a}}}
+to reach him, the message she receives back from him will reach her at time:
+
+
+
+
+T
+=
+
+
+L
+a
+
+
++
+
+t
+′
+
+=
+
+(
+
+
+
+1
+a
+
+
++
+
+
+
+1
+−
+a
+v
+
+
+a
+−
+v
+
+
+
+
+)
+
+L
+
+
+{\displaystyle T={\frac {L}{a}}+t'=\left({\frac {1}{a}}+{\frac {1-av}{a-v}}\right)L}
+
+later than she sent her message. However, if
+
+
+
+v
+>
+
+
+
+
+2
+a
+
+
+1
++
+
+a
+
+2
+
+
+
+
+
+
+
+
+{\displaystyle v>{\tfrac {2a}{1+a^{2}}}}
+then
+
+
+
+T
+<
+0
+
+
+{\displaystyle T<0}
+and Alice will receive the message back from Bob before she sends her message to him in the first place.

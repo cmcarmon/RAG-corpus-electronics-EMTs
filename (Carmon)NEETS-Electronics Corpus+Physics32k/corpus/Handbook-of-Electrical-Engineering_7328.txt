@@ -1,0 +1,6 @@
+The  sample-and-hold  phase  detector  is  widely  used  where  optimum  noise  performance  is  required.  This
+circuit operates by using one of the phase detector inputs to sample the voltage on the other input. This latter
+input is usually converted to a triangle wave to give a linear phase detector characteristic. Once the input is
+sampled, its voltage is held using a capacitor. The good noise performance is achieved since most of the time
+the phase detector output is simply a stored charge on this capacitor. The phase range of the sample-and-hold
+phase detector depends on the type of waveform shaping used and can range from 

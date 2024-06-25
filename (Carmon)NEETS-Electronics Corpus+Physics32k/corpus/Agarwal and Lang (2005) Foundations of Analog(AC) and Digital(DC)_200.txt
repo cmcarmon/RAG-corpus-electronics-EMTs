@@ -1,0 +1,18 @@
+The v i relation is useful to describe other systems as well, not just primi-
+tive two-terminal elements such as sources and resistors. When creating circuit
+models for these systems,
+it is often the case that an electronic circuit can
+be abstracted as a black box accessible through a few terminals. As with any
+abstraction, the details of behavior at the interfaces (terminals,
+in our case)
+are more important than the details of behavior internal to the black box.
+That is, what happens at the terminals is more important than how it hap-
+pens inside the black box. Furthermore, it is often the case that the terminals
+can be paired into ports in a natural way following the function of the circuit.
+For example, a complex amplifier or filter is often described by the relation
+between an input signal presented to the amplifier or filter at one pair of ter-
+minals or port, and an output signal presented by the amplifier or filter at
+a second port. In this case, the terminal pairs or ports take on special sig-
+nificance, and the voltage across the port and the current through the port
+become the port variables in terms of which the electronic circuit behavior is
+described.

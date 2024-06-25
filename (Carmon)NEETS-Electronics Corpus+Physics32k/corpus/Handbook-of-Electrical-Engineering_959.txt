@@ -1,0 +1,7 @@
+Strategies: General Discussion
+The most naive way of using an optimization program would be to take all the measured data for all devices,
+put them into one big ﬁle, and ﬁt to all these data with all model parameters simultaneously. Even for a very
+high quality, robust optimization program the chances of this method converging are slight. Even if the program
+does  converge,  it  is  almost  certain  that  the  values  of  the  parameters  will  be  very  unphysical.  This  kind  of
+approach is an extreme case of global optimization. We call any optimization technique that tries to ﬁt with
+parameters to data outside their region of applicability a global approach. That is, if we try to ﬁt to saturation

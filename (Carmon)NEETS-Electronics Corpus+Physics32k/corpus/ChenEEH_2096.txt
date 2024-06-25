@@ -1,0 +1,17 @@
+Figure 9.3 shows an HPrTN speciﬁcation of the Five Dining
+Type(Thinking) ¼ w(Eating) ¼ P(PHIL), Type(Avail) ¼
+Type(Chop)) ¼ w(Avail) [ w(Used), Type(Relation) ¼
+A(f3) ¼ < 1, re > , A(f4) ¼ < 2, re > , A(f5) ¼ < 3, ph > ,
+A(f6) ¼ < 4, ph > , A(f7) ¼ < 5, ph > , A(f8) ¼ < 6, ph >,
+A(f13) ¼ < 7, {ch1, ch2} > , A(f14) ¼ < 8, {ch1, ch2} > ,
+A(f15) ¼ < 9, {ch1, ch2} > , A(f16) ¼ < 10, {ch1, ch2} > ,
+A(f9) ¼ A(f3)  A(f13),
+A(f11) ¼ A(f3)  A(f15),
+A(f1) ¼ A(f13)  A(f15),
+TC(Pick up)¼ (ph¼ re[1]) ^ (ch1 ¼ re[2]) ^ (ch2¼ re[3]),
+TC(Put down)¼ (ph¼ re[1])^(ch1¼ re[2])^(ch2¼ re[3]),
+TC(Phil) ¼ True,
+M0(Thinking) ¼ {1, 2, . . ., k}, M0(Eating) ¼ {},
+M0(Avail) ¼ {1, 2, . . ., k}, M0(Used) ¼ {},
+M0(Chop) ¼ M0(Avail) [ M0(Used) ¼ {1, 2, . . . , k},
+M0(Relation) ¼ {(1, 1, 2), (2, 2, 3), . . ., ( k, k, 1)}

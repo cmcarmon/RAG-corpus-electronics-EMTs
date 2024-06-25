@@ -1,0 +1,18 @@
+ures 4.6(A) and 4.6(B), the permissible ranges of the clock
+skew for both local data paths, R1?R2 and R2?R3, are lightly
+shaded under each circuit diagram. As shown in Figure 4.6, the
+target clock period for this circuit is TCP ¼ 8:5 ns.
+The zero clock skew points (skew ¼ 0) are indicated in
+Figure 4.6(A)—zero skew is achieved by delivering the clock
+signal to each of the registers R1, R2 and R3 with the same
+delay t (symbolically illustrated by the buffers connected to the
+clock terminals of the registers). Observe that while the zero
+clock skew points fall within the respective permissible ranges,
+these zero clock skew points are dangerously close to the lower
+and upper bounds of the permissible range for R1?R2 and
+R2?R3, respectively. A situation could be foreseen in which,
+for example, the local data path R2?R3 has a longer than
+expected delay (longer than 8 ns), thereby causing the upper
+bound of the permissible range for R2?R3 to decrease below
+the zero clock skew point. In this scenario, a setup violation
+will occur on the local data path R2?R3.

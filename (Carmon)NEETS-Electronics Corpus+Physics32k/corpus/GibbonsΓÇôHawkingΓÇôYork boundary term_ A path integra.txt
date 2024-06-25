@@ -1,0 +1,712 @@
+As mentioned at the beginning, the GHY term is required to ensure the path integral (a la Hawking et al.) for quantum gravity has the correct composition properties.
+This older approach to path-integral quantum gravity had a number of difficulties and unsolved problems. The starting point in this approach is Feynman's idea that one can represent the amplitude
+
+
+
+
+⟨
+
+g
+
+2
+
+
+,
+
+ϕ
+
+2
+
+
+,
+
+Σ
+
+2
+
+
+
+|
+
+
+g
+
+1
+
+
+,
+
+ϕ
+
+1
+
+
+,
+
+Σ
+
+1
+
+
+⟩
+
+
+{\displaystyle \langle g_{2},\phi _{2},\Sigma _{2}|g_{1},\phi _{1},\Sigma _{1}\rangle }
+
+to go from the state with metric
+
+
+
+
+g
+
+1
+
+
+
+
+{\displaystyle g_{1}}
+and matter fields
+
+
+
+
+ϕ
+
+1
+
+
+
+
+{\displaystyle \phi _{1}}
+on a surface
+
+
+
+
+Σ
+
+1
+
+
+
+
+{\displaystyle \Sigma _{1}}
+to a state with metric
+
+
+
+
+g
+
+2
+
+
+
+
+{\displaystyle g_{2}}
+and matter fields
+
+
+
+
+ϕ
+
+2
+
+
+
+
+{\displaystyle \phi _{2}}
+on a surface
+
+
+
+
+Σ
+
+2
+
+
+
+
+{\displaystyle \Sigma _{2}}
+, as a sum over all field configurations
+
+
+
+g
+
+
+{\displaystyle g}
+and
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+which take the boundary values of the fields on the surfaces
+
+
+
+
+Σ
+
+1
+
+
+
+
+{\displaystyle \Sigma _{1}}
+and
+
+
+
+
+Σ
+
+2
+
+
+
+
+{\displaystyle \Sigma _{2}}
+. We write
+
+
+
+
+⟨
+
+g
+
+2
+
+
+,
+
+ϕ
+
+2
+
+
+,
+
+Σ
+
+2
+
+
+
+|
+
+
+g
+
+1
+
+
+,
+
+ϕ
+
+1
+
+
+,
+
+Σ
+
+1
+
+
+⟩
+=
+∫
+
+
+D
+
+
+[
+g
+,
+ϕ
+]
+exp
+⁡
+(
+i
+S
+[
+g
+,
+ϕ
+]
+)
+
+
+{\displaystyle \langle g_{2},\phi _{2},\Sigma _{2}|g_{1},\phi _{1},\Sigma _{1}\rangle =\int {\mathcal {D}}[g,\phi ]\exp(iS[g,\phi ])}
+
+where
+
+
+
+
+
+D
+
+
+[
+g
+,
+ϕ
+]
+
+
+{\displaystyle {\mathcal {D}}[g,\phi ]}
+is a measure on the space of all field configurations
+
+
+
+g
+
+
+{\displaystyle g}
+and
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+,
+
+
+
+S
+[
+g
+,
+ϕ
+]
+
+
+{\displaystyle S[g,\phi ]}
+is the action of the fields, and the integral is taken over all fields which have the given values on
+
+
+
+
+Σ
+
+1
+
+
+
+
+{\displaystyle \Sigma _{1}}
+and
+
+
+
+
+Σ
+
+2
+
+
+
+
+{\displaystyle \Sigma _{2}}
+.
+It is argued that one need only specify the three-dimensional induced metric
+
+
+
+h
+
+
+{\displaystyle h}
+on the boundary.
+Now consider the situation where one makes the transition from metric
+
+
+
+
+h
+
+1
+
+
+
+
+{\displaystyle h_{1}}
+, on a surface
+
+
+
+
+Σ
+
+1
+
+
+
+
+{\displaystyle \Sigma _{1}}
+, to a metric
+
+
+
+
+h
+
+2
+
+
+
+
+{\displaystyle h_{2}}
+, on a surface
+
+
+
+
+Σ
+
+2
+
+
+
+
+{\displaystyle \Sigma _{2}}
+and then on to a metric
+
+
+
+
+h
+
+3
+
+
+
+
+{\displaystyle h_{3}}
+on a later surface
+
+
+
+
+Σ
+
+3
+
+
+
+
+{\displaystyle \Sigma _{3}}
+
+One would like to have the usual composition rule
+
+
+
+
+⟨
+
+h
+
+3
+
+
+,
+
+Σ
+
+3
+
+
+
+|
+
+
+h
+
+1
+
+
+,
+
+Σ
+
+1
+
+
+⟩
+=
+
+∑
+
+
+h
+
+2
+
+
+
+
+⟨
+
+h
+
+3
+
+
+,
+
+Σ
+
+3
+
+
+
+|
+
+
+h
+
+2
+
+
+,
+
+Σ
+
+2
+
+
+⟩
+⟨
+
+h
+
+2
+
+
+,
+
+Σ
+
+2
+
+
+
+|
+
+
+h
+
+1
+
+
+,
+
+Σ
+
+1
+
+
+⟩
+
+
+{\displaystyle \langle h_{3},\Sigma _{3}|h_{1},\Sigma _{1}\rangle =\sum _{h_{2}}\langle h_{3},\Sigma _{3}|h_{2},\Sigma _{2}\rangle \langle h_{2},\Sigma _{2}|h_{1},\Sigma _{1}\rangle }
+
+expressing that the amplitude to go from the initial to final state to be obtained by summing over all states on the intermediate surface
+
+
+
+
+Σ
+
+2
+
+
+
+
+{\displaystyle \Sigma _{2}}
+.
+Let
+
+
+
+
+g
+
+1
+
+
+
+
+{\displaystyle g_{1}}
+be the metric between
+
+
+
+
+Σ
+
+1
+
+
+
+
+{\displaystyle \Sigma _{1}}
+and
+
+
+
+
+Σ
+
+2
+
+
+
+
+{\displaystyle \Sigma _{2}}
+and
+
+
+
+
+g
+
+2
+
+
+
+
+{\displaystyle g_{2}}
+be the metric between
+
+
+
+
+Σ
+
+2
+
+
+
+
+{\displaystyle \Sigma _{2}}
+and
+
+
+
+
+Σ
+
+3
+
+
+
+
+{\displaystyle \Sigma _{3}}
+. Although the induced metric of
+
+
+
+
+g
+
+1
+
+
+
+
+{\displaystyle g_{1}}
+and
+
+
+
+
+g
+
+2
+
+
+
+
+{\displaystyle g_{2}}
+will agree on
+
+
+
+
+Σ
+
+2
+
+
+
+
+{\displaystyle \Sigma _{2}}
+, the normal derivative of
+
+
+
+
+g
+
+1
+
+
+
+
+{\displaystyle g_{1}}
+at
+
+
+
+
+Σ
+
+2
+
+
+
+
+{\displaystyle \Sigma _{2}}
+will not in general be equal to that of
+
+
+
+
+g
+
+2
+
+
+
+
+{\displaystyle g_{2}}
+at
+
+
+
+
+Σ
+
+2
+
+
+
+
+{\displaystyle \Sigma _{2}}
+. Taking the implications of this into account, it can then be shown that the composition rule will hold if and only if we include the GHY boundary term.
+In the next section it is demonstrated how this path integral approach to quantum gravity leads to the concept of black hole temperature and intrinsic quantum mechanical entropy.

@@ -1,0 +1,7 @@
+The fast decoupled power ﬂow algorithm is essentially a
+highly simpliﬁed and approximated version of the Newton-
+Raphson algorithm of the previous subsection. We recall that
+the NR iteration steps are computation intensive because of
+evaluating J k and solving the Jacobian equation 7.55. In this
+subsection, we will proceed to simplify this by replacing the
+iteration speciﬁc J k with a constant matrix.

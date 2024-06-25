@@ -1,0 +1,38 @@
+Types of analysis 
+ 
+Various  types  of  analysis  are  available  within 
+modern  SPICE-based  circuit  simulation  packages 
+(see Appendix 7).  These usually include: 
+ 
+DC analysis 
+ 
+DC analysis determines the DC operating point of 
+the  circuit  under  investigation.  In  this  mode  any 
+wound 
+and 
+transformers) are short-circuited and any capacitors  
+that may be present are left open-circuit. In order to 
+determine  the  initial  conditions,  a  DC  analysis  is  
+usually automatically performed prior to a transient 
+analysis. It is also usually performed prior to an AC 
+small-signal  analysis 
+the 
+linearized,  small-signal  models  for  non-linear 
+devices.    Furthermore,  if  specified,  the  DC  small-
+signal  value  of  a  transfer  function  (ratio  of  output 
+variable  to  input  source),  input  resistance,  and 
+output resistance is also computed as a part of the 
+DC solution.  The DC analysis can also be used to 
+generate  DC  transfer  curves  in  which  a  specified 
+independent  voltage  or  current  source  is  stepped 
+over  a  user-specified  range  and  the  DC  output 
+variables  are  stored  for  each  sequential  source 
+value. 
+ 
+AC small-signal analysis 
+ 
+The  AC  small-signal  analysis  feature  of  SPICE 
+software  computes  the  AC  output  variables  as  a 
+function of frequency.  The program first computes 
+the  circuit  and 
+the  DC  operating  point  of 

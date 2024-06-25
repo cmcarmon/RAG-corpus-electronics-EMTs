@@ -1,0 +1,6 @@
+Each block type supported by BEACON (e.g., adder, integrator, switch) will have a single block deﬁnition
+describing the functionality of the block. Whenever a new block symbol is added using the graphical Symbol
+Editor, a corresponding block deﬁnition ﬁle must be added to the system too. This block deﬁnition is written
+in “BEACON Block-Deﬁnition Language” (BDL), a special-purpose structured language that contains all the
+necessary elements for describing block connectivity, block parameters, and algorithms, as well as implemen-
+tational detail such as ﬁxed-point scaling.

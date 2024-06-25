@@ -1,0 +1,4 @@
+We also have a display showing current (albeit with a negative value) at 0.5 milliamps,
+or 500 microamps. So our mathematical analysis has been vindicated by the computer. This
+ﬁgure appears as a negative number in the SPICE analysis, due to a quirk in the way SPICE
+handles current calculations.

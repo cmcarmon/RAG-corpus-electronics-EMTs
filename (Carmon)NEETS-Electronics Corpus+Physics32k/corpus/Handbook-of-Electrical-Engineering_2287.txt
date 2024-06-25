@@ -1,0 +1,6 @@
+DC and Large-Signal Model
+The diode equation in Eq. (22.37) is widely utilized in diode circuit design. IS and m can sometimes be found
+from the data book or they can be determined from measured ID and VD .  From two measurements of ID and
+VD, for example, ID = 0.2 mA at VD = 0.670 V and ID = 10 mA at VD = 0.772 V, one can ﬁnd m = 1.012 and IS
+=  1.78·10–15  A  for  the  particular  diode.  A  practical  application  of  the  large-signal  diode  model  is  shown  in
+Fig. 22.13. Here, the current ID through the series resistor R and a diode D is to be found,

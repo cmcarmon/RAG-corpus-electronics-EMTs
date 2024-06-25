@@ -1,0 +1,11 @@
+Practical Sources
+The preceding ideal independent sources constrain the terminal voltage or current to a known function of time
+independent of the circuit that may be placed across its terminals. Practical sources, such as batteries, have their
+terminal voltage (current) dependent upon the terminal current (voltage) caused by the circuit attached to the
+source terminals. A simple example of this is an automobile storage battery. The battery’s terminal voltage is
+approximately  12 V  when  no  load  is  connected  across  its  terminals.  When  the  battery  is  applied  across  the
+terminals of the starter by activating the ignition switch, a large current is drawn from its terminals. During
+starting, its terminal voltage drops as illustrated in Fig. 2.9(a). How shall we construct a circuit model using the
+ideal elements discussed thus far to model this nonideal behavior? A model is shown in Fig. 2.9(b) and consists
+of the series connection of an ideal resistor, RS, and an ideal independent voltage source, VS = 12 V. To determine
+the terminal voltage–current relation, we sum Kirchhoff’s voltage law around the loop to give

@@ -1,0 +1,8 @@
+As you may have noticed, both the ac and the dc components flow through L1. Because it is 
+frequency sensitive, the coil provides a large resistance to ac and a small resistance to dc. In other words, 
+the coil opposes any change in current. This property makes the coil a highly desirable filter component. 
+Note that the filtering action of the LC choke-input filter is improved when the filter is used in 
+conjunction with a full-wave rectifier, as shown in figure 4-27. This is due to the decrease in the X C of 
+the filter capacitor and the increase in the XL of the choke. Remember, ripple frequency of a full-wave 
+rectifier is twice that of a half-wave rectifier. For 60-hertz input, the ripple will be 120 hertz. The XC of 
+C1 and the XL of L1 are calculated as follows: 

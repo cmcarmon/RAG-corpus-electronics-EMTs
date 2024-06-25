@@ -1,0 +1,20 @@
+The primary difference between static and dynamic methods
+is that, in the latter, CS insertions will not be part of the initial
+routing but will be made as and when required for fault
+reconﬁguration (or in general, circuit reconﬁguration for per-
+forming other functions like testing and diagnosis) and only to
+those nets connected to cells along reconﬁguration paths. The
+dynamic method will thus signiﬁcantly reduce the number of
+CSs required for FT, thereby making it easier to retain total
+functionality with much lower track overheads. Further, it
+allows reconﬁguration paths from faulty cells to spare ones to
+be chosen dynamically, thus maximizing FT ﬂexibility. The
+paths can have any arbitrary shape unlike the predetermined
+straight horizontal paths in the static NC method. The needed
+CSs can then be put in dynamically along any such chosen
+path. Since the conﬁguration bits can be transposed along
+reconﬁguration paths of any shape in FPGAs with incremental
+run-time-reconﬁguration (RTR) capabilities, coupled with dy-
+namic CS insertion, this allows reconﬁguration around many
+more fault patterns than possible with the static method (e.g.,
+fault clusters).

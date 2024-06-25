@@ -1,0 +1,5 @@
+24 Normally, this would be the case. However, in an aggressive circuit design
+with a short clock period, it may so happen that zero skew is designed to be out
+of the permissible range, most likely creating a setup time violation. In these
+circuits, negative skew is used to increase the overall system-wide clock fre-
+quency, thereby removing the setup violation.

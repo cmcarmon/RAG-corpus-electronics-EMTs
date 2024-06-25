@@ -1,0 +1,479 @@
+The Sauerbrey equation was developed by Prof. Dr. Günter Sauerbrey from Tiefenort, Germany, in 1959, while working on his doctoral thesis at the Technical University of Berlin, Germany. It is a method for correlating changes in the oscillation frequency of a piezoelectric crystal with the mass deposited on it. He simultaneously developed a method for measuring the characteristic frequency and its changes by using the crystal as the frequency determining component of an oscillator circuit. His method continues to be used as the primary tool in quartz crystal microbalance experiments for conversion of frequency to mass and is valid in nearly all applications.
+The equation is derived by treating the deposited mass as though it were an extension of the thickness of the underlying quartz.  Because of this, the mass to frequency correlation (as determined by Sauerbrey’s equation) is largely independent of electrode geometry. This has the benefit of allowing mass determination without calibration, making the set-up desirable from a cost and time investment standpoint.
+The Sauerbrey equation is defined as:
+
+
+
+
+Δ
+f
+=
+−
+
+
+
+2
+
+f
+
+0
+
+
+2
+
+
+
+
+A
+
+
+
+ρ
+
+q
+
+
+
+μ
+
+q
+
+
+
+
+
+
+
+Δ
+m
+
+
+{\displaystyle \Delta f=-{\frac {2f_{0}^{2}}{A{\sqrt {\rho _{q}\mu _{q}}}}}\Delta m}
+.
+Equation 1 – Sauerbrey’s equation
+
+
+
+
+
+f
+
+0
+
+
+
+
+{\displaystyle f_{0}}
+– Resonant frequency (Hz)
+
+
+
+
+Δ
+f
+
+
+{\displaystyle \Delta f}
+– Frequency change (Hz)
+
+
+
+
+Δ
+m
+
+
+{\displaystyle \Delta m}
+– Mass change (g)
+
+
+
+
+A
+
+
+{\displaystyle A}
+– Piezoelectrically active crystal area (Area between electrodes, cm2)
+
+
+
+
+
+ρ
+
+q
+
+
+
+
+{\displaystyle \rho _{q}}
+– Density of quartz (
+
+
+
+
+ρ
+
+q
+
+
+
+
+{\displaystyle \rho _{q}}
+= 2.648 g/cm3)
+
+
+
+
+
+μ
+
+q
+
+
+
+
+{\displaystyle \mu _{q}}
+– Shear modulus of quartz for AT-cut crystal (
+
+
+
+
+μ
+
+q
+
+
+
+
+{\displaystyle \mu _{q}}
+= 2.947x1011 g·cm−1·s−2)
+
+Because the film is treated as an extension of thickness, Sauerbrey’s equation only applies to systems in which the following three conditions are met: the deposited mass must be rigid, the deposited mass must be distributed evenly and the frequency change
+
+
+
+Δ
+f
+
+/
+
+f
+
+
+{\displaystyle \Delta f/f}
+< 0.02.
+If the change in frequency is greater than 2%, that is,
+
+
+
+Δ
+f
+
+/
+
+f
+
+
+{\displaystyle \Delta f/f}
+> 0.02, the Z-match method must be used to determine the change in mass. The formula for the Z-match method is:
+
+
+
+
+
+
+
+Δ
+m
+
+A
+
+
+
+=
+
+
+
+
+N
+
+q
+
+
+
+ρ
+
+q
+
+
+
+
+π
+Z
+
+f
+
+L
+
+
+
+
+
+
+tan
+
+−
+1
+
+
+⁡
+
+[
+
+Z
+tan
+⁡
+
+(
+
+π
+
+
+
+
+f
+
+U
+
+
+−
+
+f
+
+L
+
+
+
+
+f
+
+U
+
+
+
+
+
+)
+
+
+]
+
+
+
+{\displaystyle {\frac {\Delta m}{A}}\ ={\frac {N_{q}\rho _{q}}{\pi Zf_{L}}}\tan ^{-1}\left[Z\tan \left(\pi {\frac {f_{U}-f_{L}}{f_{U}}}\right)\right]}
+
+Equation 2 – Z-match method
+
+
+
+
+
+f
+
+L
+
+
+
+
+{\displaystyle f_{L}}
+– Frequency of loaded crystal (Hz)
+
+
+
+
+
+f
+
+U
+
+
+
+
+{\displaystyle f_{U}}
+– Frequency of unloaded crystal, i.e. Resonant frequency (Hz)
+
+
+
+
+
+N
+
+q
+
+
+
+
+{\displaystyle N_{q}}
+– Frequency constant for AT-cut quartz crystal (1.668x1013Hz·Å)
+
+
+
+
+Δ
+m
+
+
+{\displaystyle \Delta m}
+– Mass change (g)
+
+
+
+
+A
+
+
+{\displaystyle A}
+– Piezoelectrically active crystal area (Area between electrodes, cm2)
+
+
+
+
+
+ρ
+
+q
+
+
+
+
+{\displaystyle \rho _{q}}
+– Density of quartz (
+
+
+
+
+ρ
+
+q
+
+
+
+
+{\displaystyle \rho _{q}}
+= 2.648 g/cm3)
+
+
+
+
+Z
+
+
+{\displaystyle Z}
+– Z-Factor of film material
+
+
+
+=
+
+
+
+(
+
+
+
+
+
+ρ
+
+q
+
+
+
+μ
+
+q
+
+
+
+
+
+ρ
+
+f
+
+
+
+μ
+
+f
+
+
+
+
+
+
+
+)
+
+
+
+
+
+{\displaystyle ={\sqrt {\left({\frac {\rho _{q}\mu _{q}}{\rho _{f}\mu _{f}}}\ \right)}}}
+
+
+
+
+
+
+ρ
+
+f
+
+
+
+
+{\displaystyle \rho _{f}}
+– Density of the film (Varies: units are g/cm3)
+
+
+
+
+
+μ
+
+q
+
+
+
+
+{\displaystyle \mu _{q}}
+– Shear modulus of quartz (
+
+
+
+
+μ
+
+q
+
+
+
+
+{\displaystyle \mu _{q}}
+= 2.947x1011 g·cm−1·s−2)
+
+
+
+
+
+μ
+
+f
+
+
+
+
+{\displaystyle \mu _{f}}
+– Shear modulus of film (Varies: units are g·cm−1·s−2)

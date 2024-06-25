@@ -1,0 +1,4 @@
+In digital communications (modems) it is frequently necessary to extract a coherent clock signal from an
+input data stream. A PLL is often used for this task by locking a VCO to the input data. Depending on the type
+of data encoding that is used, the data may ﬁrst need to be processed before connecting the PLL. The VCO
+output is then used as the clock to extract the data bits from the input signal.

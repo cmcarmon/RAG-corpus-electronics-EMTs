@@ -1,0 +1,8 @@
+Just for fun, we can use a computer to analyze this very same circuit automatically. It will
+be a good way to verify our calculations and also become more familiar with computer analysis.
+First, we have to describe the circuit to the computer in a format recognizable by the software.
+The SPICE program we’ll be using requires that all electrically unique points in a circuit be
+numbered, and component placement is understood by which of those numbered points, or
+”nodes,” they share. For clarity, I numbered the four corners of our example circuit 1 through
+4. SPICE, however, demands that there be a node zero somewhere in the circuit, so I’ll re-draw
+the circuit, changing the numbering scheme slightly:

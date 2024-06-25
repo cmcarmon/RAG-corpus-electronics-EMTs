@@ -1,0 +1,5 @@
+To understand why the LED was off when the pot was set to 0 Ω and then 
+turned on as you increased the pot resistance, consider the circuit if you 
+remove the LED. The circuit is a voltage divider (described in Chapter 6), 
+and the voltage across the pot (resistor R2) — which is the same as the LED 
+ voltage — is given by a ratio of resistance times the supply voltage:

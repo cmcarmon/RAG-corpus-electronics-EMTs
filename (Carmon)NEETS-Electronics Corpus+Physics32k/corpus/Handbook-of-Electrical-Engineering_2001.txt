@@ -1,0 +1,8 @@
+FIR and IIR Implementation Using C and Assembly Code
+A real-time implementation of a 45-coefﬁcient bandpass FIR ﬁlter and a sixth-order IIR ﬁlter with 345 samples,
+using C code and TMS320C30 code, is discussed in Chassaing and Bitler [1991]. Tables 18.3 and 18.4 show a
+comparison of execution times of those two ﬁlters. The C language FIR ﬁlter, implemented without the modulo
+operator  %,  and  compiled  with  a  C  compiler V4.1,  executed  two  times  slower1  than  an  equivalent  assembly
+language ﬁlter (which has a similar execution time as one implemented with a ﬁlter routine in assembly, called
+by a C program). The C language IIR ﬁlter ran 1.3 times slower than the corresponding assembly language IIR
+ﬁlter. These slower execution times may be acceptable for many applications. Where execution speed is crucial,

@@ -1,0 +1,8 @@
+At CP1, a CLEAR pulse is applied to all the FFs, resetting the register to a count of 0. The number
+01012 is applied to the parallel inputs at CP2, causing FF1 and FF3 to set. At this point, the J inputs of
+FF2 and FF4 are HIGH. AND gate 2 has a LOW output since the FF4 output is LOW. This LOW output
+represents the first digit of the number 01012 to be output in serial form. At the same time we have
+HIGHs on the K inputs of FF1 and FF3. (Notice the NOT symbol on FF1 at input K. With no serial input
+to AND gate 1, the output is LOW; therefore, the K input to FF1 is held HIGH). With these conditions
+CP3 causes FF1 and FF3 to reset and FF2 and FF4 to set. The HIGH output of FF4, along with CP3,
+causes AND gate 2 to output a HIGH. This represents the second digit of the number 01012.

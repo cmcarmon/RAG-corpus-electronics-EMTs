@@ -1,0 +1,8 @@
+The charge pump operates cyclically as shown in Figure 12.12. To begin a cycle, switch
+S1 closes for the duration T causing the current in the inductor to ramp up. During this
+time switch S2 remains open, and so the capacitor charge and voltage remain constant.
+Next, switch S1 opens and switch S2 closes. This switch action disconnects the source
+from the inductor, and since the inductor current does not change instantaneously, it
+redirects the inductor current into the capacitor. The inductor current now rings down
+as the capacitor voltage rings up. Finally, switch S2 opens when the inductor current
+first goes to zero, and both switches remain open until the start of the next cycle.

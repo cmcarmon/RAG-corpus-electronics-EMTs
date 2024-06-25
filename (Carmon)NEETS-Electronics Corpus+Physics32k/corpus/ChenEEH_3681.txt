@@ -1,0 +1,19 @@
+Speech processing algorithms rarely work directly with the
+(sampled) speech waveform but rather with a sequence of quan-
+tiﬁed features that are extracted from the signal, usually at
+regularly-spaced intervals. In a typical scenario, features are
+computed periodically in time over 256-point frames that are
+intentionally overlapped by 128 samples. For a 10-kHz sampling
+rate, this represents feature computations using 25.6 ms seg-
+ments of speech that overlap by 12.8 ms as the processing
+moves through time. Using the rule of thumb that speech signal
+dynamics remain stationary for blocks of 10 to 20 ms, the frame
+duration is chosen with this in mind, balanced against the need
+to represent the waveform with the smallest possible number of
+feature computations (for economy of computation and storage,
+adherence to bandwidth requirements, and other factors). In-
+creased duration of the frame results in enhanced spectral reso-
+lution of the feature being computed, while sequences of features
+computed over shorter windows provide better time resolution
+(Deller et al., 2000). Overlapping frames are used to smooth the
+transitions of features from one stationary region to the next.

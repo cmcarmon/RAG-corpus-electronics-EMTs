@@ -1,0 +1,6 @@
+The “brute force” method for determining the response of a circuit to an arbitrary 
+signal is to write a system of linear differential equations using the voltage and current 
+variables in the circuit and then to solve for the output signal, using the input signals as 
+the forcing functions. The Laplace transform simplifies this process by converting linear 
+differential equations in the time domain to algebraic equations in the complex frequency 
+domain. The independent variable in the complex frequency domain is s, where  

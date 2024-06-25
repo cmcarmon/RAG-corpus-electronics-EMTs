@@ -1,0 +1,13 @@
+A conventional induction motor with a squirrel-cage rotor has about 5% drop in speed from
+no load to full load, and is thus essentially a constant-speed motor. Employing a wound-rotor
+motor and inserting external resistance in the rotor circuit achieves speed variation but results
+in poor efﬁciency. Variations in the starting torque (at S = 1) with rotor-circuit resistance can
+also be seen from Figure 13.2.9. As stated in Section 13.1, we can obtain a higher starting torque
+by inserting external resistances in the rotor circuit and then cutting them out eventually for
+the normal running conditions in order to operate the machine at a higher efﬁciency. Creating
+a sufﬁciently large rotor-circuit resistance might make it possible to achieve an almost linear
+torque–slip relationship for the slip range of 0 to 1. For instance, two-phase servo motors
+(used as output actuators in feedback control systems) are usually designed with very high rotor
+resistance to ensure a negative slope for the torque–speed characteristic over the entire operating
+range.
+R1 = R

@@ -1,0 +1,5 @@
+The equalized signal is the sum of the outputs of the forward and feedback parts of the equalizer. The forward
+part is like the linear transversal equalizer discussed earlier. Decisions made on the equalized signal are fed back
+via a second transversal ﬁlter. The basic idea is that if the values of the symbols already detected are known
+(past decisions are assumed to be correct), then the ISI contributed by these symbols can be canceled exactly,
+by subtracting past symbol values with appropriate weighting from the equalizer output.

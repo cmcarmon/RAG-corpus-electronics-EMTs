@@ -1,0 +1,10 @@
+clustering for Gaussian mixture model formation for continu-
+ous-observation HMMs. In each case, the K-means algorithm
+(Deller et al., 2000; Devijver and Kittler, 1982) is ordinarily
+used. In this popular method, the initial measurements are
+subdivided into K distinct groups. The average feature vector,
+or centroid in each group is used as the exemplar feature for
+that group. The entire population of measurements is then
+assigned to the group to which it is closest according to the
+similarity measure used. The centroids are recomputed. The
+process is repeated until no measurement changes classes.

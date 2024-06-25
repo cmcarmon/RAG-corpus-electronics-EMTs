@@ -1,0 +1,214 @@
+A canonical example of a hybrid system is the bouncing ball, a physical system with impact. Here, the ball (thought of as a point-mass) is dropped from an initial height and bounces off the ground, dissipating its energy with each bounce. The ball exhibits continuous dynamics between each bounce; however, as the ball impacts the ground, its velocity undergoes a discrete change modeled after an inelastic collision. A mathematical description of the bouncing ball follows. Let
+
+
+
+
+x
+
+1
+
+
+
+
+{\displaystyle x_{1}}
+be the height of the ball and
+
+
+
+
+x
+
+2
+
+
+
+
+{\displaystyle x_{2}}
+be the velocity of the ball. A hybrid system describing the ball is as follows:
+When
+
+
+
+x
+∈
+C
+=
+{
+
+x
+
+1
+
+
+>
+0
+}
+
+
+{\displaystyle x\in C=\{x_{1}>0\}}
+, flow is governed by
+
+
+
+
+
+
+
+x
+
+1
+
+
+˙
+
+
+
+=
+
+x
+
+2
+
+
+,
+
+
+
+
+x
+
+2
+
+
+˙
+
+
+
+=
+−
+g
+
+
+{\displaystyle {\dot {x_{1}}}=x_{2},{\dot {x_{2}}}=-g}
+, where
+
+
+
+g
+
+
+{\displaystyle g}
+is the acceleration due to gravity. These equations state that when the ball is above ground, it is being drawn to the ground by gravity.
+When
+
+
+
+x
+∈
+D
+=
+{
+
+x
+
+1
+
+
+=
+0
+}
+
+
+{\displaystyle x\in D=\{x_{1}=0\}}
+, jumps are governed by
+
+
+
+
+x
+
+1
+
+
++
+
+
+=
+
+x
+
+1
+
+
+,
+
+x
+
+2
+
+
++
+
+
+=
+−
+γ
+
+x
+
+2
+
+
+
+
+{\displaystyle x_{1}^{+}=x_{1},x_{2}^{+}=-\gamma x_{2}}
+, where
+
+
+
+0
+<
+γ
+<
+1
+
+
+{\displaystyle 0<\gamma <1}
+is a dissipation factor. This is saying that when the height of the ball is zero (it has impacted the ground), its velocity is reversed and decreased by a factor of
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+. Effectively, this describes the nature of the inelastic collision.
+The bouncing ball is an especially interesting hybrid system, as it exhibits Zeno behavior. Zeno behavior has a strict mathematical definition, but can be described informally as the system making an infinite number of jumps in a finite amount of time. In this example, each time the ball bounces it loses energy, making the subsequent jumps (impacts with the ground) closer and closer together in time.
+It is noteworthy that the dynamical model is complete if and only if one adds the contact force between the ground and the ball. Indeed, without forces, one cannot properly define the bouncing ball and the model is, from a mechanical point of view, meaningless. The simplest contact model that represents the interactions between the ball and the ground, is the complementarity relation between the force and the distance (the gap) between the ball and the ground. This is written as
+
+
+
+0
+≤
+λ
+⊥
+
+x
+
+1
+
+
+≥
+0
+
+
+{\displaystyle 0\leq \lambda \perp x_{1}\geq 0}
+Such a contact model does not incorporate magnetic forces, nor gluing effects. When the complementarity relations are in, one can continue to integrate the system after the impacts have accumulated and vanished: the equilibrium of the system is well-defined as the static equilibrium of the ball on the ground, under the action of gravity compensated by the contact force
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+. One also notices from basic convex analysis that the complementarity relation can equivalently be rewritten as the inclusion into a normal cone, so that the bouncing ball dynamics is a differential inclusion into a normal cone to a convex set. See Chapters 1, 2 and 3 in Acary-Brogliato's book cited below (Springer LNACM 35, 2008). See also the other references on non-smooth mechanics.

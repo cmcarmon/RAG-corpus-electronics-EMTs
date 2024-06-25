@@ -1,0 +1,5 @@
+Run lengths from 0 to 63 are encoded by terminating codes, and run lengths in equal multiples of 64 from
+64 to 1728 are encoded by makeup codes. Thus any run length up to 1728 can be described by a makeup code
+plus an appropriate terminating code. Additional makeup codewords are available for equipment that accom-
+modates wider paper while maintaining the same resolution. Tables of modiﬁed Huffman run-length termi-
+nating and makeup codes are given in [Jayant and Noll, 1984].

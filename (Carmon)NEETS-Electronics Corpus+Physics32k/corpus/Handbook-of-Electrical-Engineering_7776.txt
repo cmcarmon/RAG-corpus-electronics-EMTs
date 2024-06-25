@@ -1,0 +1,6 @@
+A number of blocks make up a ﬁle identiﬁed by a tape ﬁle marker which is written to the tape by the tape
+controller. The entire length of tape is enclosed between the beginning and end of tape markers. These normally
+consist of a photosensitive material that triggers sensors on the read/write heads. When a new tape is loaded,
+it normally advances to the beginning of a tape marker and then it is ready for access by the CPU. The end of
+tape marker is used to prevent the tape from running off the end of the tape spool and indicates the limit of
+the storage length.

@@ -1,0 +1,12 @@
+Choosing a Logic Family
+A  logic  designer  planning  a  system  using  SSI  and  MSI  chips  will  ﬁnd  that  an  extensive  variety  of  circuits  is
+available in all three technologies: TTL, ECL, and CMOS. The choice of which technology will dominate the
+system is governed by what are often conﬂicting needs, namely, speed, power consumption, noise immunity,
+cost, availability, and the ease of interfacing. Sometimes the decision is easy. If the need for a low static power
+drain  is  paramount,  CMOS  is  the  only  choice.  It  used  to  be  the  case  that  speed  would  dictate  the  selection;
+ECL was high speed, TTL was moderate, and CMOS low. With the advent of advanced TTL and, especially,
+advanced CMOS the choice is no longer clear-cut. All three will work at 100 MHz or more. ECL might be used
+since it generates the least noise because the transitions are small, yet for that same reason it is more susceptible
+to  externally  generated  noise.  Perhaps  TTL  might  be  the  best  compromise  between  noise  generation  and
+susceptibility. Advanced CMOS is the noisiest because of its rapid rise and fall times, but the designer might
+opt to cope with the noise problems to take advantage of the low standby power requirements.

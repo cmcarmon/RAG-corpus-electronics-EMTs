@@ -1,0 +1,5 @@
+The timing diagram in figure 3-15, view B, shows the toggle input and the resulting outputs. We will
+assume an initial condition (T0) of Q being LOW and Q  being HIGH. At T1, the toggle changes from a
+LOW to a HIGH and the device changes state; Q goes HIGH and Q  goes LOW. The outputs remain the
+same at T2 since the device is switched only by a LOW-to-HIGH transition. At T3, when the toggle goes
+HIGH, Q goes LOW and Q  goes HIGH; they remain that way until T5.

@@ -1,0 +1,9 @@
+Single error signal/single secondary source systems cannot achieve global cancellation or sound control in a
+room.  An  intuitive  argument  for  this  fact  is  that  one  needs  at  least  as  many  secondary  sources  and  error
+microphones as there are orthogonal wave modes in the room. Since the number of wave modes in a room
+below a given frequency is approximately proportional to the third power of this frequency, it is clear that ANC
+(and ASC) is practical only at low frequencies. In practice, using small (point-source) transducers, it turns out
+that one should use more error microphones than secondary sources. Examples of such multidimensional ANC
+systems are employed for cancelling the lowest few harmonics of the engine noise in an airplane cabin and in
+a passenger car. In both of these cases, the adaptive ﬁlter matrix is controlled by a multiple-error version of
+the LMS algorithm. Further information can be found in Nelson and Elliott [1992].

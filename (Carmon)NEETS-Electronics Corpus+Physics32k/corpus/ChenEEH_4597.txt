@@ -1,0 +1,21 @@
+control
+technique incorporates a separate fault detection
+scheme, a failure diagnosis mechanism, and postfailure control
+actions to form a more sophisticated and complete FDA
+methodology. An intelligent control regulator is parallel with
+the postfailure control actions and the nominal controller
+to emphasize that, in online situations, the effective control
+actions that may come from one of the three sources [the
+nominal controller (corresponding to fault-free situations),
+the post-failure control actions (corresponding to expected
+failure modes), and the intelligent control regulator (corres-
+ponding to the unanticipated failure scenarios)] are decided
+based on system behavior or health. The intelligent fault
+accommodation technique will be applied only when it is
+necessary for control purposes. Under this framework, the
+unnecessary computational waste for anticipated failures and
+false alarms could be avoided. A clearer picture of how this
+idea works is depicted in a ﬂow chart shown in Figure 8.6.
+The system ‘‘health’’ is continuously monitored by the fault-
+detection scheme with the knowledge of the nominal system
+behavior every certain period of time. Any abnormal behavior

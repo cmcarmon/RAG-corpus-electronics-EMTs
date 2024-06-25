@@ -1,0 +1,9 @@
+Once a codeword has been chosen by the encoder, the channel probabilistic mechanisms govern the distortion
+suffered by the transmitted signal. The role of the decoder is to recover the transmitted binary string (message)
+upon reception of the channel-distorted version of the transmitted codeword. To that end, the decoder knows
+the codebook used by the encoder. For most channels (including those above) there is a nonzero probability
+that the best decoder (maximum likelihood decoder) selects the wrong message. Thus, for a given channel the
+two ﬁgures of merit and of interest are the rate and the probability of error. The higher the tolerated probability
+of error, the higher the allowed rate; however, computing the exact tradeoff is a formidable task unless the code
+size either is very small or tends to inﬁnity. The latter case was the one considered by Shannon and treated in
+the following section.

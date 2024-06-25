@@ -1,0 +1,3 @@
+Unlike  relational  DMLs,  hierarchical  DMLs  such  as  DL/1  are  record  at-a-time  languages.  DL/1  is  used  by
+IBM’s IMS hierarchical DBMS. In DL/1 a tree traversal is based on a preorder algorithm, and within each tree,
+the last record accessed through a DL/1 command can be located through a currency indicator.

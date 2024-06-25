@@ -1,0 +1,11 @@
+requests into messages, and transmits them via a communications interface (such as the Computer Interconnect
+port  driver)  to  the  Disk  Class  Server  resident  within  a  controller  in  the  I/O  subsystem.  The  command  set
+supported  by  the  Class  Server  includes  such  relatively  device-independent  operations  as  read  logical  block,
+write logical block, bring on-line, and request status. The Disk Class Server1 interprets the transmitted com-
+mands,  handles  the  scheduling  of  command  execution,  tracks  their  progress,  and  reports  status  back  to  the
+Class Driver. Note the absence of seek or select head commands. This interface can be used equally well for
+solid-state disks as for conventional magnetic disks. Device-speciﬁc commands are issued at a lower level of
+the architecture, i.e., between the Device Client (disk controller) and Device Server (disk device). The former
+provides the path for moving commands and data between hosts and drives, and it is usually realized physically
+by a piece of hardware that corresponds to the device controller. The latter coincides with the physical drives
+used for storing and retrieving data.

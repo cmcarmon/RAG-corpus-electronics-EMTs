@@ -1,0 +1,24 @@
+Polymorphism can be achieved in HPrTNs in two different
+yet related ways. First, polymorphism is a major feature
+of the underlying many-sorted algebra H of an HPrTN;
+detailed discussions of algebraic speciﬁcations and poly-
+morphism can be found in work by Ehrig and Mahr (1985).
+The same operation symbol in H is used for many derived
+sorts. A simple example is the overloaded equality (¼) oper-
+ator when an algebraic speciﬁcation H contains two elemen-
+tary data types (or classes) INT and CHAR with a single
+parameterized deﬁnition of the equality (¼). Second, poly-
+morphism can be accomplished through net structure and
+inscription. An operation provides overriding capability if
+its constraint distinguishes a superclass object and a subclass
+object (or two objects from two different subclasses with the
+same superclass) and processes them differently. To realize
+polymorphism in an HPrTN, a shared predicate can be used
+to hold tokens of a superclass as well as tokens of subclasses,
+and the shared predicate is connected to the transition
+deﬁned in the superclass and its inherited (or overriding)
+versions in the subclasses. The constraint of the original tran-
+sition is only satisﬁed by the tokens of the superclass, and the
+constraint of each inherited (or overriding) transition is
+only satisﬁed with tokens of the subclass containing the
+transition.

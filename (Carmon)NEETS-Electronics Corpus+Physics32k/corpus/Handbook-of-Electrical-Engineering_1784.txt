@@ -1,0 +1,5 @@
+at the output of the quantizer is the quantized prediction error eiq, which is entropy encoded transmission. The
+ﬁrst step at the receiver is to decode the quantized prediction error. After decoding, diq is added to the predicted
+value of the current pixel f^
+i to yield the reconstructed pixel value. Note that as long as a quantizer is included
+in the system, the output signal will not exactly equal the input signal.

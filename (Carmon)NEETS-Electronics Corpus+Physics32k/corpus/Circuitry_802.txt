@@ -1,0 +1,24 @@
+Harvard  architecture. This  means 
+they 
+contain completely separate memory and buses for 
+program  instructions  and  data  memory.  Program 
+memory  can  be  ROM,  EPROM  or  Flash,  whereas 
+data  memory  must  be 
+read/write  memory 
+(commonly known as RAM). 
+  Mainstream  microprocessors  (like  the  Z80  that 
+we met in Chapter 11) are categorized in terms of 
+the  number  of  data  bits  that  they  can  manipulate 
+(i.e. the ‘width’ of the data bus). They can be 8-bit, 
+16-bit,  32-bit  and  64-bit  and  128-bit  devices.  PIC 
+microcontrollers, by contrast, are all based on an 8-
+bit  data  bus  and,  because  of  this,  they  can  only 
+operate on 8-bits of data at a time (despite this, you 
+will 
+that 
+reference  more  data  bits,  i.e.  12-bits,  14-bits  and 
+16-bits). Furthermore, although the data memory is 
+8-bits  wide  for  all  PIC  microcontrollers, 
+the 
+program memory varies from 12-bits to 16-bits.  
+ 

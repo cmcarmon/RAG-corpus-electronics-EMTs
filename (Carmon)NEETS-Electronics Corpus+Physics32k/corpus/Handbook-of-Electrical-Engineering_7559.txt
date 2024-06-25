@@ -1,0 +1,8 @@
+Bipolar Transistor Gates
+A logic circuit using bipolar junction transistors (BJTs) can be classiﬁed either as saturated or as nonsaturated
+logic. A  saturated  logic  circuit  contains  at  least  one  BJT  that  is  saturated  in  one  of  the  stable  modes  of  the
+circuit. In nonsaturated logic circuits none of the transistors is allowed to saturate. Since bringing a BJT out
+of saturation requires a few additional nanoseconds (called the storage time), nonsaturated logic is faster. The
+fastest  circuits  available  at  this  time  are  emitter-coupled  logic  (ECL),  with  transistor-transistor  logic  (TTL)
+having Schottky diodes connected to prevent the transistors from saturating (Schottky TTL) being a fairly close
+second. Both of these families are nonsaturated logic. All TTL families other than Schottky are saturated logic.

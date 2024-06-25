@@ -1,0 +1,12 @@
+When less than 700 milliamperes of current flows, 
+transistor Q3’s base-to-emitter voltage is less than 0.7 volt, 
+keeping it shut off. When transistor Q3 is shut off, the cir-
+cuit acts as if it does not exist. When the current exceeds 
+700 milliamperes, the voltage dropped across resistor R6 
+increases above 0.7 volt. This results in transistor Q3 con-
+ducting through resistor R2, thus decreasing the voltage 
+on the base of transistor Q1 and causing it to conduct less. 
+The current cannot increase above 700 milliamperes. 
+Changing the value of resistor R6 can vary the amount of 
+current that can be limited. Increasing the value of resis-
+tor R6 lowers the limit on current value.

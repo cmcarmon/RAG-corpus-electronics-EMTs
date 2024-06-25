@@ -1,0 +1,13 @@
+Using an ohmmeter set to the R ·  100 scale, measure the resistance between the MOSFET drain and
+the source; then reverse the ohmmeter leads and take another reading. The readings should be equal,
+regardless of meter lead polarity. Connect the positive lead of the ohmmeter to the gate. Using the
+negative lead, measure the resistance between the gate and the drain and between the gate and the source.
+Both readings should show infinity. Disconnect the positive lead from the gate and connect the negative
+lead to the gate. Using the positive lead, measure the resistance between the gate and the drain; then
+measure it between the gate and the source. Both readings should show infinity. Disconnect the negative
+lead from the gate and connect it to the substrate. Using the positive lead, measure the resistance between
+the substrate and the drain and between the substrate and the source. Both of these readings should
+indicate infinity. Disconnect the negative lead from the substrate and connect the positive lead to the
+substrate. Using the negative lead, measure the resistance between the substrate and the drain and
+between the substrate and the source. Both readings should indicate a low resistance (about 1,000 ohms).
+MOSFET (Enhancement Type) Test

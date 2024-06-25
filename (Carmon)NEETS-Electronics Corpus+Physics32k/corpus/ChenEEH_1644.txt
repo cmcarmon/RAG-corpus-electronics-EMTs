@@ -1,0 +1,16 @@
+MPEG-1: Coding of Moving Pictures for Digital Storage Media
+The goal of MPEG-1 was to produce VCR NTSC (352  240)
+quality video compression to be stored on CD-ROM (CD-I
+and CD-Video formats) using a data rate of 1.2 Mbps. This
+approach is based on the arrangement of frame sequences into
+a group of pictures (GOP) consisting of four types of pictures:
+I-picture (intra), P-picture (predictive), B-picture (bidirec-
+tional), and D-picture (dc). I-pictures are intraframe JPEG-
+encoded pictures that are inserted at the beginning of the GOP.
+The P- and B-pictures are interframe motion-compensated
+JPEG-encoded macroblock difference pictures that are inter-
+spersed throughout the GOP.1 The system level of MPEG-
+1 provides for the integration and synchronization of the
+audio and video streams. This is accomplished by multiplexing
+and including time stamps in both the audio and video
+streams from a 90-KHz system clock (ISO/IEC, 1991).

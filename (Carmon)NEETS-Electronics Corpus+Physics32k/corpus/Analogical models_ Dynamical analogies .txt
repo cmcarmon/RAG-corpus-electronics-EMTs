@@ -1,0 +1,12 @@
+Dynamical analogies establish analogies between systems in different energy domains by means of comparison of the system dynamic equations. There are many ways such analogies can be built, but one of the most useful methods is to form analogies between pairs of power conjugate variables. That is, a pair of variables whose product is power. Doing so preserves the correct energy flow between domains, a useful feature when modelling a system as an integrated whole. Examples of systems that require unified modelling are mechatronics and audio electronics.
+The earliest such analogy is due to James Clerk Maxwell who, in 1873, associated mechanical force with electrical voltage. This analogy became so widespread that sources of voltage are still today referred to as electromotive force. The power conjugate of voltage is electric current which, in the Maxwell analogy, maps to mechanical velocity. Electrical impedance is the ratio of voltage and current, so by analogy, mechanical impedance is the ratio of force and velocity. The concept of impedance can be extended to other domains, for instance in acoustics and fluid flow it is the ratio of pressure to rate of flow. In general, impedance is the ratio of an effort variable and the flow variable that results. For this reason, the Maxwell analogy is often referred to as the impedance analogy, although the concept of impedance was not conceived until 1886 by Oliver Heaviside, some time after Maxwell's death.
+Specifying power conjugate variables still does not result in a unique analogy, there are multiple ways the conjugates and analogies can be specified. A new analogy was proposed by Floyd A. Firestone in 1933 now known as the mobility analogy. In this analogy electrical impedance is made analogous to mechanical mobility (the inverse of mechanical impedance). Firestone's idea was to make analogous variables that are measured across an element, and make analogous variables that flow through an element. For instance, the across variable voltage is the analogy of velocity, and the through variable current is the analogy of force. Firestone's analogy has the advantage of preserving the topology of element connections when converting between domains. A modified form of the through and across analogy was proposed in 1955 by Horace M. Trent and is the modern understanding of through and across.
+where
+V is voltage
+F is force
+T is torque
+p is pressure
+I is electric current
+u is velocity
+ω is angular velocity
+Q is volumetric flow rate

@@ -1,0 +1,12 @@
+The ﬁrst portion of this section discusses concepts, principles of operation, and limitations. The latter portion
+describes various applications. In general, CW radars have several potential advantages over pulse radars. Advan-
+tages include simplicity and the facts that the transmitter leakage is used as the local oscillator, transmitter spectral
+spread is minimal (not true for wide-deviation FM/CW), and peak power is the same as (or only a little greater
+than) the average power. This latter situation means that the radar is less detectable by intercepting equipment.
+The largest disadvantage for CW radars is the need to provide antenna isolation (reduce spillover) so that
+the  transmitted  signal  does  not  interfere  with  the  receiver.  In  a  pulse  radar,  the  transmitter  is  off  before  the
+receiver is enabled (by means of a duplexer and/or receiver-protector switch). Isolation is frequently obtained
+in the CW case by employing two antennas, one for transmit and one for reception. When this is done, there
+is  also  a  reduction  of  close-in  clutter  return  from  rain  or  terrain. A  second  disadvantage  is  the  existence  of
+noise sidebands on the transmitter signal which reduce sensitivity because the Doppler frequencies are relatively
+close to the carrier. This is considered in more detail below.

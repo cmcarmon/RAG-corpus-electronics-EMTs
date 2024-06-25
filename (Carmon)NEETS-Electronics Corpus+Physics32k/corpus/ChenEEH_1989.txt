@@ -1,0 +1,10 @@
+During the execution of the program, the lines of the cache will
+be ﬁlled successively until a branch in the program ﬂow is
+taken. The design technique of Rota (2002) introduces a small
+hardware modiﬁcation in the cache system: a counter that
+counts the number of accesses by the processor to the cache,
+and every K that accesses the accessed instruction is sent to an
+FIFO buffer placed in a bus controller that interfaces with the
+external memory bus. The WD then performs a derived signa-
+ture checking of each block based on the instructions of the
+block that it receives.

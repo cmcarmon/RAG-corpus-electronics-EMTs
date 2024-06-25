@@ -1,0 +1,17 @@
+Today’s VRMs are powered up from the 5-V or 12-V
+outputs of silver boxes that are used for supplying various
+parts of the system, such as the memory chips, the video
+cards, and some sub buses. Future VRMs will be required to
+provide lower voltages and higher currents with tighter volt-
+age regulations. The traditional centralized power system, the
+silver box, will no longer meet the stringent requirements for
+VRM voltage regulation because of the distributed impedance
+associated with a long power bus and the parasitic ringing
+due to high-frequency operation. On the other hand, with
+much heavier loads in the future, the bus loss becomes
+signiﬁcant. To maintain system stability, a huge silverbox
+output capacitance is also needed. At the same time, to
+avoid the interaction between different outputs, a very large
+VRM input ﬁlter capacitance is required. Figure 1.2 shows the
+trend of computer power system architecture. In the future, a
+distributed power system (DPS) with a high-voltage bus, 12 V

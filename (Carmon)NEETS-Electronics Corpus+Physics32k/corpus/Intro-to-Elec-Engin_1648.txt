@@ -1,0 +1,17 @@
+Much of linear control theory is based on the frequency-response formulation of the sys-
+tem equations, and several quasi-graphical and algebraic techniques have been developed to
+analyze and design linear control systems based on frequency-response methods. Although
+frequency-response techniques are limited to relatively simple systems, and apply only to lin-
+ear systems in the rigorous mathematical sense, they are still most useful in system design
+and the stability analysis of practical systems and can give a great deal of information about
+the relationships between system parameters (such as time constants and gains) and system
+response.
+Once the transfer function of Equation (16.2.3) is developed in terms of the complex frequency
+variable s, by letting s = j ω, the frequency-response characteristic and the loop gain GH(jω) can
+be determined. The Bode diagram, displaying the frequency response and root-locus techniques,
+can be used to study the stability analysis of feedback control systems. The dc steady-state
+response, which becomes one component of the step response of the control system, can also
+be determined by allowing s to be zero in the transfer function. The step response, in turn, can
+be used as a measure of the speed of response of the control system. Thus, the transfer function
+obtained from the block diagram can be used to describe both the steady-state and the transient
+response of a feedback control system.

@@ -1,0 +1,14 @@
+A single generator that is connected to an ideal generator
+bus through a transmission line is shown in Figure 7.14. The
+ideal generator maintains its bus voltage at 1 pu irrespective of
+the external dynamics and is referred to as an inﬁnite bus. It
+also deﬁnes the reference angle for this power system, and the
+angle is set at zero. The other generator is represented by the
+classical machine model with a voltage source of E0ﬀu con-
+nected to the generator terminal through the transient reac-
+0
+tance x
+d. In the classical machine model, the internal induced
+voltage E0 is assumed to remain constant, and the rotor angle u
+follows the second-order swing equations as in equation 7.68
+but here includes a damping component Pd:

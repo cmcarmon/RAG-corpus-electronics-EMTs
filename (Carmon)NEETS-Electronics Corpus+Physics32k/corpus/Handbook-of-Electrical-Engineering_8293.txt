@@ -1,0 +1,7 @@
+Data Compaction with Linear Cellular Automata Registers
+LCARs  are  one-dimensional  arrays  composed  of  two  types  of  cells:  rule  150  and  rule  90  cells  [Cattell  et al.,
+1996]. Each cell is composed of a ﬂip-ﬂop that saves the current state of the cell and an EXOR gate used to
+compute the next state of the cell. A rule 150 cell computes its next state as the EXOR of its present state and
+of the states of its two (left and right) neighbors. A rule 90 cell computes its next state as the EXOR of the states
+of its two neighbors only. As can be seen in Fig. 85.8, all connections in an LCAR are near-neighbor connections,
+thus saving routing area and delays (common for long LFSRs).

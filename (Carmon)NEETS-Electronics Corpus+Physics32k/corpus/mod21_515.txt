@@ -1,0 +1,9 @@
+Before the frequency of a signal can be measured on a spectrum analyzer, it must be RESOLVED. 
+Resolving a signal means distinguishing it from other signals near it. Resolution is limited by the 
+narrowest bandwidth of the spectrum analyzer because the analyzer traces out its own IF bandwidth shape 
+as it sweeps through a signal. If the narrowest bandwidth is 1 kilohertz, the nearest any two signals can 
+be, and still be resolved, is 1 kilohertz. Reducing the IF bandwidth indefinitely would obtain infinite 
+resolution except that the usable IF bandwidth is limited by the stability of the spectrum analyzer. The 
+smaller the IF bandwidth, the greater the capability of the analyzer to resolve closely spaced signals of 
+unequal amplitudes. Modern spectrum analyzers have been refined to the degree that IF bandwidths are 
+less than 1 hertz. 

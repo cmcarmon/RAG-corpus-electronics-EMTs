@@ -1,0 +1,19 @@
+The study of the frequency domain combines these two notions–a system’s sinusoidal response is easy to
+ﬁnd and a linear system’s output to a sum of inputs is the sum of the individual outputs—to develop the
+crucial idea of a signal’s spectrum. We begin by ﬁnding that those signals that can be represented as a
+sum of sinusoids is very large. In fact, all signals can be expressed as a superposition of sinusoids.
+As this story unfolds, we’ll see that information systems rely heavily on spectral ideas. For example,
+radio, television, and cellular telephones transmit over diﬀerent portions of the spectrum. In fact, spectrum
+is so important that communications systems are regulated as to which portions of the spectrum they can use
+by the Federal Communications Commission in the United States and by International Treaty for the world
+(see Frequency Allocation Chart in Section 7.3). Calculating the spectrum is easy: The Fourier transform
+deﬁnes how we can ﬁnd a signal’s spectrum.
+4.2 Fourier Series2
+In an earlier module (Exercise 2.4), we showed that a square wave could be expressed as a superposition of
+pulses. As useful as this decomposition was in this example, it does not generalize well to other periodic
+signals: How can a superposition of pulses equal a smooth signal like a sinusoid? Because of the importance
+of sinusoids to linear systems, you might wonder whether they could be added together to represent a large
+number of periodic signals. You would be right and in good company as well. Leonhard Euler3 and Carl
+Friedrich Gauss4 in particular worried about this problem, and Jean Baptiste Fourier5 got the credit even
+though tough mathematical issues were not settled until later. They worked on what is now known as the
+Fourier series: representing any periodic signal as a superposition of sinusoids.

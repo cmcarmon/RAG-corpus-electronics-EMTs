@@ -1,0 +1,22 @@
+sented as the pixels having gray level within predetermined
+ranges. Depending on the application, we may know the shape
+of one object (e.g., the bolt) and perform pattern matching to
+determine the position of the bolt on the image. One could
+also use mathematical morphology to compute the Euler
+number to count the ‘‘number of holes’’ of each object and
+consider the nuts as the ones having just one hole. Then, the
+inner perimeter of the nuts can be determined to check
+whether they comply to manufacturing speciﬁcations. By
+closely observing the bolt, one can notice that it is composed
+of several different regions (e.g., its head clearly belongs to a
+region different from its body). Therefore, after the segmenta-
+tion algorithm, one should perform region labeling to deter-
+mine which regions should be united to compose the bolt.
+Once having established that the image is composed of three
+objects,
+image classiﬁcation and understanding techniques
+should be used to ﬁgure out what kind of objects they are. In
+this case, one must determine that there are two nuts and one
+bolt from the data extracted in previous steps. Finally, a robot
+could use this information, extracted automatically, to screw
+the bolt into the round nut.

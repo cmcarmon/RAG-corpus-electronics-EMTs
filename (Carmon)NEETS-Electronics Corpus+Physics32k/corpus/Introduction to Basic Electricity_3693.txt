@@ -1,0 +1,10 @@
+a sample of the output voltage to the error- detection cir-
+cuit. The voltage changes if the output voltage changes.
+The error-detection circuit compares the sampled 
+voltage with a reference voltage. In order to produce 
+the reference voltage, a zener diode is used. The differ-
+ence between the sample and reference voltages is the 
+error voltage. An error amplifier amplifies the error 
+voltage. The error amplifier controls the conduction of 
+the series transistor. The transistor conducts more or 
+less to compensate for changes in the output voltage.

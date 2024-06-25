@@ -1,0 +1,11 @@
+The proposed NDP design has been implemented on a single
+cart–pole balancing problem. To begin with, the self-learning
+controller has no prior knowledge about the plant but only of
+online measurements. The objective is to balance a single pole
+mounted on a cart, which can move either to the right or to
+the left on a bounded, horizontal track. The goal for the
+learning controller is to provide a force (applied to the cart)
+of a ﬁxed magnitude in either the right or the left direction so
+that the pole stands balanced and avoids hitting the track
+boundaries. The controller receives reinforcement only after
+the pole has fallen.

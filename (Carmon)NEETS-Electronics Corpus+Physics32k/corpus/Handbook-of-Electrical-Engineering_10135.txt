@@ -1,0 +1,10 @@
+Independent Joint Control of the Robot
+The independent joint control method assumes that a single joint of a robot is moving while all the other joints
+are  ﬁxed.  A  typical  joint  position  control  system  is  shown  in  Fig. 101.12,  where  the  actuator  used  is  a  dc
+servomotor [Luh, 1983]. In general, any one or a combination of electric motors and hydraulic or pneumatic
+pistons can be used to move the joint through the desired positions. These motors may be connected directly
+to the joint or indirectly through gears, chains, cables, or lead screws. The desired joint positions that are inputs
+to the position loops are obtained from the trajectory planner. The actual position of the joint is obtained by
+using a position sensor, such as a potentiometer or an optical encoder. An ampliﬁer is used for increasing the
+ is used to reinforce the effect of back emf for controlling
+system gain, denoted by 

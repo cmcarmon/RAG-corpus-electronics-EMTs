@@ -1,0 +1,10 @@
+b. Above-resonance  (lagging  PF)  mode.
+If  switches  capable  of  gate  or  base  turn-off  (e.g.,  MOSFETs,
+bipolar transistors) are used, then the converter can operate in the above-resonance mode (lagging PF
+mode). Figure 30.34 shows some typical operating waveforms for such type of operation, and it can be
+noticed that the current i lags the voltage vAB. Since the switch takes current from its own diode across
+it at zero-current point, there is no need for di/dt limiting inductance, and a simple capacitive snubber
+can be used. In addition, the internal diodes of MOSFETs can be used due to the large turn-off time
+available for the diodes. Major problems with the lagging PF mode of operation are that there are switch
+turn-off losses, and since the voltage regulation is achieved by increasing the switching frequency above
+the rated value, the magnetic losses increase and the design of a control circuit is difﬁcult.

@@ -1,0 +1,5 @@
+as the counter gets incremented; when V2 is slightly greater than the analog input signal, the
+comparator signal becomes low, thereby causing the AND gate to stop the counter. The counter
+output at this point becomes the digital representation of the analog input signal. The relatively
+long conversion time needed to encode the analog input signal is the major disadvantage of this
+method.

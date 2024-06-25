@@ -1,0 +1,9 @@
+For a single-input–single-output linear system there are no theoretical advantages whatever to any minor-
+loop  compensation  to  series  compensation  as  the  same  closed-loop  transfer  function  can  be  realized  by  all
+procedures. However, when there are multiple inputs or outputs, then there may be considerable advantages
+to minor-loop design as contrasted to series compensation design. Multiple inputs often occur when there is
+a single-signal input and one or more noise or disturbance inputs present and a task of the system is to pass
+the signal inputs and reject the noise inputs. Also there may be saturation-type nonlinearities present, and we
+may be concerned not only with the primary system output but also with keeping the output at the saturation
+point within bounds such that the system remains linear. Thus there are reasons why minor-loop design may
+be preferable to series equalization.

@@ -1,0 +1,6 @@
+In order to display branch currents in SPICE, we need to insert zero-voltage sources in line
+(in series) with each resistor, and then reference our current measurements to those sources.
+For whatever reason, the creators of the SPICE program made it so that current could only be
+calculated through a voltage source. This is a somewhat annoying demand of the SPICE sim-
+ulation program. With each of these ”dummy” voltage sources added, some new node numbers
+must be created to connect them to their respective branch resistors:

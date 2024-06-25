@@ -1,0 +1,225 @@
+When the heat and work transfers in the equations above are infinitesimal in magnitude, they are often denoted by δ, rather than exact differentials denoted by d, as a reminder that heat and work do not describe the state of any system. The integral of an inexact differential depends upon the particular path taken through the space of thermodynamic parameters while the integral of an exact differential depends only upon the initial and final states. If the initial and final states are the same, then the integral of an inexact differential may or may not be zero, but the integral of an exact differential is always zero. The path taken by a thermodynamic system through a chemical or physical change is known as a thermodynamic process.
+The first law for a closed homogeneous system may be stated in terms that include concepts that are established in the second law. The internal energy U may then be expressed as a function of the system's defining state variables S, entropy, and V, volume: U = U (S, V). In these terms, T, the system's temperature, and P, its pressure, are partial derivatives of U with respect to S and V. These variables are important throughout thermodynamics, though not necessary for the statement of the first law. Rigorously, they are defined only when the system is in its own state of internal thermodynamic equilibrium. For some purposes, the concepts provide good approximations for scenarios sufficiently near to the system's internal thermodynamic equilibrium.
+The first law requires that:
+
+
+
+
+d
+U
+=
+δ
+Q
+−
+δ
+W
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(closed system, general process, quasi-static or irreversible).
+
+
+
+{\displaystyle dU=\delta Q-\delta W\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,{\text{(closed system, general process, quasi-static or irreversible).}}}
+
+Then, for the fictive case of a reversible process, dU can be written in terms of exact differentials. One may imagine reversible changes, such that there is at each instant negligible departure from thermodynamic equilibrium within the system. This excludes isochoric work. Then, mechanical work is given by δW = - P dV and the quantity of heat added can be expressed as δQ = T dS. For these conditions
+
+
+
+
+d
+U
+=
+T
+d
+S
+−
+P
+d
+V
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(closed system, reversible process).
+
+
+
+{\displaystyle dU=TdS-PdV\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,{\text{(closed system, reversible process).}}}
+
+While this has been shown here for reversible changes, it is valid in general, as U can be considered as a thermodynamic state function of the defining state variables S and V:
+
+
+
+
+(
+2
+)
+
+
+
+
+
+
+
+d
+U
+=
+T
+d
+S
+−
+P
+d
+V
+
+
+
+
+
+
+(closed system, general process, quasi-static or irreversible).
+
+
+
+{\displaystyle (2)\,\,\,\,\,\,\,dU=TdS-PdV\,\,\,\,\,{\text{(closed system, general process, quasi-static or irreversible).}}}
+
+Equation (2) is known as the fundamental thermodynamic relation for a closed system in the energy representation, for which the defining state variables are S and V, with respect to which T and P are partial derivatives of U. It is only in the fictive reversible case, when isochoric work is excluded, that the work done and heat transferred are given by −P dV and T dS.
+In the case of a closed system in which the particles of the system are of different types and, because chemical reactions may occur, their respective numbers are not necessarily constant, the fundamental thermodynamic relation for dU becomes:
+
+
+
+
+d
+U
+=
+T
+d
+S
+−
+P
+d
+V
++
+
+∑
+
+i
+
+
+
+μ
+
+i
+
+
+d
+
+N
+
+i
+
+
+.
+
+
+
+{\displaystyle dU=TdS-PdV+\sum _{i}\mu _{i}dN_{i}.\,}
+
+where dNi is the (small) increase in amount of type-i particles in the reaction, and μi is known as the chemical potential of the type-i particles in the system. If dNi is expressed in mol then μi is expressed in J/mol. If the system has more external mechanical variables than just the volume that can change, the fundamental thermodynamic relation further generalizes to:
+
+
+
+
+d
+U
+=
+T
+d
+S
+−
+
+∑
+
+i
+
+
+
+X
+
+i
+
+
+d
+
+x
+
+i
+
+
++
+
+∑
+
+j
+
+
+
+μ
+
+j
+
+
+d
+
+N
+
+j
+
+
+.
+
+
+
+{\displaystyle dU=TdS-\sum _{i}X_{i}dx_{i}+\sum _{j}\mu _{j}dN_{j}.\,}
+
+Here the Xi are the generalized forces corresponding to the external variables xi. The parameters Xi are independent of the size of the system and are called intensive parameters and the xi are proportional to the size and called extensive parameters.
+For an open system, there can be transfers of particles as well as energy into or out of the system during a process. For this case, the first law of thermodynamics still holds, in the form that the internal energy is a function of state and the change of internal energy in a process is a function only of its initial and final states, as noted in the section below headed First law of thermodynamics for open systems.
+A useful idea from mechanics is that the energy gained by a particle is equal to the force applied to the particle multiplied by the displacement of the particle while that force is applied. Now consider the first law without the heating term: dU = -PdV. The pressure P can be viewed as a force (and in fact has units of force per unit area) while dVis the displacement (with units of distance times area). We may say, with respect to this work term, that a pressure difference forces a transfer of volume, and that the product of the two (work) is the amount of energy transferred out of the system as a result of the process. If one were to make this term negative then this would be the work done on the system.
+It is useful to view the TdS term in the same light: here the temperature is known as a "generalized" force (rather than an actual mechanical force) and the entropy is a generalized displacement.
+Similarly, a difference in chemical potential between groups of particles in the system drives a chemical reaction that changes the numbers of particles, and the corresponding product is the amount of chemical potential energy transformed in process. For example, consider a system consisting of two phases: liquid water and water vapor. There is a generalized "force" of evaporation that drives water molecules out of the liquid. There is a generalized "force" of condensation that drives vapor molecules out of the vapor. Only when these two "forces" (or chemical potentials) are equal is there equilibrium, and the net rate of transfer zero.
+The two thermodynamic parameters that form a generalized force-displacement pair are called "conjugate variables". The two most familiar pairs are, of course, pressure-volume, and temperature-entropy.

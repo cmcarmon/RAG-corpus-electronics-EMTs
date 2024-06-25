@@ -1,0 +1,10 @@
+6.12 Signal-to-Noise Ratio of an Amplitude-Modulated Signal14
+When we consider the much more realistic situation when we have a channel that introduces attenuation
+and noise, we can make use of the just-described receiver’s linear nature to directly derive the receiver’s
+output. The attenuation aﬀects the output in the same way as the transmitted signal: It scales the output
+signal by the same amount. The white noise, on the other hand, should be ﬁltered from the received signal
+before demodulation. We must thus insert a bandpass ﬁlter having bandwidth 2W and center frequency fc:
+This ﬁlter has no eﬀect on the received signal-related component, but does remove out-of-band noise power.
+As shown in the triangular-shaped signal spectrum (Figure 6.6), we apply coherent receiver to this ﬁltered
+signal, with the result that the demodulated output contains noise that cannot be removed: It lies in the
+same spectral band as the signal.

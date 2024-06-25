@@ -1,0 +1,8 @@
+A second approach to ﬂoorplanning is the rectangular dual graph. The idea here is to use duality arguments
+and express the cell adjacency constraints in terms of a graph, and then use an algorithm to translate the graph
+into a rectangular ﬂoorplan. A rectangular dual graph of a rectangular ﬂoorplan is a planar graph G = (V,E),
+ and C
+where V is the set of cells and E is the set of edges, and an edge (C
+2
+1
+are adjacent in the ﬂoorplan. See Fig. 25.12 for a rectangular ﬂoorplan and its rectangular dual graph G.

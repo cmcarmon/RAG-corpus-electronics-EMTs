@@ -1,0 +1,8 @@
+Effect of Linear Transformations on Autocorrelation 
+and Power Spectral Density
+Let h(t) be the impulse response function of a time-invariant linear system L and H(w) = F[h(t)] be its transfer
+function. Let an input noise signal N(t) have autocorrelation function RNN(t) and psdf SNN(w). We denote the
+output  noise  signal  by Y(t)  =  L[N(t)].  The  Fourier  transforms Y(w)  [  F[Y(t)]  and  N(w)  [  F[N(t)]  do  not
+exist,  but  they  are  not  needed.  The  output Y(t)  of  a  linear  system  is  ws  whenever  the  input  N(t)  is  ws  [see
+Gardner, 1990, p. 195; or Peebles, 1987, p. 215]. The output psdf SYY(w) and autocorrelation function RYY (t)
+are given by, respectively,

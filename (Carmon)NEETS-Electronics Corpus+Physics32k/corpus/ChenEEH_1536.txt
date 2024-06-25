@@ -1,0 +1,8 @@
+The implementation of MS-DOS is closely tied to the
+underlying architecture. MS-DOS makes use of a hardware
+ROM built into the IBM PC called the basic input output
+system. (BIOS). The BIOS contains device drivers for the
+standard devices. Whereas UNIX is self-contained with all
+device drivers built-in, MS-DOS could just call BIOS proce-
+dures to do I/O. In addition, users are free to install their own
+drivers for special devices.

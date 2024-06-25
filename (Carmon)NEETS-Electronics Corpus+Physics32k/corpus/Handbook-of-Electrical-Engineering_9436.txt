@@ -1,0 +1,19 @@
+are very useful when it is desired to check arithmetic operations such as addition, multipli-
+cation, and division [Avizienis, 1971]. The basic concept is the same as all coding techniques. The data presented
+to the arithmetic operation is encoded before the operations are performed. After completing the arithmetic
+operations, the resulting code words are checked to make sure that they are valid code words. If the resulting
+code  words  are  not  valid,  an  error  condition  is  signaled.  An  arithmetic  code  must  be  invariant  to  a  set  of
+c
+  are
+A, 
+arithmetic  operations.  An  arithmetic  code, 
+are the arithmetic code words for the operands
+operands, * is some arithmetic operation, and 
+b 
+c
+, respectively. Stated verbally, the performance of the arithmetic operation on two arithmetic code words
+will  produce  the  arithmetic  code  word  of  the  result  of  the  arithmetic  operation.  To  completely  deﬁne  an
+arithmetic code, the method of encoding and the arithmetic operations for which the code is invariant must
+be speciﬁed. The most common examples of arithmetic codes are the 
+codes, residue codes, and the inverse
+residue codes.

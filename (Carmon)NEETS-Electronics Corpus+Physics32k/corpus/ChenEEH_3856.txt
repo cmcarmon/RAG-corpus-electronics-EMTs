@@ -1,0 +1,10 @@
+both its rows and columns. Figure 4.25 shows an image and its
+wavelet transform. Figure 4.25(B) shows that the wavelet trans-
+form contains mostly coefﬁcients with small magnitudes. In
+addition, the transform’s bands are directional; that is, besides
+the low-frequency band, one can see horizontal, vertical, and
+diagonal bands. From an image compression point of view, it
+is important to notice that the coefﬁcients with small value,
+which are put to zero after quantization, tend to be clustered.
+This facilitates their efﬁcient coding, thereby producing high
+compression ratios. Image coding methods based on the wave-

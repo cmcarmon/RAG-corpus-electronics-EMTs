@@ -1,0 +1,15 @@
+TTL NAND Gate
+The TTL logic family uses only transistors instead of a combination of transistors and diodes.
+TTL has the same high and low ranges as DTL. TTL is the most popular BJT logic family. A
+primary reason for the popularity of TTL over DTL is its higher speed. TTL has a typical fan-out
+of 10 or more, small propagation delays on the order of 2 to 10 ns, and a power consumption
+of about 2 mW. By contrast, DTL has a typical fan-out of 8 to 10, a propagation delay on
+the order of 30 to 90 ns, and a power consumption of around 15 mW. The noise margins and
+fan-out of DTL are generally better than those of RTL (resistor–transistor logic; see Problem
+9.2.8), but the switching speeds are about the same. The emitter-coupled logic (ECL) family
+is also available with increased switching times, although not discussed here in any detail.
+The name arises from the common attachment of the emitters of the input transistors. The
+propagation delays are on the order of 1 ns, but the power consumption is quite high (on the
+order of 25 mW per gate). Low power consumption combined with relatively small noise margins
+(< 0.3 V) has made TTL a popular choice and, in particular, the high-speed Schottky diode
+TTL gates.

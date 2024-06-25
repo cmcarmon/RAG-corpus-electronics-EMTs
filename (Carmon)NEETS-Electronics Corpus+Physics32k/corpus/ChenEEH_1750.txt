@@ -1,0 +1,16 @@
+Graphics and animation include static media types like digital
+images and dynamic media types like ﬂash presentations. An
+uncompressed, digitally encoded image consists of an array of
+pixels, with each pixel encoded in a number of bits to represent
+luminance and color. Compared to text or digital audio, digital
+images tend to be large in size. For example, a typical 4  6
+inch digital image, with a spatial resolution of 480  640 pixels
+and color resolution of 24 bits requires  1 MB of storage. To
+transmit this image on a 56.6 Kbps line will take at least 2 min.
+If the image is compressed at the modest 10:1 compression
+ratio, the storage is reduced to  100 KB, and transmission
+time drops to  14 sec. Thus, some form of compression
+schemes is always used that cashes on the property of high
+spatial redundancy in digital images. Some popular compres-
+sion schemes (Salomon, 1998) are illustrated in Table 7.3. Most
+modern image compression schemes are progressive and have

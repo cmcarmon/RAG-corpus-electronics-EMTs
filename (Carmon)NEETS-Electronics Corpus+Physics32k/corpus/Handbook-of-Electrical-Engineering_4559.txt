@@ -1,0 +1,9 @@
+Differential Equation Modeling
+Frequency Domain
+DE modeling is less commonly used in the frequency domain primarily because the order of the matrix that
+results depends on (L/DL)D
+ rather than the usual (L/DL)D–1 dependency of an IE model. On the other hand, the
+matrix  coefﬁcients  require  less  computation  whether  the  DE  model  is  based  on  a  ﬁnite-difference  or  ﬁnite-
+element treatment. Furthermore, the matrix is very sparse because a differential operator is a local rather than
+a global one, as is the integral operator. Matrix ﬁll time is therefore generally not of concern, and the overall
+computer time is given approximately by

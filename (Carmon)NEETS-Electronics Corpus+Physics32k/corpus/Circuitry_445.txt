@@ -1,0 +1,26 @@
+The astable multivibrator 
+ 
+Figure  9.6  shows  a  classic  form  of  astable 
+multivibrator  based  on  two  transistors.  Figure  9.7 
+shows  how  this  circuit  can  be  redrawn  in  an 
+arrangement  that  more  closely  resembles  a  two-
+stage  common-emitter  amplifier  with  its  output 
+connected back to its input. In Fig. 9.5, the values 
+of the base resistors, R3 and R4, axe such that the 
+sufficient  base  current  will  be  available 
+to 
+completely  saturate  the  respective  transistor.  The 
+values  of  the  collector  load  resistors,  R1 and  R2, 
+are  very  much  smaller  than  R3 and  R4.  When 
+power  is  first  applied  to  the  circuit,  assume  that 
+TR2 saturates before TR1  when the power is first 
+applied  (in  practice  one  transistor  would  always 
+saturate  before  the  other  due  to  variations  in 
+component tolerances and transistor parameters). 
+  As  TR2  saturates,  its  collector  voltage  will  fall 
+rapidly from +VCC to 0 V. This drop in voltage will 
+be  transferred  to  the  base  of  TR1  via  C1.  This 
+negative-going  voltage  will  ensure  that  TR1  is 
+initially placed in the non-conducting state. As long 
+as  TR1  remains  cut  off,  TR2  will  continue  to  be 
+saturated. During this time, C1 will charge via R4

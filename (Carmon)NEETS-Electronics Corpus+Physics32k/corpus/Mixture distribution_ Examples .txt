@@ -1,0 +1,42 @@
+Simple examples can be given by a mixture of two normal distributions. (See Multimodal distribution#Mixture of two normal distributions for more details.)
+Given an equal (50/50) mixture of two normal distributions with the same standard deviation and different means (homoscedastic), the overall distribution will exhibit low kurtosis relative to a single normal distribution – the means of the subpopulations fall on the shoulders of the overall distribution. If sufficiently separated, namely by twice the (common) standard deviation, so
+
+
+
+
+|
+
+
+μ
+
+1
+
+
+−
+
+μ
+
+2
+
+
+
+|
+
+>
+2
+σ
+,
+
+
+{\displaystyle \left|\mu _{1}-\mu _{2}\right|>2\sigma ,}
+these form a bimodal distribution, otherwise it simply has a wide peak. The variation of the overall population will also be greater than the variation of the two subpopulations (due to spread from different means), and thus exhibits overdispersion relative to a normal distribution with fixed variation
+
+
+
+σ
+,
+
+
+{\displaystyle \sigma ,}
+though it will not be overdispersed relative to a normal distribution with variation equal to variation of the overall population.
+Alternatively, given two subpopulations with the same mean and different standard deviations, the overall population will exhibit high kurtosis, with a sharper peak and heavier tails (and correspondingly shallower shoulders) than a single distribution.

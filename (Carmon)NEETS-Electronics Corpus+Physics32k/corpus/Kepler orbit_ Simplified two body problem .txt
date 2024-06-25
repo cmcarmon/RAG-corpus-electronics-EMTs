@@ -1,0 +1,296 @@
+See also Orbit Analysis
+To solve for the motion of an object in a two body system, two simplifying assumptions can be made:
+1. The bodies are spherically symmetric and can be treated as point masses.
+2. There are no external or internal forces acting upon the bodies other than their mutual gravitation.
+The shapes of large celestial bodies are close to spheres. By symmetry, the net gravitational force attracting a mass point towards a homogeneous sphere must be directed towards its centre. The shell theorem (also proven by Isaac Newton) states that the magnitude of this force is the same as if all mass was concentrated in the middle of the sphere, even if the density of the sphere varies with depth (as it does for most celestial bodies). From this immediately follows that the attraction between two homogeneous spheres is as if both had its mass concentrated to its center.
+Smaller objects, like asteroids or spacecraft often have a shape strongly deviating from a sphere. But the gravitational forces produced by these irregularities are generally small compared to the gravity of the central body. The difference between an irregular shape and a perfect sphere also diminishes with distances, and most orbital distances are very large when compared with the diameter of a small orbiting body. Thus for some applications, shape irregularity can be neglected without significant impact on accuracy.
+Planets rotate at varying rates and thus may take a slightly oblate shape because of the centrifugal force. With such an oblate shape, the gravitational attraction will deviate somewhat from that of a homogeneous sphere. This phenomenon is quite noticeable for artificial Earth satellites, especially those in low orbits. At larger distances the effect of this oblateness becomes negligible. Planetary motions in the Solar System can be computed with sufficient precision if they are treated as point masses.
+Two point mass objects with masses
+
+
+
+
+m
+
+1
+
+
+
+
+{\displaystyle m_{1}}
+and
+
+
+
+
+m
+
+2
+
+
+
+
+{\displaystyle m_{2}}
+and position vectors
+
+
+
+
+
+r
+
+
+1
+
+
+
+
+{\displaystyle \mathbf {r} _{1}}
+and
+
+
+
+
+
+r
+
+
+2
+
+
+
+
+{\displaystyle \mathbf {r} _{2}}
+relative to some inertial reference frame experience gravitational forces:
+
+
+
+
+
+m
+
+1
+
+
+
+
+
+
+
+r
+
+¨
+
+
+
+
+1
+
+
+=
+
+
+
+−
+G
+
+m
+
+1
+
+
+
+m
+
+2
+
+
+
+
+r
+
+2
+
+
+
+
+
+
+
+r
+^
+
+
+
+
+
+{\displaystyle m_{1}{\ddot {\mathbf {r} }}_{1}={\frac {-Gm_{1}m_{2}}{r^{2}}}\mathbf {\hat {r}} }
+
+
+
+
+
+
+m
+
+2
+
+
+
+
+
+
+
+r
+
+¨
+
+
+
+
+2
+
+
+=
+
+
+
+G
+
+m
+
+1
+
+
+
+m
+
+2
+
+
+
+
+r
+
+2
+
+
+
+
+
+
+
+r
+^
+
+
+
+
+
+{\displaystyle m_{2}{\ddot {\mathbf {r} }}_{2}={\frac {Gm_{1}m_{2}}{r^{2}}}\mathbf {\hat {r}} }
+
+where
+
+
+
+
+r
+
+
+
+{\displaystyle \mathbf {r} }
+is the relative position vector of mass 1 with respect to mass 2, expressed as:
+
+
+
+
+
+r
+
+=
+
+
+r
+
+
+1
+
+
+−
+
+
+r
+
+
+2
+
+
+
+
+{\displaystyle \mathbf {r} =\mathbf {r} _{1}-\mathbf {r} _{2}}
+
+and
+
+
+
+
+
+
+r
+^
+
+
+
+
+
+{\displaystyle \mathbf {\hat {r}} }
+is the unit vector in that direction and
+
+
+
+r
+
+
+{\displaystyle r}
+is the length of that vector.
+Dividing by their respective masses and subtracting the second equation from the first yields the equation of motion for the acceleration of the first object with respect to the second:
+
+where
+
+
+
+μ
+
+
+{\displaystyle \mu }
+is the gravitational parameter and is equal to
+
+
+
+
+μ
+=
+G
+(
+
+m
+
+1
+
+
++
+
+m
+
+2
+
+
+)
+
+
+{\displaystyle \mu =G(m_{1}+m_{2})}
+
+In many applications, a third simplifying assumption can be made:
+3. When compared to the central body, the mass of the orbiting body is insignificant. Mathematically, m1 >> m2, so μ = G (m1 + m2) ≈ Gm1.
+This assumption is not necessary to solve the simplified two body problem, but it simplifies calculations, particularly with Earth-orbiting satellites and planets orbiting the sun. Even Jupiter's mass is less than the sun's by a factor of 1047, which would constitute an error of 0.096% in the value of μ. Notable exceptions include the Earth-moon system (mass ratio of 81.3), the Pluto-Charon system (mass ratio of 8.9) and binary star systems.
+Under these assumptions the differential equation for the two body case can be completely solved mathematically and the resulting orbit which follows Kepler's laws of planetary motion is called a "Kepler orbit". The orbits of all planets are to high accuracy Kepler orbits around the Sun. The small deviations are due to the much weaker gravitational attractions between the planets, and in the case of Mercury, due to general relativity. The orbits of the artificial satellites around the Earth are, with a fair approximation, Kepler orbits with small perturbations due to the gravitational attraction of the sun, the moon and the oblateness of the Earth. In high accuracy applications for which the equation of motion must be integrated numerically with all gravitational and non-gravitational forces (such as solar radiation pressure and atmospheric drag) being taken into account, the Kepler orbit concepts are of paramount importance and heavily used.

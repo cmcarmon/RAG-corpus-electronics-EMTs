@@ -1,0 +1,8 @@
+Mesh Analysis
+In a mesh analysis the mesh currents in the network are the variables
+and KVL is the mechanism used to determine them. Once all the mesh
+currents  have  been  determined,  Ohm’s  law  will  yield  the  voltages
+anywhere in e circuit. If the network contains N independent meshes,
+then  graph  theory  can  be  used  to  prove  that  N  independent  linear
+simultaneous  equations  will  be  required  to  determine  the  N  mesh
+currents.

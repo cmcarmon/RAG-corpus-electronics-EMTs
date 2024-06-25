@@ -1,0 +1,9 @@
+where  the A’s  are  computer-  and  algorithm-dependent  coefﬁcients  that  account  for  computation  of  Aﬁll,  the
+direct (impedance) matrix; Asolve, the solution (admittance) matrix (assuming inversion or factorization); Asource,
+the source response (currents and charges) for one of Nrhs different excitations or right-hand sides (the g term
+of Table 45.7); and Aﬁeld, one of Nﬁeld ﬁelds, where Aﬁeld £ Aﬁll, depending on whether a near-ﬁeld (=) or far-
+ﬁeld (<) value is obtained. D is the problem dimensionality (for a wire IE model, D = 2 except when used for
+wire-mesh  approximations  of  surfaces  in  which  case  D  =  3);  L  is  a  characteristic  length  of  the  object  being
+modeled; and DL is the spatial resolution required, being proportional to the wavelength.
+Time Domain
+A similar relationship holds for a time-domain IE model which uses Nt time steps,

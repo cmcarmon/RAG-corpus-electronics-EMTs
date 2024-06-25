@@ -1,0 +1,12 @@
+An “illegal” or “unallowed” condition occurs when 
+a high is applied to both the R and S inputs simultane-
+ously. In this case, the Q and Q outputs both try to go 
+low, but Q and Q cannot be in the same state at the 
+same time without violating the definition of flip-flop 
+operation. When the highs on the R and S inputs are 
+removed simultaneously, both of the outputs attempt 
+to go high. Because there is always some difference in 
+the gates, one gate dominates and becomes high. This 
+forces the other gate to remain low. An unpredictable 
+mode of operation exists and therefore the output state 
+of the flip-flop cannot be determined.

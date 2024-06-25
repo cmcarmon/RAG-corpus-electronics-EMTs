@@ -1,0 +1,40 @@
+Rectifiers 
+ 
+Semiconductor  diodes 
+(see  Chapter  5)  are 
+commonly used to convert alternating current (a.c.) 
+to  direct  current  (d.c),  in  which  case  they  are 
+referred  to  as  rectifiers. The  simplest  form  of 
+rectifier  circuit  makes  use  of  a  single  diode  and, 
+since it operates on only either positive or negative 
+half-cycles  of  the  supply,  it  is  known  as  a  half-
+wave rectifier.  
+  Figure  6.4  shows  a  simple  half-wave  rectifier 
+circuit. Mains voltage (220 to 240 V) is applied to 
+the  primary  of  a  step-down  transformer  (T1).  The 
+secondary  of  T1  steps  down  the  240  V  r.m.s.  to  
+12  V  r.m.s.  (the  turns  ratio  of  T1  will  thus  be 
+240/12  or  20:1).  Diode  D1  will  only  allow  the 
+current  to  flow  in  the  direction  shown  (i.e.  from 
+cathode  to  anode).  D1  will  be  forward  biased 
+during  each  positive  half-cycle 
+to 
+common) and will effectively behave like a closed 
+switch. When the circuit current tries to flow in the 
+opposite direction, the voltage bias across the diode 
+will  be  reversed,  causing  the  diode  to  act  like  an 
+open 
+switch 
+(see  Figs  6.5(a)  and  6.5(b), 
+respectively).  
+  The switching action of D1 results in a pulsating 
+output  voltage  which  is  developed  across  the  load 
+resistor  (RL). Since  the  mains  supply  is  at  50  Hz, 
+the pulses of voltage developed across RL will also 
+be  at  50  Hz  even  if  only  half  the  a.c.  cycle  is 
+present.  During  the  positive  half-cycle,  the  diode 
+will  drop  the  0.6  V  to  0.7  V  forward  threshold 
+voltage  normally  associated  with  silicon  diodes. 
+However,  during  the  negative  half-cycle  the  peak 
+a.c.  voltage  will  be  dropped  across  D1  when  it  is 
+reverse  biased.  This  is  an  important  consideration 

@@ -1,0 +1,14 @@
+Thyristor and Triac
+The thyristor, also called a silicon-controlled rectiﬁer (SCR), is basically a four-layer three-junction 
+ device.
+It has three terminals: anode, cathode, and gate. The device is turned on by applying a short pulse across the
+gate and cathode. Once the device turns on, the gate loses its control to turn off the device. The turn-off is
+achieved by applying a 
+across the anode and cathode. The thyristor symbol and its volt-ampere
+characteristics are shown in Fig. 30.1. There are basically two classiﬁcations of thyristors: converter grade and
+inverter  grade.  The  difference  between  a  converter-grade  and  an  inverter-grade  thyristor  is  the  low  turn-off
+time (on the order of a few microseconds) for the latter. The converter-grade thyristors are slow type and are
+used in natural commutation (or phase-controlled) applications. Inverter-grade thyristors are used in forced
+commutation applications such as dc-dc choppers and dc-ac inverters. The inverter-grade thyristors are turned
+off by forcing the current to zero using an external commutation circuit. This requires additional commutating
+components, thus resulting in additional losses in the inverter.

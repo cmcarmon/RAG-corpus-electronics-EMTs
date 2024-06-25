@@ -1,0 +1,13 @@
+Solution:
+(a)  To  ﬁnd  the  Thevenin  resistance 
+at
+the terminals a-b in the circuit in Fig. 4.31, we ﬁrst use Schematics to
+draw the circuit as shown in Fig. 4.53(a). Notice that a probing current
+source I2 is inserted at the terminals. Under Analysis/Setput, we select
+DC  Sweep.  In  the  DC  Sweep  dialog  box,  we  select  Linear  for  the
+Sweep  Type and  Current  Source  for  the  Sweep  Var.  Type. We  enter  I2
+under  the  Name box,  0  as  Start  Value,  1  as  End  Value,  and  0.1  as
+Increment. After simulation, we add trace V(I2:–) from the PSpice A/D
+window  and  obtain  the  plot  shown  in  Fig.  4.53(b).  From  the  plot,  we
+obtain
+VTh ⫽ Zero intercept ⫽ 20 V,    RTh ⫽ Slope ⫽ 26 ⫺ 20

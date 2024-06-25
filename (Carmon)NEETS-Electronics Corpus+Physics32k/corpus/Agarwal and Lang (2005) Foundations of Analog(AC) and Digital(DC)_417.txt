@@ -1,0 +1,10 @@
+Similarly, eb is the potential difference between nodes b and c. Therefore,
+starting at node c and heading towards node b across the 1- resistor, we
+notice a potential increase of 1.5 V. So eb = 1.5 V.
+Notice that from KVL, a given node’s voltage should be the same irrespec-
+tive of the path along which voltages are accumulated. Thus, let us confirm
+that the value of eb that is obtained by taking the path c → a → b is
+the same as that obtained by taking the direct path c → b. Starting at c,
+we first accumulate the voltage of 2 V as we cross the voltage source and reach
+node a. Then, proceeding towards node b, we notice a 0.5-V drop across the
+1- resistor, resulting in a 1.5-V value for eb, as seen earlier.

@@ -1,0 +1,22 @@
+The four passiﬁcation methods in Figure 3.5 series, feedback,
+feed-forward, and hybrid passiﬁcation are given in Kelkar
+and Joshi (1997) for ﬁnite-dimensional linear time-invariant
+nonpassive systems as shown. Once passiﬁed, the system can
+be controlled by any MSPR or weakly SPR (WSPR) controller
+(Isidori et al., 1999). In Figure 3.5, the system with input u(t)
+and output ym(t) (G(s)) represents the passiﬁed system. The
+type of passiﬁcation to be used depends on the dynamic
+characteristics of the unpassiﬁed plant. For example, the
+system having unstable poles will require feedback passiﬁca-
+tion, whereas the system having nonminimum phase zeros
+(i.e., having unstable zero dynamics) will require feed-forward
+passiﬁcation. Some systems may require a combination of the
+basic passiﬁcation methods. For SISO systems, the passiﬁca-
+tion process is easier than for MIMO systems. The reason is
+that for SISO systems, only the phase plot needs to be checked
+to determine passivity, whereas in the case of MIMO systems,
+the KYP lemma conditions have to be checked. One numerical
+technique that can be used to check the KYP lemma is linear
+matrix inequality (LMI)-based PR conditions. The solution of
+the LMI can be done using the LMI tool box in MATLAB or
+another semideﬁnite programming package.

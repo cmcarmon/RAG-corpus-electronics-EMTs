@@ -1,0 +1,11 @@
+Power flow as a function of time for both of these cases is shown in Figure 13.53.
+Note that in both cases the average power is zero. Thus, circuits with inductors
+and capacitors but no resistors do not dissipate any power. The L’s and C’s
+absorb power for two quarters of each cycle, and deliver the power back to the
+source during the other two quarter cycles. Power companies are not happy
+about this state of affairs, because they still must supply the power depicted
+in Figure 13.53, even though they get it all back a few milliseconds later. The
+problem is that the current associated with this instantaneous power causes i2R
+power losses in the transmission lines, and the power company must pay for
+this power loss, even though the customer is consuming zero power on the
+average.12

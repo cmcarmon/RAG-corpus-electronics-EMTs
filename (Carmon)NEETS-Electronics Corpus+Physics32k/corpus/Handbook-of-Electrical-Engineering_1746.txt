@@ -1,0 +1,9 @@
+There has been a great deal of research performed in the area of edge detection. Some of the research issues
+include  robust  threshold  selection,  window  size  selection,  noise  response,  edge  linking,  and  the  detection  of
+edges in moving objects. While it is beyond the scope of this section to discuss these issues in detail, it is obvious
+that such things as threshold selection will greatly affect the performance of the edge detection algorithm. If
+the threshold is set too high, then many edge points will be missed; if set too low, then many “false’’ edge points
+will be obtained because of the inherent noise in the image. The investigation of the “optimal’’ choice of the
+threshold is an important research area. Selection of the particular window operation to enhance the edges of
+an image, as an initial step in edge detection, has recently been based on using models of the performance of
+the human visual system in detecting edges.

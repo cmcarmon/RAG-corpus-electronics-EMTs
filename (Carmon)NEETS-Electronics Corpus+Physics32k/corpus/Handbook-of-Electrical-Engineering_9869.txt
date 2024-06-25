@@ -1,0 +1,7 @@
+We have discussed block diagrams elsewhere in this handbook. It is desirable here to review some concepts
+that will be of value for our discussion of minor-loop design. Figure 100.21 illustrates a relatively general linear
+control  system  with  a  single  minor  loop.  This  block  diagram  could  represent  many  simple  control  systems.
+G1(s) could represent a discriminator and series compensation and G2(s) could represent an ampliﬁer and that
+part of a motor transfer function excluding the ﬁnal integration to convert velocity to position. G3(s) might
+then represent an integrator. G4(s) would then represent a minor-loop compensation transfer function, such
+as that of a tachometer.

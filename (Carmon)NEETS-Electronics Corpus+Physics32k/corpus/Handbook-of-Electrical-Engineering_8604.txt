@@ -1,0 +1,8 @@
+Stack. Most subroutines deﬁne a number of local variables. NumberCount in C, for example, deﬁnes 10 local
+variables. While these local variables will often be created and kept in register, there is always some need for a
+bit of memory for each invocation of (call to) a subroutine. In the “good old days,” this local storage was often
+tied to the block of code comprising the subroutine. However, such a ﬁxed block means that a subroutine could
+never  call  itself  or  be  called  by  something  that  it  called.  To  avoid  that  problem  (and  for  other  purposes)  a
+memory  structure  called  a  stack  was  invented  which  got  its  name  because  it  behaved  like  the  spring-loaded
+plate stack in a restaurant. Basically, it is a last-in-ﬁrst-out (LIFO) structure whose top is deﬁned by a pointer
+(address) which resides in a register commonly called the stack pointer or SP.

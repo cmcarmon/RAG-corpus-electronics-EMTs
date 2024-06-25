@@ -1,0 +1,12 @@
+The basic principle of instruction set extensions is subword parallelism [Lee95], as illustrated in Fig. 17.31.
+This technique takes advantage of the fact that modern microprocessors support native 32- or 64-bit operations
+while most video algorithms require much smaller data accuracy, such as 16 bits or even 8 bits. One can divide
+the microprocessor data path, on which the instructions are executed, into subwords. This is a relatively simple
+operation,  mainly  entailing  adding  a  small  amount  of  logic  to  cut  the ALU’s  carry  chain  at  the  appropriate
+points when subword operations are performed. When a 64-bit data path is divided for use by 16-bit subwords,
+the machine can support four simultaneous subword operations. Subword parallelism is often referred to as
+SIMD  because  a  single  microprocessor  instruction  causes  the  same  operation  to  be  performed  on  all  the
+subwords in parallel. However, there is no separate SIMD instruction unit — all the work is done by adding a
+small amount of hardware to the microprocessor data path. Subword parallelism is powerful because it has a
+very small cost in the microprocessor (both in terms of chip area and performance) and because it provides
+substantial speedups on parallel code.

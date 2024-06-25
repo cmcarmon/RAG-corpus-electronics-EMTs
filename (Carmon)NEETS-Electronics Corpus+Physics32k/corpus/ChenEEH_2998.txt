@@ -1,0 +1,12 @@
+Speciﬁc issues with mixer design include matching for opti-
+mal performance, isolation, and rejection of image frequencies
+that can cause spurious responses near the desired intermedi-
+ate frequency. A block diagram of a typical down-conversion
+mixer is shown in Figure 11.13. With applied RF and LO
+signals, the frequencies fRF  fLO are present at the output of
+the mixer. Note that in practice, all mixing products will be
+present at the output. Then a low-pass ﬁlter is used to elimi-
+nate all but the desired intermediate frequency, fRF  fLO, for
+improved isolation. In addition to isolation, conversion loss is
+an important ﬁgure of merit for a mixer. In decibels, this is
+given as:

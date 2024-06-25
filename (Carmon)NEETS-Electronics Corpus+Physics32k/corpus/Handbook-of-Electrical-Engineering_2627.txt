@@ -1,0 +1,7 @@
+where usat is the carrier saturation velocity, about 107 cm/s for silicon at 290 K, Fsat is the ﬁeld at which velocity
+saturation sets in, about 52104 V/cm for electrons and not well established as *105 V/cm for holes in silicon
+MOSFETs. For Eq. (24.43) to agree with Eq. (24.42) at long L, we need m » 2usat/Fsat » 400 cm2(V·s) for electrons
+in silicon MOSFETs, which is only roughly correct. Nonetheless, we can see that for devices in the submicron
+channel length regime, ID,sat tends to become independent of channel length L and becomes more linear with
+VG – VTH and less quadratic (see Fig. 24.44). Equation (24.43) shows that velocity saturation is signiﬁcant when
+VG/L * Fsat for example, when L & 0.5 mm if VG - VTH = 2.5 V.

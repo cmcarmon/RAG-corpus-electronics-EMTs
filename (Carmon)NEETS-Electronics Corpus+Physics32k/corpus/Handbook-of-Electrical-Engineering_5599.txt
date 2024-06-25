@@ -1,0 +1,8 @@
+it to be able to distinguish between a fault just inside the zone and a fault just outside the zone, near bus B.
+This problem is solved by providing a two-zone scheme, such that if a fault is detected to be in zone 1, the relay
+trips instantaneously, and if the fault is detected to be inside zone 2, the relay trips with a time delay of about
+0.3 s. Thus for faults near the zone boundary, the fault is cleared with this time delay, while for near faults, the
+clearing is instantaneous. This arrangement is referred to as a step-distance protection scheme, consisting of an
+underreaching zone (zone 1), and an overreaching zone (zone 2). The relays of the neighboring line (BC) can
+also be backed up by a third zone of the relay, which reaches beyond the zone of protection of relay Rbc. Zone 3
+operation is delayed further to allow the zone 1 or zone 2 of Rbc to operate and clear the fault on line BC.

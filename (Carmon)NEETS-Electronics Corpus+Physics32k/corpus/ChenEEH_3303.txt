@@ -1,0 +1,18 @@
+In reality, the generator voltage control for keeping the bus
+voltage magnitude at a speciﬁed value becomes inactive when
+the control is pushed to the extremes, such as when the reactive
+output of the generator becomes either too high or too low. This
+voltage control limitation of the generator can be represented in
+power ﬂow studies by keeping track of the reactive output QGi.
+When the reactive generation QGi becomes larger than a pre-
+speciﬁed maximum value of QGi, max or goes lower than a
+prespeciﬁed minimum value QGi, min, the reactive output is
+assumed to be ﬁxed at the limiting value QGi, max or QGi, min,
+respectively, and the voltage control is disabled in the formula-
+tion; that is, the reactive power QGi becomes a known variable,
+either at QGi, max or QGi, min, and the voltage Vi then becomes
+the unknown variable for bus i. In power ﬂow terminology, we
+say that the generator at bus i has ‘‘reached its reactive limits’’
+and, hence, bus i has changed from a PV bus to a PQ bus. Owing
+to space limitations, we will not discuss generator reactive limits
+in any more detail in this section.

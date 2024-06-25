@@ -1,0 +1,10 @@
+The bulk synchronous parallel (BSP) programming approach
+is of interest because it promises the achievement of all the
+goals mentioned at the beginning of this section: software
+correctness, portability, and scalable performance (McColl,
+1996). The approach is applicable to SMP, cluster, and
+NUMA architectures. Just as for MPI, libraries exist to support
+BSP programming in standard sequential languages such as
+FORTRAN and C. There is also a rigorous theoretical founda-
+tion (Valiant, 1990) that allows the development of scalable
+BSP programs.

@@ -1,0 +1,8 @@
+substrate, or it may be written on the storage layer prior to shipping the disk. Pregrooved tracks may be “carved”
+on the optical disk either as concentric rings or as a single continuous spiral. There are certain advantages to
+each format. A spiral track can contain a succession of sectors without interruption, whereas concentric rings
+may each end up with some empty space that is smaller than the required length for a sector. Also, large ﬁles
+may  be  written  onto  (and  read  from)  spiral  tracks  without  jumping  to  the  next  track,  which  occurs  when
+concentric tracks are used. On the other hand, multiple-path operations such as write-and-verify or erase-and-
+write, which require two paths each for a given sector, or still-frame video are more conveniently handled on
+concentric-ring tracks.

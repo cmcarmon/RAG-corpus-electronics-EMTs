@@ -1,0 +1,12 @@
+Buffers (Fig. 10.9) 
+ 
+Buffers  do  not  affect  the  logical  state  of  a  digital 
+signal (i.e. a logic 1 input results in a logic 1 output 
+whereas a logic 0 input results in a logic 0 output). 
+Buffers are normally used to provide extra current 
+drive  at  the  output  but  can  also  be  used  to 
+regularize  the  logic  levels  present  at  an  interface. 
+The  Boolean  expression  for  the  output,  Y, of  a 
+buffer with an input, X, is: 
+ 
+Y = X

@@ -1,0 +1,8 @@
+In summary, the successive projection algorithm provides a useful signal-processing tool for the case in which
+the individual attribute sets are closed convex sets. Its primary deﬁciency is that although the signal sequence
+(14.95) so generated converges to an element of C, it need not converge to the closest approximation of the
+data signal x contained in C. Thus, the successive projection algorithm generally fails to provide a solution to
+the  signal  restoration  problem  (14.73).  In  recognition  of  this  shortcoming,  Dykstra  [1983]  developed  an
+algorithm  which  does  provide  an  algorithmic  solution.  This  algorithm  was  further  studied  by  Dykstra  and
+Boyle [1987], Han [1988], and Gaffke and Mathar [1989]. The formulation as given by Gaffke and Mathar is
+now summarized.

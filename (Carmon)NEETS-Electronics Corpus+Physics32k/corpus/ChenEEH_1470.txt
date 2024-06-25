@@ -1,0 +1,9 @@
+Corresponding to each system call is a library procedure that
+user programs can call. This procedure puts the parameters of
+the system call
+in a speciﬁed place, such as the machine
+registers; it then issues a TRAP instruction, which is a kind
+of protected procedure call, to start the operating system. The
+purpose of the library procedure is to hide the details of the
+TRAP instruction and make system calls look like ordinary
+procedure calls.

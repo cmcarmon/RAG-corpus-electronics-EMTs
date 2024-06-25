@@ -1,0 +1,4 @@
+The calculation of vt is straightforward. We use the node method with
+conductances in place of resistances for convenience. In other words, we use
+gi = 1/ri, Gs = 1/Rs, Gf = 1/Rf, and gt = 1/rt. Applying KCL at the nodes with
+unknown node voltages, we get the following three independent equations:

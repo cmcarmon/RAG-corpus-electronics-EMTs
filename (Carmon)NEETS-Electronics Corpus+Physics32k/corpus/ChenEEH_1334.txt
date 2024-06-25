@@ -1,0 +1,15 @@
+As both the cost and performance of microprocessors con-
+tinue to improve, it becomes increasingly attractive to build
+computer systems containing many processors. Performance
+improvement
+is one obvious beneﬁt of a multiprocessor
+system. In the ideal case, a system with N processors can
+provide N times speedup of compute-bound tasks. Given
+that the cost of a microprocessor is a small fraction of the
+total system cost, the cost effectiveness of such an approach is
+obvious. A different but equally important reason for using
+multiprocessor systems is for better reliability. The idea here is
+that even if a single processor fails, the system would continue
+to work, though at a slower pace. The workload of the failed
+processor would be automatically taken up by the remaining
+processors.

@@ -1,0 +1,10 @@
+To relate this mathematical to physical systems, the above analysis can be extended to continuously deformable bodies. Generalizing the equations of the two plate system allows one to write a corresponding set of equations for the case of a continuously deformable plate. This continuously deformable plate is composed of
+
+
+
+n
+
+
+{\displaystyle n}
+sub-plates, where similar force and torque equilibrium conditions described before must be satisfied for each sub-plate. Such analysis reveals that for a highly compliant 2D structure with a characteristic length much greater than the capillary length, the shape bearing the highest load is a perfect semi-circle. As stiffness increases, the semi-circle is deformed to shapes with lower curvature.
+This initial look at continuously deformable bodies represents an initial stab into a very complicated problem. With the groundwork laid here in this analysis, it is likely that future works will implement this general ideology in a finite element approach. Doing so will allow much closer simulation of real world phenomena and will aid in determining how effects of elasticity can aid in the design of robots, instruments, and other devices that operate along the water line.

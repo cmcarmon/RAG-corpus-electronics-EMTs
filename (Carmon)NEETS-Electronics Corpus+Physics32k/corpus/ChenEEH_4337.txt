@@ -1,0 +1,17 @@
+may have a different number of solutions, and how many
+solutions exist is related to the rank of A. To solve simulta-
+neous equations, MATLAB provides the backslash command (\)
+to determine a vector x 2 F n, satisfying Ax ¼ y for A 2 F mn
+and y 2 F m. Given A 2 F mn and Y 2 F mp, the backslash
+operator can be used to solve for X 2 F np in AX ¼ Y . Di-
+rectly solving for the matrix inverse, assuming one exists, can
+be avoided by solving for X in AX ¼ I. This is usually faster
+and more accurate because Cholesky or LU factorizations are
+employed. More advanced factorizations contribute to solving
+the sparse system problem (A is large and has few nonzero
+elements) that occurs,
+in electrical power
+systems.
+All is not lost in terms of inverses in the case of nonsquare
+matrices A 2 F mn or rank-deﬁcient square matrices. Deﬁne
+the pseudoinverse Aþ 2 F nm by:

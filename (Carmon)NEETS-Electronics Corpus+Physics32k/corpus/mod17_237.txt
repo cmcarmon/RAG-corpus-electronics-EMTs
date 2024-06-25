@@ -1,0 +1,5 @@
+You should remember that, depending on transistor types, the receiver may require either a positive
+or a negative agc voltage. A negative agc voltage could be easily obtained by reversing CR1. Once the
+values for R2 and C2 have been selected, the voltage divider action of the components is fixed, and the
+circuit operates automatically without further adjustment. If the average amplitude of the signal increases,
+the charge on C2 will also increase. If the signal amplitude decreases so does the charge on C2.

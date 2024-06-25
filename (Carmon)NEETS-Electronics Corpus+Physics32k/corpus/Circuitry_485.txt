@@ -1,0 +1,14 @@
+  J-K  bistables  are  the  most  sophisticated  and 
+flexible  of  the  bistable  types  and  they  can  be 
+configured 
+including  binary 
+dividers, shift registers, and latches.  
+  Figure  10.22  shows  the  arrangement  of  a  four-
+stage  binary  counter  based  on  J-K  bistables.  The 
+timing  diagram  for  this  circuit  is  shown  in  Fig. 
+10.23.  Each  stage  successively  divides  the  clock 
+input signal by a factor of two. Note that a logic 1 
+input  is  transferred  to  the  respective  Q-output  on 
+the falling edge of the clock pulse and all J and K 
+inputs  must  be  taken  to  logic  1  to  enable  binary 
+counting.  

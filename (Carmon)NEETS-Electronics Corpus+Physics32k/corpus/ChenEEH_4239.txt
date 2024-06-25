@@ -1,0 +1,17 @@
+WEP is implanted in 802.11b protocol and works at Layer 2
+to encrypt all over the air transmission using 40/64 bit keys.
+Unfortunately, these keys are not strong and are easier to
+break. Furthermore, it only authenticates a device, not a user.
+WPA is a security enhancement that tries to solve two prob-
+lems of WEP—weak data encryption and lack of user authen-
+tication capability. In order to provide a stronger encryption
+algorithm, WPA employs Temporal key Integrity Protocol
+(TKIP), which provides per-packet key to make the hacker’s
+job more difﬁcult. WPA also implements the Extensible Au-
+thentication Protocol (ESP), which works with a RADIUS
+authentication server to authenticate and authorize a user
+using WLAN. Virtual Private Network (VPN) can also be
+used to regulate access to a company’s corporate network
+from WLAN, either in a private network or public access
+network. VPN is placed behind the wireless access points to
+authenticate and authorize a user.

@@ -1,0 +1,19 @@
+The  signal  is  applied  to  the  base  terminal  of  the 
+transistor  via  a  coupling  capacitor,  C1.  This 
+capacitor removes the d.c. component of any signal 
+applied to the input terminals and ensures that the 
+base bias current delivered by R1 is unaffected by 
+any device connected to the input. C2 couples the 
+signal out of the stage and also prevents d.c. current 
+flowing appearing at the output terminals.  
+ 
+In order to stabilize the operating conditions for 
+the stage and compensate for variations in transistor 
+parameters, base bias current for the transistor can 
+be  derived  from  the  voltage  at  the  collector  (see 
+Fig.  7.32).  This  voltage  is  dependent  on  the 
+collector  current  which,  in  turn,  depends  upon  the 
+base current. A negative feedback loop thus exists 
+in which there is a degree of self-regulation. If the 
+collector  current  increases,  the  collector  voltage 
+will fall and the base current will be reduced. The 

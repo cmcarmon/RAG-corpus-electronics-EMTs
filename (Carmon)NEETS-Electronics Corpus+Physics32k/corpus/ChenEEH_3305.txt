@@ -1,0 +1,22 @@
+The line losses associated with any transmission line in turn
+depend on the line resistance and the line current magnitude.
+As stated earlier, one of the main objectives of power ﬂow
+studies is to compute the line currents, and as such, the line
+current values are not known at the beginning of a power ﬂow
+computation. Therefore, we do not know the actual values for
+the line losses in the transmission network. Looking at equa-
+tion 7.45, we need to assume that at least of one of the
+variables PGi or PLi should be a free variable for satisfying the
+real power conservation. Traditionally, we assume that one of
+the generations is a ‘‘slack’’ variable, and such a generator bus
+is denoted the slack bus. At the slack bus, we specify both
+the voltage Vi and the angle di. The power injections Pi and Qi
+are the unknown variables. Again, by tradition, we set the
+voltage at slack bus to be the rated voltage or at 1 pu and
+the phase angle to be at zero.
+Like in standard textbooks, slack bus is deﬁned in this
+section to be the ﬁrst bus in the network with V1 ¼ 1 and
+the angle d1 ¼ 0. Assuming the number of generators to be
+NG, the busses 2 through NG þ 1 are set to be the PV busses.
+The remaining buses NG þ 2 through N are then the PQ
+busses.

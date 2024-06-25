@@ -1,0 +1,12 @@
+vGS, we approximated the behavior as a linear resistor using the SR model.
+Clearly, the SR model does not capture MOSFET behavior if we vary vGS.
+Worse yet, even for a given value of vGS, the SR model becomes inaccurate as
+the value of vDS approaches vGS − VT. For more accuracy, we can develop a
+more elaborate model for the triode region operation of the MOSFET. Aban-
+doning the piecewise-linear method, this more elaborate model characterizes
+the behavior of the MOSFET in the triode region as a nonlinear resistor, whose
+characteristics depend on vGS. When combined with the SCS model for the
+saturation region, the nonlinear resistor model in the triode region results in
+a continuous set of MOSFET curves. The resulting combined model for the
+triode and saturation regions is called the switch unified model or the SU model
+of the MOSFET.

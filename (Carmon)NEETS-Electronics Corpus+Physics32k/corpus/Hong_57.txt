@@ -1,0 +1,8 @@
+The simple model of source and load, shown in Figure 4.3, is an extremely useful 
+way to predict how two circuits will interact when connected together. The source part 
+can be used to represent the output of a circuit, while the load can be used to represent the 
+input of another circuit. The value of ZLOAD can be determined from the equivalent circuit 
+model of the load circuit using KVL and KCL. The value of ZSOURCE can be determined 
+by Thevenin and Norton equivalent circuits. The voltage across the load can simply be 
+calculated from, 
+ 

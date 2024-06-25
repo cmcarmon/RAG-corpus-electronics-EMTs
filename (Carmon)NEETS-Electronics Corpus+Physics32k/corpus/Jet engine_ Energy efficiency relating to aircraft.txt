@@ -1,0 +1,435 @@
+This overview highlights where energy losses occur in complete jet aircraft powerplants or engine installations.
+A jet engine at rest, as on a test stand, sucks in fuel and tries to thrust itself forward. How well it does this is judged by how much fuel it uses and what force is required to restrain it. This is a measure of its efficiency. If something deteriorates inside the engine (known as performance deterioration) it will be less efficient and this will show when the fuel produces less thrust. If a change is made to an internal part which allows the air/combustion gases to flow more smoothly the engine will be more efficient and use less fuel. A standard definition is used to assess how different things change engine efficiency and also to allow comparisons to be made between different engines. This definition is called specific fuel consumption, or how much fuel is needed to produce one unit of thrust. For example, it will be known for a particular engine design that if some bumps in a bypass duct are smoothed out the air will flow more smoothly giving a pressure loss reduction of x% and y% less fuel will be needed to get the take-off thrust, for example. This understanding comes under the engineering discipline Jet engine performance. How efficiency is affected by forward speed and by supplying energy to aircraft systems is mentioned later.
+The efficiency of the engine is controlled primarily by the operating conditions inside the engine which are the pressure produced by the compressor and the temperature of the combustion gases at the first set of rotating turbine blades. The pressure is the highest air pressure in the engine. The turbine rotor temperature is not the highest in the engine but is the highest at which energy transfer takes place ( higher temperatures occur in the combustor). The above pressure and temperature are shown on a Thermodynamic cycle diagram.
+The efficiency is further modified by how smoothly the air and the combustion gases flow through the engine, how well the flow is aligned (known as incidence angle) with the moving and stationary passages in the compressors and turbines. Non-optimum angles, as well as non-optimum passage and blade shapes can cause thickening and separation of Boundary layers and formation of Shock waves. It is important to slow the flow (lower speed means less pressure losses or Pressure drop) when it travels through ducts connecting the different parts. How well the individual components contribute to turning fuel into thrust is quantified by measures like efficiencies for the compressors, turbines and combustor and pressure losses for the ducts. These are shown as lines on a Thermodynamic cycle diagram.
+The engine efficiency, or thermal efficiency, known as
+
+
+
+
+η
+
+t
+h
+
+
+
+
+{\displaystyle \eta _{th}}
+. is dependent on the Thermodynamic cycle parameters, maximum pressure and temperature, and on component efficiencies,
+
+
+
+
+η
+
+c
+o
+m
+p
+r
+e
+s
+s
+o
+r
+
+
+
+
+{\displaystyle \eta _{compressor}}
+,
+
+
+
+
+η
+
+c
+o
+m
+b
+u
+s
+t
+i
+o
+n
+
+
+
+
+{\displaystyle \eta _{combustion}}
+and
+
+
+
+
+η
+
+t
+u
+r
+b
+i
+n
+e
+
+
+
+
+{\displaystyle \eta _{turbine}}
+and duct pressure losses.
+The engine needs compressed air for itself just to run successfully. This air comes from its own compressor and is called secondary air. It does not contribute to making thrust so makes the engine less efficient. It is used to preserve the mechanical integrity of the engine, to stop parts overheating and to prevent oil escaping from bearings for example. Only some of this air taken from the compressors returns to the turbine flow to contribute to thrust production. Any reduction in the amount needed improves the engine efficiency. Again, it will be known for a particular engine design that a reduced requirement for cooling flow of x% will reduce the specific fuel consumption by y%. In other words, less fuel will be required to give take-off thrust, for example. The engine is more efficient.
+All of the above considerations are basic to the engine running on its own and, at the same time, doing nothing useful, i.e. it is not moving an aircraft or supplying energy for the aircraft's electrical, hydraulic and air systems. In the aircraft the engine gives away some of its thrust-producing potential, or fuel, to power these systems. These requirements, which cause installation losses, reduce its efficiency. It is using some fuel that does not contribute to the engine's thrust.
+Finally, when the aircraft is flying the propelling jet itself contains wasted kinetic energy after it has left the engine. This is quantified by the term propulsive, or Froude, efficiency
+
+
+
+
+η
+
+p
+
+
+
+
+{\displaystyle \eta _{p}}
+and may be reduced by redesigning the engine to give it bypass flow and a lower speed for the propelling jet, for example as a turboprop or turbofan engine. At the same time forward speed increases the
+
+
+
+
+η
+
+t
+h
+
+
+
+
+{\displaystyle \eta _{th}}
+by increasing the Overall pressure ratio.
+The overall efficiency of the engine at flight speed is defined as
+
+
+
+
+η
+
+o
+
+
+=
+
+η
+
+p
+
+
+
+η
+
+t
+h
+
+
+
+
+{\displaystyle \eta _{o}=\eta _{p}\eta _{th}}
+.
+The
+
+
+
+
+η
+
+o
+
+
+
+
+{\displaystyle \eta _{o}}
+at flight speed depends on how well the intake compresses the air before it is handed over to the engine compressors. The intake compression ratio, which can be as high as 32:1 at Mach 3, adds to that of the engine compressor to give the Overall pressure ratio and
+
+
+
+
+η
+
+t
+h
+
+
+
+
+{\displaystyle \eta _{th}}
+for the Thermodynamic cycle. How well it does this is defined by its pressure recovery or measure of the losses in the intake. Mach 3 manned flight has provided an interesting illustration of how these losses can increase dramatically in an instant. The North American XB-70 Valkyrie and Lockheed SR-71 Blackbird at Mach 3 each had pressure recoveries of about 0.8, due to relatively low losses during the compression process, i.e. through systems of multiple shocks. During an 'unstart' the efficient shock system would be replaced by a very inefficient single shock beyond the inlet and an intake pressure recovery of about 0.3 and a correspondingly low pressure ratio.
+The propelling nozzle at speeds above about Mach 2 usually has extra internal thrust losses because the exit area is not big enough as a trade-off with external afterbody drag.
+Although a bypass engine improves propulsive efficiency it incurs losses of its own inside the engine itself. Machinery has to be added to transfer energy from the gas generator to a bypass airflow. The low loss from the propelling nozzle of a turbojet is added to with extra losses due to inefficiencies in the added turbine and fan. These may be included in a transmission, or transfer, efficiency
+
+
+
+
+η
+
+T
+
+
+
+
+{\displaystyle \eta _{T}}
+. However, these losses are more than made up by the improvement in propulsive efficiency. There are also extra pressure losses in the bypass duct and an extra propelling nozzle.
+With the advent of turbofans with their loss-making machinery what goes on inside the engine has been separated by Bennett, for example, between gas generator and transfer machinery giving
+
+
+
+
+η
+
+o
+
+
+=
+
+η
+
+p
+
+
+
+η
+
+t
+h
+
+
+
+η
+
+T
+
+
+
+
+{\displaystyle \eta _{o}=\eta _{p}\eta _{th}\eta _{T}}
+.
+
+The energy efficiency (
+
+
+
+
+η
+
+o
+
+
+
+
+{\displaystyle \eta _{o}}
+) of jet engines installed in vehicles has two main components:
+propulsive efficiency (
+
+
+
+
+η
+
+p
+
+
+
+
+{\displaystyle \eta _{p}}
+): how much of the energy of the jet ends up in the vehicle body rather than being carried away as kinetic energy of the jet.
+cycle efficiency (
+
+
+
+
+η
+
+t
+h
+
+
+
+
+{\displaystyle \eta _{th}}
+): how efficiently the engine can accelerate the jet
+Even though overall energy efficiency
+
+
+
+
+η
+
+o
+
+
+
+
+{\displaystyle \eta _{o}}
+is:
+
+
+
+
+
+η
+
+o
+
+
+=
+
+η
+
+p
+
+
+
+η
+
+t
+h
+
+
+
+
+{\displaystyle \eta _{o}=\eta _{p}\eta _{th}}
+
+for all jet engines the propulsive efficiency is highest as the exhaust jet velocity gets closer to the vehicle speed as this gives the smallest residual kinetic energy. For an airbreathing engine an exhaust velocity equal to the vehicle velocity, or a
+
+
+
+
+η
+
+p
+
+
+
+
+{\displaystyle \eta _{p}}
+equal to one, gives zero thrust with no net momentum change. The formula for air-breathing engines moving at speed
+
+
+
+v
+
+
+{\displaystyle v}
+with an exhaust velocity
+
+
+
+
+v
+
+e
+
+
+
+
+{\displaystyle v_{e}}
+, and neglecting fuel flow, is:
+
+
+
+
+
+η
+
+p
+
+
+=
+
+
+2
+
+1
++
+
+
+
+v
+
+e
+
+
+v
+
+
+
+
+
+
+
+{\displaystyle \eta _{p}={\frac {2}{1+{\frac {v_{e}}{v}}}}}
+
+And for a rocket:
+
+
+
+
+
+η
+
+p
+
+
+=
+
+
+
+2
+
+(
+
+
+v
+
+v
+
+e
+
+
+
+
+)
+
+
+1
++
+(
+
+
+v
+
+v
+
+e
+
+
+
+
+
+)
+
+2
+
+
+
+
+
+
+
+{\displaystyle \eta _{p}={\frac {2\,({\frac {v}{v_{e}}})}{1+({\frac {v}{v_{e}}})^{2}}}}
+
+In addition to propulsive efficiency, another factor is cycle efficiency; a jet engine is a form of heat engine. Heat engine efficiency is determined by the ratio of temperatures reached in the engine to that exhausted at the nozzle. This has improved constantly over time as new materials have been introduced to allow higher maximum cycle temperatures. For example, composite materials, combining metals with ceramics, have been developed for HP turbine blades, which run at the maximum cycle temperature. The efficiency is also limited by the overall pressure ratio that can be achieved. Cycle efficiency is highest in rocket engines (~60+%), as they can achieve extremely high combustion temperatures. Cycle efficiency in turbojet and similar is nearer to 30%, due to much lower peak cycle temperatures.
+
+The combustion efficiency of most aircraft gas turbine engines at sea level takeoff conditions is almost 100%. It decreases nonlinearly to 98% at altitude cruise conditions. Air-fuel ratio ranges from 50:1 to 130:1. For any type of combustion chamber there is a rich and weak limit to the air-fuel ratio, beyond which the flame is extinguished. The range of air-fuel ratio between the rich and weak limits is reduced with an increase of air velocity. If the increasing air mass flow reduces the fuel ratio below certain value, flame extinction occurs.

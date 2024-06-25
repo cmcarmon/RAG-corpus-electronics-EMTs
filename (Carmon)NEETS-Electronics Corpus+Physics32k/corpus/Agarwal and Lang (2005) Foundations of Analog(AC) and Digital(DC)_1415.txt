@@ -1,0 +1,12 @@
+Recall that the vOUT1 signal represents a digital signal, so it must reach VOH
+so that the gate that produced it adheres to the static discipline and we obtain
+a nonzero noise margin. As suggested in the lowermost signal in Figure 10.16,
+notice that the VOH crossing happens at a time interval tpd,1→0 after the input
+changes from a 1 to a 0. Thus, effectively, there is a delay of tpd,1→0 between the
+moment that the input changes to a 0 to the moment that the output changes
+to a valid 1.
+This period of time is called the propagation delay6 through inverter A for a 1
+to 0 transition at the input and is denoted as tpd,1→0.
+As suggested in the lowermost signal in Figure 10.16,
+the inverter is also characterized by a 0 → 1 propagation delay. This delay is
+denoted as tpd,0→1.

@@ -1,0 +1,10 @@
+Figure  102.3  is  a  top-level  view  of  the  U.S. Air  Force  F-22 Advanced  Tactical  Fighter  avionics.  Like  many
+other aircraft, the F-22 architecture is hybrid, part federated and part integrated. The left side of the ﬁgure is
+the highly integrated portion, dominated by the two Common Integrated Processors (CIPs) that process, fuse,
+and distribute signals received from the various sensors on the far left. The keys to this portion of the architecture
+are the Processor Interconnect (PI) buses within the CIPs and the High Speed Data Buses (HSDBs). (There
+are provisions for a third CIP as the F-22 avionics grow in capability.) The right side of the ﬁgure shows the
+federated systems including the Inertial Reference, Stores Management, Integrated Flight and Propulsion Con-
+trol,  and  Vehicle  Management  systems  and  the  interface  of  the  latter  two  to  the  Integrated  Vehicle  System
+Control. The keys to this portion of the architecture are the triple or quadruple redundant AS 15531 (formerly
+MIL-STD-1553) command/response two-way data buses.

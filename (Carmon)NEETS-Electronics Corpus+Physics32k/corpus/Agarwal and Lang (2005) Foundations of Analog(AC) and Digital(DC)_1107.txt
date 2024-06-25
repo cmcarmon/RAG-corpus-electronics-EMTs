@@ -1,0 +1,5 @@
+Our goal is to use the Taylor series method to expand the MOSFET SCS
+equation for the combined input voltage given in Equation 8.4 about the bias
+voltage VI. For our Taylor expansion, VI corresponds to Xo, x corresponds
+to VI + vi, or x − Xo corresponds to vi, and y corresponds to iD = ID + id.
+Applying the Taylor expansion to Equation 8.4 about VI we get

@@ -1,0 +1,13 @@
+Consider operation with iI(t) = 0, vI(t) = 0 for t ≥ 0. The voltage vO(t) is known to be
+1 volt at time t = 0. Determine vO(t) for all t > 0.
+A different constraint is that sources iI(t) and vI(t) are zero for t < 0 and that vO(0) = 0.
+Sources iI(t) and vI(t) undergo step transitions of +1 mA and +1 volt respectively, at
+time t = 0. Determine vO(t) for all time.
+p r o b l e m 10.22
+The neon bulb in the circuit shown in Figure 10.121 has the
+following behavior: The bulb remains off and acts as an open circuit until the bulb voltage
+v reaches a threshold voltage VT = 65 V. Once v reaches VT, a discharge occurs and
+the bulb acts like a simple resistor of value RN = 1 k; the discharge is maintained as
+long as the bulb current i remains above the value IS = 10 mA needed to sustain the
+discharge (even if the voltage v drops below VT.) As soon as i drops below 10 mA, the
+bulb again becomes an open circuit.

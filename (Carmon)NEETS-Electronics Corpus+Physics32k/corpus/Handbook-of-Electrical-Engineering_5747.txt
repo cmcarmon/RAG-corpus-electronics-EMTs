@@ -1,0 +1,17 @@
+theory assumptions are both violated for the case when a loadﬂow does solve after discontinuous parameter
+change because the parameter variation is not continuous and smooth and the power system model may not
+be continuously differentiable at the point (x0, p0). The P-V curve, or Q-V curve, or eigenvalues and eigenvectors
+could be computed and used to assess proximity to voltage instability after each equipment outage or discon-
+tinuous parameter change when a loadﬂow solution exists to establish whether the solutions is stable or unstable
+at values of p above p0. The computation of the P-V curve, Q-V curve, or eigenvalues and eigenvectors requires
+signiﬁcant computation and is not practical for screening thousands of contingencies for voltage instability or
+for assessing proximity to instability although they are used to assess stability and proximity to instability after
+a few selected contingencies. These methods also do not explicitly take into account the many discontinuities
+in the model and eigenvalues that occur for continuous parameter and discontinuous parameter changes. In
+many cases, the eigenvalue changes due to discontinuities is virtually all the change that occurs in an eigenvalue
+that approaches instability [IEEE, 1993] and the above methods have particular difﬁculty in such cases. The
+above methods cannot assess the agents that lose voltage instability for a particular event and cannot diagnose
+a cure when the loadﬂow has no solution for an equipment outage, wheeling or transaction combination, or
+both.  These  methods  can  provide  a  cure  when  a  loadﬂow  solution  exists  but  its  capabilities  have  not  been
+compared  to  the  f  Security  Assessment  and  Diagnosis  proposed  cure.  The  Voltage  Stability
+Security Assessment and Diagnosis (VSSAD) [Schlueter, 1998d] overcomes the above difﬁculties because:

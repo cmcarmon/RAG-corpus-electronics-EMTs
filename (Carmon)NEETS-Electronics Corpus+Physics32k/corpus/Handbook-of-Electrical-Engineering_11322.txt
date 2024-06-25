@@ -1,0 +1,18 @@
+Charging Circuit
+In  order  for  a  deﬁbrillation  shock  to  occur,  it  is  necessary  to  convert  the  6 V  from  the  battery  to  an  output
+voltage of up to 750 V to be stored across a capacitor. This is generally done with a dc/dc converter, or inverter.
+Unique  design  considerations  include  the  large  size  of  the  conversion,  a  demand  for  high  efﬁciency,  and  a
+minimized transformer and circuit size. The circuit includes the battery and a low-voltage, high-current switch
+at the input, a ﬂy-back transformer, and a rectifying diode and storage capacitor at the output. A controlling
+oscillator typically operates the switch between 30 and 60 kHz for high efﬁciency [Warren et al., 1996]. This
+creates a simulated ac current, which is converted by the transformer to the higher voltage. The current in the
+input stage is, typically, around 2 A. The rectiﬁer diode prevents current from ﬂowing back into the secondary
+winding of the transformer. The voltage on the capacitor increases as a function of the square root of the time
+that the oscillator is on and typically reaches full capacity in 10 to 15 seconds [Warren et al., 1996]. It is possible
+for the transformer to be small because of the high-speed switching. In addition, the diameter of the core and
+the wire windings in the ﬂy-back transformer can be small because the converter is only used intermittently
+to  charge  the  capacitor,  which  allows  for  ease  of  heat  dissipation  compared  to  continuous  conversion  [Bach
+and Monroe, 1996]. There is a trade-off between the size of the converter and the efﬁciency. The high clock
+rates  allow  the  transformer  to  be  small,  but  also  introduce  losses  in  energy  due  to  hysteresis  in  the  coils. A
+typical ICD charging circuit achieves about 75% efﬁciency [Bach and Monroe, 1996]. This plays a major role
+in the charging time and, therefore, the delay before shocking therapy can be delivered.

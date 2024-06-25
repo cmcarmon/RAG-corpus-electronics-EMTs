@@ -1,0 +1,9 @@
+The behavior of this piecewise linear model can be summarized in two
+statements, one for each of the segments:
+Diode ON (short circuit): vD = 0
+Diode OFF (open circuit): iD = 0
+We now use the diode model comprising two straight-line segments to
+illustrate the piecewise linear analysis method applied to the circuit in Figure 4.16
+(also shown in Figure 4.24a). In particular, we will determine the voltage vR
+across the resistor and the current iD through the resistor for two values of the
+input voltage, E = 3 V and E = −5 V, and given that R = 500 .

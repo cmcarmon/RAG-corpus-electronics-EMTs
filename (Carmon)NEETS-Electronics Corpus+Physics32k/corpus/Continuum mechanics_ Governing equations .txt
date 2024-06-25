@@ -1,0 +1,119 @@
+Continuum mechanics deals with the behavior of materials that can be approximated as continuous for certain length and time scales. The equations that govern the mechanics of such materials include the balance laws for mass, momentum, and energy. Kinematic relations and constitutive equations are needed to complete the system of governing equations. Physical restrictions on the form of the constitutive relations can be applied by requiring that the second law of thermodynamics be satisfied under all conditions. In the continuum mechanics of solids, the second law of thermodynamics is satisfied if the Clausius–Duhem form of the entropy inequality is satisfied.
+The balance laws express the idea that the rate of change of a quantity (mass, momentum, energy) in a volume must arise from three causes:
+the physical quantity itself flows through the surface that bounds the volume,
+there is a source of the physical quantity on the surface of the volume, or/and,
+there is a source of the physical quantity inside the volume.
+Let
+
+
+
+Ω
+
+
+{\displaystyle \Omega }
+be the body (an open subset of Euclidean space) and let
+
+
+
+∂
+Ω
+
+
+{\displaystyle \partial \Omega }
+be its surface (the boundary of
+
+
+
+Ω
+
+
+{\displaystyle \Omega }
+).
+Let the motion of material points in the body be described by the map
+
+
+
+
+
+x
+
+=
+
+χ
+
+(
+
+X
+
+)
+=
+
+x
+
+(
+
+X
+
+)
+
+
+{\displaystyle \mathbf {x} ={\boldsymbol {\chi }}(\mathbf {X} )=\mathbf {x} (\mathbf {X} )}
+
+where
+
+
+
+
+X
+
+
+
+{\displaystyle \mathbf {X} }
+is the position of a point in the initial configuration and
+
+
+
+
+x
+
+
+
+{\displaystyle \mathbf {x} }
+is the location of the same point in the deformed configuration.
+The deformation gradient is given by
+
+
+
+
+
+F
+
+=
+
+
+
+∂
+
+x
+
+
+
+∂
+
+X
+
+
+
+
+=
+∇
+
+
+x
+
+
+
+.
+
+
+{\displaystyle {\boldsymbol {F}}={\frac {\partial \mathbf {x} }{\partial \mathbf {X} }}=\nabla {\boldsymbol {\mathbf {x} }}~.}

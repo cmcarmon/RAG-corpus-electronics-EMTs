@@ -1,0 +1,2 @@
+Early Apple Macintosh computers store time in their real-time clocks (RTCs) and HFS filesystems as an unsigned 32-bit number of seconds since 00:00:00 on 1 January 1904. After 06:28:15 on 6 February 2040, this will wrap around to 1904. HFS+, the default format for all of Apple's recent Macintosh computers, is also affected. The replacement Apple File System resolves this issue.
+Currently a widely used Apple Quicktime MOV media container has atoms with creation and modification time stored in the same format.

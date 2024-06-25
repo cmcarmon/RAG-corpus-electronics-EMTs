@@ -1,0 +1,8 @@
+Vector Quantization
+Quantization does not have to be done on a single pixel at a time. In fact, better results can be achieved if the
+video data are quantized on a vector (block) basis. In vector quantization, the image data are ﬁrst processed
+into a set of vectors. A code book (set of code words or templates) that best matches the data to be quantized
+is then generated. Each input vector is then quantized to the closest code word. Compression is achieved by
+transmitting  only  the  indices  for  the  code  words. At  the  receiver,  the  images  are  reconstructed  using  a  table
+look-up  procedure.  Two  areas  of  ongoing  research  are  ﬁnding  better  methods  for  designing  the  code  books
+and developing better search and update techniques for matching the input vectors to the code words.

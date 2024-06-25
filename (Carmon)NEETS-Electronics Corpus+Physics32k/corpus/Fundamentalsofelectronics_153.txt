@@ -1,0 +1,10 @@
+We must analyze afresh how this revised circuit, shown in Figure 3.12, works. Rather than deﬁning eight
+variables and solving for the current in the load resistor, let’s take a hint from other analysis (series rules
+(p. 38), parallel rules (p. 40)). Resistors R2 and RL are in a parallel conﬁguration: The voltages across
+each resistor are the same while the currents are not. Because the voltages are the same, we can ﬁnd the
+current through each from their v-i relations: i2 = vout
+. Considering the node where all three
+R2
+resistors join, KCL says that the sum of the three currents must equal zero. Said another way, the current
+entering the node through R1 must equal the sum of the other two currents leaving the node. Therefore,
+i1 = i2 + iL, which means that i1 = vout

@@ -1,0 +1,12 @@
+holding its output to a low. When the Q output is low, 
+the flip-flop is said to be in the RESET state. It remains 
+in this state indefinitely, until a high is applied to the S 
+input of gate 2. When a high is applied to the S input 
+of gate 2, the output of gate 2 becomes a low and is 
+coupled to the input of gate 1. Because the R input of 
+gate 1 is a low, the output changes to a high. The high 
+is coupled back to the input of gate 2, ensuring that the 
+Q output remains a low. When the Q output is high, 
+the flip-flop is said to be in the SET state. It remains 
+in the SET state until a high is applied to the R input, 
+causing the flip-flop to RESET.

@@ -1,0 +1,10 @@
+We will now illustrate how the assignment of spare cycles to
+the data path can have a signiﬁcant impact on its energy
+consumption. Assigning too little indeed introduces an energy
+waste in the functional units when implemented in a low-
+power setup. For instance, several previous papers (see Chan-
+drakasan et al. [1996] and its references) have motivated that
+functional units should operate at several voltages. The
+number of different Vdds has been restricted to a few speciﬁc
+values only because of practical reasons. Assume now that we
+either have a single unit that can operate part of the time at a

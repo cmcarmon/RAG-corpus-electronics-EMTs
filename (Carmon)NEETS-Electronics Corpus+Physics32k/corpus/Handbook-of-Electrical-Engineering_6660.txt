@@ -1,0 +1,10 @@
+Access lines provide for data transmission between the terminals and the network switching nodes. These
+connections may be set up on a permanent basis or they may be switched connections, and there are numerous
+transmission schemes and protocols available to manage these connections. The essence of these connections,
+however, from our point of view is a channel that provides data transmission at some number of bits per second
+. The access line capacities may range from a few hundred bits per second
+(bps), called the channel capacity, 
+to in excess of millions of bits per second, and they are usually not the same for all terminating equipments of
+a given network. The actual information-carrying capacity of the link depends upon the protocols employed
+to effect the transfer; the interested reader is referred to Bertsekas and Gallagher [1987], especially Chapter 2,
+for a general discussion of the issues involved in transmission of data over communication links.

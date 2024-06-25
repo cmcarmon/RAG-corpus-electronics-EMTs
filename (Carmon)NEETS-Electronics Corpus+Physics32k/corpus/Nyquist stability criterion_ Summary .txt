@@ -1,0 +1,107 @@
+If the open-loop transfer function
+
+
+
+G
+(
+s
+)
+
+
+{\displaystyle G(s)}
+has a zero pole of multiplicity
+
+
+
+l
+
+
+{\displaystyle l}
+, then the Nyquist plot has a discontinuity at
+
+
+
+ω
+=
+0
+
+
+{\displaystyle \omega =0}
+. During further analysis it should be assumed that the phasor travels
+
+
+
+l
+
+
+{\displaystyle l}
+times clock-wise along a semicircle of infinite radius. After applying this rule, the zero poles should be neglected, i.e. if there are no other unstable poles, then the open-loop transfer function
+
+
+
+G
+(
+s
+)
+
+
+{\displaystyle G(s)}
+should be considered stable.
+If the open-loop transfer function
+
+
+
+G
+(
+s
+)
+
+
+{\displaystyle G(s)}
+is stable, then the closed-loop system is unstable for any encirclement of the point -1.
+If the open-loop transfer function
+
+
+
+G
+(
+s
+)
+
+
+{\displaystyle G(s)}
+is unstable, then there must be one counter clock-wise encirclement of -1 for each pole of
+
+
+
+G
+(
+s
+)
+
+
+{\displaystyle G(s)}
+in the right-half of the complex plane.
+The number of surplus encirclements (greater than N+P) is exactly the number of unstable poles of the closed-loop system.
+However, if the graph happens to pass through the point
+
+
+
+−
+1
++
+j
+0
+
+
+{\displaystyle -1+j0}
+, then deciding upon even the marginal stability of the system becomes difficult and the only conclusion that can be drawn from the graph is that there exist zeros on the
+
+
+
+j
+ω
+
+
+{\displaystyle j\omega }
+axis.

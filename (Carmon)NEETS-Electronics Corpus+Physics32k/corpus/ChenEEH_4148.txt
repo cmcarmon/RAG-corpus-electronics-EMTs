@@ -1,0 +1,7 @@
+We use our equalized signal r eq as the input to our detector to
+determine the value of the kth transmitted bit. We must adjust
+the values of ai to achieve some measure of performance of the
+receiver. A typical measure is to minimize the mean square error
+between the value of the detected bit at the output of the
+summer and the output of the detector. Other measures for
+the equalizer are possible. For more details, see Proakis (1989).

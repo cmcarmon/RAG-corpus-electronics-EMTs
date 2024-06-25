@@ -1,0 +1,10 @@
+Message passing interface (MPI) is a library of standard
+subroutines for sending and receiving messages and perform-
+ing collective operations (Foster, 1995). A computation con-
+sists of processes created at program initialization. Processes
+can use point-to-point communication to send messages to
+one another. A group of processes can perform collectively in
+global operations, such as summation and broadcast. MPI
+provides support for program modularity: MPI modules can
+encapsulate internal communication structures. Such modules
+can be combined by sequential or parallel composition.

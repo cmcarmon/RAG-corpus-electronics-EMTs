@@ -1,0 +1,4 @@
+Decoders (octal decoder) can also convert a 3-bit binary number to an output on one of
+eight lines. Hexadecimal decoders are 4-line to 16-line devices. When the decoder is disabled
+the outputs will be high. A decoder would normally be disabled while the address lines were
+changing to avoid glitches on the output lines.

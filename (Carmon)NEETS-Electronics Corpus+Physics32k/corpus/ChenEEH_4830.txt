@@ -1,0 +1,19 @@
+A simple analogy in hardware to layered architecture is the
+design of digital circuits. At the bottom layer of the design are
+transistors. Transistors are composed together to form Bool-
+ean logic gates at the next layer, such as NAND and OR. At the
+next layer are devices such as decoders and multiplexers that
+are composed of logic gates. These devices then become the
+building blocks for higher layers. A complex digital circuit
+could be designed at the transistor level, or it could be designed
+at the multiplexer/decoder level. The transistor-level design
+would most likely yield a more efﬁcient implementation but
+would be much more difﬁcult and time-consuming to the
+person designing the circuit. In a similar way, this concept of
+abstracting away the details is the motivation for programming
+using higher level languages rather than programming at the
+assembly code level. Programming at the assembly code level
+produces a more efﬁcient code but is much more tedious and
+harder to troubleshoot. The terms level and layer will be used
+throughout the rest of this chapter to reﬂect layers of abstrac-
+tion in a layered architecture.

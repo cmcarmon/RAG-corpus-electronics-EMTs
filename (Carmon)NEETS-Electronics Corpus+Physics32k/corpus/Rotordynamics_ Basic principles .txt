@@ -1,0 +1,106 @@
+The equation of motion, in generalized matrix form, for an axially symmetric rotor rotating at a constant spin speed Ω is
+
+
+
+
+
+
+
+
+
+
+M
+
+
+
+
+
+
+q
+
+¨
+
+
+
+(
+t
+)
++
+(
+
+
+C
+
+
++
+
+
+G
+
+
+)
+
+
+
+
+q
+
+˙
+
+
+
+(
+t
+)
++
+(
+
+
+K
+
+
++
+
+
+N
+
+
+)
+
+
+q
+
+
+(
+t
+)
+
+
+=
+
+
+
+
+f
+
+
+(
+t
+)
+
+
+
+
+
+
+{\displaystyle {\begin{matrix}{\mathbf {M} }{\ddot {\mathbf {q} }}(t)+({\mathbf {C} }+{\mathbf {G} }){\dot {\mathbf {q} }}(t)+({\mathbf {K} }+{\mathbf {N} }){\mathbf {q} }(t)&=&{\mathbf {f} }(t)\\\end{matrix}}}
+
+where:
+M is the symmetric Mass matrix
+C is the symmetric damping matrix
+G is the skew-symmetric gyroscopic matrix
+K is the symmetric bearing or seal stiffness matrix
+N is the gyroscopic matrix of deflection for inclusion of e.g., centrifugal elements.
+in which q is the generalized coordinates of the rotor in inertial coordinates and f is a forcing function, usually including the unbalance.
+The gyroscopic matrix G is proportional to spin speed Ω. The general solution to the above equation involves complex eigenvectors which are spin speed dependent. Engineering specialists in this field rely on the Campbell Diagram to explore these solutions.
+An interesting feature of the rotordynamic system of equations are the off-diagonal terms of stiffness, damping, and mass. These terms are called cross-coupled stiffness, cross-coupled damping, and cross-coupled mass. When there is a positive cross-coupled stiffness, a deflection will cause a reaction force opposite the direction of deflection to react the load, and also a reaction force in the direction of positive whirl. If this force is large enough compared with the available direct damping and stiffness, the rotor will be unstable. When a rotor is unstable, it will typically require immediate shutdown of the machine to avoid catastrophic failure.

@@ -1,0 +1,36 @@
+13.  .TF V(5) VIN 
+14.  .AC DEC 10 1 100MEG 
+15.  .END 
+ 
+Lines  2  and  3  define  the  supply  voltages.  VCC  is  
++12 V and is connected between node 7 and node 0 
+(signal  ground).  VEE  is  H12  V  and  is  connected 
+between node 8 and node 0 (signal ground). Line 4 
+defines  the  input  voltage  which  is  connected 
+between node 1 and node 0 (ground) whilst lines 5 
+and  6  define  1  kI resistors  (RS1  and  RS2) 
+connected between 1 and 2, and 6 and 0. 
+  Lines 7 and 8 are used to define the connections 
+of two transistors (Q1 and Q2). The characteristics 
+of  these  transistors  (both  identical)  are  defined  by 
+MOD1 (see line 12). Lines 9, 10 and 11 define the 
+connections  of  three  further  resistors  (RC1,  RC2 
+and RE respectively). Line 12 defines the transistor 
+model. The device is NPN and has a current gain of 
+50.  The  corresponding  circuit  is  shown  in  Fig. 
+17.15.  
+  Most 
+semiconductor  manufacturers  provide 
+detailed  SPICE  models  for  the  devices  that  they 
+produce. The following is a manufacturer’s SPICE 
+model for a 2N3904 transistor (see Appendix 8): 
+ 
+(Is=6.734f  Xti=3  Eg=1.11  Vaf=74.03 
+NPN 
+Ikf=66.78m 
+Bf=416.4  Ne=1.259 
+Xtb=1.5  Br=.7371  Nc=2Isc=0 
+Ikr=0  Rc=1 
+Cjc=3.638p Mjc=.3085 Vjc=.75 Fc=.5 Cje=4.493p 
+Mje=.2593  Vje=.75  Tr=239.5n  Tf=301.2pItf=.4 
+Vtf=4 Xtf=2 Rb=10) 

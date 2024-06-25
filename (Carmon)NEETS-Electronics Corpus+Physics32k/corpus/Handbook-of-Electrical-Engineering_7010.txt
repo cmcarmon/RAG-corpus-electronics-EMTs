@@ -1,0 +1,6 @@
+The goal of the encoder (Fig. 73.13) is to convert strings of binary data (messages) into channel-input signals.
+Source strings of m bits are translated into channel input strings of n symbols (with m £ n) for discrete channels,
+and  into  continuous-time  signals  of  duration  T  for  continuous-time  channels.  The  channel  code  (or  more
+precisely the codebook) is the list of 2m codewords (channel input signals) that may be sent by the encoder.
+The rate of the code is equal to the logarithm of its size divided by the duration of the codewords. Thus, the
+rate is equal to

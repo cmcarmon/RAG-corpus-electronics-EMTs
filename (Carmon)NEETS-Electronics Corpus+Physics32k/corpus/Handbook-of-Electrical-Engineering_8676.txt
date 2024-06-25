@@ -1,0 +1,8 @@
+A subtle example for constant expression removal is found in our sample program in the reference to *source.
+In  these  statements,  the  character  referenced  (addressed)  by  source  is  obtained  from  memory.  The  pointer
+(address) source is changed only at the bottom of the loop and the memory contents addressed by source are
+static. A  global  optimization  should  obtain  the  character  once  at  the  top  of  each  pass  of  the  loop  and  save  on
+subsequent memory references throughout. The 68000 C compiler with the optimization option determined *source
+to be constant throughout the loop and assigned register D3 to hold its contents. This saved seven of the eight
+memory accesses to *source in each loop pass. The unoptimized 68000 option, the SPARC, and the VAX compilers
+did not use global constant expression removal and must fetch the operand from memory before its use.

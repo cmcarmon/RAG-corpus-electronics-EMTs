@@ -1,0 +1,12 @@
+Each  word  is  represented  as  a  concatenation  of  several  HMMs,  one  corresponding  to  each  of  the  phones
+Each  word  is  represented  as  a  concatenation  of  several  HMMs,  one  corresponding  to  each  of  the  phones
+that make up the word. If we are using a bigram language model, then P(W) = P(wi)P
+n
+i=2 P(wi|wi–1) = 0, and
+Wˆ the most likely path through these HMMs. The number of states is proportional to the vocabulary size, V.
+If  we  are  using  the  trigram  language  model,  then,  P(W)  =  P(w1)P(w2|w1)P
+n
+i=3 P(wi|wi–2,  wi–1),  and  the  graph
+becomes more complicated with the number of states being proportional to |V|2. No practical algorithms exist
+for ﬁnding the exact solution, but the Viterbi algorithm will ﬁnd the most likely path through these HMMs
+whose identity can then determine the recognized word string.

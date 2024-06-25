@@ -1,0 +1,40 @@
+The derivative of the process error is calculated by determining the slope of the error over time and multiplying this rate of change by the derivative gain Kd. The magnitude of the contribution of the derivative term to the overall control action is termed the derivative gain, Kd.
+The derivative term is given by
+
+
+
+
+
+D
+
+out
+
+
+=
+
+K
+
+d
+
+
+
+
+
+d
+e
+(
+t
+)
+
+
+d
+t
+
+
+
+.
+
+
+{\displaystyle D_{\text{out}}=K_{\text{d}}{\frac {de(t)}{dt}}.}
+
+Derivative action predicts system behavior and thus improves settling time and stability of the system. An ideal derivative is not causal, so that implementations of PID controllers include an additional low-pass filtering for the derivative term to limit the high-frequency gain and noise. Derivative action is seldom used in practice though – by one estimate in only 25% of deployed controllers – because of its variable impact on system stability in real-world applications.

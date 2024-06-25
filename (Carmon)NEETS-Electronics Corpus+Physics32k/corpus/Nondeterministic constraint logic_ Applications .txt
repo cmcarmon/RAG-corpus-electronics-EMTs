@@ -1,0 +1,5 @@
+The original applications of nondeterministic constraint logic used it to prove the PSPACE-completeness of sliding block puzzles such as Rush Hour and Sokoban. To do so, one needs only to show how to simulate edges and edge orientations, and vertices, and protected or vertices in these puzzles.
+Nondeterministic constraint logic has also been used to prove the hardness of reconfiguration versions of classical graph optimization problems including the independent set, vertex cover, and dominating set, on planar graphs of bounded bandwidth. In these problems, one must change one solution to the given problem into another, by moving one vertex at a time into or out of the solution set while maintaining the property that at all times the remaining vertices form a solution.
+
+
+== References ==

@@ -1,0 +1,194 @@
+A local bifurcation occurs when a parameter change causes the stability of an equilibrium (or fixed point) to change. In continuous systems, this corresponds to the real part of an eigenvalue of an equilibrium passing through zero. In discrete systems (those described by maps rather than ODEs), this corresponds to a fixed point having a Floquet multiplier with modulus equal to one. In both cases, the equilibrium is non-hyperbolic at the bifurcation point. The topological changes in the phase portrait of the system can be confined to arbitrarily small neighbourhoods of the bifurcating fixed points by moving the bifurcation parameter close to the bifurcation point (hence 'local').
+More technically, consider the continuous dynamical system described by the ODE
+
+
+
+
+
+
+
+x
+˙
+
+
+
+=
+f
+(
+x
+,
+λ
+)
+
+f
+:
+
+
+R
+
+
+n
+
+
+×
+
+R
+
+→
+
+
+R
+
+
+n
+
+
+.
+
+
+{\displaystyle {\dot {x}}=f(x,\lambda )\quad f\colon \mathbb {R} ^{n}\times \mathbb {R} \rightarrow \mathbb {R} ^{n}.}
+
+A local bifurcation occurs at
+
+
+
+(
+
+x
+
+0
+
+
+,
+
+λ
+
+0
+
+
+)
+
+
+{\displaystyle (x_{0},\lambda _{0})}
+if the Jacobian matrix
+
+
+
+
+
+d
+
+
+
+f
+
+
+x
+
+0
+
+
+,
+
+λ
+
+0
+
+
+
+
+
+
+{\displaystyle {\textrm {d}}f_{x_{0},\lambda _{0}}}
+has an eigenvalue with zero real part. If the eigenvalue is equal to zero, the bifurcation is a steady state bifurcation, but if the eigenvalue is non-zero but purely imaginary, this is a Hopf bifurcation.
+For discrete dynamical systems, consider the system
+
+
+
+
+
+x
+
+n
++
+1
+
+
+=
+f
+(
+
+x
+
+n
+
+
+,
+λ
+)
+
+.
+
+
+{\displaystyle x_{n+1}=f(x_{n},\lambda )\,.}
+
+Then a local bifurcation at occurs at
+
+
+
+(
+
+x
+
+0
+
+
+,
+
+λ
+
+0
+
+
+)
+
+
+{\displaystyle (x_{0},\lambda _{0})}
+if the matrix
+
+
+
+
+
+d
+
+
+
+f
+
+
+x
+
+0
+
+
+,
+
+λ
+
+0
+
+
+
+
+
+
+{\displaystyle {\textrm {d}}f_{x_{0},\lambda _{0}}}
+has an eigenvalue with modulus equal to one. If the eigenvalue is equal to one, the bifurcation is either a saddle-node (often called fold bifurcation in maps), transcritical or pitchfork bifurcation. If the eigenvalue is equal to −1, it is a period-doubling (or flip) bifurcation, and otherwise, it is a Hopf bifurcation.
+Examples of local bifurcations include:
+Saddle-node (fold) bifurcation
+Transcritical bifurcation
+Pitchfork bifurcation
+Period-doubling (flip) bifurcation
+Hopf bifurcation
+Neimark–Sacker (secondary Hopf) bifurcation

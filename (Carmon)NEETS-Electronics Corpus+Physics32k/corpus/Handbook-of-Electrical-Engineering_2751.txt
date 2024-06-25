@@ -1,0 +1,9 @@
+Increasing Impact of Interconnection Delays on Design
+In  earlier  generations  of VLSI  technology  (with  larger  transistors  and  wider  interconnection  lines/spacings),
+delays through the low-level logic gates greatly dominated delays along interconnection lines. This was largely
+the result of the lower resistance of the larger cross-section interconnections. Under these conditions, a single
+pass through a design sequence such as shown in Fig. 25.24 was often adequate. In particular, the placement
+of blocks on the ICs, although impacting the lengths of interconnections among blocks, did not have a major
+impact on performance since the gate delays within the blocks were substantially larger than interconnection
+delays between blocks. Under such conditions, the steps of ﬂoorplanning and of placement and routing focused
+on such objectives as minimum overall area and minimum interconnection area.

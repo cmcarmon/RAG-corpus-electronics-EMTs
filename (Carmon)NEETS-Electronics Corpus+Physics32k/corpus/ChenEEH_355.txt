@@ -1,0 +1,37 @@
+Today’s MOSFET has evolved through many modiﬁcations to
+provide solutions for parasitic problems that emerge during
+scaling. A modern n-channel MOSFET structure is shown in
+Figure 3.18. The gate dielectric is SiO2 and is grown by thermal
+oxidation. As a result of continued scaling, the gate oxide has
+thinned down to the extent that direct tunneling has become a
+serious concern. Currently, alternate high-k dielectrics are
+being considered as replacements for SiO2. The goal is to
+achieve higher capacitance without compromising gate leak-
+age. The standard gate electrode is heavily doped polysilicon
+deﬁned by anisotropic reactive ion etching. Extension junc-
+tions are formed by ion-implantation using the polysilicon
+gate as an implant mask. Because a separate masking step is
+not needed to deﬁne the junction regions, the approach is
+named self-aligned polysilicon gate technology. At the same
+time, the junction sheet resistance must be sufﬁciently low not
+to increase the device series resistance. Extension junctions
+must be as shallow as possible to reduce DIBL. When formed
+by ion-implantation, shallow junctions require low doses and
+low energies. Unfortunately, low dose results in higher series
+resistance. Sidewall spacers are formed by deposition of a
+dielectric (SiO2 or Si3N4) followed by anisotropic reactive
+ion etching. The spacers must be as thin as possible to min-
+imize the series resistance contribution of
+the extension
+junctions. Deep source and drain junctions are formed by
+ion-implantation following spacer formation. Because they
+are separated from the channel by the spacers, their contribu-
+tion to DIBL is negligible. These junctions must be sufﬁciently
+deep to allow formation of good quality silicide contacts. Both
+Ti and Co silicides are used as source/drain contact materials.
+Silicides are formed by an approach referred to as self-aligned-
+silicide (SALICIDE), which selectively forms the silicide on the
+junctions as well as polysilicon. Silicide formation consumes
+the Si substrate in the deep source/drain regions and can lead
+to excessive junction leakage. To avoid this, the deep source/
+drain regions are required to be about 50 nm deeper than the

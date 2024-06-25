@@ -1,0 +1,5 @@
+Most  modern  programming  languages  support  the  implementation  of  the  type  pairs  (n-tuples)  whose
+instances can be created dynamically. It requires two operations, called new and dispose in Pascal, that dynam-
+ically allocate and deallocate variables, respectively. These operations depend on the concept of a reference (or
+pointer), which serves as a name for a variable. References always occupy the same storage space independently
+of the type of variable they refer to. The following implementation of Pairs explains the concept.

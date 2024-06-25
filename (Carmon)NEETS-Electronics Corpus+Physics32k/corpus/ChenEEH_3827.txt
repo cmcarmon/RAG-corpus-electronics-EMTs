@@ -1,0 +1,17 @@
+domain (using a DFT), we obtain Figure 4.14(B). We notice
+that the recovery can be quite good. It is important to note
+that, in this case, since the process is supposed to be noiseless,
+the degradation had to be performed using full machine pre-
+cision. If we quantize the degraded image using 256 levels, as is
+usual in image processing applications, a small quantization
+noise is superimposed on the degraded image. As we explained
+in Section 4.2, this quantization noise is invisible to the human
+eye. On the other hand, applying the pseudo-inverse ﬁlter to
+the quantized degraded image, we obtain the image in Figure
+4.14(C). We can clearly see that the restoration process has
+failed completely. The excessive noise present in the restored
+image results from the fact that, since the quantization noise is
+relatively white, there is noise information even around the
+frequencies where H(v1, v2) is very small; as a consequence,
+G(v1, v2) is very large. This greatly ampliﬁes the noise around
+these frequencies, thus producing an image like the one in

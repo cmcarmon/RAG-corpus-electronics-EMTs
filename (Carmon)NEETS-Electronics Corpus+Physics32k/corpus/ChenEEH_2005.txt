@@ -1,0 +1,18 @@
+In simulation experiments, multiple errors of different pat-
+terns were injected on the memory and cache busses at various
+repeat frequencies and duty cycles to simulate the effect of EM
+interference on a computer system (see footnote 4). These
+errors can be caught by the HC detector and/or the WD. The
+maximum error detection latency of the HC error detector is
+one instruction execution and that of the WD is bmax instruc-
+tion executions, where bmax is the maximum block size of the
+program after CFC-based augmentation as described in
+Section 8.4 (note again that here the rollback distance unit is
+an instruction execution and not a clock cycle). Whenever
+either the HC or the WD detects an error, the microrollback
+unit is signaled and microrollback of the appropriate distance
+occurs (¼ error latency of the detector—one instruction exe-
+cution for HC and bi instruction executions for the WD if bi is
+the size of the current block). When both the HC and WD
+detect errors simultaneously, the HC is given priority, and a
+rollback of one instruction is performed.

@@ -1,0 +1,6 @@
+1. FDTD uses no linear algebra. Being a fully explicit
+computation, FDTD avoids the difﬁculties with linear
+algebra that limit the size of a frequency-domain inte-
+gral equation and ﬁnite-element electromagnetics
+models to generally fewer than 106 ﬁeld unknowns.
+FDTD models with as many as 109 ﬁeld unknowns

@@ -1,0 +1,11 @@
+Audio Coding
+Audio coding is concerned with compressing (reducing the bit rate) of audio signals. The uncompressed digital
+audio of compact disks (CDs) is recorded at a rate of 705.6 kbit/s for each of the two channels of a stereo signal
+(i.e.,  16 bit/sample,  44.1-kHz  sampling  rate;  1411.2 kbit/s  total).  This  is  too  high  a  bit  rate  for  digital  audio
+broadcasting (DAB) or for transmission via end-to-end digital telephone connections (integrated services digital
+network, ISDN). Current audio coding algorithms provide at least “better than FM” quality at a combined rate
+of 128 kbit/s for the two stereo channels (2 ISDN B channels!), “transparent coding” at rates of 96 to 128 kbit/s
+per mono channel, and “studio quality” at rates between 128 and 196 kbit/s per mono channel. (While a large
+number  of  people  will  be  able  to  detect  distortions  in  the  ﬁrst  class  of  coders,  even  so-called “golden  ears”
+should not be able to detect any differences between original and coded versions of known “critical” test signals;
+the highest quality category adds a safety margin for editing, ﬁltering, and/or recoding.)

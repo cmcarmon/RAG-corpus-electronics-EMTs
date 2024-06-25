@@ -1,0 +1,15 @@
+Since 1984 the CCIR has created a standardised nomenclature for describing curtain antennas, consisting of 1 to 4 letters followed by three numbers:
+First letter - Indicates the orientation of the dipoles in the array:
+"H" indicates the dipoles are oriented horizontally, so the antenna radiates horizontally polarized radio waves.
+"V" indicates the dipoles are oriented vertically, so the antenna radiates vertically polarized radio waves.
+
+Second letter (if present) - Indicates whether the antenna has a reflector. If it is missing, the antenna lacks a reflector, so the dipole array will radiate its energy in two beams in both directions perpendicular to its plane, 180° apart.
+"R" indicates that there is a simple (passive) reflector on one side of the array, so the antenna radiates a single beam.
+"RR" indicates that the array has some kind of "reversible reflector", so the direction of the beam can be switched 180°. Very few of this type have ever been built. RCI Sackville in Canada may have 2 HRRS type antennas—perhaps the only ones in North America.
+
+Third letter (if present) - "S" indicates that the array is steerable.
+Following the letters come three numbers "x/y/z". "x" and "y" specifies the dimensions of the rectangular array of dipoles, while "z" gives the height above the ground of the bottom of the array:
+"x" (an integer) is the number of horizontal rows of dipoles.
+"y" (an integer) is the number of vertical columns of dipoles.
+"z" (a decimal fraction) is the height above ground in wavelengths of the lowest row of dipoles in the array.
+For example, a "HRS 4/5/0.5" curtain antenna has a rectangular array of 20 dipoles, 4 dipoles high and 5 dipoles wide, with the lowest row being half a wavelength off the ground, and a flat reflector behind it, and the direction of the beam can be steered. An HRS 4/4/0.5 steerable antenna with 16 dipoles is one of the standard types of array seen at shortwave broadcast stations worldwide.

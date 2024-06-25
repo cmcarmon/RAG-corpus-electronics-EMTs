@@ -1,0 +1,409 @@
+The equation to calculate the pressure inside a fluid in equilibrium is:
+
+
+
+
+
+f
+
++
+div
+
+σ
+=
+0
+
+
+{\displaystyle \mathbf {f} +\operatorname {div} \,\sigma =0}
+
+where f is the force density exerted by some outer field on the fluid, and σ is the Cauchy stress tensor. In this case the stress tensor is proportional to the identity tensor:
+
+
+
+
+
+σ
+
+i
+j
+
+
+=
+−
+p
+
+δ
+
+i
+j
+
+
+.
+
+
+
+{\displaystyle \sigma _{ij}=-p\delta _{ij}.\,}
+
+Here δij is the Kronecker delta. Using this the above equation becomes:
+
+
+
+
+
+f
+
+=
+∇
+p
+.
+
+
+
+{\displaystyle \mathbf {f} =\nabla p.\,}
+
+Assuming the outer force field is conservative, that is it can be written as the negative gradient of some scalar valued function:
+
+
+
+
+
+f
+
+=
+−
+∇
+Φ
+.
+
+
+
+{\displaystyle \mathbf {f} =-\nabla \Phi .\,}
+
+Then:
+
+
+
+
+∇
+(
+p
++
+Φ
+)
+=
+0
+⟹
+p
++
+Φ
+=
+
+constant
+
+.
+
+
+
+{\displaystyle \nabla (p+\Phi )=0\Longrightarrow p+\Phi ={\text{constant}}.\,}
+
+Therefore, the shape of the open surface of a fluid equals the equipotential plane of the applied outer conservative force field. Let the z-axis point downward. In this case the field is gravity, so Φ = −ρfgz where g is the gravitational acceleration, ρf is the mass density of the fluid. Taking the pressure as zero at the surface, where z is zero, the constant will be zero, so the pressure inside the fluid, when it is subject to gravity, is
+
+
+
+
+p
+=
+
+ρ
+
+f
+
+
+g
+z
+.
+
+
+
+{\displaystyle p=\rho _{f}gz.\,}
+
+So pressure increases with depth below the surface of a liquid, as z denotes the distance from the surface of the liquid into it. Any object with a non-zero vertical depth will have different pressures on its top and bottom, with the pressure on the bottom being greater. This difference in pressure causes the upward buoyancy force.
+The buoyancy force exerted on a body can now be calculated easily, since the internal pressure of the fluid is known. The force exerted on the body can be calculated by integrating the stress tensor over the surface of the body which is in contact with the fluid:
+
+
+
+
+
+B
+
+=
+
+
+
+∮
+
+
+
+
+
+⁡
+σ
+
+d
+
+A
+
+.
+
+
+{\displaystyle \mathbf {B} =\oint \sigma \,d\mathbf {A} .}
+
+The surface integral can be transformed into a volume integral with the help of the Gauss theorem:
+
+
+
+
+
+B
+
+=
+∫
+div
+⁡
+σ
+
+d
+V
+=
+−
+∫
+
+f
+
+
+d
+V
+=
+−
+
+ρ
+
+f
+
+
+
+g
+
+∫
+
+d
+V
+=
+−
+
+ρ
+
+f
+
+
+
+g
+
+V
+
+
+{\displaystyle \mathbf {B} =\int \operatorname {div} \sigma \,dV=-\int \mathbf {f} \,dV=-\rho _{f}\mathbf {g} \int \,dV=-\rho _{f}\mathbf {g} V}
+
+where V is the measure of the volume in contact with the fluid, that is the volume of the submerged part of the body, since the fluid doesn't exert force on the part of the body which is outside of it.
+The magnitude of buoyancy force may be appreciated a bit more from the following argument. Consider any object of arbitrary shape and volume V surrounded by a liquid. The force the liquid exerts on an object within the liquid is equal to the weight of the liquid with a volume equal to that of the object. This force is applied in a direction opposite to gravitational force, that is of magnitude:
+
+
+
+
+B
+=
+
+ρ
+
+f
+
+
+
+V
+
+disp
+
+
+
+g
+,
+
+
+
+{\displaystyle B=\rho _{f}V_{\text{disp}}\,g,\,}
+
+where ρf is the density of the fluid, Vdisp is the volume of the displaced body of liquid, and g is the gravitational acceleration at the location in question.
+If this volume of liquid is replaced by a solid body of exactly the same shape, the force the liquid exerts on it must be exactly the same as above. In other words, the "buoyancy force" on a submerged body is directed in the opposite direction to gravity and is equal in magnitude to
+
+
+
+
+B
+=
+
+ρ
+
+f
+
+
+V
+g
+.
+
+
+
+{\displaystyle B=\rho _{f}Vg.\,}
+
+The net force on the object must be zero if it is to be a situation of fluid statics such that Archimedes principle is applicable, and is thus the sum of the buoyancy force and the object's weight
+
+
+
+
+
+F
+
+net
+
+
+=
+0
+=
+m
+g
+−
+
+ρ
+
+f
+
+
+
+V
+
+disp
+
+
+g
+
+
+
+{\displaystyle F_{\text{net}}=0=mg-\rho _{f}V_{\text{disp}}g\,}
+
+If the buoyancy of an (unrestrained and unpowered) object exceeds its weight, it tends to rise. An object whose weight exceeds its buoyancy tends to sink. Calculation of the upwards force on a submerged object during its accelerating period cannot be done by the Archimedes principle alone; it is necessary to consider dynamics of an object involving buoyancy. Once it fully sinks to the floor of the fluid or rises to the surface and settles, Archimedes principle can be applied alone. For a floating object, only the submerged volume displaces water. For a sunken object, the entire volume displaces water, and there will be an additional force of reaction from the solid floor.
+In order for Archimedes' principle to be used alone, the object in question must be in equilibrium (the sum of the forces on the object must be zero), therefore;
+
+
+
+
+m
+g
+=
+
+ρ
+
+f
+
+
+
+V
+
+disp
+
+
+g
+,
+
+
+
+{\displaystyle mg=\rho _{f}V_{\text{disp}}g,\,}
+
+and therefore
+
+
+
+
+m
+=
+
+ρ
+
+f
+
+
+
+V
+
+disp
+
+
+.
+
+
+
+{\displaystyle m=\rho _{f}V_{\text{disp}}.\,}
+
+showing that the depth to which a floating object will sink, and the volume of fluid it will displace, is independent of the gravitational field regardless of geographic location.
+(Note: If the fluid in question is seawater, it will not have the same density (ρ) at every location. For this reason, a ship may display a Plimsoll line.)
+It can be the case that forces other than just buoyancy and gravity come into play. This is the case if the object is restrained or if the object sinks to the solid floor. An object which tends to float requires a tension restraint force T in order to remain fully submerged. An object which tends to sink will eventually have a normal force of constraint N exerted upon it by the solid floor. The constraint force can be tension in a spring scale measuring its weight in the fluid, and is how apparent weight is defined.
+If the object would otherwise float, the tension to restrain it fully submerged is:
+
+
+
+
+T
+=
+
+ρ
+
+f
+
+
+V
+g
+−
+m
+g
+.
+
+
+
+{\displaystyle T=\rho _{f}Vg-mg.\,}
+
+When a sinking object settles on the solid floor, it experiences a normal force of:
+
+
+
+
+N
+=
+m
+g
+−
+
+ρ
+
+f
+
+
+V
+g
+.
+
+
+
+{\displaystyle N=mg-\rho _{f}Vg.\,}
+
+Another possible formula for calculating buoyancy of an object is by finding the apparent weight of that particular object in the air (calculated in Newtons), and apparent weight of that object in the water (in Newtons). To find the force of buoyancy acting on the object when in air, using this particular information, this formula applies:
+Buoyancy force = weight of object in empty space − weight of object immersed in fluid
+The final result would be measured in Newtons.
+Air's density is very small compared to most solids and liquids. For this reason, the weight of an object in air is approximately the same as its true weight in a vacuum. The buoyancy of air is neglected for most objects during a measurement in air because the error is usually insignificant (typically less than 0.1% except for objects of very low average density such as a balloon or light foam).

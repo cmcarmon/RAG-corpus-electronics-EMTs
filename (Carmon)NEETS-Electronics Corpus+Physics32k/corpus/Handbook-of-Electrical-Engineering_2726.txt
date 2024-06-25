@@ -1,0 +1,14 @@
+In  the  literature,  many  different  techniques  have  been  proposed  for
+restricted routers. In general these techniques can be grouped into four
+different approaches: 1) algorithms (such as left-edge, maze, greedy, hier-
+archical); 2) expert systems; 3) neural networks; and 4) genetic algorithms
+[Zobrist, 1994; Sarrafzadeh, 1996; and Lengauer, 1990]. As an example,
+we consider here only one of the techniques, called a maze router which
+is widely known. The maze router can be used as a global router and/or
+detailed  router.  It  ﬁnds  the  shortest  rectilinear  path  by  propagating  a
+wavefront  from  a  source  point  toward  a  destination  point  [Lee,  1969].
+Considering the routing surface as a rectangular array of cells, the algo-
+rithm starts by marking the source cell as visited. In successive steps, it
+visits all the unvisited neighbors of visited cells. This continues until the
+destination  cell  is  visited.  For  example,  consider  the  cell  conﬁguration
+given in Fig. 25.20.

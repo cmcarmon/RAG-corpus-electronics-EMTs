@@ -1,0 +1,32 @@
+In both versions of the BFM, a single attempt to move one monomer consists of the following steps which are standard for Monte Carlo methods:
+Select a monomer m and a direction
+
+
+
+Δ
+
+B
+
+∈
+
+
+P
+
+
+±
+
+
+(
+1
+,
+0
+,
+0
+)
+
+
+{\displaystyle \Delta \mathbf {B} \in \mathbf {P} _{\pm }(1,0,0)}
+randomly
+Check list of conditions (see below)
+If all conditions are fulfilled, perform move
+The conditions to perform a move can be subdivided into mandatory and optional ones.

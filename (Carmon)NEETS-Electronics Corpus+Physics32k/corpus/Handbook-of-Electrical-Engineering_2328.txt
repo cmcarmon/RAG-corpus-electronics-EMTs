@@ -1,0 +1,9 @@
+High-Frequency Large-Signal Equivalent Circuit Model of a BJT.
+ In this context, high-frequency denotes
+frequencies above 10 kHz. In the equivalent circuit model, the transistor is assumed to be composed of two
+back-to-back diodes. Two current-dependent current sources are added to model the current ﬂowing through
+the reverse-biased base-collector junction and the forward-biased base-emitter junction. Two junction capac-
+itances, CjE and CjC, model the ﬁxed charges in the emitter-base space charge region and base-collector space
+charge region, respectively. Two diffusion capacitances, CDE and CDC, model the corresponding charge associated
+with mobile carriers, while the base resistance, rb, represents the voltage drop in the base region. All the above
+circuit elements are very strong functions of operating frequency, signal strength, and bias voltage.

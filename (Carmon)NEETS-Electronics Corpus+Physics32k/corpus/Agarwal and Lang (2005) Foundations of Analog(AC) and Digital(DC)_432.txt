@@ -1,0 +1,5 @@
+Notice that the preceding step is actually two substeps bundled into one:
+(1) writing KCL in terms of currents and (2) substituting immediately node
+voltages and element parameters for the currents by using KVL and element
+laws. By doing these two substeps together, we have eliminated the need to
+define branch currents.

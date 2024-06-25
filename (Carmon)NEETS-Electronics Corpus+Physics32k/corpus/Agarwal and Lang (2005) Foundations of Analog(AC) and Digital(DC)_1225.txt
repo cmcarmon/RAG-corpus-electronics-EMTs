@@ -1,0 +1,10 @@
+As an example of circuit delays, and the importance of time in describing the
+response of a circuit, consider the two cascaded inverters shown in Figure 9.1.
+The ideal response of the first inverter, based on our analysis of electronic circuits
+to this point, is shown in Figure 9.2. A square-wave input yields an inverted
+square-wave output. However, in reality, the output shown in Figure 9.3 is
+more likely to occur, which is a much more complex function of time. This
+example is discussed in detail in Section 10.4, where we will show that the
+complex time behavior shown in Figure 9.3 directly relates to the speed at
+which circuits can operate. In this chapter, we will lay the foundation for that
+discussion.

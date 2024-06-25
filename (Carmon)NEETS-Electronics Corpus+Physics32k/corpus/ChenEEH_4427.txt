@@ -1,0 +1,9 @@
+Most physical systems, however, are not inherently passive,
+and passivity-based control methods cannot extend directly to
+such systems. For example, unstable systems and acoustic
+systems are not passive. One possible method of making
+these nonpassive systems amenable to passivity-based control
+is to passify them using suitable compensation. If the compen-
+sated system is ensured to be robustly passive despite plant
+uncertainties, it can be robustly stabilized by any MSPR con-
+troller. In Kelkar and Joshi (1997), various passiﬁcation tech-

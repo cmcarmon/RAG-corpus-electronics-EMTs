@@ -1,0 +1,5 @@
+There are what are known as ripple (asynchronous), synchronous, and ring counters. In
+ripple counters, the output of each ﬂip-ﬂop activates the next ﬂip-ﬂop throughout the entire
+sequence of the counter’s states. In a synchronous counter, on the other hand, all ﬂip-ﬂops
+are activated (triggered) simultaneously through a master clock connected to the clock inputs
+of all ﬂip-ﬂops. In a ring counter, as in a synchronous counter, all ﬂip-ﬂops are triggered

@@ -1,0 +1,6 @@
+employee (D_EMPLOYEE) is one-to-many. This relationship deﬁnes a set type where the owner record type
+is DEPARTMENT and the member record type is D_EMPLOYEE. Each instance of an owner record type along
+with all the corresponding member records represents a set instance of the underlying set type. In practice, a
+set is commonly implemented using a circular-linked list which allows an owner record to be linked to all its
+member records. The pointer associated with the owner record is known as the FIRST pointer, and the one
+associated with a member record is known as a NEXT pointer.

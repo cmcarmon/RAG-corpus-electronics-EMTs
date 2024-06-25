@@ -1,0 +1,11 @@
+Notice the RLCGS2 factor in Equation 10.73. In typical circuits, a ballpark
+estimate of the delay can be obtained by simply taking the product of the
+capacitance and the effective resistance through which it charges. In our case,
+tpd,1→0 ≈ RLCGS2 = 10 × 103 × 100 × 10
+−15 = 1 ns. Similarly, the ballpark
+estimate of tpd,0→1 is given by tpd,0→1 ≈ RTHCGS2 = 10/11 × 103 × 100 ×
+−15 = 0.09 ns.
+10
+Computing tpd
+By our definition, the propagation delay of the gate tpd is the greater of the
+rising and falling delays. In other words,

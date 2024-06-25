@@ -1,0 +1,11 @@
+BLOCKING refers to a condition of the receiver in which the voltage pulse at the receiver input is
+too large. As a result, for a short time after the pulse, the receiver is insensitive or blocked to signals
+below a certain level. This condition results from one or more of the amplifier stages in the receiver being
+overdriven. After a strong pulse, the receiver may be biased to a point at which it will not amplify small
+signals. Recovery after blocking may be only a fraction of a microsecond, or it may take several hundred
+microseconds, depending upon the point in the receiver at which blocking occurs. To detect a weak echo
+immediately following a strong one, the receiver must have a short BLOCKING RECOVERY TIME.
+The blocking itself must be minimized as much as possible. If a portion of the transmitted pulse leaks into
+the receiver input, then the receiver may be blocked and not show small, nearby objects. In most
+receivers, blocking is minimized from this cause by a duplexer. The duplexer protects the receiver by
+isolating it during the transmitted pulse.

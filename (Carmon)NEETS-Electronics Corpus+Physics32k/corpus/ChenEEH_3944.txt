@@ -1,0 +1,7 @@
+The Neyman-Pearson detector is known to be the most
+powerful detector for the problem of detecting a constant signal
+in noise. One advantage of the Neyman-Pearson detector is that
+its implementation does not require explicit knowledge of the
+prior probabilities and costs of decisions. However, as is the case
+for Bayes’ detector, evaluation of the likelihood ratio still re-
+quires exact knowledge of the pdf of X under both hypotheses.

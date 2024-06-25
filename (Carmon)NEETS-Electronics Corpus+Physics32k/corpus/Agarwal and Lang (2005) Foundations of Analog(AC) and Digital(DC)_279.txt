@@ -1,0 +1,7 @@
+If some of the branch voltages in a circuit are known, then it is possible that KVL
+alone can be used to find other branch voltages in the circuit. For example, consider
+the circuit in Figure 2.18 with v1 = 1 V and v3 = 3 V, as shown in Figure 2.19. Using
+Equation 2.16, namely KVL for Loop 4, it can be seen that v6 = 2 V. This is all that
+can be learned from KVL alone given the information in Figure 2.19. But, if we further
+know that v2 = 2 V, for example, we can learn from KVL applied to the other loops
+that v4 = −1 V and v5 = 1 V.

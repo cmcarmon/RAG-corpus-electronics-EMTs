@@ -1,0 +1,584 @@
+Continuum mechanics deals with deformable bodies, as opposed to rigid bodies. A solid is a deformable body that possesses shear strength, sc. a solid can support shear forces (forces parallel to the material surface on which they act). Fluids, on the other hand, do not sustain shear forces. For the study of the mechanical behavior of solids and fluids these are assumed to be continuous bodies, which means that the matter fills the entire region of space it occupies, despite the fact that matter is made of atoms, has voids, and is discrete. Therefore, when continuum mechanics refers to a point or particle in a continuous body it does not describe a point in the interatomic space or an atomic particle, rather an idealized part of the body occupying that point.
+Following the classical dynamics of Newton and Euler, the motion of a material body is produced by the action of externally applied forces which are assumed to be of two kinds: surface forces
+
+
+
+
+
+F
+
+
+C
+
+
+
+
+{\displaystyle \mathbf {F} _{C}}
+and body forces
+
+
+
+
+
+F
+
+
+B
+
+
+
+
+{\displaystyle \mathbf {F} _{B}}
+. Thus, the total force
+
+
+
+
+
+F
+
+
+
+
+{\displaystyle {\mathcal {F}}}
+applied to a body or to a portion of the body can be expressed as:
+
+
+
+
+
+
+F
+
+
+=
+
+
+F
+
+
+B
+
+
++
+
+
+F
+
+
+C
+
+
+
+
+{\displaystyle {\mathcal {F}}=\mathbf {F} _{B}+\mathbf {F} _{C}}
+
+Surface forces or contact forces, expressed as force per unit area, can act either on the bounding surface of the body, as a result of mechanical contact with other bodies, or on imaginary internal surfaces that bound portions of the body, as a result of the mechanical interaction between the parts of the body to either side of the surface (Euler-Cauchy's stress principle). When a body is acted upon by external contact forces, internal contact forces are then transmitted from point to point inside the body to balance their action, according to Newton's third law of motion of conservation of linear momentum and angular momentum (for continuous bodies these laws are called the Euler's equations of motion). The internal contact forces are related to the body's deformation through constitutive equations. The internal contact forces may be mathematically described by how they relate to the motion of the body, independent of the body's material makeup.
+The distribution of internal contact forces throughout the volume of the body is assumed to be continuous. Therefore, there exists a contact force density or Cauchy traction field
+
+
+
+
+T
+
+(
+
+n
+
+,
+
+x
+
+,
+t
+)
+
+
+{\displaystyle \mathbf {T} (\mathbf {n} ,\mathbf {x} ,t)}
+that represents this distribution in a particular configuration of the body at a given time
+
+
+
+t
+
+
+
+
+{\displaystyle t\,\!}
+. It is not a vector field because it depends not only on the position
+
+
+
+
+x
+
+
+
+{\displaystyle \mathbf {x} }
+of a particular material point, but also on the local orientation of the surface element as defined by its normal vector
+
+
+
+
+n
+
+
+
+{\displaystyle \mathbf {n} }
+.
+Any differential area
+
+
+
+d
+S
+
+
+
+
+{\displaystyle dS\,\!}
+with normal vector
+
+
+
+
+n
+
+
+
+{\displaystyle \mathbf {n} }
+of a given internal surface area
+
+
+
+S
+
+
+
+
+{\displaystyle S\,\!}
+, bounding a portion of the body, experiences a contact force
+
+
+
+d
+
+
+F
+
+
+C
+
+
+
+
+
+
+{\displaystyle d\mathbf {F} _{C}\,\!}
+arising from the contact between both portions of the body on each side of
+
+
+
+S
+
+
+
+
+{\displaystyle S\,\!}
+, and it is given by
+
+
+
+
+d
+
+
+F
+
+
+C
+
+
+=
+
+
+T
+
+
+(
+
+n
+
+)
+
+
+
+d
+S
+
+
+{\displaystyle d\mathbf {F} _{C}=\mathbf {T} ^{(\mathbf {n} )}\,dS}
+
+where
+
+
+
+
+
+T
+
+
+(
+
+n
+
+)
+
+
+
+
+{\displaystyle \mathbf {T} ^{(\mathbf {n} )}}
+is the surface traction, also called stress vector, traction, or traction vector. The stress vector is a frame-indifferent vector (see Euler-Cauchy's stress principle).
+The total contact force on the particular internal surface
+
+
+
+S
+
+
+
+
+{\displaystyle S\,\!}
+is then expressed as the sum (surface integral) of the contact forces on all differential surfaces
+
+
+
+d
+S
+
+
+
+
+{\displaystyle dS\,\!}
+:
+
+
+
+
+
+
+F
+
+
+C
+
+
+=
+
+∫
+
+S
+
+
+
+
+T
+
+
+(
+
+n
+
+)
+
+
+
+d
+S
+
+
+{\displaystyle \mathbf {F} _{C}=\int _{S}\mathbf {T} ^{(\mathbf {n} )}\,dS}
+
+In continuum mechanics a body is considered stress-free if the only forces present are those inter-atomic forces (ionic, metallic, and van der Waals forces) required to hold the body together and to keep its shape in the absence of all external influences, including gravitational attraction. Stresses generated during manufacture of the body to a specific configuration are also excluded when considering stresses in a body. Therefore, the stresses considered in continuum mechanics are only those produced by deformation of the body, sc. only relative changes in stress are considered, not the absolute values of stress.
+Body forces are forces originating from sources outside of the body that act on the volume (or mass) of the body. Saying that body forces are due to outside sources implies that the interaction between different parts of the body (internal forces) are manifested through the contact forces alone. These forces arise from the presence of the body in force fields, e.g. gravitational field (gravitational forces) or electromagnetic field (electromagnetic forces), or from inertial forces when bodies are in motion. As the mass of a continuous body is assumed to be continuously distributed, any force originating from the mass is also continuously distributed. Thus, body forces are specified by vector fields which are assumed to be continuous over the entire volume of the body, i.e. acting on every point in it. Body forces are represented by a body force density
+
+
+
+
+b
+
+(
+
+x
+
+,
+t
+)
+
+
+{\displaystyle \mathbf {b} (\mathbf {x} ,t)}
+(per unit of mass), which is a frame-indifferent vector field.
+In the case of gravitational forces, the intensity of the force depends on, or is proportional to, the mass density
+
+
+
+
+ρ
+
+(
+
+x
+
+,
+t
+)
+
+
+
+
+{\displaystyle \mathbf {\rho } (\mathbf {x} ,t)\,\!}
+of the material, and it is specified in terms of force per unit mass (
+
+
+
+
+b
+
+i
+
+
+
+
+
+
+{\displaystyle b_{i}\,\!}
+) or per unit volume (
+
+
+
+
+p
+
+i
+
+
+
+
+
+
+{\displaystyle p_{i}\,\!}
+). These two specifications are related through the material density by the equation
+
+
+
+ρ
+
+b
+
+i
+
+
+=
+
+p
+
+i
+
+
+
+
+
+
+{\displaystyle \rho b_{i}=p_{i}\,\!}
+. Similarly, the intensity of electromagnetic forces depends upon the strength (electric charge) of the electromagnetic field.
+The total body force applied to a continuous body is expressed as
+
+
+
+
+
+
+F
+
+
+B
+
+
+=
+
+∫
+
+V
+
+
+
+b
+
+
+d
+m
+=
+
+∫
+
+V
+
+
+ρ
+
+b
+
+
+d
+V
+
+
+{\displaystyle \mathbf {F} _{B}=\int _{V}\mathbf {b} \,dm=\int _{V}\rho \mathbf {b} \,dV}
+
+Body forces and contact forces acting on the body lead to corresponding moments of force (torques) relative to a given point. Thus, the total applied torque
+
+
+
+
+
+M
+
+
+
+
+{\displaystyle {\mathcal {M}}}
+about the origin is given by
+
+
+
+
+
+
+M
+
+
+=
+
+
+M
+
+
+B
+
+
++
+
+
+M
+
+
+C
+
+
+
+
+{\displaystyle {\mathcal {M}}=\mathbf {M} _{B}+\mathbf {M} _{C}}
+
+In certain situations, not commonly considered in the analysis of the mechanical behavior of materials, it becomes necessary to include two other types of forces: these are body moments and couple stresses (surface couples, contact torques). Body moments, or body couples, are moments per unit volume or per unit mass applied to the volume of the body. Couple stresses are moments per unit area applied on a surface. Both are important in the analysis of stress for a polarized dielectric solid under the action of an electric field, materials where the molecular structure is taken into consideration (e.g. bones), solids under the action of an external magnetic field, and the dislocation theory of metals.
+Materials that exhibit body couples and couple stresses in addition to moments produced exclusively by forces are called polar materials. Non-polar materials are then those materials with only moments of forces. In the classical branches of continuum mechanics the development of the theory of stresses is based on non-polar materials.
+Thus, the sum of all applied forces and torques (with respect to the origin of the coordinate system) in the body can be given by
+
+
+
+
+
+
+F
+
+
+=
+
+∫
+
+V
+
+
+
+a
+
+
+d
+m
+=
+
+∫
+
+S
+
+
+
+T
+
+
+d
+S
++
+
+∫
+
+V
+
+
+ρ
+
+b
+
+
+d
+V
+
+
+{\displaystyle {\mathcal {F}}=\int _{V}\mathbf {a} \,dm=\int _{S}\mathbf {T} \,dS+\int _{V}\rho \mathbf {b} \,dV}
+
+
+
+
+
+
+
+M
+
+
+=
+
+∫
+
+S
+
+
+
+r
+
+×
+
+T
+
+
+d
+S
++
+
+∫
+
+V
+
+
+
+r
+
+×
+ρ
+
+b
+
+
+d
+V
+
+
+{\displaystyle {\mathcal {M}}=\int _{S}\mathbf {r} \times \mathbf {T} \,dS+\int _{V}\mathbf {r} \times \rho \mathbf {b} \,dV}

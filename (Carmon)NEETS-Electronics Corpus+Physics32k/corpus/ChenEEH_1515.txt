@@ -1,0 +1,6 @@
+causes sort to take its input from the ﬁle inﬁle and write its
+output to the ﬁle outﬁle. Because standard error has not been
+redirected, all error messages still go to the screen. A program
+that reads its input from standard input, does some processing
+on it, and then writes its output to standard output is called a
+ﬁlter.

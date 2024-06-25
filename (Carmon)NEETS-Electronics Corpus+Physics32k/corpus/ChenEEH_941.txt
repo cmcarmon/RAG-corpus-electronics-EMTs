@@ -1,0 +1,7 @@
+Note that formally, the Lagrange multipliers l are not
+required for the solution of problem QP-3 because the objec-
+tive of the procedures described here is to determine a feasible
+clock schedule s. Since the existence and uniqueness of a clock
+schedule ^ss satisfying problem QP-3 have been established in
+Section 4.4.3, this clock schedule can be directly computed by
+evaluating the rightmost expression in equation 4.64:

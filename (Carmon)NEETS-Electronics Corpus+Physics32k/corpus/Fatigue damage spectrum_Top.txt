@@ -1,0 +1,6 @@
+The Fatigue Damage Spectrum (FDS) of a vibration is obtained by tracing the fatigue damage experienced by a linear Single Degree of Freedom System (SDOF) according to its natural frequency, for given damping ratio and for a given value of parameter b (this parameter comes from the Basquin law representing the Wöhler curve of the material constituting the structure).
+Regardless of the vibratory signal studied (sinusoidal vibration, shock, random or composite vibration); the FDS can be obtained directly from the time history signal. The method consists of :
+numerically calculating relative response displacement of the mass in relation to its support;
+establishing a peak histogram, giving the number ni of peaks according to their amplitude;
+using Miner’s damage accumulation law.
+In the case of stationary random vibration, the Power spectral density (PSD) of the vibration can be directly used for the FDS calculation.

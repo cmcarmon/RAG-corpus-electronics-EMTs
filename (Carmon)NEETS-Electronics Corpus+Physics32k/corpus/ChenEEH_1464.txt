@@ -1,0 +1,6 @@
+At every instant, each process has a current working direc-
+tory, in which path names not beginning with a slash are
+looked for. In Figure 4.3, if etc is the current directory, then
+the path name passwd denotes the same ﬁle as etc/passwd. A
+process can change its working directory by issuing a system
+call specifying the new working directory.

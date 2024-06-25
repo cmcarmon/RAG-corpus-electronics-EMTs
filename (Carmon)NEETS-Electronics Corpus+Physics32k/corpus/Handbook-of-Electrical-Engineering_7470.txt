@@ -1,0 +1,13 @@
+The MC and SA techniques fall at the two extremes of BER estimation. MC simulations require no a priori
+information  concerning  the  system  performance  or  architecture  but  may  require  tremendous  amounts  of
+computer time to execute. SA techniques require an almost trivial amount of computer time for many cases
+but  require  the  analyst  to  have  a  considerable  amount  of  information  concerning  the  system.  There  is  a
+continuing search for algorithms that fall in between these extremes. These variance reduction algorithms all
+share the property of making a limited number of assumptions concerning system performance and architecture,
+then using this information to reduce the variance of the MC estimate. Popular techniques are summarized in
+[Jeruchim, 1984] and include importance sampling, large deviation theory, extremal statistics, and tail extrap-
+olation.  To  successfully  use  one  of  these  techniques  one  must  ﬁrst  understand  the  basic  concept  behind  the
+technique. Then one should carefully determine what assumptions were made concerning the system architec-
+ture to determine if the system under study satisﬁes the requirements. This can be a difﬁcult task since it is not
+always clear what assumptions are required for a speciﬁed technique to be applicable. Finally, one should always
+determine the accuracy of the measurement through some technique similar to conﬁdence interval estimation.

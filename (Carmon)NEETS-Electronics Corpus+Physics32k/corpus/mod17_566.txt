@@ -1,0 +1,8 @@
+The frequency generator part of the frequency generator and fsk block is an oscillator. It provides the 
+carrier frequencies for the cw mode. The fsk part is a FREQUENCY SYNTHESIZER (a frequency source 
+of high accuracy). It makes both the mark and space frequencies from a very stable clock oscillator. The 
+keying pulses determine which fsk frequency the keyer chooses to transmit. This signal is then sent to the 
+transmitter control console where it is distributed to the first rf amplifier. This amplifier is referred to as 
+the preliminary intermediate-power amplifier (pre-ipa). The pre-ipa uses linear, untuned, push-pull, rf 
+amplifiers to provide amplified rf to drive other rf amplifiers. The pre-ipa output goes to the intermediate 
+power amplifier (ipa). 

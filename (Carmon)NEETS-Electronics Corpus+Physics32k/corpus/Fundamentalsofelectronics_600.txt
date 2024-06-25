@@ -1,0 +1,10 @@
+Exercise 5.17
+(Solution on p. 192.)
+In making the complexity evaluation for the DFT, we assumed the data to be real. Three questions
+emerge. First of all, the spectra of such signals have conjugate symmetry, meaning that negative
+in the DFT (5.33)) can be computed from the
+frequency components (k =
+corresponding positive frequency components. Does this symmetry change the DFT’s complexity?
+Secondly, suppose the data are complex-valued; what is the DFT’s complexity now? Finally, a less
+important but interesting question is suppose we want K frequency values instead of N; now what
+is the complexity?

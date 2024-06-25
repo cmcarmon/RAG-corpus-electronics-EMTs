@@ -1,0 +1,7 @@
+Transfer of data between registers is an important operation in all digital systems and sometimes the data
+may be modiﬁed during the transfer. For example, in an addition routine the contents of one register will be
+added to the contents of another, the resulting sum then being returned to one of the two registers. Parallel or
+serial addition could be used, but the example shown in Fig. 81.34 is that of a serial adder. The registers could
+each be made up of two 74LS295A devices as previously described. The data to be added is transferred to the
+two shifting registers, A, B, using parallel loading of data into the registers, carried out prior to the application
+of the shift clock pulses shown.

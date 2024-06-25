@@ -1,0 +1,12 @@
+experienced not only in one subcircuit or block of the chip
+but throughout the entire design. Because of this, designers are
+often willing to sacriﬁce increased physical capacitance or
+circuit activity for reduced voltage. Unfortunately, a speed
+penalty is paid for supply voltage reduction, with delays dras-
+tically increasing as Vdd approaches the threshold voltage Vt
+of the devices. This tends to limit the useful range of Vdd to a
+minimum of about 2 to 3 Vt (Pedram, 1995; Chandraksan et
+al., 1992). Effectively, speed optimization techniques are ap-
+plied and then the supply voltage is scaled which bring the
+design back to its original timing but with a lower power
+requirement Benini et al., 2001.

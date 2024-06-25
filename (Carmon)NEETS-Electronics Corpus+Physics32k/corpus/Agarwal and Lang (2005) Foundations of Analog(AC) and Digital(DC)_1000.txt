@@ -1,0 +1,13 @@
+This value of vDS is the desired lowest value of vO for saturation region
+operation of the MOSFET amplifier. The corresponding value of the high-
+est valid input voltage can be obtained from Equation 7.42, and is given
+by vIN = vO + VT.
+in Figure 7.40,
+(cid:6)−1 + √
+(cid:7)
+vIN is given by
+1 + 2VSRLK
+Next, we will determine the lowest value of the valid input voltage denoted
+by the point marked (x) in Figure 7.40. This point is the intersection of the load
+line and the iDS versus vDS line for which vGS = VT. At this point, vO = vDS =
+VS and vIN = vGS = VT.

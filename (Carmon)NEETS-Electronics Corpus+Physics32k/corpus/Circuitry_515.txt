@@ -1,0 +1,22 @@
+Binary numbers – particularly large ones – are not 
+very convenient. To make numbers easier to handle 
+we  often  convert  binary  numbers  to  hexadecimal 
+(base 16). This format is easier for mere humans to 
+comprehend  and  offers  the  advantage  over  denary 
+(base  10)  in  that  it  can  be  converted  to  and  from 
+binary  with  ease.  The  first  sixteen  numbers  in 
+binary,  denary,  and  hexadecimal  are  shown  in  the 
+table below. A single hexadecimal character (in the 
+range zero to F) is used to represent a group of four 
+binary  digits  (bits).  This  group  of  four  bits  (or 
+single hex. character) is sometimes called a nibble.
+A byte  of  data  comprises  a  group  of  eight  bits. 
+Thus  a  byte  can  be  represented  by  just  two 
+hexadecimal  (hex)  characters.  A  group  of  sixteen 
+bits  (a  word)  can  be  represented  by  four  hex 
+characters, thirty-two bits (a double word by eight 
+hex. characters, and so on). 
+  The  value  of  a  byte  expressed  in  binary  can  be 
+easily  converted  to  hex  by  arranging  the  bits  in 
+groups  of  four  and  converting  each  nibble  into 
+hexadecimal using the table shown below: 

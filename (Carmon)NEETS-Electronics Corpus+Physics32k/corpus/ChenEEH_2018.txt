@@ -1,0 +1,13 @@
+Theorem 1 implies that Mult_Float_Check can detect at least
+three errors and correct a single error in the computation of
+Cf ¼ Ac  Br as long as all operations, especially ﬂoating point
+additions, have a large enough precision such that no roundoff
+inaccuracies are introduced. Of course, such an ‘inﬁnite’ preci-
+sion assumption is unrealistic, and the checksum scheme is
+susceptible to roundoff introduced by ﬁnite precision ﬂoating
+point arithmetic, as described previously. In particular, there
+can be false alarms in which the checksum test fails due to
+roundoff in spite of the absence of errors (that can occur due
+to hardware glitches or failures) in the computation. Alterna-
+tively, real errors could be masked or canceled by roundoff
+leading to nondetection of a potential problem in the hardware.

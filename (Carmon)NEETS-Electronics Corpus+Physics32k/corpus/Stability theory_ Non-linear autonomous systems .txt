@@ -1,0 +1,36 @@
+Asymptotic stability of fixed points of a non-linear system can often be established using the Hartman–Grobman theorem.
+Suppose that v is a C1-vector field in Rn which vanishes at a point p, v(p) = 0. Then the corresponding autonomous system
+
+
+
+
+
+x
+′
+
+=
+v
+(
+x
+)
+
+
+{\displaystyle x'=v(x)}
+
+has a constant solution
+
+
+
+
+x
+(
+t
+)
+=
+p
+.
+
+
+{\displaystyle x(t)=p.}
+
+Let Jp(v) be the n×n Jacobian matrix of the vector field v at the point p. If all eigenvalues of J have strictly negative real part then the solution is asymptotically stable. This condition can be tested using the Routh–Hurwitz criterion.

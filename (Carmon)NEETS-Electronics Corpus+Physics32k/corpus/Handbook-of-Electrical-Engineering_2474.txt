@@ -1,0 +1,10 @@
+The transfer conductance at IDS = 5 mA is 3.54 mS so that rO = 1/gm = 283 W. Since gm RS = 7.9, good bias
+stability will be obtained. If RL >> RS , then AV @ R S /(rO + RS) = 2.23 kW/(283 W + 2.23 kW) = 0.887. If RL =
+1 kW, then Rnet = 690 W, and AV drops to 0.709, and if RL = 300 W, Rnet = 264 W and AV is down to 0.483. A
+BJT  emitter-follower  circuit  has  the  same  equations  for  the  voltage  gain  as  the  FET  source  follower.  For  the
+BJT  case,  rO  =  1/gm  = V T /I C,  where VT  =  thermal  voltage  =  kT/q @  25  mV  and  IC  is  the  quiescent  collector
+current. For IC = 5 mA, we get rO @ 25 mV/5 mA = 5 W as compared to rO = 283 W for the JFET case at the
+same  quiescent  current  level.  So  the  emitter  follower  does  have  a  major  advantage  over  the  source  follower
+since it has a much lower output resistance rO and can thus drive very small load resistances with a voltage gain
+close to unity. For example, with RL = 100 W, we get AV @ 0.26 for the source follower as compared to AV @
+0.95 for the emitter follower.

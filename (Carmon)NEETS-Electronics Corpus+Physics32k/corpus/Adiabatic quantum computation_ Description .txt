@@ -1,0 +1,197 @@
+First, a (potentially complicated) Hamiltonian is found whose ground state describes the solution to the problem of interest. Next, a system with a simple Hamiltonian is prepared and initialized to the ground state. Finally, the simple Hamiltonian is adiabatically evolved to the desired complicated Hamiltonian. By the adiabatic theorem, the system remains in the ground state, so at the end the state of the system describes the solution to the problem. Adiabatic Quantum Computing has been shown to be polynomially equivalent to conventional quantum computing in the circuit model.
+The time complexity for an adiabatic algorithm is the time taken to complete the adiabatic evolution which is dependent on the gap in the energy eigenvalues (spectral gap) of the Hamiltonian. Specifically, if the system is to be kept in the ground state, the energy gap between the ground state and the first excited state of
+
+
+
+H
+(
+t
+)
+
+
+{\displaystyle H(t)}
+provides an upper bound on the rate at which the Hamiltonian can be evolved at time
+
+
+
+t
+
+
+{\displaystyle t}
+. When the spectral gap is small, the Hamiltonian has to be evolved slowly. The runtime for the entire algorithm can be bounded by:
+
+
+
+
+T
+=
+O
+
+(
+
+
+1
+
+g
+
+m
+i
+n
+
+
+2
+
+
+
+
+)
+
+
+
+{\displaystyle T=O\left({\frac {1}{g_{min}^{2}}}\right)}
+
+where
+
+
+
+
+g
+
+m
+i
+n
+
+
+
+
+{\displaystyle g_{min}}
+is the minimum spectral gap for
+
+
+
+H
+(
+t
+)
+
+
+{\displaystyle H(t)}
+.
+AQC is a possible method to get around the problem of energy relaxation. Since the quantum system is in the ground state, interference with the outside world cannot make it move to a lower state. If the energy of the outside world (that is, the "temperature of the bath") is kept lower than the energy gap between the ground state and the next higher energy state, the system has a proportionally lower probability of going to a higher energy state. Thus the system can stay in a single system eigenstate as long as needed.
+Universality results in the adiabatic model are tied to quantum complexity and QMA-hard problems. The k-local Hamiltonian is QMA-complete for k ≥ 2. QMA-hardness results are known for physically realistic lattice models of qubits such as
+
+
+
+
+H
+=
+
+∑
+
+i
+
+
+
+h
+
+i
+
+
+
+Z
+
+i
+
+
++
+
+∑
+
+i
+<
+j
+
+
+
+J
+
+i
+j
+
+
+
+Z
+
+i
+
+
+
+Z
+
+j
+
+
++
+
+∑
+
+i
+<
+j
+
+
+
+K
+
+i
+j
+
+
+
+X
+
+i
+
+
+
+X
+
+j
+
+
+
+
+{\displaystyle H=\sum _{i}h_{i}Z_{i}+\sum _{i<j}J^{ij}Z_{i}Z_{j}+\sum _{i<j}K^{ij}X_{i}X_{j}}
+
+where
+
+
+
+Z
+,
+X
+
+
+{\displaystyle Z,X}
+represent the Pauli matrices
+
+
+
+
+σ
+
+z
+
+
+,
+
+σ
+
+x
+
+
+
+
+{\displaystyle \sigma _{z},\sigma _{x}}
+. Such models are used for universal adiabatic quantum computation. The Hamiltonians for the QMA-complete problem can also be restricted to act on a two dimensional grid of qubits or a line of quantum particles with 12 states per particle. If such models were found to be physically realisable, they too could be used to form the building blocks of a universal adiabatic quantum computer.
+In practice, there are problems during a computation. As the Hamiltonian is gradually changed, the interesting parts (quantum behaviour as opposed to classical) occur when multiple qubits are close to a tipping point. It is exactly at this point when the ground state (one set of qubit orientations) gets very close to a first energy state (a different arrangement of orientations). Adding a slight amount of energy (from the external bath, or as a result of slowly changing the Hamiltonian) could take the system out of the ground state, and ruin the calculation. Trying to perform the calculation more quickly increases the external energy; scaling the number of qubits makes the energy gap at the tipping points smaller.

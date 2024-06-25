@@ -1,0 +1,16 @@
+The tight-binding approximation significantly simplifies the second quantized Hamiltonian, though it introduces several limitations at the same time:
+For single-site states with several particles in a single state, the interactions may couple to higher Bloch bands, which contradicts base assumptions. Still, a single band model is able to address low-energy physics of such setting but with parameters U and J becoming in fact density-dependent. Instead of one parameter U, the interaction energy of n particles may be described by
+
+
+
+
+U
+
+n
+
+
+
+
+{\displaystyle U_{n}}
+close, but not equal to U.
+When considering (fast) lattice dynamics, additional terms should be added to the Bose-Hubbard Hamiltonian, so that the time-dependent Schrödinger equation is obeyed in the (time-dependent) Wannier function basis. They come from the time dependence of Wannier functions. Otherwise, the dynamics of the lattice may be incorporated by making the key parameters of the model time-dependent, varying with the instantaneous value of the optical potential.

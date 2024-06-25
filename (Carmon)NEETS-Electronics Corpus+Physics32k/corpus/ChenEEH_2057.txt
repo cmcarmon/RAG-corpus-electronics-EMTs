@@ -1,0 +1,13 @@
+The semantics of temporal logic is deﬁned on inﬁnite se-
+quences of states that are extracted from the execution sequences
+of PrTNs, where the last marking of a ﬁnite execution se-
+quence is repeated inﬁnitely many times at the end of the
+execution sequence. For example, for an execution sequence
+M0[X0> M1[X1> . . .M n, the following inﬁnite sequence be-
+havior s ¼ << M0 . . .M n, Mn, . . . >> is obtained. We denote
+the set of all possible behaviors obtained from a given PrTN as
+St1. Let u and v be two arbitrary temporal formulas; p be an m-
+ary place; t be a transition; x, x1 . . ., xn be rigid variables;
+s ¼ << M0, M1, . . . >> be a behavior; and sk ¼ << Mk,
+Mkþ1, . . . >> be a k-step-shifted behavior sequence. We deﬁne
+the semantics of temporal formulas recursively as follows:

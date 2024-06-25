@@ -1,0 +1,6 @@
+Kepler's equation is
+
+where M is the mean anomaly, E is the eccentric anomaly, and e is the eccentricity.
+The 'eccentric anomaly' E is useful to compute the position of a point moving in a Keplerian orbit. As for instance, if the body passes the periastron at coordinates x = a(1 − e), y = 0, at time t = t0, then to find out the position of the body at any time, you first calculate the mean anomaly M from the time and the mean motion n by the formula M = n(t − t0), then solve the Kepler equation above to get E, then get the coordinates from:
+
+Kepler's equation is a transcendental equation because sine is a transcendental function, meaning it cannot be solved for E algebraically. Numerical analysis and series expansions are generally required to evaluate E.

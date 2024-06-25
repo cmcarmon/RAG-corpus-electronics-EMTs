@@ -1,0 +1,183 @@
+Consider a single degree of freedom (SDOF) system with stiffness
+
+
+
+k
+
+
+{\displaystyle k}
+, mass
+
+
+
+m
+
+
+{\displaystyle m}
+, and damping
+
+
+
+c
+
+
+{\displaystyle c}
+. The equation of motion for this SDOF is
+
+
+
+
+m
+
+
+
+x
+¨
+
+
+
+(
+t
+)
++
+c
+
+
+
+x
+˙
+
+
+
+(
+t
+)
++
+k
+x
+(
+t
+)
+=
+p
+(
+t
+)
+
+
+{\displaystyle m{\ddot {x}}(t)+c{\dot {x}}(t)+kx(t)=p(t)}
+
+where
+
+
+
+x
+
+
+{\displaystyle x}
+is the displacement of the mass and
+
+
+
+t
+
+
+{\displaystyle t}
+is time. The continuous state-space representation of this system is
+
+
+
+
+
+
+
+s
+˙
+
+
+
+=
+A
+s
+(
+t
+)
++
+B
+u
+(
+t
+)
+
+
+{\displaystyle {\dot {s}}=As(t)+Bu(t)}
+
+
+
+
+
+y
+=
+C
+s
+(
+t
+)
++
+D
+u
+(
+t
+)
+
+
+{\displaystyle y=Cs(t)+Du(t)}
+
+where
+
+
+
+s
+
+
+{\displaystyle s}
+represent the states of the system corresponding to the displacement
+
+
+
+x
+
+
+{\displaystyle x}
+and velocity
+
+
+
+
+
+
+x
+˙
+
+
+
+
+
+{\displaystyle {\dot {x}}}
+of the SDOF. Note that the states are usually denoted by
+
+
+
+x
+
+
+{\displaystyle x}
+. However, here
+
+
+
+x
+
+
+{\displaystyle x}
+is used for the SDOF displacement.

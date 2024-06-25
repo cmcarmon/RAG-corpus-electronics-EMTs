@@ -1,0 +1,21 @@
+The function of interconnects or a wiring system is to distrib-
+ute clock and other signals and to provide power/ground to and
+among the various circuits/systems functions on a chip. Current
+leading-edge logic processors have seven to eight levels of high-
+density interconnect, and current leading-edge memory has
+three levels (Sematech, 1999). There are three types of wiring
+to distribute the clock and signal functions (local, intermediate,
+and global). Local wiring, consisting of very thin lines, connects
+gates and transistors in an execution unit or a functional block
+(such as embedded logic, cache memory, or address adder) on
+the chip. Local wires usually span a few gates and occupy ﬁrst
+and sometimes second metal layers. Intermediate wiring pro-
+vides clock and signal distribution in a functional blocks with
+typical lengths up to 3 to 4 mm. Intermediate wires are wider
+and taller than local wires to provide lower resistance signal/
+clock paths. Global wiring provides clock and signal distribution
+between the functional blocks and delivers power/ground to all
+functions on a chip. Figure 8.3 shows the delay of local and
+global wiring in future generations. Repeaters can be incorpor-
+ated to mitigate the delay in global wiring but consume power
+and chip area (Sematech, 1999).

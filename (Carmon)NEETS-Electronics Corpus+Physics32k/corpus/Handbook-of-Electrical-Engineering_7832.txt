@@ -1,0 +1,11 @@
+Sampled Tracking
+Since  dynamic  track  runout  is  usually  a  slow  and  gradual  process,  there  is  actually  no  need  for  continuous
+tracking as done on grooved media. A pair of embedded marks, offset from the track center as in Fig. 80.23(b),
+can  provide  the  necessary  information  for  correcting  the  relative  position  of  the  focused  spot.  The  reﬂected
+intensity will indicate the positions of the two servo marks as two successive short pulses. If the beam happens
+to be on track, the two pulses will have equal magnitudes and there will be no need for correction. If, on the
+other hand, the beam is off-track, one of the pulses will be stronger than the other. Depending on which pulse
+is  the  stronger,  the  system  will  recognize  the  direction  in  which  it  has  to  move  and  will  correct  the  error
+accordingly. The servo marks must appear frequently enough along the track to ensure proper track following.
+In a typical application, the track might be divided into groups of 18 bytes, 2 bytes dedicated as servo offset
+areas and 16 bytes ﬁlled with other format information or left blank for user data.

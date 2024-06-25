@@ -1,0 +1,7 @@
+The bistable multivibrator circuit and the associated waveforms are shown in figure 3-17, views (A) 
+and (B), respectively. In this circuit, R1 and R7 are the collector load resistors. Voltage dividers R1, R2, 
+and R5 provide forward bias for Q2; R7, R6, and R3 provide forward bias for Q1. These resistors also 
+couple the collector signal from one transistor to the base of the other. Observe that this is direct coupling 
+of feedback. This type of coupling is required because the circuit depends on input triggers for operation, 
+not on RC time constants inside the circuit. Both transistors use common emitter resistor R4 which 
+provides emitter coupling. C1 and C2 couple the input triggers to the transistor bases. 

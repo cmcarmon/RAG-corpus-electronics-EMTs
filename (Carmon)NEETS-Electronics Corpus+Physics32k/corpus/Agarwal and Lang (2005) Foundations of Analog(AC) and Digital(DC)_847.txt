@@ -1,0 +1,5 @@
+analysis for these circuits are identical to those for the inverter. For example,
+like the inverter, the NAND circuit satisfies a static discipline with the following
+voltage thresholds: VOH = 4.5 V, VOL = 0.5 V, VIH = 4 V, and VIL = 0.9 V.
+Similarly, the NAND is not able to satisfy the static discipline with these voltage
+thresholds: VOH = 4 V, VOL = 1 V, VIH = 3.5 V, and VIL = 1.5 V.

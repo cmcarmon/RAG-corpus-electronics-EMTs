@@ -1,0 +1,10 @@
+Level-Sensitive Scan Design (LSSD). Level-sensitive scan design [Eichelberger and Williams, 1978] imposes
+strict rules on clock signal usage and allows implementing sequential behavior to be implemented only using
+the shift-register latch (SRL). In the ﬁrst place, by not allowing any feedback involving combinational circuit
+elements  alone,  the  LSSD  approach  prevents  timing  failures  that  might  be  present  in  purely  asynchronous
+designs. Furthermore, rigid clocking rules are stated in order to prevent SRL data inputs from changing while
+the clock pulse(s) is (are) transitioning. Hence, the digital circuit is separated into two sections: (1) a robust
+(i.e., level-sensitive) multi-input/multi-output combinational circuit and (2) a set of SRL elements with which
+sequential  behavior  is  implemented.  In  addition  to  their  normal  system  interconnections  each  SRL  is  also
+connected to its two neighboring SRLs to form a shift-register structure. The serial shift input and shift output
+signals are labeled scan-in and scan-out, respectively, and treated as primary input/output terminals. Figure 85.13

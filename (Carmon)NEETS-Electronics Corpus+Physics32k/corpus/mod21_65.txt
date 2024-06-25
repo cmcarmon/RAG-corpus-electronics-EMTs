@@ -1,0 +1,17 @@
+Unless an ammeter is already an integral part of the circuit under test, current measurements are
+rarely taken. In the case of a high-resistance circuit, it will contain such a small amount of current that it
+cannot be measured accurately with ordinary field test equipment. In lower resistance circuits, current
+measurements can be taken only if the ammeter is placed in series with the circuit under test. These
+measurements require that a circuit connection be unsoldered or otherwise opened to insert the meter in
+series with the circuit. An easier method you may use to obtain a current measurement is to take a voltage
+measurement across a known resistance and calculate the current with Ohm’s law. The accuracy of
+current measurements depends on the internal resistance of the meter as compared with the resistance of
+the external circuit. If the total circuit current is decreased by increasing the load, then the percentage of
+error will decrease. Therefore, greater accuracy is obtained if the meter resistance is considerably less
+than the load resistance. A method of obtaining greater accuracy of current measurement is to decrease
+the total internal meter resistance with respect to load resistance. This is accomplished by connecting two
+ammeters in parallel with each other and in series with the circuit in which the current is being measured.
+Additional ammeters may be connected in parallel in the same manner for increased accuracy. This
+method also increases the range of measurements that can be taken. The arithmetical sum of the
+indications of all the parallel meters represents the total current flow in the circuit. You should note that
+this is not a common test method and that your test equipment may be damaged if connected incorrectly.

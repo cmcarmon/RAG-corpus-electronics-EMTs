@@ -1,0 +1,9 @@
+in general, the two cosine terms in
+this expression are not at the same frequency. The first term is the natural
+response, at a frequency ωd, the damped natural frequency of the system. The
+second term is the forced or driven response, at the frequency (ω1) of the
+input signal. Thus one would expect interference or beating to occur between
+these two components. Computer generated plots of v(t) (see Figure 14.3) from
+Equation 14.21 show the interference effect clearly for ω1 ≈ ωd. Observation
+of the response of any high Q resonant circuit1 to a step cosine slightly off the
+resonant frequency will reveal such interference.

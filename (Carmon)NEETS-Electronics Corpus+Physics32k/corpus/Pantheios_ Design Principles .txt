@@ -1,0 +1,4 @@
+The principles underpinning Pantheios are:
+the logging subsystem must always be available, including for use by other subsystems that may themselves act before (or after) main()
+the logging subsystem must be completely robust, and should never be the cause of system failure
+the logging subsystem must have extremely low cost when logging is switched off, otherwise users will make decisions about what logging information is important at compile-time, rather than at runtime

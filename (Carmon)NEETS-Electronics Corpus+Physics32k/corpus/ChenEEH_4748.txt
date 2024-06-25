@@ -1,0 +1,23 @@
+Remark 2
+If the bounds cc
+are known, it becomes possible
+i
+for the designer to directly set the constants ci in the control
+law. Notice that with knowledge of these bounds, the term c
+m
+is also known, and we can pick constants ci
+such that
+. Deﬁne the auxiliary functions Zi ¼ cizi. We
+ci > cc
+id
+if we let Zi be an
+may explicitly set the constant ci
+if we let
+input
+_XX ri , Zi) þ da).
+a
+i (Xi, ni,
+Then, the approximators used in the control procedure are
+_XX ri, Zi),
+given by ^aai(Xi, ni,
+and the stability analysis can be carried out as expected.

@@ -1,0 +1,9 @@
+Instrumentation
+The general instrumentation requirements for the ECG have been addressed by professional societies through the
+years [American Heart Association, 1984; Bailey et al., 1990]. Brieﬂy, they recommend a system bandwidth 0.05–150
+Hz. Of great importance in ECG diagnosis is the low-frequency response of the system because shifts in some of
+the low-frequency regions, e.g., the ST segment, have critical diagnostic value. While the heart rate may only have
+a 1-Hz fundamental frequency, the phase response of typical analog high-pass ﬁlters is such that the system corner
+frequency must be much smaller than the 3-dB corner frequency where only the amplitude response is considered.
+The system gain depends upon the total system design. The typical ECG amplitude is – 2mV and if A/D conversion
+is used in a digital system, then enough gain to span the full range of the A/D converter is appropriate.

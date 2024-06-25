@@ -1,0 +1,7 @@
+The steps for solving an Linear Mechanical problem as a bond graph are as follows:
+Place 1-junctions for each distinct velocity (usually at a mass)
+Insert R and C bonds at their own 0-junctions between the 1 junctions where they act
+Insert Sources and I bonds on the 1 junctions where they act
+Assign power flow direction
+Simplify
+These steps are shown more clearly in the examples below.

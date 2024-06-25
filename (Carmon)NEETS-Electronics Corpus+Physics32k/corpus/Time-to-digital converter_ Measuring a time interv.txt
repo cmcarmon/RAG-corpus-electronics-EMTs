@@ -1,0 +1,76 @@
+In most situations, the user does not want to just capture an arbitrary time that an event occurs, but wants to measure a time interval, the time between a start event and a stop event.
+That can be done by measuring an arbitrary time both the start and stop events and subtracting. The measurement can be off by two counts.
+The subtraction can be avoided if the counter is held at zero until the start event, counts during the interval, and then stops counting after the stop event.
+Coarse counters base on a reference clock with signals generated at a stable frequency
+
+
+
+
+f
+
+0
+
+
+
+
+{\displaystyle f_{0}}
+. When the start signal is detected the counter starts counting clock signals and terminates counting after the stop signal is detected. The time interval
+
+
+
+T
+
+
+{\displaystyle T}
+between start and stop is then
+
+
+
+
+T
+=
+n
+⋅
+
+T
+
+0
+
+
+
+
+{\displaystyle T=n\cdot T_{0}}
+
+with
+
+
+
+n
+
+
+{\displaystyle n}
+, the number of counts and
+
+
+
+
+T
+
+0
+
+
+=
+1
+
+/
+
+
+f
+
+0
+
+
+
+
+{\displaystyle T_{0}=1/f_{0}}
+, the period of the reference clock.

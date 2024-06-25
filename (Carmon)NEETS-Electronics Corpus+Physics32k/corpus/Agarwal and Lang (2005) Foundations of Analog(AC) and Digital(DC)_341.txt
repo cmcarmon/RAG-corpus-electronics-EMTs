@@ -1,0 +1,5 @@
+One might be tempted to write node equations for the junctions labeled
+5 and 6, but this doesn’t make much sense. The branch between 4 and 6 is
+a perfect conductor, hence it is really just part of the copper lead attached to
+resistor R4. For this reason we did not bother defining a separate current variable
+for this branch. A similar argument applies to branch 4-5.

@@ -1,0 +1,6 @@
+Sign and Magnitude Representation (SM).
+In SM representation signed integer Xi is represented by sign bit
+xs and magnitude xm (xs , xm). Usually 0 represents the positive sign (+) and 1 represents the negative sign (–).
+The  magnitude  of  the  number  xm  can  be  represented  in  any  way  chosen  for  the  representation  of  positive
+integers. A disadvantage of SM representation is that two representations of zero exist, positive and negative
+zero: xs = 0, xm = 0 and xs = 1, xm = 0.

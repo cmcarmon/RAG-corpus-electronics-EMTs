@@ -1,0 +1,7 @@
+represents a ﬁnite impulse response (FIR) ﬁlter with length N. The memory organization for the coefﬁcients
+h(k) and the input samples x(n – k) is shown in Table 18.1. The coefﬁcients are placed within a speciﬁed internal
+program memory space and the input samples within a speciﬁed data memory space. The program counter
+(PC) initially points at the memory location that contains the last coefﬁcient h(N – 1), for example at memory
+address  FF00h  (in  hex).  One  of  the  (8)  auxiliary  registers  points  at  the  memory  address  of  the  last  or  least
+recent input sample. The most recent sample is represented by x(n). The following program segment implements
+(18.1):

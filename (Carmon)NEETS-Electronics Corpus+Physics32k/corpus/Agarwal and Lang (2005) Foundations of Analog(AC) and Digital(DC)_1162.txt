@@ -1,0 +1,7 @@
+The gain parameters gm1 and gm2 for the MOSFETs depend on the operating-point
+values of the currents through them. Assuming that the current through Ri is negligible,
+by symmetry, we find that the current I divides equally between the two MOSFETs.
+Thus each has an operating-point current equal to I/2. From the SCS model for the
+MOSFETs, given VT and K, we can thus find the bias input voltages VGS1 and VGS2 in
+terms of I. In turn, the respective gains gm1 and gm2 can be determined in terms of VGS1
+and VGS2, which are themselves functions of I.

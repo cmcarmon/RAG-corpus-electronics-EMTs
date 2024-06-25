@@ -1,0 +1,10 @@
+For 2-D transform coding the image data are ﬁrst subdivided into
+blocks.  Typical  block  sizes  are  8  3  8  or  16  3  16.  The  transform
+independently maps each image block into a block of transform coef-
+ﬁcients; thus, the processing of each block can be done in parallel. At
+this stage the data have been mapped into a new representation, but
+no compression has occurred. In fact, with the Fourier transform there
+is an expansion in the amount of data. This occurs because the trans-
+form generates coefﬁcients that are complex-valued. To achieve com-
+pression the transform coefﬁcients must be quantized and then coded
+to remove any remaining redundancy.

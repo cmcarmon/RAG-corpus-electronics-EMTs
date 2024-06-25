@@ -1,0 +1,8 @@
+Multichannel broadcast and ship/shore terminations use tty fdm. With this system, each channel of 
+the composite tone package of the broadcast is assigned an audio frequency. By multiplexing tty circuits, 
+up to 16 circuits may be carried in any one of the 3,000 hertz multiplexed channels described above. 
+Don't confuse the two types of multiplexing. In the first case, 3,000 hertz audio channels have been 
+combined. In the second case, a number of dc tty circuits are converted to tone keying and combined in a 
+single 3,000-hertz audio channel. Figure 3-31 illustrates a 16-channel, tty-multiplexing system. The 
+output of the dc pulsed circuits is converted to audio keying. Each channel has a separate audio center 
+frequency. Channel frequencies range from 425 hertz for the lowest channel to 2,975 hertz for the highest 

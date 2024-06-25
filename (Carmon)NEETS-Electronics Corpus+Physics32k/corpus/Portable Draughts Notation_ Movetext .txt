@@ -1,0 +1,3 @@
+Movetext contains the actual moves for the game. Moves begin with the source square number, then a "-" or "x", finally destination square number. Jumps must be specified by each square that would be jumped ("11x18x25"), or two squares only ("11x25").
+The end of the game must contain the 4 standard result codes: "1-0", "1/2-1/2" "0-1", and "*". The codes must be the same as the Result tag pair.
+An annotator who wishes to suggest alternative moves to those actually played in the game may insert variations enclosed in parentheses.

@@ -1,0 +1,9 @@
+Target angle is the relative bearing of the observing station from the vehicle being observed. It may be used to compute point-of-aim for a fire-control problem when vehicle range and speed can be estimated from other information. Target angle may be best explained from the example of a submarine preparing to launch a straight-run (non-homing) torpedo at a moving target ship. Since the torpedo travels relatively slowly, the torpedo course must be set not toward the target, but toward where the target will be when the torpedo reaches it. Target angle is used to estimate target course.
+The submarine observer estimating target angle pictures himself on the target ship looking back at the submarine. Relative bearing of the submarine is the clockwise angle in degrees from the heading of the target ship to a straight line drawn from the target ship to the submarine.
+When target angle is 0°  (or 360° ) the target ship is coming directly toward the submarine.
+Target angles between 0°  and 90°  indicate the target ship is moving toward and to the right of the submarine.
+Target angles between 90°  and 180°  indicate the target ship is moving to the right and away from the submarine.
+When target angle is 180°  the target ship is moving directly away from the submarine.
+Target angles between 180°  and 270°  indicate the target ship is moving away from and to the left of the submarine.
+Target angles between 270°  and 360°  indicate the target ship is moving to the left and toward the submarine.
+A target passing a stationary observer from left to right might have target angles progressing from 45°  to 135° , with broadside facing of 90°  marking the minimum distance between target and observer. A target moving from right to left on the same track would have target angles progressing downward from 315°  to 225°  with the closest point of approach occurring at 270° .

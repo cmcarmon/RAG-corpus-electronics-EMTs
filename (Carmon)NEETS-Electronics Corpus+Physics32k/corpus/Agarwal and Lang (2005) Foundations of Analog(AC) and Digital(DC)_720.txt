@@ -1,0 +1,11 @@
+F I G U R E 5.9 Senders must
+output voltages between VOH
+and 5 V to send a logical 1, and
+between 0 V and VOL for a
+logical 0. Correspondingly,
+receivers can interpret values
+greater than VIH as a logical high,
+and values lower than VIL as a
+logical low. The hashed regions are
+the valid ranges for senders and
+receivers.

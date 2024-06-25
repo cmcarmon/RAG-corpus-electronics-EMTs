@@ -1,0 +1,119 @@
+For an ideal single-pass condenser whose coolant has constant density, constant heat capacity, linear enthalpy over the temperature range, perfect cross-sectional heat transfer, and zero longitudinal heat transfer, and whose tubing has constant perimeter, constant thickness, and constant heat conductivity, and whose condensible fluid is perfectly mixed and at constant temperature, the coolant temperature varies along its tube according to:
+
+
+
+
+Θ
+(
+x
+)
+=
+
+
+
+
+T
+
+H
+
+
+−
+T
+(
+x
+)
+
+
+
+T
+
+H
+
+
+−
+T
+(
+0
+)
+
+
+
+=
+
+e
+
+−
+N
+T
+U
+
+
+=
+
+e
+
+−
+
+
+
+h
+P
+x
+
+
+
+
+
+m
+˙
+
+
+
+c
+
+
+
+
+
+=
+
+e
+
+−
+
+
+
+G
+x
+
+
+
+
+
+m
+˙
+
+
+
+c
+L
+
+
+
+
+
+
+
+{\displaystyle \Theta (x)={\frac {T_{H}-T(x)}{T_{H}-T(0)}}=e^{-NTU}=e^{-{\frac {hPx}{{\dot {m}}c}}}=e^{-{\frac {Gx}{{\dot {m}}cL}}}}
+
+where:
+x is the distance from the coolant inlet;
+T(x) is the coolant temperature, and T(0) the coolant temperature at its inlet;
+TH is the hot fluid's temperature;
+NTU is the number of transfer units;
+m is the coolant's mass (or other) flow rate;
+c is the coolant's heat capacity at constant pressure per unit mass (or other);
+h is the heat transfer coefficient of the coolant tube;
+P is the perimeter of the coolant tube;
+G is the heat conductance of the coolant tube (often denoted UA);
+L is the length of the coolant tube.

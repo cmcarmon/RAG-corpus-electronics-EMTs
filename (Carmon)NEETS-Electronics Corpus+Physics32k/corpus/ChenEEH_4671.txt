@@ -1,0 +1,11 @@
+1120
+j ¼ 1, 2, . . ., r) are the weights; ^vvj and ^vv are the bias terms;
+and H is the squashing function that should be continuous,
+nonconstant, bounded, monotonically increasing (Funahashi,
+1989), and differentiable (Chin and Coats, 1986). A hyperbolic
+tangent function is used for H in this work.
+Denote the network output by y ¼ F (x, A), where A repre-
+sents the network structure and contains all the network
+weights and bias terms (i.e., A ¼ [^vv, v1, . . ., vp, ^vv1, . . .,
+^vvr , v11, . . ., v1r , v21, . . ., v2r , . . ., vp1, . . ., vpr ]T ). Deﬁne
+the change of the network output with respect to A as:

@@ -1,0 +1,13 @@
+As the sine wave changes from the positive half 
+cycle to the negative half cycle, diode D2 is cut off 
+ because capacitor C2 holds diode D2 reverse biased. 
+Capacitor C2 discharges through the load, holding the 
+voltage across the load constant. Therefore, it also acts 
+as a filter capacitor. Capacitor C2 recharges only during 
+the positive cycle of the input signal, resulting in a rip-
+ple frequency of 60 hertz (hence the name “half-wave 
+voltage doubler”). One disadvantage of the half-wave 
+voltage doubler is that it is difficult to filter because of 
+the 60-hertz ripple frequency. Another disadvantage is 
+that capacitor C2 must have a voltage rating of at least 
+twice the peak value of the AC input signal.

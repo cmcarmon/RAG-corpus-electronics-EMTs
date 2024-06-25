@@ -1,0 +1,25 @@
+Figure  7.25  shows  the  small-signal  input  and 
+output currents and voltages for a common-emitter 
+amplifier  stage.  The  magnitude  of  the  current 
+produced at the output of the transistor is equal to 
+the current gain, Ai, multiplied by the applied base 
+current,  Ib. Since  the  output  current  is  the  current 
+flowing in the collector, Ic, we can deduce that: 
+ 
+Ic = Ai × Ib
+where Ai = hfe  (the common-emitter current gain). 
+ Figure  7.26  shows  how  this  current  source 
+appears  between  the  collector  and  emitter.  Once 
+again, 
+is  not  a  discrete 
+component—it appears inside the transistor. 
+ The transistor’s transfer characteristic can be used 
+to predict the current gain of a transistor amplifier 
+stage. Since the transfer characteristic is linear, the 
+current  gain  remains  reasonably  constant  over  a 
+range  of  collector  current.  Figure  7.27  shows  a 
+typical transfer characteristic in which the transistor 
+is operated with a base current, IB, of 240 µA. This 
+current produces a collector current, IC, of 12 mA. 
+The  current  gain  corresponding  to  these  steady 
+(d.c.) values will be given by: 

@@ -1,0 +1,9 @@
+In this section, we compare frequency domain versus time domain analysis using
+the compensated attenuator (or compensated voltage divider) as an example.
+The simple voltage dividers discussed in Section 2.3.4 do not work very well at
+high frequencies. In most circuits, some parasitic shunt capacitance is present,
+represented in Figure 13.45a by capacitor C2. If the drive is a low-frequency sine
+wave, the attenuation of the voltage divider is R2/(R1 + R2) as expected, but at
+high frequencies the capacitance causes the attenuation to increase beyond this
+desired value. This effect can be readily shown by a frequency domain analysis
+of the voltage divider.

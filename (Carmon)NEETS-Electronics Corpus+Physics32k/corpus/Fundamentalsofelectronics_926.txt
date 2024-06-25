@@ -1,0 +1,16 @@
+• Eﬃciency: The Source Coding Theorem allows quantiﬁcation of just how complex a given message
+source is and allows us to exploit that complexity by source coding (compression). In analog commu-
+nication, the only parameters of interest are message bandwidth and amplitude. We cannot exploit
+signal structure to achieve a more eﬃcient communication system.
+• Performance: Because of the Noisy Channel Coding Theorem, we have a speciﬁc criterion by which
+to formulate error-correcting codes that can bring us as close to error-free transmission as we might
+want. Even though we may send information by way of a noisy channel, digital schemes are capable
+of error-free transmission while analog ones cannot overcome channel disturbances; see this problem
+(Problem 6.15) for a comparison.
+• Flexibility: Digital communication systems can transmit real-valued discrete-time signals, which
+could be analog ones obtained by analog-to-digital conversion, and symbolic-valued ones (computer
+data, for example). Any signal that can be transmitted by analog means can be sent by digital means,
+with the only issue being the number of bits used in A/D conversion (how accurately do we need
+to represent signal amplitude).
+Images can be sent by analog means (commercial television), but
+better communication performance occurs when we use digital systems (HDTV). In addition to digital

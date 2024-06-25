@@ -1,0 +1,9 @@
+A Track algorithm is a radar performance enhancement strategy. Tracking algorithms provide the ability to predict future position of multiple moving objects based on the history of the individual positions being reported by sensor systems.
+Historical information is accumulated and used to predict future position for use with air traffic control, threat estimation, combat system doctrine, gun aiming, and missile guidance. Position data is accumulated radar sensors over the span of a few minutes.
+There are four common track algorithms.
+Nearest neighbour algorithm
+Probabilistic Data Association
+Multiple Hypothesis Tracking
+Interactive Multiple Model (IMM)
+Radar video returns from aircraft can be subjected to a plot extraction process whereby spurious and interfering signals are discarded. A sequence of target returns can be monitored through a device known as a plot extractor.
+The non-relevant real time returns can be removed from the displayed information and a single plot displayed. In some radar systems, or alternatively in the command and control system to which the radar is connected, a radar tracker is used to associate the sequence of plots belonging to individual targets and estimate the targets' headings and speeds.

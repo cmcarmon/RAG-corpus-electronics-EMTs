@@ -1,0 +1,6 @@
+Decision-Feedback Equalizers
+A  DFE  takes  advantage  of  the  symbols  that  have  already  been  detected  (correctly  with  high  probability)  to
+cancel the ISI due to these symbols without noise enhancement. A DFE makes memoryless decisions and cancels
+all trailing ISI terms. Even when the whitened matched ﬁlter (WMF) is used as the receive ﬁlter for the DFE,
+the  DFE  suffers  from  a  reduced  effective  signal-to-noise  ratio,  and  error  propagation,  due  to  its  inability  to
+defer decisions.

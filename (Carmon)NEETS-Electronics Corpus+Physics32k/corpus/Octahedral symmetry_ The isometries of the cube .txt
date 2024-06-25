@@ -1,0 +1,37 @@
+(To be integrated in the rest of the text.)
+The cube has 48 isometries (symmetry elements), forming the symmetry group Oh, isomorphic to S4 × C2. They can be categorized as follows:
+O (the identity and 23 proper rotations) with the following conjugacy classes (in parentheses are given the permutations of the body diagonals and the unit quaternion representation):
+identity (identity; 1)
+rotation about an axis from the center of a face to the center of the opposite face by an angle of 90°: 3 axes, 2 per axis, together 6 ((1 2 3 4), etc.; ((1±i)/√2, etc.)
+ditto by an angle of 180°: 3 axes, 1 per axis, together 3 ((1 2) (3 4), etc.; i,j,k)
+rotation about an axis from the center of an edge to the center of the opposite edge by an angle of 180°: 6 axes, 1 per axis, together 6 ((1 2), etc.; ((i±j)/√2, etc.)
+rotation about a body diagonal by an angle of 120°: 4 axes, 2 per axis, together 8 ((1 2 3), etc.; (1±i±j±k)/2)
+
+The same with inversion (x is mapped to −x) (also 24 isometries). Note that rotation by an angle of 180° about an axis combined with inversion is just reflection in the perpendicular plane. The combination of inversion and rotation about a body diagonal by an angle of 120° is rotation about the body diagonal by an angle of 60°, combined with reflection in the perpendicular plane (the rotation itself does not map the cube to itself; the intersection of the reflection plane with the cube is a regular hexagon).
+An isometry of the cube can be identified in various ways:
+by the faces three given adjacent faces (say 1, 2, and 3 on a die) are mapped to
+by the image of a cube with on one face a non-symmetric marking: the face with the marking, whether it is normal or a mirror image, and the orientation
+by a permutation of the four body diagonals (each of the 24 permutations is possible), combined with a toggle for inversion of the cube, or not
+For cubes with colors or markings (like dice have), the symmetry group is a subgroup of Oh.
+Examples:
+C4v, [4], (*422): if one face has a different color (or two opposite faces have colors different from each other and from the other four), the cube has 8 isometries, like a square has in 2D.
+D2h, [2,2], (*222): if opposite faces have the same colors, different for each set of two, the cube has 8 isometries, like a cuboid.
+D4h, [4,2], (*422): if two opposite faces have the same color, and all other faces have one different color, the cube has 16 isometries, like a square prism (square box).
+C2v, [2], (*22):
+if two adjacent faces have the same color, and all other faces have one different color, the cube has 4 isometries.
+if three faces, of which two opposite to each other, have one color and the other three one other color, the cube has 4 isometries.
+if two opposite faces have the same color, and two other opposite faces also, and the last two have different colors, the cube has 4 isometries, like a piece of blank paper with a shape with a mirror symmetry.
+
+Cs, [ ], (*):
+if two adjacent faces have colors different from each other, and the other four have a third color, the cube has 2 isometries.
+if two opposite faces have the same color, and all other faces have different colors, the cube has 2 isometries, like an asymmetric piece of blank paper.
+
+C3v, [3], (*33): if three faces, of which none opposite to each other, have one color and the other three one other color, the cube has 6 isometries.
+For some larger subgroups a cube with that group as symmetry group is not possible with just coloring whole faces. One has to draw some pattern on the faces.
+Examples:
+D2d, [2+,4], (2*2): if one face has a line segment dividing the face into two equal rectangles, and the opposite has the same in perpendicular direction, the cube has 8 isometries; there is a symmetry plane and 2-fold rotational symmetry with an axis at an angle of 45° to that plane, and, as a result, there is also another symmetry plane perpendicular to the first, and another axis of 2-fold rotational symmetry perpendicular to the first.
+Th, [3+,4], (3*2): if each face has a line segment dividing the face into two equal rectangles, such that the line segments of adjacent faces do not meet at the edge, the cube has 24 isometries: the even permutations of the body diagonals and the same combined with inversion (x is mapped to −x).
+Td, [3,3], (*332): if the cube consists of eight smaller cubes, four white and four black, put together alternatingly in all three standard directions, the cube has again 24 isometries: this time the even permutations of the body diagonals and the inverses of the other proper rotations.
+T, [3,3]+, (332): if each face has the same pattern with 2-fold rotational symmetry, say the letter S, such that at all edges a top of one S meets a side of the other S, the cube has 12 isometries: the even permutations of the body diagonals.
+The full symmetry of the cube, Oh, [4,3], (*432), is preserved if and only if all faces have the same pattern such that the full symmetry of the square is preserved, with for the square a symmetry group, Dih4, [4], of order 8.
+The full symmetry of the cube under proper rotations, O, [4,3]+, (432), is preserved if and only if all faces have the same pattern with 4-fold rotational symmetry, C4, [4]+.

@@ -1,0 +1,7 @@
+For CC-NUMA systems, an important task for the operating
+system is to exploit temporal and spatial locality of data to
+reduce the need for remote storage access. For instance, spatial
+locality can be improved by organizing application data into
+pages to be stored locally to the processor. Another technique
+is to support page migration: pages in virtual memory can be
+moved to a node that requires them frequently.

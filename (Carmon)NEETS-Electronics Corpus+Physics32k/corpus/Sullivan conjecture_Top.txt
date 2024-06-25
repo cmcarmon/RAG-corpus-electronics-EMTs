@@ -1,0 +1,536 @@
+In mathematics, Sullivan conjecture can refer to any of several results and conjectures prompted by homotopy theory work of Dennis Sullivan. A basic theme and motivation concerns the fixed point set in group actions of a finite group
+
+
+
+G
+
+
+{\displaystyle G}
+. The most elementary formulation, however, is in terms of the classifying space
+
+
+
+B
+G
+
+
+{\displaystyle BG}
+of such a group. Roughly speaking, it is difficult to map such a space
+
+
+
+B
+G
+
+
+{\displaystyle BG}
+continuously into a finite CW complex
+
+
+
+X
+
+
+{\displaystyle X}
+in a non-trivial manner. Such a version of the Sullivan conjecture was first proved by Haynes Miller. Specifically, in 1984, Miller proved that the function space, carrying the compact-open topology, of base point-preserving mappings from
+
+
+
+B
+G
+
+
+{\displaystyle BG}
+to
+
+
+
+X
+
+
+{\displaystyle X}
+is weakly contractible.
+This is equivalent to the statement that the map
+
+
+
+X
+
+
+{\displaystyle X}
+→
+
+
+
+F
+(
+B
+G
+,
+X
+)
+
+
+{\displaystyle F(BG,X)}
+from X to the function space of maps
+
+
+
+B
+G
+
+
+{\displaystyle BG}
+→
+
+
+
+X
+
+
+{\displaystyle X}
+, not necessarily preserving the base point, given by sending a point
+
+
+
+x
+
+
+{\displaystyle x}
+of
+
+
+
+X
+
+
+{\displaystyle X}
+to the constant map whose image is
+
+
+
+x
+
+
+{\displaystyle x}
+is a weak equivalence. The mapping space
+
+
+
+F
+(
+B
+G
+,
+X
+)
+
+
+{\displaystyle F(BG,X)}
+is an example of a homotopy fixed point set. Specifically,
+
+
+
+F
+(
+B
+G
+,
+X
+)
+
+
+{\displaystyle F(BG,X)}
+is the homotopy fixed point set of the group
+
+
+
+G
+
+
+{\displaystyle G}
+acting by the trivial action on
+
+
+
+X
+
+
+{\displaystyle X}
+. In general, for a group
+
+
+
+G
+
+
+{\displaystyle G}
+acting on a space
+
+
+
+X
+
+
+{\displaystyle X}
+, the homotopy fixed points are the fixed points
+
+
+
+F
+(
+E
+G
+,
+X
+
+)
+
+G
+
+
+
+
+{\displaystyle F(EG,X)^{G}}
+of the mapping space
+
+
+
+F
+(
+E
+G
+,
+X
+)
+
+
+{\displaystyle F(EG,X)}
+of maps from the universal cover
+
+
+
+E
+G
+
+
+{\displaystyle EG}
+of
+
+
+
+B
+G
+
+
+{\displaystyle BG}
+to
+
+
+
+X
+
+
+{\displaystyle X}
+under the
+
+
+
+G
+
+
+{\displaystyle G}
+-action on
+
+
+
+F
+(
+E
+G
+,
+X
+)
+
+
+{\displaystyle F(EG,X)}
+given by
+
+
+
+g
+
+
+{\displaystyle g}
+in
+
+
+
+G
+
+
+{\displaystyle G}
+acts on a map
+
+
+
+f
+
+
+{\displaystyle f}
+in
+
+
+
+F
+(
+E
+G
+,
+X
+)
+
+
+{\displaystyle F(EG,X)}
+by sending it to
+
+
+
+g
+f
+
+g
+
+−
+1
+
+
+
+
+{\displaystyle gfg^{-1}}
+. The
+
+
+
+G
+
+
+{\displaystyle G}
+-equivariant map from
+
+
+
+E
+G
+
+
+{\displaystyle EG}
+to a single point
+
+
+
+∗
+
+
+{\displaystyle *}
+induces a natural map η:
+
+
+
+
+X
+
+G
+
+
+=
+F
+(
+∗
+,
+X
+
+)
+
+G
+
+
+
+
+{\displaystyle X^{G}=F(*,X)^{G}}
+→
+
+
+
+F
+(
+E
+G
+,
+X
+
+)
+
+G
+
+
+
+
+{\displaystyle F(EG,X)^{G}}
+from the fixed points to the homotopy fixed points of
+
+
+
+G
+
+
+{\displaystyle G}
+acting on
+
+
+
+X
+
+
+{\displaystyle X}
+. Miller's theorem is that η is a weak equivalence for trivial
+
+
+
+G
+
+
+{\displaystyle G}
+-actions on finite-dimensional CW complexes. An important ingredient and motivation (see [1]) for his proof is a result of Gunnar Carlsson on the homology of
+
+
+
+B
+Z
+
+/
+
+2
+
+
+{\displaystyle BZ/2}
+as an unstable module over the Steenrod algebra.
+Miller's theorem generalizes to a version of Sullivan's conjecture in which the action on
+
+
+
+X
+
+
+{\displaystyle X}
+is allowed to be non-trivial. In, Sullivan conjectured that η is a weak equivalence after a certain p-completion procedure due to A. Bousfield and D. Kan for the group
+
+
+
+G
+=
+Z
+
+/
+
+2
+
+
+{\displaystyle G=Z/2}
+. This conjecture was incorrect as stated, but a correct version was given by Miller, and proven independently by Dwyer-Miller-Neisendorfer, Carlsson, and Jean Lannes, showing that the natural map
+
+
+
+(
+
+X
+
+G
+
+
+
+)
+
+p
+
+
+
+
+{\displaystyle (X^{G})_{p}}
+→
+
+
+
+F
+(
+E
+G
+,
+(
+X
+
+)
+
+p
+
+
+
+)
+
+G
+
+
+
+
+{\displaystyle F(EG,(X)_{p})^{G}}
+is a weak equivalence when the order of
+
+
+
+G
+
+
+{\displaystyle G}
+is a power of a prime p, and where
+
+
+
+(
+X
+
+)
+
+p
+
+
+
+
+{\displaystyle (X)_{p}}
+denotes the Bousfield-Kan p-completion of
+
+
+
+X
+
+
+{\displaystyle X}
+. Miller's proof involves an unstable Adams spectral sequence, Carlsson's proof uses his affirmative solution of the Segal conjecture and also provides information about the homotopy fixed points
+
+
+
+F
+(
+E
+G
+,
+X
+
+)
+
+G
+
+
+
+
+{\displaystyle F(EG,X)^{G}}
+before completion, and Lannes's proof involves his T-functor.

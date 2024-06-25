@@ -1,0 +1,10 @@
+(see Figure 2.9) (Kim et al., 1998; Kirihata et al., 1998). So the
+low-power operation per bit is only feasible when the chips
+operate in burst mode with entire (parts of) memory
+column(s) transferred over the external bus. This is not di-
+rectly compatible with the actual use of the data in the proces-
+sor data paths, so without a buffer to the processors, most of
+the data words that are exchanged would be useless (and
+discarded). Obviously, the effective energy consumption per
+useful bit becomes very high in that case, and the effective
+bandwidth is low.

@@ -1,0 +1,415 @@
+The equation takes the same form as an undamped nonlinear oscillator(with cubic potential) one can pretend that
+
+
+
+θ
+
+
+{\displaystyle \theta }
+is time,
+
+
+
+F
+
+
+{\displaystyle F}
+is displacement and
+
+
+
+
+F
+′
+
+
+
+{\displaystyle F'}
+is velocity of a particle with unit mass, then the equation represents the energy equation(
+
+
+
+K
+.
+E
+.
++
+P
+.
+E
+.
+=
+0
+
+
+{\displaystyle K.E.+P.E.=0}
+, where
+
+
+
+K
+.
+E
+.
+=
+
+
+1
+2
+
+
+
+F
+
+′
+
+2
+
+
+
+
+
+{\displaystyle K.E.={\frac {1}{2}}F'^{2}}
+and
+
+
+
+P
+.
+E
+.
+=
+V
+(
+F
+)
+
+
+{\displaystyle P.E.=V(F)}
+) with zero total energy, then it is easy to see that the potential energy is
+
+
+
+
+V
+(
+F
+)
+=
+−
+
+
+1
+3
+
+
+(
+a
+−
+F
+)
+(
+F
+−
+b
+)
+(
+F
+−
+c
+)
+
+
+{\displaystyle V(F)=-{\frac {1}{3}}(a-F)(F-b)(F-c)}
+
+where
+
+
+
+V
+≤
+0
+
+
+{\displaystyle V\leq 0}
+in motion. Since the particle starts at
+
+
+
+F
+=
+0
+
+
+{\displaystyle F=0}
+for
+
+
+
+θ
+=
+−
+α
+
+
+{\displaystyle \theta =-\alpha }
+and ends at
+
+
+
+F
+=
+0
+
+
+{\displaystyle F=0}
+for
+
+
+
+θ
+=
+α
+
+
+{\displaystyle \theta =\alpha }
+, there are two cases to be considered.
+First case
+
+
+
+b
+,
+c
+
+
+{\displaystyle b,c}
+are complex conjugates and
+
+
+
+a
+>
+0
+
+
+{\displaystyle a>0}
+. The particle starts at
+
+
+
+F
+=
+0
+
+
+{\displaystyle F=0}
+with finite positive velocity and attains
+
+
+
+F
+=
+a
+
+
+{\displaystyle F=a}
+where its velocity is
+
+
+
+
+F
+′
+
+=
+0
+
+
+{\displaystyle F'=0}
+and acceleration is
+
+
+
+
+F
+″
+
+=
+−
+d
+V
+
+/
+
+d
+F
+<
+0
+
+
+{\displaystyle F''=-dV/dF<0}
+and returns to
+
+
+
+F
+=
+0
+
+
+{\displaystyle F=0}
+at final time. The particle motion
+
+
+
+0
+<
+F
+<
+a
+
+
+{\displaystyle 0<F<a}
+represents pure outflow motion because
+
+
+
+F
+>
+0
+
+
+{\displaystyle F>0}
+and also it is symmetric about
+
+
+
+θ
+=
+0
+
+
+{\displaystyle \theta =0}
+.
+Second case
+
+
+
+c
+<
+b
+<
+0
+<
+a
+
+
+{\displaystyle c<b<0<a}
+, all constants are real. The motion from
+
+
+
+F
+=
+0
+
+
+{\displaystyle F=0}
+to
+
+
+
+F
+=
+a
+
+
+{\displaystyle F=a}
+to
+
+
+
+F
+=
+0
+
+
+{\displaystyle F=0}
+represents a pure symmetric outflow as in the previous case. And the motion
+
+
+
+F
+=
+0
+
+
+{\displaystyle F=0}
+to
+
+
+
+F
+=
+b
+
+
+{\displaystyle F=b}
+to
+
+
+
+F
+=
+0
+
+
+{\displaystyle F=0}
+with
+
+
+
+F
+<
+0
+
+
+{\displaystyle F<0}
+for all time(
+
+
+
+−
+α
+≤
+θ
+≤
+α
+
+
+{\displaystyle -\alpha \leq \theta \leq \alpha }
+) represents a pure symmetric inflow. But also, the particle may oscillate between
+
+
+
+b
+≤
+F
+≤
+a
+
+
+{\displaystyle b\leq F\leq a}
+, representing both inflow and outflow regions and the flow is no longer need to symmetric about
+
+
+
+θ
+=
+0
+
+
+{\displaystyle \theta =0}
+.
+The rich structure of this dynamical interpretation can be found in Rosenhead(1940).

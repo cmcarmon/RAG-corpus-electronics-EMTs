@@ -1,0 +1,123 @@
+Let one rewrite eq. 6 in the form
+
+where
+
+is the three-dimensional metric tensor that determines the metric, that is, the geometrical properties of space. Equations eq. 8 give the relationships between the metric of the three-dimensional space and the metric of the four-dimensional spacetime.
+In general, however, the metric gik depends on x0 so that the space metric eq. 7 changes with time. Therefore, it doesn't make sense to integrate dl: this integral depends on the choice of world line between the two points on which it is taken. It follows that in general relativity the distance between two bodies cannot be determined in general; this distance is determined only for infinitesimally close points. Distance can be determined also for finite space regions only in such reference frames in which gik does not depend on time and therefore the integral ∫dl along the space curve acquires some definite sense.
+The tensor –γαβ is inverse to the contravariant 3-dimensional tensor gαβ. Indeed, writing equation gikgkl =
+
+
+
+
+
+
+δ
+
+l
+
+
+i
+
+
+
+
+
+
+{\displaystyle \scriptstyle {\delta _{l}^{i}}}
+in components, one has:
+
+
+
+
+
+g
+
+α
+β
+
+
+
+g
+
+β
+γ
+
+
++
+
+g
+
+α
+0
+
+
+
+g
+
+0
+γ
+
+
+=
+
+δ
+
+γ
+
+
+α
+
+
+,
+
+
+{\displaystyle g^{\alpha \beta }g_{\beta \gamma }+g^{\alpha 0}g_{0\gamma }=\delta _{\gamma }^{\alpha },}
+
+
+
+
+
+
+g
+
+0
+β
+
+
+
+g
+
+β
+0
+
+
++
+
+g
+
+00
+
+
+
+g
+
+00
+
+
+=
+1.
+
+
+{\displaystyle g^{0\beta }g_{\beta 0}+g^{00}g_{00}=1.}
+
+Determine gα0 from the second equation and substitute in the first to obtain
+
+which was to be demonstrated. This result can be presented otherwise by saying that gαβ are components of a contravariant 3-dimensional tensor corresponding to metric eq. 7:
+
+The determinants g and γ composed of elements gik and γαβ, respectively, are related to each other by the simple relationship:
+
+In many applications, it is convenient to define a 3-dimensional vector g with covariant components
+
+Considering g as a vector in space with metric eq. 7, its contravariant components can be written as gα = γαβgβ. Using eq. 11 and the second of eqs. 9, it is easy to see that
+
+From the third of eqs. 9, it follows

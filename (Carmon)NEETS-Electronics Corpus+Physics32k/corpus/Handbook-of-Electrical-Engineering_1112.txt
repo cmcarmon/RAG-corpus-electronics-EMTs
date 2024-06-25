@@ -1,0 +1,7 @@
+In  this  section,  attention  will  be  restricted  to  frequency-selective  ﬁlters.  These  ﬁlters  are  intended  to  pass
+frequency components of the input sequence in a given band of the spectrum while blocking the rest. Typical
+frequency-selective ﬁlter types are low-pass, high-pass, bandpass, and band-reject. Other special-purpose ﬁlters
+exist,  but  their  design  is  an  advanced  topic  that  will  not  be  addressed  here.  In  addition,  special  attention  is
+given to causal ﬁlters, that is, those for which the impulse response is identically zero for negative n and thus
+can  be  realized  in  real  time.  Digital  ﬁlters  are  further  separated  into  two  classes  depending  on  whether  the
+impulse response contains a ﬁnite or inﬁnite number of nonzero terms.

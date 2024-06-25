@@ -1,0 +1,14 @@
+The Strictly-Correlated-Electrons (SCE) density functional theory (SCE DFT) approach, originally proposed by Michael Seidl [1], is a formulation of density functional theory, alternative to the widely used Kohn-Sham DFT, especially aimed at the study of strongly-correlated systems. The essential difference between the two approaches is the choice of the auxiliary system (having the same density
+
+
+
+n
+(
+
+r
+
+)
+
+
+{\displaystyle n(\mathbf {r} )}
+as the real, physical one). In Kohn-Sham DFT this system is composed by non-interacting electrons, for which the kinetic energy can be calculated exactly and the interaction term has to be approximated. In SCE DFT, instead, the starting point is totally the opposite one: the auxiliary system has infinite electronic correlation and zero kinetic energy.

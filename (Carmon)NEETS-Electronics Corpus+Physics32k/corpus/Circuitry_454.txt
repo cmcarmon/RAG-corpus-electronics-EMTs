@@ -1,0 +1,18 @@
+Eventually, the voltage at the inverting input will 
+have reached a value that causes the voltage at the 
+inverting  input  to  exceed  that  present  at  the  non-
+inverting  input.  At  this  point,  the  output  voltage 
+will  rapidly  fall  to  2VCC. Capacitor,  C, will  then 
+start to charge in the other direction and the voltage 
+at 
+fall 
+exponentially.  
+  Eventually, the voltage at the inverting input will 
+have reached a value that causes the voltage at the 
+inverting  input  to  be  less  than  that  present  at  the 
+non-inverting  input.  At  this  point,  the  output 
+voltage will rise rapidly to +VCC once again and the 
+cycle will continue indefinitely.  
+  The upper threshold voltage (i.e. the maximum 
+positive value for the voltage at the inverting input) 
+will be given by: 

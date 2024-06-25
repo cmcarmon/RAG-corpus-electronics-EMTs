@@ -1,0 +1,46 @@
+Jerking the stick sideways and returning it to center causes a net change in roll orientation.
+The roll motion is characterized by an absence of natural stability, there are no stability derivatives which generate moments in response to the inertial roll angle. A roll disturbance induces a roll rate which is only canceled by pilot or autopilot intervention. This takes place with insignificant changes in sideslip or yaw rate, so the equation of motion reduces to:
+
+
+
+
+A
+
+
+
+d
+p
+
+
+d
+t
+
+
+
+=
+
+L
+
+p
+
+
+p
+.
+
+
+{\displaystyle A{\frac {dp}{dt}}=L_{p}p.}
+
+
+
+
+
+
+L
+
+p
+
+
+
+
+{\displaystyle L_{p}}
+is negative, so the roll rate will decay with time. The roll rate reduces to zero, but there is no direct control over the roll angle.

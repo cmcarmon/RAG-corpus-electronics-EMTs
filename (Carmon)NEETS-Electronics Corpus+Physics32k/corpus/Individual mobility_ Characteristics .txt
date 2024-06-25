@@ -1,0 +1,135 @@
+At the large scale, when the behaviour is modelled over a period of relatively long duration (e.g. more than one day), human mobility can be described by three major components:
+trip distance distribution
+
+
+
+P
+(
+r
+)
+
+
+{\displaystyle P(r)}
+
+radius of gyration
+
+
+
+
+r
+
+g
+
+
+(
+t
+)
+
+
+{\displaystyle r_{g}(t)}
+
+number of visited locations
+
+
+
+S
+(
+t
+)
+
+
+{\displaystyle S(t)}
+
+Brockmann, by analysing banknotes, found that the probability of travel distance follows a scale-free random walk known as Lévy flight of form
+
+
+
+P
+(
+r
+)
+
+∼
+
+r
+
+−
+(
+1
++
+β
+)
+
+
+
+
+{\displaystyle P(r)\ \sim r^{-(1+\beta )}}
+where
+
+
+
+β
+=
+0.6
+
+
+{\displaystyle \beta =0.6}
+. This was later confirmed by two studies that used cell phone data and GPS data to track users. The implication of this model is that, as opposed to other more traditional forms of random walks such as brownian motion, human trips tend to be of mostly short distances with a few long distance ones. In brownian motion, the distribution of trip distances are govern by a bell-shaped curve, which means that the next trip is of a roughly predictable size, the average, where in Lévy flight it might be an order of magnitude larger than the average.
+Some people are inherently inclined to travel longer distances than the average, and the same is true for people with lesser urge for movement. Radius of gyration is used to capture just that and it indicates the characteristic distance travelled by a person during a time period t. Each user, within his radius of gyration
+
+
+
+
+r
+
+g
+
+
+(
+t
+)
+
+
+{\displaystyle r_{g}(t)}
+, will choose his trip distance according to
+
+
+
+P
+(
+r
+)
+
+
+{\displaystyle P(r)}
+.
+The third component models the fact that humans tend to visit some locations more often than what would have happened under a random scenario. For example, home or workplace or favorite restaurants are visited much more than many other places in a user's radius of gyration. It has been discovered that
+
+
+
+S
+(
+t
+)
+
+∼
+
+t
+
+μ
+
+
+
+
+{\displaystyle S(t)\ \sim t^{\mu }}
+where
+
+
+
+μ
+=
+0.6
+
+
+{\displaystyle \mu =0.6}
+, which indicates a sublinear growth in different number of places visited by an individual . These three measures capture the fact that most trips happen between a limited number of places, with less frequent travels to places outside of an individual's radius of gyration.

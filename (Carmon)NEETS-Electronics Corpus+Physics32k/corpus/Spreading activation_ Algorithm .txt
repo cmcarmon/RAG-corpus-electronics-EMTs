@@ -1,0 +1,13 @@
+A directed graph is populated by Nodes[ 1...N ] each having an associated activation value A [ i ] which is a real number in the range [ 0.0 ... 1.0]. A Link[ i, j ] connects source node[ i ] with target node[ j ]. Each edge has an associated weight W [ i, j ] usually a real number in the range [0.0 ... 1.0].
+Parameters:
+Firing threshold F, a real number in the range [0.0 ... 1.0]
+Decay factor D, a real number in the range [0.0 ... 1.0]
+Steps:
+Initialize the graph setting all activation values A [ i ] to zero. Set one or more origin nodes to an initial activation value greater than the firing threshold F. A typical initial value is 1.0.
+For each unfired node [ i ] in the graph having an activation value A [ i ] greater than the node firing threshold F:
+For each Link [ i, j ] connecting the source node [ i ] with target node [ j ], adjust A [ j ] = A [ j ] + (A [ i ] * W [ i, j ] * D) where D is the decay factor.
+If a target node receives an adjustment to its activation value so that it would exceed 1.0, then set its new activation value to 1.0. Likewise maintain 0.0 as a lower bound on the target node's activation value should it receive an adjustment to below 0.0.
+Once a node has fired it may not fire again, although variations of the basic algorithm permit repeated firings and loops through the graph.
+Nodes receiving a new activation value that exceeds the firing threshold F are marked for firing on the next spreading activation cycle.
+If activation originates from more than one node, a variation of the algorithm permits marker passing to distinguish the paths by which activation is spread over the graph
+The procedure terminates when either there are no more nodes to fire or in the case of marker passing from multiple origins, when a node is reached from more than one path. Variations of the algorithm that permit repeated node firings and activation loops in the graph, terminate after a steady activation state, with respect to some delta, is reached, or when a maximum number of iterations is exceeded.

@@ -1,0 +1,13 @@
+Consider a ripple-carry adder for which each stage is a full-
+adder cell dependent on the carry out from the previous stage.
+Each cell can receive all of its original inputs d time units only
+after the previous cell receives its inputs, and so it is not ready
+to perform a checking operation until after an additional d
+time units. Checking inputs must then be forwarded to each
+cell 2d time units after they have been input for the primary
+computation. The last checking computation completes (in the
+spare cell) 2d time units after the last original computation,
+giving a time overhead factor of 2/n for error detection in an
+n-cell adder. This can be reduced to 1/n since the spare is not
+needed for an original computation and can thus perform a
+checking computation earlier.

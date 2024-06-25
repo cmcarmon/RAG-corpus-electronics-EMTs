@@ -1,0 +1,7 @@
+We would interpret the voltage reading across the shunt resistor (between circuit nodes 1
+and 2 in the SPICE simulation) directly as amps, with 7.999E-04 being 0.7999 mA, or 799.9 µA.
+Ideally, 12 volts applied directly across 15 kΩ would give us exactly 0.8 mA, but the resistance
+of the shunt lessens that current just a tiny bit (as it would in real life). However, such a
+tiny error is generally well within acceptable limits of accuracy for either a simulation or a
+real circuit, and so shunt resistors can be used in all but the most demanding applications for
+accurate current measurement.

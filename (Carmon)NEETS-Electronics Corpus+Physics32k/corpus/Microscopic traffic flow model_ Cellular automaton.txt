@@ -1,0 +1,283 @@
+Cellular automaton (CA) models use integer variables to describe the dynamical properties of the system. The road is divided into sections of a certain length
+
+
+
+Δ
+x
+
+
+{\displaystyle \Delta x}
+and the time is discretized to steps of
+
+
+
+Δ
+t
+
+
+{\displaystyle \Delta t}
+. Each road section can either be occupied by a vehicle or empty and the dynamics are given by update rules of the form:
+
+
+
+
+
+v
+
+α
+
+
+t
++
+1
+
+
+=
+f
+(
+
+s
+
+α
+
+
+t
+
+
+,
+
+v
+
+α
+
+
+t
+
+
+,
+
+v
+
+α
+−
+1
+
+
+t
+
+
+,
+…
+)
+
+
+{\displaystyle v_{\alpha }^{t+1}=f(s_{\alpha }^{t},v_{\alpha }^{t},v_{\alpha -1}^{t},\ldots )}
+
+
+
+
+
+
+x
+
+α
+
+
+t
++
+1
+
+
+=
+
+x
+
+α
+
+
+t
+
+
++
+
+v
+
+α
+
+
+t
++
+1
+
+
+
+
+{\displaystyle x_{\alpha }^{t+1}=x_{\alpha }^{t}+v_{\alpha }^{t+1}}
+
+(the simulation time
+
+
+
+t
+
+
+{\displaystyle t}
+is measured in units of
+
+
+
+Δ
+t
+
+
+{\displaystyle \Delta t}
+and the vehicle positions
+
+
+
+
+x
+
+α
+
+
+
+
+{\displaystyle x_{\alpha }}
+in units of
+
+
+
+Δ
+x
+
+
+{\displaystyle \Delta x}
+).
+The time scale is typically given by the reaction time of a human driver,
+
+
+
+Δ
+t
+=
+1
+
+s
+
+
+
+{\displaystyle \Delta t=1{\text{s}}}
+. With
+
+
+
+Δ
+t
+
+
+{\displaystyle \Delta t}
+fixed, the length of the road sections determines the granularity of the model. At a complete standstill, the average road length occupied by one vehicle is approximately 7.5 meters. Setting
+
+
+
+Δ
+x
+
+
+{\displaystyle \Delta x}
+to this value leads to a model where one vehicle always occupies exactly one section of the road and a velocity of 5 corresponds to
+
+
+
+5
+Δ
+x
+
+/
+
+Δ
+t
+=
+135
+
+km/h
+
+
+
+{\displaystyle 5\Delta x/\Delta t=135{\text{km/h}}}
+, which is then set to be the maximum velocity a driver wants to drive at. However, in such a model, the smallest possible acceleration would be
+
+
+
+Δ
+x
+
+/
+
+(
+Δ
+t
+
+)
+
+2
+
+
+=
+7.5
+
+m
+
+
+/
+
+
+
+s
+
+
+2
+
+
+
+
+{\displaystyle \Delta x/(\Delta t)^{2}=7.5{\text{m}}/{\text{s}}^{2}}
+which is unrealistic. Therefore, many modern CA models use a finer spatial discretization, for example
+
+
+
+Δ
+x
+=
+1.5
+
+m
+
+
+
+{\displaystyle \Delta x=1.5{\text{m}}}
+, leading to a smallest possible acceleration of
+
+
+
+1.5
+
+m
+
+
+/
+
+
+
+s
+
+
+2
+
+
+
+
+{\displaystyle 1.5{\text{m}}/{\text{s}}^{2}}
+.
+Although cellular automaton models lack the accuracy of the time-continuous car-following models, they still have the ability to reproduce a wide range of traffic phenomena. Due to the simplicity of the models, they are numerically very efficient and can be used to simulate large road networks in realtime or even faster.

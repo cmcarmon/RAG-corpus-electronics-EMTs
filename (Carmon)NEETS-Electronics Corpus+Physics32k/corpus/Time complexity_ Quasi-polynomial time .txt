@@ -1,0 +1,127 @@
+Quasi-polynomial time algorithms are algorithms that run slower than polynomial time, yet not so slow as to be exponential time. The worst case running time of a quasi-polynomial time algorithm is
+
+
+
+
+2
+
+O
+(
+(
+log
+⁡
+n
+
+)
+
+c
+
+
+)
+
+
+
+
+{\displaystyle 2^{O((\log n)^{c})}}
+for some fixed
+
+
+
+c
+>
+0
+
+
+{\displaystyle c>0}
+. If the constant "c" in the definition of quasi-polynomial time algorithms is equal to 1, we get a polynomial time algorithm, and if it is less than 1, we get a sub-linear time algorithm.
+Quasi-polynomial time algorithms typically arise in reductions from an NP-hard problem to another problem. For example, one can take an instance of an NP hard problem, say 3SAT, and convert it to an instance of another problem B, but the size of the instance becomes
+
+
+
+
+2
+
+O
+(
+(
+log
+⁡
+n
+
+)
+
+c
+
+
+)
+
+
+
+
+{\displaystyle 2^{O((\log n)^{c})}}
+. In that case, this reduction does not prove that problem B is NP-hard; this reduction only shows that there is no polynomial time algorithm for B unless there is a quasi-polynomial time algorithm for 3SAT (and thus all of NP). Similarly, there are some problems for which we know quasi-polynomial time algorithms, but no polynomial time algorithm is known. Such problems arise in approximation algorithms; a famous example is the directed Steiner tree problem, for which there is a quasi-polynomial time approximation algorithm achieving an approximation factor of
+
+
+
+O
+(
+
+log
+
+3
+
+
+⁡
+n
+)
+
+
+{\displaystyle O(\log ^{3}n)}
+(n being the number of vertices), but showing the existence of such a polynomial time algorithm is an open problem.
+Other computational problems with quasi-polynomial time solutions but no known polynomial time solution include the planted clique problem in which the goal is to find a large clique in the union of a clique and a random graph. Although quasi-polynomially solvable, it has been conjectured that the planted clique problem has no polynomial time solution; this planted clique conjecture has been used as a computational hardness assumption to prove the difficulty of several other problems in computational game theory, property testing, and machine learning.
+The complexity class QP consists of all problems that have quasi-polynomial time algorithms. It can be defined in terms of DTIME as follows.
+
+
+
+
+
+
+QP
+
+
+=
+
+⋃
+
+c
+∈
+
+N
+
+
+
+
+
+DTIME
+
+
+(
+
+2
+
+(
+log
+⁡
+n
+
+)
+
+c
+
+
+
+
+)
+
+
+{\displaystyle {\mbox{QP}}=\bigcup _{c\in \mathbb {N} }{\mbox{DTIME}}(2^{(\log n)^{c}})}

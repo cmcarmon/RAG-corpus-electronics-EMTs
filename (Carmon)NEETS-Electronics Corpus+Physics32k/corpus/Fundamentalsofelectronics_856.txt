@@ -1,0 +1,9 @@
+As we shall explore in some detail elsewhere, digital communication is the transmission of symbolic-valued
+signals from one place to another. When faced with the problem, for example, of sending a ﬁle across the
+Internet, we must ﬁrst represent each character by a bit sequence. Because we want to send the ﬁle quickly,
+we want to use as few bits as possible. However, we don’t want to use so few bits that the receiver cannot
+determine what each character was from the bit sequence. For example, we could use one bit for every
+character: File transmission would be fast but useless because the codebook creates errors. Shannon proved
+in his monumental work what we call today the Source Coding Theorem. Let B (ak) denote the number
+of bits used to represent the symbol ak. The average number of bits B (A) required to represent the entire
+k=1 B (ak) Pr [ak]. The Source Coding Theorem states that the average number

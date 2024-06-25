@@ -1,0 +1,13 @@
+We may also classify computer systems according to the number of bits or bit pairs a computer executes at
+any instant [Feng, 1972]. For example, a computer may perform operations on one bit or bit pair at a time
+ times (Point A
+through the use of a simple serial ALU. For an 
+in Fig. 95.2). To speed up the processing, a parallel ALU is usually used so that all bits of a word can be operated
+on simultaneously. This is how a conventional word-sequential computer executes on its operands (Point B in
+ operands or operand pairs (i.e.,
+Fig. 95.2). In a parallel processor, it may execute either (a) all the 
+-bit  operands  or  operand  pairs  simultaneously  (Points  C  and  D  in  Fig.  95.2,
+bit  slice  or  bis)  or  (b)  all 
+respectively). Figure 95.2 also shows some of the systems in this classiﬁcation. It is seen from this classiﬁcation
+that  the  performance  of  a  computer  is  proportional  to  the  total  number  of  bits  or  bit  pairs  it  can  execute
+simultaneously.

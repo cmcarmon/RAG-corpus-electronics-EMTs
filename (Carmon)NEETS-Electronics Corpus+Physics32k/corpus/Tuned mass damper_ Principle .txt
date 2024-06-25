@@ -1,0 +1,284 @@
+Tuned mass dampers stabilize against violent motion caused by harmonic vibration. A tuned damper reduces the vibration of a system with a comparatively lightweight component so that the worst-case vibrations are less intense. Roughly speaking, practical systems are tuned to either move the main mode away from a troubling excitation frequency, or to add damping to a resonance that is difficult or expensive to damp directly. An example of the latter is a crankshaft torsional damper. Mass dampers are frequently implemented with a frictional or hydraulic component that turns mechanical kinetic energy into heat, like an automotive shock absorber.
+Given a motor with mass
+
+
+
+
+m
+
+1
+
+
+
+
+{\displaystyle m_{1}}
+attached via motor mounts to the ground, the motor vibrates as it operates and the soft motor mounts act as a parallel spring and damper,
+
+
+
+
+k
+
+1
+
+
+
+
+{\displaystyle k_{1}}
+and
+
+
+
+
+c
+
+1
+
+
+
+
+{\displaystyle c_{1}}
+. The force on the motor mounts is
+
+
+
+
+F
+
+0
+
+
+
+
+{\displaystyle F_{0}}
+. In order to reduce the maximum force on the motor mounts as the motor operates over a range of speeds, a smaller mass,
+
+
+
+
+m
+
+2
+
+
+
+
+{\displaystyle m_{2}}
+, is connected to
+
+
+
+
+m
+
+1
+
+
+
+
+{\displaystyle m_{1}}
+by a spring and a damper,
+
+
+
+
+k
+
+2
+
+
+
+
+{\displaystyle k_{2}}
+and
+
+
+
+
+c
+
+2
+
+
+
+
+{\displaystyle c_{2}}
+.
+
+
+
+
+F
+
+1
+
+
+
+
+{\displaystyle F_{1}}
+is the effective force on the motor due to its operation.
+
+The graph shows the effect of a tuned mass damper on a simple spring–mass–damper system, excited by vibrations with an amplitude of one unit of force applied to the main mass,
+
+
+
+
+m
+
+1
+
+
+
+
+{\displaystyle m_{1}}
+. An important measure of performance is the ratio of the force on the motor mounts to the force vibrating the motor,
+
+
+
+
+F
+
+0
+
+
+
+/
+
+
+F
+
+1
+
+
+
+
+{\displaystyle F_{0}/F_{1}}
+. This assumes that the system is linear, so if the force on the motor were to double, so would the force on the motor mounts. The blue line represents the baseline system, with a maximum response of 9 units of force at around 9 units of frequency. The red line shows the effect of adding a tuned mass of 10% of the baseline mass. It has a maximum response of 5.5, at a frequency of 7. As a side effect, it also has a second normal mode and will vibrate somewhat more than the baseline system at frequencies below about 6 and above about 10.
+The heights of the two peaks can be adjusted by changing the stiffness of the spring in the tuned mass damper. Changing the damping also changes the height of the peaks, in a complex fashion. The split between the two peaks can be changed by altering the mass of the damper (
+
+
+
+
+m
+
+2
+
+
+
+
+{\displaystyle m_{2}}
+).
+
+The Bode plot is more complex, showing the phase and magnitude of the motion of each mass, for the two cases, relative to F1.
+In the plots at right, the black line shows the baseline response (
+
+
+
+
+m
+
+2
+
+
+=
+0
+
+
+{\displaystyle m_{2}=0}
+). Now considering
+
+
+
+
+m
+
+2
+
+
+=
+
+m
+
+1
+
+
+
+/
+
+10
+
+
+{\displaystyle m_{2}=m_{1}/10}
+, the blue line shows the motion of the damping mass and the red line shows the motion of the primary mass. The amplitude plot shows that at low frequencies, the damping mass resonates much more than the primary mass. The phase plot shows that at low frequencies, the two masses are in phase. As the frequency increases
+
+
+
+
+m
+
+2
+
+
+
+
+{\displaystyle m_{2}}
+moves out of phase with
+
+
+
+
+m
+
+1
+
+
+
+
+{\displaystyle m_{1}}
+until at around 9.5 Hz it is 180° out of phase with
+
+
+
+
+m
+
+1
+
+
+
+
+{\displaystyle m_{1}}
+, maximizing the damping effect by maximizing the amplitude of
+
+
+
+
+x
+
+2
+
+
+−
+
+x
+
+1
+
+
+
+
+{\displaystyle x_{2}-x_{1}}
+, this maximizes the energy dissipated into
+
+
+
+
+c
+
+2
+
+
+
+
+{\displaystyle c_{2}}
+and simultaneously pulls on the primary mass in the same direction as the motor mounts.

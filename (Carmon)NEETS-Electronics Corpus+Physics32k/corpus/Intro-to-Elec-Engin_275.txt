@@ -1,0 +1,11 @@
+With the aid of theorems concerning Laplace transforms and the table of transforms, lin-
+ear differential equations can be solved by the Laplace transform method. Transformations of
+the terms of the differential equation yields an algebraic equation in terms of the variable s.
+Thereafter, the solution of the differential equation is affected by simple algebraic manipulations
+in the s-domain. By inverting the transform of the solution from the s-domain, one can get
+back to the time domain. The response due to each term in the partial-fraction expansion is
+determined directly from the transform table. There is no need to perform any kind of inte-
+gration. Because initial conditions are automatically incorporated into the Laplace transforms
+and the constants arising from the initial conditions are automatically evaluated, the resulting
+response expression yields directly the total solution. The ﬂow diagram is illustrated in Fig-
+ure 3.3.1.

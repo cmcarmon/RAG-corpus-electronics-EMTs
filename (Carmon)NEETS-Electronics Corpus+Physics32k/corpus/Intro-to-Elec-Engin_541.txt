@@ -1,0 +1,6 @@
+Registers
+A register is a collection of ﬂip ﬂops (and some basic combinational gates to perform different
+binary arithmetic and logic operations), where each ﬂip-ﬂop is used to store 1 bit of information.
+Figure 6.2.4(a) shows the block diagram of a 4-bit shift-right register that uses D ﬂip-ﬂops. JKFFs
+and SRFFs are also used in shift-register construction. Observe in the timing diagram of Figure
+6.2.4(b) that each successive clock pulse transfers (or shifts) the data bit from one ﬂip-ﬂop to the

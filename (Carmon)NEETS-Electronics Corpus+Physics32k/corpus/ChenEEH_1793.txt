@@ -1,0 +1,11 @@
+It also becomes necessary for every source to mathematically
+describe the trafﬁc characteristics of the trafﬁc it will be send-
+ing. For example, every source can describe its trafﬁc ﬂow
+characteristics using a trafﬁc descriptor that contains the
+peak rate, average rate, and maximum burst size (Kurose and
+Ross, 2001). This can be speciﬁed in terms of leaky bucket
+parameters, like the bucket size b, and the token rate r. In this
+case, the maximum burst size will be equal to the size of the
+bucket (i.e., b peak rate will be rT þ b, where T is the time
+taken to empty the whole bucket, and the average rate over
+time t is rt þ b).

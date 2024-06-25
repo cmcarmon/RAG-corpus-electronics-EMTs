@@ -1,0 +1,11 @@
+In addition to modeling difﬁculties, it should be realized that the digital simulation of a system can seldom
+be made perfectly consistent with the actual system under study. The simulation is affected by phenomena not
+present in the actual system. Examples are the aliasing errors resulting from the sampling operation and the
+ﬁnite  word  length  (quantization)  effects  present  in  the  simulation.  Practical  communication  systems  use  a
+number of ﬁlters, and modeling the analog ﬁlters present in the actual system by the digital ﬁlters required by
+the simulation involves a number of approximations. The assumptions and approximations used in modeling
+an analog ﬁlter using impulse-invariant digital ﬁlter synthesis techniques are quite different from the assump-
+z
+-transform  techniques.  Determining  the  appropriate  modeling
+tions  and  approximations  used  in  bilinear 
+technique requires careful thought.

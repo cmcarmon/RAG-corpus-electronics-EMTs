@@ -1,0 +1,16 @@
+Eventually, the output voltage will have fallen to a 
+value that causes the polarity of the voltage at the 
+non-inverting input of IC2 to change from positive 
+to  negative.  At  this  point,  the  output  of  IC2  will 
+rapidly  fall  to  2VCC. Again,  this  voltage  will  be 
+passed, via R, to IC1. Capacitor, C, will then start 
+to  charge  in  the  other  direction  and  the  output 
+voltage of IC1 will begin to rise.  
+  Some  time  later,  the  output  voltage  will  have 
+risen to a value that causes the polarity of the non-
+inverting  input  of  IC2  to  revert  to  its  original 
+(positive)  state  and 
+the  cycle  will  continue 
+indefinitely. 
+  The  upper  threshold  voltage  (i.e.  the  maximum 
+positive value for Vout) will be given by: 

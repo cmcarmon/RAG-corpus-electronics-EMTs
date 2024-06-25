@@ -1,0 +1,18 @@
+“1” will be represented on the output. To achieve AND operation, the device is initially set to its “off ” or logic
+y
+“0” state (i.e., y low and 
+ high) with preset pulse, Presety incident on only one pin diode as shown in Fig. 79.27.
+If both input signals have logic levels of “1” (i.e., set = 1, reset = 0), then the S-SEED AND gate is set to its
+“on” state. For any other input combination, there is no change of state, resulting in AND operation. After the
+signal beams determine the state of the device, the clock beams are then set high to read out the state of the
+y
+ output signal relative to
+AND gate. For NAND operation, the logic level is represented by the power of the 
+y
+the power of the y output signal. That is, when the power of the signal leaving the 
+ output is greater than
+the power of the signal leaving the y output, a logic “1” is present on the output. The operation of the OR and
+NOR  gates  is  identical  to  the AND  and  NAND  gates,  except  that  preset  pulse  Presety  is  used  instead  of  the
+preset  pulse  Preset
+.  Thus,  a  single  array  of  devices  can  perform  any  or  all  of  the  four  logic  functions  and
+memory functions with the proper optical interconnections and preset pulse routing.

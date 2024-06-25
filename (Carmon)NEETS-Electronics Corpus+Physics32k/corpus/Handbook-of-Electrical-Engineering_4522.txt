@@ -1,0 +1,6 @@
+Note  that  D  is  the  number  of  spatial  dimensions  in  the  problem  and  is  not  necessarily  the  sampling  dimensionality  d.  The
+distinction is important because when an appropriate Green’s function is available, the source integrals are usually one dimension
+less than the problem dimension, i.e., d =  D – 1. An exception is an inhomogeneous, penetrable body where d = D when using an
+IE. We also assume for simplicity that matrix solution is achieved via factorization rather than iteration but that banded matrices
+are  exploited  for  the  DE  approach  where  feasible.  The  solution-time  dependencies  given  can  thus  be  regarded  as  upper-bound
+estimates. See Table 45.10 for further discussion of linear-system solutions.

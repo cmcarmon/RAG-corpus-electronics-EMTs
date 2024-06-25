@@ -1,0 +1,9 @@
+A common procedure to examine solutions of Eq. (100.120) is to use a Nyquist diagram, where the G(jw)
+and C(a) = –1/N(a) loci are plotted as in Fig. 100.46, where they are shown intersecting for a = a0 and w = w
+0.
+The DF method indicates therefore that the system has a limit cycle with the input sinusoid to the nonlinearity,
+x, equal to a0 sin (w
+0t + f), where f depends on the initial conditions. When the G(jw) and C(a) loci do not
+intersect, the DF method predicts that no limit cycle will exist if the Nyquist stability criterion is satisﬁed for
+G(jw) with respect to any point on the C(a) locus. Obviously, if the nonlinearity has unit gain for small inputs,
+the point (–1, j0) will lie on C(a) and may be used as the critical point, analogous to a linear system.

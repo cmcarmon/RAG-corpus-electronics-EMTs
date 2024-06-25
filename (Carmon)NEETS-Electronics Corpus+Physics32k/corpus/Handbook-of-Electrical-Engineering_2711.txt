@@ -1,0 +1,10 @@
+cell depends on three criteria. The cell should be free, i.e., the cell must have a minimum gain among the gains
+of all other free cells. A cell c has gain g if the number of interconnections between the cells of the two sets
+decreases by g units when c is moved from its current set to the other. Finally, the selected set’s move should
+not violate a predeﬁned balancing criterion that guarantees that the sizes of the two sets are almost equal. After
+moving the selected cell from its current set to the complementary set, it is no longer free. A new partition,
+which corresponds to the new instance of the two sets A and B, is created. The cost of a partition is deﬁned as
+the number of interconnections between cells in the two sets of the partition. The Fiduccia–Mattheyses algo-
+rithm  keeps  track  of  the  best  partition  encountered  so  far,  i.e.,  the  partition  with  the  minimum  cost.  The
+algorithm will move the selected cell to the complementary set even if its gain is negative. In this case, the new
+partition is worse than the previous one, but the move can eventually lead to better partitions.

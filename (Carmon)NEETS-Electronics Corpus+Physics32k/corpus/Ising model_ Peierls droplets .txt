@@ -1,0 +1,165 @@
+Shortly after Lenz and Ising constructed the Ising model, Peierls was able to explicitly show that a phase transition occurs in two dimensions.
+To do this, he compared the high-temperature and low temperature limits. At infinite temperature, β = 0, all configurations have equal probability. Each spin is completely independent of any other, and if typical configurations at infinite temperature are plotted so that plus/minus are represented by black and white, they look like television snow. For high, but not infinite temperature, there are small correlations between neighboring positions, the snow tends to clump a little bit, but the screen stays random looking, and there is no net excess of black or white.
+A quantitative measure of the excess is the magnetization, which is the average value of the spin:
+
+
+
+
+M
+=
+
+
+1
+N
+
+
+
+∑
+
+i
+=
+1
+
+
+N
+
+
+
+S
+
+i
+
+
+.
+
+
+{\displaystyle M={1 \over N}\sum _{i=1}^{N}S_{i}.}
+
+
+A bogus argument analogous to the argument in the last section now establishes that the magnetization in the Ising model is always zero.
+Every configuration of spins has equal energy to the configuration with all spins flipped.
+So for every configuration with magnetization M there is a configuration with magnetization −M with equal probability.
+The system should therefore spend equal amounts of time in the configuration with magnetization M as with magnetization −M.
+So the average magnetization (over all time) is zero.
+As before, this only proves that the average magnetization is zero at any finite volume. For an infinite system, fluctuations might not be able to push the system from a mostly-plus state to a mostly minus with a nonzero probability.
+For very high temperatures, the magnetization is zero, as it is at infinite temperature. To see this, note that if spin A has only a small correlation ε with spin B, and B is only weakly correlated with C, but C is otherwise independent of A, the amount of correlation of A and C goes like ε2. For two spins separated by distance L, the amount of correlation goes as εL but if there is more than one path by which the correlations can travel, this amount is enhanced by the number of paths.
+The number of paths of length L on a square lattice in d dimensions is
+
+
+
+
+N
+(
+L
+)
+=
+(
+2
+d
+
+)
+
+L
+
+
+
+
+{\displaystyle N(L)=(2d)^{L}}
+
+
+since there are 2d choices for where to go at each step.
+A bound on the total correlation is given by the contribution to the correlation by summing over all paths linking two points, which is bounded above by the sum over all paths of length L divided by
+
+
+
+
+
+∑
+
+L
+
+
+(
+2
+d
+
+)
+
+L
+
+
+
+ε
+
+L
+
+
+
+
+{\displaystyle \sum _{L}(2d)^{L}\varepsilon ^{L}}
+
+
+which goes to zero when ε is small.
+At low temperatures, β ≫ 1, the configurations are near the lowest energy configuration, the one where all the spins are plus or all the spins are minus. Peierls asked whether it is statistically possible at low temperature, starting with all the spins minus, to fluctuate to a state where most of the spins are plus. For this to happen, droplets of plus spin must be able to congeal to make the plus state.
+The energy of a droplet of plus spins in a minus background is proportional to the perimeter of the droplet L, where plus spins and minus spins neighbor each other. For a droplet with perimeter L, the area is somewhere between (L − 2)/2 (the straight line) and (L/4)2 (the square box). The probability cost for introducing a droplet has the factor e−βL, but this contributes to the partition function multiplied by the total number of droplets with perimeter L, which is less than the total number of paths of length L:
+
+
+
+
+N
+(
+L
+)
+<
+
+4
+
+2
+L
+
+
+.
+
+
+{\displaystyle N(L)<4^{2L}.}
+
+So that the total spin contribution from droplets, even overcounting by allowing each site to have a separate droplet, is bounded above by
+
+
+
+
+
+∑
+
+L
+
+
+
+L
+
+2
+
+
+
+4
+
+−
+2
+L
+
+
+
+e
+
+−
+4
+β
+L
+
+
+
+
+{\displaystyle \sum _{L}L^{2}4^{-2L}e^{-4\beta L}}
+
+which goes to zero at large β. For β sufficiently large, this exponentially suppresses long loops, so that they cannot occur, and the magnetization never fluctuates too far from −1.
+So Peierls established that the magnetization in the Ising model eventually defines superselection sectors, separated domains which are not linked by finite fluctuations.

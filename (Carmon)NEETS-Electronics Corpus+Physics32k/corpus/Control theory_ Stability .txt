@@ -1,0 +1,163 @@
+The stability of a general dynamical system with no input can be described with Lyapunov stability criteria.
+A linear system is called bounded-input bounded-output (BIBO) stable if its output will stay bounded for any bounded input.
+Stability for nonlinear systems that take an input is input-to-state stability (ISS), which combines Lyapunov stability and a notion similar to BIBO stability.
+For simplicity, the following descriptions focus on continuous-time and discrete-time linear systems.
+Mathematically, this means that for a causal linear system to be stable all of the poles of its transfer function must have negative-real values, i.e. the real part of each pole must be less than zero. Practically speaking, stability requires that the transfer function complex poles reside
+in the open left half of the complex plane for continuous time, when the Laplace transform is used to obtain the transfer function.
+inside the unit circle for discrete time, when the Z-transform is used.
+The difference between the two cases is simply due to the traditional method of plotting continuous time versus discrete time transfer functions. The continuous Laplace transform is in Cartesian coordinates where the
+
+
+
+x
+
+
+{\displaystyle x}
+axis is the real axis and the discrete Z-transform is in circular coordinates where the
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+axis is the real axis.
+When the appropriate conditions above are satisfied a system is said to be asymptotically stable; the variables of an asymptotically stable control system always decrease from their initial value and do not show permanent oscillations. Permanent oscillations occur when a pole has a real part exactly equal to zero (in the continuous time case) or a modulus equal to one (in the discrete time case). If a simply stable system response neither decays nor grows over time, and has no oscillations, it is marginally stable; in this case the system transfer function has non-repeated poles at the complex plane origin (i.e. their real and complex component is zero in the continuous time case). Oscillations are present when poles with real part equal to zero have an imaginary part not equal to zero.
+If a system in question has an impulse response of
+
+
+
+
+
+x
+[
+n
+]
+=
+
+0.5
+
+n
+
+
+u
+[
+n
+]
+
+
+{\displaystyle \ x[n]=0.5^{n}u[n]}
+
+then the Z-transform (see this example), is given by
+
+
+
+
+
+X
+(
+z
+)
+=
+
+
+1
+
+1
+−
+0.5
+
+z
+
+−
+1
+
+
+
+
+
+
+
+{\displaystyle \ X(z)={\frac {1}{1-0.5z^{-1}}}}
+
+which has a pole in
+
+
+
+z
+=
+0.5
+
+
+{\displaystyle z=0.5}
+(zero imaginary part). This system is BIBO (asymptotically) stable since the pole is inside the unit circle.
+However, if the impulse response was
+
+
+
+
+
+x
+[
+n
+]
+=
+
+1.5
+
+n
+
+
+u
+[
+n
+]
+
+
+{\displaystyle \ x[n]=1.5^{n}u[n]}
+
+then the Z-transform is
+
+
+
+
+
+X
+(
+z
+)
+=
+
+
+1
+
+1
+−
+1.5
+
+z
+
+−
+1
+
+
+
+
+
+
+
+{\displaystyle \ X(z)={\frac {1}{1-1.5z^{-1}}}}
+
+which has a pole at
+
+
+
+z
+=
+1.5
+
+
+{\displaystyle z=1.5}
+and is not BIBO stable since the pole has a modulus strictly greater than one.
+Numerous tools exist for the analysis of the poles of a system. These include graphical systems like the root locus, Bode plots or the Nyquist plots.
+Mechanical changes can make equipment (and control systems) more stable. Sailors add ballast to improve the stability of ships. Cruise ships use antiroll fins that extend transversely from the side of the ship for perhaps 30 feet (10 m) and are continuously rotated about their axes to develop forces that oppose the roll.

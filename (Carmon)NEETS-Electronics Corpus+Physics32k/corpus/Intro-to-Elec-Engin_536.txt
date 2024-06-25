@@ -1,0 +1,9 @@
+Decoders
+An n-bit binary code is capable of encoding up to 2n distinct elements of information. A
+decoder is a combinational network that decodes (converts) the n-bit binary-coded input to
+m outputs (m ≤ 2n). The block diagram of a 3-bit to 8-element decoder is shown in Figure
+6.2.1(a), wherein the three inputs are decoded into eight outputs, one for each combination
+of the input variables. In the truth table shown in Figure 6.2.1(b), observe that for each in-
+put combination, there is only one output that is equal to 1 (i.e., each combination selects
+only one of the eight outputs). The logic diagram of the 3-to-8 decoder is shown in Figure
+6.2.1(c).

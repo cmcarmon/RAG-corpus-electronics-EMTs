@@ -1,0 +1,6 @@
+FIGURE 17.3
+This image demonstrates the effects of quantization error. The upper left image is a coronary artery image
+with 8 bits (256 levels or shades of gray) per pixel. The upper right image has 4 bits/pixel (16 levels). The lower left image
+has 3 bits/pixel (8 levels). The lower right image has 2 bits/pixel (4 levels). Note the false contouring in the images as the
+number of possible levels in the pixel representation is reduced. This false contouring is the quantization error, and as the
+number of levels increases the quantization error decreases because fewer mistakes are being made in the representation.

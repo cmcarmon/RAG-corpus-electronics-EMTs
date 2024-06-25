@@ -1,0 +1,13 @@
+Karnaugh Maps and Logic Design
+Even though a truth table uniquely represents a logic function, it is clear that the same function may
+appear in different algebraic forms. While the Boolean identities can be used for the simpliﬁcation
+of a given algebraic form, it is desirable to have a systematic process that guarantees the minimum
+form with a minimum number of components. The map method, known as the Karnaugh map or,
+simply, the K map, which is a modiﬁed form of the truth table, provides a convenient procedure for
+obtaining a minimum SOP or POS of a Boolean expression. The K maps are usually restricted to
+up to ﬁve variables, since they become too cumbersome to manipulate for a larger number of vari-
+ables. Before we get into the details of K maps, it is necessary to introduce minterm and maxterm.
+When a product term contains each of the n variables of a function, it is called a minterm.
+For n variables, there are 2n possible minterms. The ith minterm of n variables is denoted by mi,
+where the subscript i, 0 ≤ i ≤ 2n − 1, represents the decimal equivalent of the binary number
+obtained when a variable in minterm is replaced by 1 and its complement is replaced by 0.

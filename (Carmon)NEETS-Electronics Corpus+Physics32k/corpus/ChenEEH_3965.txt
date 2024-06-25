@@ -1,0 +1,16 @@
+This chapter puts more emphasis on DSP algorithm to hard-
+ware synthesis and its hardware implementation. First, a DSP
+algorithm can be expressed as an n-level nested Do-loop, a
+recurrent equation, and a data ﬂow graph (DFG). Next, one of
+these representations gets synthesized to its hardware counter-
+part. The hardware architecture is not only driven by the
+algorithm representation but also the sampling rate of input/
+output signals. Due to limited hardware resources, operations
+and data of a particular algorithm can be scheduled at the right
+time and assigned at the right execution unit basis provided
+that the precedence and semantics are preserved. For a high-
+throughput application such as image/video processing, syn-
+thesis of a regular network of processing elements (PEs) is
+discussed in detail. Eventually,
+implementation technology
+and tools of a particular architecture are surveyed.

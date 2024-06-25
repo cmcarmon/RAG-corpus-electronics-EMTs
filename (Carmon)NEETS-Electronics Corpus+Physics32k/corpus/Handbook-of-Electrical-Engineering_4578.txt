@@ -1,0 +1,10 @@
+The numerical modeling error is itself composed of two components in general, the determination of which
+would normally involve one or more kinds of computation. The ﬁrst and generally more important of these
+components is the solution error that arises because the computer model used, even if solved exactly, would
+not  provide  an  exact  solution  for  the  idealized  problem  representation.  The  solution  error  arises  essentially
+because the computer model is solved using a ﬁnite number of unknowns. The other, generally less important
+contributor  to  the  numerical  modeling  error  is  the  equation  error  that  arises  because  the  numerical  results
+obtained from the computer model used may not numerically satisfy the modeling equations. The equation
+error may be caused both by roundoff due to the computer word size as well as the solution algorithm used,
+as in the case of iteration, for example. The impact of equation error can be expected to increase with increasing
+condition number of the direct matrix.

@@ -1,0 +1,5 @@
+Step 8 is the only step that ﬁts in the saturation region. The use of parameters VMAX and KAPPA is obvious,
+but one may question using ETA to ﬁt in the saturation region. The parameter ETA adjusts the threshold voltage
+with respect to Vds , and as such one could argue that ETA should be used to ﬁt measurements of Ids sweeping
+Vg s  and stepping Vds  to high values. In doing so, one will corrupt the ﬁt in the saturation region, and usually
+we want to ﬁt the saturation region better at the expense of the linear region.

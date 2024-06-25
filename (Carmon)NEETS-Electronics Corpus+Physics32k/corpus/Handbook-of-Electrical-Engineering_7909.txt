@@ -1,0 +1,10 @@
+An alternative ﬂip-ﬂop is the transparent latch, an interesting development of the simple latch. When enabled
+by a control signal, C, by setting C high or “1”, the latch becomes a transparent section of the data path and
+the data value at the input simply reappears at the output. When the control signal disables the latch, that is
+C is low or “0”, however, the last value applied to the latch is “frozen” and held until the control signal is taken
+high  again.  The  74LS373,  Fig. 81.29(a),  consists  of  eight  transparent  latches  with  a  common  control  input
+labeled  ENABLE.  The  74LS374,  Fig. 81.29(b),  is  a  typical  eight-bit  register  using  positive  edge-triggering  for
+all ﬂip-ﬂops. It includes 3S output gates designed speciﬁcally for driving highly capacitive loads, such as are
+found in bus-organized systems, and which respond to an output control signal operating quite independently
+of the ﬂip-ﬂops. Typical minimum timing ﬁgures for the 74LS373 and 74LS374 are shown in Fig. 81.29(c) and
+the waveforms occurring for the two different types of register are illustrated in Fig. 81.29(d).

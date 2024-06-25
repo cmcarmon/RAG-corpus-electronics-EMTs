@@ -1,0 +1,9 @@
+One  approach  to  compression  is  to  reduce  the  spatial  and/or  temporal  sampling  rate  and  the  number  of
+quantization  levels.  Unfortunately,  if  the  sampling  is  too  low  and  the  quantization  too  coarse,  aliasing,  con-
+touring, and ﬂickering will occur. These distortions are often much greater than the distortions introduced by
+more sophisticated techniques at the same compression rate. Compression systems can generally be modeled
+by the block diagram shown in Fig. 17.14. The ﬁrst stage of the compression system is the mapper. This is an
+operation  in  which  the  input  pixels  are  mapped  into  a  representation  that  can  be  more  effectively  encoded.
+This stage is generally reversible. The second stage is the quantizer and performs the same type of operation
+as  described  earlier.  This  stage  is  not  reversible.  The  ﬁnal  stage  attempts  to  remove  any  remaining  statistical
+redundancy. This stage is reversible and is typically achieved with one of the information-preserving coders.

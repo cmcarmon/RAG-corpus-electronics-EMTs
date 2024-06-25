@@ -1,0 +1,56 @@
+General-purpose registers 
+ 
+Many  microprocessor  operations  (for  example, 
+adding two 8-bit numbers together) require the use 
+of  more 
+is  also  a 
+requirement  for  temporarily  storing  the  partial 
+result  of  an  operation  whilst  other  operations  take 
+place. Both of these needs can be met by providing 
+a number  of  general-purpose  registers.  The  use  to 
+which these registers are put is left mainly up to the 
+programmer. 
+ 
+Stack pointer 
+ 
+When the time comes to  suspend a particular task 
+in  order  to  briefly  attend  to  something  else,  most 
+microprocessors  make  use  of  a  region  of  external 
+random access memory (RAM) known as a stack.
+When 
+the 
+microprocessor temporarily places in the stack the 
+contents  of  its  internal  registers  together  with  the 
+address of the next instruction in the main program. 
+When  the  interrupt  has  been  attended  to,  the 
+microprocessor  recovers  the  data  that  has  been 
+stored  temporarily  in  the  stack  together  with  the 
+address  of  the  next  instruction  within  the  main 
+program.  It  is  thus  able  to  return  to  the  main 
+program  exactly  where  it  left  off  and  with  all  the 
+data preserved in its registers. The stack pointer is 
+simply  a  register  that  contains  the  address  of  the 
+last used stack location. 
+ 
+Program counter 
+ 
+Programs consist of a sequence of instructions that 
+are  executed  by 
+the  microprocessor.  These 
+instructions  are  stored  in  external  random  access 
+memory  (RAM)  or  read-only  memory  (ROM). 
+Instructions  must  be  fetched  and  executed  by  the 
+microprocessor in a strict sequence. By storing the 
+address of the  next instruction to be executed, the 
+program counter allows the microprocessor to keep 
+track  of  where  it  is  within  the  program.  The 
+program  counter 
+incremented 
+when each instruction is executed. 
+ 
+Address bus buffer 
+ 
+The  address  bus  buffer  is  a  temporary  register 
+through  which  addresses  (in  this  case  comprising 
+16-bits)  pass  on 
+the 

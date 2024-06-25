@@ -1,0 +1,255 @@
+The equation for viscous resistance or linear drag is appropriate for objects or particles moving through a fluid at relatively slow speeds where there is no turbulence (i.e. low Reynolds number,
+
+
+
+
+R
+
+e
+
+
+<
+1
+
+
+{\displaystyle R_{e}<1}
+). Note that purely laminar flow only exists up to Re = 0.1 under this definition. In this case, the force of drag is approximately proportional to velocity. The equation for viscous resistance is:
+
+
+
+
+
+
+F
+
+
+d
+
+
+=
+−
+b
+
+v
+
+
+
+
+{\displaystyle \mathbf {F} _{d}=-b\mathbf {v} \,}
+
+where:
+
+
+
+
+
+
+
+b
+
+
+{\displaystyle \mathbf {} b}
+is a constant that depends on the properties of the fluid and the dimensions of the object, and
+
+
+
+
+
+v
+
+
+
+{\displaystyle \mathbf {v} }
+is the velocity of the object
+When an object falls from rest, its velocity will be
+
+
+
+
+v
+(
+t
+)
+=
+
+
+
+(
+ρ
+−
+
+ρ
+
+0
+
+
+)
+V
+g
+
+b
+
+
+
+(
+
+1
+−
+
+e
+
+−
+b
+t
+
+/
+
+m
+
+
+
+)
+
+
+
+{\displaystyle v(t)={\frac {(\rho -\rho _{0})Vg}{b}}\left(1-e^{-bt/m}\right)}
+
+which asymptotically approaches the terminal velocity
+
+
+
+
+
+
+
+v
+
+t
+
+
+=
+
+
+
+(
+ρ
+−
+
+ρ
+
+0
+
+
+)
+V
+g
+
+b
+
+
+
+
+{\displaystyle \mathbf {} v_{t}={\frac {(\rho -\rho _{0})Vg}{b}}}
+. For a given
+
+
+
+
+
+
+b
+
+
+{\displaystyle \mathbf {} b}
+, heavier objects fall more quickly.
+For the special case of small spherical objects moving slowly through a viscous fluid (and thus at small Reynolds number), George Gabriel Stokes derived an expression for the drag constant:
+
+
+
+
+b
+=
+6
+π
+η
+r
+
+
+
+{\displaystyle b=6\pi \eta r\,}
+
+where:
+
+
+
+
+
+
+
+r
+
+
+{\displaystyle \mathbf {} r}
+is the Stokes radius of the particle, and
+
+
+
+
+
+
+η
+
+
+{\displaystyle \mathbf {} \eta }
+is the fluid viscosity.
+The resulting expression for the drag is known as Stokes' drag:
+
+
+
+
+
+
+F
+
+
+d
+
+
+=
+−
+6
+π
+η
+r
+
+
+v
+
+.
+
+
+{\displaystyle \mathbf {F} _{d}=-6\pi \eta r\,\mathbf {v} .}
+
+For example, consider a small sphere with radius
+
+
+
+
+
+
+r
+
+
+{\displaystyle \mathbf {} r}
+= 0.5 micrometre (diameter = 1.0 µm) moving through water at a velocity
+
+
+
+
+
+
+v
+
+
+{\displaystyle \mathbf {} v}
+of 10 µm/s. Using 10−3 Pa·s as the dynamic viscosity of water in SI units, we find a drag force of 0.09 pN. This is about the drag force that a bacterium experiences as it swims through water.

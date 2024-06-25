@@ -1,0 +1,13 @@
+An outline of the Gauss-Seidel algorithm for solving the
+power ﬂow equations of 7.42 is presented next. Let us start
+with an initial condition for the bus voltages V 0
+bus, and we
+would like to compute the iterate V kþ1
+from the previous
+iterate V k
+bus. Recall that bus 1 is a slack bus and, hence,
+1 ¼ 1ﬀ0 for all iterations. Also, busses 2 through NG þ 1
+V k
+are PV busses; therefore we need to keep V k
+i at speciﬁed values
+Vi, specified ¼ V 0

@@ -1,0 +1,5 @@
+• Form a binary tree to the right of the table. A binary tree always has two branches at each node.
+Build the tree by merging the two lowest probability symbols at each level, making the probability of
+the node equal to the sum of the merged nodes’ probabilities. If more than two nodes/symbols share
+the lowest probability at a given level, pick any two; your choice won’t aﬀect B (A).
+• At each node, label each of the emanating branches with a binary number. The bit sequence obtained

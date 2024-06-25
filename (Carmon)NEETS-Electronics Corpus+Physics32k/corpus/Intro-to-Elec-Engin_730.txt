@@ -1,0 +1,11 @@
+Common-Emitter (CE) Conﬁguration
+The emitter part of a circuit being common to both the input and the output portions, Figure
+8.3.1(a) illustrates a common-emitter (CE) BJT ampliﬁer. The resistors R1, R2, RC, and RE are
+primarily set by biasing. The input ac source is represented by its Thévenin equivalent. The
+ampliﬁed output ac voltage vL appears across the load resistor RL, which could represent the
+input resistance of the next stage in a cascade. Capacitors CB, CC, and CE are so chosen that they
+represent short circuits at the lowest frequency of interest. CE would be made large enough so
+that 1/ωCE is small relative to RE in parallel with the impedance looking into the emitter at the
+smallest ω of interest. Similarly, the reactances of CC and CB would be chosen small relative to
+the resistances in their parts of the circuit. Capacitors CB and CC appear as short circuits to the ac
+signals, but block the dc voltages and currents out of one part of the circuit from coupling with

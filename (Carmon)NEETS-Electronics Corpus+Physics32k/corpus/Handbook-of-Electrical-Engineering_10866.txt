@@ -1,0 +1,6 @@
+FIGURE 112.3
+Using state-space matrices. A simple stability test showing the power of the matrix functions built-in to
+MATLAB. The Boolean function ‘all’ returns the value TRUE (or 1) if all the elements of the argument are non-zero. The
+argument is itself a vector of Boolean values (that is, those values of the vector of the poles of the A matrix that are negative).
+By treating matrices as “ﬁrst-class objects”, MATLAB provides many such opportunities for avoiding loops and other control
+structures required to do similar tasks in conventional languages.

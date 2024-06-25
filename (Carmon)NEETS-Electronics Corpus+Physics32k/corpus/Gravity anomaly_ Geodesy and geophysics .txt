@@ -1,0 +1,15 @@
+In geodesy and geophysics, the usual theoretical model is the gravity on the surface of a reference ellipsoid such as WGS84.
+To understand the nature of the gravity anomaly due to the subsurface, a number of corrections must be made to the measured gravity value:
+The theoretical gravity (smoothed normal gravity) should be removed in order to leave only local effects.
+The elevation of the point where each gravity measurement was taken must be reduced to a reference datum to compare the whole profile. This is called the Free-air Correction, and when combined with the removal of theoretical gravity leaves the free-air anomaly.
+the normal gradient of gravity (rate of change of gravity by change of elevation), as in free air, usually 0.3086 milligals per meter, or the Bouguer gradient of 0.1967 mGal/m (19.67 µm/(s²·m) which considers the mean rock density (2.67 g/cm³) beneath the point; this value is found by subtracting the gravity due to the Bouguer plate, which is 0.1119 mGal/m (11.19 µm/(s²·m)) for this density. Simply, we have to correct for the effects of any material between the point where gravimetry was done and the geoid. To do this we model the material in between as being made up of an infinite number of slabs of thickness t. These slabs have no lateral variation in density, but each slab may have a different density than the one above or below it. This is called the Bouguer correction.
+and (in special cases) a digital terrain model (DTM). A terrain correction, computed from a model structure, accounts for the effects of rapid lateral change in density, e.g. edge of plateau, cliffs, steep mountains, etc.
+
+For these reductions, different methods are used:
+The gravity changes as we move away from the surface of the Earth. For this reason, we must compensate with the free-air anomaly (or Faye's anomaly): application of the normal gradient 0.3086 mGal/m, but no terrain model. This anomaly means a downward shift of the point, together with the whole shape of the terrain. This simple method is ideal for many geodetic applications.
+simple Bouguer anomaly: downward reduction just by the Bouguer gradient (0.1967). This anomaly handles the point as if it is located on a flat plain.
+refined (or complete) Bouguer anomaly (usual abbreviation ΔgB): the DTM is considered as accurate as possible, using a standard density of 2.67 g/cm³ (granite, limestone). Bouguer anomalies are ideal for geophysics because they show the effects of different rock densities in the subsurface.
+The difference between the two - the differential gravitational effect of the unevenness of the terrain - is called the terrain effect. It is always negative (up to 100 milligals).
+The difference between Faye anomaly and ΔgB is called Bouguer reduction (attraction of the terrain).
+
+special methods like that of Poincaré-Prey, using an interior gravity gradient of about 0.0848 milligal per meter (848 nm/(s²·m)). These methods are valid for the gravity within boreholes or for special geoid computations.

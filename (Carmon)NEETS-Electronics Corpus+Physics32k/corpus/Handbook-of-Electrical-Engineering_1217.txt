@@ -1,0 +1,13 @@
+for an arbitrary signal x ˛ X. These sets consist of all elements in Ck that lie closest to x in the distance-metric
+sense for 1 £ k £ m. It is to be noted that the projection operators Pk(x) are generally nonlinear and not one
+to one as was the case in the previous two subsections. When determining the individual projection operators
+(14.98), the fundamental issues of the existence and uniqueness of solution need to be addressed. It is tacitly
+assumed that the signal attributes and metrics under consideration are such that at least one solution exists
+and the solution(s) may be obtained in a reasonably simple fashion. Fortunately, the generation of solutions
+imposes  no  serious  restrictions  for  many  commonly  invoked  attribute  sets.  Moreover,  many  relevant  signal
+attributes are characterized by the fact that more than one solution to optimization problems (14.98) exists.
+The projection operators (14.98) are unusual in that they need not be of the traditional point-to-point variety
+as was the case when the attribute set is a closed subspace, closed linear variety or closed convex set. For general
+Ck sets,  P k is a point-to-set mapping. The concept of a closed mapping is of importance when extending the
+notion of signal restoration to nonconvex sets. A closed mapping is a generalization of the notion of continuity
+as applied to standard point-to-point mappings [Zangwill, 1969], that is:

@@ -1,0 +1,8 @@
+The relatively easy implementation of the preprocessor and
+the ability of asynchronous checking are the advantages of the
+assigned signature-based methods. The disadvantages are the
+performance degradation of the checked processor due to
+explicit signature transfer, the need of recompilation of the
+source code that prevents checking of existing executables, and
+the fact that the sequence of instructions in a node is un-
+checked.

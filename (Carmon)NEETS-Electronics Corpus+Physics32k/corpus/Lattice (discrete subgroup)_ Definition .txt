@@ -1,0 +1,340 @@
+Let
+
+
+
+G
+
+
+{\displaystyle G}
+be a locally compact group and
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+a discrete subgroup (this means that there exists a neighbourhood
+
+
+
+U
+
+
+{\displaystyle U}
+of the identity element
+
+
+
+
+e
+
+G
+
+
+
+
+{\displaystyle e_{G}}
+of
+
+
+
+G
+
+
+{\displaystyle G}
+such that
+
+
+
+Γ
+∩
+U
+=
+{
+
+e
+
+G
+
+
+}
+
+
+{\displaystyle \Gamma \cap U=\{e_{G}\}}
+). Then
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+is called a lattice in
+
+
+
+G
+
+
+{\displaystyle G}
+if in addition there exists a Borel measure
+
+
+
+μ
+
+
+{\displaystyle \mu }
+on the quotient space
+
+
+
+G
+
+/
+
+Γ
+
+
+{\displaystyle G/\Gamma }
+which is finite (i.e.
+
+
+
+μ
+(
+G
+
+/
+
+Γ
+)
+<
++
+∞
+
+
+{\displaystyle \mu (G/\Gamma )<+\infty }
+) and
+
+
+
+G
+
+
+{\displaystyle G}
+-invariant (meaning that for any
+
+
+
+g
+∈
+G
+
+
+{\displaystyle g\in G}
+and any open subset
+
+
+
+W
+⊂
+G
+
+/
+
+Γ
+
+
+{\displaystyle W\subset G/\Gamma }
+the equality
+
+
+
+μ
+(
+g
+W
+)
+=
+μ
+(
+W
+)
+
+
+{\displaystyle \mu (gW)=\mu (W)}
+is satisifed).
+A slightly more sophisticated formulation is as follows: suppose in addition that
+
+
+
+G
+
+
+{\displaystyle G}
+is unimodular, then since
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+is discrete it is also unimodular and by general theorems there exists a unique
+
+
+
+G
+
+
+{\displaystyle G}
+-invariant Borel measure on
+
+
+
+G
+
+/
+
+Γ
+
+
+{\displaystyle G/\Gamma }
+up to scaling. Then
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+is a lattice if and only if this measure is finite.
+In the case of discrete subgroups this invariant measure coincides locally with the Haar measure and hence a discrete subgroup in a locally compact group
+
+
+
+G
+
+
+{\displaystyle G}
+being a lattice is equivalent to it having a fundamental domain (for the action on
+
+
+
+G
+
+
+{\displaystyle G}
+by left-translations) of finite volume for the Haar measure.
+A lattice
+
+
+
+Γ
+⊂
+G
+
+
+{\displaystyle \Gamma \subset G}
+is called uniform when the quotient space
+
+
+
+G
+
+/
+
+Γ
+
+
+{\displaystyle G/\Gamma }
+is compact (and non-uniform otherwise). Equivalently a discrete subgroup
+
+
+
+Γ
+⊂
+G
+
+
+{\displaystyle \Gamma \subset G}
+is a uniform lattice if and only if there exists a compact subset
+
+
+
+C
+⊂
+G
+
+
+{\displaystyle C\subset G}
+with
+
+
+
+G
+=
+⋃
+
+
+
+
+
+γ
+∈
+Γ
+
+
+
+C
+γ
+
+
+{\displaystyle G=\bigcup {}_{\gamma \in \Gamma }\,C\gamma }
+. Note that if
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+is any discrete subgroup in
+
+
+
+G
+
+
+{\displaystyle G}
+such that
+
+
+
+G
+
+/
+
+Γ
+
+
+{\displaystyle G/\Gamma }
+is compact then
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+is automatically a lattice in
+
+
+
+G
+
+
+{\displaystyle G}
+.

@@ -1,0 +1,21 @@
+The current Internet infrastructure, however, behaves as a
+‘‘best-effort’’ delivery system. Simply put, it makes an honest
+attempt to deliver packets from a source to a destination, but it
+provides no guarantees on the packet either being actually
+delivered and/or the time it would take to deliver it (Kurose
+and Ross, 2001). Although this behavior is appropriate for
+textual data that require correct delivery rather than timely
+delivery, it is not suitable for time-constraint multimedia data
+such as video and audio. Recently, there has been a tremendous
+growth in demand for distributed multimedia applications
+over the Internet that operate by exchanging multimedia
+involving a myriad of media types. These applications have
+shown their value as powerful technologies that can enable
+remote sharing of resources or interactive work collaborations,
+thus
+saving both time and money. Typical applications
+of distributed multimedia systems include Internet-based
+radio/television broadcast, video conferencing, video teleph-
+ony, real-time interactive and collaborative work environ-
+ments, video/audio on demand, multimedia mail, and distant
+learning.

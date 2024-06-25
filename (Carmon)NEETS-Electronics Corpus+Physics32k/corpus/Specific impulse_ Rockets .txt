@@ -1,0 +1,118 @@
+For rockets and rocket-like engines such as ion-drives a higher
+
+
+
+
+I
+
+sp
+
+
+
+
+{\displaystyle I_{\text{sp}}}
+implies lower energy efficiency: the power needed to run the engine is simply:
+
+
+
+
+
+
+
+d
+m
+
+
+d
+t
+
+
+
+
+
+
+v
+
+e
+
+
+2
+
+
+2
+
+
+
+
+{\displaystyle {\frac {dm}{dt}}{\frac {v_{e}^{2}}{2}}}
+
+where ve is the actual jet velocity.
+whereas from momentum considerations the thrust generated is:
+
+
+
+
+
+
+
+d
+m
+
+
+d
+t
+
+
+
+
+v
+
+e
+
+
+
+
+{\displaystyle {\frac {dm}{dt}}v_{e}}
+
+Dividing the power by the thrust to obtain the specific power requirements we get:
+
+
+
+
+
+
+
+v
+
+e
+
+
+2
+
+
+
+
+{\displaystyle {\frac {v_{e}}{2}}}
+
+Hence the power needed is proportional to the exhaust velocity, with higher velocities needing higher power for the same thrust, causing less energy efficiency per unit thrust.
+However, the total energy for a mission depends on total propellant use, as well as how much energy is needed per unit of propellant. For low exhaust velocity with respect to the mission delta-v, enormous amounts of reaction mass is needed. In fact a very low exhaust velocity is not energy efficient at all for this reason; but it turns out that neither are very high exhaust velocities.
+Theoretically, for a given delta-v, in space, among all fixed values for the exhaust speed the value
+
+
+
+
+v
+
+e
+
+
+=
+0.6275
+Δ
+v
+
+
+{\displaystyle v_{\text{e}}=0.6275\Delta v}
+is the most energy efficient for a specified (fixed) final mass, see energy in spacecraft propulsion.
+However, a variable exhaust speed can be more energy efficient still. For example, if a rocket is accelerated from some positive initial speed using an exhaust speed equal to the speed of the rocket no energy is lost as kinetic energy of reaction mass, since it becomes stationary. (Theoretically, by making this initial speed low and using another method of obtaining this small speed, the energy efficiency approaches 100%, but requires a large initial mass.) In this case the rocket keeps the same momentum, so its speed is inversely proportional to its remaining mass. During such a flight the kinetic energy of the rocket is proportional to its speed and, correspondingly, inversely proportional to its remaining mass. The power needed per unit acceleration is constant throughout the flight; the reaction mass to be expelled per unit time to produce a given acceleration is proportional to the square of the rocket's remaining mass.
+Also it is advantageous to expel reaction mass at a location where the gravity potential is low, see Oberth effect.

@@ -1,0 +1,10 @@
+Level 12 implements user processes, which are virtual ma-
+chines executing programs. While the level 5 process is primi-
+tive and can be completely deﬁned by a state word that records
+the contents of the registers in a processor, a level 12 user
+process is a signiﬁcant extension. It includes one or more
+primitive processes, a virtual memory containing the program
+and its workspace, a list of arguments supplied as parameters
+when the process was started, a list of objects with which the
+process can communicate, and certain other information
+about the context in which the process operates.

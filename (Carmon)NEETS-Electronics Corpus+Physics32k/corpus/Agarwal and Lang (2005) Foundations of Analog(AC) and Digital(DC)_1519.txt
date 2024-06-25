@@ -1,0 +1,6 @@
+The second case is more interesting. In this case, a 1 is written on the
+capacitor. Assume that the voltage corresponding to a 1 is VS. The value stored
+on the capacitor will be read as a valid 1 by the buffer until it reaches the VIH
+voltage threshold. Thus the period over which the memory element will store
+a valid 1 is the interval over which the voltage drops from VS to VIH. We
+can compute this duration from capacitor discharge dynamics (for example,

@@ -1,0 +1,205 @@
+The model of human anatomy is a deformable template, an orbit of exemplars under group action. Deformable template models have been central to Grenander's Metric Pattern theory, accounting for typicality via templates, and accounting for variability via transformation of the template. An orbit under group action as the representation of the deformable template is a classic formulation from differential geometry. The space of shapes are denoted
+
+
+
+m
+∈
+
+
+M
+
+
+
+
+{\displaystyle m\in {\mathcal {M}}}
+, with the group
+
+
+
+(
+
+
+G
+
+
+,
+∘
+)
+
+
+{\displaystyle ({\mathcal {G}},\circ )}
+with law of composition
+
+
+
+∘
+
+
+{\displaystyle \circ }
+; the action of the group on shapes is denoted
+
+
+
+g
+⋅
+m
+
+
+{\displaystyle g\cdot m}
+, where the action of the group
+
+
+
+g
+⋅
+m
+∈
+
+
+M
+
+
+,
+m
+∈
+
+
+M
+
+
+
+
+{\displaystyle g\cdot m\in {\mathcal {M}},m\in {\mathcal {M}}}
+is defined to satisfy
+
+
+
+
+(
+g
+∘
+
+g
+
+′
+
+
+)
+⋅
+m
+=
+g
+⋅
+(
+
+g
+
+′
+
+
+⋅
+m
+)
+∈
+
+
+M
+
+
+.
+
+
+{\displaystyle (g\circ g^{\prime })\cdot m=g\cdot (g^{\prime }\cdot m)\in {\mathcal {M}}.}
+
+The orbit
+
+
+
+
+
+M
+
+
+
+
+{\displaystyle {\mathcal {M}}}
+of the template becomes the space of all shapes,
+
+
+
+
+
+M
+
+
+≐
+{
+m
+=
+g
+⋅
+
+m
+
+
+t
+e
+m
+p
+
+
+
+,
+g
+∈
+
+
+G
+
+
+}
+
+
+{\displaystyle {\mathcal {M}}\doteq \{m=g\cdot m_{\mathrm {temp} },g\in {\mathcal {G}}\}}
+, being homogenous under the action of the elements of
+
+
+
+
+
+G
+
+
+
+
+{\displaystyle {\mathcal {G}}}
+.
+
+The orbit model of computational anatomy is an abstract algebra - to be compared to linear algebra- since the groups act nonlinearly on the shapes. This is a generalization of the classical models of linear algebra, in which the set of finite dimensional
+
+
+
+
+
+
+R
+
+
+
+n
+
+
+
+
+{\displaystyle {\mathbb {R} }^{n}}
+vectors are replaced by the finite-dimensional anatomical submanifolds (points, curves, surfaces and volumes) and images of them, and the
+
+
+
+n
+×
+n
+
+
+{\displaystyle n\times n}
+matrices of linear algebra are replaced by coordinate transformations based on linear and affine groups and the more general high-dimensional diffeomorphism groups.

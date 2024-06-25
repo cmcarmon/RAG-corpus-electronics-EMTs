@@ -1,0 +1,17 @@
+There are two basic tests used to obtain machine parameters.
+These are the no-load test and the locked rotor test. In the no-
+load test, the motor is run at rated voltage with no mechanical
+load attached. In this case, the slip is approximately zero, and
+very little current circulates on the rotor. There is a small
+amount of mechanical power required, enough to overcome
+friction and windage losses. Assuming that the rotor current is
+negligible, then, referring to the equivalent circuit, the stator
+current circulates in the mutual branch representing the exci-
+tation current. The stator resistance is measured independently
+with a bridge. The stator voltage, current, and power are
+measured. Since the stator resistance is known, the stator
+winding losses, 3I 2
+1 rs, can be subtracted from the input
+power. The remaining losses are associated with the core loss
+and mechanical losses. The total reactance XNL ¼ X1 þ Xm is
+now found as follows:

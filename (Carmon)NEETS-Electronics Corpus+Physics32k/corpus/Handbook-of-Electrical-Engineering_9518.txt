@@ -1,0 +1,3 @@
+In general, a record type cannot be both the owner and a member of the same set type. Also, a record cannot
+exist  in  more  than  one  instance  of  a  speciﬁc  set  type.  The  latter  requirement  implies  that  many-to-many
+relationships are not directly implemented in the network data model.

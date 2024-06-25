@@ -1,0 +1,8 @@
+a) Write expressions for the rise and fall times of INV1 for the circuit configuration
+shown in Figure 10.92. Assume that the inverters satisfy the static discipline with
+voltage thresholds VIL = VOL = VL and VIH = VOH = VH.
+(Hint: The rise time of INV1 is the time vB requires to transition from the lowest
+voltage reached by vB (given by the voltage divider action of RL and RON) to VH
+for a VS to 0-V step transition at the input vA. Similarly, the fall time of INV1 is the
+time vB requires to transition from the highest voltage reached by vB (that is, VS) to
+VL for a 0-V to VS step transition at the input vA.)

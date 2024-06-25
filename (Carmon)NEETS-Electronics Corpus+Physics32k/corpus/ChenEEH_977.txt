@@ -1,0 +1,11 @@
+Step 7. The objective clock skews are chosen at the center of the
+permissible range for all local data paths. The actual
+clock skews (a consistent clock schedule) are calculated
+as described by equation 4.97 and as illustrated in
+Figure 4.9. At this point, each clock skew is veriﬁed
+against the respective permissible range. If all skews are
+in the respective permissible range bounds, the algo-
+rithm concludes. Otherwise, the objective clock skews
+are modiﬁed, and the calculation is repeated again.
+Only the calculation described in this step must be
+repeated since all matrices have now been computed.

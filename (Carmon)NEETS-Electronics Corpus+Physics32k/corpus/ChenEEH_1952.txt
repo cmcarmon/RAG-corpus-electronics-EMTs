@@ -1,0 +1,14 @@
+This process is illustrated in Figure 8.8(B) for a small circuit
+and for a single CS insertion for extending net n1, the CS-net.
+The corresponding O-net n2 transits from T1 to T3 and bumps
+into n5. The movement of n2 from T1 creates a ‘‘dynamic’’
+spare node (labeled by D_Sp in the ﬁgure) for net n6, for which
+information is added to the OG. The bumped net n5 then
+transits from T3 to T0 where it bumps n6 and n3. Net n6 then
+transits to the above dynamically created spare on T1, while n3
+transits to its spare node on T2. Thus, a converging T-DAG
+(here a tree) is determined in the OG. The transition arcs are
+shown dark in Figure 8.8(B) and numbered chronologically in
+the order in which they are traversed in the search process.
+After every transition, the track labels of the nodes and those of
+their edges need to be updated.

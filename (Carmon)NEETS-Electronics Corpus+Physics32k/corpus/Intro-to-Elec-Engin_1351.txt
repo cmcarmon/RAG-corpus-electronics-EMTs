@@ -1,0 +1,10 @@
+Due to the high level of noise at high-frequency components of the message in FM, it is
+desirable to attenuate the high-frequency components of the demodulated signal. This results in
+a reduction in the noise level, but causes the higher frequency components of the message signal
+to be attenuated also. In order to compensate for the attenuation of the higher components of the
+message signal, one can amplify these components at the transmitter before modulation. Thus, at
+the transmitter we need a high-pass ﬁlter, and at the receiver we must use a low-pass ﬁlter. The
+net effect of these ﬁlters is to have a ﬂat frequency response. The receiver ﬁlter should therefore
+be the inverse of the transmitter ﬁlter. The modulator ﬁlter, which emphasizes high frequencies,
+is called the preemphasis ﬁlter, and the demodulator ﬁlter, which is the inverse of the modulator
+ﬁlter, is called the deemphasis ﬁlter.

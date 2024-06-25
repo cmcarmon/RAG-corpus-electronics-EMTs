@@ -1,0 +1,5 @@
+(c) If we could use DFTs to perform linear ﬁltering, it should be true that the product of the input’s DFT
+and the unit-sample response’s DFT equals the output’s DFT. So that you can use what you just
+calculated, let the input be a boxcar signal and the unit-sample response also be a boxcar. The result
+of part (b) would then be the ﬁlter’s output if we could implement the ﬁlter with length-4 DFTs. Does
+the actual output of the boxcar-ﬁlter equal the result found in the previous part (list, p. 185)?

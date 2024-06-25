@@ -1,0 +1,4 @@
+Notice that the value of Q at time t0 is not given; however, it is not necessary to have this
+information. The ﬁrst pulse of S sets the SRFF in the state Q = 1. Thus at t = t1, Q = 1. While
+the second pulse of S tries again to set the SRFF, there will be no change since Q was already 1.
+Thus at t = t2, Q = 1. The pulse of R then resets the SRFF and then at t = t3, Q = 0.

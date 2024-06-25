@@ -1,0 +1,8 @@
+How do we model the Op Amp when it is in saturation? When an Op Amp
+enters positive saturation, a near-short circuit forms between the Op Amp
+output and the positive power supply. Similarly, when the Op Amp enters
+negative saturation, a near-short circuit forms between the Op Amp output and
+the negative power supply. Accordingly, simple positive and negative saturation
+models for the Op Amp are illustrated in Figure 15.28. The normal dependent
+voltage source is not shown in the saturation models because its output gets
+limited by the power supply voltages and so it turns into a simple voltage source.

@@ -1,0 +1,15 @@
+Finite element analysis is not normally used by power system engineers although it is a common tool of high
+voltage and electrical machine engineers. It is necessary, for example, where accurate machine representation
+is required. For example, in a unit connected HVdc terminal the generators are closely coupled to the rectiﬁer
+bridges. The ac system at the rectiﬁer end is isolated from all but its generator. There is no need for costly ﬁlters
+to reduce harmonics. Models of the synchronous machine suitable for a transient stability study can be obtained
+from actual machine tests. For fast transient analysis, a three-phase generator model can be used but it will not
+account for harmonics. A ﬁnite element model of the generator provides the means of allowing real time effects
+such as harmonics and saturation to be directly included. Any geometric irregularities in the generator can be
+accounted for and the studies can be done at the design stage rather than having to rely on measurements or
+extrapolation  from  manufactured  machines  to  obtain  circuit  parameters.  There  is  no  reliance  on  estimated
+machine  parameters.  The  disadvantages  are  the  cost  and  time  to  run  a  simulation  and  it  is  not  suitable  at
+present to integrate with existing transient stability programs as it requires a high degree of expertise. As the
+ﬁnite element model is in this case used in a time simulation, part of the air gap is left unmeshed in the model.
+At  each  time  step  the  rotor  is  placed  in  the  desired  position  and  the  missing  elements  in  the  air  gap  region
+formed using the nodes on each side of the gap.

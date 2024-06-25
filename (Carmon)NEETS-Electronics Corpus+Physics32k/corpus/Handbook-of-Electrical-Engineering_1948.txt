@@ -1,0 +1,12 @@
+where Pu is the level of pipelining of the hardware operator H U. The DF( U ﬁ  V) delays should be connected
+to the edge between HU and H V, and this signal should be switched to the input of HV at time partition v. If
+the DF ( U ﬁ  V )’s as calculated here were always nonnegative for all edges  U ﬁ  V, then the problem would be
+solved.  However,  some  DF ()’s  would  be  negative.  The  algorithm  data  ﬂow  graph  needs  to  be  pipelined  and
+retimed such that all the DF ()’s are nonnegative. This can be formulated by simple inequalities using the retiming
+variables.  The  retiming  formulation  can  be  solved  as  a  path  problem,  and  the  retiming  variables  can  be
+determined if a solution exists. The algorithm data ﬂow graph can be retimed for folding and the calculation
+of the DF ()’s can be repeated. The folded hardware architecture data ﬂow graph can now be completed. The
+folding  technique  is  illustrated  in  Fig.  18.5.  The  algorithm  data  ﬂow  graph  of  a  two-stage  pipelined  lattice
+recursive  digital  ﬁlter  of  Fig.  18.3(a)  is  folded  for  the  folding  set  shown  in  Fig.  18.5.  Fig.  18.5(a)  shows  the
+pipelined/retimed data ﬂow graph (preprocessed for folding) and Fig. 18.5(b) shows the hardware architecture
+data ﬂow graph obtained after folding. 

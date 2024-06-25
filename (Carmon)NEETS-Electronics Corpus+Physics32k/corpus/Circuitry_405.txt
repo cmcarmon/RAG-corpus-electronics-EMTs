@@ -1,0 +1,41 @@
+where  ROUT  is  the  output  resistance  (in  ohms), 
+VOUT(OC) is the open-circuit output voltage (in volts) 
+and  IOUT(SC)  is  the  short-circuit  output  current  (in 
+amps). 
+ 
+Input offset voltage 
+ 
+An ideal operational amplifier  would provide zero 
+output voltage when 0 V difference is applied to its 
+inputs.  In  practice,  due  to  imperfect 
+internal 
+balance, there may be some small voltage present at 
+the  output.  The  voltage  that  must  be  applied 
+differentially  to  the  operational  amplifier  input  in 
+order  to  make  the  output  voltage  exactly  zero  is 
+known as the input offset voltage.  
+Input  offset  voltage  may  be  minimized  by 
+ 
+applying  relatively 
+large  amounts  of  negative 
+feedback  or  by  using  the  offset  null  facility 
+provided  by  a  number  of  operational  amplifier 
+devices.  Typical  values  of  input  offset  voltage 
+range from 1 mV to 15 mV. Where AC rather than 
+DC  coupling  is  employed,  offset  voltage  is  not 
+normally a problem and can be happily ignored. 
+ 
+Full-power bandwidth 
+ 
+The  full-power  bandwidth  for  an  operational 
+amplifier  is  equivalent  to  the  frequency  at  which 
+the  maximum  undistorted  peak  output  voltage 
+swing  falls  to  0.707  of  its  low  frequency  (d.c.) 
+value  (the  sinusoidal 
+input  voltage  remaining 
+constant).  Typical  full-power  bandwidths  range 
+from  10  kHz  to  over  1  MHz  for  some  high-speed 
+devices.  
+ 
+Slew rate 
+ 

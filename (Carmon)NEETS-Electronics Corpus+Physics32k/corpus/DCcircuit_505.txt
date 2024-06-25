@@ -1,0 +1,7 @@
+These internal resistances, small as they may be, turn our simple parallel circuit into a
+series-parallel combination circuit. Usually, the internal resistances of voltage sources are
+low enough that they can be safely ignored, but when high currents resulting from shorted
+components are encountered, their effects become very noticeable.
+In this case, a shorted
+R2 would result in almost all the voltage being dropped across the internal resistance of the
+battery, with almost no voltage left over for resistors R1, R2, and R3:

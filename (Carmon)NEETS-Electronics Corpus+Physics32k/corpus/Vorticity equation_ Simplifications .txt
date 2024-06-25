@@ -1,0 +1,82 @@
+In case of conservative body forces, ∇ × B = 0.
+For a barotropic fluid, ∇ρ × ∇p = 0. This is also true for a constant density fluid (including incompressible fluid) where ∇ρ = 0. Note that this is not the same as an incompressible flow, for which the barotropic term cannot be neglected.
+For inviscid fluids, the viscosity tensor τ is zero.
+Thus for an inviscid, barotropic fluid with conservative body forces, the vorticity equation simplifies to
+
+
+
+
+
+
+d
+
+d
+t
+
+
+
+
+(
+
+
+ω
+ρ
+
+
+)
+
+=
+
+(
+
+
+ω
+ρ
+
+
+)
+
+⋅
+∇
+
+u
+
+
+
+{\displaystyle {\frac {d}{dt}}\left({\frac {\boldsymbol {\omega }}{\rho }}\right)=\left({\frac {\boldsymbol {\omega }}{\rho }}\right)\cdot \nabla \mathbf {u} }
+
+Alternately, in case of incompressible, inviscid fluid with conservative body forces,
+
+
+
+
+
+
+
+d
+
+ω
+
+
+
+d
+t
+
+
+
+=
+(
+
+ω
+
+⋅
+∇
+)
+
+u
+
+
+
+{\displaystyle {\frac {d{\boldsymbol {\omega }}}{dt}}=({\boldsymbol {\omega }}\cdot \nabla )\mathbf {u} }
+
+For a brief review of additional cases and simplifications, see also.

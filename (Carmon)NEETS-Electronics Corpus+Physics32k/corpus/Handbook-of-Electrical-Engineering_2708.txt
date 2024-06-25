@@ -1,0 +1,14 @@
+The foregoing strategy does not consider area as a factor and thus results in fragmentation of the available
+free area; this may make it difﬁcult to place some of the large unplaced cells later. This problem can be overcome,
+however, by considering the product of the number of connections and the area of the cell as a criteria for the
+selection. Figure 25.17 presents an example of such a strategy. Cell  c3 is selected as the next choice since the
+product of its area and its connections to c1 and c2 combine to associate with the maximum value.
+Partitioning Method
+The  approaches  for  the  partitioning  method  can  be  classiﬁed  as  quadratic  and  sliced  bisection.  In  both
+approaches the layout is divided into two subareas, A and B, each having a size within a predeﬁned range. Each
+cell is assigned to one of these subareas. This assignment is such that the number of interconnections between
+the  two  subareas  is  minimal.  For  example,  Fig. 25.18  presents  successive  steps  for  the  quadratic  and  sliced-
+bisection methods. As shown in Fig. 25.18(a), in the ﬁrst step of the quadratic method the layout area is divided
+into two almost equal parts; in the second step the layout is further divided into four almost equal parts in the
+opposite direction. This process continues until each subarea contains only one cell. Similar to the quadratic
+method, the sliced-bisection also divides the layout area into several subareas.

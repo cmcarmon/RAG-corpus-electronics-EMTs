@@ -1,0 +1,13 @@
+The FDTD algorithm for Maxwell’s curl equations reviewed in
+Section 9.3 causes nonphysical results such as dispersion of the
+simulated waves in a free space computational lattice. That is,
+the phase velocity of numerical wave modes can differ from c
+by an amount varying with the wavelength, direction of propa-
+gation in the grid, and grid discretization. This artifact causes
+propagating numerical waves to accumulate delay or phase
+errors that can lead to nonphysical results, such as broadening
+and ringing of pulsed waveforms, imprecise cancellation of
+multiple scattered waves, anisotropy, and pseudorefraction.
+Numerical dispersion is a factor that must be accounted to
+understand the operation of FDTD algorithms and their ac-
+curacy limits, especially for electrically large structures.

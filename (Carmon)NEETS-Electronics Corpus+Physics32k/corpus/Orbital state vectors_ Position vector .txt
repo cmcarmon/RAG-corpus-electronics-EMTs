@@ -1,0 +1,72 @@
+The position vector
+
+
+
+
+r
+
+
+
+{\displaystyle \mathbf {r} }
+describes the position of the body in the chosen frame of reference, while the velocity vector
+
+
+
+
+v
+
+
+
+{\displaystyle \mathbf {v} }
+describes its velocity in the same frame at the same time. Together, these two vectors and the time at which they are valid uniquely describe the body's trajectory.
+The body does not actually have to be in orbit for its state vector to determine its trajectory; it only has to move ballistically, i.e., solely under the effects of its own inertia and gravity. For example, it could be a spacecraft or missile in a suborbital trajectory. If other forces such as drag or thrust are significant, they must be added vectorially to those of gravity when performing the integration to determine future position and velocity.
+For any object moving through space, the velocity vector is tangent to the trajectory. If
+
+
+
+
+
+
+
+
+u
+
+^
+
+
+
+
+t
+
+
+
+
+{\displaystyle {\hat {\mathbf {u} }}_{t}}
+is the unit vector tangent to the trajectory, then
+
+
+
+
+
+v
+
+=
+v
+
+
+
+
+
+u
+
+^
+
+
+
+
+t
+
+
+
+
+{\displaystyle \mathbf {v} =v{\hat {\mathbf {u} }}_{t}}

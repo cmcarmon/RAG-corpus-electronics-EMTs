@@ -1,0 +1,91 @@
+Materials undergoing strain are often modeled with mechanical components, such as springs (restorative force component) and dashpots (damping component).
+Connecting a spring and damper in series yields a model of a Maxwell material while connecting a spring and damper in parallel yields a model of a Kelvin–Voigt material. In contrast to the Maxwell and Kelvin–Voigt models, the SLS is slightly more complex, involving elements both in series and in parallel. Springs, which represent the elastic component of a viscoelastic material, obey Hooke's Law:
+
+
+
+
+
+σ
+
+s
+
+
+=
+E
+ε
+
+
+{\displaystyle \sigma _{s}=E\varepsilon }
+
+where σ is the applied stress, E is the Young's Modulus of the material, and ε is the strain. The spring represents the elastic component of the model's response.
+Dashpots represent the viscous component of a viscoelastic material. In these elements, the applied stress varies with the time rate of change of the strain:
+
+
+
+
+
+σ
+
+D
+
+
+=
+η
+
+
+
+d
+ε
+
+
+d
+t
+
+
+
+
+
+{\displaystyle \sigma _{D}=\eta {\frac {d\varepsilon }{dt}}}
+
+where η is viscosity of the dashpot component.
+These elements are connected as shown on the picture:
+
+This model consists of two systems in parallel. The first, referred to as the Maxwell arm, contains a spring (
+
+
+
+E
+=
+
+E
+
+2
+
+
+
+
+{\displaystyle E=E_{2}}
+) and dashpot (viscosity
+
+
+
+η
+
+
+{\displaystyle \eta }
+) in series. The other system contains only a spring (
+
+
+
+E
+=
+
+E
+
+1
+
+
+
+
+{\displaystyle E=E_{1}}
+).

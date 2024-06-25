@@ -1,0 +1,5 @@
+Let's take a more detailed look at the circuit conditions in this stable state (refer to figure 3-12). As 
+stated above, Q1 is cut off, so no current flows through R1, and the collector of Q1 is at −VCC. Q2 is 
+saturated and has practically no voltage drop across it, so its collector is essentially at 0 volts. R5 and R3 
+form a voltage divider from VBB to the ground potential at the collector of Q2. The tie point between these 
+two resistors will be positive. Thus, the base of Q1 is held positive, ensuring that Q1 remains cutoff. Q2 

@@ -1,0 +1,7 @@
+As expected, the signal that emerges from the channel is corrupted, but does contain the transmitted signal.
+Communication system design begins with detailing the channel model, then developing the transmitter and
+receiver that best compensate for the channel’s corrupting behavior. We characterize the channel’s quality
+by the signal-to-interference ratio (SIR) and the signal-to-noise ratio (SNR). The ratios are computed
+according to the relative power of each within the transmitted signal’s bandwidth. Assuming the
+signal x (t)’s spectrum spans the frequency interval [fl, fu], these ratios can be expressed in terms of power
+spectra.

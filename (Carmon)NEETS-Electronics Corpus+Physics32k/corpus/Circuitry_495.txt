@@ -1,0 +1,18 @@
+larger  the  noise  margin  the  better  is  its  ability  to 
+perform  in  an  environment  in  which  noise  is 
+present.  Noise  margin  is  defined  as  the  difference 
+between  the  minimum  values  of  high  state  output 
+and  high  state  input  voltage  and  the  maximum 
+values  of  low  state  output  and  low  state  input 
+voltage. Hence: 
+ 
+Noise margin = VOH(MIN) R VIH(MIN) 
+or 
+ 
+Noise margin = VOL(MAX) R VOH(MAX) 
+where VOH(MIN) is the minimum value of high state 
+(logic  1)  output  voltage,  VIH(MIN)  is  the  minimum 
+value of high state (logic 1) input voltage, VOL(MAX) 
+is the maximum value of low state (logic 0) output 
+voltage, and VOH(MAX) is the maximum value of low 
+state (logic 0) input voltage. 

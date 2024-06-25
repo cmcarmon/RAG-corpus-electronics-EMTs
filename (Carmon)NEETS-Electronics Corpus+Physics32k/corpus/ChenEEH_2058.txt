@@ -1,0 +1,6 @@
+A temporal formula u is said to be satisﬁable denoted as
+s j¼ u, if there is an execution s such that s[u] is true
+(i.e., s j¼ u , 9s 2 ST1  s[u]). A temporal formula u is
+valid with regard to N, denoted as N j¼ u, if it is satisﬁed
+by all possible behaviors St1 from N : N j¼ u , 8 s
+2 St1  s[u].

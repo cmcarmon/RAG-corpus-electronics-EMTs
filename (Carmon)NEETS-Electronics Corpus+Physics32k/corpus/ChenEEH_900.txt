@@ -1,0 +1,11 @@
+Note that e, as deﬁned in equation 4.20 is the total least
+squares error of the actual clock skew as compared to the
+objective clock skew. This error permits any two different
+clock skew schedules to be compared. Moreover, the clock
+skew scheduling problem can be considered as a problem of
+minimizing e of a clock schedule tcd given the clock period TCP
+subject to
+and an ‘‘ideal’’ clock schedule
+any speciﬁc circuit design criteria. The ﬂexibility permitted by
+such a formulation is far greater since the ideal schedule
+can be any clock schedule that satisﬁes a

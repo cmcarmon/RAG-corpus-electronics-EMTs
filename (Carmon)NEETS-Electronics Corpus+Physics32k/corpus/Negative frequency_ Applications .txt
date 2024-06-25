@@ -1,0 +1,86 @@
+Perhaps the most well-known application of negative frequency is the calculation:
+
+
+
+
+X
+(
+ω
+)
+=
+
+∫
+
+a
+
+
+b
+
+
+x
+(
+t
+)
+⋅
+
+e
+
+−
+i
+ω
+t
+
+
+d
+t
+,
+
+
+{\displaystyle X(\omega )=\int _{a}^{b}x(t)\cdot e^{-i\omega t}dt,}
+
+which is a measure of the amount of frequency ω in the function x(t) over the interval (a, b). When evaluated as a continuous function of ω for the theoretical interval (−∞, ∞), it is known as the Fourier transform of x(t). A brief explanation is that the product of two complex sinusoids is also a complex sinusoid whose frequency is the sum of the original frequencies. So when ω is positive,
+
+
+
+
+e
+
+−
+i
+ω
+t
+
+
+
+
+{\displaystyle e^{-i\omega t}}
+causes all the frequencies of x(t) to be reduced by amount ω. Whatever part of x(t) that was at frequency ω is changed to frequency zero, which is just a constant whose amplitude level is a measure of the strength of the original ω content. And whatever part of x(t) that was at frequency zero is changed to a sinusoid at frequency −ω. Similarly, all other frequencies are changed to non-zero values. As the interval (a, b) increases, the contribution of the constant term grows in proportion. But the contributions of the sinusoidal terms only oscillate around zero. So X(ω) improves as a relative measure of the amount of frequency ω in the function x(t).
+The Fourier transform of
+
+
+
+
+e
+
+i
+ω
+t
+
+
+
+
+{\displaystyle e^{i\omega t}}
+produces a non-zero response only at frequency ω. The transform of
+
+
+
+cos
+⁡
+(
+ω
+t
+)
+
+
+{\displaystyle \cos(\omega t)}
+has responses at both ω and −ω, as anticipated by Eq.2.

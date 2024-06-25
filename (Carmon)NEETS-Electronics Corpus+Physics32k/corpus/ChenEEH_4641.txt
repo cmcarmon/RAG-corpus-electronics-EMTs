@@ -1,0 +1,10 @@
+When the parameter set is not polytopic, one must typically
+resort to gridding the parameter set and simultaneously solv-
+ing a set of LMIs deﬁned at each grid point. The grid is reﬁned
+until it is apparent (through solution convergence) that the
+solution will be valid for points not on the grid. Figure 9.3
+illustrates the gridding approach for a parameter set deﬁned by
+Q:¼ {(u1, u2): u2 ¼ u2
+is reﬁned, the number of LMI constraints multiplies; LPV
+controller synthesis may become impractical from a computa-
+tional standpoint.

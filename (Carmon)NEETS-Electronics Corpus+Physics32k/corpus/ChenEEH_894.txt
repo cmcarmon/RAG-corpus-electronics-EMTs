@@ -1,0 +1,10 @@
+Maximizing Safety
+Frequently in practice, a target clock period TCP is established
+for a speciﬁc circuit implementation. Making the target clock
+period smaller may not be a primary design objective. If this is
+the case, alternative optimization strategies may be sought
+such that the resulting circuit is more tolerant to inaccuracies
+in the timing parameters. Two different classes of timing pa-
+rameters are considered—the local data path delays and the
+clock delays (respectively, the clock skews). Note ﬁrst that the
+clock skew scheduling process depends on accurate knowledge

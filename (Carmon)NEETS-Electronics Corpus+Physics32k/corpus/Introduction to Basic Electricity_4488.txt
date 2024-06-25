@@ -1,0 +1,10 @@
+A synchronous counter operates as follows. Initially 
+the counter is reset with both flip-flops in the 0 state. 
+When the first clock pulse is applied, the first flip-flop 
+toggles and the output goes high. The second flip-flop 
+does not toggle because of the delay from the input 
+to the actual changing of the output state. Therefore, 
+there is no change in the second flip-flop output state. 
+When the second clock pulse is applied, the first flip-
+flop toggles and the output goes low. Because there is 
+a high from the output of the first stage, the second 

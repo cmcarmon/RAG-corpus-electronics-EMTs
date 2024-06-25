@@ -1,0 +1,16 @@
+The preceding discussion was motivated by the desire to efﬁciently model ﬁlters and nonlinear ampliﬁers. Since
+these devices often consume the majority of the processor time, they are given high priority. However, there
+are a number of other subsystems that do not resemble ﬁlters. One example is the data source that generates
+the message or waveform which must be transmitted. While signal sources may be analog or digital in nature,
+we will focus exclusively on binary digital sources. The two basic categories of signals produced by these devices
+deterministic and random. When performing worst-case analysis, one will typically produce known,
+are known as 
+repetitive signal patterns designed to stress a particular subsystem within the overall communication system.
+For  example,  a  signal  with  few  transitions  may  stress  the  symbol  synchronization  loops,  while  a  signal  with
+many regularly spaced transitions may generate unusually wide bandwidth signals. The generation of this type
+of  signal  is  straightforward  and  highly  application  dependent.  To  test  the  nominal  system  performance  one
+typically uses a random data sequence. While generation of a truly random signal is arguably impossible [Knuth,
+1981], one can easily generate pseudorandom (PN) sequences. PN sequence generators have been extensively
+studied since they are used in Monte Carlo integration and simulation [Rubinstein, 1981] programs and in a
+variety of wideband and secure communication systems. The two basic structures for generating PN sequences
+are binary shift registers (BSRs) and linear congruential algorithms (LCAs).

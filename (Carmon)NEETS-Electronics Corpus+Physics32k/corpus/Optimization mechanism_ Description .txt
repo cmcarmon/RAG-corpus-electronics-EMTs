@@ -1,0 +1,130 @@
+The costs and benefits in the optimization models can generally be simplified into two attributes: the distance between the new node, and the existing one; and the distance of the existing node from the central node. Thus the goal function can be written in the following form:
+
+
+
+
+
+C
+
+i
+
+
+=
+m
+i
+
+n
+
+j
+
+
+[
+δ
+∗
+
+d
+
+i
+j
+
+
++
+
+h
+
+j
+
+
+]
+
+
+{\displaystyle C_{i}=min_{j}[\delta *d_{ij}+h_{j}]}
+
+where
+
+
+
+
+C
+
+i
+
+
+
+
+{\displaystyle C_{i}}
+stands for the minimal cost of attaching node 'i' to an existing node
+
+
+
+
+
+d
+
+i
+j
+
+
+
+
+{\displaystyle d_{ij}}
+denotes the distance between node 'i' and 'j'
+
+
+
+
+
+h
+
+j
+
+
+
+
+{\displaystyle h_{j}}
+represents the distance of node 'j' from the central node
+
+
+
+
+δ
+
+
+{\displaystyle \delta }
+is a parameter, that determines the weight of the individual distance compared to the distance to the central node, and thus it varies across different settings.
+In a highway network setting - where cities are nodes and links are highways -
+
+
+
+
+d
+
+i
+j
+
+
+
+
+{\displaystyle d_{ij}}
+would be the physical distance between cities, and
+
+
+
+
+h
+
+j
+
+
+
+
+{\displaystyle h_{j}}
+would be the distance from the capital (or from the central city of the region). The value of
+
+
+
+δ
+
+
+{\displaystyle \delta }
+determines the type of the network built by the optimization mechanism.

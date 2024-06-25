@@ -1,0 +1,8 @@
+Rheometers and viscometers work with torque and angular velocity. Since we normally work with shear stress and shear rates, a method is needed to convert from "instrument numbers" to "rheology numbers". Each measuring system used in an instrument will have its associated "form factors" to convert torque to shear stress and to convert angular velocity to shear rate.
+We will call the shear stress form factor C1 and the shear rate factor C2.
+Shear stress = C1 × torque
+Shear rate = C2 × angular velocity (*)
+Viscosity = shear stress / shear rate
+(*) For some measuring systems such as parallel plates, the user can set the gap between the measuring systems. In this case the equation used is:
+Shear rate = C2 × angular velocity / gap.
+The following sections show how the form factors are calculated for each measuring system.

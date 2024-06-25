@@ -1,0 +1,9 @@
+Signal Multiplexing
+Frequency-division multiplexing (FDM) and time-division multiplexing (TDM) systems were
+introduced in Section 14.2. When data from many sources in time are interlaced, the interlacing
+of data is called time multiplexing, in which case a single link can handle all sources. Figure
+15.3.9(a) illustrates time multiplexing soon after sampling for N similar messages. With proper
+interleaving of sampling pulses [see Figures 15.3.9(b) and (c) for individual message signal
+waveforms], the train of samples can be added for the signal at point A in Figure 15.3.9(a), as
+shown in Figure 15.3.9(d). If we consider N similar messages of spectral extent Wf rad/s, the
+sampling interval Ts must satisfy

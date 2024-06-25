@@ -1,0 +1,6 @@
+The symbol for the SRFF is shown in Figure 6.1.17(a), in which S stands for “set,” R stands for
+“reset” on the input side, and there are two outputs, the normal output Q and the complementary
+1. If S = 1 and R = 0, then Q = 1 regardless of past history. This is known as the set
+2. If S = 0 and R = 1, then Q = 0 regardless of past history. This is known as the reset
+3. If S = 0 and R = 0, then Q does not change and stays at its previous value. This is a
+4. The inputs S = 1 and R = 1 are not allowed (i.e., forbidden) because Q ¯Q = 11; ¯Q is

@@ -1,0 +1,12 @@
+The ST506 is a low-cost but primitive interface, most appropriate for interfacing ﬂoppy disks to personal
+computers and low-end workstations. For example, the controller must perform data separation on its own;
+this is not done for it by the disk device. As a result, its transfer rate is limited to 0.625 Mbytes/s. The SMD
+interface is higher performance and is used extensively in connecting disks to mainframe disk controllers. ESDI
+is similar, but geared more towards smaller disk systems. One of its innovations over the ST506 is its ability to
+specify a seek to a particular track number rather than requiring track positioning via step-by-step pulses. Its
+performance  is  in  the  range  of  1.25–1.875  Mbytes/s.  SCSI  has  so  far  been  used  primarily  with  workstations
+and minicomputers, but offers the highest degree of integration and intelligence. Implementations with per-
+formance at the level of 1.5–4 Mbytes/s are common. The newer IPI-3 standard has the advantages of SCSI,
+but provides even higher performance at a higher cost. It is beginning to make inroads into mainframe systems.
+However, because of the very widespread use of SCSI, many believe that SCSI-2, an extension of SCSI to wider
+signal paths, will become the de facto standard for high-performance small disks.

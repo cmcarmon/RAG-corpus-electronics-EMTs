@@ -1,0 +1,6 @@
+Figure  88.4  shows  how  a  cache  is  organized  into  sets,  blocks,  and  words.  The  cache  shown  is  a  2-Kbyte,
+4-way set-associative cache, with 16 sets. Each set consists of four blocks. The cache block size in this example
+is  32  bytes,  so  each  block  contains  eight  4-byte  words.  Also  depicted  at  the  bottom  of  Fig.  88.4  is  a  4-way
+interleaved  main  memory  system  (see  the  next  section  for  details).  Each  successive  word  in  the  cache  block
+maps into a different main memory bank. Because of the cache’s mapping restrictions, each cache block obtained
+from main memory will be loaded into its corresponding set, but may appear anywhere within that set.

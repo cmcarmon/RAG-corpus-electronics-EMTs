@@ -1,0 +1,11 @@
+In our description of R-S FF operation, let’s assume that the signals applied to the S and R inputs are
+the LSDs of two different binary numbers. Let’s also assume that these two binary numbers represent the
+speed and range of a target ship. The LSDs will be called SB0 (Speed Bit 0) and RB0 (Range Bit 0) and
+will be applied to the S and R inputs respectively. Refer to figure 3-12, view B, and figure 3-13. At time
+T0, both SB0 and RB0 are HIGH, as a result, both Q and Q  are HIGH. This is the jammed state and as
+mentioned earlier, cannot be used in logic circuitry. At T1, SB0 goes LOW and RB0 remains HIGH; Q
+goes LOW and Q  remains HIGH; the FF is reset. At T2 RB0 goes LOW and SB0 remains LOW; the FF
+is latched in the reset condition. At T3, SB0 goes HIGH and RB0 remains LOW; the FF sets. At T4 SB0
+goes LOW and RB0 goes HIGH; the FF resets. When SB0 and RB0 input conditions reverse at T5, the FF
+sets. The circuit is put in the latch condition at T6 when SB0 goes LOW. Notice that the output changes
+states ONLY when the inputs are in opposite states.

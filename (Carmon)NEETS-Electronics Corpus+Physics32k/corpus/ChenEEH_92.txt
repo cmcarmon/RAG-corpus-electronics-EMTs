@@ -1,0 +1,15 @@
+A graph is connected if there is a path between every pair
+of vertices in the graph; otherwise, the graph is not connected.
+For example, the graph in Figure 2.2(A) is a connected graph,
+whereas the graph in Figure 2.2(B) is not a connected graph.
+A tree is a graph that is connected and has no circuits.
+Consider a connected graph G. A subgraph of G is a spanning
+tree of G if the subgraph is a tree and contains all the vertices
+of G. A tree and a spanning tree of the graph of Figure 2.4(A)
+are shown in Figures 2.4(B) and (C), respectively. The edges of
+a spanning tree T are called the branches of T. Given a span-
+ning tree of connected graph G, the cospanning tree relative to
+T is the subgraph of G induced by the edges that are not
+present in T. For example, the cospanning tree relative to the
+spanning tree T of Figure 2.4(C) consists of these edges:
+e3, e6, e7. The edges of a cospanning tree are called chords.

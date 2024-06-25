@@ -1,0 +1,6 @@
+dissipate; this value is roughly VCE×ICmax. No need to worry about this 
+rating if you’re using the transistor as a switch because power dissipa-
+tion is nearly zero anyway. If you’re using the transistor as an amplifier, 
+however, you need to be aware of this rating.
+If you think your circuit will approach the total power dissipation value, 
+be sure you attach a heat sink to the transistor.

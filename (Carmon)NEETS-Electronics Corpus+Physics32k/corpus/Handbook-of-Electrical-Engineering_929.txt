@@ -1,0 +1,7 @@
+Process simulation is always done in the transient mode using time steps as was done with transient circuit
+simulation.  Because  partial  differential  equations  are  involved,  rather  than  ordinary  differential  equations,
+spatial  discretization  is  needed  as  well.  To  numerically  solve  the  problem,  the  differential  equations  are  dis-
+cretized on a grid. Either rectangular or triangular grids in one, two, or three dimensions are commonly used.
+This discretization process results in the conversion of the partial differential equations into a set of nonlinear
+algebraic equations. The nonlinear equations are then solved using a Newton method in a way very similar to
+the method used for the circuit equations in SPICE.

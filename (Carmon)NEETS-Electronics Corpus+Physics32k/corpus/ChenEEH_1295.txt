@@ -1,0 +1,6 @@
+. Good bus arbitration: This feature allows fair bus access
+during conﬂicts, which means there is no need to back off
+unless another device needs the bus. This arbitration
+prevents CPU starvation while allowing a single device
+to use 100% of the available bandwidth. Other busses let a
+card use the bus until it decides to release it and attempts

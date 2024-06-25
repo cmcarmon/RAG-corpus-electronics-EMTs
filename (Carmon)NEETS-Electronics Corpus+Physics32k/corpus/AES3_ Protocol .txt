@@ -1,0 +1,8 @@
+The low-level protocol for data transmission in AES3 and S/PDIF is largely identical, and the following discussion applies for S/PDIF, except as noted.
+AES3 was designed primarily to support stereo PCM encoded audio in either DAT format at 48 kHz or CD format at 44.1 kHz. No attempt was made to use a carrier able to support both rates; instead, AES3 allows the data to be run at any rate, and encoding the clock and the data together using biphase mark code (BMC).
+Each bit occupies one time slot.
+Each audio sample (of up to 24 bits) is combined with four flag bits and a synchronisation preamble which is four time slots long to make a subframe of 32 time slots.
+Two subframes (A and B, normally used for left and right audio channels) make a frame. Frames contain 64 time slots and are produced once per sample time. This determines the clock rate.
+At the highest level, each 192 consecutive frames are grouped into an audio block. While samples repeat each frame time, metadata is only transmitted once per audio block.
+At the default 48 kHz frame rate, there are 250 audio blocks per second, and 3,072 kilobits per second with a biphase clock of 6.144 MHz
+The 32 time slots of each subframe are assigned as follows:

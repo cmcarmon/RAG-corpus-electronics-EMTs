@@ -1,0 +1,6 @@
+Section 10.4 showed that RC effects lead to propagation delay in digital circuits.
+It turns out that when parasitic inductors are present, RL effects can be a
+similar source of propagation delay. Consider the inverter circuit shown in
+Figure 10.32a. Assume that a poor design has resulted in a long wire connecting
+the MOSFET drain to the output of the inverter. A circuit model of the inverter
+showing the parasitic wire inductance is depicted in Figure 10.32b.

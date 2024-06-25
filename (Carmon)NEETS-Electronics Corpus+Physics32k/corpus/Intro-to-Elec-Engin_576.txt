@@ -1,0 +1,6 @@
+S o l u t i o n
+For the 26 letters in the English alphabet, we must have 2N ≥ 26, where N is the number of bits
+per byte. N being an integer, the smallest possible value for N is 5. One can represent the letter
+A by 00000, B by 00001, and so on up to Z by 11001; the remaining six combinations could be
+used for representing punctuation marks or spaces. This is, in fact, the method by which letters
+are represented in teletype systems.

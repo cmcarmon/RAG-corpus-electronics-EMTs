@@ -1,0 +1,5 @@
+form such as t = t(0) + k1 · C(out) + k2 · t(s), where t(0) is the intrinsic (internal) delay of the cell with no
+loading, C(out) is the output capacitance seen by the output driver of the cell, t(s) is the rise/fall time of the
+signal,  and  the  parameters  k1  and  k2  are  constants.  In  the  case  of  deep  submicron  CMOS  technologies,  the
+overall delay must be divided into the intrinsic delay of the gate and the extrinsic delay of the interconnect,
+each having substantially more-complex models than the linear model.

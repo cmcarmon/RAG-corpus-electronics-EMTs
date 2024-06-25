@@ -1,0 +1,9 @@
+This chapter will include detailed design information for passive RLC ﬁlters; including Butterworth, Thomson,
+and Chebyshev, both singly and doubly terminated. As the ﬁlter slope is increased in order to obtain greater
+rejection of frequencies beyond cut-off, the complexity and cost are increased and the response to a step input
+is worsened. In particular, the overshoot and the settling time are increased. The element values given are for
+normalized low pass conﬁgurations to 5th order. All higher order doubly-terminated Butterworth ﬁlter element
+values can be obtained using Takahasi’s equation, and an example is included. In order to use this information
+in a practical ﬁlter these element values must be scaled. Scaling rules to denormalize in frequency and impedance
+are given with examples. Since all data is for low-pass ﬁlters the transformation rules to change from low-pass
+to high-pass and to band-pass ﬁlters are included with examples.

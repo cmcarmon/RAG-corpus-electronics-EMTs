@@ -1,0 +1,6 @@
+Figure 8.22 shows the plots of the times of the fault-tolerant
+computations that use the hybrid checksum test and that use
+only the ﬂoating point checksum test. The average overhead of
+the hybrid checksum for matrix multiplication is 15%, whereas
+for LU decomposition, the overhead is only 9.5%. Thus, the
+signiﬁcantly higher error coverages yielded by the mantissa

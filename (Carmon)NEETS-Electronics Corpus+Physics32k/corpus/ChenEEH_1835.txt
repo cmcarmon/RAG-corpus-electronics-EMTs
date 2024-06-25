@@ -1,0 +1,10 @@
+Another approach is MBone or Multicast Backbone. Mbone
+is essentially a virtual network implemented on top of some
+portions of the Internet. In the MBone, islands of multicast-
+capable networks are connected to each other by virtual links
+called tunnels. Multicast messages are forwarded through
+these tunnels in non multicast-capable portions of the Inter-
+net. For forwarding multicast packets through these tunnels,
+they are encapsulated as IP-over-IP (with protocol number set
+to four) such that they look like normal unicast packets to
+interventing routers.

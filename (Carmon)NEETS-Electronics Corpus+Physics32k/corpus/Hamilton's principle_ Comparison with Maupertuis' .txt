@@ -1,0 +1,66 @@
+Hamilton's principle and Maupertuis' principle are occasionally confused and both have been called (incorrectly) the principle of least action. They differ in three important ways:
+their definition of the action...
+Maupertuis' principle uses an integral over the generalized coordinates known as the abbreviated action or reduced action
+
+
+
+
+
+
+
+S
+
+
+
+0
+
+
+
+
+
+
+
+=
+
+
+
+d
+e
+f
+
+
+
+
+
+
+∫
+
+p
+
+⋅
+d
+
+q
+
+
+
+{\displaystyle {\mathcal {S}}_{0}\ {\stackrel {\mathrm {def} }{=}}\ \int \mathbf {p} \cdot d\mathbf {q} }
+
+
+where p = (p1, p2, ..., pN) are the conjugate momenta defined above. By contrast, Hamilton's principle uses
+
+
+
+
+
+S
+
+
+
+
+{\displaystyle {\mathcal {S}}}
+, the integral of the Lagrangian over time.
+the solution that they determine...
+Hamilton's principle determines the trajectory q(t) as a function of time, whereas Maupertuis' principle determines only the shape of the trajectory in the generalized coordinates. For example, Maupertuis' principle determines the shape of the ellipse on which a particle moves under the influence of an inverse-square central force such as gravity, but does not describe per se how the particle moves along that trajectory. (However, this time parameterization may be determined from the trajectory itself in subsequent calculations using the conservation of energy). By contrast, Hamilton's principle directly specifies the motion along the ellipse as a function of time.
+...and the constraints on the variation.
+Maupertuis' principle requires that the two endpoint states q1 and q2 be given and that energy be conserved along every trajectory (same energy for each trajectory). This forces the endpoint times to be varied as well. By contrast, Hamilton's principle does not require the conservation of energy, but does require that the endpoint times t1 and t2 be specified as well as the endpoint states q1 and q2.

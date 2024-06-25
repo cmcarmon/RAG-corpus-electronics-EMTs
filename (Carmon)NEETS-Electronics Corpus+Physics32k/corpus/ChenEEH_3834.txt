@@ -1,0 +1,9 @@
+One of the main difﬁculties when it comes to image processing
+applications concerns the large amount of data required to
+represent an image. For example, one frame of a standard
+deﬁnition digital television image has dimensions 720  480
+pixels. Therefore, using 256 gray levels (8 bits) for each color
+component, it requires 3  8  720  480 ¼ 8, 294, 400 bits to
+be represented. Considering that in digital video applications,
+one uses 30 frames/sec, one second of video needs more than
+240 Mbits! Thus, for the processing, storage, and transmission

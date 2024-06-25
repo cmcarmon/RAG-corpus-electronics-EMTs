@@ -1,0 +1,9 @@
+In FEM, the region under simulation is divided into triangular and quadrilateral regions in two dimensions
+or  into  tetrahedra  in  three  dimensions.  The  regions  are  placed  to  have  the  maximum  number  of  vertices  in
+areas where there is expected to be a large variation of composition or a large variation in the solution. The
+equations  in  FEM  are  modiﬁed  by  multiplying  them  with  some  shape  function  and  integrating  over  the
+simulated  region.  In  triangular  meshes,  the  shape  function  is  dependent  on  the  area  of  the  triangle  and  the
+spatial location of the node. The value of the spatial function is between 0 and 1. The solution at one node is
+the sum of all the solutions, resulting from the nearby nodes, multiplied by their respective shape functions.
+The number of nodes required to simulate a region is less than that in FDM; however, the memory requirement
+is greater.

@@ -1,0 +1,10 @@
+From an engineering viewpoint one can judge the accuracy of DF results by estimating the distortion, d, in
+the input to the nonlinearity. This is straightforward when a limit-cycle solution is given by the DF method;
+the loop may be considered opened at the nonlinearity input, the sinusoidal signal corresponding to the DF
+solution can be applied to the nonlinearity, and the harmonic content of the signal fed back to the nonlinearity
+input can be calculated. Experience indicates that the percentage accuracy of the DF method in predicting the
+fundamental amplitude and frequency of the limit cycle is less than the percentage distortion in the fedback
+signal. As mentioned previously, the DF method may incorrectly predict stability. To investigate this problem,
+the  procedure  above  can  be  used  again,  by  taking,  as  the  nonlinearity  input,  a  sinusoid  with  amplitude  and
+frequency corresponding to values of those parameters where the phase margin is small. If the calculated fedback
+distortion is high, say greater than 2% per degree of phase margin, the DF result should not be relied on.

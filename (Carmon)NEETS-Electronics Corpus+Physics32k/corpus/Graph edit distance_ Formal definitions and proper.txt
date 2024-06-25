@@ -1,0 +1,235 @@
+The mathematical definition of graph edit distance is dependent upon the definitions of the graphs over which it is defined, i.e. whether and how the vertices and edges of the graph are labeled and whether the edges are directed. Generally, given a set of graph edit operations (also known as elementary graph operations), the graph edit distance between two graphs
+
+
+
+
+g
+
+1
+
+
+
+
+{\displaystyle g_{1}}
+and
+
+
+
+
+g
+
+2
+
+
+
+
+{\displaystyle g_{2}}
+, written as
+
+
+
+G
+E
+D
+(
+
+g
+
+1
+
+
+,
+
+g
+
+2
+
+
+)
+
+
+{\displaystyle GED(g_{1},g_{2})}
+can be defined as
+
+
+
+
+G
+E
+D
+(
+
+g
+
+1
+
+
+,
+
+g
+
+2
+
+
+)
+=
+
+min
+
+(
+
+e
+
+1
+
+
+,
+.
+.
+.
+,
+
+e
+
+k
+
+
+)
+∈
+
+
+P
+
+
+(
+
+g
+
+1
+
+
+,
+
+g
+
+2
+
+
+)
+
+
+
+∑
+
+i
+=
+1
+
+
+k
+
+
+c
+(
+
+e
+
+i
+
+
+)
+
+
+{\displaystyle GED(g_{1},g_{2})=\min _{(e_{1},...,e_{k})\in {\mathcal {P}}(g_{1},g_{2})}\sum _{i=1}^{k}c(e_{i})}
+
+where
+
+
+
+
+
+P
+
+
+(
+
+g
+
+1
+
+
+,
+
+g
+
+2
+
+
+)
+
+
+{\displaystyle {\mathcal {P}}(g_{1},g_{2})}
+denotes the set of edit paths transforming
+
+
+
+
+g
+
+1
+
+
+
+
+{\displaystyle g_{1}}
+into (a graph isomorphic to)
+
+
+
+
+g
+
+2
+
+
+
+
+{\displaystyle g_{2}}
+and
+
+
+
+c
+(
+e
+)
+≥
+0
+
+
+{\displaystyle c(e)\geq 0}
+is the cost of each graph edit operation
+
+
+
+e
+
+
+{\displaystyle e}
+.
+The set of elementary graph edit operators typically includes:
+vertex insertion to introduce a single new labeled vertex to a graph.
+vertex deletion to remove a single (often disconnected) vertex from a graph.
+vertex substitution to change the label (or color) of a given vertex.
+edge insertion to introduce a new colored edge between a pair of vertices.
+edge deletion to remove a single edge between a pair of vertices.
+edge substitution to change the label (or color) of a given edge.
+Additional, but less common operators, include operations such as edge splitting that introduces a new vertex into an edge (also creating a new edge), and edge contraction that eliminates vertices of degree two between edges (of the same color). Although such complex edit operators can be defined in terms of more elementary transformations, their use allows finer parameterization of the cost function
+
+
+
+c
+
+
+{\displaystyle c}
+when the operator is cheaper than the sum of its constituents.

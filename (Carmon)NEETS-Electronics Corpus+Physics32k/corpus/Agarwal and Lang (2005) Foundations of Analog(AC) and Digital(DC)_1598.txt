@@ -1,0 +1,7 @@
+signal S with a cycle time of T such as that shown in Figure 11.2 controls the
+switch, so that the switch is closed for an interval T1, then open for an inter-
+val T2, and so on. When the switch is closed, the voltage source charges up
+the capacitor. The capacitor discharges through resistor R2 when the switch is
+open. We will be particularly interested in the special case where the T1 and
+T2 intervals are large enough that the capacitor voltages during each of the
+intervals T1 and T2 reach their respective steady state values.

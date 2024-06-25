@@ -1,0 +1,7 @@
+4. At the receiver side, the contents of the bus must be
+conditionally inverted according to the invert
+line
+unless the data are not stored encoded as they are
+(e.g., in a RAM). In any case, the value of the invert
+must be transmitted over the bus (the method in-
+creases the number of bus lines from n to n þ 1).

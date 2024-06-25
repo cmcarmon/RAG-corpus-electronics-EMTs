@@ -1,0 +1,10 @@
+One  implementation  of  modal  propagators  for  numerical  modeling  is  that  due  to  Waterman  [in  Mittra,
+1973], whose approach uses the extended boundary condition (EBC) whereby the required ﬁeld behavior is
+satisﬁed away from the boundary surface on which the sources are located. This procedure, widely known as
+the T-matrix approach, has evidently been more widely used in optics and acoustics than in electromagnetics.
+In what amounts to a reciprocal application of EBC, the sources can be removed from the boundary surface
+on which the ﬁeld-boundary conditions are applied. These modal techniques seem to offer some computational
+advantages  for  certain  kinds  of  problems  and  might  be  regarded  as  using  entire-domain  basis  and  testing
+functions but nevertheless lead to linear systems of equations whose numerical solution is required. Fourier
+transform solution techniques might also be included in this category since they do involve modal expansions,
+but that is a specialized area that we do not pursue further here.

@@ -1,0 +1,7 @@
+Techniques for the design of IIR analog ﬁlters are well established. For this reason, the most important class
+of IIR digital ﬁlter design techniques is based on forcing a digital ﬁlter to behave like a reference analog ﬁlter.
+This can be done in several different ways. For example, if the analog ﬁlter impulse response is ha(t) and the
+digital ﬁlter impulse response is h(n), then it is possible to make h(n) = ha(nT), where T is the sample spacing
+of the digital ﬁlter. Such designs are referred to as impulse-invariant [Parks and Burrus, 1987]. Likewise, if ga(t)
+is the unit step response of the analog ﬁlter and g(n) is the unit step response of the digital ﬁlter, it is possible
+to make g(n) = ga(nT), which gives a step-invariant design [Parks and Burrus, 1987].

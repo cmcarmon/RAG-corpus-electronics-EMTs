@@ -1,0 +1,12 @@
+When a central processing unit (CPU) sends data to a serial
+device (receiver) through a RS-232 interface, the data will go
+through internal busses, external busses, a RS-232 interface, a
+serial cable, a receiver’s RS-232 interface, a receiver’s busses,
+and a receiver’s CPU. Normally, a component (e.g., interface
+card) that is used to transfer signals from busses to some
+protocol can be recognized by other components or peripheral
+devices. The interface card will be plugged into an expansion
+bus slot of a motherboard. Normally, a motherboard has
+several expansion bus slots allowing components such as a
+video card, a disk controller, a modern, or a parallel-port
+card to communicate with the computer. There are three

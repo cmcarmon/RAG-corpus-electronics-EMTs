@@ -1,0 +1,9 @@
+that process the measurements made by each sensor (e.g., inertial or air data). It contains calibration constants,
+initialization  sequences,  self-test  algorithms,  reasonability  tests,  and  alternative  algorithms  for  periods  when
+sensors  have  failed  or  are  not  receiving  information.  In  the  simplest  systems,  the  state  vector  is  calculated
+independently  from  each  sensor;  most  often,  the  navigation  software  contains  multisensor  algorithms  that
+calculate the best estimate of position and velocity from several sensors. Prior to 1970, the best estimate was
+calculated from a least squares algorithm with constant weighting functions or from a frequency-domain ﬁlter
+ calculates the best estimate from mathematical models of the
+with constant coefﬁcients. Now, a 
+dynamics of each sensor.

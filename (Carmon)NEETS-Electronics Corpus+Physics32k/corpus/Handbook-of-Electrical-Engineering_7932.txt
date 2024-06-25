@@ -1,0 +1,11 @@
+a serial data port using a serial-parallel, parallel-serial shift register. (See internal register summary in Fig. 81.37)
+Each line of the input/output ports, A and B, can be individually programmed as an input or an output by
+means of data direction registers, DDRA and DDRB, respectively, which “mirror” the ports. That is, a bit in the
+data  direction  register  set  at  1  causes  the  corresponding  bit  of  the  port  to  act  as  an  output,  with  a  value
+determined  by  the  output  latch  setting.  If  the  bit  in  the  data  direction  register  is  set  at  0,  this  causes  the
+corresponding bit of the port to act as an input, and incoming data may be latched into an internal register
+under the control of a special peripheral control line, CA1 or CB1. Data may be written into register bits which
+are programmed as inputs but the output signal is unaffected. The input latching may be enabled or disabled.
+When reading a peripheral port with the latching disabled, the value read is the current value on the input pin;
+with the latching enabled, the value read is the value which existed at the input pin when the active transition
+occurred at the control input.

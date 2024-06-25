@@ -1,0 +1,9 @@
+As we consider other block codes, the simple idea of the decoder taking a majority vote of the received bits
+won’t generalize easily. We need a broader view that takes into account the distance between codewords.
+A length-N codeword means that the receiver must decide among the 2N possible data words to select
+which of the 2K codewords was actually transmitted. As shown in Figure 6.22, we can think of the data
+words geometrically. We deﬁne the Hamming distance between binary data words c1 and c2, denoted by
+d (c1, c2) to be the minimum number of bits that must be “ﬂipped” to go from one word to the other. For
+example, the distance between codewords is 3 bits. In our table of binary arithmetic, we see that adding
+a 1 corresponds to ﬂipping a bit. Furthermore, subtraction and addition are equivalent. We can express the
+Hamming distance as

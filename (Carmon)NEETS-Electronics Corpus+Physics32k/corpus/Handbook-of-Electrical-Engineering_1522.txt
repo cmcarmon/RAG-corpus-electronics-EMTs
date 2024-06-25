@@ -1,0 +1,4 @@
+This method solves the problem of excessive storage for the training speaker models because the number of
+clusters is far fewer than the number of training speakers, and it is relatively inexpensive to store a model for
+each cluster. Also, as each cluster contains a number of speakers, we have enough data to robustly estimate the
+parameters of the model for the cluster.

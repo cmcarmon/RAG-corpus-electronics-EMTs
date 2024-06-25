@@ -1,0 +1,8 @@
+as illustrated in Figure 7.10, for a given value of vGS, the iDS curve becomes
+virtually flat for large values of vDS. Accordingly, the region where vDS ≥
+vGS − VT is called the saturation region of MOSFET operation. In contrast,
+the region where vDS < vGS − VT is called the triode region. Not surprisingly,
+the SR model applies with a fair degree of accuracy only in the triode region
+of MOSFET operation. In the saturation region, because iDS does not change
+as vDS increases, the MOSFET behaves like a current source. (Recall, from
+Figure 1.34, the v i curve for a current source is a horizontal line.)

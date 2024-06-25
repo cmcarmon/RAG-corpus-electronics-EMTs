@@ -1,0 +1,9 @@
+Even though there are now two strain gauges in the bridge circuit, only one is responsive
+to mechanical strain, and thus we would still refer to this arrangement as a quarter-bridge.
+However, if we were to take the upper strain gauge and position it so that it is exposed to the
+opposite force as the lower gauge (i.e. when the upper gauge is compressed, the lower gauge
+will be stretched, and vice versa), we will have both gauges responding to strain, and the bridge
+will be more responsive to applied force. This utilization is known as a half-bridge. Since both
+strain gauges will either increase or decrease resistance by the same proportion in response
+to changes in temperature, the effects of temperature change remain canceled and the circuit
+will suffer minimal temperature-induced measurement error:

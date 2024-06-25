@@ -1,0 +1,5 @@
+Superposition means that if the circuit is linear, multisource networks can
+be solved for one source at a time by setting all other independent sources to
+zero. Setting a voltage source to zero means replacing it with a short circuit;
+a current source set to zero is an open circuit. The complete response is
+the sum of the responses to each individual source.

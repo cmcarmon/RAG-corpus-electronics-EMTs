@@ -1,0 +1,14 @@
+Resonant-Link Inverters
+The use of resonant switching techniques can be applied to inverter topologies to reduce the switching losses
+in the power devices. They also permit high switching frequency operation to reduce the size of the magnetic
+components  in  the  inverter  unit.  In  the  resonant  dc-link  inverter  shown  in  Fig.  30.15,  a  resonant  circuit  is
+added at the inverter input to convert a ﬁxed dc voltage to a pulsating dc voltage. This resonant circuit enables
+the  devices  to  be  turned  on  and  turned  off  during  the  zero  voltage  interval.  Zero  voltage  or  zero  current
+switching  is  often  termed  soft  switching.  Under  soft  switching,  the  switching  losses  in  the  power  devices  are
+almost  eliminated.  The  electromagnetic  interference  (EMI)  problem  is  less  severe  because  resonant  voltage
+pulses have lower dv/dt compared to those of hard-switched PWM inverters. Also, the machine insulation is
+less stretched because of lower dv/dt resonant voltage pulses. In Fig. 30.15, all the inverter devices are turned
+on simultaneously to initiate a resonant cycle. The commutation from one device to another is initiated at the
+zero dc-link voltage. The inverter output voltage is formed by the integral numbers of quasi-sinusoidal pulses.
+The circuit consisting of devices  Q, D, and the capacitor C acts as an active clamp to limit the dc voltage to
+about 1.4 times the diode rectiﬁer voltage Vs.

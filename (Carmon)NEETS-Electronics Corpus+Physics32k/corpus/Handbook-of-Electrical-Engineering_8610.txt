@@ -1,0 +1,6 @@
+As you look at Fig. 87.3, undoubtedly you will prefer big-endian, but that is
+only because it appeals to your prejudices. In truth, either works well. What is
+important  is  that  you  be  able  to  direct  your  program  to  go  fetch  the  item  of
+choice. In both systems, you use the lowest-numbered byte to indicate the item
+of choice. Thus, for the number 01020304, the address will be 13. For the big-endian system, 13 will point to
+the byte containing 04 and for the little-endian system, it will point at the byte containing 01.

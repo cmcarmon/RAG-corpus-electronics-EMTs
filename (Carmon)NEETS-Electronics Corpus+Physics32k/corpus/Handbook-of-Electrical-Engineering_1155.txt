@@ -1,0 +1,5 @@
+Limit cycles can exist in both ﬁxed-point and ﬂoating-point digital ﬁlter implementations. Many techniques
+have been proposed for testing a realization for limit cycles and for bounding their amplitude when they do
+exist. In ﬁxed-point realizations it is possible to prevent limit cycles by choosing a state-space realization for
+which any internal transient is guaranteed to decay to zero and then using magnitude truncation of internal
+calculations in place of rounding [Diniz and Antoniou, 1986].

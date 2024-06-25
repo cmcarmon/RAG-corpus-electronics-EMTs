@@ -1,0 +1,16 @@
+Altimeters
+A very detailed discussion of FM/CW altimeters has been given by Saunders [1990, pp. 14.34 –14.36], in which
+he has described modern commercial products built by Bendix and Collins. The parameters will be summarized
+below and if more information is needed, the reader may want to turn to other references [Saunders, 1990;
+Bendix  Corp.,  1982;  and  Maoz  et al.,  1991].  In  his  material,  Saunders  gives  a  general  overview  of  modern
+altimeters, all of which use wide-deviation FM at a low modulation frequency. He discusses the limitations on
+narrowing the antenna pattern, which must be wide enough to accommodate attitude changes of the aircraft.
+Triangular  modulation  is  used,  since  for  this  waveform  the  Doppler  averages  out,  and  dual  antennas  are
+employed. There may be a step error or quantization in height (which could be a problem at low altitudes),
+due to the limitation of counting zero crossings. A difference of one zero crossing (i.e., 1/2 Hz) corresponds
+to  3/4 meter  for  a  frequency  deviation  of  100  MHz.  Irregularities  are  not  often  seen,  however,  since  meter
+response is slow. Also, if terrain is rough, there will be actual physical altitude ﬂuctuations. Table 41.9 shows
+some  of  the  altimeters’  parameters.  These  altimeters  are  not  acceptable  for  military  aircraft,  because  their
+relatively  wide-open  front  ends  make  them  potentially  vulnerable  to  electronic  countermeasures.  A  French
+design has some advantages in this respect by using a variable frequency deviation, a difference frequency that
+is essentially constant with altitude, and a narrowband front-end ampliﬁer [Saunders, 1990].

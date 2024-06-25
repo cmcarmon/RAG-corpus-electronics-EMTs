@@ -1,0 +1,147 @@
+The forward jump and backward jump operators represent the closest point in the time scale on the right and left of a given point
+
+
+
+t
+
+
+{\displaystyle t}
+, respectively. Formally:
+
+
+
+
+σ
+(
+t
+)
+=
+inf
+{
+s
+∈
+
+T
+
+:
+s
+>
+t
+}
+
+
+{\displaystyle \sigma (t)=\inf\{s\in \mathbb {T} :s>t\}}
+(forward shift operator / forward jump operator)
+
+
+
+
+ρ
+(
+t
+)
+=
+sup
+{
+s
+∈
+
+T
+
+:
+s
+<
+t
+}
+
+
+{\displaystyle \rho (t)=\sup\{s\in \mathbb {T} :s<t\}}
+(backward shift operator / backward jump operator)
+
+The graininess
+
+
+
+μ
+
+
+{\displaystyle \mu }
+is the distance from a point to the closest point on the right and is given by:
+
+
+
+
+μ
+(
+t
+)
+=
+σ
+(
+t
+)
+−
+t
+.
+
+
+{\displaystyle \mu (t)=\sigma (t)-t.}
+
+
+For a right-dense
+
+
+
+t
+
+
+{\displaystyle t}
+,
+
+
+
+σ
+(
+t
+)
+=
+t
+
+
+{\displaystyle \sigma (t)=t}
+and
+
+
+
+μ
+(
+t
+)
+=
+0
+
+
+{\displaystyle \mu (t)=0}
+.
+For a left-dense
+
+
+
+t
+
+
+{\displaystyle t}
+,
+
+
+
+ρ
+(
+t
+)
+=
+t
+.
+
+
+{\displaystyle \rho (t)=t.}

@@ -1,0 +1,3 @@
+6. Designs should be used that avoid the possibility of having low impedances (such as generator outputs)
+connected to CMOS inputs prior to power-up of the CMOS chip. The resulting current surge when VDD
+is turned on can damage the input diodes.

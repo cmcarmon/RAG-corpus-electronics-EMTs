@@ -1,0 +1,11 @@
+Other important factors that should be considered when using PC-based instruments over manual counterparts
+are summarized in Table 108.5. Perhaps the most important choice is the selection of a minimum sampling
+rate  for  the  data  acquisition  process.  It  must  be  chosen  to  meet  the  requirements  of  the  Nyquist  frequency.
+ low pass ﬁlter that eliminates
+However, in order to ensure that no higher frequencies are present, an 
+energy above the Nyquist frequency should be employed. In order to provide sufﬁcient transition bandwidth
+for  the  ﬁlter,  a  slightly  higher  sampling  rate  should  generally  be  employed.  A  factor  of  1.25  to  5  times  the
+fs  is  a  good  compromise.  Automated  equipment  may  introduce  substantial  transients  into  the
+minimum 
+measurement  system.  Sufﬁcient  time  must  be  provided  for  the  resulting  transients  to  settle  to  an  acceptable
+error bound; for example, 1%.

@@ -1,0 +1,8 @@
+e x a m p l e 5.15
+It turns out
+that certain types of gates take up less room or are easier to build in certain technologies
+than other types of gates. We can make use of the equivalence rules to convert a circuit
+from one form to another. Let us derive an implementation of the AND function based
+on two-input NOR gates. In other words, we wish to transform the expression Z =
+A · B into one that uses only NOR operators. The following steps show how we can
+transform the AND expression into one that uses three NOR operations:

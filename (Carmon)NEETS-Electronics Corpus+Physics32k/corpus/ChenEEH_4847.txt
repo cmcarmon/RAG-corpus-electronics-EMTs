@@ -1,0 +1,12 @@
+Next, consider real-time behavior of software applications.
+While high-level languages do have function calls that seem to
+imply real-time, the timings are not exact. For example, a
+sleep(20) command implemented in a Java thread would seem
+to make the thread pause for 20 msec. However, the thread may
+actually sleep for 19 msec or 21 msec. This can be explained by
+examining how an operating system on a processor handles
+several tasks that are running concurrently (known as multi-
+tasking or multithreading: the system must schedule a dedi-
+cated processor time to each of these different tasks. As a result,
+tasks are typically scheduled in a nondeterministic manner,
+which gives rise to the resulting soft real-time behavior.

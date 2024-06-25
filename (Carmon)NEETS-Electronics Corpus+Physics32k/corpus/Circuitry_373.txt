@@ -1,0 +1,20 @@
+reduction 
+in  base  current  will  produce  a 
+corresponding  reduction  in  collector  current  to 
+offset  the  original  change.  Conversely,  if  the 
+collector current falls, the collector voltage will rise 
+and  the  base  current  will  increase.  This,  in  turn, 
+will  produce  a  corresponding  increase  in  collector 
+current to offset the original change. 
+  The negative feedback path in Fig. 7.32 provides 
+feedback  that  involves  an  a.c.  (signal)  component 
+as  well  as  the  d.c.  bias.  As  a  result  of  the  a.c. 
+feedback, there is a slight reduction in signal gain. 
+The signal  gain can be increased by removing the 
+a.c.  signal  component  from  the  feedback  path  so 
+that  only  the  d.c.  bias  component  is  present.  This 
+can be achieved with the aid of a bypass capacitor 
+as  shown  in  Fig.  7.33.  The  value  of  bypass 
+capacitor,  Cl,  is  chosen  so  that  the  component 
+exhibits  a  very  low  reactance  at  the  lowest  signal 
+frequency when compared with the series base bias 

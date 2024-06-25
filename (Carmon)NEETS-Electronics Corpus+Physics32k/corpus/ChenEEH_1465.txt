@@ -1,0 +1,9 @@
+If several users can access the same computer, the system
+needs to provide a means for users to protect the privacy of
+their ﬁles. In many systems, a user can specify the type of
+protection, such as read, write, and execution, against certain
+groups of users. Before a ﬁle can be read or written, it must be
+opened, at which time the protection is checked. If the access is
+permitted, the system returns a small integer called a ﬁle
+descriptor or handle to use in subsequent operations. Other-
+wise, an error code is returned.

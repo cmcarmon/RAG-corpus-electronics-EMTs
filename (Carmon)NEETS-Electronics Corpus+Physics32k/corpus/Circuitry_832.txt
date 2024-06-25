@@ -1,0 +1,12 @@
+appears in a PIC BASIC program: 
+Dim inputstate As Byte 
+TRISA = %111111  
+TRISB = %00000000  
+While inputstate <> %111000 
+Wend 
+PORTB = %00000000 
+While inputstate <> %000111 
+Wend 
+PORTB = %11111111 
+Explain  the  function  of  the  code  by  adding 
+appropriate comments to each line. 

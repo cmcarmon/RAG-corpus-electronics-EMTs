@@ -1,0 +1,10 @@
+Using the transistor switch, logic gates can be constructed to perform the basic logic functions
+such as AND, OR, NAND, NOR, and NOT. Since the individual gates are available in the form of
+small packages (such as the dual-in-line package, or DIP), it is generally not necessary to design
+individual gates in order to design an overall digital system. However, the designer needs to
+observe fan-out restrictions (i.e., the maximum number of gates that may be driven by the device),
+fan-in restrictions (i.e., the maximum number of gates that may drive the device), propagation
+delays, proper supply voltage to the unit, and proper connections to perform the intended logic
+function. Gates of the same logic family can be interconnected since they have the same logic
+voltage levels, impedance characteristics, and switching times. Some of the logic families are
+discussed in this section.

@@ -1,0 +1,1 @@
+The HLLC (Harten-Lax-van Leer-Contact) solver was introduced by Toro. It restores the missing Rarefaction wave by some estimates, like linearisations, these can be simple but also more advanced exists like using the Roe average velocity for the middle wave speed. They are quite robust and efficient but somewhat more diffusive.

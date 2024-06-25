@@ -1,0 +1,8 @@
+Mesh-Current Method
+This complements the nodal-voltage method of circuit analysis. A set of independent mesh-
+current variables that implicitly satisfy the KCL equations is selected in order to formulate circuit
+equations in this mesh analysis. An elementary loop, or a mesh, is easily identiﬁed as one of
+the “window panes” of the whole circuit. However, it must be noted that not all circuits can be
+laid out to contain only meshes as in the case of planar networks. Those which cannot are called
+nonplanar circuits, for which the mesh analysis cannot be applied, but the nodal analysis can be
+employed.

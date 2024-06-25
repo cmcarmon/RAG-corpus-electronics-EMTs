@@ -1,0 +1,7 @@
+This  result  is  intuitively  very  reasonable.  In  particular,  the  more  accurate  measurements  (corresponding  to
+small Rj) are weighted more heavily in estimating x; conversely, relatively inaccurate measurements (with large
+Rj) are given little weight.
+Example 3
+Consider the problem of estimating the value of a quantity, y, that changes linearly with time with an unknown
+rate of change, given a sequence of measurements of y corrupted by additive noise that is statistically independent
+from sample to sample. In the Kalman ﬁlter setup, we could model this problem as follows. Let the state vector be:

@@ -1,0 +1,3 @@
+In summary, grid-leak bias causes the grid to draw current when the input signal goes positive. This
+grid current (which is a negative charge) is stored by the coupling capacitor (Cc,) which will keep the grid
+at some negative potential. It is this potential that biases the tube.

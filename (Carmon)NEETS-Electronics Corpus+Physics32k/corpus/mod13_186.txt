@@ -1,0 +1,4 @@
+The sum 11112 is the binary equivalent of 1510; however, 1111 is not a valid BCD number. You
+cannot exceed 1001 in BCD, so a correction factor must be made. To do this, you add 610 (0110BCD) to the
+sum of the two numbers. The "add 6" correction factor is added to any BCD group larger than 10012.
+Remember, there is no 10102, 10112, 11002, 11012, 11102, or 11112 in BCD:

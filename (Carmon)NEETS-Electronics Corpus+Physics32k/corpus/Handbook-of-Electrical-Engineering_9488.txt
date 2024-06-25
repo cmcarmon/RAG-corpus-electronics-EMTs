@@ -1,0 +1,3 @@
+Update anomalies and data redundancy can originate from transitive dependencies. A nonprime attribute Ai
+is  said  to  be  transitively  dependent  on  a  key  k  via  attribute  name  Aj,  if  k  ﬁ  Aj,  Aj ﬁ  Ai,  and  Aj  does  not
+functionally determine Ak. A 3NF is a 1NF where no nonprime attribute is transitively dependent on a key.

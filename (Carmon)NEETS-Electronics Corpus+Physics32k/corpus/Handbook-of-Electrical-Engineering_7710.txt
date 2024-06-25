@@ -1,0 +1,7 @@
+I/O program control statements, e.g., transfer in channel, are interpreted by the channel, while the storage
+director (also known as the device controller or control unit) handles seek and data-transfer requests. Besides
+these control functions, it may also perform certain datapath functions, such as error detection/correction and
+mapping  between  serial  and  parallel  data.  In  response  to  requests  from  the  storage  director,  the  device  will
+position the access mechanism, select the appropriate head, and perform the read or write. If the storage director
+is simply a control unit, then the datapath functions will be handled by the head of string (also known as a
+string controller).

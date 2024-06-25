@@ -1,0 +1,13 @@
+Sometimes it is desirable to change the DC refer-
+ence level of a waveform. The dC reference level is 
+the starting point from which measurements are made. 
+A clamping circuit can be used to clamp the top or 
+bottom of the waveform to a given DC voltage. Unlike 
+a clipper, or limiter, circuit, a clamping circuit does not 
+change the shape of the waveform. A diode clamper 
+(Figure 40-27) is also called a DC restorer. This circuit 
+is commonly used in radar, television, telecommuni-
+cations, and computers. In the circuit shown, a square 
+wave is applied to an input signal. The purpose of the 
+circuit is to clamp the top of the square wave to 0 volts, 
+without changing the shape of the waveform.

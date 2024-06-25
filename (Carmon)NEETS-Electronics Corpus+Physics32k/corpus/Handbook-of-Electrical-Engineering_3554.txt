@@ -1,0 +1,12 @@
+Finally, equation solution schemes determine the values for the independent variables that comply with the
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+governing equations. There are basically two types of equation solution schemes: explicit and implicit. Explicit
+solution schemes, such as Gaussian elimination and/or LU factorization, determine independent variable values
+using closed-form, deterministic techniques. Implicit solution schemes, such as Gauss–Jacobi and Gauss–Seidel,
+determine independent variable values using iterative, nondeterministic techniques.

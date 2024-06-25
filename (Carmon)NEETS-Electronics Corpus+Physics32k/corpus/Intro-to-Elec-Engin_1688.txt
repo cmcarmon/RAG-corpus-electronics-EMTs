@@ -1,0 +1,4 @@
+The control of a dc motor can be achieved with a PI controller discretized for microprocessor
+programming. The starting point is that the PI controller is described by a differential equation.
+The latter is discretized at the sampling instants by one of the numerical approximation methods,
+and then is programmed in the microprocessor machine language.

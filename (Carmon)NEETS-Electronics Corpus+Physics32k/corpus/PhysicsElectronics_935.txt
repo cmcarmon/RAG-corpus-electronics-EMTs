@@ -1,0 +1,5 @@
+Read and write operations between the CPU and memory units are the most common.
+One approach is for the CPU to set the address lines and data lines and then blindly issue
+the control pulses, assuming that the slave unit will respond as needed within the allowed
+time. A more elegant but slightly slower technique uses a handshake which requires an
+acknowledgment response from the slave before proceeding.

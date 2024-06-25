@@ -1,0 +1,137 @@
+The Boussinesq approximation is applied to problems where the fluid varies in temperature from one place to another, driving a flow of fluid and heat transfer. The fluid satisfies conservation of mass, conservation of momentum and conservation of energy. In the Boussinesq approximation, variations in fluid properties other than density ρ are ignored, and density only appears when it is multiplied by g, the gravitational acceleration. If u is the local velocity of a parcel of fluid, the continuity equation for conservation of mass is
+
+
+
+
+
+
+
+∂
+ρ
+
+
+∂
+t
+
+
+
++
+∇
+⋅
+
+(
+
+ρ
+
+u
+
+
+)
+
+=
+0.
+
+
+{\displaystyle {\frac {\partial \rho }{\partial t}}+\nabla \cdot \left(\rho \mathbf {u} \right)=0.}
+
+If density variations are ignored, this reduces to
+
+The general expression for conservation of momentum of an incompressible, Newtonian fluid (the Navier–Stokes equations) is
+
+
+
+
+
+
+
+∂
+
+u
+
+
+
+∂
+t
+
+
+
++
+
+u
+
+⋅
+∇
+
+u
+
+=
+−
+
+
+1
+ρ
+
+
+∇
+p
++
+ν
+
+∇
+
+2
+
+
+
+u
+
++
+
+
+1
+ρ
+
+
+
+F
+
+,
+
+
+{\displaystyle {\frac {\partial \mathbf {u} }{\partial t}}+\mathbf {u} \cdot \nabla \mathbf {u} =-{\frac {1}{\rho }}\nabla p+\nu \nabla ^{2}\mathbf {u} +{\frac {1}{\rho }}\mathbf {F} ,}
+
+where ν (nu) is the kinematic viscosity and F is the sum of any body forces such as gravity. In this equation, density variations are assumed to have a fixed part and another part that has a linear dependence on temperature:
+
+
+
+
+ρ
+=
+
+ρ
+
+0
+
+
+−
+α
+
+ρ
+
+0
+
+
+Δ
+T
+,
+
+
+{\displaystyle \rho =\rho _{0}-\alpha \rho _{0}\Delta T,}
+
+where α is the coefficient of thermal expansion.
+If F = ρg is the gravitational body force, the resulting conservation equation is
+
+In the equation for heat flow in a temperature gradient, the heat capacity per unit volume, ρCρ, is assumed constant. The resulting equation is
+
+where J is the rate per unit volume of internal heat production and κ is the thermal diffusivity.
+The three numbered equations are the basic convection equations in the Boussinesq approximation.

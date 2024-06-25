@@ -1,0 +1,16 @@
+2. In-place data mapping: Note that ac_inter‘ has a
+dependency only on two of its earlier values; thus
+only three (earlier) integer values need to be stored
+for computing each of
+the autocorrelated values.
+Thus, by performing intrasignal in-place data map-
+ping, as shown in Figure 2.26, we are able to drastically
+reduce the size of this signal from 26,400 to 33 integer
+elements. The signal AutoCorr‘ is a temporary signal.
+By reusing the memory space of signal ac_inter‘ for
+storing AutoCorr‘, we can further reduce the total
+memory space required. This is achieved by intersignal
+in-place mapping of array AutoCorr‘ on ac_inter‘.
+Thus, initially ac_inter‘ could not have been accom-
+modated in the on-chip local memory due to the large
+size of this signal, but now we have removed this

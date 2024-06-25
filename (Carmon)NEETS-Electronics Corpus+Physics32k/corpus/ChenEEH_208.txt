@@ -1,0 +1,33 @@
+Examples of nonlinear characteristics of nonlinear two-
+terminal resistors are shown in Figure 5.1(A). Nonlinear
+resistors commonly used in electronic circuits are diodes:
+exponential, zener, and tunnel (Esaki) diodes. They are built
+from semiconductor materials and are often used in the
+design of electronic circuits along with linear elements that
+provide appropriate biasing for the nonlinear components.
+A circuit symbol for an exponential diode and its characteris-
+tic are given in Figure 5.1(B). The diode model
+is often
+simpliﬁed and the current ﬂowing through the diode in the
+reverse biased region is assumed to be zero. Further simpli-
+ﬁcation leads to a model of a switch: the diode is either on
+(voltage across the diode terminals is zero) or off (current
+ﬂowing through the diode is zero). These simpliﬁed diode
+models are also nonlinear. Three such characteristics are
+shown in Figure 5.1(B). The zener diode, shown in Figure
+5.1(C),
+is another commonly used electrical component.
+Tunnel diodes have more complex nonlinear characteristic,
+as shown in Figure 5.1(D). This nonlinear element is qualita-
+tively different from exponential diodes. It permits multiple
+values of voltages across the diode for the same value of
+current ﬂowing through it. Its characteristic has a region
+where its derivative (differential
+is negative.
+Silicon-controlled rectiﬁer, used in many switching circuits,
+is a two-terminal nonlinear element with a similar behavior.
+It is a current-controlled resistor that permits multiple values
+of currents ﬂowing through it for the same value of voltage
+across its terminals. A symbol for the silicon-controlled recti-
+ﬁer and its current-controlled characteristic are shown in
+Figure 5.1(E).

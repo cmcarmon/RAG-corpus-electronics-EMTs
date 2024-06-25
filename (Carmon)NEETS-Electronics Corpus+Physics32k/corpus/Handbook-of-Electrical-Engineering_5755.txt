@@ -1,0 +1,18 @@
+Kinds of Loadﬂow Instability
+Two kinds of voltage instability have been associated with a loadﬂow model: loss of control voltage instability
+and clogging voltage instability [Schlueter, 1998d]. Loss of control voltage instability is caused by exhaustion
+of  reactive  power  supply  that  produces  loss  of  voltage  control  on  some  of  the  generators  or  synchronous
+condensers. Loss of voltage control on these reactive supply devices implies both lack of any further reactive
+supply from these devices and loss of control of voltage that will increase network reactive losses that absorb
+a portion of the ﬂow of reactive power supply and prevent it from reaching the subregion needing that reactive
+supply.  Loss  of  voltage  control  develops  because  of  equipment  outages  (generator,  transmission  line,  and
+transformer), operating condition changes (wheeling, interchange, and transfer transactions), and load/gener-
+ation pattern changes. Loss of control voltage instability occurs in the subtransmission and transmission system
+[Schlueter, 1998d]. It produces either saddle node or singularity-induced bifurcation in a differential algebraic
+model. On the other hand, clogging develops because of increasing reactive power losses, and switching shunt
+capacitors  and  tap  changers  reaching  their  limits.  These  network  reactive  losses,  due  to  increasing  magnetic
+ﬁeld and shunt capacitive supply withdrawal, can completely block reactive power supply from reaching the
+subregion  with  need  [Schlueter,  1998d].  Clogging  voltage  instability  can  produce  algebraic  bifurcation  in  a
+differential  algebraic  model.  The VSSAD  method  can  diagnose  whether  the  voltage  instability  occurs  due  to
+clogging or loss of control voltage instability for each equipment outage, transaction combination, or both that
+have no solution.

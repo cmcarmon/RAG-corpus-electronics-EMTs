@@ -1,0 +1,705 @@
+Consider slender body of length
+
+
+
+ℓ
+
+
+{\displaystyle \ell }
+and typical diameter
+
+
+
+2
+a
+
+
+{\displaystyle 2a}
+with
+
+
+
+ℓ
+≫
+a
+
+
+{\displaystyle \ell \gg a}
+, surrounded by fluid of viscosity
+
+
+
+μ
+
+
+{\displaystyle \mu }
+whose motion is governed by the Stokes equations. Note that the Stokes' paradox implies that the limit of infinite aspect ratio
+
+
+
+ℓ
+
+/
+
+a
+→
+∞
+
+
+{\displaystyle \ell /a\rightarrow \infty }
+is singular, as no Stokes flow can exist around an infinite cylinder.
+Slender-body theory allows us to derive an approximate relationship between the velocity of the body at each point along its length and the force per unit length experienced by the body at that point.
+Let the axis of the body be described by
+
+
+
+
+X
+
+(
+s
+,
+t
+)
+
+
+{\displaystyle {\boldsymbol {X}}(s,t)}
+, where
+
+
+
+s
+
+
+{\displaystyle s}
+is an arc-length coordinate, and
+
+
+
+t
+
+
+{\displaystyle t}
+is time. By virtue of the slenderness of the body, the force exerted on the fluid at the surface of the body may be approximated by a distribution of Stokeslets along the axis with force density
+
+
+
+
+f
+
+(
+s
+)
+
+
+{\displaystyle {\boldsymbol {f}}(s)}
+per unit length.
+
+
+
+
+f
+
+
+
+{\displaystyle {\boldsymbol {f}}}
+is assumed to vary only over lengths much greater than
+
+
+
+a
+
+
+{\displaystyle a}
+, and the fluid velocity at the surface adjacent to
+
+
+
+
+X
+
+(
+s
+,
+t
+)
+
+
+{\displaystyle {\boldsymbol {X}}(s,t)}
+is well-approximated by
+
+
+
+∂
+
+X
+
+
+/
+
+∂
+t
+
+
+{\displaystyle \partial {\boldsymbol {X}}/\partial t}
+.
+The fluid velocity
+
+
+
+
+u
+
+(
+
+x
+
+)
+
+
+{\displaystyle {\boldsymbol {u}}({\boldsymbol {x}})}
+at a general point
+
+
+
+
+x
+
+
+
+{\displaystyle {\boldsymbol {x}}}
+due to such a distribution can be written in terms of an integral of the Oseen tensor (named after Carl Wilhelm Oseen), which acts as a Greens function for a single Stokeslet. We have
+
+
+
+
+
+u
+
+(
+
+x
+
+)
+=
+
+∫
+
+0
+
+
+ℓ
+
+
+
+
+
+
+f
+
+(
+s
+)
+
+
+8
+π
+μ
+
+
+
+⋅
+
+(
+
+
+
+
+I
+
+
+
+|
+
+
+x
+
+−
+
+X
+
+
+|
+
+
+
+
++
+
+
+
+(
+
+x
+
+−
+
+X
+
+)
+(
+
+x
+
+−
+
+X
+
+)
+
+
+
+|
+
+
+x
+
+−
+
+X
+
+
+
+|
+
+
+3
+
+
+
+
+
+
+)
+
+
+
+d
+
+s
+
+
+{\displaystyle {\boldsymbol {u}}({\boldsymbol {x}})=\int _{0}^{\ell }{\frac {{\boldsymbol {f}}(s)}{8\pi \mu }}\cdot \left({\frac {\mathbf {I} }{|{\boldsymbol {x}}-{\boldsymbol {X}}|}}+{\frac {({\boldsymbol {x}}-{\boldsymbol {X}})({\boldsymbol {x}}-{\boldsymbol {X}})}{|{\boldsymbol {x}}-{\boldsymbol {X}}|^{3}}}\right)\,\mathrm {d} s}
+
+where
+
+
+
+
+I
+
+
+
+{\displaystyle \mathbf {I} }
+is the identity tensor.
+Asymptotic analysis can then be used to show that the leading-order contribution to the integral for a point
+
+
+
+
+x
+
+
+
+{\displaystyle {\boldsymbol {x}}}
+on the surface of the body adjacent to position
+
+
+
+
+s
+
+0
+
+
+
+
+{\displaystyle s_{0}}
+comes from the force distribution at
+
+
+
+
+|
+
+s
+−
+
+s
+
+0
+
+
+
+|
+
+=
+O
+(
+a
+)
+
+
+{\displaystyle |s-s_{0}|=O(a)}
+. Since
+
+
+
+a
+≪
+ℓ
+
+
+{\displaystyle a\ll \ell }
+, we approximate
+
+
+
+
+f
+
+(
+s
+)
+≈
+
+f
+
+(
+
+s
+
+0
+
+
+)
+
+
+{\displaystyle {\boldsymbol {f}}(s)\approx {\boldsymbol {f}}(s_{0})}
+. We then obtain
+
+
+
+
+
+
+
+∂
+
+X
+
+
+
+∂
+t
+
+
+
+∼
+
+
+
+ln
+⁡
+(
+ℓ
+
+/
+
+a
+)
+
+
+4
+π
+μ
+
+
+
+
+f
+
+(
+s
+)
+⋅
+
+
+(
+
+
+
+I
+
++
+
+
+X
+
+′
+
+
+
+X
+
+′
+
+
+
+)
+
+
+
+
+{\displaystyle {\frac {\partial {\boldsymbol {X}}}{\partial t}}\sim {\frac {\ln(\ell /a)}{4\pi \mu }}{\boldsymbol {f}}(s)\cdot {\Bigl (}\mathbf {I} +{\boldsymbol {X}}'{\boldsymbol {X}}'{\Bigr )}}
+
+where
+
+
+
+
+
+X
+
+′
+
+=
+∂
+
+X
+
+
+/
+
+∂
+s
+
+
+{\displaystyle {\boldsymbol {X}}'=\partial {\boldsymbol {X}}/\partial s}
+.
+The expression may be inverted to give the force density in terms of the motion of the body:
+
+
+
+
+
+f
+
+(
+s
+)
+∼
+
+
+
+4
+π
+μ
+
+
+ln
+⁡
+(
+ℓ
+
+/
+
+a
+)
+
+
+
+
+
+
+∂
+
+X
+
+
+
+∂
+t
+
+
+
+⋅
+
+
+(
+
+
+
+I
+
+−
+
+
+
+1
+2
+
+
+
+
+X
+
+′
+
+
+
+X
+
+′
+
+
+
+)
+
+
+
+
+
+{\displaystyle {\boldsymbol {f}}(s)\sim {\frac {4\pi \mu }{\ln(\ell /a)}}{\frac {\partial {\boldsymbol {X}}}{\partial t}}\cdot {\Bigl (}\mathbf {I} -\textstyle {\frac {1}{2}}{\boldsymbol {X}}'{\boldsymbol {X}}'{\Bigr )}}
+
+Two canonical results that follow immediately are for the drag force
+
+
+
+F
+
+
+{\displaystyle F}
+on a rigid cylinder (length
+
+
+
+ℓ
+
+
+{\displaystyle \ell }
+, radius
+
+
+
+a
+
+
+{\displaystyle a}
+) moving a velocity
+
+
+
+u
+
+
+{\displaystyle u}
+either parallel to its axis or perpendicular to it. The parallel case gives
+
+
+
+
+F
+∼
+
+
+
+2
+π
+μ
+ℓ
+u
+
+
+ln
+⁡
+(
+ℓ
+
+/
+
+a
+)
+
+
+
+
+
+{\displaystyle F\sim {\frac {2\pi \mu \ell u}{\ln(\ell /a)}}}
+
+while the perpendicular case gives
+
+
+
+
+F
+∼
+
+
+
+4
+π
+μ
+ℓ
+u
+
+
+ln
+⁡
+(
+ℓ
+
+/
+
+a
+)
+
+
+
+
+
+{\displaystyle F\sim {\frac {4\pi \mu \ell u}{\ln(\ell /a)}}}
+
+with only a factor of two difference.
+Note that the dominant length scale in the above expressions is the longer length
+
+
+
+ℓ
+
+
+{\displaystyle \ell }
+; the shorter length has only a weak effect through the logarithm of the aspect ratio. In slender-body theory results, there are
+
+
+
+O
+(
+1
+)
+
+
+{\displaystyle O(1)}
+corrections to the logarithm, so even for relatively large values of
+
+
+
+ℓ
+
+/
+
+a
+
+
+{\displaystyle \ell /a}
+the error terms will not be that small.

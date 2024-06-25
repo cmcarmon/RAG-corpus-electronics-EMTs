@@ -1,0 +1,15 @@
+The choice of cell size is critical in applying FDTD. It must be small enough to permit accurate results at the
+highest frequency of interest, and yet be large enough to keep resource requirements manageable. Cell size is directly
+affected by the materials present. The greater the permittivity and/or conductivity, the shorter the wavelength at a
+given  frequency  and  the  smaller  the  cell  size  required.  Once  the  cell  size  is  selected,  the  maximum  time  step  is
+determined by the Courant stability condition. After the user determines the cell size, a problem space large enough
+to encompass the scattering object, plus space between the object and the absorbing outer boundary, is determined.
+From the number of Yee cells needed and the number of time steps required, resource requirements can be estimated.
+The fundamental constraint is that the cell size must be much less than the smallest wavelength for which
+accurate results are desired. An often quoted constraint is “10 cells per wavelength”, meaning that the side of
+each  cell  should  be  1/10  of  the  wavelength  at  the  highest  frequency  (shortest  wavelength)  of  interest.  Since
+FDTD  is  a  volumetric  computational  method,  if  some  portion  of  the  computational  space  is  ﬁlled  with
+  to  determine  the  maximum  cell  size.  For
+penetrable  material,  one  must  use  the  wavelength 
+problems containing biological materials, this results in cells in the material that are much smaller than if only
+free space and perfect conductors were being considered.

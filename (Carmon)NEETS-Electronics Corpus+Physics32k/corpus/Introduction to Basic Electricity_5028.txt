@@ -1,0 +1,14 @@
+autorouter  programs  are  designed  to  use 
+the computer to lay out a printed circuit board. 
+ Autorouters should not be relied on unless they are 
+“smart.” Typical low-cost routers only connect points 
+together. They don’t consider the length of the trace, 
+which traces are analog and which are digital, which 
+lines are sensitive, which are ground loops, and so on. 
+Subtle points can make a significant difference in how 
+a printed circuit board performs. It’s easier to lay out 
+a printed circuit board manually than to root out elu-
+sive errors made by a program. Autorouter programs 
+include National Instrument’s Ultiboard, New Wave 
+Concepts’ Circuit Wizard, and Cadence’s OrCAD 
+PCB Designer.

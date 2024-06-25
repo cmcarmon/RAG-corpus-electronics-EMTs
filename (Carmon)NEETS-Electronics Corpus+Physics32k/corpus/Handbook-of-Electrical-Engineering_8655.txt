@@ -1,0 +1,4 @@
+b. The SPARC does the same sort of thing with a pointer in %o2, except with the difference that it sign-
+extends the byte to a longword. Sign extension simply copies the sign-bit into the higher-order bits,
+effectively  making  3E  into  0000  003E  or  C2  into  FFFF  FFC2.  That  is  what  the  mnemonic  means:
+“LoaD Signed Byte.”

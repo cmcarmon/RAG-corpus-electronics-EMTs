@@ -1,0 +1,6 @@
+I = -5 mA
+The negative (-) sign on the value of 5 milliamps tells us that the current is exiting the
+node, as opposed to the 2 milliamp and 3 milliamp currents, which must both be positive (and
+therefore entering the node). Whether negative or positive denotes current entering or exiting
+is entirely arbitrary, so long as they are opposite signs for opposite directions and we stay
+consistent in our notation, KCL will work.

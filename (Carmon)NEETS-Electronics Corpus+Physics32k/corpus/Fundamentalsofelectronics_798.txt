@@ -1,0 +1,4 @@
+At this point, the message signal is multiplied by a constant and a sinusoid at twice the carrier frequency.
+Multiplication by the constant term returns the message signal to baseband (where we want it to be!) while
+multiplication by the double-frequency term yields a very high frequency signal. The lowpass ﬁlter removes
+this high-frequency signal, leaving only the baseband signal. Thus, the received signal is

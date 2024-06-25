@@ -1,0 +1,4 @@
+To model permeability in anisotropic media, a permeability tensor is needed. Pressure can be applied in three directions, and for each direction, permeability can be measured (via Darcy's law in 3D) in three directions, thus leading to a 3 by 3 tensor. The tensor is realised using a 3 by 3 matrix being both symmetric and positive definite (SPD matrix):
+The tensor is symmetric by the Onsager reciprocal relations.
+The tensor is positive definite as the component of the flow parallel to the pressure drop is always in the same direction as the pressure drop.
+The permeability tensor is always diagonalizable (being both symmetric and positive definite). The eigenvectors will yield the principal directions of flow, meaning the directions where flow is parallel to the pressure drop, and the eigenvalues representing the principal permeabilities.

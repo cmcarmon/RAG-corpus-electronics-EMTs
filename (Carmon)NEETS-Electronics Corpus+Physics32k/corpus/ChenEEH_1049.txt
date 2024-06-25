@@ -1,0 +1,11 @@
+their input capacitances. Reducing these capacitances yields
+savings in power consumption. Resizing does not always
+imply downsizing. Power can also be reduced by enlarging
+heavily loaded gates to increase their output slew rates. Fast
+transitions minimize short-circuit power of the gates in the
+fan-out of the gate that has been sized up, but the gate’s
+capacitance is increased. In most cases, resizing is a complex
+optimization problem involving a trade-off between output
+switching power and internal short circuit power on several
+gates at the same time with the constraint being set on per-
+formance by the critical path timing.

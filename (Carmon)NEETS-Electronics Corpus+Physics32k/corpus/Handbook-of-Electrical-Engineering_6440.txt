@@ -1,0 +1,8 @@
+Since Tc is chosen so that Tb @ Tc, then relative to the bandwidth of the BPSK information signal, the bandwidth
+of  the  DS/BPSK  signal2  is  effectively  increased  by  the  ratio Tb/Tc  = Wss/2Rb,  which  is  one-half  the  spreading
+factor  or  processing  gain  of  the  system. At  the  receiver,  the  sum  of  the  transmitted  DS/BPSK  signal  and  the
+channel interference I(t) (as discussed before, we ignore the presence of the additive thermal noise) are ideally
+multiplied by the identical DS modulation (this operation is known as despreading), which returns the DS/BPSK
+signal to its original BPSK form whereas the real interference signal is now the real wideband signal Re{(t)c(t)}.
+In the previous sentence, we used the word ideally, which implies that the PN waveform used for despreading
+at  the  receiver  is  identical  to  that  used  for  spreading  at  the  transmitter.  This  simple  implication  covers  up  a

@@ -1,0 +1,4 @@
+C1 performs exactly the same function as it did in the single capacitor filter. It is used to reduce the 
+percentage of ripple to a relatively low value. Thus, the voltage across C1 might consist of an average dc 
+value of +100 volts with a ripple voltage of 10 volts peak-to-peak. This voltage is passed on to the R1-C2 
+network, which reduces the ripple even further. 

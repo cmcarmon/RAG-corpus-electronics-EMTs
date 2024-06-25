@@ -1,0 +1,78 @@
+Tether properties and materials are dependent on the application. However, there are some common properties. To achieve maximum performance and low cost, tethers would need to be made of materials with the combination of high strength or electrical conductivity and low density. All space tethers are susceptible to space debris or micrometeroids. Therefore, system designers will need to decide whether or not a protective coating is needed, including relative to UV and atomic oxygen. Research is being conducted to assess the probability of a collision that would damage the tether MAST.
+For applications that exert high tensile forces on the tether, the materials need to be strong and light. Some current tether designs use crystalline plastics such as ultra high molecular weight polyethylene, aramid or carbon fiber. A possible future material would be carbon nanotubes, which have an estimated tensile strength between 140 and 177 GPa (20.3-25.6 million psi), and a proven tensile strength in the range 50-60 GPa for some individual nanotubes. (A number of other materials obtain 10 to 20 GPa in some samples on the nano scale, but translating such strengths to the macro scale has been challenging so far, with, as of 2011, CNT-based ropes being an order of magnitude less strong, not yet stronger than more conventional carbon fiber on that scale).
+For some applications, the tensile force on the tether is projected to be less than 15 lbs (< 65 N) Material selection in this case depends on the purpose of the mission and design constraints. Electrodynamic tethers, such as the one used on TSS-1R, may use thin copper wires for high conductivity (see EDT).
+There are design equations for certain applications that may be used to aid designers in identifying typical quantities that drive material selection.
+Space elevator equations typically use a "characteristic length", Lc, which is also known as its "self-support length" and is the length of untapered cable it can support in a constant 1 g gravity field.
+
+
+
+
+
+L
+
+c
+
+
+=
+
+
+σ
+
+ρ
+g
+
+
+
+
+
+{\displaystyle L_{c}={\frac {\sigma }{\rho g}}}
+,
+where σ is the stress limit (in pressure units) and ρ is the density of the material.
+Hypersonic skyhook equations use the material's "specific velocity" which is equal to the maximum tangential velocity a spinning hoop can attain without breaking:
+
+
+
+
+V
+=
+
+
+
+σ
+ρ
+
+
+
+
+
+{\displaystyle V={\sqrt {\frac {\sigma }{\rho }}}}
+
+For rotating tethers (rotovators) the value used is the material’s ‘characteristic velocity’ which is the maximum tip velocity a rotating untapered cable can attain without breaking,
+
+
+
+
+
+V
+
+c
+
+
+=
+
+
+
+
+2
+σ
+
+ρ
+
+
+
+
+
+{\displaystyle V_{c}={\sqrt {\frac {2\sigma }{\rho }}}}
+
+The characteristic velocity equals the specific velocity multiplied by the square root of two.
+These values are used in equations similar to the rocket equation and are analogous to specific impulse or exhaust velocity. The higher these values are, the more efficient and lighter the tether can be in relation to the payloads that they can carry. Eventually however, the mass of the tether propulsion system will be limited at the low end by other factors such as momentum storage.

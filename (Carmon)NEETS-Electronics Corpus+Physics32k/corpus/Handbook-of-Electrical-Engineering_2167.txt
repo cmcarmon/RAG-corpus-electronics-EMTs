@@ -1,0 +1,9 @@
+It is possible to combine the advantages of memory by feedback with the ones of the memory by delays in
+linear systems called dispersive delay lines. The most studied of these memories is a cascade of low-pass functions
+called  the  gamma  memory  [de Vries  and  Principe,  1992].  The  gamma  memory  has  a  free  parameter  m  that
+controls and decouples memory depth from resolution of the memory. Memory depth D is deﬁned as the ﬁrst
+moment of the impulse response from the input to the last tap K, while memory resolution R is the number of
+taps per unit time. For the gamma memory D = K/m, and R = m; i.e., changing m modiﬁes the memory depth
+and resolution inversely. This recursive parameter m can be adapted with the output MSE as the other network
+parameters;  i.e.,  the  ANN  is  able  to  choose  the  best  memory  depth  to  minimize  the  output  error,  which  is
+unlike the tap delay memory.

@@ -1,0 +1,107 @@
+However, unlike other wheeled vehicles, bikes must also lean during a turn to balance the relevant forces: gravitational, inertial, frictional, and ground support. The angle of lean, θ, can easily be calculated using the laws of circular motion:
+
+
+
+
+θ
+=
+arctan
+⁡
+
+(
+
+
+
+v
+
+2
+
+
+
+g
+r
+
+
+
+)
+
+
+
+{\displaystyle \theta =\arctan \left({\frac {v^{2}}{gr}}\right)}
+
+where v is the forward speed, r is the radius of the turn and g is the acceleration of gravity. This is in the idealized case. A slight increase in the lean angle may be required on motorcycles to compensate for the width of modern tires at the same forward speed and turn radius.
+It can also be seen however that this simple 2-dimensional model, essentially an inverted pendulum on a turntable, predicts that the steady-state turn is unstable. If the bike is displaced slightly downwards from its equilibrium lean angle, the torque of gravity increases, that of centrifugal force decreases and the displacement gets amplified. A more-sophisticated model that allows a wheel to steer, adjust the path, and counter the torque of gravity, is necessary to capture the self-stability observed in real bikes.
+For example, a bike in a 10 m (33 ft) radius steady-state turn at 10 m/s (36 km/h, 22 mph) must be at an angle of 45.6°. A rider can lean with respect to the bike in order to keep either the torso or the bike more or less upright if desired. The angle that matters is the one between the horizontal plane and the plane defined by the tire contacts and the location of the center of mass of bike and rider.
+This lean of the bike decreases the actual radius of the turn proportionally to the cosine of the lean angle. The resulting radius can be roughly approximated (within 2% of exact value) by:
+
+
+
+
+r
+=
+
+
+
+w
+cos
+⁡
+
+(
+θ
+)
+
+
+
+δ
+cos
+⁡
+
+(
+ϕ
+)
+
+
+
+
+
+
+{\displaystyle r={\frac {w\cos \left(\theta \right)}{\delta \cos \left(\phi \right)}}}
+
+where r is the approximate radius, w is the wheelbase, θ is the lean angle, δ is the steer angle, and φ is the caster angle of the steering axis. As a bike leans, the tires' contact patches move farther to the side causing wear. The portions at either edge of a motorcycle tire that remain unworn by leaning into turns is sometimes referred to as chicken strips.
+The finite width of the tires alters the actual lean angle of the rear frame from the ideal lean angle described above. The actual lean angle between the frame and the vertical must increase with tire width and decrease with center of mass height. Bikes with fat tires and low center of mass must lean more than bikes with skinnier tires or higher centers of mass to negotiate the same turn at the same speed.
+The increase in lean angle due to a tire thickness of 2t can be calculated as
+
+
+
+
+arcsin
+⁡
+
+(
+
+t
+
+
+
+sin
+⁡
+(
+ϕ
+)
+
+
+h
+−
+t
+
+
+
+
+)
+
+
+
+{\displaystyle \arcsin \left(t{\frac {\sin(\phi )}{h-t}}\right)}
+
+where φ is the ideal lean angle, and h is the height of the center of mass. For example, a motorcycle with a 12 inch wide rear tire will have t = 6 inches. If the combined bike and rider center of mass is at a height of 26 inches, then a 25° lean must be increased by 7.28°: a nearly 30% increase. If the tires are only 6 inches wide, then the lean angle increase is only 3.16°, just under half.
+It has been shown that the couple created by gravity and the ground reaction forces is necessary for a bicycle to turn at all. On a custom built bicycle with spring-loaded outriggers that exactly cancel this couple, so that the bicycle and rider may assume any lean angle when traveling in a straight line, riders find it impossible to make a turn. As soon as the wheels deviate from a straight path, the bicycle and rider begin to lean in the opposite direction, and the only way to right them is to steer back onto the straight path.

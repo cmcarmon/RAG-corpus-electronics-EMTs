@@ -1,0 +1,9 @@
+Current-Fed PWM Inverter Induction Motor Drive
+The  force-commutated  thyristor  inverter  in  Fig.  30.46  can  be  replaced  by  a self-commutating gate  turn-off
+(GTO) thyristor PWM inverter as shown in Fig. 30.47. The output capacitor bank shown has two functions:
+(1) it permits PWM switching of the GTO by diverting the load inductive current, and (2) it acts as a low-pass
+ﬁlter causing sinusoidal machine current. The second function improves machine efﬁciency and attenuates the
+irritating magnetic noise. Note that the fundamental machine current is controlled by the front-end rectiﬁer,
+and the ﬁxed PWM pattern is for controlling the harmonics only. The GTO is to be the reverse-blocking type.
+Such  drives  are  popular  in  the  multimegawatt  power  range.  For  lower  power,  an  insulated  gate  bipolar
+transistor (IGBT) or transistor can be used with a series diode.

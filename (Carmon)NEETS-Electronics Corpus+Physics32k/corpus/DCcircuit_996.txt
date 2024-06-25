@@ -1,0 +1,5 @@
+In Octave, enter the coefﬁcients into the A matrix with column elements comma separated,
+and rows semicolon separated. Enter the voltages into the column vector b. Solve for the
+unknown currents: I1, I2, and I3 with the command: x=A\b. These currents are contained
+within the x column vector. The positive values indicate that the three mesh currents all ﬂow
+in the assumed counterclockwise direction.

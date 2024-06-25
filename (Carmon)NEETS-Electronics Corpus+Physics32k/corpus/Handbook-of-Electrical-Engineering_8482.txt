@@ -1,0 +1,7 @@
+This expression indicates that the multiplication process is performed by summing n terms of a partial product:
+X ·  yir i.  This  product  indicates  that  the  ith  term  is  obtained  by  a  simple  arithmetic  left  shift  of  X  for  the  i
+positions and multiplication by the single digit yi. For the binary radix r = 2, yi is 0 or 1 and multiplication by
+the digit yi is very simple to perform. The addition of n terms can be performed at once, by passing the partial
+products through a network of adders (which is the case of full hardware multiplier), or sequentially, by passing
+the  partial  product  through  an  adder  n  times.  The  algorithm  to  perform  multiplication  of  X  and  Y  can  be
+described as [Ercegovac, 1985]

@@ -1,0 +1,24 @@
+Digital DATCOM produces a copious amount of data for the relatively small amount of inputs it requires. By default, only the data for the aircraft is output, but additional configurations can be output:
+Body alone
+Wing alone
+Horizontal tail alone
+Vertical tail alone
+Wing-Body Configuration
+Body-Horizontal Tail Configuration
+Body-Vertical Tail Configuration
+Wing-Body-Horizontal Tail Configuration
+Wing-Body-Vertical Tail Configuration
+Wing-Body-Horizontal Tail-Vertical Tail Configuration
+For each configuration, stability coefficients and derivatives are output at each angle of attack specified. The details of this output are defined in Section 6 of the USAF Digital DATCOM Manual Volume I. The basic output includes:
+CL - Lift Coefficient
+CD - Drag Coefficient
+Cm - Pitching Moment Coefficient
+CN - Normal Force Coefficient
+CA - Axial Force Coefficient
+CLα - Lift Curve Slope (Derivative of Lift Coefficient with respect to angle of attack)
+Cmα - Pitching Moment Curve Slope (derivative of Pitching Moment Coefficient with respect to angle of attack)
+CYβ - Derivative of side-force coefficient with respect to sideslip angle
+Cnβ - Derivative of yawing-moment coefficient with respect to sideslip angle
+Clβ - Derivative of rolling-moment coefficient with respect to sideslip angle
+For complete aircraft configurations, downwash data is also included.
+When compared with modern methods of computational fluid dynamics, Digital DATCOM may seem antiquated. However, in its day, the program was an advanced estimation tool, and certainly much faster than plowing through pages and pages of engineering texts. Digital DATCOM is no longer supported by the USAF and is now public domain software.

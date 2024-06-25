@@ -1,0 +1,11 @@
+We can look at Figure 4.7 to see the power spectrum and the rms approximation error for the square
+wave. Because the Fourier coeﬃcients decay more slowly here than for the half-wave rectiﬁed sinusoid, the
+rms error is not decreasing quickly. Said another way, the square-wave’s spectrum contains more power at
+higher frequencies than does the half-wave-rectiﬁed sinusoid. This diﬀerence between the two Fourier series
+results because the half-wave rectiﬁed sinusoid’s Fourier coeﬃcients are proportional to 1
+k2 while those of the
+square wave are proportional to 1
+. If fact, after 99 terms of the square wave’s approximation, the error is
+k
+bigger than 10 terms of the approximation for the half-wave rectiﬁed sinusoid. Mathematicians have shown
+that no signal has an rms approximation error that decays more slowly than it does for the square wave.

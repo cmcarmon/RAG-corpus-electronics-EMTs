@@ -1,0 +1,47 @@
+The power flow p and resistance r of an electrical component are related to the voltage v and current i variables by the defining equation for power and Ohm's law:
+
+
+
+
+p
+=
+v
+i
+
+
+
+
+
+
+(
+1
+)
+
+
+
+{\displaystyle p=vi\qquad \qquad \qquad \,\,\,(1)\,}
+
+
+
+
+
+r
+=
+v
+
+/
+
+i
+
+
+
+(
+2
+)
+
+
+
+{\displaystyle r=v/i\qquad \qquad \qquad (2)\,}
+
+Like power, voltage and current are signed quantities. The current flow in a wire has two possible directions, so when defining a current variable i the direction which represents positive current flow must be indicated, usually by an arrow on the circuit diagram. This is called the reference direction for current i. If the actual current is in the opposite direction, the variable i will have a negative value. Similarly in defining a variable v representing the voltage between two terminals, the terminal which represents the positive side must be specified, usually with a plus sign. This is called the reference direction for voltage v. If the terminal marked positive actually has a lower voltage than the other one, then the variable v will have a negative value.
+To understand the passive sign convention, it is important to distinguish the reference directions of the variables, v and i, which can be assigned at will, from the direction of the actual voltage and current, which is determined by the circuit. The idea of the PSC is that by assigning the reference direction of variables v and i in a component with the right relationship, the power flow in passive components calculated from Eq. (1) will come out positive, while the power flow in active components will come out negative. It is not necessary to know whether a component produces or consumes power when analyzing the circuit; reference directions can be assigned arbitrarily, directions to currents and polarities to voltages, then the PSC is used to calculate the power in components. If the power comes out positive, the component is a load, converting electric power to some other kind of power. If the power comes out negative, the component is a source, converting some other form of power to electric power.

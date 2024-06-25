@@ -1,0 +1,15 @@
+In Bode analysis complex conjugate poles or zeros are always treated as pairs in the corresponding quadratic
+form [(s/wn)2 + (2z/wn)s + 1].1 For quadratic terms in stable, minimum phase systems, the damping ratio z
+(Greek letter zeta) is within the range 0 < z < 1. Quadratic terms cannot always be adequately represented by
+straight  line  approximations.  This  is  especially  true  for  lightly  damped  systems  (small  z).  The  traditional
+approach was to draw a preliminary representation of the contribution. This consists of a straight line of 0 dB
+from dc up to the breakpoint at wn followed by a straight line of slope –40 dB/decade beyond the breakpoint,
+depending on whether the plot refers to a pair of poles or a pair of zeros. Then, referring to a family of curves
+as  shown  in  Fig.  11.5,  the  preliminary  representation  was  improved  based  on  the  value  of  z.  The  phase
+contribution of the quadratic term was similarly constructed. Note that Fig. 11.5 presents frequency response
+contributions for a quadratic pair of poles. For zeros in the corresponding locations, both the magnitude and
+phase curves would be negated. Digital computer applications programs render this procedure unnecessary for
+purposes of constructing frequency response curves. Knowledge of the technique is still valuable, however, in
+the qualitative and quantitative interpretation of frequency response curves. Localized peaking in the gain curve
+is  a  reﬂection  of  the  existence  of  resonance  in  a  system.  The  height  of  such  a  peak  (and  the  corresponding
+value of z) is a direct indication of the degree of resonance.

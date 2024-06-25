@@ -1,0 +1,4 @@
+As described above, virtual memory requires two memory accesses to fetch a single entry from memory, one
+into the page table to map the virtual address into the physical address, and the second to fetch the actual data.
+This  process  can  be  sped  up  in  a  variety  of  ways.  First,  a  special-purpose  cache  memory  to  store  the  active
+portion of the page table can be used to speed up the ﬁrst access. This special-purpose cache is usually called

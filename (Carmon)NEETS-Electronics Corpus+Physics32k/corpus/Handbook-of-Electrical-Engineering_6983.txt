@@ -1,0 +1,6 @@
+Care must be taken in the second case, though, when singularities exist at v = –2pB. Here, sampling may
+be required to be strictly greater than 2B. Such is the case, for example, for the signal, x(t) = sin (2pBt). Although
+the signal is bandlimited, and although its Fourier transform has ﬁnite area, all of the samples of x(t) taken at
+t  = n/2B are zero. The cardinal series in Eq. (73.74) will thus interpolate to zero everywhere. If the sampling
+rate is a bit greater than 2B, however, the samples are not zero and the cardinal series will uniformly converge
+to the proper answer.

@@ -1,0 +1,4 @@
+where [·]T denotes the matrix transpose. A plant is said to be observable if the inverse matrix in (100.77) exists.
+An implementation of the closed-loop system is shown in Fig. 100.35. The observer is usually implemented on
+a digital computer. The plant and the observer in Fig. 100.35 are both nth-order; hence, the closed-loop system
+is of order 2n.

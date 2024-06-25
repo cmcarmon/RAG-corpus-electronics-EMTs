@@ -1,0 +1,11 @@
+(6.60)
+Figure 6.24 (Capacity of a Channel) shows how capacity varies with error probability. For example, our (7,4)
+Hamming code has an eﬃciency of 0.57, and codes having the same eﬃciency but longer block sizes can be
+used on additive noise channels where the signal-to-noise ratio exceeds 0 dB.
+6.31 Capacity of a Channel39
+In addition to the Noisy Channel Coding Theorem and its converse, Shannon also derived the capacity for a
+bandlimited (to W Hz) additive white noise channel. For this case, the signal set is unrestricted, even to the
+point that more than one bit can be transmitted each “bit interval.” Instead of constraining channel code
+eﬃciency, the revised Noisy Channel Coding Theorem states that some error-correcting code exists such that
+as the block length increases, error-free transmission is possible if the source coder’s datarate, B (A) R, is
+less than capacity.

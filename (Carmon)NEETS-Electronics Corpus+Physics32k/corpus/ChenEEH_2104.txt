@@ -1,0 +1,22 @@
+To deﬁne an operation in one class using another opera-
+tion in a different class, we cannot simply add an arc since
+Petri nets do not allow direct connections between transi-
+tions. As discussed earlier, there are two main ways to han-
+dle class reference relationships in the existing research works:
+(1) to fuse the two operations in two classes into one such
+that only synchronized communication is allowed (Biberstein
+and Buchs, 1995; Battison et al., 1995; Lakos, 1995b) and
+(2) to create some places inside one class to hold parameters
+to simulate message passing and function calls (Bastida, 1995;
+Lakos, 1995b), which supports asynchronous communica-
+tion. HPrTNs support both synchronous and asynchronous
+communications through reference places to model different
+communication protocols. These reference predicates do not
+belong to any class and can be viewed as connectors in software
+architecture languages (Shaw and Garlan, 1996). It is quite easy
+to model a function call through passing two messages by
+using one reference predicate to hold the input values and
+another to hold output results; another easy way to model a
+function call is by deﬁning the calling operation (function) as a
+super transition whose subnet has at least two transitions to
+handle sending and receiving values.

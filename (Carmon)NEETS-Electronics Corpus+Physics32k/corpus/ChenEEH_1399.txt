@@ -1,0 +1,15 @@
+Hutchings and Wirthin (1995) suggested that two types of
+run-time reconﬁguration exist: global and local. During global
+reconﬁguration, all the hardware resources are allocated with
+a new conﬁguration in each conﬁguration step. This method
+works for nonpartially reconﬁgurable FPGAs, such as the
+Xilinx 4000 series. Applications that use the second type of
+run-time reconﬁguration, local reconﬁguration, locally or se-
+lectively reconﬁgure subsets of the FPGA during application
+execution. Since the larger the size of the region to be recon-
+ﬁgured means the longer the reconﬁguration time, Hadley and
+Hutchings (1995) have proposed techniques to minimize the
+size of the reconﬁgurable region to reduce reconﬁguration
+time. Others have developed methods and tools that are able
+to produce designs both locally reconﬁgurable as well as glob-
+ally reconﬁgurable (Shirazi et al., 2000).

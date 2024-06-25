@@ -1,0 +1,4 @@
+Assume that examining the “next” element, comparing it with A and possibly reassigning the name A to the
+new element takes a ﬁxed amount of time that does not depend on the number of elements in the list. Then
+the  total  time  for  ﬁnding  the  maximum  increases  proportional  to  the  length  n  of  the  list.  We  say  the  time
+complexity of the algorithm is of order n, denoted by O(n).

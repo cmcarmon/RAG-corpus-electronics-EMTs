@@ -1,0 +1,6 @@
+The kinematics equations of serial and parallel robots can be viewed as relating parameters, such as joint angles, that are under the control of actuators to the position and orientation [T] of the end-effector.
+From this point of view the kinematics equations can be used in two different ways. The first called forward kinematics uses specified values for the joint parameters to compute the end-effector position and orientation. The second called inverse kinematics uses the position and orientation of the end-effector to compute the joint parameters values.
+Remarkably, while the forward kinematics of a serial chain is a direct calculation of a single matrix equation, the forward kinematics of a parallel chain requires the simultaneous solution of multiple matrix equations which presents a significant challenge.
+
+
+== References ==

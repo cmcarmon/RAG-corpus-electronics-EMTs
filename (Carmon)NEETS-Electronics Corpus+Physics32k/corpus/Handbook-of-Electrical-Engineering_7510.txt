@@ -1,0 +1,18 @@
+Gregory L. Moss
+Digital logic circuits can be classiﬁed as belonging to one of two categories, either combinational (also called
+combinatorial) or sequential logic circuits. The output logic level of a combinatorial circuit depends only on
+the current logic levels present at the circuit’s inputs. Sequential logic circuits, on the other hand, have a memory
+characteristic so the sequential circuit’s output is dependent not only on the current input conditions but also
+on  the  current  output  state  of  the  circuit.  The  primary  building  block  in  combinational  circuits  is  the  logic
+gate. The three simplest logic gate functions are the inverter (or NOT), AND, and OR. Other common basic
+deﬁnitions  of  the  various  types  of
+logic  functions  are  derived  from  these  three.  Table  79.1  gives 
+logic gates. The memory elements used to construct sequential logic circuits are called latches and ﬂip-ﬂops.
+The  integrated  circuit  switching  logic  used  in  modern  digital  systems  will  generally  be  from  one  of  three
+families: transistor-transistor logic (TTL), complementary metal-oxide semiconductor logic (CMOS), or emit-
+ter-coupled logic (ECL). Each of the logic families has its advantages and disadvantages. The three major families
+are also divided into various subfamilies derived from performance improvements in integrated circuit (IC)
+design  technology.  Bipolar  transistors  provide  the  switching  action  in  both  TTL  and  ECL  families,  while
+enhancement-mode  MOS  transistors  are  the  basis  for  the  CMOS  family.  Recent  improvements  in  switching
+circuit performance are also attained using BiCMOS technology, the merging of bipolar and CMOS technologies
+on a single chip. A particular logic family is usually selected by digital designers based on such criteria as

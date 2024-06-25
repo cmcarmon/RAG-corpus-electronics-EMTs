@@ -1,0 +1,12 @@
+If an analysis of the voicing of the speech signal indicates a voiced or periodic component is present, another
+step in the analysis process may be to estimate the frequency (or period) of the voiced component. There are
+a  number  of  ways  in  which  this  may  be  done.  One  is  to  measure  the  time  lapse  between  peaks  in  the  time
+domain signal. For example in Fig. 15.7 the major peaks are separated by about 0.0071 s, for a fundamental
+frequency of about 141 Hz. Note, it would be quite possible to err in the estimate of fundamental frequency
+by mistaking the smaller peaks that occur between the major peaks for the major peaks. These smaller peaks
+are produced by resonance in the vocal tract which, in this example, happen to be at about twice the excitation
+frequency. This type of error would result in an estimate of pitch approximately twice the correct frequency.
+The distance between major peaks of the autocorrelation function is a closely related feature that is frequently
+used  to  estimate  the  pitch  period.  In  Fig. 15.8,  the  distance  between  the  major  peaks  in  the  autocorrelation
+function is about 0.0071 s. Estimates of pitch from the autocorrelation function are also susceptible to mistaking
+the ﬁrst vocal track resonance for the glottal excitation frequency.

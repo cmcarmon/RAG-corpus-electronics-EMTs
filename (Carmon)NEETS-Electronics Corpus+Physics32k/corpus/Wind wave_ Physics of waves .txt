@@ -1,0 +1,352 @@
+Wind waves are mechanical waves that propagate. along the interface between water and air; the restoring force is provided by gravity, and so they are often referred to as surface gravity waves. As the wind blows, pressure and friction perturb the equilibrium of the water surface and transfer energy from the air to the water, forming waves. The initial formation of waves by the wind is described in the theory of Phillips from 1957, and the subsequent growth of the small waves has been modeled by Miles, also in 1957.
+
+In linear plane waves of one wavelength in deep water, parcels near the surface move not plainly up and down but in circular orbits: forward above and backward below (compared the wave propagation direction). As a result, the surface of the water forms not an exact sine wave, but more a trochoid with the sharper curves upwards—as modeled in trochoidal wave theory. Wind waves are thus a combination of transversal and longitudinal waves.
+When waves propagate in shallow water, (where the depth is less than half the wavelength) the particle trajectories are compressed into ellipses.
+In reality, for finite values of the wave amplitude (height), the particle paths do not form closed orbits; rather, after the passage of each crest, particles are displaced slightly from their previous positions, a phenomenon known as Stokes drift.
+As the depth below the free surface increases, the radius of the circular motion decreases. At a depth equal to half the wavelength λ, the orbital movement has decayed to less than 5% of its value at the surface. The phase speed (also called the celerity) of a surface gravity wave is – for pure periodic wave motion of small-amplitude waves – well approximated by
+
+
+
+
+c
+=
+
+
+
+
+
+g
+λ
+
+
+2
+π
+
+
+
+tanh
+⁡
+
+(
+
+
+
+2
+π
+d
+
+λ
+
+
+)
+
+
+
+
+
+{\displaystyle c={\sqrt {{\frac {g\lambda }{2\pi }}\tanh \left({\frac {2\pi d}{\lambda }}\right)}}}
+
+where
+c = phase speed;
+λ = wavelength;
+d = water depth;
+g = acceleration due to gravity at the Earth's surface.
+In deep water, where
+
+
+
+d
+≥
+
+
+1
+2
+
+
+λ
+
+
+{\displaystyle d\geq {\frac {1}{2}}\lambda }
+, so
+
+
+
+
+
+
+2
+π
+d
+
+λ
+
+
+≥
+π
+
+
+{\displaystyle {\frac {2\pi d}{\lambda }}\geq \pi }
+and the hyperbolic tangent approaches
+
+
+
+1
+
+
+{\displaystyle 1}
+, the speed
+
+
+
+c
+
+
+{\displaystyle c}
+approximates
+
+
+
+
+
+c
+
+deep
+
+
+=
+
+
+
+
+g
+λ
+
+
+2
+π
+
+
+
+
+.
+
+
+{\displaystyle c_{\text{deep}}={\sqrt {\frac {g\lambda }{2\pi }}}.}
+
+In SI units, with
+
+
+
+
+c
+
+deep
+
+
+
+
+{\displaystyle c_{\text{deep}}}
+in m/s,
+
+
+
+
+c
+
+deep
+
+
+≈
+1.25
+
+
+λ
+
+
+
+
+{\displaystyle c_{\text{deep}}\approx 1.25{\sqrt {\lambda }}}
+, when
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+is measured in metres. This expression tells us that waves of different wavelengths travel at different speeds. The fastest waves in a storm are the ones with the longest wavelength. As a result, after a storm, the first waves to arrive on the coast are the long-wavelength swells.
+For intermediate and shallow water, the Boussinesq equations are applicable, combining frequency dispersion and nonlinear effects. And in very shallow water, the shallow water equations can be used.
+If the wavelength is very long compared to the water depth, the phase speed (by taking the limit of c when the wavelength approaches infinity) can be approximated by
+
+
+
+
+
+c
+
+shallow
+
+
+=
+
+lim
+
+λ
+→
+∞
+
+
+c
+=
+
+
+g
+d
+
+
+.
+
+
+{\displaystyle c_{\text{shallow}}=\lim _{\lambda \rightarrow \infty }c={\sqrt {gd}}.}
+
+On the other hand, for very short wavelengths, surface tension plays an important role and the phase speed of these gravity-capillary waves can (in deep water) be approximated by
+
+
+
+
+
+c
+
+gravity-capillary
+
+
+=
+
+
+
+
+
+g
+λ
+
+
+2
+π
+
+
+
++
+
+
+
+2
+π
+S
+
+
+ρ
+λ
+
+
+
+
+
+
+
+{\displaystyle c_{\text{gravity-capillary}}={\sqrt {{\frac {g\lambda }{2\pi }}+{\frac {2\pi S}{\rho \lambda }}}}}
+
+where
+S = surface tension of the air-water interface;
+
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+= density of the water.
+When several wave trains are present, as is always the case in nature, the waves form groups. In deep water the groups travel at a group velocity which is half of the phase speed. Following a single wave in a group one can see the wave appearing at the back of the group, growing and finally disappearing at the front of the group.
+As the water depth
+
+
+
+d
+
+
+{\displaystyle d}
+decreases towards the coast, this will have an effect: wave height changes due to wave shoaling and refraction. As the wave height increases, the wave may become unstable when the crest of the wave moves faster than the trough. This causes surf, a breaking of the waves.
+The movement of wind waves can be captured by wave energy devices. The energy density (per unit area) of regular sinusoidal waves depends on the water density
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+, gravity acceleration
+
+
+
+g
+
+
+{\displaystyle g}
+and the wave height
+
+
+
+H
+
+
+{\displaystyle H}
+(which, for regular waves, is equal to twice the amplitude,
+
+
+
+a
+
+
+{\displaystyle a}
+):
+
+
+
+
+E
+=
+
+
+1
+8
+
+
+ρ
+g
+
+H
+
+2
+
+
+=
+
+
+1
+2
+
+
+ρ
+g
+
+a
+
+2
+
+
+.
+
+
+{\displaystyle E={\frac {1}{8}}\rho gH^{2}={\frac {1}{2}}\rho ga^{2}.}
+
+The velocity of propagation of this energy is the group velocity.

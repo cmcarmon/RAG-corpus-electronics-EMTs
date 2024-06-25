@@ -1,0 +1,25 @@
+. TC is a function that annotates transitions with Boolean
+expressions. A super transition is an abstraction of low-
+level actions, and its meaning is thus completely deﬁned
+by the low-level reﬁnement. Therefore, the constraint of a
+super transition is true by default (it is conceivable that a
+nontrivial constraint for a super transition might be
+useful; however, in general it is very difﬁcult to deﬁne
+such a constraint and also very difﬁcult to interpret the
+constraint with regard to the operational (dynamic) se-
+mantics of the super transition).
+. M0 is the initial marking function.
+. r: P [ T ! P(P [ T ) is a hierarchical mapping that de-
+ﬁnes the hierarchical relationships among the nodes in P
+and T; this mapping also satisﬁes the constraint that
+the interface nodes 2 IN [ OUT be all predicates if
+their parent node is a predicate or all transitions if
+their parent node is a transition. For any node n, r(n)
+deﬁnes the immediate descendant nodes of n. The ances-
+tor and descendants of any node can be easily expressed
+by using well-known relations, such as transitive closure
+on r. A node in an HPrTN is local to its parent and can
+be uniquely identiﬁed by preﬁxing its ancesters’ names
+separated with periods to its own name; however, often
+its own name is referred whenever a no name clash
+occurs.

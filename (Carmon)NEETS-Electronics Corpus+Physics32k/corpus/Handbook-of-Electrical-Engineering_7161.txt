@@ -1,0 +1,9 @@
+User access is via assignments of a frequency, time slot, or code. Fixed assigned channels allow a user unlimited
+access. However, this may result in poor utilization efﬁciency for the satellite resources and may imply higher
+user costs (analogous to a leased terrestrial line). Other assignment schemes include demand assigned multiple
+access (DAMA) and random access (e.g., for the Aloha concept). DAMA systems require the user to ﬁrst send
+a channel request over a common control channel. The network controller (at another earth station) seeks an
+empty channel and instructs the sending unit to tune to it either in frequency or time slot. A link is maintained
+for the call duration and then released to the system for other users to request. Random access is economical
+for lightly used burst trafﬁc such as data. It relies on random time of arrival of data packets and protocols are
+in place for repeat requests in the event of collisions [Gagliardi 1991].

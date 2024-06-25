@@ -1,0 +1,8 @@
+ASAP and ALAP scheduling algorithms order computational units based on data dependencies. List scheduling
+is based on ASAP and ALAP scheduling, but considers additional, more-global constraints, such as maximum
+number of control steps. Force-directed scheduling computes the probabilities of computational units being
+assigned to control steps and attempts to evenly distribute computation activity among all control steps. Control
+step  splitting  starts  with  all  computational  units  assigned  to  one  control  step  and  generates  a  schedule  by
+splitting the computational units into multiple control steps. Control step merging starts with all computational
+units assigned to individual control steps and generates a schedule by merging or combining units and steps
+[Paulin and Knight, 1989; Camposano and Wolfe, 1991].

@@ -1,0 +1,31 @@
+Common Object Request Broker Architecture (CORBA) is a
+software standard developed by a consortium called the Object
+Management Group (OMG). OMG has approximately 800
+member companies who develop and adopt products that
+abide by the standards set forth by OMG. A basic feature of
+CORBA is the Object Request Broker (ORB) that handles
+remote procedure calls. When an object calls a method of
+another object distributed elsewhere on the network, the
+ORB intercepts the call and directs it. In this manner, the
+calling object does not need to know the location of the remote
+object. The middleware itself is available in different languages
+that all abide by the CORBA standard; for example, the Java 2
+Platform Standard Edition, v1.3, includes a CORBA ORB. The
+use of CORBA in control engineering is rather new; see Wills et
+al. (2000) for details on the development of a product that is
+based on a CORBA substrate. Some high-level features of
+CORBA, however, make it very attractive for future control
+engineering products used to integrate systems. Its main bene-
+ﬁts are that it has a well-accepted standard for the interface, it
+allows for interoperability of software components written in
+different languages (including Java and Cþþ) and/or running
+on different platforms, it handles all network communication
+protocols, and it provides for run-time reconﬁguration of
+software components. Components can also be integrated
+that are not object-oriented (such as legacy code) by wrapping
+the code in a layer that provides an object-oriented interface.
+Services are continually being added to the ORB structure that
+extend the capabilities of CORBA. For example, while CORBA
+is implemented as a client/server communication model, a
+layer (called an event service) has been added that emulates
+the publish/subscribe behavior.

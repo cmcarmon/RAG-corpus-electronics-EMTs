@@ -1,0 +1,6 @@
+As the circuit current increases from 20 milliamps to 60 milliamps, the voltage drops across
+R1 and R3 (which haven’t changed resistances) increase as well, so that the two resistors are
+dropping the whole 9 volts. R2, being bypassed by the very low resistance of the jumper wire,
+is effectively eliminated from the circuit, the resistance from one lead to the other having been
+reduced to zero. Thus, the voltage drop across R2, even with the increased total current, is zero
+volts.

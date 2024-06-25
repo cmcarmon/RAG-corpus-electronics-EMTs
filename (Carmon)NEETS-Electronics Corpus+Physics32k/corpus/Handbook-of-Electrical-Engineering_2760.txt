@@ -1,0 +1,6 @@
+Each  logic  cell  must  be  connected  to  power  (Vdd)  and  ground  (Gnd),  requiring  that  external  power  and
+ground connections to the IC be routed (on continuous metal lines to avoid resistive voltage drops) to each
+logic cell on the IC. Early IC technologies provided only a single level of metallization on which to route power
+and ground and an interdigitated layout, illustrated in Fig. 25.28(a), was adopted. Given this power and ground
+layout  approach,  channels  of  pull-up  sections  and  channels  of  pull-down  sections  were  placed  between  the
+power and ground interconnections, as illustrated in Fig. 25.28(b).

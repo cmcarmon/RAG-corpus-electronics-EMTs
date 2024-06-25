@@ -1,0 +1,6 @@
+Older  style  ECG  machines  recorded  one  lead  at  a  time,  then  evolved  to  three  simultaneous  leads.  This
+necessitated the use of switching circuits as well as analog weighting circuits to generate the various 12 leads.
+This  is  usually  eliminated  in  modern  digital  systems  by  using  an  individual  single-ended  ampliﬁer  for  each
+electrode on the body. Each potential signal is then digitally converted and all of the ECG leads can be formed
+mathematically in software. This would necessitate a nine-ampliﬁer system. By performing some of the lead
+calculations with the analog differential ampliﬁers this can be reduced to an eight-channel system. Thus only

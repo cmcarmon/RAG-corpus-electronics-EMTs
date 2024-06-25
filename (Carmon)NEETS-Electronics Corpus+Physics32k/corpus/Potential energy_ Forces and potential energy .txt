@@ -1,0 +1,291 @@
+Potential energy is closely linked with forces. If the work done by a force on a body that moves from A to B does not depend on the path between these points, then the work of this force measured from A assigns a scalar value to every other point in space and defines a scalar potential field. In this case, the force can be defined as the negative of the vector gradient of the potential field.
+For example, gravity is a conservative force. The associated potential is the gravitational potential, often denoted by
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+or
+
+
+
+V
+
+
+{\displaystyle V}
+, corresponding to the energy per unit mass as a function of position. The gravitational potential energy of two particles of mass M and m separated by a distance r is
+
+
+
+
+U
+=
+−
+
+
+
+G
+M
+m
+
+r
+
+
+,
+
+
+{\displaystyle U=-{\frac {GMm}{r}},}
+
+The gravitational potential (specific energy) of the two bodies is
+
+
+
+
+ϕ
+=
+−
+
+(
+
+
+
+
+G
+M
+
+r
+
+
++
+
+
+
+G
+m
+
+r
+
+
+
+)
+
+=
+−
+
+
+
+G
+(
+M
++
+m
+)
+
+r
+
+
+=
+−
+
+
+
+G
+M
+m
+
+
+μ
+r
+
+
+
+=
+
+
+U
+μ
+
+
+.
+
+
+{\displaystyle \phi =-\left({\frac {GM}{r}}+{\frac {Gm}{r}}\right)=-{\frac {G(M+m)}{r}}=-{\frac {GMm}{\mu r}}={\frac {U}{\mu }}.}
+
+where
+
+
+
+μ
+
+
+{\displaystyle \mu }
+is the reduced mass.
+The work done against gravity by moving an infinitesimal mass from point A with
+
+
+
+U
+=
+a
+
+
+{\displaystyle U=a}
+to point B with
+
+
+
+U
+=
+b
+
+
+{\displaystyle U=b}
+is
+
+
+
+(
+b
+−
+a
+)
+
+
+{\displaystyle (b-a)}
+and the work done going back the other way is
+
+
+
+(
+a
+−
+b
+)
+
+
+{\displaystyle (a-b)}
+so that the total work done in moving from A to B and returning to A is
+
+
+
+
+
+U
+
+A
+→
+B
+→
+A
+
+
+=
+(
+b
+−
+a
+)
++
+(
+a
+−
+b
+)
+=
+0.
+
+
+
+{\displaystyle U_{A\to B\to A}=(b-a)+(a-b)=0.\,}
+
+If the potential is redefined at A to be
+
+
+
+a
++
+c
+
+
+{\displaystyle a+c}
+and the potential at B to be
+
+
+
+b
++
+c
+
+
+{\displaystyle b+c}
+, where
+
+
+
+c
+
+
+{\displaystyle c}
+is a constant (i.e.
+
+
+
+c
+
+
+{\displaystyle c}
+can be any number, positive or negative, but it must be the same at A as it is at B) then the work done going from A to B is
+
+
+
+
+
+U
+
+A
+→
+B
+
+
+=
+(
+b
++
+c
+)
+−
+(
+a
++
+c
+)
+=
+b
+−
+a
+
+
+
+{\displaystyle U_{A\to B}=(b+c)-(a+c)=b-a\,}
+
+as before.
+In practical terms, this means that one can set the zero of
+
+
+
+U
+
+
+{\displaystyle U}
+and
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+anywhere one likes. One may set it to be zero at the surface of the Earth, or may find it more convenient to set zero at infinity (as in the expressions given earlier in this section).
+A conservative force can be expressed in the language of differential geometry as a closed form. As Euclidean space is contractible, its de Rham cohomology vanishes, so every closed form is also an exact form, and can be expressed as the gradient of a scalar field. This gives a mathematical justification of the fact that all conservative forces are gradients of a potential field.

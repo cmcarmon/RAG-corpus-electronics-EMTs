@@ -1,0 +1,7 @@
+Using trafﬁc speciﬁcation (Tspec), the network can compute
+various parameters describing how it will handle the ﬂow. By
+combining the parameters, it is possible to compute the max-
+imum queuing and routing delay that a packet can experience.
+Using the ﬂuid ﬂow model, the queuing delay is approximately a
+function of two parameters: the token bucket size b and the data
+rate R that the application requests and gets when admitted.

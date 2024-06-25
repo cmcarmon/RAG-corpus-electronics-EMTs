@@ -1,0 +1,4 @@
+Implementation of Queues
+The following implementation represents queues of the form queue(a, s) by the ordered pair (a, s) and a new,
+empty queue by the null pair nil. For the moment we assume that a data type, Pairs, which provides pairs on
+demand at run time, already exists and is deﬁned as follows:

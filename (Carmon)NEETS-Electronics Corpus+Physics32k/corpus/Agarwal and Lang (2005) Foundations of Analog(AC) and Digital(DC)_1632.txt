@@ -1,0 +1,7 @@
+This style of building logic gates using n-channel MOSFETs for both the
+pullups and the pulldowns is called NMOS logic.3 The RON of the pullup
+serves as the load resistor. The gate length of the pullup MOSFET is sized to
+be larger relative to the pulldown MOSFET, so the static discipline is satisfied
+(see Section 6.11). The power and energy calculations of Section 11.3 apply to
+NMOS devices with RON of the pullup replacing the load resistor RL in the
+analyses.

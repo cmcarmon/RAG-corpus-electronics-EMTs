@@ -1,0 +1,13 @@
+The solution to problem QP-3 was described in Section 4.4.3
+in purely mathematical terms and without consideration of
+any computational aspects. Naturally, the solution described
+by equations 4.63 and 4.64 is determined from a program
+running on a digital computer. In this section, the time and
+memory requirements of three different computer implemen-
+tations are analyzed in greater detail. The run time complexity
+N of these algorithms is considered to be dependent on the
+number of multiplicative (multiple and divide) ﬂoating point
+operations. Similarly, the memory complexity M is considered
+to be the largest number of ﬂoating point storage units that
+must be stored in memory at any time during the execution of
+the speciﬁc algorithm.19

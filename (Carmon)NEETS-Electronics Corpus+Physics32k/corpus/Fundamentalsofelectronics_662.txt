@@ -1,0 +1,4 @@
+Figure 5.20: To ﬁlter a signal in the frequency domain, ﬁrst compute the DFT of the input, multiply
+the result by the sampled frequency response, and ﬁnally compute the inverse DFT of the product. The
+DFT’s length must be at least the sum of the input’s and unit-sample response’s duration minus one.
+We calculate these discrete Fourier transforms using the fast Fourier transform algorithm, of course.

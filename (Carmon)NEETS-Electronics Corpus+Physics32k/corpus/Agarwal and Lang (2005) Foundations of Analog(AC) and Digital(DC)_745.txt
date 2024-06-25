@@ -1,0 +1,11 @@
+Figure 5.14 shows several useful gate symbols. We have already seen the
+gate-level representation of the AND function. The OR gate performs the
+OR function of its inputs. The NOT gate takes the complement of its input.
+For convenience, we often denote the NOT function in logic circuits using
+the ‘‘◦’’ symbol. The buffer gate or identity gate simply copies the input value
+to its output, that is, A = A. Its use will become apparent in Section 6.9.2.
+The NAND function is equivalent to the AND operation followed by the NOT
+operation. For example, A = B NAND C is equivalent to A = B AND C. It is
+also equivalent to the statement: A is FALSE only if both B and C are TRUE.
+Similarly, the NOR operation is equivalent to the OR operation followed by
+the NOT operation.

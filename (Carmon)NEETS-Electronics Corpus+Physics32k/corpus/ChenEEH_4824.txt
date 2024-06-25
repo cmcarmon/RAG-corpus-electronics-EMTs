@@ -1,0 +1,14 @@
+Polymorphism can be seen in the initialize and the readData
+methods, which can apply to any sensor object but require
+different implementation depending on the type of sensor. For
+this purpose, the subclasses all have these methods deﬁned,
+which override the method deﬁned in the superclass. Why then
+would you bother to deﬁne these methods in the superclass
+when they are deﬁned more speciﬁcally in the subclasses? The
+answer lies in the way the methods can be called from the
+control algorithm object. As deﬁned, the control algorithm can
+group all the sensor objects into one vector; the method call
+would only need to be made once (on the vector object), and
+each sensor’s appropriate method would be used auto-
+the
+matically. This demonstrates polymorphism, where

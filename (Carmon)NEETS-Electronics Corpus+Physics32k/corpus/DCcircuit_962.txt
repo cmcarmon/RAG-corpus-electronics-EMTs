@@ -1,0 +1,9 @@
+Sure enough, the voltage ﬁgures all turn out to be the same: 20 volts across R1 (nodes 1
+and 2), 8 volts across R2 (nodes 2 and 0), and 1 volt across R3 (nodes 2 and 3). Take note of the
+signs of all these voltage ﬁgures: they’re all positive values! SPICE bases its polarities on the
+order in which nodes are listed, the ﬁrst node being positive and the second node negative. For
+example, a ﬁgure of positive (+) 20 volts between nodes 1 and 2 means that node 1 is positive
+with respect to node 2. If the ﬁgure had come out negative in the SPICE analysis, we would
+have known that our actual polarity was “backwards” (node 1 negative with respect to node 2).
+Checking the node orders in the SPICE listing, we can see that the polarities all match what
+we determined through the Branch Current method of analysis.

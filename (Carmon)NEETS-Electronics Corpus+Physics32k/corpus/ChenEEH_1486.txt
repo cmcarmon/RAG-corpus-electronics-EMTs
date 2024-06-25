@@ -1,0 +1,12 @@
+With massively parallel computers containing thousands of
+processors, new challenges arise. Operating systems for these
+machines must support extremely fast synchronization and
+communication among thousands of processes. Each proces-
+sor may have its own devices attached, and, hence, the operat-
+ing system must control thousands of I/O channels at once.
+The concepts of virtual memory and time-sharing must be
+extended to accommodate massive parallelism. Perhaps the
+most important challenge is that the programming environ-
+ment should permit parallel programs to be written with only
+modest effort beyond what is required for sequential ones
+(Denning and Tichy, 1990).

@@ -1,0 +1,12 @@
+forms the signature of the schema), and thus a reference of this
+variable in another schema needs to be preﬁxed by its schema
+name followed by a period (i.e., Name.var). A variable name can
+be a simple name (deﬁning the old value), a name with a prime0
+(deﬁning the new value of the same name without the prime), a
+name with a question mark ? (an input from the external
+environment), or a name with an exclamation point ! (an
+output to the external environment). If a schema includes
+both the name of a schema S and its primed version S0, the
+following notation is used: DS when the value of some variable
+deﬁned in S has been changed by the required processing or JS
+when nothing in S is changed by the required processing.

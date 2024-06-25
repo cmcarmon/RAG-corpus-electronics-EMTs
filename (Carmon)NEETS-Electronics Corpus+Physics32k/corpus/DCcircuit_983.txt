@@ -1,0 +1,11 @@
+Note how the second term in the equation’s original form has resistor R4’s value of 300 Ω
+multiplied by the difference between I2 and I3 (I2 - I3). This is how we represent the combined
+effect of two mesh currents going in opposite directions through the same component. Choosing
+the appropriate mathematical signs is very important here: 300(I2 - I3) does not mean the
+same thing as 300(I3 - I2). I chose to write 300(I2 - I3) because I was thinking ﬁrst of I2’s effect
+(creating a positive voltage drop, measuring with an imaginary voltmeter across R4, red lead
+on the bottom and black lead on the top), and secondarily of I3’s effect (creating a negative
+voltage drop, red lead on the bottom and black lead on the top). If I had thought in terms of
+I3’s effect ﬁrst and I2’s effect secondarily, holding my imaginary voltmeter leads in the same
+positions (red on bottom and black on top), the expression would have been -300(I3 - I2). Note
+that this expression is mathematically equivalent to the ﬁrst one: +300(I2 - I3).

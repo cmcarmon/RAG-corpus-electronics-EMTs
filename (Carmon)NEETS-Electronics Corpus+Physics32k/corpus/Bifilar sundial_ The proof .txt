@@ -1,0 +1,827 @@
+The first wire
+
+
+
+
+f
+
+1
+
+
+
+
+
+{\displaystyle f_{1}\,}
+is orientated north-south at a constant distance
+
+
+
+
+h
+
+1
+
+
+
+
+
+{\displaystyle h_{1}\,}
+from the dial plate
+
+
+
+Π
+
+
+
+{\displaystyle \Pi \,}
+
+The second wire
+
+
+
+
+f
+
+2
+
+
+
+
+
+{\displaystyle f_{2}\,}
+is orientated east-west at a constant distance
+
+
+
+
+h
+
+2
+
+
+
+
+
+{\displaystyle h_{2}\,}
+from the dial plate
+
+
+
+Π
+
+
+
+{\displaystyle \Pi \,}
+(thus
+
+
+
+
+f
+
+2
+
+
+
+
+
+{\displaystyle f_{2}\,}
+is orthogonal to
+
+
+
+
+f
+
+1
+
+
+
+
+
+{\displaystyle f_{1}\,}
+which lies on the plane of the meridian ).
+In this proof
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+(pronounced phi) is the latitude of the dial plate.
+Respectively,
+
+
+
+(
+
+
+
+D
+
+
+
+1
+
+
+)
+
+
+{\displaystyle ({\mathcal {D}}_{1})}
+and
+
+
+
+(
+
+
+
+D
+
+
+
+2
+
+
+)
+
+
+{\displaystyle ({\mathcal {D}}_{2})}
+are the vertical projections of wires
+
+
+
+
+f
+
+1
+
+
+
+
+
+{\displaystyle f_{1}\,}
+and
+
+
+
+
+f
+
+2
+
+
+
+
+
+{\displaystyle f_{2}\,}
+on the dial plate
+
+
+
+Π
+
+
+
+{\displaystyle \Pi \,}
+.
+Point
+
+
+
+O
+
+
+
+{\displaystyle O\,}
+is the point on the dial plate directly under the two wires' intersection.
+That point is the origin of the X,Y co-ordinate system referred to below.
+The X-axis is the east-west line passing through the origin. The Y-axis is the north-south line passing through the origin. The positive Y direction is northward.
+One can show that if the position of the sun is known and determined by the spherical coordinates
+
+
+
+
+t
+
+⊙
+
+
+
+
+{\displaystyle t_{\odot }}
+et
+
+
+
+δ
+
+
+
+{\displaystyle \delta \,}
+(pronounced t-dot and delta, respectively the known as the hour angle et declination), the co-ordinates
+
+
+
+
+x
+
+I
+
+
+
+
+
+{\displaystyle x_{I}\,}
+and
+
+
+
+
+y
+
+I
+
+
+
+
+
+{\displaystyle y_{I}\,}
+of point
+
+
+
+I
+
+
+
+{\displaystyle I\,}
+, the intersection on the two shadows on the dial-plate
+
+
+
+Π
+
+
+
+{\displaystyle \Pi \,}
+have values of :
+
+
+
+
+
+
+
+
+
+x
+
+I
+
+
+
+
+=
+
+
+
+h
+
+1
+
+
+
+
+
+sin
+⁡
+
+t
+
+⊙
+
+
+
+
+sin
+⁡
+φ
+
+tan
+⁡
+δ
+
++
+
+cos
+⁡
+φ
+cos
+⁡
+
+t
+
+⊙
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+y
+
+I
+
+
+
+
+=
+
+
+
+h
+
+2
+
+
+
+
+
+−
+cos
+⁡
+φ
+
+tan
+⁡
+δ
+
++
+
+sin
+⁡
+φ
+cos
+⁡
+
+t
+
+⊙
+
+
+
+
+sin
+⁡
+φ
+
+tan
+⁡
+δ
+
++
+
+cos
+⁡
+φ
+cos
+⁡
+
+t
+
+⊙
+
+
+
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{matrix}x_{I}&=&h_{1}{\frac {\sin t_{\odot }}{\sin \varphi \ \operatorname {tan} \delta \ +\ \cos \varphi \cos t_{\odot }}}\\\ &\ &\ \\y_{I}&=&h_{2}{\frac {-\cos \varphi \ \operatorname {tan} \delta \ +\ \sin \varphi \cos t_{\odot }}{\sin \varphi \ \operatorname {tan} \delta \ +\ \cos \varphi \cos t_{\odot }}}\end{matrix}}}
+
+Eliminating the variable
+
+
+
+δ
+
+
+
+{\displaystyle \delta \,}
+in the two preceding equations, one obtains a new equation defined for
+
+
+
+
+x
+
+I
+
+
+
+
+
+{\displaystyle x_{I}\,}
+and
+
+
+
+
+y
+
+I
+
+
+
+
+
+{\displaystyle y_{I}\,}
+which gives, as a function of the latitude
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+and the solar hour angle solaire
+
+
+
+
+t
+
+⊙
+
+
+
+
+{\displaystyle t_{\odot }}
+, the equation of the trace of the sun associated with the local apparent time. In its simplest form this equation is written:
+
+
+
+
+
+
+
+x
+
+I
+
+
+
+
+y
+
+I
+
+
++
+
+h
+
+2
+
+
+
+/
+
+tan
+⁡
+φ
+
+
+
+=
+
+
+
+
+h
+
+1
+
+
+sin
+⁡
+φ
+
+
+h
+
+2
+
+
+
+
+
+tan
+⁡
+
+t
+
+⊙
+
+
+
+
+{\displaystyle {\frac {x_{I}}{y_{I}+h_{2}/\operatorname {tan} \varphi }}={\frac {h_{1}\sin \varphi }{h_{2}}}\ \operatorname {tan} t_{\odot }}
+
+This relation shows that the hour traces are indeed line segments and the meeting-point of these line segments is the point
+
+
+
+C
+
+
+
+{\displaystyle C\,}
+:
+
+
+
+
+
+x
+
+C
+
+
+=
+0
+
+
+
+{\displaystyle x_{C}=0\,}
+
+
+
+
+
+
+y
+
+C
+
+
+=
+−
+
+h
+
+2
+
+
+
+/
+
+tan
+⁡
+φ
+
+
+{\displaystyle y_{C}=-h_{2}/\operatorname {tan} \varphi }
+
+In other words, point C is south of point O (where the wires intersect), by a distance of
+
+
+
+
+h
+
+2
+
+
+
+/
+
+tan
+⁡
+φ
+
+
+{\displaystyle h_{2}/\operatorname {tan} \varphi }
+, where
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+is the latitude.
+Special case
+If one arranges the two wire heights
+
+
+
+
+h
+
+2
+
+
+
+
+
+{\displaystyle h_{2}\,}
+and
+
+
+
+
+h
+
+1
+
+
+
+
+
+{\displaystyle h_{1}\,}
+such :
+
+
+
+
+
+h
+
+2
+
+
+=
+
+h
+
+1
+
+
+sin
+⁡
+φ
+
+
+
+{\displaystyle h_{2}=h_{1}\sin \varphi \quad }
+
+then the equation for the hour lines can be simply written as:
+
+
+
+
+
+
+
+
+x
+
+I
+
+
+−
+
+x
+
+C
+
+
+
+
+
+y
+
+I
+
+
+−
+
+y
+
+C
+
+
+
+
+
+=
+tan
+⁡
+
+t
+
+⊙
+
+
+
+
+{\displaystyle {\frac {x_{I}-x_{C}}{y_{I}-y_{C}}}=\operatorname {tan} t_{\odot }}
+
+at all times, the intersection
+
+
+
+I
+
+
+
+{\displaystyle I\,}
+of the shadows on the dial plate
+
+
+
+Π
+
+
+
+{\displaystyle \Pi \,}
+is such that the angle
+
+
+
+
+
+
+
+O
+C
+I
+
+^
+
+
+
+
+
+{\displaystyle {\widehat {OCI}}}
+is equal to the hour angle
+
+
+
+
+t
+
+⊙
+
+
+
+
+{\displaystyle t_{\odot }}
+of the sun so thus represents solar time.
+So provided the sundial respects the la condition
+
+
+
+
+h
+
+2
+
+
+=
+
+h
+
+1
+
+
+sin
+⁡
+φ
+
+
+
+{\displaystyle h_{2}=h_{1}\sin \varphi \quad }
+the trace of the sun corresponds to the hour-angle shown by lines (rays) centred on the point
+
+
+
+C
+
+
+
+{\displaystyle C\,}
+and the 13 rays that correspond to the hours 6:00, 7:00, 8:00, 9:00... 15:00, 16:00, 17:00, 18:00 are regularly spaced at a constant angle of 15°, about point C.

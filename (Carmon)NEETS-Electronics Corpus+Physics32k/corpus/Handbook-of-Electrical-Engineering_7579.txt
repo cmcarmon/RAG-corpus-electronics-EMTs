@@ -1,0 +1,4 @@
+4. Mixing TTL subfamilies. Even synchronous sequential systems often have asynchronous features such
+as reset, preset, load, and so on. Mixing high-speed 74S TTL with lower speed TTL (74LS for example)
+in some applications can cause timing problems resulting in anomalous behavior. Such mixing is to be
+avoided, with rare exceptions which must be carefully analyzed.

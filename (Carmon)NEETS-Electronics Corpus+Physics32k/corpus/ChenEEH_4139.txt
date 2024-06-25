@@ -1,0 +1,18 @@
+For PSK the carrier signal changes phase every bit interval. If
+we multiply the received signal by a factor N, an integer, we can
+convert all of the phase changes in the multiplied signal to
+multiples of 3608. The new signal then has no phase changes,
+and we can recover it using a narrow band phase locked loop
+(PLL). After the PLL recovers, the multiplied carrier signal it is
+divided by N to recover the carrier at the proper frequency. By
+the suitable choice of digital dividing circuits, it is possible to
+get a precise 908 difference in the output of two dividers and
+thus generate both the cos vt and the sin vt signals needed by
+the receiver. There are also some down-converter integrated
+circuits that contain a precise phase shift network. The carrier
+recovery is typically performed at some lower intermediate
+frequency rather than directly at the received frequency. For
+BPSK, we would need an N or 2, but an N of 4 would be used
+to enable the sine and cosine term to be generated. For QPSK
+and its derivatives, an N of 4 is necessary, and for p=4-DQPSK,
+an N of 8 would be needed.

@@ -1,0 +1,5 @@
+. The control ﬂow graph with the signature of each block is
+stored in the local memory of the WD. If a run-time
+signature is received or computed by the WD, then the
+stored reference is searched to determine whether the
+signature is a valid successor to the previous one.

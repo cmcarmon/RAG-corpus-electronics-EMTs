@@ -1,0 +1,21 @@
+We now wish to translate these mathematical constraints to circuit
+constraints,
+to find simpler methods for analyzing multi-source networks.
+Specifically, we wish to find the terms in Equation 3.102, by inspection, from
+Figure 3.33. The mathematics says that, because of linearity, the first term
+remains unchanged if the other two sources are set to zero. We must now inter-
+pret this statement in circuit terms. Mathematically, we wish to set variable V2
+to zero, so in circuit terms we must set voltage source V2 to zero. By definition,
+source V2 must now be zero regardless of what current flows through it, that
+is, it must be a short circuit. So in general, setting a voltage source to zero is
+equivalent in circuit terms to replacing that source by a short circuit. Similarly,
+setting I to zero means that no current can flow through that branch of the
+circuit regardless of the terminal voltage. Hence setting a current source to zero
+is equivalent in circuit terms to replacing that source by an open circuit. These
+are two additional important circuit primitives. Applying these two concepts
+to Figure 3.33, we can find the first term in Equation 3.102, that is, the part
+of e1 arising from source V1, by forming a subcircuit from Figure 3.33 with V2
+and I set to zero as shown in Figure 3.34a. Thus, in Figure 3.34a, e1A is the
+voltage component of e1 due to source V1 acting alone. Now e1A can be found
+by inspection using the voltage-divider primitive:
+R2(cid:2)(R3 + R4)

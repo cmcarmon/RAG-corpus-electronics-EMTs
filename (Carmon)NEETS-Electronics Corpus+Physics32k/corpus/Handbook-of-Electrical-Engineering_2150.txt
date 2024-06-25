@@ -1,0 +1,6 @@
+There is an intrinsic ﬂow in the implementation of the back-propagation algorithm: ﬁrst, inputs are applied
+to the net and activations computed everywhere to yield the output activation. Second, the external errors are
+computed by subtracting the net output from the desired response. Third, these external errors are utilized in
+Eq. (20.8) to compute the local errors for the layer immediately preceding the output layer, and the computations
+chained  up  to  the  input  layer.  Once  all  the  local  errors  are  available,  Eq. (20.2)  can  be  used  to  update  every
+weight. These three steps are then repeated for other training patterns until the error is acceptable.

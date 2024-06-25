@@ -1,0 +1,9 @@
+  need to be distinct from the data used
+to  estimate  PML.  In  held-out  interpolation,  a  section  of  training  data  is  reserved  for  this  purpose.  In[37],  a
+technique  called  deleted  interpolation  is  described  where  different  parts  of  the  training  data  rotate  in  train
+either  PML  or  the 
+  and  the  results  are  then  averaged.  The  other  widely  used  smoothing  technique  in
+speech recognition is the backing-off technique described by Katz [36]. Here, the Good-Turing estimate [36]
+is  extended  by  adding  the  interpolation  of  higher-order  models  with  lower-order  models.  This  technique
+performs best for bigram models estimated from small training sets. The trigram language model probability
+is deﬁned by, 

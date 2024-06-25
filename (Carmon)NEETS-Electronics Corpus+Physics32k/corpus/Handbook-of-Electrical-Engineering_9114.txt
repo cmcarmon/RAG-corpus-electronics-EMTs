@@ -1,0 +1,9 @@
+Such a structure may give the impression that proprietary OS is
+created in a “fuzzy” manner. This is incorrect. All the memory is
+perfectly structured, with areas storing data, application code, and
+basic OS functions as well as native functions (procedures perform-
+ing  most  basic  functions  as  I/O  protocol,  DES  algorithm,  basic
+math,  atomic  functions,  etc.).  What  are  not  that  well-structured
+are functionalities performed by the card. Let’s take the example of
+an electronic purse. From the user’s point of view, the card should
+perform at minimum the following functions:

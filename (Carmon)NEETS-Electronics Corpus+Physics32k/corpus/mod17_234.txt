@@ -1,0 +1,7 @@
+CIRCUITRY.—Figure 2-15 is a block diagram representing agc feedback to preceding stages. The
+detector circuit has a dc component in the output that is directly proportional to the average amplitude of
+the modulated carrier. The agc circuitry uses this dc component by filtering the detector output to remove
+the audio and IF components and by applying a portion of the dc component to the preceding stages. This
+agc voltage controls the amplification of any or all of the stages preceding the detector stage. Solid-state
+receivers may use either positive or negative voltage for agc. The type of transistors used and the
+elements to which the control voltage is applied determine which type we will have.

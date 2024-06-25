@@ -1,0 +1,5 @@
+Maximum a posteriori Estimation
+A widely used speaker adaptation method maximizes the posterior estimation of HMMs [3]. The conventional
+maximum likelihood (ML) based algorithms assume the HMM parameters to be unknown but ﬁxed, and the
+parameter estimators are derived entirely from the training observation sequence using the Baum-Welch algo-
+rithms.  Sometimes,  prior  information  about  the  HMM  parameters  is  available,  whether  from  subject  matter

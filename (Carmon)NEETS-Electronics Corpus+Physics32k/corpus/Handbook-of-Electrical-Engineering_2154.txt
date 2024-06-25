@@ -1,0 +1,6 @@
+Search Procedures
+Searching along the direction of the gradient is ﬁne if the performance surface is quadratic. However, in ANNs
+rarely is this the case, because of the use of nonlinear PEs and topologies with several layers. So, gradient descent
+can be caught in local minima, which makes the search very slow in regions of small curvature. One efﬁcient
+way to speed up the search in regions of small curvature and, at the same time, to stabilize it in narrow valleys
+is to include a momentum term in the weight adaptation

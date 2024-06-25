@@ -1,0 +1,9 @@
+The basic element of logic circuits is the transistor switch, a simpliﬁed model of which is shown
+in Figure 9.1.1. The control signal is the input voltage vin, which must lie in either the “low” range
+or the “high” range for a digital circuit. When vin is low, the switch may take either the open or
+the closed position; when vin is high, the switch takes the other position. Looking at Figure 9.1.1,
+closing the switch makes vout zero, while opening the switch yields an output near VCC, assuming
+that not much current ﬂows through the output terminal. If VCC is chosen to lie in the high range
+and V = 0 is inside the low range, then allowed values of vin control the switch and give rise to
+allowed values of vout. A common special circuit in which a high input yields a low output, and
+vice versa, is known as an inverter, which performs the complement operation.

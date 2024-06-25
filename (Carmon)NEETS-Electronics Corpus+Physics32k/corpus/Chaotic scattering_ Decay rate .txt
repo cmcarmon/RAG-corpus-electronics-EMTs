@@ -1,0 +1,76 @@
+If we introduce a large number of particles with uniformly distributed impact parameters, the rate at which they exit the system is known as the decay rate. We can calculate the decay rate by simulating the system over many trials and forming a histogram of the delay time, T. For the GR system, it is easy to see that the delay time and the length of the particle trajectory are equivalent but for a multiplication coefficient. A typical choice for the impact parameter is the y-coordinate, while the trajectory angle is kept constant at zero degrees—horizontal. Meanwhile, we say that the particle has "exited the system" once it passes a border some arbitrary, but sufficiently large, distance from the centre of the system.
+We expect the number of particles remaining in the system, N(T), to vary as:
+
+
+
+
+N
+(
+T
+)
+∼
+
+e
+
+−
+γ
+T
+
+
+
+
+{\displaystyle N(T)\sim e^{-\gamma T}}
+
+Thus the decay rate,
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+, is given as:
+
+
+
+
+γ
+=
+
+lim
+
+n
+→
+∞
+
+
+−
+
+
+
+ln
+⁡
+N
+(
+T
+)
+
+T
+
+
+
+
+{\displaystyle \gamma =\lim _{n\rightarrow \infty }-{\frac {\ln N(T)}{T}}}
+
+where n is the total number of particles.
+Figure 3 shows a plot of the path-length versus the number of particles for a simulation of one million (1e6) particles started with random impact parameter, b. A fitted straight line of negative slope,
+
+
+
+γ
+=
+0.739
+
+
+{\displaystyle \gamma =0.739}
+is overlaid. The path-length, s, is equivalent to the decay time, T, provided we scale the (constant) speed appropriately. Note that an exponential decay rate is a property specifically of hyperbolic chaotic scattering. Non-hyperbolic scatterers may have an arithmetic decay rate.

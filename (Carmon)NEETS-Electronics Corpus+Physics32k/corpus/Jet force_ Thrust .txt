@@ -1,0 +1,31 @@
+To analyze thrust, we take a mathematical perspective.
+First, an aircraft takes off at some angle with respect to the ground. For a rocket traveling straight "up", this angle would be 90°, or at least close to 90°. For airplanes and most other aircraft, this angle will be much less, generally ranging from 0° to 60°. We shall define this angle as θ.
+θ is constantly changing as the aircraft moves around. At any given moment, however, the cosine of this angle θ will give us the component of the force that is acting in the forward direction. Multiplying the total force by this cosine of θ would yield the thrust:
+
+
+
+
+T
+h
+r
+u
+s
+t
+=
+J
+e
+t
+F
+o
+r
+c
+e
+∗
+cos
+⁡
+θ
+
+
+{\displaystyle Thrust=JetForce*\cos \theta }
+
+Because θ ranges from 0° to 90°, and the cosine of any angle in this range is 0 ≤ cosθ≤ 1, the thrust will always be either less than or equal to the jet force- as expected, as the thrust is a component of the jet force.

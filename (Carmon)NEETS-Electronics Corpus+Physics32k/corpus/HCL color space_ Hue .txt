@@ -1,0 +1,55 @@
+H
+=
+arctan
+⁡
+
+(
+
+
+
+G
+−
+B
+
+
+R
+−
+G
+
+
+
+)
+
+
+
+{\displaystyle H=\arctan \left({\frac {G-B}{R-G}}\right)}
+
+if ((R−G) < 0 and (G−B) ≥ 0), then H = 180+H
+if ((R−G) < 0 and (G−B) < 0), then H = H−180
+—OR—
+
+
+
+
+H
+=
+atan2
+⁡
+
+(
+
+G
+−
+B
+,
+R
+−
+G
+
+)
+
+
+
+{\displaystyle H=\operatorname {atan2} \left(G-B,R-G\right)}
+
+The atan2 function, a "two-argument arctangent", computes the angle from a cartesian coordinate pair.

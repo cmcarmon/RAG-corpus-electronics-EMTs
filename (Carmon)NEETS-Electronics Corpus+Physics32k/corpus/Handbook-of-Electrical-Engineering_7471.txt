@@ -1,0 +1,7 @@
+One often constructs a simulation to determine the value of a single parameter, such as the system BER. However
+the estimate of this parameter has little or no value unless one can ensure that the simulation model closely
+resembles the physical system. A number of methods can be used to validate a simulation. Individually, none
+of them will guarantee that the simulation results are accurate, but taken as a group, they form a convincing
+argument that the results are realistic. Seven methods of validation are mathematical analysis, comparison with
+hardware,  bounding  techniques,  degenerate  case  studies,  reasonable  relationship  tests,  subsystem  tests,  and
+redundant simulation efforts.

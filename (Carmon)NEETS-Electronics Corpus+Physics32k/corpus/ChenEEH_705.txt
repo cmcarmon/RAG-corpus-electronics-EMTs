@@ -1,0 +1,13 @@
+The cavity detection algorithm, which will be used as an
+example throughout this section, is a medical image processing
+application that extracts contours from images to help phys-
+icians detect brain tumors. The initial algorithm consists of a
+number of functions, each of which has an image frame as
+input and one as output, as shown in Figure 2.11. In the ﬁrst
+function, a horizontal and vertical GaussBlur step is per-
+formed, in which each pixel is replaced by a weighted average
+of itself and its neighbors. In the second function called Com-
+puteEdges(), for each pixel, the difference with all eight neigh-
+bors is computed, and the pixel is replaced by the maximum of
+these differences. In the last function called DetectRoots(), the
+image is ﬁrst reversed. To this end, the maximum value of

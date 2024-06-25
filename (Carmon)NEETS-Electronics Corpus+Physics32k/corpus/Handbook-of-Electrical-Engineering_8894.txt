@@ -1,0 +1,5 @@
+A  physical  address  can  also  be  broken  into  two  parts,  a  physical  page  number  (also  called  a  page  frame
+number) and an offset. This mapping is done at the level of pages, so the page table can be indexed by means
+of the virtual page number. The page frame number is contained in the page table and is read out during the
+translation, along with other information about the page. In most implementations the page offset is the same
+for a virtual address and the physical address to which it is mapped.

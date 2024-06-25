@@ -1,0 +1,4 @@
+SELECTIVE TRIPPING is used to cause the circuit breaker closest to the faulty circuit to trip,
+isolating the faulty circuit without affecting other nonfaulty circuits. This is accomplished by using an
+instantaneous circuit breaker close to the load, a short time delay circuit breaker at the next junction, and a
+long time delay circuit breaker at the main junction box.

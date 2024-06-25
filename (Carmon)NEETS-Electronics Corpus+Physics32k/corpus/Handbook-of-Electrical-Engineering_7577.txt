@@ -1,0 +1,12 @@
+2. Unused gates and inputs. If a gate on a package is not used, its inputs should be tied either high or low,
+whichever results in the least supply current. For example, the 7400 draws three times the current with
+the output low as with the output high, so the inputs of an unused 7400 gate should be grounded. An
+unused input of a gate, however, must be connected so as not to affect the function of the active inputs.
+For a 7400 NAND gate, such an input must either be tied high or paralleled with a used input. It must
+be  recognized  that  paralleled  inputs  count  as  two  when  determining  the  fan-out.  Inputs  that  are  tied
+high  can  be  connected  either  to VCC  through  a  1-kW  or  more  resistance  (for  protection  from  supply
+voltage surges) or to the output of an unused gate whose input will establish a permanent output high.
+Several  inputs  can  share  a  common  protective  resistance.  Unused  inputs  of  low-power  Schottky  TTL
+can be tied directly to VCC, since 74LSxx inputs tolerate up to 15 V without breakdown. If inputs of low-
+power Schottky are connected in parallel and driven as a single input, the switching speed is decreased,
+in contrast to the situation with other TTL families.

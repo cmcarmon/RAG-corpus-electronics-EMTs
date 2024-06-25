@@ -1,0 +1,39 @@
+The overall response can be quickly sketched through inspection by first
+determining the initial and final interval values of the voltage on the capacitor.
+Initial Interval (t ≤ 0
+−
+),
+the effective circuit is as shown in Figure 10.11b, with a DC source with volt-
+age VO appearing across the capacitor. Thus, the capacitor voltage is VO
+during t < 0
+and t = 0,
+and still within the initial interval, the capacitor is not connected to any other
+circuit (recall S1 is opened at t = 0
+and S2 is closed immediately thereafter
+at t = 0). Assuming the capacitor is ideal, it holds its charge and so its voltage
+remains at VO until the switch S1 is closed.
+Then, at t = 0, S1 is closed, resulting in a finite step of magnitude V
+being applied to a series RC circuit in which the capacitor has a voltage VO
+across it. Let us now determine the capacitor voltage at t = 0
+, just after the
+step. From the element law of the capacitor (Equation 9.7), we know that an
+instantaneous jump in capacitor voltage requires an infinite spike (that is, an
+impulse) in current. Since a finite step voltage applied across a resistor cannot
+support an infinite spike in current, we conclude that the capacitor voltage
+cannot change instantaneously, rather it must be continuous. Thus, the voltage
+across the capacitor at t = 0
++
+must also be VO. This is our initial condition
+on the capacitor. The voltage across the capacitor during the initial interval
+(t ≤ 0
++
+Final Interval (t (cid:5) 0) We next turn our attention to the final interval. To
+determine the capacitor voltage in the final interval, observe that our situation
+is identical to that of a DC source with voltage V applied across the series
+combination of R and C as shown in Figure 10.11c. Since the capacitor current
+is proportional to the rate of change of the capacitor voltage (Equation 9.7), in
+a DC situation, where all transients have died out, the current flowing through
+the capacitor must be zero. In other words, in a DC situation, the capacitor
+voltage has attained some fixed value, and hence the capacitor current is zero.
+Effectively, the capacitor behaves like an open circuit for DC sources. Since
+no current is flowing, the drop across the resistor must be zero. Thus, to

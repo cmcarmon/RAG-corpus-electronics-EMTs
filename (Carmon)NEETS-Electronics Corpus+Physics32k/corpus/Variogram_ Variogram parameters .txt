@@ -1,0 +1,28 @@
+The following parameters are often used to describe variograms:
+nugget
+
+
+
+n
+
+
+{\displaystyle n}
+: The height of the jump of the semivariogram at the discontinuity at the origin.
+sill
+
+
+
+s
+
+
+{\displaystyle s}
+: Limit of the variogram tending to infinity lag distances.
+range
+
+
+
+r
+
+
+{\displaystyle r}
+: The distance in which the difference of the variogram from the sill becomes negligible. In models with a fixed sill, it is the distance at which this is first reached; for models with an asymptotic sill, it is conventionally taken to be the distance when the semivariance first reaches 95% of the sill.

@@ -1,0 +1,23 @@
+Signiﬁcant productivity gain can be obtained by the use of
+domain-speciﬁc tools. An example is MatLab, a well-known
+tool for rapid design exploration of digital signal processing
+applications. Several projects have been undertaken to map
+MatLab programs, or descriptions in the Simulink block-
+diagram format, into hardware. Banerjee et al. (2001) describe
+a compiler that maps MatLab programs onto a distributed
+system containing embedded processors, digital signal proces-
+sors, and FPGAs. Constantinides et al. (2001) present an
+analytical approach for producing efﬁcient hardware imple-
+mentations by varying the word length and scaling of each
+signal
+in a Simulink block diagram. Hwang et al. (2001)
+demonstrate a visual design ﬂow that addresses issues includ-
+ing the mapping of system parameters, such as sample rates
+into implementation parameters, and implications of system
+modeling for testing, such as the test-bench generation. Other
+domain-speciﬁc tools for conﬁgurable computing have also
+been reported: applications include computer graphics, where
+tools can leverage on the OpenGL interface standard (Styles
+and Luk, 2000), and image processing, where tools, can build
+on the Khoros Cantata graphical programming environment
+(Ong et al., 2001).

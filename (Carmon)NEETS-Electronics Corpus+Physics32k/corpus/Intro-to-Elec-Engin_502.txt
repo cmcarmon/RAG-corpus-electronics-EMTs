@@ -1,0 +1,11 @@
+Thus far we have shown how to ﬁnd the truth table for a given combination of logic blocks.
+The inverse process, that of ﬁnding an interconnection of blocks to produce a given truth table,
+is known as logic synthesis. Even though the resulting circuit is not necessarily minimal (thereby
+assuming a minimum number of components), the truth table can be realized by the two standard
+forms: sum of products (SOP) and product of sums (POS). SOP can be implemented by using
+two-level (AND–OR) networks, where each product term requires an AND gate (except for a
+term with a single variable) and the logic sum of these terms is obtained by using an OR gate with
+inputs from the AND gates or the single variables. POS can be implemented by using two-level
+(OR–AND) networks, where each term requires an OR gate (except for a term with a single
+variable) and the product of these terms is obtained by using an AND gate with inputs from the
+OR gates or the single variables.

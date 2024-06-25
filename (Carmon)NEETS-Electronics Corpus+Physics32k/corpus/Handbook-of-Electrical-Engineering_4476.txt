@@ -1,0 +1,11 @@
+Because a hexahedra has eight nodes it is natural to select a bilinear trial function with eight parameters; see
+ are
+Fig. 44.1 for other examples. The functions 
+the solution values at the nodes. The ﬁnite elements can be integrated into a numerical model for the whole
+problem space either by (a) the variational method in which the total energy of the system is expressed in terms
+of the ﬁnite element trial functions and then minimized to determine the best solution or (b) the weighted
+residual method in which the formal error (residual), arising by substituting the trial functions into the deﬁning
+equation, is weighted by a suitably chosen function and then integrated over the problem domain. The best ﬁt
+for the trial function parameters can then be obtained by equating the integral to zero. Both methods lead to
+a set of algebraic equations and are equivalent if the weighting functions are chosen to be the trial functions
+(Galerkin’s method [Zienkiewicz, 1990]). At the element level, the residual 

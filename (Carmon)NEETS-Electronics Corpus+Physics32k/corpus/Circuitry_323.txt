@@ -1,0 +1,39 @@
+typical  example, 
+the  LM78S40.  This  device 
+contains  two  operational  amplifiers  (IC1  and  IC2) 
+designed to work as comparators, and a two-stage 
+Darlington transistor switch comprising an emitter-
+follower  driver,  Q1,  and  output  switch,  Q2.  The 
+LM78S40 is supplied in a 16-pin dual-in-line (DIL) 
+package. 
+  The LM78S40 can be configured to provide step-
+up 
+inverting 
+operation.  The  frequency  of  the  internal  current 
+controlled oscillator is set by the value of capacitor 
+connected  to  pin-12.  Oscillator  frequencies  of 
+between 100 Hz and 100 kHz are possible but most 
+practical  applications  operate  at 
+frequencies 
+between  20  kHz  and  50  kHz.  The  oscillator  duty 
+cycle  is  internally  set  to  6:1  but  can  be  varied  by 
+means of the current sensing circuit which normally 
+senses the current in an external resistor connected 
+between pins-12 and 13. 
+reference 
+  An 
+provides a stable voltage reference of 1.3 V at pin-
+8. The internal reference voltage source is capable 
+of providing a current of up to 10 mA drawn from 
+pin-8.  The  output  transistor,  Q2,  is  capable  of 
+carrying  a  peak  current  of  up  to  1.5  A  and  has  a 
+maximum collector-emitter voltage rating of 40 V. 
+The 
+is 
+accessible  between  pins-1  and  2  and  this  has 
+similar  ratings  to  Q2.  Both  D1  and  Q2  have 
+switching times of between 300 and 500 ns. IC1 is 
+used to compare the 1.3 V voltage reference (pin-
+10  connected  to  pin-8)  with  a  proportion  of  the 
+output (derived from a simple two-resistor potential 
+divider). 

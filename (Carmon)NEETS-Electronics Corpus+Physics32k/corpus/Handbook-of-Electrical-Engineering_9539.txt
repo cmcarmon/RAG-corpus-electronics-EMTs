@@ -1,0 +1,9 @@
+An object is usually a member of a class. The class speciﬁes the internal structure and the external interface
+of an object. New object classes can be deﬁned as a specialization of existing ones. For example, in a university
+environment,  the  object  type “faculty”  can  be  seen  as  a  specialization  of  the  object  type “employee.”  Since  a
+faculty  is  a  university  employee,  it  has  all  the  properties  of  a  university  employee  plus  some  of  its  own.  For
+example,  some  of  the  general  operations  that  can  be  performed  on  an  employee  could  be  “raise_salary,”
+“ﬁre_employee,” “transfer_employee.”  For  a  faculty,  specialized  operations  such  as “faculty_tenure”  could  be
+deﬁned. Faculty can be viewed as a subclass of employee. As a result, faculty (the subclass) will respond to the
+same messages as employee (the superclass) in addition to those deﬁned speciﬁcally for faculty. This technique
+is known as inheritance. A subclass is said to inherit the behavior of its superclass.

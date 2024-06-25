@@ -1,0 +1,11 @@
+As shown in figure 4-40 the slope of the charge curve will be very sharp. The voltage across the 
+resistor will remain at 0 volts until the end of 100 microseconds. At that time, the applied voltage 
+suddenly drops to 0, and the capacitor will now discharge through the resistor. At this time, the discharge 
+current will be maximum causing a large discharge voltage to develop across the resistor. This is shown 
+as the negative spike in figure 4-40. Since the current flow from the capacitor, which now acts like a 
+source, is decreasing exponentially, the voltage across the resistor will also decrease. The resistor voltage 
+will decrease exponentially to 0 volts in 5 time constants. All of this discharge action will take a total of 
+50 microseconds. The discharge curve is also shown in figure 4-40. At the end of 200 microseconds, the 
+action begins again. The output waveform taken across the resistor in this short time-constant circuit is an 
+example of differentiation. With the square wave applied, positive and negative spikes are produced in the 
+output. These spikes approximate the rate of change of the input square wave. 

@@ -1,0 +1,6 @@
+FM demodulators mainly fall into two categories: frequency discriminators and locked-loop
+demodulators. While both give the same performance for relatively high signal levels, locked-
+loop demodulators provide better performance than the discriminator when signal levels are
+low and noise is a problem. The discriminator produces an output voltage proportional to the
+frequency variations that occur in the FM signal at its input. Locked-loop demodulators are more
+cost-efﬁcient when implemented in IC form.

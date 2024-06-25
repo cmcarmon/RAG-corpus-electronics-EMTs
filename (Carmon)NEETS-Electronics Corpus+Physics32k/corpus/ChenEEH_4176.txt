@@ -1,0 +1,8 @@
+. Two coordinated parity checking: The scheme checks for
+the parities for a block of characters and not just for a
+single character. The parities are added horizontally and
+vertically within a block of characters to produce a block
+check character (BCC). BCC is appended to the end of a
+block to be transmitted. Table 5.1 illustrates the error
+detection scheme. Assume that odd parity checking is
+used.

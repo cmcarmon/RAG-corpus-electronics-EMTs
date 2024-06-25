@@ -1,0 +1,6 @@
+More Dynamic Data Types
+Stacks and Lists with a Point of Interest
+A queue is the type of (linear) list used to realize ﬁrst-come-ﬁrst-served behavior. In contrast, another linear
+type, the stack, realizes last-come-ﬁrst-served behavior. Sometimes it is necessary to scan a list object without
+dismantling  it.  This  is  accomplished  by  giving  the  list  a  point  of  interest  (see  Fig.  87.14).  This  requires  four
+additional operations:

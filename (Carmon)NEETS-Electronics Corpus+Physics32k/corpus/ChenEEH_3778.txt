@@ -1,0 +1,17 @@
+Model Topology and Size
+Some variation of the Bakis topology is almost uniformly used in
+speech applications because it most appropriately represents the
+acoustic process. Interestingly, and perhaps not surprisingly,
+when used with speech, an HMM with no state-transition con-
+straints will often train so that it essentially represents a sequen-
+tial structure (backward transition probabilities turn out zero).
+Experimental evidence suggests that states frequently repre-
+sent identiﬁable acoustic phenomena.17 Therefore, the number
+of states is often chosen to roughly correspond to the expected
+number of such phenomena in the utterance. If words are being
+modeled with discrete observations, for example, 5 to 10 states
+are typically used to capture the phones in the utterances.
+Continuous-observation HMMs sometimes use more states. If
+HMMs are used to model discrete phones or phonemes, three
+states are often used—one each for onset and exit transitions
+and one for the steady-state portion of the phone.

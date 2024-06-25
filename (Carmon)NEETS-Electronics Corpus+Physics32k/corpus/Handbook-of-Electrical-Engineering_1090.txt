@@ -1,0 +1,5 @@
+The Disrete Fourier Transform
+One of the methods, and one that is used extensively, calls for replacing continuous Fourier transforms by an
+equivalent  discrete  Fourier  transform  (DFT)  and  then  evaluating  the  DFT  using  the  discrete  data.  However,
+evaluating a DFT with 512 samples (a small number in most cases) requires more than 1.5 · 106 mathematical
+operations. It was the development of the fast Fourier transform (FFT), a computational technique that reduces

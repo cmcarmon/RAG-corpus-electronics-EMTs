@@ -1,0 +1,10 @@
+It is clear that errors due to inaccurate numerical velocities
+are cumulative (i.e., they increase linearly with the wave-
+propagation distance). These errors represent a fundamental
+limitation of all grid-based Maxwell’s equations’ algorithms
+and can be troublesome when modeling electrically large struc-
+tures. A positive aspect seen in Figure 9.4 is that both D~vvphysical
+and D~vvaniso decrease by approximately a 4:1 factor each time
+the grid-sampling density doubles, indicative of the second-
+order accuracy of the Yee algorithm. Therefore, ﬁner meshing
+is one way to control the dispersion error.

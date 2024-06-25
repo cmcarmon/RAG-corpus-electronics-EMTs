@@ -1,0 +1,93 @@
+Assume the following values for an Earth centred Kepler orbit
+r1 = 10000 km
+r2 = 16000 km
+α = 100°
+These are the numerical values that correspond to figures 1, 2, and 3.
+Selecting the parameter y as 30000 km one gets a transfer time of 3072 seconds assuming the gravitational constant to be
+
+
+
+μ
+
+
+{\displaystyle \mu }
+= 398603 km3/s2. Corresponding orbital elements are
+semi-major axis = 23001 km
+eccentricity = 0.566613
+true anomaly at time t1 = −7.577°
+true anomaly at time t2 = 92.423°
+This y-value corresponds to Figure 3.
+With
+r1 = 10000 km
+r2 = 16000 km
+α = 260°
+one gets the same ellipse with the opposite direction of motion, i.e.
+true anomaly at time t1 = 7.577°
+true anomaly at time t2 = 267.577° = 360° − 92.423°
+and a transfer time of 31645 seconds.
+The radial and tangential velocity components can then be computed with the formulas (see the Kepler orbit article)
+
+
+
+
+
+V
+
+r
+
+
+=
+
+
+
+μ
+p
+
+
+
+⋅
+e
+⋅
+sin
+⁡
+θ
+
+
+
+{\displaystyle V_{r}={\sqrt {\frac {\mu }{p}}}\cdot e\cdot \sin \theta \ }
+
+
+
+
+
+
+V
+
+t
+
+
+=
+
+
+
+μ
+p
+
+
+
+⋅
+(
+1
++
+e
+⋅
+cos
+⁡
+θ
+)
+.
+
+
+{\displaystyle V_{t}={\sqrt {\frac {\mu }{p}}}\cdot (1+e\cdot \cos \theta ).}
+
+The transfer times from P1 to P2 for other values of y are displayed in Figure 4.

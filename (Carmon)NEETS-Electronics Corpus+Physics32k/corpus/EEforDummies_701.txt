@@ -1,0 +1,10 @@
+(or store) the output bits of one stage for a short 
+time before allowing them to be applied to the 
+next logic stage. Registers ship their contents 
+out and accept new contents in upon receiv-
+ing a signal known as a clock tick, which gives 
+every gate enough time to compute its output. 
+Clock signals are produced by special precision 
+timing circuits. (See the section on the 555 timer 
+later in this chapter for more information on how 
+to create clocks and registers.)

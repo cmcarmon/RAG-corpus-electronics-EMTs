@@ -1,0 +1,149 @@
+CD-DA, the standard audio CD, is said to have a data rate of 44.1 kHz/16, meaning that the audio data was sampled 44,100 times per second and with a bit depth of 16. CD-DA is also stereo, using a left and right channel, so the amount of audio data per second is double that of mono, where only a single channel is used.
+The bit rate of PCM audio data can be calculated with the following formula:
+
+
+
+
+
+bit rate
+
+=
+
+sample rate
+
+×
+
+bit depth
+
+×
+
+channels
+
+
+
+{\displaystyle {\text{bit rate}}={\text{sample rate}}\times {\text{bit depth}}\times {\text{channels}}}
+
+For example, the bit rate of a CD-DA recording (44.1 kHz sampling rate, 16 bits per sample and two channels) can be calculated as follows:
+
+
+
+
+44
+,
+100
+×
+16
+×
+2
+=
+1
+,
+411
+,
+200
+
+
+bit/s
+
+=
+1
+,
+411.2
+
+
+kbit/s
+
+
+
+{\displaystyle 44,100\times 16\times 2=1,411,200\ {\text{bit/s}}=1,411.2\ {\text{kbit/s}}}
+
+The cumulative size of a length of PCM audio data (excluding a file header or other metadata) can be calculated using the following formula:
+
+
+
+
+
+size in bits
+
+=
+
+sample rate
+
+×
+
+bit depth
+
+×
+
+channels
+
+×
+
+length of time
+
+.
+
+
+{\displaystyle {\text{size in bits}}={\text{sample rate}}\times {\text{bit depth}}\times {\text{channels}}\times {\text{length of time}}.}
+
+The cumulative size in bytes can be found by dividing the file size in bits by the number of bits in a byte, which is eight:
+
+
+
+
+
+size in bytes
+
+=
+
+
+size in bits
+8
+
+
+
+
+{\displaystyle {\text{size in bytes}}={\frac {\text{size in bits}}{8}}}
+
+Therefore, 80 minutes (4,800 seconds) of CD-DA data requires 846,720,000 bytes of storage:
+
+
+
+
+
+
+
+44
+,
+100
+×
+16
+×
+2
+×
+4
+,
+800
+
+8
+
+
+=
+846
+,
+720
+,
+000
+
+
+bytes
+
+≈
+847
+
+
+MB
+
+
+
+{\displaystyle {\frac {44,100\times 16\times 2\times 4,800}{8}}=846,720,000\ {\text{bytes}}\approx 847\ {\text{MB}}}

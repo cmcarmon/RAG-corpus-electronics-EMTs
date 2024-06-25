@@ -1,0 +1,7 @@
+With increasing system complexity, the need may arise for several repetitive timing signals
+with diﬀerent periods. If each timing signal is obtained from a separate oscillator, the signals
+will have a random and variable phase relationship. They will be asynchronous and may lead
+to glitches. A better technique is to use one high-frequency oscillator with a short period
+and from it derive all longer-period signals. If the longer period is a multiple of two of the
+clock period a counter with ﬂip-ﬂops can be used. If the period is not a multiple of two of
+the clock period a divide-by-N counter can be used.

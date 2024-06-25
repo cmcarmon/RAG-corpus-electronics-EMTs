@@ -1,0 +1,15 @@
+Since the introduction of the temporal hyperplane by Lam-
+port (1974), the scheduling and assignment problem of nested
+Do-loop algorithms has been explored and developed to the
+so-called systolic array (Kung, 1982), exploiting regular array
+structure,
+temporal pipelining, and local communication.
+Along with the advance of VLSI technology, certain nested
+Do-loop algorithms can be scaled down and realizable in a
+single chip. Thus, the nested Do-loop scheduling and assign-
+ment problem can be formulated as an algebraic projection.
+Each loop index in the index space will be projected onto the
+index of a regular array of processing elements (PEs), and their
+execution time is determined by a family of equitemporal
+hyperplanes, where all indices on the same hyperplane are
+executed simultaneously.

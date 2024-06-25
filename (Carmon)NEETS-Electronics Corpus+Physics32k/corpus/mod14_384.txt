@@ -1,0 +1,6 @@
+A logic diagram of a three-state (modulo-8) synchronous counter is shown in figure 3-24, view A.
+The clock input is wired to each of the FFs to prevent possible errors in the count. A HIGH is wired to the
+J and K inputs of FF1 to make the FF toggle. The output of FF1 is wired to the J and K inputs of FF2, one
+input of the AND gate, and indicator A. The output of FF2 is wired to the other input of the AND gate
+and indicator B. The AND output is connected to the J and K inputs of FF3. The C indicator is the only
+output of FF3.

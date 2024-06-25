@@ -1,0 +1,28 @@
+. NG ¼ (P, T ; F) is a net graph, with:
+. P a ﬁnite set of nodes, called places;
+. T a ﬁnite set of nodes, called transitions, disjoint from
+P (P \ T ¼ 1); and
+. F  (P  T ) [ (T  P) a set of directed edges called
+arcs, known as the ﬂow relation.
+. Sig ¼ (S, O) is a Boolean signature, where S is a set of
+sorts and O is a set of operators deﬁned in the Annex A of
+ISO/IEC (2002).
+. V is an S-indexed set of variables, disjoint from O.
+. H ¼ (SH, OH) is a many-sorted algebra for the signature
+Sig, deﬁned earlier in this list:
+. Type: P ! SH is a function that assigns types to places.
+. AN¼ (A, TC) is a pair of net annotations.
+. A: F ! TERM (O [ V ) such that for all (p, t), (t, p)
+2 F and all bindings a, Vala(A(p, t )), Vala(A(t0, p))
+2 mType(p). TERM(O [ V ), a, Vala and mType(p) are
+deﬁned in Annex A of ISO/IEC (2002). A is a function
+that annotates each arc with a term that when evaluated
+(for some binding) results in a multiset over the asso-
+ciated place’s type.
+. TC: T ! TERM(O [ V )Bool is a function that anno-
+tates transitions with Boolean expressions.
+. M0: P ! [p2P mType(p)
+such that 8p 2 P, M0(p) 2
+mType(p) is the initial marking function that associates
+a multiset of tokens (of the correct type) with each
+place.

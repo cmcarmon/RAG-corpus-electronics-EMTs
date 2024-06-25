@@ -1,0 +1,13 @@
+HMM Structure and Formulation
+The HMM as an Automaton
+An HMM can be viewed as a stochastic ﬁnite-state automa-
+ton—a type of abstract ‘‘machine’’ used to model the gener-
+ation of a sequence of events or observations (Hopcroft and
+Ullman, 1979), in this case representing a speech utterance.
+The utterance may be a word, a subword unit, or, in principle,
+a sentence or paragraph. In small vocabulary systems, the
+HMM tends to be used to model words, whereas in larger
+vocabulary systems, the HMM is used for subword units like
+phonemes and for more abstract
+language information
+(see Section 3.4.3.). To introduce the operation of the HMM,

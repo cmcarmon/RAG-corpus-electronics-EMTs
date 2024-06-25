@@ -1,0 +1,11 @@
+. Session identiﬁcation: In the best-effort Internet, every
+ﬂow (or session) can be identiﬁed using the tuple <Src Ip,
+Src Port, Dst IP, Dst Port, Protocol>. Thus, individual
+transport layer sockets have to be established for every
+session. If there ever arises a need to bunch sessions
+together (for cutting costs), however, there is no available
+mechanism. Hence, there is clearly a need to multiplex
+different streams into the same transport layer socket.
+This functionality is similar to that of the session layer
+in the seven-layer OSI model, which has been notably
+absent in TCP/IP protocol stack used in the Internet.

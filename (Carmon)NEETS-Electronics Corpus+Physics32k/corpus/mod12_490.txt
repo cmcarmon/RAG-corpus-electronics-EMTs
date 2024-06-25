@@ -1,0 +1,9 @@
+The peak detector circuit may also be used for pdm. To detect pdm, you must modify view (A) of
+figure 3-21 so that the time constant for charging C1 through CR1 is at least 10 times the maximum
+received pulse width. This may be done by adding a resistor in series with the cathode or anode circuit of
+CR1. The amplitude of the voltage to which C1 charges, before being discharged by the negative pulse,
+will be directly proportional to the input pulse width. A longer pulse width allows C1 to charge to a
+higher potential than a short pulse. This charge is held, because of the long time constant of R1 and C1,
+until the discharge pulse is applied to diodes CR2 and CR3 just prior to the next incoming pulse. These
+charges across C1 result in a wave shape similar to the output shown for pam detection in view (C) of
+figure 3-21.

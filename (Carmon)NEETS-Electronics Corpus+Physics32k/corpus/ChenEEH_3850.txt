@@ -1,0 +1,9 @@
+By far, the most widely used linear transform in compres-
+sion schemes up to date is the discrete cosine transform
+(DCT). It is part of the old JPEG standard (Pennebaker and
+Mitchell, 1993) as well as most modern video compression
+standards,
+like H.261 (ITU-T, 1990), H.263 (ITU, 1996),
+MPEG-1 (ISO/IEC, 1994), MPEG-2 (ISO/IEC, 1994) and
+MPEG-4 (ISO/IEC, 1997). The DCT of a length N signal x(n)
+consists of the coefﬁcients c(k) such that (Ahmed et al., 1974):

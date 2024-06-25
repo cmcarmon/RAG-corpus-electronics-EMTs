@@ -1,0 +1,9 @@
+To find v in terms of i, we need to apply some form of excitation, and
+measure the response. The derivation is simplest if we use either a voltage
+source or a current source, rather than a complicated excitation network. In
+Figure 3.55b, we have chosen to apply a test current source to the terminals. To
+calculate the response vt by superposition, first set all the internal independent
+sources to zero, as in Figure 3.55c, and calculate the voltage va. As discussed
+in Section 3.5.1, dependent sources are left as is. Then set itest to zero, as in
+Figure 3.55d, and calculate vb. The desired value of vt is the sum va + vb. From
+Figure 3.55c,

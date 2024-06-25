@@ -1,0 +1,9 @@
+Speech
+Telephone quality speech is normally sampled at 8 kHz and quantized at 8 bits/sample (a rate of 64 kbits/s)
+for  uncompressed  speech.  Simple  compression  algorithms  like  adaptive  differential  pulse  code  modulation
+(ADPCM) [Jayant and Noll, 1984] use the correlation between adjacent samples to reduce the number of bits
+used by a factor of two to four or more with almost imperceptible distortion. Much higher compression ratios
+can be obtained with algorithms like linear predictive coding (LPC), which model speech as an autoregressive
+process,  and  send  the  parameters  of  the  process  as  opposed  to  sending  the  speech  itself.  With  LPC-based
+methods,  it  is  possible  to  code  speech  at  less  than  4  kbits/s.  At  very  low  bit  rates,  however,  the  reproduced
+speech sounds synthetic.

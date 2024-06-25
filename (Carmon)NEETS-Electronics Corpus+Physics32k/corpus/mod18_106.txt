@@ -1,0 +1,10 @@
+A duplexer is essentially an electronic switch that permits a radar system to use a single antenna to
+both transmit and receive. The duplexer must connect the antenna to the transmitter and disconnect the
+antenna from the receiver for the duration of the transmitted pulse. The receiver must be completely
+isolated from the transmitted pulse to avoid damage to the extremely sensitive receiver input circuitry.
+After the transmitter pulse has ended, the duplexer must rapidly disconnect the transmitter and connect
+the receiver to the antenna. As previously mentioned, the switching time is called receiver recovery time,
+and must be very fast if close-in targets are to be detected. Additionally, the duplexer should absorb very
+little power during either phase of operation. Low-loss characteristics are particularly important during
+the receive period of duplexer operation. This is because the received signals are of extremely low
+amplitude.

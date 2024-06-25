@@ -1,0 +1,19 @@
+Ensemble Processors
+ PEs (a PE
+An ensemble system is an extension of the conventional uniprocessor systems. It is a collection of 
+  MUs,  under  the
+here  consists  of  an ALU,  a  set  of  local  registers,  and  limited  local  control  capability)  and 
+is similar to that shown in Fig. 95.1
+control of a single CU. Thus, the organization of an 
+except that there are no direct interprocessor and processor-memory communications, i.e., no interconnection
+networks. When the need for communication arises, it is done through the CU. This slows down the system
+for applications requiring extensive interprocessor and processor-memory communications. For example, the
+ PEs are available in an ensemble processor,
+sum of two matrices A and B can be executed in one step, if 
+ is the rank of the matrices. On the other hand, the product of the same two matrices requires extensive
+where 
+data alignment between the elements of A and B. As a result, it is ineffective for performing matrix multipli-
+cations with an ensemble processor. Therefore, while the ensemble processors are capable of executing up to
+N
+  identical  jobs  simultaneously,  they  have  very  limited  applications.  Parallel  element  processing  ensemble
+(PEPE) [Evensen and Troy, 1973] is an example of such parallel processors.

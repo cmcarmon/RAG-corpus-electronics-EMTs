@@ -1,0 +1,12 @@
+Training using the Viterbi algorithm is much simpler and
+more computationally efﬁcient,
+though equally effective.
+Beginning with an initial model estimate, we implement the
+recognition procedure on the training sequence. Once the
+optimal path is discovered, backtracking information is used
+to determine the number of transitions into and out of each
+state and the number of times each symbol is produced in each
+state. The tallies are used to reestimate the state and observa-
+tion probabilities, and then the process is repeated. The
+algorithm can be shown to converge to a proper characteriza-
+tion of the underlying probabilities (Fu, 1982).

@@ -1,0 +1,15 @@
+When it is on, a resistance RONn appears between its drain and source. In
+contrast, the PFET turns on when its vGS ≤ VTp. VTp is usually negative (for
+example, −1 volt). When it is on, a resistance RONp appears between its drain
+and source. The drain terminal of the PFET is chosen as the terminal with the
+lower voltage. In contrast, the channel terminal of the NFET with the higher
+voltage is labeled as the drain.
+As an example, an NFET with a threshold voltage VTn = 1 V turns on
+when the voltage between its gate and source is raised above 1 V. A PFET with
+a threshold voltage VTp = −1 V turns on when the voltage between its gate
+and source is lowered below −1 V. In other words, the PFET turns on when
+the voltage between its source and gate is raised above 1 V.
+A CMOS inverter is shown in Figure 11.17. When the input voltage is high
+(vIN = VS), the NFET is ON and the PFET is off, resulting in a low output
+voltage. When the input voltage is low (vIN = 0), the NFET turns off and the
+PFET turns on, resulting in a high output voltage.

@@ -1,0 +1,9 @@
+Six parameters are required to specify a Keplerian orbit about a body. For example, the three numbers that specify the body's initial position, and the three values that specify its velocity will define a unique orbit that can be calculated forwards (or backwards) in time. However, traditionally the parameters used are slightly different.
+The traditionally used set of orbital elements is called the set of Keplerian elements, after Johannes Kepler and his laws. The Keplerian elements are six:
+Inclination (i)
+Longitude of the ascending node (Ω)
+Argument of periapsis (ω)
+Eccentricity (e)
+Semimajor axis (a)
+Mean anomaly at epoch (M0).
+In principle once the orbital elements are known for a body, its position can be calculated forward and backwards indefinitely in time. However, in practice, orbits are affected or perturbed, by other forces than simple gravity from an assumed point source (see the next section), and thus the orbital elements change over time.

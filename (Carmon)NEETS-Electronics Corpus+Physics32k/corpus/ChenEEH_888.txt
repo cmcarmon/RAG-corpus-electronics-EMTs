@@ -1,0 +1,14 @@
+Note that tcd must be known to determine each clock skew
+within s. The inverse situation, however, is not true; that is, the
+set of all clock skews in a circuit need not be known to
+determine the corresponding clock schedule tcd. As is shown
+in Sections 4.3.1 and 4.4, a small subset of clock skews (com-
+pared to the total number of local data paths or clock skews)
+uniquely determines all the skews in a circuit as well as the
+different feasible clock schedules tcd. Finally, note that a given
+feasible clock schedule s allows for many possible implementa-
+tions tcd ¼ c þ t 1
+where any speciﬁc constant
+c implies a different tcd but the same s. Thus, the term clock
+schedule is used to refer to tcd where the choice of the real
+constant c 2 R1 is arbitrary.

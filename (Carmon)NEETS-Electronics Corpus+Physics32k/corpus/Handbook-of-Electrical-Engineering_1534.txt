@@ -1,0 +1,4 @@
+1. Starting at the root node, try splitting each node into two subnodes.
+2. For  each  variable  Xi,  evaluate  questions Qi1,  Qi2,  etc.  Let  Qb  denote  the  best  question  estimated  using
+any one of the criteria described earlier. The best question at a node is the question that maximizes the
+likelihood of the training data at that node after applying the question.

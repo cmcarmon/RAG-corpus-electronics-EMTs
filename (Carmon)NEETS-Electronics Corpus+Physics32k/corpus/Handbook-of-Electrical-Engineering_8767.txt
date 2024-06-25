@@ -1,0 +1,7 @@
+The Node class consists of public functions that are to be overridden by descendants of the class. We know
+this because the functions are virtual, which in C++ means we expect to replace them later. Therefore we call
+this an abstract class. Also, Node() is the name of both the constructor and destructor member functions. A
+constructor is executed when a new object is created from the class, and the destructor is executed when the
+object  is  destroyed.  These  two  functions  take  care  of  initialization  and  garbage  collection  which  must  be
+performed before and after dynamic binding of objects to memory space. Figure 87.13 shows this Node as an
+abstract class from which all other subclasses of this application are derived.

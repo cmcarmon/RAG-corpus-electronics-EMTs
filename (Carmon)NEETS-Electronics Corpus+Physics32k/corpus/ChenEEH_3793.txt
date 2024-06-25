@@ -1,0 +1,11 @@
+Clearly, the more constrained the rules of language in the
+recognizer, the less freedom of expression the user has in
+constructing spoken messages. The challenge of LM’ing is to
+balance the need for maximally constraining the ‘‘pathways’’
+that messages may take in the recognizer while minimizing the
+degree to which freedom of expression is diminished. A meas-
+ure of the extent to which an LM constrains permissible
+discourse is given by the perplexity. This term roughly
+means the average number of branches at any decision point
+when the decoding of messages is viewed as the search through
+a graph of permissible utterances.

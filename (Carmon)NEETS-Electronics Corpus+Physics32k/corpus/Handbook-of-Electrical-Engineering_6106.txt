@@ -1,0 +1,8 @@
+The  good  contour  behavior  near  the  operating  region  has  allowed  a  faster  method  to  be  adopted. A  seed
+load ﬂow solution, corresponding to the nominal system state, is obtained to begin drawing the chart. A region
+growing process is then used to locate the region in which all constrained variables are less than 10% beyond
+their  limits.  This  process  is  similar  to  a  technique  used  in  computer  vision  systems  to  recognize  shapes  of
+objects. The region grows by investigating the six nearest lattice vertices to any unconstrained vertex. Linear
+interpolation along the edges between vertices is then used to estimate the points of intersection between the
+contour and the lattice. This method has a second advantage in that it can detect holes and islands in the chart.
+However, it should be noted that these regions are purely speculative and have not been found in practice.

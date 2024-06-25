@@ -1,0 +1,6 @@
+exceeds −4 volts (T1). D1 becomes reverse biased as the anode becomes more negative than the cathode. 
+While the input signal is more negative than the −4 volts of the bias battery (T1 to T2), the diode is 
+reverse biased and remains cut off. The output follows the input signal from T1 to T2. At all other times 
+during that cycle, the diode is forward biased and limiting occurs. This circuit is called a parallel-positive 
+limiter with negative bias because the positive output is limited and the bias in the circuit is negative with 
+reference to ground. Limiting takes place at all points more positive than −4 volts. 

@@ -1,0 +1,83 @@
+A single-variable (univariate) linear difference equation of the homogeneous form
+
+
+
+
+x
+
+t
+
+
+=
+a
+
+x
+
+t
+−
+1
+
+
+
+
+{\displaystyle x_{t}=ax_{t-1}}
+diverges to infinity if |a| > 1 from all initial points except 0; there is no attractor and therefore no basin of attraction. But if |a| < 1 all points on the number line map asymptotically (or directly in the case of 0) to 0; 0 is the attractor, and the entire number line is the basin of attraction.
+Likewise, a linear matrix difference equation in a dynamic vector X, of the homogeneous form
+
+
+
+
+X
+
+t
+
+
+=
+A
+
+X
+
+t
+−
+1
+
+
+
+
+{\displaystyle X_{t}=AX_{t-1}}
+in terms of square matrix A will have all elements of the dynamic vector diverge to infinity if the largest eigenvalue of A is greater than 1 in absolute value; there is no attractor and no basin of attraction. But if the largest eigenvalue is less than 1 in magnitude, all initial vectors will asymptotically converge to the zero vector, which is the attractor; the entire n-dimensional space of potential initial vectors is the basin of attraction.
+Similar features apply to linear differential equations. The scalar equation
+
+
+
+d
+x
+
+/
+
+d
+t
+=
+a
+x
+
+
+{\displaystyle dx/dt=ax}
+causes all initial values of x except zero to diverge to infinity if a > 0 but to converge to an attractor at the value 0 if a < 0, making the entire number line the basin of attraction for 0. And the matrix system
+
+
+
+d
+X
+
+/
+
+d
+t
+=
+A
+X
+
+
+{\displaystyle dX/dt=AX}
+gives divergence from all initial points except the vector of zeroes if any eigenvalue of the matrix A is positive; but if all the eigenvalues are negative the vector of zeroes is an attractor whose basin of attraction is the entire phase space.

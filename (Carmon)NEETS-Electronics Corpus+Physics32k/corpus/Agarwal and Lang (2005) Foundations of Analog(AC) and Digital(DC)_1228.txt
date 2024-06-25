@@ -1,0 +1,19 @@
+Reality now presents us with a dilemma. On the one hand, we wish to work
+within the framework of the lumped circuit abstraction so that the circuits we
+study all fit within this easily-managed framework. On the other hand, we
+should not be forced to ignore circuit effects, in this case parasitic resistance,
+capacitance, and inductance, that significantly affect circuit performance. The
+resolution of this dilemma is the modeling compromise mentioned in Chapter 1.
+Figure 1.27 in Chapter 1 used an ideal wire in series with a lumped resistance to
+model a physical wire with some parasitic resistance. Similarly, we will introduce
+lumped capacitors and lumped inductors to model the effect of the charge and
+the flux. As illustrated in Figure 9.5, a capacitor comprising a pair of parallel
+plates collects the positive and negative charge on its plates and effectively
+models the distributed charge. Notice that because the capacitor contains equal
+positive and negative charges the net charge within the capacitor element is
+zero, thereby satisfying the lumped matter discipline. Thus, the capacitor can
+be viewed as a lumped element. In like manner, we will introduce a lumped
+inductor to model the effect of the flux linked with the wires as illustrated in
+Figure 9.6. The lumped matter discipline is satisfied because the flux is entirely
+contained inside the lumped inductor, and there is no net flux outside the
+element.

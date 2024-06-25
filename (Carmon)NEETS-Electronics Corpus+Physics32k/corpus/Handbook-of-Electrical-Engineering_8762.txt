@@ -1,0 +1,7 @@
+Object-oriented  thinking  greatly  differs  from  procedural  thinking  (see  Table  87.5).  In  OOP  a  problem  is
+decomposed into objects which mimic the real world. For example, the objects in Fig. 87.12 are resistor, inductor,
+capacitor,  and  voltage  source.  These  objects  have  real-world  features  (state)  such  as  resistance,  inductance,
+capacitance, and voltage. They also have behaviors deﬁned by sinusoidal curves or phase shifts. In short, the
+real-world  objects  have  both  state  and  function.  The  state  is  represented  in  a  program  by  storage  and  the
+function  is  represented  by  an  algorithm.  A  resistor  is  a  program  module  containing  a  variable  to  store  the
+resistance and a function to model the behavior of the resistor when it is subjected to an input signal.

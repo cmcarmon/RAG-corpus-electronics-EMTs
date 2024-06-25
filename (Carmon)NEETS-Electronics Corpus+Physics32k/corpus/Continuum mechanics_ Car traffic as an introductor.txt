@@ -1,0 +1,52 @@
+Consider car traffic on a highway, with just one lane for simplicity. Somewhat surprisingly, and in a tribute to its effectiveness, continuum mechanics effectively models the movement of cars via a partial differential equation (PDE) for the density of cars. The familiarity of this situation empowers us to understand a little of the continuum-discrete dichotomy underlying continuum modelling in general.
+To start modelling define that:
+
+
+
+x
+
+
+{\displaystyle x}
+measure distance (in km) along the highway;
+
+
+
+t
+
+
+{\displaystyle t}
+is time (in minutes);
+
+
+
+ρ
+(
+x
+,
+t
+)
+
+
+{\displaystyle \rho (x,t)}
+is the density of cars on the highway (in cars/km in the lane); and
+
+
+
+u
+(
+x
+,
+t
+)
+
+
+{\displaystyle u(x,t)}
+is the flow velocity (average velocity) of those cars 'at' position
+
+
+
+x
+
+
+{\displaystyle x}
+.

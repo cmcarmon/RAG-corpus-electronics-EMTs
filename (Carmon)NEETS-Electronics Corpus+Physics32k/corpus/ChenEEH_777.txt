@@ -1,0 +1,10 @@
+Thus, we observe that intrasignal in-place mapping helps
+reduce the memory size occupied by the individual array
+variable(s). In practice, we have observed that loop transform-
+ations such as loop fusion, loop tiling (Ciernak and Li, 1995;
+Lam et al., 1991), and data reuse decisions (Diguet et al., 1997)
+(see Section 2.4) help improve the temporal locality of data.
+Intrasignal in-place data mapping reduces the memory size of
+the data with good temporal locality. Thus, this technique is
+complementary to the loop transformations used for enhan-
+cing locality of data.

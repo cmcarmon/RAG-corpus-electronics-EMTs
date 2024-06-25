@@ -1,0 +1,6 @@
+In actual practice the computed value of the bleeder resistor does not always come out to an even
+value. Since the rule-of-thumb for bleeder current is only an estimated value, the bleeder resistor can be
+of a value close to the computed value. (If the computed value of the resistance were 510 ohms, a 500-
+ohm resistor could be used.) Once the actual value of the bleeder resistor is selected, the bleeder current
+must be recomputed. The voltage developed by the bleeder resistor must be equal to the voltage
+requirement of the load in parallel with the bleeder resistor.

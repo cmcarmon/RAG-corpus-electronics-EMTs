@@ -1,0 +1,7 @@
+Implement the logic function Z = A + B + CD using NMOS
+p r o b l e m 11.2
+transistors alone. In other words, use an NMOS transistor in place of the pull-up resistor.
+Your implementation must satisfy a static discipline with low and high voltage thresholds
+given by VIL = VOL = VL and VIH = VOH = VH, where 0 < VL < VT < VH < VS.
+VS is the power supply voltage. As your answer, specify the W/L values for the pullup
+and the pulldown transistors.

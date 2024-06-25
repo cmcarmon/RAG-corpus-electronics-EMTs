@@ -1,0 +1,6 @@
+In  the  process  of  computing  a  signature  for  testing  the  circuit,  the  input  stream  to  the  LFSR  used  as  a
+compactor is the output stream from the circuit under test. At the end of the testing cycles, only the last state
+of the LFSR is examined and considered to be the compacted signature of the circuit. In most real cases, circuits
+have many outputs, and the LFSR is converted into a multiple-input shift register (MISR). A MISR is constructed
+by  adding  EXOR  gates  to  the  input  of  some  or  all  the  ﬂip-ﬂop  cells;  the  outputs  of  the  circuit  are  then  fed
+through these gates into the compactor. The probability of aliasing for a MISR is the same as that of an LFSR;

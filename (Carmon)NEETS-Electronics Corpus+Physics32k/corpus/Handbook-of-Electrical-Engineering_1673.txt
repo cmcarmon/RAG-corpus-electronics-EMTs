@@ -1,0 +1,8 @@
+Performance Evaluation
+As shown in Fig. 16.1, the Kalman ﬁlter computes the covariance matrix of the estimation error (Pk). However,
+in practical applications, this theoretical covariance matrix may be extremely optimistic, owing to the effects
+noted earlier (nonlinearity, ill-conditioning, data association errors, unresolved data, errors in modeling both
+measurement errors and target dynamics) as well as bugs in the software itself. Therefore, the standard approach
+to evaluate Kalman ﬁlter performance is Monte Carlo simulation. However, no one in their right mind would
+believe the results of a complex Monte Carlo simulation without a back-of-the-envelope calculation that is in
+rough agreement with the simulation results. A good source of such simple formulas is Brookner [1998].

@@ -1,0 +1,6 @@
+Bottom-up  IC  design  is  also  hierarchical,  with  the  designer  completing  detailed  layout  of  a  speciﬁc  logic
+function  (e.g.,  a  binary  adder),  placing  that  detailed  layout  (a cell)  in  a  library  of  physical  designs  and  then
+reusing  that  library  cell  when  other  instantiations  of  the  cell  are  required  elsewhere  in  the  IC.  Figure 25.29
+illustrates this cell-based approach, with cells of common height but varying width placed in rows between the
+power and ground lines. The straight power and ground lines shown in Fig. 25.29 allow tight packing of adjacent
+rows.

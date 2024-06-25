@@ -1,0 +1,14 @@
+When digitally transmitted, the characters are ﬁrst encoded
+into a sequence of bits, called a bit stream or baseband signal.
+Groups of n bits can be combined to form a ﬁnite symbol set
+or word of M ¼ 2n for such symbols. A system using a symbol
+set size of M is called an M-ary system. The value of n or M
+represents an important initial choice in the design of any
+digital communication system. For n ¼ 1, the system is re-
+ferred to as binary, the size of symbol set is M ¼ 2, and the
+modulator uses two different waveforms to represent the
+binary 1 and the binary 0. In this case, the symbol rate and
+the bit rate are the same. For n ¼ 2, the system is called
+quaternary or 4-ary (M ¼ 4). At each symbol time, the
+modulator uses one of the four different waveforms to repre-
+sent the symbol (see Figure 2.2).

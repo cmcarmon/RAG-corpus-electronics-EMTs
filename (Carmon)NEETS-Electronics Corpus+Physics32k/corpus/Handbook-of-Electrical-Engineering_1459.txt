@@ -1,0 +1,7 @@
+For recognition systems which use discrete features, vector quantization can be used to quantize continuous-
+valued feature vectors into a set or codebook of K discrete symbols, or codewords [Gray, 1984]. The K codewords
+are characterized by prototypes y1 . . .  y K. A feature vector x is quantized to the kth codeword if the distance
+from x to  y k, or d(x,y k), is less than the distance from x to any other codeword. The distance d(x,y) depends
+on the type of features being quantized. For features derived from the short-time spectrum and cepstrum, this
+distance  is  typically  Euclidean  or  weighted  Euclidean.  For  LPC-based  features,  the  Itakura  metric,  which  is
+based on spectral distortion, is typically used [Furui, 1989].

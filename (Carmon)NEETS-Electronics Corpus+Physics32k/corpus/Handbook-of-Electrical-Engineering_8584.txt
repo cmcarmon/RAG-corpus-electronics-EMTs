@@ -1,0 +1,18 @@
+• If you are concerned about either CPU design or compiler effectiveness, you have to be able to look in
+. As we have said, the easiest way to read
+great detail at the interface between them—
+machine language is by translating it to assembly language. This is one way to get assembly language,
+not by writing in it as a source of code but by running the object code itself through a backward translator
+. While many compilers will oblige you by providing an assembly listing if asked,
+called a 
+often that listing does not include optimizations that occur only when the several modules are linked
+together,  providing  opportunities  for  truly  global  optimization.  Some  compilers “help”  the  reader  by
+ (names for predeﬁned blocks of code) in place of the real machine instructions and register
+using 
+assignments. The absence of the optimizations and the inclusion of unexpected macros can make the
+assembly listing almost useless for obtaining insight into the program’s ﬁne detail. The compilers that
+we have used on the DECstations and SPARC machines do macro inclusion. To see what is really going
+on  in  these  machines,  you  must  disassemble  the  machine  code.  That  is  precisely  what  the  Think  C®
+compiler  on  the  Macintosh  does  when  you  ask  for  machine  code.  It  disassembles  what  it  just  did  in
+compiling and linking the whole program. What you see is what is really there. The code we present for
+the 68000 was obtained in that way.

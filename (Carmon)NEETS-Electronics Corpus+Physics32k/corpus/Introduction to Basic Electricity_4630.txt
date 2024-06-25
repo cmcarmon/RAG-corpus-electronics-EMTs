@@ -1,0 +1,12 @@
+a comparator for checking two 2-bit numbers. If the 
+numbers are equal, a 1 is generated from the XNOR 
+gate. The 1 is applied to the AND gate as a qualifying 
+level. If both XNOR gates produce a 1 for the inputs to 
+the AND gate, that identifies the numbers as equal and 
+generates a 1 for the output of the AND gate. However, 
+if the inputs to the XNOR gate are different, the XNOR 
+gate generates a 0, which disqualifies the AND gate. 
+The output of the AND gate is then a 0. Figure 45-32 
+shows a logic diagram of a comparator for checking 
+two 4-bit numbers. Figure 45-33 is the diagram used 
+to represent a 4-bit comparator.

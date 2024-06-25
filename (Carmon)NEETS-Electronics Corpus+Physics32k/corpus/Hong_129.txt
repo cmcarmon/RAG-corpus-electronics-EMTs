@@ -1,0 +1,9 @@
+The circuit for a simple peak detector, shown in Figure 6.6 in section 6.2.1, uses a 
+diode, capacitor, and resistor. This circuit has a problem that the output signal is always 
+one diode drop, 0.7V, below the input signal. Using an op amp and feedback it is possible 
+to  make  a  precise  version  of  this  peak  detector  that  automatically  compensates  for  the 
+voltage drop of the diode. The circuit for this peak detector is shown in Figure 10.4 with a 
+diode  connected  to  a  resistor  and  capacitor,  as  before.  The  difference  is  that  now  the 
+circuit input goes to the input of an op amp and the output signal from the diode is fed 
+back into the inverting input of the op amp. 
+ 

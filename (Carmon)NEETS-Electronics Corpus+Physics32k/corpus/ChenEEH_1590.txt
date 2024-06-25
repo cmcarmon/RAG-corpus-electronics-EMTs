@@ -1,0 +1,16 @@
+In a backward-chaining reasoning system the goal is ini-
+tially placed in the working memory. The system matches rule
+conclusions with the goal, selects one rule, and places its
+premises in the working memory. The process iterates, with
+these premises becoming new goals to match against rule
+conclusions. Thus, the system works backward from the ori-
+ginal goal until all the subgoals in the working memory are
+known to be true. Subgoals may also be solved by asking the
+user for information. For example, MYCIN’s inference engine
+uses a backward-chaining control strategy. From its goal of
+ﬁnding signiﬁcant disease-causing organisms, MYCIN uses its
+rules to reason backward to the data available. Once it ﬁnds
+such organisms, it attempts to select a therapy to treat the
+disease(s). Since it was designed as a consultant for physicians,
+MYCIN was given the ability to explain both its reasoning and
+its knowledge (Buchanan and Shortliffe, 1984).

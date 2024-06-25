@@ -1,0 +1,34 @@
+Whatever the mechanism used in a Go-Onto-Location-in-Space guidance system is, it must contain preset information about the target. These systems' main characteristic is the lack of a target tracker. The guidance computer and the missile tracker are located in the missile. The lack of target tracking in GOLIS necessarily implies Navigational Guidance.
+Navigational guidance is any type of guidance executed by a system without a target tracker. The other two units are on board the missile. These systems are also known as self-contained guidance systems; however, they are not always entirely autonomous due to the missile trackers used. They are subdivided by their missile tracker's function as follows:
+
+Entirely autonomous - Systems where the missile tracker does not depend on any external navigation source, and can be divided into:
+
+Inertial Guidance
+
+With Gimballed gyrostabilized platform or Fluid-suspended gyrostabilized platform
+With Strapdown inertial guidance
+
+Preset Guidance
+
+Dependent on natural sources - Navigational guidance systems where the missile tracker depends on a natural external source:
+
+Celestial Guidance
+Astro-inertial guidance
+Terrestrial Guidance
+
+Topographic Reconnaissance (Ex: TERCOM)
+Photographic Reconnaissance (Ex: DSMAC)
+
+Magnetic guidance
+
+Dependent on artificial sources - Navigational guidance systems where the missile tracker depends on an artificial external source:
+
+Satellite Navigation
+
+Global Positioning System (GPS)
+GLObal NAvigation Satellite System (GLONASS)
+
+Hyperbolic Navigation
+
+DECCA
+LORAN C

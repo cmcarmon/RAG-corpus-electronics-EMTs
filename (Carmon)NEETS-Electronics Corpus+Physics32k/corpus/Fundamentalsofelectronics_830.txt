@@ -1,0 +1,4 @@
+This receiver multiplies the received signal by each of the possible members of the transmitter signal set,
+integrates the product over the bit interval, and compares the results. Whichever path through the receiver
+yields the largest value corresponds to the receiver’s decision as to what bit was sent during the previous bit
+interval. For the next bit interval, the multiplication and integration begins again, with the next bit decision

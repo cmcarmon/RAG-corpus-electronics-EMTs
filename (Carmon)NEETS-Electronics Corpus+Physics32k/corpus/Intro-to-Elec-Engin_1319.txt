@@ -1,0 +1,9 @@
+Sampling and Pulse Modulation
+In most analog circuits, signals are processed in their entirety. However, in many modern electric
+systems, especially those that convert waveforms for processing by digital circuits, such as digital
+computers, only sample values of signals are utilized for processing. Sampling makes it possible
+to convert an analog signal to discrete form, thereby permitting the use of discrete processing
+methods. Also, it is possible to sample an electric signal, transmit only the sample values, and use
+them to interpolate or reconstruct the entire waveform at the destination. Sampling of signals and
+signal reconstruction from samples have widespread applications in communications and signal
+processing.

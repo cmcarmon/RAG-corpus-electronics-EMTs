@@ -1,0 +1,5 @@
+The 50-W pull-down resistors shown in Fig. 79.12 are connected externally. The outputs of several gates can
+therefore share a common pull-down resistor to form a wired-OR connection. The open emitter outputs also
+provide ﬂexibility for driving transmission lines, the use of which in most cases is mandatory for interconnecting
+this high-speed logic. A twisted pair interconnection can be driven using the complementary outputs (A + B)
+and (A + B) as a differential output. Such a line should be terminated in an ECL line receiver (10114).

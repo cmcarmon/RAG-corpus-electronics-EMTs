@@ -1,0 +1,5 @@
+Optimal Estimation: The Kalman Filter
+It was noted above that the optimal controller for the linear quadratic cost criterion takes the form of full-state
+feedback. However, it is often the case that the full state is not physically available for feedback. Rather, it is
+usually the output that is measurable, so that we prefer a technique that uses y(t) (and possibly u(t)) to construct
+the control signal instead of the state x(t).

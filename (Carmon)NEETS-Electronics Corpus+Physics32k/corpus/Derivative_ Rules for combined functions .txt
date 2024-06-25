@@ -1,0 +1,237 @@
+In many cases, complicated limit calculations by direct application of Newton's difference quotient can be avoided using differentiation rules. Some of the most basic rules are the following.
+Constant rule: if f(x) is constant, then
+
+
+
+
+
+f
+′
+
+=
+0.
+
+
+{\displaystyle f'=0.}
+
+Sum rule:
+
+
+
+
+(
+α
+f
++
+β
+g
+
+)
+′
+
+=
+α
+
+f
+′
+
++
+β
+
+g
+′
+
+
+
+{\displaystyle (\alpha f+\beta g)'=\alpha f'+\beta g'}
+for all functions f and g and all real numbers
+
+
+
+α
+
+
+{\displaystyle \alpha }
+and
+
+
+
+β
+
+
+{\displaystyle \beta }
+.
+Product rule:
+
+
+
+
+(
+f
+g
+
+)
+′
+
+=
+
+f
+′
+
+g
++
+f
+
+g
+′
+
+
+
+{\displaystyle (fg)'=f'g+fg'}
+for all functions f and g. As a special case, this rule includes the fact
+
+
+
+(
+α
+f
+
+)
+′
+
+=
+α
+
+f
+′
+
+
+
+{\displaystyle (\alpha f)'=\alpha f'}
+whenever
+
+
+
+α
+
+
+{\displaystyle \alpha }
+is a constant, because
+
+
+
+
+α
+′
+
+f
+=
+0
+⋅
+f
+=
+0
+
+
+{\displaystyle \alpha 'f=0\cdot f=0}
+by the constant rule.
+Quotient rule:
+
+
+
+
+
+
+(
+
+
+f
+g
+
+
+)
+
+′
+
+=
+
+
+
+
+f
+′
+
+g
+−
+f
+
+g
+′
+
+
+
+g
+
+2
+
+
+
+
+
+
+{\displaystyle \left({\frac {f}{g}}\right)'={\frac {f'g-fg'}{g^{2}}}}
+for all functions f and g at all inputs where g ≠ 0.
+Chain rule: If
+
+
+
+f
+(
+x
+)
+=
+h
+(
+g
+(
+x
+)
+)
+
+
+{\displaystyle f(x)=h(g(x))}
+, then
+
+
+
+
+
+f
+′
+
+(
+x
+)
+=
+
+h
+′
+
+(
+g
+(
+x
+)
+)
+⋅
+
+g
+′
+
+(
+x
+)
+.
+
+
+{\displaystyle f'(x)=h'(g(x))\cdot g'(x).}

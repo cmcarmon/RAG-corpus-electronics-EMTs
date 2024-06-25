@@ -1,0 +1,6 @@
+for	(;;)	[
+handleserial	();
+CDC_USBdevice	(&interface)
+CDC_USBdevice	(&digitalizer)
+handleserial	();
+]

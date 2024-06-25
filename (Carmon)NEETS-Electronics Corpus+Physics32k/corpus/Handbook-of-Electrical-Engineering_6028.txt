@@ -1,0 +1,6 @@
+generation and load at any instant. This ACE must be ﬁltered or smoothed such that excessive and random
+changes in ACE are not translated into control action. Since these excessive changes are different for different
+systems, the ﬁlter parameters have to be tuned speciﬁcally for each control area. The ﬁltered ACE is then used
+to obtain the proportional plus integral control signal. This control signal is modiﬁed by limiters, deadbands,
+and  gain  constants  that  are  tuned  to  the  particular  system.  This  control  signal  is  then  divided  among  the
+generating units under control by using participation factors to obtain 

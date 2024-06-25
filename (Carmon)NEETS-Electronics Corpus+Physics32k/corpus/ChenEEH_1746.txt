@@ -1,0 +1,12 @@
+Audio media is sound/speech converted into digital form using
+sampling and quantization. Digitized audio media is trans-
+mitted as a stream of discrete packets over the network. The
+bandwidth requirements of digitized audio depend on its
+dynamic range and/or spectrum. For example, telephone-
+grade voice uses dynamic range reduction using the logarith-
+mic A-law (Europe) or m-law (North America) capable of
+reducing the linear range of 12 bits to nonlinear range of
+only 8 bits. This reduces the throughput from 96 kbps to
+64 kbps. A number of compression schemes (Garg, 1999)
+along with their bit rates, as illustrated in Table 7.2, are com-
+monly used for audio media types.

@@ -1,0 +1,28 @@
+Following the ideas above, adiabatically braiding these anyons around each-other with result in a unitary transformation. These braid operators are a result of two subclasses of operators:
+The F matrix
+The R matrix
+The R matrix can be conceptually thought of as the topological phase that is imparted onto the anyons during the braid. As the anyons wind around each-other, they pick up some phase due to the Aharonov-Bohm effect.
+The F matrix is a result of the physical rotations of the anyons. As they braid between each-other, it is important to realize that the bottom two anyons—the control group—will still distinguish the state of the qubit. Thus, braiding the anyons will change which anyons are in the control group, and therefore change the basis. We evaluate the anyons by always fusing the control group (the bottom anyons) together first, so exchanging which anyons these are will rotate the system. Because these anyons are non-abelian, the order of the anyons (which ones are within the control group) will matter, and as such they will transform the system.
+The complete braid operator can be derived as:
+
+
+
+
+B
+=
+
+F
+
+−
+1
+
+
+R
+F
+
+
+{\displaystyle B=F^{-1}RF}
+
+In order to mathematically construct the F and R operators, we can consider permutations of these F and R operators. We know that if we sequentially change the basis that we are operating on, this will eventually lead us back to the same basis. Similarly, we know that if we braid anyons around each-other a certain number of times, this will lead back to the same state. These axioms are called the pentagonal and hexagonal axioms respectively as performing the operation can be visualized with a pentagon/hexagon of state transformations. Although mathematically difficult, these can be approached much more successfully visually.
+With these braid operators, we can finally formalize the notion of braids in terms of how they act on our Hilbert space and construct arbitrary universal quantum gates.
+Explicit braids that perform particular quantum computations with Fibonacci anyons have been given by

@@ -1,0 +1,7 @@
+signals, which is composed of several consecutive 20- to 40-msec segments of that signal, is obtained from the
+sequence of AR models for the individual segments. Thus, a linear time-varying AR model is assumed for each
+sample  function  of  the  speech  signal.  This  model,  however,  is  slowly  varying  in  accordance  with  the  slow
+temporal  variation  of  the  articulatory  system.  It  was  found  that  a  set  of  approximately  2048  prototype  AR
+models can reliably represent all segments of speech signals. The AR models are useful in representing the short
+time spectrum of the signal, since the spectrum of the excitation signal is white. Thus, the set of AR models
+represents a set of 2048 spectral prototypes for the speech signal.

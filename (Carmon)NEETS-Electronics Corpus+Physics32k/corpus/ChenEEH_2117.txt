@@ -1,0 +1,17 @@
+As seen in Subsections 9.6.1 and 9.6.2, the essence of FTHNs is
+the computation of updating fuzzy time stamps, and this
+computation involves only additions and comparisons of real
+numbers. Thus, computation can be done very fast, and
+FTHNs are suitable for performance analysis in real-time ap-
+plications. The notion of fuzzy timing is highly ﬂexible in that
+it can capture imprecise or incomplete knowledge regarding
+time behavior with speciﬁed or given possibility distributions,
+as well as the more conventional deterministic and probabi-
+listic knowledge. However, it is expected that the traditional
+probabilistic approach and the FTHN method using possibility
+theory are complementary, rather than competitive, as possi-
+bility theory is considered to be complementary to probability
+theory (Zadeh, 1995). We expect that the FTHN method is
+more scalable than the traditional stochastic approaches be-
+cause the FTHN computations are done using real arithmetic
+operations.

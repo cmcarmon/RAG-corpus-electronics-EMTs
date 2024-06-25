@@ -1,0 +1,11 @@
+Although the choice of reference node is in fact arbitrary, it is most con-
+venient to choose the node that has the maximum number of circuit elements
+connected to it. The potential at this node is defined to be zero V, or ground-zero
+potential. In electrical and electronic circuits, this node will usually correspond
+to the ‘‘common ground’’ of the system, and is usually connected to the system
+chassis. Assigning zero potential to the ground node is permissible because ele-
+ments respond only to their branch voltages and not to their absolute terminal
+voltages. Thus, an arbitrary constant potential may be uniformly added to all
+terminal voltages across the circuit thereby permitting any node to be selected
+as ground. A node will have a negative voltage if its potential is lower than that
+of the ground node.

@@ -1,0 +1,16 @@
+Error detection can be performed off-line, when the system
+is inactive (or in an idle state), or online, when the system is
+operational. The latter is referred to as concurrent error de-
+tection. The detection of transient faults requires continuous
+and concurrent error detection. Off-line checks usually include
+the systematic testing of the system by supplying special input
+test patterns to the components and investigating the outputs.
+The purpose is either to check whether the component satisﬁes
+the speciﬁcation or to reveal some faults. These types of checks
+have high coverage but are expensive in resources and time,
+and so they are rarely implemented as diagnostic checks during
+the operational period of the system. For high availability-
+requirement systems, such as Web and database servers, the
+operational period is almost 100% of the time. Thus, concur-
+rent error detection becomes very important for ensuring the
+dependability of such systems.

@@ -1,0 +1,5 @@
+When the MOSFET is off, there is no connection between the drain and
+the source. If the voltage vGS between the gate and source terminals is above
+VT, the MOSFET turns on and displays a resistance RON between its D and
+S terminals. As before, there is an open circuit between the gate and source
+terminals and the gate and drain terminals of the MOSFET, so iG = 0.

@@ -1,0 +1,12 @@
+To achieve a one-minute inbound leg, there are two commonly used ways to modify timings:
+Simple method: If inbound leg is less than one minute, add the same number of seconds to the outbound leg. If the inbound time is more than one minute, subtract the same number of seconds from the outbound leg.
+E.g., inbound time is 0:55 → outbound time is 1:05.
+E.g., inbound time is 1:06 → outbound time is 0:54.
+
+More precise method: Subtract 2/3 of the error (in seconds) for inbound legs more than one minute, and add 3/2 of the error (in seconds) for inbound legs of less than one minute.
+E.g., inbound time is 0:56 → error is 4 seconds. Thus +3/2*4=+6. 1:00+0:06=1:06. Fly 1:06 outbound.
+E.g., inbound time is 1:06 → error is 6 seconds. Thus −2/3*6=−4. 1:00−0:04=0:56. Fly 0:56 outbound.
+
+Additionally, for an initial estimate, add the headwind or subtract the tailwind component's speed in knots.
+E.g., initial outbound with a tailwind component of 7 knots → initial outbound time is 0:53.
+E.g., initial outbound with a headwind component of 20 knots → initial outbound time is 1:20.

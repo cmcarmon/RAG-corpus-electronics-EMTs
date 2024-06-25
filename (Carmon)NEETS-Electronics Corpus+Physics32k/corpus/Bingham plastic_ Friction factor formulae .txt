@@ -1,0 +1,137 @@
+In fluid flow, it is a common problem to calculate the pressure drop in an established piping network. Once the friction factor, f, is known, it becomes easier to handle different pipe-flow problems, viz. calculating the pressure drop for evaluating pumping costs or to find the flow-rate in a piping network for a given pressure drop. It is usually extremely difficult to arrive at exact analytical solution to calculate the friction factor associated with flow of non-Newtonian fluids and therefore explicit approximations are used to calculate it. Once the friction factor has been calculated the pressure drop can be easily determined for a given flow by the Darcy–Weisbach equation:
+
+
+
+
+f
+=
+
+
+
+2
+
+h
+
+f
+
+
+g
+D
+
+
+L
+
+V
+
+2
+
+
+
+
+
+
+
+{\displaystyle f={2h_{f}gD \over LV^{2}}}
+
+where:
+
+
+
+
+
+
+
+
+
+
+
+h
+
+f
+
+
+
+
+
+{\displaystyle {{\mathbf {\ } }h_{f}}}
+is the frictional head loss (SI units: m)
+
+
+
+
+
+
+
+
+
+
+f
+
+
+
+{\displaystyle {{\mathbf {\ } }f}}
+is the Darcy friction factor (SI units: Dimensionless)
+
+
+
+
+
+
+
+
+
+
+L
+
+
+
+{\displaystyle {{\mathbf {\ } }L}}
+is the pipe length (SI units: m)
+
+
+
+
+
+
+
+
+
+
+g
+
+
+
+{\displaystyle {{\mathbf {\ } }g}}
+is the gravitational acceleration (SI units: m/s²)
+
+
+
+
+
+
+
+
+
+
+D
+
+
+
+{\displaystyle {{\mathbf {\ } }D}}
+is the pipe diameter (SI units: m)
+
+
+
+
+
+
+
+
+
+
+V
+
+
+
+{\displaystyle {{\mathbf {\ } }V}}
+is the mean fluid velocity (SI units: m/s)

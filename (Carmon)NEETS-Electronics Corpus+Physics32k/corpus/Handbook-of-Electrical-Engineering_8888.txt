@@ -1,0 +1,12 @@
+Both higher-end personal computers and workstations tend to have more main memory than the lower-end
+systems, although they usually have similar upper limits. Two examples of such systems are workstations built
+with the DEC Alpha 21164, and servers built with the Intel Pentium Pro. The Alpha systems, using the 21171
+chip set, are limited to 128 Mbyte of main memory using 16 Mbit DRAMs, although they will be expandable
+to  512  Mbyte  when  64-Mbit  DRAMs  are  available.  Their  memory  systems  are  8-way  simply  interleaved,
+providing 128 bits per DRAM access. The Pentium Pro systems support slightly different features. The 82450KX
+and 82450GX chip sets include memory controllers that allow reads to bypass writes (performing writes when
+the memory banks are idle). These controllers can also buffer eight outstanding requests simultaneously. The
+82450KX controller permits 1- or 2-way interleaving, and up to 256 Mbyte of memory when 16-Mbit DRAMs
+are used. The 82450GX chip set is more aggressive, allowing up to four separate (complex-interleaved) memory
+controllers,  each  of  which  can  be  up  to  4-way  interleaved  and  have  up  to  1  Gbyte  of  memory  (again  with
+16 Mbit DRAMs).

@@ -1,0 +1,196 @@
+Pulse-Doppler radar is based on the Doppler effect, where movement in range produces frequency shift on the signal reflected from the target.
+
+
+
+
+
+Doppler frequency
+
+=
+
+
+
+2
+×
+
+transmit frequency
+
+×
+
+range velocity
+
+
+C
+
+
+.
+
+
+{\displaystyle {\text{Doppler frequency}}={\frac {2\times {\text{transmit frequency}}\times {\text{range velocity}}}{C}}.}
+
+Radial velocity is essential for pulse-Doppler radar operation. As the reflector moves between each transmit pulse, the returned signal has a phase difference, or phase shift, from pulse to pulse. This causes the reflector to produce Doppler modulation on the reflected signal.
+Pulse-Doppler radars exploit this phenomenon to improve performance.
+The amplitude of the successively returning pulse from the same scanned volume is
+
+
+
+
+I
+=
+
+I
+
+0
+
+
+sin
+⁡
+
+(
+
+
+
+4
+π
+(
+
+x
+
+0
+
+
++
+v
+Δ
+t
+)
+
+λ
+
+
+)
+
+=
+
+I
+
+0
+
+
+sin
+⁡
+(
+
+Θ
+
+0
+
+
++
+Δ
+Θ
+)
+,
+
+
+{\displaystyle I=I_{0}\sin \left({\frac {4\pi (x_{0}+v\Delta t)}{\lambda }}\right)=I_{0}\sin(\Theta _{0}+\Delta \Theta ),}
+
+where
+
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+is the distance radar to target,
+
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+is the radar wavelength,
+
+
+
+
+t
+
+
+{\displaystyle t}
+it the time between two pulses.
+So
+
+
+
+
+Δ
+Θ
+=
+
+
+
+4
+π
+v
+Δ
+t
+
+λ
+
+
+.
+
+
+{\displaystyle \Delta \Theta ={\frac {4\pi v\Delta t}{\lambda }}.}
+
+This allows the radar to separate the reflections from multiple objects located in the same volume of space by separating the objects using a spread spectrum to segregate different signals:
+
+
+
+
+v
+=
+
+target speed
+
+=
+
+
+
+λ
+Δ
+Θ
+
+
+4
+π
+Δ
+t
+
+
+
+,
+
+
+{\displaystyle v={\text{target speed}}={\frac {\lambda \Delta \Theta }{4\pi \Delta t}},}
+
+where
+
+
+
+Δ
+Θ
+
+
+{\displaystyle \Delta \Theta }
+is the phase shift induced by range motion.

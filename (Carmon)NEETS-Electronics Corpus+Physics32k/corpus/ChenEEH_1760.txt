@@ -1,0 +1,17 @@
+We divide these requirements into two categories (Wolf et
+al., 1997): trafﬁc requirements and functional requirements.
+The trafﬁc requirements include limits on real-time param-
+eters (e.g., delay and jitter), bandwidth, and reliability; func-
+tional requirements include support for multimedia services,
+such as multicasting, security, mobility, and session manage-
+ment. The trafﬁc requirements can be met only by enhance-
+ments to the basic Internet architecture, whereas the functional
+requirements can be met by introducing newer protocols over
+the TCP/IP networking stack. The functional requirements are
+not an absolute necessity in the sense that a distributed multi-
+media application can still operate with high performance by
+incorporating the necessary functions into the application
+itself. They represent, however, the most common functional-
+ity required among distributed multimedia applications, and it
+would only help to have standardized protocols operating over
+the networking protocol stack to satisfy them.

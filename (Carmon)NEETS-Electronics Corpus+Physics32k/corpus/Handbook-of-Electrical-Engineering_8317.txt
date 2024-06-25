@@ -1,0 +1,23 @@
+Managing “Unused“ Inputs of Components. When designing digital systems from existing components there
+may be inputs of those components that, for the current implementation, are not needed. For example, if a
+two-input AND gate is needed to implement a logic circuit on a printed circuit board, it may be possible to
+use one of the unused three-input AND gate elements from an IC package already present on that board. In
+this case, the unused third input of that AND gate must be connected to the logic 1 level in order that a three-
+input AND function may be implemented using the other two inputs to that gate. Thus, the unused input to
+the AND gate may be connected directly to the Vcc  (i.e, power supply) signal. Similarly, if a ﬂip-ﬂop contains
+unused preset or clear terminals, these may be tied off to their respective deasserted states. In many cases printed
+circuit boards are tested using an in-circuit tester which uses a bed-of-nails test ﬁxture to make physical contact
+with  selected  nets  on  the  board  so  that  their  values  can  be  observed  or  controlled  by  the  tester.  For  the  in-
+circuit  tester  to  control  the  value  of  a  net  it  has  to  backdrive  the  output  of  the  component  which  normally
+drives that net. Since IC components have limited output drive capabilities, the in-circuit tester can overcome
+the electrical drive from that component and can force that net to a value opposite the value which the driving
+IC is trying to achieve. By keeping such backdriving conditions to last only a very short period, damage to the
+opposing IC component is prevented. However, if the net is driven not by an IC but directly from the Vcc  or
+ground (Gnd) signals, then the in-circuit tester may not be able to overcome their drive. Furthermore, back-
+driving the Vcc  or Gnd levels would prevent the other IC components from being able to perform their normal
+functions. Instead, if the logic signals to such unused terminals are applied using pull-up or pull-down resistors
+when connecting these to the Vcc  or Gnd levels, respectively, these signals may be controlled by the in-circuit
+tester. For example, this way it becomes possible to set/reset a ﬂip-ﬂop value by using the normally “unused”
+preset/clear terminal of that ﬂip-ﬂop. Note that if the ﬂip-ﬂop contains both a preset and a clear input which
+are unused, these must be pulled up (or pulled down) through separate resistors so that each can be controlled
+by the in-circuit tester independent of the other. This is illustrated in Fig. 85.10.

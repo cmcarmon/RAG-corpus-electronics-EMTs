@@ -1,0 +1,6 @@
+Flash EEPROMs describe a family of single-transistor cell EPPROMs. Cell sizes are about half that of two-
+transistor  EEPROMs,  an  important  economic  consideration.  Care  must  be  taken  that  these  cells  are  not
+programmed into the depletion mode. An array of depletion mode cells would confound the read operation
+by providing multiple signal paths. Programming to enhancement only thresholds can be accomplished by a
+sequence  of  partial  program  and  then  monitor  subcycles,  until  the  threshold  is  brought  to  compliance  with
+speciﬁcation limits. Flash EEPROMs require bulk erasure of large portions of the array.

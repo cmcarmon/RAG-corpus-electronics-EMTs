@@ -1,0 +1,15 @@
+In the preceding discussion we have presented a selective survey of computational electromagnetics. Attention
+has been directed to radiation and scattering problems solved using the method of moments, a general procedure
+applicable to differential- and integral-equation formulations developed by either the frequency domain or the
+time domain. Beginning from the viewpoint of electromagnetics as a transfer-function process, we concluded
+that the basic problem is one of developing source-ﬁeld relationships or ﬁeld propagators. Of the various ways
+by which these propagators might be expressed, we brieﬂy discussed the Maxwell curl equations and Green’s-
+function  source  integrals  as  providing  the  analytical  basis  for  moment-method  computer  models.  We  then
+considered at more length some of the numerical issues involved in developing a computer model, including
+the idea of sampling functions used both to represent the unknowns to be solved for and to approximate the
+equations that they must satisfy. Some of the factors involved in choosing these sampling functions and their
+inﬂuence on the computational requirements were examined. Next, we discussed some ways of decreasing the
+needed  computer  time  based  on  either  analytical  or  numerical  approaches.  Some  closing  comments  were
+directed to the important problems of validation, error checking, and error analysis. Throughout our discussion,
+emphasis  has  been  given  to  implementation  issues  involved  in  developing  and  using  computer  models  as
+opposed to exploring analytical details.

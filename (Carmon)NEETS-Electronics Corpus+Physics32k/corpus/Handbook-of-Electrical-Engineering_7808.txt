@@ -1,0 +1,13 @@
+Access Time
+The direct-access storage device or DASD, used in computer
+systems for the mass storage of digital information, is a disk
+drive capable of storing large quantities of data and accessing
+blocks  of  this  data  rapidly  and  in  arbitrary  order.  In
+read/write operations it is often necessary to move the head
+to new locations in search of sectors containing speciﬁc data
+items. Such relocations are usually time-consuming and can
+become the factor that limits performance in certain appli-
+cations.  The  access  time  ta  is  deﬁned  as  the  average  time
+spent in going from one randomly selected spot on the disk to another. ta can be considered the sum of a seek
+time, ts , which is the average time needed to acquire the target track, and a latency, tl , which is the average
+time spent on the target track waiting for the desired sector. Thus,

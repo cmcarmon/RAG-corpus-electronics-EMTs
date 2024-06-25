@@ -1,0 +1,388 @@
+To understand the gravity of Mars, its gravitational field strength g and gravitational potential U are often measured. Simply, if Mars is assumed to be a static perfectly spherical body of radius RM, provided that there is only one satellite revolving around Mars in a circular orbit and such gravitation interaction is the only force acting in the system, the equation would be,
+
+
+
+
+
+
+
+G
+M
+m
+
+
+r
+
+2
+
+
+
+
+=
+m
+r
+
+ω
+
+2
+
+
+
+
+{\displaystyle {\frac {GMm}{r^{2}}}=mr\omega ^{2}}
+,
+where G is the universal constant of gravitation (commonly taken as G = 6.674 x 10−11 m3 kg−1 s−2), M is the mass of Mars (most updated value: 6.41693 x 1023 kg), m is the mass of the satellite, r is the distance between Mars and the satellite, and
+
+
+
+ω
+
+
+{\displaystyle \omega }
+is the angular velocity of the satellite, which is also equivalent to
+
+
+
+
+
+
+2
+π
+
+T
+
+
+
+
+{\displaystyle {\frac {2\pi }{T}}}
+(T is the orbiting period of the satellite).
+Therefore,
+
+
+
+g
+=
+
+
+
+G
+M
+
+
+R
+
+M
+
+
+
+
+=
+
+
+
+
+r
+
+3
+
+
+
+ω
+
+2
+
+
+
+
+R
+
+M
+
+
+2
+
+
+
+
+=
+
+
+
+4
+
+r
+
+3
+
+
+
+π
+
+2
+
+
+
+
+
+T
+
+2
+
+
+
+R
+
+M
+
+
+2
+
+
+
+
+
+
+
+{\displaystyle g={\frac {GM}{R_{M}}}={\frac {r^{3}\omega ^{2}}{R_{M}^{2}}}={\frac {4r^{3}\pi ^{2}}{T^{2}R_{M}^{2}}}}
+, where RM is the radius of Mars. With proper measurement, r, T and RM are easily obtainable parameters from Earth.
+However, as Mars is a generic, non-spherical planetary body and influenced by complex geological processes, more accurately, the gravitational potential has to be described by the spherical harmonic functions
+
+
+
+
+U
+=
+
+
+
+G
+M
+
+r
+
+
+
+
+∑
+
+l
+=
+2
+
+
+l
+=
+L
+
+
+
+
+
+(
+
+
+R
+r
+
+
+)
+
+
+l
+
+
+
+∑
+
+m
+=
+0
+
+
++
+l
+
+
+(
+
+C
+
+l
+m
+
+
+
+c
+o
+s
+
+m
+λ
++
+
+S
+
+l
+m
+
+
+
+s
+i
+n
+
+m
+λ
+)
+
+P
+
+l
+m
+
+
+(
+s
+i
+n
+
+ψ
+)
+
+
+
+
+{\displaystyle U={\frac {GM}{r}}\textstyle \sum _{l=2}^{l=L}\displaystyle \left({\frac {R}{r}}\right)^{l}\sum _{m=0}^{+l}(C_{lm}\ cos\ m\lambda +S_{lm}\ sin\ m\lambda )P_{lm}(sin\ \psi )}
+,
+where
+
+
+
+r
+,
+ψ
+,
+λ
+
+
+{\displaystyle r,\psi ,\lambda }
+are spherical coordinates of the test point.
+
+
+
+
+C
+
+l
+m
+
+
+
+
+{\displaystyle C_{lm}}
+and
+
+
+
+
+S
+
+l
+m
+
+
+
+
+{\displaystyle S_{lm}}
+are dimensionless harmonic coefficients of degree
+
+
+
+l
+
+
+{\displaystyle l}
+and order
+
+
+
+m
+
+
+{\displaystyle m}
+.
+
+
+
+
+P
+
+l
+m
+
+
+
+
+{\displaystyle P_{lm}}
+is the Legendre polynomial of degree
+
+
+
+l
+
+
+{\displaystyle l}
+and order
+
+
+
+m
+=
+0
+
+
+{\displaystyle m=0}
+, which comes up as the solution of Laplace's equation.
+
+
+
+R
+
+
+{\displaystyle R}
+is the radius of the planet.
+The lower the degree
+
+
+
+l
+
+
+{\displaystyle l}
+and order
+
+
+
+m
+
+
+{\displaystyle m}
+, the longer wavelength of anomaly it represents. In turn, long-wavelength gravity anomaly is influenced by global geophysical structures.
+The higher the degree
+
+
+
+l
+
+
+{\displaystyle l}
+and order
+
+
+
+m
+
+
+{\displaystyle m}
+, the shorter wavelength of anomaly it represents. For degree over 50, it has been shown that those variations have high correlation with the topography. Geophysical interpretation of surface features could further help deriving a more complete picture of the Martian gravity field, though misleading results could be produced.
+The oldest technique in determining the gravity of Mars is through Earth-based observation. Later with the arrival of unmanned spacecraft, subsequent gravity models were developed from radio tracking data.

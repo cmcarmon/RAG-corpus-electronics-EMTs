@@ -1,0 +1,5 @@
+Pipelining: A technique to increase throughput. A long task is divided into components, and each component
+is  distributed  to  one  processor.  A  new  task  can  begin  even  though  the  former  tasks  have  not  been
+completed. In the pipelined operation, different components of different tasks are executed at the same
+time by different processors. Pipelining leads to an increase in the system latency, i.e., the time elapsed
+between the starting of a task and the completion of the task.

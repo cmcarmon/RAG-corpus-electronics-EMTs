@@ -1,0 +1,20 @@
+Compliant Motion
+The position control methods described above are not sufﬁcient when the robot has to react continuously to
+contact forces at the end effector. Consider, for example, a simple operation of sliding a block of wood on a
+table along a desired path. Pure position control will not work because any small errors orthogonal to the table
+may result in the block either losing contact with the surface of the table or forcing the block through the table,
+which can either damage the table or the end effector. To perform this task, we need to control the position in
+the  plane  of  the  table  and  control  force  normal  to  the  table.  This  is  called  compliant  motion  control  and  is
+required whenever the robot is in contact with its “environment.” To perform the above task, for example, a
+coordinate system called a compliance frame or constraint frame is deﬁned such that at each instant and along
+each  axis  the  task  can  be  expressed  as  a  pure  position  control  or  pure  force  control.  Suppose  we  associate  a
+coordinate system with the z-axis normal to the table surface. Then to perform this task, we need to control
+the position along the x and y directions and force control in the z direction to maintain continuous contact
+with  the  table  surface.  In  this  case,  the  position  along  the  z direction  is  not  controlled  because  one  cannot
+control both position and force in the same direction, just as we cannot control both voltage and current across
+a resistor. Hence, this framework will provide a natural separation between the axes that need to be position
+controlled  and  the  axes  that  need  to  be  force-controlled.  This  is  the  idea  behind  the  hybrid  position/force
+control developed by Raibert and Craig [1981]. Another approach for complaint motion control is the imped-
+ance control [Hogan, 1985]. Impedance control does not control the end-point position or force directly, rather
+a desired dynamic relationship between position and force (mechanical impedance). For a good comparison
+between these two approaches, the reader is referred to Asada and Slotine [1986].

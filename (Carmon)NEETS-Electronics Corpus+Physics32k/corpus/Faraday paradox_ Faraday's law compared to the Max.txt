@@ -1,0 +1,74 @@
+Faraday's law (also known as the Faraday–Lenz law) states that the electromotive force (EMF) is given by the total derivative of the magnetic flux with respect to time t:
+
+
+
+
+
+
+E
+
+
+=
+−
+
+
+
+d
+
+Φ
+
+B
+
+
+
+
+d
+t
+
+
+
+,
+
+
+
+{\displaystyle {\mathcal {E}}=-{d\Phi _{B} \over dt},\ }
+
+where
+
+
+
+
+
+E
+
+
+
+
+{\displaystyle {\mathcal {E}}}
+is the EMF and ΦB is the magnetic flux. The direction of the electromotive force is given by Lenz's law. An often overlooked fact is that Faraday's law is based on the total derivative, not the partial derivative, of the magnetic flux. This means that an EMF may be generated even if total flux through the surface is constant. To overcome this issue, special techniques may be used. See below for the section on Use of special techniques with Faraday's law. However, the most common interpretation of Faraday's law is that:
+
+The induced electromotive force in any closed circuit is equal to the negative of the time rate of change of the magnetic flux enclosed by the circuit.
+
+This version of Faraday's law strictly holds only when the closed circuit is a loop of infinitely thin wire, and is invalid in other circumstances. It ignores the fact that Faraday's law is defined by the total, not partial, derivative of magnetic flux and also the fact that EMF is not necessarily confined to a closed path but may also have radial components as discussed below. A different version, the Maxwell–Faraday equation (discussed below), is valid in all circumstances, and when used in conjunction with the Lorentz force law it is consistent with correct application of Faraday's law.
+
+The Maxwell–Faraday equation is a generalisation of Faraday's law that states that a time-varying magnetic field is always accompanied by a spatially-varying, non-conservative electric field, and vice versa. The Maxwell–Faraday equation is:
+
+(in SI units) where
+
+
+
+∂
+
+
+{\displaystyle \partial }
+is the partial derivative operator,
+
+
+
+∇
+×
+
+
+{\displaystyle \nabla \times }
+is the curl operator and again E(r, t) is the electric field and B(r, t) is the magnetic field. These fields can generally be functions of position r and time t.
+The Maxwell–Faraday equation is one of the four Maxwell's equations, and therefore plays a fundamental role in the theory of classical electromagnetism. It can also be written in an integral form by the Kelvin–Stokes theorem.

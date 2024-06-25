@@ -1,0 +1,247 @@
+Encke's method begins with the osculating orbit as a reference and integrates numerically to solve for the variation from the reference as a function of time. Its advantages are that perturbations are generally small in magnitude, so the integration can proceed in larger steps (with resulting lesser errors), and the method is much less affected by extreme perturbations. Its disadvantage is complexity; it cannot be used indefinitely without occasionally updating the osculating orbit and continuing from there, a process known as rectification. Encke's method is similar to the general perturbation method of variation of the elements, except the rectification is performed at discrete intervals rather than continuously.
+Letting
+
+
+
+
+ρ
+
+
+
+{\displaystyle {\boldsymbol {\rho }}}
+be the radius vector of the osculating orbit,
+
+
+
+
+r
+
+
+
+{\displaystyle \mathbf {r} }
+the radius vector of the perturbed orbit, and
+
+
+
+δ
+
+r
+
+
+
+{\displaystyle \delta \mathbf {r} }
+the variation from the osculating orbit,
+
+
+
+
+
+
+
+r
+¨
+
+
+
+
+
+{\displaystyle \mathbf {\ddot {r}} }
+and
+
+
+
+
+
+
+ρ
+¨
+
+
+
+
+
+{\displaystyle {\boldsymbol {\ddot {\rho }}}}
+are just the equations of motion of
+
+
+
+
+r
+
+
+
+{\displaystyle \mathbf {r} }
+and
+
+
+
+
+ρ
+
+
+
+{\displaystyle {\boldsymbol {\rho }}}
+,
+
+where
+
+
+
+μ
+=
+G
+(
+M
++
+m
+)
+
+
+{\displaystyle \mu =G(M+m)}
+is the gravitational parameter with
+
+
+
+M
+
+
+{\displaystyle M}
+and
+
+
+
+m
+
+
+{\displaystyle m}
+the masses of the central body and the perturbed body,
+
+
+
+
+
+a
+
+
+per
+
+
+
+
+{\displaystyle \mathbf {a} _{\text{per}}}
+is the perturbing acceleration, and
+
+
+
+r
+
+
+{\displaystyle r}
+and
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+are the magnitudes of
+
+
+
+
+r
+
+
+
+{\displaystyle \mathbf {r} }
+and
+
+
+
+
+ρ
+
+
+
+{\displaystyle {\boldsymbol {\rho }}}
+.
+Substituting from equations (3) and (4) into equation (2),
+
+which, in theory, could be integrated twice to find
+
+
+
+δ
+
+r
+
+
+
+{\displaystyle \delta \mathbf {r} }
+. Since the osculating orbit is easily calculated by two-body methods,
+
+
+
+
+ρ
+
+
+
+{\displaystyle {\boldsymbol {\rho }}}
+and
+
+
+
+δ
+
+r
+
+
+
+{\displaystyle \delta \mathbf {r} }
+are accounted for and
+
+
+
+
+r
+
+
+
+{\displaystyle \mathbf {r} }
+can be solved. In practice, the quantity in the brackets,
+
+
+
+
+
+
+ρ
+
+
+ρ
+
+3
+
+
+
+
+−
+
+
+
+r
+
+
+r
+
+3
+
+
+
+
+
+
+{\displaystyle {{\boldsymbol {\rho }} \over \rho ^{3}}-{\mathbf {r}  \over r^{3}}}
+, is the difference of two nearly equal vectors, and further manipulation is necessary to avoid the need for extra significant digits. Encke's method was more widely used before the advent of modern computers, when much orbit computation was performed on mechanical calculating machines.

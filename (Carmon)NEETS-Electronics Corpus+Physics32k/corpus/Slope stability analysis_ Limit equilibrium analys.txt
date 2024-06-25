@@ -1,0 +1,93 @@
+Conventional methods of slope stability analysis can be divided into three groups: kinematic analysis, limit equilibrium analysis, and rock fall simulators. Most slope stability analysis computer programs are based on the limit equilibrium concept for a two- or three-dimensional model. Two-dimensional sections are analyzed assuming plane strain conditions. Stability analyses of two-dimensional slope geometries using simple analytical approaches can provide important insights into the initial design and risk assessment of slopes.
+Limit equilibrium methods investigate the equilibrium of a soil mass tending to slide down under the influence of gravity. Translational or rotational movement is considered on an assumed or known potential slip surface below the soil or rock mass. In rock slope engineering, methods may be highly significant to simple block failure along distinct discontinuities. All these methods are based on the comparison of forces, moments, or stresses resisting movement of the mass with those that can cause unstable motion (disturbing forces). The output of the analysis is a factor of safety, defined as the ratio of the shear strength (or, alternatively, an equivalent measure of shear resistance or capacity) to the shear stress (or other equivalent measure) required for equilibrium. If the value of factor of safety is less than 1.0, the slope is unstable.
+All limit equilibrium methods assume that the shear strengths of the materials along the potential failure surface are governed by linear (Mohr-Coulomb) or non-linear relationships between shear strength and the normal stress on the failure surface. The most commonly used variation is Terzaghi's theory of shear strength which states that
+
+
+
+
+τ
+=
+
+σ
+′
+
+tan
+⁡
+
+ϕ
+′
+
++
+
+c
+′
+
+
+
+{\displaystyle \tau =\sigma '\tan \phi '+c'}
+
+where
+
+
+
+τ
+
+
+{\displaystyle \tau }
+is the shear strength of the interface,
+
+
+
+
+σ
+′
+
+=
+σ
+−
+u
+
+
+{\displaystyle \sigma '=\sigma -u}
+is the effective stress (
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+is the total stress normal to the interface and
+
+
+
+u
+
+
+{\displaystyle u}
+is the pore water pressure on the interface),
+
+
+
+
+ϕ
+′
+
+
+
+{\displaystyle \phi '}
+is the effective friction angle, and
+
+
+
+
+c
+′
+
+
+
+{\displaystyle c'}
+is the effective cohesion.
+The methods of slices is the most popular limit equilibrium technique. In this approach, the soil mass is discretized into vertical slices. Several versions of the method are in use. These variations can produce different results (factor of safety) because of different assumptions and inter-slice boundary conditions.
+The location of the interface is typically unknown but can be found using numerical optimization methods. For example, functional slope design considers the critical slip surface to be the location where that has the lowest value of factor of safety from a range of possible surfaces. A wide variety of slope stability software use the limit equilibrium concept with automatic critical slip surface determination.
+Typical slope stability software can analyze the stability of generally layered soil slopes, embankments, earth cuts, and anchored sheeting structures. Earthquake effects, external loading, groundwater conditions, stabilization forces (i.e., anchors, geo-reinforcements etc.) can also be included.

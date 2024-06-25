@@ -1,0 +1,7 @@
+To build a fault-tolerant system requires both hardware and software modiﬁcations. Let’s take a look at an
+example of a small problem that illustrates the type of changes that must be made. Remember, the goal of such
+a system is to achieve continuous operation. That means we can never purposely shut the computer off. How
+then do we repair the system if we cannot shut it off? First, the hardware must be capable of having circuit
+boards plugged and unplugged while the system is running; this is not possible on most computers. Second,
+removing  a  board  must  be  detected  by  the  hardware  and  reported  to  the  operating  system.  The  operating
+system, the manager of resources, must then discontinue use of that resource.

@@ -1,0 +1,18 @@
+event activity via messages. Messages are communicated using conservative or optimistic strategies. Optimistic
+ make assumptions about future event activity
+message-passing strategies, such as 
+to advance local device simulation. If the assumptions are correct, the processors operate more independently
+and better exploit parallel computation. However, if the assumptions are incorrect, then local device simulations
+may be forced to “roll back” to synchronize local device simulations [Bryant, 1979; Chandy and Misra, 1981].
+Schedule-driven,  cycle-driven,  and  message-driven  simulations  are  software-based  simulation  acceleration
+techniques. Simulation can also be accelerated by relegating certain simulation activities to dedicated hardware.
+  can  be  attached  to  software  simulators  to  accelerate  the  activity  of  device
+For  example, 
+evaluation. As the name implies, hardware modeling uses actual hardware devices instead of software models
+to obtain stimulus/response information. Using actual hardware devices reduces the expense of generating and
+maintaining  software  models  and  provides  an  environment  to  support  application  software  development.
+However, it is sometimes difﬁcult for a slave hardware modeler to preserve accurate real-time device operating
+response characteristics within a master non-real-time software simulation environment. For example, some
+hardware devices may not be able to retain state information between invocations, so the hardware modeler
+must save the history of previous inputs and reapply them to bring the hardware device to the correct state to
+apply a new input.

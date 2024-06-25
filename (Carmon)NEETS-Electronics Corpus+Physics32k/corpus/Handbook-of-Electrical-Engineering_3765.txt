@@ -1,0 +1,8 @@
+where the subscripts t and r, respectively, refer to transmitting and receiving antennas. In Eq. (37.23), P is the
+power in watts, G is the antenna gain (dimensionless), r is the distance between the antennas in meters, and l
+is  the  wavelength  in  meters.  The  Friis  equation  relates  the  power  received  by  one  antenna  to  the  power
+transmitted  by  the  other  provided  that  the  two  antennas  are  separated  by  r  >  2d 2/l,  where  d  is  the  largest
+dimension of either antenna. Thus, the Friis equation applies only when the two antennas are in the far-ﬁeld
+of each other. In case the propagation path is not in free space, a correction factor F is included to account for
+the effect of the medium. This factor, known as the propagation factor, is simply the ratio of the electric ﬁeld
+intensity Em in the medium to the electric ﬁeld intensity Eo in free space, i.e.,

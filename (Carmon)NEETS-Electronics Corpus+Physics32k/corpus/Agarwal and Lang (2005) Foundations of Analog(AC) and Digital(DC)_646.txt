@@ -1,0 +1,9 @@
+Find the incremental output voltage and incremental nonlinear device
+current (the change away from the DC variables calculated in Step 1)
+by forming an incremental subcircuit in which the nonlinear device is
+replaced by a resistor of value rd (computed as shown in Equation 4.75),
+and all DC sources are set to zero. (That is, voltage sources are replaced
+by short circuits, and current sources by open circuits.) The incremental
+subcircuit is linear, so incremental voltages and currents can be calculated
+by any of the linear analysis techniques developed in Chapter 3, including
+superposition, Thévenin, etc.

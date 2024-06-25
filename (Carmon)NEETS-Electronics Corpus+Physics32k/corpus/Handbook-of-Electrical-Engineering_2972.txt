@@ -1,0 +1,28 @@
+Power Ampliﬁers
+Emitter followers can be used as power ampliﬁers. Even though they have less than unity voltage gain they can
+provide high current gain. Using the standard linear EF ampliﬁer for a maximum output voltage swing provides
+less than 25% efﬁciency (ratio of power in to power out). The dc current carrying the ac signal is where the
+  equal  to  zero,  thus  using  the
+loss  of  efﬁciency  occurs.  To  avoid  this  power  loss,  the 
+majority of the power for the output signal. This allows the efﬁciency to increase to as much as 70%. Full signal
+ampliﬁcation requires one transistor to amplify the positive portion of the input signal and another transistor
+to amplify the negative portion of the input signal. In the past, this was referred to as push-pull operation. A
+better system is to use an NPN transistor for the positive part of the input signal and a PNP transistor for the
+negative part. This type of operation is referred to as Class B complementary symmetry operation (Fig. 28.8).
+ provides the voltage to bias the transistor at cutoff. Because these
+are power transistors, the temperature will change based on the amount of power the transistor is absorbing.
+ = 0. To compensate for this change
+I
+This means the base-emitter junction voltage will have to change to keep 
+CQ
+ resistors are replaced with diodes or transistors connected as diodes with the same turn-
+in temperature, the 
+on  characteristics  as  the  power  transistors.  This  type  of  conﬁguration  is  referred  to  as  the  complementary
+symmetry diode compensated (CSDC) ampliﬁer and is shown in Fig. 28.9. To avoid crossover distortion, small
+ can be raised slightly above zero to get increased
+resistors can be placed in series with the diodes so that 
+ampliﬁcation  in  the  cutoff  region. Another  problem  that  needs  to  be  addressed  is  the  possibility  of  thermal
+runaway. This can be easily solved by placing small resistors in series with the emitters of the power transistors.
+W  speaker,  the  resistors  should  not  be  greater  than  0.47 W  to  avoid  output
+For  example,  if  the  load  is  an  8-
+signal loss.

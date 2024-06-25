@@ -1,0 +1,4 @@
+A decade counter is a binary counter that is designed to count to 1010, or 10102. An ordinary four-
+stage counter can be easily modified to a decade counter by adding a NAND gate as shown in figure 3-25.
+Notice that FF2 and FF4 provide the inputs to the NAND gate. The NAND gate outputs are connected to
+the CLR input of each of the FFs.

@@ -1,0 +1,128 @@
+The strain energy release rate (or simply energy release rate) is the energy dissipated during fracture per unit of newly created fracture surface area. This quantity is central to fracture mechanics because the energy that must be supplied to a crack tip for it to grow must be balanced by the amount of energy dissipated due to the formation of new surfaces and other dissipative processes such as plasticity.
+For the purposes of calculation, the energy release rate is defined as
+
+
+
+
+G
+:=
+−
+
+
+
+
+
+
+
+
+∂
+(
+U
+−
+V
+)
+
+
+
+
+
+
+
+
+
+∂
+A
+
+
+
+
+
+
+
+{\displaystyle G:=-{\cfrac {\partial (U-V)}{\partial A}}}
+
+where
+
+
+
+U
+
+
+{\displaystyle U}
+is the potential energy available for crack growth,
+
+
+
+V
+
+
+{\displaystyle V}
+is the work associated with any external forces acting, and
+
+
+
+A
+
+
+{\displaystyle A}
+is the crack area (crack length for two-dimensional problems). The units of
+
+
+
+G
+
+
+{\displaystyle G}
+are J/m2.
+The energy release rate failure criterion states that a crack will grow when the available energy release rate
+
+
+
+G
+
+
+{\displaystyle G}
+is greater than or equal to a critical value
+
+
+
+
+G
+
+c
+
+
+
+
+{\displaystyle G_{c}}
+
+
+
+
+
+G
+≥
+
+G
+
+c
+
+
+
+
+{\displaystyle G\geq G_{c}}
+
+The quantity
+
+
+
+
+G
+
+c
+
+
+
+
+{\displaystyle G_{c}}
+is the fracture energy and is considered to be a material property which is independent of the applied loads and the geometry of the body.

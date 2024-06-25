@@ -1,0 +1,39 @@
+The right-hand side of the equation is the sum of three contributions.
+The first,
+
+
+
+∇
+⋅
+(
+D
+∇
+c
+)
+
+
+{\displaystyle \nabla \cdot (D\nabla c)}
+, describes diffusion. Imagine that c is the concentration of a chemical. When concentration is low somewhere compared to the surrounding areas (e.g. a local minimum of concentration), the substance will diffuse in from the surroundings, so the concentration will increase. Conversely, if concentration is high compared to the surroundings (e.g. a local maximum of concentration), then the substance will diffuse out and the concentration will decrease. The net diffusion is proportional to the Laplacian (or second derivative) of concentration if the diffusivity D is a constant.
+The second contribution,
+
+
+
+−
+∇
+⋅
+(
+
+
+
+v
+→
+
+
+
+c
+)
+
+
+{\displaystyle -\nabla \cdot ({\vec {v}}c)}
+, describes convection (or advection). Imagine standing on the bank of a river, measuring the water's salinity (amount of salt) each second. Upstream, somebody dumps a bucket of salt into the river. A while later, you would see the salinity suddenly rise, then fall, as the zone of salty water passes by. Thus, the concentration at a given location can change because of the flow.
+The final contribution, R, describes the creation or destruction of the quantity. For example, if c is the concentration of a molecule, then R describes how the molecule can be created or destroyed by chemical reactions. R may be a function of c and of other parameters. Often there are several quantities, each with its own convection-diffusion equation, where the destruction of one quantity entails the creation of another. For example, when methane burns, it involves not only the destruction of methane and oxygen but also the creation of carbon dioxide and water vapor. Therefore, while each of these chemicals has its own convection-diffusion equation, they are "coupled together" and must be solved as a system of simultaneous differential equations.

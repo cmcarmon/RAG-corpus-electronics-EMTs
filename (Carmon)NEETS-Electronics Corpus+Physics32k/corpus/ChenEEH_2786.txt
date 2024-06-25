@@ -1,0 +1,51 @@
+We next consider an FDTD modeling example where the
+Courant stability condition is violated equally at every point
+in a uniform two-dimensional TMz grid. To allow direct com-
+parison with a previous example of stable pulse propagation,
+the same grid in Figure 9.9 is used. The overall grid size is again
+360  360 square cells with Dx ¼ Dy ¼ 1:0  D. Numerical
+excitation to the grid is again provided by specifying a unit-
+step time-function for the center Ez component. The only
+condition that differs from those assumed in the original grid
+is that the Courant factor S is increased above the threshold for
+numerical instability given by equation 9.84.
+Figure 9.12(A) visualizes the two-dimensional Ez distribu-
+tion at n ¼ 40 time-steps for S ¼ 1:005  (1=
+). This value
+of S quickly generates a region of numerical instability spread-
+ing out radially from the source, where the ﬁeld amplitudes are
+large enough to mask the normal wave propagation. Individual
+Ez components in the grid are depicted as square pixels. We see
+that the unstable ﬁeld pattern has the form of a checkerboard,
+wherein dark and gray pixels denote positive and negative Ez
+values, respectively. Here, pixel saturation denotes the relative
+amplitude of its positive or negative value.
+Figure 9.12(B) graphs the variation of Ez versus radial dis-
+tance from the source at n ¼ 200 time-steps for S ¼ 1:0005
+p
+(1=
+). Two distinct plots are shown. The solid line graph
+exhibits a rapid spatial oscillation with the period 2D. This is
+the Ez behavior along the f ¼ 0, 90 (and similar on-axis)
+cuts through the grid. The smooth dashed-dotted curve with
+no spatial oscillation represents the Ez behavior along the
+f ¼ 45 (and similar oblique) cuts through the grid. Analysis
+of the underlying data reveals growth factors in the range 1.060
+to 1.069 per time-step along the leading edge of the instability
+region. This agrees very well with qgrowth ¼ 1:0653 calcu-
+lated using equation 9.87 and is an excellent validation of the
+Courant-factor-normalization theory.
+An interesting observation in Figure 9.12(B) is that the
+smooth Ez variation along f ¼ 45 forms the envelope of
+the oscillatory Ez distribution observed along the grid’s major
+axes. This difference in behavior is conﬁrmed in Figure
+9.12(A), which shows that the f ¼ 45 cut lies entirely within
+a diagonal string of dark (positive) pixels, whereas the f ¼ 0
+cut passes through alternating dark (positive) and gray
+(negative) pixels. We attribute this behavior to equation
+9.86, which states that the exponential growth along the grid
+diagonal has ~ll ¼
+D. That is, the numerical wavelength
+2
+along the 458 observation cut for the unstable mode is exactly
+the diagonal length across one D  D grid cell. Thus, there

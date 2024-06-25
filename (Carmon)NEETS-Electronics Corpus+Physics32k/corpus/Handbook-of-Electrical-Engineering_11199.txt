@@ -1,0 +1,10 @@
+Since  ampliﬁcation,  ﬁltering,  and  digitization  determine  the  frequency  characteristics  of  the  EEG  and  the
+source of potential artifacts, the acquisition parameters must be chosen with an understanding of their effects
+on signal acquisition and subsequent analysis. Ampliﬁcation, for example, increases the amplitude range (volts)
+of  the  analog-to-digital  (A/D)  converter.  The  resolution  of  the A/D  converter  is  determined  by  the  smallest
+amplitude of steps that can be sampled. This is calculated by dividing the voltage range of the A/D converter
+by 2 to the power of the number of bits of the A/D converter. For example, an A/D converter with a range of
+–
+2.4 mV. Appropriate matching of ampliﬁcation
+and A/D converter sensitivity permits resolution of the smallest signal while preventing clipping of the largest
+signal amplitudes.

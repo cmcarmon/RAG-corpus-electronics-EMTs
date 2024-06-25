@@ -1,0 +1,11 @@
+The path the data travels through the system is called the data acquisition channel. Data are ﬁrst captured
+and subsequently translated into usable signals using transducers. In this discussion, usable signals are assumed
+to be electrical voltages, either unipolar (that is, single ended, with a common ground so that we need just one
+lead wire to carry the signal) or bipolar (that is, common mode, with the signal carried by a wire pair, so that
+the reference of the rest of the system is not part of the output). These voltages can be either analog or digital,
+depending on the nature of the measurand (the quantity being captured). When there is more than one analog
+ (MUX). Both the analog and the digital signals are
+input, they are subsequently sent to an analog 
+then conditioned using signal conditioners. There are two additional steps for those conditioned analog signals.
+First they must be sampled (see Chapter 73.4) and next converted to digital data. This conversion is done by
+analog-to-digital converters

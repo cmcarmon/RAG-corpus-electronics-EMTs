@@ -1,0 +1,7 @@
+A graph or subgraph is said to be connected if there is at least one path between every pair of its vertices.
+A tree of a connected graph G is a connected subgraph which contains all the vertices of G but no circuits.
+The edges contained in a tree are called the branches of the tree. A 2-tree of a connected graph G is a (proper)
+subgraph of G consisting of two unconnected circuitless subgraphs, each subgraph itself being connected, which
+together contain all the vertices of G. Similarly, a k-tree is a subgraph of k unconnected circuitless subgraphs,
+each subgraph being connected, which together include all the vertices of G. The k-tree admittance product
+of a k-tree is the product of the admittances of all the branches of the k-tree.

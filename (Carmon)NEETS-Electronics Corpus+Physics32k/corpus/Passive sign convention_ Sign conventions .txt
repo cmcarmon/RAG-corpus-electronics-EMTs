@@ -1,0 +1,59 @@
+The above discussion shows that choosing the relative direction of the voltage and current variables in a component determines the direction of power flow that is considered positive. The reference directions of the individual variables are not important, only their relation to each other. There are two choices:
+
+Passive sign convention: Defining the current variable as entering the positive terminal means that if the voltage and current variables have positive values, current flows from the positive to the negative terminal, doing work on the component, as occurs in a passive component. So power flowing into the component from the line is defined as positive; the power variable represents power dissipation in the component. Therefore
+Active components (power sources) will have negative resistance and negative power flow
+Passive components (loads) will have positive resistance and positive power flow
+
+This is the convention normally used.
+
+Active sign convention: Defining the current variable as entering the negative terminal means that if the voltage and current variables have positive values, current flows from the negative to the positive terminal, so work is being done on the current, and power flows out of the component. So power flowing out of the component is defined as positive; the power variable represents power produced. Therefore:
+Active components will have positive resistance and positive power flow
+Passive components will have negative resistance and negative power flow
+
+This convention is rarely used, except for special cases in power engineering.
+In practice it is not necessary to assign the voltage and current variables in a circuit to comply with the PSC. Components in which the variables have a "backward" relationship, in which the current variable enters the negative terminal, can still be made to comply with the PSC by changing the sign of the constitutive relations (1) and (2) used with them. A current entering the negative terminal is equivalent to a negative current entering the positive terminal, so in such a component
+
+
+
+
+p
+=
+v
+(
+−
+i
+)
+=
+−
+v
+i
+
+
+
+{\displaystyle p=v(-i)=-vi\,}
+, and
+
+
+
+
+r
+=
+v
+
+/
+
+(
+−
+i
+)
+=
+−
+v
+
+/
+
+i
+
+
+
+{\displaystyle r=v/(-i)=-v/i\,}

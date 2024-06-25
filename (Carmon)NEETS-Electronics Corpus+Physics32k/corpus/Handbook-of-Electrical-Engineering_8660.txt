@@ -1,0 +1,4 @@
+FIGURE 87.7 The stack area of the 68000’s memory and the register assignments that the Think C® compiler made with
+global optimization turned off. The stack is shown just after the MOVEM instruction. The items in bold are as they would
+be after that instruction. While the registers all hold longwords, in typical PC/Macintosh compilers, integers are deﬁned as
+words. This ﬁgure is the programmatic successor to Fig. 87.6.

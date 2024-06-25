@@ -1,0 +1,8 @@
+Operational amplifiers can have either a closed-loop operation or an open-loop operation. The
+operation (closed-loop or open-loop) is determined by whether or not feedback is used. Without feedback
+the operational amplifier has an open-loop operation. This open-loop operation is practical only when the
+operational amplifier is used as a comparator (a circuit which compares two input signals or compares an
+input signal to some fixed level of voltage). As an amplifier, the open-loop operation is not practical
+because the very high gain of the operational amplifier creates poor stability. (Noise and other unwanted
+signals are amplified so much in open-loop operation that the operational amplifier is usually not used in
+this way.) Therefore, most operational amplifiers are used with feedback (closed-loop operation).

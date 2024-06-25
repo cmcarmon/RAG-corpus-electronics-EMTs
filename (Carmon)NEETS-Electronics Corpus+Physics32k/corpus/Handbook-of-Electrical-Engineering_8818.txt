@@ -1,0 +1,12 @@
+The logic of these programs echoes the axioms. Such implementations are sometimes not very efﬁcient but
+useful  for  prototype  programs,  since  the  probability  of  their  correctness  is  very  high.  The  queues  behave  as
+values, i.e., the functions queue(a,s) and pop(s) do not modify the queues s but compute new queues; after the
+execution of, e.g., s1 := pop(s) there are two independent queue values, s and s1. This is exactly the behavior
+postulated by the axioms. However, practical applications frequently deal with mutable objects, objects that can
+be modiﬁed. With mutable objects memory may often be used more efﬁciently, since it is easier to decide when
+a memory cell, used, e.g., for storing an ordered pair, is no longer needed and thus may be recycled. If queues
+are  viewed  as  mutable  objects,  the  operations  queue  and  pop  are  implemented  as  procedures  that  modify  a
+queue.  In  order  to  apply  the  style  of  axioms  introduced  above  for  the  description  of  mutable  objects,  these
+objects  are  best  viewed  as  containers  of  values.  The  procedure  queue(a,  qobj),  for  example,  takes  the  queue
+value, e.g., s, out of the container qobj, applies the function queue(a, s) (described by the axioms), and puts
+the result back into qobj.

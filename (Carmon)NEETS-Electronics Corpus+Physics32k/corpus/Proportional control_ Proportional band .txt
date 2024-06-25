@@ -1,0 +1,51 @@
+The proportional band is the band of controller output over which the final control element (a control valve, for instance) will move from one extreme to another. Mathematically, it can be expressed as:
+
+
+
+
+P
+B
+=
+
+
+100
+
+K
+
+p
+
+
+
+
+
+
+
+{\displaystyle PB={\frac {100}{K_{p}}}\ }
+
+So if
+
+
+
+
+K
+
+p
+
+
+
+
+{\displaystyle K_{p}}
+, the proportional gain, is very high, the proportional band is very small, which means that the band of controller output over which the final control element will go from minimum to maximum (or vice versa) is very small. This is the case with on–off controllers, where
+
+
+
+
+K
+
+p
+
+
+
+
+{\displaystyle K_{p}}
+is very high and hence, for even a small error, the controller output is driven from one extreme to another.

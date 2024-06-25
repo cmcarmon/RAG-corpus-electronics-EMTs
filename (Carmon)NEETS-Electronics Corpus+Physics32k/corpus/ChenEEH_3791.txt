@@ -1,0 +1,26 @@
+In Chomsky’s formalism, a stochastic grammar is one
+whose production rules have probabilities associated with
+them, so each of the strings in the stochastic language oc-
+curs with a probability that depends on the probabilities of
+its productions. Clearly, when probabilities are added to the
+production rules of the regular grammar, the regular grammar
+can be used as an alternative description of the operation of
+the Mealy-form HMM. In each ‘‘production’’ (observation
+time), the HMM produces a symbol and a new state with a
+certain probability. It is very important to generalize our
+thinking about the HMM, however, in the present context.
+Our fundamental descriptions of the HMM involved acoustic
+modeling in which states nominally represented physiologic
+acoustic states of the vocal systems and in which symbols
+represented acoustic
+the
+‘‘HMM’’ can represent higher level structures as well. For
+example, the states may represent words while the observations
+are phonemes, so the model embodies syntactical and lexical
+information. As noted earlier, the HMM is usually known as a
+ﬁnite-state automaton (FSA) in the formal language theory.
+‘‘HMM’’ is almost invariantly used to refer to the model at
+the acoustic level, while ‘‘FSA’’ is more likely to be used for the
+linguistic models. Regardless of what we call the model,
+the critical point is the one-to-one correspondence between
+the model and a regular stochastic grammar.

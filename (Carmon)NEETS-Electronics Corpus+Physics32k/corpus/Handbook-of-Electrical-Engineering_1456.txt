@@ -1,0 +1,10 @@
+Feature extraction for speech recognition involves computing sequences of numeric measurements, or feature
+vectors, which typically approximate the envelope of the speech spectrum. Spectral features can be extracted
+directly  from  the  discrete  Fourier  transform  (DFT)  or  computed  using  linear  predictive  coding  (LPC)  tech-
+niques. Cepstral analysis can also be used to deconvolve the spectral envelope and the periodic voicing source.
+Each feature vector is computed from a frame of speech data deﬁned by windowing N samples of the signal.
+While  a  better  spectral  estimate  can  be  obtained  using  more  samples,  the  interval  must  be  short  enough  so
+that the windowed signal is roughly stationary. For speech data, N is chosen such that the length of the interval
+covered by the window is approximately 25 to 30 msec. The feature vectors are typically computed at a frame
+rate  of  10  to  20  msec  by  shifting  the  window  forward  in  time.  Tapered  windowing  functions,  such  as  the
+Hamming window, are used to reduce dependence of the spectral estimate on the exact temporal position of

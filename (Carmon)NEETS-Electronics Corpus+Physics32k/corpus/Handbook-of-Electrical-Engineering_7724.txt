@@ -1,0 +1,5 @@
+The last component is the transfer time, i.e., the time to physically transfer the bytes from disk to the host.
+While  the  transfer  time  is  a  strong  function  of  the  number  of  bytes  to  be  transferred,  seek  and  rotational
+latencies  times  are  independent  of  the  transfer  blocksize.  If  data  is  to  be  read  or  written  in  large  chunks,  it
+makes sense to choose a large blocksize, since the “ﬁxed cost” of seek and latency is better amortized across a
+large data transfer.

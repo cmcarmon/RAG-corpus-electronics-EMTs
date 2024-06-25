@@ -1,0 +1,7 @@
+The most widely used techniques assign signatures as labels to
+the nodes of the CFG to determine the control ﬂow. The WD is
+provided with the reference signatures and the relationships
+among them (represented by the CFG). During run time, the
+WD monitors the program run and concurrently computes the
+signatures that are then compared to the reference ones provided
+earlier. If a discrepancy is detected, then an error is signaled.

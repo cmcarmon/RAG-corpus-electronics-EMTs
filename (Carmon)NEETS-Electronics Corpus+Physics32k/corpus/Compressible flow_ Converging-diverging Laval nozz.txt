@@ -1,0 +1,49 @@
+As the speed of a flow accelerates from the subsonic to the supersonic regime, the physics of nozzle and diffuser flows is altered. Using the conservation laws of fluid dynamics and thermodynamics, the following relationship for channel flow is developed (combined mass and momentum conservation):
+
+
+
+
+d
+P
+(
+1
+−
+
+
+M
+
+
+2
+
+
+)
+=
+ρ
+
+
+V
+
+
+2
+
+
+
+(
+
+
+
+d
+A
+
+A
+
+
+)
+
+
+
+{\displaystyle dP(1-{M}^{2})=\rho {V}^{2}\left({\frac {dA}{A}}\right)}
+,
+where dP is the differential change in pressure, M is the Mach number, ρ is the density of the gas, V is the velocity of the flow, A is the area of the duct, and dA is the change in area of the duct. This equation states that, for subsonic flow, a converging duct (dA<0) increases the velocity of the flow and a diverging duct (dA>0) decreases velocity of the flow. For supersonic flow, the opposite occurs due to the change of sign of (1-M2). A converging duct (dA<0) now decreases the velocity of the flow and a diverging duct (dA>0) increases the velocity of the flow. At Mach = 1, a special case occurs in which the duct area must be either a maximum or minimum. For practical purposes, only a minimum area can accelerate flows to Mach 1 and beyond. See table of sub-supersonic diffusers and nozzles.
+
+Therefore, to accelerate a flow to Mach 1, a nozzle must be designed to converge to a minimum cross-sectional area and then expand. This type of nozzle – the converging-diverging nozzle – is called a de Laval nozzle after Gustaf de Laval, who invented it. As subsonic flow enters the converging duct and the area decreases, the flow accelerates. Upon reaching the minimum area of the duct, also known as the throat of the nozzle, the flow can reach Mach 1. If the speed of the flow is to continue to increase, its density must decrease in order to obey conservation of mass. To achieve this decrease in density, the flow must expand, and to do so, the flow must pass through a diverging duct. See image of de Laval Nozzle.

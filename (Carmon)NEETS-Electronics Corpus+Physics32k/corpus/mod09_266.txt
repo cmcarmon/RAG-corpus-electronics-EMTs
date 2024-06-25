@@ -1,0 +1,8 @@
+View (D) shows the complete oscillator circuit. Connecting the feedback network through coupling 
+capacitor C2 to the base of Q1 forms a "closed loop" for feedback (shown by the solid arrows). Let's 
+verify that the feedback is regenerative. Assume a positive signal on the base of Q1. The transistor 
+conducts heavily when forward biased. This current flow through L1 and R1 causes the voltage across L1 
+to increase. The voltage increase is inductively coupled to L2 and inverted. This action ensures that the 
+voltage is positive at the base end of L2 and C1 and in phase with the base voltage. The positive signal is 
+now coupled through C2 to the base of Q1. The regenerative feedback offsets the damping in the 
+frequency-determining network and has sufficient amplitude to provide unity circuit gain. 

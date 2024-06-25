@@ -1,0 +1,102 @@
+Assuming a perfect sphere with no terrain irregularity, the distance to the horizon from a high altitude transmitter (i.e., line of sight) can readily be calculated.
+Let R be the radius of the Earth and h be the altitude of a telecommunication station. The line of sight distance d of this station is given by the Pythagorean theorem;
+
+
+
+
+
+d
+
+2
+
+
+=
+(
+R
++
+h
+
+)
+
+2
+
+
+−
+
+R
+
+2
+
+
+=
+2
+⋅
+R
+⋅
+h
++
+
+h
+
+2
+
+
+
+
+{\displaystyle d^{2}=(R+h)^{2}-R^{2}=2\cdot R\cdot h+h^{2}}
+
+Since the altitude of the station is much less than the radius of the Earth,
+
+
+
+
+d
+≈
+
+
+2
+⋅
+R
+⋅
+h
+
+
+
+
+{\displaystyle d\approx {\sqrt {2\cdot R\cdot h}}}
+
+If the height is given in metres, and distance in kilometres,
+
+
+
+
+d
+≈
+3.57
+⋅
+
+
+h
+
+
+
+
+{\displaystyle d\approx 3.57\cdot {\sqrt {h}}}
+
+If the height is given in feet, and the distance in miles,
+
+
+
+
+d
+≈
+1.23
+⋅
+
+
+h
+
+
+
+
+{\displaystyle d\approx 1.23\cdot {\sqrt {h}}}

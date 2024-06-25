@@ -1,0 +1,5 @@
+6.29 Error-Correcting Codes: Hamming Codes37
+For the (7,4) example, we have 2N−K − 1 = 7 error patterns that can be corrected. We start with single-bit
+error patterns, and multiply them by the parity check matrix. If we obtain unique answers, we are done; if
+two or more error patterns yield the same result, we can try double-bit error patterns. In our case, single-bit
+error patterns give a unique result.

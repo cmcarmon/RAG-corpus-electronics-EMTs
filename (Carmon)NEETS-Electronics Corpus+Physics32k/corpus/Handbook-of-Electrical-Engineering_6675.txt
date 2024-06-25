@@ -1,0 +1,9 @@
+Computer Communication Network Architecture
+In this section, we will begin with a brief, high-level deﬁnition of the ISORM. The reference model has seven
+layers,  none  of  which  can  be  bypassed  conceptually.  In  general,  a  layer  is  deﬁned  by  the  types  of  services  it
+provides to its users and the quality of those services. For each layer in the ISO/OSI architecture, the user of a
+layer  is  the  next  layer  up  in  the  hierarchy,  except  for  the  highest  layer  for  which  the  user  is  an  application.
+Clearly, when a layered architecture is implemented under this philosophy, then the quality of service obtained
+by the end user, the application, is a function of the quality of service provided by all of the layers. In order to
+clarify  the  communications  strategy  of  the  ISO/OSI  architecture,  we  will  provide  a  discussion  of  the  layer  2
+services in some detail.

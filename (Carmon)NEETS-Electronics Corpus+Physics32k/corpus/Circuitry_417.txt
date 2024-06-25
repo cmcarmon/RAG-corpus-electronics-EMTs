@@ -1,0 +1,35 @@
+The  three  basic  configurations  for  operational 
+voltage  amplifiers,  together  with  the  expressions 
+for their voltage gain, are shown in Fig. 8.7. Supply 
+rails  have  been  omitted  from  these  diagrams  for 
+clarity  but  are  assumed  to  be  symmetrical  about 
+0V. 
+  All of the amplifier circuits described previously 
+have used direct coupling and thus have frequency 
+response characteristics that extend to d.c. This, of 
+course, 
+is  undesirable  for  many  applications, 
+particularly  where  a  wanted  a.c.  signal  may  be 
+superimposed on an unwanted d.c. voltage level or 
+when  the  bandwidth  of  the  amplifier  greatly 
+exceeds  that  of  the  signal  that  it  is  required  to 
+amplify.  In  such  cases,  capacitors  of  appropriate 
+value  may  be  inserted  in  series  with  the  input 
+resistor,  RIN, and  in  parallel  with  the  feedback 
+resistor, RF, as shown in Fig. 8.8.  
+  The  value  of  the  input  and  feedback  capacitors, 
+CIN and CF respectively, are chosen so as to roll-off 
+the  frequency  response  of  the  amplifier  at  the 
+desired 
+lower  and  upper  cut-off  frequencies, 
+respectively. The effect of these two capacitors on 
+an  operational  amplifier’s  frequency  response  is 
+shown in Fig. 8.9. 
+  By selecting appropriate values of capacitor, the 
+frequency  response  of  an  inverting  operational 
+voltage amplifier may be very easily tailored to suit 
+a particular set of requirements. 
+  The lower cut-off frequency is determined by the 
+value  of  the  input  capacitance,  CIN, and  input 
+resistance,  RIN. The  lower  cut-off  frequency  is 
+given by:  

@@ -1,0 +1,25 @@
+Traditional FDA approaches are based on so-called hard-
+ware redundancy where extra components are used as backup
+in case of failures. Because of the additional cost, space, weight,
+and complexity of incorporating redundant hardware, model-
+based methods (in the spirit of analytical redundancy) with
+inexpensive and high performance microprocessors have dom-
+inated the FDA research activities. The major reason for the
+prevalence of this approach is information processing tech-
+niques using powerful computing devices and memory
+systems can be used to establish the necessary redundancy
+without the need of hardware instrumentation in the system
+(Polycarpou and Helmicki, 1995). Under the model-based
+analytical redundancy, system behaviors are compared with
+the analytically obtained values
+through a mathematical
+model. The resulting differences are so-called residuals (Gert-
+ler, 1988). In the ideal situation, the residuals will be zeros in
+the fault-free system, and any deviation will be interpreted as
+an indication of faults. This is rarely true, however, in practice
+with the presence of measurement noise disturbances and
+modeling errors. The deviation can be the combinational
+results of noises, disturbances, modeling errors, and faults.
+Naturally, with the presence of signiﬁcant noises, statistical
+analysis of the residuals becomes a reasonable procedure to
+generate a logical pattern called the signature of the failure for

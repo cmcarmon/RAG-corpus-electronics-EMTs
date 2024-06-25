@@ -1,0 +1,14 @@
+Given the more or less straight-line behavior of the iDS versus vDS curves
+to the left and to the right of the dashed line in Figure 7.12,
+it is natural
+to seek a piecewise-linear model for the MOSFET. Recall from Section 4.4,
+piecewise-linear modeling represents nonlinear v i characteristics by a succes-
+sion of straight-line segments, and makes calculations within each straight-line
+segment using linear analysis tools. Figure 7.13 shows our choice of straight-line
+segments that model the actual MOSFET characteristics.
+To the right of the vDS = vGS − VT boundary (represented by the dashed
+line in Figure 7.13) we have the saturation region, in which we use a set of
+horizontal straight-line segments (one for each value of vGS) to represent the
+actual MOSFET characteristics. The straight-line segments representing the
+model are shown as thick grey lines. The circuit interpretation of each of
+the horizontal straight-line segments is a current source. Furthermore, because

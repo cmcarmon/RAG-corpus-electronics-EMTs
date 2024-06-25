@@ -1,0 +1,6 @@
+a. Add 1 to the gain of each existing self-loop.
+b. Add a self-loop with a gain of 1 to each node devoid of self-loop except the source node l.
+c. Break the source node l into r source nodes (r being the number of branches connected to the source
+node l before breaking), and identify the r new sources nodes by b1,b2, . . ., b, with the gain of the
+corresponding r branches multiplied by –1/b1, –1/b2, . . ., –1/br , respectively, so that the new gains
+of these branches are all equal to l, keeping the edge orientations unchanged.

@@ -1,0 +1,9 @@
+If another cache contains a modiﬁed copy of this line, it is
+possible that the two modiﬁcations are in different positions in
+the line. It is therefore necessary for the initiating controller to
+stall while the other cache controller writes its modiﬁed line
+out to main memory before invalidating its line. If no cache
+has a modiﬁed copy of this line, no signals are returned to the
+initiating processor, which modiﬁes the line in its local cache,
+marking it modiﬁed. If any other caches containing clean
+copies of this line, their copies are marked invalid.

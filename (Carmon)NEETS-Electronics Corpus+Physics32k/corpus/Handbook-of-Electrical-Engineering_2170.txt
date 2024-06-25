@@ -1,0 +1,6 @@
+When the tap delay implements the short-term memory, straight back-propagation can be utilized since the
+only adaptive parameters are the MLP weights. When the gamma memory is utilized (or the context PE), the
+recursive  parameter  is  adapted  in  a  total  adaptive  framework  (or  the  parameter  is  preset  by  some  external
+consideration). The equations to adapt the context PE and the gamma memory are shown in Figs. 20.11 and
+20.12, respectively. For the context PE d(n) refers to the total error that is back-propagated from the MLP and
+that reaches the dual context PE.

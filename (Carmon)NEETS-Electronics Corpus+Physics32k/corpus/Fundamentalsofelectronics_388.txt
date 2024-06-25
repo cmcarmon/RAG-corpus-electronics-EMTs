@@ -1,0 +1,6 @@
+More than just decaying slowly, Fourier series approximation shown in Figure 4.8 exhibits interesting behav-
+ior. Although the square wave’s Fourier series requires more terms for a given representation accuracy, when
+comparing plots it is not clear that the two are equal. Does the Fourier series really equal the square wave
+at all values of t? In particular, at each step-change in the square wave, the Fourier series exhibits a peak
+followed by rapid oscillations. As more terms are added to the series, the oscillations seem to become more
+rapid and smaller, but the peaks are not decreasing. For the Fourier series approximation for the half-wave

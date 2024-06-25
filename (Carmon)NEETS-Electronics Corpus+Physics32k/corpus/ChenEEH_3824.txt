@@ -1,0 +1,10 @@
+The image ﬁltering can be carried out either in the spatial
+domain, as in equation 4.16, or in the frequency domain, using
+the discrete Fourier
+(Mersereau and
+Dudgeon, 1984; Oppenheim and Schaffer, 1989). For ﬁltering
+using the DFT, we use the well known property that the DFT of
+the circular convolution of two sequences is equal to the
+product of the DFTs of the two sequences. That is, for y(m,n)
+deﬁned as in equation 4.16, provided that a DFT of sufﬁcient
+size is used, we have that:

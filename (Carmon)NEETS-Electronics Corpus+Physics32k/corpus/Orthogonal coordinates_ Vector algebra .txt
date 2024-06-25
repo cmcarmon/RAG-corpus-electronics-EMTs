@@ -1,0 +1,2 @@
+Vector addition and negation are done component-wise just as in Cartesian coordinates with no complication. Extra considerations may be necessary for other vector operations.
+Note however, that all of these operations assume that two vectors in a vector field are bound to the same point (in other words, the tails of vectors coincide). Since basis vectors generally vary in orthogonal coordinates, if two vectors are added whose components are calculated at different points in space, the different basis vectors require consideration.

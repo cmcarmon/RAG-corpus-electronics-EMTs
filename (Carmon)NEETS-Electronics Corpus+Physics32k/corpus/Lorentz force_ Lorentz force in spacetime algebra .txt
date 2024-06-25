@@ -1,0 +1,191 @@
+The electric and magnetic fields are dependent on the velocity of an observer, so the relativistic form of the Lorentz force law can best be exhibited starting from a coordinate-independent expression for the electromagnetic and magnetic fields
+
+
+
+
+
+F
+
+
+
+
+{\displaystyle {\mathcal {F}}}
+, and an arbitrary time-direction,
+
+
+
+
+γ
+
+0
+
+
+
+
+{\displaystyle \gamma _{0}}
+. This can be settled through Space-Time Algebra (or the geometric algebra of space-time), a type of Clifford's Algebra defined on a pseudo-Euclidean space, as
+
+
+
+
+
+E
+
+=
+(
+
+
+F
+
+
+⋅
+
+γ
+
+0
+
+
+)
+
+γ
+
+0
+
+
+
+
+{\displaystyle \mathbf {E} =({\mathcal {F}}\cdot \gamma _{0})\gamma _{0}}
+
+and
+
+
+
+
+i
+
+B
+
+=
+(
+
+
+F
+
+
+∧
+
+γ
+
+0
+
+
+)
+
+γ
+
+0
+
+
+
+
+{\displaystyle i\mathbf {B} =({\mathcal {F}}\wedge \gamma _{0})\gamma _{0}}
+
+
+
+
+
+
+
+F
+
+
+
+
+{\displaystyle {\mathcal {F}}}
+is a space-time bivector (an oriented plane segment, just like a vector is an oriented line segment), which has six degrees of freedom corresponding to boosts (rotations in space-time planes) and rotations (rotations in space-space planes). The dot product with the vector
+
+
+
+
+γ
+
+0
+
+
+
+
+{\displaystyle \gamma _{0}}
+pulls a vector (in the space algebra) from the translational part, while the wedge-product creates a trivector (in the space algebra) who is dual to a vector which is the usual magnetic field vector. The relativistic velocity is given by the (time-like) changes in a time-position vector
+
+
+
+v
+=
+
+
+
+x
+˙
+
+
+
+
+
+{\displaystyle v={\dot {x}}}
+, where
+
+
+
+
+
+v
+
+2
+
+
+=
+1
+,
+
+
+{\displaystyle v^{2}=1,}
+
+(which shows our choice for the metric) and the velocity is
+
+
+
+
+
+v
+
+=
+c
+v
+∧
+
+γ
+
+0
+
+
+
+/
+
+(
+v
+⋅
+
+γ
+
+0
+
+
+)
+.
+
+
+{\displaystyle \mathbf {v} =cv\wedge \gamma _{0}/(v\cdot \gamma _{0}).}
+
+The proper (invariant is an inadequate term because no transformation has been defined) form of the Lorentz force law is simply
+
+Note that the order is important because between a bivector and a vector the dot product is anti-symmetric. Upon a space time split like one can obtain the velocity, and fields as above yielding the usual expression.

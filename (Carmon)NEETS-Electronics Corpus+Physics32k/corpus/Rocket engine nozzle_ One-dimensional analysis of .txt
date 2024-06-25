@@ -1,0 +1,98 @@
+The analysis of gas flow through de Laval nozzles involves a number of concepts and simplifying assumptions:
+The combustion gas is assumed to be an ideal gas.
+The gas flow is isentropic i.e., at constant entropy, as the result of the assumption of non-viscous fluid, and adiabatic process.
+The gas flow is constant (i.e., steady) during the period of the propellant burn.
+The gas flow is non-turbulent and axisymmetric from gas inlet to exhaust gas exit (i.e., along the nozzle's axis of symmetry)
+The flow behavior is compressible since the fluid is a gas.
+As the combustion gas enters the rocket nozzle, it is traveling at subsonic velocities. As the throat constricts, the gas is forced to accelerate until at the nozzle throat, where the cross-sectional area is the least, the linear velocity becomes sonic. From the throat the cross-sectional area then increases, the gas expands and the linear velocity becomes progressively more supersonic.
+The linear velocity of the exiting exhaust gases can be calculated using the following equation
+
+
+
+
+
+v
+
+e
+
+
+=
+
+
+
+
+
+
+T
+
+R
+
+M
+
+
+⋅
+
+
+
+2
+
+γ
+
+
+γ
+−
+1
+
+
+
+⋅
+
+
+[
+
+
+1
+−
+(
+
+p
+
+e
+
+
+
+/
+
+p
+
+)
+
+(
+γ
+−
+1
+)
+
+/
+
+γ
+
+
+
+
+]
+
+
+
+
+
+
+{\displaystyle v_{e}={\sqrt {\;{\frac {T\;R}{M}}\cdot {\frac {2\;\gamma }{\gamma -1}}\cdot {\bigg [}1-(p_{e}/p)^{(\gamma -1)/\gamma }{\bigg ]}}}}
+
+Some typical values of the exhaust gas velocity ve for rocket engines burning various propellants are:
+1.7 to 2.9 km/s (3800 to 6500 mi/h) for liquid monopropellants
+2.9 to 4.5 km/s (6500 to 10100 mi/h) for liquid bipropellants
+2.1 to 3.2 km/s (4700 to 7200 mi/h) for solid propellants
+As a note of interest, ve is sometimes referred to as the ideal exhaust gas velocity because it based on the assumption that the exhaust gas behaves as an ideal gas.
+As an example calculation using the above equation, assume that the propellant combustion gases are: at an absolute pressure entering the nozzle of p = 7.0 MPa and exit the rocket exhaust at an absolute pressure of pe = 0.1 MPa; at an absolute temperature of T = 3500 K; with an isentropic expansion factor of γ = 1.22 and a molar mass of M = 22 kg/kmol. Using those values in the above equation yields an exhaust velocity ve = 2802 m/s or 2.80 km/s which is consistent with above typical values.
+The technical literature can be very confusing because many authors fail to explain whether they are using the universal gas law constant R which applies to any ideal gas or whether they are using the gas law constant Rs which only applies to a specific individual gas. The relationship between the two constants is Rs = R/M.

@@ -1,0 +1,13 @@
+Algebraic Properties of Matrices
+Many of the more important and interesting applications of signal restoration are related to the vector space
+C m · n. Matrices contained in C m · n may occur in a natural manner as exempliﬁed by digital images where the
+nonnegative  elements  of  the  matrix  correspond  to  the  brightness  levels  of  associated  pixels.  The  underlying
+signal restoration problem in such cases is commonly referred to as image reconstruction or image restoration.
+In other examples, however, the matrix under consideration may be a by-product of an associated data analysis
+solution routine. For example, in approximating a ﬁnite-length time series as a sum of weighted exponentials,
+one often forms an associated data matrix from the time series elements. Whatever the case, the matrix under
+analysis is typically corrupted in some manner, and it is desired to remove this corruption in order to recover
+the underlying information-bearing matrix. In using signal restoration for this purpose, it is necessary to employ
+attributes  associated  with  the  information-bearing  signal.  These  attributes  are  normally  of  an  algebraic  or  a
+structural description. In this subsection we will examine two of the more widely invoked algebraic attributes,
+and some commonly employed structural attributes are examined in the next subsection.

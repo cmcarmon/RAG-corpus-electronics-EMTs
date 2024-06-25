@@ -1,0 +1,4 @@
+You build the alarm around a 555 timer chip, which acts as a tone genera-
+tor. The 555 timer is configured (once again) as an oscillator, and the values 
+of R3, R4, and C1 are selected to create an output pulse train (on pin 3) at a 
+ frequency in the audible range (20 Hz to 20 kHz).

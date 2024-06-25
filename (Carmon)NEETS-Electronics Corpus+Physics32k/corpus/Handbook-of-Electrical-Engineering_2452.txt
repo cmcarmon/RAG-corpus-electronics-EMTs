@@ -1,0 +1,5 @@
+the voltage drop across RG can be neglected, so VG @ 0. Thus, we have that VGS = VG – VS @ –VS = –IDS · RS . For
+example, if IDSS = 10 mA and VP = –4 V, and for a Q point in the middle of the active region with IDSQ = IDS S /2 =
+5 mA, we have that  VGSQ = 0.293VP = –1.17 V. Therefore the required value for the source biasing resistor is
+given  by  RS  =  –VGS /IDSQ  =  1.17 V/5 mA  =  234 W.  This  produces  a  more  stable  quiescent  point  than  voltage
+source biasing, and no separate negative power supply is required.

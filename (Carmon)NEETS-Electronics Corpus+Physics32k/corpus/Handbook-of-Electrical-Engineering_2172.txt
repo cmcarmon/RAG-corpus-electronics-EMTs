@@ -1,0 +1,5 @@
+The  output  of  the  single  PE  is  an  inner  product  between  the  input  and  the  weight  vector  (formula  in
+Fig. 20.13). It measures the similarity between the two vectors — i.e., if the input is close to the weight vector
+the output y is large; otherwise it is small. The weights are computed by an outer product of the input X and
+output Y, i.e., W = XY T, where T means transpose. The problem of Hebbian learning is that it is unstable; i.e.,
+the weights will keep on growing with the number of iterations [Haykin, 1994].

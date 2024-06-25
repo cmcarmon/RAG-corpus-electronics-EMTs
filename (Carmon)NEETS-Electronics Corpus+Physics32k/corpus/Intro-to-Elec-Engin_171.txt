@@ -1,0 +1,6 @@
+Nodal analysis deals routinely with current sources. When we have voltage sources along
+with series resistances, the source-transformation technique may be used effectively to convert
+the voltage source to a current source, as seen in Example 2.2.1. However, in cases where we have
+constrained nodes, that is, the difference in potential between the two node voltages is constrained
+by a voltage source, the concept of a supernode becomes useful for the circuit analysis, as shown
+in the following illustrative example.

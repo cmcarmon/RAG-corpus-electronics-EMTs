@@ -1,0 +1,5 @@
+Servos can be classified by means of their feedback control systems:
+type 0 servos: under steady-state conditions they produce a constant value of the output with a constant error signal;
+type 1 servos: under steady-state conditions they produce a constant value of the output with null error signal, but a constant rate of change of the reference implies a constant error in tracking the reference;
+type 2 servos: under steady-state conditions they produce a constant value of the output with null error signal. A constant rate of change of the reference implies a null error in tracking the reference. A constant rate of acceleration of the reference implies a constant error in tracking the reference.
+The servo bandwidth indicates the capability of the servo to follow rapid changes in the commanded input.

@@ -1,0 +1,6 @@
+After we recover the carrier, we must reestablish the carrier
+phase to determine the values of the received bits. Somewhere
+in the transmitted signal must be a known bit pattern that we
+can use to determine the carrier phase. The bit pattern can be
+alternating zeros and ones that we use to determine bit timing,
+or it could be some other known pattern.

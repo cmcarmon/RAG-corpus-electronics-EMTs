@@ -1,0 +1,3 @@
+The WGPLNF, HTPLNF and VTPLNF Namelists define the wing, horizontal tail and vertical tail, respectively. The basic parameters such as root chord, tip chord, half-span, twist, dihedral and sweep are input. Digital DATCOM also accepts wing planforms which change geometry along the span such as the F4 Phantom II which had 15 degrees of outboard dihedral.
+Canards can also be analyzed in Digital DATCOM. The canard must be specified as the forward lifting surface (i.e. wing) and the wing as the aft lift surface.
+For airfoil designations, most traditional NACA 4-, 5-, and 6- airfoils can be specified in Digital DATCOM. Additionally, custom airfoils can be input using the appropriate namelists. Also, twin vertical tails can be designated in Digital DATCOM, but not twin booms.

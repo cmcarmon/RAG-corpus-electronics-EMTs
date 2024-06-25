@@ -1,0 +1,137 @@
+After having realized the perturbative nonrenormalizability of gravity, physicists tried to employ alternative techniques to cure the divergence problem, for instance resummation or extended theories with suitable matter fields and symmetries, all of which come with their own drawbacks. In 1976, Steven Weinberg proposed a generalized version of the condition of renormalizability, based on a nontrivial fixed point of the underlying renormalization group (RG) flow for gravity. This was called asymptotic safety.  The idea of a UV completion by means of a nontrivial fixed point of the renormalization groups had been proposed earlier by Kenneth G. Wilson and Giorgio Parisi in scalar field theory (see also Quantum triviality). The applicability to perturbatively nonrenormalizable theories was first demonstrated explicitly for the Non-linear sigma model  and for a variant of the Gross-Neveu model.
+As for gravity, the first studies concerning this new concept were performed in
+
+
+
+d
+=
+2
++
+ϵ
+
+
+{\displaystyle d=2+\epsilon }
+spacetime dimensions in the late seventies. In exactly two dimensions there is a theory of pure gravity that is renormalizable according to the old point of view. (In order to render the Einstein–Hilbert action
+
+
+
+
+
+
+1
+
+16
+π
+G
+
+
+
+∫
+
+
+d
+
+
+2
+
+
+x
+
+
+g
+
+
+
+R
+
+
+
+{\displaystyle \textstyle {1 \over 16\pi G}\int \mathrm {d} ^{2}x{\sqrt {g}}\,R}
+dimensionless, Newton's constant
+
+
+
+G
+
+
+{\displaystyle G}
+must have mass dimension zero.) For small but finite
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+perturbation theory is still applicable, and one can expand the beta-function (
+
+
+
+β
+
+
+{\displaystyle \beta }
+-function) describing the renormalization group running of Newton's constant as a power series in
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+. Indeed, in this spirit it was possible to prove that it displays a nontrivial fixed point.
+However, it was not clear how to do a continuation from
+
+
+
+d
+=
+2
++
+ϵ
+
+
+{\displaystyle d=2+\epsilon }
+to
+
+
+
+d
+=
+4
+
+
+{\displaystyle d=4}
+dimensions as the calculations relied on the smallness of the expansion parameter
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+. The computational methods for a nonperturbative treatment were not at hand by this time. For this reason the idea of asymptotic safety in quantum gravity was put aside for some years. Only in the early 90s, aspects of
+
+
+
+2
++
+ϵ
+
+
+{\displaystyle 2+\epsilon }
+dimensional gravity have been revised in various works, but still not continuing the dimension to four.
+As for calculations beyond perturbation theory, the situation improved with the advent of new functional renormalization group methods, in particular the so-called effective average action (a scale dependent version of the effective action). Introduced in 1993 by Christof Wetterich and Tim R Morris for scalar theories, and by Martin Reuter and Christof Wetterich for general gauge theories (on flat Euclidean space), it is similar to a Wilsonian action (coarse grained free energy) and although it is argued to differ at a deeper level, it is in fact related by a Legendre transform. The cutoff scale dependence of this functional is governed by a functional flow equation which, in contrast to earlier attempts, can easily be applied in the presence of local gauge symmetries also.
+In 1996, Martin Reuter constructed a similar effective average action and the associated flow equation for the gravitational field. It complies with the requirement of background independence, one of the fundamental tenets of quantum gravity. This work can be considered an essential breakthrough in asymptotic safety related studies on quantum gravity as it provides the possibility of nonperturbative computations for arbitrary spacetime dimensions. It was shown that at least for the Einstein–Hilbert truncation, the simplest ansatz for the effective average action, a nontrivial fixed point is indeed present.
+These results mark the starting point for many calculations that followed. Since it was not clear in the pioneer work by Martin Reuter to what extent the findings depended on the truncation ansatz considered, the next obvious step consisted in enlarging the truncation. This process was initiated by Roberto Percacci and collaborators, starting with the inclusion of matter fields. Up to the present many different works by a continuously growing community – including, e.g.,
+
+
+
+f
+(
+R
+)
+
+
+{\displaystyle f(R)}
+- and Weyl tensor squared truncations – have confirmed independently that the asymptotic safety scenario is actually possible: The existence of a nontrivial fixed point was shown within each truncation studied so far. Although still lacking a final proof, there is mounting evidence that the asymptotic safety program can ultimately lead to a consistent and predictive quantum theory of gravity within the general framework of quantum field theory.

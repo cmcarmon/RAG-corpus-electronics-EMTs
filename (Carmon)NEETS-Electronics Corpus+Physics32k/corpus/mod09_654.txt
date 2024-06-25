@@ -1,0 +1,11 @@
+At T1 the input signal reverses polarity and becomes negative-going. Although the charge on 
+capacitor C1 cannot change instantly, the applied negative voltage is equal to or greater than the charge 
+on C1. This causes the anode of D2 to become negative and conduction ceases. When D2 stops 
+conducting e out is at 0. C1 quickly discharges through D1 since its cathode is now negative with respect to 
+ground. Between T1 and T2 the input pulse is again at the 0-volt level and D2 remains in a nonconducting 
+state. Since the very short time constant provided by the conduction resistance of D1 and C1 is so much 
+less than the long time constant offered by D2 and R1 during the conduction period, C1 is always 
+completely discharged between pulses. Thus, for each input pulse, a precise level of charge is deposited 
+on C1. For each charge of C1 an identical output pulse is produced by the flow of ic through R1. Since 
+this current flow always occurs in the direction indicated by the solid arrow, the dc output voltage is 
+positive. 

@@ -1,0 +1,137 @@
+In fluid dynamics, the Keulegan–Carpenter number, also called the period number, is a dimensionless quantity describing the relative importance of the drag forces over inertia forces for bluff objects in an oscillatory fluid flow. Or similarly, for objects that oscillate in a fluid at rest. For small Keulegan–Carpenter number inertia dominates, while for large numbers the (turbulence) drag forces are important.
+The Keulegan–Carpenter number KC is defined as:
+
+
+
+
+
+K
+
+C
+
+
+=
+
+
+
+V
+
+T
+
+L
+
+
+,
+
+
+{\displaystyle K_{C}={\frac {V\,T}{L}},}
+
+where:
+V is the amplitude of the flow velocity oscillation (or the amplitude of the object's velocity, in case of an oscillating object),
+T is the period of the oscillation, and
+L is a characteristic length scale of the object, for instance the diameter for a cylinder under wave loading.
+The Keulegan–Carpenter number is named after Garbis H. Keulegan (1890–1989) and Lloyd H. Carpenter.
+A closely related parameter, also often used for sediment transport under water waves, is the displacement parameter δ:
+
+
+
+
+δ
+=
+
+
+A
+L
+
+
+,
+
+
+{\displaystyle \delta ={\frac {A}{L}},}
+
+with A the excursion amplitude of fluid particles in oscillatory flow and L a characteristic diameter of the sediment material. For sinusoidal motion of the fluid, A is related to V and T as A = VT/(2π), and:
+
+
+
+
+
+K
+
+C
+
+
+=
+2
+π
+
+δ
+.
+
+
+
+{\displaystyle K_{C}=2\pi \,\delta .\,}
+
+The Keulegan–Carpenter number can be directly related to the Navier–Stokes equations, by looking at characteristic scales for the acceleration terms:
+convective acceleration:
+
+
+
+(
+
+u
+
+⋅
+∇
+)
+
+u
+
+∼
+
+
+
+V
+
+2
+
+
+L
+
+
+,
+
+
+{\displaystyle (\mathbf {u} \cdot \nabla )\mathbf {u} \sim {\frac {V^{2}}{L}},}
+
+local acceleration:
+
+
+
+
+
+
+∂
+
+u
+
+
+
+∂
+t
+
+
+
+∼
+
+
+V
+T
+
+
+.
+
+
+{\displaystyle {\frac {\partial \mathbf {u} }{\partial t}}\sim {\frac {V}{T}}.}
+
+Dividing these two acceleration scales gives the Keulegan–Carpenter number.
+A somewhat similar parameter is the Strouhal number, in form equal to the reciprocal of the Keulegan–Carpenter number. The Strouhal number gives the vortex shedding frequency resulting from placing an object in a steady flow, so it describes the flow unsteadiness as a result of an instability of the flow downstream of the object. Conversely, the Keulegan–Carpenter number is related to the oscillation frequency of an unsteady flow into which the object is placed.

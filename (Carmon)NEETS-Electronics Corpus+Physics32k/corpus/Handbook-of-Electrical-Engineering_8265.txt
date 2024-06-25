@@ -1,0 +1,23 @@
+Veriﬁcation
+ is the initial phase in which the ﬁrst prototype chips are “tested” to ensure that they match
+their functional speciﬁcation, that is, to verify the correctness of the design. Veriﬁcation checks that all
+design rules are adhered to, from layout to electrical parameters; more generally, this type of functional
+ (b) does not do what it is
+testing checks that the circuit: (a) implements what it is supposed to do 
+not supposed to do. Both conditions are necessary. This type of evaluation is done at the design stage
+and  uses  a  variety  of  techniques,  including  logic  veriﬁcation  with  the  use  of  hardware  description
+languages,  full  functional  simulation,  and  generation  of  functional  test  vectors.  We  do  not  discuss
+veriﬁcation techniques here.
+Testing
+ correctly refers to the phase when one must ensure that only defect-free production chips are
+packaged and shipped and detect faults arising from manufacturing and/or wear-out. Testing methods
+must  (a)  be  fast  enough  to  be  applied  to  large  amounts  of  chips  during  production,  (b)  take  into
+consideration  whether  the  industry  concerned  has  access  to  large  expensive  external  tester  machines,
+and (c) consider whether the implementation of 
+proves to be advantageous. In
+BIST, the circuit is designed to include its own self-testing extra circuitry and thus can signal directly,
+during testing, its possible failure status. Of course, this involves a certain amount of overhead in area,
+and trade-offs must be considered. The development of appropriate testing algorithms and their tool
+support can require a large amount of engineering effort, but one must note that it may need to be done
+only once per design. The speed of application of the algorithm (applied to many copies of the chips)
+can be of more importance.

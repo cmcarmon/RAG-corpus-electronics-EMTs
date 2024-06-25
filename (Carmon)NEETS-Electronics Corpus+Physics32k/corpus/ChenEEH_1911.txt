@@ -1,0 +1,8 @@
+Some arithmetic codes can also provide error correction by
+generating unique error syndromes for each single-bit error
+(Rao, 1974). In the case of residue coding, this requires mul-
+tiple residues, thus increasing the area. For AN coding, it
+precludes the use of ‘‘low cost’’ A values, thus increasing the
+time spent on decoding. Error correcting codes, therefore, have
+such high time and/or area overheads, making them uncom-
+petitive with other methods.

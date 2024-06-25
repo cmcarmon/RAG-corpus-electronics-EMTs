@@ -1,0 +1,5 @@
+SIMD architectures provide a high degree of parallelism at high speeds. Instruction distribution and decoding
+is not a bottleneck. Furthermore, each processing element has its own data registers and the communication
+network  between  the  processing  elements  can  be  designed  to  be  fast.  However,  not  all  algorithms  can  be
+efﬁciently  mapped  onto  SIMD  architectures.  Global  computation  is  difﬁcult  in  SIMD  machines.  Operations
+that cause global changes to the machine state also create problems.

@@ -1,0 +1,33 @@
+ 
+The  number  of  individual  lines  present  within  the 
+address  bus  and  data  bus  depends  upon  the 
+particular microprocessor employed. Signals on all 
+lines, no matter whether they are used for address, 
+data, or control, can exist in only two basic states: 
+logic 0 (low) or logic 1 (high). Data and addresses 
+are represented by binary numbers (a sequence of 
+1s and 0s) that appear respectively on the data and 
+address bus. 
+  Many  microprocessors  designed  for  control  and 
+instrumentation  applications  make  use  of  an  8-bit 
+data bus and a 16-bit address bus. Others have data 
+and address buses which can operate with as many 
+as 128-bits at a time. 
+  The largest binary number that can appear on an 
+8-bit data bus corresponds to the condition when all 
+eight  lines  are  at  logic  1.  Therefore  the  largest 
+value of data that can be present on the bus at any 
+instant  of  time  is  equivalent  to  the  binary  number 
+11111111  (or  255).  Similarly,  most  the  highest 
+address that can appear on a  16-bit address bus is 
+1111111111111111  (or  65,535). The  full  range  of 
+data  values 
+simple 
+microprocessor of this type is thus: 
+ 
+Data 
+ 
+ 
+Addresses 
+ 
+ 

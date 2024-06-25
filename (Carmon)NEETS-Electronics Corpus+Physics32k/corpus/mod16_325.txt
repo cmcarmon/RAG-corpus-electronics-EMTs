@@ -1,0 +1,8 @@
+A shunt having exactly the same current rating as the expected normal load current should never be
+selected. If you were to select such a shunt, higher than normal load currents could possibly drive the
+pointer off scale and damage the meter movement. A good choice of shunt values will place the indicating
+needle somewhere near the midscale indication when the load current you are reading is normal. For
+example, assume that the meter scale is divided into 100 equal divisions and you want to measure a
+current of 60 amperes. The shunt to use would be a 100-ampere shunt. This would make each division of
+the scale equal to 1 ampere. The meter indication would fall on the 60th division showing that 60 amperes
+of load current is flowing. Therefore, an allowance (40 amperes) remains for unexpected surge currents.

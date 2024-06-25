@@ -1,0 +1,4 @@
+In database management applications it is often desirable to categorize the tuples of a relation by the values
+of a set of attributes and extract an aggregated characteristic of each category. Such database management tasks
+are referred to as aggregation functions. For instance, SQL includes the following built-in aggregation functions:
+SUM,  COUNT,  AVERAGE,  MIN,  MAX.  The  attribute  names  used  for  the  categorization  are  referred  to  as

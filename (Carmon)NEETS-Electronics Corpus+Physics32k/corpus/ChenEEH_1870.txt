@@ -1,0 +1,15 @@
+next hop server for different users and returns the IP address of
+the machine where callee can be found (step 3). On getting this
+IP address, the proxy server forwards the INVITE message
+(step 5) to the host machine. After the UAS has been reached,
+it sends an OK response back to the proxy server (step 8),
+assuming that the callee wants to accept the call. The proxy
+server, in turn, sends back an OK response to the client (step
+9). The client then conﬁrms that he or she has received the
+response by sending an ACK (step 10). A full-ﬂedged multi-
+media session is now initiated between the two participants. At
+the end of this session, the callee sends a BYE message to the
+caller (step 11), which in turn ends the session with another
+BYE message (step 12). Note that we have skipped the
+TRYING and RINGING message exchanges (step 4, step 6,
+and step 7) in the above explanation.

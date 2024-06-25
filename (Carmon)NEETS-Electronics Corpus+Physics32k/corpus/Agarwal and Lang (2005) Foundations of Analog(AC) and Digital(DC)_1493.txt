@@ -1,0 +1,4 @@
+Thus the total driven capacitance must be less than 1.08 pF. Suppose the invert-
+ers used in the clock buffer tree are identical to the clock driver inverters, then
+if the value of each gate capacitor is 100 fF, the maximum fanout degree must
+be less than 1080 fF / 100 fF. Thus the maximum fanout degree is 10.

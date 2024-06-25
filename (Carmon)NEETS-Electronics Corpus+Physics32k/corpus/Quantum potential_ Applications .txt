@@ -1,0 +1,19 @@
+The quantum potential approach can be used to model quantum effects without requiring the Schrödinger equation to be explicitly solved, and it can be integrated in simulations, such as Monte Carlo simulations using the hydrodynamic and drift diffusion equations. This is done in form of a "hydrodynamic" calculation of trajectories: starting from the density at each "fluid element", the acceleration of each "fluid element" is computed from the gradient of
+
+
+
+V
+
+
+{\displaystyle V}
+and
+
+
+
+Q
+
+
+{\displaystyle Q}
+, and the resulting divergence of the velocity field determines the change to the density.
+The approach using Bohmian trajectories and the quantum potential is used for calculating properties of quantum systems which cannot be solved exactly, which are often approximated using semi-classical approaches. Whereas in mean field approaches the potential for the classical motion results from an average over wave functions, this approach does not require the computation of an integral over wave functions.
+The expression for the quantum force has been used, together with Bayesian statistical analysis and Expectation-maximisation methods, for computing ensembles of trajectories that arise under the influence of classical and quantum forces.

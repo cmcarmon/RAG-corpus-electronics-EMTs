@@ -1,0 +1,5 @@
+Our circuit uses two separate diodes; one is the detector diode and the other the agc diode. The agc
+diode is connected to the primary of the last IF transformer and the detector diode to its secondary. A
+positive bias is applied to the cathode of the agc diode. This keeps it from conducting until a prearranged
+signal level has been reached. The adjust delay control allows manual control of the agc diode bias.
+Manual control allows you to select the signal level at which agc is applied. If mostly weak stations are to

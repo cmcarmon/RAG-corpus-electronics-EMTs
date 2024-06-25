@@ -1,0 +1,6 @@
+If  a  single  sinusoidal  basis  function  is  used,  then  a  narrow-band  phase-locked  loop  (PLL)  can  be  used  to
+recover it [1]. Noise corrupting the transmitted signal is suppressed because of the low-pass property of the
+PLL.  When  an  inherently  wideband  chaotic  basis  function  is  used,  the  synchronized  circuit  must  also  be
+wideband in nature. Typically, both the “amplitude” and “phase” of the chaotic basis function must be recovered
+from the received signal. Because of the wideband property of the chaotic basis function, narrow-band linear
+ﬁltering cannot be used to suppress the additive channel noise.

@@ -1,0 +1,8 @@
+Summary
+A  computer’s  memory  system  is  the  repository  for  all  the  information  that  the  CPU  uses  and  produces.  A
+perfect memory system is one that can immediately supply any datum that the CPU requests. This ideal memory
+is not implementable, however, as the three factors of memory capacity, speed, and cost are directly in opposition.
+By staging smaller, faster memories in front of larger, slower, and cheaper memories, the performance of the
+memory system may approach that of a perfect memory system—at a reasonable cost. The memory hierarchies
+of modern general-purpose computers generally contain registers at the top, followed by one or more levels of
+cache memory, main memory, and virtual memory on a magnetic or optical disk.

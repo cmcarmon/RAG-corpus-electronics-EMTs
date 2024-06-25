@@ -1,0 +1,11 @@
+A sample of the transmitter energy is fed through the afc mixer and an IF amplifier to a
+discriminator. The output of the discriminator is a dc error voltage that indicates the degree of mistuning
+between the transmitter and the local oscillator. In this particular example let’s assume that the IF is 30
+megahertz. If the output of the mixer is correct, the discriminator will have no output. If the mixer output
+is above 30 megahertz, the output of the discriminator will be positive dc pulses; if the mixer output is
+below 30 megahertz, the discriminator output will be negative dc pulses. In either case, this output is fed
+through an amplifier to the control circuit. The control circuit adjusts the operating frequency of the local
+oscillator so that no mistuning exists and the IF is 30 megahertz. In this example the local oscillator is a
+reflex klystron and the control circuit provides he repeller plate voltage for the klystron; thus, the klystron
+directly controls the local oscillator frequency. In this manner the local oscillator is maintained exactly 30
+megahertz below the transmitter frequency.

@@ -1,0 +1,23 @@
+The precise definition of the equation of time is
+EOT = GHA − GMHA
+The quantities occurring in this equation are
+EOT, the time difference between apparent solar time and mean solar time;
+GHA, the Greenwich Hour Angle of the apparent (actual) Sun;
+GMHA = Universal Time − Offset, the Greenwich Mean Hour Angle of the mean (fictitious) Sun.
+Here time and angle are quantities that are related by factors such as: 2π radians = 360° = 1 day = 24 hours. The difference, EOT, is measurable since GHA is an angle that can be measured and Universal Time, UT, is a scale for the measurement of time. The offset by π = 180° = 12 hours from UT is needed because UT is zero at mean midnight while GMHA = 0 at mean noon. Both GHA and GMHA, like all physical angles, have a mathematical, but not a physical discontinuity at their respective (apparent and mean) noon. Despite the mathematical discontinuities of its components, EOT is defined as a continuous function by adding (or subtracting) 24 hours in the small time interval between the discontinuities in GHA and GMHA.
+According to the definitions of the angles on the celestial sphere GHA = GAST − α (see hour angle)
+where:
+GAST is the Greenwich apparent sidereal time (the angle between the apparent vernal equinox and the meridian in the plane of the equator). This is a known function of UT.
+α is the right ascension of the apparent Sun (the angle between the apparent vernal equinox and the actual Sun in the plane of the equator).
+On substituting into the equation of time, it is
+EOT = GAST − α − UT + offset
+Like the formula for GHA above, one can write GMHA = GAST − αM, where the last term is the right ascension of the mean Sun. The equation is often written in these terms as
+EOT = αM − α
+where αM = GAST − UT + offset. In this formulation a measurement or calculation of EOT at a certain value of time depends on a measurement or calculation of α at that time. Both α and αM vary from 0 to 24 hours during the course of a year. The former has a discontinuity at a time that depends on the value of UT, while the later has its at a slightly later time. As a consequence, when calculated this way EOT has two, artificial, discontinuities. They can both be removed by subtracting 24 hours from the value of EOT in the small time interval after the discontinuity in α and before the one in αM. The resulting EOT is a continuous function of time.
+Another definition, denoted E to distinguish it from EOT, is
+E = GMST − α − UT + offset
+Here GMST = GAST − eqeq, is the Greenwich mean sidereal time (the angle between the mean vernal equinox and the mean Sun in the plane of the equator). Therefore, GMST is an approximation to GAST (and E is an approximation to EOT); eqeq is called the equation of the equinoxes and is due to the wobbling, or nutation of the Earth's axis of rotation about its precessional motion. Since the amplitude of the nutational motion is only about 1.2 s (18″ of longitude) the difference between EOT and E can be ignored unless one is interested in subsecond accuracy.
+A third definition, denoted Δt to distinguish it from EOT and E, and now called the Equation of Ephemeris Time (prior to the distinction that is now made between EOT, E, and Δt the latter was known as the equation of time) is
+Δt = Λ − α
+here Λ is the ecliptic longitude of the mean Sun (the angle from the mean vernal equinox to the mean Sun in the plane of the ecliptic).
+The difference Λ − (GMST − UT + offset) is 1.3 s from 1960 to 2040. Therefore, over this restricted range of years Δt is an approximation to EOT whose error is in the range 0.1 to 2.5 s depending on the longitude correction in the equation of the equinoxes; for many purposes, for example correcting a sundial, this accuracy is more than good enough.

@@ -1,0 +1,19 @@
+Logical AND procedural links
+The logical operators AND, XOR, and OR among procedural relations enable specification of elaborate process precondition and postcondition. Separate, non-touching links shall have the semantics of logical AND.
+In the example, opening the safe requires all three keys.
+
+Logical XOR and OR procedural links
+A group of two or more procedural links of the same kind that originate from, or arrive at, the same object or process shall be a link fan. A link fan shall follow the semantics of either a XOR or an OR operator. The link fan end that is common to the links shall be the convergent link end. The link end that is not common to the links shall be the divergent link end.
+The XOR operator shall mean that exactly one of the things in the span of the link fan exists, if the divergent link end has objects, or happens, if the divergent link end has processes. Graphically, a dashed arc across the links in the link fan with the arc focal point at the convergent end point of contact shall denote the XOR operator.
+The OR operator shall mean that at least one of the two or more things in the span of the link fan exists, if the divergent link end has objects, or happens, if the divergent end has processes. Graphically, two concentric dashed arcs across the links with their focal point at the convergent end point of contact shall denote the OR operator.
+State-specified XOR and OR link fans
+Each one of the link fans in shall have a corresponding state-specified version, where the source and destination may be specific object states or objects without a state specification. Combinations of state-specified and stateless links as destinations of a link fan may occur.
+
+Control-modified link fans
+Each one of the XOR link fans for consumption, result, effect, and enabling links and their state-specified versions shall have a corresponding control-modified link fan: an event link fan and a condition link fan. The example presents the event and condition effect link fans, as representatives of the basic (non-state-specified) links version of the modified link fans.
+
+Link probabilities and probabilistic link fans
+A process P with a result link that yields a stateful object B with n states s1 through sn shall mean that the probability of generating B at each one of its states shall be 1/n. The single result link shall be used instead of the result link fan. Usually, probabilities of following a specific link in a link fan are not equal. Link probability shall be a value assigned to a link in a XOR diverging link fan that specifies the probability of following that particular link among the possible links in the fan link. A probabilistic link fan shall be a link fan with probability annotations on each fan link, where the sum of the probabilities shall be exactly 1. Graphically, along each fan link an annotation shall appear in the form Pr=p, where p is the link probability numeric value or a parameter, which denotes the probability of the system control to select and follow that particular link of the fan. The corresponding OPL sentence shall be the XOR diverging link fan sentence without link probabilities omitting the phrase "exactly one of…" and the phrase "…with probability p" following each things name with a probability annotation "Pr=p".
+
+Execution path and path labels
+A path label shall be a label along a procedural link, which, in the case that there is more than one option to follow upon process termination, prescribes that the link to follow will be the one having the same label as the one which we entered the process, A path label is a label on a procedural link that removes the ambiguity arising from multiple outgoing procedural links by specifying that the link to be followed is the one with the same label as the one with which the process was entered.

@@ -1,0 +1,38 @@
+Eugene Wigner showed that a symmetry operation S of a Hamiltonian is represented, in quantum mechanics either by a unitary operator, S = U, or an antiunitary one, S = UK where U is unitary, and K denotes complex conjugation. These are the only operations that act on Hilbert space so as to preserve the length of the projection of any one state-vector onto another state-vector.
+Consider the parity operator. Acting on the position, it reverses the directions of space, so that PxP−1 = −x. Similarly, it reverses the direction of momentum, so that PpP−1 = −p, where x and p are the position and momentum operators. This preserves the canonical commutator [x, p] = iħ, where ħ is the reduced Planck constant, only if P is chosen to be unitary, PiP−1 = i.
+On the other hand, the time reversal operator T, it does nothing to the x-operator, TxT−1 = x, but it reverses the direction of p, so that TpT−1 = −p. The canonical commutator is invariant only if T is chosen to be anti-unitary, i.e., TiT−1 = −i.
+Another argument involves energy, the time-component of the momentum. If time reversal were implemented as a unitary operator, it would reverse the sign of the energy just as space-reversal reverses the sign of the momentum. This is not possible, because, unlike momentum, energy is always positive. Since energy in quantum mechanics is defined as the phase factor exp(-iEt) that one gets when one moves forward in time, the way to reverse time while preserving the sign of the energy is to also reverse the sense of "i", so that the sense of phases is reversed.
+Similarly, any operation that reverses the sense of phase, which changes the sign of i, will turn positive energies into negative energies unless it also changes the direction of time. So every antiunitary symmetry in a theory with positive energy must reverse the direction of time. Every antiunitary operator can be written as the product of the time reversal operator and a unitary operator that does not reverse time.
+For a particle with spin J, one can use the representation
+
+
+
+
+T
+=
+
+e
+
+−
+i
+π
+
+J
+
+y
+
+
+
+/
+
+ℏ
+
+
+K
+,
+
+
+{\displaystyle T=e^{-i\pi J_{y}/\hbar }K,}
+
+
+where Jy is the y-component of the spin, and use of TJT−1 = −J has been made.

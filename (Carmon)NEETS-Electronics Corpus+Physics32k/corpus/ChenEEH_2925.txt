@@ -1,0 +1,16 @@
+aspect fm. The image can be reconstructed by taking a 2-D
+Fourier transform over the collected frequency responses. To
+use the efﬁcient 2-D fast Fourier transform (FFT),
+the
+data sampled in polar grid format should be converted to data
+sampled in rectangular grid format through an interpolation
+process as shown in Figure 10.8(B). The image is then pro-
+cessed by taking the 2-D FFT on the interpolated samples
+as shown in Figure 10.8(C). If the data measured are the com-
+plex range proﬁles for each aspect angle, we can convert the
+complex range proﬁle into the complex frequency response
+through a 1-D FFT and arrange the frequency response data in
+polar format. The image can be reconstructed by the same
+procedure shown in Figure 10.8. The cross-range resolution
+DX of rotating object imaging is related to the total rotation
+angle fT and wavelength l by:

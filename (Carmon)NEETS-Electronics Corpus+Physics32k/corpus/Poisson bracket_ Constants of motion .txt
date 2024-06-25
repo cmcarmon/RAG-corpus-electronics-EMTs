@@ -1,0 +1,147 @@
+An integrable dynamical system will have constants of motion in addition to the energy. Such constants of motion will commute with the Hamiltonian under the Poisson bracket. Suppose some function f(p, q) is a constant of motion. This implies that if p(t), q(t) is a trajectory or solution to the Hamilton's equations of motion, then
+
+
+
+
+0
+=
+
+
+
+
+d
+
+f
+
+
+
+d
+
+t
+
+
+
+
+
+{\displaystyle 0={\frac {{\text{d}}f}{{\text{d}}t}}}
+
+along that trajectory. Then
+
+
+
+
+0
+=
+
+
+d
+
+
+d
+
+t
+
+
+
+f
+(
+p
+,
+q
+)
+=
+{
+f
+,
+H
+}
++
+
+
+
+∂
+f
+
+
+∂
+t
+
+
+
+
+
+{\displaystyle 0={\frac {\text{d}}{{\text{d}}t}}f(p,q)=\{f,H\}+{\frac {\partial f}{\partial t}}}
+
+where, as above, the intermediate step follows by applying the equations of motion. This equation is known as the Liouville equation. The content of Liouville's theorem is that the time evolution of a measure (or "distribution function" on the phase space) is given by the above.
+If the Poisson bracket of f and g vanishes ({f,g} = 0), then f and g are said to be in involution. In order for a Hamiltonian system to be completely integrable, all of the constants of motion must be in mutual involution.
+Furthermore, according to the Poisson's Theorem, if two quantities
+
+
+
+
+A
+
+
+
+{\displaystyle \scriptstyle A}
+and
+
+
+
+
+B
+
+
+
+{\displaystyle \scriptstyle B}
+are constants of motion, so is their Poisson bracket
+
+
+
+
+{
+A
+,
+
+B
+}
+
+
+
+{\displaystyle \scriptstyle \{A,\,B\}}
+. This does not always supply a useful result, however, since the number of possible constants of motion is limited (
+
+
+
+
+2
+n
+
+−
+
+1
+
+
+
+{\displaystyle \scriptstyle 2n\,-\,1}
+for a system with n degrees of freedom), and so the result may be trivial (a constant, or a function of
+
+
+
+
+A
+
+
+
+{\displaystyle \scriptstyle A}
+and
+
+
+
+
+B
+
+
+
+{\displaystyle \scriptstyle B}
+.)

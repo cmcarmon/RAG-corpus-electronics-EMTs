@@ -1,0 +1,12 @@
+Turning  to  supercomputer  I/O  systems,  we  will  now  examine  the  I/O  architecture  of  the  Cray  machines.
+Because the Cray I/O system (IOS) varies from model to model, the following discussion concentrates on the
+IOS found on the Cray X-MP and Y-MP [Cray, 1988]. In general, the IOS consists of two to four I/O processors
+(IOPs), each with its own local memory and sharing a common buffer memory with the other IOPs. The IOP
+is designed to be a simple, fast machine for controlling data transfers between devices and the central memory
+of the Cray main processors. Since it executes the control statements of an I/O program, it is not unlike the
+IBM channel processor in terms of its functionality, except that IO programs reside in its local memory rather
+than in the host’s. An IOP’s local memory is connected through a high-speed communications interface, called
+a channel in Cray terminology, to a disk control unit (DCU). A given port into the local memory can be time
+multiplexed  among  multiple  channels.  Data  is  transferred  back  and  forth  between  devices  and  the  main
+processors  through  the  IOP’s  local  memory,  which  is  interfaced  to  central  memory  through  a  100-Mbyte/s
+channel pair (one pathway for each direction of transfer).

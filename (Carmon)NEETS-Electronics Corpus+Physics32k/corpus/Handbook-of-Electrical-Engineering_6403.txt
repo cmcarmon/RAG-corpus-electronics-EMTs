@@ -1,0 +1,7 @@
+Linear Transversal Equalizers
+Among the many structures used for equalization, the simplest is the transversal (tapped delay line or nonre-
+cursive) equalizer shown in Fig. 70.6. In such an equalizer the current and past values r(t – nT) of the received
+signal are linearly weighted by equalizer coefﬁcients (tap gains) cn and summed to produce the output. In the
+commonly used digital implementation, samples of the received signal at the symbol rate are stored in a digital
+shift register (or memory), and the equalizer output samples (sums of products) z(t0 + kT) or zk are computed
+digitally, once per symbol, according to

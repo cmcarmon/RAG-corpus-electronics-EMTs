@@ -1,0 +1,8 @@
+The RBS interfaces with the front-panel station selection buttons by “reading” a single-byte memory location.
+Each bit position of this memory location is associated with a particular front-panel station selection button.
+ depressed. The value of 1
+The value of 0 in a given bit position indicates that the corresponding button is 
+ depressed. (For example, 0000 0000 indicates no
+in that bit position indicates that the corresponding button 
+station  selection  buttons  are  currently  depressed;  0000  0010  indicates  that  the  second  button  is  currently
+depressed, etc.)

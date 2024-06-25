@@ -1,0 +1,72 @@
+As with most of the engineering approximations, the no-slip condition does not always hold in reality. For example, at very low pressure (e.g. at high altitude), even when the continuum approximation still holds there may be so few molecules near the surface that they "bounce along" down the surface. A common approximation for fluid slip is:
+
+
+
+
+u
+−
+
+u
+
+W
+a
+l
+l
+
+
+=
+β
+
+
+
+∂
+u
+
+
+∂
+n
+
+
+
+
+
+{\displaystyle u-u_{Wall}=\beta {\frac {\partial u}{\partial n}}}
+
+where
+
+
+
+n
+
+
+{\displaystyle n}
+is the coordinate normal to the wall and
+
+
+
+β
+
+
+{\displaystyle \beta }
+is called the slip length. For an ideal gas, the slip length is often approximated as
+
+
+
+β
+≈
+1.15
+ℓ
+
+
+{\displaystyle \beta \approx 1.15\ell }
+, where
+
+
+
+ℓ
+
+
+{\displaystyle \ell }
+is the mean free path. Some highly hydrophobic surfaces have also been observed to have a nonzero but nanoscale slip length.
+While the no-slip condition is used almost universally in modeling of viscous flows, it is sometimes neglected in favor of the 'no-penetration condition' (where the fluid velocity normal to the wall is set to the wall velocity in this direction, but the fluid velocity parallel to the wall is unrestricted) in elementary analyses of inviscid flow, where the effect of boundary layers is neglected.
+The no-slip condition poses a problem in viscous flow theory at contact lines: places where an interface between two fluids meets a solid boundary. Here, the no-slip boundary condition implies that the position of the contact line does not move, which is not observed in reality. Analysis of a moving contact line with the no slip condition results in infinite stresses that can't be integrated over. The rate of movement of the contact line is believed to be dependent on the angle the contact line makes with the solid boundary, but the mechanism behind this is not yet fully understood.

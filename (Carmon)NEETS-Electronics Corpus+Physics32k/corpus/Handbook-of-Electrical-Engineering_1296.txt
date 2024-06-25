@@ -1,0 +1,5 @@
+In most practical applications, the given data observations are not perfectly represented by a low-order recursive
+relationship. This is typically manifested in the composite data matrix being full rank. To use the concept of
+signal restoration to achieve a suitably good approximate recursive model, we could suitably modify the given
+excitation-response data so that the modiﬁed data has an associated composite data matrix which satisﬁes the
+above two attributes. The signal restoration algorithm associated with this objective is given by

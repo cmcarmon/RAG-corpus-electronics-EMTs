@@ -1,0 +1,20 @@
+blocking or a tripping signal. In the case a blocking signal is
+issued, the relay from one end, after making a decision about a
+fault, sends a blocking signal to the other relay. If a trip signal
+is used, the relay that ﬁrst detects the fault sends a signal to the
+other end. This will make the other relay perform a trip action
+immediately after it has detected a fault as well. Additional
+consideration in selecting the scheme relates to the type of
+detectors used in the relays for making the decisions about the
+existence of a fault and the location of the fault with the respect
+to the zones. Speciﬁc choices in setting up the zones are made
+for each scheme operation. Typical choices for the detector
+types are overcurrent and/or directional, with the zone I and /
+or zone II settings being involved in the decision making.
+A summary of the above considerations is given in Table 9.3.
+As with any other relaying approach, the scheme implemen-
+tations also have different performance criteria established. If
+one takes the dependability/security criterion (WG D5, 1997;
+WG, 1981) as the guiding factor in making the decisions, then
+the property of the various relaying scheme solutions can be
+classiﬁed as follows:

@@ -1,0 +1,8 @@
+Tree Search
+The search for the most likely word sequence can be thought of as searching for a path in a tree whose branches
+are labeled with the various words of the vocabulary V such that there are |V| branches leaving each node, one
+for each word (i.e., the size of the vocabulary). Typically, in large vocabulary continuous speech recognition,
+this  search  from  a  tree  of  possible  hypotheses  turns  out  to  be  a  very  large  computational  effort.  Hence,  the
+search is limited by a fast match approach [26] that will reject from consideration several branches of the tree
+without subjecting them to a detailed analysis. The Viterbi algorithm achieves the same kind of pruning using
+the beam search approach and multi-pass strategies.

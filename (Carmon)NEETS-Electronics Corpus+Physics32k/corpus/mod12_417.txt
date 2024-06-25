@@ -1,0 +1,10 @@
+A simple, one-transistor REGENERATIVE DETECTOR circuit that uses the heterodyning principle
+for cw operation is shown in figure 3-4. The circuit can be made to oscillate by increasing the amount of
+energy fed back to the tank circuit from the collector-output circuit (by physically moving tickler coil L2
+closer to L1 using the regeneration control). This feedback overcomes losses in the base-input circuit and
+causes self-oscillations which are controlled by tuning capacitor C1. The received signal from the antenna
+and the oscillating frequency are both present at the base of transistor Q1. These two frequencies are
+heterodyned by the nonlinearity of the transistor. The resulting beat frequencies are then rectified by the
+emitter-base junction and produce a beat note which is amplified in the collector-output circuit. The af
+currents in the collector circuit actuate the phones. The REGENERATIVE DETECTOR (figure 3-4)
+produces its own oscillations, heterodynes them with an incoming signal, and rectifies or detects them.

@@ -1,0 +1,59 @@
+At low fields, the drift velocity vd is proportional to the electric field E, so mobility μ is constant. This value of μ is called the low-field mobility.
+As the electric field is increased, however, the carrier velocity increases sublinearly and asymptotically towards a maximum possible value, called the saturation velocity vsat. For example, the value of vsat is on the order of 1×107 cm/s for both electrons and holes in Si. It is on the order of 6×106 cm/s for Ge. This velocity is a characteristic of the material and a strong function of doping or impurity levels and temperature. It is one of the key material and semiconductor device properties that determine a device such as a transistor's ultimate limit of speed of response and frequency.
+This velocity saturation phenomenon results from a process called optical phonon scattering. At high fields, carriers are accelerated enough to gain sufficient kinetic energy between collisions to emit an optical phonon, and they do so very quickly, before being accelerated once again. The velocity that the electron reaches before emitting a phonon is:
+
+
+
+
+
+
+
+
+m
+
+∗
+
+
+
+v
+
+e
+m
+i
+t
+
+
+2
+
+
+
+2
+
+
+≈
+ℏ
+
+ω
+
+p
+h
+o
+n
+o
+n
+(
+o
+p
+t
+.
+)
+
+
+
+
+{\displaystyle {\frac {m^{*}v_{emit}^{2}}{2}}\approx \hbar \omega _{phonon(opt.)}}
+
+
+where ωphonon(opt.) is the optical-phonon angular frequency and m* the carrier effective mass in the direction of the electric field. The value of Ephonon (opt.) is 0.063 eV for Si and 0.034 eV for GaAs and Ge. The saturation velocity is only one-half of vemit, because the electron starts at zero velocity and accelerates up to vemit in each cycle. (This is a somewhat oversimplified description.)
+Velocity saturation is not the only possible high-field behavior. Another is the Gunn effect, where a sufficiently high electric field can cause intervalley electron transfer, which reduces drift velocity. This is unusual; increasing the electric field almost always increases the drift velocity, or else leaves it unchanged. The result is negative differential resistance.
+In the regime of velocity saturation (or other high-field effects), mobility is a strong function of electric field. This means that mobility is a somewhat less useful concept, compared to simply discussing drift velocity directly.

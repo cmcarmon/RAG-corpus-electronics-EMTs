@@ -1,0 +1,5 @@
+A computer simulation can also be used to verify the accuracy of these ﬁgures. The following
+SPICE analysis will show all resistor voltages and currents (note the current-sensing vi1, vi2, .
+. . ”dummy” voltage sources in series with each resistor in the netlist, necessary for the SPICE
+computer program to track current through each path). These voltage sources will be set to
+have values of zero volts each so they will not affect the circuit in any way.

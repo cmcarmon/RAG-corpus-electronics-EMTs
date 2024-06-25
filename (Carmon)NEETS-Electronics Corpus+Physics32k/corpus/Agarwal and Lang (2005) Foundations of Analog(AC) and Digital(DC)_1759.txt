@@ -1,0 +1,9 @@
+s t e p r e s p o n s e o f s e r i e s r l c c i r c u i t
+e x a m p l e 12.7
+In this example we evaluate the step response of the circuit shown in Figure 12.29 with
+R = 50 , L = 20 mH, and C = 13 pF. Assume that vIN steps from 0 to V◦ at t = 0,
+where V◦ = 1 V. In other words, vIN = V◦u(t) = u(t) V, where u(t) is the unit step
+function. Let us suppose that we are interested in obtaining iL, vR, vC, and vL.
+Following Equations 12.123, 12.124, and 12.127, respectively, this circuit is character-
+ized by α = 1.25 krad/s, ω◦ = 62.017 krad/s, and ωd = 62.005 krad/s.
+From Equation 12.142

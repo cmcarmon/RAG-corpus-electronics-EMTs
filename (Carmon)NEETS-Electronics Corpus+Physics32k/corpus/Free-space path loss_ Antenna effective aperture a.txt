@@ -1,0 +1,49 @@
+Despite the misleading name, the free-space path loss formula inherits two important effects from the Friis Transmission Formula:
+Intensity (
+
+
+
+I
+
+
+{\displaystyle I}
+) - the power density due to path loss by spreading of the electromagnetic energy yielding loss proportional to the square of distance;
+Antenna Capture Area (
+
+
+
+
+A
+
+e
+f
+f
+
+
+
+
+{\displaystyle A_{eff}}
+) - the capability of the receiving antenna to capture electromagnetic energy yielding loss inversely proportional to the square of wavelength or proportional to the square of frequency.
+Hence the equation for FSPL is:
+
+Friis implied the antennas are isotropic. Hence the power density
+
+
+
+I
+
+
+{\displaystyle I}
+from the isotropic transmit antenna vs. distance from the antenna
+
+
+
+d
+
+
+{\displaystyle d}
+is...
+
+The effective area of the isotropic antenna is...
+
+Combining the two yields...

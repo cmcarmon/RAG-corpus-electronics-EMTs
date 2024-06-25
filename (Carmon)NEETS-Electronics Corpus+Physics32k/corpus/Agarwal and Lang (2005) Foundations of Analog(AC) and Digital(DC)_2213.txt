@@ -1,0 +1,14 @@
+At time t = t1, the switch moves to position (1), and C1 charges (instantly) to voltage
+v1(t1). Then at time t2, the switch moves to position (2), and C1 discharges into C2.
+) (cid:1) 0 can still be used,
+Assuming that the usual Op Amp approximation of (v
+calculate the charge that is ‘‘dumped’’ at each cycle, hence the average current (a function
+of both vI and the switching frequency fc), and hence the effective resistance of the
+switched capacitor. Also, show that the overall system equation relating vO to vI is the
+same as in Problem 5.14.
+p r o b l e m 15.16
+In Figure 15.83, what are the constraints on C1 and C2 set by
+the Op Amp voltage and current limits? Calculate the appropriate values of C1, C2, and
+fc for operation at 20 Hz and above. Can the circuit now be built on an IC chip if we
+replace the switch by MOS transistors, and Cmax = 100 pF?
+p r o b l e m 15.17 Design a differentiator circuit out of RC circuits and Op Amps.

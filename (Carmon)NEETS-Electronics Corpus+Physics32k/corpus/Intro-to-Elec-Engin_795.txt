@@ -1,0 +1,9 @@
+Note that when the output is in the high state, the PMOS is on with the NMOS being off;
+when the output is in the low state, the NMOS is on with the PMOS being off. Virtually no current
+is drawn from the power supply in either case. The CMOS has the advantage that it uses no power
+except when it is actually switching. This property of virtually no power consumption, coupled
+with the small chip surface needed, makes the CMOS very favorable for miniature and low-
+power applications such as wristwatches and calculators. Because of the poor switching speeds
+(compared to TTL), they are applied to low- to medium-speed devices. The principal disadvantage
+of the CMOS is a more complex fabrication procedure than that of the NMOS, leading to more
+defects and higher cost.

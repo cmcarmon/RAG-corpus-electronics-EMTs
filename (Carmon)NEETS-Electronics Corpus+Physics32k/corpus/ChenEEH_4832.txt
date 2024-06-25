@@ -1,0 +1,15 @@
+. Publish–subscribe: In this model, many components
+interact with one another in a many-to-many architec-
+ture. To achieve this, this publish–subscribe model intro-
+duces an intermediate level between the components that
+acts to mediate the communications. Components can be
+designated as publishers, which produce data, and sub-
+scribers, which require data as input. An example of a
+publisher is a sensor that produces measurements. An
+example of a subscriber is a control algorithm that re-
+quires the measurements from the sensor. In a complex
+control system, there may be many publishers and many
+subscribers. For example, a process control system may
+have distributed components using many processors, or
+at least many separate algorithms all using similar data,
+and numerous sensors producing data.

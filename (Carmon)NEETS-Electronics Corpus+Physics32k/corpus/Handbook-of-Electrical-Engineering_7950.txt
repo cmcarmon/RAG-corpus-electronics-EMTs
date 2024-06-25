@@ -1,0 +1,8 @@
+This PLA has three inputs, ﬁve product terms, and two outputs. Each input is fed into the ﬁrst array, the
+AND array, in true and complement form. This enables any product to be formed. The products are all fed
+into  the  OR  array. A  cross  at  an  intersection  indicates  a  connection.  Notice  that  some  products  are  used  to
+contribute to both outputs. The ability to share product terms in this way is an important feature of the PLA.
+The product terms which make up the inputs to the OR gate for the SUM output are those given in Eq. (81.14).
+The  equation  for  the  CARRY  output  has  been  modiﬁed  for  use  in  this  PLA  which  also  has  programmable
+output inversions, indicated by the two exclusive-OR gates. The modiﬁed equation for the inverse of CARRY,
+which now shares some products with the ﬁrst function, is

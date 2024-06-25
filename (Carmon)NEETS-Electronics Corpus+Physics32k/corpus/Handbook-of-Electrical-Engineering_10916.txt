@@ -1,0 +1,5 @@
+• Each  connection  on  the  diagram  corresponds  to  a  memory  location  in  the  code.  To  ensure  readable
+ in Fig. 112.11, is explicitly declared as a variable in the code.
+code, each labeled connection, e.g., 
+Unlabeled connections are mapped into reusable temporary variables or, in the case of assembler code,
+temporarily used registers. This ensures a locally optimized and yet fully readable code.

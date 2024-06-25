@@ -1,0 +1,7 @@
+2. Polar waveform, which consists of a pulse of duration Tb for a binary 1 and a negative
+pulse of the same magnitude and duration for a 0. This yields better system performance
+in noise than the unipolar format, because of the wider distinction between the two values.
+3. Manchester waveform, which transmits a pulse of duration Tb/2 followed by an equal
+magnitude, but negative pulse of duration Tb/2 for each binary 1, and the negative of this
+two-pulse sequence for a binary 0. Even when a long string of 0s or 1s may occur in the
+digital sequence, the advantage of this format is that it never contains a dc component.

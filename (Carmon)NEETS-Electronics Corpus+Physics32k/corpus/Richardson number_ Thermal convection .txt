@@ -1,0 +1,86 @@
+In thermal convection problems, Richardson number represents the importance of natural convection relative to the forced convection. The Richardson number in this context is defined as
+
+
+
+
+
+R
+i
+
+=
+
+
+
+g
+β
+(
+
+T
+
+hot
+
+
+−
+
+T
+
+ref
+
+
+)
+L
+
+
+V
+
+2
+
+
+
+
+
+
+{\displaystyle \mathrm {Ri} ={\frac {g\beta (T_{\text{hot}}-T_{\text{ref}})L}{V^{2}}}}
+
+where g is the gravitational acceleration,
+
+
+
+β
+
+
+{\displaystyle \beta }
+is the thermal expansion coefficient, Thot is the hot wall temperature, Tref is the reference temperature, L is the characteristic length, and V is the characteristic velocity.
+The Richardson number can also be expressed by using a combination of the Grashof number and Reynolds number,
+
+
+
+
+
+R
+i
+
+=
+
+
+
+G
+r
+
+
+
+R
+e
+
+
+2
+
+
+
+
+.
+
+
+{\displaystyle \mathrm {Ri} ={\frac {\mathrm {Gr} }{\mathrm {Re} ^{2}}}.}
+
+Typically, the natural convection is negligible when Ri < 0.1, forced convection is negligible when Ri > 10, and neither is negligible when 0.1 < Ri < 10. It may be noted that usually the forced convection is large relative to natural convection except in the case of extremely low forced flow velocities. In the design of water filled thermal energy storage tanks, the Richardson number can be useful.

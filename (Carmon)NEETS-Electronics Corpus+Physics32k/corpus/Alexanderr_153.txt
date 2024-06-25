@@ -1,0 +1,14 @@
+Solution:
+The  schematic  is  shown  in  Fig.  3.35.  (The  schematic  in  Fig.  3.35
+includes the output results, implying that it is the schematic displayed
+on  the  screen  after the  simulation.)  Notice  that  the  voltage-controlled
+voltage  source  E1  in  Fig.  3.35  is  connected  so  that  its  input  is  the
+voltage  across  the  4-
+resistor;  its  gain  is  set  equal  to  3.  In  order  to
+display the required currents, we insert pseudocomponent IPROBES in
+the  appropriate  branches. The  schematic  is  saved  as  exam311.sch and
+simulated by selecting Analysis/Simulate. The results are displayed on
+IPROBES as shown in Fig. 3.35 and saved in output ﬁle exam311.out.
+From the output ﬁle or the IPROBES, we obtain 
+A and
+i3 ⫽ 2.667

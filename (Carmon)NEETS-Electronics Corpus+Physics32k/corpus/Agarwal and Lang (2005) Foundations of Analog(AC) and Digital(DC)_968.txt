@@ -1,0 +1,10 @@
+The use of the amplifier with an input DC offset (and a resulting output
+offset) is important enough to merit some new terminology. The DC offset (for
+example, VX) applied to the input of the amplifier is also called a DC bias. The
+use of the DC offset voltage at the input establishes an operating point for the
+amplifier. The operating point is sometimes referred to as the bias point. As an
+example, the operating point values of the input and output voltages for the
+amplifier in Figure 7.26 are VX and VY, respectively. We can select different
+operating points for the amplifier by applying different values of the input DC
+offset voltage. Section 7.7 discusses various methods of choosing an operating
+point.

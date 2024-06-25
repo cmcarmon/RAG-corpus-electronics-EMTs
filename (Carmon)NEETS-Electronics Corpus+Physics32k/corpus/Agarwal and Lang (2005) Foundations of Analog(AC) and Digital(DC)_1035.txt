@@ -1,0 +1,12 @@
+e x a m p l e 7.15 a b j t a m p l i f i e r
+Figure 7.54 shows an amplifier cir-
+cuit based on a BJT. This BJT amplifier configuration is called a common emitter amplifier
+since the emitter terminal of the BJT is common across the input and output ports.
+Using the piecewise-linear model for the BJT, determine the relationship between vO
+and vIN, assuming that the BJT device is operating in its active region. Using this relation,
+determine the values of vO for vIN = 1 V, 1.1 V, and 1.2 V, given that RI = 100 k,
+RL = 10 k, β = 100, and VS = 10 V.
+Figure 7.55 shows the equivalent circuit for the amplifier in which the BJT has been
+replaced with its piecewise-linear model. Notice we can safely ignore the collector diode
+and use the simple BJT model in Figure 7.52 since we are told that the BJT is operating in
+its active region. Figure 7.56 further shows the active region subcircuit for the amplifier.

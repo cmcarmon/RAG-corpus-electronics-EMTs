@@ -1,0 +1,6 @@
+Since voltmeters are always connected in parallel with the component or components un-
+der test, any current through the voltmeter will contribute to the overall current in the tested
+circuit, potentially affecting the voltage being measured. A perfect voltmeter has inﬁnite re-
+sistance, so that it draws no current from the circuit under test. However, perfect voltmeters
+only exist in the pages of textbooks, not in real life! Take the following voltage divider circuit
+as an extreme example of how a realistic voltmeter might impact the circuit its measuring:

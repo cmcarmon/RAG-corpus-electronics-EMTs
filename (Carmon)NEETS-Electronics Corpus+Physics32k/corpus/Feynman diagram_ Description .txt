@@ -1,0 +1,14 @@
+A Feynman diagram represents a perturbative contribution to the amplitude of a quantum transition from some initial quantum state to some final quantum state.
+For example, in the process of electron-positron annihilation the initial state is one electron and one positron, the final state: two photons.
+The initial state is often assumed to be at the left of the diagram and the final state at the right (although other conventions are also used quite often).
+A Feynman diagram consists of points, called vertices, and lines attached to the vertices.
+The particles in the initial state are depicted by lines sticking out in the direction of the initial state (e.g., to the left), the particles in the final state are represented by lines sticking out in the direction of the final state (e.g., to the right).
+In QED there are two types of particles: electrons/positrons (called fermions) and photons (called gauge bosons). They are represented in Feynman diagrams as follows:
+Electron in the initial state is represented by a solid line with an arrow pointing toward the vertex (→•).
+Electron in the final state is represented by a line with an arrow pointing away from the vertex: (•→).
+Positron in the initial state is represented by a solid line with an arrow pointing away from the vertex: (←•).
+Positron in the final state is represented by a line with an arrow pointing toward the vertex: (•←).
+Photon in the initial and the final state is represented by a wavy line (~• and •~).
+In QED a vertex always has three lines attached to it: one bosonic line, one fermionic line with arrow toward the vertex, and one fermionic line with arrow away from the vertex.
+The vertices might be connected by a bosonic or fermionic propagator. A bosonic propagator is represented by a wavy line connecting two vertices (•~•). A fermionic propagator is represented by a solid line (with an arrow in one or another direction) connecting two vertices, (•←•).
+The number of vertices gives the order of the term in the perturbation series expansion of the transition amplitude.

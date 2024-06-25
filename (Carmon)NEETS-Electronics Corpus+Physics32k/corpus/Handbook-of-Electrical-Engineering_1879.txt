@@ -1,0 +1,4 @@
+Heterogeneous architectures can also be used for more complex algorithms. Figure 17.27 shows a sketch for
+a possible architecture for MPEG-style video compression [MPE]. The unit has separate blocks for the major
+operations: block motion estimation, discrete cosine transform (DCT) calculation, and channel coding; it also
+has a processor used for overall control.

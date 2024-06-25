@@ -1,0 +1,13 @@
+It is obvious that testing must be carried out for each of the factors utilized by the Function Point metric.
+Empirical observations indicate that from two to four test cases per Function Point are the normal quantities
+created by commercial software vendors and computer manufacturers. Thus for an application of 1000 Function
+Points in size, from 2000 to 4000 test cases may be required to test the user-deﬁned functionality of the application.
+Testing can be approached from several directions. Testing which attempts to validate user requirements or
+the functionality of software, without regard for its inner structure of the application, is termed black-box testing.
+ Black-box test case construction for software has long been a largely manual operation that is both labor-
+intensive and unreliable. (Empirical observations of operating system test libraries revealed more errors in the
+test cases than in the product being tested.) Test case generators have been used experimentally since the 1970s
+and are starting to appear as both stand-alone products and as parts of CASE tool suites. However, in order
+for  test  case  generation  to  work  effectively,  the  speciﬁcations  or  written  description  of  the  software  must  be
+fairly  complete,  rigorous,  and  valid  in  its  own  right.  It  is  to  no  purpose  to  generate  automatic  test  cases  for
+incorrect speciﬁcations.

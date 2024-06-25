@@ -1,0 +1,7 @@
+We would like the user of a MOSFET amplifier to be able to treat it as
+the abstract entity depicted in Figure 7.28, ignoring the internal details of the
+circuit. This abstract amplifier has vIN and iIN at its input port and vO and iO
+at its output port, and provides power gain. Details such as the power supply
+and the like are hidden from the user. The amplifier shown in Figure 7.28 uses
+ground as an implicit second terminal for both the input port and the output
+port. This form of amplifier is also called the single-ended amplifier.

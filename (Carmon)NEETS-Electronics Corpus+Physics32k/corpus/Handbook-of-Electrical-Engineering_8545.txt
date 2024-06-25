@@ -1,0 +1,4 @@
+Microinstruction Structure
+On a given hardware, many processing functions are available. In general a subset O of these functions can be
+performed in parallel, for example, carrying on an addition between two registers while copying a register on
+an I/O bus. These functions are called microcommands.

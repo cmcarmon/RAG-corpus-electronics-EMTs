@@ -1,0 +1,6 @@
+At the implementation detail level, there are two different
+approaches to hardware microrollback: clock cycle microroll-
+back (state changes saved at every clock cycle), as described by
+Sparmann and Reddy (1994) and instruction microrollback:
+(state changes saved at the completion of every instruction
+execution, as described by Trovo (2002)).

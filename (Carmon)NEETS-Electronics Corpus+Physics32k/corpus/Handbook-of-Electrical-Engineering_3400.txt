@@ -1,0 +1,7 @@
+ that limits the speed at which they can perform continuous
+conversions. The sampling rate is the number of times per second that the analog signal can be sampled and
+converted  into  a  digital  code.  For  proper A/D  conversion,  the  minimum  sampling  rate  must  be  at  least  two
+times the highest frequency of the analog signal being sampled to satisfy the Nyquist sampling criterion. The
+conversion  speed  and  other  timing  factors  must  be  taken  into  consideration  to  determine  the  maximum
+use a sampling rate that is slightly more than twice
+sampling rate of an A/D converter. 

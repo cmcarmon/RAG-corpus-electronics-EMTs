@@ -1,0 +1,8 @@
+A variety of standard and proprietary interfaces are deﬁned for transferring the data recorded on the disk
+to or from the host. We concentrate on industry standards here. On the disk surface, information is represented
+as  alternating  polarities  of  magnetic  ﬁelds.  These  signals  need  to  be  sensed,  ampliﬁed,  and  decoded  into
+synchronized pulses by the read electronics. For example, the pulse-level protocol ST506/412 standard describes
+the way pulses can be extracted from the alternating ﬂux ﬁelds. The bit-level ESDI, SMD, and IPI-2 standards
+describe the bit encoding of signals. At the packet level, these bits must be aligned into bytes, error correcting
+codes need to be applied, and the extracted data must be delivered to the host. These “intelligent” standards
+include SCSI (small computer standard interface) and IPI-3.

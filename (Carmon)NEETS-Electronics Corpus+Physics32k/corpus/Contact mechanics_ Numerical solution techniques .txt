@@ -1,0 +1,238 @@
+Distinctions between conforming and non-conforming contact do not have to be made when numerical solution schemes are employed to solve contact problems. These methods do not rely on further assumptions within the solution process since they base solely on the general formulation of the underlying equations     . Besides the standard equations describing the deformation and motion of bodies two additional inequalities can be formulated. The first simply restricts the motion and deformation of the bodies by the assumption that no penetration can occur. Hence the gap
+
+
+
+h
+
+
+{\displaystyle h}
+between two bodies can only be positive or zero
+
+
+
+
+h
+≥
+0
+
+
+{\displaystyle h\geq 0}
+
+where
+
+
+
+
+g
+
+N
+
+
+=
+0
+
+
+{\displaystyle g_{N}=0}
+denotes contact. The second assumption in contact mechanics is related to the fact, that no tension force is allowed to occur within the contact area (contacting bodies can be lifted up without adhesion forces). This leads to an inequality which the stresses have to obey at the contact interface. It is formulated for the normal stress
+
+
+
+
+σ
+
+n
+
+
+=
+
+t
+
+⋅
+
+n
+
+
+
+{\displaystyle \sigma _{n}=\mathbf {t} \cdot \mathbf {n} }
+.
+At locations where there is contact between the surfaces the gap is zero, i.e.
+
+
+
+h
+=
+0
+
+
+{\displaystyle h=0}
+, and there the normal stress is different than zero, indeed,
+
+
+
+
+σ
+
+n
+
+
+<
+0
+
+
+{\displaystyle \sigma _{n}<0}
+. At locations where the surfaces are not in contact the normal stress is identical to zero;
+
+
+
+
+σ
+
+n
+
+
+=
+0
+
+
+{\displaystyle \sigma _{n}=0}
+, while the gap is positive, i.e.,
+
+
+
+h
+>
+0
+
+
+{\displaystyle h>0}
+. This type of complementarity formulation can be expressed in the so-called Kuhn–Tucker form, viz.
+
+
+
+
+h
+≥
+0
+
+,
+
+
+σ
+
+n
+
+
+≤
+0
+
+,
+
+
+σ
+
+n
+
+
+
+h
+=
+0
+
+.
+
+
+{\displaystyle h\geq 0\,,\quad \sigma _{n}\leq 0\,,\quad \sigma _{n}\,h=0\,.}
+
+These conditions are valid in a general way. The mathematical formulation of the gap depends upon the kinematics of the underlying theory of the solid (e.g., linear or nonlinear solid in two- or three dimensions, beam or shell model). By restating the normal stress
+
+
+
+
+σ
+
+n
+
+
+
+
+{\displaystyle \sigma _{n}}
+in terms of the contact pressure,
+
+
+
+p
+
+
+{\displaystyle p}
+, i.e.,
+
+
+
+p
+=
+−
+
+σ
+
+n
+
+
+
+
+{\displaystyle p=-\sigma _{n}}
+the Kuhn-Tucker problem can be restated as in standard complementarity form, i.e.In the linear elastic case the gap can be formulated as where
+
+
+
+
+h
+
+0
+
+
+
+
+{\displaystyle h_{0}}
+is the rigid body separation,
+
+
+
+g
+
+
+{\displaystyle g}
+is the geometry/topography of the contact (cylinder and roughness) and
+
+
+
+u
+
+
+{\displaystyle u}
+is the elastic deformation/deflection. If the contacting bodies are approximated as linear elastic half spaces, the Boussinesq-Cerruti integral equation solution can be applied to express the deformation (
+
+
+
+u
+
+
+{\displaystyle u}
+) as a function of the contact pressure (
+
+
+
+p
+
+
+{\displaystyle p}
+), i.e.,where for line loading of an elastic half space andfor point loading of an elastic half-space.After discretization the linear elastic contact mechanics problem can be stated in standard Linear Complementarity Problem (LCP) form. where
+
+
+
+
+C
+
+
+
+{\displaystyle \mathbf {C} }
+is a matrix, whose elements are so called influence coefficients relating the contact pressure and the deformation. The strict LCP formulation of the CM problem presented above, allows for direct application of well-established numerical solution techniques such as Lemke's pivoting algorithm. The Lemke algorithm has the advantage that it finds the numerically exact solution within a finite number of iterations. The MATLAB implementation presented by Almqvist et al. is one example that can be employed to solve the problem numerically. In addition, an example code for an LCP solution of a 2D linear elastic contact mechanics problem has also been made public at MATLAB file exchange by Almqvist et al.

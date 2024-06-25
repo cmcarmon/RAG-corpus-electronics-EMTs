@@ -1,0 +1,12 @@
+Computational considerations reveal a substantial advantage for a frequency-domain implementation
+over a time-domain one. The number of computations for a time-domain implementation essentially remains
+constant whether we section the input or not. Thus, the number of computations for each output is 2q + 1.
+In the frequency-domain approach, computation counting changes because we need only compute the ﬁlter’s
+frequency response H (k) once, which amounts to a ﬁxed overhead. We need only compute two DFTs and
+multiply them to ﬁlter a section. Letting Nx denote a section’s length, the number of computations for
+a section amounts to (Nx + q) log2 (Nx + q) + 6 (Nx + q).
+In addition, we must add the ﬁltered outputs
+together; the number of terms to add corresponds to the excess duration of the output compared with the
+computations per output
+input (q). The frequency-domain approach thus requires log2 (Nx + q)+6+
+value. For even modest ﬁlter orders, the frequency-domain approach is much faster.

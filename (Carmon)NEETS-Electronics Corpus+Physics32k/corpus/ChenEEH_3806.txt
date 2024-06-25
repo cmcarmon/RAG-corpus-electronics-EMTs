@@ -1,0 +1,11 @@
+An analog image can be seen as a function f (x, y) of two
+continuous space variables: x and y. The function f (x, y)
+represents a variation of gray level along the spatial coordi-
+nates. Since each color can be represented as a combination of
+three primaries (R, G, and B), a color image can be represented
+by the three functions fR(x, y), fG(x, y), and fB(x, y), one for
+each color component.
+A natural way to translate an analog image into the discrete
+domain is to sample each variable; that is, we make x ¼ nxTx
+and y ¼ nyTy. This way, we get a digital image fD(nx, ny) such
+that:

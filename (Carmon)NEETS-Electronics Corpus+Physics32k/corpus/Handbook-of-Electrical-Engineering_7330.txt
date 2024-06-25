@@ -1,0 +1,10 @@
+One of the main drawbacks of all the above types of phase detectors is that they only provide an output that
+is proportional to phase and not to a frequency difference in the input signals. For many applications the PLL
+input signals are initially not on the same frequency. Several techniques have been used in the past to resolve
+this such as sweeping the VCO or using separate circuitry to ﬁrst acquire the input frequency. The sequential
+(sometimes called phase/frequency) phase detector has become the most commonly used solution due to its
+wide availability in integrated form. This type of phase detector produces pulses with the width of the pulses
+indicating the phase difference of the inputs. It also has the characteristic of providing the correct output to
+steer the VCO to the correct frequency. The noise characteristic of this type of phase detector is also quite good
+since either no or very narrow pulses are produced when the inputs are in phase with each other. The phase
+range of this type of circuit is 

@@ -1,0 +1,4 @@
+Figure 3-25 shows the basic method we use to convert a frequency-shift rf signal into a signal that 
+controls the dc loop of a tty. The frequency shifts of the af output from the receiver are converted into dc 
+pulses by the af discriminator. The dc pulses are then fed into the keyer. The keyer opens and closes the 
+dc loop of the tty according to the mark and space characters received. 

@@ -1,0 +1,132 @@
+Near room temperature, the resistivity of metals typically increases as temperature is increased, while the resistivity of semiconductors typically decreases as temperature is increased. The resistivity of insulators and electrolytes may increase or decrease depending on the system. For the detailed behavior and explanation, see Electrical resistivity and conductivity.
+As a consequence, the resistance of wires, resistors, and other components often change with temperature. This effect may be undesired, causing an electronic circuit to malfunction at extreme temperatures. In some cases, however, the effect is put to good use. When temperature-dependent resistance of a component is used purposefully, the component is called a resistance thermometer or thermistor. (A resistance thermometer is made of metal, usually platinum, while a thermistor is made of ceramic or polymer.)
+Resistance thermometers and thermistors are generally used in two ways. First, they can be used as thermometers: By measuring the resistance, the temperature of the environment can be inferred. Second, they can be used in conjunction with Joule heating (also called self-heating): If a large current is running through the resistor, the resistor's temperature rises and therefore its resistance changes. Therefore, these components can be used in a circuit-protection role similar to fuses, or for feedback in circuits, or for many other purposes. In general, self-heating can turn a resistor into a nonlinear and hysteretic circuit element. For more details see Thermistor#Self-heating effects.
+If the temperature T does not vary too much, a linear approximation is typically used:
+
+
+
+
+R
+(
+T
+)
+=
+
+R
+
+0
+
+
+[
+1
++
+α
+(
+T
+−
+
+T
+
+0
+
+
+)
+]
+
+
+{\displaystyle R(T)=R_{0}[1+\alpha (T-T_{0})]}
+
+where
+
+
+
+α
+
+
+{\displaystyle \alpha }
+is called the temperature coefficient of resistance,
+
+
+
+
+T
+
+0
+
+
+
+
+{\displaystyle T_{0}}
+is a fixed reference temperature (usually room temperature), and
+
+
+
+
+R
+
+0
+
+
+
+
+{\displaystyle R_{0}}
+is the resistance at temperature
+
+
+
+
+T
+
+0
+
+
+
+
+{\displaystyle T_{0}}
+. The parameter
+
+
+
+α
+
+
+{\displaystyle \alpha }
+is an empirical parameter fitted from measurement data. Because the linear approximation is only an approximation,
+
+
+
+α
+
+
+{\displaystyle \alpha }
+is different for different reference temperatures. For this reason it is usual to specify the temperature that
+
+
+
+α
+
+
+{\displaystyle \alpha }
+was measured at with a suffix, such as
+
+
+
+
+α
+
+15
+
+
+
+
+{\displaystyle \alpha _{15}}
+, and the relationship only holds in a range of temperatures around the reference.
+The temperature coefficient
+
+
+
+α
+
+
+{\displaystyle \alpha }
+is typically +3×10−3 K−1 to +6×10−3 K−1 for metals near room temperature. It is usually negative for semiconductors and insulators, with highly variable magnitude.

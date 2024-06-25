@@ -1,0 +1,5 @@
+When a block is brought into the cache, it is likely that another block must be evicted. The selection of the
+evicted block is based on some attempt to capture temporal locality. Since prescience is so difﬁcult to achieve,
+other methods are generally used to predict future memory accesses. A least-recently-used (LRU) policy is often
+the basis for the choice. Other replacement policies are sometimes used, particularly because true LRU replace-
+ment requires extensive logic and bookkeeping.

@@ -1,0 +1,8 @@
+Noise Limitations
+The deﬁnition of CNR deserves clariﬁcation. Depending on the video format and RF modulation technique,
+the RF power spectrum of the modulated RF carrier varies widely. For AM-VSB video the remaining carrier is
+the  dominant  feature  in  the  spectrum.  It  is  thereby  convenient  to  deﬁne  the  CNR  as  the  ratio  of  the  power
+remaining in the carrier to the integrated noise power in a 4-MHz bandwidth centered on the carrier frequency.
+For  FM  or  digitally  modulated  carriers,  the  original  carrier  is  not  generally  visible  in  the  RF  spectrum.  It  is
+then necessary to deﬁne the CNR as the ratio of the integrated signal power within the channel bandwidth to
+the integrated noise power.

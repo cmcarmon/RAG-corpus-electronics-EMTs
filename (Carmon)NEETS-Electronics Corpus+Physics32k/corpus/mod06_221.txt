@@ -1,0 +1,17 @@
+There are two disadvantages associated with cathode biasing. To maintain bias voltage continuously,
+current must flow through the tube, and plate voltage will never be able to reach the maximum value of
+the source voltage. This, in turn, limits the maximum positive output for a negative input signal
+(remember the 180º inversion). In addition, maximum plate voltage is decreased by the amount of
+cathode-biasing voltage. What this means is that you can't get something for nothing. If the cathode is
+biased at +20 volts, this voltage must be subtracted from the plate voltage. As an example, consider a
+triode with a 10,000 ohm plate resistor and a +300 volts dc source voltage. If a current of 2 milliamperes
+flows through the tube under quiescent conditions, 20 volts are dropped across the plate-load resistor. The
+maximum plate voltage is then 300 volts - 20 volts = 280 volts dc. Now, consider the 20-volt dropped
+across the cathode resistor. Plate voltage becomes 280 volts - 20 volts = 260 volts. To understand this a
+little more thoroughly, look at figure 1-24. In view A, the source voltage is 300 volts dc. There are two
+ways that this voltage can be looked at; either the plate is at +300 volts and the cathode is at 0 volts
+(ground), or the plate is at +150 volts and the cathode is at -150 volts. In electronics, it is common
+practice to assume that the plate is at +300 volts while the cathode is at 0 volts. To simplify this
+discussion, we will assume that the plate is at +150 volts, and the cathode is at -150 volts. The potential
+difference between the plate and the cathode is 300 volts. If a plate-load resistor is installed, as shown in
+view B,  20 volts are dropped by R

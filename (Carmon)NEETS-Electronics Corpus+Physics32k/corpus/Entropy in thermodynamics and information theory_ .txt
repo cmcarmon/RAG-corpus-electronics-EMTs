@@ -1,0 +1,56 @@
+There exists criticisms of the link between thermodynamic entropy and information entropy.
+The most common criticism is that information entropy cannot be related to thermodynamic entropy because there is no concept of temperature, energy, or the second law, in the discipline of information entropy. This can best be discussed by considering the fundamental equation of thermodynamics:
+
+
+
+
+d
+U
+=
+∑
+
+F
+
+i
+
+
+
+d
+
+x
+
+i
+
+
+
+
+{\displaystyle dU=\sum F_{i}\,dx_{i}}
+
+where the Fi are "generalized forces" and the dxi are "generalized displacements". This is analogous to the mechanical equation dE = F dx where dE is the change in the kinetic energy of an object having been displaced by distance dx under the influence of force F. For example, for a simple gas, we have:
+
+
+
+
+d
+U
+=
+T
+d
+S
+−
+P
+d
+V
++
+μ
+d
+N
+
+
+{\displaystyle dU=TdS-PdV+\mu dN}
+
+where the temperature (T ), pressure (P ), and chemical potential (µ ) are generalized forces which, when imbalanced, result in a generalized displacement in entropy (S ), volume (-V ) and quantity (N ) respectively, and the products of the forces and displacements yield the change in the internal energy (dU ) of the gas.
+In the mechanical example, to declare that dx is not a geometric displacement because it ignores the dynamic relationship between displacement, force, and energy is not correct. Displacement, as a concept in geometry, does not require the concepts of energy and force for its definition, and so one might expect that entropy may not require the concepts of energy and temperature for its definition. The situation is not that simple, however. In classical thermodynamics, which is the study of thermodynamics from a purely empirical, or measurement point of view, thermodynamic entropy can only be measured by considering energy and temperature. Clausius' statement dS= δQ/T, or, equivalently, when all other effective displacements are zero, dS=dU/T, is the only way to actually measure thermodynamic entropy. It is only with the introduction of statistical mechanics, the viewpoint that a thermodynamic system consists of a collection of particles and which explains classical thermodynamics in terms of probability distributions, that the entropy can be considered separately from temperature and energy. This is expressed in Boltzmann's famous entropy formula S=kB ln(W). Here kB is Boltzmann's constant, and W is the number of equally probable microstates which yield a particular thermodynamic state, or macrostate.
+Boltzmann's equation is presumed to provide a link between thermodynamic entropy S and information entropy H = −Σi pi ln pi = ln(W) where pi=1/W are the equal probabilities of a given microstate. This interpretation has been criticized also. While some say that the equation is merely a unit conversion equation between thermodynamic and information entropy, this is not completely correct. A unit conversion equation will, e.g., change inches to centimeters, and yield two measurements in different units of the same physical quantity (length). Since thermodynamic and information entropy are dimensionally unequal (energy/unit temperature vs. units of information), Boltzmann's equation is more akin to x = c t where x is the distance travelled by a light beam in time t, c being the speed of light. While we cannot say that length x and time t represent the same physical quantity, we can say that, in the case of a light beam, since c is a universal constant, they will provide perfectly accurate measures of each other. (For example, the light-year is used as a measure of distance). Likewise, in the case of Boltzmann's equation, while we cannot say that thermodynamic entropy S and information entropy H represent the same physical quantity, we can say that, in the case of a thermodynamic system, since kB is a universal constant, they will provide perfectly accurate measures of each other.
+The question then remains whether ln(W) is an information-theoretic quantity. If it is measured in bits, one can say that, given the macrostate, it represents the number of yes/no questions one must ask to determine the microstate, clearly an information-theoretic concept. Objectors point out that such a process is purely conceptual, and has nothing to do with the measurement of entropy. Then again, the whole of statistical mechanics is purely conceptual, serving only to provide an explanation of the "pure" science of thermodynamics.
+Ultimately, the criticism of the link between thermodynamic entropy and information entropy is a matter of terminology, rather than substance. Neither side in the controversy will disagree on the solution to a particular thermodynamic or information-theoretic problem.

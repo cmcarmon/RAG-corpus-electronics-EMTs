@@ -1,0 +1,8 @@
+Complex synchronous ASICs are designed assuming that all ﬂip-ﬂops are clocked simultaneously. Clock skew
+is  the  maximum  difference  between  the  times  of  clock  transitions  at  any  two  ﬂip-ﬂops  of  the  overall VLSI
+circuit.  The  clock  network  must  deliver  clock  signals  to  each  of  the  ﬂip-ﬂops  within  the  margins  set  by  the
+allowed clock skew, margins which are substantially less than the clock period. For example, part of the 2-ns
+clock period of a high-speed VLSI circuit operating with a 500-MHz clock is consumed by the rise/fall times
+of the signals appearing at the input to the ﬂip-ﬂop and by the speciﬁed setup and hold times of the ﬂip-ﬂop.
+The result is that the clock must be applied to the ﬂip-ﬂop within a time interval small as compared with the
+clock period.

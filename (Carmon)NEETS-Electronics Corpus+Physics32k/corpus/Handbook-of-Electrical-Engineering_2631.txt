@@ -1,0 +1,4 @@
+The gate response time is not the only delay in device switching, because the drain-body pn junction also
+must charge or discharge for the MOSFET to change state [Shoji, 1988]. Hence, we must also consider a drain
+response  time tD.  Following  Eq. (24.44),  we  suppose  that  the  drain  capacitance  CD  is  charged  by  the  supply
+voltage through a MOSFET in saturation so that

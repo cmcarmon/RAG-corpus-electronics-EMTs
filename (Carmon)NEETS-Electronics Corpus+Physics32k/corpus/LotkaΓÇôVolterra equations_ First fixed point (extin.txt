@@ -1,0 +1,73 @@
+When evaluated at the steady state of (0, 0) the Jacobian matrix J becomes
+
+
+
+
+J
+(
+0
+,
+0
+)
+=
+
+
+[
+
+
+
+α
+
+
+0
+
+
+
+
+0
+
+
+−
+γ
+
+
+
+]
+
+
+.
+
+
+{\displaystyle J(0,0)={\begin{bmatrix}\alpha &0\\0&-\gamma \end{bmatrix}}.}
+
+The eigenvalues of this matrix are
+
+
+
+
+
+λ
+
+1
+
+
+=
+α
+,
+
+
+λ
+
+2
+
+
+=
+−
+γ
+.
+
+
+{\displaystyle \lambda _{1}=\alpha ,\quad \lambda _{2}=-\gamma .}
+
+In the model α and γ are always greater than zero, and as such the sign of the eigenvalues above will always differ. Hence the fixed point at the origin is a saddle point.
+The stability of this fixed point is of significance. If it were stable, non-zero populations might be attracted towards it, and as such the dynamics of the system might lead towards the extinction of both species for many cases of initial population levels. However, as the fixed point at the origin is a saddle point, and hence unstable, it follows that the extinction of both species is difficult in the model. (In fact, this could only occur if the prey were artificially completely eradicated, causing the predators to die of starvation. If the predators were eradicated, the prey population would grow without bound in this simple model): The populations of prey and predator can get infinitesimally close to zero and still recover.

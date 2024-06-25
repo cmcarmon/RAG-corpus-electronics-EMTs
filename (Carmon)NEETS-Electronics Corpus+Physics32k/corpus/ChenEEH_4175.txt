@@ -1,0 +1,9 @@
+. Single parity checking: This scheme appends a parity bit
+to the character to be transmitted to make the total
+number of binary ones in one character be either odd
+or even. An odd parity checking or an even parity
+checking has to be agreed between a transmitter and
+receiver. The problem of this approach is that the even
+number of bits changed will make the number of ones
+for being odd or even, and the parity bit error cannot
+be detected.

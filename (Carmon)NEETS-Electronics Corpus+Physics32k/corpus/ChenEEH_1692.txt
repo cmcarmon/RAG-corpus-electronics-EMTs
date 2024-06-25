@@ -1,0 +1,13 @@
+These two distances are then treated as a 2-D feature vector,
+and an unsupervised K-means clustering algorithm is used to
+group shot boundaries into one cluster. For a review of major
+conventional shot boundary detection techniques, refer to
+Borecsky and Rowe (1996), which also provides a comparison
+between ﬁve different techniques based on pixel difference
+from raw data, DCT coefﬁcients difference, and motion-
+compensated difference. Due to the huge amount of data to
+be processed in the case of full-frame pixel difference-based
+methods as well as data’s susceptibility to intensity differences
+caused by motion,
+illumination changes, and noise, many
+novel techniques (beyond the scope of the review presented

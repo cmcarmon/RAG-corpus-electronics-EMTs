@@ -1,0 +1,6 @@
+are applied to the clock input. The master-slave ﬂip-ﬂops are triggered by a low-to-high transition of the clock.
+The  “terminal  count”  and  “ripple  clock”  outputs  facilitate  cascading  of  several  counters.  The  ripple  clock
+carry/borrow output signal, RCO, is a pulse equal in length to the clock pulse when the counter overﬂows or
+underﬂows, that is, when it is incremented from 1111 or decremented from 0000. By using this signal to reload
+the value at the data inputs we create a counter of modulus less than 16. Figure 81.39, for example, shows the
+arrangement to give a modulo-5 count, by reloading 1011 each time the ripple clock pulse occurs.

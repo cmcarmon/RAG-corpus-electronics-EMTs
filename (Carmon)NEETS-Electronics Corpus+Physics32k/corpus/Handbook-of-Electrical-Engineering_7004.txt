@@ -1,0 +1,11 @@
+Communication Channels
+The communication channel is the set of devices and systems that connects the transmitter to the receiver. The
+transmitter and receiver consist of an encoder and decoder, respectively, which translate the information stream
+produced by the source into a signal suitable for channel transmission and vice versa (Fig. 73.13). For example,
+in the case of the telephone line, two communication channels (one in each direction) share the same physical
+channel that connects the two modems. That physical channel usually consists of twisted copper wires at both
+ends and a variety of switching and signal processing operations that occur at the telephone exchanges. The
+modems themselves are not included in the communication channel. A microwave radio link is another example
+of a communication channel that consists of an ampliﬁer and an antenna (at both ends) and a certain portion
+of  the  radio  spectrum.  In  this  case,  the  communication  channel  model  does  not  fully  correspond  with  the
+physical channel. Why not, for example, view the antenna as part of the transmitter rather than the channel

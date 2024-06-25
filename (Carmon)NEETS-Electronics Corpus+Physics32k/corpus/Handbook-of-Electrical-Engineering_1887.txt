@@ -1,0 +1,4 @@
+Practical video signal processors are not pure VLIW machines, however. In general, they are in fact hybrid
+machines  that  use VLIW  processing  for  some  operations  and  heterogeneous  multiprocessing  techniques  for
+others. This is necessary to meet the high performance demand on video processing; certain critical operations
+can be sped up with special-purpose function units, leaving the VLIW processor to perform the rest. An example

@@ -1,0 +1,6 @@
+To compute the small-signal output resistance looking in from one of the terminals of
+the output port, we turn off all independent sources by setting va = 0 and vb = 0,
+in effect, turning off vc and vd. We introduce a test voltage at the desired output and
+short the other output to ground. Therefore, the overall circuit is transformed to the
+one shown in Figure 8.37. Thus the output resistance looking into ports vx or vy and
+ground will be RL.

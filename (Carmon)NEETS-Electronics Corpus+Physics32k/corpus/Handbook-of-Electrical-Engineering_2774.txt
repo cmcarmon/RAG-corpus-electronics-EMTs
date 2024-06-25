@@ -1,0 +1,9 @@
+CMOS Circuits Using Megacell Elements
+The  examples  above  have  focused  on  low-level  logic  functions.  However,  as  the  complexity  of VLSI  ICs  has
+increased, it has become increasingly important to include standard, high-level functions (e.g., microprocessors,
+DSPs, PCI interfaces, MPEG coders, RAM arrays, etc.) within an ASIC. For example, an earlier generation of
+microprocessor may offer the necessary performance and would occupy only a small portion of the area of a
+present-generation ASIC. Including such a standard microprocessor has the advantages of allowing the ASIC
+design to be completed more quickly as well as providing users with the microprocessor standard instruction
+set and software development tools. Such large cells are called megacells. As VLSI technologies advance and as
+standards increasingly impact design decisions, the use of standard megacells will become increasingly common.

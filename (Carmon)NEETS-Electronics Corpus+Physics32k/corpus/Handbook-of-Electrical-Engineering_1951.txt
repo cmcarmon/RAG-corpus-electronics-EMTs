@@ -1,0 +1,5 @@
+FIGURE 18.5
+(a) A  pipelined/retimed  data  ﬂow  graph  obtained  from  Fig.  18.3(a)  by  preprocessing  for  folding;  (b)  the
+folded hardware architecture data ﬂow graph. In our folding notation, the tasks are ordered within a set and the ordering
+represents the time partition in which the task is executed. For example, SA1 = (A2, A1) implies that A2 and A1 are, respectively,
+executed in even and odd time partitions in the same processor. The notation F represents a null operation.

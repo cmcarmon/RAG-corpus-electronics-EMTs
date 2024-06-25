@@ -1,0 +1,14 @@
+Best results are achieved when the instrumentation system is clearly understood, and its effects compensated
+for  when  practical.  Lumped  parameter  modeling  of  the  elements  shown  in  Fig. 108.3  provides  a  means  for
+determining the contribution each element makes to the overall system behavior. Of particular importance are
+the input and output impedances of each element. In addition, the effects of interconnect and environmental
+variables  can  also  be  modeled  to  determine  their  inﬂuence  on  the  system.  The  relative  dimensions  of  the
+measurement system with respect to the highest frequencies encountered—whether signal or noise—determine
+whether  simpliﬁed  circuit  theory  models,  or  generalized  solutions  to  Maxwell's  equations  must  be  used.
+Generally, if measurement system dimensions are on the order of 1/20 of the shortest wavelength, simple circuit
+theory models can be used. Operation in this regime also allows impedance matching to be largely ignored;
+ terminations which is
+e.g., not requiring mandatory use of 50 
+commonly encountered in high-frequency systems. Table 108.3 summarizes several common instruments and
+input or output impedance models corresponding to Fig. 108.4. At low frequencies, interconnect can be modeled
+by  ignoring  the  very  low  series  resistance  and  inductance  (Zs1,  Zs2)  terms,  and  considering  only  the  shunt

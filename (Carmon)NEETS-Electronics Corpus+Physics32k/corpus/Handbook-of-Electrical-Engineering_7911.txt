@@ -1,0 +1,5 @@
+Shift Registers
+There are essentially two modes of operation for a register, either serial or parallel, and those we have considered
+so far have operated in parallel mode. Parallel operation affects the entire group of bits held in the register
+during a single clock pulse. In serial operation data bits are inputted (or outputted) sequentially to (or from)
+the register, one bit for every clock pulse.

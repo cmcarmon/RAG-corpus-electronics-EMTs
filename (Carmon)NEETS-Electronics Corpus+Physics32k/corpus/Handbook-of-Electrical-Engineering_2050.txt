@@ -1,0 +1,9 @@
+resulting in the simple update equation $hk+1 = $hk + aekxk, where a (or m) control the rate of change. In practice,
+whenever  the  far-end  signal  x(t)  is  low  in  power,  it  is  a  good  idea  to  freeze  the  canceller  by  setting  a  =  0.
+Sophisticated logic is needed to detect double talk. When it occurs, then also set a = 0. It can be shown that
+the spread of the eigenvalues of the autocorrelation matrix of x(t) determines the convergence rate, where the
+slowest-converging eigenmode corresponds to the smallest eigenvalue. Since the eigenvalues themselves scale
+with the power of the predominant spectral components in x(t), setting a  = 2m/(x¢x)  will make the convergence
+rate independent of the far-end power. This is the normalized LMS method. Even then, however, all eigenmodes
+will converge at the same rate only if x(t) is white noise. Therefore, pre-whitening the far-end signal will help
+in speeding up convergence.

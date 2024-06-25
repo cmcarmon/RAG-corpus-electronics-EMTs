@@ -1,0 +1,20 @@
+Khokhar et al. (1999) introduced a multilevel architecture
+for video data in which semantics are shared among various
+levels. An object-oriented paradigm is proposed for manage-
+ment of information at higher levels of abstraction. For each
+video sequence to be indexed, they ﬁrst identiﬁed objects
+inside the video sequence, their sizes and locations, and their
+relative positions and movements, they encoded this informa-
+tion in a spatiotemporal model. This approach integrates both
+intraclip and interclip modeling and uses both bottom-up as
+well as top-down object-oriented data abstraction concepts.
+Decleir et al. (1999) have developed a data model that goes one
+step beyond the existing stratiﬁcation-based approaches using
+generalized intervals. Here instead of a time segment to be
+associated with a description, a set of time segments is associ-
+ated with a description—an approach that allows handling
+with a single object all occurrences of an entity in a video
+document. Also proposed was a declarative, rule-based, con-
+straint query language that can be used to infer relationships
+from information represented in the model and to intention-
+ally specify relationships among objects.

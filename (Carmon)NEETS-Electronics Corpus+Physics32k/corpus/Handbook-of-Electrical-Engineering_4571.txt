@@ -1,0 +1,12 @@
+FIGURE  45.4 An  illustration  of  the  frequency  dependence  of  the  CRAY2  computer  time  required  for  some  standard
+computer  models  applied  to  the  reference  problem  of  a  perfectly  conducting,  space-shuttle-sized  object  having  a  surface
+area of 540 m2 [Miller, 1988]. At a sampling density of 100/l2, a total of 6,000 surface samples is assumed for an IE model
+at 100 MHz for which LU decomposition of the direct (impedance) matrix requires about 1 h of CRAY2 time. The top, LU,
+curve has a slope of f 6 as discussed in the text. The next two curves have slopes of  f 4, the upper corresponding to use of a
+TD DE model (FDTD) as well as an iterative solution of the direct IE matrix, assuming acceptable convergence occurs in
+100  iteration  steps.  The  third  curve  is  for  a  10-step  iterative  solution  of  the  IE  matrix.  The  bottom  three  curves  have  f 2
+slopes.  The  upper  two  of  these  are  for  100-  and  10-step  iterative  solutions  used  in  connection  with  a  near-neighbor
+approximation (NNA), wherein only the 100 and 10 largest interaction coefﬁcients are retained in the matrix, respectively.
+The bottom curve is for the physical-optics approximation, in which the induced current is computed from the incident
+magnetic ﬁeld. The effects of these different frequency slopes on the computer time can be seen to be extreme, emphasizing
+the need for developing more efﬁcient solution procedures.

@@ -1,0 +1,3 @@
+When  all  of  this  has  transpired,  the  machine  is  back  to  the  caller  with  SP  pointing  at block.  The  registers
+look like Fig. 87.5 except for two important changes. SP is back where the caller left it and D0 contains the
+answer that the caller asked for.

@@ -1,0 +1,9 @@
+There is, however, one remaining problem with our memory element
+circuit. Recall that the static discipline required that our digital circuit elements
+such as gates be restoring. In other words, in order to obtain positive noise
+margins, the voltage threshold requirements on the outputs of gates was more
+stringent than those on the inputs. For example, the static discipline required
+that a VIH input to a gate be restored to VOH at the output, where VOH > VIH
+for a positive noise margin. In order to inter-operate digital memory elements
+with our digital gates, we require that our digital memory elements satisfy the
+same set of voltage thresholds.

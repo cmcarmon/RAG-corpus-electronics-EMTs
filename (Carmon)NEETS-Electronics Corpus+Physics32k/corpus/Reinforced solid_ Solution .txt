@@ -1,0 +1,83 @@
+The solution to this problem can be presented in a form most suitable for hand calculations. It can be presented in graphical form. It can also be presented in a form most suitable for computer implementation. In this article the latter method is shown.
+There are 12 possible reinforcement solutions to this problem, which are shown in the table below. Every row contains a possible solution. The first column contains the number of a solution. The second column gives conditions for which a solution is valid. Columns 3, 4 and 5 give the formulas for calculating the reinforcement ratios.
+
+
+
+
+
+I
+
+1
+
+
+
+
+{\displaystyle I_{1}}
+,
+
+
+
+
+I
+
+2
+
+
+
+
+{\displaystyle I_{2}}
+and
+
+
+
+
+I
+
+3
+
+
+
+
+{\displaystyle I_{3}}
+are the stress invariants of the composite material stress tensor.
+The algorithm for obtaining the right solution is simple. Compute the reinforcement ratios of each possible solution that fulfills the conditions. Further ignore solutions with a reinforcement ratio less than zero. Compute the values of
+
+
+
+
+ρ
+
+x
+
+
+
+
+{\displaystyle \rho _{x}}
++
+
+
+
+
+ρ
+
+y
+
+
+
+
+{\displaystyle \rho _{y}}
++
+
+
+
+
+ρ
+
+z
+
+
+
+
+{\displaystyle \rho _{z}}
+and select the solution for which this value is smallest. The principal stresses in the brittle material can be computed as the eigenvalues of the brittle material stress tensor, for example by Jacobi's method.
+The formulas can be simply checked by substituting the reinforcement ratios in the brittle material stress tensor and calculating the invariants. The first invariant needs to be less than or equal to zero. The second invariant needs to be greater than or equal to zero. These provide the conditions in column 2. For solution 2 to 12, the third invariant needs to be zero.

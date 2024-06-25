@@ -1,0 +1,13 @@
+A  common  and  extremely  useful  technique  for  increasing  the  information-carrying  capability  of  a  single
+transmitting telemetry line is called multiplexing. When it is desirable to monitor different physical parameters,
+such as temperature and pressure, it may be wasteful to have duplicating telemetry transmission lines. Multi-
+plexing  techniques  can  usually  be  considered  to  be  of  two  types:  frequency  division  multiplexing  and  time
+division multiplexing. In the frequency division multiplexing system, different subcarrier frequencies are mod-
+ulated by their respective changing physical parameter; these subcarrier frequencies are then used to modulate
+the carrier frequency, enabling the transmission of all desired channels of information, simultaneously by one
+carrier.  At  the  receiver,  these  subcarrier  frequencies  must  be  individually  removed.  This  is  accomplished  by
+ﬁlters  that  allow  any  one  of  the  respective  subcarrier  frequencies  to  pass.  Each  subcarrier  frequency  is  then
+converted back to a voltage by the discriminator. The discriminator voltages can be used to actuate recorders
+and/or similar devices. Time division telemetry systems may use pulse modulation or pulse code modulation.
+In  these  systems  the  information  signal  is  applied,  in  time  sequence,  to  modulate  the  radio  carrier.  The
+characteristics of a pulse signal can be affected by modulating its amplitude, frequency, or phase.

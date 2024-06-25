@@ -1,0 +1,149 @@
+We now assume that the unconstrained system S is subjected to a set of m consistent equality constraints given by
+
+
+
+
+
+A
+
+(
+q
+,
+
+
+
+q
+˙
+
+
+
+,
+t
+)
+
+
+
+
+q
+
+¨
+
+
+
+=
+
+b
+
+(
+q
+,
+
+
+
+q
+˙
+
+
+
+,
+t
+)
+,
+
+
+{\displaystyle \mathbf {A} (q,{\dot {q}},t){\ddot {\mathbf {q} }}=\mathbf {b} (q,{\dot {q}},t),}
+
+where A is a known m-by-n matrix of rank r and b is a known m-vector. We note that this set of constraint equations encompass a very general variety of holonomic and non-holonomic equality constraints. For example, holonomic constraints of the form
+
+
+
+
+φ
+(
+q
+,
+t
+)
+=
+0
+
+
+{\displaystyle \varphi (q,t)=0}
+
+can be differentiated twice with respect to time while non-holonomic constraints of the form
+
+
+
+
+ψ
+(
+q
+,
+
+
+
+q
+˙
+
+
+
+,
+t
+)
+=
+0
+
+
+{\displaystyle \psi (q,{\dot {q}},t)=0}
+
+can be differentiated once with respect to time to obtain the m-by-n matrix A and the m-vector b. In short, constraints may be specified that are
+nonlinear functions of displacement and velocity,
+explicitly dependent on time, and
+functionally dependent.
+As a consequence of subjecting these constraints to the unconstrained system S, an additional force is conceptualized to arise, namely, the force of constraint. Therefore, the constrained system Sc becomes
+
+where Qc—the constraint force—is the additional force needed to satisfy the imposed constraints. The central problem of constrained motion is now stated as follows:
+given the unconstrained equations of motion of the system S,
+given the generalized displacement q(t) and the generalized velocity
+
+
+
+
+
+
+q
+˙
+
+
+
+(
+t
+)
+
+
+{\displaystyle {\dot {q}}(t)}
+of the constrained system Sc at time t, and
+given the constraints in the form
+
+
+
+
+A
+
+
+
+
+q
+¨
+
+
+
+=
+
+b
+
+
+
+{\displaystyle \mathbf {A} {\ddot {q}}=\mathbf {b} }
+as stated above,
+find the equations of motion for the constrained system—the acceleration—at time t, which is in accordance with the agreed upon principles of analytical dynamics.

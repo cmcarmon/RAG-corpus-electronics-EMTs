@@ -1,0 +1,13 @@
+Devices that adhere to this discipline will be able to communicate with
+each other and be immune to noise levels that fall within the noise margins.
+When NM1 and NM0 are equal, we say that the noise margins are symmetric.
+Relating the threshold voltage parameters to the numbers used in our
+example, VOH corresponds to 4.5 V, VOL corresponds to 0.5 V, VIH corre-
+sponds to 3 V, and VIL corresponds to 2 V. This mapping is illustrated in
+Figure 5.10. For our example, the noise margin for a logical 0, NM0, is 1.5 V
+(2 V − 0.5 V), which is the difference between VIL, the maximum input voltage
+recognized by a receiver as a logic 0, and VOL, the highest legal output voltage
+for a logic 0. Similarly, the noise margin for a 1, NM1, is also 1.5 V (4.5 V −
+3 V), which is the difference between VOH, the minimum legal output voltage
+for a logic 1, and VIH, the minimum input voltage recognized by a receiver as
+a logic 1.

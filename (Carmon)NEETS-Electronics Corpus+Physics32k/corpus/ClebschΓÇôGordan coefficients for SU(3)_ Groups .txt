@@ -1,0 +1,223 @@
+A group is a mathematical structure (usually denoted in the form
+
+
+
+(
+G
+,
+∗
+)
+)
+
+
+{\displaystyle (G,*))}
+consisting of a set G and a binary operation (*) (often called a 'multiplication'), satisfying the following properties:
+Closure: For every pair of elements x and y in G, the product
+
+
+
+x
+∗
+y
+
+
+{\displaystyle x*y}
+is also in G ( in symbols, for every two elements
+
+
+
+x
+,
+y
+∈
+G
+,
+x
+∗
+y
+
+
+{\displaystyle x,y\in G,x*y}
+is also in
+
+
+
+G
+.
+
+
+{\displaystyle G.}
+
+Associativity: For every x and y and z in G, both
+
+
+
+(
+x
+∗
+y
+)
+∗
+z
+
+
+{\displaystyle (x*y)*z}
+and
+
+
+
+x
+∗
+(
+y
+∗
+z
+)
+
+
+{\displaystyle x*(y*z)}
+result with the same element in G ( in symbols,
+
+
+
+(
+x
+∗
+y
+)
+∗
+z
+=
+x
+∗
+(
+y
+∗
+z
+)
+
+
+{\displaystyle (x*y)*z=x*(y*z)}
+for every
+
+
+
+x
+,
+y
+
+
+{\displaystyle x,y}
+, and
+
+
+
+z
+∈
+G
+
+
+{\displaystyle z\in G}
+).
+Existence of identity: There must be an element ( say e ) in G such that product any element of G with e make no change to the element ( in symbols,
+
+
+
+x
+∗
+e
+=
+e
+∗
+x
+=
+x
+
+
+{\displaystyle x*e=e*x=x}
+for every
+
+
+
+x
+∈
+G
+
+
+{\displaystyle x\in G}
+).
+Existence of inverse: For each element (x ) in G, there must be an element y in G such that product of x and y is the identity element e ( in symbols, for each
+
+
+
+x
+∈
+G
+
+
+{\displaystyle x\in G}
+there is a
+
+
+
+y
+∈
+G
+
+
+{\displaystyle y\in G}
+such that
+
+
+
+x
+∗
+y
+=
+y
+∗
+x
+=
+e
+
+
+{\displaystyle x*y=y*x=e}
+for every;
+
+
+
+x
+∈
+G
+
+
+{\displaystyle x\in G}
+).
+Commutative: In addition to the above four, if it so happens that
+
+
+
+∀
+x
+,
+y
+∈
+G
+
+
+{\displaystyle \forall x,y\in G}
+,
+
+
+
+x
+∗
+y
+=
+y
+∗
+x
+
+
+{\displaystyle x*y=y*x}
+, then the group is called an Abelian group. Otherwise it is called a non-Abelian group.

@@ -1,0 +1,7 @@
+In some operating systems, such as UNIX, there is a special
+concept called pipe, which is a pseudo-ﬁle that can be used to
+connect two processes together. When a process wants to send
+data to another process, it writes on the pipe as though it were
+an input ﬁle for the second process. Thus, communication
+between processes looks very much like ordinary ﬁle reads
+and writes.

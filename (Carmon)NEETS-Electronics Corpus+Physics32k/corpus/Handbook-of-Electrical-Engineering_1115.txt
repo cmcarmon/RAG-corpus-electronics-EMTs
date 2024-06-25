@@ -1,0 +1,10 @@
+A linear phase characteristic ensures that a ﬁlter has a constant group delay independent of frequency. Thus,
+all  frequency  components  in  the  signal  are  delayed  by  the  same  amount,  and  the  only  signal  distortion
+introduced is that imposed by the ﬁlter’s frequency-selective characteristics. Since a FIR ﬁlter can only approx-
+imate a desired frequency-selective characteristic, some measures of the accuracy of approximation are needed
+to  describe  the  quality  of  the  design.  These  are  the  passband  ripple dp,  the  stopband  attenuation d s,  and  the
+transition  bandwidth  Dw.  These  quantities  are  illustrated  in  Fig. 14.10  for  a  prototype  low-pass  ﬁlter.  The
+passband ripple gives the maximum deviation from the desired amplitude (typically unity) in the region where
+the input signal spectral components are desired to be passed unattenuated. The stopband attenuation gives
+the maximum deviation from zero in the region where the input signal spectral components are desired to be
+blocked. The transition bandwidth gives the width of the spectral region in which the frequency characteristics

@@ -1,0 +1,11 @@
+The ordering of the application’s memory accesses in time
+determines how much memory bandwidth is needed. This
+memory bandwidth comes at a cost. Therefore, an estimation
+model of the memory bandwidth cost is required to steer the
+ordering of the memory accesses. Scheduling algorithms can
+then be used to optimize this cost; for example, the ones
+proposed by us (Wuytack et al., 1996; Brockmeyer et al.,
+2000; Omne`s et al., 2000), directly support the background
+memory cost in a global way. Manually exploring possible
+orderings and evaluating the resulting memory bandwidth is
+infeasible, so tool support is essential for this step.

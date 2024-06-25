@@ -1,0 +1,111 @@
+Assume:
+a is the acceleration due to thrust (the time-rate at which delta-v is spent)
+g is the gravitational field strength
+v is the velocity of the rocket
+Then the time-rate of change of the specific energy of the rocket is
+
+
+
+
+v
+
+⋅
+
+a
+
+
+
+{\displaystyle \mathbf {v} \cdot \mathbf {a} }
+: an amount
+
+
+
+
+v
+
+⋅
+(
+
+a
+
+−
+
+g
+
+)
+
+
+{\displaystyle \mathbf {v} \cdot (\mathbf {a} -\mathbf {g} )}
+for the kinetic energy and an amount
+
+
+
+
+v
+
+⋅
+
+g
+
+
+
+{\displaystyle \mathbf {v} \cdot \mathbf {g} }
+for the potential energy.
+The change of the specific energy of the rocket per unit change of delta-v is
+
+
+
+
+
+
+
+v
+⋅
+a
+
+
+
+|
+
+
+a
+
+
+|
+
+
+
+
+
+
+{\displaystyle {\frac {\mathbf {v\cdot a} }{|\mathbf {a} |}}}
+
+which is |v| times the cosine of the angle between v and a.
+Thus, when applying delta-v to increase specific orbital energy, this is done most efficiently if a is applied in the direction of v, and when |v| is large. If the angle between v and g is obtuse, for example in a launch and in a transfer to a higher orbit, this means applying the delta-v as early as possible and at full capacity. See also gravity drag. When passing by a celestial body it means applying thrust when nearest to the body. When gradually making an elliptic orbit larger, it means applying thrust each time when near the periapsis.
+When applying delta-v to decrease specific orbital energy, this is done most efficiently if a is applied in the direction opposite to that of v, and again when |v| is large. If the angle between v and g is acute, for example in a landing (on a celestial body without atmosphere) and in a transfer to a circular orbit around a celestial body when arriving from outside, this means applying the delta-v as late as possible. When passing by a planet it means applying thrust when nearest to the planet. When gradually making an elliptic orbit smaller, it means applying thrust each time when near the periapsis.
+If a is in the direction of v:
+
+
+
+
+Δ
+ϵ
+=
+∫
+v
+
+d
+(
+Δ
+v
+)
+=
+∫
+v
+
+a
+d
+t
+
+
+{\displaystyle \Delta \epsilon =\int v\,d(\Delta v)=\int v\,adt}

@@ -1,0 +1,4 @@
+Same as 1.2 except that, after the address is used, it is incremented by the size of the 
+datum in bytes and returned to the register from which it came.
+The value in SP is decremented by the size of the datum in bytes, used as the address 
+and returned to the register from which it came.

@@ -1,0 +1,12 @@
+In addition to a distributed ﬁle system, an ideal distributed
+operating system should give its users an illusion of a single
+synergistic computer with the collective computing capability
+extracted from a set of heterogeneous computer systems. The
+Mach operating system, also developed at Carnegie-Mellon
+University, is a typical distributed operating system. It handles
+a variety of distributed system operations, including a uniform
+ﬁle name space, a virtual shared computational memory, and
+multiprocessing; it is also compatible with UNIX (Accetta et al.,
+1986; Rashid et al., 1988). Another example is the Amoeba
+system designed by a team in Vrije Universiteit led by Andrew
+Tanenbaum (Tanenbaum, 1992).

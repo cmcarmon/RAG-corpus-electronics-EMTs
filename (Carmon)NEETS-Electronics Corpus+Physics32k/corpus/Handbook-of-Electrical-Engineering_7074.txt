@@ -1,0 +1,6 @@
+For example, let X be a Gaussian random variable with mean 0 and variance s2 , and assume a squared error
+distortion measure. In this case, we wish to ﬁnd the function ˆX(X) such that ˆX takes on at most 2R values and
+minimizes E(X – ˆX (X))2. If we are given 1 bit to represent X, it is clear that the bit should distinguish whether
+X > 0 or not. To minimize squared error, each reproduced symbol should be at the conditional mean of its
+region. If we are given 2 bits to represent the sample, the situation is not as simple. Clearly, we want to divide
+the real line into four regions and use a point within each region to represent the samples within that region.

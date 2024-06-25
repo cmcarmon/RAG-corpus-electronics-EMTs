@@ -1,0 +1,14 @@
+This simple circuit structure is associated with a well-established design theory and might appear the perfect
+solution to the ﬁlter synthesis problem. Unfortunately, the problems introduced by the use of the inductor as
+a circuit component proved a serious difﬁculty from the outset. Inductors are intrinsically nonideal components,
+and the lower the frequency range of operation, the greater these problems become. Problems include signiﬁcant
+series resistance associated with the physical structure of the inductor as a coil of wire, its ability to couple by
+electromagnetic induction into ﬁelds emanating from external components and sources and from other induc-
+tors within the ﬁlter, its physical size, and potential mechanical instability. Added to these problems is the fact
+that the inductor tends not to be an off-the-shelf component but has instead to be fabricated to the required
+value  as  a  custom  device.  These  serious  practical  difﬁculties  created  an  early  pressure  to  develop  alternative
+approaches to electrical ﬁltering. After the emergence of the electronic ampliﬁer based on vacuum rules, it was
+—were  capable  of
+discovered  that  networks  involving  resistors,  capacitors,  and  ampliﬁers—
+producing TFs exactly equivalent to those of LCR ladders. Figure 29.2 shows a single-ampliﬁer multiloop ladder
+structure that can produce a ﬁfth-order response identical to that of the circuit of Fig. 29.1(a).

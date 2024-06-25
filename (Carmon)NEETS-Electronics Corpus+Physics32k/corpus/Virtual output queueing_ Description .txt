@@ -1,0 +1,8 @@
+In VOQ, the physical buffer of each input port maintains a separate virtual queue for each output port. Therefore congestion on an egress port will block only the virtual queue for this particular egress port. Other packets in the same physical buffer destined to different (non-congested) output ports are in separate virtual queues and can therefore still be processed. In a traditional setup, the blocked packet for the congested egress port would have blocked the whole physical buffer, resulting in head-of-line blocking.
+It has been shown that VOQ can achieve 100% throughput performance with an effective scheduling algorithm. This scheduling algorithm should be able to provide a high speed mapping of packets from inputs to outputs on a cycle-to-cycle basis. The VOQ mechanism provides throughput at a much higher rate than the crossbar switches without it.
+There are many algorithms for design and implementation of fast VOQ. For example, Nick McKeown and a group at Stanford University published a design in 1997.
+Quality of service and priority are extensions found in literature of the same time.
+VOQ scheduling is often referred to as "arbitration" (resolving the concurrent access wishes), whereas the ordering of packets ("packet scheduling") is an additional task following the VOQ arbitration.
+
+
+== References ==

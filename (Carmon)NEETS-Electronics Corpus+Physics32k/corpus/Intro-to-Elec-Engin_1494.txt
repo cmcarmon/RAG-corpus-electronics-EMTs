@@ -1,0 +1,11 @@
+Quantization
+Let Figure 15.3.1(a) illustrate a message f (t) with values between 0 and 7 V. A sequence of
+exact samples taken at uniform intervals of time is shown: 1.60, 3.70, 4.75, 3.90, 3.45, and
+5.85 V. Quantization consists of rounding exact sample values to the nearest of a set of discrete
+amplitudes called quantum levels. Assuming the quantizer to have eight quantum levels (0, 1,
+2, . . . , 7 V), a sequence of quantized samples (2, 4, 5, 4, 3, and 6 V) is shown in Figure 15.3.1(a).
+Obviously, the scheme is not limited to messages with only nonnegative voltages. The quantizer
+is said to be uniform when the step size between any two adjacent quantum levels is a constant,
+denoted by δv volts. Quantizers with nonuniform step size are also designed for improved system
+performance. An L-level quantizer can have even or odd L. A quantizer is said to be saturated or
+overloaded when

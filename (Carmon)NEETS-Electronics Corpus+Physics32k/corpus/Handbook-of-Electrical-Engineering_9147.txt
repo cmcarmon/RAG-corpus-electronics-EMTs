@@ -1,0 +1,10 @@
+Standalone Readers
+Standalone  readers  are  modules  that  offer  a  complete  interface  to  operate  and  communicate  with  the  smart
+card. That kind of reader can be a part of a complex machine such as an automatic teller machine or presented
+as  a  hand-held  device.  For  an  application  such  as  an  automated  bank  teller,  the  smart  card  reader  is  then  a
+programmable device integrated into a larger system with several peripherals such as display, keyboard, real-
+time clock, and printers. In many cases, the complete system also includes several security mechanisms from
+protected housings to sensors for detecting attacks and security modules. A security module is a smart card
+that holds the terminal secret keys, which are used to create card-speciﬁc keys. A standalone reader usually has
+a communication link to operate as a peripheral of a larger transaction server that will verify the user identi-
+ﬁcation and take charge of the information transmission, reconciliation of transactions, etc.

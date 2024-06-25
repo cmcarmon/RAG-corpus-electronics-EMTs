@@ -1,0 +1,6 @@
+In HPrTNs, the interface of a transition includes a box with
+a name and the labels of relevant arcs (the label identiﬁers
+determining the calling context and the ﬂow expressions spe-
+cifying parameters). The meaning of an elementary transition
+is deﬁned by its constraint, and the meaning of a super transi-
+tion is deﬁned through its corresponding subnet.

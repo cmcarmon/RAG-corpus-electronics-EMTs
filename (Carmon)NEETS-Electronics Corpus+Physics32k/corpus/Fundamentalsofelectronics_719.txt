@@ -1,0 +1,7 @@
+Problem 5.31: Stock Market Data Processing
+Because a trading week lasts ﬁve days, stock markets frequently compute running averages each day over the
+previous ﬁve trading days to smooth price ﬂuctuations. The technical stock analyst at the Buy-Lo–Sell-Hi
+brokerage ﬁrm has heard that FFT ﬁltering techniques work better than any others (in terms of producing
+more accurate averages).
+(a) What is the diﬀerence equation governing the ﬁve-day averager for daily stock prices?
+(b) Design an eﬃcient FFT-based ﬁltering algorithm for the broker. How much data should be processed

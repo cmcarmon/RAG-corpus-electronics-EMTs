@@ -1,0 +1,4 @@
+You may wonder what purpose Ck serves in this circuit. Ck serves as an AC BYPASS. Without Ck,
+the bias voltage will vary with ac input signals. This is particularly troublesome in the higher frequencies
+like those found in radio receivers. Rk, the cathode-biasing resistor, is used to develop the biasing voltage
+on the cathode.

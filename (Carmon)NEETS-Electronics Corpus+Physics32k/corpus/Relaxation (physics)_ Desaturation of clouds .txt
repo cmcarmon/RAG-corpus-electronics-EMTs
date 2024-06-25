@@ -1,0 +1,9 @@
+Consider a supersaturated portion of a cloud. Then shut off the updrafts, entrainment, or any other vapor sources/sinks and things that would induce the growth of the particles (ice or water). Then wait for this supersaturation to reduce and become just saturation (relative humidity = 100%), which is the equilibrium state. The time it took for this to happen is called relaxation time. It will happen as ice crystals or liquid water content grow within the cloud and will thus consume the contained moisture. The dynamics of relaxation are very important in cloud physics modeling because if models do not take relaxation time into account, then it is highly probable that error will creep into the system.
+In water clouds where the concentrations are larger (hundreds per cm3) and the temperatures are warmer (thus allowing for much lower supersaturation rates as compared to ice clouds), the relaxation times will be very low (seconds to minutes).
+In ice clouds the concentrations are lower (just a few per liter) and the temperatures are colder (very high supersaturation rates) and so the relaxation times can be hours and hours.
+τ=(4πDNRK)−1
+where
+D = diffusion coefficient [m2/s]
+N = concentration (of ice crystals or water droplets) [m−3]
+R = mean radius of particles [m]
+K = capacitance [unitless]

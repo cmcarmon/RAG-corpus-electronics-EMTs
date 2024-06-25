@@ -1,0 +1,7 @@
+VLIW has potential performance advantages because its control unit is relatively simple. Because the work
+of  ﬁnding  parallelism  is  performed  by  the  compiler,  a  VLIW  machine  does  not  require  the  sophisticated
+execution  unit  of  a  superscalar  processor.  This  allows  a  VLIW  video  processor  to  run  at  high  clock  rates.
+However,  it  does  rely  on  the  compiler’s  ability  to  ﬁnd  enough  parallelism  to  keep  the  function  units  busy.
+Furthermore, complex algorithms may have some sections that are not highly parallel and therefore will not
+be sped up by the VLIW mechanism. If one is not careful, these sequential sections of code can come to limit
+the overall performance of the application.

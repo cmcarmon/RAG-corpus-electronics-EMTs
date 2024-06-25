@@ -1,0 +1,25 @@
+During the training phase an HMM is ‘‘taught’’ the statis-
+tical makeup of the observation strings for its dedicated word.
+Training an HMM can be thought of as an attempt to create
+the automaton (the HMM) that ‘‘produces’’ a given word, in
+the sense that the HMM will tend to generate strings of
+features that are similar (statistically) to those produced by a
+human speaker uttering the given word. In producing the
+word, the human’s vocal tract, roughly speaking, progresses
+through a sequence of ‘‘states’’ (corresponding to phonemes,
+for example) that are not directly observable to a listener who
+must recognize the utterance. The listener can observe the
+speech features but generally does not know the exact state of
+the speaker’s vocal system that produced a given observation.
+The HMM is likewise composed of a set of interconnected
+states, a sequence through which the HMM progresses in the
+production of a feature string. As in the case of the human
+generator, the states of the HMM are ‘‘hidden’’ from the
+observer of the feature string, and the number of discrete states
+composing the HMM is usually very small compared with
+the number of feature vectors in a string of observables. In
+modeling a word, for example, the HMM might have six
+states corresponding to a like number of phonemes that
+compose the word being modeled, whereas an acoustic utter-
+ance of the word could result in a hundred or more feature
+vectors.

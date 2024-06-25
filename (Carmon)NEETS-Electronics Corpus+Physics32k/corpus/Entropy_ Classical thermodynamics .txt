@@ -1,0 +1,92 @@
+The thermodynamic definition of entropy was developed in the early 1850s by Rudolf Clausius and essentially describes how to measure the entropy of an isolated system in thermodynamic equilibrium with its parts. Clausius created the term entropy as an extensive thermodynamic variable that was shown to be useful in characterizing the Carnot cycle. Heat transfer along the isotherm steps of the Carnot cycle was found to be proportional to the temperature of a system (known as its absolute temperature). This relationship was expressed in increments of entropy equal to the ratio of incremental heat transfer divided by temperature, which was found to vary in the thermodynamic cycle but eventually return to the same value at the end of every cycle. Thus it was found to be a function of state, specifically a thermodynamic state of the system. Clausius wrote that he "intentionally formed the word Entropy as similar as possible to the word Energy", basing the term on the Greek ἡ τροπή tropē, "transformation".
+While Clausius based his definition on a reversible process, there are also irreversible processes that change entropy. Following the second law of thermodynamics, entropy of an isolated system always increases for irreversible processes. The difference between an isolated system and closed system is that heat may not flow to and from an isolated system, but heat flow to and from a closed system is possible. Nevertheless, for both closed and isolated systems, and indeed, also in open systems, irreversible thermodynamics processes may occur.
+According to the Clausius equality, for a reversible cyclic process:
+
+
+
+
+
+
+∮
+
+
+
+
+
+⁡
+
+
+
+δ
+
+Q
+
+rev
+
+
+
+T
+
+
+=
+0.
+
+
+{\displaystyle \oint {\frac {\delta Q_{\text{rev}}}{T}}=0.}
+This means the line integral
+
+
+
+
+∫
+
+L
+
+
+
+
+
+δ
+
+Q
+
+rev
+
+
+
+T
+
+
+
+
+{\displaystyle \int _{L}{\frac {\delta Q_{\text{rev}}}{T}}}
+is path-independent.
+So we can define a state function S called entropy, which satisfies
+
+
+
+d
+S
+=
+
+
+
+δ
+
+Q
+
+rev
+
+
+
+T
+
+
+.
+
+
+{\displaystyle dS={\frac {\delta Q_{\text{rev}}}{T}}.}
+
+To find the entropy difference between any two states of a system, the integral must be evaluated for some reversible path between the initial and final states. Since entropy is a state function, the entropy change of the system for an irreversible path is the same as for a reversible path between the same two states. However, the entropy change of the surroundings will be different.
+We can only obtain the change of entropy by integrating the above formula. To obtain the absolute value of the entropy, we need the third law of thermodynamics, which states that S = 0 at absolute zero for perfect crystals.
+From a macroscopic perspective, in classical thermodynamics the entropy is interpreted as a state function of a thermodynamic system: that is, a property depending only on the current state of the system, independent of how that state came to be achieved. In any process where the system gives up energy ΔE, and its entropy falls by ΔS, a quantity at least TR ΔS of that energy must be given up to the system's surroundings as unusable heat (TR is the temperature of the system's external surroundings). Otherwise the process cannot go forward. In classical thermodynamics, the entropy of a system is defined only if it is in thermodynamic equilibrium.

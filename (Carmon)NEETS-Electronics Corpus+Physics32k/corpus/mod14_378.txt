@@ -1,0 +1,6 @@
+Assume that A, B, C, and D are lamps and that all the FFs are reset. The lamps will all be out, and
+the count indicated will be 00002. The negative-going pulse of clock pulse 1 causes FF1 to set. This lights
+lamp A, and we have a count of 00012. The negative-going pulse of clock pulse 2 toggles FF1, causing it
+to reset. This negative-going input to FF2 causes it to set and causes B to light. The count after two clock
+pulses is 00102, or 210. Clock pulse 3 causes FF1 to set and lights lamp A. The setting of FF1 does not
+affect FF2, and lamp B stays lit. After three clock pulses, the indicated count is 00112.

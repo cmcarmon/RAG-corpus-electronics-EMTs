@@ -1,0 +1,1 @@
+The original termination condition was to stop after visiting the start pixel for the second time. This limits the set of contours the algorithm will walk completely. An improved stopping condition proposed by Jacob Eliosoff is to stop after entering the start pixel for the second time in the same direction you originally entered it.

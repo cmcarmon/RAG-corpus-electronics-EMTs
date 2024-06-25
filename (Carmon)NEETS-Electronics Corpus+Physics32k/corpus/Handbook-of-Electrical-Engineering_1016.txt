@@ -1,0 +1,9 @@
+If  time  is  critical,  the  simpler  models  will  deﬁnitely  be  much  faster  for  use  in  characterization.  The  more
+complicated  models  require  more  measurements  over  wider  ranges  of  voltages  as  well  as  wider  ranges  of
+geometries. This, coupled with the larger number of parameters, means they will take some time with which
+to work. The BSIM2 model will take longer than all the rest, especially if the Gds ﬁtting parameters are to be used.
+The  characterization  results  may  need  to  be  used  in  more  than  one  circuit  simulator.  For  example,  if  a
+foundry must supply models to various customers, they may be using different circuit simulators. In this case
+proprietary models applicable to a single circuit simulator should not be used. Also, circuit designers may want
+to check the circuit simulation results on more than one circuit simulator. It is better to use standard Berkeley
+models (level 2, level 3, BSIM, BSIM2, and BSIM3) in such cases.

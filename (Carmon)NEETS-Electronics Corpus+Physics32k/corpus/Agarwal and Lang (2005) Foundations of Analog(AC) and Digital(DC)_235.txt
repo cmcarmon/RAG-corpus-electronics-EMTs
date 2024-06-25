@@ -1,0 +1,15 @@
+19. Notice that before the advent of currencies, the barter system prevailed, and wealth was indeed
+analog in nature, since a loaf of bread, or a plot of land for that matter, theoretically is infinitely
+divisible!
+20. For applications that care only about whether a signal is above or below some threshold, the
+loss in precision is of no consequence, and a two-level representation is sufficient. However, for
+other applications that care about small changes in a signal, the basic two-level representation of
+a signal must be extended. We show in Chapter 5 that practical digital systems can offer both
+arbitrary degrees of precision and noise immunity through a process of discretization and coding.
+Briefly, to recover some precision while retaining noise immunity, digital systems quantize signals
+into a large number of levels
+and code these levels into a few binary
+digits
+8, in our example, where each binary digit can be represented as a two-level voltage on
+a single wire. This method converts an analog signal on a single wire into a binary encoded signal
+on several wires, where each wire carries a voltage that can vary between two levels.

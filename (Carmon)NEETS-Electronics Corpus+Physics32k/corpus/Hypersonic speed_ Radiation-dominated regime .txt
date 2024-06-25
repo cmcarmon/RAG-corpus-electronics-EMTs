@@ -1,0 +1,4 @@
+Above around 12 km/s, the heat transfer to a vehicle changes from being conductively dominated to radiatively dominated. The modeling of gases in this regime is split into two classes:
+Optically thin: where the gas does not re-absorb radiation emitted from other parts of the gas
+Optically thick: where the radiation must be considered a separate source of energy.
+The modeling of optically thick gases is extremely difficult, since, due to the calculation of the radiation at each point, the computation load theoretically expands exponentially as the number of points considered increases.

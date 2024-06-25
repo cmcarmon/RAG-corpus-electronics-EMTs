@@ -1,0 +1,6 @@
+A token-ring architecture is not especially attractive for a high-speed optical network (where S ~ B is above
+1 Gb/s) because of the cost of high-speed repeater optoelectronics at each station and the packet-processing
+delay. In addition, at high bit rates, the packet time may be much shorter than the propagation time around
+the  ring,  unless  a  packet  contains  an  impractically  large  number  of  bits.  Efﬁcient  use  of  the  ring  with  short
+packets may call for multiple tokens, which can lead to complex protocols. Increasing the number of bits per
+packet increases the packet time but places added burden on the high-speed buffer at each station.

@@ -1,0 +1,29 @@
+HMM Training
+Discrete-Observation Case
+Next we address the question of training a particular HMM to
+correctly represent its designated word or other utterance.16
+We assume that we have one or more feature strings of the
+form y ¼ {y1, . . . , yt } extracted from training utterances of the
+word (this assumes that we already have the codebook that will
+be used to deduce symbols), and the problem is to use these
+strings to ﬁnd an appropriate model of form 3.38. In particu-
+lar, we must ﬁnd the matrices A and B and the initial state
+probability vector p1. There is no known way to analytically
+compute these quantities from the observations in any optimal
+sense. However, an extension to the F–B algorithm provides an
+iterative estimation procedure for computing a model, M,
+likelihood
+corresponding to a local maximum of
+P(yjM). This method is most widely used to estimate the
+HMM parameters, and for algorithm details, the reader is
+referred to Deller et al. (2000) and Rabiner and Juang (1993).
+Repeated re-estimation of the model (by repeated iterations of
+the F–B algorithm) is guaranteed to converge to an HMM
+corresponding to a local maximum of P(yjM) (Baum and
+Sell, 1968). The model improves with each iteration unless its
+parameters already represent a local maximum. F–B training,
+therefore, does not necessarily produce the globally best pos-
+sible model. Accordingly, it is common practice to run the
+algorithm several times with different sets of initial parameters
+and to take as the trained model the M that yields the largest
+value of P(yjM).

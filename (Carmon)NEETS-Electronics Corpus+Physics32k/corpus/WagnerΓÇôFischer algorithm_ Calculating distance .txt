@@ -1,0 +1,6 @@
+The Wagner–Fischer algorithm computes edit distance based on the observation that if we reserve a matrix to hold the edit distances between all prefixes of the first string and all prefixes of the second, then we can compute the values in the matrix by flood filling the matrix, and thus find the distance between the two full strings as the last value computed.
+A straightforward implementation, as pseudocode for a function EditDistance that takes two strings, s of length m, and t of length n, and returns the Levenshtein distance between them, looks as follows. Note that the input strings are one-indexed, while the matrix d is zero-indexed, and [i..k] is a closed range.
+
+Two examples of the resulting matrix (hovering over an underlined number reveals the operation performed to get that number):
+
+The invariant maintained throughout the algorithm is that we can transform the initial segment s[1..i] into t[1..j] using a minimum of d[i,j] operations. At the end, the bottom-right element of the array contains the answer.

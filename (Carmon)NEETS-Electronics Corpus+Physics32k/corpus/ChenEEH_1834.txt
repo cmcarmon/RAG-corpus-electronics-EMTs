@@ -1,0 +1,20 @@
+groups inform their immediate-neighboring routers using the
+Internet Group Management Protocol (IGMP). Multicasting is
+trivial on a single ethernet segment (where packets can be
+multicast using the multicast MAC address). For delivering a
+multicast packet from the source to the destination nodes on
+other networks, however, multicast routers need to exchange
+the information they have gathered from the group member-
+ship of the hosts directly connected to them. There are many
+different algorithms such as ﬂooding, spanning tree, reverse path
+broadcasting, and reverse path multicasting for exchanging the
+routing information among the routers. Some of these algo-
+rithms have been used in dynamic multicast routing protocols
+such as Distance Vector Multicast Routing Protocol
+(DVMRP), Multicast Extension to Open Shortest Path First
+(MOSPF), and Protocol Independent Multicast (PIM) (Sahas-
+rabuddhe and Mukherjee, 2000). Based on the routing infor-
+mation obtained through one of these protocols, whenever a
+multicast packet is sent out to a multicast group, multicast
+routers will decide whether to forward that packet to their
+network(s) or not.

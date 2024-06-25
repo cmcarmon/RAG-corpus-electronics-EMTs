@@ -1,0 +1,9 @@
+The  ﬁrst  factor  is  the  nature  of  the  particular  network.  Networks
+that contain many series-connected elements, voltage sources, or super-
+meshes  are  more  suitable  for  mesh  analysis,  whereas  networks  with
+parallel-connected  elements,  current  sources,  or  supernodes  are  more
+suitable  for  nodal  analysis.  Also,  a  circuit  with  fewer  nodes  than
+meshes  is  better  analyzed  using  nodal  analysis,  while  a  circuit  with
+fewer  meshes  than  nodes  is  better  analyzed  using  mesh  analysis. The
+key  is  to  select  the  method  that  results  in  the  smaller  number  of
+equations.

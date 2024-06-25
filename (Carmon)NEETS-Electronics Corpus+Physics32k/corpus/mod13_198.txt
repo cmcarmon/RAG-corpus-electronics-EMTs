@@ -1,0 +1,5 @@
+To CONVERT DECIMAL FRACTIONS, multiply the fraction by the base of the desired number
+system. Extract those digits that move to the left of the radix point. Continue to multiply the fractional
+product for as many places as needed. The first digit left of the radix point will be the MSD, and the last
+will be the LSD. The example to the right shows the process of converting 248.3210 to the octal equivalent
+(370.2438).

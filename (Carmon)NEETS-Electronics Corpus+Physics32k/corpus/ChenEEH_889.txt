@@ -1,0 +1,9 @@
+Clock Scheduling for Maximum Performance
+The linear programming (LP) problem of computing a feasible
+clock skew schedule while minimizing the clock period TCP of
+a circuit can be found in (Friedman, 1995; Neves and Fried-
+man 1996a, 1996b; Afghani and Svensson, 1990; Kourtev,
+1999; Fishburn, 1990). With TCP as the value of the objective
+function being minimized, this problem is formally deﬁned as
+problem LCSS:
+Problem LCSS__________ (LP Clock skew scheduling)

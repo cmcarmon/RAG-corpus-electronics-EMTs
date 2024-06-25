@@ -1,0 +1,12 @@
+Feed rate is the velocity at which the cutter is fed, that is, advanced against the workpiece. It is expressed in units of distance per revolution for turning and boring (typically inches per revolution [ipr] or millimeters per revolution). It can be expressed thus for milling also, but it is often expressed in units of distance per time for milling (typically inches per minute [ipm] or millimeters per minute), with considerations of how many teeth (or flutes) the cutter has then determining what that means for each tooth.
+Feed rate is dependent on the:
+Type of tool (a small drill or a large drill, high speed or carbide, a boxtool or recess, a thin form tool or wide form tool, a slide knurl or a turret straddle knurl).
+Surface finish desired.
+Power available at the spindle (to prevent stalling of the cutter or workpiece).
+Rigidity of the machine and tooling setup (ability to withstand vibration or chatter).
+Strength of the workpiece (high feed rates will collapse thin wall tubing)
+Characteristics of the material being cut, chip flow depends on material type and feed rate. The ideal chip shape is small and breaks free early, carrying heat away from the tool and work.
+Threads per inch (TPI) for taps, die heads and threading tools.
+Cut Width. Any time the width of cut is less than half the diameter, a geometric phenomenon called Chip Thinning reduces the actual chipload. Feedrates need to be increased to offset the effects of chip thinning, both for productivity and to avoid rubbing which reduces tool life.
+When deciding what feed rate to use for a certain cutting operation, the calculation is fairly straightforward for single-point cutting tools, because all of the cutting work is done at one point (done by "one tooth", as it were). With a milling machine or jointer, where multi-tipped/multi-fluted cutting tools are involved, then the desirable feed rate becomes dependent on the number of teeth on the cutter, as well as the desired amount of material per tooth to cut (expressed as chip load). The greater the number of cutting edges, the higher the feed rate permissible: for a cutting edge to work efficiently it must remove sufficient material to cut rather than rub; it also must do its fair share of work.
+The ratio of the spindle speed and the feed rate controls how aggressive the cut is, and the nature of the swarf formed.

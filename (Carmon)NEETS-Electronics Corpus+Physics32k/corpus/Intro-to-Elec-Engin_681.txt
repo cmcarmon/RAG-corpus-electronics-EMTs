@@ -1,0 +1,11 @@
+MOSFETs, like JFETs, are normally on transistors, in which the ﬁeld effect reduces conduction
+by depleting the built-in channel. Figure 7.4.11(a) shows the formation of depletion regions due
+to electron-hole recombinations with a negative gate voltage. With vGS ≤ −VP , where VP is the
+pinch-off voltage, the depletion regions completely block the channel, making iD = 0, as shown in
+Figure 7.4.11(b), which corresponds to the cutoff condition. With vGS > −VP and vGD < −VP ,
+so that vDS > vGS + VP , the channel becomes partially blocked or pinched down when the device
+operates in its active state.
+Figure 7.4.12 shows the characteristics of a typical n-channel depletion MOSFET. With
+VP = 3 V, iD = 0 for vGS ≤ −3 V. If −3 V < vGS ≤ 0, the device operates in the depletion
+mode; if vGS > 0, it operates in the enhancement mode. The equations describing the drain current
+are of the same form as for the JFET.

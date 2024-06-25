@@ -1,0 +1,18 @@
+p r o b l e m 6.7 Consider a family of logic gates that operates under the static dis-
+cipline with the following voltage thresholds: VOL = 0.5 V, VIL = 0.9 V, VOH = 4.5
+V, and VIH = 4 V. Using the switch-resistor MOSFET model, design a 2-input NAND
+gate satisfying the static discipline for the four voltage thresholds using three n-channel
+MOSFETs as illustrated in Figure 6.66 (the MOSFET with its gate connected to a volt-
+age VA and drain connected to the power supply VS serves as the pullup). VA is chosen
+such that VA > VS + VT. The MOSFETs have Rn = 1 k and VT = 1.8 V. Recall,
+RON = Rn(L/W). Assume VS = 5 V. Further assume that the area of the NAND gate is
+given by the sum of the areas of the three MOSFETs. Assume that the area of a device
+is L × W. The NAND gate should take as little area as possible with minimum size for
+L or W being 0.5 µm. What is the total area of the NAND gate?
+p r o b l e m 6.8
+Remember that a NAND gate can be implemented as a circuit
+with two n-channel MOSFETs and a pullup resistor RL. Let us call it the NAND cir-
+cuit shown in Figure 6.67. These NAND circuits are used by Penny-Wise Computer
+Corporation in their computer boards. In one ill-fated shipment of computer boards,
+the outputs of a pair of NAND circuits get shorted accidentally resulting in the effective
+Circuit X shown in Figure 6.67.

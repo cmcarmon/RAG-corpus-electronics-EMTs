@@ -1,0 +1,12 @@
+Temporal Segmentation
+Video data can be viewed hierarchically. At the lowest level,
+video data is made up of frames; a collection of frames that
+result from single camera operation depicting one event is
+called a shot, and a complete unit of narration that consists
+of a series of shots or a single shot taking place in a single
+location and dealing with a single action deﬁnes a scene
+(Monaco, 1977). CBVIR systems rely on the visual content at
+distinct hierarchical levels of the video data. Although the basic
+representation of raw video is provided in terms of a sequence
+of frames, the detection of distinct shots and scenes is a
+complex task.

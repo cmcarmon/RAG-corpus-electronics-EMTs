@@ -1,0 +1,13 @@
+frequency-dependent polynomial or other mathematical func-
+tions. In general, the design of a ﬁlter requires three steps,
+starting with the network synthesis of a low-pass LC prototype
+(using normalized frequency, normalized bandwidth, and spe-
+ciﬁed slope selectivity) as shown in Figure 7.34. The insertion–
+loss method and the image–parameter method are most fre-
+quently used to calculate network parameters of the prototype
+transfer function. Then, the prototype network and parameters
+are transformed or frequency-scaled to the actual frequency
+speciﬁcations. Finally, the synthesized network is physically
+designed and produced by either lumped LC elements, com-
+mensurate line planar microstrip, waveguide sections, or other
+building blocks. Special techniques to transform LC param-

@@ -1,0 +1,9 @@
+the circuit C that contains the registers R1 through R5. It is
+possible to apply a clock schedule to S that speciﬁes a clock
+delay t 1
+cd to the register R1. However, the timing information
+for the local data path R6?R1 is not considered when sched-
+uling the clock signal delays to the registers in C (including
+t 1
+cd). Therefore, a timing violation may occur on the local data
+path R6?R1 illustrated in Figure 4.13.

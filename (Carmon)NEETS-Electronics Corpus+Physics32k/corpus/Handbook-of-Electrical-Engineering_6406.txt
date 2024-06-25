@@ -1,0 +1,4 @@
+The least-mean-squared (LMS) equalizer [Lucky et al.,1968] is more robust. Here the equalizer coefﬁcients
+are chosen to minimize the mean squared error (MSE)—the sum of squares of all the ISI terms plus the noise
+power  at  the  output  of  the  equalizer.  Therefore,  the  LMS  equalizer  maximizes  the  signal-to-distortion  ratio
+(S/D) at its output within the constraints of the equalizer time span and the delay through the equalizer.

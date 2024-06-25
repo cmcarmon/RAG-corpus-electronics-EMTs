@@ -1,0 +1,7 @@
+Next, the engineers investigate the input high voltage level, but quickly discover that the
+situation is even worse. Disco’s systems require that all devices interpret voltages in the
+range 3.5 V (VIH) to 5 V as a logical 1. Unfortunately, their new adders can guarantee
+to interpret voltages only in the range 4 V to 5 V as a logical 1. Their behavior for input
+voltages in the range 3.5 V to 4 V is undefined. Since Disco’s devices can legitimately
+produce voltages in this range for a logical 1, the new Yikes adders cannot co-exist with
+the existing Disco devices.

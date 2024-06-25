@@ -1,0 +1,12 @@
+Suppose the signal is available in differential form. In other words, suppose the signal
+is available as the relative voltage output (vA − vB) on a pair of terminals A and B. For
+example, as the output of the tape-head in a tape-recorder, the output of an instrumen-
+tation device or a sensor. Such a sensor often resembles one of our primitive elements
+for example, a variable resistor. The element might produce a voltage signal across its
+terminals related to some externally sensed parameter such as temperature, gas con-
+centration, or magnetic field strength. Often, a pair of wires carrying the signal might
+travel through a noisy environment resulting in the coupling of more or less the same
+amount of noise (vn) on each of the two wires, as depicted in Figure 8.25.2 In other
+situations, the two wires might both carry a common DC bias. In such situations, a
+difference amplifier can help amplify just the differential signal component and discard
+the common noise component.

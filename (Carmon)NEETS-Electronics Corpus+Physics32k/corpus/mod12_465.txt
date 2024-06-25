@@ -1,0 +1,7 @@
+The ratio detector is not affected by amplitude variations on the fm wave. The output of the detector
+adjusts itself automatically to the average amplitude of the input signal. C5 charges to the sum of the
+voltages across R1 and R2 and, because of its time constant, tends to filter out any noise impulses. Before
+C5 can charge or discharge to the higher or lower potential, the noise disappears. The difference in charge
+across C5 is so slight that it is not discernible in the output. Ratio detectors can operate with as little as
+100 millivolts of input. This is much lower than that required for limiter saturation and less gain is
+required from preceding stages.

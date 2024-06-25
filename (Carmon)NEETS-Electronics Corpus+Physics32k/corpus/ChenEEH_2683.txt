@@ -1,0 +1,11 @@
+Time-stepping is continued until the desired late-time pulse
+response is observed at the ﬁeld points of interest. For linear
+wave interaction problems, the sinusoidal response at these
+ﬁeld points can be obtained over a wide band of frequencies
+by discrete Fourier transformation of the computed ﬁeld
+versus time waveforms at these points. Prolonged ‘‘ringing’’
+of the computed ﬁeld waveforms due to a high Q-factor or
+large electrical size of the structure being modeled requires a
+combination of extending the computational window in time
+and extrapolating the windowed data before Fourier trans-
+formation.

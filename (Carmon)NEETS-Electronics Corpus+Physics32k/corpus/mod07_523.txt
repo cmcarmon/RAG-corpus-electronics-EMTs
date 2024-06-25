@@ -1,0 +1,9 @@
+Now, refer to view A of figure 4-39. This figure shows the schematic diagram of the same shunt 
+voltage regulator as that shown in figure 4-38 with an increased input voltage of 20.1 volts. This increases 
+the forward bias on Q1 to 0.8 volt. Recall that the voltage drop across CR1 remains constant at 5.6 volts. 
+Since the output voltage is composed of the Zener voltage and the base-emitter voltage, the output voltage 
+momentarily increases to 6.4 volts. At this time, the increase in the forward bias of Q1 lowers the 
+resistance of the transistor allowing more current to flow through it. Since this current must also pass 
+through RS, there is also an increase in the voltage drop across this resistor. The voltage drop across RS is 
+now 13.8 volts and therefore the output voltage is reduced to 6.3 volts. Remember, this change takes 
+place in a fraction of a second. 

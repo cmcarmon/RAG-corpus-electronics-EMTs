@@ -1,0 +1,4 @@
+Common Threads
+In addition to the use of analysis-by-synthesis techniques and/or LPC modeling, a common thread between
+low-rate, forward adaptive CELP, MBE, and MELP coders is the dependence on an estimate of the fundamental
+glottal frequency, or pitch period. CELP coders typically employ a pitch or long-term predictor to characterize

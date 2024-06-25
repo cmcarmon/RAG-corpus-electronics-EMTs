@@ -1,0 +1,130 @@
+In Fig. 1, a body is moving along a specific curve MN acted on by a (centripetal) force, towards the fixed point S. The force depends only of the distance of the point from S. The aim of this proposition is to determine how the force varies with the radius, SP. The method applies equally to the case where the force is centrifugal.
+In a small time,
+
+
+
+τ
+
+
+{\displaystyle \tau }
+, the body moves from P to the nearby point Q. Draw QR parallel to SP meeting the tangent at R, and QT perpendicular to SP meeting it at T.
+If there was no force present it would have moved along the tangent at P with the speed that it had at P, arriving at the point, R. If the force on the body moving from P to Q was constant in magnitude and parallel to the direction SP, the arc PQ would be parabolic with PR as its tangent and QR would be proportional to that constant force and the square of the time,
+
+
+
+τ
+
+
+{\displaystyle \tau }
+.
+Conversely, if instead of arriving at R, the body was deflected to Q, then a constant force parallel to SP, with magnitude:
+
+
+
+F
+∝
+
+
+
+Q
+R
+
+
+τ
+
+2
+
+
+
+
+
+
+{\displaystyle F\propto {\frac {QR}{\tau ^{2}}}}
+would have caused it to reach Q instead of R.
+However, since the direction of the radius from S to points on the arc PQ and also the magnitude of the force towards S will change along PQ, the above relation will not give the exact force at P. If Q is sufficiently close to P, the direction of force will be almost parallel to SP all along PQ and if the force changes little, PQ can be assumed to be approximated by a parabolic arc with the force given as above in terms of QR and
+
+
+
+τ
+
+
+{\displaystyle \tau }
+.
+The time,
+
+
+
+τ
+
+
+{\displaystyle \tau }
+is proportional to the area of the sector SPQ. This is Kepler’s Second Law. A proof is demonstrated in Proposition 1, Book 1 in the Principia. Since the arc PQ can be approximated by a straight line, the area of the sector SPQ and the area of the triangle SPQ can be taken as equal so:
+
+
+
+
+F
+∝
+
+
+
+Q
+R
+
+
+τ
+
+2
+
+
+
+
+=
+
+
+
+k
+.
+Q
+R
+
+
+(
+S
+
+P
+
+2
+
+
+.
+Q
+
+T
+
+2
+
+
+)
+
+
+
+
+
+{\displaystyle F\propto {\frac {QR}{\tau ^{2}}}={\frac {k.QR}{(SP^{2}.QT^{2})}}}
+, where k is constant.
+Again, this is not exact for finite lengths PQ. The force law is obtained if the limit of the above expression exists as a function of SP, as PQ approaches zero.
+In fact, in time
+
+
+
+τ
+
+
+{\displaystyle \tau }
+, the body with no force would have reached a point, W, further from P than R. However, in the limit QW becomes parallel to SP. The point W is ignored in Newton’s proof.
+Also, Newton describes QR as the versed sine of the arc with P at its centre and length twice QP. Although this is not strictly the same as the QR that he has in the diagram (Fig.1), in the limit, they become equal.
+Notes:
+This proposition is based on Galileo’s analysis of a body following a parabolic trajectory under the action of a constant acceleration. In Proposition 10, he describes it as Galileo’s Theorem, and mentions Galileo several other times in relation to it in the Principia. Combining it with Kepler's Second Law gives the simple and elegant method.
+In the historically very important case where MN in Fig. 1 was part of an ellipse and S was one of its foci, Newton showed in Proposition 11 that the limit QR / QT2 was constant at each point on the curve so that the force on the body directed towards the fixed point S varied inversely as the square of the distance SP.
+Besides the ellipse with the centre at the focus, Newton also applied Proposition 6 to the hyperbola (Proposition 12), and the parabola (Proposition 13). Also, to the ellipse with the centre of force at the centre of the ellipse (Proposition 10), to the equiangular spiral (Proposition 9), and to the circle, with the centre of force not coinciding with the centre, and even on the circumference (Proposition 7).

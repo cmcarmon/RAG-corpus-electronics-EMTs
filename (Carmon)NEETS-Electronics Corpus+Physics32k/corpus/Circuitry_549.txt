@@ -1,0 +1,27 @@
+indicators  connected  to  output  port  address  82H. 
+The  LEDs  are 
+their  
+corresponding  input  switches  on  the  following 
+basis: 
+ 
+Inputs (Port 80H) 
+ 
+Switch ‘on’ = logic 1 
+Switch ‘off’ = logic 0 
+ 
+Outputs (Port 82H) 
+ 
+Logic 1 = LED ‘off’ 
+Logic 0 = LED ‘on’ 
+ 
+Note that, in order to illuminate an LED the logic 1 
+input must be inverted in order to produce a logic 0 
+output. Hence it will be necessary to read the byte 
+from port 80H, invert (i.e. complement) it, and then 
+output it to port 82H. 
+  The program is to continue to run, detecting the 
+state  of 
+the 
+appropriate LEDs on,  until such time as all of the 
+input  switches  are  set  to  the  ‘off’  position.  If  this 
+situation is detected the program is to halt. 

@@ -1,0 +1,5 @@
+Booth recoding necessitates the internal use of 2’s complement representation in order to efﬁciently perform
+subtraction of the partial products as well as additions. However, ﬂoating point standard speciﬁes sign mag-
+nitude representation which is followed by most of the non-standard ﬂoating point numbers in use today. The
+advantage of Booth recoding is that it generates only a half of the partial products as compared to the multiplier
+implementation which does not use Booth recoding. However, the beneﬁt achieved comes at the expense of

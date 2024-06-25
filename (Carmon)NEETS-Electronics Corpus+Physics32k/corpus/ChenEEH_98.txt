@@ -1,0 +1,8 @@
+Cut Matrix
+Consider a cut (Va, Vb) in a connected directed graph G with
+n vertices and m edges. Recall that < Va, Vb > consists of all
+those edges connecting vertices in Va to Vb. This cut may be
+assigned an orientation from Va to Vb or from Vb to Va.
+Suppose the orientation of (Va, Vb) is from Va to Vb. Then
+the orientation of an edge (vi, vj) is said to agree with the cut
+orientation if vi 2 Va, and vj 2 Vb.

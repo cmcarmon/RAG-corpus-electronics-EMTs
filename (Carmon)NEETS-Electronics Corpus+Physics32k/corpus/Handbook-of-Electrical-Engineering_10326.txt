@@ -1,0 +1,25 @@
+VSAT networks fall into three general categories: broadcast networks, point-to-point networks, and inter-
+active  networks.  In  a  broadcast  network,  a  centralized  hub  station  broadcasts  data,  audio,  and/or  video  to  a
+group  of  receive-only VSATs.  Low-cost  receive-only VSATs  can  receive  news,  weather  services,  and  ﬁnancial
+information.  Music  distribution  and  video  broadcast  via  broadcast  networks  is  widely  used.  Point-to-point
+networks  provide  direct  communication  between  two  locations  without  the  requirement  of  a  large  hub  for
+data, voice, and image transmission. Variations of these networks include point-to-multipoint dedicated circuits
+or  demand-assigned  mesh  topologies.  Interactive  networks  are  used  for  two-way  communications  services
+between a central hub station and a large number of VSATs in a star topology. Table 102.3 is a summary of the
+salient features of VSAT networks. VSATs are available for both C- and Ku-band frequency. Most VSAT systems
+use BPSK modulation with Rate 1/2 FEC. For interactive networks, the inbound channel is shared on contention
+basis  to  conserve  space  segment.  More  advanced  systems  use  concatenated  codes  to  improve  performance.
+Recently, hybrid VSATs have been introduced to use terrestrial networks on the return channel. An example is
+the Hugh’s Direct PC which uses a high speed satellite receive channel, and a low speed terrestrial return channel.
+A critical element of VSAT networks is the network availability. The VSAT system availability is affected by
+three major components: effects of rain attenuation, equipment availability, and software availability. The effects
+of rain attenuation for Ku-band networks are signiﬁcant. While link availability is usually speciﬁed at 99.5%,
+link performance can be optimized to nearly any desired value through the use of energy dispersion techniques
+or large antenna sizes. The network hardware must be highly reliable. Hub hardware should provide for optional
+redundancy and the ability to achieve better than 99.9% availability. The use of hub diversity and uplink power
+control can also be used to improve the network availability. The VSAT hardware availability is less catastrophic;
+the loss of one VSAT does not constitute network failure but may require a service call to rectify the problem.
+Hence,  it  is  common  to  use  nonredundant  but  highly  reliable  VSAT  units.  Software  availability  needs  to  be
+improved since software failures dominate the overall availability of interactive networks in existing VSAT products.
+Interactive networks have been by far the most popular for data communication and audio/video overlays.
+The remaining portion of this section is devoted to these networks. An interactive VSAT system consists of a

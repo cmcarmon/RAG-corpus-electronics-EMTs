@@ -1,0 +1,8 @@
+where Q is the integer quotient rearranged as Q0 = b1 + r(b2 + … + bm–1 ))))r and R is the remainder R0 = b0.
+A second division by r yields Q0 /r = Q1 + R1 /r, where Q1 is arranged as Q1 = b2 + r(b3 + … + bm–1)))r and R1 =
+b1. Thus, by repeated division of the integer result Qi by r, the remainders yield (b0, b1, b2, …, bm–1)r in that order.
+The conversion method just described, called the radix divide method, can be used to convert between any
+two integers of different radices. However, the requirement is that the arithmetic required by Ns /r must be carried
+out  in  source  radix,  s.  Except  for  source  radices  10  and  2,  this  poses  a  severe  problem  for  humans.  Table  86.4
+provides the recommended procedures for integer conversion. The radix divide method is suitable for computer
+conversion providing, of course, that the computer is programmed to carry out the arithmetic in different radices.

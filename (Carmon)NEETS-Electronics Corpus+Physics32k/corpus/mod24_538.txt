@@ -1,0 +1,8 @@
+Return loss and reflectance are measured using EIA/TIA-455-107. They are measured using an
+optical source connected to one input of a 2 · 2 fiber optic coupler. Light is launched into the component
+under test through the fiber optic coupler. The light reflected from the component under test is transmitted
+back through the fiber optic coupler to a detector connected to the other input port. The optical power is
+measured at the output of the device under test (Po) and at the input port of the coupler where the detector
+is located (Pr). Po is corrected to account for the loss in power through the device under test. Pr is
+corrected to account for the loss in power through the coupler and any other connection losses in the path.
+The reflectance is then given by the ratio Pr/Po.

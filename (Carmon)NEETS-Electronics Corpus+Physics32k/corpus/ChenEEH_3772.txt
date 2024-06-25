@@ -1,0 +1,11 @@
+Modiﬁed Baum-Welch reestimation formulas have been
+derived for the three quantities cim, mim, and C im for mixture
+density m in state i (Liporace, 1982; Juang et al., 1986). As in
+the discrete-observation case, the use of these formulas will
+ultimately lead to a model, M, that represents a local max-
+imum of the likelihood P(yjM). However, ﬁnding a good local
+maximum depends rather critically on a reasonable initial
+estimate of the vector and matrix parameters mim and C im
+for each i and m. We now describe a convenient procedure
+for deriving good separation of the mixture components for
+use with a Viterbi procedure.

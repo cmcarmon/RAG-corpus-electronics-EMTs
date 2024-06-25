@@ -1,0 +1,126 @@
+Volumetric flow rate can also be defined by:
+
+
+
+
+Q
+=
+
+v
+
+⋅
+
+A
+
+
+
+{\displaystyle Q=\mathbf {v} \cdot \mathbf {A} }
+
+where:
+v = flow velocity
+A = cross-sectional vector area/surface
+The above equation is only true for flat, plane cross-sections. In general, including curved surfaces, the equation becomes a surface integral:
+
+
+
+
+Q
+=
+
+∬
+
+A
+
+
+
+v
+
+⋅
+
+d
+
+
+A
+
+
+
+{\displaystyle Q=\iint _{A}\mathbf {v} \cdot \mathrm {d} \mathbf {A} }
+
+This is the definition used in practice. The area required to calculate the volumetric flow rate is real or imaginary, flat or curved, either as a cross-sectional area or a surface. The vector area is a combination of the magnitude of the area through which the volume passes through, A, and a unit vector normal to the area, n̂. The relation is A = An̂.
+The reason for the dot product is as follows. The only volume flowing through the cross-section is the amount normal to the area, that is, parallel to the unit normal. This amount is:
+
+
+
+
+Q
+=
+v
+A
+cos
+⁡
+θ
+
+
+{\displaystyle Q=vA\cos \theta }
+
+where θ is the angle between the unit normal n̂ and the velocity vector v of the substance elements. The amount passing through the cross-section is reduced by the factor cos θ. As θ increases less volume passes through. Substance which passes tangential to the area, that is perpendicular to the unit normal, does not pass through the area. This occurs when θ = π/2 and so this amount of the volumetric flow rate is zero:
+
+
+
+
+Q
+=
+v
+A
+cos
+⁡
+
+(
+
+
+π
+2
+
+
+)
+
+=
+0
+
+
+{\displaystyle Q=vA\cos \left({\frac {\pi }{2}}\right)=0}
+
+These results are equivalent to the dot product between velocity and the normal direction to the area.
+When the mass flow rate is known, and the density can be assumed constant, this is an easy way to get
+
+
+
+Q
+
+
+{\displaystyle Q}
+.
+
+
+
+
+Q
+=
+
+
+
+
+m
+˙
+
+
+ρ
+
+
+
+
+{\displaystyle Q={\frac {\dot {m}}{\rho }}}
+
+Where:
+ṁ = mass flow rate (in kg/s).
+ρ = density (in kg/m3).

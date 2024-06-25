@@ -1,0 +1,51 @@
+In geophysical applications sensors are used to measure and record the seismic signals. Many filtering techniques are available in which one output waveform is produced with a higher signal-to-noise ratio than the individual sensor recordings. Velocity filters are designed to remove interfering signals by exploiting the difference between the travelling velocities of desired seismic waveform and undesired interfering signals. In contrast to the one dimensional output produced by multi-channel filtering, velocity filters produce a two-dimensional output.
+Consider an array of N sensors that receive one desired and M undesired broadband interferences. Let the measurement of nth sensor be modeled by the expression:
+xn(t)=
+
+
+
+
+∑
+
+m
+
+=
+
+⁡
+0
+
+
+M
+
+
+
+
+{\displaystyle \sum _{m\mathop {=} 0}^{M}}
+amnsm(t-Tmn)+ŋn(t)___(1)
+where n=1,2,...,N; m=0,1,...,M; sm(t) are signals travelling across the array, and ŋn(t) represents zero-mean white random noise at the nth sensor, uncorellated from sensor to sensor. The parameters amn and Tmn are amplitude gain and time delays of the signal sm(t) when received at nth sensor.
+Without loss of generality, we shall assume that s0(t) is the desired signal and s1(t),s2(t),...,sM(t) are the undesired interferences. Additionally we shall assume that T0n=0, and a0n =1. This essentially means that the data has been time shifted to align the desired seismic signal so that it appears on all sensors at the same time and balanced so that the desired signal appears with equal amplitudes. We assume that the signals are digitized prior to being recorded and that the length K of time sequences of recorded data is large enough for the complete delayed interfering waveforms to be included in the recorded data. In the discrete frequency domain, the nth trace can be expressed as:
+Xn(k)=S0(k) +
+
+
+
+
+∑
+
+m
+
+=
+
+⁡
+1
+
+
+M
+
+
+
+
+{\displaystyle \sum _{m\mathop {=} 1}^{M}}
+amnSm(k)e−jwkTmn + Nn(k)___(2)
+where k=0,1,...,K-1; wk=(2π/K) is the sampling angular frequency.
+Using matrix notation, (2) can be expressed in the form:
+X(k) = A(k) S(k) + N(k)___(3)

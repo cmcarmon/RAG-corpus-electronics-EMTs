@@ -1,0 +1,6 @@
+Typical power supply voltages required for op-amp circuits are ±15 V. Attaching the 1 mv signal not
+only would fail to produce a 100 V signal, the resulting waveform would be severely distorted. While a
+desirable outcome if you are a rock & roll aﬁcionado, high-quality stereos should not distort signals. Another
+consideration in designing circuits with op-amps is that these element values are typical: Careful control of
+the gain can only be obtained by choosing a circuit so that its element values dictate the resulting gain,
+which must be smaller than that provided by the op-amp.

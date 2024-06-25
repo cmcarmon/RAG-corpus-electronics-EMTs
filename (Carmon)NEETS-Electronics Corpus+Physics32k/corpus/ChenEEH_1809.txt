@@ -1,0 +1,6 @@
+Since all network nodes along the path from source to
+destination must be informed of the requested resources, a
+signaling protocol is needed. Resource Reservation Protocol
+(RSVP) is used for this purpose (Braden et al., 1997). The
+signaling process is illustrated in Figure 7.6. The sender sends a
+PATH message to the receiver, specifying the characteristics of

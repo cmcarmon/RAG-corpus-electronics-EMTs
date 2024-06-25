@@ -1,0 +1,14 @@
+Custom processors used in a data-dominated application con-
+text are driven from a customized memory organization. In
+programmable instruction-set processors, this organization is
+usually constructed according to a rigorous hierarchy that can
+be considered almost like a bidirectional pipeline from disk2
+over main memory and L2/L1 cache to the multiport register
+ﬁle. Still, the pipeline gets saturated and blocked more and
+more due to the large latencies that are introduced compared
+to the CPU clock cycles in current process technologies. This
+happens especially for the off-chip memories in the pipeline.
+In a custom processor context, more options are open to
+increase the on-chip bandwidth to the data, but off-chip simi-
+lar restrictions apply for the off-chip. These issues are dis-
+cussed in more detail in Subsection 2.3.1.

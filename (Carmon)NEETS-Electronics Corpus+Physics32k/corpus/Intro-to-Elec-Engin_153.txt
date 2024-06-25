@@ -1,0 +1,6 @@
+Besides representing complete one-ports (or two-terminal networks), Thévenin and Norton
+equivalents can be applied to portions of a network (with respect to any two terminals) to
+simplify intermediate calculations. Moreover, successive conversions back and forth between the
+two equivalents often save considerable labor in circuit analysis with multiple sources. Source
+transformations can be used effectively by replacing the voltage source V with a series resistance
+R by an equivalent current source I (= V /R) in parallel with the same resistance R, or vice versa.

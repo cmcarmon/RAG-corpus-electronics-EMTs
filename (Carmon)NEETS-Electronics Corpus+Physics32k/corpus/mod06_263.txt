@@ -1,0 +1,9 @@
+Despite this precaution, the screen grid still draws some current from the electron stream. Any signal
+applied to the control grid will appear at the screen grid inverted by 180º from the input signal. This is
+undesirable, as it reduces the gain of the tube. Consider the effect if the control grid goes positive.
+Conduction through the tube increases, and since the screen grid is in the electron stream, it will draw
+some current. This causes the screen grid to go toward negative potential (less positive). The effect then,
+is to place a negative-going electrode between the plate and positive-going control grid. The plate
+becomes partially screened by the negative-going screen grid, and again, gain will decrease. Because the
+signal at the screen grid is always 180º out of phase with the control grid, its effect will always be to
+oppose the effect of the control grid.

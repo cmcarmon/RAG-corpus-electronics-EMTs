@@ -1,0 +1,13 @@
+The SHUNT-DIODE DETECTOR (figure 3-6) is similar to the series-diode detector except that the
+output variations are current pulses rather than voltage pulses. Passing this current through a shunt
+resistor develops the voltage output. The input is an rf modulated envelope. On the negative half cycles of
+the rf, diode CR1 is forward biased and shunts the signal to ground. On the positive half cycles, current
+flows from the output through L1 to the input. A field is built up around L1 that tends to keep the current
+flowing. This action integrates the rf current pulses and causes the output to follow the modulation
+envelope (intelligence) closely. (Integration was discussed in NEETS, Module 9, Introduction to
+Wave-Generation and Wave-Shaping Circuits.) Shunt resistor R1 develops the output voltage from this
+current flow. Although the shunt detector operates on the principle of current flow, it is the output voltage
+across the shunt resistor that is used to reproduce the original modulation signal. The shunt-diode detector
+is easily identified by noting that the detector diode is in parallel with both the input and load impedance.
+The waveforms associated with this detector are identical to those shown in views (B), (C), and (D) of
+figure 3-5.

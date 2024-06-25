@@ -1,0 +1,310 @@
+Consider a general quantum mechanical system. This system has the Hamiltonian
+
+
+
+
+H
+
+0
+
+
+
+
+{\displaystyle H_{0}}
+. Let the ground state of the system with respect to this Hamiltonian be
+
+
+
+
+|
+
+0
+⟩
+
+
+{\displaystyle |0\rangle }
+. If we now add a time-dependent perturbation to this Hamiltonian, say
+
+
+
+
+H
+′
+
+(
+t
+)
+
+
+{\displaystyle H'(t)}
+, the state will no more be the ground state for the full Hamiltonian
+
+
+
+H
+(
+t
+)
+=
+
+H
+
+0
+
+
++
+
+H
+′
+
+(
+t
+)
+
+
+{\displaystyle H(t)=H_{0}+H'(t)}
+and hence the system will evolve in time towards an equilibrium state under the full Hamiltonian. In this section, we will see how time evolution actually works in quantum mechanics.
+Let us consider a Hermitian operator
+
+
+
+
+
+O
+
+
+
+
+{\displaystyle {\mathcal {O}}}
+. In the Heisenberg picture of quantum mechanics, this operator is time-dependent and the state is not. We are interested in the average
+
+
+
+⟨
+
+
+O
+
+
+(
+t
+)
+⟩
+
+
+{\displaystyle \langle {\mathcal {O}}(t)\rangle }
+. In the natural units, if we define the time-evolution operator as
+
+
+
+U
+(
+t
+,
+0
+)
+=
+
+e
+
+−
+i
+
+∫
+
+0
+
+
+t
+
+
+H
+(
+
+t
+′
+
+)
+d
+
+t
+′
+
+
+
+
+
+{\displaystyle U(t,0)=e^{-i\int _{0}^{t}H(t')dt'}}
+, then the average of the operator
+
+
+
+
+
+O
+
+
+(
+t
+)
+
+
+{\displaystyle {\mathcal {O}}(t)}
+is given by
+
+
+
+
+
+
+
+
+⟨
+
+
+O
+
+
+(
+t
+)
+⟩
+
+
+
+=
+⟨
+0
+
+|
+
+
+U
+
+†
+
+
+(
+t
+,
+0
+)
+
+
+
+O
+
+
+
+U
+(
+t
+,
+0
+)
+
+|
+
+0
+⟩
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}\langle {\mathcal {O}}(t)\rangle &=\langle 0|U^{\dagger }(t,0)\,{\mathcal {O}}\,U(t,0)|0\rangle \\\end{aligned}}}
+
+As can be seen, we need to use both the forward time evolution operator
+
+
+
+U
+(
+t
+,
+0
+)
+
+
+{\displaystyle U(t,0)}
+as well as the backward time evolution operator
+
+
+
+
+U
+
+†
+
+
+(
+t
+,
+0
+)
+
+
+{\displaystyle U^{\dagger }(t,0)}
+. But usually, only the forward time evolution is considered. This is done by assuming that
+
+
+
+
+H
+′
+
+(
+t
+)
+
+
+{\displaystyle H'(t)}
+obeys the adiabatic theorem. This is basically saying that the perturbation
+
+
+
+
+H
+′
+
+(
+t
+)
+
+
+{\displaystyle H'(t)}
+is turned on slowly as
+
+
+
+t
+
+
+{\displaystyle t}
+increases from
+
+
+
+0
+
+
+{\displaystyle 0}
+and it is also turned off slowly as
+
+
+
+t
+
+
+{\displaystyle t}
+approaches
+
+
+
+∞
+
+
+{\displaystyle \infty }
+.
+This forward as well as backward time evolution is a characteristic feature of Keldysh formalism.

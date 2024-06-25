@@ -1,0 +1,481 @@
+Darcy's law states that the volume of flow of the pore fluid through a porous medium per unit time is proportional to the rate of change of excess fluid pressure with distance. The constant of proportionality includes the viscosity of the fluid and the intrinsic permeability of the soil. For the simple case of a horizontal tube filled with soil
+
+
+
+
+Q
+=
+
+
+
+−
+K
+A
+
+μ
+
+
+
+
+
+(
+
+u
+
+b
+
+
+−
+
+u
+
+a
+
+
+)
+
+L
+
+
+
+
+{\displaystyle Q={\frac {-KA}{\mu }}{\frac {(u_{b}-u_{a})}{L}}}
+
+The total discharge,
+
+
+
+Q
+
+
+{\displaystyle Q}
+(having units of volume per time, e.g., ft³/s or m³/s), is proportional to the intrinsic permeability,
+
+
+
+K
+
+
+{\displaystyle K}
+, the cross sectional area,
+
+
+
+A
+
+
+{\displaystyle A}
+, and rate of pore pressure change with distance,
+
+
+
+
+
+
+
+u
+
+b
+
+
+−
+
+u
+
+a
+
+
+
+L
+
+
+
+
+{\displaystyle {\frac {u_{b}-u_{a}}{L}}}
+, and inversely proportional to the dynamic viscosity of the fluid,
+
+
+
+μ
+
+
+{\displaystyle \mu }
+. The negative sign is needed because fluids flow from high pressure to low pressure. So if the change in pressure is negative (in the
+
+
+
+x
+
+
+{\displaystyle x}
+-direction) then the flow will be positive (in the
+
+
+
+x
+
+
+{\displaystyle x}
+-direction). The above equation works well for a horizontal tube, but if the tube was inclined so that point b was a different elevation than point a, the equation would not work. The effect of elevation is accounted for by replacing the pore pressure by excess pore pressure,
+
+
+
+
+u
+
+e
+
+
+
+
+{\displaystyle u_{e}}
+defined as:
+
+
+
+
+
+u
+
+e
+
+
+=
+u
+−
+
+ρ
+
+w
+
+
+g
+z
+
+
+{\displaystyle u_{e}=u-\rho _{w}gz}
+
+where
+
+
+
+z
+
+
+{\displaystyle z}
+is the depth measured from an arbitrary elevation reference (datum). Replacing
+
+
+
+u
+
+
+{\displaystyle u}
+by
+
+
+
+
+u
+
+e
+
+
+
+
+{\displaystyle u_{e}}
+we obtain a more general equation for flow:
+
+
+
+
+Q
+=
+
+
+
+−
+K
+A
+
+μ
+
+
+
+
+
+(
+
+u
+
+e
+,
+b
+
+
+−
+
+u
+
+e
+,
+a
+
+
+)
+
+L
+
+
+
+
+{\displaystyle Q={\frac {-KA}{\mu }}{\frac {(u_{e,b}-u_{e,a})}{L}}}
+
+Dividing both sides of the equation by
+
+
+
+A
+
+
+{\displaystyle A}
+, and expressing the rate of change of excess pore pressure as a derivative, we obtain a more general equation for the apparent velocity in the x-direction:
+
+
+
+
+
+v
+
+x
+
+
+=
+
+
+
+−
+K
+
+μ
+
+
+
+
+
+d
+
+u
+
+e
+
+
+
+
+d
+x
+
+
+
+
+
+{\displaystyle v_{x}={\frac {-K}{\mu }}{\frac {du_{e}}{dx}}}
+
+where
+
+
+
+
+v
+
+x
+
+
+=
+Q
+
+/
+
+A
+
+
+{\displaystyle v_{x}=Q/A}
+has units of velocity and is called the Darcy velocity (or the specific discharge, filtration velocity, or superficial velocity). The pore or interstitial velocity
+
+
+
+
+v
+
+p
+x
+
+
+
+
+{\displaystyle v_{px}}
+is the average velocity of fluid molecules in the pores; it is related to the Darcy velocity and the porosity
+
+
+
+n
+
+
+{\displaystyle n}
+through the Dupuit-Forchheimer relationship
+
+
+
+
+
+v
+
+p
+x
+
+
+=
+
+
+
+v
+
+x
+
+
+n
+
+
+
+
+{\displaystyle v_{px}={\frac {v_{x}}{n}}}
+
+(Some authors use the term seepage velocity to mean the Darcy velocity, while others use it to mean the pore velocity.)
+Civil engineers predominantly work on problems that involve water and predominantly work on problems on earth (in earth's gravity). For this class of problems, civil engineers will often write Darcy's law in a much simpler form:
+
+
+
+
+v
+=
+k
+i
+
+
+{\displaystyle v=ki}
+
+where
+
+
+
+k
+
+
+{\displaystyle k}
+is the hydraulic conductivity, defined as
+
+
+
+k
+=
+
+
+
+K
+
+ρ
+
+w
+
+
+g
+
+
+μ
+
+w
+
+
+
+
+
+
+{\displaystyle k={\frac {K\rho _{w}g}{\mu _{w}}}}
+, and
+
+
+
+i
+
+
+{\displaystyle i}
+is the hydraulic gradient. The hydraulic gradient is the rate of change of total head with distance. The total head,
+
+
+
+h
+
+
+{\displaystyle h}
+at a point is defined as the height (measured relative to the datum) to which water would rise in a piezometer at that point. The total head is related to the excess water pressure by:
+
+
+
+
+
+u
+
+e
+
+
+=
+
+ρ
+
+w
+
+
+g
+h
++
+C
+o
+n
+s
+t
+a
+n
+t
+
+
+{\displaystyle u_{e}=\rho _{w}gh+Constant}
+
+and the
+
+
+
+C
+o
+n
+s
+t
+a
+n
+t
+
+
+{\displaystyle Constant}
+is zero if the datum for head measurement is chosen at the same elevation as the origin for the depth, z used to calculate
+
+
+
+
+u
+
+e
+
+
+
+
+{\displaystyle u_{e}}
+.

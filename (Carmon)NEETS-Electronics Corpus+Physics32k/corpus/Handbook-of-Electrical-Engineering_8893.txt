@@ -1,0 +1,6 @@
+The virtual memory can be thought of as a collection of blocks. These blocks are often aligned and of ﬁxed
+size, in which case they are known as pages. Pages are the unit of transfer between the disk and main memory,
+and are generally larger than a cache line—usually thousands of bytes. A typical page size for machines in 1997
+is  4  Kbyte. A  page’s  virtual  address  can  be  broken  into  two  parts,  a  virtual  page  number  and  an  offset.  The
+page number speciﬁes the page to be accessed, and the page offset indicates the distance from the beginning
+of the page to the indicated address.

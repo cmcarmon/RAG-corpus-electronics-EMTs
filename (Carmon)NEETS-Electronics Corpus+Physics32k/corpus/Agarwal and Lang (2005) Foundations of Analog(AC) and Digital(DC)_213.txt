@@ -1,0 +1,13 @@
+Note that because of our choice of variables, in the first quadrant current
+is flowing into the positive terminal, that is, the battery is being charged, hence
+the terminal voltage is actually larger than the nominal voltage. The fact that
+the plot is almost a straight line validates our assumption that the battery can
+be modeled as a voltage source in series with a linear resistor. Note further that
+graphs such as Figure 1.43a can be characterized by only two numbers, a slope
+and an intercept. The slope is 1/R where R is the series resistance in the model.
+The intercept can be specified either in terms of a voltage or a current. If we
+choose a voltage, then because the intercept is by definition at zero current, it
+is called the open-circuit voltage. If the intercept is specified in terms of current,
+it is called the short-circuit current, because by definition the voltage is zero at
+that point. These terms reappear in Chapter 3 from a very different perspective:
+Thevenin’s Theorem.

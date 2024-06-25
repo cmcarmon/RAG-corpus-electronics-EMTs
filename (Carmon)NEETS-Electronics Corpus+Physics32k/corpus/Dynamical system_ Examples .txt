@@ -1,0 +1,50 @@
+The evolution function Φ t is often the solution of a differential equation of motion
+
+
+
+
+
+
+
+x
+˙
+
+
+
+=
+v
+(
+x
+)
+.
+
+
+{\displaystyle {\dot {x}}=v(x).}
+
+The equation gives the time derivative, represented by the dot, of a trajectory x(t) on the phase space starting at some point x0. The vector field v(x) is a smooth function that at every point of the phase space M provides the velocity vector of the dynamical system at that point. (These vectors are not vectors in the phase space M, but in the tangent space TxM of the point x.) Given a smooth Φ t, an autonomous vector field can be derived from it.
+There is no need for higher order derivatives in the equation, nor for time dependence in v(x) because these can be eliminated by considering systems of higher dimensions. Other types of differential equations can be used to define the evolution rule:
+
+
+
+
+G
+(
+x
+,
+
+
+
+x
+˙
+
+
+
+)
+=
+0
+
+
+{\displaystyle G(x,{\dot {x}})=0}
+
+is an example of an equation that arises from the modeling of mechanical systems with complicated constraints.
+The differential equations determining the evolution function Φ t are often ordinary differential equations; in this case the phase space M is a finite dimensional manifold. Many of the concepts in dynamical systems can be extended to infinite-dimensional manifolds—those that are locally Banach spaces—in which case the differential equations are partial differential equations. In the late 20th century the dynamical system perspective to partial differential equations started gaining popularity.

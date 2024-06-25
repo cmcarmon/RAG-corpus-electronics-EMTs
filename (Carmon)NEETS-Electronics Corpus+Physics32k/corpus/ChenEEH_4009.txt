@@ -1,0 +1,7 @@
+. A 1-D discrete wavelet transform (DWT) realization
+on FPGA is presented in (Stone and Manalokos, 1998).
+Both high-pass and low-pass ﬁlters are a six-tap bi-
+orthogonal binary ﬁlter. The system consumes 90% of
+an Altera EPF10K100GC503 whose capacity is equivalent
+to 100.000 gates. The operating clock frequency is
+20 MHz.

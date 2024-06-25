@@ -1,0 +1,6 @@
+ROM cells can be formed as diodes or transistors at every
+intersection of the word and bit lines of a ROM array (see
+Fig. 80.7). One of the masks in the chip fabrication process
+programs  which  of  these  devices  will  be  active.  Clever  layout  and  circuit  techniques  may  be  used  to  obtain
+further density. Two such techniques are illustrated in Figs. 80.8 and 80.9. The X array shares bit and virtual
+ground lines. The AND array places many ROM cells in series. Each of these series AND ROM cells is either

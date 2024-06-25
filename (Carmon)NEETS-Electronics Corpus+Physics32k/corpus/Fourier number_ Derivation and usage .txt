@@ -1,0 +1,49 @@
+Both forms of the Fourier number defined above are found by making the variables dimensionless of time dependent diffusion equations. To derive the heat transfer Fourier number, Foh, the heat equation in one dimension is,
+
+Given a rod of length L that is being heated from an initial temperature, T0, by application of a higher temperature at L, TL, and the dimensionless temperature, u, defined by
+
+
+
+u
+=
+
+
+
+
+T
+−
+
+T
+
+L
+
+
+
+
+
+T
+
+0
+
+
+−
+
+T
+
+L
+
+
+
+
+
+
+
+
+{\displaystyle u={\tfrac {T-T_{L}}{T_{0}-T_{L}}}}
+, the differential equation can be reordered to completely dimensionless form,
+
+The dimensionless time defines the Fourier number, Foh = αt/L2.
+This procedure may be performed analogously on Fick's second law of diffusion to derive the mass transfer Fourier number, Fom, and applied to time depending mass transport problems.
+For unsteady state conduction problems in solids, the Fourier number is frequently used as a nondimensional time parameter. Together with the Biot number, the Fourier number can be used to determine the heating or cooling of an object. If the Biot number is less than 0.1, then the entire system can be treated as uniform in temperature. The following equation, derived with the product of the Biot and Fourier numbers, can be used to estimate the time for the object to reach a specific temperature,
+
+where T is the temperature of the object at time t, T0 is the initial temperature, T∞ is the temperature of the bulk fluid, V is the volume of the object, A is the surface area, and h is the convective heat transfer coefficient for the surrounding fluid.

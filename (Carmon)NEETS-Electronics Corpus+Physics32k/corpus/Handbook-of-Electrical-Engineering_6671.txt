@@ -1,0 +1,4 @@
+In addition to the delays experienced at the input to trunks, packets may also experience queueing delays
+within the switching nodes. In particular, the functions required for packet switching are effected by executing
+various software processes within the nodes, and packets must queue while awaiting execution of the various
+processes on their behalf.

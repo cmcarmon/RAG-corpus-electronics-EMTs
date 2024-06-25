@@ -1,0 +1,273 @@
+Cowell's method is perhaps the simplest of the special perturbation methods; mathematically, for
+
+
+
+n
+
+
+{\displaystyle n}
+mutually interacting bodies, Newtonian forces on body
+
+
+
+i
+
+
+{\displaystyle i}
+from the other bodies
+
+
+
+j
+
+
+{\displaystyle j}
+are simply summed thus,
+
+
+
+
+
+
+
+
+r
+¨
+
+
+
+
+i
+
+
+=
+
+∑
+
+
+
+j
+=
+1
+
+
+j
+≠
+i
+
+
+
+
+n
+
+
+
+
+
+G
+
+m
+
+j
+
+
+(
+
+
+r
+
+
+j
+
+
+−
+
+
+r
+
+
+i
+
+
+)
+
+
+r
+
+i
+j
+
+
+3
+
+
+
+
+
+
+{\displaystyle \mathbf {\ddot {r}} _{i}=\sum _{\underset {j\neq i}{j=1}}^{n}{Gm_{j}(\mathbf {r} _{j}-\mathbf {r} _{i}) \over r_{ij}^{3}}}
+
+where
+
+
+
+
+
+
+
+
+r
+¨
+
+
+
+
+i
+
+
+
+
+{\displaystyle \mathbf {\ddot {r}} _{i}}
+is the acceleration vector of body
+
+
+
+i
+
+
+{\displaystyle i}
+
+
+
+
+
+G
+
+
+{\displaystyle G}
+is the gravitational constant
+
+
+
+
+
+m
+
+j
+
+
+
+
+{\displaystyle m_{j}}
+is the mass of body
+
+
+
+j
+
+
+{\displaystyle j}
+
+
+
+
+
+
+
+r
+
+
+i
+
+
+
+
+{\displaystyle \mathbf {r} _{i}}
+and
+
+
+
+
+
+r
+
+
+j
+
+
+
+
+{\displaystyle \mathbf {r} _{j}}
+are the position vectors of objects
+
+
+
+i
+
+
+{\displaystyle i}
+and
+
+
+
+j
+
+
+{\displaystyle j}
+
+
+
+
+
+
+r
+
+i
+j
+
+
+
+
+{\displaystyle r_{ij}}
+is the distance from object
+
+
+
+i
+
+
+{\displaystyle i}
+to object
+
+
+
+j
+
+
+{\displaystyle j}
+
+with all vectors being referred to the barycenter of the system. This equation is resolved into components in
+
+
+
+x
+
+
+{\displaystyle x}
+,
+
+
+
+y
+
+
+{\displaystyle y}
+,
+
+
+
+z
+
+
+{\displaystyle z}
+and these are integrated numerically to form the new velocity and position vectors as the simulation moves forward in time. The advantage of Cowell's method is ease of application and programming. A disadvantage is that when perturbations become large in magnitude (as when an object makes a close approach to another) the errors of the method also become large. Another disadvantage is that in systems with a dominant central body, such as the Sun, it is necessary to carry many significant digits in the arithmetic because of the large difference in the forces of the central body and the perturbing bodies.

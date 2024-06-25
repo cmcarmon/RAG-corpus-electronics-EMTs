@@ -1,0 +1,12 @@
+Reduce the time history to a sequence of (tensile) peaks and (compressive) valleys.
+Imagine that the time history is a template for a rigid sheet (pagoda roof).
+Turn the sheet clockwise 90° (earliest time to the top).
+Each "tensile peak" is imagined as a source of water that "drips" down the pagoda.
+Count the number of half-cycles by looking for terminations in the flow occurring when either:
+It reaches the end of the time history;
+It merges with a flow that started at an earlier tensile peak; or
+It flows when an opposite tensile peak has greater magnitude.
+
+Repeat step 5 for compressive valleys.
+Assign a magnitude to each half-cycle equal to the stress difference between its start and termination.
+Pair up half-cycles of identical magnitude (but opposite sense) to count the number of complete cycles. Typically, there are some residual half-cycles.

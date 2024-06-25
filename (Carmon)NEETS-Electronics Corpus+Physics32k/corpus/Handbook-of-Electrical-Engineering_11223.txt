@@ -1,0 +1,8 @@
+Nonlinear Analysis of the EEG
+As  mentioned  earlier,  the  EEG  has  been  studied  extensively  using  signal-processing  schemes,  most  of  which
+are based on the assumption that the EEG is a linear, gaussian process. Although linear analysis schemes are
+computationally efﬁcient and useful, they only utilize information retained in the autocorrelation function (i.e.,
+the second-order cumulant). Additional information stored in higher-order cumulants is therefore ignored by
+linear  analysis  of  the  EEG.  Thus,  while  the  power  spectrum  provides  the  energy  distribution  of  a  stationary
+process  in  the  frequency  domain,  it  cannot  distinguish  nonlinearly  coupled  frequencies  from  spontaneously
+generated signals with the same resonance condition [Nikias and Raghvveer, 1987].

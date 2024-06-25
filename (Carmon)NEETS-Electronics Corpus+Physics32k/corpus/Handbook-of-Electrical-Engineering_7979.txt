@@ -1,0 +1,4 @@
+A  device  that  can  perform  either  addition  or  subtraction  can  be  built  by  replacing  the  inverters  in  the
+subtracter with exclusive-OR gates and using the carry-in (c0) as a control signal. The resulting two’s complement
+adder/subtracter is shown in Fig. 81.51. The device will function as a ripple-carry adder when c0 = 0 and as a
+two’s complement subtracter when c0 = 1.

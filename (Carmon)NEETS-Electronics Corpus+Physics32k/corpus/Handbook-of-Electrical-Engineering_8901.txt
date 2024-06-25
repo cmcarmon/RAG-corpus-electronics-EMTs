@@ -1,0 +1,12 @@
+Research  is  occurring  on  all  levels  of  the  memory  hierarchy.  At  the  register  level,  researchers  are  exploring
+techniques to provide more registers than are architecturally visible to the compiler. A large volume of work
+exists  (and  is  occurring)  for  cache  optimizations  and  alternate  cache  organizations.  For  instance,  modern
+processors now commonly split the top level of the cache into separate physical caches, one for instructions
+(code) and one for program data. Due to the increasing cost of cache misses (in terms of processor cycles),
+some research trades-off increase the complexity of the cache for reducing the miss rate. Two examples of cache
+research from opposite ends of the hardware/software spectrum are blocking [Lam, 1901] and skewed-associative
+caches  [Seznec,  1993].  Blocking  is  a  software  technique  in  which  the  programmer  or  compiler  reorganizes
+algorithms to work on subsets of data that are smaller than the cache, instead of streaming entire large data
+structures repeatedly through the cache. This reorganization greatly improves temporal locality. The skewed-
+associative cache is one example of a host of hardware techniques that map blocks into the cache differently,
+with the goal of reducing misses from conﬂicts within a set. In skewed-associative caches, either one of two

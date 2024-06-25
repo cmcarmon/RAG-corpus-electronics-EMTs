@@ -1,0 +1,6 @@
+Frequency Domain Coders
+Coders  that  rely  on  spectral  decomposition  often  use  the  usual  set  of  sinusoidal  basis  functions  from  signal
+theory to represent the speciﬁc short-time spectral content of a segment of speech. In this case, the approximated
+signal consists of a linear combination of sinusoids with speciﬁed amplitudes and arguments (frequency, phase).
+For compactness, a countable subset of harmonically related sinusoids may be used. The two most prominent
+types of frequency domain coders are subband coders and multi-band coders.

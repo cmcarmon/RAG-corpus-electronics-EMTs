@@ -1,0 +1,9 @@
+The  transducer  signal  modulates  the  frequency  of  the  subcarrier  oscillator.  This  is  simply  a  resonant  circuit
+that produces a given frequency in the audio range, say 100 Hz, and is varied plus or minus this center frequency
+by the signal from the transducer as it responds to the variable that it is measuring. When the signal is fed to
+a loudspeaker, one actually hears a rising or falling tone. The subcarrier oscillator modulates a radio frequency
+carrier,  varying  its  frequency  in  accordance  with  the  subcarrier  voltage  signal.  The  radio  frequency  in  FM
+industrial radio telemetry links is usually in the 88- to 108-MHz band, permitting the use of high-grade radio
+tuners already mass produced for the high-ﬁdelity market. The radio receiver demodulates the signal, removing
+the carrier and feeding it to a special discriminator circuit that removes the double modulation and reproduces
+an analog of the original measurement signal for calibrated indication or recording.

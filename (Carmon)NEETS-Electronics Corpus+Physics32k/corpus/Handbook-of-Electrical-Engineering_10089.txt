@@ -1,0 +1,5 @@
+The  ∂u(k)/∂w  term  can  be  calculated  using  the  backpropagation  approach  since  the  controller  is  a  neural
+network. The ∂y(k+i)/∂u(k) and ∂u(k+i)/∂u(k) terms are obtained using the neural controller and identiﬁers.
+First, future inputs and outputs of the plant are predicted. The partial derivatives are then obtained by recursively
+computing the input/output sensitivities of the plant and controller through i samples. This approach is often
+referred to as back-propagation through time [Chow and Yee, 1991; Werbos, 1990].

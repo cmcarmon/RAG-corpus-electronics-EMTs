@@ -1,0 +1,15 @@
+A decision rule characterized by the likelihood ratio and a
+threshold as in equation 6.44 is referred to as a likelihood
+ratio test (LRT). A Bayes’ detection scheme is always an LRT.
+Depending on how the a posteriori probabilities of the two
+hypotheses are deﬁned, the Bayes’ detector can be realized in
+different ways. One typical example is the so-called MAP de-
+tector that renders the minimum probability of error by choos-
+ing the hypothesis with the maximum a posteriori probability.
+Another class of detectors is the minimax detectors, which can
+be considered an extension of Bayes’ detectors. The minimax
+detector is also an LRT. It assumes no knowledge of the prior
+probabilities (i.e., p0 and p1) and selects the threshold by
+choosing the prior probability that renders the maximum
+Bayes’ risk. The minimax detector is a robust detector because
+its performance does not vary with the prior probabilities.

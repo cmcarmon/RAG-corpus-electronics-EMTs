@@ -1,0 +1,5 @@
+The fast packets are statistically multiplexed onto a common physical link by the FPR sublayer for transmis-
+sion. At  intermediate  nodes,  minor  error  checking,  fast  packet  framing,  fast  packet  switching,  and  queueing
+takes place. If errors are found, then the fast packet is dropped. When the fast packets reach their destination,
+they are reassembled into a frame by the FPA sublayer and passed on to the DLC sublayer where normal DLC
+functions are performed.

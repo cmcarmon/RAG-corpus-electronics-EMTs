@@ -1,0 +1,6 @@
+Realizable ﬁlters require a nonzero bandwidth for the tran-
+sition between the passband and the required out-of-band
+attenuation. This is called the transition bandwidth. To min-
+imize the system sample rate, we desire that the antialiasing
+ﬁlter has a small transition bandwidth. Filter complexity and
+cost rise sharply with narrower transition bandwidth, so a

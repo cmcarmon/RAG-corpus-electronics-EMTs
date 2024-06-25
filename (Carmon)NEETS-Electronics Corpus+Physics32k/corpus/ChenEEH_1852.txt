@@ -1,0 +1,12 @@
+(4) Multipoint control unit (MCU): This is an optional
+component that provides point-to-multipoint confer-
+encing capability to an H.323-enabled network. The
+MCU consists of a mandatory multipoint controller
+(MC) and optional multipoint processors (MP). The
+MC determines the common capabilities of the ter-
+minals by using H.245, but it does not perform the
+multiplexing of audio, video, and data. The multi-
+plexing of media streams is handled by the MP
+under the control of the MC. Figure 7.8, illustrates
+an H.323-enabled network with all these different
+components.

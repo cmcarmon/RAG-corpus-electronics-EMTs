@@ -1,0 +1,22 @@
+Note that maximum gain occurs when both the input and
+output provide
+and
+GL ¼ S22
+). Moreover, the ampliﬁer must be operated in a stable
+conﬁguration to ensure that it will not oscillate. Oscillation may
+occur if the input or output port impedance has a negative real
+part, leading to jGinj or jGoutj greater than the value of 1. Since
+Gin and Gout rely on GL and GS, stability can be ensured by
+proper matching conditions with possibly reduced gain. Two
+types of stability are typically deﬁned: unconditionally stable
+and conditionally stable. An unconditionally stable network
+must have both jGinj < 1 and jGoutj < 1 for all passive source
+and load terminations. A conditionally stable network will have
+both jGinj < 1 and jGoutj < 1 for a range of passive source and
+load terminations. Note that in a unilateral device, it is sufﬁcient
+that jS11j < 1 and jS22j < 1 for the device to be unconditionally
+stable. In addition, the maximum stable gain of a transistor
+is GMSG ¼ jS21j=jS12j. This is an important parameter when
+choosing a transistor. A convenient way of expressing the neces-
+sary and sufﬁcient conditions for unconditional stability in
+terms of the S-parameters is through these equations:

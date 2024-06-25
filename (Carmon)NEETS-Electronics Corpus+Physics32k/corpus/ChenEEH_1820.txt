@@ -1,0 +1,9 @@
+. Interior node: An interior node is completely inside a DS
+domain and is connected to other interior nodes or
+boundary nodes in the same DS domain. The interior
+nodes only perform packet forwarding. When a packet
+with a particular DS code point arrives at this node, it is
+forwarded to the next hop according to some predeﬁned
+rule associated with the packet class. Such predeﬁned
+rules are called perhop behaviors (PHBs), which are
+discussed next.

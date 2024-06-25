@@ -1,0 +1,7 @@
+As you can verify, the circuit in Figure 11.24 implements a logic function with
+the truth table shown in Table 11.1. This is the truth table for a NAND gate.
+Notice that pulldown circuit comprising two series-connected NFETs is the
+same as in the NMOS logic implementation. The pullup circuit performs a com-
+plementary function and comprises parallel-connected PFETs. In other words,
+the pullup is off when the pulldown circuit is on, and vice versa. There is no
+static power dissipation in this gate.

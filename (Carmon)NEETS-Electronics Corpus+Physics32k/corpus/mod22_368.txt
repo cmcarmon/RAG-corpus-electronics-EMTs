@@ -1,0 +1,12 @@
+When you look at figure 4-3, you will notice that the four rightmost bits in EBCDIC are assigned 
+values of 8, 4, 2, and 1. The next four bits to the left are called the zone bits. The EBCDIC coding chart 
+for uppercase and lowercase alphabetic characters and for the numeric digits 0 through 9 is shown in 
+figure 4-4, with their hexadecimal equivalents. Hexadecimal is a number system used with some 
+computer systems. It has a base of 16 (0-9 and A-F). A represents 10; B represents 11; C represents 12; D 
+represents 13; E represents 14; and F represents 15. In EBCDIC, the bit pattern 1100 is the zone 
+combination used for the alphabetic characters A through I, 1101 is used for the characters J through R, 
+and 1110 is the zone combination used for characters S through Z. The bit pattern 1111 is the zone 
+combination used when representing decimal digits. For example, the code 11000001 is equivalent to the 
+letter A; the code 11110001 is equivalent to the decimal digit 1. Other zone combinations are used when 
+forming special characters. Not all of the 256 combinations of 8-bit code have been assigned characters. 
+Figure 4-5 illustrates how the characters DP-3 are represented using EBCDIC. 

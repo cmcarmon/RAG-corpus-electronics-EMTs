@@ -1,0 +1,9 @@
+With no trigger pulse applied, the pfn charges through T1, the pfn, and the charging coil L1 to the
+potential of Eb. When a trigger pulse is applied to the grid of V2, the tube ionizes causing the pulse-
+forming network to discharge through V2 and the primary of T1. As the voltage across the pfn falls below
+the ionization point of V2, the tube shuts off. Because of the inductive properties of the pfn, the positive
+discharge voltage has a tendency to swing negative. This negative overshoot is prevented from damaging
+the thyratron and affecting the output of the circuit by V1, R1, R2, and C1. This is a damping circuit and
+provides a path for the overshoot transient through V1. It is dissipated by R1 and R2 with C1 acting as a
+high-frequency bypass to ground, preserving the sharp leading and trailing edges of the pulse. The
+hydrogen thyratron modulator is the most common radar modulator.

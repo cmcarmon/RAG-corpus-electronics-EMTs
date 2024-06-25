@@ -1,0 +1,2 @@
+Although it is common to choose the number of symbols to be a power of 2 and send an integer number of bits per baud, this is not required. Line codes such as bipolar encoding and MLT-3 us three carrier states to encode one bit per baud while maintaining DC balance.
+More interestingly, the 4B3T line code uses three 3-ary modulated bits to transmit four data bits, a rate of 1.33 bits per baud.

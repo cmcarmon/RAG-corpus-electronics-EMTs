@@ -1,0 +1,14 @@
+Another implicit assumption is that the digital ﬁlter can operate in real time: The computer and the
+ﬁltering algorithm must be suﬃciently fast so that outputs are computed faster than input values arrive.
+The sampling interval, which is determined by the analog signal’s bandwidth, thus determines how long our
+program has to compute each output y (n). The computational complexity for calculating each output with
+a diﬀerence equation (5.42) is O (p + q). Frequency domain implementation of the ﬁlter is also possible.
+The idea begins by computing the Fourier transform of a length-N portion of the input x (n), multiplying
+it by the ﬁlter’s transfer function, and computing the inverse transform of the result. This approach seems
+overly complex and potentially ineﬃcient. Detailing the complexity, however, we have O (N logN ) for the two
+transforms (computed using the FFT algorithm) and O (N ) for the multiplication by the transfer function,
+which makes the total complexity O (N logN ) for N input values. A frequency domain implementation
+thus requires O (logN ) computational complexity for each output value. The complexities of time-domain
+and frequency-domain implementations depend on diﬀerent aspects of the ﬁltering: The time-domain imple-
+mentation depends on the combined orders of the ﬁlter while the frequency-domain implementation depends
+on the logarithm of the Fourier transform’s length.

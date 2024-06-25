@@ -1,0 +1,17 @@
+terminals of two or more elements are joined. Figure 1.2 shows
+A, B, C, D, and E as nodes. A loop is a closed path in a circuit
+such that each node is traversed only once when tracing the
+loop. In Figure 1.2, ABCEA is a loop, and ABCDEA is also a
+loop. A mesh is a special class of loop that is associated with a
+window of a circuit drawn in a plane (planar circuit). In the
+same Figure ABCEA is a mesh, whereas ABCDEA is not con-
+sidered a mesh for the circuit as drawn. A network is deﬁned
+as a circuit that has a set of terminals available for external
+connections (i.e., accessible from outside of the circuit). A pair
+of terminals of a network to which a source, another network,
+or a measuring device can be connected is called a port of the
+network. A network containing such a pair of terminals is
+called a one-port network. A network containing two pairs
+of externally accessible terminals is called a two-port network,
+and multiple pairs of externally accessible terminal pairs are
+called a multiport network.

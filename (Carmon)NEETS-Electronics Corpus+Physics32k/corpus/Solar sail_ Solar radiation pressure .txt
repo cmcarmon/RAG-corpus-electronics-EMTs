@@ -1,0 +1,15 @@
+Many people believe that spacecraft using solar sails are pushed by the Solar winds just as sailboats and sailing ships are pushed by the winds across the waters on Earth. But Solar radiation exerts a pressure on the sail due to reflection and a small fraction that is absorbed.
+The momentum of a photon or an entire flux is given by Einstein's relation:
+p = E/c
+where p is the momentum, E is the energy (of the photon or flux), and c is the speed of light. Solar radiation pressure can be related to the irradiance (solar constant) value of 1361 W/m2 at 1 AU (Earth-Sun distance), as revised in 2011:
+perfect absorbance: F = 4.54 μN per square metre (4.54 μPa) in the direction of the incident beam (an inelastic collision)
+perfect reflectance: F = 9.08 μN per square metre (9.08 μPa)   in the direction normal to surface (an elastic collision)
+An ideal sail is flat and has 100% specular reflection. An actual sail will have an overall efficiency of about 90%, about 8.17 μN/m2, due to curvature (billow), wrinkles, absorbance, re-radiation from front and back, non-specular effects, and other factors.
+
+The force on a sail and the actual acceleration of the craft vary by the inverse square of distance from the Sun (unless extremely close to the Sun), and by the square of the cosine of the angle between the sail force vector and the radial from the Sun, so
+F = F0 cos2 θ / R2 (ideal sail)
+where R is distance from the Sun in AU. An actual square sail can be modeled as:
+F = F0 (0.349 + 0.662 cos 2θ − 0.011 cos 4θ) / R2
+Note that the force and acceleration approach zero generally around θ = 60° rather than 90° as one might expect with an ideal sail.
+If some of the energy is absorbed, the absorbed energy will heat the sail, which re-radiates that energy from the front and rear surfaces, depending on the emissivity of those two surfaces.
+Solar wind, the flux of charged particles blown out from the Sun, exerts a nominal dynamic pressure of about 3 to 4 nPa, three orders of magnitude less than solar radiation pressure on a reflective sail.

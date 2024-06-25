@@ -1,0 +1,229 @@
+In robotics and motion planning, a velocity obstacle, commonly abbreviated VO, is the set of all velocities of a robot that will result in a collision with another robot at some moment in time, assuming that the other robot maintains its current velocity. If the robot chooses a velocity inside the velocity obstacle then the two robots will eventually collide, if it chooses a velocity outside the velocity obstacle, such a collision is guaranteed not to occur.
+This algorithm for robot collision avoidance has been repeatedly rediscovered and published under different names: in 1989 as a maneuvering board approach, in 1993 it was first introduced as the "velocity obstacle", in 1998 as collision cones, and in 2009 as forbidden velocity maps. The same algorithm has been used in maritime port navigation since at least 1903.
+The velocity obstacle for a robot
+
+
+
+A
+
+
+{\displaystyle A}
+induced by a robot
+
+
+
+B
+
+
+{\displaystyle B}
+may be formally written as
+
+
+
+
+V
+
+O
+
+A
+
+|
+
+B
+
+
+=
+{
+
+v
+
+
+
+|
+
+
+∃
+t
+>
+0
+:
+(
+
+v
+
+−
+
+
+v
+
+
+B
+
+
+)
+t
+∈
+D
+(
+
+
+x
+
+
+B
+
+
+−
+
+
+x
+
+
+A
+
+
+,
+
+r
+
+A
+
+
++
+
+r
+
+B
+
+
+)
+}
+
+
+{\displaystyle VO_{A|B}=\{\mathbf {v} \,|\,\exists t>0:(\mathbf {v} -\mathbf {v} _{B})t\in D(\mathbf {x} _{B}-\mathbf {x} _{A},r_{A}+r_{B})\}}
+
+where
+
+
+
+A
+
+
+{\displaystyle A}
+has position
+
+
+
+
+
+x
+
+
+A
+
+
+
+
+{\displaystyle \mathbf {x} _{A}}
+and radius
+
+
+
+
+r
+
+A
+
+
+
+
+{\displaystyle r_{A}}
+, and
+
+
+
+B
+
+
+{\displaystyle B}
+has position
+
+
+
+
+
+x
+
+
+B
+
+
+
+
+{\displaystyle \mathbf {x} _{B}}
+, radius
+
+
+
+
+r
+
+B
+
+
+
+
+{\displaystyle r_{B}}
+, and velocity
+
+
+
+
+
+v
+
+
+B
+
+
+
+
+{\displaystyle \mathbf {v} _{B}}
+. The notation
+
+
+
+D
+(
+
+x
+
+,
+r
+)
+
+
+{\displaystyle D(\mathbf {x} ,r)}
+represents a disc with center
+
+
+
+
+x
+
+
+
+{\displaystyle \mathbf {x} }
+and radius
+
+
+
+r
+
+
+{\displaystyle r}
+.
+Variations include common velocity obstacles (CVO), finite-time-interval velocity obstacles (FVO), generalized velocity obstacles (GVO), hybrid reciprocal velocity obstacles (HRVO), nonlinear velocity obstacles (NLVO), reciprocal velocity obstacles (RVO), and recursive probabilistic velocity obstacles (PVO).
+
+
+== References ==

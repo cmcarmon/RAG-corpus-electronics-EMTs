@@ -1,0 +1,4 @@
+Counting can take place only when the disable pin (pin 13) is low; you can 
+disable counting by applying a high signal to pin 13. You can also force the 
+counter to reset to zero (meaning that the zero‐count output, which is pin 3, 
+goes high) by applying a high signal to pin 14.

@@ -1,0 +1,11 @@
+Given
+ PR1 5 0.018 W
+ IR1 5 0.0015 A
+ ER1 5 ?
+Now the current through resistor R2 can be determined. 
+Remember, in a parallel circuit, the voltage is the same in 
+all branches and ET 5 ER1
+Given
+ PR2 5 0.026 W
+ IR2 5 ?
+ ER2 5 12 V

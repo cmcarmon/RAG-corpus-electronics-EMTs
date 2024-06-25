@@ -1,0 +1,165 @@
+In calculating the rate of MPI of atoms only transitions to the continuum states are considered. Such an approximation is acceptable as long as there is no multiphoton resonance between the ground state and some excited states. However, in real situation of interaction with pulsed lasers, during the evolution of laser intensity, due to different Stark shift of the ground and excited states there is a possibility that some excited state go into multiphoton resonance with the ground state. Within the dressed atom picture, the ground state dressed by
+
+
+
+m
+
+
+{\displaystyle m}
+photons and the resonant state undergo an avoided crossing at the resonance intensity
+
+
+
+
+I
+
+r
+
+
+
+
+{\displaystyle I_{r}}
+. The minimum distance,
+
+
+
+
+V
+
+m
+
+
+
+
+{\displaystyle V_{m}}
+, at the avoided crossing is proportional to the generalized Rabi frequency,
+
+
+
+Γ
+(
+t
+)
+=
+
+Γ
+
+m
+
+
+I
+(
+t
+
+)
+
+m
+
+/
+
+2
+
+
+
+
+{\displaystyle \Gamma (t)=\Gamma _{m}I(t)^{m/2}}
+coupling the two states. According to Story et al., the probability of remaining in the ground state,
+
+
+
+
+P
+
+g
+
+
+
+
+{\displaystyle P_{g}}
+, is given by
+
+
+
+
+
+P
+
+g
+
+
+=
+exp
+⁡
+
+(
+
+−
+
+
+
+2
+π
+
+W
+
+m
+
+
+2
+
+
+
+
+
+d
+
+W
+
+/
+
+
+d
+
+t
+
+
+
+
+)
+
+
+
+{\displaystyle P_{g}=\exp \left(-{\frac {2\pi W_{m}^{2}}{\mathrm {d} W/\mathrm {d} t}}\right)}
+
+where
+
+
+
+W
+
+
+{\displaystyle W}
+is the time-dependent energy difference between the two dressed states. In interaction with a short pulse, if the dynamic resonance is reached in the rising or the falling part of the pulse, the population practically remains in the ground state and the effect of multiphoton resonances may be neglected. However, if the states go onto resonance at the peak of the pulse, where
+
+
+
+
+d
+
+W
+
+/
+
+
+d
+
+t
+=
+0
+
+
+{\displaystyle \mathrm {d} W/\mathrm {d} t=0}
+, then the excited state is populated. After being populated, since the ionization potential of the excited state is small, it is expected that the electron will be instantly ionized.
+In 1992, de Boer and Muller  showed that Xe atoms subjected to short laser pulses could survive in the highly excited states 4f, 5f, and 6f . These states were believed to have been excited by the dynamic Stark shift of the levels into multiphoton resonance with the field during the rising part of the laser pulse. Subsequent evolution of the laser pulse did not ionize completely these states leaving behind some highly excited atoms. We shall refer to this phenomenon as "population trapping".
+
+We mention the theoretical calculation that incomplete ionization occurs whenever there is parallel resonant excitation into a common level with ionization loss. We consider a state such as 6f of Xe which consists of 7 quasi-degnerate levels in the range of the laser bandwidth. These levels along with the continuum constitute a lambda system. The mechanism of the lambda type trapping is schematically presented in figure. At the rising part of the pulse (a) the excited state (with two degenerate levels 1 and 2) are not in multiphoton resonance with the ground state. The electron is ionized through multiphoton coupling with the continuum. As the intensity of the pulse is increased the excited state and the continuum are shifted in energy due to the Stark shift. At the peak of the pulse (b) the excited states go into multiphoton resonance with the ground state. As the intensity starts to decrease (c), the two state are coupled through continuum and the population is trapped in a coherent superposition of the two states. Under subsequent action of the same pulse, due to interference in the transition amplitudes of the lambda system, the field cannot ionize the population completely and a fraction of the population will be trapped in a coherent superposition of the quasi degenerate levels. According to this explanation the states with higher angular momentum- with more sublevels- would have a higher probability of trapping the population. In general the strength of the trapping will be determined by the strength of the two photon coupling between the quasi-degenerate levels via the continuum.In 1996, using the very stable laser and by minimizing the masking effects of the focal region expansion with increasing intensity, Talebpour et al. observed structures on the curves of singly charged ions of Xe, Kr and Ar. These structures were attributed to electron trapping in the strong laser field. A more unambiguous demonstration of population trapping has been reported by T. Morishita and C. D. Lin.

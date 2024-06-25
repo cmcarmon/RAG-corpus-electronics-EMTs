@@ -1,0 +1,16 @@
+Reconﬁguration in a circuit of dependent cells is analogous
+to the method employed for independent cells. Inputs are
+forwarded past the faulty cell and the computations, original
+and checking, in all cells beyond the faulty cell are delayed by d
+time units compared to those in the circuit that is not faulty.
+Multiple FT can be obtained in either independent or de-
+pendent cells by adding more spares. The pipelines forward
+inputs (and outputs used for comparison) past the faulty cells,
+and the computations in those cells beyond the faults are
+delayed an additional d time units each time the pipeline ﬂows
+past a faulty cell. If there are f  k faults in a k-FT REMOD
+design, then the original computation has a time overhead of f d
+in the worst case. Pipelines implemented with banks of multi-
+plexers rather than delay lines can reduce this overhead to 0,
+however (Dutt and Hanchek, 1997). In all cases, error detection
+takes d more time after the original computation.

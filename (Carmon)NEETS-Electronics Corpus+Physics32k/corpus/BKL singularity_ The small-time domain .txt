@@ -1,0 +1,332 @@
+As shown above, long eras violate the "regular" course of evolution; this fact makes it difficult to study the evolution of time intervals, encompassing several eras. It can shown, however, that such "abnormal" cases appear in the spontaneous evolution of the model to a singular point in the asymptotically small times t at sufficiently large distances from a start point with arbitrary initial conditions. Even in long eras both oscillatory functions during transitions between Kasner epochs remain so different that the transition occurs under the influence of only one perturbation. All results in this section relate equally to models of the types VIII and IX.
+During each Kasner epoch abc = Λt, i. e. α + β + γ = ln Λ + ln t. In transitions between epochs the constant ln Λ changes to the first order (cf. eq. 36). However, asymptotically to very large |ln t| values one can ignore not only these changes, but also the constant ln Λ itself. In other words, this approximation corresponds to ignoring all values whose ratio to |ln t| converges to zero at t → 0. Then
+
+where Ω is the "logarithmic time"
+
+In this approximation, the process of epoch transitions can be regarded as a series of brief time flashes. The constant in the right hand side of condition eq. 38 αmax = ​1⁄2 ln (2|p1|Λ) that defines the periods of transition can also be ignored, i. e. this condition becomes α = 0 (or similar conditions for β or γ if the initial negative power is related to the functions b or c). Thus, αmax, βmax, and γmax become zeros meaning that α, β, and γ will run only through negative values which are related in each moment by the relationship eq. 64.
+
+Considering such instant change of epochs, the transition periods are ignored as small in comparison to the epoch length; this condition is actually fulfilled. Replacement of α, β, and γ maxima with zeros requires that quantities ln (|p1|Λ) be small in comparison with the amplitudes of oscillations of the respective functions. As mentioned above, during transitions between eras |p1| values can become very small while their magnitude and probability for occurrence are not related to the oscillation amplitudes in the respective moment. Therefore, in principle, it is possible to reach so small |p1| values that the above condition (zero maxima) is violated. Such drastic drop of αmax can lead to various special situations in which the transition between Kasner epochs by the rule eq. 37 becomes incorrect (including the situations described above), see also. These "dangerous" situations could break the laws used for the statistical analysis below. As mentioned, however, the probability for such deviations converges asymptotically to zero; this issue will be discussed below.
+Consider an era that contains k Kasner epochs with a parameter u running through the values
+
+and let α and β are the oscillating functions during this era (Fig. 2).
+Initial moments of Kasner epochs with parameters un are Ωn. In each initial moment, one of the values α or β is zero, while the other has a minimum. Values α or β in consecutive minima, that is, in moments Ωn are
+
+(not distinguishing minima α and β). Values δn that measure those minima in respective Ωn units can run between 0 and 1. Function γ monotonously decreases during this era; according to eq. 63 its value in moment Ωn is
+
+During the epoch starting at moment Ωn and ending at moment Ωn+1 one of the functions α or β increases from −δnΩn to zero while the other decreases from 0 to −δn+1Ωn+1 by linear laws, respectively:
+
+
+
+
+
+c
+o
+n
+s
+t
+
++
+
+|
+
+
+p
+
+1
+
+
+(
+
+u
+
+n
+
+
+)
+
+|
+
+Ω
+
+
+
+{\displaystyle \mathrm {const} +|p_{1}(u_{n})|\Omega \,}
+and
+
+
+
+
+c
+o
+n
+s
+t
+
+−
+
+p
+
+2
+
+
+(
+
+u
+
+n
+
+
+)
+Ω
+
+
+
+{\displaystyle \mathrm {const} -p_{2}(u_{n})\Omega \,}
+
+resulting in the recurrent relationship
+
+and for the logarithmic epoch length
+
+where, for short, f(u) = 1 + u + u2. The sum of n epoch lengths is obtained by the formula
+
+It can be seen from eq. 68 that |αn+1| > |αn|, i.e., the oscillation amplitudes of functions α and β increase during the whole era although the factors δn may be small. If the minimum at the beginning of an era is deep, the next minima will not become shallower; in other words, the residue |α — β| at the moment of transition between Kasner epochs remains large. This assertion does not depend upon era length k because transitions between epochs are determined by the common rule eq. 37 also for long eras.
+The last oscillation amplitude of functions α or β in a given era is related to the amplitude of the first oscillation by the relationship |αk−1| = |α0| (k + x) / (1 + x). Even at k 's as small as several units x can be ignored in comparison to k so that the increase of α and β oscillation amplitudes becomes proportional to the era length. For functions a = eα and b = eβ this means that if the amplitude of their oscillations in the beginning of an era was A0, at the end of this era the amplitude will become
+
+
+
+
+
+
+A
+
+0
+
+
+k
+
+/
+
+(
+1
++
+x
+)
+
+
+
+
+
+
+{\displaystyle \scriptstyle {A_{0}^{k/(1+x)}}}
+.
+The length of Kasner epochs (in logarithmic time) also increases inside a given era; it is easy to calculate from eq. 69 that Δn+1 > Δn. The total era length is
+
+(the term with 1/x arises from the last, k-th, epoch whose length is great at small x; cf. Fig. 2). Moment Ωn when the k-th epoch of a given era ends is at the same time moment Ω'0 of the beginning of the next era.
+In the first Kasner epoch of the new era function γ is the first to rise from the minimal value γk = − Ωk (1 − δk) that it reached in the previous era; this value plays the role of a starting amplitude δ'0Ω'0 for the new series of oscillations. It is easily obtained that:
+
+It is obvious that δ'0Ω'0 > δ0Ω0. Even at not very great k the amplitude increase is very significant: function c = eγ begins to oscillate from amplitude
+
+
+
+
+
+
+A
+
+0
+
+′
+
+∼
+
+A
+
+0
+
+
+
+k
+
+2
+
+
+
+
+
+
+
+
+{\displaystyle \scriptstyle {A_{0}'\sim A_{0}^{k^{2}}}}
+. The issue about the abovementioned "dangerous" cases of drastic lowering of the upper oscillation limit is left aside for now.
+According to eq. 40 the increase in matter density during the first (k − 1) epochs is given by the formula
+
+
+
+
+ln
+⁡
+
+(
+
+
+
+ε
+
+n
++
+1
+
+
+
+ε
+
+n
+
+
+
+
+)
+
+=
+2
+
+[
+
+1
+−
+
+p
+
+3
+
+
+(
+
+u
+
+n
+
+
+)
+
+]
+
+
+Δ
+
+n
++
+1
+
+
+.
+
+
+{\displaystyle \ln \left({\frac {\varepsilon _{n+1}}{\varepsilon _{n}}}\right)=2\left[1-p_{3}(u_{n})\right]\Delta _{n+1}.}
+
+For the last k epoch of a given era, it should be taken into account that at u = x < 1 the greatest power is p2(x) (not p3(x) ). Therefore, for the density increase over the whole era one obtains
+
+Therefore, even at not very great k values,
+
+
+
+
+
+
+ε
+
+0
+
+′
+
+
+/
+
+
+ε
+
+0
+
+
+∼
+
+A
+
+0
+
+
+2
+k
+
+
+
+
+
+
+{\displaystyle \scriptstyle {\varepsilon _{0}'/\varepsilon _{0}\sim A_{0}^{2k}}}
+. During the next era (with a length k ' ) density will increase faster because of the increased starting amplitude A0':
+
+
+
+
+
+
+ε
+
+0
+
+″
+
+
+/
+
+
+ε
+
+0
+
+′
+
+∼
+
+A
+
+0
+
+
+′
+
+2
+
+k
+″
+
+
+
+
+∼
+
+A
+
+0
+
+
+2
+
+k
+
+2
+
+
+
+k
+′
+
+
+
+
+
+
+
+{\displaystyle \scriptstyle {\varepsilon _{0}''/\varepsilon _{0}'\sim A_{0}'^{2k''}\sim A_{0}^{2k^{2}k'}}}
+, etc. These formulae illustrate the steep increase in matter density.

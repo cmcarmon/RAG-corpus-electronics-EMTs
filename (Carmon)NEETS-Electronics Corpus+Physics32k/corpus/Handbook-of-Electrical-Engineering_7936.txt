@@ -1,0 +1,6 @@
+Counters
+A register can be loaded with any combination by applying the correct bit pattern to the input data lines and
+activating the control line. As with the feedback shift registers, it is then only a small step to arrange that the
+register  itself  provides  the  input  data  by  use  of  feedback  connections  and,  if  other  circuitry  is  included  to
+increment the value each time, we have a synchronous counter. The 74L5191 (Fig. 81.38) is a programmable
+counter which retains the facility for parallel loading of external data.

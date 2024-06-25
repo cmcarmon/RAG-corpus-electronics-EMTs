@@ -1,0 +1,7 @@
+The Op Amp exits the active region and enters the saturation region when
+the external inputs are such that the Op Amp output is required to go above
++12 or below −12 V. As an example, suppose the Op Amp has power supply
+voltages of +12 and −12, then if two volts are applied as the input to a non-
+inverting Op Amp amplifier circuit with a gain of 10, the Op Amp will be driven
+into positive saturation. Similarly, if minus two volts are applied to the same
+amplifier, the Op Amp will be driven into negative saturation.

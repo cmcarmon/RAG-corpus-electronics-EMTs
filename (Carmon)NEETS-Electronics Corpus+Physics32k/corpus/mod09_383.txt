@@ -1,0 +1,6 @@
+Recall that when the astable multivibrator was first energized, it was impossible to predict which 
+transistor would initially go to cutoff because of circuit symmetry. The one-shot circuit is not symmetrical 
+like the astable multivibrator. Positive voltage VBB is applied through R5 to the base of Q1. This positive 
+voltage causes Q1 to cut off. Transistor Q2 saturates because of the negative voltage applied from −VCC 
+to its base through R2. Therefore, Q1 is cut off and Q2 is saturated before a trigger pulse is applied, as 
+shown in figure 3-12. The circuit is shown in its stable state. 

@@ -1,0 +1,16 @@
+Further Improvement
+Problem LCSS–SAFE (see equation 4.19) provides a solution
+to the clock skew scheduling problem for a case in which
+circuit reliability is of primary importance and clock period
+minimization is not the focus of the optimization process. As
+shown in the previous subsection, a certain degree of safety
+may be achieved by computing a feasible clock schedule sub-
+ject to artiﬁcially smaller permissible ranges (as deﬁned in
+equation 4.19). Problem LCSS–SAFE, however,
+is a brute
+force approach since it requires that the same absolute margins
+of safety are observed for each permissible range regardless of
+the range width. Therefore, this approach does not consider
+the individual characteristics of a permissible range and does
+not differentiate among local data paths with wider and
+narrower permissible ranges.

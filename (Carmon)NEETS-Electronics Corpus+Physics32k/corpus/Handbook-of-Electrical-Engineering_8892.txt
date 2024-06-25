@@ -1,0 +1,10 @@
+A virtual memory address is mapped to a physical address, which indicates the location in main memory
+where the data actually reside [Denning, 1970]. The mapping is maintained through a structure called the page
+table, which is maintained in software by the operating system. Like the tag memory of a cache memory, the
+page table is accessed through a virtual address to determine the physical (main memory) address of the entry.
+Unlike the tag memory, however, the table is usually sorted by virtual addresses, making the translation process
+a simple matter of an extra memory access to determine the real physical address of the desired item. A system
+maintaining the page table in the way analogous to a cache tag memory is said to have inverted page tables. In
+addition to the real address mapped to a virtual page, and an indication of whether the page is present at all,
+a page table entry often contains other information. For example, the page table may contain the location on
+the disk where each block of data is stored when not present in main memory.

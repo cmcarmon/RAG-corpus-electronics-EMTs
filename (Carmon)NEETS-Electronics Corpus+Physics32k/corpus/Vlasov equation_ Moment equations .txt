@@ -1,0 +1,43 @@
+In fluid descriptions of plasmas (see plasma modeling and magnetohydrodynamics (MHD)) one does not consider the velocity distribution. This is achieved by replacing
+
+
+
+f
+(
+
+r
+
+,
+
+v
+
+,
+t
+)
+
+
+{\displaystyle f(\mathbf {r} ,\mathbf {v} ,t)}
+with plasma moments such as number density n, flow velocity u and pressure p. They are named plasma moments because the n-th moment of
+
+
+
+f
+
+
+{\displaystyle f}
+can be found by integrating
+
+
+
+
+v
+
+n
+
+
+f
+
+
+{\displaystyle v^{n}f}
+over velocity. These variables are only functions of position and time, which means that some information is lost. In multifluid theory, the different particle species are treated as different fluids with different pressures, densities and flow velocities. The equations governing the plasma moments are called the moment or fluid equations.
+Below the two most used moment equations are presented (in SI units). Deriving the moment equations from the Vlasov equation requires no assumptions about the distribution function.

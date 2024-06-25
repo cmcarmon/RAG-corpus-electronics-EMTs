@@ -1,0 +1,6 @@
+The unfolding transformation can also be applied in the context of hardware design. If we apply an unfolding
+word-
+transformation  on  a  (word-serial)  nonrecursive  algorithm,  the  resulting  data  ﬂow  graph  represents  a 
+parallel
+ (or simply parallel) algorithm that processes multiple samples or words in parallel every clock cycle.
+If we apply 2-unfolding to the 3-tap FIR ﬁlter in Fig. 18.1(a), we can obtain the data ﬂow graph of Fig. 18.2.

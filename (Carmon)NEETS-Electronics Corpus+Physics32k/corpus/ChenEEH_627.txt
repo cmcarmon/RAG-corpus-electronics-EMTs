@@ -1,0 +1,11 @@
+To use the beneﬁts of LNS, a conversion overhead is re-
+quired in most cases to perform the forward LNS mapping
+deﬁned by equation 1.1. It is noted that conversions of equa-
+tions 1.1 and 1.2 are required if an LNS processor receives
+input or transmits output linear data in digital format. Since
+all arithmetic operations can be performed in the logarithmic
+domain, only an initial conversion is imposed; therefore, as the
+amount of processing implemented in LNS grows, the contri-
+bution of the conversion overhead to power dissipation and to
+area–time complexity becomes negligible because it remains
+constant.

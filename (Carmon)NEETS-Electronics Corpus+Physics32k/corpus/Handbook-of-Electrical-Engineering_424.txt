@@ -1,0 +1,10 @@
+The gain formulas of Mason and Coates are the classical ones in the theory of ﬂowgraphs. From the systems
+viewpoint,  the  Mason  technique  provides  an  excellent  physical  insight  as  one  can  visualize  the  signal  ﬂow
+through the subgraphs (forward paths and feedback loops) of  Gm . The graph reduction technique based on
+the Mason graph enables one to obtain the gain expression using a step-by-step approach and at the same time
+observe the cause-and-effect relationships in each step. However, since the Mason formula computes the ratio
+of a speciﬁed output over one particular input, the principle of superposition must be used in order to obtain
+the  overall  gain  of  the  system  if  more  than  one  input  is  present.  The  Coates  formula,  on  the  other  hand,
+computes the output directly regardless of the number of inputs present in the system, but because of such a
+direct computation of a given output, the graph reduction rules of Mason cannot be applied to a Coates graph
+since the Coates graph is not based on the same cause-effect formulation of equations as Mason’s.

@@ -1,0 +1,65 @@
+The Feynman checkerboard, or relativistic chessboard model, was Richard Feynman’s sum-over-paths formulation of the kernel for a free spin-½ particle moving in one spatial dimension. It provides a representation of solutions of the Dirac equation in (1+1)-dimensional spacetime as discrete sums.
+The model can be visualised by considering relativistic random walks on a two-dimensional spacetime checkerboard. At each discrete timestep
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+the particle of mass
+
+
+
+m
+
+
+{\displaystyle m}
+moves a distance
+
+
+
+ϵ
+c
+
+
+{\displaystyle \epsilon c}
+to the left or right (
+
+
+
+c
+
+
+{\displaystyle c}
+being the speed of light). For such a discrete motion, the Feynman path integral reduces to a sum over the possible paths. Feynman demonstrated that if each "turn" (change of moving from left to right or conversely) of the space–time path is weighted by
+
+
+
+−
+i
+ϵ
+m
+
+c
+
+2
+
+
+
+/
+
+ℏ
+
+
+{\displaystyle -i\epsilon mc^{2}/\hbar }
+(with
+
+
+
+ℏ
+
+
+{\displaystyle \hbar }
+denoting the reduced Planck's constant), in the limit of infinitely small checkerboard squares the sum of all weighted paths yields a propagator that satisfies the one-dimensional Dirac equation. As a result, helicity (the one-dimensional equivalent of spin) is obtained from a simple cellular-automata-type rule.
+The checkerboard model is important because it connects aspects of spin and chirality with propagation in spacetime and is the only sum-over-path formulation in which quantum phase is discrete at the level of the paths, taking only values corresponding to the 4th roots of unity.

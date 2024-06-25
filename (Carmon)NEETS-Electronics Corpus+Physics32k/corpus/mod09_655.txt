@@ -1,0 +1,10 @@
+At T2 the input signal again becomes positive and the cycle repeats. The time duration between 
+pulses is the interval represented by the period between T1 and T2 or between T3 and T4. If the input-
+pulse frequency is reduced, these time periods become longer. On the other hand, if the frequency is 
+increased, these time intervals become shorter. With shorter periods, more pulses occur in a given length 
+of time and a higher average dc output voltage is produced; with longer periods, fewer pulses occur and a 
+lower average dc output voltage is produced. Thus, the dc output is directly proportional to the repetition 
+frequency of the input pulses. If the current and voltage are sufficiently large, a direct-reading meter can 
+be used to indicate the count. If they are not large enough to actuate a meter directly, a dc amplifier may 
+be added. In the latter case, a pi-type filter network is inserted at the output of R1 to absorb the 
+instantaneous pulse variations and produce a smooth direct current for amplification. 

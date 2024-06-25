@@ -1,0 +1,3 @@
+To set the flip-flop requires a HIGH on the S input and a LOW on the R input. To reset, the opposite
+is required; S input LOW and R input HIGH. When both R and S are HIGH, the FF will hold or "latch"
+the condition that existed before both inputs went HIGH.

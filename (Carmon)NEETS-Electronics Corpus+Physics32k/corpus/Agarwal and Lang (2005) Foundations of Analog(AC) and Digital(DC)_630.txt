@@ -1,0 +1,11 @@
+We will abandon the straightforward approach, and instead, cast off in a
+slightly different direction. Clearly, with the given values of the drive, this is
+a case where the diode is being operated only over a very restricted region of
+its nonlinear v i characteristics: the diode will always have a large positive DC
+offset voltage across it (given by VI), and the diode current will vary only by a
+small amount around ID (as depicted in the graphical sketch in Figure 4.37) due
+to the small signal vI superimposed on the DC input voltage. Thus a sensible
+approach is to model the diode characteristic accurately in the vicinity of ID (as
+depicted by the small straight line segment tangent to the curve at the VI, ID
+point, as shown in Figure 4.37) and disregard the rest of the curve. The Taylor
+Series expansion is the appropriate tool to employ for this task:

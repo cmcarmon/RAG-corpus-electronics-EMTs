@@ -1,0 +1,6 @@
+This problem is well modeled by Figure 9.31 with I being a current step. Hence, Equation
+9.76 and Figure 9.37 apply. Since the voltage slope is to be 5 V in 10 ns, or 5× 108 V/s,
+and since the capacitance is 100 fF, the current must be 50 µA.
+A second way to solve this problem is to use Equation 9.8 with C = 100 fF and v = 5 V
+to determine that the gate current must deliver a charge of 500 fC. Since this charge
+flows at a constant rate over a 10-ns period, the current must be 50 µA.

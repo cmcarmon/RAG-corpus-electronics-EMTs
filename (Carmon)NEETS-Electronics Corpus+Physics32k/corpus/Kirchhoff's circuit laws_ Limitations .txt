@@ -1,0 +1,15 @@
+KCL and KVL both depend on the lumped element model being applicable to the circuit in question. When the model is not applicable, the laws do not apply.
+KCL, in its usual form, is dependent on the assumption that current flows only in conductors, and that whenever current flows into one end of a conductor it immediately flows out the other end. This is not a safe assumption for high-frequency AC circuits, where the lumped element model is no longer applicable. It is often possible to improve the applicability of KCL by considering "parasitic capacitances" distributed along the conductors. Significant violations of KCL can occur even at 60 Hz, which is not a very high frequency.
+In other words, KCL is valid only if the total electric charge,
+
+
+
+
+Q
+
+
+
+{\displaystyle \scriptstyle Q}
+, remains constant in the region being considered. In practical cases this is always so when KCL is applied at a geometric point. When investigating a finite region, however, it is possible that the charge density within the region may change. Since charge is conserved, this can only come about by a flow of charge across the region boundary. This flow represents a net current, and KCL is violated.
+KVL is based on the assumption that there is no fluctuating magnetic field linking the closed loop. This is not a safe assumption for high-frequency (short-wavelength) AC circuits. In the presence of a changing magnetic field the electric field is not a conservative vector field. Therefore, the electric field cannot be the gradient of any potential. That is to say, the line integral of the electric field around the loop is not zero, directly contradicting KVL.
+It is often possible to improve the applicability of KVL by considering "parasitic inductances" (including mutual inductances) distributed along the conductors. These are treated as imaginary circuit elements that produce a voltage drop equal to the rate-of-change of the flux.

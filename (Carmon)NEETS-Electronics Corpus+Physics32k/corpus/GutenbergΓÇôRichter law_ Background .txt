@@ -1,0 +1,96 @@
+The relationship between earthquake magnitude and frequency was first proposed by Charles Francis Richter and Beno Gutenberg in a paper published in 1956. This relationship between event magnitude and frequency of occurrence is remarkably common, although the values of a and b may vary significantly from region to region or over time.
+
+The parameter b (commonly referred to as the "b-value") is commonly close to 1.0 in seismically active regions. This means that for given a frequency of 4.0 event there will be 10 times as many magnitude 3.0 quakes and 100 times as many magnitude 2.0 quakes. There is some variation of b-values in the approximate range of 0.5 to 2 depending on the source environment of the region. A notable example of this is during earthquake swarms when b can become as high as 2.5, thus indicating a very high proportion of small earthquakes to large ones.
+There is debate concerning the interpretation of some observed spatial and temporal variations of b-values. The most frequently cited factors to explain these variations are: the stress applied to the material, the depth, the focal mechanism, the strength heterogeneity of the material, and the proximity of macro-failure. The b-value decrease observed prior to the failure of samples deformed in the laboratory has led to the suggestion that this is a precursor to major macro-failure. Statistical physics provides a theoretical framework for explaining both the steadiness of the Gutenberg–Richter law for large catalogs and its evolution when the macro-failure is approached, but application to earthquake forecasting is currently out of reach. Alternatively, a b-value significantly different from 1.0 may suggest a problem with the data set; e.g. it is incomplete or contains errors in calculating magnitude.
+
+There is an apparent b-value decrease for smaller magnitude event ranges in all empirical catalogues of earthquakes. This effect is described as "roll-off" of the b-value, a description due to the plot of the logarithmic version of the GR law becoming flatter at the low magnitude end of the plot. This may in large part be caused by incompleteness of any data set due to the inability to detect and characterize small events. That is, many low-magnitude earthquakes are not catalogued because fewer stations detect and record them due to decreasing instrumental signal to noise levels. Some modern models of earthquake dynamics, however, predict a physical roll-off in the earthquake size distribution.
+The a-value is of less scientific interest and simply indicates the total seismicity rate of the region. This is more easily seen when the GR law is expressed in terms of the total number of events:
+
+
+
+
+N
+=
+
+N
+
+
+T
+O
+T
+
+
+
+
+10
+
+−
+b
+M
+
+
+
+
+
+{\displaystyle N=N_{\mathrm {TOT} }10^{-bM}\ }
+
+where
+
+
+
+
+
+N
+
+
+T
+O
+T
+
+
+
+=
+
+10
+
+a
+
+
+,
+
+
+
+{\displaystyle N_{\mathrm {TOT} }=10^{a},\ }
+
+the total number of events. Since
+
+
+
+
+10
+
+a
+
+
+
+
+
+{\displaystyle 10^{a}\ }
+is the total number of events,
+
+
+
+
+10
+
+−
+b
+M
+
+
+
+
+
+{\displaystyle 10^{-bM}\ }
+must be the probability of those events.
+Modern attempts to understand the law involve theories of self-organized criticality or self similarity.

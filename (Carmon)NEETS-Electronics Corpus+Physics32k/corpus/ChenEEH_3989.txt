@@ -1,0 +1,6 @@
+The xy(n) denotes an arc (data) ﬂowing from node x to node y
+at the iteration n, and fxy denotes a deﬁnition of xy(n). Its
+corresponding DFG is illustrated in Figure 7.4. After the loop
+body is unfolded by a factor of two, the resulting program is
+listed here:
+Do n ¼ 1 to 1:

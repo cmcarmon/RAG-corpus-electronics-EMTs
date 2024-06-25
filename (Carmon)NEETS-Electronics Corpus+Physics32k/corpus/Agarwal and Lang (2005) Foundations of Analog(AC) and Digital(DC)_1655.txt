@@ -1,0 +1,16 @@
+11.6 S U M M A R Y
+(cid:1) We began this chapter by analyzing the power and energy dissipated in first-
+order resistor-capacitor networks driven by voltage-step inputs. The results
+of this analysis were then used to determine the losses in NMOS logic gates.
+Most importantly, we observed that, if the transients in NMOS logic gates
+are allowed to settle, then the average power dissipated in the gates could
+be decomposed into two parts: static losses and dynamic losses. Static
+loss results when a pull-up resistor is connected across the power supply
+by one or more closed MOSFETs. Dynamic loss results from the repeated
+charging and discharging of the MOSFET gate-to-source capacitances, and
+hence increases linearly with switching speed. We further observed that in
+NMOS logic gates in which the switching transients settle, the static losses
+are always much larger than the dynamic losses. Finally, this observation
+motivated the development of CMOS logic gates, which do not exhibit
+static losses. CMOS logic is therefore much more energy efficient that
+NMOS logic.

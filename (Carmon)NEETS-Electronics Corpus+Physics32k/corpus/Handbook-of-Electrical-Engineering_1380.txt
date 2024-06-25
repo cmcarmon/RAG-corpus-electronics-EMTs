@@ -1,0 +1,8 @@
+where Zn and Vn denote the nth spectral components of the noisy signal and the noise process, respectively,
+and a > 0, b ‡ 0, c > 0. The MMSE gain function is obtained when a = 2, b = 1, and c = 1. Another commonly
+used gain function in the spectral subtraction approach is obtained from using a = 2, b = 1, and c = 1/2. This
+gain function results from estimating the spectral magnitude of the signal and combining the resulting estimate
+with the phase of the noisy signal. This choice of gain function is motivated by the relative importance of the
+spectral magnitude of the signal compared to its phase. Since both cannot be simultaneously optimally estimated
+[Ephraim, 1992], only the spectral magnitude is optimally estimated, and combined with an estimate of the
+complex exponential of the phase which does not affect the spectral magnitude estimate. The resulting estimate

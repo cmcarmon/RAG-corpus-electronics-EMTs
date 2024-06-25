@@ -1,0 +1,10 @@
+We will now discuss another implementation of the amplifier circuit based
+on an input coupling capacitor as shown in Figure 13.39a. This circuit makes use
+of the fact that most small-signal inputs of interest are time-varying signals with
+a reasonably high-frequency content. As illustrated in Figure 13.39b, a small-
+signal input can be fed directly to the input port of the amplifier in Figure 13.39a,
+even if the small signal is superimposed over some DC bias voltage. As we will
+show shortly, the capacitor C and the resistors R1 and R2 filter out any DC
+bias voltage over which the small signal is superimposed, and pass through the
+time-varying small signal. Furthermore, we will show that the resistive divider
+formed by R1 and R2 provides the necessary input bias voltage.

@@ -1,0 +1,20 @@
+One strategy to overcome this difﬁculty is to include in the
+clock scheduling process the timing information of those local
+data paths that cross the boundaries of the circuit C. This
+approach does not change the nature of the clock scheduling
+algorithm but rather only the number of timing constraints.
+Such an optimization scenario, however, is difﬁcult to conceive
+due to the many instances in which C may be used. Therefore,
+a preferable approach is to set the clock signal delay to the I/O
+registers (such as t 1
+cd to R1) to a speciﬁc value with respect to
+the clock source (shown as the clock pin in Figure 4.13). If this
+value is speciﬁed, all of the necessary timing information is
+available to avoid any timing violations of the local data paths,
+such as the path R6?R1 shown in Figure 4.13. Equivalently, a
+group of registers (e.g., the I/O registers) may be deﬁned,
+which require that the clock signal be delivered to all of the
+registers in such a group with the same delay. Application-
+speciﬁc integrated circuits (ASICs) and intellectual property
+(IP) blocks are good examples of circuits for which the afore-
+mentioned strategy may be useful.

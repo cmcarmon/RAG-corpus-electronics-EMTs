@@ -1,0 +1,16 @@
+After  taking  these  steps  and  saving  the  circuit,  we  are  ready  to
+simulate.  Select  Analysis/Simulate.  If  there  are  no  errors,  we  select
+Add  Trace in  the  PSpice
+in
+the  Trace  Command box.  [The  negative  sign  is  needed  since  I(R2)  is
+varies
+negative.] This gives the plot of the power delivered to 
+from 
+by
+RL
+typing 
+in  the  Trace  Command box.  Either  way,
+we  obtain  the  plot  in  Fig.  4.57.  It  is  evident  from  the  plot  that  the
+maximum  power  is 
+Notice  that  the  maximum  occurs  when
+RL ⫽ 1 k⍀,

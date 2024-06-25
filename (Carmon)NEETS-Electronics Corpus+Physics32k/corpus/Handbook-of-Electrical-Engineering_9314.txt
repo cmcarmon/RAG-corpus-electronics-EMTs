@@ -1,0 +1,12 @@
+High-level languages support these three constructors by
+(1) juxtaposition for sequencing, (2) if-then-else and case
+(switch) constructs for selection, and (3) while-do and for
+loops for iteration. The somewhat rigid restriction on loops
+sometimes requires the duplication of code. Some languages
+ease this problem by providing a  break or leave statement
+that permits leaving a loop prematurely (Fig. 90.13). A typ-
+ical example for a program that proﬁts from this mechanism
+is a loop that reads and processes records and terminates
+when  a  record  with  some  given  property  is  found.  In
+Fig. 90.13  block  B  reads  and  block  A  processes  a  record.
+With a strict while-loop the code of B must be duplicated.

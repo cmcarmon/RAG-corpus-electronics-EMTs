@@ -1,0 +1,17 @@
+current differential scheme provides the restraint winding con-
+nection to each circuit that is a major source of the fault
+current. These schemes are designed to restrain correctly for
+heavy faults just outside the differential zone, with maximum
+offset current, as long as the CTs do not saturate for the
+maximum symmetrical current. These schemes are more difﬁ-
+cult to apply and require use of auxiliary CTs to match the
+current transformer ratios. The high-impedance voltage differ-
+ential principle uses a property that CTs, when loaded with
+high impedance, will be forced to take the error differential
+current, and, hence, this current will not ﬂow through the relay
+operating coil. This principle translates the current differential
+sensitivity problem is to the voltage differential sensitivity prob-
+em for distinguishing the close-in faults from the bus faults.
+The voltage differential scheme is easier to implement since the
+worst case voltage for external faults can be determined much
+more precisely knowing the open voltage of the CT.

@@ -1,0 +1,16 @@
+Most of today’s VRMs use conventional buck or synchronous
+rectiﬁer buck topologies. Figure 1.3 shows the conventional
+buck circuit, which is the most cost-effective approach.
+Usually, Schottky diodes are used as rectiﬁers. The top metal-
+oxide-semiconductor ﬁeld effect transitor (MOSFET) transfers
+energy from the input, and the bottom rectiﬁer conducts the
+inductor current. The control regulates the output voltage by
+modulating the conduction interval at the top MOSFET.
+Figure 1.4 shows the synchronous rectiﬁer buck circuit. This
+topology increases the efﬁciency by replacing the rectiﬁer with
+a low Rds(on) MOSFET. The synchronous switch is controlled
+by the complementary signal of the top switch’s gate signal.
+The synchronous rectiﬁer buck always operates in continuous
+current mode. Its transient response is faster than that of a
+conventional buck converter. Conventional VRMs use large
+output ﬁlter inductances, 2  4 mH, to reduce ripple.

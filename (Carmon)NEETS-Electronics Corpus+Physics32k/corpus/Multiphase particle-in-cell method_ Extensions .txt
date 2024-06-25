@@ -1,0 +1,3 @@
+Chemical reactions – Coupling the local Eulerian values for fluid velocity in the MP-PIC method with equations for diffusional mass transfer allows the transport of a chemical species within the fluid-particle system to be modeled. Reaction kinetics dependent on particle density, surface area, or volume can be included as well for applications in catalysis, gasification, or solid deposition.
+Liquid Injection - MP-PIC method was extended by Zhao, O'Rourke, and Snider to model the coating of particle with a liquid.
+Thermal Modeling - Conductive and convective heat transfer can be included by coupling MP-PIC variables with equations for heat transfer. Commercial implementations of MP-PIC method include radiative heat transfer as well.

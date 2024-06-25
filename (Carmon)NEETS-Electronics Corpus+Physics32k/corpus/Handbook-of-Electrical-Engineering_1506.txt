@@ -1,0 +1,9 @@
+The Estimation Problem
+Given an observation sequence or a set of sequences, (multiple utterances) the estimation problem is to ﬁnd
+the “right” model parameter values that specify a model most likely to produce the given sequence. In speech
+recognition, this is called training. There is no known closed form analytic solution for the maximum likelihood
+model parameters. Nevertheless we can choose l
+, A, B) such that its likelihood, P(O|l ), is locally maximized
+using an iterative procedure such as the Baum-Welch re-estimation method (a form of the EM [expectation-
+maximization] method [4]. The method intoduces an auxiliary function Q(ˆl
+)

@@ -1,0 +1,4 @@
+Unfortunately, our digital memory circuit as described in Figure 10.52 is
+non-restoring. In other words, if a voltage VIH corresponding to a valid 1 was
+applied to its input, the output of the memory element would not be restored
+to VOH, rather it would be at VIH as well.

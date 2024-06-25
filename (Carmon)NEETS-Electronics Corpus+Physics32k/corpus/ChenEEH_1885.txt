@@ -1,0 +1,33 @@
+Another dimension of system complexity, and thus, by def-
+inition,
+lower reliability (more things can fail) stems from
+multiprocessing. Currently, many critical and very computa-
+tionally intensive applications (e.g., weather forecasting, envi-
+ronmental monitoring, and providing advanced prosthetic
+devices for the disabled) employ a number of multiple proces-
+sors in either general-purpose multicomputer boxes or in em-
+bedded computing environments. The reliability problem of
+such complex computers increases by orders of magnitude.
+Many such multiprocessor systems have interconnection net-
+works with topologies like meshes, toruses, and hypercubes that
+are integral to the correct and nondegraded operation of the
+overall system. In these systems, faulty components need to be
+reconﬁgured using spare ones, and structural integrity of the
+system needs to be preserved; that is, these systems need struc-
+tural fault tolerance (Banerjee et al., 1986; Bruck et al., 1993a,
+1993b; Chau and Liestman, 1989; Chung et al., 1983; Dutt and
+Hayes, 1990, 1991, 1992, 1997; Dutt, 1993; Dutt and Mahapatra,
+1997; Hayes, 1973; Mahapatra and Dutt, 2001; Raghavendra et
+al., 1984; Rennels, 1986; Roy-Chowdhury et al., 1990). A non
+fault-tolerant system consisting of a large number of highly
+reliable processors can have low system reliability because even
+a single component failure renders the system faulty or signiﬁ-
+cantly degraded in performability. Thus, a 1024-processor
+system consisting of highly reliable individual components,
+each with a mean-time-to-failure (MTTF) of 85.34 years, has
+a system MTTF of only one month (Dutt and Mahapatra,
+1997)! Large multiprocessor servers that power e-commerce
+and e-business enterprises have 99.9 to 99% availability or 8 to
+80 hours of downtime per year (Patterson et al., 2002). This
+translates to a $200,000 loss per hour for an Internet service like
+Amazon to a $6,000,000 loss per hour for a stock brokerage

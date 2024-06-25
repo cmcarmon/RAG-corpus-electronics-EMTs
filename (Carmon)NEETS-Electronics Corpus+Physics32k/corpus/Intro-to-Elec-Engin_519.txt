@@ -1,0 +1,6 @@
+Sequential Blocks
+Neglecting propagation delays, which are measures of how long it takes the output of a gate to
+respond to a transition at the input of the gate, the output of a logic block at a given time depends
+only on the inputs at that same time. The output of a sequential block, on the other hand, depends
+not only on the present inputs but also on inputs at earlier times. Sequential blocks have thus a
+kind of memory, and some of them are used as computer memories.

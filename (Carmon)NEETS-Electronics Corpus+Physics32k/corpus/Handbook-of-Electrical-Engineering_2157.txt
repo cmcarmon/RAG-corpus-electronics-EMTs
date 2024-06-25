@@ -1,0 +1,8 @@
+never  saw  before  (good  generalization)  [Bishop,  1995].  The  error  in  the  training  set  tends  to  decrease  with
+iteration  when  the  ANN  has  enough  degrees  of  freedom  to  represent  the  input/output  map.  However,  the
+system may be remembering the training patterns (overﬁtting) instead of ﬁnding the underlying mapping rule.
+This is called  overtraining. To avoid overtraining the performance in a validation set, i.e., a set of input data
+that the system never saw before, must be checked regularly during training (i.e., once every 50 passes over the
+training  set).  The  training  should  be  stopped  when  the  performance  in  the  validation  set  starts  to  increase,
+despite  the  fact  that  the  performance  in  the  training  set  continues  to  decrease.  This  method  is  called  cross
+validation. The validation set should be 10% of the training set, and distinct from it.

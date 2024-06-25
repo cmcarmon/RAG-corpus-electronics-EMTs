@@ -1,0 +1,13 @@
+Classiﬁcation
+The third function of sonar signal processing is classiﬁcation. This function determines the type of object that
+has radiated or reﬂected acoustic energy. For example, was the sonar signal return from a school of ﬁsh or a
+reﬂection from the ocean bottom? The action one takes is highly dependent upon this important function. The
+amount of radiated or reﬂected signal power relative to the background noise (that is, SNR) necessary to achieve
+good classiﬁcation may be higher than for detection. Also, the type of signal processing required for classiﬁcation
+may be different than the type of processing for detection. Processing methods that are developed on the basis
+of detection might not have the requisite SNR to adequately perform the classiﬁcation function. Classiﬁers are,
+in  general,  divided  into  feature  (or  clue)  extractors  followed  by  a  classiﬁer  decision  box. A  key  to  successful
+classiﬁcation is feature extraction. Performance of classiﬁers is plotted as in ROC detection curves as probability
+of deciding on class A, given A was actually present, or P(A/A), versus the probability of deciding on class B,
+given that A was present, i.e., P(B/A), for two different classes of objects, A and B. Of course, for the same class
+of objects, one could also plot P(B/B) versus P(A/B).

@@ -1,0 +1,14 @@
+Circuit Switching
+A connection between the calling station and the called station
+is established on demand for exclusive use of the physical
+connection. Three phases of a circuit switching connection
+exist; (1) connection establishment phase requires a separate
+setup signal to send and the acknowledgement signal to re-
+ceive; (2) The data transfer phase has no interruption to the
+data transfer; and (3) the termination phase allows the release
+of the resource so that other connection, can use the resource.
+The switching technique does not require buffers or queues
+and is free of congestion. Long setup time may cause undesir-
+able delay, which is rather inefﬁcient if no data are being
+transferred. Appropriate applications may have relatively con-
+tinuous ﬂow, such as voice, sensor, and telemetry inputs.

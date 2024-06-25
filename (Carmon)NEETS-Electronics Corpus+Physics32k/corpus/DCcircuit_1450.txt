@@ -1,0 +1,5 @@
+This step of the analysis tells us that the voltage across the load terminals (same as that
+across resistor R2) will be 1.8182 volts with no load connected. With a little reﬂection, it should
+be clear that this will be our ﬁnal voltage across the capacitor, seeing as how a fully-charged
+capacitor acts like an open circuit, drawing zero current. We will use this voltage value for our
+Thevenin equivalent circuit source voltage.

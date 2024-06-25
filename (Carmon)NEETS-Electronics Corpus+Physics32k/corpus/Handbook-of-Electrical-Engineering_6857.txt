@@ -1,0 +1,8 @@
+Detection with Continuous-Time Measurements
+Note that all of the preceding formulations have involved the assumption of discrete-time (i.e., sampled-data)
+measurements. From a practical point of view, this is the most natural framework within which to consider
+these problems, since implementations most often involve digital hardware. However, the procedures discussed
+in  this  section  all  have  continuous-time  counterparts,  which  are  of  both  theoretical  and  practical  interest.
+Mathematically, continuous-time detection problems are more difﬁcult than discrete-time ones, because they
+involve probabilistic analysis on function spaces. The theory of such problems is quite elegant, and the interested
+reader is referred to Poor [1994] or Grenander [1981] for more detailed exposition.

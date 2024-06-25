@@ -1,0 +1,7 @@
+to be converted, then the MSB is reset to 0 and the next bit is tried as the MSB. On the other
+hand, if the signal to be converted is larger than the D/A computer output, then the MSB remains
+1. This procedure is repeated for each bit until the binary equivalent of the input analog signal
+is obtained at the end. This method requires only n clock periods, compared to the 2n clock
+periods needed by the counter-controlled A/D converter, where n is the number of bits required
+to encode the analog signal. The National ADC 0844 is a popular 8-bit A/D converter based on
+the SAR.

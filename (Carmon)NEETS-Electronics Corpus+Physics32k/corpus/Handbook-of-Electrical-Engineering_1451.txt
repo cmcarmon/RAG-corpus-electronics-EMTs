@@ -1,0 +1,9 @@
+Speech Recognition System Architecture
+Figure 15.15  shows  a  block  diagram  of  a  speech  recognition  system.  Speech  is  typically  input  to  the  system
+using an analog transducer, such as a microphone, and converted to digital form. Signal pre-processing consists
+of computing a sequence of acoustic feature vectors by processing the speech samples in successive time intervals.
+In  some  systems,  a  clustering  technique  known  as  vector  quantization  is  used  to  convert  these  continuous-
+valued features to a sequence of discrete codewords drawn from a codebook of acoustic prototypes. Recognition
+of an unknown utterance involves transforming the sequence of feature vectors, or codewords, into an appro-
+priate message. The recognition process is typically constrained by a set of acoustic models which correspond
+to the basic units of speech employed in the recognizer, a lexicon which deﬁnes the vocabulary of the recognizer

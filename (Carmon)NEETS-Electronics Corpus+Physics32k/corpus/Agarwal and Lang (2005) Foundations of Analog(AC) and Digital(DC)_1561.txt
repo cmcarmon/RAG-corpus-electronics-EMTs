@@ -1,0 +1,10 @@
+Together the package pin, the bond wire, and the internal chip wire are associated
+with a nonzero parasitic inductance. In this problem, we will study the effect of the
+parasitic inductance associated with power supply connections. Figure 10.107 shows
+a model of our situation. Two inverters with load resistors R1 and R2 and MOSFETs
+with width-to-length ratios W1/L1 and W2/L2, respectively, are connected to the same
+power supply node on the chip that is labeled with a voltage vP. Ideally this chip-level
+power supply node would be extended with an ideal wire outside the chip to the external
+power supply VS shown in Figure 10.107. However, notice the parasitic inductance LP
+interposed between the power supply node on the chip (marked with voltage vP) and
+the external power supply node (marked with voltage VS.)

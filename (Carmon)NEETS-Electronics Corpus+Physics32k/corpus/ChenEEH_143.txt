@@ -1,0 +1,11 @@
+3. This discussion also suggests that it is not necessary to
+use the same time step when determining the time
+domain solution of a circuit over a long period of
+time. It is possible to change the time step during the
+computation based on error and accuracy requirements.
+4. The Newton–Raphson method is used at each time
+step to solve a set of nonlinear equations. For this
+method, a good initial guess gives the solution in
+fewer iterations. Such formulae, called predictor for-
+mulae, are available and reduce the overall computa-
+tion needed for the solution.

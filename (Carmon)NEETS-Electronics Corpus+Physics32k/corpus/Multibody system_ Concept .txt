@@ -1,0 +1,6 @@
+A body is usually considered to be a rigid or flexible part of a mechanical system (not to be confused with the human body). An example of a body is the arm of a robot, a wheel or axle in a car or the human forearm. A link is the connection of two or more bodies, or a body with the ground. The link is defined by certain (kinematical) constraints that restrict the relative motion of the bodies. Typical constraints are:
+cardan joint or Universal Joint ; 4 kinematical constraints
+prismatic joint; relative displacement along one axis is allowed, constrains relative rotation; implies 5 kinematical constraints
+revolute joint; only one relative rotation is allowed; implies 5 kinematical constraints; see the example above
+spherical joint; constrains relative displacements in one point, relative rotation is allowed; implies 3 kinematical constraints
+There are two important terms in multibody systems: degree of freedom and constraint condition.

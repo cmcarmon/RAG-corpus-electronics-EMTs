@@ -1,0 +1,33 @@
+The stiffness, k, of a body is a measure of the resistance offered by an elastic body to deformation. For an elastic body with a single degree of freedom (DOF) (for example, stretching or compression of a rod), the stiffness is defined as
+
+
+
+
+k
+=
+
+
+F
+δ
+
+
+
+
+{\displaystyle k={\frac {F}{\delta }}}
+
+where,
+F is the force on the body
+
+
+
+
+δ
+
+
+{\displaystyle \delta }
+; is the displacement produced by the force along the same degree of freedom (for instance, the change in length of a stretched spring)
+In the International System of Units, stiffness is typically measured in newtons per meter. In Imperial units, stiffness is typically measured in pounds(lbs) per inch.
+Generally speaking, deflections (or motions) of an infinitesimal element (which is viewed as a point) in an elastic body can occur along multiple DOF (maximum of six DOF at a point). For example, a point on a horizontal beam can undergo both a vertical displacement and a rotation relative to its undeformed axis. When there are M degrees of freedom a M x M matrix must be used to describe the stiffness at the point. The diagonal terms in the matrix are the direct-related stiffnesses (or simply stiffnesses) along the same degree of freedom and the off-diagonal terms are the coupling stiffnesses between two different degrees of freedom (either at the same or different points) or the same degree of freedom at two different points. In industry, the term influence coefficient is sometimes used to refer to the coupling stiffness.
+It is noted that for a body with multiple DOF, the equation above generally does not apply since the applied force generates not only the deflection along its own direction (or degree of freedom), but also those along other directions.
+For a body with multiple DOF, in order to calculate a particular direct-related stiffness (the diagonal terms), the corresponding DOF is left free while the remaining should be constrained. Under such a condition, the above equation can be used to obtain the direct-related stiffness for the degree of freedom which is unconstrained. The ratios between the reaction forces (or moments) and the produced deflection are the coupling stiffnesses.
+A description including all possible stretch and shear parameters is given by the elasticity tensor.

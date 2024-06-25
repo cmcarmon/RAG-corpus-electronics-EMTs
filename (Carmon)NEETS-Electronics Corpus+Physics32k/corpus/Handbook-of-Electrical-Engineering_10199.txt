@@ -1,0 +1,10 @@
+Vision systems track the weld seam, and any deviations from the programmed seam path are detected and
+fed back to the controller for automatic tracking. Single-pass systems detect variations and make corrections
+in one welding pass. Double-pass systems ﬁrst do a high-speed scan of the joint to record in memory deviations
+from  the  programmed  seam  path,  with  actual  welding  corrections  occurring  on  the  second  “arc-on”  pass.
+Single-pass  systems  give  the  advantages  of  reduced  cycle  time  and  of  being  able  to  compensate  for  thermal
+distortions during the welding operation. One recent example of a microcomputer-based single-pass system
+using  a  welding  torch  and  laser-ranging  sensor  on  a  six-axis  robot  is  given  by  Nayak  and  Ray  [1990].  Their
+system,  dubbed  ARTIST  for  adaptive,  real-time,  intelligent,  seam  tracker,  has  a  two-level  integrated  control
+system in which the high level contains rule-based heuristics and model-based reasoning to arrive at real-time
+decisions, whereas the low level enables tracking of a three-dimensional welding seam.

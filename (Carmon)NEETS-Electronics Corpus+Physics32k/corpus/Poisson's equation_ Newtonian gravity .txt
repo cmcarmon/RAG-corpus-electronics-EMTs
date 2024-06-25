@@ -1,0 +1,118 @@
+In the case of a gravitational field g due to an attracting massive object of density ρ, Gauss's law for gravity in differential form can be used to obtain the corresponding Poisson equation for gravity,
+
+
+
+
+∇
+⋅
+
+
+g
+
+
+=
+−
+4
+π
+G
+ρ
+
+.
+
+
+{\displaystyle \nabla \cdot {\mathbf {g} }=-4\pi G\rho ~.}
+
+Since the gravitational field is conservative (and irrotational), it can be expressed in terms of a scalar potential Φ,
+
+
+
+
+
+
+g
+
+
+=
+−
+∇
+ϕ
+
+.
+
+
+{\displaystyle {\mathbf {g} }=-\nabla \phi ~.}
+
+Substituting into Gauss's law
+
+
+
+
+∇
+⋅
+(
+−
+∇
+ϕ
+)
+=
+−
+4
+π
+G
+ρ
+
+
+{\displaystyle \nabla \cdot (-\nabla \phi )=-4\pi G\rho }
+
+yields Poisson's equation for gravity,
+
+
+
+
+
+
+∇
+
+
+2
+
+
+ϕ
+=
+4
+π
+G
+ρ
+.
+
+
+{\displaystyle {\nabla }^{2}\phi =4\pi G\rho .}
+
+If the mass density is zero, Poisson's equation reduces to Laplace's equation. Using Green's Function, the potential at distance r from a central point mass m (i.e., the fundamental solution) is
+
+
+
+
+ϕ
+(
+r
+)
+=
+
+
+
+
+−
+G
+m
+
+r
+
+
+
+.
+
+
+{\displaystyle \phi (r)={\dfrac {-Gm}{r}}.}
+
+which is equivalent to Newton's law of universal gravitation.

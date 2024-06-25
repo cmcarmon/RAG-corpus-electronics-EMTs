@@ -1,0 +1,15 @@
+The group led by Woods has developed an efﬁcient tech-
+nique for fast partial reconﬁguration for FPGA-based systems
+(Sezer et al., 1998). They used a library-based approach to
+achieve a high degree of commonality between designs. The
+conﬁguration data are stored efﬁciently in a conﬁguration
+data graph (CDG). A CDG is a database of designs organized
+according to their shared components. High-speed conﬁgu-
+ration is also achieved by using reconﬁguration state graphs
+(RSGs) that model reconﬁguration as state transitions. The
+tools developed in this thesis generate representations similar
+to RSGs automatically from a speciﬁed reconﬁguration se-
+quence. It is also possible to introduce optimization techniques
+based on compile time information to optimize the RSGs and
+decrease the amount of conﬁguration data needed (Shirazi
+et al., 2000).

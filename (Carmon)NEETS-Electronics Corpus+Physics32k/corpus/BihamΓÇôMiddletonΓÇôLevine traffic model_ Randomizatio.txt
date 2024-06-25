@@ -1,0 +1,39 @@
+A randomized variant of the BML traffic model, called BML-R, was studied in 2010. Under periodic boundaries, instead of updating all cars of the same colour at once during each step, the randomized model performs
+
+
+
+
+L
+
+2
+
+
+
+
+{\displaystyle L^{2}}
+updates (where
+
+
+
+L
+
+
+{\displaystyle L}
+is the side length of the presumably square lattice): each time, a random cell is selected and, if it contains a car, it is moved to the next cell if possible. In this case, the intermediate state observed in the usual BML traffic model does not exist, due to the non-deterministic nature of the randomized model; instead the transition from the jammed phase to the free flowing phase is sharp.
+Under open boundary conditions, instead of having cars that drive off one edge wrapping around the other side, new cars are added on the left and top edges with probability
+
+
+
+α
+
+
+{\displaystyle \alpha }
+and removed from the right and bottom edges
+
+
+
+β
+
+
+{\displaystyle \beta }
+respectively. In this case, the number of cars in the system can change over time, and local jams can cause the lattice to appear very different from the usual model, such as having coexistence of jams and free-flowing areas; containing large empty spaces; or containing mostly cars of one type.

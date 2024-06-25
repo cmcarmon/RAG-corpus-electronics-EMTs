@@ -1,0 +1,8 @@
+Figure 2-23 shows the common-base configuration of the Pierce oscillator. Feedback is supplied 
+from the collector to the emitter through capacitor C1. Resistors RB, RC, and RF provide the proper bias 
+conditions for the circuit and resistor RE is the emitter resistor. Capacitors C1 and CE form a voltage 
+divider connected across the output. Since no phase shift occurs in the common-base circuit, capacitor C1 
+feeds back a portion of the output signal to the emitter without a phase shift. The oscillating frequency is 
+determined not only by the crystal but also by the parallel capacitance caused by capacitors C1 and CE. 
+This parallel capacitance affects the oscillator frequency by lowering it. Any change in capacitance of 
+either C1 or CE changes the frequency of the oscillator. 

@@ -1,0 +1,268 @@
+Early vacuum experimenters found a rather surprising behavior. An arc would sometimes take place in a long irregular path rather than at the minimal distance between the electrodes. For example, in air, at a pressure of one atmosphere, the distance for minimal breakdown voltage is about 7.5 µm. The voltage required to arc this distance is 327 V, which is insufficient to ignite the arcs for gaps that are either wider or narrower. For a 3.5 µm gap, the required voltage is 533 V, nearly twice as much. If 500 V were applied, it would not be sufficient to arc at the 2.85 µm distance, but would arc at a 7.5 µm distance.
+Paschen found that breakdown voltage was described by the equation
+
+
+
+
+
+V
+
+B
+
+
+=
+
+
+
+B
+p
+d
+
+
+ln
+⁡
+(
+A
+p
+d
+)
+−
+ln
+⁡
+
+[
+
+ln
+⁡
+
+(
+
+1
++
+
+
+1
+
+γ
+
+se
+
+
+
+
+
+)
+
+
+]
+
+
+
+
+,
+
+
+{\displaystyle V_{\text{B}}={\frac {Bpd}{\ln(Apd)-\ln \left[\ln \left(1+{\frac {1}{\gamma _{\text{se}}}}\right)\right]}},}
+
+where
+
+
+
+V
+
+
+{\displaystyle V}
+is the breakdown voltage in volts,
+
+
+
+p
+
+
+{\displaystyle p}
+is the pressure in pascals,
+
+
+
+d
+
+
+{\displaystyle d}
+is the gap distance in meters,
+
+
+
+
+γ
+
+se
+
+
+
+
+{\displaystyle \gamma _{\text{se}}}
+is the secondary-electron-emission coefficient (the number of secondary electrons produced per incident positive ion),
+
+
+
+A
+
+
+{\displaystyle A}
+is the saturation ionization in the gas at a particular
+
+
+
+E
+
+/
+
+p
+
+
+{\displaystyle E/p}
+(electric field/pressure), and
+
+
+
+B
+
+
+{\displaystyle B}
+is related to the excitation and ionization energies.
+The constants
+
+
+
+A
+
+
+{\displaystyle A}
+and
+
+
+
+B
+
+
+{\displaystyle B}
+are determined experimentally and found to be roughly constant over a restricted range of
+
+
+
+E
+
+/
+
+p
+
+
+{\displaystyle E/p}
+for any given gas. For example, air with an
+
+
+
+E
+
+/
+
+p
+
+
+{\displaystyle E/p}
+in the range of 450 to 7500 V/(kPa·cm),
+
+
+
+A
+
+
+{\displaystyle A}
+= 112.50 (kPa·cm)−1 and
+
+
+
+B
+
+
+{\displaystyle B}
+= 2737.50 V/(kPa·cm).
+The graph of this equation is the Paschen curve. By differentiating it with respect to
+
+
+
+p
+d
+
+
+{\displaystyle pd}
+and setting the derivative to zero, the minimal voltage can be found. This yields
+
+
+
+
+p
+d
+=
+
+
+
+
+e
+
+
+⋅
+
+ln
+⁡
+
+
+(
+
+
+
+1
+
+
++
+
+
+
+1
+
+
+
+γ
+
+
+
+s
+e
+
+
+
+
+
+
+)
+
+
+
+A
+
+
+
+
+{\displaystyle pd={\frac {{e}\mathrm {\cdot } \ln {\mathrm {(} }{1}\mathrm {+} {\frac {1}{{\mathit {\gamma }}_{se}}}{\mathrm {)} }}{A}}}
+
+and predicts the occurrence of a minimal breakdown voltage for
+
+
+
+p
+d
+
+
+{\displaystyle pd}
+= 7.5×10−6 m·atm. This is 327 V in air at standard atmospheric pressure at a distance of 7.5 µm.
+The composition of the gas determines both the minimal arc voltage and the distance at which it occurs. For argon, the minimal arc voltage is 137 V at a larger 12 µm. For sulfur dioxide, the minimal arc voltage is 457 V at only 4.4 µm.

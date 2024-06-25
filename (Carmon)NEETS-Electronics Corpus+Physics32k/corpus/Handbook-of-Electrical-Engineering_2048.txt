@@ -1,0 +1,7 @@
+It is obvious that the initially unknown echo path H(z) has to be “learned” by the canceller. It is also clear
+that for adaptation to work there needs to be a nonzero input signal x(t) that excites all the eigenmodes of the
+system (resonances, or “peaks” of the system magnitude response *H(jv)*). Another important problem is how
+to handle double-talk (speakers at both ends are talking simultaneously). In such a case, the canceller could
+easily get confused by the speech from the near end that acts as an uncorrelated noise in the adaptation. Finally,
+the convergence rate, that is, how fast the canceller adapts to a change in the echo path, is an important measure
+to compare different algorithms.

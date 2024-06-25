@@ -1,0 +1,6 @@
+In  many  cases  it  is  more  convenient  to  work  with  another  function  called  log-likelihood  function,  L(qm),
+rather  than  the  likelihood  function.  The  log-likelihood  function  is  the  natural  logarithm  of   l(qm).  Since  the
+logarithm is a monotone function, it follows that whenever L(q) achieves its maximum value,  l(qm) is maxi-
+mized too, for the same value of the parameter vector qm. Thus the log-likelihood function is maximized for
+that value of the vector parameter qm for which the ﬁrst partial derivatives with respect to qi , i = 1, …, m are
+equal to zero, i.e.,

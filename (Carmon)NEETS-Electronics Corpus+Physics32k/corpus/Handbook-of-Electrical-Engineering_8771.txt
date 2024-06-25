@@ -1,0 +1,3 @@
+The foregoing code instantiates an object that ptr points to, sends a message to the object telling it to perform
+the eval() function, and then disposes of the object. This example assumes that lptr and rptr have already been
+deﬁned elsewhere.

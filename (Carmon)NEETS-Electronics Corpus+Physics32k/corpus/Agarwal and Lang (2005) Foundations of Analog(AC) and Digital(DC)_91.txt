@@ -1,0 +1,19 @@
+Lumped circuits comprise lumped elements (or discrete elements) con-
+nected by ideal wires. A lumped element has the property that a unique terminal
+voltage V(t) and terminal current I(t) can be defined for it. As depicted in
+Figure 1.6, for a two-terminal element, V is the voltage across the terminals
+of the element,6 and I is the current through the element.7 Furthermore, for
+lumped resistive elements, we can define a single property called the resistance R
+that relates the voltage across the terminals to the current through the terminals.
+The voltage, the current, and the resistance are defined for an element
+only under certain constraints that we collectively call the lumped matter dis-
+cipline (LMD). Once we adhere to the lumped matter discipline, we can make
+several simplifications in our circuit analysis and work with the lumped circuit
+abstraction. Thus the lumped matter discipline provides the foundation for the
+lumped circuit abstraction, and is the fundamental mechanism by which we are
+able to move from the domain of physics to the domain of electrical engineer-
+ing. We will simply state these constraints here, but relegate the development
+of the constraints of the lumped matter discipline to Section A.1 in Appendix A.
+Section A.2 further shows how the lumped matter discipline results in the sim-
+plification of Maxwell’s equations into the algebraic equations of the lumped
+circuit abstraction.

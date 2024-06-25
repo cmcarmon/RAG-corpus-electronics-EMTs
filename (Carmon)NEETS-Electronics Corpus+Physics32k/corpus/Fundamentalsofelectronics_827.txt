@@ -1,0 +1,9 @@
+Each component can be thought of as a ﬁxed-frequency sinusoid multiplied by a square wave of period
+2T that alternates between one and zero. This baseband square wave has the same Fourier spectrum as
+our BPSK example, but with the addition of the constant term c0. This quantity’s presence changes the
+number of Fourier series terms required for the 90% bandwidth: Now we need only include the zero and ﬁrst
+1
+harmonics to achieve it. The bandwidth thus equals, with f0 < f1, f1 +
+.
+T
+with k1 > k0, the

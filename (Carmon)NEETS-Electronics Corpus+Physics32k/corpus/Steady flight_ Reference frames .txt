@@ -1,0 +1,23 @@
+Steady flight analysis uses three different reference frames to express the forces and moments acting on the aircraft. They are defined as:
+Earth frame (assumed inertial)
+Origin - arbitrary, fixed relative to the surface of the Earth
+xE axis - positive in the direction of north
+yE axis - positive in the direction of east
+zE axis - positive towards the center of the Earth
+
+Body frame
+Origin - airplane center of gravity
+xb (longitudinal) axis - positive out the nose of the aircraft in the plane of symmetry of the aircraft
+zb (vertical) axis - perpendicular to the xb axis, in the plane of symmetry of the aircraft, positive below the aircraft
+yb (lateral) axis - perpendicular to the xb,zb-plane, positive determined by the right-hand rule (generally, positive out the right wing)
+
+Wind frame
+Origin - airplane center of gravity
+xw axis - positive in the direction of the velocity vector of the aircraft relative to the air
+zw axis - perpendicular to the xw axis, in the plane of symmetry of the aircraft, positive below the aircraft
+yw axis - perpendicular to the xw,zw-plane, positive determined by the right hand rule (generally, positive to the right)
+
+The Euler angles linking these reference frames are:
+Earth frame to body frame: yaw angle ψ, pitch angle θ, and roll angle φ
+Earth frame to wind frame: heading angle σ, flight-path angle γ, and bank angle μ
+Wind frame to body frame: angle of sideslip β, angle of attack α (in this transformation, the angle analogous to φ and μ is always zero)

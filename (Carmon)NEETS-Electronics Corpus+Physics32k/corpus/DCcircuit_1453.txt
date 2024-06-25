@@ -1,0 +1,19 @@
+Comparison RC analysis
+* first, the netlist for the original circuit:
+v1 1 0 dc 20
+r1 1 2 2k
+r2 2 3 500
+r3 3 0 3k
+c1 2 3 100u ic=0
+* then, the netlist for the thevenin equivalent:
+v2 4 0 dc 1.818182
+r4 4 5 454.545
+c2 5 0 100u ic=0
+* now, we analyze for a transient, sampling every .005 seconds
+* over a time period of .37 seconds total, printing a list of
+* values for voltage across the capacitor in the original
+* circuit (between modes 2 and 3) and across the capacitor in
+* the thevenin equivalent circuit (between nodes 5 and 0)
+.tran .005 0.37 uic
+.print tran v(2,3) v(5,0)
+.end

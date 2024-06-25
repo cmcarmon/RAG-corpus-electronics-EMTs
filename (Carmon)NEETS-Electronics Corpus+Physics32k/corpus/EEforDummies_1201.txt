@@ -1,0 +1,5 @@
+Limiting current through the LED
+Resistor R3 is there to keep you from frying your LED. This lowly resistor 
+performs the important job of limiting the current passing through the LED. 
+The output voltage at pin 3 of the 555 timer varies between 9 V (the positive 
+power supply) when the pulse is on and 0 V when the pulse is off.

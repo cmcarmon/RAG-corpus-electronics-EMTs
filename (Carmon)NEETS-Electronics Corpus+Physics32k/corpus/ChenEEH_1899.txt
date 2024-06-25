@@ -1,0 +1,13 @@
+In the logical stuck-at-fault model, it is assumed that a fault
+causes a module to respond as if one of its inputs or outputs is
+physically stuck at a logic 1 (called stuck-at-1) or 0 (called
+stuck-at-0) without its basic functionality being altered (John-
+son, 1989; Kohavi, 1978). In other words, this fault model
+assumes that the effect of faults is the same as that of intercon-
+nects being stuck-at-0/1. Consider, for example, an AND gate
+with two inputs A and B and with the A input wire being
+shorted to a ground wire due to electromigration. This will
+cause both the A input wire (and the AND gate’s output) to be
+always at logic 0, and thus this physical fault can be modeled as
+a stuck- at-0 fault of A. Another example is that of a two-input
+CMOS NAND gate that has two pMOS transistors in parallel

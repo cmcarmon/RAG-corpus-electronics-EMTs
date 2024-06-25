@@ -1,0 +1,10 @@
+So far we have looked at the  IDS vs. VDS curve only for the case of
+VGS = 0. In Fig. 24.6 a family of curves of IDS vs. VDS for various constant
+values of  VGS is presented. This is called the drain characteristics, also
+known as the output characteristics, since the output side of the JFET
+is  usually  the  drain  side.  In  the  active  region  where  IDS  is  relatively
+independent of VDS , a simple approximate equation relating IDS to VGS
+is the square-law transfer equation as given by IDS = IDSS[1 – (VGS /VP)]2.
+When VGS = 0, IDS = IDSS as expected, and as VGS ﬁ  V P, IDS ﬁ  0. The
+lower boundary of the active region is controlled by the condition that
+the channel be pinched off at  the  drain  end.  To  meet  this  condition

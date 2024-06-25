@@ -1,0 +1,24 @@
+Memory and Registers
+All  computers  will  have  data  stored  in  memory  and
+some space in the CPU for manipulating data. Memory
+can be considered to be a long list of bytes (8-bit data
+blocks) with addresses (locations in the list) spanning
+some  large  range  of  numbers  from  0  to  typically  4
+billion (4 GB). The memory is constructed physically
+by  grouping  chips  so  that  they  appear  to  form  enor-
+mously deep columns of bytes, as shown in Fig. 87.1.
+Since  each  column  can  deliver  one  byte  on  each
+request,  the  number  of  adjacent  columns  determines
+the  number  of  bytes  which  may  be  obtained  from  a
+single request. Machines today have 1, 2, 4, or 8 such
+columns.  (Some  machines,  the  68000  being  our  cur-
+rent example, have only 2 columns but arrange to have
+the CPU ask for two successive transfers to get a total
+of 4 bytes.) In general, the CPU may manipulate in a
+single step a datum as wide as the memory. For all of
+the  machines  which  we  will  consider,  that  maximum
+datum  size  is  32  bits  or  4  bytes.  While  convention  would  have  us  call  this  biggest  datum  a  word,  historical
+reason has led both the VAX and MC68000 to call it a longword. Then, 2 bytes is either a halfword or a word.
+We will use the VAX/68000 notation (longword, word, and byte) wherever possible to simplify the reading. To
+load data from memory, the CPU sends the address and the datum size to the memory and gets the datum as
+the reply. To store data, the address is sent and then the datum and datum size.

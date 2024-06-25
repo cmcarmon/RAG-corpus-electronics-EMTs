@@ -1,0 +1,7 @@
+Plot of the group delay for the ﬁlter in Figure 4.12 is in Figure
+4.14. We see that the amplitude response approximates fairly
+well a constant in the passband, but the group delay has a large
+peak. Not every program has a built-in evaluation of the group
+delay, but there is a remedy: every computer has a polynomial
+root-ﬁnding routine. We can calculate the poles and zeros and
+use the second formula in equation 4.18. Let there be M zeros

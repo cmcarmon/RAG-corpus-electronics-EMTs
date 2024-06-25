@@ -1,0 +1,12 @@
+Notwithstanding heuristics, algorithmic test pattern generation is very computationally expensive and can
+pseudo-
+encounter numerous difﬁculties, especially in certain types of networks. Newer alternatives are based on 
+random pattern generation 
+. In this strategy, a large set of patterns
+is generated pseudo-randomly with the aid of an inexpensive (hardware or software) generator. Typical choices
+for these are linear feedback shift registers and linear cellular automata registers (see below). The pseudo-random
+set  is  used  to  stimulate  a  circuit,  and,  using  a  fault  simulator,  one  can  evaluate  the  number  of  faults  that  are
+covered by this set. An algorithmic test pattern generator is then applied to ﬁnd coverage for the remaining faults
+(hopefully,  a  small  number),  and  the  pseudo-random  set  is  thus  augmented.  The  disadvantages  are  that  the
+resulting set is very large and fault simulation is also computationally expensive. However, this method presents
+an alternative for circuits where the application of deterministic algorithms for all faults is infeasible.

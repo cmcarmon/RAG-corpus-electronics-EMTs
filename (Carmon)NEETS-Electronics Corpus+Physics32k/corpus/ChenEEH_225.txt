@@ -1,0 +1,20 @@
+Existence and Uniqueness of Solutions
+Circuits with nonlinear elements may have multiple discrete dc
+operating points (equilibriums). In contrast, circuits consist-
+ing of positive linear resistors possess either one dc operating
+point or, in special cases, a continuous family of dc operating
+points. Many resistive circuits consisting of independent volt-
+age sources and voltage-controlled resistors, whose v–i relation
+characteristics are continuous strictly monotone-increasing
+functions, have at most one solution (Dufﬁn, 1947; Minty,
+1960; Willson, 1975). Many transistor circuits possess the
+same property based on their topology alone. Other circuits,
+such as ﬂip-ﬂops and memory cells, possess feedback struc-
+tures (Nielsen and Willson, 1980). These circuits may possess
+multiple operating points with an appropriate choice of circuit
+parameters and biasing of transistors (Trajkovic´ and Willson,
+1992). For example, a circuit containing two bipolar transis-
+tors possesses at most three isolated dc operating points (Lee
+and Willson, 1983). Estimating the number of dc operating
+points or even their upper bounds for an arbitrary nonlinear
+circuit is still an open problem (Lagarias and Trajkovic´, 1999).

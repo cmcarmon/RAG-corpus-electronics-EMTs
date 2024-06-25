@@ -1,0 +1,16 @@
+of images to be feasible, one needs to reduce somehow this
+number of bits. Image compression or coding, is the discip-
+line that deals with forms of achieving this. To better under-
+stand the image compression problem, consider the 256  256
+image in Figure 4.15. If we need to represent this image as it is,
+one would need 8 bits/pixel, giving a total of 8  256  256 ¼
+524,288 bits. Alternatively, if we know that the image in Figure
+4.15 is a circle, it would be enough to say that it represents a
+circle of radius 64, it has a gray level of 102, it has a center
+coordinates x ¼ 102 and y ¼ 80, and it is superimposed on a
+background of gray level 255. Since the radius, x coordinate,
+and y coordinate are between 0 and 255, one would need 8 bits
+for specifying each one; since both the gray level of the circle
+and of the background need 8 bits each, the whole image in
+Figure 4.15 would only need 40 bits to be speciﬁed. This is
+equivalent to a compression ratio of more than 13,000:1!

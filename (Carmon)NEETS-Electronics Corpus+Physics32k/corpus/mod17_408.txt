@@ -1,0 +1,6 @@
+TIME-DIVISION.—With AM voice and tone communications, we want to transmit and receive for 
+360 degrees of each sine wave. However, an audio signal may be transmitted and received satisfactorily 
+by periodically sampling the signal. The sampling process yields a received signal like the one shown in 
+figure 3-28. There is no limit to the maximum number of samples that may be made, but you must sample 
+at least twice per cycle of audio to get satisfactory results. In practical systems, 2.4 samples per cycle are 
+usually taken. This concept of sampling forms the basis for time-division multiplex (tdm) operation. 

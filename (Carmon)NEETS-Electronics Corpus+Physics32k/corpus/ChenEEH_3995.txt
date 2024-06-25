@@ -1,0 +1,5 @@
+The retiming was ﬁrst proposed by Leiserson et al. (1983). It
+is equivalent to moving around the delays in the DFG such
+that the total number of delays in any loop remains unaltered.
+The retiming can be applied to a single-rate DFG to reduce
+the iteration period in a programmable multiprocessor imple-

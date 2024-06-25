@@ -1,0 +1,8 @@
+Also, note in Fig. 16.2 that the estimate of x is used to compute the Kalman ﬁlter gain, unlike the Kalman ﬁlter,
+in which the ﬁlter gain and the error covariance matrices do not depend on x (see Fig. 16.1). Unlike the Kalman
+ﬁlter, there is no guarantee that the EKF is stable. Moreover, there is no reason to suppose that the EKF will give
+optimal performance. Although in many applications the EKF performance is good, it is well known that the
+EKF performance is often poor or far from optimal. Unfortunately, there is no theory that predicts when the
+EKF will give good performance, but rather engineers use Monte Carlo simulations to evaluate EKF performance.
+There is a vast literature on methods to improve the EKF performance, including second-order Taylor series,
+iteration of Fig. 16.2 to improve the linearization, tuning the process noise covariance matrix, decoupling the

@@ -1,0 +1,5 @@
+The bi-phase level encoding method records two logic levels for each incoming data bit. When an
+incoming data bit is a one, bi-phase level recording records a zero-one. When an incoming data bit is a
+zero, bi-phase level recording records a one-zero. This encoding method helps to overcome any
+low-frequency response problems that the magnetic tape recorder may have. Figure 7-6 shows how the
+digital data word 101000111001 is stored onto magnetic tape using the bi-phase encoding method.

@@ -1,0 +1,11 @@
+Guaranteed Service Class
+The Guaranteed service class provides ﬁrm end-to-end delay
+guarantees. Guaranteed service does not control the minimum
+or average delay of packets; merely the maximal queuing delay.
+This service guarantees that packets will arrive at the receiver
+but in a requested delivery time and will not be discarded due
+to queue overﬂows, provided the ﬂow’s trafﬁc stays in its
+speciﬁed trafﬁc limits, which are controlled using trafﬁc po-
+licing. This service is intended for applications that need a ﬁrm
+guarantee that a packet will arrive no later than a certain delay
+bound.

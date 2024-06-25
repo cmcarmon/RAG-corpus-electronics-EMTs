@@ -1,0 +1,18 @@
+CM is the practice of handling changes systematically so that a system maintains its integrity over time. CM implements the policies, procedures, techniques, and tools that manage, evaluate proposed changes, track the status of changes, and maintain an inventory of system and support documents as the system changes. CM programs and plans provide technical and administrative direction to the development and implementation of the procedures, functions, services, tools, processes, and resources required to successfully develop and support a complex system. During system development, CM allows program management to track requirements throughout the life-cycle through acceptance and operations and maintenance. As changes inevitably occur in the requirements and design, they must be approved and documented, creating an accurate record of the system status. Ideally the CM process is applied throughout the system lifecycle. Most professionals mix up or get confused with Asset Management (AM), where it inventories the assets on hand. The key difference between CM and AM is that the former does not manage the financial accounting aspect but on service that the system supports.
+The CM process for both hardware- and software-configuration items comprises five distinct disciplines as established in the MIL–HDBK–61A and in ANSI/EIA-649. These disciplines are carried out as policies and procedures for establishing baselines and for performing a standard change-management process. The IEEE 12207 process IEEE 12207.2 also has these activities and adds "Release management and delivery".
+The five disciplines are:
+CM Planning and Management: a formal document and plan to guide the CM program that includes items such as:
+personnel
+responsibilities and resources
+training requirements
+administrative meeting guidelines, including a definition of procedures and tools
+baselining processes
+configuration control and configuration-status accounting
+naming conventions
+audits and reviews
+subcontractor/vendor CM requirements
+
+Configuration Identification (CI): consists of setting and maintaining baselines, which define the system or subsystem architecture, components, and any developments at any point in time. It is the basis by which changes to any part of a system are identified, documented, and later tracked through design, development, testing, and final delivery. CI incrementally establishes and maintains the definitive current basis for Configuration Status Accounting (CSA) of a system and its configuration items (CIs) throughout their lifecycle (development, production, deployment, and operational support) until disposal.
+Configuration Control: includes the evaluation of all change-requests and change-proposals, and their subsequent approval or disapproval. It covers the process of controlling modifications to the system's design, hardware, firmware, software, and documentation.
+Configuration Status Accounting: includes the process of recording and reporting configuration item descriptions (e.g., hardware, software, firmware, etc.) and all departures from the baseline during design and production. In the event of suspected problems, the verification of baseline configuration and approved modifications can be quickly determined.
+Configuration Verification and Audit: an independent review of hardware and software for the purpose of assessing compliance with established performance requirements, commercial and appropriate military standards, and functional, allocated, and product baselines. Configuration audits verify that the system and subsystem configuration documentation complies with the functional and physical performance characteristics before acceptance into an architectural baseline.

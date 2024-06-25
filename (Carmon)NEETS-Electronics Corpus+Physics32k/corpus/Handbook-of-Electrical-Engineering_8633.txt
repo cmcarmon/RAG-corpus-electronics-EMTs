@@ -1,0 +1,5 @@
+MC68000 Call and Return. Let us look at the details for two of the machines. We start with the 68000, because
+that is the most open and “conventional.” We continue with the function NumberCount. Only a single parameter
+must be passed—the pointer to the text block. The HLL callee sees NumberCount(block) as an integer (i.e.,
+what will be returned), but the assembly program must do a call and then use the returned integer as instructed.
+A typical assembly routine would be:

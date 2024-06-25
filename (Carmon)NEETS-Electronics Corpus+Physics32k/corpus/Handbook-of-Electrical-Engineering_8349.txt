@@ -1,0 +1,14 @@
+One  approach  to  test  vector  generation  is  to  ignore  the  speciﬁcs  of  the  target  circuit  and  enumerate  all
+possible permutations of inputs. Thus, using exhaustive testing, an n-input combinational logic cone would be
+tested by checking its response to all 2**n permutations of input values. In this case, a binary counter can be
+used as the test pattern generator (TPG). Other, more efﬁcient counter forms (such as a maximal-length linear
+feedback shift register, LFSR) may also be used as the TPG. An LFSR is a special kind of circular-shift register
+where  the  serial  data  input  is  determined  by  an  EXCLUSIVE-OR  function  of  some  of  the  bit  positions.  Bit
+positions which are included in the feedback EXCLUSIVE-OR function are referred to as the tap positions. For
+any given degree (i.e., number of bits) n of LFSR there is at least one set of tap positions that result in the LFSR
+going  through  all  nonzero  n-bit  permutations  when  it  is  started  in  any  nonzero  state. An  LFSR  that  can  go
+through all 2**n states is called a maximal-length LFSR. Figure 85.20 shows a 3-bit maximal-length LFSR and
+the state sequence that it produces. Exhaustive testing guarantees that all detectable faults which do not transform
+a  combinational  circuit  into  a  sequential  circuit  will  be  detected.  Depending  upon  the  clock  frequency,  this
+approach  becomes  impractical  to  apply  when  the  number  of  input  variables  goes  up  (usually  above  22)
+[McCluskey, 1984].

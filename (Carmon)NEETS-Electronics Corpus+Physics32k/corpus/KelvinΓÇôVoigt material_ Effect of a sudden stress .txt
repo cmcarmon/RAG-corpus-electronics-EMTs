@@ -1,0 +1,255 @@
+If we suddenly apply some constant stress
+
+
+
+
+σ
+
+0
+
+
+
+
+{\displaystyle \sigma _{0}}
+to Kelvin–Voigt material, then the deformations would approach the deformation for the pure elastic material
+
+
+
+
+σ
+
+0
+
+
+
+/
+
+E
+
+
+{\displaystyle \sigma _{0}/E}
+with the difference decaying exponentially:
+
+
+
+
+ε
+(
+t
+)
+=
+
+
+
+σ
+
+0
+
+
+E
+
+
+(
+1
+−
+
+e
+
+−
+λ
+t
+
+
+)
+,
+
+
+{\displaystyle \varepsilon (t)={\frac {\sigma _{0}}{E}}(1-e^{-\lambda t}),}
+
+where t is time and
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+the rate of relaxation
+
+
+
+λ
+=
+
+
+E
+η
+
+
+
+
+{\displaystyle \lambda ={\frac {E}{\eta }}}
+.
+If we would free the material at time
+
+
+
+
+t
+
+1
+
+
+
+
+{\displaystyle t_{1}}
+, then the elastic element would retard the material back until the deformation becomes zero. The retardation obeys the following equation:
+
+
+
+
+ε
+(
+t
+>
+
+t
+
+1
+
+
+)
+=
+ε
+(
+
+t
+
+1
+
+
+)
+
+e
+
+−
+λ
+(
+t
+−
+
+t
+
+1
+
+
+)
+
+
+.
+
+
+{\displaystyle \varepsilon (t>t_{1})=\varepsilon (t_{1})e^{-\lambda (t-t_{1})}.}
+
+The picture shows the dependence of the dimensionless deformation
+
+
+
+
+
+
+E
+ε
+(
+t
+)
+
+
+σ
+
+0
+
+
+
+
+
+
+{\displaystyle {\frac {E\varepsilon (t)}{\sigma _{0}}}}
+on dimensionless time
+
+
+
+λ
+t
+
+
+{\displaystyle \lambda t}
+. In the picture the stress on the material is loaded at time
+
+
+
+t
+=
+0
+
+
+{\displaystyle t=0}
+, and released at the later dimensionless time
+
+
+
+
+t
+
+1
+
+
+∗
+
+
+=
+λ
+
+t
+
+1
+
+
+
+
+{\displaystyle t_{1}^{*}=\lambda t_{1}}
+.
+
+Since all the deformation is reversible (though not suddenly) the Kelvin–Voigt material is a solid.
+The Voigt model predicts creep more realistically than the Maxwell model, because in the infinite time limit the strain approaches a constant:
+
+
+
+
+
+lim
+
+t
+→
+∞
+
+
+ε
+=
+
+
+
+σ
+
+0
+
+
+E
+
+
+,
+
+
+{\displaystyle \lim _{t\to \infty }\varepsilon ={\frac {\sigma _{0}}{E}},}
+
+while a Maxwell model predicts a linear relationship between strain and time, which is most often not the case. Although the Kelvin–Voigt model is effective for predicting creep, it is not good at describing the relaxation behavior after the stress load is removed.

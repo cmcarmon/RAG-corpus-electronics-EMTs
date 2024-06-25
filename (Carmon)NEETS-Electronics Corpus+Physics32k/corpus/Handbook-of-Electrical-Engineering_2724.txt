@@ -1,0 +1,7 @@
+Detailed  routers  further  divide  into  general-purpose  and  restricted  routers.  The  general-purpose  routers
+impose very few constraints on the routing problem and operate on a single connection at a time. Since these
+routers work on the entire design in a serial fashion, the size of the problems they can attempt is limited. On
+the other hand, the restricted routers require some constraints on the routing problem, such as empty rectan-
+gular areas with all of the pins on the periphery. Because of their limited scope, these routers can do a better
+job of modeling the contention of nets for the routing resources and therefore can be viewed as routing the
+nets in parallel.

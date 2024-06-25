@@ -1,0 +1,5 @@
+In addition to I/O devices, the system must also manipulate such hardware as counters, timers and memory
+management units. Timers are used to satisfy user requests such as terminating an operation after a speciﬁed
+length of time. MMUs provide the ability to protect memory. Each time a program is run, the operating system
+programs the MMU with the physical memory addresses the program may access. Any attempt to access other
+memory is not allowed by the MMU.

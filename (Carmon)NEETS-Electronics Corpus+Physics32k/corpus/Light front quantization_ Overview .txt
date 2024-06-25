@@ -1,0 +1,700 @@
+In practice, virtually all measurements are made at fixed light-front time. For example, when an electron scatters on a proton as in the famous SLAC experiments that discovered the quark structure of hadrons, the interaction with the constituents occurs at a single light-front time. When one takes a flash photograph, the recorded image shows the object as the front of the light wave from the flash crosses the object. Thus Dirac used the terminology "light-front" and "front form" in contrast to ordinary instant time and "instant form". Light waves traveling in the negative
+
+
+
+z
+
+
+{\displaystyle z}
+direction continue to propagate in
+
+
+
+
+x
+
+−
+
+
+
+
+{\displaystyle x^{-}}
+at a single light-front time
+
+
+
+
+x
+
++
+
+
+
+
+{\displaystyle x^{+}}
+.
+As emphasized by Dirac, Lorentz boosts of states at fixed light-front time are simple kinematic transformations. The description of physical systems in light-front coordinates is unchanged by light-front boosts to frames moving with respect to the one specified initially. This also means that there is a separation of external and internal coordinates (just as in nonrelativistic systems), and the internal wave functions are independent of the external coordinates, if there is no external force or field. In contrast, it is a difficult dynamical problem to calculate the effects of boosts of states defined at a fixed instant time
+
+
+
+t
+
+
+{\displaystyle t}
+.
+The description of a bound state in a quantum field theory, such as an atom in quantum electrodynamics (QED) or a hadron in quantum chromodynamics (QCD), generally requires multiple wave functions, because quantum field theories include processes which create and annihilate particles. The state of the system then does not have a definite number of particles, but is instead a quantum-mechanical linear combination of Fock states, each with a definite particle number. Any single measurement of particle number will return a value with a probability determined by the amplitude of the Fock state with that number of particles. These amplitudes are the light-front wave functions. The light-front wave functions are each frame-independent and independent of the total momentum.
+The wave functions are the solution of a field-theoretic analog of the Schrödinger equation
+
+
+
+H
+ψ
+=
+E
+ψ
+
+
+{\displaystyle H\psi =E\psi }
+of nonrelativistic quantum mechanics. In the nonrelativistic theory the Hamiltonian operator
+
+
+
+H
+
+
+{\displaystyle H}
+is just a kinetic piece
+
+
+
+−
+
+
+
+ℏ
+
+2
+
+
+
+2
+m
+
+
+
+
+∇
+
+2
+
+
+
+
+{\displaystyle -{\frac {\hbar ^{2}}{2m}}\nabla ^{2}}
+and a potential piece
+
+
+
+V
+(
+
+
+
+r
+→
+
+
+
+)
+
+
+{\displaystyle V({\vec {r}})}
+. The wave function
+
+
+
+ψ
+
+
+{\displaystyle \psi }
+is a function of the coordinate
+
+
+
+
+
+
+r
+→
+
+
+
+
+
+{\displaystyle {\vec {r}}}
+, and
+
+
+
+E
+
+
+{\displaystyle E}
+is the energy. In light-front quantization, the formulation is usually written in terms of light-front momenta
+
+
+
+
+
+
+p
+_
+
+
+
+i
+
+
+=
+(
+
+p
+
+i
+
+
++
+
+
+,
+
+
+
+
+p
+→
+
+
+
+
+⊥
+i
+
+
+)
+
+
+{\displaystyle {\underline {p}}_{i}=(p_{i}^{+},{\vec {p}}_{\perp i})}
+, with
+
+
+
+i
+
+
+{\displaystyle i}
+a particle index,
+
+
+
+
+p
+
+i
+
+
++
+
+
+≡
+
+
+
+p
+
+i
+
+
+2
+
+
++
+
+m
+
+i
+
+
+2
+
+
+
+
++
+
+p
+
+i
+z
+
+
+
+
+{\displaystyle p_{i}^{+}\equiv {\sqrt {p_{i}^{2}+m_{i}^{2}}}+p_{iz}}
+,
+
+
+
+
+
+
+
+p
+→
+
+
+
+
+⊥
+i
+
+
+=
+(
+
+p
+
+i
+x
+
+
+,
+
+p
+
+i
+y
+
+
+)
+
+
+{\displaystyle {\vec {p}}_{\perp i}=(p_{ix},p_{iy})}
+, and
+
+
+
+
+m
+
+i
+
+
+
+
+{\displaystyle m_{i}}
+the particle mass, and light-front energies
+
+
+
+
+p
+
+i
+
+
+−
+
+
+≡
+
+
+
+p
+
+i
+
+
+2
+
+
++
+
+m
+
+i
+
+
+2
+
+
+
+
+−
+
+p
+
+i
+z
+
+
+
+
+{\displaystyle p_{i}^{-}\equiv {\sqrt {p_{i}^{2}+m_{i}^{2}}}-p_{iz}}
+. They satisfy the mass-shell condition
+
+
+
+
+m
+
+i
+
+
+2
+
+
+=
+
+p
+
+i
+
+
++
+
+
+
+p
+
+i
+
+
+−
+
+
+−
+
+
+
+
+p
+→
+
+
+
+
+⊥
+i
+
+
+2
+
+
+
+
+{\displaystyle m_{i}^{2}=p_{i}^{+}p_{i}^{-}-{\vec {p}}_{\perp i}^{2}}
+
+The analog of the nonrelativistic Hamiltonian
+
+
+
+H
+
+
+{\displaystyle H}
+is the light-front operator
+
+
+
+
+
+
+P
+
+
+
+−
+
+
+
+
+{\displaystyle {\mathcal {P}}^{-}}
+, which generates translations in light-front time. It is constructed from the Lagrangian for the chosen quantum field theory. The total light-front momentum of the system,
+
+
+
+
+
+P
+_
+
+
+≡
+(
+
+P
+
++
+
+
+,
+
+
+
+
+P
+→
+
+
+
+
+⊥
+
+
+)
+
+
+{\displaystyle {\underline {P}}\equiv (P^{+},{\vec {P}}_{\perp })}
+, is the sum of the single-particle light-front momenta. The total light-front energy
+
+
+
+
+P
+
+−
+
+
+
+
+{\displaystyle P^{-}}
+is fixed by the mass-shell condition to be
+
+
+
+(
+
+M
+
+2
+
+
++
+
+P
+
+⊥
+
+
+2
+
+
+)
+
+/
+
+
+P
+
++
+
+
+
+
+{\displaystyle (M^{2}+P_{\perp }^{2})/P^{+}}
+, where
+
+
+
+M
+
+
+{\displaystyle M}
+is the invariant mass of the system. The Schrödinger-like equation of light-front quantization is then
+
+
+
+
+
+
+P
+
+
+
+−
+
+
+ψ
+=
+
+
+
+
+M
+
+2
+
+
++
+
+P
+
+⊥
+
+
+2
+
+
+
+
+P
+
++
+
+
+
+
+ψ
+
+
+{\displaystyle {\mathcal {P}}^{-}\psi ={\frac {M^{2}+P_{\perp }^{2}}{P^{+}}}\psi }
+. This provides a foundation for a nonperturbative analysis of quantum field theories that is quite distinct from the lattice approach.
+Quantization on the light-front provides the rigorous field-theoretical realization of the intuitive ideas of the parton model which is formulated at fixed
+
+
+
+t
+
+
+{\displaystyle t}
+in the infinite-momentum frame.  (see #Infinite momentum frame) The same results are obtained in the front form for any frame; e.g., the structure functions and other probabilistic parton distributions measured in deep inelastic scattering are obtained from the squares of the boost-invariant light-front wave functions, the eigensolution of the light-front Hamiltonian. The Bjorken kinematic variable
+
+
+
+
+x
+
+b
+j
+
+
+
+
+{\displaystyle x_{bj}}
+of deep inelastic scattering becomes identified with the light-front fraction at small
+
+
+
+x
+
+
+{\displaystyle x}
+. The Balitsky–Fadin–Kuraev–Lipatov (BFKL) Regge behavior of structure functions can be demonstrated from the behavior of light-front wave functions at small
+
+
+
+x
+
+
+{\displaystyle x}
+. The Dokshitzer–Gribov–Lipatov–Altarelli–Parisi (DGLAP) evolution of structure functions and the Efremov–Radyushkin–Brodsky–Lepage (ERBL) evolution  of distribution amplitudes in
+
+
+
+log
+⁡
+
+Q
+
+2
+
+
+
+
+{\displaystyle \log Q^{2}}
+are properties of the light-front wave functions at high transverse momentum.
+Computing hadronic matrix elements of currents is particularly simple on the light-front, since they can be obtained rigorously as overlaps of light-front wave functions as in the Drell-Yan-West formula.
+
+The gauge-invariant meson and baryon distribution amplitudes which control hard exclusive and direct reactions are the valence light-front wave functions integrated over transverse momentum at fixed
+
+
+
+
+x
+
+i
+
+
+=
+
+
+k
+
+i
+
+
++
+
+
+
+/
+
+
+P
+
++
+
+
+
+
+
+{\displaystyle x_{i}={k_{i}^{+}/P^{+}}}
+. The "ERBL" evolution of distribution amplitudes and the factorization theorems for hard exclusive processes can be derived most easily using light-front methods. Given the frame-independent light-front wave functions, one can compute a large range of hadronic observables including generalized parton distributions, Wigner distributions, etc. For example, the "handbag" contribution to the generalized parton distributions for deeply virtual Compton scattering, which can be computed from the overlap of light-front wave functions, automatically satisfies the known sum rules.
+The light-front wave functions contain information about novel features of QCD. These include effects suggested from other approaches, such as color transparency, hidden color, intrinsic charm, sea-quark symmetries, dijet diffraction, direct hard processes, and hadronic spin dynamics.
+
+One can also prove fundamental theorems for relativistic quantum field theories using the front form, including: (a) the cluster decomposition theorem and (b) the vanishing of the anomalous gravitomagnetic moment for any Fock state of a hadron; one also can show that a nonzero anomalous magnetic moment of a bound state requires nonzero angular momentum of the constituents. The cluster properties of light-front time-ordered perturbation theory, together with
+
+
+
+
+J
+
+z
+
+
+
+
+{\displaystyle J^{z}}
+conservation, can be used to elegantly derive the Parke-Taylor rules for multi-gluon scattering amplitudes. The counting-rule behavior of structure functions at large
+
+
+
+x
+
+
+{\displaystyle x}
+and Bloom-Gilman duality  have also been derived in light-front QCD (LFQCD). The existence of "lensing effects" at leading twist, such as the
+
+
+
+T
+
+
+{\displaystyle T}
+-odd "Sivers effect" in spin-dependent semi-inclusive deep-inelastic scattering, was first demonstrated using light-front methods.
+Light-front quantization is thus the natural framework for the description of the nonperturbative relativistic bound-state structure of hadrons in quantum chromodynamics. The formalism is rigorous, relativistic, and frame-independent. However, there exist subtle problems in LFQCD that require thorough investigation. For example, the complexities of the vacuum in the usual instant-time formulation, such as the Higgs mechanism and condensates in
+
+
+
+
+ϕ
+
+4
+
+
+
+
+{\displaystyle \phi ^{4}}
+theory, have their counterparts in zero modes or, possibly, in additional terms in the LFQCD Hamiltonian that are allowed by power counting. Light-front considerations of the vacuum as well as the problem of achieving full covariance in LFQCD require close attention to the light-front singularities and zero-mode contributions.           The truncation of the light-front Fock-space calls for the introduction of effective quark and gluon degrees of freedom to overcome truncation effects. Introduction of such effective degrees of freedom is what one desires in seeking the dynamical connection between canonical (or current) quarks and effective (or constituent) quarks that Melosh sought, and Gell-Mann advocated, as a method for truncating QCD.
+The light-front Hamiltonian formulation thus opens access to QCD at the amplitude level and is poised to become the foundation for a common treatment of spectroscopy and the parton structure of hadrons in a single covariant formalism, providing a unifying connection between low-energy and high-energy experimental data that so far remain largely disconnected.

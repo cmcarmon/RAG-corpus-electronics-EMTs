@@ -1,0 +1,14 @@
+Large-Signal Transient Operation
+During (fast) switching, the base resistance can change signiﬁ-
+cantly over time. At the beginning of a switching process, only
+the portion at the emitter edge is charged or discharged,
+leading initially to a small value of the effective internal base
+resistance zBi(t). With a continuing turn-on process, the region
+toward the center starts to get charged, too, and zBi increases
+with time, until it approaches the dc value at the end of the
+turn-on process. For the turn-off process, the discharge of
+the emitter edge region continues, thus making this region
+high-ohmic compared to the center region that acts as a
+conducting transistor. Therefore, zBi not only starts to become
+larger than rBi but also keeps increasing during the remainder
+of the turn-off process. Overall, for switching:

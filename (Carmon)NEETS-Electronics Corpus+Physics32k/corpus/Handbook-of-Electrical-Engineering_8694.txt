@@ -1,0 +1,6 @@
+Disassembler: A computer program which can take an executable image and convert it back into assembly code.
+Such  a  reconstruction  will  be  true  to  the  machine  language  but  normally  loses  much  of  the  convenience
+factors, such as macros and name equivalencies, that an original assembly language program may contain.
+Executable image: A program in pure machine code and including all of the necessary header information
+that allows an operating system to load it and start running it. Since it can be run directly, it is executable.
+Since it represents the original HLL or assembly program it is an image.

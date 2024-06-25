@@ -1,0 +1,8 @@
+The AIB includes a 12-bit analog-to-digital converter (ADC) and a 12-bit digital-to-analog converter (DAC).
+A maximum sampling rate of 40 kHz can be obtained. With (input) antialiasing and (output) reconstruction
+ﬁlters  mounted  on  a  header  on  the  AIB,  different  input/output  (I/O)  ﬁlter  bandwidths  can  be  achieved.
+Instructions such as IN and OUT can be used for input/output accesses. The AIC, which provides an inexpensive
+I/O alternative, includes 14-bit ADC and DAC, antialiasing/reconstruction ﬁlters, all on a single C-MOS chip.
+Two inputs and one output are available on the AIC. (A TMS320C25/AIC interface diagram and communication
+routines can be found in Chassaing and Horning, 1990.) The TLC32047 AIC is a recent member of the TLC32040
+family of voiceband analog interface circuits, with a maximum sampling rate of 25 kHz.

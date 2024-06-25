@@ -1,0 +1,8 @@
+By piggybacking multiple 4017 ICs, you can count up tens, hundreds, thou-
+sands, and so forth. Pin 12 is high when the count is 0 to 4 and low when the 
+count is 5 to 9, so it looks like a trigger signal that changes from low to high 
+at one‐tenth the rate of the count. If you feed the output of pin 12 into the 
+trigger input (pin 14) of another decade counter, that second counter will 
+count up tens. By feeding the second counter’s pin‐12 output into pin 14 of 
+a third counter, you can count up hundreds. With enough 4017 ICs, you may 
+even be able to tally the national debt!

@@ -1,0 +1,8 @@
+This relation tells us that in one Dt , a numerical value can
+propagate at most one D. This is intuitively correct given the
+local nature of the spatial differences used in the Yee algorithm.
+That is, a ﬁeld point more than one D away from a source
+point that undergoes a sudden change cannot possibly ‘‘feel’’
+the effect of that change during the next Dt. Note that ~vvp, max is
+independent of material parameters and is an inherent prop-
+erty of the grid and its method of obtaining space derivatives.

@@ -1,0 +1,21 @@
+The class of plants of equation 12.1 is, to our knowledge,
+the most general class of systems considered so far within the
+context of adaptive control based on back-stepping. In par-
+ticular, in Krstic´ et al. (1995), which are indirect adaptive
+approaches, the input functions cj
+i are assumed to be constant
+for i ¼ 1, . . ., n. This assumption allows the authors of those
+works to perform a simpler stability analysis, which becomes
+more complex in the general case (Ordon˜ez and Passino,
+the interpolation functions rj,
+2001). The addition of
+j ¼ 1, . . ., R also extends the class of strict feedback systems
+to one including systems with a time-varying structure (Ordo-
+n˜ez and Passino, 2000a) as well as systems falling in the
+domain of gain scheduling (where the plant dynamics are
+identiﬁed at different operating points and then interpolated
+between using a scheduling variable). Note that if we let R ¼ 1
+i ¼ 1, i ¼ 1, . . ., n, we
+and r1(y) ¼ 1 for all y, together with cc
+have the particular case considered in Polycarpou (1996) and
+Polycarpou and Mears (1998).

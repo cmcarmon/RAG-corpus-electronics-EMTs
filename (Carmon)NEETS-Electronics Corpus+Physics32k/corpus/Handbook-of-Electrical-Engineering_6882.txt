@@ -1,0 +1,6 @@
+Planck’s radiation law is SNN(w) = (2hu f u)/[exp(hu f u/kT) – 1], where h = 6.63 3 10–34 J/s is Planck’s constant,
+and f  is the frequency [see Gardner, 1990, p. 234]. For u f u much smaller than kT/h = 6.04 3 1012 Hz » 6,000 GHz,
+the exponential above can be approximated by exp(hu f u/kT) = 1 + hu f u/kT. The denominator of SNN(w) becomes
+hu f u/kT, so SNN(w) = (2hu f u)/(hu f u/kT) = 2kT W/Hz in a 1-W resistor. Over a resistance of R W and a bandwidth
+of B Hz (positive frequencies), this yields the total power PWW(B) = 2BRSNN(w) = 4kTRB W over the two-sided
+frequency spectrum. This is Nyquist’s result.

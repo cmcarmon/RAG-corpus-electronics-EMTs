@@ -1,0 +1,19 @@
+As we mentioned in Section 8.1.1, the generic approach to
+increasing system reliability is to use some form of redun-
+dancy. However, redundancy at the chip level is not cost-
+effective for FPGAs, especially given the fact that such chips
+already lag behind in device density to custom ASIC chips.
+Furthermore, chip-level redundancy is not a feasible solution
+for various space-based and other systems for which weight,
+space, and power are at a premium and need to be optimized.
+Fortunately, FPGAs provide a ﬁne granularity of replicated
+identical components (logic cells and interconnect segments)
+that can potentially be exploited to provide both testing and
+fault tolerance capabilities at low hardware and time over-
+heads. We focus here on reprogrammable SRAM-based
+FPGAs (with a segmented wiring architecture) that are the
+most prevalent kind (e.g., Xilinx [Xilinx, 1994], Lucent
+ORCA [Lucent Technologies, 1998] and Altera Flex 8000
+[Altera corporation, 1993] FPGA families) and also offer the
+most reprogramming ﬂexibility needed for reconﬁguration.
+Such a generic FPGA is shown in Figure 8.6.

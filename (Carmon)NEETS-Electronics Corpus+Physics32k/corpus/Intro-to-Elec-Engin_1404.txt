@@ -1,0 +1,10 @@
+We cannot put all the ampliﬁcation at the destination, because the signal power at the output
+−3/(40× 103) = 0.06 µ W, which falls below the ampliﬁer
+of the line would be Pin/L = 2.4× 10
+noise level. Nor can we put all ampliﬁcation at the source, because the ampliﬁed source power
+GPin = 106 × 2.4 × 10
+−3 = 2.4 kW would exceed the ampliﬁer power rating. But we could
+try a preampliﬁer with G1 = 400, so as to get G1Pin = 400 × 2.4 × 10
+−3 = 0.96 W at the
+input of the line, and G1Pin/L = 24 µ W at the output. The output ampliﬁer should then have
+G2 = Pout/(24 µW) = 60 × 10

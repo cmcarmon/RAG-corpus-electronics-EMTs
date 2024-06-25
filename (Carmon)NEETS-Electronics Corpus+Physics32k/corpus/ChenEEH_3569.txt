@@ -1,0 +1,5 @@
+Note that the DFT maps sequences to sequences. In other
+words, the frequency variable (k) is discrete, unlike that for the
+DTFT, where v assumes all real values. The signal x[n] can be
+recovered from X[k] through the inverse discrete Fourier
+transform (IDFT) relation:

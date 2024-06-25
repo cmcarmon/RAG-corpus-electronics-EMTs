@@ -1,0 +1,6 @@
+The most commonly used sequential detection procedure is the sequential probability ratio test, which operates
+by recursive comparison of the likelihood ratio (73.3) to two thresholds. In this detector, if the likelihood ratio
+for a given number of samples exceeds the larger of the two thresholds, then the signal’s presence is announced
+and the test terminates. Alternatively, if the likelihood ratio falls below the smaller of the two thresholds, the
+signal’s absence is announced and the test terminates. However, if neither of the two thresholds is crossed, then
+another measurement is taken and the test is repeated.

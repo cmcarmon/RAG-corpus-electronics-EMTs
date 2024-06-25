@@ -1,0 +1,17 @@
+A local network distinguishes itself as short distance; there-
+fore, the smaller propagation delay would provide instant
+feedback about the state of a transmission. The frame size
+could determine the transmission time and also plays an im-
+portant role in the designing network and affects the perform-
+ance of a local network. The parameter a is obtained by
+dividing the propagation time by the transmission time and
+is the most important single parameter that affects the per-
+formance of the local network. The smaller a is, the better
+performance the network has. If transmission time is normal-
+ized to 1, a should indicate the propagation delay of a network.
+The parameter a can also be used as a good indication of
+effects on utilization and throughput. In general, the utiliza-
+tion varies inversely with a (U ¼ 1/(1 þ a)) regardless of which
+MAC protocol is used. Throughput is affected by the param-
+eter a regardless of the offered load (G). The larger the a is, the
+lower throughput the network has.

@@ -1,0 +1,14 @@
+The operating point for our amplifier, along with the valid input and output
+voltage ranges, is shown in Figure 7.43. For this choice of the operating point,
+the maximum input voltage swing for positive excursions is 1.45 V → 1.9 V,
+and the maximum input voltage swing for negative excursions is 1.45 V → 1 V.
+The corresponding output voltage swings are 4 V → 0.9 V and 4 V → 5 V.
+Although we chose the input operating point to be at the center of the
+valid input range, notice the asymmetry of the output voltage range about
+the output operating voltage. The asymmetry arises from the nonlinearity of
+the gain of the MOSFET amplifier. The next chapter will discuss an approach
+by which we can treat MOSFET amplifiers as linear amplifiers. Depending on
+our desired input and output voltage swings, and also amplifier gain, we can
+also choose other operating points for the amplifier. Other criteria for choosing
+the operating point might include concerns of stability and power dissipation,
+but these are beyond the scope of our discussion.

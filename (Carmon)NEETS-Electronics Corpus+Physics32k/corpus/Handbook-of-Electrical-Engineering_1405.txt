@@ -1,0 +1,16 @@
+where P(Wi ) is the a priori probability of occurrence of the ith word, and p(z* Wi ) is the pdf of the noisy signal
+from the ith word. The minimization of  Pe(W) is achieved by the well-known maximum a posteriori (MAP)
+decision rule. Speciﬁcally, z is associated with the word Wi for which p(z* Wi )P(Wi ) > p(z* Wj)P(Wj) for all j =
+1, . . ., L and j (cid:222) i. Ties are arbitrarily broken. In the absence of noise, the noisy signal z becomes a clean signal
+y, and the optimal recognizer is obtained by using the same decision rule with z = y. Hence, the only difference
+between recognition of clean signals and recognition of noisy signals is that in the ﬁrst case the pdf’s {p(y*Wi )}
+are used in the decision rule, while in the second case the pdf’s {p(z* Wi )} are used in the same decision rule.
+Note that optimal recognition of noisy signals requires explicit knowledge of the statistics of the clean signal
+and noise. Neither the clean signal nor any function of that signal needs to be estimated. Since, however, the
+statistics of the signal and noise are not explicitly available as argued in the second section, parametric models
+are usually assumed for these pdf’s and their parameters are estimated from appropriate training data. Normally,
+HMMs with mixture of Gaussian pdf’s at each state are attributed to both the clean signal and noise process.
+It can be shown (similarly to the case of classiﬁcation of clean signals dealt with by Merhav and Ephraim in
+1991 [Ephraim, 1992]) that if the pdf’s of the signal and noise are precisely HMMs and the training sequences
+are signiﬁcantly longer than the test data, then the MAP decision rule which uses estimates of the pdf’s of the
+signal and noise is asymptotically optimal.

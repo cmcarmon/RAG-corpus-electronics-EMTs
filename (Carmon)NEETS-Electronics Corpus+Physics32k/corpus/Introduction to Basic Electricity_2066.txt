@@ -1,0 +1,21 @@
+ RT 5 ?
+ PT 5 ?
+ R1 5 820 V
+ PR1 5 ?
+ R2 5 330  V
+ PR2 5 ?
+ R3 5 680  V
+ PR3 5 ?
+ R4 5 470  V
+ PR4 5 ?
+ R5 5 120  V
+ PR5 5 ?
+ R6 5 560  V
+ PR6 5 ?
+To solve for total resistance (RT), first find the 
+equivalent resistance (RA) for parallel resistors R2 and 
+R3. Then solve for the equivalent resistance of resistors 
+RA and R4 (identified as RS1) and R5 and R6 (identified 
+as RS2). Then the equivalent resistance (RBTS) can be 
+determined for RS1 and RS2. Finally, find the total se-
+ries resistance for R1 and RB.

@@ -1,0 +1,8 @@
+In both output formats, the left-hand column of numbers represents the battery voltage at
+each interval, as it increases from 0 volts to 100 volts, 5 volts at a time. The numbers in the
+right-hand column indicate the circuit current for each of those voltages. Look closely at those
+numbers and you’ll see the proportional relationship between each pair: Ohm’s Law (I=E/R)
+holds true in each and every case, each current value being 1/5 the respective voltage value,
+because the circuit resistance is exactly 5 Ω. Again, the negative numbers for current in this
+SPICE analysis is more of a quirk than anything else. Just pay attention to the absolute value
+of each number unless otherwise speciﬁed.

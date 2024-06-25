@@ -1,0 +1,14 @@
+Servo theory can now be used to derive the equations for the output signal phase relative to the reference
+input signal phase. Because the VCO control voltage sets the frequency of the oscillation (rather than the phase),
+this will produce a pure integration when writing this expression. Several of the components of the PLL have
+a ﬁxed gain associated with them. These are the 
+),
+),  and  the  feedback
+K
+the 
+f
+). These gains can be combined into a single factor called the loop gain (
+K
+). This loop gain is
+division ratio (
+calculated using Eq. (76.1) and is then used in the following equations to calculate the loop transfer function.

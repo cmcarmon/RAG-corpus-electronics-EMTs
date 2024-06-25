@@ -1,0 +1,18 @@
+A power diode requires a ﬁnite time to switch from the
+blocking state (reverse bias) to the on-state (forward bias)
+and vice versa. This is because of the ﬁnite time required for
+establishment and removal of steady-state carrier distribution
+in the drift region. During turn-on, the terminal voltage, VA,
+ﬁrst rises to a value VFP that is much higher than the static
+forward drop before decaying to the steady-state value, VF ,
+determined by the static characteristics. This process is called
+forward recovery, and VFP is known as the forward recovery
+voltage. When the diode is turned off, the current changes at a
+rate dI/dt determined by the external circuit conditions. The
+diode current displays a negative peak before decaying to zero.
+Correspondingly, device voltage rises to the off-state voltage,
+VR. The process of negative current ﬂow during device turn-off
+is referred to as the reverse recovery process. The current, Irr ,
+is the reverse recovery current peak, and trr
+is the reverse
+recovery time. These quantities are expressed as:

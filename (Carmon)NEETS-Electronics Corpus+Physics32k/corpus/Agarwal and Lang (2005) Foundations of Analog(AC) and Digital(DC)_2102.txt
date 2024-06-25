@@ -1,0 +1,16 @@
+p r o b l e m 14.16
+This problem examines the very simple tuner for an AM radio
+shown in Figure 14.71. Here, the tuner is the parallel inductor and capacitor. The
+injection of radio signals into the tuner by the antenna is modeled by a current source,
+while the Norton resistance of the antenna in parallel with the remainder of the radio
+is modeled by a resistor. (You can learn more about antenna modeling in follow-on
+courses in Electromagnetic Waves.) The AM radio band extends from 540 kHz through
+1600 kHz. The information transmitted by each radio station is constrained to be within
+±5 kHz of its center frequency. (You can learn more about AM radio transmission in
+courses in signals and systems.) To prevent frequency overlap of neighboring stations,
+the center frequency of each station is constrained to be a multiple of 10 kHz. Therefore,
+the purpose of the tuner is to pass all frequencies within 5 kHz of the center frequency
+of the selected station, while attenuating all other frequencies.
+a) Assume that I(t) = I cos(ωt). Find v(t) where v(t) = V cos(ωt + φ), and both V and
+φ are functions of ω. Note that v(t) is the output of the tuner, namely the signal that
+is passed on to the remainder of the radio.

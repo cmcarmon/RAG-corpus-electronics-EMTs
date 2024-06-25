@@ -1,0 +1,15 @@
+dependent on the size of the operands (delay = log[N]). The concept of CLA is illustrated in Fig. 86.2a and b.
+For  each  bit  position  of  the  adder,  a  pair  of  signals  (pi,  gi)  is  generated  in  parallel.  It  is  possible  to  generate
+local carries using (pi, gi) as seen in the equations. Those signals are designated as: pi = carry-propagate and
+gi = carry-generate because they take part in propagation and generation of carry signal Ci-1. However, each
+bit position requires an incoming carry signal Ci-1 in order to generate the outgoing carry Ci. This makes the
+addition slow because the carry signal has to ripple from stage to stage as shown in Fig. 86.2a. The adder can
+be divided into the groups and the carry-generate and carry-propagate signals can be calculated for the entire
+group (G,P). This will take an additional time equivalent to and AND-OR delay of the logic. However, now
+we  can  calculate  each  group’s  carry  signals  in  an  additional AND-OR  delay.  for  the  generation  of  the  carry
+signal from the adder only the incoming carry signal into the group is now required. Therefore, the rippling
+of the carry is limited only to the groups. In the next step we may calculate generate and propagate signals for
+the group of groups (G*, P*) and continue in that fashion until we have only one group left generating the
+Cout signal from the adder. This process will terminate in log number of steps given that we are generating a
+tree structure for generation of carries. The computation of carries within the groups is done individually as
+illustrated in Fig. 86.2a and this process requires only the incoming carry into the group.

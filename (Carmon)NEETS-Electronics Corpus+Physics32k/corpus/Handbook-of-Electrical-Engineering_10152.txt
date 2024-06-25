@@ -1,0 +1,10 @@
+The term G(q) contains all the terms involving gravitational constant g. Note that these terms depend only
+on the position of the arm in the gravitational ﬁeld. If the arm is operating in the gravity-free environment,
+then these terms become zero. The term V·q  reﬂects the frictional forces present in the robot system. In our
+example,  these  terms  are  assumed  to  be  zero.  However,  in  practical  robots  a  substantial  amount  of  friction
+stiction can be present that if not considered will overestimate the torque available for accelerating the joints.
+The above example illustrates that the existence of signiﬁcant coupling between the joints, if ignored, can
+cause positioning and tracking errors when the joints are moving simultaneously. However, all these coupling
+terms become small at low speeds. In this case, independent joint control with appropriate compensations as
+discussed earlier may be quite adequate. As the operational speeds increase, one needs to take into consideration
+the full dynamics in the development of control algorithms.

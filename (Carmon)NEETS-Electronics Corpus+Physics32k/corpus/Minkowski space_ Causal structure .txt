@@ -1,0 +1,12 @@
+Where v is velocity, and x, y, and z are Cartesian coordinates in 3-dimensional space, and c is the constant representing the universal speed limit, and t is time, the four-dimensional vector v = (ct, x, y, z) = (ct, r) is classified according to the sign of c2t2 − r2. A vector is timelike if c2t2 > r2, spacelike if c2t2 < r2, and null or lightlike if c2t2 = r2. This can be expressed in terms of the sign of η(v,v) as well, but depends on the signature. The classification of any vector will be the same in all frames of reference that are related by a Lorentz transformation (but not by a general Poincaré transformation because the origin may then be displaced) because of the invariance of the interval.
+The set of all null vectors at an event of Minkowski space constitutes the light cone of that event. Given a timelike vector v, there is a worldline of constant velocity associated with it, represented by a straight line in a Minkowski diagram.
+Once a direction of time is chosen, timelike and null vectors can be further decomposed into various classes. For timelike vectors one has
+future-directed timelike vectors whose first component is positive, (tip of vector located in absolute future in figure) and
+past-directed timelike vectors whose first component is negative (absolute past).
+Null vectors fall into three classes:
+the zero vector, whose components in any basis are (0, 0, 0, 0) (origin),
+future-directed null vectors whose first component is positive (upper light cone), and
+past-directed null vectors whose first component is negative (lower light cone).
+Spacelike vectors are in elsewhere. The terminology stems from the fact that spacelike separated events are connected by vectors requiring faster-than-light travel, and so cannot possibly influence each other. Together with spacelike and lightlike vectors there are 7 classes in all.
+An orthonormal basis for Minkowski space necessarily consists of one timelike and three spacelike unit vectors. If one wishes to work with non-orthonormal bases it is possible to have other combinations of vectors. For example, one can easily construct a (non-orthonormal) basis consisting entirely of null vectors, called a null basis.
+Vector fields are called timelike, spacelike or null if the associated vectors are timelike, spacelike or null at each point where the field is defined.

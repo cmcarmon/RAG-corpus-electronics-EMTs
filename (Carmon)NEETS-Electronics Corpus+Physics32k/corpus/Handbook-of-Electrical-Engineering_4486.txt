@@ -1,0 +1,12 @@
+The most common system used in software packages is one in which the pre-processor includes data input,
+model building, and mesh (element) generation. Although fully automated meshing is now a practical possibility
+it needs to be combined with error estimation in order to allow the generation of optimal meshes. This approach
+is now common for 2-D systems and is available in many 3-D systems. Figure 44.4 illustrates a ﬁeld simulation
+environment in which the solution processor includes an adaptive mesh generator controlled by a posteriori
+error  estimation.  This  avoids  the  costly  and  essentially  heuristic  task  of  mesh  generation  which,  in  the  past,
+had to be performed by the designer. Furthermore a modern system should have solid modeling capabilities
+driven by parametric data allowing the user to specify the appropriate engineering quantities, e.g., in the case
+of  a  solid  cylinder  the  radius  and  length  are  all  that  is  needed  to  specify  the  geometry  at  some  predeﬁned
+location. The system should also be supported by a database which is compliant with evolving standards such
+as STEP (Standard for the Exchange of Product data-ISO 10303 [Owen, 1993]) thus allowing data communi-
+cation between other systems.

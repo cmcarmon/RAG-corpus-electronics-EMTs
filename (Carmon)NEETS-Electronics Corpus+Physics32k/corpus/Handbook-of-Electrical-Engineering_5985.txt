@@ -1,0 +1,13 @@
+Figure  66.31  shows  the  ﬂowchart  for  a  simple  dc
+machine  simulation.  The  required  inputs  are Va,  vf,
+and  Tmech.  Solving  the  windings’  voltage  equations
+with the required inputs, we can obtain the winding
+currents, Ia and if. The magnetizing curve block con-
+tains open-circuit test data of the machine to translate
+φ  or  the  ratio  of  the  open-circuit  armature
+if  to  ka
+voltage to some ﬁxed speed, that is Ea/ω
+mo. The sim-
+ulation yields the output of the two winding currents,
+the  ﬁeld  ﬂux,  the  developed  torque,  and  the  rotor
+speed.

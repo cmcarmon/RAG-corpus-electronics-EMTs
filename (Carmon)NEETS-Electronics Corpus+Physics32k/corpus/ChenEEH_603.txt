@@ -1,0 +1,14 @@
+under the gate. This channel provides the gate current to the
+vertical n-p-n-p thyristor that latches due to regenerative feed-
+back and conducts a large forward current with a low forward
+voltage drop. During on-state conduction, the p-channel loses
+control over MCT performance once the thyristor latches on,
+and the I–V characteristics are independent of gate voltage
+beyond the threshold voltage VTH of the channel. MCT turn-
+off is accomplished by applying a high voltage of reverse
+polarity at the gate. This creates an n-channel under the gate.
+If the resistance of the channel is small enough, it will divert
+the electron current
+from the thyristor. This effectively
+raises the holding current of the thyristor, thus forcing it to
+turn-off.

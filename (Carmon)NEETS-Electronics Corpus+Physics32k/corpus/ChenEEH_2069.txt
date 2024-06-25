@@ -1,0 +1,5 @@
+A TPrTN is deadlock free if and only if there is at least one
+transition being enabled in any reachable state or if a normal
+terminal state has been reached. Deadlock freedom is a safety
+property. The deadlock freedom property of the Five Dining
+Philosophers problem is formulated as follows:

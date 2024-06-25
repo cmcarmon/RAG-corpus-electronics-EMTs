@@ -1,0 +1,108 @@
+The universal variable formulation works well with the variation of parameters technique, except now, instead of the six Keplerian orbital elements, we use a different set of orbital elements: namely, the satellite's initial position and velocity vectors
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+and
+
+
+
+
+v
+
+0
+
+
+
+
+{\displaystyle v_{0}}
+at a given epoch
+
+
+
+t
+=
+0
+
+
+{\displaystyle t=0}
+. In a two-body simulation, these elements are sufficient to compute the satellite's position and velocity at any time in the future, using the universal variable formulation. Conversely, at any moment in the satellite's orbit, we can measure its position and velocity, and then use the universal variable approach to determine what its initial position and velocity would have been at the epoch. In perfect two-body motion, these orbital elements would be invariant (just like the Keplerian elements would be).
+However, perturbations cause the orbital elements to change over time. Hence, we write the position element as
+
+
+
+
+x
+
+0
+
+
+(
+t
+)
+
+
+{\displaystyle x_{0}(t)}
+and the velocity element as
+
+
+
+
+v
+
+0
+
+
+(
+t
+)
+
+
+{\displaystyle v_{0}(t)}
+, indicating that they vary with time. The technique to compute the effect of perturbations becomes one of finding expressions, either exact or approximate, for the functions
+
+
+
+
+x
+
+0
+
+
+(
+t
+)
+
+
+{\displaystyle x_{0}(t)}
+and
+
+
+
+
+v
+
+0
+
+
+(
+t
+)
+
+
+{\displaystyle v_{0}(t)}
+.
+The following are some effects which make real orbits differ from the simple models based on a spherical earth. Most of them can be handled on short timescales (perhaps less than a few thousand orbits) by perturbation theory because they are small relative to the corresponding two-body effects.
+Equatorial bulges cause precession of the node and the perigee
+Tesseral harmonics of the gravity field introduce additional perturbations
+Lunar and solar gravity perturbations alter the orbits
+Atmospheric drag reduces the semi-major axis unless make-up thrust is used
+Over very long timescales (perhaps millions of orbits), even small perturbations can dominate, and the behaviour can become chaotic. On the other hand, the various perturbations can be orchestrated by clever astrodynamicists to assist with orbit maintenance tasks, such as station-keeping, ground track maintenance or adjustment, or phasing of perigee to cover selected targets at low altitude.

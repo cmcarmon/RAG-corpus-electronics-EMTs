@@ -1,0 +1,15 @@
+time and frequency response for a uniform transducer and the associated frequency-dependent conductance
+and Hilbert transform susceptance. The simple impulse model treats each electrode as an ideal impulse; however,
+the electrodes have a ﬁnite width which distorts the ideal impulse response. The actual SAW potential has been
+shown  to  be  closely  related  to  the  electrostatic  charge  induced  on  the  transducer  by  the  input  voltage.  The
+problem is solved assuming a quasi-static and electrostatic charge distribution, assuming a semi-inﬁnite array
+of electrodes, solving for a single element, and then using superposition and convolution. The charge distri-
+bution solution for a single electrode with all others grounded is deﬁned as the basic charge distribution function
+(BCDF). The result of a series of arbitrary voltages placed on a series of electrodes is the summation of scaled,
+time-shifted  BCDFs.  The  identical  result  is  obtained  if  an  array  factor,  a(x),  deﬁned  as  the  ideal  impulses
+localized at the center of the electrode or gap, is convolved with the BCDF, often called the element factor. This
+is very similar to the analysis of antenna arrays. Therefore, the ideal frequency transfer function and conductance
+given by the impulse response model need only be modiﬁed by multiplying the frequency-dependent element
+factor. The analytic solution to the BCDF is given in Datta [1986] and Morgan [1985], and is shown to place
+a  small  perturbation  in  the  form  of  a  slope  or  dip  over  the  normal  bandwidths  of  interest.  The  BCDF  also
+predicts the expected harmonic frequency responses.

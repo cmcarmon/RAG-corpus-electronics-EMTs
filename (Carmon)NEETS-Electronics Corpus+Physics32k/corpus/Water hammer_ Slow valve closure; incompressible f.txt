@@ -1,0 +1,88 @@
+When the valve is closed slowly compared to the transit time for a pressure wave to travel the length of the pipe, the elasticity can be neglected, and the phenomenon can be described in terms of inertance or rigid column theory:
+
+
+
+
+F
+=
+m
+a
+=
+P
+A
+=
+ρ
+L
+A
+
+
+
+d
+v
+
+
+d
+t
+
+
+
+.
+
+
+{\displaystyle F=ma=PA=\rho LA{dv \over dt}.}
+
+Assuming constant deceleration of the water column (dv/dt = v/t), gives:
+
+
+
+
+P
+=
+ρ
+L
+v
+
+/
+
+t
+.
+
+
+{\displaystyle P=\rho Lv/t.}
+
+where:
+F = force, N
+m = mass of the fluid column, kg
+a = acceleration, m/s2
+P = pressure, Pa
+A = pipe cross section, m2
+ρ = fluid density, kg/m3
+L = pipe length, m
+v = flow velocity, m/s
+t = valve closure time, s
+The above formula becomes, for water and with imperial unit: P = 0.0135 V L/t. For practical application, a safety factor of about 5 is recommended:
+
+
+
+
+P
+=
+0.07
+V
+L
+
+/
+
+t
++
+
+P
+
+1
+
+
+
+
+{\displaystyle P=0.07VL/t+P_{1}}
+
+where P1 is the inlet pressure in psi, V is the flow velocity in ft/sec, t is the valve closing time in seconds and L is the upstream pipe length in feet.

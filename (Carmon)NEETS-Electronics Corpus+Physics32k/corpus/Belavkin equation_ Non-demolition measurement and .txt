@@ -1,0 +1,315 @@
+Noncommutativity presents a major challenge for probabilistic interpretation of quantum stochastic differential equations due to non-existence of conditional expectations for general pairs of quantum observables. Belavkin resolved this issue by discovering the error-perturbation uncertainty relation and formulating the non-demolition principle of quantum measurement. In particular, if the stochastic process
+
+
+
+d
+y
+(
+t
+)
+
+
+{\displaystyle dy(t)}
+corresponds to the error
+
+
+
+e
+(
+t
+)
+d
+t
+=
+d
+w
+
+
+{\displaystyle e(t)dt=dw}
+(white noise in the diffusive case) of a noisy observation
+
+
+
+Y
+(
+t
+)
+=
+X
+(
+t
+)
++
+e
+(
+t
+)
+
+
+{\displaystyle Y(t)=X(t)+e(t)}
+of operator
+
+
+
+X
+(
+t
+)
+=
+λ
+[
+L
+(
+t
+)
++
+
+L
+
+∗
+
+
+(
+t
+)
+]
+
+
+{\displaystyle X(t)=\lambda [L(t)+L^{\ast }(t)]}
+with the accuracy coefficient
+
+
+
+λ
+>
+0
+
+
+{\displaystyle \lambda >0}
+, then the indirect observation perturbs the dynamics of the system by a stochastic force
+
+
+
+f
+(
+t
+)
+
+
+{\displaystyle f(t)}
+, called the Langevin force, which is another white noise of intensity
+
+
+
+(
+ℏ
+λ
+
+)
+
+2
+
+
+
+
+{\displaystyle (\hbar \lambda )^{2}}
+that does not commute with the error
+
+
+
+e
+(
+t
+)
+
+
+{\displaystyle e(t)}
+. The result of such a perturbation is that the output process
+
+
+
+Y
+(
+t
+)
+
+
+{\displaystyle Y(t)}
+is commutative
+
+
+
+[
+Y
+(
+s
+)
+,
+Y
+(
+t
+)
+]
+=
+0
+
+
+{\displaystyle [Y(s),Y(t)]=0}
+, and hence
+
+
+
+
+∫
+
+0
+
+
+t
+
+
+Y
+(
+r
+)
+d
+r
+
+
+{\displaystyle \int _{0}^{t}Y(r)dr}
+corresponds to a classical observation, while the system operators
+
+
+
+X
+
+
+{\displaystyle X}
+satisfy the non-demolition condition: all future observables must commute with the past observations (but not with the future observations):
+
+
+
+[
+X
+(
+s
+)
+,
+Y
+(
+t
+)
+]
+=
+0
+
+
+{\displaystyle [X(s),Y(t)]=0}
+for all
+
+
+
+s
+≥
+t
+
+
+{\displaystyle s\geq t}
+(but not
+
+
+
+s
+<
+t
+
+
+{\displaystyle s<t}
+). Note that commutation of
+
+
+
+X
+(
+s
+)
+
+
+{\displaystyle X(s)}
+with
+
+
+
+Y
+(
+t
+)
+
+
+{\displaystyle Y(t)}
+and another operator
+
+
+
+Z
+(
+s
+)
+
+
+{\displaystyle Z(s)}
+with
+
+
+
+Y
+(
+t
+)
+
+
+{\displaystyle Y(t)}
+does not imply cummutation of
+
+
+
+X
+(
+s
+)
+
+
+{\displaystyle X(s)}
+with
+
+
+
+Z
+(
+s
+)
+
+
+{\displaystyle Z(s)}
+, so that the algebra of future observables is still non-commutative. The non-demolition condition is necessary and sufficient for the existence of conditional expectations
+
+
+
+
+E
+
+{
+X
+(
+s
+)
+∣
+Y
+(
+t
+)
+}
+
+
+{\displaystyle \mathbb {E} \{X(s)\mid Y(t)\}}
+, which makes the quantum filtering possible.

@@ -1,0 +1,13 @@
+TMR has by far the lowest time overhead, but its 200% area
+overhead is extremely high. Comparing REMOD to PTMR for
+array multipliers shows that the time overheads are much
+the same, reaching less than 10%. REMOD’s area overhead,
+however, is better than 30% less than that of PTMR. The
+area overhead fraction for a REMOD Wallace tree is even
+lower, with a transistor overhead of 48% and a layout area
+overhead of only 36%. The time overhead fraction is higher
+because the Wallace tree is a faster circuit than a carry-save
+array. Finally, we note that the hardware overhead for both
+types of 2-FT REMOD multiplier is also lower than that
+of a 1-FT PTMR multiplier; for 3-FT REMOD multipliers,
+the overhead is comparable to that of a 1-FT PTMR and

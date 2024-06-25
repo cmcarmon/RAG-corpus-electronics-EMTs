@@ -1,0 +1,9 @@
+There are some description languages which are optimal, in the following sense: given any description of an object in a description language, said description may be used in the optimal description language with a constant overhead. The constant depends only on the languages involved, not on the description of the object, nor the object being described.
+Here is an example of an optimal description language. A description will have two parts:
+The first part describes another description language.
+The second part is a description of the object in that language.
+In more technical terms, the first part of a description is a computer program, with the second part being the input to that computer program which produces the object as output.
+The invariance theorem follows: Given any description language L, the optimal description language is at least as efficient as L, with some constant overhead.
+Proof: Any description D in L can be converted into a description in the optimal language by first describing L as a computer program P (part 1), and then using the original description D as input to that program (part 2). The total length of this new description D′ is (approximately):
+|D′| = |P| + |D|
+The length of P is a constant that doesn't depend on D. So, there is at most a constant overhead, regardless of the object described. Therefore, the optimal language is universal up to this additive constant.

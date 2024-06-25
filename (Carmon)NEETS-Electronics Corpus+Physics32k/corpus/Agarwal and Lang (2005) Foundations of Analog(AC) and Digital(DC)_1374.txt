@@ -1,0 +1,10 @@
+The only remaining unevaluated constant is A, and we can solve for this by
+applying the initial condition. Equation 10.5 applies for t less than zero, and
+our solution, Equation 10.17 is valid for t greater than zero. These two parts of
+the solution are patched together by a continuity condition derived from Equa-
+tion 9.9: An instantaneous jump in capacitor voltage requires an infinite spike
+in current, so for finite current, the capacitor voltage must be continuous. This
+circuit cannot support infinite capacitor current (because i(t) is finite, the infinite
+current would have to come from the resistor, and this is impossible). Thus we
+are justified in assuming continuity of vC, hence can equate the solutions for
+negative time and positive time by solving at t = 0

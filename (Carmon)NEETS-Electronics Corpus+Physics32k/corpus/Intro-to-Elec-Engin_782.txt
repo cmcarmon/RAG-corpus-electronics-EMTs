@@ -1,0 +1,23 @@
+DTL (Diode Transistor Logic) Gate
+A circuit realization of a NAND gate will now be developed. By connecting NAND gates together
+in various ways, one can synthesize other gates and ﬂip-ﬂops. Thus in principle, a single NAND
+gate circuit, repeated many times, would be sufﬁcient to build up digital systems.
+One possible NAND gate circuit is shown in Figure 9.2.1, in which it can have as many inputs
+as desired (indicated by the dashed-line input C), and typical values of VCC = 5 V, RA = 2 k,
+RC = 5 k, and β = 50. We shall now consider the two inputs A and B that are quite adequate for
+our discussion, with the high range deﬁned to be 4 to 5 V and the low range deﬁned to be 0 to 0.5 V.
+While the input voltages vA and vB are constrained to lie inside the high or low range of
+the allowed voltage ranges, the resulting output voltage vF is supposed to be inside the high or
+low range as well. For different combinations of vA and vB, we need to ﬁnd vF. Since the circuit
+consists of no less than ﬁve nonlinear circuit elements (DA, DB, D1, D2, and T1), an approximation
+technique is used for analysis, while taking the voltage across a current-carrying forward-biased
+pn junction to be 0.7 V. The reader may have realized that it is not obvious at the start which
+diodes are forward-biased and which are reverse-biased. Hence a guessing procedure is used in
+which a guess is made and checked for self-consistency.
+Let us start by letting vA = vB = 0, in which case a probable current path is from VCC down
+through RA and through inputs A and B. Since this guess implies current ﬂow through DA and DB in
+the forward direction, we may guess that the voltage at X is 0.7 V. There is also a current path from
+X down to ground through D1 and D2 and the base–emitter junction of the transistor. Even though
+the sign of the guessed voltage is correct to forward-bias these three junctions, its magnitude of
+0.7 V is insufﬁcient since 2.1 V (or 3 × 0.7) is needed to make current ﬂow through this path.
+Then iB = 0; the transistor is cut off; and the output voltage vF = VCC = 5 V, assuming that

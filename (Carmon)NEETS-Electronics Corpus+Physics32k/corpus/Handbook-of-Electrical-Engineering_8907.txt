@@ -1,0 +1,8 @@
+Cache memories are a general solution for improving the performance of a memory system. Although caches
+are smaller than typical main memory sizes, they ideally contain the most frequently accessed portions of main
+memory. By keeping the most heavily used data near the CPU, caches can service a large fraction of the requests
+without accessing main memory (the fraction serviced is called the hit rate). Caches assume locality of reference
+to work well transparently—they assume that accessed memory words will be accessed again quickly (temporal
+locality), and that memory words adjacent to an accessed word will be accessed soon after the access in question
+(spatial locality). When the CPU issues a request for a datum not in the cache (a cache miss), the cache loads
+that datum and some number of adjacent data (a cache block) into itself from main memory.

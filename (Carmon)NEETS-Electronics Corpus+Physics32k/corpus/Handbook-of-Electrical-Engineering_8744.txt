@@ -1,0 +1,4 @@
+In the functional program, N is decremented each time SUM is recursively called. Suppose N = 10, initially;
+then SUM is called 10 times. When N > 0 is false, the SUM routine does nothing, thus terminating the recursion.
+Interestingly, the additions are not performed until the ﬁnal attempt to recurse fails. That is, when N = 0, the
+following sums are collected as the nested calls unwind:

@@ -1,0 +1,4 @@
+How to Stop Training
+The stop criterion is a fundamental aspect of training. The simple ideas of capping the number of iterations
+or of letting the system train until a predetermined error value are not recommended. The reason is that we
+want  the ANN  to  perform  well  in  the  test  set  data;  i.e.,  we  would  like  the  system  to  perform  well  in  data  it

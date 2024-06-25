@@ -1,0 +1,9 @@
+The cache coherent nonuniform memory access (CC-NUMA)
+paradigm, as employed in the Sequent NUMA-Q (Lovett and
+Clapp, 1996), for example, is a relatively recent idea compared
+to SMP. CC-NUMA systems strike a balance between the
+tightly coupled SMP systems and more loosely coupled clusters
+of communicating computers. The idea behind CC-NUMA
+systems is that while all processors have access to all portions
+of the main memory, the memory access time is allowed to
+vary depending on the part of main memory that is being

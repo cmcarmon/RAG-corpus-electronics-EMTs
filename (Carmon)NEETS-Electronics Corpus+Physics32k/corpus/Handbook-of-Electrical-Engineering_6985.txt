@@ -1,0 +1,7 @@
+Sources of Error
+Exact interpolation using the cardinal series assumes that (1) the values of the samples are known exactly, (2) the
+sample locations are known exactly, and (3) an inﬁnite number of terms are used in the series. Deviation from
+these requirements results in interpolation error due to (1) data noise, (2) jitter, and (3) truncation, respectively.
+The  effect  of  data  error  on  the  restoration  can  be  signiﬁcant.  Some  innocently  appearing  sampling  theorem
+generalizations, when subjected to performance analysis in the presence of data error, are revealed as ill-posed.
+In other words, a bounded error on the data can result in unbounded error on the restoration [Marks, 1991].

@@ -1,0 +1,9 @@
+In our earlier example, we had implemented these expressions using several abstract
+logic gate elements. Now that we understand how gates are constructed using MOSFETs
+and resistors, we can actually construct a single compound combinational logic gate
+using MOSFETs and resistors that implements each of these functions.12
+Let us consider the first expression: AB + C + D. Using the intuition that switches in
+series implement the AND property and switches in parallel implement the OR property,
+we can implement the first expression as shown in Figure 6.23. By checking the circuit
+against its truth table, we can convince ourselves that the circuit does work as desired.
+Figure 6.24 shows the circuit for the second expression: (A + B)CD.

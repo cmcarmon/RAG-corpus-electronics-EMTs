@@ -1,0 +1,10 @@
+The IEEE 802.5 Token Passing Ring protocol uses the ring
+topology where repeaters are connected via a transmission
+medium to form a closed path. Data are transmitted serially
+bit by bit through the transmission media, and they regenerate
+the bits at each repeater before they are sent to the next
+repeater on the ring. Data are transmitted in packets. A re-
+peater should perform the packet reception, transmission, and
+removal functions. A repeater can be one of three states: listen,
+transmit, and bypass states. A user station is connected to the
+repeater and contains the MAPs, which is summarized below:

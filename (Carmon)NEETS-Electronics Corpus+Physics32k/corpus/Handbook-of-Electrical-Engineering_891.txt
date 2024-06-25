@@ -1,0 +1,5 @@
+Note in Fig. 13.1 that the numbers next to the wires represent the circuit nodes. These numbers are used to
+describe  the  circuit  to  the  simulator.  In  most  SPICE-type  simulators  the  nodes  are  represented  by  numbers,
+with the ground node being node zero. Referring to Fig. 13.2, the 723 regulator and its internal op amp are
+represented by subcircuits. Each subcircuit has its own set of nodes and components. Subcircuits are useful for
+encapsulating sections of a circuit or when a certain section needs to be used repeatedly (see next section).

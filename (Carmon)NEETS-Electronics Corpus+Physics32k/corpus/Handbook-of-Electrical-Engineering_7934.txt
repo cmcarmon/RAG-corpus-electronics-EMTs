@@ -1,0 +1,8 @@
+conjunction with a 16-bit counter. The latches store the data which is to be loaded into the counter and are
+loaded sequentially, since 16 bits are required for the counter but the data bus is only 8 bits wide. When loading
+the counter with a speciﬁc value, the low-order byte is actually routed to the low-order 8-bit latch. Then, when
+the high-order byte is supplied, it is simultaneously written into both the high-order 8-bit latch and the high-
+order counter byte, and the low-order byte is also transferred from the latch to the counter. Countdown then
+begins on the next clock pulse. This method ensures that the correct 16-bit value is loaded, but it also means
+that the current count value can be modiﬁed, during counting if required, by writing to the counter, or the
+subsequent counts can be modiﬁed by writing to the latches.

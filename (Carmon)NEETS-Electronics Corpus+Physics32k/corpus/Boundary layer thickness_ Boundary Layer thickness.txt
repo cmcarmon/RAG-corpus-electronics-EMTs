@@ -1,0 +1,276 @@
+The boundary layer thickness, δ, is the distance across a boundary layer from the wall to a point where the flow velocity has essentially reached the 'free stream' velocity,
+
+
+
+
+u
+
+0
+
+
+
+
+{\displaystyle u_{0}}
+. This distance is defined normal to the wall. It is customarily defined as the point
+
+
+
+y
+
+
+{\displaystyle y}
+where:
+
+
+
+
+u
+(
+y
+)
+=
+0.99
+
+u
+
+o
+
+
+
+
+{\displaystyle u(y)=0.99u_{o}}
+
+at a point on the wall
+
+
+
+x
+
+
+{\displaystyle x}
+. For laminar boundary layers over a flat plate, the Blasius solution to the flow governing equations gives:
+
+
+
+
+δ
+≈
+4.91
+
+
+
+
+ν
+x
+
+
+u
+
+0
+
+
+
+
+
+
+
+{\displaystyle \delta \approx 4.91{\sqrt {{\nu x} \over u_{0}}}}
+
+
+
+
+
+δ
+≈
+4.91
+x
+
+/
+
+
+
+
+
+R
+e
+
+
+x
+
+
+
+
+
+
+{\displaystyle \delta \approx 4.91x/{\sqrt {\mathrm {Re} _{x}}}}
+
+For turbulent boundary layers over a flat plate, the boundary layer thickness is given by:
+
+
+
+
+δ
+≈
+0.37
+x
+
+/
+
+
+
+
+
+R
+e
+
+
+x
+
+
+
+
+1
+
+/
+
+5
+
+
+
+
+{\displaystyle \delta \approx 0.37x/{\mathrm {Re} _{x}}^{1/5}}
+
+where
+
+
+
+
+
+
+R
+e
+
+
+x
+
+
+=
+ρ
+
+u
+
+0
+
+
+x
+
+/
+
+μ
+
+
+{\displaystyle \mathrm {Re} _{x}=\rho u_{0}x/\mu }
+
+
+
+
+
+δ
+
+
+{\displaystyle \delta }
+is the overall thickness (or height) of the boundary layer
+
+
+
+
+
+
+R
+e
+
+
+x
+
+
+
+
+{\displaystyle \mathrm {Re} _{x}}
+is the Reynolds number
+
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+is the density
+
+
+
+
+
+u
+
+0
+
+
+
+
+{\displaystyle u_{0}}
+is the freestream velocity
+
+
+
+
+x
+
+
+{\displaystyle x}
+is the distance downstream from the start of the boundary layer
+
+
+
+
+μ
+
+
+{\displaystyle \mu }
+is the dynamic viscosity
+
+
+
+
+ν
+=
+μ
+
+/
+
+ρ
+
+
+{\displaystyle \nu =\mu /\rho }
+is the kinematic viscosity
+The turbulent boundary layer thickness formula assumes 1) the flow is turbulent right from the start of the boundary layer and 2) the turbulent boundary layer behaves in a geometrically similar manner (i.e. the velocity profiles are geometrically similar along the flow in the x-direction, differing only by stretching factors in
+
+
+
+y
+
+
+{\displaystyle y}
+and
+
+
+
+u
+(
+y
+)
+
+
+{\displaystyle u(y)}
+). Neither one of these assumptions are true for the general turbulent boundary layer case so care must be excersised in applying this formula.
+The velocity thickness can also be referred to as the Soole ratio, although the gradient of the thickness over distance would be adversely proportional to that of velocity thickness.

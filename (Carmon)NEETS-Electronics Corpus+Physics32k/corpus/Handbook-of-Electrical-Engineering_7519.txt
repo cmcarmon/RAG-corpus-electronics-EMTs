@@ -1,0 +1,5 @@
+When a low logic level is applied to the inverter’s input, Q1’s base-emitter junction will be forward biased
+and the base-collector junction will be reverse biased. This circuit condition will turn on Q1 so that the collector
+terminal is shorted to the emitter and, therefore, to ground (low level). This low voltage is also on the base of
+Q2 and turns Q2 off. With Q2 off, there will be insufﬁcient base current into Q3, turning it off also. Q2 leakage
+current is shunted to ground with a resistor to prevent the partial turning on of Q3. The collector voltage of

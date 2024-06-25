@@ -1,0 +1,150 @@
+Sutherland's formula can be used to derive the dynamic viscosity of an ideal gas as a function of the temperature:
+
+
+
+
+μ
+=
+
+μ
+
+0
+
+
+
+
+
+
+T
+
+0
+
+
++
+C
+
+
+T
++
+C
+
+
+
+
+
+(
+
+
+T
+
+T
+
+0
+
+
+
+
+)
+
+
+
+3
+2
+
+
+
+.
+
+
+{\displaystyle \mu =\mu _{0}{\frac {T_{0}+C}{T+C}}\left({\frac {T}{T_{0}}}\right)^{\frac {3}{2}}.}
+
+This, in turn, is equal to
+
+
+
+
+μ
+=
+λ
+
+
+
+T
+
+
+3
+2
+
+
+
+
+T
++
+C
+
+
+
+,
+
+
+{\displaystyle \mu =\lambda {\frac {T^{\frac {3}{2}}}{T+C}},}
+
+where
+
+
+
+
+λ
+=
+
+
+
+
+μ
+
+0
+
+
+
+(
+
+
+T
+
+0
+
+
++
+C
+
+)
+
+
+
+T
+
+0
+
+
+
+3
+2
+
+
+
+
+
+
+
+{\displaystyle \lambda ={\frac {\mu _{0}\left(T_{0}+C\right)}{T_{0}^{\frac {3}{2}}}}}
+
+is a constant for the gas.
+in Sutherland's formula:
+μ = dynamic viscosity (Pa·s or μPa·s) at input temperature T,
+μ0 = reference viscosity (in the same units as μ) at reference temperature T0,
+T = input temperature (K),
+T0 = reference temperature (K),
+C = Sutherland's constant for the gaseous material in question.
+Valid for temperatures between 0 < T < 555 K with an error due to pressure less than 10% below 3.45 MPa.
+According to Sutherland's formula, if the absolute temperature is less than C, the relative change in viscosity for a small change in temperature is greater than the relative change in the absolute temperature, but it is smaller when T is above C. The kinematic viscosity though always increases faster than the temperature (that is, d log(ν)/d log(T) is greater than 1).
+Sutherland's constant, reference values and λ values for some gases:

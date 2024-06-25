@@ -1,0 +1,100 @@
+While the definition of hue is relatively uncontroversial—it roughly satisfies the criterion that colors of the same perceived hue should have the same numerical hue—the definition of a lightness or value dimension is less obvious: there are several possibilities depending on the purpose and goals of the representation. Here are four of the most common (fig. 12; three of these are also shown in fig. 8):
+The simplest definition is just the average of the three components, in the HSI model called intensity (fig. 12a). This is simply the projection of a point onto the neutral axis—the vertical height of a point in our tilted cube. The advantage is that, together with Euclidean-distance calculations of hue and chroma, this representation preserves distances and angles from the geometry of the RGB cube.
+
+
+
+I
+=
+
+
+
+1
+3
+
+
+(
+R
++
+G
++
+B
+)
+
+
+
+
+
+{\displaystyle I=\textstyle {\frac {1}{3}}(R+G+B)\,\!}
+
+
+In the HSV "hexcone" model, value is defined as the largest component of a color, our M above (fig. 12b). This places all three primaries, and also all of the "secondary colors"—cyan, yellow, and magenta—into a plane with white, forming a hexagonal pyramid out of the RGB cube.
+
+
+
+V
+=
+M
+
+
+
+
+{\displaystyle V=M\,\!}
+
+
+In the HSL "bi-hexcone" model, lightness is defined as the average of the largest and smallest color components (fig. 12c). This definition also puts the primary and secondary colors into a plane, but a plane passing halfway between white and black. The resulting color solid is a double-cone similar to Ostwald’s, shown above.
+
+
+
+L
+=
+
+
+
+1
+2
+
+
+(
+M
++
+m
+)
+
+
+
+
+
+{\displaystyle L=\textstyle {\frac {1}{2}}(M+m)\,\!}
+
+
+A more perceptually relevant alternative is to use luma, Y′, as a lightness dimension (fig. 12d). Luma is the weighted average of gamma-corrected R, G, and B, based on their contribution to perceived lightness, long used as the monochromatic dimension in color television broadcast. For the Rec. 709 primaries used in sRGB, Y′709 = 0.21R + 0.72G + 0.07B; for the Rec. 601 NTSC primaries, Y′601 ≈ 0.30R + 0.59G + 0.11B; for other primaries different coefficients should be used.
+
+
+
+
+Y
+
+601
+
+
+′
+
+
+=
+0.299
+R
++
+0.587
+G
++
+0.114
+B
+
+
+
+
+{\displaystyle Y_{601}^{\prime }=0.299R+0.587G+0.114B\,\!}
+
+
+All four of these leave the neutral axis alone. That is, for colors with R = G = B, any of the four formulations yields a lightness equal to the value of R, G, or B.
+For a graphical comparison, see fig. 13 below.

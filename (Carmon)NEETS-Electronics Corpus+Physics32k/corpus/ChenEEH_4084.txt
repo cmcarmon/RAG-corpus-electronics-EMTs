@@ -1,0 +1,15 @@
+Nonuniform quantization is achieved by ﬁrst distorting the
+original signal with logarithmic compression characteristics
+and then using a uniform quantizer. For small magnitude
+signals, the compression characteristics have a much steeper
+slope than the slope for large magnitude signals. Thus, a given
+signal change at small magnitudes will carry the uniform
+quantizer through more steps than the same change at large
+magnitudes. The compression characteristic effectively changes
+the distribution of the input signal magnitude so there is no
+preponderance of low-magnitude signals at the output of the
+compressor. After compression, the distorted signal is used as
+an input to a uniform quantizer. At the receiver, an inverse
+compression characteristic, called expansion, is used so that
+the overall transmission is not distorted. The whole process
+(compression and expansion) is called companding.

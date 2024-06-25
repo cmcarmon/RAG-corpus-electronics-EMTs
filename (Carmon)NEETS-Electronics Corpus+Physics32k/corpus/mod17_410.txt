@@ -1,0 +1,6 @@
+When the transmitter and receiver switches are synchronized, the signals will be fed in the proper 
+sequence to the receiver channels. The samples from transmitter channel one will be fed to receiver 
+channel one. In this way, many channels of audio are combined to form a single output (multiplexed) 
+chain. Time spacing occurs between the components of the separate channels. The chain is transmitted 
+(via wire or radio path) to distant demultiplexing receivers. Each receiving channel functions to select and 
+reconstruct only the information included in the originally transmitted channel. 

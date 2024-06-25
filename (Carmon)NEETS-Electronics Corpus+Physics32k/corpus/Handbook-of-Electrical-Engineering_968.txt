@@ -1,0 +1,5 @@
+Berkeley Short-Channel Igfet Model (BSIM). To  overcome  the  many  short-comings  of  level  2  and  level  3,
+the BSIM and BSIM2 models were introduced. The most fundamental difference between these and the level 2
+and  3  models  is  that  BSIM  and  BSIM2  use  a  different  approach  to  incorporating  the  geometry  dependence
+[Ouster et al., 1988; Jeng et al., 1987]. In level 2 and 3 the geometry dependence is built directly into the model
+equations. In BSIM and BSIM2 each parameter (except for a very few) is written as a sum of three terms

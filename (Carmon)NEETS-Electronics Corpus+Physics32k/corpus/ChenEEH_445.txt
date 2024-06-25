@@ -1,0 +1,13 @@
+A generic small-signal diode-equivalent circuit (EC) is given in
+Figure 5.4. Cd and the junction conductance Gd have been
+deﬁned in equation 5.10 and Cj is given by equation 5.4. Rs is
+the series resistance, which is a lumped representation of all
+contributing components discussed before. The voltage vj
+across the junction is smaller than the applied terminal voltage
+v due to the voltage drop across Rs. In a realistic diode struc-
+ture, additional parasitic elements have to be taken into ac-
+count, such as a sidewall capacitance and—in integrated
+circuits—a parasitic pn-junction that is connected to a differ-
+ent terminal. For tunneling diodes, the effect of a negative
+differential resistance is usually taken into account in the
+small-signal EC by an inductance in series to Rs.

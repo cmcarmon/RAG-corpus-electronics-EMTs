@@ -1,0 +1,106 @@
+Laplace's equation is linear, and is one of the most elementary partial differential equations. This simple equation yields the entire solution for both V and p because of the constraint of irrotationality and incompressibility. Having obtained the solution for V and p, the consistency of the pressure gradient with the accelerations can be noted.
+The dynamic pressure at the upstream stagnation point has value of 1/2ρU2. a value needed to decelerate the free stream flow of speed U. This same value appears at the downstream stagnation point, this high pressure is again need to decelerate the flow to zero speed. This symmetry arises only because the flow is completely frictionless.
+The low pressure on sides on the cylinder is needed to provide the centripetal acceleration of the flow:
+
+
+
+
+
+
+
+∂
+p
+
+
+∂
+r
+
+
+
+=
+
+
+
+ρ
+
+V
+
+2
+
+
+
+L
+
+
+
+,
+
+
+{\displaystyle {\frac {\partial p}{\partial r}}={\frac {\rho V^{2}}{L}}\,,}
+
+where L is the radius of curvature of the flow. But L ≈ R, and V ≈ U. The integral of the equation for centripetal acceleration, which will over a distance Δr ≈ R will thus yield
+
+
+
+
+p
+−
+
+p
+
+∞
+
+
+≈
+−
+ρ
+
+U
+
+2
+
+
+
+.
+
+
+{\displaystyle p-p_{\infty }\approx -\rho U^{2}\,.}
+
+The exact solution has, for the lowest pressure,
+
+
+
+
+p
+−
+
+p
+
+∞
+
+
+=
+−
+
+
+
+3
+2
+
+
+
+ρ
+
+U
+
+2
+
+
+
+.
+
+
+{\displaystyle p-p_{\infty }=-{\tfrac {3}{2}}\rho U^{2}\,.}
+
+The low pressure, which must be present to provide the centripetal acceleration, will also increase the flow speed as the fluid travels from higher to lower values of pressure. Thus we find the maximum speed in the flow, V = 2U, in the low pressure on the sides of the cylinder.
+A value of V > U is consistent with conservation of the volume of fluid. With the cylinder blocking some of the flow, V must be greater than U somewhere in the plane through the center of the cylinder and transverse to the flow.

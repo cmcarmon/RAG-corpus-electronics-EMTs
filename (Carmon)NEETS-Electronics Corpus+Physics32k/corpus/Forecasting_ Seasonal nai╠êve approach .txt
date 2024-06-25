@@ -1,0 +1,83 @@
+The seasonal naïve method accounts for seasonality by setting each prediction to be equal to the last observed value of the same season. For example, the prediction value for all subsequent months of April will be equal to the previous value observed for April. The forecast for time
+
+
+
+T
++
+h
+
+
+{\displaystyle T+h}
+is:
+
+
+
+
+
+
+
+
+y
+^
+
+
+
+
+T
++
+h
+
+|
+
+T
+
+
+=
+
+y
+
+T
++
+h
+−
+k
+m
+
+
+
+
+{\displaystyle {\hat {y}}_{T+h|T}=y_{T+h-km}}
+where
+
+
+
+m
+
+
+{\displaystyle m}
+=seasonal period and
+
+
+
+k
+
+
+{\displaystyle k}
+is the smallest integer greater than
+
+
+
+(
+h
+−
+1
+)
+
+/
+
+m
+
+
+{\displaystyle (h-1)/m}
+.
+The seasonal naïve method is particularly useful for data that has a very high level of seasonality.

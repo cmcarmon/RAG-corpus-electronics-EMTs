@@ -1,0 +1,6 @@
+Here, open-loop MCV and full-state feedback MCV control
+laws are discussed. An open-loop control law is a function
+u: [0, tF ] ! u where u is some speciﬁed allowable set of con-
+trol values. A closed-loop or feedback control law is a func-
+tion that depends on time and the past evolution of the process
+[i.e., u(t, x(s); 0  s  t) ].

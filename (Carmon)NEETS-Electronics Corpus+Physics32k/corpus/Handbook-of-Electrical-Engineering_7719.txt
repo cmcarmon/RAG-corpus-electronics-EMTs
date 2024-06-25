@@ -1,0 +1,14 @@
+It  is  interesting  to  contrast  these  proprietary  approaches  with  an  industry  standard  approach  like  SCSI,
+admittedly targeted for the low to mid range of performance. SCSI deﬁnes the logical and physical interface
+between  a  host  bus  adapter  (HBA)  and  a  disk  controller,  usually  embedded  within  the  assembly  of  the  disk
+device. The HBA accepts I/O requests from the host, initiates I/O actions by communicating with the controllers,
+and performs direct memory access transfers between its own buffers and the memory of the host. Requesters
+of service are called initiators, while providers of service are called targets. Up to eight nodes can reside on a
+single SCSI string, sharing a common pathway to the HBA. The embedded controller performs device handling
+and  error  recovery.  Physically,  the  interface  is  implemented  with  a  single  daisy-chained  cable,  and  the  8-bit
+datapath  is  used  to  communicate  control  and  status  information,  as  well  as  data.  SCSI  deﬁnes  a  layered
+communications protocol, including a message layer for protocol and status, and a command/status layer for
+target  operation  execution.  The  HBA  roughly  corresponds  to  the  function  of  the  IBM  channel  processor  or
+Cray IOP, while the embedded controller is similar to the IBM storage director/string controller or the Cray
+DCU. Despite the differences in terminology, the systems we have surveyed exhibut signiﬁcant commonality
+of function and similar approaches for partitioning these functions among hardware components.

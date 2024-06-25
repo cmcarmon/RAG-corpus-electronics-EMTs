@@ -1,0 +1,10 @@
+A controlled source may be controlled by more than one circuit variable, but we will discuss those having
+a single controlling variable since multiple controlling variables require no new ideas. Similarly, we will deal
+only with resistive elements, since inductors and capacitors introduce no new concepts. The controlled voltage
+or current source may depend on the controlling variable in a linear or nonlinear manner. When the relationship
+is nonlinear, however, the equations are frequently linearized to examine the effects of small variations about
+some dc values. When we linearize, we will use the customary notation of small letters to represent general and
+time-variable  voltages  and  currents  and  large  letters  to  represent  constants  such  as  the  dc  value  or  the  peak
+value of a sinusoid. On subscripts, large letters represent the total voltage or current and small letters represent
+the small-signal component. Thus, the equation iB = IB + Ib cos wt means that the total base current is the sum
+of a constant and a small-signal component, which is sinusoidal with an amplitude of Ib .

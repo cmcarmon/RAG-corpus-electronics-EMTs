@@ -1,0 +1,227 @@
+In this case, the sonic velocity in a deviated well is obtained by dipole sonic logging tool . The formation is mostly composed of shale. In order to use the TI model, several assumptions are made:
+Rock should be in normally pressured regime.
+Rock should have similar burial history.
+Satisfying the above conditions, the following equation hold for a TI model:
+
+
+
+
+
+V
+
+P
+
+
+(
+ϕ
+)
+=
+
+V
+
+P
+
+
+(
+0
+)
+(
+1
++
+δ
+
+sin
+
+2
+
+
+⁡
+ϕ
+
+cos
+
+2
+
+
+⁡
+ϕ
++
+ϵ
+
+sin
+
+4
+
+
+⁡
+ϕ
+)
+
+
+{\displaystyle V_{P}(\phi )=V_{P}(0)(1+\delta \sin ^{2}\phi \cos ^{2}\phi +\epsilon \sin ^{4}\phi )}
+
+Where
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+is the deviated angel of the well, and
+
+
+
+δ
+
+
+{\displaystyle \delta }
+,
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+are anisotropy parameter.
+The following plot shows typical velocity distribution vs density in a deviated well. The color of each data point represents the frequency of this data point. The red color means a high frequency while the blue color represents a low frequency. The black line shows a typical velocity trend without the effect of anisotropy. Since the existence of anisotropy effect, the sound velocity is higher than the trend line.
+From the well logging data, the velocity vs
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+plot can be drawn. On the basis of this plot, a no liner regression will give us an estimate of
+
+
+
+δ
+
+
+{\displaystyle \delta }
+and
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+. The following plot show the non-linear regression and its result.
+Put the estimated
+
+
+
+δ
+
+
+{\displaystyle \delta }
+and
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+into the following equation, the correct
+
+
+
+
+V
+
+P
+
+
+(
+0
+)
+
+
+{\displaystyle V_{P}(0)}
+can be obtained.
+
+
+
+
+
+V
+
+P
+
+
+(
+0
+)
+=
+
+
+
+
+V
+
+P
+
+
+(
+ϕ
+)
+
+
+1
++
+δ
+
+sin
+
+2
+
+
+⁡
+ϕ
+
+cos
+
+2
+
+
+⁡
+ϕ
++
+ϵ
+
+sin
+
+4
+
+
+⁡
+ϕ
+
+
+
+
+
+{\displaystyle V_{P}(0)={\frac {V_{P}(\phi )}{1+\delta \sin ^{2}\phi \cos ^{2}\phi +\epsilon \sin ^{4}\phi }}}
+
+By doing the above correction calculation, the corrected
+
+
+
+
+V
+
+P
+
+
+(
+0
+)
+
+
+{\displaystyle V_{P}(0)}
+is plot vs density in the following plot. As be seen in the plot, most of the data point falls on the trend line. It validate the correctness of the estimate of anisotropy parameter.

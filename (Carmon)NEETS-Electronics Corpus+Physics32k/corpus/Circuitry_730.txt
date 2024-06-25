@@ -1,0 +1,20 @@
+Logic pulsers 
+ 
+We  sometimes  need  to  simulate  the  logic  levels 
+generated  by  a  peripheral  device  or  a  sensor.  A 
+permanent  logic  level  can  easily  be  generated  by 
+pulling a line up to + 5 V via a 1 kH resistor or by 
+temporarily tying a line to 0 V. However, on other 
+occasions, you may need to simulate a pulse rather 
+than  a  permanent  logic  state  and  this  can  be 
+achieved by means of a logic pulser. 
+  A logic pulser provides a means of momentarily 
+forcing  a  logic  level  transition  into  a  circuit 
+regardless of its current state and thus it overcomes 
+the  need  to  disconnect  or  de-soldering  any  of  the 
+devices. The polarity of the pulse (produced at the 
+touch of a button) is adjusted so that the node under 
+investigation 
+the 
+opposite logical state. During the period before the 
+button  is  depressed  and  for  the  period  after  the 

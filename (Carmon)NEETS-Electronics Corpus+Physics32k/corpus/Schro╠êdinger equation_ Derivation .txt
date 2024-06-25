@@ -1,0 +1,159 @@
+In the modern understanding of quantum mechanics, Schrödinger's equation may be derived as follows. If the wave-function at time t is given by
+
+
+
+Ψ
+(
+t
+)
+
+
+{\displaystyle \Psi (t)}
+, then by the linearity of quantum mechanics the wave-function at time t' must be given by
+
+
+
+Ψ
+(
+
+t
+′
+
+)
+=
+U
+(
+
+t
+′
+
+,
+t
+)
+Ψ
+(
+t
+)
+
+
+{\displaystyle \Psi (t')=U(t',t)\Psi (t)}
+, where
+
+
+
+U
+(
+
+t
+′
+
+,
+t
+)
+
+
+{\displaystyle U(t',t)}
+is a linear operator. Since time-evolution must preserve the norm of the wave-function, it follows that
+
+
+
+U
+(
+
+t
+′
+
+,
+t
+)
+
+
+{\displaystyle U(t',t)}
+must be a member of the unitary group of operators acting on wave-functions. We also know that when
+
+
+
+
+t
+′
+
+=
+t
+
+
+{\displaystyle t'=t}
+, we must have
+
+
+
+U
+(
+t
+,
+t
+)
+=
+1
+
+
+{\displaystyle U(t,t)=1}
+. Therefore, expanding the operator
+
+
+
+U
+(
+
+t
+′
+
+,
+t
+)
+
+
+{\displaystyle U(t',t)}
+for t' close to t, we can write
+
+
+
+U
+(
+
+t
+′
+
+,
+t
+)
+=
+1
+−
+i
+H
+(
+
+t
+′
+
+−
+t
+)
+
+
+{\displaystyle U(t',t)=1-iH(t'-t)}
+where H is a Hermitian operator. This follows from the fact that the Lie algebra corresponding to the unitary group comprises Hermitian operators. Taking the limit as the time-difference
+
+
+
+
+t
+′
+
+−
+t
+
+
+{\displaystyle t'-t}
+becomes very small, we obtain Schrödinger's equation.
+So far, H is only an abstract Hermitian operator. However using the correspondence principle it is possible to show that, in the classical limit, the expectation value of H is indeed the classical energy. The correspondence principle does not completely fix the form of the quantum Hamiltonian due to the uncertainty principle and therefore the precise form of the quantum Hamiltonian must be fixed empirically.

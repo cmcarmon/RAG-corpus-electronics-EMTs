@@ -1,0 +1,11 @@
+Introduced here are the notions of a cut and a cutset. This
+section develops certain results that bring out the dual nature
+of circuits and cutsets.
+Consider a connected graph G ¼ (V , E) with n vertices and
+m edges. Let V1 and V2 be two mutually disjoint nonempty
+subsets of V such that V ¼ V1 [ V2. Thus V2 is the comple-
+ment of V1 in V and vice versa. V1 and V2 are also said to form
+a partition of V. Then the set of all those edges that have one
+end vertex in V1 and the other in V2 is called a cut of G and is
+denoted by < V1, V2 >. As an example, a graph and a cut
+< V1, V2 > of G are shown in Figure 2.5.

@@ -1,0 +1,265 @@
+The original Langevin equation describes Brownian motion, the apparently random movement of a particle in a fluid due to collisions with the molecules of the fluid,
+
+
+
+
+m
+
+
+
+
+d
+
+2
+
+
+
+x
+
+
+
+d
+
+t
+
+2
+
+
+
+
+
+=
+−
+λ
+
+
+
+d
+
+x
+
+
+
+d
+t
+
+
+
++
+
+η
+
+
+(
+t
+)
+
+.
+
+
+{\displaystyle m{\frac {d^{2}\mathbf {x} }{dt^{2}}}=-\lambda {\frac {d\mathbf {x} }{dt}}+{\boldsymbol {\eta }}\left(t\right).}
+
+The degree of freedom of interest here is the position
+
+
+
+
+x
+
+
+
+{\displaystyle \mathbf {x} }
+of the particle,
+
+
+
+m
+
+
+{\displaystyle m}
+denotes the particle's mass. The force acting on the particle is written as a sum of a viscous force proportional to the particle's velocity (Stokes' law), and a noise term
+
+
+
+
+η
+
+
+(
+t
+)
+
+
+
+{\displaystyle {\boldsymbol {\eta }}\left(t\right)}
+(the name given in physical contexts to terms in stochastic differential equations which are stochastic processes) representing the effect of the collisions with the molecules of the fluid. The force
+
+
+
+
+η
+
+
+(
+t
+)
+
+
+
+{\displaystyle {\boldsymbol {\eta }}\left(t\right)}
+has a Gaussian probability distribution with correlation function
+
+
+
+
+
+⟨
+
+
+η
+
+i
+
+
+
+(
+t
+)
+
+
+η
+
+j
+
+
+
+(
+
+t
+
+′
+
+
+)
+
+
+⟩
+
+=
+2
+λ
+
+k
+
+B
+
+
+T
+
+δ
+
+i
+,
+j
+
+
+δ
+
+(
+
+t
+−
+
+t
+
+′
+
+
+
+)
+
+,
+
+
+{\displaystyle \left\langle \eta _{i}\left(t\right)\eta _{j}\left(t^{\prime }\right)\right\rangle =2\lambda k_{B}T\delta _{i,j}\delta \left(t-t^{\prime }\right),}
+
+where
+
+
+
+
+k
+
+B
+
+
+
+
+{\displaystyle k_{B}}
+is Boltzmann's constant,
+
+
+
+T
+
+
+{\displaystyle T}
+is the temperature and
+
+
+
+
+η
+
+i
+
+
+
+(
+t
+)
+
+
+
+{\displaystyle \eta _{i}\left(t\right)}
+is the i-th component of the vector
+
+
+
+
+η
+
+
+(
+t
+)
+
+
+
+{\displaystyle {\boldsymbol {\eta }}\left(t\right)}
+. The δ-function form of the correlations in time means that the force at a time
+
+
+
+t
+
+
+{\displaystyle t}
+is assumed to be completely uncorrelated with it at any other time. This is an approximation; the actual random force has a nonzero correlation time corresponding to the collision time of the molecules. However, the Langevin equation is used to describe the motion of a "macroscopic" particle at a much longer time scale, and in this limit the
+
+
+
+δ
+
+
+{\displaystyle \delta }
+-correlation and the Langevin equation become exact.
+Another prototypical feature of the Langevin equation is the occurrence of the damping coefficient
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+in the correlation function of the random force, a fact also known as Einstein relation.

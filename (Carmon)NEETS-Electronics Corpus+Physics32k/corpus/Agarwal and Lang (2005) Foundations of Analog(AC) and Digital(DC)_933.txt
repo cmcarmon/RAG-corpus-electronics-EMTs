@@ -1,0 +1,9 @@
+However, there are other situations demanding higher drain voltages in
+which we wish to use the MOSFET in an ON state. The SR model of the
+MOSFET is inappropriate in this region. This section will first show why the SR
+model is inadequate when vDS ≥ vGS−VT. We will then take a look at the actual
+MOSFET characteristics and then explore the possibility of creating a simple
+piecewise-linear model for the MOSFET in the region where vDS ≥ vGS − VT.
+We will use the setup shown in Figure 7.7 to observe the actual MOSFET
+characteristics. Let us start by applying a fixed, high gate-to-source voltage
+such that

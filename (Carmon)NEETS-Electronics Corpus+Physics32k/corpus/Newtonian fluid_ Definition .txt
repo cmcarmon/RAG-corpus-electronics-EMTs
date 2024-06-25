@@ -1,0 +1,71 @@
+An element of a flowing liquid or gas will suffer forces from the surrounding fluid, including viscous stress forces that cause it to gradually deform over time. These forces can be mathematically approximated to first order by a viscous stress tensor, which is usually denoted by
+
+
+
+τ
+
+
+{\displaystyle \tau }
+.
+The deformation of that fluid element, relative to some previous state, can be approximated to first order by a strain tensor that changes with time. The time derivative of that tensor is the strain rate tensor, that expresses how the element's deformation is changing with time; and is also the gradient of the velocity vector field
+
+
+
+v
+
+
+{\displaystyle v}
+at that point, often denoted
+
+
+
+∇
+v
+
+
+{\displaystyle \nabla v}
+.
+The tensors
+
+
+
+τ
+
+
+{\displaystyle \tau }
+and
+
+
+
+∇
+v
+
+
+{\displaystyle \nabla v}
+can be expressed by 3×3 matrices, relative to any chosen coordinate system. The fluid is said to be Newtonian if these matrices are related by the equation
+
+
+
+
+τ
+
+=
+
+μ
+
+(
+∇
+v
+)
+
+
+{\displaystyle \mathbf {\tau } =\mathbf {\mu } (\nabla v)}
+where
+
+
+
+μ
+
+
+{\displaystyle \mu }
+is a fixed 3×3×3×3 fourth order tensor, that does not depend on the velocity or stress state of the fluid.

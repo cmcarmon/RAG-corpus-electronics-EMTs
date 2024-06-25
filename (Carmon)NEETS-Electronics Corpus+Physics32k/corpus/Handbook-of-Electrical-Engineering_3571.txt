@@ -1,0 +1,8 @@
+A variation of scan DFT, called boundary scan, has been deﬁned for testing integrated circuits on printed
+circuit  boards  (PCBs).  Advancements  in  PCB  manufacturing,  such  as  ﬁne-lead  components,  surface  mount
+assembly, and multichip modules, have yielded high-density boards with fewer access points to probe individual
+pins. These PCBs are difﬁcult to test. As the name implies, boundary scan imposes a design discipline for PCB
+components to enable the input/output pins of the components to be connected into scan chains. As an example,
+Fig. 34.20 shows a simple PCB containing two integrated circuits conﬁgured for boundary scan. Each integrated
+circuit contains scan registers between its input/output pins and its core logic to enable the PCB test bus to
+control and observe the behavior of individual integrated circuits [Parker, 1989]. 

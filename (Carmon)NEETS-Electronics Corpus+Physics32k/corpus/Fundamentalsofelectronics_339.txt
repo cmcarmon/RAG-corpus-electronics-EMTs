@@ -1,0 +1,14 @@
+Solutions to Exercises in Chapter 3
+Solution to Exercise 3.1 (p. 32)
+One kilowatt-hour equals 3,600,000 watt-seconds, which indeed directly corresponds to 3,600,000 joules.
+Solution to Exercise 3.2 (p. 36)
+KCL says that the sum of currents entering or leaving a node must be zero. If we consider two nodes together
+as a “supernode,” KCL applies as well to currents entering the combination. Since no currents enter an entire
+circuit, the sum of currents must be zero. If we had a two-node circuit, the KCL equation of one must
+be the negative of the other, We can combine all but one node in a circuit into a supernode; KCL for the
+supernode must be the negative of the remaining node’s KCL equation. Consequently, specifying n− 1 KCL
+equations always speciﬁes the remaining one.
+Solution to Exercise 3.3 (p. 37)
+The circuit serves as an ampliﬁer having a gain of
+Solution to Exercise 3.4 (p. 38)
+The power consumed by the resistor R1 can be expressed as

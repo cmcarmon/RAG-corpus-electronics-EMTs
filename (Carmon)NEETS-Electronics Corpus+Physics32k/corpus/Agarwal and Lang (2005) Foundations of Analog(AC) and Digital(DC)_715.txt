@@ -1,0 +1,12 @@
+F I G U R E 5.8 A mapping
+between voltage levels and logical
+signals that provides noise
+margins. For a logical high, senders
+must output values in the VOH to
+5-V range. For a logical low,
+senders must output values in the
+0 V to VOL range. Receivers must
+correspondingly interpret values
+greater than VIH as a logical high,
+and output values lower than VIL as
+a logical low.

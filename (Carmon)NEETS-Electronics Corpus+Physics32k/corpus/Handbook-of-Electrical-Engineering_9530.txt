@@ -1,0 +1,4 @@
+It is therefore important to ensure that the interleaving of the execution of transactions leaves the database
+in  a  consistent  state.  One  way  of  preserving  data  consistency  is  to  ensure  that  the  interleaved  execution  of
+transactions  is  equivalent  to  their  serial  execution.  This  is  referred  to  as serializable  execution.  Therefore,  an
+interleaved execution of transactions is said to be serializable if it is equivalent to a serial execution.

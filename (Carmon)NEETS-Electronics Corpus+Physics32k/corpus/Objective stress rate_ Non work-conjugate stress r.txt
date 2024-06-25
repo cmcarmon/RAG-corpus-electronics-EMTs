@@ -1,0 +1,16 @@
+Other rates, used in most commercial codes, which are not work-conjugate to any finite strain tensor are:
+the Jaumann, or corotational, rate of Cauchy stress: It differs from Jaumann rate of Kirchhoff stress by missing the rate of relative volume change of material. The lack of work-conjugacy is usually not a serious problem since that term is negligibly small for many materials and zero for incompressible materials (but in indentation of a sandwich plate with foam core, this rate can give an error of >30% in the indentation force).
+the Cotter–Rivlin rate corresponds to
+
+
+
+m
+=
+−
+2
+
+
+{\displaystyle m=-2}
+but it again misses the volumetric term.
+the Green–Naghdi rate: This objective stress rate is not work-conjugate to any finite strain tensor, not only because of missing the volumetric term but also because the material rotation velocity is not exactly equal to the spin tensor. In vast majority of applications, the energy errors caused by these differences are totally negligible but it must be pointed out that a large energy error was already demonstrated for a case with shear strains and rotations exceeding about 0.25.
+the Oldroyd rate.

@@ -1,0 +1,4 @@
+Often, it is desirable to terminate a fraction conversion at (n + 1) digits and then round off to n from the
+radix point. A suitable method for rounding to n digits in radix r is: Perform the fraction conversion to (n + 1)
+digits from the radix point, then drop the (n + 1) digit if a– (n+1) < r/2, or add r – (n–1) to the result if a– (n+1) ‡ r/2.
+After rounding off to n digits, the maximum error becomes the difference between the rounded result and

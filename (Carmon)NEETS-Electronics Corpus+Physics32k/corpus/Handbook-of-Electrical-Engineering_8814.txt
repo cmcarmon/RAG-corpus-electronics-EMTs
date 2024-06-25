@@ -1,0 +1,5 @@
+An Example of a User-Deﬁned Abstract Data Type
+Most carrier sets are assumed to contain a distinguished value: error. Error is not a proper computational object:
+a function is considered to compute error if it does not return to the point of its invocation due to some error
+condition. Functions are called strict if they compute the value error whenever one or more of their arguments
+have the value error.

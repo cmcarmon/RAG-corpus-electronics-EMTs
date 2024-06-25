@@ -1,0 +1,33 @@
+Delay, noise, slope limits, and gate oxide wear out were all
+considered by Intel designers when drafting the guidelines for
+the wire and repeater methodology. Notable features were an
+increased emphasis on noise robustness and ‘‘pushed process’’
+considerations for delay (repeater distance guidelines were
+made shorter than optimal for delay with the existing process
+in anticipation of end-of-life process trending when transistors
+greatly speed up compared to wires). Repeater sizing, rather
+than best delay optimization for noncoupled wires, was picked
+to be optimal for noise rejection, for equal rise and fall delays,
+and for better delay in the presence of coupling. Stringent
+limitations were put on maximum sizing of repeaters, espe-
+cially in busses, to reduce collapse of power supply caused by a
+simultaneously switching bank of repeaters. The methodology
+and tools allowed Intel developers to use both inverting and
+noninverting repeaters. Simple length-based design rules were
+provided for repeaters, and further optimization was possible
+through internally developed proprietary tools: NoisePad,
+ROSES, and Visualizer (net routing and timing) analysis. The
+extensive use of dedicated repeater blocks is evident in the
+Pentium 4 Processor ﬂoor plan. Further, the net length com-
+parison in Figure 8.13 shows that although the Pentium 4
+Processor is a much larger chip, it has very few long nets
+compared to the previous generation of chips, such as the
+Pentium III Processor. This is even more notable given that
+the Pentium 4 Processor has more than twice as many full-chip
+nets as the Pentium III Processor and has architecturally bigger
+blocks. If we compare the M5 wire segments of the Pentium III
+and Pentium 4 processors, we note that 90% of the M5 wire
+segments of the Pentium 4 processor are shorter than 2000
+microns, while the same percentage of Pentium III Processor
+wires are 3500 microns long. These short wires are a key to
+enabling high-frequency operation.

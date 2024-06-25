@@ -1,0 +1,4 @@
+The outputs, which are produced by the OR array, feed either directly to the pins (indicated by Ob in the
+ﬁgure) or to ﬂip-ﬂop inputs (NSa, NSb, and Oa, where “NS” stands for “next state”). The ﬂip-ﬂop outputs are
+fed back either into the AND array (PSa and PSb, where “PS” stands for “present state”) or to pins (PSb and
+Oa¢). The sequencer’s primary inputs to the PLA AND array are labeled I. Not every sequencer device will have

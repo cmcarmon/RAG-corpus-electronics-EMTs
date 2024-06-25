@@ -1,0 +1,23 @@
+This  chapter  deals  with  the  unsung  hero  of  most 
+electronic  systems,  the  power  supply.  Nearly  all 
+electronic circuits require a source of well regulated 
+d.c. at voltages of typically between 5 V and 30 V. 
+In  some  cases,  this  supply  can  be  derived  directly 
+from  batteries  (e.g.  6  V,  9  V,  12  V)  but  in  many 
+others it is desirable to make use of a standard a.c. 
+mains  outlet.  This  chapter  explains  how  rectifier 
+and  smoothing  circuits  operate  and  how  power 
+supply  output  voltages  can  be  closely  regulated. 
+The  chapter  concludes  with  a  brief  description  of 
+some practical power supply circuits. 
+  The  block  diagram  of  a  d.c.  power  supply  is 
+shown  in  Fig.  6.1.  Since  the  mains  input  is  at  a 
+relatively high voltage, a step-down transformer of 
+appropriate  turns  ratio  is  used  to  convert  this  to  a 
+low  voltage.  The  a.c.  output  from  the  transformer 
+secondary  is  then  rectified  using  conventional 
+silicon  rectifier  diodes  (see  Chapter  5)  to  produce 
+an unsmoothed (sometimes referred to as pulsating 
+d.c.) output.  This  is  then  smoothed  and  filtered 
+before  being  applied  to  a  circuit  which  will 
+regulate  (or stabilize) the output voltage so that it 

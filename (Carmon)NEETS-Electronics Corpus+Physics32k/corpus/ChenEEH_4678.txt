@@ -1,0 +1,14 @@
+Although simple in nature, we emphasize that this model
+encompasses the essential dynamics needed for control design.
+Note that the model is constructed in the crank angle domain
+instead of the time domain. Because the engine inherently
+divides its continuous physical processes into four distinct
+events (intake, compression, power, and exhaust), representa-
+tion of the engine dynamics in the crank angle domain (as
+opposed to the time domain) is intuitively appealing and has
+certain advantages for control purposes, particularly for the
+idle speed control problem (Yurkovich and Simpson, 1997;
+Chin and Coats, 1986).
+Letting K2 ¼ ZVd=4pVm and linearizing equations 10.37,
+10.38, and 10.39 about the nominal operating point (v0, pm0)
+(using the notation D to denote increments), the state variable

@@ -1,0 +1,5 @@
+A phenomenon reminiscent of the errors incurred in representing numbers on a computer prevents signal
+amplitudes from being converted with no error into a binary number representation. In analog-to-digital
+conversion, the signal is assumed to lie within a predeﬁned range. Assuming we can scale the signal without
+aﬀecting the information it expresses, we’ll deﬁne this range to be [−1, 1]. Furthermore, the A/D converter
+assigns amplitude values in this range to a set of integers. A B-bit converter produces one of the integers

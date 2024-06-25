@@ -1,0 +1,9 @@
+Most operational ampliﬁer circuits can be analyzed, at least for ﬁrst-order calculations, by considering the
+op amp to be an “ideal” device. For more quantitative information, however, and particularly when frequency
+response and dc offsets are important, one must refer to a more “practical” model that includes the internal
+limitations of the device. If the op amp is characterized by a really complete model, the resulting circuit may
+be quite complex, leading to rather laborious calculations. Fortunately, however, computer analysis using the
+signiﬁcantly reduces the problem to one of a simple input speciﬁcation to the computer. Today,
+program 
+nearly all the op amp manufacturers provide SPICE models for their line of devices, with excellent correlation
+obtained between the computer simulation and the actual measured results.

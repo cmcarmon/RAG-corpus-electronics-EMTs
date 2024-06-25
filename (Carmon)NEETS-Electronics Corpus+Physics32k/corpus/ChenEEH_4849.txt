@@ -1,0 +1,20 @@
+Finally, the middleware must run in real-time. For example,
+the original version of CORBA did not support hard real-time
+operations because of overhead in the client/server implemen-
+tation due to the ORB intercepting the remote method calls,
+redirecting them, and marshalling or demarshalling data to
+translate data values from their local representations to a
+common network protocol format. CORBA also lacked real-
+time scheduling capabilities. Extensions have been made to
+build a real-time CORBA (also known as TAO) (O’Ryan et
+al., 2000). As described previously, using local replicas helps
+speed up the real-time behavior of the middleware. Further,
+real-time applications require the middleware to schedule
+events based on quality of service (QoS) measures. Typical
+QoS parameters include desired rates for periodic events (e.g.,
+updates from sensors), deadlines for when a task must be
+completed (e.g., when the new command must be sent to the
+actuator), and priority values indicating the relative impor-
+tance of different procedures. A real-time middleware must
+also time stamp transactions and prescribe efﬁcient and fast
+memory usage.

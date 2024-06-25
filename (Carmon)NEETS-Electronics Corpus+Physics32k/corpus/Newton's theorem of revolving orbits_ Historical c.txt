@@ -1,0 +1,65 @@
+The motion of astronomical bodies has been studied systematically for thousands of years. The stars were observed to rotate uniformly, always maintaining the same relative positions to one another. However, other bodies were observed to wander against the background of the fixed stars; most such bodies were called planets after the Greek word "πλανήτοι" (planētoi) for "wanderers". Although they generally move in the same direction along a path across the sky (the ecliptic), individual planets sometimes reverse their direction briefly, exhibiting retrograde motion.
+To describe this forward-and-backward motion, Apollonius of Perga (c. 262 – c. 190 BC) developed the concept of deferents and epicycles, according to which the planets are carried on rotating circles that are themselves carried on other rotating circles, and so on. Any orbit can be described with a sufficient number of judiciously chosen epicycles, since this approach corresponds to a modern Fourier transform. Roughly 350 years later, Claudius Ptolemaeus published his Almagest, in which he developed this system to match the best astronomical observations of his era. To explain the epicycles, Ptolemy adopted the geocentric cosmology of Aristotle, according to which planets were confined to concentric rotating spheres. This model of the universe was authoritative for nearly 1500 years.
+The modern understanding of planetary motion arose from the combined efforts of astronomer Tycho Brahe and physicist Johannes Kepler in the 16th century. Tycho is credited with extremely accurate measurements of planetary motions, from which Kepler was able to derive his laws of planetary motion. According to these laws, planets move on ellipses (not epicycles) about the Sun (not the Earth). Kepler's second and third laws make specific quantitative predictions: planets sweep out equal areas in equal time, and the square of their orbital periods equals a fixed constant times the cube of their semi-major axis. Subsequent observations of the planetary orbits showed that the long axis of the ellipse (the so-called line of apsides) rotates gradually with time; this rotation is known as apsidal precession. The apses of an orbit are the points at which the orbiting body is closest or furthest away from the attracting center; for planets orbiting the Sun, the apses correspond to the perihelion (closest) and aphelion (furthest).
+With the publication of his Principia roughly eighty years later (1687), Isaac Newton provided a physical theory that accounted for all three of Kepler's laws, a theory based on Newton's laws of motion and his law of universal gravitation. In particular, Newton proposed that the gravitational force between any two bodies was a central force F(r) that varied as the inverse square of the distance r between them. Arguing from his laws of motion, Newton showed that the orbit of any particle acted upon by one such force is always a conic section, specifically an ellipse if it does not go to infinity. However, this conclusion holds only when two bodies are present (the two-body problem); the motion of three bodies or more acting under their mutual gravitation (the n-body problem) remained unsolved for centuries after Newton, although solutions to a few special cases were discovered. Newton proposed that the orbits of planets about the Sun are largely elliptical because the Sun's gravitation is dominant; to first approximation, the presence of the other planets can be ignored. By analogy, the elliptical orbit of the Moon about the Earth was dominated by the Earth's gravity; to first approximation, the Sun's gravity and those of other bodies of the Solar System can be neglected. However, Newton stated that the gradual apsidal precession of the planetary and lunar orbits was due to the effects of these neglected interactions; in particular, he stated that the precession of the Moon's orbit was due to the perturbing effects of gravitational interactions with the Sun.
+Newton's theorem of revolving orbits was his first attempt to understand apsidal precession quantitatively. According to this theorem, the addition of a particular type of central force—the inverse-cube force—can produce a rotating orbit; the angular speed is multiplied by a factor k, whereas the radial motion is left unchanged. However, this theorem is restricted to a specific type of force that may not be relevant; several perturbing inverse-square interactions (such as those of other planets) seem unlikely to sum exactly to an inverse-cube force. To make his theorem applicable to other types of forces, Newton found the best approximation of an arbitrary central force F(r) to an inverse-cube potential in the limit of nearly circular orbits, that is, elliptical orbits of low eccentricity, as is indeed true for most orbits in the Solar System. To find this approximation, Newton developed an infinite series that can be viewed as the forerunner of the Taylor expansion. This approximation allowed Newton to estimate the rate of precession for arbitrary central forces. Newton applied this approximation to test models of the force causing the apsidal precession of the Moon's orbit. However, the problem of the Moon's motion is dauntingly complex, and Newton never published an accurate gravitational model of the Moon's apsidal precession. After a more accurate model by Clairaut in 1747, analytical models of the Moon's motion were developed in the late 19th century by Hill, Brown, and Delaunay.
+However, Newton's theorem is more general than merely explaining apsidal precession. It describes the effects of adding an inverse-cube force to any central force F(r), not only to inverse-square forces such as Newton's law of universal gravitation and Coulomb's law. Newton's theorem simplifies orbital problems in classical mechanics by eliminating inverse-cube forces from consideration. The radial and angular motions, r(t) and θ1(t), can be calculated without the inverse-cube force; afterwards, its effect can be calculated by multiplying the angular speed of the particle
+
+
+
+
+
+ω
+
+2
+
+
+=
+
+
+
+d
+
+θ
+
+2
+
+
+
+
+d
+t
+
+
+
+=
+k
+
+
+
+d
+
+θ
+
+1
+
+
+
+
+d
+t
+
+
+
+=
+k
+
+ω
+
+1
+
+
+.
+
+
+{\displaystyle \omega _{2}={\frac {d\theta _{2}}{dt}}=k{\frac {d\theta _{1}}{dt}}=k\omega _{1}.}

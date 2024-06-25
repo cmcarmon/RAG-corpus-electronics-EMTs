@@ -1,0 +1,10 @@
+The enabling condition of an elementary transition is de-
+ﬁned exactly the same as that of an HLPN ’s in Section 9.2. A
+super transition is enabled if at least one of its interface child
+transitions in IN is enabled and its ﬁring is deﬁned by an
+execution sequence of its child transitions; thus, its behavior
+is fully deﬁned by its child transitions. The ﬁring rule of a
+transition is formally deﬁned in He (1996). Two transitions
+(including the same transition with two different occurrence
+modes) can ﬁre concurrently if they are not in conﬂict (the
+ﬁring of one of them disables the other). Conﬂicts are resolved

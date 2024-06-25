@@ -1,0 +1,10 @@
+(cid:1) The SR model of the MOSFET characterizes the behavior of the MOSFET
+as a resistor when the MOSFET is in its ON state, and vGS is fixed. The SR
+model is appropriate for most types of simple analyses involving digital cir-
+cuits, such as static discipline computations of voltage levels, simple power
+calculations, and, as will be discussed in later chapters, delay calculations.
+Although technically the SR model is valid only in the MOSFET’s triode
+region (that is, when vDS < (vGS − VT)), for simplicity, we ignore this
+limitation and apply it in digital circuit applications irrespective of the value
+of the drain voltage, since the model is such a gross simplification of the
+MOSFET’s behavior in the first place.

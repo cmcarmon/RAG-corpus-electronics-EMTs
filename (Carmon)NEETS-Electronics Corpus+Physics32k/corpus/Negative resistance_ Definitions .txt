@@ -1,0 +1,257 @@
+The resistance between two terminals of an electrical device or circuit is determined by its current–voltage (I–V) curve (characteristic curve), giving the current
+
+
+
+i
+
+
+
+{\displaystyle i\,}
+through it for any given voltage
+
+
+
+v
+
+
+
+{\displaystyle v\,}
+across it. Most materials, including the ordinary (positive) resistances encountered in electrical circuits, obey Ohm's law; the current through them is proportional to the voltage over a wide range. So the I–V curve of an ohmic resistance is a straight line through the origin with positive slope. The resistance is the ratio of voltage to current, the inverse slope of the line (in I–V graphs where the voltage
+
+
+
+v
+
+
+
+{\displaystyle v\,}
+is the independent variable) and is constant.
+Negative resistance occurs in a few nonlinear (nonohmic) devices. In a nonlinear component the I–V curve is not a straight line, so it does not obey Ohm's law. Resistance can still be defined, but the resistance is not constant; it varies with the voltage or current through the device. The resistance of such a nonlinear device can be defined in two ways, which are equal for ohmic resistances:
+
+Static resistance (also called chordal resistance, absolute resistance or just resistance) – This is the common definition of resistance; the voltage divided by the current:
+
+
+
+
+
+R
+
+
+s
+t
+a
+t
+i
+c
+
+
+
+=
+
+
+v
+i
+
+
+
+
+
+{\displaystyle R_{\mathrm {static} }={v \over i}\,}
+.
+
+It is the inverse slope of the line (chord) from the origin through the point on the I–V curve. In a power source, like a battery or electric generator, positive current flows out of the positive voltage terminal, opposite to the direction of current in a resistor, so from the passive sign convention
+
+
+
+i
+
+
+
+{\displaystyle i\,}
+and
+
+
+
+v
+
+
+
+{\displaystyle v\,}
+have opposite signs, representing points lying in the 2nd or 4th quadrant of the I–V plane (diagram right). Thus power sources formally have negative static resistance (
+
+
+
+
+R
+
+static
+
+
+
+<
+
+0
+)
+.
+
+
+{\displaystyle R_{\text{static}}\;<\;0).}
+However this term is never used in practice, because the term "resistance" is only applied to passive components. Static resistance determines the power dissipation in a component. Passive devices, which consume electric power, have positive static resistance; while active devices, which produce electric power, do not.
+Differential resistance (also called dynamic, or incremental resistance) – This is the derivative of the voltage with respect to the current; the ratio of a small change in voltage to the corresponding change in current, the inverse slope of the I–V curve at a point:
+
+
+
+
+
+r
+
+
+d
+i
+f
+f
+
+
+
+=
+
+
+
+d
+v
+
+
+d
+i
+
+
+
+
+
+
+{\displaystyle r_{\mathrm {diff} }={\frac {dv}{di}}\,}
+.
+
+Differential resistance is only relevant to time-varying currents. Points on the curve where the slope is negative (declining to the right), meaning an increase in voltage causes a decrease in current, have negative differential resistance (
+
+
+
+
+r
+
+diff
+
+
+
+<
+
+0
+
+
+{\displaystyle r_{\text{diff}}\;<\;0}
+). Devices of this type can amplify signals, and are what is usually meant by the term "negative resistance".
+Negative resistance, like positive resistance, is measured in ohms.
+Conductance is the reciprocal of resistance. It is measured in siemens (formerly mho) which is the conductance of a resistor with a resistance of one ohm. Each type of resistance defined above has a corresponding conductance
+Static conductance
+
+
+
+
+
+G
+
+
+s
+t
+a
+t
+i
+c
+
+
+
+=
+
+
+1
+
+R
+
+
+s
+t
+a
+t
+i
+c
+
+
+
+
+
+=
+
+
+i
+v
+
+
+
+
+
+{\displaystyle G_{\mathrm {static} }={1 \over R_{\mathrm {static} }}={i \over v}\,}
+
+
+Differential conductance
+
+
+
+
+
+g
+
+
+d
+i
+f
+f
+
+
+
+=
+
+
+1
+
+r
+
+
+d
+i
+f
+f
+
+
+
+
+
+=
+
+
+
+d
+i
+
+
+d
+v
+
+
+
+
+
+
+{\displaystyle g_{\mathrm {diff} }={1 \over r_{\mathrm {diff} }}={di \over dv}\,}
+
+
+It can be seen that the conductance has the same sign as its corresponding resistance: a negative resistance will have a negative conductance while a positive resistance will have a positive conductance.

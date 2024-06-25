@@ -1,0 +1,15 @@
+. A ﬁne-grained conﬁgurable cell performs simple logic
+functions with more complex function (e.g., fast carry
+look-ahead adder). A perfect example of this architecture
+is the dynamically reconﬁgurable logic engine (DRLE)
+(Nishitani, 1999). It is capable of real-time reconﬁgu-
+ration with several
+layers of conﬁguration tables. An
+experimental chip is composed of a 4  12 array of
+conﬁgurable cells. Each cell can realize two different
+logic operations equivalent to 4-bit input to 1-bit output
+or 3-bit input to 2-bit output. Up to eight different
+conﬁgurations can be locally stored in each memory
+cell. With 0.25-micron CMOS technology, the chip con-
+tains 5.1 million transistors in a 10  10-mm2 die area
+and consumes 500 mW at 70 MHz.

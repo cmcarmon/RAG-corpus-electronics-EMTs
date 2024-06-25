@@ -1,0 +1,29 @@
+Some approximate limits on the possible switching times of a given device, whether optical or electrical, are
+illustrated in Fig. 79.30. In this ﬁgure the time required to switch the state of a device is on the abscissa while
+the power/bit required to switch the state of a device is on the ordinate. The region of spontaneous switching
+is the result of the background thermal energy that is present in a device. If the switching energy for the device
+is  too  low,  the  background  thermal  energy  will  cause  the  device  to  change  states  spontaneously.  To  prevent
+these random transitions in the state of a device, the switching energy required by the device must be much
+larger than the background thermal energy. To be able to differentiate statistically between two states, this ﬁgure
+assumes that each bit should be composed of at least 1000 photons. Thus, the total energy of 1000 photons
+sets  the  approximate  boundary  for  this  region  of  spontaneous  switching.  For  a  wavelength  of  850  nm,  this
+implies a minimum switching energy on the order of 0.2 fJ. For the thermal transfer region, it is assumed that
+for  continuous  operation,  the  thermal  energy  present  in  the  device  cannot  be  removed  any  faster  than  100
+W/cm2  (1  mW/mm2).  There  has  been  some  work  done  to  indicate  that  this  value  could  be  as  large  as  1000
+W/cm2. This region also assumes that there will be no more than an increase of 20(cid:176)C in the temperature of
+the device. Devices can be operated in this region using a pulsed rather than continuous mode of operation.
+Thus, high energy pulses can be used if sufﬁcient time is allowed between pulses to allow the absorbed energy
+to  be  removed  from  the  devices.  The  cloud  in  Fig.  79.30  represents  the  performance  capabilities  of  current
+electronic devices. This ﬁgure illustrates that optical devices will not be able to switch states orders of magnitude
+faster than electronic devices when the system is in a continuous rather than a pulsed mode of operation. There
+are, however, other considerations in the use of photonic switching devices than how fast a single device can
+change states. Assume that several physically small devices need to be interconnected so that the state infor-
+mation  of  one  device  can  be  used  to  control  the  state  of  another  device.  To  communicate  this  information,
+there needs to be some type of interconnection with a large bandwidth that will allow short pulses to travel
+between the separated devices. Fortunately, the optical domain can support the bandwidth necessary to allow
+bit rates in excess of 100 Gb/s, which will allow high-speed communication between these individual switching
+devices. In the electrical domain, the communications bandwidth between two or more devices is limited by
+the resistance, capacitance, and inductance of the path between the different devices. Therefore, even though
+photonic devices cannot switch orders of magnitude faster than their electronic counterparts, the communi-
+cations  capability  or  transmission  bandwidth  present  in  the  optical  domain  should  allow  higher  data  rate
+systems than are possible in the electrical domain.

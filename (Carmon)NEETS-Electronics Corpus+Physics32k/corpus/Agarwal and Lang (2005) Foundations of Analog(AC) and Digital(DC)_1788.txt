@@ -1,0 +1,6 @@
+Now, an interesting scenario arises if we close S1 and open S2 after the capacitor voltage
+has risen past V, but before the current reverses direction. Since S2 is now open, the
+capacitor has no path to discharge, and so it holds the final value of its voltage. Then
+when S1 is opened and S2 is closed again, the inductor current charges up the capacitor
+further, thereby further increasing its voltage. If this process is repeated, notice that the
+capacitor voltage will keep rising indefinitely over time.

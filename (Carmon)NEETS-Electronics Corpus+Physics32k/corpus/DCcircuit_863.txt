@@ -1,0 +1,6 @@
+The most common current signal standard in modern use is the 4 to 20 milliamp (4-20 mA)
+loop, with 4 milliamps representing 0 percent of measurement, 20 milliamps representing 100
+percent, 12 milliamps representing 50 percent, and so on. A convenient feature of the 4-20 mA
+standard is its ease of signal conversion to 1-5 volt indicating instruments. A simple 250 ohm
+precision resistor connected in series with the circuit will produce 1 volt of drop at 4 milliamps,
+5 volts of drop at 20 milliamps, etc:

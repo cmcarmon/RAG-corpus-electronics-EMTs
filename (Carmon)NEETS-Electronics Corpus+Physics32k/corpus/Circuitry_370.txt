@@ -1,0 +1,18 @@
+practice, this means that a static value of collector 
+current  will  flow  even  when  there  is  no  signal 
+present.  Furthermore,  the  collector  current  will 
+flow  throughout  the  complete  cycle  of  an  input 
+signal (i.e. conduction will take place over an angle 
+of  360°).  At  no  stage  will  the  transistor  be 
+saturated nor should it be cut-off (i.e. the state in 
+which no collector current flows).  
+ 
+In order to ensure that a static value of collector 
+current  flows  in  a  transistor,  a  small  current  must 
+therefore  be  applied  to  the  base  of  the  transistor. 
+This current can be derived from the same voltage 
+rail that supplies the collector circuit (via the load). 
+Figure  7.31  shows  a  simple  Class  A  common- 
+emitter  amplifier  circuit  in  which  the  base  bias 
+resistor,  R1,  and  collector  load  resistor,  R2,  are 
+connected to a common positive supply rail. 

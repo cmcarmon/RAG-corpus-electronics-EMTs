@@ -1,0 +1,13 @@
+Figure 1-28 shows a two-stage phase splitter. C1 couples the input signal to the base of Q1. R1 
+develops the input signal and provides bias for the base of Q1. R2 provides bias and temperature stability 
+for Q1. C2 decouples signals from the emitter of Q1. R3 develops the output signal of Q1. Since Q1 is 
+configured as a common-emitter amplifier, the output signal of Q1 is 180º out of phase with the input 
+signal and larger in amplitude. C3 couples this output signal to the next stage through R4. R4 allows only 
+a small portion of this output signal to be applied to the base of Q2. R5 develops the input signal and 
+provides bias for the base of Q2. R6 is used for bias and temperature stability for Q2. C4 decouples 
+signals from the emitter of Q2. R7 develops the output signal from Q2. Q2 is configured as a 
+common-emitter amplifier, so the output signal is 180º out of phase with the input signal to Q2 (output 
+signal from Q1). The input signal to Q2 is 180º out of phase with the original input signal, so the output 
+from Q2 is in phase with the original input signal. C5 couples this output signal to the next stage. So the 
+circuitry shown provides two output signals that are 180º out of phase with each other. The output signals 
+are equal in amplitude with each other but larger than the input signal. 

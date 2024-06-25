@@ -1,0 +1,8 @@
+Charge sharing noise is caused by charge redistribution
+between a dynamic evaluation node and intermediate nodes
+in pull-up or pull-down logic stack, as in Figure 7.5. This
+primarily impacts domino nodes, weakly driven pass gate
+latches, and dynamic latches. The primary technology variable
+here is the ratio of junction capacitance to gate and intercon-
+nect capacitance. For most circuits, this noise is not dramatic-
+ally changing with technology scaling.

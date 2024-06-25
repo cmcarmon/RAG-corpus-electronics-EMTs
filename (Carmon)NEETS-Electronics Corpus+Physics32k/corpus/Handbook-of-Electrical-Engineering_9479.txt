@@ -1,0 +1,10 @@
+There are three integrity constraints that are usually imposed on each instance of a relation: primary key
+integrity, entity integrity, and referential integrity. The key integrity constraint requires that no two tuples of
+a  relation  have  the  same  key  value.  The  entity  integrity  constraint  speciﬁes  that  the  key  value  of  each  tuple
+should have a known value (i.e., no 
+ values are allowed for primary keys). The referential integrity constraint
+, then each value
+speciﬁes that if a relation 
+ or must be null. For the database of
+of the foreign key in 
+Fig. 94.2 to be consistent, each value of dept in FAC_INFO must match a value of dept in DEP_CHAIR.

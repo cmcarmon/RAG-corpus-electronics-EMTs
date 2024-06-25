@@ -1,0 +1,6 @@
+TDMA relies on the fact that the audio signal has been digi-
+tized (i.e., divided into a number of millisecond-long packets).
+It allocates a single frequency channel for a short period of
+time and then moves to another channel. The digital samples
+from a single transmitter occupy different time slots in several
+bands at the same time, as shown in Figure 7.2.

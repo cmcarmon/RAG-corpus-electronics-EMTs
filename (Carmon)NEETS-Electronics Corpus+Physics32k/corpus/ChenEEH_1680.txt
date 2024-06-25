@@ -1,0 +1,17 @@
+Even after the dimension of the data set has been reduced,
+the data set is still almost always fairly high-dimensional. There
+have been contributions from three major research commu-
+nities in this direction: computational geometry, database
+management, and pattern recognition. The history of multi-
+dimensional
+indexing techniques can be tracked back to
+middle 1970s when cell methods, quadtree and k-d tree were
+ﬁrst introduced. However, their performance was far from
+satisfactory. Pushed by the then urgent demand of spatial
+indexing from GIS and CAD systems, Guttman proposed the
+R-tree indexing structure in 1984. Some good reviews of vari-
+ous indexing techniques in the context of image retrieval can
+be found in (White and Jain, 1996). Khokhar et al. (1999) have
+dealt with the feature vector formation and its efﬁcient index-
+ing as one problem and suggest a solution in which query
+response time is relatively independent of the database size.

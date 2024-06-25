@@ -1,0 +1,35 @@
+Matched filters are often used in signal detection. As an example, suppose that we wish to judge the distance of an object by reflecting a signal off it. We may choose to transmit a pure-tone sinusoid at 1 Hz. We assume that our received signal is an attenuated and phase-shifted form of the transmitted signal with added noise.
+To judge the distance of the object, we correlate the received signal with a matched filter, which, in the case of white (uncorrelated) noise, is another pure-tone 1-Hz sinusoid. When the output of the matched filter system exceeds a certain threshold, we conclude with high probability that the received signal has been reflected off the object. Using the speed of propagation and the time that we first observe the reflected signal, we can estimate the distance of the object. If we change the shape of the pulse in a specially-designed way, the signal-to-noise ratio and the distance resolution can be even improved after matched filtering: this is a technique known as pulse compression.
+Additionally, matched filters can be used in parameter estimation problems (see estimation theory). To return to our previous example, we may desire to estimate the speed of the object, in addition to its position. To exploit the Doppler effect, we would like to estimate the frequency of the received signal. To do so, we may correlate the received signal with several matched filters of sinusoids at varying frequencies. The matched filter with the highest output will reveal, with high probability, the frequency of the reflected signal and help us determine the speed of the object. This method is, in fact, a simple version of the discrete Fourier transform (DFT). The DFT takes an
+
+
+
+N
+
+
+{\displaystyle N}
+-valued complex input and correlates it with
+
+
+
+N
+
+
+{\displaystyle N}
+matched filters, corresponding to complex exponentials at
+
+
+
+N
+
+
+{\displaystyle N}
+different frequencies, to yield
+
+
+
+N
+
+
+{\displaystyle N}
+complex-valued numbers corresponding to the relative amplitudes and phases of the sinusoidal components (see Moving target indication).

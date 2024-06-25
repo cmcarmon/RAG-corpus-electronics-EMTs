@@ -1,0 +1,6 @@
+A similar method is implicit signature checking (Patel and
+Fung, 1983), which assigns unique signatures to each basic
+block by using the block’s start address, and obtaining an
+implicit signature checking point at the beginning of each
+block. Justifying signatures are embedded at each branch
+instruction.

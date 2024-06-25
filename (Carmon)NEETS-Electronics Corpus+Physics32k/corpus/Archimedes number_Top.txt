@@ -1,0 +1,132 @@
+In viscous fluid dynamics, the Archimedes number (Ar) (not to be confused with Archimedes' constant, π), named after the ancient Greek scientist Archimedes is used to determine the motion of fluids due to density differences. It is a dimensionless number defined as the ratio of external forces to internal viscous forces and has the form:
+
+
+
+
+
+A
+r
+
+=
+
+
+
+g
+
+L
+
+3
+
+
+
+ρ
+
+ℓ
+
+
+(
+ρ
+−
+
+ρ
+
+ℓ
+
+
+)
+
+
+μ
+
+2
+
+
+
+
+
+
+{\displaystyle \mathrm {Ar} ={\frac {gL^{3}\rho _{\ell }(\rho -\rho _{\ell })}{\mu ^{2}}}}
+
+where:
+g is the local external field (for example gravitational acceleration), m/s2,
+ρl is the density of the fluid, kg/m3,
+ρ is the density of the body, kg/m3,
+µ is the dynamic viscosity, kg/ms,
+L is the characteristic length of body, m.
+When analyzing potentially mixed heat convection of a liquid, the Archimedes number parametrizes the relative strength of free and forced convection. When Ar >> 1 natural convection dominates, i.e. less dense bodies rise and denser bodies sink, and when Ar << 1 forced convection dominates.
+When the density difference is due to heat transfer (e.g. fluid being heated and causing a temperature difference between different parts of the fluid), then we may write
+
+
+
+
+
+
+
+ρ
+−
+
+ρ
+
+0
+
+
+
+
+ρ
+
+0
+
+
+
+
+=
+β
+
+(
+
+
+T
+
+0
+
+
+−
+T
+
+)
+
+
+
+{\displaystyle {\frac {\rho -\rho _{0}}{\rho _{0}}}=\beta \left(T_{0}-T\right)}
+
+where:
+β is the volumetric expansion coefficient, 1/K,
+T is the temperature, K
+subscript 0 refers to a reference point within the fluid body, usually the point of lowest or initial temperature.
+Doing this gives the Grashof number, i.e. the Archimedes and Grashof numbers are equivalent but suited to describing situations where there is a material difference in density and heat transfer causes the density difference respectively. The Archimedes number is related to both the Richardson number and Reynolds number via
+
+
+
+
+
+A
+r
+
+=
+
+R
+i
+
+
+
+
+R
+e
+
+
+2
+
+
+
+
+{\displaystyle \mathrm {Ar} =\mathrm {Ri} \,\mathrm {Re} ^{2}}

@@ -1,0 +1,4 @@
+In the following discussion, let K(s) be the complexity of the string s.
+It is not hard to see that the minimal description of a string cannot be too much larger than the string itself — the program GenerateFixedString above that outputs s is a fixed amount larger than s.
+Theorem: There is a constant c such that
+∀s. K(s) ≤ |s| + c.

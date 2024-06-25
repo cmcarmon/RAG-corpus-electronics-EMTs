@@ -1,0 +1,7 @@
+The simple circuit topology of Figure 2.30 is so common that the voltage-
+divider relation given by Equation 2.48 will become a primitive in our circuit
+vocabulary. It is helpful to build up a set of such primitives, which are really
+solved simple cases, to speed up circuit analysis, and to facilitate intuition.
+A simple mnemonic: For the voltage v2, take the resistance associated with v2
+divided by the sum of the two resistances, multiplied by the voltage applied to
+the pair.

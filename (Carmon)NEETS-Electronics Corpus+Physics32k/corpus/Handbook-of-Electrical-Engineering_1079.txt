@@ -1,0 +1,5 @@
+Properties of the DFT
+Most of the properties listed in Table 14.5 for the DFT are similar to those of the z-transform and the DTFT,
+although  there  are  some  important  differences.  For  example,  Property  5  (time-shifting  property),  holds  for
+circular shifts of the ﬁnite-length sequence s[n], which is consistent with the notion that the DFT treats s[n]
+as one period of a periodic sequence. Also, the multiplication of two DFTs results in the circular convolution

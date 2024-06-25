@@ -1,0 +1,11 @@
+where dfS is the small change in surface potential that corresponds to our incremental change in gate charge,
+qNinv  is  the  inversion-layer  charge/unit  area,  and  QD  is  the  depletion-layer  charge/unit  area.  According  to
+Eq. (24.32), the two types of response are equal at threshold, so one is larger than the other on either side of
+this condition. To be more quantitative, the rate of increase in qNinv is exponential; that is, its rate of change
+is proportional to qNinv, so as qNinv increases, so does the left side of Eq. (24.32). On the other hand, QD has a
+square-root dependence on fS, which means its rate of change becomes smaller as QD increases. Thus, as surface
+potential is increased, the left side of Eq. (24.32) increases proportional to qNinv until, at threshold, Eq. (24.32)
+is satisﬁed. Then, beyond threshold, the exponential increase in qNinv with fS swamps QD, making change in
+qNinv the dominant response. Likewise, below threshold, the exponential decrease in qNinv with decreasing fS
+makes qNinv negligible and change in QD becomes the dominant response. The abruptness of this change in
+behavior is the reason for the term threshold to describe MOSFET switching.

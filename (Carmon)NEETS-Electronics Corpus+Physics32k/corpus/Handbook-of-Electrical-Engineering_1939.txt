@@ -1,0 +1,4 @@
+To illustrate the usefulness of retiming, consider the data ﬂow graph of a two-stage pipelined lattice digital
+ﬁlter graph shown in Fig. 18.3(a) and its equivalent pipelined-retimed data ﬂow graph shown in Fig. 18.3(b).
+If the multiply time is two units and the add time is one unit, the architecture in Fig. 18.3(a) can be clocked
+with period 10 units whereas the architecture in Fig. 18.3(b) can be clocked with period 2 units.

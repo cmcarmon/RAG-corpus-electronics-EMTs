@@ -1,0 +1,83 @@
+The effect of the helical field is to bend the path of a particle so it describes a loop around the cross section of the containment cylinder. At any given point in its orbit around the long axis of the toroid, the particle will be moving at an angle, θ.
+In the simple case, when the particle has completed one orbit of the reactor's major axis and returned to its original location, the fields will have made it complete one orbit of the minor axis as well. In this case the rotational transform is 1.
+In the more typical case, the fields do not "line up" this way, and the particle will not return to exactly the same location. In this case the rotational transform is calculated thus:
+
+
+
+
+i
+=
+2
+π
+⋅
+
+
+
+R
+⋅
+
+B
+
+p
+
+
+
+
+r
+⋅
+
+B
+
+t
+
+
+
+
+
+
+
+{\displaystyle i=2\pi \cdot {\frac {R\cdot B_{p}}{r\cdot B_{t}}}}
+
+where R is the major radius,
+
+
+
+r
+
+
+{\displaystyle r}
+the minor radius,
+
+
+
+
+B
+
+p
+
+
+
+
+{\displaystyle B_{p}}
+the poloidal field strength, and
+
+
+
+
+B
+
+t
+
+
+
+
+{\displaystyle B_{t}}
+the toroidal field. As the fields typically vary with their location within the cylinder,
+
+
+
+i
+
+
+{\displaystyle i}
+varies with location on the minor radius, and is expressed i(r).

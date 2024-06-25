@@ -1,0 +1,4 @@
+In most cases the input conditions ~S ~R = 00 (S R = 11) are not allowed for the same reasons provided
+above for the S-R NOR latch. For ~S ~R = 01 (S R = 10), Q = 1, indicating that the output for the next state
+is set. For ~S ~R = 10 (S R = 01), Q = 0, specifying that the output for the next state is reset. For ~S ~R = 11
+(S R = 00), Q = Q0, illustrating that the output for the next state Q is the same as the present state output Q0.

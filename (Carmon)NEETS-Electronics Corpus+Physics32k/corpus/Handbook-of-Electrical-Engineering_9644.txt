@@ -1,0 +1,6 @@
+Virtual  memory  allows  a  program  to  use  more
+memory than is physically present on the machine. The operating system implements virtual memory by using
+an  external  device,  typically  a  disk,  to  store  portions  of  the  program  that  are  not  currently  in  use.  When  a
+  to  the  operating  system,
+program  attempts  to  access  memory  temporarily  stored  on  disk,  the  MMU  traps
+which reads the memory from disk and restarts the program.

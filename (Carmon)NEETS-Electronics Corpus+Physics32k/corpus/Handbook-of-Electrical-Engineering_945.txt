@@ -1,0 +1,9 @@
+Steps Involved in Device Characterization
+Device characterization begins with a test chip. Without the proper test chip structures, proper device modeling
+cannot be done from measured data. A good test chip for MOS technology would include transistors of varying
+geometries, gate oxide capacitance structures, junction diode capacitance structures, and overlap capacitance
+structures. This would be a minimal test chip. Additional structures might include ring oscillators and other
+circuits for checking the AC performance of the models obtained. It is very important that the transistors be
+well designed and their geometries be chosen appropriate for the technology as well as the desired device model.
+Although a complete test chip description is beyond the scope of this book, be aware that even perfect device
+models cannot correct for a poor test chip.

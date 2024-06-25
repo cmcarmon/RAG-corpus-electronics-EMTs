@@ -1,0 +1,29 @@
+t
+(
+v
+) is known as
+t
+(
+v
+) is a low-pass, 
+where 
+W
+the complex envelope of 
+samples per second without aliasing. This notation is disturbing to engineers accustomed to viewing all time
+domain signals as real. However, a complete theory exists for complex time domain signals, and with surprisingly
+little effort one can deﬁne convolution, Fourier transforms, analog-to-digital and digital-to-analog conversions,
+ are known, the LPE mapping is
+and many other signal processing algorithms for complex signals. If 
+t
+(
+v
+). While it is conceptually simpler to sample the
+one-to-one so that 
+and  avoid  the  mathematical  difﬁculties  of  the  LPE  representation,  the
+f
+CT  signals  at  a  rate  in  excess  of  2
+h 
+W
+ makes the LPE far more efﬁcient for computer simulation. This type
+ and 
+tremendous difference between 

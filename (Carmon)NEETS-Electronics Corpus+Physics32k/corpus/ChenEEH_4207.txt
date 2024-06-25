@@ -1,0 +1,17 @@
+needed to regulate an access to the common medium. There
+are two approaches for control of the multiple transmissions.
+In the centralized approach, a station on the network is
+designated as a primary station, and the rest of the stations
+are the secondary stations. All communications have to be
+polled and selected by the primary station. The primary station
+polls for a secondary station on the network for transmission
+and then selects a speciﬁc secondary station for the reception
+of a message. There is no direct transmission between any two
+secondary stations. In the distributed approach, each station
+has a MAC to decide when it can transmit, and the direct
+transmission occurs between any two stations. The distributed
+approach is currently used by most local networks. The advan-
+tages and disadvantages of the centralized approach are in the
+following list. Note that the opposite of the advantages and
+disadvantages on the list would become the disadvantages and
+advantages of the distributed approach, respectively.

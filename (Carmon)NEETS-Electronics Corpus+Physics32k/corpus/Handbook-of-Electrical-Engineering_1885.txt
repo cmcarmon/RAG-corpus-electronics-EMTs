@@ -1,0 +1,8 @@
+The major difference between VLIW architectures and the superscalar architectures found in modern micro-
+processors is that VLIW machines have statically scheduled operations. A superscalar machine has hardware that
+examines the instruction stream to determine what operations can be performed in parallel; for example, when
+two independent operations appear in consecutive instructions, those instructions can be executed in parallel.
+A VLIW machine relies on a compiler to identify parallelism in the program and to pack those operations into
+instruction words. This requires sophisticated compilers that can extract parallelism and effectively make use of
+it when generating instructions. Video is especially well-suited to VLIW because video programs have a great
+deal of parallelism that is relatively easy to identify and take advantage of in a VLIW machine.

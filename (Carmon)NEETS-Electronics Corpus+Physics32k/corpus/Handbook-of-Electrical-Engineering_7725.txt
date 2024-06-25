@@ -1,0 +1,7 @@
+A  low-performance  I/O  system  might  dedicate  the  pathway  between  the  host  and  the  disk  for  the  entire
+duration of the seek, rotate, and transfer times. Assuming small blocksizes, transfer time is a small component
+of the overall service time, and these pathways can be better utilized if they are shared among multiple devices.
+Thus, higher performance systems support independent seeks, in which a device can be directed to detach itself
+from the pathway while seeking to the desired track (recall the discussion of dynamic path reconnect in the
+previous  section).  The  advantage  is  that  multiple  seeks  can  be  overlapped,  reducing  overall  I/O  latency  and
+better utilizing the available I/O bandwidth.

@@ -1,0 +1,69 @@
+The spacecraft is assumed to be using chemical propulsion and the Oberth effect.
+According to Marsden and Ross, "The energy levels of the Sun–Earth L1 and L2 points differ from those of the Earth–Moon system by only 50 m/s (as measured by maneuver velocity)."
+We may apply the formula
+
+
+
+
+Δ
+v
+=
+
+
+
+μ
+
+r
+
+1
+
+
+
+
+
+
+(
+
+
+
+
+
+2
+
+r
+
+2
+
+
+
+
+
+r
+
+1
+
+
++
+
+r
+
+2
+
+
+
+
+
+
+−
+1
+
+)
+
+
+
+{\displaystyle \Delta v={\sqrt {\frac {\mu }{r_{1}}}}\left({\sqrt {\frac {2r_{2}}{r_{1}+r_{2}}}}-1\right)}
+
+(where μ = GM is the standard gravitational parameter of the sun, see Hohmann transfer orbit) to calculate the Δv in km/s needed to arrive at various destinations from Earth (assuming circular orbits for the planets, and using perihelion distance for Pluto). In this table, the column labeled "Δv to enter Hohmann orbit from Earth's orbit" gives the change from Earth's velocity to the velocity needed to get on a Hohmann ellipse whose other end will be at the desired distance from the sun. The column labeled "v exiting LEO" gives the velocity needed (in a non-rotating frame of reference centred on Earth) when 300 km above Earth's surface. This is obtained by adding to the specific kinetic energy the square of the speed (7.73 km/s) of this low Earth orbit (that is, the depth of Earth's gravity well at this LEO). The column "Δv from LEO" is simply the previous speed minus 7.73 km/s.
+Note that the values in the table only give the Δv needed to get to the orbital distance of the planet. The speed relative to the planet will still be considerable, and in order to go into orbit around the planet either aerocapture is needed using the planet's atmosphere, or more Δv is needed.
+The New Horizons space probe to Pluto achieved a near-Earth speed of over 16 km/s which was enough to escape from the sun. (It also got a boost from a fly-by of Jupiter.)
+To get to the sun, it is actually not necessary to use a Δv of 24 km/s. One can use 8.8 km/s to go very far away from the sun, then use a negligible Δv to bring the angular momentum to zero, and then fall into the sun. This can be considered a sequence of two Hohmann transfers, one up and one down. Also, the table does not give the values that would apply when using the moon for a gravity assist. There are also possibilities of using one planet, like Venus which is the easiest to get to, to assist getting to other planets or the sun. The Galileo spacecraft used Venus once and Earth twice in order to reach Jupiter. The Ulysses solar probe used Jupiter to attain polar orbit around the sun.

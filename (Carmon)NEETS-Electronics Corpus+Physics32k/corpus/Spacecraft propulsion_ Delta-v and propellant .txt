@@ -1,0 +1,216 @@
+Exhausting the entire usable propellant of a spacecraft through the engines in a straight line in free space would produce a net velocity change to the vehicle; this number is termed delta-v (
+
+
+
+Δ
+v
+
+
+{\displaystyle \Delta v}
+).
+If the exhaust velocity is constant then the total
+
+
+
+Δ
+v
+
+
+{\displaystyle \Delta v}
+of a vehicle can be calculated using the rocket equation, where M is the mass of propellant, P is the mass of the payload (including the rocket structure), and
+
+
+
+
+v
+
+e
+
+
+
+
+{\displaystyle v_{e}}
+is the velocity of the rocket exhaust. This is known as the Tsiolkovsky rocket equation:
+
+
+
+
+Δ
+v
+=
+
+v
+
+e
+
+
+ln
+⁡
+
+(
+
+
+
+M
++
+P
+
+P
+
+
+)
+
+.
+
+
+{\displaystyle \Delta v=v_{e}\ln \left({\frac {M+P}{P}}\right).}
+
+For historical reasons, as discussed above,
+
+
+
+
+v
+
+e
+
+
+
+
+{\displaystyle v_{e}}
+is sometimes written as
+
+
+
+
+
+v
+
+e
+
+
+=
+
+I
+
+sp
+
+
+
+g
+
+0
+
+
+
+
+{\displaystyle v_{e}=I_{\text{sp}}g_{0}}
+
+where
+
+
+
+
+I
+
+sp
+
+
+
+
+{\displaystyle I_{\text{sp}}}
+is the specific impulse of the rocket, measured in seconds, and
+
+
+
+
+g
+
+0
+
+
+
+
+{\displaystyle g_{0}}
+is the gravitational acceleration at sea level.
+For a high delta-v mission, the majority of the spacecraft's mass needs to be reaction mass. Because a rocket must carry all of its reaction mass, most of the initially-expended reaction mass goes towards accelerating reaction mass rather than payload. If the rocket has a payload of mass P, the spacecraft needs to change its velocity by
+
+
+
+Δ
+v
+
+
+{\displaystyle \Delta v}
+, and the rocket engine has exhaust velocity ve, then the reaction mass M which is needed can be calculated using the rocket equation and the formula for
+
+
+
+
+I
+
+sp
+
+
+
+
+{\displaystyle I_{\text{sp}}}
+:
+
+
+
+
+M
+=
+P
+
+(
+
+
+e
+
+
+
+Δ
+v
+
+
+v
+
+e
+
+
+
+
+
+−
+1
+
+)
+
+.
+
+
+{\displaystyle M=P\left(e^{\frac {\Delta v}{v_{e}}}-1\right).}
+
+For
+
+
+
+Δ
+v
+
+
+{\displaystyle \Delta v}
+much smaller than ve, this equation is roughly linear, and little reaction mass is needed. If
+
+
+
+Δ
+v
+
+
+{\displaystyle \Delta v}
+is comparable to ve, then there needs to be about twice as much fuel as combined payload and structure (which includes engines, fuel tanks, and so on). Beyond this, the growth is exponential; speeds much higher than the exhaust velocity require very high ratios of fuel mass to payload and structural mass.
+For a mission, for example, when launching from or landing on a planet, the effects of gravitational attraction and any atmospheric drag must be overcome by using fuel. It is typical to combine the effects of these and other effects into an effective mission delta-v. For example, a launch mission to low Earth orbit requires about 9.3–10 km/s delta-v. These mission delta-vs are typically numerically integrated on a computer.
+Some effects such as Oberth effect can only be significantly utilised by high thrust engines such as rockets; i.e., engines that can produce a high g-force (thrust per unit mass, equal to delta-v per unit time).

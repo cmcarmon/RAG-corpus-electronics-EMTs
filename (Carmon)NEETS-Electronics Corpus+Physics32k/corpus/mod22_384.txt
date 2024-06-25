@@ -1,0 +1,4 @@
+One way to design or organize the primary storage section is to store a fixed number of characters 
+(bytes) at each address location. We can then reference these characters as a single entity called a word, as 
+illustrated in figure 4-9, view A. The name CHARLIE  (address location 400) or the amount he is paid, in 
+this case $69.00 (address location 401), are each treated as a single word. Computers that are built to 

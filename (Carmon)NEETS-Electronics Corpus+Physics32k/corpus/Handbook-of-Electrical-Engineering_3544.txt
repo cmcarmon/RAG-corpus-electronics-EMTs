@@ -1,0 +1,4 @@
+Logic simulation is computationally intensive for large, complex designs. As an example, consider simulating
+1 s of a 200K-gate, 20-MHz processor design. By assuming that, on average, only 10% of the total 200K gates
+are active or sensitized on each processor clock cycle, Eq. 34.1 shows that simulating 1 s of actual processor
+time equates to 400 billion events.

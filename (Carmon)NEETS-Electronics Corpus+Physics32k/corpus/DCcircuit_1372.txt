@@ -1,0 +1,4 @@
+Reversing the direction of wiper motion on the potentiometer (going ”down” rather than
+”up”) will result in its end-to-end resistance increasing. This will result in circuit current
+decreasing (a negative ﬁgure for di/dt). The inductor, always opposing any change in current,
+will produce a voltage drop opposed to the direction of change:

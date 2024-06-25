@@ -1,0 +1,329 @@
+In a configuration where the pivot point of the pendulum is fixed in space, the equation of motion is similar to that for an uninverted pendulum. The equation of motion below assumes no friction or any other resistance to movement, a rigid massless rod, and the restriction to 2-dimensional movement.
+
+
+
+
+
+
+
+θ
+¨
+
+
+
+−
+
+
+g
+ℓ
+
+
+sin
+⁡
+θ
+=
+0
+
+
+{\displaystyle {\ddot {\theta }}-{g \over \ell }\sin \theta =0}
+
+Where
+
+
+
+
+
+
+θ
+¨
+
+
+
+
+
+{\displaystyle {\ddot {\theta }}}
+is the angular acceleration of the pendulum,
+
+
+
+g
+
+
+{\displaystyle g}
+is the standard gravity on the surface of the Earth,
+
+
+
+ℓ
+
+
+{\displaystyle \ell }
+is the length of the pendulum, and
+
+
+
+θ
+
+
+{\displaystyle \theta }
+is the angular displacement measured from the equilibrium position.
+When added to both sides, it will have the same sign as the angular acceleration term:
+
+
+
+
+
+
+
+θ
+¨
+
+
+
+=
+
+
+g
+ℓ
+
+
+sin
+⁡
+θ
+
+
+{\displaystyle {\ddot {\theta }}={g \over \ell }\sin \theta }
+
+Thus, the inverted pendulum will accelerate away from the vertical unstable equilibrium in the direction initially displaced, and the acceleration is inversely proportional to the length. Tall pendulums fall more slowly than short ones.
+Derivation using torque and moment of inertia:
+
+The pendulum is assumed to consist of a point mass, of mass
+
+
+
+m
+
+
+{\displaystyle m}
+, affixed to the end of a massless rigid rod, of length
+
+
+
+ℓ
+
+
+{\displaystyle \ell }
+, attached to a pivot point at the end opposite the point mass.
+The net torque of the system must equal the moment of inertia times the angular acceleration:
+
+
+
+
+
+
+τ
+
+
+
+n
+e
+t
+
+
+
+=
+I
+
+
+
+θ
+¨
+
+
+
+
+
+{\displaystyle {\boldsymbol {\tau }}_{\mathrm {net} }=I{\ddot {\theta }}}
+
+The torque due to gravity providing the net torque:
+
+
+
+
+
+
+τ
+
+
+
+n
+e
+t
+
+
+
+=
+m
+g
+ℓ
+sin
+⁡
+θ
+
+
+
+
+{\displaystyle {\boldsymbol {\tau }}_{\mathrm {net} }=mg\ell \sin \theta \,\!}
+
+Where
+
+
+
+θ
+
+
+
+{\displaystyle \theta \ }
+is the angle measured from the inverted equilibrium position.
+The resulting equation:
+
+
+
+
+I
+
+
+
+θ
+¨
+
+
+
+=
+m
+g
+ℓ
+sin
+⁡
+θ
+
+
+
+
+{\displaystyle I{\ddot {\theta }}=mg\ell \sin \theta \,\!}
+
+The moment of inertia for a point mass:
+
+
+
+
+I
+=
+m
+
+R
+
+2
+
+
+
+
+{\displaystyle I=mR^{2}}
+
+In the case of the inverted pendulum the radius is the length of the rod,
+
+
+
+ℓ
+
+
+{\displaystyle \ell }
+.
+Substituting in
+
+
+
+I
+=
+m
+
+ℓ
+
+2
+
+
+
+
+{\displaystyle I=m\ell ^{2}}
+
+
+
+
+
+m
+
+ℓ
+
+2
+
+
+
+
+
+θ
+¨
+
+
+
+=
+m
+g
+ℓ
+sin
+⁡
+θ
+
+
+
+
+{\displaystyle m\ell ^{2}{\ddot {\theta }}=mg\ell \sin \theta \,\!}
+
+Mass and
+
+
+
+
+ℓ
+
+2
+
+
+
+
+{\displaystyle \ell ^{2}}
+is divided from each side resulting in:
+
+
+
+
+
+
+
+θ
+¨
+
+
+
+=
+
+
+g
+ℓ
+
+
+sin
+⁡
+θ
+
+
+{\displaystyle {\ddot {\theta }}={g \over \ell }\sin \theta }

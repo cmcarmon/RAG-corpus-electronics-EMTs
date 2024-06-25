@@ -1,0 +1,282 @@
+Some of the Rössler attractor's elegance is due to two of its equations being linear; setting
+
+
+
+z
+=
+0
+
+
+{\displaystyle z=0}
+, allows examination of the behavior on the
+
+
+
+x
+,
+y
+
+
+{\displaystyle x,y}
+plane
+
+
+
+
+
+
+{
+
+
+
+
+
+
+d
+x
+
+
+d
+t
+
+
+
+=
+−
+y
+
+
+
+
+
+
+
+d
+y
+
+
+d
+t
+
+
+
+=
+x
++
+a
+y
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{cases}{\frac {dx}{dt}}=-y\\{\frac {dy}{dt}}=x+ay\end{cases}}}
+
+The stability in the
+
+
+
+x
+,
+y
+
+
+{\displaystyle x,y}
+plane can then be found by calculating the eigenvalues of the Jacobian
+
+
+
+
+
+(
+
+
+
+0
+
+
+−
+1
+
+
+
+
+1
+
+
+a
+
+
+
+)
+
+
+
+
+{\displaystyle {\begin{pmatrix}0&-1\\1&a\\\end{pmatrix}}}
+, which are
+
+
+
+(
+a
+±
+
+
+
+a
+
+2
+
+
+−
+4
+
+
+)
+
+/
+
+2
+
+
+{\displaystyle (a\pm {\sqrt {a^{2}-4}})/2}
+. From this, we can see that when
+
+
+
+0
+<
+a
+<
+2
+
+
+{\displaystyle 0<a<2}
+, the eigenvalues are complex and both have a positive real component, making the origin unstable with an outwards spiral on the
+
+
+
+x
+,
+y
+
+
+{\displaystyle x,y}
+plane. Now consider the
+
+
+
+z
+
+
+{\displaystyle z}
+plane behavior within the context of this range for
+
+
+
+a
+
+
+{\displaystyle a}
+. So long as
+
+
+
+x
+
+
+{\displaystyle x}
+is smaller than
+
+
+
+c
+
+
+{\displaystyle c}
+, the
+
+
+
+c
+
+
+{\displaystyle c}
+term will keep the orbit close to the
+
+
+
+x
+,
+y
+
+
+{\displaystyle x,y}
+plane. As the orbit approaches
+
+
+
+x
+
+
+{\displaystyle x}
+greater than
+
+
+
+c
+
+
+{\displaystyle c}
+, the
+
+
+
+z
+
+
+{\displaystyle z}
+-values begin to climb. As
+
+
+
+z
+
+
+{\displaystyle z}
+climbs, though, the
+
+
+
+−
+z
+
+
+{\displaystyle -z}
+in the equation for
+
+
+
+d
+x
+
+/
+
+d
+t
+
+
+{\displaystyle dx/dt}
+stops the growth in
+
+
+
+x
+
+
+{\displaystyle x}
+.

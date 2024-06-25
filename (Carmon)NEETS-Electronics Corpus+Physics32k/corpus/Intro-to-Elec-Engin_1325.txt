@@ -1,0 +1,6 @@
+When Equation (14.2.8) is not satisﬁed, spectral overlap occurs, thereby causing unwanted
+spurious components in the ﬁltered output. In particular, if any component of x(t) originally at
+(cid:7)
+f
+order to prevent aliasing, one can process the signal x(t) through a low-pass ﬁlter with bandwidth
+Bp ≤ fs /2 prior to sampling.

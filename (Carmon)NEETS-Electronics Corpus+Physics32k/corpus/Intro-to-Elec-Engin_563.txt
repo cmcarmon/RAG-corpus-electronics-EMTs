@@ -1,0 +1,13 @@
+Writing is the same as storing data into memory and reading is the same as retrieving the data later.
+RAM is said to be volatile because its contents are retained only as long as power is present. A
+RAM device is a collection of 2n addressable storage locations, each of which contains k bits. Its
+block diagram is shown in Figure 6.2.16, in which each cell may be a ﬂip-ﬂop or a capacitor, and
+n address lines are decoded to select k cells. A static RAM, in which each cell is a ﬂip-ﬂop, is the
+read-and-write memory that retains its data so long as the power is applied, without any further
+action needed from the computer. Static RAM is used in microprocessor-based systems requiring
+small memory. Common static-RAM sizes are 2K × 8, 8K × 8, and 32K × 8, where K stands for
+210 = 1024. A dynamic RAM, in which each cell is a capacitor (which leaks charges and therefore
+requires continuous refreshing from the computer to maintain its value), is the read-and-write
+memory that is used in large memory systems due to its lower cost and greater density. Common
+dynamic-RAM packages are available in 16K-bit, 64K-bit, 256K-bit, and 1M-bit (where M stands
+for mega = 220) sizes.

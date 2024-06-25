@@ -1,0 +1,8 @@
+calculations entirely in the frequency domain. Using Fourier series, we can calculate how any linear circuit
+will respond to a periodic input.
+4.8 Derivation of the Fourier Transform14
+Fourier series clearly open the frequency domain as an interesting and useful way of determining how circuits
+and systems respond to periodic input signals. Can we use similar techniques for non-periodic signals? What
+is the response of the ﬁlter to a single pulse? Addressing these issues requires us to ﬁnd the Fourier spectrum
+of all signals, both periodic and non-periodic ones. We need a deﬁnition for the Fourier spectrum of a signal,
+periodic or not. This spectrum is calculated by what is known as the Fourier transform.

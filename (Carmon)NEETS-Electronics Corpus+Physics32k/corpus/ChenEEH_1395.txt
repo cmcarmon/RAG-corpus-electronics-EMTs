@@ -1,0 +1,8 @@
+conﬁgurable memory blocks and special-purpose input/output
+blocks supporting boundary-scan testing (Trimberger, 1994).
+Many experimental FPGA architectures support run-time
+reconﬁguration. Tau et al., (1995) have come up with an
+FPGA that stores multiple conﬁgurations in memory banks.
+In a single clock cycle, which is in the order of tens or hun-
+dreds of nanoseconds, the chip can replace conﬁguration by
+another without erasing partially processed data.

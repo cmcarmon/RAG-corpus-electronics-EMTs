@@ -1,0 +1,5 @@
+The node voltage method of analysis solves for unknown voltages at circuit nodes in terms of
+a system of KCL equations. This analysis looks strange because it involves replacing voltage
+sources with equivalent current sources. Also, resistor values in ohms are replaced by equiv-
+alent conductances in siemens, G = 1/R. The siemens (S) is the unit of conductance, having
+replaced the mho unit. In any event S = Ω−1. And S = mho (obsolete).

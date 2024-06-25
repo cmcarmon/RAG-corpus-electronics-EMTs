@@ -1,0 +1,1 @@
+There is very little in the way of timezone support for JavaScript. Essentially the programmer has to extract the UTC offset by instantiating a time object, getting a GMT time from it, and differencing the two. This does not provide a solution for daylight saving variations.

@@ -1,0 +1,15 @@
+Delay, as the second parameter, speciﬁes the maximum
+delay observed by a data unit on an end-to-end transmission
+(Furht, 1994). The delay encountered in transmitting the
+elements of a multimedia object stream can vary from one
+element to the next. This delay variance can take two forms:
+delay jitter and delay skew. Jitter implies that in an object
+stream, the actual presentation times of various objects shift
+with respect to their desired presentation times. The effect of
+jitter on an object stream is shown in Figure 7.3. In Figure
+7.3(A), each arrow represents the position of an object that is
+equally spaced in time. In Figure 3(B), the dotted arrows
+represent the desired positions of the objects, and the solid
+arrows represent their actual positions. It can be seen in Figure
+3(B) that these objects are randomly displaced from their
+original positions. This effect is called jitter in the timing of

@@ -1,0 +1,14 @@
+A Fast VRM Topology: The Quasi-Square-Wave (QSW) VRM
+To overcome the transient limitation occurring in conven-
+tional VRMs, a smaller output ﬁlter inductance is the most
+desirable option for increasing the energy transfer speed.
+Figure 1.13 shows the quasi-square-wave (QSW) circuit.
+The QSW topology keeps the VRM output inductor current
+touching zero in both sleep and active modes. When Q1 turns
+on,
+is charged to positive by the
+input voltage. After Q1 turns off and before Q2 turns on, the
+inductor current ﬂows through Q2’s body diode. When Q2
+turns on, the inductor current is discharged to negative.
+After Q2 turns off and before Q1 turns on, the inductor
+current ﬂows through Q1’s body diode. Compared with con-

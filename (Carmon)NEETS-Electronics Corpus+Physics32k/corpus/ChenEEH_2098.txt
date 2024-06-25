@@ -1,0 +1,11 @@
+Classes
+One of the central ideas of OO paradigm is data encapsulation
+captured by the class concept. A class is essentially an abstract
+data type with a name, a set of related data ﬁelds (or attri-
+butes), and a set of operations on the data ﬁelds. It is straight-
+forward to use a predicate to denote a data ﬁeld (structure)
+and a transition to represent an operation in Petri nets. The
+current value of a data ﬁeld is determined by the tokens of the
+denoting predicate under the current marking. The meaning
+or deﬁnition of an operation is speciﬁed by the constraint
+associated with the denoting transition.

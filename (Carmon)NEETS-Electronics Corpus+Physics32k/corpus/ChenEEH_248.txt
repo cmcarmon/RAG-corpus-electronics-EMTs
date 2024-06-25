@@ -1,0 +1,16 @@
+The transient limitation of today’s VRM topologies comes
+from their large output ﬁlter inductance. During the transient,
+this large inductor limits the energy transfer speed so that the
+capacitors have to store or discharge all the energy from the
+load. For future microprocessors, because of heavier load cur-
+rents, higher load transient slew rates, and tighter voltage
+tolerance requirements, more decoupling capacitors will be
+required to reduce the second spike, and more VRM output
+bulk capacitors will be required to reduce the third spike. As a
+result, to meet future speciﬁcations, 23 times the decoupling
+capacitors will be needed, and 3 times VRM bulk capacitors
+will be needed (Wong, 1997). The VRM will be very large and
+expensive. The space of the VRM, however, is limited and the
+real estate of the motherboard is expensive. The need for a
+large quantity of capacitors makes VRMs, which use these
+topologies, impractical for future microprocessors.

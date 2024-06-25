@@ -1,0 +1,14 @@
+Built-in simulation capabilities.
+ Many of today’s commercial systems have a non-linear simulation engine
+directly built into the system, avoiding BEACON’s explicit translation step. Simulation results may then
+also be directly displayed on or accessed from the original diagram (e.g., in the form of time histories).
+This allows the user to see immediately the effects of any changes made to the diagram. One drawback
+of this approach is that these non-compiled approaches all have some kind of threaded-code or inter-
+pretative  model  execution,  leading  to  much  slower  simulations  than  explicitly  compiled  simulation
+models such as those coming out of BEACON. Some systems allow for either of the two approaches.
+The avoidance of an explicit netlist.
+ Many systems have a monolithic architecture with no direct access
+to the information in a modeled system. This prevents users from directly interfacing the block-diagram
+editor to other tools or ﬁlters (as often performed on a quite 
+No code-generation.
+of real-time or explicit simulation code.

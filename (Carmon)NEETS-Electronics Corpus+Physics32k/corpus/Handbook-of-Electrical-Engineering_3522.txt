@@ -1,0 +1,30 @@
+-- architecture statement
+architecture
+   
+   
+begin
+  NEXT_STATE: 
+block
+  
+ (CLK=’1’ 
+begin
+  
+      -- guarded conditional concurrent signal assignment statement
+when
+      STATE <= 
+ B 
+when
+                                        C 
+when
+                                        A 
+                                        STATE;
+end block
+  
+  -- unguarded selected concurrent signal assignment statement
+with
+  
+     Z <= ‘0’ 
+              ‘0’ 
+              ‘1’ 
+end
+ FSM;

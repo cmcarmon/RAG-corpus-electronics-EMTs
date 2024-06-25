@@ -1,0 +1,5 @@
+In many occasions, one needs to quantize an image with less
+than 8 bits/pixel. Figure 4.10(A) shows the image LENA quan-
+tized with 4 bits/pixel. One can notice the effect of false
+contours. One way to overcome this problem is to perform
+dithering (Jain, 1989). It consists in adding pseudo-random

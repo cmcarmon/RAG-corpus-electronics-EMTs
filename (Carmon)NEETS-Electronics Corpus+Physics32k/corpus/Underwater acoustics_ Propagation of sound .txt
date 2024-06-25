@@ -1,0 +1,130 @@
+Underwater acoustic propagation depends on many factors. The direction of sound propagation is determined by the sound speed gradients in the water.This is an important thing that happens in water, because the speed of sound travel in water with velocity regular. In the sea the vertical gradients are generally much larger than the horizontal ones. Combining this with a tendency towards increasing sound speed at increasing depth, due to the increasing pressure in the deep sea, causes a reversal of the sound speed gradient in the thermocline, creating an efficient waveguide at the depth, corresponding to the minimum sound speed. The sound speed profile may cause regions of low sound intensity called "Shadow Zones", and regions of high intensity called "Caustics". These may be found by ray tracing methods.
+At equator and temperate latitudes in the ocean, the surface temperature is high enough to reverse the pressure effect, such that a sound speed minimum occurs at depth of a few hundred metres. The presence of this minimum creates a special channel known as Deep Sound Channel, previously known as the SOFAR (sound fixing and ranging) channel, permitting guided propagation of underwater sound for thousands of kilometres without interaction with the sea surface or the seabed. Another phenomenon in the deep sea is the formation of sound focusing areas, known as Convergence Zones. In this case sound is refracted downward from a near-surface source and then back up again. The horizontal distance from the source at which this occurs depends on the positive and negative sound speed gradients. A surface duct can also occur in both deep and moderately shallow water when there is upward refraction, for example due to cold surface temperatures. Propagation is by repeated sound bounces off the surface.
+In general, as sound propagates underwater there is a reduction in the sound intensity over increasing ranges, though in some circumstances a gain can be obtained due to focusing. Propagation loss (sometimes referred to as transmission loss) is a quantitative measure of the reduction in sound intensity between two points, normally the sound source and a distant receiver. If
+
+
+
+
+I
+
+s
+
+
+
+
+{\displaystyle I_{s}}
+is the far field intensity of the source referred to a point 1 m from its acoustic centre and
+
+
+
+
+I
+
+r
+
+
+
+
+{\displaystyle I_{r}}
+is the intensity at the receiver, then the propagation loss is given by
+
+
+
+P
+L
+=
+10
+log
+⁡
+(
+
+I
+
+s
+
+
+
+/
+
+
+I
+
+r
+
+
+)
+
+
+{\displaystyle PL=10\log(I_{s}/I_{r})}
+. In this equation
+
+
+
+
+I
+
+r
+
+
+
+
+{\displaystyle I_{r}}
+is not the true acoustic intensity at the receiver, which is a vector quantity, but a scalar equal to the equivalent plane wave intensity (EPWI) of the sound field. The EPWI is defined as the magnitude of the intensity of a plane wave of the same RMS pressure as the true acoustic field. At short range the propagation loss is dominated by spreading while at long range it is dominated by absorption and/or scattering losses.
+An alternative definition is possible in terms of pressure instead of intensity, giving
+
+
+
+P
+L
+=
+20
+log
+⁡
+(
+
+p
+
+s
+
+
+
+/
+
+
+p
+
+r
+
+
+)
+
+
+{\displaystyle PL=20\log(p_{s}/p_{r})}
+, where
+
+
+
+
+p
+
+s
+
+
+
+
+{\displaystyle p_{s}}
+is the RMS acoustic pressure in the far-field of the projector, scaled to a standard distance of 1 m, and
+
+
+
+
+p
+
+r
+
+
+
+
+{\displaystyle p_{r}}
+is the RMS pressure at the receiver position.
+These two definitions are not exactly equivalent because the characteristic impedance at the receiver may be different from that at the source. Because of this, the use of the intensity definition leads to a different sonar equation to the definition based on a pressure ratio. If the source and receiver are both in water, the difference is small.

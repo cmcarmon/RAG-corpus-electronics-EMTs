@@ -1,0 +1,12 @@
+release the free token unless the leading edge of the
+busy token is returned. The Multiple Token protocol
+releases the free token as soon as it has completed
+transmitting release occurs even if the busy token has
+not returned). The Single Frame protocol waits until
+all of data has been purged and then releases a free
+token. In general, if the frame length is smaller than
+the ring length measured in bit time, the multiple
+protocols have better
+throughput. Regardless of
+which protocol is used, the length of a ring should
+be long enough to hold a free token.

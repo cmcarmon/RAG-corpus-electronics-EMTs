@@ -1,0 +1,12 @@
+ the state
+can have large variations, and small inputs or small changes in the initial state may produce large variations in
+the output. A common example of an unstable system is illustrated by someone pointing the microphone of
+a public address (PA) system at a speaker; a loud high-pitched tone results. Often instabilities are caused by
+too much gain, so to quiet the PA system, decrease the gain by pointing the microphone away from the speaker.
+Discrete systems can also be unstable. A friend of ours once provided an example. She was sitting in a chair
+reading and she got cold. So she went over and turned up the thermostat on the heater. The house warmed
+up. She got hot, so she got up and turned down the thermostat. The house cooled off. She got cold and turned
+up the thermostat. This process continued until someone ﬁnally suggested that she put on a sweater (reducing
+the  gain  of  her  heat  loss  system).  She  did,  and  was  much  more  comfortable. We  modeled  this  as  a  discrete
+system,  because  she  seemed  to  sample  the  environment  and  produce  outputs  at  discrete  intervals  about  15
+minutes apart.

@@ -1,0 +1,5 @@
+where s(x,y) represents the magnetic resonance signal at position (x,y) (Gx,Gy) are the x and y  gradients, tx is
+time within the data collection window, tyi is the y direction gradient application times, and g is the gyromagnetic
+ratio.  The  two-dimensional  spatial  integration  is  obtained  by  appropriate  geometry  of  the  detection  coil.
+Collecting  a  number  of  such  signals  for  a  range  of  tyi,  we  can  obtain  the  two-dimensional  function  S(tx,ty).
+Comparing this to the two-dimensional Fourier transform relation

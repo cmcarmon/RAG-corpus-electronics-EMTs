@@ -1,0 +1,7 @@
+An even more efﬁcient way to implement the same combinational logic function would be to utilize part of
+a simple programmable read only memory (PROM) circuit such as the 27S19 fuse programmable PROM in
+Fig. 81.20. An equivalent architectural gate structure for a portion of the PROM is shown in Fig. 81.21. The
+X’s in Fig. 81.21 represent fuses that are left intact after programming the device. The code for programming
+the PROM or generating the truth table of the function can be read either from the truth table (Table 81.4) or
+directly from each line of the circuit diagram in Fig. 81.21 (expressed in hexadecimal: 7E, 30, 6D, 79, 33, 5B,
+5F,  70,  7F,  7B,  77,  1F,  4E,  3D,  4F,  and  47)  beginning  with  the  ﬁrst  line,  which  represents  binary  input  0000,

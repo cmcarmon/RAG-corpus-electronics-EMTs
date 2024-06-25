@@ -1,0 +1,5 @@
+Assuming the set is not depleted, the programmer repeats this process P times, until all of the operators have
+been selected and placed in the program. The information content contributed by the operators is P log(P),
+and if we repeat the process for selecting and placing all Q operands, we get Q log(Q) steps again. The sum of
+these two processes yields P log(P) + Q log(Q) symbols. This is known as Halstead’s metric for program length
+[Halstead, 1977].

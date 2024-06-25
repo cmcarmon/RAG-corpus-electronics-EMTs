@@ -1,0 +1,138 @@
+Newton's laws and Newtonian mechanics in general were first developed to describe how forces affect idealized point particles rather than three-dimensional objects. However, in real life, matter has extended structure and forces that act on one part of an object might affect other parts of an object. For situations where lattice holding together the atoms in an object is able to flow, contract, expand, or otherwise change shape, the theories of continuum mechanics describe the way forces affect the material. For example, in extended fluids, differences in pressure result in forces being directed along the pressure gradients as follows:
+
+
+
+
+
+
+
+
+F
+→
+
+
+V
+
+
+=
+−
+
+
+
+∇
+→
+
+
+
+P
+
+
+{\displaystyle {\frac {\vec {F}}{V}}=-{\vec {\nabla }}P}
+
+where
+
+
+
+V
+
+
+{\displaystyle V}
+is the volume of the object in the fluid and
+
+
+
+P
+
+
+{\displaystyle P}
+is the scalar function that describes the pressure at all locations in space. Pressure gradients and differentials result in the buoyant force for fluids suspended in gravitational fields, winds in atmospheric science, and the lift associated with aerodynamics and flight.
+A specific instance of such a force that is associated with dynamic pressure is fluid resistance: a body force that resists the motion of an object through a fluid due to viscosity. For so-called "Stokes' drag" the force is approximately proportional to the velocity, but opposite in direction:
+
+
+
+
+
+
+
+
+F
+→
+
+
+
+
+
+d
+
+
+
+=
+−
+b
+
+
+
+v
+→
+
+
+
+
+
+
+{\displaystyle {\vec {F}}_{\mathrm {d} }=-b{\vec {v}}\,}
+
+where:
+
+
+
+
+b
+
+
+{\displaystyle b}
+is a constant that depends on the properties of the fluid and the dimensions of the object (usually the cross-sectional area), and
+
+
+
+
+
+
+
+
+v
+→
+
+
+
+
+
+
+{\displaystyle \scriptstyle {\vec {v}}}
+is the velocity of the object.
+More formally, forces in continuum mechanics are fully described by a stress–tensor with terms that are roughly defined as
+
+
+
+
+σ
+=
+
+
+F
+A
+
+
+
+
+{\displaystyle \sigma ={\frac {F}{A}}}
+
+where
+
+
+
+A
+
+
+{\displaystyle A}
+is the relevant cross-sectional area for the volume for which the stress-tensor is being calculated. This formalism includes pressure terms associated with forces that act normal to the cross-sectional area (the matrix diagonals of the tensor) as well as shear terms associated with forces that act parallel to the cross-sectional area (the off-diagonal elements). The stress tensor accounts for forces that cause all strains (deformations) including also tensile stresses and compressions.

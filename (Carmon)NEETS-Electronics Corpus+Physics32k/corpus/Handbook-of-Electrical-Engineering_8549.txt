@@ -1,0 +1,5 @@
+Diagonal Microinstructions
+Most  cases  ﬁt  in  between  these  two  extremes  (see  Fig.  86.13).  Some  parallelism  is  possible;  however,  micro-
+commands pertaining to a given processing unit are regrouped. This results in shorter microprograms than in
+the  vertical  case  and  may  still  allow  some  optimization.  For  example,  a  diagonal  speciﬁcation  of  an  ALU
+operation is as follows:

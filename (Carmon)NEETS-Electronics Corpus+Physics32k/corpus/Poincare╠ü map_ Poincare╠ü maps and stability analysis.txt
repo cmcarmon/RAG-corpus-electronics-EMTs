@@ -1,0 +1,143 @@
+Poincaré maps can be interpreted as a discrete dynamical system. The stability of a periodic orbit of the original system is closely related to the stability of the fixed point of the corresponding Poincaré map.
+Let (R, M, φ) be a differentiable dynamical system with periodic orbit γ through p. Let
+
+
+
+
+P
+:
+U
+→
+S
+
+
+{\displaystyle P:U\to S}
+
+be the corresponding Poincaré map through p. We define
+
+
+
+
+
+P
+
+0
+
+
+:=
+i
+
+d
+
+U
+
+
+
+
+{\displaystyle P^{0}:=id_{U}}
+
+
+
+
+
+
+P
+
+n
++
+1
+
+
+:=
+P
+∘
+
+P
+
+n
+
+
+
+
+{\displaystyle P^{n+1}:=P\circ P^{n}}
+
+
+
+
+
+
+P
+
+−
+n
+−
+1
+
+
+:=
+
+P
+
+−
+1
+
+
+∘
+
+P
+
+−
+n
+
+
+
+
+{\displaystyle P^{-n-1}:=P^{-1}\circ P^{-n}}
+
+and
+
+
+
+
+P
+(
+n
+,
+x
+)
+:=
+
+P
+
+n
+
+
+(
+x
+)
+
+
+{\displaystyle P(n,x):=P^{n}(x)}
+
+then (Z, U, P) is a discrete dynamical system with state space U and evolution function
+
+
+
+
+P
+:
+
+Z
+
+×
+U
+→
+U
+.
+
+
+{\displaystyle P:\mathbb {Z} \times U\to U.}
+
+Per definition this system has a fixed point at p.
+The periodic orbit γ of the continuous dynamical system is stable if and only if the fixed point p of the discrete dynamical system is stable.
+The periodic orbit γ of the continuous dynamical system is asymptotically stable if and only if the fixed point p of the discrete dynamical system is asymptotically stable.

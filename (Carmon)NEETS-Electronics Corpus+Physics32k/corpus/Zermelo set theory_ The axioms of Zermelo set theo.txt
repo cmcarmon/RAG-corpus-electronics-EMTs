@@ -1,0 +1,16 @@
+Zermelo's axioms are stated for a model some (but not necessarily all) of whose objects are called sets, and the remaining objects are urelements and do not contain any elements. Zermelo's language implicitly includes a membership relation ∈, an equality relation = (if it is not included in the underlying logic), and a unary predicate saying whether an object is a set. Later versions of set theory often assume that all objects are sets so there are no urelements and there is no need for the unary predicate.
+AXIOM I. Axiom of extensionality (Axiom der Bestimmtheit) "If every element of a set M is also an element of N and vice versa ... then M
+
+
+
+≡
+
+
+{\displaystyle \equiv }
+N. Briefly, every set is determined by its elements."
+AXIOM II. Axiom of elementary sets (Axiom der Elementarmengen) "There exists a set, the null set, ∅, that contains no element at all. If a is any object of the domain, there exists a set {a} containing a and only a as an element. If a and b are any two objects of the domain, there always exists a set {a, b} containing as elements a and b but no object x distinct from them both." See Axiom of pairs.
+AXIOM III. Axiom of separation (Axiom der Aussonderung) "Whenever the propositional function –(x) is definite for all elements of a set M, M possesses a subset M'  containing as elements precisely those elements x of M for which –(x) is true."
+AXIOM IV. Axiom of the power set (Axiom der Potenzmenge) "To every set T there corresponds a set T' , the power set of T, that contains as elements precisely all subsets of T ."
+AXIOM V. Axiom of the union (Axiom der Vereinigung) "To every set T there corresponds a set ∪T, the union of T, that contains as elements precisely all elements of the elements of T ."
+AXIOM VI. Axiom of choice (Axiom der Auswahl) "If T is a set whose elements all are sets that are different from ∅ and mutually disjoint, its union ∪T includes at least one subset S1 having one and only one element in common with each element of T ."
+AXIOM VII. Axiom of infinity (Axiom des Unendlichen) "There exists in the domain at least one set Z that contains the null set as an element and is so constituted that to each of its elements a there corresponds a further element of the form {a}, in other words, that with each of its elements a it also contains the corresponding set {a} as element."

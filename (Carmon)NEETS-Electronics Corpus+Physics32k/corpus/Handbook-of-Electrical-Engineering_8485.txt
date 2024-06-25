@@ -1,0 +1,5 @@
+A suggestion for speed improvement of such a process of adding partial product bits in parallel followed in
+the paper published by Dadda [1965]. In his 1965 paper, Dadda introduced a notion of a counter structure
+that will take a number of bits p in the same bit position (of the same “weight”) and output a number q that
+represents  the  count  of  ones  in  the  input.  Dadda  has  introduced  a  number  of  ways  to  compress  the  partial
+product bits using such a counter, which later became known as Dadda’s counter.

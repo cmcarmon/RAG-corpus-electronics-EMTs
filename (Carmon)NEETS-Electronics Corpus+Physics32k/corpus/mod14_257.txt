@@ -1,0 +1,6 @@
+When broken down, the two functions performed by the NOR gate can be represented by the
+equivalent circuit depicted in figure 2-15. When both inputs to the OR gate are LOW, the output is LOW.
+A LOW applied to an inverter gives a HIGH output. If either or both of the inputs to the OR gate are
+HIGH, the output will be HIGH. When this HIGH output is applied to the inverter, the resulting output is
+LOW. The Boolean expression for the output of this NOR gate is f = K L+ . The expression is spoken,
+"K OR L quantity NOT."

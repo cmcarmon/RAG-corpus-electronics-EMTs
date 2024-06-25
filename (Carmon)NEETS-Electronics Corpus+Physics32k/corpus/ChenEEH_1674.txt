@@ -1,0 +1,18 @@
+which is different at each decomposition level. The initial
+threshold is chosen to be half the maximum magnitude at
+ﬁrst decomposition level, whereas successive thresholds are
+given by dividing the threshold at a previous decomposition
+level by 2. During the coding process, a binary map called
+signiﬁcant map is maintained so the coder knows the location
+of signiﬁcant as well as insigniﬁcant coefﬁcients. To index
+texture, a two-bin histogram of a wavelet coefﬁcient at each
+sub band is formed with the count of signiﬁcant and insigniﬁ-
+cant wavelet coefﬁcients in the two bins. For color content
+representation, YUV color space is used. A nonuniform histo-
+gram of 12 bins containing count of signiﬁcant coefﬁcients
+given each of the 12 thresholds is computed for each color
+channel. This way, three 12-bin histograms are computed for
+luminance (Y) and chrominance (U and V) channels. For each
+of the histograms, ﬁrst-, second-, and third-order moments
+(mean, variance, and skewness) are computed and used as
+indexing features for color.

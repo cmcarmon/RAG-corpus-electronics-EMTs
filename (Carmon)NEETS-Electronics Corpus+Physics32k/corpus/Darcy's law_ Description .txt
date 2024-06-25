@@ -1,0 +1,130 @@
+Darcy's law, as refined by Morris Muskat, at constant elevation is a simple proportional relationship between the instantaneous discharge rate through a porous medium, the viscosity of the fluid and the pressure drop over a given distance.
+
+
+
+
+Q
+=
+−
+
+
+
+κ
+A
+
+(
+
+
+p
+
+
+b
+
+
+
+−
+
+p
+
+
+a
+
+
+
+
+)
+
+
+
+μ
+L
+
+
+
+
+.
+
+
+{\displaystyle Q=-{\frac {\kappa A\left(p_{\mathrm {b} }-p_{\mathrm {a} }\right)}{\mu L}}\,.}
+
+The above equation for single phase (fluid) flow is the defining equation for absolute permeability (single phase permeability). The total discharge, Q (units of volume per time, e.g., m3/s) is equal to the product of the intrinsic permeability of the medium, κ (m2), the cross-sectional area to flow, A (units of area, e.g., m2), and the total pressure drop pb − pa (pascals), all divided by the viscosity, μ (Pa·s) and the length over which the pressure drop is taking place L (m).
+The negative sign is needed because fluid flows from high pressure to low pressure. Note that the elevation head must be taken into account if the inlet and outlet are at different elevations. If the change in pressure is negative (where pa > pb), then the flow will be in the positive x direction. There have been several proposals for a constitutive equation for absolute permeability, and the most famous one is probably the Kozeny equation (also called Kozeny–Carman equation).
+Dividing both sides of the equation by the area and using more general notation leads to
+
+
+
+
+q
+=
+−
+
+
+κ
+μ
+
+
+∇
+p
+
+,
+
+
+{\displaystyle q=-{\frac {\kappa }{\mu }}\nabla p\,,}
+
+where q is the flux (discharge per unit area, with units of length per time, m/s) and ∇p is the pressure gradient vector (Pa/m). This value of flux, often referred to as the Darcy flux or Darcy velocity, is not the velocity which the fluid traveling through the pores is experiencing. The fluid velocity (v) is related to the Darcy flux (q) by the porosity (φ). The flux is divided by porosity to account for the fact that only a fraction of the total formation volume is available for flow. The fluid velocity would be the velocity a conservative tracer would experience if carried by the fluid through the formation.
+
+
+
+
+v
+=
+
+
+q
+φ
+
+
+
+.
+
+
+{\displaystyle v={\frac {q}{\varphi }}\,.}
+
+Darcy's law is a simple mathematical statement which neatly summarizes several familiar properties that groundwater flowing in aquifers exhibits, including:
+if there is no pressure gradient over a distance, no flow occurs (these are hydrostatic conditions),
+if there is a pressure gradient, flow will occur from high pressure towards low pressure (opposite the direction of increasing gradient — hence the negative sign in Darcy's law),
+the greater the pressure gradient (through the same formation material), the greater the discharge rate, and
+the discharge rate of fluid will often be different — through different formation materials (or even through the same material, in a different direction) — even if the same pressure gradient exists in both cases.
+A graphical illustration of the use of the steady-state groundwater flow equation (based on Darcy's law and the conservation of mass) is in the construction of flownets, to quantify the amount of groundwater flowing under a dam.
+Darcy's law is only valid for slow, viscous flow; fortunately, most groundwater flow cases fall in this category. Typically any flow with a Reynolds number less than one is clearly laminar, and it would be valid to apply Darcy's law. Experimental tests have shown that flow regimes with Reynolds numbers up to 10 may still be Darcian, as in the case of groundwater flow. The Reynolds number (a dimensionless parameter) for porous media flow is typically expressed as
+
+
+
+
+
+R
+e
+
+=
+
+
+
+ρ
+v
+
+d
+
+30
+
+
+
+μ
+
+
+
+,
+
+
+{\displaystyle \mathrm {Re} ={\frac {\rho vd_{30}}{\mu }}\,,}
+
+where ρ is the density of water (units of mass per volume), v is the specific discharge (not the pore velocity — with units of length per time), d30 is a representative grain diameter for the porous media (often taken as the 30% passing size from a grain size analysis using sieves — with units of length), and μ is the viscosity of the fluid.

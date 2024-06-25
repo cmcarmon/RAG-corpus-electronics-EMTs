@@ -1,0 +1,28 @@
+Routing and Queuing Delay
+The routing and queuing delay, is the only delay components
+that we can reduce (or control) by introducing newer en-
+hanced Internet architecture models. In the best-effort Inter-
+net, every packet is treated equally, regardless of whether it is a
+real-time packet or a non real-time packet. All intermediate
+routers make independent routing decisions for every in-
+coming packet. Thus, a router can be ideally considered as a
+First-In First-Out (FIFO) queuing system. When packets arrive
+at a queue, they have to wait for a random amount of time
+before they can be serviced, which depends on the current load
+on the router. This adds up to the queuing delay. The routing
+and queuing delay is random and, hence, is the major con-
+tributor to jitter in the trafﬁc streams. Sometimes when the
+queuing delay becomes large, the sender application times out
+and resends the packet. This can lead to an avalanche effect
+that leads to congestion and thus increase in queuing delays.
+Different techniques have been adopted to reduce precisely this
+delay component and thus have given rise to newer Internet
+service models. For example, in the simplest case, if there is a
+dedicated virtual circuit connection (with dedicated resources
+in the form of buffers and bandwidth) from the source to the
+destination, then this delay will be negligible. The Integrated
+Services (IntServ) model and Multi-Protocol Label Switching
+(MPLS) model follow this approach. Another option is to use
+a combination of trafﬁc policing, admission control, and
+sophisticated queuing techniques (e.g., priority queuing,
+weighted fair queuing) to provide a ﬁrm upper bound on

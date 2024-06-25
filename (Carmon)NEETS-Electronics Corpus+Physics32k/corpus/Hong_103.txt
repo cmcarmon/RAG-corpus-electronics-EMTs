@@ -1,0 +1,13 @@
+The voltage follower circuit functions in the follow way: if the negative terminal 
+(also the output) is lower than the positive terminal, the gain of the amplifier will make 
+the output more positive and thereby bringing the negative terminal closer to the positive 
+terminal. If the negative terminal is above the positive terminal, the gain of the amplifier 
+will make the output more negative and thereby bringing the negative terminal closer to 
+the positive terminal. From this crude analysis, it is possible to see that regardless of the 
+output starts higher or lower than the input, the feedback mechanism will make the output 
+approach the input voltage. The exact nature of the errors between output and input and 
+the dynamic properties of the voltage signals will be discussed in detail in Section 10 - 
+Feedback. 
+ 
+8.2 Op amp Circuits 
+ 

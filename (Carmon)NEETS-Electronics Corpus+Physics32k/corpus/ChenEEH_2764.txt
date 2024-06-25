@@ -1,0 +1,20 @@
+Example of Calculation of Pulse Propagation in a Two-
+Dimensional Grid
+Figure 9.9 presents an example of the calculation of a radially
+outward-propagating cylindrical wave in a two-dimensional
+TMz grid. A 360  360 – cell square grid with Dx ¼ Dy ¼
+D ¼ 1:0 is used in this example. The grid is numerically excited
+at its center point by applying a unit-step time-function to a
+single Ez ﬁeld component. We assume the Courant factor
+S ¼
+=2, which yields dispersionless propagation for numer-
+2
+ical plane-wave modes propagating along the grid diagonals
+f ¼ 45, 135, 225, and 315. In Figure 9.9(A), we graph
+snapshots of the Ez distribution versus radial distance from
+the source. Here, ﬁeld observations are made along cuts
+through the grid passing through the source and either parallel
+to the principal grid axes f ¼ 0, 90 or parallel to the grid
+diagonal f ¼ 45. The snapshots are taken 232Dt after the
+beginning of time-stepping. At this time, the wave has not
+yet reached the outer grid boundary.

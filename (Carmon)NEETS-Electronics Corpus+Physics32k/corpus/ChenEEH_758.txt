@@ -1,0 +1,13 @@
+3. Finally, the more conﬂicts exist in the conﬂict graph,
+the more costly the graph is. Indeed, every conﬂict
+takes away some freedom for the assignment of arrays
+to memories (see also Subsection 2.6.4). In addition,
+not every conﬂict carries the same weight. For instance,
+a conﬂict between a very small, very heavily accessed
+array and a very large, lightly accessed array is not so
+costly because it is a good idea for energy efﬁciency to
+split these two up over different memories. A conﬂict
+between two arrays of similar size, however, is fairly
+costly because then the two cannot be stored in the
+same memory and potentially have to be combined
+with other arrays that do not match very well.

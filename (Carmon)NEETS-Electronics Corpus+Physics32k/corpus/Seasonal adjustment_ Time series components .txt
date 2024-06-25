@@ -1,0 +1,16 @@
+The investigation of many economic time series becomes problematic due to seasonal fluctuations. Time series are made up of four components:
+St: The seasonal component
+Tt: The trend component
+Ct: The cyclical component
+Et: The error, or irregular component.
+The difference between seasonal and cyclic patterns:
+Seasonal patterns have a fixed and known length, while cyclic patterns have variable and unknown length.
+Cyclic pattern exists when data exhibit rises and falls that are not of fixed period (duration usually of at least 2 years).
+The average length of a cycle is usually longer than that of seasonality.
+The magnitude of cyclic variation is usually more variable than that of seasonal variation.
+The relation between decomposition of time series components
+Additive decomposition: Yt = St + Tt + Ct + Et, where Yt is the data at time t.
+Multiplicative decomposition: Yt = St * Tt * Ct * Et.
+Logs turn multiplicative relationship into an additive relationship: Yt = St * Tt * Ct * Et => log Yt = log St + log Tt + log Ct + log Et:
+An additive model appropriate if the magnitude of seasonal fluctuations does not vary with level.
+If seasonal fluctuations are proportional to level of series, then a multiplicative model is appropriate. Multiplicative decomposition more prevalent with economic series.

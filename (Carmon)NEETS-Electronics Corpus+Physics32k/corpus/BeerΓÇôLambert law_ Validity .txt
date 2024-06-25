@@ -1,0 +1,13 @@
+Under certain conditions Beer–Lambert law fails to maintain a linear relationship between attenuation and concentration of analyte. These deviations are classified into three categories:
+Real—fundamental deviations due to the limitations of the law itself.
+Chemical—deviations observed due to specific chemical species of the sample which is being analyzed.
+Instrument—deviations which occur due to how the attenuation measurements are made.
+There are at least six conditions that need to be fulfilled in order for Beer–Lambert law to be valid. These are:
+The attenuators must act independently of each other.
+The attenuating medium must be homogeneous in the interaction volume.
+The attenuating medium must not scatter the radiation—no turbidity—unless this is accounted for as in DOAS.
+The incident radiation must consist of parallel rays, each traversing the same length in the absorbing medium.
+The incident radiation should preferably be monochromatic, or have at least a width that is narrower than that of the attenuating transition. Otherwise a spectrometer as detector for the power is needed instead of a photodiode which has not a selective wavelength dependence.
+The incident flux must not influence the atoms or molecules; it should only act as a non-invasive probe of the species under study. In particular, this implies that the light should not cause optical saturation or optical pumping, since such effects will deplete the lower level and possibly give rise to stimulated emission.
+If any of these conditions are not fulfilled, there will be deviations from Beer–Lambert law.
+The Beer–Lambert law is not compatible with Maxwell's equations. Being strict, the law does not describe the transmittance through a medium, but the propagation within that medium. It can be made compatible with Maxwell's equations if the transmittance of a sample with solute is ratioed against the transmittance of the pure solvent which explains why it works so well in spectrophotometry. As this is not possible for pure media, the uncritical employment of the Beer–Lambert law can easily generate errors of the order of 100% or more. In such cases it is necessary to apply the Transfer-matrix method.

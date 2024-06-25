@@ -1,0 +1,12 @@
+A non-quantitative description of his third law that Nernst gave at the very beginning was simply that the specific heat can always be made zero by cooling the material down far enough. A modern, quantitative analysis follows.
+Supposed that the heat capacity of a sample in the low temperature region has the form of a power law C(T,X)=C0Tα asymptotically as T→0, and we wish to find which values of α are compatible with the third law. We have
+By the discussion of third law (above), this integral must be bounded as T0→0, which is only possible if α>0. So the heat capacity must go to zero at absolute zero
+if it has the form of a power law. The same argument shows that it cannot be bounded below by a positive constant, even if we drop the power-law assumption.
+On the other hand, the molar specific heat at constant volume of a monatomic classical ideal gas, such as helium at room temperature, is given by CV=(3/2)R with R the molar ideal gas constant. But clearly a constant heat capacity does not satisfy Eq. (12). That is, a gas with a constant heat capacity all the way to absolute zero violates the third law of thermodynamics. We can verify this more fundamentally by substituting CV in Eq. (4), which yields
+In the limit T0 → 0 this expression diverges, again contradicting the third law of thermodynamics.
+The conflict is resolved as follows: At a certain temperature the quantum nature of matter starts to dominate the behavior. Fermi particles follow Fermi–Dirac statistics and Bose particles follow Bose–Einstein statistics. In both cases the heat capacity at low temperatures is no longer temperature independent, even for ideal gases. For Fermi gases
+with the Fermi temperature TF given by
+Here NA is Avogadro's number, Vm the molar volume, and M the molar mass.
+For Bose gases
+with TB given by
+The specific heats given by Eq.(14) and (16) both satisfy Eq.(12). Indeed, they are power laws with α=1 and α=3/2 respectively.

@@ -1,0 +1,18 @@
+Another valuable lesson emerges from this example concerning the diﬀerence between cascading systems and
+cascading circuits. In system theory, systems can be cascaded without changing the input-output relation
+of intermediate systems. In cascading circuits, this ideal is rarely true unless the circuits are so designed.
+Design is in the hands of the engineer; he or she must recognize what have come to be known as loading
+eﬀects. In our simple circuit, you might think that making the resistance RL large enough would do the trick.
+Because the resistors R1 and R2 can have virtually any value, you can never make the resistance of your
+voltage measurement device big enough. Said another way, a circuit cannot be designed in isolation
+that will work in cascade with all other circuits. Electrical engineers deal with this situation through
+the notion of speciﬁcations: Under what conditions will the circuit perform as designed? Thus, you will
+ﬁnd that oscilloscopes and voltmeters have their internal resistances clearly stated, enabling you to determine
+whether the voltage you measure closely equals what was present before they were attached to your circuit.
+Furthermore, since our resistor circuit functions as an attenuator, with the attenuation (a fancy word for
+, we can
+gains less than one) depending only on the ratio of the two resistor values
+select any values for the two resistances we want to achieve the desired attenuation. The designer of this
+circuit must thus specify not only what the attenuation is, but also the resistance values employed so that
+integrators—people who put systems together from component systems—can combine systems together and
+have a chance of the combination working.

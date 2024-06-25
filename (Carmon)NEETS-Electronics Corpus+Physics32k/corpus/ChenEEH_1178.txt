@@ -1,0 +1,26 @@
+Thermal effects are an inseparable aspect of electrical power
+distribution and signal transmission through the interconnects
+due to self-heating (or joule heating) caused by the ﬂow of
+current. Thermal effects impact interconnect design and reli-
+ability in the following ways. First, they limit the maximum
+allowable RMS current density (since the RMS value of the
+current density is responsible for heat generation) in the inter-
+connects to limit the temperature increase. Second, intercon-
+nect lifetime (reliability), which is limited by electromigration
+(EM) (transport of mass in metals under an applied current
+density), has an exponential dependence on the inverse metal
+temperature. Hence, temperature rise of metal interconnects
+due to self-heating phenomena can also limit the maximum
+allowed average current density because EM capability is
+dependent on the average current density (Liew et al., 1990).
+Third, thermally induced open-circuit metal failure under
+short-time high peak currents (including ESD) is also a reliabil-
+ity concern (Banerjee et al., 1997) and can introduce latent EM
+damage that has important reliability implications (Banerjee
+et al., 1996). It has been argued that thermal effects will increas-
+ingly dominate interconnect design rules that specify maximum
+current densities for circuit designers (Chatterjee et al., 1995).
+Recently, Hunter (1997) has followed up on this issue by solving
+the EM lifetime equation for Al-Cu and the ID heat equation in
+a self-consistent manner. In this approach, both EM and self-
+heating can be comprehended simultaneously.

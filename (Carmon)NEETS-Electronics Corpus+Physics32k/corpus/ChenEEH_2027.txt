@@ -1,0 +1,8 @@
+Application to Matrix Multiplication
+We discuss here the application of integer mantissa checksums
+to matrix multiplication; the description of this test for LU
+decomposition can be found in work by Dutt and Assaad
+(1996). Matrix multiplication is not mantissa preserving, since
+it contains ﬂoating point additions. However, matrix multipli-
+cation can be formulated as a composition of two functions, one
+mantissa-preserving and the other not, as shown below.

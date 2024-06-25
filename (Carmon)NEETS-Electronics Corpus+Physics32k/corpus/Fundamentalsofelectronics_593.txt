@@ -1,0 +1,9 @@
+The integers n and m both range over {0, . . . , N − 1}. To have an inverse transform, we need the sum to be a
+single unit sample for m, n in this range. If it did not, then s (n) would equal a sum of values, and we would
+not have a valid transform: Once going into the frequency domain, we could not get back unambiguously!
+Clearly, the term l = 0 always provides a unit sample (we’ll take care of the factor of K soon). If we evaluate
+the spectrum at fewer frequencies than the signal’s duration, the term corresponding to m = n + K will
+also appear for some values of m, n = {0, . . . , N − 1}. This situation means that our prototype transform
+equals s (n) + s (n + K) for some values of n. The only way to eliminate this problem is to require K ≥ N:
+We must have at least as many frequency samples as the signal’s duration. In this way, we can return from
+the frequency domain we entered via the DFT.

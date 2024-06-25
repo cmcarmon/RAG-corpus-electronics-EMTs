@@ -1,0 +1,10 @@
+Request permission from gatekeeper to make/receive a call. At the end of this phase, the calling endpoint receives the
+Q.931 transport address of the called endpoint.
+Set up a call between the two endpoints. At the end of this phase, the calling endpoint receives the H.245 transport
+address of the called endpoint.
+Negotiate capabilities between two endpoints. Determine master-slave relationship. Open logical channels between
+two endpoints. At the end of this phase, both endpoints know the RTP/RTCP addresses of each other.
+Two parties in conversation.
+Close down the logical channels.
+Tear down the call.
+Release the resources used for this call

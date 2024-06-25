@@ -1,0 +1,2 @@
+A cascading rollback occurs in database systems when a transaction (T1) causes a failure and a rollback must be performed. Other transactions dependent on T1's actions must also be rollbacked due to T1's failure, thus causing a cascading effect. That is, one transaction's failure causes many to fail.
+Practical database recovery techniques guarantee cascadeless rollback, therefore a cascading rollback is not a desirable result.

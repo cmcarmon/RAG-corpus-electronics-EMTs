@@ -1,0 +1,13 @@
+Proprietary Models. A number of other models are available from commercial circuit simulator vendors, the
+literature, etc. Some circuit simulators also offer the ability to add a researcher’s own models. In general, we
+caution against using proprietary models, especially those which are supplied without source code and complete
+documentation. Without an intimate knowledge of the model equations, it is very difﬁcult to develop a good
+device characterization strategy. Also, incorporating such models into device characterization software is almost
+impossible.  To  circumvent  this  problem,  many  characterization  programs  have  the  ability  to  call  the  entire
+circuit simulator as a subroutine in order to exercise the proprietary model subroutines. This can slow program
+execution by a factor of 20 or more, seriously impacting the time required to characterize a technology. Also,
+if proprietary models are used without source code, the circuit simulator results can never be checked against
+other circuit simulators. Therefore, we want to stress the importance of using standard models. If these do not
+meet the individual requirements, the next best approach is to incorporate a proprietary model whose source
+code one has access to. This requires being able to add the individual model not only to circuit simulators, but
+also to device characterization programs; it can become a very large task.

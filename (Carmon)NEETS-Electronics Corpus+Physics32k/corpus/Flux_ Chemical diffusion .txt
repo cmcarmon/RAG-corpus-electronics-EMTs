@@ -1,0 +1,80 @@
+As mentioned above, chemical molar flux of a component A in an isothermal, isobaric system is defined in Fick's law of diffusion as:
+
+
+
+
+
+
+J
+
+
+A
+
+
+=
+−
+
+D
+
+A
+B
+
+
+∇
+
+c
+
+A
+
+
+
+
+{\displaystyle \mathbf {J} _{A}=-D_{AB}\nabla c_{A}}
+
+where the nabla symbol ∇ denotes the gradient operator, DAB is the diffusion coefficient (m2·s−1) of component A diffusing through component B, cA is the concentration (mol/m3) of component A.
+This flux has units of mol·m−2·s−1, and fits Maxwell's original definition of flux.
+For dilute gases, kinetic molecular theory relates the diffusion coefficient D to the particle density n = N/V, the molecular mass m, the collision cross section
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+, and the absolute temperature T by
+
+
+
+
+D
+=
+
+
+2
+
+3
+n
+σ
+
+
+
+
+
+
+
+k
+T
+
+
+π
+m
+
+
+
+
+
+
+{\displaystyle D={\frac {2}{3n\sigma }}{\sqrt {\frac {kT}{\pi m}}}}
+
+where the second factor is the mean free path and the square root (with Boltzmann's constant k) is the mean velocity of the particles.
+In turbulent flows, the transport by eddy motion can be expressed as a grossly increased diffusion coefficient.

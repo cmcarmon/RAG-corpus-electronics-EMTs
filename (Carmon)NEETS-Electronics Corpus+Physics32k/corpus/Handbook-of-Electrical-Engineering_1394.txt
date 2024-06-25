@@ -1,0 +1,14 @@
+The MMSE estimator, Eq. (15.4), is intuitively appealing. It uses a predesigned set of ﬁlters {H–x t,} obtained
+from training data of speech and noise. Each ﬁlter is optimal for a pair of subsources of the CSMs for the clean
+signal and the noise process. Since each subsource represents a subset of signals from the corresponding source,
+each ﬁlter is optimal for a pair of signal subsets from the speech and noise. The set of predesigned ﬁlters covers
+all possible pairs of speech and noise signal subsets. Hence, for each noisy vector of speech there must exist an
+optimal  ﬁlter  in  the  set  of  predesigned  ﬁlters.  Since,  however,  a  vector  of  the  noisy  signal  could  possibly  be
+generated  from  any  pair  of  subsources  of  the  clean  signal  and  noise,  the  most  appropriate  ﬁlter  for  a  given
+noisy vector is not known. Consequently, in estimating the signal vector at each time instant, all ﬁlters are tried
+and their outputs are weighted by the probabilities of the ﬁlters to be correct for the given noisy signal. Other
+strategies for utilizing the predesigned set of ﬁlters are possible. For example, at each time instant only the most
+likely ﬁlter can be applied to the noisy signal. This approach is more intuitive than that of the MMSE estimation.
+It was ﬁrst proposed in Drucker [1968] for a ﬁve-state model which comprises subsources for fricatives, stops,
+vowels, glides, and nasals. This approach was shown by Ephraim and Merhav [Ephraim, 1992] to be optimal
+only in an asymptotic MMSE sense.

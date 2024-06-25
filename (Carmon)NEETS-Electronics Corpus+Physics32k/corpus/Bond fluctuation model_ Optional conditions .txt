@@ -1,0 +1,87 @@
+If the move leads to an energetic difference
+
+
+
+Δ
+U
+
+
+{\displaystyle \Delta U}
+for example due to an electric field or an adsorbing force to the walls. In this case a Metropolis algorithm is applied: The Metropolis rate
+
+
+
+
+p
+
+M
+
+
+
+
+{\displaystyle p_{M}}
+which is defined as
+
+
+
+
+
+p
+
+M
+
+
+=
+
+e
+
+−
+Δ
+U
+
+/
+
+
+k
+
+B
+
+
+T
+
+
+
+
+
+{\displaystyle p_{M}=e^{-\Delta U/k_{B}T}\,}
+
+is compared to a random number r from the interval [0, 1). If the Metropolis rate is smaller than r the move is rejected, otherwise it is accepted.
+The number of Monte Carlo steps of the total system is defined as:
+
+
+
+
+#
+M
+C
+S
+=
+
+
+
+#
+
+attempts
+
+
+
+#
+
+monomers
+
+
+
+
+
+
+{\displaystyle \#MCS={\frac {\#{\text{ attempts}}}{\#{\text{ monomers}}}}}

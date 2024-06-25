@@ -1,0 +1,27 @@
+The Levenshtein distance between two strings of length n can be approximated to within a factor
+
+
+
+
+(
+log
+⁡
+n
+
+)
+
+O
+(
+1
+
+/
+
+ε
+)
+
+
+
+
+{\displaystyle (\log n)^{O(1/\varepsilon )}}
+
+where ε > 0 is a free parameter to be tuned, in time O(n1 + ε).

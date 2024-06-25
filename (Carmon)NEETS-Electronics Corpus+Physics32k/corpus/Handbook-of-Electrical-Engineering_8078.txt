@@ -1,0 +1,6 @@
+Architectural  Features.  A  common  task  among  most  signal  processing  algorithms  is  the  summation  of
+multiple products. The most notable distinction between general-purpose microprocessors and digital signal
+processors is the existence of a high-speed multiplier-accumulator [Allen, 1985]. This circuitry can complete
+a  multiply-add  operation  in  one  cycle,  as  opposed  to  roughly  25  cycles  for  a  conventional  microprocessor.
+Traditionally, only ﬁxed-point arithmetic was available, but newer DSP chips provide ﬂoating-point arithmetic
+with 32 bits of precision.

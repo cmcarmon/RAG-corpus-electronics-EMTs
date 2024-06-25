@@ -1,0 +1,4 @@
+The Answer To Reset (ATR) string is used to perform the binding between a card and an interface. Thus,
+when  a  service  provider  is  installed  on  a  system,  it  registers  itself  to  the  Resource  Manager  with  the ATR  of
+cards it can serve. An application can deﬁne at run-time which Service Provider will be used since the Resource
+Manager enumerates the list of the available interfaces when the card is inserted.

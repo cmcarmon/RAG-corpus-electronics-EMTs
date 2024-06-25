@@ -1,0 +1,28 @@
+Timing Analysis
+Timing analysis
+ checks that the overall design satisﬁes
+operating speed requirements and that individual sig-
+nals  within  a  design  satisfy  transition  requirements.
+Common  signal  transition  requirements,  also  called
+times
+timing hazards
+ 
+, 
+propagation
+glitch  detection
+race  conditions
+, 
+,
+, 
+delays
+. For instance, setup and hold
+and 
+times specify relationships between data and control
+signals to ensure that memory devices (level-sensitive
+latches or edge-sensitive ﬂip-ﬂops) correctly and reli-
+ably  store  desired  data.  The  data  signal  carrying  the
+information to be stored in the memory device must
+be stable for a period equal to the setup time prior to
+the  control  signal  transition  to  ensure  that  the  correct  value  is  sensed  by  the  memory  device. Also,  the  data
+signal must be stable for a period equal to the hold time after the control signal transition to ensure that the
+memory device has enough time to store the sensed value.

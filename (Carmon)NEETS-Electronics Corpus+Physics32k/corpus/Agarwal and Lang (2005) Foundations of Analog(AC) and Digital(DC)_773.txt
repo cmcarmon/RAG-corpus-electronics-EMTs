@@ -1,0 +1,7 @@
+Second method This implementation develops a two-bit adder circuit by composing
+two one-bit adders, and illustrates an important engineering technique called divide-and-
+conquer. The one-bit adders are called full adders. As illustrated in Figure 5.29, a full
+two one-bit numbers to be added (Ai and Bi), and one carry
+adder takes three inputs
+bit Ci from a lower digit. The full adder produces two outputs: a sum bit Si and a carry
+bit Ci+1 to a higher digit.

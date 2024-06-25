@@ -1,0 +1,14 @@
+Why Spread Spectrum?
+Spread spectrum is a communication technique wherein the transmitted modulation is spread (increased) in
+bandwidth prior to transmission over the channel and then despread (decreased) in bandwidth by the same
+amount at the receiver. If it were not for the fact that the communication channel introduces some form of
+narrowband (relative to the spread bandwidth) interference, the receiver performance would be transparent to
+the  spreading  and  despreading  operations  (assuming  that  they  are  identical  inverses  of  each  other).  That  is,
+after despreading the received signal would be identical to the transmitted signal prior to spreading. In the
+presence  of  narrowband  interference,  however,  there  is  a  signiﬁcant  advantage  to  employing  the  spread-
+ing/despreading procedure described. The reason for this is as follows. Since the interference is introduced after
+the  transmitted  signal  is  spread,  then,  whereas  the  despreading  operation  at  the  receiver  shrinks  the  desired
+signal back to its original bandwidth, at the same time it spreads the undesired signal (interference) in bandwidth
+by the same amount, thus reducing its power spectral density. This, in turn, serves to diminish the effect of
+the interference on the receiver performance, which depends on the amount of interference power in the spread
+bandwidth. It is indeed this very simple explanation, which is at the heart of all spread spectrum techniques.

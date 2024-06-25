@@ -1,0 +1,19 @@
+The following releases represent notable milestones in Wget's development. Features listed next to each release are edited for brevity and do not constitute comprehensive information about the release, which is available in the NEWS file distributed with Wget.
+Geturl 1.0, released January 1996, was the first publicly available release. The first English-language announcement can be traced to a Usenet news posting, which probably refers to Geturl 1.3.4 released in June.
+Wget 1.4.0, released November 1996, was the first version to use the name Wget. It was also the first release distributed under the terms of the GNU GPL, Geturl having been distributed under an ad-hoc no-warranty license.
+Wget 1.4.3, released February 1997, was the first version released as part of the GNU project with the copyright assigned to the FSF.
+Wget 1.5.3, released September 1998, was a milestone in the program's popularity. This version was bundled with many Linux based distributions, which exposed the program to a much wider audience.
+Wget 1.6, released December 1999, incorporated many bug fixes for the (by then stale) 1.5.3 release, largely thanks to the effort of Dan Harkless.
+Wget 1.7, released June 2001, introduced SSL support, cookies, and persistent connections.
+Wget 1.8, released December 2001, added bandwidth throttling, new progress indicators, and the breadth-first traversal of the hyperlink graph.
+Wget 1.9, released October 2003, included experimental IPv6 support, and ability to POST data to HTTP servers.
+Wget 1.10, released June 2005, introduced large file support, IPv6 support on dual-family systems, NTLM authorization, and SSL improvements. The maintainership was picked up by Mauro Tortonesi.
+Wget 1.11, released January 2008, moved to version 3 of the GNU General Public License, and added preliminary support for the Content-Disposition header, which is often used by CGI scripts to indicate the name of a file for downloading. Security-related improvements were also made to the HTTP authentication code. Micah Cowan took over maintainership of the project.
+Wget 1.12, released September 2009, added support for parsing URLs from CSS content on the web, and for handling Internationalized Resource Identifiers.
+Wget 1.13, released August 2011, supports HTTP/1.1, fixed some portability issues, and used the GnuTLS library by default for secure connections.
+Wget 1.14, released August 2012, improved support for TLS and added support for RFC 2617 Digest Access Authentication.
+Wget 1.15, released January 2014, added—https-only and support for Perfect-Forward Secrecy.
+Wget 1.16, released October 2014, changed the default progress bar output, closed CVE-2014-4877, added support for libpsl to verify cookie domains, and introduced—start-pos to allow starting downloads from a specified position.
+Wget 1.17, released November 2015, removed FTP passive to active fallback due to privacy concerns, added support for FTPS and for --if-modified-since.
+Wget 1.18, released June 2016, resolved the CVE-2016-4971 issue, and added the "--bind-dns-address" and "--dns-servers" options.
+Wget 1.19, released February 2017, added new options for processing a Metalink file.

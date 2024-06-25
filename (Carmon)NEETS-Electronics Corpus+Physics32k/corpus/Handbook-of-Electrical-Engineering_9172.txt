@@ -1,0 +1,6 @@
+Although  PC/SC  is  platform  neutral,  to  date,  Microsoft  did  the  only  implementation  of  this  standard  on
+Windows  platform  (even  now  the  implementation  still  lacks  of  some  features:  “plug  and  play”  and  power
+management). Card services are exposed to an application through Component Objet Model (COM) interface.
+PS/SC v.1.0 supports only T = 0 and T = 1 cards and optionally T = 14 (protocols of communication between
+a card and a reader. For details see [1–3]). Next release of this standard will consider memory card and multiple
+interfaces readers such as keyboard, display, multiple cards, and SAM modules.

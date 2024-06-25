@@ -1,0 +1,12 @@
+In the classical case we create a classical public key out of a classical sign key, thus it is easy to provide every potential recipient with a copy of the public key. The public key can be freely distributed. This becomes more difficult in the quantum case, because copying a quantum state is forbidden by the no cloning theorem, as long as the state itself is unknown. So public keys can only be created and distributed by a person who knows the exact quantum state he wants to create, thus who knows the sign key (This can be the sender or in more general a trustful institution). Nevertheless, in contrast to the classical public key there is an upper bound for the number of public quantum keys T which can be created, without enabling one to guess the sign key and thus endangering the security of the scheme (
+
+
+
+n
+−
+T
+m
+
+
+{\displaystyle n-Tm}
+has to be big)

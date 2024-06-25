@@ -1,0 +1,9 @@
+Note that each of the middle LEDs (LED2–LED5) is connected to two output 
+pins on the 4017 decade counter IC, with a diode between each output pin 
+and the LED. By connecting two output pins to one LED, you enable that LED 
+to light up twice during each count from 0 to 9. You need to include a diode 
+at each output pin to prevent current from flowing back into the 4017 chip. 
+(Chapter 9 explains that diodes operate like one‐way valves for current.) For 
+instance, when 4017 pin 5 goes high, current flows from pin 5 through D8 and 
+LED5 (lighting it up), but diode D7 prevents any of that current from flowing 
+back into the 4017 chip through pin 10.

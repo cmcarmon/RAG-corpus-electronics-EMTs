@@ -1,0 +1,5 @@
+where, V is the input drive voltage for t > 0 and VO is the initial voltage on
+the capacitor. As a quick sanity check, substituting t = 0, we get vC(0) = VO,
+and substituting t = ∞, we get vC(∞) = V. Both these boundary values are
+what we expect, since the initial condition on the capacitor is VO, and since the
+input voltage must appear across the capacitor after a long period of time.

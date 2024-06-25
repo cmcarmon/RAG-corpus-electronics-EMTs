@@ -1,0 +1,6 @@
+A fundamental aspect of solving electrical engineering problems is whether the time or frequency domain
+provides the most understanding of a signal’s properties and the simplest way of manipulating it. The
+uniqueness property says that either domain can provide the right answer. As a simple example, suppose
+we want to know the (periodic) signal’s maximum value. Clearly the time domain provides the answer
+directly. To use a frequency domain approach would require us to ﬁnd the spectrum, form the signal from
+the spectrum and calculate the maximum; we’re back in the time domain!

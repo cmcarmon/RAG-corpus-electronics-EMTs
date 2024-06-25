@@ -1,0 +1,18 @@
+Ampliﬁer
+The purpose of the ampliﬁer sense system is to reliably detect the rate of electrical activity on the heart so that
+the ICD can determine if there is a need for intervention. The ampliﬁer must be immune to noise and be able
+to quickly respond to a large range of heart rates (30 to 360 b.p.m.) [Warren et al., 1996]. In order to obtain an
+accurate heart rate, it is desirable to digitally count R waves, while rejecting all other electrical activity and noise.
+Since the R wave is much larger in amplitude than the other waves in the electrogram, a simple method to detect
+them would be to use a comparator with a set threshold. Unfortunately, the amplitude of R waves is not constant;
+therefore,  a  simple  comparator  circuit  is  not  reliable.  For  example,  during  tachycardias  and  ﬁbrillation,  the
+amplitude of the signals decreases signiﬁcantly. One technique commonly used to solve this is to use a dynamically
+adjusting comparator threshold, in which the threshold level exponentially decreases over time until the next
+R wave  is  detected,  at  which  time,  the  threshold  level  is  reset  [Brumwell  et al.,  1996].  This  ensures  that  low-
+amplitude signals will be detected. Another technique is to use an automatic gain control to slowly increase the
+gain between detected R waves, while keeping the threshold constant [Brumwell et al., 1996]. To avoid double
+counting  caused  by  undesired  T-wave  detection,  there  is,  typically,  a  brief  period  of  time  after  each  detected
+R wave  during  which  sensed  signals  are  ignored.  Detection  schemes  are  often  implemented  with  carefully
+designed analog chips, known as Application Speciﬁc Integrated Circuits (ASICs), in order to keep the current
+drain on the order of 10 µA [Warren et al., 1996]. An advantage of these chips is that they provide near-perfect
+component matching, which is critical in engineering predictable gain control and frequency response.

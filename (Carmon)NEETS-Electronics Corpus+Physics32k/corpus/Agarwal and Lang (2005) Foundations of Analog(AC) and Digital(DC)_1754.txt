@@ -1,0 +1,15 @@
+Equations 12.124 and 12.127 have also been used to simplify the results. Note
+that the unit step function u has been introduced into Equations 12.141 and
+12.142 so that they are valid for all time. The validity of Equations 12.141 and
+12.142 can be demonstrated by observing that they satisfy the initial conditions,
+and Equations 12.119 and 12.120, respectively, for all time. Because they do,
+our assumption that the states are continuous at t = 0 is justified.
+Figure 12.28 shows vC and iL as given by Equations 12.141 and 12.142.
+Notice the overshoot of vC above the input voltage V◦ during the initial tran-
+sient. Although the average value of vC is close to V◦ during the transient, the
+peak value is closer to 2V◦.
+As expected, the ringing in both states now decays as t → ∞. This
+decay is well characterized by the quality factor Q, as defined in W W W Equa-
+tion 12.108 and discussed shortly thereafter. In fact, because the circuits shown
+in Figures 12.15 and 12.26 have the same homogeneous response, the entire
+discussion of α, ωd, and ω◦ given in Subsection 12.2 applies here as well.

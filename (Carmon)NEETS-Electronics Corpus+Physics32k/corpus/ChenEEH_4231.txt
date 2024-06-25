@@ -1,0 +1,14 @@
+Just like the Token Passing Bus protocol, the Token Passing
+Ring protocol has a token maintenance problem when a sta-
+tion detects no token activity or detects a persistently circulat-
+ing busy token by issuing a new token. When a station detects
+no token activity for a period of time, the network enters the
+initialization procedure to claim a token. A monitor station on
+the network sets the monitor bit in the frame. It will then
+remove the frame and issue a new token if the monitor station
+has seen the monitor bit set. This ring protocol enables a fair
+access with a ‘‘round robin’’ scheme, but it is inefﬁcient under
+a lightly loaded system because the station that has a frame to
+be transmitted has to wait for the token to arrive. Unlike
+CSMA/CD, a station can transmit a frame right away as long
+as no other station is transmitting. A ring network, however,

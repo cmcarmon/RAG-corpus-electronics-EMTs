@@ -1,0 +1,6 @@
+One use of a simple interleaved memory system is to back up a cache memory. To do so, the memory must
+be able to read blocks of contiguous words (a cache block) and supply them to the cache. If the low-order  k
+bits of the address are used to select the bank number, then consecutive words of the block reside in different
+banks, and they can all be read in parallel, and supplied to the cache one by one. If some other address bits
+are used for bank selection, then multiple words from the block might fall in the same memory bank, requiring
+multiple accesses to the same bank to fetch the block.

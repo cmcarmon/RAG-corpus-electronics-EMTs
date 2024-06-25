@@ -1,0 +1,7 @@
+voltage will be 10 − 1.9 volts, or 8.1 volts. C2 will charge to 10 percent of 8.1 volts, or .81 volt. The 
+voltage on C2 will become 1 + .9 + .81, or 2.71 volts. Successive input pulses will raise C2 by 10 percent 
+of the remaining voltage toward 10 volts until the blocking oscillator works. If the oscillator bias is set so 
+that Q1 begins conduction at 3.8 volts, this will continue until 3.8 volts is exceeded. Since the fourth step 
+is 3.5 volts and the fifth is 4.1 volts, the 3.8-volt level is crossed at the fifth step. If the oscillator goes 
+through 1 cycle of operation every fifth step and C2 is discharged at this point, this circuit would be a 5-
+to-1 divider. 

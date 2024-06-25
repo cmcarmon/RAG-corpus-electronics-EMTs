@@ -1,0 +1,8 @@
+The simplest approach is to simulate the time-domain output for a circuit with a speciﬁed sinusoidal input
+signal and then perform a Fourier analysis of the output waveform. The simulation program SPICE2 provides
+a capability for computing the Fourier components of any waveform using a .FOUR command and specifying
+the voltage or current for which the analysis has to be performed. A simple diode circuit, the SPICE input ﬁle,
+and transient voltage waveforms for an input signal frequency of 1 MHz and amplitudes of 10 and 100 mV
+are  shown  in  Fig.  5.21.  The  Fourier  components  of  the  resistor  voltage  are  shown  in  Fig.  5.22;  only  the
+fundamental  and  ﬁrst  two  signiﬁcant  harmonics  are  shown  (SPICE  provides  information  to  the  ninth
+harmonic).

@@ -1,0 +1,4 @@
+In the previous subsection, we showed the existence of a preﬁx-free code having an average length within
+one bit of the entropy. Now instead of trying to represent one occurrence of the random variable, we can form
+a  code  to  represent  a  block  of n  random  variables.  In  this  case,  the  average  code  length  is  within  one  bit  of
+H(X1, X2, . . ., Xn ). Thus, the average length of the code per input symbol satisﬁes

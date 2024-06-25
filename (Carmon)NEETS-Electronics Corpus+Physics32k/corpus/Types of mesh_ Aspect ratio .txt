@@ -1,0 +1,1 @@
+It is the ratio of longest to the shortest side in a cell. Ideally it should be equal to 1 to ensure best results. For multidimensional flow, it should be near to one. Also local variations in cell size should be minimal, i.e. adjacent cell sizes should not vary by more than 20%. Having a large aspect ratio can result in an interpolation error of unacceptable magnitude.

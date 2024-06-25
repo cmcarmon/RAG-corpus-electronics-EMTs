@@ -1,0 +1,12 @@
+In a TDMA system, the radio spectrum is divided into time
+slots, and in each slot, only one user is allowed to either transmit
+or receive. It can be seen from Figure 7.2 that each user occupies
+a cyclically repeating time slot, so a channel may be thought of
+as a particular time slot that reoccurs every frame, where several
+time slots make up a frame. Since the transmission for any user
+is noncontinuous, digital modulation must be used with
+TDMA. The transmission from various users is interlaced into
+a repeating frame structure as shown in Figure 7.3. Each frame is
+made up of a preamble, information bits addressed to various
+stations, and trail bits. The function of the preamble is to
+provide identiﬁcation and incidental information and to allow

@@ -1,0 +1,5 @@
+Level 11 provides a means of attaching user processes inter-
+changeably to pipes, ﬁles, or I/O devices. The idea is to make
+each fundamental operation of levels 8, 9, and 10 (open, close,
+read, and write) look the same so that the author of a program
+need not be concerned with the differences in these objects.

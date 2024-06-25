@@ -1,0 +1,4 @@
+Another issue arises in frequency-domain ﬁltering that is related to time-domain aliasing, this time when
+we consider the output. Assume we have an input signal having duration Nx that we pass through a FIR
+ﬁlter having a length-q + 1 unit-sample response. What is the duration of the output signal? The diﬀerence
+equation for this ﬁlter is

@@ -1,0 +1,6 @@
+It is also because each branch voltage is traversed exactly once positively and once
+negatively that summing Equations 2.13 through 2.16 yields 0 = 0. This in turn shows
+that the four KVL equations are dependent. In general, a circuit with N nodes and B
+branches will have B− N+ 1 loops around which independent applications of KVL can
+be made. Therefore, while analyzing a circuit it is necessary to apply KVL only to these
+loops, which will in total, traverse each branch at least once in the process.

@@ -1,0 +1,6 @@
+Adding Hierarchical Data Reuse Copies
+From the above ﬁgures that illustrate the loop transformations,
+two levels of data reuse can be identiﬁed: line buffers and pixel
+buffers. As explained above, we will insert explicit buffers
+into the code to exploit the potential data reuse in an optimal
+way.

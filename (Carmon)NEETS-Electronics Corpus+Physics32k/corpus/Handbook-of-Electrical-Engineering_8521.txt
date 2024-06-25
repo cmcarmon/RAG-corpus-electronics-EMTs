@@ -1,0 +1,7 @@
+Performance
+A major performance measure for computer systems is the time, T, that it takes to execute a complete program
+for some task. Suppose N machine instructions need to be executed to perform the task. A program is typically
+written in some high-level language, translated by a compiler program into machine language, and stored on
+a disk. An operating system software routine then loads the machine language program into the main memory,
+ready for execution. Assume that, on average, each machine language instruction requires S basic steps for its
+execution. If basic steps are executed at the rate of R steps per second, then the time to execute the program is

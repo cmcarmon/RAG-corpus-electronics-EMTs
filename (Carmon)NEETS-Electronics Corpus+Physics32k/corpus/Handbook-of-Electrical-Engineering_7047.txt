@@ -1,0 +1,4 @@
+The algorithm for tree construction is illustrated for a source with distribution (0.5, 0.2, 0.2, 0.1) in Fig. 73.21.
+After constructing the tree, the leaves of the tree (which correspond to the symbols of  X) can be assigned code
+words that correspond to the paths from the root to the leaf. We will not give a proof of the optimality of the
+Huffman algorithm; the reader is referred to Gallager [1968] or Cover and Thomas [1991] for details.

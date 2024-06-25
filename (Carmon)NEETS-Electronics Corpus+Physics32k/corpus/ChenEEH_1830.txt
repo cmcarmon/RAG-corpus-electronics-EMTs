@@ -1,0 +1,7 @@
+(2) Request-driven label assignment. Here, the LSPs are
+set up based on explicit requests. RSVP can be used to
+make the request. The advantage of this scheme is that
+LSPs will be set up only when required, and a full
+mesh is avoided. However, the disadvantage is the
+added setup latency, which can dominate short-lived
+ﬂows.

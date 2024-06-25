@@ -1,0 +1,12 @@
+The series combination of the 130-W resistor, T3, D3, and T4 in the circuit of Fig. 79.8(a), forming what is
+called the totem-pole output circuit, provides a low impedance drive in both the source (output C = 1) and
+sink  (output  C  =  0)  modes  and  contributes  signiﬁcantly  to  the  relatively  high  speed  of  TTL.  The  available
+source and sink currents, which are well above the normal requirements for steady state, come into play during
+the charging and discharging of capacitive loads. Ideally T3 should have a very large current gain and the 130-
+W resistor should be reduced to 0. The latter, however, would cause a short-circuit load current which would
+overheat T3, since T3 would be unable to saturate. All TTL families other than the standard shown in Fig. 79.8(a)
+use some form of Darlington connection for T3, providing increased current gain and eliminating the need for
+diode D3. The drop across D3 is replaced by the base emitter voltage of the added transistor T5. This connection
+appears  in  Fig. 79.9(a),  an  example  of  the  74Hxx  series  of  TTL  gates  that  increases  speed  at  the  expense  of
+increased power consumption, and in Fig. 79.9(b), a gate from the 74Lxx series that sacriﬁces speed to lower
+power dissipation.

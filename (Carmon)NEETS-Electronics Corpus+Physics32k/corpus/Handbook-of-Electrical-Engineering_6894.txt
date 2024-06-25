@@ -1,0 +1,8 @@
+Noise Factor and Noise Ratio
+In  reference  to  Fig.  73.8(a),  we  deﬁne  the  noise  factor  F  =  (noise  power  output  of  actual  device)/(noise  power
+output of ideal device), where (noise power output of ideal device) = (power output due to thermal noise source).
+The noise source is taken to be a noisy resistor R at a temperature T, and all output noise measurements must
+be taken over a resistive load RL (reactance is ignored). Letting PWW (B) = 4kTRB be the open circuit thermal
+noise power of the source resistor over a frequency bandwidth B, and noting that the gain of the device is G,
+the  output  power  due  to  the  resistive  noise  source  becomes  G 2PWW (B)  =  4kTRBG 2/RL .  Now  let Y(t)  be  the
+output voltage measured at the output across RL . Then the noise factor is

@@ -1,0 +1,14 @@
+The problem is attacked in two different ways. The element
+replacement method eliminates the inductors by electronic
+circuits whose input impedance is inductive over the relevant
+frequency range. We encountered this method in Figure 4.7,
+where the need for an inductor was avoided when L was
+replaced by a GIC terminated in a resistor. The method of
+operational simulation makes use of the fact that inductors
+and capacitors fundamentally perform the function of integra-
+tion, 1/s. Speciﬁcally, the voltage V across an inductor gener-
+ates the current I ¼ V =(sL), and the current I through a
+capacitor is integrated to produce the voltage V ¼ I=(sC).
+Thus, we should need only to employ electronic integrators,
+as in Figure 4.2, to arrive at an inductorless simulation of an
+LC ladder.

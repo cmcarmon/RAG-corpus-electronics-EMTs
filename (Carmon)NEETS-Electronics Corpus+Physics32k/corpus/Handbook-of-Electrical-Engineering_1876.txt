@@ -1,0 +1,8 @@
+Heterogeneous Multiprocessors
+The  earliest  style  of  video  processor  is  the  heterogeneous  multiprocessor.  These  machines  cannot  execute
+arbitrary programs — they are restricted to a single algorithm or variations on that algorithm. The microar-
+chitecture of the machine is tuned to the target application. In the early days of digital video, special-purpose
+heterogeneous multiprocessors were the only way to implement VLSI video processing because chips were not
+large enough to support the hardware required for instruction-set processors. Today, heterogeneous multipro-
+cessors  are  used  to  implement  low-cost  video  systems,  since  by  specializing  the  hardware  for  a  particular
+application, less hardware is generally required, resulting in smaller, less-expensive chips.

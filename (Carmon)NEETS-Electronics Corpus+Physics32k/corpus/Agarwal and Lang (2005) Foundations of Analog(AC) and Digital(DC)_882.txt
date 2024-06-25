@@ -1,0 +1,5 @@
+For VS = 5 V, RL = 14 k, and RON = 1 k, we get vOUT = 0.625 V, which
+is nearly twice that produced by the inverter for a logical 0 output. This is not
+surprising since there are two MOSFETs in series in the pulldown network.
+Since this output voltage is greater than VOL = 0.5 V, we conclude that our
+NAND does not satisfy the static discipline.

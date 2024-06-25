@@ -1,0 +1,12 @@
+8.11.2 Smoothing Circuits
+In a typical digital communication system, the signal to be transmitted
+is ﬁrst sampled. Sampling refers to the procedure of selecting samples
+of  a  signal  for  processing,  as  opposed  to  processing  the  entire  signal.
+Each sample is converted into a binary number represented by a series
+of  pulses. The  pulses  are  transmitted  by  a  transmission  line  such  as  a
+coaxial  cable,  twisted  pair,  or  optical  ﬁber. At  the  receiving  end,  the
+signal is applied to a digital-to-analog (D/A) converter whose output is
+a  “staircase”  function,  that  is,  constant  at  each  time  interval.  In  order
+to recover the transmitted analog signal, the output is smoothed by let-
+ting  it  pass  through  a  “smoothing”  circuit,  as  illustrated  in  Fig.  8.53.
+An RLC circuit may be used as the smoothing circuit.

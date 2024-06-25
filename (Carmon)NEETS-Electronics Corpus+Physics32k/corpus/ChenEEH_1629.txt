@@ -1,0 +1,20 @@
+The previous bulleted list explains the reasons that compres-
+sion technologies have helped the development of compressed
+domain-based modern communication systems and compact
+and rugged consumer products. Although compression in gen-
+eral is a useful technology, and, in the case of multimedia data,
+an essential one, it should be used with caution because it comes
+with some drawbacks as well. By deﬁnition, compression re-
+moves redundancy from signals. Redundancy is, however, es-
+sential in making data resistant to errors. As a result, compressed
+data is more sensitive to errors than uncompressed data. Thus,
+transmission systems using compressed data must incorporate
+more powerful error-correction strategies. Most of the text-
+compression techniques, such as the Lampel-Ziv-Welch codes,
+are very sensitive to bit errors: an error in the transmission of the
+code table value results in bit errors every time the table location
+is accessed. This phenomenon is known as error propagation.
+Other variable-length coding techniques, such as Huffman
+coding, are also sensitive to bit errors. In real-time multimedia
+applications, such as audio and video communications, some
+error concealment must be used in case of errors.

@@ -1,0 +1,6 @@
+The DCU provides the interface between the IOP and the disk drives and is similar in functionality to IBM’s
+storage  director.  It  oversees  the  data  transfers  between  devices  and  the  IOP’s  local  memory,  provides  speed
+matching buffer storage, and transmits control signals and status information between the IOP and the devices.
+Disk storage units (DSUs) are attached to the DCU through point-to-point connections. The DSU contains
+the  disk  device  and  is  responsible  for  dealing  with  its  own  defect  management,  by  using  a  technique  called
+sector slipping. Figure 80.13 summarizes the elements of the Cray I/O system.

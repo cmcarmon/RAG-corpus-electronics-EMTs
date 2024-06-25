@@ -1,0 +1,7 @@
+Finally, it is important realize that the dynamic behavior of a real MOSFET
+is actually much more complex than described here. In reality a MOSFET
+actually has many internal capacitances of importance, including capacitances
+between its gate and drain, its gate and source, its gate and substrate, its drain
+and source, its drain and substrate, and its source and substrate. Further, most
+of these capacitances are actually functions of vGS and vDS. For our purposes,
+we will work primarily with CGS and assume that it is a constant capacitance.

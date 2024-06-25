@@ -1,0 +1,10 @@
+Every ﬁle in the ﬁle hierarchy can be speciﬁed by its given
+path name from the top of the hierarchy, the root directory.
+Such absolute path names consist of the list of directories that
+must be traversed from the root directory to get to the ﬁle,
+with special symbols such as slashes separating the compo-
+nents. In Figure 4.3, the path for ﬁle passwd is denoted as /etc/
+passwd. The leading slash indicates that the path is starting
+from the root directory. As an aside, some systems use a back
+slash(n) instead of a regular slash(/) as the separator in path
+names.

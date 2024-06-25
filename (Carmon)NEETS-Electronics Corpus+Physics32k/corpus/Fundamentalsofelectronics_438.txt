@@ -1,0 +1,31 @@
+by these factors as if they were transfer functions of some ﬁctitious circuit. The transfer function
+j2πf
+corresponded to a circuit that integrated, and e−j2πf ∆ to one that delayed. We even implicitly interpreted
+the circuit’s transfer function as the input’s spectrum! This approach to ﬁnding inverse transforms – breaking
+down a complicated expression into products and sums of simple components – is the engineer’s way of
+breaking down the problem into several subproblems that are much easier to solve and then gluing the results
+together. Along the way we may make the system serve as the input, but in the rule Y (f ) = X (f ) H (f ),
+which term is the input and which is the transfer function is merely a notational matter (we labeled one
+factor with an X and the other with an H).
+4.9.1 Transfer Functions
+The notion of a transfer function applies well beyond linear circuits. Although we don’t have all we need
+to demonstrate the result as yet, all linear, time-invariant systems have a frequency-domain input-output
+relation given by the product of the input’s Fourier transform and the system’s transfer function. Thus,
+linear circuits are a special case of linear, time-invariant systems. As we tackle more sophisticated problems
+in transmitting, manipulating, and receiving information, we will assume linear systems having certain
+properties (transfer functions) without worrying about what circuit has the desired property. At this point,
+you may be concerned that this approach is glib, and rightly so. Later we’ll show that by involving software
+that we really don’t need to be concerned about constructing a transfer function from circuit elements and
+op-amps.
+4.9.2 Commutative Transfer Functions
+Another interesting notion arises from the commutative property of multiplication (exploited in an example
+above (Example 4.6)): We can arbitrarily choose an order in which to apply each product. Consider a
+cascade of two linear, time-invariant systems. Because the Fourier transform of the ﬁrst system’s output is
+X (f ) H1 (f ) and it serves as the second system’s input, the cascade’s output spectrum is X (f ) H1 (f ) H2 (f ).
+Because this product also equals X (f ) H2 (f ) H1 (f ), the cascade having the linear systems in the
+opposite order yields the same result. Furthermore, the cascade acts like a single linear system,
+having transfer function H1 (f ) H2 (f ). This result applies to other conﬁgurations of linear, time-invariant
+systems as well; see this Frequency Domain Problem (Problem 4.13). Engineers exploit this property by
+determining what transfer function they want, then breaking it down into components arranged according to
+standard conﬁgurations. Using the fact that op-amp circuits can be connected in cascade with the transfer
+function equaling the product of its component’s transfer function (see this analog signal processing problem

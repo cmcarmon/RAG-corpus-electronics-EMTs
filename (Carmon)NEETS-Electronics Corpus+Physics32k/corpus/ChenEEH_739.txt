@@ -1,0 +1,12 @@
+Trading off Cycles Between Memory Organization
+and Data Path
+In case of a single thread and the memory subsystem being
+dominant in energy, the trade-off can be based solely on the
+memory organization Pareto curve. The given cycle budget de-
+ﬁnes the best memory architecture and its corresponding energy
+and area cost. Due to the use of latency hiding and a ‘‘system-level
+pipeline’’ between the computation and data communication,
+most of the cycles where memory access takes place are also
+useful for the data path. Still, to reduce the cost of the data path
+realization, it is important to leave some of the total cycle budget
+purely available for computation cycles (see further).

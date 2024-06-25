@@ -1,0 +1,11 @@
+Acoustic Data Fusion
+Acoustic data fusion is a technique that combines information from multiple receivers or receiving platforms
+about a common object or channel. Instead of each receiver making a decision, relevant information from the
+different receivers is sent to a common control unit where the acoustic data is combined and processed (hence
+the  name  data  fusion). After  fusion,  a  decision  can  be  relayed  or “fed”  back  to  each  of  the  receivers.  If  data
+transmission  is  a  concern,  due  to  time  constraints,  cost,  or  security,  other  techniques  can  be  used  in  which
+each receiver makes a decision and transmits only the decision. The control unit makes a global decision based
+on the decisions of all the receivers and relays this global decision back to the receivers. This is called “distributed
+detection.” The receivers can then be asked to re-evaluate their individual decisions based on the new global
+decision. This process could continue until all the receivers are in agreement or could be terminated whenever
+an acceptable level of consensus is attained.

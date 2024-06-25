@@ -1,0 +1,6 @@
+For example, consider the formula for the discrete Fourier transform. For each frequency we choose, we
+must multiply each signal value by a complex number and add together the results. For a real-valued signal,
+each real-times-complex multiplication requires two real multiplications, meaning we have 2N multiplications
+to perform. To add the results together, we must keep the real and imaginary parts separate. Adding N
+numbers requires N − 1 additions. Consequently, each frequency requires 2N + 2 (N − 1) = 4N − 2 basic
+computational steps. As we have N frequencies, the total number of computations is N (4N − 2).

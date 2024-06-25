@@ -1,0 +1,79 @@
+The recurrence quantification analysis was developed in order to quantify differently appearing recurrence plots (RPs) based on the small-scale structures therein. Recurrence plots are tools which visualise the recurrence behaviour of the phase space trajectory of dynamical systems. They mostly contain single dots and lines which are parallel to the mean diagonal (line of identity, LOI) or which are vertical/horizontal. Lines parallel to the LOI are referred to as diagonal lines and the vertical structures as vertical lines. Because an RP is usually symmetric, horizontal and vertical lines correspond to each other, and, hence, only vertical lines are considered. The lines correspond to a typical behaviour of the phase space trajectory: whereas the diagonal lines represent such segments of the phase space trajectory which run parallel for some time, the vertical lines represent segments which remain in the same phase space region for some time.
+If only a time series is available, the phase space can be reconstructed by using a time delay embedding (see Takens' theorem):
+
+
+
+
+
+
+
+x
+→
+
+
+
+(
+i
+)
+=
+(
+u
+(
+i
+)
+,
+u
+(
+i
++
+τ
+)
+,
+…
+,
+u
+(
+i
++
+τ
+(
+m
+−
+1
+)
+)
+,
+
+
+{\displaystyle {\vec {x}}(i)=(u(i),u(i+\tau ),\ldots ,u(i+\tau (m-1)),}
+
+where
+
+
+
+u
+(
+i
+)
+
+
+{\displaystyle u(i)}
+is the time series,
+
+
+
+m
+
+
+{\displaystyle m}
+the embedding dimension and
+
+
+
+τ
+
+
+{\displaystyle \tau }
+the time delay.
+The RQA quantifies the small-scale structures of recurrence plots, which present the number and duration of the recurrences of a dynamical system. The measures introduced for the RQA were developed heuristically between 1992 and 2002 (Zbilut & Webber 1992; Webber & Zbilut 1994; Marwan et al. 2002). They are actually measures of complexity. The main advantage of the recurrence quantification analysis is that it can provide useful information even for short and non-stationary data, where other methods fail.
+RQA can be applied to almost every kind of data. It is widely used in physiology, but was also successfully applied on problems from engineering, chemistry, Earth sciences etc.

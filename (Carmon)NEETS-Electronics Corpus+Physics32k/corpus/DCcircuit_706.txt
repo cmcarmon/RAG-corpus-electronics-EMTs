@@ -1,0 +1,4 @@
+In ammeter designs, external resistors added to extend the usable range of the movement
+are connected in parallel with the movement rather than in series as is the case for voltmeters.
+This is because we want to divide the measured current, not the measured voltage, going to
+the movement, and because current divider circuits are always formed by parallel resistances.

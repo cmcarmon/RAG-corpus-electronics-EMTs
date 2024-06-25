@@ -1,0 +1,16 @@
+Simpliﬁcation of an n-variable Boolean function by using a K map is achieved by grouping
+adjacent cells that contain 1s. The number of adjacent cells that may be grouped is always equal
+to 2m, for 0 ≤ m ≤ n, i.e., 1, 2, 4, 8, 16, 32, . . . cells. Such a group or set of 2m cells is called a
+subcube and is expressed by the product term containing only the variables that are common to
+the adjacent cells. The larger the subcube is, the fewer variables are needed to express the product
+term. This statement can be justiﬁed by using Boolean identities. For example, in a four-variable
+K map, the following possible subcubes can be formed.
+• 1-cell subcube (having one minterm) expressed by a product term containing four, or n− m,
+variables; note that n = 4 and m = 0 for this case.
+• 2-cell subcube (having two minterms) expressed by a product term containing three, or
+n − m, variables; note that n = 4 and m = 1 for this case.
+• 4-cell subcube (having four minterms) expressed by a product term containing two, or
+n − m, variables; note that n = 4 and m = 2 for this case.
+• 8-cell subcube (having eight minterms) expressed by a product term containing one or n−m
+variables; note that n = 4 and m = 3 for this case.
+• 16-cell subcube (having sixteen minterms) expressed by the logic 1; that is, the function is

@@ -1,0 +1,12 @@
+In communication systems, messages—signals produced by sources—must be recast for transmission.
+The block diagram has the message s (t) passing through a block labeled transmitter that produces the
+signal x (t). In the case of a radio transmitter, it accepts an input audio signal and produces a signal that
+physically is an electromagnetic wave radiated by an antenna and propagating as Maxwell’s equations predict.
+In the case of a computer network, typed characters are encapsulated in packets, attached with a destination
+address, and launched into the Internet. From the communication systems “big picture” perspective, the
+same block diagram applies although the systems can be very diﬀerent. In any case, the transmitter should
+not operate in such a way that the message s (t) cannot be recovered from x (t). In the mathematical sense,
+the inverse system must exist, else the communication system cannot be considered reliable. (It is ridiculous
+to transmit a signal in such a way that no one can recover the original. However, clever systems exist that
+transmit signals so that only the “in crowd” can recover them. Such cryptographic systems underlie secret
+communications.)

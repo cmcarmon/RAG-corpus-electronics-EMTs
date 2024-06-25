@@ -1,0 +1,13 @@
+The  simplest  dead-reckoning  systems  measure  vehicle  heading  and  speed,  resolve  speed  into  the  navigation
+coordinates, then integrate to obtain position (Fig. 109.3). The oldest heading sensor is the magnetic compass,
+ gate), as shown in Fig. 109.2. It measures
+a magnetized needle or electrically excited toroidal core (called a 
+the  direction  of  the  earth’s  magnetic  ﬁeld  to  an  accuracy  of  2  degrees  at  a  steady  velocity  below  60-degrees
+. The angle
+magnetic latitude. The horizontal component of the magnetic ﬁeld points toward 
+ and is stored in the computers of modern vehicles as
+from true to magnetic north is called 
+ caused by iron
+a function of position over the region of anticipated travel [Quinn, 1996]. 
+in the vehicle can exceed 30 degrees and must be compensated in the navigation computer or, in older ships,
+by placing compensating magnets near the sensor.

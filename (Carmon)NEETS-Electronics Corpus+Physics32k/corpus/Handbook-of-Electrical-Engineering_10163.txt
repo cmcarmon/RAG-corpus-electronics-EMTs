@@ -1,0 +1,7 @@
+In  general,  compliance  motion  control  is  very  important  whenever  the  robot  is  required  to  make  contact
+with its “environment.” This is true for many assembly tasks. Apart from the active methods of control discussed
+above, passive methods can be used to introduce the desired compliance. One such passive scheme is the use
+of a remote center compliance (RCC) device developed at Draper Laboratories. The RCC is a purely mechanical
+device consisting of a spring with six degrees of freedom that is inserted between the wrist and the end effector.
+By adjusting the stiffness of the springs, various levels of compliance can be obtained. However, passive methods
+suffer from lack of programmability achieved through active methods. Active control methods, however, require

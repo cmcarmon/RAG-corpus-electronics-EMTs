@@ -1,0 +1,5 @@
+Depending on the circuit design, the clock (CLK) can be a square wave, a constant frequency, or
+asymmetrical pulses. In this example the clock (CLK) input will be a constant input at a given frequency.
+This frequency is determined by the control unit of the equipment. The data (D) input will be present
+when there is a need to store information. Notice in the Truth Table that output Q reflects the D input only
+when the clock transitions from 0 to 1 (LOW to HIGH).

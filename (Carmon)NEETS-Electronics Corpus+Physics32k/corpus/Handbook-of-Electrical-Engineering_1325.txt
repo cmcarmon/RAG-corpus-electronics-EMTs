@@ -1,0 +1,5 @@
+Several realizations of these approaches have been adopted nationally and internationally as standard speech
+coding architectures at rates below 16 kbits/s (i.e., G.728, IMBE, U.S. Federal Standard 1016, etc.). The success of
+these implementations is due to LPC-based analysis-by-synthesis with a perceptual distortion criterion or short-
+time frequency-domain modeling of a speech waveform or LPC residual. Additionally, the coders that operate at
+lower rates all beneﬁt from forward adaptation methods which produce efﬁcient, accurate parameter estimates.

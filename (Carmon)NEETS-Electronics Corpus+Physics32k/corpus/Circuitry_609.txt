@@ -1,0 +1,16 @@
+Example 13.5 
+ 
+A VHF Band II FM receiver  with a 10.7 MHz IF 
+covers the signal frequency range, 88 MHz to 108 
+MHz. Over what frequency range should the local 
+oscillator be tuned? 
+ 
+Solution 
+ 
+Using    fLO  =  fRF  +  fIF    when  fRF  =  88  MHz  gives  
+ fLO = 88 MHz + 10.7 MHz = 98.7 MHz 
+ 
+Using    fLO  =  fRF  +  fIF    when  fRF  =  108  MHz  gives   
+fLO = 108 MHz + 10.7 MHz = 118.7 MHz 
+The local oscillator tuning range should therefore 
+be from 98.7 MHz to 118.7 MHz. 

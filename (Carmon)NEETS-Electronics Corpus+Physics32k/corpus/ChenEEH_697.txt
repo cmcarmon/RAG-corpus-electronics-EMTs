@@ -1,0 +1,19 @@
+It is thus no surprise that these code rewriting techniques
+are also at the heart of our data transfer and storage (DTSE)
+methodology (Catthoor et al., 1998). As the ﬁrst step (after the
+preprocessing and pruning) in the script, they are able to
+signiﬁcantly reduce the required amount of storage and trans-
+fers. First, in the global data-ﬂow transformation step, redun-
+dant accesses to large data types are removed. Moreover, the
+exploration space for the other steps is increased mainly by
+breaking/moving the critical data-ﬂow bottlenecks and by ex-
+ploiting algebraic laws. Next, global loop transformations are
+applied that signiﬁcantly improve the overall regularity and
+access locality of the code. This enables the next step of the
+script, the data reuse step, to arrive at the desired reduction of
+storage and transfers. During this step, hierarchical data reuse
+copies are added to the code, exposing the different levels of
+reuse that are inherently present (but not directly visible) in
+the transformed code. A custom memory hierarchy can then
+be designed on which these copies can be mapped in an
+optimal way (see sections 2.5 and 2.6).

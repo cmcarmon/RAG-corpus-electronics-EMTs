@@ -1,0 +1,10 @@
+A simple FPGA model is shown in Figure 3.3. In this ﬁgure,
+processing elements, typically containing conﬁgurable logic
+and storage blocks, are represented by squares. The processing
+elements are connected to conﬁgurable switches, represented
+as circles, that control data ﬂow by establishing the desired
+connectivity between the busses. Much of the area in an FPGA
+is usually taken up by the conﬁgurable switches and the busses;
+local and global busses can also be organized hierarchically.
+The ﬁgure demonstrates the regularity found in most FPGAs;
+practical FPGAs often contain additional resources, such as

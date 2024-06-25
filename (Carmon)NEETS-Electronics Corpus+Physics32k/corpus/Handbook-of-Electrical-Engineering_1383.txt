@@ -1,0 +1,8 @@
+Empirical Averages
+This approach attempts to estimate the clean signal from the noisy signal in the MMSE sense. The conditional
+mean estimator is implemented using the conditional sample average of the clean signal given the noisy signal.
+The  sample  average  is  obtained  from  appropriate  training  sequences  of  the  clean  and  noisy  signals.  This  is
+equivalent to using the sample distribution or the histogram estimate of the probability density function (pdf)
+of the clean signal given the noisy signal. The sample average approach is applicable for estimating the signal
+as  well  as  functionals  of  that  signal,  e.g.,  the  spectrum,  the  logarithm  of  the  spectrum,  and  the  spectral
+magnitude.

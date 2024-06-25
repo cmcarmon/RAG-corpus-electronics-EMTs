@@ -1,0 +1,4 @@
+This will always be the address of the instruction which the callee should return to.
+In the 68000 and the VAX (and all other CISCs), the RA points to the ﬁrst instruction
+after  the  JSR.  In  the  SPARC  and  almost  any  RISC,  RA  will  point  to  the  second
+instruction after JSR. That curious difference will be discussed later.

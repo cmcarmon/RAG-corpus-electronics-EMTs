@@ -1,0 +1,5 @@
+Four techniques that have been used for designing optimal equiripple IIR digital ﬁlters are [Parks and Burrus,
+1987]  (1)  minimizing  the Lp  norm  of  the  weighted  difference  between  the  desired  and  actual  responses,  (2)
+linear programming, (3) iteratively using the Remez exchange algorithm on the numerator and denominator
+of the transfer function, and (4) the differential correction algorithm. A computer program for implementing
+the ﬁrst method is available in DSP Committee [1979].

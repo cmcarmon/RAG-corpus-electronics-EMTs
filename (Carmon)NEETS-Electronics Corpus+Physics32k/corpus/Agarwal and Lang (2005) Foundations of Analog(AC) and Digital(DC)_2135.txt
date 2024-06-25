@@ -1,0 +1,13 @@
+15.3.5 A N A D D I T I O N A L C O N S T R A I N T : v+ − v− (cid:1) 0
+In all preceding Op Amp calculations, we have made an approximation that
+because the so-called loop gain in the denominator is much bigger than one, the
+‘‘one’’ term can be neglected. This approximation is almost always valid in Op
+Amp calculations. It is the factor 1+ (loop gain) that determines how insensitive
+the circuit is to changes in the Op Amp gain constant A (see Equation 15.17,
+for example), hence large loop gain is clearly a desirable design goal. If the loop
+gain is almost always going to be large, it seems a bit clumsy (although clearly
+correct) to make the circuit calculations without taking this fact into account
+until the last line. One would hope that with some hindsight, it might be possible
+to make the ‘‘large loop gain’’ assumption at the start of the circuit calculation,
+thereby simplifying the math. Let us re-examine the circuit of Figure 15.8b with
+this in mind.

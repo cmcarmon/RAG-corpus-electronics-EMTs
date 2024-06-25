@@ -1,0 +1,8 @@
+Spin Tracking
+Tracking of a particle's spin.
+Taylor Maps
+Construction of Taylor series maps that can be used for simulating particle motion and also can be used for such things as extracting single particle resonance strengths.
+Collective effects
+The interactions between the particles in the beam can have important effects on the behavior, control and dynamics. Collective effects take different forms from Intrabeam Scattering (IBS) which is a direct particle-particle interaction to wakefields which are mediated by the vacuum chamber wall of the machine the particles are traveling in. In general, the effect of direct particle-particle interactions is less with higher energy particle beams. At very low energies, space charge has a large effect on a particle beam and thus becomes hard to calculate. The above simulation codes do not handle low energy space charge effects. See below for a list of programs that can handle low energy space charge forces.
+Extensible
+Object oriented coding to make it relatively easy to extend the capabilities.

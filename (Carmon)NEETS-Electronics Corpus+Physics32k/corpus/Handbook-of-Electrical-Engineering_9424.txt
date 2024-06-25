@@ -1,0 +1,11 @@
+The physical replication of hardware is perhaps the most common form of fault tolerance used in systems. As
+semiconductor components have become smaller and less expensive, the concept of hardware redundancy has
+passive
+become more common and more practical. There are three basic forms of hardware redundancy. First, 
+techniques use the concept of fault masking to hide the occurrence of faults and prevent the faults from resulting
+. Passive approaches are designed to achieve fault tolerance without requiring any action on the part
+in 
+of the system or an operator. Passive techniques, in their most basic form, do not provide for the detection of
+faults  but  simply  mask  the  faults.  An  example  of  a  passive  approach  is  triple  modular  redundancy  (TMR),
+which  is  illustrated  in  Fig.  93.1.  In  the  TMR  system  three  identical  units  perform  identical  functions,  and  a
+majority vote is performed on the output.

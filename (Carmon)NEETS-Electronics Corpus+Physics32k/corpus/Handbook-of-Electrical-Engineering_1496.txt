@@ -1,0 +1,11 @@
+phonetic class. The acoustic models usually used are Hidden Markov Models. Artiﬁcial Neural Networks [16]
+or Dynamic Time Warping [17] based models have also been used, but will not be covered in this chapter section.
+Context-dependent acoustic models [9, 10] are obtained by querying the phonetic context using the concept of
+tri-phones  or  decision  trees  (networks)  [2]  that  are  constructed  from  a  large  amount  of  training  data.  A
+multidimensional Gaussian mixture model is used to model the feature vectors of the training data that have
+similar phonetic contexts. These models are then used as a set of observation densities in continuous Hidden
+Markov Models (HMMs). Each feature vector is labeled as a context-dependent phonetic class which is the closest
+acoustic class to the feature vector. A sequence of labels thus obtained is used to obtain a set of candidate words
+that are then pruned with the help of a language model. A language model bases its prediction of the next word
+on the history of the words preceding it. Finally, a hypothesis search is conducted through all possible sequences
+of hypothesized words to determine the optimal word sequence given the acoustic observations.

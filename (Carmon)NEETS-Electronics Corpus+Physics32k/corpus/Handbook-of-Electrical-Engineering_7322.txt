@@ -1,0 +1,6 @@
+A  PLL  is  frequently  used  to  enhance  the  noise  performance  of  an  oscillator  by  taking  advantage  of  these
+noise-ﬁltering properties. For example, a crystal oscillator typically has very good low-frequency noise charac-
+teristics, and a free-running LC oscillator can be designed with very good high-frequency noise performance
+but will exhibit poor low-frequency noise characteristics. By phase-locking an LC oscillator to a crystal oscillator
+and setting the loop response corner frequency to the noise crossover point between the two oscillators, the
+desirable characteristics of both oscillators are realized.

@@ -1,0 +1,7 @@
+Smoothing performance is constrained by the degree of a priori knowledge of the target’s kinematic motion
+characteristics. For example, Kalman ﬁltering can achieve signiﬁcantly better error reduction against ballistic
+or orbital targets than against maneuvering aircraft. In the former case the equations of motion are explicitly
+known,  while  the  latter  case  imposes  motion  model  error  because  of  the  presence  of  unpredictable  pilot  or
+guidance  system  commands.  Similar  considerations  apply  to  the  ﬁdelity  of  the  track  ﬁlter’s  model  of  radar
+measurement error. Failure to consider the impact of correlated measurement errors may result in underesti-
+mating track error when designing the system.

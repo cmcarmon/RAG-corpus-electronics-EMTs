@@ -1,0 +1,148 @@
+There are detailed descriptions of the interfacial DL in many books on colloid and interface science and microscale fluid transport. There is also a recent IUPAC technical report on the subject of interfacial double layer and related electrokinetic phenomena.
+
+As stated by Lyklema, "...the reason for the formation of a "relaxed" ("equilibrium") double layer is the non-electric affinity of charge-determining ions for a surface..." This process leads to the buildup of an electric surface charge, expressed usually in C/m2. This surface charge creates an electrostatic field that then affects the ions in the bulk of the liquid. This electrostatic field, in combination with the thermal motion of the ions, creates a counter charge, and thus screens the electric surface charge. The net electric charge in this screening diffuse layer is equal in magnitude to the net surface charge, but has the opposite polarity. As a result, the complete structure is electrically neutral.
+The diffuse layer, or at least part of it, can move under the influence of tangential stress. There is a conventionally introduced slipping plane that separates mobile fluid from fluid that remains attached to the surface. Electric potential at this plane is called electrokinetic potential or zeta potential (also denoted as ζ-potential).
+The electric potential on the external boundary of the Stern layer versus the bulk electrolyte is referred to as Stern potential. Electric potential difference between the fluid bulk and the surface is called the electric surface potential.
+Usually zeta potential is used for estimating the degree of DL charge. A characteristic value of this electric potential in the DL is 25 mV with a maximum value around 100 mV (up to several volts on electrodes). The chemical composition of the sample at which the ζ-potential is 0 is called the point of zero charge or the iso-electric point. It is usually determined by the solution pH value, since protons and hydroxyl ions are the charge-determining ions for most surfaces.
+Zeta potential can be measured using electrophoresis, electroacoustic phenomena, streaming potential, and electroosmotic flow.
+The characteristic thickness of the DL is the Debye length, κ−1. It is reciprocally proportional to the square root of the ion concentration C. In aqueous solutions it is typically on the scale of a few nanometers and the thickness decreases with increasing concentration of the electrolyte.
+The electric field strength inside the DL can be anywhere from zero to over 109 V/m. These steep electric potential gradients are the reason for the importance of the DLs.
+The theory for a flat surface and a symmetrical electrolyte is usually referred to as the Gouy-Chapman theory. It yields a simple relationship between electric charge in the diffuse layer σd and the Stern potential Ψd:
+
+
+
+
+
+σ
+
+d
+
+
+=
+−
+
+
+
+8
+
+ε
+
+0
+
+
+
+
+
+ε
+
+m
+
+
+
+C
+R
+T
+
+
+sinh
+⁡
+
+
+
+F
+
+Ψ
+
+d
+
+
+
+
+2
+R
+T
+
+
+
+
+
+{\displaystyle \sigma ^{d}=-{\sqrt {{8\varepsilon _{0}}{\varepsilon _{m}}CRT}}\sinh {\frac {F\Psi ^{d}}{2RT}}}
+
+There is no general analytical solution for mixed electrolytes, curved surfaces or even spherical particles. There is an asymptotic solution for spherical particles with low charged DLs. In the case when electric potential over DL is less than 25 mV, the so-called Debye-Huckel approximation holds. It yields the following expression for electric potential Ψ in the spherical DL as a function of the distance r from the particle center:
+
+
+
+
+
+Ψ
+
+(
+r
+)
+=
+
+
+Ψ
+
+d
+
+
+
+
+
+a
+r
+
+
+exp
+⁡
+(
+
+−
+κ
+
+(
+r
+−
+a
+)
+)
+
+
+{\displaystyle {\Psi }(r)={\Psi ^{d}}{\frac {a}{r}}\exp({-\kappa }(r-a))}
+
+There are several asymptotic models which play important roles in theoretical developments associated with the interfacial DL.
+The first one is "thin DL". This model assumes that DL is much thinner than the colloidal particle or capillary radius. This restricts the value of the Debye length and particle radius as following:
+
+
+
+
+
+κ
+
+a
+>>
+1
+
+
+{\displaystyle {\kappa }a>>1}
+
+This model offers tremendous simplifications for many subsequent applications. Theory of electrophoresis is just one example. The theory of electroacoustic phenomena is another example.
+The thin DL model is valid for most aqueous systems because the Debye length is only a few nanometers in such cases. It breaks down only for nano-colloids in solution with ionic strengths close to water.
+The opposing "thick DL" model assumes that the Debye length is larger than particle radius:
+
+
+
+
+
+κ
+
+a
+<
+1
+
+
+{\displaystyle {\kappa }a<1}
+
+This model can be useful for some nano-colloids and non-polar fluids, where the Debye length is much larger.
+The last model introduces "overlapped DLs". This is important in concentrated dispersions and emulsions when distances between particles become comparable with the Debye length.

@@ -1,0 +1,72 @@
+Henri Pitot discovered that the velocity of a fluid was proportional to the square root of its head in the early 18th century. It takes energy to push a fluid through a pipe, and Antoine de Chézy discovered that the hydraulic head loss was proportional to the velocity squared. Consequently, the Chézy formula relates hydraulic slope S (head loss per unit length) to the fluid velocity V and hydraulic radius R:
+
+
+
+
+V
+=
+C
+
+
+R
+S
+
+
+=
+C
+
+
+R
+
+0.5
+
+
+
+
+S
+
+0.5
+
+
+
+
+{\displaystyle V=C{\sqrt {RS}}=C\,R^{0.5}\,S^{0.5}}
+
+The variable C expresses the proportionality, but the value of C is not a constant. In 1838 and 1839, Gotthilf Hagen and Jean Léonard Marie Poiseuille independently determined a head loss equation for laminar flow, the Hagen–Poiseuille equation. Around 1845, Julius Weisbach and Henry Darcy developed the Darcy–Weisbach equation.
+The Darcy-Weisbach equation was difficult to use because the friction factor was difficult to estimate. In 1906, Hazen and Williams provided an empirical formula that was easy to use. The general form of the equation relates the mean velocity of water in a pipe with the geometric properties of the pipe and slope of the energy line.
+
+
+
+
+V
+=
+k
+
+C
+
+
+R
+
+0.63
+
+
+
+
+S
+
+0.54
+
+
+
+
+{\displaystyle V=k\,C\,R^{0.63}\,S^{0.54}}
+
+where:
+V is velocity
+k is a conversion factor for the unit system (k = 1.318 for US customary units, k = 0.849 for SI units)
+C is a roughness coefficient
+R is the hydraulic radius
+S is the slope of the energy line (head loss per length of pipe or hf/L)
+The equation is similar to the Chézy formula but the exponents have been adjusted to better fit data from typical engineering situations. A result of adjusting the exponents is that the value of C appears more like a constant over a wide range of the other parameters.
+The conversion factor k was chosen so that the values for C were the same as in the Chézy formula for the typical hydraulic slope of S=0.001. The value of k is 0.001−0.04.
+Typical C factors used in design, which take into account some increase in roughness as pipe ages are as follows:

@@ -1,0 +1,40 @@
+The density and speed of integrated-circuit computing elements have increased exponentially for several decades, following a trend described by Moore's Law. While it is generally accepted that this exponential improvement trend will end, it is unclear exactly how dense and fast integrated circuits will get by the time this point is reached. Working devices have been demonstrated which were fabricated with a MOSFET transistor channel length of 6.3 nanometres using conventional semiconductor materials, and devices have been built that used carbon nanotubes as MOSFET gates, giving a channel length of approximately one nanometre. The density and computing power of integrated circuits are limited primarily by power-dissipation concerns.
+The overall power consumption of a new personal computer has been increasing at about 22% growth per year. This increase in consumption comes even though the energy consumed by a single CMOS logic gate to change state has fallen exponentially with the Moore's law shrinking of process feature size.
+An integrated-circuit chip contains many capacitive loads, formed both intentionally (as with gate-to-channel capacitance) and unintentionally (between conductors which are near each other but not electrically connected). Changing the state of the circuit causes a change in the voltage across these parasitic capacitances, which involves a change in the amount of stored energy. As the capacitive loads are charged and discharged through resistive devices, an amount of energy comparable to that stored in the capacitor is dissipated as heat:
+
+
+
+
+
+E
+
+
+s
+t
+o
+r
+e
+d
+
+
+
+=
+
+
+1
+2
+
+
+C
+
+U
+
+2
+
+
+
+
+{\displaystyle E_{\mathrm {stored} }={1 \over 2}CU^{2}}
+
+The effect of heat dissipation on state change is to limit the amount of computation that may be performed within a given power budget. While device shrinkage can reduce some parasitic capacitances, the number of devices on an integrated-circuit chip has increased more than enough to compensate for reduced capacitance in each individual device. Some circuits – dynamic logic, for example – require a minimum clock rate in order to function properly, wasting "dynamic power" even when they do not perform useful computations. Other circuits – most prominently, the RCA 1802, but also several later chips such as the WDC 65C02, the Intel 80C85, the Freescale 68HC11 and some other CMOS chips – use "fully static logic" that has no minimum clock rate, but can "stop the clock" and hold their state indefinitely. When the clock is stopped, such circuits use no dynamic power but they still have a small, static power consumption caused by leakage current.
+As circuit dimensions shrink, subthreshold leakage current becomes more prominent. This leakage current results in power consumption, even when no switching is taking place (static power consumption). In modern chips, this current generally accounts for half the power consumed by the IC.

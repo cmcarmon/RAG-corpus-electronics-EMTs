@@ -1,0 +1,11 @@
+Various parameters associated with the subprocesses can be visualized from an equivalent circuit. The d-axis
+and q-axis (dynamic) equivalent circuits of a synchronous generator consist of resistors, inductors, and voltage
+sources.  In  the  subtransient  period,  the  equivalent  of  the  damper  windings  needs  to  be  considered.  In  the
+transient period, this equivalent can be ignored. When the new steady state is reached, the current in the rotor
+winding becomes a constant (dc); thus, one can further ignore the equivalent inductance of this winding. This
+approximate method results in three equivalent circuits, listed in order of complexity: subtransient, transient,
+and steady state. For each circuit, one can deﬁne parameters such as (effective) reactance and time constant.
+For example, the d-axis circuit for the transient period has an effective reactance  X ¢d and a time constant  T ¢do
+(computed  from  the  R-L  circuit)  when  open  circuited.  The  parameters  of  a  synchronous  machine  can  be
+computed from experimental data and are used in numerical studies. Typical values for these parameters are
+given in Table 66.1.

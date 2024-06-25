@@ -1,0 +1,15 @@
+Energy Trade-Offs Between Concurrent Tasks
+The performance–energy function can be used even better to
+trade off cycles assigned to different tasks in a complex system.
+Our Pareto curves should indeed be generated per concur-
+rently executed task. It is then clearly visible that assigning
+too few cycles to a single task causes the cost of the entire
+system to increase. The Pareto curves also show the minimal
+(realistic) cycle budget per task. The cycle and energy estimates
+can clearly help the designer to assign concurrent tasks to
+processors and to distribute the cycles in the processors over
+the different tasks (see Figure 2.20). Minimizing the overall
+energy in a heterogeneous multiprocessor is then possible by
+applying Pareto function minimization on all the energy-cycle
+functions together. Even when multiple tasks have to be
+assigned to a single processor under control of an operating

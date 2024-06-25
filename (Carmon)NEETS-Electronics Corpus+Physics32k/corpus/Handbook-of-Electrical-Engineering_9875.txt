@@ -1,0 +1,9 @@
+In our work thus far we have assumed that parameters were constant and known. Such is seldom the case,
+and we must naturally be concerned with the effects of parameter variations, disturbances, and nonlinearities
+upon system performance. Suppose, for example, that we design a system with a certain gain assumed as K1.
+If the system operates open loop and the gain K1 is in cascade or series with the other input-output components,
+then the overall transfer function changes by precisely the same factor as K1 changes. If we have an ampliﬁer
+with  unity  ratio  feedback  around  a  gain  K1,  the  situation  is  much  different.  The  closed-loop  gain  would
+nominally be K1/(1 + K1), and a change to 2K1 would give a closed-loop gain 2K1/(1 + 2K1). If K1 is large, say
+103, then the new gain is 0.99950025, which is a percentage change of less than 0.05% for a change in gain of
+100%.

@@ -1,0 +1,5 @@
+Fault-tolerant systems rely on both hardware and software to ensure that the failure of any single hardware
+component, or even multiple components, does not cause the system to cease operation. To build such a system
+requires that each critical hardware component be replicated at least once. The operating system must be able
+to dynamically determine which resources are available and, if a resource fails, move a running program to an
+operational unit.

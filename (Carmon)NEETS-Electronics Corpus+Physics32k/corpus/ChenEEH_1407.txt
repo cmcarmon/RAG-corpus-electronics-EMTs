@@ -1,0 +1,8 @@
+The JRTR API includes a caching model in which changes to
+conﬁguration data are tracked, and only the necessary data are
+written to or read back from the device. The compilation speed
+is fast, but the user has to lay out components on the devices
+carefully. Fortunately, there are tools (Shirazi et al., 1998a,
+2000) that can be used in combination with the JRTR tool
+set to automate the development of run-time reconﬁgurable
+designs. Such tools should enhance JRTR by automatically

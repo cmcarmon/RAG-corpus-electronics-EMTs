@@ -1,0 +1,25 @@
+Solution to Exercise 5.21 (p. 164)
+Number of samples equals 1.2 × 11025 = 13230. The datarate is 11025 × 16 = 176.4 kbps. The storage
+required would be 26460 bytes.
+Solution to Exercise 5.22 (p. 165)
+The oscillations are due to the boxcar window’s Fourier transform, which equals the sinc function.
+Solution to Exercise 5.23 (p. 167)
+These numbers are powers-of-two, and the FFT algorithm can be exploited with these lengths. To compute
+a longer transform than the input signal’s duration, we simply zero-pad the signal.
+Solution to Exercise 5.24 (p. 167)
+In discrete-time signal processing, an ampliﬁer amounts to a multiplication, a very easy operation to perform.
+Solution to Exercise 5.25 (p. 169)
+The indices can be negative, and this condition is not allowed in MATLAB. To ﬁx it, we must start the
+signals later in the array.
+Solution to Exercise 5.26 (p. 170)
+Such terms would require the system to know what future input or output values would be before the current
+value was computed. Thus, such terms can cause diﬃculties.
+Solution to Exercise 5.27 (p. 172)
+It now acts like a bandpass ﬁlter with a center frequency of f0 and a bandwidth equal to twice of the original
+lowpass ﬁlter.
+Solution to Exercise 5.28 (p. 172)
+The DTFT of the unit sample equals a constant (equaling 1). Thus, the Fourier transform of the output
+equals the transfer function.
+Solution to Exercise 5.29 (p. 173)
+In sampling a discrete-time signal’s Fourier transform L times equally over [0, 2π) to form the DFT, the
+corresponding signal equals the periodic repetition of the original signal.

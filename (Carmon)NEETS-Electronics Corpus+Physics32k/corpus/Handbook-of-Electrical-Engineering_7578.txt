@@ -1,0 +1,8 @@
+3. Interconnection. Use of line lengths of up to 10 in. (5 in. for 74S) requires no particular precautions,
+except that in some critical situations lines cannot run side by side for an appreciable distance without
+causing cross talk due to capacitive coupling between them. For transmission line connections, a gate
+should drive only one line, and a line should be terminated in only one gate input. If overshoots are a
+problem, a 25- to 50-W resistor should be used in series with the driving gate input and the receiving
+gate input should be pulled up to 5 V through a 1-kW resistor. Driving and receiving gates should have
+their own decoupling capacitors between the VCC and ground pins. Parallel lines should have a grounded
+line separating them to avoid cross talk.

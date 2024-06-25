@@ -1,0 +1,5 @@
+If you were to observe the input and output signals of an X-OR gate, the results would be similar to
+those shown in figure 3-3. At T0, both inputs are LOW and the output is LOW. At T1, A goes to HIGH
+and remains HIGH until T2. During this time the output is HIGH. At T3, B goes HIGH and remains HIGH
+through T5. At T4, A again goes HIGH and remains HIGH through T5. Between T3and T4 , the output is
+HIGH. At T4, when both A and B are HIGH, the output goes LOW.

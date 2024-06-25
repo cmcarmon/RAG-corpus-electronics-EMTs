@@ -1,0 +1,9 @@
+The input signal is coupled through T1. When capacitor C3 is tuned to the proper frequency, the
+signal is passed to the emitter of Q1. When no input signal is present, bias is determined by resistor R1.
+When the input signal becomes positive, current flows through the emitter-base junction causing it to be
+forward biased. C1 and R1 establish the dc operating point by acting as a filter network. This action
+provides a varying dc voltage that follows the peaks of the rf modulated envelope. This action is identical
+to the diode detector with the emitter-base junction doing the detecting. The varying dc voltage on the
+emitter changes the bias on Q1 and causes collector current to vary in accordance with the detected
+voltage. Transformer T2 couples these af current changes to the output. Thus, Q1 detects the AM wave
+and then provides amplification for the detected waveform.

@@ -1,0 +1,7 @@
+Object-Oriented Programming
+In  languages  that  support  object-oriented  programming,  classes  (i.e.,  data  types)  of  objects  are  deﬁned  by
+specifying (1) the variables that each object will own as instance variables and (2) operations, called methods,
+applicable to the objects of the class. As a difference in style, these methods are not invoked like functions or
+procedures, but are sent to an object as a message. The expression [window moveTo : x : y], for example, is a
+message in the programming language Objective C, a dialect of C. Here the object window, which may represent
+a window on the screen, is instructed to apply to itself the method moveTo using the parameters x and y.

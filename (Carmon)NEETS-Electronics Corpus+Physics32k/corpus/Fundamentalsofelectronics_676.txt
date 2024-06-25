@@ -1,0 +1,5 @@
+The frequency-domain approach is not yet viable; what will we do when the input signal is inﬁnitely long?
+The diﬀerence equation scenario ﬁts perfectly with the envisioned digital ﬁltering structure (Figure 5.24), but
+so far we have required the input to have limited duration (so that we could calculate its Fourier transform).
+The solution to this problem is quite simple: Section the input into frames, ﬁlter each, and add the results
+together. To section a signal means expressing it as a linear combination of length-Nx non-overlapping

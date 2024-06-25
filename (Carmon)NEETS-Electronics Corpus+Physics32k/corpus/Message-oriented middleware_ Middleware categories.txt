@@ -1,0 +1,4 @@
+Remote Procedure Call or RPC-based middleware
+Object Request Broker or ORB-based middleware
+Message Oriented Middleware or MOM-based middleware
+All these models make it possible for one software component to affect the behavior of another component over a network. They are different in that RPC- and ORB-based middleware create systems of tightly coupled components, whereas MOM-based systems allow for a looser coupling of components. In an RPC- or ORB-based system, when one procedure calls another, it must wait for the called procedure to return before it can do anything else. In these synchronous messaging models, the middleware functions partly as a super-linker, locating the called procedure on a network and using network services to pass function or method parameters to the procedure and then to return results.

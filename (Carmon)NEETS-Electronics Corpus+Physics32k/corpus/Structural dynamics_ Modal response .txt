@@ -1,0 +1,105 @@
+The complete modal response to a given load F(x,t) is
+
+
+
+v
+(
+x
+,
+t
+)
+=
+∑
+
+
+u
+
+n
+
+
+(
+x
+,
+t
+)
+
+
+
+{\displaystyle v(x,t)=\sum {u_{n}(x,t)}}
+. The summation can be carried out by one of three common methods:
+Superpose complete time histories of each mode (time consuming, but exact)
+Superpose the maximum amplitudes of each mode (quick but conservative)
+Superpose the square root of the sum of squares (good estimate for well-separated frequencies, but unsafe for closely spaced frequencies)
+To superpose the individual modal responses manually, having calculated them by the energy method:
+Assuming that the rise time tr is known (T = 2π/ω), it is possible to read the DAF from a standard graph. The static displacement can be calculated with
+
+
+
+
+u
+
+s
+t
+a
+t
+i
+c
+
+
+=
+
+
+
+F
+
+1
+,
+e
+q
+
+
+
+k
+
+1
+,
+e
+q
+
+
+
+
+
+
+{\displaystyle u_{static}={\frac {F_{1,eq}}{k_{1,eq}}}}
+. The dynamic displacement for the chosen mode and applied force can then be found from:
+
+
+
+
+
+u
+
+m
+a
+x
+
+
+=
+
+u
+
+s
+t
+a
+t
+i
+c
+
+
+D
+A
+F
+
+
+{\displaystyle u_{max}=u_{static}DAF}

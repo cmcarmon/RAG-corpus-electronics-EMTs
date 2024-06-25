@@ -1,0 +1,10 @@
+Adaptive Filters for MLSE
+For unknown and/or slowly time-varying channels, the receive ﬁlter must be adaptive in order to obtain the
+ultimate performance gain from MLSE (maximum-likelihood sequence estimation). Secondly, the complexity
+of  the  MLSE  becomes  prohibitive  for  practical  channels  with  a  large  number  of  ISI  terms.  Therefore,  in  a
+practical receiver, an adaptive receive ﬁlter may be used prior to Viterbi detection to limit the time spread of
+the channel as well as to track slow time variation in the channel characteristics [Falconer and Magee, 1973].
+Several  adaptive  receive  ﬁlters  are  available  that  minimize  the  MSE  at  the  input  to  the Viterbi  algorithm.
+These methods differ in the form of constraint [Falconer and Magee, 1973] on the desired impulse response
+(DIR) which is necessary in this optimization process to exclude the selection of the null DIR corresponding
+to no transmission through the channel. The general form of such a receiver is shown in Fig. 70.13.

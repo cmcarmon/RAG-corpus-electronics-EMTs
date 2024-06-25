@@ -1,0 +1,14 @@
+In derived signature methods, run-time signatures can only be
+computed if the sequence of instructions executed by the
+checked processor can be monitored by the WD. In the case
+of traditional processor architectures, signatures can be easily
+computed by monitoring the memory data bus of the checked
+processor. The sequence of instructions fetched by the proces-
+sor is exactly the sequence executed by it. However, modern
+processor architectures include on-chip instruction caches and
+prefetch queues (pipelines). The sequence of
+instructions
+fetched by the processor can still be monitored by the WD,
+but it is not exactly the sequence of instructions executed by
+the processor. Some instructions are executed in a different
+order or are not executed at all.

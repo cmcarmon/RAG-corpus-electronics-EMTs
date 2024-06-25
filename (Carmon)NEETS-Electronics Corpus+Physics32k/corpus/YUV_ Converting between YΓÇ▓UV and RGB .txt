@@ -1,0 +1,12 @@
+RGB files are typically encoded in 8, 12, 16 or 24 bits per pixel. In these examples, we will assume 24 bits per pixel, which is written as RGB888. The standard byte format is:
+
+r0, g0, b0, r1, g1, b1, ...
+
+Y′UV files can be encoded in 12, 16 or 24 bits per pixel. The common formats are Y′UV444 (or YUV444), YUV411, Y′UV422 (or YUV422) and Y′UV420p (or YUV420). The apostrophe after the Y is often omitted, as is the "p" after YUV420p. In terms of actual file formats, YUV420 is the most common, as the data is more easily compressed, and the file extension is usually ".YUV".
+The relation between data rate and sampling (A:B:C) is defined by the ratio between Y to U and V channel.
+To convert from RGB to YUV or back, it is simplest to use RGB888 and YUV444. For YUV411, YUV422 and YUV420, the bytes need to be converted to YUV444 first.
+
+YUV444    3 bytes per pixel     (12 bytes per 4 pixels)
+YUV422    4 bytes per 2 pixels  ( 8 bytes per 4 pixels)
+YUV411    6 bytes per 4 pixels
+YUV420p   6 bytes per 4 pixels, reordered

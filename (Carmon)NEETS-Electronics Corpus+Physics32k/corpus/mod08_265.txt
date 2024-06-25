@@ -1,0 +1,15 @@
+Figure 2-20 is a typical rf amplifier used in a vhf television receiver. The input-signal-developing
+circuit for this amplifier is made up of L1, C1, and C2. The inductor tunes the input-signal-developing
+circuit for the proper TV channel. (L1 can be switched out of the circuit and another inductor switched in
+to the circuit by the channel selector.) R1 provides proper bias to Q1 from the base supply voltage (VBB).
+Q1 is the transistor. Notice that the case of Q1 (the dotted circle around the transistor symbol) is shown to
+be grounded. The case must be grounded because of the high frequencies (54 MHz - 217 MHz) used by
+the circuit. R2 provides proper bias from the emitter of Q1, and C3 is used to bypass R2. C5 and L2 are a
+parallel LC circuit which acts as the load for Q1. The LC circuit is tuned by L2 which is switched in to
+and out of the LC circuit by the channel selector. L3 and C6 are a parallel LC circuit which develops the
+signal for the next stage. The parallel LC circuit is tuned by L3 which is switched in to and out of the LC
+circuit by the channel selector along with L1 and L2. (L1, L2, and L3 are actually part of a bank of
+inductors. L1, L2, and L3 are in the circuit when the channel selector is on channel 2. For other channels,
+another group of three inductors would be used in the circuit.) R3 develops a signal which is fed through
+C4 to provide neutralization. This counteracts the effects of the interelectrode capacitance from the base
+to the collector of Q1. C7 is used to isolate the rf signal from the collector power supply (VCC).

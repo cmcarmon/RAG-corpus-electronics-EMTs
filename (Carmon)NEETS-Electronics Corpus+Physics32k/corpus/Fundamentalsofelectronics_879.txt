@@ -1,0 +1,9 @@
+6.24 Channel Coding32
+We can, to some extent, correct errors made by the receiver with only the error-ﬁlled bit stream emerging
+from the digital channel available to us. The idea is for the transmitter to send not only the symbol-derived
+bits emerging from the source coder but also additional bits derived from the coder’s bit stream. These
+additional bits, the error correcting bits, help the receiver determine if an error has occurred in the
+data bits (the important bits) or in the error-correction bits. Instead of the communication model shown
+previously (Figure 6.17), the transmitter inserts a channel coder before analog modulation, and the receiver
+the corresponding channel decoder (Figure 6.20). This block diagram shown there forms the Fundamental
+Model of Digital Communication.

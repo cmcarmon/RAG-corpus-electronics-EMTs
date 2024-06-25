@@ -1,0 +1,8 @@
+The ﬁrst step in custom memory organization design is to
+make sure the real-time constraints are met at minimal cost.
+All the memory accesses in the application have to be made
+within the given real-time constraint. A certain amount of
+memory bandwidth is needed to meet this constraint. The
+goal of the SCBD step is to order the memory accesses in the
+available time such that the resulting memory bandwidth is as
+cheap as possible.

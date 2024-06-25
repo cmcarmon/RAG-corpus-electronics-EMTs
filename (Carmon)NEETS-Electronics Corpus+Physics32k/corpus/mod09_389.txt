@@ -1,0 +1,9 @@
+Another version of the monostable multivibrator is shown in figure 3-15. View (A) is the circuit and 
+view (B) shows the associated waveforms. In its stable condition (T0), Q1 is cut off and Q2 is conducting. 
+The input trigger (positive pulse at T1) is applied to the collector of Q1 and coupled by C1 to the base of 
+Q2 causing Q2 to be cut off. The collector voltage of Q2 then goes −VCC. The more negative voltage at 
+the collector of Q2 forward biases Q1 through R4. With the forward bias, Q1 conducts, and the collector 
+voltage of Q1 goes to about 0 volts. C1 now discharges and keeps Q2 cut off. Q2 remains cut off until C1 
+discharges enough to allow Q2 to conduct again (T2). When Q2 conducts again, its collector voltage goes 
+toward 0 volts and Q1 is cut off. The circuit returns to its quiescent state and has completed a cycle. The 
+circuit remains in this stable state until the next trigger arrives (T3). 

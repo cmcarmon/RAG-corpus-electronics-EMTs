@@ -1,0 +1,10 @@
+Computers  can  also  be  recording  devices,  digitizing  (converting  to  digital  form)  one  or  several  ampliﬁed
+EEG channels at a ﬁxed rate. In such sampled data systems, each channel is repeatedly sampled at a ﬁxed time
+interval (sample interval) and this sample is converted into a binary number representation by an A/D converter.
+The  A/D  converter  is  interfaced  to  a  computer  system  so  that  each  sample  can  be  saved  in  the  computer’s
+memory. A set of such samples, acquired at a sufﬁcient sampling rate (at least two times the highest frequency
+component  in  the  sampled  signal),  is  sufﬁcient  to  represent  all  the  information  in  the  waveform.  To  ensure
+that the signal is band-limited, a low-pass ﬁlter with a cutoff frequency equal to the highest frequency of interest
+is used. Since physically realizable ﬁlters do not have the ideal characteristics, the sampling rate is usually greater
+than two times the ﬁlter’s cutoff frequency. Furthermore, once converted to a digital format, digital ﬁltering
+techniques can be used.

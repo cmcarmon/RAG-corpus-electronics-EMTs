@@ -1,0 +1,6 @@
+Resource allocation associates behaviors with hardware computational units, and scheduling determines the
+order in which behaviors execute. Behaviors that are mutually exclusive can potentially share computational
+resources.  Allocation  is  performed  using  a  variety  of  graph  clique  covering  or  node  coloring  algorithms.
+Allocation and scheduling are interdependent, and different synthesis strategies perform allocation and sched-
+uling different ways. Sometimes scheduling is performed ﬁrst, followed by allocation; sometimes allocation is
+performed ﬁrst, followed by scheduling; and sometimes allocation and scheduling are interleaved.

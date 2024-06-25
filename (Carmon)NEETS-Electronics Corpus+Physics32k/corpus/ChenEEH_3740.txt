@@ -1,0 +1,25 @@
+Transition costs are sometimes explicitly or implicitly used to
+control the general trend of the candidate paths as well as the
+local trajectories at each step along a path.15 For example, a
+horizontal transition into a node corresponds to the association
+of two sequential test frames with a single reference frame,
+whereas a unity slope transition into a node corresponds to
+the pairing of sequential frames in both the test and reference
+strings. The latter may be given a lower cost, for example, to
+promote a more linear path. Such local costs are often depend-
+ent on the short-term history of the path (e.g., one or two steps
+back) so that, for example, excessive numbers of test string
+features are not associated with a single reference feature vector.
+In addition to the local trajectory costs, hard constraints (effect-
+ively inﬁnite transition costs) are placed on the search. These
+may include, for example, strict endpoint matching constraints
+[nodes (1, 1) and (I, J) must appear on any valid path] and a
+monotonicity requirement that a path may never take a ‘‘west-
+ward’’ trajectory at any step. The latter requirement ensures
+proper time sequencing of events in the utterance. These
+‘‘soft’’ and ‘‘hard’’ local constraints on path trajectories imply
+global constraints on the overall search space. In turn, the
+restricted search space implies computational savings as certain
+node costs need not be computed. For further details on local
+and global constraints and conditions, see Deller et al. (2000),
+Rabiner and Juang (1993), and Myers et al. (1980).

@@ -1,0 +1,11 @@
+and shunt immittance branches that, as the name implies, are
+lossless and contain only inductors and capacitors. A typical
+structure of an LC ladder is shown in Figure 4.9. The circuit
+consists of ﬁve ladder arms (C1, L2kC2, C3, L4kC4, and C5)
+and source and load resistors R1 and R2. It can realize the
+ﬁfth-order low-pass function of equation 4.2 with the trans-
+fer behavior sketched in Fig. 2.6.1. The two transmission
+zeros at 29.2 kHz and 43.2 kHz are realized by the parallel
+resonance frequencies of L2kC2 and L4kC4. The question to
+be addressed is how to implement such a circuit without the
+use of inductors.

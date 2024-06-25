@@ -1,0 +1,4 @@
+During the first half of the cycle, the load capacitor CL is discharged, and during the
+second half of the cycle, it is charged up to the supply voltage. Since static and dynamic
+currents don’t flow simultaneously in CMOS devices, we can compute the average
+dynamic power dissipated using the following very simple method.

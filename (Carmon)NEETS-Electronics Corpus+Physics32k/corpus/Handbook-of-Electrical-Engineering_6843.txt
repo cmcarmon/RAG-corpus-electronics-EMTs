@@ -1,0 +1,16 @@
+(1) are two known signals. Such problems arise in data transmission
+where  s 1
+problems, in which the two signals s (0) and s (1) correspond to the waveforms received after transmission of a
+logical “zero’’ and “one,’’ respectively. In such problems, we are generally interested in minimizing the average
+probability of error, which is the average of the two error probabilities weighted by the prior probabilities of
+occurrence  of  the  two  signals.  This  is  a  Bayesian  performance  criterion,  and  the  optimum  decision  rule  is  a
+straightforward extension of the correlation detector based on (73.5). In particular, under the assumptions that
+the two signals are equally likely to occur prior to measurement, and that the noise is white and Gaussian, the
+optimum decision between (73.16) and (73.17) is to choose the model (73.16) if (
+n
+=1
+(1)Yk , and to choose the model (73.17) otherwise.
+s k
+More generally, many problems in digital communications involve deciding among M equally likely signals
+with  M  >  2.  In  this  case,  again  assuming  white  Gaussian  noise,  the  decision  rule  that  minimizes  the  error
+probability is to choose the signal  s 1

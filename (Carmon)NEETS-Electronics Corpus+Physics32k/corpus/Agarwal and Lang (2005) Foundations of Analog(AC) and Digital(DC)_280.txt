@@ -1,0 +1,15 @@
+Finally, it is important to recognize that voltage sources can be used to con-
+struct circuits in which KVL is violated. Several examples of circuits constructed
+from voltage sources in which KVL is violated around every loop are shown
+in Figure 2.20. As with circuits that violate KCL, we will not be concerned
+with circuits that violate KVL, for two reasons. First, if KVL does not hold
+around a loop, then magnetic flux linkage will accumulate through that loop.
+This is inconsistent with the constraint of the lumped matter discipline that
+dB/dt = 0 outside the elements. Second, if a circuit were actually built to vio-
+late KVL, something would ultimately give. For example, the voltage sources
+might cease to function as ideal sources as they oppose one another. Alterna-
+tively, the loop inductance might begin to accumulate flux linkage, leading to
+high currents that would damage the voltage sources or their interconnections.
+In any case, the behavior of the real circuit would not be well modeled by the
+type of circuit shown in Figure 2.20, and so there is no reason to study the
+latter.

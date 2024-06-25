@@ -1,0 +1,396 @@
+In the case of a one-dimensional collision involving two objects, object A and object B, the coefficient of restitution is given by:
+
+
+
+
+
+C
+
+R
+
+
+=
+
+
+
+
+v
+
+b
+
+
+−
+
+v
+
+a
+
+
+
+
+
+u
+
+a
+
+
+−
+
+u
+
+b
+
+
+
+
+
+
+
+{\displaystyle C_{R}={\frac {v_{\text{b}}-v_{\text{a}}}{u_{\text{a}}-u_{\text{b}}}}}
+, where:
+
+
+
+
+
+v
+
+a
+
+
+
+
+{\displaystyle v_{\text{a}}}
+is the final velocity of object A after impact
+
+
+
+
+
+v
+
+b
+
+
+
+
+{\displaystyle v_{\text{b}}}
+is the final velocity of object B after impact
+
+
+
+
+
+u
+
+a
+
+
+
+
+{\displaystyle u_{\text{a}}}
+is the initial velocity of object A before impact
+
+
+
+
+
+u
+
+b
+
+
+
+
+{\displaystyle u_{\text{b}}}
+is the initial velocity of object B before impact
+Though
+
+
+
+
+C
+
+R
+
+
+
+
+{\displaystyle C_{R}}
+does not explicitly depend on the masses of the objects, it is important to note that the final velocities are mass-dependent. For two- and three-dimensional collisions of rigid bodies, the velocities used are the components perpendicular to the tangent line/plane at the point of contact, i.e. along the line of impact.
+For an object bouncing off a stationary target,
+
+
+
+
+C
+
+R
+
+
+
+
+{\displaystyle C_{R}}
+is defined as the ratio of the object's speed after the impact to that of prior to impact:
+
+
+
+
+
+C
+
+R
+
+
+=
+
+
+v
+u
+
+
+
+
+{\displaystyle C_{R}={\frac {v}{u}}}
+, where
+
+
+
+
+v
+
+
+{\displaystyle v}
+is the speed of the object after impact
+
+
+
+
+u
+
+
+{\displaystyle u}
+is the speed of the object before impact
+In a case where frictional forces can be neglected and the object is dropped from rest onto a horizontal surface, this is equivalent to:
+
+
+
+
+
+C
+
+R
+
+
+=
+
+
+
+h
+H
+
+
+
+
+
+{\displaystyle C_{R}={\sqrt {\frac {h}{H}}}}
+, where
+
+
+
+
+h
+
+
+{\displaystyle h}
+is the bounce height
+
+
+
+
+H
+
+
+{\displaystyle H}
+is the drop height
+The coefficient of restitution can be thought of as a measure of the extent to which mechanical energy is conserved when an object bounces off a surface. In the case of an object bouncing off a stationary target, the change in gravitational potential energy, PE, during the course of the impact is essentially zero; thus,
+
+
+
+
+C
+
+R
+
+
+
+
+{\displaystyle C_{R}}
+is a comparison between the kinetic energy, KE, of the object immediately before impact with that immediately after impact:
+
+
+
+
+
+C
+
+R
+
+
+=
+
+
+
+
+K
+
+E
+
+(after impact)
+
+
+
+
+K
+
+E
+
+(before impact)
+
+
+
+
+
+
+=
+
+
+
+
+
+
+1
+2
+
+
+m
+
+v
+
+2
+
+
+
+
+
+
+1
+2
+
+
+m
+
+u
+
+2
+
+
+
+
+
+
+=
+
+
+
+
+v
+
+2
+
+
+
+u
+
+2
+
+
+
+
+
+=
+
+
+v
+u
+
+
+
+
+{\displaystyle C_{R}={\sqrt {\frac {KE_{\text{(after impact)}}}{KE_{\text{(before impact)}}}}}={\sqrt {\frac {{\frac {1}{2}}mv^{2}}{{\frac {1}{2}}mu^{2}}}}={\sqrt {\frac {v^{2}}{u^{2}}}}={\frac {v}{u}}}
+
+In a cases where frictional forces can be neglected (nearly every student laboratory on this subject) and the object is dropped from rest onto a horizontal surface, the above is equivalent to a comparison between the PE of the object at the drop height with that at the bounce height. In this case, the change in KE is zero (the object is essentially at rest during the course of the impact and is also at rest at the apex of the bounce); thus:
+
+
+
+
+
+C
+
+R
+
+
+=
+
+
+
+
+P
+
+E
+
+(at bounce height)
+
+
+
+
+P
+
+E
+
+(at drop height)
+
+
+
+
+
+
+=
+
+
+
+
+m
+g
+h
+
+
+m
+g
+H
+
+
+
+
+=
+
+
+
+h
+H
+
+
+
+
+
+{\displaystyle C_{R}={\sqrt {\frac {PE_{\text{(at bounce height)}}}{PE_{\text{(at drop height)}}}}}={\sqrt {\frac {mgh}{mgH}}}={\sqrt {\frac {h}{H}}}}

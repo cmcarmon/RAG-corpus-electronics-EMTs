@@ -1,0 +1,6 @@
+FIGURE 80.13  Elements of the Cray I/O system for the Y-MP. An IOS contains up to four IOPs. The MIOP connects to
+the operator workstation and performs mainly maintenance functions. The XIOP supports block multiplexing and is most
+appropriate for controlling relatively slow speed devices, such as tapes. The BIOP and DIOP are designed for controlling
+high-speed devices like disks. Up to four disk storage units (DSUs) can be attached through the disk control unit (DCU)
+to the IOP. Three DCUs can be connected to each of the BIOP and DIOP, leading to a total of 24 disks per IOS. The Y-MP
+can be conﬁgured with two IOSs, for a system total of 48 devices.

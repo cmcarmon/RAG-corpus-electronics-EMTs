@@ -1,0 +1,77 @@
+The differential equation given above is not easily solved, and there is no solution that can be written in terms of elementary functions. However adding a restriction to the size of the oscillation's amplitude gives a form whose solution can be easily obtained. If it is assumed that the angle is much less than 1 radian (often cited as less than 0.1 radians, about 6°), or
+
+
+
+
+θ
+≪
+1
+,
+
+
+
+{\displaystyle \theta \ll 1,\,}
+
+then substituting for sin θ into Eq. 1 using the small-angle approximation,
+
+
+
+
+sin
+⁡
+θ
+≈
+θ
+,
+
+
+
+{\displaystyle \sin \theta \approx \theta ,\,}
+
+yields the equation for a harmonic oscillator,
+
+
+
+
+
+
+
+
+d
+
+2
+
+
+θ
+
+
+d
+
+t
+
+2
+
+
+
+
+
++
+
+
+g
+ℓ
+
+
+θ
+=
+0.
+
+
+{\displaystyle {\frac {d^{2}\theta }{dt^{2}}}+{\frac {g}{\ell }}\theta =0.}
+
+The error due to the approximation is of order θ3 (from the Maclaurin series for sin θ).
+Given the initial conditions θ(0) = θ0 and dθ/dt(0) = 0, the solution becomes
+
+The motion is simple harmonic motion where θ0 is the amplitude of the oscillation (that is, the maximum angle between the rod of the pendulum and the vertical). The period of the motion, the time for a complete oscillation (outward and return) is
+
+which is known as Christiaan Huygens's law for the period. Note that under the small-angle approximation, the period is independent of the amplitude θ0; this is the property of isochronism that Galileo discovered.

@@ -1,0 +1,49 @@
+Seismic waves are elastic waves that propagate through the Earth with a finite velocity, governed by the elastic properties of the rock in which they are travelling. At an interface between two rock types, with different acoustic impedances, the seismic energy is either refracted, reflected back towards the surface or attenuated by the medium. The reflected energy arrives at the surface and is recorded by geophones that are placed at a known distance away from the source of the waves. When a geophysicist views the recorded energy from the geophone, they know both the travel time and the distance between the source and the receiver, but not the distance down to the reflector.
+In the simplest geological setting, with a single horizontal reflector, a constant velocity and a source and receiver at the same location (referred to as zero-offset, where offset is the distance between the source and receiver), the geophysicist can determine the location of the reflection event by using the relationship:
+
+
+
+
+d
+=
+
+
+
+v
+t
+
+2
+
+
+,
+
+
+{\displaystyle d={\frac {vt}{2}},}
+
+where d is the distance, v is the seismic velocity (or rate of travel) and t is the measured time from the source to the receiver.
+In this case, the distance is halved because it can be assumed that it only took one-half of the total travel time to reach the reflector from the source, then the other half to return to the receiver.
+The result gives us a single scalar value, which actually represents a half-sphere of distances, from the source/receiver, which the reflection could have originated from. It is a half-sphere, and not a full sphere, because we can ignore all possibilities that occur above the surface as unreasonable. In the simple case of a horizontal reflector, it can be assumed that the reflection is located vertically below the source/receiver point (see diagram).
+The situation is more complex in the case of a dipping reflector, as the first reflection originates from further up the direction of dip (see diagram) and therefore the travel-time plot will show a reduced dip that is defined the “migrator’s equation” :
+
+
+
+
+tan
+⁡
+
+ξ
+
+a
+
+
+=
+sin
+⁡
+ξ
+,
+
+
+{\displaystyle \tan \xi _{a}=\sin \xi ,}
+
+where ξa is the apparent dip and ξ is the true dip.
+Zero-offset data is important to a geophysicist because the migration operation is much simpler, and can be represented by spherical surfaces. When data is acquired at non-zero offsets, the sphere becomes an ellipsoid and is much more complex to represent (both geometrically, as well as computationally).

@@ -1,0 +1,34 @@
+on the other hand, is more generic for a variety of audio–visual
+coding applications. It has to have the error resilience for
+broadcasting and ATM networks. The aim of MPEG-2 is
+to produce broadcast-quality video compression and sup-
+port higher resolutions including high deﬁnition television
+(HDTV).2 MPEG-2 supports
+low
+(352  240), main (720  480), high-1440 (1440  1152),
+and high (1920  1080) (ISO/IEC, 1994). The MPEG-2 com-
+pressed video data rates are in the range of 3 to 100 Mbps.3
+Although the principles used to encode MPEG-2 are very
+similar to MPEG-1, they provide much greater ﬂexibility by
+offering several proﬁles that differ in the presence or absence of
+B-pictures, chrominance resolution, and coded stream scal-
+ability.4 MPEG-2 supports both progressive and interlaced
+modes.5 Signiﬁcant improvements have also been introduced
+in the MPEG-2 system level. The MPEG-2 systems layer is
+responsible for the integration and synchronization of the
+elementary streams (ES): audio and video streams as well as
+an unlimited number of data and control streams that can be
+used for various applications such as subtitles in multiple
+languages. This is accomplished by ﬁrst packetizing the ES,
+thus forming the packetized elementary streams (PES). These
+PES contain timestamps from a system clock for synchroniza-
+tion. The PES are subsequently multiplexed to form a single
+output stream for transmission in one of two modes: program
+stream (PS) and transport stream (TS). The PS is provided for
+error-free environments, such as storage in a CD-ROM. They
+are used for multiplexing PES that share a common time base,
+using long variable-length packets.6 The TS is designed for
+noisy environments, such as communication over ATM net-
+works. This mode permits multiplexing streams (PES and PS),
+which do not necessarily share a common time-base, using
+ﬁxed-length (188 bytes) packets.

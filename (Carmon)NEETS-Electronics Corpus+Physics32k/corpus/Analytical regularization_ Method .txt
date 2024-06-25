@@ -1,0 +1,200 @@
+Analytical regularization proceeds as follows. First, the boundary value problem is formulated as an integral equation. Written as an operator equation, this will take the form
+
+
+
+
+G
+X
+=
+Y
+
+
+{\displaystyle GX=Y}
+
+with
+
+
+
+Y
+
+
+{\displaystyle Y}
+representing boundary conditions and inhomogeneities,
+
+
+
+X
+
+
+{\displaystyle X}
+representing the field of interest, and
+
+
+
+G
+
+
+{\displaystyle G}
+the integral operator describing how Y is given from X based on the physics of the problem. Next,
+
+
+
+G
+
+
+{\displaystyle G}
+is split into
+
+
+
+
+G
+
+1
+
+
++
+
+G
+
+2
+
+
+
+
+{\displaystyle G_{1}+G_{2}}
+, where
+
+
+
+
+G
+
+1
+
+
+
+
+{\displaystyle G_{1}}
+is invertible and contains all the singularities of
+
+
+
+G
+
+
+{\displaystyle G}
+and
+
+
+
+
+G
+
+2
+
+
+
+
+{\displaystyle G_{2}}
+is regular. After splitting the operator and multiplying by the inverse of
+
+
+
+
+G
+
+1
+
+
+
+
+{\displaystyle G_{1}}
+, the equation becomes
+
+
+
+
+X
++
+
+G
+
+1
+
+
+−
+1
+
+
+
+G
+
+2
+
+
+X
+=
+
+G
+
+1
+
+
+−
+1
+
+
+Y
+
+
+{\displaystyle X+G_{1}^{-1}G_{2}X=G_{1}^{-1}Y}
+
+or
+
+
+
+
+X
++
+A
+X
+=
+B
+
+
+{\displaystyle X+AX=B}
+
+which is now a Fredholm equation of the second type because by construction
+
+
+
+A
+
+
+{\displaystyle A}
+is compact on the Hilbert space of which
+
+
+
+B
+
+
+{\displaystyle B}
+is a member.
+In general, several choices for
+
+
+
+
+
+G
+
+
+1
+
+
+
+
+{\displaystyle \mathbf {G} _{1}}
+will be possible for each problem.

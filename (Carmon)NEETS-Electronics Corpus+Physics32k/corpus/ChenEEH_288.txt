@@ -1,0 +1,10 @@
+Noise in digital systems is typically characterized by the integ-
+rity of the voltages that represent the logic 0 and logic 1 states.
+Noise can manifest itself either during switching (when it may
+result in switching times that exceed theoretical results) or in
+static conditions. Even in CMOS logic, which nominally pro-
+vides fully rail-to-rail logic levels, dynamic noise events can
+momentarily perturb a voltage level. Deep submicron tech-
+nologies, which typically employ supply voltages of under 1.8
+V, may be especially susceptible to logic glitches or errors that
+are induced by random coupled noise.

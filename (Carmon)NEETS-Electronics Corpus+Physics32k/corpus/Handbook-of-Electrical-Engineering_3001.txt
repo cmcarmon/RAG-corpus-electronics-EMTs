@@ -1,0 +1,12 @@
+A  second  effect  of  emitter  degeneration  is  an  increase  in  both  the  low  frequency  driving  point  input  and
+output resistances. This contention is conﬁrmed by Eq. (28.13), which shows that if Ro remains much larger
+than (Rc + Re + REE + RLT), a resistance in the amount of (b
+ac + 1)REE is added to the input resistance established
+when  the  emitter  of  a  common  emitter  ampliﬁer  is  returned  to  signal  ground.  Likewise,  Eq.  (28.14)  veriﬁes
+that emitter degeneration increases the low frequency driving point output resistance. In fact, a very large value
+of REE produces an output resistance that approaches a limiting value of (b
+ac + 1)Ro. It follows that a common
+emitter  ampliﬁer  that  exploits  emitter  degeneration  behaves  as  a  voltage-to-current  converter  at  low  signal
+frequencies. In particular, its high input resistance does not incur an appreciable load on signal voltage sources
+that are characterized by even moderately large Thévenin resistances, while its large output resistance comprises
+an almost ideal current source at its output port.

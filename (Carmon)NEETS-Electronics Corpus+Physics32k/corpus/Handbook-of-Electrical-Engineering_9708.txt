@@ -1,0 +1,7 @@
+Practical Systems Using Parallel Sub-Systems
+A  computer  system  that  uses  parallel  sub-systems  to  improve  reliability  must  incorporate  some  kind  of
+arbitrator  to  determine  which  output  to  use  at  any  given  time.  A  common  method  of  arbitration  involves
+adding a voter to a system with N parallel modules, where N is an odd number. For example, if N = 3, a single
+incorrect  output  can  be  masked  by  the  two  correct  outputs  outvoting  it.  Hence,  the  system  output  will  be
+correct, even though an error has occurred in one of the sub-systems. This system would be known as Triple-
+Modular-Redundant (TMR) (Fig. 98.6).

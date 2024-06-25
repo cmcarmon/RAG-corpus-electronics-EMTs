@@ -1,0 +1,8 @@
+It is somewhat messy to calculate the exact voltages or times at which the
+diode switches state. But frequently in nonlinear circuit design the fundamental
+design constraints of the circuit make exact calculations of this sort unneces-
+sary. For example, for rectifier applications, it is desirable to have the RC time
+constant much longer than the sine wave period, as we shall see. In this case
+the diode switches to the OFF state only a few degrees beyond the peak of the
+wave. Hence the starting amplitude for vC in the diode OFF state is roughly
+the peak of the input sine wave, and the OFF state waveform is

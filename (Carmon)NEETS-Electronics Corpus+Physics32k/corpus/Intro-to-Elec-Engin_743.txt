@@ -1,0 +1,9 @@
+ac while isolating them for dc are limited in their low-frequency response. The high-frequency
+deterioration of the voltage gain is due to the effect of capacitances that are internal to the transistor.
+Figure 8.5.1 shows a typical frequency response of a voltage ampliﬁer. While most often the
+magnitude of the gain is discussed (because it deﬁnes the frequency range of useful gain), the
+phase response becomes important for transient calculations. The midband region is the range of
+frequencies where gain is nearly constant. Ampliﬁers are normally considered to operate in this
+useful midband region. The bandwidth of an ampliﬁer is customarily deﬁned as the band between
+two frequencies, denoted by ωH and ωL, which corresponds to the gain falling to 3 dB below the
+midband constant gain. Thus,

@@ -1,0 +1,18 @@
+where To represents an overall gain term and rk the (generally
+complex) pole locations for the model. Based on our know-
+ledge of phonetics, we might suspect that the model is inad-
+equate for certain classes of phonemes. We have noted that
+some phonemes (e.g.,
+the nasals) exhibit spectral nulls,
+strongly suggesting the need for zeros in the model. We will
+return to the issue of zeros in the model below. A strong
+impetus to justify an all-pole model
+is the availability of
+powerful analytical methods that follow from its use.
+Each pair of poles in the z-plane at complex conjugate
+locations (ri, r
+i ) roughly corresponds to a formant in the
+spectrum of T(z). Since the T(z) should be a stable system,
+all poles are inside the unit circle in the z-plane. If the poles in
+the z-plane are well-separated, estimates for formant frequen-
+cies and bandwidths can be obtained from the pole locations.

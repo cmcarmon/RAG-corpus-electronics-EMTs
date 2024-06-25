@@ -1,0 +1,6 @@
+The characteristics of a frequency selective FIR ﬁlter are speciﬁed by a set of coefﬁcients that can be readily
+obtained using commercially available ﬁlter design packages. These coefﬁcients can be placed within a generic
+FIR program. Within 5–10 minutes, an FIR ﬁlter can be implemented in real time. This includes ﬁnding the
+coefﬁcients; assembling, linking and downloading the FIR program into the SWDS; and observing the desired
+frequency response displayed on a spectrum analyzer. A different FIR ﬁlter can be quickly obtained since the
+only necessary change in the generic program is to substitute a new set of coefﬁcients.

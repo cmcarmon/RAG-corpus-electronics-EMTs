@@ -1,0 +1,13 @@
+Normally, you might expect to see the signal at pin 3 of the 555 chip on the 
+left feeding into the 555 chip on the right to trigger the second chip. As dis-
+cussed in Chapter 11, pin 3 of a 555 chip is where you find the up‐and‐down 
+output pulse for which 555 timers are famous. For this warbler, you get a 
+more interesting sound by using a different signal — that at pin 2 — to trig-
+ger the second 555 chip. The signal at pin 2 of the 555 chip on the left rises 
+and falls slowly as capacitor C1 charges and discharges. (Chapter 7 explains 
+just how a capacitor charges and discharges; this rising and falling capacitor 
+voltage triggers the up‐and‐down pulse waveform that the 555 timer outputs 
+at pin 3, which you’re not using.) By feeding this capacitor voltage (at pin 2 
+of the 555 chip on the left) into the control pin (pin 5) of the 555 chip on the 
+right, you override the internal trigger circuitry of the second chip, using a 
+varying trigger signal instead, which helps make your warbler warble.

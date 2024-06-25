@@ -1,0 +1,12 @@
+High Forward Current Effects
+In the pn-junction diode analysis it was assumed that the density of injected carriers from the p region into
+the n region is small compared to the density of majority carriers in that region. Thus, all of the forward voltage
+VD  appears  across  the  junction.  Therefore,  the  injected  carriers  move  only  because  of  the  diffusion. At  high
+forward  currents  this  is  not  the  case  anymore.  When  the  voltage  drop  across  the  bulk  resistance  becomes
+comparable with the voltage across the junction, the effective applied voltage is reduced [Phillips, 1962]. Due
+to the electric ﬁeld created by the voltage drop in the bulk (neutral) regions, the current is not only a diffusion
+current anymore. The drift current due to the voltage drop across the bulk region opposes the diffusion current.
+The net effect is that, ﬁrst, the current becomes proportional to twice the diffusion constant, second, the high-
+level  current  becomes  independent  of  resistivity,  and,  third,  the  magnitude  of  the  exponent  is  reduced  by  a
+factor of two in Eq. (22.37). The effect of high forward current on the I-V characteristic is shown in Fig. 22.15.
+In all practical designs, m » 2 at ID ‡ 20 mA in small-signal silicon diodes.

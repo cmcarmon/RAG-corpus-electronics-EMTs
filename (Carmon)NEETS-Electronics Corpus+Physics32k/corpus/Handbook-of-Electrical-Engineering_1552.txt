@@ -1,0 +1,5 @@
+Section 2 described the hidden Markev Model concept. The Viterbi algorithm that ﬁnds the maximizing state
+sequence for successive levels i (there may be several), and deciding at the ﬁnal level k, from among the competing
+sequences. At each level i, the paths whose probabilities fall below a threshold are purged. A traceback from the
+ﬁnal state for which the probability is maximized to the start state in the purged trellis yields the most likely
+state sequence.

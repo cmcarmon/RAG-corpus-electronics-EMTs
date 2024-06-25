@@ -1,0 +1,8 @@
+Recall that the static discipline for a logic gate guarantees that the outputs
+of the gate will meet the output constraints specified by the discipline, provided
+its inputs meet the input constraints. Recall, further, that a static discipline
+with its associated voltage thresholds is necessary to establish a standardized
+representation so that the logic devices from several vendors can operate with
+each other correctly. Similarly, a user who wants to build a system can select
+the best devices from several vendors provided they meet the voltage thresholds
+established by the static discipline adopted by the user.

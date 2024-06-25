@@ -1,0 +1,37 @@
+13. Identify the point at which the principal supply 
+ 
+rail is to be connected. Employ extra wide track 
+  widths (for both the 0 V and supply rail) in this 
+area  and  check 
+ 
+that  suitably  decoupling 
+ 
+capacitors are placed as close as possible to the 
+point  of  supply  connection.  Check  that  other 
+ 
+decoupling capacitors are distributed at strategic 
+ 
+points  around  the  board.  These  should  be 
+ 
+positioned  in  close  proximity  to  the  positive 
+ 
+ 
+supply input pin to all integrated circuits that are 
+likely to demand sudden transient currents (e.g. 
+ 
+ 
+555  timers,  comparators,  IC power  amplifiers). 
+  Ensure that there is adequate connection to the  
+ 
+0 V rail for each decoupling capacitor that you 
+use.  Additional  decoupling  may  also  be 
+ 
+required  for  high-frequency  devices  and  you 
+ 
+should  consult  semiconductor  manufacturers’ 
+ 
+ 
+recommendations for specific guidance. 
+14. Fill  unused  areas  of  PCB  with  ‘land’  (areas  of 
+ 
+foil which should be linked to 0 V). This helps 

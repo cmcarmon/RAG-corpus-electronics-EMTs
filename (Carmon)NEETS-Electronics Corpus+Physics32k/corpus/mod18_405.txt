@@ -1,0 +1,11 @@
+The LOGARITHMIC RECEIVER uses a linear logarithmic amplifier, commonly called a LIN-LOG
+AMPLIFIER, instead of a normal IF amplifier. The lin-log amplifier is a nonsaturating amplifier that does
+not ordinarily use any special gain-control circuits. The output voltage of the lin-log amplifier is a linear
+function of the input voltage for low-amplitude signals. It is a logarithmic function for high-amplitude
+signals. In other words, the range of linear amplification does not end at a definite saturation point, as is
+the case in normal IF amplifiers. The comparison of the response curves for normal IF and lin-log
+amplifiers is shown in figure 2-32. The curves show that a continued increase in the input to the lin-log
+amplifier causes a continued increase in the output, but at a reduced rate. Therefore, a large signal does
+not saturate the lin-log amplifier; rather, it merely reduces the amplification of a simultaneously applied
+small signal. A small echo signal can often be detected by the lin-log receiver when a normal receiver
+would be saturated.

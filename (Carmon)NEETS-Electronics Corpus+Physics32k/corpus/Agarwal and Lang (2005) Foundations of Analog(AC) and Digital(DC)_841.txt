@@ -1,0 +1,8 @@
+VOL: The inverter produces an output low of 0 V. This output voltage is
+lower than the output-low threshold of 0.5 V required by the static
+discipline.14
+For our static discipline, VIH = 4 V. To obey the static discipline the
+inverter must interpret any voltage above 4 V as a logical 1. This is
+certainly true for our inverter. Our inverter turns on when the input
+voltage is greater than VT = 1 V and pulls the output to a valid low
+voltage. Thus it interprets any voltage above 1 V as a logical 1.15

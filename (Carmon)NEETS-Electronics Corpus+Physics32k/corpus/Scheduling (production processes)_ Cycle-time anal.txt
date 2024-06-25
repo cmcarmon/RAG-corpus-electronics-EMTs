@@ -1,0 +1,8 @@
+In some simple cases, an analysis of the recipe can reveal the maximum production rate and the rate limiting unit. In the process example above if a number of batches or lots of Product C are to be produced, it is useful to calculate the minimum time between consecutive batch starts (cycle-time). If a batch is allowed to start before the end of the prior batch the minimum cycle-time is given by the following relationship:
+
+Where CTmin is the shortest possible cycle time for a process with M unit-procedures and τj is the total duration for the jth unit-procedure. The unit-procedure with the maximum duration is sometimes referred to as the bottleneck. This relationship applies when each unit-procedure has a single dedicated equipment unit.
+If redundant equipment units are available for at least one unit-procedure, the minimum cycle-time becomes:
+
+Where Nj is the number of redundant equipment for unit procedure j.
+
+If equipment is reused within a process, the minimum cycle-time becomes more dependent on particular process details. For example, if the drying procedure in the current example is replaced with another reaction in the reactor, the minimum cycle time depends on the operating policy and on the relative durations of other procedures. In the cases below, an increase in the hold time in the tote can decrease the average minimum cycle time.

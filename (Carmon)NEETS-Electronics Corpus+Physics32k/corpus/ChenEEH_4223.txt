@@ -1,0 +1,6 @@
+(1) Arbitrary length (multiples of time slots) of a claim
+token is issued based on the ﬁrst two bits of its address
+ﬁeld. For example, 00 will be mapped to one time slot,
+01 will be mapped to two time slots, 10 will be
+mapped to three time slots, and 11 will be mapped
+to four time slots.

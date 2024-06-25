@@ -1,0 +1,6 @@
+Vertical Microinstructions
+At the other extreme, if the microinstruction allows only the speciﬁcation of a single microcommand at a time,
+the instruction is then called vertical. In that case, only the necessary commands for a particular program are
+speciﬁed, resulting in smaller control memory requirements. However, it is not possible to take advantage of
+possible parallelism offered by the hardware, since only one microcommand is executed at a time. For example,
+the vertical speciﬁcation of an ALU operation is as follows:

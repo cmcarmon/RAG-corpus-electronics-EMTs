@@ -1,0 +1,147 @@
+The oscillating flow is assumed to be uni-directional and parallel to the plane wall. The only non-zero velocity component is called u (SI measure in meter/second, or m/s) and is in the x-direction parallel to the oscillation direction. Moreover, since the flow is taken to be incompressible, the velocity component u is only a function of time t (in seconds) and distance from the wall z (in meter). The Reynolds number is taken small enough for the flow to be laminar. Then the Navier–Stokes equations, without additional forcing, reduce to:
+
+
+
+
+
+
+
+∂
+u
+
+
+∂
+t
+
+
+
+=
+−
+
+
+1
+ρ
+
+
+
+
+
+∂
+p
+
+
+∂
+x
+
+
+
++
+ν
+
+
+
+
+∂
+
+2
+
+
+u
+
+
+∂
+
+z
+
+2
+
+
+
+
+
+,
+
+
+{\displaystyle {\frac {\partial u}{\partial t}}=-{\frac {1}{\rho }}{\frac {\partial p}{\partial x}}+\nu {\frac {\partial ^{2}u}{\partial z^{2}}},}
+
+with:
+ρ the mass density of the fluid (kg/m3), taken to be a constant,
+p the fluid pressure (SI: Pa),
+ν the kinematic viscosity of the fluid (m2/s), also taken constant.
+and
+u the velocity of the fluid along the plate (m/s)
+x the position along the plate (m)
+z the distance from the plate (m)
+t the time (s)
+Because the velocity u is not a function of position x along the plate, the pressure gradient ∂p/∂x is also independent of x (but the pressure p varies linearly with x). Moreover, the Navier–Stokes equation for the velocity component perpendicular to the wall reduces to ∂p/∂z = 0, so the pressure p and pressure gradient ∂p/∂x are also independent of the distance to the wall z. In conclusion, the pressure forcing ∂p/∂x can only be a function of time t.
+The only non-zero component of the vorticity vector is the one in the direction perpendicular to x and z, called ω (in s−1) and equal to:
+
+
+
+
+ω
+=
+
+
+
+∂
+u
+
+
+∂
+z
+
+
+
+.
+
+
+{\displaystyle \omega ={\frac {\partial u}{\partial z}}.}
+
+Taking the z-derivative of the above equation, ω has to satisfy
+
+
+
+
+
+
+
+∂
+ω
+
+
+∂
+t
+
+
+
+=
+ν
+
+
+
+
+∂
+
+2
+
+
+ω
+
+
+∂
+
+z
+
+2
+
+
+
+
+
+.
+
+
+{\displaystyle {\frac {\partial \omega }{\partial t}}=\nu {\frac {\partial ^{2}\omega }{\partial z^{2}}}.}
+
+As usual for the vorticity dynamics, the pressure drops out of the vorticity equation.

@@ -1,0 +1,14 @@
+Spatial Image Features
+Low-level image representation features can be extracted from
+keyframes in an effort to efﬁciently model the visual content.
+At this level, any of the techniques from representation of
+image indexing schemes can be used. The obvious candidates
+for feature space are color, texture, and shape. Thus, features
+used to represent video data have conventionally been the
+same ones used for images, extracted from keyframes of the
+video sequence, with additional motion features used to cap-
+ture temporal aspects of video data. Nephade et al. (1998) ﬁrst
+segmented the video spatiotemporally obtaining regions in
+each shot. According to their experiments, each region is
+then processed for feature extraction. A linearized HSV histo-
+gram is used that has 12 bins per channel as the color feature.

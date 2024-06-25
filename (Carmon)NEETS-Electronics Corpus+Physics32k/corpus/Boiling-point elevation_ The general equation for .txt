@@ -1,0 +1,14 @@
+The extent of boiling-point elevation can be calculated by applying Clausius–Clapeyron relation and Raoult's law together with the assumption of the non-volatility of the solute. The result is that in dilute ideal solutions, the extent of boiling-point elevation is directly proportional to the molal Concentration of the solution according to the equation:
+ΔTb = Kb · bB
+where
+ΔTb, the boiling point elevation, is defined as Tb (solution) - Tb (pure solvent).
+Kb, the ebullioscopic constant, which is dependent on the properties of the solvent. It can be calculated as Kb = RTb2M/ΔHv, where R is the gas constant, and Tb is the boiling temperature of the pure solvent [in K], M is the molar mass of the solvent, and ΔHv is the heat of vaporization per mole of the solvent.
+bB is the molality of the solution, calculated by taking dissociation into account since the boiling point elevation is a colligative property, dependent on the number of particles in solution. This is most easily done by using the van 't Hoff factor i as bB = bsolute · i. The factor i accounts for the number of individual particles (typically ions) formed by a compound in solution. Examples:
+i = 1 for sugar in water
+i = 1.9 for sodium chloride in water, due to the near full dissociation of NaCl into Na+ and Cl− (often simplified as 2)
+i = 2.3 for calcium chloride in water, due to nearly full dissociation of CaCl2 into Ca2+ and 2Cl− (often simplified as 3)
+
+Non integer i factors result from ion pairs in solution, which lower the effective number of particles in the solution.
+Equation after including the van 't Hoff factor
+ΔTb = Kb · bsolute · i
+At high concentrations, the above formula is less precise due to nonideality of the solution. If the solute is also volatile, one of the key assumptions used in deriving the formula is not true, since it derived for solutions of non-volatile solutes in a volatile solvent. In the case of volatile solutes it is more relevant to talk of a mixture of volatile compounds and the effect of the solute on the boiling point must be determined from the phase diagram of the mixture. In such cases, the mixture can sometimes have a boiling point that is lower than either of the pure components; a mixture with a minimum boiling point is a type of azeotrope.

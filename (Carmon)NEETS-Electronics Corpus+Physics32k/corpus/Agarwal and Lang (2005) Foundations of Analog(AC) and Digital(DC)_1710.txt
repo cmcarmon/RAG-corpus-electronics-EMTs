@@ -1,0 +1,10 @@
+12.2 U N D R I V E N , S E R I E S R L C C I R C U I T
+The next step in our study of second-order circuits is to include a loss mechanism
+through which energy stored in the circuit will dissipate. Second-order circuits
+can exhibit loss for two reasons. First, real capacitors and real inductors are
+lossy. A common loss mechanism in a capacitor is dielectric leakage, which can
+be modeled with a parallel resistor. A common loss mechanism in an inductor
+is the resistive loss in its winding, which can be modeled with a series resistor.
+Second, we may purposefully introduce loss into a circuit in order to modify
+its behavior. For example, we might wish to suppress the oscillations seen in
+Figure 12.3. Again, this is accomplished by including one or more resistors.

@@ -1,0 +1,6 @@
+Noise Power
+The  noise  signal  N(t)  represents  voltage,  so  the  autocorrelation  function  at  offset  0,  RNN(0)  =  E[N(t)N(t)]
+represents expected power in volts squared, or watts per ohm. When R = 1 W, then N(t)N(t) = N(t)[N(t)/R] =
+N(t)I(t) volt-amperes = watts (where I(t) is the current in a 1-W resistor). The Fourier transform F[RNN(t)] of
+the autocorrelation function RNN(t) is the power spectrum, called the power spectral density function (psdf),
+SNN(w) in W/(rad/s). Then

@@ -1,0 +1,8 @@
+Monitoring and controlling the LAN are essential elements of station management. By monitoring the media,
+stations  maintain  a  record  of  important  measurements,  such  as  the  number  of  a  speciﬁc  type  of  packet
+transmitted or received, the number of different kinds of errors, and the source addresses of received packets.
+Such measurements are made available to an application in the station or to a management center. Thus are
+applications  able  to  monitor  and  collect,  correlate,  and  act  upon  key  LAN  statistics.  Likewise,  designated
+applications  are  able  to  effect  changes  in  the  LAN  by  writing  to  speciﬁc  variables  within  stations,  which
+collectively comprise the so-called management information base. For instance, station management informs
+the MAC sublayer of its unique LAN address by writing the value to a special MAC register.

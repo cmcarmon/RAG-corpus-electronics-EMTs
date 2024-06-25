@@ -1,0 +1,4 @@
+The video generation logic of these types of displays scans the entire page memory, as before, to 
+generate the display picture elements. The difference is in the way the new data is written into the page 
+memory. Individual picture element addresses are not used. Character addresses are used to reference 
+page memory. 

@@ -1,0 +1,15 @@
+Although many of these Java APIs provide services useful in
+middleware, a complete package is available in Java: the Jini
+network technology. Jini is a software architecture for integrat-
+ing hardware over a network. The lower layers of the architec-
+ture handle network protocol decisions, so these decisions are
+transparent to the user who interfaces at the higher layers. The
+user also has the option of performing remote method calls
+using the Java RMI technology, CORBA services, or XML.
+Thus, Jini can be used as a complementary technology to
+CORBA. There is a strong continuing effort in the Java com-
+munity to build new APIs that are increasingly aimed at
+making Java the basis for integrating multiple components
+across a network with real-time speciﬁcations. Because this
+ﬁeld changes rapidly, the reader is encouraged to visit the
+Sun Microsystems Java Web site for updates.

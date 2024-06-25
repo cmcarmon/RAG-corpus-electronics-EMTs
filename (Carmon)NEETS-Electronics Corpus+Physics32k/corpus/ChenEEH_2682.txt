@@ -1,0 +1,22 @@
+Overall, FDTD and related techniques are marching-in-time
+procedures that simulate the continuous actual electromag-
+netic waves in a ﬁnite spatial region by sampled-data numer-
+ical analogs propagating in a computer data space. Time-
+stepping continues as the numerical wave analogs propagate
+in the space lattice to causally connect the physics of the
+modeled region. For simulations where the modeled region
+must extend to inﬁnity, absorbing boundary conditions
+(ABCs) are employed at the outer lattice truncation planes,
+which ideally permit, all outgoing wave analogs to exit the
+region with negligible reﬂection. Phenomena such as induc-
+tion of surface currents, scattering and multiple scattering,
+aperture penetration, and cavity excitation are modeled time-
+step by time-step by the action of the numerical analog to the
+curl equations. Self-consistency of these modeled phenomena
+is generally ensured if their spatial and temporal variations are
+well resolved by the space and time sampling process. In fact,
+the goal is to provide a self-consistent model of the mutual
+coupling of all of the electrically small volume cells constitut-
+ing the structure and its near ﬁeld, even if the structure spans
+tens of wavelengths in three dimensions and there are hun-
+dreds of millions of space cells.

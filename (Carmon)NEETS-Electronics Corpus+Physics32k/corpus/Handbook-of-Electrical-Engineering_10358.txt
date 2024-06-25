@@ -1,0 +1,10 @@
+availability  of  voice  connectivity.  To  support  voice  over  data VSATs,  an  audio  encoder  is  used  to  accept  an
+analog voice signal, digitize and packetize it, and format it for transmission through the VSAT data network.
+A voice port may either be implemented as part of a “baseline” data/voice card or as an add-on stand-alone box.
+The integrated data/voice system employs a TDM outbound carrier and shared inbound carriers for data
+and voice transmission. Two types of voice network communications alternatives may be implemented for voice
+channel  communications:  a  poll/response  access  scheme  and  a  reservation  TDMA  access  scheme.  With  the
+poll/response  access  scheme,  the  hub  polls  the  VSAT  voice  ports  on  a  cyclic  basis.  The  VSATs  return  their
+responses in the form of call requests or status updates. The number of sites in the voice network determines
+the rate at which VSATs are polled. Thus, this scheme is suitable for a small network. Excessive polling delays
+will be encountered for a network with a relatively large number of remotes.

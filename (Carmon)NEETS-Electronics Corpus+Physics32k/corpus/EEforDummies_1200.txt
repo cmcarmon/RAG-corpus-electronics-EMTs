@@ -1,0 +1,7 @@
+The cornerstone of the LED flasher (as well as other projects in this chapter) 
+is the 555 timer IC. You can use this versatile part in a variety of ways, as 
+explained in Chapter 11. For this project, the 555 timer is configured as an 
+astable multivibrator (which is a fancy way of saying it’s an oscillator) gen-
+erating an ongoing series of on/off pulses at regular intervals, sort of like an 
+electronic metronome. The output of the 555 timer IC, at pin 3, is what you 
+use to switch on and off the LED current.

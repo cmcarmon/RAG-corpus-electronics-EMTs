@@ -1,0 +1,6 @@
+complex, one must compute a large number of conditional density functions. Simulation can easily solve this
+problem for most practical systems. A noise-free simulation is executed, and the value of the decision metric
+is  recorded  in  a  data  ﬁle.  Once  the  simulation  is  complete,  this  information  can  be  used  to  reconstruct  the
+conditional  and  ultimately  the  unconditional  error  rate.  This  method  generates  highly  accurate  estimates  of
+the BER and makes very efﬁcient use of computer resources, but can only be used in the special cases where
+one can analytically determine the conditional pdf.

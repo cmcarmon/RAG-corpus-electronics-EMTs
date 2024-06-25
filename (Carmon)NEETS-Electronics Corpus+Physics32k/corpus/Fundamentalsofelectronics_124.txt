@@ -1,0 +1,13 @@
+What we need to solve every circuit problem are mathematical statements that express how the circuit
+elements are interconnected. Said another way, we need the laws that govern the electrical connection of
+circuit elements. First of all, the places where circuit elements attach to each other are called nodes.
+Two nodes are explicitly indicated in Figure 3.6; a third is at the bottom where the voltage source and
+resistor R2 are connected. Electrical engineers tend to draw circuit diagrams—schematics— in a rectilinear
+fashion. Thus the long line connecting the bottom of the voltage source with the bottom of the resistor
+is intended to make the diagram look pretty. This line simply means that the two elements are connected
+together. Kirchhoﬀ’s Laws, one for voltage and one for current, determine what a connection among
+circuit elements means. These laws can help us analyze this circuit.
+3.4.1 Kirchhoﬀ’s Current Law
+At every node, the sum of all currents entering a node must equal zero. What this law means physically is
+that charge cannot accumulate in a node; what goes in must come out. In our example circuit depicted in
+Figure 3.6, we have a three-node circuit and thus have three KCL equations.

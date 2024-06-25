@@ -1,0 +1,39 @@
+In gamma-ray radiography the mean free path of a pencil beam of mono-energetic photons is the average distance a photon travels between collisions with atoms of the target material. It depends on the material and the energy of the photons:
+
+
+
+
+ℓ
+=
+
+μ
+
+−
+1
+
+
+=
+(
+(
+μ
+
+/
+
+ρ
+)
+ρ
+
+)
+
+−
+1
+
+
+,
+
+
+{\displaystyle \ell =\mu ^{-1}=((\mu /\rho )\rho )^{-1},}
+
+where μ is the linear attenuation coefficient, μ/ρ is the mass attenuation coefficient and ρ is the density of the material. The Mass attenuation coefficient can be looked up or calculated for any material and energy combination using the NIST databases
+In X-ray radiography the calculation of the mean free path is more complicated, because photons are not mono-energetic, but have some distribution of energies called a spectrum. As photons move through the target material, they are attenuated with probabilities depending on their energy, as a result their distribution changes in process called spectrum hardening. Because of spectrum hardening, the mean free path of the X-ray spectrum changes with distance.
+Sometimes one measures the thickness of a material in the number of mean free paths. Material with the thickness of one mean free path will attenuate 37% (1/e) of photons. This concept is closely related to half-value layer (HVL): a material with a thickness of one HVL will attenuate 50% of photons. A standard x-ray image is a transmission image, an image with negative logarithm of its intensities is sometimes called a number of mean free paths image.

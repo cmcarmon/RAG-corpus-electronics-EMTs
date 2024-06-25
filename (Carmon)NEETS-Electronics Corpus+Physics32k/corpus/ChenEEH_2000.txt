@@ -1,0 +1,18 @@
+The address of the destination register and its new value are
+stored in the DWB, which is an N-level FIFO buffer. This
+storage structure is composed of an N-level data FIFO that
+contains the values of the registers that have been written and
+an N-level content associative memory (CAM) that stores the
+addresses of the written registers plus valid bits for the data
+FIFO entries. In each clock cycle, if a write register operation is
+executed, a new line of the DWB is ﬁlled; otherwise, the line is
+invalidated by resetting the corresponding valid bit in the
+CAM. This microrollback structure also accommodates the
+needed change in the read of the register ﬁle so that the latest
+value of the addressed register is read. During a read, the DWB
+checks the CAM to determine if the addressed register’s con-
+tent is stored in its data store. If so, a priority circuit chooses
+the most recent written value of the addressed register to be
+read out of the data FIFO. A microrollback of d clock cycles is
+implemented simply by invalidating the ﬁrst (most recent) d
+locations of the DWB.

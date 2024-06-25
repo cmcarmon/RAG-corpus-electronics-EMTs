@@ -1,0 +1,7 @@
+At the NNI the existing signaling system no. 7 (SS7) can be reused (see right part of the NNI protocol stack
+in Fig. 72.4). SS7 is a powerful and widespread network that will continue to be applied for rather a long period
+until ATM penetration has been reached. For the middle term, however, a fully ATM-based network will be
+available which also carries signaling messages (see left part of the NNI protocol stack in Fig. 72.4). ATM-based
+signaling at the NNI needs a suitable AAL which provides the services of the existing message transfer part level 2.
+At  the  UNI,  right  from  the  beginning,  all  kinds  of  trafﬁc  (including  signaling)  is  carried  within  cells. An
+AAL for signaling at the UNI is also required. This AAL has to provide the services of the existing layer 2 UNI

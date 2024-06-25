@@ -1,0 +1,9 @@
+on resistor values. The KVL equation can be rewritten as vin = v1 + vout. Substituting into it the resistor’s
+v-i relation, we have vin = R1i1 + R2iout. Yes, we temporarily eliminate the quantity we seek. Though
+not obvious, it is the simplest way to solve the equations. One of the KCL equations says i1 = iout, which
+means that vin = R1iout + R2iout = (R1 + R2) iout. Solving for the current in the output resistor, we have
+. We have now solved the circuit: We have expressed one voltage or current in terms of
+iout =
+sources and circuit-element values. To ﬁnd any other circuit quantities, we can back substitute this answer
+into our original equations or ones we developed along the way. Using the v-i relation for the output resistor,
+we obtain the quantity we seek.

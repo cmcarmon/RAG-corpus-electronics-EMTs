@@ -1,0 +1,4 @@
+This is a straightforward, but inefficient, recursive C implementation of a LevenshteinDistance function that takes two strings, s and t, together with their lengths, and returns the Levenshtein distance between them:
+
+This implementation is very inefficient because it recomputes the Levenshtein distance of the same substrings many times.
+A more efficient method would never repeat the same distance calculation. For example, the Levenshtein distance of all possible prefixes might be stored in an array d[][] where d[i][j] is the distance between the first i characters of string s and the first j characters of string t. The table is easy to construct one row at a time starting with row 0. When the entire table has been built, the desired distance is d[len_s][len_t].

@@ -1,0 +1,260 @@
+Types of drag are generally divided into the following categories:
+parasitic drag, consisting of
+form drag,
+skin friction,
+interference drag,
+
+lift-induced drag, and
+wave drag (aerodynamics) or wave resistance (ship hydrodynamics).
+The phrase parasitic drag is mainly used in aerodynamics, since for lifting wings drag it is in general small compared to lift. For flow around bluff bodies, form and interference drags often dominate, and then the qualifier "parasitic" is meaningless.
+Further, lift-induced drag is only relevant when wings or a lifting body are present, and is therefore usually discussed either in aviation or in the design of semi-planing or planing hulls. Wave drag occurs either when a solid object is moving through a fluid at or near the speed of sound or when a solid object is moving along a fluid boundary, as in surface waves.
+
+Drag depends on the properties of the fluid and on the size, shape, and speed of the object. One way to express this is by means of the drag equation:
+
+
+
+
+
+F
+
+D
+
+
+
+=
+
+
+
+
+1
+2
+
+
+
+
+ρ
+
+
+v
+
+2
+
+
+
+
+C
+
+D
+
+
+
+A
+
+
+{\displaystyle F_{D}\,=\,{\tfrac {1}{2}}\,\rho \,v^{2}\,C_{D}\,A}
+
+where
+
+
+
+
+
+F
+
+D
+
+
+
+
+{\displaystyle F_{D}}
+is the drag force,
+
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+is the density of the fluid,
+
+
+
+
+v
+
+
+{\displaystyle v}
+is the speed of the object relative to the fluid,
+
+
+
+
+A
+
+
+{\displaystyle A}
+is the cross sectional area, and
+
+
+
+
+
+C
+
+D
+
+
+
+
+{\displaystyle C_{D}}
+is the drag coefficient – a dimensionless number.
+The drag coefficient depends on the shape of the object and on the Reynolds number
+
+
+
+
+
+R
+
+e
+
+
+=
+
+
+
+v
+D
+
+ν
+
+
+
+
+{\displaystyle R_{e}={\frac {vD}{\nu }}}
+,
+where
+
+
+
+D
+
+
+{\displaystyle D}
+is some characteristic diameter or linear dimension and
+
+
+
+
+ν
+
+
+
+{\displaystyle {\nu }}
+is the kinematic viscosity of the fluid (equal to the viscosity
+
+
+
+
+μ
+
+
+
+{\displaystyle {\mu }}
+divided by the density). At low
+
+
+
+
+R
+
+e
+
+
+
+
+{\displaystyle R_{e}}
+,
+
+
+
+
+C
+
+D
+
+
+
+
+{\displaystyle C_{D}}
+is asymptotically proportional to
+
+
+
+
+R
+
+e
+
+
+−
+1
+
+
+
+
+{\displaystyle R_{e}^{-1}}
+, which means that the drag is linearly proportional to the speed. At high
+
+
+
+
+R
+
+e
+
+
+
+
+{\displaystyle R_{e}}
+,
+
+
+
+
+C
+
+D
+
+
+
+
+{\displaystyle C_{D}}
+is more or less constant and drag will vary as the square of the speed. The graph to the right shows how
+
+
+
+
+C
+
+D
+
+
+
+
+{\displaystyle C_{D}}
+varies with
+
+
+
+
+R
+
+e
+
+
+
+
+{\displaystyle R_{e}}
+for the case of a sphere. Since the power needed to overcome the drag force is the product of the force times speed, the power needed to overcome drag will vary as the square of the speed at low Reynolds numbers and as the cube of the speed at high numbers.

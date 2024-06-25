@@ -1,0 +1,12 @@
+Carrier Modulation by Digital Signals
+Digitally modulated signals with low-pass spectral characteristics can be transmitted directly
+through baseband channels (having low-pass frequency-response characteristics) without the
+need for frequency translation of the signal. However, there are many communication bandpass
+channels (telephone, radio, and satellite channels) that pass signals within a band of frequencies
+(that is far removed from dc). Digital information may be transmitted through such channels by
+using a sinusoidal carrier that is modulated by the information sequence in either amplitude, phase,
+or frequency, or some other combination of amplitude and phase. The effect of impressing the in-
+formation signal on one or more of the sinusoidal parameters is to shift the frequency content of the
+transmitted signal to the appropriate frequency band that is passed by the channel. Thus, the signal
+is transmitted by carrier modulation. There are several carrier-modulation methods. However, we
+shall limit our discussion to the following, assuming only binary modulation in all cases:

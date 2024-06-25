@@ -1,0 +1,9 @@
+Retiming
+Retiming
+ is similar to pipelining but yet different in some ways [Leiserson et al., 1983]. Retiming is the process
+of moving the delays around in the data ﬂow graph. Removal of one delay from all input edges of a node and
+insertion  of  one  delay  to  each  outgoing  edge  of  the  same  node  is  the  simplest  example  of  retiming.  Unlike
+pipelining, retiming does not increase the latency of the system. However, retiming alters the number of delay
+elements in the system. Retiming can reduce the critical path of the data ﬂow graph. As a result, it can lead to
+clock  period  reduction  in  hardware  implementations  or  critical  path  of  the  acyclic  precedence  graph  or  the
+iteration period in programmable software system implementations.

@@ -1,0 +1,19 @@
+Most elements of transmitters, channels, and receivers are implemented using standard DSP techniques. Effects
+that are difﬁcult to characterize using mathematical analysis can often be included in the simulation with little
+additional  effort.  Common  examples  include  gain  and  phase  imbalance  in  quadrature  circuits,  nonlinear
+ampliﬁers,  oscillator  instabilities,  and  antenna  platform  motion.  One  can  typically  use  LPE  waveforms  and
+devices  to  avoid  translating  the  modulator  output  to  the  carrier  frequency.  Signal  levels  in  physical  systems
+often  vary  by  many  orders  of  magnitude,  with  the  output  of  the  transmitters  being  extremely  high  energy
+signals  and  the  input  to  receivers  at  very  low  energies.  To  reduce  execution  time  and  avoid  working  with
+extremely large and small signal level simulations, one often omits the effects of linear ampliﬁers and attenuators
+and uses normalized signals. Since the performance of most systems is a function of the signal-to-noise ratio,
+and not of absolute signal level, normalization will have no effect on the measured performance. One must be
+careful to document the normalizing constants so that the original signal levels can be reconstructed if needed.
+Even  some  rather  complex  functions,  such  as  error  detecting  and  correcting  codes,  can  be  handled  in  this
+manner. If one knows the uncoded error rate for a system, the coded error rate can often be closely approximated
+by applying a mathematical mapping. As will be pointed out below, the amount of processor time required to
+produce a meaningful error rate estimate is often inversely proportional to the error rate. While an uncoded
+error rate may be easy to measure, the coded error rate is usually so small that it would be impractical to execute
+a  simulation  to  measure  this  quantity  directly.  The  performance  of  a  coded  communication  system  is  most
+often  determined  by  ﬁrst  executing  a  simulation  to  establish  the  channel  symbol  error  rate.  An  analytical
+mapping can then be used to determine the decoded BER from the channel symbol error rate.

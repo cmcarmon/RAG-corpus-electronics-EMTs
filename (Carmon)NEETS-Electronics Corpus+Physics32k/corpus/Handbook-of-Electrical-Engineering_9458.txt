@@ -1,0 +1,9 @@
+The availability, A(t), of a system is deﬁned as the probability that a system will be available to perform its
+tasks at the instant of time t. Intuitively, we can see that the availability can be approximated as the total time
+that a system has been operational divided by the total time elapsed since the system was initially placed into
+operation. In other words, the availability is the percentage of time that the system is available to perform its
+expected tasks. Suppose that we place a system into operation at time t = 0. As time moves along, the system
+will perform its functions, perhaps fail, and hopefully be repaired. At some time  t =  tcurren t, suppose that the
+system has operated correctly for a total of top hours and has been in the process of repair or waiting for repair
+to  begin  for  a  total  of  trepair hours.  The  time  tcurrent is  then  the  sum  of  top  and  trepair.  The  availability  can  be
+determined as

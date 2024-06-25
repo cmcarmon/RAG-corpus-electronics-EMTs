@@ -1,0 +1,9 @@
+The recovery block approach to software fault tolerance is analogous to the active approaches to hardware
+versions  of  a  program  are  provided,  and  a
+fault  tolerance,  speciﬁcally  the  cold  standby  sparing  approach. 
+single set of acceptance tests is used. One version of the program is designated as the primary version, and the
+1 versions are designated as spares, or secondary versions. The primary version of the software
+remaining 
+is always used unless it fails to pass the acceptance tests. If the acceptance tests are failed by the primary version,
+then the ﬁrst secondary version is tried. This process continues until one version passes the acceptance tests or
+the system fails because none of the versions can pass the tests.

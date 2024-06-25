@@ -1,0 +1,10 @@
+Ppm can be converted to pdm by using a flip-flop circuit. (Flip flops were discussed in NEETS,
+Module 9, Introduction to Wave-Generation and Wave-Shaping Circuits.) Figure 3-22 shows the
+waveforms for conversion of ppm to pdm. View (A) is the pulse-modulated pulse train and view (B) is a
+series of reset trigger pulses. The trigger pulses must be synchronized with the unmodulated position of
+the ppm pulses, but with a fixed time delay from these pulses. As the position-modulated pulse is applied
+to the flip-flop, the output is driven positive, as shown in view (C). After a period of time, the trigger
+pulse is again generated and drives the flip-flop output negative and the pulse ends. Because the ppm
+pulses are constantly varying in position with reference to the unmodulated pulses, the output of the flip-
+flop also varies in duration or width. This pdm signal can now be applied to one of the circuits that has
+already been discussed for demodulation.

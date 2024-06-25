@@ -1,0 +1,9 @@
+The Colpitts oscillator is very similar to the shunt-fed Hartley oscillator, except that two capacitors 
+are used in the tank circuit instead of a tapped coil (figure 2-15). The Hartley oscillator has a tap between 
+two coils, while the Colpitts has a tap between two capacitors. You can change the frequency of the 
+Colpitts either by varying the inductance of the coil or by varying the capacitance of the two capacitors in 
+the tank circuit. Notice that no coupling capacitor is used between the tank circuit and the base of Q1. 
+Capacitors C1 and C2 of the tank circuit are in parallel with the input and the output interelement 
+capacitance (capacitance between emitter, base, and collector) of the transistor. Thus the input and the 
+output capacitive effect can be minimized on the tank circuit and better frequency stability can be 
+obtained than with the Armstrong or the Hartley oscillator. 

@@ -1,0 +1,9 @@
+Given a signal that has been collected or computed using a process that eliminates or minimizes aliasing from
+components above the Nyquist frequency (one-half the sampling frequency), we have a great deal of ﬂexibility
+in  modifying  the  sampling  rate.  For  example,  if  the  frequency  content  of  the  signal  is  much  lower  than  the
+Nyquist  frequency,  then  the  sampling  rate  can  be  reduced  without  losing  any  of  the  signal  content.  This
+“decimation” process allows us to compress the signal into a form that requires less memory requirements. An
+“interpolation” process can be used to interpolate new data points between points of the decimated signal in
+such  a  way  that  the  frequency  content  of  the  new  signal  is  essentially  the  same  as  the  original  signal.  The
+  such  as  a  factor  of  3.  The
+decimation  process  requires  a  reduction  of  data  points  by  an  integer  factor, 

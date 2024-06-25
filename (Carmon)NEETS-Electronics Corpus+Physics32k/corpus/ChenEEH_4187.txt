@@ -1,0 +1,11 @@
+Packet Switching
+A message is divided into a number of smaller packets, and one
+packet at a time is sent through the network. There are two
+approaches in packet switching: (1) datagram will not need to
+establish a connection path, and each packet is treated inde-
+pendently; and (2) the virtual circuit approach requires that a
+connection be established, and all packets will need to go over
+that connection path. There is less overhead on the retransmis-
+sion as the packet is smaller; overlap of the transmission is
+possible. Virtual circuit is more suitable for interactive trafﬁc
+because it has smaller delay.

@@ -1,0 +1,9 @@
+We often use the expressions 16-bit word (short word) or 32-bit word (long word) depending
+on the type of computer being used. Most fast computers today actually employ a 64-bit
+word at the hardware level.
+If a word has n bits it can represent 2n diﬀerent numbers in the range 0 to 2n−1. Negative
+numbers are usually represented by the so called 2’s complement notation. To obtain the
+2’s compliment of a number ﬁrst take the complement (invert each bit) and then add 1. All
+the negative numbers will have a 1 in the MSB position, and the numbers will now range
+from −2n−1 to 2n−1 − 1. The electronic advantages of the 2’s complement notation becomes
+evident when addition is performed. Convince yourself of this advantage.

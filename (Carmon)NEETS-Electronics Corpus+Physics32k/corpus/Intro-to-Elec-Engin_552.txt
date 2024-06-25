@@ -1,0 +1,4 @@
+In order to provide current-to-voltage conversion and/or buffering, an op amp is used at the output.
+However, in some high-speed applications where a limited output voltage range is acceptable, a
+resistor, instead of an op amp, is used for the current-to-voltage conversion, thereby eliminating
+the delay associated with the op amp.

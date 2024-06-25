@@ -1,0 +1,13 @@
+The  single  host  formulation  of  the  retiming  transformation  preserves  the  latency  of  the  algorithm.  The
+retiming formulation with no constraints on latency (i.e., with separate input and output hosts) can also achieve
+pipelining with no retiming
+. Pipelining with retiming is the most desirable transfor-
+mation in DSP architecture design. Pipelining with retiming can be interpreted to be identical to retiming of
+the original algorithm with a large number of delays at the input edges. Thus, we can increase the system latency
+arbitrarily and remove the appropriate number of delays from the inputs after the transformation.
+r
+(.) to each node in the data ﬂow graph. If 
+The retiming formulation assigns retiming variables 
+ﬁ
+ in the original data ﬂow graph and 
+V

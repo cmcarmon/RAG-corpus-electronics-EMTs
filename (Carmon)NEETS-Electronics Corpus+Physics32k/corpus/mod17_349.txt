@@ -1,0 +1,6 @@
+The start unit precedes the first intelligence unit and is always a space signal. Its purpose is to start 
+the receiving machine. The stop unit follows the last code unit and is always a mark signal. Its purpose is 
+to stop the receiving machine in preparation for receiving the next character. The start unit must be equal 
+to at least one unit of the code. The standard mode uses a stop unit that is 1.42 times the length of one 
+intelligence unit. It is common practice to refer to a code unit as an element and to use the terms 
+interchangeably. You will also hear duration of a unit referred to as the unit interval. 

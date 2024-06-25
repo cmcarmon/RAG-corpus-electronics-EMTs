@@ -1,0 +1,18 @@
+Drivers
+To communicate with a reader, the basic transmission is handled by three protocol layers: the physical layer,
+the transport layer, and the command layer. The physical layer is related to the data transmission itself through
+the  physical  port  (serial,  pcmcia,  usb,  etc.).  The  transport  layer  speciﬁes  the  transmission  type,  the  message
+addressing, and handles the message validation. It deﬁnes how each byte transmitted by the physical layer is
+interpreted  and  ensures  that  it  forms  a  consistent  and  valid  message.  Finally,  the  command  layer  speciﬁes
+commands  that  are  transmitted  to  the  reader  to  execute  a  set  of  functions.  These  functions  will  allow  the
+communication with a smart card and the management of events such as insertion and removal of the card.
+In the communication process, the driver is a piece of software that hides the treatment related to the physical
+and the transport layers. With documented interfaces, the user can use the command layer to send commands
+to  the  reader  and  to  communicate  with  the  card.  Usually,  the  operating  system  integrates  drivers  that  take
+charge of the physical layer. The device vendor will then write a ﬁlter driver that is placed over the other one
+to wrap up the transport layer, transmitting commands into well-deﬁned packages. The driver will allow basic
+commands  to  the  reader:  setting  parameters  of  the  readers  (communication  speed,  voltage  levels,  card  type
+used),  setting  communication  parameters  between  reader  and  card  (protocol,  speed),  power  on,  power  off,
+transmitting  bytes  to  the  card.  Moreover,  the  driver  must  manage  the  events  coming  from  the  system  and
+control the states of the device. For instance, the insertion or the removal of the reader involves some processes
+of initialization of the communication and registration of the connection. The driver must also allow the sharing

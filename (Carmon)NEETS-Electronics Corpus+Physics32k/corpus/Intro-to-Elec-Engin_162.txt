@@ -1,0 +1,12 @@
+Nodal-Voltage Method
+A set of node-voltage variables that implicitly satisfy the KVL equations is selected in order to
+formulate circuit equations in this nodal method of analysis. A reference (datum) node is chosen
+arbitrarily based on convenience, and from each of the remaining nodes to the reference node, the
+voltage drops are deﬁned as node-voltage variables. The circuit is then described completely by
+the necessary number of KCL equations whose solution yields the unknown nodal voltages from
+which the voltage and the current in every circuit element can be determined. Thus, the number
+of simultaneous equations to be solved will be equal to one less than the number of network
+nodes. All voltage sources in series with resistances are replaced by equivalent current sources
+with conductances in parallel. In general, resistances may be replaced by their corresponding
+conductances for convenience. Note that the nodal-voltage method is a general method of network
+analysis that can be applied to any network.

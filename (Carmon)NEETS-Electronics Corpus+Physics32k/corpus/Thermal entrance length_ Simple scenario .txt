@@ -1,0 +1,6 @@
+A simple example is a laminar flow which is already hydrodynamically fully developed at x=0, and a constant and uniform pipe wall temperature is maintained. In this case, the thermal entrance length can be calculated by a simplified equation written as:
+
+(Leh (5%))/D=0.033 ReDPr   [1]
+
+where D is the pipe diameter, ReD the Reynolds number and Pr is the Prandtl number.
+Given Reynolds number is a constant for a hydrodynamically fully developed flow (where the velocity of the flow remains unchanged), the equation above indicates that the thermal entrance length is proportional to the Prandtl number [1], which is defined as the ratio of momentum diffusion rate to the thermal diffusion rate of a fluid. That is, a low Pr material, with its thermal diffusion rate closer to its momentum diffusion rate, can achieve a fully developed heat flow at a shorter distance compared to a high Pr material in this situation.

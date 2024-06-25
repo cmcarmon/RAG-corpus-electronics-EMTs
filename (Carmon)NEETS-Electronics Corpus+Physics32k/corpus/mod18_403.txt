@@ -1,0 +1,10 @@
+The gating multivibrator is also triggered by the negative spike from the differentiated square wave.
+This stage applies a 2,000-microsecond negative gate to the 14-megahertz oscillator. The oscillator
+operates for 2,400 microseconds and is then cut off. Because the delay line time is 2,500 microseconds,
+the 14-megahertz oscillations stop before the initial waves reach the end of the delay line. This wave
+train, when detected and differentiated, turns the gating multivibrator on, producing another 2,400-
+microsecond wave train. The 100 microseconds of the delay line is necessary to ensure that the
+mechanical waves within the line have time to damp out before the next pulse-repetition time. In this
+manner the pulse-repetition time of the radar set is controlled by the delay of the mercury, or quartz delay
+line. Because this delay line is also common to the video pulses going to the comparison point, the
+delayed and the undelayed video pulses will arrive at exactly the same time.

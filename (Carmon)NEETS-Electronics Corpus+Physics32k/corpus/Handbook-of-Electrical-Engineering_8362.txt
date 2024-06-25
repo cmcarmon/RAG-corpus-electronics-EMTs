@@ -1,0 +1,11 @@
+Figure 85.25 shows a modiﬁed LSSD latch design [Malaiya and Narayanaswamy, 1983] that can be used to
+enable  path-delay  testing  as  described  above.  Using  this  design,  it  is  possible  to  load  any  two  arbitrary  test
+vectors to the combinational circuit in rapid succession. First, test vector Q1, Q2 ,…,Qn would be scanned into
+the L1 latches outputs by using clocks  C3 and C2. Next, the test vector would be moved into the L2 latches by
+applying  a  single  C  clock.  This  way  the  ﬂip-ﬂop  outputs  would  be  set  to  their  initial  values  deﬁned  by  Q1,
+Q2 ,…,Qn . Following this, the second test vector Y1, Y2,…,Yn would be scanned into the L1 latches using clock
+signals  C3 and  C2. Now applying the C clock causes the ﬁrst test vector (Qi) to be replaced by the second test
+vector (Yi), and if the  C1 clock is applied next, the response of the combinational circuit will be captured in
+the L1 latches. This way, the minimum delay between the clock signals C and C1 that is necessary to allow the
+signals to propagate through the combinational circuit can be determined. Other ﬂip-ﬂop designs with built-
+in features to support double-strobe testing are also possible [Dervisoglu and Stong, 1991].

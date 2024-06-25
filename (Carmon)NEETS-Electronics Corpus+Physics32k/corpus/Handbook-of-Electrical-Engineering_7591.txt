@@ -1,0 +1,14 @@
+heat  dissipation  problems  in  high-density  chips.  Also  a  noteworthy  feature  of  CMOS  digital  circuits  is  the
+absence of components other than FETs. This attribute, which is shared by PMOS and NMOS, accounts for
+the much higher function/chip area density than is possible with TTL or ECL. During the time the output of
+a CMOS gate is switching there will be current ﬂow from VDD to VSS, partly due to the charging of junction
+capacitances and partly because the path between VDD and VSS closes momentarily as the FETs turn on and off.
+This  causes  the  dc  supply  current  to  increase  in  proportion  to  the  switching  frequency  in  a  CMOS  circuit.
+Manufacturers specify that the supply voltage for standard CMOS can range over 3 V £ VDD – VSS £ 18 V, but
+switching speeds are slower at the lower voltages, mainly due to the increased resistances of the “on” transistors.
+The output switches between low and high when the input is midway between VDD and VSS, and the output
+logical 1 level will be VDD and the logical 0 level VSS [Fig. 79.13(c)]. If CMOS is operated with VDD = 5 V and
+VSS = 0 V, the VDD and VSS levels will be almost compatible with TTL except that the TTL totem-pole output
+high of 3.4 V is marginal as a logical 1 for CMOS. To alleviate this, when CMOS is driven with TTL a 3.3-kW
+pull-up resistor between the TTL output and the common VCC, VDD supply terminal should be used. This raises
+VOH of the TTL output to 5 V.

@@ -1,0 +1,163 @@
+With increasing temperature, phonon concentration increases and causes increased scattering. Thus lattice scattering lowers the carrier mobility more and more at higher temperature. Theoretical calculations reveal that the mobility in non-polar semiconductors, such as silicon and germanium, is dominated by acoustic phonon interaction. The resulting mobility is expected to be proportional to T −3/2, while the mobility due to optical phonon scattering only is expected to be proportional to T −1/2. Experimentally, values of the temperature dependence of the mobility in Si, Ge and GaAs are listed in table.
+As
+
+
+
+
+
+1
+τ
+
+
+∝
+
+⟨
+v
+⟩
+
+Σ
+
+
+{\displaystyle {\frac {1}{\tau }}\propto \left\langle v\right\rangle \Sigma }
+, where
+
+
+
+Σ
+
+
+{\displaystyle \Sigma }
+is the scattering cross section for electrons and holes at a scattering center and
+
+
+
+
+⟨
+v
+⟩
+
+
+
+{\displaystyle \left\langle v\right\rangle }
+is a thermal average (Boltzmann statistics) over all electron or hole velocities in the lower conduction band or upper valence band, temperature dependence of the mobility can be determined. In here, the following definition for the scattering cross section is used: number of particles scattered into solid angle dΩ per unit time divided by number of particles per area per time (incident intensity), which comes from classical mechanics. As Boltzmann statistics are valid for semiconductors
+
+
+
+
+⟨
+v
+⟩
+
+∼
+
+
+T
+
+
+
+
+{\displaystyle \left\langle v\right\rangle \sim {\sqrt {T}}}
+.
+For scattering from acoustic phonons, for temperatures well above Debye temperature, the estimated cross section Σph is determined from the square of the average vibrational amplitude of a phonon to be proportional to T. The scattering from charged defects (ionized donors or acceptors) leads to the cross section
+
+
+
+
+
+Σ
+
+
+d
+e
+f
+
+
+∝
+
+
+
+⟨
+v
+⟩
+
+
+
+−
+4
+
+
+
+
+{\displaystyle {\Sigma }_{def}\propto {\left\langle v\right\rangle }^{-4}}
+. This formula is the scattering cross section for "Rutherford scattering", where a point charge (carrier) moves past another point charge (defect) experiencing Coulomb interaction.
+The temperature dependencies of these two scattering mechanism in semiconductors can be determined by combining formulas for τ, Σ and
+
+
+
+
+⟨
+v
+⟩
+
+
+
+{\displaystyle \left\langle v\right\rangle }
+, to be for scattering from acoustic phonons
+
+
+
+
+
+μ
+
+
+p
+h
+
+
+∼
+
+T
+
+−
+3
+
+/
+
+2
+
+
+
+
+{\displaystyle {\mu }_{ph}\sim T^{-3/2}}
+and from charged defects
+
+
+
+
+
+μ
+
+
+d
+e
+f
+
+
+∼
+
+T
+
+3
+
+/
+
+2
+
+
+
+
+{\displaystyle {\mu }_{def}\sim T^{3/2}}
+.
+The effect of ionized impurity scattering, however, decreases with increasing temperature because the average thermal speeds of the carriers are increased. Thus, the carriers spend less time near an ionized impurity as they pass and the scattering effect of the ions is thus reduced.
+These two effects operate simultaneously on the carriers through Matthiessen's rule. At lower temperatures, ionized impurity scattering dominates, while at higher temperatures, phonon scattering dominates, and the actual mobility reaches a maximum at an intermediate temperature.

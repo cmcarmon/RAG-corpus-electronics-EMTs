@@ -1,0 +1,8 @@
+The model-based MMSE approach provides reasonably good enhanced speech quality with signiﬁcantly less
+structured  residual  noise  than  the  spectral  subtraction  approach.  This  performance  was  achieved  for  white
+Gaussian  input  noise  at  10  dB  input  SNR  using  512-2048  ﬁlters.  An  improvement  of  5–6  dB  in  SNR  was
+achieved by this approach. The model-based approach, however, is more elaborate than the spectral subtraction
+approach, since it involves two steps of training and estimation, and training must be performed on sufﬁciently
+long data. The MMSE estimation approach is usually superior to the asymptotic MMSE enhancement approach.
+The reason is that the MMSE approach applies a “soft decision” rather than a “hard decision” in choosing the
+most appropriate ﬁlter for a given vector of the noisy signal.

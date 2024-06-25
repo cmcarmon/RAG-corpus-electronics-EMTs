@@ -1,0 +1,8 @@
+Network layer PDUs are called packets and data link layer PDUs are called frames. The data link layer does
+not know that the information it is transmitting is a packet; to the data link layer entity, the packet is simply
+user information. From the perspective of a data link entity, it is not necessary to have a network layer. The
+network  layer  exists  to  add  value  for  the  user  of  the  network  layer  to  the  services  provided  by  the  data  link
+layer. In the example above, value was added by the network layer by providing a relaying capability since Hosts
+A and C were not directly connected. Similarly, the data link layer functions on a hop-by-hop basis, each hop
+being completely unaware that there are any other hops involved in the communication. We will see later that
+the data link need not be limited to a single physical connection.

@@ -1,0 +1,11 @@
+During the 1960s, it was becoming clear that not only was digital communication technically superior,
+but also that the wide variety of communication modes—computer login, ﬁle transfer, and electronic mail—
+needed a diﬀerent approach than point-to-point. The notion of computer networks was born then, and what
+was then called the ARPANET, now called the Internet, was born. Computer networks elaborate the basic
+network model by subdividing messages into smaller chunks called packets(Figure 6.26). The rationale for
+the network enforcing smaller transmissions was that large ﬁle transfers would consume network resources
+all along the route, and, because of the long transmission time, a communication failure might require
+retransmission of the entire ﬁle. By creating packets, each of which has its own address and is routed
+independently of others, the network can better manage congestion. The analogy is that the postal service,
+rather than sending a long letter in the envelope you provide, opens the envelope, places each page in a
+separate envelope, and using the address on your envelope, addresses each page’s envelope accordingly, and

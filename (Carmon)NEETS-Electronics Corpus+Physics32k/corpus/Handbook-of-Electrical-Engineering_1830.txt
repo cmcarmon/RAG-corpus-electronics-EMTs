@@ -1,0 +1,8 @@
+The counterpart, in aperture and sensor array processing, of the use of window functions in spectral analysis
+for reduction of sidelobes is the use of aperture shading. In aperture shading, one simply multiplies a uniformly
+weighted aperture by the shading function. The resulting beam pattern is, then, simply the convolution of the
+beam pattern of the uniformly shaded volumetric array and the beam pattern of the shading function. Fourier
+transform  relationship  between  the  stationary  signal s(x,t)  and  the  wavenumber  frequency  spectrum  S(k,w)
+allows  one  to  exploit  high-resolution  spectral  analysis  techniques  for  the  high-resolution  estimation  of  the
+direction of arrival [Pillai, 1989]. The superscript *, t, and H denote, respectively, complex conjugate, transpose,
+and conjugate transpose.

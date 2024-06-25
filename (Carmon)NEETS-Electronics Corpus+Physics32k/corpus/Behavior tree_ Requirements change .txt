@@ -1,0 +1,7 @@
+The ideal that is sought when responding to a change in the functional requirements for a system is that it can be quickly determined:
+where to make the change,
+how the change affects the architecture of the existing system,
+which components of the system are affected by the change, and
+what behavioral changes will need to be made to the components (and their interfaces) that are affected by the change of requirements.
+Because a system is likely to undergo many sets of changes over its service time, there is also a need to record, manage and optimize the system’s evolution driven by the change sequence.
+A traceability model, which uses behavior trees as a formal notation to represent functional requirements, reveals change impacts on different types of design constructs (documents) caused by the changes of the requirements. The model introduces the concept of evolutionary design documents that record the change history of the designs. From these documents, any version of a design document as well as the difference between any two versions can be retrieved. An important advantage of this model is that the major part of the procedure to generate these evolutionary design documents can be supported by automated tools.

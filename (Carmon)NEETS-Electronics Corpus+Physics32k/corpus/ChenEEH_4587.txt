@@ -1,0 +1,9 @@
+where a is the learning rate parameter. The searching procedure
+is repeated until inequalities of equations 8.11 and 8.12 hold, the
+control input converges, or the maximum number of iterations
+is reached. Of course, the term nf ~yy(k þ 1), the remaining un-
+certainty of the failure dynamics, and the remaining uncertainty
+of the nominal system N~yy(k þ 1) are unknown; the terms
+qnf ~yy(k þ 1)=qu(k) and qN ~yy(k þ 1)=qu(k) cannot be com-
+puted either. So, the actual searching procedure is based on
+the approximated values:

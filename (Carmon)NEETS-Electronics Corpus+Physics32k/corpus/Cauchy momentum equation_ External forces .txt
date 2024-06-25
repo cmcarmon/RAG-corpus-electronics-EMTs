@@ -1,0 +1,40 @@
+The vector field g represents body forces per unit mass. Typically, these consist of only gravity acceleration, but may include others, such as electromagnetic forces. In non-inertial coordinate frames, other "inertial accelerations" associated with rotating coordinates may arise.
+Often, these forces may be represented as the gradient of some scalar quantity χ, with g = ∇χ in which case they are called conservative forces. Gravity in the z direction, for example, is the gradient of −ρgz. Because pressure from such gravitation arises only as a gradient, we may include it in the pressure term as a body force h = p − χ. The pressure and force terms on the right-hand side of the Navier–Stokes equation become
+
+
+
+
+−
+∇
+p
++
+
+g
+
+=
+−
+∇
+p
++
+∇
+χ
+=
+−
+∇
+
+(
+
+p
+−
+χ
+
+)
+
+=
+−
+∇
+h
+.
+
+
+{\displaystyle -\nabla p+\mathbf {g} =-\nabla p+\nabla \chi =-\nabla \left(p-\chi \right)=-\nabla h.}

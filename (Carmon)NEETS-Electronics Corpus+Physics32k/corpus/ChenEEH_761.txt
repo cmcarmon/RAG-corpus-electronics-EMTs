@@ -1,0 +1,18 @@
+Allocating more or less memories has an effect on the chip
+area and the energy consumption of the memory architecture
+as shown in Figure 2.23 for single-port memories. With multi-
+port memories, the number of possibilities becomes even
+much larger, but that will be left out of this discussion. Large
+memories consume more energy per access than small mem-
+ories due to the longer word- and bit-lines. Therefore, the
+energy consumed by a single large memory containing all the
+data is much greater than the energy consumed when the data
+is distributed over several smaller memories. The area of the
+one-memory solution is also often higher when different
+arrays have different bit widths. For example, when a 6-bit
+and an 8-bit array are stored in the same memory, two bits are
+unused for every 6-bit word. By storing the arrays in different
+memories, one six-bits wide and the other eight bits wide, this
+overhead can be avoided. Note that the steepness of the curves
+heavily depends on the particular application and also on the
+memory library.

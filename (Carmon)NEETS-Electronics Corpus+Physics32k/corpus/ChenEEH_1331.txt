@@ -1,0 +1,12 @@
+. Audio equipment can be easily connected to a computer
+system through an interface such as a sound card. Popular
+audio equipment is MIDI keyboard. MIDI stands for
+musical instrument digital interface. It stores the infor-
+mation of how the music should be played back instead of
+all the information about the music, with the help of a
+wave table in a sound card. Since MIDI skips the storage
+of actual sound itself, it saves a lot of memory space.
+However, MIDI might not be accurate without a good
+wavetable. A wavetable with 32 voices means that the
+sound card stores 32 voices in its ROM, and MIDI can
+just call the voices without recording the voices again.

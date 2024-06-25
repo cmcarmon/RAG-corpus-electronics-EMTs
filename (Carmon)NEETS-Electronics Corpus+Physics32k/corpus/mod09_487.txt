@@ -1,0 +1,7 @@
+At T0, the negative alternation of the input gate is applied to the base of Q1, driving it into cutoff. At 
+this time the transistor is effectively removed from the circuit. The circuit is now a series-RC network 
+with 50 volts applied. At the instant Q1 cuts off, 50 volts will appear across the combination of R2 and 
+R3 (the capacitor being a short at the first instant). The 50 volts will divide proportionally, according to 
+the size of the two resistors. R2 then will have 49.5 volts and R3 will have 0.5 volt. The 0.5 volt across 
+R3 (jump resistor) is the amplitude of the jump voltage. Since the output is taken across R3 and C2 in 
+series, the output "jumps" to 0.5 volt. 

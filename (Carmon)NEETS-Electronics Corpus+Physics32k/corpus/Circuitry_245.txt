@@ -1,0 +1,29 @@
+Triacs 
+ 
+Triacs are a refinement of the thyristor which, when 
+triggered,  conduct  on  both  positive  and  negative 
+half-cycles of the applied voltage. Triacs have three 
+terminals known as main terminal one (MT1), main 
+terminal two (MT2) and gate (G), as shown in Fig. 
+5.14. Triacs can be triggered by both positive and 
+negative voltages applied between G and MT1 with 
+positive  and  negative  voltages  present  at  MT2 
+respectively. Triacs thus provide full-wave control 
+and  offer  superior  performance  in  a.c.  power 
+control applications when compared with thyristors 
+control.
+which  only  provide  half-wave 
+Table  5.5  summarizes  the  characteristics  of 
+several  common  triacs.  In  order  to  simplify  the 
+design of triggering circuits, triacs are often used in 
+conjunction  with  diacs  (equivalent 
+to  a  bi-
+directional  zener  diode).  A  typical  diac  conducts 
+heavily  when 
+the  applied  voltage  exceeds 
+approximately 30 V in either direction. Once in the 
+conducting state, the resistance of the diac falls to a 
+very low value and thus a relatively large value of 
+current  will  flow.  The  characteristic  of  a  typical 
+diac is shown in Fig. 5.15. 
+ 

@@ -1,0 +1,5 @@
+Subtraction can easily be performed by adding the minuend to the negative of the subtrahend. In a two’s
+complement  number  system,  X  – Y  can  thus  be  obtained  by  computing X  + Y¢  +  1.  The  ripple-carry  adder
+described above can be easily modiﬁed to perform this computation by placing inverters on the Y inputs of
+each full adder and by making the carry-in (c0) equal to 1. The resulting two’s complement subtracter is shown
+in Fig. 81.50.

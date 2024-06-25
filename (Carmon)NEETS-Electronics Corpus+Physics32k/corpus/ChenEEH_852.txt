@@ -1,0 +1,10 @@
+Even if the clock signals can be delivered to the registers in a
+given circuit with arbitrary delays, it is generally not possible to
+have all clock skews in the middle of the permissible range as
+suggested above. The reason behind this characteristic is that
+inherent structural limitations of the circuit create linear de-
+pendencies among the clock skews in the circuit. These linear
+dependencies and the effect of
+these dependencies on a
+number of circuit optimization techniques are examined in
+detail in Section 4.3.

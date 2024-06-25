@@ -1,0 +1,64 @@
+Changes in properties of a moving fluid can be measured in two different ways. One can measure a given property by either carrying out the measurement on a fixed point in space as particles of the fluid pass by, or by following a parcel of fluid along its streamline. The derivative of a field with respect to a fixed position in space is called the Eulerian derivative while the derivative following a moving parcel is called the advective or material ("Lagrangian" ) derivative.
+The material derivative is defined as the nonlinear operator:
+
+
+
+
+
+
+D
+
+D
+t
+
+
+
+
+
+
+
+
+=
+
+
+
+d
+e
+f
+
+
+
+
+
+
+
+
+∂
+
+∂
+t
+
+
+
++
+
+u
+
+⋅
+∇
+
+
+{\displaystyle {\frac {D}{Dt}}\ {\stackrel {\mathrm {def} }{=}}\ {\frac {\partial }{\partial t}}+\mathbf {u} \cdot \nabla }
+
+where
+
+
+
+
+u
+
+
+
+{\displaystyle \mathbf {u} }
+is the flow velocity. The first term on the right-hand side of the equation is the ordinary Eulerian derivative (i.e. the derivative on a fixed reference frame, representing changes at a point with respect to time) whereas the second term represents changes of a quantity with respect to position (see advection). This "special" derivative is in fact the ordinary derivative of a function of many variables along a path following the fluid motion; it may be derived through application of the chain rule in which all independent variables are checked for change along the path (i.e. the total derivative).
+For example, the measurement of changes in wind velocity in the atmosphere can be obtained with the help of an anemometer in a weather station or by observing the movement of a weather balloon. The anemometer in the first case is measuring the velocity of all the moving particles passing through a fixed point in space, whereas in the second case the instrument is measuring changes in velocity as it moves with the flow.

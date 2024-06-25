@@ -1,0 +1,4 @@
+The  decoder  has  to  invert  the  processing  steps  of  the  encoder,  that  is,  do  the  error  correction,  perform
+Huffman decoding, and reconstruct the ﬁlter signals or the inverse-transformed time-domain signal. Since the
+decoder is signiﬁcantly less complex than the encoder, it is usually implemented on a single DSP chip, while
+the encoder uses several DSP chips.

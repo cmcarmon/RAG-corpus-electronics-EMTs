@@ -1,0 +1,13 @@
+Pulse-Code Modulation (PCM)
+PCM is the simplest and oldest waveform coding scheme for processing an analog signal by
+sampling, quantizing, and binary encoding. Figure 15.3.6 shows a functional block diagram of
+a PCM system transmitter. In order to guarantee that the message is band-limited to the spectral
+extent for which the system is designed, a low-pass ﬁlter is introduced. The compressor is rather
+optional for better performance. Let us assume that the PCM signal is transmitted directly over
+the baseband channel. Corrupted by the noise generated within the receiver, the PCM signal is
+shown as the input to the PCM reconstruction function in Figure 15.3.7, which depicts a block
+diagram of functions (including an optional expandor) needed to receive PCM. The operations of
+the receiver are basically the inverse of those in the transmitter. The ﬁrst and most critical receiver
+operation is to reconstruct the originally transmitted PCM signal as nearly as possible from the
+noise-contaminated received waveform. The effect of noise is to be minimized through a careful
+selection of circuit implementation.

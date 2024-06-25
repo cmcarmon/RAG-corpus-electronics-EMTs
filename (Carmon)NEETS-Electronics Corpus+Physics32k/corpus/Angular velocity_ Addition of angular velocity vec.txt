@@ -1,0 +1,236 @@
+Angular velocity can be defined as angular displacement per unit time. If a point rotates with
+
+
+
+
+ω
+
+2
+
+
+
+
+{\displaystyle \omega _{2}}
+in a frame
+
+
+
+
+F
+
+2
+
+
+
+
+{\displaystyle F_{2}}
+that itself rotates with an angular velocity
+
+
+
+
+ω
+
+1
+
+
+
+
+{\displaystyle \omega _{1}}
+with respect to an external frame
+
+
+
+
+F
+
+1
+
+
+
+
+{\displaystyle F_{1}}
+, we can define the addition of
+
+
+
+
+ω
+
+1
+
+
++
+
+ω
+
+2
+
+
+
+
+{\displaystyle \omega _{1}+\omega _{2}}
+as the angular velocity vector of the point with respect to
+
+
+
+
+F
+
+1
+
+
+
+
+{\displaystyle F_{1}}
+.
+With this operation defined like this, angular velocity, which is a pseudovector, also becomes a real vector because it has two operations:
+An internal operation (addition), which is associative, commutative, distributive and with zero and unity elements
+An external operation (external product), with the normal properties for an external product.
+This is the definition of a vector space. The only property that presents difficulties to prove is the commutativity of the addition. This can be proven from the fact that the velocity tensor W (see below) is skew-symmetric. Therefore,
+
+
+
+R
+=
+
+e
+
+W
+t
+
+
+
+
+{\displaystyle R=e^{Wt}}
+is a rotation matrix and in a time dt is an infinitesimal rotation matrix. Therefore, it can be expanded as
+
+
+
+R
+=
+I
++
+W
+⋅
+d
+t
++
+
+
+1
+2
+
+
+(
+W
+⋅
+d
+t
+
+)
+
+2
+
+
++
+…
+
+
+{\displaystyle R=I+W\cdot dt+{1 \over 2}(W\cdot dt)^{2}+\ldots }
+
+The composition of rotations is not commutative; but, when the rotations are infinitesimal, the first order approximation of the previous series can be taken and
+
+
+
+(
+I
++
+
+W
+
+1
+
+
+⋅
+d
+t
+)
+(
+I
++
+
+W
+
+2
+
+
+⋅
+d
+t
+)
+=
+(
+I
++
+
+W
+
+2
+
+
+⋅
+d
+t
+)
+(
+I
++
+
+W
+
+1
+
+
+⋅
+d
+t
+)
+
+
+{\displaystyle (I+W_{1}\cdot dt)(I+W_{2}\cdot dt)=(I+W_{2}\cdot dt)(I+W_{1}\cdot dt)}
+and therefore
+
+
+
+
+ω
+
+1
+
+
++
+
+ω
+
+2
+
+
+=
+
+ω
+
+2
+
+
++
+
+ω
+
+1
+
+
+
+
+{\displaystyle \omega _{1}+\omega _{2}=\omega _{2}+\omega _{1}}
+.

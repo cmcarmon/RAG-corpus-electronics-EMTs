@@ -1,0 +1,7 @@
+The op-amp performance can be demonstrated by applying a step function to the input
+and observing the output response, as shown in ﬁgure 6.33b. The actual output will have
+a ﬁnite slope (slew rate) and overshoot the ﬁnal voltage value. It then approaches the ﬁnal
+voltage either exponentially or with some damped ringing. The slew rate and overshoot are
+nonlinear eﬀects. The settling time after ampliﬁer saturation is deﬁned as the time between
+the edge of the applied step function and the point where the ampliﬁer output settles to
+within some stated percentage of the target voltage value.

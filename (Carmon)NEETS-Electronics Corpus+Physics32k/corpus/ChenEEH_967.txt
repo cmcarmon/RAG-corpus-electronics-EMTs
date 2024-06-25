@@ -1,0 +1,17 @@
+Zero skew islands can be satisﬁed by collapsing the corres-
+ponding graph vertices into a single vertex while eliminating
+all edges among vertices in the island. Note that in this case, it
+must be veriﬁed that zero skew is in the permissible range of
+each in-island path.24 Alternatively, the target delays are con-
+verted to target skews (category 3 above) for sequentially
+adjacent pairs or by adding a ‘‘fake’’ edge. Thus, an algorithm
+to handle only target skews is necessary.
+Note ﬁrst that target values for only nf  nb skews can be
+independently speciﬁed. As nf approaches nb, the freedom to
+vary all skews decreases, and it may become impossible to
+determine any feasible s. Given nf  nb, (a) the basis can
+always be chosen to contain all target skews by using a span-
+ning tree algorithm with edge swapping and (b) the edge
+enumeration can be accomplished such that the target skews
+appear last in the basis. The problem is now similar to equa-
+tion 4.51 except for the change of the circuit kernel equation:

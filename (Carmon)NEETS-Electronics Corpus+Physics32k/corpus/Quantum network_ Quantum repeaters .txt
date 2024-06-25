@@ -1,0 +1,149 @@
+A true quantum repeater allows the end to end generation of quantum entanglement, and thus - by using quantum teleportation - the end to end transmission of qubits. In quantum key distribution protocols one can test for such entanglement. This means that when making encryption keys, the sender and receiver are secure even if they do not trust the quantum repeater. Any other application of a quantum internet also requires the end to end transmission of qubits, and thus a quantum repeater.
+Quantum repeaters allow entanglement and can be established at distant nodes without physically sending an entangled qubit the entire distance.
+In this case, the quantum network consists of many short distance links of perhaps tens or hundreds of kilometres. In the simplest case of a single repeater, two pairs of entangled qubits are established:
+
+
+
+
+|
+
+A
+⟩
+
+
+{\displaystyle |A\rangle }
+and
+
+
+
+
+|
+
+
+R
+
+a
+
+
+⟩
+
+
+{\displaystyle |R_{a}\rangle }
+located at the sender and the repeater, and a second pair
+
+
+
+
+|
+
+
+R
+
+b
+
+
+⟩
+
+
+{\displaystyle |R_{b}\rangle }
+and
+
+
+
+
+|
+
+B
+⟩
+
+
+{\displaystyle |B\rangle }
+located at the repeater and the receiver. These initial entangled qubits can be easily created, for example through parametric down conversion, with one qubit physically transmitted to an adjacent node. At this point, the repeater can perform a bell measurement on the qubits
+
+
+
+
+|
+
+
+R
+
+a
+
+
+⟩
+
+
+{\displaystyle |R_{a}\rangle }
+and
+
+
+
+
+|
+
+
+R
+
+b
+
+
+⟩
+
+
+{\displaystyle |R_{b}\rangle }
+thus teleporting the quantum state of
+
+
+
+
+|
+
+
+R
+
+a
+
+
+⟩
+
+
+{\displaystyle |R_{a}\rangle }
+onto
+
+
+
+
+|
+
+B
+⟩
+
+
+{\displaystyle |B\rangle }
+. This has the effect of "swapping" the entanglement such that
+
+
+
+
+|
+
+A
+⟩
+
+
+{\displaystyle |A\rangle }
+and
+
+
+
+
+|
+
+B
+⟩
+
+
+{\displaystyle |B\rangle }
+are now entangled at a distance twice that of the initial entangled pairs. It can be seen that a network of such repeaters can be used linearly or in a hierarchical fashion to establish entanglement over great distances.
+Hardware platforms suitable as end nodes above can also function as quantum repeaters. However, there are also hardware platforms specific only to the task of acting as a repeater, without the capabilities of performing quantum gates.

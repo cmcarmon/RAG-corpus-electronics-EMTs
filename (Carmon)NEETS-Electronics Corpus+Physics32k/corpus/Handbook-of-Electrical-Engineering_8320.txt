@@ -1,0 +1,12 @@
+Avoiding Redundant Logic. Technically speaking, redundancy is the only reason why a given stuck-at fault
+might  not  be  detectable  by  any  test.  For  example,  if  an  INVERTER  function  is  implemented  by  tying  both
+inputs  of  a  two-input  NAND  gate  together,  then  a  stuck-at  1  fault  on  either  one  of  the  inputs  becomes
+undetectable since the output signal can still be determined correctly by the remaining nonfaulty input signal.
+This creates two problems. First, conventional ATPG programs might spend a lot of time trying to generate a
+test pattern for such a fault before they declare the fault untestable. Second, the presence of an undetectable
+fault can cause a detectable fault to become undetectable (it may also cause an undetectable fault to become
+detectable). For example, consider a parity checking circuit in which an existing stuck-at fault may cause the
+wrong parity to be generated, and the existence of a second fault may correct the parity and hence hide both
+failures. The remedy for these situations is to try to avoid redundancy in the ﬁrst place, and when this is not
+possible  provide  additional  circuit  modes  where  the  redundant  circuits  might  be  isolated. Alternately  (or  in
+addition) it may be useful to provide additional test points, as described below.

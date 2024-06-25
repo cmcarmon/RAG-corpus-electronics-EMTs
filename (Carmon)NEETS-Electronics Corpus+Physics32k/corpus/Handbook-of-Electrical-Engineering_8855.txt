@@ -1,0 +1,7 @@
+Technology does not permit memories that are cheap, large, and fast. By recognizing the nonrandom nature
+ rather than worst case latency, it is possible to implement a
+of memory requests, and emphasizing the 
+hierarchical memory system that performs well. A small amount of very fast memory, placed in front of a large,
+slow memory, can be designed to satisfy most requests at the speed of the small memory. This, in fact, is the
+primary motivation for the use of registers in the CPU: in this case, the programmer or compiler makes sure
+that the most commonly accessed variables are allocated to registers.

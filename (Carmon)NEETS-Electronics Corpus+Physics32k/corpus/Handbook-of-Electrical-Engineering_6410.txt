@@ -1,0 +1,8 @@
+Adaptive Equalization
+After the initial training period (if there is one), the coefﬁcients of an adaptive equalizer may be continually
+adjusted in a decision-directed manner. In this mode the error signal ek = zk – qk is derived from the ﬁnal (not
+necessarily  correct)  receiver  estimate  {qk}  of  the  transmitted  sequence  {xk}  where  qk  is  the  estimate  of  xk.  In
+normal operation the receiver decisions are correct with high probability, so that the error estimates are correct
+often enough to allow the adaptive equalizer to maintain precise equalization. Moreover, a decision-directed
+adaptive equalizer can track slow variations in the channel characteristics or linear perturbations in the receiver
+front end, such as slow jitter in the sampler phase.

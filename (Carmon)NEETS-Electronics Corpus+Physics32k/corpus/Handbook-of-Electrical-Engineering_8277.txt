@@ -1,0 +1,11 @@
+ faults have been examined recently, as they cannot be modeled from the more classical
+p
+-channel
+fault models and are restricted to the CMOS technology. They occur when the path through one of the 
+n
+-channel transistors becomes an open circuit. The main difﬁculty in detecting this type of fault
+or one of the 
+is that it changes the combinational behavior of a cell into a sequential one. Thus the logical effect is to retain,
+on a given line, the previous value, introducing a memory state. To detect such a fault, one must apply two
+stimuli: the ﬁrst to set a line at a certain value and the second to try and change that value. This, of course,
+increases the complexity of fault detection.

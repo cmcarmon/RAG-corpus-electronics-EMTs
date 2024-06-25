@@ -1,0 +1,5 @@
+All latches have two inputs: data and enable/disable. And typically Q and Q outputs. A
+ones-catching latch can be built as shown in ﬁgure 7.17.
+When the control input C is false, the output Q follows the input D, but when the con-
+trol input goes true, the output latches true as soon as D goes true and then stays there
+independent of further changes in D.

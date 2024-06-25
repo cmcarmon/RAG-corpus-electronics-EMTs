@@ -1,0 +1,10 @@
+which is a nonlinear equation with the unknown value
+v(t þ h). It can be written in the form x(v(t þ h)) ¼ 0 and
+solved using the Newton–Raphson method given previously.
+Experience has shown that this method works well with small
+step sizes; however, large step sizes give results that diverge
+from the true solution of the network. Such methods are called
+unstable and are generally not used in integration of differen-
+tial equations. A better solution method is to use the Euler
+backward method for which the derivative is approximated by
+a Taylor series expansion around the time point v(t þ h):

@@ -1,0 +1,131 @@
+In Bohr model electrons are imagined as traveling in circular orbits, which leads to many disagreements with experimental results. For example in observed electron capture process the nucleus captures electron from an orbital, what needs this electron to get to a distance of the range of nuclear forces (femtometers), which is many orders of magnitude smaller than in Bohr model. Another fundamental disagreement for circulating electron is created magnetic field, not observed for hydrogen. In contrast, angular momentum of electron in quantum ground state of hydrogen is zero.
+Gryzinski presents many other argument, especially for agreement with various scattering scenarios, to focus on nearly zero angular momentum trajectories: with electrons traveling through nearly radial trajectories. They free-fall to the nucleus, then increase the distance up to some turning point and so on.
+Free-fall atomic model focuses on Kepler-like orbits for very low angular momentum. They are not exactly ellipses due to adding magnetic dipole moment of electron (electron magnetic moment) into considerations, which results in Lorentz force proportional to
+
+
+
+v
+
+/
+
+
+r
+
+3
+
+
+
+
+{\displaystyle v/r^{3}}
+and perpendicular to velocity and spin of electron. This spin-orbit interaction is nearly negligible unless the electron passes very close to the nucleus (small
+
+
+
+r
+≈
+
+10
+
+−
+13
+
+
+m
+
+
+{\displaystyle r\approx 10^{-13}m}
+, large
+
+
+
+v
+
+
+{\displaystyle v}
+). This force bends the trajectory of electron, preventing collision with the nucleus.
+For simplicity, most of these considerations neglect small changes of orientation of the spin axis of electron, assuming that it is firmly oriented in space - it's called rigid top approximation. Magnetic moment of nucleus is thousands of times smaller than electron's, so such hyperfine corrections can be neglected in basic models.
+Finally the basic considered Lagrangian for dynamics of single electron in these models is:
+
+
+
+
+
+L
+
+=
+
+
+1
+2
+
+
+m
+
+
+v
+
+
+2
+
+
++
+
+
+
+Z
+
+e
+
+2
+
+
+
+r
+
+
++
+
+
+
+Z
+e
+
+c
+
+
+
+[
+
+
+v
+
+⋅
+
+(
+
+
+
+μ
+×
+
+r
+
+
+
+r
+
+3
+
+
+
+
+)
+
+
+]
+
+
+
+{\displaystyle \mathbf {L} ={\frac {1}{2}}m\mathbf {v} ^{2}+{\frac {Ze^{2}}{r}}+{\frac {Ze}{c}}\left[\mathbf {v} \cdot \left({\frac {\mu \times \mathbf {r} }{r^{3}}}\right)\right]}
+
+The last term describes interaction between magnetic field of traveling electron's magnetic moment and electric field of nucleus (spin-orbit interaction).

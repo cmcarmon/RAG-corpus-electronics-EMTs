@@ -1,0 +1,11 @@
+Parallelism and Pipelining Exploitation
+One effective technique to reduce energy dissipation is to
+reduce the supply voltage level by employing pipelining and
+parallelism which has an immense effect in reducing the
+overall power consumption and compensating for the resul-
+tant speed loss. This technique is used in general for data path
+sections. Assuming performance reduces by half when the
+supply voltage is lowered, the hardware can be duplicated to
+produce outputs at twice the slower rate to achieve the initial
+performance before lowering the supply voltage level, as shown
+in Figure 5.17.

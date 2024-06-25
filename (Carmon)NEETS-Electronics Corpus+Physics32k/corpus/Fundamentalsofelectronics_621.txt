@@ -1,0 +1,6 @@
+Figure 5.15: The top waveform is a segment 1024 samples long taken from the beginning of the “Rice
+University” phrase. Computing Figure 5.14 involved creating frames, here demarcated by the vertical
+lines, that were 256 samples long and ﬁnding the spectrum of each. If a rectangular window is applied
+(corresponding to extracting a frame from the signal), oscillations appear in the spectrum (middle of
+bottom row). Applying a Hanning window gracefully tapers the signal toward frame edges, thereby
+yielding a more accurate computation of the signal’s spectrum at that moment of time.

@@ -1,0 +1,33 @@
+A number of theoretical models of the molecular motor protein kinesin have been proposed. Many challenges are encountered in theoretical investigations given the remaining uncertainties about the roles of protein structures, the precise way energy from ATP is transformed into mechanical work, and the roles played by thermal fluctuations. This is a rather active area of research. There is a need especially for approaches which better make a link with the molecular architecture of the protein and data obtained from experimental investigations.
+The single-molecule dynamics are already well described but it seems that these nano scale machines typically work in large teams. Recent experimental research has shown that kinesins, while moving along microtubules, interact with each other, the interactions being short range and weak attractive (1.6±0.5 KBT). One model that has been developed takes into account these particle interactions, where the dynamic rates change accordingly with the energy of interaction. If the energy is positive the rate of creating bonds (q) will be higher while the rate of breaking bonds (r) will be lower. One can understand that the rates of entrance and exit in the microtubule will be changed as well by the energy (See figure 1 in reference 30). If the second site is occupied the rate of entrance will be α*q and if the last but one site is occupied the rate of exit will be β*r. This theoretical approach agrees with the results of Monte Carlo simulations for this model, especially for the limiting case of very large negative energy. The normal totally asymmetric simple exclusion process for (or TASEP) results can be recovered from this model making the energy equal to zero.
+
+
+
+
+
+
+q
+r
+
+
+=
+
+e
+
+
+E
+
+
+K
+
+B
+
+
+T
+
+
+
+
+
+
+{\textstyle {q \over r}=e^{E \over K_{B}T}}

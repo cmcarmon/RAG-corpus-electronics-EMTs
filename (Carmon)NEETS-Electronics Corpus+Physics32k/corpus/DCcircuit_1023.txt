@@ -1,0 +1,4 @@
+When re-drawing the circuit for series/parallel analysis with one source, all other voltage
+sources are replaced by wires (shorts), and all current sources with open circuits (breaks).
+Since we only have voltage sources (batteries) in our example circuit, we will replace every
+inactive source during analysis with a wire.

@@ -1,0 +1,9 @@
+MOS  transistor.  Consider  the  diagram  (Fig. 81.33)  depicting  a  section  through  part  of  an  n-type  substrate
+which has a series of very closely spaced gate electrodes separating the drain and source of a “stretched” MOS
+transistor.  Using  gate “G”  and  the  ﬁrst  storage  gate  a  charge  packet  of  electrons  can  be  introduced  into  the
+structure. The overlapping clock pulses allow this charge packet to be moved along the array. At the drain the
+presence of a charge under the ﬁnal storage gate is detected by a change in current. Steady-state operation of
+this type of register is not possible since thermally generated carriers (leakage current) will ultimately cause
+stationary charge, held beneath a storage gate, to leak away. The result is a minimum operating shift frequency
+of around 20 kHz. The maximum length of the CCD shift register is limited by the charge transfer efﬁciency;
+each time the charge packet is transferred between storage gates a fraction is lost. The transfer efﬁciency also

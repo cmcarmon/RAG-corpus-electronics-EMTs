@@ -1,0 +1,12 @@
+The input stage is a differential amplifier. It allows 
+the op-amp to respond only to the differences between 
+input signals. Also, the differential amplifier amplifies 
+only the differential input voltage and is unaffected 
+by signals common to both inputs. This is referred 
+to as common-mode rejection. Common-mode 
+rejection is useful when measuring a small signal in 
+the presence of 60-hertz noise. The 60-hertz noise 
+common to both inputs is rejected, and the op-amp 
+amplifies only the small difference between the two 
+inputs. The differential amplifier has a low-frequency 
+ response that extends down to a DC level. This means 

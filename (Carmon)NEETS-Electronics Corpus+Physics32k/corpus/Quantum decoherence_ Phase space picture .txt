@@ -1,0 +1,47 @@
+An N-particle system can be represented in non-relativistic quantum mechanics by a wavefunction,
+
+
+
+ψ
+(
+
+x
+
+1
+
+
+,
+
+x
+
+2
+
+
+,
+.
+.
+.
+,
+
+x
+
+N
+
+
+)
+
+
+{\displaystyle \psi (x_{1},x_{2},...,x_{N})}
+, where each xi is a point in 3-dimensional space. This has analogies with the classical phase space. A classical phase space contains a real-valued function in 6N dimensions (each particle contributes 3 spatial coordinates and 3 momenta). Our "quantum" phase space, on the other hand, involves a complex-valued function on a 3N dimensional space. The position and momenta are represented by operators that do not commute, and
+
+
+
+ψ
+
+
+{\displaystyle \psi }
+lives in the mathematical structure of a Hilbert space. Aside from these differences, however, the rough analogy holds.
+Different previously-isolated, non-interacting systems occupy different phase spaces. Alternatively we can say they occupy different, lower-dimensional subspaces in the phase space of the joint system. The effective dimensionality of a system's phase space is the number of degrees of freedom present which—in non-relativistic models—is 6 times the number of a system's free particles. For a macroscopic system this will be a very large dimensionality. When two systems (and the environment would be a system) start to interact, though, their associated state vectors are no longer constrained to the subspaces. Instead the combined state vector time-evolves a path through the "larger volume", whose dimensionality is the sum of the dimensions of the two subspaces. The extent to which two vectors interfere with each other is a measure of how "close" they are to each other (formally, their overlap or Hilbert space multiplies together) in the phase space. When a system couples to an external environment, the dimensionality of, and hence "volume" available to, the joint state vector increases enormously. Each environmental degree of freedom contributes an extra dimension.
+The original system's wavefunction can be expanded in many different ways as a sum of elements in a quantum superposition. Each expansion corresponds to a projection of the wave vector onto a basis. The basis can be chosen at will. Let us choose an expansion where the resulting basis elements interact with the environment in an element-specific way. Such elements will—with overwhelming probability—be rapidly separated from each other by their natural unitary time evolution along their own independent paths. After a very short interaction, there is almost no chance of any further interference. The process is effectively irreversible. The different elements effectively become "lost" from each other in the expanded phase space created by coupling with the environment; in phase space, this decoupling is monitored through the Wigner quasi-probability distribution. The original elements are said to have decohered. The environment has effectively selected out those expansions or decompositions of the original state vector that decohere (or lose phase coherence) with each other. This is called "environmentally-induced-superselection", or einselection. The decohered elements of the system no longer exhibit quantum interference between each other, as in a double-slit experiment. Any elements that decohere from each other via environmental interactions are said to be quantum entangled with the environment. The converse is not true: not all entangled states are decohered from each other.
+Any measuring device or apparatus acts as an environment since, at some stage along the measuring chain, it has to be large enough to be read by humans. It must possess a very large number of hidden degrees of freedom. In effect, the interactions may be considered to be quantum measurements. As a result of an interaction, the wave functions of the system and the measuring device become entangled with each other. Decoherence happens when different portions of the system's wavefunction become entangled in different ways with the measuring device. For two einselected elements of the entangled system's state to interfere, both the original system and the measuring in both elements device must significantly overlap, in the scalar product sense. If the measuring device has many degrees of freedom, it is very unlikely for this to happen.
+As a consequence, the system behaves as a classical statistical ensemble of the different elements rather than as a single coherent quantum superposition of them. From the perspective of each ensemble member's measuring device, the system appears to have irreversibly collapsed onto a state with a precise value for the measured attributes, relative to that element.

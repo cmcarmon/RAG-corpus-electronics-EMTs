@@ -1,0 +1,13 @@
+are wrapped about each other. Telephone cables are one example of a twisted pair channel. Another is
+coaxial cable, where a concentric conductor surrounds a central wire with a dielectric material in between.
+Coaxial cable, fondly called “co-ax” by engineers, is what Ethernet uses as its channel. In either case, wireline
+channels form a dedicated circuit between transmitter and receiver. As we shall ﬁnd subsequently, several
+transmissions can share the circuit by amplitude modulation techniques; commercial cable TV is an example.
+These information-carrying circuits are designed so that interference from nearby electromagnetic sources is
+minimized. Thus, by the time signals arrive at the receiver, they are relatively interference- and noise-free.
+Both twisted pair and co-ax are examples of transmission lines, which all have the circuit model
+shown in Figure 6.2 for an inﬁnitesimally small length. This circuit model arises from solving Maxwell’s
+equations for the particular transmission line geometry. The series resistance comes from the conductor
+used in the wires and from the conductor’s geometry. The inductance and the capacitance derive from
+transmission line geometry, and the parallel conductance from the medium between the wire pair. Note
+that all the circuit elements have values expressed by the product of a constant times a length; this notation

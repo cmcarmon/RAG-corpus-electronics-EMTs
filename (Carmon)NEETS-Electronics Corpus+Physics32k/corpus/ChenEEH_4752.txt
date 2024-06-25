@@ -1,0 +1,16 @@
+, ccc
+At this point, it becomes more clear how to choose the
+constants to achieve a smaller bound. Recalling the expression
+of Wd, note that one may ﬁrst want to have bd > 1, so Wd is
+not made larger when divided by bd and so the convergence is
+faster. This may be achieved by setting ci such that 2ccicm > 1
+> 1.
+(if enough knowledge is available to do so) and saj
+However, having a large saj
+makes Wd larger; this can be
+< 1 or
+offset, however, by also choosing the ratio saj
+smaller. Finally, it is clear that making ki larger reduces the
+effects of the representation errors and, therefore, makes Wd
+smaller. Observe that there is enough design freedom to make
+Wd small and bd large independently of each other.

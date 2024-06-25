@@ -1,0 +1,10 @@
+In this model the lattice takes the form of a two-dimensional square grid, with particles capable of moving to any of the four adjacent grid points which share a common edge, and particles cannot move diagonally. This means each grid point can only have one of sixteen possible interactions.
+Particles exist only on the grid points, never on the edges or surface of the lattice.
+Each particle has an associated direction (from one grid point to another immediately adjacent grid point).
+Each lattice grid cell can only contain a maximum of one particle for each direction, i.e., contain a total of between zero and four particles.
+The following rules also govern the model:
+A single particle moves in a fixed direction until it experiences a collision.
+Two particles experiencing a head-on collision are deflected perpendicularly.
+Two particles experience a collision which isn't head-on simply pass through each other and continue in the same direction.
+Optionally, when a particles collides with the edges of a lattice it can rebound.
+The HPP models follows a two-stage update process.

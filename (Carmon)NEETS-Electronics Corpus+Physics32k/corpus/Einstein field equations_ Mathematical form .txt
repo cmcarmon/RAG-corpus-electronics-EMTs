@@ -1,0 +1,137 @@
+The Einstein field equations (EFE) may be written in the form:
+
+where Rμν is the Ricci curvature tensor, R is the scalar curvature, gμν is the metric tensor, Λ is the cosmological constant, G is Newton's gravitational constant, c is the speed of light in vacuum, and Tμν is the stress–energy tensor.
+The EFE is a tensor equation relating a set of symmetric 4 × 4 tensors. Each tensor has 10 independent components. The four Bianchi identities reduce the number of independent equations from 10 to 6, leaving the metric with four gauge fixing degrees of freedom, which correspond to the freedom to choose a coordinate system.
+Although the Einstein field equations were initially formulated in the context of a four-dimensional theory, some theorists have explored their consequences in n dimensions. The equations in contexts outside of general relativity are still referred to as the Einstein field equations. The vacuum field equations (obtained when T is identically zero) define Einstein manifolds.
+Despite the simple appearance of the equations they are actually quite complicated. Given a specified distribution of matter and energy in the form of a stress–energy tensor, the EFE are understood to be equations for the metric tensor gμν, as both the Ricci tensor and scalar curvature depend on the metric in a complicated nonlinear manner. In fact, when fully written out, the EFE are a system of ten coupled, nonlinear, hyperbolic-elliptic partial differential equations.
+One can write the EFE in a more compact form by defining the Einstein tensor
+
+
+
+
+
+G
+
+μ
+ν
+
+
+=
+
+R
+
+μ
+ν
+
+
+−
+
+
+
+1
+2
+
+
+
+R
+
+g
+
+μ
+ν
+
+
+,
+
+
+{\displaystyle G_{\mu \nu }=R_{\mu \nu }-{\tfrac {1}{2}}Rg_{\mu \nu },}
+
+which is a symmetric second-rank tensor that is a function of the metric. The EFE can then be written as
+
+
+
+
+
+G
+
+μ
+ν
+
+
++
+Λ
+
+g
+
+μ
+ν
+
+
+=
+
+
+
+8
+π
+G
+
+
+c
+
+4
+
+
+
+
+
+T
+
+μ
+ν
+
+
+.
+
+
+{\displaystyle G_{\mu \nu }+\Lambda g_{\mu \nu }={\frac {8\pi G}{c^{4}}}T_{\mu \nu }.}
+
+In standard units, each term on the left has units of 1/length2. With this choice of Einstein constant as 8πG/c4, then the stress-energy tensor on the right side of the equation must be written with each component in units of energy-density (i.e., energy per volume = pressure).
+Using geometrized units where G = c = 1, this can be rewritten as
+
+
+
+
+
+G
+
+μ
+ν
+
+
++
+Λ
+
+g
+
+μ
+ν
+
+
+=
+8
+π
+
+T
+
+μ
+ν
+
+
+
+.
+
+
+{\displaystyle G_{\mu \nu }+\Lambda g_{\mu \nu }=8\pi T_{\mu \nu }\,.}
+
+The expression on the left represents the curvature of spacetime as determined by the metric; the expression on the right represents the matter/energy content of spacetime. The EFE can then be interpreted as a set of equations dictating how matter/energy determines the curvature of spacetime.
+These equations, together with the geodesic equation, which dictates how freely-falling matter moves through space-time, form the core of the mathematical formulation of general relativity.

@@ -1,0 +1,7 @@
+In our example, each pixel is represented by one of four possible values. For ease of representation of the
+data, it would be simpler to assign to each pixel the index value 0, 1, 2, 3, instead of 10, 20, 50, 110. In fact,
+this is typically done by the quantization process. One needs a simple table to know that a pixel assigned the
+value  2  corresponds  to  an  energy  of  50. Also,  the  number  of  possible  energy  levels  is  typically  some  integer
+ needed to represent the
+power of two to also aid in representation. This power is known as the number of 
+energy of each pixel. In our example each pixel is represented by two bits.

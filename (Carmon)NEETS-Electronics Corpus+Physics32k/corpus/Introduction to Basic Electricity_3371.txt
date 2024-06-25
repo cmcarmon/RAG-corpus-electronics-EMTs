@@ -1,0 +1,14 @@
+DIACs are most commonly used as a triggering 
+device for TRIACs. Each time the DIAC turns on, 
+it allows current to flow through the TRIAC gate, 
+thus turning the TRIAC on. The DIAC is used in 
+ conjunction with the TRIAC to provide full-wave 
+control of AC signals. Figure 33-18 shows a variable 
+ full-wave phase-control circuit. Variable resistor R1 
+and  capacitor C1 form a phase-shift network. When 
+the  voltage across C1 reaches the breakover voltage of 
+the DIAC, C1 partially discharges through the DIAC 
+into the gate of the TRIAC. This discharge creates a 
+pulse that  triggers the TRIAC into conduction. This 
+circuit is useful for controlling lamps, heaters, and 
+speeds of small electrical motors.

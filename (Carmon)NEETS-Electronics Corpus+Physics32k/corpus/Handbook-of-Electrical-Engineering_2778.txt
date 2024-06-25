@@ -1,0 +1,10 @@
+Perhaps of greatest impact is the rapid increase in the importance of interconnect delay relative to gate delay.
+In  the  earlier  1 mm VLSI  technologies,  typical  gate  delays  were  about  six  times  the  average  interconnection
+delays. For the 0.5 mm technologies, gate delays had decreased while interconnect delays had increased, becoming
+approximately equal. At 0.3 mm, the decreasing gate delay and increasing interconnect delays have led to average
+interconnect delays about six times greater than typical gate delays. Accurate estimation of signal delays early
+in  the  design  is  therefore  increasingly  difﬁcult,  since  the  designer  does  not  have  a  detailed  knowledge  of
+interconnection lengths and nearby lines, which can cause coupling noise, until much of the design has been
+completed. As the design proceeds and the interconnection lengths become better speciﬁed, parameters related
+to the signal performance can be fed back (back-annotated) to the earlier design steps, allowing the design to
+be adapted to reﬂect necessary changes to achieve desired performance.

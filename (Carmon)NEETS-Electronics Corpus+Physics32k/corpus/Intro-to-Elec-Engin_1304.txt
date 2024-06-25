@@ -1,0 +1,14 @@
+By letting T → ∞ for the rectangular pulse train of Figure E14.1.4(a), so that all pulses
+vanish except the one centered at t = 0, we would obtain a single rectangular pulse, as shown in
+Figure 14.1.4(a). Because f = 1/T → 0 when T → ∞, intuitively, the amplitude lines will
+merge to form a continuous plot, as shown in Figure 14.1.4(b). Spectral analysis of nonperiodic
+signals involves Fourier transform theory, which goes beyond the scope of this text. Smooth
+curves, such as one in Figure 14.1.4(b), suggest that the signal energy is spread over a continuous
+frequency range, rather than being concentrated in discrete sinusoidal components. Note that the
+amplitude at f = 0 is equal to the net area DA of the nonperiodic signal.
+When spectral peaks occur at or near f = 0, and their amplitude spectra become progressively
+smaller as frequency increases, such waveforms are known as low-pass signals, for which there
+exists a signal bandwidth W such that all signiﬁcant frequency content falls within the range of
+0 ≤ f ≤ W . The concept of signal bandwidth plays a signiﬁcant role in signal-processing and
+The approximate reciprocal relationship W ∼= 1/D conveys the salient point that long pulses
+communication systems. Table 14.1.1 lists the nominal bandwidths of a few selected signals.

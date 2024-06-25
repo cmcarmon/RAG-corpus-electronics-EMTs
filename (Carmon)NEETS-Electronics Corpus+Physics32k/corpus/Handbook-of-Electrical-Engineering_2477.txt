@@ -1,0 +1,6 @@
+Source-Follower Frequency Response
+The input capacitance of the source follower is given by Cin = CGD + (1 – AV)CGS. Since AV is close to unity,
+Cin will be approximately given by Cin @ CGD. The source-follower input capacitance can, however, be reduced
+below CGD by a bootstrapping circuit in which the drain voltage is made to follow the gate voltage. Let’s consider
+a representative example in which CGD = 5 pF, and let the signal-source output resistance be R1 = 100 kW. The
+input circuit is in the form of a simple RC low-pass network. The RC time constant is

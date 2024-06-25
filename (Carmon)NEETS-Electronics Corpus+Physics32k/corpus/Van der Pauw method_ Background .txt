@@ -1,0 +1,306 @@
+When a charged particle—such as an electron—is placed in a magnetic field, it experiences a Lorentz force proportional to the strength of the field and the velocity at which it is traveling through it. This force is strongest when the direction of motion is perpendicular to the direction of the magnetic field; in this case the force
+
+
+
+
+
+F
+
+L
+
+
+=
+q
+v
+B
+
+
+
+
+{\displaystyle F_{L}=qvB\,\!}
+
+where
+
+
+
+q
+
+
+{\displaystyle q}
+is the charge on the particle in coulombs,
+
+
+
+v
+
+
+{\displaystyle v}
+the velocity it is traveling at (centimeters per second), and
+
+
+
+B
+
+
+{\displaystyle B}
+the strength of the magnetic field (Wb/cm²). Note that centimeters are often used to measure length in the semiconductor industry, which is why they are used here instead of the SI units of meters.
+
+When a current is applied to a piece of semiconducting material, this results in a steady flow of electrons through the material (as shown in parts (a) and (b) of the accompanying figure). The velocity the electrons are traveling at is (see electric current):
+
+
+
+
+v
+=
+
+
+I
+
+n
+A
+q
+
+
+
+
+
+{\displaystyle v={\frac {I}{nAq}}}
+
+where
+
+
+
+n
+
+
+{\displaystyle n}
+is the electron density,
+
+
+
+A
+
+
+{\displaystyle A}
+is the cross-sectional area of the material and
+
+
+
+q
+
+
+{\displaystyle q}
+the elementary charge (1.602×10−19 coulombs).
+If an external magnetic field is then applied perpendicular to the direction of current flow, then the resulting Lorentz force will cause the electrons to accumulate at one edge of the sample (see part (c) of the figure). Combining the above two equations, and noting that
+
+
+
+q
+
+
+{\displaystyle q}
+is the charge on an electron, results in a formula for the Lorentz force experienced by the electrons:
+
+
+
+
+
+F
+
+L
+
+
+=
+
+
+
+I
+B
+
+
+n
+A
+
+
+
+
+
+{\displaystyle F_{L}={\frac {IB}{nA}}}
+
+This accumulation will create an electric field across the material due to the uneven distribution of charge, as shown in part (d) of the figure. This in turn leads to a potential difference across the material, known as the Hall voltage
+
+
+
+
+V
+
+H
+
+
+
+
+{\displaystyle V_{H}}
+. The current, however, continues to only flow along the material, which indicates that the force on the electrons due to the electric field balances the Lorentz force. Since the force on an electron from an electric field
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+is
+
+
+
+q
+ϵ
+
+
+{\displaystyle q\epsilon }
+, we can say that the strength of the electric field is therefore
+
+
+
+
+ϵ
+=
+
+
+
+I
+B
+
+
+q
+n
+A
+
+
+
+
+
+{\displaystyle \epsilon ={\frac {IB}{qnA}}}
+
+Finally, the magnitude of the Hall voltage is simply the strength of the electric field multiplied by the width of the material; that is,
+
+
+
+
+
+
+
+
+
+V
+
+H
+
+
+
+
+
+=
+w
+ϵ
+
+
+
+
+
+
+=
+
+
+
+w
+I
+B
+
+
+q
+n
+A
+
+
+
+
+
+
+
+
+
+=
+
+
+
+I
+B
+
+
+q
+n
+t
+
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}V_{H}&=w\epsilon \\&={\frac {wIB}{qnA}}\\&={\frac {IB}{qnt}}\end{aligned}}}
+
+where
+
+
+
+t
+
+
+{\displaystyle t}
+is the thickness of the material. Since the sheet density
+
+
+
+
+n
+
+s
+
+
+
+
+{\displaystyle n_{s}}
+is defined as the density of electrons multiplied by the thickness of the material, we can define the Hall voltage in terms of the sheet density:
+
+
+
+
+
+V
+
+H
+
+
+=
+
+
+
+I
+B
+
+
+q
+
+n
+
+s
+
+
+
+
+
+
+
+{\displaystyle V_{H}={\frac {IB}{qn_{s}}}}

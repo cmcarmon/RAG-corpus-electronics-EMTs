@@ -1,0 +1,11 @@
+methods are based on the decomposition of the covariance
+matrix into lower and upper triangular matrices, say L and U,
+such that Fs ¼ LU . Given this decomposition, equation 3.16
+can be solved by sequentially solving Ly ¼ fs and U a^¼ y in
+each case using simple algorithms (Golub and van Loan,
+1989). The most efﬁcient algorithms for accomplishing the
+LU decomposition are based on two methods from linear
+algebra (for symmetric matrices): the LDLT decomposition
+and the Cholesky or square root decomposition. For details,
+see Golub and van Loan (1989). Speciﬁc algorithms are found
+in Deller et al. (2000) and Golub and van Loan (1989).

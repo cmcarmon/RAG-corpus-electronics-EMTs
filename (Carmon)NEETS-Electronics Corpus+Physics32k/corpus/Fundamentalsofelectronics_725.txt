@@ -1,0 +1,4 @@
+processing. First of all, he would section the signal into length-N blocks, and compute its N-point DFT. He
+then would discard (zero the spectrum) at half of the frequencies, quantize them to b-bits, and send these
+over the network. The receiver would assemble the transmitted spectrum and compute the inverse DFT,
+thus reconstituting an N-point block.

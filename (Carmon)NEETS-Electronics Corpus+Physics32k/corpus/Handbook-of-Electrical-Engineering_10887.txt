@@ -1,0 +1,6 @@
+Scalability
+This simply means that account should always be taken of the limitations of numerical algorithms. The package
+should warn the user when limits are reached and the algorithms should thereafter ‘degrade gracefully’. It is
+surprising how many applications have been programmed with artiﬁcial limits set on various arrays which is
+ﬁne so long as the user never presents the package with a problem that its designer never believed would ever
+be tackled (an inevitable event). Most matrix environments are limited only by the available memory.

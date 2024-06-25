@@ -1,0 +1,9 @@
+The main theme of this result is that a ﬁlter’s output extends longer than either its input or its unit-sample
+response. Thus, to avoid aliasing when we use DFTs, the dominant factor is not the duration of input or
+of the unit-sample response, but of the output. Thus, the number of values at which we must evaluate the
+frequency response’s DFT must be at least q + Nx and we must compute the same length DFT of the input.
+To accommodate a shorter signal than DFT length, we simply zero-pad the input: Ensure that for indices
+extending beyond the signal’s duration that the signal is zero. Frequency-domain ﬁltering, diagrammed in
+Figure 5.20, is accomplished by storing the ﬁlter’s frequency response as the DFT H (k), computing the
+input’s DFT X (k), multiplying them to create the output’s DFT Y (k) = H (k) X (k), and computing the
+inverse DFT of the result to yield y (n).

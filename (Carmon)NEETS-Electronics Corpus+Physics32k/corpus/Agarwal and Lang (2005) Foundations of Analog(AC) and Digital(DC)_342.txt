@@ -1,0 +1,8 @@
+Another way to emphasize that 5 and 6 are not true nodes is to redraw
+the circuit as shown in Figure 2.49. Clearly the circuit topology is unchanged in
+the sense that the interconnections among resistors and source are the same as
+before, but the false nodes have disappeared. We conclude that a node should
+be defined as a junction where two or more circuit elements, other than perfect
+conductors, join together. Whenever a number of circuit elements connect to
+one perfect conductor, (for example, 5, 4, 6 in Figure 2.46) only one node is
+created.

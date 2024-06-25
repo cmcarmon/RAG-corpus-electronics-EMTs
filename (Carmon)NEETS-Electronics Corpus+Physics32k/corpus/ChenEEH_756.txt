@@ -1,0 +1,10 @@
+given in Figure 2.22, where array A cannot be stored in the
+same single-port memory as any of the other arrays: it is in
+conﬂict with them. However, there is no edge between B and
+D, so these two arrays can be stored in one memory. Note that
+to support multiport memories, this model must be extended
+with hyperedges (Catthoor et al., 1998; Wuytack et al., 1996).
+From the conﬂict graph, it is possible to estimate the cost of
+the memory bandwidth required by the speciﬁed ordering
+of the memory accesses. Three main components contribute
+to the cost:

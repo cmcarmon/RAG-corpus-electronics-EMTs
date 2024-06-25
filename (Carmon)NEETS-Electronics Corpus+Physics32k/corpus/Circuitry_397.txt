@@ -1,0 +1,27 @@
+Symbols and connections 
+ 
+The symbol for an operational amplifier is shown 
+in  Fig.  8.2.  There  are  a  few  things  to  note  about 
+this. The device has two inputs and one output and 
+no  common  connection.  Furthermore,  we  often 
+don’t  show  the  supply  connections—it  is  often 
+clearer to leave them out of the circuit altogether! 
+ 
+In Fig. 8.2, one of the inputs is marked ‘*’ and 
+the  other  is  marked  ‘+’.  These  polarity  markings 
+have  nothing  to  do  with  the  supply  connections—
+they  indicate  the  overall  phase  shift  between  each 
+input  and  the  output.  The  ‘+’  sign  indicates  zero 
+phase shift whilst the ‘*’ sign indicates 180° phase 
+shift.  Since  180°  phase  shift  produces  an  inverted 
+waveform, the ‘*’ input is often referred to as the 
+inverting  input. Similarly, the ‘+’ input is known 
+as the non-inverting input. 
+  Most (but not all) operational amplifiers require 
+a symmetrical supply (of typically ±6 V to ±15 V) 
+which  allows  the  output  voltage  to  swing  both 
+positive  (above  0  V)  and  negative  (below  0  V). 
+Figure  8.3  shows  how  the  supply  connections 
+would appear if we decided to include them. Note 
+that  we  usually  have  two  separate  supplies;  a 
+positive supply and an equal, but opposite, negative 

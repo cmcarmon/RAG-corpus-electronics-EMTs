@@ -1,0 +1,6 @@
+The two constructs of LFSR and the MISR can be merged into a single multipurpose register in a built-in
+logic block observation (BILBO) approach [Konemann et al., 1979] where each register can have multiple modes
+of operation including the LFSR mode, MISR mode, SCAN mode, and NORMAL mode. In this case an on-
+chip test-control circuit may be used to control the modes of operation of the BILBO registers so that, in turn,
+each register is used as a test pattern generator or signature register to test a digital component. Figure 85.23
+illustrates how to use the BILBO scheme in a stepwise fashion to test a large digital circuit.

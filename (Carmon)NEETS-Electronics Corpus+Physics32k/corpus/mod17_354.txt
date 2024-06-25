@@ -1,0 +1,10 @@
+The word baud by definition is a unit of modulation rate. You will sometimes see it used to refer to a 
+signal element, but this reference is technically incorrect. Baud rate is the reciprocal of the time in 
+seconds of the shortest signal element. To find the modulation rate of a signal in bauds, you must divide 
+the number 1 by the time duration of the shortest unit interval present in the signal. For example, 22 
+milliseconds (.022 seconds) is the time interval of the shortest unit in the five-unit code at 60 words per 
+minute. To find the number of bauds corresponding to 60 words per minute, divide 1 by .022. Rounding 
+off the result of the division gives us the number 45.5, which is the baud equivalent of 60 words per 
+minute. Each increase in words per minute will correspondingly decrease the signal unit time interval. 
+(The defense communications system standard speed for teletypewriter operation is 100 words per minute 
+or 75 baud.) 

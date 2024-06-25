@@ -1,0 +1,6 @@
+A process can be created or terminated by another process
+using system calls, which are extended instructions offered by
+the operating system. The newly created process is referred to
+as the child process which in turn can create its own child
+processes. The parent–child relationship among processes
+forms a process tree structure as shown in Figure 4.2.

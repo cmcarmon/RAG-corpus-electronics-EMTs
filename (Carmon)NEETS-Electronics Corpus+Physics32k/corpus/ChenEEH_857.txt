@@ -1,0 +1,5 @@
+Note that in a fully synchronous digital circuit, there are no
+purely combinational signal cycles; that is, it is impossible to
+reach the input of any logic gate Gk by only starting at the
+output of Gk and going through a sequence of combinational
+logic gates (Friedman, 1995; Kourtev, 1999).

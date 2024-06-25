@@ -1,0 +1,26 @@
+The Korteweg–de Vries equation (KdV equation) can be used to describe the uni-directional propagation of weakly nonlinear and long waves—where long wave means: having long wavelengths as compared with the mean water depth—of surface gravity waves on a fluid layer. The KdV equation is a dispersive wave equation, including both frequency dispersion and amplitude dispersion effects. In its classical use, the KdV equation is applicable for wavelengths λ in excess of about five times the average water depth h, so for λ > 5 h; and for the period τ greater than
+
+
+
+
+7
+
+
+h
+
+/
+
+g
+
+
+
+
+
+{\displaystyle \scriptstyle 7{\sqrt {h/g}}}
+with g the strength of the gravitational acceleration. To envisage the position of the KdV equation within the scope of classical wave approximations, it distinguishes itself in the following ways:
+Korteweg–de Vries equation — describes the forward propagation of weakly nonlinear and dispersive waves, for long waves with λ > 7 h.
+Shallow water equations — are also nonlinear and do have amplitude dispersion, but no frequency dispersion; they are valid for very long waves, λ > 20 h.
+Boussinesq equations — have the same range of validity as the KdV equation (in their classical form), but allow for wave propagation in arbitrary directions, so not only forward-propagating waves. The drawback is that the Boussinesq equations are often more difficult to solve than the KdV equation; and in many applications wave reflections are small and may be neglected.
+Airy wave theory — has full frequency dispersion, so valid for arbitrary depth and wavelength, but is a linear theory without amplitude dispersion, limited to low-amplitude waves.
+Stokes' wave theory — a perturbation-series approach to the description of weakly nonlinear and dispersive waves, especially successful in deeper water for relative short wavelengths, as compared to the water depth. However, for long waves the Boussinesq approach—as also applied in the KdV equation—is often preferred. This is because in shallow water the Stokes' perturbation series needs many terms before convergence towards the solution, due to the peaked crests and long flat troughs of the nonlinear waves. While the KdV or Boussinesq models give good approximations for these long nonlinear waves.
+The KdV equation can be derived from the Boussinesq equations, but additional assumptions are needed to be able to split off the forward wave propagation. For practical applications, the Benjamin–Bona–Mahony equation (BBM equation) is preferable over the KdV equation, a forward-propagating model similar to KdV but with much better frequency-dispersion behaviour at shorter wavelengths. Further improvements in short-wave performance can be obtained by starting to derive a one-way wave equation from a modern improved Boussinesq model, valid for even shorter wavelengths.

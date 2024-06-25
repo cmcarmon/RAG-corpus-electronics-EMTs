@@ -1,0 +1,20 @@
+Multimedia trafﬁc streams have high bandwidth requirements
+(refer to Table 7.5). The best-effort Internet model does not
+provide any mechanism for applications to reserve network
+resources to meet such high bandwidth requirements and also
+does not prevent anyone from sending data at such high rates.
+Uncontrolled transmissions at such high rates can cause heavy
+congestion in the network, leading to a congestion collapse
+that can completely halt the Internet. There is no mechanism
+in the best-effort Internet to prevent this from happening
+(except using a brute force technique of disconnecting the
+source of such congestion). It is left to the discretion of the
+application to dynamically adapt to network congestions. Elas-
+tic applications that use TCP utilize a closed-loop feedback
+mechanism (built
+into TCP) to prevent congestion (this
+method of congestion control is called reactive congestion
+control). However, most multimedia applications use UDP
+for transmitting media streams; UDP does not have any mech-
+anism to control congestion and has the capability to create a
+congestion collapse.

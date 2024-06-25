@@ -1,0 +1,10 @@
+We ﬁrst consider an example of the beginning of a numerical
+instability arising because the Courant stability condition is
+violated equally at every point in a uniform one-dimensional
+grid. Figure 9.10(A) graphs three snapshots of the free space
+propagation of a Gaussian pulse in a grid having the Courant
+factor S ¼ 1:0005. The exciting pulse waveform has a 40Dt
+temporal width between its 1=e points and reaches its peak
+value of 1.0 at time-step n ¼ 60. Graphs of the wavefunction
+u(i) versus the grid coordinate i are shown at time-steps
+n ¼ 200, n ¼ 210, and n ¼ 220.

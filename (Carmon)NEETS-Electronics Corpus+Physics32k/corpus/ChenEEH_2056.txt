@@ -1,0 +1,14 @@
+is satisﬁed by a state M if and only if M[p] is true.
+A transition is a particular kind of predicate that contains
+primed state variables (e.g., [p0(c) ¼ p(c) þ 1]). A transition
+relates two states (an old state and a new state), where the
+unprimed state variables refer to the old state and where
+the primed state variables refer to the new state. Therefore, the
+meaning of a transition is a relation between states. The term
+transition used here is a temporal logic entity. Although it
+reﬂects the nature of a transition in a PrTN net N, it is
+not a transition in N. For example, given a pair of states M
+and M0: M[p0(c) ¼ p(c) þ 1]M0
+is deﬁned by M0[p(c)] ¼
+M[p(c)] þ 1. Given a transition t, a pair of states M and M0
+is called a ‘‘transition step’’ if M[p]M0 equals true.

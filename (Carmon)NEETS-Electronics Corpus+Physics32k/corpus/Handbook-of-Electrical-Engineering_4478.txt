@@ -1,0 +1,9 @@
+The FEM provides a systematic technique for replacing the continuum ﬁeld equations with a set of discrete
+algebraic equations that can be solved by standard procedures. In Fig. 44.2 a typical ﬁeld map is shown for a
+permanent  magnet  machine  modeled  by  a  computer  simulator  that  can  take  into  account  nonlinearity  and
+permanently magnetized materials. Although hysteresis effects can be included, the computational resources
+required  can  be  prohibitive  because  of  the  vector  nature  of  magnetization.  The  magnetic  material  must  be
+characterized  by  a  large  number  of  measurements  to  take  account  of  the  minor  loops,  and  from  these  the
+convolution  integrals  necessary  to  obtain  the  constitutive  relationships  can  be  evaluated  [Mayergoyz,  1990].
+These characteristics must then be followed through time; this can be implemented by solving at a discrete set
+of time points, given the initial conditions in the material.

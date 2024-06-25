@@ -1,0 +1,9 @@
+A VSAT system must employ frequency agility in the remote terminal to use an assigned block of frequencies
+within a transponder. Within the assigned frequency band, one or more outbound carriers and a number of
+inbound carriers are precisely located. On the VSAT receive or outbound side, the LNB output can be demod-
+ulated  directly  using  a  synthesizer-controlled  local  oscillator,  or  further  downconversion  can  be  used  under
+synthesizer control to obtain the demodulator input signal at a standard IF frequency such as 70 or 140 MHz.
+In the inbound direction, channel selection can be accomplished by two methods. First, the carrier frequency
+of the modulator can be shifted to select the appropriate channel and a ﬁxed upconverter may be used to obtain
+the RF signal. Second, the synthesizer output frequency may be multiplied up to RF to obtain the carrier, which
+may then be modulated directly with the data as described in Cannistraro and McCarter [1990].

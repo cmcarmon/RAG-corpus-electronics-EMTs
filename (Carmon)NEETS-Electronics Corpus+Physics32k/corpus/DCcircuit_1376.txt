@@ -1,0 +1,8 @@
+When the switch is opened, however, it suddenly introduces an extremely high resistance
+into the circuit (the resistance of the air gap between the contacts). This sudden introduction
+of high resistance into the circuit causes the circuit current to decrease almost instantly. Math-
+ematically, the di/dt term will be a very large negative number. Such a rapid change of current
+(from some magnitude to zero in very little time) will induce a very high voltage across the
+inductor, oriented with negative on the left and positive on the right, in an effort to oppose this
+decrease in current. The voltage produced is usually more than enough to light the neon lamp,
+if only for a brief moment until the current decays to zero:

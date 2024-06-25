@@ -1,0 +1,19 @@
+(3:15)
+then So(0) ¼ 0pp results in er (1) ¼ 0. A sufﬁcient condition
+for the dc gain of the sensitivity matrix to vanish is that every
+entry of Lo(s) must have at least one pole at the origin. This is
+the generalization of system type to MIMO systems. Further-
+more, if So(0) ¼ 0pp, the steady-state error contributed by a
+vector of step functions at the output disturbances, do(s), will
+also be zero. An additional condition is needed for zero steady-
+state error contributed by a vector of step functions at the
+input disturbances, di(s). A sufﬁcient condition is that the
+plant has no entries with poles at the origin.
+Making T (0) ¼ I results in the desired zero steady-state
+errors to vectors of step functions at the reference inputs and
+at the input and output disturbances. This choice, however,
+has the undesirable effect of making the error contributed by
+the dc component of the sensor noise not to be attenuated.
+This is a common trade-off in control systems, which does not
+affect the desired performance as long as the signal-to-noise
+ratio for low frequencies is made sufﬁciently high.

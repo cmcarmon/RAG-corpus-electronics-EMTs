@@ -1,0 +1,28 @@
+The more redundant an RNS is, the easier it is to identify
+and correct errors. A redundant RNS (RRNS) uses a number r
+of moduli
+that
+are necessary for covering the desired dynamic range. All
+N þ r moduli must be relatively prime. In an RRNS, a number
+X is presented by a total of N nonredundant residue digits
+{X2, . . ., XN } plus r redundant residue digits {XNþ1 . . ., XNþr }.
+Of the total number of states, MR ¼ Nþr
+i¼1 mi is represented by
+the RRNS. The M ¼ N
+i¼1mi ﬁrst states constitute its ‘‘legitim-
+ate range,’’ while any number that lies in the range (M , MR), is
+called ‘‘illegitimate.’’
+Any single error moves a legitimate number X into an
+illegitimate number X0. Once it is veriﬁed that the number
+being tested is illegitimate, its digits are discarded one by one,
+until a legitimate representation is found. The discarded digit
+whose omission results in the legitimate representation is
+the erroneous one. A correct digit can then be produced
+by extending the base of the reduced RNS that produced
+the legitimate representation. The above error-locating-and-
+correcting procedure can be implemented in a variety of
+ways. Assuming that the mixed radix representations of all
+the reduced RNS representations can be efﬁciently generated,
+the legitimate one can be easily identiﬁed by checking the
+highest order mixed radix digit against zero. If it is zero,
+the representation is legitimate.

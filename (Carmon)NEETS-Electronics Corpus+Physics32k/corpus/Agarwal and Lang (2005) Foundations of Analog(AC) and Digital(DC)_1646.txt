@@ -1,0 +1,4 @@
+Because the pullup switch is off in the first half cycle (when the input is high), notice that
+the power supply directly provides a current only during the second half cycle (when
+the input is low). Therefore, power is delivered by the power supply only during the
+interval T/2 → T. Thus,

@@ -1,0 +1,145 @@
+For the reaction
+2 H2(g) + 2 NO(g) → N2(g) + 2 H2O(g)
+the observed rate equation (or rate expression) is:
+
+
+
+r
+=
+k
+[
+
+
+H
+
+2
+
+
+
+
+
+
+]
+[
+
+NO
+
+
+]
+
+2
+
+
+
+
+
+{\displaystyle r=k[{\ce {H2}}][{\ce {NO}}]^{2}\,}
+
+As for many reactions, the experimental rate equation does not simply reflect the stoichiometric coefficients in the overall reaction: It is third order overall: first order in H2 and second order in NO, even though the stoichiometric coefficients of both reactants are equal to 2.
+In chemical kinetics, the overall reaction rate is often explained using a mechanism consisting of a number of elementary steps. Not all of these steps affect the rate of reaction; normally the slowest elementary step controls the reaction rate. For this example, a possible mechanism is:
+2 NO(g) ⇌ N2O2(g)      (fast equilibrium)
+N2O2 + H2 → N2O + H2O      (slow)
+N2O + H2 → N2 + H2O      (fast)
+Reactions 1 and 3 are very rapid compared to the second, so the slow reaction 2 is the rate determining step. This is a bimolecular elementary reaction whose rate is given by the second order equation:
+
+
+
+
+r
+=
+
+k
+
+2
+
+
+[
+
+
+H
+
+2
+
+
+
+
+
+
+]
+[
+
+
+N
+
+2
+
+
+
+
+
+
+O
+
+2
+
+
+
+
+
+
+]
+
+
+
+{\displaystyle r=k_{2}[{\ce {H2}}][{\ce {N2O2}}]\,}
+,
+where k2 is the rate constant for the second step.
+However N2O2 is an unstable intermediate whose concentration is determined by the fact that the first step is in equilibrium, so that [N2O2] = K1[NO]2, where K1 is the equilibrium constant of the first step. Substitution of this equation in the previous equation leads to a rate equation expressed in terms of the original reactants
+
+
+
+
+r
+=
+
+k
+
+2
+
+
+
+K
+
+1
+
+
+[
+
+
+H
+
+2
+
+
+
+
+
+
+]
+[
+
+NO
+
+
+]
+
+2
+
+
+
+
+
+{\displaystyle r=k_{2}K_{1}[{\ce {H2}}][{\ce {NO}}]^{2}\,}
+
+This agrees with the form of the observed rate equation if it is assumed that k = k2K1. In practice the rate equation is used to suggest possible mechanisms which predict a rate equation in agreement with experiment.
+The second molecule of H2 does not appear in the rate equation because it reacts in the third step, which is a rapid step after the rate-determining step, so that it does not affect the overall reaction rate.

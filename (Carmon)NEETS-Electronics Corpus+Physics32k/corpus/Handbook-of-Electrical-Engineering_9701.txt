@@ -1,0 +1,13 @@
+For many computer systems it is possible to deﬁne a 
+ (MTTR). This will be a function of
+a  number  of  things,  including  the  time  taken  to  detect  the  failure,  the  time  taken  to  isolate  and  replace  the
+faulty component, and the time taken to verify that the system is operating correctly again. While the MTTF
+is a function of the system design and the operating environment, the MTTR is often a function of unpredictable
+human factors and, hence, is difﬁcult to quantify. Figures used for MTTR for a given system in a ﬁxed situation
+could  be  predictions  based  on  the  experience  of  the  reliability  engineers  or  could  be  simply  the  maximum
+response  time  given  in  the  maintenance  contract  for  a  computer.  In  either  case,  MTTR  predictions  may  be
+subject to some ﬂuctuations. To take an extreme example, if the service engineer has a ﬂat tire while on the
+way to effect the repair, then the repair time may be many times the predicted MTTR. For some systems no
+MTTR can be predicted, as they are in situations that make repair impossible or uneconomic. Computers in
+satellites are a good example. In these cases and all others where no errors in the output can be allowed, fault
+tolerant approaches must be used in order to extend the MTTF beyond the desired system operational lifetime.

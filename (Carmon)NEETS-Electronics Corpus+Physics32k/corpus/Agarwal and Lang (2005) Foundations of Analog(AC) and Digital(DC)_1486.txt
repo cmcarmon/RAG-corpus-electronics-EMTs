@@ -1,0 +1,6 @@
+The use of a clock discipline represents an instance of time discretization.
+Lumping of time into invalid periods and valid periods gives us the clocked
+digital abstraction and significantly simplifies the orchestrating of communica-
+tion between individual circuit modules. Lumping occurs because we do not
+care about the precise moment when a signal is sampled, provided, of course,
+the signal is sampled within the valid period.

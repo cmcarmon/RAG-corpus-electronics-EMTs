@@ -1,0 +1,5 @@
+Note that the steady-state solution for a step input r0 is the same whether or not error-rate
+damping is present. The advantage of error-rate damping lies in the fact that it allows higher
+gains to be used without adversely affecting the damping ratio, and thereby makes it possible to
+satisfy the speciﬁcations for the damping ratio as well as for the steady-state performance. Also,
+the system’s natural frequency is increased, which in turn implies smaller settling times.

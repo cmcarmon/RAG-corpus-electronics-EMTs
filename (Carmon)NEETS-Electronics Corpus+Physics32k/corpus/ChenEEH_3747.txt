@@ -1,0 +1,7 @@
+The HMM models an utterance in the form of a string of
+features (or feature vectors) to which the corresponding analog
+waveform has been reduced. In HMM literature, it is custom-
+ary to refer to the string of test features as the observations or
+observables because these features represent information that
+is ‘‘observed’’ from the speech utterance to be modeled. Let us
+denote a string of observations by {yt }T

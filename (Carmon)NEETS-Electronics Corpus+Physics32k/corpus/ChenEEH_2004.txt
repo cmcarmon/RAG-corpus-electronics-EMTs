@@ -1,0 +1,12 @@
+Trovo (2002) implemented microrollback in VHDL in the
+Motorola 68040 processor along with concurrent error detec-
+tion via a watchdog (WD) processor-based control-ﬂow
+checking (see Section 8.4) and a two-error detecting one-
+error correcting Hamming code (HC) implemented on the
+memory and cache data and address busses. Because the
+68040 is a CISC processor, an instruction may not be executed
+every clock cycle, and an instruction microrollback scheme can
+be implemented for the register ﬁle, state registers, cache, and
+main memory (the main memory rollback support is similar
+to that of the cache) using hardware similar to that described
+in Sections 8.5.1–8.5.3.

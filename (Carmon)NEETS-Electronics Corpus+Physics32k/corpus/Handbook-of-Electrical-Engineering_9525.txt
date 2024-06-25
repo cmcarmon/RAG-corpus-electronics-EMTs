@@ -1,0 +1,4 @@
+on the domain of an attribute name, and any transaction that violates the imposed constraints is aborted. In
+some  cases,  it  is  useful  to  specify  that  the  system  take  some  actions,  rather  than  just  have  the  transaction
+responsible for the constraint violation being aborted. A mechanism called trigger can be used for that purpose.
+A trigger speciﬁes a condition and an action to be taken when the condition is met.

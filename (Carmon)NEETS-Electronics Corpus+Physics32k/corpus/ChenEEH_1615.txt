@@ -1,0 +1,30 @@
+Knowledge acquisition is a difﬁcult and time-consuming
+task that often becomes the bottleneck in expert system devel-
+opment (Hayes-Roth et al., 1983). Various techniques have
+been developed to automate the process by using domain-
+tailored environments containing well-deﬁned domain knowl-
+edge and speciﬁc problem-solving methods (Rothenﬂuh et al.,
+1996). For example, OPAL is a program that expedites knowl-
+edge elicitation for the expert system ONCOCIN (Shortliffe et
+al., 1981) that constructs treatment plans for cancer patients.
+OPAL uses a model of the cancer domain to acquire knowledge
+directly from an expert. OPAL’s domain model has four main
+aspects: entities and relationships, domain actions, domain
+predicate, and procedural knowledge. Based on its domain
+knowledge, OPAL can acquire more knowledge from a human
+expert and translate it into executable code, such as production
+rules and ﬁnite state tables. Following OPAL, more general-
+purpose systems called PROTEGE and PROTEGE-II were de-
+veloped (Musen, 1989). PROTEGE-II contains tools for creat-
+ing domain ontology and generating OPAL-like knowledge
+acquisition programs for particular applications PROTEGE-II
+is a general tool developed by abstraction from a successful
+application, similar to the process from MYCIN to EMYCIN.
+Another example of automated knowledge acquisition is the
+SALT system (Marcus and McDermott, 1989) associated with
+an expert system called Vertical Transportation (VT) for
+designing custom-design elevator systems. SALT assumes a
+propose-and-revise strategy in the knowledge acquisition
+process. Domain knowledge is seen as performing one of
+three roles: (1) proposing an extension to the current design,
+(2) identifying constraints upon design extension, and (3)

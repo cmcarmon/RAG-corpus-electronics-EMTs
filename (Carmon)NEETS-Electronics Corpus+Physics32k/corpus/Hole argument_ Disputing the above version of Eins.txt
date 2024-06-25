@@ -1,0 +1,179 @@
+Einstein's derivation of the gravitational field equations was delayed because of the hole argument which he created in 1913. However the problem was not as given in the section above. By 1912, the time Einstein started what he called his "struggle with the meaning of the coordinates", he already knew to search for tensorial equations as these are unaffected by coordinate change. He had already found the form of the gravitational field (namely as a tetrad or frame field
+
+
+
+
+e
+
+μ
+
+
+I
+
+
+(
+x
+)
+
+
+{\displaystyle e_{\mu }^{I}(x)}
+or metric
+
+
+
+
+g
+
+μ
+ν
+
+
+(
+x
+)
+
+
+{\displaystyle g_{\mu \nu }(x)}
+), and the equations of motion of matter in a given gravitational field (which follow from maximizing the proper time given by
+
+
+
+d
+
+s
+
+2
+
+
+=
+
+g
+
+μ
+ν
+
+
+(
+x
+)
+d
+
+x
+
+μ
+
+
+d
+
+x
+
+ν
+
+
+
+
+{\displaystyle ds^{2}=g_{\mu \nu }(x)dx^{\mu }dx^{\nu }}
+). It is evident that this is invariant under coordinate transformations.
+What disturbed him was a consequence of his principle of general covariance and arises from the following. General covariance states that the laws of physics should take the same mathematical form in all reference frames and hence all coordinate systems and so the differential equation that are the field equations of the gravitational field should take the same mathematical form in all coordinates systems. In other words, given two coordinate systems, say
+
+
+
+x
+
+
+{\displaystyle x}
+coordinates and
+
+
+
+y
+
+
+{\displaystyle y}
+coordinates, one has exactly the same differential equation to solve in both, except in one the independent variable is
+
+
+
+x
+
+
+{\displaystyle x}
+and in the other the independent variable is
+
+
+
+y
+
+
+{\displaystyle y}
+. This implies that as soon as one finds a metric function in the
+
+
+
+x
+
+
+{\displaystyle x}
+coordinate system that solves the field equations, one can simply write down the very same function but replace all the
+
+
+
+x
+
+
+{\displaystyle x}
+'s with
+
+
+
+y
+
+
+{\displaystyle y}
+'s, which solves the field equations in the
+
+
+
+y
+
+
+{\displaystyle y}
+coordinate system. As these two solutions have the same functional form but belong to different coordinate systems they impose different spacetime geometries. Note that this second solution is not related to the first through a coordinate transformation, but it is a solution nevertheless. Here is the problem that disturbed Einstein so much: if these coordinates systems differ only after
+
+
+
+t
+=
+0
+
+
+{\displaystyle t=0}
+there are then two solutions; they have the same initial conditions but they impose different geometries after
+
+
+
+t
+=
+0
+
+
+{\displaystyle t=0}
+. On the basis of this observation Einstein spent three years searching for non-generally covariant field equations in a frantic race against Hilbert.
+To be more accurate, Einstein conceived of a situation where the matter distribution is known everywhere outside some closed region of spacetime devoid of matter, the hole. Then the field equations together with the boundary conditions supposedly enable the metric field to be determined inside the hole. One takes the
+
+
+
+x
+
+
+{\displaystyle x}
+and
+
+
+
+y
+
+
+{\displaystyle y}
+coordinates to differ inside the hole but agree outside of it. The argument then proceeds as in the above paragraph.
+As these two solutions have the same functional form, they assume the same values; they just assume them at different places. Therefore, one solution is obtained from the other by actively dragging the metric function over the spacetime manifold into the new configuration. This is known as a diffeomorphism, sometimes called an active diffeomorphism by physicists to distinguish it from coordinate transformations (passive diffeomorphisms). Einstein failed to find non-generally covariant field equations only to return to the hole argument and resolve it. It basically involved accepting that these two solutions are physically equivalent by claiming that how the metric is localized over the spacetime manifold is physically irrelevant and that individual spacetime points defined in terms of spacetime coordinates have no physical meaning in and of themselves (this is the source of the problem for manifold substantialism). To provide meaning to 'location', Einstein generalized the situation given in the above paragraphs by introducing two particles; then physical points (inside the hole) can be defined in terms of their coinciding world lines. This works because matter gets dragged across together with the metric under active diffeomorphisms. Without the introduction of these particles one would not be able to define physical spacetime points (within the hole); see the quotes of Einstein given below in the section 'Einstein's resolution'.

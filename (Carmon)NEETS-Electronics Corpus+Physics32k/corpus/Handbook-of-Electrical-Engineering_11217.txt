@@ -1,0 +1,8 @@
+The  ﬁrst  systematic  application  of  power  spectral  analysis  by  general-purpose  computers  was  reported  in
+ by Cooley and
+1963 by Walter; however, it was not until the introduction of the 
+Tukey in the early 1970s that machine computation of the EEG became commonplace. Although an individual
+FFT is ordinarily calculated for a short section of EEG data (e.g., from 1 to 8 s epoch), such segmentation of
+a  signal  with  subsequent  averaging  over  individual  modiﬁed  periodograms  has  been  shown  to  provide  a
+consistent estimator of the power spectrum, and an extension of this technique, the compressed spectral array,
+has  been  particularly  useful  for  computing  EEG  spectra  over  long  periods  of  time. A  detailed  review  of  the

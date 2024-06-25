@@ -1,0 +1,12 @@
+However, as feature sizes have decreased below about 0.5 mm, this condition has changed and current VLSI
+technology  has  interconnection  delays  substantially  larger  than  logic  delays.  The  increasing  importance  of
+interconnection  delays  is  driven  by  several  effects.  The  smaller  feature  size  leads  to  interconnections  with  a
+higher resistance R* per unit length and with a higher capacitance C* per unit area (the capacitance increase
+also reﬂecting additional metal layers and coupling capacitances). For interconnection lines among high-level
+blocks  (spanning  the  IC),  the  result  is  a  larger  RC  time  constant  (R*LC ·  *L),  with  L  the  line  length. While
+interconnect delays are increasing, gate delays are decreasing. Figure 25.26 illustrates the general behavior on
+technology scaling to smaller features. A logic function F in a previous-generation technology requires a smaller
+physical area and has a higher speed in a later, scaled technology (i.e., a technology with feature sizes decreased).
+Although  the  intrablock  line  lengths  decrease  (relaxing  the  impact  within  the  block  of  higher  R*C*),  the
+interblock  lines  continue  to  have  lengths  proportional  to  the  overall  IC  size  (which  is  increasing),  with  the
+larger R*C* leading to increased RC delays on such interconnections.

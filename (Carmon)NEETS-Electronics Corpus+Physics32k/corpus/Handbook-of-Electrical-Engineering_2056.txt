@@ -1,0 +1,8 @@
+Two important principles of ANC are depicted in Fig. 19.7. In the upper half [Fig. 19.7(a) and (b)], a feedback
+loop  is  formed  between  the  controller  G(s)  and  the  transfer  function  C(s)  of  the  secondary  source,  and  the
+acoustic  path  to  the  error  microphone.  Control  theory  suggests  that E/Y = 1/[1  + C(s)G(s)],  where  E(s)  and
+Y(s) are Laplace transforms of e(t) and y(t), respectively. Obviously, if we could make C a real constant and G
+ﬁ  ¥ ,  we  would  get  a  “zone  of  quiet”  around  the  error  microphone.  Unfortunately,  in  practice,  C(s)  will
+introduce  at  least  a  delay,  thus  causing  stability  problems  for  too  large  a  magnitude  *G *  at  high  enough
+frequencies. The system can be kept stable, for example, by including a low-pass ﬁlter in G and by positioning
+the secondary source in close vicinity to the error microphone. A highly successful application of the feedback

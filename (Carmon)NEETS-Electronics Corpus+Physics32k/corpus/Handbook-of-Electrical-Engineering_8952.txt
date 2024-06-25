@@ -1,0 +1,10 @@
+The force joystick operates by responding to pressure on the handle to generate the X–Y coordinates. It may
+be either a two- or three-dimensional version, with the same types of handles as for the displacement joysticks.
+However, it is difﬁcult to use a rotating handle for the third dimension because some force is usually transmitted
+to  the  other  dimensions  causing  crosstalk.  Therefore,  a  separate  lever  is  preferred.  The  force  is  detected  by
+means of piezoelectric sensors that are bonded to the handle rod, and a voltage source is applied across the
+network,  as  shown  in  Fig. 89.11.  The  output  is  taken  from  the  strain  gauge  and  the  analog  voltage  will  be
+proportional to the amount of force. The same type of protocol and output circuitry may be used as for the
+displacement unit, and both can generate either position or rate data. An exponential curve with a dead zone
+threshhold is preferred for pulse rates in order to avoid starting pulse rate uncertainties, with the ﬁrst pulse
+starting as soon as the threshhold is exceeded.

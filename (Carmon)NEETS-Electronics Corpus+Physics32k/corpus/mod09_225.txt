@@ -1,0 +1,13 @@
+To analyze the operation of the circuit in view (A), assume that the amplifier is a common-emitter 
+configuration. The signal on the collector (M) is 180 degrees out of phase with the signal (input) on the 
+base (R). For the circuit to produce regenerative feedback, the RC network must provide a 180-degree 
+phase shift of the collector signal. When power is applied to the circuit, a noise voltage (noise contains 
+many different frequencies) will appear on the collector. This noise signal is represented by vector LM in 
+view (B). As the signal couples through C1 and across R1 (view (A)), a phase shift occurs. The voltage 
+across R1 (E R1), represented by vector LN, has been shifted in phase (about 60 degrees) and reduced in 
+amplitude. The signal at point N (view (A)) is then coupled to the next RC section (R2 and C2). Using the 
+same size resistor and capacitor as before will cause another 60-degree phase shift to take place. The 
+signal at point P is the voltage across R2, represented by vector LP. Now the signal at point P has been 
+shifted about 120 degrees and its amplitude is reduced still further. The same actions occur for the last 
+section (R3 and C3). This signal experiences another 60-degree phase shift and has further amplitude 
+reduction. The signal at point R (ER3) has been shifted 180 degrees and is represented by vector LR. 

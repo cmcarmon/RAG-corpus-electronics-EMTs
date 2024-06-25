@@ -1,0 +1,79 @@
+The convection–diffusion equation is a relatively simple equation describing flows, or alternatively, describing a stochastically-changing system. Therefore, the same or similar equation arises in many contexts unrelated to flows through space.
+It is formally identical to the Fokker–Planck equation for the velocity of a particle.
+It is closely related to the Black–Scholes equation and other equations in financial mathematics.
+It is closely related to the Navier–Stokes equations, because the flow of momentum in a fluid is mathematically similar to the flow of mass or energy. The correspondence is clearest in the case of an incompressible Newtonian fluid, in which case the Navier–Stokes equation is:
+
+
+
+
+
+
+
+∂
+
+M
+
+
+
+∂
+t
+
+
+
+=
+
+
+μ
+ρ
+
+
+
+∇
+
+2
+
+
+
+M
+
+−
+
+v
+
+⋅
+∇
+
+M
+
++
+(
+
+f
+
+−
+∇
+
+P
+
+)
+
+
+{\displaystyle {\frac {\partial \mathbf {M} }{\partial t}}={\frac {\mu }{\rho }}\nabla ^{2}\mathbf {M} -\mathbf {v} \cdot \nabla \mathbf {M} +(\mathbf {f} -\nabla {\text{P}})}
+
+where M is the momentum of the fluid (per unit volume) at each point (equal to the density
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+multiplied by the velocity v),
+
+
+
+μ
+
+
+{\displaystyle \mu }
+is viscosity, P is fluid pressure, and f is any other body force such as gravity. In this equation, the term on the left-hand side describes the change in momentum at a given point; the first term on the right describes viscosity, which is really the diffusion of momentum; the second term on the right describes the advective flow of momentum; and the last two terms on the right describes the external and internal forces which can act as sources or sinks of momentum.

@@ -1,0 +1,21 @@
+As losses in the system cannot be determined before the load ﬂow solution, one generator busbar only has
+its voltage magnitude speciﬁed. In order to give the required two speciﬁcations per node, this bus also has its
+voltage angle deﬁned to some arbitrary value, usually zero. This busbar is known as the slack bus. The slack
+bus is a mathematical requirement for the program and has no exact equivalent in reality. However, in operating
+practice, the total load plus the losses are not known. When a system is not in power balance, i.e., when the
+input power does not equal the load power plus losses, the imbalance modiﬁes the rotational energy stored in
+the system. The system frequency thus rises if the input power is too large and falls if the input power is too
+little. Usually a generating station and probably one machine is given the task of keeping the frequency constant
+by varying the input power. This control of the power entering a node can be seen to be similar to the slack bus.
+The algorithms ﬁrst adopted had the advantages of simple programming and minimum storage but were
+slow  to  converge  requiring  many  iterations.  The  introduction  of  ordered  elimination,  which  gives  implicit
+inversion of the network matrix, and sparsity programming techniques, which reduces storage requirements,
+allowed much better algorithms to be used. The Newton-Raphson method gave convergence to the solution in
+only a few iterations. Using Newtonian methods of specifying the problem, a Jacobian matrix containing the
+partial derivatives of the system at each node can be constructed. The solution by this method has quadratic
+convergence. This method was followed quite quickly by the Fast Decoupled Newton-Raphson method. This
+exploited the fact that under normal operating conditions, and providing that the network is predominately
+reactive, the voltage angles are not affected by reactive power ﬂow and voltage magnitudes are not effected by
+real power ﬂow. The Fast Decoupled method requires more iterations to converge but each iteration uses less
+computational effort than the Newton Raphson method. A further advantage of this method is the robustness
+of the algorithm.

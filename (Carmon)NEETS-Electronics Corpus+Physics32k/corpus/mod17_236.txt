@@ -1,0 +1,7 @@
+discharge path time constant of C2, R1, and R2 is chosen to be longer than the period (1/f) of the lowest
+audio frequency present in the output of the detector. Because of the longer time constant, C2 will not
+discharge much between peaks of the modulating signal, and the voltage across C2 will be essentially a dc
+voltage. This voltage is proportional to the average signal amplitude. Now, if the signal strength varies,
+C2 will either increase or decrease its charge, depending on whether the signal increases or decreases.
+Since the charge on the agc capacitor responds only to changes in the average signal level, instantaneous
+variations in the signal will not affect the agc voltage.

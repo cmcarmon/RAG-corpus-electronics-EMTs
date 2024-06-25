@@ -1,0 +1,7 @@
+then the base-to-collector diode also turns ON, and the BJT saturation region results.
+The saturation region model for the BJT is shown in Figure 7.50c. In the BJT’s saturation
+region, the BJT model stops looking like a current source, and instead displays a pair of
+very low resistance paths from the base into the collector and emitter (due to the pair of
+forward-biased diodes). Because of their low resistance, the path currents are determined
+by external circuit constraints. By summing voltages along the path E, B, C, we see that
+the collector-to-emitter voltage is pinned at 0.2 V, irrespective of the current iC.

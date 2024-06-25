@@ -1,0 +1,250 @@
+Around 1900, Paul Drude developed the foundation for classical conduction. He reasoned that since metals conduct electricity so well, they must contain free electrons that move through a lattice of positive ions. This motion of electrons led to the formation of Ohm's laws, as well as related the motion in a conductor to two types of conduction: heat and electrical. The free-moving electrons act just as a gas would; moving in every direction throughout the lattice. These electrons collide with the lattice ions as they move about, which is key in understanding thermal equilibrium. The average velocity due to the thermal energy is zero since the electrons are going in every direction, leading to velocity vectors that are randomly oriented. What is not zero, and is in fact a high value, is the speed of these electrons, which can be calculated using the equation
+
+
+
+
+
+⟨
+v
+⟩
+
+=
+
+
+
+
+8
+
+k
+
+b
+
+
+T
+
+
+π
+m
+
+
+
+
+
+
+{\displaystyle \left\langle v\right\rangle ={\sqrt {\frac {8k_{b}T}{\pi m}}}}
+
+There is a way of affecting this free motion of electrons, which is by use of an electric field. This process is known as electrical conduction. An electric field provides a potential difference along a wire of electrons, which creates a force,
+
+
+
+F
+=
+e
+ϵ
+
+
+{\displaystyle F=e\epsilon }
+, where
+
+
+
+e
+
+
+{\displaystyle e}
+is the charge of an electron and
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+is the magnitude of the electric field. That force accelerates the electrons, as expected by Newton’s second law. The electrons are given a velocity away from the (negative source of the) field, which leads to these collisions with the fixed ions. The collisions rid the electrons of their kinetic energy momentarily, transferring that energy to the ion lattice in the form of heat, until the field again provides this sort of "push" to the electrons. The net result of all of this pushing and stopping (or gaining of kinetic energy and then a release of it), is a small value called drift velocity. To better understand this concept, one could picture a busload of kids (electrons), who are energetically moving about on the bus (wire). The kids have instantaneous velocities, but after colliding with each other and bouncing back to their seats the average velocity of the kids is zero. However, as the bus moves forward, the kids have a small drift velocity in the direction of the motion of the bus. The drift that is opposite of the electric field is in fact an electric current.
+The electric current (amount of charge through a cross sectional area per unit time) is proportional to the voltage drop across two points, which is called Ohm’s Law and is given by
+
+
+
+I
+=
+V
+
+/
+
+R
+
+
+{\displaystyle I=V/R}
+. The relationship of the current to the drift velocity as discussed above is given by
+
+
+
+I
+=
+Δ
+Q
+
+/
+
+Δ
+t
+=
+n
+e
+A
+
+v
+
+d
+
+
+
+
+{\displaystyle I=\Delta Q/\Delta t=neAv_{d}}
+, where
+
+
+
+A
+
+
+{\displaystyle A}
+is the cross sectional area,
+
+
+
+
+v
+
+d
+
+
+
+
+{\displaystyle v_{d}}
+is the drift velocity,
+
+
+
+e
+
+
+{\displaystyle e}
+is the electron charge, and
+
+
+
+n
+
+
+{\displaystyle n}
+is the number of electrons per unit volume. The reason that this equation is significant is because Ohm’s law can be written as
+
+
+
+I
+=
+(
+1
+
+/
+
+ρ
+)
+ϵ
+A
+
+
+{\displaystyle I=(1/\rho )\epsilon A}
+, (or
+
+
+
+j
+=
+σ
+ϵ
+
+
+{\displaystyle j=\sigma \epsilon }
+) as well as in terms of the drift velocity
+
+
+
+
+v
+
+d
+
+
+=
+j
+
+/
+
+n
+e
+
+
+{\displaystyle v_{d}=j/ne}
+. The drift velocity is much smaller than the average thermal speed of the electrons, and so the electric field has no effect on the
+
+
+
+⟨
+v
+⟩
+
+
+{\displaystyle \langle v\rangle }
+of the electrons. Ohm’s law says that the resistivity
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+and conductivity
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+must be independent of
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+. This is important to the classical theory because it shows that according to Ohm’s law, since
+
+
+
+I
+
+
+{\displaystyle I}
+is proportional to
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+, there is a steady state situation where drift velocity is proportional to the field
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+.
+The entire "objective" of the classical theory is to explain resistivity in terms of the above-discussed properties of metals. By using the classical theory, one should be able to decide which metal to use for a certain purpose and be able to differentiate between different metals by use of these properties.
+The journey of an electron can be expressed in another way, which is by use of the mean free path. The mean free path λ is the average distance traveled by electrons before their collisions. An electron moves through the lattice ions of a metal, and when the electron approaches the center of an ion, there is a collision at a distance r from the center. Once it collides with an ion, the electron is now hurdled in another direction until it collides with another ion. This zigzagging formation enables the electron to have a number of collisions in time t given by naπr2vt. This distance between collisions is related to the speed and time before collisions by use of the equation λ = <v>τ. At this point we assume the resistivity is given by ρ = (me<v>)/(ne2λ). Notice how there is no dependence on ε, since the mean free path depends only on the size and density of the ions. The abovementioned drift velocity can be expressed in terms of the mean free path as Vd = eλε/me<v>. One last expression, is that the mean free path is expressed by λ = (vt/naπr²vt) =1/naπr², where it is extremely important to emphasize here that the r here is the radius of those lattice ions that the electrons bounce off of.

@@ -1,0 +1,40 @@
+Based on the general spectral model, a predictive coder formulates an estimate of a future sample of speech
+based  on  a  weighted  combination  of  the  immediately  preceding  samples.  The  error  in  this  estimate  (the
+prediction  residual
+)  typically  comprises  a  signiﬁcant  portion  of  the  data  stream  of  the  encoded  speech.  The
+residual contains information that is important in speech perception and cannot be modeled in a straightfor-
+ward fashion. The most familiar form of predictive coder is the classical Differential Pulse Code Modulation
+ – 1), is subtracted
+(DPCM) system shown in Fig. 15.1. In DPCM, the predicted value at time instant 
+k
+)
+k
+(
+e
+.
+ The prediction error is then
+from the input signal at time 
+ is coded (represented as a binary number)
+,
+)
+k
+(
+approximated (
+k
+ –  1)  to  yield  a
+k
+(
+e
+)  is  summed  with
+for  transmission  to  the  receiver.  Simultaneously  with  the  coding, 
+q
+ˆs
+k
+(
+).  Assuming  no  channel  errors,  an  identical  reconstruction,
+reconstructed  version  of  the  input  sample,
+distorted only by the effects of quantization, is accomplished at the receiver. At both the transmitter and receiver,
+k
+,  and  the
+the  predicted  value  at  time  instant 
+procedure is repeated.

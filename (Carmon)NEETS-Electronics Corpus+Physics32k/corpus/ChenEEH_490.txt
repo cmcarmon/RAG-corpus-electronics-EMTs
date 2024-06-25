@@ -1,0 +1,16 @@
+that can also be calculated as a function of frequency if the EC
+topology and element noise sources are given (Vendelin, 1990).
+F depends on a number of transistor parameters as well as on
+the generator impedance ZG and increases at high frequencies
+as shown in Figure 5.11(B). Toward low frequencies, F in-
+creases again due to ﬂicker noise. For Si and SiGe bipolar
+transistors, typical values of the corner frequency ffn are in
+the order of 1 to 10 kHz, which is much lower than in MOS
+transistors, for example. Of particular interest for circuit ap-
+plications is the minimum noise factor Fmin at high frequen-
+cies, which is obtained by determining the minimum of F with
+respect to real and imaginary parts of ZG. At high frequencies,
+Fmin can be expressed analytically as a function of dc bias,
+transistor parameters, and frequency dependent y-parameters
+(Voinigescu et al., 1997); a reasonable simpliﬁcation is as
+follows:

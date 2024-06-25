@@ -1,0 +1,5 @@
+Digital Tachometer
+Another example of using a microprocessor for data collection is the implementation of a digital tachometer
+[Bonert, 1989]. The microprocessor samples the output of a shaft  encoder and compares it with a reference
+signal  to  determine  the  rotational  speed.  The  calculated  value  is  passed  to  a  digital-to-analog  converter  to
+generate an analog speed signal. The system is shown in Fig. 82.2.

@@ -1,0 +1,11 @@
+This chapter is online learning conﬁguration introduced in
+the previous subsections involves two major components in the
+learning system: the action network and the critic network.
+The following devises learning algorithms and elaborates how
+learning takes place in each of the two modules. In the discus-
+sion is NDP design, both the action network and the critic
+network are nonlinear multilayer feed-forward networks. In
+these designs, one hidden layer is used in each network. The
+neural network structure for the nonlinear, multilayer critic
+network is shown in Figure 13.2. In the critic network, the
+output J (t ) will be of the form:

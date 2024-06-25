@@ -1,0 +1,6 @@
+What is the value of y (−1)? Because we have used an input that is zero for all negative indices, it
+is reasonable to assume that the output is also zero. Certainly, the diﬀerence equation would not
+describe a linear system if the input that is zero for all time did not produce a zero output. With
+this assumption, y (−1) = 0, leaving y (0) = b. For n > 0, the input unit-sample is zero, which
+leaves us with the diﬀerence equation y (n) = ay (n − 1) , n > 0. We can envision how the ﬁlter
+responds to this input by making a table.

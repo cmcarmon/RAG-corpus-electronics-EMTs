@@ -1,0 +1,17 @@
+Let us now move to the second method described in this
+chapter and give the theoretical development prior to present-
+ing application results for both methods. As an extension to
+the works described in the previous sections, in this section we
+describe an adaptive DSMC design method for nonlinear
+systems having an input/output form. Explicit knowledge of
+the system dynamics is not required; instead, feed-forward
+neural networks are applied to approximate the unknown
+part of the system dynamics based on past system outputs
+and control inputs. The sliding surface, deﬁned in terms of a
+stable polynomial of the system tracking error, is used to tune
+the neural network structure online using gradient methods.
+The sliding-mode control law is given based on the approxi-
+mated system dynamics. It can be proved that the state trajec-
+tories will converge to a small sliding sector whose size could
+be as small as desired provided that the structure of the neural
+networks is large enough.

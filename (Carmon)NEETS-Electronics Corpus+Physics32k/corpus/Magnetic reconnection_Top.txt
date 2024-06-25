@@ -1,0 +1,43 @@
+Magnetic reconnection is a physical process in highly conducting plasmas in which the magnetic topology is rearranged and magnetic energy is converted to kinetic energy, thermal energy, and particle acceleration. Magnetic reconnection occurs on timescales intermediate between slow resistive diffusion of the magnetic field and fast Alfvénic timescales.
+The qualitative description of the reconnection process is such that magnetic field lines from different magnetic domains (defined by the field line connectivity) are spliced to one another, changing their patterns of connectivity with respect to the sources. It is a violation of an approximate conservation law in plasma physics, called the Alfvén's Theorem, and can concentrate mechanical or magnetic energy in both space and time. Solar flares, the largest explosions in the Solar System, may involve the reconnection of large systems of magnetic flux on the Sun, releasing, in minutes, energy that has been stored in the magnetic field over a period of hours to days. Magnetic reconnection in Earth's magnetosphere is one of the mechanisms responsible for the aurora, and it is important to the science of controlled nuclear fusion because it is one mechanism preventing magnetic confinement of the fusion fuel.
+In an electrically conductive plasma, magnetic field lines are grouped into 'domains'— bundles of field lines that connect from a particular place to another particular place, and that are topologically distinct from other field lines nearby. This topology is approximately preserved even when the magnetic field itself is strongly distorted by the presence of variable currents or motion of magnetic sources, because effects that might otherwise change the magnetic topology instead induce eddy currents in the plasma; the eddy currents have the effect of canceling out the topological change.
+In two dimensions, the most common type of magnetic reconnection is separator reconnection, in which four separate magnetic domains exchange magnetic field lines. Domains in a magnetic plasma are separated by separatrix surfaces: curved surfaces in space that divide different bundles of flux. Field lines on one side of the separatrix all terminate at a particular magnetic pole, while field lines on the other side all terminate at a different pole of similar sign. Since each field line generally begins at a north magnetic pole and ends at a south magnetic pole, the most general way of dividing simple flux systems involves four domains separated by two separatrices: one separatrix surface divides the flux into two bundles, each of which shares a south pole, and the other separatrix surface divides the flux into two bundles, each of which shares a north pole. The intersection of the separatrices forms a separator, a single line that is at the boundary of the four separate domains. In separator reconnection, field lines enter the separator from two of the domains, and are spliced one to the other, exiting the separator in the other two domains (see the figure).
+According to simple resistive magnetohydrodynamics (MHD) theory, reconnection happens because the plasma's electrical resistivity near the boundary layer opposes the currents necessary to sustain the change in the magnetic field. The need for such a current can be seen from one of Maxwell's equations,
+
+
+
+
+∇
+×
+
+B
+
+=
+μ
+
+J
+
++
+μ
+ϵ
+
+
+
+∂
+
+E
+
+
+
+∂
+t
+
+
+
+.
+
+
+{\displaystyle \nabla \times \mathbf {B} =\mu \mathbf {J} +\mu \epsilon {\frac {\partial \mathbf {E} }{\partial t}}.}
+
+The resistivity of the current layer allows magnetic flux from either side to diffuse through the current layer, cancelling outflux from the other side of the boundary. When this happens, the plasma is pulled out by magnetic tension along the direction of the magnetic field lines. The resulting drop in pressure pulls more plasma and magnetic flux into the central region, yielding a self-sustaining process.
+A current problem in plasma physics is that observed reconnection happens much faster than predicted by MHD in high Lundquist number plasmas: solar flares, for example, proceed 13-14 orders of magnitude faster than a naive calculation would suggest, and several orders of magnitude faster than current theoretical models that include turbulence and kinetic effects. One possible mechanism to explain the discrepancy is that the electromagnetic turbulence in the boundary layer is sufficiently strong to scatter electrons, raising the plasma's local resistivity. This would allow the magnetic flux to diffuse faster.

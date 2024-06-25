@@ -1,0 +1,12 @@
+Multiple signal paths between a pair of registers, Rx and Ry,
+require a more complicated treatment. As speciﬁed before, there
+can be only one edge between the vertices vx and vy in the circuit
+graph. Therefore, a methodology is presented for choosing the
+correct permissible range bounds and direction labeling for this
+single edge. This methodology is illustrated in Figure 4.5 and is a
+two-step process. First, multiple signal paths in the same direc-
+tion from the register Rx to the register Ry are replaced by a
+single edge in the circuit graph according to the transformation
+illustrated in Figure 4.5(A). Next, two-edge cycles between
+Rx and Ry are replaced by a single edge in the circuit graph
+according to the transformation illustrated in Figure 4.5(B).

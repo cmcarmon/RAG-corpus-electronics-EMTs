@@ -1,0 +1,4 @@
+The ﬁrst instruction puts the pointer to the block, which is in A2, on the stack. It ﬁrst must make room, so
+the “–” in –(A7) ﬁrst subtracts 4 from A7 (making room for the longword) and then moves the longword into
+the space pointed to by the now-modiﬁed A7. The one instruction does two things: the decrementing of SP
+and the storing of the longword in memory.

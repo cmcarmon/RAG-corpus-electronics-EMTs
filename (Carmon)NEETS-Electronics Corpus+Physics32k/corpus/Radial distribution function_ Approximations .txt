@@ -1,0 +1,161 @@
+For dilute systems (e.g. gases), the correlations in the positions of the particles that
+
+
+
+g
+(
+r
+)
+
+
+{\displaystyle g(r)}
+accounts for are only due to the potential
+
+
+
+u
+(
+r
+)
+
+
+{\displaystyle u(r)}
+engendered by the reference particle, neglecting indirect effects. In the first approximation, it is thus simply given by the Boltzmann distribution law:
+
+If
+
+
+
+u
+(
+r
+)
+
+
+{\displaystyle u(r)}
+were zero for all
+
+
+
+r
+
+
+{\displaystyle r}
+– i.e., if the particles did not exert any influence on each other, then
+
+
+
+g
+(
+r
+)
+=
+1
+
+
+{\displaystyle g(r)=1}
+for all
+
+
+
+
+
+r
+
+
+
+
+{\displaystyle {\mathbf {r}}}
+and the mean local density would be equal to the mean density
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+: the presence of a particle at O would not influence the particle distribution around it and the gas would be ideal. For distances
+
+
+
+r
+
+
+{\displaystyle r}
+such that
+
+
+
+u
+(
+r
+)
+
+
+{\displaystyle u(r)}
+is significant, the mean local density will differ from the mean density
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+, depending on the sign of
+
+
+
+u
+(
+r
+)
+
+
+{\displaystyle u(r)}
+(higher for negative interaction energy and lower for positive
+
+
+
+u
+(
+r
+)
+
+
+{\displaystyle u(r)}
+).
+As the density of the gas increases, the low-density limit becomes less and less accurate since a particle situated in
+
+
+
+
+r
+
+
+
+{\displaystyle \mathbf {r} }
+experiences not only the interaction with the particle in O but also with the other neighbours, themselves influenced by the reference particle. This mediated interaction increases with the density, since there are more neighbours to interact with: it makes physical sense to write a density expansion of
+
+
+
+g
+(
+r
+)
+
+
+{\displaystyle g(r)}
+, which resembles the virial equation:
+
+This similarity is not accidental; indeed, substituting (12) in the relations above for the thermodynamic parameters (Equations 7, 9 and 10) yields the corresponding virial expansions. The auxiliary function
+
+
+
+y
+(
+r
+)
+
+
+{\displaystyle y(r)}
+is known as the cavity distribution function.

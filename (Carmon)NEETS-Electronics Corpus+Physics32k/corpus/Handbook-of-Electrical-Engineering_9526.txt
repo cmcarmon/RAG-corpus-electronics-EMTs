@@ -1,0 +1,5 @@
+Transactions and Data Integrity
+In a multiuser DBMS, the database is a shared resource that can be accessed concurrently by many users. A transaction
+usually refers to the execution of a retrieval or an update program. A transaction performs a single logical operation
+in a database application. Therefore, it is an atomic unit of processing. That is, a transaction is either performed in
+its entirety or is not performed at all. Basically, a transaction may be in one of the following states (Fig. 94.11):

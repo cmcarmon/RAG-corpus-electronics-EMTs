@@ -1,0 +1,5 @@
+Equation-ordering schemes augment equation formulation schemes by reorganizing, modifying, and scaling
+the  equations  to  improve  the  efﬁciency  and/or  accuracy  of  the  subsequent  equation  solution  scheme.  More
+speciﬁcally, equation-ordering schemes seek to improve the “diagonal dominance” structure of the coefﬁcient
+matrix by maximizing the number of “off-diagonal” zeros. Popular equation-ordering schemes include pivoting
+and row ordering (Markowitz) [Zlatev, 1980].

@@ -1,0 +1,7 @@
+The selection of the quotient digit is done by satisfying that 0 £  Z < X at each step in the division process.
+This  selection  is  a  crucial  part  of  the  algorithm,  and  the  best  known  are  restoring  and  nonrestoring division
+algorithms. In the former the value of the tentative partial remainder  z(j) is restored after the wrong guess is
+made of the quotient digit qj . In the latter this correction is not done in a separate step, but rather in the step
+following.  The  best-known  division  algorithm  is  the  so-called  SRT  algorithm  independently  developed  by
+Sweeney, Robertson, and Tocher. Algorithms for a higher radix were further developed by Robertson and his
+students, most notably Ercegovac.

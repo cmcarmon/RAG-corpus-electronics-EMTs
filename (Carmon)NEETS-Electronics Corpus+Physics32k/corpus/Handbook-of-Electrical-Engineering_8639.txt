@@ -1,0 +1,3 @@
+Should you wonder how the address of NumberCount gets in there, the linker, which assigns each section of
+code to its proper place in memory and therefore knows where all the labels are, will insert the proper address
+in place of the name.

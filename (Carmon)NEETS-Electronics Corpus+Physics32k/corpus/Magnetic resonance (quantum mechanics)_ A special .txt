@@ -1,0 +1,493 @@
+A special case occurs where a system oscillates between two unstable levels that have the same life time
+
+
+
+τ
+
+
+{\displaystyle \tau }
+. If atoms are excited at a constant, say n/time, to the first state, some decay and the rest have a probability
+
+
+
+
+P
+
+12
+
+
+
+
+{\displaystyle P_{12}}
+to transition to the second state, so in the time interval between t and (t+dt) the number of atoms that jump to the second state from the first is
+
+
+
+n
+(
+1
+−
+
+e
+
+−
+t
+
+/
+
+τ
+
+
+)
+
+P
+
+12
+
+
+d
+t
+
+
+{\displaystyle n(1-e^{-t/\tau })P_{12}dt}
+, so at time t the number of atoms in the second state is
+
+
+
+
+
+d
+N
+=
+n
+.
+
+e
+
+−
+t
+
+/
+
+τ
+
+
+.
+(
+1
+−
+
+e
+
+−
+t
+
+/
+
+τ
+
+
+)
+
+P
+
+12
+
+
+d
+t
+
+
+{\displaystyle dN=n.e^{-t/\tau }.(1-e^{-t/\tau })P_{12}dt}
+
+=
+
+
+
+n
+.
+
+e
+
+−
+t
+
+/
+
+τ
+
+
+.
+
+P
+
+12
+
+
+d
+t
+
+
+{\displaystyle n.e^{-t/\tau }.P_{12}dt}
+
+
+The rate of decay from state two depends on the number of atoms that were collected in that state from all previous intervals, so the number of atoms in state 2 is
+
+
+
+
+∫
+
+−
+∞
+
+
+0
+
+
+n
+
+e
+
+−
+t
+
+/
+
+τ
+
+
+
+P
+
+12
+
+
+
+d
+t
+
+
+{\displaystyle \int _{-\infty }^{0}ne^{-t/\tau }P_{12}\ dt}
+; The rate of decay of atoms from state two is proportional to the number of atoms present in that state, while the constant of proportionality is decay constant
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+. Performing the integration rate of decay of atoms from state two is obtained as:
+
+
+
+
+
+(
+n
+
+/
+
+2
+)
+
+ω
+
+2
+
+
+
+/
+
+(
+δ
+
+ω
+
+2
+
+
++
+
+ω
+
+1
+
+
+2
+
+
++
+1
+
+/
+
+
+τ
+
+2
+
+
+)
+
+
+{\displaystyle (n/2)\omega ^{2}/(\delta \omega ^{2}+\omega _{1}^{2}+1/\tau ^{2})}
+
+
+From this expression many interesting points can be exploited, such
+Varying uniform magnetic field
+
+
+
+
+B
+
+0
+
+
+
+
+{\displaystyle B_{0}}
+so that
+
+
+
+
+ω
+
+0
+
+
+
+
+{\displaystyle \omega _{0}}
+in
+
+
+
+δ
+ω
+
+
+{\displaystyle \delta \omega }
+produces a Lorentz curve (see Cauchy–Lorentz distribution), detecting the peak of that curve, the abscissa of it gives
+
+
+
+
+ω
+
+0
+
+
+
+
+{\displaystyle \omega _{0}}
+, so now
+
+
+
+ω
+
+
+{\displaystyle \omega }
+(angular frequency of rotation of
+
+
+
+
+
+
+B
+
+
+
+1
+
+
+
+
+{\displaystyle {\mathbf {B} }_{1}}
+=
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+
+
+
+
+(
+
+B
+
+0
+
+
+
+)
+
+m
+a
+x
+
+
+
+
+{\displaystyle (B_{0})_{max}}
+, so from the known value of
+
+
+
+ω
+
+
+{\displaystyle \omega }
+and
+
+
+
+(
+
+B
+
+0
+
+
+
+)
+
+m
+a
+x
+
+
+
+
+{\displaystyle (B_{0})_{max}}
+, the gyromagnetic ratio
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+of the dipole can be measured; by this method we can measure Nuclear spin where all electronic spins are balanced. Correct measurement of nuclear magnetic moment helps to understand the character of nuclear force.
+If
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+is known, by varying
+
+
+
+ω
+
+
+{\displaystyle \omega }
+, the value of
+
+
+
+
+B
+
+0
+
+
+
+
+{\displaystyle B_{0}}
+can be obtained. This measurement technique is precise enough for use in sensitive magnetometers. Using this technique, the value of magnetic field acting at a particular lattice site by its environment inside a crystal can be obtained.
+By measuring half-width of the curve, d=
+
+
+
+
+
+
+ω
+
+1
+
+
+2
+
+
++
+1
+
+/
+
+
+τ
+
+2
+
+
+
+
+
+
+{\displaystyle {\sqrt {\omega _{1}^{2}+1/\tau ^{2}}}}
+, for several values of
+
+
+
+
+ω
+
+1
+
+
+
+
+{\displaystyle \omega _{1}}
+(i.e. of
+
+
+
+
+B
+
+1
+
+
+
+
+{\displaystyle B_{1}}
+), we can plot d vs
+
+
+
+
+ω
+
+1
+
+
+
+
+{\displaystyle \omega _{1}}
+, and by extrapolating this line for
+
+
+
+
+ω
+
+1
+
+
+
+
+{\displaystyle \omega _{1}}
+, the lifetime of unstable states can be obtained from the intercept.

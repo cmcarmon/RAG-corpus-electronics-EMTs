@@ -1,0 +1,4 @@
+The callee is obliged to put the answer back where the caller expects to ﬁnd it. Two paradigms for return
+are common. The one that our compiler uses is to put the answer in D0. The other common paradigm is to
+put the answer back on the stack. The user will have left enough room for that answer at FP+8, whether or
+not that space was also used for transferring parameters in. Using our paradigm, the return becomes:

@@ -1,0 +1,6 @@
+The typical FMI approach is described in the following stages:
+a modelling environment describes a product sub-system by differential, algebraic and discrete equations with time, state and step-events. These models can be large for usage in off-line or on-line simulation or can be used in embedded control systems;
+as an alternative, an engineering tool defines the controller code for controlling a vehicle system;
+such tools generate and export the component in an FMU (Functional Mock-up Unit);
+an FMU can then be imported in another environment to be executed;
+several FMUs can – by this way – cooperate at runtime through a co-simulation environment, thanks to the FMI definitions of their interfaces.

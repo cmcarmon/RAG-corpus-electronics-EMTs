@@ -1,0 +1,19 @@
+loop 2. Both bridges are excited by a common 10-kHz source. The 10-kHz amplifier-oscillator supplies 
+10-kHz power to bias the thermistor in feedback loop 1 to produce the resistance required to balance the 
+rf bridge. An equal amount of 10-kHz power is supplied by the same oscillator to the second thermistor in 
+feedback loop 2 through two series-connected transformers. Feedback loop 2 balances the meter bridge. 
+When rf is applied to the thermistor in the detection bridge (but not to the compensation and metering 
+bridge), an amount of 10-kHz power is present, equal to the rf power being removed from the detection 
+bridge by the self-balancing action of the bridge. Since the rf power replaced the 10-kHz power, the 
+detection bridge is in balance; however, the metering bridge must be balanced by its separate feedback 
+loop. Sufficient dc power to equal the 10-kHz power lost by the metering bridge is automatically 
+replaced, balancing this loop. Hence the dc power applied to the metering bridge thermistor is equal to the 
+microwave power applied to the detection bridge. The meter circuit senses the magnitude of the feedback 
+current. The resultant meter current passes through a differential amplifier to the indicating meter. The 
+two thermistors are matched with respect to their temperature characteristics; therefore, there is only a 
+very small amount of drift of the zero point with ambient temperature changes. When there is a change in 
+temperature, there is a change in the electrical power needed by the thermistors to maintain constant 
+operating resistances. This change is automatically performed by feedback loop 1, which changes the 
+amount of 10-kHz power for both thermistors by the proper amount. The dc power in feedback loop 2 is 
+not changed; and since it is this dc power that is metered, the temperature change has not affected the 
+meter indication. 

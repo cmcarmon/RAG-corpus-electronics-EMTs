@@ -1,0 +1,11 @@
+Because the images are redundant, the values of c(m, n) tend to
+be small. This is illustrated in Figure 4.18, where we can see the
+histograms of the image LENA [see Figure 4.6(A)] and the
+histogram of the coefﬁcients generated according to equation
+4.36. One can see that the histogram of the original image in
+Figure 4.18(A) has nothing special about it; it has a more or less
+random shape. On the other hand, one can see that the histo-
+gram of the coefﬁcients c(m, n) has a well-deﬁned shape,
+tending to a Laplacian distribution. One can also see that indeed
+the small differences c(m, n) are much more likely than the
+smaller differences, conﬁrming the redundancy of the LENA

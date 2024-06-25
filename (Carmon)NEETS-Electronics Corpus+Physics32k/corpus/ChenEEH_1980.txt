@@ -1,0 +1,6 @@
+Improvements have been proposed to reduce the hardware
+complexity of the WD: justifying signatures or using the em-
+bedded signature for the computation of the concurrent one.
+These were proposed to make the concurrent computed signa-
+ture all zeros at the end of a node; thus, a simple gate instead of
+the comparator can be used for the checking.

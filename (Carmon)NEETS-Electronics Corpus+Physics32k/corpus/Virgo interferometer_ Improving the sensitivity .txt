@@ -1,0 +1,71 @@
+Using an interferometer rather than a single optical cavity allows one to enhance significantly the sensitivity of the detector to gravitational waves. Indeed, in this configuration based on an interference measurement, the contributions from some experimental noises are strongly reduced: instead of being proportional to the length of the single cavity, they depend in that case on the length difference between the arms (so equal arm length cancels the noise). In addition, the interferometer configuration benefits from the differential effect induced by a gravitational wave in the plane transverse to its direction of propagation: when the length of an optical path
+
+
+
+L
+
+
+{\displaystyle L}
+changes by a quantity
+
+
+
+δ
+L
+
+
+{\displaystyle \delta L}
+, the perpendicular optical path of same length changes by
+
+
+
+−
+δ
+L
+
+
+{\displaystyle -\delta L}
+(same magnitude but opposite sign). And the interference at the output port of a Michelson interferometer depends on the difference of length between the two arms: the measured effect is hence amplified by a factor 2 with respect to a simple cavity.
+Then, one has to "freeze" the various mirrors of the interferometer: when they move, the optical cavity length changes and so does the interference signal read at the instrument output port. The mirror positions relative to a reference and their alignment are monitored accurately in real time with a precision better than the tenth of a nanometre for the lengths; at the level of a few nanoradians for the angles. The more sensitive the detector, the narrower its optimal working point.
+Reaching that working point from an initial configuration in which the various mirrors are moving freely is a control system challenge. In a first step, each mirror is controlled locally to damp its residual motion; then, an automated sequence of steps, usually long and complex, allows one to make the transition between a series of independent local controls to a unique global control steering the interferometer as a whole. Once this working point is reached, it is simpler to keep it as error signals read in real time provide a measurement of the deviation between the actual state of the interferometer and its optimal condition. From the measured differences, mechanical corrections are applied on the various mirrors to bring the system closer to its best working point.
+The optimal working point of an interferometric detector of gravitational waves is slightly detuned from the "dark fringe", a configuration in which the two laser beams recombined on the beam splitter interfere in a destructive way: almost no light is detected at the output port. Calculations show that the detector sensitivity scales as
+
+
+
+
+
+1
+
+L
+×
+
+
+P
+
+
+
+
+
+
+
+{\displaystyle {\frac {1}{L\times {\sqrt {P}}}}}
+, where
+
+
+
+L
+
+
+{\displaystyle L}
+is the arm cavity length and
+
+
+
+P
+
+
+{\displaystyle P}
+the laser power on the beam splitter. To improve it, these two quantities must be increased.
+The arms of the Virgo detector are thus 3-km long.
+To increase even more (by a factor 50) the length of the laser optical paths, highly reflecting mirrors are installed at the entry of the kilometric arms to create Fabry-Perot cavities.
+Finally, as the interferometer is tuned on the dark fringe and that the mirrors located at the end of the arms are highly reflecting as well, almost all the laser power is sent back to the laser source from the beam splitter. Therefore, an additional highly reflecting mirror is located in this area to recycle the light and store it inside the instrument.

@@ -1,0 +1,3 @@
+The axis–angle representation is convenient when dealing with rigid body dynamics. It is useful to both characterize rotations, and also for converting between different representations of rigid body motion, such as homogeneous transformations and twists.
+When a rigid body rotates around a fixed axis, its axis–angle data are a constant rotation axis and the rotation angle continuously dependent on time.
+Plugging the three eigenvalues 1 and e±iθ and their associated three orthogonal axes in a Cartesian representation into Mercer's theorem is a convenient construction of the Cartesian representation of the Rotation Matrix in three dimensions.

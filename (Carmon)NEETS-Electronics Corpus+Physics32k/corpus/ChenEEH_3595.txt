@@ -1,0 +1,15 @@
+A ﬁlter with the transfer functions in equation 2.18 will
+always be stable because it does not have poles outside the
+unit circle. FIR ﬁlters can be designed to have a linear phase. A
+linear phase is a desirable feature in a number of signal pro-
+cessing applications (e.g., image processing). FIR ﬁlters can be
+designed by using optimization packages or by using approxi-
+mations based on different types of windows. The main draw-
+back is that to satisfy demanding magnitude speciﬁcations, the
+FIR ﬁlter requires a relatively high number of multiplications,
+additions, and storage elements. These facts make FIR ﬁlters
+potentially more expensive than IIR ﬁlters in applications
+where the number of arithmetic operations or number of
+storage elements are expensive or limited. However, FIR ﬁlters
+are widely used because they are suitable for designing linear-
+phase ﬁlters.

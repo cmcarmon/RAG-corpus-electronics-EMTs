@@ -1,0 +1,8 @@
+Let us first analyze the circuit qualitatively. Consider the case where vIN1 has
+been high for a long period of time and focus on the part of the circuit bounded
+by the dashed box in the Figure 10.19, which includes the load resistor and
+RON of inverter A and the gate-to-source capacitor of inverter B. Since the
+circuit is in its steady state, the capacitor behaves as an open circuit, and so the
+voltage across the capacitor will be established by the voltage-divider subcircuit
+comprising the supply VS, and the resistors RL and RON. Assuming RL (cid:5) RON,
+the capacitor voltage will have a low value (close to 0 volts).

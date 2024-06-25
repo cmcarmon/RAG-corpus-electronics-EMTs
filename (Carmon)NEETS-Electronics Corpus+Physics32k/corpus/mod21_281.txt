@@ -1,0 +1,11 @@
+Testing components by comparison is the most preferred method for troubleshooting. The ALT
+(alternate) mode setup is the most commonly used mode for this method. This mode allows the technician
+to compare a known good component to a suspect component. This is accomplished by connecting
+channel A to a known good device, channel B to the device under test, and a common test lead to COM as
+illustrated in figure 2-34. Select the ALT button, and the 2000 will alternately display the signature of the
+known good device and the device under test. By examining the signature differences, you can detect a
+defective component. Figure 2-35 is a typical example of the CRT display on the 2000 while testing the
+base to emitter on a good transistor. Figure 2-36 illustrates a defective transistor under the same test setup.
+Note that in the low range, the transistor appears to be good. Sometimes component defects are more
+obvious in one range than another, so is a suspect device appears normal for one range, try the other
+ranges.

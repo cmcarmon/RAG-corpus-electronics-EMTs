@@ -1,0 +1,19 @@
+window
+operations
+. A window operation performed on an image is nothing more than the process of examining the
+pixels in a certain region of the image, called the window region, and computing some type of mathematical
+function derived from the pixels in the window. In most cases the windows are square or rectangle, although
+other shapes have been used. After the operation is performed, the result of the computation is placed in the
+3 pixel window has been extracted from the image. The values of the
+center pixel of the window where a 3 
+, are used to compute a new pixel value which replaces the value of
+a
+pixels in the window, labeled 
+9
+a
+,  and  the  window  is  moved  to  a  new  center  location  until  all  the  pixels  in  the  original  image  have  been
+5
+processed. As an example of a window operation, suppose we computed the average value of the pixels in the
+ and will tend to reduce noise in the image, but unfortunately
+window. This operation is known as 
+it will also tend to blur edge structures in the image.

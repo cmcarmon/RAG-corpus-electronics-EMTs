@@ -1,0 +1,6 @@
+With the switch in the discharge position, the battery is replaced by a wire 
+(or, rather, two jumper wires and an internal connection in the breadboard, 
+which together are the equivalent of a single wire connection). The capacitor 
+discharges and current flows through the resistor and LED2, which lights as 
+long as the capacitor is discharging. After the capacitor stops discharging, 
+current stops flowing and LED2 goes out.

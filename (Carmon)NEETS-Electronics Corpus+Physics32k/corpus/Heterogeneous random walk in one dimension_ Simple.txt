@@ -1,0 +1,27 @@
+Known important results in simple systems include:
+In a symmetric Markovian random walk, the Green's function (also termed the PDF of the walker) for occupying state i is a Gaussian in the position and has a variance that scales like the time. This is correct for a system with discrete time and space, yet also in a system with continuous time and space. This results is for systems without bounds.
+When there is a simple bias in the system (i.e. a constant force is applied on the system in a particular direction), the average distance of the random walker from its starting position is linear with time.
+When trying reaching a distance L from the starting position in a finite interval of length L, the time
+
+
+
+τ
+
+
+{\displaystyle \tau }
+for reaching this distance is exponential with the length L:
+
+
+
+τ
+=
+
+e
+
+L
+
+
+
+
+{\displaystyle \tau =e^{L}}
+. Here, the diffusion is against a linear potential.

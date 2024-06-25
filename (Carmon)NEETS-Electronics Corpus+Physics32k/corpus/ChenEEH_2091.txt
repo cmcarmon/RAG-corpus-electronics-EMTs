@@ -1,0 +1,21 @@
+. NG ¼ (P, T , F) is a net graph. P and T are ﬁnite sets of
+places and transitions such that P \ T ¼ . Elements in
+P are represented by solid and dotted circles. Similarly,
+elements in T are represented by solid and dotted boxes.
+Solid circles or boxes are elementary nodes, and dotted
+circles and boxes are super nodes. In particular, we iden-
+tify two subsets IN  P [ T and OUT  P [ T such that
+IN contains the heads of all incoming nonterminating
+arcs (an arc inside a super node is a nonterminating arc if
+one of its ends is connected to the boundary of the super
+node) and OUT contains the tails of all outgoing non-
+terminating arcs. Nodes in IN [ OUT are called interface
+nodes. We use IN to denote the set of the presets of all
+elements in IN (i.e., IN ¼ { njn 2 IN}), and OUT to
+denote the set of the postsets of all elements in OUT. F is
+the set of arcs and is called the ﬂow relation, satisfying
+the conditions: P \ F ¼ , F \ T ¼ , and F  ( IN 
+IN [ P  T [ T  P [ OUT  OUT). An arc f can be
+uniquely identiﬁed by a pair of nodes (n1, n2) denoting
+its source and sink, in which n1(n2) may denote the preset
+(postset) of n2(n1) when f is a nonterminating arc.

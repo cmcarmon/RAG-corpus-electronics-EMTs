@@ -1,0 +1,33 @@
+and 240–250% in zone 3. This protection is selected by locat-
+ing a relay at a given line terminal and determining the length
+corresponding to the relay coverage as a percentage of the line
+length between the relay terminal and adjacent relay terminals.
+When doing this, the selected direction is down the transmis-
+sion line starting from the terminal where the relay is located.
+The length of the transmission line originating from the loca-
+tion of the relay and ending at the next terminal is assumed to
+be 100%. The meaning of 120% is that the entire transmission
+line is covered as well as the additional 20% of the line origi-
+nating from the adjacent terminal. The times of operation
+associated with zones are different: zone 1 operation is instan-
+taneous, zone 2 is delayed to allow zone 1 relays to operate
+ﬁrst, and zone 3 times allow the corresponding relays closer to
+the fault to operate ﬁrst in either the zone 1 or zone 2. With
+this time-step approach selected for different zones of protec-
+tion, the relays closest to the fault are allowed to operate ﬁrst. If
+they fail to operate, the relays located at the remote terminals,
+that ‘‘see’’ the same fault in zone 2, will still disconnect the
+failed component. If zone 2 relay operation fails, relays located
+further away from the faulted line will operate next with the
+zone 3 settings. The advantage of this approach is a redundant
+coverage of each line section. They are also covered with
+multiple relay zones of the relay located on the adjacent lines,
+ensuring that
+the faulted component will be eventually
+removed even if the relay closest to the fault fails. The disad-
+vantage is that each time a backup relay operates, a larger
+section of the system is removed from service because the
+relays operating in zone 2 (sometimes) or zone 3 (always) are
+connected to the circuit breakers that are remote from the ends
+of the transmission line experiencing the fault. In addition, the
+time to remove faulted sections from service increases as the

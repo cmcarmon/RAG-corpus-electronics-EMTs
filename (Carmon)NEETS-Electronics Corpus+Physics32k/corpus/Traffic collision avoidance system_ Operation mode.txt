@@ -1,0 +1,10 @@
+TCAS II can be currently operated in the following modes:
+Stand-by
+Power is applied to the TCAS Processor and the mode S transponder, but TCAS does not issue any interrogations and the transponder will reply to only discrete interrogations.
+Transponder
+The mode S transponder is fully operational and will reply to all appropriate ground and TCAS interrogations. TCAS remains in stand-by.
+Traffic advisories only
+The mode S transponder is fully operational. TCAS will operate normally and issue the appropriate interrogations and perform all tracking functions. However, TCAS will only issue traffic advisories (TA), and the resolution advisories (RA) will be inhibited.
+Automatic (traffic/resolution advisories)
+The mode S transponder is fully operational. TCAS will operate normally and issue the appropriate interrogations and perform all tracking functions. TCAS will issue traffic advisories (TA) and resolution advisories (RA), when appropriate.
+TCAS works in a coordinated manner, so when an RA is issued to conflicting aircraft, a required action (i.e., Climb. Climb.) has to be immediately performed by one of the aircraft, while the other one receives a similar RA in the opposite direction (i.e., Descend. Descend.).

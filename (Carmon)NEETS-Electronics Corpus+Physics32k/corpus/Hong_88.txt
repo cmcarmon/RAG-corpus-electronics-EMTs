@@ -1,0 +1,8 @@
+In circuits involving discrete transistors, BJTs are often used as a switch to turn 
+on  and  off  currents  to  components  such  as  LED’s.  Figure  ###  shows  four  such 
+configurations  where  NPN  and  PNP  transistors  are  used  to  switch  on  and  off  loads 
+connected to a 5V power supply. In each configuration, the input signal is connected to 
+the base via the current-limiting resistor (Rb). Since the base-emitter junction behaves as a 
+diode,  the  voltage  across  the  base-emitter  junction  is  effectively  held  at  0.7V.  The 
+function  of  Rb  is  to  limit  the  amount  of  current  between  base  and  emitter  to  prevent 
+burning out the transistor. Typically, values ranging from 500 Ω to 50kΩ are acceptable. 

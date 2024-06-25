@@ -1,0 +1,5 @@
+Lumped RC Model: If the rise/fall times of the signal are substantially greater than the round-trip propagation
+delay  of  the  signal,  then  the  voltage  and  current  are  approximately  constant  across  the  length  of  the
+interconnection.  The  interconnection  is  modeled  as  a  single  lumped  resistance  and  a  single  lumped
+capacitance. The signal does not incur a propagation delay, and at all points along the line the signal
+has the same rise/fall times.

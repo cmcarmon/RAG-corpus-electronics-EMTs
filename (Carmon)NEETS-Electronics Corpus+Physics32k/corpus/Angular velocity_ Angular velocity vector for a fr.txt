@@ -1,0 +1,38 @@
+Given a rotating frame composed by three unitary vectors, all the three must have the same angular speed in any instant. In such a frame, each vector is a particular case of the previous case (moving particle), in which the module of the vector is constant.
+Though it just a particular case of a moving particle, this is a very important one for its relationship with the rigid body study, and special tools have been developed for this case. There are two possible ways to describe the angular velocity of a rotating frame: the angular velocity vector and the angular velocity tensor. Both entities are related and they can be calculated from each other.
+In a consistent way with the general definition, the angular velocity of a frame is defined as the angular velocity of each of the three vectors of the frame (it will be the same for any of them). The addition of angular velocity vectors for frames is also defined by movement composition, and can be useful to decompose the movement as in a gimbal. Components of the vector can be calculated as derivatives of the parameters defining the moving frames (Euler angles or rotation matrices). As in the general case, addition is commutative:
+
+
+
+
+ω
+
+1
+
+
++
+
+ω
+
+2
+
+
+=
+
+ω
+
+2
+
+
++
+
+ω
+
+1
+
+
+
+
+{\displaystyle \omega _{1}+\omega _{2}=\omega _{2}+\omega _{1}}
+
+It is known by Euler's rotation theorem that, for any rotating frame, there always exists an instantaneous axis of rotation in any instant. In the case of a frame, the angular velocity vector is over the instantaneous axis of rotation. Any transversal section of a plane perpendicular to this axis has to behave as a two dimensional rotation. Thus, the magnitude of the angular velocity vector at a given time t is consistent with the two dimensions case.

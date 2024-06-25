@@ -1,0 +1,6 @@
+Thermal noise is the same in a 1000-W carbon resistor as it is in a 1000-W tantalum thin-ﬁlm resistor [see Ott,
+1988]. While the intrinsic noise may never be less, it may be higher because of other superimposed noise (described
+in later sections). We model the thermal noise in a resistor by an internal source (generator), as shown in Fig. 73.6.
+Capacitance  cannot  be  ignored  at  high  f,  but  pure  reactance  (C  or  L)  cannot  dissipate  energy,  and  so  cannot
+generate  thermal  noise.  The  white  noise  model W(t)  for  thermal  noise  N(t)  has  a  constant  psdf  SWW(w)  =  no
+W/(rad/s) for –‘ < w < ‘. By Eq. 73.21, the white noise mean power over the frequency bandwidth B is

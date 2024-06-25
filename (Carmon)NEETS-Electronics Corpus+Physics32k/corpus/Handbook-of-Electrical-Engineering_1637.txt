@@ -1,0 +1,11 @@
+Other Parameter Estimation Schemes
+The Bayesian, minimax, and maximum likelihood estimation schemes described above make up the class of
+parametric parameter estimation procedures. The common characteristic of those procedures is the availability
+of some parametrically known stochastic process that generates the observation sequence  xn. When for every
+given parameter value qm the stochastic process that generates xn is nonparametrically described, the nonpara-
+metric estimation schemes arise. The latter schemes may evolve as the solutions of certain saddle-point games,
+whose payoff function originates from the parametric maximum likelihood formalizations. It is assumed that,
+in addition to the nonparametrically described data-generating process, the only assets available are a realization
+xn from the underlying active process and the parameter space  %m. The qualitative robustness in parameter
+estimation  corresponds  to  local  performance  stability  for  small  deviations  from  a  nominal,  parametrically
+known, data-generating process.

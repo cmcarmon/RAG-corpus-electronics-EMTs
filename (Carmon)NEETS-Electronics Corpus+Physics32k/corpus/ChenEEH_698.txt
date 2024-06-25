@@ -1,0 +1,10 @@
+Crucial in our methodology is that the code transformations
+have to be applied globally (i.e., with the entire algorithm as
+scope). This is in contrast with most existing loop transform-
+ation research for which the scope is limited to one procedure
+or even one loop nest. This application can enhance the local-
+ity in that loop nest, but it does not solve the global data ﬂow
+and associated buffer space needed between the loop nests or
+procedures. To allow these global transformations, a step has
+to be taken before the application is partitioned over different
+HW/SW components.

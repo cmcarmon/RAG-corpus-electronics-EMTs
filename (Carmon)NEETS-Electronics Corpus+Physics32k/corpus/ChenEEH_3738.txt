@@ -1,0 +1,14 @@
+The procedure by which a test word is assigned an optimal
+match score with respect to a reference string is straightfor-
+ward. Both the test and reference utterances are reduced to
+strings of features extracted from the acoustic speech wave-
+form. Let us denote the test utterance feature vectors by {ti}I
+i¼1
+and those of the reference utterance by {rj}J
+j¼1, where i and j
+index the frames as we progress in time. The test and reference
+features are (conceptually, at least) laid out on the abscissa and
+ordinate of a grid much like that discussed previously in
+Section 3.3.4. Although the indices i and j denumerate frame
+numbers rather than absolute sample times, it is customary to
+refer to the i and j axes as ‘‘time’’ axes. Costs are assigned to

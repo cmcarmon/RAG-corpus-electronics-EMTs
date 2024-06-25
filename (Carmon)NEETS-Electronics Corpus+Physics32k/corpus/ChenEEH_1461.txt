@@ -1,0 +1,9 @@
+Managing various objects, such as information in disks, dis-
+play monitors, and keyboards,
+is an important operating
+system function. To hide peculiarities of these objects, the
+operating system presents the programmer with a nice, clean
+abstract model of device-independent ﬁles. A ﬁle must be
+opened before it can be read, written, and closed. Therefore,
+system calls are needed to create, remove, open, read, write,
+and close ﬁles.

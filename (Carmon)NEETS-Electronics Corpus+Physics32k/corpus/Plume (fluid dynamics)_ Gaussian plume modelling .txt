@@ -1,0 +1,63 @@
+Gaussian plume models can be used in several fluid dynamics scenarios to calculate concentration distribution of solutes such as a smoke stack release or contaminant released in a river. Gaussian distributions are established by Fickian diffusion, and follow a gaussian (bell-shaped) distribution. For calculating the expected concentration of a one dimensional instantaneous point source we consider a mass M released at an instantaneous point in time, in a one dimensional domain along x. This will give the following equation:
+
+
+
+
+C
+(
+x
+,
+t
+)
+=
+M
+
+/
+
+√
+(
+4
+π
+∗
+D
+∗
+t
+)
+∗
+e
+x
+p
+(
+(
+x
+−
+x
+0
+
+)
+
+2
+
+
+
+/
+
+(
+4
+D
+(
+t
+−
+t
+0
+)
+)
+
+
+{\displaystyle C(x,t)=M/\surd (4\pi *D*t)*exp((x-x0)^{2}/(4D(t-t0))}
+
+where M is the mass released at time t=t0 and location x=x0, and D is the diffusivity [m^2/s]. This equation makes the following four assumptions:
+The mass M is released instantaneously.
+The mass M is released in an infinite domain.
+The mass spreads only through diffusion.
+Diffusion does not vary in space.

@@ -1,0 +1,12 @@
+Now assume that we use a conically scanned beam for target tracking. If the target is on the scan
+axis, the strength of the reflected signals remains constant (or changes gradually as the range changes).
+But if the target is slightly off the axis, the amplitude of the reflected signals will change at the scan rate.
+For example, if the target is to the left of the scan axis, as shown in figure 1-18, the reflected signals will
+be of maximum strength as the lobe sweeps through the left part of its cone; the signals will quickly
+decrease to a minimum as the lobe sweeps through the right part. Information on the instantaneous
+position of the beam, relative to the scan axis, and on the strength of the reflected signals is fed to a
+computer. Such a computer in the radar system is referred to as the angle-tracking or angle-servo circuit
+(also angle-error detector). If the target moves off the scan axis, the computer instantly determines the
+direction and amount of antenna movement required to continue tracking. The computer output is used to
+control servomechanisms that move the antenna. In this way, the target is tracked accurately and
+automatically.

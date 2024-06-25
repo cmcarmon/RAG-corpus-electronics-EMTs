@@ -1,0 +1,18 @@
+The existing net ordering formulations to minimize noise
+are no longer valid with presence of inductive noise, and
+shield insertion is needed to minimize inductive noise (He
+and Lepak, 2000). He and Lepak (2000) formulate two simul-
+taneous shield insertion and net ordering (SINO) problems:
+(1) the optimal SINO/NF problem to ﬁnd a min-area SINO
+solution that is free of capacitive and inductive noise and
+(2) the optimal SINO/NB problem to ﬁnd a min-area SINO
+solution that is free of capacitive noise and is under the given
+inductive noise bound. They claimed that this work was the
+ﬁrst presenting an in-depth study on the simultaneous shield
+insertion and net ordering problem to minimize both capaci-
+tive and inductive noises. The drawbacks of this work are the
+consideration for having the same wire lengths and the con-
+sideration that the appropriate sensitivity matrix is given a
+priori. In addition, this matrix required an overhead, and He
+and Lepak (2000) did not mention the complexity or how to
+build this matrix. They developed four approximate algorithms

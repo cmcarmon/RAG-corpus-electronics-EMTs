@@ -1,0 +1,134 @@
+Consider an infinitely long plate which is oscillating with a velocity
+
+
+
+U
+cos
+⁡
+ω
+t
+
+
+{\displaystyle U\cos \omega t}
+in the
+
+
+
+x
+
+
+{\displaystyle x}
+direction, which is located at
+
+
+
+y
+=
+0
+
+
+{\displaystyle y=0}
+in an infinite domain of fluid, where
+
+
+
+ω
+
+
+{\displaystyle \omega }
+is the frequency of the oscillations. The incompressible Navier-Stokes equations reduce to
+
+
+
+
+
+
+
+∂
+u
+
+
+∂
+t
+
+
+
+=
+ν
+
+
+
+
+∂
+
+2
+
+
+u
+
+
+∂
+
+y
+
+2
+
+
+
+
+
+
+
+{\displaystyle {\frac {\partial u}{\partial t}}=\nu {\frac {\partial ^{2}u}{\partial y^{2}}}}
+
+where
+
+
+
+ν
+
+
+{\displaystyle \nu }
+is the kinematic viscosity. The initial and the no-slip condition on the wall are
+
+
+
+
+u
+(
+0
+,
+t
+)
+=
+U
+cos
+⁡
+ω
+t
+,
+
+u
+(
+∞
+,
+t
+)
+=
+0
+,
+
+
+{\displaystyle u(0,t)=U\cos \omega t,\quad u(\infty ,t)=0,}
+
+the second condition is due to the fact that the motion at
+
+
+
+y
+=
+0
+
+
+{\displaystyle y=0}
+is not felt at infinity. The flow is only due to the motion of the plate, there is no imposed pressure gradient.

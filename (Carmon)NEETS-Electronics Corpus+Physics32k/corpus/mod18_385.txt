@@ -1,0 +1,7 @@
+Sensitivity time-control circuits apply a bias voltage that varies with time to the IF amplifiers to
+control receiver gain. Figure 2-29 shows a typical stc waveform in relation to the transmitted pulse. When
+the transmitter fires, the stc circuit decreases the receiver gain to zero to prevent the amplification of any
+leakage energy from the transmitted pulse. At the end of the transmitted pulse, the stc voltage begins to
+rise, gradually increasing the receiver gain to maximum. The stc voltage effect on receiver gain is usually
+limited to approximately 50 miles. This is because close-in targets are most likely to saturate the receiver;
+beyond 50 miles, stc has no affect and the receiver operates normally.

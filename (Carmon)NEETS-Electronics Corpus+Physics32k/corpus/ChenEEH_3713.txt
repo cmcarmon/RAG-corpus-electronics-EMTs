@@ -1,0 +1,10 @@
+In principle, the mel cepstrum represents a set of features
+that are more similar (than those derived uniformly over the
+frequency spectrum) to those used by the human auditory
+system in sound perception. A mel is a unit of measure of
+perceived pitch or frequency of a tone. It does not correspond
+linearly to the physical frequency of the tone because the
+human auditory system does not perceive pitch in this linear
+manner (Stevens and Volkman, 1940; Koenig, 1949). The
+mapping between real frequencies, say FHz, and perceived
+frequency, say Fmel, is approximately (Fant, 1959):

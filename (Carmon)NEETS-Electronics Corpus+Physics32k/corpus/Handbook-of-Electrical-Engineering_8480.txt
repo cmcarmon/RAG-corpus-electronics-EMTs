@@ -1,0 +1,8 @@
+Conditional-Sum Addition
+Another one of the fast schemes for addition of two numbers that predates CLA is conditional-sum addition
+(CSA) proposed by Sklansky [1960] in 1960. The essence of the CSA scheme is the realization that we can add
+two  numbers  without  waiting  for  the  carry  signal  to  be  available.  Simply,  the  number  were  added  in  two
+instances: one assuming Cin = 0 and the other assuming Cin = 1. The results: Sum0, Sum1 and Carry0, Carry1
+are  presented  at  the  input  of  a  multiplexer.  The  ﬁnal  values  are  being  selected  at  the  time  Cin  arrives  at  the
+“select” input of a multiplexer. As in CLA the input bits are divided into groups which are added “conditionally”.
+It  is  apparent  that  starting  from  the  least  signiﬁcant  bit  (LSB)  position  the  hardware  complexity  starts  to

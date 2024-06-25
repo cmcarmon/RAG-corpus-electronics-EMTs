@@ -1,0 +1,17 @@
+Much of current research is focused on automating the opti-
+mal partitioning of large circuits into smaller ones to ﬁt into
+available FPGA resources and the scheduling of the resulting
+components (Purna and Bhatia, 1999; Kaul and Vemuri, 2000;
+Liu and Wong, 1999). Run-time reconﬁguration can then be
+performed to swap between the smaller circuits, thus effec-
+tively implementing the large circuit in an FPGA, which is
+physically smaller than the original circuit. If this goal
+is
+achieved, circuit designers would not need to worry whether
+their design ﬁts in the available chip. Multichip partitioning
+algorithms could be used, however, the partitioning algorithm
+would need to partition the circuit to maximize the overlap
+between multiple partitions. Tools for identifying the reconﬁg-
+urable regions and positioning components (Shirazi, et al.,
+1998a) can then be applied to maximize physical overlap,
+thus reducing partial reconﬁguration time.

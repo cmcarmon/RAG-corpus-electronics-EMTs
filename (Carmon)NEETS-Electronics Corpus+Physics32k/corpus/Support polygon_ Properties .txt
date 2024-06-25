@@ -1,0 +1,12 @@
+Even though the word "polygon" is used to describe this region, in general it can be any convex shape with curved edges. The support polygon is invariant under translations and rotations about the gravity vector (that is, if the contact points and friction cones were translated and rotated about the gravity vector, the support polygon is simply translated and rotated).
+If the friction cones are convex cones (as they typically are), the support polygon is always a convex region. It is also invariant to the mass of the object (provided it is nonzero).
+If all contacts lie on a (not necessarily horizontal) plane, and the friction cones at all contacts contain the negative gravity vector
+
+
+
+−
+G
+
+
+{\displaystyle -G}
+, then the support polygon is the convex hull of the contact points projected onto the horizontal plane.

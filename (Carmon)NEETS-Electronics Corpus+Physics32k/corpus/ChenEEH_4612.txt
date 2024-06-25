@@ -1,0 +1,13 @@
+Thus, the diagnostic result will suggest an unanticipated situ-
+ation. However, after the effect resulting from unexpected
+noises decays, the fault-detection scheme discovers that the
+system behavior is as normal as it is under the nominal
+situation. After double checking that this situation, the fault-
+detection scheme ﬂags a false alarm signal, and the system
+status is switched back to the nominal condition. Figure 8.19
+shows some slight deviations of the system output away from
+the desired trajectory during the periods of noisy data, which is
+apparently caused by the fact that the contaminated measure-
+ments are used directly in the fault-detection scheme and in
+the unanticipated failure conditions as the learning targets for
+failure accommodation.

@@ -1,0 +1,6 @@
+There are circumstances when you may need to analyze a DC reactive circuit when the starting
+values of voltage and current are not respective of a fully ”discharged” state. In other words,
+the capacitor might start at a partially-charged condition instead of starting at zero volts, and
+an inductor might start with some amount of current already through it, instead of zero as we
+have been assuming so far. Take this circuit as an example, starting with the switch open and
+ﬁnishing with the switch in the closed position:

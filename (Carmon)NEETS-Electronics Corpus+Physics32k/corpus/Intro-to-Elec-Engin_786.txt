@@ -1,0 +1,10 @@
+Let one of the emitters, say A, be grounded and therefore let VA be low while VB and VC are high.
+∼= (VCC − 0.7)/R1 will be ﬂowing in
+The situation is then as shown in Figure E9.2.2. There is a current path from VCC down through R1
+and emitter A to ground. With vX = 0.7 V a base current iB1
+transistor T1. Note, however, that iC1 must be ﬂowing out of the base of transistor T2. That being
+the wrong direction for the base current of an npn transistor, it must represent the reverse current
+through one of the junctions in T2. Reverse currents being very small, iB1 >> iC1 /β. Hence T1
+will be saturated, and its collector-to-emitter A voltage will be V CE sat, which is about 0.2 V. Thus,
+the voltage at Y will be about 0.2 V, which is much less than the 1.4 V needed to forward-bias the
+emitter junctions of T2 and T3. Thus T3 is cut off and output Vo at F is high.

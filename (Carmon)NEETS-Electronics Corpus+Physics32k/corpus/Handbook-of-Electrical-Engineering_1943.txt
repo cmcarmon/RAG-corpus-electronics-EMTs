@@ -1,0 +1,15 @@
+Because the unfolding algorithm is based on graph theoretic approach, it can also be applied at the bit level.
+ program with digit
+Thus, unfolding of a 
+  represents  the  number  of  bits  processed  per  clock  cycle.  The  digit-serial  architecture  is
+size 
+clocked at the same rate as the bit-serial (assuming that the clock rate is limited by the communication I/O
+bound  much  before  reaching  the  computation  bound  of  the  bit-serial  program).  Because  the  digit-serial
+J
+ times higher. A
+program processes 
+simple example of this unfolding is illustrated in Fig. 18.4, where the bit-serial adder in Fig. 18.4(a) is unfolded
+by a factor of 2 to obtain the digit-serial adder in Fig. 18.4(b) for digit size 2 for a word length of 4. In obvious
+ways, the unfolding transformation can be applied to both word level and bit level simultaneously to generate
+word-parallel digit-serial architectures. Such architectures process multiple words per clock cycle and process
+a digit of each word (not the entire word).

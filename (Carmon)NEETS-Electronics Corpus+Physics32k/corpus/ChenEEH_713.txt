@@ -1,0 +1,22 @@
+In our application domain, an overall target storage cycle
+budget is typically imposed and corresponds to the overall
+throughput. In addition, other real-time constraints that re-
+strict the ordering freedom can be present. In data transfer and
+storage intensive applications, the memory accesses are often
+the limiting factor to the execution speed, both in custom
+hardware and instruction-set processors (software). Data pro-
+cessing can easily be sped up through pipelining and other
+forms of parallelism. Increasing the memory bandwidth, on
+the other hand, is much more expensive and requires the
+introduction of different hierarchical layers, typically also in-
+volving multiport memories. These memories, however, cause
+a large penalty in area and energy. Because memory accesses
+are so important, it is even possible to make an initial system-
+level performance evaluation based solely on the memory
+accesses to complex data types (Catthoor et al., 1998). Data
+processing is then temporarily ignored except for the fact that
+it introduces dependencies between memory accesses. This
+section focuses on the trade-off between cycle budget distribu-
+tion over different system components and gains in the total
+system energy consumption. Before discussing this topic, a
+number of other issues need to be introduced.

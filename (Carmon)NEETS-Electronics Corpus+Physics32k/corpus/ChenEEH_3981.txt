@@ -1,0 +1,16 @@
+Partitioning
+If the number of processors is limited and much less than the
+number of PEs required for a particular algorithm, the DG
+must be partitioned and mapped to ﬁt that ﬁxed size array.
+Hwang and Hu (1992) have proposed a two-level locally se-
+quential globally parallel (LSGP) scheduling to reduce the
+overall computing time. The DG is ﬁrst partitioned into a set
+of disjoint blocks. Those blocks will be allocated to available
+processors and scheduled with a two-level schedule. The ﬁrst-
+level sequential schedule is obtained from applying permissible
+loop transformations. The second-level parallel schedule is
+formulated as an integer programming problem subject to
+the total computation latency. An interblock schedule is ap-
+plied to determine the relative timing of each block’s compu-
+tation and satisfy the precedence constraints imposed by
+dependence vectors across the block boundaries.

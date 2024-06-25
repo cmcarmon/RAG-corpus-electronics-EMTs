@@ -1,0 +1,12 @@
+Another interesting approach is outlined in Fig. 19.6(b). As in subband coding (discussed earlier), splitting
+the signals x and y into subbands with analysis ﬁlterbanks A, doing the cancellation in bands, and resynthesizing
+the  outgoing  (“error”)  signal  e  through  a  synthesis  ﬁlterbank  S  also  reduces  the  eigenvalue  spread  of  each
+bandpass signal compared to the eigenvalue spread of the fullband signal. This is true for the eigenvalues that
+correspond  to  the “center”  (i.e.,  unattenuated)  portions  of  each  band.  It  turns  out,  however,  that  the  slowly
+converging “transition-band” eigenmodes get attenuated signiﬁcantly by the synthesis ﬁlter S. The main advan-
+tage of the subband approach is the reduction in computational complexity due to the down-sampling of the
+ﬁlterbank signals. The drawback of the subband approach, however, is the introduction of the combined delay
+of A and S. Eliminating the analysis ﬁlterbank on y(t) and moving the synthesis ﬁlterbank into the adaptation
+branch $Y will remove this delay with the result that the canceller will not be able to model the earliest portions
+of  the  echo-path  impulse  response  h(t).  To  alleviate  this  problem,  we  could  add  in  parallel  a  fullband  echo
+canceller with a short ﬁlter. Further information and an extensive bibliography can be found in Haensler [1992].

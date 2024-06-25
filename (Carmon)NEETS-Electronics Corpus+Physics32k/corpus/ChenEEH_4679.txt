@@ -1,0 +1,10 @@
+A 4.6 L Ford V-8 fuel injected engine is used in this work. The
+engine has been removed from the vehicle and mounted on an
+engine test stand. The data is processed using a TMS320C30
+digital signal processing (DSP) system, and two sensors are
+available for engine speed measurements. An optical encoder
+provides an analog pulse every two crankshaft degrees, while a
+ﬂywheel sensor outputs a sinusoidal signal with a peak every
+crankshaft degree. The output of the optical encoder is used as
+a ‘‘clock’’ for the data sampling, and the output of the ﬂywheel
+sensor provides the value of the engine speed.

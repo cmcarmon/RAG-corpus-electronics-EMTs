@@ -1,0 +1,7 @@
+The node-voltage and mesh-current methods, which complement each other, are well-ordered
+systematic methods of analysis for solving complicated network problems. The former is based
+on the KCL equations, whereas the KVL equations form the basis for the latter. In both methods
+an appropriate number of simultaneous algebraic equations are developed. The unknown nodal
+voltages are found in the nodal method, whereas the unknown mesh currents are calculated in the
+loop (or mesh) method. A decision to use one or the other method of analysis is usually based on
+the number of equations needed for each method.

@@ -1,0 +1,23 @@
+A general procedure for the frequency domain identiﬁcation of
+multiple inputs/multiple outputs (MIMO) linear time invari-
+ant systems is illustrated in Figure 6.1. Typically, one starts
+with the experimental frequency response function (FRF) of
+the test system. These FRF data may either be computed from
+the saved input/output measurement data or measured dir-
+ectly online by a spectrum analyzer. Based on these data, the
+matrix fraction (MF) or the polynomial matrix (PM) curve-
+ﬁtting technique is applied to ﬁnd a transfer function matrix
+(TFM) that closely ﬁts into the FRF data. Detailed algorithms
+for the curve-ﬁtting are introduced in Section 6.2. Frequently,
+for the purposes of simulation and control, one needs a state-
+space realization of the system. This may be achieved by
+various linear system realization algorithms. In particular,
+the eigensystem realization algorithm (ERA) is presented in
+Section 6.3 for this purpose, thanks to its many successes in
+previous application studies. The Markov parameters, based
+on the parameters from which the state-space model will be
+derived, can be easily generated from the identiﬁed transfer
+function matrix. Finally, as a measure of performance, the
+model FRF is computed and is compared to the experimental
+FRF. This is illustrated in Section 6.4 by means of two experi-
+mental application examples.

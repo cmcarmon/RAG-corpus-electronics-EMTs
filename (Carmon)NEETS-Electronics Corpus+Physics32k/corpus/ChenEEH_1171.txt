@@ -1,0 +1,6 @@
+Figure 7.4). If the net is a dynamic node, the restoring time
+is inﬁnite, and the node will never recover. It can lead to setup
+violations in downstream latches or ﬂip-ﬂops. In addition,
+when the aggressors are switching in the same direction of
+the victim, the transport delay and slew decreases, leading to
+hold-time violations.

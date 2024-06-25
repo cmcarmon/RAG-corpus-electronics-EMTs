@@ -1,0 +1,5 @@
+MATLAB gives us a number of different options for designing both IIR and FIR digital ﬁlters. We can design
+classical IIR ﬁlters (Butterworth, Chebyshev type I, Chebyshev type II, and elliptic) that are lowpass, highpass,
+bandpass, or bandstop ﬁlters. We can also use other techniques, such as the Yule-Walker technique, to design
+IIR  ﬁlters  with  arbitrary  passbands.  Several  techniques  allow  us  to  design  FIR  ﬁlters  using  windowed  least
+squares techniques. The Parks-McClellan algorithm uses the Remez exchange algorithm to design ﬁlters with

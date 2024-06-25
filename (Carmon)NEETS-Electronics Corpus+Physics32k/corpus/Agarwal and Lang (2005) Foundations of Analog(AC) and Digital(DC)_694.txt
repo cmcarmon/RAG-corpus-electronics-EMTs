@@ -1,0 +1,18 @@
+Two levels of signal precision are sufficient for many applications. As
+one example, logic computations involve signals that commonly take on one
+of two values: TRUE or FALSE. Indeed, most of this chapter (specifically,
+Sections 5.2, 5.3, and 5.5) deals exclusively with signals that can take on one
+of two values. Each of these two-level signals is communicated over a single
+wire. However, there are other applications that require more levels of preci-
+sion. For example, a speech signal processing application might involve speech
+signals with 256 or more levels of precision. One approach to achieving more
+precision is to use coding to create multi-digit numbers. When each digit takes
+on one of two values, the digit is called a binary digit, or bit. Much as the
+familiar decimal system uses multiple digits to represent numbers other than
+0 through 9, the binary system uses multiple bits to represent numbers other
+than 0 or 1. Multi-bit signals are commonly transmitted by allocating multiple
+wires
+one for each bit, or occasionally, by time multiplexing multiple bits
+on a single wire. This approach of representing numbers in the binary system
+is discussed further in Section 5.6. For now, we return to our discussion of the
+two-level representation.

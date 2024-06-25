@@ -1,0 +1,60 @@
+P
+=
+
+
+1
+8.5
+
+
+⋅
+
+airflow
+
+[
+C
+F
+M
+]
+⋅
+
+suction
+
+[
+
+inches of water
+
+]
+
+
+{\displaystyle P={\frac {1}{8.5}}\cdot {\text{airflow}}[CFM]\cdot {\text{suction}}[{\text{inches of water}}]}
+
+CFM is always given statistically at its maximum which is at a 2-inch (51 mm) opening. Waterlift, on the other hand, is always given at its maximum – a 0-inch opening. When waterlift is at a 0-inch opening, then the flow rate is zero – no air is moving, thus the power is also 0 airwatts. So one then needs to analyse the curve created by both flow rate and waterlift as the opening changes from 0 to 2 inches (0 to 51 mm); somewhere along this line the power will attain its maximum.
+If the flow rate were given in litres per second (L/s) instead of cubic metres per second (m3/s), then the pressure would be in kilopascals (kPa). Thus one watt equals one kilopascal times one litre per second:
+
+
+
+1
+
+
+W
+
+=
+1
+
+
+
+
+
+kPa
+
+⋅
+
+L
+
+
+s
+
+
+
+
+{\displaystyle 1~{\text{W}}=1~{\frac {{\text{kPa}}\cdot {\text{L}}}{\text{s}}}}

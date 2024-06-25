@@ -1,0 +1,5 @@
+An outer billiards orbit is the set of all iterations of the point, namely ... x0 <--> x1 <--> x2 <--> x3 ... That is, start at x0 and iteratively apply both the outer billiards map and the backwards outer billiards map. When P is a strictly convex shape, such as an ellipse, every point in the exterior of P has a well defined orbit. When P is a polygon, some points might not have well-defined orbits, on account of the potential ambiguity of choosing the midpoint of the relevant tangent line. Nevertheless, in the polygonal case, almost every point has a well-defined orbit.
+An orbit is called periodic if it eventually repeats.
+An orbit is called aperiodic (or non-periodic) if it is not periodic.
+An orbit is called bounded (or stable) if some bounded region in the plane contains the whole orbit.
+An orbit is called unbounded (or unstable) if it is not bounded.

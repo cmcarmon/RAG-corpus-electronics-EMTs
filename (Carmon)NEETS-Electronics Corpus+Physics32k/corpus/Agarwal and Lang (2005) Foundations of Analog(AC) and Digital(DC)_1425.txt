@@ -1,0 +1,12 @@
+Now that we have included the propagation delay of a device in its abstract
+specification, an additional benefit results: A gate-level circuit will now carry
+information on both its logic function and its speed. A rough estimate of the
+delay from any input to any output of a logic circuit along a path with multiple
+gates can be obtained by summing the propagation delays of each of the gates
+in that path. Thus, for example, if inverters are characterized by a tpd of 1 ns
+and OR gates with a tpd of 2 ns, then in the circuit in Figure 5.16 in Chapter 5,
+the delay from the input A to output C would be 2 ns, while the delay from
+the input B to output C would be 3 ns. If digital circuit designers need more
+accurate timing information for a circuit comprising multiple devices, or if they
+need to derive the tpd of a single device, then they must use the analysis methods
+discussed in the ensuing sections.

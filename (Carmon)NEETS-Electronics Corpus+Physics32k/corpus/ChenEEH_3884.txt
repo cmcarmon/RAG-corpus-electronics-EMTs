@@ -1,0 +1,12 @@
+The following MPEG-21 XML description gives the declar-
+ation for the digital item depicted in Figure 5.3. As shown next,
+the digital item declaration provides a container at the top
+level, which forms the logical package for the digital item. It
+contains a descriptor that holds the XML statement giving an
+MPEG-7 description and an item that contains further de-
+scription and sub-item elements. The description contained
+by the item holds a plain text statement giving a textual
+description of the item. The three sub-items each contain
+one component that gives a media resource. The ﬁrst one
+gives an audio resource (music.mp3); the latter two each give
+an image (photo1.jpg and photo2.jpg).

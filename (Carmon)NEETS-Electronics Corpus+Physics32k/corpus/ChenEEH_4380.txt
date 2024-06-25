@@ -1,0 +1,16 @@
+A mathematical model of the physical process that needs to be
+controlled is needed for control system design and analysis. This
+model could be derived from ﬁrst principles, obtained via system
+identiﬁcation, or created by one engineer and then given to
+another. Regardless of the origin of the model, the control
+engineer needs to completely understand it and its limitations.
+In some processes, it is possible to consider models with a single
+input and output (SISO) for which a vast amount of literature is
+available. In many other cases, it is necessary to consider models
+with multiple inputs and/or outputs (MIMO). This chapter
+presents a selection of modeling, analysis, and design topics for
+multivariable, ﬁnite-dimensional, causal, linear, time-invariant
+systems that generalize the results for SISO systems. The reader is
+encouraged to consult the references at the end of this chapter for
+additional topics in multivariable control systems and for the
+proofs to the lemmas and theorems presented.

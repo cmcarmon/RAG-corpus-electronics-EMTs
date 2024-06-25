@@ -1,0 +1,75 @@
+A flowFET relies on the principal of electro-osmotic flow (EOF). In many liquid-solid interfaces, there is an electrical double layer that develops due to interactions between the two phases. In the case of a microfluidic channel, this results in a charged layer of liquid on the periphery of the fluid column which surrounds the bulk of the liquid. This electric double layer has an associated potential difference known as the zeta potential. When an appropriately-oriented electrical field is applied to this interfacial double layer (i.e. parallel to the channel and in the plane of the electric double layer), the charged liquid ions experience a motive Lorentz force. Since this layer sheaths the fluid column, and since this layer moves, the entire column of liquid will begin to move with a speed
+
+
+
+
+ν
+
+E
+O
+F
+
+
+
+
+{\displaystyle \nu _{EOF}}
+. The velocity of the fluid layer "diffuses" into the bulk of the channel from the periphery towards the centre due to viscous coupling. The speed is related to the strength of the electric field
+
+
+
+E
+
+
+{\displaystyle E}
+, the magnitude of the zeta potential
+
+
+
+ζ
+
+
+{\displaystyle \zeta }
+, the permittivity
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+and the viscosity
+
+
+
+η
+
+
+{\displaystyle \eta }
+of the fluid:
+
+
+
+
+
+ν
+
+E
+O
+F
+
+
+=
+
+
+ϵ
+η
+
+
+ζ
+E
+
+
+{\displaystyle \nu _{EOF}={\epsilon  \over \eta }\zeta E}
+
+In a FlowFET, the zeta potential between the channel walls and the fluid can be altered by applying an electrical field perpendicular to the channel walls. This has the effect of altering the motive force experienced by the mobile liquid atoms in the double layer. This change in the zeta-potential can be used to control both the magnitude and direction of the electro-osmotic flow in the microchannel.
+The controlling voltage need only be in the range of 50 V for a typical microfluidic channel, since this correlates to a gradient of 1.5 MV/cm due to the channel size.

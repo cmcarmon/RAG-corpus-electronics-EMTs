@@ -1,0 +1,8 @@
+Input/Output Ports
+The working registers provided in microprocessors may be thought of as high-speed extensions to the memories
+used for storing programs and data. The random access memories (RAM) themselves are also arrays of registers,
+though the form of circuit used differs considerably from the more conventional register. The need to transfer
+data in and out of the system has led manufacturers to produce special registers which are further extensions
+to the internal memory and are known as input and output ports. One of the simplest of input/output ports
+is the Intel 8212 (Fig. 81.35). This has two modes of operation selected by the mode input, MD. With MD at
+0 the device acts as an input port and a peripheral unit can enter data on the DI lines by sending a high strobe

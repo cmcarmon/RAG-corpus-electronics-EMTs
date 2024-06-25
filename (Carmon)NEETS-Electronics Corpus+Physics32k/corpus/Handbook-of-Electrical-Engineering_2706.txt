@@ -1,0 +1,7 @@
+is minimized. The process of dividing is continued until the number of cells per partition becomes less than a
+certain  small  number.  Iterative  methods  seek  to  improve  an  initial  placement  by  repeatedly  modifying  it.
+Improvement might be made by transforming one cell to a new position or switching positions of two or more
+cells. After a change is made to the current placement conﬁguration based on some cost function, a decision
+is made to see whether to accept the new conﬁguration. This process continues until an optimal (in most cases
+a near optimal) solution is obtained. Often the constructive methods are used to create initial placement on
+which an iterative method subsequently improves.

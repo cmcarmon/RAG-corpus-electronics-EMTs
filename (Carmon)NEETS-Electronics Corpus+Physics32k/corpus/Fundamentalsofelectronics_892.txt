@@ -1,0 +1,9 @@
+Does any error-correcting code reduce communication errors when real-world constraints are taken into
+account? The answer now is yes. To understand channel coding, we need to develop ﬁrst a general framework
+for channel coding, and discover what it takes for a code to be maximally eﬃcient: Correct as many errors
+as possible using the fewest error correction bits as possible (making the eﬃciency K/N as large as possible).
+6.27 Error-Correcting Codes: Hamming Distance35
+So-called linear codes create error-correction bits by combining the data bits linearly. The phrase “linear
+combination” means here single-bit binary arithmetic.
+1 ⊕ 1 = 0
+1 · 1 = 1

@@ -1,0 +1,6 @@
+The type of data structure shown in Figure 4.3 is known as a
+multigraph (West, 1996) since there may be more than one
+edge between a pair of vertices in the graph. To simplify data
+storage and the relevant analysis and optimization procedures,
+this multigraph is reduced to a simple graph (West, 1996)
+model by imposing the following restrictions:5

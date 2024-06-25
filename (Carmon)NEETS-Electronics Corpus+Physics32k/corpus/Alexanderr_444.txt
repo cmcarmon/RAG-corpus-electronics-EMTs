@@ -1,0 +1,10 @@
+enters pin 1, the inductor is rotated three times before it is placed in
+i(t)
+the  circuit.  The  same  applies  for  the  capacitor.  We  insert  pseudo-
+components VIEWPOINT and IPROBE to determine the initial capacitor
+voltage and initial inductor current. We carry out a dc PSpice analysis
+by  selecting  Analysis/Simulate. As  shown  in  Fig.  8.41(a),  we  obtain
+the initial capacitor voltage as 0 V and the initial inductor current 
+i(0)
+as  4 A from  the  dc  analysis.  These  initial  values  will  be  used  in  the
+transient analysis.

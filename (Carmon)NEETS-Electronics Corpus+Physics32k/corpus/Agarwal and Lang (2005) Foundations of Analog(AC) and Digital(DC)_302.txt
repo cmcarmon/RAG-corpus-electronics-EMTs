@@ -1,0 +1,11 @@
+e x a m p l e 2.13 q u i c k
+a
+s i n g l e - r e s i s t o r c i r c u i t This example considers the circuit
+in
+Figure 2.26. Here, the element law for the voltage source directly states that v1 = V.
+Next, the application of KVL around the one loop reveals that v2 = v1 = V. In other
+words, the voltage from the source is applied directly across the resistor. Next, from the
+element law for the resistor, it follows that i2 = v2/R = V/R. Finally, the application of
+KCL to either node yields i1 = −i2 = −V/R to complete the analysis. Notice that we
+had made use of a similar intuitive analysis in solving our battery and lightbulb example
+in Chapter 1.

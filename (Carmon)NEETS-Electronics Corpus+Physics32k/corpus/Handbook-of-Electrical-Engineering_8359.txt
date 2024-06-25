@@ -1,0 +1,15 @@
+The more challenging problem is to generate the test patterns to verify that none of the signal propagations
+along a given logic path require longer than the clock-period time to complete. A path-delay test pattern is a
+pair of patterns that generates the desired signal transition(s) and provides the sensitization of the signal paths
+whereby the generated transition(s) is (are) sensitized through the combinational circuit to the input of a ﬂip-
+ﬂop where it will be captured when the system clock is applied. For example, Fig. 85.24 shows a combinational
+circuit  and  identiﬁes  a  speciﬁc  signal  path  for  which  the  path  delay  is  to  be  measured.  To  determine  the
+appropriate path-delay test patterns, a dummy AND gate is ﬁrst added to the circuit as shown. An input to the
+AND gate is derived from the output of the combinational circuit through which the input signal transition is
+to be propagated. This signal is used in its true or complemented form depending upon whether the ﬁnal value
+of the signal transition is a logic 1 or logic 0, respectively. Other inputs to the dummy AND gate come from
+all  remaining  inputs  of  gates  through  which  the  desired  signal  transitions  must  ﬂow.  If  the  desired  signal
+transition is ﬂowing through an AND or NAND gate, the remaining inputs of these gates are also fed to the
+inputs of the dummy AND gate, whereas if the desired signal transitions ﬂow through OR or NOR gates, their
+remaining inputs are inverted and then connected to the inputs of the dummy AND gate. The dummy AND
+gate  is  not  actually  implemented  as  part  of  the  combinational  logic  but  rather  acts  as  a  convenient  place  to

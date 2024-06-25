@@ -1,0 +1,7 @@
+A temporal predicate transition net (TPrTN) is a tuple
+TN ¼ (NG, Sig, V , H, Type, AN , M0, f ), where N ¼ (NG,
+Sig , V , H , Type, AN , M0) is a PrTN, and f
+is a LTFOTL
+formula that constrains the execution of TN. The semantics
+of TN are deﬁned to be the set of execution sequences
+S ¼ {sjs 2 St1 ^ s[f ]}.

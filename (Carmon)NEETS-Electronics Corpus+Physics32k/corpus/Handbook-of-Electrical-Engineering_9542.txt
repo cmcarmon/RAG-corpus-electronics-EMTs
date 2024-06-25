@@ -1,0 +1,8 @@
+Distributed Databases
+A  distributed  database  [Ozsu  and  Valdurez,  1991]  is  a  collection  of  interrelated  databases  spread  over  the
+nodes of a computer network. The management of the distributed database is the responsibility of a software
+system usually known as distributed DBMS (DDBMS). One of the tasks of the DDBMS is to make the distributed
+nature of the database transparent to the user. A distributed database usually reﬂects the distributed nature of
+some  applications.  For  example,  a  bank  may  have  branches  in  different  cities.  A  database  used  by  such  an
+organization is usually distributed over all these sites. The different sites are connected by a computer network.
+A user may access data stored locally or access data stored at other sites through the network.

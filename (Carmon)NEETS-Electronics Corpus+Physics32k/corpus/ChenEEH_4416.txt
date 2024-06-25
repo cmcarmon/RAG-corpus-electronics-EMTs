@@ -1,0 +1,8 @@
+The linear quadratic Gaussian (LQG) control problem is an
+optimal control problem where a quadratic cost function is
+minimized when the plant has random initial conditions,
+white noise disturbance input, and white measurement noise.
+The typical implementation of the LQR solution requires that
+the plant states be estimated, which can be posed as an LQG
+problem. The plant is described by the following state and
+output equations:

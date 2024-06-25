@@ -1,0 +1,7 @@
+Random-Access Scan. Random-access scan [Ando, 1980] uses a technique akin to addressing locations in a
+memory (e.g., RAM) block in order to make the states of all storage elements controllable and observable from
+primary input/output terminals. Using this approach, each storage element is made individually addressable
+(i.e., accessible) so that in order to control and/or observe the value of an individual storage element it is not
+necessary to shift in/shift out all other storage elements as well. Figure 85.16(a) shows the general model of a
+digital circuit employing the random-access scan approach. A possible gate-level circuit implementation of an
+addressable latch is given in Fig. 85.16(b).

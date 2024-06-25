@@ -1,0 +1,11 @@
+Nonnegative Sequence Approximation
+Two related fundamental problems which arise in various signal processing applications are that of ﬁnding (1)
+a  nonnegative-deﬁnite  sequence  which  lies  closest  to  a  given  sequence,  or  (2)  a  nonnegative-deﬁnite  matrix
+which lies closest to a given matrix. For example, in many commonly employed spectral estimation algorithms,
+estimates of a time series autocorrelation sequence are either explicitly or implicitly computed from a ﬁnite-
+length  sample  of  the  time  series.  It  is  well  known  that  the  autocorrelation  sequence  associated  with  a  wide-
+sense stationary time series has a nonnegative-deﬁnite Fourier transform. However, the process of forming the
+autocorrelation lag estimates from empirical data often results in lag estimates whose Fourier transform can
+be negative. With this application (and others) in mind, we will now brieﬂy explore some basic theory related
+to nonnegative-deﬁnite sequences and then employ the signal restoration algorithm to solve the second problem
+posed above.

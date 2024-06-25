@@ -1,0 +1,11 @@
+While there are many advantages to distributed systems, there are also several disadvantages. The primary
+difﬁculty is that software for implementing distributed systems is large and complex. Small personal computers
+could  not  effectively  run  modern  distributed  applications.  Software  development  tools  for  this  environment
+are not well advanced. Thus, application developers are having a difﬁcult time working in this environment.
+An additional problem is network speed. Most ofﬁce networks are currently based on IEEE standard 802.3
+[IEEE, 1985], commonly (although erroneously) called Ethernet, which operates at 10 Mb/s (ten million bits
+per second). With this limited bandwidth, it is easy to saturate the network. While higher-speed networks such
+ networks do exist, they are not yet in common use. While distributed computing has many
+as FDDI
+1
+advantages, we must also understand that without appropriate safeguards, our data may not be secure.

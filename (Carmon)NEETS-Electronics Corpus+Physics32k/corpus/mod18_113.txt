@@ -1,0 +1,7 @@
+Single-lobe scanning is unsuitable for use as a tracking radar for several reasons. For example, let’s
+assume that a target is somewhere on the lobe axis and the receiver is detecting signals reflected from the
+target. If these reflected signals begin to decrease in strength, the target likely has flown off the lobe axis.
+In this case, the beam must be moved to continue tracking. The beam might be moved by an operator
+tracking the target with an optical sight, but such tracking is slow, inaccurate, and limited by conditions of
+visibility. An automatic tracking system would require that the beam SCAN, or search, the target area in
+such a case.

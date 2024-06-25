@@ -1,0 +1,5 @@
+The proof of this theorem uses ideas of random coding and long block lengths as in the proof of the channel
+capacity theorem. The basic idea is to generate a code book of 2nR reproduction code words ˆXn at random and
+show that for long block lengths, for any source sequence, it is very likely that there is at least one code word
+in this code book that is within distortion D of that source sequence. See Gallager [1968] or Cover and Thomas
+[1991] for details of the proof.

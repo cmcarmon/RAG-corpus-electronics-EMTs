@@ -1,0 +1,10 @@
+Once  the  signal  has  passed  though  the  channel,  the  original  message  is  recovered  by  a  receiver.  This  can
+typically be realized by a sequence of digital ﬁlters, feedback loops, and appropriately selected nonlinear devices.
+A receiver encounters a number of clearly identiﬁable problems that one may wish to address independently.
+For example, receivers must initially synchronize themselves to the incoming signal. This may involve detecting
+that  an  input  signal  is  present,  acquiring  an  estimate  of  the  carrier  amplitude,  frequency,  phase,  symbol
+synchronization,  frame  synchronization,  and,  in  the  case  of  spread  spectrum  systems,  code  synchronization.
+Once  acquisition  is  complete,  the  receiver  enters  a  steady-state  mode  of  operation,  where  concerns  such  as
+symbol error rate, mean time to loss of lock, and reaction to fading and interference are of primary importance.
+To  characterize  the  system,  the  user  may  wish  to  decouple  the  analysis  of  these  parameters  to  investigate
+relationships that may exist.

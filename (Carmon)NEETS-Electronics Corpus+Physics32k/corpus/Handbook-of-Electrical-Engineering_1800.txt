@@ -1,0 +1,8 @@
+Block Matching
+Block  matching  methods  estimate  the  displacement  within  an
+M 3 N block in an image frame. The estimate is determined by
+ﬁnding the best match between the M 3 N block in a frame at
+time t and its best match from frame at t –  TS . An underlying
+assumption in the block matching techniques is that each pixel
+within  a  block  has  the  same  displacement.  A  general  block
+matching algorithm is given as follows:

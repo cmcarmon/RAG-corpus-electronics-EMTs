@@ -1,0 +1,11 @@
+To design effective FD and FT techniques, it is necessary to
+encapsulate the primary effects of such faults in a manageable
+and general fault model that accounts for the behavior for
+most, if not all, fault types. Mechanisms to tackle faults can
+then be designed in a general and effective way by addressing
+the fault model rather than the very large number of faults
+underlying that model (Hayes, 1985; Johnson, 1989). Two
+classical fault models that have proven reasonably effective
+are the logical stuck-at-fault model used at the logic circuit
+level and the transistor stuck-at-fault model used at the tran-
+sistor circuit level.

@@ -1,0 +1,5 @@
+The LMS method is an iterative approach to echo cancellation. An example of a noniterative, block-oriented
+approach is the least-squares (LS) algorithm. Solving a system of equations to get $h, however, is computationally
+more  costly.  This  cost  can  be  reduced  considerably  by  running  the  LS  method  on  a  sample-by-sample  basis
+and  by  taking  advantage  of  the  fact  that  the  new  signal  vectors  are  the  old  vectors  with  the  oldest  sample
+dropped and one new sample added. This is the recursive least-squares (RLS) algorithm. It also has the advantage

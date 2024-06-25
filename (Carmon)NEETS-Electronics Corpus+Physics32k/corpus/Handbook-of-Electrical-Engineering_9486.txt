@@ -1,0 +1,4 @@
+Modiﬁcations can also be a problem in the relation PRODUCT. Suppose that the location of the supplier
+Martin is moved from Kenner to Slidell. In order not to violate the functional dependency supplier_name ﬁ
+location, the location attribute name of all tuples where the supplier is Martin needs to be changed from Kenner
+to Slidell. This modiﬁcation anomaly has a negative effect on performance.

@@ -1,0 +1,5 @@
+15 Normalization of path lengths (i.e., sum of the transition costs along a
+path) is required to prevent undue penalty to longer reference strings. In a DP
+algorithm, where optimization is done locally, a path-dependent normalization
+is clearly inappropriate, and we must resort to the use of an arbitrary normal-
+ization factor (Myers et al., 1980).

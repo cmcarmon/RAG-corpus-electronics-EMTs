@@ -1,0 +1,14 @@
+With declining memory costs and increasing transmission bandwidths, 0.25 Mbytes is no longer considered
+to be the large amount of data that it once was. This might suggest that the need for image compression is not
+as  great  as  previously.  Unfortunately  (or  fortunately,  depending  on  one’s  point  of  view),  this  is  not  the  case
+because our appetite for image data has also grown enormously over the years. The old 512 3 512 pixels  3
+1 byte per pixel “standard’’ was a consequence of the spatial and gray scale resolution of sensors and displays
+that  were  commonly  available  until  recently.  At  this  time,  displays  with  more  than  103  3  103  pixels  and
+24 bits/pixel to allow full color representation (8 bits each for red, green, and blue) are becoming commonplace.
+Thus, our 0.25-Mbyte standard image size has grown to 3 Mbytes. This is just the tip of the iceberg, however.
+For example, in desktop printing applications, a 4-color (cyan, magenta, yellow, and black) image of an 8.5 3
+11  in.2  page  sampled  at  600  dots  per  in.  requires  134  Mbytes.  In  remote  sensing  applications,  a  typical
+hyperspectral  image  contains  terrain  irradiance  measurements  in  each  of  200  10-nm-wide  spectral  bands  at
+25-m  intervals  on  the  ground.  Each  measurement  is  recorded  with  12-bit  precision.  Such  data  are  acquired
+from aircraft or satellite and are used in agriculture, forestry, and other ﬁelds concerned with management of
+natural resources. Storage of these data from just a 10 3 10 km2 area requires 4800 Mbytes.

@@ -1,0 +1,46 @@
+In a conventional car design the separately-excited alternator with integral rectifier (DC generator) and starter (DC motor) are considered accessories that are attached to the internal combustion engine (ICE) which normally drives a transmission to power the wheels propelling the vehicle. A battery is used only to start the car's internal combustion engine and run accessories when the engine is not running. The alternator is used to recharge the battery and run the accessories when the engine is running.
+The HSD system replaces the geared transmission, alternator, and starter motor with:
+MG1, an AC motor-generator having a permanent magnet rotor, used as a motor when starting the ICE and as a generator (alternator) when charging the high voltage battery
+MG2, an AC motor-generator, also having a permanent magnet rotor, used as the primary drive motor and as a generator (alternator), which regeneration power is directed to the high voltage battery
+Power electronics, including three DC-AC inverters and two DC-DC converters
+Computerized control system and sensors
+HVB a high voltage battery sources electrical energy during acceleration and sinks electrical energy during regeneration braking
+Through the power splitter, a series-parallel full hybrid's HSD system thus allows for the following intelligent power flows:
+Auxiliary power
+HVB -> DC-DC converter -> 12VDC battery
+12VDC battery -> Various standard and automatic energy saving auxiliary functions
+
+Engine charge (Recharging and/or heating catalytic converter and/or interior comfort HVAC)
+ICE -> MG1 -> HVB
+
+Battery or EV drive
+HVB -> MG2 -> wheels
+
+Engine & motor drive (Moderate acceleration)
+ICE -> wheels
+ICE -> MG1 -> MG2 -> wheels
+
+Engine drive with charge (Highway driving)
+ICE -> wheels
+ICE -> MG1 -> HVB
+
+Engine and motor drive with charge (Heavy power situation such as in steep hills)
+ICE -> wheels
+ICE -> MG1 -> HVB
+ICE -> MG1 -> MG2 -> wheels
+
+Full power or gradual slowing (Maximum power situations)
+ICE -> wheels
+ICE -> MG1 -> MG2 -> wheels
+HVB -> MG2 -> wheels
+
+B-mode braking
+Wheels -> MG2 ->HVB
+Wheels -> MG1 -> ICE (ECU - Electronic Control Unit - uses MG1 to spin ICE which drains battery – allowing more charge from MG2, and also links ICE to wheels causing "engine braking" ICE RPM increases when charge level of HVB is too much to accept regen electricity from MG2, or increasing effort from driver pushing the brake pedal)
+
+Regenerative braking
+wheels -> MG2 -> HVB
+
+Hard braking
+Front disk/rear drum (rear disk in UK) -> wheels
+All disk -> wheels (2010 and newer, except 2012-current Prius c, which uses front disk, rear drum).

@@ -1,0 +1,5 @@
+Using intuition from the two-input NAND circuit, we can build multiple-
+input NAND and NOR circuits. Figure 6.22a shows an n-input NOR gate
+and 6.22b shows an n-input NAND gate. In the multiple-input NOR gate, the
+output is pulled to ground when any of the inputs is high. Correspondingly, in
+the NAND gate, the output remains high if even one input is low.

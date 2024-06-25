@@ -1,0 +1,18 @@
+At this point, it is worth discussing a slight mismatch between the digital
+gate abstraction and the physical realities of computing the propagation delay.
+From the viewpoint of the digital gate abstraction, the propagation delay tpd is
+a property of the digital gate. Accordingly, we might say that an inverter (for
+example, one identical to inverter A) always has a propagation delay of 2 ns.
+However, the example discussed thus far illustrates that the propagation delay
+of an inverter depends not only on the characteristics of its internal compo-
+nents, but also on the size of the capacitance that it is driving, and therefore the
+propagation delay of the inverter can change depending on its environment.
+In particular, the propagation delay of inverter A in our example depends on
+the input capacitance of inverter B. Thus, strictly speaking, it makes no sense
+to define the propagation delay of a device in isolation. However, for conve-
+nience, we would like to characterize devices with a single tpd without defining
+their surrounding environment, so this simple device model can be used to
+obtain quick estimates of digital circuit delays when multiple gates are con-
+nected together. Accordingly, unless explicitly stated otherwise, device libraries
+or catalogs define a tpd for a gate assuming it is driving a ‘‘typical’’ load
+commonly, four minimum sized inverters.8

@@ -1,0 +1,10 @@
+C1 is an emitter bypass capacitor. Resistors R1 and R2 develop emitter bias for the amplifier. C2
+provides dc isolation between the tank and the base of transistor Q1. You should recall from your studies
+of NEETS, Module 7, Introduction to Solid-State Devices and Power Supplies, and Module 8,
+Introduction to Amplifiers, that amplifier gain may be varied by changing bias. Potentiometer R2, the rf
+gain control, is nothing more than a manual bias adjustment. When the wiper arm of R2 is set at point B,
+minimum forward bias is applied to the transistor. This causes the amplifier to operate closer to cutoff and
+reduces gain. When you move the control toward point A, the opposite occurs. R1 limits the maximum
+conduction of Q1 when R2 is short circuited. You may run into an alternate biasing method when the
+transistor is operated near saturation. In that case, a large change in gain would again be a function of
+bias.

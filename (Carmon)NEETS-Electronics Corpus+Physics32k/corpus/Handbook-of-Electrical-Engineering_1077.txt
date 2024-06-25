@@ -1,0 +1,5 @@
+Discrete Fourier Transform
+To obtain the DFT the continuous-frequency domain of the DTFT is sampled at N points uniformly spaced
+around the unit circle in the z-plane, i.e., at the points wk = (2pk/N), k = 0, 1, …, N – 1. The result is the DFT
+transform pair deﬁned by Eqs. (14.17a) and (14.17b). The signal s[n] is either a ﬁnite-length sequence of length
+N or it is a periodic sequence with period N.

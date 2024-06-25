@@ -1,0 +1,171 @@
+Where most of the objects involved are fixed, as is typical of video games, a priori methods using precomputation can be used to speed up execution.
+Pruning is also desirable here, both n-body pruning and pairwise pruning, but the algorithms must take time and the types of motions used in the underlying physical system into consideration.
+When it comes to the exact pairwise collision detection, this is highly trajectory dependent, and one almost has to use a numerical root-finding algorithm to compute the instant of impact.
+As an example, consider two triangles moving in time
+
+
+
+
+
+v
+
+1
+
+
+(
+t
+)
+,
+
+v
+
+2
+
+
+(
+t
+)
+,
+
+v
+
+3
+
+
+(
+t
+)
+
+
+
+{\displaystyle {v_{1}(t),v_{2}(t),v_{3}(t)}}
+and
+
+
+
+
+
+v
+
+4
+
+
+(
+t
+)
+,
+
+v
+
+5
+
+
+(
+t
+)
+,
+
+v
+
+6
+
+
+(
+t
+)
+
+
+
+{\displaystyle {v_{4}(t),v_{5}(t),v_{6}(t)}}
+. At any point in time, the two triangles can be checked for intersection using the twenty planes previously mentioned. However, we can do better, since these twenty planes can all be tracked in time. If
+
+
+
+P
+(
+u
+,
+v
+,
+w
+)
+
+
+{\displaystyle P(u,v,w)}
+is the plane going through points
+
+
+
+u
+,
+v
+,
+w
+
+
+{\displaystyle u,v,w}
+in
+
+
+
+
+
+
+R
+
+
+
+3
+
+
+
+
+{\displaystyle {\mathbb {R} }^{3}}
+then there are twenty planes
+
+
+
+P
+(
+
+v
+
+i
+
+
+(
+t
+)
+,
+
+v
+
+j
+
+
+(
+t
+)
+,
+
+v
+
+k
+
+
+(
+t
+)
+)
+
+
+{\displaystyle P(v_{i}(t),v_{j}(t),v_{k}(t))}
+to track. Each plane needs to be tracked against three vertices, this gives sixty values to track. Using a root finder on these sixty functions produces the exact collision times for the two given triangles and the two given trajectory. We note here that if the trajectories of the vertices are assumed to be linear polynomials in
+
+
+
+t
+
+
+{\displaystyle t}
+then the final sixty functions are in fact cubic polynomials, and in this exceptional case, it is possible to locate the exact collision time using the formula for the roots of the cubic. Some numerical analysts suggest that using the formula for the roots of the cubic is not as numerically stable as using a root finder for polynomials.

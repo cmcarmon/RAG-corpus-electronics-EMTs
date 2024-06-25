@@ -1,0 +1,13 @@
+as required by equation 4.6. This simple process is valid pro-
+vided that the individual sections do not interact. Speciﬁcally,
+section Tiþ1 must not load section Ti. In active ﬁlters, this is
+generally not a problem because the output of a ﬁlter section is
+taken from an op-amp output. The output impedance of an
+op-amp is low, ideally zero, and therefore can drive the next
+stage in the cascade conﬁguration without loading effects. A
+major advantage of cascade design is that transfer functions
+with zeros anywhere in the s-plane can be obtained. Thus,
+arbitrary transfer functions can be implemented. Ladder simu-
+lations have somewhat lower passband sensitivities to com-
+ponent tolerances, but their transmission zeros are restricted to
+the jv axis.

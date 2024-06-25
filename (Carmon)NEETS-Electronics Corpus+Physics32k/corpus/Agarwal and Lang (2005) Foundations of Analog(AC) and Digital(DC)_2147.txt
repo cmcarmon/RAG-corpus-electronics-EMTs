@@ -1,0 +1,8 @@
+The active-region output resistance of the non-inverting Op Amp circuit can be
+calculated in much the same way as for the inverting circuit. We set the indepen-
+dent source to zero and apply a test current source to the output terminals, as
+shown in Figure 15.13. Now calculate vt. As usual, we apply the node method
+to find three independent equations. First find expressions for v
+, and
+then write KCL at the output node. Again we assume ri is much larger than R2
+to simplify the math:

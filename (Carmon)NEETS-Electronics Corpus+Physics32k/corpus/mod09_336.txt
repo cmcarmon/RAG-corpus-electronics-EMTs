@@ -1,0 +1,8 @@
+Figure 2-28 is the schematic diagram of a buffer amplifier. This circuit is a common-collector 
+amplifier. A common-collector amplifier has a high input impedance and a low output impedance. Since 
+the output of an oscillator is connected to the high impedance of the common-collector amplifier, the 
+buffer has little effect on the operation of the oscillator. The output of the common-collector buffer is then 
+connected to an external load; therefore, the changes in the output load cannot reflect back to the 
+oscillator circuit. Thus, the buffer amplifier reduces interaction between the load and the oscillator. Figure 
+2-29 illustrates a shunt-fed Hartley oscillator with a buffer amplifier. This is "one-way" coupling since the 
+oscillator signal is coupled forward, but load changes are not coupled back to the oscillator. 

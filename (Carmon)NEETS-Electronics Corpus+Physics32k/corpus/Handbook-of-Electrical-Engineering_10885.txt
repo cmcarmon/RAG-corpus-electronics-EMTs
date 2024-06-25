@@ -1,0 +1,15 @@
+In MATLAB, the user interface is deceptively simple. One can take a short tutorial and learn the basic concepts
+and underlying principles in perhaps one hour. But what happens when one is ﬁnished with the tutorial and
+wants to do some actual work? The sheer number of commands in the system can be overwhelming. In basic
+MATLAB there are some two hundred commands, add a few toolboxes and the number quickly increases. The
+only way to ﬁnd out how to use a command is to know its name. If you don’t know the name you can list all
+the commands available, but since each command name is limited to eight characters, there is not necessarily
+going to be any relationship between command name and command function. Having found a command the
+next step is to learn how to use it. In a research prototype CACSD package called IMPACT, Rimvall and Bomholt
+[1985] provided a latent question and answer mode feature which switches from normal command entry to
+step  by  step  elicitation  of  parameters  when  requested  by  the  user.  Other  ways  of  overcoming  some  of  these
+difﬁculties [Rimvall, 1988] include providing a means of loading toolboxes only when they are needed, thereby
+reducing the instantaneous “name-space”, and providing operator overloading so that the same named proce-
+dure in X-Math [Floyd et al., 1991] and enables, for example, the multiplication operator ‘*’ to mean matrix
+multiplication, series combination of systems, polynomial convolution, or time response evaluation depending
+on the types of the operands.

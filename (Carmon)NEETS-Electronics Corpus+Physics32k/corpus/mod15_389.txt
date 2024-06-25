@@ -1,0 +1,5 @@
+As the brush passes over each contact (in a positive direction), an output pulse from each contact is 
+coupled to one of four counters. This advances the counter one-half count. The accelerometer is designed 
+so that as acceleration decreases, the mass tends to assume the new velocity. The counters will not 
+advance the remaining half count until the brush once again touches the reset contact. With this type of 
+pulse output, it is possible to record each time gravity forces have reached a predetermined level. 

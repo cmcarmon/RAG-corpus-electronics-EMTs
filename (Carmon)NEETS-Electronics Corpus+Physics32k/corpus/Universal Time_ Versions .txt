@@ -1,0 +1,73 @@
+There are several versions of Universal Time:
+UT0 is Universal Time determined at an observatory by observing the diurnal motion of stars or extragalactic radio sources, and also from ranging observations of the Moon and artificial Earth satellites. The location of the observatory is considered to have fixed coordinates in a terrestrial reference frame (such as the International Terrestrial Reference Frame) but the position of the rotational axis of the Earth wanders over the surface of the Earth; this is known as polar motion. UT0 does not contain any correction for polar motion. The difference between UT0 and UT1 is on the order of a few tens of milliseconds. The designation UT0 is no longer in common use.
+UT1 is the principal form of Universal Time. While conceptually it is mean solar time at 0° longitude, precise measurements of the Sun are difficult. Hence, it is computed from observations of distant quasars using long baseline interferometry, laser ranging of the Moon and artificial satellites, as well as the determination of GPS satellite orbits. UT1 is the same everywhere on Earth, and is proportional to the rotation angle of the Earth with respect to distant quasars, specifically, the International Celestial Reference Frame (ICRF), neglecting some small adjustments. The observations allow the determination of a measure of the Earth's angle with respect to the ICRF, called the Earth Rotation Angle (ERA, which serves as a modern replacement for Greenwich Mean Sidereal Time). UT1 is required to follow the relationship
+
+ERA = 2π(0.7790572732640 + 1.00273781191135448Tu) radians
+where Tu = (Julian UT1 date - 2451545.0)
+
+UT1R is a smoothed version of UT1, filtering out periodic variations due to tides. It includes 62 smoothing terms, with periods ranging from 5.6 days to 18.6 years.
+UT2 is a smoothed version of UT1, filtering out periodic seasonal variations. It is mostly of historic interest and rarely used anymore. It is defined by
+
+
+
+
+U
+T
+2
+=
+U
+T
+1
++
+0.022
+⋅
+sin
+⁡
+(
+2
+π
+t
+)
+−
+0.012
+⋅
+cos
+⁡
+(
+2
+π
+t
+)
+−
+0.006
+⋅
+sin
+⁡
+(
+4
+π
+t
+)
++
+0.007
+⋅
+cos
+⁡
+(
+4
+π
+t
+)
+
+
+
+seconds
+
+
+
+
+{\displaystyle UT2=UT1+0.022\cdot \sin(2\pi t)-0.012\cdot \cos(2\pi t)-0.006\cdot \sin(4\pi t)+0.007\cdot \cos(4\pi t)\;{\mbox{seconds}}}
+
+where t is the time as fraction of the Besselian year.
+
+UTC (Coordinated Universal Time) is an atomic timescale that approximates UT1. It is the international standard on which civil time is based. It ticks SI seconds, in step with TAI. It usually has 86,400 SI seconds per day but is kept within 0.9 seconds of UT1 by the introduction of occasional intercalary leap seconds. As of 2016, these leaps have always been positive (the days which contained a leap second were 86,401 seconds long). Whenever a level of accuracy better than one second is not required, UTC can be used as an approximation of UT1. The difference between UT1 and UTC is known as DUT1.

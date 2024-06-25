@@ -1,0 +1,10 @@
+A  casual  examination  of  signal  restoration  algorithm  (14.99)  indicates  that  it  is  of  the  same  form  as  the
+sequence of projections algorithms described in the previous two subsections. It distinguishes itself from those
+algorithms in that the attribute sets Ck need not be closed subspaces, closed linear varieties, or closed convex
+sets. The proposed algorithm also distinguishes itself from several other signal restoration algorithms in that
+the metric d need not be inner product induced. These can be important considerations in speciﬁc applications.
+As an example, it has been conjectured by several authors that the l1 norm provides for a more effective error
+measure when the data set has outliers (i.e., unrepresentative data). Signal restoration algorithm (14.99) can
+be directly applied to such problems since we have not restricted the metric. It must be observed, however, that
+the  nature  of  the  individual  projection  operators  Pk  is  typically  most  easily  characterized  when  the  metric
+employed is inner product induced.

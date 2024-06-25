@@ -1,0 +1,9 @@
+To motivate the study of methods based on the sinusoidal steady state,
+let us present an example of the type of problem that can be solved with ease
+using these methods. Suppose we construct the linear small-signal amplifier
+shown in Figure 13.2 by concatenating two single stage MOSFET amplifiers
+of the type studied in Chapter 8. The DC voltage VI is chosen to bias the
+first stage appropriately, and the DC value of the first stage output voltage VO
+provides the bias for the second stage. Figure 13.2 further shows the presence
+of a capacitor CGS at the input node of the second stage (for example, reflecting
+the gate capacitance of the MOSFET in the second stage).

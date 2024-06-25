@@ -1,0 +1,5 @@
+CMOS logic does not suffer static power dissipation. Referring to
+Figure 11.17, provided the input vIN is at VS or 0, notice that the two com-
+plementary MOSFETs are never on at the same time. Thus, there is never any
+direct resistive path from the power supply to ground. Hence there is no static
+power dissipation.

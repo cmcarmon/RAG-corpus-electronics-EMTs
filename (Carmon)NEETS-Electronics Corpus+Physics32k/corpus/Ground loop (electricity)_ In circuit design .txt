@@ -1,0 +1,10 @@
+Ground and ground loops are also important in circuit design. In many circuits, large currents may exist through the ground plane, leading to voltage differences of the ground reference in different parts of the circuit, leading to hum and other problems. Several techniques should be used to avoid ground loops, and otherwise, guarantee good grounding:
+The external shield, and the shields of all connectors, should be connected.
+If the power supply design is non-isolated, this external chassis ground should be connected to the ground plane of the PCB at only one point; this avoids large current through the ground plane of the PCB.
+If the design is an isolated power supply, this external ground should be connected to the ground plane of the PCB via a high voltage capacitor, such as 2200 pF at 2 kV.
+If the connectors are mounted on the PCB, the outer perimeter of the PCB should contain a strip of copper connecting to the shields of the connectors. There should be a break in copper between this strip, and the main ground plane of the circuit. The two should be connected at only one point. This way, if there is a large current between connector shields, it will not pass through the ground plane of the circuit.
+
+A star topology should be used for ground distribution, avoiding loops.
+High-power devices should be placed closest to the power supply, while low-power devices can be placed farther from it.
+Signals, wherever possible, should be differential.
+Isolated power supplies require careful checking for parasitic, component, or internal PCB power plane capacitance that can allow AC present on input power or connectors to pass into the ground plane, or to any other internal signal. The AC might find a path back to its source via an I/O signal. While it can never be eliminated, it should be minimized as much as possible. The acceptable amount is implied by the design.

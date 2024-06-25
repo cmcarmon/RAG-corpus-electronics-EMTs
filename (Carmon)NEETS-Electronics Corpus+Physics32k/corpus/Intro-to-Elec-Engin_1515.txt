@@ -1,0 +1,6 @@
+In a mobile cellular radio system (see Section 15.2) for the transmission of speech signals,
+since the available channel bandwidth per user is small and cannot support the high bit rates
+needed by waveform encoding methods such as PCM, the analysis–synthesis method based on
+linear predictive coding (LPC) is used to estimate the set of model parameters from short segments
+of the speech signal. The speech-model parameters are then transmitted over the channel. With
+LPC, a bit rate of 4800–9600 bit/s is achieved.

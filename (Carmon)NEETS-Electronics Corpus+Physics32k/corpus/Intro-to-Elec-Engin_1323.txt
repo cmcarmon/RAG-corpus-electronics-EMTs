@@ -1,0 +1,10 @@
+(14.2.8)
+none of the translated components falls into the signal range of 0 ≤ f ≤ W , as seen from Figure
+14.2.6(b). Therefore, if the sampled signal xs(t) is passed through a low-pass ﬁlter, all components
+at f ≥ fs − W will be removed so that the resulting output signal is of the same shape as a0x(t),
+where a0 is given by D/Ts. These observations are summarized in the following uniform sampling
+theorem:
+A signal that has no frequency components at f ≥ W is completely described by uni-
+formly spaced sample values taken at the rate fs ≥ 2W . The entire signal waveform
+can be reconstructed from the sampled signal put through a low-pass ﬁlter that rejects
+f ≥ fs − W .

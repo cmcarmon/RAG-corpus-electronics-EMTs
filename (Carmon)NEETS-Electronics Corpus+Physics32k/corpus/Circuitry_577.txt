@@ -1,0 +1,15 @@
+Square wave generators 
+ 
+Because  the  high  time  (ton) is  always  greater  than 
+the low time (toff), the mark to space ratio produced 
+by a 555 timer can never be made equal to (or less 
+than) unity. This could be a problem if we need to 
+produce  a  precise  square  wave  in  which  ton  =  toff.
+However, by making R2 very much larger than R1,
+the  timer  can  be  made  to  produce  a  reasonably 
+symmetrical  square  wave  output  (note  that  the 
+minimum recommended value for R2 is 1 kK —see 
+earlier). 
+ 
+cycle simplify to: 
+ 

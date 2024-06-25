@@ -1,0 +1,16 @@
+The reality, however, is still more complex. A certain per-
+centage of the overall time can be spent to memory accesses,
+and the remaining part to computational issues, taking into
+account the system pipelining and the (large) overlap between
+memory accesses and computation (see Figure 2.19). The more
+time the overall budget is committed to the memory accesses,
+the more restrictions are imposed on the data path schedule
+that has less freedom for the ordering and the assignment to
+the functional units. As a result (see dotted curve), the Pareto
+curve for the data path usually exhibits a cost overhead that is
+small and constant for small to medium memory cycle budgets
+and that only starts to increase sharply when the memory cycle
+budget comes close to the globally available cycle budget (see
+Figure 3.19). Due to the fact that Pareto curve, are monoto-
+nous in their behavior, the sum of these two curves should
+exhibit a (unique) minimum.7 This also advocates for an

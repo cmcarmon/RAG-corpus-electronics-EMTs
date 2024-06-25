@@ -1,0 +1,8 @@
+5.7 Discrete Fourier Transforms (DFT)18
+The discrete-time Fourier transform (and the continuous-time transform as well) can be evaluated when we
+have an analytic expression for the signal. Suppose we just have a signal, such as the speech signal used in the
+previous chapter, for which there is no formula. How then would you compute the spectrum? For example,
+how did we compute a spectrogram such as the one shown in the speech signal example (Figure 4.17)? The
+Discrete Fourier Transform allows the computation of spectra from discrete-time data. While in discrete-
+time we can exactly calculate spectra, for analog signals no similar exact spectrum computation exists.
+For analog-signal spectra, use must build special devices, which turn out in most cases to consist of A/D

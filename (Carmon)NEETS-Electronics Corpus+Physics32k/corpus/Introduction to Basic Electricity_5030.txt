@@ -1,0 +1,15 @@
+The Gerber format is a standard printed cir-
+cuit board format supported by virtually all layout 
+software. The Gerber files define the trace place-
+ment, but they don’t specify the physical sizes. The 
+ aperture file specifies the physical sizes with a 
+short list of “flash codes.” Additionally, the Gerber 
+files don’t specify the actual size of the holes to be 
+drilled in the printed circuit board. The drill file 
+informs the manufacturer of where the holes are 
+and what size they are supposed to be. Drilling and 
+etching are two separate procedures. When these 
+files are sent, they include a short “read me” file 
+that relates the file names to the physical parts of 
+the printed circuit board to save time and reduce 
+confusion.

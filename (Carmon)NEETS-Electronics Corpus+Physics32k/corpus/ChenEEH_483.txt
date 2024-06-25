@@ -1,0 +1,19 @@
+Figure 5.9 shows a physics-based large-signal equivalent cir-
+cuit (EC) of a bipolar transistor, containing the elements that
+were discussed before (Koldchoff et al., 1993; Schro¨ter and
+Rein, 1995; Schro¨ter and Lee, 1998.). The BC capacitance
+CBCx ¼ CjCx þ CCox has been split across rBx to account for
+distributed hf effects in the external BC region in as simple as
+possible EC topology (-representation). In practice, the full
+complexity of the EC is often not required and certain effects
+(i.e., their associated elements, such as those for the substrate
+transistor or iBEt ) can be turned off. In many cases, the tran-
+sistors are even operated outside any critical bias regions, such
+as the high-current and breakdown regions, so that a simpli-
+ﬁed EC [refer to Figure 5.9(B)] and a set of model equations
+are satisfactory and enable a better analytical insight into the
+circuit performance for the designer. The simpliﬁed model can
+be constructed from the physics-based model by merging
+elements and simplifying equations at the expense of a smaller
+bias, geometry, and temperature validity range. A scalable
+modeling approach is described in Schro¨ter et al. (1999).

@@ -1,0 +1,11 @@
+circuit and not emit light until the voltage across it exceeds a particular
+level, say 70 V. When the voltage level is reached, the lamp ﬁres (goes
+on),  and  the  capacitor  discharges  through  it.  Due  to  the  low  resistance
+of the lamp when on, the capacitor voltage drops fast and the lamp turns
+off. The lamp acts again as an open circuit and the capacitor recharges.
+By adjusting 
+we can introduce either short or long time delays into
+the  circuit  and  make  the  lamp  ﬁre,  recharge,  and  ﬁre  repeatedly  every
+time  constant 
+to  get
+the capacitor voltage high enough to ﬁre or low enough to turn off.

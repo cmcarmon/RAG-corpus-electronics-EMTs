@@ -1,0 +1,9 @@
+Unit  commitment  calculates  the  necessary  generating  units  that  should  be  connected  (committed)  at  any
+time  in  order  to  supply  the  demand  and  losses  plus  allow  sufﬁcient  reserve  capability  to  withstand  a  load
+increase or accidental loss of a generating unit. Several operating restrictions must be taken into account when
+determining which machines to commit or decommit. These include maximum and minimum running times
+for  a  unit  and  the  time  needed  to  commit  a  unit.  Fuel  availability  constraints  must  also  be  considered.  For
+example, there may be limited fuel reserves such as coal stocks or water in the dam. Other fuel constraints may
+be minimum water ﬂows below the dam or agreements to purchase minimum amounts of fuel. Determining
+unit commitment for a speciﬁc time cannot be evaluated without consideration of the past operational con-
+ﬁguration or the future operating demands.

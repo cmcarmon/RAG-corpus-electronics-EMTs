@@ -1,0 +1,5 @@
+A more common and less computationally intense approach to nonuniform quantization is to use a com-
+pandor  (compressor–expander).  The  input  signal  is  passed  through  a  nonlinear  compressor  before  being
+quantized uniformly. The output of the quantizer must then be expanded to the original dynamic range (see
+Fig. 17.13). The compression and expansion functions can be determined so that the compandor approximates
+a Max quantizer.

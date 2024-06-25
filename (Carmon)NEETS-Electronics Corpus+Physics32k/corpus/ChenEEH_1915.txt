@@ -1,0 +1,14 @@
+REMOD Operation
+The main idea behind REMOD is to assign a cover v to each
+cell u of the circuit, where the cover is a functionally identical
+cell that checks the computation of u after both have ﬁnished
+their original computations. The original computation of a
+cell is the computation it performs in the non-FT circuit. All
+inputs to cell u are transmitted to its cover v after some delay
+that depends on the delay of the cells. After cell v repeats u’s
+original computation (called v’s checking computation), the
+corresponding outputs of this computation are compared to
+the original outputs of u. A mismatch indicates a fault in either
+u or v, and a diagnostic routine can determine which of the
+two is actually faulty. REMOD circuits are then reconﬁgured
+around the faulty cell to resume normal operation.

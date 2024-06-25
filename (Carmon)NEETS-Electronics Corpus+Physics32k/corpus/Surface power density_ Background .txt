@@ -1,0 +1,10 @@
+As an electromagnetic wave travels through space, energy is transferred from the source to other objects (receivers). The rate of this energy transfer depends on the strength of the EM field components. Simply put, the rate of energy transfer per unit area (power density) is the product of the electric field strength (E) times the magnetic field strength (H).
+Pd (Watts/meter2) = E × H (Volts/meter × Amperes/meter)
+where
+Pd = the power density,
+E = the RMS electric field strength in volts per meter,
+H = the RMS magnetic field strength in amperes per meter.
+The above equation yields units of W/m2 . The units of mW/cm2, are more often used when making surveys. One mW/cm2 is the same power density as 10 W/m2. The following equation can be used to obtain these units directly:
+Pd = 0.1 × E × H mW/cm2
+The simplified relationships stated above apply at distances of about two or more wavelengths from the radiating source. This distance can be a far distance at low frequencies, and is called the far field. Here the ratio between E and H becomes a fixed constant (377 Ohms) and is called the characteristic impedance of free space. Under these conditions we can determine the power density by measuring only the E field component (or H field component, if you prefer) and calculating the power density from it.
+This fixed relationship is useful for measuring radio frequency or microwave (electromagnetic) fields.Since power is the rate of energy transfer, and the squares of E and H are proportional to power, E2 and H2 are proportional to the energy transfer rate and the energy absorption of a given material.

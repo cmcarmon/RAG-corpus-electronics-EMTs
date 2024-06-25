@@ -1,0 +1,4 @@
+4. All SRLs are interconnected into one or multiple shift registers by connecting the scan-out terminal from
+one SRL to the scan-in terminal of the next one in series. If multiple shift registers are implemented,
+each  must  be  capable  of  being  shifted  simultaneously  with  the  others  and  must  have  its  own  scan-in
+and scan-out primary terminals.

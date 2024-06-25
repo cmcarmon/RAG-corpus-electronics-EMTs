@@ -1,0 +1,11 @@
+LED’s cannot be powered directly from a voltage source as shown in Figure 6.7, 
+circuit a, due of the sensitivity of their current-voltage relationship. Since mV differences 
+in  the  applied  voltage  can  drastically  alter  their  operating  current,  manufacturing 
+variations would make it impossible to control their current flow this way. When an LED 
+is powered using a voltage source, a current-limiting resistor should be used, as shown 
+Figure 6.7, circuit b. For example, suppose that the turn-on voltage of the LED is 2.1V 
+and the voltage source is the output of a 3.3V microprocessor. The resistor is chosen to 
+operate the LED at the specified maximum operating current of 10mA, according to the 
+following simple analysis.  Given the 2.1V turn-on voltage drop, 3.3 - 2.1 = 1.2 V will be 
+dropped  across  the  resistor.  The  desired  operating  current  is  10mA,  and  therefore  the 
+necessary resistance is 1.2 V / 10 mA = 120 Ω. 

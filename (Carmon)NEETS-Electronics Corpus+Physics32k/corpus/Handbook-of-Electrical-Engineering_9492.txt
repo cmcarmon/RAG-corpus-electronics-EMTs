@@ -1,0 +1,10 @@
+Data Deﬁnition and Manipulation in Relational Databases
+Upon completion of the relational database design, a descriptive language, usually referred to as Data Deﬁnition
+Language (DDL), is used to deﬁne the designed schemes and their relationships. The DDL can be used to create
+new schemes or modify existing ones, but it cannot be used to query the database. Once DDL statements are
+compiled,  they  are  stored  in  the  data  dictionary.  A  data  dictionary  is  a  repository  where  information  about
+database schemas, such as attribute names, indexes, and integrity constraints are stored. Data dictionaries also
+contain  other  information  about  databases,  such  as  design  decisions,  usage  standards,  application  program
+descriptions,  and  user  information.  During  the  processing  of  a  query,  the  DBMS  usually  checks  the  data
+dictionary. The data dictionary can be seen as a relational database of its own. As a result, data manipulation
+languages that are used to manipulate databases can also be used to query the data dictionary.

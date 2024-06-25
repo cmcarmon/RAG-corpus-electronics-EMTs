@@ -1,0 +1,6 @@
+A  great  advantage  of  microprocessor-controlled  systems  is  the  degree  to  which  they  can  be  self-diagnosing.
+Each intelligent subsystem has internal self-diagnostics which include routines to perform initial tests on power-
+up,  update  checks  for “hot”  startup  and  continuous  checking  to  assure  that  inputs  and  outputs  are  within
+expected  ranges.  Internal  self-diagnostics  are  also  capable  of  performing  self-tests  on  request.  When  fault
+conditions are noted, typically there are internal resets to allow for inaccurate data, with faults being logged
+after a certain number of occurrences or duration of a fault condition.

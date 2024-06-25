@@ -1,0 +1,125 @@
+If the vertices of a framework are in a motion, then that motion may be described over small scales of distance by its gradient, a vector for each vertex specifying its speed and direction. The gradient describes a linearized approximation to the actual motion of the points, in which each point moves at constant velocity in a straight line. The gradient may be described as a row vector that has one real number coordinate for each pair
+
+
+
+(
+v
+,
+i
+)
+
+
+{\displaystyle (v,i)}
+where
+
+
+
+v
+
+
+{\displaystyle v}
+is a vertex of the framework and
+
+
+
+i
+
+
+{\displaystyle i}
+is the index of one of the Cartesian coordinates of
+
+
+
+d
+
+
+{\displaystyle d}
+-dimensional space; that is, the dimension of the gradient is the same as the width of the rigidity matrix.
+If the edges of the framework are assumed to be rigid bars that can neither expand nor contract (but can freely rotate) then any motion respecting this rigidity must preserve the lengths of the edges: the derivative of length, as a function of the time over which the motion occurs, must remain zero. This condition may be expressed in linear algebra as a constraint that the gradient vector of the motion of the vertices must have zero inner product with the row of the rigidity matrix that represents the given edge. Thus, the family of gradients of (infinitesimally) rigid motions is given by the nullspace of the rigidity matrix. For frameworks that are not in generic position, it is possible that some infinitesimally rigid motions (vectors in the nullspace of the rigidity matrix) are not the gradients of any continuous motion, but this cannot happen for generic frameworks.
+A rigid motion of the framework is a motion such that, at each point in time, the framework is congruent to its original configuration. Rigid motions include translations and rotations of Euclidean space; the gradients of rigid motions form a linear space having the translations and rotations as bases, of dimension
+
+
+
+
+
+
+(
+
+
+
+d
++
+1
+
+2
+
+
+)
+
+
+
+
+
+{\displaystyle {\binom {d+1}{2}}}
+, which must always be a subspace of the nullspace of the rigidity matrix. Because the nullspace always has at least this dimension, the rigidity matroid can have rank at most
+
+
+
+d
+n
+−
+
+
+
+(
+
+
+
+d
++
+1
+
+2
+
+
+)
+
+
+
+
+
+{\displaystyle dn-{\binom {d+1}{2}}}
+, and when it does have this rank the only motions that preserve the lengths of the edges of the framework are the rigid motions. In this case the framework is said to be first-order (or infinitesimally) rigid. More generally, an edge
+
+
+
+e
+
+
+{\displaystyle e}
+belongs to the matroid closure operation of a set
+
+
+
+S
+
+
+{\displaystyle S}
+if and only if there does not exist a continuous motion of the framework that changes the length of
+
+
+
+e
+
+
+{\displaystyle e}
+but leaves the lengths of the edges in
+
+
+
+S
+
+
+{\displaystyle S}
+unchanged.
+Although defined in different terms (column vectors versus row vectors, or forces versus motions) static rigidity and first-order rigidity reduce to the same properties of the underlying matrix and therefore coincide with each other. In two dimensions, the generic rigidity matroid also describes the number of degrees of freedom of a different kind of motion, in which each edge is constrained to stay parallel to its original position rather than being constrained to maintain the same length; however, the equivalence between rigidity and parallel motion breaks down in higher dimensions.

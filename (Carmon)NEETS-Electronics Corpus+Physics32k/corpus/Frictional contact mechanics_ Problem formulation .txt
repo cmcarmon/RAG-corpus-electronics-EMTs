@@ -1,0 +1,371 @@
+Central in the analysis of frictional contact problems is the understanding that the stresses at the surface of each body are spatially varying. Consequently, the strains and deformations of the bodies are varying with position too. And the motion of particles of the contacting bodies can be different at different locations: in part of the contact patch particles of the opposing bodies may adhere (stick) to each other, whereas in other parts of the contact patch relative movement occurs. This local relative sliding is called micro-slip.
+This subdivision of the contact area into stick (adhesion) and slip areas manifests itself a.o. in fretting wear. Note that wear occurs only where power is dissipated, which requires stress and local relative displacement (slip) between the two surfaces.
+The size and shape of the contact patch itself and of its adhesion and slip areas are generally unknown in advance. If these were known, then the elastic fields in the two bodies could be solved independently from each other and the problem would not be a contact problem anymore.
+Three different components can be distinguished in a contact problem.
+First of all, there is the deformation of the separate bodies in reaction to loads applied on their surfaces. This is the subject of general continuum mechanics. It depends largely on the geometry of the bodies and on their (constitutive) material behavior (e.g. elastic vs. plastic response, homogeneous vs. layered structure etc.).
+Secondly, there is the overall motion of the bodies relative to each other. For instance the bodies can be at rest (statics) or approaching each other quickly (impact), and can be shifted (sliding) or rotated (rolling) over each other. These overall motions are generally studied in classical mechanics, see for instance multibody dynamics.
+Finally there are the processes at the contact interface: compression and adhesion in the direction perpendicular to the interface, and friction and micro-slip in the tangential directions.
+The last aspect is the primary concern of contact mechanics. It is described in terms of so-called contact conditions. For the direction perpendicular to the interface, the normal contact problem, adhesion effects are usually small (at larger spatial scales) and the following conditions are typically employed:
+The gap
+
+
+
+
+e
+
+n
+
+
+
+
+{\displaystyle e_{n}}
+between the two surfaces must be zero (contact) or strictly positive (separation,
+
+
+
+
+e
+
+n
+
+
+>
+0
+
+
+{\displaystyle e_{n}>0}
+);
+The normal stress
+
+
+
+
+p
+
+n
+
+
+
+
+{\displaystyle p_{n}}
+acting on each body is zero (separation) or compressive (
+
+
+
+
+p
+
+n
+
+
+>
+0
+
+
+{\displaystyle p_{n}>0}
+in contact).
+Mathematically:
+
+
+
+
+e
+
+n
+
+
+≥
+0
+,
+
+p
+
+n
+
+
+≥
+0
+,
+
+e
+
+n
+
+
+⋅
+
+p
+
+n
+
+
+=
+0
+
+
+
+
+{\displaystyle e_{n}\geq 0,p_{n}\geq 0,e_{n}\cdot p_{n}=0\,\!}
+. Here
+
+
+
+
+e
+
+n
+
+
+,
+
+p
+
+n
+
+
+
+
+{\displaystyle e_{n},p_{n}}
+are functions that vary with the position along the bodies' surfaces.
+In the tangential directions the following conditions are often used:
+The local (tangential) shear stress
+
+
+
+
+
+
+p
+→
+
+
+
+=
+(
+
+p
+
+x
+
+
+,
+
+p
+
+y
+
+
+
+)
+
+
+T
+
+
+
+
+
+
+
+{\displaystyle {\vec {p}}=(p_{x},p_{y})^{\mathsf {T}}\,\!}
+(assuming the normal direction parallel to the
+
+
+
+z
+
+
+{\displaystyle z}
+-axis) cannot exceed a certain position-dependent maximum, the so-called traction bound
+
+
+
+g
+
+
+{\displaystyle g}
+;
+Where the magnitude of tangential traction falls below the traction bound
+
+
+
+‖
+
+
+
+p
+→
+
+
+
+‖
+<
+g
+
+
+
+
+{\displaystyle \|{\vec {p}}\|<g\,\!}
+, the opposing surfaces adhere together and micro-slip vanishes,
+
+
+
+
+
+
+s
+→
+
+
+
+=
+(
+
+s
+
+x
+
+
+,
+
+s
+
+y
+
+
+
+)
+
+
+T
+
+
+
+=
+
+
+
+0
+→
+
+
+
+
+
+
+
+{\displaystyle {\vec {s}}=(s_{x},s_{y})^{\mathsf {T}}={\vec {0}}\,\!}
+;
+Micro-slip occurs where the tangential tractions are at the traction bound; the direction of the tangential traction is then opposite to the direction of micro-slip
+
+
+
+
+
+
+p
+→
+
+
+
+=
+−
+g
+
+
+
+s
+→
+
+
+
+
+/
+
+‖
+
+
+
+s
+→
+
+
+
+‖
+
+
+
+
+{\displaystyle {\vec {p}}=-g{\vec {s}}/\|{\vec {s}}\|\,\!}
+.
+The precise form of the traction bound is the so-called local friction law. For this Coulomb's (global) friction law is often applied locally:
+
+
+
+‖
+
+
+
+p
+→
+
+
+
+‖
+≤
+g
+=
+μ
+
+p
+
+n
+
+
+
+
+
+
+{\displaystyle \|{\vec {p}}\|\leq g=\mu p_{n}\,\!}
+, with
+
+
+
+μ
+
+
+{\displaystyle \mu }
+the friction coefficient. More detailed formulae are also possible, for instance with
+
+
+
+μ
+
+
+{\displaystyle \mu }
+depending on temperature
+
+
+
+T
+
+
+{\displaystyle T}
+, local sliding velocity
+
+
+
+‖
+
+
+
+s
+→
+
+
+
+‖
+
+
+{\displaystyle \|{\vec {s}}\|}
+, etc.

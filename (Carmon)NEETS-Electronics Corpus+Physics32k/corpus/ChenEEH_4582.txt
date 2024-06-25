@@ -1,0 +1,9 @@
+where yd(k) and y(k) represent the desired system output and
+the actual system output at time step k, respectively. The Dt
+represents the sampling period, and a 2 <þ deﬁnes how fast
+the system output will converge to the desired output. If
+Lyapunov function is deﬁned as V (y(k)) ¼ S2(y(k)), make
+V (y(k þ 1))  V (y(k)) and 8k  0, and the sliding surface
+will be an equation of the tracking error. This implies that
+the desired dynamics represented by S ¼ 0 are attractive, and
+the desired trajectory can be obtained.

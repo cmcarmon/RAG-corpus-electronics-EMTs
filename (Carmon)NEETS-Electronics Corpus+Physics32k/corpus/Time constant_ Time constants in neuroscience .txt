@@ -1,0 +1,157 @@
+In an action potential (or even in a passive spread of signal) in a neuron, the time constant
+
+
+
+τ
+
+
+{\displaystyle \tau }
+is
+
+
+
+
+τ
+=
+
+r
+
+m
+
+
+
+c
+
+m
+
+
+
+
+{\displaystyle \tau =r_{m}c_{m}}
+
+where rm is the resistance across the membrane and cm is the capacitance of the membrane.
+The resistance across the membrane is a function of the number of open ion channels and the capacitance is a function of the properties of the lipid bilayer.
+The time constant is used to describe the rise and fall of membrane voltage, where the rise is described by
+
+
+
+
+V
+(
+t
+)
+=
+
+V
+
+
+max
+
+
+
+(
+1
+−
+
+e
+
+−
+t
+
+/
+
+τ
+
+
+)
+
+
+{\displaystyle V(t)=V_{\textrm {max}}(1-e^{-t/\tau })}
+
+and the fall is described by
+
+
+
+
+V
+(
+t
+)
+=
+
+V
+
+
+max
+
+
+
+
+e
+
+−
+t
+
+/
+
+τ
+
+
+
+
+{\displaystyle V(t)=V_{\textrm {max}}e^{-t/\tau }}
+
+where voltage is in millivolts, time is in seconds, and
+
+
+
+τ
+
+
+{\displaystyle \tau }
+is in seconds.
+Vmax is defined as the maximum voltage attained in the action potential, where
+
+
+
+
+
+V
+
+
+max
+
+
+
+=
+
+r
+
+m
+
+
+I
+
+
+{\displaystyle V_{\textrm {max}}=r_{m}I}
+
+where rm is the resistance across the membrane and I is the current.
+Setting for t =
+
+
+
+τ
+
+
+{\displaystyle \tau }
+for the rise sets V(t) equal to 0.63Vmax. This means that the time constant is the time elapsed after 63% of Vmax has been reached
+Setting for t =
+
+
+
+τ
+
+
+{\displaystyle \tau }
+for the fall sets V(t) equal to 0.37Vmax, meaning that the time constant is the time elapsed after it has fallen to 37% of Vmax.
+The larger a time constant is, the slower the rise or fall of the potential of a neuron. A long time constant can result in temporal summation, or the algebraic summation of repeated potentials. A short time constant rather produces a coincidence detector through spatial summation.

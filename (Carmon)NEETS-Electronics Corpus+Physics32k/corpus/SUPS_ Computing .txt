@@ -1,0 +1,124 @@
+For a processor or computer designed to simulate a neural network SUPS is measured as the product of simulated neurons
+
+
+
+N
+
+
+{\displaystyle N}
+and average connectivity
+
+
+
+c
+
+
+{\displaystyle c}
+(synapses) per neuron per second:
+
+
+
+
+S
+U
+P
+S
+=
+c
+×
+N
+
+
+{\displaystyle SUPS=c\times N}
+
+Depending on the type of simulation it is usual equal to the total number of synapses simulated.
+In an "asynchronous" dynamic simulation if a neuron spikes at
+
+
+
+υ
+
+
+{\displaystyle \upsilon }
+Hz, the average rate of synaptic updates provoked by the activity of that neuron is
+
+
+
+υ
+c
+N
+
+
+{\displaystyle \upsilon cN}
+. In a synchronous simulation with step
+
+
+
+Δ
+t
+
+
+{\displaystyle \Delta t}
+the number of synaptic updates per second would be
+
+
+
+
+
+
+c
+N
+
+
+Δ
+t
+
+
+
+
+
+{\displaystyle {\frac {cN}{\Delta t}}}
+. As
+
+
+
+Δ
+t
+
+
+{\displaystyle \Delta t}
+has to be chosen much smaller than the average interval between two successive afferent spikes, which implies
+
+
+
+Δ
+t
+<
+
+
+1
+
+υ
+N
+
+
+
+
+
+{\displaystyle \Delta t<{\frac {1}{\upsilon N}}}
+, giving an average of synaptic updates equal to
+
+
+
+υ
+c
+
+N
+
+2
+
+
+
+
+{\displaystyle \upsilon cN^{2}}
+. Therefore, spike-driven synaptic dynamics leads to a linear scaling of computational complexity O(N) per neuron, compared with the O(N2) in the "synchronous" case.

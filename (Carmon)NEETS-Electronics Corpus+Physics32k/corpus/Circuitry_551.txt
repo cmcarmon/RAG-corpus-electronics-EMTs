@@ -1,0 +1,24 @@
+Next,  return  to  the  main  IDE,  select  Tools  and 
+Simulation  Log  Viewer  and  then  Rate  and  Slow. 
+Finally, select Simulation and Start (or press the F1 
+key). You will see the program instructions and the 
+contents  of  the  Z80’s  registers  displayed  as  the 
+program  is  executed  (see  Fig.  11.17).  If  you  have 
+left  the  Peripheral  Devices  window  open  you  will 
+also  be  able  to  change  the  switch  settings  and 
+observe the effect that this has. Finally, you should 
+set  all  of  the  switches  to  the  ‘off’  position  and 
+check  that  the  program  exits  from  the  loop  and 
+reaches the HALT instruction.  
+ 
+A further program 
+ 
+If  you  have  been  able  to  run  the  simple  program 
+successfully  you  might  like  to  try  your  hand  at 
+developing  your  own  assembly  language  program 
+using some of the assembly language  instructions 
+shown in Table 11.4. This program should shift the 
+bits on output Port 82H to the left by the number of 
+places  indicated  by  data  from  Port  80H.  The  two 
+ports can be preset before running the program. 
+ 

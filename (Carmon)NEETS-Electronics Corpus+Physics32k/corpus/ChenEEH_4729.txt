@@ -1,0 +1,20 @@
+The ﬁeld of nonlinear adaptive control developed rapidly in
+the 1990s. Work by Polycarpou and Ioannu (1991) and others
+gave birth to an important branch of adaptive control theory:
+the nonlinear online function approximation-based control,
+which includes neural (Polycarpou, 1996) and fuzzy (Su and
+Stepanenko, 1994) approaches (note that several other relevant
+works are focused on neural and fuzzy control, many of them
+cited in the references within the above publications). The
+neural and fuzzy approaches are most of the time equivalent,
+differing between each other only for the structure of the
+approximator chosen (Spooner and Passino, 1996). Most of
+these publications deal with indirect adaptive control, trying
+ﬁrst to identify the dynamics of the systems and eventually
+generating a control input according to the certainty equiva-
+lence principle (with some modiﬁcation to add robustness to
+the control
+law), whereas very few authors (Spooner and
+Passino, 1996; Rovithakis and Christodoulou, 1995) use the
+direct approach in which the controller directly generates the
+control input to guarantee stability.

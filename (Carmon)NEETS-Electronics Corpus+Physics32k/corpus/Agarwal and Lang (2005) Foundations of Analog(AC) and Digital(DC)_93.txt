@@ -1,0 +1,8 @@
+The intuition behind the first constraint is as follows. The definition of the
+voltage (or the potential difference) between a pair of points across an element
+is the work required to move a particle with unit charge from one point to the
+other along some path against the force due to the electrical field. For the lumped
+abstraction to hold, we require that this voltage be unique, and therefore the
+voltage value must not depend on the path taken. We can make this true by
+selecting element boundaries such that there is no time-varying magnetic flux
+outside the element.

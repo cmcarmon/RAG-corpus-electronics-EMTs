@@ -1,0 +1,8 @@
+When  the  voltage  at  the  threshold  input  (pin-6) 
+exceeds two-thirds of the supply voltage the output 
+of the upper comparator, IC1, will change state and 
+the  bistable  will  become  reset  due  to  voltage 
+transition that appears at R. This, in turn, will make 
+the inverted Q output go high, turning TR1 at the 
+same time. Due to the inverting action of the buffer, 
+IC4, the final output (pin-3) will go low.

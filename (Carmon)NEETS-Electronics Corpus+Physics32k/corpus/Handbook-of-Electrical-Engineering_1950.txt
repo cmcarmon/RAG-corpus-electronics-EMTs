@@ -1,0 +1,17 @@
+Look-Ahead Technique
+The look-ahead technique is a very powerful technique for pipelining of recursive signal processing algorithms
+[Parhi and Messerschmitt, 1989]. This technique can transform a sequential recursive algorithm to an equivalent
+concurrent one, which can then be realized using pipelining or parallel processing or both. This technique has
+been successfully applied to pipeline many signal processing algorithms, including recursive digital ﬁlters (in
+direct  form  and  lattice  form),  adaptive  lattice  digital  ﬁlters,  two-dimensional  recursive  digital  ﬁlters, Viterbi
+decoders, Huffman decoders, and ﬁnite state machines. This research demonstrated that the recursive signal
+processing algorithms can be operated at high speed. This is an important result since modern signal processing
+applications in radar and image processing and particularly in high-deﬁnition and super-high-deﬁnition tele-
+vision video signal processing require very high throughput. Traditional algorithms and topologies cannot be
+used  for  such  high-speed  applications  because  of  the  inherent  speed  bound  of  the  algorithm  created  by  the
+feedback loops. The look-ahead transformation creates additional concurrency in the signal processing algo-
+rithms and the speed bound of the transformed algorithms is increased substantially. The look-ahead trans-
+formation  is  not  free  from  its  drawbacks.  It  is  accompanied  by  an  increase  in  the  hardware  overhead.  This
+difﬁculty has encouraged us to develop inherently pipelinable topologies for recursive signal processing algo-
+rithms. Fortunately, this is possible to achieve in adaptive digital ﬁlters using relaxations on the look-ahead or
+by the use of relaxed look-ahead [Shanbhag and Parhi, 1992].

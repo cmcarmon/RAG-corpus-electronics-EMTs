@@ -1,0 +1,11 @@
+During the recognition phase given an incoming observa-
+tion string, it is imagined that one of the trained HMMs
+produced the observation string. Then, for each HMM, the
+question is asked: How likely (in some sense) is it that this
+HMM produced this incoming observation string? The word
+associated with the HMM of highest likelihood is declared to
+be the recognized word. Note carefully that it is not the pur-
+pose of an HMM to generate observation strings. We imagine,
+however, that one of the HMMs did generate the observation
+string to be recognized as a gimmick for performing the
+recognition.

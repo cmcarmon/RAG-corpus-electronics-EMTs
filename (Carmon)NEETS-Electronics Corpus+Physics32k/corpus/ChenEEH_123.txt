@@ -1,0 +1,6 @@
+Scanning of the circuit shows that it has three nodal voltages
+and that it needs three branch currents for MNA formulation.
+The branch currents are required, one each, for the voltage
+source, the inductor in impedance form, and the VVT. The
+total number of variables is six and can be computed before
+the matrices are formulated. The MNA equations are as follows:

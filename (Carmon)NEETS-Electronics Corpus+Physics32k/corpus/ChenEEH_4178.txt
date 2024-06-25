@@ -1,0 +1,19 @@
+Cyclic Redundancy Check
+For a cyclic redundancy check, the scheme selects a standard
+deﬁned 8 bits, 10 bits, 12 bits, 16 bits, or 32 bits of a constant
+check data. A constant check data is normally represented as a
+polynomial constant. For example, the polynomial x3 þ x2 þ 1
+is the check data bit of 1101. A data message that could be
+thousands of bytes is divided by the polynomial constant with
+exclusive or bit-by-bit operation. The remainder of the di-
+vision is the CRC that is appended at the end of a frame or
+block. With the above example, the CRC will be 3 bits long.
+The receiving station takes the data it receives and performs
+the same computation with the same polynomial constant. If
+the computed CRC is equal to the CRC in the received mes-
+sage, it is ﬁne; otherwise an error has occurred. The CRC error
+detection scheme cannot detect all errors at all times. In the
+case of an error pattern being the multiples of the polynomial
+constant, the error cannot be detected. Therefore, it is very
+important to select a polynomial constant that has low prob-
+ability of being generated in a transmission environment.

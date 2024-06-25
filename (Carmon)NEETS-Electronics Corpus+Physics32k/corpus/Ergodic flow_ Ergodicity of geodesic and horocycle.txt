@@ -1,0 +1,78 @@
+The method using representation theory relies on the following two results:
+If G = SL(2,R) acts unitarily on a Hilbert space H and ξ is a unit vector fixed by the subgroup N of upper unitriangular matrices, then ξ is fixed by G.
+If G = SL(2,R) acts unitarily on a Hilbert space H and ξ is a unit vector fixed by the subgroup A of positive diagonal matrices, then ξ is fixed by G.
+To prove the first result, let S be the matrix
+
+
+
+
+
+(
+
+
+
+0
+
+
+1
+
+
+
+
+−
+1
+
+
+0
+
+
+
+)
+
+
+
+
+{\displaystyle {\begin{pmatrix}0&1\\-1&0\end{pmatrix}}}
+. Thus N = SNS–1 is the subgroup of lower unitriangular matrices. In this case the product is N ⋅N is dense in G. Let η = Sξ. Then η is fixed by N. Hence for g in N ⋅N, the matrix coefficient defined by φ(x) = (xξ,η) satisfies φ(g) = (ξ,η). By density φ(g) = φ(S) = 1 for g in G. In particular if ψ(x) = (xξ,ξ) satisfies ψ(g) = 1 for all g. But then ||gξ − ξ||2 = 2 − ψ(g) − ψ(g1) = 0, so that gξ = ξ for all g in G.
+To prove the second result, suppose that ξ is fixed by A. For the unitary 1-parameter group N ≅ R, let P[a,b] be the spectral subspace corresponding to the interval [a,b]. Let g(s) be the diagonal matrix with entries s and s−1 for s > 1. Then g(s)P[a,b]g(s)−1 = P[s2a, s2a]. As s tends to infinity the latter projections tend to 0 in the strong operator topology if 0< a < b or a < b < 0. Since g(s)ξ = ξ, it follows P[a,b]ξ = 0 in either case. By the spectral theorem, it follows that ξ is in the spectral subspace P({0}); in other words ξ is fixed by N. But then, by the first result, ξ must be fixed by G.
+Let Γ be a cocompact subgroup of PSL(2,R) = G / {±I} for which all non-scalar elements are hyperbolic. Let X = Γ \ G / K where K is the subgroup of rotations
+
+
+
+
+
+(
+
+
+
+cos
+⁡
+θ
+
+
+sin
+⁡
+θ
+
+
+
+
+−
+sin
+⁡
+θ
+
+
+cos
+⁡
+θ
+
+
+
+)
+
+
+
+
+{\displaystyle {\begin{pmatrix}\cos \theta &\sin \theta \\-\sin \theta &\cos \theta \end{pmatrix}}}
+. The unit tangent bundle is SX = Γ \ G, with the geodesic flow given by the right action of A and the horocycle flow by the left action of N. This action if ergodic if L∞(Γ \ G)A = C, i.e. the functions fixed by A are just the constant functions. Since Γ \ G is compact, this will be the case if L2(Γ \ G)A = C. Let H = L2(Γ \ G). Thus G acts unitarily on H on the right. Any non-zero ξ in H fixed by A must be fixed by G, by the second result above. But in this case, if f is a continuous function on G of compact support with ∫ f = 1, then ξ = ∫ f(g) gξ dg. The right hand side equals ξ ∗ f, a continuous function on G. Since ξ is right-invariant under G, it follows that ξ is constant, as required. Hence the geodesic flow is ergodic. Replacing A by N and using the first result above, the same argument shows that the horocycle flow is ergodic.

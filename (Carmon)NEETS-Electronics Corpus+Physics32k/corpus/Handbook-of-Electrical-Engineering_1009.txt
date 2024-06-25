@@ -1,0 +1,19 @@
+BSIM2 Extraction Strategy
+We do not cover the BSIM2 strategy in complete detail because it is very similar to the BSIM strategy, except
+more parameters are involved. The major difference in the two models is the inclusion of extra terms in BSIM2
+for ﬁtting Gds (refer to Fig. 13.15, which shows how badly BSIM typically ﬁts 1/Gds vs. Vds). Basically, the BSIM2
+strategy follows the BSIM strategy for the extraction of parameters not related to Gds. Once these have been
+obtained, the last part of the strategy includes steps for ﬁtting to Gds with parameters that account for channel
+length modulation and hot electron effects. The way this proceeds in BSIM2 is to ﬁt Ids ﬁrst, and then parameters
+MU2, MU3, and MU4 are used to ﬁt to 1/Gds vs. Vds curves for families of Vg s and Vbs. This can be a very time
+consuming and frustrating experience, because ﬁtting to 1/Gds is quite difﬁcult. Also, the equations describing
+how Gds is modeled with MU2, MU3, and MU4 are very unphysical and the interplay between the parameters
+makes ﬁtting awkward. The reader is referred to Fig. 13.16, which shows how BSIM2 typically ﬁts 1/Gds vs. Vds.
+BSIM2 is certainly better than BSIM but it has its own problems ﬁtting 1/Gds.
+BSIM3 Comments
+The BSIM3 model is very new and will undoubtedly change in the future [Huang et al., 1993]. We will not list
+a BSIM3 strategy here, but focus instead on the features of the model that make it appealing for analog modeling.
+BSIM3 has terms for ﬁtting Gds that relate to channel length modulation, drain-induced barrier lowering,
+and hot electron effects. They are incorporated completely differently from the Gds ﬁtting parameters of BSIM2.
+In  BSIM3  these  parameters  enter  through  a  generalized  Early  voltage  relation,  with  the  drain  current  in
+saturation written as

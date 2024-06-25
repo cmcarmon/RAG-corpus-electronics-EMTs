@@ -1,0 +1,4 @@
+A  distributed  database  is  inherently  well  suited  for  parallel  processing  at  both  interquery  and  intraquery
+levels. Parallel processing at the interquery level is the ability to have multiple queries executed concurrently.
+Parallelism at the intraquery level results from the possibility of a single query being simultaneously handled
+by many sites, each site acting on a different portion of the database.

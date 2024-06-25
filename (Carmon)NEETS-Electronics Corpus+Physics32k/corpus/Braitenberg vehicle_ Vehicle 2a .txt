@@ -1,0 +1,4 @@
+A slightly more complex agent has two (left and right) symmetric sensors (e.g. light detectors) each stimulating a wheel on the same side of the body. This vehicle represent a model of negative animal tropotaxis. It obeys the following rule:
+More light right → right wheel turns faster → turns towards the left, away from the light.
+This is more efficient as a behavior to escape from the light source, since the creature can move in different directions, and tends to orient towards the direction from which least light comes.
+In another variation, the connections are negative or inhibitory: more light → slower movement. In this case, the agents move away from the dark and towards the light.

@@ -1,0 +1,72 @@
+In 2D Euclidean field theory, the operator product expansion is a Laurent series expansion associated to two operators. A Laurent series is a generalization of the Taylor series in that finitely many powers of the inverse of the expansion variable(s) are added to the Taylor series: pole(s) of finite order(s) are added to the series.
+Heuristically, in quantum field theory one is interested in the result of physical observables represented by operators. If one wants to know the result of making two physical observations at two points
+
+
+
+z
+
+
+{\displaystyle z}
+and
+
+
+
+w
+
+
+{\displaystyle w}
+, one can time order these operators in increasing time.
+If one maps coordinates in a conformal manner, one is often interested in radial ordering. This is the analogue of time ordering where increasing time has been mapped to some increasing radius on the complex plane. One is also interested in normal ordering of creation operators.
+A radial-ordered OPE can be written as a normal-ordered OPE minus the non-normal-ordered terms. The non-normal-ordered terms can often be written as a commutator, and these have useful simplifying identities. The radial ordering supplies the convergence of the expansion.
+The result is a convergent expansion of the product of two operators in terms of some terms that have poles in the complex plane (the Laurent terms) and terms that are finite. This result represents the expansion of two operators at two different points as an expansion around just one point, where the poles represent where the two different points are the same point e.g.
+
+
+
+
+1
+
+/
+
+(
+z
+−
+w
+)
+
+
+{\displaystyle 1/(z-w)}
+.
+Related to this is that an operator on the complex plane is in general written as a function of
+
+
+
+z
+
+
+{\displaystyle z}
+and
+
+
+
+
+
+
+z
+¯
+
+
+
+
+
+{\displaystyle {\bar {z}}}
+. These are referred to as the holomorphic and anti-holomorphic parts respectively, as they are continuous and differentiable except at the (finite number of) singularities. One should really call them meromorphic, but holomorphic is common parlance. In general, the operator product expansion may not separate into holormorphic and anti-holomorphic parts, especially if there are
+
+
+
+log
+⁡
+z
+
+
+{\displaystyle \log z}
+terms in the expansion. However, derivatives of the OPE can often separate the expansion into holomorphic and anti-holomorphic expansions. This expression is also an OPE and in general is more useful.

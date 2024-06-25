@@ -1,0 +1,13 @@
+As an example, let us work out the numbers for a microprocessor. In a
+microprocessor, the conductors are typically encased in insulators such as sil-
+icon dioxide. These insulators have dielectric constants nearly four times that
+of free space, and so electromagnetic waves travel only half as fast through
+them. Electromagnetic waves travel at the speed of approximately 1 foot or
+30 cm per nanosecond in vacuum, so they travel at roughly 6 inches or 15 cm
+per nanosecond in the insulators. Since modern microprocessors (for exam-
+ple, the Alpha microprocessor from Digital/Compaq) can approach 2.5 cm in
+size, the propagation delay of electromagnetic waves across the chip is on the
+order of 1/6 ns. These microprocessors are approaching a clock rate of 2 GHz
+in 2001. Taking the reciprocal, this translates to a clock cycle time of 1/2 ns.
+Thus, the wave propagation delay across the chip is about 33% of a clock
+cycle. Although techniques such as pipelining attempt to reduce the number of

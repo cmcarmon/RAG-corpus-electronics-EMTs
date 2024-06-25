@@ -1,0 +1,8 @@
+Initially, transient stability programs all ran in the time domain. A set of differential equations is developed
+to describe the dynamic behavior of the synchronous machines. These are linked together by algebraic equations
+for the network and any other part of the system that has a very fast response, i.e., an insigniﬁcant time constant,
+relative to the synchronous machines. All the machine equations are written in the direct and quadrature axes
+of the rotor so that they are constant regardless of the rotor position. The network is written in the real and
+imaginary axes similar to that used by the load ﬂow and faults programs. The transposition between these axes
+only  requires  knowledge  of  the  rotor  angle  relative  to  the  synchronously  rotating  frame  of  reference  of  the
+network.

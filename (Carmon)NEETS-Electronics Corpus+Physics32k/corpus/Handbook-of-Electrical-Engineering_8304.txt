@@ -1,0 +1,25 @@
+The Testability Problem
+The  primary  objective  of  testing  digital  circuits  at  chip,  board,  or  system  level  is  to  detect  the  presence  of
+hardware failures induced by faults in the manufacturing processes or by operating stress or wearout mecha-
+nisms.  Furthermore,  during  manufacturing,  a  secondary  but  equally  important  objective  is  to  accurately
+determine which component or physical element (e.g., connecting wire) is faulty so that quick diagnosis/repair
+of  the  product  becomes  possible.  These  objectives  are  necessary  due  to  imperfections  in  the  manufacturing
+processes used in building digital electronic components/systems. All digital circuits must undergo appropriate
+level testing to avoid shipping faulty components/systems to the customer. Analog circuits may have minimum
+and maximum allowable input signal values (e.g., input voltage) as well as inﬁnitely many values in between
+these that the component has to be able to respond to. Testing of analog circuits is often achieved by checking
+the circuit response at the speciﬁed upper and lower bounds as well as observing/quantifying the change of the
+output  response  with  varying  input  signal  values.  On  the  other  hand,  the  behavior  of  a  digital  system  is
+characterized by discrete (as opposed to continuous) responses to discrete operating state/input signal permu-
+tations such that testing of digital circuits may be achieved by checking their behavior under every operating
+mode  and  input  signal  permutation.  In  principle  this  approach  is  valid.  However,  in  practice,  most  digital
+circuits  are  too  complex  to  be  tested  using  such  a  brute  force  technique.  Instead,  test  methods  have  been
+developed  to  test  digital  circuits  using  only  a  fraction  of  all  possible  test  conditions  without  sacriﬁcing  test
+coverage. Here, test coverage is used to refer to the ratio of faults that can be detected to all faults which are
+taken into consideration, expressed as a percentage. At the present time the most popular fault model is the so-
+called stuck-at fault model that refers to individual nets being considered to be fault-free (i.e., good network)
+or considered to be permanently stuck at either one of the logic 1 or logic 0 values. For example, if the device
+under  test  (DUT)  contains  several  components  (or  building  blocks),  where  the  sum  of  all  input  and  output
+terminals (nodes) of the components is k, there are said to be 2k possible stuck-at faults, corresponding to each
+of the circuit nodes being permanently stuck at one of the two possible logic states. In general, a larger number
+of possible stuck-at faults leads to increased difﬁculty of testing the digital circuit.

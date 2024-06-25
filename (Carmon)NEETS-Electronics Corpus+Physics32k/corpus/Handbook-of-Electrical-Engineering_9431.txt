@@ -1,0 +1,10 @@
+[Hamming,  1950].  The
+Hamming distance 
+between any two binary words is the number of bit positions in which the two words differ.
+For example, the binary words 0000 and 0001 differ in only one position and therefore have a Hamming distance
+of 1. The binary words 0000 and 0101, however, differ in two positions; consequently, their Hamming distance
+Clearly, if two words have a Hamming distance of 1, it is possible to change one word into the other simply
+. 
+is 2
+by modifying one bit in one of the words. If, however, two words differ in two bit positions, it is impossible
+to transform one word into the other by changing one bit in one of the words.

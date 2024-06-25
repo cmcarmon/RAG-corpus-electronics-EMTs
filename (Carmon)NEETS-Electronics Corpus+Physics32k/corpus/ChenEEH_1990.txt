@@ -1,0 +1,7 @@
+Note that to perform control ﬂow checking, each block must
+have three embedded signatures: the current block signature
+and the signatures of the two possible blocks following the
+branch instruction at the end of the block (see Figure 8.12).
+These three signatures must be sent to the WD (via the buffer)
+whenever fetched by the processor irrespective of their position
+in the block and of the counter value.

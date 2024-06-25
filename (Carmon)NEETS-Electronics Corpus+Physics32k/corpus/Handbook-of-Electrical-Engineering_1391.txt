@@ -1,0 +1,5 @@
+where –xt denotes the composite state of the noisy signal at time t. This state is given by –x t  D= (xt, ~xt), where xt
+is  the  Markov  state  of  the  clean  signal  at  time  t  and ~xt denotes  the  Markov  state  of  the  noise  process  at  the
+same time instant t. The MMSE estimator, Eq. (15.4), comprises a weighted sum of conditional mean estimators
+for the composite states of the noisy signal, where the weights are the probabilities of those states given the
+noisy observed signal. A block diagram of this estimator is shown in Fig. 15.5.

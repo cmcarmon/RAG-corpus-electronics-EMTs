@@ -1,0 +1,6 @@
+The rebalancing of the bandwidth load is again performed by
+reordering the memory accesses (also across loop scopes).
+Moreover, the overall cycle distribution for the loops has a
+large impact on the peak bandwidth. Tool support is indispens-
+able for this difﬁcult task. An accurate memory access ordering
+is needed for deﬁning the needed memory architecture.

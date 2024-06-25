@@ -1,0 +1,11 @@
+Notice that the voltage waveform in Figure 12.45 first increases and the current wave-
+form first decreases. This corresponds to the observation we made earlier that the current
+can’t change direction within an inductor instantaneously. Thus, if we close S1 and open
+S2 quickly, (for example, before t1, which is the instant that the inductor current goes
+to zero as seen in Figure 12.46), we can accumulate more charge, and hence more volt-
+age, on the capacitor during each cycle. In this situation, the waveform of the capacitor
+voltage vOUT (where vOUT = vC) will look like that shown in Figure 12.47.
+The value of the voltage vOUT at the end of the nth cycle can be calculated iteratively.
+Let vOUT[n] denote the value of vOUT at the end of the nth cycle. In the first iteration,
+we compute vOUT[1] = vC by substituting v0 = 0 and t = t1 in Equation 12.197. In
+the second iteration, we compute vOUT[2] by substituting v0 = vOUT[1] and t = t1 in

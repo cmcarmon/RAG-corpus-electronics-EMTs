@@ -1,0 +1,10 @@
+Transfer Functions and Block Diagrams
+The transfer function is a means by which the dynamic characteristics of devices or systems are
+described. The transfer function is a mathematical formulation that relates the output variable of
+a device to the input variable. For linear devices, the transfer function is independent of the input
+quantity and solely dependent on the parameters of the device together with any operations of time,
+such as differentiation and integration, that it may possess. To obtain the transfer function, one
+usually goes through three steps: (i) determining the governing equation for the device, expressed
+in terms of the output and input variables, (ii) Laplace transforming the governing equation,
+assuming all initial conditions to be zero, and (iii) rearranging the equation to yield the ratio of
+the output to input variable. The properties of transfer functions are summarized as follows.

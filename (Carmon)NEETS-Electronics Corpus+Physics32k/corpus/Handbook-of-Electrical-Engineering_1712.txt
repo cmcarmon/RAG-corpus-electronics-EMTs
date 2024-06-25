@@ -1,0 +1,18 @@
+One of the problems brieﬂy mentioned previously is the large number of pixels needed to represent an image,
+512 image with
+which translates into a large amount of digital data needed for the representation. A 512 
+8 bits/pixel (1 byte/pixel) of gray level representation requires 2,097,152 bits of computer data to describe it. A
+3
+typical computer ﬁle that contains 1000 words usually requires only about 56,000 bits to describe it. The 512 
+512 image is 37 times larger! (A picture is truly worth more than 1000 words.) This data requirement is one
+of the major problems with digital imaging, given that the storage of digital images in a computer ﬁle system
+is expensive. Perhaps another example will demonstrate this problem. Many computers and word processing
+systems have the capability of transmitting information over telephone lines to other systems at data rates of
+512 image! Moving
+2400 bits per second. At this speed it would require nearly 15 minutes to transmit a 512 
+ of them, i.e., digital video. True digital imaging would
+objects are imaged digitally by taking 
+acquire  about  30  images/s  to  capture  all  the  important  motion  in  a  scene. At  30  images/s,  with  each  image
+512  and  with  8  bits/pixel,  the  system  must  handle  62,914,560  bits/s.  Only  very  expensive
+sampled  at  512 
+acquisition systems are capable of handling these large data rates.

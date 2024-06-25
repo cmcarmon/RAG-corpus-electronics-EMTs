@@ -1,0 +1,5 @@
+813
+ω(kT) and then compute the next value of control, u[(k + 1)T]. After calculation of the control,
+the microprocessor waits for another interrupt from the timer before it outputs the control at
+t = (k + 1)T . An assembly-language program can be developed for the implementation of the
+PI controller.

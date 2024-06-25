@@ -1,0 +1,5 @@
+The base of Q1 is connected to the automatic volume control (avc) line. Anytime a signal enters the
+receiver, a negative avc voltage is applied to the base of Q1. This reduces the collector current and
+increases the collector voltage, which in turn increases the anode voltage of CR1 until the anode becomes
+positive with respect to the cathode. Once again diode CR1 will conduct, and the signal will be passed to
+the second af amplifier. Diode CR1 is effectively a switch controlled by the avc voltage.

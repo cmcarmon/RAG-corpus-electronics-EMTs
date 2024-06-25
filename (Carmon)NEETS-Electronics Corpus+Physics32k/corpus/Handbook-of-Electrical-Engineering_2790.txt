@@ -1,0 +1,7 @@
+The  distance  over  which  the  clock  signal  can  travel  before  incurring  a  delay  greater  than  the  clock  skew
+deﬁnes isochronous regions (illustrated in Fig. 25.35(a) as shaded regions) within the IC. If the external clock
+can be provided to such regions with zero clock skew, then clock routing within the isochronous region is not
+critical. Figure 25.35(a) illustrates the H-tree approach, whose clock paths have equal lengths to terminal points,
+ideally delivering clock pulses to each of the terminal points (leaf nodes) of the tree simultaneously (zero skew).
+In a real circuit, precisely zero clock skew is not achieved since different network segments encounter different
+environments of data lines coupled electrically to the clock line segment.

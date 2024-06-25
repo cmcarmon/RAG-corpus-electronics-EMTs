@@ -1,0 +1,9 @@
+Simplicial Continuation, or Piecewise Linear Continuation (Allgower and Georg) is based on three basic results.
+The first is
+
+The second result is:
+
+Please see the article on piecewise linear continuation for details.
+With these two operations this continuation algorithm is easy to state (although of course an efficient implementation requires a more sophisticated approach. See [B1]). An initial simplex is assumed to be given, from a reference simplicial decomposition of IR^n. The initial simplex must have at least one face which contains a zero of the unique linear interpolant on that face. The other faces of the simplex are then tested, and typically there will be one additional face with an interior zero. The initial simplex is then replaced by the simplex which lies across either face containing zero, and the process is repeated.
+
+References: Allgower and Georg [B1] provides a crisp, clear description of the algotihm.

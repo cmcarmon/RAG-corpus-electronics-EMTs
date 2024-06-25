@@ -1,0 +1,9 @@
+Equiripple FIR ﬁlters are usually designed using the Parks-McClellan computer program [Parks and Burrus,
+1987], which uses the Remez exchange algorithm to determine iteratively the extremal frequencies at which the
+maximum deviations in the error function occur. A listing of this program along with a detailed description
+of its use is available in several references including Parks and Burrus [1987] and DSP Committee [1979]. The
+program is executed by specifying as inputs the desired band edges, gain for each band (usually 0 or 1), band
+weighting, and FIR length. If the resulting ﬁlter has too much ripple in some bands, those bands can be weighted
+more heavily and the ﬁlter redesigned. Details on this design procedure are discussed in Rabiner [1973], along
+with  approximate  design  relationships  which  aid  in  selecting  the  ﬁlter  length  needed  to  meet  a  given  set  of
+speciﬁcations.

@@ -1,0 +1,14 @@
+Historically, gain scheduled controllers have been comprised of
+a set of linear controllers whose gains are adjusted according to
+a scheduling law derived via heuristic methods, such as inter-
+polating on gains, poles and zeros. Gain scheduling via the
+linearization techniques described in Section 9.2 has tradition-
+ally been justiﬁed through successful application. For add-
+itional theoretical justiﬁcation, see Rugh (1991) and Shamma
+and Athans (1990, 1991). Related theoretical work can be
+found in the area of extended linearization Baumann and
+Rugh (1986), which can be viewed as gain scheduling on
+input, output, or state variables rather than exogenous sched-
+uling variables. This approach involves nonlinear control
+design in the spirit of the gain-scheduling approach described
+in Section 9.2.

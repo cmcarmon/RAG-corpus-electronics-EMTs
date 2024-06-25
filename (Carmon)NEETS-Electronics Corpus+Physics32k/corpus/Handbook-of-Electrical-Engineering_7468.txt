@@ -1,0 +1,7 @@
+Perhaps the fastest method of BER estimation is the semi-analytic (SA) or quasi-analytic technique [Jeruchim,
+1984]. This technique is useful for systems that resemble Fig. 78.10. In this case the mean of the decision metric
+is a function of the transmitted data pattern and is independent of the noise. All other parameters of the pdf
+of the decision metric are a function of the noise and are independent of the data. This means that one can
+analytically determine the conditional pdf of the decision metric given the transmitted data pattern. By using
+total probability one can then determine the unconditional error rate. The problem with conventional math-
+ematical analysis is that when the channel has a signiﬁcant amount of memory or the nonlinearity is rather

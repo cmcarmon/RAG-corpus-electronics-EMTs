@@ -1,0 +1,64 @@
+The Navier–Stokes equations govern the velocity and pressure of a fluid flow. In a turbulent flow, each of these quantities may be decomposed into a mean part and a fluctuating part. Averaging the equations gives the Reynolds-averaged Navier–Stokes (RANS) equations, which govern the mean flow. However, the nonlinearity of the Navier–Stokes equations means that the velocity fluctuations still appear in the RANS equations, in the nonlinear term
+
+
+
+−
+ρ
+
+
+
+
+υ
+
+i
+
+
+′
+
+
+
+υ
+
+j
+
+
+′
+
+
+
+¯
+
+
+
+
+{\displaystyle -\rho {\overline {\upsilon _{i}^{\prime }\upsilon _{j}^{\prime }}}}
+from the convective acceleration. This term is known as the Reynolds stress,
+
+
+
+
+R
+
+i
+j
+
+
+
+
+{\displaystyle R_{ij}}
+. Its effect on the mean flow is like that of a stress term, such as from pressure or viscosity.
+To obtain equations containing only the mean velocity and pressure, we need to close the RANS equations by modelling the Reynolds stress term
+
+
+
+
+R
+
+i
+j
+
+
+
+
+{\displaystyle R_{ij}}
+as a function of the mean flow, removing any reference to the fluctuating part of the velocity. This is the closure problem.

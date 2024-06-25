@@ -1,0 +1,12 @@
+Figures 10.3 and 10.4 show the robustness of the controller
+to system parameter uncertainties. Variations in Kd and K1 are
+considered because they are crucial to controller design. Figure
+10.3 gives the engine speed variations to a 15 Nm disturbance
+after 20 engine cycles for Kd varying from 0.25 to 8. One can
+see that the controller can stabilize the system and reject the
+disturbance for all the cases. As Kd decreases, however, the
+engine speed deviation from the nominal idle speed increases,
+whereas the chattering becomes signiﬁcant when Kd increases.
+Further increasing Kd would lead to instability. Figure 10.4
+gives the engine speed for K1 ¼ 11 and 220. Increasing K1
+would give higher chattering and even instability.

@@ -1,0 +1,4 @@
+Isolated word recognition using HMMs involves computing, for each word in the recognition vocabulary,
+the probability P( O*l) of the observation sequence O = O1 . . . O T . The unknown utterance is recognized as
+the word which maximizes this probability. The probability P( O*l) is the sum over all possible state sequences
+Q = q1 . . . qT  of the probability of O and Q given l , or

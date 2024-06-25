@@ -1,0 +1,5 @@
+The development team first looks at the output level for a logical 1 required by Disco’s
+static discipline. The static discipline used by Disco requires devices to produce voltages
+between 4 V (VOH) and 5 V for a logical 1. As illustrated in Figure 5.12, Yehaa’s devices
+produce a voltage level of 4.5 V for a logical 1, which falls within the required range,
+and so they satisfy the VOH requirement.

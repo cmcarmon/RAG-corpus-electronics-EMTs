@@ -1,0 +1,9 @@
+In Section 9.4, we saw that the choice of D and Dt can affect
+the propagation characteristics of numerical waves in the
+FDTD space lattice and, therefore, the numerical error. In
+this section, we show that, in addition, Dt must be bounded
+to ensure numerical stability. Our approach to determine the
+upper bound on Dt is based on the complex-frequency analy-
+sis reported by Taﬂove and Hagness (2000). This technique
+allows straightforward estimates of the exponential growth rate
+of unstable numerical solutions.

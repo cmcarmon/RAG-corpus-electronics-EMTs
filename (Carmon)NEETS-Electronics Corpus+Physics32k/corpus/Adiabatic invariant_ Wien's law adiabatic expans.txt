@@ -1,0 +1,118 @@
+For a box of radiation, ignoring quantum mechanics, the energy of a classical field in thermal equilibrium is infinite, since equipartition demands that each field mode has an equal energy on average and there are infinitely many modes. This is physically ridiculous, since it means that all energy leaks into high frequency electromagnetic waves over time.
+Still, without quantum mechanics, there are some things that can be said about the equilibrium distribution from thermodynamics alone, because there is still a notion of adiabatic invariance that relates boxes of different size.
+When a box is slowly expanded, the frequency of the light recoiling from the wall can be computed from the Doppler shift. If the wall is not moving, the light recoils at the same frequency. If the wall is moving slowly, the recoil frequency is only equal in the frame where the wall is stationary. In the frame where the wall is moving away from the light, the light coming in is bluer than the light coming out by twice the Doppler shift factor v/c.
+
+
+
+
+Δ
+f
+=
+
+
+
+2
+v
+
+c
+
+
+f
+
+
+{\displaystyle \Delta f={2v \over c}f}
+
+On the other hand, the energy in the light is also decreased when the wall is moving away, because the light is doing work on the wall by radiation pressure. Because the light is reflected, the pressure is equal to twice the momentum carried by light, which is E/c. The rate at which the pressure does work on the wall is found by multiplying by the velocity:
+
+
+
+
+
+Δ
+E
+=
+v
+
+
+
+2
+E
+
+c
+
+
+
+
+{\displaystyle \,\Delta E=v{2E \over c}}
+
+This means that the change in frequency of the light is equal to the work done on the wall by the radiation pressure. The light that is reflected is changed both in frequency and in energy by the same amount:
+
+
+
+
+
+
+
+Δ
+f
+
+f
+
+
+=
+
+
+
+Δ
+E
+
+E
+
+
+
+
+{\displaystyle {\Delta f \over f}={\Delta E \over E}}
+
+Since moving the wall slowly should keep a thermal distribution fixed, the probability that the light has energy E at frequency f must only be a function of E/f.
+This function cannot be determined from thermodynamic reasoning alone, and Wien guessed at the form that was valid at high frequency. He supposed that the average energy in high frequency modes was suppressed by a Boltzmann-like factor. This is not the expected classical energy in the mode, which is
+
+
+
+1
+
+/
+
+2
+β
+
+
+{\displaystyle 1/2\beta }
+by equipartition, but a new and unjustified assumption that fit the high-frequency data.
+
+
+
+
+
+⟨
+
+E
+
+f
+
+
+⟩
+=
+
+e
+
+−
+β
+h
+f
+
+
+
+
+{\displaystyle \,\langle E_{f}\rangle =e^{-\beta hf}}
+
+When the expectation value is added over all modes in a cavity, this is Wien's distribution, and it describes the thermodynamic distribution of energy in a classical gas of photons. Wien's Law implicitly assumes that light is statistically composed of packets that change energy and frequency in the same way. The entropy of a Wien gas scales as the volume to the power N, where N is the number of packets. This led Einstein to suggest that light is composed of localizable particles with energy proportional to the frequency. Then the entropy of the Wien gas can be given a statistical interpretation as the number of possible positions that the photons can be in.

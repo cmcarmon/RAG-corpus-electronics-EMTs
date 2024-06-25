@@ -1,0 +1,6 @@
+To figure out the range of time periods that the 555 timer generates, first use 
+47,000 for R2 (47 kΩ) and 0.0000047 for C1 (4.7 μF) in the equation for T. Then 
+calculate the low end of the timing interval by using 0 for R1 in the equation, 
+and calculate the high end of the timing interval by using 1,000,000 for R1 in 
+the equation. You should expect the timing interval to range from roughly 
+0.3 seconds to 3.6 seconds as you dial the pot from 0 Ω to 1 MΩ.

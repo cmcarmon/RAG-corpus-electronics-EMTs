@@ -1,0 +1,113 @@
+In quantum field theory and string theory, a coupling constant is a number that controls the strength of interactions in the theory. For example, the strength of gravity is described by a number called Newton's constant, which appears in Newton's law of gravity and also in the equations of Albert Einstein's general theory of relativity. Similarly, the strength of the electromagnetic force is described by a coupling constant, which is related to the charge carried by a single proton.
+To compute observable quantities in quantum field theory or string theory, physicists typically apply the methods of perturbation theory. In perturbation theory, quantities called probability amplitudes, which determine the probability for various physical processes to occur, are expressed as sums of infinitely many terms, where each term is proportional to a power of the coupling constant
+
+
+
+g
+
+
+{\displaystyle g}
+:
+
+
+
+
+A
+=
+
+A
+
+0
+
+
++
+
+A
+
+1
+
+
+g
++
+
+A
+
+2
+
+
+
+g
+
+2
+
+
++
+
+A
+
+3
+
+
+
+g
+
+3
+
+
++
+…
+
+
+{\displaystyle A=A_{0}+A_{1}g+A_{2}g^{2}+A_{3}g^{3}+\dots }
+.
+In order for such an expression to make sense, the coupling constant must be less than 1 so that the higher powers of
+
+
+
+g
+
+
+{\displaystyle g}
+become negligibly small and the sum is finite. If the coupling constant is not less than 1, then the terms of this sum will grow larger and larger, and the expression gives a meaningless infinite answer. In this case the theory is said to be strongly coupled, and one cannot use perturbation theory to make predictions.
+For certain theories, S-duality provides a way of doing computations at strong coupling by translating these computations into different computations in a weakly coupled theory. S-duality is a particular example of a general notion of duality in physics. The term duality refers to a situation where two seemingly different physical systems turn out to be equivalent in a nontrivial way. If two theories are related by a duality, it means that one theory can be transformed in some way so that it ends up looking just like the other theory. The two theories are then said to be dual to one another under the transformation. Put differently, the two theories are mathematically different descriptions of the same phenomena.
+S-duality is useful because it relates a theory with coupling constant
+
+
+
+g
+
+
+{\displaystyle g}
+to an equivalent theory with coupling constant
+
+
+
+1
+
+/
+
+g
+
+
+{\displaystyle 1/g}
+. Thus it relates a strongly coupled theory (where the coupling constant
+
+
+
+g
+
+
+{\displaystyle g}
+is much greater than 1) to a weakly coupled theory (where the coupling constant
+
+
+
+1
+
+/
+
+g
+
+
+{\displaystyle 1/g}
+is much less than 1 and computations are possible). For this reason, S-duality is called a strong-weak duality.

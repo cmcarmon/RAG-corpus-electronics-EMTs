@@ -1,0 +1,10 @@
+Homomorphic (Cepstral) Analysis
+For  the  speech  model  of  Fig. 15.6,  the  excitation  and  ﬁlter  impulse  response  are  convolved  to  produce  the
+speech. One of the problems of speech analysis is to separate or deconvolve the speech into these two compo-
+nents. One such technique is called homomorphic ﬁltering [Oppenheim and Schafer, 1968]. The characteristic
+system for a system for homomorphic deconvolution converts a convolution operation to an addition operation.
+The output of such a characteristic system is called the complex cepstrum. The complex cepstrum is deﬁned
+as the inverse Fourier transform of the complex logarithm of the Fourier transform of the input. If the input
+sequence is minimum phase (i.e., the z-transform of the input sequence has no poles or zeros outside the unit
+circle), the sequence can be represented by the real portion of the transforms. Thus, the real cepstrum can be
+computed by calculating the inverse Fourier transform of the log-spectrum of the input.

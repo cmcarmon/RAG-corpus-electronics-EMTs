@@ -1,0 +1,11 @@
+Non-recursive  ﬁlters  generally  have  superior  performance  compared  with  the  EKF,  at  the  cost  of  higher
+computational complexity. For parameter estimation problems (corresponding to zero process noise, Qk = 0),
+these non-recursive ﬁlters are popular in practical applications despite the increased computational complexity
+compared  with  the  EKF.  Gauss  invented  this  type  of  non-recursive  nonlinear  ﬁlter  over  200 years  ago;  see
+Sorenson [1980]. On the other hand, non-recursive ﬁlters for estimating x, where x is a Markov process with
+non-zero process noise (Qk ≠ 0), generally have much greater computational complexity. Nevertheless, with a
+sufﬁciently fast computer, it would be practical to implement such a non-recursive algorithm. The theory to
+design such algorithms is well known, and some Monte Carlo simulations have shown excellent performance
+relative  to  the  EKF;  see  Sorenson  [1988]  and  Kastella  et al.  [1997].  Presumably,  with  computers  getting  ten
+times faster (at ﬁxed cost) every 5 years, the application of such non-recursive ﬁlters will become common in
+the future, despite very high computational complexity relative to the EKF.

@@ -1,0 +1,14 @@
+There are many application-dependent constraints that
+govern the path search region in the DP grid. We mentioned
+the possibility of local path constraints that govern the local
+trajectory of a path extension. These local constraints imply
+global constraints on the allowable region in the grid through
+which the optimal path may traverse. Further, in searching the
+DP grid, it is often the case that relatively few partial paths
+sustain sufﬁciently low costs to be considered candidates for
+extension to the optimal path. To cut down on what can be an
+extraordinary number of paths and computations, a pruning
+procedure is frequently employed that terminates consider-
+ation of unlikely paths. This procedure is called a beam search
+(Deller et al., 2000; Rabiner and Juang, 1993; Lowerre and
+Reddy, 1980).

@@ -1,0 +1,5 @@
+Some multimeters use a 20,000 ohms-per-volt meter sensitivity for measuring dc voltage and a 5,000
+ohms-per-volt sensitivity for measuring ac voltage. The higher the meter resistance, the less it will load
+the circuit. The idea is to keep circuit loading to an absolute minimum so that the circuit under test is
+unaffected by the meter. In this way, you can get a clearer picture of what the circuit malfunction is, not
+the effect of the meter on the circuit.

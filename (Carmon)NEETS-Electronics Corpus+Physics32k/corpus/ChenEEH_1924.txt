@@ -1,0 +1,9 @@
+RESO is essentially triple-time redundancy, it is much slower
+than REMOD although it has a small advantage in area over-
+head. TMR is very fast, but REMOD has a signiﬁcant advantage
+in area, and with similar area overhead REMOD can even
+tolerate three faults. Partitioned TMR is most comparable to
+1-FT REMOD in terms of overhead, with both of these tech-
+niques having area overheads of about 100 to 150% and time
+overheads of 10 to 30%. The big advantage of REMOD, however,
+is that it can be extended to tolerate multiple sequential faults.

@@ -1,0 +1,11 @@
+and our simple node analysis can be applied without modification. We will do
+examples using both the modified and unmodified versions of the node method.
+To illustrate our modified method of node analysis for a circuit containing
+a dependent source, consider the analysis of the circuit shown in Figure 3.26.
+This circuit has one dependent source, namely a CCCS. To analyze this circuit
+using the node method, we first replace its CCCS with an independent current
+source carrying a known current, say I, and analyze the resulting circuit. The
+resulting circuit, however, is exactly that shown in Figure 3.10, which we have
+already analyzed using the node method in Section 3.3. Note that the value I in
+Figure 3.10 replaces the value αi1 in Figure 3.26. Thus, we are partially done
+with the analysis of the circuit in Figure 3.26.

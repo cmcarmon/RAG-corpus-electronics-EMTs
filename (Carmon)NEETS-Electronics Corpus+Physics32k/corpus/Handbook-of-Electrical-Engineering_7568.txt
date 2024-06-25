@@ -1,0 +1,9 @@
+might  be  a  relay,  an  indicator  light,  or  an  LED  display.  Also,  two  or  more  open  collector  gates  can  share  a
+common load, resulting in the anding together of the individual gate functions. This is called a “wired-AND
+connection.” In any application, there must be some form of load or the device will not function. There is a
+lower limit to the resistance of this load which is determined by the current rating of the open collector transistor.
+For wired-AND applications the resistance range depends on how many outputs are being wired and on the
+load  being  driven  by  the  wired  outputs.  Formulas  are  given  in  the  data  books.  Since  the  open  collector
+conﬁguration does not have the speed enhancement associated with an active pull-up, the low to high propa-
+gation delay (tPLH) is about double that of the totem-pole output. It should be observed that totem-pole outputs
+should not be wired, since excessive currents in the active pull-up circuit could result.

@@ -1,0 +1,7 @@
+Here,  the  code  weights  are  80,  40,  20,  10;  8,  4,  2,  1;  0.8,  0.4,  0.2,  0.1;  and  0.08,  0.04,  0.02,  0.01  for  the  tens,
+units,  tenths,  and  hundredths  digits,  respectively,  representing  four  decades.  Conversion  between  binary  and
+NBCD requires conversion to decimal as an intermediate step. For example, to convert  from  NBCD  to  binary
+requires that groups of four bits be selected in both directions from the radix point to form the decimal number.
+If  necessary,  zeros  are  added  to  the  leftmost  or  rightmost  ends  to  complete  the  groups  of  four  bits  as  in  the
+above  example.  Negative  NBCD  numbers  can  be  represented  either  in  sign-magnitude  notation  or  1’s  or  2’s
+complement notation as discussed later.

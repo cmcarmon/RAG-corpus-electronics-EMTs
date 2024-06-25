@@ -1,0 +1,17 @@
+Most older DRAMs are of the pipelined page-mode type.
+Pipelined memory implementations improve the throughput
+of a memory, but they don’t improve the latency. For instance,
+in an extended data output (EDO) RAM, the address decoding
+and the actual access to the storage matrix (of the previous
+memory access) are done in parallel. In that case, the access
+sequence to the DRAM is also important. For example, the
+data sheet of an EDO memory chip speciﬁes the sequence
+10-2-2-23-2-2-2, where the numbers represent clock cycles.
+Each curly bracket indicates four bus cycles of 64-bit each—
+that is one cache line. The ﬁrst sequence, 10-2-2-2, speciﬁes the
+timing if the page is ﬁrst opened and accessed four times. The
+second sequence, 3-2-2-2, speciﬁes the timing if the page was
+already open and accessed four additional times—that means
+no other memory page was opened and accessed in between
+those times. The last sequence repeats as long as memory is
+accessed in the same page.

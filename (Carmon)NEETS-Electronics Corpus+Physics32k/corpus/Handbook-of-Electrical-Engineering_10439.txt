@@ -1,0 +1,9 @@
+Identiﬁcation Error
+The a priori knowledge of the real system and measurement noise present in the experiment y is stated in terms
+of  sets  S  and  ᏺ.  The  statement  of  the  problem  does  not  assign  probabilities  to  particular  models  or  noise;
+therefore, it is deterministic in nature. In addition, the modeling error should be valid no matter which model
+g ∈ S is the real plant (or η ∈ ᏺ the real noise vector) that induces a worst-case approach. In this deterministic
+worst-case framework, the identiﬁcation error should “cover” all models g ∈ S that combined with all possible
+noise vectors η ∈ ᏺ, are consistent with the experiments, i.e., S(y). In practice, however, the family of models
+conservatively covers this “tight” uncertainty set. Hence, it provides an upper bound for the distance from a
+model to the real plant. In this framework, the worst-case error is deﬁned as follows:

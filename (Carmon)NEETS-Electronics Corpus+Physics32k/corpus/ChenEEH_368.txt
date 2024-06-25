@@ -1,0 +1,10 @@
+When pinch-off occurs, the voltage at the pinch-off point is
+pinned at VP even when the channel length is continually
+reduced at higher drain biases. In long channel MESFETs, the
+length of the pinch-off region is negligibly small and can be
+ignored. This results in saturation of the drain current for
+voltages beyond VP. In smaller devices, however, the length
+and the resistance of the channel decreases as the pinch-off
+region becomes wider. Similar to channel length modulation
+in MOSFETs, this results in a gradual increase in drain current
+with applied drain bias.

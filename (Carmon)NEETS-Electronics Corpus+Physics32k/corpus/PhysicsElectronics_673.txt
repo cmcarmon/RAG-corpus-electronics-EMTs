@@ -1,0 +1,4 @@
+Since op-amps are generally DC coupled, there will appear a nonzero output even when the
+inputs are grounded or connected to give no input signal. The voltage oﬀset is the result of
+slightly diﬀerent transistors making up the diﬀerential input stage. The voltage oﬀset can
+be reduced by using an externally-adjustable bias resistor (voltage oﬀset null circuitry).

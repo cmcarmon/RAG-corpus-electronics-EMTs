@@ -1,0 +1,4 @@
+This converter, shown in Figure 6.2.14, also contains a D/A converter, but the binary counter
+is replaced by a successive-approximation register (SAR), which makes the analog-to-digital
+conversion much faster. The SAR sets the MSB to 1 and all other bits to 0, after a start-of-
+conversion pulse. If the comparator indicates the D/A converter output to be larger than the signal

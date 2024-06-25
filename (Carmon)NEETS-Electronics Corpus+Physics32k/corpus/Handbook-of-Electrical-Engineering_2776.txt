@@ -1,0 +1,12 @@
+Different  FPGA  manufacturers  have  developed  different  basic  cells,  seeking  to  provide  the  most  useful
+functionality in the cells for generation of overall FPGA functions. Cells range from ﬁne-grained cells consisting
+of basic gates through medium-grained cells providing more complex programmable functions to large-grained
+cells. Different FPGA manufacturers also provide different approaches to the programming step. FPGA pro-
+gramming technologies include one-time programming or multiple-time programming capabilities with the
+programming  either  nonvolatile  (i.e.,  programming  is  retained  when  power  is  turned  off)  or  volatile  (i.e.,
+programming is lost when power is turned off). Physical programming includes antifuse (fuse) approaches in
+which  the  programming  nodes  are  normally  off  (on)  and  are  “blown”  into  a  permanently  on  (off)  state,
+providing one-time, nonvolatile programming. Electrical switches also can be used for programming, with an
+electrical control signal setting the state of the switch. The state control signal can be provided by an EPROM
+(one-time, nonvolatile), an EEPROM (multiple-time, nonvolatile), or an SRAM (multiple-time, volatile), with
+different approaches having different advantages and disadvantages.

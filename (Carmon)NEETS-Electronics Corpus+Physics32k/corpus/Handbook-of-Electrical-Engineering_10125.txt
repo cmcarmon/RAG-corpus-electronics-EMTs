@@ -1,0 +1,12 @@
+Typical  industrial  robots  have  six  or  fewer  DOF.  With  six  DOF,  the  robot  can,  within  its  work  envelope,
+reach arbitrary positions and orientations. At the edge of the work envelope, a six-DOF robot can attain only
+one  orientation.  To  increase  the  geometric  dexterity  of  the  manipulator,  it  is  useful  to  consider  robots  with
+more than six DOF, i.e., redundant robots. These robots are highly dexterous and can use the extra DOF in
+ (points where the manipulator
+many ways: avoidance obstacle, joint torque minimization, kinematic 
+cannot  move  in  certain  directions)  avoidance,  bracing  strategies  where  part  of  the  arm  is  braced  against  a
+redundant manip-
+structure, which raises the lowest structural resonant frequency of the arm, etc. While the 
+ulator
+ conﬁguration has many desirable properties, the geometric complexity has limited their application in
+industry.

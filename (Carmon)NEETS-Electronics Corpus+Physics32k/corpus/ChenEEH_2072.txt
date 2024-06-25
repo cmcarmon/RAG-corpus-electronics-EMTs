@@ -1,0 +1,27 @@
+A widely accepted formal notation for specifying the function-
+ality of sequential systems is Z (Spivey, 1992). The Z is based on
+typed set theory and ﬁrst-order logic and, thus, offers rich type
+deﬁnition facility and supports formal reasoning. However, Z
+does not support an effective deﬁnition of concurrent and
+distributed systems, and Z speciﬁcations do not have explicit
+operational semantics. Many researchers have attempted to
+combine Z with other concurrent models, including CSP (Ben-
+jamin, 1990), CCS (Taguchi and Araki, 1997), and temporal
+logic (Duke and Smith, 1989; Clarke and Wing, 1996; Evans,
+1997; Lamport, 1994b) in recent years. Several works attempted
+to integrate Petri nets and Z (van Hee et al., 1991; He, 2001). In
+van Hee et al. (1991), Z was used to specify (1) the metamodel of
+restricted hierarchical colored Petri nets (that allows super
+transitions but not super places) and (2) the transitions of
+speciﬁc colored Petri nets. A complete speciﬁcation consists
+of a hierarchical net structure, one global state schema for
+deﬁning all places, and one operation schema for each transi-
+tion. Schemas of transitions are piped to obtain an operational
+semantics through the use of input and output variables. In He
+(2001), a formal method of integrating Petri nets with Z was
+presented with the objectives to extend Petri nets with data and
+function deﬁnition capabilities through an underlying Z speci-
+ﬁcation and to extend Z with an explicit operational seman-
+tics and concurrency mechanisms through Petri nets. In the
+following subsections, we brieﬂy describe the basics of Z nota-
+tions and introduce the results given in He (2001).

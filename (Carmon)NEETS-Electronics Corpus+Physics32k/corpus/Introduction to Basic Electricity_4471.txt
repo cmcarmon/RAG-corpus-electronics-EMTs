@@ -1,0 +1,12 @@
+The JK flip-flop is the most widely used flip-flop. 
+It has all the features of the other types of flip-flops. 
+It is also edge triggered, accepting data only at the J 
+and K inputs that are present at the active clock edge 
+(high to low or low to high). This allows the accept-
+ing of input data on J and K at a precise instant. The 
+logic diagram and symbol for the JK flip-flop is shown 
+in Figure 44-7. J and K are the inputs. The significant 
+feature of the JK flip-flop is that when both the J and 
+K inputs are high, repeated clock pulses cause the 
+output to toggle or change state. The two asynchro-
+nous inputs, PS (preset) and CLR (clear), override the 

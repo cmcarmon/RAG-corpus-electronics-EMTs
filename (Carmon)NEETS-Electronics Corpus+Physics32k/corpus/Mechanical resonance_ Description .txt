@@ -1,0 +1,60 @@
+The natural frequency of a simple mechanical system consisting of a weight suspended by a spring is:
+
+
+
+
+f
+=
+
+
+1
+
+2
+π
+
+
+
+
+
+
+k
+m
+
+
+
+
+
+{\displaystyle f={1 \over 2\pi }{\sqrt {k \over m}}}
+
+where m is the mass and k is the spring constant.
+A swing set is a simple example of a resonant system with which most people have practical experience. It is a form of pendulum. If the system is excited (pushed) with a period between pushes equal to the inverse of the pendulum's natural frequency, the swing will swing higher and higher, but if excited at a different frequency, it will be difficult to move. The resonance frequency of a pendulum, the only frequency at which it will vibrate, is given approximately, for small displacements, by the equation:
+
+
+
+
+f
+=
+
+
+1
+
+2
+π
+
+
+
+
+
+
+g
+L
+
+
+
+
+
+{\displaystyle f={1 \over 2\pi }{\sqrt {g \over L}}}
+
+where g is the acceleration due to gravity (about 9.8 m/s2 near the surface of Earth), and L is the length from the pivot point to the center of mass.(An elliptic integral yields a description for any displacement). Note that, in this approximation, the frequency does not depend on mass.
+Mechanical resonators work by transferring energy repeatedly from kinetic to potential form and back again. In the pendulum, for example, all the energy is stored as gravitational energy (a form of potential energy) when the bob is instantaneously motionless at the top of its swing. This energy is proportional to both the mass of the bob and its height above the lowest point. As the bob descends and picks up speed, its potential energy is gradually converted to kinetic energy (energy of movement), which is proportional to the bob's mass and to the square of its speed. When the bob is at the bottom of its travel, it has maximum kinetic energy and minimum potential energy. The same process then happens in reverse as the bob climbs towards the top of its swing.
+Some resonant objects have more than one resonance frequency, particularly at harmonics (multiples) of the strongest resonance. It will vibrate easily at those frequencies, and less so at other frequencies. It will "pick out" its resonance frequency from a complex excitation, such as an impulse or a wideband noise excitation. In effect, it is filtering out all frequencies other than its resonance. In the example above, the swing cannot easily be excited by harmonic frequencies, but can be excited by subharmonics.

@@ -1,0 +1,8 @@
+The main disadvantage of a series regulator is that the pass transistor is in series with the load. If a 
+short develops in the load, a large amount of current will flow in the regulator circuit. The pass transistor 
+can be damaged by this excessive current flow. You could place a fuse in the circuit, but in many cases, 
+the transistor will be damaged before the fuse blows. The best way to protect this circuit is to limit the 
+current automatically to a safe value. A series regulator with a current-limiting circuit is shown in figure 
+4-50. You should recall that in order for a silicon NPN transistor to conduct, the base must be between 0.6 
+volt to 0.7 volt more positive than the emitter. Resistor R4 will develop a voltage drop of 0.6 volt when 
+the load current reaches 600 milliamperes. This is illustrated using Ohm's law: 

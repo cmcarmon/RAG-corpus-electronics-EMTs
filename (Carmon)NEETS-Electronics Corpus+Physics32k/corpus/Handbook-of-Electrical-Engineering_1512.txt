@@ -1,0 +1,12 @@
+Speaker Adaptation
+In spite of recent progress in the design of speaker-independent (SI) systems, error rates are still typically two
+or  three  times  higher  than  equivalent  speaker-dependent  (SD)  systems.  Variability  in  both  anatomical  and
+personal characteristics contribute to this effect. Anatomical differences include the length of the vocal tract,
+the size of the nasal cavity, etc. Similarly, there are variable speaking habits, such as accent, speed, and loudness.
+The straight-forward approach which blindly mixes the statistics for all speakers discards useful information.
+The large amount of speaker-speciﬁc data required to train SD systems renders them impractical for many
+applications. However, it is possible to use a small amount of the new speaker’s speech (adaptation data) to
+“tune”  the  SI  models  to  the  new  speaker.  Ideally,  we  would  like  to  retain  the  robustness  of  well-trained  SI
+models, yet improve the appropriateness of the models for the new speaker. Such methods are called speaker
+adaptation techniques. The adaptation is said to be supervised if the true text transcript of the adaptation data
+is known; otherwise, the adaption is said to be unsupervised.

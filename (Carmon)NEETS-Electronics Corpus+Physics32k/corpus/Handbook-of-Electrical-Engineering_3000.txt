@@ -1,0 +1,9 @@
+Design Considerations for the Common Emitter Ampliﬁer
+Equation (28.12) underscores a serious shortcoming of the canonical common emitter conﬁguration. In par-
+ticular, since the internal emitter resistance of a BJT is small, the low frequency voltage gain is sensitive to the
+processing  uncertainties  that  accompany  the  numerical  value  of  the  small  signal  beta.  The  problem  can  be
+rectiﬁed  at  the  price  of  a  diminished  voltage  gain  magnitude  by  inserting  an emitter  degeneration  resistance,
+REE,  in  series  with  the  emitter  lead,  as  shown  in  Fig. 28.15(a).  Since  REE  appears  in  series  with  the  internal
+emitter resistance, Re , as suggested in Fig. 28.15(b), the impact of emitter degeneration can be assessed analyt-
+ically  by  replacing  Re  in  Eqs. (28.12)  through  (28.28)  by  the  resistance  sum  (Re +  REE).  For  sufﬁciently  large
+RE E, such that

@@ -1,0 +1,9 @@
+Since the DFT is merely a sampled version of the DTFT, the table shown on page 159 applies to the DFT
+as well, but with one notable exception: signals having even or odd symmetry. Because signals amenable to
+the DFT are deﬁned only for n = 0 . . . , N − 1, what does s(−n) mean? Because the result of computing the
+DFT, then the IDFT of the result, is a periodic version of the original signal, we consider the original signal
+to be periodic with period N. In this case, an even signal would satisfy s(−n) = s(N − n). Computing
+the DFT of an even or odd signal would yield the result s(n) = ±s(N − n) ←→ ±S(N − k). Also note
+that using the table for real-valued signals, we would conclude that S(k) = S∗(−k). However, the DFT’s
+result is only deﬁned for positive k. Note that the DFT spectrum is periodic with period N, implying that
+S(−k) = S(N − k). Therefore, the DFT of all real-valued signals must have the property S(k) = S∗(N − k).

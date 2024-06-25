@@ -1,0 +1,6 @@
+As  observed  by  Bucher  and  Hayes  [1980],  supercomputer  I/O  can  be  characterized  almost  entirely  by
+sequential I/O. Typically, computation parameters are moved in bulk from disk to in-memory data structures,
+and  results  are  periodically  written  back  to  disk.  These  workloads  demand  large  bandwidth  and  minimum
+latency, but are characterized by low throughput. Contrast this with transaction processing, which is charac-
+terized by enormous numbers of random accesses, relatively small units of work, and a demand for moderate
+latency with very high throughput.

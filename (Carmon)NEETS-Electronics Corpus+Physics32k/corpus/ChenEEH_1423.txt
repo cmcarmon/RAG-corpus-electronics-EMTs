@@ -1,0 +1,13 @@
+The vector dot product, which involves computing the sum
+of products of corresponding elements in two vectors, is a
+common algorithmic kernel in signal processing. Its use ranges
+from ﬁlters and correlators to two-dimensional image trans-
+forms, such as the discrete cosine transform. Benyamin et al.
+(1999) describes a method for producing optimized reconﬁg-
+urable hardware implementations of vector dot products. The
+method is based on a novel representation of common sub-
+expressions in constant data patterns. Whereas traditional
+techniques such as distributed arithmetic require storage size
+exponential in the number of vector elements, the storage
+requirement of the proposed method usually grows linearly
+with problem size.

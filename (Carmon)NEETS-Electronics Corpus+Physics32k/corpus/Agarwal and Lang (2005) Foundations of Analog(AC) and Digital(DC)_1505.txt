@@ -1,0 +1,9 @@
+A problem with this design is that the lights that were turned on by the assertion of M
+would go off the instant M was de-asserted.13 Let us consider a more useful design in
+which we require the lights to stay on even after the motion signal M goes away. To
+make this happen, we need some form of memory to remember the occurrence of M,
+even after the M signal goes away. The desired circuit uses a memory element and is
+shown in Figure 10.51. In this circuit, the signal M is connected to the store input of the
+memory, and the signal D is connected to the dIN input of the memory. As depicted
+in the signal waveforms in Figure 10.51, the memory output remains high if motion is
+detected even when D is false.14

@@ -1,0 +1,14 @@
+Since state variables take partial functions as values, they
+are ﬂexible function symbols. We can access a particular
+component value of a state variable. There is a problem,
+however, associated with partial functions (i.e., many values
+are undeﬁned). The above problem can easily be solved by
+extending state variables into total functions in the following
+way: for any n-ary state variable p, any tuple c 2 TERM(O),
+and any state M,
+if p(c) is undeﬁned under M, then let
+M[p(c)] ¼ 0. The above extension is consistent with the se-
+mantics of PrTN. Furthermore we can consider the meaning
+[p(c)] of the function application p(c) as a mapping from
+states to Nat using a postﬁx notation for function application
+M[p(c)].

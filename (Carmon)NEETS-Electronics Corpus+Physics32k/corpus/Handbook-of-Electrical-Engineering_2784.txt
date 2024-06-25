@@ -1,0 +1,6 @@
+Distributed RLC Model: As the rise/fall times become shorter, the relative contributions of capacitance and
+inductance change. In particular, the impedance of the capacitance is inversely proportional to frequency
+while that of the inductance is proportional to frequency. At sufﬁciently high data rates, the inductance
+effects become signiﬁcant. In this case, the signal is delayed as it propagates toward the far-end gates,
+with the rise/fall times increasing along the line. Different terminal points of a net will see the signal at
+different times with different rise/fall times.

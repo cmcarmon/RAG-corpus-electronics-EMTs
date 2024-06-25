@@ -1,0 +1,5 @@
+l is the wavelength at the highest frequency of interest; DL is the spatial resolution being sought; L is object maximum
+object dimension or dimension in observation plane; d is the number of spatial dimensions being sampled and is not
+necessarily the problem dimensionality D. The distinction is important because when an appropriate Green’s function is
+available, the source integrals are usually one dimension less than the problem dimension, i.e., d = D – 1. An exception
+is an inhomogeneous, penetrable body where d = D when using an integral equation.

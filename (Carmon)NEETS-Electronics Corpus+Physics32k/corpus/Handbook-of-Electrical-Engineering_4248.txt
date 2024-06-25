@@ -1,0 +1,6 @@
+Clutter returns are primarily from stationary or near-stationary surfaces such as terrain. In contrast, targets
+of interest often have a signiﬁcant range rate relative to the radar clutter. Doppler ﬁltering can suppress returns
+from clutter. With the exception of frequency ambiguity, the Doppler ﬁltering techniques used to implement
+pulse Doppler ﬁltering are quite similar to those described for CW radar in Section 41.2. Ambiguous measure-
+ments  can  be  resolved  over  multiple  CPIs  by using  a  sequence  of  slightly  different  PRFs  and  correlating
+detections among the CPIs [Morris, 1988].

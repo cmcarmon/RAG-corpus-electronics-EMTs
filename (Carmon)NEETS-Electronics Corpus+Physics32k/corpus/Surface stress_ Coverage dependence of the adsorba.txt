@@ -1,0 +1,15 @@
+Coverage effect of surface stress without surface reconstruction usually result a compressive stress (assuming clean clean surface as reference or zero stress). Induced surface stress of number of different coverages on Ni(100) and Pt(111) surface is shown in figure 4. In all cases, it shows an initially linear increase of the induced stress with coverage, followed by an increase larger than linear at higher coverages. The non-linear increase is first thought to be due to the repulsive interaction between adsorbates. The repulsive interaction should be proportional to the overlap integrals summed of non-bonding orbitals with exponential relationship:
+
+Sij & exp(-crij)
+
+where rij is distance between two adsorbate i and j
+One can easily relate the mean distance between two adsorbates with square root of the coverage:
+
+Sij & exp(-c/√θ)
+
+Then the stress induced by absorbates can be derived as:
+
+∆τ=a.θ+b.exp(-c/√θ)     (8)
+
+where a, b, and c are fitting parameters. Figure 4 shows very good fits for all systems with the equation 8.
+However, later research shows that direct repulsive interaction between absorbate atoms (as well as dipolar interactions) contribute very little to the induced surface stress. The stress can become large only if the distance between the adsorbed atoms becomes small so that φij (repulsive pairwise interaction potential) becomes large. It rarely happens without very high gas pressure since adsorbated state become unstable with respect to desorption.

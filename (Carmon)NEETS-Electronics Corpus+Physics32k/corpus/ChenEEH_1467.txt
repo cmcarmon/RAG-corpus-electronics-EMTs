@@ -1,0 +1,10 @@
+able blocks. Terminals, line printers, and network interfaces are
+typical examples of character special ﬁles. A program can
+interact with the user’s terminal by reading and writing the
+corresponding character special ﬁle. In UNIX and MS-DOS,
+when a process is started up, ﬁle descriptor 0, called standard
+input, is normally arranged to refer to the terminal for the
+purpose of reading. File descriptor 1, called standard output,
+refers to the terminal for writing. File descriptor 2, called
+standard error, also refers to the terminal for output but is
+used only for writing error messages.

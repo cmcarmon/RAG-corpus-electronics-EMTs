@@ -1,0 +1,5 @@
+A PLA in the PLA-based architecture is functioning as a
+look-up table storing the states of an ﬁnite state machine
+(FSM). Each state corresponds to either an internal node of
+the Huffman tree or a decoded output symbol. The design can
+be constrained to the following conditions.

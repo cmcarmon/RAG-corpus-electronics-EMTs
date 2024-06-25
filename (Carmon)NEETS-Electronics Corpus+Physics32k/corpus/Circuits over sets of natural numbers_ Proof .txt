@@ -1,0 +1,19 @@
+The first problem is reducible to the second one, by taking the intersection of the output gate and n. Indeed, the new output get will be empty if and only if n was not an element of the former output gate.
+The first problem is reducible to the third one, by asking if the node n is a subset of the output node.
+The second problem is reducible to the first one, it suffices to multiply the output gate by 0, then 0 will be in the output gate if and only if the former output gate were not empty.
+The third problem is reducible to the second one, checking if A is a subset of B is equivalent to ask if there is an element in
+
+
+
+A
+∩
+
+
+B
+¯
+
+
+
+
+{\displaystyle A\cap {\overline {B}}}
+.

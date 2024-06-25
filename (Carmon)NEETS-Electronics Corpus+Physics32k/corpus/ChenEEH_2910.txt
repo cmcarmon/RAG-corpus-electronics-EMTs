@@ -1,0 +1,9 @@
+The monopulse system employs two overlapping antenna
+patterns to form the sum pattern and the difference pattern.
+The sum pattern is used for transmission, and both the sum
+pattern and difference pattern are used for reception. The sum
+pattern provides target detection and range measurement. The
+difference pattern provides the magnitude of the angular error.
+The monopulse antenna should have a sum pattern with high
+gain in the foresight and have a difference pattern with a large
+value of slope at the crossover of the offset beams.

@@ -1,0 +1,9 @@
+These are important applications. Even if most or all other programming needs can be better met in HLLs,
+these applications are sufﬁcient reason for many engineers to want to know something about assembly language.
+There  are  other  applications  of  assembly  language,  but  they  tend  to  be  speciﬁc  to  rather  specialized  and
+infrequent tasks. For example, the back end of most HLL compilers is a machine code generator. To write one
+of those, you certainly must know something about assembly language. On rare occasions, you may ﬁnd some
+necessary machine-speciﬁc transaction which is not supported by the HLL of choice or which requires some
+special  micro  optimization.  A  “patch”  of  assembly  code  is  a  way  to  ﬁt  this  inexpressible  thought  into  the
+program’s vocabulary. These are rare events. The reason why we recommend to you this section on assembly
+code is that it improves your understanding of HLLs and of computer architecture.

@@ -1,0 +1,6 @@
+In digital multimedia, bit rate often refers to the number of bits used per unit of playback time to represent a continuous medium such as audio or video after source coding (data compression). The encoding bit rate of a multimedia file is the size of a multimedia file in bytes divided by the playback time of the recording (in seconds), multiplied by eight.
+For realtime streaming multimedia, the encoding bit rate is the goodput that is required to avoid interrupt:
+encoding bit rate = required goodput
+The term average bitrate is used in case of variable bitrate multimedia source coding schemes. In this context, the peak bit rate is the maximum number of bits required for any short-term block of compressed data.
+A theoretical lower bound for the encoding bit rate for lossless data compression is the source information rate, also known as the entropy rate.
+entropy rate ≤ multimedia bit rate

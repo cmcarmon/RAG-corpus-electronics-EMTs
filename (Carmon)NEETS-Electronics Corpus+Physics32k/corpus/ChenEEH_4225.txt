@@ -1,0 +1,5 @@
+2. If there is no response, the station transfers the token to
+its successor. If there is only one response, the station
+sets its successor to the requesting station and passes
+the token to the requesting node. It also indicates who
+is the requesting station’s successor.

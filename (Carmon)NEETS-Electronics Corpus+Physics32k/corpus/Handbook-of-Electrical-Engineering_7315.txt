@@ -1,0 +1,5 @@
+These functions describe the performance of the basic PLL and can now be used to derive synthesis equations.
+The  synthesis  equations  will  be  used  to  calculate  circuit  components  that  will  give  a  desired  performance
+characteristic. These characteristics usually involve the low-pass corner frequency and shape of the closed-loop
+response characteristic [Eq. (76.2)] and determine such things as the loop lock-up time, the ability to track the
+input signal, and the output signal noise characteristics.

@@ -1,0 +1,216 @@
+The following discussion uses the simplest case, where the system has two lumped springs and two lumped masses, and only two mode shapes are assumed. Hence M = [m1, m2] and K = [k1, k2].
+A mode shape is assumed for the system, with two terms, one of which is weighted by a factor B, e.g. Y = [1, 1] + B[1, −1]. Simple harmonic motion theory says that the velocity at the time when deflection is zero, is the angular frequency
+
+
+
+ω
+
+
+{\displaystyle \omega }
+times the deflection (y) at time of maximum deflection. In this example the kinetic energy (KE) for each mass is
+
+
+
+
+
+1
+2
+
+
+
+ω
+
+2
+
+
+
+Y
+
+1
+
+
+2
+
+
+
+m
+
+1
+
+
+
+
+{\displaystyle {\frac {1}{2}}\omega ^{2}Y_{1}^{2}m_{1}}
+etc., and the potential energy (PE) for each spring is
+
+
+
+
+
+1
+2
+
+
+
+k
+
+1
+
+
+
+Y
+
+1
+
+
+2
+
+
+
+
+{\displaystyle {\frac {1}{2}}k_{1}Y_{1}^{2}}
+etc.
+We also know that without damping, the maximal KE equals the maximal PE. Thus,
+
+
+
+
+
+∑
+
+i
+=
+1
+
+
+2
+
+
+
+(
+
+
+
+1
+2
+
+
+
+ω
+
+2
+
+
+
+Y
+
+i
+
+
+2
+
+
+
+M
+
+i
+
+
+
+)
+
+=
+
+∑
+
+i
+=
+1
+
+
+2
+
+
+
+(
+
+
+
+1
+2
+
+
+
+K
+
+i
+
+
+
+Y
+
+i
+
+
+2
+
+
+
+)
+
+
+
+{\displaystyle \sum _{i=1}^{2}\left({\frac {1}{2}}\omega ^{2}Y_{i}^{2}M_{i}\right)=\sum _{i=1}^{2}\left({\frac {1}{2}}K_{i}Y_{i}^{2}\right)}
+
+Note that the overall amplitude of the mode shape cancels out from each side, always. That is, the actual size of the assumed deflection does not matter, just the mode shape.
+Mathematical manipulations then obtain an expression for
+
+
+
+ω
+
+
+{\displaystyle \omega }
+, in terms of B, which can be differentiated with respect to B, to find the minimum, i.e. when
+
+
+
+d
+ω
+
+/
+
+d
+B
+=
+0
+
+
+{\displaystyle d\omega /dB=0}
+. This gives the value of B for which
+
+
+
+ω
+
+
+{\displaystyle \omega }
+is lowest. This is an upper bound solution for
+
+
+
+ω
+
+
+{\displaystyle \omega }
+if
+
+
+
+ω
+
+
+{\displaystyle \omega }
+is hoped to be the predicted fundamental frequency of the system because the mode shape is assumed, but we have found the lowest value of that upper bound, given our assumptions, because B is used to find the optimal 'mix' of the two assumed mode shape functions.
+There are many tricks with this method, the most important is to try and choose realistic assumed mode shapes. For example, in the case of beam deflection problems it is wise to use a deformed shape that is analytically similar to the expected solution. A quartic may fit most of the easy problems of simply linked beams even if the order of the deformed solution may be lower. The springs and masses do not have to be discrete, they can be continuous (or a mixture), and this method can be easily used in a spreadsheet to find the natural frequencies of quite complex distributed systems, if you can describe the distributed KE and PE terms easily, or else break the continuous elements up into discrete parts.
+This method could be used iteratively, adding additional mode shapes to the previous best solution, or you can build up a long expression with many Bs and many mode shapes, and then differentiate them partially.

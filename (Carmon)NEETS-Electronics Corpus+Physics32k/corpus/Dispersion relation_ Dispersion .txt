@@ -1,0 +1,175 @@
+Dispersion occurs when pure plane waves of different wavelengths have different propagation velocities, so that a wave packet of mixed wavelengths tends to spread out in space. The speed of a plane wave, v, is a function of the wave's wavelength
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+:
+
+
+
+
+v
+=
+v
+(
+λ
+)
+.
+
+
+
+{\displaystyle v=v(\lambda ).\,}
+
+The wave's speed, wavelength, and frequency, f, are related by the identity
+
+
+
+
+v
+(
+λ
+)
+=
+λ
+
+f
+(
+λ
+)
+.
+
+
+
+{\displaystyle v(\lambda )=\lambda \ f(\lambda ).\,}
+
+The function
+
+
+
+f
+(
+λ
+)
+
+
+{\displaystyle f(\lambda )}
+expresses the dispersion relation of the given medium. Dispersion relations are more commonly expressed in terms of the angular frequency
+
+
+
+ω
+=
+2
+π
+f
+
+
+{\displaystyle \omega =2\pi f}
+and wavenumber
+
+
+
+k
+=
+2
+π
+
+/
+
+λ
+
+
+{\displaystyle k=2\pi /\lambda }
+. Rewriting the relation above in these variables gives
+
+
+
+
+ω
+(
+k
+)
+=
+v
+(
+k
+)
+
+k
+.
+
+
+
+{\displaystyle \omega (k)=v(k)\ k.\,}
+
+where we now view f as a function of k. The use of ω(k) to describe the dispersion relation has become standard because both the phase velocity ω/k and the group velocity dω/dk have convenient representations via this function.
+The plane waves being considered can be described by
+
+
+
+
+A
+(
+x
+,
+t
+)
+=
+
+A
+
+0
+
+
+
+e
+
+2
+π
+i
+
+
+
+x
+−
+v
+t
+
+λ
+
+
+
+
+=
+
+A
+
+0
+
+
+
+e
+
+i
+(
+k
+x
+−
+ω
+t
+)
+
+
+,
+
+
+{\displaystyle A(x,t)=A_{0}e^{2\pi i{\frac {x-vt}{\lambda }}}=A_{0}e^{i(kx-\omega t)},}
+
+where
+A is the amplitude of the wave,
+A0 = A(0,0),
+x is a position along the wave's direction of travel, and
+t is the time at which the wave is described.

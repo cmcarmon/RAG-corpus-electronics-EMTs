@@ -1,0 +1,14 @@
+FIGURE 5.20
+(A) SCMOS general structure has two complemen-
+tary networks: PMOS pull-up network for charging the output into
+Vdd, and NMOS pull-down network to discharge the output to GND.
+The SCMOS style requires 2N transistors to implement a function.
+(B) DCMOS general structure has only an NMOS pull-down struc-
+ture. The DCMOS style operates in two phases controlled by a
+clocking signal, CLK. When CLK ¼ 0, the DCMOS gate is in the
+precharge state, where the PMOS transistor controlled by CLK is on
+allowing the output to charge to Vdd. At the same time, the pull-
+down network is off since the NMOS transistor controlled also by
+CLK is off (CLK ¼ 0). When CLK ¼ 1, the evaluate state takes place,
+allowing the output to be evaluated as a function of the input.
+DCMOS style requires N þ 2 transistors to implement a function.

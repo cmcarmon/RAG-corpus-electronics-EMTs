@@ -1,0 +1,8 @@
+The carrier reinsertion oscillator frequency is set to the IF frequency that would have resulted had the
+carrier been present. For example, assume that a transmitter with a suppressed carrier frequency of 3
+megahertz is radiating an upper sideband signal. Also assume that the intelligence consists of a
+1-kilohertz tone. The transmitted sideband frequency will be 3,001 kilohertz. If the receiver has a
+500-kilohertz IF, the correct local oscillator frequency is 3,500 kilohertz. The output of the mixer to the IF
+stages will be the difference frequency, 499 kilohertz. Therefore, the carrier reinsertion oscillator
+frequency will be 500 kilohertz, which will maintain the frequency relationship of the carrier to the
+sideband at 1 kilohertz.

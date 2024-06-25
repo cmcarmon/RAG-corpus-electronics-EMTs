@@ -1,0 +1,6 @@
+The  quest  for  making  the  parallel  multiplier  even  faster  continued  for  almost  30  years.  The  search  for
+producing a fastest “counter” did not result in a general structure that yielded a faster partial product summation
+than that which used a full-adder (FA) cell, or 3:2 counter. Therefore, the use of the Wallace Tree was almost
+prevalent in the implementation of the parallel multipliers. In 1981, Weinberger disclosed a structure he called
+“4-2  carry-save  module”.  This  structure  contained  a  combination  of  FA  cells  in  an  intricate  interconnection
+structure that was yielding faster partial product compression than the use of 3:2 counters.

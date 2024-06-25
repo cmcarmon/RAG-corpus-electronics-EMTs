@@ -1,0 +1,17 @@
+The type of data collected by performance tools falls into
+three categories: proﬁles, counters and timers, and traces
+(Foster, 1995). Proﬁling tools typically use sampling techniques,
+regularly examining the program counters during execution to
+determine how much time is spent on different procedures and
+activities. Proﬁling is extremely simple to implement and can
+provide an automatic high-level view of process execution. It is
+particularly useful for identifying unbalanced loading between
+processors. In addition, if there are several proﬁling runs for
+different processor counts, proﬁling can be used to determine
+components that do not scale well under the given algorithm.
+The disadvantage of using sampling techniques is that they are
+not always accurate, which is of particular concern if the devel-
+oper is trying to calibrate timing models. The main problem
+with simple proﬁling in a multiprocessor system, however, is
+that it is unable to reveal the complex interprocessor inter-
+actions taking place under the surface.

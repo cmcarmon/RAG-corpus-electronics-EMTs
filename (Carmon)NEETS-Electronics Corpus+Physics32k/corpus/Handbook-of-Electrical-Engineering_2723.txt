@@ -1,0 +1,11 @@
+Routing Techniques
+Given a collection of cells placed on a chip, the routing problem is to connect the terminals (or ports) of these
+cells  for  a  speciﬁc  design  requirement.  The  routing  problem  is  often  divided  into  three  subproblems:  global,
+detailed, and specialized routers. The global router considers the overall routing region in order to distribute the
+nets over the channels based on their capacities while keeping the length of each net as short as possible. For
+every channel that a net passes through, the net’s id is placed on the sides of the channel. Once the terminals of
+each channel are determined, the detailed router connects all the terminals with the same id by a set of wire
+segments. (A wire segment is a piece of material described by a layer, two end-points, and a width.) The specialized
+router is designed to solve a speciﬁc problem such as routing of power and ground wires. These wires require
+special attention for two reasons: 1) they are usually routed in one layer in order to reduce the parasitic capacitance
+of contacts, and 2) they are usually wider than other wires (signal and data) since they carry more current.

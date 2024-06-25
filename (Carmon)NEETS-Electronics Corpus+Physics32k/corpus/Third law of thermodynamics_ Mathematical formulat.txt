@@ -1,0 +1,13 @@
+Consider a closed system in internal equilibrium. As the system is in equilibrium, there are no irreversible processes so the entropy production is zero. During slow heating, small temperature gradients are generated in the material, but the associated entropy production can be kept arbitrarily low if the heat is supplied slowly enough. The increase in entropy due to the added heat δQ is then given by the second part of the Second law of thermodynamics which states that the entropy change of a system ΔS is given by
+The temperature rise dT due to the heat δQ is determined by the heat capacity C(T,X) according to
+The parameter X is a symbolic notation for all parameters (such as pressure, magnetic field, liquid/solid fraction, etc.) which are kept constant during the heat supply. E.g. if the volume is constant we get the heat capacity at constant volume CV. In the case of a phase transition from liquid to solid, or from gas to liquid the parameter X can be one of the two components. Combining relations (1) and (2) gives
+Integration of Eq.(3) from a reference temperature T0 to an arbitrary temperature T gives the entropy at temperature T
+We now come to the mathematical formulation of the third law. There are three steps:
+1: In the limit T0→0 the integral in Eq.(4) is finite. So that we may take T0=0 and write
+2. The value of S(0,X) is independent of X. In mathematical form
+So Eq.(5) can be further simplified to
+Equation (6) can also be formulated as
+In words: at absolute zero all isothermal processes are isentropic. Eq.(8) is the mathematical formulation of the third law.
+3: Classically, one is free to choose the zero of the entropy, and it is convenient to take
+so that Eq.(7) reduces to the final form
+However, reinterpreting Eq. (9) in view of the quantized nature of the lowest-lying energy states, the physical meaning of Eq.(9) goes deeper than just a convenient selection of the zero of the entropy. It is due to the perfect order at zero kelvin as explained above.

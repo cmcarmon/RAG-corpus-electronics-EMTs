@@ -1,0 +1,10 @@
+. FDDI MAC uses the Time-Token Protocol (TTP) for both
+synchronous and asynchronous services to all stations. If
+a token arrives earlier based on the rotation timer, a
+station can optionally send the asynchronous data. If
+the token is late, only the synchronous data can be sent.
+In IEEE 802.5, MAC protocol is based on explicit priority
+reservation. Both protocols allow the network to respond
+to changes in trafﬁc load, but FDDI supports more steady
+load because lower-priority trafﬁc may have more oppor-
+tunity to send when a token arrives early.

@@ -1,0 +1,9 @@
+Transmitting  equipment  for  radio  communications  frequently  uses  PLLs  to  obtain  frequency  modulation
+(FM) or phase modulation (PM). A PLL is ﬁrst designed to generate a radio frequency signal. The modulation
+signal (i.e., voice) is then applied to the loop. For FM the modulating signal is added to the output of the loop
+ﬁlter. The PLL will maintain the center frequency of the VCO, while the modulation will vary the VCO frequency
+about this center. The frequency response of the FM input will exhibit a high-pass response and is described
+by the error function shown in Eq. (76.3). Phase modulation is obtained by adding the modulation signal to
+the input of the loop ﬁlter. The modulation will then vary the phase of the VCO output signal. The frequency
+response of the PM input will be a low-pass characteristic described by the closed-loop transfer function shown
+in Eq. (76.2).

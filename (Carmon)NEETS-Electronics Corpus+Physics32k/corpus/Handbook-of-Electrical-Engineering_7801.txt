@@ -1,0 +1,12 @@
+It is generally desired to keep the read/write head stationary while the disk spins and a given track is being
+read from or written onto. Thus, in an ideal situation, not only should the track be perfectly circular, but also
+the disk must be precisely centered on the spindle axis. In practical systems, however, tracks are neither precisely
+circular, nor are they concentric with the spindle axis. These eccentricity problems are solved in low-perfor-
+mance ﬂoppy drives by making tracks wide enough to provide tolerance for misregistrations and misalignments.
+Thus the head moves blindly to a radius where the track center is nominally expected to be and stays put until
+the reading or writing is over. By making the head narrower than the track pitch, the track center is allowed
+to wobble around its nominal position without signiﬁcantly degrading the performance during the read/write
+operation.  This  kind  of  wobble,  however,  is  unacceptable  in  optical  disk  systems,  which  have  a  very  narrow
+track, about the same size as the focused beam spot. In a typical situation arising in practice, the eccentricity
+of a given track may be as much as –50 mm while the track pitch is only about 1 mm, thus requiring active
+track-following procedures.

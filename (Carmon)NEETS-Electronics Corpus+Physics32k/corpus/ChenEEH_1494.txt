@@ -1,0 +1,7 @@
+Level 6 handles the access to the secondary storage devices.
+The programs at this level are responsible for operations such
+as positioning the head of a disk drive and transferring blocks
+of data. Software at a higher level determines the address of the
+data on the disk and places requests for data; the requesting
+process then waits at a semaphore until the transfer has been
+completed.

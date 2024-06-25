@@ -1,0 +1,14 @@
+The  passive  N  ·  N  star  coupler  [Kaminow,  1989]  in
+Fig. 71.11 has N single-mode ﬁber inputs and N outputs. In
+an ideal passive star, a signal incident on any input is divided
+equally among all the outputs, i.e., the star broadcasts every
+input to every output. Unlike the OTDM case, each transmit-
+ter uses a different optical frequency and each receiver must
+tune to the frequency of the channel intended for it, as illus-
+trated in Fig. 71.12. Alternatively, the receiver frequencies may
+be ﬁxed and the transmitters tunable. Thus, the control can be distributed in the terminals. Calculations indicate
+that such a network can support throughputs of several terabits per second. Current research [Special Issue,
+1990] is aimed at devising multiple-access protocols and demonstrating the novel devices needed for optical
+frequency  routing.  These  include  fast  tunable  lasers  and  receivers  that  can  cover  many  channels  (switching
+speeds of ~10 ns at 2.5 Gb/s with ~50 channels appear feasible), optical frequency translators for frequency
+reuse, and integrated star couplers and integrated optical frequency routers.

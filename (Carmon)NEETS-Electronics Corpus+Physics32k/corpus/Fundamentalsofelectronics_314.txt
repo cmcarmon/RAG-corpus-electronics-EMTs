@@ -1,0 +1,10 @@
+Problem 3.27: Linear, Time-Invariant Systems
+For a system to be completely characterized by a transfer function, it needs not only be linear, but also
+to be time-invariant. A system is said to be time-invariant if delaying the input delays the output by the
+same amount. Mathematically, if S [x (t)] = y (t), meaning y (t) is the output of a system S [•] when x (t)
+is the input, S [•] is the time-invariant if S [x (t − τ )] = y (t − τ ) for all delays τ and all inputs x (t). Note
+that both linear and nonlinear systems have this property. For example, a system that squares its input is
+time-invariant.
+(a) Show that if a circuit has ﬁxed circuit elements (their values don’t change over time), its input-output
+relationship is time-invariant. Hint: Consider the diﬀerential equation that describes a circuit’s input-
+output relationship. What is its general form? Examine the derivative(s) of delayed signals.

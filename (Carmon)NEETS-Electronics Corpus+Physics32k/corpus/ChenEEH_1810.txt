@@ -1,0 +1,10 @@
+the trafﬁc. Every intermediate router along the path forwards
+the PATH message to the next hop determined by the routing
+protocol. The receiver, upon receiving the PATH message,
+responds with the RESV message to request resources for the
+ﬂow. Every intermediate router along the path can reject or
+accept the request of the RESV message. If the request is
+rejected, the router will send an error message to the receiver,
+and the signaling process terminates. If the request is accepted,
+link buffer and bandwidth are allocated to the ﬂow, and related
+ﬂow state information will be installed in the router.

@@ -1,0 +1,16 @@
+  of  the  complete  system  which  describes  the
+magnitude and phase response of the system to sinusoidal, steady-state inputs. This can reveal the contribution
+of  each  element  to  the  overall  response  and  helps  indicate  which  elements  produce  the  dominant  response.
+ elements has an
+The graphical results of the frequency response analysis is termed a 
+, then a composite transfer function can be found for the total
+individual transfer function, 
+w
+j
+(
+)
+system, 
+due to loading effects between elements. The use of a circuit simulation program such as PSpice (MicroSim
+Corp.) simpliﬁes the investigation into instrument behavior. A library of subcircuit models can be developed
+for each instrumentation and interconnect element to support measurement system loading effects analysis.
+For example, a PSpice subcircuit deﬁnition for the HP54601A oscilloscope is:

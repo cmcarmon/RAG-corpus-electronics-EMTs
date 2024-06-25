@@ -1,0 +1,4 @@
+The  CREATE  TABLE  command  speciﬁes  all  the  attribute  names  of  a  relation  and  their  data  types  (e.g.,
+INTEGER,  DECIMAL,  ﬁxed  length  character  “CHAR”,  variable  length  character  “VARCHAR”,  DATE).  The
+constraint NOT NULL is usually speciﬁed for those attributes that cannot have null values. The primary key
+of each relation in the database is usually required to have a nonnull value.

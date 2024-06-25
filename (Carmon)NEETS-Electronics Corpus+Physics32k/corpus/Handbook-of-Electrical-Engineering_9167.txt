@@ -1,0 +1,6 @@
+The  Resource  Manager  is  a  key  component  of  the  PC/SC  architecture.  It  is  responsible  for  managing  the
+other resources (such as service providers) within the system and for controlling access to the smart card readers
+and to the card itself. The Resource Manager is provided by the operating system vendor. Thus, the Resource
+Manager is responsible for identiﬁcation and tracking of resources. This includes the tracking of the readers,
+of the smart cards, of the service providers, of the supported interfaces and of the smart card insertion and
+removal events. Thus, the Resource Manager can list the available resources to each application.

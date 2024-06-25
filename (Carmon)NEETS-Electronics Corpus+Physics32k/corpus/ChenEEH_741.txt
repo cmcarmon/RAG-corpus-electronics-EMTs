@@ -1,0 +1,19 @@
+higher Vdd and partly at a lower Vdd, or similarly assume two
+parallel units with different Vdds over which all the operations
+can be distributed (see Figure 2.18). This duplication will
+require some extra area, but on the entire chip this will involve
+a (very) small overhead, and for energy reasons this can be
+motivated. The high Vdd unit will clearly allow a higher speed.
+In the simple example of Figure 2.18, 110 million instructions
+need to be executed for the entire algorithm. Most instructions
+can be executed in the low energy functional unit in a very
+loose data path schedule (in total 1.0 s results in consuming
+850 mJ). The same functionality, executed 25% faster, con-
+sumes twice as much energy due to the requirement to execute
+more on the high-speed functional unit (in total 0.75 s results
+in 1600 mJ). The assignment of cycles to memory accesses and
+to the data path is important for the overall energy consump-
+tion. Obviously,
+the contributions of both functions are
+summed. This motivates a trade-off between the memory
+system and the data path itself.

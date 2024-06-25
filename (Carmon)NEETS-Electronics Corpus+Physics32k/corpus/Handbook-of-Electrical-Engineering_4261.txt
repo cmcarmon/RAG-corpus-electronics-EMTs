@@ -1,0 +1,8 @@
+Tracking Filter Performance
+Target tracking based on processing returns from multiple CPIs generally provides a target position and velocity
+estimate of greater accuracy than the single-CPI measurement accuracy delineated in Table 41.5. In principle,
+the error variance of the estimated target position with the target moving at a constant velocity is approximately
+m where n is the number of independent measurements processed by the track ﬁlter and sm is the single
+4/n · s 2
+measurement accuracy. In practice, the variance reduction factor afforded by a track ﬁlter is often limited to
+about an order of magnitude because of the reasons summarized in the following paragraphs.

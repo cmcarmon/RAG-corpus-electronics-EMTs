@@ -1,0 +1,123 @@
+The MTI radar uses Low Pulse repetition frequency (PRF) to avoid range ambiguities.
+
+Moving target indicator (MTI) begins with sampling two successive pulses. Sampling begins immediately after the radar transmit pulse ends. The sampling continues until the next transmit pulse begins.
+Sampling is repeated in the same location for the next transmit pulse, and the sample taken (at the same distance) with the first pulse is rotated 180 degrees and added to the second sample. This is called destructive interference.
+If an object is moving in the location corresponding to both samples, then the signal reflected from the object will survive this process because of constructive interference. If all objects are stationary, the two samples will cancel out and very little signal will remain.
+High power microwave devices, like crossed-field amplifier, are not phase-stable. The phase of each transmit pulse is different from the previous and future transmit pulses. This phenomenon is called phase jitter.
+In order for MTI to work, the initial phase of both transmit pulses must be sampled and the 180 degree phase rotation must be adjusted to achieve signal cancellation on stationary objects.
+A secondary influence is that phase rotation is induced by Doppler, and that creates blind velocities. For example, an object moving at 75 m/s (170 mile/hour) will produce 180 degree phase shift each 1 millisecond at L band.
+
+
+
+
+D
+o
+p
+p
+l
+e
+r
+=
+180
+,
+
+000
+
+o
+
+
+
+/
+
+s
+=
+720
+
+(
+
+
+
+75
+×
+
+10
+
+9
+
+
+
+
+3
+×
+
+10
+
+8
+
+
+
+
+
+)
+
+=
+720
+
+(
+
+
+
+V
+e
+l
+o
+c
+i
+t
+y
+×
+T
+r
+a
+n
+s
+m
+i
+t
+
+F
+r
+e
+q
+u
+e
+n
+c
+y
+
+C
+
+
+)
+
+
+
+{\displaystyle Doppler=180,000^{o}/s=720\left({\frac {75\times 10^{9}}{3\times 10^{8}}}\right)=720\left({\frac {Velocity\times Transmit\ Frequency}{C}}\right)}
+
+If the pulse repetition interval is 0.002s between transmit pulses, then the MTI process will produce
+
+
+
+
+360
+
+o
+
+
+
+
+{\displaystyle 360^{o}}
+phase rotation. That is the same as a stationary object, which renders the system blind to objects traveling at this radial velocity.
+MTI requires 3 or 4 pulses to reduce the effect of blind velocities. Multi-pulse strategies use staggered pulses with irregular pulse repetition intervals to prevent signal cancellation on moving objects. The summation process is slightly different so as to accommodate the additional samples.
+Phase jitter, Doppler effects, and environmental influences limit MTI sub-clutter visibility Measure of Performance to about 25 dB improvement. This allows moving objects about 300 times smaller to be detected in close proximity to larger stationary objects.
+Pulse-Doppler signal processing is required to achieve greater sub-clutter visibility.

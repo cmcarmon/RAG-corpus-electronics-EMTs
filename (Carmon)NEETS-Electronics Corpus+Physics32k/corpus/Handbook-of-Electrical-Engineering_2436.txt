@@ -1,0 +1,42 @@
+A junction ﬁeld-effect transistor, or JFET, is a type of transistor in which the current ﬂow through the device
+between  the  drain  and  source  electrodes  is  controlled  by  the  voltage  applied  to  the  gate  electrode. A  simple
+n
+-type conducting channel exists between
+physical model of the JFET is shown in Fig. 24.1. In this JFET an 
+drain and source. The gate is a 
+ junction
+is normally kept reverse-biased. As the reverse bias voltage between gate and channel increases, the depletion
+n
+-type  channel
+region  width  increases,  as  shown  in  Fig.  24.2.  The  depletion  region  extends  mostly  into  the 
+ side. The depletion region is depleted of mobile charge carriers and thus
+because of the heavy doping on the 
+cannot contribute to the conduction of current between drain and source. Thus as the gate voltage increases,
+n
+-type channel available for current ﬂow decreases. This reduces the current
+the cross-sectional areas of the 
+ﬂow  between  drain  and  source.  As  the  gate  voltage  increases,  the  channel  gets  further  constricted,  and  the
+current ﬂow gets smaller. Finally when the depletion regions meet in the middle of the channel, as shown in
+Fig.  24.3,  the  channel  is  pinched  off  in  its  entirety  between  source  and  drain. At  this  point  the  current  ﬂow
+between drain and source is reduced to essentially zero. This voltage is called the 
+.
+ The
+ (off) as being the gate-to-source voltage that turns the drain-to-
+pinch-off voltage is also represented by 
+n
+-channel  JFET.  The  complementary  device  is  the
+  off. We  have  been  considering  here  an 
+source  current 
+p
+p
+-channel JFET
+p
+ gate region surrounding a 
+-channel JFET that has an 
+-type channel. The operation of a 
+-channel device, except the algebraic signs of all dc voltages and currents are reversed.
+n
+is the same as for an 
+ small compared to the pinch-off voltage such that the channel is
+ increases.
+ = –4 V. We will see what happens

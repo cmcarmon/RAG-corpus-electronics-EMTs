@@ -1,0 +1,10 @@
+BEGIN
+Initialize Machine Components
+Repeat
+Fetch Instruction
+Emulate Operation of the current instruction
+Process interrupts
+Update instruction counter
+Until MachineIsOff
+Perform shutdown procedure
+END

@@ -1,0 +1,69 @@
+The dynamic viscosity of a fluid expresses its resistance to shearing flows, where adjacent layers move parallel to each other with different speeds. It can be defined through the idealized situation known as a Couette flow, where a layer of fluid is trapped between two horizontal plates, one fixed and one moving horizontally at constant speed
+
+
+
+u
+
+
+{\displaystyle u}
+. This fluid has to be homogeneous in the layer and at different shear stresses. (The plates are assumed to be very large so that one need not consider what happens near their edges.)
+If the speed of the top plate is low enough, the fluid particles will move parallel to it, and their speed will vary linearly from zero at the bottom to u at the top. Each layer of fluid will move faster than the one just below it, and friction between them will give rise to a force resisting their relative motion. In particular, the fluid will apply on the top plate a force in the direction opposite to its motion, and an equal but opposite one to the bottom plate. An external force is therefore required in order to keep the top plate moving at constant speed.
+The magnitude F of this force is found to be proportional to the speed u and the area A of each plate, and inversely proportional to their separation y:
+
+
+
+
+F
+=
+μ
+A
+
+
+u
+y
+
+
+.
+
+
+{\displaystyle F=\mu A{\frac {u}{y}}.}
+
+The proportionality factor μ in this formula is the viscosity (specifically, the dynamic viscosity) of the fluid, with units of
+
+
+
+P
+a
+⋅
+s
+
+
+{\displaystyle Pa\cdot s}
+(pascal-second).
+The ratio u/y is called the rate of shear deformation or shear velocity, and is the derivative of the fluid speed in the direction perpendicular to the plates (see illustrations to the right). Isaac Newton expressed the viscous forces by the differential equation
+
+
+
+
+τ
+=
+μ
+
+
+
+∂
+u
+
+
+∂
+y
+
+
+
+,
+
+
+{\displaystyle \tau =\mu {\frac {\partial u}{\partial y}},}
+
+where τ = F/A, and ∂u/∂y is the local shear velocity. This formula assumes that the flow is moving along parallel lines to x-axis. Furthermore, it assumes that the y-axis, perpendicular to the flow, points in the direction of maximum shear velocity. This equation can be used where the velocity does not vary linearly with y, such as in fluid flowing through a pipe. This equation is called the defining equation for shear viscosity. The viscosity is not a material constant, but a material property that depends on physical properties like temperature. The functional relationship between viscosity and other physical properties is described by a mathematical viscosity model called a constitutive equation which is usually more complex than the defining equation for viscosity. There exists many viscosity models, and based on type of development-reasoning are some viscosity models selected and presented in the article Viscosity models for mixtures.
+Use of the Greek letter mu (μ) for the dynamic stress viscosity is common among mechanical and chemical engineers, as well as physicists. However, the Greek letter eta (η) is also used by chemists, physicists, and the IUPAC.

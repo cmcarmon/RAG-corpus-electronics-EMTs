@@ -1,0 +1,14 @@
+Analysis and Computer Vision
+The process of extracting useful measurements from an image or sequence of images is known as image analysis
+or computer vision. Before analysis can be performed one must ﬁrst determine pertinent features or attributes
+of the object in the scene and extract information about these features. The selection of which features in the
+image  to  measure  must  be  chosen  a  priori,  based  on  empirical  results.  Most  features  used  consist  of  shape
+properties, shape change properties, shading, texture, motion, depth, and color. After the features are extracted,
+one must then use the feature measurements to determine scene characteristics such as object identiﬁcation.
+In  the  past,  simple  pattern  recognition  algorithms,  i.e.,  nearest-neighbor  classiﬁcation,  have  been  used  to
+compare the feature measurements of an image to a set of feature measurements that correspond to a known
+object. A decision is then made as to whether or not the features of the image match those of the known type.
+Recently, there has been work in the application of artiﬁcial intelligence techniques to image analysis. These
+approaches are very much different from classical statistical pattern recognition in that the feature measurements
+are used in a different manner as part of a larger system that attempts to model the scene and then determine
+what is in it based on the model.

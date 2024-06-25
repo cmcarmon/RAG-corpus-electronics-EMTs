@@ -1,0 +1,14 @@
+v = 0
+o = khanvilkar 8988234542 8988234542 IN IP4 192.168.0.201
+s = Presentation on multimedia
+i = Topics on multimedia communication
+u = http://mia.ece.uic.edu/sip
+e = shashank@evl.uic.edu
+p = 1-312-413-5499
+c = IN IP4 192.168.0.201
+b = CT:144
+t = xxxxxxxxxx xxxxxxxxxx
+m = audio 56718 RTP/AVP 0
+a = rtpmap : 0 PCMU/8000
+m = video 67383 RTP/AVP 31
+a = rtpmap : 31 H261/90000

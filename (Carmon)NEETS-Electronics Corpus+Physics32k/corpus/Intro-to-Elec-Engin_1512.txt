@@ -1,0 +1,7 @@
+• It multiplexes 24 telephone messages, each having an 8-kHz sampling rate so that Ts =
+1/(8×103) = 125 µs. The digital structure of each input message is determined by a single
+master clock.
+• Each sample uses 8-bit encoding, so that there are 8 × 24 = 192 message bits; one extra
+bit, known as a framing bit, of less than one time slot is allowed for frame synchronization.
+Thus, a total of 193 bits per frame, with a total bit rate of 193 × 8000 = 1.544 megabits
+per second (Mbit/s), is available.

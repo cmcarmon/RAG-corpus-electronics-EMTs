@@ -1,0 +1,8 @@
+of linear systems, and therefore superposition applies. In particular, suppose these component signals are
+complex exponentials, each of which has a frequency diﬀerent from the others. The transfer function portrays
+how the circuit aﬀects the amplitude and phase of each component, allowing us to understand how the circuit
+works on a complicated signal. Those components having a frequency less than the cutoﬀ frequency pass
+through the circuit with little modiﬁcation while those having higher frequencies are suppressed. The circuit
+is said to act as a ﬁlter, ﬁltering the source signal based on the frequency of each component complex
+exponential. Because low frequencies pass through the ﬁlter, we call it a lowpass ﬁlter to express more
+precisely its function.

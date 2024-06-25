@@ -1,0 +1,32 @@
+Internal features 
+ 
+To begin to understand how timer circuits operate, 
+it  is  worth  spending  a  few  moments  studying  the 
+internal  circuitry  of  the  555  timer,  see  Fig.  12.1. 
+Essentially,  the  device  comprises  two  operational 
+amplifiers  (used  as  comparators  –  see  page  166) 
+together  with  an  R-S  bistable  element  (see  page 
+188). In addition, an inverting buffer (see page 185) 
+is  incorporated  so  that  an  appreciable  current  can 
+be  delivered  to  a  load.  The  main  features  of  the 
+device are shown in Table 12.1. 
+  Unlike standard TTL logic devices, the 555 timer 
+can both source and sink current. It’s worth taking 
+a little time to explain what we mean by these two 
+terms: 
+ 
+(a)   When  sourcing  current,  the  555’s  output 
+(pin-3) is in the  high  state and current  will 
+ 
+then flow out of the output pin into the load 
+ 
+ 
+and down to 0V, as shown in Fig. 12.2(a).  
+(b)     When  sinking  current,  the  555’s  output 
+(pin-3)  is  in  the  low  state  in  which  case 
+ 
+  current  will  flow  from  the  positive  supply 
+(+Vcc) through the load and into the output 
+ 
+ 
+(pin-3), as shown in Fig. 12.2(b). 

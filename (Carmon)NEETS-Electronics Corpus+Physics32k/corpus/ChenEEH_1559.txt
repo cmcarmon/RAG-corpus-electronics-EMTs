@@ -1,0 +1,14 @@
+The separation of the knowledge base and the inference
+engine is essential for the success of expert systems. It is very
+important for a number of reasons: First, knowledge can be
+represented in a more natural and declarative form that is
+easier to understand and implement. For example,
+if . . .
+then . . . rules represent domain knowledge in a more declara-
+tive form than embedding the knowledge in problem-solving
+procedures. Second, developers can focus on creating and
+organizing high-level knowledge rather than on the detailed
+implementation. Third, changes made to the knowledge base
+do not affect the function of inference engine and vice versa.
+Finally, the same problem-solving techniques employed by the
+inference engine can be used in a variety of applications.

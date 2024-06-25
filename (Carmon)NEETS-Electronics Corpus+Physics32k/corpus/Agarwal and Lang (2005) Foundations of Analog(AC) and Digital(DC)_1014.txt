@@ -1,0 +1,6 @@
+vOUT = 10 − 10 × (0.6 − vIN)2.
+Thus, for example, for vIN = 0 V, the output vOUT = 6.4 V.
+We now determine the range of vIN over which the MOSFET operation remains in the
+saturation region. To do so, the MOSFET voltages must satisfy vDS ≥ vGS − VT ≥ 0.
+For the amplifier shown in Figure 7.46, this is equivalent to
+vOUT − vIN ≥ VB − vIN − VT ≥ 0.

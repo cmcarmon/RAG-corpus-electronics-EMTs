@@ -1,0 +1,391 @@
+It is important physically that in general
+
+
+
+U
+(
+⋅
+)
+
+
+{\displaystyle U(\cdot )}
+does not have to be an ordinary representation of
+
+
+
+G
+
+
+{\displaystyle G}
+; it may not be possible to choose the phase factors in the definition of
+
+
+
+U
+(
+g
+)
+
+
+{\displaystyle U(g)}
+to eliminate the phase factors in their composition law. An electron, for example, is a spin-one-half particle; its Hilbert space consists of wave functions on
+
+
+
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbb {R} ^{3}}
+with values in a two-dimensional spinor space. The action of
+
+
+
+
+S
+O
+(
+3
+)
+
+
+
+{\displaystyle \mathrm {SO(3)} }
+on the spinor space is only projective: It does not come from an ordinary representation of
+
+
+
+
+S
+O
+(
+3
+)
+
+
+
+{\displaystyle \mathrm {SO(3)} }
+. There is, however, an associated ordinary representation of the universal cover
+
+
+
+
+S
+U
+(
+2
+)
+
+
+
+{\displaystyle \mathrm {SU(2)} }
+of
+
+
+
+
+S
+O
+(
+3
+)
+
+
+
+{\displaystyle \mathrm {SO(3)} }
+on spinor space.
+For many interesting classes of groups
+
+
+
+G
+
+
+{\displaystyle G}
+, Bargmann's theorem tells us that every projective unitary representation of
+
+
+
+G
+
+
+{\displaystyle G}
+comes from an ordinary representation of the universal cover
+
+
+
+
+
+
+G
+~
+
+
+
+
+
+{\displaystyle {\tilde {G}}}
+of
+
+
+
+G
+
+
+{\displaystyle G}
+. Actually, if
+
+
+
+
+
+H
+
+
+
+
+{\displaystyle {\mathcal {H}}}
+is finite dimensional, then regardless of the group
+
+
+
+G
+
+
+{\displaystyle G}
+, every projective unitary representation of
+
+
+
+G
+
+
+{\displaystyle G}
+comes from an ordinary unitary representation of
+
+
+
+
+
+
+G
+~
+
+
+
+
+
+{\displaystyle {\tilde {G}}}
+. If
+
+
+
+
+
+H
+
+
+
+
+{\displaystyle {\mathcal {H}}}
+is infinite dimensional, then to obtain the desired conclusion, some algebraic assumptions must be made on
+
+
+
+G
+
+
+{\displaystyle G}
+(see below). In this setting the result is a theorem of Bargmann. Fortunately, the crucial case of the Poincaré group, Bargmann's theorem applies. (See Wigner's classification of the representations of the universal cover of the Poincaré group.)
+The requirement referred to above is that the Lie algebra
+
+
+
+
+
+g
+
+
+
+
+{\displaystyle {\mathfrak {g}}}
+does not admit a nontrivial one-dimensional central extension. This is the case if and only if the second cohomology group of
+
+
+
+
+
+g
+
+
+
+
+{\displaystyle {\mathfrak {g}}}
+is trivial. In this case, it may still be true that the group admits a central extension by a discrete group. But extensions of
+
+
+
+G
+
+
+{\displaystyle G}
+by a discrete group are nothing but a covers of
+
+
+
+G
+
+
+{\displaystyle G}
+. For instance, the universal cover
+
+
+
+
+
+
+G
+~
+
+
+
+
+
+{\displaystyle {\tilde {G}}}
+is related to
+
+
+
+G
+
+
+{\displaystyle G}
+through the quotient
+
+
+
+G
+≈
+
+
+
+G
+~
+
+
+
+
+/
+
+Γ
+
+
+{\displaystyle G\approx {\tilde {G}}/\Gamma }
+with the central subgroup
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+being the center of
+
+
+
+
+
+
+G
+~
+
+
+
+
+
+{\displaystyle {\tilde {G}}}
+itself, isomorphic to the fundamental group of the covered group.
+Thus, in favorable cases, the quantum system will carry a unitary representation of the universal cover
+
+
+
+
+
+
+G
+~
+
+
+
+
+
+{\displaystyle {\tilde {G}}}
+of the symmetry group
+
+
+
+G
+
+
+{\displaystyle G}
+. This is desirable because
+
+
+
+
+
+H
+
+
+
+
+{\displaystyle {\mathcal {H}}}
+is much easier to work with than the non-vector space
+
+
+
+
+P
+
+
+
+H
+
+
+
+
+{\displaystyle \mathrm {P} {\mathcal {H}}}
+. If the representations of
+
+
+
+
+
+
+G
+~
+
+
+
+
+
+{\displaystyle {\tilde {G}}}
+can be classified, much more information about the possibilities and properties of
+
+
+
+
+
+H
+
+
+
+
+{\displaystyle {\mathcal {H}}}
+are available.

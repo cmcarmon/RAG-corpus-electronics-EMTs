@@ -1,0 +1,9 @@
+However, powerful though the basic “matrix calculator” capabilities of MAT-
+LAB are, its real ﬂexibility is due to its support of 
+ A macro ﬁle (M-ﬁle),
+in its simplest form, is just a collection of ordinary MATLAB commands which
+ar stored in a ﬁle. When called, such a “script” of commands is executed just as if
+it had been typed by the user. MATLAB’s real strength lies in its ability to use M-
+ﬁles to create new functions. Such a function is deﬁned in Fig. 112.4. Once deﬁned
+in this way, the new function can be executed as if it was a part of the language
+(Fig. 112.5).

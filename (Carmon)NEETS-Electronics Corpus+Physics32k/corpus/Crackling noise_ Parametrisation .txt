@@ -1,0 +1,37 @@
+The net force is composed of three components which can correspond to physical attributes of any crackling noise system; the first is an external force field (K) that increases with time (t). The second component is a force that is dependent on the sum of the states of neighbouring cells (S) and the third is a random component (r) scaled by (X)
+
+
+
+
+
+F
+
+i
+
+
+=
+K
+t
++
+Σ
+J
+
+S
+
+i
+
+
++
+X
+
+r
+
+i
+
+
+
+
+{\displaystyle F_{i}=Kt+\Sigma JS_{i}+Xr_{i}}
+
+The external force K is multiplied by time (t), where K is a positive scalar constant, however this can be varying and or negative as well. S represents the state of a cell (+1 or −1), the second component takes the sum of the four neighbouring cell states (up, down, left & right) and multiplies it by another scalar quantity, this is analogous to a coupling constant (J). The random number generator (r) is a normally distributed range of values with a mean of zero and a fixed standard deviation (rσ), this is also multiplied by a scalar constant (X). Of the three components of the net force (F), the neighbour and random components can produce positive and negative values, while the external force is only positive meaning that there is a forward bias applied to the system which over time becomes the dominant force.
+If the net force on a cell is positive it will turn the cell on (+1) and off (−1) if the force on the cell is negative. In a 2D system, there are a multitude of state combinations and arrangements possible, but this can be grouped into three regions, two global stable states of all +1s or all −1s and an unstable state in between where there is a mixture of both states. Traditionally if the system is unstable it will shortly flip to one of the global states, however under the perfect conditions, i.e. a critical point, a metastable state can form in between the two global states which is only sustainable if the parameters for the net force are balanced. The boundary conditions for the matrix wrap around top to bottom and left to right, problems for the corner cells can be negated using a large matrix.

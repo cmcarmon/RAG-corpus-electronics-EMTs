@@ -1,0 +1,17 @@
+reﬂections
+,
+.  Signal  integrity  checks  are  typically  required  for
+crosstalk
+, 
+high-speed designs operating at clock frequencies above 75 MHz. At such high frequencies, the transmission
+line behavior of wires must be analyzed. A wire should be properly terminated, i.e., connected, to a port having
+an impedance matching the wire characteristic impedance to prevent signal reﬂections. Signal reﬂections are
+portions of an emanating signal that “bounce back” from the destination to the source. Signal reﬂections reduce
+the power of the emanating signal and can damage the source. Crosstalk refers to unwanted reactive coupling
+between physically adjacent signals, providing a connection between signals that are supposed to be electrically
+isolated.  Ground  bounce  is  another  signal  integrity  problem.  Since  all  conductive  material  has  a  ﬁnite
+impedance, a ground signal network does not in practice offer the exact same electrical potential throughout
+an entire design. These potential differences are usually negligible because the distributive impedance of the
+ground  signal  network  is  small  compared  with  other  ﬁnite-component  impedances.  However,  when  many
+signals switch value simultaneously, a substantial current can ﬂow through the ground signal network. High
+intermittent currents yield proportionately high intermittent potential drops, i.e., ground bounces, which can

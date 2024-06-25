@@ -1,0 +1,10 @@
+Problem 5.5: Sampling Signals
+If a signal is bandlimited to W Hz, we can sample it at any rate 1
+> 2W and recover the waveform exactly.
+Ts
+This statement of the Sampling Theorem can be taken to mean that all information about the original
+signal can be extracted from the samples. While true in principle, you do have to be careful how you do
+so. In addition to the rms value of a signal, an important aspect of a signal is its peak value, which equals
+max{|s (t)|}.
+(a) Let s (t) be a sinusoid having frequency W Hz. If we sample it at precisely the Nyquist rate, how
+accurately do the samples convey the sinusoid’s amplitude? In other words, ﬁnd the worst case example.

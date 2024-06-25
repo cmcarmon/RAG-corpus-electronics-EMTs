@@ -1,0 +1,5 @@
+Digital Signal Formatting
+After quantization and coding the samples of the message, a suitable waveform has to be chosen
+to represent the bits. This waveform can then be transmitted directly over the channel (if no carrier
+modulation is involved), or used for carrier modulation. The waveform selection process is known
+as formatting the digital sequence. Three kinds of waveforms are available:

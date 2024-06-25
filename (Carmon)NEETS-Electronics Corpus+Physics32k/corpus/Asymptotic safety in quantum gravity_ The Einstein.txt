@@ -1,0 +1,516 @@
+As described in the previous section, the FRGE lends itself to a systematic construction of nonperturbative approximations to the gravitational beta-functions by projecting the exact RG flow onto subspaces spanned by a suitable ansatz for
+
+
+
+
+Γ
+
+k
+
+
+
+
+{\displaystyle \Gamma _{k}}
+. In its simplest form, such an ansatz is given by the Einstein–Hilbert action where Newton's constant
+
+
+
+
+G
+
+k
+
+
+
+
+{\displaystyle G_{k}}
+and the cosmological constant
+
+
+
+
+Λ
+
+k
+
+
+
+
+{\displaystyle \Lambda _{k}}
+depend on the RG scale
+
+
+
+k
+
+
+{\displaystyle k}
+. Let
+
+
+
+
+g
+
+μ
+ν
+
+
+
+
+{\displaystyle g_{\mu \nu }}
+and
+
+
+
+
+
+
+
+g
+¯
+
+
+
+
+μ
+ν
+
+
+
+
+{\displaystyle {\bar {g}}_{\mu \nu }}
+denote the dynamical and the background metric, respectively. Then
+
+
+
+
+Γ
+
+k
+
+
+
+
+{\displaystyle \Gamma _{k}}
+reads, for arbitrary spacetime dimension
+
+
+
+d
+
+
+{\displaystyle d}
+,
+
+
+
+
+
+Γ
+
+k
+
+
+[
+g
+,
+
+
+
+g
+¯
+
+
+
+,
+ξ
+,
+
+
+
+ξ
+¯
+
+
+
+]
+=
+
+
+1
+
+16
+π
+
+G
+
+k
+
+
+
+
+
+∫
+
+
+d
+
+
+d
+
+
+x
+
+
+
+g
+
+
+
+
+
+(
+
+
+−
+R
+(
+g
+)
++
+2
+
+Λ
+
+k
+
+
+
+
+)
+
+
++
+
+Γ
+
+k
+
+
+gf
+
+
+[
+g
+,
+
+
+
+g
+¯
+
+
+
+]
++
+
+Γ
+
+k
+
+
+gh
+
+
+[
+g
+,
+
+
+
+g
+¯
+
+
+
+,
+ξ
+,
+
+
+
+ξ
+¯
+
+
+
+]
+.
+
+
+{\displaystyle \Gamma _{k}[g,{\bar {g}},\xi ,{\bar {\xi }}]={\frac {1}{16\pi G_{k}}}\int {\text{d}}^{d}x\,{\sqrt {g}}\,{\big (}-R(g)+2\Lambda _{k}{\big )}+\Gamma _{k}^{\text{gf}}[g,{\bar {g}}]+\Gamma _{k}^{\text{gh}}[g,{\bar {g}},\xi ,{\bar {\xi }}].}
+
+
+Here
+
+
+
+R
+(
+g
+)
+
+
+{\displaystyle R(g)}
+is the scalar curvature constructed from the metric
+
+
+
+
+g
+
+μ
+ν
+
+
+
+
+{\displaystyle g_{\mu \nu }}
+. Furthermore,
+
+
+
+
+Γ
+
+k
+
+
+gf
+
+
+
+
+{\displaystyle \Gamma _{k}^{\text{gf}}}
+denotes the gauge fixing action, and
+
+
+
+
+Γ
+
+k
+
+
+gh
+
+
+
+
+{\displaystyle \Gamma _{k}^{\text{gh}}}
+the ghost action with the ghost fields
+
+
+
+ξ
+
+
+{\displaystyle \xi }
+and
+
+
+
+
+
+
+ξ
+¯
+
+
+
+
+
+{\displaystyle {\bar {\xi }}}
+.
+The corresponding
+
+
+
+β
+
+
+{\displaystyle \beta }
+-functions, describing the evolution of the dimensionless Newton constant
+
+
+
+
+g
+
+k
+
+
+=
+
+k
+
+d
+−
+2
+
+
+
+G
+
+k
+
+
+
+
+{\displaystyle g_{k}=k^{d-2}G_{k}}
+and the dimensionless cosmological constant
+
+
+
+
+λ
+
+k
+
+
+=
+
+k
+
+−
+2
+
+
+
+Λ
+
+k
+
+
+
+
+{\displaystyle \lambda _{k}=k^{-2}\Lambda _{k}}
+, have been derived for the first time in reference for any value of the spacetime dimensionality, including the cases of
+
+
+
+d
+
+
+{\displaystyle d}
+below and above
+
+
+
+4
+
+
+{\displaystyle 4}
+dimensions. In particular, in
+
+
+
+d
+=
+4
+
+
+{\displaystyle d=4}
+dimensions they give rise to the RG flow diagram shown on the left-hand side. The most important result is the existence of a non-Gaussian fixed point suitable for asymptotic safety. It is UV-attractive both in
+
+
+
+g
+
+
+{\displaystyle g}
+- and in
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+-direction.
+This fixed point is related to the one found in
+
+
+
+d
+=
+2
++
+ϵ
+
+
+{\displaystyle d=2+\epsilon }
+dimensions by perturbative methods in the sense that it is recovered in the nonperturbative approach presented here by inserting
+
+
+
+d
+=
+2
++
+ϵ
+
+
+{\displaystyle d=2+\epsilon }
+into the
+
+
+
+β
+
+
+{\displaystyle \beta }
+-functions and expanding in powers of
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+. Since the
+
+
+
+β
+
+
+{\displaystyle \beta }
+-functions were shown to exist and explicitly computed for any real, i.e., not necessarily integer value of
+
+
+
+d
+
+
+{\displaystyle d}
+, no analytic continuation is involved here. The fixed point in
+
+
+
+d
+=
+4
+
+
+{\displaystyle d=4}
+dimensions, too, is a direct result of the nonperturbative flow equations, and, in contrast to the earlier attempts, no extrapolation in
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+is required.

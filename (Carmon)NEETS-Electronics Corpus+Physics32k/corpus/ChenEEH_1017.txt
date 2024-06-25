@@ -1,0 +1,14 @@
+Dynamic power dissipation is only consumed when there is
+switching activity at some nodes in a CMOS circuit. For
+example, a chip may contain an enormous amount of capaci-
+tive nodes, but if there is no switching in the circuit, then no
+dynamic power will be consumed (Chandraksan et al., 1992).
+The switching frequency, which is a  f , determines how
+often the switching occurs. Normally, f increases with technol-
+ogy scaling, but for a given technology, double-edge-triggered
+ﬂip-ﬂops may be used to reduce the dynamic power dissipa-
+tion of the clock distribution network, which could in turn
+result in signiﬁcant savings in the total power dissipation. The
+node switching activity per cycle, a has two components:
+useful data switching activity (UDSA) and redundant spuri-
+ous switching activity (RSSA).

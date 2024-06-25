@@ -1,0 +1,8 @@
+It  has  been  shown  that  in  the  absence  of  cross  junctions  the  dual  graph  is  planar  triangulated  (PT),  and
+every  T-junction  corresponds  to  a  triangulated  face  of  the  dual  PT  graph.  Unfortunately,  not  all  PT  graphs
+have a rectangular ﬂoorplan. For example, in the graph of Fig. 25.14 we cannot satisfy the adjacency require-
+ments of edges (a,b), (b,c) and (c,a) at the same time. Note that the later edges form a cycle of length three
+that  is  not  a  face.  It  has  been  shown  that  a  PT  graph  has  a  rectangular  ﬂoorplan  if  and  only  if  it  does  not
+contain  such  cycles  of  length  three.  Moreover,  a  linear  time  algorithm  to  obtain  such  a  ﬂoorplan  has  been
+presented [Sarrafzadeh and Wong, 1996]. The rectangular dual graph approach is a new method for ﬂoorplan-
+ning, and many ﬂoorplanning problems, such as the sizing problem, have not been tackled yet.

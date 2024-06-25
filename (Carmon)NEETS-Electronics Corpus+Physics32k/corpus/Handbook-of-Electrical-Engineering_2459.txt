@@ -1,0 +1,17 @@
+At VGS = 0, IDS = IDSS. This equation and the corresponding transfer curve can actually
+be extended up to the point where VGS @ +0.5 V. In the region where 0 < VGS < +0.5 V,
+the  gate-to-channel  pn  junction  is  forward-biased  and  the  depletion  region  width  is
+reduced below the width under zero bias conditions. This reduction in the depletion
+region width leads to a corresponding expansion of the conducting channel and thus
+an increase in IDS above IDSS. As long as the gate-to-channel forward bias voltage is less
+than about 0.5 V, the pn junction will be essentially “off ” and very little gate current
+will  ﬂow.  If  VGS  is  increased  much  above  +0.5  V,  however,  the  gate-to-channel  pn
+junction will turn “on” and there will be a substantial ﬂow of gate voltage IG . This gate
+current will load down the signal source and produce a voltage drop across the signal
+source resistance, as shown in Fig. 24.12. This voltage drop can cause VGS to be much
+smaller than the signal source voltage Vin. As Vin increases, VGS will ultimately level off at a forward bias voltage
+of about +0.7 V, and the signal source will lose control over VGS , and hence over IDS. This can result in severe
+distortion of the input signal in the form of clipping, and thus this situation should be avoided. Thus, although
+it is possible to increase IDS above IDSS by allowing the gate-to-channel junction to become forward-biased by
+a  small  amount  (£0.5 V),  the  possible  beneﬁts  are  generally  far  outweighed  by  the  risk  of  signal  distortion.
+Therefore, JFETs are almost always operated with the gate-to-channel pn junction reverse-biased.

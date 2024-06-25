@@ -1,0 +1,135 @@
+The system of partial differential equations which describe the 1-D incompressible flow in an open channel of arbitrary cross section – as derived and posed by Saint-Venant in his 1871 paper (equations 19 & 20) – is:
+
+where x is the space coordinate along the channel axis, t denotes time, A(x,t) is the cross-sectional area of the flow at location x, u(x,t) is the flow velocity, ζ(x,t) is the free surface elevation and τ(x,t) is the wall shear stress along the wetted perimeter P(x,t) of the cross section at x. Further ρ is the (constant) fluid density and g is the gravitational acceleration.
+Closure of the hyperbolic system of equations (1)–(2) is obtained from the geometry of cross sections – by providing a functional relationship between the cross-sectional area A and the surface elevation ζ at each position x. For example, for a rectangular cross section, with constant channel width B and channel bed elevation zb, the cross sectional area is: A = B (ζ − zb) = B h. The instantaneous water depth is h(x,t) = ζ(x,t) − zb(x), with zb(x) the bed level (i.e. elevation of the lowest point in the bed above datum, see the cross-section figure). For non-moving channel walls the cross-sectional area A in equation (1) can be written as:
+
+
+
+
+A
+(
+x
+,
+t
+)
+=
+
+∫
+
+0
+
+
+h
+(
+x
+,
+t
+)
+
+
+b
+(
+x
+,
+
+h
+′
+
+)
+
+
+
+d
+
+
+
+h
+′
+
+,
+
+
+{\displaystyle A(x,t)=\int _{0}^{h(x,t)}b(x,h')\;{\mbox{d}}h',}
+
+with b(x,h) the effective width of the channel cross section at location x when the fluid depth is h – so b(x,h) = B(x) for rectangular channels.
+The wall shear stress τ is dependent on the flow velocity u, they can be related by using e.g. the Darcy–Weisbach equation, Manning formula or Chezy formula.
+Further, equation (1) is the continuity equation, expressing conservation of water volume for this incompressible homogeneous fluid. Equation (2) is the momentum equation, giving the balance between forces and momentum change rates.
+The bed slope S(x), friction slope Sf(x,t) and hydraulic radius R(x,t) are defined as:
+
+
+
+
+S
+=
+−
+
+
+
+
+d
+
+
+z
+
+
+b
+
+
+
+
+
+
+d
+
+x
+
+
+
+,
+
+
+{\displaystyle S=-{\frac {\mathrm {d} z_{\mathrm {b} }}{\mathrm {d} x}},}
+
+
+
+
+
+S
+
+
+f
+
+
+
+=
+
+
+τ
+
+ρ
+g
+R
+
+
+
+
+
+{\displaystyle S_{\mathrm {f} }={\frac {\tau }{\rho gR}}}
+and
+
+
+
+R
+=
+
+
+A
+P
+
+
+.
+
+
+{\displaystyle R={\frac {A}{P}}.}
+
+Consequently, the momentum equation (2) can be written as:

@@ -1,0 +1,7 @@
+Equation (74.16) applies to a “bent pipe” satellite. If on-board signal regeneration is used for digital trans-
+mission, the uplink signal is demodulated and a clean set of baseband bits is remodulated. This has the effect
+of separating the accumulation of uplink and downlink noise contributions by causing the uplink noise to be
+effectively modulated onto the downlink carrier with the desired signal [Gagliardi, 1991]. In that case, only the
+uplink or the downlink term in the denominator of Eq. (74.16) would be used as appropriate. Remodulation
+is also useful for intersatellite links. In each case, a savings in power or antenna size may be obtained at the
+expense of circuit and processing complexity.

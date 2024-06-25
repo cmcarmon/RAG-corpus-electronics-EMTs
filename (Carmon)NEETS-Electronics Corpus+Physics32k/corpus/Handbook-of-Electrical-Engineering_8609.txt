@@ -1,0 +1,18 @@
+There  is  one  last  tidbit  that  an  assembly  programmer  must  be  aware  of  in
+looking at memory. Just as some human alphabets are written left to right and
+some right to left (not to mention top to bottom), computer manufacturers have
+chosen to disagree on how to arrange words in memory. The two schemes are
+called  big-endian  and  little-endian  (after  which  end  of  a  number  goes  in  the
+lowest-numbered byte and also after a marvelous episode in Gulliver’s Travels).
+The easiest way to perceive how it is done in the two systems is to think of all
+numbers as being written in conventional order (left to right), but for big-endian
+you start counting on the upper left of the page and on little-endian you start
+counting on the upper right (see Fig. 87.1). Since each character in a text block
+is a number of length 1 byte, this easy description makes big-endian text read in
+normal order (left to right) but little-endian text reads from right to left. Figure
+87.3  shows  the  sentence “This  is  a  sentence”  followed  by  the  two  hexadecimal
+(HEX)  numbers  01020304  and  0A0B0C0D  written  to  consecutive  bytes  in  the
+two systems. Why must we bring this up? Because anyone working in assembly
+language must know how the bytes are arranged. Furthermore, two of the systems
+we are considering are big-endian and one (the VAX) is little-endian. Which is
+the better system? Either one. It is having both of them that is a nuisance.

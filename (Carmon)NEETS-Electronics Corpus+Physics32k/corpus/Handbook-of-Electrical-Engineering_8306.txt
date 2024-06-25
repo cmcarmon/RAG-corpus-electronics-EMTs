@@ -1,0 +1,15 @@
+observation from outside the component package. In that case, it is necessary to create a condition where the
+value of the signal on an externally observable node, say node  t, will be different for each of the two possible
+values that node v can take on, that is, node t shall be driven to logic state y or ~y depending upon whether
+node v is at logic state x or ~x, respectively. Note that x and y may represent the same or different logic states.
+The external pins of a component are the only means of applying the stimuli and observing the behavior of
+that  component.  During  testing,  a  test  pattern  is  used  as  the  stimulus  to  detect  the  presence  of  a  particular
+fault by causing at least one output pin of the component to take on a different value depending upon whether
+the targeted fault is present or not. Thus, a test pattern is used for controlling the circuit’s nodes so that the
+presence of a fault on a circuit node can be observed on at least one of the circuit’s external pins. Solving the
+dual problems of controllability and observability is the primary objective of all test methods. The logic-to-pin
+ratio of a digital circuit is a relative measure of the ratio of possible faults in the circuit to the number of signal
+pins (i.e., not including the constant power/ground pins) of that component. A large-value logic-to-pin ratio
+implies that logic states of a large number of circuit nodes must be controlled using a small number of external
+pins. As  a  result,  conﬂicting  requirements  for  controllability  and  observability  become  harder  to  satisfy,  and
+the circuit is considered to be more difﬁcult to test.

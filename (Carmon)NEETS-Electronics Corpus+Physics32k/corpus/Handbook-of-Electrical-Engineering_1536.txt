@@ -1,0 +1,8 @@
+Continuous questions. If X is a continuous random variable that takes real values, a question about X has the
+form: X ˛
+ t where t is some real value. Instead of limiting the questions to a predeﬁned set, we could search
+for the best subset of values taken by the random variable at any node and use the best question found. This
+implies  that  we  generate  questions  on  the  ﬂy  during  tree  construction.  The  disadvantages  of  this  approach
+include too much CPU time to search for the best subset and because there are so many subsets, there is too
+much  freedom  in  the  tree-growing  algorithm,  resulting  in  over-training  or  spurious  questions  that  do  not
+generalize very well.

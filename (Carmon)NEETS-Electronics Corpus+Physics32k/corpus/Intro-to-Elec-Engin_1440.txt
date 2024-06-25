@@ -1,0 +1,8 @@
+During the positive half-cycle of the input signal, the diode is conducting and the capacitor
+charges up to the peak value of the input signal. When the input falls below the voltage on the
+capacitor, the diode becomes reverse-biased and the input becomes disconnected from the output.
+During this period, the capacitor discharges slowly through the load resistor R. On the next cycle
+of the carrier, the diode conducts again when the input signal exceeds the voltage across the
+capacitor. The capacitor charges up again to the peak value of the input signal, and the process is
+continued. The time constant RC must be selected to follow the variations in the envelope of the
+carrier-modulated signal. Generally, it is so chosen that

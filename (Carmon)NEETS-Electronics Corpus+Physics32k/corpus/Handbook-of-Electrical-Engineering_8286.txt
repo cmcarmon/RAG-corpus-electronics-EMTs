@@ -1,0 +1,23 @@
+LFSRs as Pseudo-Random Pattern Generators
+An autonomous LFSR is a clocked synchronous shift register augmented with appropriate feedback taps and
+receiving no external input [Bardell et al., 1987; Abramovici, 1992]. It is an example of a general linear ﬁnite
+ ﬂip-ﬂops and the next state operations are implemented
+state machine, where the memory cells are simple 
+= 3. An LFSR of length 
+k
+by EXOR gates only. Figure 85.6 shows an example of an autonomous LFSR of length 
+ where the nonzero coefﬁcients of the
+can be described by a polynomial with binary coefﬁcients of degree 
+x
+polynomial denote the positions of the respective feedback taps. In Fig. 85.6, the high-order coefﬁcient for 
+3
+ is 0, and thus no feedback
+is 1, and thus there is a feedback tap from the rightmost cell 
+x
+ and to the leftmost stage since 
+ and 
+ have nonzero
+s
+tap exists after cell 
+1
+coefﬁcients. Since this is an autonomous LFSR, there is no external input to the leftmost cell.

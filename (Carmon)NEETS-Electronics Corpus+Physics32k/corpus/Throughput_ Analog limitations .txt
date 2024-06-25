@@ -1,0 +1,34 @@
+The maximum achievable throughput (the channel capacity) is affected by the bandwidth in hertz and signal-to-noise ratio of the analog physical medium.
+Despite the conceptual simplicity of digital information, all electrical signals traveling over wires are analog. The analog limitations of wires or wireless systems inevitably provide an upper bound on the amount of information that can be sent. The dominant equation here is the Shannon-Hartley theorem, and analog limitations of this type can be understood as factors that affect either the analog bandwidth of a signal or as factors that affect the signal to noise ratio. The bandwidth of wired systems can be in fact surprisingly narrow, with the bandwidth of Ethernet wire limited to approximately 1 GHz, and PCB traces limited by a similar amount.
+Digital systems refer to the 'knee frequency', the amount of time for the digital voltage to rise from 10% of a nominal digital '0' to a nominal digital '1' or vice versa. The knee frequency is related to the required bandwidth of a channel, and can be related to the 3 db bandwidth of a system by the equation:
+
+
+
+
+
+F
+
+3
+d
+B
+
+
+≈
+K
+
+/
+
+
+T
+
+r
+
+
+
+
+{\displaystyle \ F_{3dB}\approx K/T_{r}}
+Where Tr is the 10% to 90% rise time, and K is a constant of proportionality related to the pulse shape, equal to 0.35 for exponential rise, and 0.338 for Gaussian rise.
+RC losses: wires have an inherent resistance, and an inherent capacitance when measured with respect to ground. This leads to effects called parasitic capacitance, causing all wires and cables to act as RC lowpass filters.
+Skin effect: As frequency increases, electric charges migrate to the edges of wires or cable. This reduces the effective cross sectional area available for carrying current, increasing resistance and reducing the signal to noise ratio. For AWG 24 wire (of the type commonly found in Cat 5e cable), the skin effect frequency becomes dominant over the inherent resistivity of the wire at 100 kHz. At 1 GHz the resistivity has increased to 0.1 ohms/inch.
+Termination and ringing: For long wires (wires longer than 1/6 wavelengths can be considered long) must be modeled as transmission lines and take termination into account. Unless this is done, reflected signals will travel back and forth across the wire, positively or negatively interfering with the information-carrying signal.
+Wireless Channel Effects: For wireless systems, all of the effects associated with wireless transmission limit the SNR and bandwidth of the received signal, and therefore the maximum number of bits that can be sent.

@@ -1,0 +1,13 @@
+the supply rails: as far as possible these should 
+be continuous from one end of the board to the 
+other.  It  is  often  convenient  to  use  adjacent 
+strips  for  supply  and  0  V  (or  ‘ground’)  since 
+decoupling  
+be 
+distributed  at  strategic  points.  Ideally,  such 
+capacitors  should  be  positioned 
+in  close 
+proximity to the positive supply input pin to all 
+integrated  circuits  which  are  likely  to  demand 
+sudden  transient  currents  (e.g.  555  timers, 
+comparators, IC power amplifiers). 

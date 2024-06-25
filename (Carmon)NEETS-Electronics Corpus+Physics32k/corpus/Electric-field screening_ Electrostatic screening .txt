@@ -1,0 +1,53 @@
+The first theoretical treatment of screening, due to Debye and Hückel, dealt with a stationary point charge embedded in a fluid. This is known as electrostatic screening.
+Consider a fluid of electrons in a background of heavy, positively charged ions. For simplicity, we ignore the motion and spatial distribution of the ions, approximating them as a uniform background charge. This is permissible since the electrons are lighter and more mobile than the ions, provided we consider distances much larger than the ionic separation. In condensed matter physics, this model is referred to as jellium.
+Let ρ denote the number density of electrons, and φ the electric potential. At first, the electrons are evenly distributed so that there is zero net charge at every point. Therefore, φ is initially a constant as well.
+We now introduce a fixed point charge Q at the origin. The associated charge density is Qδ(r), where δ(r) is the Dirac delta function. After the system has returned to equilibrium, let the change in the electron density and electric potential be Δρ(r) and Δφ(r) respectively. The charge density and electric potential are related by the first of Maxwell's equations, which gives
+
+
+
+
+−
+
+∇
+
+2
+
+
+[
+Δ
+ϕ
+(
+r
+)
+]
+=
+
+
+1
+
+ε
+
+0
+
+
+
+
+[
+Q
+δ
+(
+r
+)
+−
+e
+Δ
+ρ
+(
+r
+)
+]
+
+
+{\displaystyle -\nabla ^{2}[\Delta \phi (r)]={\frac {1}{\varepsilon _{0}}}[Q\delta (r)-e\Delta \rho (r)]}
+.
+To proceed, we must find a second independent equation relating Δρ and Δφ. We consider two possible approximations, under which the two quantities are proportional: the Debye-Hückel approximation, valid at high temperatures, and the Fermi-Thomas approximation, valid at low temperatures.

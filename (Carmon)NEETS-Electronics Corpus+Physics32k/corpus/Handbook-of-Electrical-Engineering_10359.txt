@@ -1,0 +1,11 @@
+In reservation TDMA, on the other hand, voice call requests are serviced by the assignment (reservation) of
+a logical channel for inbound voice trafﬁc. Although various means are implemented to avoid collisions on the
+satellite link, the time needed to reserve capacity on an inbound carrier may be lengthy, depending on trafﬁc
+conditions. Therefore, call setup times are not as predictable as they are with the poll/response access scheme.
+The VSAT  design  is  ideally  suited  for  digital  compressed  voice.  Coding  rates  of  32,  16,  and  9.6  kbps  and
+lower can presently be achieved, depending on the compression technique employed. There are two classes of
+digitizing voice signals: waveform coding and vocoding. In waveform coding, the analog voice curve is coded
+and then reproduced by modeling its physical shape. Data rates are relatively high, i.e., higher than 9.6 kbps.
+Vocoding attempts to reproduce the analog voice curve by abstractly “identifying” the type and shape of the
+curve. Only a set of parameters is transmitted, describing the nature of the curve. Achieved data rates can be
+as low as 1.2 kbps.

@@ -1,0 +1,6 @@
+error covariance matrix, preferred order of processing the components of a vector-valued measurement, careful
+choice of coordinates (e.g., polar vs. Cartesian), hybrid coordinate systems, etc. There is no guarantee that any
+of  these  methods  will  improve  EKF  performance;  in  some  cases,  second-order  corrections  and/or  iteration
+actually make EKF performance worse, contrary to intuition. Reviews of these techniques are given in Tanizaki
+[1996], as well as Wishner et al. [1969], Mehra [1971], Leskiw et al. [1982], Gelb [1974], Bellaire et al. [1995],
+Henriksen [1982], Fang [1976], Daum et al. [1983], and Jazwinski [1970].

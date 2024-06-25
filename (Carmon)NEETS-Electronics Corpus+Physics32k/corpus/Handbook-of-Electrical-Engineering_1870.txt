@@ -1,0 +1,8 @@
+Consider  how  to  use  a  SIMD  machine  to  perform  the  ﬁltering  operation  given  at  the  beginning  of  this
+section.  The  multiplications  are  all  independent,  so  we  can  perform  N  multiplications  in  parallel  on  the
+N processing elements. We need to perform N – 1 additions on the multiplication results; by properly arranging
+the computation in a tree, many of those operations can be performed in parallel as well. We will need to use
+the data transfer network in two ways: to transfer x values between processing elements for the data streaming
+time shift; and to transfer the partial addition results in the addition tree. SIMD architectures can of course be
+used to implement multidimensional functions as well. For example, two-dimensional correlation is used in
+video compression, image recognition, etc., and can easily be mapped onto a SIMD machine.

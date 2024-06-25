@@ -1,0 +1,74 @@
+The Cauchy momentum equation is a vector partial differential equation put forth by Cauchy that describes the non-relativistic momentum transport in any continuum. In convective (or Lagrangian) form it is written:
+
+
+
+
+
+
+
+D
+
+u
+
+
+
+D
+t
+
+
+
+=
+
+
+1
+ρ
+
+
+∇
+⋅
+
+σ
+
++
+
+g
+
+
+
+{\displaystyle {\frac {D\mathbf {u} }{Dt}}={\frac {1}{\rho }}\nabla \cdot {\boldsymbol {\sigma }}+\mathbf {g} }
+
+where ρ is the density at the point considered in the continuum (for which the continuity equation holds), σ is the stress tensor, and g contains all of the body forces per unit mass (often simply gravitational acceleration). u is the flow velocity vector field, which depends on time and space.
+Notably, it can be written, through an appropriate change of variables, also in conservation (or Eulerian) form:
+
+
+
+
+
+
+
+∂
+
+j
+
+
+
+∂
+t
+
+
+
++
+∇
+⋅
+
+F
+
+=
+
+s
+
+
+
+{\displaystyle {\frac {\partial \mathbf {j} }{\partial t}}+\nabla \cdot \mathbf {F} =\mathbf {s} }
+
+where j is the momentum density at the point considered in the continuum (for which the continuity equation holds), F is the flux associated to the momentum density, and s contains all of the body forces per unit volume.

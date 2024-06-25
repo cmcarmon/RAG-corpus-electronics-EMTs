@@ -1,0 +1,8 @@
+Transmitted information is subject to short bursts of errors and must also be protected. The connection-
+oriented service at the LLC sublayer is intended to recover from errors—such as garbled, dropped, or out-of-
+sequence packets—by positively acknowledging packets and retransmitting packets not acknowledged within
+the  timeout  window.  The  MAC  sublayer  usually  provides  error-detecting  codes  that  can  recognize  an  error
+burst of several consecutive bits (a favorite is the 32-bit cyclic redundancy code, which is easily implemented
+as  a  linear  feedback  shift  register).  Errors  can  also  be  recognized  at  the  physical  layer  when  they  cause  code
+violations,  e.g.,  the  absence  of  transitions  in  the  Manchester  or  4B/5B  codes.  Some  LANs  even  use  error-
+correcting codes for protecting time-sensitive information.

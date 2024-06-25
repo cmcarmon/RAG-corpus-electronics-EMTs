@@ -1,0 +1,10 @@
+One of the ﬁrst-generation digital signal processors is the (N-MOS technology) TMS32010, introduced by
+Texas  Instruments  in  1982.  This  ﬁrst-generation  ﬁxed-point  processor  is  based  on  the  Harvard  architecture,
+with a fast on-chip hardware multiplier/accumulator, and with data and instructions in separate memory spaces,
+allowing for concurrent accesses. This type of pipelining feature enables the processor to execute one instruction
+while fetching at the same time the next instruction. Other features include 144 (16-bit) words of on-chip data
+RAM and a 16-bit by 16-bit multiply operation in one instruction cycle time of 200 ns. Since many instructions
+can be executed in one single cycle, the TMS32010 is capable of executing 5 million instructions per second
+(MIPS).  Major  drawbacks  of  this  ﬁrst-generation  processor  are  its  limited  on-chip  memory  size  and  much
+slower execution time for accessing external memory. Improved versions of this ﬁrst-generation processor are
+now available in C-MOS technology, with a faster instruction cycle time of 160 ns.

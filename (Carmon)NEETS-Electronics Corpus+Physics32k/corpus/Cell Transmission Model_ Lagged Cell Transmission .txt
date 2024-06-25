@@ -1,0 +1,4 @@
+Since the original Cell Transmission model is a first order approximation, Daganzo  proposed the Lagged Cell Transmission Model (LCTM) that is more accurate than the former. This enhanced model uses lagged downstream density (p time steps earlier than the current time) for the receiving function. If a triangular fundamental diagram is used and lag is chosen appropriately, this improved method is second order accurate.
+when the highway is discritized with variable cell lengths, then one should introduce forward lag for the sending function to preserve the good properties of LCTM. The choice of backward lag and forward lag are given by:
+backward lag forward lag
+where d and ε are the spatial and temporal steps of the cell, is the maximum free-flow speed, w is the maximum backward propagating wave speed.

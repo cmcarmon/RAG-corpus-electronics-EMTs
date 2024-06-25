@@ -1,0 +1,6 @@
+ampliﬁer is so designed that it provides an output signal containing a term proportional to the
+derivative of the input, as well as one proportional to the input itself, error-rate damping will be
+introduced. For the system that includes error rate, the only modiﬁcation needed is in the transfer
+function of the servoampliﬁer. Instead of the gain Ka, the new transfer function will be Ka + sKe,
+where Ke denotes the error-rate gain factor of the ampliﬁer. The complete block diagram is shown
+in Figure 16.2.11. In this case the direct transmission function becomes

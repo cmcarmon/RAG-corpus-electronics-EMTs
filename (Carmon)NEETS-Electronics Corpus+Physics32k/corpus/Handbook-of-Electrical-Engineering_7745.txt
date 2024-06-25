@@ -1,0 +1,7 @@
+Disk caches can become even more useful if they are made nonvolatile using the battery back-up techniques
+described in the previous subsection (and with the same potential problems). A nonvolatile cache will allow
+“fast writes”: the application need not wait for the write I/O to actually complete before it is notiﬁed that it
+has  completed.  For  some  applications  environments,  disk  caches  have  the  beneﬁcial  effect  of  reducing  the
+number of reads and thus the number of I/O requests seen by the disks. This has the interesting side effect of
+increasing the percentage of writes found in the I/O mix, and some observers believe that writes may dominate
+I/O performance in future systems.

@@ -1,0 +1,8 @@
+At the output of the discriminator in an FM receiver, higher frequency components of output
+noise power are accentuated. A low-pass ﬁlter, known as a deemphasis ﬁlter, is added so that
+the large-amplitude noise can be greatly reduced and the output SNR increased. Since the ﬁlter
+also acts on the message, causing distortion, the message at the transmitter is passed through
+a compensating ﬁlter, called a preemphasis ﬁlter, before modulation occurs. It accentuates the
+higher frequencies in the message so as to exactly compensate for the effect of the deemphasis
+ﬁlter, so that there is no overall effect on the message (see also Section 14.3). The scheme is
+illustrated in Figure 15.2.18.

@@ -1,0 +1,9 @@
+Measurement Models
+The Kalman ﬁlter theory assumes Gaussian measurement errors that are statistically independent from sample
+to sample, with zero mean and exactly known covariance matrix (Rk). However, in many practical applications,
+these are poor approximations of reality. For example, in radar applications, the measurments of range, azimuth,
+and  elevations  are  often  biased,  non-Gaussian,  and  correlated  with  time,  owing  to  diverse  physical  effects
+including  multipath,  tropospheric  refraction,  ducting,  ionospheric  refraction,  glint,  RV  wake,  rocket  exhaust
+plume, RFI, ECM, unresolved measurements, bias errors in time, location and angular orientation for the radar
+itself, radar hardware errors, etc. Gauss himself cautioned against naïve least squares ﬁtting of data with bias
+and drift; see Gauss [1995].

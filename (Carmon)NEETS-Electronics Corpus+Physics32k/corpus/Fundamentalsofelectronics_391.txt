@@ -1,0 +1,5 @@
+Consider this mathematical question intuitively: Can a discontinuous function, like the square wave, be
+expressed as a sum, even an inﬁnite one, of continuous signals? One should at least be suspicious, and in fact,
+it can’t be thus expressed. The extraneous peaks in the square wave’s Fourier series never disappear; they
+are termed Gibbs’ phenomenon after the American physicist Josiah Willard Gibbs. They occur whenever
+the signal is discontinuous, and will always be present whenever the signal has jumps. This issue brought

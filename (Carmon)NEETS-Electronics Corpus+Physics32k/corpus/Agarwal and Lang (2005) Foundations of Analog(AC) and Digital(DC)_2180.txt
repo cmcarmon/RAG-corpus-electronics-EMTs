@@ -1,0 +1,9 @@
+To get the Op Amp out of saturation, vi must be made positive enough to
+) approximately to zero, hence vi must be approximately+6 volts.
+bring (v
+If vi is slightly more positive than +6, vO will be driven negative, whereupon v
++
+will be driven negative, driving v0 even more negative. Hence, vO undergoes a
+regenerative negative transition to −12 V. Now vi must be made more negative
+than −6 volts to initiate a regenerative transition to +12 V. the width of the
+hysteresis region can be controlled by the ratio of the feedback resistors.

@@ -1,0 +1,7 @@
+When M > 1 mixture components appear in a state,
+then the observation vectors assigned to that state must be
+subdivided into M subsets prior to averaging. This is done by
+clustering, using, for example, the K-means algorithm with
+K ¼ M. If there are Nim vectors assigned to the mth mixture
+in state i, then the mixture coefﬁcient cim is reestimated as
+cim ¼ Nim=Ni.

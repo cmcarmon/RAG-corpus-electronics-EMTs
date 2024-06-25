@@ -1,0 +1,13 @@
+Shot Noise
+In a conductor under an external emf, there is an average ﬂow of electrons, holes, photons, etc. In addition to
+this induced net ﬂow and thermal noise, there is another effect. The potential differs across the boundaries of
+metallic  grains  and  particles  of  impurities,  and  when  the  kinetic  energy  of  electrons  exceeds  this  potential,
+electrons jump across the barrier. This summed random ﬂow is known as shot noise [see Gardner, 1990, p. 239;
+Ott, 1988, p. 208]. The shot effect was analyzed by Schottky in 1918 as Ish = (2qIdc B)1/2, where q = 1.6 3 10–19
+coulombs per electron, Idc = average dc current in amperes, and B = noise bandwidth (Hz).
+Partition Noise
+Partition noise is caused by a parting of the ﬂow of electrons to different electrodes into streams of randomly
+varying density. Suppose that electrons from some source S ﬂow to destination electrodes A and B. Let n(A)
+and n(B) be the average numbers of electrons per second that go to nodes A and B respectively, so that n(S) =
+n(A) + n(B) is the average total number of electrons emitted per second. It is a success when an electron goes
+to A, and the probability of success on a single trial is p, where

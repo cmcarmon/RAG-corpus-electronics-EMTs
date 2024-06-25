@@ -1,0 +1,13 @@
+This approach, diagrammed in the top of Figure 13.1, is basic and power-
+ful, in that it can handle both linear and nonlinear problems, but often it
+involves substantial mathematical manipulations if the drive signals are other
+than simple impulses, steps, or ramps. Thus there is considerable incentive to
+look for easier methods of solution, even if these methods are more restricted
+in application. Simplified methods are indeed possible if the system is linear
+and time invariant, and we assume sinusoidal drive and focus on the steady-
+state behavior. Because in many design applications such as audio amplifiers,
+oscilloscope vertical amplifiers, and Op Amps linearity is a basic design con-
+straint, systems that are linear or at least incrementally linear represent a large
+and important class, hence are worthy of special attention. Further, more com-
+plicated input signals such as square waves can be considered to be the sum of
+many sinusoids; hence the problem can be solved by superposition.

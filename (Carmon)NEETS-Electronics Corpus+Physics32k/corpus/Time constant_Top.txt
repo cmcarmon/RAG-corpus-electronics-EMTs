@@ -1,0 +1,39 @@
+In physics and engineering, the time constant, usually denoted by the Greek letter τ (tau), is the parameter characterizing the response to a step input of a first-order, linear time-invariant (LTI) system. The time constant is the main characteristic unit of a first-order LTI system.
+In the time domain, the usual choice to explore the time response is through the step response to a step input, or the impulse response to a Dirac delta function input. In the frequency domain (for example, looking at the Fourier transform of the step response, or using an input that is a simple sinusoidal function of time) the time constant also determines the bandwidth of a first-order time-invariant system, that is, the frequency at which the output signal power drops to half the value it has at low frequencies.
+The time constant is also used to characterize the frequency response of various signal processing systems – magnetic tapes, radio transmitters and receivers, record cutting and replay equipment, and digital filters – which can be modeled or approximated by first-order LTI systems. Other examples include time constant used in control systems for integral and derivative action controllers, which are often pneumatic, rather than electrical.
+Time constants are a feature of the lumped system analysis (lumped capacity analysis method) for thermal systems, used when objects cool or warm uniformly under the influence of convective cooling or warming.
+Physically, the time constant represents the elapsed time required for the system response to decay to zero if the system had continued to decay at the initial rate, because of the progressive change in the rate of decay the response will have actually decreased in value to
+
+
+
+1
+
+/
+
+e
+≈
+36.8
+
+%
+
+
+{\displaystyle 1/e\approx 36.8\,\%}
+in this time (say from a step decrease). In an increasing system, the time constant is the time for the system's step response to reach
+
+
+
+1
+−
+1
+
+/
+
+e
+≈
+63.2
+
+%
+
+
+{\displaystyle 1-1/e\approx 63.2\,\%}
+of its final (asymptotic) value(say from a step increase). In radioactive decay the time constant is called the decay constant (λ), and it represents both the mean lifetime of a decaying system (such as an atom) before it decays, or the time it takes for all but 36.8% of the atoms to decay. For this reason, the time constant is longer than the half-life, which is the time for only 50% of the atoms to decay.

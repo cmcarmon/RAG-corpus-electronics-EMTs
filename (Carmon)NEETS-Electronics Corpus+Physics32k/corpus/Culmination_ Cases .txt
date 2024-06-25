@@ -1,0 +1,5 @@
+The three cases are dependent on the observer's latitude and the declination of the celestial body:
+The object is above the horizon even at its lower culmination; i.e. if |declination + latitude| > 90° (i.e. if in absolute value the declination is more than the colatitude, in the corresponding hemisphere)
+The object is below the horizon even at its upper culmination; i.e. if |declination − latitude| > 90° (i.e. if in absolute value the declination is more than the colatitude, in the opposite hemisphere)
+The upper culmination is above and the lower below the horizon, so the body is observed to rise and set daily; in the other cases (i.e. if in absolute value the declination is less than the colatitude)
+The third case applies for objects in a part of the full sky equal to the cosine of the latitude (at the equator it applies for all objects, because the sky turns around the horizontal north-south line; at the poles it applies for none, because the sky turns around the vertical line). The first and second case each apply for half of the remaining sky.

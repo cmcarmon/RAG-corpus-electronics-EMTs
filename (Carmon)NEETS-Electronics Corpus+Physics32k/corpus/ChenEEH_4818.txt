@@ -1,0 +1,13 @@
+. Encapsulation refers to objects being self-contained
+modules with well-deﬁned interfaces
+for interaction
+with other objects. The variables used in an object are
+generally limited in scope so that they are not accessible
+outside of the object (unless they are speciﬁcally declared
+as ‘‘public’’ variables). An object’s interface that allows it
+to interact with the outside world is kept constant even as
+the internal workings may be modiﬁed and updated, so
+modiﬁcation to one object does not require correspond-
+ing modiﬁcations to other objects. This encapsulation
+property enables software updates to be accomplished
+more efﬁciently and with less risk of error.

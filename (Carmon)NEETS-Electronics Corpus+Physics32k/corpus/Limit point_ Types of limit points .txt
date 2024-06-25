@@ -1,0 +1,116 @@
+If every open set containing x contains infinitely many points of S then x is a specific type of limit point called an ω-accumulation point of S.
+If every open set containing x contains uncountably many points of S then x is a specific type of limit point called a condensation point of S.
+If every open set U containing x satisfies |U ∩ S| = |S| then x is a specific type of limit point called a complete accumulation point of S.
+A point x ∈ X is a cluster point or accumulation point of a sequence (xn)n ∈ N if, for every neighbourhood V of x, there are infinitely many natural numbers n such that xn ∈ V. If the space is Fréchet–Urysohn, this is equivalent to the assertion that x is a limit of some subsequence of the sequence (xn)n ∈ N. The set of all cluster points of a sequence is sometimes called a limit set.
+The concept of a net generalizes the idea of a sequence. Let
+
+
+
+n
+:
+(
+P
+,
+≤
+)
+→
+X
+
+
+{\displaystyle n:(P,\leq )\to X}
+be a net, where
+
+
+
+(
+P
+,
+≤
+)
+
+
+{\displaystyle (P,\leq )}
+is a directed set. The point
+
+
+
+a
+∈
+X
+
+
+{\displaystyle a\in X}
+is said to be a cluster point of the net
+
+
+
+n
+
+
+{\displaystyle n}
+if for any neighbourhood
+
+
+
+U
+
+
+{\displaystyle U}
+of
+
+
+
+a
+
+
+{\displaystyle a}
+and any
+
+
+
+p
+∈
+P
+
+
+{\displaystyle p\in P}
+, there is some
+
+
+
+x
+≥
+p
+
+
+{\displaystyle x\geq p}
+such that
+
+
+
+n
+(
+x
+)
+∈
+U
+
+
+{\displaystyle n(x)\in U}
+, equivalently, if
+
+
+
+n
+
+
+{\displaystyle n}
+has a subnet which converges to
+
+
+
+a
+
+
+{\displaystyle a}
+. Cluster points in nets encompass the idea of both condensation points and ω-accumulation points. Clustering and limit points are also defined for the related topic of filters.

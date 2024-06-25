@@ -1,0 +1,14 @@
+The original goal of the BSIM model was to ﬁt better than the level 2 and 3 models for submicron channel
+lengths,  over  a  wider  range  of  geometries,  in  the  subthreshold  region,  and  for  nonzero  back-bias.  Without
+question,  BSIM  can  ﬁt  individual  devices  better  than  level  2  and  level  3.  It  also  ﬁts  the  subthreshold  region
+better and it ﬁts better for nonzero back-biases. However, its greatest shortcoming is its inability to ﬁt over a
+large geometry variation. This occurs because (13.6) is a truncated Taylor series in 1/Leff and 1/Weff terms, and
+in order to ﬁt better over varying geometries, higher power terms in 1/Leff and 1/Weff are needed. In addition,
+no provision was put into the BSIM model for ﬁtting Gds, so its usefulness for analog applications is questionable.
+Many of the BSIM model parameters are unphysical, so it is very hard to understand the signiﬁcance of these
+model  parameters.  This  has  profound  implications  for  generating  skew  models  (fast  and  slow  models  to
+represent the process corners) and for incorporating temperature dependence. Another ﬂaw of the BSIM model
+is its wild behavior for certain values of the model parameters. If model parameters are not speciﬁed for level 2
+or 3, they will default to values that will at least force the model to behave well. For BSIM, not specifying certain
+model parameters, setting them to zero, or various combinations of values can cause the model to become very
+ill-behaved.

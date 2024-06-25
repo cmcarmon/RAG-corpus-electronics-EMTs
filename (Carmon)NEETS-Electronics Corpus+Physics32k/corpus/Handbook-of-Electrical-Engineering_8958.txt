@@ -1,0 +1,19 @@
+Resistive. Resistive overlay technology requires a more complex assembly consisting of two layers, as illustrated
+in Fig. 89.13. The layers both contain transparent metallic surfaces and are separated by spacers so that an air
+gap exists between the layers in the absence of any pressure on the touch panel. The metallic layers face each
+other and when the outer panel is pressed the metallic layers make contact and form a conductive path at the
+point  of  contact. When  a  voltage  is  applied  between  the  top  of  the  outer  layer  and  the  bottom  of  the  inner
+layer, the two layers act as a voltage divider, and the voltage at the point of contact may be measured in the X
+and Y directions by applying the voltage in ﬁrst one and then the other direction. The measured voltages are
+then transmitted to the controller where they are converted into coordinates which are then sent to the computer.
+The panel may be discrete, in which the conductive coating on the top layer is etched in one direction and
+that  on  the  bottom  layer  in  the  other  direction,  or  analog,  where  the  conductive  coatings  in  both  layers  are
+continuous. In the discrete case, the panel then acts as an X–Y matrix, and the resolution is determined by the
+number of etched lines. The analog conﬁguration requires the addition of linearization networks on each edge
+of  the  panel  so  that  a  large-area  resistor  is  created  with  a  voltage  drop  in  one  direction.  Other  linearization
+techniques are also possible, but only the four-element system is described here as shown in Fig. 89.14. In this
+arrangement, one of the layers acts as the large-area resistor and the other as a voltage probe where either can
+function in either role. For the Y coordinate value the top layer is the voltage probe, and the voltage is applied
+by the controller to the bottom layer. Similarly, the X coordinate is found by connecting the voltage to the top
+layer and making the bottom layer into the voltage probe. In either type of system, the resolution can be very
+high, but the transmissivity is reduced to under 80% due to the multiple layers.

@@ -1,0 +1,7 @@
+Small-signal operation requires that the total input signal appear as a small
+perturbation about a DC offset. The input DC offset establishes an operating
+point for the amplifier. Section 7.7 discussed the issue of operating points in the
+context of large signals, and proposed a method for selecting the operating point
+based on maximizing the dynamic input signal range. Specifically, Section 7.7
+suggested that the operating point be chosen as the midpoint of the valid input
+voltage range of amplifier operation under the saturation discipline. This made

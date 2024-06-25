@@ -1,0 +1,21 @@
+Bus is a set of conductors (wires, PCB tracks, or connections in
+an integrated circuit) connecting various functional units in a
+computer. Busses can be either inside or outside the CPU. The
+outside busses are used to connect the CPU to external
+memory and peripheral devices. The width of a bus (i.e., the
+number of parallel connectors) determines the size in bits of
+the largest data item that it can carry. The bus width and the
+number of data items per second that it can transmit are
+factors limiting a computer’s performance. Most current
+microprocessors have 32-bit or 64-bit busses. Some processors
+have internal busses, which are wider than their external busses
+(usually twice the width). The width of the internal bus,
+therefore, affects the speed of all operations and has less effect
+on the overall system cost than the width of the external bus.
+On the other hand, an interface is a communication channel
+for two or more systems. It can be a hardware connector
+linking devices or a convention allowing communication be-
+tween two software systems. There are often some intermediate
+components between the two systems that connect the inter-
+faces together. For example, two RS-232 interfaces are con-
+nected via a serial cable.

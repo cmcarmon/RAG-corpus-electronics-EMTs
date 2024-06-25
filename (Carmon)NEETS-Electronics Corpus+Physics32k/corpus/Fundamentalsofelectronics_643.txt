@@ -1,0 +1,9 @@
+in the next generation is some multiple of the previous one. If this multiple is less than one, the
+population becomes extinct; if greater than one, the population ﬂourishes. The same diﬀerence
+equation also describes the eﬀect of compound interest on deposits. Here, n indexes the times at
+which compounding occurs (daily, monthly, etc.), a equals the compound interest rate plus one,
+and b = 1 (the bank provides no gain). In signal processing applications, we typically require that
+the output remain bounded for any input. For our example, that means that we restrict |a| < 1
+and choose values for it and the gain according to the application.
+Exercise 5.26
+Note that the diﬀerence equation (5.42),

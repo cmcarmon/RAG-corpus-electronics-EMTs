@@ -1,0 +1,105 @@
+The Navier–Stokes problem in two dimensions has already been solved positively since the 1960s: there exist smooth and globally defined solutions.
+If the initial velocity
+
+
+
+
+v
+
+(
+x
+,
+t
+)
+
+
+{\displaystyle \mathbf {v} (x,t)}
+is sufficiently small then the statement is true: there are smooth and globally defined solutions to the Navier–Stokes equations.
+Given an initial velocity
+
+
+
+
+
+v
+
+
+0
+
+
+(
+x
+)
+
+
+{\displaystyle \mathbf {v} _{0}(x)}
+there exists a finite time T, depending on
+
+
+
+
+
+v
+
+
+0
+
+
+(
+x
+)
+
+
+{\displaystyle \mathbf {v} _{0}(x)}
+such that the Navier–Stokes equations on
+
+
+
+
+
+R
+
+
+3
+
+
+×
+(
+0
+,
+T
+)
+
+
+{\displaystyle \mathbb {R} ^{3}\times (0,T)}
+have smooth solutions
+
+
+
+
+v
+
+(
+x
+,
+t
+)
+
+
+{\displaystyle \mathbf {v} (x,t)}
+and
+
+
+
+p
+(
+x
+,
+t
+)
+
+
+{\displaystyle p(x,t)}
+. It is not known if the solutions exist beyond that "blowup time" T.
+Jean Leray in 1934 proved the existence of so-called weak solutions to the Navier–Stokes equations, satisfying the equations in mean value, not pointwise.
+Terence Tao in 2016 published a finite time blowup result for an averaged version of the 3-dimensional Navier–Stokes equation. He writes that the result formalizes a "supercriticality barrier" for the global regularity problem for the true Navier–Stokes equations, and claims that the method of proof in fact hints at a possible route to establishing blowup for the true equations.

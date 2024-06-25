@@ -1,0 +1,4 @@
+The “CrossCheck” Technique. The CrossCheck approach [Gheewala, 1989] uses cells with built-in test points
+to observe critical signal values. The test points are connected to an underlining grid structure using very small
+FETs called cross-point switches. An on-chip test control circuit generates the necessary signals to address the
+individual probe lines and capture the results in a multi-input signature register (MISR). Test patterns can be

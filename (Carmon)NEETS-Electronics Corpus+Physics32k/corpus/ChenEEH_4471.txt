@@ -1,0 +1,12 @@
+This example has been designed as a simpliﬁed analysis of a
+carrier phase differential global positioning system-aided INS.
+A full error analysis is signiﬁcantly more complicated for a few
+reasons. First, the INS equations are nonlinear. The implemen-
+tation therefore requires a more advanced estimator imple-
+mentation, such as an extended Kalman ﬁlter. Second, the INS
+error equations are functions of the acceleration and angular
+rate of the inertial measurement unit. In addition, the linear-
+ized measurement matrix is a function of the satellite positions
+and is therefore time varying. Therefore, the state-space model
+is time varying, and the full error analysis would be dependent
+on assumed vehicle maneuvers and satellite conﬁgurations.

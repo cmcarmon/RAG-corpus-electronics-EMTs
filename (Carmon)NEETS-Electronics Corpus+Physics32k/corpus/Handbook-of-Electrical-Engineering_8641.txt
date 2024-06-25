@@ -1,0 +1,9 @@
+When the callee picks up the action, the stack and registers are as shown in Figure 87.5. With the exception
+of D0 and A7, the callee has no registers . . . yet. The callee must make room for local variables in either register
+or memory. If it wants to use registers, it must save the user’s data from the registers. The subroutine can get
+whatever space it needs on the stack. Only after the setup will it get down to work. The entire section of stack
+used for local variables and saving registers is called the callee’s frame. It is useful to have a pointer (FP) to the
+bottom  of  the  frame  to  provide  a  static  reference  to  the  return  address,  the  passed  parameters,  and  the
+subroutine’s local variable area on the stack. In the 68000, the convention is to use A6 as FP. When our routine,
+NumberCount, begins, the address in A6 points to the start of the caller’s frame. The ﬁrst thing the callee must
+do is to establish a local frame. It does that with the instruction LINK.

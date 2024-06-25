@@ -1,0 +1,31 @@
+If a small ac signal voltage vGS is superimposed on the dc gate bias voltage VGS , only a small segment of the
+transfer characteristic adjacent to the Q point will be traversed, as shown in Fig. 24.14. This small segment will
+be close to a straight line, and as a result the ac drain current ids will have a waveform close to that of the ac
+voltage applied to the gate. The ratio of ids to vGS will be the slope of the transfer curve as given by id s /vGS @
+dID S /dVGS = gm. Thus ids @ gmvGS. If the net load driven by the drain of the JFET is the drain load resistor R D,
+as shown in Fig. 24.13, then the ac drain current ids will produce an ac drain voltage of vds = –ids · RD. Since
+ids = gmvGS , this becomes vds = –gmvGS · R D. The ac small-signal voltage gain from gate to drain thus becomes
+AV = vO /vin = vd s /vGS = –gm · RD. The negative sign indicates signal inversion as is the case for a CS ampliﬁer.
+If the dc drain supply voltage is VDD = +20 V, a quiescent drain-to-source voltage of VDSQ = VDD/2 = +10 V
+will result in the JFET being biased in the middle of the active region. Since IDSQ = +5 mA in the example under
+consideration, the voltage drop across the drain load resistor RD is 10 V. Thus RD = 10 V/5 mA = 2 kW. The ac
+small-signal voltage gain AV thus becomes AV = –gm · RD = –3.54 mS · 2 kW = –7.07. Note that the voltage gain
+is relatively modest as compared to the much larger voltage gains that can be obtained in a bipolar-junction
+transistor (BJT) common-emitter ampliﬁer. This is due to the lower transfer conductance of both JFETs and
+MOSFETs  (metal-oxide  semiconductor  ﬁeld-effect  transistors)  as  compared  to  BJTs.  For  a  BJT  the  transfer
+conductance is given by gm = IC /VT , where IC is the quiescent collector current and VT = kT/q @ 25 mV is the
+thermal voltage. At IC = 5 mA, gm = 5 mA/25 mV = 200 mS, as compared to only 3.5 mS for the JFET in this
+example. With a net load of 2 kW, the BJT voltage gain will be –400 as compared to the JFET voltage gain of
+only  7.1.  Thus  FETs  do  have  the  disadvantage  of  a  much  lower  transfer  conductance,  and  therefore  voltage
+gain,  than  BJTs  operating  under  similar  quiescent  current  levels,  but  they  do  have  the  major  advantage  of  a
+much higher input impedance and a much lower input current. In the case of a JFET the input signal is applied
+to the reverse-biased gate-to-channel pn junction and thus sees a very high impedance. In the case of a common-
+emitter  BJT  ampliﬁer,  the  input  signal  is  applied  to  the forward-biased  base-emitter  junction,  and  the  input
+impedance is given approximately by rin = rBE @ 1.5 · b · VT /IC. If IC = 5 mA and b = 200, for example, then
+rin @ 1500 W. This moderate input resistance value of 1.5 kW is certainly no problem if the signal source resistance
+is less than around 100 W. However, if the source resistance is above 1 kW, then there will be a substantial signal
+loss in the coupling of the signal from the signal source to the base of the transistor. If the source resistance is
+in the range of above 100 kW, and certainly if it is above 1 MW, then there will be severe signal attenuation
+due to the BJT input impedance, and the FET ampliﬁer will probably offer a greater overall voltage gain. Indeed,
+when high-impedance signal sources are encountered, a multistage ampliﬁer with a FET input stage followed
+by cascaded BJT stages is often used.

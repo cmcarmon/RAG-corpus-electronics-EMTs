@@ -1,0 +1,13 @@
+In the online situation, the number of input output data
+for the training process becomes a very important design
+parameter. The system dynamics may keep changing because
+of different fault situations (i.e., the incipient fault, abrupt
+fault, and multiple faults). Apparently, using all input/output
+measurements to train the online estimator does not make
+too much sense since it is possible to use invalid training
+patterns to mislead the estimator, and it is also unrealistic for
+online applications. In other words, only ﬁnite and limited
+number of data sets should be used as training patterns to
+adjust the parameters of the estimator. A reasonable way is to
+use the most recent input/output measurements. A set, B, that
+contains the most recent measurements in a ﬁxed length of a

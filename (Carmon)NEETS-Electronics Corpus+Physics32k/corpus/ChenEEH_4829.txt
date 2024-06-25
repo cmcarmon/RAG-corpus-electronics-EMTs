@@ -1,0 +1,14 @@
+In a layered architecture, objects are designed using a building
+block mentality. The bottom layer is composed of objects that
+perform low-level, often tedious functions. The next layer has
+somewhat higher functionality and makes calls to the objects
+in the lower layer. Each successive layer upward is more high-
+level in its functionality. A common way of explaining this
+layering is that the details are ‘‘abstracted away,’’ meaning that
+some of the tedious details needed to perform the function
+are hidden from the higher level objects simply by delegating
+them to the lower levels. In a layered architecture, the object
+calls are all downward. This architecture is the motivation
+for the libraries of common function calls that are available
+including the application
+with most high-level

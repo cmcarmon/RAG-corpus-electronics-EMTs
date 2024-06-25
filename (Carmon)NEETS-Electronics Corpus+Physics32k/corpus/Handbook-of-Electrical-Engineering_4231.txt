@@ -1,0 +1,6 @@
+Search operations impose additional losses due to target position uncertainty. Because the target position is
+unknown before detection, the beam, range gate, and Doppler ﬁlter will not be centered on the target return.
+Hence, straddling loss will occur as the target effectively straddles adjacent resolution cells in range and Doppler.
+Beamshape loss is a consequence of the radar beam not being pointed directly at the target so that there is a
+loss  in  both  transmit  and  receive  antenna  gain.  In  addition,  detection  threshold  loss  associated  with  radar
+system adaptation to interference must be included [Nathanson, 1991]).

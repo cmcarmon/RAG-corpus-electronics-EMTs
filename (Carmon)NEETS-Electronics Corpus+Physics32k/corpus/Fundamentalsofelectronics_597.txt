@@ -1,0 +1,11 @@
+5.8 DFT: Computational Complexity19
+We now have a way of computing the spectrum for an arbitrary signal: The Discrete Fourier Transform
+(DFT) (5.33) computes the spectrum at N equally spaced frequencies from a length- N sequence. An issue
+that never arises in analog “computation,” like that performed by a circuit, is how much work it takes to
+perform the signal processing operation such as ﬁltering. In computation, this consideration translates to
+the number of basic computational steps required to perform the needed processing. The number of steps,
+known as the complexity, becomes equivalent to how long the computation takes (how long must we wait
+for an answer). Complexity is not so much tied to speciﬁc computers or programming languages but to how
+many steps are required on any computer. Thus, a procedure’s stated complexity says that the time taken
+will be proportional to some function of the amount of data used in the computation and the amount
+demanded.

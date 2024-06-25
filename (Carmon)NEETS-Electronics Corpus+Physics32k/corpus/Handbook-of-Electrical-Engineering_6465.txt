@@ -1,0 +1,9 @@
+The condition under which the two options are available can be stated in an alternate manner. If one envisions
+what  is  taking  place  in  the  frequency  domain,  it  is  straightforward  to  show  that  the  condition  of  the  chip
+duration being smaller than the multipath delay spread is equivalent to requiring that the spread bandwidth
+of the transmitted waveform exceed what is called the coherence bandwidth of the channel. This latter quantity
+is simply the inverse of the multipath delay spread and is a measure of the range of frequencies that fade in a
+highly  correlated  manner.  Indeed,  anytime  the  coherence  bandwidth  of  the  channel  is  less  than  the  spread
+bandwidth of the signal, the channel is said to be  frequency selective with respect to the signal. Thus, we see
+that  to  take  advantage  of  DS  signalling  when  used  over  a  multipath  fading  channel,  that  signal  should  be
+designed such that it makes the channel appear frequency selective.

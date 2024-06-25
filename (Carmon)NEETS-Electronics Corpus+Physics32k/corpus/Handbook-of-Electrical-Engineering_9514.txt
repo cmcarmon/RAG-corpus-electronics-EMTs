@@ -1,0 +1,4 @@
+GET NEXT WITHIN PARENT [<record type> WHERE <restrictions>]
+It retrieves all records that have the same parent and that satisfy the restrictions. The parent is assumed to
+have been selected through a previous GET command.
+Four commands are used for record updates:

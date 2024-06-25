@@ -1,0 +1,13 @@
+There are two basic types of digital communications applications in which the problem (73.18) arises. One
+is  in  M-ary  data  transmission,  in  which  a  symbol  alphabet  with  M  elements  is  used  to  transmit  data,  and  a
+decision  among  these  M  symbols  must  be  made  in  each  symbol  interval  [Proakis,  1983].  The  other  type  of
+application  in  which  (73.18)  arises  is  that  in  which  data  symbols  are  correlated  in  some  way  because  of
+intersymbol  interference,  coding,  or  multiuser  transmission.  In  such  cases,  each  of  the  M  possible  signals
+represents a frame of data symbols, and a joint decision must be made about the entire frame since individual
+symbol decisions cannot be decoupled. Within this latter framework, the problem (73.18) is known as sequence
+detection. The basic distinction between M-ary transmission and sequence detection is one of degree. In typical
+M-ary transmission, the number of elements in the signaling alphabet is typically a small power of 2 (say 8 or
+32), whereas the number of symbols in a frame of data could be on the order of thousands. Thus, solution of
+(73.18) by exhaustive search is prohibitive for sequence detection, and less complex algorithms must be used.
+Typical digital communications applications in which sequence detection is necessary admit dynamic program-
+ming solutions to (73.18) (see, e.g., Verdú [1993]).

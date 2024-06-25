@@ -1,0 +1,24 @@
+The forward blocking operation of the IGBT is identical to
+a power MOSFET. The presence of a rectifying junction at the
+backside also provides
+the device with reverse voltage
+blocking capability. A nonpunchthrough (NPT) drift region
+design has symmetrical forward and reverse blocking capabil-
+ity. The on-state operation of the IGBT can be understood by
+an equivalent representation of a MOSFET and a power diode
+connected in series. When a positive gate voltage is applied,
+an inversion layer is formed under the gate that facilitates the
+injection of electrons from the emitter into the drift region.
+Positive voltage at the collector simultaneously induces hole
+injection into the drift region from the pþ backside layer.
+Double injection into the drift region gives the device its
+excellent on-state properties. Just like a power diode, the
+drift region conductivity is modulated signiﬁcantly during
+conduction, which helps reduce the on-state resistance com-
+pared to the power MOSFET. The NPT IGBT has a thick drift
+region to support the high voltage. The same voltage blocking
+capability can be achieved by use of a much thinner drift
+region if an nþ buffer layer is introduced between the drift
+region and pþ substrate. These punchthrough (PT) IGBTs
+exhibit stronger conductivity modulation by virtue of a thin-
+ner drift region.

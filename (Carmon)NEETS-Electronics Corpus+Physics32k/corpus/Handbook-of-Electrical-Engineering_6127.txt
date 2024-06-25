@@ -1,0 +1,8 @@
+Harmonic  analysis  algorithms  vary  greatly  in  their  algorithms  and  features;  however,  almost  all  use  the
+frequency domain. The most common technique is the direct method (also known as current injection method).
+Spectral  analysis  of  the  current  waveform  of  the  non-linear  components  is  performed  and  entered  into  the
+program. The network data is used to assemble a system admittance matrix for each frequency of interest. This
+set  of  linear  equations  is  solved  for  each  frequency  to  determine  the  node  voltages  and,  hence,  current  ﬂow
+throughout the system. This method assumes the non-linear component is an ideal harmonic current source.
+The next more advanced technique is to model the relationship between the harmonic currents injected by a
+component  to  its  terminal  voltage  waveform.  This  then  requires  an  iterative  algorithm,  which  does  require

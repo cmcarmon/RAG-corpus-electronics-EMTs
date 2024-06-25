@@ -1,0 +1,10 @@
+Sort-merge programs usually have phases. First they initialize: read the parameters, produce the 
+program code for the sort, allocate the memory space, and set up other functions. The sort-merge program 
+then reads in as many input data records as the memory space allocated can hold, arranges (sorts) them in 
+sequence, and writes them out to an intermediate sort-work file. It continues reading input, sorting and 
+writing intermediate sort-work files until all the input is processed. It then merges (combines) the ordered 
+intermediate sort-work files to produce one output file in the sequence specified. The merging process can 
+be accomplished with less memory than the sort process since the intermediate sort work files are all in 
+the same sequence. Records from each work file can be read, the sort keys compared based on the 
+collating sequence and sort parameters, and records written to the output file maintaining the specified 
+sequence. 

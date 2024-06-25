@@ -1,0 +1,15 @@
+Voltage regulators 
+ 
+A simple voltage regulator is shown in Fig. 6.19. RS
+is included to limit the zener current to a safe value 
+when the load is disconnected. When a load (RL) is 
+connected, the zener current (IZ) will fall as current 
+is  diverted  into  the  load  resistance  (it  is  usual  to 
+allow a minimum current of 2 mA to 5 mA in order 
+to  ensure  that  the  diode  regulates).  The  output 
+voltage (VZ) will remain at the zener  voltage until 
+regulation  fails  at  the  point  at  which  the  potential 
+divider  formed  by  RS and  RL produces  a  lower 
+output voltage that is less than VZ. The ratio of RS
+to  RL is  thus  important.  At  the  point  at  which  the 
+circuit just begins to fail to regulate: 

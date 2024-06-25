@@ -1,0 +1,14 @@
+number is the sampled value of the image at a pixel (picture element) location. These numbers are represented
+512 pixels
+with ﬁnite precision using a ﬁxed number of bits. Until recently, the dominant image size was 512 
+»
+ 0.25 3 106 bytes or 0.25 Mbytes.
+ 
+with 8 bits or 1 byte per pixel. The total storage size for such an image is 512
+2
+When digital image processing ﬁrst emerged in the 1960s, this was considered to be a formidable amount of
+data, and so interest in developing ways to reduce this storage requirement arose immediately. Since that time,
+image compression has continued to be an active area of research. The recent emergence of standards for image
+coding algorithms and the commercial availability of very large scale integration (VLSI) chips that implement
+image coding algorithms is indicative of the present maturity of the ﬁeld, although research activity continues
+apace.

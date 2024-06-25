@@ -1,0 +1,17 @@
+From Figure 9.10(A), we see that the trailing edge of the
+Gaussian pulse is contaminated by a rapidly oscillating and
+growing noise component that does not exist in Figure 9.8(A),
+which shows the same Gaussian pulse at the same time but
+with S  1:0. In fact, the noise component in Figure 9.10(A)
+results from the onset of numerical instability in the grid due
+to S ¼ 1:0005 > 1:0. Because this noise grows exponentially
+with time-step number n, it quickly overwhelms the desired
+numerical results for the propagating Gaussian pulse. Shortly
+thereafter, the exponential growth of the noise increases the
+calculated ﬁeld values beyond the dynamic range of the com-
+puter being used, resulting in run-time ﬂoating-point over-
+ﬂows and errors.
+Figure 9.10(B) is an expanded view of Figure 9.10(A) be-
+tween grid points i ¼ 1 and i ¼ 20, showing a segment of the
+numerical noise on the trailing edge of the Gaussian pulse. We
+see that the noise oscillates with a spatial period of 2 grid cells

@@ -1,0 +1,10 @@
+Precession, nutation, and intrinsic rotation (spin) are defined as the movements obtained by changing one of the Euler angles while leaving the other two constant. These motions are not expressed in terms of the external frame, or in terms of the co-moving rotated body frame, but in a mixture. They constitute a mixed axes of rotation system, where the first angle moves the line of nodes around the external axis z, the second rotates around the line of nodes and the third one is an intrinsic rotation around an axis fixed in the body that moves.
+
+The static definition implies that:
+α represents a rotation around the z axis,
+β represents a rotation around the N axis,
+γ represents a rotation around the Z axis.
+If β is zero, there is no rotation about N. As a consequence, Z coincides with z, α and γ represent rotations about the same axis (z), and the final orientation can be obtained with a single rotation about z, by an angle equal to α+γ.
+As an example, consider a top. The top spins around its own axis of symmetry; this corresponds to its intrinsic rotation. It also rotates around its pivotal axis, with its center of mass orbiting the pivotal axis; this rotation is a precession. Finally, the top can wobble up and down; the inclination angle is the nutation angle. The same example can be seen with the movements of the earth.
+Though all three movements can be represented by a rotation operator with constant coefficients in some frame, they cannot be represented by these operators all at the same time. Given a reference frame, at most one of them will be coefficient-free. Only precession can be expressed in general as a matrix in the basis of the space without dependencies of the other angles.
+These movements also behave as a gimbal set. If we suppose a set of frames, able to move each with respect to the former according to just one angle, like a gimbal, there will exist an external fixed frame, one final frame and two frames in the middle, which are called "intermediate frames". The two in the middle work as two gimbal rings that allow the last frame to reach any orientation in space.

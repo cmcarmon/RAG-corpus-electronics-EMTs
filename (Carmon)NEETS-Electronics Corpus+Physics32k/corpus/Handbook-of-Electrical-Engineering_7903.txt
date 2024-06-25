@@ -1,0 +1,7 @@
+Flags are widely used in digital systems to indicate a change of state and all microprocessors have a set of
+ﬂags  which,  among  other  things,  are  used  in  deciding  whether  a  program  branch  should  or  should  not  be
+made.  Thus  the  8086  family  of  microprocessors  [Intel,  1989],  for  example,  has  a  group  of  nine  ﬂags—three
+control  ﬂags  used  to  control  particular  modes  of  operation  of  the  processor  and  six  status  ﬂags  indicating
+whether  certain  conditions  have  resulted  from  the  most  recent  arithmetic  or  logical  instruction:  zero,  carry,
+auxiliary carry, overﬂow, sign and parity. For convenience, although they all act independently, these ﬂags are
+grouped together into what is known as the ﬂag register or program status word register.

@@ -1,0 +1,11 @@
+columns, with row busses being inputs only and column
+busses being outputs only—the interconnects are not seg-
+mented. Fault tolerance is then simply achieved by transposing
+conﬁguration bits of a faulty PLB and that of the column
+busses to which it is connected to a spare PLB in its row and
+its corresponding column busses. However, bus-based FPGAs
+have several drawbacks, including inefﬁcient use of intercon-
+nect resources, which means that only very sparsely wired
+designs—not typical of modern circuits—are implementable
+on such FPGAs, and timing delays for short nets are excessive,
+leading to slow designs.

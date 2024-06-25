@@ -1,0 +1,8 @@
+The goal of the control system designer is to specify the
+inputs to a dynamic system to force the system to perform
+some useful purpose. This task can be interpreted as forcing
+the system from its state at t0 to a desired state at a future time
+t1 > t0. Obtaining accurate knowledge of the state at t0 and
+for all t between t0 and t1 is often critical to the completion
+of this control objective. This process is referred to as state
+estimation.

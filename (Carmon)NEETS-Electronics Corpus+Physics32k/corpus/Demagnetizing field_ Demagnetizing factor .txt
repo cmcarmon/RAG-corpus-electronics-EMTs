@@ -1,0 +1,6 @@
+An arbitrarily shaped magnetic object has a total magnetic field that varies with location inside the object and can be quite difficult to calculate. This makes it very difficult to determine the magnetic properties of a material such as, for instance, how the magnetization of a material varies with the magnetic field. For a uniformly magnetized sphere in a uniform magnetic field H0 the internal magnetic field H is uniform:
+
+where M0 is the magnetization of the sphere and γ is called the demagnetizing factor and equals 4π/3 for a sphere.
+This equation can be generalized to include ellipsoids having principal axes in x, y, and z directions such that each component has a relationship of the form:
+
+Other important examples are an infinite plate (an ellipsoid with two of its axes going to infinity) which has γ = 4π in a direction normal to the plate and zero otherwise and an infinite cylinder (an ellipsoid with one of its axes tending toward infinity with the other two being the same) which has γ = 0 along its axis and 2π perpendicular to its axis. The demagnetizing factors are the principal values of the depolarization tensor, which gives both the internal and external values of the fields induced in ellipsoidal bodies by applied electric or magnetic fields.

@@ -1,0 +1,17 @@
+maintaining a lock on the desired track. The signal that
+controls the movement of this actuator is derived from
+the reﬂected light itself, which carries information about
+the  position  of  the  focused  spot.  There  exist  several
+mechanisms for extracting the track error signal (TES);
+all these methods require some sort of structure on the
+disk surface in order to identify the track. In the case of
+read-only  disks  (CD,  CD-ROM,  and  video  disk),  the
+embossed  pattern  of  data  provides  ample  information
+for  tracking  purposes.  In  the  case  of  write-once  and
+erasable disks, tracking guides are “carved” on the sub-
+strate in the manufacturing process. As mentioned ear-
+lier, the two major formats for these tracking guides are pregrooves (for continuous tracking) and sampled-
+servo marks (for discrete tracking). A combination of the two schemes, known as continuous/composite format,
+is often used in practice. This scheme is depicted in Fig. 80.28 which shows a small section containing ﬁve tracks,
+each consisting of the tail end of a groove, synchronization marks, a mirror area used for adjusting focus/track
+offsets, a pair of wobble marks for sampled tracking, and header information for sector identiﬁcation.

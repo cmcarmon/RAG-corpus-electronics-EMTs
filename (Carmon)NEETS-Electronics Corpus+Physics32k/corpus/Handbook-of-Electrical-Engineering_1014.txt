@@ -1,0 +1,8 @@
+Let us approach each question with regard to the models available. If the technology is not submicron, perhaps
+a simpler model such as level 3 is capable of doing everything needed. If the technology is deep submicron,
+then use a more complicated model such as BSIM, BSIM2, or BSIM3. If high accuracy is required, then the
+best choice is BSIM3, mainly because it is more physical than all the other models and is capable of ﬁtting better.
+For a good physical understanding of the process being characterized. BSIM and BSIM2 are not good choices.
+These are the least physically based of all the models. The level 2 and 3 models have good physical interpretation
+for most of the parameters, although they are relatively simple models. BSIM3 is also more physically based,
+with many more parameters than level 2 or 3, so it is probably the best choice.

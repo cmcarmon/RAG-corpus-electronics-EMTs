@@ -1,0 +1,24 @@
+Hanjalic (2002) has put together a nice analysis of the shot
+boundary detection problem itself, identifying major issues
+that need to be considered and creating a conceptual solution
+to the problem in the form of a statistical detector based
+on minimization of average detection–error probability.
+The thresholds used in their system are deﬁned at the lower
+level modules of the detector system. The decision making
+about the presence of a shot boundary is left solely to a
+parameter-free detector, where all of the indications coming
+from different low-level modules are combined and evaluated.
+Lelescu and Schonfeld (2000, 2003) presented a scene
+change detection method using stochastic sequential analysis
+theory. The dc data from each frame are processed using
+PCA to generate a very low-dimensional feature vector Yk
+corresponding to each frame. These feature vectors are as-
+sumed to form an independant identically distributed (i.i.d)
+sequence of multidimensional random vectors having Gauss-
+ian distribution. Scene change is then modeled as change in the
+mean parameter of this distribution. Scene change detection is
+formulated as a hypothesis testing problem, and the solution is
+provided in terms of a threshold on a generalized likelihood
+ratio. Scene change is declared at frame k when the maximum
+value of the sufﬁcient statistic gk evaluated over frame interval j
+to k exceeds the threshold:

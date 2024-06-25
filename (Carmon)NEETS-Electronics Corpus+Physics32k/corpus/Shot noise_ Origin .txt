@@ -1,0 +1,50 @@
+It is known that in a statistical experiment such as tossing a fair coin and counting the occurrences of heads and tails, the numbers of heads and tails after a great many throws will differ by only a tiny percentage, while after only a few throws outcomes with a significant excess of heads over tails or vice versa are common; if an experiment with a few throws is repeated over and over, the outcomes will fluctuate a lot. (It can be proven that the relative fluctuations reduce as the reciprocal square root of the number of throws, a result valid for all statistical fluctuations, including shot noise.)
+Shot noise exists because phenomena such as light and electric current consist of the movement of discrete (also called "quantized") 'packets'. Consider light—a stream of discrete photons—coming out of a laser pointer and hitting a wall to create a visible spot. The fundamental physical processes that govern light emission are such that these photons are emitted from the laser at random times; but the many billions of photons needed to create a spot are so many that the brightness, the number of photons per unit of time, varies only infinitesimally with time. However, if the laser brightness is reduced until only a handful of photons hit the wall every second, the relative fluctuations in number of photons, i.e., brightness, will be significant, just as when tossing a coin a few times. These fluctuations are shot noise.
+The concept of shot noise was first introduced in 1918 by Walter Schottky who studied fluctuations of current in vacuum tubes.
+Shot noise may be dominant when the finite number of particles that carry energy (such as electrons in an electronic circuit or photons in an optical device) is sufficiently small so that uncertainties due to the Poisson distribution, which describes the occurrence of independent random events, are of significance. It is important in electronics, telecommunications, optical detection, and fundamental physics.
+The term can also be used to describe any noise source, even if solely mathematical, of similar origin. For instance, particle simulations may produce a certain amount of "noise", where due to the small number of particles simulated, the simulation exhibits undue statistical fluctuations which don't reflect the real-world system. The magnitude of shot noise increases according to the square root of the expected number of events, such as the electric current or intensity of light. But since the strength of the signal itself increases more rapidly, the relative proportion of shot noise decreases and the signal to noise ratio (considering only shot noise) increases anyway. Thus shot noise is most frequently observed with small currents or low light intensities that have been amplified.
+
+For large numbers, the Poisson distribution approaches a normal distribution about its mean, and the elementary events (photons, electrons, etc.) are no longer individually observed, typically making shot noise in actual observations indistinguishable from true Gaussian noise. Since the standard deviation of shot noise is equal to the square root of the average number of events N, the signal-to-noise ratio (SNR) is given by:
+
+
+
+
+
+S
+N
+R
+
+=
+
+
+N
+
+N
+
+
+
+=
+
+
+N
+
+
+.
+
+
+
+{\displaystyle \mathrm {SNR} ={\frac {N}{\sqrt {N}}}={\sqrt {N}}.\,}
+
+Thus when N is very large, the signal-to-noise ratio is very large as well, and any relative fluctuations in N due to other sources are more likely to dominate over shot noise. However, when the other noise source is at a fixed level, such as thermal noise, or grows slower than
+
+
+
+
+
+N
+
+
+
+
+{\displaystyle {\sqrt {N}}}
+, increasing N (the DC current or light level, etc.) can lead to dominance of shot noise.

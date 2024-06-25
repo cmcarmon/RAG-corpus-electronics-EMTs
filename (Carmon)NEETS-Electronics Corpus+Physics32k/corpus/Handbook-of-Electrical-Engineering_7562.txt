@@ -1,0 +1,14 @@
+The basic circuit of the standard TTL family is typiﬁed by the two-input NAND gate shown in Fig. 79.8(a).
+To estimate the operating levels of voltage and current in this circuit, assume that any transistor in saturation
+has VCE = 0.2 and VBE = 0.75 V. Let drops across conducting diodes also be 0.75 V and transistor current gains
+(when  nonsaturated)  be  about  50. As  a  starting  point,  let  the  voltage  levels  at  both  inputs A  and  B  be  high
+enough that T1 operates in the reversed mode. In this case the emitter currents of T1 are negligible, and the
+current  into  the  base  of  T1  goes  out  the  collector  to  become  the  base  current  of  T2.  This  current  is  readily
+calculated by observing that the base of T1 is at 3 · 0.75 = 2.25 V so there is a 2.75-V drop across the 4-kW
+resistor. Thus IBI = IB2 = 0.7 mA, and it follows that T2 is saturated. With T2 saturated, the base of T3 is at VC
++ VBE4 = 0.95 V. If T4 is also saturated, the emitter of T3 will be at VD3 + VCE4 = 0.95 V, and T3 will be cut off.
+The voltage across the 1.6-kW resistor is 5 – 0.95 = 4.05 V, so the collector current of T2 is about 2.5 mA. This
+means the emitter current of T2 is 3.2 mA. Of this, 0.75 mA goes through the 1-kW resistor, leaving 2.45 mA
+as the base current of T4. Since the current gain of T4 is about 50, it will be well into saturation for any collector
+current less than 100 mA, and the output at C is a logic 0. The corresponding minimum voltage levels required
+at the inputs are estimated from VBE4 + VECI, or about 1.7 V.

@@ -1,0 +1,3 @@
+In SQL, ROLLBACK is a command that causes all data changes since the last BEGIN WORK, or START TRANSACTION to be discarded by the relational database management systems (RDBMS), so that the state of the data is "rolled back" to the way it was before those changes were made.
+A ROLLBACK statement will also release any existing savepoints that may be in use.
+In most SQL dialects, ROLLBACKs are connection specific. This means that if two connections are made to the same database, a ROLLBACK made in one connection will not affect any other connections. This is vital for proper concurrency.

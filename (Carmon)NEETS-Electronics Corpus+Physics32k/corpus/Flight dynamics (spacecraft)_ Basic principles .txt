@@ -1,0 +1,80 @@
+A spacecraft's flight is determined by application of Newton's second law of motion:
+
+
+
+
+
+F
+
+=
+m
+
+a
+
+,
+
+
+{\displaystyle \mathbf {F} =m\mathbf {a} ,}
+
+where F is the vector sum of all forces exerted on the vehicle, m is its current mass, and a is the acceleration vector, the instantaneous rate of change of velocity (v), which in turn is the instantaneous rate of change of displacement. Solving for a, acceleration equals the force sum divided by mass. Acceleration is integrated over time to get velocity, and velocity is in turn integrated to get position.
+Aerodynamic forces, present near a body with significant atmosphere such as Earth, Mars or Venus, are analyzed as: lift, defined as the force component perpendicular to the direction of flight (not necessarily upward to balance gravity, as for an airplane); and drag, the component parallel to, and in the opposite direction of flight. Lift and drag are modeled as the products of a coefficient times dynamic pressure acting on a reference area:
+
+
+
+
+
+L
+
+=
+
+C
+
+L
+
+
+q
+
+A
+
+r
+e
+f
+
+
+
+
+{\displaystyle \mathbf {L} =C_{L}qA_{ref}}
+
+
+
+
+
+
+D
+
+=
+
+C
+
+D
+
+
+q
+
+A
+
+r
+e
+f
+
+
+
+
+{\displaystyle \mathbf {D} =C_{D}qA_{ref}}
+
+where:
+CL is roughly linear with α, the angle of attack between the vehicle axis and the direction of flight (up to a limiting value), and is 0 at α = 0 for an axisymmetric body;
+CD varies with α2;
+CL and CD vary with Reynolds number and Mach number;
+q, the dynamic pressure, is equal to 1/2 ρ v2, where ρ is atmospheric density, modeled for Earth as a function of altitude in the International Standard Atmosphere (using an assumed temperature distribution, hydrostatic pressure variation, and the ideal gas law); and
+Aref is a characteristic area of the vehicle, such as cross-sectional area at the maximum diameter.

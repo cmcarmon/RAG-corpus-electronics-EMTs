@@ -1,0 +1,9 @@
+While the transducer that produces an electrical signal proportional to strain may have an output of 0.01 V,
+the live transmission line to which it is attached may be at a potential of several hundred thousand volts. The
+problem  is  to  detect  this  hundredth  of  a  volt  in  the  presence  of  a  very  large  signal.  In  the  language  of  the
+ to 1. Then why not deenergize
+telemetry engineer, this is rejection of a common mode voltage on the order of 10
+the line? It’s a simple matter of economics—an idle line transmits no power, and the wind forces that cause
+the  line  to  vibrate  are  neither  predictable  nor  constant.  So,  weeks  or  months  may  be  spent  in  gathering
+measurements for a particular set of spans. However, a radio telemetry link makes it possible to transmit the
+strain signal even while power is being carried.

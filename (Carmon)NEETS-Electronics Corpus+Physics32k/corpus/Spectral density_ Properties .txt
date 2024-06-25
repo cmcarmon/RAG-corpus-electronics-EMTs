@@ -1,0 +1,94 @@
+The spectral density of
+
+
+
+f
+(
+t
+)
+
+
+{\displaystyle f(t)}
+and the autocorrelation of
+
+
+
+f
+(
+t
+)
+
+
+{\displaystyle f(t)}
+form a Fourier transform pair (for PSD versus ESD, different definitions of autocorrelation function are used). This result is known as Wiener–Khinchin theorem.
+One of the results of Fourier analysis is Parseval's theorem which states that the area under the energy spectral density curve is equal to the area under the square of the magnitude of the signal, the total energy:
+
+
+
+
+
+∫
+
+−
+∞
+
+
+∞
+
+
+
+
+|
+
+f
+(
+t
+)
+
+|
+
+
+2
+
+
+
+d
+t
+=
+
+∫
+
+−
+∞
+
+
+∞
+
+
+E
+S
+D
+(
+ω
+)
+
+d
+ω
+.
+
+
+{\displaystyle \int _{-\infty }^{\infty }\left|f(t)\right|^{2}\,dt=\int _{-\infty }^{\infty }ESD(\omega )\,d\omega .}
+
+
+The above theorem holds true in the discrete cases as well. A similar result holds for power: the area under the power spectral density curve is equal to the total signal power, which is
+
+
+
+R
+(
+0
+)
+
+
+{\displaystyle R(0)}
+, the autocorrelation function at zero lag. This is also (up to a constant which depends on the normalization factors chosen in the definitions employed) the variance of the data comprising the signal.

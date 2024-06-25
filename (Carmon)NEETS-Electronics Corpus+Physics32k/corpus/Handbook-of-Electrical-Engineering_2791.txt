@@ -1,0 +1,9 @@
+In Fig. 25.35(a), a single buffer drives the entire H-tree network, requiring a large area buffer and wide clock
+lines toward the connection of the clock line to the external clock signal. Such a large buffer can account for
+up to 30% or more of the total VLSI circuit power dissipation. Figure 25.35(b) illustrates a distributed buffer
+approach, with a given buffer only having to drive those clock line segments to the next level of buffers. In this
+case, the buffers can be smaller and the clock lines can be narrower. The 300-MHz DEC Alpha microprocessor,
+for example, uses an H-tree clock distribution network with multiple stages of buffering extending to the ﬁnal
+legs of the H-tree network. Another approach to relax the clock distribution problem uses multiple input/output
+(I/O) pins for the clock. In this case, a number of smaller H-trees can be driven separately, one starting at each
+clock I/O pin.

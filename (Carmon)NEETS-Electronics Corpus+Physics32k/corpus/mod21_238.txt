@@ -1,0 +1,7 @@
+The logic comparator, as shown in figure 2-25, is designed to detect faulty, in-circuit-DIP ICs by
+comparing them with ICs that are known to be good (reference ICs). The reference IC is mounted on a
+small printed-circuit board and inserted into the logic comparator. You then attach the logic comparator to
+the IC under test by a test lead, which is connected to a spring-loaded device similar in appearance to a
+logic clip. The logic comparator is designed to detect differences in logic states of the reference IC and
+the IC being tested. If any difference in logic states does exist on any pin, an LED corresponding to the
+pin in question will be lit on the logic comparator. The logic comparator is powered by the IC under test.

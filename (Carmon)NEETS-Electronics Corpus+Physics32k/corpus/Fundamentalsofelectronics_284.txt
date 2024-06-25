@@ -1,0 +1,10 @@
+We need to detail the exponential nonlinearity to determine how the circuit distorts the input voltage
+waveform. We can of course numerically solve the circuit shown in Figure 3.47 to determine the output
+voltage when the input is a sinusoid. To learn more, let’s express this equation graphically. We plot each
+term as a function of vout for various values of the input voltage vin; where they intersect gives us the output
+voltage. The left side, the current through the output resistor, does not vary itself with vin, and thus we
+have a ﬁxed straight line. As for the right side, which expresses the diode’s v-i relation, the point at which
+the curve crosses the vout axis gives us the value of vin. Clearly, the two curves will always intersect just once
+for any value of vin, and for positive vin the intersection occurs at a value for vout smaller than vin. This
+reduction is smaller if the straight line has a shallower slope, which corresponds to using a bigger output
+resistor. For negative vin, the diode is reverse-biased and the output voltage equals −RI0.

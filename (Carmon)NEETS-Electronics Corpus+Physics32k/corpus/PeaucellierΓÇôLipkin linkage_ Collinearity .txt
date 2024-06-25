@@ -1,0 +1,9 @@
+First, it must be proven that points O, B, D are collinear. This may be easily seen by observing that the linkage is mirror-symmetric about line OD, so point B must fall on that line.
+More formally, triangles BAD and BCD are congruent because side BD is congruent to itself, side BA is congruent to side BC, and side AD is congruent to side CD. Therefore, angles ABD and CBD are equal.
+Next, triangles OBA and OBC are congruent, since sides OA and OC are congruent, side OB is congruent to itself, and sides BA and BC are congruent. Therefore, angles OBA and OBC are equal.
+Finally, because they form a complete circle, we have
+∠OBA + ∠ABD + ∠DBC + ∠CBO = 360°
+but, due to the congruences, angle OBA = angle OBC and angle DBA = angle DBC, thus
+2 × ∠OBA + 2 × ∠DBA = 360°
+∠OBA + ∠DBA = 180°
+therefore points O, B, and D are collinear.

@@ -1,0 +1,17 @@
+When current first starts to flow through coil L1, the bottom of L1 is negative with respect to the top 
+of L2. The voltage induced into coil L2 makes the top of L2 positive. As the top of L2 becomes positive, 
+the positive potential is coupled to the base of Q1 by capacitor C1. A positive potential on the base results 
+in an increase of the forward bias of Q1 and causes collector current to increase. The increased collector 
+current also increases the emitter current flowing through coil L1. Increased current through L1 results in 
+more energy being supplied to the tank circuit, which, in turn, increases the positive potential at the top of 
+the tank (L2) and increases the forward bias of Q1. This action continues until the rate of current change 
+through coil L1 can no longer increase. The current through coil L1 and the transistor cannot continue 
+increasing indefinitely, or the coil and transistor will burn up. The circuit must be designed, by proper 
+selection of the transistor and associated parts, so that some point is reached when the current can no 
+longer continue to increase. At this point C2 has charged to the potential across L1 and L2. This is shown 
+as the heavy dot on the base waveform. As the current through L1 decreases, the voltage induced in L2 
+decreases. The positive potential across the tank begins to decrease and C2 starts discharging through L1 
+and L2. This action maintains current flow through the tapped coil and causes a decrease in the forward 
+bias of Q1. In turn, this decrease in the forward bias of Q1 causes the collector and emitter current to 
+decrease. At the instant the potential across the tank circuit decreases to 0, the energy of the tank circuit is 
+contained in the magnetic field of the coil. The oscillator has completed a half cycle of operation. 

@@ -1,0 +1,7 @@
+A flow that is not a function of time is called steady flow. Steady-state flow refers to the condition where the fluid properties at a point in the system do not change over time. Time dependent flow is known as unsteady (also called transient). Whether a particular flow is steady or unsteady, can depend on the chosen frame of reference. For instance, laminar flow over a sphere is steady in the frame of reference that is stationary with respect to the sphere. In a frame of reference that is stationary with respect to a background flow, the flow is unsteady.
+Turbulent flows are unsteady by definition. A turbulent flow can, however, be statistically stationary. According to Pope:
+
+The random field U(x,t) is statistically stationary if all statistics are invariant under a shift in time.
+
+This roughly means that all statistical properties are constant in time. Often, the mean field is the object of interest, and this is constant too in a statistically stationary flow.
+Steady flows are often more tractable than otherwise similar unsteady flows. The governing equations of a steady problem have one dimension fewer (time) than the governing equations of the same problem without taking advantage of the steadiness of the flow field.

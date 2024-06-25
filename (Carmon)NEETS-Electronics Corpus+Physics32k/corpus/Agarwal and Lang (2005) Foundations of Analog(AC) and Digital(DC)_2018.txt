@@ -1,0 +1,16 @@
+For the element values that we have chosen, the denominator of Equation 14.24
+indeed yields a pair of complex roots, and hence the system is resonant.
+Figure 14.6 shows a computer-generated plot of the corresponding frequency
+response. The magnitude plot clearly displays the frequency sensitive behavior
+of the circuit: Both low and high frequencies are attenuated, giving this response
+the characteristics of a bandpass filter.
+More interestingly, observe the behavior of both the magnitude and phase
+plots at the frequency 2 × 106 rads/sec. At this frequency, the magnitude plot
+displays a sharp peak and the phase plot shows an abrupt phase transition.
+The rest of this section will provide more insight into this response, and will
+discuss how we can quickly guess the form of the frequency response for system
+functions with complex roots. Section 14.2.1 will further show that the sharp
+transitions of the magnitude and phase at the resonant frequency are directly
+related to the complex roots. Section 14.4 goes on to show how we can sketch
+the complete form of the response of resonant system functions without the
+use of a computer.

@@ -1,0 +1,9 @@
+The pushbutton or toggle switch is a simple form of data entry into a digital system. However,
+−1 s and digital electronics
+a problem occurs since the normal human reaction time is about 10
+−8 s. Thus any unnoticed mechanical contact bounce of
+responds to times of the order of 10
+a few milliseconds will be seen as several distinct switch closures by a digital system. We
+may de-bounce the mechanical switch by using an RC circuit and Schmitt trigger logic or
+a ﬂip-ﬂop latch. The latter design requires a break-before-make action, which means that
+during the throw there is a time when the common is connected to neither terminal.

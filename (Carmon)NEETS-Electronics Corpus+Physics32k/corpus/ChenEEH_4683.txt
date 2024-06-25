@@ -1,0 +1,21 @@
+Figure 10.2 gives the engine speed variations and control
+inputs. A step disturbance of 15 Nm is loaded to the system
+after 20 engine cycles and unloaded after 150 engine cycles.
+The integral term in the control law is discretized using the
+trapezoidal rule with step size Dt ¼ 4 crankshaft degrees. The
+plant is integrated using Euler’s rule with sampling time
+T ¼ 32 crankshaft degrees. It is evident that the controller
+maintains the idle speed at 611 RPM, and there is no steady-
+state error. After the torque disturbance is added to the system,
+the engine speed drops to 582 RPM, with a deviation of 29
+RPM from the desired idle speed of 611 RPM. After the
+disturbance is removed, the engine speed increases to 642
+RPM, with a deviation of 41 RPM. The disturbance is com-
+pletely rejected in a few engine cycles for both loading and
+unloading cases (with residual oscillations due to the chatter-
+ing in the spark advance). The controller thus has the capabil-
+ity of disturbance rejection for a typical ‘‘bad’’ disturbance.
+Note that the engine speed does not oscillate signiﬁcantly
+although both of the control inputs have chattering character-
+istics (physical actuators would, of course, not be able to re-
+spond in this manner).

@@ -1,0 +1,10 @@
+say, the DPSK waveform in a given bit interval serves as its own local-oscillator signal in the
+following bit interval.
+In Figure 15.3.17, si(t) is the signal component of the matched ﬁlter output, and sd(t) is the
+signal component of the detector output. If the phases of both si(t) and si(t − Tb) are the same,
+sd(t) is then a positive voltage; if their phases differ by π radians, sd(t) will then be a negative
+voltage. These voltages will have maximum amplitudes at the sample time at the end of the bit
+interval. Because the sign of the voltage at the sampler depends upon the phase relationship
+between si(t) and its delayed replica, and the sign of sd(t) is of the same form as d(t), the
+original digital bit sequence can be determined by sampling to decide the sign of the detector
+output.

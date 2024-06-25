@@ -1,0 +1,4 @@
+To illustrate the design of an IIR digital ﬁlter using the bilinear transform, consider the design of a second-
+order Chebyshev low-pass ﬁlter with 0.5 dB of passband ripple and a cutoff frequency of wc = 0.4 p. The sample
+rate of the digital ﬁlter is to be 5 Hz, giving T = 0.2 s. To design this ﬁlter we ﬁrst design an analog Chebyshev
+low-pass ﬁlter with a cutoff frequency of

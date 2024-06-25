@@ -1,0 +1,15 @@
+The electrodes of a SAW transducer act as sampling points for both transduction and reception. Given the
+desired  modulated  time  response,  it  is  necessary  to  sample  the  time  waveform.  For  symmetrical  frequency
+, is sufﬁcient, while nonsymmetric frequency responses
+f
+responses, sampling at twice the center frequency, 
+.
+require sampling at twice the highest frequency of interest. A very popular approach is to sample at
+0
+The  SAW  frequency  response  obtained  is  the  convolution  of  the  desired  frequency  response  with  a  series  of
+, in the frequency domain. The net effect of sampling is to produce a continuous set
+f
+impulses, separated by 
+. This periodic, time-sampled
+of harmonics in the frequency domain in addition to the desired response at 
+function can be written as

@@ -1,0 +1,5 @@
+The language model or grammar of a recognition system deﬁnes the sequences of vocabulary items which
+are  allowed.  For  simple  tasks,  deterministic  ﬁnite-state  grammars  can  be  used  to  deﬁne  all  allowable  word
+sequences. Typically, however, recognizers make use of stochastic grammars based on n-gram statistics [Jelinek,
+1985]. A  bigram  language  model,  for  example,  speciﬁes  the  probability  of  a  vocabulary  item  given  the  item
+which precedes it.

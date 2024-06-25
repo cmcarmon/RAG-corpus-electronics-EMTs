@@ -1,0 +1,10 @@
+To understand the operation of a synchro capacitor and how it reduces current drain on the 
+transmitter requires a recollection of the voltage and current relationships in inductive and capacitive 
+circuits. As you learned in module 2 of this series, current lags voltage by 90º in a purely inductive 
+circuit. You also know that an ideal inductor is impossible to make because there is always resistance 
+present. Therefore, an inductor has a combination of inductive reactance and resistance. Since current and 
+voltage are always in phase in a resistive circuit and 90º out of phase in an inductive circuit, we can say 
+that there are two currents in an inductor-the loss current, which is the resistive (in-phase) current, and the 
+magnetizing current, which is the inductive (out-of-phase) current. It is this magnetizing current that we 
+would like to eliminate in the stator coils of the TDX, CDX, and CT because it makes up most of the line 
+current. 

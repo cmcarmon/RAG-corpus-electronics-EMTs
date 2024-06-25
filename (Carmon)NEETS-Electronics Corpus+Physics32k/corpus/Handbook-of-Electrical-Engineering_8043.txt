@@ -1,0 +1,11 @@
+System Components. 
+In addition to the microprocessor and storage capability, the typical retail terminal has
+one or more input devices for entering prices (e.g., keyboard, bar code scanner) and one or more output devices
+for displaying totals (e.g., paper tape, display). Often these terminals are part of a large network of terminals
+and may support additional features beyond totaling purchases such as automated inventory control and credit
+checking.  A  complete  system  is  shown  in  Fig.  82.1,  including  magnetic  tape  for  storing  transactions  and  a
+universal  asynchronous  receiver/transmitter  (UART)  for  communication  with  a  central  processing  facility.
+Because of the high unit volume, it is desirable to keep the cost and complexity low. Typically, each terminal
+will have limited storage capability, relying on a central processor for maintaining store inventory and credit
+checks. In order to reduce communication trafﬁc with the central processor, however, each terminal generally
+has in storage the current price for all items.

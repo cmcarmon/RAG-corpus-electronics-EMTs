@@ -1,0 +1,16 @@
+The gate turn-off thyristor (GTO) adds gate-controlled turn-
+off capability to the thyristor. In a GTO, modiﬁcations are
+made to ensure that the base current of the transistor n1p2n2
+is brieﬂy made less than the value needed to maintain satur-
+ation (IB2 < IC=b). This forces the transistor to go into the
+active region. The regenerative action pulls both transistors out
+of saturation into the active region and eventually into turn-off
+mode. A GTO requires complex interdigitated layout of gate
+and cathode. Anode short structures further suppress regener-
+ation. The turn-off capability of a GTO is gained at the expense
+of on-state performance. Other variations in structure, such as
+the reverse-conducting thyristor (RCTs), asymmetrical silicon-
+controlled-rectiﬁer (ASCR),
+light-triggered thyristor (LTT),
+and so forth, are applied in many modern power electronic
+applications.

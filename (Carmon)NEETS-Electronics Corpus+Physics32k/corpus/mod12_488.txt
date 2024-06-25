@@ -1,0 +1,4 @@
+Peak detection uses the amplitude of a pulse-amplitude modulated (pam) signal or the duration of a
+pulse-duration modulated (pdm) signal to charge a holding capacitor and restore the original waveform.
+This demodulated waveform will contain some distortion because the output wave is not a pure sine
+wave. However, this distortion is not serious enough to prevent the use of peak detection.

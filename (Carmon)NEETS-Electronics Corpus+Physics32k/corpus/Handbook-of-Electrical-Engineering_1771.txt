@@ -1,0 +1,8 @@
+The quantizer is a mapping operation which generally takes the form of a staircase function (see Fig. 17.12).
+A rule for quantization can be deﬁned as follows: Let {dk, k = 1, 2,. . .,  N + 1} be the set of decision levels with
+d1 the minimum amplitude value and dN the maximum amplitude value of  f ( j,k,l). If  f ( j,k,l) is contained in
+the interval (dk ,  dk+1), then it is mapped to the  kth reconstruction level  r. Methods for designing quantizers
+can be broken into two categories: uniform and nonuniform. The input-output function for a typical uniform
+quantizer is shown in Fig. 17.12. The mean square value of the quantizing noise can be easily calculated if it is
+assumed that the amplitude probability distribution is constant within each quantization step. The quantization
+step size for a uniform quantizer is

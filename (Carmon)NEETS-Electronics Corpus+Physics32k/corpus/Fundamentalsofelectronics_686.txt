@@ -1,0 +1,7 @@
+Figure 5.24: To process an analog signal digitally, the signal x (t) must be ﬁltered with an anti-aliasing
+ﬁlter (to ensure a bandlimited signal) before A/D conversion. This lowpass ﬁlter (LPF) has a cutoﬀ
+frequency of W Hz, which determines allowable sampling intervals Ts. The greater the number of bits
+in the amplitude quantization portion Q [·] of the A/D converter, the greater the accuracy of the entire
+system. The resulting digital signal x (n) can now be ﬁltered in the time-domain with a diﬀerence
+equation or in the frequency domain with Fourier transforms. The resulting output y (n) then drives a
+D/A converter and a second anti-aliasing ﬁlter (having the same bandwidth as the ﬁrst one).

@@ -1,0 +1,7 @@
+The minimum POS expression for a Boolean function can be obtained easily by using K
+maps in a procedure very similar to that used for the minimum SOP expression. By using the 0s
+of the map and obtaining prime implicants again by using the 0 cells, this can be done. Since the
+0 cells represent the compliment of the function, complementing the minimum SOP expression
+for the 0s of the function yields the minimum POS form of the function. Even though the two
+forms (POS and SOP) are completely equivalent, logically, one of the two forms may lead to a
+realization involving a smaller number of gates.

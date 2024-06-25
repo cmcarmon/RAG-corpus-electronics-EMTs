@@ -1,0 +1,9 @@
+As in all superheterodyne receivers, controlling the frequency of the local oscillator keeps the
+receiver tuned. Since this tuning is critical, some form of automatic frequency control (afc) is essential to
+avoid constant manual tuning. Automatic frequency control circuits mix an attenuated portion of the
+transmitted signal with the local oscillator signal to form an IF signal. This signal is applied to a
+frequency-sensitive discriminator that produces an output voltage proportional in amplitude and polarity
+to any change in IF frequency. If the IF signal is at the discriminator center frequency, no discriminator
+output occurs. The center frequency of the discriminator is essentially a reference frequency for the IF
+signal. The output of the DISCRIMINATOR provides a control voltage to maintain the local oscillator at
+the correct frequency.

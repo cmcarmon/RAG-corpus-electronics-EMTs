@@ -1,0 +1,8 @@
+Differential Ampliﬁer
+Figure 5.4.9 shows a weighted differencing ampliﬁer, where “weighted” refers to the fact that
+the output voltage has the form vo = wava + wbvb, in which the weighting coefﬁcients wa and
+wb are the voltage gains seen by the inputs. Since the network is linear, superposition can be
+applied for analysis. First, by grounding the input terminal of R3, let us make va = 0. Except
+for the presence of R3 in parallel with R4, between terminal 2 and ground, the circuit is that of
+an inverting ampliﬁer of gain −R2/R1 to the input vb. Since no current ﬂows at terminal 2, it
+follows that

@@ -1,0 +1,9 @@
+The same concept can be generalized to add a long sequence of num-
+bers. At any given instant, the memory stores the partial result corresponding
+to all the numbers that occurred till that instant. For our addition example,
+notice that future results depend only on the value stored in memory and future
+inputs. Future results do not depend on the exactly how the memory was time
+sequenced, just its final state. This observation stems from the concept of a
+‘‘state variable’’ that we saw earlier. The value stored in memory is simply a
+digital state variable in a manner analogous to an analog state variable value
+stored on a capacitor.

@@ -1,0 +1,10 @@
+Given the same set of rules, forward chaining can also be
+applied to derive new conclusions from given data. For
+example, the algorithm of forward chaining with breadth-
+ﬁrst search is as follows: Compare the content of the working
+memory with the premises of each rule in the rule base using
+the ordering of the rules. If the data in the working memory
+match a rule’s premises, the conclusion is placed in the
+working memory, and the control moves to the next rule.
+Once all rules have been considered, the control starts again
+from the beginning of the rule sets.

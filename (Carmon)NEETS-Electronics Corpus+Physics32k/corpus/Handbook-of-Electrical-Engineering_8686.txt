@@ -1,0 +1,13 @@
+• A  human  writing  directly  in  assembly  language  is  probably  better  than  an  optimizing  compiler  in
+extracting  the  last  measure  of  resources  (e.g.,  performance,  hardware  usage)  from  the  machine.  That
+inner loop—the code where the processor spends most of its execution cycles—may need to be hand-
+optimized  to  achieve  acceptable  performance.  Real-time  systems,  where  the  expedient  delivery  of  the
+data  is  as  critical  as  its  correctness,  are  another  area  where  the  required  optimization  may  be  greater
+than that achievable by compilers. The disparity in performance between human optimizers and their
+machine  competitors  comes  from  two  special  capabilities  of  the  human  programmer.  These  are  the
+ability to know what the program will be doing—forward vision based on the program’s intent rather
+than  its  structure—and  the  ability  to  take  advantage  of  special  quirks  or  tricks  that  have  no  general
+applicability. If you really need to extract this last full measure of performance, assembly language is the
+route. The cost of doing such hand-optimization is much greater than the hours spent in doing it and
+getting it debugged. Special quirks and tricks expressible only in assembly language will not translate to
+another machine and may disappear even in an “upgrade” of the intended processor.

@@ -1,0 +1,8 @@
+Thus, a data compressor (sometimes called a source coder) maps an information source into a sequence of
+bits,  with  a  corresponding  decompressor,  that  given  these  bits  provides  a  reconstruction  of  the  source.  Data
+compression systems can be classiﬁed into two types: lossless, where the reconstruction is exactly equal to the
+original  source,  and  lossy,  where  the  reconstruction  is  a  distorted  version  of  the  original  source.  For  lossless
+data compression, the fundamental lower bound on the rate of the data compression system is given by the
+entropy rate of the source. For lossy data compression, we have a tradeoff between the rate of the compressor
+and the distortion we incur, and the fundamental limit is given by the rate distortion function, which is discussed
+later in this section.

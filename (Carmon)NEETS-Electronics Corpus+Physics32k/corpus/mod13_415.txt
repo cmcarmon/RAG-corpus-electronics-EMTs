@@ -1,0 +1,5 @@
+On the negative-going signal of CP8, all FFs are set, and all the lamps are lighted. The CLK pulse
+toggles FF1, making output Q go HIGH. As output Q  goes LOW, the negative-going signal causes FF2
+to toggle. As FF2, output Q, goes HIGH, output Q  goes LOW, causing FF3 to toggle and set. As each FF
+sets, its indicator lamp lights. The counter is now ready to again start counting down from 1112 with the
+next CLK pulse.

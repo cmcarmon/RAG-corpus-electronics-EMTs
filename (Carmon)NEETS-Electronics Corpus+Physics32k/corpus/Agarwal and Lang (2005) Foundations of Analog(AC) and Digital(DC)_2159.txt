@@ -1,0 +1,10 @@
+Thus the time constant associated with the passive elements alone is multiplied
+by the gain of the Op Amp. This is often referred to as the Miller Effect, originally
+in reference to the fact that a small input to output capacitance in early vacuum
+tubes seriously limited the frequency response of amplifier circuits. The time
+constant can be made very large for modest component values. For example, if
+the RC time constant is 1 second, and A is 105 or greater, the effective circuit
+time constant in measured in days. On this time scale almost any waveform
+lasting for less than a minute or so will seem like a ‘‘short pulse.’’ Thus the
+analysis of Section 10.6.3 is applicable, and on the time scale of minutes, the
+circuit acts like an integrator.

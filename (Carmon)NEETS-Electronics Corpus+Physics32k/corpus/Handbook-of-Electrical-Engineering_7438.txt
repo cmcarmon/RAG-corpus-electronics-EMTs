@@ -1,0 +1,7 @@
+A communication network is a collection of communication links with many signal sources and many users.
+Computer simulation programs for networks often deal with problems of routing, ﬂow and congestion control,
+and  the  network  delay.  While  this  chapter  deals  with  the  communication  link,  the  reader  is  reminded  that
+network simulation is also an important area of study. The simulation methodologies used for communication
+networks are different from those used on links because, in a communication link simulation, each waveform
+present  in  the  system  is  sampled  using  a  constant  sampling  frequency.  In  contrast,  network  simulations  are
+event-driven, with the important events being such quantities as the time of arrival of a message.

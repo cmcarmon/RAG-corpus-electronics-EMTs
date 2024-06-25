@@ -1,0 +1,6 @@
+increased hardware complexity. Indeed, this implementation requires hardware for the encoding and for the
+selection of the partial products (0, –Y, –2Y). An optimized encoding is shown in Fig. 86.6.
+Division Algorithm
+Division is a more complex process to implement because, unlike multiplication, it involves guessing the digits
+of the quotient. Here, we will consider an algorithm for division of two positive integers designated as dividend
+Y and divisor X resulting in a quotient Q and an integer remainder Z according to the relation given by

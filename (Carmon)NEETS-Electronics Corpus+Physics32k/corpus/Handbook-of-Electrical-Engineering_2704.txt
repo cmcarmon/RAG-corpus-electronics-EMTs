@@ -1,0 +1,7 @@
+Placement Techniques
+Placement  is  a  restricted  version  of  ﬂoorplanning  where  all  cells  have  ﬁxed  dimension.  The  objective  of  a
+placement  routine  is  to  determine  an  optimal  position  on  the  chip  for  a  set  of  cells  in  a  way  that  the  total
+occupied area and total estimated length of connections are minimized. Given that the main cause of delay in
+a chip is the length of the connections, providing shorter connections becomes an important objective in placing
+a set of cells. The placement should be such that no cells overlap and enough space is left to complete all the
+connections.

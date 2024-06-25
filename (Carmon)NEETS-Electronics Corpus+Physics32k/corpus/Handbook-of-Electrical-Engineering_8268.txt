@@ -1,0 +1,9 @@
+Most testing techniques are designed to be applied to combinational circuits only. While this may appear a
+strong restriction, in practice it is a realistic assumption based on the idea of designing a sequential circuit by
+partitioning the memory elements from the control functionality such that the circuit can be reconﬁgured as
+(see
+combinational at testing time. This general approach is one of the methods in 
+Section 85.2). DFT encompasses any design strategy aimed at enhancing the testability of a circuit. In particular,
+scan design is the best-known implementation for separating the latches from the combinational gates such
+that  some  of  the  latches  can  also  be  reconﬁgured  and  used  as  either  tester  units  or  as  input  generator  units
+(essential for built-in testing).

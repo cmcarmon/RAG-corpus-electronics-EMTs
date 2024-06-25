@@ -1,0 +1,6 @@
+relationship. It also times the interval between transmitted pulses to ensure that the interval is of the
+proper length. Timing pulses are used to ensure synchronous circuit operation and are related to the prf.
+The prf can be set by any stable oscillator, such as a sine-wave oscillator, multivibrator, or a blocking
+oscillator. That output is then applied to pulse-shaping circuits to produce timing pulses. Associated
+components can be timed by the output of the synchronizer or by a timing signal from the transmitter as it
+is turned on.

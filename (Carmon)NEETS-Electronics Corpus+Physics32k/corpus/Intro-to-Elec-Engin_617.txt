@@ -1,0 +1,9 @@
+*6.2.27 Counting to moduli other than 2n is a frequent
+requirement, the most common being to count
+through the binary-coded decimal (BCD) 8421 se-
+quence. All that is required is a four-stage counter
+which, having counted from 0000 to 1001 (i.e.,
+decimal 0 to 9; ten states), resets to 0000 on the
+next clock pulse. Develop a block diagram of an
+asynchronous decade counter and show its timing
+diagram.

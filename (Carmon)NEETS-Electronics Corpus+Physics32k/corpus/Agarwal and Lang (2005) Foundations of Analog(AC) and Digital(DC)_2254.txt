@@ -1,0 +1,9 @@
+Circuits that contain one energy-storage element (capacitor or inductor) and
+resistive nonlinearities such as diodes, Op Amps, and MOSFETs are very
+common in electronic systems: sweep circuits in oscilloscopes or television
+sets, rectifier circuits in all types of equipment. Fortunately, such circuits can be
+analyzed and designed quite readily using a combination of two techniques we
+have already discussed. If we represent each nonlinear element by a piecewise
+linear model, then the circuit can be represented by two or more subcircuits,
+each representing one diode state. By definition each of these subcircuits is
+linear, and contains one L or one C, so can be solved by methods of Chapter 10.

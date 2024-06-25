@@ -1,0 +1,5 @@
+As in a conventional receiver, each channel of the monopulse receiver converts the return echo to an
+IF frequency by mixing the returned signal with a common local oscillator signal. The sum of the energy
+from all four return signals is mixed with the local oscillator signal to produce range IF information.
+Bearing information is obtained by subtracting the energy from horns B and D from the energy from
+horns A and C:

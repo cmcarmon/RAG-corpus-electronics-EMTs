@@ -1,0 +1,15 @@
+Solid-State Control of DC Motors
+Dc motors, which are easily controllable, have historically dominated the adjustable-speed
+drive ﬁeld. The torque–speed characteristics of a dc motor can be controlled by adjusting
+the armature voltage or the ﬁeld current, or by inserting resistance into the armature circuit
+(see Section 13.4). Solid-state motor controls are designed to use each of these modes. The
+control resistors, in which much energy is wasted, are being eliminated through the develop-
+ment of power semiconductor devices and the evolution of ﬂexible and efﬁcient converters.
+Thus, the inherently good controllability of a dc machine has been signiﬁcantly increased
+in recent years by rectiﬁer control, chopper control, and closed-loop control of dc motors.
+When a dc source of suitable and constant voltage is already available, designers can employ
+dc-to-dc converters or choppers. When only an ac source is available, phase-controlled rec-
+tiﬁers are used. When the steady-state accuracy requirement cannot be satisﬁed in an open-
+loop conﬁguration, the drive is operated as a closed-loop system. Closed-loop rectiﬁer drives
+are more widely used than chopper drives. Only rectiﬁer control of dc motors is consid-
+ered here.

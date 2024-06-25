@@ -1,0 +1,17 @@
+terms of router resources (e.g., buffer and bandwidth), in
+terms of their priority relative to other PHBs, or in terms of
+their relative trafﬁc properties (e.g., delay and loss). Multiple
+PHBs can be lumped together to form a PHB group. A par-
+ticular PHB group can be implemented in a variety of ways
+because PHBs are deﬁned in terms of behavior characteristics
+and are not implementation dependent. Thus PHBs can be
+considered as basic building blocks for creating services. A
+PHB for a packet is selected at the ﬁrst node on the basis of
+its DS code point. The mapping from the DS code point to
+PHB may be 1 to 1 or N to 1. Examples of the parameters of
+the forwarding behavior that each trafﬁc should receive are
+bandwidth partition and the drop priority. Examples of these
+implementations are weighted fair queuing (WFQ) for band-
+width partition and random early detect (RED) for drop
+priority. Two commonly used PHBs deﬁned by IETF are the
+following:

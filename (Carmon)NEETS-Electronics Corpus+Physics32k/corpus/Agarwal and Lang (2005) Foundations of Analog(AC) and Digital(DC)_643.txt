@@ -1,0 +1,11 @@
+In summary, we began our analysis with the goal of determining the current
+(iD) through the diode when an input voltage in the form of a DC value (VD)
+plus a small time-varying component (vD) is applied across it. Equation 4.61
+shows that the resulting diode current is made up of two terms, a DC term,
+ID, which depends only on the DC voltage applied VD, and a small-signal or
+incremental term iD, which depends on the small-signal voltage and also on
+the DC voltage VD. But for fixed VD, the incremental current iD is linearly
+related to vD. The constant of proportionality is a conductance gd given by
+Equation 4.73. Because the incremental circuit model of Figure 4.39 correctly
+represents the relationship between iD and vD, this linear circuit can be used
+to solve for iD. In many situations, only the incremental change in the output

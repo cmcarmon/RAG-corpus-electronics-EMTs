@@ -1,0 +1,11 @@
+Typical of the VAX, it makes a special case out of adding 1. There is no essential difference in asking it to add
+1 by saying “1,” but if one has a special instruction, it saves a byte of program length. With today’s inexpensive
+memories, a byte is no longer a big deal, but when the VAX ﬁrst emerged (1978), they were delivered with less
+memory than a PC or Mac would have today. The VAX, of course, can say ADDL #1, r0 just like the 68000,
+and for any number other than 1 or 0, it would. Note also that the VAX compiler chose to keep count in register,
+while in Think C® decided to put it on the stack (–2(SP)). A RISC has no choice. If you want arithmetic, your
+numbers must be in register. However, once again, we are really talking about the length of the code, not the
+speed of the transaction. All transactions take place from registers. The only issues are whether the programmer
+can  see  the  registers  and  whether  a  single  instruction  can  include  both  moving  the  operands  and  doing  the
+operand  arithmetic.  The  RISC  separates  the  address  arithmetic  (e.g.,  –2(SP))  from  the  operand  arithmetic,
+putting each in its own instruction. Both get the job done.

@@ -1,0 +1,56 @@
+In fluid dynamics, a potential flow is described by means of a velocity potential φ, being a function of space and time. The flow velocity v is a vector field equal to the gradient, ∇, of the velocity potential φ:
+
+
+
+
+
+v
+
+=
+∇
+φ
+.
+
+
+{\displaystyle \mathbf {v} =\nabla \varphi .}
+
+Sometimes, also the definition v = −∇φ, with a minus sign, is used. But here we will use the definition above, without the minus sign. From vector calculus it is known, that the curl of a gradient is equal to zero:
+
+
+
+
+∇
+×
+∇
+φ
+=
+
+0
+
+
+,
+
+
+{\displaystyle \nabla \times \nabla \varphi =\mathbf {0} \,,}
+
+and consequently the vorticity, the curl of the velocity field v, is zero:
+
+
+
+
+∇
+×
+
+v
+
+=
+
+0
+
+
+.
+
+
+{\displaystyle \nabla \times \mathbf {v} =\mathbf {0} \,.}
+
+This implies that a potential flow is an irrotational flow. This has direct consequences for the applicability of potential flow. In flow regions where vorticity is known to be important, such as wakes and boundary layers, potential flow theory is not able to provide reasonable predictions of the flow. Fortunately, there are often large regions of a flow where the assumption of irrotationality is valid, which is why potential flow is used for various applications. For instance in: flow around aircraft, groundwater flow, acoustics, water waves, and electroosmotic flow.

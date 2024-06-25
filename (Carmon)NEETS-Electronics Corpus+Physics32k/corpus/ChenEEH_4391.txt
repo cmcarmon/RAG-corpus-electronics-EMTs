@@ -1,0 +1,9 @@
+The analysis and design of complex feedback conﬁgurations
+is simpliﬁed by using the general closed-loop block diagram in
+Figure 3.2, where w(t ) is the vector of all exogenous inputs,
+yK (t ) is the vector of controller outputs, z(t) is the vector of
+performance variables, and uK (t) is the vector of inputs to the
+controller. The top block is called the two-input and two-
+output plant, P, and the bottom one corresponds to the matrix
+of controllers denoted by K that is formed after all the con-
+trollers have been pulled out of the closed-loop system. As a

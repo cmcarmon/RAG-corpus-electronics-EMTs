@@ -1,0 +1,6 @@
+We can train such a memory using Hebbian learning or LMS, but the LMS provides a more efﬁcient encoding
+of information. Associative memories differ from conventional computer memories in several respects. First,
+they are content addressable, and the information is distributed throughout the network, so they are robust to
+noise in the input. With nonlinear PEs or recurrent connections (as in the famous Hopﬁeld network) [Haykin,
+1994] they display the important property of pattern completion; i.e., when the input is distorted or only partially
+available, the recall can still be perfect.

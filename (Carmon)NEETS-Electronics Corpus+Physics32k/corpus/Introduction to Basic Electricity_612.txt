@@ -1,0 +1,10 @@
+The decoders of RPN are often stack	based; that 
+is, the operands are pushed onto a stack. Think of 
+the stack as similar to putting plates into one of those 
+spring-loaded, plate-stacking trolleys seen in cafete-
+rias. The plates are removed, used, cleaned, and put 
+back on the trolley. When an operation is performed, 
+the operands are taken from a stack, the mathematical 
+function is performed, and the result is pushed back 
+on the stack, ready for the next operation. The value of 
+the RPN expression is on the top of the stack. Stacks, 

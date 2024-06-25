@@ -1,0 +1,12 @@
+This expression amounts to the Fourier transform of the boxcar signal (Figure 5.19). There we
+found that this frequency response has a magnitude equal to the absolute value of dsinc (πf ); see
+the length-10 ﬁlter’s frequency response (Figure 5.11). We see that boxcar ﬁlters–length-q signal
+q .
+averagers–have a lowpass behavior, having a cutoﬀ frequency of 1
+Exercise 5.27
+(Solution on p. 193.)
+Suppose we multiply the boxcar ﬁlter’s coeﬃcients by a sinusoid: bm = 1
+q cos (2πf0m). Use Fourier
+transform properties to determine the transfer function. How would you characterize this system:
+Does it act like a ﬁlter? If so, what kind of ﬁlter and how do you control its characteristics with
+the ﬁlter’s coeﬃcients?

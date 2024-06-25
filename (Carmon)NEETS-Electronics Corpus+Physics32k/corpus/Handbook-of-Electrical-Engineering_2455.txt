@@ -1,0 +1,11 @@
+A further improvement in bias stability can be obtained by the use of the biasing methods of Figs. 24.9 and
+24.10.  In  Fig.  24.9  a  gate  bias  voltage VGG  is  obtained  from  the VDD  supply  voltage  by  means  of  the  RG1–RG2
+voltage divider. The gate-to-source voltage is now VGS =  VG – VS = VGG – IDSRS. So now for RS we have RS =
+(VGG – VGS)/IDS. Since VGS is of opposite polarity to VGG, this will result in a larger value for RS than before.
+This in turn will result in a larger value for the gm RS product and hence improved bias stability. If we continue
+with  the  preceding  examples  and  now  let  VGG =  VDD /2  =  +10  V,  we  have  that  RS  =  (VGG  –  VGS)/IDS  =
+[+10V –(–1.17V)]/5 mA = 2.234 kW, as compared to RS = 234 W that was obtained before. For gm we have gm =
+ = 3.54 mS, so gm RS = 3.54 mS · 2.234 kW = 7.90. Since 1 + gm RS = 8.90, we now have an
+2 I DS
+improvement by a factor of 8.9 over the open-loop voltage source biasing and by a factor of 4.9 over the self-
+biasing method without the VGG biasing of the gate.

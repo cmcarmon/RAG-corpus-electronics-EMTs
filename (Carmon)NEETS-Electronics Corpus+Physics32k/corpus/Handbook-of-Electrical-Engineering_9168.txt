@@ -1,0 +1,4 @@
+The  Resource  Manager  is  also  responsible  for  controlling  the  allocation  of  readers  and  across  multiple
+applications with shared or exclusive modes of operations. Finally, it supports transaction primitives to allow
+multiple commands to be executed without interruption, ensuring that intermediate state information is not
+corrupted.

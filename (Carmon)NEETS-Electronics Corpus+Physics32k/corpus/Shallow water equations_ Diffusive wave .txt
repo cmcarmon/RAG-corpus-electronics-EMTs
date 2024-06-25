@@ -1,0 +1,37 @@
+For the diffusive wave it is assumed that the inertial terms are less than the gravity, friction, and pressure terms. The diffusive wave can therefore be more accurately described as a non-inertia wave, and is written as:
+
+
+
+
+g
+
+
+
+∂
+h
+
+
+∂
+x
+
+
+
++
+g
+(
+
+S
+
+f
+
+
+−
+S
+)
+=
+0.
+
+
+{\displaystyle g{\frac {\partial h}{\partial x}}+g(S_{f}-S)=0.}
+
+The diffusive wave is valid when the inertial acceleration is much smaller than all other forms of acceleration, or in other words when there is primarily subcritical flow. Models that use the diffusive wave assumption include MIKE SHE and LISFLOOD-FP.

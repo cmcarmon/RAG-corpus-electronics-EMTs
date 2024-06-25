@@ -1,0 +1,1 @@
+For each point in our dataset, we can find the distance to its nearest neighbour. We can in fact estimate the entropy from the distribution of the nearest-neighbour-distance of our datapoints. (In a uniform distribution these distances all tend to be fairly similar, whereas in a strongly nonuniform distribution they may vary a lot more.)

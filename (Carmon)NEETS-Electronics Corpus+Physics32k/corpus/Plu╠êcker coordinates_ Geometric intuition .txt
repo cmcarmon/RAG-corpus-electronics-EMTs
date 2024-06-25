@@ -1,0 +1,13 @@
+A line L in 3-dimensional Euclidean space is determined by two distinct points that it contains, or by two distinct planes that contain it. Consider the first case, with points x = (x1,x2,x3) and y = (y1,y2,y3). The vector displacement from x to y is nonzero because the points are distinct, and represents the direction of the line. That is, every displacement between points on L is a scalar multiple of d = y − x. If a physical particle of unit mass were to move from x to y, it would have a moment about the origin. The geometric equivalent is a vector whose direction is perpendicular to the plane containing L and the origin, and whose length equals twice the area of the triangle formed by the displacement and the origin. Treating the points as displacements from the origin, the moment is m = x×y, where "×" denotes the vector cross product. For a fixed line, L, the area of the triangle is proportional to the length of the segment between x and y, considered as the base of the triangle; it is not changed by sliding the base along the line, parallel to itself. By definition the moment vector is perpendicular to every displacement along the line, so d•m = 0, where "•" denotes the vector dot product.
+Although neither d nor m alone is sufficient to determine L, together the pair does so uniquely, up to a common (nonzero) scalar multiple which depends on the distance between x and y. That is, the coordinates
+(d:m) = (d1:d2:d3:m1:m2:m3)
+may be considered homogeneous coordinates for L, in the sense that all pairs (λd:λm), for λ ≠ 0, can be produced by points on L and only L, and any such pair determines a unique line so long as d is not zero and d•m = 0. Furthermore, this approach extends to include points, lines, and a plane "at infinity", in the sense of projective geometry.
+Example. Let x = (2,3,7) and y = (2,1,0). Then (d:m) = (0:−2:−7:−7:14:−4).
+Alternatively, let the equations for points x of two distinct planes containing L be
+0 = a + a•x
+0 = b + b•x .
+Then their respective planes are perpendicular to vectors a and b, and the direction of L must be perpendicular to both. Hence we may set d = a×b, which is nonzero because a and b are neither zero nor parallel (the planes being distinct and intersecting). If point x satisfies both plane equations, then it also satisfies the linear combination
+
+That is, m = a b − b a is a vector perpendicular to displacements to points on L from the origin; it is, in fact, a moment consistent with the d previously defined from a and b.
+Example. Let a0 = 2, a = (−1,0,0) and b0 = −7, b = (0,7,−2). Then (d:m) = (0:−2:−7:−7:14:−4).
+Although the usual algebraic definition tends to obscure the relationship, (d:m) are the Plücker coordinates of L.

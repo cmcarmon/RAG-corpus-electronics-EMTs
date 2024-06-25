@@ -1,0 +1,217 @@
+Geopotential is the potential of the Earth's gravity field. For convenience it is often defined as the negative of the potential energy per unit mass, so that the gravity vector is obtained as the gradient of this potential, without the negation.
+For geophysical applications, gravity is distinguished from gravitation. Gravity is defined as the resultant of gravitation and the centrifugal force caused by the Earth's rotation. The global mean sea surface is close to one of the equipotential surfaces of the geopotential of gravity
+
+
+
+W
+
+
+{\displaystyle W}
+. This equipotential surface, or surface of constant geopotential, is called the geoid.
+The geoid is a gently undulating surface due to the irregular mass distribution inside the Earth; it may be approximated however by an ellipsoid of revolution called the reference ellipsoid. The currently most widely used reference ellipsoid, that of the Geodetic Reference System 1980 (GRS80), approximates the geoid to within a little over ±100 m. One can construct a simple model geopotential
+
+
+
+U
+
+
+{\displaystyle U}
+that has as one of its equipotential surfaces this reference ellipsoid, with the same model potential
+
+
+
+
+U
+
+0
+
+
+
+
+{\displaystyle U_{0}}
+as the true potential
+
+
+
+
+W
+
+0
+
+
+
+
+{\displaystyle W_{0}}
+of the geoid; this model is called a normal potential. The difference
+
+
+
+T
+=
+W
+−
+U
+
+
+{\displaystyle T=W-U}
+is called the disturbing potential. Many observable quantities of the gravity field, such as gravity anomalies and deflections of the plumbline, can be expressed in this disturbing potential.
+In practical terrestrial work, e.g., levelling, an alternative version of the geopotential is used called geopotential numbers
+
+
+
+C
+
+
+{\displaystyle C}
+, which are reckoned from the geoid upward:
+
+
+
+
+C
+=
+−
+(
+W
+−
+
+W
+
+0
+
+
+)
+
+
+{\displaystyle C=-(W-W_{0})}
+,
+where
+
+
+
+
+W
+
+0
+
+
+
+
+{\displaystyle W_{0}}
+is the geopotential of the geoid.
+For the purpose of satellite orbital mechanics, the geopotential is typically described by a series expansion into spherical harmonics (spectral representation). In this context the geopotential is taken as the potential of the gravitational field of the Earth, that is, leaving out the centrifugal potential.
+Solving for geopotential (Φ) in the simple case of a sphere:
+
+
+
+
+Φ
+(
+h
+)
+=
+
+∫
+
+0
+
+
+h
+
+
+g
+
+d
+z
+
+
+
+{\displaystyle \Phi (h)=\int _{0}^{h}g\,dz\ }
+
+
+
+
+
+Φ
+=
+
+∫
+
+0
+
+
+z
+
+
+
+[
+
+
+
+G
+m
+
+
+(
+a
++
+z
+
+)
+
+2
+
+
+
+
+
+]
+
+d
+z
+
+
+{\displaystyle \Phi =\int _{0}^{z}\left[{\frac {Gm}{(a+z)^{2}}}\right]dz}
+
+Integrate to get
+
+
+
+
+Φ
+=
+G
+m
+
+[
+
+
+
+1
+a
+
+
+−
+
+
+1
+
+a
++
+z
+
+
+
+
+]
+
+
+
+{\displaystyle \Phi =Gm\left[{\frac {1}{a}}-{\frac {1}{a+z}}\right]}
+
+where:
+G=6.673x10−11 Nm2/kg2 is the gravitational constant,
+m=5.975x1024 kg is the mass of the earth,
+a=6.378x106 m is the average radius of the earth,
+z is the height in meters
+Φ is the geopotential at height z, which is in units of [m2/s2] or [J/kg].

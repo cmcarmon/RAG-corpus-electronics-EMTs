@@ -1,0 +1,4 @@
+On the falling edge of each clock pulse the data is right-shifted one place. The resultant sum of the two bits
+plus any carry bit is, on the same clock edge, entered back into register A. The D-type ﬂip-ﬂop is used to delay
+the carry bit until the next add time: Data entered at D does not appear at Q until the falling edge of the clock
+pulse has occurred, and at such time it is, therefore, too late to modify the previous addition. At the end of the

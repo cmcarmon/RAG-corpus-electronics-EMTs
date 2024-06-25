@@ -1,0 +1,9 @@
+The engineers now turn their attention to the input voltage levels required by Disco’s
+static discipline. Yehaa’s devices are able to interpret voltages as high as 2 V as a logical 0,
+so they can interpret any voltage between 0 V and 2 V (VIL) as a logical 0, just as required
+by Disco’s static discipline. Thus, the Yehaa devices satisfy the VIL requirement.
+Similarly, Yehaa’s devices are able to interpret voltages between 3.5 V (VIH) and 5 V as
+a logical 1, which again satisfies the VIH requirement of Disco’s static discipline. The fact
+that the Yehaa devices interpret certain voltages in Disco’s forbidden region (specifically,
+those between 3 V and 3.5 V) as a logical 1 is irrelevant since devices are allowed arbitrary
+behavior for values in the forbidden region.

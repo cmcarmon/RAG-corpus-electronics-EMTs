@@ -1,0 +1,23 @@
+where N is an HLPN deﬁned in Section 9.2; D is the set of all
+fuzzy delays, dtp(t), associated with arcs (t, p) from each tran-
+sition t 2 T to its output place p; and FT is the set of all fuzzy
+time stamps. A fuzzy time stamp p(t) 2 FT is associated with
+each token and each place. A fuzzy time stamp p(t) is a fuzzy
+time function or possibility distribution giving the numeri-
+cal estimate of the possibility that a particular token arrives
+at time t in a particular place. Any type of possibility distri-
+bution can be represented or approximated by using a num-
+ber of trapezoidal distributions. Thus, we use the trapezoidal
+possibility distribution speciﬁed by the ﬁve parameters,
+h(a, b, c, d) as shown in Figure 9.9, where h is the height
+having the following properties: 0  h  1, h ¼ 1 for an
+event (arrival of a token) that has occurred or will occur and
+h < 1 for an event that will not necessarily occur. A so-called
+fuzzy number is represented by the triangular distribution
+h(a, b, b, d), which is a special case of the trapezoidal form
+with b ¼ c. A deterministic interval between a and d denoted
+[a, d] can be represented by (a, a, d, d), a special case of
+trapezoidal form with a ¼ b, c ¼ d, and h ¼ 1. In addition,
+given an arbitrary-shaped possibility distribution, we can ap-
+proximate it with the union of a number of trapezoidal distri-
+butions (Zhou and Murata, 1999).

@@ -1,0 +1,51 @@
+The effect of stress in the continuum flow is represented by the ∇p and ∇ · τ terms; these are gradients of surface forces, analogous to stresses in a solid. Here ∇p is called the pressure gradient and arises from the isotropic part of the Cauchy stress tensor, which has order two. This part is given by normal stresses that turn up in almost all situations, dynamic or not. The anisotropic part of the stress tensor gives rise to ∇ · τ, which conventionally describes viscous forces; for incompressible flow, this is only a shear effect. Thus, τ is the deviatoric stress tensor, and the stress tensor is equal to:
+
+
+
+
+
+σ
+
+=
+−
+p
+
+1
+
++
+
+τ
+
+
+
+{\displaystyle {\boldsymbol {\sigma }}=-p\mathbf {1} +{\boldsymbol {\tau }}}
+
+where 1 is the identity matrix in the space considered and τ the shear tensor.
+All non-relativistic momentum conservation equations, such as the Navier–Stokes equation, can be derived by beginning with the Cauchy momentum equation and specifying the stress tensor through a constitutive relation. By expressing the shear tensor in terms of viscosity and fluid velocity, and assuming constant density and viscosity, the Cauchy momentum equation will lead to the Navier–Stokes equations. By assuming inviscid flow, the Navier–Stokes equations can further simplify to the Euler equations.
+The divergence of the stress tensor can be written as
+
+
+
+
+∇
+⋅
+
+σ
+
+=
+−
+∇
+p
++
+∇
+⋅
+
+τ
+
+.
+
+
+{\displaystyle \nabla \cdot {\boldsymbol {\sigma }}=-\nabla p+\nabla \cdot {\boldsymbol {\tau }}.}
+
+The effect of the pressure gradient on the flow is to accelerate the flow in the direction from high pressure to low pressure.
+The stress terms p and τ are yet unknown, so the general form of the equations of motion is not usable to solve problems. Besides the equations of motion—Newton's second law—a force model is needed relating the stresses to the flow motion. For this reason, assumptions based on natural observations are often applied to specify the stresses in terms of the other flow variables, such as velocity and density.

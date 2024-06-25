@@ -1,0 +1,4 @@
+Both heap and stack provide a mechanism to obtain large (or small) amounts of storage dynamically. Thus,
+large structures which are created only at run time need not have static space stored for them in programs that
+are  stored  on  disk  nor  need  they  occupy  great  chunks  of  memory  when  the  program  does  not  need  them.
+Dynamic allocation is very useful and all modern HLLs provide for it.

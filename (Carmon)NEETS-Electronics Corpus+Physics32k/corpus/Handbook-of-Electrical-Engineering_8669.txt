@@ -1,0 +1,10 @@
+Even though the assignment of variables to registers gives an improvement in performance, it is not always
+possible to assign a variable to a register. In C, one operation is to assign the address of a variable to a pointer-
+type variable (e.g., ip = & i). If i were assigned to a register, the operation would become invalid, because a
+register does not have a memory address. Although this example appears limited to the C language, the use of
+a  variable’s  address  is  widespread  when  subroutine  parameters  are  passed  by  reference.  (Variables  sent  to  a
+subroutine are either passed by reference, where the address of the variable is passed to the subroutine, allowing
+modiﬁcations to the original variable, or they are passed by value, where a copy of the variable is passed to the
+subroutine.) When a parameter is passed by reference its address must be obtained and passed to the subroutine,
+an action commonly found in most languages. This action compounds the task of selecting candidate variables
+for register assignment.

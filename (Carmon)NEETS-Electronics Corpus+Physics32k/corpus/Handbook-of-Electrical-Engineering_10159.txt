@@ -1,0 +1,7 @@
+Resolved Motion Control
+So far we have discussed the methods to achieve desired joint motion. In practice, the desired motion is speciﬁed
+in terms of hand motions. Resolved motion control methods such as resolved motion rate control (RMRC) and
+resolved motion acceleration control have been suggested [papers by Whitney and Luh et al. in Brady et al., 1982].
+In  these  methods,  the  joint  motions  are  coordinated  to  achieve  coordinated  hand  motion  along  any  world
+coordinate axis. Given the relationship between the position and orientation of the hand, x(t), and the joint
+coordinates q(t) as

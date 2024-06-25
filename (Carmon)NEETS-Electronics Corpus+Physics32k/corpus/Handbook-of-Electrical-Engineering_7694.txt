@@ -1,0 +1,16 @@
+This is plotted against several real disk products in Fig. 80.10. Magnetic disk technology has doubled capacity
+and halved price every three years, in line with the growth rate of semiconductor memory. Between 1967 and
+1979 the growth in disk capacity of the average IBM data processing system more than kept up with its growth
+in main memory, maintaining a ratio of 1000:1 between disk capacity and physical memory size [Stevens, 1981].
+In contrast to primary memory technologies, the performance of conventional magnetic disks has improved
+ devices, the elements of which are described in more detail in the next section,
+only modestly. These 
+are  dominated  by  seek  and  rotation  delays:  from  1971  to  1981,  the  raw  seek  time  for  a  high-end  IBM  disk
+improved by only a factor of two while the rotation time did not change [Harker et al., 1981]. Greater recording
+density translates into a higher transfer rate once the information is located, and extra positioning actuators
+ can reduce the average seek time, but the raw seek time only improved at a rate of
+for the read/write 
+7% per year. This is to be compared to a doubling in processor power every year, a doubling in memory density
+every two years, and a doubling in disk density every three years. The gap between processor performance and
+disk speeds continues to widen, and there is no reason to expect a radical improvement in raw disk performance
+in the near future.

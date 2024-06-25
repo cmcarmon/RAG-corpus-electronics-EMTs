@@ -1,0 +1,18 @@
+When a voltmeter is used to measure an electronic device, it does not quite measure the pure electric potential (also called Galvani potential). Instead, it measures the electrochemical potential, also called "fermi level difference", which is the total free energy difference per electron, including not only its electric potential energy but also all other forces and influences on the electron (such as the kinetic energy in its wavefunction). For example, a p-n junction in equilibrium, there is a galvani potential (built-in potential) across the junction, but the "voltage" across it is zero (in the sense that a voltmeter would measure zero voltage).
+In a capacitor, there is a relation between charge and voltage,
+
+
+
+Q
+=
+C
+V
+
+
+{\displaystyle Q=CV}
+. As explained above, we can divide the voltage into two pieces: The galvani potential, and everything else.
+In a traditional metal-insulator-metal capacitor, the galvani potential is the only relevant contribution. Therefore, the capacitance can be calculated in a straightforward way using Gauss's law.
+However, if one or both of the capacitor plates is a semiconductor, then galvani potential is not necessarily the only important contribution to capacitance. As the capacitor charge increases, the negative plate fills up with electrons, which occupy higher-energy states in the band structure, while the positive plate loses electrons, leaving behind electrons with lower-energy states in the band structure. Therefore, as the capacitor charges or discharges, the voltage changes at a different rate than the galvani potential difference.
+In these situations, one cannot calculate capacitance merely by looking at the overall geometry and using Gauss's law. One must also take into account the band-filling / band-emptying effect, related to the density-of-states of the plates. The band-filling / band-emptying effect alters the capacitance, imitating a second capacitance in series. This capacitance is called quantum capacitance, because it is related to the energy of an electron's quantum wavefunction.
+Some scientists refer to this same concept as chemical capacitance, because it is related to the electrons' chemical potential.
+The ideas behind quantum capacitance are closely linked to Thomas–Fermi screening and band bending.

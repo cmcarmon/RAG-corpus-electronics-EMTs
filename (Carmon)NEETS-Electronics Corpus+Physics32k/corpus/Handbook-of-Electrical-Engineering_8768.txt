@@ -1,0 +1,4 @@
+Now, we create a subclass that inherits the properties (interface) of Node() and adds a new property, e.g.,
+Binop. Binop is an abstraction of the binary operators of a pocket calculator, which is the real-world object
+being simulated by this example program. The expression to be calculated is stored in a binary tree, and Binop
+sprouts a new left and right subtree when it is created and deletes this subtree when it is disposed.

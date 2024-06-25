@@ -1,0 +1,15 @@
+Solutions to Exercises in Chapter 5
+Solution to Exercise 5.1 (p. 145)
+For b-bit signed integers, the largest number is 2b−1 − 1. For b = 32, we have 2,147,483,647 and for b = 64,
+we have 9,223,372,036,854,775,807 or about 9.2 × 1018.
+Solution to Exercise 5.2 (p. 146)
+In ﬂoating point, the number of bits in the exponent determines the largest and smallest representable
+numbers. For 32-bit ﬂoating point, the largest (smallest) numbers are 2±127 = 1.7 × 1038 (5.9 × 10−39). For
+64-bit ﬂoating point, the largest number is about 109863.
+Solution to Exercise 5.3 (p. 146)
+25 = 110112 and 7 = 1112. We ﬁnd that 110012 + 1112 = 1000002 = 32.
+Solution to Exercise 5.4 (p. 148)
+The only eﬀect of pulse duration is to unequally weight the spectral repetitions. Because we are only
+concerned with the repetition centered about the origin, the pulse duration has no signiﬁcant eﬀect on
+recovering a signal from its samples.
+Solution to Exercise 5.5 (p. 149)

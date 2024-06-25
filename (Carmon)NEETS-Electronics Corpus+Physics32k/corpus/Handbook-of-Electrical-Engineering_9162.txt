@@ -1,0 +1,8 @@
+APIs and Middleware
+Application  program  interfaces  (API,  also  called  middleware)  usually  take  the  form  of  libraries  that  provide
+the user with high-level functions to ease the development and to hide disparities between different technologies.
+Basic APIs try to hide the command layer to the user and regroup under common interfaces the communication
+with different readers. At a higher lever, an API hides the smart card operating system particularities, providing
+the user with card services and with abstract concepts that ease the use of the information on the card. Thus,
+card services will allow the user to select a ﬁle, to read, write, and erase objects on the card, and to authenticate
+the user. API can also regroup specialized functions such as cryptographic functions, purse functions, etc.

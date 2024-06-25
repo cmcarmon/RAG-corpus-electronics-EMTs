@@ -1,0 +1,9 @@
+(16.2.17)
+where cf(t) represents the transient response of the output variable with feedback. Comparing
+Equations (16.2.15) and (16.2.17), it is clear that the time constant with feedback is smaller by
+the factor 1/(1 + H K), and hence the transient decays faster.
+By treating the differential operator p as the sinusoidal frequency variable jω, i.e., p = j ω =
+j (1/τ ), it follows from Equation (16.2.14) that the bandwidth of the open-loop system spreads
+over a range from zero to a frequency of 1/τ rad/s. On the other hand, for the system with feedback,
+Equation (16.2.16) reveals that the bandwidth spreads from zero to (1 + H K)/τ rad/s, showing
+that the bandwidth has been augmented by increasing the upper frequency limit by 1 + KH .

@@ -1,0 +1,10 @@
+The ratio of received carrier power to noise power c/n, and its corresponding decibel value (C/N) = 10log(c/n)
+dB is the primary measure of link quality. The product of transmit power pt (W) and the transmit antenna
+gain gt, or equivalently, Pt (dBW) + Gt [(dBi), that is, gain expressed in decibels relative to an isotropic antenna]
+is  called  the  equivalent  isotropically  radiated  power  (EIRP)  and  its  unit  is  dBW  because  the  antenna  gain  is
+dimensionless. The antenna gain is that in the direction of the link, i.e., it is not necessarily the antenna’s peak
+gain. The received thermal noise power is n = kTB W where k = 1.38 · 10–23 J/K is Boltzmann’s constant and
+10 log(k) = –228.6 dBW/K/Hz. T is the system noise temperature in kelvins (K) and B is the bandwidth in dB
+Hz. Then, G – 101logT dB/K is a ﬁgure of merit for the receiving system. It is usually written as G/T and read
+as “gee over tee”. The antenna gain and the noise temperature must be deﬁned at the same reference point, e.g.,
+at the receiver’s input port or at the antenna terminals.

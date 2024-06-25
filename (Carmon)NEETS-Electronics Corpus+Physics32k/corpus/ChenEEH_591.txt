@@ -1,0 +1,15 @@
+resistor that is the lateral resistance of the p-base. The equiva-
+lent circuit model of the MOSFET, including the parasitic
+transistor, is shown in Figure 7.14. Under rapid transients of
+voltage at the drain, a displacement current is induced through
+the parasitic capacitors of the MOSFET along two paths, as
+shown. The current I1 may rise VGS above VTH , thus causing
+spurious turn-on of the MOSFET. Likewise, the current I2 may
+cause a resistive drop across RB that is high enough to turn the
+parasitic bipolar transistor on. This places a limit on the
+maximum dV/dt across the MOSFET. Reliability of MOSFET
+is also affected by the power dissipation under transient con-
+ditions. This power dissipation leads to a temperature rise in
+the device. The temperature range of operation and highest
+current and voltage stress are determined by the extent of
+device self-heating.

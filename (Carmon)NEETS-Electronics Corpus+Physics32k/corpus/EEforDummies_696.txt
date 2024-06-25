@@ -1,0 +1,7 @@
+If you look at the carry‐bit column in the truth table for the half adder, you 
+may notice that it looks just like the output for the two‐input AND gate shown 
+in Figure 11-3: That is, the carry bit is the same as A AND B, where A and B are 
+the two input bits. Similarly, the sum bit is the same as A XOR B. What’s the 
+significance of this? You can build a half adder using an AND gate and an XOR 
+gate. You feed the input bits into both gates, and use the AND gate to gener-
+ate the carry bit and the XOR gate to generate the sum bit. (See Figure 11-5.)

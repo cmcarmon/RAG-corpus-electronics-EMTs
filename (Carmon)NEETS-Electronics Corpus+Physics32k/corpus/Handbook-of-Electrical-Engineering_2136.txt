@@ -1,0 +1,5 @@
+Many problems in engineering can be thought of in terms of a transformation of an input space, containing
+the input, to an output space where the desired response exists. For instance, dividing data into classes can be
+thought of as transforming the input into 0 and 1 responses that will code the classes [Bishop, 1995]. Likewise,
+identiﬁcation of an unknown system can also be framed as a mapping (function approximation) from the input
+to the system output [Kung, 1993]. The MLP is highly recommended for these applications.

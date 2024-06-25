@@ -1,0 +1,6 @@
+Inputs X and Y are applied to the AND gate. If either X or Y or both are LOW (view A), then the
+output of the AND gate is LOW. A LOW (logic 0) on the input of the inverter results in a HIGH (logic 1)
+output. When both X and Y are HIGH (view B), the output of the AND gate is HIGH; thus the output of
+the inverter is LOW. The Boolean expression for the output of a NAND gate with these inputs is f = XY .
+The expression is spoken "X AND Y quantity NOT." The output of any NAND gate is the negation of the
+input. For example, if our inputs are X and Y , the output will be YX .

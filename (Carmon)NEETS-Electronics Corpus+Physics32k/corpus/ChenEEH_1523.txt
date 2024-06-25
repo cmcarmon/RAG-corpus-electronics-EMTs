@@ -1,0 +1,9 @@
+next 3 bits apply to other members of the owner’s group (e.g.,
+department or project). The last 3 bits pertain to everyone else;
+these 3 bits control reading, writing, and executing the ﬁle,
+respectively. Thus a mode of 640 (octal) means that the owner
+can read and write the ﬁle, other members of the owner’s
+group can read it, and outsiders have no access at all. A
+mode of 777 (octal) allows everyone to do everything to the
+ﬁle. On the screen, these two example modes are displayed as
+rw-r----- and rwxrwxrw, respectively.

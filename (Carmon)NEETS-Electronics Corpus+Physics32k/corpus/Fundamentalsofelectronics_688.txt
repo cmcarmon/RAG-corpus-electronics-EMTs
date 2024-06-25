@@ -1,0 +1,7 @@
+It could well be that in some problems the time-domain version is more eﬃcient (more easily satisﬁes the
+real time requirement), while in others the frequency domain approach is faster. In the latter situations, it is
+the FFT algorithm for computing the Fourier transforms that enables the superiority of frequency-domain
+implementations. Because complexity considerations only express how algorithm running-time increases with
+system parameter choices, we need to detail both implementations to determine which will be more suitable
+for any given ﬁltering problem. Filtering with a diﬀerence equation is straightforward, and the number of
+computations that must be made for each output value is 2 (p + q).

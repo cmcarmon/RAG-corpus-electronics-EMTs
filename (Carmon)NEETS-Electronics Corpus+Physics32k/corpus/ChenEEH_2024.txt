@@ -1,0 +1,16 @@
+The crucial condition that must be satisﬁed to apply a
+is whether
+mantissa-based integer checksum test on f
+f (mant(v)) ¼ mant(f (v)). To check if f is mantissa preserving,
+we have to look at the basic ﬂoating point operations, such as
+multiplication, division, addition, subtraction, square-root,
+and others, that f is composed of and see if they are mantissa
+preserving. A binary operator
+is said to be mantissa preserv-
+ing if mant (a)
+b). Let a ﬂoating point
+number a be represented as a1  2a2 , where a1 is the mantissa
+and a2 the exponent of a. Ignoring the position of the implicit
+binary point (i.e., in terms of just the bit pattern of numbers),
+ﬂoating point multiplication is mantissa preserving because:
+mant(a) mant(b): ¼ a1  b1, while mant(a  b)

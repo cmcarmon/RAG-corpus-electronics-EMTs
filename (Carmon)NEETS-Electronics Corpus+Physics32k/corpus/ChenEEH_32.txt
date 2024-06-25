@@ -1,0 +1,14 @@
+Special case 1
+When one of the elements in a loop is a current source, the
+voltage across it cannot be written using the v–i relation of the
+element. In this case, the voltage across the current source
+should be treated as an unknown variable to be determined.
+If a current source is present in only one loop and is not
+common to more than one loop, then the current of the loop
+in which the current source is present should be equal to the
+value of the current source and hence is known. To determine
+the remaining currents, there is no need to write the KVL
+equation for the current source loop. However, to determine
+the voltage of the current source, a KVL equation for the
+current source loop needs to be written. This equation is
+presented in example 1.3.

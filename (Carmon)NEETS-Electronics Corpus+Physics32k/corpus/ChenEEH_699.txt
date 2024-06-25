@@ -1,0 +1,15 @@
+Data-Flow and Loop Transformations
+In a ﬁrst step, the code has to be transformed to expose
+maximal locality and potential data reuse. This is done by
+globally applying data-ﬂow and loop transformations. Loop
+transformations are well known and include loop interchange,
+merging, folding, and skewing. Data-ﬂow transformations are
+less known and include, for example, algebraic law exploi-
+tation, recomputation (in terms of data transfer and storage,
+which can be beneﬁcial to recompute certain data whenever
+they are needed instead of storing them in memory), and
+bottleneck removal (of which an illustration is shown in
+section 2.4.2). We will now give a simple example of apply-
+ing loop transformations
+for data transfer and storage
+optimization.

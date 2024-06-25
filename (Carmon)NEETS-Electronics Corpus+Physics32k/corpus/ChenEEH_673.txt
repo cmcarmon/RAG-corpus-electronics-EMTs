@@ -1,0 +1,9 @@
+plane that contains data needed in a particular address cycle.
+If possible, the data used in successive cycles should also come
+from the same plane because activating a new plane takes up a
+signiﬁcant amount of extra precharge power. An example ﬂoor
+plan in Figure 2.6 is drawn for k ¼ 8 and B ¼ 4. The memory
+matrix can be split up in two or more parts to reduce the
+length of the word lines also by a factor 2 or more. This results
+in a typically heavily partitioned ﬂoor plan (Itoh, 1997) as
+shown in a simpliﬁed form in Figure 2.7.

@@ -1,0 +1,6 @@
+deﬁnition,  not  at  every  place  of  usage.  Moreover,  global  deﬁnitions  that  replace  numeric  or  alphanumeric
+constants by descriptive identiﬁers improve the readability of a program. Nonlocal variables, on the other hand,
+are  to  be  avoided.  For  reasons  of  simplicity  and  clarity,  the  task  performed  by  a  subprogram  should  be
+determined exclusively by the subprogram itself and the values of its parameters. As a result, all information
+needed to understand why a subprogram may behave differently for different invocations is provided at each
+point of invocation. This rule, related to the concept of referential transparency, is clearly violated if a subprogram

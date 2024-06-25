@@ -1,0 +1,17 @@
+Important switching waveforms of the MOSFET are indi-
+cated in Figure 7.13 for an inductive load, similar to the one in
+Figure 7.7. The gate pulse makes transitions between VGP and
+VGN through the gate resistor, RG. Initially, the device is off.
+When the gate pulse is turned on high, the capacitor CGD and
+CGS charge exponentially toward VGP
+through RG. The
+MOSFET turns on when the gate-source voltage crosses VTH .
+The device goes from cut-off to saturation region. As the gate
+voltage rises, the MOSFET current also increases, as deter-
+mined by equation 7.14, until it is conducting IO. The drain
+voltage remains at VD as long as the free-wheeling diode is
+conducting. Once the MOSFET attains the current IO, the
+drain current is clamped. Since the device is conducting in
+saturation, the gate-source voltage is also clamped. The cap-
+acitor CGD now starts discharging through the gate resistor.
+The gate current is given as:

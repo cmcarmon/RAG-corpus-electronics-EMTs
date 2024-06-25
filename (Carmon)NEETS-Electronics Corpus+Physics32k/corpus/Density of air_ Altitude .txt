@@ -1,0 +1,226 @@
+To calculate the density of air as a function of altitude, one requires additional parameters. They are listed below, along with their values according to the International Standard Atmosphere, using for calculation the universal gas constant instead of the air specific constant:
+
+
+
+
+
+p
+
+0
+
+
+=
+
+
+{\displaystyle p_{0}=}
+sea level standard atmospheric pressure, 101.325 kPa
+
+
+
+
+
+T
+
+0
+
+
+=
+
+
+{\displaystyle T_{0}=}
+sea level standard temperature, 288.15 K
+
+
+
+
+g
+=
+
+
+{\displaystyle g=}
+earth-surface gravitational acceleration, 9.80665 m/s2
+
+
+
+
+L
+=
+
+
+{\displaystyle L=}
+temperature lapse rate, 0.0065 K/m
+
+
+
+
+R
+=
+
+
+{\displaystyle R=}
+ideal (universal) gas constant, 8.31447 J/(mol·K)
+
+
+
+
+M
+=
+
+
+{\displaystyle M=}
+molar mass of dry air, 0.0289644 kg/mol
+Temperature at altitude
+
+
+
+h
+
+
+{\displaystyle h}
+meters above sea level is approximated by the following formula (only valid inside the troposphere):
+
+
+
+
+T
+=
+
+T
+
+0
+
+
+−
+L
+h
+
+
+
+{\displaystyle T=T_{0}-Lh\,}
+
+The pressure at altitude
+
+
+
+h
+
+
+{\displaystyle h}
+is given by:
+
+
+
+
+p
+=
+
+p
+
+0
+
+
+
+
+(
+
+1
+−
+
+
+
+L
+h
+
+
+T
+
+0
+
+
+
+
+
+)
+
+
+
+
+g
+M
+
+
+R
+L
+
+
+
+
+
+
+{\displaystyle p=p_{0}\left(1-{\frac {Lh}{T_{0}}}\right)^{\frac {gM}{RL}}}
+
+Density can then be calculated according to a molar form of the ideal gas law:
+
+
+
+
+ρ
+=
+
+
+
+p
+M
+
+
+R
+T
+
+
+
+
+
+
+{\displaystyle \rho ={\frac {pM}{RT}}\,}
+
+where:
+
+
+
+
+M
+=
+
+
+{\displaystyle M=}
+molar mass
+
+
+
+
+R
+=
+
+
+{\displaystyle R=}
+ideal gas constant
+
+
+
+
+T
+=
+
+
+{\displaystyle T=}
+absolute temperature
+
+
+
+
+p
+=
+
+
+{\displaystyle p=}
+absolute pressure

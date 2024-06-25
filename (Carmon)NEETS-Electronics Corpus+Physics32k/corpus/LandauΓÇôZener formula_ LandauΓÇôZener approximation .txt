@@ -1,0 +1,123 @@
+Such transitions occur between states of the entire system, hence any description of the system must include all external influences, including collisions and external electric and magnetic fields. In order that the equations of motion for the system might be solved analytically, a set of simplifications are made, known collectively as the Landau–Zener approximation. The simplifications are as follows:
+The perturbation parameter in the Hamiltonian is a known, linear function of time
+The energy separation of the diabatic states varies linearly with time
+The coupling in the diabatic Hamiltonian matrix is independent of time
+The first simplification makes this a semi-classical treatment. In the case of an atom in a magnetic field, the field strength becomes a classical variable which can be precisely measured during the transition. This requirement is quite restrictive as a linear change will not, in general, be the optimal profile to achieve the desired transition probability.
+The second simplification allows us to make the substitution
+
+
+
+
+Δ
+E
+=
+
+E
+
+2
+
+
+(
+t
+)
+−
+
+E
+
+1
+
+
+(
+t
+)
+≡
+α
+t
+,
+
+
+
+{\displaystyle \Delta E=E_{2}(t)-E_{1}(t)\equiv \alpha t,\,}
+
+where
+
+
+
+
+
+
+E
+
+1
+
+
+(
+t
+)
+
+
+
+
+{\displaystyle \scriptstyle {E_{1}(t)}}
+and
+
+
+
+
+
+
+E
+
+2
+
+
+(
+t
+)
+
+
+
+
+{\displaystyle \scriptstyle {E_{2}(t)}}
+are the energies of the two states at time
+
+
+
+
+
+t
+
+
+
+
+{\displaystyle \scriptstyle {t}}
+, given by the diagonal elements of the Hamiltonian matrix, and
+
+
+
+
+
+α
+
+
+
+
+{\displaystyle \scriptstyle {\alpha }}
+is a constant. For the case of an atom in a magnetic field this corresponds to a linear change in magnetic field. For a linear Zeeman shift this follows directly from point 1.
+The final simplification requires that the time–dependent perturbation does not couple the diabatic states; rather, the coupling must be due to a static deviation from a
+
+
+
+
+
+1
+
+/
+
+r
+
+
+
+
+{\displaystyle \scriptstyle {1/r}}
+coulomb potential, commonly described by a quantum defect.

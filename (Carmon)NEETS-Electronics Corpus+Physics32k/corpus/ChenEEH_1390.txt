@@ -1,0 +1,8 @@
+Since pipelining is a common technique to increase the
+speed of a circuit, it would be advantageous to minimize
+reconﬁguration time of these types of circuits. Further reduc-
+tions in reconﬁguration overhead can be achieved by avoiding
+latency associated with emptying and reﬁlling the pipeline
+during reconﬁguration. Figure 3.2 describes a technique for
+overlapping computation and reconﬁguration that can be im-
+plemented using either existing FPGAs (Luk et al., 1997) or a

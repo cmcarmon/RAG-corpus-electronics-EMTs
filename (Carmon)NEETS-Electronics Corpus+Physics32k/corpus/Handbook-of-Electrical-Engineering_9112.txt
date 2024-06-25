@@ -1,0 +1,4 @@
+• Of the pair, the terminal-card card is always a “slave.” Such a situation results from the simple fact that
+it’s the terminal that “wakes up” a card by applying power and reset signals to the card. In response, the
+card sends back ATR (Answer To Reset) APDU which identiﬁes itself to a terminal. From this moment
+on the real session starts. The session may be terminated either by a card or by a terminal.

@@ -1,0 +1,6 @@
+To run a program, you type its name and arguments into the
+shell. The shell then forks off a child, passes the arguments to
+the child, and keeps quiet until the child has ﬁnished executing
+and exists. It is not possible to put an ampersand (&) at the
+end of the command line to start the command off in the
+background.

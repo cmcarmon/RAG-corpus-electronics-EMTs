@@ -1,0 +1,4 @@
+The need often arises during program loading and execution to transfer blocks of data between the main
+memory  and  a  disk  or  other  secondary  storage  I/O  devices.  Special  control  circuits  are  provided  to  manage
+these transfers without detailed control actions from the main processor. Such transfers are referred to as direct
+memory access (DMA). Assuming that accesses to the main memory from both I/O devices (such as disks) and

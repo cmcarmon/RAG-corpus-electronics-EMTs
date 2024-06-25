@@ -1,0 +1,12 @@
+But if the actual system does not have elements with equations that can be written to accept current as input
+and voltage as output, shunt R and C of ﬁctitious origin can be inserted at the cost of some loss in accuracy
+to fulﬁll the necessary interface requirement. For good accuracy, the current in the introduced ﬁctitious branch
+element should be kept very small relative to the currents of the actual branches by using very large R or very
+small C. In practice, loop instability in analog computation and numerical stiffness in digital computation will
+determine the lower bound on how small an error can be attained. In spite of the small error introduced, this
+technique can be very useful, as evident from trying to use the above dc motor simulation to simulate an open-
+circuit  operation  of  the  motor.  While  it  is  possible  to  reformulate  the  equations  to  handle  the  open-circuit
+condition,  the  equations  as  given  with  voltage  input  and  current  output  can  be  used  for  the  open-circuit
+condition if one is willing to accept a small inaccuracy of introducing a very large resistor to approximate the
+open-circuit. On the other hand, the simulation of short-circuit operation with the above model can be easily
+implemented using a Va of zero.

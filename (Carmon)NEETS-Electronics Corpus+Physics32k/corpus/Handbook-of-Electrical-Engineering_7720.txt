@@ -1,0 +1,4 @@
+Characterization of I/O Workloads
+Before characterizing the I/O behavior of different workloads, it is necessary to ﬁrst understand the elements
+of disk performance. Disk performance is a function of the service time, which consists of three main compo-
+nents: seek time, rotational latency, and data transfer time.2 Seek time is the time needed to position the heads

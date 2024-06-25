@@ -1,0 +1,8 @@
+Mutual inductance noise occurs when signal switching causes
+transient current to ﬂow through the loop formed by the signal
+wire and current return path (Intel, 2001), thereby creating a
+changing magnetic ﬁeld (see Figure 7.6). This induces a voltage
+on a quiet line, which is in or near this loop. These noise
+sources can be cumulative if there are several signals switching
+simultaneously in a bus. Mutual inductance is a long-range
+phenomenon and hence is worse in the presence of wide

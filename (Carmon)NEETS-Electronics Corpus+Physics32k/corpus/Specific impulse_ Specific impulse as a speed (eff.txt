@@ -1,0 +1,138 @@
+Because of the geocentric factor of g0 in the equation for specific impulse, many prefer to define the specific impulse of a rocket (in particular) in terms of thrust per unit mass flow of propellant (instead of per unit weight flow). This is an equally valid (and in some ways somewhat simpler) way of defining the effectiveness of a rocket propellant. For a rocket, the specific impulse defined in this way is simply the effective exhaust velocity relative to the rocket, ve. The two definitions of specific impulse are proportional to one another, and related to each other by:
+
+
+
+
+
+v
+
+e
+
+
+=
+
+g
+
+0
+
+
+⋅
+
+I
+
+sp
+
+
+,
+
+
+{\displaystyle v_{\text{e}}=g_{0}\cdot I_{\text{sp}},}
+
+where
+
+
+
+
+
+I
+
+sp
+
+
+
+
+{\displaystyle I_{\text{sp}}}
+is the specific impulse in seconds,
+
+
+
+
+
+v
+
+e
+
+
+
+
+{\displaystyle v_{\text{e}}}
+is the specific impulse measured in m/s, which is the same as the effective exhaust velocity measured in m/s (or ft/s if g is in ft/s2),
+
+
+
+
+
+g
+
+0
+
+
+
+
+{\displaystyle g_{0}}
+is the standard gravity, 9.80665 m/s2 (in Imperial units 32.174 ft/s2).
+This equation is also valid for air-breathing jet engines, but is rarely used in practice.
+(Note that different symbols are sometimes used; for example, c is also sometimes seen for exhaust velocity. While the symbol
+
+
+
+
+I
+
+sp
+
+
+
+
+{\displaystyle I_{\text{sp}}}
+might logically be used for specific impulse in units of N·s/kg; to avoid confusion, it is desirable to reserve this for specific impulse measured in seconds.)
+It is related to the thrust, or forward force on the rocket by the equation:
+
+
+
+
+
+F
+
+thrust
+
+
+=
+
+v
+
+e
+
+
+⋅
+
+
+
+m
+˙
+
+
+
+,
+
+
+{\displaystyle F_{\text{thrust}}=v_{\text{e}}\cdot {\dot {m}},}
+
+where
+
+
+
+
+
+
+m
+˙
+
+
+
+
+
+{\displaystyle {\dot {m}}}
+is the propellant mass flow rate, which is the rate of decrease of the vehicle's mass.
+A rocket must carry all its fuel with it, so the mass of the unburned fuel must be accelerated along with the rocket itself. Minimizing the mass of fuel required to achieve a given push is crucial to building effective rockets. The Tsiolkovsky rocket equation shows that for a rocket with a given empty mass and a given amount of fuel, the total change in velocity it can accomplish is proportional to the effective exhaust velocity.
+A spacecraft without propulsion follows an orbit determined by its trajectory and any gravitational field. Deviations from the corresponding velocity pattern (these are called Δv) are achieved by sending exhaust mass in the direction opposite to that of the desired velocity change.

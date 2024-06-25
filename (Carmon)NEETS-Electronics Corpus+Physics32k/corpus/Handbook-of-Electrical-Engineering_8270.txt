@@ -1,0 +1,8 @@
+ methods [see Fig. 85.1(b)]. In the former,
+each output word from the circuit is tested during normal operation. In the latter, the circuit must suspend
+normal operation and enter a “test mode,” at which time the appropriate method of testing is applied. While
+off-line testing
+ can be executed either through external testing (a tester machine external to the circuitry) or
+) usually implies that the circuit contains
+through the use of BIST, 
+some coding scheme which has been previously embedded in the design of the circuitry.

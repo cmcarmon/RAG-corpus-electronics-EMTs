@@ -1,0 +1,12 @@
+Data Base 800 Service
+SCPs have been deployed throughout the United States in support of the Data Base 800 Service mandated by
+the  Federal  Communications  Commission.  This  service  provides  its  subscribers  with  number  portability  so
+that a single 800 number can be used with different carriers. The Data Base 800 Service architecture is shown
+in  Fig.  72.14.  With  this  architecture,  800-number  calls  are  routed  from  an  end  ofﬁce  to  a  service  switching
+point  (SSP)  which  launches  queries  through  a  CCS7  signaling  network  to  the  SCP.  The  SCP  identiﬁes  the
+appropriate carrier, as speciﬁed by the 800 Service subscriber, and then, if appropriate, translates the 800 number
+to a plain old telephone (POTS) number. This information is subsequently returned to the SSP so that the call
+can be routed through the network by handing the call off to the appropriate carrier. This technology allows
+subscribers to select the carrier and the POTS number as a function of criteria such as time of day, day of week,
+percent allocation, and the location of the calling station. Thus the SCP provides two customer-speciﬁed routing
+information functions: a carrier identiﬁcation function and an address translation function.

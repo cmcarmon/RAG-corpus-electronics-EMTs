@@ -1,0 +1,7 @@
+Proper phasing between the pump and the input signal is crucial in this circuit. The electrical pump 
+action is simply a sine-wave voltage applied to a varactor located in a resonant cavity. For proper 
+operation, the capacitance must be decreased when the input voltage is maximum and increased when the 
+input voltage is minimum. In other words, the pump signal frequency must be exactly double the 
+frequency of the input signal. This relationship can be seen when you compare views (B) and (C). A 
+parametric amplifier of the type shown in figure 2-44 is quite phase-sensitive. The input signal and the 
+capacitor variation are often in the wrong phase for long periods of time. 

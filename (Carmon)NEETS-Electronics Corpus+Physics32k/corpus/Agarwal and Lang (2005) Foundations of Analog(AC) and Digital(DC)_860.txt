@@ -1,0 +1,15 @@
+Although the precise mechanics of how a MOSFET works is beyond the
+scope of this discussion, the following provides some intuition on its operation.
+First, recall that n
+-type silicon conducts through the motion of its free elec-
+trons. Let us consider the case where the gate and the source of the MOSFET
+are connected to ground, as illustrated in Figure 6.35. In this situation, vGS = 0.
++
+Because the n
+doped source and drain are separated by a p-type layer, they
+will not conduct any current when a voltage is applied across them (vDS > 0).
+However, when a positive voltage is applied at the gate of the device
+(vGS > 0), negative charges are attracted to the surface from the nearby negative-
+charge-rich source region (as shown in Figure 6.36) and positive charges are
+repelled from the surface. Of course, no current flows between the gate and
+the substrate because of the insulating gate oxide layer. As the gate voltage

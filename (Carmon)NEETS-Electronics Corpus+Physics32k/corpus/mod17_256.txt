@@ -1,0 +1,4 @@
+With no input signal, R9 is adjusted until Q1 draws enough collector current to reduce its collector
+voltage and the anode voltage of CR1 to a value below the voltage on the cathode of CR1. At this point
+the anode voltage of the squelch diode is negative with respect to its cathode, and conduction ceases.
+Audio output is now reduced to zero and the receiver is silent.

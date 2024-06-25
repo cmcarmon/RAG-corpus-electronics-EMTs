@@ -1,0 +1,12 @@
+Next, let us consider the time instant when the input voltage switches from
+0 volts to 5 volts, turning the first MOSFET on. Let us assume that this 0-V to
+5-V transition happens after a sufficiently long period of time so that CGS2 is
+initially charged up to its steady state value of 5 V. When the first gate is turned
+on, CGS2 begins to discharge. The RC circuit and its Thévenin equivalent for the
+discharge is shown in Figure 10.22. For the logical 0 to logical 1 transition at the
+input to be reflected at the output of inverter A, the voltage across CGS2 needs
+to go below the valid logical output low threshold, VOL. As before, although
+MOSFET B will turn off when vOUT1 drops below 1 volt, we require the output
+to go below VOL to provide for an adequate noise margin. The interval of time
+corresponding to the output capacitor discharge for an inverter is also called
+the propagation delay for the inverter for a low to high transition at the input and

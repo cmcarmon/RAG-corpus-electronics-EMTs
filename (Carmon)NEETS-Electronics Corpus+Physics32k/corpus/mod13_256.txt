@@ -1,0 +1,5 @@
+Now, let’s observe the logic level inputs and corresponding outputs as shown in figure 2-13. At time
+T0, X and Y are both LOW. The output is HIGH; the opposite of an AND gate with the same inputs. At
+T1, X goes HIGH and Y remains LOW. As a result, the output remains HIGH. At T2, X goes LOW and Y
+goes HIGH. Again, the output remains HIGH. When both X and Y are HIGH at T4, the output goes LOW.
+The output will remain LOW only as long as both X and Y are HIGH.

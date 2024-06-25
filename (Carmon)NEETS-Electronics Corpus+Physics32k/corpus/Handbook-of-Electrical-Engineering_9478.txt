@@ -1,0 +1,25 @@
+relations. FAC_INFO gives personal information (last name, social security, street and city of residence, and
+department) of a faculty. DEP_CHAIR gives the last name of the chairman of each department. A faculty is
+. A column name is
+not allowed to belong to two departments. Each row in a relation is referred to as a 
+ is a
+relation scheme
+called an 
+is
+set  of  attribute  names.  For  instance,  the  relation  scheme  (or  scheme  for  short)  of  the  relation  FAC_INFO
+ is a set of attribute names whose composite value is distinct for
+(lname, social_sec#, street, city, dept). A 
+all  tuples.  In  addition,  no  proper  subset  of  the  key  is  allowed  to  have  this  property.  It  is  not  unusual  for  a
+scheme to have several possible keys. In FAC_INFO, both lname and social_sec# are possible keys. In this case,
+ and the one selected to act as the relation’s key, say, lname, is
+each possible key is known as a 
+ is a key with the exception that there is no requirement for minimality.
+ 
+. A 
+the
+referred to as
+if it is the primary
+In a relation, an attribute name (or a set of attribute names) is referred to as a 
+key of another relation. In FAC_INFO, the attribute name dept is a foreign key, since the same attribute is a
+key in DEP_CHAIR. Because of updates to the database, the content of a relation is dynamic. For this reason,
+the data in a relation at a given time instant is called an 

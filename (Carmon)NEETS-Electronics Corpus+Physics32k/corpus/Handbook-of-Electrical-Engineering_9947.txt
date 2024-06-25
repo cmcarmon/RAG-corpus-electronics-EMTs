@@ -1,0 +1,5 @@
+State Estimation
+In  general,  modern  design  procedures  require  that  the  state  vector  x(t)  be  fed  back,  as  in  (100.71).  The
+measurement of all state variables is difﬁcult to implement for high-order systems. The usual procedure is to
+estimate the states of the system from the measurement of the output y(t), with the estimated states then fed
+back.

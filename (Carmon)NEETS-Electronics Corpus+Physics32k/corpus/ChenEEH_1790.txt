@@ -1,0 +1,14 @@
+Bandwidth, as the most prominent QoS parameter, speciﬁes
+how much data (maximum or average) are to be transferred in
+the networked system (Wolf, 1997). In general, it is not sufﬁ-
+cient to specify the rate only in terms of bits, as the QoS
+scheme shall be applicable to various networks as well as to
+general-purpose end systems. For example, in the context of
+protocol processing, issues such as buffer management, timer
+management, and the retrieval of control information play an
+important role. The costs of these operations are all related to
+the number of packets processed (and are mostly independent
+of the packet size), emphasizing the importance of a packet-
+oriented speciﬁcation of bandwidth. Information about the
+packetization can be given by specifying the maximum and
+the average packet size and the packet rate.

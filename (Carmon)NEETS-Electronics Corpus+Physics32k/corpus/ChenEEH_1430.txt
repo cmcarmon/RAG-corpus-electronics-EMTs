@@ -1,0 +1,11 @@
+Providing appropriate constructs in hardware description lan-
+guages is necessary to support run-time reconﬁguration. Such
+constructs are included in the Pebble language (Luk et al.,
+1997), which can be viewed as a variant of the industrial
+standard VHDL language. It is also possible to model the
+reconﬁguration mechanism in VHDL (Lysaght and Dunlop,
+1994) or in the Circal process algebra (Diessel and Milne,
+2000). Currently, most design frameworks require the user to
+specify the reconﬁguration sequence; at compile time, the
+sequencing information can be extracted and used to guide
+compilation (Shirazi et al., 2000).

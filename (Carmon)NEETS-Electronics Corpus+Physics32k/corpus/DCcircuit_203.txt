@@ -1,0 +1,6 @@
+Knowing that electrically common points have zero voltage drop between them is a valuable
+troubleshooting principle. If I measure for voltage between points in a circuit that are supposed
+to be common to each other, I should read zero. If, however, I read substantial voltage between
+those two points, then I know with certainty that they cannot be directly connected together.
+If those points are supposed to be electrically common but they register otherwise, then I know
+that there is an ”open failure” between those points.

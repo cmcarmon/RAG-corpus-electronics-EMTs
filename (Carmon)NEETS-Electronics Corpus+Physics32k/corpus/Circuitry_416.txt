@@ -1,0 +1,32 @@
+(b)  the  open-loop  voltage  gain  (i.e.,  the  ratio  of 
+VOUT to VIN with no feedback applied) is infinite.      
+  As a consequence of (a) and (b):  
+(i) the voltage appearing between the inverting and 
+non-inverting inputs (VIC) will be zero, and  
+(ii)  the  current  flowing  into  the  chip  (IIC) will  be 
+zero (recall that IIC = VIC /RIC and RIC is infinite). 
+  Applying  Kirchhoff’s  Current  Law  at  node  A 
+gives:  
+ 
+IIN = IIC + IF but IIC = 0 thus IIN = IF
+(1) 
+ 
+(this shows that the current in the feedback resistor, 
+R2, is the same as the input current, IIN ). 
+  Applying  Kirchhoff’s  Voltage  Law  to  loop  A 
+gives:  
+ 
+VIN = (IIN × R1) + VIC 
+but VIC = 0 thus VIN = IIN × R1
+(2) 
+ 
+Using Kirchhoff’s Voltage Law in loop B gives:  
+ 
+VOUT = *VIC + (IF × R2)  
+ 
+but VIC = 0 thus VOUT = IF × R2
+ 
+Combining (1) and (3) gives:  
+ 
+VOUT = IIN × R2
+The voltage gain of the stage is given by: 

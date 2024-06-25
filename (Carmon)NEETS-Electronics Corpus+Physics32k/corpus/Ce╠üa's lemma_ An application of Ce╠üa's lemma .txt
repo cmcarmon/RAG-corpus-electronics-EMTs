@@ -1,0 +1,1126 @@
+We will apply Céa's lemma to estimate the error of calculating the solution to an elliptic differential equation by the finite element method.
+
+Consider the problem of finding a function
+
+
+
+u
+:
+[
+a
+,
+b
+]
+→
+
+R
+
+
+
+{\displaystyle u:[a,b]\to \mathbb {R} }
+satisfying the conditions
+
+
+
+
+
+
+{
+
+
+
+−
+
+u
+″
+
+=
+f
+
+
+in
+
+
+[
+a
+,
+b
+]
+
+
+
+
+u
+(
+a
+)
+=
+u
+(
+b
+)
+=
+0
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{cases}-u''=f{\mbox{ in }}[a,b]\\u(a)=u(b)=0\end{cases}}}
+
+where
+
+
+
+f
+:
+[
+a
+,
+b
+]
+→
+
+R
+
+
+
+{\displaystyle f:[a,b]\to \mathbb {R} }
+is a given continuous function.
+Physically, the solution
+
+
+
+u
+
+
+{\displaystyle u}
+to this two-point boundary value problem represents the shape taken by a string under the influence of a force such that at every point
+
+
+
+x
+
+
+{\displaystyle x}
+between
+
+
+
+a
+
+
+{\displaystyle a}
+and
+
+
+
+b
+
+
+{\displaystyle b}
+the force density is
+
+
+
+f
+(
+x
+)
+
+e
+
+
+
+{\displaystyle f(x)\mathbf {e} }
+(where
+
+
+
+
+e
+
+
+
+{\displaystyle \mathbf {e} }
+is a unit vector pointing vertically, while the endpoints of the string are on a horizontal line, see the picture on the right). For example, that force may be the gravity, when
+
+
+
+f
+
+
+{\displaystyle f}
+is a constant function (since the gravitational force is the same at all points).
+Let the Hilbert space
+
+
+
+V
+
+
+{\displaystyle V}
+be the Sobolev space
+
+
+
+
+H
+
+0
+
+
+1
+
+
+(
+a
+,
+b
+)
+,
+
+
+{\displaystyle H_{0}^{1}(a,b),}
+which is the space of all square-integrable functions
+
+
+
+v
+
+
+{\displaystyle v}
+defined on
+
+
+
+[
+a
+,
+b
+]
+
+
+{\displaystyle [a,b]}
+that have a weak derivative on
+
+
+
+[
+a
+,
+b
+]
+
+
+{\displaystyle [a,b]}
+with
+
+
+
+
+v
+′
+
+
+
+{\displaystyle v'}
+also being square integrable, and
+
+
+
+v
+
+
+{\displaystyle v}
+satisfies the conditions
+
+
+
+v
+(
+a
+)
+=
+v
+(
+b
+)
+=
+0.
+
+
+{\displaystyle v(a)=v(b)=0.}
+The inner product on this space is
+
+
+
+
+(
+v
+,
+w
+)
+=
+
+∫
+
+a
+
+
+b
+
+
+
+
+v
+′
+
+(
+x
+)
+
+w
+′
+
+(
+x
+)
+
+d
+x
+
+
+{\displaystyle (v,w)=\int _{a}^{b}\!v'(x)w'(x)\,dx}
+for all
+
+
+
+v
+
+
+{\displaystyle v}
+and
+
+
+
+w
+
+
+{\displaystyle w}
+in
+
+
+
+V
+.
+
+
+{\displaystyle V.}
+
+After multiplying the original boundary value problem by
+
+
+
+v
+
+
+{\displaystyle v}
+in this space and performing an integration by parts, one obtains the equivalent problem
+
+
+
+
+a
+(
+u
+,
+v
+)
+=
+L
+(
+v
+)
+
+
+{\displaystyle a(u,v)=L(v)}
+for all
+
+
+
+v
+
+
+{\displaystyle v}
+in
+
+
+
+V
+,
+
+
+{\displaystyle V,}
+
+with
+
+
+
+
+a
+(
+u
+,
+v
+)
+=
+
+∫
+
+a
+
+
+b
+
+
+
+
+u
+′
+
+(
+x
+)
+
+v
+′
+
+(
+x
+)
+
+d
+x
+
+
+{\displaystyle a(u,v)=\int _{a}^{b}\!u'(x)v'(x)\,dx}
+
+(here the bilinear form is given by the same expression as the inner product, this is not always the case), and
+
+
+
+
+L
+(
+v
+)
+=
+
+∫
+
+a
+
+
+b
+
+
+
+f
+(
+x
+)
+v
+(
+x
+)
+
+d
+x
+.
+
+
+{\displaystyle L(v)=\int _{a}^{b}\!f(x)v(x)\,dx.}
+
+It can be shown that the bilinear form
+
+
+
+a
+(
+⋅
+,
+⋅
+)
+
+
+{\displaystyle a(\cdot ,\cdot )}
+and the operator
+
+
+
+L
+
+
+{\displaystyle L}
+satisfy the assumptions of Céa's lemma.
+
+In order to determine a finite-dimensional subspace
+
+
+
+
+V
+
+h
+
+
+
+
+{\displaystyle V_{h}}
+of
+
+
+
+V
+,
+
+
+{\displaystyle V,}
+consider a partition
+
+
+
+
+a
+=
+
+x
+
+0
+
+
+<
+
+x
+
+1
+
+
+<
+⋯
+<
+
+x
+
+n
+−
+1
+
+
+<
+
+x
+
+n
+
+
+=
+b
+
+
+{\displaystyle a=x_{0}<x_{1}<\cdots <x_{n-1}<x_{n}=b}
+
+of the interval
+
+
+
+[
+a
+,
+b
+]
+,
+
+
+{\displaystyle [a,b],}
+and let
+
+
+
+
+V
+
+h
+
+
+
+
+{\displaystyle V_{h}}
+be the space of all continuous functions that are affine on each subinterval in the partition (such functions are called piecewise-linear). In addition, assume that any function in
+
+
+
+
+V
+
+h
+
+
+
+
+{\displaystyle V_{h}}
+takes the value 0 at the endpoints of
+
+
+
+[
+a
+,
+b
+]
+.
+
+
+{\displaystyle [a,b].}
+It follows that
+
+
+
+
+V
+
+h
+
+
+
+
+{\displaystyle V_{h}}
+is a vector subspace of
+
+
+
+V
+
+
+{\displaystyle V}
+whose dimension is
+
+
+
+n
+−
+1
+
+
+{\displaystyle n-1}
+(the number of points in the partition that are not endpoints).
+Let
+
+
+
+
+u
+
+h
+
+
+
+
+{\displaystyle u_{h}}
+be the solution to the subspace problem
+
+
+
+
+a
+(
+
+u
+
+h
+
+
+,
+v
+)
+=
+L
+(
+v
+)
+
+
+{\displaystyle a(u_{h},v)=L(v)}
+for all
+
+
+
+v
+
+
+{\displaystyle v}
+in
+
+
+
+
+V
+
+h
+
+
+,
+
+
+{\displaystyle V_{h},}
+
+so one can think of
+
+
+
+
+u
+
+h
+
+
+
+
+{\displaystyle u_{h}}
+as of a piecewise-linear approximation to the exact solution
+
+
+
+u
+.
+
+
+{\displaystyle u.}
+By Céa's lemma, there exists a constant
+
+
+
+C
+>
+0
+
+
+{\displaystyle C>0}
+dependent only on the bilinear form
+
+
+
+a
+(
+⋅
+,
+⋅
+)
+,
+
+
+{\displaystyle a(\cdot ,\cdot ),}
+such that
+
+
+
+
+‖
+u
+−
+
+u
+
+h
+
+
+‖
+≤
+C
+‖
+u
+−
+v
+‖
+
+
+{\displaystyle \|u-u_{h}\|\leq C\|u-v\|}
+for all
+
+
+
+v
+
+
+{\displaystyle v}
+in
+
+
+
+
+V
+
+h
+
+
+.
+
+
+{\displaystyle V_{h}.}
+
+To explicitly calculate the error between
+
+
+
+u
+
+
+{\displaystyle u}
+and
+
+
+
+
+u
+
+h
+
+
+,
+
+
+{\displaystyle u_{h},}
+consider the function
+
+
+
+π
+u
+
+
+{\displaystyle \pi u}
+in
+
+
+
+
+V
+
+h
+
+
+
+
+{\displaystyle V_{h}}
+that has the same values as
+
+
+
+u
+
+
+{\displaystyle u}
+at the nodes of the partition (so
+
+
+
+π
+u
+
+
+{\displaystyle \pi u}
+is obtained by linear interpolation on each interval
+
+
+
+[
+
+x
+
+i
+
+
+,
+
+x
+
+i
++
+1
+
+
+]
+
+
+{\displaystyle [x_{i},x_{i+1}]}
+from the values of
+
+
+
+u
+
+
+{\displaystyle u}
+at interval's endpoints). It can be shown using Taylor's theorem that there exists a constant
+
+
+
+K
+
+
+{\displaystyle K}
+that depends only on the endpoints
+
+
+
+a
+
+
+{\displaystyle a}
+and
+
+
+
+b
+,
+
+
+{\displaystyle b,}
+such that
+
+
+
+
+
+|
+
+
+u
+′
+
+(
+x
+)
+−
+(
+π
+u
+
+)
+′
+
+(
+x
+)
+
+|
+
+≤
+K
+h
+‖
+
+u
+″
+
+
+‖
+
+
+L
+
+2
+
+
+(
+a
+,
+b
+)
+
+
+
+
+{\displaystyle |u'(x)-(\pi u)'(x)|\leq Kh\|u''\|_{L^{2}(a,b)}}
+
+for all
+
+
+
+x
+
+
+{\displaystyle x}
+in
+
+
+
+[
+a
+,
+b
+]
+,
+
+
+{\displaystyle [a,b],}
+where
+
+
+
+h
+
+
+{\displaystyle h}
+is the largest length of the subintervals
+
+
+
+[
+
+x
+
+i
+
+
+,
+
+x
+
+i
++
+1
+
+
+]
+
+
+{\displaystyle [x_{i},x_{i+1}]}
+in the partition, and the norm on the right-hand side is the L2 norm.
+This inequality then yields an estimate for the error
+
+
+
+
+‖
+u
+−
+π
+u
+‖
+.
+
+
+{\displaystyle \|u-\pi u\|.}
+
+Then, by substituting
+
+
+
+v
+=
+π
+u
+
+
+{\displaystyle v=\pi u}
+in Céa's lemma it follows that
+
+
+
+
+‖
+u
+−
+
+u
+
+h
+
+
+‖
+≤
+C
+h
+‖
+
+u
+″
+
+
+‖
+
+
+L
+
+2
+
+
+(
+a
+,
+b
+)
+
+
+,
+
+
+{\displaystyle \|u-u_{h}\|\leq Ch\|u''\|_{L^{2}(a,b)},}
+
+where
+
+
+
+C
+
+
+{\displaystyle C}
+is a different constant from the above (it depends only on the bilinear form, which implicitly depends on the interval
+
+
+
+[
+a
+,
+b
+]
+
+
+{\displaystyle [a,b]}
+).
+This result is of a fundamental importance, as it states that the finite element method can be used to approximately calculate the solution of our problem, and that the error in the computed solution decreases proportionately to the partition size
+
+
+
+h
+.
+
+
+{\displaystyle h.}
+Céa's lemma can be applied along the same lines to derive error estimates for finite element problems in higher dimensions (here the domain of
+
+
+
+u
+
+
+{\displaystyle u}
+was in one dimension), and while using higher order polynomials for the subspace
+
+
+
+
+V
+
+h
+
+
+.
+
+
+{\displaystyle V_{h}.}

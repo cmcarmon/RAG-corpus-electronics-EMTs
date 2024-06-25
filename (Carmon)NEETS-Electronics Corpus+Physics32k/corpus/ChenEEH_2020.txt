@@ -1,0 +1,13 @@
+Ignoring the round-off problem, the LHS and RHS of the
+above equation should be equal
+if there are no errors in
+the following: (1) computing the f (v) for all v 2 S (which is
+the original computation), (2) summing up the f (v) to get the
+RHS, (3) summing up the v, (4) and applying f to the sum to
+get the LHS. If the sums are not equal, then an error is
+detected. Unfortunately due to round-off, the test of equation
+8.4 often fails to hold in the absence of computation errors.
+Therefore, an integer version of this test that is not susceptible
+to round-off problems was sought. Of course, this integer
+checksum test should involve integers derived from the
+ﬂoating point quantities.

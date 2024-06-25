@@ -1,0 +1,7 @@
+We represent a bit by associating one of two speciﬁc analog signals with the bit’s value. Thus, if b (n) = 0,
+we transmit the signal s0 (t); if b (n) = 1, send s1 (t). These two signals comprise the signal set for digital
+communication and are designed with the channel and bit stream in mind. In virtually every case, these
+signals have a ﬁnite duration T common to both signals; this duration is known as the bit interval.
+Exactly what signals we use ultimately aﬀects how well the bits can be received. Interestingly, baseband
+and modulated signal sets can yield the same performance. Other considerations determine how signal set
+choice aﬀects digital communication performance.

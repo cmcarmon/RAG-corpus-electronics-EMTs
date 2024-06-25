@@ -1,0 +1,6 @@
+Various linearization techniques have been explored. The two most popular approaches are feedforward and
+predistortion. Feedforward requires that a portion of the modulated output signal be detected and compared
+to the original applied voltage signal to provide an error signal. This error signal is then used to modulate a
+second laser, which is combined with the ﬁrst laser such that the total instantaneous intensity of the two lasers
+is a replica of the applied voltage. In principle, this technique is capable of linearizing any order of distortion
+and correcting RIN from the laser.

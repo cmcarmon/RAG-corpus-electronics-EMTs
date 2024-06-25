@@ -1,0 +1,10 @@
+When the ﬁrst- and second-order statistics do not change over time, we call the noise a weakly (or wide-
+t = m is constant for all  t, and (2) RNN(t, t + t) =
+sense) stationary process. This means that: (1) E[N(t)] = m
+E[N(t)N(t + t)] = E[N(0)N(t)] = RNN(t) for all t [see Brown, 1983, p. 82; Gardner, 1990, p. 108; or Peebles,
+1987, p. 153 for properties of RNN(t)]. In this case the autocorrelation function depends only on the offset t.
+We assume hereafter that m = 0 (we can subtract m, which does not change the autocorrelation). When t = 0,
+RNN(0) = E[N(t)N(t + 0)] = E[(N(t))2] = s
+2 , which is the ﬁxed variance of each random variable Nt for all t.
+Weakly stationary (ws) processes are the most commonly encountered cases and are the ones considered here.
+Evolutionary processes have statistics that change over time and are difﬁcult to analyze.

@@ -1,0 +1,13 @@
+Figure 5.12 shows three examples of clipping circuits using ideal biased diodes and the waveforms that result
+when each is driven by a sine-wave input. In each case, note that the output equals the dc source voltage when
+the input reaches the value necessary to forward bias the diode. Note also that the type of clipping we showed
+ bias the diode, and the type shown in Fig. 5.10
+in Fig. 5.9 occurs when the ﬁxed bias voltage tends to 
+ bias the diode. When the diode is reverse biased by the input
+occurs when the ﬁxed voltage tends to 
+signal, it is like an open circuit that disconnects the dc source, and the output follows the input. These circuits
+ clippers because the biased diode is in parallel with the output. Although the circuits behave
+are called 
+the same way whether or not one side of the dc voltage source is connected to the common (low) side of the
+input and output, the connections shown in Fig. 5.12(a) and (c) are preferred to that in (b), because the latter
+uses a ﬂoating source.

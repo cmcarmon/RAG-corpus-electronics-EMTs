@@ -1,0 +1,12 @@
+Discrete cosine transform (DCT) is at the heart of the JPEG
+still-image compression standard and many of the video com-
+pression standards, like MPEG-1, MPEG-2, and H.261. Shen
+and Sethi (1996) have used DCT coefﬁcients of encoded blocks
+to mark areas of interest in the image. This distinction can be
+used to give more preference to these areas when processing
+the image for content representation. Locations of areas of
+interest are those parts of the image that show sufﬁciently
+large intensity changes. This is achieved by computing the
+variance of pixels in a rectangular window around the current
+pixel. In the DCT domain, this translates to computing the ac
+energy according to the relationship:

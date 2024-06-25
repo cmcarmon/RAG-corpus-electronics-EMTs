@@ -1,0 +1,8 @@
+By packing different data elements together, a larger band-
+width can be obtained (Vandecappelle et al., 1999). Conse-
+quently, the data bus widens and more data are transferred.
+These elements can belong to the same signal (packing), or
+they can belong to different signals (merging). In addition to
+the wider bus, such a coupling of two elements can cause many
+redundant transfers when only one of the elements is needed.
+Needless to say, this option should be considered very carefully.

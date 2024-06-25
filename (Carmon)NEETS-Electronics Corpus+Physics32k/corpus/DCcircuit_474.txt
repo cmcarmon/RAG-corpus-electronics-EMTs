@@ -1,0 +1,7 @@
+Once again we ﬁnd that the original numbering scheme used to identify points in the circuit
+will have to be altered for the beneﬁt of SPICE. In SPICE, all electrically common points must
+share identical node numbers. This is how SPICE knows what’s connected to what, and how.
+In a simple parallel circuit, all points are electrically common in one of two sets of points. For
+our example circuit, the wire connecting the tops of all the components will have one node
+number and the wire connecting the bottoms of the components will have the other. Staying
+true to the convention of including zero as a node number, I choose the numbers 0 and 1:

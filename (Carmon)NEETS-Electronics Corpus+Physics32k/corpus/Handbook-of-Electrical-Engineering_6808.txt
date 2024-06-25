@@ -1,0 +1,7 @@
+To  make  use  of  the  new  service,  it  is  then  necessary  to  set “triggers”  in  the  appropriate  service  switching
+point. These triggers can be set for both originating and terminating calls, and they represent events which,
+should they occur, indicate the need for the switch to launch a query to the SCP for information the switch
+needs to process the call. The AIN switch generics, which are presently deployed, support several triggers such
+as “immediate off hook” or “called address.” Future AIN switch generics are expected to support several dozen
+triggers. The ﬁrst phase of the AIN, called AIN 0, became reality in late 1991 when friendly user trials began
+in two of the Regional Bell Operating Companies.

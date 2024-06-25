@@ -1,0 +1,6 @@
+Variant Records
+Variant records model disjoint (also called tagged) unions. In contrast to an ordinary union C = A ¨ B, a disjoint
+union D = A + B is formed by tagging the elements of A and B before forming D such that elements of D can
+be recognized as elements of A or of B. In programming, this amounts to creating variables that can be used
+to house values of both type A and type B. A tag ﬁeld, (usually) part of the variable, is used to keep track of
+the type of the value currently stored in the variable. In Pascal, D = A + B is expressed by:

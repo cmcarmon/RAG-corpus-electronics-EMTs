@@ -1,0 +1,8 @@
+Naturally, all registers from the circuit C are preserved when
+constructing the circuit graph GC as described in deﬁnition
+4.3—these registers are enumerated 1 through r, and a vertex vi
+is created in the graph for each register Ri. Alternatively, an
+edge between two vertices is added in the graph if there is one
+or more local data paths between these two vertices. The self-
+loops are discarded because the clock skew of these local data
+paths is always zero and cannot be manipulated in any way.

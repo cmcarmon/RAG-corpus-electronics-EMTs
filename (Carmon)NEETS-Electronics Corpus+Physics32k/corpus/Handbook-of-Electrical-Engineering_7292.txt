@@ -1,0 +1,6 @@
+Enhanced Voice Services
+IS-136 employed an 8 Kbps speech coder, VSELP, as its initial codec for voice services. It takes as input 64 Kbps
+voice  in  pulse-coded  modulation  (PCM)  format,  and  outputs  8 Kbps.  Processing  is  performed  on  20-ms
+intervals, or frames. The 13 Kbps EFR codec provides an evolution to PCS services, and has been introduced
+for TDMA systems, including IS-136 and GSM. This codec provides improvements in voice quality, and provides
+additional error correction under noisy conditions.

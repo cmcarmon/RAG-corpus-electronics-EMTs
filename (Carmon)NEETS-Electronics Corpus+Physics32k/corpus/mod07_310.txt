@@ -1,0 +1,7 @@
+In operation the collector of Q2 drives the base of Q1, while the collector of Q1 feeds back to the 
+base of Q2. (Beta) 1 is the current gain of Q1, and (Beta) 2 is the current gain of Q2. The gain of this 
+positive feedback loop is their product, 1 times 2. When the product is less than one, the circuit is stable; 
+if the product is greater than unity, the circuit is regenerative. A small negative current applied to terminal 
+G will bias the NPN transistor into cutoff, and the loop gain is less than unity. Under these conditions, the 
+only current that can exist between output terminals A and C is the very small cutoff collector current of 
+the two transistors. For this reason the impedance between A and C is very high. 

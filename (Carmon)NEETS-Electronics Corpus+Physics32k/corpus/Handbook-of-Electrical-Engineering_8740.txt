@@ -1,0 +1,6 @@
+One way to reduce coupling in a procedural language is to eliminate side-effects caused by unruly access to
+data. Indeed, if procedures were prohibited from directly passing and accessing data altogether, many of the
+problems of procedural languages would go away. An alternative to the procedural paradigm is the functional
+paradigm. In this model of the world, everything is a function that returns a value. Data is totally abstracted
+away  so  that  algorithms  are  totally  encapsulated  as  a  hierarchical  collection  of  functions.  LISP  is  the  most
+popular example of a functional HLL [Winston and Horn, 1989].

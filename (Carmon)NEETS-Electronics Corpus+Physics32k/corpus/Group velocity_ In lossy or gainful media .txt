@@ -1,0 +1,110 @@
+The group velocity is often thought of as the velocity at which energy or information is conveyed along a wave. In most cases this is accurate, and the group velocity can be thought of as the signal velocity of the waveform. However, if the wave is travelling through an absorptive or gainful medium, this does not always hold. In these cases the group velocity may not be a well-defined quantity, or may not be a meaningful quantity.
+In his text “Wave Propagation in Periodic Structures”, Brillouin argued that in a dissipative medium the group velocity ceases to have a clear physical meaning. An example concerning the transmission of electromagnetic waves through an atomic gas is given by Loudon. Another example is mechanical waves in the solar photosphere: The waves are damped (by radiative heat flow from the peaks to the troughs), and related to that, the energy velocity is often substantially lower than the waves' group velocity.
+Despite this ambiguity, a common way to extend the concept of group velocity to complex media is to consider spatially damped plane wave solutions inside the medium, which are characterized by a complex-valued wavevector. Then, the imaginary part of the wavevector is arbitrarily discarded and the usual formula for group velocity is applied to the real part of wavevector, i.e.,
+
+
+
+
+
+v
+
+g
+
+
+=
+
+
+(
+
+
+
+∂
+(
+Re
+⁡
+k
+)
+
+
+∂
+ω
+
+
+
+)
+
+
+−
+1
+
+
+.
+
+
+{\displaystyle v_{g}=\left({\frac {\partial (\operatorname {Re} k)}{\partial \omega }}\right)^{-1}.}
+
+Or, equivalently, in terms of the real part of complex refractive index, n = n+iκ, one has
+
+
+
+
+
+
+c
+
+v
+
+g
+
+
+
+
+=
+n
++
+ω
+
+
+
+∂
+n
+
+
+∂
+ω
+
+
+
+.
+
+
+{\displaystyle {\frac {c}{v_{g}}}=n+\omega {\frac {\partial n}{\partial \omega }}.}
+
+It can be shown that this generalization of group velocity continues to be related to the apparent speed of the peak of a wavepacket. The above definition is not universal, however: alternatively one may consider the time damping of standing waves (real k, complex ω), or, allow group velocity to be a complex-valued quantity. Different considerations yield distinct velocities, yet all definitions agree for the case of a lossless, gainless medium.
+The above generalization of group velocity for complex media can behave strangely, and the example of anomalous dispersion serves as a good illustration. At the edges of a region of anomalous dispersion,
+
+
+
+
+v
+
+g
+
+
+
+
+{\displaystyle v_{g}}
+becomes infinite (surpassing even the speed of light in vacuum), and
+
+
+
+
+v
+
+g
+
+
+
+
+{\displaystyle v_{g}}
+may easily become negative (its sign opposes Rek) inside the band of anomalous dispersion.

@@ -1,0 +1,10 @@
+Second,
+in contrast to all previous examples, the output waveform in this circuit is
+a gross distortion of the input waveform. Note in particular that the input voltage
+waveform has no average value, (no DC value), whereas the output has a significant DC
+component, roughly 0.3 Eo. The DC motors in most toys, for example, will run nicely
+if connected across the resistor in the circuit of Figure 4.21a, whereas they will not run
+if driven directly by the sinusoid vI(t). This circuit is called a half-wave rectifier, because it
+reproduces only half of the input wave. Rectifiers are present in power supplies of most
+electronic equipment to generate DC from the 60-Hz ‘‘sinusoidal’’ wave from 110-V
+AC power line.

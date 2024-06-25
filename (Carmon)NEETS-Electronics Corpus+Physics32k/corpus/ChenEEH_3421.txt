@@ -1,0 +1,27 @@
+as the current exceeds the threshold, it may be assumed that a
+fault has occurred and a trip signal may be issued. The relay
+based on this principle is called an instantaneous overcurrent
+relay, and it is in wide use for protection of radial low-voltage
+distribution lines, ground protection of high-voltage transmis-
+sion lines, and protection of machines (motors and gener-
+ators). The main issue in applying this relaying principle is
+to understand the behavior of the fault current well, in par-
+ticular when compared to the variation in the load current
+caused by signiﬁcant changes in the connected load. A typical
+example where it may become difﬁcult to distinguish the fault
+levels from the normal operating levels is the overcurrent
+protection of distribution lines with heavy ﬂuctuations of the
+load. To accommodate the mentioned difﬁculty, a variety of
+overcurrent protection applications are developed using the
+basic principle as described previously combined with a time
+delay. One approach is to provide a ﬁxed time delay, and in
+some instances, the time delay is proportional to the current
+level. One possible relationship is an inverse one where the
+time delay is small for high currents and long for smaller ones.
+The example shown earlier in Figure 9.7 describes an inverse
+time characteristic, which may also be a very or extremely
+inverse type. Further variations of the overcurrent relay are
+associated with the use of the directional element, which is
+discussed later. The issues of coordinating overcurrent relays
+and protecting various segments of a distribution line are also
+discussed later.

@@ -1,0 +1,4 @@
+When the load current increases above 600 milliamperes, the voltage drop across R4 increases to 
+more than 0.6 volt. This causes Q2 to conduct through resistor R2, thereby decreasing the voltage on the 
+base of pass transistor Q1. This action causes Q1 to conduct less. Therefore, the current cannot increase 
+above 600 to 700 milliamperes. 

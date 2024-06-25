@@ -1,0 +1,306 @@
+A compound pendulum is a body formed from an assembly of particles of continuous shape that rotates rigidly around a pivot. Its moment of inertia is the sum of the moments of inertia of each of the particles that it is composed of. The natural frequency (
+
+
+
+
+ω
+
+n
+
+
+
+
+{\displaystyle \omega _{n}}
+) of a compound pendulum depends on its moment of inertia,
+
+
+
+
+I
+
+P
+
+
+
+
+{\displaystyle I_{\text{P}}}
+,
+
+
+
+
+
+ω
+
+n
+
+
+=
+
+
+
+
+m
+g
+r
+
+
+I
+
+P
+
+
+
+
+
+,
+
+
+{\displaystyle \omega _{n}={\sqrt {\frac {mgr}{I_{\text{P}}}}},}
+
+where
+
+
+
+m
+
+
+{\displaystyle m}
+is the mass of the object,
+
+
+
+g
+
+
+{\displaystyle g}
+is local acceleration of gravity, and
+
+
+
+r
+
+
+{\displaystyle r}
+is the distance from the pivot point to the centre of mass of the object. Measuring this frequency of oscillation over small angular displacements provides an effective way of measuring moment of inertia of a body.
+Thus, to determine the moment of inertia of the body, simply suspend it from a convenient pivot point
+
+
+
+
+P
+
+
+
+{\displaystyle {\text{P}}}
+so that it swings freely in a plane perpendicular to the direction of the desired moment of inertia, then measure its natural frequency or period of oscillation (
+
+
+
+t
+
+
+{\displaystyle t}
+), to obtain
+
+
+
+
+
+I
+
+P
+
+
+=
+
+
+
+m
+g
+r
+
+
+ω
+
+n
+
+
+2
+
+
+
+
+=
+
+
+
+m
+g
+r
+
+t
+
+2
+
+
+
+
+4
+
+π
+
+2
+
+
+
+
+
+,
+
+
+{\displaystyle I_{\text{P}}={\frac {mgr}{\omega _{n}^{2}}}={\frac {mgrt^{2}}{4\pi ^{2}}},}
+
+where
+
+
+
+t
+
+
+{\displaystyle t}
+is the period (duration) of oscillation (usually averaged over multiple periods).
+The moment of inertia of the body about its centre of mass,
+
+
+
+
+I
+
+C
+
+
+
+
+{\displaystyle I_{\text{C}}}
+, is then calculated using the parallel axis theorem to be
+
+
+
+
+
+I
+
+C
+
+
+=
+
+I
+
+P
+
+
+−
+m
+
+r
+
+2
+
+
+,
+
+
+{\displaystyle I_{\text{C}}=I_{\text{P}}-mr^{2},}
+
+where
+
+
+
+m
+
+
+{\displaystyle m}
+is the mass of the body and
+
+
+
+r
+
+
+{\displaystyle r}
+is the distance from the pivot point
+
+
+
+
+P
+
+
+
+{\displaystyle {\text{P}}}
+to the centre of mass
+
+
+
+
+C
+
+
+
+{\displaystyle {\text{C}}}
+.
+Moment of inertia of a body is often defined in terms of its radius of gyration, which is the radius of a ring of equal mass around the centre of mass of a body that has the same moment of inertia. The radius of gyration
+
+
+
+k
+
+
+{\displaystyle k}
+is calculated from the body's moment of inertia
+
+
+
+
+I
+
+C
+
+
+
+
+{\displaystyle I_{\text{C}}}
+and mass
+
+
+
+m
+
+
+{\displaystyle m}
+as the length
+
+
+
+
+k
+=
+
+
+
+
+I
+
+C
+
+
+m
+
+
+
+.
+
+
+{\displaystyle k={\sqrt {\frac {I_{\text{C}}}{m}}}.}

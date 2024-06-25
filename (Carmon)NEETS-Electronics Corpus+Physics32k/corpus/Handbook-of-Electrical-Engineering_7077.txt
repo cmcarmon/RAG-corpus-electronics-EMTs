@@ -1,0 +1,8 @@
+It follows from the arguments of rate distortion theory that we will do better if we encode long blocks of
+source  symbols  rather  than  encoding  each  symbol  individually.  In  this  case,  we  will  consider  a  block  of  n
+symbols from the source as a vector-valued random variable, and we will represent these n-dimensional vectors
+by a set of 2nR code words. This process is called vector quantization (VQ). We can apply the Lloyd algorithm
+to  design  a  set  of  representation  vectors  (the  code  book)  and  the  corresponding  nearest  neighbor  regions.
+Instead of using the probability distribution for the source to calculate the centroids of the regions, we can use
+the empirical distribution from a training sequence. Many variations of the basic vector quantization algorithm
+are described in Gersho and Gray [1992].

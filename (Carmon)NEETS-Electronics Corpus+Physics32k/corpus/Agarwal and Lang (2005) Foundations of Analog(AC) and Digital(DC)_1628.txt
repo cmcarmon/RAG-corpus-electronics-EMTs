@@ -1,0 +1,12 @@
+e x a m p l e 11.3
+t o t a l p o w e r d i s s i p a t i o n i n a m o s
+i n v e r t e r The inverter shown in Figure 11.13 drives a load capacitor CL that
+models the gate-to-source and interconnect capacitances of the immediate downstream
+circuitry. We wish to approximate the average power dissipated in the inverter given
+that the input voltage vIN is a 100-MHz square wave. In doing so, we assume that the
+MOSFET on-state resistance RON satisfies RON (cid:5) RPU.
+Since RON (cid:5) RPU, the output voltage rises much more slowly than it falls. The time
+constant for the rising transient is RPUCL = 1 ns, which is much smaller than a half
+period of the input square wave. Therefore, all inverter transients fully settle, and the
+power dissipated in the inverter may be approximated as the sum of a static dissipation
+plus a dynamic dissipation.

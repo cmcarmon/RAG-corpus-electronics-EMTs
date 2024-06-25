@@ -1,0 +1,11 @@
+Most electronic circuits include both AC and DC 
+voltages. This results in an AC signal superimposed 
+on a DC signal. If the DC signal is used to operate  
+equipment, it is advantageous to remove the AC  signals. 
+An RC low-pass filter can be used for this  purpose. 
+A  decoupling  network  (Figure  24-6)  allows 
+the DC signal to pass while attenuating or eliminating 
+the AC signal. The AC signal may be in the form of os-
+cillations, noises, or transient spikes. By adjusting the 
+cutoff frequency, most of the AC signal can be filtered 
+out, leaving only the DC voltage across the capacitor.

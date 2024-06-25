@@ -1,0 +1,44 @@
+The color difference can be calculated using the Euclidean distance of the (L*, u*, v*) co-ordinates. It follows that a chromaticity distance of
+
+
+
+
+
+(
+Δ
+
+u
+′
+
+
+)
+
+2
+
+
++
+(
+Δ
+
+v
+′
+
+
+)
+
+2
+
+
+
+
+=
+1
+
+/
+
+13
+
+
+{\displaystyle {\sqrt {(\Delta u')^{2}+(\Delta v')^{2}}}=1/13}
+corresponds to the same ΔE*uv as a lightness difference of ΔL* = 1, in direct analogy to CIEUVW.
+The Euclidean metric can also be used in CIELCH, with that component of ΔE*uv attributable to difference in hue as ΔH* = √C*1C*2 2 sin (Δh/2), where Δh = h2 – h1.

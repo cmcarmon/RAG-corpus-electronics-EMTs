@@ -1,0 +1,21 @@
+. Transparent bridge: The algorithm was developed by
+IEEE 802.1 and intended to interconnect similar LAN or
+dissimilar LAN (IEEE 802.3, IEEE 802.4, and IEEE 802.5)
+and learn in which side of LAN a MAC station would
+reside by examining the source and destination addresses.
+The main idea is for the bridges to select the ports over
+which they will forward frames. The algorithm uses graph
+theory to construct a spanning tree to avoid a closed loop
+to forward the frame. The algorithm selects one root
+bridge for the network, one designated port for each
+bridge, and one designated bridge for each LAN. All
+frames will be forwarded toward the root bridge via the
+designated bridge and the designated port. The root
+bridge then forwards the frames via all of its ports. The
+root bridge has the smallest ID, and each bridge computes
+the shortest path to the root and notes which port is on
+the path. The designated port is the preferred path to the
+root. Each LAN selects a designated bridge that will be
+responsible for forwarding frames toward the root bridge.
+The winner is the bridge closer to the root and has the
+smaller ID.

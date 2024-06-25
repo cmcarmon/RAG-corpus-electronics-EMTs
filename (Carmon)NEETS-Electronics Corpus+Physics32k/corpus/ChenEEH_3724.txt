@@ -1,0 +1,26 @@
+A fourth important class of pattern-matching problems
+occurring in speech processing is that of assessing similarity
+between two sequences. The line between this class and the
+one immediately preceeding is not distinct because one may
+consider a particular sequence as a ‘‘model’’ for a given class or
+entity (e.g., a word), or several sequences may be combined in
+some manner to produce a ‘‘model sequence’’ for a particular
+entity. Older techniques in speech recognition and related
+problems in particular, ‘‘dynamic time warping’’ (discussed
+later) rely on such direct measures of intersequence distance.
+Coding and decoding problems in speech processing routinely
+deploy such techniques as well. The upcoming discussions will
+provide ample illustration.
+Finally, we return to the clustering problem. Clustering
+refers to the act of categorizing J objects into K  J classes
+or categories according to strategies that maximize intra-
+class similarity and minimize interclass similarity. Clustering
+methods are numerous and varied depending on the applica-
+tion, types of measurements available, similarity measures
+used, as well as other factors (Devijver and Kittler, 1982).
+Although cluster formation often employs feature-to-feature
+matching (i.e.,
+‘‘objects’’ represented by features or feature
+vectors), the ‘‘objects’’ can be sequences or models as well.
+Thus, any of the pattern-matching problems already discussed
+may ﬁgure into the clustering procedure.

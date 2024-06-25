@@ -1,0 +1,6 @@
+Because the SRC model contains a capacitor between the gate and source
+terminals of the MOSFET, a current will flow into the gate terminal and out
+from the source terminal of that model as the gate-to-source voltage of the
+MOSFET varies. This current transports the charge that accumulates within
+the MOSFET as seen in Figures 9.22 and 9.23. Following Equation 9.9, the
+current is given by

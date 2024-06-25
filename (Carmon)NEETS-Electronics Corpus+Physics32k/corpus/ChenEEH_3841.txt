@@ -1,0 +1,12 @@
+By looking at Figure 4.16(A), we note that by taking a pixel,
+for example, at the girl’s face, the pixels around it have on
+average similar values. Certainly there are pixels for which this
+does not hold, such as at the boundary of the girl’s skin and
+hair. However, this is true of most of the image’s pixels.
+Examining the images in Figures 4.16(B) and 4.16(C), we see
+that the same reasoning applies to them. In other words, if we
+know something about one pixel, it is likely that we can guess,
+with a good probability of success, many things about the
+pixels around it. This implies that we do not need all the pixels
+to represent the images, only the ones carrying information
+that cannot be guessed.

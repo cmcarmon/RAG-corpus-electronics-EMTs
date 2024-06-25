@@ -1,0 +1,11 @@
+When power is applied to the circuit, oscillations are started by any random noise (random electrical 
+variations generated internally in electronic components). A change in the flow of base current results in 
+an amplified change in collector current which is phase-shifted the 180 degrees. When the signal is 
+returned to the base, it has been shifted 180 degrees by the action of the RC network, making the circuit 
+regenerative.  View (A) of figure 2-18 shows the amount of phase shift produced by C1 and R1. View (B) 
+shows the amount of phase shift produced by C2 and R2 (signal received from C1 and R1), and view (C) 
+shows the complete phase shift as the signal leaves the RC network. With the correct amount of resistance 
+and capacitance in the phase-shifting network, the 180-degree phase shift occurs at only one frequency. 
+At any other than the desired frequency, the capacitive reactance increases or decreases and causes an 
+incorrect phase relationship (the feedback becomes degenerative). Thus, the oscillator works at only one 
+frequency. To find the resonant frequency (fr) of an RC phase shift oscillator, use the following formula: 

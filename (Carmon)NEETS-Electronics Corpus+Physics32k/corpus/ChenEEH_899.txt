@@ -1,0 +1,19 @@
+It is possible to provide an alternative approach to clock
+skew scheduling that considers all permissible ranges and also
+provides a natural quantitative measure of the quality of a
+particular clock schedule. Consider, for instance, a circuit
+with a target clock period TCP. Furthermore, denote an object-
+ive clock skew value for a local data path Ri?Rj by gi, j, where
+it is required that li, j  gi, j  ui, j (recall the lower equation
+4.10 and upper equation 4.11 bounds of the permissible
+range). For most practical circuits, it is unlikely that a feasible
+clock schedule can be computed that is exactly equal to the
+objective clock schedule for each local data path. Multiple
+linear dependencies among clock skews
+in each circuit
+exist—those linear dependencies deﬁne a solution space such
+that the clock schedule s ¼ gi1, j1
+most likely is
+not within this solution space (unless the circuit is constructed
+of only nonrecursive feed-forward paths). If tcd is a feasible
+clock schedule, however, it is possible to evaluate how close a

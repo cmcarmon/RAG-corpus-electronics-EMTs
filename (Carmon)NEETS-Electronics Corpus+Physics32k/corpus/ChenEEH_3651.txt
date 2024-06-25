@@ -1,0 +1,16 @@
+One of the main challenges in speech processing is that the
+dynamics of the speech system are constantly changing. This
+is evident in Figure 3.2. A conservative rule of thumb is that
+speech frames remain quasistationary for intervals of 10 to
+20 ms. Moreover, speech is not a string of discrete, well-formed
+sounds but rather a series of steady-state or target sounds
+(sometimes quite brief, if achieved at all) with intermediate
+transitions. The preceding and/or succeeding sound in a string
+can affect whether a target is reached, how long it is held, and
+other ﬁner acoustic details. This interplay among sounds in an
+utterance is called coarticulation. Changes witnessed in the
+speech waveform are a direct consequence of movements of the
+speech system articulators that rarely remain ﬁxed for any
+sustained period of time. On the other hand, the articulators
+have mass and cannot be moved instantaneously from one
+target to the next without a period of transition.

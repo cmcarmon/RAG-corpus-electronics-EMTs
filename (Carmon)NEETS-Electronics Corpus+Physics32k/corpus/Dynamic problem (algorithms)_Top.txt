@@ -1,0 +1,11 @@
+Dynamic problems in computational complexity theory are problems stated in terms of the changing input data. In the most general form a problem in this category is usually stated as follows:
+Given a class of input objects, find efficient algorithms and data structures to answer a certain query about a set of input objects each time the input data is modified, i.e., objects are inserted or deleted.
+Problems of this class have the following measures of complexity:
+Space –  the amount of memory space required to store the data structure;
+Initialization time –  time required for the initial construction of the data structure;
+Insertion time –  time required for the update of the data structure when one more input element is added;
+Deletion time –  time required for the update of the data structure when an input element is deleted;
+Query time –  time required to answer a query;
+Other operations specific to the problem in question
+The overall set of computations for a dynamic problem is called a dynamic algorithm.
+Many algorithmic problems stated in terms of fixed input data (called static problems in this context and solved by static algorithms) have meaningful dynamic versions.

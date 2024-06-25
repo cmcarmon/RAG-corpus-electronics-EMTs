@@ -1,0 +1,7 @@
+Let  {Yt,  t  =  0,  .  .  .,  T}  be  a  training  data  from  the  clean  signal,  where Yt  is  a  K-dimensional  vector  in  the
+Euclidean space RK. Let {Zt, t = 0, . . ., T} be a training data from the noisy signal, where Zt, ˛ RK. The sequence
+{Z t } can be obtained by adding a noise training sequence {Vt, t = 0, . . ., T} to the sequence of clean signals
+{Yt}. Let z  ˛  RK be a vector of the noisy signal from which the vector y of the clean signal is estimated. Let
+Y(z) = {Yt: Zt = z, t = 0, . . ., T} be the set of all clean vectors from the training data of the clean signal which
+could have resulted in the given noisy observation z. The cardinality of this set is denoted by  *Y(z) *. Then, the
+sample average estimate of the conditional mean of the clean signal y given the noisy signal z is given by

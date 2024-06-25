@@ -1,0 +1,12 @@
+The baseband outputs of the data transmitters are a series of
+binary data that cannot be sent directly over a radio link. The
+communications designer must choose radio signals that rep-
+resent the binary data and permit the receiver to decode the
+data with minimal errors. For the simplest binary signaling
+system, we choose two signals denoted by s0(t ) and s1(t ) to
+represent the binary values of 0 and 1, respectively. Since no
+channel is perfect the receiver will also have additive Gaussian
+white noise, n(t). The data receiver (see Figure 4.1) will then
+process the signal and noise through a ﬁlter, h(t), and at the
+end of the signaling interval, T, it is possible to make a deter-
+mination of whether the transmitter sent a 0 or a 1.

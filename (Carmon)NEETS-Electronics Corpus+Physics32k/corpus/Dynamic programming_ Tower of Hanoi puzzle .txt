@@ -1,0 +1,11 @@
+The Tower of Hanoi or Towers of Hanoi is a mathematical game or puzzle. It consists of three rods, and a number of disks of different sizes which can slide onto any rod. The puzzle starts with the disks in a neat stack in ascending order of size on one rod, the smallest at the top, thus making a conical shape.
+The objective of the puzzle is to move the entire stack to another rod, obeying the following rules:
+Only one disk may be moved at a time.
+Each move consists of taking the upper disk from one of the rods and sliding it onto another rod, on top of the other disks that may already be present on that rod.
+No disk may be placed on top of a smaller disk.
+The dynamic programming solution consists of solving the functional equation
+S(n,h,t) = S(n-1,h, not(h,t)) ; S(1,h,t) ; S(n-1,not(h,t),t)
+where n denotes the number of disks to be moved, h denotes the home rod, t denotes the target rod, not(h,t) denotes the third rod (neither h nor t), ";" denotes concatenation, and
+S(n, h, t) := solution to a problem consisting of n disks that are to be moved from rod h to rod t.
+Note that for n=1 the problem is trivial, namely S(1,h,t) = "move a disk from rod h to rod t" (there is only one disk left).
+The number of moves required by this solution is 2n − 1. If the objective is to maximize the number of moves (without cycling) then the dynamic programming functional equation is slightly more complicated and 3n − 1 moves are required.

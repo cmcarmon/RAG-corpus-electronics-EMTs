@@ -1,0 +1,8 @@
+Depending on van der Waals radii of atoms every atom of protein interacts with each other that are not far apart. The potential energy contribution of this interaction is defined over SvdW, set of atoms with van der Waals interaction, as:
+Evdw = Σ (i,j) E Svdw εij [ (σij/rij)12 - 2(σij/rij)6]
+where:
+rij distance between atoms
+σij distance at Van der Waals energy is minimum
+
+
+== References ==

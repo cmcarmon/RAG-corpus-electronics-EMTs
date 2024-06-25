@@ -1,0 +1,291 @@
+The Dewan–Beran–Bell spaceship paradox (Bell's spaceship paradox) is a good example of a problem where intuitive reasoning unassisted by the geometric insight of the spacetime approach can lead to issues.
+
+In Fig. 4‑4, two identical spaceships float in space and are at rest relative to each other. They are connected by a string which is capable of only a limited amount of stretching before breaking. At a given instant in our frame, the observer frame, both spaceships accelerate in the same direction along the line between them with the same constant proper acceleration. Will the string break?
+The main article for this section recounts how, when the paradox was new and relatively unknown, even professional physicists had difficulty working out the solution. Two lines of reasoning lead to opposite conclusions. Both arguments, which are presented below, are flawed even though one of them yields the correct answer.
+To observers in the rest frame, the spaceships start a distance L apart and remain the same distance apart during acceleration. During acceleration, L is a length contracted distance of the distance L' = γL in the frame of the accelerating spaceships. After a sufficiently long time, γ will increase to a sufficiently large factor that the string must break.
+Let A and B be the rear and front spaceships. In the frame of the spaceships, each spaceship sees the other spaceship doing the same thing that it is doing. A says that B has the same acceleration that he has, and B sees that A matches her every move. So the spaceships stay the same distance apart, and the string does not break.
+The problem with the first argument is that there is no "frame of the spaceships." There cannot be, because the two spaceships measure a growing distance between the two. Because there is no common frame of the spaceships, the length of the string is ill-defined. Nevertheless, the conclusion is correct, and the argument is mostly right. The second argument, however, completely ignores the relativity of simultaneity.
+
+A spacetime diagram (Fig. 4‑5) makes the correct solution to this paradox almost immediately evident. Two observers in Minkowski spacetime accelerate with constant magnitude
+
+
+
+k
+
+
+{\displaystyle k}
+acceleration for proper time
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+(acceleration and elapsed time measured by the observers themselves, not some inertial observer). They are comoving and inertial before and after this phase. In Minkowski geometry, the length of the spacelike line segment
+
+
+
+
+A
+′
+
+
+B
+″
+
+
+
+{\displaystyle A'B''}
+turns out to be greater than the length of the spacelike line segment
+
+
+
+A
+B
+
+
+{\displaystyle AB}
+.
+The length increase can be calculated with the help of the Lorentz transformation. If, as illustrated in Fig. 4‑5, the acceleration is finished, the ships will remain at a constant offset in some frame
+
+
+
+
+S
+′
+
+.
+
+
+{\displaystyle S'.}
+If
+
+
+
+
+x
+
+A
+
+
+
+
+{\displaystyle x_{A}}
+and
+
+
+
+
+x
+
+B
+
+
+=
+
+x
+
+A
+
+
++
+L
+
+
+{\displaystyle x_{B}=x_{A}+L}
+are the ships' positions in
+
+
+
+S
+,
+
+
+{\displaystyle S,}
+the positions in frame
+
+
+
+
+S
+′
+
+
+
+{\displaystyle S'}
+are:
+
+
+
+
+
+
+
+
+
+x
+
+A
+
+′
+
+
+
+
+=
+γ
+
+(
+
+
+x
+
+A
+
+
+−
+v
+t
+
+)
+
+
+
+
+
+
+x
+
+B
+
+′
+
+
+
+
+=
+γ
+
+(
+
+
+x
+
+A
+
+
++
+L
+−
+v
+t
+
+)
+
+
+
+
+
+
+L
+′
+
+
+
+
+=
+
+x
+
+B
+
+′
+
+−
+
+x
+
+A
+
+′
+
+=
+γ
+L
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}x'_{A}&=\gamma \left(x_{A}-vt\right)\\x'_{B}&=\gamma \left(x_{A}+L-vt\right)\\L'&=x'_{B}-x'_{A}=\gamma L\end{aligned}}}
+
+The "paradox", as it were, comes from the way that Bell constructed his example. In the usual discussion of Lorentz contraction, the rest length is fixed and the moving length shortens as measured in frame
+
+
+
+S
+
+
+{\displaystyle S}
+. As shown in Fig. 4‑5, Bell's example asserts the moving lengths
+
+
+
+A
+B
+
+
+{\displaystyle AB}
+and
+
+
+
+
+A
+′
+
+
+B
+′
+
+
+
+{\displaystyle A'B'}
+measured in frame
+
+
+
+S
+
+
+{\displaystyle S}
+to be fixed, thereby forcing the rest frame length
+
+
+
+
+A
+′
+
+
+B
+″
+
+
+
+{\displaystyle A'B''}
+in frame
+
+
+
+
+S
+′
+
+
+
+{\displaystyle S'}
+to increase.
+Return to Introduction

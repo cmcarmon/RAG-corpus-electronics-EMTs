@@ -1,0 +1,5 @@
+The Data Link Layer
+The  data  link  layer  is  often  divided  into  two  sublayers,  i.e.,  the  media-access  and  logical-link  control  (MAC
+and LLC) sublayers, as shown in Fig. 72.10. The LLC sublayer [see Logical Link Control] uses the services of
+the MAC sublayer to provide to its user a connection-oriented service between stations that includes ﬂow and
+error  control  or  a  connectionless  service  that  does  little  more  than  multiplex  upper-layer  connections.  The

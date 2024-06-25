@@ -1,0 +1,6 @@
+In the VLF range, the transfer function is the sum of a ground wave which arrives directly at the receiver and multihop sky waves reflected at the ionospheric D-layer (Figure 1).
+For the real Earth's surface, the ground wave becomes dissipated and depends of the orography along the ray path. For VLF waves at shorter distances, this effect is, however, of minor importance, and the reflection factor of the Earth is Re = 1, in a first approximation.
+At shorter distances, only the first hop sky wave is of importance. The D-layer can be simulated by a magnetic wall (Ri = -1) with a fixed boundary at a virtual height h, which means a phase jump of 180° at the reflection point. In reality, the electron density of the D-layer increases with altitude, and the wave is bounded as shown in Figure 2.
+The sum of ground wave and first hop wave displays an interference pattern with interference minima if the difference between the ray paths of ground and first sky wave is half a wavelength (or a phase difference of 180°). The last interference minimum on the ground (z = 0) between the ground wave and the first sky wave is at a horizontal distance of
+(3)  ρ1 ≈ 2 f h2/c
+with c the velocity of light. In the example of Figure 3, this is at about 500 km distance.

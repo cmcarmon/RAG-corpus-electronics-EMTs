@@ -1,0 +1,5 @@
+Lempel–Ziv Coding
+The  Lempel–Ziv  algorithm  [Ziv  and  Lempel,  1978]  is  a  universal  coding  procedure  that  does  not  require
+knowledge  of  the  source  statistics  and  yet  is  asymptotically  optimal.  The  basic  idea  of  the  algorithm  is  to
+construct a table or dictionary of frequently occurring strings and to represent new strings by pointing to their
+preﬁxes in the table. We ﬁrst parse the string into sequences that have not appeared so far. For example, the

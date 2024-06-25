@@ -1,0 +1,10 @@
+processors that each operate on data with a different
+instruction. This type of machine structure is not very
+useful and has never been implemented in real systems.
+4. Multiple instruction, multiple data (MIMD) machines
+refer to a number of processors executing different
+instructions on different data streams simultaneously.
+This is the most common multiprocessor structure; the
+symmetrical multiprocessor (SMP), clusters, and non-
+uniform memory access (NUMA) systems are all exam-
+ples of this category.

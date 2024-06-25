@@ -1,0 +1,9 @@
+When  op  amp  circuits  are  cascaded,  each  circuit  in  the  string  is
+called a stage; the original input signal is increased by the gain of the
+individual stage. Op amp circuits have the advantage that they can be
+cascaded without changing their input-output relationships. This is due to
+the fact that each (ideal) op amp circuit has inﬁnite input resistance and
+zero output resistance. Figure 5.28 displays a block diagram represen-
+tation of three op amp circuits in cascade. Since the output of one stage
+is the input to the next stage, the overall gain of the cascade connection
+is the product of the gains of the individual op amp circuits, or

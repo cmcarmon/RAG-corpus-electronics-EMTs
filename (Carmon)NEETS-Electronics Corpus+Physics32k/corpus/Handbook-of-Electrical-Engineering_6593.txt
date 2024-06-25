@@ -1,0 +1,2 @@
+and holds the combined packet in a buffer. The sending station reads the tokens as they go by until it receives
+an empty token, a “0.” It then converts the “0” to a “1,” a busy token, and appends the packet.

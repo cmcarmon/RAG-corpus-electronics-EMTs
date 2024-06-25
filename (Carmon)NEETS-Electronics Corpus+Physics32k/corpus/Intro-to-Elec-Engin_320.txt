@@ -1,0 +1,9 @@
+where VSIN is the name of the source, NODE-
+PLUS is the number identifying the positive node,
+NODEMINUS is the number identifying the nega-
+tive node, VDC is the dc offset, VPEAK is the peak
+value of the ac component, FREQ is the frequency
+in hertz, TD is the time delay in seconds, DF is a
+damping factor, and PHASE is the phase angle in
+degrees. The voltage generated is then given by
+v(t ) = VDC + VPEAK sin[PHASE],

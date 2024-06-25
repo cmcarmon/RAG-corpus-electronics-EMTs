@@ -1,0 +1,6 @@
+It is composed of the following sub-divisions:
+Orbit Dynamics evaluating basic spacecraft dynamics, orbit perturbations both atmospheric and gravitational;
+Orbit Geometry, where general coverage characteristics and target viewing are calculated;
+Orbit Manoeuvres and Maintenance for circular orbit. In this section, setting main input parameters, such as parking and operational orbit parameters, or re-phasing, de-orbit and end-of-life parameters, Orbit Manoeuvre outputs (orbit dynamics, Hohmann transfer, plane change, low-thrust spiral change) and Orbit Maintenance outputs (Dynamics, Atmospheric and Gravitational effects, Re-phasing, End-of-life Manoeuvre parameters) are evaluated;
+Interplanetary Orbit Transfer, where the main output parameters for an interplanetary transfer are evaluated under the hypothesis of patched conic approximation, such as velocity, energy, time of flight, delta-V to initiate and complete the transfer. For Earth departure, circular orbit is assumed. Heliocentric transfers are also considered;
+Delta-V and Geometry Budgets, calculating all the elements of the delta-V budget and Mapping and Pointing errors.

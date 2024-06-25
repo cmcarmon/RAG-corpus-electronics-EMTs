@@ -1,0 +1,407 @@
+The law of adaptation can be stated informally as:
+
+Every adaptive system converges to a state in which all kind of stimulation ceases.
+
+Formally, the law can be defined as follows:
+Given a system
+
+
+
+S
+
+
+{\displaystyle S}
+, we say that a physical event
+
+
+
+E
+
+
+{\displaystyle E}
+is a stimulus for the system
+
+
+
+S
+
+
+{\displaystyle S}
+if and only if the probability
+
+
+
+P
+(
+S
+→
+
+S
+′
+
+
+|
+
+E
+)
+
+
+{\displaystyle P(S\rightarrow S'|E)}
+that the system suffers a change or be perturbed (in its elements or in its processes) when the event
+
+
+
+E
+
+
+{\displaystyle E}
+occurs is strictly greater than the prior probability that
+
+
+
+S
+
+
+{\displaystyle S}
+suffers a change independently of
+
+
+
+E
+
+
+{\displaystyle E}
+:
+
+
+
+
+P
+(
+S
+→
+
+S
+′
+
+
+|
+
+E
+)
+>
+P
+(
+S
+→
+
+S
+′
+
+)
+
+
+{\displaystyle P(S\rightarrow S'|E)>P(S\rightarrow S')}
+
+Let
+
+
+
+S
+
+
+{\displaystyle S}
+be an arbitrary system subject to changes in time
+
+
+
+t
+
+
+{\displaystyle t}
+and let
+
+
+
+E
+
+
+{\displaystyle E}
+be an arbitrary event that is a stimulus for the system
+
+
+
+S
+
+
+{\displaystyle S}
+: we say that
+
+
+
+S
+
+
+{\displaystyle S}
+is an adaptive system if and only if when t tends to infinity
+
+
+
+(
+t
+→
+∞
+)
+
+
+{\displaystyle (t\rightarrow \infty )}
+the probability that the system
+
+
+
+S
+
+
+{\displaystyle S}
+change its behavior
+
+
+
+(
+S
+→
+
+S
+′
+
+)
+
+
+{\displaystyle (S\rightarrow S')}
+in a time step
+
+
+
+
+t
+
+0
+
+
+
+
+{\displaystyle t_{0}}
+given the event
+
+
+
+E
+
+
+{\displaystyle E}
+is equal to the probability that the system change its behavior independently of the occurrence of the event
+
+
+
+E
+
+
+{\displaystyle E}
+. In mathematical terms:
+-
+
+
+
+
+P
+
+
+t
+
+0
+
+
+
+
+(
+S
+→
+
+S
+′
+
+
+|
+
+E
+)
+>
+
+P
+
+
+t
+
+0
+
+
+
+
+(
+S
+→
+
+S
+′
+
+)
+>
+0
+
+
+{\displaystyle P_{t_{0}}(S\rightarrow S'|E)>P_{t_{0}}(S\rightarrow S')>0}
+
+-
+
+
+
+
+lim
+
+t
+→
+∞
+
+
+
+P
+
+t
+
+
+(
+S
+→
+
+S
+′
+
+
+|
+
+E
+)
+=
+
+P
+
+t
+
+
+(
+S
+→
+
+S
+′
+
+)
+
+
+{\displaystyle \lim _{t\rightarrow \infty }P_{t}(S\rightarrow S'|E)=P_{t}(S\rightarrow S')}
+
+Thus, for each instant
+
+
+
+t
+
+
+{\displaystyle t}
+will exist a temporal interval
+
+
+
+h
+
+
+{\displaystyle h}
+such that:
+
+
+
+
+
+P
+
+t
++
+h
+
+
+(
+S
+→
+
+S
+′
+
+
+|
+
+E
+)
+−
+
+P
+
+t
++
+h
+
+
+(
+S
+→
+
+S
+′
+
+)
+<
+
+P
+
+t
+
+
+(
+S
+→
+
+S
+′
+
+
+|
+
+E
+)
+−
+
+P
+
+t
+
+
+(
+S
+→
+
+S
+′
+
+)
+
+
+{\displaystyle P_{t+h}(S\rightarrow S'|E)-P_{t+h}(S\rightarrow S')<P_{t}(S\rightarrow S'|E)-P_{t}(S\rightarrow S')}

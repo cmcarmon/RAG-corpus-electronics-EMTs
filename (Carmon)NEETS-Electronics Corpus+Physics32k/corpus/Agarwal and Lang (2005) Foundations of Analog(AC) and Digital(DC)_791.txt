@@ -1,0 +1,11 @@
+Now, suppose we wish to build a two-bit adder circuit (see Figure 5.44) that takes as
+input a pair of two-bit positive integers A1A0 and B1B0, and a carry-in bit C0, and
+produces a two-bit sum output S1S0 and a carry-out bit C1. Write a truth table and a
+boolean expression for the carry-out bit in terms of the inputs.
+p r o b l e m 5.12
+Suppose we have two logic families named NTL and YTL. The
+NTL family of logic gates operates under the static discipline with the following voltage
+thresholds: VIL = 1.5 V, VOL = 1.0 V, VIH = 3.5 V, and VOH = 4 V. The YTL
+is characterized by the voltage thresholds: VIL = 0.8 V,
+family, on the other hand,
+VOL = 0.3 V, VIH = 3.0 V, and VOH = 4.5 V. Will a YTL inverter driving the input of

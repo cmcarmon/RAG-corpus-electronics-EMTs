@@ -1,0 +1,9 @@
+where ETt represents the causal relationship of ﬁring transition
+t. Intuitively, each inference rule states if a place loses tokens
+from one marking to another, then some relevant transition
+must have ﬁred (He and Ding, 1992). The variables are uni-
+versally quantiﬁed and are omitted for simplicity. The above
+inference rules only reﬂect the local state changes. Together
+with system independent axioms and inference rules (Manna
+and Pnueli, 1992, 1995), we can use IC and PRp to prove a
+variety of safety properties.

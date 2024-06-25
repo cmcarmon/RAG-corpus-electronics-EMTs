@@ -1,0 +1,22 @@
+Computer network architecture refers to a set of rules that
+allow for connectivity among a large number of computers.
+This set of rules is also called communication protocols. To
+simplify the complexity of network design, the communication
+functions are divided into several levels of abstractions. Each
+level or layer of the protocol is designed in such a way that the
+change to one layer normally does not affect adjacent layers.
+The services of higher layers are implemented to use the
+services provided at lower layers. There are two interfaces at
+each layer. One is the peer-to-peer protocol between two
+computers. The other is the service interface to its adjacent
+layers on the same computer. Peer-to-peer protocol between
+two computers mostly regards indirect communication, and
+the direct communication only occurs at the lowest layer or
+hardware level. Each higher layer of protocol adds its own
+header information to the data message it receives from its
+higher layer of protocol before it passes the data message to its
+lower layer. This process is called encapsulation. The receiving
+system reverses the process, called decapsulation, by removing
+the header at each layer before passing the data message to its
+upper layer. Two prevalent network architectures are described
+in this section.

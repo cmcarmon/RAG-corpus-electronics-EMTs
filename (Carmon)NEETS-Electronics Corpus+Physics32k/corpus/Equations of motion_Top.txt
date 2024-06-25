@@ -1,0 +1,90 @@
+In mathematical physics, equations of motion are equations that describe the behaviour of a physical system in terms of its motion as a function of time. More specifically, the equations of motion describe the behaviour of a physical system as a set of mathematical functions in terms of dynamic variables: normally spatial coordinates and time are used, but others are also possible, such as momentum components and time. The most general choice are generalized coordinates which can be any convenient variables characteristic of the physical system. The functions are defined in a Euclidean space in classical mechanics, but are replaced by curved spaces in relativity. If the dynamics of a system is known, the equations are the solutions to the differential equations describing the motion of the dynamics.
+There are two main descriptions of motion: dynamics and kinematics. Dynamics is general, since momenta, forces and energy of the particles are taken into account. In this instance, sometimes the term refers to the differential equations that the system satisfies (e.g., Newton's second law or Euler–Lagrange equations), and sometimes to the solutions to those equations.
+However, kinematics is simpler as it concerns only variables derived from the positions of objects, and time. In circumstances of constant acceleration, these simpler equations of motion are usually referred to as the SUVAT equations, arising from the definitions of kinematic quantities: displacement (s), initial velocity (u), final velocity (v), acceleration (a), and time (t).
+Equations of motion can therefore be grouped under these main classifiers of motion. In all cases, the main types of motion are translations, rotations, oscillations, or any combinations of these.
+A differential equation of motion, usually identified as some physical law and applying definitions of physical quantities, is used to set up an equation for the problem. Solving the differential equation will lead to a general solution with arbitrary constants, the arbitrariness corresponding to a family of solutions. A particular solution can be obtained by setting the initial values, which fixes the values of the constants.
+To state this formally, in general an equation of motion M is a function of the position r of the object, its velocity (the first time derivative of r, v = dr/dt), and its acceleration (the second derivative of r, a = d2r/dt2), and time t. Euclidean vectors in 3D are denoted throughout in bold. This is equivalent to saying an equation of motion in r is a second order ordinary differential equation (ODE) in r,
+
+
+
+
+M
+
+[
+
+
+r
+
+(
+t
+)
+,
+
+
+
+r
+˙
+
+
+
+(
+t
+)
+,
+
+
+
+r
+¨
+
+
+
+(
+t
+)
+,
+t
+
+]
+
+=
+0
+
+,
+
+
+{\displaystyle M\left[\mathbf {r} (t),\mathbf {\dot {r}} (t),\mathbf {\ddot {r}} (t),t\right]=0\,,}
+
+where t is time, and each overdot denotes one time derivative. The initial conditions are given by the constant values at t = 0,
+
+
+
+
+
+r
+
+(
+0
+)
+
+,
+
+
+
+
+r
+˙
+
+
+
+(
+0
+)
+
+.
+
+
+{\displaystyle \mathbf {r} (0)\,,\quad \mathbf {\dot {r}} (0)\,.}
+
+The solution r(t) to the equation of motion, with specified initial values, describes the system for all times t after t = 0. Other dynamical variables like the momentum p of the object, or quantities derived from r and p like angular momentum, can be used in place of r as the quantity to solve for from some equation of motion, although the position of the object at time t is by far the most sought-after quantity.
+Sometimes, the equation will be linear and is more likely to be exactly solvable. In general, the equation will be non-linear, and cannot be solved exactly so a variety of approximations must be used. The solutions to nonlinear equations may show chaotic behavior depending on how sensitive the system is to the initial conditions.

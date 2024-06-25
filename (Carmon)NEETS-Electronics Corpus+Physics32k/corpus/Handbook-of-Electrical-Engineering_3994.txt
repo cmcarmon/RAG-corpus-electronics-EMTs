@@ -1,0 +1,37 @@
+IMPATT Diodes
+IMPATT  (impact  avalanche  transit  time)  diodes  [Bhartia  and
+Bahl, 1984] are fabricated from pn or Schottky junctions. A typical
+pn junction device is shown in Fig. 39.12. For optimum RF per-
+formance the diode is separated, by use of specially designed layers
+of controlled impurity doping, into avalanche and drift regions.
+In operation the diode is reverse biased into avalanche breakdown.
+Due to the very sensitive I-V characteristic, it is best to bias the
+diode using a constant current source in which the magnitude of
+the current is limited. When the diode is placed in a microwave
+resonant circuit, RF voltage ﬂuctuations in the bias circuit grow
+and are forced into a narrow frequency range by the impedance
+characteristics of the resonant circuit. Due to the avalanche pro-
+cess the RF current across the avalanche region lags the RF voltage
+by 90 degrees. This inductive delay is not sufﬁcient, by itself, to
+produce  active  characteristics.  However,  when  the  90  degrees
+phase shift is added to that arising from an additional inductive
+delay caused by the transit time of the carriers drifting through
+the  remainder  of  the  diode  external  to  the  avalanche  region,  a
+phase  shift  between  the  RF  voltage  and  current  greater  than  90
+degrees is obtained. A Fourier analysis of the resulting waveforms
+reveals a device impedance with a negative real part. That is, the
+device is active and can be used to generate or amplify RF signals.
+The  device  impedance  has  an “S-type”  active  characteristic  and
+the device equivalent circuit consists of a negative resistance in series with an inductor. The device has signiﬁcant
+pn junction capacitance that must be considered, and a complete equivalent circuit would include the device
+capacitance in parallel with the series negative resistance-inductance elements. For optimum performance the
+drift region is designed so that the electric ﬁeld throughout the RF cycle is sufﬁciently high to produce velocity
+saturation for the charge carriers. In order to achieve this, it is common to design complex structures consisting
+of alternating layers of highly doped and lightly doped semiconductor regions. These structures are called “high-
+low,” “low-high-low,” or “Read” diodes, after the man who ﬁrst proposed their use. They can also be fabricated
+in  a  back-to-back  arrangement  to  form  double-drift  structures.  These  devices  are  particularly  attractive  for
+millimeter-wave applications. IMPATT diodes can be fabricated from most semiconductors, but are generally
+fabricated from Si or GaAs. The devices are capable of good RF output power (mW to W) and good dc-to-RF
+conversion efﬁciency (~10–20%). They operate well into the millimeter-wave region and have been operated
+as high as 340 GHz. They have moderate bandwidth capability, but have relatively poor noise performance due
+to the impact ionization process.

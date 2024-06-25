@@ -1,0 +1,7 @@
+4.9 Linear Time Invariant Systems15
+When we apply a periodic input to a linear, time-invariant system, the output is periodic and has Fourier
+series coeﬃcients equal to the product of the system’s frequency response and the input’s Fourier coeﬃcients
+(Filtering Periodic Signals (4.27)). The way we derived the spectrum of non-periodic signal from periodic
+ones makes it clear that the same kind of result works when the input is not periodic: If x (t) serves as
+the input to a linear, time-invariant system having frequency response H (f ), the spectrum of
+the output is X (f ) H (f ).

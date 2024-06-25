@@ -1,0 +1,8 @@
+Equation  (44.11)  can  be  solved  numerically  by  the  boundary  element  method  (BEM)  in  which  the  active
+surfaces  are  discretized  into  elements.  The  advantages  of  integral  formulations  compared  to  the  standard
+differential approach using ﬁnite elements are (a) only active regions need to be discretized, (b) the far ﬁeld
+boundary  condition  is  automatically  taken  into  account,  and  (c)  the  ﬁelds  recovered  from  the  solution  are
+usually  very  smooth.  Unfortunately,  the  computational  costs  rapidly  escalate  as  the  problem  size  increases
+because of the complexity of the system coefﬁcients and because the resulting matrix is fully populated, whereas
+in  the  differential  approach  the  coefﬁcients  are  simple  and  the  matrix  is  sparse,  allowing  the  exploitation  of
+fast equation solution methods.

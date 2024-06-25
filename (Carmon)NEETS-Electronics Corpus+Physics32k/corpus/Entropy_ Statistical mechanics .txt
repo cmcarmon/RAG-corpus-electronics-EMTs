@@ -1,0 +1,185 @@
+The statistical definition was developed by Ludwig Boltzmann in the 1870s by analyzing the statistical behavior of the microscopic components of the system. Boltzmann showed that this definition of entropy was equivalent to the thermodynamic entropy to within a constant number which has since been known as Boltzmann's constant. In summary, the thermodynamic definition of entropy provides the experimental definition of entropy, while the statistical definition of entropy extends the concept, providing an explanation and a deeper understanding of its nature.
+The interpretation of entropy in statistical mechanics is the measure of uncertainty, or mixedupness in the phrase of Gibbs, which remains about a system after its observable macroscopic properties, such as temperature, pressure and volume, have been taken into account. For a given set of macroscopic variables, the entropy measures the degree to which the probability of the system is spread out over different possible microstates. In contrast to the macrostate, which characterizes plainly observable average quantities, a microstate specifies all molecular details about the system including the position and velocity of every molecule. The more such states available to the system with appreciable probability, the greater the entropy. In statistical mechanics, entropy is a measure of the number of ways in which a system may be arranged, often taken to be a measure of "disorder" (the higher the entropy, the higher the disorder). This definition describes the entropy as being proportional to the natural logarithm of the number of possible microscopic configurations of the individual atoms and molecules of the system (microstates) which could give rise to the observed macroscopic state (macrostate) of the system. The constant of proportionality is the Boltzmann constant.
+Specifically, entropy is a logarithmic measure of the number of states with significant probability of being occupied:
+
+
+
+
+S
+=
+−
+
+k
+
+
+B
+
+
+
+
+∑
+
+i
+
+
+
+p
+
+i
+
+
+log
+⁡
+
+p
+
+i
+
+
+,
+
+
+{\displaystyle S=-k_{\mathrm {B} }\sum _{i}p_{i}\log p_{i},}
+
+or, equivalently, the expected value of the logarithm of the probability that a microstate will be occupied
+
+
+
+
+S
+=
+−
+
+k
+
+
+B
+
+
+
+
+E
+
+i
+
+
+⁡
+(
+log
+⁡
+
+p
+
+i
+
+
+)
+
+
+{\displaystyle S=-k_{\mathrm {B} }\operatorname {E} _{i}(\log p_{i})}
+
+where kB is the Boltzmann constant, equal to 1.38065×10−23 J/K. The summation is over all the possible microstates of the system, and pi is the probability that the system is in the i-th microstate. This definition assumes that the basis set of states has been picked so that there is no information on their relative phases. In a different basis set, the more general expression is
+
+
+
+
+S
+=
+−
+
+k
+
+
+B
+
+
+
+Tr
+⁡
+(
+
+
+
+ρ
+^
+
+
+
+log
+⁡
+(
+
+
+
+ρ
+^
+
+
+
+)
+)
+,
+
+
+{\displaystyle S=-k_{\mathrm {B} }\operatorname {Tr} ({\widehat {\rho }}\log({\widehat {\rho }})),}
+
+where
+
+
+
+
+
+
+ρ
+^
+
+
+
+
+
+{\displaystyle {\widehat {\rho }}}
+is the density matrix,
+
+
+
+Tr
+
+
+{\displaystyle \operatorname {Tr} }
+is trace and
+
+
+
+log
+
+
+{\displaystyle \log }
+is the matrix logarithm. This density matrix formulation is not needed in cases of thermal equilibrium so long as the basis states are chosen to be energy eigenstates. For most practical purposes, this can be taken as the fundamental definition of entropy since all other formulas for S can be mathematically derived from it, but not vice versa.
+In what has been called the fundamental assumption of statistical thermodynamics or the fundamental postulate in statistical mechanics, the occupation of any microstate is assumed to be equally probable (i.e. pi = 1/Ω, where Ω is the number of microstates); this assumption is usually justified for an isolated system in equilibrium. Then the previous equation reduces to
+
+
+
+
+S
+=
+
+k
+
+
+B
+
+
+
+log
+⁡
+Ω
+.
+
+
+{\displaystyle S=k_{\mathrm {B} }\log \Omega .}
+
+In thermodynamics, such a system is one in which the volume, number of molecules, and internal energy are fixed (the microcanonical ensemble).
+The most general interpretation of entropy is as a measure of our uncertainty about a system. The equilibrium state of a system maximizes the entropy because we have lost all information about the initial conditions except for the conserved variables; maximizing the entropy maximizes our ignorance about the details of the system. This uncertainty is not of the everyday subjective kind, but rather the uncertainty inherent to the experimental method and interpretative model.
+The interpretative model has a central role in determining entropy. The qualifier "for a given set of macroscopic variables" above has deep implications: if two observers use different sets of macroscopic variables, they see different entropies. For example, if observer A uses the variables U, V and W, and observer B uses U, V, W, X, then, by changing X, observer B can cause an effect that looks like a violation of the second law of thermodynamics to observer A. In other words: the set of macroscopic variables one chooses must include everything that may change in the experiment, otherwise one might see decreasing entropy!
+Entropy can be defined for any Markov processes with reversible dynamics and the detailed balance property.
+In Boltzmann's 1896 Lectures on Gas Theory, he showed that this expression gives a measure of entropy for systems of atoms and molecules in the gas phase, thus providing a measure for the entropy of classical thermodynamics.

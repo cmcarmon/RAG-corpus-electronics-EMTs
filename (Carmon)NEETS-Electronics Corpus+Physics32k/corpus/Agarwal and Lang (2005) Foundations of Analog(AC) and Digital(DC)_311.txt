@@ -1,0 +1,12 @@
+This completes the analysis of the two-resistor voltage divider.
+From the results of this analysis it should be apparent why the circuit in
+Figure 2.31 is called a voltage divider. Notice that v2 is some fraction (specifically,
+R2/(R1+R2)) of the source voltage V, as desired. The fraction is the ratio of the
+resistance about which the voltage is measured and the sum of the resistances.
+By adjusting the relative values of R1 and R2 we can make this fraction adjust
+anywhere from 0 to 1. If, for example, we wish v2 to be one-tenth of V,
+as suggested at the start of this example, then R1 should be nine times as
+big as R2.
+Notice also that v1 + v2 = V, and that the two resistors divide the voltage
+V in proportion to their resistances since v1/v2 = R1/R2. For example, if R1 is
+twice R2 then v1 is twice v2.

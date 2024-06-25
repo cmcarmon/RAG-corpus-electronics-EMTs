@@ -1,0 +1,8 @@
+VLIW VSPs represent one end of the programmable video processor spectrum. These machines are designed
+from the ground up to execute video algorithms. The VLIW architecture is very well-suited to video applications
+due to the embarrassing levels of parallelism available in video programs. Special-purpose function units can
+be used to speed up certain key operations. However, VLIW VSPs may not be as well-suited to executing code
+that is more typically found on workstation microprocessors, such as error checking, bit-level operations, etc.
+As a result, VLIW VSPs can be used in conjunction with standard microprocessors to implement a complex
+video application, with the VSP performing traditional parallel video sections of the code and the micropro-
+cessor performing the less regular computations.

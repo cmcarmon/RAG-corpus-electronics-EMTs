@@ -1,0 +1,134 @@
+As Mach number varies from 1 to
+
+
+
+∞
+
+
+{\displaystyle \infty }
+,
+
+
+
+ν
+
+
+
+{\displaystyle \nu \,}
+takes values from 0 to
+
+
+
+
+ν
+
+max
+
+
+
+
+
+{\displaystyle \nu _{\text{max}}\,}
+, where
+
+
+
+
+
+ν
+
+max
+
+
+=
+
+
+π
+2
+
+
+
+
+(
+
+
+
+
+
+
+γ
++
+1
+
+
+γ
+−
+1
+
+
+
+
+−
+1
+
+
+)
+
+
+.
+
+
+{\displaystyle \nu _{\text{max}}={\frac {\pi }{2}}{\bigg (}{\sqrt {\frac {\gamma +1}{\gamma -1}}}-1{\bigg )}.}
+
+This places a limit on how much a supersonic flow can turn through, with the maximum turn angle given by,
+
+
+
+
+
+θ
+
+max
+
+
+=
+
+ν
+
+max
+
+
+−
+ν
+(
+
+M
+
+1
+
+
+)
+.
+
+
+
+{\displaystyle \theta _{\text{max}}=\nu _{\text{max}}-\nu (M_{1}).\,}
+
+One can also look at it as follows. A flow has to turn so that it can satisfy the boundary conditions. In an ideal flow, there are two kinds of boundary condition that the flow has to satisfy,
+Velocity boundary condition, which dictates that the component of the flow velocity normal to the wall be zero. It is also known as no-penetration boundary condition.
+Pressure boundary condition, which states that there cannot be a discontinuity in the static pressure inside the flow (since there are no shocks in the flow).
+If the flow turns enough so that it becomes parallel to the wall, we do not need to worry about pressure boundary condition. However, as the flow turns, its static pressure decreases (as described earlier). If there is not enough pressure to start with, the flow won't be able to complete the turn and will not be parallel to the wall. This shows up as the maximum angle through which a flow can turn. The lower the Mach number is to start with (i.e. small
+
+
+
+
+M
+
+1
+
+
+
+
+{\displaystyle M_{1}}
+), the greater the maximum angle through which the flow can turn.
+The streamline which separates the final flow direction and the wall is known as a slipstream (shown as the dashed line in the figure). Across this line there is a jump in the temperature, density and tangential component of the velocity (normal component being zero). Beyond the slipstream the flow is stagnant (which automatically satisfies the velocity boundary condition at the wall). In case of real flow, a shear layer is observed instead of a slipstream, because of the additional no-slip boundary condition.

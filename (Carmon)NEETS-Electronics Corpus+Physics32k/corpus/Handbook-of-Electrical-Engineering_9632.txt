@@ -1,0 +1,8 @@
+Real-time systems are those that guarantee that the system will respond in a predetermined amount of time.
+We use real-time systems when, for example, computers control an assembly line or run a ﬂight simulator. In
+such an environment we deﬁne an action that must occur and a deadline by which we wish that action to take
+place.  On  an  assembly  line  an  event  may  occur,  such  as  a  part  arriving  at  a  station,  and  an  action,  such  as
+painting that part. The deadline we impose will be based on the speed of the assembly line. Obviously, we must
+real-time  system  because  the  system
+paint  the  part  before  it  passes  to  the  next  station.  This  is  called  a 
+must meet a strict deadline.

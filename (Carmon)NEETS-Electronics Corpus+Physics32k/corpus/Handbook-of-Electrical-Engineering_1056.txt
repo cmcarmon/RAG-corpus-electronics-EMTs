@@ -1,0 +1,15 @@
+An arbitrary real-valued signal s(t) can be expressed as a sum of even and odd components, s(t) = seven(t) +
+sodd(t), where seven(t) = seven(–t) and sodd(t) = –sodd(–t), and where seven(t) = [s(t) + s(–t)]/2 and sodd(t) = [s(t)
+– s(–t)]/2 . For the trigonometric Fourier series, it can be shown that seven(t) is represented by the (even) cosine
+terms in the inﬁnite series, sodd(t) is represented by the (odd) sine terms, and b0 is the dc level of the signal.
+Therefore, if it can be determined by inspection that a signal has a dc level, or if it is even or odd, then the
+correct form of the trigonometric series can be chosen to simplify the analysis. For example, it is easily seen
+that the signal shown in Fig. 14.3 is an even signal with a zero dc level. Therefore, it can be accurately represented
+by the cosine series with bn = 2A sin(pn/2)/(pn/2), n = 1, 2, …, as illustrated in Fig. 14.4. In contrast, note that
+the  sawtooth  waveform  used  in  the  previous  example  is  an  odd  signal  with  zero  dc  level,  so  that  it  can  be
+completely speciﬁed by the sine terms of the trigonometric series. This result can be demonstrated by pairing
+each positive frequency component from the exponential series with its conjugate partner; i.e., cn = sin(nwot)
+=  ane jnwot +  a–ne –jnwot,  whereby  it  is  found  that  cn  =  2A  cos(np)/(np)  for  this  example.  In  general,  it  is  found
+that an = (bn – jcn)/2 for n = 1, 2, …, a0 = b0, and a–n = an*. The trigonometric Fourier series is common in the
+signal processing literature because it replaces complex coefﬁcients with real ones and often results in a simpler
+and more intuitive interpretation of the results.

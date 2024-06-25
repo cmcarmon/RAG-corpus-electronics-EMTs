@@ -1,0 +1,30 @@
+Magnets are drawn toward regions of higher magnetic field. The simplest example of this is the attraction of opposite poles of two magnets. Every magnet produces a magnetic field that is stronger near its poles. If opposite poles of two separate magnets are facing each other, each of the magnets are drawn into the stronger magnetic field near the pole of the other. If like poles are facing each other though, they are repulsed from the larger magnetic field.
+The Gilbert model almost predicts a correct mathematical form for this force and is easier to understand qualitatively. For if a magnet is placed in a uniform magnetic field then both poles will feel the same magnetic force but in opposite directions, since they have opposite magnetic charge. But, when a magnet is placed in the non-uniform field, such as that due to another magnet, the pole experiencing the large magnetic field will experience the large force and there will be a net force on the magnet. If the magnet is aligned with the magnetic field, corresponding to two magnets oriented in the same direction near the poles, then it will be drawn into the larger magnetic field. If it is oppositely aligned, such as the case of two magnets with like poles facing each other, then the magnet will be repelled from the region of higher magnetic field.
+In the physically correct Ampère model, there is also a force on a magnetic dipole due to a non-uniform magnetic field, but this is due to Lorentz forces on the current loop that makes up the magnetic dipole. The force obtained in the case of a current loop model is
+
+
+
+
+
+F
+
+=
+∇
+
+(
+
+
+m
+
+⋅
+
+B
+
+
+)
+
+
+
+{\displaystyle \mathbf {F} =\nabla \left(\mathbf {m} \cdot \mathbf {B} \right)}
+,
+where the gradient ∇ is the change of the quantity m · B per unit distance, and the direction is that of maximum increase of m · B. To understand this equation, note that the dot product m · B = mBcos(θ), where m and B represent the magnitude of the m and B vectors and θ is the angle between them. If m is in the same direction as B then the dot product is positive and the gradient points 'uphill' pulling the magnet into regions of higher B-field (more strictly larger m · B). B represents the strength and direction of the magnetic field. This equation is strictly only valid for magnets of zero size, but is often a good approximation for not too large magnets. The magnetic force on larger magnets is determined by dividing them into smaller regions having their own m then summing up the forces on each of these regions.

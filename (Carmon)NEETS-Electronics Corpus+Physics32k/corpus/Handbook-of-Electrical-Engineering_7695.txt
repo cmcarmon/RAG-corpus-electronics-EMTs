@@ -1,0 +1,5 @@
+To maintain balance, computer systems have been using even larger main memories or solid-state disks to
+buffer  some  of  the  I/O  activity.  This  may  be  an  acceptable  solution  for  applications  whose  I/O  activity  has
+locality of reference and for which volatility is not an issue, but applications dominated by a high rate of random
+requests for small pieces of data (e.g., transaction processing) or by a small number of sequential requests for
+massive amounts of data (e.g., supercomputer applications) face a serious performance limitation.

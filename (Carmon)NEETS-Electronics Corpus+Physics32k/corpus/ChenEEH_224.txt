@@ -1,0 +1,18 @@
+One of the most important problems when designing a tran-
+sistor circuit is to ﬁnd its dc operating point(s) (i.e., voltages and
+currents in a circuit when all sources are dc sources). The
+mathematical problem of ﬁnding a nonlinear circuit’s dc oper-
+ating points is described by a set of nonlinear algebraic
+equations constructed by applying Kirchhoff ’s voltage and cur-
+rent laws and by employing the characteristic of the circuit
+elements. A common numerical approach for ﬁnding these
+operating points is the Newton–Raphson method and its
+variants. These methods require a good starting point and
+sometimes fail. This is known as the dc convergence problem.
+In the past decade, several numerical techniques based on
+continuation, parameter-embedding, or homotopy methods
+have been proposed to successfully solve convergence problems
+that often appear in circuits possessing more than one dc
+operating point (Melville et al., 1993; Trajkovic´, 1999; Wolf
+and Sanders, 1996; Yamamura and Horiuchi, 1990; Yamamura
+et al., 1999).

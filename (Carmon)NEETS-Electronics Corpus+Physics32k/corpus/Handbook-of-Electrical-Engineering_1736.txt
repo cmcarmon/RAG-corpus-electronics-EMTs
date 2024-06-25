@@ -1,0 +1,7 @@
+The Huffman code is determined from the binary tree shown in Fig. 17.8. This tree is constructed recursively
+by combining the two least probable symbols in the alphabet into one composite symbol whose probability of
+occurrence is the sum of the probabilities of the two symbols that it represents. The code words for these two
+symbols  are  the  same  as  that  of  the  composite  symbol  with  a  0  or  a  1  appended  at  the  end  to  distinguish
+between them. This procedure is repeated until the reduced alphabet contains only a single code word. Then
+the code word for a particular source symbol is determined by traversing the tree from its root to the leaf node
+for that source symbol.

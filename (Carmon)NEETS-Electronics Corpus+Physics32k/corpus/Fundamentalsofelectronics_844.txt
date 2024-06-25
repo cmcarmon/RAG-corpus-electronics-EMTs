@@ -1,0 +1,7 @@
+The matched-ﬁlter receiver provides impressive performance once adequate signal-to-noise ratios occur. You
+might wonder whether another receiver might be better. The answer is that the matched-ﬁlter receiver is
+optimal: No other receiver can provide a smaller probability of error than the matched ﬁlter
+regardless of the SNR. Furthermore, no signal set can provide better performance than the BPSK signal
+set, where the signal representing a bit is the negative of the signal representing the other bit. The reason
+for this result rests in the dependence of probability of error pe on the diﬀerence between the noise-free
+integrator outputs: For a given Eb, no other signal set provides a greater diﬀerence.

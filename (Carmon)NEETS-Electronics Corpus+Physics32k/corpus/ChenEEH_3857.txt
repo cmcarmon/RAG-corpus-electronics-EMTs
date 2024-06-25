@@ -1,0 +1,10 @@
+let transform have the advantage of the absence of blocking
+effects in low rates. Figure 4.24(B) shows a LENA 256  256
+image compressed at a rate of 16:1 using a wavelet-based
+encoder. One can notice the superior image quality compared
+to the DCT-coded one in Figure 4.24(A). Indeed, the JPEG
+2000 standard (ISO/IEC, 2000) is based on the wavelet trans-
+form. References to state-of-the-art wavelet image encoding
+methods can be found in works by Andrew (1997), Lan and
+Tewﬁk (1999), Said and Pearlman (1996), Shapiro (1993), and
+Taubman (1999).

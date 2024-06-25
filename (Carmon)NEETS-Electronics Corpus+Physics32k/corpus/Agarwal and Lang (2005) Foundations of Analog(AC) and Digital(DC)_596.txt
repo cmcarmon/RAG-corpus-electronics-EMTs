@@ -1,0 +1,10 @@
+e x a m p l e 4.7
+Referring to the
+series-connected diodes in Figure 4.18, determine v1, v2, v3, and v4, given that I = 2 A.
+The parameters in the diode relation are given to be Is = 10
+We will first use the node method to solve this problem. Figure 4.18 shows the ground
+node and the node voltages. There are four unknown node voltages. Next, we write
+KCL for each of the nodes. As prescribed by the node method, we will use KVL and the
+diode relation (Equation 4.1) to obtain the currents directly in terms of the node voltage
+differences and element parameters. For the node with voltage v1,
+−12(e (v2−v1)/0.025 − 1).

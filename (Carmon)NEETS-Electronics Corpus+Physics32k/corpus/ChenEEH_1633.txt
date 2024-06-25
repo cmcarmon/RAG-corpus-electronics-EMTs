@@ -1,0 +1,18 @@
+. Interpixel redundancy: For the case of image data, re-
+dundancy will always be present if only the coding redun-
+dancy is explored and however rigorously it is minimized
+by using state-of-the-art variable length coding tech-
+niques. The reason for this is that images are typically
+composed of objects that have a regular and somewhat
+predictable morphology and reﬂectance and the pixel
+values are highly correlated. The value of any pixel can
+be reasonably predicted from the value of its neighbors;
+the information carried by each individual pixel is rela-
+tively small. To exploit this property of the images, it is
+often necessary to convert the visual information of the
+image into somewhat nonvisual format that better reﬂects
+the correlation between the pixels. The most effective
+technique in this regard is to transform the image into
+frequency domain by taking the discrete fourier trans-
+form (DFT), discrete cosine transform (DCT) or any
+other such transform.

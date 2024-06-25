@@ -1,0 +1,111 @@
+The Hohmann transfer orbit alone is a poor approximation for interplanetary trajectories because it neglects the planets' own gravity. Planetary gravity dominates the behaviour of the spacecraft in the vicinity of a planet and in most cases Hohmann severely overestimates delta-v, and produces highly inaccurate prescriptions for burn timings.
+A relatively simple way to get a first-order approximation of delta-v is based on the 'Patched Conic Approximation' technique. One must choose the one dominant gravitating body in each region of space through which the trajectory will pass, and to model only that body's effects in that region. For instance, on a trajectory from the Earth to Mars, one would begin by considering only the Earth's gravity until the trajectory reaches a distance where the Earth's gravity no longer dominates that of the Sun. The spacecraft would be given escape velocity to send it on its way to interplanetary space. Next, one would consider only the Sun's gravity until the trajectory reaches the neighbourhood of Mars. During this stage, the transfer orbit model is appropriate. Finally, only Mars's gravity is considered during the final portion of the trajectory where Mars's gravity dominates the spacecraft's behaviour. The spacecraft would approach Mars on a hyperbolic orbit, and a final retrograde burn would slow the spacecraft enough to be captured by Mars.
+The size of the "neighborhoods" (or spheres of influence) vary with radius
+
+
+
+
+r
+
+S
+O
+I
+
+
+
+
+{\displaystyle r_{SOI}}
+:
+
+
+
+
+
+r
+
+S
+O
+I
+
+
+=
+
+a
+
+p
+
+
+
+
+(
+
+
+
+m
+
+p
+
+
+
+m
+
+s
+
+
+
+
+)
+
+
+2
+
+/
+
+5
+
+
+
+
+{\displaystyle r_{SOI}=a_{p}\left({\frac {m_{p}}{m_{s}}}\right)^{2/5}}
+
+where
+
+
+
+
+a
+
+p
+
+
+
+
+{\displaystyle a_{p}}
+is the semimajor axis of the planet's orbit relative to the Sun;
+
+
+
+
+m
+
+p
+
+
+
+
+{\displaystyle m_{p}}
+and
+
+
+
+
+m
+
+s
+
+
+
+
+{\displaystyle m_{s}}
+are the masses of the planet and Sun, respectively.
+This simplification is sufficient to compute rough estimates of fuel requirements, and rough time-of-flight estimates, but it is not generally accurate enough to guide a spacecraft to its destination. For that, numerical methods are required.

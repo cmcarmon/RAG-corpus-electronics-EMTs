@@ -1,0 +1,6 @@
+Notice that the inertia matrix D(q) is a function of only the position q. In general, the inertia matrix is symmetric
+and positive deﬁnite and thus invertible. The diagonal elements of this matrix represent the effective inertias
+at the respective joints, while the off-diagonal elements represent the coupling inertias. For example, the term
+2m2 + l1l2m2 cos q2  represents  the  coupling
+m2l2
+inertia between joints 1 and 2, i.e., the effect of acceleration of joint 1 on joint 2.

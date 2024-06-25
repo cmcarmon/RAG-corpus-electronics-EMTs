@@ -1,0 +1,4 @@
+The R-S FF has two output conditions. When the Q output is HIGH and Q  is LOW, the FF is set.
+When Q is LOW and Q  is HIGH, the FF is reset. When the R and S inputs are both LOW, the Q and Q
+outputs will both be HIGH. When this condition exists, the FF is considered to be JAMMED and the
+outputs cannot be used. The jammed condition is corrected when either S or R goes HIGH.

@@ -1,0 +1,15 @@
+The Trianus system (Gehring and Ludwig, 1996) is an inte-
+grated tool set consisting of a layout editor, circuit checker,
+technology mapper, placer, router, and bit-stream generator
+and loader for the Xilinx 6200 FPGA. The back ends of the
+Trianus tool set have been incorporated with the IRIS tools
+(Woods et al., 1997), allowing designs to be changed at the
+architectural level in IRIS rather than at the FPGA layout level.
+Lysaght and his groups have developed a framework called
+dynamic circuit switching for specifying, simulating, and de-
+bugging reconﬁgurable designs (Lysaght, 1997; Lysaght and
+Stockwood, 1996; McGregor et al., 1998; Robinson et al.,
+1998). Their tools can estimate the reconﬁguration time be-
+fore low-level tools are invoked; this information is used in
+their compilation process to produce efﬁcient reconﬁgurable
+designs.

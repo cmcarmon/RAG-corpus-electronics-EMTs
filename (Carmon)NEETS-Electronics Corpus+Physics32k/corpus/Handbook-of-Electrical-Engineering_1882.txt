@@ -1,0 +1,5 @@
+Video Signal Processors
+The term digital signal processor (DSP) is generally reserved for microprocessors optimized for signal processing
+algorithms and which run at audio rates. A video signal processor (VSP) is a DSP that is capable of running
+at video rates. Using separate names for audio and video rate processors is reasonable because VSPs provide
+much greater parallelism and signiﬁcantly different microarchitectures.

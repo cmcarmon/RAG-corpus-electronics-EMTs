@@ -1,0 +1,5 @@
+The convergence of this algorithm is slow because usually 10
+to 15 WLS designs are required in practice to approximate the
+Chebyshev solution. An efﬁciently accelerated algorithm was
+presented by Lim et al. (1992) that is characterized by the
+weight matrix W k whose elements are recurrently updated by:

@@ -1,0 +1,10 @@
+Concretely, the area addresses a basic problem of programming: the reduction of complex objects, such as
+vectors, tensors, text, graphic images, sound, functions, directories, maps, corporate organizations, models of
+ecosystems or machinery, or anything else that a program may have to deal with, to the only native objects of
+digital  computers:  arrays  of  binary  digits  (bits).  The  fundamental  problem  of  this  reduction  is  managing
+program complexity. Two organizational tools are essential to its solution: abstraction and hierarchical struc-
+turing.  Abstraction  refers  to  the  separation  of  what  computational  objects  are  used  for  from  how  they  are
+reduced  to  (i.e.,  implemented  by  means  of)  simpler  ones.  Hierarchical  structuring  refers  to  breaking  this
+reduction up into small manageable steps. Through several steps of abstraction more and more complex objects
+are constructed, each one reduced to the previous, simpler generation of objects. This process ends when the
+desired objects have been composed.

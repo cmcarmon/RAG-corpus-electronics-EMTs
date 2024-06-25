@@ -1,0 +1,15 @@
+Another interesting application is the use of an array to mitigate discrete noise sources in a room. For this,
+we  need  to  attach  an  FIR  ﬁlter  to  each  of  the  microphone  signal  outputs.  For  any  given  frequency,  one  can
+–  1  nulls  in  the  directional  characteristic  of  the  array.  Similarly,
+N
+show  that 
+– 1 frequencies. The
+attaching an 
+weights for these ﬁlters have to be adapted, usually under the constraint that the transfer function (frequency
+source is optimally ﬂat. In practical tests, systems of this kind work
+characteristic) of the array for the 
+nicely in (almost) anechoic environments. Their performance degrades, however, with increasing reverberation.
+More information on microphone arrays can be found in Flanagan et al. [1991]; in particular, they describe
+how  to  make  arrays  adapt  to  changing  talker  positions  in  a  room  by  constantly  scanning  the  room  with  a
+moving search beam and by switching the main beam accordingly. Current research issues are, among others,
+3-D arrays and how to take advantage of low-order wall reﬂections.

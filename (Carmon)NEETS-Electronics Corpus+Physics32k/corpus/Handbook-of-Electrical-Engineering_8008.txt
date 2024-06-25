@@ -1,0 +1,9 @@
+Even the simplest 4-bit processor in wide use (National Semiconductor COP400) has a 10-bit address bus
+(and  a  4-bit  data  bus).  The  device  can  have  up  to  1 K  words  (1024  bytes)  of  memory  on  the  chip,  which  is
+often enough for a simple dedicated task. Thus, these chips often appear as single items in simple computer-
+controlled devices. Most of these chips are found in embedded applications, in kitchen appliances, and in toys.
+m
+Ps are 8-bit devices; they use 8-bit-wide (1 byte) data paths, but have address
+busses usually 16 (or more) bits. Often the data bus is time-multiplexed with the lower byte of the address bus.
+These types of devices can access as much as 65 K memory locations. The typical instruction execution time
+is 3 to 7 bus cycles. A widely used 8-bit processor is the Zilog Z-80.

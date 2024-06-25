@@ -1,0 +1,5 @@
+Similarly, inverting devices such as inverters or NAND gates must convert
+input low to high transitions of the form VIL → VIH to output high to low
+transitions of the form VOH → VOL. Like the non-inverting case, the conditions
+on the magnitude of the gain for transitions from VIL → VIH remain unchanged.
+Returning to our buffer example, the gain for the VIL → VIH transition is

@@ -1,0 +1,11 @@
+Radio and Television Broadcasting
+Radio (AM and FM) and television broadcasting are the most familiar forms of communication
+via analog transmission systems. The receiver most commonly used in AM radio broadcasting is
+the superheterodyne receiver, shown in Figure 15.2.20, which consists of a radio-frequency (RF)
+tuned ampliﬁer, mixer, local oscillator, intermediate frequency (IF) ampliﬁer, envelope detector,
+audio-frequency ampliﬁer, and a loudspeaker. Tuning at the desired radio frequency fc is achieved
+by a variable capacitor, which simultaneously tunes the RF ampliﬁer and the frequency f LO of the
+local oscillator. Every AM radio signal, in a superheterodyne receiver, is converted to a common IF
+frequency of fIF = |fc − fLO| = 455 kHz, which allows the use of a single tuned IF ampliﬁer for
+signals from any radio station in the frequency band. Matching the bandwidth of the transmitted
+signal, the IF ampliﬁer is set to have a bandwidth of 10 kHz.

@@ -1,0 +1,16 @@
+Compare instructions compare data in the ac-
+cumulator with data from a memory location or an-
+other register. The result of the comparison is not 
+stored in the accumulator, but a flag bit might change 
+as a result of it. Masking or bit testing may be used 
+to perform comparison. masking is a process of sub-
+tracting two numbers and allowing only certain bits 
+through. The mask is a predetermined set of bits that 
+is used to determine whether certain conditions ex-
+ist within the MPU. There is a disadvantage with the 
+masking procedure because it uses an AND instruc-
+tion and therefore destroys the content of the accumu-
+lator. The bit-testing procedure, although it also uses 
+an AND instruction, does not destroy the content of 
+the accumulator. Not all microprocessors have a bit-
+testing instruction.

@@ -1,0 +1,4 @@
+Unlike dynamic metabolic simulation, FBA assumes that the internal concentration of metabolites within a system stays constant over time and thus is unable to provide anything other than steady-state solutions. It is unlikely that FBA could, for example, simulate the functioning of a nerve cell. Since the internal concentration of metabolites is not considered within a model, it is possible that an FBA solution could contain metabolites at a concentration too high to be biologically acceptable. This is a problem that dynamic metabolic simulations would probably avoid. One advantage of the simplicity of FBA over dynamic simulations is that they are far less computationally expensive, allowing the simulation of large numbers of perturbations to the network. A second advantage is that the reconstructed model can be substantially simpler by avoiding the need to consider enzyme rates and the effect of complex interactions on enzyme kinetics.
+
+
+== References ==

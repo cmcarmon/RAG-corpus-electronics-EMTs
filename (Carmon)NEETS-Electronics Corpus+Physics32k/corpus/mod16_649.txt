@@ -1,0 +1,6 @@
+Synchronization is also used to cause a free-running condition without a trigger signal.
+Synchronization is not the same as triggering. TRIGGERING refers to a specific action or event that
+initiates an operation. Without this event, the operation would not occur. In the case of the triggered
+sweep, the sweep will not be started until a trigger is applied. Each succeeding sweep must have a trigger
+before a sweep commences. SYNCHRONIZATION, however, means that an operation or event is
+brought into step with a second operation.

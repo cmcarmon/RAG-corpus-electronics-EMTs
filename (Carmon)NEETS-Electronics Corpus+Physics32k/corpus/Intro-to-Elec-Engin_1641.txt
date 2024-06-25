@@ -1,0 +1,8 @@
+The simple conﬁguration shown in Figure 16.2.2 is actually the basic building block of a
+complex block diagram. The arrows on the diagram imply that the block diagram has a unilateral
+property; in other words, a signal can pass only in the direction of the arrows. A box is the
+symbol for multiplication; the input quantity is multiplied by the function in the box to obtain the
+output. With circles indicating summing points (in an algebraic sense), and with boxes or blocks
+denoting multiplication, any linear mathematical expression can be represented by block-diagram
+notation, as in Figure 16.2.3 for an elementary feedback control system. The expression for the
+output quantity with negative feedback is given by

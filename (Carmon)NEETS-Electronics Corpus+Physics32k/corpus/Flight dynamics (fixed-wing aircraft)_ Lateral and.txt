@@ -1,0 +1,257 @@
+The states are
+
+
+
+β
+
+
+{\displaystyle \beta }
+(sideslip), r (yaw rate) and p (roll rate), with moments N (yaw) and L (roll), and force Y (sideways). There are nine stability derivatives relevant to this motion, the following explains how they originate. However a better intuitive understanding is to be gained by simply playing with a model airplane, and considering how the forces on each component are affected by changes in sideslip and angular velocity:
+
+
+
+
+
+Y
+
+β
+
+
+
+
+{\displaystyle Y_{\beta }}
+Side force due to side slip (in absence of yaw).
+
+Sideslip generates a sideforce from the fin and the fuselage. In addition, if the wing has dihedral, side slip at a positive roll angle increases incidence on the starboard wing and reduces it on the port side, resulting in a net force component directly opposite to the sideslip direction. Sweep back of the wings has the same effect on incidence, but since the wings are not inclined in the vertical plane, backsweep alone does not affect
+
+
+
+
+Y
+
+β
+
+
+
+
+{\displaystyle Y_{\beta }}
+. However, anhedral may be used with high backsweep angles in high performance aircraft to offset the wing incidence effects of sideslip. Oddly enough this does not reverse the sign of the wing configuration's contribution to
+
+
+
+
+Y
+
+β
+
+
+
+
+{\displaystyle Y_{\beta }}
+(compared to the dihedral case).
+
+
+
+
+
+Y
+
+p
+
+
+
+
+{\displaystyle Y_{p}}
+Side force due to roll rate.
+
+Roll rate causes incidence at the fin, which generates a corresponding side force. Also, positive roll (starboard wing down) increases the lift on the starboard wing and reduces it on the port. If the wing has dihedral, this will result in a side force momentarily opposing the resultant sideslip tendency. Anhedral wing and or stabilizer configurations can cause the sign of the side force to invert if the fin effect is swamped.
+
+
+
+
+
+Y
+
+r
+
+
+
+
+{\displaystyle Y_{r}}
+Side force due to yaw rate.
+
+Yawing generates side forces due to incidence at the rudder, fin and fuselage.
+
+
+
+
+
+N
+
+β
+
+
+
+
+{\displaystyle N_{\beta }}
+Yawing moment due to sideslip forces.
+
+Sideslip in the absence of rudder input causes incidence on the fuselage and empennage, thus creating a yawing moment counteracted only by the directional stiffness which would tend to point the aircraft's nose back into the wind in horizontal flight conditions. Under sideslip conditions at a given roll angle
+
+
+
+
+N
+
+β
+
+
+
+
+{\displaystyle N_{\beta }}
+will tend to point the nose into the sideslip direction even without rudder input, causing a downward spiraling flight.
+
+
+
+
+
+N
+
+p
+
+
+
+
+{\displaystyle N_{p}}
+Yawing moment due to roll rate.
+
+Roll rate generates fin lift causing a yawing moment and also differentially alters the lift on the wings, thus affecting the induced drag contribution of each wing, causing a (small) yawing moment contribution. Positive roll generally causes positive
+
+
+
+
+N
+
+p
+
+
+
+
+{\displaystyle N_{p}}
+values unless the empennage is anhedral or fin is below the roll axis. Lateral force components resulting from dihedral or anhedral wing lift differences has little effect on
+
+
+
+
+N
+
+p
+
+
+
+
+{\displaystyle N_{p}}
+because the wing axis is normally closely aligned with the center of gravity.
+
+
+
+
+
+N
+
+r
+
+
+
+
+{\displaystyle N_{r}}
+Yawing moment due to yaw rate.
+
+Yaw rate input at any roll angle generates rudder, fin and fuselage force vectors which dominate the resultant yawing moment. Yawing also increases the speed of the outboard wing whilst slowing down the inboard wing, with corresponding changes in drag causing a (small) opposing yaw moment.
+
+
+
+
+N
+
+r
+
+
+
+
+{\displaystyle N_{r}}
+opposes the inherent directional stiffness which tends to point the aircraft's nose back into the wind and always matches the sign of the yaw rate input.
+
+
+
+
+
+L
+
+β
+
+
+
+
+{\displaystyle L_{\beta }}
+Rolling moment due to sideslip.
+
+A positive sideslip angle generates empennage incidence which can cause positive or negative roll moment depending on its configuration. For any non-zero sideslip angle dihedral wings causes a rolling moment which tends to return the aircraft to the horizontal, as does back swept wings. With highly swept wings the resultant rolling moment may be excessive for all stability requirements and anhedral could be used to offset the effect of wing sweep induced rolling moment.
+
+
+
+
+
+L
+
+r
+
+
+
+
+{\displaystyle L_{r}}
+Rolling moment due to yaw rate.
+
+Yaw increases the speed of the outboard wing whilst reducing speed of the inboard one, causing a rolling moment to the inboard side. The contribution of the fin normally supports this inward rolling effect unless offset by anhedral stabilizer above the roll axis (or dihedral below the roll axis).
+
+
+
+
+
+L
+
+p
+
+
+
+
+{\displaystyle L_{p}}
+Rolling moment due to roll rate.
+
+Roll creates counter rotational forces on both starboard and port wings whilst also generating such forces at the empennage. These opposing rolling moment effects have to be overcome by the aileron input in order to sustain the roll rate. If the roll is stopped at a non-zero roll angle the
+
+
+
+
+L
+
+β
+
+
+
+
+{\displaystyle L_{\beta }}
+upward rolling moment induced by the ensuing sideslip should return the aircraft to the horizontal unless exceeded in turn by the downward
+
+
+
+
+L
+
+r
+
+
+
+
+{\displaystyle L_{r}}
+rolling moment resulting from sideslip induced yaw rate. Longitudinal stability could be ensured or improved by minimizing the latter effect.

@@ -1,0 +1,8 @@
+2n-R D/A CONVERTER
+An n-bit 2n–R D/A converter needs 2n resistors of equal value R and (2n+1−2) analog switches. A
+3-bit 2n− R D/A converter is shown in Figure 6.2.11, which includes the eight resistors connected
+in series to form a voltage divider providing eight analog voltage levels, as well as 14 analog
+switches controlled by the digital input code such that each code creates a single path from the
+voltage divider to the converter output. A unit-gain ampliﬁer is connected to the output in order
+to prevent loading of the voltage divider. 2n–R D/A converters are economically manufactured as
+LSI packages in spite of the large number of components needed.

@@ -1,0 +1,114 @@
+The approach of Sakurai (1994) is followed.
+Pick three arbitrary directions a, b, and c in which Alice and Bob can measure the spins of each electron they receive. We assume three hidden variables on each electron, for the three direction spins. We furthermore assume that these hidden variables are assigned to each electron pair in a consistent way at the time they are emitted from the source, and don't change afterwards. We do not assume anything about the probabilities of the various hidden variable values.
+Alice and Bob are two spatially separated observers. Between them is an apparatus that continuously produces pairs of electrons. One electron in each pair is sent toward Alice, and the other toward Bob. The setup is shown in the diagram.
+
+(This is just a thought-experiment, remember. Real experiments on pairs of electrons are not feasible and most "Bell test experiments" have instead been based on either the polarisation direction or the frequency and phase of light as individual particles called photons.)
+The electron pairs are specially prepared so that if both observers measure the spin of their electron along the same axis, then they will always get opposite results. For example, suppose Alice and Bob both measure the z-component of the spins that they receive. According to quantum mechanics, each of Alice's measurements will give either the value +1/2 or −1/2, with equal probability. For each result of +1/2 obtained by Alice, Bob's result will inevitably be −1/2, and vice versa.
+Mathematically, the state of each two-electron composite system can be described by the state vector
+(1)
+
+
+
+
+|
+ψ
+⟩
+
+=
+
+
+
+
+
+
+1
+
+2
+
+
+
+
+
+
+
+
+(
+
+
+
+|
+
+z
++
+
+⟩
+
+
+A
+
+
+
+
+|
+
+z
+−
+
+⟩
+
+
+B
+
+
+−
+
+
+|
+
+z
+−
+
+⟩
+
+
+A
+
+
+
+
+|
+
+z
++
+
+⟩
+
+
+B
+
+
+
+)
+
+.
+
+
+{\displaystyle \left|\psi \right\rangle ={\begin{matrix}{\frac {1}{\sqrt {2}}}\end{matrix}}\left(\left|z+\right\rangle _{A}\left|z-\right\rangle _{B}-\left|z-\right\rangle _{A}\left|z+\right\rangle _{B}\right).}
+
+Each ket is labelled by the direction in which the electron spin points. The above state is known as a spin singlet. The z-component of the spin corresponds to the operator (1/2)σz, where σz is the third Pauli matrix.
+It is possible to explain this phenomenon without resorting to quantum mechanics. Suppose our electron-producing apparatus assigns a parameter, known as a hidden variable, to each electron. It labels one electron "spin +1/2", and the other "spin −1/2". The choice of which of the two electrons to send to Alice is decided by some classical random process. Thus, whenever Alice measures the z-component spin and finds that it is +1/2, Bob will measure −1/2, simply because that is the label assigned to his electron. This reproduces the effects of quantum mechanics, while preserving the locality principle.
+The appeal of the hidden variables explanation dims if we notice that Alice and Bob are not restricted to measuring the z-component of the spin. Instead, they can measure the component along any arbitrary direction, and the result of each measurement is always either +1/2 or −1/2. Therefore, each electron must have an infinite number of hidden variables, one for each measurement that could possibly be performed.
+This is ugly, but not in itself fatal. However, Bell showed that by choosing just three directions in which to perform measurements, Alice and Bob can differentiate hidden variables from quantum mechanics.
+Each row in the table describes one type of electron pair, with their respective hidden variable values and their probabilities P. Suppose Alice measures the spin in the a direction and Bob measures it in the b direction. Denote the probability that Alice obtains +1/2 and Bob obtains +1/2 by
+(2) P(a+, b+) = P3 + P4
+Similarly, if Alice measures spin in a direction and Bob measures in c direction, the probability that both obtain +1/2 is
+(3) P(a+, c+) = P2 + P4
+Finally, if Alice measures spin in c direction and Bob measures in b direction, the probability that both obtain the value +1/2 is
+(4) P(c+, b+) = P3 + P7
+The probabilities P are always non-negative, and therefore:
+(5) P3 + P4 ≤ P3 + P4 + P2 + P7
+This gives
+(6) P(a+, b+) ≤ P(a+, c+) + P(c+, b+)
+which is a (rather trivial) Bell inequality. It must be satisfied by any hidden variable theory if it is to match the quantum-mechanical prediction in circumstances in which every single particle is detected.
+The quantum-mechanical prediction for the above setup is:
+(7) P(a+, b+) = 1/2 (sin(a − b)/2)2.

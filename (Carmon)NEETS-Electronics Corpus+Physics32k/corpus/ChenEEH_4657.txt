@@ -1,0 +1,17 @@
+This chapter describes two recently developed theoretical
+results, extensions to the existing theory highlighted in the
+previous paragraphs for SMC based on Li and Yurkovich
+(2000, 2001). In the ﬁrst technique (Li and Yurkovich, 2001),
+where SMC is extended for a class of point-delayed systems, a
+linear transformation is applied to convert the delayed system
+to a delay-free system whose spectra embed all the unstable
+poles of the original system with a given stability margin. It
+can be proven that the delayed system is asymptotically stable
+with SMC, based on the delay-free system. In the second ap-
+proach, an adaptive SMC design method for discrete nonlinear
+systems, where explicit knowledge of the system dynamics is not
+available, is developed. A three layer feed-forward neural net-
+work is used as a function approximator for the unknown
+dynamics. The control law is designed based on the outputs of
+the approximators, and the sliding surface is deﬁned in terms of
+a stable polynomial of the system outputs.

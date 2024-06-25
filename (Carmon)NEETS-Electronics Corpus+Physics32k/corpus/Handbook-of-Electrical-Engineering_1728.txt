@@ -1,0 +1,5 @@
+Image compression algorithms depend for their success on two separate factors: redundancy and irrelevancy.
+Redundancy  refers  to  the  fact  that  each  pixel  in  an  image  does  not  take  on  all  possible  values  with  equal
+probability, and the value that it does take on is not independent of that of the other pixels in the image. If
+this were not true, the image would appear as a white noise pattern such as that seen when a television receiver
+is  tuned  to  an  unused  channel.  From  an  information-theoretic  point  of  view,  such  an  image  contains  the

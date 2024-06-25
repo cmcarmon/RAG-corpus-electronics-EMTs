@@ -1,0 +1,36 @@
+Video Summarization
+Once a video clip has been segmented into atomic units based
+on visual content coherence, the next step is to compactly
+represent the individual units. This task is the major block in
+summarizing video content using a table of contents approach.
+This step also facilitates efﬁcient matching between two shots
+at query time for content-based retrieval. Most existing
+systems represent video content by using one representative
+frame from the shot called a keyframe. Keyframe-based repre-
+sentation has been recognized as an important research issue in
+content-based video abstraction. The simplest approach for
+this problem is to use the ﬁrst frame of each shot as a keyframe
+(Nagasaka and Tanaka, 1992). Although the approach is
+simple, it is limited because each shot is allotted only one
+frame for its representation irrespective of the complexity of
+the shot content. In addition, the choice of the ﬁrst frame over
+other frames in the shot is arbitrary. To have more ﬂexibility in
+keyframe-based representation of a video shot, Zhang et al.
+(1997) proposed to use multiple frames to represent each shot.
+They used criteria such as color content change and zoom-in
+type of effects in shot content to decide on the keyframes for
+each shot. A technique for shot content representation and
+similarity measure using subshot extraction and representa-
+tion is presented in Lin et al. (2001). This approach uses
+two content descriptors, dominant color histogram (DCH)
+and spatial structure histogram (SSH), to measure content
+variation and to represent subshots. The quantized hue, satu-
+ration, and value (HSV) color histogram are First Computed
+for each frame. Next, the dominant local maxima positions in
+each frame’s histogram are identiﬁed and tracked throughout
+the shot. After tracking, only the colors with longer durations
+are retained as dominant colors of the shot. Histogram bins are
+ﬁnally weighted by the duration of each bin in the whole shot.
+SSH is computed based on spatial information of color blobs.
+For each blob, histograms are computed for the area, position,
+and deviation.

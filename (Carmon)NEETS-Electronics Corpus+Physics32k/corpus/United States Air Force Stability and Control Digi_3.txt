@@ -1,0 +1,5 @@
+Inlets, external stores, and other protuberances cannot be input because Digital DATCOM analyzes the fuselage as a body of revolution. The simplification affects the coefficient of drag for the aircraft.
+Dynamic derivatives are not output for aircraft that have wings that are not straight-tapered or have leading edge extensions. This problem can be overcome by using experimental data for the wing-body (using non-straight tapered wing).
+There is no method to input twin vertical tails mounted on the fuselage, although there is a method for H-Tails. This problem can be addressed by approximating the twin vertical tails as a single equivalent vertical tail mounted to the fuselage.
+Digital DATCOM cannot provide outputs for the control derivatives with regard to the rudder control surface. According to the manual, there is no any input parameters which define the geometriy of rudder.
+Digital DATCOM cannot analyze three lifting surfaces at once, such as a canard-wing-horizontal tail configuration. This problem can be addressed by superposition of lifting surfaces through the experimental input option.

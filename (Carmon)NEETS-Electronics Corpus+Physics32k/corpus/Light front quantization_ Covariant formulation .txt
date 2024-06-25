@@ -1,0 +1,495 @@
+In light-front coordinates,
+
+
+
+
+x
+
++
+
+
+=
+c
+t
++
+z
+
+
+{\displaystyle x^{+}=ct+z}
+,
+
+
+
+
+x
+
+−
+
+
+=
+c
+t
+−
+z
+
+
+{\displaystyle x^{-}=ct-z}
+, the spatial coordinates
+
+
+
+x
+,
+y
+,
+z
+
+
+{\displaystyle x,y,z}
+do not enter symmetrically: the coordinate
+
+
+
+z
+
+
+{\displaystyle z}
+is distinguished, whereas
+
+
+
+x
+
+
+{\displaystyle x}
+and
+
+
+
+y
+
+
+{\displaystyle y}
+do not appear at all. This non-covariant definition destroys the spatial symmetry that, in its turn, results in a few difficulties related to the fact that some transformation of the reference frame may change the orientation of the light-front plane. That is, the transformations of the reference frame and variation of orientation of the light-front plane are not decoupled from each other. Since the wave function depends dynamically on the orientation of the plane where it is defined, under these transformations the light-front wave function is transformed by dynamical operators (depending on the interaction). Therefore, in general, one should know the interaction to go from given reference frame to the new one. The loss of symmetry between the coordinates
+
+
+
+z
+
+
+{\displaystyle z}
+and
+
+
+
+x
+,
+y
+
+
+{\displaystyle x,y}
+complicates also the construction of the states with definite angular momentum since the latter is just a property of the wave function relative to the rotations which affects all the coordinates
+
+
+
+x
+,
+y
+,
+z
+
+
+{\displaystyle x,y,z}
+.
+To overcome this inconvenience, there was developed the explicitly covariant version of light-front quantization (reviewed by Carbonell et al.), in which the state vector is defined on the light-front plane of general orientation:
+
+
+
+ω
+⋅
+x
+=
+
+ω
+
+0
+
+
+c
+t
+−
+
+
+
+ω
+→
+
+
+
+⋅
+
+
+
+x
+→
+
+
+
+=
+
+ω
+
+0
+
+
+t
+−
+
+ω
+
+x
+
+
+x
+−
+
+ω
+
+y
+
+
+y
+−
+
+ω
+
+z
+
+
+z
+=
+0
+
+
+{\displaystyle \omega \cdot x=\omega _{0}ct-{\vec {\omega }}\cdot {\vec {x}}=\omega _{0}t-\omega _{x}x-\omega _{y}y-\omega _{z}z=0}
+(instead of
+
+
+
+c
+t
++
+z
+=
+0
+
+
+{\displaystyle ct+z=0}
+), where
+
+
+
+x
+=
+(
+c
+t
+,
+
+
+
+x
+→
+
+
+
+)
+
+
+{\displaystyle x=(ct,{\vec {x}})}
+is a four-dimensional vector in the four-dimensional space-time and
+
+
+
+ω
+=
+(
+
+ω
+
+0
+
+
+,
+
+
+
+ω
+→
+
+
+
+)
+
+
+{\displaystyle \omega =(\omega _{0},{\vec {\omega }})}
+is also a four-dimensional vector with the property
+
+
+
+
+ω
+
+2
+
+
+=
+
+ω
+
+0
+
+
+2
+
+
+−
+
+
+
+
+ω
+→
+
+
+
+
+2
+
+
+=
+0
+
+
+{\displaystyle \omega ^{2}=\omega _{0}^{2}-{\vec {\omega }}^{2}=0}
+. In the particular case
+
+
+
+ω
+=
+(
+1
+
+/
+
+c
+,
+0
+,
+0
+,
+−
+1
+
+/
+
+c
+)
+
+
+{\displaystyle \omega =(1/c,0,0,-1/c)}
+we come back to the standard construction. In the explicitly covariant formulation the transformation of the reference frame and the change of orientation of the light-front plane are decoupled. All the rotations and the Lorentz transformations are purely kinematical (they do not require knowledge of the interaction), whereas the (dynamical) dependence on the orientation of the light-front plane is covariantly parametrized by the wave function dependence on the four-vector
+
+
+
+ω
+
+
+{\displaystyle \omega }
+.
+There were formulated the rules of graph techniques which, for a given Lagrangian, allow to calculate the perturbative decomposition of the state vector evolving in the light-front time
+
+
+
+σ
+=
+ω
+⋅
+x
+
+
+{\displaystyle \sigma =\omega \cdot x}
+(in contrast to the evolution in the direction
+
+
+
+
+x
+
++
+
+
+
+
+{\displaystyle x^{+}}
+or
+
+
+
+t
+
+
+{\displaystyle t}
+). For the instant form of dynamics, these rules were firstl developed by Kadyshevsky.  By these rules, the light-front amplitudes are represented as the integrals over the momenta of particles in intermediate states. These integrals are three-dimensional, and all the four-momenta
+
+
+
+
+k
+
+i
+
+
+
+
+{\displaystyle k_{i}}
+are on the corresponding mass shells
+
+
+
+
+k
+
+i
+
+
+2
+
+
+=
+
+m
+
+i
+
+
+2
+
+
+
+
+{\displaystyle k_{i}^{2}=m_{i}^{2}}
+, in contrast to the Feynman rules containing four-dimensional integrals over the off-mass-shell momenta. However, the calculated light-front amplitudes, being on the mass shell, are in general the off-energy-shell amplitudes. This means that the on-mass-shell four-momenta, which these amplitudes depend on, are not conserved in the direction
+
+
+
+
+x
+
+−
+
+
+
+
+{\displaystyle x^{-}}
+(or, in general, in the direction
+
+
+
+ω
+
+
+{\displaystyle \omega }
+). The off-energy shell amplitudes do not coincide with the Feynman amplitudes, and they depend on the orientation of the light-front plane. In the covariant formulation, this dependence is explicit: the amplitudes are functions of
+
+
+
+ω
+
+
+{\displaystyle \omega }
+. This allows one to apply to them in full measure the well known techniques developed for the covariant [[Feynman amplitudes]] (constructing the invariant variables, similar to the Mandelstam variables, on which the amplitudes depend; the decompositions, in the case of particles with spins, in invariant amplitudes; extracting electromagnetic form factors; etc.). The irreducible off-energy-shell amplitudes serve as the kernels of equations for the light-front wave functions. The latter ones are found from these equations and used to analyze hadrons and nuclei.
+For spinless particles, and in the particular case of
+
+
+
+ω
+=
+(
+1
+
+/
+
+c
+,
+0
+,
+0
+,
+−
+1
+
+/
+
+c
+)
+
+
+{\displaystyle \omega =(1/c,0,0,-1/c)}
+, the amplitudes found by the rules of covariant graph techniques, after replacement of variables, are reduced to the amplitudes given by the Weinberg rules in the infinite momentum frame. The dependence on orientation of the light-front plane manifests itself in the dependence of the off-energy-shell Weinberg amplitudes on the variables
+
+
+
+
+
+
+
+k
+→
+
+
+
+
+⊥
+i
+
+
+,
+
+x
+
+i
+
+
+
+
+{\displaystyle {\vec {k}}_{\perp i},x_{i}}
+taken separately but not in some particular combinations like the Mandelstam variables
+
+
+
+s
+,
+t
+
+
+{\displaystyle s,t}
+.
+On the energy shell, the amplitudes do not depend on the four-vector
+
+
+
+ω
+
+
+{\displaystyle \omega }
+determining orientation of the corresponding light-front plane. These on-energy-shell amplitudes coincide with the on-mass-shell amplitudes given by the Feynman rules. However, the dependence on
+
+
+
+ω
+
+
+{\displaystyle \omega }
+can survive because of approximations.

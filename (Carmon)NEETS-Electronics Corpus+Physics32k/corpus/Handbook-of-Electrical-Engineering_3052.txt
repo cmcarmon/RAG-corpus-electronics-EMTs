@@ -1,0 +1,7 @@
+where K is a constant chosen by the designer and which provides the capacity to scale component values in
+the  ﬁnal  ﬁlter.  Since  impedance  transformations  do  not  affect  voltage  and  current  transfer  ratios,  the  VTF
+remains unaltered by this change. The Bruton transformation is applied directly to the elements in the prototype
+network, and it follows from Eq. (29.10) that a resistance R transforms into a capacitance C = K/R, while an
+inductance L transforms into a resistance R = KL. The elimination of inductors in favor of resistors is the key
+purpose of the Bruton transform method. Applying the Bruton transform to a prototype circuit capacitance
+C gives

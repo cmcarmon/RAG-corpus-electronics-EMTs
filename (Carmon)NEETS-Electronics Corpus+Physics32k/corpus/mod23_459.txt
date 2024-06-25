@@ -1,0 +1,4 @@
+The write/read electronics consists of the write part and the read part. The write part takes incoming 
+data from the interface electronics, formats it as needed, and writes it onto the disk. The read part reads 
+the data off of the disk, formats it as needed, and sends it to the interface electronics for output to the host 
+computer. The write/read electronics also performs the initial disk formatting function. 

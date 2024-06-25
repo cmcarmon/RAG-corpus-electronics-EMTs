@@ -1,0 +1,10 @@
+Programmable Gate Arrays (FPGAs)
+Gate arrays are semicustom devices based on an array of simple cells selected from a library surrounded by an
+interconnection  network.  In  conventional  gate  array  technology,  the  interconnection  pattern  is  deﬁned  by
+metallization layers applied at the ﬁnal stage of manufacture. FPGAs dispense with this ﬁnal stage by possessing
+a ﬁxed interconnection network which includes programmable crosspoint switches, as shown in Fig. 81.47. The
+cells, instead of being selected from a library, are generic and have programmable function. The price for doing
+this  is  a  lower  logic  density  and  higher  resistance  interconnections,  with  concomitant  effect  on  speed  of
+operation. Nevertheless, this disadvantage is more than overcome by the short design turnaround times achiev-
+able. A major tradeoff in gate array architecture is between cell complexity and interconnection channel capacity.
+This remains the case with FPGAs.

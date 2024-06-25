@@ -1,0 +1,19 @@
+coefﬁcients and number of multiplier operations.5 For a pre-
+scribed set of frequency speciﬁcations and a particular ﬁlter
+structure, a certain order N0 may be capable of meeting the
+speciﬁcations with inﬁnite precision. For ﬁlters with an order
+lower than N0, it is not possible to meet the prescribed speciﬁ-
+cations. Inﬁnite precision is translated as very high complexity
+because an inﬁnite number of bits is required. If higher order is
+used, the number of bits necessary for multiplier coefﬁcients
+may be reduced, implying lower complexity. An order N1 in
+Figure 2.26 is the order of the implementation with the lowest
+possible complexity. Orders higher than N1 will necessarily
+imply higher complexity. The heuristic introduced here,
+when applied to the case of FIR ﬁlter designs using direct-
+form realizations, leads to complexity curves that are very ﬂat
+around their minimum point, indicating that almost min-
+imum complexity can be achieved for a wide range of values
+for the ﬁlter order. On the other hand, for IIR ﬁlters, the
+complexity curve is rather sharp, implying that a more careful
+choice for the ﬁlter order should be made.

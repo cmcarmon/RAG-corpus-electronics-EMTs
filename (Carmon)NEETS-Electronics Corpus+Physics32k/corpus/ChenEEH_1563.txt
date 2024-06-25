@@ -1,0 +1,14 @@
+EMYCIN (Buchanan and Shortliffe, 1984) is an example of
+shells. The tools it provides include (a) an abbreviated rule
+language that is easier to read than LISP and more concise than
+the English subset used by MYCIN; (b) an indexing and
+grouping scheme for rules; (c) a goal-driven inference engine;
+(d) a communication interface between the program and the
+end user; (e) an interface between the system designer and the
+program, which supports displaying and editing rules, editing
+knowledge in tables, and running selected rules sets on a
+problem; and (f) facilities for monitoring the behavior of the
+program, such as explaining how a conclusion is reached,
+comparing the results of the current run with correct results
+and exploring the discrepancies, and reviewing conclusions
+about a stored library of cases.

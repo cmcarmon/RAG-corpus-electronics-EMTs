@@ -1,0 +1,7 @@
+As suggested in Figure 10.57, a simple modification of our memory circuit
+can make it restoring. This design adds a pair of series connected inverters (or
+a buffer) to the output of our previous memory element circuit. The buffer will
+restore a VIH voltage on the capacitor terminal to a VOH voltage at the dOUT
+output. Interestingly, when a buffer is included in the memory element circuit,
+we do not need to implement a special capacitor to hold charge. Rather, the
+gate capacitance of the buffer CGS forms the memory capacitance CM.

@@ -1,0 +1,140 @@
+Given a dynamical system (T, M, Φ) with T a group, M a set and Φ the evolution function
+
+
+
+
+Φ
+:
+U
+→
+M
+
+
+{\displaystyle \Phi :U\to M}
+where
+
+
+
+U
+⊂
+T
+×
+M
+
+
+{\displaystyle U\subset T\times M}
+with
+
+
+
+Φ
+(
+0
+,
+x
+)
+=
+x
+
+
+{\displaystyle \Phi (0,x)=x}
+
+we define
+
+
+
+
+I
+(
+x
+)
+:=
+{
+t
+∈
+T
+:
+(
+t
+,
+x
+)
+∈
+U
+}
+,
+
+
+{\displaystyle I(x):=\{t\in T:(t,x)\in U\},}
+
+then the set
+
+
+
+
+
+γ
+
+x
+
+
+:=
+{
+Φ
+(
+t
+,
+x
+)
+:
+t
+∈
+I
+(
+x
+)
+}
+⊂
+M
+
+
+{\displaystyle \gamma _{x}:=\{\Phi (t,x):t\in I(x)\}\subset M}
+
+is called orbit through x. An orbit which consists of a single point is called constant orbit. A non-constant orbit is called closed or periodic if there exists a
+
+
+
+t
+≠
+0
+
+
+{\displaystyle t\neq 0}
+in
+
+
+
+I
+(
+x
+)
+
+
+{\displaystyle I(x)}
+such that
+
+
+
+
+Φ
+(
+t
+,
+x
+)
+=
+x
+
+
+{\displaystyle \Phi (t,x)=x}
+.

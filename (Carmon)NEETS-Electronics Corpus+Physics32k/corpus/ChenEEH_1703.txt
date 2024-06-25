@@ -1,0 +1,22 @@
+Compensation for Camera and Background Movement
+The motion content in a video sequence is the result of either
+camera motion (e.g., pan, zoom, or tilt) or object and back-
+ground motion. Panning motion of a camera is deﬁned as
+rotation along the horizontal axis, whereas tilt is rotation
+along the vertical axis. The major concern in motion
+content-based video indexing and retrieval is almost always
+the object’s motion and not the camera effects. This is because
+while querying video indexing and retrieval systems, users tend
+to be more interested in the maneuvering of the objects in the
+scene and not the way camera is being tilted, rotated, or
+zoomed with respect to the object. The problem is that the
+true motion of the object cannot be assessed unless the camera
+motion is compensated for. This problem always arises in case
+of a video of a moving object recorded with a mobile camera.
+Similarly, quite often there is object motion as well as back-
+ground movement in the video sequence. In such cases,
+background movement needs to be differentiated from object
+movement to give the true object motion. Once these motions
+have been separated, the object trajectory can be obtained and
+video data can be indexed based on this motion cue along with
+other features.

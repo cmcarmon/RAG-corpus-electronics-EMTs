@@ -1,0 +1,6 @@
+With zero voltage dropped between the load resistor connection points, the current through
+R1 is strictly a function of B1’s voltage and R1’s resistance: 7 amps (I=E/R). Likewise, the
+current through R3 is now strictly a function of B2’s voltage and R3’s resistance: 7 amps (I=E/R).
+The total current through the short between the load connection points is the sum of these two
+currents: 7 amps + 7 amps = 14 amps. This ﬁgure of 14 amps becomes the Norton source
+current (IN orton) in our equivalent circuit:

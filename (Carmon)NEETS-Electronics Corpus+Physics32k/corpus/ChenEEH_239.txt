@@ -1,0 +1,13 @@
+As the speed of the processors increases, the dynamic
+loading of the VRMs is also signiﬁcantly increased. Future
+microprocessors are expected to exhibit higher current slew
+rates of up to 5 A/ns. These slew rates represent a severe
+problem for the large load changes that are encountered
+when systems transfer from the sleep mode to the active
+mode and vice versa. In these cases, the parasitic impedance
+of the power supply connection to the load and the equivalent
+series resistor (ESR) and equivalent series inductor (ESL) of
+the capacitors have a dramatic effect on VRM voltage (Zhang
+et al., 1996). If this impedance is not low enough, the supply
+voltage may fall out of the required range during the transient
+period. Moreover, the total voltage tolerance will be much

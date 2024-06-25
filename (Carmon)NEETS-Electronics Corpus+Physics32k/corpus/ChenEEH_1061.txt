@@ -1,0 +1,12 @@
+Despite the aforementioned advantages over SCMOS,
+DCMOS is not widely used because of more serious problems,
+namely higher power consumption, charge sharing, cascading,
+and noninverting drawbacks. The higher power consumption
+results from dynamic circuits requiring two phases of oper-
+ation: precharging and evaluation. Due to the inherent struc-
+ture of dynamic circuits, output nodes are precharged every
+clock cycle, which results in a switching activity equivalent to
+the system operating frequency. Since the power consumption
+is proportional to switching activity, more dynamic and short
+circuit power consumption are associated with DCMOS.
+Charge sharing is the process by which the output node charge

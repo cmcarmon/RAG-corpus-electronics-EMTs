@@ -1,0 +1,8 @@
+These voltage outputs can be plotted to show the response curve of the discriminator discussed
+earlier (figure 3-10). When weak AM signals (too small in amplitude to reach the circuit limiting level)
+pass through the limiter stages, they can appear in the output. These unwanted amplitude variations will
+cause primary voltage ep [view (A) of figure 3-11] to fluctuate with the modulation and to induce a
+similar voltage in the secondary of T1. Since the diodes are connected as half-wave rectifiers, these small
+AM signals will be detected as they would be in a diode detector and will appear in the output. This
+unwanted AM interference is cancelled out in the ratio detector (to be studied next in this chapter) and is
+the main disadvantage of the Foster-Seeley circuit.

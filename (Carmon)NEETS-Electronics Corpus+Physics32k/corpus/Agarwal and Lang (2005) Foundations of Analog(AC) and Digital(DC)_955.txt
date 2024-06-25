@@ -1,0 +1,9 @@
+Figure 7.21 plots vO versus vIN for the MOSFET amplifier. This decidedly
+nonlinear relationship is called the transfer function of the amplifier. When
+vIN < VT, the MOSFET is off and the output voltage is VS. In other words,
+iD = 0 when vIN < VT. As vIN increases beyond the threshold voltage VT,
+so does the current sustained by the MOSFET. Therefore vO rapidly decreases
+as vIN increases. The MOSFET operates in the saturation region until the out-
+put voltage vO falls one threshold below the gate voltage, at which point the
+MOSFET enters the triode region (shown as a dashed line in Figure 7.21), and
+the saturation model and Equation 7.14 are no longer valid.

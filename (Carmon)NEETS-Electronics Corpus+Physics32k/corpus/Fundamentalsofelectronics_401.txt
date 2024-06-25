@@ -1,0 +1,17 @@
+In this Fourier-series encoding scheme, we have used the fact that spectral coeﬃcients can be indepen-
+dently speciﬁed and that they can be uniquely recovered from the time-domain signal over one “period.” Do
+note that the signal representing the entire document is no longer periodic. By understanding the Fourier se-
+ries’ properties (in particular that coeﬃcients are determined only over a T -second interval, we can construct
+a communications system. This approach represents a simpliﬁcation of how modern modems represent text
+that they transmit over telephone lines.
+4.7 Filtering Periodic Signals13
+The Fourier series representation of a periodic signal makes it easy to determine how a linear, time-invariant
+ﬁlter reshapes such signals in general. The fundamental property of a linear system is that its input-output
+relation obeys superposition: S [a1s1 (t) + a2s2 (t)] = a1S [s1 (t)] + a2S [s2 (t)]. Because the Fourier series
+represents a periodic signal as a linear combination of complex exponentials, we can exploit the superposition
+property. Furthermore, we found for linear circuits that their output to a complex exponential input is just the
+frequency response evaluated at the signal’s frequency times the complex exponential. Said mathematically,
+if x (t) = ej
+. Thus, if x (t) is periodic thereby
+having a Fourier series, a linear circuit’s output to this signal will be the superposition of the output to each
+component.

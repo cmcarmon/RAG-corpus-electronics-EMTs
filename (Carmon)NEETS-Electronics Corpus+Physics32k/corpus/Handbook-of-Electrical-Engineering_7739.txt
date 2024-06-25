@@ -1,0 +1,9 @@
+Solid-State Disks
+Solid-state disks (SSD), constructed from relatively slow memory chips, can be viewed either as a kind of large
+and slow main memory or as a small and high-speed disk. When viewed as large main memory, the SSD is
+often called expanded storage (ES). The expanded storage found in the IBM 3090 class machines [Buzen and
+Shum,  1986]  supports  operations  for  paging  data  blocks  from  and  to  main  memory.  Usually,  the  expanded
+storage  looks  to  the  system  more  like  memory  than  an  I/O  device:  it  is  directly  attached  to  main  memory
+through a high-speed bus rather than an I/O controller. The maximum transfer bandwidth on the IBM 3090
+between expanded store and memory is two orders of magnitude faster than conventional devices: approxi-
+mately 216 Mbytes/s—one word each 18.5 ns!

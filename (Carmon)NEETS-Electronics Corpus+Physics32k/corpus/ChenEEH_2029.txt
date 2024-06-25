@@ -1,0 +1,9 @@
+Note that the RHS of (Banerjee, 1986) is obtained almost for
+free from the ﬂoating point computations aT
+computed as part of the entire ﬂoating point vector matrix
+product aT
+integer column checksum test.
+The ﬂoating point additions have to be tested by applying
+the ﬂoating point checksum tests to rowsum hB(u):¼ fB(u)
+(i.e., to the ﬁnal matrix product A  B) to give rise to the hybrid
+test for matrix multiplication.

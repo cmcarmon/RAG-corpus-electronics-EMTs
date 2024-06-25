@@ -1,0 +1,37 @@
+In this section, we discuss various FD and FT techniques for
+arithmetic circuits. Many previous designs are only able to
+detect one error in the operation and are classiﬁed as one-
+fault detecting (1-FD). If the error is caused by a transient
+fault, the arithmetic circuit can still be used. Otherwise, the
+circuit and possibly the entire processor in which it is embed-
+ded become useless and must be replaced. Single error
+detecting designs
+time-redundancy
+techniques like recomputation with shifted operands (RESO)
+(Patel and Fung, 1982, 1995), or recomputation with duplica-
+tion with comparison (REDWC) (Johnson et al. 1988) and
+information redundancy methods that use residue codes (Avi-
+zienis, 1973; Rao, 1968), Berger codes (Lo et al., 1993), AN
+codes (Avizienis, 1973), or parity prediction (Nicolaidis, 1993).
+While time redundancy techniques have a very high time
+overhead, duplication has high hardware overhead, and coding
+methods have appreciable time as well as hardware overhead.
+Duplication is the classic hardware redundant method for
+error detection and simply compares the results of two copies
+of a circuit. It is fast but cannot correct an error. RESO (Patel
+and Fung, 1982, 1995) is a well-known time redundant error
+detection method. After an original computation in RESO,
+operands are shifted left so that a fault, if present, will affect
+a different output bit, and then a second computation is
+performed. The result is shifted right, and any difference
+from the ﬁrst result indicates an error. The time overhead is
+100%, and no error correction is possible without additional
+recomputations. Another error detecting technique is REDWC
+(Johnson et al., 1988), which divides a circuit into identical
+upper and lower partitions. The lower halves of the operands
+are applied to both partitions, and results are compared. For
+the upper portions of the operands, the procedure is repeated.
+If the partitions are linearly dependent, as in a ripple-carry
+adder, then time overhead is due only to comparisons and can
+be very low. If the partitions are independent, however, then
+the time overhead becomes 100%.

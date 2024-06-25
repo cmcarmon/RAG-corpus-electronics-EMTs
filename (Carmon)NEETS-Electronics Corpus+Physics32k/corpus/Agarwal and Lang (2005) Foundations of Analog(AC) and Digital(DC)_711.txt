@@ -1,0 +1,5 @@
+below 2 V as a logical 0. Further, suppose that senders are restricted to sending
+voltages lower than 0.5 V for a logical 0. Then, it takes at least 1.5 V of (positive)
+noise to force the sender’s voltage signal on the wire into the forbidden region.
+We say that such a choice of voltage levels offers a noise immunity of 1.5 V for
+a logical 0.2

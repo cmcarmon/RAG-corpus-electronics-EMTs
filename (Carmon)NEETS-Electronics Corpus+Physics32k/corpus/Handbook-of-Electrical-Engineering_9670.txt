@@ -1,0 +1,4 @@
+via  a  two-stage  process:  ﬁrst,  the  document  is  hashed  into  a  (relatively)  short  bit  string,  and  then  the  basic
+signature  scheme  is  applied  to  the  resulting  string.  This  practice,  as  well  as  other  usages  of  the  paradigm,  is
+sound provided the hashing function belongs to a family of Universal One-Way Hash Functions (cf., [Naor and
+Yung, 1989]).

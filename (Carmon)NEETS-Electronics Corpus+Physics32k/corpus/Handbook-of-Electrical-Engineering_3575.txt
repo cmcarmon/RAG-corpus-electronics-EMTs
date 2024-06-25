@@ -1,0 +1,10 @@
+Finally, electrical monitoring testing techniques, also called current/voltage testing, rely on the simple obser-
+vation that an out-of-range current or voltage often indicates a defective or bad part. Possibly a short or open
+is present causing a particular input/output signal to have the wrong voltage or current. Current testing, or Iddq
+testing, is particularly useful for digital systems using CMOS integrated circuit technology. Normally, CMOS
+circuits  have  very  low  static  or  quiescent  currents.  However,  physical  faults,  such  as  gate  oxide  defects,  can
+increase static current by several orders of magnitude. Such a substantial change in static current is straight-
+forward to detect. The principal advantages of current testing are that the tests are simple and the fault models
+address detailed transistor-level defects. However, current testing requires that enough time be allotted between
+input stimuli to allow the circuit to reach a static state, which slows testing down and causes problems with
+circuits that cannot be tested at scaled clock rates.

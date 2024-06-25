@@ -1,0 +1,5 @@
+As shown in this example (Example 6.3), no commas are placed in the bitstream, but you can unambiguously
+decode the sequence of symbols from the bitstream. Huﬀman showed that his (maximally eﬃcient) code had
+the preﬁx property: No code for a symbol began another symbol’s code. Once you have the preﬁx property,
+the bitstream is partially self-synchronizing: Once the receiver knows where the bitstream starts, we can
+assign a unique and correct symbol sequence to the bitstream.

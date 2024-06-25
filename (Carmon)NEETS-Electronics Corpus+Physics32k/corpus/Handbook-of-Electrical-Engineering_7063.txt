@@ -1,0 +1,7 @@
+Rate Distortion Theory
+An inﬁnite number of bits are required to describe an arbitrary real number, and therefore it is not possible
+to perfectly represent a continuous random variable with a ﬁnite number of bits. How “good” can the repre-
+sentation  be? We  ﬁrst  deﬁne  a  distortion  measure,  which  is  a  measure  of  the  distance  between  the  random
+variable and its representation. We can then consider the trade-off between the number of bits used to represent
+a random variable and the distortion incurred. This trade-off is represented by the rate distortion function
+R(D), which represents the minimum rate required to represent a random variable with a distortion D.

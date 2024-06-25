@@ -1,0 +1,15 @@
+Packet Dropping
+Under congestion, some packets need to be dropped by the
+routers. In the past, this was done at random,
+leading to
+inefﬁcient performance for multimedia trafﬁc. For example,
+an MPEG-encoded packet stream contains I, P, and B frames.
+The I frames are compressed without using any temporal
+redundancy between frames, while the P and B frames are
+constructed using motion vectors from I (or P) frames. Thus
+the packets containing I frames are more important than those
+containing P or B frames. When it comes to packet dropping,
+the network should give higher dropping priority to the P and
+B frames than the I frame packets. For a survey on the different
+packet dropping schemes, refer to Labrador and Banerjee
+(1999).

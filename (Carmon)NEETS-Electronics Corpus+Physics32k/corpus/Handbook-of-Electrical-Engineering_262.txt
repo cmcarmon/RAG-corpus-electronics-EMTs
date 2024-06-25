@@ -1,0 +1,11 @@
+Kirchhoff’s Voltage Law
+Kirchhoff ’s voltage law (KVL) describes a relationship among the voltages measured across the branches in any
+closed,  connected  path  in  a  circuit.  Each  branch  in  a  circuit  is  connected  to  two  nodes.  For  the  purpose  of
+applying KVL, a path has an orientation in the sense that in “walking” along the path one would enter one of
+the  nodes  and  exit  the  other.  This  establishes  a  direction  for  determining  the  voltage  across  a  branch  in  the
+path: the voltage is the difference between the potential of the node entered and the potential of the node at
+which the path exits. Alternatively, the voltage drop along a branch is the difference of the node voltage at the
+entered node and the node voltage at the exit node. For example, if a path includes a branch between node “a”
+and node “b”, the voltage drop measured along the path in the direction from node “a” to node “b” is denoted
+by vab and is given by vab = va – vb. Given vab, branch voltage along the path in the direction from node “b” to
+node “a” is vba = vb – va = –vab .

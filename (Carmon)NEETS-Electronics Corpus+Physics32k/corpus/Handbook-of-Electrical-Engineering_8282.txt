@@ -1,0 +1,20 @@
+Output Response Analysis
+Especially when designing a circuit including some BIST, one must decide how to check the correctness of the
+circuit’s  responses  [Bardell  et al.,  1987].  It  is  infeasible  to  store  on-chip  all  expected  responses,  and  thus  a
+data
+common  solution  is  to  reduce  the  circuit  responses  to  relatively  short  sequences:  this  process  is  called 
+  The  normal  conﬁguration  for
+compaction
+input circuit is stimulated by an input pattern generator
+data compaction testing is shown in Fig. 85.5. The 
+†
+(pseudo-random or exhaustive if 
+< 20); the resulting output vector(s), of length up to 2
+, is compacted to a
+very short signature of length 
+k
+ is around 16 to 32 bits). The signature is then compared to
+a known good value. The main advantages of this method are that (1) the testing can be done at circuit speed,
+(2) there is no need to generate test patterns, and (3) the testing circuitry involves a very small area, especially
+if the circuit has been designed using scan techniques (see Section 85.2). The issues revolve around designing
+very efﬁcient input generators and compactors.

@@ -1,0 +1,10 @@
+Modeling Context in Continuous Speech
+Speech recognition cannot be accurately modeled by a concatenation of elementary HMMs corresponding to
+individual phones of a word baseform. A phone is a sub-word acoustic unit of speech. The realizations of the
+phones depend on their context. This is especially true for continuous speech where the phenomenon called
+co-articulation is observed. Co-articulation is when the pronunciation of a phoneme is affected by the phones
+preceding and following it, such as, the t in top and pot. This section discussed several methods that will yield
+HMM building blocks that take into account phonetic context. A word is speciﬁed by its phonetic baseform,
+the phones are transformed into their appropriate allophones according to the context in which they appear,
+and a concatenation of the HMMs of these allophones results in the word HMM. Two standard approaches
+are used to make use of contextual information:

@@ -1,0 +1,24 @@
+may vary slightly for the same relay if subjected to the transi-
+ents coming from different types of fault. The minimum
+acceptable operating time is often established to make sure
+that the relay will operate fast enough to meet other time-
+critical criteria. For the transmission line protection example,
+the overall time budget for clearing faults in a system is
+expressed based on the number of cycles of the fundamental
+frequency voltage and current signals. This time is computed
+from the worst-case fault type persisting and potentially caus-
+ing an instability in the overall power system. To prevent the
+instability from occurring, the fault needs to be cleared well
+before this critical time is reached, hence the deﬁnition of the
+minimum fault clearance time. The relay operating time is
+only a portion of this time-budget allocation. The rest is
+related to the operation of circuit breakers and a possible
+multiple reclosing action that needs to be taken. The consider-
+ation also includes the breaker failure action taken in the case a
+breaker fails to open and other breakers get involved in
+clearing the fault. The relay operating time is a pretty critical
+criterion even though it is allocated a very small portion of the
+mentioned fault-clearing time-budget criteria. As an example,
+the expected average operating time of transmission line relays
+in zone 1 is around one to two fundamental frequency cycles,
+where one cycle duration is 16.666 ms.

@@ -1,0 +1,9 @@
+7.7 O P E R A T I N G P O I N T S E L E C T I O N
+We are often interested in amplifying time-varying signals. Because the amplifier
+turns off for input voltages less than VT, it is important to add an appropriate
+DC offset voltage to the time-varying input signal so that the amplifier remains
+in the saturation region for the entire range of input voltage variation. This
+input DC offset voltage defines the operating point of the amplifier. The DC
+offset must be chosen carefully, for if it is too large, the amplifier will be pushed
+into the triode region, and if it is too low, the amplifier will slide into the cutoff
+region. How do we choose this operating point?

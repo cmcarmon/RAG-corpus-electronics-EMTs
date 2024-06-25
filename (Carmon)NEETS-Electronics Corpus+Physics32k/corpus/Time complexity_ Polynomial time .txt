@@ -1,0 +1,35 @@
+An algorithm is said to be of polynomial time if its running time is upper bounded by a polynomial expression in the size of the input for the algorithm, i.e., T(n) = O(nk) for some constant k. Problems for which a deterministic polynomial time algorithm exists belong to the complexity class P, which is central in the field of computational complexity theory. Cobham's thesis states that polynomial time is a synonym for "tractable", "feasible", "efficient", or "fast".
+Some examples of polynomial time algorithms:
+The selection sort sorting algorithm on n integers performs
+
+
+
+A
+
+n
+
+2
+
+
+
+
+{\displaystyle An^{2}}
+operations for some constant A. Thus it runs in time
+
+
+
+O
+(
+
+n
+
+2
+
+
+)
+
+
+{\displaystyle O(n^{2})}
+and is a polynomial time algorithm.
+All the basic arithmetic operations (addition, subtraction, multiplication, division, and comparison) can be done in polynomial time.
+Maximum matchings in graphs can be found in polynomial time.

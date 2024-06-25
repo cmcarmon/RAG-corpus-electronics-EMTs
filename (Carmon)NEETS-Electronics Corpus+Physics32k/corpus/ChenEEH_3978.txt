@@ -1,0 +1,12 @@
+Deﬁnition 6 Dependence Graph
+A dependence graph (DG) (Kung, 1988) is a directed graph
+GDG ¼ (VDG, LDG), where VDG is a set of nodes in index space
+J n and where LDG is a set of edges connecting a pair of nodes, i
+and j and i, j 2 VDG if and only if computing of node j depends
+on the result from node i. Note that these edges are also called
+dependence vectors either due to propagation or computation.
+In other words, a DG is a graphical representation of an n-level
+nested Do-loop deﬁned in deﬁnition 2. Furthermore, any DG is
+&
+computable if and only if it contains no loops or cycles.
+A DG with its detailed DFG in each node is considered a

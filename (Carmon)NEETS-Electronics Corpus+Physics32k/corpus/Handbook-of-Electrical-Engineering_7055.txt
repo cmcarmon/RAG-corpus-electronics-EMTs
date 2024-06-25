@@ -1,0 +1,6 @@
+Arithmetic Coding
+In the previous subsections, it was shown how we could construct a code for a source that achieves an average
+length within one bit of the entropy. For small source alphabets, however, we have efﬁcient coding only if we
+use long blocks of source symbols. For example, if the source is binary, and we code each symbol separately,
+we must use 1 bit per symbol, irrespective of the entropy of the source. If we use long blocks, we can achieve
+an expected length per symbol close to the entropy rate of the source.

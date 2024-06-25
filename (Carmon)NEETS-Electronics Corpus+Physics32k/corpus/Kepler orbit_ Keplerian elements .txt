@@ -1,0 +1,109 @@
+It is worth mentioning that any Keplerian trajectory can be defined by six parameters. The motion of an object moving in three-dimensional space is characterized by a position vector and a velocity vector. Each vector has three components, so the total number of values needed to define a trajectory through space is six. An orbit is generally defined by six elements (known as Keplerian elements) that can be computed from position and velocity, three of which have already been discussed. These elements are convenient in that of the six, five are unchanging for an unperturbed orbit (a stark contrast to two constantly changing vectors). The future location of an object within its orbit can be predicted and its new position and velocity can be easily obtained from the orbital elements.
+Two define the size and shape of the trajectory:
+Semimajor axis (
+
+
+
+a
+
+
+
+
+{\displaystyle a\,\!}
+)
+Eccentricity (
+
+
+
+e
+
+
+
+
+{\displaystyle e\,\!}
+)
+Three define the orientation of the orbital plane:
+Inclination (
+
+
+
+i
+
+
+
+
+{\displaystyle i\,\!}
+) defines the angle between the orbital plane and the reference plane.
+Longitude of the ascending node (
+
+
+
+Ω
+
+
+
+
+{\displaystyle \Omega \,\!}
+) defines the angle between the reference direction and the upward crossing of the orbit on the reference plane (the ascending node).
+Argument of periapsis (
+
+
+
+ω
+
+
+
+
+{\displaystyle \omega \,\!}
+) defines the angle between the ascending node and the periapsis.
+And finally:
+True anomaly (
+
+
+
+ν
+
+
+{\displaystyle \nu }
+) defines the position of the orbiting body along the trajectory, measured from periapsis. Several alternate values can be used instead of true anomaly, the most common being
+
+
+
+M
+
+
+{\displaystyle M}
+the mean anomaly and
+
+
+
+T
+
+
+{\displaystyle T}
+, the time since periapsis.
+Because
+
+
+
+i
+
+
+{\displaystyle i}
+,
+
+
+
+Ω
+
+
+{\displaystyle \Omega }
+and
+
+
+
+ω
+
+
+{\displaystyle \omega }
+are simply angular measurements defining the orientation of the trajectory in the reference frame, they are not strictly necessary when discussing the motion of the object within the orbital plane. They have been mentioned here for completeness, but are not required for the proofs below.

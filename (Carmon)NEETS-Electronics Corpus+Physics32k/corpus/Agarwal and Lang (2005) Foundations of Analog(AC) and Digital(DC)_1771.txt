@@ -1,0 +1,6 @@
+There are two complications to Figure 12.36 that we have not studied so far. The first
+complication is that RTH is different for the rising and falling transitions. However,
+this complication is inconsequential because RTH is piecewise constant. Thus, we can
+separately analyze the rising transient during which RTH = 900 , and the falling
+transient during which RTH = 90 . Note too that the circuit remains linear even
+though RTH is time varying.

@@ -1,0 +1,40 @@
+In case of an incompressible flow — for instance of a liquid, or a gas at low Mach numbers; but not for sound waves — the velocity v has zero divergence:
+
+
+
+
+∇
+⋅
+
+v
+
+=
+0
+
+,
+
+
+{\displaystyle \nabla \cdot \mathbf {v} =0\,,}
+
+with the dot denoting the inner product. As a result, the velocity potential φ has to satisfy Laplace's equation
+
+
+
+
+
+∇
+
+2
+
+
+φ
+=
+0
+
+,
+
+
+{\displaystyle \nabla ^{2}\varphi =0\,,}
+
+where ∇2 = ∇ ⋅ ∇ is the Laplace operator (sometimes also written Δ). In this case the flow can be determined completely from its kinematics: the assumptions of irrotationality and zero divergence of flow. Dynamics only have to be applied afterwards, if one is interested in computing pressures: for instance for flow around airfoils through the use of Bernoulli's principle.
+In two dimensions, potential flow reduces to a very simple system that is analyzed using complex analysis (see below).

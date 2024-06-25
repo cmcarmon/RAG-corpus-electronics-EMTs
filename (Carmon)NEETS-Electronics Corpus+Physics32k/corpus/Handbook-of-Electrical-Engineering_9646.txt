@@ -1,0 +1,4 @@
+In the micro-kernel architecture shown in Fig. 96.5, notice that subsystems traditionally within the operating
+system are now at the same level as an application program. An application program wishing to, for example,
+open a ﬁle makes its request to the ﬁle system program, rather than the micro-kernel. The ﬁle system may call
+upon other OS subsystems or on the micro-kernel to perform an operation.

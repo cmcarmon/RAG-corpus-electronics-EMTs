@@ -1,0 +1,16 @@
+Instruction-Level Optimization
+Techniques involving instruction-level optimization target
+programmable cores such as general-purpose microprocessors,
+DSP, and microcontrollers. In these techniques, power opti-
+mization is achieved by selecting a minimum power instruc-
+tion mix for executing application software. Tiwari et al.
+(1994) describe a power dissipation reduction of up to 40%
+that could be achieved by rewriting code. In another work by
+Woo et al. (2001), an instruction encoding technique is used
+for low-power instruction fetches. The basic approach is that
+instruction ﬁelds of a binary program are re-encoded so that
+the number of bits switched from the neighboring ﬁelds of
+consecutive instructions is minimized; this technique allowed
+up to a 62% reduction in switching activities. Similar tech-
+niques can be found in Stammerman et al. (2001) and Choi
+and Chatterjee (2001). Another approach that can reduce the

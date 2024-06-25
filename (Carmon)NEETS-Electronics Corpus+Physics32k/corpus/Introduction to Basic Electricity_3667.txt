@@ -1,0 +1,14 @@
+the capacitor filter is added to the output of the  rectifier, 
+the  capacitor does not discharge very far before the 
+next pulse  occurs. The output voltage is high. If a large 
+ capacitor is used, the output equals the peak voltage of 
+the input signal. Thus, the capacitor does a better job of 
+filtering in a  full-wave circuit than in a half-wave circuit.
+The purpose of the filter capacitor is to smooth out 
+the pulsating DC voltage from the rectifier. The ripple 
+remaining on the DC voltage determines the filter’s 
+performance. The ripple can be made lower by using 
+a large capacitor or by increasing the load resistance. 
+Typically, the load resistance is determined by the cir-
+cuit design. Therefore, the size of the filter capacitor is 
+determined by the amount of the ripple.

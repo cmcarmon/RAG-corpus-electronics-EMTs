@@ -1,0 +1,23 @@
+This relation tells us that in 2Dt , a numerical value can propa-
+D along the grid diagonal. We can show that
+gate at most
+this upper bound on ~vvp is intuitively correct given the local
+nature of the spatial differences used in the Yee algorithm.
+Consider two nearest neighbor ﬁeld points Pi, j and Piþ1, jþ1
+along a grid diagonal and how a sudden change at Pi, j could
+be communicated to Piþ1, jþ1. Now, a basic principle is that the
+Yee algorithm can communicate ﬁeld data only along Carte-
+sian (x and y) grid lines and not along grid diagonals. Thus, at
+the minimum, 1Dt would be needed to transfer any part of the
+ﬁeld perturbation at Pi, j over a distance of 1D in the x direc-
+tion to Piþ1, j. Then, a second Dt would be needed, at the
+minimum, to transfer any part of the resulting ﬁeld pertur-
+bation at Piþ1, j over a distance of 1D in the y direction to
+reach Piþ1, jþ1. Because the distance between Pi, j and Piþ1, jþ1
+D, the maximum effective velocity of signal transmission
+is
+2
+D=2Dt . By this reasoning, we see
+between the two points is
+2
+that ~vvp, max is an inherent property of the FDTD grid.

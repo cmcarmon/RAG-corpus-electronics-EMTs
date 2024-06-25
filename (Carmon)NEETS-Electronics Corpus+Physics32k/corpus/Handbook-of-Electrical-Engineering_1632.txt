@@ -1,0 +1,5 @@
+The problem is to ﬁnd an estimate of the parameter vector qm based on the realization of X(t). (Note that
+the dimensionality of the parameter vector qm in the joint probability density function is assumed to be ﬁxed.)
+The intuition behind the maximum likelihood method is that we choose those parameters [q1, …, qm] from
+which the actually observed sample vector is most likely to have come. This means that the estimator of qm is
+selected so that the observed sample vector becomes as “likely as possible.”

@@ -1,0 +1,24 @@
+. Boundary node: Boundary nodes are the gatekeepers of
+the DS domain. A boundary node is the ﬁrst (or last)
+node that a packet can encounter when entering (or
+exiting) a DS domain. It performs certain edge functions
+like admission control, packet classiﬁcation, and trafﬁc
+conditioning. The admission control algorithm limits the
+number of ﬂows that are admitted into the DiffServ
+domain and is distributed in nature. For example, in the
+simplest case, the admission control algorithm may main-
+tain a central data structure that contains the current
+status of all links in the DS domain. When a ﬂow is
+considered for admission, the corresponding boundary
+node might check this data structure to verify if all the
+links of the ﬂow path can satisfy the requested QoS. Every
+packet belonging to an admitted ﬂow and arriving into
+the DS domain is classiﬁed and marked as belonging to
+one of the service classes called behavior aggregates in
+DiffServ terminology. Each such behavior aggregate is
+assigned a distinct 8-bit code word, called the DS code
+point. Packet marking is achieved by updating the TOS
+ﬁeld in the packet’s IP header with the appropriate DS
+code point. Boundary nodes also enforce trafﬁc condi-
+tioning agreements (TCA) between their own DS domain
+and other connected domains, if any.

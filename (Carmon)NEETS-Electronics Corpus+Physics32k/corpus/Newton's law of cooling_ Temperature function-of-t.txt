@@ -1,0 +1,584 @@
+Given that the body is treated as a lumped capacitance thermal energy reservoir with a
+
+
+
+Q
+
+
+{\displaystyle Q}
+(total thermal energy content) which is proportional to
+
+
+
+C
+
+
+{\displaystyle C}
+(simple total heat capacity) and
+
+
+
+T
+
+
+{\displaystyle T}
+(the temperature of the body), then
+
+
+
+Q
+=
+C
+T
+
+
+{\displaystyle Q=CT}
+. It is expected that the system will experience exponential decay in the temperature difference of body and surroundings as a function of time. This is proven in the following sections:
+From the definition of heat capacity
+
+
+
+C
+
+
+{\displaystyle C}
+comes the relation
+
+
+
+C
+=
+d
+Q
+
+/
+
+d
+T
+
+
+{\displaystyle C=dQ/dT}
+. Differentiating this equation with regard to time gives the identity (valid so long as temperatures in the object are uniform at any given time):
+
+
+
+d
+Q
+
+/
+
+d
+t
+=
+C
+(
+d
+T
+
+/
+
+d
+t
+)
+
+
+{\displaystyle dQ/dt=C(dT/dt)}
+. This expression may be used to replace
+
+
+
+d
+Q
+
+/
+
+d
+t
+
+
+{\displaystyle dQ/dt}
+in the first equation which begins this section, above. Then, if
+
+
+
+T
+(
+t
+)
+
+
+{\displaystyle T(t)}
+is the temperature of such a body at time
+
+
+
+t
+
+
+{\displaystyle t}
+, and
+
+
+
+
+T
+
+e
+n
+v
+
+
+
+
+{\displaystyle T_{env}}
+is the temperature of the environment around the body:
+
+
+
+
+
+
+
+d
+T
+(
+t
+)
+
+
+d
+t
+
+
+
+=
+−
+r
+(
+T
+(
+t
+)
+−
+
+T
+
+
+e
+n
+v
+
+
+
+)
+=
+−
+r
+Δ
+T
+(
+t
+)
+
+
+
+{\displaystyle {\frac {dT(t)}{dt}}=-r(T(t)-T_{\mathrm {env} })=-r\Delta T(t)\quad }
+
+where
+
+
+
+r
+=
+h
+A
+
+/
+
+C
+
+
+{\displaystyle r=hA/C}
+is a positive constant characteristic of the system, which must be in units of
+
+
+
+t
+i
+m
+
+e
+
+−
+1
+
+
+
+
+{\displaystyle time^{-1}}
+, and is therefore sometimes expressed in terms of a characteristic time constant
+
+
+
+
+t
+
+0
+
+
+
+
+{\displaystyle t_{0}}
+given by:
+
+
+
+r
+=
+1
+
+/
+
+
+t
+
+0
+
+
+=
+−
+(
+d
+T
+(
+t
+)
+
+/
+
+d
+t
+)
+
+/
+
+Δ
+T
+
+
+{\displaystyle r=1/t_{0}=-(dT(t)/dt)/\Delta T}
+. Thus, in thermal systems,
+
+
+
+
+t
+
+0
+
+
+=
+C
+
+/
+
+(
+h
+A
+)
+
+
+{\displaystyle t_{0}=C/(hA)}
+. (The total heat capacity
+
+
+
+C
+
+
+{\displaystyle C}
+of a system may be further represented by its mass-specific heat capacity
+
+
+
+
+c
+
+p
+
+
+
+
+{\displaystyle c_{p}}
+multiplied by its mass
+
+
+
+m
+
+
+{\displaystyle m}
+, so that the time constant
+
+
+
+
+t
+
+0
+
+
+
+
+{\displaystyle t_{0}}
+is also given by
+
+
+
+m
+
+c
+
+p
+
+
+
+/
+
+h
+A
+
+
+{\displaystyle mc_{p}/hA}
+).
+The solution of this differential equation, by standard methods of integration and substitution of boundary conditions, gives:
+
+
+
+
+T
+(
+t
+)
+=
+
+T
+
+
+e
+n
+v
+
+
+
++
+(
+T
+(
+0
+)
+−
+
+T
+
+
+e
+n
+v
+
+
+
+)
+
+
+e
+
+−
+r
+t
+
+
+.
+
+
+
+{\displaystyle T(t)=T_{\mathrm {env} }+(T(0)-T_{\mathrm {env} })\ e^{-rt}.\quad }
+
+If:
+
+
+
+
+Δ
+T
+(
+t
+)
+
+
+
+{\displaystyle \Delta T(t)\quad }
+is defined as :
+
+
+
+T
+(
+t
+)
+−
+
+T
+
+
+e
+n
+v
+
+
+
+
+,
+
+
+
+{\displaystyle T(t)-T_{\mathrm {env} }\ ,\quad }
+where
+
+
+
+Δ
+T
+(
+0
+)
+
+
+
+{\displaystyle \Delta T(0)\quad }
+is the initial temperature difference at time 0,
+then the Newtonian solution is written as:
+
+
+
+
+Δ
+T
+(
+t
+)
+=
+Δ
+T
+(
+0
+)
+
+
+e
+
+−
+r
+t
+
+
+=
+Δ
+T
+(
+0
+)
+
+
+e
+
+−
+t
+
+/
+
+
+t
+
+0
+
+
+
+
+.
+
+
+
+{\displaystyle \Delta T(t)=\Delta T(0)\ e^{-rt}=\Delta T(0)\ e^{-t/t_{0}}.\quad }
+
+This same solution is more immediately apparent if the initial differential equation is written in terms of
+
+
+
+Δ
+T
+(
+t
+)
+
+
+{\displaystyle \Delta T(t)}
+, as a single function of time to be found, or "solved for."
+
+
+
+
+
+
+
+d
+T
+(
+t
+)
+
+
+d
+t
+
+
+
+=
+
+
+
+d
+Δ
+T
+(
+t
+)
+
+
+d
+t
+
+
+
+=
+−
+
+
+1
+
+t
+
+0
+
+
+
+
+Δ
+T
+(
+t
+)
+
+
+
+{\displaystyle {\frac {dT(t)}{dt}}={\frac {d\Delta T(t)}{dt}}=-{\frac {1}{t_{0}}}\Delta T(t)\quad }

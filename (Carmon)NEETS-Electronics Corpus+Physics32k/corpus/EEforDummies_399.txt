@@ -1,0 +1,18 @@
+What’s really happening is that as the AC source voltage rises from 0 volts 
+to its peak voltage, the capacitor charges, just as it does when you apply 
+a DC voltage. When the supply voltage is at its peak, the capacitor may or 
+may not be fully charged (it depends on a bunch of factors, such as the size 
+of the capacitor plates). Then the source voltage starts to decrease from its 
+peak down to 0 volts. As it does, at some point, the source voltage becomes 
+lower than the capacitor voltage. When this happens, the capacitor starts to 
+discharge through the AC source. Then the source voltage reverses polarity 
+and the capacitor discharges all the way. As the source voltage keeps heading 
+down toward its negative peak voltage, charges start to build up in reverse on 
+the capacitor plates: The plate that previously held more negative charges 
+now holds positive charges, and the plate that previously held more posi-
+tive charges now holds more negative charges. As the source voltage rises 
+from its negative peak, the capacitor again discharges through the AC source, 
+but in the direction opposite to that of its original discharge, and the cycle 
+repeats. This continuous charge/discharge cycle can occur thousands — even 
+millions — of times per second, as the capacitor tries to keep up, so to speak, 
+with the ups and downs of the AC source.

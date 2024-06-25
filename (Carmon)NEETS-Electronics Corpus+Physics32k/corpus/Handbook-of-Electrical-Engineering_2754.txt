@@ -1,0 +1,9 @@
+As the interconnection delays have become increasingly dominant, the design process has evolved into an
+iterative  process  through  the  design  steps,  as  illustrated  by  the  back-and-forward  annotation  arrows  in
+Fig. 25.24(a). Initial estimates of delays in step B need to be reﬁned through back-annotation of interconnection
+delay parameters obtained after ﬂoorplanning and/or after placement and routing to reﬂect the actual inter-
+connection characteristics, perhaps requiring changes in the initial speciﬁcation of the desired function in terms
+of logical and physical blocks. This iterative process moving between the logical design and the physical design
+of an ASIC has been problematic since often the logical design is performed by the company developing the
+ASIC, whereas the physical design is performed by the company (the “foundry”) fabricating the ASIC. CAD
+tools are an important vehicle for coordination of the interface between the designer and the foundry.

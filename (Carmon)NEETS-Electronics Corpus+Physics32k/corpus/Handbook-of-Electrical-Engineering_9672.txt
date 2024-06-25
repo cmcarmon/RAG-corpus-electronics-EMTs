@@ -1,0 +1,7 @@
+Multi-Party Protocols with Honest Majority
+Consider  any  multi-party  protocol.  We  ﬁrst  observe  that  each  party  can  change  its  local  input  before  even
+entering the execution of the protocol. However, this is also unavoidable when the parties utilize a trusted party.
+In general, the basic paradigm underlying the deﬁnitions of secure multi-party computations amounts to saying
+that situations that can occur in the real protocol, can be simulated in an ideal model (where the parties can
+employ a trusted party). Thus, the effective malfunctioning of parties in secure protocols is restricted to what
+is postulated in the corresponding ideal model.

@@ -1,0 +1,7 @@
+This coding is the same as Shannon-Fano coding
+LZW compression replaces strings of characters
+with single codes. It does analyze the incoming
+text. Instead, it just adds every new string of
+characters it sees to a table of strings.
+Compression occurs when a single code is output
+instead of a string of characters.

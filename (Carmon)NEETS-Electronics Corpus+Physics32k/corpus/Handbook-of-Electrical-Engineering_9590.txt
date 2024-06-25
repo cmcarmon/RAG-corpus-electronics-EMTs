@@ -1,0 +1,4 @@
+The CU usually has its own high-speed registers, local memory, and arithmetic unit. Thus, in many cases,
+it is a conventional computer and the instructions are stored in a main memory, together with data. However,
+in some machines such as ILLIAC IV, programs are distributed among the local memories of the PEs. Hence,
+the  instructions  are  fetched  from  the  processors’  local  memories  into  an  instruction  buffer  in  the  CU.  Each

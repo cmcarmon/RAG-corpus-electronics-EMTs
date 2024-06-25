@@ -1,0 +1,3 @@
+In the previous example, when F was subtracted from 1E, a borrow was used. Since you cannot
+subtract F from E and have a positive difference, a borrow of 1016 was taken from the next higher value
+column. The borrow was added to E, and the higher value column was reduced by 1.

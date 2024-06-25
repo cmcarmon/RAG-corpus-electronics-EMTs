@@ -1,0 +1,14 @@
+. Session identiﬁcation: A multimedia session often con-
+sists of multiple media streams (including continuous
+media (e.g., audio, video) and discrete media (e.g., text,
+images)
+that need to be separately identiﬁed. For
+example, the sender might choose to send the audio and
+video as two separate streams over the same network
+connection, and the receiver needs to decode each syn-
+chronously. Another example is that the sender might put
+the audio and video streams together but divide quality
+into a base layer and some enhancement layers so that
+low-bandwidth receivers might be able to receive only the
+base layer, whereas high-bandwidth receivers might also
+receive the enhancement layers.

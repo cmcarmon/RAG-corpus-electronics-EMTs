@@ -1,0 +1,14 @@
+Friedman (1989) ﬁrst presented the concept of negative non-
+zero clock skew as a technique to increase the clock frequency
+and circuit performance across sequentially adjacent pairs of
+registers. Soon afterward, Fishburn (1990) ﬁrst suggested an
+algorithm for computing a consistent clock schedule that is
+nontrivial. It is shown in both Friedman’s and Fishburn’s studies
+that by exploiting negative and positive clock skew in a local
+data path Ri?Rf , a circuit can operate with a clock period TCP
+smaller than the clock period achievable by a zero clock skew
+schedule while satisfying the conditions speciﬁed by equations
+4.5 and 4.6. In fact, Fishburn (1990) determined an optimal
+clock schedule by applying linear programming techniques to
+solve for TCD to satisfy these equations while minimizing the
+objective function Fobjective ¼ TCP.

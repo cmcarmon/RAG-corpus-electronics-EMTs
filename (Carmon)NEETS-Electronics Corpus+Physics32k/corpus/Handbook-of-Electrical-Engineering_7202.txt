@@ -1,0 +1,9 @@
+Mobile Data Systems
+The design aspect of developing a mobile data system is different from that of developing a cellular voice system,
+although the mobile radio environment is the same. The quality of a voice channel has to be determined based
+on a subjective test. The quality of a data transmission is based on an objective test. In a data transmission, the
+bit error rate and the word error rate are the parameters to be used to measure the performance at any given
+carrier-to-interference ratio (C/I). The burst errors caused by the multipath fading and the intersymbol inter-
+ference caused by the time delay spread are the major concerns in receiving the mobile data. The burst errors
+can be reduced by interleaving and coding. The intersymbol interference can be reduced by using equalizers
+or lowering the symbol rate or applying diversity.

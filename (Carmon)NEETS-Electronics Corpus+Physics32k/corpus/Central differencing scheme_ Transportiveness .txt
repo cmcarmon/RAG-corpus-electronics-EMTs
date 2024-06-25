@@ -1,0 +1,17 @@
+It requires that transportiveness changes according to magnitude of peclet number i.e. when pe is zero
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+is spread in all directions equally and as Pe increases (convection > diffusion)
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+at a point largely depends on upstream value and less on downstream value. But central differencing scheme does not possess Transportiveness at higher pe since Φ at a point is average of neighbouring nodes for all Pe.

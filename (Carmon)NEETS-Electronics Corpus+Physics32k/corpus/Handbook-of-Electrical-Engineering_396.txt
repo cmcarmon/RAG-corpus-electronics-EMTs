@@ -1,0 +1,18 @@
+Example 3.5.  The  graph  G  shown  in  Fig.  3.34  is  the  graph  of  the
+network N of Fig. 3.33. The edges of G are e1, e2, e4, e5, and e6; the vertices
+of G are V1, V2, and V3, and V4. A path of G is the subgraph G1 consisting
+of edges e2, e3, and e6 with vertices V2 and V4 as terminals. Thus, the set
+{e2,  e3,  e6}  is  a  path-set.  With  edge  e4  added  to  G1,  we  form  another
+subgraph  G2,  which  is  a  circuit  since  as  far  as  G2  is  concerned  all  its
+vertices  are  of  degree  2.  Hence  the  set  {e2,  e3,  e4,  e6}  is  a  circuit-set.
+Obviously, G is a connected graph since there exists a path between every
+pair of vertices of G. A tree of G may be the subgraph consisting of edges
+e1, e4, and e6. Two other trees of G are {e2, e5, e6} and {e3, e4, e5}. A 2-tree
+of  G  is  {e2,  e4};  another  one  is  {e3,  e6};  and  still  another  one  is  {e3,  e5}.
+Note that both {e2, e4} and {e3, e6} are subgraphs which obviously satisfy
+the  deﬁnition  of  a  2-tree  in  the  sense  that  each  contains  two  disjoint
+circuitless connected subgraphs, both of which include all the four ver-
+tices  of  G.  Thus,  {e3,  e5}  does  not  seem  to  be  a  2-tree.  However,  if  we
+agree to consider {e3, e5} as a subgraph which contains edges e3 and e5 plus the isolated vertex V4, we see that
+{e3, e5} will satisfy the deﬁnition of a 2-tree since it now has two circuitless connected subgraphs with e3 and
+e5 forming one of them and the vertex V4 alone forming the other. Moreover, both subgraphs together indeed

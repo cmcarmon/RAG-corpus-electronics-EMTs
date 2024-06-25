@@ -1,0 +1,78 @@
+Fick's second law predicts how diffusion causes the concentration to change with time. It is a partial differential equation which in one dimension reads:
+
+
+
+
+
+
+
+∂
+φ
+
+
+∂
+t
+
+
+
+=
+D
+
+
+
+
+
+∂
+
+2
+
+
+φ
+
+
+∂
+
+x
+
+2
+
+
+
+
+
+
+
+
+
+{\displaystyle {\frac {\partial \varphi }{\partial t}}=D\,{\frac {\partial ^{2}\varphi }{\partial x^{2}}}\,\!}
+
+where
+φ is the concentration in dimensions of [(amount of substance) length−3], example mol/m3; φ = φ(x,t) is a function that depends on location x and time t
+t is time [s]
+D is the diffusion coefficient in dimensions of [length2 time−1], example m2/s
+x is the position [length], example m
+In two or more dimensions we must use the Laplacian Δ = ∇2, which generalises the second derivative, obtaining the equation
+
+
+
+
+
+
+
+∂
+φ
+
+
+∂
+t
+
+
+
+=
+D
+
+Δ
+φ
+
+
+{\displaystyle {\frac {\partial \varphi }{\partial t}}=D\,\Delta \varphi }

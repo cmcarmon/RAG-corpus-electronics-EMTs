@@ -1,0 +1,11 @@
+A key feature of REMOD designs is that they are extendible
+to multiple fault tolerance, with only small increments of
+hardware and time—in some cases, the designs have virtually
+no increase in time. On the other hand, PTMR and the other
+techniques are not as easily extendible, if at all. As a result,
+the mean time to failure (MTTF) of processors using REMOD-
+based arithmetic circuits will increase substantially. This is
+especially crucial in computer systems used in life- and prop-
+erty-critical applications, such as avionics, spacecraft control,
+military applications, and the control of industrial processes
+and nuclear reactors. Not only are these environments hostile

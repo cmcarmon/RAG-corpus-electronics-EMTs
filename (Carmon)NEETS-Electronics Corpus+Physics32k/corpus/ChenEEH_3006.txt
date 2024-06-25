@@ -1,0 +1,14 @@
+It is also desirable to have an estimate of the input imped-
+ance of the antenna. The simplest way for estimating this is the
+transmission line model for the patch antenna. In this case, the
+antenna is modeled as two radiating slots of width Dloc and
+length a separated by a microstrip transmission line with
+dimensions corresponding to the dimensions of the patch
+antenna. Note that the feeding can be placed at one end of
+the antenna or at some point a distance x inside the patch,
+either by the use of an inset feed or a coaxial probe. The
+equivalent structure for interior feeding is shown in Figure
+11.16. At resonance, the impedance of the radiating slot will
+be pure real. To ﬁrst-order for a  l0 (which will be true on
+high-permittivity substrates), the radiation resistance of each
+slot may be approximated as:

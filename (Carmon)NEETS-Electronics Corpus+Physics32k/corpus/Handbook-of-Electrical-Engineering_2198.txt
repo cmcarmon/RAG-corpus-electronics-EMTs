@@ -1,0 +1,15 @@
+Assume that we are going to analyze the dial tones from a telephone network that uses dual-tone multifre-
+quency  (DTMF)  signaling.  In  this  system,  pairs  of  tones  are  used  to  signal  each  character  on  the  telephone
+keypad. For example, the digit 1 is represented by tones at 697 Hz and 1209 Hz. All of the tones are between
+697 Hz and 1633 Hz. Thus, before analyzing the signal to determine the two tones that it contains, we might
+want to ﬁlter out all signals outside of the band that contains all possible tones in order to increase the signal-
+to-noise  ratio.  In  this  example,  we  design  a  bandpass  ﬁlter  with  a  passband  between  500  Hz  and  1800  Hz.
+Designs  are  compared  using  an  elliptic  IIR  ﬁlter  of  order  8  and  a  causal  FIR  ﬁlter  of  order  70.  Figure 21.5
+contains magnitude plots of the two ﬁlters, and clearly shows the characteristics of the ﬁlters. The elliptic ﬁlter
+has sharp transitions with ripple in the passband and in the stopband, while the FIR ﬁlter (which also uses a
+Hamming window) is ﬂat in the passband and the stopband, but has wider transition bands. Figure 21.6 contains
+the group delays for the two ﬁlters. The FIR ﬁlter has a linear phase response, and thus the group delay is a
+ﬁxed value of 35 samples; the IIR ﬁlter has a nonlinear phase, but has a relatively constant delay in the passband.
+Figure 21.7 contains the corresponding impulse responses, illustrating the ﬁnite impulse response of the FIR
+ﬁlter  and  the  inﬁnite  impulse  response  of  the  IIR  ﬁlter.  Figure 21.8  contains  the  pole/zero  plot  for  the  IIR
+solution. The code for performing the designs and generating all the plots is shown in Fig. 21.9.

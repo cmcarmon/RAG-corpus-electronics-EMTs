@@ -1,0 +1,9 @@
+Viterbi Algorithm
+The convolutional coding has been one of the most widely used
+error corrections in digital wireless communication. Therefore,
+the Viterbi decoding algorithm must be implemented efﬁ-
+ciently in a pipelined/systolic fashion. A (K, R) convolutional
+coding scheme can be described by an FSM, where K is the
+constraint length and R is the code rate. Similar to a mealy FSM,
+there are a total of 2K coding states where output bits and the
+next state depend on the current state and an input bit.

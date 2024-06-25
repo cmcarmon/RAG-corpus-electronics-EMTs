@@ -1,0 +1,13 @@
+This equation is identical in form to that of an RLC resonator (see Equation
+12.119), but this circuit contains no inductors. The effect of an inductor is
+created by an active element,
+in this case the Op Amp, and the capacitors,
+hence the name RC active filter. The advantages of an RC active filter (this is
+only one realization; there are many others) are that it can provide a power
+gain unlike an RLC network and that it does not require inductors. Because
+inductors are difficult to fabricate in VLSI technology, this is an important design
+advantage for integrated circuits. Furthermore,
+inductors are not very ideal
+elements, especially for low-frequency applications (for example, for frequencies
+below perhaps 100 kHz). Thus in this frequency range, resonant circuits are
+often built out of Op Amps, resistors, and capacitors.

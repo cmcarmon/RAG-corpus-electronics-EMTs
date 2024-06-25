@@ -1,0 +1,6 @@
+Sequential ATP  generation  is  more  difﬁcult  than  combinational ATPG  because  exercising  or  sensitizing  a
+particular circuit path to detect the presence of a possible manufacturing fault may require a sequence of input
+test vectors. One technique for testing sequential digital systems is scan fault testing. Scan fault testing is an
+example of design for testability (DFT) because it modiﬁes or constrains a design in a manner that facilitates
+fault testing. Scan techniques impose a logic design discipline that connects all state registers into one or more
+chains to form “scan rings,” as shown in Fig. 34.19 [Eichelberger and Williams, 1977].

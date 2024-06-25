@@ -1,0 +1,11 @@
+with asynchronous preset/clear inputs is a typical example of this design style. Similarly, building latches out
+of, say, cross-coupled NAND gates and using these as state variables in implementing ﬁnite-state machines used
+to be a very common technique. However, concerns about system initialization and pattern generation have
+made  this  style  undesirable  for  implementing  DFT.  Indeed,  most  of  the  so-called  structured  design  styles
+described below make it a requirement that all internal storage elements be constructed from clocked ﬂip-ﬂops,
+and feedback loops in combinational circuits are broken with the insertion of such ﬂip-ﬂops, along the feedback
+paths. Asynchronous circuits suffer from combinational circuit hazards that are glitches created as a result of
+delay differences along circuit paths. Some hazards may be prevented by constraining the manner (i.e., sequence)
+in which circuit inputs are allowed to be changed. Whereas such constraints may be met during regular system
+operation,  often  test  pattern  generation  algorithms  cannot  take  such  constraints  into  account.  Therefore,
+asynchronous logic may create severe problems during testing.

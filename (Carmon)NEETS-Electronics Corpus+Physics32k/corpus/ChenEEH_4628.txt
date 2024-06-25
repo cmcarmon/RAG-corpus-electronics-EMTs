@@ -1,0 +1,6 @@
+Often, the switching law will employ a hysteresis to prevent
+chattering (fast switching) if the scheduling parameter evolves
+near a switching boundary. The hysteresis simply delays the
+switch to new controller parameters until the parameter has
+moved beyond a boundary layer encompassing the switching
+boundary, as illustrated in Figure 9.1.

@@ -1,0 +1,122 @@
+Cb is a modification factor used in the equation for nominal flexural strength when determining lateral-torsional buckling. The reason for this factor is to allow for non-uniform moment diagrams when the ends of a beam segment are braced. The conservative value for Cb can be taken as 1, regardless of beam configuration or loading, but in some cases it may be excessively conservative. Cb is always equal to or greater than 1, never less. For cantilevers or overhangs where the free end is unbraced, Cb is equal to 1. Tables of values of Cb for simply supported beams exist.
+If an appropriate value of Cb is not given in tables, it can be obtained via the following formula:
+
+
+
+
+
+
+C
+
+b
+
+
+=
+
+
+
+12.5
+
+M
+
+max
+
+
+
+
+2.5
+
+M
+
+max
+
+
++
+3
+
+M
+
+A
+
+
++
+4
+
+M
+
+B
+
+
++
+3
+
+M
+
+C
+
+
+
+
+
+
+
+{\displaystyle \ C_{b}={\frac {12.5M_{\max }}{2.5M_{\max }+3M_{A}+4M_{B}+3M_{C}}}}
+
+where
+
+
+
+
+
+M
+
+max
+
+
+
+
+{\displaystyle M_{\max }}
+= absolute value of maximum moment in the unbraced segment,
+
+
+
+
+
+M
+
+A
+
+
+
+
+{\displaystyle M_{A}}
+= absolute value of maximum moment at quarter point of the unbraced segment,
+
+
+
+
+
+M
+
+B
+
+
+
+
+{\displaystyle M_{B}}
+= absolute value of maximum moment at centerline of the unbraced segment,
+
+
+
+
+
+M
+
+C
+
+
+
+
+{\displaystyle M_{C}}
+= absolute value of maximum moment at three-quarter point of the unbraced segment,
+The result is the same for all unit systems.

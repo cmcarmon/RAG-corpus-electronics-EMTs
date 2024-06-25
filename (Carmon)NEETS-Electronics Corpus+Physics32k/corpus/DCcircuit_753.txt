@@ -1,0 +1,7 @@
+Unfortunately, this would create a calibration problem for the meter. If the meter movement
+deﬂects full-scale with a certain amount of current through it, the full-scale range of the meter
+in ohms would change as the source voltage changed. Imagine connecting a stable resistance
+across the test leads of this ohmmeter while varying the source voltage: as the voltage is
+increased, there will be more current through the meter movement, hence a greater amount
+of deﬂection. What we really need is a meter movement that will produce a consistent, stable
+deﬂection for any stable resistance value measured, regardless of the applied voltage.

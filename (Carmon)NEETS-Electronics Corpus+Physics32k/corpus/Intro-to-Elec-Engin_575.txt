@@ -1,0 +1,4 @@
+The rate of the clock will be constant, independent of the analog input. It must be slow enough
+to allow the counter to count up to the highest possible input voltage. This will require 255(=
+27 + 26 + 25 + 24 + 23 + 22 + 21 + 20) counts, which will take 255/(40 × 106) = 6.375 µs.
+Thus, the process can be repeated 106/6.375 = 156,863 times per second.

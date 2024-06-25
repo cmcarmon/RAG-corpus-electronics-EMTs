@@ -1,0 +1,11 @@
+High-Frequency Large-Signal Equivalent Circuit Model of a FET. 
+ In the high-frequency large-signal equiv-
+alent circuit model of a FET, the ﬁxed charge stored between the gate and the source and between the gate and
+the drain is modeled by the gate-to-source and the gate-to-drain capacitances, CGS and CGD, respectively. The
+mobile charges between the drain and the source are modeled by the drain-to-source capacitance,  CDS. The
+voltage drop through the active channel is modeled by the drain-to-source resistance, RDS. The current through
+the channel is modeled by a voltage-controlled current source. For large signals, the gate is sometimes driven
+into the forward region, and thus the conductance through the gate is modeled by the gate conductance, Gg.
+The conductance from the gate to the drain and from the gate to the source is modeled by the gate-to-drain
+and  gate-to-source  resistances,  RGD  and  RGS,  respectively.  A  variable  resistor,  Ri,  is  added  to  model  the  gate
+charging time such that the time constant given by RiCGS holds the following relationship

@@ -1,0 +1,20 @@
+It is known that proper wire sizing can effectively reduce the
+interconnect delay especially in deep submicron or nanometer
+designs when the wire resistance becomes signiﬁcant. An opti-
+mal wire-sizing algorithm was developed by Cong and Leung
+(1993) and Cong et al. (1993) for a single source RC intercon-
+nect tree to minimize the sum of weighted delays from the
+source to timing-critical sinks under the Elmore delay model.
+Cong et al. (1997) designed an efﬁcient approach to perform
+global interconnects sizing and spacing (GISS) for multiple
+nets to minimize interconnect delays with consideration of
+coupling capacitance as well as area and fringing capacitances.
+In that paper,
+they proposed an asymmetric wire-sizing
+scheme where they could asymmetrically widen or make
+more narrow the areas above and below the centerline of the
+original wire. The optimal wire sizing and spacing problem for
+a single net with ﬁxed surrounding wire segments can be
+solved by adapting the bottom-up dynamic programming
+(DP)-based buffer insertion and wire-sizing algorithm pro-
+posed by Lillis et al. (1996).

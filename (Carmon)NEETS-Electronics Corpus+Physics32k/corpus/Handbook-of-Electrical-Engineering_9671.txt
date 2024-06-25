@@ -1,0 +1,9 @@
+Cryptographic Protocols
+A general framework for casting n-party cryptographic problems consists of specifying a random process that
+maps n inputs to n outputs. The inputs to the process are to be thought of as local inputs of n parties, and the
+n outputs are their corresponding local outputs. The random process describes the desired functionality. That
+is, if the n parties were to trust each other (or trust some outside party), then they could each send their local
+input  to  the  trusted  party,  who  would  compute  the  outcome  of  the  process  and  send  each  party  the  corre-
+sponding output. The question addressed in this section is: to what extent can such a trusted party be “emulated”
+by the mutually distrustful parties themselves? We consider two general settings: two-party protocols and multi-
+party protocols in which the majority of the players are honest. We start with the latter case.

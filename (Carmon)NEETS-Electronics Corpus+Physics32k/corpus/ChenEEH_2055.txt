@@ -1,0 +1,7 @@
+State Functions, Predicates, and Transitions
+A state function is an expression built from values, state
+variables, rigid function, and predicate symbols. For example,
+[p(c) þ 1] is a state function, where c and 1 are values, p is a
+state variable, and þ is a rigid function symbol. Since the
+meanings of rigid symbols are not affected by any state, for
+any given state M , M[p(c) þ 1] ¼ M[p(c)] þ 1.

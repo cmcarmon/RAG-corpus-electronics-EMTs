@@ -1,0 +1,6 @@
+The internal latch enable (ILE) input carries the clock when synchronous mode is selected, whereas asyn-
+chronous mode control signals are generated internally. The EP512 contains 12 macrocells and the input/output
+architecture provides each macrocell with over 50 possible conﬁgurations. Each I/O unit can be individually
+conﬁgured for combinatorial or registered output, with the output polarity also programmable. Four different
+types of ﬂip-ﬂops (D, T, J-K, S-R) can be implemented in each I/O unit, for either synchronous or asynchronous
+operation.

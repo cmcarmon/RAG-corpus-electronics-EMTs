@@ -1,0 +1,127 @@
+Here, we specify:
+Virtual forces and stresses as variations of the real forces and stresses.
+Virtual forces be zero on the part
+
+
+
+
+S
+
+t
+
+
+
+
+{\displaystyle S_{t}}
+of the surface that has prescribed forces, and thus only surface (reaction) forces on
+
+
+
+
+S
+
+u
+
+
+
+
+{\displaystyle S_{u}}
+(where displacements are prescribed) would do work.
+The virtual work equation becomes the principle of virtual forces:
+
+
+
+
+
+∫
+
+
+S
+
+u
+
+
+
+
+
+
+u
+
+
+T
+
+
+δ
+
+
+T
+
+d
+S
++
+
+∫
+
+V
+
+
+
+
+u
+
+
+T
+
+
+δ
+
+
+f
+
+d
+V
+=
+
+∫
+
+V
+
+
+
+
+ϵ
+
+
+T
+
+
+δ
+
+σ
+
+d
+V
+
+
+(
+g
+)
+
+
+
+{\displaystyle \int _{S_{u}}\mathbf {u} ^{T}\delta \ \mathbf {T} dS+\int _{V}\mathbf {u} ^{T}\delta \ \mathbf {f} dV=\int _{V}{\boldsymbol {\epsilon }}^{T}\delta {\boldsymbol {\sigma }}dV\qquad \mathrm {(g)} }
+
+This relation is equivalent to the set of strain-compatibility equations as well as of the displacement boundary conditions on the part
+
+
+
+
+S
+
+u
+
+
+
+
+{\displaystyle S_{u}}
+. It has another name: the principle of complementary virtual work.

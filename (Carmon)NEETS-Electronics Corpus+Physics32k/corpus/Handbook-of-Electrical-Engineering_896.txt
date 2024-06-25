@@ -1,0 +1,4 @@
+Pitfalls.
+Convergence problems are sometimes experienced if “difﬁcult” bias conditions are created. An exam-
+ple of such a condition is if a diode is placed in the circuit backwards, resulting in a large forward bias voltage,
+SPICE will have trouble resolving the current. Another difﬁcult case is if a current source were used instead of

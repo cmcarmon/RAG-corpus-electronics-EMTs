@@ -1,0 +1,7 @@
+Whenever the number of symbols in the alphabet is a power of two (as in this case), the average
+number of bits B (A) equals log2K, which equals 2 in this case. Because the entropy equals 1.75
+bits, the simple binary code indeed satisﬁes the Source Coding Theorem—we are within one bit
+of the entropy limit—but you might wonder if you can do better. If we chose a codebook with
+diﬀering number of bits for the symbols, a smaller average number of bits could indeed be obtained.
+The idea is to use shorter bit sequences for the symbols that occur more often. One codebook like
+this is

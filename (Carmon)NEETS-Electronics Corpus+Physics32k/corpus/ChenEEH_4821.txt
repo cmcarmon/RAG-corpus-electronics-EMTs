@@ -1,0 +1,16 @@
+These concepts can be made more concrete by applying the
+OOP paradigm to sensors used in ﬂight controls, such as the
+Global Positioning System (GPS), radar altimeter, and Inertial
+Measurement Unit (IMU). These sensors, typically purchased
+commercial-off-the-shelf (COTS), include the actual sensor
+hardware, a digital output, and a software driver (usually in
+C) for a processor to read the output. Each of these sensors
+constitutes an object. Moreover, all sensors perform a common
+function and have certain common tasks: initializing hard-
+ware, opening the data port, closing the data port, and the
+periodic reading of data during operation. Therefore, you can
+create a generic class of objects called ‘‘Sensor’’ that encap-
+sulates common attributes and procedures. The hierarchy of
+this structure is illustrated in Figure 14.1. The Sensor class
+has methods (or function calls) deﬁned for the common
+sensor tasks, and the three different sensor subclasses inherit

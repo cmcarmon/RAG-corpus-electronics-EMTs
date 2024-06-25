@@ -1,0 +1,17 @@
+Probability of detection, PD, measures the likelihood of detecting an event or object when the event does occur.
+Probability of false alarm, Pfa, is a measure of the likelihood of saying something happened when the event did
+NOT occur. Receiver operating characteristics (ROC) curves plot PD versus Pfa for a particular (sonar signal)
+processing  system. A  single  plot  of  PD  versus  Pfa  for  one  system  must  ﬁx  the  SNR  and  processing  time.  The
+threshold  h  is  varied  to  sweep  out  the  ROC  curve.  The  curve  is  often  plotted  on  either  log-log  scale  or
+“probability” scale. In comparing a variety of processing systems one would like to select the system (or develop
+a new one) that maximizes the PD for every given Pfa. Processing systems must operate on their ROC curves,
+but most processing systems allow the operator to select where on the ROC curve the system is operated by
+adjusting a threshold; low thresholds ensure a high probability of detection at the expense of high false alarm
+rate. A sketch of two monotonically increasing ROC curves is given in Fig. 19.14. By proper adjustment of the
+decision threshold, one can trade off detection performance for false alarm performance. Since the points (0,0)
+and (1,1) are on all ROC curves, one can always guarantee 100% probability of detection with an arbitrarily
+low threshold (albeit at the expense of 100% probability of false alarm) or 0% probability of false alarm with
+an arbitrarily high threshold (albeit at the expense of 0% probability of detection). The (log) likelihood detector
+is a detector that achieves the maximum probability of detection for ﬁxed probability of false alarm; it is shown
+in  Fig.  19.15  for  detecting  Gaussian  signals  reﬂected  or  radiated  from  the  stationary  objects  modeled  in
+Fig. 19.13.  For  moving  objects  more  complicated  time  compression  or  Doppler  compensation  processing  is

@@ -1,0 +1,11 @@
+(4:10)
+The numbers rl, l ¼ 1, . . . , L are referred to as the reconstruc-
+tion levels of the quantizer, and tl, l ¼ 0, . . . , L are referred to as
+its decision levels. A typical quantizer is depicted in Figure 4.9.
+In many cases, the decision and reconstruction levels of a
+quantizer are optimized such that the mean-squared error
+between the quantizer’s input and output is minimized. This
+is usually referred to as a Lloyd-Max quantizer (Jain, 1989). In
+digital image processing, one often uses linear quantizers. For a
+linear quantizer, the reconstruction and decision levels satisfy
+the following relations:

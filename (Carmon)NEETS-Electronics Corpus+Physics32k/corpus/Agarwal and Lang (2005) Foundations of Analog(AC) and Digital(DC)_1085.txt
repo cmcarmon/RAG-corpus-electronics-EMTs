@@ -1,0 +1,11 @@
+Alternatively, this characteristic can be viewed as describing ideal switch behavior that is
+extended to exhibit a saturating drain-source current. In other words, for vGS < VT, the
+MOSFET behaves like an open switch with iDS = 0. For vGS ≥ VT, the MOSFET
+behaves like a closed switch with vDS = 0 provided that iDS < K/2(vGS − VT)2.
+However, once iDS reaches K/2(vGS − VT)2, which is the maximum current the
+MOSFET can carry for a given vGS, MOSFET operation enters a saturation region
+in which the MOSFET behaves as a current source of value K/2(vGS − VT)2. Saturated
+operation is as described by the saturation model given in Figure 7.74.
+a) Determine vOUT as a function of vIN for 0 ≤ vIN.
+b) What is the lowest value of vIN for which vOUT = 0?
+c) Assume that VS = 15 V, R = 15 k, VT = 1 V, and K = 2 mA/V2. Graph vOUT

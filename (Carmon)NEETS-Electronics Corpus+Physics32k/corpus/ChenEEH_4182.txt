@@ -1,0 +1,10 @@
+intelligent
+TDM): The time slots are not preassigned for a signal or
+connection path. They are allocated on a demand basis.
+There is no waste of bandwidth. A terminal number is
+included in the message to identify where the message
+came from. The output rate is designed to be less than the
+sum of data rates of all inputs. At the peak load, total
+inputs might exceed output capacity, then backlog will be
+built. The trade-off is between the size of buffers and the
+rates of total inputs to be supported.

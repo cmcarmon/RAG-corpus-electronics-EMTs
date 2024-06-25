@@ -1,0 +1,20 @@
+Frequency domain curve-ﬁtting is a technique to ﬁt a TFM
+closely into the observed FRF data. Like other system identiﬁ-
+cation techniques, this is a two-step procedure: model struc-
+ture selection and model parameter optimization. In this
+context, the ﬁrst step is to parameterize the TFM in some
+special forms. Two such forms are introduced in the following:
+the matrix fraction (MF) parameterization and the polynomial
+matrix (PM) parameterization. This is always a critical step in
+the identiﬁcation because it will generally lead to quite differ-
+ent parameter optimization algorithms and resulting model
+properties. In particular, this section shows that for the MF
+form, the parameters can be optimized by means of linear least
+squares (LLS) solutions. As for the PM parameterization,
+one has to resort to some nonlinear techniques; speciﬁcally,
+this section introduces the celebrated Gauss-Newton (GN)
+method. On the other hand, the PM parameterization offers
+more ﬂexibility in the sense that it allows the designer to
+specify certain properties of the identiﬁed model (e.g., ﬁxed
+zeros in any input/output channels). This feature may be quite
+desirable as shown by the application studies in Section 6.4.

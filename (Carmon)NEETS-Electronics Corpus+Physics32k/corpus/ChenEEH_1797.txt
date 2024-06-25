@@ -1,0 +1,13 @@
+is the
+measurement process module. If we assume sources can char-
+acterize their trafﬁc accurately using trafﬁc descriptors, the
+admission control unit can simply use parameters in the trafﬁc
+descriptors. It is observed, however, that real-time trafﬁc
+sources are very difﬁcult to characterize, and the leaky bucket
+parameters may only provide a very loose upper bound of the
+trafﬁc rate. When the real trafﬁc becomes bursty, the network
+utilization can get very low if admission control is solely based
+on the parameters provided at call setup time. Therefore, the
+admission control unit should monitor the network dynamics
+and use measurements such as instantaneous network load
+and packet delay to make its admission decisions.

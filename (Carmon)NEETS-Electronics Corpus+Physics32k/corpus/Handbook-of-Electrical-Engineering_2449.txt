@@ -1,0 +1,10 @@
+The  voltage  source  method  of  biasing  has  several  major  drawbacks.  Since VP
+will have the opposite polarity of the drain supply voltage VDD, the gate bias voltage
+will require a second power supply. For the case of an n-channel JFET, VDD will
+come from a positive supply voltage and VGG must come from a separate negative
+power supply voltage or battery. A second, and perhaps more serious, problem is
+the “open-loop” nature of this biasing method. The JFET parameters of IDDS and
+VP will exhibit very substantial unit-to-unit variations, often by as much as a 2:1
+factor. There is also a signiﬁcant temperature dependence of  IDDS and VP . These
+variations will lead to major shifts in the position of the Q point and the resulting
+distortion of the signal. A much better biasing method is shown in Fig. 24.8.

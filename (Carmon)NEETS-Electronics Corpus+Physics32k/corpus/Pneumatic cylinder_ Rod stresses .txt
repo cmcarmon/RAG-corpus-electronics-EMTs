@@ -1,0 +1,42 @@
+Due to the forces acting on the cylinder, the piston rod is the most stressed component and has to be designed to withstand high amounts of bending, tensile and compressive forces. Depending on how long the piston rod is, stresses can be calculated differently. If the rods length is less than 10 times the diameter, then it may be treated as a rigid body which has compressive or tensile forces acting on it. In which case the relationship is:
+
+
+
+
+F
+=
+A
+σ
+
+
+{\displaystyle F=A\sigma }
+
+Where:
+
+
+
+
+F
+
+
+{\displaystyle F}
+is the compressive or tensile force
+
+
+
+
+A
+
+
+{\displaystyle A}
+is the cross-sectional area of the piston rod
+
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+is the stress
+However, if the length of the rod exceeds the 10 times the value of the diameter, then the rod needs to be treated as a column and buckling needs to be calculated as well.

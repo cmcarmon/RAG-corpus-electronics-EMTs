@@ -1,0 +1,21 @@
+Microstrip antenna elements have a number of useful and inter-
+esting  features,  but  probably  the  most  serious  limitation  of  this
+technology  is  the  narrow  bandwidth  of  the  basic  element.  While
+antenna elements such as dipoles, slots, and waveguide horns have
+operating  bandwidths  ranging  from  15  to  50%,  the  traditional
+microstrip patch element typically has an impedance bandwidth of
+only a few percent. Fig. 38.18 shows the impedance bandwidth vs.
+substrate thickness for a rectangular microstrip antenna with sub-
+strate  permittivities  of  2.2  and  10.2.  Observe  from  the  ﬁgure  that
+bandwidth  decreases  as  the  substrate  becomes  thinner  and  as  the
+dielectric constant increases. Both of these trends are explained as
+a result of the increased Q of the resonator, basically due to the fact
+that the patch current is in close proximity to its negative image in
+the substrate ground plane. In terms of bandwidth, it is preferable
+to use a thick antenna substrate, with a low dielectric constant. But
+because of inductive loading and possible spurious radiation from
+coplanar microstrip circuitry, the thickness of a microstrip antenna substrate is typically limited to 0.02l or
+less. This illustrates the essential compromise associated with the microstrip antenna concept, as it is not possible
+to obtain optimum performance from both a microstrip antenna and microstrip circuitry on a single dielectric
+substrate. These two functions are distinct electromagnetically, since the bound ﬁelds associated with nonra-
+diating circuitry obviate efﬁcient radiation.

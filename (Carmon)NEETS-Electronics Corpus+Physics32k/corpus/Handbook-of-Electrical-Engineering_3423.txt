@@ -1,0 +1,12 @@
+ are used for conversions that must take place over a long period of time, such as
+digital  voltmeter  applications  or  sensor  applications  such  as  thermocouples.  The  integrating  A/D  converter
+produces a digital code that represents the average of the signal over time. Noise is reduced by means of the
+signal averaging, or integration. Dual-slope integration is accomplished by a counter that advances while an
+ This is compared to another count sequence
+input voltage charges a capacitor in a speciﬁed time interval, 
+ The ratio
+that advances while a reference voltage discharges across the same capacitor in a time interval, 
+of the charging count value to the discharging count value is proportional to the ration of the input voltage to
+the reference voltage. Hence, the integrating converter provides a digital code that is a measure of the input
+voltage averaged over time. The conversion accuracy is independent of the capacitor and the clock frequency
+since  they  affect  both  the  charging  and  discharging  operations.  The  charging  period,  T,  is  selected  to  be  the

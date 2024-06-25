@@ -1,0 +1,12 @@
+CCD Detectors
+The  design  of  CCD  (charge-coupled  device)  detectors  has  similarities  to  the  silicon  drift  detector  [32].  The
+CCD  detector  is  normally  fabricated  on  an  n-type  silicon  wafer  depleted  both  from  the  backside  with  a
+continuous p+ contact on the back, and from p+ CCD registers on the front. Reverse bias voltages are such that
+the wafer is totally depleted and the electron potential minimum is about 10 µ below the CCD registers. After
+an ionizing event, holes are collected to the p+ contacts, and electrons are trapped under a nearby register, then
+transported down a channel of registers by properly clocked voltage pulses to the registers. Each channel has
+its  own  readout  anode,  which  can  be  made  small  to  minimize  capacitance  —  a  prerequisite  for  minimizing
+noise. The ﬁrst stage of ampliﬁcation is frequently integrated onto the same wafer. Spatial resolution is limited
+to the register (pixel) size. Brauniger et al. [33] described initial results on a 6 × 6 cm CCD array of 150 × 150 µ
+pixels  intended  for  satellite  X-ray  imaging.  The  system  also  had  an  energy  resolution  of  200 eV  FWHM  for
+5.9 KeV X-rays at room temperature.

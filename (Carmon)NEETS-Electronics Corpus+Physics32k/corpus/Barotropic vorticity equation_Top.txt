@@ -1,0 +1,85 @@
+The barotropic vorticity equation assumes the atmosphere is nearly barotropic, which means that the direction and speed of the geostrophic wind are independent of height. In other words, there is no vertical wind shear of the geostrophic wind. It also implies that thickness contours (a proxy for temperature) are parallel to upper level height contours. In this type of atmosphere, high and low pressure areas are centers of warm and cold temperature anomalies. Warm-core highs (such as the subtropical ridge and the Bermuda-Azores high) and cold-core lows have strengthening winds with height, with the reverse true for cold-core highs (shallow Arctic highs) and warm-core lows (such as tropical cyclones).
+A simplified form of the vorticity equation for an inviscid, divergence-free flow (solenoidal velocity field), the barotropic vorticity equation can simply be stated as
+
+
+
+
+
+
+
+D
+η
+
+
+D
+t
+
+
+
+=
+0
+,
+
+
+{\displaystyle {\frac {D\eta }{Dt}}=0,}
+
+where D/Dt is the material derivative and
+
+
+
+
+η
+=
+ζ
++
+f
+
+
+{\displaystyle \eta =\zeta +f}
+
+is absolute vorticity, with ζ being relative vorticity, defined as the vertical component of the curl of the fluid velocity and f is the Coriolis parameter
+
+
+
+
+f
+=
+2
+Ω
+sin
+⁡
+φ
+,
+
+
+{\displaystyle f=2\Omega \sin \varphi ,}
+
+where Ω is the angular frequency of the planet's rotation (Ω = 0.7272×10−4 s−1 for the earth) and φ is latitude.
+In terms of relative vorticity, the equation can be rewritten as
+
+
+
+
+
+
+
+D
+ζ
+
+
+D
+t
+
+
+
+=
+−
+v
+β
+,
+
+
+{\displaystyle {\frac {D\zeta }{Dt}}=-v\beta ,}
+
+where β = ∂f/∂y is the variation of the Coriolis parameter with distance y in the north–south direction and v is the component of velocity in this direction.
+In 1950, Charney, Fjørtoft, and von Neumann integrated this equation (with an added diffusion term on the right-hand side) on a computer for the first time, using an observed field of 500 hPa geopotential height for the first timestep. This was one of the first successful instances of numerical weather prediction.

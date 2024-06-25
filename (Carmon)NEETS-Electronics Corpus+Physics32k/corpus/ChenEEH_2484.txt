@@ -1,0 +1,15 @@
+As mentioned before, the analyses discussed earlier in this
+section are based on a critical assumption—there are negligible
+mutual
+interactions between the antenna elements. This
+allowed the key simpliﬁcation of equation 6.193. In situations
+when this assumption is no longer valid, one needs to use the
+rigorous equation 6.192. In this rigorous formulation, ei(u, f)
+is different from that of an isolated antenna. Instead, ei(u, f)
+is the transmit vector when only the ith element is excited
+(other elements are open circuited with zero input currents),
+while all other elements are still physically present in their
+respective locations. In other words, ei(u, f) is the superpos-
+ition of the primary radiation from the ith antenna (when
+isolated), with secondary radiations from all the antenna elem-
+ents passively excited through mutual coupling.

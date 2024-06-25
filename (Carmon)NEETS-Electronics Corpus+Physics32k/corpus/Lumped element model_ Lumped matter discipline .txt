@@ -1,0 +1,56 @@
+The lumped matter discipline is a set of imposed assumptions in electrical engineering that provides the foundation for lumped circuit abstraction used in network analysis. The self-imposed constraints are:
+1. The change of the magnetic flux in time outside a conductor is zero.
+
+
+
+
+
+
+
+∂
+
+ϕ
+
+B
+
+
+
+
+∂
+t
+
+
+
+=
+0
+
+
+{\displaystyle {\frac {\partial \phi _{B}}{\partial t}}=0}
+
+
+2. The change of the charge in time inside conducting elements is zero.
+
+
+
+
+
+
+
+∂
+q
+
+
+∂
+t
+
+
+
+=
+0
+
+
+{\displaystyle {\frac {\partial q}{\partial t}}=0}
+
+
+3. Signal timescales of interest are much larger than propagation delay of electromagnetic waves across the lumped element.
+The first two assumptions result in Kirchhoff's circuit laws when applied to Maxwell's equations and are only applicable when the circuit is in steady state. The third assumption is the basis of the lumped element model used in network analysis. Less severe assumptions result in the distributed element model, while still not requiring the direct application of the full Maxwell equations.

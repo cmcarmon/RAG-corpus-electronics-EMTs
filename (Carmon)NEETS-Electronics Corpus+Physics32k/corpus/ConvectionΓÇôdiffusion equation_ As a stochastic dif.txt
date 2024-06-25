@@ -1,0 +1,17 @@
+The convection–diffusion equation (with no sources or drains, R=0) can be viewed as a stochastic differential equation, describing random motion with diffusivity D and bias
+
+
+
+
+
+
+v
+→
+
+
+
+
+
+{\displaystyle {\vec {v}}}
+. For example, the equation can describe the Brownian motion of a single particle, where the variable c describes the probability distribution for the particle to be in a given position at a given time. The reason the equation can be used that way is because there is no mathematical difference between the probability distribution of a single particle, and the concentration profile of a collection of infinitely many particles (as long as the particles do not interact with each other).
+The Langevin equation describes advection, diffusion, and other phenomena in an explicitly stochastic way. One of the simplest forms of the Langevin equation is when its "noise term" is Gaussian; in this case, the Langevin equation is exactly equivalent to the convection–diffusion equation. However, the Langevin equation is more general.

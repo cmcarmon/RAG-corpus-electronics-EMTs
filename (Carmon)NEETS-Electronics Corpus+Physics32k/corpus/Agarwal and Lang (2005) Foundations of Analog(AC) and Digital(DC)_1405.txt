@@ -1,0 +1,14 @@
++
+Transition Interval (t > 0
+) We have now sketched the initial and final values
+of the capacitor voltage. The transition interval for t > 0
+remains to be
+analyzed. During this interval, observe that the capacitor voltage cannot jump
+instantaneously from VO to V due to the continuity condition. Specifically, we
+know from the solution to the homogeneous equation for the RC circuit that
+the transient follows an exponential form, either rising (1 − e
+−t/RC) or falling
+−t/RC), with time constant RC. (For the corresponding inductor-resistor circuit
+(e
+the time constant will be L/R.) In our case, since V > VO, the transient will be
+a rising exponential.

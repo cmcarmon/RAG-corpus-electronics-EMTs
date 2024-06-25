@@ -1,0 +1,58 @@
+A load on a framework is a system of forces on the vertices (represented as vectors). A stress is a special case of a load, in which equal and opposite forces are applied to the two endpoints of each edge (which may be imagined as a spring) and the forces formed in this way are added at each vertex. Every stress is an equilibrium load, a load that does not impose any translational force on the whole system (the sum of its force vectors is zero) nor any rotational force. A linear dependence among the rows of the rigidity matrix may be represented as a self-stress, an assignment of equal and opposite forces to the endpoints of each edge that is not identically zero but that adds to zero at every vertex. Thus, a set of edges forms an independent set in the rigidity matroid if and only if it has no self-stress.
+The vector space of all possible loads, on a system of n vertices, has dimension dn, among which the equilibrium loads form a subspace of dimension
+
+
+
+d
+n
+−
+
+
+
+(
+
+
+
+d
++
+1
+
+2
+
+
+)
+
+
+
+
+
+{\displaystyle dn-{\binom {d+1}{2}}}
+. An independent set in the rigidity matroid has a system of equilibrium loads whose dimension equals the cardinality of the set, so the maximum rank that any set in the matroid can have is
+
+
+
+d
+n
+−
+
+
+
+(
+
+
+
+d
++
+1
+
+2
+
+
+)
+
+
+
+
+
+{\displaystyle dn-{\binom {d+1}{2}}}
+. If a set has this rank, it follows that its set of stresses is the same as the space of equilibrium loads. Alternatively and equivalently, in this case every equilibrium load on the framework may be resolved by a stress that generates an equal and opposite set of forces, and the framework is said to be statically rigid.

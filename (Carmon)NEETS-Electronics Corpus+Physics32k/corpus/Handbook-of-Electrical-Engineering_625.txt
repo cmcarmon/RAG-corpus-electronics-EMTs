@@ -1,0 +1,7 @@
+T g2(t)dt varies from one symbol period of length
+T to the next. Consequently, the samples of the observation signal zi corresponding to symbols “0” and “1” are
+clustered with non-zero variance about –180 and +180, respectively. Thus, the nonperiodic nature of the chaotic
+signal itself produces an effect that is indistinguishable at the receiver from the effect of additive channel noise.
+By increasing the bit duration T, the variance of estimation can be reduced, but it also imposes a constraint on
+the maximum symbol rate. The estimation problem can be solved completely by keeping the energy per symbol
+constant. In this case, the variance of the samples of the observation signal is zero, as shown in Fig. 5.25(b).

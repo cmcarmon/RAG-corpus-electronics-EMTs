@@ -1,0 +1,67 @@
+The r−12 term, which is the repulsive term, describes Pauli repulsion at short ranges due to overlapping electron orbitals, and the r−6 term, which is the attractive long-range term, describes attraction at long ranges (van der Waals force, or dispersion force).
+Differentiating the L-J potential with respect to r gives an expression for the net inter-molecular force between 2 molecules. This inter-molecular force may be attractive or repulsive, depending on the value of r. When r is very small, the molecules repel each other.
+Whereas the functional form of the attractive term has a clear physical justification, the repulsive term has no theoretical justification. It is used because it approximates the Pauli repulsion well and is more convenient due to the relative computing efficiency of calculating r12 as the square of r6.
+The Lennard-Jones (12,6) potential was improved by the Buckingham potential (exp-6) later proposed by Richard Buckingham, in which the repulsive part is an exponential function:
+
+
+
+
+
+V
+
+B
+
+
+=
+γ
+
+[
+
+
+e
+
+−
+r
+
+/
+
+
+r
+
+0
+
+
+
+
+−
+
+
+(
+
+
+
+r
+
+0
+
+
+r
+
+
+)
+
+
+6
+
+
+
+]
+
+.
+
+
+{\displaystyle V_{\text{B}}=\gamma \left[e^{-r/r_{0}}-\left({\frac {r_{0}}{r}}\right)^{6}\right].}
+
+The L-J potential is a relatively good approximation. Due to its simplicity, it is often used to describe the properties of gases and to model dispersion and overlap interactions in molecular models. It is especially accurate for noble gas atoms and is a good approximation at long and short distances for neutral atoms and molecules.
+The lowest-energy arrangement of an infinite number of atoms described by a Lennard-Jones potential is a hexagonal close-packing. On raising temperature, the lowest-free-energy arrangement becomes cubic close packing, and then liquid. Under pressure, the lowest-energy structure switches between cubic and hexagonal close packing. Real materials include body-centered cubic structures also.
+Other more recent methods, such as the Stockmayer potential, describe the interaction of molecules more accurately. Quantum chemistry methods, Møller–Plesset perturbation theory, coupled cluster method, or full configuration interaction can give extremely accurate results, but require large computing cost.

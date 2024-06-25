@@ -1,0 +1,39 @@
+TCP/IP) for the communication of multimedia data. The
+different media types exchanged by these applications have
+signiﬁcantly different trafﬁc requirements—such as band-
+width, delay,
+jitter, and reliability—from the traditional
+textual data and demand different constraints or service guar-
+antees from the underlying communication network to deliver
+an acceptable performance. In networking terminology, such
+performance guarantees are referred to as quality of service
+(QoS) guarantees that can be provided only by suitable en-
+hancements to the basic Internet service model (Kurose and
+Ross, 2001). Circuit-switched networks,
+like the telephony
+system or plain old telephone service (POTS), have been
+designed from the ground up to support such QoS guarantees.
+However, this approach suffers from many shortcomings like
+scalability, resource wastage, high complexity, and high over-
+head (Leon-Garcia and Widjaja, 2000). Another approach,
+known as the asynchronous transfer mode (ATM), relies on
+cell switching to form virtual circuits that provide some of the
+QoS guarantees of
+traditional circuit-switched networks.
+Although ATM has become very popular as the backbone of
+high bandwidth and local networks, it has not been widely
+accepted as a substitute for the protocol stack used on the
+Internet. Providing QoS in packet-switched Internet, without
+completely sacriﬁcing the gain of statistical multiplexing, has
+been a major challenge of multimedia networking. In addition
+to the QoS guarantees, distributed multimedia applications
+also demand many functional requirements—such as support
+for multicasting, security, session management, and mobil-
+ity—for effective operation, and these can be provided by
+introducing new protocols residing above the traditional
+protocol stack used on the Internet (Wolf et al., 1997). In
+this chapter, we discuss two popular protocol architectures,
+H.323 (Thom, 1996; Liu and Mouchtaris, 2000) and SIP
+(Johnston, 2000; Schulzrinne and Rosenburg, 2000) that have
+been speciﬁcally designed to support distributed multimedia
+applications.

@@ -1,0 +1,3 @@
+instruction  is  either  a  local  type  instruction,  where  it  is  executed  entirely  within  the  CU,  or  it  is  a  parallel
+instruction  and  is  executed  in  the  processing  array.  The  primary  function  of  the  CU  is  to  examine  each
+instruction as it is to be executed and to determine where the execution should take place.

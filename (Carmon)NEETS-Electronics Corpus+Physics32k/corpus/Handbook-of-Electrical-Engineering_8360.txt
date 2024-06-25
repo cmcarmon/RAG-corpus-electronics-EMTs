@@ -1,0 +1,5 @@
+collect all the necessary conditions for sensitizing the transitions. For example, in the example given above the
+ﬁrst pattern requires input ﬂip-ﬂops A, B, and C all to be set to the logic 1 value in order to sensitize a low-to-
+high  transition  at  the  D  input,  whereas  the  second  test  pattern  requires  A,  B,  and  C  all  to  remain  at  logic  1
+while D is changed from logic 0 to the logic 1 value. This way the transitions created on input D will travel
+through the identiﬁed signal path to reach the destination ﬂip-ﬂop Z.

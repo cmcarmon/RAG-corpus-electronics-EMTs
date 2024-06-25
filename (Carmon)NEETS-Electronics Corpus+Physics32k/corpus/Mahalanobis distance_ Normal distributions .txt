@@ -1,0 +1,79 @@
+For a normal distribution in any number of dimensions, the probability of an observation is uniquely determined by the Mahalanobis distance d. Specifically,
+
+
+
+
+d
+
+2
+
+
+
+
+{\displaystyle d^{2}}
+is chi-squared distributed. If the number of dimensions is 2, for example, the probability of a particular calculated
+
+
+
+d
+
+
+{\displaystyle d}
+being less than some threshold
+
+
+
+t
+
+
+{\displaystyle t}
+is
+
+
+
+1
+−
+
+e
+
+−
+
+t
+
+2
+
+
+
+/
+
+2
+
+
+
+
+{\displaystyle 1-e^{-t^{2}/2}}
+. To determine a threshold to achieve a particular probability, p, use
+
+
+
+t
+=
+
+
+−
+2
+ln
+⁡
+(
+1
+−
+p
+)
+
+
+
+
+{\displaystyle t={\sqrt {-2\ln(1-p)}}}
+, for 2 dimensions. For number of dimensions other than 2, the cumulative chi-squared distribution should be consulted.
+In a normal distribution, the region where the Mahalanobis distance is less than one (i.e. the region inside the ellipsoid at distance one) is exactly the region where the probability distribution is concave.
+Mahalanobis distance is proportional, for a normal distribution, to the square root of the negative log likelihood (after adding a constant so the minimum is at zero).

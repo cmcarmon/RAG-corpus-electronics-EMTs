@@ -1,0 +1,7 @@
+Let us begin by making some general observations about the current and
+voltage limits to build up our intuition. Observe that iDS can range only from
+0 → VS/RL. The output voltage is VS when iDS is zero. iDS is zero for input
+voltages less than VT. Similarly, the output voltage is 0 when the current is
+VS/RL, and the input voltage is at some high value greater than VT. The limits
+of saturation region operation lie somewhere within the iDS current limits of 0
+and VS/RL.

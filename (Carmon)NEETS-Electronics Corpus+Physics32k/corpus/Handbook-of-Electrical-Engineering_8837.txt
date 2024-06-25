@@ -1,0 +1,6 @@
+To data abstraction, object-oriented programming adds the concept of inheritance: from an existing class
+new (sub)classes can be derived by adding additional instance variables and/or methods. Each subclass inherits
+the instance variables and methods of its superclass. This encourages the use of existing code for new purposes.
+As an example, consider a class of a list objects. Each object has two instance variables pointing to the front
+and the rear of the list. In Objective C, the speciﬁcation of the interface for this list class, i.e., the declaration
+of the instance variables and headers (functionalities) of the methods, has the following form:

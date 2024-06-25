@@ -1,0 +1,6 @@
+The actual allocation of storage is not known until the program executes the sequence of new() functions
+in the body of the program. Each new() function allocates space according to the type statement and returns
+a pointer to that space. To access the actual values in these storage spaces, the up arrow, ^, is written following
+the variable name. Thus, the read() function gets a number from the keyboard and puts it in the space pointed
+to by the pointer variable. Similarly, the value of X is computed by indirect reference to each value stored at
+the newly allocated memory location.

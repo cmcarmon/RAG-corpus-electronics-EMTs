@@ -1,0 +1,47 @@
+Camera lens focal lengths are usually specified in millimetres (mm), but some older lenses are marked in centimetres (cm) or inches.
+Focal length (f) and field of view (FOV) of a lens are inversely proportional. For a standard rectilinear lens, FOV = 2 arctan x/2f, where x is the diagonal of the film.
+When a photographic lens is set to "infinity", its rear nodal point is separated from the sensor or film, at the focal plane, by the lens's focal length. Objects far away from the camera then produce sharp images on the sensor or film, which is also at the image plane.
+To render closer objects in sharp focus, the lens must be adjusted to increase the distance between the rear nodal point and the film, to put the film at the image plane. The focal length (f), the distance from the front nodal point to the object to photograph (s1), and the distance from the rear nodal point to the image plane (s2) are then related by:
+
+
+
+
+
+
+1
+
+s
+
+1
+
+
+
+
++
+
+
+1
+
+s
+
+2
+
+
+
+
+=
+
+
+1
+f
+
+
+.
+
+
+{\displaystyle {\frac {1}{s_{1}}}+{\frac {1}{s_{2}}}={\frac {1}{f}}.}
+
+As s1 is decreased, s2 must be increased. For example, consider a normal lens for a 35 mm camera with a focal length of f = 50 mm. To focus a distant object (s1 ≈ ∞), the rear nodal point of the lens must be located a distance s2 = 50 mm from the image plane. To focus an object 1 m away (s1 = 1,000 mm), the lens must be moved 2.6 mm farther away from the image plane, to s2 = 52.6 mm.
+The focal length of a lens determines the magnification at which it images distant objects. It is equal to the distance between the image plane and a pinhole that images distant objects the same size as the lens in question. For rectilinear lenses (that is, with no image distortion), the imaging of distant objects is well modelled as a pinhole camera model. This model leads to the simple geometric model that photographers use for computing the angle of view of a camera; in this case, the angle of view depends only on the ratio of focal length to film size. In general, the angle of view depends also on the distortion.
+A lens with a focal length about equal to the diagonal size of the film or sensor format is known as a normal lens; its angle of view is similar to the angle subtended by a large-enough print viewed at a typical viewing distance of the print diagonal, which therefore yields a normal perspective when viewing the print; this angle of view is about 53 degrees diagonally. For full-frame 35 mm-format cameras, the diagonal is 43 mm and a typical "normal" lens has a 50 mm focal length. A lens with a focal length shorter than normal is often referred to as a wide-angle lens (typically 35 mm and less, for 35 mm-format cameras), while a lens significantly longer than normal may be referred to as a telephoto lens (typically 85 mm and more, for 35 mm-format cameras). Technically, long focal length lenses are only "telephoto" if the focal length is longer than the physical length of the lens, but the term is often used to describe any long focal length lens.
+Due to the popularity of the 35 mm standard, camera–lens combinations are often described in terms of their 35 mm-equivalent focal length, that is, the focal length of a lens that would have the same angle of view, or field of view, if used on a full-frame 35 mm camera. Use of a 35 mm-equivalent focal length is particularly common with digital cameras, which often use sensors smaller than 35 mm film, and so require correspondingly shorter focal lengths to achieve a given angle of view, by a factor known as the crop factor.

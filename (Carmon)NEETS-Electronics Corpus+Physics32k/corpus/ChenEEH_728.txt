@@ -1,0 +1,17 @@
+The previous subsection presented the most crucial factors
+inﬂuencing the data transfer and storage (‘‘memory’’) related
+cost. Cost clearly increases when a higher memory bandwidth
+is needed. In most cases, designers of real-time systems assume
+that the time for executing a given (concurrently executed)
+task is predeﬁned by ‘‘some’’
+initial system decision step.
+Usually, this is only seemingly the case. When several commu-
+nicating tasks or threads are co-operating concurrently, then
+trade-offs can be made between the cycle budget and timing
+constraints assigned to each of them, which makes the overall
+problem much more complex (see Subsection 2.5.3). More-
+over, in data-dominated applications, the memory subsystem
+is not the only cost for the complete system. In particular, after
+our DTSE optimization steps, the data path is typically not
+negligible anymore, especially for instruction-set processor
+realization (see Subsection 2.5.3).

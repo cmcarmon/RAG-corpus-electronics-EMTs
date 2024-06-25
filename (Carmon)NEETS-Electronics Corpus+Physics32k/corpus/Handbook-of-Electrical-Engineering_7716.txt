@@ -1,0 +1,11 @@
+Digital Equipment Corporation’s high-end I/O strategy is described in terms of the digital storage architecture
+(DSA) and is embodied in system conﬁgurations such as the VAXCluster shared disk system (see Fig. 80.14).
+The  architecture  provides  a  rigorous  deﬁnition  of  how  storage  subsystems  and  host  computers  interact.  It
+achieves this by deﬁning a client/server message-based model for I/O interaction based on device-independent
+interfaces  [Massiglia,  1986;  Kronenberg  et al.,  1986].  A  mass  storage  subsystem  is  viewed  at  the  architectural
+level as consisting of logical block machines capable of storing and retrieving ﬁxed blocks of data, i.e., the I/O
+system supports the transfer of logical blocks between CPUs and devices given a logical block number. From
+the viewpoint of physical components, a subsystem consists of controllers which connect computers to drives.
+The software architecture is divided into four levels: the Operating System Client (also called the Class Driver),
+the  Class  Server  (Controller),  the  Device  Client  (Data  Controller),  and  the  Device  Server  (Device).  The  Disk
+Class Driver, resident on a host CPU, accepts requests for disk I/O service from applications, packages these

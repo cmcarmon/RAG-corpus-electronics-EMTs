@@ -1,0 +1,5 @@
+In PWM inverters, the output voltage and frequency are controlled within the inverter by varying the width
+of the output pulses. Hence at the front end, instead of a phase-controlled thyristor converter, a diode bridge
+rectiﬁer can be used. A very popular method of controlling the voltage and frequency is by sinusoidal pulsewidth
+modulation. In this method, a high-frequency triangle carrier wave is compared with a three-phase sinusoidal
+waveform, as shown in Fig. 30.14. The power devices in each phase are switched on at the intersection of sine

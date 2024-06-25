@@ -1,0 +1,88 @@
+The steady-state heat equation is by definition not dependent on time. In other words, it is assumed conditions exist such that:
+
+
+
+
+
+
+
+∂
+u
+
+
+∂
+t
+
+
+
+=
+0
+
+
+{\displaystyle {\frac {\partial u}{\partial t}}=0}
+
+This condition depends on the time constant and the amount of time passed since boundary conditions have been imposed. Thus, the condition is fulfilled in situations in which the time equilibrium constant is fast enough that the more complex time-dependent heat equation can be approximated by the steady-state case. Equivalently, the steady-state condition exists for all cases in which enough time has passed that the thermal field u no longer evolves in time.
+In the steady-state case, a spatial thermal gradient may (or may not) exist, but if it does, it does not change in time. This equation therefore describes the end result in all thermal problems in which a source is switched on (for example, an engine started in an automobile), and enough time has passed for all permanent temperature gradients to establish themselves in space, after which these spatial gradients no longer change in time (as again, with an automobile in which the engine has been running for long enough). The other (trivial) solution is for all spatial temperature gradients to disappear as well, in which case the temperature become uniform in space, as well.
+The equation is much simpler and can help to understand better the physics of the materials without focusing on the dynamic of the heat transport process. It is widely used for simple engineering problems assuming there is equilibrium of the temperature fields and heat transport, with time.
+Steady-state condition:
+
+
+
+
+
+
+
+∂
+u
+
+
+∂
+t
+
+
+
+=
+0
+
+
+{\displaystyle {\frac {\partial u}{\partial t}}=0}
+
+The steady-state heat equation for a volume that contains a heat source (the inhomogeneous case), is the Poisson's equation:
+
+
+
+
+−
+k
+
+∇
+
+2
+
+
+u
+=
+q
+
+
+{\displaystyle -k\nabla ^{2}u=q}
+
+where u is the temperature, k is the thermal conductivity and q the heat-flux density of the source.
+In electrostatics, this is equivalent to the case where the space under consideration contains an electrical charge.
+The steady-state heat equation without a heat source within the volume (the homogeneous case) is the equation in electrostatics for a volume of free space that does not contain a charge. It is described by Laplace's equation:
+
+
+
+
+
+∇
+
+2
+
+
+u
+=
+0
+
+
+{\displaystyle \nabla ^{2}u=0}

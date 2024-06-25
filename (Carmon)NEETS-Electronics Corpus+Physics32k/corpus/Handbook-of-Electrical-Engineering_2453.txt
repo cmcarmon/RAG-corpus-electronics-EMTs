@@ -1,0 +1,9 @@
+The closed-loop nature of this biasing circuit can be seen by noting that if changes in the JFET parameters
+were to cause IDS to increase, the voltage drop across RS would also increase. This will produce an increase in
+VGS (in the negative direction for an n-channel JFET), which will act to reduce the increase in  IDS. Thus the
+net increase in  IDS will be less due to the feedback voltage drop produced by the ﬂow of IDS through  RS. The
+same basic action would, of course, occur for changes in the JFET parameters that would cause IDS to decrease.
+Bias Stability
+Now let’s examine the stability of the Q point. We will start again with the basic transfer equation as given by
+IDS =  IDSS [1 – (VGS/ VP)]2. From this equation the change in the drain current, D IDS , due to changes in  IDSS ,
+VGS , and VP can be written as

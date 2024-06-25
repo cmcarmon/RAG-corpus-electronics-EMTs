@@ -1,0 +1,12 @@
+which are the individual statements of KCL for Nodes 1 and 2. Following this,
+in the second part of Step 3, the currents are eliminated by substituting node
+voltages and element parameters in their place. In our example, i1 and i2 are
+determined using e1 and the parameters of the elements through which i1 and
+i2 flow. Similarly i3 and i4 are determined using e1 + V and the parameters of
+the elements through which i3 and i4 flow, with e1 serving as the one unknown
+node voltage.
+Alternatively, i1 and i2 can be determined using e2−V, and i3 and i4 can be
+determined using e2, with e2 serving as the one unknown node voltage. Finally,
+it should be recognized that a floating string of independent voltage sources is
+handled in exactly the same manner as a floating isolated independent voltage
+source.

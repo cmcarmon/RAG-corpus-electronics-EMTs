@@ -1,0 +1,7 @@
+Recall that 1 kilohertz is the modulating signal. If the local oscillator frequency should drift to
+3,500.5 kilohertz, the IF output of the mixer will become 499.5 kilohertz. The carrier reinsertion
+oscillator, however, will still be operating at 500 kilohertz. This will result in an incorrect audio output of
+500 hertz rather than the correct original 1-kilohertz tone. Suppose the intelligence transmitted was a
+complex signal, such as speech. You would then find the signal unintelligible because of the displacement
+of the side frequencies caused by the local oscillator deviation. The local oscillator and carrier reinsertion
+oscillator must be extremely stable.

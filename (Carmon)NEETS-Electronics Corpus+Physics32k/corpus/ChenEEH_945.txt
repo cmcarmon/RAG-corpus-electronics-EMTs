@@ -1,0 +1,18 @@
+which corresponds to the last row of equations 4.61 and 4.67,
+respectively. As mentioned previously in Section 4.4.3, the
+symmetric matrix M is always positive-deﬁnite20 and nonsin-
+gular, thereby permitting exactly one solution ^ll of the linear
+system described by equation 4.75.
+This linear system is a large square system of the type
+Ax ¼ b, where b 2 Rn is a column vector and where the coef-
+ﬁcient matrix A 2 Rnn is dense. Typically, the most effective
+approach to computing the solution ^xx 2 Rn of such systems
+consists of performing a triangular decomposition21 of the
+coefﬁcient matrix A followed by the successive solution of
+two relatively ‘‘easy’’ to solve square linear systems of order
+n  n. The triangular decomposition of A is of the form
+A ¼ LU , where L and U are a lower triangular and an upper
+triangular matrix, respectively (Golub and Loan, 1996; For-
+sythe and Moler, 1967). The solution of Ax ¼ LUx ¼ b is
+obtained next by ﬁrst computing the intermediate solution ^yy
+of the system Ly ¼ b. Finally, ^xx is the solution of the system

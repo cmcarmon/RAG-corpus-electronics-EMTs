@@ -1,0 +1,13 @@
+769
+network admittance equations Y bus V bus ¼ I bus. The matrix
+Y bus takes over the role of the matrix A in the linear equations.
+We will be solving for the bus voltage vector V bus. The current
+injections I bus are not known per se. The current injections are
+in fact dependent on the bus voltages. As we see next, they can
+also be computed iteratively from the power injections Si by
+using the relationship Ii ¼ Si
+. For a PQ bus, the injection
+Si is a speciﬁed variable and, hence, is known. For PV busses,
+only the real power injection Pi is known, while the reactive
+injection Qi is evaluated ﬁrst using the latest estimate of bus
+voltages V bus.

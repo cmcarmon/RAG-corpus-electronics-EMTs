@@ -1,0 +1,3 @@
+where J(q(t)) is the Jacobian matrix. Using the above equation, the combination of the joint rates for a given
+hand motion can be obtained. However, special consideration must be given when the inverse of the Jacobian
+matrix does not exist. This occurs when the dimension of x(t) and q(t) are not the same (robots with redundant

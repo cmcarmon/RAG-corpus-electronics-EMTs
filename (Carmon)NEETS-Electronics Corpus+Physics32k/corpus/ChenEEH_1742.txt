@@ -1,0 +1,14 @@
+The RT continuous type of media can further be classiﬁed as
+delay tolerant or delay intolerant. We cautiously use the term
+delay tolerant to signify that such media type can tolerate
+higher amounts of delay than their delay-intolerant counter-
+parts without signiﬁcant performance degradation. Examples
+of RT, continuous, and delay-intolerant media are audio and
+video streams used in audio or video conferencing systems,
+and remote desktop applications. Streaming audio/video
+media used in applications like Internet Webcast are examples
+of delay-tolerant media types. Their delay dependency is sig-
+niﬁcantly diminished by having an adaptive buffer at the
+receiver that downloads and stores a certain portion of the
+media stream before starting playout. The entire classiﬁcation
+has been carefully illustrated in Figure 7.2.

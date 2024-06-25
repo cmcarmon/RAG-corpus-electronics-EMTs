@@ -1,0 +1,14 @@
+ refers to problems caused by an action that is not correct, such as looping
+through  a  counter  routine  one  time  too  often  or  including  conditions  in  a  speciﬁcation  that  are  mutually
+contradictory. Such errors are frequently encountered in design, code, and in “bad ﬁxes” or secondary defects
+created as a by-product of repairing prior defects. From 40 to 65% of the post-deployment problems encountered
+in software can be traced to errors of commission, thus making it the most common source of software problems.
+  refers  to  problems  caused  by  two  or  more  interpretations  of  the
+same information. For example, a requirement may contain a phrase that an application should provide “rapid
+response  time”  without  actually  deﬁning  what “rapid”  means.  To  the  client,  sub-second  response  time  may
+have been intended, but to the development team one-minute response time may have been their interpretation.
+Such errors are frequently encountered in all software deliverables based on natural language such as English.
+They are also frequently encountered in source code itself, especially so if the code were not well structured.
+Also, certain languages such as APL and those using nested parentheses are notorious for being ambiguous.
+From less than 5% to more than 10% of the post-deployment problems encountered in software can be traced
+to errors of clarity or ambiguity.

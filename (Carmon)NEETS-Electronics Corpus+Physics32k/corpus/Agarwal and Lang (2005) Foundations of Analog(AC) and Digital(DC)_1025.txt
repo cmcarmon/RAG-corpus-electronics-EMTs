@@ -1,0 +1,7 @@
+in the active region because the base-to-collector diode is off. In the active region, BJTs
+display a more-or-less constant voltage drop of about 0.6 V between their base and
+emitter terminals when the base current iB > 0 (a fact not evident from the characteristic
+curves in Figure 7.48).
+The condition vCE > vBE − 0.4 V ensures that the base-collector diode stays OFF. The
+condition states that the collector voltage must not fall below the base voltage by more
+than 0.4 V, because if it did, the base-collector diode would turn ON.5 In the active

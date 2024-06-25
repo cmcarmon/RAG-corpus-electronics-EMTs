@@ -1,0 +1,5 @@
+We first construct the small-signal circuit model for the first stage including
+the load capacitor. We can ignore the loading of the second stage because the
+MOSFET has an infinite input resistance. It is easy to see that the small-signal
+circuit model can be developed from the circuit in Figure 8.16 by adding the
+load capacitor CGS as illustrated in Figure 13.20.

@@ -1,0 +1,11 @@
+The DCT is very effective in reducing the redundancy of real
+images. It tends to concentrate energy in very few transform
+coefﬁcients. In other words, the coefﬁcients with most of the
+energy are in general the ones with low values of k in equation
+4.38. Since, in this equation, k is proportional to the frequency
+of the cosine function, usually one refers to them as low-
+frequency coefﬁcients. To illustrate this, Figure 4.21 shows
+the 256  256 DCT of the image LENA 256  256. Actually,
+the logarithm of the absolute value of the coefﬁcients has been
+plotted. Black corresponds to zero, and the whiter the pixel,
+the higher its value.

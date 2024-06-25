@@ -1,0 +1,10 @@
+Considering Example 2, the advantage of separating levels of concern may appear to be subtle. The reason
+is the small size of the original sort program. A quote by B. Stroustrup [1991] emphasizes this point, “You can
+make a small program (less than 1000 lines) work through brute force even when breaking every rule of good
+style. For a larger program, this is simply not so. . . .” Advantages that do not seem very signiﬁcant for small
+programs  become  invaluable  for  large  ones.  Writing  large  programs  is  an  inherently  difﬁcult  activity  that
+demands a high level of concentration, helped by separating and hindered by mixing unrelated levels of concern.
+Second, as a rule of thumb, the text of a procedure should ﬁt onto one page (or into a window). A single
+page of text can be studied exclusively by eye movement and, thus, comprehended more easily than text that
+spans  over  several  pages.  That  is  not  to  say  that  longer  procedures  are  necessarily  an  indication  of  poor
+programming methods, but there should be compelling reasons if the limit of one page is to be exceeded.

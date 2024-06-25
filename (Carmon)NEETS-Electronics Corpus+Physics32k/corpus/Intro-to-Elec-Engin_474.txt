@@ -1,0 +1,16 @@
+Whereas a continuous change from one value to another is the essential characteristic of an
+analog signal and continuous-state (analog) circuits are used to process analog signals, signals
+represented by discrete amplitudes at discrete times are handled by discrete-state (digital) circuits.
+Analog systems process the information contained in the time function, which deﬁnes the signal,
+whereas digital systems, as the name implies, process digits, i.e., pulse trains, in which the
+information is carried in the pulse sequence rather than the amplitude–time characterization of the
+pulses. Figure 6.0.1 illustrates continuous signals, whereas Figure 6.0.2 depicts discrete signals.
+Consider Figure 6.0.1(a) to be a voltage signal (as a function of a continuous-time variable
+t) representing a physical quantity, such as the output voltage of a phonograph cartridge. The
+discrete signal (which exists only at speciﬁc instances of time) of Figure 6.0.2(a) has the same
+amplitude at times t = 0, T1, T2, and T3 as does the continuous signal of Figure 6.0.1(a). Figure
+6.0.2(a) represents the sampled-data signal obtained by sampling the continuous signal at periodic
+intervals of time. The sequence of pulses in each time interval in Figure 6.0.2(b) is a numeric,
+or digital, representation of the corresponding voltage samples shown in Figure 6.0.2(a). Figure
+6.0.1(b) may be considered as the signal, called a clock, which sets the timing sequence used in
+the generation of the pulses shown in Figure 6.0.2.

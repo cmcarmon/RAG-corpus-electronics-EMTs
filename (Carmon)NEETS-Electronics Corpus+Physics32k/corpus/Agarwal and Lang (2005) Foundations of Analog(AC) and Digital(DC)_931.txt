@@ -1,0 +1,8 @@
+7.3 A C T U A L M O S F E T C H A R A C T E R I S T I C S
+Chapter 6 introduced the MOSFET and developed simple digital logic circuits
+using the device. That chapter also used the simplistic S model and the SR
+model of the MOSFET to analyze digital logic circuits. The SR model uses a
+fixed RON between the D and S terminals of the MOSFET when vGS ≥ VT.
+This model is a reasonable representation of MOSFET behavior only when the
+drain voltage is smaller than the gate voltage minus one threshold drop. In other
+words, when

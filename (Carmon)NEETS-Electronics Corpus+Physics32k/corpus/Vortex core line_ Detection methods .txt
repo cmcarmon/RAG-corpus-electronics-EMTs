@@ -1,0 +1,21 @@
+Several methods exist to detect vortex core lines in a flow field. Jiang, Machiraju & Thompson (2004) studied and compared nine methods for vortex detection, including five methods for the identification of vortex core lines. Although this list is incomplete, they considered it representative for the state of the art (as of 2004).
+One of these five methods is by Sujudi & Haimes (1995): in a velocity field v(x,t) a vector x lies on a vortex core line if v(x,t) is an eigenvector of the tensor derivative
+
+
+
+∇
+
+v
+
+(
+
+x
+
+,
+t
+)
+
+
+{\displaystyle \nabla {\boldsymbol {v}}({\boldsymbol {x}},t)}
+and the other – not corresponding – eigenvalues are complex.
+Another is the Lambda2 method, which is Galilean invariant and thus produces the same results when a uniform velocity field is added to the existing velocity field or when the field is translated.

@@ -1,0 +1,7 @@
+We make one final observation about our amplifier. Although vB is an
+amplified version of the input signal vA when the input signal is boosted with
+a DC offset, vB is not linearly related to vA. Notice from Equation 7.14
+that our amplifier is nonlinear even when the MOSFET operates in the
+saturation region. Fortunately, the MOSFET amplifier behaves as an approxi-
+mately linear amplifier for small signals; in other words, when the desired input
+signal vA is very small. However, we will postpone a more detailed analysis of

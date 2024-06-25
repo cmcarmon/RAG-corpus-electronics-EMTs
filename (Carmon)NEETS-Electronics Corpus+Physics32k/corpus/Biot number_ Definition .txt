@@ -1,0 +1,84 @@
+The Biot number is defined as:
+
+
+
+
+
+B
+i
+
+=
+
+
+
+
+L
+
+C
+
+
+h
+
+
+
+k
+
+
+
+
+
+{\displaystyle \mathrm {Bi} ={\frac {L_{C}h}{\ k}}}
+
+where:
+h = film coefficient or heat transfer coefficient or convective heat transfer coefficient
+LC = characteristic length, which is commonly defined as the volume of the body divided by the surface area of the body, such that
+
+
+
+
+
+
+L
+
+C
+
+
+
+
+=
+
+
+
+V
+
+
+b
+o
+d
+y
+
+
+
+
+A
+
+
+s
+u
+r
+f
+a
+c
+e
+
+
+
+
+
+
+
+{\displaystyle {\mathit {L_{C}}}={\frac {V_{\mathrm {body} }}{A_{\mathrm {surface} }}}}
+
+kb = thermal conductivity of the body
+The physical significance of Biot number can be understood by imagining the heat flow from a small hot metal sphere suddenly immersed in a pool, to the surrounding fluid. The heat flow experiences two resistances: the first within the solid metal (which is influenced by both the size and composition of the sphere), and the second at the surface of the sphere. If the thermal resistance of the fluid/sphere interface exceeds that thermal resistance offered by the interior of the metal sphere, the Biot number will be less than one. For systems where it is much less than one, the interior of the sphere may be presumed always to have the same temperature, although this temperature may be changing, as heat passes into the sphere from the surface. The equation to describe this change in (relatively uniform) temperature inside the object, is simple exponential one described in Newton's law of cooling.
+In contrast, the metal sphere may be large, causing the characteristic length to increase to the point that the Biot number is larger than one. Now, thermal gradients within the sphere become important, even though the sphere material is a good conductor. Equivalently, if the sphere is made of a thermally insulating (poorly conductive) material, such as wood or styrofoam, the interior resistance to heat flow will exceed that of the fluid/sphere boundary, even with a much smaller sphere. In this case, again, the Biot number will be greater than one.

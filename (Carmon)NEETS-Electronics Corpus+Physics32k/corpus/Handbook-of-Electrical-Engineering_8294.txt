@@ -1,0 +1,7 @@
+Up  to  two  inputs  can  be  trivially  connected  to  an  LCAR,  or  it  can  be  easily  converted  to  accept  multiple
+inputs  fed  through  the  cell  rules.  There  are  some  advantages  of  using  LCARs  instead  of  LFSRs:  ﬁrst,  the
+localization  of  all  connections,  and  second,  and  most  importantly,  it  has  been  shown  that  LCARs  are  much
+“better” pseudo-random pattern generators when used in autonomous mode, as they do not show the corre-
+lation of bits due to the shifting of the LFSRs. Finally, the better pattern distribution provided by LCARs as
+input stimuli has been shown to provide better detection for delay faults and open faults, normally very difﬁcult
+to test.

@@ -1,0 +1,8 @@
+FIGURE 17.11 
+with aliasing.
+ﬁlters are low-pass ﬁlters whose cut-off frequencies are chosen to be less than w
+M . Although the signal
+will still not be able to be reconstructed exactly, the degradations are less annoying. Another problem in a real
+system is the need for an ideal low-pass ﬁlter to reconstruct an analog signal. An ideal ﬁlter is not physically
+realizable, so in practice an approximation must be made. Several very simple ﬁlter structures are common in
+video systems: sample and hold, bilinear, and raised cosine.

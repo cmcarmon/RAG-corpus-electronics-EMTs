@@ -1,0 +1,16 @@
+ﬁcation is to capture accurately the ﬁrst ﬁve pairs of the
+complex poles of the structure. For this purpose, a DSPT
+Siglab spectrum analyzer is used to measure the FRF data.
+The sampling rate is set at 256 Hz, and the frequency reso-
+lution is set at 0.125 Hz. The experimental FRF is precondi-
+tioned to eliminate the second order direct current (dc) zeros
+from acceleration measurement. The MF parameterization
+is chosen for the curve-ﬁtting, which is complemented by
+the ERA method for state-space realization. The key identiﬁ-
+cation parameters are given in Table 6.1. The ﬁnal discrete-
+time state-space realization has 10 states. The magnitude
+and phase plots of its transfer functions are compared to
+the experimental FRF data in Figures 6.3 and 6.4. Excellent
+agreements are found in all but the very high frequency
+range. The mismatch there is primarily due to the unmodeled
+high-frequency dynamics.

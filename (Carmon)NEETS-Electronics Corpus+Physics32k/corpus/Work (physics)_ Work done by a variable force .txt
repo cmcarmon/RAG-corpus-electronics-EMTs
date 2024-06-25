@@ -1,0 +1,55 @@
+Calculating the work as "force times straight path segment" would only apply in the most simple of circumstances, as noted above. If force is changing, or if the body is moving along a curved path, possibly rotating and not necessarily rigid, then only the path of the application point of the force is relevant for the work done, and only the component of the force parallel to the application point velocity is doing work (positive work when in the same direction, and negative when in the opposite direction of the velocity). This component of force can be described by the scalar quantity called scalar tangential component (
+
+
+
+
+F
+cos
+⁡
+θ
+
+
+
+{\displaystyle \scriptstyle F\cos \theta }
+, where
+
+
+
+
+θ
+
+
+
+{\displaystyle \scriptstyle \theta }
+is the angle between the force and the velocity). And then the most general definition of work can be formulated as follows:
+Work of a force is the line integral of its scalar tangential component along the path of its application point.
+If the force varies (e.g. compressing a spring) we need to use calculus to find the work done. If the force is given by F(x) (a function of x) then the work done by the force along the x-axis from a to b is:
+
+
+
+
+W
+=
+
+∫
+
+a
+
+
+b
+
+
+
+F
+(
+s
+)
+
+⋅
+d
+
+s
+
+
+
+{\displaystyle W=\int \limits _{a}^{b}\mathbf {F(s)} \cdot d\mathbf {s} }

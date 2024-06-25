@@ -1,0 +1,19 @@
+Each of the data units in an MCU is then processed sepa-
+rately. First a two-dimensional (2-D) DCT operation is per-
+formed that changes the energy distribution of the original
+image and concentrates more information in low frequencies.
+The DCT coefﬁcients are then quantized to reduce the magni-
+tude of coefﬁcients to be encoded and to reduce some of the
+smaller ones to zero. The specs contain two separate quantiza-
+tion tables for luminance (Y) and for chrominance (U and V).
+The quantized coefﬁcients are then prepared for symbol en-
+coding. This is done by arranging them in a zigzag sequence as
+shown in the Figure 6.2, with lowest frequencies ﬁrst and the
+highest frequencies last, to keep the scores of zero-valued
+coefﬁcients at the tail of the variable-length bit stream to be
+encoded in the next phase. The assumption is that low-
+frequency components tend to occur with higher magnitude,
+while the high-frequency ones occur with lower magnitudes;
+placing the high frequency components at the end of the
+sequence to be encoded is more likely to generate a longer
+run of zeros yielding a good overall compression ratio.

@@ -1,0 +1,4 @@
+Figure 16.2 shows a block diagram of the EKF. Note that the EKF uses the nonlinear dynamics and nonlinear
+measurement  equations  to  predict  xk  and  zk,  rather  than  using  a  linear  approximation.  In  contrast,  the  EKF
+uses  linear  approximations  of  f(x)  and  h(x)  to  compute  the  covariance  matrices  and  the  Kalman  ﬁlter  gain.
+The nonlinear dynamical model for x is:

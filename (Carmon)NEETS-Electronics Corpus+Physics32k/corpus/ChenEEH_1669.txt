@@ -1,0 +1,12 @@
+Spatial Versus Compressed Domain Processing
+Given the huge storage requirements of nontextual data, the
+vast volumes of images are normally stored in compressed
+form. One approach in CBIR systems is to ﬁrst decompress
+the images and transform them into the format used by the
+system. The default color format used by majority of the CBIR
+systems is RGB, which is very redundant and unsuitable for
+storage but very easy to process and use for display. Once the
+raw image data has been extracted after decompression, any of
+the content modeling techniques can be applied to yield a
+representation of the image content for indexing. This process
+of decompressing the image before content representation

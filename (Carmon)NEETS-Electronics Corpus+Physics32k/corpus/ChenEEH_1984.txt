@@ -1,0 +1,13 @@
+Cerberus–16 is the ﬁrst synchronous scheme that checks
+processors by a reference program (Mahmood and McCluskey,
+1988). The WD is implemented by a specialized processor
+that has a restricted instruction set. The program executed
+by the WD has the same CFG structure as that of the the
+program being checked. Each instruction of the WD includes
+the number of instructions in the corresponding node, a justi-
+fying signature, and the label of the next instruction in the
+WD. The reference signature of a path is computed at the end
+of a node and the justifying signature is fed to this unit to be
+compared to the run-time one. When a branch is executed at the
+end of a node, a signal is activated, and the WD takes the same
+branch as well; otherwise, the next instruction is executed.

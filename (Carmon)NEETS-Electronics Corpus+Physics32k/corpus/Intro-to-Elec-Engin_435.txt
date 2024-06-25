@@ -1,0 +1,8 @@
+and is therefore usually associated with low closed-loop voltage gain. For a 741 the slew rate is
+0.5 V/µs at A = 1. For more recently developed op amps, the slew rate ranges from 5 to 100
+V/µs. The effect of the slew rate in response to an input step voltage is shown in Figure 5.3.9.
+If one attempts to make the output voltage change faster than the slew rate, nonlinearity will be
+introduced. When specifying such output voltage requirements as rise time, output voltage, and
+frequency, it is necessary to choose an op amp with a slew rate that meets the speciﬁcations. With
+a sine-wave input, the slew rate limits a combination of maximum operating frequency and output
+voltage magnitude.

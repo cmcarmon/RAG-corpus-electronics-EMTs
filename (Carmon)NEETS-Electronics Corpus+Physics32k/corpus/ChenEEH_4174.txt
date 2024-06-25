@@ -1,0 +1,14 @@
+Error Detection and Recovery
+Due to the transmission impairments, a message arriving at
+the receiving station might be in error. The receiving station
+will detect the error and might ask the sending station for a
+retransmission. It is very rare that the receiving station would
+correct errors. The approach for requesting a retransmission
+when an error is detected is called forward correction. The
+error detection is mostly done at the data link layer that is the
+second layer of the network architecture although some error
+detection schemes might be done at the ﬁrst layer, the physical
+layer of the network architecture. The error detection schemes
+that have been used are described below. The cyclic redun-
+dancy check (CRC) is a most commonly used error detection
+scheme at the data link layer.

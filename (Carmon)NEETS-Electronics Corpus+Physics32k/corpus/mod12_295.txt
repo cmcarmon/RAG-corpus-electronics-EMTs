@@ -1,0 +1,9 @@
+Proper design of the multivibrator will cause the frequency deviation of the carrier to faithfully
+follow (referred to as a "linear" function) the modulating voltage. This is true up to frequency deviations
+which are considerable fractions of the fundamental frequency of the multivibrator. The principal design
+consideration is that the RC coupling from one multivibrator transistor base to the collector of the other
+has a time constant which is greater than the actual gate length by a factor of 10 or more. Under these
+conditions, a rise in base voltage in each transistor is essentially linear from cutoff to the bias at which the
+transistor is switched on. Since this rise in base voltage is a linear function of time, the gate length will
+change as an inverse function of the modulating voltage. This action will cause the frequency to change as
+a linear function of the modulating voltage.

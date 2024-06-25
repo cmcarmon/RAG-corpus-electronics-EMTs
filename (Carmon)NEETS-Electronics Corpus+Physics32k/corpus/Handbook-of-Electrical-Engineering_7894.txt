@@ -1,0 +1,10 @@
+An example of a reliable pulse-mode asynchronous sequential logic circuit is shown in Fig. 81.26. While the
+inputs  to  asynchronous  fundamental-mode  circuits  are  logic  levels,  the  inputs  to  asynchronous  pulse-mode
+circuits are pulses. Pulse-mode circuits have the restriction that the maximum pulse width of any input pulse
+must be sufﬁciently narrow such that an input pulse is no longer present when the new present state output
+signal becomes available. The purpose of the double-rank circuit in Fig. 81.26 is to ensure that the maximum
+pulse width requirement is easily met, since the output is not fed back until the input pulse is removed, i.e.,
+goes low or goes to logic 0. The input signals to pulse-mode circuits must also meet the following restrictions:
+(a) only one input pulse may be applied at one time, (b) the circuit must be allowed to reach a new stable state
+before applying the next input pulse, and (c) the minimum pulse width of an input pulse is determined by the
+time it takes to change the slowest ﬂip-ﬂop used in the circuit to a new stable state.

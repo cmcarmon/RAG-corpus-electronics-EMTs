@@ -1,0 +1,8 @@
+The length of time between T0 and T1 (and T2 to T3 in the next cycle) is the pulse width, which 
+depends mainly on the characteristics of the transformer and the point at which the transformer saturates. 
+A transformer is chosen that will saturate at about 10 percent of the total circuit current. This ensures that 
+the current increase is nearly linear. The transformer controls the pulse width because it controls the slope 
+of collector current increase between points T0 and T1. Since TC = L ÷ R , the greater the L, the longer 
+the TC. The longer the time constant, the slower the rate of current increase. When the rate of current 
+increase is slow, the voltage across L1 is constant for a longer time. This primarily determines the pulse 
+width. 

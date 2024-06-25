@@ -1,0 +1,23 @@
+connected to scannable ﬂip-ﬂops (i.e., pseudo-inputs) or to primary input pins of the component such that
+all inputs are 100% controllable either by controlling the values in the ﬂip-ﬂops or the primary input pins. All
+ﬂip-ﬂops are assumed to be scannable and are arranged into a single scan path such that the logic cones have
+n or fewer inputs all of which lie within k consecutive bits along the scan path. Outputs from the individual
+logic cones connect (not shown here) to the inputs of ﬂip-ﬂops and/or primary output pins. Thus, all logic
+cone outputs are also 100% observable. Now, assume that the serial output from the LFSR shown in Fig. 85.20
+is connected as the “scan-in” input to the scan-path register shown in Fig. 85.21. In this case any consecutive
+3-bit partition of the scan-path register will go through the same state sequence as the LFSR itself, delayed from
+it by the number of ﬂip-ﬂops between that partition and the output bit of the LFSR. For example, the third
+logic cone that has inputs from ﬂip-ﬂops 4, 5, and 6 will see all input permutations except the all-zeros case
+which can be applied separately as a special case. On the other hand, the ﬁrst logic cone, with inputs from ﬂip-
+ﬂops 1, 2, and 4, will not receive all possible nonzero permutations of three input variables. This is because
+the ﬁrst logic cone receives its three inputs from three nonconsecutive positions of the scan-path register. In this
+case only input permutations that have even parity across positions 1, 2, and 4 will be received by the ﬁrst logic
+cone.  Furthermore,  the  fourth  logic  cone  that  also  receives  inputs  from  three  nonconsecutive  bit  positions
+which  are  4  bits  apart  will  receive  all  3-bit  nonzero  input  permutations.  Analysis  of  which  set  of  input
+permutations may be generated across nonconsecutive n bits of a scan-path register which receives the outputs
+from an mth degree (m ‡ n) LFSR is based on linear dependence and is outside the scope of this section. However,
+the problem may also be approached statistically by choosing the degree of the LFSR to be higher than n but
+smaller than k which is the largest span of inputs to any logic cone. For example, in Fig. 85.21 the degree of
+the LFSR may be chosen as 4. In this case, the probability that a logic cone which has 4 or fewer inputs separated
+by k bits (here, k = 5) may be calculated [Lempel and Cohn, 1985]. It should be noted that a logic cone may
+be tested in full even when it has not received all 2**n input permutations.

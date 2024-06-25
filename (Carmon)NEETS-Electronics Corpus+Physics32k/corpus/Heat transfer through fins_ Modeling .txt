@@ -1,0 +1,28 @@
+Consider a body with fins on its outer surface, with air flowing around it.
+The heat transfer rate depends on
+Shape and geometry of the external surface
+Surface area of the body
+Velocity of the wind (or any fluid in other cases)
+Temperature of surroundings
+Modelling of the fins in this case involves, experimenting on this physical model and optimizing the number of fins and fin pitch for maximum performance.
+One of the experimentally obtained equations for heat transfer coefficient for the fin surface for low wind velocities is:
+
+where
+k= Fin surface heat transfer coefficient [W/m2K ]
+a=fin length [mm]
+v=wind velocity [km/hr]
+θ=fin pitch [mm]
+Another equation for high fluid velocities, obtained from experiments conducted by Gibson, is
+
+where
+k=Fin surface heat transfer coefficient[W/m2K ]
+a=Fin length[mm]
+θ=Fin pitch[mm]
+v=Wind velocity[km/hr]
+A more accurate equation for fin surface heat transfer coefficient is:
+
+where
+k (avg)= Fin surface heat transfer coefficient[W/m2K ]
+θ=Fin pitch[mm]
+v=Wind velocity[km/hr]
+All these equations can be used to evaluate average heat transfer coefficient for various fin designs.

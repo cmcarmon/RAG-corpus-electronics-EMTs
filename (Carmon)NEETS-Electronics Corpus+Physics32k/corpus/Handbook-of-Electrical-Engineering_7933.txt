@@ -1,0 +1,4 @@
+The interval timer/counters can operate in a variety of modes and are retriggerable so that an interrupt signal
+is  generated  either  once,  when  the  interval  expires,  or  continually,  when  subsequent  intervals  expire.  If  an
+external output is required, it can be either a one-shot output or a squarewave, with the output changing level
+each time the interval count is completed. The main timer/counter consists of two 8-bit latches operating in

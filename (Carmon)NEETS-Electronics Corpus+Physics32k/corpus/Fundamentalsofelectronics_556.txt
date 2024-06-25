@@ -1,0 +1,5 @@
+5.4 Amplitude Quantization14
+The Sampling Theorem says that if we sample a bandlimited signal s (t) fast enough, it can be recovered with-
+out error from its samples s (nTs), n ∈ {. . . ,−1, 0, 1, . . .}. Sampling is only the ﬁrst phase of acquiring data
+into a computer: Computational processing further requires that the samples be quantized: analog values
+are converted into digital form. In short, we will have performed analog-to-digital (A/D) conversion.

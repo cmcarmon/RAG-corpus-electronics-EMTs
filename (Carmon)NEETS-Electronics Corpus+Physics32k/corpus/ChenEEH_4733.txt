@@ -1,0 +1,23 @@
+Here, we will develop a direct adaptive control method for
+the class of systems in equation 12.1. We assume that the
+interpolation functions rj are known, but the functions f j
+i
+and c j
+i (which constitute the underlying time-varying dynam-
+ics of the system) are unknown. In an indirect adaptive meth-
+odology, one would attempt
+to identify the unknown
+functions and then construct a stabilizing control law based
+on the approximations to the plant dynamics. Here, however,
+we will postulate the existence of an ideal control law (based on
+the assumption that the plant belongs to the class of systems
+of equation 12.1) that possesses some desired stabilizing
+properties, and then we devise adaptation laws that attempt
+to approximate the ideal control equation. This approximation
+will be performed within a compact set Sxn  Rn of arbitrary
+size that contains the origin. In this manner, the results
+obtained are semiglobal, in the sense that they are valid as
+long as the state remains within Sxn ; this set can be made as
+large as desired by the designer. In particular, with enough
+plant information, the set can be made large enough so that
+the state never exits it because, as will be shown, a bound can

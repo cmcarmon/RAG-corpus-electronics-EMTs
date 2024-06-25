@@ -1,0 +1,11 @@
+Logic-level power minimization is relatively well studied
+and understood. Unfortunately, due to the local nature of
+most logic-level optimizations, a large number of transfor-
+mations have to be applied to achieve sizable power savings.
+This is a time-consuming and uncertain process during which
+uncertainty is caused by the limited accuracy of power estima-
+tion. In many cases, the savings produced by a local move are
+below the ‘‘noise ﬂoor’’ of the power estimation engine. As a
+consequence, logic-level optimization does not result in mas-
+sive power reductions. Savings are in the 10 to 20% range, on
+average.

@@ -1,0 +1,9 @@
+Note: Part of this problem is to describe what the problem is. How should accuracy be
+specified? Is there an error level that is clearly unacceptable? Does your product avoid
+that error level? Is there an obvious ‘‘worst case’’ that can be easily analyzed? Have fun.
+And remember, common sense is an important ingredient of sound engineering.
+p r o b l e m 3.15 You have a 6-volt battery (assumed ideal) and a 1.5-volt flashlight
+bulb, which is known to draw 0.5 A when the bulb voltage is 1.5 V (in Figure 3.146).
+Design a network of resistors to go between the battery and the bulb to give vs = 1.5 V
+when the bulb is connected, yet ensures that vs does not rise above 2 V when the bulb
+is disconnected.

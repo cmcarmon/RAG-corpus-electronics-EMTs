@@ -1,0 +1,127 @@
+The standard potential of an electrochemical cell requires standard conditions (ΔG°) for all of the reactants. When reactant concentrations differ from standard conditions, the cell potential will deviate from the standard potential. In the 20th century German chemist Walther Nernst proposed a mathematical model to determine the effect of reactant concentration on electrochemical cell potential.
+In the late 19th century, Josiah Willard Gibbs had formulated a theory to predict whether a chemical reaction is spontaneous based on the free energy
+
+
+
+
+Δ
+G
+=
+Δ
+
+G
+
+∘
+
+
++
+R
+T
+ln
+⁡
+Q
+
+
+{\displaystyle \Delta G=\Delta G^{\circ }+RT\ln Q}
+
+Here ΔG is change in Gibbs free energy, ΔG° is the cell potential when Q is equal to 1, T is absolute temperature(Kelvin), R is the gas constant and Q is reaction quotient which can be found by dividing products by reactants using only those products and reactants that are aqueous or gaseous.
+Gibbs' key contribution was to formalize the understanding of the effect of reactant concentration on spontaneity.
+Based on Gibbs' work, Nernst extended the theory to include the contribution from electric potential on charged species. As shown in the previous section, the change in Gibbs free energy for an electrochemical cell can be related to the cell potential. Thus, Gibbs' theory becomes
+
+
+
+
+n
+F
+Δ
+E
+=
+n
+F
+Δ
+
+E
+
+∘
+
+
+−
+R
+T
+ln
+⁡
+Q
+
+
+{\displaystyle nF\Delta E=nF\Delta E^{\circ }-RT\ln Q}
+
+Here n is the number of electrons/mole product, F is the Faraday constant (coulombs/mole), and ΔE is cell potential.
+Finally, Nernst divided through by the amount of charge transferred to arrive at a new equation which now bears his name:
+
+
+
+
+Δ
+E
+=
+Δ
+
+E
+
+∘
+
+
+−
+
+
+
+R
+T
+
+
+n
+F
+
+
+
+ln
+⁡
+Q
+
+
+{\displaystyle \Delta E=\Delta E^{\circ }-{\frac {RT}{nF}}\ln Q}
+
+Assuming standard conditions (T = 25 °C) and R = 8.3145 J/(K·mol), the equation above can be expressed on base—10 logarithm as shown below:
+
+
+
+
+Δ
+E
+=
+Δ
+
+E
+
+∘
+
+
+−
+
+
+
+0.05916
+
+
+V
+
+
+n
+
+
+log
+⁡
+Q
+
+
+{\displaystyle \Delta E=\Delta E^{\circ }-{\frac {0.05916\,\mathrm {V} }{n}}\log Q}

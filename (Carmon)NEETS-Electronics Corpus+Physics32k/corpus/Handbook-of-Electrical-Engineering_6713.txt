@@ -1,0 +1,5 @@
+At the present time, end-to-end connections at the ATM level are expected to be connection oriented. As
+cells  traverse  the  network,  they  are  switched  on  a  one-by-one  basis,  using  information  contained  in  the  ﬁve
+ATM overhead octets to follow the virtual path established during the ATM call set-up. Typically, cells outbound
+on a common link are statistically multiplexed, and if buffers are full, cells are dropped. In addition, if one or
+more errors are found in a cell, then the cell is dropped.

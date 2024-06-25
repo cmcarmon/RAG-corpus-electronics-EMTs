@@ -1,0 +1,9 @@
+The RC networks which have been discussed in this chapter may also be used as coupling networks. 
+When an RC circuit is used as a coupling circuit, the output is taken from across the resistor. Normally, a 
+long time-constant circuit is used. This, of course, will cause an integrated wave shape across the 
+capacitor if the applied signal is nonsinusoidal. However, in a coupling circuit, the signal across the 
+resistor should closely resemble the input signal and will if the time constant is sufficiently long. By 
+referring to the diagram in figure 4-42, you can see that the voltage across the resistor closely resembles 
+the input signal. Consider what would happen if a pure sine wave were applied to a long time-constant 
+RC circuit (R is much greater than XC). A large percentage of the applied voltage would be developed 
+across the resistor and only a small amount across the capacitor. 

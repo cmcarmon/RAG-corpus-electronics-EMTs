@@ -1,0 +1,16 @@
+In a near-inertial frame moving in tandem with Earth, but not sharing the rotation of the earth about its own axis, the suspension point of the pendulum traces out a circular path during one sidereal day.
+At the latitude of Paris, 48 degrees 51 minutes north, a full precession cycle takes just under 32 hours, so after one sidereal day, when the Earth is back in the same orientation as one sidereal day before, the oscillation plane has turned by just over 270 degrees. If the plane of swing was north-south at the outset, it is east-west one sidereal day later.
+This also implies that there has been exchange of momentum; the Earth and the pendulum bob have exchanged momentum. The Earth is so much more massive than the pendulum bob that the Earth's change of momentum is unnoticeable. Nonetheless, since the pendulum bob's plane of swing has shifted, the conservation laws imply that an exchange must have occurred.
+Rather than tracking the change of momentum, the precession of the oscillation plane can efficiently be described as a case of parallel transport. For that, it can be demonstrated, by composing the infinitesimal rotations, that the precession rate is proportional to the projection of the angular velocity of Earth onto the normal direction to Earth, which implies that the trace of the plane of oscillation will undergo parallel transport. After 24 hours, the difference between initial and final orientations of the trace in the Earth frame is α = −2πsin(φ), which corresponds to the value given by the Gauss–Bonnet theorem. α is also called the holonomy or geometric phase of the pendulum. When analyzing earthbound motions, the Earth frame is not an inertial frame, but rotates about the local vertical at an effective rate of 2π sin(φ) radians per day. A simple method employing parallel transport within cones tangent to the Earth's surface can be used to describe the rotation angle of the swing plane of Foucault's pendulum.
+From the perspective of an Earth-bound coordinate system with its x-axis pointing east and its y-axis pointing north, the precession of the pendulum is described by the Coriolis force. Consider a planar pendulum with natural frequency ω in the small angle approximation. There are two forces acting on the pendulum bob: the restoring force provided by gravity and the wire, and the Coriolis force. The Coriolis force at latitude φ is horizontal in the small angle approximation and is given by
+
+where Ω is the rotational frequency of Earth, Fc,x is the component of the Coriolis force in the x-direction and Fc,y is the component of the Coriolis force in the y-direction.
+The restoring force, in the small-angle approximation, is given by
+
+Using Newton's laws of motion this leads to the system of equations
+
+Switching to complex coordinates z = x + iy, the equations read
+
+To first order in Ω/ω this equation has the solution
+
+If time is measured in days, then Ωt = 2π and the pendulum rotates by an angle of −2π sin(φ) during one day.

@@ -1,0 +1,8 @@
+One choice of ground node and a corresponding set of node voltages is
+defined in the figure. Node 3 is a good choice because it has three branches
+and it connects directly to the voltage source. Since the independent voltage
+source has a known voltage V, we can directly label the voltage of Node 1 as V
+using the element law for an independent voltage source. Thus, we have one
+unknown node voltage e. Because node voltages identically satisfy KVL, it is not
+necessary to write KVL. To demonstrate this point, let us write KVL around
+the loops. Doing so, we find

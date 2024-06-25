@@ -1,0 +1,13 @@
+Figure 4-13 is a typical shipboard receive-only system. In this system the transmitted carrier may be 
+frequency modulated (fm) or phase-shift-key (psk) modulated for tty operation. The receiving antennas 
+for this system are positioned about the ship. They are arranged in a manner (normally one in each 
+quadrant of the ship) that at no time allows the line-of-sight to be blocked between the relay satellite and 
+one or more of the antennas. Incoming signals pass from the antennas to an amplifier-converter. Each 
+amplifier-converter routes an IF signal on one line of a twin axial cable that connects it to the combiner-
+demodulator. An operating power and local-oscillator signal are coupled from the combiner-demodulator 
+to each amplifier-converter on the other line of the cable used for the IF signal. Because of signal path 
+variations, shading, and reflections, the incoming signals are subject to random phase and amplitude 
+variations. The combiner operation performed within the combiner-demodulator removes the phase 
+variations from each input signal. It then measures the amplitudes of the signals for optimum combining 
+and sums the signals. After being combined, the signal is demodulated and coupled from a receiver 
+transfer switchboard to a telegraph demultiplex terminal. 

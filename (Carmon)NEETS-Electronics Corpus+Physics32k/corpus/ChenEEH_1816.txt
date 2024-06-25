@@ -1,0 +1,8 @@
+The controlled load service is described only using a Tspec.
+Since the network does not give any quantitative guarantees,
+Rspec is not required. The controlled load ﬂows not experi-
+encing excess trafﬁc will get the contracted quality of service,
+and the network elements will prevent excess controlled load
+trafﬁc from unfairly impacting the handling of arriving best-
+effort trafﬁc. The excess trafﬁc will be forwarded on a best-
+effort basis.

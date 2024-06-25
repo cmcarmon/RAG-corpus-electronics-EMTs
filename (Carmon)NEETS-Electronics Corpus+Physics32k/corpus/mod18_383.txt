@@ -1,0 +1,6 @@
+The iagc circuit is essentially a wide-band, dc amplifier. It instantaneously controls the gain of the IF
+amplifier as the radar return signal changes in amplitude. The effect of iagc is to allow full amplification
+of weak signals and to decrease the amplification of strong signals. The range of iagc is limited, however,
+by the number of IF stages in which gain is controlled. When only one IF stage is controlled, the range of
+iagc is limited to approximately 20 dB. When more than one IF stage is controlled, iagc range can be
+increased to approximately 40 dB.

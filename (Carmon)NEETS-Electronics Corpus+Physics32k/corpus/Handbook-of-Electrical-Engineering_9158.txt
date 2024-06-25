@@ -1,0 +1,6 @@
+Card-to-System Solutions
+Naturally, communication with a smart card would be impossible without several software layers that transform
+the request of the user into a sequence of bits transmitted to the device. At the lowest level, the drivers provide
+the basic functionality by transferring a sequence of bytes to the reader. Then layers of software are built over
+the driver to form application program interfaces (APIs). API offers to the application developer functions that
+combine basic operations to hide speciﬁcity of a particular device and to ease the development.

@@ -1,0 +1,11 @@
+Since most CDMA detectors are correlation receivers, it is important when deploying such a system to have
+a set of spreading sequences that have relatively low-pairwise cross-correlation between any two sequences in
+the set. Further, there are two fundamental types of operation in CDMA, synchronous and asynchronous. In
+the former case, the symbol transition times of all of the users are aligned; this allows for orthogonal sequences
+to be used as the spreading sequences and, thus, eliminates interference from one user to another. Alternatively,
+if no effort is made to align the sequences, the system operates asynchronously; in this latter mode, multiple
+access interference limits the ultimate channel capacity, but the system design exhibits much more ﬂexibility.
+CDMA has been of particular interest recently for applications in wireless communications. These applica-
+tions include cellular communications, personal communications services (PCS), and wireless local area net-
+works.  The  reason  for  this  popularity  is  primarily  due  to  the  performance  that  spread  spectrum  waveforms
+display when transmitted over a multipath fading channel.

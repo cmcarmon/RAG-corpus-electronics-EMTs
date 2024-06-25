@@ -1,0 +1,7 @@
+Transactions originating from different users may be aimed at the same database records. This situation, if
+not carefully monitored, may cause the database to become inconsistent. Starting from a database in a consistent
+state, it is obvious that if all transactions are executed one after the other, then the database will remain in a
+consistent state. In a multiuser DBMS, serial execution of transactions is wasteful of system resources. In this
+case, the solution is to interleave the execution of the transactions. However, the interleaving of transactions
+has  to  be  performed  in  a  way  that  prevents  the  database  from  becoming  inconsistent.  Suppose  that  two
+transactions T1 and T2 proceed in the following way:

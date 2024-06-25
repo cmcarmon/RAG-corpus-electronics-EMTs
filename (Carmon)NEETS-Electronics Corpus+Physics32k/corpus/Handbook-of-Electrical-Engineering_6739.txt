@@ -1,0 +1,6 @@
+The signaling rates and formats are also part of the physical layer speciﬁcation. Electrical media generally
+use Manchester baseband encoding, which has a 50% duty cycle and operates at rates below 100 Mb/s. Optical
+media often use the so-called 4B/5B intensity-modulation encoding, which achieves 80% efﬁciency by repre-
+senting 27 distinct symbols (of which 16 are data and 11 are control symbols) by ﬁve bits in such a manner
+that four consecutive 0s (i.e., low-light power levels) should never occur. Similarly, 8B/6T encoding is sometimes
+used with electrical media to encode an octet of data as six ternary digits, achieving an efﬁciency of 75%. 

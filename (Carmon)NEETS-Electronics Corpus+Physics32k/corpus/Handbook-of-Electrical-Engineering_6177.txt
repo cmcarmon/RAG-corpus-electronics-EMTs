@@ -1,0 +1,6 @@
+If the complex envelope g(t) is desired for generalized signal detection or for optimum reception in digital
+systems, the x(t) and y(t) quadrature components, where x(t) + jy(t) = g(t), may be obtained by using quadrature
+product  detectors,  as  illustrated  in  Fig. 69.4. x(t)  and y(t)  could  be  fed  into  a  signal  processor  to  extract  the
+modulation information. Disregarding the effects of noise, the signal processor could recover m(t) from x(t)
+and y(t) (and, consequently, demodulate the IF signal) by using the inverse of the complex envelope generation
+functions given in Table 69.1.

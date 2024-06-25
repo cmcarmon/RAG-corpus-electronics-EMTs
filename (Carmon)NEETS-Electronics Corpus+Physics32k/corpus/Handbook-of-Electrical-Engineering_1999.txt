@@ -1,0 +1,6 @@
+These two instructions cause an input value x(n), retrieved from an input port address speciﬁed by auxiliary
+register AR3, to be loaded into a register R3 (one of eight 40-bit-wide extended precision registers), then stored
+in a memory location pointed by AR1 (AR1 would be ﬁrst initialized to point at the “bottom” or higher-memory
+address of the table for the input samples). AR1 is then postincremented in a circular fashion, designated with
+the modulo operator %, to point at the oldest sample x(n – (N – 1)), as shown in Table 18.2. The size of the
+circular buffer must ﬁrst be speciﬁed. The following program segment implements (18.1):

@@ -1,0 +1,6 @@
+The interfacing requirements, which are otherwise similar in multiplexing techniques, etc., are complicated
+by  the  requirement  for  zero  net  dc  bias  across  the  cell  in  order  to  avoid  electrochemical  degradation  of  the
+material. LCDs require ac drive signals, and square waves of frequency between 25 Hz and 1 kHz are typically
+used [Wilson and Hawkes, 1989]. A square wave is applied to the backplane, with in-phase and antiphase signals
+to the counter electrode determining whether the given pixel or segment is on or off. In practice, the state is
+determined by the root-mean-square (rms) value of the differential voltage applied.

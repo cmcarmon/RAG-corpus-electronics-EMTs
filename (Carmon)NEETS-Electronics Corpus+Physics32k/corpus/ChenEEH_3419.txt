@@ -1,0 +1,34 @@
+interrupted is at a minimum. The breakers often do not
+succeed in making the interruption during the ﬁrst attempt
+and, as a result, several cycles of the fundamental frequency
+current signal may be needed to completely interrupt the
+current ﬂow. This affects the speed of the breaker operation.
+The fastest breakers used at the high-voltage levels are one-
+cycle breakers, whereas a typical breaker used at the lower
+voltage levels may take 20 to 50 cycles to open. Circuit breakers
+are initiated by the relays to disconnect the power system
+component in the case a fault is present on the component.
+In the case of the transmission line faults, many faults are
+temporary in nature. To distinguish between permanent
+and temporary faults on transmission lines, the concept of
+breaker autoreclosing is used. It assumes that once the breaker
+is tripped (opened) by the relay, it will stay open for a while,
+and then it will automatically reclose. This action allows the
+relays to verify if the fault is still present and, if so, to trip the
+breaker again. In the case the fault has disappeared, the relays
+will not act, and the transmission line will stay in service. The
+autoreclosing function may be implemented quite differently
+depending on the particular needs. The main options are to
+have a single or multiple reclosing attempts and to operate
+either a single pole or all three poles of the breaker. Circuit
+breakers are also quite often equipped with auxiliary relays
+called breaker failure (BF) relays. If the breaker fails to open
+when called upon, the BF relay will initiate operation of other
+circuit breakers that will disconnect the faulted element, quite
+often at the expense of disconnecting some additional healthy
+components. This may be observed in Figure 9.3: once a
+transmission line relay operates the two breakers in the trans-
+mission line bay and one of the breakers fails to operate, the BF
+relay will disconnect all the breakers on the bus side where the
+failed breaker is connected, making sure the faulted line is
+disconnected from the bus.

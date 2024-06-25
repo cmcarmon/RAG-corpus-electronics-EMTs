@@ -1,0 +1,5 @@
+A  simulated  inductor  is  circuit  consisting  of  resistors,  capacitors,  and  ampliﬁers  that  acts  like  an
+inductor. The noninverting GIC can be used to design a simulated inductor by taking Z A(s ) = RA, ZB(s )
+= RB , ZC (s ) = RC , ZD(s ) = 1/(sCD), and Z2(s ) = R2. Figure 29.25(c) shows the op amp circuit that implements
+a  simulated  inductor,  and  Fig.  29.25(d)  shows  the  equivalent  circuit.  The  inductance  of  the  simulated
+inductor is given by 

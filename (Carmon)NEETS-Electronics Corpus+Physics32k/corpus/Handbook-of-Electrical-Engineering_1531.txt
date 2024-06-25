@@ -1,0 +1,4 @@
+The easiest way to construct a decision tree is to create — in advance — a list of possible questions for each
+variable that may be tested. Finding the best question at any given node consists of subjecting all the relevant
+variables to each of the questions on the corresponding list and picking the best combination of the variable
+and the question.

@@ -1,0 +1,5 @@
+The modulating signal in view (B) consists of a bit stream of ZEROS and ONES. A ZERO does not
+affect the carrier frequency which is usually set to equal the bit rate. For example, a data stream of 1,200
+bits per second would have a carrier of 1,200 hertz. When a data bit ONE occurs, the phase of the carrier
+frequency is shifted 180 degrees. In view (C) we find that the third, fifth, and sixth cycles (all ONE) have
+been reversed in phase. This phase reversal produces CUSPS (sharp phase reversals) which are usually

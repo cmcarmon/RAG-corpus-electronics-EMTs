@@ -1,0 +1,8 @@
+The PEs in the MLP are composed of an adder followed by a smooth saturating nonlinearity of the sigmoid
+type  (Fig. 20.3).  The  most  common  saturating  nonlinearities  are  the  logistic  function  and  the  hyperbolic
+tangent.  The  threshold  is  used  in  other  nets.  The  importance  of  the  MLP  is  that  it  is  a  universal  mapper
+(implements  arbitrary  input/output  maps)  when  the  topology  has  at  least  two  hidden  layers  and  sufﬁcient
+number  of  PEs  [Haykin,  1994].  Even  MLPs  with  a  single  hidden  layer  are  able  to  approximate  continuous
+input/output maps. This means that rarely we will need to choose topologies with more than two hidden layers.
+But these are existence proofs, so the issue that we must solve as engineers is to choose how many layers and
+how many PEs in each layer are required to produce good results.

@@ -1,0 +1,16 @@
+The frequency spacing between the FH/MFSK tones is governed by the chip rate Rc and is, thus, dependent
+on  whether  the  FH  modulation  is  FFH  or  SFH.  In  particular,  for  SFH  where  Rc  =  Rs,  the  spacing  between
+FH/MFSK tones is equal to the spacing between the MFSK tones themselves. For noncoherent detection (the
+most commonly encountered in FH/MFSK systems), the separation of the MFSK symbols necessary to provide
+orthogonality3 is an integer multiple of Rs. Assuming the minimum spacing, i.e., Rs, the entire spread spectrum
+band is then partitioned into a total of Nt = Wss/Rs=Wss /Rc equally spaced FH tones. One arrangement, which
+is by far the most common, is to group these Nt tones into Nb = Nt/M contiguous, nonoverlapping bands, each
+with bandwidth M Rs = M Rc; see Fig. 70.16(a). Assuming symmetric MFSK modulation around the carrier
+frequency, then the center frequencies of the Nb = 2k bands represent the set of hop carriers, each of which is
+assigned to a given k-tuple of the PN code generator. In this ﬁxed arrangement, each of the Nt FH/MFSK tones
+corresponds to the combination of a unique hop carrier (PN code k-tuple) and a unique MFSK symbol. Another
+arrangement,  which  provides  more  protection  against  the  sophisticated  interferer  (jammer),  is  to  overlap
+adjacent M -ary bands by an amount equal to Rc; see Fig. 70.16(b). Assuming again that the center frequency
+of each band corresponds to a possible hop carrier, then since all but  M – 1 of the Nt tones are available as
+center frequencies, the number of hop carriers has been increased from Nt/M to Nt – (M – 1), which for Nt @
+M is approximately an increase in randomness by a factor of M.

@@ -1,0 +1,6 @@
+Grounding and Bypassing on D/A and A/D ICs
+D/A and A/D converter ICs require correct grounding and capacitive bypassing in order to operate according
+to  performance  speciﬁcations.  The  digital  signals  can  severely  impair  analog  signals.  To  combat  the  electro-
+magnetic interference induced by the digital signals, the analog and digital grounds should be kept separate
+and should have only one common point on the circuit board. If possible, this common point should be the
+connection to the power supply.

@@ -1,0 +1,7 @@
+4. Intermediate representation generation (IR): An IR is
+generated from a given SFG with the help of a prede-
+signed component library. The bit width of each vari-
+able is used to determine the size of register and bus.
+The ﬁnal result is usually in HDL behavioral descrip-
+tion for further behavioral-to-register transfer HDL
+synthesis.

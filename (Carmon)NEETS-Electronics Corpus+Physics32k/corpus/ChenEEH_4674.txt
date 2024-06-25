@@ -1,0 +1,14 @@
+The importance of idle speed control is due in part to vehicles
+(in a typical drive cycle) spending a large percentage of fuel in
+the idle condition. A satisfactory idle speed control algorithm
+should regulate the engine operating at a low speed while
+effectively rejecting typical torque disturbances due to accessory
+loads, such as the power steering pump, the air conditioning
+compressor, the various electrical loads, the engagement of the
+automatic transmission, and so on. A production idle speed
+controller generally consists of an anticipatory term using the
+information from the accessories, a proportional-integral feed-
+back control term operating on the air mass signal, and a
+proportional feedback term for the spark timing. A survey of
+idle speed models and control methodologies is given by Hrovat
+et al. (1996).

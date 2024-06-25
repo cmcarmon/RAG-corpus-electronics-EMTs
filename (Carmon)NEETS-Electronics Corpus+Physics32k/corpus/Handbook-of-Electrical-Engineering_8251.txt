@@ -1,0 +1,10 @@
+Figure 84.5 shows the simpliﬁed circuit diagram of a monolithic sampling-and-hold circuit and the associated
+switching waveforms. The differential ampliﬁers function as input and output buffers, and the capacitor acts
+ position, the two buffers are connected
+as the storage mechanism. When the mode control switch is at its 
+in series and the capacitor follows the input with minimum time delay, if it is small. Now, if the mode control
+ the feedback loop is interrupted, and the capacitor ideally retains its terminal voltage until the
+is switched 
+next sampling signal occurs. Leakage and bias currents usually cause the capacitor to discharge and or charge
+ which could be minimized by having a
+in the hold mode and the ﬂuctuation of the hold voltage is called 

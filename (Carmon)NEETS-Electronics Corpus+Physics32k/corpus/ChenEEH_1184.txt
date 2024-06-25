@@ -1,0 +1,6 @@
+inverted polarity by asserting an additional signal line that
+indicates bus inversion (Stan and Burleson, 1995). The
+number can be used to reduce the weight (the number of
+ones or zeros) of the binary numbers if the bus-inversion
+decision is made when the weight is more than half of the
+bus width. The bus-invert method is as follows:

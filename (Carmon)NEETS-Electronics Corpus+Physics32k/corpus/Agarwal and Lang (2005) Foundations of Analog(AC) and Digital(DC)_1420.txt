@@ -1,0 +1,16 @@
+signal transition times between inputs and outputs of circuits. The rise and fall
+times are defined as follows:7
+Rise Time In general, the rise time for an output is defined as the delay in rising
+from its lowest value to a valid high (VOH) at that output.
+Fall Time The fall time for an output is defined as the delay in falling from its
+highest value to a valid low (VOL) at the same output.
+In general, the propagation delay and the rise/fall time are not equal. The
+0 → 1 propagation delay for a digital circuit is the time between an input 0 to
+1 transition (the input transition is assumed to happen instantaneously) and the
+corresponding output transition. The output transition is assumed to complete
+only when the output voltage crosses the appropriate output voltage threshold.
+The propagation delay and the rise/fall times are usually not equal when the
+digital circuit consists of multiple stages. When a circuit consists of multiple
+stages, the rise/fall time at the output is usually a function of the properties
+of the output circuit alone. However, the propagation delay is the sum of the
+delays of each of the stages.

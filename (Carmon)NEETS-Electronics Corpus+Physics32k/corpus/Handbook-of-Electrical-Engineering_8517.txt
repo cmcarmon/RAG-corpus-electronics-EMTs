@@ -1,0 +1,7 @@
+The connection between the main memory and the processor that allows for the transfer of instructions and
+operands is called the bus, as shown in Fig. 86.7. A bus consists of a set of address, data, and control lines. The
+bus also allows program and data ﬁles to be transferred from their long-term location on magnetic disk storage
+to the main memory. Long distance digital communication with other computers is also enabled by transfers
+over the bus to the Communication Line Interface, as shown in the ﬁgure. The bus interconnects a number of
+devices,  but  only  two  devices  (a  sender  and  a  receiver)  can  use  it  at  any  one  time.  Therefore,  some  control
+circuitry is needed to manage the orderly use of the bus when a number of devices wish to use it.

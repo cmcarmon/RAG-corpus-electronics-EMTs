@@ -1,0 +1,5 @@
+characters? They are also part of the collating sequence. In EBCDIC, (EBCDIC is a computer code that is 
+discussed in detail in chapter 4) special characters, such as #, $, &, and *, come in front of the alphabetic 
+characters, and numbers follow. When you sort records in the defined sequence, they are in ascending 
+sequence. Most sort programs also allow you to sort in reverse order. This is called descending sequence. 
+In EBCDIC, it is 9-0, Z-A, then special characters. 

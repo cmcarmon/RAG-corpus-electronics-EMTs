@@ -1,0 +1,7 @@
+There is one other problem with our representations illustrated in
+Figures 5.6 and 5.5: They do not offer any immunity to noise. To illustrate,
+consider our representation in Figure 5.5 with a high and low voltage thresh-
+old bounding a forbidden region. In that representation, recall that senders can
+output voltages above VH and below 5 V for logical 1’s and voltages below VL
+and above 0 V for logical 0’s. Receivers must correspondingly interpret output
+voltages above VH as logical 1’s and voltages below VL as logical 0’s.

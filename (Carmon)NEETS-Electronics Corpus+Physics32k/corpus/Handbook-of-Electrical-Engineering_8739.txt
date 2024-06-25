@@ -1,0 +1,4 @@
+One of the reasons procedural HLLs fail to fully hide all details of an abstraction is that they typically have weak
+models of data. Data is allowed to ﬂow across many boundaries, which leads to problems with encapsulation. In
+FORTRAN, BASIC, Pascal, and C, for example, access to any data is given freely through globals, parameter passing,
+and ﬁles. This is called coupling and can have disastrous implications if not carefully controlled.

@@ -1,0 +1,5 @@
+When only noisy signals are available for coding, the encoder operates on the noisy signal while representing
+the clean signal. In this case, the encoder is designed by minimizing the average distortion between the clean
+signal and the encoded signal. Speciﬁcally, let y denote the vector of clean signal to be encoded. Let z denote
+the corresponding given vector of the noisy signal. Let q denote the encoder. Let d denote a distortion measure.
+Then, the optimal encoder is designed by

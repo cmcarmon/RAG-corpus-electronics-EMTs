@@ -1,0 +1,6 @@
+As an example of the benefits of clocked circuits, consider the digital system
+in Figure 10.40 in which two digital circuits are coupled to each other. Both
+are fed by the same timebase or clock. Inputs are fed to the first circuit in a
+way that input transitions happen only during the low parts of the clock signal.
+As shown in Figure 10.40, assume an input sequence 011 is fed to circuit 1.
+Similarly it produces outputs (for example 101) that are stable during the high

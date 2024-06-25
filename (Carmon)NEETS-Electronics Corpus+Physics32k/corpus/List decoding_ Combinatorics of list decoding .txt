@@ -1,0 +1,44 @@
+The relation between list decodability of a code and other fundamental parameters such as minimum distance and rate have been fairly well studied. It has been shown that every code can be list decoded using small lists beyond half the minimum distance up to a bound called the Johnson radius. This is quite significant because it proves the existence of
+
+
+
+(
+p
+,
+L
+)
+
+
+{\displaystyle (p,L)}
+-list-decodable codes of good rate with a list-decoding radius much larger than
+
+
+
+
+
+
+d
+2
+
+
+
+.
+
+
+{\displaystyle {\tfrac {d}{2}}.}
+In other words, the Johnson bound rules out the possibility of having a large number of codewords in a Hamming ball of radius slightly greater than
+
+
+
+
+
+
+d
+2
+
+
+
+
+
+{\displaystyle {\tfrac {d}{2}}}
+which means that it is possible to correct far more errors with list decoding.

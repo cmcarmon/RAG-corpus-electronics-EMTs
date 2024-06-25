@@ -1,0 +1,4 @@
+A signal x(t) is said to be causal if, for all t < 0, x(t) = 0; otherwise, the signal is noncausal.
+An anticausal signal is identically equal to zero for t > 0. A discrete-time signal is a causal signal
+if it is identically equal to zero for n < 0. Note that the unit step multiplied by any signal produces
+a causal version of the signal.

@@ -1,0 +1,4 @@
+Hashing
+The fastest method for the implementation of functions is hash coding or hashing. By means of a hash function,
+h ˛ Dom ﬁ 0 .. k–1, the domain of the function is partitioned into k sections and each section is associated
+with an index. For each partition a simple list implementation is used and the lists are stored in an array A:

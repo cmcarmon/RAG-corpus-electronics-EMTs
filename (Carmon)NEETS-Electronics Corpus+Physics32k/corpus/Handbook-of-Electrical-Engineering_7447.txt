@@ -1,0 +1,7 @@
+The ﬁrst step in the development of a simulation program is to deﬁne the topology of the system, which
+speciﬁes the manner in which the individual subsystems are connected. The subsystem models must then be
+deﬁned  by  specifying  the  signal  processing  operation  to  be  performed  by  each  of  the  various  subsystems. A
+simulation structure may be either ﬁxed topology or free topology. In a ﬁxed topology simulation, the basic
+structure shown in Fig. 78.1 is modeled. Various subsystems can be bypassed if desired by setting switches, but
+the basic topology cannot be modiﬁed. In a free topology structure, subsystems can be interconnected in any
+way desired and new additional subsystems can be added at will.

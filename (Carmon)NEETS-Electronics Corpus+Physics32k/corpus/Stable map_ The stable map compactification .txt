@@ -1,0 +1,172 @@
+This moduli space of maps is not compact, because a sequence of curves can degenerate to a singular curve, which is not in the moduli space as we've defined it. This happens, for example, when the energy of
+
+
+
+f
+
+
+{\displaystyle f}
+(meaning the L2-norm of the derivative) concentrates at some point on the domain. One can capture the energy by rescaling the map around the concentration point. The effect is to attach a sphere, called a bubble, to the original domain at the concentration point and to extend the map across the sphere. The rescaled map may still have energy concentrating at one or more points, so one must rescale iteratively, eventually attaching an entire bubble tree onto the original domain, with the map well-behaved on each smooth component of the new domain.
+In order to make this precise, define a stable map to be a pseudoholomorphic map from a Riemann surface with at worst nodal singularities, such that there are only finitely many automorphisms of the map. Concretely, this means the following. A smooth component of a nodal Riemann surface is said to be stable if there are at most finitely many automorphisms preserving its marked and nodal points. Then a stable map is a pseudoholomorphic map with at least one stable domain component, such that for each of the other domain components
+the map is nonconstant on that component, or
+that component is stable.
+It is significant that the domain of a stable map need not be a stable curve. However, one can contract its unstable components (iteratively) to produce a stable curve, called the stabilization
+
+
+
+
+s
+t
+
+(
+C
+)
+
+
+{\displaystyle \mathrm {st} (C)}
+of the domain
+
+
+
+C
+
+
+{\displaystyle C}
+.
+The set of all stable maps from Riemann surfaces of genus
+
+
+
+g
+
+
+{\displaystyle g}
+with
+
+
+
+n
+
+
+{\displaystyle n}
+marked points forms a moduli space
+
+
+
+
+
+
+
+M
+¯
+
+
+
+g
+,
+n
+
+
+J
+,
+ν
+
+
+(
+X
+,
+A
+)
+.
+
+
+{\displaystyle {\overline {M}}_{g,n}^{J,\nu }(X,A).}
+
+The topology is defined by declaring that a sequence of stable maps converges if and only if
+their (stabilized) domains converge in the Deligne–Mumford moduli space of curves
+
+
+
+
+
+
+M
+¯
+
+
+
+g
+,
+n
+
+
+
+
+{\displaystyle {\overline {M}}_{g,n}}
+,
+they converge uniformly in all derivatives on compact subsets away from the nodes, and
+the energy concentrating at any point equals the energy in the bubble tree attached at that point in the limit map.
+The moduli space of stable maps is compact; that is, any sequence of stable maps converges to a stable map. To show this, one iteratively rescales the sequence of maps. At each iteration there is a new limit domain, possibly singular, with less energy concentration than in the previous iteration. At this step the symplectic form
+
+
+
+ω
+
+
+{\displaystyle \omega }
+enters in a crucial way. The energy of any smooth map representing the homology class
+
+
+
+B
+
+
+{\displaystyle B}
+is bounded below by the symplectic area
+
+
+
+ω
+(
+B
+)
+
+
+{\displaystyle \omega (B)}
+,
+
+
+
+
+ω
+(
+B
+)
+≤
+
+
+1
+2
+
+
+∫
+
+|
+
+d
+f
+
+
+|
+
+
+2
+
+
+,
+
+
+{\displaystyle \omega (B)\leq {\frac {1}{2}}\int |df|^{2},}
+
+with equality if and only if the map is pseudoholomorphic. This bounds the energy captured in each iteration of the rescaling and thus implies that only finitely many rescalings are needed to capture all of the energy. In the end, the limit map on the new limit domain is stable.
+The compactified space is again a smooth, oriented orbifold. Maps with nontrivial automorphisms correspond to points with isotropy in the orbifold.

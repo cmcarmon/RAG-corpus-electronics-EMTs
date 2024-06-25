@@ -1,0 +1,37 @@
+A rigid body is an object of finite extent in which all the distances between the component particles are constant. No truly rigid body exists; external forces can deform any solid. For our purposes, then, a rigid body is a solid which requires large forces to deform it appreciably.
+A change in the position of a particle in three-dimensional space can be completely specified by three coordinates. A change in the position of a rigid body is more complicated to describe. It can be regarded as a combination of two distinct types of motion: translational motion and rotational motion.
+Purely translational motion occurs when every particle of the body has the same instantaneous velocity as every other particle; then the path traced out by any particle is exactly parallel to the path traced out by every other particle in the body. Under translational motion, the change in the position of a rigid body is specified completely by three coordinates such as x, y, and z giving the displacement of any point, such as the center of mass, fixed to the rigid body.
+Purely rotational motion occurs if every particle in the body moves in a circle about a single line. This line is called the axis of rotation. Then the radius vectors from the axis to all particles undergo the same angular displacement in the same time. The axis of rotation need not go through the body. In general, any rotation can be specified completely by the three angular displacements with respect to the rectangular-coordinate axes x, y, and z. Any change in the position of the rigid body is thus completely described by three translational and three rotational coordinates.
+Any displacement of a rigid body may be arrived at by first subjecting the body to a displacement followed by a rotation, or conversely, to a rotation followed by a displacement. We already know that for any collection of particles—whether at rest with respect to one another, as in a rigid body, or in relative motion, like the exploding fragments of a shell, the acceleration of the center of mass is given by
+
+
+
+
+
+F
+
+
+n
+e
+t
+
+
+
+=
+M
+
+a
+
+
+c
+m
+
+
+
+
+
+
+
+{\displaystyle F_{\mathrm {net} }=Ma_{\mathrm {cm} }\;\!}
+
+where M is the total mass of the system and acm is the acceleration of the center of mass. There remains the matter of describing the rotation of the body about the center of mass and relating it to the external forces acting on the body. The kinematics and dynamics of rotational motion around a single axis resemble the kinematics and dynamics of translational motion; rotational motion around a single axis even has a work-energy theorem analogous to that of particle dynamics.

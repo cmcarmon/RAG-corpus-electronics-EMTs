@@ -1,0 +1,35 @@
+Timing charts are often used to synchronize the motion between two or more mechanisms. They graphically display information showing where and when each mechanism is stationary or performing its forward and return strokes. Timing charts allow designers to qualitatively describe the required kinematic behavior of a mechanism.
+These charts are also used to estimate the velocities and accelerations of certain four-bar links. The velocity of a link is the time rate at which its position is changing, while the link's acceleration is the time rate at which its velocity is changing. Both velocity and acceleration are vector quantities, in that they have both magnitude and direction; however, only their magnitudes are used in timing charts. When used with two mechanisms, timing charts assume constant acceleration. This assumption produces polynomial equations for velocity as a function of time. Constant acceleration allows for the velocity vs. time graph to appear as straight lines, thus designating a relationship between displacement (ΔR), maximum velocity (vpeak), acceleration (a), and time(Δt). The following equations show this.
+ΔR =
+
+
+
+
+
+
+1
+2
+
+
+
+
+
+{\displaystyle {\tfrac {1}{2}}}
+vpeakΔt
+ΔR =
+
+
+
+
+
+
+1
+4
+
+
+
+
+
+{\displaystyle {\tfrac {1}{4}}}
+a(Δt)2
+Given the displacement and time, both the maximum velocity and acceleration of each mechanism in a given pair can be calculated.

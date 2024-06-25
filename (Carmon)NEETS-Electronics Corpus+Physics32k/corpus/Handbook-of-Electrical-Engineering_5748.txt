@@ -1,0 +1,12 @@
+1. It determines the number of discontinuities in any eigenvalue that have already occurred due to generator
+PV to load PQ bus type changes that are associated with an eigenvalue compared to the total number
+that are needed to produce voltage instability when the eigenvalue becomes negative. The eigenvalue is
+associated with a coherent bus group (voltage control area) [Schlueter, 1998a; f]. The subset of generators
+that experience PV-PQ bus type changes (reactive reserve basin) for computing a Q-V curve at any bus
+in  that  bus  group  are  proven  to  capture  the  number  of  discontinuities  in  that  eigenvalue  [Schlueter,
+1998a; f]. An eigenvalue approximation for the agent, composed of the test voltage control area where
+the Q-V current is computed and its reactive reserve basin, is used to theoretically justify the deﬁnitions
+of a voltage control area and the reactive reserve basin of an agent. The VSSAD agents are thus proven
+to capture eigenvalue structure of the loadﬂow jacobian evaluated at any operating point (x0, p0). The
+reactive reserve on generators in each voltage control area of a reactive reserve basin is proven to measure
+proximity to each of the remaining discontinuities in the eigenvalue required for bifurcation.

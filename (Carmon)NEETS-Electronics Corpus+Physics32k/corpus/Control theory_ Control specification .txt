@@ -1,0 +1,52 @@
+Several different control strategies have been devised in the past years. These vary from extremely general ones (PID controller), to others devoted to very particular classes of systems (especially robotics or aircraft cruise control).
+A control problem can have several specifications. Stability, of course, is always present. The controller must ensure that the closed-loop system is stable, regardless of the open-loop stability. A poor choice of controller can even worsen the stability of the open-loop system, which must normally be avoided. Sometimes it would be desired to obtain particular dynamics in the closed loop: i.e. that the poles have
+
+
+
+R
+e
+[
+λ
+]
+<
+−
+
+
+λ
+¯
+
+
+
+
+{\displaystyle Re[\lambda ]<-{\overline {\lambda }}}
+, where
+
+
+
+
+
+λ
+¯
+
+
+
+
+{\displaystyle {\overline {\lambda }}}
+is a fixed value strictly greater than zero, instead of simply asking that
+
+
+
+R
+e
+[
+λ
+]
+<
+0
+
+
+{\displaystyle Re[\lambda ]<0}
+.
+Another typical specification is the rejection of a step disturbance; including an integrator in the open-loop chain (i.e. directly before the system under control) easily achieves this. Other classes of disturbances need different types of sub-systems to be included.
+Other "classical" control theory specifications regard the time-response of the closed-loop system. These include the rise time (the time needed by the control system to reach the desired value after a perturbation), peak overshoot (the highest value reached by the response before reaching the desired value) and others (settling time, quarter-decay). Frequency domain specifications are usually related to robustness (see after).
+Modern performance assessments use some variation of integrated tracking error (IAE,ISA,CQI).

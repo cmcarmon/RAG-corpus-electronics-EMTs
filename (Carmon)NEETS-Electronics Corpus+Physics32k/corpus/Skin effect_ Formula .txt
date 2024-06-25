@@ -1,0 +1,323 @@
+The AC current density J in a conductor decreases exponentially from its value at the surface JS according to the depth d from the surface, as follows:
+
+
+
+
+J
+=
+
+J
+
+
+S
+
+
+
+
+
+e
+
+−
+
+(
+1
++
+j
+)
+d
+
+/
+
+δ
+
+
+
+
+
+{\displaystyle J=J_{\mathrm {S} }\,e^{-{(1+j)d/\delta }}}
+
+where δ is called the skin depth. The skin depth is thus defined as the depth below the surface of the conductor at which the current density has fallen to 1/e (about 0.37) of JS. The imaginary part of the exponent indicates that the phase of the current density is delayed 1 radian for each skin depth of penetration. One full wavelength in the conductor requires 2π skin depths, at which point the current density is attenuated to e−2π (-54.6 dB) of its surface value. The wavelength in the conductor is much shorter than the wavelength in vacuum, or equivalently, the phase velocity in the conductor is very much slower than the speed of light in vacuum. For example, a 1 MHz radio wave has a wavelength in vacuum λ0 of about 300 m, whereas in copper, the wavelength is reduced to only about 0.5 mm with a phase velocity of only about 500 m/s. As a consequence of Snell's law and this very tiny phase velocity in the conductor, any wave entering the conductor, even at grazing incidence, refracts essentially in the direction perpendicular to the conductor's surface.
+The general formula for the skin depth is:
+
+
+
+
+δ
+=
+
+
+
+
+2
+ρ
+
+
+ω
+μ
+
+
+
+
+
+
+
+
+
+
+1
++
+
+
+(
+
+ρ
+ω
+ϵ
+
+)
+
+
+2
+
+
+
+
++
+ρ
+ω
+ϵ
+
+
+
+
+{\displaystyle \delta ={\sqrt {{2\rho } \over {\omega \mu }}}\;\;{\sqrt {{\sqrt {1+\left({\rho \omega \epsilon }\right)^{2}}}+\rho \omega \epsilon }}}
+
+where
+
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+= resistivity of the conductor
+
+
+
+
+ω
+
+
+{\displaystyle \omega }
+= angular frequency of current = 2π × frequency
+
+
+
+
+μ
+
+
+{\displaystyle \mu }
+=
+
+
+
+
+μ
+
+r
+
+
+
+
+{\displaystyle \mu _{r}}
+
+
+
+
+
+μ
+
+0
+
+
+
+
+{\displaystyle \mu _{0}}
+
+
+
+
+
+
+μ
+
+r
+
+
+
+
+{\displaystyle \mu _{r}}
+= relative magnetic permeability of the conductor
+
+
+
+
+
+μ
+
+0
+
+
+
+
+{\displaystyle \mu _{0}}
+= the permeability of free space
+
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+=
+
+
+
+
+ϵ
+
+r
+
+
+
+
+{\displaystyle \epsilon _{r}}
+
+
+
+
+
+ϵ
+
+0
+
+
+
+
+{\displaystyle \epsilon _{0}}
+
+
+
+
+
+
+ϵ
+
+r
+
+
+
+
+{\displaystyle \epsilon _{r}}
+= relative permittivity of the material
+
+
+
+
+
+ϵ
+
+0
+
+
+
+
+{\displaystyle \epsilon _{0}}
+= the permittivity of free space
+At frequencies much below
+
+
+
+1
+
+/
+
+ρ
+ϵ
+
+
+{\displaystyle 1/\rho \epsilon }
+the quantity inside the large radical is close to unity and the formula is more usually given as:
+
+
+
+
+δ
+=
+
+
+
+
+2
+ρ
+
+
+ω
+μ
+
+
+
+
+
+
+{\displaystyle \delta ={\sqrt {{2\rho } \over {\omega \mu }}}}
+.
+This formula is valid at frequencies away from strong atomic or molecular resonances (where
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+would have a large imaginary part) and at frequencies that are much below both the material's plasma frequency (dependent on the density of free electrons in the material) and the reciprocal of the mean time between collisions involving the conduction electrons. In good conductors such as metals all of those conditions are ensured at least up to microwave frequencies, justifying this formula's validity. For example, in the case of copper, this would be true for frequencies much below 1018 Hz.
+However, in very poor conductors, at sufficiently high frequencies, the factor under the large radical increases. At frequencies much higher than
+
+
+
+1
+
+/
+
+ρ
+ϵ
+
+
+{\displaystyle 1/\rho \epsilon }
+it can be shown that the skin depth, rather than continuing to decrease, approaches an asymptotic value:
+
+
+
+
+δ
+≈
+
+2
+ρ
+
+
+
+
+ϵ
+μ
+
+
+
+
+
+{\displaystyle \delta \approx {2\rho }{\sqrt {\epsilon  \over \mu }}}
+
+This departure from the usual formula only applies for materials of rather low conductivity and at frequencies where the vacuum wavelength is not much larger than the skin depth itself. For instance, bulk silicon (undoped) is a poor conductor and has a skin depth of about 40 meters at 100 kHz (λ = 3000 m). However, as the frequency is increased well into the megahertz range, its skin depth never falls below the asymptotic value of 11 meters. The conclusion is that in poor solid conductors such as undoped silicon, the skin effect doesn't need to be taken into account in most practical situations: any current is equally distributed throughout the material's cross-section regardless of its frequency.

@@ -1,0 +1,9 @@
+Boundary  Scan. Unlike  the  other  scan-based  techniques  described  above,  boundary  scan  [IEEE,  1990]  is
+intended primarily for testing the board-level interconnections among the IC components on a printed circuit
+board (PCB). In effect, boundary scan is a special form of scan path that is implemented around every I/O pin
+of an IC component in order to provide controllability and observability of the I/O pin values during testing.
+Test control signals provided by an on-chip controller are used to disable the boundary-scan cells during regular
+system operation so that signal values can ﬂow in/out of the IC component without interference from the test
+circuits.  During  testing,  output  pin  values  can  be  controlled  using  values  preloaded  into  the  boundary-scan
+register. Similarly, signal values received on the input pins can be captured into the boundary-scan register and
+subsequently shifted out to be observed on an external tester.

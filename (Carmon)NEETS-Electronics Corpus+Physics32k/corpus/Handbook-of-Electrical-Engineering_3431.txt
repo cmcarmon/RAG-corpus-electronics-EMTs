@@ -1,0 +1,6 @@
+: An A/D conversion process where the digital output code represents the change, or slope,
+of the analog input signal, rather than the absolute value of the analog input signal. A 1 indicates a rising
+slope of the input signal. A 0 indicates a falling slope of the input signal. The sampling rate is dependent
+on the derivative of the signal, since a rapidly changing signal would require a rapid sampling rate for
+acceptable performance.
+Fixed reference D/A converter

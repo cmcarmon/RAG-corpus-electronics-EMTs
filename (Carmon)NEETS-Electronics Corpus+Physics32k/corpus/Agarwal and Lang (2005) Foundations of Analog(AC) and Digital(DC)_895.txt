@@ -1,0 +1,10 @@
+The presence of gain and nonlinearity in the buffer become abundantly clear if
+we look at its transfer characteristic. Figure 6.50 graphically plots the transfer
+characteristic of a logic device that can serve as a valid buffer. The shaded
+region depicts the valid region for the buffer transfer curve. The x-axis shows
+input voltages and the y-axis output voltages. We can make several interesting
+observations from this graph. Notice that valid input voltages result in valid
+input voltages less than VIL produce output
+output voltages. For example,
+voltages less than VOL, and input voltages greater than VIH produce output
+voltages greater than VOH. Also notice that the amplification occurs when the

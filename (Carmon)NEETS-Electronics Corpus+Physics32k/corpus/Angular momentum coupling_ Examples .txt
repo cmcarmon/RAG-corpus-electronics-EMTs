@@ -1,0 +1,47 @@
+As an example we consider two electrons, 1 and 2, in an atom (say the helium atom). If there is no electron-electron interaction, but only electron-nucleus interaction, the two electrons can be rotated around the nucleus independently of each other; nothing happens to their energy. Both operators, l1 and l2, are conserved. However, if we switch on the electron-electron interaction that depends on the distance d(1,2) between the electrons, then only a simultaneous and equal rotation of the two electrons will leave d(1,2) invariant. In such a case neither l1 nor l2 is a constant of motion in general, but the total orbital angular momentum L = l1 + l2 is. Given the eigenstates of l1 and l2, the construction of eigenstates of L (which still is conserved) is the coupling of the angular momenta of electrons 1 and 2.
+The total orbital angular momentum quantum number L is restricted to integer values and must satisfy the triangular condition that
+
+
+
+
+|
+
+
+l
+
+1
+
+
+−
+
+l
+
+2
+
+
+
+|
+
+≤
+L
+≤
+
+l
+
+1
+
+
++
+
+l
+
+2
+
+
+
+
+{\displaystyle |l_{1}-l_{2}|\leq L\leq l_{1}+l_{2}}
+, such that the three nonnegative integer values could correspond to the three sides of a triangle.
+In quantum mechanics, coupling also exists between angular momenta belonging to different Hilbert spaces of a single object, e.g. its spin and its orbital angular momentum. If the spin has half-integer values, such as 1/2 for an electron, then the total (orbital plus spin) angular momentum will also be restricted to half-integer values.
+Reiterating slightly differently the above: one expands the quantum states of composed systems (i.e. made of subunits like two hydrogen atoms or two electrons) in basis sets which are made of tensor products of quantum states which in turn describe the subsystems individually. We assume that the states of the subsystems can be chosen as eigenstates of their angular momentum operators (and of their component along any arbitrary z axis).
+The subsystems are therefore correctly described by a set of ℓ, m quantum numbers (see angular momentum for details). When there is interaction among the subsystems, the total Hamiltonian contains terms that do not commute with the angular operators acting on the subsystems only. However, these terms do commute with the total angular momentum operator. Sometimes one refers to the non-commuting interaction terms in the Hamiltonian as angular momentum coupling terms, because they necessitate the angular momentum coupling.

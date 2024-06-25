@@ -1,0 +1,23 @@
+In MPEG-1, due to the existence of several picture types,
+GOP is the highest level of hierarchy. The ﬁrst coded picture in
+a GOP is an I-picture. It is followed by an arrangement for P-
+and B-pictures, as shown in Figure 6.4. GOP length is normally
+deﬁned as the distance N between I-pictures. The distance
+between anchor I/P to P-pictures is represented by M. The
+GOP can be any length, but there has to be one I-picture in
+each GOP. Applications requiring random access, fast-forward
+play, or fast and reverse play may use short GOPs. GOP may
+also start at scene cuts; otherwise, motion compensation is not
+effective. Each picture is further divided into a group of
+macroblocks, called slices. The reason for deﬁning slices is to
+reset the variable length code to prevent channel error propa-
+gation into the picture. Slices can have different sizes in a
+picture, and the division in one picture need not be the same
+as in any other picture. The slices can begin and end at any
+macroblock in a picture, but the ﬁrst slice has to begin at the
+top left corner of the picture, and the end of last slice must be
+the bottom right macroblock of the picture. Each slice starts
+with a slice start code and is followed by a code that deﬁnes its
+position as well as a code that sets the quantization step size.
+Slices are divided into macroblocks of size 16  16, which are
+further divided into blocks of size 8  8 as in JPEG.

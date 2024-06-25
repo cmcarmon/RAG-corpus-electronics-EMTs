@@ -1,0 +1,10 @@
+is a graph with junction points called nodes which are connected by directed line segments called branches
+with signals traveling along the branches only in the direction described by the arrows of the branches.
+A signal xk traveling along a branch between xk and xj is multiplied by the gain of the branches gkj, so
+that a signal gkj xk is delivered at node xj. An input node (source) is a node which contains only outgoing
+branches;  an  output  node  (sink)  is  a  node  which  has  only  incoming  branches. A  path  is  a  continuous
+unidirectional succession of branches, all of which are traveling in the same direction; a forward path is
+a path from the input node to the output node along which all nodes are encountered exactly once; and
+a feedback path (loop) is a closed path which originates from and terminates at the same node, and along
+with all other nodes are encountered exactly once (the trivial case is a self-loop which contains exactly
+one node and one branch). A path gain is the product of all the branch gains of the branches in a loop.

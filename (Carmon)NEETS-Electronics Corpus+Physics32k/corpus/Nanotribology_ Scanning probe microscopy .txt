@@ -1,0 +1,156 @@
+SPM techniques such as AFM and STM are widely used in nanotribology studies. The Scanning Tunneling Microscope is used mostly for morphological topological investigation of a clean conductive sample, because it is able to give an image of its surface with atomic resolution.
+The Atomic Force Microscope is a powerful tool in order to study tribology at a fundamental level. It provides an ultra-fine surface-tip contact with a high refined control over motion and atomic-level precision of measure. The microscope consists, basically, in a high flexible cantilever with a sharp tip, which is the part in contact with the sample and therefore the crossing section must be ideally atomic-size, but actually nanometric (radius of the section varies from 10 to 100 nm). In nanotribology AFM is commonly used for measuring normal and friction forces with a resolution of pico-Newtons.
+The tip is brought close to the sample’s surface, consequently forces between the last atoms of the tip and the sample’s deflect the cantilever proportionally to the intensity of this interactions. Normal forces bend the cantilever vertically up or down of the equilibrium position, depending on the sign of the force. The normal force can be calculated by means of the following equation:
+
+
+
+
+
+F
+
+n
+o
+r
+m
+a
+l
+
+
+=
+k
+Δ
+V
+
+/
+
+σ
+
+
+{\displaystyle F_{normal}=k\Delta V/\sigma }
+
+where
+
+
+
+k
+
+
+{\displaystyle k}
+is the spring constant of the cantilever,
+
+
+
+Δ
+V
+
+
+{\displaystyle \Delta V}
+is the output of the photodetector, which is an electric signal, directly with the displacement of the cantilever and
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+is the optical-lever sensitivity of the AFM.
+On the other hand, lateral forces can be measured with the FFM, which is fundamentally very similar to the AFM. The main difference resides in the tip motion, that slides perpendicularly to its axis. These lateral forces, i.e. friction forces in this case, result in twisting the cantilever, which is controlled to ensure that only the tip touches the surface and not other parts of the probe. At every step the twist is measured and related with the frictional force with this formula:
+
+
+
+
+
+F
+
+f
+r
+i
+c
+t
+i
+o
+n
+a
+l
+
+
+=
+
+
+
+Δ
+V
+
+k
+
+ϕ
+
+
+
+
+2
+
+h
+
+e
+f
+f
+
+
+δ
+
+
+
+
+
+{\displaystyle F_{frictional}={{\Delta Vk_{\phi }} \over {2h_{eff}\delta }}}
+
+where
+
+
+
+Δ
+V
+
+
+{\displaystyle \Delta V}
+is the output voltage,
+
+
+
+
+k
+
+ϕ
+
+
+
+
+{\displaystyle k_{\phi }}
+is the torsional constant of the cantilever,
+
+
+
+
+h
+
+e
+f
+f
+
+
+
+
+{\displaystyle h_{eff}}
+is the height of the tip plus the cantilever thickness and
+
+
+
+δ
+
+
+{\displaystyle \delta }
+is the lateral deflection sensitivity.
+Since the tip is part of a compliant apparatus, the cantilever, the load can be specified and so the measurement is made in load-control mode; but in this way the cantilever has snap-in and snap-out instabilities and so in some regions measurements cannot be completed stably. These instabilities can be avoided with displacement-controlled techniques, one of this is the interfacial force microscopy.
+The tap can be at contact with the sample in the whole measurement process, and this is called contact mode (or static mode), otherwise it can be oscillated and this is called tapping mode (or dynamic mode). Contact mode is commonly applied on hard sample, on which the tip cannot leave any sign of wear, such as scars and debris. For softer materials tapping mode is used to minimize the effects of friction. In this case the tip is vibrated by a piezo and taps the surface at the resonant frequency of the cantilever, i.e. 70-400 kHz, and with an amplitude of 20-100 nm, high enough to allow the tip to not get stuck to the sample because of the adhesion force.
+The atomic force microscope can be used as a nanoindenter in order to measure hardness and Young’s modulus of the sample. For this application, the tip is made of diamond and it is pressed against the surface for about two seconds, then the procedure is repeated with different loads. The hardness is obtained dividing the maximum load by the residual imprint of the indenter, which can be different from the indenter section because of sink-in or pile-up phenomena. The Young’s modulus can be calculated using the Oliver and Pharr method, which allows to obtain a relation between the stiffness of the sample, function of the indentation area, and its Young’s and Poisson’s moduli.

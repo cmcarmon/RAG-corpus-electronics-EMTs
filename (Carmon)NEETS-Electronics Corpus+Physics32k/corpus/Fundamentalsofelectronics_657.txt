@@ -1,0 +1,4 @@
+For IIR systems, we cannot use the DFT to ﬁnd the system’s unit-sample response: aliasing of the unit-
+sample response will always occur. Consequently, we can only implement an IIR ﬁlter accurately in the time
+domain with the system’s diﬀerence equation. Frequency-domain implementations are restricted to
+FIR ﬁlters.

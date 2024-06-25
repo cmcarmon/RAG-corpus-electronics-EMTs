@@ -1,0 +1,12 @@
+The HSV color space is used because it is perceptually closer to
+human vision as compared to the RGB space. The three histo-
+grams corresponding to the three channels (hue, saturation,
+and value) are then combined into one vector of dimension 36.
+Texture is represented by gray-level co-occurrence matrices at
+four orientations. Shape is captured by moment invariants.
+A similar approach proposed by Shih-Fu Chang et al. (1998)
+uses quantized CIE–LUV space as the color feature, three
+Tamura texture measures (coarseness, contrast, and orientation)
+as texture feature, and shape components and motion vectors.
+All these features are extracted from objects detected and tracked
+in video sequence after spatiotemporal segmentation.

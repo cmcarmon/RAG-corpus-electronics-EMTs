@@ -1,0 +1,19 @@
+Reduced frequency is the dimensionless number used in general for the case of unsteady aerodynamics and aeroelasticity. It is one of the parameters that defines the degree of unsteadiness of the problem.
+For the case of flutter analysis, lift history for the motion obtained from the Wagner analysis (Herbert A. Wagner) with varying frequency of oscillation shows that magnitude of lift decreases and a phase lag develops between the aircraft motion and the unsteady aerodynamic forces. Reduced frequency can be used to explain the amplitude attenuation and the phase lag of the unsteady aerodynamic forces compared to the quasi steady analysis (which in theory assumes no phase lag).
+Reduced frequency is denoted by the letter "k" and given by the expression
+
+k = (ω×b)/V
+
+where
+
+ω = circular frequency
+b = airfoil semi-chord
+V = flow velocity
+
+The semi-chord is used instead of the chord due to its use in the derivation of unsteady lift based on thin airfoil theory. Based on the value of reduced frequency "k", we can roughly divide the flow into:
+Steady state aerodynamics - k=0
+Quasi-steady aerodynamics - 0≤k≤0.05
+Unsteady aerodynamics - k>0.05 [k>0.2 is considered highly unsteady]
+
+
+== References ==

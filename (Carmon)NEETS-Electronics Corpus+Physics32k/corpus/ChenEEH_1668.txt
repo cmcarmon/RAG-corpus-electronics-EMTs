@@ -1,0 +1,31 @@
+Shape
+Shape is an important criterion for matching objects based on
+their proﬁle and physical structure. In image retrieval applica-
+tions, shape features can be classiﬁed into global and local
+features. Global features are the properties derived from the
+entire shape, such as roundness, circularity, central moments,
+and eccentricity. Local features are those derived by partial
+processing of a shape, including size and orientation of con-
+secutive boundary segments, points of curvature, corners, and
+turning angle. Another categorization of shape representation
+is boundary-based and region-based. The former uses only
+the outer boundary of the shape, while the latter uses the
+entire shape of the region. Fourier descriptors and moment
+invariants are the most widely used shape representation
+schemes. The main idea of a Fourier descriptor is to use the
+Fourier transformed boundary as the shape feature. Moment
+invariant technique uses region-based moments, which are
+invariant to transformations, as the shape features. Hu et al.
+(1962) proposed a set of seven invariant moments derived
+from second and third moments. This set of moments is
+invariant to translation, rotation, and scale changes. Finite
+element method (FEM) (Pentland et al., 1996) has also been
+used as shape representation tool. FEM deﬁnes a stiffness
+matrix that describes how each point on the object is con-
+nected to other points. The eigenvectors of the stiffness matrix
+are called modes and span a feature space. All the shapes
+are ﬁrst mapped into this space, and similarity is then com-
+puted based on the eigenvalues. Along the similar lines of
+Fourier descriptors, Arkin et al. (1991) developed a Turning
+function-based approach for comparing both convex and con-
+cave polygons.

@@ -1,0 +1,63 @@
+Define T as the time required for a particular body to complete one orbit. In time T, the radius vector sweeps out 2π radians or 360°. The average rate of sweep, n, is then
+
+
+
+
+n
+=
+
+
+
+2
+π
+
+T
+
+
+
+
+
+or
+
+
+
+n
+=
+
+
+
+360
+
+∘
+
+
+T
+
+
+,
+
+
+{\displaystyle n={\frac {2\pi }{T}}\quad {\mbox{or}}\quad n={\frac {360^{\circ }}{T}},}
+
+which is called the mean angular motion of the body, with dimensions of radians per unit time or degrees per unit time.
+Define τ as the time at which the body is at the pericenter. From the above definitions, a new quantity, M, the mean anomaly can be defined
+
+
+
+
+M
+=
+n
+(
+t
+−
+τ
+)
+,
+
+
+{\displaystyle M=n(t-\tau ),}
+
+which gives an angular distance from the pericenter at arbitrary time t, with dimensions of radians or degrees.
+Because the rate of increase, n, is a constant average, the mean anomaly increases uniformly (linearly) from 0 to 2π radians or 0° to 360° during each orbit. It is equal to 0 when the body is at the pericenter, π radians (180°) at the apocenter, and 2π radians (360°) after one complete revolution. If the mean anomaly is known at any given instant, it can be calculated at any later (or prior) instant by simply adding (or subtracting) n δt where δt represents the time difference.
+Mean anomaly does not measure an angle between any physical objects. It is simply a convenient uniform measure of how far around its orbit a body has progressed since pericenter. The mean anomaly is one of three angular parameters (known historically as "anomalies") that define a position along an orbit, the other two being the eccentric anomaly and the true anomaly.

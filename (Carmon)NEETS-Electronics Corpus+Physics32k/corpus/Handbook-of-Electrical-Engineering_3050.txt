@@ -1,0 +1,6 @@
+Figure 29.9 introduces the symbolic representation of a gyrator and shows its use in simulating an inductor.
+The gyrator can conveniently be realized by the circuit of Fig. 29.10(a), but note that the simulated inductor
+is grounded at one end. This presents no problem in the case of high-pass ﬁlters and other forms requiring a
+grounded shunt inductor but is not suitable for the low-pass ﬁlter. Figure 29.10(b) shows how a pair of back-
+to-back gyrators can be conﬁgured to produce a ﬂoating inductance, but this involves four op amps per inductor.
+The next section will introduce an alternative approach that avoids the op amp count difﬁculty associated

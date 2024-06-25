@@ -1,0 +1,45 @@
+Counters can measure long intervals but have limited resolution. Interpolators have high resolution but they cannot measure long intervals. A hybrid approach can achieve both long intervals and high resolution. The long interval can be measured with a counter. The counter information is supplemented with two time interpolators: one interpolator measures the (short) interval between the start event and a following clock event, and the second interpolator measure the interval between the stop event and a following clock event. The basic idea has some complications: the start and stop events are asynchronous, and one or both might happen close to a clock pulse. The counter and interpolators must agree on matching the start and end clock events. To accomplish that goal, synchronizers are used.
+The common hybrid approach is the Nutt method. In this example the fine measurement circuit measures the time between start and stop pulse and the respective second nearest clock pulse of the coarse counter (Tstart, Tstop), detected by the synchronizer (see figure). Thus the wanted time interval is
+
+
+
+
+T
+=
+n
+
+T
+
+0
+
+
++
+
+T
+
+
+s
+t
+a
+r
+t
+
+
+
+−
+
+T
+
+
+s
+t
+o
+p
+
+
+
+
+
+{\displaystyle T=nT_{0}+T_{\mathrm {start} }-T_{\mathrm {stop} }}
+
+with n the number of counter clock pulses and T0 the period of the coarse counter.

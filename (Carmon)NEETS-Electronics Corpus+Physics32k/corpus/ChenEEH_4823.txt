@@ -1,0 +1,14 @@
+to
+very modular objects with constant interfaces (even as the
+object’s internal code changes), a GPS from one vendor may
+be replaced by one from another vendor. As long as the
+method call is not changed, no other object in the system
+will have to be changed. Inheritance is reﬂected by the
+methods that are present in the Sensor class and used by the
+subclasses. In this example, you could deﬁne the methods
+openPort(int value) and closePort(int value) in the super-
+class where the argument is the number of the port to be
+used. Even though these methods are not explicitly deﬁned
+in the subclasses, the method call gps.openPort(int value) has
+meaning because the GPS class inherits the method from
+the superclass.

@@ -1,0 +1,214 @@
+A long slit of infinitesimal width which is illuminated by light diffracts the light into a series of circular waves and the wavefront which emerges from the slit is a cylindrical wave of uniform intensity.
+A slit which is wider than a wavelength produces interference effects in the space downstream of the slit. These can be explained by assuming that the slit behaves as though it has a large number of point sources spaced evenly across the width of the slit. The analysis of this system is simplified if we consider light of a single wavelength. If the incident light is coherent, these sources all have the same phase. Light incident at a given point in the space downstream of the slit is made up of contributions from each of these point sources and if the relative phases of these contributions vary by 2π or more, we may expect to find minima and maxima in the diffracted light. Such phase differences are caused by differences in the path lengths over which contributing rays reach the point from the slit.
+We can find the angle at which a first minimum is obtained in the diffracted light by the following reasoning. The light from a source located at the top edge of the slit interferes destructively with a source located at the middle of the slit, when the path difference between them is equal to λ/2. Similarly, the source just below the top of the slit will interfere destructively with the source located just below the middle of the slit at the same angle. We can continue this reasoning along the entire height of the slit to conclude that the condition for destructive interference for the entire slit is the same as the condition for destructive interference between two narrow slits a distance apart that is half the width of the slit. The path difference is approximately
+
+
+
+
+
+
+d
+sin
+⁡
+(
+θ
+)
+
+2
+
+
+
+
+{\displaystyle {\frac {d\sin(\theta )}{2}}}
+so that the minimum intensity occurs at an angle θmin given by
+
+
+
+
+d
+
+sin
+⁡
+
+θ
+
+min
+
+
+=
+λ
+
+
+{\displaystyle d\,\sin \theta _{\text{min}}=\lambda }
+
+where
+d is the width of the slit,
+
+
+
+
+
+θ
+
+min
+
+
+
+
+{\displaystyle \theta _{\text{min}}}
+is the angle of incidence at which the minimum intensity occurs, and
+
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+is the wavelength of the light
+A similar argument can be used to show that if we imagine the slit to be divided into four, six, eight parts, etc., minima are obtained at angles θn given by
+
+
+
+
+d
+
+sin
+⁡
+
+θ
+
+n
+
+
+=
+n
+λ
+
+
+{\displaystyle d\,\sin \theta _{n}=n\lambda }
+
+where
+n is an integer other than zero.
+There is no such simple argument to enable us to find the maxima of the diffraction pattern. The intensity profile can be calculated using the Fraunhofer diffraction equation as
+
+
+
+
+I
+(
+θ
+)
+=
+
+I
+
+0
+
+
+
+
+sinc
+
+2
+
+
+⁡
+
+(
+
+
+
+
+d
+π
+
+λ
+
+
+sin
+⁡
+θ
+
+)
+
+
+
+{\displaystyle I(\theta )=I_{0}\,\operatorname {sinc} ^{2}\left({\frac {d\pi }{\lambda }}\sin \theta \right)}
+
+where
+
+
+
+
+I
+(
+θ
+)
+
+
+{\displaystyle I(\theta )}
+is the intensity at a given angle,
+
+
+
+
+
+I
+
+0
+
+
+
+
+{\displaystyle I_{0}}
+is the original intensity, and
+the unnormalized sinc function above is given by
+
+
+
+sinc
+⁡
+(
+x
+)
+=
+
+
+
+sin
+⁡
+x
+
+x
+
+
+
+
+{\displaystyle \operatorname {sinc} (x)={\frac {\sin x}{x}}}
+if
+
+
+
+x
+≠
+0
+
+
+{\displaystyle x\neq 0}
+, and
+
+
+
+sinc
+⁡
+(
+0
+)
+=
+1
+
+
+{\displaystyle \operatorname {sinc} (0)=1}
+
+This analysis applies only to the far field, that is, at a distance much larger than the width of the slit.

@@ -1,0 +1,11 @@
+Synthesis translates or transforms a design from one level
+of abstraction to another, more-detailed level of abstraction.
+The more-detailed level of abstraction may be only an inter-
+mediate  step  in  the  entire  design  process,  or  it  may  be  the
+ﬁnal implementation. Synthesis programs that yield a ﬁnal
+silicon  compilers
+implementation  are  sometimes  called 
+because the programs generate sufﬁcient detail to proceed directly to silicon fabrication [Ayres, 1983; Gajski, 1988].
+Like design abstractions, synthesis techniques can be hierarchically categorized, as shown in Fig. 34.10. The
+higher levels of synthesis offer the advantage of less complexity, but also the disadvantage of less control over
+the ﬁnal design.

@@ -1,0 +1,7 @@
+The slow speed of operation, caused by the long time required for changes in state to ripple
+through the ﬂip-ﬂops, is a disadvantage of ripple counters. This problem is overcome by using
+synchronous converters. However, additional control logic is needed to determine which ﬂip-
+ﬂops, if any, must change state, since ﬂip-ﬂops are triggered simultaneously. Figure 6.2.6 shows
+the logic diagram of a 3-bit binary synchronous converter using JKFFs. Synchronous counters
+can be designed to cycle through any sequence of states. Various n-bit synchronous converters
+are commercially available as MSI packages. Some counters are also programmable.

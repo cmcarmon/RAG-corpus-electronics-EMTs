@@ -1,0 +1,4 @@
+Demodulators for FM
+Figure 15.2.14 shows a block diagram of a general FM demodulator, which is implemented by
+generating an AM signal whose amplitude is proportional to the instantaneous frequency of the
+FM signal, and then using an AM demodulator to recover the message signal. Transforming

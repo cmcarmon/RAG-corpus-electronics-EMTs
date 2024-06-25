@@ -1,0 +1,9 @@
+Conversely, both Thevenin and Norton equivalent circuits should generate the same amount
+of current through a short circuit across the load terminals. With the Norton equivalent, the
+short-circuit current would be exactly equal to the Norton source current, which is 14 amps
+in this case. With the Thevenin equivalent, all 11.2 volts would be applied across the 0.8 Ω
+Thevenin resistance, producing the exact same current through the short, 14 amps (I=E/R).
+Thus, we can say that the Norton current is equal to the Thevenin voltage divided by the
+Thevenin resistance:
+EThevenin
+RThevenin

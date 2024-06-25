@@ -1,0 +1,7 @@
+This arrangement is still pulse triggered. The data inputs are written onto the master ﬂip-
+ﬂop while the clock is true and transferred to the slave when the clock becomes false. The
+arrangement guarantees that the QQ outputs of the slave can never be connected to the
+slave’s own RS inputs. The design overcomes signal racing (ie. the input signals never catch
+up with the signals already in the ﬂip-ﬂop). There are however a few special states when a
+transition can occur in the master and be transferred to the slave when the clock is high.
+These are known as ones catching and are common in master/slave designs.

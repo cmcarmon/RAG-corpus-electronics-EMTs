@@ -1,0 +1,6 @@
+Upon receipt of a character code and a row and column address, the device logic reads the picture 
+element pattern (dot matrix) from the ROM and writes the pattern into the appropriate character position 
+in the page memory. The desired character is then displayed at the correct position. Other display devices 
+store the codes in page memory and convert the codes to picture element dots when scanning memory to 
+refresh or redisplay the characters on the screen. The use of formatted displays greatly simplifies the 
+programming requirements for the display of alphanumeric data. 

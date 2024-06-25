@@ -1,0 +1,9 @@
+Figure 14.2.8(a) shows a simple FDM system which is used in telephone communication
+systems. Each input is passed through a low-pass ﬁlter (LPF) so that all frequency components
+above 3 kHz are eliminated. It is then modulated onto individual subcarriers with 4-kHz spacing.
+While all subcarriers are synthesized from a master oscillator, the modulation is achieved with
+single sideband (SSB). The multiplexed signal, with a typical spectrum as shown in Figure
+14.2.8(b), is formed by summing the SSB signals and a 60-kHz pilot carrier. The bandpass ﬁlters
+(BPFs) at the destination separate each SSB signal for product demodulation. Synchronization is
+achieved by obtaining the local oscillator waveforms from the pilot carrier. Telephone signals are
+often multiplexed in this fashion.

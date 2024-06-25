@@ -1,0 +1,11 @@
+(Hint: The total delay from the input of INV A to the output of INV B is the sum
+of the following two quantities: (1) the propagation delay of INV A driving the wire
+segment of length l/2 and a capacitance CGS corresponding to the gate capacitance
+of the buffer, and (2) the propagation delay of the buffer driving the second wire
+segment of length l/2 and a capacitance CGS corresponding to the gate capacitance
+of INV B. Remember, the buffer has zero delay when it is driving zero output
+capacitance.)
+Figure 10.103 shows a circuit in which n− 1 buffers are introduced between INV A
+and INV B. INV A and each of the buffers drives a segment of wire of length l/n.
+Compute the propagation delay between the input of INV A and the input of INV B
+for this case.

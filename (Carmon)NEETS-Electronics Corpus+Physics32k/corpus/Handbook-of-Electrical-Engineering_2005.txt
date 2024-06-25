@@ -1,0 +1,8 @@
+in conjunction with the two-channel analog ﬁxture (made by Burr-Brown). The center frequency of the
+middle  1/3-octave  band  10  ﬁlter  is  at  approximately  8  kHz  since  the  coefﬁcients  were  designed  for  a
+center frequency of 1/4 the sampling rate (the middle 1/3-octave band 9 ﬁlter would be centered at 4
+kHz,  the  middle  1/3-octave  band  8  ﬁlter  at  2  kHz,  and  so  on).  Note  that  the  center  frequency  of  the
+middle 1/3-octave band 1 ﬁlter would be at 2 Hz if the highest sampling rate is set at 4 kHz. Observe
+from Fig. 18.10 that the crossover frequencies occur at the 3-dB points. Since the main processing time
+of  the  multirate  ﬁlter  (implemented  in  assembly  code)  was  measured  to  be  8.8  ms,  the  maximum
+sampling rate was limited to 58 ksps.

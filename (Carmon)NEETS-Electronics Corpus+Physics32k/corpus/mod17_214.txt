@@ -1,0 +1,6 @@
+Ssb communications systems have some drawbacks. The process of producing an ssb signal is
+somewhat more complicated than simple amplitude modulation, and frequency stability is much more
+critical in ssb communication. While we don’t have the annoyance of heterodyning from adjacent signals,
+a weak ssb signal is sometimes completely masked or hidden from the receiving station by a stronger
+signal. Also, a carrier of proper frequency and amplitude must be reinserted at the receiver because of the
+direct relationship between the carrier and sidebands.

@@ -1,0 +1,8 @@
+The frequency 1
+, known today as the Nyquist frequency and the Shannon sampling frequency,
+2Ts
+corresponds to the highest frequency at which a signal can contain energy and remain compatible with
+the Sampling Theorem. High-quality sampling systems ensure that no aliasing occurs by unceremoniously
+lowpass ﬁltering the signal (cutoﬀ frequency being slightly lower than the Nyquist frequency) before sampling.
+Such systems therefore vary the anti-aliasing ﬁlter’s cutoﬀ frequency as the sampling rate varies. Because
+such quality features cost money, many sound cards do not have anti-aliasing ﬁlters or, for that matter,

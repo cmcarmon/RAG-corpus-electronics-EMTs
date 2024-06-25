@@ -1,0 +1,7 @@
+Computing the Solution Matrix
+Once the direct matrix has been computed, the solution can be obtained numerically using various approaches,
+ranging from inversion of the direct matrix to developing a solution via iteration as summarized in Table 45.10.
+A precautionary comment is in order with respect to the accuracy with which the solution matrix might be
+obtained. As computer speed and storage have increased, the number of unknowns used in modeling has also
+increased, from a few tens in earlier years to hundreds of thousands now when using IE models and millions
+of  unknowns  when  using  DE  models.  The  increasing  number  of  operations  involved  in  solving  these  larger

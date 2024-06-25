@@ -1,0 +1,13 @@
+ (HL7) which is a data communications
+protocol intended to facilitate the interfacing of various components in a hospital information system [Walker,
+1989].  These  components  range  from  accounting  systems  (ﬁnancial  data)  to  clinical  laboratory  information
+systems (laboratory test results) to medical records systems (documentation of patient care services) to patient
+data management systems (physiological data). In the recent past, each such component was independent and
+generally incompatible with other components. However, to achieve high quality in patient care at the lowest
+cost, both administrators and clinicians need integrated, comprehensive access to a wide variety of information.
+HL7 is an attempt to specify the types of data (and their formats) to be shared within a hospital information
+system.  For  example,  if  all  components  of  the  system  use  a  common  format  for  a  patient’s  name,  then  it  is
+possible for a single database query to gather all data regarding that patient. This also allows automation of
+certain  activities  such  as  billing  (through  the  accounting  system)  for  laboratory  tests  ordered  by  clinicians
+(through the clinical laboratory system). Unfortunately, HL7 has not achieved its promise but it does represent
+a signiﬁcant step away from the chaotic past [Bond et al., 1990].

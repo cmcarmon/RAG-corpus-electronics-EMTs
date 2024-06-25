@@ -1,0 +1,9 @@
+Interface Capabilities
+Most  VSAT  systems  support  common  data  communications  protocols  such  as  SDLC,  X.25,  Async,  Bisync,
+TCP/IP, etc. Coexistence of different protocols is allowed in a network. A VSAT supports multiple ports with
+protocol spooﬁng
+common interfaces such as RS232C, RS422, V.35, etc. VSAT networks typically must provide 
+to provide acceptable delay and throughput performance to the end-user application. To minimize the effect
+of satellite delay, the host computer front-end processor is emulated at the VSAT location, and multiple cluster
+controllers  are  emulated  at  the  hub  location.  The  polling  associated  with  the  front-end  processor  to  cluster
+controller communication is not carried on the satellite link, but is instead emulated locally.

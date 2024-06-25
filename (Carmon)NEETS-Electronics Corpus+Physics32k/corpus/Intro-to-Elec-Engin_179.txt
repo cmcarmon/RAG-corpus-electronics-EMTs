@@ -1,0 +1,6 @@
+The mesh-current method deals routinely with voltage sources. When we have current
+sources with shunt conductances, the source-transformation technique may be used effectively to
+convert the current source to a voltage source. However, in cases where we have constrained
+meshes, that is, the two mesh currents are constrained by a current source, the concept of
+a supermesh becomes useful for the circuit analysis, as shown in the following illustrative
+example.

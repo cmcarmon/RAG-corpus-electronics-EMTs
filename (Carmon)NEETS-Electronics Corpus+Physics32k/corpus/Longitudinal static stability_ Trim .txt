@@ -1,0 +1,214 @@
+The force from the tailplane is proportional to its angle of attack, including the effects of any elevator deflection and any adjustment the pilot has made to trim-out any stick force. In addition, the tail is located in the flow field of the main wing, and consequently experiences downwash, reducing its angle of attack.
+In a statically stable aircraft of conventional (tail in rear) configuration, the tailplane force may act upward or downward depending on the design and the flight conditions. In a typical canard aircraft both fore and aft planes are lifting surfaces. The fundamental requirement for static stability is that the aft surface must have greater authority (leverage) in restoring a disturbance than the forward surface has in exacerbating it. This leverage is a product of moment arm from the center of mass and surface area. Correctly balanced in this way, the partial derivative of pitching moment with respect to changes in angle of attack will be negative: a momentary pitch up to a larger angle of attack makes the resultant pitching moment tend to pitch the aircraft back down. (Here, pitch is used casually for the angle between the nose and the direction of the airflow; angle of attack.) This is the "stability derivative" d(M)/d(alpha), described below.
+The tail force is, therefore:
+
+
+
+
+
+L
+
+t
+
+
+=
+q
+
+S
+
+t
+
+
+
+(
+
+
+
+
+∂
+
+C
+
+l
+
+
+
+
+∂
+α
+
+
+
+
+(
+
+α
+−
+
+
+
+∂
+ϵ
+
+
+∂
+α
+
+
+
+α
+
+)
+
++
+
+
+
+∂
+
+C
+
+l
+
+
+
+
+∂
+η
+
+
+
+η
+
+)
+
+
+
+{\displaystyle L_{t}=qS_{t}\left({\frac {\partial C_{l}}{\partial \alpha }}\left(\alpha -{\frac {\partial \epsilon }{\partial \alpha }}\alpha \right)+{\frac {\partial C_{l}}{\partial \eta }}\eta \right)}
+
+where
+
+
+
+
+S
+
+t
+
+
+
+
+
+{\displaystyle S_{t}\!}
+is the tail area,
+
+
+
+
+C
+
+l
+
+
+
+
+
+{\displaystyle C_{l}\!}
+is the tail force coefficient,
+
+
+
+η
+
+
+
+{\displaystyle \eta \!}
+is the elevator deflection, and
+
+
+
+ϵ
+
+
+
+{\displaystyle \epsilon \!}
+is the downwash angle.
+A canard aircraft may have its foreplane rigged at a high angle of incidence, which can be seen in a canard catapult glider from a toy store; the design puts the c.g. well forward, requiring nose-up lift.
+Violations of the basic principle are exploited in some high performance "relaxed static stability" combat aircraft to enhance agility; artificial stability is supplied by active electronic means.
+There are a few classical cases where this favourable response was not achieved, notably some early T-tail jet aircraft. In the event of a very high angle of attack, the horizontal stabilizer became immersed in downwash from the wing and fuselage, causing excessive download on the stabilizer, increasing the angle of attack still further. The only way an aircraft could recover from this situation was by jettisoning tail ballast or deploying a special tail parachute. The phenomenon became known as 'deep stall'.
+Taking moments about the center of gravity, the net nose-up moment is:
+
+
+
+
+M
+=
+
+L
+
+w
+
+
+
+x
+
+g
+
+
+−
+(
+
+l
+
+t
+
+
+−
+
+x
+
+g
+
+
+)
+
+L
+
+t
+
+
+
+
+
+{\displaystyle M=L_{w}x_{g}-(l_{t}-x_{g})L_{t}\!}
+
+where
+
+
+
+
+x
+
+g
+
+
+
+
+
+{\displaystyle x_{g}\!}
+is the location of the center of gravity behind the aerodynamic center of the main wing,
+
+
+
+
+l
+
+t
+
+
+
+
+
+{\displaystyle l_{t}\!}
+is the tail moment arm. For trim, this moment must be zero. For a given maximum elevator deflection, there is a corresponding limit on center of gravity position at which the aircraft can be kept in equilibrium. When limited by control deflection this is known as a 'trim limit'. In principle trim limits could determine the permissible forwards and rearwards shift of the centre of gravity, but usually it is only the forward cg limit which is determined by the available control, the aft limit is usually dictated by stability.
+In a missile context 'trim limit' more usually refers to the maximum angle of attack, and hence lateral acceleration which can be generated.

@@ -1,0 +1,6 @@
+2. A video line rate analysis implemented entirely in C code is discussed in Chassaing and Bitler [1992].
+A module was built to sample a video line of information. This module included a 9.8-MHz clock, a
+high sampling rate 8-bit ADC and appropriate support circuitry (comparator, FIFO buffer, etc.). Inter-
+active  features  allowed  for  the  selection  of  one  (out  of  256)  horizontal  lines  of  information  and  the
+execution of algorithms for digital ﬁltering, averaging, and edge enhancement, with the resulting effects
+displayed on the PC screen. Figure 18.11 shows the display of a horizontal line (line #125) of information

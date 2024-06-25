@@ -1,0 +1,25 @@
+Hardware–Software Codesign
+Hardware–Software Codesign techniques target system-on-
+chip (SoC) design or embedded core design that involves
+integration of general-purpose microprocessors, DSP struc-
+tures, programmable logic (FPGA), ASIC cores, memory
+block peripherals, and interconnection buses on one chip.
+Traditionally, a system is divided into hardware and software
+sections that are designed independently except for some
+common standards
+required for compatibility concerns,
+shown in Figure 5.15(A). With systems growing larger and
+power consumption becoming of great importance, a new
+wave came forth to consider the whole system design process
+and attempt to partition the various tasks of the system be-
+tween hardware and software from the early stages of the
+design process to reduce many design problems, as indicated
+by Figure 5.15(B). These techniques attempt to ﬁnd an optimal
+partitioning and assignment of tasks between software running
+on microprocessors or DSPs and hardware implemented on
+ASIC or FPGA for a given application. In Henkel (1999), a
+system-level power optimization approach that deploys hard-
+ware–software partitioning based on a ﬁne-grained (instruc-
+tion/operation-level) power estimation analysis is proposed
+that achieves up to 94% savings in energy consumption. In
+this approach, the system tasks are partitioned into software

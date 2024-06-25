@@ -1,0 +1,13 @@
+Shift registers are often used for temporary stor-
+age. They are capable of storing one or more binary 
+words. There are three requirements for this applica-
+tion of a shift register: First, it must be able to accept 
+and store data. Second, it must be able to retrieve or 
+read out the data on command. Third, when the data 
+are read, they must not be lost. Figure 44-28 shows the 
+external circuitry required to enable a shift register to 
+read and maintain the data stored in it. The read/write 
+line, when high, allows new data to be stored in the 
+shift register. Once the data are stored, the read/write 
+line goes low, enabling gate 2, which allows the data to 
+recirculate while reading out the data.

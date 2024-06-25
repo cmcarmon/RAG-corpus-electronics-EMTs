@@ -1,0 +1,22 @@
+becomes more likely that some latent fabrication defect on a
+chip shows up during operation (e.g., a transistor goes into
+permanent conduction mode, two wires placed too close to
+each other in violation of spacing requirements may get
+shorted during operation due to electromigration) (perman-
+ent faults)or some external disturbance such as alpha-particle
+or electromagnetic radiation can change voltage values in
+memory cells or interconnects (soft errors/transient faults).
+Reduction of voltage levels also means that digital circuits are
+more susceptible to external or internal noise, such as cross talk
+causing logic or delay faults. The study and development of
+techniques to detect faults in the operation of modern com-
+puter and digital systems and to reconﬁgure around them or
+correct them in some manner so that either the system per-
+forms correctly in the presence of such faults (fault-tolerant
+operation) or shuts down safely in the presence of irrecoverable
+errors (fail-safe operation) are thus exceedingly important.
+Furthermore, it is also wise to now have a somewhat different
+mind-set in designing these complex systems, namely, to invest
+some design time and chip real-estate to improving reliability
+of these systems, thereby increasing the dependability of a
+variety of applications that run on these systems.

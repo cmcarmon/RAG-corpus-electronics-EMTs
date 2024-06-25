@@ -1,0 +1,54 @@
+Considering the case of an outlet perpendicular to the x-direction -
+
+In fully developed flow no changes occurs in flow direction, gradient of all variables except pressure are zero in flow direction
+The equations are solved for cells up to NI-1, outside the domain values of flow variables are determined by extrapolation from the interior by assuming zero gradients at the outlet plane
+The outlet plane velocities with the continuity correction
+
+
+
+
+
+U
+
+N
+I
+,
+J
+
+
+=
+
+U
+
+N
+I
+−
+1
+,
+J
+
+
+
+
+
+M
+
+i
+n
+
+
+
+M
+
+o
+u
+t
+
+
+
+
+
+
+
+{\displaystyle U_{NI,J}=U_{NI-1,J}{\frac {M_{in}}{M_{out}}}\,}
+.

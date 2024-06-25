@@ -1,0 +1,6 @@
+Ill-Conditioning
+The  Kalman  ﬁlter  covariance  matrix  can  be  extremely  ill-conditioned  in certain  applications,  as  analyzed  in
+Daum et al. [1983]. A Kalman ﬁlter is ill-conditioned if its performance is signiﬁcantly degraded by numerical
+errors.  Special  factorizations  of  the  covariance  matrices  have  been  developed  to  mitigate  this  problem;  the
+standard reference is Bierman [1977]. There are many other methods to mitigate ill-conditioning, as discussed
+by Daum et al. [1983].

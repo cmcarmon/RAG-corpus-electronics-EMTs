@@ -1,0 +1,14 @@
+hiding—conﬁning the details of managing a class of ‘‘objects’’
+in a module that has a friendly interface with its users. With
+information hiding, designers can protect themselves from
+extensive reprogramming if the hardware or some part of the
+software changes: the change affects only the small portion of
+the software interfacing directly with that system component.
+By nesting these modules, a hierarchy of levels of abstraction is
+created so that at any level, users can ignore the details at all
+lower levels. At the highest level is system users who, ideally,
+are insulated from everything except what they want to accom-
+plish. Operating systems structured in this way can support
+diverse environments: programming, game playing, real-time
+processing, ofﬁce automation, database, and so on. This situ-
+ation is shown in Figure 4.1.

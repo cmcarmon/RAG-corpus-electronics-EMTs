@@ -1,0 +1,127 @@
+In statistical mechanics, the translational partition function,
+
+
+
+
+q
+
+T
+
+
+
+
+{\displaystyle q_{T}}
+is that part of the partition function resulting from the movement (translation) of the center of mass. For a single atom or molecule in a low pressure gas, neglecting the interactions of molecules, the Canonical Ensemble
+
+
+
+
+q
+
+T
+
+
+
+
+{\displaystyle q_{T}}
+can be approximated by:
+
+
+
+
+
+q
+
+T
+
+
+=
+
+
+V
+
+Λ
+
+3
+
+
+
+
+
+
+
+{\displaystyle q_{T}={\frac {V}{\Lambda ^{3}}}\,}
+where
+
+
+
+Λ
+=
+
+
+h
+
+2
+π
+m
+
+k
+
+B
+
+
+T
+
+
+
+
+
+{\displaystyle \Lambda ={\frac {h}{\sqrt {2\pi mk_{B}T}}}}
+
+Here, V is the volume of the container holding the molecule, Λ is the Thermal de Broglie wavelength, h is the Planck constant, m is the mass of a molecule, kB is the Boltzmann constant and T is the absolute temperature. This approximation is valid as long as Λ is much less than any dimension of the volume the atom or molecule is in. Since typical values of Λ are on the order of 10-100 pm, this is almost always an excellent approximation.
+When considering a set of N non-interacting but identical atoms or molecules, when QT ≫ N , or equivalently when ρ Λ ≪ 1 where ρ is the density of particles, the total translational partition function can be written
+
+
+
+
+
+Q
+
+T
+
+
+(
+T
+,
+N
+)
+=
+
+
+
+
+q
+
+T
+
+
+(
+T
+
+)
+
+N
+
+
+
+
+N
+!
+
+
+
+
+
+{\displaystyle Q_{T}(T,N)={\frac {q_{T}(T)^{N}}{N!}}}
+
+The factor of N! arises from the restriction of allowed N particle states due to Quantum exchange symmetry. Most substances form liquids or solids at temperatures much higher than when this approximation breaks down significantly.

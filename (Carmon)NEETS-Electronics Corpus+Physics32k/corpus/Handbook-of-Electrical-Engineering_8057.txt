@@ -1,0 +1,6 @@
+The servomechanism system shown in Fig. 82.5 consists of an 8-bit Rockwell 6503 microprocessor, a D/A
+converter, an ampliﬁer, a joint motor, and an encoder. The 6503 microprocessor receives joint position infor-
+mation from the supervisory computer every 28 ms. The microprocessor calculates the joint error information
+by comparing the current position to the desired joint position using the PID (proportional-integral-derivative)
+control method. The error is converted to an analog signal by the D/A converter and ampliﬁed before going
+to the joint motor. The encoder is connected to the motor shaft and provides a digital signal to the microprocessor.

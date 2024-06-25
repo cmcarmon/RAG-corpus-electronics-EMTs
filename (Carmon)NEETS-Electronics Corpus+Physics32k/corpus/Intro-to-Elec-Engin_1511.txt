@@ -1,0 +1,5 @@
+It is assumed that all sample trains are derived from the same timing source, called a clock, and
+hence have the same frequency. Instead of using up all frame time for messages, some time is
+usually allocated for synchronization so that the receiver will know the start times of frames. The
+American Telephone and Telegraph Company (AT & T) employs a device known as a D3 channel
+bank, which is a synchronous multiplexer, whose characteristics are as follows:

@@ -1,0 +1,7 @@
+00.1h(n)IndexnSpectral Magnitude00.501|H(ej2πf)|Frequency5.16 Discrete-Time Filtering of Analog Signals30
+Because of the Sampling Theorem, we can process, in particular ﬁlter, analog signals “with a computer” by
+constructing the system shown in Figure 5.24. To use this system, we are assuming that the input signal has
+a lowpass spectrum and can be bandlimited without aﬀecting important signal aspects. Bandpass signals
+can also be ﬁltered digitally, but require a more complicated system. Highpass signals cannot be ﬁltered
+digitally. Note that the input and output ﬁlters must be analog ﬁlters; trying to operate without them can
+lead to potentially very inaccurate digitization.

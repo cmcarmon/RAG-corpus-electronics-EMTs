@@ -1,0 +1,5 @@
+A communications receiver must extract the modulation from a radio frequency carrier. A PLL may be used
+by phase locking a VCO to the received input signal. The loop ﬁlter output will then contain the extracted FM
+signal, and the loop ﬁlter input will contain the PM signal. In this case the frequency response of the FM output
+will be a low-pass function described by the closed-loop transfer function and the PM output response will be
+a high-pass function described by the error function.

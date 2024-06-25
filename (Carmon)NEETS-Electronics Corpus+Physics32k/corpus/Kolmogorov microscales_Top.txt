@@ -1,0 +1,231 @@
+Kolmogorov microscales are the smallest scales in turbulent flow. At the Kolmogorov scale, viscosity dominates and the turbulent kinetic energy is dissipated into heat. They are defined by
+where
+
+
+
+ε
+
+
+{\displaystyle \varepsilon }
+is the average rate of dissipation of turbulence kinetic energy per unit mass, and
+
+
+
+ν
+
+
+{\displaystyle \nu }
+is the kinematic viscosity of the fluid. Typical values of the Kolmogorov length scale, for atmospheric motion in which the large eddies have length scales on the order of kilometers, range from 0.1 to 10 millimeters; for smaller flows such as in laboratory systems,
+
+
+
+η
+
+
+{\displaystyle \eta }
+may be much smaller.
+In his 1941 theory, Andrey Kolmogorov introduced the idea that the smallest scales of turbulence are universal (similar for every turbulent flow) and that they depend only on
+
+
+
+ε
+
+
+{\displaystyle \varepsilon }
+and
+
+
+
+ν
+
+
+{\displaystyle \nu }
+. The definitions of the Kolmogorov microscales can be obtained using this idea and dimensional analysis. Since the dimension of kinematic viscosity is length2/time, and the dimension of the energy dissipation rate per unit mass is length2/time3, the only combination that has the dimension of time is
+
+
+
+
+τ
+
+η
+
+
+=
+(
+ν
+
+/
+
+ε
+
+)
+
+1
+
+/
+
+2
+
+
+
+
+{\displaystyle \tau _{\eta }=(\nu /\varepsilon )^{1/2}}
+which is the Kolmorogov time scale. Similarly, the Kolmogorov length scale is the only combination of
+
+
+
+ε
+
+
+{\displaystyle \varepsilon }
+and
+
+
+
+ν
+
+
+{\displaystyle \nu }
+that has dimension of length.
+Alternatively, the definition of the Kolmogorov time scale can be obtained from the inverse of the mean square strain rate tensor,
+
+
+
+
+τ
+
+η
+
+
+=
+(
+2
+⟨
+
+E
+
+i
+j
+
+
+
+E
+
+i
+j
+
+
+⟩
+
+)
+
+−
+1
+
+/
+
+2
+
+
+
+
+{\displaystyle \tau _{\eta }=(2\langle E_{ij}E_{ij}\rangle )^{-1/2}}
+which also gives
+
+
+
+
+τ
+
+η
+
+
+=
+(
+ν
+
+/
+
+ε
+
+)
+
+1
+
+/
+
+2
+
+
+
+
+{\displaystyle \tau _{\eta }=(\nu /\varepsilon )^{1/2}}
+using the definition of the energy dissipation rate per unit mass
+
+
+
+ε
+=
+2
+ν
+⟨
+
+E
+
+i
+j
+
+
+
+E
+
+i
+j
+
+
+⟩
+
+
+{\displaystyle \varepsilon =2\nu \langle E_{ij}E_{ij}\rangle }
+. Then the Kolmogorov length scale can be obtained as the scale at which the Reynolds number is equal to 1,
+
+
+
+
+
+R
+e
+
+
+=
+U
+L
+
+/
+
+ν
+=
+(
+η
+
+/
+
+
+τ
+
+η
+
+
+)
+η
+
+/
+
+ν
+=
+1
+
+
+{\displaystyle {\mathit {Re}}=UL/\nu =(\eta /\tau _{\eta })\eta /\nu =1}
+.
+The Kolmogorov 1941 theory is a mean field theory since it assumes that the relevant dynamical parameter is the mean energy dissipation rate. In fluid turbulence, the energy dissipation rate fluctuates in space and time, so it is possible to think of the microscales as quantities that also vary in space and time. However, standard practice is to use mean field values since they represent the typical values of the smallest scales in a given flow.

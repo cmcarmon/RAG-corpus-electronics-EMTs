@@ -1,0 +1,15 @@
+An algorithm is said to be constant time (also written as O(1) time) if the value of T(n) is bounded by a value that does not depend on the size of the input. For example, accessing any single element in an array takes constant time as only one operation has to be performed to locate it. In a similar manner, finding the minimal value in an array sorted in ascending order; it is the first element. However, finding the minimal value in an unordered array is not a constant time operation as scanning over each element in the array is needed in order to determine the minimal value. Hence it is a linear time operation, taking O(n) time. If the number of elements is known in advance and does not change, however, such an algorithm can still be said to run in constant time.
+Despite the name "constant time", the running time does not have to be independent of the problem size, but an upper bound for the running time has to be bounded independently of the problem size. For example, the task "exchange the values of a and b if necessary so that a≤b" is called constant time even though the time may depend on whether or not it is already true that a ≤ b. However, there is some constant t such that the time required is always at most t.
+Here are some examples of code fragments that run in constant time :
+
+int index = 5;
+int item = list[index];
+if (condition true) then
+perform some operation that runs in constant time
+else
+perform some other operation that runs in constant time
+for i = 1 to 100
+for j = 1 to 200
+perform some operation that runs in constant time
+
+If T(n) is O(any constant value), this is equivalent to and stated in standard notation as T(n) being O(1).

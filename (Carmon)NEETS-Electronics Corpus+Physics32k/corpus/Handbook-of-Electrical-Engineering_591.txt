@@ -1,0 +1,6 @@
+Failure-to-Follow Distortion
+When a properly designed peak detector circuit is used for AM demodulation the output follows the envelope
+of the input signal whereby the original modulation signal is recovered. A simple peak detector is a diode in
+series with a low-pass RC ﬁlter. The critical component of such a circuit is a linear element, the ﬁlter capacitance
+C. If C is large, then the output fails to follow the envelope of the input signal, resulting in failure-to-follow
+distortion.

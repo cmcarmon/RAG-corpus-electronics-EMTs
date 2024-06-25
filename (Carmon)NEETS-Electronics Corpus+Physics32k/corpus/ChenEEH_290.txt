@@ -1,0 +1,9 @@
+The effect of series resistance is to degrade output voltage levels
+(push them away from the rails). Series resistance can be present
+in the supply rail and/or the ground rail. Each series resistance
+has a different effect on the output characteristics. Ground rail
+resistance degrades VOL and supply rail resistance degrades VOH .
+For example, consider the CMOS inverter shown in Figure
+2.6(A) that includes a ground resistance Rseries. The output
+voltage, VO, can be modeled [see Figure 2.6(B)] as a resistor–
+divider network such that:

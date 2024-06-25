@@ -1,0 +1,10 @@
+Frequency translation can be used effectively to reduce the effect of 1/f noise by putting the
+signal in a less noisy frequency band. Figure 14.3.8(a) shows the schematic implementation with
+product modulation and demodulation, whereas Figure 14.3.8(b) illustrates the noise reduction in
+terms of the areas under the noise power curve. The two multipliers in Figure 14.3.8(a) are normally
+implemented by using a pair of synchronized switches. It turns out that the product modulation
+requires bandwidth B = 2W , and the synchronized product demodulation doubles the ﬁnal SNR.
+Another way of improving the SNR is by preemphasis and deemphasis ﬁltering. Generally,
+for low-frequency components of the message signal FM (frequency modulation) performs better,
+and for high-frequency components PM (phase modulation) is a better choice. Hence, if one can
+design a system that performs FM for low-frequency components of the message signal, and

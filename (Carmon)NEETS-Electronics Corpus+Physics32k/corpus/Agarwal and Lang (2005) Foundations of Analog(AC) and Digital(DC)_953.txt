@@ -1,0 +1,14 @@
+Next, we will attempt to answer the following question: What is the rela-
+tionship between the amplifier output vO and its input vIN? This relationship
+will describe the gain of the amplifier. Notice here an advantage of the satura-
+tion discipline
+our constraint that the circuit inputs will be chosen so that
+the MOSFET is always in saturation allows us to focus on the saturation region
+of operation of the MOSFET and ignore its triode and cutoff region operation.
+We will begin by formulating the output voltage vO as a function of the
+input voltage vIN. Any of the methods described in Chapters 2 and 3 can be
+used to analyze this circuit. We will use the node method here. The ground
+node is marked in the circuit in Figure 7.20, and so are the node voltages vO,
+vIN, and VS. Since the current into the MOSFET gate is zero, the node with
+voltage vO is the only interesting node in the circuit. Writing the node equation,
+we get

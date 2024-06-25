@@ -1,0 +1,6 @@
+First, the scope rules of many programming languages permit subprograms to access entities of the program
+in which they are deﬁned (static scoping) or of the calling program (dynamic scoping). These entities are called
+nonlocal  in  contrast  to  those  deﬁned  within  the  subprogram  itself.  Nonvariable  entities  can  and  should  be
+broadcast  by  means  of  nonlocal,  preferably  global  deﬁnitions  (i.e.,  deﬁnitions  available  to  all  modules  and
+subprograms  within  an  entire  project).  For  these  entities—types,  procedures,  and  constant  values—global
+deﬁnitions are very beneﬁcial, since changes that may become necessary need to be made only at the place of

@@ -1,0 +1,10 @@
+You should never connect an LED directly to a power source, or you may fry 
+the LED instantly. Instead, use a resistor in series with the LED to limit the 
+forward current. For instance, in the circuit in Figure 9­10, a 9‐volt battery is 
+used to power a red LED. The LED has a forward voltage drop of 2.0 V and a 
+maximum current rating of 24 mA. The voltage drop across the resistor is the 
+difference between the source voltage and the LED forward voltage, or 
+9
+ V
+current to 24 mA (that’s 0.024 A) or less when the voltage dropped across the 
+resistor is 7 V? You apply Ohm’s Law (which I discuss in Chapter 6) to 

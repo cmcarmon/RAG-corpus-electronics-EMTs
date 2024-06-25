@@ -1,0 +1,10 @@
+A  nickel-cadmium  battery  supplies  the  power  to  the  transmitter.  For  the  BCO,  the  resistance  change  of  the
+strain  gauge  changes  the  frequency  of  the  subcarrier.  In  the  case  of  the  VCO,  the  millivolt  output  of  the
+thermocouple changes the frequency of the subcarrier. This change modulates the radio frequency transmitted
+by the antenna. The receiving antenna picks up the signal and conducts it by wire link to the radio receiver,
+which is tuned to the transmitting frequency. The radio receiver demodulates the FM carrier to reproduce the
+subcarrier signal. The subcarrier signal is then fed to the discriminator, which demodulates this signal to obtain
+a dc voltage, which is then ampliﬁed by the dc ampliﬁer and recorded on the oscillograph. The oscillograph
+record,  properly  calibrated,  is  then  a  display  of  the  strain  in  microinches  per  inch  for  the  BCOs,  or  the
+temperature in degrees for the VCO. At the same time the dc signal can be read on a VTVM and can be used
+as a check on the oscillograph.

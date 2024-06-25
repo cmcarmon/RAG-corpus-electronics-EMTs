@@ -1,0 +1,7 @@
+The demultiplexed video signal is, hopefully, the same as the transmitted signal (“F”). We use letters with
+quotation marks to indicate that the signals are estimates of their transmitted counterpart. This reproduced
+video signal is decompressed, using the inverse algorithm of that used in the transmitter, to yield an estimate
+of the original differential picture signal (“E ”). The predict block in the receiver implements the same algorithm
+as that of the transmitter. Its inputs are the reconstructed motion signal (“C ”) and the previous reconstructed
+frame (“B”). When the predictor output (“D”) is added to the reconstructed differential picture signal (“E ”),
+the result is a reconstructed version of the current frame.

@@ -1,0 +1,5 @@
+Flip-Flops
+We will use the term ﬂip-ﬂop to distinguish between the bistable device called a latch and the bistable device
+that  allows  feed-back  without  oscillation.  Early  types  of  ﬂip-ﬂops  were  of  the  master-slave  (pulse-triggered)
+variety  that  had  no  data-lockout  circuitry  and  caused  a  storage  error  if  improperly  used  due  to  1s  and  0s
+catching. To prevent 1s and 0s catching, data-lockout (also called variable-skew) circuitry was added to a few

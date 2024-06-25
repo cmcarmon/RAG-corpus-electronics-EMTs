@@ -1,0 +1,15 @@
+Variable Length Coding
+The most well-known and widely used variable-length coding
+(VLC) is the Huffman code. The coding part can be easily
+implemented as a look-up table to achieve a high output rate.
+On the other hand, its decoding end can be implemented in a
+number of VLSI architectures to satisfy different input/output
+data rates as surveyed by Chang and Messerchmitt (1992). The
+VLSI architecture can be classiﬁed as tree-based and program-
+mable logic array-based (PLA-based). The tree-based architec-
+ture is a direct map of the Huffman binary tree. The average
+decoding throughput of the pipelined version is in the range
+of [Lmin, Lmax] bits/cycle, where Lmin and Lmax are minimum
+and maximum code lengths, respectively. This rate is appar-
+ently higher than a 1 bit/cycle of the sequential tree-based
+architecture.

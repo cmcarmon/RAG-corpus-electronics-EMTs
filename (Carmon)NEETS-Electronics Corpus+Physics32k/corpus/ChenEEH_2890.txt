@@ -1,0 +1,30 @@
+Constant False Alarm Rate
+The threshold for detection is usually determined to achieve a
+desired false alarm rate. The false alarm rate is quite sensitive
+to the threshold level. A constant false alarm rate (CFAR) can
+be obtained by adjusting the threshold in accordance with
+the measured background. There are different schemes for
+obtaining CFAR. The cell-average CFAR uses a tapped delay
+line to sample the range cells to either side of the test cell. The
+number of taps used in the cell-average CFAR might vary
+from 16 to 20. Clutter-map CFAR is to divide the radar’s
+space into range and azimuth bins. Over several scans, a
+moving average of the clutter residue in each range-azimuth
+cell is calculated and is used to determine the threshold level.
+In the guard-band CFAR scheme, the interference level is
+determined by examining the frequency bands adjacent to
+the band containing the signal. The threshold is determined
+by this interference level. This type of CFAR is effective against
+wideband interference but not effective against clutter. The
+limiting CFAR scheme is used when the bandwidth of the
+interference is much greater than that of the target echo signal,
+such as with wideband noise jamming and with impulse jam-
+ming. In this scheme, except the wideband interference, signal
+plus high amplitude impulse interface is ampliﬁed and then
+pass through a limiter. After limiting, the signal and the inter-
+ference have the same amplitude. Because the interference has
+much wider spectral bandwidth in the frequency domain, the
+power distributed to the signal band is much smaller than the
+signal. After passing through a band pass ﬁlter matched to
+the signal, the signal amplitude is thus much greater than the
+interference amplitude.

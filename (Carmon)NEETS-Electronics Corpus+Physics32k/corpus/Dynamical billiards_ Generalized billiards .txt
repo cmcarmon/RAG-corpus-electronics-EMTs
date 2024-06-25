@@ -1,0 +1,581 @@
+Generalized billiards (GB) describe a motion of a mass point (a particle) inside a closed domain
+
+
+
+
+Π
+
+⊂
+
+
+
+R
+
+
+n
+
+
+
+
+
+{\displaystyle \scriptstyle \Pi \,\subset \,\mathbb {R} ^{n}}
+with the piece-wise smooth boundary
+
+
+
+
+Γ
+
+
+
+{\displaystyle \scriptstyle \Gamma }
+. On the boundary
+
+
+
+
+Γ
+
+
+
+{\displaystyle \scriptstyle \Gamma }
+the velocity of point is transformed as the particle underwent the action of generalized billiard law. GB were introduced by Lev D. Pustyl'nikov in the general case, and, in the case when
+
+
+
+
+Π
+
+
+
+{\displaystyle \scriptstyle \Pi }
+is a parallelepiped in connection with the justification of the second law of thermodynamics. From the physical point of view, GB describe a gas consisting of finitely many particles moving in a vessel, while the walls of the vessel heat up or cool down. The essence of the generalization is the following. As the particle hits the boundary
+
+
+
+
+Γ
+
+
+
+{\displaystyle \scriptstyle \Gamma }
+, its velocity transforms with the help of a given function
+
+
+
+
+f
+(
+γ
+,
+
+t
+)
+
+
+
+{\displaystyle \scriptstyle f(\gamma ,\,t)}
+, defined on the direct product
+
+
+
+
+Γ
+
+×
+
+
+
+R
+
+
+1
+
+
+
+
+
+{\displaystyle \scriptstyle \Gamma \,\times \,\mathbb {R} ^{1}}
+(where
+
+
+
+
+
+
+R
+
+
+1
+
+
+
+
+
+{\displaystyle \scriptstyle \mathbb {R} ^{1}}
+is the real line,
+
+
+
+
+γ
+
+∈
+
+Γ
+
+
+
+{\displaystyle \scriptstyle \gamma \,\in \,\Gamma }
+is a point of the boundary and
+
+
+
+
+t
+
+∈
+
+
+
+R
+
+
+1
+
+
+
+
+
+{\displaystyle \scriptstyle t\,\in \,\mathbb {R} ^{1}}
+is time), according to the following law. Suppose that the trajectory of the particle, which moves with the velocity
+
+
+
+
+v
+
+
+
+{\displaystyle \scriptstyle v}
+, intersects
+
+
+
+
+Γ
+
+
+
+{\displaystyle \scriptstyle \Gamma }
+at the point
+
+
+
+
+γ
+
+∈
+
+Γ
+
+
+
+{\displaystyle \scriptstyle \gamma \,\in \,\Gamma }
+at time
+
+
+
+
+
+t
+
+∗
+
+
+
+
+
+{\displaystyle \scriptstyle t^{*}}
+. Then at time
+
+
+
+
+
+t
+
+∗
+
+
+
+
+
+{\displaystyle \scriptstyle t^{*}}
+the particle acquires the velocity
+
+
+
+
+
+v
+
+∗
+
+
+
+
+
+{\displaystyle \scriptstyle v^{*}}
+, as if it underwent an elastic push from the infinitely-heavy plane
+
+
+
+
+
+Γ
+
+∗
+
+
+
+
+
+{\displaystyle \scriptstyle \Gamma ^{*}}
+, which is tangent to
+
+
+
+
+Γ
+
+
+
+{\displaystyle \scriptstyle \Gamma }
+at the point
+
+
+
+
+γ
+
+
+
+{\displaystyle \scriptstyle \gamma }
+, and at time
+
+
+
+
+
+t
+
+∗
+
+
+
+
+
+{\displaystyle \scriptstyle t^{*}}
+moves along the normal to
+
+
+
+
+Γ
+
+
+
+{\displaystyle \scriptstyle \Gamma }
+at
+
+
+
+
+γ
+
+
+
+{\displaystyle \scriptstyle \gamma }
+with the velocity
+
+
+
+
+
+
+
+∂
+f
+
+
+∂
+t
+
+
+
+(
+γ
+,
+
+
+t
+
+∗
+
+
+)
+
+
+
+{\displaystyle \scriptstyle {\frac {\partial f}{\partial t}}(\gamma ,\,t^{*})}
+. We emphasize that the position of the boundary itself is fixed, while its action upon the particle is defined through the function
+
+
+
+
+f
+
+
+
+{\displaystyle \scriptstyle f}
+.
+We take the positive direction of motion of the plane
+
+
+
+
+
+Γ
+
+∗
+
+
+
+
+
+{\displaystyle \scriptstyle \Gamma ^{*}}
+to be towards the interior of
+
+
+
+
+Π
+
+
+
+{\displaystyle \scriptstyle \Pi }
+. Thus if the derivative
+
+
+
+
+
+
+
+∂
+f
+
+
+∂
+t
+
+
+
+(
+γ
+,
+
+t
+)
+
+>
+
+0
+
+
+
+{\displaystyle \scriptstyle {\frac {\partial f}{\partial t}}(\gamma ,\,t)\;>\;0}
+, then the particle accelerates after the impact.
+If the velocity
+
+
+
+
+
+v
+
+∗
+
+
+
+
+
+{\displaystyle \scriptstyle v^{*}}
+, acquired by the particle as the result of the above reflection law, is directed to the interior of the domain
+
+
+
+
+Π
+
+
+
+{\displaystyle \scriptstyle \Pi }
+, then the particle will leave the boundary and continue moving in
+
+
+
+
+Π
+
+
+
+{\displaystyle \scriptstyle \Pi }
+until the next collision with
+
+
+
+
+Γ
+
+
+
+{\displaystyle \scriptstyle \Gamma }
+. If the velocity
+
+
+
+
+
+v
+
+∗
+
+
+
+
+
+{\displaystyle \scriptstyle v^{*}}
+is directed towards the outside of
+
+
+
+
+Π
+
+
+
+{\displaystyle \scriptstyle \Pi }
+, then the particle remains on
+
+
+
+
+Γ
+
+
+
+{\displaystyle \scriptstyle \Gamma }
+at the point
+
+
+
+
+γ
+
+
+
+{\displaystyle \scriptstyle \gamma }
+until at some time
+
+
+
+
+
+
+
+t
+~
+
+
+
+
+>
+
+
+t
+
+∗
+
+
+
+
+
+{\displaystyle \scriptstyle {\tilde {t}}\;>\;t^{*}}
+the interaction with the boundary will force the particle to leave it.
+If the function
+
+
+
+
+f
+(
+γ
+,
+
+t
+)
+
+
+
+{\displaystyle \scriptstyle f(\gamma ,\,t)}
+does not depend on time
+
+
+
+
+t
+
+
+
+{\displaystyle \scriptstyle t}
+; i.e.,
+
+
+
+
+
+
+
+∂
+f
+
+
+∂
+t
+
+
+
+
+=
+
+0
+
+
+
+{\displaystyle \scriptstyle {\frac {\partial f}{\partial t}}\;=\;0}
+, the generalized billiard coincides with the classical one.
+This generalized reflection law is very natural. First, it reflects an obvious fact that the walls of the vessel with gas are motionless. Second the action of the wall on the particle is still the classical elastic push. In the essence, we consider infinitesimally moving boundaries with given velocities.
+It is considered the reflection from the boundary
+
+
+
+
+Γ
+
+
+
+{\displaystyle \scriptstyle \Gamma }
+both in the framework of classical mechanics (Newtonian case) and the theory of relativity (relativistic case).
+Main results: in the Newtonian case the energy of particle is bounded, the Gibbs entropy is a constant, (in Notes) and in relativistic case the energy of particle, the Gibbs entropy, the entropy with respect to the phase volume grow to infinity, (in Notes), references to generalized billiards.

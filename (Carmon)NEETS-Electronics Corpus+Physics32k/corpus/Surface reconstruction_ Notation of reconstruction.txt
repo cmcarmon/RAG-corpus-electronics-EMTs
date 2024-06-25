@@ -1,0 +1,174 @@
+In general the change in a surface layer's structure due to a reconstruction can be completely specified by a matrix notation proposed by Park and Madden. If
+
+
+
+a
+
+
+{\displaystyle a}
+and
+
+
+
+b
+
+
+{\displaystyle b}
+are the basic translation vectors of the two-dimensional structure in the bulk and
+
+
+
+
+a
+
+s
+
+
+
+
+{\displaystyle a_{s}}
+and
+
+
+
+
+b
+
+s
+
+
+
+
+{\displaystyle b_{s}}
+are the basic translation vectors of the superstructure or reconstructed plane, then the relationship between the two sets of vectors can be described by the following equations:
+
+
+
+
+
+a
+
+s
+
+
+=
+
+G
+
+11
+
+
+a
++
+
+G
+
+12
+
+
+b
+
+
+{\displaystyle a_{s}=G_{11}a+G_{12}b}
+
+
+
+
+
+
+b
+
+s
+
+
+=
+
+G
+
+21
+
+
+a
++
+
+G
+
+22
+
+
+b
+
+
+{\displaystyle b_{s}=G_{21}a+G_{22}b}
+
+
+so that the two-dimensional reconstruction can be described by the matrix
+
+
+
+
+G
+=
+
+
+(
+
+
+
+
+G
+
+11
+
+
+
+
+
+G
+
+12
+
+
+
+
+
+
+
+G
+
+21
+
+
+
+
+
+G
+
+22
+
+
+
+
+
+)
+
+
+
+
+{\displaystyle G={\begin{pmatrix}G_{11}&G_{12}\\G_{21}&G_{22}\end{pmatrix}}}
+
+
+Note that this system does not describe any relaxation of the surface layers relative to the bulk inter-layer spacing, but only describes the change in the individual layer's structure.
+Surface reconstructions are more commonly given in Wood's notation, which reduces the matrix above into a more compact notation:
+
+X(hkl) m × n - R
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+
+
+which describes the reconstruction of the (hkl) plane (given by its Miller indices). In this notation, the surface unit cell is given as multiples of the nonreconstructed surface unit cell with the unit cell vectors a and b. For example, a calcite(104) (2×1) reconstruction means that the unit cell is twice as long in direction a and has the same length in direction b. If the unit cell is rotated with respect to the unit cell of the nonreconstructed surface, the angle phi is given in addition (usually in degree). This notation is often used to describe reconstructions concisely, but does not directly indicate changes in the layer symmetry (for example, square to hexagonal).

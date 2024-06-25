@@ -1,0 +1,9 @@
+istrator has conﬁgured the SPD to use some security for a
+particular trafﬁc ﬂow, then IpSec ﬁrst negotiates the param-
+eters involved in securing the trafﬁc ﬂow with the peer host.
+These negotiations result in the so-called Security Association
+(SA) between the two peers. The SA contains the type of IpSec
+mechanism to be applied to the trafﬁc ﬂow (AH or ESP), the
+encryption algorithms to be used and the security keys to be
+applied. SAs are negotiated using the Internet Key Exchange
+(IKE) protocol.

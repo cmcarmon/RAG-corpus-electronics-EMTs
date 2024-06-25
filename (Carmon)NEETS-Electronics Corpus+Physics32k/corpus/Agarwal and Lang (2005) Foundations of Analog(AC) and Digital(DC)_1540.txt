@@ -1,0 +1,11 @@
+p r o b l e m 10.2
+The inverter-pair comprising INV1 and INV2 studied in Prob-
+lem 10.1 (see Figure 10.92) drives another inverter INV3 as illustrated in Figure 10.94a.
+Logically, the series connected pair of inverters INV1 and INV2 function as a buffer,
+as depicted in Figure 10.94b. The equivalent circuit of the buffer circuit driving INV3
+is illustrated in Figure 10.94c. For this problem, use the equivalent circuit model for
+an inverter based on the SRC model of the MOSFET as depicted in Figure 10.93.
+Assume further that each of the inverters satisfies the static discipline with voltage thresh-
+olds VIL = VOL = VL and VIH = VOH = VH. Assume further that the MOSFET
+threshold voltage is VT. (Note that to satisfy the static discipline, the following is true:
+VL < VT < VH.)

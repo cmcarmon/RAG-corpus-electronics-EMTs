@@ -1,0 +1,23 @@
+Field-Programmable Gate Arrays: Evolving to an ASIC Technology
+The ﬁeld-programmable gate array (FPGA), like the gate array, places ﬁxed cells on the wafer, and the FPGA
+designer constructs more-complex functions from these cells. However, the cells provided on the FPGA can be
+substantially  more  complex  than  the  simple  gates  provided  on  the  gate  array.  In  addition,  the  term  ﬁeld
+programmable highlights the customizing of the ASIC by the user, rather than by the foundry manufacturing
+the FPGA. The mask-programmable gate array (MPGA) is similar to the FPGA (using more-complex cells than
+the gate array), but the programming is performed by addition of the metal layer by the FPGA manufacturer.
+Figure 25.33  shows  an  example  of  cells  and  programmable  interconnections  for  a  representative  FPGA
+technology  [Actel,  1995].  The  array  of  cells  is  constructed  from  two  types  of  cell,  which  alternate  along  the
+logic cell rows of the FPGA. The combinational logic cell — “C-module” in Fig. 25.33(a) — provides a ROM-
+based lookup table (LUT) able to efﬁciently implement a complex logic function (with four data inputs and
+two  control  signals).  The  sequential  cell  (S-module)  adds  a  ﬂip-ﬂop  to  the  combinational  module,  allowing
+efﬁcient realization of sequential circuits. The interconnection approach illustrated in Fig. 25.33(c) is based on
+(1)  short  vertical  interconnections  directly  connecting  adjacent  modules,  (2)  long  vertical  interconnections
+extending  through  the  overall  array,  (3)  long  horizontal  interconnections  extending  across  the  overall  array,
+(4) points at which the long vertical interconnections can be connected to cells, and (5) points at which the
+long vertical and horizontal lines can be used for general routing. The long horizontal and vertical lines are
+broken  into  segments,  with  programmable  links  between  successive  segments.  The  programmer  can  then
+connect a set of adjacent line segments to create the desired interconnection line. In addition, programmable
+connection  points  allow  the  programmer  to  make  transitions  between  the  long  vertical  lines  and  the  long
+horizontal  lines.  By  connecting  various  inputs  the  cell  of  an  FPGA  to  either  Vdd  or  GND,  the  cell  can  be
+“programmed” to perform one of its possible functions. The basic array is complemented by additional driver
+and other circuitry around the perimeter of the FPGA for interfacing to the “external world.”

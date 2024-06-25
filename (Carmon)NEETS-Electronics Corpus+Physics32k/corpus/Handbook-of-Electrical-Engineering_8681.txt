@@ -1,0 +1,14 @@
+The VAX is one of the best examples of an architecture having an almost extraordinary vocabulary, which
+is why it is often considered the prototypical CISC machine. What were the motivations for having this rich
+vocabulary  if  compilers  simply  ignore  it?  Early  computer  programming  was  accomplished  through  slightly
+alphabetized machine language—mnemonics for opcodes and sometimes for labels. Assembly language repre-
+sented a vast improvement in readability, but even though FORTRAN, COBOL and Algol were extant at the
+same time as assembly language, their crude or absent optimization abilities led to the popular belief that really
+good  programming  was  always  done  in  assembly.  This  was  accepted  lore  until  early  studies  of  optimization
+began to have an impact on commercial compilers. It is fair to say that this impact did not occur until the early
+1980s. The VAX and the 68000 were products of the middle and late 1970s. It is no great surprise then to ﬁnd
+that CISC computer architectures were designed to enable and assist the assembly language programmer. Such
+an objective promotes the inclusion of many complex features which the programmer might want to utilize.
+However, two facts emerged in the late 1970s which suggested that this rich vocabulary was provided at too
+high a cost for its beneﬁt (for a more complete discussion of the emergence of the RISC concept, which really
+began with Seymour Cray in the 1960s, see [Feldman and Retter, 1994]):

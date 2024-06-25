@@ -1,0 +1,4 @@
+Within the example program, the assignment statement which checks if the character is a digit within the
+range from ‘0’ to ‘9’ is a statement which can beneﬁt from this type of optimization. The C code lines, with
+the unoptimized and optimized SPARC assembly code, are listed below. Note that in addition to the constant
+expression removal the optimized code also assigns variables to registers.

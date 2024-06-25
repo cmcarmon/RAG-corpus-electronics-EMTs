@@ -1,0 +1,7 @@
+Simple Hierarchical Structuring
+The relation among modules should be hierarchical, i.e., modules should be the vertices of a directed acyclic
+graph whose edges describe how modules refer to other modules. In such a structure, called a top-down design,
+each module can be understood in terms of the modules to which it refers directly. Yet, hierarchical structuring
+by itself does not yield simple and comprehensible programs. In addition, interfaces between modules must
+be kept narrow, that is, (1) the use of nonlocal variables must be avoided and (2) the number of parameters
+passed to a subprogram should be held to a minimum.

@@ -1,0 +1,7 @@
+The run-time reconﬁgurable artiﬁcial neural network de-
+veloped by Eldridge and Hutchings (1994) uses dynamic re-
+conﬁguration to implement three stages of a neural network
+back-propagation algorithm. Each stage of the algorithm is
+represented by a circuit module that is swapped in and out
+of the FPGA hardware as demanded by the application. Only
+one circuit module is resident on the FPGA at a given time.

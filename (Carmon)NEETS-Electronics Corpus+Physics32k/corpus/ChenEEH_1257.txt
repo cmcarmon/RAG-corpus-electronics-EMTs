@@ -1,0 +1,10 @@
+. Increment the address of the current microinstruction
+to obtain the address of the next micro-instruction. This
+is indicated in the microprogram by putting it in the
+sequencing ﬁeld. Because sequential execution is encoun-
+tered often, many microprogramming systems make this
+the default and simply leave the entry blank as the default.
+. Branch to the microinstruction that begins execution of
+the next instruction. This initial micro-instruction is usu-
+ally labeled as Fetch and placed in the sequencing ﬁeld to
+indicate this action.

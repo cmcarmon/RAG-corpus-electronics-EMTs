@@ -1,0 +1,12 @@
+From our work in Fourier series, we know that this signal’s spectrum contains odd-harmonics of the
+fundamental, which here equals 1
+. Thus, strictly speaking, the signal’s bandwidth is inﬁnite. In practical
+2T
+terms, we use the 90%-power bandwidth to assess the eﬀective range of frequencies consumed by the signal.
+The ﬁrst and third harmonics contain that fraction of the total power, meaning that the eﬀective bandwidth
+of our baseband signal is 3
+. Thus, a digital
+2T
+communications signal requires more bandwidth than the datarate: a 1 Mbps baseband system requires a
+bandwidth of at least 1.5 MHz. Listen carefully when someone describes the transmission bandwidth of
+digital communication systems: Did they say “megabits” or “megahertz?”

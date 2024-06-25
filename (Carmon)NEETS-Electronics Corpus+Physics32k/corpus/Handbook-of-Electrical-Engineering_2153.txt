@@ -1,0 +1,7 @@
+Size of Training Set
+The size of the training set is very important for good performance. Remember that the ANN gets its information
+from the training set. If the training data do not cover the full range of operating conditions, the system may
+perform  badly  when  deployed.  Under  no  circumstances  should  the  training  set  be  less  than  the  number  of
+weights in the ANN. A good size of the training data is ten times the number of weights in the network, with
+the lower limit being set around three times the number of weights (these values should be taken as an indication,
+subject to experimentation for each case) [Haykin, 1994].

@@ -1,0 +1,7 @@
+Firmware Implementation
+Microprogramming usually requires the regular phases of design, coding, test, conformance acceptance, doc-
+umentation, etc. It differs from other programming activities when it comes to the deliverable. The usual ﬁnal
+product takes the form of hardware, namely, a control memory, PROM, ROM, or other media, containing the
+bit  patterns  equivalent  to  the  ﬁrmware.  These  implementation  steps  require  special  hardware  and  software
+support. They include a linker, loader, PAL programmer, or ROM burner; a test program in a control memory
+test bench is also necessary.

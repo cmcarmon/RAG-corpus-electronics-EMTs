@@ -1,0 +1,8 @@
+In our example, the inverter sends a 0 by placing vOUT = 1 V (correspond-
+ing to VOL) on the wire. Figure 6.44 shows 0.6 V of noise being added to
+the signal by the transmission channel. However, the buffer is able to correctly
+interpret the received value as a 0 because the received value of 1.6 V is within
+the low input voltage threshold of VIL = 2 V. The buffer, in turn, performs the
+identity logical operation on the signal and produces a logical 0 at its output.
+According to the static discipline, the voltage level at the buffer’s output is 1 V
+corresponding to VOL.

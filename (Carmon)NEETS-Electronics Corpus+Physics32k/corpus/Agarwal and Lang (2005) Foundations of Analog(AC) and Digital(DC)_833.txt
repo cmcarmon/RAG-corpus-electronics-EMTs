@@ -1,0 +1,7 @@
+12. Direct transistor implementation potentially can yield savings in the number of transistors and
+resistors used. However, should you consider discarding the gate-level abstraction in favor of
+building logic functions directly out of transistors, remember that transistor-level implementation
+of complex logic functions can be a much more arduous task than a gate-level implementation.
+The difficulty will become apparent as we move to the more realistic switch-resistor MOSFET
+model discussed in Section 6.6. As a general guideline, the designer should use the highest level of
+abstraction with which to accomplish a design.

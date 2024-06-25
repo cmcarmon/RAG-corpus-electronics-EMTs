@@ -1,0 +1,23 @@
+Procedure 
+ 
+Start the Z80 Simulator (see Fig. 11.14) then select 
+Tools  and  Assembler  and  enter  the  assembly 
+language code shown in Fig. 11.15. When complete 
+select File and Save your assembly language source 
+code with a suitable name (e.g. switch.asm). 
+  Next  select  Tools  and  Assemble.  Correct  any 
+errors  in  the  assembly  language  source  code  and 
+repeat the process until the source code assembles 
+without  error.  Save  the  final  assembly  code  and 
+then  quit  the  assembler  in  order  to  return  to  the 
+main IDE screen. 
+  Select File and Load Program and then select the 
+object code (switch.obj) that has just been produced 
+by the assembler. You will then need to configure 
+the  input  and  output  ports  before  you  run  the 
+program.  You  can  do  this  by  selecting  Tools  and 
+Peripheral Devices (see Fig. 11.16). Configure the 
+peripheral devices so that the input port address is 
+80H and the output port address to 82H. Then set 
+some of the input bits by clicking on the indicators 
+(which will change colour).  

@@ -1,0 +1,10 @@
+High-Level Languages Support
+Early  research  was  done  also  in  the  area  of  support  for  high-level  languages.  Support  can  be  in  the  form  of
+microprogrammed implementations of some language primitive (for example, the trigonometric functions) or
+support  for  the  deﬁnition  and  processing  of  data  structures  (for  example,  trees  and  lists  primitives).  Many
+interesting  research  projects  have  led  to  esoteric  laboratory  machines.  More  common  examples  include  the
+translate instructions, string searches and compares, or indexing multidimensional arrays.
+Paging, Virtual Memory
+An early and typical application of microprogramming is the implementation of the paging algorithm for a
+virtual memory system. It is a typical application since it is a low-level function that must be time optimized
+and is highly hardware dependent. Furthermore, the various maintenance functions which are required by the

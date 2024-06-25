@@ -1,0 +1,7 @@
+where fc is the carrier frequency and Ac the carrier amplitude. Also, the signal’s amplitude is assumed
+|m (t)| < 1. From our previous exposure to amplitude modulation (see the Fourier
+to be less than one:
+Transform example (Example 4.5)), we know that the transmitted signal’s spectrum occupies the frequency
+range [fc − W, fc + W ], assuming the signal’s bandwidth is W Hz (see Figure 6.6). The carrier frequency
+is usually much larger than the signal’s highest frequency: (fc (cid:29) W ), which means that the transmitter
+antenna and carrier frequency are chosen jointly during the design process.

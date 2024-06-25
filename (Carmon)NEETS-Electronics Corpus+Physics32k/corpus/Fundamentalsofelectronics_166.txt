@@ -1,0 +1,8 @@
+To be more speciﬁc, consider the equivalent circuit of Figure 3.16. Let the terminals be open-circuited,
+which has the eﬀect of setting the current i to zero. Because no current ﬂows through the resistor, the voltage
+across it is zero (remember, Ohm’s Law says that v = Ri). Consequently, by applying KVL we have that
+the so-called open-circuit voltage voc equals the Thévenin equivalent voltage. Now consider the situation
+when we set the terminal voltage to zero (short-circuit it) and measure the resulting current. Referring to
+the equivalent circuit, the source voltage now appears entirely across the resistor, leaving the short-circuit
+current to be isc = − veq
+Req

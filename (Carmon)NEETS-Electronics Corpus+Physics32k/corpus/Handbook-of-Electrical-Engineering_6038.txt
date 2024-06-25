@@ -1,0 +1,5 @@
+LFC and the ED functions both operate automatically in real time but with vastly different time periods.
+Both adjust generation levels, but LFC does it every few seconds to follow the load variation, while ED does it
+every  few  minutes  to  assure  minimal  cost.  Conﬂicting  control  action  is  avoided  by  coordinating  the  control
+errors. If the unit control errors from LFC and ED are in the same direction, there is no conﬂict. Otherwise,
+a logic is set to either follow load (permissive control) or follow economics (mandatory control).

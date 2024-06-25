@@ -1,0 +1,7 @@
+The RBF network is also a layered net with the hidden layer built from Gaussian kernels and a linear (or
+nonlinear) output layer (Fig. 20.8). Training of the RBF network is done normally in two stages [Haykin, 1994]:
+ﬁrst, the centers xi are adaptively placed in the input space using competitive learning or  k means clustering
+[Bishop, 1995], which are unsupervised procedures. Competitive learning is explained later in the chapter. The
+variances of each Gaussian are chosen as a percentage (30 to 50%) to the distance to the nearest center. The
+goal is to cover adequately the input data distribution. Once the RBF is located, the second layer weights wi
+are trained using the LMS procedure.

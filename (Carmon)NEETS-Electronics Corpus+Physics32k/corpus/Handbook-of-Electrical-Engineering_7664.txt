@@ -1,0 +1,7 @@
+DRAMs  and  SRAMs  differ  little  in  their  applications.  DRAMs  are  distinguished  from  SRAMs  in  that  no
+bistable electronic circuit internal to the storage cell maintains the information. Instead DRAM information is
+stored “dynamically” as charge on a capacitor. All modern designs feature one ﬁeld-effect transistor (FET) to
+access the information for both reading and writing and a thin ﬁlm capacitor for information storage. SRAMs
+maintain their bistability, so long as power is applied, by a cross-coupled pair of inverters within each storage
+cell. Almost always two additional transistors serve to access the internal nodes for reading and writing. Most
+modern cell designs are CMOS, with two P-channel and four N-channel FETs.

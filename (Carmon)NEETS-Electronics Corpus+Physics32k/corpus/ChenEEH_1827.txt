@@ -1,0 +1,16 @@
+Similar to DiffServ, an MPLS network is divided into
+domains with boundary nodes called label edge routers
+(LER) and interior nodes called label switching routers
+(LSR). Packets entering an MPLS domain are assigned a label
+at the ingress LER and are switched inside the domain by a
+simple label lookup. The labels determine the quality of service
+that the ﬂow receives in the network. The labels are stripped off
+the packets at the egress LER, and the packets might be routed
+in the conventional fashion before they reach their ﬁnal des-
+tination. A sequence of LSRs that is to be followed by a packet
+in an MPLS domain is called label switched path (LSP).
+Again, similar to DiffServ, to guarantee a certain quality of
+service to the packet, both the source and destination have to
+be attached to the same MPLS domain, or if they are attached
+to different domains, then there should be some service agree-
+ment between the two.

@@ -1,0 +1,7 @@
+A  packet-switched  communication  system  exchanges  messages  among  users  by  transmitting  sequences  of
+packets  which  comprise  the  messages.  That  is,  the  sending  terminal  equipment  partitions  a  message  into  a
+sequence  of  packets,  the  packets  are  transmitted  across  the  network,  and  the  receiving  terminal  equipment
+reassembles the packets into messages. The transmission facility interconnecting a given node pair is viewed
+as a single trunk, and the transmission capacity of this trunk is shared among all users whose packets traverse
+both nodes. While the trunk capacity is speciﬁed in bits per second, the packet handling capacity of a node
+pair depends both upon the trunk capacity and the nodal processing power.

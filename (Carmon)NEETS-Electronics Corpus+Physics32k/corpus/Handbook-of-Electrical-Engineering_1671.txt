@@ -1,0 +1,8 @@
+Adaptive Kalman Filters
+The Kalman ﬁlter was derived assuming that the process noise covariance matrix, Qk, as well as all other matrices
+(Φ
+k,  Hk,  Rk)  are  known  exactly  a priori.  In  practice,  however,  these  assumptions  may  be  inappropriate.  To
+mitigate this uncertainty a number of adaptive Kalman ﬁlter algorithms can be used. Most of these algorithms
+consist of a bank of Kalman ﬁlters combined adaptively using Bayes’ rule. This basic structure was invented by
+Magill [1965], and it has now evolved into a more sophisticated algorithm, called interacting multiple models
+invented by Blom [1984]. A recent survey of this topic is given by Bar-Shalom et al. [1995].

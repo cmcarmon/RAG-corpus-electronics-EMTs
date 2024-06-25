@@ -1,0 +1,6 @@
+The ASIC designer’s task is to translate the desired VLSI logic function into a physical design using the basic
+gate cells provided on the noncustomized IC. To avoiding the routing of intercell interconnections around long
+rows of logic cells, some of the “cells” along the row are feedthrough cells, allowing routing of interconnections
+to other logic cell rows. Included in the designer’s toolset are library functions predeﬁning the construction of
+more-complex logic functions (e.g., adders, registers, multipliers, etc.) from the gate cells on the noncustomized
+gate array IC.

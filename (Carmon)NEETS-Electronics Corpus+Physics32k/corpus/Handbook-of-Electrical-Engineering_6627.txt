@@ -1,0 +1,7 @@
+. A cell is a block of ﬁxed length, which consists of a
+5-octet cell header and a 48-octet cell payload (see Fig. 72.1). The cell header contains all necessary information
+for transferring the cell through the network and the cell payload includes the user information. The cell rate
+of  a  connection  is  proportional  to  the  service  bit  rate.  Only  if  information  is  available  is  a  cell  used  by  the
+connection. By having different routing labels, cells of different connections can be transported on the same
+transmission  line  (cell  multiplexing).  If  no  connection  has  information  ready  to  transport,  idle  cells  will  be
+inserted. Idle cells do not belong to any connection; they are identiﬁed by a standardized cell header.

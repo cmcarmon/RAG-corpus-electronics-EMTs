@@ -1,0 +1,9 @@
+In cases where the number of test patterns necessary to achieve exhaustive testing is too large to be applicable,
+a related technique, called pseudo-random testing, may be used. Pseudo-random testing achieves many of the
+beneﬁts  of  exhaustive  testing  but  requires  much  fewer  test  patterns.  This  is  achieved  by  generating  the  test
+patterns in random fashion from among the 2**n possible patterns. However, the random generation of test
+patterns  is  done  using  a  deterministic  algorithm  that  produces  test  patterns  in  repeatable  sequence.  Before
+pseudo-random testing is chosen, it is necessary to examine the pseudo-random test resistance of the circuit.
+For  example,  if  500,000  pseudo-random  test  patterns  are  applied  to  a  20-input  AND  gate,  there  is  only  a
+0.00004% probability that an essential test pattern (which sets all 20 inputs to logic 1) will be included among
+them.

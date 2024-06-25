@@ -1,0 +1,9 @@
+Digital data sources typically use BSRs, while noise generators often use LCAs. A logic diagram for a simple
+BSR is shown in Fig. 78.5. This BSR consists of a clock, six D-type ﬂip-ﬂops (F/F), and an exclusive OR gate
+denoted  by  a  modulo-two  adder.  If  all  the  F/F  are  initialized  to  1,  the  output  of  the  device  is  the  waveform
+shown  in  Fig. 78.6.  Notice  that  the  waveform  is  periodic  with  period  63  =  26  –  1,  but  within  one  cycle  the
+output has many of the properties of a random sequence. This demonstrates all the properties of the BSR, LCA,
+and more advanced PN sequence generators. All PN generators have memory and must therefore be initialized
+by the user before the ﬁrst sample is generated. The initialization data is typically called the seed. One must
+choose this seed carefully to ensure the output will have the desired properties (in this example, one must avoid
+setting all F/F to zero). All PN sequence generators will produce periodic sequences. This may or may not be

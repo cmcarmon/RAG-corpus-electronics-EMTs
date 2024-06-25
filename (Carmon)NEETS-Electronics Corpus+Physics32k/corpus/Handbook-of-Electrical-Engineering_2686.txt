@@ -1,0 +1,7 @@
+Metal layers are used as wires for connections between the components. This is because metal has the lowest
+propagation delay compared to the other layers. However, sometimes a poly layer is also used for short wires
+in order to reduce the complexity of the wire routing. Any wire can cross another wire without getting electrically
+affected as long as they are in different layers. Two different layers can be electrically connected together using
+contacts.
+  The  fabrication  process  of  the  contacts  depends  on  types  of  the  layers  that  are  to  be  connected.
+Therefore, a layout editor supports different types of contacts by using different patterns.

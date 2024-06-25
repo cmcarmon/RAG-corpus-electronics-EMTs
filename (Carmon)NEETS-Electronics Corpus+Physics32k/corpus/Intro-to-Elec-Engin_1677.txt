@@ -1,0 +1,10 @@
+Figure 16.3.1(a) illustrates the basic elements of a typical closed-loop control system with
+sampled data; Figure 16.3.1(b) shows the continuous-data input e(t) to the sampler, whereas
+Figure 16.3.1(c) depicts the discrete-data output e*(t) of the sampler. A continuous input signal
+r(t) is applied to the system. The continuous error signal is sampled by a sampling device, the
+sampler, and the output of the sampler is a sequence of pulses. The pulse train may be periodic
+or aperiodic, with no information transmitted between two consecutive pulses. The sampler in
+the present case is assumed to have a uniform sampling rate, even though the rate may not be
+uniform in some other cases. The magnitudes of the pulses at the sampling instants represent
+the values of the input signal e(t) at the corresponding instants. Sampling schemes, in general,
+may have many variations: periodic, cyclic-rate, multirate, random, and pulse-width modulated

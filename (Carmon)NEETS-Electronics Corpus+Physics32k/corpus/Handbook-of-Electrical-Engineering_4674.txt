@@ -1,0 +1,9 @@
+In SAW devices there are a number of effects which can distort the desired response from the ideal response.
+The  most  signiﬁcant  distortion  in  SAW  transducers  is  called  the  triple  transit  echo  (TTE)  which  causes  a
+delayed signal in time and an inband ripple in the amplitude and delay of the ﬁlter. The TTE is primarily due
+to an electrically regenerated SAW at the output transducer which travels back to the input transducer, where
+it  induces  a  voltage  across  the  electrodes  which  in  turn  regenerates  another  SAW  which  arrives  back  at  the
+output transducer. This is illustrated schematically in Fig. 47.2. Properly designed and matched unidirectional
+transducers have acceptably low levels of TTE due to their design. Bidirectional transducers, however, must
+be  mismatched  in  order  to  achieve  acceptable  TTE  levels.  To  ﬁrst  order,  the  TTE  for  a  bidirectional  two-
+transducer ﬁlter is given as

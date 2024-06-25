@@ -1,0 +1,19 @@
+Netlists and component models 
+ 
+The following is an example of how a netlist for a 
+simple  differential  amplifier  is  constructed  (note 
+that the line numbers have been included  solely for 
+explanatory purposes): 
+ 
+1.  SIMPLE DIFFERENTIAL PAIR 
+2.  VCC  7  0    12 
+3.  VEE  8  0    -12 
+4.  VIN  1  0    AC 1 
+5.  RS1  1  2    1K 
+6.  RS2  6  0    1K 
+7.  Q1   3  2  4  MOD1 
+8.  Q2   5  6  4  MOD1 
+9.  RC1  7  3    10K 
+10.  RC2  7  5    10K 
+11.  RE   4  8    10K 
+12.  MODEL  MOD1  NPN  BF=50  VAF=50 

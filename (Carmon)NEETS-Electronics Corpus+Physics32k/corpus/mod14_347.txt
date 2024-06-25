@@ -1,0 +1,5 @@
+You may see D FF symbols with two additional inputs ¾ CLR (clear) and PR (preset). These inputs
+are used to set the start condition of the FF ¾ CLR sets Q to 0; PR sets Q to 1. Figure 3-17 shows the
+standard symbol with the CLR and PR inputs. Since these inputs are preceded by inverters (part of the
+FF), a LOW-going signal is necessary to activate the FF. These signals (CLR and PR) override any
+existing condition of the output.

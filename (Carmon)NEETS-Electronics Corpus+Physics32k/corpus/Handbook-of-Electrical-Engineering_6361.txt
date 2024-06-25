@@ -1,0 +1,12 @@
+Audio Compression and Source Encoding
+The  development  of  digital  audio  encoding  started  with  research  into  pulse-code  modulation  (PCM)  in  the
+late  1930s  and  evolved,  shortly  thereafter,  to  include  work  on  the  principles  of  digital  PCM  coding.  Linear
+predictive coding (LPC) and adaptive delta pulse-code modulation (ADPCM) algorithms had evolved in the
+early 1970s and later were adopted into standards such as C.721 (published by the CCITT) and CD-I (Compact
+Disc-Interactive). At the same time, algorithms were being invented for use with phoneme-based speech coding.
+Phonetic coding, a ﬁrst-generation “model-based” speech-coding algorithm, was mainly implemented for low
+bit-rate speech and text-to-speech applications. These classes of algorithms for speech further evolved to include
+both CELP (Code Excited Linear Predictive) and VSELP (Vector Selectable Excited Linear Predictive) algorithms
+by the mid-1980s. In the late 1980s, these classes of algorithms were also shown to be useful for high-quality
+audio music coding. These audio algorithms were put to commercial use from the late 1970s to the latter part
+of the 1980s.

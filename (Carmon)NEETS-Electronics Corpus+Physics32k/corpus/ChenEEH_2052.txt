@@ -1,0 +1,23 @@
+Petri nets are a model-oriented formal method and are well
+suited for modeling the dynamic behaviors of concurrent and
+distributed systems. Petri net speciﬁcations reveal system design
+structures and thus provide guidelines for system implementa-
+tion. Furthermore, Petri net speciﬁcations are executable and
+support system simulation and testing in addition to formal
+analysis. It is not easy, however, to directly and explicitly express
+behavioral properties using Petri nets. On the other hand, prop-
+erty-oriented formal methods, such as temporal logic, are ideal
+for specifying and analyzing behavioral properties. It would be
+great to have a hybrid formal method by integrating the
+strengths of model-oriented and property-oriented formal
+methods. In recent years,
+integrating formal methods has
+become a major research area (Clarke and Wing, 1996). There
+have been several published results on integrating Petri nets and
+temporal logic (Anttila et al., 1983; Diaz et al., 1983; He and Lee,
+1990; He, 1992; Mandrioli et al., 1996; Suzuki and Lu, 1989).
+Most of the earlier work was either lacking a systematic approach
+or using a low-level Petri net model. In the following subsec-
+tions, we describe our results on integrating predicate transition
+nets (Genrich and Lautenbach, 1981) and ﬁrst-order linear time
+temporal logic (Manna and Pnueli, 1992).

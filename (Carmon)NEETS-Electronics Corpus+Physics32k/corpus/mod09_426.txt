@@ -1,0 +1,8 @@
+When power is applied to the circuit, R1 provides forward bias and transistor Q1 conducts. Current 
+flow through Q1 and the primary of T1 induces a voltage in L2. The phasing dots on the transformer 
+indicate a 180-degree phase shift. As the bottom side of L1 is going negative, the bottom side of L2 is 
+going positive. The positive voltage of L2 is coupled to the base of the transistor through C1, and Q1 
+conducts more. This provides more collector current and more current through L1. This action is 
+regenerative feedback. Very rapidly, sufficient voltage is applied to saturate the base of Q1. Once the base 
+becomes saturated, it loses control over collector current. The circuit now can be compared to a small 
+resistor (Q1) in series with a relatively large inductor (L1), or a series RL circuit. 

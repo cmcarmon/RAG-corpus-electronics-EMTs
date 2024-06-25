@@ -1,0 +1,12 @@
+and the adjacent pixel to its left. It indeed reduced the redun-
+dancy existing in the image. However, only the redundancy
+between two adjacent pixels was exploited. By looking at
+images like the ones in Figures 4.16(A) through 4.16(B), we
+notice that a pixel has a high correlation with many pixels
+surrounding it. This implies that not only the redundancy
+between adjacent pixels but also the redundancy in an area of
+the image can be exploited. By exploiting this, one expects to
+obtain even higher compression ratios. Transform coding is
+the generic name given to compression methods in which this
+type of redundancy reduction is carried out by means of a
+linear transform (Clarke, 1985).

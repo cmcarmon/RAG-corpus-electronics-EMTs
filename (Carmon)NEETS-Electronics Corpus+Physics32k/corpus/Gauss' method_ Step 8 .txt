@@ -1,0 +1,61 @@
+Find the root of the scalar distance polynomial for the second observation of the orbiting body:
+
+
+
+
+
+
+
+r
+
+2
+
+
+
+
+8
+
+
++
+a
+
+
+
+r
+
+2
+
+
+
+
+6
+
+
++
+b
+
+
+
+r
+
+2
+
+
+
+
+3
+
+
++
+c
+=
+0
+
+
+{\displaystyle {r_{2}}^{8}+a{r_{2}}^{6}+b{r_{2}}^{3}+c=0}
+
+where
+r2 is the scalar distance for the second observation of the orbiting body (it and its vector, r2, are in the Equatorial Coordinate System)
+a,b and c are coefficients as previously stated
+
+Various methods can be used to find the root, a suggested method is the Newton-Raphson method. The root must be physically possible (i.e., not negative nor complex) and if multiple roots are suitable, each must be evaluated and compared to any available data to confirm their validity.

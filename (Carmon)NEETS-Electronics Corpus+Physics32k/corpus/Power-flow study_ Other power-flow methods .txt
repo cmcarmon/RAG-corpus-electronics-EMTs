@@ -1,0 +1,6 @@
+Gauss–Seidel method: This is the earliest devised method. It shows slower rates of convergence compared to other iterative methods, but it uses very little memory and does not need to solve a matrix system.
+Fast-decoupled-load-flow method is a variation on Newton-Raphson that exploits the approximate decoupling of active and reactive flows in well-behaved power networks, and additionally fixes the value of the Jacobian during the iteration in order to avoid costly matrix decompositions. Also referred to as "fixed-slope, decoupled NR". Within the algorithm, the Jacobian matrix gets inverted only once, and there are three assumptions. Firstly, the conductance between the buses is zero. Secondly, the magnitude of the bus voltage is one per unit. Thirdly, the sine of phases between buses is zero. Fast decoupled load flow can return the answer within seconds whereas the Newton Raphson method takes much longer. This is useful for real-time management of power grids.
+Holomorphic embedding load flow method: A recently developed method based on advanced techniques of complex analysis. It is direct and guarantees the calculation of the correct (operative) branch, out of the multiple solutions present in the power flow equations.
+
+
+== References ==

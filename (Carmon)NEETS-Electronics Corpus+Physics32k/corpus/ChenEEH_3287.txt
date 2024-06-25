@@ -1,0 +1,12 @@
+Loads
+Modeling power system loads remains a difﬁcult problem. The
+large number of different devices that could be connected to
+the network at any given time renders precise modeling in-
+tractable. Broadly speaking, loads may vary with voltage and
+frequency. In the steady-state, frequency is constant, so the
+only concern is voltage. For most steady-state analysis, a ﬁxed
+(i.e., constant over an allowable voltage range) power con-
+sumption model can be used. Still, some analysis requires
+consideration of voltage effects to be useful, and then the
+traditional exponential model can be used to represent real
+power consumption P and reactive power consumption Q as:

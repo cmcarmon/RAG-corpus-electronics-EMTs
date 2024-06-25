@@ -1,0 +1,15 @@
+Equations 5.3, 5.5, 5.6, and 5.7 show that all power consump-
+tion components (static, short circuit, and dynamic) linearly
+depend on the supply voltage level, Vdd, except the dynamic
+power component. The dynamic power component is not only
+in quadratic relation with Vdd, but it is also the dominant
+component of the total power dissipation. As such, scaling
+down the supply voltage has a profound effect in reducing
+the total power dissipation of the whole circuit in hand (Chang
+and Pedram, 1997; Wei et al., 2000). Indeed, reducing the
+supply voltage is the key to low-power operation, even after
+taking into account the modiﬁcations to the system architec-
+ture, which is
+required to maintain the computational
+throughput (Chandraksan et al., 1992). Once applied, scaling
+down will result in power saving that has a global effect,

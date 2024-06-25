@@ -1,0 +1,45 @@
+Bennett explores which specific expression for ΔF is the most efficient, in the sense of yielding the smallest standard error for a given simulation time. He shows that the optimal choice is to take
+
+
+
+
+f
+(
+x
+)
+≡
+
+
+1
+
+1
++
+
+e
+
+x
+
+
+
+
+
+
+
+{\displaystyle f(x)\equiv {\frac {1}{1+e^{x}}}}
+, which is essentially the Fermi–Dirac distribution (satisfying indeed the detailed balance condition).
+
+
+
+
+C
+≈
+Δ
+F
+
+
+{\displaystyle C\approx \Delta F}
+. This value, of course, is not known (it is exactly what one is trying to compute), but it can be approximately chosen in a self-consistent manner.
+Some assumptions needed for the efficiency are the following:
+The densities of the two super states (in their common configuration space) should have a large overlap. Otherwise, a chain of super states between A and B may be needed, such that the overlap of each two consecutive super states is adequate.
+The sample size should be large. In particular, as successive states are correlated, the simulation time should be much larger than the correlation time.
+The cost of simulating both ensembles should be approximately equal - and then, in fact, the system is sampled roughly equally in both super states. Otherwise, the optimal expression for C is modified, and the sampling should devote equal times (rather than equal number of time steps) to the two ensembles.

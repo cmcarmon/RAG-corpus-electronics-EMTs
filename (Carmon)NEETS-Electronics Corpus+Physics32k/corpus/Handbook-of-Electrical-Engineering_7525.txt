@@ -1,0 +1,8 @@
+p
+-channel MOSFET Q1 will be turned off and
+When a high logic level is applied to the inverter’s input, the 
+n
+-channel MOSFET Q2 will be turned on. This will cause the output to be shorted to ground through the
+the 
+low resistance path of Q2’s channel. The turned off Q1 has a very high channel resistance and acts nearly like
+an open.

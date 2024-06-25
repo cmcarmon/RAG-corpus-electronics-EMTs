@@ -1,0 +1,8 @@
+Synchronous systems have certain advantages over asynchronous systems. The amount of time taken 
+to transmit stop and start elements is made available for information transmission rather than for 
+synchronizing purposes. Only the intelligence elements are transmitted. In start-stop signaling, the ability 
+of the receiving device to select the proper line signal condition is dependent upon signal quality. For 
+example, suppose the stop-to-start transition arrives before it should; then, because of atmospherics, all 
+subsequent selection positions in that character will appear earlier in time in each code element. A 
+synchronous system has a higher capability for accepting distorted signals because it does not depend on a 
+start-stop system for synchronization. 

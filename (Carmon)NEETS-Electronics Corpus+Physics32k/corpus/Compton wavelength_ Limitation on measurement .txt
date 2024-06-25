@@ -1,0 +1,81 @@
+The Compton wavelength expresses a fundamental limitation on measuring the position of a particle, taking into account quantum mechanics and special relativity.
+This limitation depends on the mass m of the particle. To see how, note that we can measure the position of a particle by bouncing light off it – but measuring the position accurately requires light of short wavelength. Light with a short wavelength consists of photons of high energy. If the energy of these photons exceeds mc2, when one hits the particle whose position is being measured the collision may yield enough energy to create a new particle of the same type. This renders moot the question of the original particle's location.
+This argument also shows that the reduced Compton wavelength is the cutoff below which quantum field theory – which can describe particle creation and annihilation – becomes important. The above argument can be made a bit more precise as follows. Suppose we wish to measure the position of a particle to within an accuracy Δx. Then the uncertainty relation for position and momentum says that
+
+
+
+
+Δ
+x
+
+Δ
+p
+≥
+
+
+ℏ
+2
+
+
+,
+
+
+{\displaystyle \Delta x\,\Delta p\geq {\frac {\hbar }{2}},}
+
+so the uncertainty in the particle's momentum satisfies
+
+
+
+
+Δ
+p
+≥
+
+
+ℏ
+
+2
+Δ
+x
+
+
+
+.
+
+
+{\displaystyle \Delta p\geq {\frac {\hbar }{2\Delta x}}.}
+
+Using the relativistic relation between momentum and energy E2 = (pc)2 + (mc2)2, when Δp exceeds mc then the uncertainty in energy is greater than mc2, which is enough energy to create another particle of the same type. But we must exclude this. In particular the minimum uncertainty is when the scattered photon has limit energy equal to the incident observing energy. It follows that there is a fundamental minimum for Δx:
+
+
+
+
+Δ
+x
+≥
+
+
+1
+2
+
+
+
+(
+
+
+ℏ
+
+m
+c
+
+
+
+)
+
+.
+
+
+{\displaystyle \Delta x\geq {\frac {1}{2}}\left({\frac {\hbar }{mc}}\right).}
+
+Thus the uncertainty in position must be greater than half of the reduced Compton wavelength ħ/mc.
+The Compton wavelength can be contrasted with the de Broglie wavelength, which depends on the momentum of a particle and determines the cutoff between particle and wave behavior in quantum mechanics.

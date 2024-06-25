@@ -1,0 +1,11 @@
+In another application, it may be desirable to 
+pass the AC signal while blocking the DC voltage. 
+This type of circuit is called a coupling network 
+( Figure  24-7). An RC high-pass filter can be used. 
+Initially the capacitor charges to the DC voltage level. 
+Once the capacitor is charged, no more DC current  
+can flow in the circuit. The AC source causes the 
+ capacitor to charge and discharge at the AC rate,  creating 
+current flow through the resistor. The  component 
+ values are chosen so that the AC signal is passed with a 
+ minimum of attenuation.

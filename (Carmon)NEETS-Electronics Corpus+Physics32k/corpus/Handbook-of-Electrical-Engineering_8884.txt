@@ -1,0 +1,4 @@
+each bank). The controller holds the request if the bank is busy, submitting it later when the bank is available
+to accept the request. When the bank responds to a read request, the switch is set by the controller to accept
+the request from the bank and forward it to the processing unit. Details of the timing of accesses can be found
+in The Architecture of Pipelined Computers [Kogge, 1981].

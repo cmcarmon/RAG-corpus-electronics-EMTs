@@ -1,0 +1,13 @@
+As computer power grows, map-matching navigation is becoming more important. On aircraft, mapping radars
+and optical sensors present a visual image of the terrain to the crew. Automatic map-matchers have been built,
+since the 1960s, that correlate the observed image to stored images, choosing the closest match to update the
+dead-reckoned  state  vector.  More  commonly,  aircraft  and  cruise  missiles  measure  the  vertical  proﬁle  of  the
+terrain below the vehicle and match it to a stored proﬁle. Matching proﬁles, perhaps hourly, reduces the long-
+term drift of their inertial navigators. The proﬁle of the terrain is measured by subtracting the readings of a
+baro-inertial altimeter (calibrated for altitude above sea level) and a radar altimeter (measuring terrain clear-
+ance). An on-board computer calculates the autocorrelation function between the measured proﬁle and each
+of many stored proﬁles on possible parallel paths of the vehicle. The on-board inertial navigator usually contains
+a  digital  ﬁlter  that  corrects  the  drift  of  the  azimuth  gyroscope  as  a  sequence  of  ﬁxes  is  obtained.  Hence  the
+direction of ﬂight through the stored map is known, saving the considerable computation time that would be
+needed  to  correlate  for  an  unknown  azimuth  of  the  ﬂight  path.  Marine  versions  proﬁle  the  seaﬂoor  with  a
+sonar and compare the measured proﬁle to stored bottom maps.

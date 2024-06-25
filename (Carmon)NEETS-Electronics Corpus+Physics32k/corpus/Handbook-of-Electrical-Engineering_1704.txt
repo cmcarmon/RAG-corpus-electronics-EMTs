@@ -1,0 +1,9 @@
+The  quantization  process  is  necessary  because  all  information  to  be  processed  using  computers  must  be
+represented  by  numbers.  The  quantization  process  can  be  thought  of  as  one  where  the  input  energy  to  the
+transducer is represented by a ﬁnite number of energy values. If the energy at a particular pixel location does
+not  take  on  one  of  the  ﬁnite  energy  values,  it  is  assigned  to  the  closest  value.  For  instance,  suppose  that  we
+ that only energy values of 10, 20, 50, and 110 will be represented (the units are of no concern
+assume 
+in this example). Suppose at one pixel an energy of 23.5 was observed by the transducer. The A/D converter
+would then assign this pixel the energy value of 20 (the closest one). Notice that the quantization process makes
+mistakes; this error in assignment is known as 

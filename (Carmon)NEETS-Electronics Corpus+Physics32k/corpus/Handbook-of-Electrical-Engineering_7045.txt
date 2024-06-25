@@ -1,0 +1,6 @@
+The Huffman Algorithm
+ø (called the Shannon code lengths) is close to optimal, but not
+The choice of code word lengths li = Ølog 1/pi
+necessarily optimal, in terms of average code word length. We will now describe an algorithm (the Huffman
+algorithm) that produces an instantaneous code of minimal average length for a random variable with distri-
+bution p1, p2, . . ., pm . The algorithm is a greedy algorithm for building a tree from the bottom up.

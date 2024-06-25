@@ -1,0 +1,16 @@
+bounds on end-to-end packet delay/jitter to be of acceptable/
+decipherable quality. Applications that use this media type are
+called real-time intolerant (RTI) applications. In most RTI
+applications,
+the end-to-end delay must be limited to
+ 200 msec to get an acceptable performance. Other applica-
+tions like Internet Webcast, which involves one-way communi-
+cation, have relatively low interactivity. Interactivity, in this
+case, is limited to commands that allow the user to change
+radio channels, for example, which can tolerate higher re-
+sponse times. Consequently,
+the Webcast requires weaker
+bounds on delay/jitter, and the applications that use such
+kind of media are termed as real-time tolerant (RTT) appli-
+cations. Streaming audio is also used to refer to this media
+type.

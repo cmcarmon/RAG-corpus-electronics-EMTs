@@ -1,0 +1,7 @@
+The speciﬁc steps used to design a PLL depend on the intended application. Typically the architecture of the
+loop  will  be  determined  by  the  output  frequency  agility  required  (frequency  synthesizer)  and  the  reference
+sources available. Other requirements such as size and cost play important factors, as well as available standard
+components. Once the topology has been determined, then the desired loop transfer function must be synthe-
+sized.  This  may  be  dictated  by  noise  requirements  as  discussed  above  or  other  factors  such  as  loop  lock-up
+time or input signal tracking ability. The design Eqs. (76.11) through (76.15) may then be used to determine
+the component values required in the loop ﬁlter.

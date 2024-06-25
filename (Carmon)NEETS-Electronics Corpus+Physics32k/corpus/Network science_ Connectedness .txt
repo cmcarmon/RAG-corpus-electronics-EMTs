@@ -1,0 +1,5 @@
+The way in which a network is connected plays a large part into how networks are analyzed and interpreted. Networks are classified in four different categories:
+Clique/Complete Graph: a completely connected network, where all nodes are connected to every other node. These networks are symmetric in that all nodes have in-links and out-links from all others.
+Giant Component: A single connected component which contains most of the nodes in the network.
+Weakly Connected Component: A collection of nodes in which there exists a path from any node to any other, ignoring directionality of the edges.
+Strongly Connected Component: A collection of nodes in which there exists a directed path from any node to any other.

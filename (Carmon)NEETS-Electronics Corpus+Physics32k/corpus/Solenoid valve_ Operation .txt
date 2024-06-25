@@ -1,0 +1,38 @@
+There are many valve design variations. Ordinary valves can have many ports and fluid paths. A 2-way valve, for example, has 2 ports; if the valve is open, then the two ports are connected and fluid may flow between the ports; if the valve is closed, then ports are isolated. If the valve is open when the solenoid is not energized, then the valve is termed normally open (N.O.). Similarly, if the valve is closed when the solenoid is not energized, then the valve is termed normally closed. There are also 3-way and more complicated designs. A 3-way valve has 3 ports; it connects one port to either of the two other ports (typically a supply port and an exhaust port).
+Solenoid valves are also characterized by how they operate. A small solenoid can generate a limited force. If that force is sufficient to open and close the valve, then a direct acting solenoid valve is possible. An approximate relationship between the required solenoid force Fs, the fluid pressure P, and the orifice area A for a direct acting solenoid value is:
+
+
+
+
+
+F
+
+s
+
+
+=
+P
+A
+=
+P
+π
+
+d
+
+2
+
+
+
+/
+
+4
+
+
+{\displaystyle F_{s}=PA=P\pi d^{2}/4}
+
+Where d is the orifice diameter. A typical solenoid force might be 15 N (3.4 lbf). An application might be a low pressure (e.g., 10 psi (69 kPa)) gas with a small orifice diameter (e.g., 3⁄8 in (9.5 mm) for an orifice area of 0.11 in2 (7.1×10−5 m2) and approximate force of 1.1 lbf (4.9 N)).
+
+When high pressures and large orifices are encountered, then high forces are required. To generate those forces, an internally piloted solenoid valve design may be possible. In such a design, the line pressure is used to generate the high valve forces; a small solenoid controls how the line pressure is used. Internally piloted valves are used in dishwashers and irrigation systems where the fluid is water, the pressure might be 80 psi (550 kPa) and the orifice diameter might be 3⁄4 in (19 mm).
+In some solenoid valves the solenoid acts directly on the main valve. Others use a small, complete solenoid valve, known as a pilot, to actuate a larger valve. While the second type is actually a solenoid valve combined with a pneumatically actuated valve, they are sold and packaged as a single unit referred to as a solenoid valve. Piloted valves require much less power to control, but they are noticeably slower. Piloted solenoids usually need full power at all times to open and stay open, where a direct acting solenoid may only need full power for a short period of time to open it, and only low power to hold it.
+A direct acting solenoid valve typically operates in 5 to 10 milliseconds. The operation time of a piloted valve depends on its size; typical values are 15 to 150 milliseconds.
+Power consumption and supply requirements of the solenoid vary with application, being primarily determined by fluid pressure and line diameter. For example, a popular 3/4" 150 psi sprinkler valve, intended for 24 VAC (50 - 60 Hz) residential systems, has a momentary inrush of 7.2 VA, and a holding power requirement of 4.6 VA. Comparatively, an industrial 1/2" 10000 psi valve, intended for 12, 24, or 120 VAC systems in high pressure fluid and cryogenic applications, has an inrush of 300 VA and a holding power of 22 VA. Neither valve lists a minimum pressure required to remain closed in the un-powered state.

@@ -1,0 +1,6 @@
+device simply holds the value of the signal until the next sample comes along. Two samplers with
+two different sampling periods (T1 and T2) are shown in Figure 16.3.4(b), which is known as a
+multirate sampled-data system. If the rate of variation of the signal in one loop is relatively much
+less than that of the other loop, the sampling period of the sampler employed in the slower loop
+can be larger. With sampling and multirate sampling, some of the expensive components of the
+system can be utilized on a time-sharing basis.

@@ -1,0 +1,8 @@
+Sail loading (areal density) is an important parameter, which is the total mass divided by the sail area, expressed in g/m2. It is represented by the Greek letter σ.
+A sail craft has a characteristic acceleration, ac, which it would experience at 1 AU when facing the Sun. Using the value from above of 9.08 μN per square metre of radiation pressure at 1 AU, ac is related to areal density by:
+ac = 9.08(efficiency) / σ mm/s2
+Assuming 90% efficiency, ac = 8.17 / σ mm/s2
+The lightness number, λ, is the dimensionless ratio of maximum vehicle acceleration divided by the Sun's local gravity. Using the values at 1 AU:
+λ = ac / 5.93
+The lightness number is also independent of distance from the Sun because both gravity and light pressure fall off as the inverse square of the distance from the Sun. Therefore, this number defines the types of orbit maneuvers that are possible for a given vessel.
+The table presents some example values. Payloads are not included. The first two are from the detailed design effort at JPL in the 1970s. The third, the lattice sailer, might represent about the best possible performance level. The dimensions for square and lattice sails are edges. The dimension for heliogyro is blade tip to blade tip.

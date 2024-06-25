@@ -1,0 +1,261 @@
+The Cohesion number is a dimensionless number which shows the ratio of the work required for detaching two arbitrary solid particles (work of cohesion) to their gravitational potential energy as expressed below,
+
+
+
+
+
+Cohesion number
+
+=
+
+
+work of cohesion
+gravitational potential energy
+
+
+
+
+{\displaystyle {\text{Cohesion number}}={\frac {\text{work of cohesion}}{\text{gravitational potential energy}}}}
+
+For example, in the JKR contact model  the work of cohesion is
+
+
+
+7.09
+
+
+(
+
+
+
+
+Γ
+
+5
+
+
+
+
+
+R
+
+∗
+
+
+
+
+4
+
+
+
+
+
+
+E
+
+∗
+
+
+
+
+2
+
+
+
+
+)
+
+
+
+1
+3
+
+
+
+
+
+{\textstyle 7.09\left({\frac {\Gamma ^{5}{R^{*}}^{4}}{{E^{*}}^{2}}}\right)^{\frac {1}{3}}}
+by which the Cohesion number is derived as follows:
+
+Mass can be shown in the form of density and volume and the constant number can be eliminated,
+
+The final version of the Cohesion number is as following:
+
+
+
+
+ρ
+
+
+{\textstyle \rho }
+is the particle density
+
+
+
+
+g
+
+
+{\textstyle g}
+is the gravity
+
+
+
+
+Γ
+
+
+{\textstyle \Gamma }
+is the interfacial energy
+
+
+
+
+
+E
+
+∗
+
+
+
+
+{\textstyle E^{*}}
+is the equivalent Young’s modulus:
+
+
+
+
+E
+
+∗
+
+
+=
+(
+
+
+
+1
+−
+
+ν
+
+1
+
+
+2
+
+
+
+
+E
+
+1
+
+
+
+
++
+
+
+
+1
+−
+
+ν
+
+2
+
+
+2
+
+
+
+
+E
+
+2
+
+
+
+
+
+)
+
+−
+1
+
+
+
+
+{\textstyle E^{*}=({\frac {1-\nu _{1}^{2}}{E_{1}}}+{\frac {1-\nu _{2}^{2}}{E_{2}}})^{-1}}
+
+
+
+
+
+ν
+
+
+{\textstyle \nu }
+is the material Poisson's ratio
+
+
+
+
+
+R
+
+∗
+
+
+
+
+{\textstyle R^{*}}
+shows the equivalent radius:
+
+
+
+
+R
+
+∗
+
+
+=
+(
+
+
+1
+
+R
+
+1
+
+
+
+
++
+
+
+1
+
+R
+
+2
+
+
+
+
+
+)
+
+−
+1
+
+
+
+
+{\textstyle R^{*}=({\frac {1}{R_{1}}}+{\frac {1}{R_{2}}})^{-1}}
+
+This number is dependent on the particles surface energy, particles size, particle density, gravity, and the Young’s modulus. It well justifies that the materials having lower stiffness become “stickier” if adhesive and it is a useful scaling method for the DEM simulations at which Young’s modulus is selected smaller than the real value in order to increase the computational speed. Recently, a rigorous analysis of the contact stiffness reduction for the adhesive contacts to speed up the DEM calculations shows the same fractional form.

@@ -1,0 +1,4 @@
+instead of the instruction sequence that actually searches the list for the record. If this operation is needed more
+than  once,  then  the  obvious  advantage  is  saving  the  replication  of  instructions.  Much  more  important  is  a
+second advantage: When we study the text of a program that uses ﬁndRecord, we most likely wish to understand
+how this program processes and updates records or uses the information they contain. As this in itself may be

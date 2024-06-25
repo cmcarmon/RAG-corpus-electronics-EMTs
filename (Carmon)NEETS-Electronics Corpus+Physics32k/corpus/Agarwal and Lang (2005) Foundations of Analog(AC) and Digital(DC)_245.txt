@@ -1,0 +1,11 @@
+A simple electrical network made from a voltage source and four resistors is
+shown in Figure 2.1. This might be an abstract representation of some real
+electrical network, or a model of some other physical system, for example, a
+heat flow problem in a house. We wish to develop systematic general methods
+for analyzing circuits such as this, so that circuits of arbitrary complexity can
+be solved with dispatch. Solving or analyzing a circuit generally involves finding
+the voltage across, and current through, each of the circuit elements. Systematic
+general methods will also enable us to automate the solution techniques so that
+computers can be used to analyze circuits. Later on in this chapter and in the
+next, we will show how our problem formulation facilitates direct computer
+analysis.

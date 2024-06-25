@@ -1,0 +1,6 @@
+which results are printed, plotted, or reported to PROBE, TMAX is the maximum time increment
+between computed values, and UIC is a keyword that causes PSpice to use initial conditions
+speciﬁed for inductors and capacitors in the element statements. In case of omission, TSTART
+defaults to zero and TMAX to (TSTOP − TSTART)/50. If UIC is omitted, PSpice computes
+initial conditions by assuming that the circuit is dc steady state prior to t = 0. Let us present an
+illustrative example.

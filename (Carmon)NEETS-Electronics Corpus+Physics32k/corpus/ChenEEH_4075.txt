@@ -1,0 +1,12 @@
+We observe that by using ﬂattop samples to generate a PAM
+signal, we introduce amplitude distortion as well as a delay of
+T =2. This effect is similar to the variation in transmission
+frequency that is caused by the ﬁnite size of the scanning
+aperture in television. The distortion caused by the use of
+PAM to transmit an analog signal is called the aperture affect.
+This distortion may be corrected by using an equalizer
+(see Figure 2.10). The equalizer has the effect of decreasing
+the in-band loss of the ﬁlter as the frequency increases in such a
+manner to compensate for the aperture effect. For T =Ts  0:1,
+the amplitude distortion is less than 0.5%, in which case the
+need of equalization may be omitted altogether.

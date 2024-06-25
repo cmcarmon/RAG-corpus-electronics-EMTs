@@ -1,0 +1,5 @@
+The Roving Monitoring Processor implements a scheme
+based on stored reference signatures. The CFG is stored in a
+linked list format in the local memory of the WD. Receiving a
+signature, the WD examines whether it belongs to a node that
+can be reached from the previous one.

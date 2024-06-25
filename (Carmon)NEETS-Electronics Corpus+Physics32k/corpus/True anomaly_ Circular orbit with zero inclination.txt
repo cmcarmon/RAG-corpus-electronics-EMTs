@@ -1,0 +1,37 @@
+For circular orbits with zero inclination the argument of latitude is also undefined, because there is no uniquely determined line of nodes. One uses the true longitude instead:
+
+
+
+
+l
+=
+arccos
+⁡
+
+
+
+r
+
+x
+
+
+
+
+
+|
+r
+|
+
+
+
+
+
+
+
+{\displaystyle l=\arccos {r_{x} \over {\mathbf {\left|r\right|} }}}
+
+(if vx > 0 then replace l by 2π − l)
+
+where:
+rx is the x-component of the orbital position vector r
+vx is the x-component of the orbital velocity vector v.

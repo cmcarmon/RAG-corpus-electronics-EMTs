@@ -1,0 +1,17 @@
+When v and u remain unchanged, we have ASK. When A(t)
+and u remain unchanged, we have binary (or M-ary) FSK.
+When A(t) and v remain unchanged, we have binary (or
+M-ary) PSK (these methods are covered in more detail in
+Section 2.6). Hybrid systems exist where two characteristics
+are changed with each new symbol transmitted. The most
+common method is to ﬁx v and change A(t) and u. This
+method is known as quadrature amplitude modulation
+(QAM). Each of the modulation methods results in a different
+transmitter and receiver design, different occupied bandwidth,
+and different error rates. In the remainder of this section, we
+examine the methods used for GSM and DECT and calculate
+their error rates. Since all signals have a theoretical bandwidth
+that is inﬁnite, all modulation methods must be band-limited.
+The band-limiting introduces detection errors, and the ﬁlter
+bandwidths must be chosen to optimize trade-offs between
+bandwidth and error rates.

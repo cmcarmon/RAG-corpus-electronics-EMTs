@@ -1,0 +1,9 @@
+Whether the transistor is on (conducting) or off (nonconducting) depends 
+on what’s happening at the base (left terminal) of the transistor. The base 
+voltage is controlled by a voltage divider (see Chapter 6 for details), which 
+consists of the potentiometer (R1) and the photoresistor. To turn Q1 on, the 
+voltage at its base must go low (see Chapter 11 for details of PNP transistor 
+operation). With little or no light present, the resistance of the photoresistor 
+is very high, so the voltage at the base of transistor Q1 is high and Q1 is off. 
+When light hits the photoresistor, its resistance decreases, the voltage at the 
+base of Q1 goes low, and the transistor is on.

@@ -1,0 +1,73 @@
+Surface tension can be defined in terms of force or energy.
+In terms of force: surface tension γ of a liquid is the force per unit length. In the illustration on the right, the rectangular frame, composed of three unmovable sides (black) that form a "U" shape, and a fourth movable side (blue) that can slide to the right. Surface tension will pull the blue bar to the left; the force F required to hold the immobile side is proportional to the length L of the movable side. Thus the ratio F/L depends only on the intrinsic properties of the liquid (composition, temperature, etc.), not on its geometry. For example, if the frame had a more complicated shape, the ratio F/L, with L the length of the movable side and F the force required to stop it from sliding, is found to be the same for all shapes. We therefore define the surface tension as
+
+
+
+
+γ
+=
+
+
+1
+2
+
+
+
+
+F
+L
+
+
+.
+
+
+{\displaystyle \gamma ={\frac {1}{2}}{\frac {F}{L}}.}
+
+The reason for the 1/2 is that the film has two sides, each of which contributes equally to the force; so the force contributed by a single side is γL = F/2.
+In terms of energy: surface tension γ of a liquid is the ratio of the change in the energy of the liquid, and the change in the surface area of the liquid (that led to the change in energy). This can be easily related to the previous definition in terms of force: if F is the force required to stop the side from starting to slide, then this is also the force that would keep the side in the state of sliding at a constant speed (by Newton's Second Law). But if the side is moving to the right (in the direction the force is applied), then the surface area of the stretched liquid is increasing while the applied force is doing work on the liquid. This means that increasing the surface area increases the energy of the film. The work done by the force F in moving the side by distance Δx is W = FΔx; at the same time the total area of the film increases by ΔA = 2LΔx (the factor of 2 is here because the liquid has two sides, two surfaces). Thus, multiplying both the numerator and the denominator of γ = 1/2F/L by Δx, we get
+
+
+
+
+γ
+=
+
+
+F
+
+2
+L
+
+
+
+=
+
+
+
+F
+Δ
+x
+
+
+2
+L
+Δ
+x
+
+
+
+=
+
+
+W
+
+Δ
+A
+
+
+
+
+
+{\displaystyle \gamma ={\frac {F}{2L}}={\frac {F\Delta x}{2L\Delta x}}={\frac {W}{\Delta A}}}
+.
+This work W is, by the usual arguments, interpreted as being stored as potential energy. Consequently, surface tension can be also measured in SI system as joules per square meter and in the cgs system as ergs per cm2. Since mechanical systems try to find a state of minimum potential energy, a free droplet of liquid naturally assumes a spherical shape, which has the minimum surface area for a given volume. The equivalence of measurement of energy per unit area to force per unit length can be proven by dimensional analysis.

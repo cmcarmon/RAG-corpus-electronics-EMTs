@@ -1,0 +1,10 @@
+which exposes 24 of the 128. A program can ask the machine to raise or lower the blind by 16 registers. That
+leaves an overlap of eight between successive yanks or rewinds. This arrangement is called a multiple overlapping
+register set (MORS). If you think of starting with register r8 at the bottom and r31 at the top, a yank of 16 on
+the blind will now have r49 at the top and r24 at the bottom. r24 to r31 are shared between the old set and
+the new. To avoid having to keep track of which registers are showing, the set of 24 are divided into what came
+in from the last set, those that are only local, and those that will go out to the next set. These names apply to
+going toward increasing numbers. In going the other direction, the ins of the current set will become the outs
+of the next set. Almost all other machines keep their registers screwed down to the local masonry, but you will
+see in a moment how useful a MORS can be. (Like other useful but expensive accessories, the debate is always
+on whether it is worth it [Patterson and Hennessy, 1989].)

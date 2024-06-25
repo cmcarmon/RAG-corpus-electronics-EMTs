@@ -1,0 +1,8 @@
+This example represents a preliminary test of the control
+system to demonstrate that the actuator can be commanded
+to move the ﬁrst ﬂoor of the structure to a speciﬁc location.
+Under the hypothesis that the VFS control designs work
+to make small errors smaller, a command request r ¼ xx1 ¼
+0:004 m was speciﬁed, and a constant offset of y0 ¼ 0:001 m,
+representing a biased position sensor, was added to the meas-
+ured output of the plant. Regulation about a nonzero set point

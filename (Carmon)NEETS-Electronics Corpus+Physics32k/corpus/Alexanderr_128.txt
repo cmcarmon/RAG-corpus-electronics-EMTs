@@ -1,0 +1,10 @@
+In  Fig.  3.7,  nodes  2  and  3  form  a  supernode.  (We  could  have  more
+than two nodes forming a single supernode. For example, see the cir-
+cuit  in  Fig.  3.14.)  We  analyze  a  circuit  with  supernodes  using  the
+same  three  steps  mentioned  in  the  previous  section  except  that  the
+supernodes  are  treated  differently. Why?  Because  an  essential  com-
+ponent  of  nodal  analysis  is  applying  KCL,  which  requires  knowing
+the  current  through  each  element.  There  is  no  way  of  knowing  the
+current  through  a  voltage  source  in  advance.  However,  KCL must
+be satisﬁed at a supernode like any other node. Hence, at the super-
+node  in  Fig.  3.7,

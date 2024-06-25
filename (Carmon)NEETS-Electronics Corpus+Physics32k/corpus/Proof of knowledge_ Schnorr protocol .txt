@@ -1,0 +1,125 @@
+One of the simplest and frequently used proofs of knowledge, the proof of knowledge of a discrete logarithm, is due to Schnorr. The protocol is defined for a cyclic group
+
+
+
+
+G
+
+q
+
+
+
+
+{\displaystyle G_{q}}
+of order
+
+
+
+q
+
+
+{\displaystyle q}
+with generator
+
+
+
+g
+
+
+{\displaystyle g}
+.
+In order to prove knowledge of
+
+
+
+x
+=
+
+log
+
+g
+
+
+⁡
+y
+
+
+{\displaystyle x=\log _{g}y}
+, the prover interacts with the verifier as follows:
+In the first round the prover commits himself to randomness
+
+
+
+r
+
+
+{\displaystyle r}
+; therefore the first message
+
+
+
+t
+=
+
+g
+
+r
+
+
+
+
+{\displaystyle t=g^{r}}
+is also called commitment.
+The verifier replies with a challenge
+
+
+
+c
+
+
+{\displaystyle c}
+chosen at random.
+After receiving
+
+
+
+c
+
+
+{\displaystyle c}
+, the prover sends the third and last message (the response)
+
+
+
+s
+=
+r
++
+c
+x
+
+
+{\displaystyle s=r+cx}
+.
+The verifier accepts, if
+
+
+
+
+g
+
+s
+
+
+=
+t
+
+y
+
+c
+
+
+
+
+{\displaystyle g^{s}=ty^{c}}
+.

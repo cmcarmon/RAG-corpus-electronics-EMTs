@@ -1,0 +1,205 @@
+The onset of natural convection is determined by the Rayleigh number (Ra). This dimensionless number is given by
+
+
+
+
+
+
+Ra
+
+
+=
+
+
+
+Δ
+ρ
+g
+
+L
+
+3
+
+
+
+
+D
+μ
+
+
+
+
+
+{\displaystyle {\textbf {Ra}}={\frac {\Delta \rho gL^{3}}{D\mu }}}
+
+where
+
+
+
+
+Δ
+ρ
+
+
+{\displaystyle \Delta \rho }
+is the difference in density between the two parcels of material that are mixing
+
+
+
+
+g
+
+
+{\displaystyle g}
+is the local gravitational acceleration
+
+
+
+
+L
+
+
+{\displaystyle L}
+is the characteristic length-scale of convection: the depth of the boiling pot, for example
+
+
+
+
+D
+
+
+{\displaystyle D}
+is the diffusivity of the characteristic that is causing the convection, and
+
+
+
+
+μ
+
+
+{\displaystyle \mu }
+is the dynamic viscosity.
+Natural convection will be more likely and/or more rapid with a greater variation in density between the two fluids, a larger acceleration due to gravity that drives the convection, and/or a larger distance through the convecting medium. Convection will be less likely and/or less rapid with more rapid diffusion (thereby diffusing away the gradient that is causing the convection) and/or a more viscous (sticky) fluid.
+For thermal convection due to heating from below, as described in the boiling pot above, the equation is modified for thermal expansion and thermal diffusivity. Density variations due to thermal expansion are given by:
+
+
+
+
+Δ
+ρ
+=
+
+ρ
+
+0
+
+
+β
+Δ
+T
+
+
+{\displaystyle \Delta \rho =\rho _{0}\beta \Delta T}
+
+where
+
+
+
+
+
+ρ
+
+0
+
+
+
+
+{\displaystyle \rho _{0}}
+is the reference density, typically picked to be the average density of the medium,
+
+
+
+
+β
+
+
+{\displaystyle \beta }
+is the coefficient of thermal expansion, and
+
+
+
+
+Δ
+T
+
+
+{\displaystyle \Delta T}
+is the temperature difference across the medium.
+The general diffusivity,
+
+
+
+D
+
+
+{\displaystyle D}
+, is redefined as a thermal diffusivity,
+
+
+
+α
+
+
+{\displaystyle \alpha }
+.
+
+
+
+
+D
+=
+α
+
+
+{\displaystyle D=\alpha }
+
+Inserting these substitutions produces a Rayleigh number that can be used to predict thermal convection.
+
+
+
+
+
+
+Ra
+
+
+=
+
+
+
+
+ρ
+
+0
+
+
+g
+β
+Δ
+T
+
+L
+
+3
+
+
+
+
+α
+μ
+
+
+
+
+
+{\displaystyle {\textbf {Ra}}={\frac {\rho _{0}g\beta \Delta TL^{3}}{\alpha \mu }}}

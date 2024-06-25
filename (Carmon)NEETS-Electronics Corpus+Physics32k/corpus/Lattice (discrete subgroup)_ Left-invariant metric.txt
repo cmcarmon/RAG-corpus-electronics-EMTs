@@ -1,0 +1,264 @@
+If
+
+
+
+G
+
+
+{\displaystyle G}
+is a Lie group then from an inner product
+
+
+
+
+g
+
+e
+
+
+
+
+{\displaystyle g_{e}}
+on the tangent space
+
+
+
+
+
+g
+
+
+
+
+{\displaystyle {\mathfrak {g}}}
+(the Lie algebra of
+
+
+
+G
+
+
+{\displaystyle G}
+) one can construct a Riemannian metric on
+
+
+
+G
+
+
+{\displaystyle G}
+as follows: if
+
+
+
+v
+,
+w
+
+
+{\displaystyle v,w}
+belong to the tangent space at a point
+
+
+
+γ
+∈
+G
+
+
+{\displaystyle \gamma \in G}
+put
+
+
+
+
+g
+
+γ
+
+
+(
+v
+,
+w
+)
+=
+
+g
+
+e
+
+
+(
+
+γ
+
+∗
+
+
+v
+,
+
+γ
+
+∗
+
+
+w
+)
+
+
+{\displaystyle g_{\gamma }(v,w)=g_{e}(\gamma ^{*}v,\gamma ^{*}w)}
+where
+
+
+
+
+γ
+
+∗
+
+
+
+
+{\displaystyle \gamma ^{*}}
+indicates the tangent map (at
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+) of the diffeomorphism
+
+
+
+x
+↦
+
+γ
+
+−
+1
+
+
+x
+
+
+{\displaystyle x\mapsto \gamma ^{-1}x}
+of
+
+
+
+G
+
+
+{\displaystyle G}
+.
+The maps
+
+
+
+x
+↦
+γ
+x
+
+
+{\displaystyle x\mapsto \gamma x}
+for
+
+
+
+γ
+∈
+G
+
+
+{\displaystyle \gamma \in G}
+are by definition isometries for this metric
+
+
+
+g
+
+
+{\displaystyle g}
+. In particular, if
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+is any discrete subgroup in
+
+
+
+G
+
+
+{\displaystyle G}
+(so that it acts freely and properly discontinuously by left-translations on
+
+
+
+G
+
+
+{\displaystyle G}
+) the quotient
+
+
+
+Γ
+∖
+G
+
+
+{\displaystyle \Gamma \backslash G}
+is a Riemannian manifold locally isometric to
+
+
+
+G
+
+
+{\displaystyle G}
+with the metric
+
+
+
+g
+
+
+{\displaystyle g}
+.
+The Riemannian volume form associated to
+
+
+
+g
+
+
+{\displaystyle g}
+defines a Haar measure on
+
+
+
+G
+
+
+{\displaystyle G}
+and we see that the quotient manifold is of finite Riemannian volume if and only if
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+is a lattice.
+Interesting examples in this class of Riemannian spaces include compact flat manifolds and nilmanifolds.

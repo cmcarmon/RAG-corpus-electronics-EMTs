@@ -1,0 +1,8 @@
+A typical frequency synthesizer consists of a bank of oscillators producing different fixed
+frequencies. The outputs of a relatively few fixed oscillators can be mixed in various combinations to
+produce a wide range of frequencies. In mti systems the selected oscillator frequencies are mixed with a
+coherent oscillator frequency to provide a stable reference for the mti circuits. The frequency synthesizer
+also produces the local oscillator signals for the receiver system. Because the transmitted pulse changes
+frequency on each transmission, the local oscillator signal to the receiver must also change and be
+included in the transmitted frequency. A system of this type is frequency-programmed by select gates
+from the synchronizer.

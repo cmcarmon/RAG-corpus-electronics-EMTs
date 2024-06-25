@@ -1,0 +1,7 @@
+Circuit Realizations
+Various electronic circuits can be found to implement any given transfer function. Cascade ﬁlters and ladder
+ﬁlters are two of the basic approaches for obtaining a practical circuit. Cascade realizations are much easier to
+ﬁnd and to tune, but ladder ﬁlters are less sensitive to element variations. In cascade realizations, the transfer
+function is simply factored into ﬁrst- and second-order parts. Circuits are built for the individual parts and
+then cascaded to produce the overall ﬁlter. For simple to moderately complex ﬁlter designs, this is the most
+common method, and the remainder of this section is devoted to several examples of the circuits used to obtain

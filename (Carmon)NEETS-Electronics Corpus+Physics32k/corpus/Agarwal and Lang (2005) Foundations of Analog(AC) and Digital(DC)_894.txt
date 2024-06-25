@@ -1,0 +1,11 @@
+You might have realized that although logic devices must demonstrate a gain
+greater than unity when they transition from VIL to VIH, they must also atten-
+uate the signal at other times. For example, Figure 6.48 shows the signal
+from Figure 6.47 with some noise superimposed on it. It should be clear from
+Figure 6.48 that to obey the static discipline the buffer has reduced the 0-V to
+2-V noise excursions at the input to 0-V to 1-V noise excursions at its output.
+We can also verify this fact using the basic noise-margin inequalities in
+Equations 6.8 and 6.9. Equations 6.8 implies that any voltage between 0 and
+VIL at the input must be attenuated to a voltage between 0 and VOL at the output
+(see Figure 6.49). Since VIL > VOL according to Equation 6.8, it follows that
+voltage transfer ratio must be less than unity. In other words,

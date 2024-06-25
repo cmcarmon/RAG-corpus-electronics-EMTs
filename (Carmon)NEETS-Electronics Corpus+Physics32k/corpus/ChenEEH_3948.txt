@@ -1,0 +1,18 @@
+s2, which can be taken as the signal-to-
+P
+noise ratio (SNR). From equation 6.52, one can see
+that limd!1 b ¼ 1.
+3. If the test statistic is deﬁned with a scaling factor,
+namely T (x) ¼
+S
+s2 Xi, the detector remains un-
+changed as long as the threshold is also scaled accord-
+ingly. Let hi¼ s
+K
+i¼1 hixi. The
+detector is essentially a discrete-time matched ﬁlter.
+This detector is also known as the correlation detector
+as it correlates signal with the observation. When the
+output of the detector is of a large numerical value, the
+correlation between the observation and the signal is
+high, and H1 is (likely to be) true.

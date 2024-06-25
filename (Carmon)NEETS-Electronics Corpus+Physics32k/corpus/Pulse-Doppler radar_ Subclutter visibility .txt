@@ -1,0 +1,108 @@
+Subclutter visibility involves the maximum ratio of clutter power to target power, which is proportional to dynamic range. This determines performance in heavy weather and near the earth surface.
+
+
+
+
+
+dynamic range
+
+=
+min
+
+
+{
+
+
+
+
+
+
+carrier power
+noise power
+
+
+
+
+
+
+transmit noise, where bandwidth is
+
+
+
+
+PRF
+filter size
+
+
+
+
+
+
+
+
+2
+
+
+sample bits
+
++
+
+filter size
+
+
+
+
+
+
+receiver dynamic range
+
+
+
+
+
+
+
+.
+
+
+{\displaystyle {\text{dynamic range}}=\min {\begin{cases}{\tfrac {\text{carrier power}}{\text{noise power}}}&{\text{transmit noise, where bandwidth is }}{\tfrac {\text{PRF}}{\text{filter size}}}\\2^{{\text{sample bits}}+{\text{filter size}}}&{\text{receiver dynamic range}}\end{cases}}.}
+
+Subclutter visibility is the ratio of the smallest signal that can be detected in the presence of a larger signal.
+
+
+
+
+
+subclutter visibility
+
+=
+
+
+dynamic range
+CFAR detection threshold
+
+
+.
+
+
+{\displaystyle {\text{subclutter visibility}}={\frac {\text{dynamic range}}{\text{CFAR detection threshold}}}.}
+
+A small fast-moving target reflection can be detected in the presence of larger slow-moving clutter reflections when the following is true:
+
+
+
+
+
+target power
+
+>
+
+
+clutter power
+subclutter visibility
+
+
+.
+
+
+{\displaystyle {\text{target power}}>{\frac {\text{clutter power}}{\text{subclutter visibility}}}.}

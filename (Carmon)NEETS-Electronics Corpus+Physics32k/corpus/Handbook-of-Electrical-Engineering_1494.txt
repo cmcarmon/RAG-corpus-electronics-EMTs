@@ -1,0 +1,7 @@
+Overview of a Speech Recognition System
+The  general  architecture  of  a  typical  speech  recognition  system  is  given  in  Fig.  15.20.  The  speech  signal  is
+typically input to the system via a microphone or a telephone. Signal preprocessing consists of computing a
+series of acoustic vectors by processing the speech signal at regular time intervals (frames), which are typically
+10  ms  long.  These  acoustic  vectors  are  usually  a  set  of  parameters,  such  as  LPC  cepstra  [23]  or  ﬁlter  bank
+outputs (PLP [30], RASTA [28], etc.). In order to capture the change in these vectors over time, they have been
+augmented with their time derivatives or discriminant projection techniques (e.g., see LDA [10, 29]).

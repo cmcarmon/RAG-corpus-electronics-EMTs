@@ -1,0 +1,7 @@
+Data Integrity and Security
+Data Integrity
+In general, during the design of a database schema several integrity constraints are identiﬁed. These constraints
+may include the uniqueness of a key value, restrictions on the domain of an attribute name, and the ability of
+an attribute to have a null value. A DBMS includes mechanisms with which integrity constraints can be speciﬁed.
+Constraints  such  as  key  uniqueness  and  the  admissibility  of  null  values  can  be  speciﬁed  during  schema
+deﬁnition. Also, more elaborate integrity constraints can be speciﬁed. For example, constraints can be imposed

@@ -1,0 +1,5 @@
+Sampling
+This method was introduced in Section 14.2. Sampling of an analog signal makes it discrete in
+time. A bandlimited signal can be recovered exactly from its samples, taken periodically in time
+at a rate at least equal to twice the signal’s bandwidth. If a message f (t) has a spectral extent of
+Wf rad/s, the sampling rate fs (samples per second) must satisfy

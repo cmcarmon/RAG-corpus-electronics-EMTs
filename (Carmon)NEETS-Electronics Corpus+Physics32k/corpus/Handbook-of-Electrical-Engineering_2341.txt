@@ -1,0 +1,5 @@
+There are two versions of the dc equivalent circuit model—the  injection version and the transport version.
+The difference between the two versions lies in the choice of the reference current. In the injection version, the
+reference currents are IF and IR, the forward- and reverse-biased diode currents, respectively. In the transport
+version, the reference currents are the collector transport current, ICC, and the emitter transport current, ICE.
+These currents are of the form:

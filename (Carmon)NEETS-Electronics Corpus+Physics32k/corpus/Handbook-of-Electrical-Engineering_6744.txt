@@ -1,0 +1,5 @@
+The IEEE 802.5 token ring standard speciﬁes a token-timing service discipline that requires transmissions to
+be completed within a ﬁxed time after the token is seized, but implementations sometimes use the simpler one-
+shot  service  discipline.  The  ANSI  X3T9.5  ﬁber  distributed  data  interface  (FDDI)  standard  uses  an  adaptive
+token-timing service discipline that is intended to guarantee a minimum amount of (synchronous) bandwidth
+to each station.

@@ -1,0 +1,9 @@
+It is quite easy to confuse these two equations, getting the resistance ratios backwards. One
+way to help remember the proper form is to keep in mind that both ratios in the voltage and
+current divider equations must equal less than one. After all these are divider equations, not
+multiplier equations! If the fraction is upside-down, it will provide a ratio greater than one,
+which is incorrect. Knowing that total resistance in a series (voltage divider) circuit is always
+greater than any of the individual resistances, we know that the fraction for that formula must
+be Rn over RT otal. Conversely, knowing that total resistance in a parallel (current divider)
+circuit is always less then any of the individual resistances, we know that the fraction for that
+formula must be RT otal over Rn.

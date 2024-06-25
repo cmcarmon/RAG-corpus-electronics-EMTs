@@ -1,0 +1,7 @@
+Alternately,  the  multipath  returns  that  are  separated  by  more  than  a  chip  duration  from  the  main  path
+represent  independent “looks”  at  the  received  signal  and  can  be  used  constructively  to  enhance  the  overall
+performance of the receiver. That is, because all of the multipath returns contain information regarding the
+data that is being sent, that information can be extracted by an appropriately designed receiver. Such a receiver,
+typically referred to as a RAKE receiver, attempts to resolve as many individual multipath returns as possible
+and then to sum them coherently. This results in an implicit diversity gain, comparable to the use of explicit
+diversity, such as receiving the signal with multiple antennas.

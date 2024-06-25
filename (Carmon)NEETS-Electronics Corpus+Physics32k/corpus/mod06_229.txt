@@ -1,0 +1,18 @@
+During the next cycle, the same process will be repeated, with Cc charging on the positive alternation
+and discharging a lesser amount during the negative alternation. Therefore, at the end of the second cycle,
+Cc will have an even larger negative charge than it did after the first cycle. You might think that the
+charge on Cc will continue to increase until the tube is forced into cutoff. This is not the case. As the
+negative charge on the right-hand plate of Cc forces the grid more negative, electrostatic attraction
+between the grid and cathode decreases. This, in effect, increases the resistance (rgk) between the cathode
+and the grid, until rgk becomes, in effect, the same size as Rg. At this point, charge and discharge of Cc
+will equal one another and the grid will remain at some negative, steady voltage. What has happened in
+this circuit is that Cc and Rg, through the use of unequal charge and discharge paths, have acted to change
+the ac input to a negative dc voltage. The extent of the bias on the grid will depend on three things: the
+amplitude of the input, the frequency of the input, and the size of Rg and Cc. This type of biasing has the
+advantage of being directly related to the amplitude of the input signal. If the amplitude increases, biasing
+increases in step with it. The main limiting factor is the amount of distortion that you may be willing to
+tolerate. Distortion occurs during the positive alternation when the grid draws current. Current drawn
+from the electron stream by the grid never reaches the plate; therefore the negative-going output is not a
+faithful reproduction of the input, while the positive-going output (during the negative input cycle) will be
+a faithful reproduction of the input. This is similar to the situation shown in the flattopped portion of the
+output signal in figure 1-20.

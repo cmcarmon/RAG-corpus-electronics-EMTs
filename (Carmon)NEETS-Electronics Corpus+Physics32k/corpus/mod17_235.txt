@@ -1,0 +1,7 @@
+The circuit shown in figure 2-16 produces a positive agc voltage. Transformer T1, diode CR1,
+capacitor C1, and resistor R1 comprise a series diode detector. The agc network is made up of R2 and C2.
+With normal detector operation and the positive (+) potential shown at the input, CR1 conducts.
+Conduction of the diode will cause a charging current (shown by the dashed line) to flow through agc
+capacitor C2 and agc resistor R2. This charging current develops a voltage across C2. When the potential
+across T1 reverses, the diode will be reverse biased and will not conduct. When this happens, the charging
+current ceases and C2 begins to discharge. The discharge path for C2 is shown by the solid arrows. The

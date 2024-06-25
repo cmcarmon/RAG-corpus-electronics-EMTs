@@ -1,0 +1,8 @@
+exchanged directly between the two H.323 endpoints, which is
+similar to what happens for RTP media streams. As long as the
+calling endpoint knows the transport address of the called
+endpoint, it can set up a direct call with the other party. This
+model is unattractive for large-scale carrier deployments be-
+cause carriers may be unaware of which calls are being set up,
+and this may prevent them from providing sufﬁcient resources
+for the call and charging for it. In the gatekeeper-routed call

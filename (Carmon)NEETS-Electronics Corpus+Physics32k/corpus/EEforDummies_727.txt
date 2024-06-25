@@ -1,0 +1,4 @@
+as the 74HC00 IC, but it requires a fairly steady 5‐volt power supply, so you’ll 
+need to use a voltage regulator, such as the LM7805, along with a couple of 
+capacitors. You supply 9 volts to the LM7805, and it outputs a steady 5 volts 
+that you can use to power the 7400 IC.

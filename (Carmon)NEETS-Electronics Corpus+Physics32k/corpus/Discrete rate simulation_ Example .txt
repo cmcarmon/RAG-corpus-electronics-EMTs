@@ -1,0 +1,4 @@
+An exercise in learning how to build discrete-rate simulations is to model a tank filling and emptying over time. The tank fills at a constant rate and empties at two different rates, one rate until it is full and a faster rate until it is empty. There are 4 types of events in the simulation: start simulation, storage full, storage empty, and end simulation. At each event the model determines which emptying rate to use; between events the emptying rate remains constant.
+
+
+== References ==

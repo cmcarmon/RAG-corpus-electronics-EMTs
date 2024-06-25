@@ -1,0 +1,9 @@
+In this model, the states are measured with the sensor noise,
+dv/dt. A Kalman ﬁlter is then used to estimate the states. The
+following simulations are performed using MATLAB, a soft-
+ware package. The RS controller is found using equation 5.35.
+Note that both yaw and roll angles reduce to a value close to
+the origin. Figure 5.2 shows the roll and yaw angles with
+respect to time variation. After about 3 hours, both roll and
+yaw angles stay below 0.1 degree. Initially, large control action
+is needed, but after 3 hours or so, less than 300 Atm2 magnetic

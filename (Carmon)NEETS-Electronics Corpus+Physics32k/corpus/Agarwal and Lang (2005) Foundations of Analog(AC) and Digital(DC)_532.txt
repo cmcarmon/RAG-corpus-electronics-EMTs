@@ -1,0 +1,8 @@
+As in the Thévenin derivation, this equation can be interpreted in terms
+of a circuit. It states that the terminal current is the sum of two components:
+a current source isc and a resistor current vtest/Rt. Hence the Norton equiv-
+alent network, Figure 3.76, has a current source in parallel with a resistor.
+Examination of either the two equations, Equations 3.121 and 3.115, or the
+two figures, Figures 3.56 and 3.76 show that there is a simple relation between
+voc and isc. Working from the figures, we can calculate the open-circuit voltage
+of each circuit to find

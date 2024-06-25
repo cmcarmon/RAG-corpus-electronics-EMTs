@@ -1,0 +1,10 @@
+several modiﬁcations of the pattern matching approach were proposed. Speciﬁcally, adapting the templets of
+the clean signal to reﬂect the presence of the noise was proposed by Roe in 1987 [Ephraim, 1992]; choosing
+templets for the noisy signal which are more robust than those obtained from adaptation of the templets for
+the  clean  signal  was  often  proposed;  and  using  distance  measures  which  are  robust  to  noise,  such  as  the
+projection measure proposed by Mansour and Juang in 1989 [Ephraim, 1992]. These approaches along with
+the preﬁltering approach in the sampled signal case are fairly intuitive and are relatively easy to implement.
+It  is  difﬁcult,  however,  to  establish  their  optimality  in  any  well-deﬁned  sense. Another  interesting  approach
+based  on  robust  statistics  was  developed  by  Merhav  and  Lee  [Ephraim,  1992].  This  approach  was  shown
+asymptotically  optimal  in  the  minimum  probability  of  error  sense  within  the  hidden  Markov  modeling
+framework.

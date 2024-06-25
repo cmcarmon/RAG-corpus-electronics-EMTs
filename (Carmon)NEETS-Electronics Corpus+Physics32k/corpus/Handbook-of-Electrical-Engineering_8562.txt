@@ -1,0 +1,6 @@
+I/O System and Interrupts
+Programming support for I/Os and interrupts is more complicated than for straight machine instructions. This
+is due to the considerable speed differences between I/O devices and a CPU, the need for synchronization, the
+need for not losing any external event, and the concerns for optimizing processing time. Microprogramming
+offers  considerable  design  ﬂexibility,  as  these  problems  are  more  easily  handled  by  programming  than  with
+hardware components.

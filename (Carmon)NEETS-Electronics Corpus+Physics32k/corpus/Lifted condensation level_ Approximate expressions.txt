@@ -1,0 +1,106 @@
+There are also many different ways to approximate the LCL, to various degrees of accuracy. The most well known and widely used among these is Espy's equation, which James Espy formulated already in the early 19th century. His equation makes use of the relationship between the LCL and dew point temperature discussed above. In the Earth's atmosphere near the surface, the lapse rate for dry adiabatic lifting is about 9.8 K/km, and the lapse rate of the dew point is about 1.8 K/km (it varies from about 1.6-1.9 K/km). This gives the slopes of the curves shown in the diagram. The altitude where they intersect can be computed as the ratio between the difference in the initial temperature and initial dew point temperature
+
+
+
+T
+−
+
+T
+
+d
+
+
+
+
+{\displaystyle T-T_{d}}
+to the difference in the slopes of the two curves. Since the slopes are the two lapse rates, their difference is about 8 K/km. Inverting this gives 0.125 km/K, or 125 m/K. Recognizing this, Espy pointed out that the LCL can be approximated as:
+
+
+
+
+
+h
+
+L
+C
+L
+
+
+=
+
+
+
+T
+−
+
+T
+
+d
+
+
+
+
+
+Γ
+
+d
+
+
+−
+
+Γ
+
+d
+e
+w
+
+
+
+
+
+=
+125
+(
+T
+−
+
+T
+
+d
+
+
+)
+
+
+{\displaystyle h_{LCL}={\frac {T-T_{d}}{\Gamma _{d}-\Gamma _{dew}}}=125(T-T_{d})}
+
+where
+
+
+
+h
+
+
+{\displaystyle h}
+is height of the LCL (in meters),
+
+
+
+T
+
+
+{\displaystyle T}
+is temperature in degrees Celsius (or kelvins), and
+
+
+
+
+T
+
+d
+
+
+
+
+{\displaystyle T_{d}}
+is dew-point temperature (likewise in degrees Celsius or kelvins, whichever is used for T). This formula is accurate to within about 1% for the LCL height under normal atmospheric conditions, but requires knowing the dew-point temperature.

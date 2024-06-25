@@ -1,0 +1,10 @@
+that consider only one metric (either hop count or line cost)
+and minimize it to ﬁnd the shortest path from the source to
+the destination. Thus, all trafﬁc is routed along the shortest
+path leading to congestion on some links, while other links
+might remain underutilized. Furthermore, if link congestion is
+used to derive the line cost such that highly congested links
+have a higher cost, then such algorithms can cause oscillations
+in the network, where trafﬁc load continuously shifts from
+heavily congested links to lightly congested links, and this
+will increase the delay and jitter experienced by end users.

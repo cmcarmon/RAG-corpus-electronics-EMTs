@@ -1,0 +1,15 @@
+Models and Performance Measures
+The goals of speech enhancement as stated in the ﬁrst section are to improve perceptual aspects of the noisy
+signal  whether  the  signal  is  transmitted  through  analog  or  digital  channels  and  to  reduce  the  error  rate  in
+recognizing  noisy  speech  signals.  Improving  perceptual  aspects  of  the  noisy  signal  can  be  accomplished  by
+estimating the clean signal from the noisy signal using perceptually meaningful estimation performance mea-
+sures. If the signal has to be encoded for transmission over digital channels, then source coding techniques can
+be applied to the given noisy signal. In this case, a perceptually meaningful ﬁdelity measure between the clean
+signal and the encoded noisy signal must be used. Reducing error rate in speech communication systems can
+be accomplished by applying optimal signal classiﬁcation approaches to the given noisy signals. Thus the speech
+enhancement problem is essentially a set of signal estimation, source coding, and signal classiﬁcation problems.
+The  probabilistic  approach  for  solving  these  problems  requires  explicit  knowledge  of  the  performance
+measure as well as the probability laws of the clean signal and noise process. Such knowledge, however, is not
+explicitly  available.  Hence,  mathematically  tractable  performance  measures  and  statistical  models  which  are
+believed to be meaningful are used. In this section we brieﬂy review the most commonly used statistical models
+and performance measures.

@@ -1,0 +1,27 @@
+Distance relaying belongs to the principle of ratio compari-
+son. The ratio is between the voltage and current, which in turn
+produces impedance. The impedance is proportional to the
+distance in transmission lines, hence the ‘‘distance relaying’’
+designation for the principle. This principle is primarily used
+for protection of high-voltage transmission lines. In this case,
+the overcurrent principle cannot easily cope with the change in
+the direction of the ﬂow of power, simultaneous with variations
+in the level of the current ﬂow, which is common in the trans-
+mission but not so common in the radial distribution lines.
+Computing the impedance in a three-phase system is a bit
+involved because each type of fault produces a different imped-
+ance expression (Lewis, 1947). Because of these differences the
+settings of a distance relay need to be selected to distinguish
+between the ground and phase faults. In addition, fault resis-
+tance may create problems for distance measurements because
+the value of the fault resistance may be difﬁcult to predict. It is
+particularly challenging for distance relays to measure correct
+fault impedance when a current in-feed from the other end of
+the line creates an unknown voltage drop on the fault resistance.
+This may contribute to erroneous computation of the imped-
+ance, called apparent impedence, ‘‘seen’’ by the relay located at
+one end of the line and using the current and voltage measure-
+ment just from that end. Once the impedance is computed, it is
+compared to the settings that deﬁne the operating characteristic
+of a relay. Based on the comparison, a decision is made if a fault
+has occurred and, if so, in what zone. As mentioned earlier, the

@@ -1,0 +1,6 @@
+If you are not already familiar with storing structures in memory, look at the string (sentence) and ask how
+those letters get in memory. To begin with, every typeable symbol and all of the unprintable actions such as
+tabbing and carriage returns have been assigned a numerical value from the ASCII code. Each assignment is a
+byte-long number. What “This” really looks like (HEX, left to right) is 54 68 69 73. The spaces are HEX 20;
+the period 2E. With the alignment null byte at the end, this list of characters forms a proper C string. It is a
+structure of 20 bytes. A structure of any number of bytes can be stored, but from the assembly point of view,

@@ -1,0 +1,6 @@
+output axis that will cause the inner gimbal to exert torque against the torsion bars. The torsion bars 
+provide a restraining torque proportional to the amount of the inner gimbal's displacement. When the 
+exerted gimbal torque is exactly opposed by the restraining torque provided by the torsion bars, the inner 
+gimbal displacement will be proportional to the rate of rotation of the gyro case about the input axis. The 
+pickoff measures this displacement and provides a signal whose amplitude and polarity (or phase) 
+represent the direction and magnitude of the input angular velocity. 

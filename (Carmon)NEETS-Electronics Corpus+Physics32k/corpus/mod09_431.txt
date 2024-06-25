@@ -1,0 +1,7 @@
+The collector waveform may have an INDUCTIVE OVERSHOOT (PARASITIC OSCILLATIONS) 
+at the end of the pulse. When Q1 cuts off, current through L1 ceases, and the magnetic field collapses, 
+inducing a positive voltage at the collector of Q1. These oscillations are not desirable, so some means 
+must be employed to reduce them. The transformer primary may be designed to have a high dc resistance 
+resulting in a low Q; this resistance will decrease the amplitude of the oscillations. However, more 
+damping may be necessary than such a low-Q transformer primary alone can achieve. If so, a DAMPING 
+resistor can be placed in parallel with L1, as shown in figure 3-35. 

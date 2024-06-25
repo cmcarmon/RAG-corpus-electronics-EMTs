@@ -1,0 +1,10 @@
+Interfacing
+LCDs  can  be  organized  in  all  the  ways  available  to  competing  technologies,  e.g.,  LEDs  (see  Section  83.1),
+including seven-segment, alphanumeric, and dot matrix. The LCD differs from LED displays, where each pixel
+or  segment  must  be  a  separate  device,  because  the  LCD  segment  or  pixel  areas  are  deﬁned  by  transparent
+electrodes separated from a common overlapping backplane by a single liquid crystal [Fig. 83.16(a)]. In a large
+matrix array, it may take a signiﬁcant period to scan all pixels, and the simple addressing scheme of Fig. 83.16(b)
+may lead to noticeable ﬂicker. The high off resistance of the MOSFETs of Fig. 83.16(c) can reduce this problem
+by increasing the discharge time to hold the LCD on after the address pulse has gone. The MOSFETs in this
+active matrix technology are implemented in practice in the form of polysilicon or hydrogenated amorphous
+silicon (a-Si:H) thin ﬁlm transistors (TFT) [Shur, 1990; Braithwaite and Weaver, 1990].

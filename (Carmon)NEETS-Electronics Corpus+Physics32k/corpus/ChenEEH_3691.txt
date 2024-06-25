@@ -1,0 +1,9 @@
+Autocorrelation Method and Lattice Structures
+In either the autocorrelation or covariance solution, obtaining
+the ﬁnal LP parameter estimate, ^aa, ultimately requires the
+solution of a matrix–vector equation of the form Ax ¼ b, in
+which A is a square matrix that is reasonably assumed to be of
+full rank, M. This is a widely studied problem for which
+numerous methods exist (Golub and van Loan, 1989). Solu-
+tions to general problems of this form tend to be of O(M 3)
+computational complexity.

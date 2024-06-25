@@ -1,0 +1,10 @@
+Connecting dozens of gates in a complex web 
+of circuitry presents a bit of a timing problem.  
+As the gate inputs in one stage of logic change, 
+the  gate  outputs  will  change  —  but  not 
+ instantaneously. (It takes some time, albeit a 
+very short time, for each gate to react.) Those 
+ outputs then feed the inputs to another stage of 
+logic, and so on.
+Complex  logic  devices  use  special  circuits 
+called registers between stages of logic to hold 

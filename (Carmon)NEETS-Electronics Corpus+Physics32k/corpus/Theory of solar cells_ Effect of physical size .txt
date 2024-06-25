@@ -1,0 +1,94 @@
+The values of IL, I0, RS, and RSH are dependent upon the physical size of the solar cell. In comparing otherwise identical cells, a cell with twice the junction area of another will, in principle, have double the IL and I0 because it has twice the area where photocurrent is generated and across which diode current can flow. By the same argument, it will also have half the RS of the series resistance related to vertical current flow; however, for large-area silicon solar cells, the scaling of the series resistance encountered by lateral current flow is not easily predictable since it will depend crucially on the grid design (it is not clear what "otherwise identical" means in this respect). Depending on the shunt type, the larger cell may also have half the RSH because it has twice the area where shunts may occur; on the other hand, if shunts occur mainly at the perimeter, then RSH will decrease according to the change in circumference, not area.
+Since the changes in the currents are the dominating ones and are balancing each other, the open-circuit voltage is practically the same; VOC starts to depend on the cell size only if RSH becomes too low. To account for the dominance of the currents, the characteristic equation is frequently written in terms of current density, or current produced per unit cell area:
+
+
+
+
+J
+=
+
+J
+
+L
+
+
+−
+
+J
+
+0
+
+
+
+{
+
+exp
+⁡
+
+[
+
+
+
+q
+(
+V
++
+J
+
+r
+
+S
+
+
+)
+
+
+n
+k
+T
+
+
+
+]
+
+−
+1
+
+}
+
+−
+
+
+
+V
++
+J
+
+r
+
+S
+
+
+
+
+r
+
+S
+H
+
+
+
+
+
+
+{\displaystyle J=J_{L}-J_{0}\left\{\exp \left[{\frac {q(V+Jr_{S})}{nkT}}\right]-1\right\}-{\frac {V+Jr_{S}}{r_{SH}}}}
+
+where
+J = current density (ampere/cm2)
+JL = photogenerated current density (ampere/cm2)
+J0 = reverse saturation current density (ampere/cm2)
+rS = specific series resistance (Ω-cm2)
+rSH = specific shunt resistance (Ω-cm2).
+This formulation has several advantages. One is that since cell characteristics are referenced to a common cross-sectional area they may be compared for cells of different physical dimensions. While this is of limited benefit in a manufacturing setting, where all cells tend to be the same size, it is useful in research and in comparing cells between manufacturers. Another advantage is that the density equation naturally scales the parameter values to similar orders of magnitude, which can make numerical extraction of them simpler and more accurate even with naive solution methods.
+There are practical limitations of this formulation. For instance, certain parasitic effects grow in importance as cell sizes shrink and can affect the extracted parameter values. Recombination and contamination of the junction tend to be greatest at the perimeter of the cell, so very small cells may exhibit higher values of J0 or lower values of RSH than larger cells that are otherwise identical. In such cases, comparisons between cells must be made cautiously and with these effects in mind.
+This approach should only be used for comparing solar cells with comparable layout. For instance, a comparison between primarily quadratical solar cells like typical crystalline silicon solar cells and narrow but long solar cells like typical thin film solar cells can lead to wrong assumptions caused by the different kinds of current paths and therefore the influence of, for instance, a distributed series resistance contribution to rS. Macro-architecture of the solar cells could result in different surface areas being placed in any fixed volume - particularly for thin film solar cells and flexible solar cells which may allow for highly convoluted folded structures. If volume is the binding constraint, then efficiency density based on surface area may be of less relevance.

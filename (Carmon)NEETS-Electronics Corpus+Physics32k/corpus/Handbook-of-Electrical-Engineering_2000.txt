@@ -1,0 +1,24 @@
+The  repeat  “single”  instruction  RPTS  causes  the  next  (multiply)  ﬂoating-point  instruction  MPYF  to  be
+executed LENGTH times (repeated LENGTH-1), where LENGTH is the length of the FIR ﬁlter. Furthermore,
+since the ﬁrst ADDF addition instruction is in parallel (designated by ||) with the MPYF instruction, it is also
+executed LENGTH times. From Table 18.2, AR0, one of the eight available auxiliary registers, initially points
+at the memory address (a table address) which contains the coefﬁcient h(N – 1), and a second auxiliary register
+AR1 now points to the address of the oldest input sample x(n – (N – 1)). The second indirect addressing mode
+instruction multiplies the content in memory (address pointed by AR0) h(N – 1) by the content in memory
+(address pointed by AR1) x(n – N – 1)), with the result stored in R0. Concurrently (in parallel), the content
+of R0 is added to the content of R2, with the result stored in R2. Initially R0 and R2 are set to zero; hence, the
+resulting value in R2 is not the product of the ﬁrst multiply operation. After the ﬁrst multiply operation, both
+AR0 and AR1 are incremented, and h(N – 2) is multiplied by x(n – (N – 2)). Concurrently, the result of the
+ﬁrst multiply operation (stored in R0) is accumulated into R2. The second addition instruction, executed only
+once, accumulates the last product h(0)x(n) (similar to the APAC instruction associated with the ﬁxed-point
+TMS320C25). The overall result yields an output value y(n) at time n. After the last multiply operation, both
+AR0 and AR1 are postincremented to point at the “top” or lower-memory address of each circular buffer. The
+process can then be repeated for time n + 1 in order to obtain a second output value y(n + 1). Note that the
+newest sample x(n + 1) would be retrieved from an ADC using the FLOAT and STF instructions, then placed
+at the top memory location of the buffer (table) containing the samples, overwriting the initial value x(n – (N
+–  1)).  AR1  is  then  incremented  to  point  at  the  address  containing  x(n  –  (N  –  2)),  and  the  previous  four
+instructions can be repeated. The last multiply operation involves h(0) and x(.), where x(.) is the newest sample
+x(n + 1), at time n + 1. The foregoing procedure would be repeated to produce an output y(n + 2), y(n + 3),
+and so on. Each output value would be converted to a ﬁxed-point equivalent value before being sent to a DAC.
+The frequency response of an FIR ﬁlter with 41 coefﬁcients and a center frequency of 2.5 kHz, obtained from
+a signal analyzer, is displayed in Fig. 18.8.

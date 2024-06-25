@@ -1,0 +1,50 @@
+This is a metric often used in computer vision that can be minimized by least squares estimation. [1][2] For curves or surfaces given by the equation
+
+
+
+
+x
+
+T
+
+
+C
+x
+=
+0
+
+
+{\displaystyle x^{\text{T}}Cx=0}
+(such as a conic in homogeneous coordinates), the algebraic distance from the point
+
+
+
+
+x
+′
+
+
+
+{\displaystyle x'}
+to the curve is simply
+
+
+
+
+x
+
+′
+
+T
+
+
+
+C
+
+x
+′
+
+
+
+{\displaystyle x'^{\text{T}}Cx'}
+. It may serve as an "initial guess" for geometric distance to refine estimations of the curve by more accurate methods, such as non-linear least squares.

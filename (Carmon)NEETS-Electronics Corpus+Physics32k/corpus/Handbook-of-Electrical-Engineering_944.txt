@@ -1,0 +1,11 @@
+Introduction
+Deﬁnition of Device Modeling
+We use various terms such as device characterization, parameter extraction, optimization, and model ﬁtting
+to address an important engineering task. In all of these, we start with a mathematical model that describes
+the transistor behavior. The model has a number of parameters which are varied or adjusted to match the IV
+(current-voltage)  characteristics  of  a  particular  transistor  or  set  of  transistors.  The  act  of  determining  the
+appropriate set of model parameters is what we call device modeling. We then use the model with the particular
+set of parameters that represent our transistors in a circuit simulator such as SPICE1 to simulate how circuits
+with our kinds of transistors will behave. Usually the models are supplied by the circuit simulator we chose.
+Occasionally we may want to modify these models or construct our own models. In this case we need access
+to the circuit simulator model subroutines as well as the program that performs the device characterization.

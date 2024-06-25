@@ -1,0 +1,9 @@
+P = Number of distinct operators appearing in the program
+p = Total number of operators appearing in the program
+Q = Number of distinct operands appearing in the program
+q = Total number of operands appearing in the program
+N = Number of operators and operands appearing in the program
+V = Volume = N log2(P + Q)
+L = Level of abstraction used to write the program » (2/P)*(Q/q)
+l = Level of the HLL used to write the program = L2V
+E = Mental effort to create the program = V/L

@@ -1,0 +1,9 @@
+To  solve  this  problem  and  retain  the  advantage  of  the  method,  a  new  algorithm  is  presented  [21].  It  is  to
+precluster  the  training  speakers  acoustically  into  clusters.  For  each  cluster,  an  HMM  system  (called  a  cluster-
+dependent system) is trained using speech data from the speakers who belong to the cluster. When a test speaker’s
+data is available, we rank these cluster-dependent systems according to the distances between the test speaker
+and each cluster, and a subset of these clusters, acoustically closest to the test speaker, is chosen. Then the model
+for each of the selected clusters is transformed further to bring the model closer to the test speaker’s acoustic
+space. Finally, these adapted cluster models are combined to form a speaker-adapted system. Hence, compared
+to  [22],  we  now  choose  clusters  that  are  acoustically  close  to  the  test  speaker,  rather  than  individual  training
+speakers.

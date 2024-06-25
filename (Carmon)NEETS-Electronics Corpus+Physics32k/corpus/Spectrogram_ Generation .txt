@@ -1,0 +1,71 @@
+Spectrograms of light may be created directly using an optical spectrometer over time.
+Spectrograms may created from a time-domain signal in one of two ways: approximated as a filterbank that results from a series of band-pass filters (this was the only way before the advent of modern digital signal processing), or calculated from the time signal using the Fourier transform. These two methods actually form two different time–frequency representations, but are equivalent under some conditions.
+The bandpass filters method usually uses analog processing to divide the input signal into frequency bands; the magnitude of each filter's output controls a transducer that records the spectrogram as an image on paper.
+Creating a spectrogram using the FFT is a digital process. Digitally sampled data, in the time domain, is broken up into chunks, which usually overlap, and Fourier transformed to calculate the magnitude of the frequency spectrum for each chunk. Each chunk then corresponds to a vertical line in the image; a measurement of magnitude versus frequency for a specific moment in time (the midpoint of the chunk). These spectrums or time plots are then "laid side by side" to form the image or a three-dimensional surface, or slightly overlapped in various ways, i.e. windowing. This process essentially corresponds to computing the squared magnitude of the short-time Fourier transform (STFT) of the signal
+
+
+
+s
+(
+t
+)
+
+
+{\displaystyle s(t)}
+— that is, for a window width
+
+
+
+ω
+
+
+{\displaystyle \omega }
+,
+
+
+
+
+s
+p
+e
+c
+t
+r
+o
+g
+r
+a
+m
+
+(
+t
+,
+ω
+)
+=
+
+
+|
+
+
+S
+T
+F
+T
+
+(
+t
+,
+ω
+)
+
+|
+
+
+2
+
+
+
+
+{\displaystyle \mathrm {spectrogram} (t,\omega )=\left|\mathrm {STFT} (t,\omega )\right|^{2}}
+.

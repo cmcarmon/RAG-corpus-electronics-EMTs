@@ -1,0 +1,21 @@
+. Network (packet) layer: Two major functions in the net-
+work layer are routing control and congestion control.
+Routing control is the process for maintaining a routing
+table and determining optimum routing over a network
+connection. Congestion control is needed when there are
+too many packets queued for a system and there is no
+space to store them. This is normally happens in a data-
+gram-type of connection, where the network resources
+for a connection are not preallocated. The network layer
+is also responsible for multiplexing multiple network
+connections over a data link connection to maximize its
+use. Flow control is provided at the network layer as well.
+. Transport layer: This layer provides error-free end user
+transmission. To improve the utilization, it multiplexes
+multiple transport connections over a network connec-
+tion. It controls data ﬂow to prevent from overloading
+network resources just like the ﬂow control function
+provided at the data link and network layers. This layer
+and layers above it are end-to-end, peer-to-peer proto-
+cols, for which their protocol data units (PDU) are pro-
+cessed between two end systems. The layers below the

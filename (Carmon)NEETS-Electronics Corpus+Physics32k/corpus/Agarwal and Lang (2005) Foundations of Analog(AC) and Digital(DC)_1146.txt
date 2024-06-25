@@ -1,0 +1,16 @@
+The small-signal equivalent circuit also allows us to determine other important
+circuit parameters, such as the small-signal input resistance, output resistance,
+current gain, and power gain. Since the amplifier behaves as a linear network
+for small signals, it can be characterized by a Thévenin equivalent when viewed
+from any given port. The input and output resistance come in handy in this
+Thévenin characterization. Let us determine these values for the MOSFET
+amplifier using its small-signal circuit in Figure 8.16. Since these parameters are
+externally observed quantities, they are defined with respect to the external ports
+of the amplifier abstraction. Thus, it is important that we define precisely what
+constitutes the input and output ports of the small-signal amplifier. Figure 8.19
+shows the relationship between the external ports of the amplifier circuit and the
+small-signal model. Notice that we have internalized the input bias voltage into
+the small-signal amplifier abstraction so the user of the amplifier does not have to
+provide the appropriate input bias voltage. Instead, the user can simply provide
+a small input signal and observe the resulting signal output superimposed on
+the DC output offset.

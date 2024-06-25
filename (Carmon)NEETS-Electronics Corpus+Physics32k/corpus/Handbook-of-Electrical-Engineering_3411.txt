@@ -1,0 +1,26 @@
+Successive approximation A/D conversion is a technique that is commonly used in medium- to high-speed
+data acquisition applications. It is one of the fastest A/D conversion techniques that requires a minimum amount
+of circuitry. The conversion times for successive approximation A/D conversion typically range from 10 to 300
+m
+s for 8-bit systems.
+n
+-bit digital code
+The successive approximation A/D converter can approximate the analog signal to form an 
+ steps. The successive approximation register (SAR) individually compares an analog input voltage to the
+n
+in 
+n
+ times, using
+midpoint of one of 
+n
+n
+ bits in the code. The comparison is accomplished as follows: The SAR determines
+ ranges, to determine the 
+if the analog input is above or below the midpoint and sets the bit of the digital code accordingly. The SAR
+assigns the bits beginning with the most signiﬁcant bit. The bit is set to a 1 if the analog input is greater than
+the midpoint voltage, or it is set to a 0 if it is less than the midpoint voltage. The SAR then moves to the next
+bit and sets it to a 1 or a 0 based on the results of comparing the analog input with the midpoint of the next
+-bit code
+n
+allowed range. Because the SAR must perform one approximation for each bit in the digital code, an 
+requires 

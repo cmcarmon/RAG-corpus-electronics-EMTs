@@ -1,0 +1,12 @@
+Since Q = 5, we also know that the system will ring for approximately 5 cycles.
+To complete the picture, we must now combine the boundary values
+shown in Figure 12.56a with a sinusoid of frequency 1584 Hz (or cycle time 0.6
+ms) that decays over about 5 cycles. To do so, it helps to determine the initial
+trajectory of the capacitor voltage (increasing or decreasing) starting from its
+initial value of 0.5 V. It turns out that we can obtain this information by looking
+at the initial state on the other memory element, namely the inductor. The
+initial inductor current is given as −0.5 A. In the absence of a driving impulse,
+since the magnitude of this current cannot change instantaneously, and since
+the given direction of the initial current tends to discharge the capacitor, we can
+conclude that the capacitor voltage will tend to decrease. This decreasing initial
+trajectory of the capacitor voltage is illustrated in Figure 12.56b.

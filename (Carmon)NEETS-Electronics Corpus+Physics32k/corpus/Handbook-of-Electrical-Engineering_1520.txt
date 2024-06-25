@@ -1,0 +1,7 @@
+However, the implementation of this method required the entire training corpus to be available online for
+the  adaptation  process,  and  this  is  not  practical  in  many  situations.  This  problem  can  be  circumvented  if  a
+model is stored for each of the training speakers, and the transformation is applied to the model. The trans-
+formed models are then combined to produce the speaker-adapted model. However, due to the large number
+of training speakers, storing the models of each training speaker would require a prohibitively large amount
+of storage. Also, we may not have sufﬁcient data from each training speaker to robustly estimate the parameters
+of the speaker-dependent model.

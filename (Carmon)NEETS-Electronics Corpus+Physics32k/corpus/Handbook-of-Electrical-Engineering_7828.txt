@@ -1,0 +1,13 @@
+Automatic Tracking
+Consider a track at a certain radial location, say r0, and imagine viewing this track through the access window
+shown  in  Fig. 80.21.  It  is  through  this  window  that  the  head  gains  access  to  arbitrarily  selected  tracks.  To  a
+viewer looking through the window, a perfectly circular track centered on the spindle axis will look stationary,
+irrespective of the rotation rate. However, any eccentricity will cause an apparent radial motion of the track.
+The peak-to-peak distance traveled by a track (as seen through the window) depends on a number of factors
+including centering accuracy of the hub, deformability of the substrate, mechanical vibrations, manufacturing
+tolerances,  etc.  For  a  typical  3.5-in.  disk,  for  example,  this  peak-to-peak  motion  can  be  as  much  as  100  mm
+during one revolution. Assuming a revolution rate of 3600 rpm, the apparent velocity of the track in the radial
+direction will be several millimeters per second. Now, if the focused spot remains stationary while trying to read
+from or write to this track, it is clear that the beam will miss the track for a good fraction of every revolution cycle.
+Practical solutions to the above problem are provided by automatic tracking techniques. Here the objective
+is placed in a ﬁne actuator, typically a voice coil, which is capable of moving the necessary radial distances and

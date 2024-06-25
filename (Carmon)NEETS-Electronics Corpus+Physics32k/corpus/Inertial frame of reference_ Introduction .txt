@@ -1,0 +1,131 @@
+The motion of a body can only be described relative to something else—other bodies, observers, or a set of space-time coordinates. These are called frames of reference. If the coordinates are chosen badly, the laws of motion may be more complex than necessary. For example, suppose a free body that has no external forces acting on it is at rest at some instant. In many coordinate systems, it would begin to move at the next instant, even though there are no forces on it. However, a frame of reference can always be chosen in which it remains stationary. Similarly, if space is not described uniformly or time independently, a coordinate system could describe the simple flight of a free body in space as a complicated zig-zag in its coordinate system. Indeed, an intuitive summary of inertial frames can be given: in an inertial reference frame, the laws of mechanics take their simplest form.
+In an inertial frame, Newton's first law, the law of inertia, is satisfied: Any free motion has a constant magnitude and direction. Newton's second law for a particle takes the form:
+
+
+
+
+
+F
+
+=
+m
+
+a
+
+
+,
+
+
+{\displaystyle \mathbf {F} =m\mathbf {a} \ ,}
+
+with F the net force (a vector), m the mass of a particle and a the acceleration of the particle (also a vector) which would be measured by an observer at rest in the frame. The force F is the vector sum of all "real" forces on the particle, such as electromagnetic, gravitational, nuclear and so forth. In contrast, Newton's second law in a rotating frame of reference, rotating at angular rate Ω about an axis, takes the form:
+
+
+
+
+
+
+F
+
+′
+
+=
+m
+
+a
+
+
+,
+
+
+{\displaystyle \mathbf {F} '=m\mathbf {a} \ ,}
+
+which looks the same as in an inertial frame, but now the force F′ is the resultant of not only F, but also additional terms (the paragraph following this equation presents the main points without detailed mathematics):
+
+
+
+
+
+
+F
+
+′
+
+=
+
+F
+
+−
+2
+m
+
+Ω
+
+×
+
+
+v
+
+
+B
+
+
+−
+m
+
+Ω
+
+×
+(
+
+Ω
+
+×
+
+
+x
+
+
+B
+
+
+)
+−
+m
+
+
+
+d
+
+Ω
+
+
+
+d
+t
+
+
+
+×
+
+
+x
+
+
+B
+
+
+
+,
+
+
+{\displaystyle \mathbf {F} '=\mathbf {F} -2m\mathbf {\Omega } \times \mathbf {v} _{B}-m\mathbf {\Omega } \times (\mathbf {\Omega } \times \mathbf {x} _{B})-m{\frac {d\mathbf {\Omega } }{dt}}\times \mathbf {x} _{B}\ ,}
+
+where the angular rotation of the frame is expressed by the vector Ω pointing in the direction of the axis of rotation, and with magnitude equal to the angular rate of rotation Ω, symbol × denotes the vector cross product, vector xB locates the body and vector vB is the velocity of the body according to a rotating observer (different from the velocity seen by the inertial observer).
+The extra terms in the force F′ are the "fictitious" forces for this frame, whose causes are external to the system in the frame. The first extra term is the Coriolis force, the second the centrifugal force, and the third the Euler force. These terms all have these properties: they vanish when Ω = 0; that is, they are zero for an inertial frame (which, of course, does not rotate); they take on a different magnitude and direction in every rotating frame, depending upon its particular value of Ω; they are ubiquitous in the rotating frame (affect every particle, regardless of circumstance); and they have no apparent source in identifiable physical sources, in particular, matter. Also, fictitious forces do not drop off with distance (unlike, for example, nuclear forces or electrical forces). For example, the centrifugal force that appears to emanate from the axis of rotation in a rotating frame increases with distance from the axis.
+All observers agree on the real forces, F; only non-inertial observers need fictitious forces. The laws of physics in the inertial frame are simpler because unnecessary forces are not present.
+In Newton's time the fixed stars were invoked as a reference frame, supposedly at rest relative to absolute space. In reference frames that were either at rest with respect to the fixed stars or in uniform translation relative to these stars, Newton's laws of motion were supposed to hold. In contrast, in frames accelerating with respect to the fixed stars, an important case being frames rotating relative to the fixed stars, the laws of motion did not hold in their simplest form, but had to be supplemented by the addition of fictitious forces, for example, the Coriolis force and the centrifugal force. Two interesting experiments were devised by Newton to demonstrate how these forces could be discovered, thereby revealing to an observer that they were not in an inertial frame: the example of the tension in the cord linking two spheres rotating about their center of gravity, and the example of the curvature of the surface of water in a rotating bucket. In both cases, application of Newton's second law would not work for the rotating observer without invoking centrifugal and Coriolis forces to account for their observations (tension in the case of the spheres; parabolic water surface in the case of the rotating bucket).
+As we now know, the fixed stars are not fixed. Those that reside in the Milky Way turn with the galaxy, exhibiting proper motions. Those that are outside our galaxy (such as nebulae once mistaken to be stars) participate in their own motion as well, partly due to expansion of the universe, and partly due to peculiar velocities. The Andromeda galaxy is on collision course with the Milky Way at a speed of 117 km/s. The concept of inertial frames of reference is no longer tied to either the fixed stars or to absolute space. Rather, the identification of an inertial frame is based upon the simplicity of the laws of physics in the frame. In particular, the absence of fictitious forces is their identifying property.
+In practice, although not a requirement, using a frame of reference based upon the fixed stars as though it were an inertial frame of reference introduces very little discrepancy. For example, the centrifugal acceleration of the Earth because of its rotation about the Sun is about thirty million times greater than that of the Sun about the galactic center.
+To illustrate further, consider the question: "Does our Universe rotate?" To answer, we might attempt to explain the shape of the Milky Way galaxy using the laws of physics, although other observations might be more definitive, that is, provide larger discrepancies or less measurement uncertainty, like the anisotropy of the microwave background radiation or Big Bang nucleosynthesis. The flatness of the Milky Way depends on its rate of rotation in an inertial frame of reference. If we attribute its apparent rate of rotation entirely to rotation in an inertial frame, a different "flatness" is predicted than if we suppose part of this rotation actually is due to rotation of the universe and should not be included in the rotation of the galaxy itself. Based upon the laws of physics, a model is set up in which one parameter is the rate of rotation of the Universe. If the laws of physics agree more accurately with observations in a model with rotation than without it, we are inclined to select the best-fit value for rotation, subject to all other pertinent experimental observations. If no value of the rotation parameter is successful and theory is not within observational error, a modification of physical law is considered, for example, dark matter is invoked to explain the galactic rotation curve. So far, observations show any rotation of the universe is very slow, no faster than once every 60·1012 years (10−13 rad/yr), and debate persists over whether there is any rotation. However, if rotation were found, interpretation of observations in a frame tied to the universe would have to be corrected for the fictitious forces inherent in such rotation in classical physics and special relativity, or interpreted as the curvature of spacetime and the motion of matter along the geodesics in general relativity.
+When quantum effects are important, there are additional conceptual complications that arise in quantum reference frames.

@@ -1,0 +1,40 @@
+A truss that is assumed to comprise members that are connected by means of pin joints, and which is supported at both ends by means of hinged joints or rollers, is described as being statically determinate. Newton's Laws apply to the structure as a whole, as well as to each node or joint. In order for any node that may be subject to an external load or force to remain static in space, the following conditions must hold: the sums of all (horizontal and vertical) forces, as well as all moments acting about the node equal zero. Analysis of these conditions at each node yields the magnitude of the compression or tension forces.
+Trusses that are supported at more than two positions are said to be statically indeterminate, and the application of Newton's Laws alone is not sufficient to determine the member forces.
+In order for a truss with pin-connected members to be stable, it does not need to be entirely composed of triangles. In mathematical terms, we have the following necessary condition for stability of a simple truss:
+
+
+
+
+m
+≥
+2
+j
+−
+r
+
+
+
+(
+a
+)
+
+
+
+{\displaystyle m\geq 2j-r\qquad \qquad \mathrm {(a)} }
+
+where m is the total number of truss members, j is the total number of joints and r is the number of reactions (equal to 3 generally) in a 2-dimensional structure.
+When
+
+
+
+m
+=
+2
+j
+−
+3
+
+
+{\displaystyle m=2j-3}
+, the truss is said to be statically determinate, because the (m+3) internal member forces and support reactions can then be completely determined by 2j equilibrium equations, once we know the external loads and the geometry of the truss. Given a certain number of joints, this is the minimum number of members, in the sense that if any member is taken out (or fails), then the truss as a whole fails. While the relation (a) is necessary, it is not sufficient for stability, which also depends on the truss geometry, support conditions and the load carrying capacity of the members.
+Some structures are built with more than this minimum number of truss members. Those structures may survive even when some of the members fail. Their member forces depend on the relative stiffness of the members, in addition to the equilibrium condition described.

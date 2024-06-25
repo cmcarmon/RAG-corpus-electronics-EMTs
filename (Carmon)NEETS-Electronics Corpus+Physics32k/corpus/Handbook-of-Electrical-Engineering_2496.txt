@@ -1,0 +1,10 @@
+The drain-to-source resistance rds will have a temperature coefﬁcient (TC) due to two causes: (1) the variation
+of the channel resistivity with temperature and (2) the temperature variation of VP . The TC of the channel resistivity
+is positive, whereas the TC of VP is negative due to the negative TC of the contact potential f. The positive TC of
+the channel resistivity will contribute to a positive TC of rds. The negative TC of VP will contribute to a negative
+TC of rds. At small values of VGS , the dominant contribution to the TC is the positive TC of the channel resistivity,
+so rds will have a positive TC. As VGS gets larger, the negative TC contribution of VP becomes increasingly important,
+and  there  will  be  a  value  of  VGS  at  which  the  net  TC  of  rds  is  zero,  and  above  this  value  of  VGS  the  TC  will  be
+negative.  The  TC  of  rds(on)  is  typically  +0.3%/(cid:176)C  for n-channel  JFETs  and  +0.7%/(cid:176)C  for  p-channel  JFETs.  For
+example, for a typical JFET with an rds(on) = 500 W at 25(cid:176)C and VP = 2.6 V, the zero TC point will occur at VGS =
+2.0 V. Any JFET can be used as a VVR, although there are JFETs that are speciﬁcally made for this application.

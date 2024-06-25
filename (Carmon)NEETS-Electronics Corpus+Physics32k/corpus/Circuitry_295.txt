@@ -1,0 +1,22 @@
+that  of  simply 
+time 
+constant. This can be achieved either by increasing 
+the  value  of  C1 or  by  increasing  the  resistance 
+value  of  RL. In  practice,  however,  the  latter  is  not 
+really  an  option  because  RL is  the  effective 
+resistance  of  the  circuit  being  supplied  and  we 
+don’t  usually  have 
+it! 
+Increasing  the  value  of  C1 is  a  more  practical 
+alternative and very large capacitor values (often in 
+excess of 4,700 µF) are typical.     
+  Figure  6.8  shows  a  further  refinement  of  the 
+simple  power  supply  circuit.  This  circuit  employs 
+two  additional  components,  R1 and  C1, which  act 
+as a filter to remove the ripple. The value of C1 is 
+chosen so that the component exhibits a negligible 
+reactance at the ripple frequency (50 Hz for a half-
+wave rectifier or 100 Hz for a full-wave rectifier—
+see later). In effect, R1 and C1 act like a potential 
+divider.  The  amount  of  ripple  is  reduced  by  an 
+approximate factor equal to: 

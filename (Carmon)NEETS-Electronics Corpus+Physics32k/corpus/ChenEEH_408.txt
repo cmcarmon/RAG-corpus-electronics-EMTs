@@ -1,0 +1,8 @@
+Operational Simulation or Signal-Flow Graph
+Implementation of LC Ladders
+As mentioned earlier, in the SFG simulation of an LC ladder
+ﬁlter, each inductor and capacitor are interpreted as signal-
+ﬂow integrators that can be implemented by an RC/op-amp
+circuit. The method is completely general in that it permits
+arbitrary ladder arms to be realized, but in this chapter, we
+shall illustrate the procedure only on low-pass ladders.

@@ -1,0 +1,5 @@
+Digit serial: Processing of more than one but not all bits in one clock cycle. If the digit size is W1 and the
+word length is W, then the word is processed in W/W1 clock cycles. If W1 = 1, then the system is referred
+to  as  a  bit-serial  and  if W1  = W,  then  the  system  is  referred  to  as  a  bit-parallel  system.  In  general,  the
+digit  size W1  need  not  be  a  divisor  of  the  word  length W,  since  the  least  and  most  signiﬁcant  bits  of
+consecutive words can be overlapped and processed in the same clock cycle.

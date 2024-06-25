@@ -1,0 +1,10 @@
+Run-time reconﬁguration has two main beneﬁts. First, it
+enables multiplexing nonmutually dependent operations in
+the time domain: circuit area can be reduced by including
+only the active parts of a circuit at a particular moment in
+time. If the tasks or the algorithmic steps in an application can
+be partitioned into smaller ones to ﬁt into available FPGA
+resources, run-time reconﬁguration can be used to swap be-
+tween the smaller circuits. This technique will enable the
+implementation of a large virtual circuit in a small physical
+FPGA.

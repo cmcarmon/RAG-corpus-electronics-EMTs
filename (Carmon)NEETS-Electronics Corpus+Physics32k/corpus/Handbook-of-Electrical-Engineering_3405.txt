@@ -1,0 +1,8 @@
+D/A Conversion Processes
+Digital codes are typically converted to analog voltages by assigning a voltage weight to each bit in the digital
+code and then summing the voltage weights of the entire code. A general D/A converter consists of a network
+of precision resistors, input switches, and level shifters to activate the switches to convert a digital code to an
+analog current or voltage. D/A ICs that produce an analog current output usually have a faster settling time
+and better linearity than those that produce a voltage output. When the output current is available, the designer
+can convert this to a voltage through the selection of an appropriate output ampliﬁer to achieve the necessary
+response speed for the given application.

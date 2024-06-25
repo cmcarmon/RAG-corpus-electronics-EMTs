@@ -1,0 +1,28 @@
+conditions for oscillation are: 
+ (a) the feedback  must be positive (i.e. the signal 
+fed back must arrive back in-phase with the signal 
+at the input);  
+ (b) the overall loop voltage gain must be greater 
+than 1 (i.e. the amplifier’s gain  must be sufficient 
+to  overcome 
+losses  associated  with  any 
+frequency selective feedback network).  
+  Hence, to create an oscillator we simply need an 
+amplifier  with  sufficient  gain  to  overcome  the 
+losses  of 
+that  provide  positive 
+feedback.  Assuming  that  the  amplifier  provides 
+180°  phase  shift,  the  frequency  of  oscillation  will 
+be  that  at  which  there  is  180°  phase  shift  in  the 
+feedback network.  
+ A number of circuits can be used to provide 180° 
+phase shift, one of the simplest being a three-stage 
+C–R ladder  network  that  we  shall  meet  next. 
+Alternatively,  if  the  amplifier  produces  0°  phase 
+shift,  the  circuit  will  oscillate  at  the  frequency  at 
+which  the  feedback  network  produces  0°  phase 
+shift.  In  both  cases,  the  essential  point  is  that  the 
+feedback  should  be  positive  so  that  the  output 
+signal arrives back at the input in such a sense as to 
+reinforce the original signal. 
+ 

@@ -1,0 +1,12 @@
+Measurement and Quantization Noise
+Measurement Error
+The measurement X t of a signal X(t) at any t results in a measured value  X t = x that contains error, and so is
+not equal to the true value  X t = xT . The probability is higher that the magnitude of e = (x – x T) is closer to
+zero.  The  bell-shaped  Gaussian  probability  density  f(e)  =  [1/(2ps2]1/2exp(–e2/2ps)  ﬁts  the  error  well.  This
+noise process is stationary over time. The expected value is m
+2 , and the rms
+e
+error is s
+2.  To see this, the error signal e(t) = (x – xT) has instantaneous
+e
+power per W of

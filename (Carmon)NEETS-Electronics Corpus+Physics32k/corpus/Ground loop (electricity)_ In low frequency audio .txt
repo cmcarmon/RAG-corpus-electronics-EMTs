@@ -1,0 +1,32 @@
+If, for example, a domestic HiFi system has a grounded turntable and a grounded preamplifier connected by a thin screened cable (or cables, in a stereo system) using phono connectors, the cross-section of copper in the cable screen(s) is likely to be less than that of the protective ground conductors for the turntable and the preamplifier. So, when a current is induced in the loop, there will be a voltage drop along the signal ground return. This is directly additive to the wanted signal, and will result in objectionable hum. For instance, if a current
+
+
+
+I
+
+
+{\displaystyle I}
+of 1mA at the local power frequency is induced in the ground loop, and the resistance
+
+
+
+R
+
+
+{\displaystyle R}
+of the screen of the signal cable is 100 milliohms, the voltage drop will be
+
+
+
+V
+=
+I
+⋅
+R
+
+
+{\displaystyle V=I\cdot R}
+= 100 microvolts. This is a significant fraction of the output voltage of a moving coil pickup cartridge, and a truly objectionable hum will result.
+In practice this case usually does not happen because the pickup cartridge, an inductive voltage source, need have no connection to the turntable metalwork, and so the signal ground is isolated from the chassis or protective ground at that end of the link. Therefore there is no current loop, and no hum problem due directly to the grounding arrangements.
+In a more complex situation, such as sound reinforcement systems, public address systems, music instrument amplifiers, recording studio and broadcast studio equipment , there are many signal sources in items of AC powered equipment, feeding many inputs on other items of equipment. Careless interconnection is virtually guaranteed to result in hum problems. Ignorant or inexperienced people have on many occasions attempted to cure these problems by removing the protective ground conductor on some items of equipment, to disrupt ground loops. This has resulted in many fatal accidents, when some item of equipment has an insulation failure, the only path to ground is via an audio interconnection, and someone unplugs this, exposing themselves to anything up to the full supply voltage. The practice of "lifting" protective grounds is illegal in countries which have proper electrical safety regulations, and in some cases can result in criminal prosecution.
+Therefore solving "hum" problems must be done in the signal interconnections, and this is done in two main ways, which may be combined.

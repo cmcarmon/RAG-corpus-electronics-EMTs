@@ -1,0 +1,16 @@
+As shown in figure 2-12, the SCR is a three-element, solid-state device in which the forward
+resistance can be controlled. The three active elements shown in the figure are the anode, cathode, and
+gate. Although they may differ in outward appearance, all SCRs operate in the same way. The SCR acts
+like a very high-resistance rectifier in both forward and reverse directions without requiring a gate signal.
+However, when the correct gate signal is applied, the SCR conducts only in the forward direction, the
+same as any conventional rectifier. To test an SCR, you connect an ohmmeter between the anode and
+cathode, as shown in figure 2-12. Start the test at R ·  10,000 and reduce the value gradually. The SCR
+under test should show a very high resistance, regardless of the ohmmeter polarity. The anode, which is
+connected to the positive lead of the ohmmeter, must now be shorted to the gate. This will cause the SCR
+to conduct; as a result, a low-resistance reading will be indicated on the ohmmeter. Removing the anode-
+to-gate short will not stop the SCR from conducting; but removing either of the ohmmeter leads will
+cause the SCR to stop conducting — the resistance reading will then return to its previous high value.
+Some SCRs will not operate when you connect an ohmmeter. This is because the ohmmeter does not
+supply enough current. However, most of the SCRs in Navy equipment can be tested by the ohmmeter
+method. If an SCR is sensitive, the R ·  1 scale may supply too much current to the device and damage it.
+Therefore, try testing it on the higher resistance scales.

@@ -1,0 +1,7 @@
+Clock Distribution
+Signals are increasingly distorted not only by long line lengths, but also by the higher clock frequency in present-
+day VLSI circuits, with the combination of long lines and high clock rates of particular concern. Present-day
+VLSI  circuits  include  a  vast  number  of  ﬂip-ﬂops  (often  as  registers)  distributed  across  the  area  of  the VLSI
+circuit. Synchronous ASICs use a common clock, distributed to each of these ﬂip-ﬂops. With the clock signal
+being  the  longest  interconnection  on  the VLSI  circuit  and  the  highest-frequency  signal,  design  of  the  clock
+distribution network is critical for highest performance.

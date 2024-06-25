@@ -1,0 +1,12 @@
+Transmitted signals next pass through the next stage, the evil channel. Nothing good happens to a
+signal in a channel: It can become corrupted by noise, distorted, and attenuated among many possibilities.
+The channel cannot be escaped (the real world is cruel), and transmitter design and receiver design focus
+on how best to jointly fend oﬀ the channel’s eﬀects on signals. The channel is another system in our block
+diagram, and produces r (t), the signal received by the receiver. If the channel were benign (good luck
+ﬁnding such a channel in the real world), the receiver would serve as the inverse system to the transmitter,
+and yield the message with no distortion. However, because of the channel, the receiver must do its best to
+produce a received message ˆs (t) that resembles s (t) as much as possible. Shannon7 showed in his 1948 paper
+that reliable—for the moment, take this word to mean error-free—digital communication was possible over
+arbitrarily noisy channels. It is this result that modern communications systems exploit, and why many
+communications systems are going “digital.” The module on Chapter 6, titled Information Communication,
+details Shannon’s theory of information, and there we learn of Shannon’s result and how to use it.

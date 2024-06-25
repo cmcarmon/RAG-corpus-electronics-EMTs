@@ -1,0 +1,34 @@
+Intrinsic rotations are elemental rotations that occur about the axes of a coordinate system XYZ attached to a moving body. Therefore, they change their orientation after each elemental rotation. The XYZ system rotates, while xyz is fixed. Starting with XYZ overlapping xyz, a composition of three intrinsic rotations can be used to reach any target orientation for XYZ.
+Euler angles can be defined by intrinsic rotations. The rotated frame XYZ may be imagined to be initially aligned with xyz, before undergoing the three elemental rotations represented by Euler angles. Its successive orientations may be denoted as follows:
+x-y-z, or x0-y0-z0 (initial)
+x’-y’-z’, or x1-y1-z1 (after first rotation)
+x″-y″-z″, or x2-y2-z2 (after second rotation)
+X-Y-Z, or x3-y3-z3 (final)
+For the above-listed sequence of rotations, the line of nodes N can be simply defined as the orientation of X after the first elemental rotation. Hence, N can be simply denoted x’. Moreover, since the third elemental rotation occurs about Z, it does not change the orientation of Z. Hence Z coincides with z″. This allows us to simplify the definition of the Euler angles as follows:
+α (or
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+) represents a rotation around the z axis,
+β (or
+
+
+
+θ
+
+
+{\displaystyle \theta }
+) represents a rotation around the x’ axis,
+γ (or
+
+
+
+ψ
+
+
+{\displaystyle \psi }
+) represents a rotation around the z″ axis.

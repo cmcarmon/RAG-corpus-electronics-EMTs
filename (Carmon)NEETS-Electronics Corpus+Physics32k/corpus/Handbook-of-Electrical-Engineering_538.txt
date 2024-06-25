@@ -1,0 +1,11 @@
+The three-phase inputs with the associated rectiﬁer output voltage are shown in Fig. 5.7 as they would appear
+without  the  low-pass  ﬁlter  section.  The  three-phase  bridge  rectiﬁer  has  a  reduced  ripple  content  of  4%  as
+compared  to  a  ripple  content  of  47%  in  the  single-phase  bridge  rectiﬁer  [Milnes,  1980].  The  corresponding
+diodes that conduct are also shown at the top of the ﬁgure. This output waveform assumes a purely resistive
+load connected as shown in Fig. 5.6. Most loads (motors, transformers, etc.) and many sources (power grid)
+include  some  inductance,  and  in  fact  may  be  dominated  by  inductive  properties.  This  causes  phase  shifts
+between the input and output waveforms. The rectiﬁer output may thus vary in shape and phase considerably
+from that shown in Fig. 5.7 [Kassakian et al., 1991]. When other types of switches are used in these circuits the
+inductive elements can induce large voltages that may damage sensitive or expensive components. Diodes are
+used regularly in such circuits to shunt current and clamp induced voltages at low levels to protect expensive
+components such as electronic switches.

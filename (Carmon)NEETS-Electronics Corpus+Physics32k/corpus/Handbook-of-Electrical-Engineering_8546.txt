@@ -1,0 +1,6 @@
+Horizontal Microinstructions
+Each of the ﬁelds f of a microinstruction speciﬁes a microcommand. If the format of the microinstruction is
+such that all possible microcommands can be speciﬁed, the instruction is called horizontal. Most of the time,
+it  is  wasteful  in  memory  as,  in  a  microprogram,  not  every  possible  microcommand  is  speciﬁed  in  each
+microinstruction. However, it permits the microprogrammer to fully take advantage of all possible parallelisms
+and to build faster machines.

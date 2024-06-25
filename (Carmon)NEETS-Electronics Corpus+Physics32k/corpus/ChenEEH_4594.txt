@@ -1,0 +1,13 @@
+where p(m) and t (m) are the network input vector and desired
+output vector at time-step m, respectively. The k is the current
+time-step, and j represents the length of the time-shifting data
+window, which is a design parameter. This parameter has to be
+decided based on the system computational capability, sam-
+pling rate, and the performance requirement. In addition, the
+maximum number of the effective control signal searching
+iterations is another important design parameter in real-time
+applications. The number has to be within an allowable range
+according to the system computational capacity in the online
+situation. For gradient descent-type of optimization algo-
+rithms, a time-varying learning rate can be used to possibly
+reduce the searching time.

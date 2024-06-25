@@ -1,0 +1,5 @@
+Let us now compute tr. As defined earlier, tr is the time taken for the
+clock signal to rise from VOL to VOH. The equivalent circuit for computing tr
+is suggested in Figure 10.46. The circuit shows the equivalent capacitor being
+charged by the supply VS through the RL and Rwire resistances. Let us denote
+Req = RL + Rwire. The initial voltage on the capacitor VC0 = VOL.

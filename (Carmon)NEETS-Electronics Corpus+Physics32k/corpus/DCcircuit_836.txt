@@ -1,0 +1,7 @@
+Now, the calibration span of the resistor network is only 500 Ω, from 8 kΩ to 8.5 kΩ. This
+makes a precision of +/- 1 Ω equal to 1 part in 500, or 0.2 percent. The adjustment is now
+half as sensitive as it was before the addition of the parallel resistor, facilitating much easier
+calibration to the target value. The adjustment will not be linear, unfortunately (halfway on
+the potentiometer’s shaft position will not result in 8.25 kΩ total resistance, but rather 8.333
+kΩ). Still, it is an improvement in terms of sensitivity, and it is a practical solution to our
+problem of building an adjustable resistance for a precision instrument!

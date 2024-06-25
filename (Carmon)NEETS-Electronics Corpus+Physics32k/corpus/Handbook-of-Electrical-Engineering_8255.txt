@@ -1,0 +1,10 @@
+Data acquisition systems are usually designed to couple with existing computer systems, and many computer
+systems provide standard bus architecture, allowing users to connect various peripherals that are compatible
+with its bus. Data acquisition systems are computer peripherals that follow the above description. Since ADCs
+produce parallel data, many data acquisition systems provide outputs compatible with parallel instrument buses
+such as the IEEE-488 (HP-IB or GPIB) or the VMEbus. Personal computer-based data acquisition boards must
+have  communication  interfaces  compatible  with  the  computer  bus  in  order  to  share  resources.  The  RS-232
+standard communication interfaces are widely used in serial data transfer. Communication interfaces for data
+acquisition systems are normally designed to satisfy the electrical, mechanical, and protocol standards of the
+interface bus. Electrical standards include power supply requirements, methods of supply, the data transfer rate
+(baud rate), the width of the address, and the line terminating impedance. Mechanical requirements are the

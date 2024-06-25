@@ -1,0 +1,4 @@
+Scheduling  assigns  computational  units  to  control  steps,  thereby  determining  which  behaviors  execute  in
+which clock cycles. At one extreme, all computational units can be assigned to a single control step, exploiting
+maximum concurrency. At the other extreme, computational units can be assigned to individual control steps,
+exploiting maximum sequentiality. Several popular scheduling algorithms are listed below:

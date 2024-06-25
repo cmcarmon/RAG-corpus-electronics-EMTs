@@ -1,0 +1,13 @@
+Figure  81.22  shows  a  PAL16L8  implementation  for  the  binary  to
+seven-segment hexadecimal character generator that also requires just a
+single IC package. The fuse map for this design was obtained using the
+software program PLDesigner-XL. Karnaugh maps are handy tools that
+allow a designer to easily obtain minimum SOP equations for either the
+1’s or 0’s of Boolean functions of up to four or ﬁve variables; however,
+there are a host of commercially available software programs that pro-
+vide not only Boolean reduction but also equation simulation and fuse
+map generation for PLDs and ﬁeld programmable gate arrays (FPGAs).
+PLDesigner-XL (trademark of Minc, Incorporated) is an example of
+a premier commercial software package available for logic synthesis
+for  PLDs  and  FPGAs,  for  both  combinational  logic  and  sequential
+logic circuits.

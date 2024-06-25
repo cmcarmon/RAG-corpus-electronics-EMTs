@@ -1,0 +1,7 @@
+To model the reliability of any system it is necessary to deﬁne the various fault-free and faulty states that
+could exist. For example, a system consisting of two identical units (A and B), either of which has to work for
+the system to work, would have four possible states. They would be (1) A and B working; (2) A working, B
+failed; (3) B working, A failed; and (4) A and B failed. The system designer must assign to each state a series
+of probabilities that determine whether it will remain in the same state or change to another after a given time
+period. This is usually shown in a state diagram, as in Fig. 98.7. This model does not allow for the possibility
+of repair, but this could easily be added.

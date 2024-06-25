@@ -1,0 +1,16 @@
+To compress audio signals by a factor as large as eleven while maintaining a quality exceeding that of a local
+  in  a  given
+FM  radio  station  requires  sophisticated  algorithms  for  reducing  the 
+signal. A large portion (but usually less than 50%) of the bit-rate reduction in an audio coder is due to the ﬁrst
+of the two mechanisms. Eliminating irrelevant portions of an input signal is done with the help of psychoa-
+coustic  models.  It  is  obvious  that  a  coder  can  eliminate  portions  of  the  input  signal  that—when  played
+back—will  be  below  the  threshold  of  hearing.  More  complicated  is  the  case  when  we  have  multiple  signal
+components that tend to cover each other, that is, when weaker components cannot be heard due to the presence
+of stronger components. This effect is called 
+. To let a coder take advantage of masking effects, we need
+to  use  good  masking  models.  Masking  can  be  modeled  in  the  time  domain  where  we  distinguish  so-called
+before
+simultaneous masking (masker and maskee occur at the 
+ maskee). Simultaneous masking usually is modeled in
+maskee), and backward masking (masker occurs 
+the frequency domain. This latter case is illustrated in Fig. 19.5.

@@ -1,0 +1,14 @@
+Discretization Error
+The design of an effective PML requires balancing the theoret-
+ical reﬂection error R(u) and the numerical discretization
+error. For example, equation 9.128 provides sx, max for a
+polynomial-graded conductivity given a predetermined R(0)
+and m. If sx, max is too small, the primary reﬂection from the
+PML is due to its PEC backing, and equation 9.125 provides a
+fairly accurate approximation of the reﬂection error. However,
+if sx, max is too large, the discretization error due to the FDTD
+approximation dominates, and the actual reﬂection error is
+potentially much higher than what equation 9.125 predicts.
+Consequently, there is an optimal choice for sx, max that bal-
+ances reﬂection from the PEC outer boundary and discretiza-
+tion error.

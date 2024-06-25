@@ -1,0 +1,11 @@
+The phase detectors compare the phase of the bearing and elevation IF with a reference IF from the
+range channels. This comparison  produces the dc error pulses needed to drive the antenna servos. The
+signals from both the bearing and elevation channels are the result of a summation process. They can be
+either positive (in-phase) or negative (180-degrees out of phase) when compared to the reference IF
+signal. For example, if the output of horns A and C is smaller than the output of horns B and D, a negative
+or 180-degree-out-of-phase signal is produced by the bearing channel (A + C) - (B + D). If output A + C
+is greater than output B + D, a positive or in-phase signal is produced by the bearing channel. The phase
+of the bearing and elevation output signals determines the direction in which the antenna moves; the
+magnitude of the signal determines the amount of movement. Since two signals must be present at the
+phase detector to produce an output, an error signal occurs only when a return echo is not on the antenna
+beam axis.

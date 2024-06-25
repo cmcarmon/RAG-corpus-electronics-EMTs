@@ -1,0 +1,17 @@
+The MCT has an uncontrolled on-state performance; hence,
+its forward-biased safe operating area (FBSOA) cannot be
+deﬁned. The emitter-switched thyristor (EST) has been pro-
+posed to achieve control over the thyristor on-state conduc-
+tion. The cross-section of an EST is shown in Figure 7.19(B).
+The EST has an nþ ﬂoating emitter region in addition to the
+basic IGBT structure. When the inversion channel is formed on
+application of a gate voltage, device performance is identical to
+an IGBT. At higher current levels, hole ﬂow in the p-base
+region under the ﬂoating region forward biases the p-nþ junc-
+tion, causing latch-up of the vertical thyristor. The thyristor
+current ﬂows through the MOS channel before reaching the
+emitter terminal. This provides control over the thyristor cur-
+rent as resistance of the channel can be varied by changing the
+gate voltage. On-state thyristor operation of EST results in a
+much higher current density than IGBT. The switching mech-
+anism in an EST is identical to an IGBT. Because of a higher

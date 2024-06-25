@@ -1,0 +1,4 @@
+Another alternative to the EKF, reported in Julier et al. [1995], is called the unscented ﬁlter, and in contrast
+to  the  EKF,  does  not  use  Jacobians,  but  rather  evaluates  multidimensional  integrals  by  sampling  at  carefully
+selected points much like Gauss-Hermite quadrature formulas. The unscented ﬁlter shows much better per-
+formance than the EKF in certain applications, with less computational complexity than the EKF.

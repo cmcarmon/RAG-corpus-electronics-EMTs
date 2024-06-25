@@ -1,0 +1,7 @@
+. Source routing transparent (SRT): This approach allows
+for the interconnection of LANs by a mixture of source
+routing and transparent bridging. The route information
+indicator (RII) bit in MAC source address determines
+which algorithm will be used. If the RII is equal to 0,
+then the frame is handled by transparent bridge logic; if it
+equals to 1, it is handled by the source routing logic.

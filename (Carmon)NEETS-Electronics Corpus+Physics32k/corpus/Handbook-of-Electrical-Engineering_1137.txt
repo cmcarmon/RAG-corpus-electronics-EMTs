@@ -1,0 +1,6 @@
+Design of Other IIR Filters
+For  frequency-selective  ﬁlters,  the  bilinear  transformation  of  an  elliptic  analog  ﬁlter  provides  an  optimal
+equiripple  design.  However,  if  a  design  other  than  standard  low-pass,  high-pass,  band-pass,  or  bandstop  is
+needed  or  if  it  is  desired  to  approximate  an  arbitrary  magnitude  or  group  delay  characteristic,  some  other
+design technique is needed. Unlike the FIR case, there is no standard IIR design program for obtaining optimal
+approximations to an arbitrary response.

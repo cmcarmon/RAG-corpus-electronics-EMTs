@@ -1,0 +1,15 @@
+In 1951, Maurice Wilkes suggested the notion of designing a
+three-level computer to simplify the hardware. Prior to his
+suggestion, computers used a two-level approach in which
+level 1 was for programming (also known as the instruction
+set architecture [ISA] level) and level 2 was for digital logic. In
+Wilkes’s proposed design, an unchangeable interpreter (the
+microprogram) was introduced to execute the ISA level pro-
+gram by interpretation. Since microprograms have a smaller
+instruction set than ISA level programs, the number of hard-
+ware components needed was greatly reduced. During the
+1970s, the microprogram was the most dominant approach
+in system design. Nowadays, the popularity of reduced instruc-
+tion set computing (RISC) has virtually eliminated the need
+for microprogramming. The basic hierarchy of systems using
+microprogramming is illustrated in Figure 1.1.

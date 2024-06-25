@@ -1,0 +1,7 @@
+Digital channels are described by transition diagrams, which indicate the output alphabet symbols
+that result for each possible transmitted symbol and the probabilities of the various reception possibilities.
+The probabilities on transitions coming from the same symbol must sum to one. For the matched-ﬁlter
+receiver and the signal sets we have seen, the depicted transition diagram, known as a binary symmetric
+channel, captures how transmitted bits are received. The probability of error pe is the sole parameter of
+the digital channel, and it encapsulates signal set choice, channel properties, and the matched-ﬁlter receiver.
+With this simple but entirely accurate model, we can concentrate on how bits are received.

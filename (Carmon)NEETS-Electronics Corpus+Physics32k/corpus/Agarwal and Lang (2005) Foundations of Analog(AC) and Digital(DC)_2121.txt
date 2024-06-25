@@ -1,0 +1,9 @@
+This is an important result. It says that the relation between vo and vi, is almost
+independent of the somewhat unreliable gain constant A of the original Op Amp.
+In other words, because resistor values are stable, reliable and very insensi-
+tive to temperature, we expect vo in this circuit to be a stable reliable function
+of vi. But this reliability has come at a price: The gain is now much less than
+for the Op Amp alone
+somewhere between 1 and 1,000 depending on the
+choice of R1 and R2 (but not more than 1000, or the inequality, Equation 15.8,
+will no longer be valid).

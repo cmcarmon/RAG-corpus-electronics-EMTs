@@ -1,0 +1,10 @@
+You might draw the conclusion that an agc network is not necessary when the receiver is operating
+on a single station. However, this is not true; atmospheric conditions may cause the signal strength to vary
+(fade in and out), or the antenna may receive components of the signal which have traveled along
+different paths. For example, one component may travel directly from the antenna, and another may have
+been reflected from a distant object. The two signals will sometimes be in phase and at other times be out
+of phase, thus tending to reinforce or cancel each other. The result is a variation in signal strength at the
+receiver antenna. This variation in signal strength is often referred to as FADING. The effect of fading in
+the output signal voltage of an rf stage is best demonstrated by the following example: An rf amplifier
+connected to a receiving antenna has a voltage gain of 100. If the antenna receives an input signal of 10
+microvolts, the output voltage is computed as follows:

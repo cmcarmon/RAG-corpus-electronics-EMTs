@@ -1,0 +1,12 @@
+Modulation and Transmission
+Transmission  of  the  encoded  facsimile  signal  makes  use  of  modem  signaling  techniques  based  on  CCITT
+recommendations V.27  (standard)  and V.29  (optional  addition).  The  former  utilizes  8-phase  modulation  at
+4800 bits per second (bps), and the latter employs 16-QAM (quadrature amplitude modulation) at 9600 bps
+with  adaptive,  linear  equalization. A  facsimile  telephone  call  consists  of  ﬁve  phases,  labeled A  through  E.  In
+phase A,  the  telephone  call  is  placed,  with  a  training  sequence  sent  consisting  of  signals  to  establish  carrier
+detection, AGC, timing synchronization, and adjust equalizer tap settings. Phase B consists of the called station
+responding with a conﬁrmation to receive (CFR) signal. The response is a 300 bps binary coded frequency-
+shift keyed signal (1 = 1650 – 6 Hz and 0 = 1850 – 6 Hz), except for the equalizer training sequence which is
+at the fast data rate of the digital modem. In phase C the encoded facsimile image is transmitted. Phase D consists
+of the end-of-transmission signal consisting of six consecutive end-of-lines (EOLs), with receipt required from
+the receiver. If no more images are to be sent or received, phase E (going on-hook) is effected at both terminals.

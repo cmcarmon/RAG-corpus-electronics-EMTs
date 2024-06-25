@@ -1,0 +1,9 @@
+For  n  =  1,  the  intensity  is  constant—i.e.,  independent  of  angle.  For  l  >  L,  both  the  numerator  and
+denominator of Eq. (38.32) have no zeros and as the length of an array shortens (relative to a wavelength), the
+intensity pattern converges to a constant (n = 1 case). As shown in Fig. 38.9, a separation of l/4 has an intensity
+rolloff  less  than  1 dB  over  p/2  radians  (a  l/2  separation  rolls  off  3 dB).  This  implies  that  placing  antenna
+elements closer than l/4 does not signiﬁcantly change the intensity pattern. Many microwave antennas exploit
+this and use a mesh or parallel wire (for polarization sensitivity) design rather than covering the entire aperture
+with  conductor.  This  reduces  both  weight  and  sensitivity  to  wind  loading.  Note  that  the  analysis  has  not
+accounted for phase variations from position errors in the element placement where the required accuracy is
+typically better than l/10.

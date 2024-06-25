@@ -1,0 +1,237 @@
+Consider a traveling transverse wave (which may be a pulse) on a string (the medium). Consider the string to have a single spatial dimension. Consider this wave as traveling
+
+in the
+
+
+
+x
+
+
+{\displaystyle x}
+direction in space. E.g., let the positive
+
+
+
+x
+
+
+{\displaystyle x}
+direction be to the right, and the negative
+
+
+
+x
+
+
+{\displaystyle x}
+direction be to the left.
+with constant amplitude
+
+
+
+u
+
+
+{\displaystyle u}
+
+with constant velocity
+
+
+
+v
+
+
+{\displaystyle v}
+, where
+
+
+
+v
+
+
+{\displaystyle v}
+is
+independent of wavelength (no dispersion)
+independent of amplitude (linear media, not nonlinear).
+
+with constant waveform, or shape
+This wave can then be described by the two-dimensional functions
+
+
+
+
+u
+(
+x
+,
+t
+)
+=
+F
+(
+x
+−
+v
+
+t
+)
+
+
+{\displaystyle u(x,t)=F(x-v\ t)}
+(waveform
+
+
+
+F
+
+
+{\displaystyle F}
+traveling to the right)
+
+
+
+
+u
+(
+x
+,
+t
+)
+=
+G
+(
+x
++
+v
+
+t
+)
+
+
+{\displaystyle u(x,t)=G(x+v\ t)}
+(waveform
+
+
+
+G
+
+
+{\displaystyle G}
+traveling to the left)
+or, more generally, by d'Alembert's formula:
+
+
+
+
+u
+(
+x
+,
+t
+)
+=
+F
+(
+x
+−
+v
+t
+)
++
+G
+(
+x
++
+v
+t
+)
+.
+
+
+
+{\displaystyle u(x,t)=F(x-vt)+G(x+vt).\,}
+
+representing two component waveforms
+
+
+
+F
+
+
+{\displaystyle F}
+and
+
+
+
+G
+
+
+{\displaystyle G}
+traveling through the medium in opposite directions. A generalized representation of this wave can be obtained as the partial differential equation
+
+
+
+
+
+
+1
+
+v
+
+2
+
+
+
+
+
+
+
+
+∂
+
+2
+
+
+u
+
+
+∂
+
+t
+
+2
+
+
+
+
+
+=
+
+
+
+
+∂
+
+2
+
+
+u
+
+
+∂
+
+x
+
+2
+
+
+
+
+
+.
+
+
+
+{\displaystyle {\frac {1}{v^{2}}}{\frac {\partial ^{2}u}{\partial t^{2}}}={\frac {\partial ^{2}u}{\partial x^{2}}}.\,}
+
+General solutions are based upon Duhamel's principle.

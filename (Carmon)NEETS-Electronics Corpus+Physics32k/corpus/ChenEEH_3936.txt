@@ -1,0 +1,10 @@
+Perceptive readers may see that implementation of MLE can
+easily become complex and numerically difﬁcult, especially
+when the underlying distribution is non-Gaussian. If the par-
+ameter to be estimated is a simple scalar, and its admissible
+values are limited to a ﬁnite interval, search algorithms can be
+employed to guarantee satisfactory results. If this is not the case,
+more sophisticated numerical optimization algorithms will be
+needed to render good estimation results. Among others, itera-
+tive algorithms such as the Newton-Raphson method and the
+expectation maximization method are often employed.

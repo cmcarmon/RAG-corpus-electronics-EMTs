@@ -1,0 +1,39 @@
+The Kelvin–Voigt model, also known as the Voigt model, consists of a Newtonian damper and Hookean elastic spring connected in parallel, as shown in the picture. It is used to explain the creep behaviour of polymers.
+The constitutive relation is expressed as a linear first-order differential equation:
+
+
+
+
+σ
+(
+t
+)
+=
+E
+ε
+(
+t
+)
++
+η
+
+
+
+d
+ε
+(
+t
+)
+
+
+d
+t
+
+
+
+
+
+{\displaystyle \sigma (t)=E\varepsilon (t)+\eta {\frac {d\varepsilon (t)}{dt}}}
+
+This model represents a solid undergoing reversible, viscoelastic strain. Upon application of a constant stress, the material deforms at a decreasing rate, asymptotically approaching the steady-state strain. When the stress is released, the material gradually relaxes to its undeformed state. At constant stress (creep), the Model is quite realistic as it predicts strain to tend to σ/E as time continues to infinity. Similar to the Maxwell model, the Kelvin–Voigt model also has limitations. The model is extremely good with modelling creep in materials, but with regards to relaxation the model is much less accurate.
+Applications: organic polymers, rubber, wood when the load is not too high.

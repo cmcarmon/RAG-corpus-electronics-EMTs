@@ -1,0 +1,7 @@
+The coaxial cable essentially acts as a private radio channel for the users. An interesting protocol called carrier
+sense multiple-access with collision detection (CSMA/CD) is used in such a network. Each station constantly
+monitors  the  cable  and  can  detect  when  it  is  idle  (no  user  transmitting),  when  one  user  is  transmitting
+(successfully), or when more than one user is simultaneously transmitting (resulting in an unsuccessful collision
+on the channel). The cable basically acts as a broadcast bus. Any station can transmit on the cable if the station
+detects it to be idle. Once a station transmits, other stations will not interrupt the transmission. As there is no
+central control in the network, occasionally two or more stations may attempt to transmit at about the same

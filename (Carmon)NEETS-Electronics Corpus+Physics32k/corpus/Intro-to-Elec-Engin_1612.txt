@@ -1,0 +1,11 @@
+A common symbol for the self-commutated semiconductor switch is shown in Figure 16.1.18.
+The control signal (either voltage or current) is denoted by CS, and the diode gives the direction
+in which the switch can conduct current. GTOs, power transistors, and MOSFETs are classiﬁed
+as self-commutated semiconductor devices because they can be turned off by their respective
+control signals: GTOs by a gate pulse, a power transistor by a base drive, and a MOSFET by
+a gate-to-source voltage. A thyristor, on the other hand, is a naturally commutated device that
+cannot be turned off by its gate signal. A thyristor combined with a forced commutation circuit
+behaves like a self-commutated semiconductor device, however. The self-commutation capability
+makes its turnoff independent of the polarity of the source voltage, the load voltage, or the nature
+of load. Self-commutated semiconductor switches are suitable for applications for converters fed
+from a dc source, such as inverters and choppers.

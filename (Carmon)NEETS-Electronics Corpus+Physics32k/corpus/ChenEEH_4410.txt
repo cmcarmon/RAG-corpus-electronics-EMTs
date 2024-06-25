@@ -1,0 +1,12 @@
+Controller design uses a nominal plant model. The error
+between the nominal model and the real plant arises primarily
+from two sources: unmodeled dynamics and parametric un-
+certainties. If the controller design does not take these errors
+into account,
+it cannot guarantee the performance of the
+closed-loop system with the real plant nor guarantee that
+the closed-loop system will be stable. Therefore, it is important
+to design controllers that will maintain closed-loop stability in
+spite of erroneous design models and uncertainties in param-
+eter values. Controllers so designed are said to impart stability
+robustness to the closed-loop system.

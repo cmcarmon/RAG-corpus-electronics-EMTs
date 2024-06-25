@@ -1,0 +1,25 @@
+Power supply noise is the difference between the local voltage
+references of the driver and the receiver. The increased amount
+of current on power supply lines causes a raise in IR drop on
+voltage references. This makes the gate have higher sensibility
+to noise spikes. This low frequency component (IR drop) is
+managed well by ﬂip-chip C4 packaging, which provides a very
+low resistance current path. Besides, the higher speed tran-
+sients allowed by scaled transistor sizes are associated to higher
+L di/dt due to the large inductances of the package and on-
+chip. Furthermore, the decoupling capacitance of the circuit is
+decreased due to the reduced sizes of the gates. Power supply
+noise is a dominant factor in the design of wide domino
+circuits and in circuits using contention where the alternating
+current (ac) logic level is shifted with respect to power supply
+rails. To counter these problems in high-speed designs, several
+physical design techniques have been proposed: (1) sizing up
+the P/G lines to accommodate the large current peaks and to
+minimize the IR and L di/dt voltage variations in these lines
+(Su et al., 2000), (2) increasing the number of P/G pins, and
+(3) deploying decoupling capacitors in the P/G lines (Bakoglu,
+1990; Zhao et al., 2001). In addition, a designer could perform
+clock skew scheduling to minimize the number of simulta-
+neous switching (Lam et al., 2002). He or she could also use
+copper in place of aluminum to overcome the increased resis-
+tance of scaled interconnect.

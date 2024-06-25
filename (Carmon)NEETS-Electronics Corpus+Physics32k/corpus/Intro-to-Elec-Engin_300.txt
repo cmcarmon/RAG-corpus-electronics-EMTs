@@ -1,0 +1,9 @@
+Analysis of Frequency Response with PSpice and PROBE
+PSpice can readily accomplish the circuit analysis as a function of frequency, and PROBE
+can display Bode plots for magnitude and phase of network transfer functions. Besides the
+linear (LIN) frequency sweep that we used in steady-state sinusoidal analysis, with a sim-
+ilar syntax statement, a logarithmic frequency sweep, with points specifying the number of
+points per octave (an octave represents a twofold increase in frequency) or per decade (a
+decade represents a tenfold increase in frequency), can be speciﬁed. For example,
+the
+statement

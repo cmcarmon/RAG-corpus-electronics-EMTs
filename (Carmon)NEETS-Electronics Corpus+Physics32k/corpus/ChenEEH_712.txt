@@ -1,0 +1,12 @@
+In data transfer intensive applications, a costly and difﬁcult
+issue to solve concerns getting the data to the processor quickly
+enough. A certain amount of parallelism in the data transfers is
+usually required to meet
+the application’s real-time con-
+straints. Parallel data transfers, however, can be very costly.
+Therefore, the trade-off between data transfer bandwidth and
+data transfer cost should be carefully explored. This section
+describes the potential trade-offs involved and also introduces
+a new way to systematically trade-off the data transfer cost
+with other components (illustrated for total system energy
+consumption).

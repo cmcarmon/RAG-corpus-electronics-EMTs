@@ -1,0 +1,4 @@
+Line 4 of the Truth Table shows both PS and CLR HIGH, a negative-going CLK, and J and K at 0,
+or LOW. This corresponds to T3 on the timing diagram. In this condition the FF holds the previous
+condition of the output. In this case the FF is reset. If the circuit were set when these inputs occurred, it
+would remain set.

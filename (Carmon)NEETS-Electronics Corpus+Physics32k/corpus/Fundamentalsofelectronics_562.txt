@@ -1,0 +1,7 @@
+converter, the device that converts integers to amplitudes, assigns an amplitude equal to the value lying
+halfway in the quantization interval. The integer 6 would be assigned to the amplitude 0.625 in this scheme.
+The error introduced by converting a signal from analog to digital form by sampling and amplitude quanti-
+zation then back again would be half the quantization interval for each amplitude value. Thus, the so-called
+2B . As we have ﬁxed the input-amplitude range,
+A/D error equals half the width of a quantization interval:
+the more bits available in the A/D converter, the smaller the quantization error.

@@ -1,0 +1,11 @@
+Figure 8.19 shows the efﬁcacy of this microrollback method,
+HC- and CFC-based error detection, and inﬁnite loop detector
+at a fault injection repeat frequency of 125 KHz and duty cycle
+25% for different patterns of three to four faults injected on the
+memory and cache busses. In all cases, the matrix multipli-
+cation program that was tested ended with incorrect results
+less than 10% of the time, thus achieving a safety probability of
+about 90%. This compares to a safety probability in the range
+of 50 to 68% for microrollback without using concurrent error
+detection via WD-based CFC, thus also demonstrating the
+usefulness of CFC.

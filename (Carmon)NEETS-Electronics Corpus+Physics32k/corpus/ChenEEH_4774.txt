@@ -1,0 +1,19 @@
+This chapter focuses on a systematic treatment for developing a
+generic online learning control system based on the fundamen-
+tal principle of reinforcement learning or, more speciﬁcally,
+neural dynamic programming. This online learning system
+improves its performance over time in two aspects. First, it
+learns from its own mistakes through the reinforcement signal
+from the external environment and tries to reinforce its action
+to improve future performance. Second, system states associ-
+ated with the positive reinforcement are memorized through a
+network learning process where in the future, similar states will
+be more positively associated with a control action leading to a
+positive reinforcement. This discussion also introduces a suc-
+cessful candidate of online learning control design. Real-time
+learning algorithms are derived for individual components in
+the learning system. Some analytical insight are provided to give
+guidelines on the learning process that takes place in each
+module of the online learning control system. The performance
+of the online learning controller is measured by its learning
+speed, success rate of learning, and the degree to meet the

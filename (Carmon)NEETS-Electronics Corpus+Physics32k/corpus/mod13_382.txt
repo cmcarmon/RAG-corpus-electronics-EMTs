@@ -1,0 +1,2 @@
+High-frequency operations require that all the FFs of a counter be triggered at the same time to
+prevent errors. We use a SYNCHRONOUS counter for this type of operation.

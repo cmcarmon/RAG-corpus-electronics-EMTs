@@ -1,0 +1,11 @@
+The Internet is physically a collection of packet switching networks interconnected by
+gateways along with protocols that allow them to function logically as a single, large, virtual
+network. Gateways (often called IP routers) route packets to other gateways until they can
+be delivered to the ﬁnal destination directly across one physical network. Figure 6.4.3 shows
+the structure of physical networks and gateways that provide interconnection. Gateways do not
+provide direct connections among all pairs of networks. The TCP/IP is designated to provide a
+universal interconnection among machines, independent of the particular network to which they
+are attached. Besides gateways that interconnect physical networks, as shown in Figure 6.4.3,
+Internet access software is needed on each host (any end-user computer system that connects to
+a network) to allow application programs to use the Internet as if it were a single, real physical
+network. Hosts may range in size from personal computers to supercomputers.

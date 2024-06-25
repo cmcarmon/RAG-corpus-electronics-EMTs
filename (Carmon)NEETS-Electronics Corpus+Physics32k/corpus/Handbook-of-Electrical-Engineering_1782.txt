@@ -1,0 +1,6 @@
+Predictive Coding
+Traditionally  one  of  the  most  popular  methods  for  reducing  the  bit  rate  has  been  predictive  coding.  In  this
+class, differential pulse-code modulation (DPCM) has been used extensively. A block diagram for a basic DPCM
+system is shown in Fig. 17.16. In such a system the difference between the current pixel and a predicted version
+of that pixel gets quantized, coded, and transmitted to the receiver. This difference is referred to as the prediction
+error and is given by

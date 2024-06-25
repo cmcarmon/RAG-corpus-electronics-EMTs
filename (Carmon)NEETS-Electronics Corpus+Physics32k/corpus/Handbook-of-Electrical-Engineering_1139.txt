@@ -1,0 +1,5 @@
+Finite Impulse Response Filter Implementation
+For  FIR  ﬁlters,  the  convolution  sum  represents  a  computable  process,  and  so  ﬁlters  can  be  implemented  by
+directly programming the arithmetic operations. Nevertheless, some options are available that may be preferable
+for  a  given  processor  architecture,  and  means  for  reducing  computational  loads  exist.  This  section  outlines
+some of these methods and presents schemes for FIR ﬁlter realization.

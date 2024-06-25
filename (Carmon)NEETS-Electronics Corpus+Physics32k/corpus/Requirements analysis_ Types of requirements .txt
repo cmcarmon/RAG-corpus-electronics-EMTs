@@ -1,0 +1,31 @@
+Requirements are categorized in several ways. The following are common categorizations of requirements that relate to technical management:
+Customer requirements
+Statements of fact and assumptions that define the expectations of the system in terms of mission objectives, environment, constraints, and measures of effectiveness and suitability (MOE/MOS). The customers are those that perform the eight primary functions of systems engineering, with special emphasis on the operator as the key customer. Operational requirements will define the basic need and, at a minimum, answer the questions posed in the following listing:Operational distribution or deployment: Where will the system be used?
+Mission profile or scenario: How will the system accomplish its mission objective?
+Performance and related parameters: What are the critical system parameters to accomplish the mission?
+Utilization environments: How are the various system components to be used?
+Effectiveness requirements: How effective or efficient must the system be in performing its mission?
+Operational life cycle: How long will the system be in use by the user?
+Environment: What environments will the system be expected to operate in an effective manner?
+
+Architectural requirements
+Architectural requirements explain what has to be done by identifying the necessary systems architecture of a system.
+Structural requirements
+Structural requirements explain what has to be done by identifying the necessary structure of a system.
+Behavioral requirements
+Behavioral requirements explain what has to be done by identifying the necessary behavior of a system.
+Functional requirements
+Functional requirements explain what has to be done by identifying the necessary task, action or activity that must be accomplished. Functional requirements analysis will be used as the toplevel functions for functional analysis.
+Non-functional requirements
+Non-functional requirements are requirements that specify criteria that can be used to judge the operation of a system, rather than specific behaviors.
+Core functionality and ancillary functionality requirements
+Murali Chemuturi defined requirements into core functionality and ancillary functionality requirements. Core functionality requirements are those without fulfilling which the product cannot be useful at all. Ancillary functionality requirements are those that are supportive to core functionality. The product can continue to work even if some or all of the ancillary functionality requirements are fulfilled but with some side effects. Security, safety, user friendliness and so on are examples of ancillary functionality requirements.
+Performance requirements
+The extent to which a mission or function must be executed; generally measured in terms of quantity, quality, coverage, timeliness or readiness. During requirements analysis, performance (how well does it have to be done) requirements will be interactively developed across all identified functions based on system life cycle factors; and characterized in terms of the degree of certainty in their estimate, the degree of criticality to system success, and their relationship to other requirements.
+Design requirements
+The "build to", "code to", and "buy to" requirements for products and "how to execute" requirements for processes expressed in technical data packages and technical manuals.
+Derived requirements
+Requirements that are implied or transformed from higher-level requirement. For example, a requirement for long range or high speed may result in a design requirement for low weight.
+Allocated requirements
+A requirement that is established by dividing or otherwise allocating a high-level requirement into multiple lower-level requirements. Example: A 100-pound item that consists of two subsystems might result in weight requirements of 70 pounds and 30 pounds for the two lower-level items.
+Well-known requirements categorization models include FURPS and FURPS+, developed at Hewlett-Packard.

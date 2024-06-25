@@ -1,0 +1,9 @@
+Keep in mind that the D’Arsonval meter movement uses current flow to produce a magnetic field that
+is proportional to the current. The meter movement is, therefore, an indicator of current flow rather than
+voltage. The addition of the series resistance is what allows the meter to be calibrated in terms of voltage;
+that is, the meter movement of a voltmeter operates because of the current flow through the meter, but the
+scale is marked in volts. For example, the meter movement shown in figure 3-9 has an internal resistance
+of 100 ohms, requires 100 microamperes for full-scale deflection, and has a voltage drop of 10 millivolts
+when full-scale deflection is reached. If you were to place this meter directly across a 10-volt source, an
+excessive current (in milliamperes) would flow. The meter would be destroyed because of the excessive
+current flowing through the meter movement. This can be seen in the following Ohm’s law application:

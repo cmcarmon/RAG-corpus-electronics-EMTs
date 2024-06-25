@@ -1,0 +1,21 @@
+Standard Processes
+suagc perform agc on SU data
+sudipdivcor Dip-dependent Divergence (spreading) correction
+sudivcor Divergence (spreading) correction
+sugain apply various types of gain to display traces
+grm Generalized Reciprocal refraction analysis for a single layer
+sumix compute weighted moving average (trace MIX) on a panel of seismic data
+sumute mute above (or below) a user-defined polygonal curve with the distance along the curve specified by key header word
+sunmo NMO for an arbitrary velocity function of time and CDP
+supgc Programmed Gain Control--apply agc like function but the same function to all traces preserving relative amplitudes spatially
+supws Phase stack or phase-weighted stack (PWS) of adjacent traces having the same key header word
+suresstat Surface consistent source and receiver statics calculation
+sustack stack adjacent traces having the same key header word
+sustatic Elevation static corrections, apply corrections from headers or from a source and receiver statics file
+sustaticrrs Elevation STATIC corrections, apply corrections from headers or from a source and receiver statics file, includes application of Residual Refraction Statics
+unglitch clip outliers in data
+Miscellaneous
+suacor Auto Correlation
+suttoz Resample from time to depth
+suvibro Generates a Vibroseis sweep (linear, linear-segment, dB per octave, dB per hertz, T-power)
+suvlength Adjust variable length traces to common length

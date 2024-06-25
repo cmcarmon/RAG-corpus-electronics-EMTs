@@ -1,0 +1,3 @@
+Peak information rate (PIR) is a burstable rate set on routers and/or switches that allows throughput overhead. Related to committed information rate (CIR) which is a committed rate speed guaranteed/capped. For example, a CIR of 10 Mbit/s PIR of 12 Mbit/s allows you access to 10 Mbit/s minimum speed with burst/spike control that allows a throttle of an additional 2 Mbit/s; this allows for data transmission to "settle" into a flow.
+Excess information rate (EIR) is the magnitude of the burst above the CIR (PIR = EIR + CIR).
+Maximum information rate (MIR) in reference to broadband wireless refers to maximum bandwidth the subscriber unit will be delivered from the wireless access point in kbit/s.

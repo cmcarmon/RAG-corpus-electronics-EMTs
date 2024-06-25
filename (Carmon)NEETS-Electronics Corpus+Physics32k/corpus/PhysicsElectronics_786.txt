@@ -1,0 +1,8 @@
+A noisy input signal to a logic gate could cause unwanted state changes near the voltage
+threshold. Schmitt trigger logic reduces this problem by using two voltage thresholds: a high
+threshold to switch the circuit during low-to-high transitions and a lower threshold to switch
+the circuit during high-to-low transitions. Such a trigger scheme is immune to noise as long
+as the peak-to-peak amplitude of the noise is less than the diﬀerence between the threshold
+voltages. A gate with the Schmitt trigger feature has a small hysteresis curve drawn inside
+the gate symbol. Schmitt triggers are mostly used in inverters or simple gates to condition
+slow or noisy signals before passing them to more critical parts of the logic circuit.

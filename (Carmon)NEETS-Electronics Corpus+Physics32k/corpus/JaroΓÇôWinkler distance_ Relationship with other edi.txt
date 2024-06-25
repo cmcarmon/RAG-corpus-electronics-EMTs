@@ -1,0 +1,6 @@
+There are other popular measures of edit distance, which are calculated using a different set of allowable edit operations. For instance,
+the Levenshtein distance allows deletion, insertion and substitution;
+the Damerau–Levenshtein distance allows insertion, deletion, substitution, and the transposition of two adjacent characters;
+the longest common subsequence (LCS) distance allows only insertion and deletion, not substitution;
+the Hamming distance allows only substitution, hence, it only applies to strings of the same length.
+Edit distance is usually defined as a parameterizable metric calculated with a specific set of allowed edit operations, and each operation is assigned a cost (possibly infinite). This is further generalized by DNA sequence alignment algorithms such as the Smith–Waterman algorithm, which make an operation's cost depend on where it is applied.

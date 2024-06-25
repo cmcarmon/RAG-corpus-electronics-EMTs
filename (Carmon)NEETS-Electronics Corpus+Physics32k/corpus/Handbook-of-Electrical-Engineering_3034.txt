@@ -1,0 +1,12 @@
+This scheme has the advantage of design ease since simple equations can be derived relating the components
+of each section to the coefﬁcients of each factor in the VTF. Also, each biquad can be independently adjusted
+relatively easily to give the correct performance. Because of these important practical merits, a large number
+of alternative biquad structures have been proposed, and the newcomer may easily ﬁnd the choice overwhelming.
+The second approach to active ﬁlter synthesis involves the use of RC-active circuits to simulate passive LCR
+ladders. This has two important advantages. First, the design process can be very straightforward: the wealth
+of design data published for passive ladder ﬁlters (see Further Information) can be used directly so that the
+sometimes  difﬁcult  process  of  component  value  synthesis  from  speciﬁcation  is  eliminated.  Second,  the  LCR
+ properties [Orchard, 1966], and RC-active ﬁlters designed by ladder simulation
+ladder offers optimal 
+share the same low sensitivity features. Chapter 4 of Bowron and Stephenson [1979] gives an excellent intro-
+duction to the formal treatment of circuit sensitivity.

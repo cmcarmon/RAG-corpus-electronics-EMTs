@@ -1,0 +1,9 @@
+The first rf amplifier receives the pulses of the selected frequency from the synthesizer and a
+modulator pulse (from the first stage modulator) at the same time. The rf pulse is usually slightly wider
+than the modulator pulse which prevents the amplifier tube from pulsing when no rf energy is present.
+Most pulsed rf amplifiers will oscillate at an undesired frequency if pulsed without an rf input. The output
+of the first rf amplifier is an amplified rf pulse that is the same width as the first stage modulator pulse.
+The second stage modulator is designed to produce a pulse slightly narrower than the first stage
+modulator pulse; this also prevents the amplifier from pulsing when no rf is present. Therefore, the second
+stage amplifier receives a modulator pulse a short time after the first stage rf arrives at the input. As
+shown in figure 2-11, the same procedure is repeated in the third and final stage.

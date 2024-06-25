@@ -1,0 +1,7 @@
+R(s)
+C(s) output signal (controlled variable)
+B(s)
+E(s) actuating signal (error variable), = R(s) − B(s) 
+G(s) forward path transfer function or open-loop transfer function, = C(s)/E(s) 
+M(s) closed-loop transfer function, = C(s)/R(s) = G(s)/1 + G(s)H(s) 
+H(s) feedback path transfer function

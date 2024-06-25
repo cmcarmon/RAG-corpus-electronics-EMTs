@@ -1,0 +1,8 @@
+(b) To ﬁnd the Norton equivalent, we modify the schematic in Fig. 4.53(a)
+by replaying the probing current source with a probing voltage source
+V1. The result is the schematic in Fig. 4.54(a). Again, in the DC Sweep
+dialog  box,  we  select  Linear  for  the  Sweep  Type and  Voltage  Source
+for the Sweep Var. Type. We enter V1 under Name box, 0 as Start Value,
+1 as End Value, and 0.1 as Increment. Under the PSpice A/D Window,
+we add trace I (V1) and obtain the plot in Fig. 4.54(b). From the plot,
+we obtain

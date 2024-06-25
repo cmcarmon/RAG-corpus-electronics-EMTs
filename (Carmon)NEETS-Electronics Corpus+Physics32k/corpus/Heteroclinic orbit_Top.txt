@@ -1,0 +1,180 @@
+In mathematics, in the phase portrait of a dynamical system, a heteroclinic orbit (sometimes called a heteroclinic connection) is a path in phase space which joins two different equilibrium points. If the equilibrium points at the start and end of the orbit are the same, the orbit is a homoclinic orbit.
+Consider the continuous dynamical system described by the ODE
+
+
+
+
+
+
+
+x
+˙
+
+
+
+=
+f
+(
+x
+)
+
+
+{\displaystyle {\dot {x}}=f(x)}
+
+
+Suppose there are equilibria at
+
+
+
+x
+=
+
+x
+
+0
+
+
+
+
+{\displaystyle x=x_{0}}
+and
+
+
+
+x
+=
+
+x
+
+1
+
+
+
+
+{\displaystyle x=x_{1}}
+, then a solution
+
+
+
+ϕ
+(
+t
+)
+
+
+{\displaystyle \phi (t)}
+is a heteroclinic orbit from
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+to
+
+
+
+
+x
+
+1
+
+
+
+
+{\displaystyle x_{1}}
+if
+
+
+
+
+ϕ
+(
+t
+)
+→
+
+x
+
+0
+
+
+
+
+a
+s
+
+
+t
+→
+−
+∞
+
+
+{\displaystyle \phi (t)\rightarrow x_{0}\quad \mathrm {as} \quad t\rightarrow -\infty }
+
+
+and
+
+
+
+
+ϕ
+(
+t
+)
+→
+
+x
+
+1
+
+
+
+
+a
+s
+
+
+t
+→
++
+∞
+
+
+{\displaystyle \phi (t)\rightarrow x_{1}\quad \mathrm {as} \quad t\rightarrow +\infty }
+
+
+This implies that the orbit is contained in the stable manifold of
+
+
+
+
+x
+
+1
+
+
+
+
+{\displaystyle x_{1}}
+and the unstable manifold of
+
+
+
+
+x
+
+0
+
+
+
+
+{\displaystyle x_{0}}
+.

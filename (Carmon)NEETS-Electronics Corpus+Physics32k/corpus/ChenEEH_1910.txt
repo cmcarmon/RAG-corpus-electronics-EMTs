@@ -1,0 +1,19 @@
+In TMR (Johnson, 1989), the classic hardware redundant
+technique for error correction, three copies of a module per-
+form the same computation simultaneously. A majority voter
+selects the result upon which at least two of the modules have
+agreed. Time overhead is very small, but hardware overhead is
+greater than 200%. A related technique, PTMR, has been
+developed by three independent groups (Arian and Gumusel,
+1992; Chen et al., 1992; Hsu and Swartzlander, 1992), and is
+also known as hardware partition in time redundancy (HPTR)
+(Arian and Gumusel, 1992) and recomputing with triplication
+with voting (RETWV) (Hsu and Swartzlander, 1992). In this
+technique, three copies of a single partition of the circuit
+simultaneously process a portion of the operands, and the
+results are voted on, as in TMR. The remaining portions of
+the operands are processed similarly by the same triplicated
+partition. When there are three independent partitions, the
+time overhead is 200%. For linearly dependent partitions in
+adders and multipliers, time overhead can be lower, and area
+overheads range from under 100% to about 150%.

@@ -1,0 +1,18 @@
+The  life  requirement  is  estimated  on  the  basis  of  workstation  users  operating  at  approximately  half  the
+accepted rate of 20 million actuations per key used for electronic typewriters. The actual layout and content
+of the keyboard may vary greatly, ranging from the standard typewriter arrangement, through different com-
+binations of alphanumerics and symbols, to the special-function keyboards that contain legends and symbols
+speciﬁc to the particular application. However, the outputs of each type are the same in that they must contain
+coded signals that relate the action to be performed by the information system to that deﬁned by the key being
+operated, in terms of the input code of the system. Thus, many of the keyboards output the ASCII code, and
+the system is usually designed so that it can accept this type of standard code. Incidentally, ASCII, the acronym
+for American Standard Code for Information Interchange, is the standard means for encoding alphanumerics
+and a group of selected symbols for transmission to a display system, among others. It is the standard code
+used  in  the  United  States  and  most  other  English-speaking  countries  and  corresponds  to  the  ISO  seven-bit
+code. The seven-bit ASCII is usually used, and it should be noted that for serial data transmission an eighth
+bit is added for parity. Various keyboard arrangements are possible, and many variants are found in particular
+applications. The means for coding the key operation may be through magnetic reed relays, solid-state circuits,
+or  more  exotic  devices  such  as  Hall  effect  sensors.  These  device  characteristics  are  only  incidental  to  the
+operation  and  beyond  the  scope  of  this  chapter.  Similarly,  we  do  not  discuss  the  human-factors  aspects  of
+keyboard design, not because they are not important, but because, apart from the visual considerations, the
+other factors have to do with tactile and physical features best left to others.

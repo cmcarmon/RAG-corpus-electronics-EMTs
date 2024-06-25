@@ -1,0 +1,7 @@
+Ultimately, node (I, J ) is reached in the search process
+through the sequential updates, and the cost of the globally
+optimal path is Dmin(I, J ). To actually locate the optimal path,
+it is necessary to use a backtracking procedure. Once the
+optimal path to (i, j) is found, we record the immediate
+predecessor node, nominally at a memory location attached
+to (i, j). Let us deﬁne:

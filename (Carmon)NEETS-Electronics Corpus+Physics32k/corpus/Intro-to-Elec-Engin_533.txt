@@ -1,0 +1,5 @@
+If the clock pulse is short enough to permit the ﬂip-ﬂop to change only once, the JKFF
+operates well. However, with modern high-speed ICs a race is more likely to occur, which is a
+condition in which two pulses are intended to arrive at a destination gate in some speciﬁc order,
+but due to each one racing through different paths in the logic with a different number of gates,
+the propagation delays stack up differently and the timing order is lost. This can be eliminated

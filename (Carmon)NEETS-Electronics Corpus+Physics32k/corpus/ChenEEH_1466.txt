@@ -1,0 +1,11 @@
+Some operating systems such as UNIX and MS-DOS pro-
+vide a special ﬁle abstraction to allow users to perform I/O
+without knowing all details of the hardware. Special ﬁles can be
+read and written in the same way as regular ﬁles are read and
+written. Special ﬁles are categorized into two types: block
+special ﬁles and character special ﬁles. Block special ﬁles are
+used to model devices that consist of a collection of randomly
+addressable blocks, such as disks. By opening a block special
+ﬁle and reading, a program can directly access the desired
+block on the device without regard to the structure of the ﬁle
+system contained on it.

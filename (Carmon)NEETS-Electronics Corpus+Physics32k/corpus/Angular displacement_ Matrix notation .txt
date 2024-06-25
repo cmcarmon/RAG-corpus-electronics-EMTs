@@ -1,0 +1,55 @@
+Given that any frame in the space can be described by a rotation matrix, the displacement among them can also be described by a rotation matrix. Being
+
+
+
+
+A
+
+0
+
+
+
+
+{\displaystyle A_{0}}
+and
+
+
+
+
+A
+
+f
+
+
+
+
+{\displaystyle A_{f}}
+two matrices, the angular displacement matrix between them can be obtained as
+
+
+
+Δ
+A
+=
+
+A
+
+f
+
+
+.
+
+A
+
+0
+
+
+−
+1
+
+
+
+
+{\displaystyle \Delta A=A_{f}.A_{0}^{-1}}
+. When this product is performed having a very small difference between both frames we will obtain a matrix close to the identity.
+In the limit, we will have an infinitesimal rotation matrix.

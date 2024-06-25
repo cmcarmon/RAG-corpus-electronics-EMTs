@@ -1,0 +1,52 @@
+In statics, a structure is statically indeterminate (or hyperstatic) when the static equilibrium equations are insufficient for determining the internal forces and reactions on that structure.
+Based on Newton's laws of motion, the equilibrium equations available for a two-dimensional body are
+
+
+
+
+∑
+
+
+
+F
+→
+
+
+
+=
+0
+
+
+{\displaystyle \sum {\vec {F}}=0}
+: the vectorial sum of the forces acting on the body equals zero. This translates to
+
+Σ H = 0: the sum of the horizontal components of the forces equals zero;
+Σ V = 0: the sum of the vertical components of forces equals zero;
+
+
+
+
+∑
+
+
+
+M
+→
+
+
+
+=
+0
+
+
+{\displaystyle \sum {\vec {M}}=0}
+: the sum of the moments (about an arbitrary point) of all forces equals zero.
+
+In the beam construction on the right, the four unknown reactions are VA, VB, VC and HA. The equilibrium equations are:
+Σ V = 0:
+VA − Fv + VB + VC = 0
+Σ H = 0:
+HA − Fh = 0
+Σ MA = 0:
+Fv · a − VB · (a + b) - VC · (a + b + c) = 0.
+Since there are four unknown forces (or variables) (VA, VB, VC and HA) but only three equilibrium equations, this system of simultaneous equations does not have a unique solution. The structure is therefore classified as statically indeterminate. Considerations in the material properties and compatibility in deformations are taken to solve statically indeterminate systems or structures.

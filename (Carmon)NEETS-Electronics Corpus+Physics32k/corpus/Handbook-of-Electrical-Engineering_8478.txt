@@ -1,0 +1,5 @@
+The logarithmic dependence on the delay (delay = log[N]) is only valid under the assumption that the gate
+delay is constant without depending on the fan-out and fan-in of the gate. In practice this is not true and even
+when the bipolar technology (which does not exhibit strong dependence on the fan-out) is used to implement
+CLA structure, the further expansion of the carry-block is not possible given the practical limitations on the
+fan-in of the gate.

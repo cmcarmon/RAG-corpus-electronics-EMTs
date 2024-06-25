@@ -1,0 +1,11 @@
+A  MAC  scheme  that  is  widely  used  with  the  bus  topology  is  carrier-sense  multiple  access  (CSMA).  A
+contention protocol, CSMA operates by allowing any station to transmit a buffered packet if it senses that the
+bus is idle. If two stations are ready to transmit their packets at nearly the same time, they will both sense that
+the bus is idle and their transmissions will collide, i.e., the superimposed bits of the packets will be garbled.
+The propagation delay—or time it takes for the packet to travel from one station to the other—dictates the
+window  of  vulnerability  for  CSMA;  the  larger  the  window,  the  more  collisions  are  likely.  To  overcome  the
+problem of collisions, CSMA is often enhanced with collision detection (CSMA/CD) by enabling stations to
+monitor  their  transmissions  for  the  garbled  bits  associated  with  collisions. When  a  collision  is  detected,  the
+station aborts its transmission and reschedules it by backing off for a period of time. The binary exponential
+backoff algorithm speciﬁes that the random backoff time is drawn uniformly from the interval between 0 and
+2n – 1 time units, where n is the number of times the packet has collided.

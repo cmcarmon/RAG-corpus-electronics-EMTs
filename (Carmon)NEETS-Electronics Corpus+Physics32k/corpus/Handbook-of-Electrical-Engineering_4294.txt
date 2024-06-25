@@ -1,0 +1,17 @@
+Radar Proximity Fuzes
+Projectiles or missiles designed to be aimed at ships or surface land targets often need a height-of-burst (HOB)
+sensor (or target detection device) to ﬁre or fuze the warhead at a height of a few meters. There are two primary
+generic methods of sensing or measuring height to generate the warhead ﬁre signal. The most obvious, and
+potentially the most accurate, is to measure target round trip propagation delay employing conventional radar
+ranging techniques. The second method employs a simple CW Doppler radar or variation thereof, with loop
+gain  calibrated  in  a  manner  that  permits  sensing  the  desired  burst  height  by  measurement  of  target  return
+signal amplitude and/or rate of change. Often the mission requirements do not justify the complexity and cost
+of the radar ranging approach. Viable candidates are thus narrowed down to variations on the CW doppler fuze.
+In its simplest form, the CW Doppler fuze consists of a fractional watt RF oscillator, homodyne detector, Doppler
+ampliﬁer, Doppler envelope detector, and threshold circuit. When the Doppler envelope amplitude derived from
+the returned signal reaches the preset threshold, a ﬁre signal is generated. The height at which the ﬁre signal occurs
+depends on the radar loop gain, threshold level, and target reﬂectivity. Fuze gain is designed to produce the desired
+height of burst under nominal trajectory angle and target reﬂectivity conditions, which may have large ﬂuctuations
+due  to  glint  effects,  and  deviations  from  the  desired  height  due  to  antenna  gain  variations  with  angle,  target
+reﬂectivity, and fuze gain tolerances are accepted. A loop gain change of 6 dB (2 to 1 in voltage), whether due to
+a change in target reﬂection coefﬁcient, antenna gain, or whatever, will result in a 2 to 1 HOB change.

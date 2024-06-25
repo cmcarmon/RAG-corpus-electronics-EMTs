@@ -1,0 +1,7 @@
+Forward
+ is the computation of the Cartesian position and orientation of the robot end-effector given
+kinematics
+  is  the  computation  of  the  joint  coordinates  given  the
+the  set  of  joint  coordinates. 
+Cartesian position and orientation of the end-effector. The inverse kinematic computation may not be
+possible in closed form, may have no solution, or may have multiple solutions.

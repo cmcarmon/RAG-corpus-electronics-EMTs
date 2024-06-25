@@ -1,0 +1,9 @@
+To illustrate value discretization, consider the discretization of voltage as
+shown in Figure 1.45. Here, we discretize voltage into a finite number of infor-
+mation levels, for example, the two levels named ‘‘0’’ and ‘‘1.’’ Under this
+quantization, if a voltage is observed to be below 2.5 V we interpret its value as
+representing the information level ‘‘0.’’ If its value is above 2.5 V, we interpret
+it as representing the information level ‘‘1.’’ Correspondingly, to produce the
+information level ‘‘0,’’ we use any voltage less than 2.5 V. For example, we
+might use 1.25 V. Correspondingly, to produce the information level ‘‘1,’’ we
+might use the voltage 3.75 V.

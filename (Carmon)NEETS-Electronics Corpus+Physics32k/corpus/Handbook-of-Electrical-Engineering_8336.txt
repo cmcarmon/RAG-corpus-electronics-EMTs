@@ -1,0 +1,4 @@
+Using this approach, each storage element in the circuit is given a unique x/y address and the decoded address
+signals are connected to the x/y address inputs of the latches. As seen in the circuit of Fig. 85.16(b), each latch
+can then be individually written into using the scan-in terminal or its output can be observed using the scan-
+out terminal, provided that the pair of  x/y address lines connected to the current latch are both asserted (i.e.,

@@ -1,0 +1,6 @@
+Consider  a  signal  that  is  one  sinusoid  modulated  by  another  sinusoid.  The  signal  has  been  sampled  at  a
+frequency chosen to provide efﬁcient storage of the data. However, when plotting the data for further analysis,
+we  want  to  interpolate  by  a  factor  of  8  so  that  the  signal  looks  smoother.  Therefore,  we  use  the  MATLAB
+interpolation function. Figure 21.10 contains plots of the original and interpolated time signals. Figure 21.11
+contains frequency plots to conﬁrm that the interpolation did not signiﬁcantly affect the frequency content.
+Figure 21.12 contains the MATLAB code for this process.

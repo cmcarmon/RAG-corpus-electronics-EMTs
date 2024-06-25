@@ -1,0 +1,20 @@
+Suppose, now, that a rectangular pulse of height VS is applied at the Store input of the
+memory element, and that A is at 0 V throughout. The rising transition of the pulse
+occurs at t = 0 and the falling transition at t = T. Determine the minimum value of
+the pulse width T so that vM can charge up to VH, where VH = VIH = VOH, the
+high voltage threshold of the static discipline. Assume the following: vM(t = 0) = 0;
+VH < VS; VH > VT.
+Let us now consider the case in which A is at VS throughout, and vM(t = 0) = VS.
+Sketch vM(t) for t ≥ 0, when a 0-V to VS-step is applied at the Store input of the
+memory element at t = 0. What is the minimum value attained by vM?
+Suppose, now, that a rectangular pulse of height VS is applied at the Store input
+of the memory element. The rising transition of the pulse occurs at t = 0 and the
+falling transition at t = T. Determine the minimum value of the pulse width T so
+that vM can discharge from VS to VL, where VL = VIL = VOL, the low voltage
+threshold of the static discipline. Assume as in (c) that A is at VS throughout and
+that vM(t = 0) = VS. Assume further that VL < VT and that VL is greater than the
+minimum value attainable by vM.
+Suppose the memory element is storing a 1 (assume vM = VS) at t = 0 and that
+Store = 0. Assuming that no further Store signals occur, determine the period of
+time for which the output (dOUT) of the memory element will be valid. (Hint: the
+output becomes invalid when dOUT switches from 1 to 0.)

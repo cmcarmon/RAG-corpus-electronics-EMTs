@@ -1,0 +1,15 @@
+Deﬁning Two-Port Networks
+Electrical networks can also be used to transfer signals from
+one port to another. Under this requirement, connections to
+the network are made in two places, the input and the output.
+For example, a transistor has an input between the base and
+emitter and an output between the collector and emitter. We
+can model such circuits as two-port networks as shown in
+Fig. 3.50. Here we see the input port, represented by V1 and
+I1,  and  the  output  port,  represented  by V2  and  I2.  Currents
+are assumed positive if they ﬂow as shown in Fig. 3.50. The
+same restrictions about external connections and internal sources mentioned above for the single port also apply.
+Now  that  we  have  deﬁned  two-port  networks,  let  us  discuss  how  to  create  a  mathematical  model  of  the
+network by establishing relationships among all of the input and output voltages and currents. Many possibilities
+exist for modeling. In the next section we arbitrarily begin by introducing the z-parameter model to establish
+the technique. In subsequent sections we present alternative models and draw relationships among them.

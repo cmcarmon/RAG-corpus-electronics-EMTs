@@ -1,0 +1,12 @@
+The second step in image encoding is vector quantization. This is essentially a clustering step in which we
+partition  the  feature  space  into  cells,  each  of  which  will  be  represented  by  a  single  prototype  feature  vector.
+Since all feature vectors belonging to a given cell are mapped to the same prototype, the quantization process
+is  irreversible  and,  hence,  cannot  be  used  as  part  of  a  lossless  compression  algorithm.  Figure  17.7  shows  an
+example for a two-dimensional feature space. Each dot corresponds to one feature vector from the image. The
+X’s signify the prototypes used to represent all the feature vectors contained within its quantization cell, the
+boundary of which is indicated by the dashed lines. Despite the simplicity with which vector quantization may
+be described, the implementation of a vector quantizer is a computationally complex task unless some structure
+is  imposed  on  it.  The  clustering  is  based  on  minimizing  the  distortion  between  the  original  and  quantized
+feature vectors, averaged over the entire image. The distortion measure can be chosen to account for the relative
+sensitivity of the human viewer to different kinds of degradation. In one dimension, the vector quantizer reduces
+to the Lloyd-Max scalar quantizer.

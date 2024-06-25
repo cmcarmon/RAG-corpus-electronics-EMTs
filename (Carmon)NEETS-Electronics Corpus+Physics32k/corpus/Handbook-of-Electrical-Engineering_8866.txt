@@ -1,0 +1,6 @@
+ is the capacity of the
+where 
+ is the size of the cache line in addressable units.
+cache in addressable units (usually bytes), and 
+Since the hashing function is simple bit selection, the tag memory need only contain the part of the address
+not implied by the hashing function. That is,

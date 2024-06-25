@@ -1,0 +1,22 @@
+and connection points, it is necessary to colour the 
+variable  in  your  C  code  with  the  prefixes  FCV_, 
+FCM_  and  FCC_MacroName_  respectively.  For 
+example, 
+to  use  a  Flowcode  variable  called 
+DELAY in your C code, you must refer to it using 
+FCV_DELAY.  Note  that  all  Flowcode  defined 
+variables must be entered in upper case. 
+  To call a Flowcode macro called TEST in your C 
+code,  you  must  call  FCM_TEST();.  To  jump  to  a 
+connection  point  called  A,  defined  in  a  Flowcode 
+macro  called  TEST,  your  C  code  must  be  goto 
+FCC_TEST_A;.  Connection  points  defined  in  the 
+main  flowchart  of  a  Flowcode  file  are  prefixed 
+FCC_Main_.  
+  Assembly  code  (see  Table  18.3)  can  be  added 
+into the code field in a C assembly code  wrapper. 
+For  a  single  line  of  code  you  can  use  the  asm 
+operator  in  front  of  each  instruction  (e.g.  asm 
+movlw  5)  or  you  can  enclose  several  statements 
+within an asm block. This makes adding assembly 
+language routines very simple. 

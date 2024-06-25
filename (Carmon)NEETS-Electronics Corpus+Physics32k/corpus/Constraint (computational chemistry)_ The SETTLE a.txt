@@ -1,0 +1,11 @@
+The SETTLE algorithm solves the system of non-linear equations analytically for
+
+
+
+n
+=
+3
+
+
+{\displaystyle n=3}
+constraints in constant time. Although it does not scale to larger numbers of constraints, it is very often used to constrain rigid water molecules, which are present in almost all biological simulations and are usually modelled using three constraints (e.g. SPC/E and TIP3P water models).

@@ -1,0 +1,9 @@
+To inject an input signal to the base, causing VBE and IB to
+ﬂuctuate  by  vbe  and  ib ,  a  signal  source  must  be  connected
+between  the  base  and  the  common  or  zero  line  (also  usually
+called  ground  or  earth  whether  it  is  actually  connected  to
+ground or not!). However, most signal sources present a resis-
+tive  path  through  themselves,  which  would  shunt  R2  and  so
+change, or even destroy, the bias conditions. Hence, a coupling
+capacitor Cc must be included, as shown in Fig. 24.29, in series
+with a signal source represented by a Thévenin equivalent.

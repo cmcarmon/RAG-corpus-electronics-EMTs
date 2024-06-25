@@ -1,0 +1,8 @@
+When the dependencies are linear, dependent sources are amenable to the set of
+analyses discussed earlier in Chapters 2 and 3. Care must be taken, however, in
+applying the superposition principle. Recall that the principle of superposition
+allows linear multisource networks to be solved for one source at a time by
+setting all other independent sources to zero. Setting a voltage source to zero
+means replacing it with a short circuit; a current source set to zero is an open
+circuit. The complete response is the sum of the responses to each individual
+source.

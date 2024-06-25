@@ -1,0 +1,8 @@
+When processing data, we think in terms of data files. For example, to process a parts inventory, you 
+would need the master parts inventory file and the file that contains up-to-date information on each part 
+that has been issued. The master parts inventory file would have a record for every part in the inventory. 
+The update file, parts issued file, would have a record for each part issued. You would use a program to 
+read the records on the parts issued file and update the matching records on the master parts inventory 
+file. Depending on whether the data is stored on magnetic tape or disk or in internal storage, the program 
+would use different methods to access storage to obtain the data. In the next section you'll learn about 
+storage access methods. 

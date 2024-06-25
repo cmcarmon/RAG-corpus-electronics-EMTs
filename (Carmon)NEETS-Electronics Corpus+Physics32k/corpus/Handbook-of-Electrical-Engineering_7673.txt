@@ -1,0 +1,6 @@
+Signal detection and ampliﬁcation remain a critical focus of good DRAM design. Figure 80.3 illustrates an
+arrangement called a “folded bit line.” This design cancels many of the noise sources originating in the array
+and  decreases  circuit  sensitivity  to  manufacturing  process  variations.  It  also  achieves  a  high  ratio  of  storage
+cells per sense ampliﬁer. Note the presence of the dummy cells, which create a reference signal midway between
+a “one”  and  a “zero”  for  the  convenience  of  the  sense  ampliﬁer.  The  stored  reference  voltage  in  this  case  is
+created by shorting two driven bit lines after one of the storage cells has been written.

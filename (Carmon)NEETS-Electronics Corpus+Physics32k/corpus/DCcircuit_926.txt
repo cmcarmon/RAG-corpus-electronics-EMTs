@@ -1,0 +1,10 @@
+There is a way, however, to reduce wire resistance error far beyond the method just de-
+scribed, and also help mitigate another kind of measurement error due to temperature. An
+unfortunate characteristic of strain gauges is that of resistance change with changes in tem-
+perature. This is a property common to all conductors, some more than others. Thus, our
+quarter-bridge circuit as shown (either with two or with three wires connecting the gauge to
+the bridge) works as a thermometer just as well as it does a strain indicator. If all we want
+to do is measure strain, this is not good. We can transcend this problem, however, by using
+a ”dummy” strain gauge in place of R2, so that both elements of the rheostat arm will change
+resistance in the same proportion when temperature changes, thus canceling the effects of
+temperature change:

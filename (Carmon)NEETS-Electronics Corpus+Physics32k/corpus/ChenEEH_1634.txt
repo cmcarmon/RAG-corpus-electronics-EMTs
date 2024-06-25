@@ -1,0 +1,26 @@
+to be psychovisually redundant. Human perception of the
+visual information does not involve the quantitative an-
+alysis of every pixel; rather, the eye searches for some
+recognizable groupings to be interpreted as distinguished
+features in the image. This is the reason that the direct
+current (dc) component of a small section of the image,
+which indicates the average luminosity level of that par-
+ticular section of the image, contains more visually im-
+portant information than a high frequency alternating
+current (ac) component, which has the information
+regarding the difference between luminosity levels of
+some successive pixels. Psychovisual redundancy can be
+eliminated by throwing away some of the redundant
+information. Since the elimination of psychovisually re-
+dundant data results in a loss of quantitative information
+and is an irreversible process, it results in lossy data
+compression. How coarse or how ﬁne to quantize the
+data depends on what quality and/or what compression
+ratio is required at the output. This stage acts as the
+tuning tap in the whole image compression model. On
+the same grounds, the human eye’s response to color
+information is not as sharp as it is for the luminosity
+information. More color information is psychovisually
+redundant than the gray scale information simply because
+the eye cannot perceive ﬁner details of colors, whereas it
+can for gray scale values.

@@ -1,0 +1,400 @@
+As mentioned in an intermediate step in the derivation above:
+
+
+
+
+
+
+
+
+
+
+V
+
+obs, r
+
+
+=
+A
+
+d
+
+sin
+⁡
+
+(
+
+2
+l
+
+)
+
+
+
+
+
+
+
+V
+
+obs, t
+
+
+=
+A
+
+d
+
+cos
+⁡
+
+(
+
+2
+l
+
+)
+
++
+B
+
+d
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}&V_{\text{obs, r}}=A\,d\,\sin \left(2l\right)\\&V_{\text{obs, t}}=A\,d\,\cos \left(2l\right)+B\,d\\\end{aligned}}}
+
+Therefore, we can write the Oort constants
+
+
+
+A
+
+
+{\displaystyle A}
+and
+
+
+
+B
+
+
+{\displaystyle B}
+as:
+
+
+
+
+
+
+
+
+
+A
+=
+
+
+
+V
+
+obs, r
+
+
+
+d
+
+sin
+⁡
+
+(
+
+2
+l
+
+)
+
+
+
+
+
+
+
+
+
+B
+=
+
+
+
+V
+
+obs, t
+
+
+d
+
+
+−
+A
+
+cos
+⁡
+
+(
+
+2
+l
+
+)
+
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}&A={\frac {V_{\text{obs, r}}}{d\,\sin \left(2l\right)}}\\&B={\frac {V_{\text{obs, t}}}{d}}-A\,\cos \left(2l\right)\\\end{aligned}}}
+
+Thus, the Oort constants can be expressed in terms of the radial and transverse velocities, distances, and galactic longitudes of objects in our Galaxy - all of which are, in principle, observable quantities.
+However, there are a number of complications. The simple derivation above assumed that both the Sun and the object in question are traveling on circular orbits about the Galactic center. This is not true for the Sun (the Sun's velocity relative to the local standard of rest is approximately 13.4 km/s), and not necessarily true for other objects in the Milky Way either. The derivation also implicitly assumes that the gravitational potential of the Milky Way is axisymmetric and always directed towards the center. This ignores the effects of spiral arms and the Galaxy's bar. Finally, both transverse velocity and distance are notoriously difficult to measure for objects which are not relatively nearby.
+Since the non-circular component of the Sun's velocity is known, it can be subtracted out from our observations to compensate. We do not know, however, the non-circular components of the velocity of each individual star we observe, so they cannot be compensated for in this way. But, if we plot transverse velocity divided by distance against galactic longitude for a large sample of stars, we know from the equations above that they will follow a sine function. The non-circular velocities will introduce scatter around this line, but with a large enough sample the true function can be fit for and the values of the Oort constants measured, as shown in figure 2.
+
+
+
+A
+
+
+{\displaystyle A}
+is simply the amplitude of the sinusoid and
+
+
+
+B
+
+
+{\displaystyle B}
+is the vertical offset from zero. Measuring transverse velocities and distances accurately and without biases remains challenging, though, and sets of derived values for
+
+
+
+A
+
+
+{\displaystyle A}
+and
+
+
+
+B
+
+
+{\displaystyle B}
+frequently disagree.
+Most methods of measuring
+
+
+
+A
+
+
+{\displaystyle A}
+and
+
+
+
+B
+
+
+{\displaystyle B}
+are fundamentally similar, following the above patterns. The major differences usually lie in what sorts of objects are used and details of how distance or proper motion are measured. Oort, in his original 1927 paper deriving the constants, obtained
+
+
+
+A
+
+
+{\displaystyle A}
+= 31.0 ± 3.7 km s−1 kpc−1. He did not explicitly obtain a value for
+
+
+
+B
+
+
+{\displaystyle B}
+, but from his conclusion that the Galaxy was nearly in Keplerian rotation (as in example 2 below), we can presume he would have gotten a value of around -10 km s−1 kpc−1. These differ significantly from modern values, which is indicative of the difficulty of measuring these constants. Measurements of
+
+
+
+A
+
+
+{\displaystyle A}
+and
+
+
+
+B
+
+
+{\displaystyle B}
+since that time have varied widely; in 1964 the IAU adopted
+
+
+
+A
+
+
+{\displaystyle A}
+= 15 km s−1 kpc−1 and
+
+
+
+B
+
+
+{\displaystyle B}
+= -10 km s−1 kpc−1 as standard values. Although more recent measurements continue to vary, they tend to lie near these values.
+The Hipparcos satellite, launched in 1989, was the first space-based astrometric mission, and its precise measurements of parallax and proper motion have enabled much better measurements of the Oort constants. In 1997 Hipparcos data were used to derive the values
+
+
+
+A
+
+
+{\displaystyle A}
+= 14.82 ± 0.84 km s−1 kpc−1 and
+
+
+
+B
+
+
+{\displaystyle B}
+= -12.37 ± 0.64 km s−1 kpc−1. The Gaia spacecraft, launched in 2013, is an updated successor to Hipparcos; which allowed new levels of accuracy in measuring four Oort constants
+
+
+
+A
+
+
+{\displaystyle A}
+= 15.3 ± 0.4 km s−1 kpc−1,
+
+
+
+B
+
+
+{\displaystyle B}
+= -11.9 ± 0.4 km s−1 kpc−1,
+
+
+
+C
+
+
+{\displaystyle C}
+= -3.2 ± 0.4 km s−1 kpc−1 and
+
+
+
+K
+
+
+{\displaystyle K}
+= -3.3 ± 0.6 km s−1 kpc−1.
+With the Gaia values, we find
+
+
+
+
+
+
+
+
+
+
+
+
+d
+v
+
+
+d
+r
+
+
+
+
+
+
+|
+
+
+
+
+R
+
+0
+
+
+
+
+=
+−
+A
+−
+B
+=
+−
+3.4
+
+km/s/kpc
+
+
+
+
+
+
+
+
+
+V
+
+0
+
+
+
+R
+
+0
+
+
+
+
+=
+Ω
+=
+A
+−
+B
+=
+27.2
+
+km/s/kpc
+
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}&{\frac {dv}{dr}}{\Bigg \vert }_{R_{0}}=-A-B=-3.4{\text{ km/s/kpc}}\\&{\frac {V_{0}}{R_{0}}}=\Omega =A-B=27.2{\text{ km/s/kpc}}\\\end{aligned}}}
+
+This value of Ω corresponds to a period of 226 million years for the sun's present neighborhood to go around the Milky Way. However, the time it takes for the sun to go around the Milky Way (a galactic year) may be longer because (in a simple model) it is circulating around a point further from the centre of the galaxy where Ω is smaller (see Sun#Orbit in Milky Way).
+The values in km s−1 kpc−1 can be converted into milliarcseconds per year by dividing by 4.740. This gives the following values for the average proper motion of stars in our neighborhood at different galactic longitudes, after correction for the effect due to the sun's velocity with respect to the local standard of rest:
+The motion of the sun towards the solar apex in Hercules adds a generally westward component to the observed proper motions of stars around Vela or Centaurus and a generally eastward component for stars around Cygnus or Cassiopeia. This effect falls off with distance, so the values in the table are more representative for stars that are further away. On the other hand, more distant stars or objects will not follow the table, which is for objects in our neighborhood. For example, Sagittarius A*, the radio source at the centre of the galaxy, will have a proper motion of approximately Ω or 5.7 mas/y southwestward (with a small adjustment due to the sun's motion toward the solar apex) even though it is in Sagittarius. Note that these proper motions cannot be measured against "background stars" (because the background stars will have similar proper motions), but must be measured against more stationary references such as quasars.

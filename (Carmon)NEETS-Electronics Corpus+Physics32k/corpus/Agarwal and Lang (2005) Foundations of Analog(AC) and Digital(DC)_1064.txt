@@ -1,0 +1,10 @@
+(cid:1) The simplest model for the MOSFET is the S model. This switch model
+models the on-off behavior of the MOSFET. Accordingly, the S model is
+appropriate when the designer cares only about the logical behavior of a
+circuit containing MOSFETs; in other words, where the voltage values of
+interest are only highs and lows. Thus, the S model is commonly used
+to arrive at the topology of a digital circuit to perform some given logical
+function. The S model is also useful in certain analog situations where the
+specific properties of the MOSFET beyond its on-off behavior have no
+effect on circuit behavior. Certain power circuits that use the MOSFET as a
+switch fall under this category.

@@ -1,0 +1,12 @@
+For a time-varying linear system driven by Gaussian white
+noise, the Kalman ﬁlter gain sequence can be derived as
+the optimal estimator from the least-squares, maximum-
+likelihood, and mean-squares perspectives. The estimator
+discussion of this chapter was initiated with the assumed
+‘‘linear update’’ of equation 4.8. This assumption is not re-
+strictive in the sense that it can be shown for linear systems
+with additive noise Gaussian white measurement and process
+noise that a linear measurement update is optimal (i.e., a
+nonlinear estimator will not achieve better performance).
+The Kalman ﬁlter also has the property that the measurement
+residual r(k) is a white noise sequence.

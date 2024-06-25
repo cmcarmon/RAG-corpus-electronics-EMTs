@@ -1,0 +1,7 @@
+Bartlett’s method consists of the following steps:
+The original N point data segment is split up into K (non-overlapping) data segments, each of length M
+For each segment, compute the periodogram by computing the discrete Fourier transform (DFT version which does not divide by M), then computing the squared magnitude of the result and dividing this by M.
+Average the result of the periodograms above for the K data segments.
+The averaging reduces the variance, compared to the original N point data segment.
+
+The end result is an array of power measurements vs. frequency "bin".

@@ -1,0 +1,65 @@
+Range and velocity can both be identified using medium PRF, but neither one can be identified directly. Medium PRF is from 3 kHz to 30 kHz, which corresponds with radar range from 5 km to 50 km. This is the ambiguous range, which is much smaller than the maximum range. Range ambiguity resolution is used to determine true range in medium PRF radar.
+Medium PRF is used with Pulse-Doppler radar, which is required for look-down/shoot-down capability in military systems. Doppler radar return is generally not ambiguous until velocity exceeds the speed of sound.
+A technique called ambiguity resolution is required to identify true range and speed. Doppler signals fall between 1.5 kHz, and 15 kHz, which is audible, so audio signals from medium-PRF radar systems can be used for passive target classification.
+For example, an L band radar system using a PRF of 10 kHz with a duty cycle of 3.3% can identify true range to a distance of 450 km (30 * C / 10,000 km/s). This is the instrumented range. Unambiguous velocity is 1,500 m/s (3,300 mile/hour).
+
+
+
+
+
+450 km
+
+=
+
+
+C
+
+0.033
+×
+2
+×
+10
+,
+000
+
+
+
+
+
+{\displaystyle {\text{450 km}}={\frac {C}{0.033\times 2\times 10,000}}}
+
+
+
+
+
+
+1,500 m/s
+
+=
+
+
+
+10
+,
+000
+×
+C
+
+
+2
+×
+
+10
+
+9
+
+
+
+
+
+
+
+{\displaystyle {\text{1,500 m/s}}={\frac {10,000\times C}{2\times 10^{9}}}}
+
+The unambiguous velocity of an L-Band radar using a PRF of 10 kHz would be 1,500 m/s (3,300 mile/hour) (10,000 x C / (2 x 10^9)). True velocity can be found for objects moving under 45,000 m/s if the band pass filter admits the signal (1,500/0.033).
+Medium PRF has unique radar scalloping issues that require redundant detection schemes.

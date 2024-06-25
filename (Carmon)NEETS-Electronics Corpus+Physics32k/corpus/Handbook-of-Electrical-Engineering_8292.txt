@@ -1,0 +1,9 @@
+Given that the normal length of signatures used varies between k = 16 and k = 32, the probability of aliasing
+is minimal and considered acceptable in practice. In MISR, the length of the compactor also depends on the
+number  of  outputs  tested.  If  the  number  of  outputs  is  greater  than  the  length  of  the  MISR,  algorithms  or
+heuristics exist for combining outputs with EXOR trees before feeding them to the compactor. If the number
+of outputs is much smaller, various choices can be evaluated. The amount of aliasing that actually occurs in a
+particular  circuit  can  be  computed  by  full  fault  simulation,  that  is,  by  injecting  each  possible  fault  into  a
+simulated circuit and computing the resulting signature. Changes in aliasing can be achieved by changing the
+polynomial  used  to  deﬁne  the  compactor.  It  has  been  shown  that  primitive  polynomials,  essential  for  the
+generation of exhaustive input generators (see above), also possess better aliasing characteristics.

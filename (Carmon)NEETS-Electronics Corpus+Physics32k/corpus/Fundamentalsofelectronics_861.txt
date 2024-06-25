@@ -1,0 +1,9 @@
+6.22 Compression and the Huﬀman Code29
+Shannon’s Source Coding Theorem (6.52) has additional applications in data compression. Here, we have
+a symbolic-valued signal source, like a computer ﬁle or an image, that we want to represent with as few
+bits as possible. Compression schemes that assign symbols to bit sequences are known as lossless if they
+obey the Source Coding Theorem; they are lossy if they use fewer bits than the alphabet’s entropy. Using
+a lossy compression scheme means that you cannot recover a symbolic-valued signal from its compressed
+version without incurring some error. You might be wondering why anyone would want to intentionally
+create errors, but lossy compression schemes are frequently used where the eﬃciency gained in representing
+the signal outweighs the signiﬁcance of the errors.

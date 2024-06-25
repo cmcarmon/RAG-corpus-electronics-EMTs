@@ -1,0 +1,7 @@
+The K map provides an immediate view of the values of the function in graphical form.
+Note that the arrangement of the cells in the K map is such that any two adjacent cells contain
+minterms that vary only in one variable. Consider the map to be continuously wrapping around
+itself, as if the top and bottom, and right and left, edges were touching each other. For an n-variable
+map, there will be n minterms adjacent to any given minterm. For example, in Figure 6.1.14, the
+cell corresponding to m2 is adjacent to the cells corresponding to m3, m6, m0, and m10. It can be
+veriﬁed that any two adjacent cells contain minterms that vary only in one variable. The m2 cell,

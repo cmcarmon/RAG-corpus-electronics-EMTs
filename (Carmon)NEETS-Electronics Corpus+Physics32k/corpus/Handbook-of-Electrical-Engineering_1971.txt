@@ -1,0 +1,7 @@
+Folding: The technique of mapping many tasks to a single processor.
+Look-ahead: The technique of computing a state x (n) usng previous state x (n – M ) without requiring the
+intermediate states x (n – 1) through x (n – M + 1). This is referred to as a M-step look-ahead. In the
+case of higher-order computations, there are two forms of look-ahead: clustered look-ahead and scattered
+look-ahead.  In  clustered  look-ahead,  x (n)  is  computed  using  the  clustered  states  x (n  –  M  –  N  +  1)
+through x (n – M ) for an Nth order computation. In scattered look-ahead, x (n) is computed using the
+scattered states x (n – iM ) where i varies from 1 to N.

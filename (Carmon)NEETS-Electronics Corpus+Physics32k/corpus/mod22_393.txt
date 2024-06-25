@@ -1,0 +1,8 @@
+When a flexible computer is working in a fixed-word-length environment, each address identifies a 
+group of bytes that can be operated on as a unit. This processing method helps to achieve faster 
+calculating speeds. A programmer can use program instructions to cause the computer to automatically 
+retrieve, manipulate, and store, as a unit, a fixed word of say, two, four, or eight bytes of data in one 
+machine operation by identifying the address of the first character of data. At the same time all remaining 
+bytes are acted upon as a unit moving from left to right. Figure 4-10 illustrates the different word lengths 
+possible with many byte-addressable computers. They are half-word (2 bytes), full-word (4 bytes), and 
+double-word (8 bytes). 

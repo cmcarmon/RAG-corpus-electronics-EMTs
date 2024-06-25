@@ -1,0 +1,9 @@
+Overﬂow nonlinearities inﬂuence the most signiﬁcant bits of
+the signal and cause severe distortion. An overﬂow can give
+rise to self-sustained, high-amplitude oscillations known as
+overﬂow limit cycles. Digital ﬁlters, which are free of zero-
+input limit cycles, are also free of overﬂow oscillations if the
+overﬂow nonlinearities are implemented with saturation arith-
+metic, that is, by replacing the number in overﬂow by a
+number with the same sign and with maximum magnitude
+that ﬁts the available wordlength.

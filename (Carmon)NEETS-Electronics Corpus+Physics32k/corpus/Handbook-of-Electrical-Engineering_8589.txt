@@ -1,0 +1,23 @@
+NumberCount( )
+We enter the program at the top with one pointer passed from the calling routine and a set of local variables
+comprising two integers and eight Boolean variables. Most of the Boolean variables will be used in pairs. The
+, indicates that the current character is one of a particular
+ﬁrst element of a pair, for instance, 
+class of non-numeric characters which might be found inside a number. If you consider that the number begins
+ will be set true
+at the ﬁrst digit, then these characters can occur legally only once within a given number. 
+latche
+, is set true if there has
+if the current character is the 
+ and 
+latchs
+.
+ever been one of those characters in the current number. The other pairs are 
+ and if the scanner is currently
+inside
+ a number. Were you to limit your numbers to integers, these two are the only Booleans which would be
+needed.  At  the  top  of  the  program,  all  Booleans  are  reset  (made  FALSE).  Then  we  step  through  the  block
+looking for numbers. The search stops when we encounter the ﬁrst null [char(0)] marking the end of the block.
+Try running through the routine with text containing the three forms of number. You will quickly convince
+yourself that the routine works with all normal numbers. If someone writes “3..14” or “3.14ee6”, the program
+will count 2 numbers. That is probably right in the ﬁrst two cases. Who knows in the third?

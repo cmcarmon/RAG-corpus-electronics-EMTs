@@ -1,0 +1,7 @@
+A half subtractor can handle only two 1-bit num-
+bers. To subtract binary numbers with more than 1 bit, 
+additional full subtractors must be used. Keep in mind 
+that if a 1 is subtracted from a 0, a borrow must be 
+made from the next higher-order column. The out-
+put borrow of the lower-order subtractor becomes the 
+ input borrow of the next higher-order subtractor.

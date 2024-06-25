@@ -1,0 +1,7 @@
+concerned with providing access points for testing (see controllability and observability in Section 85.2). As test
+pattern generation becomes even more prohibitive, probabilistic solutions based on compaction and using fault
+simulation are more widespread, especially if they are supported by DFT techniques and they can avoid the
+major expense of dedicated external testers. However, any technique chosen must be incorporated within the
+framework of a powerful CAD system providing semiautomatic analysis and feedback, such that the rule of ten
+can be kept under control: if one does not ﬁnd a failure at a particular stage, then detection at the next stage
+will cost 10 times as much!

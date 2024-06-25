@@ -1,0 +1,5 @@
+The ﬁrst transaction transfers $10 from bank account X to bank account Y. The second transaction withdraws
+$20 from bank account X. Assume that initially there was $200 in X and $100 in Y. When the two transactions
+are  performed  serially,  the  ﬁnal  amounts  in  X  and  Y  are  $170  and  $110,  respectively.  However,  if  the  two
+transactions are interleaved as shown, then after the completion of both transactions, there will be $190 in X
+and $110 in Y. The database is now in an inconsistent state.

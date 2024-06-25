@@ -1,0 +1,7 @@
+Thus,  only  the  output  samples  from  n  =  N  to  n  =  L  –  1  are  the  same  as  those  that  would  result  from  the
+convolution of the impulse response with the inﬁnite-length data sequence  x(n). The ﬁrst N data points are
+corrupted and must therefore be discarded. So that the output data sequence does not have N-point “gaps” in
+it,  it  is  therefore  necessary  to overlap the  data  in  adjacent  input  data  blocks.  In  carrying  out  the  processing,
+samples from block to block are saved so that the last N points of the ith data block xi(n) are the same as the
+ﬁrst N points of the following data block xi+1(n). Each processed L-point data block thus produces L – N output
+samples.

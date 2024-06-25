@@ -1,0 +1,11 @@
+Solution to Exercise 5.33 (p. 178)
+The delay is not computational delay here–the plot shows the ﬁrst output value is aligned with the ﬁlter’s ﬁrst
+input–although in real systems this is an important consideration. Rather, the delay is due to the ﬁlter’s phase
+shift: A phase-shifted sinusoid is equivalent to a time-delayed one: cos (2πf n − φ) = cos
+.
+All ﬁlters have phase shifts. This delay could be removed if the ﬁlter introduced no phase shift. Such ﬁlters
+do not exist in analog form, but digital ones can be programmed, but not in real time. Doing so would
+require the output to emerge before the input arrives!
+Solution to Exercise 5.34 (p. 179)
+We have p + q + 1 multiplications and p + q − 1 additions. Thus, the total number of arithmetic operations
+equals 2 (p + q).

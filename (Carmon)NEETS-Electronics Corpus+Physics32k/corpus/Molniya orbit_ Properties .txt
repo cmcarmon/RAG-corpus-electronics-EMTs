@@ -1,0 +1,178 @@
+Much of the area of the former Soviet Union, and Russia in particular, is located at high latitudes. To broadcast to these latitudes from a geostationary orbit (above the Earth's equator) would require considerable power due to the low elevation angles. A satellite in a Molniya orbit is better suited to communications in these regions because it looks directly down on them. In fact, in the period from apogee −3 hours to apogee +3 hours, the sub-satellite point of the spacecraft is north of latitude 55.5° N and the elevation of the spacecraft is over 10° from all points north of latitude 54.1° N and over 5° from all points north of latitude 49.2° N.
+An additional advantage is that considerably less launch energy is needed to place a spacecraft into a Molniya orbit than into a geostationary orbit. Disadvantages are that, as opposed to a spacecraft in a geostationary orbit, the ground station needs a steerable antenna to track the spacecraft and that the spacecraft will pass the Van Allen radiation belt four times per day.
+It is necessary to have at least three spacecraft if permanent high elevation coverage is needed for a large area like the whole of Russia where some parts are as far south as 45° N. If three spacecraft are used, each spacecraft is active for periods of eight hours per orbit centered at apogee as illustrated in figure 9. The Earth completes half a rotation in 12 hours, so the apogees of successive Molniya orbits will alternate between one half of the northern hemisphere and the other half. For example, if the apogee longitudes are 90° E and 90° W, the apogees will alternately serve Europe and Asia (see figures 3 to 5) and next Northern America (see figures 6 to 8). The orbits of the three spacecraft should then have the same apogee longitudes (for example 90° W and 90° E), but pass the apogee with eight hours shift; i.e. the right ascensions of the ascending nodes should be separated with 120°. When one spacecraft has reached the point corresponding to figure 5 (or figure 8) four hours after apogee passage, the next spacecraft has four hours left to reach apogee and having a right ascension of ascending node 120° larger than the previous spacecraft. Said next spacecraft has the visibility displayed in figure 3 (or figure 6) and the switch-over can take place. Note that the two spacecraft at the time of switch-over are separated about 1500 km, so that the ground stations only have to move the antennas a few degrees to acquire the new spacecraft.
+In general, the oblateness of the Earth perturbs the argument of perigee, so that even if the apogee started near the north pole, it would gradually move unless constantly corrected with station-keeping thruster burns. To avoid this expenditure of fuel, the Molniya orbit uses an inclination of 63.4°, for which these perturbations are zero. That this is the case follows from equation (28) of the article Orbital perturbation analysis (spacecraft) as the factor
+
+
+
+
+
+(
+
+
+
+5
+4
+
+
+
+
+sin
+
+2
+
+
+⁡
+i
+
+−
+
+1
+
+)
+
+
+
+{\displaystyle \left({\frac {5}{4}}\ \sin ^{2}i\ -\ 1\right)}
+
+then is zero.
+The reason why the orbital period shall be half a sidereal day is that the geometry relative to the ground stations should repeat every 24 hours, keeping the longitudes for the apogees passages. In fact, the precise ideal orbital period resulting in a ground track repeating every 24 hours is not precisely half a sidereal day, but rather half a synodic day. The J2 term of the gravitational field of the Earth causes secular perturbations of both the right ascension of the ascending node
+
+
+
+Ω
+
+
+{\displaystyle \Omega }
+and the argument of perigee
+
+
+
+ω
+
+
+{\displaystyle \omega }
+, the formulas giving the change per orbital revolution (in radians) being
+
+
+
+
+Δ
+Ω
+=
+−
+2
+π
+
+
+
+J
+
+2
+
+
+
+μ
+
+p
+
+2
+
+
+
+
+
+
+
+
+3
+2
+
+
+cos
+⁡
+i
+
+
+{\displaystyle \Delta \Omega =-2\pi {\frac {J_{2}}{\mu p^{2}}}\ {\frac {3}{2}}\cos i}
+
+
+
+
+
+Δ
+ω
+=
+−
+2
+π
+
+
+
+J
+
+2
+
+
+
+μ
+
+p
+
+2
+
+
+
+
+
+
+3
+
+(
+
+
+
+5
+4
+
+
+
+
+sin
+
+2
+
+
+⁡
+i
+
+−
+
+1
+
+)
+
+
+
+{\displaystyle \Delta \omega =-2\pi {\frac {J_{2}}{\mu p^{2}}}\ 3\left({\frac {5}{4}}\ \sin ^{2}i\ -\ 1\right)}
+
+which are equations (24) and (28) of the article Orbital perturbation analysis (spacecraft).
+For a Molniya orbit, the inclination is selected such that
+
+
+
+Δ
+ω
+
+
+{\displaystyle \Delta \omega }
+as given by the formula above is zero but
+
+
+
+Δ
+Ω
+
+
+{\displaystyle \Delta \Omega }
+, as given by the other equation, will be −0.0742° per orbit. The rotational period of the Earth relative to the node (i.e. the synodic day) will therefore be only 86,129 seconds, 35 seconds less than the sidereal day which is 86,164 seconds.

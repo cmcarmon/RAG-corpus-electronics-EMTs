@@ -1,0 +1,8 @@
+We already know how to ﬁnd the steady-state solution xss(t) for dc or ac sources, and the
+principle of superposition can be used if we have more than one source. To ﬁnd that part of
+the steady-state solution due to a dc source, deactivate or zero all the other sources, and replace
+inductors with short circuits, and capacitors with open circuits, and then solve the resulting circuit
+for the voltage or current of interest. To ﬁnd that part of the steady-state solution due to an ac
+source, deactivate or zero all the other sources and use the phasor method of Section 3.1. The
+solution to Equation (3.2.3) or Equation (3.2.4) is then given by Equation (3.2.5) as the sum of
+the transient and steady-state solutions,

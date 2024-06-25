@@ -1,0 +1,9 @@
+The preceding result represents the key analytical device for
+the synthesis of LPV controllers satisfying prespeciﬁed ampli-
+tude performance constraints. Gain-scheduled controller syn-
+thesis is accomplished in an iterative fashion: perform a line
+search for values of a > 0, solving (at each a) the synthesis
+conditions of equations 9.18 through 9.20 for the required
+matrices and/or the required performance level, g. When the
+required performance has been achieved, the LPV controller is
+formed from the realization in equation 9.21.

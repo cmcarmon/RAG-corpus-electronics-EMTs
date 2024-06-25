@@ -1,0 +1,37 @@
+Intellisuite is another integrated software system that assists
+designers in optimizing MEMS devices by providing the
+needed manufacturing databases, allowing them to model
+the entire device manufacturing sequence, and to simulate
+the behavior without having to enter a manufacturing facility
+(http://www.corningintellisense.com). The system can be used
+to predict the behavior of complex structures to within a 10%
+accuracy by utilizing fully coupled thermoelectromechanical
+analysis. Intellisuite incorporates three extensive material,
+design, and fabrication databases from respected sources.
+These databases are integrated, and users can easily add
+custom information to any of them. Intellisuite uses a process
+sequence builder to emulate the actual process steps that go
+into building a device in a fabrication facility. For example,
+the steps in a typical MEMS process (e.g., laying down the
+silicon substrate, cleaning, deposition, mask layout, implan-
+tation, and etching) are incorporated in the software data-
+base. Once the user inputs the process sequence or uses a
+process template, an expert system process checker debugs the
+process to ensure completeness and continuity of the deﬁned
+steps. A solid modeler will then create a three-dimensional
+structure upon combining the fabrication information from
+the process sequence builder and planar geometry information
+from the mask layout editor. Surface and volume meshes
+are generated automatically for the purpose of simulation
+of the device performance. The simulation allows the speciﬁ-
+cation of voltage, temperature, mechanical stress, thermal
+stress, and residual stress for a fully coupled analysis. At any
+process step, the designer can access the material database,
+MEMaterial, to investigate the effects of process parameters
+on the structure. For example, the user can investigate the
+stress of a silicon nitride thin ﬁlm by varying parameters
+such as the temperature and pressure of deposition, the
+radio frequency and power, and gas partial pressures. Once
+an acceptable stress is achieved, the material properties and
+fabrication information are automatically used for device
+simulation.

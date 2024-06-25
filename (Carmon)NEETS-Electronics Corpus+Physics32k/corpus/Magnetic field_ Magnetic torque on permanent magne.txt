@@ -1,0 +1,43 @@
+If two like poles of two separate magnets are brought near each other, and one of the magnets is allowed to turn, it promptly rotates to align itself with the first. In this example, the magnetic field of the stationary magnet creates a magnetic torque on the magnet that is free to rotate. This magnetic torque τ tends to align a magnet's poles with the magnetic field lines. A compass, therefore, turns to align itself with Earth's magnetic field.
+Magnetic torque is used to drive electric motors. In one simple motor design, a magnet is fixed to a freely rotating shaft and subjected to a magnetic field from an array of electromagnets. By continuously switching the electric current through each of the electromagnets, thereby flipping the polarity of their magnetic fields, like poles are kept next to the rotor; the resultant torque is transferred to the shaft. See Rotating magnetic fields below.
+
+As is the case for the force between magnets, the magnetic pole model leads more readily to the correct equation. Here, two equal and opposite magnetic charges experiencing the same H also experience equal and opposite forces. Since these equal and opposite forces are in different locations, this produces a torque proportional to the distance (perpendicular to the force) between them. With the definition of m as the pole strength times the distance between the poles, this leads to τ = μ0mHsinθ, where μ0 is a constant called the vacuum permeability, measuring 4π×10−7 V·s/(A·m) and θ is the angle between H and m.
+The Amperian loop model also predicts the same magnetic torque. Here, it is the B field interacting with the Amperian current loop through a Lorentz force described below. Again, the results are the same although the models are completely different.
+
+Mathematically, the torque τ on a small magnet is proportional both to the applied magnetic field and to the magnetic moment m of the magnet:
+
+
+
+
+
+τ
+
+=
+
+m
+
+×
+
+B
+
+=
+
+μ
+
+0
+
+
+
+m
+
+×
+
+H
+
+,
+
+
+
+{\displaystyle {\boldsymbol {\tau }}=\mathbf {m} \times \mathbf {B} =\mu _{0}\mathbf {m} \times \mathbf {H} ,\,}
+
+where × represents the vector cross product. Note that this equation includes all of the qualitative information included above. There is no torque on a magnet if m is in the same direction as the magnetic field. (The cross product is zero for two vectors that are in the same direction.) Further, all other orientations feel a torque that twists them toward the direction of magnetic field.

@@ -1,0 +1,12 @@
+Simpliﬁed block diagrams for CW Doppler radars are shown in Fig. 41.8. The transmitter is a single-frequency
+source, and leakage (or coupling) of a small amount of transmitter power serves as a local oscillator signal in
+the mixer. The transmitted signal will produce a Doppler-shifted return from a moving target. In the case of
+scatterometer measurements, where, for example, terrain reﬂectivity is to be measured, the relative motion may
+be  produced  by  moving  the  radar  (perhaps  on  a  vehicle)  with  respect  to  the  stationary  target  [Wiltse  et al.,
+1957].  The  return  signal  is  collected  by  the  antenna  and  then  also  fed  to  the  mixer.  After  mixing  with  the
+transmitter  leakage,  a  difference  frequency  will  be  produced  which  is  the  Doppler  shift.  As  indicated  in
+Table 41.8, this difference is apt to range from low audio to over 100 kHz, depending on relative speeds and
+choice of microwave frequency. The Doppler ampliﬁer and ﬁlters are chosen based on the information to be
+obtained, and this determines the ampliﬁer bandwidth and gain, as well as the ﬁlter bandwidth and spacing.
+The transmitter leakage may include reﬂections from the antenna and/or nearby clutter in front of the antenna,
+as well as mutual coupling between antennas in the two-antenna case.

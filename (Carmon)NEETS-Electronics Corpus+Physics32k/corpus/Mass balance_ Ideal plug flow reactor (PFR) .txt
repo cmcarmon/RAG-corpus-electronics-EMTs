@@ -1,0 +1,3 @@
+The idealized plug flow reactor is an open system resembling a tube with no mixing in the direction of flow but perfect mixing perpendicular to the direction of flow. Often used for systems like rivers and water pipes if the flow is turbulent. When a mass balance is made for a tube, one first considers an infinitesimal part of the tube and make a mass balance over that using the ideal tank reactor model. That mass balance is then integrated over the entire reactor volume to obtain:
+
+In numeric solutions, e.g. when using computers, the ideal tube is often translated to a series of tank reactors, as it can be shown that a PFR is equivalent to an infinite number of stirred tanks in series, but the latter is often easier to analyze, especially at steady state.

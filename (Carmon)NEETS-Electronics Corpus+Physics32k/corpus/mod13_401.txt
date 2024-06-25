@@ -1,0 +1,5 @@
+The first input pulse is applied to the A input of each of the AND gates. The B inputs to AND gates
+2, 3, and 4 are LOW since the outputs of FF2, FF3, and FF4 are LOW. AND gate 1 now has HIGHs on
+both inputs and produces a HIGH output. This HIGH simultaneously resets FF1 and sets FF2. Lamp A
+then goes out, and lamp B goes on. We now have a HIGH on AND gate 2 at the B input. We also have a
+LOW on AND gate 1 at input B.

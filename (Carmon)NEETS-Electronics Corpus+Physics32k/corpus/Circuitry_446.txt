@@ -1,0 +1,29 @@
+and  TR1’s  base  voltage  will  rise  exponentially 
+from  2VCC  towards  +VCC. However,  TR1’s  base 
+voltage  will  not  rise  much  above  0  V  because,  as 
+soon as it reaches +0.7 V (sufficient to cause base 
+current  to  flow),  TR1  will  begin  to  conduct.  As 
+TR1  begins  to  turn  on,  its  collector  voltage  will 
+rapidly fall from +VCC 0 V. This fall in voltage is 
+transferred  to  the  base  of  TR2  via  C1 and,  as  a 
+consequence,  TR2  will  turn  off.  C1 will  then 
+charge  via  R3 and  TR2’s  base  voltage  will  rise 
+exponentially from 2VCC towards +VCC. As before, 
+TR2’s  base  voltage  will  not  rise  much  above  0  V 
+because, as soon as it reaches +0.7 V (sufficient to 
+cause  base  current  to  flow),  TR2  will  start  to 
+conduct. The cycle is then repeated indefinitely. 
+  The time for which the collector voltage of TR2 
+is low and TRl is high (T1) will be determined by 
+the time constant, R4 × C1. Similarly, the time for 
+which the collector voltage of TR1 is low and TR2 
+is  high  (T2)  will  be  determined  by  the  time 
+constant, R3 × C1. 
+  The following approximate relationships apply: 
+ 
+T1 = 0.7 C2 R4 and  T2 = 0.7 C1 R3
+Since one complete cycle of the output occurs in a 
+time, T = T1 + T2, the periodic time of the output is 
+given by: 
+ 
+T = 0.7 (C2 R4 + C1 R3) 

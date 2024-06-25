@@ -1,0 +1,16 @@
+The cost of the memory organization does not only depend on
+the allocation of memories, however, but also on the assignment
+of arrays to the memories (the previous discussion assumes an
+optimal assignment). When several memories are available, many
+ways exist to assign the arrays to them. The paragraph on the cost
+of conﬂicts in Subsection 2.6.3 demonstrates some of these issues.
+In addition, the optimal assignment of arrays to memories
+depends on the memories used. For example, the energy con-
+sumption of some memories is very sensitive to their size, while
+for others it is not. In the former case, it may be advantageous to
+accept some wasted bits to keep the heavily accessed memories
+very small, whereas in the latter case, the reverse may be true. To
+ﬁnd a (near optimal signal-to-memory assignment, a huge
+number of possibilities have to be considered. Therefore, a tool
+to explore the memory organization possibilities based on a good
+memory library is indispensable for this step.

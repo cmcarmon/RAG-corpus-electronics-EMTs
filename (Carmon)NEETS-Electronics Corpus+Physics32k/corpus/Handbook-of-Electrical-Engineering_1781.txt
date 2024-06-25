@@ -1,0 +1,10 @@
+Huffman Coding
+One of the most efﬁcient information-preserving (entropy) coding methods is Huffman coding. Construction
+of a Huffman code involves arranging the symbol probabilities in decreasing order and considering them as
+leaf nodes of a tree. The tree is constructed by merging the two nodes with the smallest probability to form a
+new  node.  The  probability  of  the  new  node  is  the  sum  of  the  two  merged  nodes.  This  process  is  continued
+until only two nodes remain. At this point, 1 and 0 are arbitrarily assigned to the two remaining nodes. The
+process now moves down the tree, decomposing probabilities and assigning 1’s and 0’s to each new pair. The
+process continues until all symbols have been assigned a code word (string of 1’s and 0’s). An example is given
+in Fig. 17.15. Many other types of information-preserving compression schemes exist (see, for example, Gonza-
+lez and Wintz [1987]), including arithmetic coding, Lempel-Ziv algorithm, shift coding, and run-length coding.

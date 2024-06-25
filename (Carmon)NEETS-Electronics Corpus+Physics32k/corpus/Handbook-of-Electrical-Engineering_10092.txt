@@ -1,0 +1,9 @@
+HVAC Illustration
+In order to demonstrate the ability of the neural identiﬁcation and control schemes to handle disturbances and
+changes in nonlinear plant dynamics, a Heat, Ventilation, and Air-Conditioning (HVAC) system where a thermal
+load is added and the actual output vs. the commanded output of each actuator is modiﬁed. The neural observers
+are adapted at each time step in one simulation, while adaptation of the observers is stopped at time step k =
+200  in  another  simulation.  Both  simulations  are  performed  for  1000  time  steps.  The  reference  trajectory  is
+plotted in Fig. 100.65, along with the output of the system that uses nonadaptive identiﬁers after time step k =
+200. Tracking errors for both simulations are plotted in Fig. 100.66, where T3 is the temperature to be controlled
+and r is the reference signal to be tracked.

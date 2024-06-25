@@ -1,0 +1,9 @@
+A similar model might apply for a microphone. When an information
+processing system such as an amplifier is connected to the microphone,
+its
+output might drop from a 1-mV peak-to-peak signal to a 0.5-mV peak-to-peak
+signal due to the internal resistance of the microphone. As with the battery, we
+can model the microphone as a voltage source in series with a resistance Rm as
+depicted in Figure 1.39. Although the output voltage of the microphone will
+not run down over time, its model is not exact for other reasons. For example,
+the voltage drop in the signal might be related to the signal frequency.

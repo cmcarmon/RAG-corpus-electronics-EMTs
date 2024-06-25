@@ -1,0 +1,4 @@
+This algorithm has the advantage that it is simple to program, while, on the other hand, its disadvantage lies
+in the fact that it has poor disturbance rejection properties in that if an is made large enough for good disturbance
+rejection, the closed-loop system can be unstable (i.e., have transient responses which increase with time). Since
+the object is to regulate the system output in a known way, these unbounded responses preclude this regulation.

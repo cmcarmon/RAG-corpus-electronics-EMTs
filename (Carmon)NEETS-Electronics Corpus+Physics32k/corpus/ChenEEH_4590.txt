@@ -1,0 +1,20 @@
+The discrete-time Lyapunov stability theory indicates that
+the control problem can be solved as long as the numerical
+value of the failure dynamics is realized at each time-step,
+which is a measure of how far the failure drives the system
+dynamics away from the desired dynamics. Based on the above
+theoretical analysis, the system under unexpected catastrophic
+failures can be stabilized online, and the performance can be
+recovered provided an effective online estimator for the un-
+known failure dynamics such that the necessary and sufﬁcient
+condition in theorem 1 is satisﬁed. Moreover, since the online
+estimator is used to provide the approximated numerical value
+of the failure dynamics at each time-step based on the most
+recent measurements (i.e., the failure may be time varying), no
+speciﬁc structure or dynamics is required for the estimator. In
+other words, only a static function approximator that approxi-
+mates the most recent behavior of the failure is needed for the
+control purpose. Figure 8.4 indicates how the S function is
+bounded by the upper bounds of the nominal model uncer-
+tainty, DN ~yy(k þ 1), optimization error, DE(k), and the predic-
+tion error of the failure dynamics, Dnf ~yy(k þ 1).

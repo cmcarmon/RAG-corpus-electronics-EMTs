@@ -1,0 +1,4 @@
+The  previous  program  segment  can  be  placed  within  a  loop,  with  the  PC  and  the  auxiliary  register  AR1
+reinitialized (see the memory organization of the samples x(k) associated with time n + 1 in Table 18.1). Note
+that  the  last  multiply  operation  is  h(0)x(.),  where  x(.)  represents  the  newest  sample.  This  process  can  be
+continuously repeated for time n + 2, n + 3, and so on.

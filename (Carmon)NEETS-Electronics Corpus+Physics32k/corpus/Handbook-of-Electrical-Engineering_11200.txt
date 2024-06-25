@@ -1,0 +1,6 @@
+The  bandwidth  of  the  ﬁlters  and  the  rate  of  digitization  determine  the  frequency  components  of  interest
+that are passed, while other frequencies outside the band of interest that may represent potential artifacts, such
+as  aliasing,  are  rejected. A  ﬁlter’s  characteristics  are  determined  by  the  rate  of  the  amplitude  decrease  at  the
+bandwidth’s upper and lower edges. Proper digital representation of the analog signal depends on the rate of
+data sampling, which is governed by the Nyquist theorem that states that data sampling should be at least twice
+the highest frequency of interest.

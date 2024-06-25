@@ -1,0 +1,8 @@
+Some Examples
+The  parasitic  capacitance  in  the  terminals  of  a  resistor  may  cause  a  roll-off  of  about  20  dB/octave  in  actual
+resistors [Brown, 1983, p. 139]. At 290K (room temperature), we have 2kT = 2 3  1.38 3  10–23 3  290 = 0.8
+3 10–20 W/Hz due to each ohm [see Ott, 1988]. For R = 1 MW (106 W), SWW(w) = 0.8 3 10–14. Over a band
+of 108 Hz, we have PW W(B) = SW W(w)B = 0.8 3  10–14 3  108 = 0.8 3  10–6 W = 0.8 mW by Eqs. (73.24) and
+(73.26). In practice, parasitic capacitance causes thermal noise to be bandlimited (pink noise). Now consider
+Fig. 73.6(b) and let the temperature be 300K, R = 106 W, C = 1 pf (1 picofarad = 10–12 farads), and assume L
+is  0H. By Eq. (73.26), the thermal noise power is

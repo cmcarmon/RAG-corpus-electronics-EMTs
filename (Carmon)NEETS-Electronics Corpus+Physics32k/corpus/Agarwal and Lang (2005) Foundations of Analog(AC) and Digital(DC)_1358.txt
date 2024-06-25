@@ -1,0 +1,8 @@
+As illustrated in Chapter 9, capacitances and inductances impact circuit behavior.
+The effect of capacitances and inductances is so acute in high-speed digital cir-
+cuits, for example, that our simple digital abstractions developed in Chapter 6
+based on a static discipline become insufficient for signals that undergo transi-
+tions. Therefore, understanding the behavior of circuits containing capacitors
+and inductors is important. In particular, this chapter will augment our digital
+abstraction with the concept of delay to include the effects of capacitors and
+inductors.

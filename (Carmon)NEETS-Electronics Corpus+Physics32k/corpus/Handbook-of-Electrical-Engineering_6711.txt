@@ -1,0 +1,7 @@
+There  are  numerous  possibilities  for  connection  of  hosts  to ATM  networks,  but  they  all  share  a  common
+architecture, which consists of three sublayers: the ATM adaption layer (AAL), the ATM layer, and the physical
+media-dependent (PMD) layer. Connection of hosts to ATM at a given layer is achieved through developing
+an AAL for the layer in question. For example, one might decide to adapt to ATM at the network layer. In that
+case,  the  transport  layer  would  operate  as  usual,  and  the AAL  would  be  designed  to  process  data  structures
+from the transport layer to produce data structures for use by the ATM layer and vice versa. Of course, all hosts
+communicating with each other in this way would use the same AAL.

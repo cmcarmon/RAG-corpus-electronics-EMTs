@@ -1,0 +1,12 @@
+Conservation laws have to be enforced independently of
+a user-deﬁned partitioning of the entire model into design
+entities. This implies that the interface description of en-
+tities requires an enhancement. The connection pins of an
+entity, denoted as ports in VHDL terminology, may now
+carry waveforms of different qualities: digital signals and con-
+tinuous quantities of some physical domain with or without
+conservation requirements as given in Table 3.3. The new
+interface description syntax of VHDL–AMS is given here;
+note that the compatability for VHDL 1076 is accomplished
+by a blank PortAttribute, which is interpreted as the signal
+attribute:

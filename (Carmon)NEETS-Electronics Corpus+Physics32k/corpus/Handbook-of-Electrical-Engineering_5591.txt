@@ -1,0 +1,12 @@
+Directional Overcurrent Relays
+When power systems become meshed, as for most subtransmission and high-voltage transmission networks,
+inverse time overcurrent relays do not provide adequate protection under all conditions. The problem arises
+because  the  fault  current  can  now  be  supplied  from  either  end  of  the  transmission  line,  and  discrimination
+between faults inside and outside the zone of protection is not always possible. Consider the loop system shown
+in Fig. 61.43. Notice that in this system there must be a circuit breaker at each end of the line, as a fault on the
+line cannot be interrupted by opening one end alone. Zone A is the zone of protection for the line A–D. A fault
+at F1 must be detected by the relays Rad and Rda. The current through the circuit breaker Bda for the fault F1
+must be the determining quantity for the operation of the relay Rda. However, the impedances of the lines may
+be such that the current through the breaker Bda for the fault F2 may be higher than the current for the fault
+F1. Thus, if current magnitude alone is the criterion, the relay Rda would operate for fault F2, as well as for the
+fault F1. Of course, operation of Rda for F2 is inappropriate, as it is outside its zone of protection, zone A. This

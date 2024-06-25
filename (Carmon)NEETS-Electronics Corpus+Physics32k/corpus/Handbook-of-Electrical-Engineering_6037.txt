@@ -1,0 +1,5 @@
+This ED algorithm generally applies to only thermal generation units that have cost characteristics of the
+type discussed here. The hydro units have to be dispatched with different considerations. Although there is no
+cost for the water, the amount of water available is limited over a period, and the displacement of fossil fuel
+by  this  water  determines  its  worth.  Thus,  if  the  water  usage  limitation  over  a  period  is  known,  say  from  a
+previously computed hydro optimization, the water worth can be used to dispatch the hydro units.

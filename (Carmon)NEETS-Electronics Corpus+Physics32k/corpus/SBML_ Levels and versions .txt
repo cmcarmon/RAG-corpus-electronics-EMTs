@@ -1,0 +1,7 @@
+SBML is defined in Levels: upward-compatible specifications that add features and expressive power. Software tools that do not need or cannot support the complexity of higher Levels can go on using lower Levels; tools that can read higher Levels are assured of also being able to interpret models defined in the lower Levels. Thus new Levels do not supersede previous ones. However, each Level can have multiple Versions within it, and new Versions of a Level do supersede old Versions of that same Level.
+There are currently three Levels of SBML defined. The current Versions within those Levels are the following:
+Level 3 Version 1 Core, for which the final Release 1 specification was issued 6 October 2010
+Level 2 Version 5 Release 1
+Level 1 Version 2
+Open-source software infrastructure such as libSBML and JSBML allows developers to support all Levels of SBML their software with a minimum amount of effort.
+The SBML Team maintains a public issue tracker where readers may report errors or other issues in the SBML specification documents. Reported issues are eventually put on the list of official errata associated with each specification release. The lists of errata are documented on the Specifications page of SBML.org.

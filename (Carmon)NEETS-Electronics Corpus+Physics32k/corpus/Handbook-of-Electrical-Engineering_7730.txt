@@ -1,0 +1,6 @@
+FIGURE 80.15
+I/O  system  parameters  as  a  function  of  application.  Transaction  processing  applications  are  seek  and
+rotational latency limited, since only small blocks are usually transferred from disk. Image-processing applications, on the
+other hand, transfer huge blocks and thus spend most of their I/O time in data transfer. Scientiﬁc computing applications
+tend to fall in between. (Source: I. Y. Bucher and A. H. Hayes, “I/O performance measurement on Cray-1 and CDC 7600
+computers,” Proc. Cray Users Group Conference, October 1980. With permission.)

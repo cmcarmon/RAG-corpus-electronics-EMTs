@@ -1,0 +1,9 @@
+The leading edge of the transmitted pulse causes the duplexer to align the antenna to the transmitter.
+This action is essentially instantaneous. At the end of the transmitted pulse, the trailing edge of the pulse
+causes the duplexer to line up the antenna with the receiver; however, this action is not instantaneous. A
+small amount of time elapses at this point that is referred to as recovery time. Therefore, the total time in
+which the receiver is unable to receive the reflected pulse is equal to the pulse width plus the recovery
+time. Note that any reflected pulses from close targets returning before the receiver is connected to the
+antenna will be undetected. The minimum range, in yards, at which a target can be detected is determined
+using the following formula (pulse width and recovery time are expressed in microseconds or fractions of
+microseconds):

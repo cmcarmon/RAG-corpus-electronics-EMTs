@@ -1,0 +1,12 @@
+Luk and Park (1988) analyzed the effect of roundoff errors
+on various matrix decomposition methods. They also con-
+cluded that small roundoff errors are magniﬁed in the ﬁnal
+result, thus necessitating the use of a large threshold for the FP
+checksum test to prevent false alarms. As Boley and Luk (1991)
+determined, a good threshold depends on the condition
+number of the matrix of checksum coefﬁcients. Thus, the
+selection of the threshold is generally a difﬁcult issue. False
+alarms can occur when the threshold is too small, and rela-
+tively large roundoff errors can be mistaken as the presence of
+an error in the result, which can lead to unnecessary recom-
+putation. On the other hand, a large threshold can cause an

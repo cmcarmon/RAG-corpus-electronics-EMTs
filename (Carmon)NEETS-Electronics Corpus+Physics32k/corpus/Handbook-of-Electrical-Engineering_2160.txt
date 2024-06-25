@@ -1,0 +1,8 @@
+We will ﬁnish the discussion of the MLP by noting that this topology when trained with the mean square
+error is able to estimate directly at its outputs a posteriori probabilities, i.e., the probability that a given input
+pattern belongs to a given class [Bishop, 1995]. This property is very useful because the MLP outputs can be
+interpreted as probabilities and operated as numbers. In order to guarantee this property, one has to make sure
+that each class is attributed to one output PE, that the topology is sufﬁciently large to represent the mapping,
+that the training has converged to the absolute minimum, and that the outputs are normalized between 0 and
+1. The ﬁrst requirements are met by good design, while the last can be easily enforced if the softmax activation
+is used as the output PE [Bishop, 1995],

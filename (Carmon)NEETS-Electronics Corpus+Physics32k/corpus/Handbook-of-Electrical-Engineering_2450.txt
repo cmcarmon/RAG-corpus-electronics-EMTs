@@ -1,0 +1,7 @@
+Self-Biasing
+The biasing circuit of Fig. 24.8 is called a self-biasing circuit in that the gate-to-
+source  voltage  is  derived  from  the  voltage  drop  produced  by  the  ﬂow  of  drain
+current through the source biasing resistor RS. It is a closed-loop system in that
+variations in the JFET parameters can be partially compensated for by the biasing
+circuit. The gate resistor RG is used to provide a dc return path for the gate leakage
+current and is generally up in the megohm range.

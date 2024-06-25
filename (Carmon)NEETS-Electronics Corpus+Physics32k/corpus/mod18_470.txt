@@ -1,0 +1,10 @@
+When taking power measurements, you must allow for power losses. You must add the directional 
+coupler attenuation factor and the loss in the connecting cable to the power meter reading. The sum is the 
+total power reading. For example, the directional coupler has an attenuation factor of 20 dB, the 
+connecting cable has a loss rating of 8 dB, and the reading obtained on the power meter is 21 dBm. 
+Therefore, the transmitter has an output power that is 49 dBm (21 + 20 + 8). Power readings in dBm 
+obtained by the above procedure are normally converted to watts to provide useful information. Although 
+the conversion can be accomplished mathematically, the procedure is relatively complex and is seldom 
+necessary. Most radar systems have a conversion chart, such as the one shown in figure 4-7, attached to 
+the transmitter or the test equipment. As you can see on the chart, 49 dBm is easily converted to 80 watts 
+average power. 

@@ -1,0 +1,8 @@
+An important function of a DBMS is to provide a Data Manipulation Language (DML) with which a user
+can retrieve, change, insert, and delete data from the database. DMLs are classiﬁed into two types: procedural
+and nonprocedural. The main difference between the two types is that in procedural DMLs, a user has to specify
+the desired data and how to obtain it, while in nonprocedural DMLs, a user has only to describe the desired
+data. Because they impose less burden on the user, nonprocedural DMLs are normally easier to learn and use.
+The component of a DML that deals with data retrieval is referred to as query language. A query language
+can be used interactively in a stand-alone manner, or it can be embedded in a general-purpose programming
+language such as C and Cobol.

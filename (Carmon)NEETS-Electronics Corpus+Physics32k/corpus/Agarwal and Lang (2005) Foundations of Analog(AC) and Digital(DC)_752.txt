@@ -1,0 +1,6 @@
+We can write a sum-of-products expression from a truth table representation
+by first writing a product term for each row in the truth table with a 1 in its
+output column, and then summing these product terms. Each product term
+comprises an AND function of all the input variables. A variable will appear in
+its true or complement form in a product term corresponding to a given row
+in the truth table depending on whether it appears as a 1 or a 0 in that row.

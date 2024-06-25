@@ -1,0 +1,191 @@
+The tetrahedron of state is a tetrahedron that graphically shows the conversion between effort and flow. The image to the right shows the tetrahedron in its generalized form. The tetrahedron can be modified depending on the energy domain. The table below shows the variables and constants of the tetrahedron of state in common energy domains.
+Using the tetrahedron of state, one can find a mathematical relationship between any variables on the tetrahedron. This is done by following the arrows around the diagram and multiplying any constants along the way. For example, if you wanted to find the relationship between generalized flow and generalized displacement, you would start at the f(t) and then integrate it to get q(t). More examples of equations can be seen below.
+Relationship between generalized displacement and generalized flow.
+
+
+
+
+q
+(
+t
+)
+=
+∫
+f
+(
+t
+)
+d
+
+t
+
+
+{\displaystyle q(t)=\int f(t)\operatorname {d} \!t}
+
+Relationship between generalized flow and generalized effort.
+
+
+
+
+f
+(
+t
+)
+=
+
+
+1
+R
+
+
+⋅
+e
+(
+t
+)
+
+
+{\displaystyle f(t)={\frac {1}{R}}\cdot e(t)}
+
+Relationship between generalized flow and generalized momentum.
+
+
+
+
+f
+(
+t
+)
+=
+
+
+1
+I
+
+
+⋅
+p
+(
+t
+)
+
+
+{\displaystyle f(t)={\frac {1}{I}}\cdot p(t)}
+
+Relationship between generalized momentum and generalized effort.
+
+
+
+
+p
+(
+t
+)
+=
+∫
+e
+(
+t
+)
+d
+
+t
+
+
+{\displaystyle p(t)=\int e(t)\operatorname {d} \!t}
+
+Relationship between generalized flow and generalized involving the constant C.
+
+
+
+
+e
+(
+t
+)
+=
+
+
+1
+C
+
+
+∫
+f
+(
+t
+)
+d
+
+t
+
+
+{\displaystyle e(t)={\frac {1}{C}}\int f(t)\operatorname {d} \!t}
+
+All of the mathematical relationships remain the same when switching energy domains, only the symbols change. This can be seen with the following examples.
+Relationship between displacement and velocity.
+
+
+
+
+x
+(
+t
+)
+=
+∫
+v
+(
+t
+)
+d
+
+t
+
+
+{\displaystyle x(t)=\int v(t)\operatorname {d} \!t}
+
+Relationship between current and voltage, this is also known as Ohm's law.
+
+
+
+
+i
+(
+t
+)
+=
+
+
+1
+R
+
+
+⋅
+V
+(
+t
+)
+
+
+{\displaystyle i(t)={\frac {1}{R}}\cdot V(t)}
+
+Relationship between force and displacement, also known as Hooke's law. It should be noted that the negative sign is dropped in this equation because the sign is factored into the way the arrow is pointing in the bond graph.
+
+
+
+
+F
+(
+t
+)
+=
+k
+⋅
+x
+(
+t
+)
+
+
+{\displaystyle F(t)=k\cdot x(t)}

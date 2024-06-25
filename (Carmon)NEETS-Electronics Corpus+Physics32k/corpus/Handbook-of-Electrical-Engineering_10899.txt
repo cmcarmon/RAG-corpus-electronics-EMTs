@@ -1,0 +1,6 @@
+Hierarchies greatly facilitate the drawing and organization of diagrams. They provide appropriate levels of
+abstraction so that individual diagrams can be understood without clutter from details. Hierarchies simplify
+individual diagrams, making the resulting code easier to test. One can build up a set of subdiagram libraries
+which  can  be  linked  into  possibly  several  higher  level  diagrams.  Some  block-diagram  editors  also  allow  the
+mixing of various diagram types in a hierarchical fashion (e.g., to call a low-level signal-ﬂow diagram imple-
+menting a control-law scheme from a decision-making ﬂow-chart diagram).

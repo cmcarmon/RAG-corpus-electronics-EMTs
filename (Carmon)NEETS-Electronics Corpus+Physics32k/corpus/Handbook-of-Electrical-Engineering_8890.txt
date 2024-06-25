@@ -1,0 +1,3 @@
+Cache  memory  contains  portions  of  the  main  memory  in  dynamically  allocated  cache  lines.  Since  the  data
+portion of the cache memory is itself a conventional memory, each line present in the cache has two addresses
+associated with it: its main memory address and its cache address. Thus, the main memory address of a word

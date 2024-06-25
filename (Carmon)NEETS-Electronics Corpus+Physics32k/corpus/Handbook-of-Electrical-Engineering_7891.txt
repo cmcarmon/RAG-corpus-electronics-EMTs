@@ -1,0 +1,7 @@
+Asynchronous Sequential Logic Circuits
+Asynchronous sequential logic circuits may change states any time a single input signal occurs (either a level
+change  for  a  fundamental  mode  circuit  or  a  pulse  for  a  pulse  mode  circuit).  No  other  input  signal  change
+(either  level  change  or  pulse)  is  allowed  until  the  circuit  reaches  a  stable  internal  state.  Latches  and  edge-
+triggered  ﬂip-ﬂops  are  asynchronous  sequential  logic  circuits  and  must  be  designed  with  care  by  utilizing
+hazard-free combinational logic circuits and race-free or critical race-free state assignments. Both hazards and
+race conditions interfere with the proper operation of asynchronous logic circuits. The gated D latch circuit

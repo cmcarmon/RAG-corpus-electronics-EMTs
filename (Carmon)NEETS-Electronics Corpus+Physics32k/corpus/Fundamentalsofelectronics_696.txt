@@ -1,0 +1,9 @@
+Problem 5.7: Simple D/A Converter
+Commercial digital-to-analog converters don’t work this way, but a simple circuit illustrates how they work.
+Let’s assume we have a B-bit converter. Thus, we want to convert numbers having a B-bit representation
+into a voltage proportional to that number. The ﬁrst step taken by our simple converter is to represent
+the number by a sequence of B pulses occurring at multiples of a time interval T . The presence of a pulse
+indicates a “1” in the corresponding bit position, and pulse absence means a “0” occurred. For a 4-bit
+converter, the number 13 has the binary representation 1101 (1310 = 1 × 23 + 1 × 22 + 0 × 21 + 1 × 20) and
+would be represented by the depicted pulse sequence. Note that the pulse sequence is “backwards” from the
+binary representation. We’ll see why that is.

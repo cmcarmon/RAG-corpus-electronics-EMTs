@@ -1,0 +1,13 @@
+Automatic Focusing
+We mentioned in the preceding section that since the objective has a large numerical aperture (NA ‡ 0.5), its
+depth of focus d is rather shallow (d . –1 mm at l = 780 nm). During all read/write/erase operations, therefore,
+the  disk  must  remain  within  a  fraction  of  a  micrometer  from  the  focal  plane  of  the  objective.  In  practice,
+however,  the  disks  are  not  ﬂat  and  they  are  not  always  mounted  rigidly  parallel  to  the  focal  plane,  so  that
+movements away from focus occur a few times during each revolution. The peak-to-peak movement in and
+out of focus may be as much as 100 mm. Without automatic focusing of the objective along the optical axis,
+this  runout  (or  disk  ﬂutter)  will  be  detrimental  to  the  operation  of  the  system.  In  practice,  the  objective  is
+mounted  on  a  small  motor  (usually  a  voice  coil)  and  allowed  to  move  back  and  forth  in  order  to  keep  its
+distance within an acceptable range from the disk. The spindle turns at a few thousand rpm, which is a hundred
+or so revolutions per second. If the disk moves in and out of focus a few times during each revolution, then
+the voice coil must be fast enough to follow these movements in real time; in other words, its frequency response
+must extend to several kilohertz.

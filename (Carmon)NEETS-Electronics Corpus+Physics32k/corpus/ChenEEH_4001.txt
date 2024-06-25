@@ -1,0 +1,6 @@
+. Constant output rate of one symbol per clock cycle:
+The architecture resembles a constant input rate. A
+longer bit string N  Lmax, however, is used to look up
+a decoded symbol and its shift amount. The bit string will
+be shifted by a barrel shifter at the corresponding shift
+amount.

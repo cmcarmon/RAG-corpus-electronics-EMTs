@@ -1,0 +1,10 @@
+Successful design of dedicated circuits requires careful algorithm and architecture considerations. For exam-
+ple, for a ﬁltering application, different equivalent realizations may possess different levels of concurrency. Thus,
+some of these realizations may be suitable for a particular application while other realizations may not be able
+to meet the sample rate requirements of the application. The lower-level architecture may be implemented in
+or
+a  word-serial  or  word-parallel
+ 
+or  bit-parallel  manner.  The  synthesized  architecture  may  be  implemented  with  a  dedicated  data
+digit-serial
+path or shared data path. The architecture may be systolic or nonsystolic.

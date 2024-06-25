@@ -1,0 +1,8 @@
+Number Representation
+The  only  way  to  represent  information  in  a  digital  computer  is  via  a  string  of  bits,  i.e.,  zeros  and  ones.  The
+number of bits being used depends on the length of the computer word, which is a quantity of bits on which
+hardware is capable of operating (sometimes also a quantity that is brought to the CPU from memory in a
+single access). The ﬁrst question is what relationship to use in establishing correspondence between those bits
+and a number. Second, we need to make sure that certain properties that exist in the corresponding number
+representation  system are  satisﬁed  and  that  they  directly  correspond  to  the  operations  being  performed  in
+hardware over the taken string of bits.

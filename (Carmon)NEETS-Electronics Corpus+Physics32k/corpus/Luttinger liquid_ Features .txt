@@ -1,0 +1,24 @@
+Among the hallmark features of a Luttinger liquid are the following:
+The response of the charge (or particle) density to some external perturbation are waves ("plasmons" - or charge density waves) propagating at a velocity that is determined by the strength of the interaction and the average density. For a non-interacting system, this wave velocity is equal to the Fermi velocity, while it is higher (lower) for repulsive (attractive) interactions among the fermions.
+Likewise, there are spin density waves (whose velocity, to lowest approximation, is equal to the unperturbed Fermi velocity). These propagate independently from the charge density waves. This fact is known as spin-charge separation.
+Charge and spin waves are the elementary excitations of the Luttinger liquid, unlike the quasiparticles of the Fermi liquid (which carry both spin and charge). The mathematical description becomes very simple in terms of these waves (solving the one-dimensional wave equation), and most of the work consists in transforming back to obtain the properties of the particles themselves (or treating impurities and other situations where 'backscattering' is important). See bosonization for one technique used.
+Even at zero temperature, the particles' momentum distribution function does not display a sharp jump, in contrast to the Fermi liquid (where this jump indicates the Fermi surface).
+There is no 'quasiparticle peak' in the momentum-dependent spectral function (i.e. no peak whose width becomes much smaller than the excitation energy above the Fermi level, as is the case for the Fermi liquid). Instead, there is a power-law singularity, with a 'non-universal' exponent that depends on the interaction strength.
+Around impurities, there are the usual Friedel oscillations in the charge density, at a wavevector of
+
+
+
+2
+
+k
+
+F
+
+
+
+
+{\displaystyle 2k_{\text{F}}}
+. However, in contrast to the Fermi liquid, their decay at large distances is governed by yet another interaction-dependent exponent.
+At small temperatures, the scattering of these Friedel oscillations becomes so efficient that the effective strength of the impurity is renormalized to infinity, 'pinching off' the quantum wire. More precisely, the conductance becomes zero as temperature and transport voltage go to zero (and rises like a power law in voltage and temperature, with an interaction-dependent exponent).
+Likewise, the tunneling rate into a Luttinger liquid is suppressed to zero at low voltages and temperatures, as a power law.
+The Luttinger model is thought to describe the universal low-frequency/long-wavelength behaviour of any one-dimensional system of interacting fermions (that has not undergone a phase transition into some other state).

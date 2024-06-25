@@ -1,0 +1,5 @@
+Equation (100.165) is often referred to as the time update equation. It represents the estimate of the state
+vector that results from knowledge of the system dynamics. Equation (100.166) is sometimes called the mea-
+surement  update  equation  because  it  revises  the  time  update  with  a  so-called  innovations  term  L(y  –  y)  that
+adjusts this time update according to the error between the output expected from the time update, y(k + 1),
+and the actual, measured output, y(k + 1).

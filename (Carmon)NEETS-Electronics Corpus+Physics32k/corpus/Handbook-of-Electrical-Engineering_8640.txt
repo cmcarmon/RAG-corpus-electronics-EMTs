@@ -1,0 +1,4 @@
+This completes the call as far as building the call block, doing the call itself, and picking up the result. Had
+there been more parameters to pass, that ﬁrst instruction would have been replicated enough times to push all
+of the parameters, one at a time, onto the stack. Now let us look at the conventions from the point of view of
+the callee. The callee has more work.

@@ -1,0 +1,154 @@
+These equations, from the Astronomical Almanac, can be used to calculate the apparent coordinates of the Sun, mean equinox and ecliptic of date, to a precision of about 0°.01 (36″), for dates between 1950 and 2050.
+Start by calculating n, the number of days (positive or negative) since Greenwich noon, Terrestrial Time, on 1 January 2000 (J2000.0). If you know the Julian date for your desired time then
+
+
+
+
+n
+=
+
+J
+D
+
+−
+2451545.0
+
+
+{\displaystyle n=\mathrm {JD} -2451545.0}
+
+The mean longitude of the Sun, corrected for the aberration of light, is:
+
+
+
+
+L
+=
+
+280.460
+
+∘
+
+
++
+
+0.9856474
+
+∘
+
+
+n
+
+
+{\displaystyle L=280.460^{\circ }+0.9856474^{\circ }n}
+
+The mean anomaly of the Sun (actually, of the Earth in its orbit around the Sun, but it is convenient to pretend the Sun orbits the Earth), is:
+
+
+
+
+g
+=
+
+357.528
+
+∘
+
+
++
+
+0.9856003
+
+∘
+
+
+n
+
+
+{\displaystyle g=357.528^{\circ }+0.9856003^{\circ }n}
+
+Put
+
+
+
+L
+
+
+{\displaystyle L}
+and
+
+
+
+g
+
+
+{\displaystyle g}
+in the range 0° to 360° by adding or subtracting multiples of 360° as needed.
+Finally, the ecliptic longitude of the Sun is:
+
+
+
+
+λ
+=
+L
++
+
+1.915
+
+∘
+
+
+sin
+⁡
+g
++
+
+0.020
+
+∘
+
+
+sin
+⁡
+2
+g
+
+
+{\displaystyle \lambda =L+1.915^{\circ }\sin g+0.020^{\circ }\sin 2g}
+
+The ecliptic latitude of the Sun is nearly:
+
+
+
+
+β
+=
+0
+
+
+{\displaystyle \beta =0}
+,
+as the ecliptic latitude of the Sun never exceeds 0.00033°,
+and the distance of the Sun from the Earth, in astronomical units, is:
+
+
+
+
+R
+=
+1.00014
+−
+0.01671
+cos
+⁡
+g
+−
+0.00014
+cos
+⁡
+2
+g
+
+
+{\displaystyle R=1.00014-0.01671\cos g-0.00014\cos 2g}
+.

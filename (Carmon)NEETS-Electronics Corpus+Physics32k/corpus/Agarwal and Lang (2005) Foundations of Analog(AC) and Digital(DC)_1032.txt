@@ -1,0 +1,7 @@
+As a final thought, although our piecewise linear model for the BJT seems a bit com-
+plicated at first glance, analog circuits are commonly designed such that BJT always
+operates in its active region, and the base-to-collector diode is always OFF.6 We can
+achieve the desired effect by ensuring that the base-to-collector voltage never exceeds
+0.4 V during normal operation (that is, vBC < 0.4 V, or equivalently, vCE > vBE−0.4 V).
+This assumption will be made in all the BJT circuits in this book, so the collector diode
+can be safely ignored. The resulting, simplified BJT model is depicted in Figure 7.52.

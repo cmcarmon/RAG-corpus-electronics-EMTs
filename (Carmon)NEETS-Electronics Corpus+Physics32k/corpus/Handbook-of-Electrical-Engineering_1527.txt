@@ -1,0 +1,5 @@
+clustering can be an information theoretic measure such as likelihood or entropy. This is the concept behind
+generalized  tri-phones  [8].  Decision  trees  (described  in  the  next  section)  can  also  be  used  to  determine  the
+distinct categories. Another scheme is to tie the HMM distributions of these tri-phones. More recently, methods
+that cluster individual states of the HMM [1] have been introduced. A drawback in using tri-phones is that
+wider contexts (i.e., three, four, or ﬁve phones to the left) may be important.

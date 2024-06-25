@@ -1,0 +1,5 @@
+Controllers
+Real-time controllers beneﬁt from a microprogrammed implementation, due to the speed gained by program-
+ming only the required functions, therefore avoiding the overhead of general-purpose instructions. Since the
+microprogrammer  can  better  make  use  of  the  available  parallelism  in  the  machine,  long  processes  can  still
+support the asynchronous arrival of data by incorporating the interrupt polling at intervals in these processes.

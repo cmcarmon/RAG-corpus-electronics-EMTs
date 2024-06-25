@@ -1,0 +1,10 @@
+Figure 5.17 shows one way to obtain precision rectiﬁcation using an operational ampliﬁer and a diode. The
+circuit is essentially a noninverting voltage follower (whose output follows, or duplicates, its input) when the
+diode is forward biased. When vin is positive, the output of the ampliﬁer,  vo, is positive, the diode is forward
+biased, and a low-resistance path is established between vo and v–, as necessary for a voltage follower. The load
+voltage, vL, then follows the positive variations of vin = v+. Note that even a very small positive value of vin will
+cause this result, because of the large differential gain of the ampliﬁer. That is, the large gain and the action of
+the feedback cause the usual result that v+ ’ v –. Note also that the drop across the diode does not appear in vL.
+When the input goes negative, vo becomes negative, and the diode is reverse biased. This effectively opens
+the feedback loop, so vL no longer follows vin. The ampliﬁer itself, now operating open-loop, is quickly driven
+to its maximum negative output, thus holding the diode well into reverse bias.

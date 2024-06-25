@@ -1,0 +1,29 @@
+In this section, a graphical model used to represent fully
+synchronous digital systems is introduced. The purpose of this
+model is twofold. First, the model provides a common abstract
+framework for the automated analysis of circuits by com-
+puters, and second, it permits a signiﬁcant reduction of the
+size of the data that needs to be stored in the computer
+memory when performing analysis and optimization proced-
+ures on a circuit. This graph-based model can be arrived at in a
+natural way by observing what constitutes relevant system
+information (in terms of the clock skew scheduling problem).
+For example, it is sufﬁcient to know that a pair of registers
+hRi, Rji are sequentially adjacent, whereas knowing the speciﬁc
+functional
+logic
+gates along the signal paths between Ri and Rj is not necessary.
+Consider, for instance, the system shown in Figure 4.1. This
+system is completely described (for the purpose of clock skew
+scheduling) by the timing information describing the four
+registers, four logic gates, ten wires (nets), and the connectivity
+of these wires to the registers and logic gates. Consider next the
+abstract representation of this system shown in Figure 4.3.
+Note that the registers R1 through R4 are represented by the
+vertices of the graph shown in Figure 4.3. However, the logic
+gates and wires have been replaced in Figure 4.3 by arrows, or
+arcs, representing the signal paths among the registers. The
+four logic gates and ten nets in the original system have been
+reduced to only six local data paths represented by the arcs. For
+clarity, each arc, or edge, is labeled with the logic gates4 along
+the signal path represented by this speciﬁc arc.

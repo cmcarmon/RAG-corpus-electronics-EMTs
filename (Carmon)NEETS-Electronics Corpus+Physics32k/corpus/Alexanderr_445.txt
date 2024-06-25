@@ -1,0 +1,10 @@
+When the switch is moved to position b, the circuit becomes a source-
+free  parallel  RLC circuit  with  the  schematic  in  Fig.  8.41(b).  We  set  the
+initial condition 
+for the inductor.
+A current marker is inserted at pin 1 of the inductor. We select Analysis/
+Setup/Transient to  open  up  the  Transient  Analysis dialog  box  and  set
+Final  Time to  3  s.  After  saving  the  schematic,  we  select  Analysis/
+Transient.  Figure  8.42  shows  the  plot  of 
+.  The  plot  agrees  with
+i(t) ⫽ 4.8e⫺t ⫺ 0.8e⫺6t A,

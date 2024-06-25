@@ -1,0 +1,13 @@
+To analyze its operation with a source that takes a discontinuous
+step, we refer to Equation 9.64, and notice that we must contend with the
+differentiation of the step at t = 0. We can develop an understanding of this
+differentiation with the help of the ramping unit step function u(t; T ) defined
+in Figure 9.41. Here, u(t; T ) is a function of time t, having the ramp duration T
+as a parameter.
+Note that the ramp in u(t; T ), which occurs over the period 0 ≤ t ≤ T,
+becomes increasingly steeper as the ramp width T approaches 0. In fact, it is
+u(t; T ) in the limit T → 0, or simply u(t), as illustrated in Figure 9.42. Notice
+that the ideal unit step is the function at work in Equation 9.79. Recognizing this
+limiting behavior, our approach to dealing with the differentiation of a step will
+be to take a more roundabout, but easier route: We will compute the response
+of the circuit to a ramping unit step function, and then take the limit as T → 0.

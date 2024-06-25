@@ -1,0 +1,4 @@
+be read as the output dOUT. If no new value is written into the memory, the
+last written value is stored indefinitely. If the memory is read while it is being
+written (that is, when the store signal is high), then the output simply reflects
+the value at the input.

@@ -1,0 +1,7 @@
+The interleave factor applies only to hard disk drives. They spin at 3600 RPM, a very fast speed 
+compared to floppy disk drives which only spin at 300-600 RPM. Interleave indicates how many physical 
+sectors are between sequentially numbered logical sectors on a hard disk. It's used when the magnetic 
+heads and the control circuitry can't process the data fast enough to sequentially number the sectors on a 
+hard disk platter. With interleave, the magnetic head is told to skip X number of sectors to get to the next 
+one. For example, a hard disk with 17 sectors per track and no interleave is numbered 1, 2, 3, 4.... 17. The 
+same hard disk with an interleave factor of 3 is numbered 1, 7, 13, 2, 8, 14, 3, 9, 15, 4, 10, 16, 5, 11, 17, 6, 

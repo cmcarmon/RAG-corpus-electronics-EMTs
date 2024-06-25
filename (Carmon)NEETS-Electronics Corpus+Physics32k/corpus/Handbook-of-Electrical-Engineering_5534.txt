@@ -1,0 +1,8 @@
+The total capacitive range is divided into n operating intervals, where n is the number of capacitor banks in
+the compensator. In the ﬁrst interval one capacitor bank is switched in, and at the same time the current in
+the TCR bank is adjusted so that the resultant VAR output from capacitor and reactor matches the VAR demand.
+In the ith interval the output is controllable in the range [(i – 1)VARmax/n] to (i VARmax/n) by switching in the
+ith capacitor bank and using the TCR bank to absorb the surplus capacitive VARs. This scheme can be considered
+as a conventional FC-TCR, where the rating of the reactor bank is kept relatively small (1/n times the maximum
+VAR output) and the value of the capacitor bank is changed in discrete steps so as to keep the operation of the
+reactor bank within its normal control range.

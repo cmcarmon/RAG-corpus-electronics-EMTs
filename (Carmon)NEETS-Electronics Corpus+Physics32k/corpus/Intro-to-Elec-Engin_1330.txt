@@ -1,0 +1,7 @@
+A basic TDM system is illustrated in Figure 14.2.9(a). Let us assume for simplicity that all
+three input signals have equal bandwidths W. A commutator or an electronic switch subsequently
+obtains a sample from each input every Ts seconds, thereby producing a multiplexed waveform
+with interleaved samples, as shown in Figure 14.2.9(b). Another synchronized commutator at the
+destination isolates and distributes the samples to a bank of low-pass ﬁlters (LPFs) for individual
+signal reconstruction. More sophisticated TDM systems are available in which the sampled values
+are converted to pulse modulation prior to multiplexing and carrier modulation is included after

@@ -1,0 +1,5 @@
+can be divorced from a particular storage location and abstractly thought of as an element in the address space.
+The use of a two-level hierarchy—consisting of main memory and a slower, larger disk storage device—evolved
+by making a clear distinction between the address space and the locations in memory. An address generated
+during the execution of a program is known as a virtual address, which must be translated to a physical address
+before it can be accessed in main memory. The total address space is simply an abstraction.

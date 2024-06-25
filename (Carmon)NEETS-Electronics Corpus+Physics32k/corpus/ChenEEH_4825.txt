@@ -1,0 +1,17 @@
+The desire for more extensive reusability of software than is
+provided by OOP gave rise to a new concept in the late 1990s
+termed software components, which are software modules
+that are designed to be reused in different software applica-
+tions (Szyperski, 1998). The term arises from the engineering
+term component, referring to the pieces of equipment (prefer-
+ably COTS equipment) that an engineer integrates together to
+form a larger application. The idea is that software for large
+applications could also be composed of individual software
+modules that may be available as COTS. A software compo-
+nent can be an object, a group of objects, or a non-object-
+oriented software module. In this chapter, the term compo-
+nent will be used to represent a generic, reusable module in a
+control system that may be composed entirely of software,
+hardware, or a combination of both. The term distributed
+components is often used to describe components that are
+linked via a communication network.

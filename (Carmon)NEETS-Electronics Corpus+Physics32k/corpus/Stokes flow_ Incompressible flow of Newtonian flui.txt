@@ -1,0 +1,107 @@
+In the common case of an incompressible Newtonian fluid, the Stokes equations take the (vectorized) form:
+
+
+
+
+
+
+
+
+μ
+
+∇
+
+2
+
+
+
+u
+
+−
+
+∇
+
+p
++
+
+f
+
+
+
+
+=
+
+0
+
+
+
+
+
+
+∇
+
+⋅
+
+u
+
+
+
+
+=
+0
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}\mu \nabla ^{2}\mathbf {u} -{\boldsymbol {\nabla }}p+\mathbf {f} &={\boldsymbol {0}}\\{\boldsymbol {\nabla }}\cdot \mathbf {u} &=0\end{aligned}}}
+
+Where
+
+
+
+
+
+u
+
+
+
+
+{\displaystyle \scriptstyle \mathbf {u} }
+is the velocity of the fluid,
+
+
+
+
+
+∇
+
+p
+
+
+
+{\displaystyle \scriptstyle {\boldsymbol {\nabla }}p}
+is the gradient of the pressure,
+
+
+
+
+μ
+
+
+
+{\displaystyle \scriptstyle \mu }
+is the dynamic viscosity, and
+
+
+
+
+
+f
+
+
+
+
+{\displaystyle \scriptstyle \mathbf {f} }
+an applied body force. The resulting equations are linear in velocity and pressure, and therefore can take advantage of a variety of linear differential equation solvers.

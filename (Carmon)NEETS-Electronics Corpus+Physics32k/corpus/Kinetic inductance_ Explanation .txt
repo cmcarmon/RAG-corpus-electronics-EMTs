@@ -1,0 +1,534 @@
+A change in electromotive force (emf) will be opposed by the inertia of the charge carriers since, like all objects with mass, they prefer to be traveling at constant velocity and therefore it takes a finite time to accelerate the particle. This is similar to how a change in emf is opposed by the finite rate of change of magnetic flux in an inductor. The resulting phase lag in voltage is identical for both energy storage mechanisms, making them indistinguishable in a normal circuit.
+Kinetic inductance (
+
+
+
+
+L
+
+K
+
+
+
+
+{\displaystyle L_{K}}
+) arises naturally in the Drude model of electrical conduction when the relaxation time (collision time)
+
+
+
+τ
+
+
+{\displaystyle \tau }
+is taken to be non-zero. This model defines a complex conductivity in a time-varying electric field of frequency
+
+
+
+ω
+
+
+{\displaystyle \omega }
+given by
+
+
+
+
+σ
+(
+ω
+)
+=
+
+σ
+
+1
+
+
+−
+i
+
+σ
+
+2
+
+
+
+
+
+{\displaystyle {\sigma (\omega )=\sigma _{1}-i\sigma _{2}}}
+. The imaginary part arises from kinetic inductance. The Drude complex conductivity can be expanded into its real and imaginary components:
+
+
+
+
+σ
+=
+
+
+
+n
+
+e
+
+2
+
+
+τ
+
+
+m
+(
+1
++
+i
+ω
+τ
+)
+
+
+
+=
+
+
+
+n
+
+e
+
+2
+
+
+τ
+
+
+m
+(
+1
++
+
+ω
+
+2
+
+
+
+τ
+
+2
+
+
+)
+
+
+
+−
+i
+
+
+
+n
+
+e
+
+2
+
+
+ω
+
+τ
+
+2
+
+
+
+
+m
+(
+1
++
+
+ω
+
+2
+
+
+
+τ
+
+2
+
+
+)
+
+
+
+
+
+{\displaystyle \sigma ={\frac {ne^{2}\tau }{m(1+i\omega \tau )}}={\frac {ne^{2}\tau }{m(1+\omega ^{2}\tau ^{2})}}-i{\frac {ne^{2}\omega \tau ^{2}}{m(1+\omega ^{2}\tau ^{2})}}}
+
+where
+
+
+
+m
+
+
+{\displaystyle m}
+is the mass of the charge carrier (i.e. the effective electron mass in metallic conductors) and
+
+
+
+n
+
+
+{\displaystyle n}
+is the carrier number density. In normal metals the collision time is typically
+
+
+
+≈
+
+10
+
+−
+14
+
+
+
+
+{\displaystyle \approx 10^{-14}}
+s, so for frequencies < 100 GHz the term
+
+
+
+
+
+ω
+
+2
+
+
+
+τ
+
+2
+
+
+
+
+
+{\displaystyle {\omega ^{2}\tau ^{2}}}
+is very small and can be ignored. Kinetic inductance is therefore only significant at optical frequencies and in superconductors, where
+
+
+
+
+τ
+→
+∞
+
+
+
+{\displaystyle {\tau \rightarrow \infty }}
+.
+For a superconducting wire, the kinetic inductance can be calculated by equating the total kinetic energy of the Cooper pairs with an equivalent inductive energy:
+
+
+
+
+
+
+1
+2
+
+
+(
+2
+m
+
+v
+
+2
+
+
+)
+(
+
+n
+
+s
+
+
+l
+A
+)
+=
+
+
+1
+2
+
+
+
+L
+
+K
+
+
+
+I
+
+2
+
+
+
+
+{\displaystyle {\frac {1}{2}}(2mv^{2})(n_{s}lA)={\frac {1}{2}}L_{K}I^{2}}
+
+where
+
+
+
+m
+
+
+{\displaystyle m}
+is the electron mass (
+
+
+
+2
+m
+
+
+{\displaystyle 2m}
+is the mass of a Cooper pair),
+
+
+
+v
+
+
+{\displaystyle v}
+is the average Cooper pair velocity,
+
+
+
+
+n
+
+s
+
+
+
+
+{\displaystyle n_{s}}
+is the density of Cooper pairs,
+
+
+
+l
+
+
+{\displaystyle l}
+is the length of the wire,
+
+
+
+A
+
+
+{\displaystyle A}
+is the wire cross-sectional area, and
+
+
+
+I
+
+
+{\displaystyle I}
+is the current. Using the fact that the current
+
+
+
+I
+=
+2
+e
+v
+
+n
+
+s
+
+
+A
+
+
+{\displaystyle I=2evn_{s}A}
+, where
+
+
+
+e
+
+
+{\displaystyle e}
+is the electron charge, this yields:
+
+
+
+
+
+L
+
+K
+
+
+=
+
+(
+
+
+m
+
+2
+
+n
+
+s
+
+
+
+e
+
+2
+
+
+
+
+
+)
+
+
+(
+
+
+l
+A
+
+
+)
+
+
+
+{\displaystyle L_{K}=\left({\frac {m}{2n_{s}e^{2}}}\right)\left({\frac {l}{A}}\right)}
+
+The same procedure can be used to calculate the kinetic inductance of a normal (i.e. non-superconducting) wire, except with
+
+
+
+2
+m
+
+
+{\displaystyle 2m}
+replaced by
+
+
+
+m
+
+
+{\displaystyle m}
+,
+
+
+
+2
+e
+
+
+{\displaystyle 2e}
+replaced by
+
+
+
+e
+
+
+{\displaystyle e}
+, and
+
+
+
+
+n
+
+s
+
+
+
+
+{\displaystyle n_{s}}
+replaced by the normal carrier density
+
+
+
+n
+
+
+{\displaystyle n}
+. This yields:
+
+
+
+
+
+L
+
+K
+
+
+=
+
+(
+
+
+m
+
+n
+
+e
+
+2
+
+
+
+
+
+)
+
+
+(
+
+
+l
+A
+
+
+)
+
+
+
+{\displaystyle L_{K}=\left({\frac {m}{ne^{2}}}\right)\left({\frac {l}{A}}\right)}
+
+The kinetic inductance increases as the carrier density decreases. Physically, this is because a smaller number of carriers must have a greater velocity than a larger number of carriers in order to achieve the same current. In a normal metal wire, the resistivity also increases as the carrier density
+
+
+
+n
+
+
+{\displaystyle n}
+decreases. As a result, in normal metals the resistive contribution to the impedance dominates the contribution from kinetic inductance up to frequencies ~ THz.

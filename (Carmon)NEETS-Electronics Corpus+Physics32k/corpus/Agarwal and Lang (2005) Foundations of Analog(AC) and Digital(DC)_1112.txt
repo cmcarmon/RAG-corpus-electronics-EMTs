@@ -1,0 +1,7 @@
+(8.11)
+The K(VI − VT) term in Equation 8.11 relates the input voltage to the
+current through the MOSFET. Notice that for a given DC bias, the K(VI − VT)
+term is a constant. Since the form of Equation 8.11 is similar to that for a
+conductance, the K(VI− VT) term is called the incremental transconductance gm
+of the MOSFET. Accordingly, we can write
+id = gmvi

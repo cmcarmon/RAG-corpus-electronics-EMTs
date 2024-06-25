@@ -1,0 +1,8 @@
+Routing deﬁnes the wires that establish the required port-to-port connections. Routing is often performed
+in  two  stages:  global  and  local.  Global  routing  assigns  networks  to  major  wiring  regions,  called  tracks;  local
+routing deﬁnes the actual wiring for each network within its assigned track. Two common classes of routing
+. Channel routing connects ports abutting the same track. Maze routing, also
+algorithms are 
+called switch-box routing, connects ports abutting different channels. Routing considers a variety of metrics,
+including timing skew, wire length, number of vias, and number of jogs (corners) [Spinks, 1985; Preas et al.,
+1988].

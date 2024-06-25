@@ -1,0 +1,11 @@
+In the Viterbi approach, the mean vectors and covariance
+matrices for the observation densities are reestimated by
+simple averaging, similarly to what is done in the discrete-
+observation procedure. This is easily described when there is
+only one mixture component per state. In this case, for a given
+M, the recognition experiment is performed on the observa-
+tion sequence. Each observation vector is then assigned to the
+state that produced it on the optimal path by examining the
+backtracking information. The vectors assigned to each state
+are then used to update the mean vector and covariance matrix
+for that state, and the process is repeated.

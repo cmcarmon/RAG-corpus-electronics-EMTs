@@ -1,0 +1,15 @@
+The system of six coupled partial differential equations of (9.9)
+and (9.10) forms the basis of the FDTD numerical algorithm
+for electromagnetic wave interactions with general
+three-
+dimensional objects. The FDTD algorithm need not explicitly
+enforce the Gauss’s law relations indicating zero free electric
+and magnetic charge shown in equations 9.3 and 9.4. This is
+because these relations are theoretically a direct consequence of
+the curl equations, as can be readily shown. However, the
+FDTD space grid must be structured so that the Gauss’s law
+relations are implicit in the positions of the E- and H-ﬁeld
+vector components in the grid and in the numerical space-
+derivative operations upon these components that model the
+action of the curl operator. This will be discussed later in the
+context of the Yee mesh.

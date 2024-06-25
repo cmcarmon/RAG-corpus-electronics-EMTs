@@ -1,0 +1,11 @@
+Figure 88.5 shows the structure of a simple interleaved memory system. m address bits are simultaneously
+supplied to every memory bank. All banks are also connected to the same read/write control line (not shown
+in Fig. 88.5). For a read operation, the banks start the read operation and deposit the data in their latches. Data
+can then be read from the latches, one by one, by setting the switch appropriately. Meanwhile, the banks could
+be accessed again, to carry out another read or write operation. For a write operation, the latches are loaded,
+one by one. When all the latches have been written, their contents can be written into the memory banks by
+supplying m bits of address (they will be written into the same word in each of the different banks). In a simple
+interleaved  memory,  all  banks  are  cycled  at  the  same  time;  each  bank  starts  and  completes  its  individual
+operations at the same time as every other bank; a new memory cycle can start (for all banks) once the previous
+cycle is complete. Timing details of the accesses can be found in The Architecture of Pipelined Computers, [Kogge,
+1981].

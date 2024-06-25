@@ -1,0 +1,8 @@
+The Eureka-147/DAB channel encoder operates by combining the transmitted program channels into a large
+number  of  adjacent  narrowband  RF  carriers,  which  are  each  modulated  using  QPSK  and  grouped  in  a  way
+that  maximizes  spectrum  efﬁciency  known  as  orthogonal  frequency-division  multiplex  (OFDM).  The  infor-
+mation to be transmitted is distributed among the RF carriers and is also time-interleaved to reduce the effects
+of selective fading. A guard interval is inserted between blocks of transmitted data to improve system resistance
+to  intersymbol  interference  caused  by  multipath  propagation.  Convolutional  coding  is  used  in  conjunction
+with  a Viterbi  maximum-likelihood  decoding  algorithm  at  the  receiver  to  make  constructive  use  of  echoed
+signals and to correct random errors [Alard and Lassalle, 1988].

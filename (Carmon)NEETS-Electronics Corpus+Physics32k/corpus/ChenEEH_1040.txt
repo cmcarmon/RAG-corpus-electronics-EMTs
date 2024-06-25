@@ -1,0 +1,6 @@
+Block-Disabling Technique and Clock Gating
+Because not all blocks in an architecture are simultaneously
+operating, one can disable the blocks (block-disabling tech-
+nique) that are not in use during some particular clock cycles
+with the objective of limiting the power consumption. In fact,
+idling or stopping these units causes a decrease in the overall

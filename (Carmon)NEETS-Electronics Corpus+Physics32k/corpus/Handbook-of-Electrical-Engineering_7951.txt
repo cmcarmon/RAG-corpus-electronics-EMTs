@@ -1,0 +1,6 @@
+A PLA is able to implement any set of combinational logic functions, limited only by the number of inputs,
+number  of  outputs,  and  number  of  product  terms. A  memory  also  has  this  ability,  but  since  in  this  type  of
+device every combination of inputs is decoded and mapped to a unique set of outputs (via a memory word),
+the number of inputs handled cannot be as great as with a PLA of similar physical size, since a PLA does not
+decode every input combination. However, where the set of functions to be implemented would require too
+many products for a practical PLA, a memory, or a multiple-level network, would have to be used.

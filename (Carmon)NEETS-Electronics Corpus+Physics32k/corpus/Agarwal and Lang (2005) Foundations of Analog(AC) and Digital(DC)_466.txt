@@ -1,0 +1,6 @@
+This modification to the original node analysis is not always the most
+efficient method of analysis, but it always works. However, when the element
+laws for the dependent sources can be easily expressed in terms of the node
+voltages, it is possible to take a more intuitive approach and apply the simple
+node analysis described in Section 3.3 without modification. In our example of
+Figure 3.23, suppose that the circuit on the left has the node voltages shown

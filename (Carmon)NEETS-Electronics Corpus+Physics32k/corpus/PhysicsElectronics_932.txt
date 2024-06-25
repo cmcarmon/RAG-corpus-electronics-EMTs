@@ -1,0 +1,11 @@
+The address determines the destination or source of information. Since the wires of a bus are
+common to all functional units, each unit will see all the data placed on the bus lines. The
+address lines are used within a receiving unit to determine if available information should
+be processed or ignored. Each data repository on a common bus will have a unique address.
+When the CPU needs to transfer data between itself and a particular location, it imple-
+ments a sequence of signals as speciﬁed by the read or write operation protocol for the bus.
+The range of numbers that can be represented by the available address lines (wires) on a bus
+is known as the address space. A range of numbers is used mostly to access information from
+memory and is thus known as the memory address space. Some processors assign a few of
+these memory addresses to other input/output devices. A feature known as memory-mapped
+I/O.

@@ -1,0 +1,697 @@
+The Euler–Cauchy stress principle states that upon any surface (real or imaginary) that divides the body, the action of one part of the body on the other is equivalent (equipollent) to the system of distributed forces and couples on the surface dividing the body, and it is represented by a field
+
+
+
+
+
+T
+
+
+(
+
+n
+
+)
+
+
+
+
+{\displaystyle \mathbf {T} ^{(\mathbf {n} )}}
+, called the stress vector, defined on the surface
+
+
+
+S
+
+
+{\displaystyle S}
+and assumed to depend continuously on the surface's unit vector
+
+
+
+
+n
+
+
+
+{\displaystyle \mathbf {n} }
+.
+To formulate the Euler–Cauchy stress principle, consider an imaginary surface
+
+
+
+S
+
+
+{\displaystyle S}
+passing through an internal material point
+
+
+
+P
+
+
+{\displaystyle P}
+dividing the continuous body into two segments, as seen in Figure 2.1a or 2.1b (one may use either the cutting plane diagram or the diagram with the arbitrary volume inside the continuum enclosed by the surface
+
+
+
+S
+
+
+{\displaystyle S}
+).
+Following the classical dynamics of Newton and Euler, the motion of a material body is produced by the action of externally applied forces which are assumed to be of two kinds: surface forces
+
+
+
+
+F
+
+
+
+{\displaystyle \mathbf {F} }
+and body forces
+
+
+
+
+b
+
+
+
+{\displaystyle \mathbf {b} }
+. Thus, the total force
+
+
+
+
+
+F
+
+
+
+
+{\displaystyle {\mathcal {F}}}
+applied to a body or to a portion of the body can be expressed as:
+
+
+
+
+
+
+F
+
+
+=
+
+b
+
++
+
+F
+
+
+
+{\displaystyle {\mathcal {F}}=\mathbf {b} +\mathbf {F} }
+
+Only surface forces will be discussed in this article as they are relevant to the Cauchy stress tensor.
+When the body is subjected to external surface forces or contact forces
+
+
+
+
+F
+
+
+
+{\displaystyle \mathbf {F} }
+, following Euler's equations of motion, internal contact forces and moments are transmitted from point to point in the body, and from one segment to the other through the dividing surface
+
+
+
+S
+
+
+{\displaystyle S}
+, due to the mechanical contact of one portion of the continuum onto the other (Figure 2.1a and 2.1b). On an element of area
+
+
+
+Δ
+S
+
+
+{\displaystyle \Delta S}
+containing
+
+
+
+P
+
+
+{\displaystyle P}
+, with normal vector
+
+
+
+
+n
+
+
+
+{\displaystyle \mathbf {n} }
+, the force distribution is equipollent to a contact force
+
+
+
+Δ
+
+F
+
+
+
+{\displaystyle \Delta \mathbf {F} }
+exerted at point P and surface moment
+
+
+
+Δ
+
+M
+
+
+
+{\displaystyle \Delta \mathbf {M} }
+. In particular, the contact force is given by
+
+
+
+
+Δ
+
+F
+
+=
+
+
+T
+
+
+(
+
+n
+
+)
+
+
+
+Δ
+S
+
+
+{\displaystyle \Delta \mathbf {F} =\mathbf {T} ^{(\mathbf {n} )}\,\Delta S}
+
+where
+
+
+
+
+
+T
+
+
+(
+
+n
+
+)
+
+
+
+
+{\displaystyle \mathbf {T} ^{(\mathbf {n} )}}
+is the mean surface traction.
+Cauchy’s stress principle asserts that as
+
+
+
+Δ
+S
+
+
+{\displaystyle \Delta S}
+becomes very small and tends to zero the ratio
+
+
+
+Δ
+
+F
+
+
+/
+
+Δ
+S
+
+
+{\displaystyle \Delta \mathbf {F} /\Delta S}
+becomes
+
+
+
+d
+
+F
+
+
+/
+
+d
+S
+
+
+{\displaystyle d\mathbf {F} /dS}
+and the couple stress vector
+
+
+
+Δ
+
+M
+
+
+
+{\displaystyle \Delta \mathbf {M} }
+vanishes. In specific fields of continuum mechanics the couple stress is assumed not to vanish; however, classical branches of continuum mechanics address non-polar materials which do not consider couple stresses and body moments.
+The resultant vector
+
+
+
+d
+
+F
+
+
+/
+
+d
+S
+
+
+{\displaystyle d\mathbf {F} /dS}
+is defined as the surface traction, also called stress vector, traction, or traction vector. given by
+
+
+
+
+
+T
+
+
+(
+
+n
+
+)
+
+
+=
+
+T
+
+i
+
+
+(
+
+n
+
+)
+
+
+
+
+e
+
+
+i
+
+
+
+
+{\displaystyle \mathbf {T} ^{(\mathbf {n} )}=T_{i}^{(\mathbf {n} )}\mathbf {e} _{i}}
+at the point
+
+
+
+P
+
+
+{\displaystyle P}
+associated with a plane with a normal vector
+
+
+
+
+n
+
+
+
+{\displaystyle \mathbf {n} }
+:
+
+
+
+
+
+T
+
+i
+
+
+(
+
+n
+
+)
+
+
+=
+
+lim
+
+Δ
+S
+→
+0
+
+
+
+
+
+Δ
+
+F
+
+i
+
+
+
+
+Δ
+S
+
+
+
+=
+
+
+
+d
+
+F
+
+i
+
+
+
+
+d
+S
+
+
+
+.
+
+
+{\displaystyle T_{i}^{(\mathbf {n} )}=\lim _{\Delta S\to 0}{\frac {\Delta F_{i}}{\Delta S}}={dF_{i} \over dS}.}
+
+This equation means that the stress vector depends on its location in the body and the orientation of the plane on which it is acting.
+This implies that the balancing action of internal contact forces generates a contact force density or Cauchy traction field
+
+
+
+
+T
+
+(
+
+n
+
+,
+
+x
+
+,
+t
+)
+
+
+{\displaystyle \mathbf {T} (\mathbf {n} ,\mathbf {x} ,t)}
+that represents a distribution of internal contact forces throughout the volume of the body in a particular configuration of the body at a given time
+
+
+
+t
+
+
+{\displaystyle t}
+. It is not a vector field because it depends not only on the position
+
+
+
+
+x
+
+
+
+{\displaystyle \mathbf {x} }
+of a particular material point, but also on the local orientation of the surface element as defined by its normal vector
+
+
+
+
+n
+
+
+
+{\displaystyle \mathbf {n} }
+.
+Depending on the orientation of the plane under consideration, the stress vector may not necessarily be perpendicular to that plane, i.e. parallel to
+
+
+
+
+n
+
+
+
+{\displaystyle \mathbf {n} }
+, and can be resolved into two components (Figure 2.1c):
+one normal to the plane, called normal stress
+
+
+
+
+
+
+σ
+
+
+n
+
+
+
+
+=
+
+lim
+
+Δ
+S
+→
+0
+
+
+
+
+
+Δ
+
+F
+
+
+n
+
+
+
+
+
+Δ
+S
+
+
+
+=
+
+
+
+d
+
+F
+
+
+n
+
+
+
+
+
+d
+S
+
+
+
+,
+
+
+{\displaystyle \mathbf {\sigma _{\mathrm {n} }} =\lim _{\Delta S\to 0}{\frac {\Delta F_{\mathrm {n} }}{\Delta S}}={\frac {dF_{\mathrm {n} }}{dS}},}
+
+where
+
+
+
+d
+
+F
+
+
+n
+
+
+
+
+
+{\displaystyle dF_{\mathrm {n} }}
+is the normal component of the force
+
+
+
+d
+
+F
+
+
+
+{\displaystyle d\mathbf {F} }
+to the differential area
+
+
+
+d
+S
+
+
+{\displaystyle dS}
+
+and the other parallel to this plane, called the shear stress
+
+
+
+
+
+τ
+
+=
+
+lim
+
+Δ
+S
+→
+0
+
+
+
+
+
+Δ
+
+F
+
+
+s
+
+
+
+
+
+Δ
+S
+
+
+
+=
+
+
+
+d
+
+F
+
+
+s
+
+
+
+
+
+d
+S
+
+
+
+,
+
+
+{\displaystyle \mathbf {\tau } =\lim _{\Delta S\to 0}{\frac {\Delta F_{\mathrm {s} }}{\Delta S}}={\frac {dF_{\mathrm {s} }}{dS}},}
+
+where
+
+
+
+d
+
+F
+
+
+s
+
+
+
+
+
+{\displaystyle dF_{\mathrm {s} }}
+is the tangential component of the force
+
+
+
+d
+
+F
+
+
+
+{\displaystyle d\mathbf {F} }
+to the differential surface area
+
+
+
+d
+S
+
+
+{\displaystyle dS}
+. The shear stress can be further decomposed into two mutually perpendicular vectors.

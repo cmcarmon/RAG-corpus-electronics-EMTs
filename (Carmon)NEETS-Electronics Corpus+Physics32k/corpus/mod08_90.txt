@@ -1,0 +1,5 @@
+R1 acts as a load resistor for Q1 (the first stage) and develops the output signal of that stage. Do you 
+remember how a capacitor reacts to ac and dc? The capacitor, C1, "blocks" the dc of Q1's collector, but 
+"passes" the ac output signal. R2 develops this passed, or coupled, signal as the input signal to Q2 (the 
+second stage). This arrangement allows the coupling of the signal while it isolates the biasing of each 
+stage. This solves many of the problems associated with direct coupling. 

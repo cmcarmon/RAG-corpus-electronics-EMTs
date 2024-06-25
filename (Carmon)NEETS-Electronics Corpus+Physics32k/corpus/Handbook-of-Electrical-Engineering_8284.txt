@@ -1,0 +1,3 @@
+A  secondary  issue  in  data  compaction  is  in  the  determination  of  the  expected “good”  signature.  The  best
+way is to use fault-free simulation for both the circuit and the compactor, and then the appropriate comparator
+can be built as part of the testing circuitry [Bardell et al., 1987; Abramovici, 1992].

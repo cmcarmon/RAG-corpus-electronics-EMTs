@@ -1,0 +1,13 @@
+ρp: Actual particle density (g/cm3)
+ρg: Gas or sample matrix density (g/cm3)
+r2: Least-squares coefficient of determination. The closer this value is to 1.0, the better the data fit to a hyperplane representing the relationship between the response variable and a set of covariate variables. A value equal to 1.0 indicates all data fit perfectly within the hyperplane.
+λ: Gas mean free path (cm)
+D50: Mass-median-diameter (MMD). The log-normal distribution mass median diameter. The MMD is considered to be the average particle diameter by mass.
+σg: Geometric standard deviation. This value is determined mathematically by the equation:
+σg = D84.13/D50 = D50/D15.87
+The value of σg determines the slope of the least-squares regression curve.
+α: Relative standard deviation or degree of polydispersity. This value is also determined mathematically. For values less than 0.1, the particulate sample can be considered to be monodisperse.
+α = σg/D50
+Re(P) : Particle Reynolds Number. In contrast to the large numerical values noted for flow Reynolds number, particle Reynolds number for fine particles in gaseous mediums is typically less than 0.1.
+Ref : Flow Reynolds number.
+Kn: Particle Knudsen number.

@@ -1,0 +1,7 @@
+For single start threads, each turn changes the distance between the nuts by the effective pitch, Peff. For a bolt with a given thread per inch, TPI1  on one end and a second thread per inch, TPI2  on the other, the change in distance (or Peff), and the effective thread per inch TPIeff , is calculated by:
+1/TPI1 - 1/TPI2  = 1/TPIeff  = Peff
+For example, a bolt with coarse threads (16 tpi, 0.0625 in [1.59 mm] per turn) on one end and fine threads (24 tpi, 0.0416 in [1.06 mm] per turn) on the other changes the distance between the nuts by about 0.02 inches (0.51 mm) per revolution and is equivalent to a 48 tpi (0.53 mm/thread) thread:
+1/16 - 1/24 = 0.0208 in. (48 tpi, 0.53 mm/thread)
+
+
+== References ==

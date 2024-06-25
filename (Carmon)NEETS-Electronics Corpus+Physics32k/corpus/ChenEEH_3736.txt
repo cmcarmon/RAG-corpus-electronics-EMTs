@@ -1,0 +1,27 @@
+Dynamic time warping (DTW) is a feature-matching
+scheme that uses DP to achieve time alignment between
+sequences of reference and test features. The brief description
+of DTW presented here is mostly of historical interest and for
+its value in introducing the HMM (Deller et al., 2000; Rabiner
+and Juang, 1993; Silverman and Morgan, 1990) DTW has been
+successfully employed in simple applications requiring rela-
+tively straightforward algorithms and minimal hardware. The
+technique had its genesis in isolated-word recognition (IWR)
+in which words are deliberately spoken in isolation but has also
+been applied in a limited way to continuous-speech recogni-
+tion (CSR) in which speech is produced naturally without
+concern for the recognition process. The approach to CSR
+using DTW has been called connected-speech recognition a
+sort of hybrid approach in which the continuous speech
+(spoken naturally or with minimal
+‘‘cooperation’’ by the
+talker), is assumed to have been uttered as isolated words.
+The DTW process essentially concatenates isolated-word tem-
+plates against which to match the ﬂowing speech feature
+stream. Details and algorithms used in connected-speech
+recognition are found in Chapter 11 of Deller et al. (2000).
+Because DTW requires a template (or concatenation of
+templates) to be available for any utterance to be recognized,
+the method does not generalize well to accommodate the
+numerous sources of variation in speech. Therefore, DTW is
+not used for complex tasks involving large vocabularies.

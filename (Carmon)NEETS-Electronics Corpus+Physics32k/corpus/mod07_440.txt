@@ -1,0 +1,6 @@
+Since practical values of C1 and RL ensure a more or less gradual decrease of the discharge voltage, 
+a substantial charge remains on the capacitor at the time of the next half cycle of operation. As a result, no 
+current can flow through the diode until the rising ac input voltage at the anode of the diode exceeds the 
+voltage on the charge remaining on C1. The charge on C1 is the cathode potential of the diode. When the 
+potential on the anode exceeds the potential on the cathode (the charge on C1), the diode again conducts, 
+and C1 begins to charge to approximately the peak value of the applied voltage. 

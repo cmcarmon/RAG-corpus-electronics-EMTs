@@ -1,0 +1,7 @@
+Table 6.1: In this example, the transmitter encodes 0 as 000. The channel creates an error
+(changing a 0 into a 1) with probability pe. The ﬁrst column lists all possible received data words
+and the second the probability of each data word being received. The last column shows the
+results of the majority-vote decoder. When the decoder produces 0, it successfully corrected the
+errors introduced by the channel (if there were any; the top row corresponds to the case in which
+no errors occurred). The error probability of the decoders is the sum of the probabilities when
+the decoder produces 1.

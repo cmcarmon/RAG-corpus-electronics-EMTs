@@ -1,0 +1,180 @@
+Visco-elastic jets are the jets of viscoelastic fluids, i.e. fluids that disobey Newton’s law of Viscocity. A Viscoelastic fluid that returns to its original shape after the applied stress is released.
+Everybody has witnessed a situation where a liquid is poured out of an orifice at a given height and speed, and it hits a solid surface. For example – dropping of honey onto a bread slice, or pouring shower gel onto one's hand. Honey is a purely viscous, Newtonian fluid: the jet thins continuously and coils regularly.
+Jets of non-Newtonian Viscoelastic fluids show a novel behaviour. A viscoelastic jet breaks up much more slowly than a Newtonian jet. Typically, it evolves into the so-called beads-on-string structure, where large drops are connected by thin threads. The jet widens at its base (reverse swell phenomenon) and folds back and forth on itself .The slow breakup process provides the viscoelastic jet sufficient time to exhibit some new phenomena, including drop migration, drop oscillation, drop merging and drop draining.
+These properties are a result of the interplay of non-Newtonian properties (viscoelasticity, shear-thinning) with gravitational, viscous, and inertial effects in the jets. Free surface continuous jets of viscoelastic fluids are relevant in many engineering applications involving blood, paints, adhesives or foodstuff and industrial processes like fiber spinning, bottle-filling, oil drilling etc. In many of these processes, an understanding of the instabilities a jet undergoes due to changes in fluid parameters like Reynolds number or Deborah number is essential from process engineering point of view. With the advent of microfluidics, an understanding of the jetting properties of non-Newtonian fluids becomes essential from micro- to macro length scales, and from low to high Reynolds numbers7–9. Like other fluids, When considering viscoelastic flows, the velocity, pressure and stress must satisfy the mass and momentum equation, supplemented with a constitutive equation involving the velocity and stress.
+The temporal evolution of a viscoelastic fluid thread depends on the relative magnitude of the viscous, inertial, and elastic stresses and the capillary pressure. To study the inertio-elasto-capillary balance for a jet, two dimensionless parameters are defined: the Ohnesorge number (Oℎ)
+
+
+
+
+O
+h
+=
+
+
+
+η
+
+0
+
+
+
+
+ρ
+λ
+
+R
+
+0
+
+
+
+
+
+
+
+
+
+
+
+{\displaystyle Oh={\frac {\eta _{0}}{\sqrt[{}]{\rho \lambda R_{0}}}}}
+
+, which is the inverse of the Reynolds number based on a characteristic capillary velocity
+
+
+
+
+
+γ
+
+η
+
+0
+
+
+
+
+
+
+{\displaystyle {\frac {\gamma }{\eta _{0}}}}
+and, secondly, the intrinsic Deborah number De,
+
+
+
+
+D
+e
+=
+λ
+
+
+
+γ
+ρ
+
+R
+
+0
+
+
+3
+
+
+
+
+
+
+
+
+
+
+{\displaystyle De=\lambda {\sqrt[{}]{\gamma \rho R_{0}^{3}}}}
+
+, defined as the ratio of the time scale for elastic stress relaxation, λ, to the “Rayleigh time scale” for inertio-capillary breakup of an inviscid jet,
+
+
+
+
+t
+
+r
+
+
+=
+
+
+
+ρ
+
+R
+
+0
+
+
+3
+
+
+
+/
+
+γ
+
+
+
+
+
+
+
+
+{\displaystyle t_{r}={\sqrt[{}]{\rho R_{0}^{3}/\gamma }}}
+. In these expressions,
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+is the fluid density,
+
+
+
+
+η
+
+0
+
+
+
+
+{\displaystyle \eta _{0}}
+is the fluid zero shear viscosity,
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+is the surface tension,
+
+
+
+
+R
+
+0
+
+
+
+
+{\displaystyle R_{0}}
+is the initial radius of the jet, and
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+is the relaxation time associated with the polymer solution.

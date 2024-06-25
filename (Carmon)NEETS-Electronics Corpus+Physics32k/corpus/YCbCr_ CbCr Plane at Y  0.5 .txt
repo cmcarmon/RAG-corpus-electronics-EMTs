@@ -1,0 +1,2 @@
+Note: when Y = 0, R, G and B must all be zero, thus Cb and Cr can only be zero. Likewise, when Y = 1, R, G and B must all be 1, thus Cb and Cr can only be zero.
+Unlike R, G, and B, the Y, Cb and Cr values are not independent; choosing YCbCr values arbitrarily may lead to one or more of the RGB values that are out of gamut, i.e. greater than 1.0 or less than 0.0.

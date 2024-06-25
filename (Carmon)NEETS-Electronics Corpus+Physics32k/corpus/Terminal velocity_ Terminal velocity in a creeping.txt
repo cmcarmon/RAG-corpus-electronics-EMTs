@@ -1,0 +1,191 @@
+For very slow motion of the fluid, the inertia forces of the fluid are negligible (assumption of massless fluid) in comparison to other forces. Such flows are called creeping flows and the condition to be satisfied for the flows to be creeping flows is the Reynolds number,
+
+
+
+R
+e
+≪
+1
+
+
+{\displaystyle Re\ll 1}
+. The equation of motion for creeping flow (simplified Navier–Stokes equation) is given by
+
+
+
+
+∇
+p
+=
+μ
+
+∇
+
+2
+
+
+
+
+v
+
+
+
+
+{\displaystyle \nabla p=\mu \nabla ^{2}{\mathbf {v} }}
+
+where
+
+
+
+
+
+
+v
+
+
+
+
+{\displaystyle {\mathbf {v} }}
+is the fluid velocity vector field,
+
+
+
+
+p
+
+
+{\displaystyle p}
+is the fluid pressure field,
+
+
+
+
+μ
+
+
+{\displaystyle \mu }
+is the liquid\fluid viscosity.
+The analytical solution for the creeping flow around a sphere was first given by Stokes in 1851. From Stokes' solution, the drag force acting on the sphere can be obtained as
+
+
+
+
+
+(
+6
+)
+
+D
+=
+3
+π
+μ
+d
+V
+
+
+
+or
+
+
+
+
+C
+
+d
+
+
+=
+
+
+24
+
+R
+e
+
+
+
+
+
+{\displaystyle \quad (6)\qquad D=3\pi \mu dV\qquad \qquad {\text{or}}\qquad \qquad C_{d}={\frac {24}{Re}}}
+
+where the Reynolds number,
+
+
+
+R
+e
+=
+
+
+1
+μ
+
+
+ρ
+d
+V
+
+
+{\displaystyle Re={\frac {1}{\mu }}\rho dV}
+. The expression for the drag force given by equation (6) is called Stokes' law.
+When the value of
+
+
+
+
+C
+
+d
+
+
+
+
+{\displaystyle C_{d}}
+is substituted in the equation (5), we obtain the expression for terminal velocity of a spherical object moving under creeping flow conditions:
+
+
+
+
+
+V
+
+t
+
+
+=
+
+
+
+g
+
+d
+
+2
+
+
+
+
+18
+μ
+
+
+
+
+(
+
+
+ρ
+
+s
+
+
+−
+ρ
+
+)
+
+.
+
+
+{\displaystyle V_{t}={\frac {gd^{2}}{18\mu }}\left(\rho _{s}-\rho \right).}

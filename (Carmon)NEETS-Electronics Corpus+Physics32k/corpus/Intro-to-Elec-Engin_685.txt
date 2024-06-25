@@ -1,0 +1,9 @@
+While a JFET behaves much like a depletion MOSFET, there are several minor differences
+between JFETs and depletion MOSFETs. First, with vGS < 0, the junction in the JFET carries a
+reverse saturation gate current iC
+usually be neglected. Second, any positive gate voltage above about 0.6 V would forward-bias the
+junction in the JFET, resulting in a large forward gate current. Thus, enhancement-mode operation
+is not possible with JFETs. On the side of advantages for JFETs, the channel in a JFET has greater
+conduction than the channel in a MOSFET of the same size, and the static characteristic curves
+are more nearly horizontal in the active region. Also, JFETs do not generally suffer permanent
+damage from excessive gate voltage, whereas MOSFETs would be destroyed.

@@ -1,0 +1,10 @@
+In spite of its connection to the spectrum, the cepstrum is
+actually a sequence indexed by time, say {cs;n}, representing the
+speech sequence {sn}. The set of operations leading to {cs;n} is
+depicted in Figure 3.9. The ﬁrst two operations can be inter-
+preted as an attempt to transform the signal {sn} into a ‘‘linear’’
+domain in which the two parts of the signal that are convolved
+in the unaltered signal have representatives that are added in
+the new domain. Let us denote by Q the operation corres-
+ponding to the ﬁrst two boxes in the ﬁgure. Then:
+Cs(v) ¼ Q{sn} ¼ logjS(v)j ¼ logjE(v)H(v)j

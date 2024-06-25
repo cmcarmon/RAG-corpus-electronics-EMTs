@@ -1,0 +1,13 @@
+Various levels of compression complexity can be used, depending on the ultimate bit rate and quality required.
+Each degree of complexity removes different types of redundancy from the video image. The image is broken
+·
+  8.  By  comparing  different  blocks  and  transmitting  only  the  differences
+into  blocks  of  pixels,  typically  8 
+(DPCM), factors of 2 reduction in bit rate can be obtained. No degradation of quality need result. Much of
+the information within each block is imperceptible to the viewer. Vector quantization (VQ) or discrete-cosine
+transform (DCT) techniques can be used to eliminate bits corresponding to these imperceptible details. This
+intraframe coding can result in a factor of 20 reduction in the bit rate, although the evaluation of image quality
+becomes subjective. Finally, stationary images or moving objects need not require constant retransmission of
+every detail. Motion compression techniques have been developed to eliminate these interframe redundancies.
+Combinations  of  these  techniques  have  resulted  in  coders  that  convert  NTSC-like  video  (100 Mbps  uncom-
+pressed) into a few megabits per second and HDTV images (1 Gbps uncompressed) into less than 20 Mbps.

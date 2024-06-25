@@ -1,0 +1,9 @@
+Examples of Stochastic Processes
+Figure  73.9  shows  two  sample  functions  of  nonstationary  processes.  Now  consider  the  discrete  time  process
+X(k) = A, for all k ‡ 0, where A is a rv (a random initial condition) that assumes a value 1 or –1 with respective
+probabilities p and 1 – p at k = 0. This value does not change, once the initial random draw is done at k = 0.
+This  stochastic  sequence  has  two  sample  functions  only,  the  constant  sequences  {–1}  and  {1}.  The  expected
+value of X(k) at any time k is E[X(k)] = E[A] = p · 1 + (1 – p) · (–1) = 2p – 1, which is independent of k. The
+autocorrelation function is, by deﬁnition,  E[X(k)X(k + m)] = E[A · A] = E[A2] = p · 12 + (1 – p) · (–1)2 = 1
+which  is  also  independent  of  time  k.  Thus  X(k)  is  perfectly  correlated  for  all  time  (the  process  has  inﬁnite
+memory). This process is deterministic.

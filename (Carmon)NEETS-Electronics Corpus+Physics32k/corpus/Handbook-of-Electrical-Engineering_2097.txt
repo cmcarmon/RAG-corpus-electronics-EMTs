@@ -1,0 +1,11 @@
+Processing Functions
+Beamforming
+Beamforming is a process in which outputs from the hydrophone sensors of an array are coherently combined
+by delaying and summing the outputs to provide enhanced detection and estimation. In underwater applica-
+tions, one is trying to detect a directional (single direction) signal in the presence of normalized background
+noise that is ideally isotropic (nondirectional). By arranging the hydrophone (array) sensors in different physical
+geometries and electronically steering them in a particular direction, one can increase the signal-to-noise ratio
+(SNR)  in  a  given  direction  by  rejecting  or  canceling  the  noise  in  other  directions.  There  are  many  different
+kinds of arrays (e.g., equally spaced line, continuous line, circular, cylindrical, spherical, or random sonobuoy
+arrays). The beam pattern speciﬁes the response of these arrays to the variation in direction. In the simplest
+case, the increase in SNR due to the beamformer, called the array gain (in dB), is given by

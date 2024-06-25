@@ -1,0 +1,8 @@
+Finally, it is important to recognize that current sources can be used to
+construct circuits in which KCL is violated. Several examples of circuits con-
+structed from current sources in which KCL is violated at every node are shown
+in Figure 2.13. We will not be concerned with such circuits here for two reasons.
+First, if KCL does not hold at a node, then electric charge must accumulate at
+that node. This is inconsistent with the constraint of the lumped matter disci-
+pline that dq/dt be zero. Second, if a circuit were actually built to violate KCL,
+something would ultimately give. For example, the current sources might cease

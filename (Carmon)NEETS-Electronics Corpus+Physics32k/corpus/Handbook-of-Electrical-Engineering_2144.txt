@@ -1,0 +1,11 @@
+.  He  showed  that  the  LMS
+which  when  substituted  into  Eq. (20.2)  produces  the  so-called 
+h
+  is  small  enough.  Since  it  is  a  steepest  descent
+converged  to  the  analytic  solution  provided  the  step  size 
+procedure, the largest step size is limited by the inverse of the largest eigenvalue of the input autocorrelation
+matrix. The larger the step size (below this limit), the faster is the convergence, but the ﬁnal values will “rattle”
+around the optimal value in a basin that has a radius proportional to the step size. Hence, there is a fundamental
+trade-off between speed of convergence and accuracy in the ﬁnal weight values. One great appeal of the LMS
+algorithm is that it is very efﬁcient (just one multiplication per weight) and requires only local quantities to
+be computed.

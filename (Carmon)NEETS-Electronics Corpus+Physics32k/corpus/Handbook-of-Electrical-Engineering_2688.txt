@@ -1,0 +1,9 @@
+To better illustrate the concept of layout design, the design of an inverter in the CMOS technology is shown
+in Fig. 25.7. An inverter produces an output voltage that is the logical inverse of its input. Considering the circuit
+diagram of Fig. 25.7(a), when the input is 1, the lower nMOS is on, but the upper pMOS is off. Thus, the output
+becomes 0 by becoming connected to the ground through the nMOS. On the other hand, if the input is 0, the
+pMOS is on and the nMOS is off, so the output must ﬁnd a charge-up path through the pMOS to the supply
+and therefore becomes 1. Figure 25.7(b) represents a layout for such an inverter. As can be seen from this ﬁgure,
+the problem of a layout design is essentially reduced to drawing and painting a set of polygons. Layout editors
+provide commands for drawing such polygons. The commands are usually entered at the keyboard or with a
+mouse and, in some menu-driven packages, can be selected as options from a pull-down menu.

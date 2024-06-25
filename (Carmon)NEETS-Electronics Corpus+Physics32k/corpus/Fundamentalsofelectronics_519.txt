@@ -1,0 +1,11 @@
+harmonic distortion calculations. The factor of two in the numerator and denominator arises because we
+need to sum over negative as well as positive frequency. Because for real-valued signals, c−k = c∗
+k, the sums
+over these frequency regions are the same. Clearly, the factors of two cancel. Total harmonic distortion
+is most easily computed in the frequency domain. However, the numerator can be computed in the time
+domain by noting that it equals equals the square of the signal’s rms value (after subtracting the signal’s
+average value) minus the power in the ﬁrst harmonic.
+Solution to Exercise 4.8 (p. 108)
+Total harmonic distortion in the square wave is 1 − 1
+Solution to Exercise 4.9 (p. 111)
+N signals directly encoded require a bandwidth of N/T . Using a binary representation, we need log2N

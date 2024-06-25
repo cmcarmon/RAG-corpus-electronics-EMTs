@@ -1,0 +1,9 @@
+we can write PTotal(df ) = 4kTE (R1 + R2 )df. TE is called the effective noise temperature [see Gardner, 1990, p. 289;
+or Peebles, 1987, p. 228]. An antenna receives noise from various sources of electromagnetic radiation, such as
+radio  transmissions  and  harmonics,  switching  equipment  (such  as  computers,  electrical  motor  controllers),
+thermal (blackbody) radiation of the atmosphere and other matter, solar radiation, stellar radiation, and galaxial
+radiation (the ambient noise of the universe). To account for noise at the antenna output, we model the noise
+with  an  equivalent  thermal  noise  using  an  effective  noise  temperature TE .  The  incremental  available  power
+(output) over an incremental frequency band df is PYY (df ) = kTE df, from Eq. (73.27). TE  is often called antenna
+temperature, denoted by TA . Although it varies with the frequency band, it is usually virtually constant over a
+small bandwidth.

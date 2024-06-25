@@ -1,0 +1,15 @@
+the processor's response will depend upon whether 
+interrupts  are  currently  enabled  or  disabled  (when 
+enabled, the CPU will suspend its current task and 
+carry out the requisite interrupt service routine).  
+  The  response  to  interrupts  can  be  enabled  or 
+disabled  by  means  of  appropriate  program 
+instructions.  In  practice,  interrupt  signals  may  be 
+generated from a number of sources and since each 
+will  require 
+its  own  customized  response  a 
+mechanism  must  be  provided  for  identifying  the 
+source  of  the  interrupt  and  calling  the  appropriate 
+interrupt  service  routine.  In  order  to  assist  in  this 
+task,  the  microprocessor  may  use  a  dedicated 
+programmable interrupt controller chip. 

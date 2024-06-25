@@ -1,0 +1,3 @@
+t – 1. The observations are conditionally independent given the state, and the transition probabilites are not
+dependent on time. The model is called hidden because the identity of the state at time t is unknown; only the
+output of the state is observed. It is common to specify an HMM by its parameters l = (A, B, p).

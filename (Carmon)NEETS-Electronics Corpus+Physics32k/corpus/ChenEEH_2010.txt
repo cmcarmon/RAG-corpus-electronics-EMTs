@@ -1,0 +1,24 @@
+Banerjee et al. (1990) presented an evaluation of the error
+coverage of ABFT schemes for matrix operations on a hyper-
+cube multiprocessor. In this work, a threshold D was used for
+the equality test so that a difference of at most D between the
+two FP numbers being compared meant passing the test. The
+value of D was determined arbitrarily using averaging on
+certain input data sets and did not result in very good error
+coverage. Nair and Abraham (1990) proposed a generalization
+of the checksum test in the framework of real number codes.
+The performances of several weighted checksum schemes that
+correspond to different encoder vectors were examined. The
+checksum schemes and the numerical error involved again
+were found to be data dependent. Roy-Chowdhury and
+Banerjee (1993) developed a theoretical forward (roundoff)
+error bounds for some computations; the bounds are used as
+the threshold values. They found good error coverage for
+random dense problems. Although this is an innovative
+method, it has some drawbacks. Although, they have a theo-
+retical basis for their thresholds, their experiments use tighter
+empirical thresholds to obtain a reasonable error coverage.
+Second, the inherent nature of threshold methods can miss
+errors in the low-order bits. Such errors in the low bits could
+become very large if the system of linear equations in LU
+decomposition is ill-conditioned (Wilkinson, 1965).

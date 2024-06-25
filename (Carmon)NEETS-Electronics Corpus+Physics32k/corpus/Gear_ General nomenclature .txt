@@ -1,0 +1,363 @@
+Rotational frequency, n
+Measured in rotation over time, such as revolutions per minute (RPM or rpm).
+Angular frequency, ω
+Measured in radians/second. 1 RPM = 2π rad/minute = π/30 rad/second.
+Number of teeth, N
+How many teeth a gear has, an integer. In the case of worms, it is the number of thread starts that the worm has.
+Gear, wheel
+The larger of two interacting gears or a gear on its own.
+Pinion
+The smaller of two interacting gears.
+Path of contact
+Path followed by the point of contact between two meshing gear teeth.
+Line of action, pressure line
+Line along which the force between two meshing gear teeth is directed. It has the same direction as the force vector. In general, the line of action changes from moment to moment during the period of engagement of a pair of teeth. For involute gears, however, the tooth-to-tooth force is always directed along the same line—that is, the line of action is constant. This implies that for involute gears the path of contact is also a straight line, coincident with the line of action—as is indeed the case.
+Axis
+Axis of revolution of the gear; center line of the shaft.
+Pitch point
+Point where the line of action crosses a line joining the two gear axes.
+Pitch circle, pitch line
+Circle centered on and perpendicular to the axis, and passing through the pitch point. A predefined diametral position on the gear where the circular tooth thickness, pressure angle and helix angles are defined.
+Pitch diameter, d
+A predefined diametral position on the gear where the circular tooth thickness, pressure angle and helix angles are defined. The standard pitch diameter is a basic dimension and cannot be measured, but is a location where other measurements are made. Its value is based on the number of teeth, the normal module (or normal diametral pitch), and the helix angle. It is calculated as:
+
+
+
+
+d
+=
+
+
+
+N
+
+m
+
+n
+
+
+
+
+cos
+⁡
+ψ
+
+
+
+
+
+{\displaystyle d={\frac {Nm_{n}}{\cos \psi }}}
+in metric units or
+
+
+
+d
+=
+
+
+N
+
+
+P
+
+d
+
+
+cos
+⁡
+ψ
+
+
+
+
+
+{\displaystyle d={\frac {N}{P_{d}\cos \psi }}}
+in imperial units.
+Module or modulus, m
+Since it is impractical to calculate circular pitch with irrational numbers, mechanical engineers usually use a scaling factor that replaces it with a regular value instead. This is known as the module or modulus of the wheel and is simply defined as
+
+
+
+
+m
+=
+p
+
+/
+
+π
+
+
+{\displaystyle m=p/\pi }
+
+where m is the module and p the circular pitch. The units of module are customarily millimeters; an English Module is sometimes used with the units of inches. When the diametral pitch, DP, is in English units,
+
+
+
+
+m
+=
+25.4
+
+/
+
+D
+P
+
+
+{\displaystyle m=25.4/DP}
+in conventional metric units.
+The distance between the two axis becomes
+
+
+
+
+a
+=
+m
+(
+
+z
+
+1
+
+
++
+
+z
+
+2
+
+
+)
+
+/
+
+2
+
+
+{\displaystyle a=m(z_{1}+z_{2})/2}
+
+where a is the axis distance, z1 and z2 are the number of cogs (teeth) for each of the two wheels (gears). These numbers (or at least one of them) is often chosen among primes to create an even contact between every cog of both wheels, and thereby avoid unnecessary wear and damage. An even uniform gear wear is achieved by ensuring the tooth counts of the two gears meshing together are relatively prime to each other; this occurs when the greatest common divisor (GCD) of each gear tooth count equals 1, e.g. GCD(16,25)=1; if a 1:1 gear ratio is desired a relatively prime gear may be inserted in between the two gears; this maintains the 1:1 ratio but reverses the gear direction; a second relatively prime gear could also be inserted to restore the original rotational direction while maintaining uniform wear with all 4 gears in this case. Mechanical engineers, at least in continental Europe, usually use the module instead of circular pitch. The module, just like the circular pitch, can be used for all types of cogs, not just evolvent based straight cogs.
+Operating pitch diameters
+Diameters determined from the number of teeth and the center distance at which gears operate. Example for pinion:
+
+
+
+
+
+d
+
+w
+
+
+=
+
+
+
+2
+a
+
+
+u
++
+1
+
+
+
+=
+
+
+
+2
+a
+
+
+
+
+
+z
+
+2
+
+
+
+z
+
+1
+
+
+
+
++
+1
+
+
+
+.
+
+
+{\displaystyle d_{w}={\frac {2a}{u+1}}={\frac {2a}{{\frac {z_{2}}{z_{1}}}+1}}.}
+
+Pitch surface
+In cylindrical gears, cylinder formed by projecting a pitch circle in the axial direction. More generally, the surface formed by the sum of all the pitch circles as one moves along the axis. For bevel gears it is a cone.
+Angle of action
+Angle with vertex at the gear center, one leg on the point where mating teeth first make contact, the other leg on the point where they disengage.
+Arc of action
+Segment of a pitch circle subtended by the angle of action.
+Pressure angle,
+
+
+
+θ
+
+
+{\displaystyle \theta }
+
+The complement of the angle between the direction that the teeth exert force on each other, and the line joining the centers of the two gears. For involute gears, the teeth always exert force along the line of action, which, for involute gears, is a straight line; and thus, for involute gears, the pressure angle is constant.
+Outside diameter,
+
+
+
+
+D
+
+o
+
+
+
+
+{\displaystyle D_{o}}
+
+Diameter of the gear, measured from the tops of the teeth.
+Root diameter
+Diameter of the gear, measured at the base of the tooth.
+Addendum, a
+Radial distance from the pitch surface to the outermost point of the tooth.
+
+
+
+a
+=
+(
+
+D
+
+o
+
+
+−
+D
+)
+
+/
+
+2
+
+
+{\displaystyle a=(D_{o}-D)/2}
+
+Dedendum, b
+Radial distance from the depth of the tooth trough to the pitch surface.
+
+
+
+b
+=
+(
+D
+−
+
+root diameter
+
+)
+
+/
+
+2
+
+
+{\displaystyle b=(D-{\text{root diameter}})/2}
+
+Whole depth,
+
+
+
+
+h
+
+t
+
+
+
+
+{\displaystyle h_{t}}
+
+The distance from the top of the tooth to the root; it is equal to addendum plus dedendum or to working depth plus clearance.
+Clearance
+Distance between the root circle of a gear and the addendum circle of its mate.
+Working depth
+Depth of engagement of two gears, that is, the sum of their operating addendums.
+Circular pitch, p
+Distance from one face of a tooth to the corresponding face of an adjacent tooth on the same gear, measured along the pitch circle.
+Diametral pitch, DP
+
+
+
+
+D
+P
+=
+N
+
+/
+
+d
+=
+π
+
+/
+
+p
+
+
+{\displaystyle DP=N/d=\pi /p}
+
+Ratio of the number of teeth to the pitch diameter. Could be measured in teeth per inch or teeth per centimeter, but conventionally has units of per inch of diameter. Where the module, m, is in metric units
+
+
+
+
+D
+P
+=
+25.4
+
+/
+
+m
+
+
+{\displaystyle DP=25.4/m}
+in English units
+Base circle
+In involute gears, the tooth profile is generated by the involute of the base circle. The radius of the base circle is somewhat smaller than that of the pitch circle
+Base pitch, normal pitch,
+
+
+
+
+p
+
+b
+
+
+
+
+{\displaystyle p_{b}}
+
+In involute gears, distance from one face of a tooth to the corresponding face of an adjacent tooth on the same gear, measured along the base circle
+Interference
+Contact between teeth other than at the intended parts of their surfaces
+Interchangeable set
+A set of gears, any of which mates properly with any other

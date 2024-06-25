@@ -1,0 +1,161 @@
+Solutions
+
+
+
+(
+
+q
+
+,
+
+p
+
+)
+
+
+{\displaystyle (\mathbf {q} ,\mathbf {p} )}
+of the n-body problem
+
+
+
+
+
+
+
+q
+
+˙
+
+
+
+=
+
+M
+
+−
+1
+
+
+
+p
+
+,
+
+
+
+
+
+p
+
+˙
+
+
+
+=
+∇
+U
+(
+
+q
+
+)
+
+
+{\displaystyle {\dot {\mathbf {q} }}=M^{-1}\mathbf {p} ,\;{\dot {\mathbf {p} }}=\nabla U(\mathbf {q} )}
+(where M are the masses and U denotes the gravitational potential) are said to have a singularity if there is a sequence of times
+
+
+
+
+t
+
+n
+
+
+
+
+{\displaystyle t_{n}}
+converging to a finite
+
+
+
+
+t
+
+∗
+
+
+
+
+{\displaystyle t^{*}}
+where
+
+
+
+∇
+U
+
+(
+
+
+q
+
+
+(
+
+t
+
+n
+
+
+)
+
+
+)
+
+→
+∞
+
+
+{\displaystyle \nabla U\left(\mathbf {q} \left(t_{n}\right)\right)\rightarrow \infty }
+. That is, the forces and accelerations become infinite at some finite point in time.
+A collision singularity occurs if
+
+
+
+
+q
+
+(
+t
+)
+
+
+{\displaystyle \mathbf {q} (t)}
+tends to a definite limit when
+
+
+
+t
+→
+
+t
+
+∗
+
+
+,
+t
+<
+
+t
+
+∗
+
+
+
+
+{\displaystyle t\rightarrow t^{*},t<t^{*}}
+. If the limit does not exist the singularity is called a pseudocollision or noncollision singularity.
+Paul Painlevé showed that for n = 3 any solution with a finite time singularity experiences a collision singularity. However, he failed at extending this result beyond 3 bodies. His 1895 Stockholm lectures end with the conjecture that
+For n ≥ 4 the n-body problem admits noncollision singularities.

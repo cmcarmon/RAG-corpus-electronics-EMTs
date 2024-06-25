@@ -1,0 +1,21 @@
+After an initial delay because of the B–E capacitance, the
+charge in the base begins to buildup, and the collector current
+rises to its on-state value with the voltage clamped to Vd by the
+diode. The voltage beings to fall rapidly once the device attains
+on-state current. As the charge is injected into the drift region,
+the gain of the transistor reduces and slows down the rate of
+fall of voltage. This phase increases the overall device turn-on
+time. The turn-off process involves removal of all the stored
+charge in the transistor. The base current is driven negative to
+remove the charge during turn-off. The negative base current
+rapidly removes excess charge from the device. The base cur-
+rent reversal is usually achieved gradually because abrupt re-
+versal leads to a long current tail, thus increasing switching
+loss. When the base current is reversed, the collector current
+remains constant for a storage time, ts, until the drift region
+comes out of high-level injection at one of its ends. After this
+interval, the device enters quasisaturation, and voltage starts
+rising slowly. Once the charge distribution reduces to zero at
+the collector-base junction, the voltage rises rapidly until the
+diode clamps it to the bus voltage. The collector current then
+falls off toward zero and device is cut off.

@@ -1,0 +1,26 @@
+A material is said to be Cauchy-elastic if the Cauchy stress tensor σ is a function of the deformation gradient F alone:
+
+
+
+
+
+
+σ
+
+=
+
+
+G
+
+
+(
+
+F
+
+)
+
+
+{\displaystyle \ {\boldsymbol {\sigma }}={\mathcal {G}}({\boldsymbol {F}})}
+
+It is generally incorrect to state that Cauchy stress is a function of merely a strain tensor, as such a model lacks crucial information about material rotation needed to produce correct results for an anisotropic medium subjected to vertical extension in comparison to the same extension applied horizontally and then subjected to a 90-degree rotation; both these deformations have the same spatial strain tensors yet must produce different values of the Cauchy stress tensor.
+Even though the stress in a Cauchy-elastic material depends only on the state of deformation, the work done by stresses might depend on the path of deformation. Therefore, Cauchy elasticity includes non-conservative "non-hyperelastic" models (in which work of deformation is path dependent) as well as conservative "hyperelastic material" models (for which stress can be derived from a scalar "elastic potential" function).

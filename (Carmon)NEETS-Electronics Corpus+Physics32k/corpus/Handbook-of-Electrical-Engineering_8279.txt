@@ -1,0 +1,9 @@
+Most algorithmic test pattern generators are based on the concept of sensitized paths. Given a line in a circuit,
+one wants to ﬁnd a 
+path to take a possible error all the way to an observable output. For example,
+to sensitize a path that goes through one input of an AND gate, one must set all other inputs of the gate to
+logic 1 to permit the sensitized signal to carry through. Figure 85.4 summarizes the underlying principles of
+trying to construct a test set. Each column shows the expected output for each input combination of a NAND
+gate. Columns 3 to 8 show the output under the presence of a stuck-at fault as per label. The output bits that
+permit detection of the corresponding fault are shown in a square, and thus at the bottom the minimal test
+set is listed, comprising the minimal number of distinct patterns necessary to detect all single stuck-at faults.

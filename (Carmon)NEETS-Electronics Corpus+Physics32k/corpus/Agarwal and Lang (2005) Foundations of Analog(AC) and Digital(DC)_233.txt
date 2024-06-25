@@ -1,0 +1,12 @@
+As discussed in Chapter 5, discrete signals offer better noise immunity
+than analog signals, but they do so at the expense of precision. If the noise that
+corrupts a discrete signal does not move its physical value past a discretization
+threshold, then the noise will be ignored. For example, suppose the information
+level ‘‘0’’ in Figure 1.45 is represented by a 1.25-V signal, and the information
+level ‘‘1’’ in Figure 1.45 is represented by a 3.75-V signal. Provided the volt-
+age does not rise above 2.5 V for ‘‘0,’’ or does not fall below 2.5 V for a
+‘‘1,’’ it will be interpreted correctly. Thus, this discrete signal representation is
+immune to ±1.25-V noise. Notice, however, the loss in precision
+our coarse
+two-level representation is unable to distinguish between small changes in the
+voltage.20

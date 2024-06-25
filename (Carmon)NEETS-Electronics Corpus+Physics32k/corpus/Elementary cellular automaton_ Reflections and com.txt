@@ -1,0 +1,8 @@
+Although there are 256 possible rules, many of these are trivially equivalent to each other up to a simple transformation of the underlying geometry. The first such transformation is reflection through a vertical axis and the result of applying this transformation to a given rule is called the mirrored rule. These rules will exhibit the same behavior up to reflection through a vertical axis, and so are equivalent in a computational sense.
+For example, if the definition of rule 110 is reflected through a vertical line, the following rule (rule 124) is obtained:
+Rules which are the same as their mirrored rule are called amphichiral. Of the 256 elementary cellular automata, 64 are amphichiral.
+The second such transformation is to exchange the roles of 0 and 1 in the definition. The result of applying this transformation to a given rule is called the complementary rule. For example, if this transformation is applied to rule 110, we get the following rule
+and, after reordering, we discover that this is rule 137:
+There are 16 rules which are the same as their complementary rules.
+Finally, the previous two transformations can be applied successively to a rule to obtain the mirrored complementary rule. For example, the mirrored complementary rule of rule 110 is rule 193. There are 16 rules which are the same as their mirrored complementary rules.
+Of the 256 elementary cellular automata, there are 88 which are inequivalent under these transformations.

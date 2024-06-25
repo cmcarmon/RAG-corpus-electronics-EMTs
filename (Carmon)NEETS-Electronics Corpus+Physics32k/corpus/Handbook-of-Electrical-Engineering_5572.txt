@@ -1,0 +1,11 @@
+Therefore, it is unnecessary to store these values in separate arrays, simplifying the program and reducing the
+computer storage requirements signiﬁcantly. The error introduced by this approximation is usually not impor-
+tant. The methods previously discussed neglect the prefault, or load, component of current; that is, the usual
+assumption  is  that  currents  throughout  the  system  were  zero  prior  to  the  fault.  This  is  almost  never  strictly
+true;  however,  the  error  produced  is  small  since  the  fault  currents  are  generally  much  larger  than  the  load
+currents. Also, the load currents and fault currents are out of phase with each other, making their sum more
+nearly equal to the larger components than would have been the case if the currents were in phase. In addition,
+selection  of  precise  values  for  prefault  currents  is  somewhat  speculative,  since  there  is  no  way  of  predicting
+what the loaded state of the system is when a fault occurs. When it is important to consider load currents, a
+power ﬂow study is made to calculate currents throughout the system, and these values are superimposed on
+(added to) results from the fault study.

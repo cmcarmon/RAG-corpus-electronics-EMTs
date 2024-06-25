@@ -1,0 +1,34 @@
+Some examples of FTHN applications include the following.
+A real-time network protocol used in local area networks
+(LANs) is modeled using FTHNs in (Murata, et al., 1999).
+Here we are interested in evaluating the worst-case performance
+in a given network, where propagation delays, times for pro-
+cessing message frames, and other such processes are speciﬁed
+as trapezoidal fuzzy-time functions. The fuzziness is due to the
+uncertain length (thus uncertain delay) of each message. In
+addition, FTHN models are used for performance evaluation
+of manufacturing systems, where the abilities of machines and/
+or workers involved in a manufacturing process are fuzzily
+known (Watanuki, 1999). Another area in which FTHN models
+are applied is the synchronization of multimedia systems (Zhou
+and Murata, 1998, 2001). Multimedia systems integrate a var-
+iety of media with different temporal characteristics (e.g., time-
+dependent media, such as video, audio, or animation) and
+time-independent media (e.g., text, graphics, and images).
+Thus, synchronization is a critical issue in these systems. The
+temporal speciﬁcation has to be properly represented for pre-
+sentation reviewing and planning by the user as well as for
+storing purposes. Multimedia synchronization has a time-crit-
+ical problem because it must guarantee the temporal constraints
+for presenting the media items. Thus, there is a beneﬁt in using
+FTHN methods to specify and analyze the temporal relations
+and speciﬁcations. The FTHN method has been used to present
+a new ﬁne-grained temporal FTHN model for distributed
+multimedia synchronization (Zhou and Murata, 2001). The
+FTHN method has also been applied to a video-on-demand
+(VOD) system, which is a continuous playback multimedia
+application in which constant real-time media data are required
+for smooth real-time presentation. Thus, timing is a critical
+issue, and the response time is the only timing that has direct
+interaction with the subscribers and also impacts the quality-of-
+service (QoS), as discussed by Murata and Chen (2000).

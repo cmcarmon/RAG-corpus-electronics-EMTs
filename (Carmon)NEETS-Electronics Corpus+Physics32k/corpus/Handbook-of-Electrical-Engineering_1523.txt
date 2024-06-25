@@ -1,0 +1,40 @@
+p
+m
+m
+g
+z
+g
+z
+z
+(cid:229)
+(cid:229)
+g
+l
+l
+f
+˛
+(cid:229)
+F
+Vocal Tract Length Normalization (VTL)
+Several attempts have been made to model variations in vocal tract length across several speakers. The idea was
+originally introduced by Bamberg [42] and revived through a parametric approach in [39]. Assume a uniform
+tube with length L for the model of the vocal tract. Then each formant frequency will be proportional to 1/L.
+The ﬁrst-order effect of a difference in vocal tract length is the scaling of the frequency axis. The idea behind
+VTL is to rescale or warp the frequency axis during the signal processing step in a speech recognition system,
+to make speech from all speakers appear as if it was produced by a vocal tract of a single standard length. Such
+normalizations have led to signiﬁcant gains in accuracy by reducing variability amongst speakers and allowing
+the pooling of training data for the construction of sharper models. Three VTL methods have been recently
+proposed.  In  [39],  a  parametric  method  of  normalization  which  counteracts  the  effect  of  varied  vocal  tract
+length is presented. This method is particularly useful when only a small amount of training data is available
+and  requires  the  determination  of  the  formant  frequencies.  In  [40],  an  automated  method  is  presented  that
+uses a simple generic voiced speech model to rapidly select appropriate frequency scales. This generic model
+is a mixture of 256 multiversity Gaussians with diagonal covariances trained on the unwarped data. Different
+warp  scales  are  selected  to  linearly  transform  the  frequency  axis  of  the  speaker’s  data.  The  resulting  warped
+features are scored against the generic model. The warp scale that scores the best is selected as the warp scale
+for that speaker. An iterative process updates the generic model with the new features obtained after warping
+each  speaker  with  the  best  warp  scale.  Once  the  best  warp  scales  for  each  speaker  have  been  determined,  SI
+models are built with the appropriately warped feature vectors. This warp selection method allows data from
+all speakers to be merged into one set of cannonical models. In [41], a class of transforms are proposed which
+achieve a remapping of the frequency axis much like the conventional VTL methods. These mappings known
+as all-pass transforms, are linear in the cepstral domain which makes speaker normalization simple to imple-
+ment. The parameters of these transforms are computed using conjugate gradient methods.

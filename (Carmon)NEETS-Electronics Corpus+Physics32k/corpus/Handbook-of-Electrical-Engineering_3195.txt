@@ -1,0 +1,8 @@
+2. Zero-voltage switching QRCs [Sum, 1988; Liu and Lee, 1986]. ZVS QRCs are duals of ZCS QRCs. The
+auxiliary LC elements are used to shape the switching device’s voltage waveform at off time in order to
+create  a  zero-voltage  condition  for  the  device  to  turn  on.  Fig. 30.31(a)  shows  an  example  of  ZVS  QR
+boost converter implemented using a ZV resonant switch. The circuit can operate in the half-wave mode
+[Fig. 30.31(b)] or in the full-wave mode [Fig. 30.31(c)] depending on whether a half-wave or full-wave
+ZV resonant switch is used, and the name comes from the capacitor voltage waveform. The full-wave
+mode ZVS circuit suffers from capacitive turn-on losses. The ZVS QRCs suffer from increased voltage
+stress on the switch. However, they can be operated at much higher frequencies compared to ZCS QRCs.

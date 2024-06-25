@@ -1,0 +1,8 @@
+An important aspect of RAMs are the access times, both for
+read and write. In principle, these should be balanced as much
+as possible as the worst case determines the maximum clock
+rate from the point of view of the periphery. It should be noted
+that the RAM access itself can be either ‘‘asynchronous’’ or
+‘‘clocked.’’ Most individual RAM chips are of the asynchronous
+type. The evolution of putting more and more RAM on chip
+has led to a state deﬁned by stand-alone memories that are

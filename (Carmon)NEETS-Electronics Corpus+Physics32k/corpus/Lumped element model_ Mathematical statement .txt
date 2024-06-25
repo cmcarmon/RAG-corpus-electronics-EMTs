@@ -1,0 +1,58 @@
+Newton's law is mathematically stated by the simple first-order differential equation:
+
+
+
+
+
+
+
+d
+Q
+
+
+d
+t
+
+
+
+=
+−
+h
+⋅
+A
+(
+T
+(
+t
+)
+−
+
+T
+
+env
+
+
+)
+=
+−
+h
+⋅
+A
+Δ
+T
+(
+t
+)
+
+
+
+{\displaystyle {\frac {dQ}{dt}}=-h\cdot A(T(t)-T_{\text{env}})=-h\cdot A\Delta T(t)\quad }
+
+where
+Q is thermal energy in joules
+h is the heat transfer coefficient between the surface and the fluid
+A is the surface area of the heat being transferred
+T is the temperature of the object's surface and interior (since these are the same in this approximation)
+Tenv is the temperature of the environment
+ΔT(t) = T(t) - Tenv is the time-dependent thermal gradient between environment and object
+Putting heat transfers into this form is sometimes not a very good approximation, depending on ratios of heat conductances in the system. If the differences are not large, an accurate formulation of heat transfers in the system may require analysis of heat flow based on the (transient) heat transfer equation in nonhomogeneous or poorly conductive media.

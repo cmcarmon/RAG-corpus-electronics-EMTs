@@ -1,0 +1,13 @@
+ABFT methods using the mantissas of ﬂoating point quan-
+tities can potentially be used to check certain ﬂoating point
+operations, such as multiplication using checksums of the
+input mantissas treated as integers without being susceptible
+to the problem of roundoff errors (Assaad and Dutt, 1992,
+1996). The only drawback to this approach is that it cannot be
+applied to all ﬂoating point operations (e.g., addition). How-
+ever, a hybrid test was formulated that applies both the
+ﬂoating-point and integer mantissa checksum tests to appro-
+priate parts of a computation (that is amenable to ABFT), thus
+covering all its operations. In this manner, much higher error
+coverages are obtained compared to using only the ﬂoating-
+point test.

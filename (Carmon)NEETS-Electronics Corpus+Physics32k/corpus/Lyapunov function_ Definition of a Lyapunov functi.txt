@@ -1,0 +1,130 @@
+A Lyapunov function for an autonomous dynamical system
+
+
+
+
+
+
+{
+
+
+
+g
+:
+
+
+R
+
+
+n
+
+
+→
+
+
+R
+
+
+n
+
+
+
+
+
+
+
+
+
+y
+˙
+
+
+
+=
+g
+(
+y
+)
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{cases}g:\mathbb {R} ^{n}\to \mathbb {R} ^{n}\\{\dot {y}}=g(y)\end{cases}}}
+
+with an equilibrium point at
+
+
+
+y
+=
+0
+
+
+{\displaystyle y=0}
+is a scalar function
+
+
+
+V
+:
+
+
+R
+
+
+n
+
+
+→
+
+R
+
+
+
+{\displaystyle V:\mathbb {R} ^{n}\to \mathbb {R} }
+that is continuous, has continuous derivatives, is locally positive-definite, and for which
+
+
+
+−
+∇
+
+V
+
+⋅
+g
+
+
+{\displaystyle -\nabla {V}\cdot g}
+is also locally positive definite. The condition that
+
+
+
+−
+∇
+
+V
+
+⋅
+g
+
+
+{\displaystyle -\nabla {V}\cdot g}
+is locally positive definite is sometimes stated as
+
+
+
+∇
+
+V
+
+⋅
+g
+
+
+{\displaystyle \nabla {V}\cdot g}
+is locally negative definite.

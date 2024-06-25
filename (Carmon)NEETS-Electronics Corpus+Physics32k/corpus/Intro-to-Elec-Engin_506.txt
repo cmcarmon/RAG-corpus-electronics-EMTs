@@ -1,0 +1,10 @@
+The basic logic gates described earlier are used to implement more advanced functions and
+are often combined to form logic blocks (or modules) which are available in compact IC packages.
+Although SSI packages were common basic units at one time, the trend now is to integration on an
+even larger scale. Entire digital systems, such as those to be discussed later, are now available in IC
+form, and those ICs in turn become blocks for building even larger systems. The ICs are mounted
+in packages known as DIPs (dual in-line packages), each with 8, 14, or more wires (pins) meant
+to be plugged into corresponding pin sockets. The actual gates, with the same logic diagrams,
+can be made with several different kinds of internal construction, giving rise to different logic
+families. In general blocks of one family are compatible with other blocks of the same family, but
+not with those of other families.

@@ -1,0 +1,7 @@
+The digital_algorithmic architecture makes use of the re-
+source sharing and scheduling features of the synthesis prod-
+ucts from Synopsys, which results in a relatively small circuit
+design. The synthesized code consists of one multiplication
+unit, one division unit, and some glue logic. The code given
+in the following (algorithmic level) code and is fully synthesiz-
+able by the Behavioral Compiler.

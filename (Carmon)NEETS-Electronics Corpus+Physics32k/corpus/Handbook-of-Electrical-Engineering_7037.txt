@@ -1,0 +1,7 @@
+When the possible messages are all equally likely, then it makes sense to represent them by strings of equal
+length. For example, if there are 32 possible equally likely messages, then each message can be represented by
+a binary string of 5 bits. However, if the messages are not equally likely, then it is more efﬁcient on the average
+to allot short strings to the frequently occurring messages and longer strings to the rare messages. Thus, the
+Morse  code  allots  the  shortest  string  (a  dot)  to  the  most  frequent  letter  (E)  and  allots  long  strings  to  the
+infrequent letters (e.g., dash, dash, dot, dash for Q). The minimum average length of the representation is a
+fundamental quantity called the entropy of the source, which is deﬁned in the next subsection.

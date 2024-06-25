@@ -1,0 +1,5 @@
+Automatic Synthesis
+Before regular data transmission begins, automatic synthesis of the ZF or LMS equalizers for unknown channels
+may be carried out during a training period. During the training period, a known signal is transmitted and a
+synchronized  version  of  this  signal  is  generated  in  the  receiver  to  acquire  information  about  the  channel
+characteristics. The automatic adaptive equalizer is shown in Fig. 70.7. A noisy but unbiased estimate:

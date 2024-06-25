@@ -1,0 +1,6 @@
+Typically, end termination thickness variations are available from the part manufacturer. Solder pad thickness
+variations  are  a  result  of  the  board  manufacturing  process,  and  will  vary  not  only  on  the  type  of  board
+metallization (standard etch vs. plated-through-hole) but also on the variations within each type. For adequate
+dot height, which will allow for some dot compression by the part, X should be between 1.5X and 2.5X of the
+total Y+Z, or just Z when dummy tracks are used. If adhesive dots are placed on masked areas of the board,
+mask thickness must also be considered.

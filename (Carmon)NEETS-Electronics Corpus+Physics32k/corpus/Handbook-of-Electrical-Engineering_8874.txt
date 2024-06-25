@@ -1,0 +1,10 @@
+Conventional caches traditionally could not accept requests while they were servicing a miss request. In other
+words,  they 
+  when  servicing  a  miss.  The  growing  penalty  for  cache  misses  has  made  it
+necessary  for  high-end  commodity  memory  systems  to  continue  to  accept  (and  service)  requests  from  the
+processor while a miss is being serviced. Some systems are able to service multiple miss requests simultaneously.
+  [Kroft,  1981].  Lockup-free
+To  allow  this  mode  of  operation,  the  cache  design  is 
+caches have one structure for each simultaneous outstanding miss that they can service. This structure holds
+the information necessary to correctly return the loaded data to the processor, even if the misses come back in
+a different order than that in which they were sent.

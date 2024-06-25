@@ -1,0 +1,14 @@
+Principles of Converter Operation
+Converter Circuit
+Since the generation and most of the transmission and utilization is alternating current, HVDC transmission
+requires conversion from ac to dc (called rectiﬁcation) at the sending end and conversion back from dc to ac
+(called inversion) at the receiving end. In HVDC transmission, the basic device used for conversion from ac
+to dc and from dc to ac is a three-phase full-wave bridge converter, which is also known as a Graetz circuit.
+This is a three-phase six-pulse converter. A three-phase twelve-pulse converter will be composed of two three-
+phase  six-pulse  converters,  supplied  with  voltages  differing  in  phase  by  30  degrees  (Fig. 61.13).  The  phase
+difference of 30 degrees is obtained by supplying one six-pulse bridge with a Y/Y transformer and the other by
+Y/D transformer.
+Relationships between AC and DC Quantities
+Voltages  and  currents  on  ac  and  dc  sides  of  the  converter  are  related  and  are  functions  of  several  converter
+parameters including the converter transformer. The following equations are provided here for easy reference.
+Detailed derivations are given in Kimbark [1971].

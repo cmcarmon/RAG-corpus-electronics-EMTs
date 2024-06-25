@@ -1,0 +1,8 @@
+(1) Topology-driven label assignment: In this assign-
+ment, LSPs (for every possible FEC) are automatically
+set up between every pair of LSR (full mesh). Thus,
+this scheme can place a heavy demand on the usage of
+labels at each LSR. However, the main advantage is
+that there is no latency involved in setting up an LSP
+before the trafﬁc ﬂow can use it (i.e., zero-call setup
+delay).

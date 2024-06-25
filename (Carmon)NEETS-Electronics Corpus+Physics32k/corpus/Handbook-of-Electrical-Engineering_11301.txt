@@ -1,0 +1,21 @@
+by  the  sense  electrodes.  There  are  multiple  deﬂections  in  an  electrogram  during  one  heartbeat  due  to  near-
+ﬁeld  and  far-ﬁeld  cardiac  activity.  In  a  ventricular  electrogram,  the  far-ﬁeld  activity  is  associated  with  the
+depolarization of the atria (P waves), and the near-ﬁeld activity is associated with the depolarization (R waves)
+and repolarization (T waves) of the ventricles. The R waves, which are the largest and fastest deﬂections, indicate
+a depolarization wavefront located directly below the sensing electrode and are, therefore, used as a means to
+count the heart rate. Circuitry used to sense R waves usually involves voltage comparators and slew rate detectors.
+Since the R wave deﬂection normally has a larger amplitude and faster slew rate than the other deﬂections, the
+circuitry can use reference thresholds to detect the R waves. The thresholds may be dynamic and determined
+by a complicated algorithm that has been termed autosensing [Jacobson and Kroiss, 1996; Castro et al., 1996;
+Kim,  1998].  In  addition,  there  may  be  a  brief  ampliﬁer  blanking  period  after  an  R  wave  is  detected  during
+which all further deﬂections are ignored (so as to avoid potential inappropriate sensing of following T waves).
+In  dual-chamber  pacemakers,  it  is  necessary  to  measure  an  atrial  electrogram  in  addition  to  the  ventricular
+electrogram.  Similar  detection  strategies  are  employed  in  the  atria;  however,  due  to  the  large  mass  of  the
+ventricles compared to the atria, the far-ﬁeld ventricular activity in an atrial electrogram is more difﬁcult to
+reject. A sensed cardiac event is marked by a digital pulse that is input into the timing circuitry. The timing
+circuitry determines if the heart rate is too slow and also controls all ampliﬁer blanking periods and pacing rates.
+In addition to far-ﬁeld effects, many other sources of external noise exist in an electrogram, such as motion
+artifact, electrode polarization, noise from the skeletal muscles, and environmental noise (e.g., 60-Hz noise and
+cellular phones). Using bandpass ﬁlters and closely spaced bipolar electrodes minimizes external noise. In the
+event of extreme interference, backup pacing circuits can assume control and asynchronously pace the heart
+until the noise is gone.

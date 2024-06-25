@@ -1,0 +1,19 @@
+Zero steady-state error is possible for step inputs by appro-
+priately including an exogenous model of the exosystem in the
+feedback loop (Gonzalez and Antsaklis, 1991). If zero steady-
+state error is not needed, then it will be necessary to make
+the mappings from the four exogenous inputs to the tracking
+error in equation 3.14 small. Three ways to determine the size
+of a transfer function matrix are presented in the following
+subsection.
+To simplify the presentation, assume from now on that the
+plant is square with p ¼ m. In addition, since the physical units
+used for input and output signals may lead to errors of different
+orders of magnitude, it is useful to normalize or scale the
+magnitudes of the plant’s inputs and outputs. Procedures to
+perform scaling of MIMO systems are presented in, for example,
+Skogestad and Postlethwaite (1996). One approach is to nor-
+malize the plant’s inputs and outputs so that the magnitude of
+each error is less than one. An alternative and common choice
+is to include the normalization in the frequency-dependent
+weights to be introduced for control system design.

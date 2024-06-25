@@ -1,0 +1,6 @@
+How do we represent negative numbers? One simple alternative is to inter-
+pret the leading bit as a sign bit: a 0 denotes a positive number and a 1 denotes
+a negative number. Therefore, the number 110 represents −2, and the number
+010 represents 2. When the interpretation of the leading bit (sign bit or value
+bit) is not clear from the context, to avoid confusion, it is important to indicate
+the numbering system being assumed when specifying a binary number.

@@ -1,0 +1,11 @@
+and attention is focused on the repeating waveform thereafter. This would be
+the case if we were using the circuit as a rectifier to convert a 60-Hertz AC
+signal to DC to supply DC power to Op Amps and MOSFETs. Rather than
+solving Equation 16.17 for the turn-on time, and then calculating the capacitor
+voltage at turn-on, we just assume the transient continues for the complete
+period of the sine wave. This gives a slightly larger ripple than the actual value,
+so designs based on this approximation will be conservative. We are in effect
+assuming that Equation 16.16 applies for the entire period τ of the input sine
+wave, and at the end of one cycle, vC instantly jumps to Vp, then decays
+again. Under this assumption the peak-to-peak value of the ripple will be, from
+Equation 16.16,

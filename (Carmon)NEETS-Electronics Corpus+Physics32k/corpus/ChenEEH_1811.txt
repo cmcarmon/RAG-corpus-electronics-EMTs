@@ -1,0 +1,11 @@
+The design of RSVP lends itself to be used with a variety of
+QoS control services. RSVP speciﬁcation does not deﬁne the
+internal format of the RSVP protocol ﬁelds or objects and
+treats them as opaque; it deals only with the setup mechanism.
+RSVP was designed to support both unicast and multicast
+applications. RSVP supports heterogeneous QoS, which
+means different receivers in the same multicast group can
+request different QoS. This heterogeneity allows some receivers
+to have reservations, whereas others could receive the same
+trafﬁc using the best-effort service. We now discuss the service
+classes offered by IntServ.

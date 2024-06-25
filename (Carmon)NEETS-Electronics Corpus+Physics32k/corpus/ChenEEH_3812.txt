@@ -1,0 +1,11 @@
+In Figure 4.6(A), we see the original LENA image. It has
+been sampled without aliasing. Figure 4.6(B) shows the LENA
+image sampled at a rate much smaller than the minimum
+sampling frequencies in the horizontal and vertical directions
+necessary to avoid aliasing. Aliasing can be clearly noted. In
+Figure 4.6(C), the bandwidth of the image LENA has been
+reduced prior to sampling so that aliasing is avoided after
+sampling. Figure 4.6(D) shows the ﬁltered image after sam-
+pling. We can notice that despite the blur on the image due to
+the lower bandwidth, there is indeed less aliasing indicated by
+the smoother edges.

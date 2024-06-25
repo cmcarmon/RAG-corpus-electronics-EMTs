@@ -1,0 +1,8 @@
+Note that ﬂip-ﬂops have propagation delay, which means that there is a small delay (about 20
+ns) between the change instruction and the time Q actually changes. The value of D that matters
+is its value when the change instruction is received, not its value at the later time when Q changes.
+A convenient means of describing the series of transitions that occur as the signals set to the
+ﬂip-ﬂop input change is the timing diagram. A timing diagram depicts inputs and outputs (as a
+function of time) of the ﬂip-ﬂop (or any other logic device) showing the transitions that occur
+over time. The timing diagram thus provides a convenient visual representation of the evolution
+of the state of the ﬂip-ﬂop. However, the transitions can also be represented in tabular form.

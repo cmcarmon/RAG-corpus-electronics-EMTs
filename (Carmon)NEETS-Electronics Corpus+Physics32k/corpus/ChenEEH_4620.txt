@@ -1,0 +1,9 @@
+Gain scheduling is a practical and powerful method for the
+control of nonlinear systems. A gain-scheduled controller is
+formed by interpolating between a set of linear controllers
+derived for a corresponding set of plant linearizations associ-
+ated with several operating points. The interpolation is based
+on exogenous scheduling parameters that vary slowly and
+capture the plant nonlinearities. The resulting controller is a
+linear system whose parameters (gains) are adjusted (sched-
+uled) as a function of the exogenous scheduling variables.

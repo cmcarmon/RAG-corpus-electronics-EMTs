@@ -1,0 +1,24 @@
+The ﬂoating point checksum technique for matrix multipli-
+cation from Huang and Abraham (1984) is as follows. Con-
+sider an n  m matrix A with elements ai, j, 1  i  n,
+1  j  m. The column checksum matrix Ac of the matrix
+A is an (n þ 1)  m matrix, whose ﬁrst n rows are identical to
+those of A and whose last row rowsum (A) consists of elements
+anþ1, j:¼
+i¼1 ai, j for 1  j  m. Matrix Ac can also be
+deﬁned as Ac:¼ [ A
+eT A ], where eT is the 1  n row vector
+(1, 1, . . . , 1). Similarly, the row checksum matrix Ar of the
+matrix A is an n  (m þ 1) matrix, whose ﬁrst m columns are
+identical to those of A and whose last column colsum (A)
+consists of elements ai, nþ1:¼
+j¼1 ai, j for 1  i  n. Matrix
+Ar can also be deﬁned as Ar :¼ [AjAe], where Ae is the column
+summation vector. Finally, a full checksum matrix Af of A is
+deﬁned to be the (n þ 1)  (m þ 1) matrix, which is the
+column checksum matrix of the row checksum matrix Ar .
+Corresponding to the matrix multiplication C:¼ A  B, the
+relation Cf :¼ Ac  Br was established by Huang and Abraham
+(1984). This result leads to their ABFT scheme for error de-
+tection in matrix multiplication, which can be described as
+follows.

@@ -1,0 +1,15 @@
+The  Cray  X-MP  and Y-MP  also  support  SSDs,  which  can  come  in  conﬁgurations  of  up  to  4096  Mbytes,
+approximately four times the capacity of the DD-49. The SSD has the potential for enormous bandwidth. It
+can be attached to the Cray IO system or directly to the CPU through up to two 1000-Mbyte/s channels. Access
+can  be  arranged  in  one  of  three  ways  [Reinhardt,  1988].  The  ﬁrst  alternative  is  to  treat  the  SSD  as  a  logical
+disk,  with  users  responsible  for  staging  heavily  accessed  ﬁles  to  it.  Unfortunately,  this  leads  to  the  inevitable
+contention  for  SSD  space.  Further,  the  operating  system’s  disk  device  drivers  are  not  tuned  for  the  special
+capabilities  of  SSDs,  and  some  performance  is  lost.  The  second  alternative  is  to  use  the  SSD  as  an  extended
+memory, in much the same manner as IBM’s extended storage. Special system calls for accessing the SSD bypass
+the usual disk-handling code, and a 4096-byte sector can be accessed in 25 ms. The last alternative is to use the
+SSD as a logical device cache, i.e., as a second-level cache for multitrack chunks of ﬁles that resides between
+the system’s in-main memory ﬁle cache and the physical disk devices. Cray engineers have observed workload
+speedups  for  their  UNIX-like  operating  system  of  a  factor  of  four  over  conventional  disk  when  the  cache  is
+enabled. These results indicate that SSDs are most appropriate for containing “hot spot” data [Gawlick, 1987].
+Conventional wisdom has it that 20% of the data receives 80% of the accesses, and this has been widely observed
+in transaction processing systems [Gawlick, 1987].

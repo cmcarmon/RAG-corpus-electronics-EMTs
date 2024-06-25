@@ -1,0 +1,137 @@
+An electrostatic force is created by applying a time-varying voltage between an electrode and an insulated ground plane. When a finger scans over an insulated plate with a time-varying voltage, the finger works as the induced ground plane. The induced static electricity creates an electric force field between the finger and the surface.
+A parallel-plate capacitor model can be used to approximate the skin–surface interface. The electrode acts as one plate, while the conductive subcutaneous layer in the skin acts as the other, thus representing a hybrid natural/artificial electrostatic actuator. The following equation approximates the electrostatic force experienced between the finger and the electrode:
+
+
+
+
+
+F
+
+e
+
+
+=
+
+
+
+
+ε
+
+0
+
+
+
+ε
+
+r
+
+
+A
+
+V
+
+2
+
+
+
+
+2
+
+d
+
+2
+
+
+
+
+
+,
+
+
+{\displaystyle F_{\text{e}}={\frac {\varepsilon _{0}\varepsilon _{r}AV^{2}}{2d^{2}}},}
+
+where
+
+
+
+
+
+ε
+
+0
+
+
+
+
+{\displaystyle \varepsilon _{0}}
+– permittivity of free space,
+
+
+
+
+
+ε
+
+r
+
+
+
+
+{\displaystyle \varepsilon _{r}}
+– dielectric constant,
+
+
+
+
+A
+
+
+{\displaystyle A}
+– area of electrodes,
+
+
+
+
+V
+
+
+{\displaystyle V}
+– voltage applied between the two plates,
+
+
+
+
+d
+
+
+{\displaystyle d}
+– distance between two plates.
+The resulting force is too small to perceive by human skin, but when the finger is moving on the surface, a frictional force appears on the moving finger, which can be expressed as
+
+
+
+
+f
+=
+μ
+
+F
+
+e
+
+
+,
+
+
+{\displaystyle f=\mu F_{\text{e}},}
+
+where
+
+
+
+μ
+
+
+{\displaystyle \mu }
+is the coefficient of friction.
+Further research has shown that this model is not sufficient to explain such skin–surface interfaces.

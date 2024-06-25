@@ -1,0 +1,9 @@
+Some might object to our statement of purpose for assembly language. While few will contest the concept
+of assembly language as the readable form of object code, some see writing assembly code as the way to “get
+their  hands  on  the  inner  workings  of  the  machine.”  They  see  it  as  a “control”  issue.  Since  most  HLLs  today
+give the user reasonably direct ways to access hardware, where does the “control” issue arise? What assembly
+proponents see as the essential reason for having an assembly language is the option to optimize the “important”
+sections of a program by doing a better job of machine code generation than the compiler does. This perspective
+was valid enough when compilers were mediocre optimizers. It was not unlike the old days when a car came
+with a complete set of tools because you needed them. The same thing that has happened to cars has happened
+to compilers. They are engineered to be “fuel efﬁcient” and perform their assigned functions with remarkable

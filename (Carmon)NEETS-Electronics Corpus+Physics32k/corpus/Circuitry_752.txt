@@ -1,0 +1,16 @@
+Unfortunately, this simple method of interfacing 
+has a limitation when the state of a switch is being 
+sensed  regularly  (e.g.  during  program  execution). 
+However, a typical application which is unaffected 
+by this problem is that of using one or more PCB 
+mounted  switches  (e.g.  a  DIL  switch  package)  to 
+configure  a  logic  system  in  one  of  a  number  of 
+preset modes. In such cases, the switches would be 
+set once only and the software would read the state 
+of  the  switches  and  use  the  values  returned  to 
+initially configure the system. Thereafter, the state 
+of  the  switches  would  then  only  be  changed  in 
+order  to  modify  the  operational  parameters  of  the 
+system (e.g. when changing input sensors or output 
+transducers).  A  typical  DIL  switch  input  interface 
+to a digital input port is shown in Fig. 16.12. 

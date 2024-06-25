@@ -1,0 +1,16 @@
+Practicing engineers frequently use models to investigate the behavior of complex systems. Traditionally, models
+have  been  physical  devices  or  a  set  of  mathematical  expressions.  The  widespread  use  of  powerful  digital
+computers now allows one to generate computer programs that model physical systems. Although the detailed
+development and use of computer models differs signiﬁcantly from their physical and mathematical counter-
+parts,  the  computer  models  share  many  of  the  same  design  constraints  and  trade-offs.  For  any  model  to  be
+useful  one  must  guarantee  that  the  response  of  the  model  to  stimuli  will  closely  match  the  response  of  the
+target system, the model must be designed and fabricated in much less time and at signiﬁcantly less expense
+than  the  target  system,  and  the  model  must  be  reasonably  easy  to  validate  and  modify.  In  addition  to  these
+constraints, designers of computer models must assure that the amount of processor time required to execute
+the model is not excessive. The optimal model is the one that appropriately balances these conﬂicting require-
+ments. Figure 78.3 describes the typical design trade-off faced when developing computer models. A somewhat
+surprising observation is that the optimal model is often not the one that most closely approximates the target
+system. A highly detailed model will typically require a tremendous amount of time to develop, will be difﬁcult
+to validate and modify, and may require prohibitive processor time to execute. Selecting a model that achieves
+a good balance between these constraints is as much an art as a science. Being aware of the trade-offs which
+exist, and must be addressed, is the ﬁrst step toward mastering the art of modeling.

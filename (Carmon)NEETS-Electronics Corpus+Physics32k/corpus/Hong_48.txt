@@ -1,0 +1,24 @@
+ 
+ 
+The  polynomial  can  be  factored  into  a  number  of  roots.  The  roots  of  the 
+denominator polynomial are known as poles, while the roots of the numerator polynomial 
+are known as zeros. 
+ 
+The frequency response of the circuit is obtained by substituting jω for s in the 
+ 
+transfer function. The time-domain response is found by implementing steps 4 and 5 of 
+the general procedure: take the Laplace transform of the input signal and then take the 
+inverse Laplace transform of the output signal. In practice, step 4 can be simplified since 
+the time-domain behavior of a circuit is almost always evaluated in response to a step or 
+ramp voltage input, for which the inverse Laplace transforms can be easily computed or 
+obtained  from  existing  tables.  Step  5  is  also  usually  simplified  since  most  transfer 
+functions  can  be  approximated  by  one  of  a  few  transfer  functions  which  have  known 
+time-domain responses to step and ramp input signals. 
+ 
+ 
+3.7 s-Domain Analysis Example 
+ 
+ 
+ 
+3.8 Simplification Techniques for Determining the Transfer Function 
+ 

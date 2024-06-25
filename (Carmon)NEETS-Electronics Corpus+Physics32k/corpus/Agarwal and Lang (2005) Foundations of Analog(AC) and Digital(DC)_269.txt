@@ -1,0 +1,11 @@
+difference between the two nodes. The potential difference between two nodes
+is the sum of the potential differences for the set of branches along any path
+between the two nodes. For a loop, the start and end nodes are one and the
+same, and there cannot be a potential difference between a node and itself.
+Thus, since potential differences equate to voltages, the sum of branch volt-
+ages along a loop must equal zero. By the same reasoning, since the voltage
+between any pair of nodes must be unique,
+it must be independent of the
+path along which branch voltages are added. Notice from the definition of a
+voltage that KVL is simply an expression of the principle of conservation of
+energy.

@@ -1,0 +1,48 @@
+In real world environments, because of deformation, granularity at least at the Planck scale, i.e. quanta-effects, and other reasons, discontinuities in acceleration do not occur. However, frequently used idealized settings (rigid bodies, smooth representations of paths, no friction, and the like) applied to an also idealized point mass moving along a piecewise smooth and as a whole continuous path, suffice for the phenomenon of a jump-discontinuity in acceleration at the points where the path is not smooth, and accordingly for an unbounded jerk in this simplified model of classical mechanics (see two examples below). Extrapolating from the idealized settings, the effect of jerk in real situations can be qualitatively described, explained and predicted.
+The jump-discontinuity in acceleration may be modeled by a Dirac delta in the jerk, scaled with the height of this jump. Integrating jerk over time generally gives the according acceleration; doing so across such a Dirac delta reconstructs exactly the jump discontinuity in the acceleration belonging to the Dirac delta in the jerk.
+Assume a path along a circular arc with radius
+
+
+
+r
+
+
+{\displaystyle r}
+, which tangentially connects to a straight line. The whole path is continuous and its pieces are smooth. Now let a point particle move with constant speed along this path, so its tangential acceleration is zero, and consider the acceleration orthogonal to the path: it is zero along the straight part and
+
+
+
+
+v
+
+2
+
+
+
+/
+
+r
+
+
+{\displaystyle v^{2}/r}
+along the circle (centripetal acceleration). This gives a jump-discontinuity in the magnitude of the acceleration by
+
+
+
+
+v
+
+2
+
+
+
+/
+
+r
+
+
+{\displaystyle v^{2}/r}
+, and the particle undergoes a jerk measured by a Dirac delta scaled with this value, for purely geometric reasons, when it passes the connection of the pieces. See below for a more concrete application.
+If we assume an idealized spring and idealized, kinetic frictional forces, proportional to the normal force and directed oppositely to the velocity, there is another example of discontinuous acceleration. Let a mass, connected to an ideal spring, oscillate on a flat, idealized surface with friction. Each time the velocity changes sign (at the maxima of displacement), the magnitude of the force on the mass, which is the vectorial sum of the spring force and the kinetic frictional force, changes by twice the magnitude of the frictional force, since the spring force is continuous and the frictional force reverses its direction when the velocity does. Therefore the acceleration jumps by this amount divided by the mass. That is, the mass experiences a discontinuous acceleration and the jerk contains a Dirac delta, each time the mass passes through the (decreasing) maximal displacements, until it comes to a halt, because the static friction force adapts to the residual spring force, establishing equilibrium with zero net force and zero velocity.
+The car example relies on the way the brakes operate on a rotating drum or on a disc. As long as the disc rotates the brake pads act to decelerate the vehicle via the kinetic frictional forces which create a constant braking torque on the disk. This decreases the rotation linearly to zero with constant angular acceleration, but when the rotation reaches exactly zero, this hitherto constant frictional force suddenly drops to zero, as well as the torque, and the associated acceleration of the car. This, of course, neglects all effects of tire sliding, dipping of suspension, real deflection of all ideally rigid mechanisms, etc. A sudden drop in acceleration indicates a Dirac delta in the physical jerk, which is smoothed down by the real environment, the cumulative effects of which are analogous to damping, to the physiologically perceived jerk.
+Another example of significant jerk, analogous to the first setting, is given by cutting the rope twirling a particle around a center. When the rope is cut, the circular path with non-zero centripetal acceleration changes abruptly to a straight path with suddenly no force in the direction to the former center. Imagine a monomolecular fiber, cut by a laser and you arrive at very high rates of jerk, because of the extremely short cutting time.

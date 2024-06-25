@@ -1,0 +1,9 @@
+Multimedia streams require some guarantees on the error
+characteristics of the communication network, and the best-
+effort Internet cannot provide such guarantees because the
+path that a packet follows from the source to the destination
+is not ﬁxed; hence, the network has no idea about the error
+characteristics of each individual segment. Thus, the sender
+application has no knowledge of the error characteristics of the
+network and may end up using an error correction/detection
+mechanism that may not be optimum.

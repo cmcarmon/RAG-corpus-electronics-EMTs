@@ -1,0 +1,7 @@
+connected to the supply voltage and two nMOS transistors in
+series connected to ground (Johnson, 1989). If the source and
+drain of one of the pMOS transistors is shorted, then it always
+conducts irrespective of its gate voltage; the output of the
+NAND gate is always connected to the supply voltage and
+thus always at logic 1. Thus, this fault can be modeled by the
+NAND gate output being stuck-at-1.

@@ -1,0 +1,5 @@
+A chosen message attack is a process that, on input, a veriﬁcation key can obtain signatures (relative to the
+corresponding signing key) to messages of its choice. Such an attack is said to succeed (in existential forgery)
+if  it  outputs  a  valid  signature  to  a  message  for  which  it  has  not  requested  a  signature  during  the  attack.  A
+signature  scheme  is  secure  (or  unforgeable)  if  every  feasible  chosen  message  attack  succeeds  with,  at  most,
+negligible probability.

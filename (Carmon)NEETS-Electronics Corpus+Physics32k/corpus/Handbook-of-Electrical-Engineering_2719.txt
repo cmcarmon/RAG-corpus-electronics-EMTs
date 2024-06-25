@@ -1,0 +1,3 @@
+The parameter T is called temperature; it is initially set to a very large value, so that the probability of accepting
+“uphill” moves is very close to 1, that it is slowly decreasing toward zero, according to a rule called the cooling
+schedule. Usually, the new reduced temperature is calculated as follows:

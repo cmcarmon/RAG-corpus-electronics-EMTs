@@ -1,0 +1,6 @@
+The Testbench
+The entity denoted testbench is the top-level entity. It contains
+the environment and the device under test. The testbench is
+self-contained and used to deﬁne the interconnections between
+the single layers. Moreover, it selects the architectures to be
+used. The code is given in the following:

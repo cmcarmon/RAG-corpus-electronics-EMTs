@@ -1,0 +1,8 @@
+The Time-Bandwidth Product
+The cardinal series requires knowledge of an inﬁnite number of samples. In practice, only a ﬁnite number of
+samples can be used. If most of the energy of a signal exists in the interval 0 £ t £ T, and we sample at the
+Nyquist rate of 2B samples per second, then a total of S = Æ2BTæ samples are taken. (Æuæ denotes the largest
+number not exceeding u.) The number S is a measure of the degrees of freedom of the signal and is referred
+to  as  its time-bandwidth product. A  5-min  single-track  audio  recording  requiring  ﬁdelity  up  to  20,000  Hz,
+for example, requires a minimum of S = 2 3 20,000 3 5 3 60 = 12 million samples. In practice, audio sampling
+is performed well above the Nyquist rate.

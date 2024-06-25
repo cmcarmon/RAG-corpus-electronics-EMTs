@@ -1,0 +1,12 @@
+Speech features are often vector-valued. An example would
+be (estimates of) the set of ﬁlter coefﬁcients {ai} associated with
+the DT model of speech in equation 3.6. As we detail in Section
+3.3.2, these coefﬁcient estimates, typically 14 in number, are the
+result of ‘‘linear prediction’’ analysis of speech. Such a set of
+features is called a parametric representation of the frame
+because it consists of values for the parameters associated with
+a predetermined model. In the present example, the set of 14
+model parameters might be complemented by an estimate of
+the system gain (H0 in equation 3.6) and a binary valued feature
+to indicate a voiced or unvoiced frame. Each frame, therefore,
+would be represented by a real vector of dimension 16.

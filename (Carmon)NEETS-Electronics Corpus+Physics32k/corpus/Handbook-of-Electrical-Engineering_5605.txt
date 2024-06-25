@@ -1,0 +1,19 @@
+Directional Comparison Blocking Scheme
+Consider the fault at F2 shown in Fig. 61.47. As discussed above, this fault will be cleared in zone 1 time by the
+step-distance relay at bus B, while the relay at bus A will clear the fault in zone 2 time. Since the relays at bus B
+can determine, with a high degree of certainty, that a fault such as F2 is indeed inside the zone of protection
+of  the  relays,  one  could  communicate  this  knowledge  to  terminal A,  which  can  then  cause  the  local  circuit
+breaker  to  trip  for  the  fault F2.  If  the  entire  relaying  and  communication  task  can  be  accomplished  quickly,
+100% of the line can be protected at high speed. One of the most commonly used methods of achieving this
+function is to use overreaching zones of protection at both terminals, and if a fault is detected to be inside this
+zone, and if the remote terminal conﬁrms that the fault is inside the zone of protection, then the local relay
+may be allowed to trip. In actual practice, the complement of this information is used to block the trip at the
+remote end. Thus, the remote end, terminal B in this case, detects faults that are outside the zone of protection
+and, for those faults, sends a signal which asks the relay at terminal A to block the tripping command. Thus,
+for a fault such as F3, the relay at A will trip, unless the communication is received from terminal B that this
+particular fault is outside the zone of protection—as indeed fault F3 happens to be. This mode, known as a
+blocking carrier, is preferred, since a loss of the carrier signal created by an internal fault, or due to causes that
+are unrelated to the fault, will not prevent the trip at the remote end. This is a highly dependable protection
+system,  and  precisely  because  of  that  it  is  somewhat  less  secure.  Nevertheless,  as  discussed  previously,  most
+power  systems  require  that  a  fault  be  removed  as  quickly  as  possible,  even  if  in  doing  so  for  a  few  faults  an
+unwarranted trip may result.

@@ -1,0 +1,9 @@
+will trigger the failure diagnosis mechanism to analyze the
+situation and further decide which control actions should be
+taken. If the failure is recognized as an expected fault by
+comparing the failure signatures with those of the existing
+post failures, the corresponding postfailure control actions
+will be selected as the current effective control commands.
+Otherwise, the developed intelligent FTC technique is initial-
+ized. Notice that the dashed line shown in Figure 8.5 indicates
+that only one action will be taken at every time instant.

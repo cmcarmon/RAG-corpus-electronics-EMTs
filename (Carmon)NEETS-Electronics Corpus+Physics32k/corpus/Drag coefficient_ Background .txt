@@ -1,0 +1,338 @@
+The drag equation
+
+
+
+
+
+F
+
+d
+
+
+
+=
+
+
+
+
+1
+2
+
+
+
+
+ρ
+
+
+u
+
+2
+
+
+
+
+c
+
+d
+
+
+
+A
+
+
+{\displaystyle F_{d}\,=\,{\tfrac {1}{2}}\,\rho \,u^{2}\,c_{d}\,A}
+
+is essentially a statement that the drag force on any object is proportional to the density of the fluid and proportional to the square of the relative flow speed between the object and the fluid.
+Cd is not a constant but varies as a function of flow speed, flow direction, object position, object size, fluid density and fluid viscosity. Speed, kinematic viscosity and a characteristic length scale of the object are incorporated into a dimensionless quantity called the Reynolds number
+
+
+
+
+R
+e
+
+
+
+{\displaystyle \scriptstyle Re}
+.
+
+
+
+
+
+C
+
+
+d
+
+
+
+
+
+
+
+{\displaystyle \scriptstyle C_{\mathrm {d} }\,}
+is thus a function of
+
+
+
+
+R
+e
+
+
+
+{\displaystyle \scriptstyle Re}
+. In a compressible flow, the speed of sound is relevant, and
+
+
+
+
+
+C
+
+
+d
+
+
+
+
+
+
+
+{\displaystyle \scriptstyle C_{\mathrm {d} }\,}
+is also a function of Mach number
+
+
+
+
+M
+a
+
+
+
+{\displaystyle \scriptstyle Ma}
+.
+For certain body shapes, the drag coefficient
+
+
+
+
+
+C
+
+
+d
+
+
+
+
+
+
+
+{\displaystyle \scriptstyle C_{\mathrm {d} }\,}
+only depends on the Reynolds number
+
+
+
+
+R
+e
+
+
+
+
+{\displaystyle \scriptstyle Re\,}
+, Mach number
+
+
+
+
+M
+a
+
+
+
+
+{\displaystyle \scriptstyle Ma\,}
+and the direction of the flow. For low Mach number
+
+
+
+
+M
+a
+
+
+
+{\displaystyle \scriptstyle Ma}
+, the drag coefficient is independent of Mach number. Also, the variation with Reynolds number
+
+
+
+
+R
+e
+
+
+
+
+{\displaystyle \scriptstyle Re\,}
+within a practical range of interest is usually small, while for cars at highway speed and aircraft at cruising speed, the incoming flow direction is also more-or-less the same. Therefore, the drag coefficient
+
+
+
+
+
+C
+
+
+d
+
+
+
+
+
+
+
+{\displaystyle \scriptstyle C_{\mathrm {d} }\,}
+can often be treated as a constant.
+For a streamlined body to achieve a low drag coefficient, the boundary layer around the body must remain attached to the surface of the body for as long as possible, causing the wake to be narrow. A high form drag results in a broad wake. The boundary layer will transition from laminar to turbulent if Reynolds number of the flow around the body is sufficiently great. Larger velocities, larger objects, and lower viscosities contribute to larger Reynolds numbers.
+
+For other objects, such as small particles, one can no longer consider that the drag coefficient
+
+
+
+
+
+C
+
+
+d
+
+
+
+
+
+
+
+{\displaystyle \scriptstyle C_{\mathrm {d} }\,}
+is constant, but certainly is a function of Reynolds number. At a low Reynolds number, the flow around the object does not transition to turbulent but remains laminar, even up to the point at which it separates from the surface of the object. At very low Reynolds numbers, without flow separation, the drag force
+
+
+
+
+
+F
+
+
+d
+
+
+
+
+
+
+
+{\displaystyle \scriptstyle F_{\mathrm {d} }\,}
+is proportional to
+
+
+
+
+v
+
+
+
+
+{\displaystyle \scriptstyle v\,}
+instead of
+
+
+
+
+
+v
+
+2
+
+
+
+
+
+
+{\displaystyle \scriptstyle v^{2}\,}
+; for a sphere this is known as Stokes law. The Reynolds number will be low for small objects, low velocities, and high viscosity fluids.
+A
+
+
+
+
+
+C
+
+
+d
+
+
+
+
+
+
+
+{\displaystyle \scriptstyle C_{\mathrm {d} }\,}
+equal to 1 would be obtained in a case where all of the fluid approaching the object is brought to rest, building up stagnation pressure over the whole front surface. The top figure shows a flat plate with the fluid coming from the right and stopping at the plate. The graph to the left of it shows equal pressure across the surface. In a real flat plate, the fluid must turn around the sides, and full stagnation pressure is found only at the center, dropping off toward the edges as in the lower figure and graph. Only considering the front side, the
+
+
+
+
+
+C
+
+
+d
+
+
+
+
+
+
+
+{\displaystyle \scriptstyle C_{\mathrm {d} }\,}
+of a real flat plate would be less than 1; except that there will be suction on the back side: a negative pressure (relative to ambient). The overall
+
+
+
+
+
+C
+
+
+d
+
+
+
+
+
+
+
+{\displaystyle \scriptstyle C_{\mathrm {d} }\,}
+of a real square flat plate perpendicular to the flow is often given as 1.17. Flow patterns and therefore
+
+
+
+
+
+C
+
+
+d
+
+
+
+
+
+
+
+{\displaystyle \scriptstyle C_{\mathrm {d} }\,}
+for some shapes can change with the Reynolds number and the roughness of the surfaces.

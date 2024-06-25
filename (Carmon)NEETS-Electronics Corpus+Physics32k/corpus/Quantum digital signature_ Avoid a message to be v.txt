@@ -1,0 +1,90 @@
+One problem which arises especially for small M is, that the number of incorrect keys different recipients measure differ with probability. So to define only one threshold is not enough, because it would cause a message to be validated differently, when the number of incorrect keys r is very close to the defined threshold.
+This can be prevented by defining more than one threshold. Because the number of errors increase proportional with M, the thresholds are defined like
+Acceptance
+
+
+
+
+T
+
+a
+
+
+=
+
+c
+
+1
+
+
+M
+
+
+{\displaystyle T_{a}=c_{1}M}
+
+Rejection
+
+
+
+
+T
+
+r
+
+
+=
+
+c
+
+2
+
+
+M
+
+
+{\displaystyle T_{r}=c_{2}M}
+
+If the number of incorrect keys r is below
+
+
+
+
+T
+
+a
+
+
+
+
+{\displaystyle T_{a}}
+, then the bit is valid with high probability
+If the number of incorrect keys r is above
+
+
+
+
+T
+
+r
+
+
+
+
+{\displaystyle T_{r}}
+, then the bit is faked with high probability
+If the number of incorrect keys r is in-between both thresholds, then the recipient cannot be sure, if another recipient gets the same outcome, when validating the bit. Furthermore, he can't be even sure, if he validated the message right.
+
+If we assume perfect channels without noise, so the bit can't be changed due to the transfer, then the threshold
+
+
+
+
+T
+
+a
+
+
+
+
+{\displaystyle T_{a}}
+can be set to zero, because the swap test passes always, when the compared states are the same

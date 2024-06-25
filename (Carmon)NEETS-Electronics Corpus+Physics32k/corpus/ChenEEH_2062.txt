@@ -1,0 +1,8 @@
+The following TPrTN models the Five Dining Philosophers
+problem, shown in Figure 9.1, in which ﬁve philosophers are
+denoted by ﬁve integer tokens 0 to 4 and ﬁve chopsticks are also
+denoted by ﬁve integer tokens 0 to 4. Places p1 and p3 stand for the
+Thinking and Eating states of philosophers, respectively. Place p2
+deﬁnes the availability of chopsticks. Transitions t1 and t2 stand
+for the actions of Pick up and Put down chopsticks, respectively.
+The algebraic deﬁnition of the net TN ¼ (NG, Sig, V , H,

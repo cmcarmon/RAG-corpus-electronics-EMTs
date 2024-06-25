@@ -1,0 +1,5 @@
+To achieve tight packing of cells within a row, adjacent cells (Fig. 25.29) are abutted against each other. Since
+metal  interconnections  are  used  within  cells  (and  most  basic  cells  are  reused  throughout  the  design),  it  is
+generally  not  possible  to  route  intercell  metal  interconnections  over  cells.  This  constraint  can  be  relaxed,  as
+shown in Fig. 25.30(b), when additional metal layers are available, restricting a subset of the layers for intracell
+use and allowing over-the-cell routing [Sherwani et al., 1995] with the other layers.

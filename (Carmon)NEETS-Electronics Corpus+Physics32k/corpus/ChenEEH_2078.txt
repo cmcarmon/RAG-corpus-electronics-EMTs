@@ -1,0 +1,6 @@
+(3) Schema composition: Let Old1 and Old2 be two
+schemas; a new schema of the form New ^¼¼ Old1;
+Old2 can be deﬁned and has the following meaning:
+. The signature of New is the inputs and outputs of
+both Old1 and Old2, together with the nondashed
+variables in Old1 and dashed variables of Old2;

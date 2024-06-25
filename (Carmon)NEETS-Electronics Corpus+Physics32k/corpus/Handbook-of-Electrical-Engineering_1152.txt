@@ -1,0 +1,12 @@
+Finite Wordlength Effects in IIR Filters
+Since  practical  digital  ﬁlters  must  be  implemented  with  limited-precision  arithmetic,  four  types  of  ﬁnite
+wordlength effects result: (1) roundoff noise, (2) coefﬁcient quantization error, (3) overﬂow oscillations, and
+(4) limit cycles. Round-off noise is that error in the ﬁlter output which results from rounding (or truncating)
+calculations within the ﬁlter. This error appears as low-level noise at the ﬁlter output. Coefﬁcient quantization
+error refers to the deviation of a practical ﬁlter’s frequency response from the ideal due to the ﬁlter’s coefﬁcients
+being  represented  with  ﬁnite  precision.  The  term  overﬂow  oscillation,  sometimes  also  referred  to  as  adder
+overﬂow  limit  cycle,  refers  to  a  high-level  oscillation  that  can  exist  in  an  otherwise  stable  ﬁlter  due  to  the
+nonlinearity associated with the overﬂow of internal ﬁlter calculations. A limit cycle, sometimes referred to as
+a multiplier round-off limit cycle, is a low-level oscillation that can exist in an otherwise stable ﬁlter as a result
+of the nonlinearity associated with rounding (or truncating) internal ﬁlter calculations. Overﬂow oscillations
+and limit cycles require recursion to exist and do not occur in nonrecursive FIR ﬁlters.

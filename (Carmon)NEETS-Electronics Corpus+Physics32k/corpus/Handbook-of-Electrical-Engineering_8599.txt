@@ -1,0 +1,9 @@
+The space for holding data and working on it in the CPU is the register set. Registers are a very important
+resource. Bringing data in from memory is quite separate from any operations on that data. Data in memory
+must ﬁrst be fetched, then acted upon. Data in registers can be acted on immediately. Thus, the availability of
+registers  to  store  very  active  variables  and  intermediate  results  makes  a  processor  inherently  faster.  In  some
+machines,  most  or  all  of  the  registers  are  tied  to  speciﬁc  uses.  The  most  prevalent  example  would  be  Intel’s
+80x86  processors,  which  power  the  ubiquitous  PC.  Such  architectures,  however,  are  considered  quite  old-
+fashioned. All of the machines that we are considering are of a type called general register machines in that they
+have a large group of registers which may be used for any purpose. The machines that we include have either
+16 or 32 registers, with only a few tied to speciﬁc machine operations.

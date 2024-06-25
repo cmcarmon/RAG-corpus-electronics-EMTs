@@ -1,0 +1,9 @@
+The VVD method deals with viscous incompressible fluid. The viscosity and density of fluid is considered to be constant. Method can be extended for simulation of heat conductive fluid flows (viscous vortex-heat domains method)
+The main features are:
+Direct solving Navier-Stokes equations (DNS)
+Calculation of the friction force at the body surfaces
+Proper description of the boundary layers (even turbulent)
+Infinite computation region
+Convenient simulation of deforming boundaries
+Investigation of the flow-structure interaction, even in case of zero mass
+Estimated numerical diffusion and stability criteria

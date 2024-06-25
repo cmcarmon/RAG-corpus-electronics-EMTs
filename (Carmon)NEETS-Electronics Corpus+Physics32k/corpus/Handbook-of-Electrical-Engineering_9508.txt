@@ -1,0 +1,11 @@
+Because only parent-child relationships are allowed, the hierarchical model cannot efﬁciently represent two
+main types of relationships: many-to-many relationships and the case where a record type is a child in more
+than  one  hierarchical  schema.  These  two  restrictions  can  be  handled  by  allowing  redundant  record  instances.
+However, such a duplication requires that all the copies of the same record should be kept consistent at all times.
+The example of Fig. 94.8 shows a hierarchical schema. The schema gives the relationship between a DEPART-
+MENT, its employees (D_EMPLOYEE), the projects (D_PROJECT) handled by the different departments, and
+how employees are assigned to these projects. It is assumed that an employee belongs to only one department,
+a project is handled by only one department, and an employee can be assigned to several projects. Notice that
+since a project has several employees assigned to it, and an employee can be assigned to more than one project,
+the relationship between D_PROJECT and D_EMPLOYEE is many-to-many. To model this relationship mul-
+tiple instances of the same record type D-EMPLOYEE may appear under different projects.

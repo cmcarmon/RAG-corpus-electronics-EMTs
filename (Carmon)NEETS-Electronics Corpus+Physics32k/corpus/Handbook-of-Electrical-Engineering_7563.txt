@@ -1,0 +1,5 @@
+Now let either or both of the inputs be dropped to 0.2 V. T1 is then biased to saturation in the normal mode,
+so the collector current of T1 extracts the charge from the base region of T2. With T2 cut off, the base of T4 is
+at 0 V and T4 is cut off. T3 will be biased by the current through the 1.6-kW resistor (R3) to a degree regulated
+by the current demand at the output C. The drop across R3 is quite small for light loads, so the output level at
+C will be VCC – VBE3 – VD3, which will be about 3.5 V corresponding to the logical 1.

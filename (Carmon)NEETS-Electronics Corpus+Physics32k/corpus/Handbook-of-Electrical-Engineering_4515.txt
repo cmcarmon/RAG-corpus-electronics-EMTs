@@ -1,0 +1,8 @@
+Integral Equation Model
+The  basic  starting  point  for  developing  an  IE  model  in  electromagnetics  is  selection  of  a  Green’s  function
+appropriate  for  the  problem  class  of  interest.  While  there  are  a  variety  of  Green’s  functions  from  which  to
+choose,  a  typical  starting  point  for  most  IE  MoM  models  is  that  for  an  inﬁnite  medium.  One  of  the  more
+straightforward is based on the scalar Green’s function and Green’s theorem. This leads to the Kirchhoff integrals
+.], from which the ﬁelds in a given contiguous volume of space can be written in
+[Stratton, 1941, p. 464 
+terms of integrals over the surfaces that bound it and volume integrals over those sources located within it.

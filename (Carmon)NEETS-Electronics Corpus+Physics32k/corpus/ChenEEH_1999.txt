@@ -1,0 +1,6 @@
+In a RISC processor, a write into a register may be performed
+every clock cycle. Incremental checkpointing is performed for
+the register ﬁle by using a delayed-write buffer (DWB) to store
+the written register values for up to N clock cycles to realize a
+rollback range of N. Figure 8.16 shows the DWB structure for
+supporting microrollback in the register ﬁle.

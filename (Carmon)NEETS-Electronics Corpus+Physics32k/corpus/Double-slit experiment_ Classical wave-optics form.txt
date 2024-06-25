@@ -1,0 +1,176 @@
+Much of the behaviour of light can be modelled using classical wave theory. The Huygens–Fresnel principle is one such model; it states that each point on a wavefront generates a secondary wavelet, and that the disturbance at any subsequent point can be found by summing the contributions of the individual wavelets at that point. This summation needs to take into account the phase as well as the amplitude of the individual wavelets. It should be noted that only the intensity of a light field can be measured—this is proportional to the square of the amplitude.
+In the double-slit experiment, the two slits are illuminated by a single laser beam. If the width of the slits is small enough (less than the wavelength of the laser light), the slits diffract the light into cylindrical waves. These two cylindrical wavefronts are superimposed, and the amplitude, and therefore the intensity, at any point in the combined wavefronts depends on both the magnitude and the phase of the two wavefronts. The difference in phase between the two waves is determined by the difference in the distance travelled by the two waves.
+If the viewing distance is large compared with the separation of the slits (the far field), the phase difference can be found using the geometry shown in the figure below right. The path difference between two waves travelling at an angle θ is given by:
+
+
+
+
+d
+sin
+⁡
+θ
+≈
+d
+θ
+
+
+{\displaystyle d\sin \theta \approx d\theta }
+
+Where d is the distance between the two slits. When the two waves are in phase, i.e. the path difference is equal to an integral number of wavelengths, the summed amplitude, and therefore the summed intensity is maximum, and when they are in anti-phase, i.e. the path difference is equal to half a wavelength, one and a half wavelengths, etc., then the two waves cancel and the summed intensity is zero. This effect is known as interference. The interference fringe maxima occur at angles
+
+
+
+
+
+d
+
+θ
+
+n
+
+
+=
+n
+λ
+,
+
+n
+=
+0
+,
+1
+,
+2
+,
+…
+
+
+{\displaystyle ~d\theta _{n}=n\lambda ,~n=0,1,2,\ldots }
+
+where λ is the wavelength of the light. The angular spacing of the fringes, θf, is given by
+
+
+
+
+
+θ
+
+f
+
+
+≈
+λ
+
+/
+
+d
+
+
+{\displaystyle \theta _{f}\approx \lambda /d}
+
+The spacing of the fringes at a distance z from the slits is given by
+
+
+
+
+
+w
+=
+z
+
+θ
+
+f
+
+
+=
+z
+λ
+
+/
+
+d
+
+
+{\displaystyle ~w=z\theta _{f}=z\lambda /d}
+
+For example, if two slits are separated by 0.5 mm (d), and are illuminated with a 0.6μm wavelength laser (λ), then at a distance of 1m (z), the spacing of the fringes will be 1.2 mm.
+If the width of the slits b is greater than the wavelength, the Fraunhofer diffraction equation gives the intensity of the diffracted light as:
+
+
+
+
+
+
+
+
+I
+(
+θ
+)
+
+
+
+∝
+
+cos
+
+2
+
+
+⁡
+
+[
+
+
+
+π
+d
+sin
+⁡
+θ
+
+λ
+
+
+]
+
+
+
+
+s
+i
+n
+c
+
+
+2
+
+
+
+[
+
+
+
+π
+b
+sin
+⁡
+θ
+
+λ
+
+
+]
+
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}I(\theta )&\propto \cos ^{2}\left[{\frac {\pi d\sin \theta }{\lambda }}\right]~\mathrm {sinc} ^{2}\left[{\frac {\pi b\sin \theta }{\lambda }}\right]\end{aligned}}}
+
+Where the sinc function is defined as sinc(x) = sin(x)/(x) for x ≠ 0, and sinc(0) = 1.
+This is illustrated in the figure above, where the first pattern is the diffraction pattern of a single slit, given by the sinc function in this equation, and the second figure shows the combined intensity of the light diffracted from the two slits, where the cos function represent the fine structure, and the coarser structure represents diffraction by the individual slits as described by the sinc function.
+Similar calculations for the near field can be done using the Fresnel diffraction equation. As the plane of observation gets closer to the plane in which the slits are located, the diffraction patterns associated with each slit decrease in size, so that the area in which interference occurs is reduced, and may vanish altogether when there is no overlap in the two diffracted patterns.

@@ -1,0 +1,9 @@
+Intuitively, we can also obtain the same current gain result in two short steps as follows:
+First, notice that the current ic is simply itest amplified by a factor β. Second, the fraction
+of the amplified current βitest that flows into ROUT is given by the current-divider relation
+from Equation 2.84 as the ratio of the opposite resistor RL divided by the sum of the
+two resistors (RL + ROUT).
+Next, the incremental power gain is defined as the ratio of the power supplied into the
+output resistor (voiout) and the power supplied by the input source (vtestitest), for a given
+external load resistance. As suggested by Equation 8.38, the power gain is equivalent to
+the product of the current gain and the voltage gain for the BJT amplifier.

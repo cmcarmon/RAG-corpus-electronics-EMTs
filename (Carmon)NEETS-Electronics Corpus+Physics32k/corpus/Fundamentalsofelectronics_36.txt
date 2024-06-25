@@ -1,0 +1,9 @@
+Now suppose we have a sequence of parameters to send. We have exploited all of the sinusoid’s two
+parameters. What we can do is modulate them for a limited time (say T seconds), and send two parameters
+every T . This simple notion corresponds to how a modem works. Here, typed characters are encoded into
+eight bits, and the individual bits are encoded into a sinusoid’s amplitude and frequency. We’ll learn how
+this is done in subsequent modules, and more importantly, we’ll learn what the limits are on such digital
+communication schemes.
+1.5 Introduction Problems9
+Problem 1.1: RMS Values
+The rms (root-mean-square) value of a periodic signal is deﬁned to be

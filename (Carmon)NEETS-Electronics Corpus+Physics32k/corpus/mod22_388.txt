@@ -1,0 +1,7 @@
+Whether a computer addresses a group of bytes as a word or addresses each byte individually is a 
+function of the circuitry. Both designs have advantages and disadvantages. Variable-word-length 
+computers make the most efficient use of available storage space, since a character can be placed in every 
+storage location. In a fixed-word-length computer, storage space may be wasted. For example, if the 
+storage capacity in each address of a fixed-word-length computer is eight bytes, and some of the data 
+elements to be stored contain only three or four characters, then many of the storage positions in each 
+word are not being used. 

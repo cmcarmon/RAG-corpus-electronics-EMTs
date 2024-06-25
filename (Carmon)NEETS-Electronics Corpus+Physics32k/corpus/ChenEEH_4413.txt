@@ -1,0 +1,7 @@
+useful for robustness analysis. In Figure 3.3, ~DD(s) is the block
+diagonal matrix of all the normalized uncertainty blocks
+(k~DD(s)k1  1), and Po(s) is the augmented nominal plant,
+including the uncertainty frequency weights. P0(s) is assumed
+to be stabilized by K (s). Using a lower LFT, the bottom loop in
+Figure 3.3 can be closed resulting in Figure 3.4, where M(s) is
+proper and stable. If M(s) is partitioned corresponding to

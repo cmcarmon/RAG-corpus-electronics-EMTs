@@ -1,0 +1,5 @@
+In Table 5.1 the last row with numbers 00000010 (including
+the parity bit) is the BCC. The scheme will not work if there
+are an even number of bits changed horizontally and/or verti-
+cally. Even the BCC will be different, but all is correct for the
+odd parity checking.

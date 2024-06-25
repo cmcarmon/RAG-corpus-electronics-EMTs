@@ -1,0 +1,6 @@
+to approximate the integral. Other kinds of polynomials and function sampling can be used, as discussed in a
+large volume of literature, some examples of which are Abramowitz and Stegun [1964], Acton [1970], and Press
+et al. [1986]. It is interesting to see that numerical differentiation and integration can be accomplished using
+the same set of function samples and spacings, differing only in the signs and values of some of the associated
+weights. Note also that the added degrees of freedom that arise when the function samples can be unevenly
+spaced, as in Gaussian quadrature, produce a generally more accurate result (for well-behaved functions) for

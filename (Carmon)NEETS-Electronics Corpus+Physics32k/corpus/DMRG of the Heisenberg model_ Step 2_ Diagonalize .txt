@@ -1,0 +1,73 @@
+At this point you must choose the eigenstate of the Hamiltonian for which some observables is calculated, this is the target state . At the beginning you can choose the ground state and use some advanced algorithm to find it, one of these is described in:
+The Iterative Calculation of a Few of the Lowest Eigenvalues and Corresponding Eigenvectors of Large Real-Symmetric Matrices, Ernest R. Davidson; Journal of Computational Physics 17, 87-94 (1975)
+This step is the most time-consuming part of the algorithm.
+If
+
+
+
+
+|
+
+Ψ
+⟩
+=
+∑
+
+Ψ
+
+i
+,
+j
+,
+k
+,
+w
+
+
+
+|
+
+
+u
+
+i
+
+
+,
+
+t
+
+j
+
+
+,
+
+s
+
+k
+
+
+,
+
+r
+
+w
+
+
+⟩
+
+
+{\displaystyle |\Psi \rangle =\sum \Psi _{i,j,k,w}|u_{i},t_{j},s_{k},r_{w}\rangle }
+is the target state, expectation value of various operators can be measured at this point using
+
+
+
+
+|
+
+Ψ
+⟩
+
+
+{\displaystyle |\Psi \rangle }
+.

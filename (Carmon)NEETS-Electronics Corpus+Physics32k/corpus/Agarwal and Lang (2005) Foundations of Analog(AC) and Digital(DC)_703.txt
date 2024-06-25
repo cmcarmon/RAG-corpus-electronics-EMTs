@@ -1,0 +1,7 @@
+There is one problem, however. What does the receiver do if it sees a
+voltage level of 2.5 V on the wire? Does it interpret this signal value as a logical
+0 or as a logical 1? To eliminate such confusion, we further prescribe a forbidden
+region that separates the two valid regions. We further allow the behavior of
+the receiving device to be undefined if it sees a voltage in the forbidden region.
+Thus, the correspondence between voltage levels and logic signals from the
+viewpoint of a receiver might look like:

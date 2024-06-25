@@ -1,0 +1,6 @@
+If one adds an extra layer (i.e., two hidden layers), the learning machine now can combine at will bumps,
+, since there is evidence that any function can be approximated
+which can be interpreted as a 
+by  localized  bumps.  One  important  aspect  to  remember  is  that  changing  a  single  weight  in  the  MLP  can
+drastically change the location of the separation surfaces; i.e., the MLP achieves the input/output map through
+the interplay of all its weights.

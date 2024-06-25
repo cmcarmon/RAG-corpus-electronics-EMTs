@@ -1,0 +1,9 @@
+If the solution domain is a surface, it can be divided into small
+triangular cells. In some special cases, a surface can also be
+divided into small rectangular cells. Triangular cells, however,
+are more ﬂexible and accurate when representing an arbitrary
+surface. As in the case for one-dimensional segments, we can
+have the zeroth-order (pulse) basis function, which is a con-
+stant on one cell and zero elsewhere, and the ﬁrst-order
+(linear) basis function, which is one at a node and decreases
+linearly to zero at the neighboring nodes (Figure 8.5).

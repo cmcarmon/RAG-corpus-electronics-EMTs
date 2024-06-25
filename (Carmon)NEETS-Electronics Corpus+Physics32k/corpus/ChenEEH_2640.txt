@@ -1,0 +1,14 @@
+Equation 8.2 typiﬁes an integral equation in electromag-
+netics. Integral equations can also be derived for dielectric
+and metallic bodies for electrostatics and electrodynamics.
+These integral equations are generally solved using the
+moment method. Notice that the function s(r0) in equation
+8.2 has inﬁnite degrees of freedom. Such inﬁnite degrees of
+freedom cannot be handled by a computer. We say that s(r0) is
+a function representing a vector in an inﬁnite dimensional
+space. To make equation 8.2 solvable by a computer, we ap-
+proximate its solution in a ﬁnite dimension subspace using the
+moment method.
+To illustrate this procedure, we choose a set of functions
+called basis functions that can be used to approximate s(r0).
+For example, we let:

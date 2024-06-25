@@ -1,0 +1,7 @@
+This process of generating new partitions and keeping track of the best encountered partition is repeated until
+no free cells are left. At this point of the process, which is called a pass, the algorithm returns the best partition
+and terminates. To obtain better partitions, the algorithm can be modiﬁed such that more passes occur. This
+can easily be done by selecting the best partition of a pass as the initial partition of the next pass. In this partition,
+however, all cells are free. The modiﬁed algorithm terminates whenever a new pass returns a partition that is no
+better than the partition returned by the previous pass. This way, the number of passes generated will never be
+more than the number of the interconnections in the circuit and the algorithm always terminates.

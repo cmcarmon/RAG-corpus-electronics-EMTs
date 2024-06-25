@@ -1,0 +1,6 @@
+• There  is  overhead  in  using  HLL  conventions,  some  of  which  can  be  eliminated  by  directly  coding  in
+assembly language. A typical embedded processor does not need the full span of HLL conventions and
+support,  such  as  parameter  passing  or  memory  and  stack  allocation.  One  can  get  away  with  such
+dangerous things as global variables which do not have to be passed at all. By eliminating these conven-
+tions,  increased  performance  is  obtained.  It  should  be  pointed  out  that  code  written  without  such
+standard conventions is likely to be very peculiar, bug-prone, and hard to maintain.

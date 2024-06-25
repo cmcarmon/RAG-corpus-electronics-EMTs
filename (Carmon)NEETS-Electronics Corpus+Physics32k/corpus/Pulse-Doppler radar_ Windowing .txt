@@ -1,0 +1,4 @@
+Ringing artifacts pose a problem with search, detection, and ambiguity resolution in pulse-Doppler radar.
+Ringing is reduced in two ways.
+First, the shape of the transmit pulse is adjusted to smooth the leading edge and trailing edge so that RF power is increased and decreased without an abrupt change. This creates a transmit pulse with smooth ends instead of a square wave, which reduces ringing phenomenon that is otherwise associated with target reflection.
+Second, the shape of the receive pulse is adjusted using a window function that minimizes ringing that occurs any time pulses are applied to a filter. In a digital system, this adjusts the phase and/or amplitude of each sample before it is applied to the fast Fourier transform. The Dolph-Chebyshev window is the most effective because it produces a flat processing floor with no ringing that would otherwise cause false alarms.

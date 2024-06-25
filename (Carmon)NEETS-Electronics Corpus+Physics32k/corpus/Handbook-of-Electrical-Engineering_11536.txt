@@ -1,0 +1,8 @@
+The FDTD method solves Maxwell’s differential equations at each cell edge at discrete time steps. Since no
+matrix solution is involved, electrically large geometries can be analyzed. FDTD solutions for three dimensional
+complex biological geometries involving millions of cells have become routine. FDTD may be used for both
+open region calculations, such as a human body in free space, or closed regions, such as within a TEM cell.
+Commercial FDTD software is available from several sources (CST, EMA, and Remcom), with some of these
+also offering FDTD meshes for human heads and bodies. These commercial packages provide a graphical user
+interface for viewing the FDTD mesh. Some provide interactive mesh editing (Remcom), while others allow
+for import of objects from CAD programs (CST and EMA).

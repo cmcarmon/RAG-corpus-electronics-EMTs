@@ -1,0 +1,12 @@
+. When the short signature is formed, a
+loss of information occurs, and it can be the case that a faulty circuit produces the same signature of a fault-
+free  circuit,  thus  remaining  undetected.  The  design  method  for  data  compaction  aims  at  minimizing  the
+probability of aliasing. Using the compactors explained below, the probability of aliasing has been theoretically
+k
+ is the length of the compactor (and thus the length of the signature). It is important
+proven to be 2
+to note that (1) the result is asymptotically independent of the size and complexity of the circuit under test;
+ and thus quite acceptable; and (3) the empirical
+(2) for 
+results show that in practice this method is even more effective. Most of all, this is the chosen methodology
+when BIST is required for its effectiveness, speed, and small area overhead.

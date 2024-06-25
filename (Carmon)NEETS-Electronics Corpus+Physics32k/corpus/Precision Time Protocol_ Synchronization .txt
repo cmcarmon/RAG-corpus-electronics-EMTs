@@ -1,0 +1,413 @@
+Through use of the BMC algorithm, PTP selects a master source of time for an IEEE 1588 domain and for each network segment in the domain.
+Clocks determine the offset between themselves and their master. Let the variable
+
+
+
+t
+
+
+{\displaystyle t}
+represent physical time. For a given slave device, the offset
+
+
+
+o
+(
+t
+)
+
+
+{\displaystyle o(t)}
+at time
+
+
+
+t
+
+
+{\displaystyle t}
+is defined by:
+
+
+
+
+
+o
+(
+t
+)
+=
+s
+(
+t
+)
+−
+m
+(
+t
+)
+
+
+{\displaystyle \ o(t)=s(t)-m(t)}
+
+where
+
+
+
+s
+(
+t
+)
+
+
+{\displaystyle s(t)}
+represents the time measured by the slave clock at physical time
+
+
+
+t
+
+
+{\displaystyle t}
+, and
+
+
+
+m
+(
+t
+)
+
+
+{\displaystyle m(t)}
+represents the time measured by the master clock at physical time
+
+
+
+t
+
+
+{\displaystyle t}
+.
+The master periodically broadcasts the current time as a message to the other clocks. Under IEEE 1588-2002 broadcasts are up to once per second. Under IEEE 1588-2008, up to 10 per second are permitted.
+
+Each broadcast begins at time
+
+
+
+
+T
+
+1
+
+
+
+
+{\displaystyle T_{1}}
+with a Sync message sent by the master to all the clocks in the domain. A clock receiving this message takes note of the local time
+
+
+
+
+T
+
+1
+
+′
+
+
+
+{\displaystyle T_{1}'}
+when this message is received.
+The master may subsequently send a multicast Follow_Up with accurate
+
+
+
+
+T
+
+1
+
+
+
+
+{\displaystyle T_{1}}
+timestamp. Not all masters have the ability to present an accurate timestamp in the Sync message. It is only after the transmission is complete that they are able to retrieve an accurate timestamp for the Sync transmission from their network hardware. Masters with this limitation use the Follow_Up message to convey
+
+
+
+
+T
+
+1
+
+
+
+
+{\displaystyle T_{1}}
+. Masters with PTP capabilities built into their network hardware are able to present an accurate timestamp in the Sync message and do not need to send Follow_Up messages.
+In order to accurately synchronize to their master, clocks must individually determine the network transit time of the Sync messages. The transit time is determined indirectly by measuring round-trip time from each clock to its master. The clocks initiate an exchange with their master designed to measure the transit time
+
+
+
+d
+
+
+{\displaystyle d}
+. The exchange begins with a clock sending a Delay_Req message at time
+
+
+
+
+T
+
+2
+
+
+
+
+{\displaystyle T_{2}}
+to the master. The master receives and timestamps the Delay_Req at time
+
+
+
+
+T
+
+2
+
+′
+
+
+
+{\displaystyle T_{2}'}
+and responds with a Delay_Resp message. The master includes the timestamp
+
+
+
+
+T
+
+2
+
+′
+
+
+
+{\displaystyle T_{2}'}
+in the Delay_Resp message.
+Through these exchanges a clock learns
+
+
+
+
+T
+
+1
+
+
+
+
+{\displaystyle T_{1}}
+,
+
+
+
+
+T
+
+1
+
+′
+
+
+
+{\displaystyle T_{1}'}
+,
+
+
+
+
+T
+
+2
+
+
+
+
+{\displaystyle T_{2}}
+and
+
+
+
+
+T
+
+2
+
+′
+
+
+
+{\displaystyle T_{2}'}
+.
+If
+
+
+
+d
+
+
+{\displaystyle d}
+is the transit time for the Sync message, and
+
+
+
+
+
+
+o
+~
+
+
+
+
+
+{\displaystyle {\tilde {o}}}
+is the constant offset between master and slave clocks, then
+
+
+
+
+
+
+T
+
+1
+
+′
+
+−
+
+T
+
+1
+
+
+=
+
+
+
+o
+~
+
+
+
++
+d
+
+and
+
+
+
+T
+
+2
+
+′
+
+−
+
+T
+
+2
+
+
+=
+−
+
+
+
+o
+~
+
+
+
++
+d
+
+
+{\displaystyle \ T_{1}'-T_{1}={\tilde {o}}+d{\text{ and }}\ T_{2}'-T_{2}=-{\tilde {o}}+d}
+
+Combining the above two equations, we find that
+
+
+
+
+
+
+
+o
+~
+
+
+
+=
+
+
+1
+2
+
+
+(
+
+T
+
+1
+
+′
+
+−
+
+T
+
+1
+
+
+−
+
+T
+
+2
+
+′
+
++
+
+T
+
+2
+
+
+)
+
+
+{\displaystyle {\tilde {o}}={\frac {1}{2}}(T_{1}'-T_{1}-T_{2}'+T_{2})}
+
+The clock now knows the offset
+
+
+
+
+
+
+o
+~
+
+
+
+
+
+{\displaystyle {\tilde {o}}}
+during this transaction and can correct itself by this amount to bring it into agreement with their master.
+One assumption is that this exchange of messages happens over a period of time so small that this offset can safely be considered constant over that period. Another assumption is that the transit time of a message going from the master to a slave is equal to the transit time of a message going from the slave to the master. Finally, it is assumed that both the master and slave can accurately measure the time they send or receive a message. The degree to which these assumptions hold true determines the accuracy of the clock at the slave device.

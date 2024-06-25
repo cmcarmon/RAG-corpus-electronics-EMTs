@@ -1,0 +1,6 @@
+To simulate circuits on computer, I make use of a particular program called SPICE, which
+works by describing a circuit to the computer by means of a listing of text. In essence, this
+listing is a kind of computer program in itself, and must adhere to the syntactical rules of
+the SPICE language. The computer is then used to process, or ”run,” the SPICE program,
+which interprets the text listing describing the circuit and outputs the results of its detailed
+mathematical analysis, also in text form. Many details of using SPICE are described in volume

@@ -1,0 +1,14 @@
+On DISC 25% to 71% of the execution time is spent recon-
+ﬁguring. Hauck et al. (1999) have studied techniques for
+reducing reconﬁguration time on the Xilinx 6200 by compress-
+ing the conﬁguration data stream. They have been able to
+reduce reconﬁguration time 4-fold by using a device speciﬁc
+feature called wildcarding. The approach by Shirazi et al.
+(2000) also takes advantage of wildcarding, and they provide
+an example in which reconﬁguration time has been reduced
+from linear time with respect to size of the component to
+constant time at best and logarithmic time at worst. More
+recently, Li and Hauck (2001) described a method for com-
+pressing conﬁguration data for Xilinx Virtex FPGAs that
+exploits the regularity of the frame-based format of conﬁgu-
+ration data.

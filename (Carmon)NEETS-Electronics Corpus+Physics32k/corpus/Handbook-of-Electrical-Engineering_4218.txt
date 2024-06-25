@@ -1,0 +1,5 @@
+The  signal  processor  is  often  optimized  to  perform  the  repetitive  complex  multiply-and-add  operations
+pulse compression
+associated with the fast Fourier transform (FFT). FFT processing is used for implementing 
+via  fast  convolution  and  for  Doppler  ﬁltering.  Fast  convolution  consists  of  taking  the  FFT  of  the  digitized
+receiver output, multiplying it by the stored FFT of the desired ﬁlter function, and then taking the inverse FFT

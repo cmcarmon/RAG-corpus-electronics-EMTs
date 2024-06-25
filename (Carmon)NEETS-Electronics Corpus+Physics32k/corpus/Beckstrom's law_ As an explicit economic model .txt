@@ -1,0 +1,130 @@
+The net present value V of any network j to any individual i is equal to the sum of the net present value of the benefit of all transactions less the net present value of the costs of all transactions on the network over any given period of time t, as shown in the following equation. The value of the entire network is the summary of the value to all users, who are defined as all parties doing transactions on that network.
+
+
+
+
+
+∑
+
+i
+=
+1
+
+
+n
+
+
+
+V
+
+i
+,
+j
+
+
+=
+
+∑
+
+i
+=
+1
+
+
+n
+
+
+
+∑
+
+k
+=
+1
+
+
+m
+
+
+
+
+
+
+B
+
+i
+,
+j
+,
+k
+
+
+−
+
+C
+
+i
+,
+j
+,
+k
+
+
+
+
+(
+1
++
+
+r
+
+k
+
+
+
+)
+
+
+t
+
+k
+
+
+
+
+
+
+
+
+
+{\displaystyle \sum _{i=1}^{n}V_{i,j}=\sum _{i=1}^{n}\sum _{k=1}^{m}{\frac {B_{i,j,k}-C_{i,j,k}}{(1+r_{k})^{t_{k}}}}}
+
+where:
+
+
+
+
+∑
+
+
+V
+
+i
+,
+j
+
+
+
+
+
+{\displaystyle \sum {V_{i,j}}}
+= value of a network j to all users
+Vi,j = net present value of all transactions to user i with respect to network j, over any time period
+i = identifies one user of the network
+j = identifies one network
+k = identifies one transaction
+Bi,j,k = the benefit value of transaction k to individual i with respect to network j
+Ci,j,k = the cost of transaction k to individual i with respect to network j
+rk = the discount rate of interest to the time of transaction k
+tk = the elapsed time in years to transaction k
+n = number of individuals
+m = number of transactions

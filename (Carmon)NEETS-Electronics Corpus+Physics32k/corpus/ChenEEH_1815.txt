@@ -1,0 +1,10 @@
+The network ensures that adequate bandwidth and packet
+processing resources are available to handle the requested level
+of trafﬁc. The controlled load service does not make use of
+speciﬁc target values for delay or loss. Acceptance of a con-
+trolled-load request is merely a commitment to provide the
+ﬂow with a service closely equivalent to that provided to
+uncontrolled trafﬁc under lightly loaded conditions. Over all
+timescales signiﬁcantly larger than the burst time, a controlled
+load service ﬂow may experience little or no average packet
+queuing delay and little or no congestion loss.

@@ -1,0 +1,13 @@
+Dc converters for HVdc links and rectiﬁer loads have received much attention. The converter controls are
+very fast acting and therefore a quasi steady state (QSS) model can be considered accurate. That is, the model
+of the converter terminals contains no dynamic equations and in effect the link behaves as if it was in steady
+state for every time solution of the ac system. While this may be so some time after a fault has been removed,
+during and just after a fault the converters may well suffer from commutation failure or ﬁre through. These
+events cannot be predicted or modeled with a QSS model. In this case, an appropriate method of analysis is
+to combine a state variable model of the converter, which can model the ﬁring of the individual valves, with a
+conventional multi-machine transient stability program containing a QSS model. During the period of maxi-
+mum disturbance, the two models can operate together. Information about the overall system response is passed
+to the state variable model at regular intervals. Similarly the results from the detailed converter model are passed
+to the multi machine model overriding its own QSS model. As the disturbance reduces, the results from the
+two different converter models converge and it is then only necessary to run the computationally inexpensive
+QSS model within the multi machine transient stability program.

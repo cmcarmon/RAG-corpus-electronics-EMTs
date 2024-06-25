@@ -1,0 +1,14 @@
+In an effort to cut back on the huge amount of data available
+for processing and to emphasize the fact that in video shots,
+while objects may appear or disappear, the background stays
+much the same and follows the camera motion in one shot, Oh
+et al. (2000) have proposed a background tracking (BGT)
+approach. A strip along the top, left, and right borders of the
+frame, covering around 20% of frame area, is taken as a ﬁxed
+background area (FBA). A signature 1-D vector called trans-
+formed background area (TBA) formed from the Gaussian
+pyramid representation of the FBA is computed. Background
+tracking is achieved by a 1-D correlation matching between
+two TBAs obtained from successive frames. Shot detection is
+declared if the background tracking fails as characterized by a
+decrease in the correlation matching parameter. This approach

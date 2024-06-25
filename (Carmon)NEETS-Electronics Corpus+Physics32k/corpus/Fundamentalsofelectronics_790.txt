@@ -1,0 +1,6 @@
+An example, which is somewhat out of date, is the wireline telephone system. You don’t use baseband
+communication in wireless systems simply because low-frequency signals do not radiate well. The receiver in
+a baseband system can’t do much more than ﬁlter the received signal to remove out-of-band noise (interference
+is small in wireline channels). Assuming the signal occupies a bandwidth of W Hz (the signal’s spectrum
+extends from zero to W ), the receiver applies a lowpass ﬁlter having the same bandwidth, as shown in
+Figure 6.5.

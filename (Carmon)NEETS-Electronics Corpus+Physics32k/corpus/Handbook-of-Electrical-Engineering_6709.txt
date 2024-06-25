@@ -1,0 +1,7 @@
+Another recent innovation is the ATM, usually associated with B-ISDN. The idea of ATM is to partition a
+user’s data into many small segments, called cells, for transmission over the network. Independent of the data’s
+origin, the cell size is 53 octets, of which 5 octets are for use by the network itself for routing and error control.
+Users  of  the  ATM  are  responsible  for  segmentation  and  reassembly  of  their  data.  Any  control  information
+required for this purpose must be included in the 48 octets of user information in each cell. In the usual case,
+these  cells  would  be  transmitted  over  networks  that  would  provide  users  with  135  Mb/s  and  above  data
+transmission capacity (with user overhead included in the capacity).

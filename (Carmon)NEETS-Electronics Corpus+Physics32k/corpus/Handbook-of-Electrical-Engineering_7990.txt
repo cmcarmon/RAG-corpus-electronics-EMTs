@@ -1,0 +1,8 @@
+Multifunction Arithmetic Logic Units
+Devices that can provide a variety of addition, subtraction, and logical operations can be easily designed around
+the adders/subtracters presented in the previous sections. The logic diagram of the ﬁrst two stages of an n-bit
+multifunction ALU is given in Fig. 81.55. Operand inputs for the device are X = xn–1 . . . x1x0 and Y = yn–1 . . .
+y1y0 and the output is S = sn–1 . . . s1s0. The function performed on the operand(s) is determined by the values
+of the control inputs k2, k1, k0, and cin as shown in Table 81.7. The given realization is based on a ripple-carry
+adder for simplicity of presentation. However, the same design approach can be used with other adders such
+as carry lookahead.

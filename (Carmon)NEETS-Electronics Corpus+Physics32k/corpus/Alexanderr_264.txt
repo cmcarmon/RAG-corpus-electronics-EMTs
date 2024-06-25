@@ -1,0 +1,10 @@
+5.10.1 Digital-to-Analog Converter
+The  digital-to-analog  converter  (DAC)  transforms  digital  signals  into
+analog  form.  A typical  example  of  a  four-bit  DAC  is  illustrated  in
+Fig. 5.36(a). The four-bit DAC can be realized in many ways. A sim-
+ple  realization  is  the  binary  weighted  ladder,  shown  in  Fig.  5.36(b).
+The  bits  are  weights  according  to  the  magnitude  of  their  place  value,
+by  descending  value  of  Rf兾Rn so  that  each  lesser  bit  has  half  the
+weight of  the  next  higher.  This  is  obviously  an  inverting  summing
+ampliﬁer.  The  output  is  related  to  the  inputs  as  shown  in  Eq.  (5.15).
+Thus,

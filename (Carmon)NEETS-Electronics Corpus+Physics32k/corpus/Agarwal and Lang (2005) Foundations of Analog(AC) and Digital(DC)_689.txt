@@ -1,0 +1,10 @@
+Value discretization forms the basis of the digital abstraction. The idea is to lump
+signal values that fall within some interval into a single value. We saw an example
+of value discretization earlier in Figure 1.45 (repeated here for convenience
+as Figure 5.1) where a voltage signal was discretized into two levels. In this
+example, an observed voltage value between 0 volts and 2.5 volts is treated as
+a ‘‘0,’’ and a value between 2.5 volts and 5 volts as a ‘‘1.’’ Correspondingly, to
+transmit the logical value ‘‘0’’ over a wire, we place the nominal voltage level
+of 1.25 on the wire. Similarly, to transmit the logical ‘‘1,’’ we place the nominal
+voltage level of 3.75 volts on the wire.1 The discrete signal shown in Figure 5.1
+comprises the sequence of values ‘‘0,’’ ‘‘1,’’ ‘‘0,’’ ‘‘1,’’ ‘‘0.’’

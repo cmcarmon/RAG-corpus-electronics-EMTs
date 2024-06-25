@@ -1,0 +1,12 @@
+Before signalling will work, the sender and receiver must agree on the signalling parameters:
+Full or half-duplex operation
+The number of bits per character
+Endianness: the order in which the bits are sent
+The speed or bits per second of the line (often incorrectly referred to as the Baud rate). Some systems use automatic speed detection.
+Whether to use or not use parity
+Odd or even parity, if used
+The number of stop bits sent must be chosen (the number sent must be at least what the receiver needs)
+Mark and space symbols (current directions in early telegraphy, later voltage polarities in EIA RS-232 and so on, frequency shift polarities in frequency shift keying and so on)
+Asynchronous start-stop signalling was widely used for dial-up modem access to time-sharing computers and BBS systems. These systems used either seven or eight data bits, transmitted least-significant bit first, in accordance with the ASCII standard.
+Between computers, the most common configuration used was "8N1": eight bit characters, with one start bit, one stop bit, and no parity bit. Thus 10 Baud times are used to send a single character, and so dividing the signalling bit-rate by ten results in the overall transmission speed in characters per second.
+Asynchronous start-stop is the physical layer used to connect computers to modems for many dial-up Internet access applications, using a data link framing protocol such as PPP to create packets made up out of asynchronous serial characters. The performance loss relative to synchronous access is negligible, as most modern modems will use a private synchronous protocol to send the data between themselves, and the asynchronous links at each end are operated faster than this data link, with flow control being used to throttle the data rate to prevent overrun.

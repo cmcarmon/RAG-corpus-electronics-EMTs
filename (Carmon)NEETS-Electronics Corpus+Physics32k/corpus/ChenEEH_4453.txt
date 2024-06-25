@@ -1,0 +1,10 @@
+The construction of such models is not straightforward.
+Often due to data and experimental limitations, the modeling
+process does not yield a single exact model but a range of
+possible models. The full model may also be too complex to
+allow a full Kalman ﬁlter implementation with online covar-
+iance propagation. Even when the full implementation is pos-
+sible, additional analysis may show that nearly equivalent and
+possibly more robust performance can be achieved with fewer
+computations for an implementation using a reduced order
+model.

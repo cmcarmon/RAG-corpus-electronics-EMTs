@@ -1,0 +1,4 @@
+An OR gate with one input inverted is shown in figure 2-20. The output of this OR gate requires that
+A be LOW, B be HIGH, or both of these conditions existing at the same time in order to have a HIGH
+output. Since the A input is inverted, it must be LOW if B is LOW in order to produce a HIGH output.
+Therefore the output is f = A +B.

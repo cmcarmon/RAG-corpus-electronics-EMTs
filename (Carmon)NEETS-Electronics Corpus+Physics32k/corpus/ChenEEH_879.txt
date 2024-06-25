@@ -1,0 +1,9 @@
+properly, a strict temporal ordering of the many thousands of
+switching events in the circuit is required. This strict ordering
+is enforced by a global synchronizing clock signal delivered to
+every register in a circuit by a clock distribution network.
+Algorithms for determining a nonzero clock skew schedule
+that satisfy the tighter timing constraints of high-speed VLSI
+complexity systems can be found in (Friedman, 1995; Neves
+and Friedman 1996a, 1996b; Afghani and Svensson, 1990;
+Kourtev, 1999; Fishburn, 1990).

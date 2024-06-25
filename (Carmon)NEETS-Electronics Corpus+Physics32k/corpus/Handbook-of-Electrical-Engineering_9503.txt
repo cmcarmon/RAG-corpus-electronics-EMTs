@@ -1,0 +1,4 @@
+Suppose that we want to know the number of faculty in each department and the result to be ordered by
+department. This query requests for each department a count of the number of faculty. Faculty are therefore
+categorized according to the attribute name department. As a result, department is referred to as a GROUP BY
+attribute. In SQL, the above query is formulated as follows:

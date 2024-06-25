@@ -1,0 +1,7 @@
+BIST  also  requires  ability  to  capture  the  test  results  without  the  need  for  an  external  tester.  This  is  often
+achieved by using a multi-input signature register (MISR) to capture individual test results and compress these
+into an overall value called the test signature. Figure 85.22 shows a sample signature register that can compress
+test results captured from four separate outputs into a single 4-bit signature. Provided that the test circuit has
+deterministic behavior, a signature register can be started in a given starting state, and its ﬁnal value may be
+compared  to  a  known  good  signature  to  determine  pass/fail  status.  However,  compressing  test  results  into  a
+single  overall  signature  may  prevent  proper  fault  detection  if  multiple  erroneous  outputs  (which  may  result

@@ -1,0 +1,64 @@
+Probability density function (PDF) methods for turbulence, first introduced by Lundgren, are based on tracking the one-point PDF of the velocity,
+
+
+
+
+f
+
+V
+
+
+(
+
+v
+
+;
+
+x
+
+,
+t
+)
+d
+
+v
+
+
+
+{\displaystyle f_{V}({\boldsymbol {v}};{\boldsymbol {x}},t)d{\boldsymbol {v}}}
+, which gives the probability of the velocity at point
+
+
+
+
+x
+
+
+
+{\displaystyle {\boldsymbol {x}}}
+being between
+
+
+
+
+v
+
+
+
+{\displaystyle {\boldsymbol {v}}}
+and
+
+
+
+
+v
+
++
+d
+
+v
+
+
+
+{\displaystyle {\boldsymbol {v}}+d{\boldsymbol {v}}}
+. This approach is analogous to the kinetic theory of gases, in which the macroscopic properties of a gas are described by a large number of particles. PDF methods are unique in that they can be applied in the framework of a number of different turbulence models; the main differences occur in the form of the PDF transport equation. For example, in the context of large eddy simulation, the PDF becomes the filtered PDF. PDF methods can also be used to describe chemical reactions, and are particularly useful for simulating chemically reacting flows because the chemical source term is closed and does not require a model. The PDF is commonly tracked by using Lagrangian particle methods; when combined with large eddy simulation, this leads to a Langevin equation for subfilter particle evolution.

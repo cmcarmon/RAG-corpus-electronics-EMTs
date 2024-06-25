@@ -1,0 +1,12 @@
+The principle in adapting the action network is to indirectly
+back-propagate the error between the desired ultimate objec-
+tive, denoted by Uc, and the approximate J function from the
+critic network. Since 0 is deﬁned as the reinforcement signal
+for success, Uc is set to 0 in the discussion is design paradigm
+and in the following case studies. In the action network, the
+state measurements are used as inputs to create a control as the
+output of the network. In turn, the action network can be
+implemented by either a linear or a nonlinear network,
+depending on the complexity of the problem. The weight
+updating in the action network can be formulated as follows.
+Let the following be true:

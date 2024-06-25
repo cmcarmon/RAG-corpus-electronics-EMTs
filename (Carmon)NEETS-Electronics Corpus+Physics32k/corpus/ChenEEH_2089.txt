@@ -1,0 +1,23 @@
+The development of hierarchical predicate transition nets
+(HPrTNs) was motivated by the need to construct speciﬁca-
+tions for large systems using Petri nets (Reisig, 1987) and
+inspired by the development of modern high-level program-
+ming languages and other hierarchical and graphical nota-
+tions, such as data ﬂow diagrams (Yourdon, 1989) and
+statecharts (Harel, 1988). Similar work on introducing hier-
+archies into colored Petri nets was given in Jensen (1992,
+1995). With the introduction of hierarchical structures into
+predicate transition nets, the resulting net speciﬁcations are
+more understandable, and the speciﬁcation construction pro-
+cess becomes more manageable. HPrTNs were used in specify-
+ing several systems, including an elevator system (He and Lee,
+1991), a library system (He and Yang, 1992), and a hurried
+dining philosophers system (He and Ding, 2001). HPrTNs can
+be analyzed directly by using a structural induction technique
+combining structural, behavioral, and logical reasoning (He,
+2001) and can be translated into program skeletons in a con-
+current and parallel object-oriented programming language
+CC þþ (He, 2000c) and Java (Lewandowski and He, 1998,
+2000). A complete formal deﬁnition of HPrTNs was given in
+He (1996). In the following subsections, basic concepts and
+notation of HPrTNs are brieﬂy introduced.

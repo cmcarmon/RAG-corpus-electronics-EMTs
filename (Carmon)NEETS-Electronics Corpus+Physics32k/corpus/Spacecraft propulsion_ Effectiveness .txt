@@ -1,0 +1,62 @@
+When in space, the purpose of a propulsion system is to change the velocity, or v, of a spacecraft. Because this is more difficult for more massive spacecraft, designers generally discuss momentum, mv. The amount of change in momentum is called impulse. So the goal of a propulsion method in space is to create an impulse.
+When launching a spacecraft from Earth, a propulsion method must overcome a higher gravitational pull to provide a positive net acceleration. In orbit, any additional impulse, even very tiny, will result in a change in the orbit path.
+The rate of change of velocity is called acceleration, and the rate of change of momentum is called force. To reach a given velocity, one can apply a small acceleration over a long period of time, or one can apply a large acceleration over a short time. Similarly, one can achieve a given impulse with a large force over a short time or a small force over a long time. This means that for maneuvering in space, a propulsion method that produces tiny accelerations but runs for a long time can produce the same impulse as a propulsion method that produces large accelerations for a short time. When launching from a planet, tiny accelerations cannot overcome the planet's gravitational pull and so cannot be used.
+Earth's surface is situated fairly deep in a gravity well. The escape velocity required to get out of it is 11.2 kilometers/second. As human beings evolved in a gravitational field of 1g (9.8 m/s²), an ideal propulsion system would be one that provides a continuous acceleration of 1g (though human bodies can tolerate much larger accelerations over short periods). The occupants of a rocket or spaceship having such a propulsion system would be free from all the ill effects of free fall, such as nausea, muscular weakness, reduced sense of taste, or leaching of calcium from their bones.
+The law of conservation of momentum means that in order for a propulsion method to change the momentum of a space craft it must change the momentum of something else as well. A few designs take advantage of things like magnetic fields or light pressure in order to change the spacecraft's momentum, but in free space the rocket must bring along some mass to accelerate away in order to push itself forward. Such mass is called reaction mass.
+In order for a rocket to work, it needs two things: reaction mass and energy. The impulse provided by launching a particle of reaction mass having mass m at velocity v is mv. But this particle has kinetic energy mv²/2, which must come from somewhere. In a conventional solid, liquid, or hybrid rocket, the fuel is burned, providing the energy, and the reaction products are allowed to flow out the back, providing the reaction mass. In an ion thruster, electricity is used to accelerate ions out the back. Here some other source must provide the electrical energy (perhaps a solar panel or a nuclear reactor), whereas the ions provide the reaction mass.
+When discussing the efficiency of a propulsion system, designers often focus on effectively using the reaction mass. Reaction mass must be carried along with the rocket and is irretrievably consumed when used. One way of measuring the amount of impulse that can be obtained from a fixed amount of reaction mass is the specific impulse, the impulse per unit weight-on-Earth (typically designated by
+
+
+
+
+I
+
+sp
+
+
+
+
+{\displaystyle I_{\text{sp}}}
+). The unit for this value is seconds. Because the weight on Earth of the reaction mass is often unimportant when discussing vehicles in space, specific impulse can also be discussed in terms of impulse per unit mass. This alternate form of specific impulse uses the same units as velocity (e.g. m/s), and in fact it is equal to the effective exhaust velocity of the engine (typically designated
+
+
+
+
+v
+
+e
+
+
+
+
+{\displaystyle v_{e}}
+). Confusingly, both values are sometimes called specific impulse. The two values differ by a factor of gn, the standard acceleration due to gravity 9.80665 m/s² (
+
+
+
+
+I
+
+sp
+
+
+
+g
+
+
+n
+
+
+
+=
+
+v
+
+e
+
+
+
+
+{\displaystyle I_{\text{sp}}g_{\mathrm {n} }=v_{e}}
+).
+A rocket with a high exhaust velocity can achieve the same impulse with less reaction mass. However, the energy required for that impulse is proportional to the exhaust velocity, so that more mass-efficient engines require much more energy, and are typically less energy efficient. This is a problem if the engine is to provide a large amount of thrust. To generate a large amount of impulse per second, it must use a large amount of energy per second. So high-mass-efficient engines require enormous amounts of energy per second to produce high thrusts. As a result, most high-mass-efficient engine designs also provide lower thrust due to the unavailability of high amounts of energy.

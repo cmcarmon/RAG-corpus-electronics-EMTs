@@ -1,0 +1,14 @@
+9x 2 tphil  (right(x) 2 p2 ^ left(x) 2 p2) and thus (*):
+Step 2: Assume (*) holds after k transitions in a state M.
+Step 3: Prove (*) holds after k þ 1 transitions in a state M0
+Case 1: Firing transition Pick up with a ¼ {x=ph1, y1=ch1,
+y2=ch2} and from the postcondition of schema Pick up with
+ch1 2 ephil0 in M0. Thus, 9x 2 ephil  (p3(x)  1) is true in
+M0, and hence (*) holds in M0.
+Case 2: Firing transition put down a¼ {z=< ph1, ch1, ch2 >}:
+From the precondition of put down with left (ph1) ¼ ch1
+and right (ph1) ¼ ch2; from the postcondition of schema put
+down with ph1 2 tphil, ch1 2 chop0, and ch2 2 chop
+. Thus,
+9x 2 tphil  (right(x) 2 p2 ^ left(x) 2 p2) is true in M0, and
+hence (*) holds in M0.

@@ -1,0 +1,53 @@
+Historically, the first example of gauge symmetry to be discovered was classical electromagnetism. A static electric field can be described in terms of an electric potential (voltage) that is defined at every point in space, and in practical work it is conventional to take the Earth as a physical reference that defines the zero level of the potential, or ground. But only differences in potential are physically measurable, which is the reason that a voltmeter must have two probes, and can only report the voltage difference between them. Thus one could choose to define all voltage differences relative to some other standard, rather than the Earth, resulting in the addition of a constant offset. If the potential
+
+
+
+V
+
+
+{\displaystyle V}
+is a solution to Maxwell's equations then, after this gauge transformation, the new potential
+
+
+
+V
+→
+V
++
+C
+
+
+{\displaystyle V\rightarrow V+C}
+is also a solution to Maxwell's equations and no experiment can distinguish between these two solutions. In other words, the laws of physics governing electricity and magnetism (that is, Maxwell equations) are invariant under gauge transformation. Maxwell's equations have a gauge symmetry.
+Generalizing from static electricity to electromagnetism, we have a second potential, the magnetic vector potential A, which can also undergo gauge transformations. These transformations may be local. That is, rather than adding a constant onto V, one can add a function that takes on different values at different points in space and time. If A is also changed in certain corresponding ways, then the same E and B fields result. The detailed mathematical relationship between the fields E and B and the potentials V and A is given in the article Gauge fixing, along with the precise statement of the nature of the gauge transformation. The relevant point here is that the fields remain the same under the gauge transformation, and therefore Maxwell's equations are still satisfied.
+Gauge symmetry is closely related to charge conservation. Suppose that there existed some process by which one could briefly violate conservation of charge by creating a charge q at a certain point in space, 1, moving it to some other point 2, and then destroying it. We might imagine that this process was consistent with conservation of energy. We could posit a rule stating that creating the charge required an input of energy E1=qV1 and destroying it released E2=qV2, which would seem natural since qV measures the extra energy stored in the electric field because of the existence of a charge at a certain point. Outside of the interval during which the particle exists, conservation of energy would be satisfied, because the net energy released by creation and destruction of the particle, qV2-qV1, would be equal to the work done in moving the particle from 1 to 2, qV2-qV1. But although this scenario salvages conservation of energy, it violates gauge symmetry. Gauge symmetry requires that the laws of physics be invariant under the transformation
+
+
+
+V
+→
+V
++
+C
+
+
+{\displaystyle V\rightarrow V+C}
+, which implies that no experiment should be able to measure the absolute potential, without reference to some external standard such as an electrical ground. But the proposed rules E1=qV1 and E2=qV2 for the energies of creation and destruction would allow an experimenter to determine the absolute potential, simply by comparing the energy input required to create the charge q at a particular point in space in the case where the potential is
+
+
+
+V
+
+
+{\displaystyle V}
+and
+
+
+
+V
++
+C
+
+
+{\displaystyle V+C}
+respectively. The conclusion is that if gauge symmetry holds, and energy is conserved, then charge must be conserved.

@@ -1,0 +1,14 @@
+The communication path between two LANs/MANs can be
+connected either by a single bridge or multiple bridges. In the
+case of connecting with multiple bridges, a point-to-point
+protocol, like High-Level Data Link Control (HDLC) or an
+X.25 connection, can be used between two bridges. Bridges do
+not modify the content of the frames they receive but must
+contain addressing and routing intelligence. The bridge can also
+act as a multiple port switch connecting more than two LANs.
+The routing approaches of bridges are as complicated as
+routers. The basic routing operation is to avoid forwarding
+frames in a closed loop. Each bridge should make a decision
+about whether the frame should be forwarded and what LAN
+should forward the frame next. The following approaches are
+used for routing with bridges:

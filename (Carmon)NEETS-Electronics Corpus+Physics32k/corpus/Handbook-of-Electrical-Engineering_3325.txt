@@ -1,0 +1,6 @@
+Figure 31.13 show an example of a charge-coupled device (CCD) linear photodiode array. The device consists
+of a linear array of pn junction photodiodes. Each diode has capacitance associated with it, and when light falls
+on the detector the resulting photocurrent charges this capacitance. The charge is thus the time integral of the
+light  intensity  falling  on  the  diode.  The  CCD  periodically  and  sequentially  switches  the  charge  to  the  video
+line, resulting in a series of pulses. These pulses can be converted to a voltage signal which represents the light
+pattern incident on the array.

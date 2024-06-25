@@ -1,0 +1,11 @@
+By considering together the computations involving common output frequencies from the two half-length
+DFTs, we see that the two complex multiplies are related to each other, and we can reduce our computational
+work even further. By further decomposing the length-4 DFTs into two length-2 DFTs and combining their
+outputs, we arrive at the diagram summarizing the length-8 fast Fourier transform (Figure 5.12). Although
+most of the complex multiplies are quite simple (multiplying by e−jπ means negating real and imaginary
+parts), let’s count those for purposes of evaluating the complexity as full complex multiplies. We have N
+= 4
+2
+complex multiplies and N = 8 additions for each stage and log2N = 3 stages, making the number of basic
+computations 3N
+2

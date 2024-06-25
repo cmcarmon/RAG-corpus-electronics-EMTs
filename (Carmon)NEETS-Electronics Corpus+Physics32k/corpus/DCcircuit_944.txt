@@ -1,0 +1,7 @@
+With the two-battery circuit, there is no way to arrive at a value for “total resistance,”
+because there are two sources of power to provide voltage and current (we would need two
+“total” resistances in order to proceed with any Ohm’s Law calculations). With the unbalanced
+bridge circuit, there is such a thing as total resistance across the one battery (paving the way
+for a calculation of total current), but that total current immediately splits up into unknown
+proportions at each end of the bridge, so no further Ohm’s Law calculations for voltage (E=IR)
+can be carried out.

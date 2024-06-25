@@ -1,0 +1,7 @@
+The above algorithm for calculating the output of the simpli-
+ﬁed partial linearization controller takes full advantage of the
+recursive nature of the design equations, reducing the number
+of states and ﬂoating-point computations. Furthermore, the
+simpliﬁed form is amenable to the construction of general
+software routines, capable of computing the controller output
+for an arbitrary value of the controller order n.

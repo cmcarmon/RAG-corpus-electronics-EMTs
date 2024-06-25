@@ -1,0 +1,15 @@
+1. Commutative property: x1  x2 ¼ x2  x1.
+2. Associative property: x1  [x2  x3]¼ [x1  x2] x3.
+3. Distributive property: x1  [x2 þ x3]¼ x1  x2 þ x1  x3.
+In expressions 1 through 3, if x1 is assumed to represent
+system input and x2 and x3 represent system impulse re-
+sponses, then these have useful interpretations for an inter-
+connected system. The associative property implies that a
+cascade connection of two LSI systems is equivalent to a single
+system with impulse response equal to the convolution of the
+two individual system impulse responses. The distributive
+property implies that a parallel connection of two LSI systems
+can be represented by a single system with impulse response
+equal
+to the sum of the two individual system impulse
+responses.

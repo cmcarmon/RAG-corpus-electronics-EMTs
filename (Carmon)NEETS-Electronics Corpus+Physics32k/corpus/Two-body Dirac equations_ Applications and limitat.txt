@@ -1,0 +1,118 @@
+The TBDE can be readily applied to two body systems such as positronium, muonium, hydrogen-like atoms, quarkonium, and the two-nucleon system. These applications involve two particles only and do not involve creation or annihilation of particles beyond the two. They involve only elastic processes. Because of the connection between the potentials used in the TBDE and the corresponding quantum field theory, any radiative correction to the lowest order interaction can be incorporated into those potentials. To see how this comes about, consider by contrast how one computes scattering amplitudes without quantum field theory. With no quantum field theory one must come upon potentials by classical arguments or phenomenological considerations. Once one has the potential
+
+
+
+V
+
+
+{\displaystyle V}
+between two particles, then one can compute the scattering amplitude
+
+
+
+T
+
+
+{\displaystyle T}
+from the Lippmann-Schwinger equation
+
+
+
+
+T
++
+V
++
+V
+G
+T
+=
+0
+
+
+{\displaystyle T+V+VGT=0}
+,
+in which
+
+
+
+G
+
+
+{\displaystyle G}
+is a Green function determined from the Schrödinger equation. Because of the similarity between the Schrödinger equation Eq. (11) and the relativistic constraint equation (10),one can derive the same type of equation as the above
+
+
+
+
+
+
+T
+
+
++
+Φ
++
+Φ
+
+
+G
+T
+
+
+=
+0
+
+
+{\displaystyle {\mathcal {T}}+\Phi +\Phi {\mathcal {GT}}=0}
+,
+called the quasipotential equation with a
+
+
+
+
+
+G
+
+
+
+
+{\displaystyle {\mathcal {G}}}
+very similar to that given in the Lippmann-Schwinger equation. The difference is that with the quasipotential equation, one starts with the scattering amplitudes
+
+
+
+
+
+T
+
+
+
+
+{\displaystyle {\mathcal {T}}}
+of quantum field theory, as determined from Feynman diagrams and deduces the quasipotential Φ perturbatively. Then one can use that Φ in (10), to compute energy levels of two particle systems that are implied by the field theory. Constraint dynamics provides one of many, in fact an infinite number of, different types of quasipotential equations (three-dimensional truncations of the Bethe-Salpeter equation) differing from one another by the choice of
+
+
+
+
+
+G
+
+
+
+
+{\displaystyle {\mathcal {G}}}
+. The relatively simple solution to the problem of relative time and energy from the generalized mass shell constraint for two particles, has no simple extension, such as presented here with the
+
+
+
+
+x
+
+⊥
+
+
+
+
+{\displaystyle x_{\perp }}
+variable, to either two particles in an external field  or to 3 or more particles. Sazdjian has presented a receipe for this extension when the particles are confined and cannot split into clusters of a smaller number of particles with no inter-cluster interactions  Lusanna has developed an approach, one that does not involve generalized mass shell constraints with no such restrictions, which extends to N bodies with or without fields. It is formulated on spacelike hypersurfaces and when restricted to the family of hyperplanes orthogonal to the total timelike momentum gives rise to a covariant intrinsic 1-time formulation (with no relative time variables) called the "rest-frame instant form" of dynamics,

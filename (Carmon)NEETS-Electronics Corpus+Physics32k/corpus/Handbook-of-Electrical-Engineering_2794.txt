@@ -1,0 +1,7 @@
+Other  approaches  for  clock  distribution  are  gaining  in  importance.  For  example,  a  lower  frequency  clock
+can be distributed across the VLSI circuit, with phase-locked loops (PLLs) used to multiply the clock rate at
+various sites on the circuit. In addition to multiplying the low clock rate, the PLL can also adjust the phase of
+the high rate clock, correcting clock skew which may have been introduced in the routing of the low rate clock
+to that PLL. Another approach is to generate a local clock at a local register when the register input data changes.
+This  self-timed  circuit  approach  leads  to  asynchronous  circuits  but  can  be  quite  effective  for  register-transfer
+logic (generating a local clock for a large register).

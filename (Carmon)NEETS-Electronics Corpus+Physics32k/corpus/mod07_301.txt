@@ -1,0 +1,7 @@
+Figure 3-16 shows a dc voltage felt at the wiper of potentiometer R1 which can be adjusted between 
++V and −V. The dc voltage, passed through the low resistance of radio frequency choke L2, acts to 
+reverse bias varactor diode C3. The capacitance of C3 is in series with C2, and the equivalent capacitance 
+of C2 and C3 is in parallel with tank circuit L1-C1. Therefore, any variation in the dc voltage at R1 will 
+vary both the capacitance of C3 and the resonant frequency of the tank circuit. The radio-frequency choke 
+provides high inductive reactance at the tank frequency to prevent tank loading by R1. C2 acts to block dc 
+from the tank as well as to fix the tuning range of C3. 

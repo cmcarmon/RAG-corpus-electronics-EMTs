@@ -1,0 +1,13 @@
+16.3 A N A L Y S I S O F D I O D E C I R C U I T S
+Given the analytical expression for the diode characteristic, Equation 16.1, how
+can we calculate the voltages and currents in a simple circuit such as Figure 16.5?
+Depending on our requirements, as discussed in Chapter 4, we can use one
+of the four methods of analyzing nonlinear circuits developed previously: (1)
+analytical solutions, (2) graphical analysis, (3) piecewise-linear analysis, and (4)
+incremental analysis. However, circuits with multiple diodes and other elements
+get algebraically complex quickly and become virtually impossible to analyze
+directly. Fortunately, it turns out that the dichotomous behavior of the diode
+under forward bias and reverse bias allows us to decompose more complex
+diode circuits into simple subcircuits, each of which can be independently ana-
+lyzed using one of the four methods. This decomposition method is called the
+method of assumed diode states.

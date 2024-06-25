@@ -1,0 +1,7 @@
+Data obtained for a signal only at discrete intervals (sampling period) is called sampled data. One advantage
+of working with sampled data is the ability to represent sequences as combinations of sampled time signals.
+Table 8.2 provides some key z-transform pairs. So that the table can serve a multiple purpose, there are three
+items per line: the ﬁrst is an indicated sampled continuous-time signal, the second is the Laplace transform of
+the continuous-time signal, and the third is the z-transform of the uniformly sampled continous-time signal.
+To illustrate the interrelation of these entries, consider Fig. 8.2. For simplicity, only single-sided signals have
+been used in Table 8.2. Consequently, the convergence regions are understood in this context to be Re[s] < s

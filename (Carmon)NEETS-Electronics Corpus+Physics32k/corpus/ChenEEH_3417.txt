@@ -1,0 +1,19 @@
+relay implementation approaches being possible. This is all
+due to a great ﬂexibility of the microprocessor-based technol-
+ogy almost exclusively used to build relays today. Since the
+microprocessor-based relays use very low-level voltage signal at
+inputs to the signal measurement circuitry, all these relays have
+auxiliary transformers at the front-end to scale down the
+input signal levels even further from what is available at the
+secondary of an instrument transformer. To accommodate
+speciﬁc needs and provide different levels of the relay input
+quantities, some of the relay designs come with multiple con-
+nections of the auxiliary transformers called taps. Selecting
+appropriate tap determines a speciﬁc turns ratio for the auxil-
+iary transformer that allows more precise selection of the
+speciﬁc level of the relay input signal. Besides the voltage
+and/or current signals as inputs and trip signals as outputs,
+the relays have a number of input/output connections aimed at
+other functions: coordination with other relays, communica-
+tion with relays and operators, and monitoring. For an elec-
+tronic relay, a connection to the power supply also exists.

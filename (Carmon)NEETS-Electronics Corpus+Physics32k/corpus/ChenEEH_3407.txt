@@ -1,0 +1,16 @@
+Several points regarding the zone selection and allocation
+are important. First, the zones are selected to ensure that a
+multiple usage of the breakers associated with each power
+system component is achieved. Each circuit breaker may be
+serving at least two protection functions. This enables sepa-
+ration of the neighboring components in the case either one is
+faulted. At the same time, the number of breakers used to
+connect the components is minimized. By overlapping at
+least two zones of protection around each circuit breaker, it
+is important to make sure that there is no part of the power
+system left unprotected. This includes the short connection
+between circuit breakers or between circuit breakers and
+busses. Such an overlap is only possible if instrument trans-
+formers exist on both sides of the breaker, which is the case
+with so-called dead-tank breakers that have current transform-
+ers located in the breaker bushings.

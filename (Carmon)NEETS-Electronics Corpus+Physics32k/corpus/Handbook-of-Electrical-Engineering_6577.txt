@@ -1,0 +1,18 @@
+Power  budget  calculations  are  illustrated  in
+Table 71.1 for a system that includes an ampli-
+ﬁer.  A  speciﬁc  numerical  example  is  found  in
+the last two columns. The receiver sensitivity in
+dBm  is  subtracted  from  the  power  available
+from the light source in dBm. This difference is
+the loss budget (in decibels) for the system. All
+the system losses and gains are added together
+(keeping in mind that the losses are negative and
+the ampliﬁer gains are positive). If the losses are
+more than the gains (as is usual), the system loss
+dBSL will be a negative number. The loss margin
+is the sum of the loss budget and the system loss.
+It  must  be  positive  for  the  system  to  meet  the
+receiver  sensitivity  requirements.  The  system
+loss margin must be speciﬁed to account for component aging and other possible system degradations. A 6-
+dB margin was found for the system illustrated in the table. The ﬁber in the table has a total loss of 24 dB. If
+its attenuation is 0.25 dB/km, the total length of ﬁber allowed would be 24/0.25 = 96 km.

@@ -1,0 +1,10 @@
+Figure 3-12 shows a typical ratio detector. The input tank capacitor (C1) and the primary of
+transformer T1 (L1) are tuned to the center frequency of the fm signal to be demodulated. The secondary
+winding of T1 (L2) and capacitor C2 also form a tank circuit tuned to the center frequency. Tertiary
+(third) winding L3 provides additional inductive coupling which reduces the loading effect of the
+secondary on the primary circuit. Diodes CR1 and CR2 rectify the signal from the secondary tank.
+Capacitor C5 and resistors R1 and R2 set the operating level of the detector. Capacitors C3 and C4
+determine the amplitude and polarity of the output. Resistor R3 limits the peak diode current and
+furnishes a dc return path for the rectified signal. The output of the detector is taken from the common
+connection between C3 and C4. Resistor RL is the load resistor. R5, C6, and C7 form a low-pass filter to
+the output.

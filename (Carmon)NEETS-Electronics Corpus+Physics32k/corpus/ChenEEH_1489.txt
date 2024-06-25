@@ -1,0 +1,8 @@
+Table 4.1 shows an organization spanning 14 levels. It is not
+a model of any particular operating system but rather exhibits
+the relationships among the functions present in most operat-
+ing systems. Each level encapsulates the system at lower levels
+into an abstract machine and presents itself to the user, or a
+program, by a set of objects and the associated operations. A
+program written at a given level can invoke visible operations
+at all lower levels, but not operations on higher levels.

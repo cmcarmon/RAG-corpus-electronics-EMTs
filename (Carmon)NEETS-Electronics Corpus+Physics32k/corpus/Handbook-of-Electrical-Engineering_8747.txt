@@ -1,0 +1,6 @@
+An example of the declarative paradigm is given by the simpliﬁed PROLOG program below for declaring
+an electrical circuit as a list of constraints. All of the constraints must be true for the circuit() constraint to be
+true. Thus, this program eliminates all possible R, L, C, V circuits from consideration, except the one displayed
+in  Fig.  87.12.  The  declarations  literally  assert  that  Circuit(R,  L,  C,  V)  is  a  thing  with “R  connected  to  L,  L
+connected to C, L connected to R, C connected to V, and V connected to R.” This eliminates “V connected to
+L,” for example, and leaves only the solution shown in Fig. 87.12.

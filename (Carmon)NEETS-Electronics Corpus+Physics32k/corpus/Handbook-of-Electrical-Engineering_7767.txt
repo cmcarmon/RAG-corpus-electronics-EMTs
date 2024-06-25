@@ -1,0 +1,3 @@
+Each track has its own read and write head operated independently from other tracks [see Fig. 80.17(b)].
+Tracks 1 to 8 are used for data and track nine for the parity bit. Data is written on the tape in rows of magnetized
+islands, using for example EBCDIC (Extended Binary Coded Decimal Interchange Code).

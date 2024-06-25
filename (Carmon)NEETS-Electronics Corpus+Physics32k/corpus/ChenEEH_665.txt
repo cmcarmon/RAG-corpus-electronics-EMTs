@@ -1,0 +1,12 @@
+require only
+sequential addressing, such as the ﬁrst-in ﬁrst-out
+(FIFO) queue or ﬁrst-in last-out (FILO) or stack struc-
+tures, which put a severe restriction on the order in
+which the data are read out. Still, this restriction is
+acceptable for many applications. A more general but
+still sequential access order is available in a pointer-
+addressed memory (PAM). In most cases, however, the
+address sequence should be random (including repeti-
+tion), which requires a direct addressing scheme. Then,
+an important requirement is that in this case, the access
+time should be independent of the address selected.

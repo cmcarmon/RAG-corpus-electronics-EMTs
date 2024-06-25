@@ -1,0 +1,7 @@
+To  implement  algorithm  (14.133),  we  ﬁrst  generate  the  rank-q  approximation  of  the  data  matrix  X.  The
+corresponding  matrix  P(q)(X)  is  generally  found  to  be  non-Toeplitz  in  structure.  To  recover  the  prerequisite
+Toeplitz structure, we next apply projection operator PT to matrix P(q)(X) to complete the ﬁrst iteration of the
+signal restoration algorithm. It is generally found that this new Toeplitz-structured data matrix X1 = PTP(q)(X)
+has full rank. It is closer to a rank-q matrix, however, than was the original data matrix X. The ﬁrst iteration
+has therefore led to a data matrix whose elements comprise a data sequence that is more compatible with a
+qth-order exponential model. Often, this ﬁrst iteration is sufﬁcient in many modeling applications.

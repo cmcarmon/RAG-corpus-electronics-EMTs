@@ -1,0 +1,443 @@
+Relativistic Newtonian dynamics (RND) is an extension of Newtonian dynamics that overcomes its shortcomings by considering the influence of potential energy on space and time using some principles of Einstein's theories of special and general relativity. In its current form, it models the motion of objects with non-zero mass as well as massless particles under the attraction of a time independent conservative force in some inertial frame. Unlike general relativity, RND is not restricted solely to a gravitational potential and does not require the exigency of curving spacetime. Created in 2015, the centennial year of Einstein's general relativity, by Israeli scientists Yaakov Friedman in collaboration with Joseph Steiner, RND predicts accurately both classical and modern tests of general relativity, such as, the perihelion precession of Mercury (planet) which agree with the known observed perihelion precession, the periastron advance of a binary star, which is identical to the post-Keplerian equation of the relativistic advance of the periastron in a binary, gravitational lensing  which is identical to Einstein's formula for weak gravitational lensing using GR, and light travel (Shapiro delay) time delay  which agree with the known formula for the Shapiro time delay, confirmed experimentally by several experiments
+Suppose that an object or a particle moves under a conservative, time independent force with a negative potential
+
+
+
+U
+(
+
+x
+
+)
+
+
+{\displaystyle U(\mathbf {x} )}
+any space point
+
+
+
+
+x
+
+
+
+{\displaystyle \mathbf {x} }
+, vanishing at infinity, in an (idealized) inertial frame
+
+
+
+K
+
+
+{\displaystyle K}
+. In order to express the influence of this potential energy at this point, introduce a normalized vector
+
+
+
+
+n
+
+(
+
+x
+
+)
+=
+∇
+U
+(
+
+x
+
+)
+
+/
+
+
+|
+
+∇
+U
+(
+
+x
+
+)
+
+|
+
+
+
+{\displaystyle \mathbf {n} (\mathbf {x} )=\nabla U(\mathbf {x} )/|\nabla U(\mathbf {x} )|}
+in the direction of the gradient of
+
+
+
+U
+(
+
+x
+
+)
+
+
+{\displaystyle U(\mathbf {x} )}
+. Using an extension of the Equivalence principle, the influence due to
+
+
+
+U
+(
+
+x
+
+)
+
+
+{\displaystyle U(\mathbf {x} )}
+on time intervals, space increments and velocities in the neighbourhood of
+
+
+
+
+x
+
+
+
+{\displaystyle \mathbf {x} }
+in RND are quantified via the relativistic length contraction and time dilation due to the escape velocity
+
+
+
+
+v
+
+e
+
+
+(
+
+x
+
+)
+
+
+{\displaystyle v_{e}(\mathbf {x} )}
+of the escape orbit originating at
+
+
+
+
+x
+
+
+
+{\displaystyle \mathbf {x} }
+. Specifically, the space increments in the direction of
+
+
+
+
+n
+
+(
+
+x
+
+)
+
+
+{\displaystyle \mathbf {n} (\mathbf {x} )}
+and the time intervals are altered by the Lorentz factor
+
+
+
+
+γ
+
+e
+
+
+(
+
+x
+
+)
+=
+1
+
+/
+
+
+
+1
+−
+
+v
+
+e
+
+
+2
+
+
+(
+
+x
+
+)
+
+/
+
+
+c
+
+2
+
+
+
+
+=
+1
+
+/
+
+
+
+1
+−
+u
+(
+
+x
+
+)
+
+
+
+
+{\displaystyle \gamma _{e}(\mathbf {x} )=1/{\sqrt {1-v_{e}^{2}(\mathbf {x} )/c^{2}}}=1/{\sqrt {1-u(\mathbf {x} )}}}
+due to this influence, while space increments transverse to
+
+
+
+
+n
+
+(
+
+x
+
+)
+
+
+{\displaystyle \mathbf {n} (\mathbf {x} )}
+are not. This implies that the velocity components in the direction of
+
+
+
+
+n
+
+(
+
+x
+
+)
+
+
+{\displaystyle \mathbf {n} (\mathbf {x} )}
+are unaltered when transformed to
+
+
+
+K
+
+
+{\displaystyle K}
+, but those transverse to
+
+
+
+
+n
+
+(
+
+x
+
+)
+
+
+{\displaystyle \mathbf {n} (\mathbf {x} )}
+should be multiplied by
+
+
+
+
+γ
+
+e
+
+
+−
+1
+
+
+(
+
+x
+
+)
+
+
+{\displaystyle \gamma _{e}^{-1}(\mathbf {x} )}
+resulting in an upper bound
+
+
+
+
+c
+
+x
+
+
+=
+
+γ
+
+e
+
+
+−
+1
+
+
+(
+
+x
+
+)
+c
+
+
+{\displaystyle c_{x}=\gamma _{e}^{-1}(\mathbf {x} )c}
+in
+
+
+
+K
+
+
+{\displaystyle K}
+, lower than the speed of light
+
+
+
+c
+
+
+{\displaystyle c}
+. This change in the direction of the velocity causes in turn a change in the classical trajectories.
+For a central force this modification leads finally to the equations for the trajectory
+
+
+
+r
+(
+φ
+)
+
+
+{\displaystyle r(\varphi )}
+and time dependence
+
+
+
+t
+(
+φ
+)
+
+
+{\displaystyle t(\varphi )}
+
+
+in terms of integral of motion
+
+
+
+k
+
+
+{\displaystyle k}
+and integral of motion
+
+
+
+J
+
+
+{\displaystyle J}
+.
+For motion in the gravitational field a spherically symmetric massive object of mass
+
+
+
+M
+
+
+{\displaystyle M}
+, the dimensionless gravitational potential is
+
+
+
+u
+(
+r
+)
+=
+
+
+
+r
+
+s
+
+
+r
+
+
+
+
+{\displaystyle u(r)={\frac {r_{s}}{r}}}
+, where
+
+
+
+
+r
+
+s
+
+
+=
+
+
+
+2
+G
+M
+
+
+c
+
+2
+
+
+
+
+
+
+{\displaystyle r_{s}={\frac {2GM}{c^{2}}}}
+is its Schwarzschild radius. In this case the above equations yield the correct formulae for all the above-mentioned tests of general relativity.

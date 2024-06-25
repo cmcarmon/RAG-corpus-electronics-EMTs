@@ -1,0 +1,8 @@
+The parametric frequency converter operates in the same manner as the parametric amplifier except 
+that the sideband frequencies are not reapplied to the varactor. Therefore, the output is one or both of the 
+sideband frequencies and is not the same as the input frequency. The output frequency is determined by 
+the cavity used as an output. For example, the idler cavity in figure 2-47 could be replaced by a cavity that 
+is resonant at the upper-sideband frequency (22 gigahertz) to produce an upper-sideband parametric 
+up-converter. Since input and output signals are at different frequencies, the parametric frequency 
+converter does not require a ferrite circulator. However, a ferrite isolator is used to isolate the converter 
+from changes in source impedance. 

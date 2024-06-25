@@ -1,0 +1,13 @@
+Solution
+This example applied to the functions seen in Figure 2.19
+is depicted in Figure 2.20. The results are for the least-squares
+and minimax approaches and for
+the WLS-Chebyshev
+ﬁlter where v0
+L was chosen as the fourth extreme in the
+ﬁlter’s stopband. The order of all ﬁlters is 40. Compared with
+the ﬁlters designed by the window methods, the WLS, WLS-
+Chebyshev, and the minimax ﬁlters are much more econom-
+ical. The reader should note that the passband ripple speciﬁed
+here is 10 times smaller than the value used in the window
+example.

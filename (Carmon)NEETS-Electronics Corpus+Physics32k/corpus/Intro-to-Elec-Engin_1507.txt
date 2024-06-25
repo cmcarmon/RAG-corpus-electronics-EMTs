@@ -1,0 +1,8 @@
+• VT: Preset threshold, which is zero for polar and Manchester PCM. In the unipolar system,
+it is equal to half the signal component of the integrator’s output level (A2Tb/2) at the
+sampling time when the input has a binary 1. (After the sample is taken, the integrator is
+discharged to 0 V in preparation for integration over the next bit interval.)
+• D: The difference between the integrator’s output and VT at the end of each bit interval of
+duration Tb. If D ≥ 0, binary 1 is declared; if D < 0, a 0 is declared.
+• Square-wave clock: Generates a voltage A for 0 < t < Tb/2 and −A for Tb/2 < t < Tb,
+with its fundamental frequency 1/Tb Hz. The product of the clock and the incoming

@@ -1,0 +1,7 @@
+2. Testing logic that is upstream from the RAM block (i.e., outputs from logic circuit are captured by the
+RAM block) is difﬁcult since the observation point is the RAM block. That is, it is necessary to access
+the  RAM  block  in  order  to  observe  the  test  results.  This  problem  might  be  solved  by  improving  the
+observability  of  the  RAM  inputs  and/or  making  the  RAM  outputs  more  easily  observable  as  well  as
+providing  the  bypass  capability.  This  way,  inputs  to  the  RAM  might  be  bypassed  directly  to  the  RAM
+outputs where they may be observed. This may require adding an observe-only register to capture the
+RAM outputs.

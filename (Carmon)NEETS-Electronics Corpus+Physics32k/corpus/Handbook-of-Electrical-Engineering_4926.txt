@@ -1,0 +1,9 @@
+where b is known as the Stewart-McCumber parameter. Clearly, if b >> 1, the capacitive time constant R jCj
+dominates the dynamics of the circuit. Thus, as the bias current is raised from zero, no time-average voltage
+is created until the critical current Ic is exceeded. At this point, the junciton switches to a voltage consistent
+with the breaking of the Cooper pairs, 2D/e, with a time constant 
+. Once the junction has latched in the
+voltage state, however, the capacitor has charged up and the only way for it to discharge is to lower the bias
+current to zero again. As a result, a device with b >>1 will have a hysteretic current-voltage curve as shown in
+Fig. 53.4a. Conversely, b << 1 implies that the capacitance of the device is unimportant and so the current-
+voltage curve is not hysteretic (see Fig. 53.4b). In fact, the time-averaged voltage Ænæ for such an RSJ device is

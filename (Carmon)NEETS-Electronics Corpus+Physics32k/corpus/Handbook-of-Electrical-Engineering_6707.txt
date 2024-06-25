@@ -1,0 +1,4 @@
+The motivation for FPNs is that since link transmission is becoming more reliable, extensive error checking
+and ﬂow control are not needed across individual links; an end-to-end check should be sufﬁcient. Meanwhile,
+the savings in processing due to not processing at the network layer can be applied to frame processing, which
+allows interconnection of the switches at higher line speeds.

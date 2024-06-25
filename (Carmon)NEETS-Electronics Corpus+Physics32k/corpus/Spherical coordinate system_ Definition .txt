@@ -1,0 +1,8 @@
+To define a spherical coordinate system, one must choose two orthogonal directions, the zenith and the azimuth reference, and an origin point in space. These choices determine a reference plane that contains the origin and is perpendicular to the zenith. The spherical coordinates of a point P are then defined as follows:
+The radius or radial distance is the Euclidean distance from the origin O to P.
+The inclination (or polar angle) is the angle between the zenith direction and the line segment OP.
+The azimuth (or azimuthal angle) is the signed angle measured from the azimuth reference direction to the orthogonal projection of the line segment OP on the reference plane.
+The sign of the azimuth is determined by choosing what is a positive sense of turning about the zenith. This choice is arbitrary, and is part of the coordinate system's definition.
+The elevation angle is 90 degrees (π/2 radians) minus the inclination angle.
+If the inclination is zero or 180 degrees (π radians), the azimuth is arbitrary. If the radius is zero, both azimuth and inclination are arbitrary.
+In linear algebra, the vector from the origin O to the point P is often called the position vector of P.

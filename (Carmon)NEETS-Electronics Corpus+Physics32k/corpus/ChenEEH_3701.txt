@@ -1,0 +1,9 @@
+Estimating the Model Order and Gain
+In practice, the ‘‘true’’ order of the system of equation 3.6 is
+unknown. A generally accepted rule of thumb is to allocate one
+pole pair per kilohertz of Nyquist bandwidth; then, if the
+segment is voiced, one can add an additional four or ﬁve
+(whichever makes the total even) (Markel and Gray, 1976).
+Since the order of the model would ordinarily not be changed
+from frame to frame, the ‘‘extra’’ four or ﬁve would be in-
+cluded for unvoiced speech frames. Hence, we choose:

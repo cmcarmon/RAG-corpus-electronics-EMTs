@@ -1,0 +1,10 @@
+An audio signal generator may not be able to produce a high enough voltage for you to test Zener
+diodes. You can, however, make this test with a diode test set or with the circuit shown in figure 2-10. In
+this circuit, R1 is used to adjust the input voltage to a suitable value for the Zener diode being tested.
+Resistor R2 limits the current through the diode. The signal voltage applied to the diode is also connected
+to the horizontal input of the oscilloscope. The voltage developed across current-measuring resistor R3 is
+applied to the vertical input of the oscilloscope. The horizontal sweep will therefore represent the applied
+voltage, and the vertical deflection will indicate the current through the diode under test. Figure 2-11
+shows the characteristic pattern of a Zener diode (note the sharp increase in current at the avalanche
+breakdown point). For the Zener diode to be acceptable, this voltage must be within the limits specified
+by the manufacturer.

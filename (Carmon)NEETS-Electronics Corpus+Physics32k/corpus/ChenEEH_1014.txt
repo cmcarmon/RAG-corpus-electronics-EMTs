@@ -1,0 +1,22 @@
+When scaling the supply voltage down, one can compensate
+for the speed loss by altering the device threshold voltage.
+Reducing the Vt (achieved by changing the substrate and
+channel dopant concentrations) allows the supply voltage to
+be scaled down without loss in speed. Unfortunately, such
+scaling leads to an exponential increase in the subthreshold
+leakage current (Wei et al., 2000). The limit of how low the Vt
+can go is determined by the requirement to set adequate noise
+margins and control the increase in subthreshold leakage cur-
+rents, as shown in Figure 5.13. The optimum Vt must be
+determined based on the current drives at low supply voltage
+operation and control of the leakage currents (Pedram, 1995).
+If the threshold voltage is reduced, then the whole characteris-
+tic curve moves toward the left, as Figure 5.8 illustrates. Thus
+for low threshold voltages, the device cannot be properly
+switched off (when Vgs ¼ 0 V ) and there is signiﬁcant short
+circuit current. The subthreshold currents can result in signiﬁ-
+cant static power dissipation. Essentially, subthreshold leakage
+occurs due to carrier diffusion between the source and the
+drain when the gate-source voltage Vgs has exceeded the weak
+inversion point but is still below the threshold voltage Vt ,
+where drift is dominant.

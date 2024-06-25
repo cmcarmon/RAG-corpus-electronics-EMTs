@@ -1,0 +1,17 @@
+This example illustrates a fundamental design principle of op amp circuits: If A is 
+very large, then the closed-loop gain is dependent only on the feedback resistors R1 and 
+R2.  Therefore,  the  closed-loop  gain  can  be  made  very  accurate  and  stable  since  very 
+accurate  and  stable  resistors  can  be  purchased. Effectively,  op  amps  use  feedback  to 
+exchange  high  open-loop  gain  for  stable  closed-loop  gain.  Additionally,  the  only 
+requirement in making this amplifier work as an ideal amplifier is that A must be large. A 
+does not need to a particular value, nor does it need to be linear with input (although, A 
+should maintain the same sign for all possible inputs). 
+ 
+10.4 Inverting Amplifier 
+ 
+The block diagram representation of an inverting amplifier is shown in Figure 10.3. Both 
+the  input  and  output  can  be  modeled  as  independent  sources  and  superposition  can  be 
+applied  to  determine  the  signal  applied  to  the  minus  terminal  of  the  op  amp.  Both  the 
+input and feedback signals should be negative before the summation point; however, in 
+keeping with the convention, the input side of the summation is positive and the feedback 
+side is negative. 

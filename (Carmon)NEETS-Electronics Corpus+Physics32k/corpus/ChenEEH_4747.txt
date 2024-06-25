@@ -1,0 +1,32 @@
+Remark 1
+The representation error bounds and the size of the ideal
+parameter vectors are assumed known because they affect the
+size of the residual set to which the states converge. It is
+possible to augment
+the direct adaptive algorithm with
+‘‘auto-tuning’’ capabilities similar to Polycarpou and Mears
+(1998), which would relax the need for these bounds.
+Furthermore, note that the stability result of theorem 1 is
+semiglobal in the sense that it is valid in the compact sets Svi
+and Sxi , i ¼ 1, . . ., n, which can be made arbitrarily large. The
+stability result may be made global by adding a high-gain
+bounding control term to the control law. Such a term may
+be particularly useful when, due to a complete lack of a priori
+knowledge, the control designer is unable to guarantee that the
+compact sets Sxi , i ¼ 1, . . ., n, are large enough so that the
+state will not exit them before the controller has time to
+bring the state inside Dd; moreover, it may also happen that
+due to a poor design and poor system knowledge, Dd is not
+contained in Sxn . In this case, too, bounding control terms may
+be helpful until the design is reﬁned and improved. Using
+bounding control, however, requires explicit knowledge of
+functional upper bounds of jcc
+i (v, Xi)j and also of the lower
+, i ¼ 1, . . . , n, whose knowledge we do not mandate
+bounds cc
+i
+in theorem 1. Bounding terms may be added to the diffeo-
+morphism in theorem 1, but we do not present the analysis
+since it is similar to the one we present here and it is algebra-
+ically tedious; we simply note, though, that the bounding
+terms have to be smooth (because they need to be differenti-

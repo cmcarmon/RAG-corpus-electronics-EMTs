@@ -1,0 +1,7 @@
+In the digital case, suppose that the value A is a logical ‘‘0.’’ The sender
+transmits this value of A by representing it as a voltage level of 1.25 V on
+the wire, which is received as a voltage level of 1.45 by the receiver because
+of the series noise source. In this situation, since the received voltage falls
+below the 2.5-V threshold, the receiver interprets it correctly as a logical ‘‘0.’’
+Thus, the sender and receiver were able to communicate without error in the
+digital case.

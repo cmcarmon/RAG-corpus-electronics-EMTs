@@ -1,0 +1,8 @@
+The instruction register stores the instruction 
+word to be decoded. The word is decoded by the in-
+struction decoder, which sends the appropriate logic 
+signal to the control pulse generator. The control pulse 
+generator produces a pulse when the appropriate clock 
+signal is given. The output of the control pulse genera-
+tor enables other circuitry in the computer to carry out 
+the specific instruction.

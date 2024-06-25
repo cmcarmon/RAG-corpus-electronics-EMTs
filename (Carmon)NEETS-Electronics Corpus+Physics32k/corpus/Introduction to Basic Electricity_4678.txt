@@ -1,0 +1,14 @@
+The program counter keeps track of the sequence 
+of instructions to be executed. The instructions are 
+stored in a program in memory. To begin the pro-
+gram, the starting address (specific memory location) 
+of the program is placed in the program counter. The 
+first instruction is read from memory, decoded, and 
+performed. The program counter then automatically 
+moves to the next instruction location. Each time an 
+instruction is fetched and executed, the program coun-
+ter advances one step until the program is completed.
+Some instructions specify a jump or branch to an-
+other location in the program. The instruction register 
+contains the address of the next instruction location 
+and it is loaded into the address register.

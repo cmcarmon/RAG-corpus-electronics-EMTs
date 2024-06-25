@@ -1,0 +1,6 @@
+Smoothing
+In  computing  the  language  model  probabilities,  we  desire  the  following:  fewer  parameters  to  estimate;  the
+available  data  is  sufﬁcient  for  the  estimation  of  parameters;  and  that  the  probability  can  be  constructed  at
+recognition  time  from  the  parameter  values  while  occupying  limited  storage.  Several  smoothing  techniques
+have  been  proposed  to  handle  the  scarcity  of  data  [25].  These  are  essential  in  the  construction  of  n-gram
+language models. They include linear smoothing, also known as deleted interpolation, backing-off, bucketing

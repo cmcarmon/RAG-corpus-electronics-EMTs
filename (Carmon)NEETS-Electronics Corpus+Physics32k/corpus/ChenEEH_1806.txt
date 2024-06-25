@@ -1,0 +1,14 @@
+Besides QoS-based routing, there are two relevant concepts
+called policy-based routing and constraint-based routing.
+Policy-based routing (Avramovic, 1992) commonly means the
+routing decision is not based on the knowledge of the network
+topology and metrics but on some administrative policies. For
+example, a policy may prohibit a trafﬁc ﬂow from using a
+speciﬁc link for security reason even if the link satisﬁes all
+the QoS constraints. Constraint-based routing (Kuipers et al.,
+2002) is another new concept that is derived from QoS-based
+routing but has a broader sense. In this routing, algorithm
+routes are computed based on multiple constraints, including
+both QoS constraints and policy constraints. Both QoS-based
+routing and policy-based routing can be considered as special
+cases of constraint-based routing.

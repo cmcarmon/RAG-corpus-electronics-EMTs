@@ -1,0 +1,5 @@
+Multiplexing is when multiple data signals share a common propagation path. Time
+multiplexing is when diﬀerent signals travel along the same wire but at diﬀerent times. These
+devices have data and address lines, and usually include an enable/disable input. When the
+device is disabled the output is locked into some particular state and is not eﬀected by the
+inputs. Shown in ﬁgure 7.15 is a 4-line to 1-line multiplexer.

@@ -1,0 +1,8 @@
+Our discussion thus far treated a MOSFET as a three-terminal device.
+Notice, however, that the MOSFET is controlled by the voltage across a pair of
+terminals, namely, G and S. Similarly, we were interested in the voltage across,
+and current through, the D and S terminal pair. As discussed in Section 1.5,
+this natural pairing of terminals suggests an alternate MOSFET representation
+using ports. As shown in Figure 6.12, we can treat the G and S terminal pair as
+the input port or the control port and the D and S terminal pair as the output
+port of the MOSFET.

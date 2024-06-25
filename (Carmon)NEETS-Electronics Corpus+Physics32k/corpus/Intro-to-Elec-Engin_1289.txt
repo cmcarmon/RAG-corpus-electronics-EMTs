@@ -1,0 +1,9 @@
+The binary sequence at the output of the channel encoder is passed on to the digital modulator,
+which functions as the interface to the communication channel. The primary purpose of the digital
+modulator is to map the binary information sequence into signal waveforms, since nearly all the
+communication channels used in practice are capable of transmitting electric signals (waveforms).
+Because the message has only two amplitudes in a binary system, the modulation process is known
+as keying. In amplitude-shift keying (ASK), a carrier’s amplitude is shifted or keyed between two
+levels. Phase-shift keying (PSK) involves keying between two phase angles of the carrier, whereas
+frequency-shift keying (FSK) consists of shifting a carrier’s frequency between two values. Many
+other forms of modulation are also possible.

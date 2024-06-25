@@ -1,0 +1,7 @@
+Another biasing method that can lead to similar results is the method shown in Fig. 24.10. In this method
+the bottom end of the source biasing resistor goes to a negative supply voltage VSS instead of to ground. The
+gate-to-source bias voltage is now given by VGS = VG –VS = 0 – (IDS · RS + VSS) so that for RS we now have RS =
+(–VGS  –  VSS)/IDS.  If  VSS  =  –10 V,  and  as  before  IDS  =  5 mA  and VGS  =  –1.17 V,  we  have  RS  =  11.7 V/5 mA  =
+2.34 kW, and thus gm RS = 7.9 as in the preceding example. So this method does indeed lead to results similar
+to that for the RS and VGG combination biasing. With either of these two methods the change in IDS due to a
+10% change in VP will be only 0.9%, and the change in IDS due to a 10% change in IDSS will be only 1.6%.

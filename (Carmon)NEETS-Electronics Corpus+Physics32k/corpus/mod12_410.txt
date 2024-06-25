@@ -1,0 +1,10 @@
+Figure 3-2 is a, simplified circuit that could be used as a cw demodulator. The antenna receives the rf
+oscillations from the transmitter. The tank circuit, L and C1, acts as a frequency-selective network that is
+tuned to the desired rf carrier frequency. The diode rectifies the oscillations and C2 provides filtering to
+provide a constant dc output to control the headset. This demodulator circuit is the equivalent of a wire
+telegraphy circuit but it has certain disadvantages. For example, if two transmitters are very close in
+frequency, distinguishing which transmitting station you are receiving is often impossible without a
+method of fine tuning the desired frequency. Also, if the stations are within the frequency bandpass of the
+input tank circuit, the tank output will contain a mixture of both signals. Therefore, a method, such as
+HETERODYNE DETECTION, must be used which provides more than just the information on the
+presence or absence of a signal.

@@ -1,0 +1,6 @@
+where VNAME is the name of the voltage source, N+ is the node number of the positive reference,
+N− is the node number of the negative reference, AC indicates that this is an ac source, VPEAK
+is the peak value of the voltage, and PHASE is the phase angle of the source in degrees. Current
+sources, which must begin with the letter I, are speciﬁed in a similar manner, with the reference
+direction for the current source pointing from the ﬁrst node number given in the statement to the
+second node number.

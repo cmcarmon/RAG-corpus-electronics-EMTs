@@ -1,0 +1,9 @@
+The presence of the dependent source in the circuit in Figure 2.67 does not
+alter the manner in which our approach to circuit analysis is applied. While this
+is an important observation, there is arguably a more important observation
+concerning the analysis of the dependent-source circuit, namely that it can
+proceed in stages. That is, it is possible to first analyze the operation of the
+‘‘input side’’ of the circuit, that is, the independent voltage source and the
+input of the dependent source, and then separately analyze the operation of
+the ‘‘output side,’’ that is, the dependent current source and the resistor RL.
+We will term this approach the sequential approach to circuit analysis.

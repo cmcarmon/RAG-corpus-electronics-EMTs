@@ -1,0 +1,10 @@
+To determine the number of lumps, the Biot number (Bi), a dimensionless parameter of the system, is used. Bi is defined as the ratio of the conductive heat resistance within the object to the convective heat transfer resistance across the object's boundary with a uniform bath of different temperature. When the thermal resistance to heat transferred into the object is larger than the resistance to heat being diffused completely within the object, the Biot number is less than 1. In this case, particularly for Biot numbers which are even smaller, the approximation of spatially uniform temperature within the object can begin to be used, since it can be presumed that heat transferred into the object has time to uniformly distribute itself, due to the lower resistance to doing so, as compared with the resistance to heat entering the object.
+If the Biot number is less than 0.1 for a solid object, then the entire material will be nearly the same temperature with the dominant temperature difference will be at the surface. It may be regarded as being "thermally thin". The Biot number must generally be less than 0.1 for usefully accurate approximation and heat transfer analysis. The mathematical solution to the lumped system approximation gives Newton's law of cooling.
+A Biot number greater than 0.1 (a "thermally thick" substance) indicates that one cannot make this assumption, and more complicated heat transfer equations for "transient heat conduction" will be required to describe the time-varying and non-spatially-uniform temperature field within the material body.
+The single capacitance approach can be expanded to involve many resistive and capacitive elements, with Bi < 0.1 for each lump. As the Biot number is calculated based upon a characteristic length of the system, the system can often be broken into a sufficient number of sections, or lumps, so that the Biot number is acceptably small.
+Some characteristic lengths of thermal systems are:
+Plate: thickness
+Fin: thickness/2
+Long cylinder: diameter/4
+Sphere: diameter/6
+For arbitrary shapes, it may be useful to consider the characteristic length to be volume / surface area.

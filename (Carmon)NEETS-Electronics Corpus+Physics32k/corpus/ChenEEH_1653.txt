@@ -1,0 +1,33 @@
+MPEG-4: Content-Based Video Coding
+The intention of MPEG-4 was to provide low bandwidth video
+compression at a data rate of 64 Kbps that can be transmitted
+over a single N-ISDN B channel. This goal has evolved to the
+development of ﬂexible, scalable, extendable, and interactive
+compression streams that can be used with any communica-
+tion network for universal accessibility (e.g., Internet and
+wireless networks). MPEG-4 is a genuine multimedia com-
+pression standard that supports audio and video as well as
+synthetic and animated images, text, graphics, texture, and
+speech synthesis (ISO/IEC, 1998). The foundation of MPEG-
+4 is on the hierarchical representation and composition of
+audio–visual objects (AVO). MPEG-4 provides a standard for
+the conﬁguration, communication, and instantiation of object
+classes: The conﬁguration phase determines the classes of
+objects required for processing the AVO by the decoder. The
+communication phase supplements existing classes of objects
+in the decoder. Finally, the instantiation phase sends the class
+descriptions to the decoder. A video object at a given point in
+time is a video object plane (VOP). Each VOP is encoded
+separately according to its shape, motion, and texture. The
+shape encoding of a VOP provides a pixel map or a bitmap
+of the object’s shape. The motion and texture encoding of a
+VOP can be obtained in a manner similar to that used in
+MPEG-2. A multiplexer is used to integrate and synchronize
+the VOP data and composition information—position, orien-
+tation, and depth—as well as other data associated with the
+AVOs in a speciﬁed bitstream. MPEG-4 provides universal
+accessibility supported by error robustness and resilience, es-
+pecially in noisy environments at very low data rates (less than
+64 Kbps): bit stream resynchronization, data recovery, and
+error concealment. These features are particularly important
+in mobile multimedia communication networks.

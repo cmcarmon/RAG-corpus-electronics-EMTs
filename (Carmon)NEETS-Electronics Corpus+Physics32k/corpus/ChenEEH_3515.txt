@@ -1,0 +1,20 @@
+signal is the control signal of a switch. At every instant
+of time, the switch is either open or closed depending
+on the control signal: if it is positive, the switch is open,
+whereas if it is negative, the switch is closed. Figure 1.2
+shows an example of the control signal.
+. Discrete-time or sampled data signals: A discrete-time
+signal x is a mapping x: Z ! R , where the domain
+is Z and the range is a subset of
+line.
+A discrete-time signal will be denoted as x[n], and not
+x, again using the engineering convention of attach-
+ing the time variable as argument. Note that
+the
+independent variable is integer-valued. Sampling a
+continuous-time signal at equally spaced instants is
+commonly used to produce a discrete-time signal.
+The distance, T , in time between two adjacent sam-
+pling instants is called the sampling interval, and its
+inverse is called sampling frequency. Upon sampling,
+x[n] ¼ xc (nT ).

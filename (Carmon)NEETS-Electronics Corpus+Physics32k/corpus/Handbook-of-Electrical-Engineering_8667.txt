@@ -1,0 +1,8 @@
+variables can be assigned to registers. The question is how the 68000 compiler chose which variables to assign
+to registers and which to leave in memory. As might be expected, the compiler assigned registers based on their
+usage for the unoptimized option as well as the optimized. The exact counting strategy is unknown. However,
+a fair estimate, which yields the same assignment as the compiler, is to count only the variable’s usage in the
+loop—the likely place for the program to spend most of its execution time. There are other ways to estimate
+the variable usage such as assigning weights to a reference based on its placement within a loop, its placement
+within a conditional (if-then-else) statement, etc. These estimates and how they are applied within a compiler
+can change the variable allocation as well as the efﬁciency of the code.

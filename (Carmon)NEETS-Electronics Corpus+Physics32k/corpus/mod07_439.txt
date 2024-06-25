@@ -1,0 +1,14 @@
+Now, let's consider a complete cycle of operation using a half-wave rectifier, a capacitive filter (C1), 
+and a load resistor (RL). As shown in view A of figure 4-17, the capacitive filter (C1) is assumed to be 
+large enough to ensure a small reactance to the pulsating rectified current. The resistance of RL is assumed 
+to be much greater than the reactance of C1 at the input frequency. When the circuit is energized, the 
+diode conducts on the positive half cycle and current flows through the circuit, allowing C1 to charge. C1 
+will charge to approximately the peak value of the input voltage. (The charge is less than the peak value 
+because of the voltage drop across the diode (D1)). In view A of the figure, the charge on C1 is indicated 
+by the heavy solid line on the waveform. As illustrated in view B, the diode cannot conduct on the 
+negative half cycle because the anode of D1 is negative with respect to the cathode. During this interval, 
+C1 discharges through the load resistor (RL). The discharge of C1 produces the downward slope as 
+indicated by the solid line on the waveform in view B. In contrast to the abrupt fall of the applied ac 
+voltage from peak value to zero, the voltage across C1 (and thus across RL) during the discharge period 
+gradually decreases until the time of the next half cycle of rectifier operation. Keep in mind that for good 
+filtering, the filter capacitor should charge up as fast as possible and discharge as little as possible. 

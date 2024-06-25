@@ -1,0 +1,13 @@
+Nodal  analysis  applies  KCL to  ﬁnd  unknown  voltages  in  a  given
+circuit,  while  mesh  analysis  applies  KVL to  ﬁnd  unknown  currents.
+Mesh  analysis  is  not  quite  as  general  as  nodal  analysis  because  it  is
+only  applicable  to  a  circuit  that  is  planar. A planar  circuit  is  one  that
+can  be  drawn  in  a  plane  with  no  branches  crossing  one  another;  oth-
+erwise  it  is  nonplanar. A circuit  may  have  crossing  branches  and  still
+be  planar  if  it  can  be  redrawn  such  that  it  has  no  crossing  branches.
+For example, the circuit in Fig. 3.15(a) has two crossing branches, but
+it can be redrawn as in Fig. 3.15(b). Hence, the circuit in Fig. 3.15(a)
+is planar. However, the circuit in Fig. 3.16 is nonplanar, because there
+is no way to redraw it and avoid the branches crossing. Nonplanar cir-
+cuits  can  be  handled  using  nodal  analysis,  but  they  will  not  be  con-
+sidered in this text.

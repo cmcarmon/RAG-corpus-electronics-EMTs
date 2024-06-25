@@ -1,0 +1,51 @@
+positive  with  respect  to  point  C.  In  this  condition 
+D1 will allow conduction (its anode will be positive 
+with respect to its cathode) while D2 will not allow 
+conduction (its anode will be negative with respect 
+to its cathode). Thus D1 alone conducts on positive 
+half-cycles. 
+  On negative half-cycles, point C will be positive 
+with respect to point B. Similarly, point B will be 
+positive  with  respect  to  point  A.  In  this  condition 
+D2 will allow conduction (its anode will be positive 
+with respect to its cathode) while D1 will not allow 
+conduction (its anode will be negative with respect 
+to its cathode). Thus D2 alone conducts on negative 
+half-cycles. 
+  Figure  6.11  shows  the  bi-phase  rectifier  circuit 
+with the diodes replaced by switches. In Fig. 6.11
+(a) D1 is shown conducting on a positive half-cycle 
+while in Fig. 6.11(b) D2 is shown conducting. The 
+result  is  that  current  is  routed  through  the  load  in 
+the  same  direction  on  successive  half-cycles. 
+Furthermore,  this  current  is  derived  alternately 
+from the two secondary windings. 
+  As  with  the  half-wave  rectifier,  the  switching 
+action  of  the  two  diodes  results  in  a  pulsating 
+output  voltage  being  developed  across  the  load 
+resistor (RL). However, unlike the half-wave circuit 
+the  pulses  of  voltage  developed  across  RL will 
+occur at a frequency of 100 Hz (not  50 Hz). This 
+doubling  of  the  ripple  frequency  allows  us  to  use 
+smaller values of reservoir and smoothing capacitor 
+to obtain the same degree of ripple reduction (recall 
+that  the  reactance  of  a  capacitor  is  reduced  as 
+frequency increases). 
+  As before, the peak voltage produced by each of 
+the secondary windings will be approximately 17 V 
+and the peak voltage across RL will be 16.3 V (i.e. 
+17  V  less  the  0.7  V  forward  threshold  voltage 
+dropped by the diodes). 
+  Figure  6.12  shows  how  a  reservoir  capacitor 
+(C1) can be added to ensure that the output voltage 
+remains at, or near, the peak voltage even when the 
+diodes  are  not  conducting.  This  component 
+operates  in  exactly  the  same  way  as  for  the  half-
+wave circuit, i.e. it charges to approximately 16.3 V 
+at the peak of the positive half-cycle and holds the 
+voltage  at  this  level  when  the  diodes  are  in  their 
+non-conducting states. The time required for C1 to 
+charge to the maximum (peak) level is determined 
+by  the  charging  circuit  time  constant  (the  series 
+resistance  multiplied  by  the  capacitance  value).  In 
+this  circuit,  the  series  resistance  comprises  the 

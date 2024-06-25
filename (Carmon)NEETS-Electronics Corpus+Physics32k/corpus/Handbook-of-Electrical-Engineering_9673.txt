@@ -1,0 +1,13 @@
+Here, we consider an ideal model in which any minority group (of the parties) may collude as follows. First,
+this minority shares its original inputs and decides together on replaced inputs to be sent to the trusted party.
+(The other parties send their respective original inputs to the trusted party.) When the trusted party returns
+the output, each majority player outputs it locally, whereas the colluding minority can compute outputs based
+on all they know. A secure multi-party computation with honest majority is required to simulate this ideal model.
+That is, the effect of any feasible adversary that controls a minority of the players in the actual protocol, can
+be essentially simulated by a (different) feasible adversary that controls the corresponding players in the ideal
+model.  This  means  that  in  a  secure  protocol,  the  effect  of  each  minority  group  is “essentially  restricted”  to
+replacing its own local inputs (independently of the local inputs of the majority players) before the protocol
+starts, and replacing its own local outputs (depending only on its local inputs and outputs) after the protocol
+terminates. (We stress that in the real execution, the minority players do obtain additional pieces of information;
+yet in a secure protocol, they gain nothing from these additional pieces of information, as they can actually
+reproduce those by themselves.)

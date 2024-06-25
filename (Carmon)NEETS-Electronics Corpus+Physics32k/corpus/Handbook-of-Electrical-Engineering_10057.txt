@@ -1,0 +1,6 @@
+In practice, it is common to solve the suboptimal H∞ problem where it is desired to ﬁnd an output feedback
+controller such that 㛳G㛳∞ < γ, where γ is speciﬁed by the designer. For large values of γ, there will always be a
+solution to the problem. In fact, as γ approaches inﬁnity in the equations below, the central H∞ controller will
+approach the LQG controller. By decreasing the value of γ until just before a solution to the problem ceases to
+exist, the designer can get as close to the optimal H∞ controller as desired. To ensure that a solution for some
+value of γ exists, the following standard assumptions on the system are made [Green and Limebeer, 1995]:

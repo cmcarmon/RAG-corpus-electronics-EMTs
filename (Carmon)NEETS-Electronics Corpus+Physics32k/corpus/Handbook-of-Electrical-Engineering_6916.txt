@@ -1,0 +1,4 @@
+Autocorrelation: A function associated with a random signal X(t) that is deﬁned on pairs of time instants t1
+and t2 and whose value is the expected value of the product of the random variables X(t1) and X(t2), i.e.,
+RXX(t1,t2) = E[X(t1)X(t2)]. For weakly stationary random signals, it depends only on the offset t = t2 – t1,
+so we write RXX(t) = E[X(t)X(t + t)].

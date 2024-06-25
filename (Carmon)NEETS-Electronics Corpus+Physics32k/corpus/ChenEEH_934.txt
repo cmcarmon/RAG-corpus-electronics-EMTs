@@ -1,0 +1,19 @@
+A natural way to solve the linear system described by equation
+4.61 is by back substitution,15 such that l is initially computed,
+followed by the computation of s. The Lagrange multipliers l
+are determined from the equation (BBt )l ¼ 2Bg in the second
+row of equation 4.61, where the right-hand side 2Bg is a
+nonzero vector; that is, Bg 6¼ {0}. The opposite situation,
+Bg ¼ {0}, is highly unlikely to occur since Bg ¼ {0} means
+that g 2 ker(B), which in turn means (recall equation 4.35
+through 4.38) that the objective clock schedule g is feasible
+and no optimization needs to be performed.16
+Therefore, the equation (BBt )l ¼ 2Bg in equation 4.61 can
+have either no solutions or exactly one solution depending on
+whether the matrix BBt is singular or not. In other words, the
+nonsingularity of BBt is a necessary and sufﬁcient condition for
+the existence of a unique solution ^sst ^llt
+of equation 4.60. If
+the product BBt
+is denoted by M, note that the symmetric
+nc  nc matrix:

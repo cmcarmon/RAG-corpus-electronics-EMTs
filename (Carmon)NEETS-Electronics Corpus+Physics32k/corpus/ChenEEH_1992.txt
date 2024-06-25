@@ -1,0 +1,11 @@
+started or ending, which block has been taken after the branch,
+and when a derived signature checking for each block is based
+on the received instructions. Because which instruction in a
+block that will be passed ﬁrst to the WD is not known a priori
+(except that it will be one of the ﬁrst K instructions), the
+derived signature is different for each of the K possibilities of
+the ﬁrst instruction of the block seen by the WD. Thus, every
+block must be assigned K signatures, each one for a different
+possible alignment. The signature is concurrently computed by
+the WD and compared with the K references stored in its
+memory to verify the correctness of the fetches.

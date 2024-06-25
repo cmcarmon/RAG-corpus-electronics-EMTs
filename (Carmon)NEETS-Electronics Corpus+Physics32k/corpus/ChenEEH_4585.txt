@@ -1,0 +1,8 @@
+. Ny(k þ 1) is the output of the actual system.
+. fy(k þ 1) is the output of the failure dynamics.
+. N ^yy(k þ 1) is the output of the nominal model.
+. N ~yy(k þ 1) is the remaining uncertainty between the
+nominal system and the nominal model.
+. nfy(k þ 1) is the output of the online estimator.
+. nf ~yy(k þ 1) is the remaining uncertainty between the esti-
+mator and the failure dynamics.

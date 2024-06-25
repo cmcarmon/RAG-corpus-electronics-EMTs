@@ -1,0 +1,7 @@
+Since we know that vi is small compared to VI, we can adopt the following
+linearization technique to obtain the combined response: Model the MOSFET
+characteristic curve accurately only in the vicinity of the bias point VI and dis-
+regard the rest of the curve. The Taylor series expansion is the natural tool for
+this task.
+The Taylor series expansion for the function y = f (x) in the vicinity of
+x = Xo is given by:

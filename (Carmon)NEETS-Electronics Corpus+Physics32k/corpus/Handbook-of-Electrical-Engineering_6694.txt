@@ -1,0 +1,8 @@
+of LANs. We will discuss the types of networks only brieﬂy and refer the reader to the many excellent texts on
+the  subject.  Layers  4  and  above  for  local-area  communications  networks  are  identical  to  those  of  wide-area
+networks. However, because the hosts communicating over a LAN share a single physical transmission facility,
+the  routing  functions  provided  by  the  network  layer,  layer  3,  are  not  necessary.  Thus,  the  functionality  of  a
+layer  3  in  a  LAN  can  be  substantially  simpliﬁed  without  loss  of  utility.  On  the  other  hand,  a  data  link  layer
+entity must now manage many simultaneous data link layer connections because all connections entering and
+leaving  a  host  on  a  single  LAN  do  so  over  a  single  physical  link.  Thus,  in  the  case  of  connection-oriented
+communications, the software must manage several virtual connections over a single physical link.

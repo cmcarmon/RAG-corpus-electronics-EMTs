@@ -1,0 +1,7 @@
+If the Op Amp integrator in Figure 15.19 is driven into negative saturation, then
+the appropriate subcircuit is shown in Figure 15.29. Our negative saturation
+model for the Op Amp says that vO is fixed at some voltage close to the
+negative power supply voltage, say−12 V. Because of the 12-V battery assumed
+at the output when the Op Amp is in saturation, the dependent source is no
+longer involved in the calculations, so the circuit reduces to a simple series RC
+configuration, as indicated in Figure 15.29b.

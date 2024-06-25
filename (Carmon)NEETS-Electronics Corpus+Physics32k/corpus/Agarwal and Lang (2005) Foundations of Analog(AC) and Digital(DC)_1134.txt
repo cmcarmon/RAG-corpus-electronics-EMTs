@@ -1,0 +1,6 @@
+As the second step, we determine the linearized small-signal models for
+each component. Referring to Figure 8.10, we see that the small-signal model
+for the DC power supply is a short. The small-signal model for the resistor is the
+same as its large-signal model. Finally, the linearized small-signal model for the
+MOSFET in saturation is a voltage-dependent current source whose small-signal
+current is linearly related to the small-signal gate-to-source voltage as:

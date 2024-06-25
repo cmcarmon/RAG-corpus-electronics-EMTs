@@ -1,0 +1,15 @@
+An analytic solution to an inverse kinematics problem is a closed-form expression that takes the end-effector pose as input and gives joint positions as output,
+
+
+
+q
+=
+f
+(
+x
+)
+
+
+{\displaystyle q=f(x)}
+. Analytical inverse kinematics solvers can be significantly faster than numerical solvers and provide more than one solution for a given end-effector pose.
+The IKFast open-source program can solve for the complete analytical solutions of most common robot manipulators and generate C++ code for them. The generated solvers cover most degenerate cases and can finish in microseconds on recent computers.

@@ -1,0 +1,11 @@
+Cycloconverter Induction Motor Drive
+A phase-controlled cycloconverter can be used for speed control of an ac machine (induction or synchronous
+type).  Figure 30.48  shows  a  drive  using  a  three-pulse  half-wave  or  18-thyristor  cycloconverter.  Each  output
+phase group consists of positive and negative converter components which permit bidirectional current ﬂow.
+The ﬁring angle of each converter is sinusoidally modulated to generate the variable-frequency, variable-voltage
+output required for ac machine drive. Speed reversal and regenerative mode operation are easy. The cyclocon-
+verter  can  be  operated  in  blocking  or  circulating  current  mode.  In  blocking  mode,  the  positive  or  negative
+converter is enabled, depending on the polarity of the load current. In circulating current mode, the converter
+components  are  always  enabled  to  permit  circulating  current  through  them.  The  circulating  current  reactor
+between the positive and negative converter prevents short circuits due to ripple voltage. The circulating current
+mode gives simple control and a higher range of output frequency with lower harmonic distortion.

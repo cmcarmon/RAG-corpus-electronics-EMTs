@@ -1,0 +1,10 @@
+is an oriented graph such that the variable xj in S is represented by a node (also denoted by xj) in Gl, and
+the coefﬁcient aij of the variable xj in S by a branch with a branch gain aij connected between nodes xi
+and xj in Gl and directed from xj to xi. Furthermore, a source node l is included in Gl such that for each
+constant bk in S there is a node with gain bk in Gl from node l to node sk. Graph Gij is the subgraph of
+Gl obtained by ﬁrst removing all the outgoing branches from node xj and then short-circuiting node l
+to  node  xj. A  loop  set  l  is  a  subgraph  of  Gl 0  that  contains  all  the  nodes  of  Gl 0  with  each  node  having
+exactly one incoming and one outgoing branch. The product  p of the gains of all the branches in  l is
+called a loop-set product. A 2-loop-set l2 is a subgraph of Glj containing all the nodes of Glj with each node
+having exactly one incoming and one outgoing branch. The product p2 of the gains of all the branches
+in l2 is called a 2-loop-set product.

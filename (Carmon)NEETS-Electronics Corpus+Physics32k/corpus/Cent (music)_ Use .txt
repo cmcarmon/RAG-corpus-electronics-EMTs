@@ -1,0 +1,54 @@
+Like a decibel's relation to intensity, a cent is a ratio between two close frequencies. For the ratio to remain constant over the frequency spectrum, the frequency range encompassed by a cent must be proportional to the two frequencies. An equally tempered semitone (the interval between two adjacent piano keys) spans 100 cents by definition. An octave—two notes that have a frequency ratio of 2:1—spans twelve semitones and therefore 1200 cents. Since a frequency raised by one cent is simply multiplied by this constant cent value, and 1200 cents doubles a frequency, the ratio of frequencies one cent apart is precisely equal to 2​1⁄1200 = 1200√2, the 1200th root of 2, which is approximately 1.0005777895.
+If one knows the frequencies a and b of two notes, the number of cents measuring the interval from a to b may be calculated by the following formula (similar to the definition of decibel):
+
+
+
+
+n
+=
+1200
+⋅
+
+log
+
+2
+
+
+⁡
+
+(
+
+
+b
+a
+
+
+)
+
+
+
+{\displaystyle n=1200\cdot \log _{2}\left({\frac {b}{a}}\right)}
+
+Likewise, if one knows a note a and the number n of cents in the interval from a to b, then b may be calculated by:
+
+
+
+
+b
+=
+a
+×
+
+2
+
+
+n
+1200
+
+
+
+
+
+{\displaystyle b=a\times 2^{\frac {n}{1200}}}
+
+To compare different tuning systems, convert the various interval sizes into cents. For example, in just intonation the major third is represented by the frequency ratio 5:4. Applying the formula at the top shows that this is about 386 cents. The equivalent interval on the equal-tempered piano would be 400 cents. The difference, 14 cents, is about a seventh of a half step, easily audible.

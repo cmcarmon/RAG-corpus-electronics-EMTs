@@ -1,0 +1,8 @@
+Transform Coding
+In transform coding, the video signal f (x,y,t) is subjected to an invertible transform, then quantized and encoded
+(see Fig. 17.17). The purpose of the transformation is to convert statistically dependent picture elements into
+a set of statistically independent coefﬁcients. In practice, one of the separable fast transforms in the class of
+unitary transforms is used, e.g., cosine, Fourier, or Hadamard. In general, the transform coding algorithms can
+be implemented in 2-D or 3-D. However, because of the real-time constraints of many video signal processing
+applications, it is typically more efﬁcient to combine a 2-D transform with a predictive algorithm in the temporal
+direction, e.g., motion compensation.

@@ -1,0 +1,8 @@
+Lowest Valid Input Voltage
+Notice from Figure 7.36 that the input voltage must be greater than VT for the
+MOSFET to exit its cut off region. When the input voltage is VT, the MOSFET
+exits its cutoff region and the output voltage of the amplifier is VS. When the
+input voltage is equal to VT, any positive value of vDS will cause the MOSFET
+to operate in its saturation region. Because we design the amplifier with VS > 0,
+and since vDS = VS, the MOSFET will be in its saturation region. Since VT is
+the lowest voltage for which the MOSFET is in saturation, we get

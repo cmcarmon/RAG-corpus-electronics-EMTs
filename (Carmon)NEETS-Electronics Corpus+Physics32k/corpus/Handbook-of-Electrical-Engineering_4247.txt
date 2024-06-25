@@ -1,0 +1,5 @@
+Returns from moving targets and clutter sources are offset from the radar carrier frequency by the associated
+Doppler frequency. As a function of range rate, R·, the Doppler frequency, f D, is given by 2R· /l.  A coherent
+pulse train samples the returns’ Doppler modulation at the PRF. Most radar systems employ parallel sampling
+in  the  in-phase  and  quadrature  baseband  channels  so  that  the  effective  sampling  rate  is  twice  the  PRF.  The
+target’s return is folded in frequency if the PRF is less than the target Doppler.

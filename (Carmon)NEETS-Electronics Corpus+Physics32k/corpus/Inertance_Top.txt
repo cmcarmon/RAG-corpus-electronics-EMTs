@@ -1,0 +1,152 @@
+Inertance is a measure of the pressure difference in a fluid required to cause a unit change in the rate of change of volumetric flow-rate with time. The base SI units of inertance are kg m−4 or Pa m−3 s2 and the usual symbol is I.
+The inertance of a tube is given by:
+
+
+
+
+I
+=
+
+
+
+ρ
+⋅
+ℓ
+
+A
+
+
+
+
+
+{\displaystyle I={\rho \cdot \ell  \over A}\,}
+
+where
+
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+is the density (with dimensionality of mass per volume) of the fluid
+
+
+
+
+ℓ
+
+
+{\displaystyle \ell }
+is the length of the tube
+
+
+
+
+A
+
+
+{\displaystyle A}
+is the cross-sectional area of the tube
+The pressure difference is related to the change in flow-rate by the equation:
+
+
+
+
+Δ
+p
+=
+I
+⋅
+
+
+
+Q
+˙
+
+
+
+=
+I
+⋅
+
+
+
+
+d
+
+Q
+
+
+
+d
+
+t
+
+
+
+
+
+{\displaystyle \Delta p=I\cdot {\dot {Q}}=I\cdot {\mathrm {d} Q \over {\mathrm {d} t}}}
+
+where
+
+
+
+
+p
+
+
+{\displaystyle p}
+is the pressure of the fluid
+
+
+
+
+Q
+
+
+{\displaystyle Q}
+is the volumetric flow-rate (with dimensionality of volume per time)
+This equation assumes constant density, that the acceleration is uniform, and that the flow is fully developed "plug flow". This precludes sharp bends, water hammer, and so on.
+To some, it may appear counterintuitive that an increase in cross-sectional area of a tube reduces the inertance of the tube. However, for the same mass flow-rate, a lower cross-sectional area implies a higher fluid velocity and therefore a higher pressure difference to accelerate the fluid.
+In respiratory physiology, inertance (of air) is measured in cmH2O L−1 s2.
+1 cmH2O L−1 s2 ≈ 98100 Pa m−3 s2.
+Using small-signal analysis, an inertance can be represented as a fluid reactance (c.f. electrical reactance)) through the relation:
+
+
+
+
+X
+=
+j
+ω
+I
+
+
+{\displaystyle X=j\omega I}
+
+where
+
+
+
+
+ω
+=
+2
+π
+f
+
+
+{\displaystyle \omega =2\pi f}
+
+
+
+
+
+f
+
+
+{\displaystyle f}
+is the frequency in Hz.

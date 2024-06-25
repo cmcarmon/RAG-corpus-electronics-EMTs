@@ -1,0 +1,15 @@
+(2) During the fault-on period, the system dynamics is
+governed by equation 7.79, and the fault-on period is
+from time t ¼ 0 through time t ¼ tc. Therefore, we
+integrate the equation 7.79 starting from the initial
+, vs)T at time t ¼ 0 for a time period
+condition (upre
+from t ¼ 0 to t ¼ tc. Let us denote the system state at
+the end of fault-on period numerical integration at
+time t ¼ tc by the clearing state (uc, vc)T .
+(3) At time t ¼ tc, the system equations change to the
+postfault equation 7.80. Therefore, we integrate the
+equation 7.80 starting from the
+clearing state
+(uc, vc)T at time t ¼ tc for a period of several seconds
+to assess whether the system response converges to the

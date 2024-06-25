@@ -1,0 +1,22 @@
+Hanchek, 1997). The cells are either 1-bit or 4-bit carry look-
+ahead (CLA) adders. REMOD was also applied to multipliers
+based on a Wallace tree and on a carry-save array for the sum-
+mation of partial product terms (Dutt and Hanchek, 1997). The
+multipliers are partitioned into arrays of independent subcells,
+but the high time overhead normally associated with independ-
+ent cells is masked through a clever application of REMOD.
+Original and checking computations overlap in time between
+adjacent rows of subcells as the computations proceed down the
+array or Wallace tree. The designs were laid out using the Berke-
+ley MAGIC tools for CMOS. The multiplier designs were
+implemented in CMOS dynamic logic. Delay elements were
+implemented as strings of
+inverters. Error injection gates
+were inserted into the layout to simulate stuck-at faults. The
+layout tools allow geometry information to be extracted and
+converted to SPICE parameters. Simulations of the circuits
+using delay element pipelining were then performed using
+HSPICE. The simulations successfully tested the functions of
+error detection and reconﬁguration, with selected nodes in the
+SPICE ﬁles for the circuits forced to logic high or low to simulate
+faults.

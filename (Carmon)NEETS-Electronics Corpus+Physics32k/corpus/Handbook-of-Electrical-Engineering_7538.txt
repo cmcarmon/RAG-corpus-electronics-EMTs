@@ -1,0 +1,7 @@
+used to interface the circuits together if these voltage requirements are not met. Of course, a driving circuit’s
+output must not exceed the maximum and minimum allowable input voltages for the driven circuit. Also, the
+current  sinking  and  sourcing  ability  of  the  driver  circuit’s  output  must  be  greater  than  the  total  current
+requirements for the loading circuit. Buffer gates or stages must be used if current requirements are not satisﬁed.
+All chips within a single logic family are designed to be compatible with other chips in the same family. Mixing
+chips from multiple subfamilies together within a single digital circuit can have adverse effects on the overall
+circuit’s switching speed and noise immunity.

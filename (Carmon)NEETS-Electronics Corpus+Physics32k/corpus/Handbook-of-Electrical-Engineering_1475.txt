@@ -1,0 +1,3 @@
+At each time t, it is necessary to keep track of the optimal precursor to state j, that is, the state which maximized
+the  above  probability.  Then,  at  the  end  of  the  utterance,  the  optimal  state  sequence  can  be  retrieved  by
+backtracking through the precursor list.

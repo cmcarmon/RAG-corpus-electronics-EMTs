@@ -1,0 +1,4 @@
+It is relatively easy to implement this suggested Bode diagram design procedure which is based upon considering
+only these break frequencies immediately above and below crossover and which approximate all others. Break
+frequencies far below crossover are approximated by integrations or differentiations, that is, poles or zeros at
+s = 0, and break frequencies far above the crossover frequency are ignored.

@@ -1,0 +1,12 @@
+Perhaps the simplest form of a code is the parity code. The basic concept of parity is very straightforward,
+but there are variations on the fundamental idea. Single-bit parity codes require the addition of an extra bit to
+a binary word such that the resulting code word has either an even number of 1s or an odd number of 1s. If
+odd parity.
+the extra bit results in the total number of 1s in the code word being odd, the code is referred to as 
+If the resulting number of 1s in the code word is even, the code is called 
+If a code word with odd
+parity experiences a change in one of its bits, the parity will become even. Likewise, if a code word with even
+parity  encounters  a  single-bit  change,  the  parity  will  become  odd.  Consequently,  a  single-bit  error  can  be
+detected by checking the number of ls in the code words. The single-bit parity code (either odd or even) has
+a distance of 2, therefore allowing any single-bit error to be detected but not corrected. Figure 93.4 illustrates
+the use of parity coding in a simple memory application.

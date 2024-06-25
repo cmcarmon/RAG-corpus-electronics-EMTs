@@ -1,0 +1,8 @@
+Figure 4-38 is the schematic for a typical shunt-type regulator. Notice that the schematic is identical 
+to the schematic shown in figure 4-37 except that voltages are shown to help you understand the functions 
+of the various components. In the circuit shown, the voltage drop across the Zener diode (CR1) remains 
+constant at 5.6 volts. This means that with a 20-volt input voltage, the voltage drop across R1 is 14.4 
+volts. With a base-emitter voltage of 0.7 volt, the output voltage is equal to the sum of the voltages across 
+CR1 and the voltage at the base-emitter junction of Q1. In this example, with an output voltage of 6.3 
+volts and a 20-volt input voltage, the voltage drop across RS equals 13.7 volts. Study the schematic to 
+understand fully how these voltages are developed. Pay close attention to the voltages shown. 

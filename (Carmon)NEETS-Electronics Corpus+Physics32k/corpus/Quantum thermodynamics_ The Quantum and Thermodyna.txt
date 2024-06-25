@@ -1,0 +1,63 @@
+Thermodynamic adiabatic processes have no entropy change. Typically, an external control modifies the state. A quantum version of an adiabatic process can be modeled by an externally controlled time dependent Hamiltonian
+
+
+
+H
+(
+t
+)
+
+
+{\displaystyle H(t)}
+. If the system is isolated, the dynamics are unitary, and therefore,
+
+
+
+
+S
+
+v
+n
+
+
+
+
+{\displaystyle S_{vn}}
+is a constant. A quantum adiabatic process is defined by the energy entropy
+
+
+
+
+S
+
+E
+
+
+
+
+{\displaystyle S_{E}}
+being constant. The quantum adiabatic condition is therefore equivalent to no net change in the population of the instantaneous energy levels. This implies that the Hamiltonian should commute with itself at different times:
+
+
+
+[
+H
+(
+t
+)
+,
+H
+(
+
+t
+′
+
+)
+]
+=
+0
+
+
+{\displaystyle [H(t),H(t')]=0}
+.
+When the adiabatic conditions are not fulfilled, additional work is required to reach the final control value. For an isolated system, this work is recoverable, since the dynamics is unitary and can be reversed. The coherence stored in the off-diagonal elements of the density operator carry the required information to recover the extra energy cost and reverse the dynamics. Typically, this energy is not recoverable, due to interaction with a bath that causes energy dephasing. The bath, in this case, acts like a measuring apparatus of energy. This lost energy is the quantum version of friction.

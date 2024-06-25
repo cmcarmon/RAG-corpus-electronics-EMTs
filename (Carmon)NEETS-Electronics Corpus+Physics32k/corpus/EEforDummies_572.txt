@@ -1,0 +1,5 @@
+Here’s the important thing: If the supply voltage varies up or down around its 
+nominal 9 V value, the current in the circuit will fluctuate but the voltage  
+across the load will remain the same: a constant 6.8 V. The Zener diode 
+allows current fluctuations while stabilizing the voltage, whereas the resistor 
+ voltage varies as the current fluctuates.

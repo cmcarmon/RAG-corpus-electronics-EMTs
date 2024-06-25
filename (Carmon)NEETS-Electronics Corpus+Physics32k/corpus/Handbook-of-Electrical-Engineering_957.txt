@@ -1,0 +1,7 @@
+Commercial software is available that provides both extraction and optimization together. The idea here is
+to ﬁrst use extraction techniques to make reasonable initial guesses and then use these results as a starting point
+for optimization, because optimization can give very poor results if poor initial guesses for the parameters are
+used. Nothing is wrong with using extraction techniques to provide initial guesses for optimization, but for an
+experienced user this is rarely necessary, assuming that the least-squares curve ﬁtting routine is robust (converges
+well) and the experienced user has some knowledge of the process under characterization. Software that relies
+heavily on extraction may do so because of the nonrobustness of its optimizer.

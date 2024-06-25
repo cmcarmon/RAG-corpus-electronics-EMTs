@@ -1,0 +1,12 @@
+The numbers clearly show the increasing impedance of the inductor as the frequency is
+increased. At the relatively low frequency of 100 kHz, the low impedance of the inductor
+causes the amplitude of the response to be similar to that of the input signal (8.5 V versus
+10 V). Conversely, at the high frequency of 10 MHz, the amplitude of the response is
+much smaller than that of the input (0.16 V versus 10 V).
+Thus far, in this example, we computed the amplitude of vo at three specific frequencies.
+In general, we can also graph any parameter of interest as a function of frequency.
+Commonly, we graph the form of the amplitude and the phase of the transfer function
+Vo/Vi as a function of frequency ω (Equation 13.57). Although this seems difficult to do
+by inspection, we will learn a technique for doing so in Section 13.4. A computer
+generated plot of the magnitude and phase of Vo/Vi versus frequency is shown in
+Figure 13.12. The same magnitude graph plotted on a log-log scale in Figure 13.13

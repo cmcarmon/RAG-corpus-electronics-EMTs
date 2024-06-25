@@ -1,0 +1,5 @@
+FWER control exerts a more stringent control over false discovery compared to false discovery rate (FDR) procedures. FWER control limits the probability of at least one false discovery, whereas FDR control limits (in a loose sense) the expected proportion of false discoveries. Thus, FDR procedures have greater power at the cost of increased rates of type I errors, i.e., rejecting null hypotheses that are actually true.
+On the other hand, FWER control is less stringent than per-family error rate control, which limits the expected number of errors per family. Because FWER control is concerned with at least one false discovery, unlike per-family error rate control it does not treat multiple simultaneous false discoveries as any worse than one false discovery. The Bonferroni correction is often considered as merely controlling the FWER, but in fact also controls the per-family error rate.
+
+
+== References ==

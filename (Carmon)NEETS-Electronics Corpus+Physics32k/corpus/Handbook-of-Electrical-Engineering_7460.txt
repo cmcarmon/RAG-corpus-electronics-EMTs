@@ -1,0 +1,5 @@
+a problem. If it is a concern, one should ensure that one period of the PN sequence generator is longer than
+the total execution time of the simulation. This is usually not a signiﬁcant problem, since one can easily construct
+BSRs that have periods greater than 1027 clock cycles. The ﬁnal concern is how closely the behavior of the PN
+sequence generator matches a truly random sequence. Standard statistical analysis algorithms have been applied
+to many of these generators to validate their performance.

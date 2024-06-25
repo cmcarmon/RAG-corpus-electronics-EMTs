@@ -1,0 +1,114 @@
+Bob now possesses
+The message-bit b
+The corresponding private keys
+
+
+
+
+k
+
+0
+
+
+
+or
+
+
+k
+
+1
+
+
+
+
+{\displaystyle k_{0}{\text{ or }}k_{1}}
+
+All public keys
+
+
+
+{
+
+|
+
+
+f
+
+
+k
+
+0
+
+
+
+
+⟩
+,
+
+|
+
+
+f
+
+
+k
+
+1
+
+
+
+
+⟩
+}
+
+
+{\displaystyle \{|f_{k_{0}}\rangle ,|f_{k_{1}}\rangle \}}
+
+Now Bob calculates
+
+
+
+
+|
+
+
+f
+
+
+k
+
+b
+
+
+
+
+⟩
+
+
+{\displaystyle |f_{k_{b}}\rangle }
+for all received private keys (either
+
+
+
+
+k
+
+0
+
+
+
+or
+
+
+k
+
+1
+
+
+
+
+{\displaystyle k_{0}{\text{ or }}k_{1}}
+).
+After he has done so he makes use of the swap test to compare the calculated states with the received public keys. Since the swap test has some probability to give the wrong answer he has to do it for all the M keys and counts how many incorrect keys he gets r. It is obvious, that M is some kind of a security parameter. It is more unlikely to validate a bit wrong for bigger M.
+If he only gets a few incorrect keys, then the bit is most probably valid, because his calculated keys and the public keys seem to be the same.
+If he gets many incorrect keys, then somebody faked the message with high probability.

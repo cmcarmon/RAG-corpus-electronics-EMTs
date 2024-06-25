@@ -1,0 +1,15 @@
+. Type : P ! ZP is one-to-one mapping, giving the data
+deﬁnition of ZN. For each place p 2 P, Type maps p to
+a unique Z schema z 2 ZP such that p ¼ name(z). The
+type of p is deﬁned by the signature of z.
+. TC: T ! ZT is one-to-one mapping, providing the func-
+tionality deﬁnition of ZN. For each transition t 2 T , C
+maps t to a Z schema z 2 ZT such that t ¼ name(z). The
+functional processing of t is deﬁned by the property of z.
+Furthermore, the following constraint is satisﬁed. For any
+p 2 P, t 2 T :
+(1) If (p, t ) 2 F, then sig(Type (p)) \ sig(TC(t)) 6¼ 1.
+(2) If (t , p) 2 F, then sig(Type (p)) \ sig(TC(t)) 6¼ 1.
+. A: F ! PVar is the control ﬂow deﬁnition of ZN, where
+Var is the set of all hidden variables (through quantiﬁ-
+cation) in ZT. Let Var(t) denote the set of hidden

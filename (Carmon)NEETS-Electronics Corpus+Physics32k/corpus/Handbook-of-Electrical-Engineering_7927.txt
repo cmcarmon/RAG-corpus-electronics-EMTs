@@ -1,0 +1,32 @@
+General
+A3 ‹ A2
+A3 ‹ B4
+A1–3 ‹ B1–3
+A1,4 ‹ B1,4
+A1–3 ‹ Bz
+Arithmetic
+B ‹ 0 
+A ‹ B2 + C 
+A ‹ B – C 
+C ‹ C + 1 
+Logic
+A ‹ B ‘ C 
+A ‹ B ~ C4
+C ‹ 
+B ‹ 
+ + 1 
+B ‹ A % C 
+Serial
+B ‹ sr B 
+B ‹ sl B 
+B ‹ sr2 B 
+B ‹ rr B 
+B ‹ rl2 B 
+B ‹ scr B 
+B ‹ scl B 
+B, C ‹ sr2 B, C 
+Conditional
+IF (B4 = 1) 
+C ‹ 0
+IF (B ‡ C)
+B ‹ 0, C1 ‹ 1 

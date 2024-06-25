@@ -1,0 +1,4 @@
+Viterbi Search
+The Viterbi algorithm [11] introduced previously ﬁnds the most likely path through an HMM. Equation (15.66)
+demands that we ﬁnd for each candidate word string W, the probability of the set of paths that corresponds to
+the word string W and then identify the word string whose set of paths has the highest probability.

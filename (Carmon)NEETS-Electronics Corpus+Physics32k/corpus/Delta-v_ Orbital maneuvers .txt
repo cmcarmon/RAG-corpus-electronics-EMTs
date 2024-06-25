@@ -1,0 +1,170 @@
+Orbit maneuvers are made by firing a thruster to produce a reaction force acting on the spacecraft. The size of this force will be
+
+where
+vexh is the velocity of the exhaust gas in rocket frame
+ρ is the propellant flow rate to the combustion chamber
+The acceleration
+
+
+
+
+
+
+v
+˙
+
+
+
+
+
+
+{\displaystyle {\dot {v}}\,}
+of the spacecraft caused by this force will be
+
+where m is the mass of the spacecraft
+During the burn the mass of the spacecraft will decrease due to use of fuel, the time derivative of the mass being
+
+If now the direction of the force, i.e. the direction of the nozzle, is fixed during the burn one gets the velocity increase from the thruster force of a burn starting at time
+
+
+
+
+t
+
+0
+
+
+
+
+
+{\displaystyle t_{0}\,}
+and ending at t1 as
+
+Changing the integration variable from time t to the spacecraft mass m one gets
+
+Assuming
+
+
+
+
+v
+
+exh
+
+
+
+
+
+{\displaystyle v_{\text{exh}}\,}
+to be a constant not depending on the amount of fuel left this relation is integrated to
+
+which is the Tsiolkovsky rocket equation.
+If for example 20% of the launch mass is fuel giving a constant
+
+
+
+
+v
+
+exh
+
+
+
+
+
+{\displaystyle v_{\text{exh}}\,}
+of 2100 m/s (a typical value for a hydrazine thruster) the capacity of the reaction control system is
+
+
+
+
+Δ
+
+v
+
+=
+2100
+
+ln
+⁡
+
+(
+
+
+1
+0.8
+
+
+)
+
+
+
+m/s
+
+=
+460
+
+
+m/s
+
+.
+
+
+{\displaystyle \Delta {v}=2100\ \ln \left({\frac {1}{0.8}}\right)\,{\text{m/s}}=460\,{\text{m/s}}.}
+
+If
+
+
+
+
+v
+
+exh
+
+
+
+
+
+{\displaystyle v_{\text{exh}}\,}
+is a non-constant function of the amount of fuel left
+
+
+
+
+
+v
+
+exh
+
+
+=
+
+v
+
+exh
+
+
+(
+m
+)
+
+
+
+{\displaystyle v_{\text{exh}}=v_{\text{exh}}(m)\,}
+
+the capacity of the reaction control system is computed by the integral (5)
+The acceleration (2) caused by the thruster force is just an additional acceleration to be added to the other accelerations (force per unit mass) affecting the spacecraft and the orbit can easily be propagated with a numerical algorithm including also this thruster force. But for many purposes, typically for studies or for maneuver optimization, they are approximated by impulsive maneuvers as illustrated in figure 1 with a
+
+
+
+Δ
+
+v
+
+
+
+
+{\displaystyle \Delta {v}\,}
+as given by (4). Like this one can for example use a "patched conics" approach modeling the maneuver as a shift from one Kepler orbit to another by an instantaneous change of the velocity vector.
+
+This approximation with impulsive maneuvers is in most cases very accurate, at least when chemical propulsion is used. For low thrust systems, typically electrical propulsion systems, this approximation is less accurate. But even for geostationary spacecraft using electrical propulsion for out-of-plane control with thruster burn periods extending over several hours around the nodes this approximation is fair.

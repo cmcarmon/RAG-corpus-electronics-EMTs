@@ -1,0 +1,16 @@
+The input variables in a fuzzy control system are in general mapped by sets of membership functions similar to this, known as "fuzzy sets". The process of converting a crisp input value to a fuzzy value is called "fuzzification".
+A control system may also have various types of switch, or "ON-OFF", inputs along with its analog inputs, and such switch inputs of course will always have a truth value equal to either 1 or 0, but the scheme can deal with them as simplified fuzzy functions that happen to be either one value or another.
+Given "mappings" of input variables into membership functions and truth values, the microcontroller then makes decisions for what action to take, based on a set of "rules", each of the form:
+
+IF brake temperature IS warm AND speed IS not very fast
+THEN brake pressure IS slightly decreased.
+
+In this example, the two input variables are "brake temperature" and "speed" that have values defined as fuzzy sets. The output variable, "brake pressure" is also defined by a fuzzy set that can have values like "static" or "slightly increased" or "slightly decreased" etc.
+This rule by itself is very puzzling since it looks like it could be used without bothering with fuzzy logic, but remember that the decision is based on a set of rules:
+All the rules that apply are invoked, using the membership functions and truth values obtained from the inputs, to determine the result of the rule.
+This result in turn will be mapped into a membership function and truth value controlling the output variable.
+These results are combined to give a specific ("crisp") answer, the actual brake pressure, a procedure known as "defuzzification".
+This combination of fuzzy operations and rule-based "inference" describes a "fuzzy expert system".
+Traditional control systems are based on mathematical models in which the control system is described using one or more differential equations that define the system response to its inputs. Such systems are often implemented as "PID controllers" (proportional-integral-derivative controllers). They are the products of decades of development and theoretical analysis, and are highly effective.
+If PID and other traditional control systems are so well-developed, why bother with fuzzy control? It has some advantages. In many cases, the mathematical model of the control process may not exist, or may be too "expensive" in terms of computer processing power and memory, and a system based on empirical rules may be more effective.
+Furthermore, fuzzy logic is well suited to low-cost implementations based on cheap sensors, low-resolution analog-to-digital converters, and 4-bit or 8-bit one-chip microcontroller chips. Such systems can be easily upgraded by adding new rules to improve performance or add new features. In many cases, fuzzy control can be used to improve existing traditional controller systems by adding an extra layer of intelligence to the current control method.

@@ -1,0 +1,16 @@
+Pilot Protection
+Pilot protection of transmission lines uses communication channels (pilot channels) between the line terminals
+as an integral element of the protection system. In general, pilot schemes may be subdivided into categories
+according to the medium of communication used. For example, the pilot channels may be wire pilots, leased
+telephone circuits, dedicated telephone circuits, microwave channels, power line carriers, or ﬁber optic channels.
+Pilot  protection  schemes  may  also  be  categorized  according  to  their  function,  such  as  a  tripping  pilot  or  a
+blocking pilot. In the former, the communication medium is used to send a tripping signal to a remote line
+terminal,  while  in  the  latter,  the  pilot  channel  is  used  to  send  a  signal  that  prevents  tripping  at  the  remote
+terminal  for  faults  outside  the  zone  of  protection  of  the  relays.  The  power  line  carrier  system  is  the  most
+common system used in the United States. It uses a communication channel with a carrier signal frequency
+ranging  between  30  and  300 kHz,  the  most  common  bands  being  around  100 kHz.  The  modulated  carrier
+signal is coupled into one or more phases of the power line through coupling capacitors. In almost all cases,
+the capacitors of the capacitive-coupled voltage transformers are used for this function (see Fig. 61.46). The
+carrier signal is received at both the sending and the receiving ends of the transmission line by tuned receivers.
+The carrier signal is blocked from ﬂowing into the rest of the power system by blocking ﬁlters, which are parallel
+resonant circuits, known as wave traps.

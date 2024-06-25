@@ -1,0 +1,9 @@
+First, memories must be allocated: a number of memories is
+chosen from the available memory types and the different port
+conﬁgurations, different types are possibly mixed with each
+other, and some memories may be multiported. The dimen-
+sions of the memories are however only determined in the
+second stage. When arrays are assigned to memories, their sizes
+can be added up and the maximum bit width can be taken to
+determine the required size and bit width of the memory. With
+this decision, the memory organization is fully determined.

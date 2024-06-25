@@ -1,0 +1,9 @@
+notion of breaking it. Speciﬁcally, the attacker is allowed to obtain signatures to any message of his choice. One
+may argue that in many applications, such a general attack is not possible (as messages to be signed must have
+a speciﬁc format). Yet, our view is that it is impossible to deﬁne a general (i.e., application-independent) notion
+of admissible messages, and thus a general/robust deﬁnition of an attack seems to have to be formulated, as
+suggested  here.  (Note  that,  at  worst,  our  approach  is  overly  cautious.)  Likewise,  the  adversary  is  said  to  be
+successful if he can produce a valid signature to any message for which he has not asked for a signature during
+his attack. Again, this refers to the ability to form signatures to possibly “nonsensical” messages as a breaking
+of the scheme. Yet, again, we see no way to have a general (i.e., application-independent) notion of “meaningful”
+messages (so that only forging signatures to them will be consider a breaking of the scheme).

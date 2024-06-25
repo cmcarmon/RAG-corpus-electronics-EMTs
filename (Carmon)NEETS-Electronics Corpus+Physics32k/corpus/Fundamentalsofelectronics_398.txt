@@ -1,0 +1,11 @@
+Exercise 4.9
+(Solution on p. 140.)
+Compare the bandwidth required for the direct encoding scheme (one nonzero Fourier coeﬃcient
+for each letter) to the binary number scheme. Compare the bandwidths for a 128-letter alphabet.
+Since both schemes represent information without loss – we can determine the typed letter uniquely
+from the signal’s spectrum – both are viable. Which makes more eﬃcient use of bandwidth and
+thus might be preferred?
+Exercise 4.10
+(Solution on p. 140.)
+Can you think of an information-encoding scheme that makes even more eﬃcient use of the spec-
+trum? In particular, can we use only one Fourier coeﬃcient to represent N letters uniquely?

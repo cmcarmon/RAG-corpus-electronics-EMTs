@@ -1,0 +1,10 @@
+Gray Scale
+The ac or dc memory displays cannot use pulse intensity or pulse width modulation for gray scale because the
+pixels  in  memory  mode  are  either  on  or  off  and  such  pulse  perturbations  would,  in  many  cases,  have  the
+undesirable  effect  of  changing  the  state  of  the  pixel.  Instead  these  memory  displays  achieve  gray  scale  by
+modulating the percentage of time that the pixel is on in a given frame. This means that the pixels must be
+addressed multiple times per frame. In the sequence shown in Fig. 83.34 for 256 intensity levels, each frame is
+divided into eight sub-ﬁelds and each sub-ﬁeld consists of an address period and a sustain period [Yoshikawa,
+1992]. During a given address period, address pulses are applied to all pixels in the panel according to the sub-
+ﬁeld  image  data.  Each  of  the  eight  sub-ﬁelds  has  a  sustain  period  with  a  different  number  of  sustain  cycles
+which emits an amount of light proportional to the number of sustain cycles. If each data bit of a given pixel

@@ -1,0 +1,72 @@
+In mathematics the Lyapunov exponent or Lyapunov characteristic exponent of a dynamical system is a quantity that characterizes the rate of separation of infinitesimally close trajectories. Quantitatively, two trajectories in phase space with initial separation
+
+
+
+δ
+
+
+Z
+
+
+0
+
+
+
+
+{\displaystyle \delta \mathbf {Z} _{0}}
+diverge (provided that the divergence can be treated within the linearized approximation) at a rate given by
+
+
+
+
+
+|
+
+δ
+
+Z
+
+(
+t
+)
+
+|
+
+≈
+
+e
+
+λ
+t
+
+
+
+|
+
+δ
+
+
+Z
+
+
+0
+
+
+
+|
+
+
+
+{\displaystyle |\delta \mathbf {Z} (t)|\approx e^{\lambda t}|\delta \mathbf {Z} _{0}|}
+
+where
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+is the Lyapunov exponent.
+The rate of separation can be different for different orientations of initial separation vector. Thus, there is a spectrum of Lyapunov exponents—equal in number to the dimensionality of the phase space. It is common to refer to the largest one as the Maximal Lyapunov exponent (MLE), because it determines a notion of predictability for a dynamical system. A positive MLE is usually taken as an indication that the system is chaotic (provided some other conditions are met, e.g., phase space compactness). Note that an arbitrary initial separation vector will typically contain some component in the direction associated with the MLE, and because of the exponential growth rate, the effect of the other exponents will be obliterated over time.
+The exponent is named after Aleksandr Lyapunov.

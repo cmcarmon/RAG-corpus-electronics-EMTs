@@ -1,0 +1,16 @@
+In this chapter, which is based on Szidarovszky and Bahill [1992], we ﬁrst discuss stability in general and then
+present four techniques for assessing the stability of a system: (1) Lyapunov functions, (2) ﬁnding the eigenvalues
+for  state-space  notation,  (3)  ﬁnding  the  location  in  the  complex  frequency  plane  of  the  poles  of  the  closed-
+loop  transfer  function,  and  (4)  proving  bounded  outputs  for  all  bounded  inputs.  Proving  stability  with
+Lyapunov functions is very general: it works for nonlinear and time-varying systems. It is also good for doing
+proofs.  Proving  the  stability  of  a  system  with  Lyapunov  functions  is  difﬁcult,  however,  and  failure  to  ﬁnd  a
+Lyapunov function that proves a system is stable does not prove that the system is unstable. The next techniques
+we present, ﬁnding the eigenvalues or the poles of the transfer function, are sometimes difﬁcult, because they
+require factoring high-degree polynomials. Many commercial software packages are now available for this task,
+however. We think most engineers would beneﬁt by having one of these computer programs. Jamshidi et al.
+IEEE
+[1992]  and  advertisements  in  technical  publications  such  as  the 
+  describe  many  appropriate  software  packages.  The  last  technique  we  present,  bounded-input,
+Spectrum
+bounded-output stability, is also quite general.
+ and 

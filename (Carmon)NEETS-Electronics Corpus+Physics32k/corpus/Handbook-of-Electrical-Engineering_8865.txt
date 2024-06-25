@@ -1,0 +1,10 @@
+The  requirement  that  the  cache  memory  be  associative  (content-addressable)  complicates  the  design.
+Addressing data by content is inherently more complicated than by its address. All the tags must be compared
+concurrently, of course, because the whole point of the cache is to achieve low latency. The cache can be made
+simpler, however, by introducing a mapping of memory locations to cache cells. This mapping limits the number
+, in which
+of possible cells in which a particular line may reside. The extreme case is known as 
+each memory location is mapped to a single location in the cache. Direct mapping makes many aspects of the
+design simpler, since there is no choice of where the line might reside, and no choice as to which line must be
+replaced. However, direct mapping can result in poor utilization of the cache when two memory locations are
+alternately accessed and must share a single cache cell.

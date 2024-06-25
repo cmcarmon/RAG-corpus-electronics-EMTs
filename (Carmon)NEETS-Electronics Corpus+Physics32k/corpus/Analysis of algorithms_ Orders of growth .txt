@@ -1,0 +1,26 @@
+Informally, an algorithm can be said to exhibit a growth rate on the order of a mathematical function if beyond a certain input size n, the function
+
+
+
+f
+(
+n
+)
+
+
+{\displaystyle f(n)}
+times a positive constant provides an upper bound or limit for the run-time of that algorithm. In other words, for a given input size n greater than some n0 and a constant c, the running time of that algorithm will never be larger than
+
+
+
+c
+×
+f
+(
+n
+)
+
+
+{\displaystyle c\times f(n)}
+. This concept is frequently expressed using Big O notation. For example, since the run-time of insertion sort grows quadratically as its input size increases, insertion sort can be said to be of order O(n2).
+Big O notation is a convenient way to express the worst-case scenario for a given algorithm, although it can also be used to express the average-case — for example, the worst-case scenario for quicksort is O(n2), but the average-case run-time is O(n log n).

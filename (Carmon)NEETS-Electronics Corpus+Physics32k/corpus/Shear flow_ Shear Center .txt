@@ -1,0 +1,6 @@
+For a given structure, the shear center is the point in space at which shear force could be applied without causing torsional deformation (e.g. twisting) of the cross-section of the structure. The shear center is an imaginary point, but does not vary with the magnitude of the shear force - only the cross-section of the structure. The shear center always lies along the axis of symmetry, and can be found using the following method:
+Apply an arbitrary resultant shear force
+Calculate the shear flows from this shear force
+Choose a reference point o an arbitrary distance e from the point of application of the load
+Calculate the moment about o using both shear flows and the resultant shear force, and equate the two expressions. Solve for e
+The distance e and the axis of symmetry give the coordinate for the shear center, independent of the shear force magnitude.

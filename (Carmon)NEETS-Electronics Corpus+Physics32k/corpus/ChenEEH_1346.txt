@@ -1,0 +1,7 @@
+The existence of caches local to each processor in a multi-
+processor system introduces the problem of cache coherence.
+Multiple copies of data could possibly exist in different caches
+simultaneously due to shared data structures or because of
+process migration between processors. Each processor must
+be sure that when it reads a line of memory from its cache,
+the line has not been previously overwritten in the cache of

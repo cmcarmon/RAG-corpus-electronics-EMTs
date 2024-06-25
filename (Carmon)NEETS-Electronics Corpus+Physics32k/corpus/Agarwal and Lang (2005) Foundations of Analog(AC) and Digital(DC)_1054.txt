@@ -1,0 +1,9 @@
+l a r g e s i g n a l a n a l y s i s o f a n o p e r a -
+e x a m p l e 7.21
+t i o n a l a m p l i f i e r c i r c u i t As will be clear in Chapter 15, the dif-
+ferential amplifier shown in Figure 7.62 does not quite fit our notion of an operational
+amplifier because vOUT is not zero for vIN1 = vIN2. This can be remedied with the addi-
+tion of a common-source stage built with a p-channel MOSFET, as shown in Figure 7.63.
+The common-source stage shifts the level of the output so that vOUT can be zero for
+vIN1 = vIN2. It also provides additional voltage gain. Thus the circuit in Figure 7.63
+serves as a simple operational amplifier.

@@ -1,0 +1,11 @@
+In  reality,  c(t)  is  never  generated  in  the  transmitter.  Rather,  x(t)  is  obtained  by  applying  the  sequence  of
+pseudorandom frequency shifts {fn} directly to the frequency synthesizer that generates the carrier frequency fc
+(see Fig. 70.15). In terms of the actual implementation, successive (not necessarily disjoint) k-chip segments
+of a PN sequence drive a frequency synthesizer, which hops the carrier over 2k frequencies. In view of the large
+bandwidths over which the frequency synthesizer must operate, it is difﬁcult to maintain phase coherence from
+hop to hop, which explains the inclusion of the sequence {fn} in the Eq. (70.5) model for c(t). On a short term
+basis, e.g., within a given hop, the signal bandwidth is identical to that of the MFSK information modulation,
+which  is  typically  much  smaller  than  Wss.  On  the  other  hand,  when  averaged  over  many  hops,  the  signal
+bandwidth is equal to Wss, which can be on the order of several GHz, i.e., an order of magnitude larger than
+that  of  implementable  DS  bandwidths.  The  exact  relation  between Wss, Th, Ts  and  the  number  of  frequency
+shifts in the set {fn} will be discussed shortly.

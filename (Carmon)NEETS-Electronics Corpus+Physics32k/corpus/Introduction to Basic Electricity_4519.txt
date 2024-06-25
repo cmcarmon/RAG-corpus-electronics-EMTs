@@ -1,0 +1,5 @@
+For serial-to-parallel data conversion, the data are 
+initially shifted into the shift register with clock pulses. 
+Once the data are in the shift register, the outputs of 
+the individual flip-flops are monitored simultaneously, 
+and the data are routed to their destination.

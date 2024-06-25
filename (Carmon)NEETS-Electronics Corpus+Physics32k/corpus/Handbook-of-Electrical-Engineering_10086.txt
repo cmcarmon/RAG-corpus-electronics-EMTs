@@ -1,0 +1,3 @@
+where L is the cost function as a function of system state x and control u. Thus, at each time step, the goal is
+to minimize Jk subject to system dynamics and control constraints, with k denoting the current time step and
+N the prediction horizon.

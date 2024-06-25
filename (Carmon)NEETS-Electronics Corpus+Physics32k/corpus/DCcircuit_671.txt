@@ -1,0 +1,7 @@
+This is how practical electrical meters are designed and used: a sensitive meter movement
+is built to operate with as little voltage and current as possible for maximum sensitivity, then
+it is ”fooled” by some sort of divider circuit built of precision resistors so that it indicates full-
+scale when a much larger voltage or current is impressed on the circuit as a whole. We have
+examined the design of a simple voltmeter here. Ammeters follow the same general rule, except
+that parallel-connected ”shunt” resistors are used to create a current divider circuit as opposed
+to the series-connected voltage divider ”multiplier” resistors used for voltmeter designs.

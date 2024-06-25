@@ -1,0 +1,21 @@
+Complex control systems often have multiple processors that
+must be interconnected through a communication network.
+All communication networks have protocols that are the spec-
+iﬁcations (or rules) by which the data is transferred. Most
+common model for data networks is the open systems inter-
+connection (OSI) model (Tanenbaum, 1996), which has seven
+layers of protocols: the physical layer (the hardware that
+actually transmits and receives the data) at the bottom and
+the application layer (the software level that accesses mail and
+does FTP functions) at the top. In between are the layers that
+check for errors, perform routing (such as IP) tasks, create
+rules for providing a reliable connection including breaking
+information into packets (such as TCP), and handle collisions
+of packets (such as CSMA/CD). Typical data networks, such as
+ethernet, send packets of information in a nondeterministic or
+‘‘bursty’’ manner. The desire to have a more deterministic,
+steady stream of information in applications such as voice
+and video transmission prompted the design of the asyn-
+chronous transfer mode (ATM) model, which is an alternative
+to the OSI model and has the potential for good applicability
+to networked control systems.

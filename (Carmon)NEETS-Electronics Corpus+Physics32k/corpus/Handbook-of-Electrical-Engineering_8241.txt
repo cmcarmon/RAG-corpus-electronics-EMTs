@@ -1,0 +1,18 @@
+There are applications where the data acquisition cycle is triggered by the process itself. In this case an analog
+or digital trigger signal is sent to the unit by the process, and a separate external trigger interface circuitry is
+supplied. The internal controller assumes its duties once it has been triggered. It takes a ﬁnite time to settle the
+)  through  the  MUX  up  to  the  signal  conditioner  once  it  is  addressed.  Therefore,  it  is  possible  to
+(
+t
+x
+signal 
+i
+process 
+(
+t
+) for greater speeds. This function is known as pipelining and
+t
+(
+x
+) during the selection time of 
+will be illustrated in Section 84.3.

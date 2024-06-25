@@ -1,0 +1,5 @@
+Any Boolean function can also be expressed, algebraically, as a product (AND) of maxterms.
+An expression of this form is known as a canonical product of sums. Given a truth table for a logic
+function, its POS form can be obtained by taking the product of the maxterms that correspond to
+a 0 (zero) in the output column of the table. Let us now consider an example to illustrate the use
+of minterms and maxterms.

@@ -1,0 +1,17 @@
+The need for speed of operation historically resulted in tight
+coupling of software. Tight coupling means that different soft-
+ware modules are intertwined so that they share data or control
+ﬂow information. Modiﬁcation to one software module may
+necessitate modiﬁcations to all modules that are coupled with
+it. Although this is advantageous for the speed of real-time
+applications, it makes system integration a nightmare for large
+projects. Consider the ﬂight control for an aircraft: there are
+many different control algorithms, sensors, and actuators that
+need to be integrated. Multiple processors are used generally on
+board. Integrating all the software for the different components
+through a common communications network is a huge task and
+often is the bottleneck in any updates to the ﬂight controls,
+especially when the software is tightly coupled. Tight coupling
+also severely complicates the ﬂight certiﬁcation of software,
+which is a veriﬁcation and validation procedure used to prove
+that the software is stable and will not have run-time errors.

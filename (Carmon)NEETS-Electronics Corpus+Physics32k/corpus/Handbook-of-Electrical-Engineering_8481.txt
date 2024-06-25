@@ -1,0 +1,11 @@
+However, the idea of adding the most signiﬁcant bit (MSB) portion conditionally and selecting the results
+once the carry-in signal is computed in the LSB portion is attractive. Such a scheme (which is a subset of CSA)
+is known as “carry-select adder”. A 26-b carry-select adder consisting of two 13-bit portions is shown in Fig. 86.3.
+Multiplication Algorithm
+The multiplication operation is performed in a variety of forms in hardware and software. In the beginning of
+computer development any complex operation was usually programmed in software or coded in the microcode
+of the machine. Some limited hardware assistance was provided. Today it is more likely to ﬁnd full hardware
+implementation of the multiplication for reasons of speed and reduced cost of hardware. However, in all of
+them,  multiplication  shares  the  basic  algorithm  with  some  adaptations  and  modiﬁcations  to  the  particular
+implementation and number system used. For simplicity we will describe a basic multiplication algorithm that
+operates on positive n-bit-long integers X and Y resulting in the product P, which is 2n bits long:

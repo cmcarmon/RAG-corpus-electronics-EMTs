@@ -1,0 +1,6 @@
+can be employed. The initial matrix for this algorithm is set equal to the matrix being approximated (i.e., Xo
+=  X).  This  algorithm  produces  a  matrix  sequence  that  is  guaranteed  to  converge  to  a  positive-semideﬁnite
+matrix  with  the  required  Toeplitz-Hermitian  structure.  Unfortunately,  this  solution  need  not  be  the  closest
+matrix  contained  in  C +˙CTH  that  lies  closest  to  X  in  the  Frobenius  norm  sense.  To  obtain  the  optimum
+approximating matrix contained in C +˙CTH, we can alternatively employ the algorithm described by Relation-
+ship (14.97).

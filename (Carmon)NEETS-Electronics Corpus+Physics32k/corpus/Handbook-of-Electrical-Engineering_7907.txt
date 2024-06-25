@@ -1,0 +1,7 @@
+A multi-register, bus-structured digital system will have the nth bit of each register connected to bit n of the
+data bus at both the input and output of the register. In order to transfer data from one register to another,
+or, more strictly, to transfer a copy of the contents of one register to another register, the output gates of the
+source register must be enabled so that the data is fed on to the bus. This data becomes available at the inputs
+of all registers and is latched in under the control of the appropriate input signals. It is important in the design
+of the sequencing circuitry that only one set of register output gates can be enabled at any time, although the
+data can be latched into as many registers as required.

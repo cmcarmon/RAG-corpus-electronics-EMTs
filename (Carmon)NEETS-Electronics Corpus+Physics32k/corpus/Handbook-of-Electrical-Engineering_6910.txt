@@ -1,0 +1,14 @@
+This  average  power  can  be  determined  by  sampling  on  known  signal  values  and  then  computing  the  sample
+variance (assuming ergodicity: see Gardner [1990, p. 163]). The error and signal are probabilistically independent
+(unless the error depends on the values of X). The signal-to-noise power ratio is computed by S/N = Psignal /Pave .
+Quantization Noise
+Quantization noise is due to the digitization of an exact signal value vt = v(t) captured at sampling time t by
+an A/D converter. The binary representation is bn–1bn–2 . . . b1b0 (an n-bit word). The n-bit digitization has 2n
+different values possible, from 0 to 2n–1. Let the voltage range be R. The resolution is dv = R/2n . Any voltage
+vt is coded into the nearest lower binary value xb , where the error e = xt – xb satisﬁes 0 £ e £ dv. Thus, the errors
+e are distributed over the interval [0, dv] in an equally likely fashion that implies the uniform distribution on
+[0, dv]. The expected value of e = et = e(t) at any time is m
+2 = dv2/12 (the variance
+e
+of  a  uniform  distribution  on  an  interval  [a,b]  is  s  =  (b  –  a)2 /12).  Thus  the  noise  is  ws  and  the  power  of
+quantization noise is

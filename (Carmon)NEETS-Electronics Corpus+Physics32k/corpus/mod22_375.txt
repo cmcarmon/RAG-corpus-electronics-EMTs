@@ -1,0 +1,5 @@
+The parity bit (also called a check bit, the C position in a code) provides an internal means for 
+checking the validity, the correctness, of code construction. That is, the total number of bits in a character, 
+including the parity bit, must always be odd or always be even, depending upon whether the particular 
+computer system or device you are using is odd or even parity. Therefore, the coding is said to be in either 
+odd or even parity code, and the test for bit count is called a parity check. 

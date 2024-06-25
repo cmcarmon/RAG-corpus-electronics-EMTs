@@ -1,0 +1,15 @@
+A three-layer feed-forward neural network, with 11 inputs and
+5 hidden nodes, is used to approximate both F[  ] and G[  ]. A
+projection algorithm is applied to ensure 0 < gmin < G[  ],
+while u(k) is bounded by 0:05  u(k)  0:95. Simulation
+results are shown in Figure 10.8. As before, a step disturbance
+of 15 Nm is applied to the system as a load torque after 40
+engine cycles and then removed (unloaded) after 120 engine
+cycles. Elements of the neural network structure vector A are
+initially chosen as random numbers between 0 and 1, and the
+data shown in the ﬁgures are collected after training the neural
+networks for 500 engine cycles. Engine speed variations are
+evident, but it can be seen that the controller is capable of
+rejecting typical bad disturbances. We note the presence of a
+small steady-state error (about 0.5 RPM). This is because the
+controller can only bring the system state trajectories into a

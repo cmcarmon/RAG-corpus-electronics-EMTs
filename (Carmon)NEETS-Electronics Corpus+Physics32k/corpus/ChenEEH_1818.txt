@@ -1,0 +1,10 @@
+organization’s intranet or an ISP can form its own DS domain.
+One important implication of this is that to provide any
+service guarantees the entire path between the source and
+destination must be under some DS domain (possibly mul-
+tiple). Even if a single hop is not under some DS domain, then
+service cannot be guaranteed. DiffServ architecture can be
+extended across multiple domains using a service level agree-
+ment (SLA) between them. An SLA speciﬁes rules for trafﬁc
+remarking, actions to be taken for out-of-proﬁle trafﬁc, and
+other such speciﬁcations.

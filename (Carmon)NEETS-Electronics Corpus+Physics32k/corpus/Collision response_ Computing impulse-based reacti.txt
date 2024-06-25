@@ -1,0 +1,373 @@
+Thus, the procedure for computing the post-collision linear velocities
+
+
+
+
+
+
+v
+′
+
+
+
+i
+
+
+
+
+{\displaystyle \mathbf {v'} _{i}}
+and angular velocities
+
+
+
+
+
+
+ω
+′
+
+
+
+i
+
+
+
+
+{\displaystyle \mathbf {\omega '} _{i}}
+is as follows:
+Compute the reaction impulse magnitude
+
+
+
+
+j
+
+r
+
+
+
+
+{\displaystyle j_{r}}
+in terms of
+
+
+
+
+
+v
+
+
+r
+
+
+
+
+{\displaystyle \mathbf {v} _{r}}
+,
+
+
+
+
+m
+
+1
+
+
+
+
+{\displaystyle m_{1}}
+,
+
+
+
+
+m
+
+2
+
+
+
+
+{\displaystyle m_{2}}
+,
+
+
+
+
+
+I
+
+
+1
+
+
+
+
+{\displaystyle \mathbf {I} _{1}}
+,
+
+
+
+
+
+I
+
+
+2
+
+
+
+
+{\displaystyle \mathbf {I} _{2}}
+,
+
+
+
+
+
+r
+
+
+1
+
+
+
+
+{\displaystyle \mathbf {r} _{1}}
+,
+
+
+
+
+
+r
+
+
+2
+
+
+
+
+{\displaystyle \mathbf {r} _{2}}
+,
+
+
+
+
+
+
+n
+^
+
+
+
+
+
+{\displaystyle \mathbf {\hat {n}} }
+and
+
+
+
+e
+
+
+{\displaystyle e}
+using equation (5)
+Compute the reaction impulse vector
+
+
+
+
+
+j
+
+
+r
+
+
+
+
+{\displaystyle \mathbf {j} _{r}}
+in terms of its magnitude
+
+
+
+
+j
+
+r
+
+
+
+
+{\displaystyle j_{r}}
+and contact normal
+
+
+
+
+
+
+n
+^
+
+
+
+
+
+{\displaystyle \mathbf {\hat {n}} }
+using
+
+
+
+
+
+j
+
+
+r
+
+
+=
+
+j
+
+r
+
+
+
+
+
+n
+^
+
+
+
+
+
+{\displaystyle \mathbf {j} _{r}=j_{r}\mathbf {\hat {n}} }
+.
+Compute new linear velocities
+
+
+
+
+
+
+v
+′
+
+
+
+i
+
+
+
+
+{\displaystyle \mathbf {v'} _{i}}
+in terms of old velocities
+
+
+
+
+
+v
+
+
+i
+
+
+
+
+{\displaystyle \mathbf {v} _{i}}
+, masses
+
+
+
+
+m
+
+i
+
+
+
+
+{\displaystyle m_{i}}
+and reaction impulse vector
+
+
+
+
+
+j
+
+
+r
+
+
+
+
+{\displaystyle \mathbf {j} _{r}}
+using equations (1a) and (1b)
+Compute new angular velocities
+
+
+
+
+
+
+ω
+′
+
+
+
+i
+
+
+
+
+{\displaystyle \mathbf {\omega '} _{i}}
+in terms of old angular velocities
+
+
+
+
+
+ω
+
+
+i
+
+
+
+
+{\displaystyle \mathbf {\omega } _{i}}
+, inertia tensors
+
+
+
+
+
+I
+
+
+i
+
+
+
+
+{\displaystyle \mathbf {I} _{i}}
+and reaction impulse
+
+
+
+
+j
+
+r
+
+
+
+
+{\displaystyle j_{r}}
+using equations (2a) and (2b)

@@ -1,0 +1,26 @@
+Topology can be formally defined as "the study of qualitative properties of certain objects (called topological spaces) that are invariant under a certain kind of transformation (called a continuous map), especially those properties that are invariant under a certain kind of invertible transformation (called homeomorphism)."
+Topology is also used to refer to a structure imposed upon a set X, a structure that essentially 'characterizes' the set X as a topological space by taking proper care of properties such as convergence, connectedness and continuity, upon transformation.
+Topological spaces show up naturally in almost every branch of mathematics. This has made topology one of the great unifying ideas of mathematics.
+The motivating insight behind topology is that some geometric problems depend not on the exact shape of the objects involved, but rather on the way they are put together. For example, the square and the circle have many properties in common: they are both one dimensional objects (from a topological point of view) and both separate the plane into two parts, the part inside and the part outside.
+In one of the first papers in topology, Leonhard Euler demonstrated that it was impossible to find a route through the town of Königsberg (now Kaliningrad) that would cross each of its seven bridges exactly once. This result did not depend on the lengths of the bridges, nor on their distance from one another, but only on connectivity properties: which bridges connect to which islands or riverbanks. This problem in introductory mathematics called Seven Bridges of Königsberg led to the branch of mathematics known as graph theory.
+
+Similarly, the hairy ball theorem of algebraic topology says that "one cannot comb the hair flat on a hairy ball without creating a cowlick." This fact is immediately convincing to most people, even though they might not recognize the more formal statement of the theorem, that there is no nonvanishing continuous tangent vector field on the sphere. As with the Bridges of Königsberg, the result does not depend on the shape of the sphere; it applies to any kind of smooth blob, as long as it has no holes.
+To deal with these problems that do not rely on the exact shape of the objects, one must be clear about just what properties these problems do rely on. From this need arises the notion of homeomorphism. The impossibility of crossing each bridge just once applies to any arrangement of bridges homeomorphic to those in Königsberg, and the hairy ball theorem applies to any space homeomorphic to a sphere.
+Intuitively, two spaces are homeomorphic if one can be deformed into the other without cutting or gluing. A traditional joke is that a topologist cannot distinguish a coffee mug from a doughnut, since a sufficiently pliable doughnut could be reshaped to a coffee cup by creating a dimple and progressively enlarging it, while shrinking the hole into a handle.
+Homeomorphism can be considered the most basic topological equivalence. Another is homotopy equivalence. This is harder to describe without getting technical, but the essential notion is that two objects are homotopy equivalent if they both result from "squishing" some larger object.
+An introductory exercise is to classify the uppercase letters of the English alphabet according to homeomorphism and homotopy equivalence. The result depends partially on the font used. The figures use the sans-serif Myriad font. Homotopy equivalence is a rougher relationship than homeomorphism; a homotopy equivalence class can contain several homeomorphism classes. The simple case of homotopy equivalence described above can be used here to show two letters are homotopy equivalent. For example, O fits inside P and the tail of the P can be squished to the "hole" part.
+Homeomorphism classes are:
+no holes corresponding with C, G, I, J, L, M, N, S, U, V, W, and Z;
+no holes and three tails corresponding with E, F, T, and Y ;
+no holes and four tails corresponding with X;
+one hole and no tail corresponding with D and O;
+one hole and one tail corresponding with P and Q;
+one hole and two tails corresponding with A and R;
+two holes and no tail corresponding with B; and
+a bar with four tails corresponding with H and K; the "bar" on the K is almost too short to see.
+Homotopy classes are larger, because the tails can be squished down to a point. They are:
+one hole,
+two holes, and
+no holes.
+To classify the letters correctly, we must show that two letters in the same class are equivalent and two letters in different classes are not equivalent. In the case of homeomorphism, this can be done by selecting points and showing their removal disconnects the letters differently. For example, X and Y are not homeomorphic because removing the center point of the X leaves four pieces; whatever point in Y corresponds to this point, its removal can leave at most three pieces. The case of homotopy equivalence is harder and requires a more elaborate argument showing an algebraic invariant, such as the fundamental group, is different on the supposedly differing classes.
+Letter topology has practical relevance in stencil typography. For instance, Braggadocio font stencils are made of one connected piece of material.

@@ -1,0 +1,7 @@
+The v is the input to the action node, and gi and hi are the
+output and the input of the hidden nodes of the action net-
+work, respectively. Since the action network inputs the state
+measurements only, there is no (n þ 1)th term in equation
+13.23 as in the critic network (see equation 13.14 for compari-
+son). The update rule for the nonlinear multilayer action
+network also contains two sets of equations:

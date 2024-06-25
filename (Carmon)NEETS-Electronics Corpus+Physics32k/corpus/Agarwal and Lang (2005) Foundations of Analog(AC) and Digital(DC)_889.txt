@@ -1,0 +1,9 @@
+In Figure 6.44, notice that to obey the static discipline, the buffer must
+convert the 1.6-V signal at its input to a 1-V value at its output. In fact, the
+buffer must restore any voltage up to 2 V at its input to voltage of 1 V or lower
+at its output. Similarly, corresponding to a logical high, it must restore any
+voltage above 3 V at its input to 4 V or higher at its output. This restoration
+property is key to our being able to compose multiple logic devices together.
+Because each level of logic restores or cleans up signals, we can decouple the
+noise introduced between each pair of levels. This noise decoupling benefit of
+restoring logic enables us to build complicated multistage logic systems.

@@ -1,0 +1,18 @@
+W
+Solution to Exercise 4.15 (p. 118)
+The result is most easily found in the spectrum’s formula: the power in the signal-related part of x (t) is half
+the power of the signal s (t).
+Solution to Exercise 4.16 (p. 120)
+RC e−t/RC u(t). Multiplying the frequency response
+The inverse transform of the frequency response is
+by 1 − e−j2πf ∆ means subtract from the original signal its time-delayed version. Delaying the frequency
+RC e−(t−∆)/RC u(t − ∆). Subtracting from the undelayed
+response’s time-domain version by ∆ results in 1
+RC e−(t−∆)/RC u(t − ∆). Now we integrate this sum. Because the integral of
+signal yields
+a sum equals the sum of the component integrals (integration is linear), we can consider each separately.
+Because integration and signal-delay are linear, the integral of a delayed signal equals the delayed version of
+the integral. The integral is provided in the example (4.44).
+Solution to Exercise 4.17 (p. 122)
+If the glottis were linear, a constant input (a zero-frequency sinusoid) should yield a constant output. The
+periodic output indicates nonlinear behavior.

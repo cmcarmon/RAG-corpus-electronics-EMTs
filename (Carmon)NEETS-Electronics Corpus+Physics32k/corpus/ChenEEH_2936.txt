@@ -1,0 +1,16 @@
+Equation 10.66 is Bojarski’s identity and shows that the object
+shape can be reconstructed by measuring the backscattered far-
+Y
+ﬁeld over all
+K . Since the PO approximation is valid only at
+high frequencies and for smooth convex conducting surfaces,
+Bojarski’s identity has its own theoretical limitation. Another
+practical difﬁculty is that the measured far-ﬁeld data should be
+complete over ‘‘all’’ frequencies and ‘‘all’’ aspect angles. How-
+ever, this difﬁculty is common to almost all the inversion
+algorithms. In spite of these difﬁculties, Bojarski’s identity is
+useful for reconstructing the shape of a large, smooth convex
+conductor for which the multiple scattering effect can be
+neglected. Moreover, the algorithm is also efﬁcient in compu-
+tation because it makes use of the fast Fourier transform
+(FFT).

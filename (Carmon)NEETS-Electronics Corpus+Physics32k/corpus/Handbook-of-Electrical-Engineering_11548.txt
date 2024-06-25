@@ -1,0 +1,6 @@
+Depending on the application, human body models may be crude approximations or detailed meshes based
+on actual anatomy. A popular source of anatomical data suitable as the basis for an FDTD biological mesh is
+the Visible Human Project of the National Library of Medicine. Various types of data are available, with the
+most useful perhaps being the cross-sections. These are 1-mm slices for the male and 0.33-mm slices for the
+female.  Both  have  a  cross-sectional  resolution  of  0.33  mm.  The  FDTD  meshing  of  this  data  still  requires
+considerable effort, especially in assigning the colors of the slices to particular tissue types.

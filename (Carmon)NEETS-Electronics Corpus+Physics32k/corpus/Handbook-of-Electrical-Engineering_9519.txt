@@ -1,0 +1,4 @@
+The  relationship  between  D_PROJECT  and  D-EMPLOYEE  is  many-to-many.  In  the  network  model,  this
+relationship  is  represented  by  two  set  types  and  an  intermediate  record  type.  The  new  record  type  could  be
+named ASSIGNED_TO (see Fig. 94.9). One set has D_EMPLOYEE as owner and ASSIGNED_TO as member
+record type, and the other has D_PROJECT as owner and ASSIGNED_TO as member record type.

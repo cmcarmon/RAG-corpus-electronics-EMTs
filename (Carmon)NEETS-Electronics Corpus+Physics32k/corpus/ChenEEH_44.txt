@@ -1,0 +1,11 @@
+For a circuit consisting of linear elements and sources, the
+response (voltage or current) in any element in the circuit is
+the algebraic sum of the responses in this element obtained by
+applying one independent source at a time. When one inde-
+pendent source is applied, all other independent sources are
+deactivated. It may be noted that a deactivated voltage source
+behaves as a short circuit, whereas a deactivated current
+source behaves as an open circuit. It should also be noted
+that the dependent sources in the circuit are not deactivated.
+Further, any initial condition in the circuit is treated as an
+appropriate independent source. That is, an initially charged

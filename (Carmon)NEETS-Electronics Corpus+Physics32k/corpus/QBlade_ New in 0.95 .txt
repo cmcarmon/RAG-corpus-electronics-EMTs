@@ -1,0 +1,20 @@
+-Added unsteady aerodynamics model with Beddoes-Leishman type dynamic stall model
+-All project files have been updated to include decomposed polars for the UA model
+-Added multi (Reynolds number) polar blade definition in the blade design module
+-Added polar preprocessor for dynamic stall simulations
+-Added PNoise module for airfoil self-noise evaluation
+-Added floating platform turbine simulations through *.sim files
+-Binary windfield files (*.bts) can now be imported through the “Windfield” menu
+-Added turbine startup simulations, including adaptive time stepping
+-Added ParaView export functionality for velocity fields
+-Added vortex centered & higher order velocity integration scheme for improved stability
+-Added graph menu to choose number and arrangement of graphs
+-Added VAWT blade design: “pitch axis” for blade sections has been added as a design parameter
+-Added HAWT blade design: Added Z-Offset parameter to advanced design for pre-bend blades
+-Added 3D correction for the Himmelskamp effect to LLFVW HAWT simulations
+-Added position of bound vortex and evaluation point for AoA’s to LLFVW simulation parameters
+-Added estimates for vortex induced velocities to LLFVW simulation dialog
+-Added .stl and .txt geometry export functionality for VAWT blades
+-Added dialog to change graph arrangements
+-Several improvements of overall stability, GUI and numerous bug fixes
+v0.96.3 includes a hotfix for a problem leading to crashes during polar extrapolation!

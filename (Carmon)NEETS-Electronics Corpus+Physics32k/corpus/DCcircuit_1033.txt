@@ -1,0 +1,5 @@
+Thevenin’s Theorem makes this easy by temporarily removing the load resistance from the
+original circuit and reducing what’s left to an equivalent circuit composed of a single voltage
+source and series resistance. The load resistance can then be re-connected to this “Thevenin
+equivalent circuit” and calculations carried out as if the whole network were nothing but a
+simple series circuit:

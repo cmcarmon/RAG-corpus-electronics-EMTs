@@ -1,0 +1,37 @@
+The NICAM packet (except for the header) is scrambled with a nine-bit pseudo-random bit-generator before transmission.
+The topology of this pseudo-random generator yields a bitstream with a repetition period of 511 bits.
+The pseudo-random generator's polynomial is:
+
+
+
+
+x
+
+9
+
+
++
+
+x
+
+4
+
+
++
+1.
+
+
+{\displaystyle x^{9}+x^{4}+1.}
+
+The pseudo-random generator is initialized with:
+
+
+
+111111111.
+
+
+{\displaystyle 111111111.}
+
+Making the NICAM bitstream look more like white noise is important because this reduces signal patterning on adjacent TV channels.
+The NICAM header is not subject to scrambling. This is necessary so as to aid in locking on to the NICAM data stream and resynchronisation of the data stream at the receiver.
+At the start of each NICAM packet the pseudo-random bit generator's shift register is reset to all ones.

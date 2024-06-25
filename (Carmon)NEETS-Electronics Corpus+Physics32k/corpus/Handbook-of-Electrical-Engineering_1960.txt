@@ -1,0 +1,7 @@
+These three types of relaxations make it possible to implement pipelined transversal and lattice adaptive digital
+ﬁlters with marginal increase in hardware overhead. Relaxations on the weight update operations change the
+convergence behavior of the adaptive ﬁlter, and we are forced to examine carefully the convergence behavior
+of the relaxed look-ahead adaptive digital ﬁlters. It has been shown that the relaxed look-ahead adaptive digital
+ﬁlters do not suffer from degradation in adaptation behavior. Futhermore, when coding, the use of pipelined
+adaptive ﬁlters could lead to a dramatic increase in pixel rate with no degradation in signal-to-noise ratio of
+the coded image and no increase in hardware overhead [Shanbhag and Parhi, 1992].

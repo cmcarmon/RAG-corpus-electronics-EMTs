@@ -1,0 +1,5 @@
+i.e.,  the  PE  weights  and  the  bias  control  the  orientation  and  position  of  the  separation  line,  respectively
+(Fig. 20.4). In many dimensions the separation surface becomes an hyperplane of dimension one less than the
+dimensionality of the input space. So, each PE creates a dichotomy in the input space. For smooth nonlinearities
+the separation surface is not crisp; it becomes fuzzy but the same principles apply. In this case, the size of the
+weights controls the width of the fuzzy boundary (larger weights shrink the fuzzy boundary).

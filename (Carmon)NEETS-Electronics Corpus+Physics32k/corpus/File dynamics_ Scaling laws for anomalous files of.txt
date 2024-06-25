@@ -1,0 +1,287 @@
+Firstly, we write down the scaling law for the mean absolute displacement (MAD) in a renewal file with a constant density:
+
+Here,
+
+
+
+n
+
+
+{\displaystyle n}
+is the number of particles in the covered-length
+
+
+
+⟨
+∣
+r
+∣
+⟩
+
+
+{\displaystyle \langle \mid r\mid \rangle }
+, and
+
+
+
+⟨
+∣
+r
+∣
+
+⟩
+
+free
+
+
+
+
+{\displaystyle \langle \mid r\mid \rangle _{\text{free}}}
+is the MAD of a free anomalous particle,
+
+
+
+⟨
+∣
+r
+∣
+
+⟩
+
+free
+
+
+∼
+
+t
+
+α
+
+/
+
+2
+
+
+)
+
+
+{\displaystyle \langle \mid r\mid \rangle _{\text{free}}\sim t^{\alpha /2})}
+. In Eq. (20),
+
+
+
+n
+
+
+{\displaystyle n}
+enters the calculations since all the particles within the distance
+
+
+
+⟨
+∣
+r
+∣
+⟩
+
+
+{\displaystyle \langle \mid r\mid \rangle }
+from the tagged one must move in the same direction in order that the tagged particle will reach a distance
+
+
+
+⟨
+∣
+r
+∣
+⟩
+
+
+{\displaystyle \langle \mid r\mid \rangle }
+from its initial position. Based on Eq. (20), we write a generalized scaling law for anomalous files of independent particles:
+
+The first term on the right hand side of Eq. (21) appears also in renewal files; yet, the term f(n) is unique. f(n) is the probability that accounts for the fact that for moving n anomalous independent particles in the same direction, when these particles indeed try jumping in the same direction (expressed with the term, (
+
+
+
+⟨
+∣
+r
+∣
+
+⟩
+
+free
+
+
+
+/
+
+n
+)
+
+
+{\displaystyle \langle \mid r\mid \rangle _{\text{free}}/n)}
+), the particles in the periphery must move first so that the particles in the middle of the file will have the free space for moving, demanding faster jumping times for those in the periphery. f(n) appears since there is not a typical timescale for a jump in anomalous files, and the particles are independent, and so a particular particle can stand still for a very long time, substantially limiting the options of progress for the particles around him, during this time. Clearly,
+
+
+
+0
+<
+f
+(
+n
+)
+<
+1
+
+
+{\displaystyle 0<f(n)<1}
+, where f(n) = 1 for renewal files since the particles jump together, yet also in files of independent particles with
+
+
+
+α
+>
+1
+
+
+{\displaystyle \alpha >1}
+, since in such files there is a typical timescale for a jump, considered the time for a synchronized jump. We calculate f(n) from the number of configurations in which the order of the particles’ jumping times enables motion; that is, an order where the faster particles are always located towards the periphery. For n particles, there are n! different configurations, where one configuration is the optimal one; so,
+
+
+
+(
+1
+
+/
+
+n
+!
+)
+≤
+f
+(
+n
+)
+
+
+{\displaystyle (1/n!)\leq f(n)}
+. Yet, although not optimal, propagation is also possible in many other configurations; when m is the number of particles that move, then,
+
+where
+
+
+
+
+
+
+
+(
+
+
+n
+m
+
+
+)
+
+
+
+
+(
+n
+−
+m
+)
+!
+
+
+{\displaystyle {\dbinom {n}{m}}(n-m)!}
+counts the number of configurations in which those m particles around the tagged one have the optimal jumping order. Now, even when m~n/2,
+
+
+
+f
+(
+n
+)
+∼
+
+e
+
+−
+n
+
+/
+
+2
+
+
+
+
+{\displaystyle f(n)\sim e^{-n/2}}
+. Using in Eq. (21),
+
+
+
+f
+(
+n
+)
+∼
+
+e
+
+−
+n
+
+/
+
+
+n
+
+0
+
+
+
+
+
+
+{\displaystyle f(n)\sim e^{-n/n_{0}}}
+(
+
+
+
+
+n
+
+0
+
+
+
+
+{\displaystyle n_{0}}
+a small number larger than 1), we see,
+
+(In Eq. (23), we use,
+
+
+
+M
+S
+D
+∼∣
+M
+A
+D
+
+∣
+
+2
+
+
+
+
+{\displaystyle MSD\sim \mid MAD\mid ^{2}}
+.) Equation (23) shows that asymptotically the particles are extremely slow in anomalous files of independent particles.

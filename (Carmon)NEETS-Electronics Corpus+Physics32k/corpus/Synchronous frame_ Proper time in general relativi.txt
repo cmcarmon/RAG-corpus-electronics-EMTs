@@ -1,0 +1,64 @@
+In the special theory of relativity, choice of coordinates is limited by the requirement for a special kind of spacetime metric: the Minkowski metric. In the general theory of relativity, there is no such requirement so that the choice of reference frame is not limited: the three space coordinates x1, x2, x3 can take any values that define the positions of bodies in space while the time coordinate x0 can be measured by clocks with any possible adjustment. The problem thus arises how one can determine the real distances and time intervals by the values of x0, x1, x2, x3.
+First one must determine the true time (proper time), written by the symbol τ, with a coordinate x0. Consider two very close events that occur practically in the same point of space. The interval ds between these two events is cdτ where dτ is the proper time interval that separates them. Substituting x1 = x2 = x3 = 0 (making all space coordinates equal to zero) in the general expression for the metric ds2 = gik dxi dxk, one obtains
+
+
+
+
+d
+
+s
+
+2
+
+
+=
+
+c
+
+2
+
+
+d
+
+τ
+
+2
+
+
+=
+
+g
+
+00
+
+
+
+
+(
+
+d
+
+x
+
+0
+
+
+
+)
+
+
+2
+
+
+,
+
+
+{\displaystyle ds^{2}=c^{2}d\tau ^{2}=g_{00}\left(dx^{0}\right)^{2},}
+
+so that
+
+or, for the time between any two events in the same point of space
+
+The relationship eq. 2 defines the proper time between events in the same place through changes in the time coordinate x0. Note that, according to the above formulae, g00 is positive:
+
+One must make a difference between the condition eq. 3 and the condition made when choosing the signature (the signs of the principal values of the gik tensor). A gik tensor that does not satisfy the signature condition does not correspond to any real gravitational field, that is, to any real spacetime metric. If gik does not satisfy the condition eq. 3, it means only that the respective reference frame cannot be defined by real bodies; if the signature condition is fulfilled then by a proper coordinate transformation one can make g00 positive (an example of such frame is the rotating reference frame).

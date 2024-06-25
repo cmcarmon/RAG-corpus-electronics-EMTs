@@ -1,0 +1,4 @@
+This simple circuit consists of a battery and a resistor connected directly together. We know
+the voltage of the battery (10 volts) and the resistance of the resistor (5 Ω), but nothing else
+about the circuit. If we describe this circuit to SPICE, it should be able to tell us (at the very
+least), how much current we have in the circuit by using Ohm’s Law (I=E/R).

@@ -1,0 +1,14 @@
+Two of the goals for multiprocessor software development are
+the same as those for single-processor systems: (1) the facilities
+should support correct program development, and (2) the
+application program should be portable to a wide variety of
+systems. There is a third goal: performance. The performance
+goal, however, should satisfy a further requirement of scalabil-
+ity—the speed of the system should increase preferably linearly
+with the number of processors. This means that the computa-
+tional load should be optimally distributed among the proces-
+sors: the task of this optimal distribution is often known as
+load balancing. While the multiprocessor system architecture
+usually dictates its scalability, appropriate languages and com-
+pilers ensure that the performance potential can be exploited
+by application programs.

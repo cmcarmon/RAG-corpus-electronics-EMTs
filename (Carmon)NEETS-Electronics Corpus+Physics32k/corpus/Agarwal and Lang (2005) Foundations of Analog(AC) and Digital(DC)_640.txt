@@ -1,0 +1,13 @@
+Although this process yielded fairly quickly the form of iD, a bit of insight
+will simplify the process even further by enabling the use of linear circuit tech-
+niques to solve the problem as promised in the introduction of this section.
+We proceed by drawing attention to Equation 4.61. Equation 4.61 is certainly
+nonlinear. But an important interpretation central to all incremental arguments
+allows us to solve the problem by linear circuit methods. Note from Equa-
+tion 4.62 that the first term in Equation 4.61, the DC current ID, is independent
+of vD. It depends only on the circuit parameters and the DC voltage VD
+which is the same as the DC source voltage VI. Thus ID can be found with
+vD, set to zero. On this basis, the second term in Equation 4.61 is linear in
+vD, because we have shown that there is no hidden vD dependence in ID.
+Hence the second term, the change in the current i is linearly proportional to the
+change in v, can be found from a linear circuit.

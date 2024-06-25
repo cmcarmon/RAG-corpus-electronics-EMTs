@@ -1,0 +1,3 @@
+Notice that there is an intrinsic nonlinearity in the learning rule: only the PE that has the largest output (the
+winner) has its weights updated. All the other weights remain unchanged. This is the mechanism that allows
+the competitive net PEs to specialize.

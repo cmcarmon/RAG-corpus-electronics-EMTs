@@ -1,0 +1,239 @@
+In direct tensor form that is independent of the choice of coordinate system, these governing equations are:
+Equation of motion, which is an expression of Newton's second law:
+
+
+
+
+
+∇
+
+⋅
+
+σ
+
++
+
+F
+
+=
+ρ
+
+
+
+
+u
+
+¨
+
+
+
+
+
+{\displaystyle {\boldsymbol {\nabla }}\cdot {\boldsymbol {\sigma }}+\mathbf {F} =\rho {\ddot {\mathbf {u} }}}
+
+Strain-displacement equations:
+
+
+
+
+
+ε
+
+=
+
+
+
+1
+2
+
+
+
+
+[
+
+
+∇
+
+
+u
+
++
+(
+
+∇
+
+
+u
+
+
+)
+
+T
+
+
+
+]
+
+
+
+
+
+{\displaystyle {\boldsymbol {\varepsilon }}={\tfrac {1}{2}}\left[{\boldsymbol {\nabla }}\mathbf {u} +({\boldsymbol {\nabla }}\mathbf {u} )^{T}\right]\,\!}
+
+Constitutive equations. For elastic materials, Hooke's law represents the material behavior and relates the unknown stresses and strains. The general equation for Hooke's law is
+
+
+
+
+
+σ
+
+=
+
+
+C
+
+
+:
+
+ε
+
+,
+
+
+{\displaystyle {\boldsymbol {\sigma }}={\mathsf {C}}:{\boldsymbol {\varepsilon }},}
+
+where
+
+
+
+
+σ
+
+
+
+{\displaystyle {\boldsymbol {\sigma }}}
+is the Cauchy stress tensor,
+
+
+
+
+ε
+
+
+
+{\displaystyle {\boldsymbol {\varepsilon }}}
+is the infinitesimal strain tensor,
+
+
+
+
+u
+
+
+
+{\displaystyle \mathbf {u} }
+is the displacement vector,
+
+
+
+
+
+C
+
+
+
+
+{\displaystyle {\mathsf {C}}}
+is the fourth-order stiffness tensor,
+
+
+
+
+F
+
+
+
+{\displaystyle \mathbf {F} }
+is the body force per unit volume,
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+is the mass density,
+
+
+
+
+∇
+
+
+
+{\displaystyle {\boldsymbol {\nabla }}}
+represents the nabla operator,
+
+
+
+(
+∙
+
+)
+
+T
+
+
+
+
+{\displaystyle (\bullet )^{T}}
+represents a transpose,
+
+
+
+
+
+
+
+(
+∙
+)
+
+¨
+
+
+
+
+
+{\displaystyle {\ddot {(\bullet )}}}
+represents the second derivative with respect to time, and
+
+
+
+
+A
+
+:
+
+B
+
+=
+
+A
+
+i
+j
+
+
+
+B
+
+i
+j
+
+
+
+
+{\displaystyle \mathbf {A} :\mathbf {B} =A_{ij}B_{ij}}
+is the inner product of two second-order tensors (summation over repeated indices is implied).

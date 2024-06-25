@@ -1,0 +1,9 @@
+The key concepts in UNIX include the process, the memory
+mode, the ﬁle system, and I/O. Processes may fork off sub-
+processes, leading to a tree of processes. The memory model
+consists of a text, data, and stack segment for each process. The
+ﬁle system supports regular ﬁles, directories, and two kinds of
+special ﬁles. Directories may contain subdirectories, leading to
+a hierarchical ﬁle system. I/O is done using character and block
+special ﬁles that are integrated into the ﬁle system. Access to
+UNIX services is achieved via system calls.

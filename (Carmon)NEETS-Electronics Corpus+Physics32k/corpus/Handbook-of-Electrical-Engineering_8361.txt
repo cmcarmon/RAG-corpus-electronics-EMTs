@@ -1,0 +1,10 @@
+Path-delay test patterns become much easier to generate and also apply to a circuit if the circuit is designed
+using scannable ﬂip-ﬂops that are additionally capable of storing two arbitrarily selected values in them. This
+can  be  done  in  such  a  fashion  that  the  initial  value  available  at  the  ﬂip-ﬂop  output  will  be  replaced  by  the
+second value when a ﬁrst clock pulse is applied, and the ﬂip-ﬂop will revert to its normal mode of operation
+before the second clock pulse is applied. This way the pair of test patterns that form a path-delay test are ﬁrst
+loaded into the ﬂip-ﬂops (using scan) and then two clock pulses are applied at speed. The ﬁnal result captured
+by the second clock pulse is then scanned out and examined to determine pass/fail status. It is also possible to
+get an actual measurement of the path delays by repeating the same test over and over again while systematically
+reducing  the  time  distance  between  the  two  clock  pulses  to  determine  the  minimum  separation  of  the  two
+clock pulses required for proper operation.

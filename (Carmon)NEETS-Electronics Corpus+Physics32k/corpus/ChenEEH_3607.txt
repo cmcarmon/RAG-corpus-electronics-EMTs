@@ -1,0 +1,8 @@
+A good discrete approximation of E(v) can be obtained by
+evaluating the weighted error function on a dense frequency
+grid with 0  vi  p for i ¼ 1, . . . , L(M þ 1). For practical
+purposes, for a ﬁlter of length M þ 1, we use 8  L  16.
+Points placed at the transition band are disregarded, whereas
+the remaining frequencies should be linearly redistributed in
+the passband and stopband including their corresponding
+edges. Thus, the following vector equation results:

@@ -1,0 +1,12 @@
+An Op Amp embedded in a more complicated RC circuit is shown in
+Figure 15.23a. This is an RC active filter, with all of the useful resonance prop-
+erties of a capacitor-inductor circuit. To show this, we calculate the output
+voltage vo in terms of vi. First draw the linear-region circuit model with the
+dependent source, Figure 15.23b. Then write Node equations, taking cur-
+− (cid:1) 0.
++ − v
+rent entering the node as positive. We assume at the outset v
+− (cid:1) 0. For
++
+because v
+Node v1,

@@ -1,0 +1,10 @@
+Quite simple and elegant, don’t you think? It must be noted, though, that the Superposition
+Theorem works only for circuits that are reducible to series/parallel combinations for each of
+the power sources at a time (thus, this theorem is useless for analyzing an unbalanced bridge
+circuit), and it only works where the underlying equations are linear (no mathematical powers
+or roots). The requisite of linearity means that Superposition Theorem is only applicable for
+determining voltage and current, not power!!! Power dissipations, being nonlinear functions,
+do not algebraically add to an accurate total when only one source is considered at a time. The
+need for linearity also means this Theorem cannot be applied in circuits where the resistance
+of a component changes with voltage or current. Hence, networks containing components like
+lamps (incandescent or gas-discharge) or varistors could not be analyzed.

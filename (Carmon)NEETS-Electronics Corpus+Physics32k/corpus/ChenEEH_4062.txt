@@ -1,0 +1,14 @@
+In all cases, the formatting steps result in a sequence of
+binary digits. These digits are transmitted through a baseband
+channel, such as a pair of wires or a coaxial cable. However,
+before we transmit the digits, we must transform the digits
+into waveforms that are compatible with the channel. For
+baseband channels, compatible waveforms are pulses. The
+conversion from binary digits to pulse waveform takes place
+in a wave encoder also called a baseband modulator. The
+output of the waveform encoder is typically a sequence of
+pulses with characteristics that correspond to the binary digits
+being sent. After transmission through the channel, the re-
+ceived waveforms are detected to produce an estimate of the
+transmitted digits, and then the ﬁnal step is (reverse) format-
+ting to recover an estimate of the source information.

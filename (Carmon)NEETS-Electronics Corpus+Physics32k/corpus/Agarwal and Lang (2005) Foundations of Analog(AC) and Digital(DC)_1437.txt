@@ -1,0 +1,9 @@
+e x a m p l e 10.1 w i r e l e n g t h o n a v l s i c h i p
+In this exam-
+ple, we will examine how wire length becomes an important issue in the design of VLSI
+chips. Consider the inverter pair circuit in Figure 10.14. Suppose the two inverters are
+on the opposite ends of a chip that is 1 cm on a side. The resulting long wire connecting
+them can no longer be treated as an ideal conductor with no resistance or capacitance.
+Instead we must replace the wire with an ideal wire in combination with a wire capaci-
+tance and a wire resistance. The resulting RC delays can be significantly higher than the
+RC delays of inverters connected to each other with short wires.

@@ -1,0 +1,10 @@
+With the systems of ﬁnite-difference expressions of equa-
+tions 9.19 and 9.20, the new value of an electromagnetic ﬁeld
+vector component at any space lattice point depends only on
+its previous value, the previous values of the components of
+the other ﬁeld vector at adjacent points, and the known electric
+and magnetic current sources. Therefore, at any given time
+step, the computation of a ﬁeld vector can proceed either one
+point at a time, or,
+if p parallel processors are employed
+concurrently, p points at a time.

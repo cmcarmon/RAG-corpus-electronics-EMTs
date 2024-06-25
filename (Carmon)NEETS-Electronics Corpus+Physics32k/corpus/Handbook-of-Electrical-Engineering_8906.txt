@@ -1,0 +1,9 @@
+Performance of a memory system is measured in terms of latency and bandwidth. The latency of a memory
+request is how long it takes the memory system to produce the result of the request. The bandwidth of a memory
+system is the rate at which the memory system can accept requests and produce results. The memory hierarchy
+improves average latency by quickly returning results that are found in the higher levels of the hierarchy. The
+memory hierarchy generally reduces bandwidth requirements by intercepting a fraction of the memory requests
+at higher levels of the hierarchy. Some machines—such as high-performance vector machines—may have fewer
+levels  in  the  hierarchy,  increasing  memory  cost  for  better  predictability  and  performance.  Some  of  these
+machines contain no caches at all, relying on large arrays of main memory banks to supply very high bandwidth,
+with pipelined accesses to operands that mitigate the adverse performance impact of long latencies.

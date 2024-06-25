@@ -1,0 +1,11 @@
+An alternative to using boundary scan is to use a “traditional” in-circuit tester that uses a special “bed-of-
+nails” ﬁxture. In this approach [Parker, 1987], every net on a PCB would be probed using a tester pin which
+comes in physical contact with that net such that the current signal value of the net can be observed by the
+tester. The tester can also be used to control the signal values of the individual nets by injecting appropriate
+currents through the tester pins. However, since each net is already connected to an output pin of a component
+on the PCB, this approach amounts to backdriving the output drivers of IC components and therefore poses a
+potential  risk  of  damage  to  the  IC  components.  This  approach  is  becoming  more  difﬁcult  and/or  costly  to
+implement  as  the  number  of  nets  goes  up  and  IC  pin  spacing  is  reduced.  Furthermore,  due  to  ﬁxturing
+difﬁculties,  double-sided  PCBs  cannot  be  tested  in  this  manner.  The  IEEE  1149.1  boundary-scan  standard
+[IEEE,  1990]  helps  solve  these  problems  by  providing  convenient  direct  access  to  the  I/O  pins  of  an  IC
+component without requiring the traditional bed-of-nails ﬁxture.

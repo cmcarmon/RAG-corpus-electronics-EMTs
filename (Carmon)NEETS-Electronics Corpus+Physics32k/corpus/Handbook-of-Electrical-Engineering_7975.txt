@@ -1,0 +1,6 @@
+Basic Adders and Subtracters
+The basic building block for most arithmetic circuits is the full adder. A full adder is a logic circuit that produces
+the two-bit sum (S and C) of three one-bit binary numbers (X, Y, and Z). Table 81.6 shows the truth table and
+logic equations of a full adder. A logic symbol and a gate-level realization of a full adder are shown in Fig. 81.48.
+The addition of two n-bit binary numbers (X = xn–1 . . . x1x0 and Y = yn–1 . . . y1y0) can be accomplished with
+n full adders cascaded as shown in Fig. 81.49. Such a circuit is called a ripple-carry adder since carries produced

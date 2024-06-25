@@ -1,0 +1,5 @@
+Radix Complement Representation
+The  radix  complement  of  an  n-digit  number  Nr  is  obtained  by  subtracting  it  from  r n,  that  is  r n –  Nr .  The
+operation  r n  –  Nr  is  equivalent  to  complementing  the  number  and  adding  1  to  the  LSD.  Thus,  the  radix
+complement is Nr + 1LSD where Nr = r n – 1 – Nr is the complement of a number in radix r. Therefore, one may
+write

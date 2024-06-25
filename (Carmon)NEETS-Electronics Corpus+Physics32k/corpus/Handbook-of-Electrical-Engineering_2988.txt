@@ -1,0 +1,14 @@
+Hybrid-Pi Equivalent Circuit of a Monolithic BJT
+The conventional hyprid-pi model in Fig. 28.11 generally fails to provide sufﬁciently accurate predictions of
+the high frequency response of monolithic diffused or implanted BJTs. One reason for this modeling inaccuracy
+is that the hybrid-pi equivalent circuit does not reﬂect the fact that monolithic transistors are often fabricated
+on lightly doped, noninsulating substrates that establish a distributed, large area, pn junction with the collector
+region. Since the substrate-collector pn junction is back biased in linear applications of a BJT, negligible static
+and low frequency signal currents ﬂow from the collector to the substrate. At high frequencies, however, the
+depletion  capacitance  associated  with  the  reverse  biased  substrate-collector  junction  can  cause  signiﬁcant
+susceptive  loading  of  the  collector  port.  In  Fig.  28.13,  the  lumped  capacitance,  Cbb,  whose  mathematical
+deﬁnition is similar to that of Cm in Eq. (28.5), provides a ﬁrst-order account of this collector loading. Observe
+that this substrate capacitance appears in series with a substrate resistance, Rbb, which reﬂects the light doping
+nature  of  the  substrate  material.  For  monolithic  transistors  fabricated  on  insulating  or  semi-insulating  sub-
+strates, Rbb is a very large resistance, thereby rendering Cb b unimportant with respect to the problem of predicting
+steady-state transistor responses at high signal frequencies.

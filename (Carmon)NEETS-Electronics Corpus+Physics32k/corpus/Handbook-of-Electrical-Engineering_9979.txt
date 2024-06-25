@@ -1,0 +1,15 @@
+The Describing Function Method
+The describing function method, abbreviated as DF, was developed in several countries in the 1940s [Atherton,
+1982],  to  answer  the  question: “What  are  the  necessary  and  sufﬁcient  conditions  for  the  nonlinear  feedback
+system of Fig. 100.42 to be stable?” The problem still remains unanswered for a system with static nonlinearity,
+n(x), and linear plant G(s). All of the original investigators found limit cycles in control systems and observed
+that, in many instances with structures such as Fig. 100.42, the wave form of the oscillation at the input to the
+nonlinearity was almost sinusoidal. If, for example, the nonlinearity in Fig. 100.42 is an ideal relay, that is has
+an on-off characteristic, so that an odd symmetrical input wave form will produce a square wave at its output,
+the output of G(s) will be almost sinusoidal when G(s) is a low pass ﬁlter which attenuates the higher harmonics
+in the square wave much more than the fundamental. It was, therefore, proposed that the nonlinearity should
+be represented by its gain to a sinusoid and that the conditions for sustaining a sinusoidal limit cycle be evaluated
+to assess the stability of the feedback loop. Because of the nonlinearity, this gain in response to a sinusoid is a
+function of the amplitude of the sinusoid and is known as the describing function. Because describing function
+methods can be used other than for a single sinusoidal input, the technique is referred to as the single sinusoidal
+DF or sinusoidal DF.

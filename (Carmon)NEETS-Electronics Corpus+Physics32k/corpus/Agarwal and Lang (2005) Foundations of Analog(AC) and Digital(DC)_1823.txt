@@ -1,0 +1,20 @@
+It is important to emphasize that a state-variable analysis introduces no new
+physics. Rather it offers only an alternative analysis of the same circuit. To see
+this for the previous example, note that the substitution of Equation 12.254 into
+Equation 12.253 to eliminate vC yields W W W Equation 12.201. Thus, the state
+equations predicts the same circuit behavior as found previously in Section 12.6.
+To close this section, it is valuable to identify the similarities and differences
+of the node and state-variable analyses. To begin,
+it is again important to
+emphasize that both analyses predict the same behavior for any given circuit.
+The main difference is that they do so in terms of different sets of variables, and
+through different mathematical mechanics. A node analysis does so in terms of
+the node voltages, and often results in a single high-order differential equation.
+A state-variable analysis does so in terms of the states, and results in a set of
+coupled first-order differential equations. For this reason, if the initial conditions
+for a circuit analysis are expressed in terms of the states, then the state-variable
+analysis will make easier use of that information. Further, a coupled set of
+first-order differential equations is more likely to be compatible with typical
+numerical analysis packages. On the other hand, it is often the node voltages,
+defined with respect to a common ground, that are most easily measured in an
+experiment. Thus, both sets of variables are useful.

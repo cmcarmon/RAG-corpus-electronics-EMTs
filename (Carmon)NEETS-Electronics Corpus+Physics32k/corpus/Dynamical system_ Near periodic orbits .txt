@@ -1,0 +1,30 @@
+In general, in the neighborhood of a periodic orbit the rectification theorem cannot be used. Poincaré developed an approach that transforms the analysis near a periodic orbit to the analysis of a map. Pick a point x0 in the orbit γ and consider the points in phase space in that neighborhood that are perpendicular to v(x0). These points are a Poincaré section S(γ, x0), of the orbit. The flow now defines a map, the Poincaré map F : S → S, for points starting in S and returning to S. Not all these points will take the same amount of time to come back, but the times will be close to the time it takes x0.
+The intersection of the periodic orbit with the Poincaré section is a fixed point of the Poincaré map F. By a translation, the point can be assumed to be at x = 0. The Taylor series of the map is F(x) = J · x + O(x2), so a change of coordinates h can only be expected to simplify F to its linear part
+
+
+
+
+
+h
+
+−
+1
+
+
+∘
+F
+∘
+h
+(
+x
+)
+=
+J
+⋅
+x
+.
+
+
+{\displaystyle h^{-1}\circ F\circ h(x)=J\cdot x.}
+
+This is known as the conjugation equation. Finding conditions for this equation to hold has been one of the major tasks of research in dynamical systems. Poincaré first approached it assuming all functions to be analytic and in the process discovered the non-resonant condition. If λ1, ..., λν are the eigenvalues of J they will be resonant if one eigenvalue is an integer linear combination of two or more of the others. As terms of the form λi – ∑ (multiples of other eigenvalues) occurs in the denominator of the terms for the function h, the non-resonant condition is also known as the small divisor problem.

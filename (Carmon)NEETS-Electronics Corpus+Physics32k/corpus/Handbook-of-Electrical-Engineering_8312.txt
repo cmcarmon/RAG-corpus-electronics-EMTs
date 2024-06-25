@@ -1,0 +1,6 @@
+A different approach is taken in some testability analysis tools whereby rather than determining which faults
+are  covered  by  a  given  test  pattern,  the  analysis  program  assigns  a  numeric  value  to  indicate  the  degree  of
+difﬁculty of controlling and observing the digital circuit’s nodes. This analysis, which can be done much more
+quickly  compared  to  performing  fault  simulation,  should  be  done  prior  to  attempting  to  generate  the  test
+patterns for a circuit so that time will not be spent unnecessarily on digital circuits which are likely to present
+difﬁculties for the ATPG/fault-simulation process to deal with.

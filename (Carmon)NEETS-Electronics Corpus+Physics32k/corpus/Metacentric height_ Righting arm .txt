@@ -1,0 +1,38 @@
+The metacentric height is an approximation for the vessel stability at a small angle (0-15 degrees) of heel. Beyond that range, the stability of the vessel is dominated by what is known as a righting moment. Depending on the geometry of the hull, Naval Architects must iteratively calculate the center of buoyancy at increasing angles of heel. They then calculate the righting moment at this angle, which is determined using the equation:
+
+
+
+
+R
+M
+=
+G
+Z
+⋅
+Δ
+
+
+{\displaystyle RM=GZ\cdot \Delta }
+
+Where RM is the righting moment, GZ is the righting arm and Δ is the displacement. Because the vessel displacement is constant, common practice is to simply graph the righting arm vs the angle of heel. The righting arm (known also as GZ — see diagram): the horizontal distance between the lines of buoyancy and gravity.
+
+
+
+
+G
+Z
+=
+G
+M
+⋅
+s
+i
+n
+ϕ
+
+
+{\displaystyle GZ=GM\cdot sin\phi }
+at small angles of heel
+There are several important factors that must be determined with regards to righting arm/moment. These are known as the maximum righting arm/moment, the point of deck immersion, the downflooding angle, and the point of vanishing stability. The maximum righting moment is the maximum moment that could be applied to the vessel without causing it to capsize. The point of deck immersion is the angle at which the main deck will first encounter the sea. Similarly, the downflooding angle is the angle at which water will be able to flood deeper into the vessel. Finally, the point of vanishing stability is a point of unstable equilibrium. Any heel lesser than this angle will allow the vessel to right itself, while any heel greater than this angle will cause a negative righting moment (or heeling moment) and force the vessel to continue to roll over. When a vessel reaches a heel equal to its point of vanishing stability, any external force will cause the vessel to capsize.
+Sailing vessels are designed to operate with a higher degree of heel than motorized vessels and the righting moment at extreme angles is of high importance.
+Monohulled sailing vessels should be designed to have a positive righting arm (the limit of positive stability) to at least 120° of heel, although many sailing yachts have stability limits down to 90° (mast parallel to the water surface). As the displacement of the hull at any particular degree of list is not proportional, calculations can be difficult, and the concept was not introduced formally into naval architecture until about 1970.

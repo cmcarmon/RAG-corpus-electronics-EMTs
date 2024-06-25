@@ -1,0 +1,19 @@
+Kastner and Sarrafzadeh (2001) developed methods to
+reduce interconnect delay and noise caused by coupling. The
+coupling-free routing (CFR) takes a set of nets and tries to ﬁnd
+a one-bend coupling-free routing for a subset of nets. A routed
+net must not be coupled with any other routed net. These
+authors deﬁned coupling as a Boolean variable, which is
+appropriate when the coupling is greater than some threshold.
+They developed an exact algorithm for the CFR decision prob-
+lem via a transformation to 2-satisﬁability (2SAT). This algo-
+rithm runs in linear time. Kastner and Sarrafzadeh (2001) also
+presented the implication graph that models the dependencies
+associated with CFR. Moreover, they developed an algorithm
+for the maximum coupling-free layout (MAX–CFL) problem.
+Given a set of nets, the MAX–CFL is deﬁned as ﬁnding a subset
+of nets that are coupling-free routable. The subset should have
+maximum size and/or criticality. This algorithm is the impli-
+cation algorithm. In addition, Kastner and Sarrafzadeh (2001)
+presented the coupling capacitance between two wires i and j
+as follows:

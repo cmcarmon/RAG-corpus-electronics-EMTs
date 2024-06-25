@@ -1,0 +1,125 @@
+Time series variables in economics and finance — for example, stock prices, gross domestic product, etc. — generally evolve stochastically and frequently are non-stationary. They are typically modelled as either trend stationary or difference stationary. A trend stationary process {yt} evolves according to
+
+
+
+
+
+y
+
+t
+
+
+=
+f
+(
+t
+)
++
+
+e
+
+t
+
+
+
+
+{\displaystyle y_{t}=f(t)+e_{t}}
+
+where t is time, f is a deterministic function, and et is a zero-long-run-mean stationary random variable. In this case the stochastic term is stationary and hence there is no stochastic drift, though the time series itself may drift with no fixed long-run mean due to the deterministic component f(t) not having a fixed long-run mean. This non-stochastic drift can be removed from the data by regressing
+
+
+
+
+y
+
+t
+
+
+
+
+{\displaystyle y_{t}}
+on
+
+
+
+t
+
+
+{\displaystyle t}
+using a functional form coinciding with that of f, and retaining the stationary residuals. In contrast, a unit root (difference stationary) process evolves according to
+
+
+
+
+
+y
+
+t
+
+
+=
+
+y
+
+t
+−
+1
+
+
++
+c
++
+
+u
+
+t
+
+
+
+
+{\displaystyle y_{t}=y_{t-1}+c+u_{t}}
+
+where
+
+
+
+
+u
+
+t
+
+
+
+
+{\displaystyle u_{t}}
+is a zero-long-run-mean stationary random variable; here c is a non-stochastic drift parameter: even in the absence of the random shocks ut, the mean of y would change by c per period. In this case the non-stationarity can be removed from the data by first differencing, and the differenced variable
+
+
+
+
+z
+
+t
+
+
+=
+
+y
+
+t
+
+
+−
+
+y
+
+t
+−
+1
+
+
+
+
+{\displaystyle z_{t}=y_{t}-y_{t-1}}
+will have a long-run mean of c and hence no drift. But even in the absence of the parameter c (that is, even if c=0), this unit root process exhibits drift, and specifically stochastic drift, due to the presence of the stationary random shocks ut: a once-occurring non-zero value of u is incorporated into the same period's y, which one period later becomes the one-period-lagged value of y and hence affects the new period's y value, which itself in the next period becomes the lagged y and affects the next y value, and so forth forever. So after the initial shock hits y, its value is incorporated forever into the mean of y, so we have stochastic drift. Again this drift can be removed by first differencing y to obtain z which does not drift.
+In the context of monetary policy, one policy question is whether a central bank should attempt to achieve a fixed growth rate of the price level from its current level in each time period, or whether to target a return of the price level to a predetermined growth path. In the latter case no price level drift is allowed away from the predetermined path, while in the former case any stochastic change to the price level permanently affects the expected values of the price level at each time along its future path. In either case the price level has drift in the sense of a rising expected value, but the cases differ according to the type of non-stationarity: difference stationarity in the former case, but trend stationarity in the latter case.

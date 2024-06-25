@@ -1,0 +1,11 @@
+Because of this, the number of unknown node voltages in the circuit can be
+immediately reduced by one since e1 and e2 can be determined directly from
+each other using Equation 3.32. Consequently, the number of independent
+statements of KCL needed to determine the unknown node voltages can sim-
+ilarly be reduced by one. Thus, Nodes 1 and 2 in Figure 3.20 must together
+contribute one statement of KCL to the first part of Step 3 of the node analysis
+(namely, writing KCL for each of the nodes that has an unknown node voltage).
+Further, this single statement of KCL should not involve i5 since i5 cannot be
+determined from the element law of the voltage source in the second part of
+Step 3 (namely, using KVL and element laws to obtain the currents directly in
+terms of the node voltage differences and element parameters).

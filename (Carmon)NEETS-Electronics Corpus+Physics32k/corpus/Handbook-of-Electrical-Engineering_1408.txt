@@ -1,0 +1,5 @@
+Other commonly used approaches for recognition of noisy speech signals were developed for systems which
+are  based  on  pattern  recognition. When  clean  signals  are  available  for  recognition,  these  systems  match  the
+input  signal  to  the  nearest  neighbor  acoustic  templet  which  represents  some  word  in  the  vocabulary.  The
+templets mainly comprise spectral prototypes of the clean signals. The matching is performed using a distance
+measure between the clean input signal and the templet. When only noisy signals are available for recognition,

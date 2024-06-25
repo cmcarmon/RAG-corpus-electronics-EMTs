@@ -1,0 +1,37 @@
+The following is an outline of how to perform a basic shell balance.
+If fluid is flowing between two horizontal surfaces, each with area A touching the fluid, a differential shell of height Δy can be drawn between them as shown in the diagram below.
+
+In this example, the top surface is moving at velocity U and the bottom surface is stationarydensity of fluid = ρviscosity of fluid = μ
+velocity in x direction =
+
+
+
+
+V
+
+x
+
+
+
+
+{\displaystyle V_{x}}
+, shown by the diagonal line above. This is what a shell balance is solving for.
+Conservation of Momentum is the Key of a Shell Balance
+rate of momentum in - rate of momentum out + sum of all forces = 0
+To perform a shell balance, follow the following basic steps:
+1. Find momentum from shear stress
+(Momentum from Shear Stress Into System) - (Momentum from Shear Stress Out of System)
+Momentum from Shear Stress goes into the shell at y and leaves the system at y + Δy.
+Shear stress = τyx, area = A, momentum = τyxA
+2. Find momentum from flow
+Momentum flows into the system at x = 0 and out at x = L
+The flow is steady state. Therefore, the momentum flow at x = 0 is equal to the moment of flow at x = L. Therefore, these cancel out.
+3. Find gravity force on the shell
+4. Find pressure forces
+5. Plug into conservation of momentum and solve for τyx
+6. Apply Newton's law of viscosity for a Newtonian fluid
+τyx = -μ(dVx/dy)
+7. Integrate to find equation for velocity and use Boundary Conditions to find constants of integration
+Boundary 1: Top Surface: y = 0 and Vx = U
+Boundary 2: Bottom Surface: y = D and Vx = 0
+For examples of performing shell balances, visit the resources listed below.

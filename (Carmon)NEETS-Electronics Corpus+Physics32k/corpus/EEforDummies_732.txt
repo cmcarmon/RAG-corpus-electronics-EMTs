@@ -1,0 +1,7 @@
+Each of the two NAND gates on the left functions as a NOT gate (or inverter). 
+Each NAND gate ties the inputs together so that a low input produces a high 
+output, and a high input produces a low output. The NAND gate on the right 
+produces a high output when either or both of its inputs are low, which hap-
+pens when either or both switches (SW3 and SW4) are closed. The bottom 
+line is that if either or both switches are closed, the output of the circuit is 
+high. That’s an OR gate!

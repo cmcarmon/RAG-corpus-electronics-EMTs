@@ -1,0 +1,5 @@
+from the same fault being detected on multiple test vectors) causes the ﬁnal test signature to be correct even
+though interim signatures were wrong. The probability that a faulty circuit signature will be the same as the
+good  circuit  signature  is  known  as  aliasing  probability.  It  can  be  shown  that  if  the  test  length  is  sufﬁciently
+long, aliasing probability diminishes toward 2-t, where t is the number of bits of the signature register [Dervi-
+soglu, 1985].

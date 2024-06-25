@@ -1,0 +1,7 @@
+You know that the capacitive reactance of COUT and CIN will limit the high-frequency response of the
+circuit. L1 is the series peaking coil. It is in series with the output-signal path and isolates COUT from CIN.
+R4 is called a "swamping" resistor and is used to keep L1 from overcompensating at a narrow range of
+frequencies. In other words, R4 is used to keep the frequency-response curve flat. If R4 were not used
+with L1, there could be a "peak" in the frequency-response curve. (Remember, L1 is called a peaking
+coil.)
+Shunt Peaking

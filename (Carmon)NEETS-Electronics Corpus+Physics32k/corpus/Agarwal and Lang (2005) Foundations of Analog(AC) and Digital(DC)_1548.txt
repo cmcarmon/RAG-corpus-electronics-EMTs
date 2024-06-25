@@ -1,0 +1,8 @@
+Figure 10.97 shows a lumped circuit model for the (nonideal) wire of length l in a VLSI
+chip, and Figure 10.98 shows the equivalent circuit model for the inverter pair connected
+by the nonideal wire based on the SRC model for the MOSFET. Assume that the logic
+devices satisfy a static discipline with voltage thresholds given by VIL = VOL = VL and
+VIH = VOH = VH, and that the supply voltage is VS.
+Suppose INV A is driven by a 0 to 1 transition at its input (denoted vINA) at time t = 0.
+Determine tpd,0→1, the propagation delay through INV A for a 0 to 1 transition at
+its input. Recall that by our definition tpd,0→1 is the time taken by the input to INV B,

@@ -1,0 +1,6 @@
+where A(u) designates a general matrix contained in +  that is linearly dependent on the parameter vector u.
+It is possible to utilize standard analysis techniques to obtain a closed-form solution to matrix approximation
+problem  (14.110).  To  begin  this  analysis,  it  is  useful  to  represent  matrix  B  by  the  mn  ·  1  vector  bc  whose
+elements are formed by concatenating the column vectors of B. This concatenation mapping is one to one and
+onto and is therefore invertible. Namely, given B there exists a unique concatenated vector image bc, and vice
+versa. It further follows that the Euclidean norm of bc and the Frobenius norm of B are equal, that is,

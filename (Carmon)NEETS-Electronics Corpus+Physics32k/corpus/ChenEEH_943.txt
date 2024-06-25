@@ -1,0 +1,12 @@
+Three computational algorithms for solving problem QP-3
+are described in the following three sections. The ﬁrst two
+algorithms—called LMCS-1 and LMCS-2,
+respectively—
+compute ^ll and ^ss in this order according to the dependence
+relationship ^ss ¼ 1=2Bt ^ll described by equation 4.64. The
+third algorithm—called CSD—computes the clock schedule ^ss
+directly as described by equation 4.74. The algorithms LMCS-
+1 and LMCS-2 are described in the following ﬁrst two subsec-
+tions. The last two subsections describe algorithm CSD, which
+is shown to be superior to both of the other algorithms, and
+offer a comparative summary of the results.

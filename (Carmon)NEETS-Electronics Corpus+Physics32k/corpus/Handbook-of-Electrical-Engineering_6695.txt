@@ -1,0 +1,10 @@
+There were several basic types of transmission schemes in use in early LANs. Three of these received serious
+ and carrier-sense multiple access (CSMA). In a
+consideration for standardization: the 
+token ring network, the stations are conﬁgured on a physical ring around the medium. A token rotates around
+this physical ring, visiting each host (or station) in turn. A station wishing to transmit data must wait until the
+token is available to that station. In a token bus LAN, the situation is the same, except that the stations share
+a common bus and the ring is logical rather than physical. In a CSMA network, the stations are bus connected,
+and a station may transmit whenever other stations are not currently transmitting. That is, a station wishing
+to transmit senses the channel, and if there is no activity, the station may transmit. Of course, the actual access
+protocol is signiﬁcantly more complicated than this.

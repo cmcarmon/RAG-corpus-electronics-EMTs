@@ -1,0 +1,8 @@
+ A/D conversion process where the analog signal is sampled at
+rates much higher (typically 64 times) than the sampling rates that would be required with a Nyquist
+converter. Sigma-delta modulators integrate the analog signal before performing the delta modulation.
+The integral of the analog signal is encoded rather than the change in the analog signal, as is the case
+for traditional delta modulation. A digital sample rate reduction ﬁlter (also called a digital decimation
+ﬁlter) is used to provide an output sampling rate at twice the Nyquist frequency of the signal. The overall
+result of oversampling and digital sample rate reduction is greater resolution and less distortion compared
+to a Nyquist converter process.

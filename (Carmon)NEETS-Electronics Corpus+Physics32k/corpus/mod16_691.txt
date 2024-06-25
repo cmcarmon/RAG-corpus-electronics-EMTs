@@ -1,0 +1,7 @@
+The IF section receives the final IF signal and uses it to establish the system resolution by using
+selective filtering. System resolution is selected under microcomputer control among five bandwidths (1
+MHz, 100 kHz, 10 kHz, 1 kHz, and 100 Hz). The gain for all bands are then leveled and logarithmically
+amplified. This is done so that each division of signal change on the CRT display remains equal in change
+to every other division on the CRT. For example, in the 10-dB-per-division mode, each division of
+change is equal to a 10 dB difference, regardless of whether the signal appears at the top or bottom of the
+CRT. The signal needed to produce the video output to the display section is then detected and provided.

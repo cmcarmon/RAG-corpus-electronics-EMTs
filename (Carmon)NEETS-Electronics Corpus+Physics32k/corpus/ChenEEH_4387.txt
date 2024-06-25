@@ -1,0 +1,11 @@
+where Gij(s) is the ijth entry of G(s) and where uj(s) is the
+Laplace transform of the jth input. Equation 3.6 shows that in
+MIMO systems, the outputs are linear combinations of the
+inputs where the weights are rational transfer functions. Only
+the poles of the entries in the ith row of G(s) can affect yi(s),
+depending on which inputs are nonzero. More insight can be
+gained by solving for yi(s) in a state-space representation of the
+system. Because the poles correspond only to the controllable
+and observable eigenvalues of A, let equation 3.3 be a minimal,
+that is, a controllable and observable realization of G(s) with n
+states. The Laplace transform of the ith output is given by:

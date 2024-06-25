@@ -1,0 +1,3 @@
+3. System data-out from SRL1 may feed the system data-in terminal of SRL2 only if the system clk which
+feeds SRL1 does not overlap with the system clk which feeds SRL2. This rule prevents the data input to
+a latch from changing while its clock signal is transitioning.

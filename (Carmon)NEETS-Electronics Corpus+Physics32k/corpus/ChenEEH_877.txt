@@ -1,0 +1,16 @@
+The process of determining a consistent clock schedule TCD
+can be considered as the mathematical problem of minimizing
+the clock period TCP under the constraints of equations 4.5
+and 4.6. However, there are important practical issues to con-
+sider before a clock schedule can be properly implemented. A
+clock distribution network must be synthesized such that the
+clock signal is delivered to each register with the proper delay
+to satisfy the clock skew schedule TCD. Furthermore, this clock
+distribution network must be constructed to minimize the
+deleterious effects of interconnect impedances and process
+parameter variations on the implemented clock schedule. Syn-
+thesizing the clock distribution network typically consists of
+determining a topology for the network, together with the
+circuit design and physical layout of the buffers and intercon-
+nect that make up a clock distribution network (Friedman,
+1995, 1997).

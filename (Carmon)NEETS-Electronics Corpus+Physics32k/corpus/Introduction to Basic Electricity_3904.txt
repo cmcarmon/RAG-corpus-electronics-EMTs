@@ -1,0 +1,19 @@
+The main disadvantage of multistage amplifiers  
+is their high thermal instability. In circuits  requiring 
+three or four stages of DC amplification, the  final 
+ output stage may not amplify the original DC or AC 
+signal, but one that has been greatly distorted. The 
+same problem exists with the Darlington arrangement.
+In applications where both high gain and tempera-
+ture stability are required, another type of amplifier is 
+necessary. This type is called a differential ampli-
+fier (Figure 38-5). It is unique in that it has two sepa-
+rate inputs and can provide either one or two outputs. 
+If a signal is applied to the input of transistor Q1, an 
+amplified signal is produced between output A and 
+ground as in an ordinary amplifier. However, a small 
+signal is also developed across resistor R4 and is applied 
+to the emitter of transistor Q2. Transistor Q2 functions 
+as a common-base amplifier and amplifies the signal 
+on its base. An amplified output signal is produced be-
+tween output B and ground. The output produced at B  

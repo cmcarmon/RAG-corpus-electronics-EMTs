@@ -1,0 +1,6 @@
+Prior to a falling transient, vTH is assumed to equal 5.0 V for a long time. Since the
+capacitor and inductor, respectively, behave as an open circuit and a short circuit after
+long periods of time, the circuit states will have settled to vC = 5.0 V and iL = 0 prior to
+the transient. These are then the initial states for the falling transient. For simplicity, we
+will assume that the falling transient begins at t = 0. Therefore, the varying component
+of the circuit states begin a falling transient from

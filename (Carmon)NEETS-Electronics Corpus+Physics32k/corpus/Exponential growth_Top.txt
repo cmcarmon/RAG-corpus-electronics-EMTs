@@ -1,0 +1,35 @@
+Exponential growth is exhibited when the rate of change—the change per instant or unit of time—of the value of a mathematical function is proportional to the function's current value, resulting in its value at any time being an exponential function of time, i.e., a function in which the time value is the exponent. Exponential decay occurs in the same way when the growth rate is negative. In the case of a discrete domain of definition with equal intervals, it is also called geometric growth or geometric decay, the function values forming a geometric progression. In either exponential growth or exponential decay, the ratio of the rate of change of the quantity to its current size remains constant over time.
+The formula for exponential growth of a variable x at the growth rate r, as time t goes on in discrete intervals (that is, at integer times 0, 1, 2, 3, ...), is
+
+
+
+
+
+x
+
+t
+
+
+=
+
+x
+
+0
+
+
+(
+1
++
+r
+
+)
+
+t
+
+
+
+
+{\displaystyle x_{t}=x_{0}(1+r)^{t}}
+
+where x0 is the value of x at time 0. This formula is transparent when the exponents are converted to multiplication. For instance, with a starting value of 50 and a growth rate of r = 5% = 0.05 per interval, the passage of one interval would give 50 × 1.051 = 50 × 1.05; two intervals would give 50 × 1.052 = 50 × 1.05 × 1.05; and three intervals would give 50 × 1.053 = 50 × 1.05 × 1.05 × 1.05. In this way, each increase in the exponent by a full interval can be seen to increase the previous total by another five percent. (The order of multiplication does not change the result based on the associative property of multiplication.)
+Since the time variable, which is the input to this function, occurs as the exponent, this is an exponential function. This contrasts with growth based on a power function, where the time variable is the base value raised to a fixed exponent, such as cubic growth.

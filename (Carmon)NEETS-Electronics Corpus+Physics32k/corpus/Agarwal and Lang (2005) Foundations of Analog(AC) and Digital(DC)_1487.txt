@@ -1,0 +1,11 @@
+Figure 10.41 shows a clocked digital system in which several modules
+are provided a global clock timebase produced by a single clock device. One
+approach simply connects the clock signal generator to all the modules using
+one long wire. This naive approach often fails because of the RC delay asso-
+ciated with the long wire and the input capacitances of the driven modules.
+Figure 10.42 shows a circuit model for the clock distribution system. We have
+lumped the resistance of the wire into a single resistance Rwire. Although it is
+not shown in Figure 10.42, the resistance of the gate driving the clock will also
+appear in series with the resistance of the wire. The gate capacitors appear as
+parallel loads on the wire and therefore add together to yield a large equivalent
+capacitor:

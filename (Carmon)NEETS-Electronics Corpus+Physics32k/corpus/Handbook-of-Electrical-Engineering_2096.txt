@@ -1,0 +1,16 @@
+A  block  diagram  model  of  a  stationary  acoustic
+source, s(t), input to M unique hydrophone receivers is
+shown in Fig. 19.13. Multipaths from the source to each
+receiver  can  be  characterized  by  the  source  to  (each
+individual) receiver impulse response. The inverse Fou-
+rier transforms of these impulse responses are the trans-
+fer functions shown in the block diagram as Aj(f), where
+the  subscript,  j  =  1,..., M,  denotes  the  appropriate
+source-to-receiver transfer function. For widely spaced
+receivers, there will be a different transfer function from
+the  source  to  each  receiver.  Also,  for  multiple  sources
+and  widely  spaced  receivers,  there  will  be  a  different
+transfer function from each source to each receiver. The
+receiver  outputs  from  a  single  source  are  modeled  as
+being  corrupted  by  additive  noise,  nj(t),  as  shown  in
+Fig. 19.13.

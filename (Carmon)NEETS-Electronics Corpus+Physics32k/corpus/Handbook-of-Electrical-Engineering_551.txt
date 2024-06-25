@@ -1,0 +1,9 @@
+Figure 5.13 shows a biased diode connected in the feedback path of an inverting operational ampliﬁer. The
+diode is in parallel with the feedback resistor and forms a parallel clipping circuit like that shown in Fig. 5.12.
+v– » v+, and since v+ = 0 V in this circuit,  v– is approximately 0 V (virtual
+In an operational ampliﬁer circuit, 
+ground). Thus, the voltage across Rf is the same as the output voltage vo. Therefore, when the output voltage
+reaches the bias voltage E, the output is held at E volts. Figure 5.13(b) illustrates this fact for a sinusoidal input.
+So long as the diode is reverse biased, it acts like an open circuit and the ampliﬁer behaves like a conventional
+inverting ampliﬁer. Notice that output clipping occurs at input voltage –(R1/Rf)E, since the ampliﬁer inverts and
+has closed-loop gain magnitude R f/R1. The resulting transfer characteristic is shown in Fig. 5.13(c).

@@ -1,0 +1,24 @@
+. Session announcement: Session Announcement Protocol
+(SAP) (Handley et al., 2000; Arora and Jain, 1999) is used
+for advertising multicast conferences and other multicast
+sessions. An SAP announcer periodically multicasts an-
+nouncement packets to a well-known multicast address
+and port (port number 9875) with the same scope as the
+session it is announcing, ensuring that the recipients of
+the announcement can also be potential recipients of the
+session being advertised. Multiple announcers may also
+announce a single session to increase robustness against
+packet loss or failure of one or more announcers. The
+time period between repetitions of an announcement is
+chosen such that the total bandwidth used by all an-
+nouncements on a single SAP group remains below a
+preconﬁgured limit. Each announcer is expected to listen
+to other announcements to determine the total number
+of sessions being announced on a particular group. SAP is
+intended to announce the existence of a long-lived wide
+area multicast sessions and involves a large startup delay
+before a complete set of announcements is heard by a
+listener. SAP also contains mechanisms for ensuring in-
+tegrity of session announcements, for authenticating the
+origin of an announcement, and for encrypting such
+announcements.

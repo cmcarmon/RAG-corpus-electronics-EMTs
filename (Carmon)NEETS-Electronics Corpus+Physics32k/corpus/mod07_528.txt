@@ -1,0 +1,4 @@
+voltage polarity is a result of current flowing through R1, and this negative voltage opposes the forward 
+bias for Q1. However, since the regulated voltage across CR1 has an opposite polarity, the actual bias of 
+the transistor is the difference between the two voltages. You should see that the purpose of R2 is to 
+function as a current-limiting resistor for the Zener diode. 

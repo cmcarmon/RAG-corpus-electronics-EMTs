@@ -1,0 +1,6 @@
+A second form of covariance analysis is the iteration of the
+same equations for suboptimal gain sequences. Suboptimal
+gain sequences are often of interest to avoid the need for
+online computation of the error covariance equations, which
+are typically the most computationally expensive portion of
+the Kalman algorithm. Examples of suboptimal gain sequences

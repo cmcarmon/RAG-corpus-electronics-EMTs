@@ -1,0 +1,10 @@
+Most DSP systems use ﬁxed-point hardware arithmetic operators. While many number system representa-
+tions are possible, the two’s complement number system is the most popular number system. The other number
+systems include the residue number system, the redundant or signed-digit number system, and the logarithmic
+number system. The residue and logarithmic number systems are rarely used or are used in very special cases
+such as nonrecursive digital ﬁlters. Shifting or scaling and division are difﬁcult in the residue number system.
+Difﬁculty with addition and the overhead associated with logarithm and antilogarithm converters reduce the
+attractiveness of the logarithm number system. The use of the redundant number system leads to carry-free
+operation  but  is  accompanied  by  the  overhead  associated  with  redundant-to-two’s  complement  conversion.
+Another approach often used is distributed arithmetic. This approach has recently been used in a few video
+transformation chips.

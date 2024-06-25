@@ -1,0 +1,8 @@
+The hardware can dynamically allocate parts of the cache memory for addresses deemed most likely to be
+associative,
+accessed soon. The cache contains only redundant copies of the address space. The cache memory is 
+or 
+  In  an  associative  memory,  the  address  of  a  memory  location  is  stored,  along  with  its
+content. Rather than reading data directly from a memory location, the cache is given an address and responds
+by providing data which may or may not be the data requested. When a cache miss occurs, the memory access
+is then performed with respect to the backing storage, and the cache is updated to include the new data.

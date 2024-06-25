@@ -1,0 +1,17 @@
+components  —  most  notably  capacitors  and 
+inductors.  These  variations  can  change  the 
+way a circuit behaves. Keep this fact in mind 
+if  you’re  working  with  RF  (radio  frequency) 
+circuits, such as radio receivers and transmit-
+ters, with digital circuits that use signals that 
+change at a very fast rate (on the order of a 
+couple of million Hertz), and with more sensi-
+tive timing circuits that rely on exact component  
+values.
+If you’re building a radio or other circuit that 
+stray capacitance can affect, you may have to 
+forego the step of first building the circuit on a 
+solderless breadboard. Instead, you may have 
+to go straight to a perfboard (described in the 
+section “Creating a Permanent Circuit,” later in 
+this chapter).

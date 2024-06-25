@@ -1,0 +1,8 @@
+against  making  the  protection  faster  than  a  minimum  limit.  Also,  occasionally,  it  may  be  necessary  to  slow
+down a protection system in order to satisfy some speciﬁc system need. In general, the fastest protection available
+operates in about 5 to 10 ms after the inception of a fault [Thorp et al., 1979]. If the protection is made faster
+than  this,  it  is  likely  to  become “trigger  happy”  and  operate  falsely  when  it  should  not.  When  a  protection
+system is intended as a backup system for some other protection, it is necessary to deliberately slow it down
+so that the primary protection may operate in its own time before the backup system will operate. This calls
+for a deliberate slowing of the backup protection. Depending upon the type of backup system being considered,
+the protection may sometimes be slowed down to operate in up to several seconds.

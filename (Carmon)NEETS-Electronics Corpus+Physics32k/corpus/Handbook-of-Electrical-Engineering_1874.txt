@@ -1,0 +1,4 @@
+The motivation for supporting vector instructions is pipelining the arithmetic operations. If an arithmetic
+operation takes several clock cycles, pipelining allows high throughput at a high clock rate at the cost of latency.
+As shown in Fig. 17.25 vectors are well-suited to pipelined execution because all the operations in the vector
+are known to be independent in advance.

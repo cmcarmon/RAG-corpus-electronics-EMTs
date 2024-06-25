@@ -1,0 +1,74 @@
+Reliability is defined as the probability that a device will perform its intended function during a specified period of time under stated conditions. Mathematically, this may be expressed as,
+
+
+
+
+R
+(
+t
+)
+=
+P
+r
+{
+T
+>
+t
+}
+=
+
+∫
+
+t
+
+
+∞
+
+
+f
+(
+x
+)
+
+d
+x
+
+
+
+
+{\displaystyle R(t)=Pr\{T>t\}=\int _{t}^{\infty }f(x)\,dx\ \!}
+,
+where
+
+
+
+f
+(
+x
+)
+
+
+
+{\displaystyle f(x)\!}
+is the failure probability density function and
+
+
+
+t
+
+
+{\displaystyle t}
+is the length of the period of time (which is assumed to start from time zero).
+There are a few key elements of this definition:
+Reliability is predicated on "intended function:" Generally, this is taken to mean operation without failure. However, even if no individual part of the system fails, but the system as a whole does not do what was intended, then it is still charged against the system reliability. The system requirements specification is the criterion against which reliability is measured.
+Reliability applies to a specified period of time. In practical terms, this means that a system has a specified chance that it will operate without failure before time
+
+
+
+t
+
+
+
+{\displaystyle t\!}
+. Reliability engineering ensures that components and materials will meet the requirements during the specified time. Note that units other than time may sometimes be used (e.g. "a mission", "operation cycles").
+Reliability is restricted to operation under stated (or explicitly defined) conditions. This constraint is necessary because it is impossible to design a system for unlimited conditions. A Mars Rover will have different specified conditions than a family car. The operating environment must be addressed during design and testing. That same rover may be required to operate in varying conditions requiring additional scrutiny.

@@ -1,0 +1,10 @@
+Same as Nogrid points the NOGRID pointsBlow software is based on the meshless Finite Pointset Method (FPM) and is able to compute large deformations and moving parts/boundaries easily.
+The following container glass forming processes can be computed with Nogrid pointsBlow:
+BB (Blow and Blow)
+PB (Press and Blow or Wide Mouth PB)
+NNPB (Narrow Neck Press and Blow)
+PB (Press and Blow for the tableware industry)
+The first process step in the container production is the loading step. In this step the glass gob delivered from the feeder is moved into the blank mold. This is also the first step in the simulation. The next steps depends on the process type. The last step of the forming simulation is container take out.
+
+Figure 1: Steps during Blow&Blow container forming process
+The geometry of initial gob can be designed without any restrictions. The temperature distribution within the gob is usually homogeneous, but can also be considered as inhomogeneous. The loading position within the blank mold can be set by the user individually. NOGRID pointsBlow computes the forming process in 2-D or 3-D using all IS machine time data including pressure data, plunger movement and heat transfer data. The movement of the plunger can be driven by force or set by a time position curve.

@@ -1,0 +1,11 @@
+Exercise 5.13
+(Solution on p. 192.)
+Suppose we obtained our discrete-time signal from values of the product s (t) pTs (t), where the
+duration of the component pulses in pTs (t) is ∆. How is the discrete-time signal energy related to
+the total energy contained in s (t)? Assume the signal is bandlimited and that the sampling rate
+was chosen appropriate to the Sampling Theorem’s conditions.
+The following table (5.1) summarizes the properties of the discrete-time Fourier transform. Note the
+similarities and diﬀerences with the corresponding properties of the Fourier transform of analog signals
+(page 117). The notable diﬀerences are the scaling properties that, for analog signals, are expressed as s(at).
+For discrete-time signals, the scaling factor a must be an integer and the resulting spectrum must be periodic
+with period 1. For example, the spectrum of x(n) = s(n/2), n even, x(n) = 0, n odd, is derived as follows.

@@ -1,0 +1,7 @@
+These two properties enable us to construct a simple algorithm to ﬁnd a “good” quantizer: we start with a
+set  of  reconstruction  points,  ﬁnd  the  optimal  set  of  reconstruction  regions  (which  are  the  nearest  neighbor
+regions with respect to the distortion measure), then ﬁnd the optimal reconstruction points for these regions
+(the centroids of these regions if the distortion measure is squared error), and then repeat the iteration for this
+new set of reconstruction points. The expected distortion is decreased at each stage in the algorithm, so the
+algorithm  will  converge  to  a  local  minimum  of  the  distortion.  This  algorithm  is  called  the  Lloyd  algorithm
+[Gersho and Gray, 1992].

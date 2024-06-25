@@ -1,0 +1,5 @@
+With object-oriented systems, library programs may have user-written delegates whose methods are used by
+the library object. For example, a window—a library object—may send the message “windowWillClose” (written
+by the user) to its delegate in response to the operators clicking of the window’s close button. In response, the
+delegate may now interrogate the window in order to determine whether its contents have been changed and
+possibly require saving (mutual referencing).

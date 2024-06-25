@@ -1,0 +1,10 @@
+Emulation of CPU Operation
+One of the advantages of microprogramming is that the designer can implement his or her dream instructions
+simply by emulating its operation. We have seen already the code for a typical 16-bit adder, but it is not difﬁcult
+to  code  a  parity  code  generator,  a  cyclic  redundancy  check  calculator,  or  an  instruction  that  returns  the
+eigenvalues of an n · n matrix. This part is straight programming. One consideration is to make sure that the
+machine is still listening to the outside world (interruptions) or actively monitoring it (I/O ﬂags) in order not
+to loose asynchronous data while looking for a particular pattern in a 1 megabyte string. Another consideration
+is to optimize memory usage by combining common processes for different operations. For example, emulating
+a  32-bit  add  instruction  and  emulating  a  16-bit  add  instruction  have  common  parts.  This  is,  however,  a
+programming concern not speciﬁc to emulation.

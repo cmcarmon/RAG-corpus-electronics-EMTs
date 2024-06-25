@@ -1,0 +1,8 @@
+It  is  interesting  to  note  that  relationships  (14.120)  and  (14.122)  which  identify  the  closest  approximating
+Toeplitz and Hankel matrices are very much dependent on the Frobenius measure of matrix size. If a different
+metric had been incorporated, then different expressions for the best approximating Toeplitz and Hankel matrix
+approximations  would  have  arisen.  For  example,  in  applications  in  which  data  outliers  are  anticipated,  it  is
+often beneﬁcial to use the l1-induced norm. In this case, the elements ak and bk are replaced by the median
+value  of  the  kth  diagonal  and  antidiagonal  of  matrix A,  respectively.  Similarly,  if  the  l¥-induced  norm  were
+used, the elements ak and bk would be replaced by the midpoint of the largest and smallest elements of the kth
+diagonal and the k th antidiagonal of matrix A, respectively.

@@ -1,0 +1,8 @@
+Redirection of standard input and output and ﬁlters work
+the same way as in UNIX and even use the same notation.
+Pipes are also allowed, but they are implemented differently
+(using temporary ﬁles), which introduces
+subtle
+changes in their behavior. Other features taken from UNIX
+are shell variables, prompts that can be set by users, and shell
+scripts.

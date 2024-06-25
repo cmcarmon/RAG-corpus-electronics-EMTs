@@ -1,0 +1,6 @@
+While the Fourier transform approach is mathematically straightforward, many commercial scanners utilize
+the equivalent but more easily implemented back-projection/deconvolution approach, where each ray is traced
+back along its propagation axis. When all rays have been back-projected and the result summed, one obtains
+an approximate (blurred) image of that plane. This image can then be sharpened (deblurred) through the use
+of  an  appropriate  ﬁlter,  which  is  usually  implemented  by  convolving  with  an  appropriate  two-dimensional
+deblurring function. Refer to Macovski [1983] for the details of this process.

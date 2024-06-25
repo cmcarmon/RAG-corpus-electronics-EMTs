@@ -1,0 +1,5 @@
+Later work showed that letting
+ improves the perceived quality of the reconstructed speech
+by shaping the spectrum of the quantization noise to match the speech spectrum, as well as improving noisy-
+channel  performance  [Gibson,  1984].  To  produce  high-quality,  highly  intelligible  speech,  it  is  necessary  that
+the quantizer and predictor parameters be adaptive to compensate for nonstationarities in the speech waveform.

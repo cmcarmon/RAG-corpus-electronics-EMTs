@@ -1,0 +1,170 @@
+QBMM is a family of methods encompassing a variety of models, some of which are designed specifically to handle PDF's of passive variables, and others more complex, capable of multidimensional PDF's of active variables (such as velocity). Note that the full representation of the PDF is
+
+
+
+f
+(
+t
+,
+
+
+x
+
+
+;
+
+
+ξ
+
+
+)
+
+
+{\displaystyle f(t,{\mathbf {x} };{\mathbf {\xi } })}
+, where the parameters
+
+
+
+t
+
+
+{\displaystyle t}
+and
+
+
+
+
+
+x
+
+
+
+
+{\displaystyle {\mathbf {x}}}
+represent the external coordinates of time and space respectively, while the internal coordinate vector,
+
+
+
+
+
+ξ
+
+
+
+
+{\displaystyle {\mathbf {\xi } }}
+, may contain any additional desired degrees of freedom to represent the particles, e.g., temperature
+
+
+
+(
+T
+)
+
+
+{\displaystyle (T)}
+, diameter
+
+
+
+(
+
+L
+
+p
+
+
+)
+
+
+{\displaystyle (L_{p})}
+, velocity
+
+
+
+(
+
+
+v
+
+
+)
+
+
+{\displaystyle ({\mathbf {v} })}
+, angular velocity, etc.
+The applicability of these methods depends upon which particle parameters are important (velocity, diameter, temperature, etc.), and importantly upon two values of the phase:
+
+
+
+(
+K
+n
+)
+
+
+{\displaystyle (Kn)}
+and
+
+
+
+(
+S
+t
+)
+
+
+{\displaystyle (St)}
+. For example, a monokinetic fluid will have a single velocity vector at each point in space,
+
+
+
+
+
+v
+
+
+(
+t
+,
+
+
+x
+
+
+)
+
+
+{\displaystyle {\mathbf {v} }(t,{\mathbf {x} })}
+; therefore, its corresponding PDF,
+
+
+
+f
+(
+
+
+v
+
+
+)
+
+
+{\displaystyle f({\mathbf {v} })}
+, is a Dirac Delta function at every point in space. Similarly, a monodisperse phase has a constant diameter for all particles so that
+
+
+
+f
+(
+
+L
+
+p
+
+
+)
+
+
+{\displaystyle f(L_{p})}
+is also a Delta function at every point in space. In those cases a PDF is superfluous and can instead be modeled by just tracking a single value corresponding to the abscissa of the Delta function, and the Navier-Stokes equations may be far more optimal to implement.

@@ -1,0 +1,10 @@
+Another  issue  in  power  distribution  concerns  ground  bounce  (or  simultaneous  switching  noise),  which  is
+increasingly problematic as the number of ASIC I/O data pins increases. Consider M output lines switching
+simultaneously to the 1 state, each of those lines outputting a current transient I(out) within a time t(out). (If
+M output lines switch simultaneously to the 0 state, then a corresponding input current transient is produced.)
+The  net  output  current  M  ·  I(out)  is  fed  through  the  Vdd  pin  (returned  to  ground  in  the  case  of  outputs
+switching to 0). With an inductance L associated with the Vdd pin, a transient voltage DV » L · M · I(out)/t(out)
+is imposed on Vdd. A similar effect occurs on the ground connection for outputs switching to 0. With a total
+output  current  of  200 mA/ns  and  a  ground  pin  inductance  of  5  nH,  the  voltage  transient  is  about  1 V.  The
+voltage  transient  propagates  through  the  IC,  potentially  causing  logic  blocks  to  fail  to  produce  the  correct
+outputs. The transient voltage can be reduced by reducing the power line inductance L, for example by replacing

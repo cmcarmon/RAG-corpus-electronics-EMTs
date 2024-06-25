@@ -1,0 +1,10 @@
+Multiprocessors
+Physical  limits  on  electronic  speeds  prevent  single  processors  from  being  speeded  up  indeﬁnitely.  A  major
+design trend has seen the development of systems that consist of a large number of processors. Such multipro-
+cessors can be used to speed up the execution of large programs by executing subtasks in parallel. The main
+difﬁculty in achieving this type of speedup is in being able to decompose a given task into its parallel subtasks
+and assign these subtasks to the individual processors in such a way that communication among the subtasks
+can be done efﬁciently. Fig. 86.10 shows a block diagram of a multiprocessor system, with the interconnection
+network needed for data sharing among the processors Pi. Parallel paths are needed in this network in order
+for  parallel  activity  to  proceed  in  the  processors  as  they  access  the  global  memory  space  represented  by  the
+multiple memory units Mi.

@@ -1,0 +1,5 @@
+function of the noisy signal is now associated with one of the words in the vocabulary in a way which minimizes
+the probability of classiﬁcation error. The only difference between the two problems is that the sample functions
+of the clean and noisy signals from a given word have different statistics. The problem in both cases is that of
+partitioning the sample space of the given acoustic signals from all words in the vocabulary into L partition
+cells, where L is the number of words in the vocabulary.

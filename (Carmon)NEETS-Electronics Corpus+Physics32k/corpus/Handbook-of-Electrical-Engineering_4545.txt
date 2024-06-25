@@ -1,0 +1,12 @@
+As additional terms are used to develop a subdomain basis, higher-order continuity can be achieved in the
+unknown  that  the  basis  represents,  assuming  still  that  one  unknown  is  reserved  for  the  amplitude  of  the
+multiterm  basis  function.  In  the  general  case  of  the ns-term  subdomain  basis,  up  to  ns –  1  constants  can  be
+determined  from  continuity  conditions,  with  the  remainder  reserved  for  the  unknown.  The  kind  of  basis
+function  employed  ultimately  determines  the  degree  of  ﬁt  that  the  numerical  result  can  provide  to  the  true
+behavior of the unknown for a given order of matrix. An important factor that should inﬂuence basis-function
+selection, then, is how closely a candidate function might resemble the physical behavior of the unknown it
+represents. Another consideration is whether a system of equations that is numerically easier to solve might
+result from a particular choice of basis and weight function, for example, by increasing its diagonal dominance
+so that an iterative technique will converge more rapidly and/or reduce the number of signiﬁcant interactions.
+Various evolving approaches having names such as “impedance-matrix localization.” “fast multipole method,”
+“spatial decomposition,” and “multilevel matrix-decomposition” are being developed with these goals.

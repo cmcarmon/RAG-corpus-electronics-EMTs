@@ -1,0 +1,71 @@
+Strain is a measure of deformation representing the displacement between particles in the body relative to a reference length.
+A general deformation of a body can be expressed in the form x = F(X) where X is the reference position of material points in the body. Such a measure does not distinguish between rigid body motions (translations and rotations) and changes in shape (and size) of the body. A deformation has units of length.
+We could, for example, define strain to be
+
+
+
+
+
+ε
+
+≐
+
+
+
+
+
+
+
+
+∂
+
+
+
+
+
+
+
+
+
+∂
+
+X
+
+
+
+
+
+
+
+(
+
+
+x
+
+−
+
+X
+
+
+)
+
+=
+
+
+F
+
+′
+
+−
+
+I
+
+,
+
+
+{\displaystyle {\boldsymbol {\varepsilon }}\doteq {\cfrac {\partial }{\partial \mathbf {X} }}\left(\mathbf {x} -\mathbf {X} \right)={\boldsymbol {F}}'-{\boldsymbol {I}},}
+
+where I is the identity tensor. Hence strains are dimensionless and are usually expressed as a decimal fraction, a percentage or in parts-per notation. Strains measure how much a given deformation differs locally from a rigid-body deformation.
+A strain is in general a tensor quantity. Physical insight into strains can be gained by observing that a given strain can be decomposed into normal and shear components. The amount of stretch or compression along material line elements or fibers is the normal strain, and the amount of distortion associated with the sliding of plane layers over each other is the shear strain, within a deforming body. This could be applied by elongation, shortening, or volume changes, or angular distortion.
+The state of strain at a material point of a continuum body is defined as the totality of all the changes in length of material lines or fibers, the normal strain, which pass through that point and also the totality of all the changes in the angle between pairs of lines initially perpendicular to each other, the shear strain, radiating from this point. However, it is sufficient to know the normal and shear components of strain on a set of three mutually perpendicular directions.
+If there is an increase in length of the material line, the normal strain is called tensile strain, otherwise, if there is reduction or compression in the length of the material line, it is called compressive strain.

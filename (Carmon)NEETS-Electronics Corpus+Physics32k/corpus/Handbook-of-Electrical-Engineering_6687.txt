@@ -1,0 +1,8 @@
+Once  the  connection  is  established,  data  exchange  between  the  two  network  layer  entities  can  take  place;
+that is, the entities can exchange PDUs. For example, if a network layer entity in Host A wishes to send a PDU
+to a network layer entity in Host B, the network layer entity in Host A would issue a DL_DATA.request to the
+appropriate  data  link  layer  entity  in  Host A.  This  entity  would  package  the  PDU  together  with  appropriate
+control  information  into  a  data  link  service  data  unit  (DLSDU)  and  send  it  to  its  peer  at  C.  The  peer  at  C
+would deliver it to the network entity at C, which would forward it to the data link entity in C providing the
+connection to Host B. This entity would then send the DLSDU to its peer in Host B, and this data link entity
+would pass the PDU to Host B network entity via a DL_DATA.indication.

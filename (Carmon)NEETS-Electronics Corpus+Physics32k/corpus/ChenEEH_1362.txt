@@ -1,0 +1,13 @@
+High performance FORTRAN, or HPF, is an example of a
+data parallel
+language (Foster, 1995). Parallelism is mainly
+expressed in terms of array operations: data elements of an
+array are operated on simultaneously. There are data distribu-
+tion directives to allow programmer control over data parti-
+tioning, agglomeration, and mapping. Communication is
+inferred by the compiler rather than by the programmer.
+Although HPF offers a high level of abstraction, not all algo-
+rithms can be expressed in the form of a data parallel program.
+Hence, HPF is especially applicable to those programs easily
+speciﬁed using array operations, such as numerical algorithms
+based on regular domain decomposition.

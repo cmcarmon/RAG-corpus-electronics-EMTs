@@ -1,0 +1,8 @@
+Transformation from Low-Pass to Other Filter Types
+To  obtain  a  high-pass,  bandpass,  or  bandstop  ﬁlter  function  from  a  low-pass  prototype,  one  of  two  general
+methods can be used. In one of these, the circuit is realized and then individual circuit elements are replaced
+by  other  elements  or  subcircuits.  This  method  is  more  useful  in  passive  ﬁlter  designs  and  is  not  discussed
+further  here.  In  the  other  approach,  the  transfer  function  of  the  low-pass  prototype  is  transformed  into  the
+required form for the desired ﬁlter. Then a circuit is chosen to realize the new ﬁlter function. We give a brief
+description  of  the  transformation  in  this  section,  then  give  examples  of  circuit  realizations  in  the  following
+sections.

@@ -1,0 +1,5 @@
+The disadvantage of automatic gain control, attenuating even the weak signal, is overcome by the use
+of delayed automatic gain control (dagc). Let’s take a look at the typical dagc circuitry in figure 2-19. This
+type of system develops no agc feedback until an established received signal strength is attained. For
+signals weaker than this value, no agc is developed. For sufficiently strong signals, the delayed agc circuit
+operates essentially the same as ordinary agc.

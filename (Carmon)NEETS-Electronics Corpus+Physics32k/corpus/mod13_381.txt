@@ -1,0 +1,5 @@
+The ripple counter is also called an ASYNCHRONOUS counter. Asynchronous means that the
+events (setting and resetting of FFs) occur one after the other rather than all at once. Because the ripple
+count is asynchronous, it can produce erroneous indications when the clock speed is high. A high-speed
+clock can cause the lower stage FFs to change state before the upper stages have reacted to the previous
+clock pulse. The errors are produced by the FFs’ inability to keep up with the clock.

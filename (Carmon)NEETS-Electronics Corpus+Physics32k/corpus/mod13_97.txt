@@ -1,0 +1,9 @@
+The second type of complement is the difference between a number and the next higher power of the
+number base. As an example, the next higher power of 10 above 999 is 1,000. The difference between
+1,000 and 254 is 746. This is called the tens complement in the decimal number system. It is also called
+the radix or R’s complement. We will use complements to subtract. Let’s look at the magic of this process.
+There are three important points we should mention before we start: (1) Never complement the minuend
+in a problem, (2) always disregard any carry beyond the number of positions of the largest of the original
+numbers, and (3) add the R’s complement of the original subtrahend to the original minuend. This will
+have the same effect as subtracting the original number. Let’s look at a base ten example in which we
+subtract 38 from 59:

@@ -1,0 +1,6 @@
+The system of 9.117 equations can be discretized on the
+standard Yee lattice. It is suitable to use normal leapfrogging
+in time wherein the loss terms are time-averaged according to
+the semi-implicit scheme. This leads to explicit time-stepping
+expressions for Dx, Dy, and Dz. For example, the Dx update is
+given by:

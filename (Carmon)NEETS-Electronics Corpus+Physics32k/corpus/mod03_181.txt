@@ -1,0 +1,10 @@
+If the test leads are open-circuited, no current flows in coil a. However, current flows internally
+through coil b, and deflects the pointer to infinity, which indicates a resistance too large to measure.
+When a resistance such as Rx is connected between the test leads, current also flows in coil a, tending to
+move the pointer clockwise. At the same time, coil b still tends to move the pointer counterclockwise.
+Therefore, the moving element, composed of both coils and the pointer, comes to rest in a position at
+which the two forces are balanced. This position depends upon the value of the external resistance, which
+controls the relative amount of current in coil a. Because changes in voltage affect both coil a and coil b
+in the same proportion, the position of the moving system is independent of the voltage. If the test leads
+are short-circuited, the pointer rests at zero because the current in coil a is relatively large. The instrument
+is not damaged under these circumstances because the current is limited by R3.

@@ -1,0 +1,9 @@
+MYCIN is a classical rule-based system. It diagnoses certain
+infectious diseases, prescribes antimicrobial therapy, and can
+explain its reasoning (Buchanan and Shortliffe, 1984). In a
+controlled test, its performance equaled that of specialists.
+Because medical diagnosis often involves a degree of uncer-
+tainty, each MYCIN’s rule has associated with it a certainty
+factor (CF), which indicates the extent to which the evidence
+supports the conclusion (i.e., likelihood). A typical MYCIN
+rule looks like this:

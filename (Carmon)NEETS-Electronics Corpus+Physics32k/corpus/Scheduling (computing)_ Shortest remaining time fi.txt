@@ -1,0 +1,7 @@
+Similar to shortest job first (SJF). With this strategy the scheduler arranges processes with the least estimated processing time remaining to be next in the queue. This requires advanced knowledge or estimations about the time required for a process to complete.
+If a shorter process arrives during another process' execution, the currently running process is interrupted (known as preemption), dividing that process into two separate computing blocks. This creates excess overhead through additional context switching. The scheduler must also place each incoming process into a specific place in the queue, creating additional overhead.
+This algorithm is designed for maximum throughput in most scenarios.
+Waiting time and response time increase as the process's computational requirements increase. Since turnaround time is based on waiting time plus processing time, longer processes are significantly affected by this. Overall waiting time is smaller than FIFO, however since no process has to wait for the termination of the longest process.
+No particular attention is given to deadlines, the programmer can only attempt to make processes with deadlines as short as possible.
+Starvation is possible, especially in a busy system with many small processes being run.
+To use this policy we should have at least two processes of different priority

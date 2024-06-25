@@ -1,0 +1,8 @@
+used, the demodulator may process the received waveform and decide on whether the transmitted
+bit is a 0 or 1. The source decoder accepts the output sequence from the channel decoder, and
+from the knowledge of the source encoding method used, attempts to reconstruct the original
+signal from the source. Errors due to noise, interference, and practical system imperfections
+do occur. The digital-to-analog (D/A) converter reconstructs an analog message that is a close
+approximation to the original message. The difference, or some function of the difference, between
+the original signal and the reconstructed signal is a measure of the distortion introduced by the
+digital communication system.

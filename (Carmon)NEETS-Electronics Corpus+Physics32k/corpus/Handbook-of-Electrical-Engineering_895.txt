@@ -1,0 +1,6 @@
+by  plotting VOUT  vs. VOUT/I(VOUT)  (using  PROBE  in  this  case;  see  Fig.  13.3).  Note  that  for  this  circuit,
+eventhough a current source would seem a more natural choice, a voltage source must be used as a load rather
+than a current source because the output characteristic curve is multivalued in current. If a current source were
+used it would not be possible to easily simulate the entire curve. Of course, many other interesting quantities
+can  be  plotted;  for  example,  the  power  dissipated  in  the  pass  transistor  can  be  approximated  by  plotting
+IC(Q3)*VC(Q3).

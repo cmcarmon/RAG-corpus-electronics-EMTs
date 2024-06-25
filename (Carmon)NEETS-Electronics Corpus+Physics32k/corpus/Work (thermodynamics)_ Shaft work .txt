@@ -1,0 +1,106 @@
+Energy transmission with a rotating shaft is very common in engineering practice. Often the torque T applied to the shaft is constant which means that the force F applied is constant. For a specified constant torque, the work done during n revolutions is determined as follows: A force F acting through a moment arm r generates a torque T
+
+
+
+
+T
+=
+F
+r
+
+
+
+{\displaystyle T=Fr\,}
+→
+
+
+
+F
+=
+
+
+T
+r
+
+
+
+
+{\displaystyle F={\frac {T}{r}}}
+
+This force acts through a distance s, which is related to the radius r by
+
+
+
+
+s
+=
+2
+
+(
+
+r
+π
+n
+
+)
+
+
+
+{\displaystyle s=2\left(r\pi n\right)}
+
+The shaft work is then determined from:
+
+
+
+
+
+W
+
+s
+
+
+=
+F
+s
+=
+2
+π
+n
+T
+
+
+{\displaystyle W_{s}=Fs=2\pi nT}
+
+The power transmitted through the shaft is the shaft work done per unit time, which is expressed as
+
+
+
+
+
+
+
+
+W
+˙
+
+
+
+
+s
+
+
+=
+2
+π
+T
+
+
+
+n
+˙
+
+
+
+
+
+{\displaystyle {\dot {W}}_{s}=2\pi T{\dot {n}}}

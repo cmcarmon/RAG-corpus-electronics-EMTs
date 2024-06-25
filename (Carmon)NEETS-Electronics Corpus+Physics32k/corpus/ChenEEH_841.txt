@@ -1,0 +1,29 @@
+tion network to become a performance bottleneck in high
+speed VLSI systems. The primary source of the load for the
+clock signals has shifted from the logic gates to the intercon-
+nect, thereby changing the physical nature of the load from a
+lumped capacitance (C) to a distributed resistive-capacitive
+(RC) load (Bakoglu, 1990; Bothra et al., 1993). These intercon-
+nect impedances degrade the on-chip signal waveform shapes
+and increase the path delay. Furthermore, statistical variations
+of the parameters characterizing the circuit elements along the
+clock and data signal paths (caused by the imperfect control of
+the manufacturing process and the environment) introduce
+ambiguity into the signal timing that cannot be neglected. All
+of these changes have a profound impact on both the choice of
+synchronous design methodology and on the overall circuit
+performance. Among the most important consequences are
+increased power dissipated by the clock distribution network
+and increasingly challenging timing constraints that must be
+satisﬁed to avoid timing violations (Friedman, 1995; Gaddis
+and Lotz, 1996; Gronowski et al., 1996; Vasseghi et al., 1996;
+Bowhill et al., 1995). Therefore, the majority of the approaches
+used to design a clock distribution network focus on simplify-
+ing the performance goals by targeting minimal or zero global
+clock skew (Neves and Friedman, 1993; Xi and Dai, 1996;
+Neves and Friedman, 1996), which can be achieved by different
+routing strategies (Jackson et al., 1990; Tsay, 1993; Chou and
+Cheng, 1995; Ito et al., 1995), buffered clock tree synthesis,
+symmetric n-ary trees (Gaddis and Lotz, 1996) (most notably
+H-trees), or a distributed series of buffers connected as a mesh
+(Friedman, 1995, 1997; Bowhill et al., 1995).

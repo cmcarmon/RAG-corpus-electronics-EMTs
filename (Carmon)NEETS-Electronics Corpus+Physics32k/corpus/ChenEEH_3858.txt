@@ -1,0 +1,31 @@
+tropy are used a great deal. However, frequency domain features
+obtained in the Fourier transform domain may also be useful.
+Since, for analysis purposes, a scene must be segmented in
+objects, there must be ways of extracting the objects and repre-
+senting them. Edge extraction systems are some of the ﬁrst steps
+for isolating the different image objects. They are usually based
+on some form of gradient-based approach, where the edges are
+associated to large gray level variations. Once the edges are
+extracted, one can use contour following algorithms to identify
+the different objects. Texture is also a useful feature to be used.
+Once the features are extracted, one uses image segmenta-
+tion algorithms to separate the images into different regions.
+The simplest are the ones based on amplitude thresholding, in
+which the features used for region determination are the
+amplitudes of the pixels themselves; each region is deﬁned by
+a range of amplitudes. If the features used are the edges, one
+can use boundary representation algorithms to deﬁne the
+regions in an image. One can also use clustering algorithms
+to deﬁne a region as the set of pixels having similar features.
+Quad-trees are a popular approach for deﬁning regions. Tem-
+plate or texture matching algorithms can be used to deter-
+mine which pixels represent a same shape or pattern, thereby
+deﬁning regions based on them. These belong to the class of
+pattern recognition algorithms that have, by themselves, a
+large number of applications. In the case of image sequences
+motion detection can be used to deﬁne the regions as the
+pixels of the image having the same kind of movement. For
+each region, one can also perform measurements, such as
+perimeter area and Euler number. Mathematical mor-
+phology (Serra, 1982) is a discipline commonly employed for
+performing such measurements.

@@ -1,0 +1,16 @@
+The clock skew TSkew (i, f ) of a local data path Ri ?Rf can
+be either positive or negative. Note that negative clock skew
+may be used to effectively speed up a local data path Ri ?Rf by
+allowing an additional TSkew (i, f ) amount of time for the
+signal to propagate from the register Ri to the register Rf .
+However, excessive negative skew may create a hold-time
+violation, thereby creating a lower bound on TSkew (i, f ) as
+described by equation 4.6 and illustrated by l in Figure 4.2.
+A hold-time violation is a clock hazard or a race condition,
+also known as double clocking (Friedman, 1995; Fishburn,
+1990). Similarly, positive clock skew effectively decreases the
+clock period TCP by TSkew (i, f ), thereby limiting the maximum
+clock frequency and imposing an upper bound on the clock
+skew as illustrated by u in Figure 4.2.6 In this case, a clocking
+hazard known as zero clocking may be created (Friedman,
+1995; Fishburn, 1990).

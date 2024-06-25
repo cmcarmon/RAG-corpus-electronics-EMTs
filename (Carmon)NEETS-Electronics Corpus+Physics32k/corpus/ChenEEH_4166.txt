@@ -1,0 +1,16 @@
+Bit Rate Per Second Versus Baud Rate
+Many people use bit rate per second (bps) and baud rate
+interchangeably, which is not correct. The bps is deﬁned as the
+number of binary bits transmitted per second, while Baud rate
+is deﬁned as the number of signal elements or states transmit-
+ted per second. Frequency, amplitude, or phase can be con-
+sidered as signaling elements. If a modem only uses two
+frequencies signaling elements in the transmission, the baud
+rate of the modem is equal to bps, where the higher frequency
+can represent a binary 1 and a lower frequency can represent a
+binary 0. If a modem uses four frequencies to represent signal-
+ing elements, then each frequency can represent two binary
+bits. For example, 00 corresponds to the ﬁrst frequency, 01
+corresponds to the second frequency, 10 corresponds to the
+third frequency, and 11 corresponds to the last frequency. In
+this case, a baud rate is equal to 2 bps.

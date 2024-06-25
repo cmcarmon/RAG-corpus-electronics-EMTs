@@ -1,0 +1,4 @@
+Coordinates to describe an aircraft attitude (Heading, Elevation and Bank) are normally given relative to a reference control frame located in a control tower, and therefore ENU, relative to the position of the control tower on the earth surface.
+Coordinates to describe observations made from an aircraft are normally given relative to its intrinsic axes, but normally using as positive the coordinate pointing downwards, where the interesting points are located. Therefore, they are normally NED.
+These axes are normally taken so that X axis is the longitudinal axis pointing ahead, Z axis is the vertical axis pointing downwards, and the Y axis is the lateral one, pointing in such a way that the frame is right handed.
+The motion of an aircraft is often described in terms of rotation about these axes, so rotation about the X-axis is called rolling, rotation about the Y-axis is called pitching, and rotation about the Z-axis is called yawing.

@@ -1,0 +1,4 @@
+The central-difference schemes are simpler to program and require less computer time per time step, and work well with multigrid acceleration techniques.
+The central difference schemes have a free parameter in conjunction with the fourth-difference dissipation.
+This dissipation is needed to approach a steady state.
+This scheme is more accurate than the first order upwind scheme if Peclet number is less than 2.

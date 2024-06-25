@@ -1,0 +1,9 @@
+Two factors drive the existence of multiple levels of cache memory in the memory hierarchy: access times
+and a limited number of transistors on the CPU chip. Larger banks with greater capacity are slower than smaller
+banks. If the time needed to access the cache limits the clock frequency of the CPU, then the ﬁrst-level cache
+size may need to be constrained. Much of the beneﬁt of a large cache may be obtained by placing a small ﬁrst-
+level cache above a larger second-level cache; the ﬁrst is accessed quickly and the second holds more data close
+to the processor. Since many modern CPUs have caches on the CPU chip itself, the size of the cache is limited
+by the CPU silicon real-estate. Some CPU designers have assumed that system designers will add large off-chip
+caches to the one or two levels of caches on the processor chip. The complexity of this part of the memory
+hierarchy may continue to grow as main memory access penalties continue to increase.

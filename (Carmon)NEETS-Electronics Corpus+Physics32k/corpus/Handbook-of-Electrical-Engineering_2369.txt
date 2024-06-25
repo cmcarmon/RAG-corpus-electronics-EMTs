@@ -1,0 +1,6 @@
+FEDAS (Field Effect Device Analysis System) is a two-dimensional device simulator that simulates MOSFETs,
+JFETs, and MESFETs by considering only those carriers that form the channel. The Poisson equation is solved
+everywhere except in the oxide region. Instead of carrying the potential calculation within the oxide region,
+the  potential  at  the  semiconductor-oxide  interface  is  calculated  by  assuming  a  mixed  boundary  condition.
+FEDAS uses FDM to solve the set of linear equations. A three-dimensional variation of FEDAS is available for
+the simulation of small geometry MOSFETs.

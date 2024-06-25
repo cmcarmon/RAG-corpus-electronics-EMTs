@@ -1,0 +1,5 @@
+version of the desired temperature and makes a decision whether or not to turn on the heater or the fan or to
+do nothing. The program being executed runs in a continuous loop, repeating the operations discussed above.
+This simple on-off control strategy is often not the best when extremely precise control of the process variables
+is  required.  A  more  precise  control  may  be  obtained  if  the  controlling  variable  levels  can  be  adjusted  to  be
+somewhat larger if the deviation of the process variable from the desired value is larger.

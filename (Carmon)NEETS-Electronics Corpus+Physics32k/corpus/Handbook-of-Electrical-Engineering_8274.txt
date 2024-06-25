@@ -1,0 +1,20 @@
+Fault Models
+At  the  defect  level,  an  enormous  number  of  different  failures  could  be  present,  and  it  is  totally  infeasible  to
+analyze  them  as  such.  Thus  failures  are  grouped  together  with  regards  to  their  logical  fault  effect  on  the
+functionality  of  the  circuit,  and  this  leads  to  the  construction  of  logical  fault  models  as  the  basis  for  testing
+fault
+ 
+algorithms [Abramovici et al.,
+ is deﬁned as the condition (or
+effect
+state) of a system containing a fault (deviation from correct state). Faults can be further divided into classes,
+permanent 
+faults,  that  is,  faults  in  existence  long  enough  to  be
+as  shown  in  Fig. 85.2.  Here  we  discuss  only 
+ faults (transient or intermittent), which appear and disappear
+observed at test time, as opposed to 
+ faults, which affect the operating speed of the circuit. Moreover we do not
+in short intervals of time, or 
+, which cause a combinational circuit to behave like a sequential one, as they are mainly
+discuss 
+restricted to certain technologies (e.g., CMOS).

@@ -1,0 +1,27 @@
+Spacecraft orbits are computed by the numerical integration of the equation of motion. For this the gravitational force, i.e. the gradient of the potential, must be computed. Efficient recursive algorithms have been designed to compute the gravitational force for any
+
+
+
+
+N
+
+z
+
+
+
+
+{\displaystyle N_{z}}
+and
+
+
+
+
+N
+
+t
+
+
+
+
+{\displaystyle N_{t}}
+(the max degree of zonal and tesseral terms) and such algorithms are used in standard orbit propagation software.

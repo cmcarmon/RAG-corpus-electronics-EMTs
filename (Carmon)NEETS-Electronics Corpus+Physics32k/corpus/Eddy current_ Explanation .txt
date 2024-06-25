@@ -1,0 +1,49 @@
+A magnet induces circular electric currents in a metal sheet moving past it. See the diagram at right. It shows a metal sheet (C) moving to the right under a stationary magnet. The magnetic field (B, green arrows) of the magnet's north pole N passes down through the sheet. Since the metal is moving, the magnetic flux through the sheet is changing. At the part of the sheet under the leading edge of the magnet (left side) the magnetic field through the sheet is increasing as it gets nearer the magnet,
+
+
+
+
+
+
+d
+B
+
+
+d
+t
+
+
+
+
+>
+
+0
+
+
+{\displaystyle {dB \over dt}\;>\;0}
+. From Faraday's law of induction, this creates a circular electric field in the sheet in a counterclockwise direction around the magnetic field lines. This field induces a counterclockwise flow of electric current (I, red), in the sheet. This is the eddy current. At the trailing edge of the magnet (right side) the magnetic field through the sheet is decreasing,
+
+
+
+
+
+
+d
+B
+
+
+d
+t
+
+
+
+
+<
+
+0
+
+
+{\displaystyle {dB \over dt}\;<\;0}
+, inducing a second eddy current in a clockwise direction in the sheet.
+Another way to understand the current is to see that the free charge carriers (electrons) in the metal sheet are moving with the sheet to the right, so the magnetic field exerts a sideways force on them due to the Lorentz force. Since the velocity v of the charges is to the right and the magnetic field B is directed down, from the right hand rule the Lorentz force on positive charges F = q(v × B) is toward the rear of the diagram (to the left when facing in the direction of motion v). This causes a current I toward the rear under the magnet, which circles around through parts of the sheet outside the magnetic field, clockwise to the right and counterclockwise to the left, to the front of the magnet again. The mobile charge carriers in the metal, the electrons, actually have a negative charge (q < 0) so their motion is opposite in direction to the conventional current shown.
+Due to Ampere's circuital law each of these circular currents creates a counter magnetic field (blue arrows), which due to Lenz's law opposes the change in magnetic field which caused it, exerting a drag force on the sheet. At the leading edge of the magnet (left side) by the right hand rule the counterclockwise current creates a magnetic field pointed up, opposing the magnet's field, causing a repulsive force between the sheet and the leading edge of the magnet. In contrast, at the trailing edge (right side), the clockwise current causes a magnetic field pointed down, in the same direction as the magnet's field, creating an attractive force between the sheet and the trailing edge of the magnet. Both of these forces oppose the motion of the sheet. The kinetic energy which is consumed overcoming this drag force is dissipated as heat by the currents flowing through the resistance of the metal, so the metal gets warm under the magnet.

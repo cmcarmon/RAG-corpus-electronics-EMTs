@@ -1,0 +1,48 @@
+Consider situation solid wall parallel to the x-direction:
+
+Assumptions made and relations considered-
+The near wall flow is considered as laminar and the velocity varies linearly with distance from the wall
+No slip condition: u = v = 0.
+In this we are applying the “wall functions” instead of the mesh points.
+Turbulent flow:
+
+
+
+
+
+y
+
++
+
+
+>
+11.63
+
+
+
+{\displaystyle y^{+}>11.63\,}
+.
+in the log-law region of a turbulent boundary layer.
+Laminar flow :
+
+
+
+
+
+y
+
++
+
+
+<
+11.63
+
+
+
+{\displaystyle y^{+}<11.63\,}
+.
+Important points for applying wall functions:
+The velocity is constant along parallel to the wall and varies only in the direction normal to the wall.
+No pressure gradients in the flow direction.
+High Reynolds number
+No chemical reactions at the wall

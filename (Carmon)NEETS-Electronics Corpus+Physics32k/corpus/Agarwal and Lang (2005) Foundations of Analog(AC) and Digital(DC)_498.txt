@@ -1,0 +1,4 @@
+What do we do about dependent sources? A practical way is to leave all the
+dependent sources in the circuit. The network can then be solved for one
+independent source at a time by setting all other independent sources to zero,
+and summing the individual responses.

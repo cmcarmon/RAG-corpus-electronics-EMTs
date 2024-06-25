@@ -1,0 +1,10 @@
+Stateful and stateless objects
+An object state is a possible situation in which an object may exist. An object state has meaning only in the context of the object to which it belongs. A stateless object shall be an object that has no specification of states. A stateful object shall be an object for which a set of permissible states are specified. In a runtime model, at any point in time, any stateful object instance is at a particular permissible state or in transition between two states.
+Attribute values
+An attribute is an object that characterizes a thing. An attribute value is a specialization of state in the sense that a value is a state of an attribute: an object has an attribute, which is a different object, to which that value is assigned for some period of time during the existence of the object exhibiting that attribute.
+Object state representation
+A process is graphically defined by a labelled, rounded-corner rectangle placed inside the owning object. In OPL text, the process name shall appear in bold face without capitalization.
+Initial, default, and final states
+The initial state of an object is its state as the system starts executing or its state upon generation by the system during execution. The final state of an object is its state as the system completes executing or its state upon consumption by the system during execution. The default state of an object is its expected state—the state in which the object is most likely to be when randomly inspected. An object can have zero or more initial states, zero or more final states, and zero or one default state.
+Initial, final, and default state representation
+A state that is initial is graphically defined by a state representation with thick contour. A state that is final is graphically defined by a state representation with double contour. A state that is default is graphically defined by a state representation with an open arrow pointing diagonally from the left. The corresponding OPL sentences shall include explicit indicators for an initial, final or default state.

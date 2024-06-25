@@ -1,0 +1,8 @@
+In this example, we will compare the actual characteristics of the BJT with those predicted
+by a simple piecewise linear model. The actual characteristics of a BJT (iC versus vCE for
+various values of iB) are shown in Figure 7.48. The horizontal nature of the iC versus vCE
+curves indicates that the device operates like a dependent current source when the base
+current iB > 0 and the collector-to-emitter voltage (vCE) is greater than approximately
+0.2 V. The current supplied by the current source is typically about 100 times the base
+current. Although these curves are qualitatively similar to those of a MOSFET, there
+are also some differences. First, notice that we have chosen the BJT’s base current iB

@@ -1,0 +1,2 @@
+The robot Jacobian results in a set of linear equations that relate the joint rates to the six-vector formed from the angular and linear velocity of the end-effector, known as a twist. Specifying the joint rates yields the end-effector twist directly.
+The inverse velocity problem seeks the joint rates that provide a specified end-effector twist. This is solved by inverting the Jacobian matrix. It can happen that the robot is in a configuration where the Jacobian does not have an inverse. These are termed singular configurations of the robot.

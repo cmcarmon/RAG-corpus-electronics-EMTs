@@ -1,0 +1,6 @@
+Large memories consist of multiple planes that can be
+powered up separately. Multiple planes are used to avoid bit
+lines that are too long. By lowering switching between different
+planes, the energy is saved further. This should again be en-
+abled by optimizing the access ordering and the data place-
+ment in the memories.

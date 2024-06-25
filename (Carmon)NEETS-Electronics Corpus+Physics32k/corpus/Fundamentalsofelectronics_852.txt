@@ -1,0 +1,6 @@
+Because we use the base-2 logarithm, entropy has units of bits. For this deﬁnition to make sense, we must
+take special note of symbols having probability zero of occurring. A zero-probability symbol never occurs;
+thus, we deﬁne 0log20 = 0 so that such symbols do not aﬀect the entropy. The maximum value attainable
+by an alphabet’s entropy occurs when the symbols are equally likely (Pr [ak] = Pr [al]). In this case, the
+entropy equals log2K. The minimum value occurs when only one symbol occurs; it has probability one of
+occurring and the rest have probability zero.

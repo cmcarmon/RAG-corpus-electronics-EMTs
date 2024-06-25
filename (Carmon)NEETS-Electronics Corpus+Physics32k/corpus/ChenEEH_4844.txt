@@ -1,0 +1,16 @@
+As mentioned previously, digital control systems are much
+more sensitive to time delays than are other software applica-
+tions. There are three types of timed events that occur in
+typical control system: periodic events (such as updating
+control signals at a given rate), asynchronous events (such
+as set point adjustments from a supervisory control), and
+sporadic events (such as a fault occurrence). A long time
+delay that is incurred when processing an event could cause
+catastrophic behavior, such as instability or failure to recover
+from a fault. Making the problem more difﬁcult to manage
+and to analyze is the fact that operations in typical networked
+computer systems occur in a nondeterministic manner, giving
+rise to varying time delays. The concern over how this non-
+deterministic behavior affects different software applications
+has prompted a great deal of research in the area of real-time
+computing.

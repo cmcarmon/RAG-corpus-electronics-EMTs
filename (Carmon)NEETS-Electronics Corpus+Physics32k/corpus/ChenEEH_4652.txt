@@ -1,0 +1,20 @@
+The LPV synthesis conditions described here make use of a
+ﬁxed Lyapunov function (as opposed to one that depends on
+the scheduling variables) to characterize stability and perfor-
+mance. Such approaches are potentially conservative because
+they allow for arbitrary rates of variation in the scheduling
+variables, a generalization that may render the synthesis
+conditions infeasible. A signiﬁcant improvement over such
+techniques can be obtained by exploiting the concept of param-
+eter-dependent Lyapunov functions. Parameter-dependent
+Lyapunov functions allow incorporation of knowledge on the
+parameter variation rate into the analysis or synthesis technique
+and can lead to less conservative answers. Implementation of
+solutions based on parameter-dependent Lyapunov functions
+require not only the real-time measurement of the parameter
+but also its time derivative. This is generally prohibitive because
+such values are either unavailable or difﬁcult to estimate in real-
+time. Generally speaking, there is no systematic rule for
+selecting the functional dependence of the Laypunov function
+on the parameter. The key idea is to mimic the parameter
+dependence of the plant in the Lyapunov function variables.

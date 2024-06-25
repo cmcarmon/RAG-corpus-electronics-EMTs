@@ -1,0 +1,115 @@
+A homogeneous discrete time linear time-invariant system is marginally stable if and only if the greatest magnitude of any of the poles (eigenvalues) of the transfer function is 1, and the poles with magnitude equal to 1 are all distinct. That is, the transfer function's spectral radius is 1. If the spectral radius is less than 1, the system is instead asymptotically stable.
+A simple example involves a single first-order linear difference equation: Suppose a state variable x evolves according to
+
+
+
+
+
+x
+
+t
+
+
+=
+a
+
+x
+
+t
+−
+1
+
+
+
+
+{\displaystyle x_{t}=ax_{t-1}}
+
+with parameter a > 0. If the system is perturbed to the value
+
+
+
+
+x
+
+0
+
+
+,
+
+
+{\displaystyle x_{0},}
+its subsequent sequence of values is
+
+
+
+a
+
+x
+
+0
+
+
+,
+
+
+a
+
+2
+
+
+
+x
+
+0
+
+
+,
+
+
+a
+
+3
+
+
+
+x
+
+0
+
+
+,
+
+…
+.
+
+
+{\displaystyle ax_{0},\,a^{2}x_{0},\,a^{3}x_{0},\,\dots .}
+If a < 1, these numbers get closer and closer to 0 regardless of the starting value
+
+
+
+
+x
+
+0
+
+
+,
+
+
+{\displaystyle x_{0},}
+while if a > 1 the numbers get larger and larger without bound. But if a = 1, the numbers do neither of these: instead, all future values of x equal the value
+
+
+
+
+x
+
+0
+
+
+.
+
+
+{\displaystyle x_{0}.}
+Thus the case a = 1 exhibits marginal stability.

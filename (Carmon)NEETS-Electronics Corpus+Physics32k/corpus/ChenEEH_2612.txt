@@ -1,0 +1,14 @@
+The diplexer (Menzel et al., 1997) is a special case of a
+multiplexer. Its purpose is to separate two channels, the receiv-
+ing channel and the transmit channel by means of two band-
+pass ﬁlters whose paths are terminated on the same antenna.
+The diplexer is a low-loss alternative to a circulator-based
+solution. In the design of the band-pass ﬁlters, the slope-
+selectivity between both ﬁlters must be sufﬁcient to ensure a
+certain level of isolation between the transmit and the receiv-
+ing paths. This isolation is necessary to protect the input of the
+receiver from the output power of the transmitter. The iso-
+lation bandwidth between the transmitting and the receiving
+bandwidths is known as guard band. Figure 7.41 illustrates two
+possible diplexer arrangements based on waveguide and planar
+circuit technology, respectively.

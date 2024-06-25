@@ -1,0 +1,82 @@
+We assume that the objects one talks about are finite strings of 0s and 1s. Thus we mean string similarity. Every computer file is of this form, that is, if an object is a file in a computer it is of this form. One can define the information distance between strings
+
+
+
+x
+
+
+{\displaystyle x}
+and
+
+
+
+y
+
+
+{\displaystyle y}
+as the length of the shortest program
+
+
+
+p
+
+
+{\displaystyle p}
+that computes
+
+
+
+x
+
+
+{\displaystyle x}
+from
+
+
+
+y
+
+
+{\displaystyle y}
+and vice versa. This shortest program is in a fixed programming language. For technical reasons one uses the theoretical notion of Turing machines. Moreover, to express the length of
+
+
+
+p
+
+
+{\displaystyle p}
+one uses the notion of Kolmogorov complexity. Then, it has been shown
+
+
+
+
+
+|
+
+p
+
+|
+
+=
+max
+{
+K
+(
+x
+∣
+y
+)
+,
+K
+(
+y
+∣
+x
+)
+}
+
+
+{\displaystyle |p|=\max\{K(x\mid y),K(y\mid x)\}}
+
+up to logarithmic additive terms which can be ignored. This information distance is shown to be a metric (it satisfies the metric inequalities up to a logarithmic additive term), is universal (it minorizes every computable distance as computed for example from features up to a constant additive term).

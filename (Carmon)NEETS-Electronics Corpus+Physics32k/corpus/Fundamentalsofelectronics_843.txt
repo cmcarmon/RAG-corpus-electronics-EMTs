@@ -1,0 +1,15 @@
+• As the received signal becomes increasingly noisy, whether due to increased distance from the transmit-
+ter (smaller α) or to increased noise in the channel (larger N0), the probability the receiver makes an
+error approaches 1/2. In such situations, the receiver performs only slightly better than the “receiver”
+that ignores what was transmitted and merely guesses what bit was transmitted. Consequently, it
+becomes almost impossible to communicate information when digital channels become noisy.
+• As the signal-to-noise ratio increases, performance gains–smaller probability of error pe – can be easily
+obtained. At a signal-to-noise ratio of 12 dB, the probability the receiver makes an error equals 10−8.
+In words, one out of one hundred million bits will, on the average, be in error.
+• Once the signal-to-noise ratio exceeds about 5 dB, the error probability decreases dramatically. Adding
+• Signal set choice can make a signiﬁcant diﬀerence in performance. All BPSK signal sets, baseband or
+modulated, yield the same performance for the same bit energy. The BPSK signal set does perform
+much better than the FSK signal set once the signal-to-noise ratio exceeds about 5 dB.
+Exercise 6.20
+(Solution on p. 256.)
+Derive the expression for the probability of error that would result if the FSK signal set were used.

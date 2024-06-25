@@ -1,0 +1,46 @@
+One can model particle diffusion by an equation involving either:
+the volumetric concentration of particles, denoted c, in the case of collective diffusion of a large number of particles, or
+the probability density function associated with the position of a single particle, denoted P.
+In either case, one uses the heat equation
+
+
+
+
+
+c
+
+t
+
+
+=
+D
+Δ
+c
+,
+
+
+
+{\displaystyle c_{t}=D\Delta c,\quad }
+
+or
+
+
+
+
+
+P
+
+t
+
+
+=
+D
+Δ
+P
+.
+
+
+
+{\displaystyle P_{t}=D\Delta P.\quad }
+
+Both c and P are functions of position and time. D is the diffusion coefficient that controls the speed of the diffusive process, and is typically expressed in meters squared over second. If the diffusion coefficient D is not constant, but depends on the concentration c (or P in the second case), then one gets the nonlinear diffusion equation.

@@ -1,0 +1,8 @@
+resolution of region for preserving details, where
+. Rescaling factor (L): Indicates the global rescaling of the
+image, where 0  Si  1
+. Content Value (Vi): Indicates value of the transcoded
+region Vi ¼ f (Ii, Si, L)as follows:
+if 1  L.
+if 0  L < 1.
+otherwise.

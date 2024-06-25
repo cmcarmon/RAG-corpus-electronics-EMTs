@@ -1,0 +1,9 @@
+The obvious disadvantage of LPM is its lack of direct overwrite capability. A more subtle concern is that it
+is perhaps unsuitable for the PWM (pulse width modulation) scheme of representing binary waveforms. Due
+to ﬂuctuations in the laser power, spatial variations of material properties, lack of perfect focusing and track
+following, etc., the length of a recorded domain along the track may ﬂuctuate in small but unpredictable ways.
+If the information is to be encoded in the distance between adjacent domain walls (i.e., PWM), then the LPM
+scheme of thermomagnetic writing may suffer from excessive domain-wall jitter. Laser power modulation works
+well, however, when the information is encoded in the position of domain centers (i.e., pulse position modu-
+lation or PPM). In general, PWM is superior to PPM in terms of the recording density, and, therefore, recording
+techniques that allow PWM are preferred.

@@ -1,0 +1,10 @@
+this case, for each unique combination of regions, the image is
+cropped to include only those selected regions, and the
+cropped image is then rescaled to ﬁt the device screen size.
+Then, the regions are evaluated in terms of the image’s content
+value under the rescaling and selection, and the total content
+value is computed. Then, the combination of regions with
+maximum beneﬁt is selected as the optimal transcoding of
+the image. The complexity of this search is not great consider-
+ing that each image will typically only have a handful of
+annotated regions.

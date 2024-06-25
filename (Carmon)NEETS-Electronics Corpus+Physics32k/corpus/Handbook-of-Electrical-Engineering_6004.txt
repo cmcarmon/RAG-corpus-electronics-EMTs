@@ -1,0 +1,14 @@
+network connected to the machine may not be in phase variables. For example, in linearized analysis, and also
+in  transient  stability  of  power  systems,  the  network  representation  is  usually  in  a  synchronously  rotating
+reference  frame.  In  linearized  analysis,  the  small-signal  representation  of  the  system  is  obtained  by  making
+small perturbations about an operating point. When the machines are in their respective rotor qd0 reference
+frames  and  the  power  network  is  in  a  synchronously  rotating  qd0  reference  frame,  the  qd0  variables  of  the
+network and machines are in steady-state; thus linearized analysis about an operating point can be performed.
+In transient stability, the main interest is the stability of the system after some large disturbances. The models
+employed are to portray the transient behavior of the power ﬂows in the network and the electromechanical
+response of the machines. When dealing with large networks, the fast electromagnetic transients of the network
+are usually ignored and a static network representation is used. At each new time step of the dynamic simulation,
+an update of the network condition can be obtained by solving the phasor equations of the static network along
+with  power  or  current  injections  from  the  machines.  Because  the  phasor  quantities  of  the  network  can  be
+expressed as qd components of a synchronously rotating qd0 reference [Ong, 1998], the exchange of voltage
+variables between network and machine at the bus will require a rotational transformation given below

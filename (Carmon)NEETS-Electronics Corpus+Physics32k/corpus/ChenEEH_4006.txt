@@ -1,0 +1,8 @@
+. A 1-D discrete fourier transform (DFT) (Dick, 1996)
+systolic array of PE with coordinate rotation digital com-
+puter (CORDIC) arithmetic is reported. Each PE con-
+sumes about 44 conﬁgurable logic blocks (CLBs) of the
+Xilinx XC4010PG191-4. As a result, each FPGA chip can
+accommodate 10 PEs. With the operating 15.3-MHz
+clock frequency, 1000-point 1-D DFT only takes 51.45 ms
+to compute.

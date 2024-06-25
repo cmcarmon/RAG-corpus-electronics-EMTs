@@ -1,0 +1,6 @@
+which indicates that the pdf of the process at any time tn , given values of the process at any number of previous
+times tn–1, . . ., t1, is the same as the pdf at tn given the value of the process at the most recent time tn–1. Such
+an  X(t)  is  called  a  ﬁrst-order  Markov  process,  in  which  case  we  say  the  process  remembers  only  the  previous
+value (the previous value has inﬂuence). In general, an nth-order Markov process remembers only the n most
+recent previous values. A ﬁrst-order Markov process can be fully speciﬁed in terms of its ﬁrst-order conditional
+pdf’s fX(t)* X(s)(xt,xs) and its unconditional ﬁrst-order pdf at some initial time t0, fX(t (0))(x0).

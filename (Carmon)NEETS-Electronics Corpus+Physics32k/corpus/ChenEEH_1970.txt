@@ -1,0 +1,5 @@
+The signatures labeling the nodes of the CFG are assigned
+arbitrarily using prime numbers or successive integers. These
+signatures are transferred to the WD explicitly by the checked
+processor. For this purpose, signature transfer statements are
+added into the source of the checked program.

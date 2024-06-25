@@ -1,0 +1,24 @@
+Real-Time Streaming Protocol (RTSP) (Schulzrinne et al.,
+1998) is an out-of-band control protocol that allows the media
+player to control the transmission of the media stream, includ-
+ing functions like pause/resume and repositioning playback.
+The use of the RTP above UDP provides for additional func-
+tionality required for reordering and time stamping the UDP
+packets. The inherent limitations of the UDP, however, are not
+completely overcome by the use of RTP. Speciﬁcally, the unre-
+liability of UDP persists and, consequently, there is no guaran-
+tee of delivery of the transmitted packets at the receiver. On the
+other hand, the error-free transmission guarantees provided by
+the TCP pose severe time delays that render it useless for real-
+time applications. Mulabegovic et al. (Mulabegovic et al.,
+2002) have proposed an alternative to RTP provided by the
+Lightweight Streaming Protocol (LSP). This protocol also re-
+sides on top of the transport layer and relies on the UDP. LSP
+provides sequence numbers and time stamps—as facilitated by
+RTP—to reorder the packets and manage the buffer at the
+receiver. However, unlike UDP and RTP, the LSP allows for
+limited use of retransmissions to minimize the effects of error
+over the communication network. This is accomplished by use
+of negative acknowledgments in the event of lost packets and
+satisfaction of timing delay constraints required to maintain
+real-time communication capability.

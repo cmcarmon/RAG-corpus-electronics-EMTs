@@ -1,0 +1,2 @@
+Instrumentation is limited by execution coverage. If the program never reaches a particular point of execution, then instrumentation at that point collects no data. For instance, if a word processor application is instrumented, but the user never activates the print feature, then the instrumentation can say nothing about the routines which are used exclusively by the printing feature.
+Some types of instrumentation may cause a dramatic increase in execution time. This may limit the application of instrumentation to debugging contexts.

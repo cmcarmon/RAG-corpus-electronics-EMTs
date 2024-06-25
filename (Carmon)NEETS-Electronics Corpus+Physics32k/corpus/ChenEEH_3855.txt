@@ -1,0 +1,9 @@
+Essentially, a wavelet transform is an octave band decom-
+position in which each band is subsampled according to its
+bandwidth (Mallat, 1998; Vetterli and Kovac˘evic´, 1995). A way
+of achieving this is to ﬁrst divide a signal into low- and high-
+pass bands, with each band being subsampled by two. Then,
+only the low-pass channel is again low- and high-pass ﬁltered,
+and each band is subsampled by two. This process is recur-
+sively repeated until a predetermined number of stages is
+reached. For an image, the same process is performed for

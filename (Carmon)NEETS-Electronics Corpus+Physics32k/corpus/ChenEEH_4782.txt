@@ -1,0 +1,23 @@
+This section is dedicated to expositions of analytical properties
+of the online learning algorithms in the context of neural
+dynamic programming (NDP). It is important to note that
+in contrast to usual neural network applications, there is no
+readily available training sets of input/output pairs to be used
+for approximating J in the sense of least-squares-ﬁt in NDP
+applications. Both the control action u and the approximated J
+function are updated according to an error function that
+changes from one time-step to the next. Therefore, the conver-
+gence argument for the steepest descent algorithm does not
+hold valid for any of the two networks, action or critic. This
+results in a simulation approach to evaluate the cost-to-go
+function J for a given control action u. The online learning
+takes place, aiming at iteratively improving the control policies
+based on simulation outcomes. This creates analytical and
+computational difﬁculties that do not arise in a more typical
+neural network training context. The closest analytical results
+in terms of approximating J function was obtained by Tsitsiklis
+(1997) where a linear in parameter function approximator was
+used to approximate the J function. The limit of convergence
+was characterized as the solution to a set of interpretable linear
+equations, and a bound was placed on the resulting approxi-
+mation error.

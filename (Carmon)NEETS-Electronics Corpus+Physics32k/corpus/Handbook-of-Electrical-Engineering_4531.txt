@@ -1,0 +1,8 @@
+Sampling Functions
+At the core of numerical analysis is the idea of polynomial approximation, an observation made by Arden and
+Astill [1970] in facetiously using the subtitle “Numerical Analysis or 1001 Applications of Taylor’s Series.” The
+basic idea is to approximate quantities of interest in terms of sampling functions, often polynomials, that are
+then substituted for these quantities in various analytical operations. Thus, integral operators are replaced by
+ﬁnite sums, and differential operators are similarly replaced by generalized ﬁnite differences. For example, use
+of a ﬁrst-order difference to approximate a derivative of the function F(x) in terms of samples F(x+) and F(x–)
+leads to

@@ -1,0 +1,8 @@
+then any single bit error in each of the scalar component of this
+test will be detected even in the presence of overﬂow in
+modulo (or single-precision) integer arithmetic (Dutt and
+Assaad, 1996).
+In equation 8.6, scalars ai and bi are compared, where
+a:¼ (a1, . . ., an)T and b:¼ (b1, . . ., bn)T are the LHS and
+RHS, respectively of equation 8.6. The above result means
+that single bit errors in either ai or bi can be detected for

@@ -1,0 +1,3 @@
+To convert a decimal fraction to octal, multiply the fraction by 8. Extract everything that appears to
+the left of the radix point. The first number extracted will be the MSD and will follow the radix point. The
+last number extracted will be the LSD.

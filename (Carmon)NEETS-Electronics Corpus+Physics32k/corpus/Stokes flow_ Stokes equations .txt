@@ -1,0 +1,132 @@
+The equation of motion for Stokes flow can be obtained by linearizing the steady state Navier-Stokes Equations. The inertial forces are assumed to be negligible in comparison to the viscous forces, and eliminating the inertial terms of the momentum balance in the Navier–Stokes equations reduces it to the momentum balance in the Stokes equations:
+
+
+
+
+
+∇
+
+⋅
+
+P
+
++
+
+f
+
+=
+
+0
+
+
+
+{\displaystyle {\boldsymbol {\nabla }}\cdot \mathbb {P} +\mathbf {f} ={\boldsymbol {0}}}
+
+where
+
+
+
+
+
+P
+
+
+
+
+{\displaystyle \scriptstyle \mathbb {P} }
+is the Cauchy stress tensor representing viscous and pressure stresses, and
+
+
+
+
+
+f
+
+
+
+
+{\displaystyle \scriptstyle \mathbf {f} }
+an applied body force. The full Stokes equations also includes an equation for the conservation of mass, commonly written in the form:
+
+
+
+
+
+
+
+∂
+ρ
+
+
+∂
+t
+
+
+
++
+∇
+⋅
+(
+ρ
+
+u
+
+)
+=
+0
+
+
+{\displaystyle {\frac {\partial \rho }{\partial t}}+\nabla \cdot (\rho \mathbf {u} )=0}
+
+where
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+is the fluid density and
+
+
+
+
+u
+
+
+
+{\displaystyle \mathbf {u} }
+the fluid velocity. To obtain the equations of motion for incompressible flow, it is assumed that the density,
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+, is a constant.
+Furthermore, occasionally one might consider the unsteady Stokes equations, in which the term
+
+
+
+
+ρ
+
+
+
+∂
+
+u
+
+
+
+∂
+t
+
+
+
+
+
+
+{\displaystyle \scriptstyle \rho {\frac {\partial \mathbf {u} }{\partial t}}}
+is added to the left hand side of the momentum balance equation.

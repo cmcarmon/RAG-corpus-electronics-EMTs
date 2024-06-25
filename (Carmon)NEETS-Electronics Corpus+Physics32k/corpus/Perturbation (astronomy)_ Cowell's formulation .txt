@@ -1,0 +1,267 @@
+Cowell's formulation (so named for Philip H. Cowell, who, with A.C.D. Cromellin, used a similar method to predict the return of Halley's comet) is perhaps the simplest of the special perturbation methods. In a system of
+
+
+
+n
+
+
+{\displaystyle n}
+mutually interacting bodies, this method mathematically solves for the Newtonian forces on body
+
+
+
+i
+
+
+{\displaystyle i}
+by summing the individual interactions from the other
+
+
+
+j
+
+
+{\displaystyle j}
+bodies:
+
+
+
+
+
+
+
+
+r
+¨
+
+
+
+
+i
+
+
+=
+
+∑
+
+
+
+j
+=
+1
+
+
+j
+≠
+i
+
+
+
+
+n
+
+
+
+
+
+G
+
+m
+
+j
+
+
+(
+
+
+r
+
+
+j
+
+
+−
+
+
+r
+
+
+i
+
+
+)
+
+
+r
+
+i
+j
+
+
+3
+
+
+
+
+
+
+{\displaystyle \mathbf {\ddot {r}} _{i}=\sum _{\underset {j\neq i}{j=1}}^{n}{Gm_{j}(\mathbf {r} _{j}-\mathbf {r} _{i}) \over r_{ij}^{3}}}
+
+where
+
+
+
+
+
+
+
+r
+¨
+
+
+
+
+i
+
+
+
+
+{\displaystyle \mathbf {\ddot {r}} _{i}}
+is the acceleration vector of body
+
+
+
+i
+
+
+{\displaystyle i}
+,
+
+
+
+G
+
+
+{\displaystyle G}
+is the gravitational constant,
+
+
+
+
+m
+
+j
+
+
+
+
+{\displaystyle m_{j}}
+is the mass of body
+
+
+
+j
+
+
+{\displaystyle j}
+,
+
+
+
+
+
+r
+
+
+i
+
+
+
+
+{\displaystyle \mathbf {r} _{i}}
+and
+
+
+
+
+
+r
+
+
+j
+
+
+
+
+{\displaystyle \mathbf {r} _{j}}
+are the position vectors of objects
+
+
+
+i
+
+
+{\displaystyle i}
+and
+
+
+
+j
+
+
+{\displaystyle j}
+respectively, and
+
+
+
+
+r
+
+i
+j
+
+
+
+
+{\displaystyle r_{ij}}
+is the distance from object
+
+
+
+i
+
+
+{\displaystyle i}
+to object
+
+
+
+j
+
+
+{\displaystyle j}
+. All vectors being referred to the barycenter of the system. This equation is resolved into components in
+
+
+
+x
+
+
+{\displaystyle x}
+,
+
+
+
+y
+
+
+{\displaystyle y}
+, and
+
+
+
+z
+
+
+{\displaystyle z}
+and these are integrated numerically to form the new velocity and position vectors. This process is repeated as many times as necessary. The advantage of Cowell's method is ease of application and programming. A disadvantage is that when perturbations become large in magnitude (as when an object makes a close approach to another) the errors of the method also become large. However, for many problems in celestial mechanics, this is never the case. Another disadvantage is that in systems with a dominant central body, such as the Sun, it is necessary to carry many significant digits in the arithmetic because of the large difference in the forces of the central body and the perturbing bodies, although with modern computers this is not nearly the limitation it once was.

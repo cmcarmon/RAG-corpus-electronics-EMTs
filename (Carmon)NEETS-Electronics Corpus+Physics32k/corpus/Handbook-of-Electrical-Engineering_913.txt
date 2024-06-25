@@ -1,0 +1,3 @@
+Other transient failures are caused by MOSFET models. Some models contain discontinuous capacitances
+(with respect to voltage) and others do not conserve charge. These models can vary from version to version so
+it is best to check the user’s guide.

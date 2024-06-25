@@ -1,0 +1,10 @@
+With advanced inductor designs, the VRM duty cycle can be
+adjusted. Figure 1.26 shows a changed inductor structure, a
+center-tapped inductor, that can improve the VRM duty cycle.
+Figure 1.27 shows an improved VRM topology with the center-
+tapped inductor structure and a loss-less snubber that can
+absorb the leakage inductance energy as well as reduce ripple
+and voltage spikes (Zhou, 1999). With this topology, VRMs do
+not need high-side gate drives, thus improving VRM efﬁciency
+at high-input-voltages. To reduce input and output current
+ripple, an interleave technique can be used, which is shown in

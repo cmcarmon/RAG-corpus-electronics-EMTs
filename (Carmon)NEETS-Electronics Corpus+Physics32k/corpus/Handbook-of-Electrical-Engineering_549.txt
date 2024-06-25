@@ -1,0 +1,13 @@
+around the loop to determine the value of input voltage 
+ that is necessary to forward bias the diode. Assuming
+v
+ necessary to forward
+that the diodes are ideal (neglecting their forward voltage drops), we determine the value 
+i
+ reaches the voltage necessary
+bias each diode by determining the value 
+i
+ > 0, the diode becomes forward biased and the signal source is forced to, or held at, the dc source
+to make 
+voltage. If the forward voltage drop across the diode is not neglected, the clipping level is found by determining
+the value of 

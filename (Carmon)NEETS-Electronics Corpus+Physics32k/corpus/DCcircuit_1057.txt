@@ -1,0 +1,8 @@
+This means that both Thevenin and Norton equivalent circuits should produce the same
+voltage across the load terminals with no load resistor attached. With the Thevenin equivalent,
+the open-circuited voltage would be equal to the Thevenin source voltage (no circuit current
+present to drop voltage across the series resistor), which is 11.2 volts in this case. With the
+Norton equivalent circuit, all 14 amps from the Norton current source would have to ﬂow
+through the 0.8 Ω Norton resistance, producing the exact same voltage, 11.2 volts (E=IR).
+Thus, we can say that the Thevenin voltage is equal to the Norton current times the Norton
+resistance:

@@ -1,0 +1,18 @@
+Figure  100.16  illustrates  the  gain  magnitude  and  phase  shift  curves  for  a  single-stage  lag-lead  network
+equalizer or compensator transfer function. Figure 100.17 illustrates an electrical network realization of a passive
+lag-lead  network  equalizer.  Parameter  matching  can  be  used  to  determine  the  electrical  network  parameters
+that yield a speciﬁed transfer function. Because the relationships between the break frequencies and the equalizer
+component values are complex, it may be desirable, particularly in preliminary instrumentation of the control
+system,  to  use  analog  or  digital  computer  programming  techniques  to  construct  the  equalizer.  Traditionally,
+there has been much analog computer simulation of control systems. The more contemporary approach suggests
+use of digital computer approaches that require numerical approximation of continuous-time physical systems.
+Figure 100.18 presents a ﬂowchart that we may use for lag-lead network design. We see that this ﬂowchart
+has much in common with the charts and design procedures for lead network and lag network design and that
+each of these approaches ﬁrst involves determining or obtaining a set of desired speciﬁcations for the control
+system. Next, the form of a trial compensating network and the number of break frequencies in the network
+are selected. We must then obtain a number of equations, equal to the number of network break frequencies
+plus  1.  One  of  these  equations  shows  that  the  gain  magnitude  is  1  at  the  crossover  frequency.  The  second
+equation will be an equation for the phase shift at crossover. It is generally desirable that there be at least two
+unspeciﬁed compensating network break frequencies such that we may use a third equation, the optimality of
+the phase shift at crossover equation, in which we set db/dwUw=wc = 0. If other equations are needed to represent
+the design situation, we obtain these from the design speciﬁcations themselves.

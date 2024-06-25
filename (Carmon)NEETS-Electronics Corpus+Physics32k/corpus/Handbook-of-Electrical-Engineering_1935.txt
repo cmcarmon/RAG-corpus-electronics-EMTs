@@ -1,0 +1,13 @@
+To illustrate the speed increase due to parallelism, consider the parallel implementation of the second-order
+three-tap FIR ﬁlter of Fig. 18.1(a) shown in Fig. 18.2. In the architecture of Fig. 18.2, two input samples are
+processed  and  two  output  samples  are  generated  in  each  clock  cycle  period  of  four  addition  times.  Because
+ which is the same as that
+each clock cycle processes two samples, however, the effective sample rate is 1/2
+of Fig. 18.1(b). The parallel architecture leads to the speed increase with signiﬁcant hardware overhead. The
+entire data ﬂow graph needs to be replicated with an increase in the amount of parallelism. Thus, it is more
+desirable to use pipelining as opposed to parallelism. However, parallelism may be useful if pipelining alone
+cannot meet the speed demand of the application or if the technology constraints (such as limitations on the
+clock rate by the I/O technology) limit the use of pipelining. In obvious ways, pipelining and parallelism can
+be combined also. Parallelism, like pipelining, can also lead to power reduction but with signiﬁcant overhead
+in hardware requirements. Achieving pipelining and parallelism can be difﬁcult for systems with feedback loops.
+Concurrency may be created in these systems by using the look-ahead transformation.

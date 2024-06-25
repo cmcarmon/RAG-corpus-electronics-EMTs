@@ -1,0 +1,4 @@
+• ITU-T Recommendation G.728 (LD-CELP) [Chen, 1990] is a low delay, backward adaptive CELP coder.
+In G.728, a low algorithmic delay (less than 2.5 msec) is achieved by using 1024 candidate excitation
+sequences, each only 5 samples long. A 50th-order LPC spectral model is used, and the coefﬁcients are
+backward-adapted based on the transmitted excitation.

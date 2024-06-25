@@ -1,0 +1,24 @@
+The  condition  described  above  of  convergence  almost
+everywhere is satisﬁed only in the limit as an inﬁnite number
+of terms are included in the Fourier series expansion. If the
+inﬁnite series expansion of the Fourier series is truncated to
+a ﬁnite number of terms, as it must always be in practical
+applications, then the approximation will exhibit an oscilla-
+tory behavior around the discontinuity, known as the Gibbs
+phenomenon  [Van  Valkenburg,  1974].  Let  sN¢ (t) denote  a
+truncated Fourier series approximation of s(t), where only
+the terms in Eq. (14.5a) from n = –N to n = N are included
+if the complex Fourier series representation is used or where
+only the terms in Eq. (14.6a) from n = 0 to n = N are included
+if the trigonometric form of the Fourier series is used. It is
+well known that in the vicinity of a discontinuity at t0 the
+Gibbs phenomenon causes sN¢ (t) to be a poor approximation
+–) – s(t 0
++)
+to s(t). The peak magnitude of the Gibbs oscillation is 13% of the size of the jump discontinuity s (t 0
+regardless of the number of terms used in the approximation. As N increases, the region which contains the
+oscillation  becomes  more  concentrated  in  the  neighborhood  of  the  discontinuity,  until,  in  the  limit  as  N
+approaches inﬁnity, the Gibbs oscillation is squeezed into a single point of mismatch at t0. The Gibbs phenom-
+enon  is  illustrated  in  Fig. 14.5,  where  an  ideal  low-pass  frequency  response  is  approximated  by  an  impulse
+response  function  that  has  been  limited  to  having  only N  nonzero  coefﬁcients,  and  hence  the  Fourier  series
+expansion contains only a ﬁnite number of terms.

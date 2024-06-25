@@ -1,0 +1,8 @@
+In  either  virtual  circuit  or  datagram  networks,  packets  from  a  large  number  of  users  may  simultaneously
+need transmission services between nodes. Packets arrive at a given node at random times. The switching node
+determines the next node in the transmission path, and then places the packet in a queue for transmission over
+a trunk facility to the next node. Packet arrival processes tend to be bursty, that is, the number of packet arrivals
+over ﬁxed-length intervals of time has a large variance. Because of the burstiness of the arrival process, packets
+may experience signiﬁcant delays at the trunks. Queues may also build due to the difference in transmission
+capacities  of  the  various  trunks  and  access  lines.  Combining  of  packets  that  arrive  at  random  times  from
+different users onto the same line, in this case a trunk, is called statistical multiplexing.

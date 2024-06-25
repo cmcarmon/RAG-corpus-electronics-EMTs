@@ -1,0 +1,5 @@
+State-Variable Biquad
+The simple Sallen and Key ﬁlter provides only an all-pole TF; many commonly encountered ﬁlter speciﬁcations
+are of this form—the Butterworth and Chebyshev approximations are notable examples—so this is not a serious
+limitation.  In  general,  however,  it  will  be  necessary  to  produce  sections  capable  of  realizing  a  second-order
+denominator together with a numerator polynomial of up to second-order:

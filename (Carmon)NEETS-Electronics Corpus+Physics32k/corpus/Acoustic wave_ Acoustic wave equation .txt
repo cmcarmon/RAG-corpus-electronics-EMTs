@@ -1,0 +1,286 @@
+The acoustic wave equation describes the propagation of sound waves. The acoustic wave equation for sound pressure in one dimension is given by
+
+
+
+
+
+
+
+
+∂
+
+2
+
+
+p
+
+
+∂
+
+x
+
+2
+
+
+
+
+
+−
+
+
+1
+
+c
+
+2
+
+
+
+
+
+
+
+
+∂
+
+2
+
+
+p
+
+
+∂
+
+t
+
+2
+
+
+
+
+
+=
+0
+
+
+{\displaystyle {\partial ^{2}p \over \partial x^{2}}-{1 \over c^{2}}{\partial ^{2}p \over \partial t^{2}}=0}
+
+where
+
+
+
+
+p
+
+
+{\displaystyle p}
+is sound pressure in Pa
+
+
+
+
+x
+
+
+{\displaystyle x}
+is particle displacement in m
+
+
+
+
+c
+
+
+{\displaystyle c}
+is speed of sound in m/s
+
+
+
+
+t
+
+
+{\displaystyle t}
+is time in s
+The wave equation for particle velocity has the same shape and is given by
+
+
+
+
+
+
+
+
+∂
+
+2
+
+
+u
+
+
+∂
+
+x
+
+2
+
+
+
+
+
+−
+
+
+1
+
+c
+
+2
+
+
+
+
+
+
+
+
+∂
+
+2
+
+
+u
+
+
+∂
+
+t
+
+2
+
+
+
+
+
+=
+0
+
+
+{\displaystyle {\partial ^{2}u \over \partial x^{2}}-{1 \over c^{2}}{\partial ^{2}u \over \partial t^{2}}=0}
+
+where
+
+
+
+
+u
+
+
+{\displaystyle u}
+is particle velocity in m/s
+For lossy media, more intricate models need to be applied in order to take into account frequency-dependent attenuation and phase speed. Such models include acoustic wave equations that incorporate fractional derivative terms, see also the acoustic attenuation article.
+D'Alembert gave the general solution for the lossless wave equation. For sound pressure, a solution would be
+
+
+
+
+p
+=
+R
+cos
+⁡
+(
+ω
+t
+−
+k
+x
+)
++
+(
+1
+−
+R
+)
+cos
+⁡
+(
+ω
+t
++
+k
+x
+)
+
+
+{\displaystyle p=R\cos(\omega t-kx)+(1-R)\cos(\omega t+kx)}
+
+where
+
+
+
+
+ω
+
+
+{\displaystyle \omega }
+is angular frequency in rad/s
+
+
+
+
+t
+
+
+{\displaystyle t}
+is time in s
+
+
+
+
+k
+
+
+{\displaystyle k}
+is wave number in rad·m−1
+
+
+
+
+R
+
+
+{\displaystyle R}
+is a coefficient without unit
+For
+
+
+
+R
+=
+1
+
+
+{\displaystyle R=1}
+the wave becomes a travelling wave moving rightwards, for
+
+
+
+R
+=
+0
+
+
+{\displaystyle R=0}
+the wave becomes a travelling wave moving leftwards. A standing wave can be obtained by
+
+
+
+R
+=
+0.5
+
+
+{\displaystyle R=0.5}
+.

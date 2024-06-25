@@ -1,0 +1,7 @@
+Another method to reduce memory overhead is generalized
+path signature analysis (GPSA), which checks paths rather than
+simple nodes (Mahmood and McCluskey, 1988): the CFG is
+divided into path sets made of paths starting from the same
+node. Because there is only one reference signature for each path
+set, the run-time signature of each path is made the same by
+inserting justifying signatures in some paths.

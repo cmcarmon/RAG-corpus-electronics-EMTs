@@ -1,0 +1,9 @@
+In computing, redundancy can be achieved at the internal component level, at the system level (multiple machines), or site level (replication).
+One would normally deploy a load balancer to ensure high availability for a server cluster at the system level.
+In a high-availability server cluster, each individual server may attain internal component redundancy by having multiple power supplies, hard drives, and other components. System level redundancy could be obtained by having spare servers waiting to take on the work of another server if it fails.
+Since a data center is often a support center for other operations such as business logic, it represents a potential SPOF in itself. Thus, at the site level, the entire cluster may be replicated at another location, where it can be accessed in case the primary location becomes unavailable. This is typically addressed as part of an IT disaster recovery (resiliency) program.
+Paul Baran and Donald Davies developed packet switching, a key part of "survivable communications networks". Such networks –  including ARPANET and the Internet –  are designed to have no single point of failure. Multiple paths between any two points on the network allow those points to continue communicating with each other, the packets "routing around" damage, even after any single failure of any one particular path or any one intermediate node.
+Network protocols used to prevent SPOF:
+Intermediate System to Intermediate System
+Open Shortest Path First
+Shortest Path Bridging

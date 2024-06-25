@@ -1,0 +1,7 @@
+In this example, we call the signal s (t) a baseband signal because its power is contained at low frequencies.
+Signals such as speech and the Dow Jones averages are baseband signals. The baseband signal’s bandwidth
+equals W , the highest frequency at which it has power. Since x (t)’s spectrum is conﬁned to a frequency band
+not close to the origin (we assume (fc (cid:29) W )), we have a bandpass signal. The bandwidth of a bandpass
+signal is not its highest frequency, but the range of positive frequencies where the signal has power. Thus,
+in this example, the bandwidth is 2W Hz. Why a signal’s bandwidth should depend on its spectral shape
+will become clear once we develop communications systems.

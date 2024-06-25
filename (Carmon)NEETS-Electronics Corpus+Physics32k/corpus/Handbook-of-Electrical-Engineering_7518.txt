@@ -1,0 +1,7 @@
+is applied to the inverter’s input, Q1’s base-emitter junction will be reverse biased
+and the base-collector junction will be forward biased. This circuit condition will allow Q1 collector current
+to ﬂow into the base of Q2, saturating Q2 and thereby providing base current into Q3, turning it on also. The
+collector voltage of Q2 is too low to turn on Q4 so that it appears as an open in the top part of the totem pole.
+A diode between the two totem-pole transistors provides an extra voltage drop in series with the base-emitter
+junction of Q4 to ensure that Q4 will be turned off when Q2 is turned on. The saturated Q3 transistor brings
+the output near ground potential, producing a low output result for a high input into the inverter.

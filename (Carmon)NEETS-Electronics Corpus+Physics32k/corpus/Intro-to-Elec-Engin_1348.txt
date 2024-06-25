@@ -1,0 +1,12 @@
+(14.3.10)
+where the ampliﬁed signal power is Pout = GPin in the numerator, which includes source and
+ampliﬁer noise given by Equation (14.3.9); Pin is the average power of the input signal; and the
+denominator Nout is the total output noise power given by Equation (14.3.9). Notice that the am-
+pliﬁer’s power gain G does not appear in the ﬁnal result of the SNR. A large SNR indicates that the
+signal is strong enough to mask the noise and possibly make the noise inconsequential. For exam-
+ple, with SNR ≥ 20 dB, intelligible voice communication results; otherwise, “static” in the voice
+signal; with SNR ≥ 50 dB, noisefree television image results; otherwise, “snowy” TV picture.
+For a good system performance, Equation (14.3.10) suggests a large value of Pin and/or small
+values for T + Ta and B. However, one should be reminded here that the ampliﬁer’s bandwidth
+B should not be less than the signal bandwidth W. That simply means that with large-bandwidth
+signals, one would expect noise to be more troublesome.

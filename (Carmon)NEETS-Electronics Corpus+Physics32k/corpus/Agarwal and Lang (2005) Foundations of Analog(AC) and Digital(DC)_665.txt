@@ -1,0 +1,7 @@
+The analytical method uses KVL/KCL or the node method to write
+the circuit equations and solves them directly. The graphical method uses
+a graph of the v i relation of the nonlinear device and the graph capturing
+the circuit constraint to solve for the operating point. The piecewise lin-
+ear method represents the v i characteristics of a nonlinear element by a
+succession of straight-line segments, then makes calculations within each
+straight-line segment using linear analysis tools.

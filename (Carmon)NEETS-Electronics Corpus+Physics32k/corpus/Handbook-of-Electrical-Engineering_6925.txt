@@ -1,0 +1,7 @@
+Stochastic Processes
+A stochastic (or random) process is a collection of random variables {X t : t ˛  T}, indexed on an ordered set T
+that is usually a subset of the real numbers or integers. Examples are the Dow-Jones averages D(t) at each time t,
+the pressure R(x) in a pipe at distance x, or a noise voltage N(t) at time t. A process is thus a random function
+X(t) of t whose value at each t is drawn randomly from a range of outcomes for the rv Xt = X(t) according to
+a probability distribution for Xt . A trajectory {x t : t ˛ T} of outcomes over all t ˛ T, where Xt = xt is the realized
+value at each t, is called a sample function (or realization) of the process. A stochastic process X(t) has mean

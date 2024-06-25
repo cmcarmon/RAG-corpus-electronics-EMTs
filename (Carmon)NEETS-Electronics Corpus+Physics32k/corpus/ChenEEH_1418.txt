@@ -1,0 +1,26 @@
+Brebner (1996) states that the fundamental difference be-
+tween virtual hardware and virtual memory is that virtual
+hardware is much more structured. Virtual memory is a col-
+lection of independent memory locations and swapping can be
+done at the single memory location level. In the case of logic
+circuits, a collection of components operates as a whole; there-
+fore, it is not possible to swap a component unless it is isolated
+and operates independently from the other components.
+Brebner deﬁnes this type of isolated component as a swap-
+pable logic unit (SLU). Two different virtual hardware models
+are deﬁned: sea of accelerators and a parallel harness. The sea
+of accelerators model is a collection of SLUs that are indepen-
+dently operating and are accessed via bus-accessible registers.
+A parallel harness model is a set of SLUs that are cooperating
+parallel processing elements, interacting with neighbors using
+perimeter signals, and wiring infrastructure supplied by the
+operating system. Brebner proposes an operating system to
+help automate the swapping of SLUs. The swapping of an
+SLU into an FPGA is broken down into three steps. First, the
+operating system ﬁnds sufﬁcient space to swap the logic into
+the FPGA by using a two-dimensional recursive bisection
+technique. If there is not enough available space for the SLU,
+the operating system removes the least recently used SLUs until
+enough space is available. Second, the SLU is conﬁgured in the
+FPGA. Third, information about the location of the SLU’s I/O
+registers is recorded.

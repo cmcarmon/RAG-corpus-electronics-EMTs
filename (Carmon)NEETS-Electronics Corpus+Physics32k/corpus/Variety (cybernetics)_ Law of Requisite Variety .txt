@@ -1,0 +1,10 @@
+If a system is to be stable, the number of states of its control mechanism must be greater than or equal to the number of states in the system being controlled. Ashby states the Law as "variety can destroy variety". He sees this as aiding the study of problems in biology and a "wealth of possible applications" . He sees his approach as introductory to Shannon Information Theory (1948) which deals with the case of "incessant fluctuations" or noise. The Requisite Variety condition can be seen as a simple statement of a necessary dynamic equilibrium condition in information theory terms cf. Newton's third law, Le Chatelier's principle.
+A system has good Control if and only if the dependent variables remain the same even when the independent variables or the State Function have changed. In a real system this implies that the State Function is a composition of two functions, such that the second is the inverse of ( the possible changes of ) the first:
+y = F(G(x)) where
+F = controller system's function of state
+G = controlled system's function of state
+x = inputs, OR, independent variables
+y = outputs, OR, dependent variables.
+Later, in 1970, Conant working with Ashby produced the good regulator theorem  which required autonomous systems to acquire an internal model of their environment to persist and achieve stability (e.g. Nyquist stability criterion) or dynamic equilibrium.
+Stafford Beer defines variety as "the total number of possible states of a system, or of an element of a system", cf. Ludwig Boltzmann's Wahrscheinlichkeit. Beer restates the Law of Requisite Variety as "Variety absorbs variety". Stated more simply the logarithmic measure of variety represents the minimum number of choices (by binary chop) needed to resolve uncertainty. Beer used this to allocate the management resources necessary to maintain process viability.
+Variety is one of nine requisites that are required by an ethical regulator.

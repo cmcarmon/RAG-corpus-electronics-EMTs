@@ -1,0 +1,8 @@
+5.5 S I M P L I F Y I N G L O G I C E X P R E S S I O N S
+We are often interested in simplifying logic expressions to minimize their
+implementation cost. For example, although the expression A + BB + C
+appears to require three gates,6 simplification of the logic expression will result
+in a single gate. Notice that the expression BB always results in the answer 0
+(a variable and its complement can never be TRUE at the same time). Further-
+more, observe that A+ 0 is always A. From these observations, we can simplify
+the expression as

@@ -1,0 +1,31 @@
+.  These
+normalized  component  values  can  now  be  denormalized  to  give  a  required  cut-off  frequency  and  practical
+= 1 kHz. The necessary
+component values. Suppose that the ﬁlter is, in fact, required to give a cut-off frequency 
+f
+c
+ 
+ is
+shift is produced by multiplying all the capacitors (leaving the resistors ﬁxed) by the factor 
+p
+the normalized cut-off frequency (1 rad s
+m
+·
+F.  A  useful  rule  of  thumb
+  1000  rad  s
+m
+f
+F, which suggests
+) 
+[Waters, 1991] advises that capacitor values should be on the order of magnitude of (10/
+c
+altering of the ﬁlter’s
+ 
+that the capacitors should be further scaled to around 10 nF. This can be achieved without
+f
+,
+ by means of the impedance scaling property of electrical circuits. Providing all circuit impedances are scaled
+c
+by  the  same  amount,  current  and  voltage  TFs  are  preserved.  In  an  RC-active  circuit,  this  requires  that  all
+resistances are multiplied by some factor while all capacitances are divided by it (since capacitive impedance
+is proportional to 1/

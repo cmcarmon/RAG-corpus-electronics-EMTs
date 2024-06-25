@@ -1,0 +1,6 @@
+Extensions to systems with r inputs and m outputs lead to a set of m coupled equations similar to Eq. (100.3),
+one for each output yi. These higher-order equations can be reduced to n ﬁrst-order state differential equations
+and m algebraic output equations as in Eq. (100.5) or (100.6). The A matrix is again of dimension n · n, but
+B is now n · r, C is m · n, and D is m · r. In all previous discussions, the number of state variables, n, is the
+order  of  the  model.  In  transfer  function  form,  an  m · r  matrix  H(s)  of  transfer  functions  will  describe  the
+input-output behavior

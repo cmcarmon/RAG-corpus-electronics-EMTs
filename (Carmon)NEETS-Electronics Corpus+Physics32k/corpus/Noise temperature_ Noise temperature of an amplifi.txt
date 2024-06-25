@@ -1,0 +1,303 @@
+The noise temperature of an amplifier is commonly measured using the Y-factor method. If there are multiple amplifiers in cascade, the noise temperature of the cascade can be calculated using the Friis equation:
+
+
+
+
+
+T
+
+eq
+
+
+=
+
+T
+
+1
+
+
++
+
+
+
+T
+
+2
+
+
+
+G
+
+1
+
+
+
+
++
+
+
+
+T
+
+3
+
+
+
+
+G
+
+1
+
+
+
+G
+
+2
+
+
+
+
+
++
+⋯
+
+
+{\displaystyle T_{\text{eq}}=T_{1}+{\frac {T_{2}}{G_{1}}}+{\frac {T_{3}}{G_{1}G_{2}}}+\cdots }
+
+where
+
+
+
+
+
+T
+
+eq
+
+
+
+
+{\displaystyle T_{\text{eq}}}
+= resulting noise temperature referred to the input
+
+
+
+
+
+T
+
+1
+
+
+
+
+{\displaystyle T_{1}}
+= noise temperature of the first component in the cascade
+
+
+
+
+
+T
+
+2
+
+
+
+
+{\displaystyle T_{2}}
+= noise temperature of the second component in the cascade
+
+
+
+
+
+T
+
+3
+
+
+
+
+{\displaystyle T_{3}}
+= noise temperature of the third component in the cascade
+
+
+
+
+
+G
+
+1
+
+
+
+
+{\displaystyle G_{1}}
+= power gain of the first component in the cascade
+
+
+
+
+
+G
+
+2
+
+
+
+
+{\displaystyle G_{2}}
+= power gain of the second component in the cascade
+Therefore, the amplifier chain can be modelled as a black box having a gain of
+
+
+
+
+G
+
+1
+
+
+⋅
+
+G
+
+2
+
+
+⋅
+
+G
+
+3
+
+
+⋯
+
+
+{\displaystyle G_{1}\cdot G_{2}\cdot G_{3}\cdots }
+and a noise figure given by
+
+
+
+N
+F
+=
+10
+
+log
+
+10
+
+
+⁡
+(
+1
++
+
+T
+
+eq
+
+
+
+/
+
+290
+)
+
+
+{\displaystyle NF=10\log _{10}(1+T_{\text{eq}}/290)}
+. In the usual case where the gains of the amplifier's stages are much greater than one, then it can be seen that the noise temperatures of the earlier stages have a much greater influence on the resulting noise temperature than those later in the chain. One can appreciate that the noise introduced by the first stage, for instance, is amplified by all of the stages whereas the noise introduced by later stages undergoes lesser amplification. Another way of looking at it is that the signal applied to a later stage already has a high noise level, due to amplification of noise by the previous stages, so that the noise contribution of that stage to that already amplified signal is of less significance.
+This explains why the quality of a preamplifier or RF amplifier is of particular importance in an amplifier chain. In most cases only the noise figure of the first stage need be considered. However one must check that the noise figure of the second stage is not so high (or that the gain of the first stage is so low) that there is SNR degradation due to the second stage anyway. That will be a concern if the noise figure of the first stage plus that stage's gain (in decibels) is not much greater than the noise figure of the second stage.
+One corollary of the Friis equation is that an attenuator prior to the first amplifier will degrade the noise figure due to the amplifier. For instance, if stage 1 represents a 6 dB attenuator so that
+
+
+
+
+G
+
+1
+
+
+=
+
+
+1
+4
+
+
+
+
+{\displaystyle G_{1}={\frac {1}{4}}}
+, then
+
+
+
+
+T
+
+eq
+
+
+=
+
+T
+
+1
+
+
++
+4
+
+T
+
+2
+
+
++
+⋯
+
+
+{\displaystyle T_{\text{eq}}=T_{1}+4T_{2}+\cdots }
+. Effectively the noise temperature of the amplifier
+
+
+
+
+T
+
+2
+
+
+
+
+{\displaystyle T_{2}}
+has been quadrupled, in addition to the (smaller) contribution due to the attenuator itself
+
+
+
+
+T
+
+1
+
+
+
+
+{\displaystyle T_{1}}
+(usually room temperature if the attenuator is composed of resistors). An antenna with poor efficiency is an example of this principle, where
+
+
+
+
+G
+
+1
+
+
+
+
+{\displaystyle G_{1}}
+would represent the antenna's efficiency.

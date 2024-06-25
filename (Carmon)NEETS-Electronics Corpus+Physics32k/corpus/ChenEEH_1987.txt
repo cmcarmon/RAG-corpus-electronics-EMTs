@@ -1,0 +1,14 @@
+The problem of monitoring pipelined RISC processors was
+addressed in (Delord and Savcier, 1991). The main idea was
+that the reference signatures were computed on the basis of the
+instruction sequence fetched by the main processor, and the
+basic functions of the pipeline were imitated in the WD.
+Delayed branching and exceptions events, which make a clas-
+sical signature inconsistent, are handled by some new notions.
+Delayed branching is resolved by anticipated signatures (i.e.,
+always taking into account in the compaction the delayed
+instructions following a branch, independent of whether they
+are executed). Exceptions and the corresponding ﬂush of the
+pipeline are handled by delayed signatures (i.e., an instruction
+code is compacted only if a given number of successors are
+regularly fetched).

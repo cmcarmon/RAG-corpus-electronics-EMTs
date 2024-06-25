@@ -1,0 +1,6 @@
+Third, the saturation discipline is met only for vIN values between 1 V and
+approximately 2.3 V. When the input vIN is less than 1 V, the MOSFET is
+in cutoff. Similarly, when vIN is greater than approximately 2.3 V, the output
+falls more than one threshold drop below the input. For instance, notice that
+when vIN is 2.32 V, the output is 1.3 V, which is more than one threshold drop
+below the input voltage.

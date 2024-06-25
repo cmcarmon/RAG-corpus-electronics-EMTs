@@ -1,0 +1,75 @@
+While the position, velocity and acceleration of a particle can be described with respect to any observer in any state of motion, classical mechanics assumes the existence of a special family of reference frames in which the mechanical laws of nature take a comparatively simple form. These special reference frames are called inertial frames.
+An inertial frame is a frame of reference within which an object interacting with no forces (an idealized situation) appears either at rest or moving uniformly in a straight line. This is the fundamental definition of an inertial frame. These are characterized by the requirement that all forces entering the observer's physical laws originate from identifiable sources caused by fields, such as electro-static field (caused by static electrical charges), electro-magnetic field (caused by moving charges), gravitational field (caused by mass), and so forth.
+A key concept of inertial frames is the method for identifying them. For practical purposes, reference frames that do not accelerate with respect to distant stars (an extremely distant point) are regarded as good approximations to inertial frames. Non-inertial reference frames accelerate in relation to an existing inertial frame. They form the basis for Einstein's relativity. Due to the relative motion, particles in the non-inertial frame appear to move in ways not explained by forces from existing fields in the reference frame. Hence, it appears that there are other forces that enter the equations of motion solely as a result of the relative acceleration. These forces are referred to as fictitious forces, inertia forces, or pseudo-forces.
+Consider two reference frames S and S'. For observers in each of the reference frames an event has space-time coordinates of (x,y,z,t) in frame S and (x',y',z',t') in frame S'. Assuming time is measured the same in all reference frames, and if we require x = x' when t = 0, then the relation between the space-time coordinates of the same event observed from the reference frames S' and S, which are moving at a relative velocity of u in the x direction is:
+
+
+
+
+
+x
+′
+
+=
+x
+−
+u
+t
+
+
+
+{\displaystyle x'=x-ut\,}
+
+
+
+
+
+
+y
+′
+
+=
+y
+
+
+
+{\displaystyle y'=y\,}
+
+
+
+
+
+
+z
+′
+
+=
+z
+
+
+
+{\displaystyle z'=z\,}
+
+
+
+
+
+
+t
+′
+
+=
+t
+
+.
+
+
+{\displaystyle t'=t\,.}
+
+This set of formulas defines a group transformation known as the Galilean transformation (informally, the Galilean transform). This group is a limiting case of the Poincaré group used in special relativity. The limiting case applies when the velocity u is very small compared to c, the speed of light.
+The transformations have the following consequences:
+v′ = v − u (the velocity v′ of a particle from the perspective of S′ is slower by u than its velocity v from the perspective of S)
+a′ = a (the acceleration of a particle is the same in any inertial reference frame)
+F′ = F (the force on a particle is the same in any inertial reference frame)
+the speed of light is not a constant in classical mechanics, nor does the special position given to the speed of light in relativistic mechanics have a counterpart in classical mechanics.
+For some problems, it is convenient to use rotating coordinates (reference frames). Thereby one can either keep a mapping to a convenient inertial frame, or introduce additionally a fictitious centrifugal force and Coriolis force.

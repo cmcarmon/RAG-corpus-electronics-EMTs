@@ -1,0 +1,28 @@
+Other Desirable Features
+Form or menu drive input
+ is often more useful than a functional command driven interface for certain
+type of data entry. A good example is the plotting of results where the selection of options and parameters
+for axis scaling, tick marks, etc. are more conveniently speciﬁed by means of a dialog box than by a series
+of function calls. Such a facility is provided in X-Math’s graphics.
+Graphical input
+ is useful for deﬁning systems to be analyzed. Today, most of the major packages provide
+block  diagram  input,  usually  tied  to  nonlinear  simulation.  What  is  rarer  is  graphical  input  of  more
+application-speciﬁc system representations such as circuit diagrams.
+Strong data typing,
+ as already discussed, is useful for toolbox developers since it provides a robust means
+of developing extra algorithms within the context of the CACSD package. On the other hand, there is a
+ﬁne balance between the needs of the algorithm developer and the algorithm implementor. The former is
+probably best served by a type-less environment in which it is easy and quick to try out new ideas (such
+). The latter, who needs to ensure that the
+an environment is often called a 
+algorithms will work properly under all conditions, needs strong typing to ensure that this can be guaran-
+teed. A similar dichotomy between inventors and implementors can be observed in software engineering.
+Data persistence.
+ Unless explicitly saved, CACSD data is not maintained between sessions. Neither can
+data easily be shared between users. The evolution of models and results over time cannot be recorded.
+Hence, CACSD packages need database support.
+Matrix environments only support numerical computation.
+ It is often useful to be able to manipulate a
+symbolic  representation  of  a  control  system.  Delaying  the  replacement  of  symbolic  parameters  for
+numerical  values  for  as  long  as  possible  can  often  yield  great  insight  into  such  properties  as  stability,
+sensitivity, and robustness.

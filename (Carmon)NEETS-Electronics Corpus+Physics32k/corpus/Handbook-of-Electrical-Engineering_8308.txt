@@ -1,0 +1,6 @@
+It should be evident from the simple example of a combinational circuit described above that test pattern
+generation for digital circuits can be very difﬁcult and involved. The problem becomes much more complex
+when dealing with sequential circuits, where the internal state variables (i.e., bistable memory storage elements
+such as latches and ﬂip-ﬂops) must be treated as pseudo-inputs and pseudo-outputs that must be controlled and
+observed using the external pins of the component. In this case test patterns become test sequences that must
+be applied in precise order, and outputs must be observed only at prescribed times. Thus, the testing of sequential

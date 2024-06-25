@@ -1,0 +1,7 @@
+Due to some slight difference between the two circuits, one transistor will conduct more than the 
+other. Assume that Q1 conducts more than Q2. The increased conduction of Q1 causes the collector 
+voltage of Q1 to be less negative (more voltage drop across R1). This decreases the forward bias of Q2 
+and decreases the conduction of Q2. When Q2 conducts less, its collector voltage becomes more negative. 
+The negative-going change at the collector of Q2 is coupled to the base of Q1 and causes Q1 to conduct 
+even more heavily. This regenerative action continues until Q2 is cut off and Q1 is saturated. The circuit 
+is in a stable state and will remain there until a trigger is applied to change the state. 

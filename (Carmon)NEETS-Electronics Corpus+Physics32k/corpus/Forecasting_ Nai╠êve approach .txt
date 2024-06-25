@@ -1,0 +1,34 @@
+Naïve forecasts are the most cost-effective forecasting model, and provide a benchmark against which more sophisticated models can be compared. This forecasting method is only suitable for time series data. Using the naïve approach, forecasts are produced that are equal to the last observed value. This method works quite well for economic and financial time series, which often have patterns that are difficult to reliably and accurately predict. If the time series is believed to have seasonality, seasonal naïve approach may be more appropriate where the forecasts are equal to the value from last season. The naïve method may also use a drift, which will take the last observation plus the average change from the first observation to the last observation. In time series notation:
+
+
+
+
+
+
+
+
+y
+^
+
+
+
+
+T
++
+h
+
+|
+
+T
+
+
+=
+
+y
+
+T
+
+
+
+
+{\displaystyle {\hat {y}}_{T+h|T}=y_{T}}

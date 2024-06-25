@@ -1,0 +1,8 @@
+Dependent current sources are used to create the main gain elements. Because these sources force current
+ resistor, the voltage gain is Gm*R at low frequency. In the differential mode this gives (GDIF*R1 =
+into a 1-
+100). In the common mode this gives (GCM*R1*(RCM/(RDIF1 + RCM = 0.0909). The two diodes D1 and
+D2  implement  clipping  by  preventing  the  voltage  at  node  6  from  exceeding VCC  or  going  below VEE.  The
+)) –
+diodes are made “ideal” by reducing the ideality factor 
+1], where 

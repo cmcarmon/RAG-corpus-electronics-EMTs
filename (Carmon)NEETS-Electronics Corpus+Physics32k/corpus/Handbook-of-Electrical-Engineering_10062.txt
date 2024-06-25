@@ -1,0 +1,10 @@
+Other Approaches
+Although the LQG and H∞ design methodologies are probably the most commonly used techniques for linear
+MIMO  controller  design,  there  are  many  other  optimization-based  techniques  available.  A  well-developed
+theory exists for L1 control, which minimizes the maximum magniﬁcation of the peak of the input signal using
+a  linear  programming  algorithm  [Dahleh  and  Diaz-Bobillo,  1995].  This  approach  departs  from  traditional
+controller design methodologies that have attempted to arrive at a set of formulas for the optimal controller.
+But with the advent of powerful computers, it makes sense to consider a problem solved if it can be reduced
+to a problem that can be efﬁciently solved using a computer algorithm. This is also the premise underlying the
+design methodology of linear matrix inequalities, in which the control design problem is reduced to a convex
+programming problem [Boyd et al., 1994].

@@ -1,0 +1,8 @@
+The best-known algorithms are the D-algorithm (precursor to all), PODEM, and FAN [Abramovici, 1992].
+Three steps can be identiﬁed in most automatic test pattern generation (ATPG) programs: (1) listing the signals
+on the inputs of a gate controlling the line on which a fault should be detected, (2) determining the primary
+input conditions necessary to obtain these signals (back propagation) and sensitizing the path to the primary
+outputs such that the signals and fault can be observed, and (3) repeating this procedure until all detectable
+faults in a given fault set have been covered. PODEM and FAN introduce powerful heuristics to speed the three
+steps  by  aiding  in  the  sequential  selection  of  faults  to  be  examined  and  by  cutting  the  amount  of  back  and
+forward propagation necessary.

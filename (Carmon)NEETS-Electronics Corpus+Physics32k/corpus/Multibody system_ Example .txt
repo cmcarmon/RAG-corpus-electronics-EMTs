@@ -1,0 +1,3 @@
+The following example shows a typical multibody system. It is usually denoted as slider-crank mechanism. The mechanism is used to transform rotational motion into translational motion by means of a rotating driving beam, a connection rod and a sliding body. In the present example, a flexible body is used for the connection rod. The sliding mass is not allowed to rotate and three revolute joints are used to connect the bodies. While each body has six degrees of freedom in space, the kinematical conditions lead to one degree of freedom for the whole system.
+
+The motion of the mechanism can be viewed in the following gif animation

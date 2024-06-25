@@ -1,0 +1,8 @@
+output buffer. When the next access is in the same page,
+the row selection and sensing can be skipped. A high page hit
+rate is obtained when the next three conditions are fulﬁlled.
+First, the accesses need to be localized (local in every array).
+Second, the data layout should match the page mapping.
+Third, the memory access order in different arrays should
+access these page members together. Obviously, array access
+ordering and data layout freedom form the key factors.

@@ -1,0 +1,12 @@
+Multiple factors affect the propagation delay of the data
+signals through the combinational logic gates and intercon-
+nect. Because the clock distribution network is composed of
+logic gates and interconnection wires, the signals in the clock
+distribution network are delayed. Moreover, the dependence of
+the correct operation of a system on the signal delay in the
+clock distribution network is far greater than on the delay of
+the logic gates. Recall that by delivering the clock signal to
+registers at precise times, the clock distribution network essen-
+tially quantizes the operational time of a synchronous system
+into clock periods, thereby permitting the simultaneous exe-
+cution of operations.

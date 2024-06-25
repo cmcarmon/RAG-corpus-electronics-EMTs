@@ -1,0 +1,6 @@
+The  conversion  just  described  is  called  the  radix  multiply  method  and  is  perfectly  general  for  converting
+between fractions of different radices. However, as in the case of integer conversion, the requirement is that
+the arithmetic required by .Ns · r must be carried out in source radix, s. For noncomputer use by humans, this
+procedure  is  usually  limited  to  fraction  conversions  N10 ﬁ  Nr ,  where  the  source  radix  is  10  (decimal).  The
+recommended methods for converting between fractions of different radices are given in Table 86.5. The radix
+multiply method is well suited to computer use.

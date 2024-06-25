@@ -1,0 +1,10 @@
+Level 9 provides services for long-term storage of ﬁles.
+While level 6 deals with disk storage in terms of tracks and
+sectors, which are the physical units of the hardware, level 9
+deals with more abstract entities of variable length. Indeed, a
+ﬁle may be scattered over many noncontiguous tracks and
+sectors. To be examined or updated, a ﬁle’s contents must be
+copied between virtual memory and the secondary storage
+system. If a ﬁle is kept on a different machine, level 9 software
+can retrieve it by creating a pipe to level 9 on the ﬁle’s home
+machine.

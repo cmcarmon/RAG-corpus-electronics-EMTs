@@ -1,0 +1,62 @@
+The elastic wave equation in three dimensions describes the propagation of waves in an isotropic homogeneous elastic medium. Most solid materials are elastic, so this equation describes such phenomena as seismic waves in the Earth and ultrasonic waves used to detect flaws in materials. While linear, this equation has a more complex form than the equations given above, as it must account for both longitudinal and transverse motion:
+
+
+
+
+ρ
+
+
+
+
+u
+
+¨
+
+
+
+=
+
+
+f
+
+
++
+(
+λ
++
+2
+μ
+)
+∇
+(
+∇
+⋅
+
+
+u
+
+
+)
+−
+μ
+∇
+×
+(
+∇
+×
+
+
+u
+
+
+)
+
+
+{\displaystyle \rho {\ddot {\mathbf {u}}}={\mathbf {f}}+(\lambda +2\mu )\nabla (\nabla \cdot {\mathbf {u}})-\mu \nabla \times (\nabla \times {\mathbf {u}})}
+
+where:
+λ and μ are the so-called Lamé parameters describing the elastic properties of the medium,
+ρ is the density,
+f is the source function (driving force),
+and u is the displacement vector.
+Note that in this equation, both force and displacement are vector quantities. Thus, this equation is sometimes known as the vector wave equation. As an aid to understanding, the reader will observe that if f and ∇⋅u are set to zero, this becomes (effectively) Maxwell's equation for the propagation of the electric field E, which has only transverse waves.

@@ -1,0 +1,19 @@
+Recording by Laser Power Modulation (LPM)
+In this traditional approach to thermomagnetic recording, the electromagnet produces a constant ﬁeld, while
+the information signal is used to modulate the power of the laser beam. As the disk rotates under the focused
+spot,  the  on/off  laser  pulses  create  a  sequence  of  up/down  domains  along  the  track.  The  Lorentz  electron
+micrograph in Fig. 80.30(b) shows a number of domains recorded by LPM. The domains are highly stable and
+may  be  read  over  and  over  again  without  signiﬁcant  degradation.  If,  however,  the  user  decides  to  discard  a
+recorded block and to use the space for new data, the LPM scheme does not allow direct overwrite; the system
+must erase the old data during one disk revolution cycle and record the new data in a subsequent revolution cycle.
+During erasure, the direction of the external ﬁeld is reversed, so that up-magnetized domains in Fig. 80.30(a)
+now become the favored ones. Whereas writing is achieved with a modulated laser beam, in erasure the laser
+stays on for a relatively long period of time, erasing an entire sector. Selective erasure of individual domains is
+not practical, nor is it desired, since mass data storage systems generally deal with data at the level of blocks,
+which  are  recorded  onto  and  read  from  individual  sectors.  Note  that  at  least  one  revolution  period  elapses
+between the erasure of an old block and its replacement by a new block. The electromagnet therefore need not
+be capable of rapid switchings. (When the disk rotates at 3600 rpm, for example, there is a period of 16 ms or
+so between successive switchings.) This kind of slow reversal allows the magnet to be large enough to cover all
+the tracks simultaneously, thereby eliminating the need for a moving magnet and an actuator. It also affords a
+relatively large gap between the disk and the magnet, which enables the use of double-sided disks and relaxes
+the mechanical tolerances of the system without overburdening the magnet’s driver.

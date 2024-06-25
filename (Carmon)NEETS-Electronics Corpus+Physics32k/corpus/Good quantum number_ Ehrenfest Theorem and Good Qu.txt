@@ -1,0 +1,89 @@
+The Ehrenfest Theorem  gives the rate of change of the expectation value of operators. It reads as follows:
+
+
+
+
+
+
+d
+
+d
+t
+
+
+
+⟨
+A
+(
+t
+)
+⟩
+=
+
+⟨
+
+
+
+∂
+A
+(
+t
+)
+
+
+∂
+t
+
+
+
+⟩
+
++
+
+
+1
+
+i
+ℏ
+
+
+
+⟨
+[
+A
+(
+t
+)
+,
+H
+]
+⟩
+
+
+{\displaystyle {\frac {d}{dt}}\langle A(t)\rangle =\left\langle {\frac {\partial A(t)}{\partial t}}\right\rangle +{\frac {1}{i\hbar }}\langle [A(t),H]\rangle }
+
+Commonly occurring operators don't depend explicitly on time. If such operators commute with the Hamiltonian, then their expectation value remains constant with time. Now, if the system is in one of the common eigenstates of the operator
+
+
+
+A
+
+
+{\displaystyle A}
+(and
+
+
+
+H
+
+
+{\displaystyle H}
+too), then the system remains in this eigenstate as time progresses. Any measurement of the quantity
+
+
+
+A
+
+
+{\displaystyle A}
+will give us the eigenvalue (or the good quantum number) associated with the eigenstates in which the particle is. This is actually a statement of conservation in Quantum Mechanics, and will be more detailed below.

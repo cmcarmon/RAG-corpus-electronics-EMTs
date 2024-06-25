@@ -1,0 +1,14 @@
+Digital signal processing (DSP) is used in numerous applications. These applications include telephony, mobile
+radio, satellite communications, speech processing, video and image processing, biomedical applications, radar,
+and sonar. Real-time implementations of DSP systems require design of hardware that can match the application
+sample rate to the hardware processing rate (which is related to the clock rate and the implementation style).
+Thus, real-time does not always mean high speed. Real-time architectures are capable of processing samples as
+they are received from the signal source, as opposed to storing them in buffers for later processing as done in
+batch processing. Furthermore, real-time architectures operate on an inﬁnite time series (since the number of
+the samples of the signal source is so large that it can be considered inﬁnite). While speech and sonar applications
+require lower sample rates, radar and video image processing applications require much higher sample rates.
+The sample rate information alone cannot be used to choose the architecture. The algorithm complexity is also
+an important consideration. For example, a very complex and computationally intensive algorithm for a low-
+sample-rate application and a computationally simple algorithm for a high-sample-rate application may require
+similar  hardware  speed  and  complexity.  These  ranges  of  algorithms  and  applications  motivate  us  to  study  a
+wide variety of architecture styles.

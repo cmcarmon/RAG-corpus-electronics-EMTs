@@ -1,0 +1,18 @@
+, is unity, then
+the system is said to ideally pass the input signal content at
+frequency v0 to the output. The set of all such frequencies is
+called the passband of the system. If H(ejv0 )
+is zero, then the
+system is said to ideally stop the input signal content at
+frequency v0 from appearing at the output. The set of all
+such frequencies is called the stopband of the system.
+j  p is partitioned into
+passbands and stopbands, then the system is called an ideal
+ﬁlter that passes or stops the signal content in a frequency-
+selective manner. A ﬁlter is said to be ideal low-pass if its
+frequency response is the following:
+vj
+j < vc:
+j < vj
+j
+vc

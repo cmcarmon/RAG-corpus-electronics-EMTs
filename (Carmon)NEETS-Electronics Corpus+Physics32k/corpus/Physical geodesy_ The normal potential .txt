@@ -1,0 +1,97 @@
+To a rough approximation, the Earth is a sphere, or to a much better approximation, an ellipsoid. We can similarly approximate the gravity field of the Earth by a spherically symmetric field:
+
+
+
+
+W
+≈
+
+
+
+G
+M
+
+R
+
+
+
+
+{\displaystyle W\approx {\frac {GM}{R}}}
+
+of which the equipotential surfaces—the surfaces of constant potential value—are concentric spheres.
+It is more accurate to approximate the geopotential by a field that has the Earth reference ellipsoid as one of its equipotential surfaces, however. The most recent Earth reference ellipsoid is GRS80, or Geodetic Reference System 1980, which the Global Positioning system uses as its reference. Its geometric parameters are: semi-major axis a = 6378137.0 m, and flattening f = 1/298.257222101.
+A geopotential field
+
+
+
+U
+
+
+{\displaystyle U}
+is constructed, being the sum of a gravitational potential
+
+
+
+Ψ
+
+
+{\displaystyle \Psi }
+and the known centrifugal potential
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+, that has the GRS80 reference ellipsoid as one of its equipotential surfaces. If we also require that the enclosed mass is equal to the known mass of the Earth (including atmosphere) GM = 3986005 × 108 m3·s−2, we obtain for the potential at the reference ellipsoid:
+
+
+
+
+
+U
+
+0
+
+
+=
+62636860.850
+
+
+
+
+m
+
+
+
+2
+
+
+
+
+
+
+s
+
+
+
+−
+2
+
+
+
+
+{\displaystyle U_{0}=62636860.850\ {\textrm {m}}^{2}\,{\textrm {s}}^{-2}}
+
+Obviously, this value depends on the assumption that the potential goes asymptotically to zero at infinity (
+
+
+
+R
+→
+∞
+
+
+{\displaystyle R\rightarrow \infty }
+), as is common in physics. For practical purposes it makes more sense to choose the zero point of normal gravity to be that of the reference ellipsoid, and refer the potentials of other points to this.

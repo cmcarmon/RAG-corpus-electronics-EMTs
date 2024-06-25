@@ -1,0 +1,19 @@
+Field-Effect Transistors
+A cross-sectional view of a microwave MESFET is shown in Fig. 39.13. The device is conceptionally very simple.
+The MESFET has two ohmic contacts (the source and drain) separated by some distance, usually in the range
+of 3 to 10 mm. A rectifying Schottky contact (the gate) is located between the two ohmic contacts. Typically,
+the gate length is on the order of 0.1 to 2 mm for modern microwave devices. The width of the device scales
+with frequency and typically ranges from about 1 to 10 mm for power microwave devices to 50 mm for millimeter-
+wave devices. All three contacts are located on the surface of a thin conducting layer (the channel) which is
+located on top of a high-resistivity, nonconductive substrate to form the device. The channel region is typically
+very thin (on the order of 0.1–0.3 mm) and is fabricated by epitaxial growth or ion implantation. In operation,
+the drain contact is biased at a speciﬁed potential (positive drain potential for an n-channel device) and the
+source  is  grounded.  The  ﬂow  of  current  through  the  conducting  channel  is  controlled  by  negative  dc  and
+superimposed RF potentials applied to the gate, which modulate the channel current and provide RF gain. The
+current  ﬂow  is  composed  of  only  one  type  of  charge  carrier  (generally  electrons)  and  the  device  is  termed
+unipolar.  The  MESFET  can  be  fabricated  from  a  variety  of  semiconductors,  but  is  generally  fabricated  from
+GaAs. MESFETs fabricated from Si do not work at high frequencies as well as those fabricated from GaAs due
+to lower electron mobility in Si (e.g., m
+n ;6000 cm2/V-s for GaAs and 1450 cm2/V-s for Si). The lower electron
+mobility in Si produces high source resistance, which seriously degrades the high-frequency gain possible from
+the device.

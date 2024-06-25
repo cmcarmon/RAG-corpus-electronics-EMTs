@@ -1,0 +1,43 @@
+Syntax 
+ADDLW K      C, DC, Z 
+ADDWF F,D    C, DC, Z 
+ANDLW K      Z 
+ANDWF F,D    Z 
+BCF   F,B    None 
+BSF   F,B    None 
+BTFSC F,B    None 
+BTFSC F,B    None 
+CALL K       None 
+CLRF F       Z 
+CLRW       
+Z 
+CLRWDT       TO, PD 
+COMF F,D     Z 
+DECF F,D     Z 
+DECFSZ F,D   None 
+GOTO K     
+None 
+INCF F,D     Z 
+INCFSZ F,D   None 
+IORLW K      Z 
+IORWF F,D    Z 
+MOVF F,D     Z 
+None 
+MOVLW K    
+None 
+MOVWF F    
+None 
+NOP        
+None 
+RETFIE     
+None 
+RETLW K    
+RETURN       None 
+RLF F,D      C 
+RRF F,D      C 
+SLEEP        TO, PD 
+SUBLW K      C, DC, Z 
+SUBWF F,D    C, DC, Z 
+SWAPF F,D    None 
+XORLW K      Z 
+XORWF F,D    Z 

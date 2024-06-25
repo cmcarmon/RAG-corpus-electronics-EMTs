@@ -1,0 +1,222 @@
+A fluid is defined as a substance that deforms continuously under application of a shearing stress, regardless of how small the stress is. Blood is a primary example of a biological fluid. Air can also be considered as biological fluid as it flows in lungs and the synovial fluid between the knee joints is also an example of a biological fluid. Types of Fluids Fluids can be classified into four basic types. They are:
+Ideal Fluid
+Real Fluid
+Newtonian Fluid
+Non-Newtonian fluid
+An Ideal Fluid is a fluid that has no viscosity, means it will offer no resistance, pragmatically this type of fluid does not exist. It is incompressible in nature. Real fluids are compressible in nature. They offer some resistance and thus have viscosity. All Fluids existing are real fluids. A Newtonian Fluid is a fluid whose viscous shear stresses (acting between different layers of fluid and between the fluid layer and surface over which it is flowing) are directly proportional to the rate of change of velocity of the flow of the fluid with respect to the distance in the transverse direction (distance measured perpendicular to the flow), also known as velocity gradient. The constant of proportionality is known as the dynamic viscosity of the fluid denoted by ‘µ’. The functional relationship between viscous shear stress and velocity gradient is linear in a Newtonian fluid. This relationship may be written as :
+
+
+
+
+
+τ
+=
+−
+μ
+
+
+
+d
+u
+
+
+d
+y
+
+
+
+
+
+{\displaystyle \tau =-\mu {\frac {du}{dy}}}
+
+Where
+
+
+
+τ
+
+
+{\displaystyle \tau }
+= viscous shear stress
+
+
+
+
+μ
+
+
+{\displaystyle \mu }
+= dynamic viscosity of the fluid
+
+
+
+
+
+
+
+d
+u
+
+
+d
+y
+
+
+
+
+
+{\displaystyle {\frac {du}{dy}}}
+= velocity gradient across the flow
+
+A Non-Newtonian fluid is a fluid which is different from the Newtonian fluid as the viscosity of non-Newtonian fluids is dependent on shear rate or shear rate history. In a non-Newtonian fluid, the relation between the shear stress and the shear rate is different and can even be time-dependent (Time Dependent Viscosity). Therefore, a constant coefficient of viscosity cannot be defined.
+Non-Newtonian fluids change their viscosity or flow behavior under stress. If you apply a force to such fluids, the sudden application of stress can cause them to get thicker and act like a solid, or in some cases, it results in the opposite behavior and they may get runnier than they were before. Removal of the stress causes them to return to their earlier state. Not all non-Newtonian Fluids behave in the same way when stress is applied – some become more solid, others more fluid. Some non-Newtonian fluids react as a result of the amount of stress applied, while others react as a result of the length of time that stress is applied. The generalized power law for all fluids can be written as:
+
+
+
+
+
+τ
+=
+K
+(
+
+
+
+d
+y
+
+
+d
+x
+
+
+
+
+)
+
+n
+
+
+
+
+{\displaystyle \tau =K({\frac {dy}{dx}})^{n}}
+
+Where  K = flow consistency index
+n = Fluid behavior index, n=1 for Newtonian fluids
+
+Thixotropic Fluid: Its viscosity decreases with stress over time. Example - Honey – keep stirring, and solid honey becomes liquid.
+Rheopectic Fluid: Its viscosity increases with stress over time. Example - Cream – the longer you whip it the thicker it gets.
+Shear Thinning Fluid: Its viscosity decreases with increased stress. Example – Blood, Tomato sauce.
+Dilatant or shear thickening Fluid: Its viscosity increases with increased stress. Example – Oobleck (a mixture of cornstarch and water), Quicksand.
+A Bingham plastic is neither a fluid nor a solid. A Bingham plastic can withstand a finite shear load and flow like a fluid when that shear stress is exceeded. Toothpaste and mayonnaise are examples of Bingham plastics. Blood is also a Bingham plastic and behaves as a solid at shear rates very close to zero. The yield stress for blood is very small, approximately in the range from 0.005 to 0.01 N/m2.
+Reynolds number of the flow is defined as the ratio of inertia forces to viscous forces. Mathematically it is written as
+
+
+
+
+
+R
+e
+=
+
+
+
+ρ
+v
+d
+
+μ
+
+
+
+
+{\displaystyle Re={\frac {\rho vd}{\mu }}}
+
+Where
+
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+= density of fluid
+v = velocity of fluid
+d = characteristic length
+
+
+
+
+μ
+
+
+{\displaystyle \mu }
+= dynamic viscosity of fluid
+
+The Reynolds number helps us to predict the transition between laminar and turbulent flows. Laminar flow is highly organized flow along streamlines. As velocity increases, flow can become disorganized and chaotic. This is known as turbulent flow. Laminar flow occurs in flow environments where Re < 2000. Turbulent flow is present in circumstances under which Re > 4000. The range of 2000 < Re < 4000 is known as the transition range. Most blood flow in humans is laminar, having a Re of 300 or less, it is possible for turbulence to occur at very high flow rates in the descending aorta, for example, in highly conditioned athletes. Turbulence is also common in pathological conditions such as heart murmurs and stenotic heart valves. Stenotic comes from the Greek word "stenos," meaning narrow. Stenotic means narrowed, and a stenotic heart valve is one in which the narrowing of the valve is a result of the plaque formation on the valve.
+The Womersley number, or alpha parameter, is another dimensionless parameter like the Prandtl number or Reynolds number that has been used in the study of fluid dynamics. This parameter represents a ratio of transient to viscous forces, just as the Reynolds number represented a ratio of inertial to viscous forces. A characteristic frequency represents the time dependence of the parameter. The Womersley number may be written as.:
+
+
+
+
+
+α
+=
+r
+
+
+
+ω
+ϑ
+
+
+
+
+
+{\displaystyle \alpha =r{\sqrt {\frac {\omega }{\vartheta }}}}
+
+Where
+
+
+
+
+α
+
+
+{\displaystyle \alpha }
+= Womersely Number
+r = vessel radius
+
+
+
+
+ω
+
+
+{\displaystyle \omega }
+= fundamental frequency
+
+
+
+
+ϑ
+
+
+{\displaystyle \vartheta }
+= kinematic viscosity =
+
+
+
+
+
+μ
+ρ
+
+
+
+
+{\displaystyle {\frac {\mu }{\rho }}}
+
+
+The flow profile becomes blunter near the centerline of the vessel in high frequency flows, because the inertia forces become more important than viscous forces. But viscous forces are still important near the wall as here the velocity of the flow is almost zero due to the effect of the wall and the no-slip condition. Moreover, it can be shown that the transient forces become relatively more important than viscous forces as the animal size increases.

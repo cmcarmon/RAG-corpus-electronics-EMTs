@@ -1,0 +1,7 @@
+Take, as a simple example, single-input single-output control systems design. For each element in the system
+model, i.e., plant, controller, feedback network, the user has to look after four matrices for a state-space model
+”, but must refer
+or two polynomials for a transfer function. He cannot simply refer to the “transfer function 
+instead to the numerator and the denominator polynomials (see Fig. 112.7) that stand for 
+. These polynomials
+can, in turn, only be distinguished from row vectors by convention and context.

@@ -1,0 +1,11 @@
+Negative feedback has a profound effect on the Thévenin-equivalent input and
+output resistances of circuits. To illustrate, we calculate first the Thévenin out-
+put resistance of the simple inverting Op Amp assumed to be operating in the
+active (non-saturated) region, that is, the circuit in Figure 15.8b. Obviously if
+we model the Op Amp by the ideal Op Amp model, the Thévenin output resis-
+tance is by definition zero, with or without feedback. So to show any effect, we
+must use a more accurate device model that includes some finite resistance in
+series with the dependent source, as in Figure 15.11. One way of calculating the
+Thévenin output resistance is to apply a test current it, at the output terminals,
+as shown in Figure 15.11, and calculate the resulting voltage vt, when all other
+independent sources, in this case vi, are set to zero.

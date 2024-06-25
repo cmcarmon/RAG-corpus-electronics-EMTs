@@ -1,0 +1,95 @@
+The more general form of a state-space model can be written as two functions.
+
+
+
+
+
+
+
+x
+˙
+
+
+
+(
+t
+)
+=
+
+f
+
+(
+t
+,
+x
+(
+t
+)
+,
+u
+(
+t
+)
+)
+
+
+{\displaystyle \mathbf {\dot {x}} (t)=\mathbf {f} (t,x(t),u(t))}
+
+
+
+
+
+
+y
+
+(
+t
+)
+=
+
+h
+
+(
+t
+,
+x
+(
+t
+)
+,
+u
+(
+t
+)
+)
+
+
+{\displaystyle \mathbf {y} (t)=\mathbf {h} (t,x(t),u(t))}
+
+The first is the state equation and the latter is the output equation. If the function
+
+
+
+f
+(
+⋅
+,
+⋅
+,
+⋅
+)
+
+
+{\displaystyle f(\cdot ,\cdot ,\cdot )}
+is a linear combination of states and inputs then the equations can be written in matrix notation like above. The
+
+
+
+u
+(
+t
+)
+
+
+{\displaystyle u(t)}
+argument to the functions can be dropped if the system is unforced (i.e., it has no inputs).

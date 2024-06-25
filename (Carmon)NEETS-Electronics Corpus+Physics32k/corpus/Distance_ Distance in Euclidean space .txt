@@ -1,0 +1,8 @@
+In the Euclidean space Rn, the distance between two points is usually given by the Euclidean distance (2-norm distance). Other distances, based on other norms, are sometimes used instead.
+For a point (x1, x2, ...,xn) and a point (y1, y2, ...,yn), the Minkowski distance of order p (p-norm distance) is defined as:
+p need not be an integer, but it cannot be less than 1, because otherwise the triangle inequality does not hold.
+The 2-norm distance is the Euclidean distance, a generalization of the Pythagorean theorem to more than two coordinates. It is what would be obtained if the distance between two points were measured with a ruler: the "intuitive" idea of distance.
+The 1-norm distance is more colourfully called the taxicab norm or Manhattan distance, because it is the distance a car would drive in a city laid out in square blocks (if there are no one-way streets).
+The infinity norm distance is also called Chebyshev distance. In 2D, it is the minimum number of moves kings require to travel between two squares on a chessboard.
+The p-norm is rarely used for values of p other than 1, 2, and infinity, but see super ellipse.
+In physical space the Euclidean distance is in a way the most natural one, because in this case the length of a rigid body does not change with rotation.

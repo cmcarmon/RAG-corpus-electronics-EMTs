@@ -1,0 +1,8 @@
+In this approach, the signatures labeling the nodes are derived
+from the opcode sequence of the node by information com-
+paction (mod-2 addition, a checksum, or a linear feedback
+shift register [LSFR]). The run-time signatures are also com-
+puted concurrently by the WD by reading instructions from
+the memory data bus when they are fetched by the main
+processor. The WD computed signatures are compared to
+WD reference information to perform the checking.

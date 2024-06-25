@@ -1,0 +1,171 @@
+Consider a ring interferometer where two counter-propagating light beams share a common optical path determined by a loop of an optical fiber, see Figure 4. The loop may have an arbitrary shape, and can move arbitrarily in space. The only restriction is that it is not allowed to stretch. (The case of a circular ring interferometer rotating about its center in free space is recovered by taking the index of refraction of the fiber to be 1.)
+Consider a small segment of the fiber, whose length in its rest frame is
+
+
+
+d
+
+ℓ
+′
+
+
+
+{\displaystyle d\ell '}
+. The time intervals,
+
+
+
+d
+
+t
+
+±
+
+′
+
+
+
+{\displaystyle dt'_{\pm }}
+, it takes the left and right moving light rays to traverse the segment in the rest frame coincide and are given byLet
+
+
+
+d
+ℓ
+=
+
+|
+
+d
+
+x
+
+
+|
+
+
+
+{\textstyle d\ell =|d\mathbf {x} |}
+be the length of this small segment in the lab frame. By the relativistic length contraction formula,
+
+
+
+d
+
+ℓ
+′
+
+=
+γ
+d
+ℓ
+≈
+d
+ℓ
+
+
+{\textstyle d\ell '=\gamma d\ell \approx d\ell }
+correct to first order in the velocity
+
+
+
+
+v
+
+
+
+{\displaystyle \mathbf {v} }
+of the segment. The time intervals
+
+
+
+d
+
+t
+
+±
+
+
+
+
+{\displaystyle dt_{\pm }}
+for traversing the segment in the lab frame are given by Lorentz transformation as:correct to first order in the velocity
+
+
+
+
+v
+
+
+
+{\displaystyle \mathbf {v} }
+. In general, the two beams will visit a given segment at slightly different times, but, in the absence of stretching, the length
+
+
+
+d
+ℓ
+
+
+{\textstyle d\ell }
+is the same for both beams.
+It follows that the time difference for completing a cycle for the two beams isRemarkably, the time difference is independent of the refraction index
+
+
+
+n
+
+
+{\displaystyle n}
+and the velocity of light in the fiber.
+Imagine a screen for viewing fringes placed at the light source (alternatively, use a beamsplitter to send light from the source point to the screen). Given a steady light source, interference fringes will form on the screen with a fringe displacement given by
+
+
+
+Δ
+ϕ
+≈
+
+
+
+2
+π
+c
+
+λ
+
+
+Δ
+T
+
+
+{\textstyle \Delta \phi \approx {\frac {2\pi c}{\lambda }}\Delta T}
+where the first factor is the frequency of light. This gives the generalized Sagnac formulaIn the special case that the fiber moves like a rigid body with angular frequency
+
+
+
+
+ω
+
+
+
+{\displaystyle {\boldsymbol {\omega }}}
+, the velocity is
+
+
+
+
+v
+
+=
+
+ω
+
+×
+
+x
+
+
+
+{\textstyle \mathbf {v} ={\boldsymbol {\omega }}\times \mathbf {x} }
+and the line integral can be computed in terms of the area of the loop:This gives Sagnac formula for ring interferometers of arbitrary shape and geometryIf one also allows for stretching one recovers the Fizeau interference formula.The Sagnac effect has stimulated a century long debate on its meaning and interpretation, much of this debate being surprising since the effect is perfectly well understood in the context of special relativity

@@ -1,0 +1,13 @@
+Given that multiple regions in the image can be annotated, the
+transcoding of images needs to consider the individual im-
+portance and spatial resolution hint for each region (Smith
+and Reddy, 2001). Overall, this can be approached as an
+optimization problem in which the image needs to be manipu-
+lated, such as through cropping and rescaling, to produce an
+output image that maximizes the overall content value given
+the constraints on its delivery. The optimization problem is
+expressed as follows: The device imposes a constraint on the
+size of the image (i.e., size of the screen). The transcoding
+engine seeks to maximize the beneﬁt derived from the content
+value of the transcoded image. The problem, thus, is to maxi-
+mize the total content value given the constraints.

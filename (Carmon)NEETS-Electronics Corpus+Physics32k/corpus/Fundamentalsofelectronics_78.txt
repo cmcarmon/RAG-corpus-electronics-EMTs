@@ -1,0 +1,5 @@
+A signal x (t) is routed to two (or more) systems, with this signal appearing as the input to all systems
+simultaneously and with equal strength. Block diagrams have the convention that signals going to more
+than one system are not split into pieces along the way. Two or more systems operate on x (t) and their
+outputs are added together to create the output y (t). Thus, y (t) = S1 ]x (t)] + S2 [x (t)], and the information
+in x (t) is processed separately by both systems.

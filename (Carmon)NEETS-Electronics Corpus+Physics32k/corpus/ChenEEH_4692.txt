@@ -1,0 +1,18 @@
+drops to 532 RPM after the torque disturbance is loaded,
+which has a deviation of 79 RPM from the desired idle speed
+of 611 RPM. The engine speed increases to 681 RPM after
+the torque load is removed, with a difference of 70 RPM. The
+disturbance is rejected (5% rise time) after about 22 engine
+cycles for the loading case and 25 engine cycles for the
+unloading case. The minimum engine speed is 601 RPM,
+with a difference of 139 RPM from the nominal idle speed of
+740 RPM. Once again, this response may be compared with
+that of the production controller, which uses both mass airﬂow
+and spark advance as control inputs, shown in Figure 10.6.
+When comparing Figure 10.9 to Figure 10.6, it is important to
+note that the production controller regulates to a nominal
+engine speed of 740 RPM (as opposed to 611 for the controller
+of Figure 10.9). We therefore conclude that the adaptive DSMC
+as developed, which uses only the idle valve opening as control
+input, exhibits superior performance over the production con-
+troller that uses two control inputs.

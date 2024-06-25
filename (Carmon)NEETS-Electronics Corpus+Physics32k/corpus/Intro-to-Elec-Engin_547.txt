@@ -1,0 +1,4 @@
+Figure 6.2.7(a) shows a 4-bit (modulo-4) ring counter using D ﬂip-ﬂops; its timing diagram
+is given in Figure 6.2.7(b). A modulo-n ring counter requires N ﬂip-ﬂops and no other gates,
+whereas modulo-N ripple and synchronous counters need only log2 N ﬂip-ﬂops. However, ripple
+and synchronous counters generally use more components than ring counters.

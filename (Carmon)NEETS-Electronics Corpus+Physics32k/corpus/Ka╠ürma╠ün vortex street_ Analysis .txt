@@ -1,0 +1,128 @@
+A vortex street will only form at a certain range of flow velocities, specified by a range of Reynolds numbers (Re), typically above a limiting Re value of about 90. The (global) Reynolds number for a flow is a measure of the ratio of inertial to viscous forces in the flow of a fluid around a body or in a channel, and may be defined as a nondimensional parameter of the global speed of the whole fluid flow:
+
+
+
+
+
+
+R
+e
+
+
+L
+
+
+=
+
+
+
+U
+L
+
+
+ν
+
+0
+
+
+
+
+
+
+{\displaystyle \mathrm {Re} _{L}={\frac {UL}{\nu _{0}}}}
+
+where:
+
+
+
+
+U
+
+
+{\displaystyle U}
+= the free stream flow speed (i.e. the flow speed far from the fluid boundaries
+
+
+
+
+U
+
+∞
+
+
+
+
+{\displaystyle U_{\infty }}
+like the body speed relative to the fluid at rest, or an inviscid flow speed, computed through the Bernoulli equation), which is the original global flow parameter, i.e. the target to be non-dimensionalised.
+
+
+
+
+L
+
+
+{\displaystyle L}
+= a characteristic length parameter of the body or channel
+
+
+
+
+
+ν
+
+0
+
+
+
+
+{\displaystyle \nu _{0}}
+= the free stream kinematic viscosity parameter of the fluid, which in turn is the ratio:
+
+
+
+
+ν
+=
+
+
+μ
+ρ
+
+
+
+
+{\displaystyle \nu ={\frac {\mu }{\rho }}}
+
+between:
+
+
+
+
+
+ρ
+
+0
+
+
+
+
+{\displaystyle \rho _{0}}
+= the reference fluid density.
+
+
+
+
+
+μ
+
+0
+
+
+
+
+{\displaystyle \mu _{0}}
+= the free stream fluid dynamic viscosity
+For common flows (the ones which can usually be considered as incompressible or isothermal), the kinematic viscosity is everywhere uniform over all the flow field and constant in time, so there is no choice on the viscosity parameter, which becomes naturally the kinematic viscosity of the fluid being considered at the temperature being considered. On the other hand, the reference length is always an arbitrary parameter, so particular attention should be put when comparing flows around different obstacles or in channels of different shapes: the global Reynolds numbers should be referred to the same reference length. This is actually the reason for which most precise sources for airfoil and channel flow data specify the reference length at a pedix to the Reynolds number. The reference length can vary depending on the analysis to be performed: for body with circle sections such as circular cylinders or spheres, one usually chooses the diameter; for an airfoil, a generic non-circular cylinder or a bluff body or a revolution body like a fuselage or a submarine, it is usually the profile chord or the profile thickness, or some other given widths that are in fact stable design inputs; for flow channels usually the hydraulic diameter) about which the fluid is flowing.
+Interestingly, for an aerodynamic profile the reference length depends on the analysis. In fact, the profile chord is usually chosen as the reference length also for aerodynamic coefficient for wing sections and thin profiles in which the primary target is to maximize the lift coefficient or the lift/drag ratio (i.e. as usual in thin airfoil theory, one would employ the chord Reynolds as the flow speed parameter for comparing different profiles). On the other hand, for fairings and struts the given parameter is usually the dimension of internal structure to be streamlined (let us think for simplicity it is a beam with circular section), and the main target is to minimize the drag coefficient or the drag/lift ratio. The main design parameter which becomes naturally also a reference length is therefore the profile thickness (the profile dimension or area perpendicular to the flow direction), rather than the profile chord.
+The range of Re values will vary with the size and shape of the body from which the eddies are being shed, as well as with the kinematic viscosity of the fluid. Over a large Red range (47<Red<105 for circular cylinders; reference length is d: diameter of the circular cylinder) eddies are shed continuously from each side of the circle boundary, forming rows of vortices in its wake. The alternation leads to the core of a vortex in one row being opposite the point midway between two vortex cores in the other row, giving rise to the distinctive pattern shown in the picture. Ultimately, the energy of the vortices is consumed by viscosity as they move further down stream, and the regular pattern disappears.
+When a single vortex is shed, an asymmetrical flow pattern forms around the body and changes the pressure distribution. This means that the alternate shedding of vortices can create periodic lateral (sideways) forces on the body in question, causing it to vibrate. If the vortex shedding frequency is similar to the natural frequency of a body or structure, it causes resonance. It is this forced vibration that, at the correct frequency, causes suspended telephone or power lines to "sing" and the antenna on a car to vibrate more strongly at certain speeds.

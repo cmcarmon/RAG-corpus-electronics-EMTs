@@ -1,0 +1,10 @@
+Primary Steps of VLSI ASIC Design
+The VLSI IC design process consists of a sequence of well-deﬁned steps [Preas and Lorenzetti, 1988; Hill et al.,
+1989; DeMicheli, 1994a and b] related to the deﬁnition of the functions to be designed; organization of the
+circuit blocks implementing these logic functions within the area of the IC; veriﬁcation and simulation at several
+stages of design (e.g., behavioral simulation, gate-level simulation, circuit simulation [White and Sangiovanni-
+Vincentelli,  1987;  Lee  et  al.,  1993],  etc.);  routing  of  physical  interconnections  among  the  blocks,  and  ﬁnal
+detailed placement and transistor-level layout of the VLSI circuit. This process can also be used hierarchically
+to design one of the blocks making up the overall IC, representing that circuit block in terms of simpler blocks.
+This establishes the “top-down” hierarchical approach, extendable to successively lower-level elements of the
+overall design.

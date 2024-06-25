@@ -1,0 +1,16 @@
+PML matching conditions analogous to the two-dimensional
+cases discussed previously are used. Speciﬁcally, if we denote
+w ¼ x, y, z, the matching condition at a normal-to-w PML
+interface has the parameter pair (sw, s
+w) to satisfy equation
+9.94. This causes the transmitted wave in the PML to undergo
+exponential decay in thew directions. All other (sw, s
+w) pairs
+in this PML are zero. In a corner region, the PML is provided
+with each matched (sw, s
+w) pair that is assigned to the overlap-
+ping PMLs forming the corner. Thus, PML media located in
+dihedral corner overlapping regions have two nonzero and one
+zero (sw, s
+w) pairs. PML media located in trihedral corner
+overlapping regions have three nonzero (sw, s

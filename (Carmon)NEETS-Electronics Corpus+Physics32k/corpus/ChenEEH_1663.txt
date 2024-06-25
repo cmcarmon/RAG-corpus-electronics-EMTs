@@ -1,0 +1,8 @@
+the content and reduce dimensionality of a subsequent match-
+ing phase. A feature vector is then formed by linking the
+three channel histograms into one vector. For image retrieval,
+the histogram of a query image is then matched against the
+histogram of all images in the database using a similarity
+metric. One similarity metric that can be used in this context
+is histogram intersection. The intersection of histograms h
+and g is given by:

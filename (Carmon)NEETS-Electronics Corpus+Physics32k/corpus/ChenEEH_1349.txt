@@ -1,0 +1,13 @@
+The type of hardware-based cache coherence approach
+used depends heavily on the hardware architecture. For a
+shared-bus system, it is relatively easy for each cache controller
+to monitor, or ‘‘snoop,’’ on all bus transactions. This is the
+popular approach used by so-called snoopy protocols such as
+MESI, to be described in Section 2.3.1. Under other, more
+general, forms of system architecture, it becomes difﬁcult or
+wasteful for all cache controllers to monitor all transactions,
+therefore, another protocol must be adopted. Directory-based
+protocols that maintain a directory of which parts of main
+memory are in which caches eliminate the need for a global
+broadcast mechanism; these protocols are therefore better
+suited for complex system architectures.

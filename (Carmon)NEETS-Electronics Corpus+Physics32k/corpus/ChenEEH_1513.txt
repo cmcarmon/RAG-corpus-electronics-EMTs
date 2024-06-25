@@ -1,0 +1,11 @@
+A program like the shell does not have to open the terminal
+to read from it or write to it. Instead, when it (or any other
+program) starts up, it automatically has access to a ﬁle called
+standard input for reading, a ﬁle called standard output for
+writing normal output, and a ﬁle called standard error for
+writing error messages. Normally all three default to the
+terminal, so that reads from standard input come from the
+keyboard and writes to standard output or standard error go to
+the screen. Many UNIX programs read from standard input
+and write to standard output as the default. For example, the
+command:

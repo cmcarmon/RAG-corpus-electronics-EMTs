@@ -1,0 +1,10 @@
+Apodized SAW Transducers
+Apodization is the most widely used method for weighting a SAW transducer. The desired time-sampled impulse
+response  is  implemented  by  assigning  the  overlap  of  opposite  polarity  electrodes  at  a  given  position  to  a
+normalized  sample  weight  at  a  given  time.  A  tap  having  a  weight  of  unity  has  an  overlap  across  the  entire
+beamwidth while a small tap will have a small overlap of adjacent electrodes. The time impulse response can
+be broken into tracks which have uniform height but whose time length and impulse response may vary. Each
+of these time tracks is implemented spatially across the transducer’s beamwidth by overlapped electrode sections
+at  the  proper  positions.  This  is  shown  in  Fig. 47.1.  The  smaller  the  width  of  the  tracks,  the  more  exact  the
+approximation  of  uniform  time  samples.  There  are  many  different  ways  to  implement  the  time-to-spatial
+transformation; Fig. 47.1 shows just one such implementation.

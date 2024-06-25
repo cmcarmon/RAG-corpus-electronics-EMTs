@@ -1,0 +1,5 @@
+Most ATPG programs operate by picking a possible fault from among the possible faults, generating a speciﬁc
+test pattern that covers it, simulating the logic circuit with the newly generated test pattern to determine which
+other faults are incidentally covered by the same pattern, and continuing the process until all faults have been
+considered. Of the two related processes of test pattern generation and fault simulation, the latter is by far the
+more time-consuming one.

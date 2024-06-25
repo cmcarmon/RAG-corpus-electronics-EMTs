@@ -1,0 +1,11 @@
+First, observe the symmetry property of this resistive network. From any of the eight
+vertices, the network looks identical, and therefore, the resistance between any pair of
+vertices connected by the solid diagonal (for example, (a)-(g), (b)-(h), (e)-(c), etc.) is the
+same. Furthermore, looking into A, the set of paths from A to B starting along the
+edge (a)-(d) are matched by a set of paths starting along the edge (a)-(b), or by a set of
+paths starting along the edge (a)-(e). Therefore, when we apply a current I as shown in
+Figure 2.53, it must split evenly into i1, i2, and i3. Likewise, it draws current off the
+network evenly, that is, i4, i5, and i6 are the same. Since the same current and resistance
+causes the same voltage drop across the resistors, we conclude that nodes (b), (d), and
+(e) have the same voltage, and nodes (h), (c), and (f) also have the same voltage with
+respect to any reference node.

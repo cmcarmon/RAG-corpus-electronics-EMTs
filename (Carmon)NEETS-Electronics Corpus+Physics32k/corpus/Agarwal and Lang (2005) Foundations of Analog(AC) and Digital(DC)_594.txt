@@ -1,0 +1,7 @@
+One further comment: If in the problem statement we had been asked to find one of the
+resistor currents, say i3, rather than iD, then the Thévenin circuit, Figure 4.13e, would
+not give this current directly, because the identity of currents internal to the Thévenin
+network are in general lost, as noted in Chapter 3. Nonetheless, the Thévenin approach
+is probably the best, as it is a simple matter to work back through the linear part of
+the network to relate i3 to iD. In this case, once we have computed iD, we can easily
+determine i3 from Figure 4.13a using KCL,

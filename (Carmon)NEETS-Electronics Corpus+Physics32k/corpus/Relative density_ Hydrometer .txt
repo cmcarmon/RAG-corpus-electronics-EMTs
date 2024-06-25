@@ -1,0 +1,96 @@
+The relative density of a liquid can be measured using a hydrometer. This consists of a bulb attached to a stalk of constant cross-sectional area, as shown in the adjacent diagram.
+First the hydrometer is floated in the reference liquid (shown in light blue), and the displacement (the level of the liquid on the stalk) is marked (blue line). The reference could be any liquid, but in practice it is usually water.
+The hydrometer is then floated in a liquid of unknown density (shown in green). The change in displacement, Δx, is noted. In the example depicted, the hydrometer has dropped slightly in the green liquid; hence its density is lower than that of the reference liquid. It is, of course, necessary that the hydrometer floats in both liquids.
+The application of simple physical principles allows the relative density of the unknown liquid to be calculated from the change in displacement. (In practice the stalk of the hydrometer is pre-marked with graduations to facilitate this measurement.)
+In the explanation that follows,
+ρref is the known density (mass per unit volume) of the reference liquid (typically water).
+ρnew is the unknown density of the new (green) liquid.
+RDnew/ref is the relative density of the new liquid with respect to the reference.
+V is the volume of reference liquid displaced, i.e. the red volume in the diagram.
+m is the mass of the entire hydrometer.
+g is the local gravitational constant.
+Δx is the change in displacement. In accordance with the way in which hydrometers are usually graduated, Δx is here taken to be negative if the displacement line rises on the stalk of the hydrometer, and positive if it falls. In the example depicted, Δx is negative.
+A is the cross sectional area of the shaft.
+Since the floating hydrometer is in static equilibrium, the downward gravitational force acting upon it must exactly balance the upward buoyancy force. The gravitational force acting on the hydrometer is simply its weight, mg. From the Archimedes buoyancy principle, the buoyancy force acting on the hydrometer is equal to the weight of liquid displaced. This weight is equal to the mass of liquid displaced multiplied by g, which in the case of the reference liquid is ρrefVg. Setting these equal, we have
+
+
+
+
+m
+g
+=
+
+ρ
+
+
+r
+e
+f
+
+
+
+V
+g
+
+
+
+{\displaystyle mg=\rho _{\mathrm {ref} }Vg\,}
+
+or just
+
+Exactly the same equation applies when the hydrometer is floating in the liquid being measured, except that the new volume is V - AΔx (see note above about the sign of Δx). Thus,
+
+Combining (1) and (2) yields
+
+But from (1) we have V = m/ρref. Substituting into (3) gives
+
+This equation allows the relative density to be calculated from the change in displacement, the known density of the reference liquid, and the known properties of the hydrometer. If Δx is small then, as a first-order approximation of the geometric series equation (4) can be written as:
+
+
+
+
+R
+
+D
+
+
+n
+e
+w
+
+/
+
+r
+e
+f
+
+
+
+≈
+1
++
+
+
+
+A
+Δ
+x
+
+m
+
+
+
+ρ
+
+
+r
+e
+f
+
+
+
+
+
+{\displaystyle RD_{\mathrm {new/ref} }\approx 1+{\frac {A\Delta x}{m}}\rho _{\mathrm {ref} }}
+
+This shows that, for small Δx, changes in displacement are approximately proportional to changes in relative density.

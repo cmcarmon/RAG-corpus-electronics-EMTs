@@ -1,0 +1,10 @@
+In DTW-based recognition, one or more templates are generated for each word in the recognition vocabulary.
+For speaker-dependent recognition tasks, templates are typically created by aligning and averaging the feature
+vectors  corresponding  to  several  repetitions  of  a  word.  For  speaker-independent  tasks,  clustering  techniques
+can be used to generate templates which better model pronunciation variability across talkers. In isolated word
+recognition, the distance D(F) is computed between the feature-vector sequence for the unknown word and
+the templates corresponding to each vocabulary item. The unknown is recognized as that word for which D(F)
+is  a  minimum.  DTW  can  be  extended  to  connected  word  recognition  by  aligning  the  input  utterance  to  all
+possible concatenations of reference templates. Efﬁcient algorithms for computing such alignments have been
+developed [Furui, 1989]; however, in general, DTW has proved most applicable to isolated word recognition
+tasks.

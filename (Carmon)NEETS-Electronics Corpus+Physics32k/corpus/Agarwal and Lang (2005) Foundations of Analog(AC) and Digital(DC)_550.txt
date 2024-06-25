@@ -1,0 +1,13 @@
+Two closing comments: First, note that the identity of all voltages and currents inside
+the network that is replaced by the Thévenin or Norton circuit in general lose their
+identity; only the terminal voltage and current are preserved. Thus, for example, the
+current through R3 in Figure 3.90a does not appear as any identifiable current flowing
+in the Thévenin circuit in Figure 3.90e. Second, if one wishes to measure the Thévenin
+or Norton parameters of a system in the laboratory, two independent measurements
+are required in order to specify the two parameters in the model. In addition, certain
+practical issues must be faced. For example, it is unwise, in fact dangerous, to apply a
+short circuit to a large battery such as an automobile storage battery in an attempt to
+measure the short-circuit current as suggested in Figure 3.75b. A better procedure is to
+first measure the open-circuit voltage, then measure the terminal voltage when some
+known resistor is connected to the battery. These two measurements can then be used
+to find Rt.

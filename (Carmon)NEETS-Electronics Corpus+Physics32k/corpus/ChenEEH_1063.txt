@@ -1,0 +1,8 @@
+leaks to some internal nodes via paths set by certain changing
+inputs during the evaluation cycle. This problem results in
+spurious glitches at the outputs not only to affect output stages
+driven by the dynamic stage but also to result in additional
+power dissipation. Many solutions, such as static bleeder and
+precharging internal nodes, will help alleviate the charge-
+sharing problem but will result in more power dissipation
+and more transistors!

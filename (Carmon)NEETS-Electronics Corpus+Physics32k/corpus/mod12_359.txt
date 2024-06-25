@@ -1,0 +1,20 @@
+To transmit intelligence using pulse modulation, you must provide a method to vary some
+characteristic of the pulse train in accordance with the modulating signal. Figure 2-40 illustrates a simple
+pulse train. The characteristics of these pulses that can be varied are amplitude, pulse width,
+pulse-repetition time, and the pulse position as compared to a reference. In addition to these three
+characteristics, pulses may be transmitted according to a code to represent the different levels of the
+modulating signal. To ensure maximum fidelity (accuracy in reproducing a modulating wave), the
+modulating signal has to be represented by enough pulses to restore the original wave shape. Logically,
+the higher the sampling rate (the more often sampled) of the pulse modulator, the more accurately the
+original modulating wave can be reproduced. Figure 2-41 illustrates the effectiveness of three
+pulse-sampling rates. View (A) shows a sampling rate of more than two times the modulating frequency.
+As you can see, this reproduces the modulating signal very accurately. However, the high sampling rate
+requires a wide bandwidth and increases the average power required of the transmitter. If less than two
+samples per cycle are made, you are not able to reproduce the original modulating signal, as shown in
+view (B). View (C) shows a sampling rate that is two times the highest modulating frequency. This is the
+minimum sampling rate that will give a sufficiently accurate reproduction of the modulating wave. The
+standard sampling rate is 2.5 times the highest frequency that is to be transmitted. This ensures the ability
+to accurately reproduce the modulating waveform. In military voice systems the bandwidth for voice
+signals is limited to 300 to 3,000 hertz, requiring a sampling frequency of 8 kilohertz. Although the pulse
+characteristic that is changed may vary for each type of pulse modulation, the sampling frequency will
+remain constant. We will now briefly discuss common types of pulse modulation.

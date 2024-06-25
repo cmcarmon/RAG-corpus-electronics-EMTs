@@ -1,0 +1,177 @@
+Comb-drives are actuators, often used as linear actuators electrostatic forces that act between two electrically conductive combs. Comb drive actuators typically operate at the micro- or nanometer scale and are generally manufactured by bulk micromachining or surface micromachining a silicon wafer substrate.
+The attractive electrostatic forces are created when a voltage is applied between the static and moving combs causing them to be drawn together. The force developed by the actuator is proportional to the change in capacitance between the two combs, increasing with driving voltage, the number of comb teeth, and the gap between the teeth. The combs are arranged so that they never touch (because then there would be no voltage difference). Typically the teeth are arranged so that they can slide past one another until each tooth occupies the slot in the opposite comb.
+Restoring springs, levers, and crankshafts can be added if the motor's linear operation is to be converted to rotation or other motions.
+The force can be derived by first starting with the energy stored in a capacitor and then differentiating in the direction of the force. The energy in a capacitor is given by:
+
+
+
+
+E
+=
+
+
+1
+2
+
+
+C
+
+V
+
+2
+
+
+
+
+{\displaystyle E={\frac {1}{2}}CV^{2}}
+
+
+
+
+
+F
+=
+
+
+1
+2
+
+
+
+
+
+∂
+C
+
+
+∂
+d
+
+x
+
+d
+r
+i
+v
+e
+
+
+
+
+
+
+V
+
+2
+
+
+
+
+{\displaystyle F={\frac {1}{2}}{\frac {\partial C}{\partial dx_{drive}}}V^{2}}
+
+Using the capacitance for a parallel plate capacitor, the force is:
+
+
+
+
+F
+=
+
+
+
+−
+1
+
+2
+
+
+
+
+
+n
+t
+
+ϵ
+
+o
+
+
+
+ϵ
+
+r
+
+
+
+V
+
+2
+
+
+
+d
+
+
+
+
+{\displaystyle F={\frac {-1}{2}}{\frac {nt\epsilon _{o}\epsilon _{r}V^{2}}{d}}}
+
+
+
+
+
+V
+
+
+{\displaystyle V}
+= applied electric potential,
+
+
+
+
+ϵ
+
+r
+
+
+
+
+{\displaystyle \epsilon _{r}}
+= relative permittivity of dielectric,
+
+
+
+
+ϵ
+
+o
+
+
+
+
+{\displaystyle \epsilon _{o}}
+= permittivity of free space (8.85 pF/m),
+
+
+
+n
+
+
+{\displaystyle n}
+= total number of fingers on both sides of electrodes,
+
+
+
+t
+
+
+{\displaystyle t}
+= thickness in the out of plane direction of the electrodes,
+
+
+
+d
+
+
+{\displaystyle d}
+= gap between electrodes.

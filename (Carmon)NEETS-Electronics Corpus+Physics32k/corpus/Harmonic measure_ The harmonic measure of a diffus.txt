@@ -1,0 +1,56 @@
+Consider an Rn-valued Itō diffusion X starting at some point x in the interior of a domain D, with law Px. Suppose that one wishes to know the distribution of the points at which X exits D. For example, canonical Brownian motion B on the real line starting at 0 exits the interval (−1, +1) at −1 with probability ½ and at +1 with probability ½, so Bτ(−1, +1) is uniformly distributed on the set {−1, +1}.
+In general, if G is compactly embedded within Rn, then the harmonic measure (or hitting distribution) of X on the boundary ∂G of G is the measure μGx defined by
+
+
+
+
+
+μ
+
+G
+
+
+x
+
+
+(
+F
+)
+=
+
+
+P
+
+
+x
+
+
+
+
+[
+
+
+
+X
+
+
+τ
+
+G
+
+
+
+
+∈
+F
+
+
+]
+
+
+
+
+{\displaystyle \mu _{G}^{x}(F)=\mathbf {P} ^{x}{\big [}X_{\tau _{G}}\in F{\big ]}}
+
+for x ∈ G and F ⊆ ∂G.
+Returning to the earlier example of Brownian motion, one can show that if B is a Brownian motion in Rn starting at x ∈ Rn and D ⊂ Rn is an open ball centred on x, then the harmonic measure of B on ∂D is invariant under all rotations of D about x and coincides with the normalized surface measure on ∂D

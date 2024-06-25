@@ -1,0 +1,4 @@
+The shift register performs serial data transfers in and out of a given pin under the control of an internal
+modulo-8 counter. When all the necessary control registers and interrupt handling registers are included with
+the data direction registers, together with the ports and counters of direct interest to the user, the device requires
+a total of 16 registers. These are individually addressed using four register select pins, RS0–RS3.

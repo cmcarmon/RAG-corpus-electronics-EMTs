@@ -1,0 +1,103 @@
+The advection equation is not simple to solve numerically: the system is a hyperbolic partial differential equation, and interest typically centers on discontinuous "shock" solutions (which are notoriously difficult for numerical schemes to handle).
+Even with one space dimension and a constant velocity field, the system remains difficult to simulate. The equation becomes
+
+
+
+
+
+
+
+∂
+ψ
+
+
+∂
+t
+
+
+
++
+
+u
+
+x
+
+
+
+
+
+∂
+ψ
+
+
+∂
+x
+
+
+
+=
+0
+
+
+{\displaystyle {\frac {\partial \psi }{\partial t}}+u_{x}{\frac {\partial \psi }{\partial x}}=0}
+
+where
+
+
+
+ψ
+=
+ψ
+(
+x
+,
+t
+)
+
+
+{\displaystyle \psi =\psi (x,t)}
+is the scalar field being advected and
+
+
+
+
+u
+
+x
+
+
+
+
+{\displaystyle u_{x}}
+is the
+
+
+
+x
+
+
+{\displaystyle x}
+component of the vector
+
+
+
+
+u
+
+=
+(
+
+u
+
+x
+
+
+,
+0
+,
+0
+)
+
+
+{\displaystyle \mathbf {u} =(u_{x},0,0)}
+.

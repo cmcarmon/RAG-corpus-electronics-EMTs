@@ -1,0 +1,8 @@
+If you were designing a circuit for maximum power dissipation at the load resistance, this
+theorem would be very useful. Having reduced a network down to a Thevenin voltage and
+resistance (or Norton current and resistance), you simply set the load resistance equal to that
+Thevenin or Norton equivalent (or vice versa) to ensure maximum power dissipation at the
+load. Practical applications of this might include radio transmitter ﬁnal ampliﬁer stage design
+(seeking to maximize power delivered to the antenna or transmission line), a grid tied inverter
+loading a solar array, or electric vehicle design (seeking to maximize power delivered to drive
+motor).

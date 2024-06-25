@@ -1,0 +1,13 @@
+All the commonly used functions f(n) (such as n, nk, 2n) are time- and space-constructible, as long as f(n) is at least cn for a constant c > 0. No function which is o(n) can be time-constructible unless it is eventually constant, since there is insufficient time to read the entire input. However,
+
+
+
+log
+⁡
+(
+n
+)
+
+
+{\displaystyle \log(n)}
+is a space-constructible function.

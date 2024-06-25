@@ -1,0 +1,8 @@
+Following what is known about polynomials, complex char-
+acteristic values occur in complex conjugate pairs, as do their
+associated characteristic vectors. Characteristic values are
+unique although characteristic vectors are not. This makes
+their actual computation (e.g., using MATLAB) somewhat
+arbitrary. The function poly(A) returns the characteristic poly-
+nomial for a matrix A. Then the roots command can be
+utilized to ﬁnd the characteristic values although this is not a

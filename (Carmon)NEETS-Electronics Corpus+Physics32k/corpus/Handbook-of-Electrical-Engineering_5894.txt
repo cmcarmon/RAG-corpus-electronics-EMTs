@@ -1,0 +1,13 @@
+Induction Generators
+Conceptually, a three-phase induction machine is similar to a synchronous machine, but the former has a much
+simpler  rotor  circuit. A  typical  design  of  the  rotor  is  the  squirrel-cage  structure,  where  conducting  bars  are
+embedded in the rotor body and shorted out at the ends. When a set of three-phase currents (waveforms of
+equal amplitude, displaced in time by one-third of a period) is applied to the stator winding, a rotating magnetic
+ﬁeld is produced. (See the discussion of a revolving magnetic ﬁeld for synchronous generators in the section
+“Principle of Operation”.) Currents are therefore induced in the bars, and their resulting magnetic ﬁeld interacts
+with the stator ﬁeld to make the rotor rotate in the same direction. In this case, the machine acts as a motor
+since, in order for the rotor to rotate, energy is drawn from the electric power source. When the machine acts
+as a motor, its rotor can never achieve the same speed as the rotating ﬁeld (this is the synchronous speed) for
+that would imply no induced currents in the rotor bars. If an external mechanical torque is applied to the rotor
+to drive it beyond the synchronous speed, however, then electric energy is pumped to the power grid, and the
+machine will act as a generator.

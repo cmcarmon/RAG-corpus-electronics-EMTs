@@ -1,0 +1,10 @@
+To ﬁnd the Thevenin equivalent of a circuit at a pair of open ter-
+minals  using  PSpice,  we  use  the  schematic  editor  to  draw  the  circuit
+and insert an independent probing current source, say, Ip, at the termi-
+nals. The probing current source must have a part name ISRC. We then
+perform a DC Sweep on Ip, as discussed in Section D.3. Typically, we
+may let the current through Ip vary from 0 to 1 A in 0.1-A increments.
+After saving and simulating the circuit, we use Probe to display a plot
+of the voltage across Ip versus the current through Ip. The zero inter-
+cept  of  the  plot  gives  us  the  Thevenin  equivalent  voltage,  while  the
+slope of the plot is equal to the Thevenin resistance.

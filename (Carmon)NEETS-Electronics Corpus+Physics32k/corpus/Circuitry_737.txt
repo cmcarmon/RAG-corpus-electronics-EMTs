@@ -1,0 +1,24 @@
+recording.  Furthermore,  because 
+signal 
+processing  may  use  digital  rather  than  analogue 
+signals an additional stage of analogue-to-analogue 
+conversion may be required.  
+  Figure  16.1(b)  shows  the  arrangement  of  a 
+control  system.  This  uses  negative  feedback  in 
+order  to  regulate  and  stabilize  the  output.  It  thus 
+becomes possible to set the input or demand (i.e. 
+what  we  desire  the  output  to  be)  and  leave  the 
+system  to  regulate  itself  by  comparing  it  with  a 
+signal  derived  from  the  output  (via  a  sensor  and 
+appropriate signal conditioning). 
+  A comparator is used to sense the difference in 
+these  two  signals  and  where  any  discrepancy  is 
+detected  the  input  to  the  power  amplifier  is 
+adjusted  accordingly.  This  signal  is  referred  to  as 
+an error  signal (it should be zero when the output 
+exactly matches the demand). The input (demand) 
+is  often  derived  from  a  simple  potentiometer 
+connected across a stable d.c. voltage source whilst 
+the  controlled  device  can  take  many  forms  (e.g.  a 
+d.c. motor, linear actuator, heater, etc.). 
+ 

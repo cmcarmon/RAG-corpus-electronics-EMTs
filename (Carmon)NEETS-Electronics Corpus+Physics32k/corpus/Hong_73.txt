@@ -1,0 +1,13 @@
+A classic diode circuit is a peak detector shown in circuit a, Figure 6.6, having a 
+diode and a capacitor in series.  On the upswing of the signal, when the source voltage 
+(VS) is 0.7 V greater than the capacitor voltage (VC), the diode has a small resistance and 
+V
+. On the downswing of the signal, the diode has a large resistance and the 
+C
+previous peak voltage is held on by the capacitor. If the signal is kept consistently lower 
+than the capacitor voltage, then the capacitor voltage decays with a time constant that is 
+equal  to  the  reverse  diode  resistance  multiplied  by  the  capacitance.  Since  the  reverse 
+diode resistance can be as large as 109 ohms, the decay time constant may be undesirably 
+long. If this is the case, a large resistor can be added in parallel with the capacitor, as 
+shown in circuit b, Figure 6.6, to set the decay time constant as 
+ 

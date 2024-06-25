@@ -1,0 +1,4 @@
+After controller outputs are computed, the weights of the controller are adjusted N times before the next
+sample time. The value of N can be selected based on time constraints or convergence properties of the neural
+controller and observers. If N is large, the neural observers are inaccurate; and if a large prediction horizon is
+used, the adaptation of controller parameters may cause performance to deteriorate.

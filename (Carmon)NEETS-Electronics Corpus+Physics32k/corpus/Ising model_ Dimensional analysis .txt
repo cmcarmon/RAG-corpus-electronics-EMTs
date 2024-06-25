@@ -1,0 +1,85 @@
+The form of F can be used to predict which terms are most important by dimensional analysis. Dimensional analysis is not completely straightforward, because the scaling of H needs to be determined.
+In the generic case, choosing the scaling law for H is easy, since the only term that contributes is the first one,
+
+
+
+
+F
+=
+∫
+
+d
+
+d
+
+
+x
+
+A
+
+H
+
+2
+
+
+.
+
+
+{\displaystyle F=\int d^{d}x\,AH^{2}.}
+
+This term is the most significant, but it gives trivial behavior. This form of the free energy is ultralocal, meaning that it is a sum of an independent contribution from each point. This is like the spin-flips in the one-dimensional Ising model. Every value of H at any point fluctuates completely independently of the value at any other point.
+The scale of the field can be redefined to absorb the coefficient A, and then it is clear that A only determines the overall scale of fluctuations. The ultralocal model describes the long wavelength high temperature behavior of the Ising model, since in this limit the fluctuation averages are independent from point to point.
+To find the critical point, lower the temperature. As the temperature goes down, the fluctuations in H go up because the fluctuations are more correlated. This means that the average of a large number of spins does not become small as quickly as if they were uncorrelated, because they tend to be the same. This corresponds to decreasing A in the system of units where H does not absorb A. The phase transition can only happen when the subleading terms in F can contribute, but since the first term dominates at long distances, the coefficient A must be tuned to zero. This is the location of the critical point:
+
+
+
+
+F
+=
+∫
+
+d
+
+d
+
+
+x
+
+[
+
+t
+
+H
+
+2
+
+
++
+λ
+
+H
+
+4
+
+
++
+Z
+(
+∇
+H
+
+)
+
+2
+
+
+
+]
+
+,
+
+
+{\displaystyle F=\int d^{d}x\left[tH^{2}+\lambda H^{4}+Z(\nabla H)^{2}\right],}
+
+where t is a parameter which goes through zero at the transition.
+Since t is vanishing, fixing the scale of the field using this term makes the other terms blow up. Once t is small, the scale of the field can either be set to fix the coefficient of the H4 term or the (∇H)2 term to 1.

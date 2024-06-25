@@ -1,0 +1,6 @@
+The purpose of this example is to illustrate the use of delayed binding in a HLL. Languages such as LISP
+and C++ require even greater degrees of delayed binding because of the abstractions they support. When the
+amount of delayed binding becomes so great that very little of the program can be compiled, we say that the
+HLL is an interpreted language, and the translator becomes an interpreter rather than a compiler. This crossover
+is often obscure, so some HLLs are translated by both a compiler and an interpreter. BASIC is a classic example
+of a HLL that is both interpreted and compiled.

@@ -1,0 +1,56 @@
+For an ideal point source, the intensity of the Arago spot equals that of the undisturbed wave front. Only the width of the Arago spot intensity peak depends on the distances between source, circular object and screen, as well as the source's wavelength and the diameter of the circular object. This means that one can compensate for a reduction in the source's wavelength by increasing the distance l between circular object and screen or reducing the circular object's diameter.
+The lateral intensity distribution on the screen has in fact the shape of a squared zeroth Bessel function of the first kind when close to the optical axis and using a plane wave source (point source at infinity):
+
+
+
+
+U
+(
+
+P
+
+1
+
+
+,
+r
+)
+∝
+
+J
+
+0
+
+
+2
+
+
+
+(
+
+
+
+π
+r
+d
+
+
+λ
+b
+
+
+
+)
+
+
+
+{\displaystyle U(P_{1},r)\propto J_{0}^{2}\left({\frac {\pi rd}{\lambda b}}\right)}
+
+where
+r is the distance of the point P1 on the screen from the optical axis
+d is the diameter of circular object
+λ is the wavelength
+b is the distance between circular object and screen.
+The following images show the radial intensity distribution of the simulated Arago spot images above:
+
+The red lines in these three graphs correspond to the simulated images above, and the green lines were computed by applying the corresponding parameters to the squared Bessel function given above.

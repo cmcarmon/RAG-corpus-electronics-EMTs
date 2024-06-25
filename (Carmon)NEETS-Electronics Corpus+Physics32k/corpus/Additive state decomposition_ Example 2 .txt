@@ -1,0 +1,79 @@
+Consider a class of systems as follows:
+
+Choose (5) as the original system and design the primary system as follows:
+
+Then the secondary system is determined by the rule (4):
+
+By additive state decomposition
+
+
+
+
+e
+(
+t
+)
+=
+
+e
+
+p
+
+
+(
+t
+)
++
+
+e
+
+s
+
+
+(
+t
+)
+
+
+{\displaystyle e(t)=e_{p}(t)+e_{s}(t)}
+
+Since
+
+
+
+
+‖
+e
+(
+t
+)
+‖
+≤
+‖
+
+e
+
+p
+
+
+(
+t
+)
+‖
++
+‖
+
+e
+
+s
+
+
+(
+t
+)
+‖
+
+
+{\displaystyle \|e(t)\|\leq \|e_{p}(t)\|+\|e_{s}(t)\|}
+
+the tracking error e(t) can be analyzed by ep(t) and es(t) separately. If ep(t) and es(t) are bounded and small, then so is e(t). Fortunately, note that (6) is a linear time-invariant system and is independent of the secondary system (7), for the analysis of which many tools such as the transfer function are available. By contrast, the transfer function tool cannot be directly applied to the original system (5) as it is time-varying.

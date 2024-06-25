@@ -1,0 +1,6 @@
+1/2t: that is, t-spaced sampling satisﬁes the sampling theorem. In an analog implementation, there is no other
+restriction on t, and the output of the equalizer can be sampled at the symbol rate. In a digital implementation
+t must be KT/M, where K and M are integers and M > K. (In practice, it is convenient to choose t = T/M,
+where M is a small integer, e.g., 2.) The received signal is sampled and shifted into the equalizer delay line at
+a rate M/T, and one input is produced each symbol interval (for every M input sample). In general, the equalizer
+output is given by

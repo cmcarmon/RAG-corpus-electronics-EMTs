@@ -1,0 +1,13 @@
+values in a (k, l, b)-LNS format are derived, and probabilities
+p1(i) for each bit are computed. Then, pLNS
+0!1(i) is computed as
+in equation 1.33. The actual assertion probabilities for the bits
+in an LNS word, pLNS
+0!1(i), are depicted in Figure 1.5. It can be
+seen that p0!1(i) for the more signiﬁcant bits is substantially
+lower than p0!1(i) for the less signiﬁcant bits. Moreover, it can
+be seen that p0!1(i) depends on b. This behavior, which is due
+to the inherent data compression property of the logarithm
+function, leads to a reduction of the average activity in the
+entire word. The average activity savings percentage, Save, is
+computed as:

@@ -1,0 +1,6 @@
+The normalization process can be thought of as the process of decomposing a scheme with update anomalies
+and data redundancy into smaller schemes in which these undesirable properties are to a large extent eliminated.
+Depending on the severity of these undesirable properties, schemes are classiﬁed into normal forms. Originally,
+Codd deﬁned three normal forms: ﬁrst normal form (1NF), second normal form (2NF), and third normal form
+(3NF). Thereafter, a stronger version of the 3NF, known as Boyce-Codd normal form (BCNF), was suggested.
+These four normal forms are based on the concept of functional dependencies.

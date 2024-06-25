@@ -1,0 +1,10 @@
+Each  component  of  the  computer  system,  both  hardware  and  software,  must  be  specially  built  to  handle
+failures. It should also be obvious that a fault-tolerant system must have redundant hardware. If, for example,
+a disk controller should fail, there must be another controller communicating with the disks that can take over.
+One problem with implementing a fault-tolerant system is knowing when something has failed. If a circuit
+board  totally  ceases  operation,  we  can  determine  the  failure  by  its  lack  of  response  to  commands.  Another
+failure  mode  exists  where  the  failing  component  appears  to  work  but  is  operating  incorrectly.  A  common
+mechanism. By implementing three hardware replicas the system
+approach to detect this problem is a 
+can detect when any one has failed by its producing output inconsistent with the other two. In that case, the
+output of the two components in agreement is used.

@@ -1,0 +1,14 @@
+The set of abstractions that transition from science to engineering and
+insulate the engineer from scientific minutiae are often derived through the
+discretization discipline. Discretization is also referred to as lumping. A discipline
+is a self-imposed constraint. The discipline of discretization states that we choose
+to deal with discrete elements or ranges and ascribe a single value to each
+discrete element or range. Consequently, the discretization discipline requires
+us to ignore the distribution of values within a discrete element. Of course, this
+discipline requires that systems built on this principle operate within appropriate
+constraints so that the single-value assumptions hold. As we will see shortly,
+the lumped circuit abstraction that is fundamental to electrical engineering and
+computer science is based on lumping or discretizing matter.1 Digital systems
+use the digital abstraction, which is based on discretizing signal values. Clocked
+digital systems are based on discretizing both signals and time, and digital
+systolic arrays are based on discretizing signals, time and space.

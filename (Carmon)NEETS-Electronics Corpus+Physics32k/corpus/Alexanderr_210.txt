@@ -1,0 +1,7 @@
+To ﬁnd the Norton equivalent involves similar steps except that we
+insert a probing independent voltage source (with a part name VSRC),
+say, Vp,  at  the  terminals. We  perform  a  DC  Sweep  on Vp  and  let Vp
+vary from 0 to 1 V in 0.1-V increments. A plot of the current through
+Vp versus the voltage across Vp is obtained using the Probe menu after
+simulation. The zero intercept is equal to the Norton current, while the
+slope of the plot is equal to the Norton conductance.

@@ -1,0 +1,11 @@
+If we have a function which describes the system's potential energy, we can determine the system's equilibria using calculus. A system is in mechanical equilibrium at the critical points of the function describing the system's potential energy. We can locate these points using the fact that the derivative of the function is zero at these points. To determine whether or not the system is stable or unstable, we apply the second derivative test:
+
+Second derivative < 0
+The potential energy is at a local maximum, which means that the system is in an unstable equilibrium state. If the system is displaced an arbitrarily small distance from the equilibrium state, the forces of the system cause it to move even farther away.
+
+Second derivative > 0
+The potential energy is at a local minimum. This is a stable equilibrium. The response to a small perturbation is forces that tend to restore the equilibrium. If more than one stable equilibrium state is possible for a system, any equilibria whose potential energy is higher than the absolute minimum represent metastable states.
+
+Second derivative = 0 or does not exist
+The state is neutral to the lowest order and nearly remains in equilibrium if displaced a small amount. To investigate the precise stability of the system, higher order derivatives must be examined. The state is unstable if the lowest nonzero derivative is of odd order or has a negative value, stable if the lowest nonzero derivative is both of even order and has a positive value, and neutral if all higher order derivatives are zero. In a truly neutral state the energy does not vary and the state of equilibrium has a finite width. This is sometimes referred to as state that is marginally stable or in a state of indifference.
+When considering more than one dimension, it is possible to get different results in different directions, for example stability with respect to displacements in the x-direction but instability in the y-direction, a case known as a saddle point. Generally an equilibrium is only referred to as stable if it is stable in all directions.

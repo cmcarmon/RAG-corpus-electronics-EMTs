@@ -1,0 +1,6 @@
+The −25 volt input signal provides forward bias for D1. The capacitor charges to +15 volts and 
+retains most of its charge because its discharge through R1 is negligible. The +25 volt input signal is 
+series aiding the capacitor voltage and develops +40 volts between the output terminals. When the input 
+voltage is −25 volts, D1 conducts and the output voltage is −10 volts (−25 volts plus +15 volts). In this 
+way the output reference is clamped at −10 volts. Changing the size of the battery changes the clamping 
+reference level to the new voltage. 

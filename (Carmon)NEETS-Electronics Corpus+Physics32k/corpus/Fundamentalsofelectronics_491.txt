@@ -1,0 +1,10 @@
+(c) How does the magnitude of the system’s transfer function depend on the two delays?
+Problem 4.17: Echoes in Telephone Systems
+A frequently encountered problem in telephones is echo. Here, because of acoustic coupling between the ear
+piece and microphone in the handset, what you hear is also sent to the person talking. That person thus
+not only hears you, but also hears her own speech delayed (because of propagation delay over the telephone
+network) and attenuated (the acoustic coupling gain is less than one). Furthermore, the same problem
+applies to you as well: The acoustic coupling occurs in her handset as well as yours.
+(a) Develop a block diagram that describes this situation.
+(b) Find the transfer function between your voice and what the listener hears.
+(c) Each telephone contains a system for reducing echoes using electrical means. What simple system

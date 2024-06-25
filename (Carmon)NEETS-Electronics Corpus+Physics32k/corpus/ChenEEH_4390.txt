@@ -1,0 +1,26 @@
+for all initial conditions x(0). The test for asymptotic stability
+is that the eigenvalues of A have negative real parts. Asymptotic
+stability implies BIBO stability, which is a property of an
+external representation. For BIBO stability, only the poles of
+a transfer function matrix need to have negative real parts.
+Consider now the classical unity feedback conﬁguration in
+Figure 3.1, where r(t ) 2 Rp denotes a vector of reference
+inputs and where di(t ) 2 Rm and do(t) 2 Rp denote vectors
+of disturbance inputs at the input and output of the plant,
+respectively. Assume that
+the state-space representations
+(transfer function matrices) of the plant and controller are
+given by (Ap, Bp, Cp, Dp)(Gp(s)) and (Ac , Bc, Cc, Dc)(Gc (s)),
+respectively. The representation of the closed system will
+the dimensions (Gp(s) 2 Rp(s)pm and
+be well-formed if
+Gc(s) 2 Rp(s)mp) are compatible and if jI þ DpDcj 6¼ 0. The
+state representation of the closed-loop system is of the form:
+_xxcl(t) ¼ Aclxcl(t) þ Bclw(t),
+y(t) ¼ Cclxcl(t) þ Dclw(t), (3:9)
+where xcl(t ) ¼ [xp(t ), xc(t )]T and w(t ) ¼ [r(t ), do(t ), di(t )]T .
+The properties of the closed-loop system are determined
+by analyzing (Acl(t), Bcl(t), Ccl(t), Dcl(t)). For example, the
+closed-loop system is asymptotically stable if the eigenvalues
+of Acl(t) have negative real parts. The closed-loop system is then
+said to be internally stable.

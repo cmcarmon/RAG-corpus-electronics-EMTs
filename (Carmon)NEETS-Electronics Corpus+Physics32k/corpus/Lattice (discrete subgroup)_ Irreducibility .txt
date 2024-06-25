@@ -1,0 +1,360 @@
+When the Lie group
+
+
+
+G
+
+
+{\displaystyle G}
+splits as a product
+
+
+
+G
+=
+
+G
+
+1
+
+
+×
+
+G
+
+2
+
+
+
+
+{\displaystyle G=G_{1}\times G_{2}}
+there is an obvious construction of lattices in
+
+
+
+G
+
+
+{\displaystyle G}
+from the smaller groups: if
+
+
+
+
+Γ
+
+1
+
+
+⊂
+
+G
+
+1
+
+
+,
+
+Γ
+
+2
+
+
+⊂
+
+G
+
+2
+
+
+
+
+{\displaystyle \Gamma _{1}\subset G_{1},\Gamma _{2}\subset G_{2}}
+are lattices then
+
+
+
+
+Γ
+
+1
+
+
+×
+
+Γ
+
+2
+
+
+⊂
+G
+
+
+{\displaystyle \Gamma _{1}\times \Gamma _{2}\subset G}
+is a lattice as well. Roughly, a lattice is then said to be irreducible if it does not come from this construction.
+More formally, if
+
+
+
+G
+=
+
+G
+
+1
+
+
+×
+…
+×
+
+G
+
+r
+
+
+
+
+{\displaystyle G=G_{1}\times \ldots \times G_{r}}
+is the decomposition of
+
+
+
+G
+
+
+{\displaystyle G}
+into simple factors, a lattice
+
+
+
+Γ
+⊂
+G
+
+
+{\displaystyle \Gamma \subset G}
+is said to be irreducible if either of the following equivalent conditions hold:
+The projection of
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+to any factor
+
+
+
+
+G
+
+
+i
+
+1
+
+
+
+
+×
+…
+×
+
+G
+
+
+i
+
+k
+
+
+
+
+
+
+{\displaystyle G_{i_{1}}\times \ldots \times G_{i_{k}}}
+is dense;
+The intersection of
+
+
+
+Γ
+
+
+{\displaystyle \Gamma }
+with any factor
+
+
+
+
+G
+
+
+i
+
+1
+
+
+
+
+×
+…
+×
+
+G
+
+
+i
+
+k
+
+
+
+
+
+
+{\displaystyle G_{i_{1}}\times \ldots \times G_{i_{k}}}
+is not a lattice.
+An example of an irreducible lattice is given by the subgroup
+
+
+
+
+
+S
+L
+
+
+2
+
+
+(
+
+Z
+
+[
+
+
+2
+
+
+]
+)
+
+
+{\displaystyle \mathrm {SL} _{2}(\mathbb {Z} [{\sqrt {2}}])}
+which we view as a subgroup
+
+
+
+
+
+S
+L
+
+
+2
+
+
+(
+
+R
+
+)
+×
+
+
+S
+L
+
+
+2
+
+
+(
+
+R
+
+)
+
+
+{\displaystyle \mathrm {SL} _{2}(\mathbb {R} )\times \mathrm {SL} _{2}(\mathbb {R} )}
+via the map
+
+
+
+g
+↦
+(
+g
+,
+σ
+(
+g
+)
+)
+
+
+{\displaystyle g\mapsto (g,\sigma (g))}
+where
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+is the Galois map sending a matric with coefficients
+
+
+
+
+a
+
+i
+
+
++
+
+b
+
+i
+
+
+
+
+2
+
+
+
+
+{\displaystyle a_{i}+b_{i}{\sqrt {2}}}
+to
+
+
+
+
+a
+
+i
+
+
+−
+
+b
+
+i
+
+
+
+
+2
+
+
+
+
+{\displaystyle a_{i}-b_{i}{\sqrt {2}}}
+.

@@ -1,0 +1,11 @@
+The original work in recursive stochastic approximation
+algorithms was introduced by Robbins and Monro (1951),
+who developed and analyzed a recursive procedure for ﬁnding
+the root of a real-valued function g(w) of a real variable w. The
+function is not known, but noise-corrupted observations could
+be taken at values of w selected by the experimenter.
+A function g (w) with the form g(w) ¼ Ex[f (w)] (Ex[] is the
+expectation operator) is called a regression function of f (w)
+and, conversely, f (w) is called a sample function of g(w). The
+following conditions are needed to obtain the Robbins-Monro
+algorithm (Robbins and Monro, 1951):

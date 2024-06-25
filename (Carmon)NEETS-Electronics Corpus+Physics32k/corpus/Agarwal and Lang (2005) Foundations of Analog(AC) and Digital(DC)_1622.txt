@@ -1,0 +1,8 @@
+Notice that the dynamic power dissipated is proportional to the frequency with
+which the input signal transitions. Not surprisingly, high-performance chips
+that clock at high frequencies dissipate a lot of power. Also notice that the
+power is related to the square of the supply voltage. As clock speeds of VLSI
+chips increase, power considerations are causing manufacturers to continually
+reduce the supply voltages. Whereas 5-volt power supplies were the norm in
+the 80s, voltages closer to 3 volts have been the norm in the 90s, and supplies
+closer to 1.5 volts have been commonplace after the year 2000.

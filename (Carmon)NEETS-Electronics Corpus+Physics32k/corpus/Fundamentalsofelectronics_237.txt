@@ -1,0 +1,5 @@
+A little reﬂection reveals that when writing the KCL equations for the sum of currents leaving a node, that
+node’s voltage will always appear with a plus sign, and all other node voltages with a minus sign. Systematic
+application of this procedure makes it easy to write node equations and to check them before solving them.
+Also remember to check units at this point: Every term should have units of current. In our example, solving
+for the unknown node voltage is easy:

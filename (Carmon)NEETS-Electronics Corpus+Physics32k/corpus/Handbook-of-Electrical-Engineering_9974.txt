@@ -1,0 +1,3 @@
+The heater is driven by a D/A converter, and the temperature measurement is sampled with an A/D converter.
+The data converters are assumed to operate synchronously, so the discrete-time transfer function of the tank
+and the two data converters is from expression (100.87):

@@ -1,0 +1,13 @@
+The scheduling law is chosen, typically, in ad hoc fashion as
+either a continuous or discrete scheduling law. In continuous
+scheduling, parameters of the gain scheduled controller vary
+continuously with the scheduling parameter and are com-
+monly formed through interpolation of the ﬁxed-point con-
+troller parameters. The interpolated controller parameters may
+be feedback gains, elements of the controller matrices, or
+controller poles/zeros. While the ﬁxed-point controllers are
+linear, the parameter interpolation method need obey no
+such restriction.
+As an example, suppose that u is a scalar and that the ﬁxed
+operating points are ordered so that u1 < u2 <  < uN . A
+simple, continuous scheduling law is then given by:

@@ -1,0 +1,2 @@
+If more than one place in a program needs to maintain a reference to such an object, the object must be
+implemented using a head cell: a storage location that represents the object and that is not released. The following

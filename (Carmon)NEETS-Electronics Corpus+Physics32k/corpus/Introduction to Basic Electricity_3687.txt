@@ -1,0 +1,11 @@
+Figure 36-25 shows a simple series regulator. The 
+input is unregulated DC voltage, and the output is a 
+lower, regulated DC voltage. The transistor is con-
+nected as an emitter follower, meaning that there is a 
+lack of phase inversion between the base and the emit-
+ter. The emitter voltage follows the base voltage. The 
+load is connected between the emitter of the transistor 
+and ground. The voltage at the base of the transistor is 
+set by the zener diode. Therefore, the output voltage is 
+equal to the zener voltage minus the 0.7-volt dropped 
+across the base-emitter junction of the transistor. 

@@ -1,0 +1,9 @@
+What this means is that the error between a signal and its Fourier series approximation may not be zero,
+but that its rms value will be zero! It is through the eyes of the rms value that we redeﬁne equality: The
+usual deﬁnition of equality is called point wise equality: Two signals s1 (t), s2 (t) are said to be equal
+point wise if s1 (t) = s2 (t) for all values of t. A new deﬁnition of equality is mean-square equality: Two
+signals are said to be equal in the mean square if rms (s1 − s2) = 0. For Fourier series, Gibbs’ phenomenon
+peaks have ﬁnite height and zero width. The error diﬀers from zero only at isolated points—whenever the
+periodic signal contains discontinuities—and equals about 9% of the size of the discontinuity. The value of
+a function at a ﬁnite set of points does not aﬀect its integral. This eﬀect underlies the reason why deﬁning
+the value of a discontinuous function at its discontinuity, like when we deﬁned the step function on page 17,

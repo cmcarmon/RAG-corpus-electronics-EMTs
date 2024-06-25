@@ -1,0 +1,12 @@
+Dynamic Power Management
+Dynamic power management techniques allow systems or
+system’s blocks to be placed in low-power sleep modes when
+the systems are inactive. Normally, not all blocks of a system
+participate in performing different functions, and it is useful to
+shut down inactive blocks to reduce power consumption. For
+example, in a general microprocessor, a register-based instruc-
+tion does not access the data memory and some other
+modules, so these components can be deactivated to achieve
+power savings. In this case, more control is involved, but it is
+true that the waking up of these deactivated blocks is expensive
+in terms of speed or performance.

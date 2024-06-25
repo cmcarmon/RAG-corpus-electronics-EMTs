@@ -1,0 +1,16 @@
+(3:3)
+where x(t) 2 Rn is a vector of state variables, any minimal set
+of variables at time t0 that together with the input u(t ), t > t0
+completely characterizes the response of the system for t > t0.
+The state-space representation as deﬁned in equation 3.3 will
+be represented by the four-tuple (A, B, C, D). The study of the
+fundamental properties of the state-space representation is
+covered, for example,
+in a ﬁrst graduate course in linear
+systems (Antsaklis and Michel, 1997.) Because any state-
+space and PMD representation of a given system are equiva-
+lent, they have similar properties. For example, the eigenvalues
+of A are the roots of jP(l)j, where P(l) is the polynomial
+matrix in l found by replacing D with l. Furthermore, the
+state-space representation is state controllable (observable) if
+and only if the equivalent PMD is controllable (observable).

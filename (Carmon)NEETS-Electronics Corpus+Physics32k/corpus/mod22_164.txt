@@ -1,0 +1,6 @@
+A track can hold one or more records. A record is a set of related data treated as a unit. The records 
+on a track are separated by gaps in which no data is recorded, and each of the records is preceded by a 
+disk address. This address indicates the unique position of the record on the track and is used to directly 
+access the record. Figure 2-9 shows a track on which five records have been recorded. Because of the 
+gaps and addresses, the amount of data we can store on a track is reduced as the number of records per 
+track is increased. Records on disk can be blocked (grouped together). Only one disk address is needed 

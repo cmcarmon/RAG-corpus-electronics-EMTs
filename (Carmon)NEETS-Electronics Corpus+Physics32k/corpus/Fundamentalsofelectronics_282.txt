@@ -1,0 +1,5 @@
+Because of the diode’s nonlinear nature, we cannot use impedances nor series/parallel combination rules
+to analyze circuits containing them. The reliable node method can always be used; it only relies on KVL for
+its application, and KVL is a statement about voltage drops around a closed path regardless of whether
+the elements are linear or not. Thus, for this simple circuit we have
+kT (vin−vout) − 1

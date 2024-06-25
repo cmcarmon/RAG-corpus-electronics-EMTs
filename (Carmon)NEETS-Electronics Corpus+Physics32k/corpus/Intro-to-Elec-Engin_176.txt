@@ -1,0 +1,13 @@
+Replacing the current source with shunt resistance by the Thévenin equivalent, Figure 2.2.3 is
+redrawn as Figure 2.2.4, in which one can identify two elementary loops, or independent meshes.
+By assigning loop or mesh-current variables I1 and I2, as shown in Figure 2.2.4, both in the
+clockwise direction, one can write the KVL equations for the two closed paths (loops) ABDA and
+BCDB,
+Loop ABDA: I1R1 + (I1 − I2)R2 = V1 − V2
+(2.2.5)
+Loop BCDB: I2R3 + (I2 − I1)R2 = V2 − V3
+(2.2.6)
+Notice that current I1 exists in R1 and R2 in the direction indicated; I2 exists in R2 and R3 in the
+direction indicated; hence, the net current in R2 is I1− I2 directed from B to D. An examination of
+Equations (2.2.5) and (2.2.6) reveals a pattern that will allow loop equations to be written directly
+by inspection by following these rules:

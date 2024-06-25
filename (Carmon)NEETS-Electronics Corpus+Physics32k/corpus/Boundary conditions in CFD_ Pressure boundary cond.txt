@@ -1,0 +1,3 @@
+These conditions are used when we don’t know the exact details of flow distribution but boundary values of pressure are known
+For example: external flows around objects, internal flows with multiple outlets, buoyancy-driven flows, free surface flows, etc.
+The pressure corrections are taken zero at the nodes.

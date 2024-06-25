@@ -1,0 +1,9 @@
+problem QP-3 described in the previous subsections. To sum-
+marize the results, each of the three algorithms, LMCS-1,
+LMCS-2, and CSD, requires O(r 3) ﬂoating-point multiplica-
+tive operations and O(r 2) ﬂoating-point storage units. The
+numerical constant of the leading terms in the polynomial
+expressions for both the run time and memory complexity is
+a function of the ratio k ¼ p=r, which is the ratio of the
+number of local data paths to the number of registers in a
+circuit.

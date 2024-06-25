@@ -1,0 +1,13 @@
+Deﬁnitions and Style of Computation
+An ANN is an adaptive, most often nonlinear system that learns to perform a function (an input/output map)
+from  data.  Adaptive  means  that  the  system  parameters  are  changed  during  operation,  normally  called  the
+training phase
+. After the training phase the ANN parameters are ﬁxed and the system is deployed to solve the
+). The ANN is built with a systematic step-by-step procedure to optimize a
+problem at hand (the 
+performance  criterion  or  to  follow  some  implicit  internal  constraint,  which  is  commonly  referred  to  as  the
+learning  rule
+.  The  input/output  training  data  are  fundamental  in  neural  network  technology,  because  they
+convey the necessary information to “discover” the optimal operating point. The nonlinear nature of the neural
+network processing elements (PEs) provides the system with lots of ﬂexibility to achieve practically any desired
+input/output map, i.e., some ANNs are 

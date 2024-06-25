@@ -1,0 +1,16 @@
+Introduction
+The  Fourier  transform  is  a  mathematical  tool  that  is  used  to  expand  signals  into  a  spectrum  of  sinusoidal
+components to facilitate signal analysis and system performance. In certain applications the Fourier transform
+is used for spectral analysis, or for spectrum shaping that adjusts the relative contributions of different frequency
+components  in  the  ﬁltered  result.  In  other  applications  the  Fourier  transform  is  important  for  its  ability  to
+decompose the input signal into uncorrelated components, so that signal processing can be more effectively
+implemented  on  the  individual  spectral  components.  Decorrelating  properties  of  the  Fourier  transform  are
+important in frequency domain adaptive ﬁltering, subband coding, image compression, and transform coding.
+Classical Fourier methods such as the Fourier series and the Fourier integral are used for continuous-time
+¥
+(CT) signals and systems, i.e., systems in which the signals are deﬁned at all values of 
+< 
+. A more recently developed set of discrete Fourier methods, including the discrete-time (DT) Fourier
+transform and the discrete Fourier transform (DFT), are extensions of basic Fourier concepts for DT signals
+.  The  class  of  DT
+and  systems. A  DT  signal  is  deﬁned  only  for  integer  values  of 

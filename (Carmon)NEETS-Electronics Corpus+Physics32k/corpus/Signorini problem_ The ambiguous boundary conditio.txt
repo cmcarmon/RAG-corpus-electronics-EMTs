@@ -1,0 +1,359 @@
+If
+
+
+
+
+
+τ
+
+=
+(
+
+τ
+
+1
+
+
+,
+
+τ
+
+2
+
+
+,
+
+τ
+
+3
+
+
+)
+
+
+
+{\displaystyle \scriptstyle {\boldsymbol {\tau }}=(\tau _{1},\tau _{2},\tau _{3})}
+is any tangent vector to the contact set
+
+
+
+Σ
+
+
+{\displaystyle \Sigma }
+, then the ambiguous boundary condition in each point of this set are expressed by the following two systems of inequalities
+(3)
+
+
+
+
+
+
+{
+
+
+
+
+u
+
+i
+
+
+
+n
+
+i
+
+
+
+
+=
+0
+
+
+
+
+
+σ
+
+i
+k
+
+
+
+n
+
+i
+
+
+
+n
+
+k
+
+
+
+
+≥
+0
+
+
+
+
+
+σ
+
+i
+k
+
+
+
+n
+
+i
+
+
+
+τ
+
+k
+
+
+
+
+=
+0
+
+
+
+
+
+
+
+
+{\displaystyle \quad {\begin{cases}u_{i}n_{i}&=0\\\sigma _{ik}n_{i}n_{k}&\geq 0\\\sigma _{ik}n_{i}\tau _{k}&=0\end{cases}}}
+or     (4)
+
+
+
+
+
+{
+
+
+
+
+u
+
+i
+
+
+
+n
+
+i
+
+
+
+
+>
+0
+
+
+
+
+
+σ
+
+i
+k
+
+
+
+n
+
+i
+
+
+
+n
+
+k
+
+
+
+
+=
+0
+
+
+
+
+
+σ
+
+i
+k
+
+
+
+n
+
+i
+
+
+
+τ
+
+k
+
+
+
+
+=
+0
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{cases}u_{i}n_{i}&>0\\\sigma _{ik}n_{i}n_{k}&=0\\\sigma _{ik}n_{i}\tau _{k}&=0\end{cases}}}
+
+Let's analyze their meaning:
+Each set of conditions consists of three relations, equalities or inequalities, and all the second members are the zero function.
+The quantities at first member of each first relation are proportional to the norm of the component of the displacement vector directed along the normal vector
+
+
+
+n
+
+
+{\displaystyle n}
+.
+The quantities at first member of each second relation are proportional to the norm of the component of the tension vector directed along the normal vector
+
+
+
+n
+
+
+{\displaystyle n}
+,
+The quantities at the first member of each third relation are proportional to the norm of the component of the tension vector along any vector
+
+
+
+τ
+
+
+{\displaystyle \tau }
+tangent in the given point to the contact set
+
+
+
+Σ
+
+
+{\displaystyle \Sigma }
+.
+The quantities at the first member of each of the three relations are positive if they have the same sense of the vector they are proportional to, while they are negative if not, therefore the constants of proportionality are respectively
+
+
+
+
++
+1
+
+
+
+{\displaystyle \scriptstyle +1}
+and
+
+
+
+
+−
+1
+
+
+
+{\displaystyle \scriptstyle -1}
+.
+Knowing these facts, the set of conditions (3) applies to points of the boundary of the body which do not leave the contact set
+
+
+
+Σ
+
+
+{\displaystyle \Sigma }
+in the equilibrium configuration, since, according to the first relation, the displacement vector
+
+
+
+u
+
+
+{\displaystyle u}
+has no components directed as the normal vector
+
+
+
+n
+
+
+{\displaystyle n}
+, while, according to the second relation, the tension vector may have a component directed as the normal vector
+
+
+
+n
+
+
+{\displaystyle n}
+and having the same sense. In an analogous way, the set of conditions (4) applies to points of the boundary of the body which leave that set in the equilibrium configuration, since displacement vector
+
+
+
+u
+
+
+{\displaystyle u}
+has a component directed as the normal vector
+
+
+
+n
+
+
+{\displaystyle n}
+, while the tension vector has no components directed as the normal vector
+
+
+
+n
+
+
+{\displaystyle n}
+. For both sets of conditions, the tension vector has no tangent component to the contact set, according to the hypothesis that the body rests on a rigid frictionless surface.
+Each system expresses a unilateral constraint, in the sense that they express the physical impossibility of the elastic body to penetrate into the surface where it rests: the ambiguity is not only in the unknown values non-zero quantities must satisfy on the contact set but also in the fact that it is not a priori known if a point belonging to that set satisfies the system of boundary conditions (3) or (4). The set of points where (3) is satisfied is called the area of support of the elastic body on
+
+
+
+Σ
+
+
+{\displaystyle \Sigma }
+, while its complement respect to
+
+
+
+Σ
+
+
+{\displaystyle \Sigma }
+is called the area of separation.
+The above formulation is general since the Cauchy stress tensor i.e. the constitutive equation of the elastic body has not been made explicit: it is equally valid assuming the hypothesis of linear elasticity or the ones of nonlinear elasticity. However, as it would be clear from the following developments, the problem is inherently nonlinear, therefore assuming a linear stress tensor does not simplify the problem.

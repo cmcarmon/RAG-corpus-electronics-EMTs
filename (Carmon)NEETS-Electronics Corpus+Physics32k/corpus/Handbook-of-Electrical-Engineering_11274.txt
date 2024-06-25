@@ -1,0 +1,21 @@
+High-resolution  capability  is  now  a  standard  feature  on  most  digitally  based  ECG  systems  or  as  a  stand-
+alone microprocessor-based unit [Berbari, 1988]. The most common application of the HRECG is to record
+very low-level (»1.0 mV) signals which occur after the QRS complex but are not evident on the standard ECG.
+These “late potentials” are generated from abnormal regions of the ventricles and have been strongly associated
+with  the  substrate  responsible  for  a  life-threatening  rapid  heart  rate  (ventricular  tachycardia).  The  typical
+HRECG  is  derived  from  three  bipolar  leads  conﬁgured  in  an  anatomic  XYZ  coordinate  system.  These  three
+ECG signals are then digitized at a rate of 1000–2000 Hz/channel, time aligned via a real-time QRS correlator,
+and summated in the form of a signal average. Signal averaging will theoretically improve the signal-to-noise
+ratio by the square root of the number of beats averaged. The underlying assumptions are that the signals of
+interest  do  not  vary,  on  a  beat-to-beat  basis,  and  that  the  noise  is  random.  Figure  115.10  has  four  panels
+depicting the most common sequence for processing the HRECG to measure the late potentials. Panel A depicts
+a three-second recording of the XYZ leads close to normal resolution. Panel B was obtained after averaging 200
+beats  and  with  a  sampling  frequency  of  10  times  that  shown  in  panel A.  The  gain  is  also  ﬁve  times  greater.
+Panel  C  is  the  high-pass  ﬁltered  signal  using  a  partially  time  reversed  digital  ﬁlter  having  a  second-order
+Butterworth response and a 3-dB corner frequency of 40 Hz [Simson, 1981]. Note the appearance of the signals
+at  the  terminal  portion  of  the  QRS  complex.  A  common  method  of  analysis,  but  necessarily  optimal,  is  to
+combine the ﬁltered XYZ leads into a vector magnitude (X2 + Y2 + Z2)1/2. This waveform is shown in panel D.
+From this waveform several parameters have been derived such as total QRS duration, including late potentials,
+the rms voltage value of the terminal 40 ms, and the low-amplitude signal (LAS) duration from the 40-mV level
+to the end of the late potentials. Abnormal values for these parameters are used to identify patients at high risk
+of ventricular tachycardia following a heart attack.

@@ -1,0 +1,11 @@
+The next task, then, is to find an easy way of calculating the real part of a
+complex expression. (Those readers who are a little hazy about manipulation
+of complex numbers, and in particular the conversion between rectangular and
+polar form, should review at this point Appendix C on complex numbers or a
+suitable math text.) In this specific problem, we must find the real part of the
+˜vcp expression, Equation 13.17. The difficulty is that the expression has two
+factors, one in Cartesian or rectangular form, and the other in polar, whereas
+multiplication is simpler if both factors are in polar form. Hence we rewrite
+Equation 13.17 in polar form as
+(cid:1)
+˜vcp =

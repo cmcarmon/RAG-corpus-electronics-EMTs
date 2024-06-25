@@ -1,0 +1,349 @@
+Consider a damped pendulum whose point of suspension is vibrated vertically by a small amplitude, high frequency signal (this is usually known as dithering). The equation of motion for such a pendulum is given by
+
+
+
+
+m
+(
+l
+
+
+
+θ
+¨
+
+
+
+−
+a
+k
+
+ω
+
+2
+
+
+sin
+⁡
+ω
+t
+sin
+⁡
+θ
+)
+=
+−
+m
+g
+sin
+⁡
+θ
+−
+k
+(
+l
+
+
+
+θ
+˙
+
+
+
++
+a
+ω
+cos
+⁡
+ω
+t
+sin
+⁡
+θ
+)
+
+
+{\displaystyle m(l{\ddot {\theta }}-ak\omega ^{2}\sin \omega t\sin \theta )=-mg\sin \theta -k(l{\dot {\theta }}+a\omega \cos \omega t\sin \theta )}
+
+where
+
+
+
+a
+sin
+⁡
+ω
+t
+
+
+{\displaystyle a\sin \omega t}
+describes the motion of the suspension point,
+
+
+
+k
+
+
+{\displaystyle k}
+describes the damping of the pendulum, and
+
+
+
+θ
+
+
+{\displaystyle \theta }
+is the angle made by the pendulum with the vertical.
+The phase space form of this equation is given by
+
+
+
+
+
+
+
+
+
+
+
+t
+˙
+
+
+
+
+
+
+=
+1
+
+
+
+
+
+
+
+θ
+˙
+
+
+
+
+
+
+=
+p
+
+
+
+
+
+
+
+p
+˙
+
+
+
+
+
+
+=
+
+
+1
+
+m
+l
+
+
+
+(
+m
+a
+k
+
+ω
+
+2
+
+
+sin
+⁡
+ω
+t
+sin
+⁡
+θ
+−
+m
+g
+sin
+⁡
+θ
+−
+k
+(
+l
+p
++
+a
+ω
+cos
+⁡
+ω
+t
+sin
+⁡
+θ
+)
+)
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}{\dot {t}}&=1\\{\dot {\theta }}&=p\\{\dot {p}}&={\frac {1}{ml}}(mak\omega ^{2}\sin \omega t\sin \theta -mg\sin \theta -k(lp+a\omega \cos \omega t\sin \theta ))\end{aligned}}}
+
+where we have introduced the variable
+
+
+
+p
+
+
+{\displaystyle p}
+and written the system as an autonomous, first-order system in
+
+
+
+(
+t
+,
+θ
+,
+p
+)
+
+
+{\displaystyle (t,\theta ,p)}
+-space.
+Suppose that the angular frequency of the vertical vibrations,
+
+
+
+ω
+
+
+{\displaystyle \omega }
+, is much greater than the natural frequency of the pendulum,
+
+
+
+
+
+g
+
+/
+
+l
+
+
+
+
+{\displaystyle {\sqrt {g/l}}}
+. Suppose also that the amplitude of the vertical vibrations,
+
+
+
+a
+
+
+{\displaystyle a}
+, is much less than the length
+
+
+
+l
+
+
+{\displaystyle l}
+of the pendulum. The pendulum's trajectory in phase space will trace out a spiral around a curve
+
+
+
+C
+
+
+{\displaystyle C}
+, moving along
+
+
+
+C
+
+
+{\displaystyle C}
+at the slow rate
+
+
+
+
+
+g
+
+/
+
+l
+
+
+
+
+{\displaystyle {\sqrt {g/l}}}
+but moving around it at the fast rate
+
+
+
+ω
+
+
+{\displaystyle \omega }
+. The radius of the spiral around
+
+
+
+C
+
+
+{\displaystyle C}
+will be small and proportional to
+
+
+
+a
+
+
+{\displaystyle a}
+. The average behaviour of the trajectory, over a timescale much larger than
+
+
+
+2
+π
+
+/
+
+ω
+
+
+{\displaystyle 2\pi /\omega }
+, will be to follow the curve
+
+
+
+C
+
+
+{\displaystyle C}
+.

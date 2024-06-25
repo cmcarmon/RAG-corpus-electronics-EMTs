@@ -1,0 +1,13 @@
+return real is
+constant Tc : real :¼ 5.0 / (Pmetalimnion -Psur-
+face);
+constant Tb : real :¼ (Tsurface -10.0) /
+(exp (TC Psurface)
+-exp (TC Pmetalimnion));
+constant Ta : real :¼ Tsurface -Tb exp(TC Psur-
+face);
+constant Td : real :¼ 4.0;
+constant Tf : real :¼ (Tb TC exp (TC metalim-
+nion)) / (10.0 -Td);
+constant Te : real :¼ (10.0 -Td)/exp (Tf meta-
+limnion);

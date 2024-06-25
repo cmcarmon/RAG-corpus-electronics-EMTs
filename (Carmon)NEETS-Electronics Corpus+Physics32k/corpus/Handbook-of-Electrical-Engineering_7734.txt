@@ -1,0 +1,11 @@
+A  number  of  economic  and  technological  issues  limit  the  usefulness  of  parallel  transfer  disks.  From  the
+economic perspective, providing more than one set of read/write electronics per actuator is expensive. Further,
+current disks use sophisticated control systems to lock onto an individual track, and it is difﬁcult to do this
+simultaneously across tracks within the same cylinder. Hence, the Cray strategy is limiting head groups to only
+four surfaces. There appears to be a fundamental trade-off between track density and the number of platters:
+as the track density increases, it becomes ever more difﬁcult to lock onto tracks across many platters, and the
+number of surfaces that can participate in a parallel transfer is reduced. For example, current Cray track densities
+are  around  980  tracks/inch,  and  require  a  rather  sophisticated  closed-loop  track-following  servo  system  to
+position  the  heads  accurately  with  ﬁnely  controlled  voice  coil  actuators.  A  lower  cost  ($/megabyte)  high-
+performance disk system can be constructed from several standard drives than from a single parallel transfer
+device, in part because of the relatively small sales volume of parallel transfer devices compared to standard drives.

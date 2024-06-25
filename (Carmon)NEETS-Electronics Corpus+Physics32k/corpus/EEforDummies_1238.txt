@@ -1,0 +1,14 @@
+The values of resistors R4–R10 have been carefully calculated to produce 
+the correct tones. For instance, the frequency of the note A on the equal‐
+tempered scale is 440 Hz. The resistance you need between pins 7 and 2 to 
+produce a 440 Hz pulse train is roughly 15.1 kΩ. (You can calculate this resis-
+tance yourself by using the formula in Chapter 11 for the frequency of a pulse 
+train produced by the 555 timer used as an astable multivibrator.) By press-
+ing SW3, you are connecting resistors R2, R3, R4, and R5 in series between 
+pins 7 and 2. (Be sure to follow the path of the complete circuit and see for 
+yourself what the total resistance is.) The total resistance (R2+R3+R4+R5) is 
+12.6 kΩ plus the value of the 10 kΩ pot (that is, R3). If your circuit is tuned 
+properly (by adjusting the pot while using a tuning fork or your accurately 
+tuned piano, if you like), the pot value is roughly 2.5 kΩ. (Keep in mind that 
+resistor values can vary, so your pot value may be a little higher or lower 
+than 2.5 kΩ.)

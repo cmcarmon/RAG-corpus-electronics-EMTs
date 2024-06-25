@@ -1,0 +1,6 @@
+IDEF4 uses three design models and a design rationale component:
+The Static Model (SM) defines time-invariant relations between objects (for example, inheritance).
+The Dynamic Model (DM) specifies the communication between objects and the state transitions of objects.
+The Behavior Model (BM) defines the relations between the respective behaviors of objects.
+The design rationale component provides a top-down representation of the system, giving a broad view that encompasses the three design models and documents the rationale for major design evolutions.
+Each model represents a different cross section of the design. The three design models capture all the information represented in a design project, and the design rationale documents the reasoning behind the design. Each model is supported by a graphical syntax that highlights the design decisions that must be made and their impact on other perspectives of the design. To facilitate use, the graphical syntax is identical among the three models.

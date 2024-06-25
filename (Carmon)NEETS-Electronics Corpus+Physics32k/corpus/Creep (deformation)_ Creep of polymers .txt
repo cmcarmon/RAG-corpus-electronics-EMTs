@@ -1,0 +1,87 @@
+Creep can occur in polymers and metals which are considered viscoelastic materials. When a polymeric material is subjected to an abrupt force, the response can be modeled using the Kelvin-Voigt model. In this model, the material is represented by a Hookean spring and a Newtonian dashpot in parallel. The creep strain is given by the following convolution integral:
+
+
+
+
+ε
+(
+t
+)
+=
+σ
+
+C
+
+0
+
+
++
+σ
+C
+
+∫
+
+0
+
+
+∞
+
+
+f
+(
+τ
+)
+(
+1
+−
+exp
+⁡
+[
+−
+t
+
+/
+
+τ
+]
+)
+
+
+d
+
+τ
+
+
+{\displaystyle \varepsilon (t)=\sigma C_{0}+\sigma C\int _{0}^{\infty }f(\tau )(1-\exp[-t/\tau ])\,\mathrm {d} \tau }
+
+where:
+σ = applied stress
+C0 = instantaneous creep compliance
+C = creep compliance coefficient
+
+
+
+
+τ
+
+
+{\displaystyle \tau }
+= retardation time
+
+
+
+
+f
+(
+τ
+)
+
+
+{\displaystyle f(\tau )}
+= distribution of retardation times
+When subjected to a step constant stress, viscoelastic materials experience a time-dependent increase in strain. This phenomenon is known as viscoelastic creep.
+At a time t0, a viscoelastic material is loaded with a constant stress that is maintained for a sufficiently long time period. The material responds to the stress with a strain that increases until the material ultimately fails. When the stress is maintained for a shorter time period, the material undergoes an initial strain until a time t1 at which the stress is relieved, at which time the strain immediately decreases (discontinuity) then continues decreasing gradually to a residual strain.
+Viscoelastic creep data can be presented in one of two ways. Total strain can be plotted as a function of time for a given temperature or temperatures. Below a critical value of applied stress, a material may exhibit linear viscoelasticity. Above this critical stress, the creep rate grows disproportionately faster. The second way of graphically presenting viscoelastic creep in a material is by plotting the creep modulus (constant applied stress divided by total strain at a particular time) as a function of time. Below its critical stress, the viscoelastic creep modulus is independent of stress applied. A family of curves describing strain versus time response to various applied stress may be represented by a single viscoelastic creep modulus versus time curve if the applied stresses are below the material's critical stress value.
+Additionally, the molecular weight of the polymer of interest is known to affect its creep behavior. The effect of increasing molecular weight tends to promote secondary bonding between polymer chains and thus make the polymer more creep resistant. Similarly, aromatic polymers are even more creep resistant due to the added stiffness from the rings. Both molecular weight and aromatic rings add to polymers' thermal stability, increasing the creep resistance of a polymer.
+Both polymers and metals can creep. Polymers experience significant creep at temperatures above ca. –200 °C; however, there are three main differences between polymeric and metallic creep.
+Polymers show creep basically in two different ways. At typical work loads (5 up to 50%) ultra high molecular weight polyethylene (Spectra, Dyneema) will show time-linear creep, whereas polyester or aramids (Twaron, Kevlar) will show a time-logarithmic creep.

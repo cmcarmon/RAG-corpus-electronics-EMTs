@@ -1,0 +1,23 @@
+Transistor Sizing
+While building a library, it is quite useful to design the com-
+ponents with different sizes for a wide range of gate loads; each
+component is thus sized to optimally drive a certain load.
+Transistor sizing at the circuit level complements design tech-
+niques at the gate level, where logic level sizing can help the
+synthesis tool in selecting the component with optimum sizing
+for low-power consumption. Another sizing example is to
+effectively drive a large load from a source with low driving
+capability. One could insert a large buffer between the driving
+circuit and the load to effectively drive the load, but this
+solution will not solve the problem; it will only change the
+problem to effectively drive the large buffer. A traditional
+solution for this problem is to use a chain of successively larger
+buffers, each driving an appropriate load, as shown in Figure
+5.19. Too many buffers result in more stages with large propa-
+gation delay and more capacitive nodes with more power
+consumption. On the other hand, two few buffers will lead
+to output slopes that are not steep, resulting in larger delays
+and more short circuit power consumption. One traditional
+solution to effectively drive the large load can be found in work
+by Mead and Conway (1980) as well as by Cong and Koh
+(1994).

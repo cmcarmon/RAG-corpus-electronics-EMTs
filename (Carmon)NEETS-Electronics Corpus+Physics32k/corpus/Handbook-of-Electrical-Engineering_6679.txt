@@ -1,0 +1,6 @@
+As we have mentioned previously, a layer is deﬁned by the types of services it provides to its users. In the
+ of the layer in
+case of a request or a response, these services are provided via invocation of 
+question by the layer that wants the service performed. In the case of an indication or a conﬁrm, these services
+are provided via invocation of service primitives of the layer in question by the same layer that wants the service
+performed.

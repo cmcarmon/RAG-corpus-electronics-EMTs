@@ -1,0 +1,6 @@
+(2.2.1)
+where the node voltages VA and VB are the voltage drops from A to O and B to O, respectively.
+With node O as reference, and with VA and VB as the node-voltage unknown variables, one can
+write the two independent KCL equations:
+VAG1 + (VA − VB )G3 = I1,
+VB G2 − (VA − VB )G3 = I2,

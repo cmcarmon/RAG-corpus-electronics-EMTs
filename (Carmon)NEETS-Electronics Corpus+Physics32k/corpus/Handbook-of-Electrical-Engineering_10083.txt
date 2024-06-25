@@ -1,0 +1,6 @@
+error  ec  are  used  to  adapt  the  neural  controller.  The  model  reference  approach  depicted  in  Fig. 100.62  is
+commonly  referred  to  as  implicit  model-following  in  adaptive  control  literature  [Narendra  and  Annaswamy,
+1989]. This type of model-following is performed when the dynamics of the closed-loop system are forced to
+asymptotically match the dynamics of the reference model. The method of explicit model-following is depicted
+in Fig. 100.63. In this case, the reference model acts as a preﬁlter, and the value of the system output is forced
+to asymptotically track the value of the reference model output [Narendra and Annaswamy, 1989].

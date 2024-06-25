@@ -1,0 +1,14 @@
+Recall that the propagation delay results from the finite amount of time
+required for the output to transition from a given valid output voltage level to
+another when the input to the circuit transitions. The slower transition at the
+output is attributable to RC effects. Figure 10.18 replaces the inverters with
+their internal circuits comprising MOSFETs and resistors. Figure 10.19 further
+replaces the MOSFETs with their SRC circuit model when vIN1 applied to the
+inverter A corresponds to a logical 1. For this vIN1, the MOSFET in inverter A
+will be on, and the MOSFET in inverter B will be off. Similarly, Figure 10.20
+shows the circuit model when vIN1 applied to inverter A corresponds to a
+logical 0. For this vIN1, the MOSFET in inverter A will be off, and the MOSFET
+in inverter B will be on. Thus, when alternating logical 1’s and 0’s are applied
+to the input to the inverter pair, and the inverters are allowed to reach steady
+state after each transition, the equivalent circuit model alternates between the
+two circuits in Figures 10.19 and 10.20.

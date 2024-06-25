@@ -1,0 +1,5 @@
+to prevent starvation by having an active card voluntarily
+release the bus periodically (‘‘bus on time’’). This device is
+to remain off the bus for a period of time (‘‘bus off-time’’)
+to give other devices, including the CPU, a chance even if
+they do not want it.

@@ -1,0 +1,35 @@
+Segmentation
+Most of the existing techniques in current CBIR systems
+depend heavily on a low-level feature-based description of
+image content. Most existing approaches represent images
+based only on their composition with little regard to spatial
+organization of the low-level features. On the other hand, users
+of the CBIR systems often would like to ﬁnd images containing
+particular objects (‘‘things’’). This gap between low-level de-
+scription of the image content and the object images represent
+can be ﬁlled by performing segmentation on images to be
+indexed. Segmentation subdivides an image into its constitu-
+ent parts or objects. Segmentation algorithms for mono-
+chrome images generally are based on one of two basic
+properties of gray-level values: discontinuity and similarity.
+In the ﬁrst category, the approach is to partition an image
+based on abrupt changes in gray level. The principal areas of
+interest in this category are detection of isolated points and
+detection of lines and edges in an image. The principal ap-
+proaches in the second category are based on thresholding,
+region growing, and region splitting and merging. The Blob-
+World system proposed by Carson et al. (1997) is based on
+segmentation using the expectation–maximization algorithm
+on combined color and texture features. It represents the
+image as a small set of localized coherent regions in color
+and texture spaces. After segmenting the image into small
+regions, a description of each region’s color, texture, and
+spatial characteristics is produced. Each image may be visual-
+ized by an ensemble of 2-D ellipses or ‘‘blobs,’’ each of which
+possesses a number of attributes. The number of blobs in an
+image is not very overwhelming to facilitate fast image retrieval
+applications and is typically less than ten. Each blob represents
+a region on the image that is roughly homogeneous with
+respect to color or texture. A blob is described by its dominant
+color, mean texture descriptors, spatial centroid, and scatter
+matrix. The exact retrieval process is then performed on the

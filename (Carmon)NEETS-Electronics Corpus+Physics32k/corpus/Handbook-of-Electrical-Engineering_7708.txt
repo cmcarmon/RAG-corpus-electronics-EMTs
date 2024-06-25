@@ -1,0 +1,6 @@
+FIGURE 80.12  Host-to-device pathways. For large IBM mainframes, the connection between host and device must pass
+through a channel, storage director, and string controller. Note that multiple storage directors can be attached to a channel,
+multiple string controllers per storage director, and multiple devices per string controller. This multipathing approach makes
+it  possible  to  share  devices  among  hosts  and  to  provide  alternative  pathways  to  better  utilize  the  drives  and  controllers.
+While logically correct, the ﬁgure does not reﬂect the true physical components of high-end IBM systems (308X, 3090). The
+concept of channel has disappeared from these systems and has been replaced by a channel path.

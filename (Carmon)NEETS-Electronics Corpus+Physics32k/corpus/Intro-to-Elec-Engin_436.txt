@@ -1,0 +1,7 @@
+The slew rate occurs because at some stage in the ampliﬁer a frequency-compensating
+capacitor will have to be charged, and the available limited charging current restricts the maximum
+rate of change of the capacitor voltage. With externally compensated op amps, such as the 709,
+slew rates will depend on the value of the compensating capacitors, which are in turn chosen
+on the basis of the closed-loop gain needed. The lower the gain, the higher the compensating
+capacitors, and hence the lower the slew rate. For a µA 709, the slew rate is 0.3 V/µs at A = 1
+and 1.5 V/µs at A = 10.

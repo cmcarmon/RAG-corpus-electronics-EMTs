@@ -1,0 +1,7 @@
+Block device I/O uses a buffer cache to reduce the number of
+disk accesses. An LRU algorithm is used to manage the cache.
+Character I/O can be done in raw or cooked mode, the latter of
+which is implemented by a line discipline. Line discipline acts
+like a ﬁlter, taking the raw character stream from the terminal
+driver, processing it, and producing what is called a cooked
+character stream.

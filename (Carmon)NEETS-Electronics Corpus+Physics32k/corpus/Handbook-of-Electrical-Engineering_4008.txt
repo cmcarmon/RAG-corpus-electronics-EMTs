@@ -1,0 +1,29 @@
+Bipolar Transistors
+A cross-sectional view of a bipolar transistor is shown in Fig. 39.14. The bipolar transistor consists of back-to-
+back  pn  junctions  arranged  in  a  sandwich  structure.  The  three  regions  are  designated  the  emitter,  base,  and
+collector. This type of device differs from the ﬁeld-effect transistors in that both electrons and holes are involved
+in  the  current  transport  process  (thus  the  designation  bipolar).  Two  structures  are  possible:  pnp  or  npn,
+depending upon the conductivity type common to both pn junctions. Generally, for microwave applications
+the npn structure is used since device operation is controlled by electron ﬂow. In general, electron transport
+is faster than that for holes, and npn transistors are capable of superior high-frequency performance compared
+to comparable pnp transistors. In operation, the base-emitter pn junction is forward biased and the collector-
+base pn junction is reverse biased. When an RF signal is applied to the base-emitter junction the junction allows
+a current to be injected into the base region. The current in the base region consists of minority charge carriers
+(i.e., carriers with the opposite polarity compared to the base material—electrons for an npn transistor). These
+charge carriers then diffuse across the base region to the base-collector junction, where they are swept across
+the junction by the large reverse bias electric ﬁeld. The reverse bias electric ﬁeld in the base-collector region is
+generally  made  sufﬁciently  large  that  the  carriers  travel  at  their  saturation  velocity.  The  transit  time  of  the
+charge carriers across this region is small, except for millimeter-wave transistors where the base-collector region
+transit time can be a signiﬁcant fraction of the total time required for a charge carrier to travel from the emitter
+through  the  collector.  The  operation  of  the  transistor  is  primarily  controlled  by  the  ability  of  the  minority
+charge carriers to diffuse across the base region. For this reason microwave transistors are designed with narrow
+base  regions  in  order  to  minimize  the  time  required  for  the  carriers  to  travel  through  this  region.  The  base
+region transit time is generally the limiting factor in determining the high-frequency capability of the transistor.
+The  gain  of  the  transistor  is  also  signiﬁcantly  affected  by  minority  carrier  behavior  in  the  base  region.  The
+density of minority carriers is signiﬁcantly smaller than the density of majority carriers (majority carrier density
+is  approximately  equal  to  the  impurity  doping  density)  for  typical  operating  conditions  and  the  probability
+that the minority charge will recombine with a majority carrier is high. If recombination occurs, the minority
+charge cannot reach the base-collector junction but appears as base current. This, in turn, reduces the current
+gain capability of the transistor. Narrow base regions reduce the semiconductor volume where recombination
+can occur and, therefore, result in increased gain. Modern microwave transistors typically have base regions
+on the order of 0.1–0.25 mm.

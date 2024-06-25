@@ -1,0 +1,10 @@
+Note that in delaying the signal how we carefully included the unit step. The second term in this
+result does not begin until t = ∆. Thus, the waveforms shown in the Filtering Periodic Signals
+example (Figure 4.10) mentioned above are exponentials. We say that the time constant of an
+exponentially decaying signal equals the time it takes to decrease by 1/e of its original value. Thus,
+the time-constant of the rising and falling portions of the output equal the product of the circuit’s
+resistance and capacitance.
+Exercise 4.16
+(Solution on p. 140.)
+Derive the ﬁlter’s output by considering the terms in (4.41) in the order given. Integrate last rather
+than ﬁrst. You should get the same answer.

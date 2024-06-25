@@ -1,0 +1,6 @@
+In hierarchical and network models, the existence of physical pointers (links) to link related records allows
+an application program to retrieve a single record at a time by following the pointer’s chain. The process of
+In nonnavigational
+following the pointer’s chain and selecting one record at a time is referred to as 
+models  such  as  the  relational  model,  records  are  not  related  through  pointer’s  chains,  but  relationships  are
+established by matching columns in different tables.

@@ -1,0 +1,10 @@
+Stability: An equilibrium state x of a system is stable if there is an e0 > 0 with the following property: for all
+**  < e, then ** x – x(t) ** < e1 for all t > t0. A system is
+e1, 0 < e1 < e0, there is an e > 0 such that if ** x – x0
+stable if the poles of its closed-loop transfer function are (1) in the left half of the complex frequency
+plane, called the s-plane (inside the unit circle of the z-plane for discrete systems), or (2) on the imaginary
+axis, and all of the poles on the imaginary axis are single (on the unit circle and all such poles are single
+for  discrete  systems).  Stability  for  a system  with  repeated  poles  on  the  j  w  axis  (the  unit  circle)  is
+complicated and is examined in the discussion after Theorem 12.5. In the electrical engineering literature,
+this deﬁnition of stability is sometimes called marginal stability and sometimes stability in the sense of
+Lyapunov.

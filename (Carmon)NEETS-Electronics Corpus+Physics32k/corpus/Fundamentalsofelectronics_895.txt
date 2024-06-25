@@ -1,0 +1,9 @@
+Figure 6.22: In a (3,1) repetition code, only two of the possible eight three-bit data blocks are codewords.
+We can represent these bit patterns geometrically with the axes being bit positions in the data block. In
+the left plot, the ﬁlled circles represent the codewords [0 0 0] and [1 1 1], the only possible codewords.
+The unﬁlled ones correspond to the transmission. The center plot shows that the distance between
+codewords is three. Because distance corresponds to ﬂipping a bit, calculating the Hamming distance
+geometrically means following the axes rather than going “as the crow ﬂies.” The right plot shows the
+data words that result when one error occurs as the codeword goes through the channel. The three data
+words are unit distance from the original codeword. Note that the received data word groups do not
+overlap, which means the code can correct all single-bit errors.

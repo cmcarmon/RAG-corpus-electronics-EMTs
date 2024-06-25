@@ -1,0 +1,7 @@
+Proper considerations to matching inputs to outputs of the connected templates are required when using
+templates. Take, for example, a template of the above dc motor simulation. Such a template will require inputs
+of Va, vf, and Tmech to produce outputs of Ia, if, ﬂux, and rotor speed. On the mechanical side, the motor template
+has to be interfaced to the simulation of the mechanical prime mover or load for its remaining input of Tmech.
+In the case of a simple load, the load torque, Tmech, could be constant or some simple function of rotor speed,
+as shown in Fig. 66.32. On the electrical side, the motor template has to be interfaced to the templates of the
+power supplies to the armature and ﬁeld windings for its inputs of Va and vf. These voltages can come from

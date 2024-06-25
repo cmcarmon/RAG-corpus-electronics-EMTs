@@ -1,0 +1,314 @@
+The failure rate can be defined as the following:
+The total number of failures within an item population, divided by the total time expended by that population, during a particular measurement interval under stated conditions. (MacDiarmid, et al.)
+Although the failure rate,
+
+
+
+λ
+(
+t
+)
+
+
+{\displaystyle \lambda (t)}
+, is often thought of as the probability that a failure occurs in a specified interval given no failure before time
+
+
+
+t
+
+
+{\displaystyle t}
+, it is not actually a probability because it can exceed 1. Erroneous expression of the failure rate in % could result in incorrect perception of the measure, especially if it would be measured from repairable systems and multiple systems with non-constant failure rates or different operation times. It can be defined with the aid of the reliability function, also called the survival function,
+
+
+
+R
+(
+t
+)
+
+
+{\displaystyle R(t)}
+, the probability of no failure before time
+
+
+
+t
+
+
+{\displaystyle t}
+.
+
+
+
+
+h
+(
+t
+)
+=
+
+
+
+f
+(
+t
+)
+
+
+R
+(
+t
+)
+
+
+
+
+
+{\displaystyle h(t)={\frac {f(t)}{R(t)}}}
+, where
+
+
+
+f
+(
+t
+)
+
+
+{\displaystyle f(t)}
+is the time to (first) failure distribution (i.e. the failure density function) and
+
+
+
+R
+(
+t
+)
+=
+1
+−
+F
+(
+t
+)
+
+
+{\displaystyle R(t)=1-F(t)}
+.
+
+
+
+
+h
+(
+t
+)
+=
+
+
+
+R
+(
+
+t
+
+1
+
+
+)
+−
+R
+(
+
+t
+
+2
+
+
+)
+
+
+(
+
+t
+
+2
+
+
+−
+
+t
+
+1
+
+
+)
+⋅
+R
+(
+
+t
+
+1
+
+
+)
+
+
+
+=
+
+
+
+R
+(
+t
+)
+−
+R
+(
+t
++
+Δ
+t
+)
+
+
+Δ
+t
+⋅
+R
+(
+t
+)
+
+
+
+
+
+
+{\displaystyle h(t)={\frac {R(t_{1})-R(t_{2})}{(t_{2}-t_{1})\cdot R(t_{1})}}={\frac {R(t)-R(t+\Delta t)}{\Delta t\cdot R(t)}}\!}
+
+
+over a time interval
+
+
+
+(
+
+t
+
+2
+
+
+−
+
+t
+
+1
+
+
+)
+
+
+{\displaystyle (t_{2}-t_{1})}
+from
+
+
+
+
+t
+
+1
+
+
+
+
+{\displaystyle t_{1}}
+(or
+
+
+
+t
+
+
+{\displaystyle t}
+) to
+
+
+
+
+t
+
+2
+
+
+
+
+{\displaystyle t_{2}}
+and
+
+
+
+Δ
+t
+
+
+{\displaystyle \Delta t}
+is defined as
+
+
+
+(
+
+t
+
+2
+
+
+−
+
+t
+
+1
+
+
+)
+
+
+{\displaystyle (t_{2}-t_{1})}
+. Note that this is a conditional probability, hence the
+
+
+
+R
+(
+t
+)
+
+
+{\displaystyle R(t)}
+in the denominator.
+The
+
+
+
+h
+(
+t
+)
+
+
+{\displaystyle h(t)}
+function is a CONDITIONAL probability of the failure DENSITY function. The condition is that the failure has not occurred at time
+
+
+
+t
+
+
+{\displaystyle t}
+.
+Hazard rate and ROCOF (rate of occurrence of failures) are often incorrectly seen as the same and equal to the failure rate.  To clarify; the more promptly items are repaired, the sooner they will break again, so the higher the ROCOF. The hazard rate is however independent of the time to repair and of the logistic delay time.

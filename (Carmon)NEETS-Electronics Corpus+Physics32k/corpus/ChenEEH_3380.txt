@@ -1,0 +1,11 @@
+Let us assume that the system has N generators like before,
+and the total number of busses including generator and load
+busses is M. To simplify the notation, bus number 1 is assumed
+to be the slack bus. Busses 2 to N are the PV busses, and busses
+numbered N þ 1 through M are PQ busses. The slack bus
+generation PGI becomes a dependent variable, while the
+remaining generations PG2 through PGN are the control vari-
+ables for the minimization. Real and reactive loads are de-
+noted by PDi and QDi, respectively. Suppose the ith or jth
+entry Y ij of the Y bus matrix has the magnitude Yij and the
+phase gij.

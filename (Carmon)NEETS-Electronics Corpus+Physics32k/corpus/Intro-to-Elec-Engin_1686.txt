@@ -1,0 +1,13 @@
+The block diagram of Figure 16.3.10 illustrates a typical microprocessor system used to
+implement the digital PI controller. It would be simple to include the derivative operation to
+implement the PID controller. While an analog timer is shown in Figure 16.3.10 to determine
+the start of the next sampling period, a software timing loop can be used to keep track of when
+T seconds have elapsed. The output pulse, once every T seconds, is applied to the interrupt
+line of the microprocessor. This will cause the processor to execute the interrupt routine to
+output the next value of the control, u[(k + 1)T ], which is sent to the D/A converter, whose
+output in turn controls the power ampliﬁer. The timing pulse from the timer is also sent to the
+“sample” command line, thereby triggering the sample-and-hold circuitry; the motor velocity
+ω(t) is sampled and held constant for one sampling period. The value of ω(kT) is then converted
+to an N-bit binary number by the A/D circuitry. The microprocessor is signaled via “data ready”
+line (which may be attached to the interrupt line of the microprocessor) that the sampled data
+have been converted. The second interrupt will cause the processor to read in the value of

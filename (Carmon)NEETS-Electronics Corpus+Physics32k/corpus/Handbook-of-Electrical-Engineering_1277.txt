@@ -1,0 +1,7 @@
+Sinusoidal Signal Identiﬁcation
+In  a  surprisingly  large  number  of  important  signal  processing  applications,  the  primary  objective  is  that  of
+identifying sinusoidal components in noise-corrupted data. For example, multiple plane waves incident on an
+equispaced linear array produce complex sinusoidal steering vectors. To identify sinusoidal signals in data, a
+widely employed procedure is to ﬁrst form the data matrix whose upper and lower halves correspond to the
+forward and backward prediction equations associated with the data, respectively. If the data under analysis is
+speciﬁed by x(1), x(2), . . ., x(N), the associated forward-backward data matrix then takes the form

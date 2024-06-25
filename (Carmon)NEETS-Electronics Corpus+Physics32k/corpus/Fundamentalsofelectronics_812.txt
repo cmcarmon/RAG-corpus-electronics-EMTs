@@ -1,0 +1,8 @@
+6.13 Digital Communication15
+Eﬀective, error-free transmission of a sequence of bits—a bit stream {b (0) , b (1) , . . .}—is the goal here. We
+found that analog schemes, as represented by amplitude modulation, always yield a received signal containing
+noise as well as the message signal when the channel adds noise. Digital communication schemes are very
+diﬀerent. Once we decide how to represent bits by analog signals that can be transmitted over wireline
+(like a computer network) or wireless (like digital cellular telephone) channels, we will then develop a way
+of tacking on communication bits to the message bits that will reduce channel-induced errors greatly. In
+theory, digital communication errors can be zero, even though the channel adds noise!

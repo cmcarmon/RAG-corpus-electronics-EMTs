@@ -1,0 +1,11 @@
+Image Quality and Visual Perception
+An  important  factor  in  designing  video  signal  processing  algorithms  is  that  the  ﬁnal  receiver  of  the  video
+information is typically a human observer. This has an impact on how the quality of the ﬁnal signal is assessed
+and how the processing should be performed. If our objective is video transmission over a limited bandwidth
+channel, we do not want to waste unnecessary bits on information that cannot be seen by the human observer.
+In addition, it is undesirable to introduce artifacts that are particularly annoying to the human viewer. Unfor-
+tunately,  there  are  no  perfect  quantitative  measures  of  visual  perception.  The  human  visual  system  is  quite
+complicated. In spite of the advances that have been made, no complete model of human perception exists.
+Therefore, we often have to rely on subjective testing to evaluate picture quality. Although no comprehensive
+model  of  human  vision  exists,  certain  functions  can  be  characterized  and  then  used  in  designing  improved
+solutions. For more information, see Netravali and Haskell [1988].

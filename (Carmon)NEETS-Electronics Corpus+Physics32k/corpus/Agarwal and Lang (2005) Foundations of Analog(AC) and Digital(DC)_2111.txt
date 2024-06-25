@@ -1,0 +1,18 @@
+The symbol and standard labeling for the operational amplifier are shown in
+Figure 15.3a. The two required external power supplies have been explicitly
+shown in the diagram, although showing them is not the usual practice. All five
+currents have been labeled, in addition to appropriate node voltages, referred to
+the indicated common ground terminal. In this primitive circuit, the voltage vi
+is used to control the output voltage vo. Let us examine this control function in
+detail to find out both the extent of the control, and the cost of the control; that
+is, how much power must be applied from source vi to control a given amount
+of power at the vo terminal. To address the first problem, we set up the circuit
+exactly as in Figure 15.3, and measure the output voltage vo, both as a function
+of time and as a function of vi, assuming vi is some low-frequency sinusoid.
+The results are shown in Figures 15.3b and 15.3c. Note the difference in scale
+of the voltage axes, indicating that the output voltage is perhaps 300,000 times
+as large as the input voltage. The plot of vo versus vi shows a region around
+the origin where vo is fairly linearly related to vi, but much beyond this range
+the control becomes ineffective, and vo stays at a fixed voltage, or saturates, at
+roughly either +12 volts or −12 volts, depending on the polarity of vi. The
+curves will also differ for different samples of the same Op Amp type.

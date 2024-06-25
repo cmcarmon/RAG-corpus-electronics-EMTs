@@ -1,0 +1,6 @@
+header.msg_simple = TRUE;
+header.msg_size = sizeof(header);
+header.msg_type = MSG_TYPE_NORMAL;
+header.msg_local_port = PORT_NULL;
+header.msg_remote_port = remote_port;
+header.msg_id = 100;

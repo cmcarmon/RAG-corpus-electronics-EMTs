@@ -1,0 +1,12 @@
+biquad (see Figure 4.6 without the summer). As a result, we
+conclude that the performance of this simulated ladder can
+be expected to be similarly insensitive to the op-amp’s ﬁnite
+gain-bandwidth products. Using 741-type op-amps with
+ft  1:5 MHz, the performance of the active circuit is accept-
+able to over 300 kHz, and the performance of the two circuits
+in Figure 4.15(A) and 4.15(C) is experimentally indistinguish-
+able until about 90 kHz when the op-amp effects begin to be
+noticeable. As a ﬁnal comment, observe that the output Vout
+in the active realization is inverting. If this phase shift of
+1808 is not acceptable, the output may be taken at the node
+labeled V2.

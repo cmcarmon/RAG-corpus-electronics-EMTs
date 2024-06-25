@@ -1,0 +1,6 @@
+Another BCD code that is used for number representation and manipulation is called excess 3 BCD (or XS3
+NBCD,  or  simply  XS3).  XS3  is  an  example  of  a  biased-weighted  code  (a  bias  of  3).  This  code  is  formed  by
+adding 00112 (= 310) to the NBCD bit patterns in Table 86.2. Thus, to convert XS3 to NBCD code, 0011 must
+be subtracted from XS3 code. In four-bit quantities the XS3 code has the useful feature that when adding two
+numbers  together  in  XS3  notation  a  carry  will  result  and  yield  the  correct  value  any  time  a  carry  results  in
+decimal (i.e., when 9 is exceeded). This feature is not shared by either natural binary or NBCD addition.

@@ -1,0 +1,4 @@
+Figure 5.17: The original speech segment and the sequence of overlapping Hanning windows applied
+to it are shown in the upper portion. Frames were 256 samples long and a Hanning window was applied
+with a half-frame overlap. A length-512 FFT of each frame was computed, with the magnitude of the
+ﬁrst 257 FFT values displayed vertically, with spectral amplitude values color-coded.

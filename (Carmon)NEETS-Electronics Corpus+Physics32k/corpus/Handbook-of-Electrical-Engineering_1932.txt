@@ -1,0 +1,4 @@
+elements converts the signal ﬂow graph to an acyclic precedence graph. By placing latches to pipeline a data
+ﬂow graph, we can alter the acyclic precedence graph. In particular, the critical path of the acyclic precedence
+graph  can  be  reduced.  The  new  precedence  graph  can  be  used  to  construct  schedules  with  lower  iteration
+periods (although this may often require an increase in the number of processors).

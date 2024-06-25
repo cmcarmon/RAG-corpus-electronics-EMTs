@@ -1,0 +1,10 @@
+Figure 44-8 shows a 4-bit latch. The unit has four 
+D flip-flops enclosed in a single IC package. The E 
+ (enable) inputs are similar to the clock input of the 
+D flip-flop. The data are latched when the enable line 
+drops to a low, or 0. When the enable is high, or 1, the 
+output follows the input. This means that the output 
+will change to whatever state the input is in; for exam-
+ple, if the input is high, the output will become high; if 
+the input is low, the output will become low. This con-
+dition is referred to as a transparent latch.

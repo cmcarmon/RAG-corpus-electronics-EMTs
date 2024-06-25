@@ -1,0 +1,10 @@
+Active Star Networks: Ethernet, Datakit®
+Carrier  sense  multiple  access  with  collision  detection  (CSMA/CD)  Ethernet  networks  operating  at  10  Mb/s
+connect users on a copper bus. The length of the bus must be less than 1/2 the distance light propagates in the
+time required to transmit a packet frame. Thus, for speeds much greater than 10 Mb/s, where optics might be
+needed, the length of the bus will be limited unless the maximum frame contains an impractically large number
+of  bits.  Further,  the  number  of  stations  that  can  be  supported  by  an  optical  bus  is  limited  by  the  nature  of
+optical taps, as opposed to electrical taps [Kaminow, 1989]. Finally, the collision detection algorithm does not
+work  well  on  an  optical  bus  because  the  intensities  of  optical  packets  from  two  different  stations  may  vary
+considerably along the bus. Thus, an active electronic star, as shown in Fig. 71.9, with optical data links from
+users is often employed.

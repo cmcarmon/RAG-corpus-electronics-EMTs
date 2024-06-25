@@ -1,0 +1,7 @@
+Let us assume that the input signal has symmetric peak-to-peak swings
+about the DC offset. In other words, we will assume an equal magnitude for
+both the positive and negative excursions of the time-varying signal from the
+DC offset, as is the case for the input signal vIN in Figure 7.35 (but not for the
+output signal vO). To obtain maximum useful input signal range, we might
+choose the input bias voltage VIN to be at the center of the valid range of input
+voltages for the amplifier, as illustrated in Figure 7.42.

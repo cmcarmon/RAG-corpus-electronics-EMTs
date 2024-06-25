@@ -1,0 +1,9 @@
+Current FDTD and related space-grid time-domain algorithms
+are fully explicit solvers employing highly vectorizable and
+parallel schemes for time-marching the six components of
+the electric and magnetic ﬁeld vectors at each of the space
+cells. The explicit nature of the solvers is usually maintained by
+employing a leapfrog time-stepping scheme. Current methods
+differ primarily in how the space lattice is set up. In fact,
+gridding methods can be categorized according to the degree
+of structure or regularity in the mesh cells.

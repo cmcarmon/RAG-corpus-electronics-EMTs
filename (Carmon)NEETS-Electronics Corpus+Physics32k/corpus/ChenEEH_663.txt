@@ -1,0 +1,8 @@
+1. Read-only and read or write (R/W) access: Some
+memories are used only to store constant data, such
+as read-only memories or ROMs. Good alternatives
+include programmable logic arrays (PLA) or multilevel
+logic circuits, especially when the amount of data is
+relatively small. In most cases, data needs to be over-
+writable at high speeds, which means that read and
+write are treated with the same priority (R/W access),

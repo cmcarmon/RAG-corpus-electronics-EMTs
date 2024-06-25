@@ -1,0 +1,7 @@
+Let us examine the difference amplifier using its small-signal model shown in Figure 8.29.
+Notice that an ideal current source acts like an open circuit, but a current source with an
+internal Norton equivalent resistance Ri behaves like a resistor to incremental changes
+in its terminal variables. The MOSFETs are replaced by their small equivalent current
+sources. The voltages vgs1 and vgs2 are the small-signal voltages between the gate and
+source of the two input MOSFETs resulting from a small change in the input voltages
+vA and vB.

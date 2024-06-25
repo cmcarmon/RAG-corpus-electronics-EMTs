@@ -1,0 +1,12 @@
+In  most  cases  of  practical  interest  the  physical  layer  of  the  communication  system  will  use  continuous  time
+(CT) signals, while the simulation will operate in discrete time (DT). For the simulation to be useful, one must
+develop DT signals and systems that closely match their CT counterparts. This topic is discussed at length in
+introductory DSP texts. A prominent result in this ﬁeld is the Nyquist sampling theorem, which states that if
+ the same
+a CT signal has no energy above frequency 
+  samples  per  second.  Since  the  execution
+information  by  sampling  the  CT  signal  at  any  rate  in  excess  of  2 
+time of the simulation is proportional to the number of samples it must process, one naturally uses the lowest
+sampling rate possible. While the Nyquist theorem should not be violated for arbitrary signals, when the CT
+signal is bandpass one can use low-pass equivalent (LPE) waveforms that contain all the information of the
+CT signal but can be sampled slower than 2 

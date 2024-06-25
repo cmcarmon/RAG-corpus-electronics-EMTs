@@ -1,0 +1,10 @@
+In figure 1-47, the rf carrier is applied to the base of modulator Q1. The modulating signal is applied 
+to the collector in series with the collector supply voltage through T3. The output is then taken from the 
+secondary of T2. With no modulating signal, Q1 acts as an rf amplifier for the carrier frequency. When 
+the modulation signal is applied, it adds to or subtracts from the collector supply voltage. This causes the 
+rf current pulses of the collector to vary in amplitude with the collector supply voltage. These collector 
+current pulses cause oscillations in the tank circuit (C4 and the primary of T2). The tank circuit is tuned to 
+the carrier frequency. During periods when the collector current is high, the tank circuit oscillates 
+strongly. At times when the collector current is small, or entirely absent, little or no energy is supplied to 
+the tank and oscillations become weak or die out. Thus, the modulation envelope is developed as it was in 
+a plate modulator. 

@@ -1,0 +1,10 @@
+The obvious drawback of direct moment-method models as Nx increases with increasing problem size and/or
+complexity suggests the need for less computationally intensive alternatives. There are various alternatives for
+decreasing the computer cost associated with solving electromagnetic problems using the method of moments.
+The basic intent in any case is either to reduce the direct cost of performing a given modeling computation or
+to reduce the number of modeling computations needed to obtain a desired result. An example for achieving
+the latter is to employ lower-order models that can accurately enough represent the behavior of observables as
+a function of space, angle, frequency, or time so that the sampling density of the ﬁrst-principles model can be
+reduced. A speciﬁc example is used of the rational functions to approximate frequency-domain transfer func-
+tions. These might include analytical, computational, and experimental approaches or combinations thereof,
+about which further discussion and references may be found in Miller [1988].

@@ -1,0 +1,13 @@
+(a result that an experienced analyst of RC circuits would have written down
+directly). Waveforms appropriate to these equations are shown in Figure 15.29c.
+An important issue of circuit performance is how long it takes the circuit
+to recover from the effects of saturation. To this end, assume that the input
+step is now reversed in polarity. The Op Amp will still be held in saturation by
+−
+the large positive voltage on the v
+terminal, and will remain in saturation until
+−
+v
+has decayed virtually to zero. Figure 15.29b remains the appropriate circuit
+representation for this interval. Thus with vi = −V,
+−t/RC

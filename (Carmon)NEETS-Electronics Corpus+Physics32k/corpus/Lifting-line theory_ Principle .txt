@@ -1,0 +1,210 @@
+The lifting-line theory applies the concept of circulation and the Kutta–Joukowski theorem,
+
+
+
+
+
+
+
+
+L
+~
+
+
+
+
+(
+y
+)
+
+
+=
+ρ
+V
+
+Γ
+
+(
+y
+)
+
+
+
+
+{\displaystyle {\tilde {L}}_{(y)}=\rho V\Gamma _{(y)}}
+
+so that instead of the lift distribution function, the unknown effectively becomes the distribution of circulation over the span,
+
+
+
+
+Γ
+
+(
+y
+)
+
+
+
+
+{\displaystyle \Gamma _{(y)}}
+.
+Modeling the (unknown and sought-after) local lift with the (also unknown) local circulation allows us to account for the influence of one section over its neighbors. In this view, any span-wise change in lift is equivalent to a span-wise change of circulation. According to Helmholtz's theorems, a vortex filament cannot begin or terminate in the air. Any span-wise change in lift can be modeled as the shedding of a vortex filament down the flow, behind the wing.
+This shed vortex, whose strength is the derivative of the (unknown) local wing circulation distribution,
+
+
+
+
+
+
+d
+⁡
+Γ
+
+
+d
+⁡
+y
+
+
+
+
+
+{\displaystyle {\operatorname {d} \Gamma  \over \operatorname {d} y}}
+, influences the flow left and right of the wing section.
+This sideways influence (upwash on the outboard, downwash on the inboard) is the key to the lifting-line theory. Now, if the change in lift distribution is known at given lift section, it is possible to predict how that section influences the lift over its neighbors: the vertical induced velocity (upwash or downwash,
+
+
+
+
+ω
+
+i
+
+
+
+
+{\displaystyle \omega _{i}}
+) can be quantified using the velocity distribution within a vortex, and related to a change in effective angle of attack over neighboring sections.
+In mathematical terms, the local induced change of angle of attack
+
+
+
+
+α
+
+i
+
+
+
+
+{\displaystyle \alpha _{i}}
+on a given section can be quantified with the integral sum of the downwash induced by every other wing section. In turn, the integral sum of the lift on each downwashed wing section is equal to the (known) total desired amount of lift.
+This leads to an integro-differential equation in the form of
+
+
+
+
+L
+
+t
+o
+t
+a
+l
+
+
+=
+ρ
+
+V
+
+∞
+
+
+
+∫
+
+t
+i
+p
+
+
+t
+i
+p
+
+
+
+Γ
+
+(
+y
+)
+
+
+d
+⁡
+y
+
+
+{\displaystyle L_{total}=\rho V_{\infty }\int _{tip}^{tip}\Gamma _{(y)}\operatorname {d} y}
+where
+
+
+
+
+Γ
+
+(
+y
+)
+
+
+
+
+{\displaystyle \Gamma _{(y)}}
+is expressed solely in terms of the wing geometry and its own span-wise variation,
+
+
+
+
+
+
+d
+⁡
+
+Γ
+
+(
+y
+)
+
+
+
+
+d
+⁡
+y
+
+
+
+
+
+{\displaystyle {\operatorname {d} \Gamma _{(y)} \over \operatorname {d} y}}
+. The solution to this equation is a function,
+
+
+
+
+Γ
+
+(
+y
+)
+
+
+
+
+{\displaystyle \Gamma _{(y)}}
+, that accurately describes the circulation (and therefore lift) distribution over a finite wing of known geometry.

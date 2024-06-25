@@ -1,0 +1,26 @@
+Temporal Motion Features
+Video is a medium that is very rich in dynamic content.
+Motion stands out as the most distinguishing feature for
+indexing video data. Motion cue is hard to extract since com-
+putation of the motion trail often involves generation of
+optical ﬂow. The problem of computing optical ﬂow between
+successive frames of the image sequence is recognized to be
+computationally intensive, so few systems use motion cue
+to a full extent. The optical ﬂow represents a 2-D ﬁeld
+of instantaneous velocities corresponding to each pixel
+in
+the image sequence. Instead of computing the ﬂow directly
+on image brightness values, it is also possible to ﬁrst process
+the raw image sequence for contrast, entropy, or spatial deriva-
+tives. The computation of optical ﬂow can then be performed
+on these transformed pixel brightness values instead of on the
+original images in an effort to reduce the computational over-
+head. In either case, a relatively dense ﬂow ﬁeld is obtained at
+each pixel in the image sequence. Another approach to esti-
+mating object motion in the scene can be performed by using a
+feature-matching based method. This approach involves com-
+putation of relatively sparse but highly discriminatory features
+in a frame. The features can be points, lines, or curves and are
+extracted from each frame of the video sequence. Interframe
+correspondence is then established between these features to
+compute the motion parameters in the video sequence.

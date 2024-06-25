@@ -1,0 +1,6 @@
+3. Testing of the RAM block itself is difﬁcult since controlling its inputs and observing its outputs require
+manipulating  the  upstream  and  downstream  logic  circuit  blocks,  which  may  be  difﬁcult  to  achieve.
+Solution to this problem involves providing adequate control of the RAM block inputs (data, address,
+and read/write control) as well as providing observability of the RAM outputs. In effect, the embedded
+RAM block can be made testable as if it was a stand-alone block where established memory test algorithms
+can be applied [Breuer and Friedman, 1976].

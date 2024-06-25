@@ -1,0 +1,7 @@
+The DCF77 station signal carries an amplitude-modulated, pulse-width coded 1 bit/s data signal. The same data signal is also phase modulated onto the carrier using a 512 bit long pseudorandom sequence (direct-sequence spread spectrum modulation). The transmitted data signal is repeated every minute.
+Current date and time bits;
+Leap second warning bit;
+Imminent change of CET to CEST, or vice versa, Announcement bit;
+Central European Time (CET) / Central European Summer Time (CEST) bit;
+Abnormal transmitter operation identification bit;
+Several parity bits.

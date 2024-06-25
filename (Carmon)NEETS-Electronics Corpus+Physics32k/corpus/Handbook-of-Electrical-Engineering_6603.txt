@@ -1,0 +1,7 @@
+In  the  module,  packets  are  formed  and  stored  with  a  header  that  contains  the  source  address.  When  the
+packet is complete (it has the full number of bytes, or a ﬁxed waiting period for added bytes has passed), the
+module transmits its binary address on the contention bus while listening for bits transmitted by others. If the
+module transmits a 1 and hears a 1, it transmits the next address bit. But if it transmits a 0 and hears a 0, it
+transmits the next bit; and, if it transmits a 0 and hears a 1, it stops transmission, having lost the contention.
+This  process  is  equivalent  to  a  logical  OR  operation  and  assigns  the  contention  to  the  highest  address.  The
+winner transmits the packet on the contention bus in the next time frame.

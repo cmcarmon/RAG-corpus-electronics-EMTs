@@ -1,0 +1,8 @@
+First, observe that the resistor-diode (D1 and D2) voltage divider establishes a reference voltage of –0.55 V
+at the base of T3, which translates to –1.35 V at the base of T2. When either or both of the inputs A and B are
+at the logical 1 level of –0.9 V, the emitters of T1A, T1B, and T2 will be 0.8 V lower, at –1.7 V. This establishes
+the  base-emitter  voltage  of T2  at  –1.35  –  (–1.7  )  =  0.35 V,  so T2  is  cut  off. With T2  off, T4  is  biased  into  the
+active region, and its emitter will be at about –0.9 V, corresponding to a logical 1 at the (A + B) output. Most
+of the current through the 365-W emitter resistor, which is [–1.7 – (–5.2)]/0.365 = 9.6 mA, ﬂows through the
+100-W collector resistor, dropping the base voltage of T5 to –0.96 V. Thus the voltage level at the output terminal
+designated (A + B) is –1.76 V, corresponding to a logical 0.

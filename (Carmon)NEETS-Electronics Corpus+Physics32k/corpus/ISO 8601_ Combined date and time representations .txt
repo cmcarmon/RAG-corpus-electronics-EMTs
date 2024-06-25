@@ -1,0 +1,3 @@
+A single point in time can be represented by concatenating a complete date expression, the letter T as a delimiter, and a valid time expression. For example, "2007-04-05T14:30".
+If a time zone designator is required, it follows the combined date and time. For example, "2007-04-05T14:30Z" or "2007-04-05T12:30-02:00".
+Either basic or extended formats may be used, but both date and time must use the same format. The date expression may be calendar, week, or ordinal, and must use a complete representation. The time may be represented using a specified reduced accuracy format. It is permitted to omit the 'T' character by mutual agreement.

@@ -1,0 +1,13 @@
+There are three problems with the ALOHA schemes. The
+ﬁrst problem is the station not listening to the transmission
+medium before sending a packet. The second problem regards
+the station not listening to the transmission medium during
+the sending of the packet. The last problem involves the
+station not taking advantage of a much shorter propagation
+delay than the frame transmission time. The shorter propa-
+gation delay provides a fast feedback for the state of the
+current transmission. Various versions of CSMA have been
+proposed to solve only the ﬁrst problem. The variants of
+CSMA schemes are dealing with what to do if the transmission
+medium is sensed to be busy. These CSMA schemes are
+described next.

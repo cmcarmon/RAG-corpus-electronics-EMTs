@@ -1,0 +1,14 @@
+Intserv introduces three service classes to support RTI, RTT,
+and elastic multimedia applications. They are Guaranteed
+service, Controlled Load service, and the Best-Effort service.
+A ﬂow descriptor is used to describe the trafﬁc and QoS
+requirements of a ﬂow (Leon-Garcia and Widjaja, 2000). The
+ﬂow descriptor consists of two parts: a ﬁlter speciﬁcation
+(ﬁlterspec) and a ﬂow speciﬁcation (ﬂowspec). The ﬁlterspec
+provides the information required by the packet classiﬁer to
+identify the packets that belong to that ﬂow. The ﬂowspec
+consists of a trafﬁc speciﬁcation (Tspec) and service request
+speciﬁcation (Rspec). Tspec speciﬁes the trafﬁc behavior of the
+ﬂow in terms of token bucket parameters (b,r), while the Rspec
+speciﬁes the requested QoS requirements in terms of band-
+width, delay, jitter, and packet loss.

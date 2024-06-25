@@ -1,0 +1,34 @@
+The position of a rigid body is the position of all the particles of which it is composed. To simplify the description of this position, we exploit the property that the body is rigid, namely that all its particles maintain the same distance relative to each other. If the body is rigid, it is sufficient to describe the position of at least three non-collinear particles. This makes it possible to reconstruct the position of all the other particles, provided that their time-invariant position relative to the three selected particles is known. However, typically a different, mathematically more convenient, but equivalent approach is used. The position of the whole body is represented by:
+the linear position or position of the body, namely the position of one of the particles of the body, specifically chosen as a reference point (typically coinciding with the center of mass or centroid of the body), together with
+the angular position (also known as orientation, or attitude) of the body.
+Thus, the position of a rigid body has two components: linear and angular, respectively. The same is true for other kinematic and kinetic quantities describing the motion of a rigid body, such as linear and angular velocity, acceleration, momentum, impulse, and kinetic energy.
+The linear position can be represented by a vector with its tail at an arbitrary reference point in space (the origin of a chosen coordinate system) and its tip at an arbitrary point of interest on the rigid body, typically coinciding with its center of mass or centroid. This reference point may define the origin of a coordinate system fixed to the body.
+There are several ways to numerically describe the orientation of a rigid body, including a set of three Euler angles, a quaternion, or a direction cosine matrix (also referred to as a rotation matrix). All these methods actually define the orientation of a basis set (or coordinate system) which has a fixed orientation relative to the body (i.e. rotates together with the body), relative to another basis set (or coordinate system), from which the motion of the rigid body is observed. For instance, a basis set with fixed orientation relative to an airplane can be defined as a set of three orthogonal unit vectors b1, b2, b3, such that b1 is parallel to the chord line of the wing and directed forward, b2 is normal to the plane of symmetry and directed rightward, and b3 is given by the cross product
+
+
+
+
+b
+
+3
+
+
+=
+
+b
+
+1
+
+
+×
+
+b
+
+2
+
+
+
+
+{\displaystyle b_{3}=b_{1}\times b_{2}}
+.
+In general, when a rigid body moves, both its position and orientation vary with time. In the kinematic sense, these changes are referred to as translation and rotation, respectively. Indeed, the position of a rigid body can be viewed as a hypothetic translation and rotation (roto-translation) of the body starting from a hypothetic reference position (not necessarily coinciding with a position actually taken by the body during its motion).

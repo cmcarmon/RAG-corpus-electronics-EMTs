@@ -1,0 +1,7 @@
+The initial condition together with a continuity condition, can now be applied
+to evaluate A. The continuity condition for inductor current can be found from
+Equation 9.28. If it can be shown that the inductor voltage cannot be infinite
+in the circuit, then di/dt must be finite, hence the inductor current must be
+continuous. For this particular circuit, with finite vS, we are assured of finite vL,
+hence iL in Equation 10.57 can be evaluated at t = 0, and set equal to the initial
+value, Equation 10.45:

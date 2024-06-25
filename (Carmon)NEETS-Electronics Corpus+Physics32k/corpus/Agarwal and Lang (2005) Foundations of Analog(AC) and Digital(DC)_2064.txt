@@ -1,0 +1,12 @@
+Thus, this circuit is behaving like a low-pass filter as it passes low frequencies without
+degradation, while it significantly attenuates high frequencies. However, since this circuit
+has a very high Q, it probably will not serve as a useful low-pass filter, as it can produce
+voltages that are significantly higher than the input when driven near its resonance
+frequency. If a more or less flat response is desired at low frequencies (from DC to
+approximately the resonance frequency) then the circuit designer must change the circuit
+parameters to obtain a lower value of Q, for example, Q = 1.
+One final point is worth noting: The circuit parameters shown in Figure 14.37 make
+for a high-Q circuit, with Q ≈ 25. In this case, the undamped resonance frequency, the
+damped resonance frequency, and the frequency at which the circuit yields the maximum
+amplitude of vC are all very nearly equal. Further, the amplitudes at all three frequencies
+are all very nearly equal to Q times the input amplitude.

@@ -1,0 +1,19 @@
+Inverse-Time Characteristic
+Overcurrent relays sense the magnitude of the current in the
+circuit,  and  when  it  exceeds  a  preset  value  (known  as  the
+pickup setting of the relay), the relay closes its output contact,
+energizing the trip coil of the appropriate circuit breakers. The
+pickup setting must be set above the largest load current that
+the circuit may carry and must be smaller than the smallest
+fault current for which the relay must operate. A margin factor
+of  2  to  3  between  the  maximum  load  on  the  one  hand  and
+the minimum fault current on the other and the pickup setting
+of  the  relay  is  considered  to  be  desirable.  The  overcurrent
+relays usually have an inverse-time characteristic as shown in
+Fig. 61.41. When the current exceeds the pickup setting, the
+relay  operating  time  decreases  in  inverse  proportion  to  the
+current  magnitude.  Besides  this  built-in  feature  in  the  relay
+mechanism, the relay also has a time-dial setting, which shifts
+the inverse-time curve vertically, allowing for more ﬂexibility in setting the relays. The time dial has 11 discrete
+settings, usually labeled 1/2, 1, 2, . . ., 10, the lowest setting providing the fastest operation. The inverse-time
+characteristic offers an ideal relay for providing primary and backup protection in one package.

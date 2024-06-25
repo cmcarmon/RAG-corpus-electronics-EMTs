@@ -1,0 +1,9 @@
+The high transmission speeds for ATM cell transfer require very high-performance switching nodes. There-
+fore, the switching networks (SNs) have to be implemented in fast hardware. Within the SN the self-routing
+principle will be applied [Schaffer, 1990]. At the inlet of the SN the cell is extended by an SN-internal header.
+It is evident that the SN-internal operational speed has to be increased. When passing the individual switching
+elements, for the processing of the SN-internal header only simple hard-wired logic is necessary. This reduces
+the control complexity and provides a better failure behavior. When starting several years ago with the imple-
+mentation of the ATM technology, only the emitter coupled logic (ECL) was available. Nowadays, the comple-
+mentary  metal-oxide  semiconductor  (CMOS)  technology  with  its  low  power  consumption  is  used  [Fischer
+et al., 1991].

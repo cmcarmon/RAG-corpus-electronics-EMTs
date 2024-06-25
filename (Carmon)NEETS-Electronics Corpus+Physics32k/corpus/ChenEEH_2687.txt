@@ -1,0 +1,18 @@
+Completely Unstructured
+In an unstructured case, the space containing the structure of
+interest is completely ﬁlled with a collection of lattice cells of
+varying sizes and shapes but conforms to the structure surface
+(Madsen and Ziolkowski, 1990). As for the case of surface-
+ﬁtted lattices, mesh-generation software is available and
+capable of modeling complicated three-dimensional shapes
+possibly having volumetric inhomogeneities. A key disadvan-
+tage of this approach is its potential for numerical inaccuracy
+and instability due to the unwanted generation of highly
+skewed space cells at random points in the lattice. A second
+disadvantage is the difﬁculty in mapping the unstructured
+mesh computations onto the architecture of either parallel
+vector
+computers or massively parallel machines. The
+structure-speciﬁc irregularity of the mesh mandates a robust
+preprocessing algorithm that optimally assigns speciﬁc mesh
+cells to speciﬁc processors.

@@ -1,0 +1,10 @@
+For the circuit depicted in Figure 3.18, let’s derive its Thévenin equivalent two diﬀerent ways.
+Starting with the open/short-circuit approach, let’s ﬁrst ﬁnd the open-circuit voltage voc. We have
+a current divider relationship as R1 is in parallel with the series combination of R2 and R3. Thus,
+iin. When we short-circuit the terminals, no voltage appears across R3, and
+voc =
+thus no current ﬂows through it. In short, R3 does not aﬀect the short-circuit current, and can be
+eliminated. We again have a current divider relationship: isc = − R1
+iin. Thus, the Thévenin
+equivalent resistance is R3 (R1 + R2)
+R1 + R2 + R3

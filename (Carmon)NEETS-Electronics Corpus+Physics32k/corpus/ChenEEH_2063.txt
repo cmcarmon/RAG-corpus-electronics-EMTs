@@ -1,0 +1,9 @@
+Type, AN , M0, f ) is as follows:
+P ¼ {p1, p2, p3}, T ¼ {t1, t2},
+F ¼ {(p1, t1), (p2, t1), (t1, p3), (p3, t2), (t2, p1), (t2, p2)},
+Type(p1) ¼ Type(p2) ¼ Type(p3) ¼ INT,
+A(p1, t1) ¼ x, A(p2, t1) ¼ {x, y},
+A(t1, p3) ¼ x,
+A(p3, t2) ¼ x, A(t2, p1) ¼ x, A(t2, p2) ¼ {x, y},
+TC(t1) ¼ TC(t2) ¼ y ¼ x  1,
+M0(p1) ¼ M0(p2) ¼ {0, 1, 2, 3, 4}, and M0(p1) ¼ { },

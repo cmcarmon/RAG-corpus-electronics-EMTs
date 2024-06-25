@@ -1,0 +1,8 @@
+Most water hammer software packages use the method of characteristics to solve the differential equations involved. This method works well if the wave speed does not vary in time due to either air or gas entrainment in a pipeline. The Wave Method (WM) is also used in various software packages. WM lets operators analyze large networks efficiently. Many commercial and non commercial packages are available.
+Software packages vary in complexity, dependent on the processes modeled. The more sophisticated packages may have any of the following features:
+
+Multiphase flow capabilities
+An algorithm for cavitation growth and collapse
+Unsteady friction: the pressure waves dampens as turbulence is generated and due to variations in the flow velocity distribution
+Varying bulk modulus for higher pressures (water becomes less compressible)
+Fluid structure interaction: the pipeline reacts on the varying pressures and causes pressure waves itself

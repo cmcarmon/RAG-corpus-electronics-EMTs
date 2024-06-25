@@ -1,0 +1,4 @@
+A subtlety of source coding is whether we need “commas” in the bitstream. When we use an unequal number
+of bits to represent symbols, how does the receiver determine when symbols begin and end? If you created a
+source code that required a separation marker in the bitstream between symbols, it would be very ineﬃcient
+since you are essentially requiring an extra symbol in the transmission stream.

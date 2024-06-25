@@ -1,0 +1,11 @@
+these  paths  within  a  speciﬁed  propagational  delay  time  between  the  initiation  of  a  signal  transition  at  the
+beginning of the path and the arrival of the ﬁnal values at the end of that path. This is called path-delay testing.
+A modern IC component with typical complexity would contain many hundreds of thousands of logic paths,
+so  that  it  becomes  impractical  to  test  all  of  them  for  at-speed  operation. All  synchronous  digital  circuits  are
+designed so that there is a ﬁxed clock period resulting from the use-constant frequency clock signals to time
+their operation. Obviously, the clock period constitutes an upper bound for the propagational delay through
+any logic path, since otherwise clock pulses may arrive at the ﬂip-ﬂops while their data input signals may still
+be transitioning. On the other hand, propagational delay through some logic paths may be very close to this
+upper bound (i.e., clock period) value whereas others may have more slack in them. It is therefore important
+to identify the critical paths and perform path-delay testing on these. Hence path-delay testing can be broken
+into the two phases of critical-path selection and path-delay test pattern generation.

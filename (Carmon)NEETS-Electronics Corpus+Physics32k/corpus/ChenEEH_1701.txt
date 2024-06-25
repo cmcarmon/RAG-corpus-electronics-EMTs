@@ -1,0 +1,13 @@
+Delp et al. (2001) represented a shot using a tree structure
+called a shot tree. This tree is formed by an agglomerative
+clustering technique performed on individual frames in a shot.
+Starting at the lowest level with each frame representing a
+cluster, the algorithm iteratively combines the two most simi-
+lar frames at a particular level into one cluster at the next
+higher level. The process continues until a single cluster repre-
+sented by one frame for the whole shot is obtained. This
+approach uniﬁes the problem of scene content representation
+for both browsing and similarity matching. For browsing, only
+the root node of the tree (keyframe) is used, whereas for
+similarity matching, two or three levels of tree can be used,
+employing standard tree matching algorithms.

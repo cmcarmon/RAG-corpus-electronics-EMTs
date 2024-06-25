@@ -1,0 +1,5 @@
+Note that both of these circuits have an active pull-down transistor T6 replacing the pull-down resistance
+connected to the emitter of T2 in Fig. 79.9. The addition of T6 decreases the turn-on and turn-off times of T4.
+In addition, the transfer characteristic for these devices is improved by the squaring off of the sloping region
+between Vi = 0.55 and 1.2 V [see Fig. 79.8(c)]. This happens because T2 cannot become active until T6 turns
+on, which requires at least 1.2 V at the input.

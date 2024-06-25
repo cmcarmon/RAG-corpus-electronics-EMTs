@@ -1,0 +1,16 @@
+There  are  several  advantages  to  this  conﬁguration. As  noted
+above, the robot is kinematically simple, since motion on each
+Cartesian axis corresponds to motion of a single actuator. This
+eases the programming of linear motions. In particular, it is easy
+to  do  a  straight  vertical  motion,  the  most  common  motion  in
+assembly  tasks.  The  Cartesian  geometry  also  yields  a  constant
+arm resolution throughout the workspace; i.e., for any conﬁgu-
+ration,  the  resolution  for  each  axis  corresponds  directly  to  the
+resolution for that joint. The simple geometry of the Cartesian
+robot  leads  to  correspondingly  simple  manipulator  dynamics.
+The disadvantages of this conﬁguration include inability to reach objects on the ﬂoor or points invisible from
+the base of the robot, and slow speed of operation in the horizontal plane compared to robots with a rotary
+base. Additionally, the Cartesian conﬁguration requires a large operating volume for a relatively small workspace.
+Cartesian robots are used for several applications. As noted above, they are well suited for assembly opera-
+tions, as they easily perform vertical straight-line insertions. Because of the ease of straight-line motions, they
+are also well suited to machine loading and unloading. They are also used in clean room tasks.

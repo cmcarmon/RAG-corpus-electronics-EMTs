@@ -1,0 +1,26 @@
+A real line, especially one using modern synthetic insulators, will have a G that is very low and will usually not come anywhere close to meeting the Heaviside condition. The normal situation is that
+
+
+
+
+
+
+G
+C
+
+
+≪
+
+
+R
+L
+
+
+.
+
+
+{\displaystyle {\frac {G}{C}}\ll {\frac {R}{L}}.}
+
+To make a line meet the Heaviside condition one of the four primary constants needs to be adjusted and the question is which one. G could be increased, but this is highly undesirable since increasing G will increase the loss. Decreasing R is sending the loss in the right direction, but this is still not usually a satisfactory solution. R must be decreased by a large fraction and to do this the conductor cross-sections must be increased dramatically. This not only makes the cable much more bulky but also adds significantly to the amount of copper (or other metal) being used and hence the cost. Decreasing the capacitance also makes the cable more bulky (since the insulation must now be thicker) but is not so costly as increasing the copper content. This leaves increasing L which is the usual solution adopted.
+The required increase in L is achieved by loading the cable with a metal with high magnetic permeability. It is also possible to load a cable of conventional construction by adding discrete loading coils at regular intervals. This is not identical to a distributed loading, the difference being that with loading coils there is distortionless transmission up to a definite cut-off frequency beyond which the attenuation increases rapidly.
+Loading cables to meet the Heaviside condition is no longer a common practice. Instead, regularly spaced digital repeaters are now placed in long lines to maintain the desired shape and duration of pulses for long-distance transmission.

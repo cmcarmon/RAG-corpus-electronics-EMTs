@@ -1,0 +1,179 @@
+Although barycentric coordinates are most commonly used to handle points inside a triangle, they can also be used to describe a point outside the triangle. If the point is not inside the triangle, then we can still use the formulas above to compute the barycentric coordinates. However, since the point is outside the triangle, at least one of the coordinates will violate our original assumption that
+
+
+
+
+λ
+
+1...3
+
+
+≥
+0
+
+
+{\displaystyle \lambda _{1...3}\geq 0}
+. In fact, given any point in cartesian coordinates, we can use this fact to determine where this point is with respect to a triangle.
+If a point lies in the interior of the triangle, all of the Barycentric coordinates lie in the open interval
+
+
+
+(
+0
+,
+1
+)
+.
+
+
+{\displaystyle (0,1).}
+If a point lies on an edge of the triangle but not at a vertex, one of the area coordinates
+
+
+
+
+λ
+
+1...3
+
+
+
+
+{\displaystyle \lambda _{1...3}}
+(the one associated with the opposite vertex) is zero, while the other two lie in the open interval
+
+
+
+(
+0
+,
+1
+)
+.
+
+
+{\displaystyle (0,1).}
+If the point lies on a vertex, the coordinate associated with that vertex equals 1 and the others equal zero. Finally, if the point lies outside the triangle at least one coordinate is negative.
+Summarizing,
+Point
+
+
+
+
+r
+
+
+
+{\displaystyle \mathbf {r} }
+lies inside the triangle if and only if
+
+
+
+0
+<
+
+λ
+
+i
+
+
+<
+1
+
+∀
+
+i
+
+in
+
+
+1
+,
+2
+,
+3
+
+
+
+{\displaystyle 0<\lambda _{i}<1\;\forall \;i{\text{ in }}{1,2,3}}
+.
+
+
+
+
+
+r
+
+
+
+{\displaystyle \mathbf {r} }
+lies on the edge or corner of the triangle if
+
+
+
+0
+≤
+
+λ
+
+i
+
+
+≤
+1
+
+∀
+
+i
+
+in
+
+
+1
+,
+2
+,
+3
+
+
+
+{\displaystyle 0\leq \lambda _{i}\leq 1\;\forall \;i{\text{ in }}{1,2,3}}
+and
+
+
+
+
+λ
+
+i
+
+
+=
+0
+
+
+, for some i in
+
+
+1
+,
+2
+,
+3
+
+
+
+{\displaystyle \lambda _{i}=0\;{\text{, for some i in }}{1,2,3}}
+.
+Otherwise,
+
+
+
+
+r
+
+
+
+{\displaystyle \mathbf {r} }
+lies outside the triangle.
+In particular, if a point lies on the opposite side of a sideline from the vertex opposite that sideline, then that point's barycentric coordinate corresponding to that vertex is negative.

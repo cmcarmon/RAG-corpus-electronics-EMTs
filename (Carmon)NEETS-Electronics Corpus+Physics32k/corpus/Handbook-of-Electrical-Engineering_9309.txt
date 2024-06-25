@@ -1,0 +1,8 @@
+While there are not many algorithms for ﬁnding the maximum (or minimum) in an unordered list, other
+tasks  may  have  many  different  solutions  with  distinctly  different  performances.  The  task  of  putting  a  list  in
+ascending or descending order (sorting), for example, has many different solutions, with time complexities of
+O(n2) and O(n·log(n)). Compared with the O(n·log(n)) algorithms, the O(n2) algorithms are simpler and their
+individual steps take less time, so that they are the appropriate choice, if n, the number of items to be sorted,
+is relatively small. However, as n grows, the balance tips decidedly toward the O(n·log(n)) algorithms. In order
+to compute the break-even point suppose that the individual steps of an O(n·log(n)) and an O(n2) algorithm
+take  k·t and t units of time, respectively. Thus, for the break-even point we have

@@ -1,0 +1,9 @@
+. A proxy server is responsible for routing and delivering
+messages to the called party. It receives requests and for-
+wards them to another server (called a next-hop server),
+which may be another proxy server, a UAS, or a redirect
+server. It can fork a request, sending copies to multiple
+next-hop servers at once. This allows a call setup request to
+try many different locations at once. It can also forward the
+invitation to a multicast group. A proxy server can be call-
+stateful, stateful (transaction-stateful), or stateless.

@@ -1,0 +1,6 @@
+Another method of producing a stable clock pulse is to use a triggered monostable or one-shot
+multivibrator. You will recall from NEETS, Module 9, that a one-shot multivibrator has one stable state
+and will only change states when acted on by an outside source (the trigger). A block diagram of a
+monostable multivibrator with input and output signals is shown in figure 3-21. The duration of the output
+pulse is dependent on the charge time of an RC network in the multivibrator. Each trigger input results in
+a complete cycle in the output, as shown in figure 3-21. Trigger pulses are supplied by an oscillator.

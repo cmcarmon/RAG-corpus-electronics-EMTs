@@ -1,0 +1,7 @@
+macros and functions. MATLAB has these, and their provision is clearly important to the users of the package
+and developers of toolbox extensions. However, there is a limit to the software robustness of the mechanisms
+that MATLAB provides. MATLAB is an un-typed language, all data structures used in extensions to MATLAB
+are implemented in terms of collections of matrices and vectors. It is therefore up to the programmer to develop
+conventions for using these data items such that the algorithms work properly. A strongly typed language, in
+which the user must specify the nature of each data object before it is used, is a much safer basis on which to
+provide extensions that are to be used by many other people.

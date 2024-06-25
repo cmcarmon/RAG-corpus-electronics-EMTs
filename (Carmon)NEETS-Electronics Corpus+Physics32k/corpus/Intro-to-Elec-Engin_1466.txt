@@ -1,0 +1,6 @@
+The frequency conversion to IF is done by the combination of the RF ampliﬁer and the mixer.
+The tuning range of the local oscillator is 955–2,055 kHz. f LO could be either higher or lower than
+fc. If f LO is higher than fc, then fLO = fc + fIF. By tuning the RF ampliﬁer to the frequency fc and
+mixing its output with the local oscillator frequency f LO, we obtain two signal components: one
+centered at the difference frequency f IF; and the other centered at the sum frequency 2fc + fIF,
+known as the image frequency. Only the ﬁrst component is passed on by the IF ampliﬁer. The

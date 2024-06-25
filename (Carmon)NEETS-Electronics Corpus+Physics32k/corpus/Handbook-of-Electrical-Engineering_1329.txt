@@ -1,0 +1,5 @@
+• Other approaches to complexity reduction in CELP coders are related to “sparse” codebook entries which
+have  few  nonzero  samples  per  vector  and “algebraic”  codebooks  which  are  based  on  integer  lattices
+[Adoul  and  Lamblin,  1987].  In  this  case,  excitation  code  vectors  can  be  constructed  on  an  as-needed
+basis instead of being stored in a table. ITU-T standardization of a CELP algorithm which uses lattice-
+based excitations has resulted in the 8 kbps G.729 (ACELP) coder.

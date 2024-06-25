@@ -1,0 +1,60 @@
+The Hellinger distance forms a bounded metric on the space of probability distributions over a given probability space.
+The maximum distance 1 is achieved when P assigns probability zero to every set to which Q assigns a positive probability, and vice versa.
+Sometimes the factor
+
+
+
+1
+
+/
+
+2
+
+
+{\displaystyle 1/2}
+in front of the integral is omitted, in which case the Hellinger distance ranges from zero to the square root of two.
+The Hellinger distance is related to the Bhattacharyya coefficient
+
+
+
+B
+C
+(
+P
+,
+Q
+)
+
+
+{\displaystyle BC(P,Q)}
+as it can be defined as
+
+
+
+
+H
+(
+P
+,
+Q
+)
+=
+
+
+1
+−
+B
+C
+(
+P
+,
+Q
+)
+
+
+.
+
+
+{\displaystyle H(P,Q)={\sqrt {1-BC(P,Q)}}.}
+
+Hellinger distances are used in the theory of sequential and asymptotic statistics.

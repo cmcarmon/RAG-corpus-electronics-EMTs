@@ -1,0 +1,11 @@
+Basic ICCP functionality is specified as “Conformance Blocks” listed below. The objects that are used to convey the data are defined in various parts of IEC 60870-6.
+Block Description Data Examples:
+Periodic System Data: Status points, analogue points, quality flags, time stamp, change of value counter, protection events. Association objects to control ICCP sessions.
+Extended Data Set Condition Monitoring: Provides report by exception capability for the data types that block 1 is able to transfer periodically.
+Block Data Transfer: Provides a means transferring Block 1 and Block 2 data types as block transfers instead of point by point. In some situations this may reduce bandwidth requirements.
+Information Messages: Simple text and binary files.
+Device Control: Device control requests: on/off, trip/close, raise/lower etc. and digital setpoints. Includes mechanisms for interlocked controls and select-beforeoperate.
+Program Control: Allows an ICCP client to remote control programs executing on an ICCP server.
+Event Reporting: Extended reporting to a client of error conditions and device state changes at a server.
+Additional User Objects: Scheduling, accounting, outage and plant information.
+Time Series Data: Allows a client to request a report from a server of historical time series data between a start and end date.

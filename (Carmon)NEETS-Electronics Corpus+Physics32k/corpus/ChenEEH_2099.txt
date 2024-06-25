@@ -1,0 +1,30 @@
+HPrTNs were originally developed for structured analysis
+that provides separate mechanisms for data abstraction and
+processing abstraction through super predicates and super tran-
+sitions, respectively. Therefore, we can use a super predicate and
+super transition pair in an HPrTN to capture the notion of a
+class although it is adequate to deﬁne a class by using a super
+predicate when there is no externally visible operation or using a
+super transition when there is no externally visible attribute.
+This view of class is a major improvement over the view in (He
+and Ding, 1996), where a class was represented by a super
+predicate only. In this view, the interface of the class is deﬁned
+by the super predicate and the super transition. The super
+predicate deﬁnes data and internal operations of the class,
+while the super transition mainly deﬁnes the externally visible
+operations of the class. The corresponding subnets further
+deﬁne the internal structures of the data and the operations.
+The net inscription deﬁnes the meanings of net components
+through predicate types, token values, and transition con-
+straints. When the resulting HPrTN is simple enough, there is
+no need to separate the super nodes from their subnets (i.e., the
+subnets are directly embedded inside the super nodes). An
+attribute or operation is externally visible if the corresponding
+denoting predicate or transition is an interface node (i.e., con-
+nected with a nonterminating arc). It should be noted, however,
+that not every super predicate or transition needs to be con-
+sidered as a class. A super predicate or transition may simply
+denote a data abstraction or operation abstraction as originally
+intended; for example, a super predicate can be used to hide the
+internal states of an attribute that is deﬁned by several related
+predicates, and a super transition can be used to deﬁne alter-

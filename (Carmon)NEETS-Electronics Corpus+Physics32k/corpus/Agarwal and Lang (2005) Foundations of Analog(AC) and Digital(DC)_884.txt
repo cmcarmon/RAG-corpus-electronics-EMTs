@@ -1,0 +1,4 @@
+Since the NAND gate produces a high output of 5 V, its output applied to the gate of
+another MOSFET (with a VT = 1 V) can clearly drive the MOSFET into its ON state.
+We now have to determine whether its low output can turn a MOSFET OFF. Recall
+that the NAND gate produces the following output voltage for a logical 0:

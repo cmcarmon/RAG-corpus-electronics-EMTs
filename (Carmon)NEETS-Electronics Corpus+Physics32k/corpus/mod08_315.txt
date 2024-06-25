@@ -1,0 +1,11 @@
+Figure 3-6 is the schematic diagram of a typical differential amplifier. Notice that there are two
+inputs and two outputs. This circuit requires two transistors to provide the two inputs and two outputs. If
+you look at one input and the transistor with which it is associated, you will see that each transistor is a
+common-emitter amplifier for that input (input one and Q1; input two and Q2). R1 develops the signal at
+input one for Q1, and R5 develops the signal at input two for Q2. R3 is the emitter resistor for both Q1
+and Q2. Notice that R3 is NOT bypassed. This means that when a signal at input one affects the current
+through Q1, that signal is developed by R3. (The current through Q1 must flow through R3; as this
+current changes, the voltage developed across R3 changes.) When a signal is developed by R3, it is
+applied to the emitter of Q2. In the same way, signals at input two affect the current of Q2, are developed
+by R3, and are felt on the emitter of Q1. R2 develops the signal for output one, and R4 develops the
+signal for output two.

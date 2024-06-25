@@ -1,0 +1,8 @@
+You may be wondering why we are so interested in the frequency spectrum of an rf pulse. To better 
+understand why, look at the spectrum of a transmitter as compared to the response curve of a receiver in 
+figure 4-1. The receiver's response curve has a broader bandwidth than the transmitted spectrum, which 
+ensures complete coverage. But the receiver responds best to frequencies in the middle of the bandwidth. 
+This causes the receiver response to taper off from both sides of the center frequency until the response 
+passes through the half-power points, as shown on the curve. Usually the receiver response beyond these 
+points is too low to be useful and is not considered. Notice that the spectrum of the transmitter is centered 
+inside the response curve of the receiver, thus yielding maximum efficiency. 

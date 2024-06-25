@@ -1,0 +1,5 @@
+Usually, APIs are proposed by smart card vendors to offer an easy-to-use environment for the development
+of applications on their products. It offers a wide variety of commands and responses. However, it makes the
+developer dependent of a product and of the support of these API. Efforts were made to standardize some API.
+PKCS#11[5] is an example of cryptographic libraries. This standard API is deﬁned by RSA (RSA Data Security,
+Inc.) and permits the use of data objects in the form of tag-length-value.

@@ -1,0 +1,20 @@
+The B&R incremental rerouting algorithm Conv_T-DAG
+that performs a depth-ﬁrst based T-DAG search in the OG is
+given in Figure 8.9 (Dutt et al., 1999). It recursively searches
+for converging T-DAGs rooted at each net bumped by the
+O-net. A depth-ﬁrst path terminates in success if a spare node
+is reached and in failure either when all OG nodes have been
+visited in that path or a cycle is detected (an ancestor along the
+current path is revisited). When an n
+transition fails in
+this manner, the search backtracks and tries an unexplored
+Tj!Tl
+transition n
+. The algorithm was shown to be optimal—if
+i
+a converging T-DAG exists among the currently used tracks for
+a CS, Conv_T-DAG will ﬁnd it (Dutt et al., 1999). The entire
+reconﬁguration process that invokes Conv_T-DAG for each
+CS is impervious to the order of insertion of most CSs but not
+of a certain class of CSs (called ‘‘vertical’’ CSs). Thus, the
+reconﬁguration process is near optimal.

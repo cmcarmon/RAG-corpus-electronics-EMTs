@@ -1,0 +1,9 @@
+Figure 45-30 shows a truth table for a comparator. 
+The only time an output is desired is when both bits 
+being compared are the same. The output column rep-
+resents an exclusive OR with an inverter, also known 
+as an exclusive NOR (XNOR) gate. An XNOR gate is 
+essentially a comparator, because its output is a 1 only 
+if the two inputs are the same. To compare numbers 
+containing 2 bits or more, additional XNOR gates 
+are necessary. Figure 45-31 shows a logic diagram of 

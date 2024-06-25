@@ -1,0 +1,11 @@
+Most high performance digital integrated circuits implement
+data processing algorithms based on the iterative execution of
+basic operations. Typically, these algorithms are highly paral-
+lelized and pipelined by inserting clocked registers at speciﬁc
+locations throughout the circuit. The synchronization strategy
+for these clocked registers in the vast majority of VLSI/ULSI-
+based digital systems is a fully synchronous approach. It is
+common for the computational process in these systems to
+be spread over hundreds of thousands of functional
+logic
+elements and tens of thousands of registers.

@@ -1,0 +1,331 @@
+The key ideas behind Landau's theory are the notion of adiabaticity and the exclusion principle. Consider a non-interacting fermion system (a Fermi gas), and suppose we "turn on" the interaction slowly. Landau argued that in this situation, the ground state of the Fermi gas would adiabatically transform into the ground state of the interacting system.
+By Pauli's exclusion principle, the ground state
+
+
+
+
+Ψ
+
+0
+
+
+
+
+{\displaystyle \Psi _{0}}
+of a Fermi gas consists of fermions occupying all momentum states corresponding to momentum
+
+
+
+p
+<
+
+p
+
+F
+
+
+
+
+{\displaystyle p<p_{F}}
+with all higher momentum states unoccupied. As interaction is turned on, the spin, charge and momentum of the fermions corresponding to the occupied states remain unchanged, while their dynamical properties, such as their mass, magnetic moment etc. are renormalized to new values. Thus, there is a one-to-one correspondence between the elementary excitations of a Fermi gas system and a Fermi liquid system. In the context of Fermi liquids, these excitations are called "quasi-particles".
+Landau quasiparticles are long-lived excitations with a lifetime
+
+
+
+τ
+
+
+{\displaystyle \tau }
+that satisfies
+
+
+
+
+
+ℏ
+τ
+
+
+≪
+
+ϵ
+
+p
+
+
+
+
+{\displaystyle {\frac {\hbar }{\tau }}\ll \epsilon _{p}}
+where
+
+
+
+
+ϵ
+
+p
+
+
+
+
+{\displaystyle \epsilon _{p}}
+is the quasiparticle energy (measured from the Fermi energy). At finite temperature,
+
+
+
+
+ϵ
+
+p
+
+
+
+
+{\displaystyle \epsilon _{p}}
+is on the order of the thermal energy
+
+
+
+
+k
+
+B
+
+
+T
+
+
+{\displaystyle k_{B}T}
+, and the condition for Landau quasiparticles can be reformulated as
+
+
+
+
+
+ℏ
+τ
+
+
+≪
+
+k
+
+B
+
+
+T
+
+
+{\displaystyle {\frac {\hbar }{\tau }}\ll k_{B}T}
+.
+For this system, the Green's function can be written (near its poles) in the form
+
+
+
+
+G
+(
+ω
+,
+p
+)
+≈
+
+
+Z
+
+ω
++
+μ
+−
+ϵ
+(
+p
+)
+
+
+
+
+
+{\displaystyle G(\omega ,p)\approx {\frac {Z}{\omega +\mu -\epsilon (p)}}}
+
+where
+
+
+
+μ
+
+
+{\displaystyle \mu }
+is the chemical potential and
+
+
+
+ϵ
+(
+p
+)
+
+
+{\displaystyle \epsilon (p)}
+is the energy corresponding to the given momentum state.
+The value
+
+
+
+Z
+
+
+{\displaystyle Z}
+is called the quasiparticle residue and is very characteristic of Fermi liquid theory. The spectral function for the system can be directly observed via ARPES experiment, and can be written (in the limit of low-lying excitations) in the form:
+
+
+
+
+A
+(
+
+
+
+k
+→
+
+
+
+,
+ω
+)
+=
+Z
+δ
+(
+ω
+−
+
+v
+
+F
+
+
+
+k
+
+‖
+
+
+)
+
+
+{\displaystyle A({\vec {k}},\omega )=Z\delta (\omega -v_{F}k_{\|})}
+
+where
+
+
+
+
+v
+
+F
+
+
+
+
+{\displaystyle v_{F}}
+is the Fermi velocity.
+Physically, we can say that a propagating fermion interacts with its surrounding in such a way that the net effect of the interactions is to make the fermion behave as a "dressed" fermion, altering its effective mass and other dynamical properties. These "dressed" fermions are what we think of as "quasiparticles".
+Another important property of Fermi liquids is related to the scattering cross section for electrons. Suppose we have an electron with energy
+
+
+
+
+ϵ
+
+1
+
+
+
+
+{\displaystyle \epsilon _{1}}
+above the Fermi surface, and suppose it scatters with a particle in the Fermi sea with energy
+
+
+
+
+ϵ
+
+2
+
+
+
+
+{\displaystyle \epsilon _{2}}
+. By Pauli's exclusion principle, both the particles after scattering have to lie above the Fermi surface, with energies
+
+
+
+
+ϵ
+
+3
+
+
+,
+
+ϵ
+
+4
+
+
+>
+
+ϵ
+
+F
+
+
+
+
+{\displaystyle \epsilon _{3},\epsilon _{4}>\epsilon _{F}}
+Now, suppose the initial electron has energy very close to the Fermi surface
+
+
+
+ϵ
+≈
+
+ϵ
+
+F
+
+
+
+
+{\displaystyle \epsilon \approx \epsilon _{F}}
+Then, we have that
+
+
+
+
+ϵ
+
+2
+
+
+,
+
+ϵ
+
+3
+
+
+,
+
+ϵ
+
+4
+
+
+
+
+{\displaystyle \epsilon _{2},\epsilon _{3},\epsilon _{4}}
+also have to be very close to the Fermi surface. This reduces the phase space volume of the possible states after scattering, and hence, by Fermi's golden rule, the scattering cross section goes to zero. Thus we can say that the lifetime of particles at the Fermi surface goes to infinity.

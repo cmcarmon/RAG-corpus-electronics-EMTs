@@ -1,0 +1,4 @@
+A sweep circuit that uses synchronization instead of triggering will cause a previously free-running
+sweep to be locked in step with the synchronizing signal. The TRIGGER LEVEL control setting can be
+increased until synchronization occurs; but, until that time, an unstable pattern will appear on the CRT
+face.

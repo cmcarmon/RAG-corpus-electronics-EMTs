@@ -1,0 +1,9 @@
+Code From Control-Flow Diagrams
+Control-ﬂow diagrams are processed in a similar manner to signal-ﬂow diagrams. The main difference is that
+while a signal ﬂow diagram uses a ﬁxed set of blocks with well-deﬁned semantics (the block interconnections
+and block parameters being the only variants between two blocks of the same type), the blocks in control-ﬂow
+diagrams  may  contain  arbitrary  expressions,  assignment  statements,  and/or  procedure  calls  (as  shown  in
+Fig. 112.12). These BEACON language constructs must be translated into the primitives of each target language.
+The BEACON graphical editor ensures that control-ﬂow diagrams are well structured, i.e., that the diagram
+can be mapped into structured code. The automatic translation of large truth-tables into complex structured
+code is particularly time-saving.

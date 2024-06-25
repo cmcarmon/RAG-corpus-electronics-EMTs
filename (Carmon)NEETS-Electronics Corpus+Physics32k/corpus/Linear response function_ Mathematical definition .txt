@@ -1,0 +1,293 @@
+Denote the input of a system by
+
+
+
+h
+(
+t
+)
+
+
+{\displaystyle h(t)}
+(e.g. a force), and the response of the system by
+
+
+
+x
+(
+t
+)
+
+
+{\displaystyle x(t)}
+(e.g. a position). Generally, the value of
+
+
+
+x
+(
+t
+)
+
+
+{\displaystyle x(t)}
+will depend not only on the present value of
+
+
+
+h
+(
+t
+)
+
+
+{\displaystyle h(t)}
+, but also on past values. Approximately
+
+
+
+x
+(
+t
+)
+
+
+{\displaystyle x(t)}
+is a weighted sum of the previous values of
+
+
+
+h
+(
+
+t
+′
+
+)
+
+
+{\displaystyle h(t')}
+, with the weights given by the linear response function
+
+
+
+χ
+(
+t
+−
+
+t
+′
+
+)
+
+
+{\displaystyle \chi (t-t')}
+:
+
+
+
+
+x
+(
+t
+)
+=
+
+∫
+
+−
+∞
+
+
+t
+
+
+d
+
+t
+′
+
+
+χ
+(
+t
+−
+
+t
+′
+
+)
+h
+(
+
+t
+′
+
+)
++
+…
+
+.
+
+
+{\displaystyle x(t)=\int _{-\infty }^{t}dt'\,\chi (t-t')h(t')+\dots \,.}
+
+The explicit term on the right-hand side is the leading order term of a Volterra expansion for the full nonlinear response. If the system in question is highly non-linear, higher order terms in the expansion, denoted by the dots, become important and the signal transducer cannot adequately be described just by its linear response function.
+The complex-valued Fourier transform
+
+
+
+
+
+
+χ
+~
+
+
+
+(
+ω
+)
+
+
+{\displaystyle {\tilde {\chi }}(\omega )}
+of the linear response function is very useful as it describes the output of the system if the input is a sine wave
+
+
+
+h
+(
+t
+)
+=
+
+h
+
+0
+
+
+⋅
+sin
+⁡
+(
+ω
+t
+)
+
+
+{\displaystyle h(t)=h_{0}\cdot \sin(\omega t)}
+with frequency
+
+
+
+ω
+
+
+{\displaystyle \omega }
+. The output reads
+
+
+
+
+x
+(
+t
+)
+=
+
+|
+
+
+
+
+χ
+~
+
+
+
+(
+ω
+)
+
+|
+
+⋅
+
+h
+
+0
+
+
+⋅
+sin
+⁡
+(
+ω
+t
++
+arg
+⁡
+
+
+
+χ
+~
+
+
+
+(
+ω
+)
+)
+
+,
+
+
+{\displaystyle x(t)=|{\tilde {\chi }}(\omega )|\cdot h_{0}\cdot \sin(\omega t+\arg {\tilde {\chi }}(\omega ))\,,}
+
+with amplitude gain
+
+
+
+
+|
+
+
+
+
+χ
+~
+
+
+
+(
+ω
+)
+
+|
+
+
+
+{\displaystyle |{\tilde {\chi }}(\omega )|}
+and phase shift
+
+
+
+arg
+⁡
+
+
+
+χ
+~
+
+
+
+(
+ω
+)
+
+
+{\displaystyle \arg {\tilde {\chi }}(\omega )}
+.

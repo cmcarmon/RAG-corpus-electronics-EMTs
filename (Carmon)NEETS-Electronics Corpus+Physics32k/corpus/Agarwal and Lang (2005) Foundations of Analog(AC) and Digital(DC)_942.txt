@@ -1,0 +1,17 @@
+As one final observation on the various models, notice in Figure 7.13 the
+discontinuity in the iDS versus vDS curve according to the SR model in the
+triode region, and the SCS model in the saturation region. In other words, if a
+MOSFET operates in a circuit such that vDS = vGS − VT, the two models will
+give very different results. We can live with this discontinuity provided we do not
+attempt to reconcile the results from the two models in the same analysis.2 You
+must choose between the two models depending on the particular situation.
+Specifically, use the SR model when operating with a fixed vGS in the triode
+region, and use the SCS model when operating in the saturation region. The
+SR model is appropriate for use in our digital circuits because of the inverting
+property of the type of digital circuits discussed here (for example, our familiar
+inverter). Since the drain voltage in our digital circuits is low when the gate
+voltage is high, the triode region of MOSFET operation applies, and therefore,
+the SR model is appropriate. Conversely, in the design of amplifiers, we will
+establish the saturation discipline, which will constrain amplifier designs to
+operate MOSFETs exclusively in their saturation region, thereby allowing the
+use of the SCS model.

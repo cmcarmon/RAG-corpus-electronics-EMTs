@@ -1,0 +1,17 @@
+When middleware is used as the basis for integrating appli-
+cations, it can be seen as a software substrate. To be effective
+and easy to use as a substrate, middleware should have certain
+properties. First, it must have a standard interface so that all
+application software programs that use the standard can be
+integrated easily. Second, it must have heterogeneous inter-
+operability, that is, be able to integrate application software
+that is written in different languages and/or running on differ-
+ent processor platforms. The ultimate goal for control systems
+would be to have middleware that has plug-and-play capabil-
+ity. Also, for adaptability sake, it would be helpful to have run-
+time reconﬁguration of the software components (such as
+updating or changing algorithms online in real-time). The
+control engineering ﬁeld is not yet to this point in its use of
+middleware. More discussion of the available products is given
+in the last section of this chapter; ﬁrst, more fundamental
+concepts on software engineering are introduced.

@@ -1,0 +1,5 @@
+1. Testing logic that is downstream from the RAM block (i.e., output of RAM block drives the downstream
+logic) is difﬁcult since this requires setting the test pattern at the RAM outputs. This problem is usually
+solved by providing a bypass mode where data inputs to the RAM (or ROM) block are channeled directly
+to the RAM (or ROM) outputs without (or in addition to) being stored inside the RAM block. This way
+the RAM data outputs can be controlled by controlling the data inputs as desired.

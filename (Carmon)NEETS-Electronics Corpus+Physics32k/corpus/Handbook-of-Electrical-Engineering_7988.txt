@@ -1,0 +1,6 @@
+The carry lookahead approach can be applied at a higher level to eliminate the propagation of carries between
+CLA stages or blocks. This approach uses block carry lookahead adders (BCLAs) and block carry lookahead
+(BCL) logic as shown in Fig. 81.54. A BCLA is a CLA modiﬁed to produce block carry propagate (P) and block
+carry  generate  (G)  outputs  instead  of  a  carry-out.  BCL  logic  is  a  combinational  logic  circuit  that  generates
+block carries (Cj) for each BCLA from the P and G outputs of lower-order BCLAs and c0. Logic equations for
+the block carry logic can be derived by repeated application of the following equations for a typical block:

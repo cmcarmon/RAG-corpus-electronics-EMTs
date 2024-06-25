@@ -1,0 +1,125 @@
+Faraday's law of induction makes use of the magnetic flux ΦB through a region of space enclosed by a wire loop. The magnetic flux is defined by a surface integral:
+
+
+
+
+
+Φ
+
+
+B
+
+
+
+=
+
+∫
+
+Σ
+
+
+
+B
+
+⋅
+d
+
+A
+
+
+,
+
+
+{\displaystyle \Phi _{\mathrm {B} }=\int \limits _{\Sigma }\mathbf {B} \cdot d\mathbf {A} \ ,}
+
+
+where dA is an element of the surface Σ enclosed by the wire loop, B is the magnetic field. The dot product B·dA corresponds to an infinitesimal amount of magnetic flux. In more visual terms, the magnetic flux through the wire loop is proportional to the number of magnetic flux lines that pass through the loop.
+When the flux through the surface changes, Faraday's law of induction says that the wire loop acquires an electromotive force (EMF). The most widespread version of this law states that the induced electromotive force in any closed circuit is equal to the rate of change of the magnetic flux enclosed by the circuit:
+
+
+
+
+
+
+E
+
+
+=
+−
+
+
+
+d
+
+Φ
+
+
+B
+
+
+
+
+
+d
+t
+
+
+
+
+
+
+{\displaystyle {\mathcal {E}}=-{{d\Phi _{\mathrm {B} }} \over dt}\ }
+,
+where
+
+
+
+
+
+E
+
+
+
+
+{\displaystyle {\mathcal {E}}}
+is the EMF and ΦB is the magnetic flux. The direction of the electromotive force is given by Lenz's law which states that an induced current will flow in the direction that will oppose the change which produced it. This is due to the negative sign in the previous equation. To increase the generated EMF, a common approach is to exploit flux linkage by creating a tightly wound coil of wire, composed of N identical turns, each with the same magnetic flux going through them. The resulting EMF is then N times that of one single wire.
+
+
+
+
+
+
+E
+
+
+=
+−
+N
+
+
+
+d
+
+Φ
+
+
+B
+
+
+
+
+
+d
+t
+
+
+
+
+
+{\displaystyle {\mathcal {E}}=-N{{d\Phi _{\mathrm {B} }} \over dt}}
+
+Generating an EMF through a variation of the magnetic flux through the surface of a wire loop can be achieved in several ways:
+the magnetic field B changes (e.g. an alternating magnetic field, or moving a wire loop towards a bar magnet where the B field is stronger),
+the wire loop is deformed and the surface Σ changes,
+the orientation of the surface dA changes (e.g. spinning a wire loop into a fixed magnetic field),
+any combination of the above

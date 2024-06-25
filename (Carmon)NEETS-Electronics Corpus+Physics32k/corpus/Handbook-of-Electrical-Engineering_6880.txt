@@ -1,0 +1,13 @@
+The  voltage  N(t)  generated  thermally  between  two  points  in  an  open  circuit  conductor  is  the  sum  of  an
+extremely large number of superimposed, independent electronically and ionically induced microvoltages at
+all frequencies up to fc = 6,000 GHz at room temperature [see Gardner 1990, p. 235], near infrared. The mean
+relaxation  time  of  free  electrons  is  1/fc  =  0.5 ·  10–10/T  s,  so  at  room  temperature  of T  =  290K,  it  is  0.17  ps
+(1 picosecond  =  10–12  s).  The  values  of  N(t)  at  different  times  are  uncorrelated  for  time  differences  (offsets)
+greater than t
+c = 1/fc . The expected value of N(t) is zero. The power is fairly constant across a broad spectrum,
+and  we  cannot  sample  signals  at  picosecond  periods,  so  we  model  Johnson  noise  N(t)  with  Gaussian  white
+noise W(t). Although m = E[W(t)] = 0, the average power is positive at temperatures above 0K, and is s
+2 =
+W
+RWW (0) [see the right side of Eq. (73.21)]. A disadvantage of the white noise model is its inﬁnite power, i.e.,
+RWW(0) = s

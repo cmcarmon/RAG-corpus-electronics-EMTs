@@ -1,0 +1,22 @@
+A simple example of an approximation algorithm is one for the Minimum Vertex Cover problem, where the goal is to choose the smallest set of vertices such that every edge in the input graph contains at least one chosen vertex. One way to find a vertex cover is to repeat the following process: find an uncovered edge, add both its endpoints to the cover, and remove all edges incident to either vertex from the graph. As any vertex cover of the input graph must use a distinct vertex to cover each edge that was considered in the process (since it forms a matching), the vertex cover produced, therefore, is at most twice as large as the optimal one. In other words, this is a constant factor approximation algorithm with an approximation factor of 2. Under the recent Unique Games Conjecture, this factor is even the best possible one.
+NP-hard problems vary greatly in their approximability; some, such as the Knapsack Problem, can be approximated within a multiplicative factor
+
+
+
+1
++
+ϵ
+
+
+{\displaystyle 1+\epsilon }
+, for any fixed
+
+
+
+ϵ
+>
+0
+
+
+{\displaystyle \epsilon >0}
+, and therefore produce solutions arbitrarily close to the optimum (such a family of approximation algorithms is called a polynomial time approximation scheme or PTAS). Others are impossible to approximate within any constant, or even polynomial, factor unless P = NP, as in the case of the Maximum Clique Problem. Therefore, an important benefit of studying approximation algorithms is a fine-grained classification of the difficulty of various NP-hard problems beyond the one afforded by the theory of NP-completeness. In other words, although NP-complete problems may be equivalent (under polynomial time reductions) to each other from the perspective of exact solutions, the corresponding optimization problems behave very differently from the perspective of approximate solutions.

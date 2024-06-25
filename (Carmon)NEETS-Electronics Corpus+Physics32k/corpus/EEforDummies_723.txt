@@ -1,0 +1,10 @@
+power supply, and the output goes low (0 volts), 
+current will flow through the resistor into the 
+IC — the IC sinks the current. If you connect a 
+resistor between the output pin and the nega-
+tive supply (ground), and the output goes high, 
+current will flow out of the IC and through the 
+resistor — the IC sources the current. Refer to 
+the datasheet for the maximum source or sink 
+current (which are usually the same value) of 
+an IC output.

@@ -1,0 +1,142 @@
+In physics, and in particular in optics, the term group delay has the following meanings:
+1. The rate of change of the total phase shift with respect to angular frequency,
+
+
+
+
+
+τ
+
+g
+
+
+=
+−
+
+
+
+d
+ϕ
+
+
+d
+ω
+
+
+
+
+
+{\displaystyle \tau _{g}=-{\frac {d\phi }{d\omega }}}
+
+
+through a device or transmission medium, where
+
+
+
+ϕ
+
+
+
+{\displaystyle \phi \ }
+is the total phase shift in radians, and
+
+
+
+ω
+
+
+
+{\displaystyle \omega \ }
+is the angular frequency in radians per unit time, equal to
+
+
+
+2
+π
+f
+
+
+
+{\displaystyle 2\pi f\ }
+, where
+
+
+
+f
+
+
+
+{\displaystyle f\ }
+is the frequency (hertz if group delay is measured in seconds).
+2. In an optical fiber, the transit time required for optical power, traveling at a given mode's group velocity, to travel a given distance.
+Note: For optical fiber dispersion measurement purposes, the quantity of interest is group delay per unit length, which is the reciprocal of the group velocity of a particular mode. The measured group delay of a signal through an optical fiber exhibits a wavelength dependence due to the various dispersion mechanisms present in the fiber.
+It is often desirable for the group delay to be constant across all frequencies; otherwise there is temporal smearing of the signal. Because group delay is
+
+
+
+
+τ
+
+g
+
+
+(
+ω
+)
+=
+−
+
+
+
+d
+ϕ
+
+
+d
+ω
+
+
+
+
+
+{\displaystyle \tau _{g}(\omega )=-{\frac {d\phi }{d\omega }}}
+, as defined in (1), it therefore follows that a constant group delay can be achieved if the transfer function of the device or medium has a linear phase response (i.e.,
+
+
+
+ϕ
+(
+ω
+)
+=
+ϕ
+(
+0
+)
+−
+
+τ
+
+g
+
+
+ω
+
+
+
+{\displaystyle \phi (\omega )=\phi (0)-\tau _{g}\omega \ }
+where the group delay
+
+
+
+
+τ
+
+g
+
+
+
+
+
+{\displaystyle \tau _{g}\ }
+is a constant). The degree of nonlinearity of the phase indicates the deviation of the group delay from a constant.

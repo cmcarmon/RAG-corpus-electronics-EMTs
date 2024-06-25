@@ -1,0 +1,80 @@
+In physics, screening is the damping of electric fields caused by the presence of mobile charge carriers. It is an important part of the behavior of charge-carrying fluids, such as ionized gases (classical plasmas), electrolytes, and electronic conductors (semiconductors, metals). In a fluid, with a given relative dielectric constant εR, composed of electrically charged constituent particles, each pair of particles interact through the Coulomb force,
+
+
+
+
+
+F
+
+=
+
+
+
+
+q
+
+1
+
+
+
+q
+
+2
+
+
+
+
+4
+π
+
+ε
+
+0
+
+
+
+ε
+
+R
+
+
+
+
+|
+
+r
+
+|
+
+
+2
+
+
+
+
+
+
+
+
+
+r
+
+^
+
+
+
+
+
+{\displaystyle \mathbf {F} ={\frac {q_{1}q_{2}}{4\pi \varepsilon _{0}\varepsilon _{R}\left|\mathbf {r} \right|^{2}}}{\hat {\mathbf {r} }}}
+.
+This interaction complicates the theoretical treatment of the fluid. For example, a naive quantum mechanical calculation of the ground-state energy density yields infinity, which is unreasonable. The difficulty lies in the fact that even though the Coulomb force diminishes with distance as 1/r², the average number of particles at each distance r is proportional to r², assuming the fluid is fairly isotropic. As a result, a charge fluctuation at any one point has non-negligible effects at large distances.
+In reality, these long-range effects are suppressed by the flow of the fluid particles in response to electric fields. This flow reduces the effective interaction between particles to a short-range "screened" Coulomb interaction. This corresponds to the simplest example of a renormalized interaction (see sections 1.2.1 and 3.2 of ).
+For example, consider a fluid composed of electrons moving in a uniform background of positive charge (one-component plasma). Each electron possesses a negative charge. According to Coulomb's interaction, negative charges repel each other. Consequently, this electron will repel other electrons creating a small region around itself in which there are fewer electrons. This region can be treated as a positively charged "screening hole". Viewed from a large distance, this screening hole has the effect of an overlaid positive charge which cancels the electric field produced by the electron. Only at short distances, inside the hole region, can the electron's field be detected. For a plasma, this effect can be made explicit by an
+
+
+
+N
+
+
+{\displaystyle N}
+-body calculation (see section 5 of ). If the background is made up of positive ions, their attraction by the electron of interest reinforces the above screening mechanism. In atomic physics, a germane effect exists for atoms with more than one electron shell: the shielding effect. In plasma physics, electric-field screening is also called Debye screening or shielding. It manifests itself on macroscopic scales by a sheath (Debye sheath) next to a material with which the plasma is in contact.

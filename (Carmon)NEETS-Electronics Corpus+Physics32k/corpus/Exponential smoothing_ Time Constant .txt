@@ -1,0 +1,88 @@
+The time constant of an exponential moving average is the amount of time for the smoothed response of a unit set function to reach
+
+
+
+1
+−
+1
+
+/
+
+e
+≈
+63.2
+
+%
+
+
+{\displaystyle 1-1/e\approx 63.2\,\%}
+of the original signal. The relationship between this time constant,
+
+
+
+τ
+
+
+{\displaystyle \tau }
+, and the smoothing factor,
+
+
+
+α
+
+
+{\displaystyle \alpha }
+, is given by the formula:
+
+
+
+
+α
+=
+1
+−
+
+e
+
+
+
+−
+Δ
+T
+
+τ
+
+
+
+
+
+{\displaystyle \alpha =1-e^{-\Delta T \over \tau }}
+
+Where
+
+
+
+Δ
+T
+
+
+{\displaystyle \Delta T}
+is the sampling time interval of the discrete time implementation. If the sampling time is fast compared to the time constant then
+
+
+
+
+α
+≈
+
+
+
+Δ
+T
+
+τ
+
+
+
+
+{\displaystyle \alpha \approx {\Delta T \over \tau }}

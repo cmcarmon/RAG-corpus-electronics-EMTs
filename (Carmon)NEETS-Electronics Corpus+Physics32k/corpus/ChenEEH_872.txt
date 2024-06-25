@@ -1,0 +1,9 @@
+An intuitive example of nonzero clock skew being used to
+improve the performance and reliability of a fully synchronous
+digital circuit is shown in Figure 4.6. Two pairs of sequentially
+adjacent ﬂip-ﬂops, R1?R2 and R2?R3, are shown in Figure
+4.6, where both zero skew and nonzero skew situations are
+illustrated in Figures 4.6(A) and 4.6(B), respectively. Note that
+the local data paths made up of the registers R1 and R2 and of
+R2 and R3, respectively, are connected in series (R2 being
+common to both R1?R2 and R2?R3). In each of the Fig-

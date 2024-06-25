@@ -1,0 +1,17 @@
+  (PLL)  is  a  system  that  uses  feedback  to  maintain  an  output  signal  in  a  speciﬁc  phase
+relationship with a reference signal. PLLs are used in many areas of electronics to control the frequency and/or
+phase of a signal. These applications include frequency synthesizers, analog and digital modulators and demod-
+phase
+ulators,  and  clock  recovery  circuits.  Figure  76.1  shows  the  block  diagram  of  a  basic  PLL  system.  The 
+ consists of a device that produces an output voltage proportional to the phase difference of the two
+detector
+  (voltage-controlled  oscillator)  is  a  circuit  that  produces  an  ac  output  signal  whose
+input  signals.  The 
+  is  a  device  that  produces  an  output
+frequency  is  proportional  to  the  input  control  voltage.  The 
+signal whose frequency is an integer (denoted by 
+ is
+s
+) term
+a circuit that is used to control the PLL dynamics and therefore the performance of the system. The 
+is used to denote the Laplace transfer function of this ﬁlter.

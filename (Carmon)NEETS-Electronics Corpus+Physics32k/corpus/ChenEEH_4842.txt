@@ -1,0 +1,21 @@
+To illustrate the communication procedure, consider the
+guidance module that requires altitude information. It sub-
+scribes to this data from the software substrate. When
+subscribing, it declares the data that it needs and the rate at
+which it must receive the data. The GPS and the altimeter both
+publish this data, so the middleware must have a strategy for
+deciding which of these sensors to use in retrieving data. One
+strategy is to give both sensors weight values (Pardo-Castellote
+et al., 1999). The middleware sends data to the subscriber from
+the publisher that has a higher weight. These weights can be
+changed in real-time by the middleware so that alternate
+sensors can be used based on current ﬂight conditions. The
+subscribers themselves are not changed in this process. In a
+similar manner, an additional sensor might be added to the
+system with a prescribed weight. If that weight is higher than
+the existing publishers of that data, the subscribers will receive
+the data from the new component. Note that this is a simpli-
+ﬁed example; in reality, there is usually a ﬁltering module
+between the sensors and controllers that may be used to fuse
+sensor data. This module may be integrated as a separate com-
+ponent that both publishes and subscribes to data.

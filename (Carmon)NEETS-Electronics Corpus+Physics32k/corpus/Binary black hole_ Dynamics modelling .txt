@@ -1,0 +1,84 @@
+Some simplified algebraic models can be used for the case where the black holes are far apart, during the inspiral stage, and also to solve for the final ringdown.
+Post-Newtonian approximations can be used for the inspiral. These approximate the general relativity field equations adding extra terms to equations in Newtonian gravity. Orders used in these calculations may be termed 2PN (second order post Newtonian) 2.5PN or 3PN (third order post Newtonian). Effective-one-body (EOB) solves the dynamics of the binary black hole system by transforming the equations to those of a single object. This is especially useful where mass ratios are large, such as a stellar mass black hole merging with a galactic core black hole, but can also be used for equal mass systems.
+For the ringdown, black hole perturbation theory can be used. The final Kerr black hole is distorted, and the spectrum of frequencies it produces can be calculated.
+To solve for the entire evolution, including merger, requires solving the full equations of general relativity. This can be done in numerical relativity simulations. Numerical relativity models space-time and simulates its change over time. In these calculations it is important to have enough fine detail close into the black holes, and yet have enough volume to determine the gravitation radiation that propagates to infinity. In order to make this have few enough points to be tractable to calculation in a reasonable time, special coordinate systems can be used such as Boyer-Lindquist coordinates or fish-eye coordinates.
+Numerical relativity techniques steadily improved from the initial attempts in the 1960s and 1970s. Long-term simulations of orbiting black holes, however, were not possible until three groups independently developed groundbreaking new methods to model the inspiral, merger, and ringdown of binary black holes  in 2005.
+In the full calculations of an entire merger, several of the above methods can be used together. It is then important to fit the different pieces of the model that were worked out using different algorithms. The Lazarus Project linked the parts on a spacelike hypersurface at the time of the merger.
+Results from the calculations can include the binding energy. In a stable orbit the binding energy is a local minimum relative to parameter perturbation. At the innermost stable circular orbit the local minimum becomes an inflection point.
+The gravitational waveform produced is important for observation prediction and confirmation. When inspiralling reaches the strong zone of the gravitational field, the waves scatter within the zone producing what is called the post Newtonian tail (PN tail).
+In the ringdown phase of a Kerr black hole, frame-dragging produces a gravitation wave with the horizon frequency. In contrast the Schwarzschild black-hole ringdown looks like the scattered wave from the late inspiral, but with no direct wave.
+The radiation reaction force can be calculated by Padé resummation of gravitational wave flux. A technique to establish the radiation is the Cauchy characteristic extraction technique CCE which gives a close estimate of the flux at infinity, without having to calculate at larger and larger finite distances.
+The final mass of the resultant black hole depends on the definition of mass in general relativity. The Bondi mass MB is calculated from the Bondi-Sach mass loss formula.
+
+
+
+
+
+
+d
+
+M
+
+B
+
+
+
+
+d
+U
+
+
+
+=
+−
+f
+(
+U
+)
+
+
+{\displaystyle {\frac {dM_{B}}{dU}}=-f(U)}
+. With f(U) the gravitational wave flux at retarded time U. f is a surface integral of the News function at null infinity varied by solid angle. The Arnowitt-Deser-Misner (ADM) energy or ADM mass is the mass as measured at infinite distance and includes all the gravitational radiation emitted.
+
+
+
+
+M
+
+A
+D
+M
+
+
+=
+
+M
+
+B
+
+
+(
+U
+)
++
+
+∫
+
+−
+∞
+
+
+U
+
+
+F
+(
+V
+)
+d
+V
+
+
+{\displaystyle M_{ADM}=M_{B}(U)+\int _{-\infty }^{U}F(V)dV}
+.
+Angular momentum is also lost in the gravitational radiation. This is primarily in the z axis of the initial orbit. It is calculated by integrating the product of the multipolar metric waveform with the news function complement over retarded time.

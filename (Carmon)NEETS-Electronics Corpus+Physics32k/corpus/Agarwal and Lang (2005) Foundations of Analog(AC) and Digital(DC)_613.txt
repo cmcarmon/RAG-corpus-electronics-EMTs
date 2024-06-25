@@ -1,0 +1,8 @@
+Compared with the numbers obtained earlier in Section 4.3 using graphical
+analysis for E = 3 V, we see that piecewise linear analysis using an approximate
+model for the diode has yielded reasonably accurate results (6 mA versus 5 mA
+for iD, and 3 V versus 2.5 V for vR).
+Intuition also tells us that when E = −5 V, the open circuit segment
+applies. For the negative input voltage, vD is negative. From Equation 4.35,
+when vD is negative, the diode is OFF. In this segment, from Equations 4.38
+and 4.39, both iD and vR are 0.

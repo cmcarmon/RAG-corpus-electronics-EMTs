@@ -1,0 +1,8 @@
+from an input of 1 volt to about 2.32 volts. In order to ensure that the amplifier
+operates within this region of the curve, we must transform the input voltage
+appropriately. As illustrated in Figure 7.25, one way of doing so is to boost the
+signal that we want to amplify (for example, vA) with a DC offset (say, VX) so
+that the amplifier operates in its saturation region even for negative excursions
+of the input signal. Figure 7.26 shows the corresponding circuit that adds an
+offset to the input signal by connecting a DC voltage source (VX) in series with
+the input signal source (vA). In other words, we have

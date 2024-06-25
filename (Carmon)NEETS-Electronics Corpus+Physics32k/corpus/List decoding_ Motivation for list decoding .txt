@@ -1,0 +1,164 @@
+Given a received word
+
+
+
+y
+
+
+{\displaystyle y}
+, which is a noisy version of some transmitted codeword
+
+
+
+c
+
+
+{\displaystyle c}
+, the decoder tries to output the transmitted codeword by placing its bet on a codeword that is “nearest” to the received word. The Hamming distance between two codewords is used as a metric in finding the nearest codeword, given the received word by the decoder. If
+
+
+
+d
+
+
+{\displaystyle d}
+is the minimum Hamming distance of a code
+
+
+
+
+
+C
+
+
+
+
+{\displaystyle {\mathcal {C}}}
+, then there exists two codewords
+
+
+
+
+c
+
+1
+
+
+
+
+{\displaystyle c_{1}}
+and
+
+
+
+
+c
+
+2
+
+
+
+
+{\displaystyle c_{2}}
+that differ in exactly
+
+
+
+d
+
+
+{\displaystyle d}
+positions. Now, in the case where the received word
+
+
+
+y
+
+
+{\displaystyle y}
+is equidistant from the codewords
+
+
+
+
+c
+
+1
+
+
+
+
+{\displaystyle c_{1}}
+and
+
+
+
+
+c
+
+2
+
+
+
+
+{\displaystyle c_{2}}
+, unambiguous decoding becomes impossible as the decoder cannot decide which one of
+
+
+
+
+c
+
+1
+
+
+
+
+{\displaystyle c_{1}}
+and
+
+
+
+
+c
+
+2
+
+
+
+
+{\displaystyle c_{2}}
+to output as the original transmitted codeword. As a result, the half-the minimum distance acts as a combinatorial barrier beyond which unambiguous error-correction is impossible, if we only insist on unique decoding. However, received words such as
+
+
+
+y
+
+
+{\displaystyle y}
+considered above occur only in the worst-case and if one looks at the way Hamming balls are packed in high-dimensional space, even for error patterns
+
+
+
+e
+
+
+{\displaystyle e}
+beyond half-the minimum distance, there is only a single codeword
+
+
+
+c
+
+
+{\displaystyle c}
+within Hamming distance
+
+
+
+e
+
+
+{\displaystyle e}
+from the received word. This claim has been shown to hold with high probability for a random code picked from a natural ensemble and more so for the case of Reed–Solomon codes which is well studied and quite ubiquitous in the real world applications. In fact, Shannon’s proof of the capacity theorem for q-ary symmetric channels can be viewed in light of the above claim for random codes.
+Under the mandate of list-decoding, for worst-case errors, the decoder is allowed to output a small list of codewords. With some context specific or side information, it may be possible to prune the list and recover the original transmitted codeword. Hence, in general, this seems to be a stronger error-recovery model than unique decoding.

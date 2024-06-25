@@ -1,0 +1,17 @@
+Note that most of the clock skews (speciﬁcally, the ﬁrst four)
+listed in Table 1 are at one end of the corresponding permis-
+sible range. This positioning is due to the inherent feature of
+linear programming that seeks the objective function ex-
+tremum at a vertex of the solution space. In practice, however,
+this situation can be dangerous since correct circuit operation
+is strongly dependent on the accurate implementation of a
+large number of clock delays—effectively, the clock skews—
+across the circuit. It is quite possible that the actual values of
+some of these clock delays may ﬂuctuate from the target
+values—due to manufacturing tolerances as well as variations
+in temperature and supply voltage—thereby causing a cata-
+strophic timing failure of the circuit. Observe that while zero
+clocking failures can be corrected by operating the circuit at a
+slower speed (higher clock period TCP), double clocking viola-
+tions are race conditions that are catastrophic and render the
+circuit nonfunctional.

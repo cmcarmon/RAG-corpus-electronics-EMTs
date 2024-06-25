@@ -1,0 +1,10 @@
+from a ﬁnite number of electrodes represents a sampling of the spatial activity over the scalp. Consequently,
+the remaining values of the map located outside the electrode positions must be estimated from this sampled
+activity. One technique for deriving these values is linear interpolation. In the case of a four-point interpolation,
+the map is divided into boxes whose corners are deﬁned by real data. The interpolated points within the boxes
+are calculated by the weighted sum of the four real data points, based on their distance from the interpolated
+point. Although linear interpolation is the most popular technique, polynomial regression and surface spline
+interpolation have been employed as alternative procedures. These methods reduce the discontinuities inherent
+in linear interpolation and offer better estimates of extreme values. Polynomial regression has the additional
+advantage  of  permitting  quantitative  comparisons  between  maps  by  taking  into  account  the  topographic
+information represented in the map.

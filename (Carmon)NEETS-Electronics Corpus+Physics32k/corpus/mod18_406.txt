@@ -1,0 +1,9 @@
+A typical circuit for obtaining a lin-log response is shown in figure 2-33. If detectors 2 and 3 were
+not present, the output voltage would be limited by the saturation point of the final IF stage, as it is in a
+normal IF section. However, when the final stage of the lin-log is saturated, larger signals cause an
+increase in the output of the next to last stage. This increase is detected by detector 2 and summed with
+the output of detector 1. This sum produces an increase in the output even though the final stage is
+saturated. Detector 3 causes the output to continue to increase after the second stage saturates. The overall
+gain becomes less and less as each stage saturates, but some degree of amplification is still available. The
+proper choice of IF stage gains and saturation points produces an approximately logarithmic response
+curve.

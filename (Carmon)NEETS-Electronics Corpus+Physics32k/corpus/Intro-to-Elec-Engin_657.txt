@@ -1,0 +1,14 @@
+In order to smooth out the pulsations (i.e., to eliminate the higher frequency harmonics) of
+the rectiﬁed current, a ﬁlter capacitor may be placed across the load resistor, as shown in Figure
+7.2.9(a). As the source voltage initially increases positively, the diode is forward-biased since
+the load voltage is zero and the source is directly connected across the load. Once the source
+reaches its maximum value VS and begins to decrease, while the load voltage and the capacitor
+voltage are momentarily maintained at VS, the diode becomes reverse-biased and hence open-
+circuited. The capacitor then discharges over time interval t2 through RL until the source voltage
+vS(t) has increased to a value equal to the load voltage. Since the source voltage at this point
+in time exceeds the capacitor voltage, the diode becomes once again forward-biased and hence
+closed. The capacitor once again gets charged to VS. The output current of the rectiﬁer with the
+ﬁlter capacitor is shown in Figure 7.2.9(b), and the circuit conﬁgurations while the capacitor gets
+charged and discharged are shown in Figure 7.2.9(c). The smoothing effect of the ﬁlter can be
+improved by increasing the time constant CRL so that the discharge rate is slowed and the output
+current more closely resembles a true dc current.

@@ -1,0 +1,6 @@
+The  ways  in  which  the  small-signal  quantities  ﬂuctuate  may  now  be  examined.  If  vbe  goes  positive,  this
+actually means that VBE increases a little. This in turn implies that IC increases by an amount ic , so the voltage
+drop in RC increases by vce. Keeping in mind that the top of RC is held at a constant voltage, this means that
+the voltage at the bottom of RC must fall by vce. This very important point shows that because vce falls as vbe
+rises, there is 180(cid:176) phase shift through the stage. That is, the CE stage is an inverting voltage ampliﬁer. However,
+because ic increases into the collector as ib increases into the base, it is also a noninverting current ampliﬁer.

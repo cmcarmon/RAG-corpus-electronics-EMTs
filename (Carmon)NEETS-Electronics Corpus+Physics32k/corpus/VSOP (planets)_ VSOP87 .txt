@@ -1,0 +1,17 @@
+In VSOP87 especially these long period terms were addressed, resulting in much higher accuracy, although the calculation method itself remained similar. VSOP87 guarantees for Mercury, Venus, Earth-Moon barycenter and Mars a precision of 1" for 4000 years before and after the 2000 epoch. The same precision is ensured for Jupiter and Saturn over 2000 years and for Uranus and Neptune over 6000 years before and after J2000.
+This, together with its free availability has made VSOP87 the most popular source for planetary calculations nowadays; for example, it is used in Celestia and Orbiter.
+Another major improvement is the use of rectangular coordinates in addition to the elliptical. In traditional perturbation theory it is customary to write the base orbits for the planets down with the following 6 orbital elements (gravity yields second order differential equations which result in 2 integration constants, and there is one such equation for each direction in 3 dimensional space):
+a semi-major axis
+e eccentricity
+i inclination
+Ω longitude of the ascending node
+ω argument of perihelion (or longitude of perihelion ϖ = ω + Ω)
+T time of perihelion passage (or mean anomaly M)
+Without perturbations these elements would be constant, and are therefore ideal to base the theories on. With perturbations they slowly change, and one takes as many perturbations in the calculations as possible or desirable. The results are the orbital element at a specific time, which can be used to compute the position in either rectangular coordinates (X,Y,Z) or spherical coordinates: longitude, latitude and heliocentric distance. These heliocentric coordinates can then fairly easily be changed to other viewpoints, e.g. geocentric coordinates. For coordinate transformations, rectangular coordinates (X,Y,Z) are often easier to use: translations (e.g. heliocentric to geocentric coordinates) are performed through vector addition, and rotations (e.g. ecliptic to equatorial coordinates) through matrix multiplication.
+VSOP87 comes in 6 tables:
+VSOP87 Heliocentric ecliptic orbital elements for the equinox J2000.0; the 6 orbital elements, ideal to get an idea how the orbits are changing over time
+VSOP87A Heliocentric ecliptic rectangular coordinates for the equinox J2000.0; the most useful when converting to geocentric positions and later plot the position on a star chart
+VSOP87B Heliocentric ecliptic spherical coordinates for the equinox J2000.0
+VSOP87C Heliocentric ecliptic rectangular coordinates for the equinox of the day; the most useful when converting to geocentric positions and later compute e.g. rise/set/culmination times, or the altitude and azimuth relative to your local horizon
+VSOP87D Heliocentric ecliptic spherical coordinates for the equinox of the day
+VSOP87E Barycentric ecliptic rectangular coordinates for the equinox J2000.0, relative to the barycentre of the solar system.

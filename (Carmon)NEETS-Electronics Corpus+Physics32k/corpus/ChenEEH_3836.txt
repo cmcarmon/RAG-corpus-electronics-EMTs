@@ -1,0 +1,19 @@
+In general, an image compression method can be split into
+three basic steps, as depicted in Figure 4.17: transformation,
+quantization, and coding. In the transformation step, a math-
+ematical transformation is applied to the image pixels x(m, n),
+generating a set of coefﬁcients c(k, l) with less correlation
+among themselves. Its main objective is to exploit the correl-
+ation between the image pixels. For these coefﬁcients c(k, l) to
+be represented with a limited number of bits, they have to be
+mapped to a ﬁnite number of symbols, ^cc(k, l). This mapping is
+commonly referred to as quantization. In Section 4.2, we
+introduced some forms of quantization. After the coefﬁcients
+are mapped to a ﬁnite number of symbols, these symbols
+^cc(k, l) must be mapped to a string of bits b(s) to be either
+transmitted or stored. This operation is commonly referred to
+as coding. Actually, we have compression only when the
+number of bits in b(s), s ¼ 0, 1, . . . N is smaller than the
+number of bits needed to represent the pixels x(m, n) them-
+selves. These three steps can be clearly illustrated in the next
+example, differential pulse-coded modulation (DPCM).

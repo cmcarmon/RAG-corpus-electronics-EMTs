@@ -1,0 +1,6 @@
+Linear analysis techniques such as superposition cannot be applied to the whole circuit
+because of the nonlinear element. But because there is only one nonlinear device, it is
+permissible to find the Thévenin (or Norton) equivalent circuit faced by the nonlinear
+device (see Figures 4.13a and b), because this part of the circuit is linear. Then we
+can compute easily the terminal voltage and current for the nonlinear device using the
+circuit in Figure 4.13b from Equations 4.11 and 4.12.

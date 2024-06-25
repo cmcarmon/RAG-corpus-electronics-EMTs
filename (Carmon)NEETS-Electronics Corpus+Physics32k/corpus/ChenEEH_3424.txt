@@ -1,0 +1,13 @@
+Distance relays may be used to protect a transmission line by
+taking the input measurements from only one end of the line.
+Another approach is to connect two distance relays to per-
+form the relaying as a system by exchanging the data between
+the relays from two ends through a communication link. In this
+case, it is important to decide what information gets exchanged
+and how is it used. The logic that describes the approach is
+called a relaying scheme. Most common relaying schemes are
+based on the signals sent by the relay from one end causing
+either blocking and unblocking or facilitating and accelerating
+of the trip from the relay at the other end. In all of the men-
+tioned applications, directionality of a distance relay is an
+important feature. It will be discussed in more detail later on.

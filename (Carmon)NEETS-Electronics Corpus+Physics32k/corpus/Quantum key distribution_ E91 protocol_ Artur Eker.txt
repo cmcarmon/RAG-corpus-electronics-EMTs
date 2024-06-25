@@ -1,0 +1,143 @@
+Artur Ekert's scheme uses entangled pairs of photons. These can be created by Alice, by Bob, or by some source separate from both of them, including eavesdropper Eve. The photons are distributed so that Alice and Bob each end up with one photon from each pair.
+The scheme relies on two properties of entanglement. First, the entangled states are perfectly correlated in the sense that if Alice and Bob both measure whether their particles have vertical or horizontal polarizations, they always get the same answer with 100% probability. The same is true if they both measure any other pair of complementary (orthogonal) polarizations. This necessitates that the two distant parties have exact directionality synchronization. However, the particular results are completely random; it is impossible for Alice to predict if she (and thus Bob) will get vertical polarization or horizontal polarization. Second, any attempt at eavesdropping by Eve destroys these correlations in a way that Alice and Bob can detect.
+Similarly to BB84, the protocol involves a private measurement protocol before detecting the presence of Eve. The measurement stage involves Alice measuring each photon she receives using some basis from the set
+
+
+
+
+Z
+
+0
+
+
+,
+
+Z
+
+
+π
+8
+
+
+
+,
+
+Z
+
+
+π
+4
+
+
+
+
+
+{\displaystyle Z_{0},Z_{\frac {\pi }{8}},Z_{\frac {\pi }{4}}}
+while Bob chooses from
+
+
+
+
+Z
+
+0
+
+
+,
+
+Z
+
+
+π
+8
+
+
+
+,
+
+Z
+
+−
+
+
+π
+8
+
+
+
+
+
+
+{\displaystyle Z_{0},Z_{\frac {\pi }{8}},Z_{-{\frac {\pi }{8}}}}
+where
+
+
+
+
+Z
+
+θ
+
+
+
+
+{\displaystyle Z_{\theta }}
+is the
+
+
+
+{
+
+|
+
+↑
+⟩
+,
+
+
+|
+
+→
+⟩
+}
+
+
+{\displaystyle \{|\uparrow \rangle ,\;|\rightarrow \rangle \}}
+basis rotated by
+
+
+
+θ
+
+
+{\displaystyle \theta }
+. They keep their series of basis choices private until measurements are completed. Two groups of photons are made: the first consists of photons measured using the same basis by Alice and Bob while the second contains all other photons. To detect eavesdropping, they can compute the test statistic
+
+
+
+S
+
+
+{\displaystyle S}
+using the correlation coefficients between Alice's bases and Bob's similar to that shown in the Bell test experiments. Maximally entangled photons would result in
+
+
+
+
+|
+
+S
+
+|
+
+=
+2
+
+
+2
+
+
+
+
+{\displaystyle |S|=2{\sqrt {2}}}
+. If this were not the case, then Alice and Bob can conclude Eve has introduced local realism to the system, violating Bell's Theorem. If the protocol is successful, the first group can be used to generate keys since those photons are completely anti-aligned between Alice and Bob.

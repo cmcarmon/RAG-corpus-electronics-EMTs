@@ -1,0 +1,7 @@
+For any of the six standard robot conﬁgurations, the orientation capability of the major linkages is severely
+limited. Thus, it is critical to provide additional joints, known as the minor linkages, to provide the capability
+of varied orientations for a given position. Most robots include a three-DOF revolute joint wrist that is connected
+to the last link of the major linkages. The three revolute axes will be orthogonal and will usually intersect in a
+common  point,  known  as  the  wrist  center  point.  Then,  the  kinematic  equations  of  the  manipulator  can  be
+partitioned into locating the Cartesian position of the wrist center point and then determining the orientation
+of a Cartesian frame ﬁxed to the wrist axes.

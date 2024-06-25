@@ -1,0 +1,321 @@
+Consider a plane wall located at
+
+
+
+θ
+=
+0
+
+
+{\displaystyle \theta =0}
+in the cylindrical coordinates
+
+
+
+(
+r
+,
+θ
+)
+
+
+{\displaystyle (r,\theta )}
+, moving with a constant velocity
+
+
+
+U
+
+
+{\displaystyle U}
+towards the left. Consider an another plane wall(scraper), at an inclined position, making an angle
+
+
+
+α
+
+
+{\displaystyle \alpha }
+from the positive
+
+
+
+x
+
+
+{\displaystyle x}
+direction and let the point of intersection be at
+
+
+
+r
+=
+0
+
+
+{\displaystyle r=0}
+. This description is equivalent to moving the scraper towards right with velocity
+
+
+
+U
+
+
+{\displaystyle U}
+. It should be noted that the problem is singular at
+
+
+
+r
+=
+0
+
+
+{\displaystyle r=0}
+because at the origin, the velocities are discontinuous, thus the velocity gradient is infinite there.
+Taylor noticed that the inertial terms are negligible as long as the region of interest is within
+
+
+
+r
+≪
+ν
+
+/
+
+U
+
+
+{\displaystyle r\ll \nu /U}
+( or, equivalently Reynolds number
+
+
+
+R
+e
+=
+U
+r
+
+/
+
+ν
+<<
+1
+
+
+{\displaystyle Re=Ur/\nu <<1}
+), thus within the region the flow is essentially a Stokes flow. For example, George Batchelor gives a typical value for lubricating oil with velocity
+
+
+
+U
+=
+10
+
+cm
+
+
+/
+
+
+s
+
+
+
+{\displaystyle U=10{\text{ cm}}/{\text{s}}}
+as
+
+
+
+r
+≪
+0.4
+
+cm
+
+
+
+{\displaystyle r\ll 0.4{\text{ cm}}}
+. Then for two-dimensional planar problem, the equation is
+
+
+
+
+
+∇
+
+4
+
+
+ψ
+=
+0
+,
+
+
+u
+
+r
+
+
+=
+
+
+1
+r
+
+
+
+
+
+∂
+ψ
+
+
+∂
+θ
+
+
+
+,
+
+
+u
+
+r
+
+
+=
+−
+
+
+
+∂
+ψ
+
+
+∂
+r
+
+
+
+
+
+{\displaystyle \nabla ^{4}\psi =0,\quad u_{r}={\frac {1}{r}}{\frac {\partial \psi }{\partial \theta }},\quad u_{r}=-{\frac {\partial \psi }{\partial r}}}
+
+where
+
+
+
+
+v
+
+=
+(
+
+u
+
+r
+
+
+,
+
+u
+
+θ
+
+
+)
+
+
+{\displaystyle \mathbf {v} =(u_{r},u_{\theta })}
+is the velocity field and
+
+
+
+ψ
+
+
+{\displaystyle \psi }
+is the stream function. The boundary conditions are
+
+
+
+
+
+
+
+
+r
+>
+0
+,
+
+θ
+=
+0
+:
+
+
+
+
+u
+
+r
+
+
+=
+−
+U
+,
+
+
+u
+
+θ
+
+
+=
+0
+
+
+
+
+r
+>
+0
+,
+
+θ
+=
+α
+:
+
+
+
+
+u
+
+r
+
+
+=
+0
+,
+
+
+u
+
+θ
+
+
+=
+0
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}r>0,\ \theta =0:&\quad u_{r}=-U,\ u_{\theta }=0\\r>0,\ \theta =\alpha :&\quad u_{r}=0,\ u_{\theta }=0\end{aligned}}}

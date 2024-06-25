@@ -1,0 +1,4 @@
+In the case of data transmission, a lost cell will result in an unusable frame unless the data is encoded to
+guard against cell loss prior to transmission. Coding might be provided by the AAL, for example. The trade-
+offs involved in coding and retransmission and their impact upon network throughput, delay and complexity
+are not well understood at the time of this writing. Part of the reason for this is that cell loss probability and

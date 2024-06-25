@@ -1,0 +1,10 @@
+For example, the image LENA has the histogram in Figure
+4.18(A). It corresponds to an entropy of 7.40 bits/pixel, and
+thus, one needs at least 8 bits to represent each pixel of the
+image LENA. On the other hand, the entropy of the coefﬁ-
+cients, whose histogram is in Figure 4.18(B), is 3.18 bits/coef-
+ﬁcient. Therefore, one can ﬁnd a Huffman code that just needs
+4 bits to represent each of them. This is equivalent to a
+compression ratio of 2:1. This compression was achieved by
+the combination of the transformation (taking differences)
+and coding (Huffman codes) operation.

@@ -1,0 +1,7 @@
+The output frequency can be determined by controlling how long the tank circuit will oscillate. For 
+example, suppose a negative input gate of 500 microseconds and a positive input gate of 999,500 
+microseconds (total of 1 second) are applied. The transistor will be cut off for 500 microseconds and the 
+tank circuit will oscillate for that 500 microseconds, producing an output signal. The transistor will then 
+conduct for 999,500 microseconds and the tank circuit will not oscillate during that time period. The 500 
+microseconds that the tank circuit is allowed to oscillate will allow only 500 cycles of the 1-megahertz 
+tank frequency. 

@@ -1,0 +1,20 @@
+Memory Design Techniques
+Memory design techniques techniques are mainly focused on
+reducing the power consumed by memories, such as creatively
+exploiting caching to reduce power consumption (Pedram and
+Rabaey, 2002). Increasing memory blocks on-chip can reduce
+the overall power consumption of a processor because the
+power dissipation of an external memory access is at least an
+order of magnitude higher than that of an on-chip access (Ko
+et al., 1998). The discrepancy is due mainly to the relatively
+large capacitive overhead in driving device I/O, board traces,
+and discrete memory components. For optimizing internal
+memories, Lee and Tiwari (1996) analyze memory allocation
+of variables in embedded DSP software to maximize simulta-
+neous data transfers from different memory banks to registers.
+A memory allocation technique based on simulated annealing
+is proposed. Experimental results demonstrate that energy
+reduction of up to 47% can be achieved using this approach.
+In work by Wen-Tsong et al. (1999), a relation between energy
+consumption and cache design (i.e., cache size, line size, set
+associativity, and tiling) is established.

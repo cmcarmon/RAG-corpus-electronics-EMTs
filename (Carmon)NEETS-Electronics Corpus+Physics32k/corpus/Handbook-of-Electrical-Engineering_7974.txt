@@ -1,0 +1,5 @@
+In the material that follows, it is assumed that operands are signed n-bit binary numbers with the left-most
+bit  representing  the  sign  (0  for  positive  and  1  for  negative)  when  discussing  arithmetic  operations/circuits.
+Negative numbers will be represented in two’s complement form. Recall that the two’s complement of an n-bit
+number A  is A¢  +  1  where A¢  represents  the  bit-wise  complement  of A.  Unsigned  n-bit  binary  numbers  are
+assumed for logic operations/circuits.

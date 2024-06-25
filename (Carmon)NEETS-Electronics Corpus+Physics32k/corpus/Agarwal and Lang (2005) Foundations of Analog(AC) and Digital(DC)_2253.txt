@@ -1,0 +1,7 @@
+and for the OFF state, vr = 0.
+The regions of validity for these waveforms can be found from the constraint equations
+for the ideal diode, Equations 16.2 and 16.3. The ON subcircuit only applies for iD
+positive, hence the valid regions of vra are the positive segments. The OFF subcircuit
+must therefore fill in the gaps. More formally, the OFF circuit applies when the voltage
+across the ideal diode is negative, hence for vi less than 0.6 V. The composite solution is
+shown in Figure 16.10d.

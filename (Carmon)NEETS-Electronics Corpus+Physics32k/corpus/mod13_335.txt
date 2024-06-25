@@ -1,0 +1,7 @@
+Look at figure 3-14, view A. Let’s assume SB0 is HIGH and RB0 is LOW. You should remember
+from chapter 2 that the output of an inverter is the complement of the input. In this case, since SB0 is
+HIGH, SBO  will be LOW. The LOW input to NAND gate 1 causes the Q output to go HIGH. This
+HIGH Q output is also fed to the input of NAND gate 2. The other input to NAND gate 2, RBO, is
+HIGH. With both inputs to gate 2 HIGH, the output goes LOW. The LOW Q  output is also fed to NAND
+gate 1 to be used as the "latch" signal. If SB0 goes LOW while this condition exists, there will be no
+change to the outputs because the FF would be in the latched condition; both SB0 and RB0 LOW.

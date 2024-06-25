@@ -1,0 +1,6 @@
+Training HMM-based recognizers involves estimating the parameters for the word or phone models used in
+the  system.  As  with  DTW,  several  repetitions  of  each  word  in  the  recognition  vocabulary  are  used  to  train
+HMM-based  isolated  word  recognizers.  For  continuous  speech  recognition,  word  or  phone  exemplars  are
+typically extracted from word strings or sentences [Lee, 1988]. Parameters for the models are chosen based on
+a  maximum  likelihood  criterion;  that  is,  the  parameters  l  maximize  the  likelihood  of  the  training  data  O,
+P(O*l).  This  maximization  is  performed  using  the Baum-Welch algorithm  [Rabiner,  1989],  a  re-estimation

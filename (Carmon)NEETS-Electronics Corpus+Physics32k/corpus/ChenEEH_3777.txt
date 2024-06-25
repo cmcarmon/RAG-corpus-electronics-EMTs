@@ -1,0 +1,13 @@
+A related issue is to decide upon the number of symbols
+(centroids) in the VQ codebook if a discrete-observation
+model is used. One measure of the quality of a codebook is
+the average distance of a vector observation in the training data
+from its corresponding symbol. This ﬁgure is often called the
+codebook distortion. The smaller the distortion, the more
+accurately the centroids represent the vectors they replace. Typ-
+ically, recognizers use codebooks of size 32–256 with the larger
+sizes being more common. Since a larger codebook implies
+increased computation, there is an incentive to keep the code-
+book as small as possible without decreasing performance. Like
+the other parametric decisions that must be made about an
+HMM, this issue is principally guided by experimental evidence.

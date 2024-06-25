@@ -1,0 +1,13 @@
+Common-Base (CB) Conﬁguration
+The common-base (CB) ampliﬁer is shown in Figure 8.3.3(a), in which the base forms the common
+terminal between the input and output circuits, and resistors R1, R2, RC, and RE are selected through
+biasing. Capacitors CB, CC, and CE are chosen large enough to act as short circuits at the lowest
+frequency of interest in the input signal vS. The output voltage vL is taken from the collector across
+resistor RL. The small-signal ac equivalent circuit of the ampliﬁer is shown in Figure 8.3.3(b),
+whose analysis yields the following results:
+RH = RC(cid:8)RL = RC RL
+RC + RL
+rπ (ro + RH )
+Ri =
+Rin = RE(cid:8)Ri = RERi
+RE + Ri

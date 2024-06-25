@@ -1,0 +1,14 @@
+tion, but there has been increasing research activity on gradual
+shot boundary detection as well. Most of the existing tech-
+niques reported in the literature detect shot boundary by
+extracting some form of feature for each frame in the video
+sequence, then evaluating a similarity measure on features
+extracted from successive pairs of frames in the video se-
+quence, and ﬁnally declaring the detection of a shot boundary
+if the features difference conveyed by the similarity measure
+exceeds a threshold. One such approach is presented in
+(Naphade et al., 1998a) in which two difference metrics, histo-
+gram distance metric (HDM) and spatial distance metric
+(SDM), are computed for every frame pair. HDM is deﬁned
+in terms of three-channel linearized histograms computed for
+successive frame pair fi and fiþ1 as follows:

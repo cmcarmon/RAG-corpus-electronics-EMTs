@@ -1,0 +1,13 @@
+Mean Time To Recover (MTTR) is the length of time required to restore operation to specification.
+This includes three values.
+Mean Time To Discover
+Mean Time To Isolate
+Mean Time To Repair
+Mean Time To Discover is the length of time that transpires between when a failure occurs and the system users become aware of the failure. There are two maintenance philosophies associated with Mean Time To Discover.
+Condition-based maintenance (CBM)
+Planned Maintenance System (PMS)
+CBM works like your car where an oil indicator tells you when oil pressure is too low and a temperature indicator tells you when engine temperature is too high. There is zero time to discover a failure where an indicator is placed in front of a system operator.
+PMS is required for silent failures that lack CBM. PMS works is periodic maintenance, like when you perform diagnostic tests on your car every 90 days (or 3,000 miles). A failure may occur any time during the 90 days, such as a broken light, but you will not become aware until you perform diagnostic test.
+Mean Time To Discover is statistical when PMS is the dominant maintenance philosophy. For example, if a fault is discovered during PMS diagnostic procedure that is run every 10 days, the average fault duration will be 5 days. This creates a dependency between availability performance and labor costs. There is no such dependency associated with CBM.
+Mean Time To Isolate is the average length of time required to identify a setting that needs to be adjusted or a component that needs to be replaced. This is dependent on documentation, training, and technical support. This tends to be less on systems that have CBM because users can begin with the list of items connected to the indicator used to notify users about the fault. This also tends to be less on fully documented systems.
+Mean Time To Repair is the average length of time to restore operation. For mission critical systems, this is generally estimated by dividing time required to replace all parts by the number of replaceable parts.

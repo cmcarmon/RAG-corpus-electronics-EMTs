@@ -1,0 +1,133 @@
+The added mass can be incorporated into most physics equations by considering an effective mass as the sum of the mass and added mass. This sum is commonly known as the "virtual mass".
+A simple formulation of the added mass for a spherical body permits Newton's classical second law to be written in the form
+
+
+
+
+F
+=
+m
+
+a
+
+
+{\displaystyle F=m\,a}
+becomes
+
+
+
+F
+=
+(
+m
++
+
+m
+
+added
+
+
+)
+
+a
+.
+
+
+{\displaystyle F=(m+m_{\text{added}})\,a.}
+
+One can show that the added mass for a sphere (of radius
+
+
+
+r
+
+
+{\displaystyle r}
+) is
+
+
+
+
+
+
+2
+3
+
+
+
+π
+
+r
+
+3
+
+
+
+ρ
+
+fluid
+
+
+
+
+{\displaystyle {\tfrac {2}{3}}\pi r^{3}\rho _{\text{fluid}}}
+, which is half the volume of the sphere times the density of the fluid. For a general body, the added mass becomes a tensor (referred to as the induced mass tensor), with components depending on the direction of motion of the body. Not all elements in the added mass tensor will have dimension mass, some will be mass × length and some will be mass × length2.
+All bodies accelerating in a fluid will be affected by added mass, but since the added mass is dependent on the density of the fluid, the effect is often neglected for dense bodies falling in much less dense fluids. For situations where the density of the fluid is comparable to or greater than the density of the body, the added mass can often be greater than the mass of the body and neglecting it can introduce significant errors into a calculation.
+For example, a spherical air bubble rising in water has a mass of
+
+
+
+
+
+
+4
+3
+
+
+
+π
+
+r
+
+3
+
+
+
+ρ
+
+air
+
+
+
+
+{\displaystyle {\tfrac {4}{3}}\pi r^{3}\rho _{\text{air}}}
+but an added mass of
+
+
+
+
+
+
+2
+3
+
+
+
+π
+
+r
+
+3
+
+
+
+ρ
+
+water
+
+
+.
+
+
+{\displaystyle {\tfrac {2}{3}}\pi r^{3}\rho _{\text{water}}.}
+Since water is approximately 800 times denser than air (at RTP), the added mass in this case is approximately 400 times the mass of the bubble.

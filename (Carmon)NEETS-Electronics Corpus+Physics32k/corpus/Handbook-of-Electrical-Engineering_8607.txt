@@ -1,0 +1,4 @@
+Since there are two types of dynamic storage, there must be some way to lay out memory so that unpredictable
+needs in either stack or heap can be met at all times. The mechanism is simplicity itself. The program is stuffed
+into low addresses in memory along with any static storage (e.g., globals) which are declared in the program.
+The entire remaining space is then devoted to dynamic storage. The heap starts right after the program and

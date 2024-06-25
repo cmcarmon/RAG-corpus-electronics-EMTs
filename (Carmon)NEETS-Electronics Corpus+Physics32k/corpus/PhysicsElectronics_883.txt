@@ -1,0 +1,6 @@
+The successive-approximation ADC is the most commonly used design (ﬁgure 8.6). This
+design requires only a single comparator and will be only as good as the DAC used in the
+circuit.
+The analog output of a high-speed DAC is compared against the analog input signal. The
+digital result of the comparison is used to control the contents of a digital buﬀer that both
+drives the DAC and provides the digital output word.

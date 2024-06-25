@@ -1,0 +1,31 @@
+In research work presented in this chapter, the online fault
+accommodation control problems under various system fail-
+ures were investigated. The major interest was focused on
+dealing with the unanticipated system failures in the general
+formulation. Through discrete-time Lyapunov stability theory,
+the necessary and sufﬁcient conditions to guarantee the system
+online stability and performance under failures were derived
+together with an online fault accommodation control tech-
+nique. In general, the effectiveness of the developed online
+fault accommodation technique for unanticipated system fail-
+ures was demonstrated through the simulation study. Based on
+modern intelligent techniques, the unexpected failures could
+be identiﬁed and properly accommodated online without the
+complete realization of the failure dynamics. The price paid for
+this achievement of the successful control mission relies on a
+certain degree of computational complexity. Simulation results
+indicate that, under the Levenberg-Marquardt training algo-
+rithm with Bayesian regularization (Demuth and Beale, 1998;
+Mackey, 1992), the online learning of the unanticipated failure
+dynamics usually converges within 10 iterations, and the
+online simulation speed can reach two to three time-steps
+per second under the Intel Pentium II 450 dual processors.
+Although this may not be fast enough in many real-time
+control systems that require a higher sampling rate,
+it is
+believed that with the continuous performance improvement
+of microprocessors and semiconductor
+the
+proposed online fault accommodation technique will be
+implemented online in most of the real-time control systems
+in near future.

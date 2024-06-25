@@ -1,0 +1,33 @@
+Electric Generators
+To understand modeling generators for dynamic analysis, more
+details on the physical construction are needed. Most gener-
+ators are three-phase synchronous machines, which means they
+are designed to operate at a constant frequency. The machine
+rotor is driven mechanically by the prime mover governing
+system to control power output and speed. Synchronous ma-
+chine rotors can be classiﬁed as either cylindrical or salient
+pole. Cylindrical rotors have an even air gap at all points
+between the stator, i.e., the stationary part of the machine, and
+the rotor. This construction is used for machines that rotate at
+high speed, typically steam-driven generators. Steam generators
+generally are two-pole or four-pole machines and so rotate, in
+North America, at 1800 RPM or 3600 RPM to produce the
+desired 60 Hz signal. Hydro generators, conversely, may have
+numerous pole pairs, as it is more efﬁcient to drive them at
+lower speeds. These generators have a salient pole construction
+that leads to a variable air gap between the stator and the rotor.
+For modeling purposes, the pole construction is important
+because it represents the mechanical speed of rotations and
+also because the transfer of power from the rotor to the stator
+through mutual inductance depends on the size of the air gap
+(i.e., the reluctance of the air gap and, thus, the effective
+coupling). During disturbances, these variations are most evi-
+dent, and the effective circuit inductances must be modeled
+accurately. In modern power system modeling for dynamic
+analysis, a rotating frame of reference is chosen to represent
+these effects. The circuit equations are then written in terms of
+direct and quadrature axes. For simplicity, the more involved
+rotating frame of reference models are not developed here but
+instead a simple model approximating the variable inductances
+is presented. To begin, there are primarily two sets of windings
+of concern:

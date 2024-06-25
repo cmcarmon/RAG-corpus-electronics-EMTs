@@ -1,0 +1,12 @@
+To use PSpice, we ﬁrst draw the schematic as shown in Fig. 7.64.
+We  recall  from Appendix  D  that  the  part  name  for  a  closed  switch  is
+Sw_tclose.  We  do  not  need  to  specify  the  initial  condition  of  the
+inductor  because  PSpice will  determine  that  from  the  circuit.  By
+selecting  Analysis/Setup/Transient,  we  set  Print  Step to  25  ms  and
+Final Step to 
+After  saving  the  circuit,  we  simulate  by
+selecting  Analysis/Simulate.  In  the  PSpice A/D  window,  we  select
+Trace/Add and  display  –I(L1)  as  the  current  through  the  inductor.
+Figure 7.65 shows the plot of 
+which agrees with that obtained by
+hand calculation.

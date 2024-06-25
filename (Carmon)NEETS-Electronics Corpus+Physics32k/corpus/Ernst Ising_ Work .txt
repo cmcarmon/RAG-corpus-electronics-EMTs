@@ -1,0 +1,144 @@
+The Ising model is defined on a discrete collection of variables called spins, which can take on the value 1 or −1. The spins
+
+
+
+
+S
+
+i
+
+
+
+
+{\displaystyle S_{i}}
+interact in pairs, with energy that has one value when the two spins are the same, and a second value when the two spins are different.
+The energy of the Ising model is defined to be:
+
+
+
+
+E
+=
+−
+
+∑
+
+i
+j
+
+
+
+J
+
+i
+j
+
+
+
+S
+
+i
+
+
+
+S
+
+j
+
+
+
+
+
+{\displaystyle E=-\sum _{ij}J_{ij}S_{i}S_{j}\,}
+
+where the sum counts each pair of spins only once. Notice that the product of spins is either +1 if the two spins are the same (aligned), or −1 if they are different (anti-aligned). J is half the difference in energy between the two possibilities. Magnetic interactions seek to align spins relative to one another. Spins become randomized when thermal energy is greater than the strength of the interaction.
+For each pair, if
+
+
+
+
+
+J
+
+i
+j
+
+
+>
+0
+
+
+{\displaystyle J_{ij}>0}
+the interaction is called ferromagnetic
+
+
+
+
+
+J
+
+i
+j
+
+
+<
+0
+
+
+{\displaystyle J_{ij}<0}
+the interaction is called antiferromagnetic
+
+
+
+
+
+J
+
+i
+j
+
+
+=
+0
+
+
+{\displaystyle J_{ij}=0}
+the spins are noninteracting
+
+A ferromagnetic interaction tends to align spins, and an antiferromagnetic tends to antialign them.
+The spins can be thought of as living on a graph, where each node has exactly one spin, and each edge connects two spins with a nonzero value of J. If all the Js are equal, it is convenient to measure energy in units of J. Then a model is completely specified by the graph and the sign of J.
+The antiferromagnetic one-dimensional Ising model has the energy function:
+
+
+
+
+E
+=
+
+∑
+
+i
+
+
+
+S
+
+i
+
+
+
+S
+
+i
++
+1
+
+
+
+
+
+{\displaystyle E=\sum _{i}S_{i}S_{i+1}\,}
+
+where i runs over all the integers. This links each pair of nearest neighbors.
+In his 1924 PhD thesis, Ising solved the model for the 1D case. In one dimension, the solution admits no phase transition. On the basis of this result, he incorrectly concluded that his model does not exhibit phase behaviour in any dimension.
+It was only in 1949 that Ising knew the importance his model attained in scientific literature, 25 years after his Ph.D thesis. Today, each year, about 800 papers are published that use the model to address problems in such diverse fields as neural networks, protein folding, biological membranes and social behavior.

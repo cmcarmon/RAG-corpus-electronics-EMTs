@@ -1,0 +1,12 @@
+Our  recommended  approach  is  to  ﬁt  subsets  of  relevant  parameters  to  corresponding  subsets  of  relevant
+data in a way that makes physical sense. For example, in the MOS level 3 model, VT0 is deﬁned as the threshold
+voltage of a long, wide transistor at zero back-bias. It does not make sense to use this parameter to ﬁt to a short
+channel  transistor,  or  to  ﬁt  at  nonzero  back-bias  values,  or  to  ﬁt  to  anywhere  outside  the  linear  region.  In
+addition, subsets of parameters should be obtained in the proper order so that those obtained at a later step
+do not affect those obtained at earlier steps. That is, we would not obtain saturation region parameters before
+we have obtained linear region parameters because the values of the linear region parameters would inﬂuence
+the saturation region ﬁts; we would have to go back and reoptimize on the saturation region parameters after
+obtaining the linear region parameters. Finally, never use optimization to obtain a parameter value when the
+parameter can be measured directly. For example, the MOS oxide thickness, TOX, is a model parameter, but
+we would never use optimization to ﬁnd it. Always measure its value directly on a large oxide capacitor provided
+on the test chip. The recommended procedure for proper device characterization follows:

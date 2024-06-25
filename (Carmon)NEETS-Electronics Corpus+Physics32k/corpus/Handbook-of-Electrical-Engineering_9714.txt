@@ -1,0 +1,13 @@
+where p
+Q is the part quality factor, with several categories, ranging from a full mil-spec part to a commercial
+part; p
+T is the temperature acceleration factor, related to both the technology in use and the actual operating
+temperature; p
+V is the voltage stress derating factor, which is higher for devices operating at higher voltages;
+p
+E  is  the  application  environment  factor  (the  handbook  gives  figures  for  many  categories  of  environment,
+ranging from laboratory conditions up to the conditions found in the nose cone of a missile in ﬂight); p
+L is
+the device learning factor, related to how mature the technology is and how long the production of the part
+has been going on; C1 is the circuit complexity factor, dependent on the number of transistors on the chip; and
+C2 is the package complexity, related to the number of pins and the type of package.

@@ -1,0 +1,5 @@
+All four DL_CONNECT primitives are used to establish a data link. An analogy to an ordinary phone call
+can  better  illustrate  the  basic  idea  of  the  primitives.  The  DL_CONNECT.request  is  equivalent  to  picking  up
+the phone and dialing. The phone ringing at the called party’s end is represented by the DL_CONNECT.indi-
+cation.  DL_CONNECT.response  is  equivalent  to  the  called  party  lifting  the  receiver  and  answering,  and
+DL_CONNECT.conﬁrm is equivalent to the calling party hearing the response of the called party.

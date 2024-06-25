@@ -1,0 +1,6 @@
+Heat is provided by turning on a relay that supplies power to a heater coil. The on-off signal to the relay can
+be supplied by 1 bit of an output port of the microprocessor (typically the port would be 8 bits wide). A second
+bit of the port can be used to turn a fan on and off to supply cooling air to the chamber. An analog-to-digital
+(A/D) converter is employed to convert the ampliﬁed thermocouple signal to a digital word that is then supplied
+to the input port of the microprocessor. The program being executed by the microprocessor reads the temper-
+ature data supplied to the input port and compares the binary number representing the temperature to a binary

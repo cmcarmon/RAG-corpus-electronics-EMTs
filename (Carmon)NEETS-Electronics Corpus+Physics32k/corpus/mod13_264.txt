@@ -1,0 +1,5 @@
+Figure 2-21compares a NOR gate (view A), to an OR gate with inverters on both inputs (view B),
+and shows the respective Truth Tables. The NOR gate will produce a HIGH output only when both inputs
+are LOW. The OR gate with inverted inputs produces a HIGH output with all input combinations
+EXCEPT when both inputs are HIGH. This figure also illustrates the differences between the expressions
+f = A B+  (A OR B quantity NOT) and f = A  + B  (NOT A OR NOT B).

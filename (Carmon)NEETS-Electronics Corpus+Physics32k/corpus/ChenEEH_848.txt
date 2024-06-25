@@ -1,0 +1,9 @@
+Previous research (Neves and Friedman, 1996a, 1996b)
+has indicated that tight control over the clock skews rather
+than the clock delays is necessary for the circuit to operate
+reliably. The timing constraints of sequentially adjacent pairs
+of registers are used to determine a permissible range of allow-
+able clock skew for each signal path (Friedman, 1995; Neves and
+Friedman, 1996a, 1996b; Afghani and Svensson, 1990; Kourtev,
+1999). The concept of a permissible range for the clock skew sk
+of a data path Ri?Rf is illustrated in Figure 4.2.

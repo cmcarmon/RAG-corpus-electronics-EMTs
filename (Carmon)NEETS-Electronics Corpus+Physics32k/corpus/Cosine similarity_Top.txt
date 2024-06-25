@@ -1,0 +1,64 @@
+Cosine similarity is a measure of similarity between two non-zero vectors of an inner product space that measures the cosine of the angle between them. The cosine of 0° is 1, and it is less than 1 for any other angle in the interval [0,2π). It is thus a judgment of orientation and not magnitude: two vectors with the same orientation have a cosine similarity of 1, two vectors at 90° have a similarity of 0, and two vectors diametrically opposed have a similarity of -1, independent of their magnitude. Cosine similarity is particularly used in positive space, where the outcome is neatly bounded in [0,1]. The name derives from the term "direction cosine": in this case, note that unit vectors are maximally "similar" if they're parallel and maximally "dissimilar" if they're orthogonal (perpendicular). This is analogous to the cosine, which is unity (maximum value) when the segments subtend a zero angle and zero (uncorrelated) when the segments are perpendicular.
+Note that these bounds apply for any number of dimensions, and cosine similarity is most commonly used in high-dimensional positive spaces. For example, in information retrieval and text mining, each term is notionally assigned a different dimension and a document is characterised by a vector where the value of each dimension corresponds to the number of times that term appears in the document. Cosine similarity then gives a useful measure of how similar two documents are likely to be in terms of their subject matter.
+The technique is also used to measure cohesion within clusters in the field of data mining.
+Cosine distance is a term often used for the complement in positive space, that is:
+
+
+
+
+D
+
+C
+
+
+(
+A
+,
+B
+)
+=
+1
+−
+
+S
+
+C
+
+
+(
+A
+,
+B
+)
+,
+
+
+{\displaystyle D_{C}(A,B)=1-S_{C}(A,B),}
+where
+
+
+
+
+D
+
+C
+
+
+
+
+{\displaystyle D_{C}}
+is the cosine distance and
+
+
+
+
+S
+
+C
+
+
+
+
+{\displaystyle S_{C}}
+is the cosine similarity. It is important to note, however, that this is not a proper distance metric as it does not have the triangle inequality property—or, more formally, the Schwarz inequality—and it violates the coincidence axiom; to repair the triangle inequality property while maintaining the same ordering, it is necessary to convert to angular distance (see below.)
+One of the reasons for the popularity of cosine similarity is that it is very efficient to evaluate, especially for sparse vectors, as only the non-zero dimensions need to be considered.

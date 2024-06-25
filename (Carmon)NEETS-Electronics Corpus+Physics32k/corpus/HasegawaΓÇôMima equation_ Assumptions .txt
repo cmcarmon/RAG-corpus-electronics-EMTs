@@ -1,0 +1,113 @@
+The magnetic field is large enough that:
+
+
+
+
+
+
+1
+
+ω
+
+c
+i
+
+
+
+
+
+
+∂
+
+∂
+t
+
+
+
+≪
+1
+
+
+{\displaystyle {\frac {1}{\omega _{ci}}}{\frac {\partial }{\partial t}}\ll 1}
+
+
+for all quantities of interest. When the particles in the plasma are moving through a magnetic field, they spin in a circle around the magnetic field. The frequency of oscillation,
+
+
+
+
+ω
+
+c
+i
+
+
+
+
+{\displaystyle \omega _{ci}}
+known as the cyclotron frequency or gyrofrequency, is directly proportional to the magnetic field.
+The particle density follows the quasineutrality condition:
+
+
+
+
+
+n
+
+e
+
+
+≈
+Z
+
+n
+
+i
+
+
+
+
+
+{\displaystyle n_{e}\approx Zn_{i}\,}
+
+
+where Z is the number of protons in the ions. If we are talking about hydrogen Z = 1, and n is the same for both species. This condition is true as long as the electrons can shield out electric fields. A cloud of electrons will surround any charge with an approximate radius known as the Debye length. For that reason this approximation means the size scale is much larger than the Debye length. The ion particle density can be expressed by a first order term that is the density defined by the quasineutrality condition equation, and a second order term which is how much it differs from the equation.
+The first order ion particle density is a function of position, but not time. This means that perturbations of the particle density change at a timescale much slower than the scale of interest. The second order particle density which causes a charge density and thus an electric potential can change with time.
+The magnetic field, B must be uniform in space, and not be a function of time. The magnetic field also moves at a timescale much slower than the scale of interest. This allows the time derivative in the momentum balance equation to be neglected.
+The ion temperature must be much smaller than the electron temperature. This means that the ion pressure can be neglected in the ion momentum balance equation.
+The electrons follow a Boltzmann distribution where:
+
+
+
+
+n
+=
+
+n
+
+0
+
+
+
+e
+
+e
+ϕ
+
+/
+
+
+T
+
+e
+
+
+
+
+
+
+
+{\displaystyle n=n_{0}e^{e\phi /T_{e}}\,}
+
+
+Since the electrons are free to move along the direction of the magnetic field, they screen away electric potentials. This screening causes a Boltzmann distribution of electrons to form around the electric potentials.

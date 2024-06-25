@@ -1,0 +1,11 @@
+A control engineer often describes a system through the use of block diagrams of different kinds. To bypass
+the bottleneck between theoretical design and actual real-time implementation, systems which took engineering
+block diagrams and automatically converted them into simulation and/or real-time code started to emerge in
+the  middle  of  the  1980s. As  an  early  example,  already  in  1984  General  Electric  decided  to  develop  a  block-
+diagram-based tool with automatic code generation capabilities. This program allowed draftspersons to enter
+control  block  diagrams  and  automatically  convert  the  functionality  of  these  diagrams  into  real-time  code.
+Although it used limited graphics, this GE-Internal “Autocode” program successfully produced code at 50% of
+the cost of traditionally generated code, primarily due to error reduction of not hand coding. This reduction
+of  costs  provided  the  evidence  that  automatic  translation  of  block  diagrams  is  both  feasible  and  desirable.
+However, due to advances in both computer graphics and code-generation techniques, the ﬁrst tool was obsolete
+by the late 1980s. In recent years, several commercial block-diagram-based tools have become available. These

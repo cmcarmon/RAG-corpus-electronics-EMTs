@@ -1,0 +1,10 @@
+A variety of techniques, employing either hardware, software, or a combination of the two, can be employed
+to assure that most memory references are satisﬁed by the faster memory. The foremost of these techniques is
+ principle. This principle captures the fact that some memory locations
+the exploitation of the 
+  is  the  property  that  an  access  to  a  given
+are  referenced  much  more  frequently  than  others. 
+memory  location  greatly  increases  the  probability  that  neighboring  locations  will  soon  be  accessed.  This  is
+Temporal locality
+largely, but not exclusively, a result of the tendency to access memory locations sequentially. 
+is the property that an access to a given memory location greatly increases the probability that the same location

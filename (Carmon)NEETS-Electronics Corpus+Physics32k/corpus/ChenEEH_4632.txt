@@ -1,0 +1,13 @@
+In both the continuous, and discrete gain-scheduling
+designs, stability and performance of
+the gain-scheduled
+system can, in general, only be guaranteed in a neighborhood
+of the current operating condition. Speciﬁcally, the gain-
+scheduled design is not guaranteed stable or guaranteed to
+exhibit desired performance properties for all u 2 Q, or for
+all u 2 F Q. It is the latter of these two conditions that is the
+most difﬁcult to guarantee. Further assurances of stability and
+performance must be derived from extensive simulation and
+testing. Successful designs typically involve scheduling on a
+slowly changing variable that captures the nonlinear behavior
+of the plant.

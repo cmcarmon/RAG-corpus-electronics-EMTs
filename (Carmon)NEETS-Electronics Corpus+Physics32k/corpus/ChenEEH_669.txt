@@ -1,0 +1,33 @@
+This subsection discusses the register ﬁle and local memory
+organization. An illustrative organization for a dual port regis-
+ter ﬁle with two address busses, where the separate read and
+write addresses are generated from an address calculation unit
+(ACU), is shown in Figure 2.4. In this case, two data busses
+(A and B) are used but only in one direction, so the write and
+read addresses directly control the port access. In general,
+the number of different address words can be smaller than the
+number of port(s) when they are shared (e.g., for either read or
+write), and the busses can be bidirectional. Additional control
+signals decide whether to write or read and for which port the
+address applies. The number of address bits per word is
+log2 (N ). The register ﬁle of Figure 2.4 can be used very
+efﬁciently in the feedback loop of a data path as already
+illustrated in Figure 2.1. In general, the ﬁle is used only for
+the storage of temporary variables in the application running
+on the data path (sometimes also referred to as execution
+unit). Such register ﬁles (regﬁles) are also used heavily in
+most modern general-purpose RISCs and especially for
+modern multimedia-oriented signal processors
+that have
+regﬁles up to 128 locations.1 For multimedia-oriented VLIW
+processors or recent super-scalar processors, regﬁles with a
+very large access bandwidth, up to 17 ports, are provided
+(Jolly, 1991). Application-speciﬁc instruction-set processors
+(ASIPs) and custom processors make heavy use of regﬁles for
+the same purpose. It should be noted that although it has the
+clear advantage of very fast access, the number of data words to
+be stored should be minimized as much as possible due to the
+power- and area-intensive structure of such register ﬁles (both
+due to the decoder and the cell overhead). Detailed circuit
+issues will not be discussed here (for review, see Weste and
+Eshraghian [1993]).

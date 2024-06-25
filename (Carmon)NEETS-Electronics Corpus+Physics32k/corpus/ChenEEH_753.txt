@@ -1,0 +1,11 @@
+To keep complexity reasonable, it is necessary at this stage to
+work at the level of arrays and not to expand them into scalars.
+In data-transfer intensive applications, the size of the arrays
+can go up to several millions of words, making scalar ap-
+proaches completely infeasible. On the other hand, treating
+the arrays as a unit hardly limits the freedom; indeed, they will
+in any case be mapped into memories in a uniform way. The
+only disadvantage is that the analysis needs to be more ad-
+vanced to be able to deal correctly with arrays (Balasa et al.,
+1997; Catthoor et al., 1998). This type of an analysis falls
+outside the scope of this book, however.

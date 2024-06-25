@@ -1,0 +1,6 @@
+where sx is the sign of X, b is the base of the logarithmic
+representation, and zx is a single-bit ﬂag, which, when asserted,
+denotes that X is zero. A zero ﬂag is required because logb X is
+not a ﬁnite number for X ¼ 0. Similarly, since the logarithm of
+a negative number is not a real number, the sign information
+of X is stored in ﬂag sx . Logarithm x ¼ logb jXj is encoded as a

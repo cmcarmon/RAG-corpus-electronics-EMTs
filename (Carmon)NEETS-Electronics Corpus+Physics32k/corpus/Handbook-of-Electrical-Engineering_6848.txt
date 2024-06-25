@@ -1,0 +1,9 @@
+In other channels, the noise can be modeled as being i.i.d. but with an amplitude distribution that is not
+Gaussian.  This  type  of  model  arises,  for  example,  in  channels  dominated  by  impulsive  phenomena,  such  as
+urban radio channels. In the non-Gaussian case the procedures discussed previously lose their optimality as
+deﬁned in terms of the error probabilities. These procedures can still be used, and they will work well under
+many conditions; however, there will be a resulting performance penalty with respect to optimum procedures
+based  on  the  likelihood  ratio.  Generally  speaking,  likelihood-ratio-based  procedures  for  non-Gaussian  noise
+channels  involve  more  complex  nonlinear  processing  of  the  measurements  than  is  required  in  the  standard
+detectors, although the retention of the i.i.d. assumption greatly simpliﬁes this problem. A treatment of methods
+for such channels can be found in Kassam [1988].

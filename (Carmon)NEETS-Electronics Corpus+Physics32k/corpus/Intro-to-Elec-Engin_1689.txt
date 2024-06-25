@@ -1,0 +1,9 @@
+Adaptive Control
+Another type of control system that makes use of the computer is known as adaptive control,
+which is functionally represented in Figure 16.3.11. While the block G provides the system
+output for the system input, the feedback is provided by H and is converted to a digital signal.
+This digital signal is processed by the digital processor to effect the necessary control. The
+characteristic feature of the adaptive control is that the characteristics of the block G are
+changed with time so that, for a given input, the desired output is obtained. Based on the
+prediction of the performance of the system, the digital processor determines how G is to be
+changed.

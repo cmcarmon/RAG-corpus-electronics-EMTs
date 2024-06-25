@@ -1,0 +1,13 @@
+Level 5 adds primitive processes that are single programs in
+the course of execution. The information required to represent
+a primitive process is its state word, which consists of the
+values of the registers in a processor. This level also provides
+a context switch operation, which transfers a processor’s atten-
+tion from one process to another by saving the state word of
+the ﬁrst and loading the state word of the second. All processes
+ready to run are queued in a ready list. After a process is
+switched off its processor, a scheduler in this level selects the
+next process from the ready list to run. This level also provides
+semaphores, the special variables used to cause one process to
+stop and wait until another process has signaled the comple-
+tion of a task.

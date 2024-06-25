@@ -1,0 +1,11 @@
+Figure 10.61 shows one possible circuit for a static memory element. In this
+circuit, a non-ideal switch with a very high ON resistance is connected between
+the power supply and the storage node of the memory element. When the
+output of the memory element is a logical 1, this switch is turned on and
+introduces a small stream of charge into the storage node to offset any leakage.
+Because it trickles charges into the node, this switch is called a trickle switch.
+The ON resistance of the trickle switch is made very large compared to the
+ON resistance of the store switch, so that the trickle input can be overridden
+easily by the input dIN. A detailed circuit design of the static latch is beyond
+the scope of this book. The interested reader is referred to ‘Principles of CMOS
+VLSI Design,’ by Weste and Eshraghian.

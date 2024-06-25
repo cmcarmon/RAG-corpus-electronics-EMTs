@@ -1,0 +1,15 @@
+the value of the current depends on the value of vGS, the behavior is that of a
+voltage-controlled current source. This behavior, captured by the switch current
+source (SCS) model of the MOSFET, applies only in the saturation region of the
+MOSFET. We will have a lot more to say about this saturation region model
+of the MOSFET in Section 7.4.
+To the left of the vDS = vGS − VT boundary, we have the triode region,
+in which one possible modeling choice uses a single straight-line segment to
+approximate the iDS versus vDS curve for a given value of vGS. Such a straight-
+line segment approximating the iDS versus vDS curve for a given vGS is shown as
+the thick grey line to the left of the vDS = vGS − VT boundary. You will notice
+that this choice of a single straight-line segment with a given slope 1/RON for
+a fixed value of vGS is our familiar SR model from Section 6.6. Intuitively, the
+single straight-line segment model suggests that the MOSFET behaves like a
+resistor with a fixed value RON for a given value of vGS, provided that vGS ≥ VT
+and vDS < vGS − VT.

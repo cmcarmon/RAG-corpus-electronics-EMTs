@@ -1,0 +1,6 @@
+A special case of associative memories is called the autoassociator (Fig. 20.16), where the training output of
+size D is equal to the input signal (also a size D) [Kung, 1993]. Note that the hidden layer has fewer PEs (M
+! D) than the input (bottleneck layer). W1 = W2
+T is enforced. The function of this network is one of encoding
+or data reduction. The training of this network (W2 matrix) is done with LMS. It can be shown that this network
+also implements PCA with M components, even when the hidden layer is built from nonlinear PEs.

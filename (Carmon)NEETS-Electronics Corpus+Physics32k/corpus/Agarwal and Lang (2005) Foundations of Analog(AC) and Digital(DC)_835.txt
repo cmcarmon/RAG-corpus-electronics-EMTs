@@ -1,0 +1,8 @@
+Second, the infinite resistance seen at the gate (G terminal) of a MOSFET
+makes it have no effect on the output of another gate driving its input.
+This feature of the MOSFET allows us to build systems containing many
+gates without worrying about how each gate affects the logical properties
+of other gates to which it is connected. This property of a gate is called
+composability. Imagine if the MOSFET input had zero resistance. In that
+case, we would not be able to connect the output of one inverter to the
+input of another and expect the first inverter to satisfy the static discipline.

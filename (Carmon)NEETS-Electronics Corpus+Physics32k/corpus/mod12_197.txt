@@ -1,0 +1,5 @@
+At T7, the two sideband frequencies are in phase with each other but 180 degrees out of phase with 
+the carrier. This causes the combined sideband voltage to cancel the carrier voltage, and the modulation 
+envelope becomes 0 at that instant. Note that for the transmitter output to be 0 at T7, both the carrier and 
+sideband frequencies must be present. If any one of these three frequencies were missing, complete 
+cancellation would not occur and rf energy would be present in the output. 

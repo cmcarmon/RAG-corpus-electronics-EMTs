@@ -1,0 +1,8 @@
+Figure 15.5.1 illustrates in a simple way the working principle of LORAN, which consists of
+three transmitters (a master and two slaves) that periodically broadcast 10-cycle pulses of 100-kHz
+sine waves in a precise phase relationship. The signal received from each transmitter is phase-
+shifted in proportion to the distance from that transmitter to the receiver. A phase reference is
+established at the receiver by the signal from the master transmitter; then the receiver determines
+the differential time delay between the master and each of the two slaves. The difference in
+time delay between the master and a given slave yields a line of position (LOP), as shown in
+Figure 15.5.1.

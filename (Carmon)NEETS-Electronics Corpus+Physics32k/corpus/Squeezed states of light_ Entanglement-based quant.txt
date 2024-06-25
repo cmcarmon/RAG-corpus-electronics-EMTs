@@ -1,0 +1,57 @@
+Squeezed states of light can be used to produce Einstein-Podolsky-Rosen-entangled light that is the resource for a high quality level of quantum key distribution (QKD), which is called 'one-sided device independent QKD' .
+Superimposing on a balanced beam splitter two identical light beams that carry squeezed modulation states and have a propagation length difference of a quarter of their wavelength produces two EPR entangled light beams at the beam splitter output ports. Quadrature amplitude measurements on the individual beams reveal uncertainties that are much larger than those of the ground states, but the data from the two beams show strong correlations: from a measurement value taken at the first beam (
+
+
+
+
+X
+
+f
+,
+Δ
+f
+
+
+A
+
+
+
+
+{\displaystyle X_{f,\Delta f}^{A}}
+), one can infer the corresponding measurement value taken at the second beam (
+
+
+
+
+X
+
+f
+,
+Δ
+f
+
+
+B
+
+
+
+
+{\displaystyle X_{f,\Delta f}^{B}}
+). If the inference shows an uncertainty smaller than that of the vacuum state, EPR correlations exist, see Fig. 4.
+The aim of quantum key distribution is the distribution of identical, true random numbers to two distant parties A and B in such a way that A and B can quantify the amount of information about the numbers that has been lost to the environment (and thus is potentially in hand of an eavesdropper). To do so, sender (A) sends one of the entangled light beams to receiver (B). A and B measure repeatedly and simultaneously (taking the different propagation times into account) one of two orthogonal quadrature amplitudes. For every single measurement they need to choose whether to measure
+
+
+
+X
+
+
+{\displaystyle X}
+or
+
+
+
+Y
+
+
+{\displaystyle Y}
+in a truly random way, independently from each other. By chance, they measure the same quadrature in 50% of the single measurements. After having performed a large number of measurements, A and B communicate (publicly) what there choice was for every measurement. The non-matched pairs are discarded. From the remaining data they make public a small but statistically significant amount to test whether B is able to precisely infer the measurement results at A. Knowing the characteristics of the entangled light source and the quality of the measurement at the sender site, the sender gets information about the decoherence that happened during channel transmission and during the measurement at B. The decoherence quantifies the amount of information that was lost to the environment. If the amount of lost information is not too high and the data string not too short, data post processing in terms of error correction and privacy amplification produces a key with an arbitrarily reduced epsilon-level of insecurity. In addition to conventional QKD, the test for EPR correlations not only characterizes the channel over which the light was sent (for instance a glas fibre) but also the measurement at the receiver site. The sender does not need to trust the receivers measurement any more. This higher quality of QKD is called one-sided device independent. This type of QKD works if the natural decoherence is not too high. For this reason, an implementation that uses conventional telecommunication glas fibers would be limited to a distance of a few kilometers.

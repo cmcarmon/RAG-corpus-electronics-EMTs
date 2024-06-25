@@ -1,0 +1,7 @@
+If the signal in question is a constant whose value we seek, as is the case sometimes in simple
+measurement systems, the measurement accuracy will be enhanced by a low-pass ﬁlter with the
+smallest bandwidth B. Low-pass ﬁltering, in a sense, carries out the operation of averaging, since
+a constant corresponds to the average value (or dc component) and since noise usually has zero
+average value. However, some noise will get through the ﬁlter and cause the processed signal
+z(t) to ﬂuctuate about the true value x, as shown in Figure 14.3.11. Allowing any sample to fall
+somewhere between x − ε and x + ε, the rms error G is deﬁned by

@@ -1,0 +1,4 @@
+1. Receives the desired joint position from the supervisory computer every 28 ms
+2. Reads the position signal from the encoder every 0.875 ms
+3. Calculates the error every 0.875 ms
+4. Sends the error to the D/A converter

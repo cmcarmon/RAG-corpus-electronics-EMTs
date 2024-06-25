@@ -1,0 +1,6 @@
+Look closely at the numbers 01020304 and 0A0B0C0D in Fig. 87.4. Notice that for both conﬁgurations, the
+numbers read from left to right and that (visually) they appear to be in the same place. Furthermore, as pointed
+out in the discussion of Fig. 87.3, the “beginning” or address of each of the numbers is identical. However, the
+byte that is pointed at by the address is not the same and the internal bytes do not have the same addresses.
+Getting big-endian and little-endian machines in a conversation is not easy. It proves to be even more muddled
+than these ﬁgures suggest. A delightful and cogent discussion of the whole issue is found in Cohen [1981].

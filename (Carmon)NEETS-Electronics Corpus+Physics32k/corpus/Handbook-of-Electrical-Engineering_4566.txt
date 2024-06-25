@@ -1,0 +1,9 @@
+Sampling Requirements
+We may estimate the number of samples needed to adequately model the spatial, temporal, and angular variation
+of the various quantities of interest in terms of an object characteristic length L and sampling dimension d.
+This  may  be  done  from  knowledge  of  the  typical  spatial  and  temporal  densities  determined  from  computer
+experiments and/or from invocation of Nyquist-like sampling rates for ﬁeld variations in angle as a function
+of aperture size. The resulting estimates are summarized in Table 45.11 and apply to both IE and DE models.
+These may be regarded as wavelength-driven sampling rates, in contrast with the geometry-driven sampling
+rates that can arise because of problem variations that are small in scale compared with l. Geometry-driven
+sampling would affect primarily Nx, resulting in larger values than those indicated above.

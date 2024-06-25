@@ -1,0 +1,5 @@
+In order to control when the ﬂip-ﬂops set or reset we must make use of synchronous ﬂip-ﬂops, leaving the
+D or J-K inputs to determine what the ﬂip-ﬂop is to do logically, that is to set or reset. In all bus-organized
+systems it is necessary to control when the data held in the register is fed on to the output bus. This is usually
+achieved by means of three-state (3S) gates at the register outputs which are disabled, that is, set to their high-
+impedance state, until the data is required.

@@ -1,0 +1,6 @@
+Bus-Invert Encoding
+The bus-invert encoding has been introduced to reduce the
+bus activity: the encoding is derived from the Hamming dis-
+tance between the consecutive binary numbers. If the Ham-
+ming distance of the two consecutive binary numbers is more
+than half of the word length, the latter binary number is sent in

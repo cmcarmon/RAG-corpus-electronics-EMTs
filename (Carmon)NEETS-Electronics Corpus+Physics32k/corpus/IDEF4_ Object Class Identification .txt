@@ -1,0 +1,6 @@
+The IDEF4 Method assumes that the domain objects have been identified through Object-Oriented Domain Analysis. Methods such as IDEF1, IDEF5, IDEF3, SA/SD can be used to perform domain analysis. However, IDEF4 practitioners should be aware of how objects are identified, as the design process may reveal deficiencies in the Object-Oriented Analysis. IDEF4 had defined five types of classes:
+Physical Objects
+Role Objects : The role may be related to other activities that the person engages in (e.g., a patient in a hospital, a stockholder, a client, a trustee, a suspect in a burglary, or a tax payer).
+Event Objects : Events or incidents may also be considered objects. The identification of events as objects is highly subjective, and will depend on the domain in which the software is to be used.
+Interaction Objects : Interaction objects are the result of interactions or transactions between two or more objects.
+Specification and Procedure Objects : Specification objects describe the acceptable characteristics of objects instances. Procedure objects refer to the way other object instances may interact.

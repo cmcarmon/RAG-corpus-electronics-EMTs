@@ -1,0 +1,6 @@
+Since the time constant of the circuit is 10 microseconds and the pulse duration is 100 microseconds, 
+the time constant is short (1/10 of the pulse duration). The capacitor is charged exponentially through the 
+resistor. In 5 time constants, the capacitor will be, for all practical purposes, completely charged. At the 
+first time constant, the capacitor is charged to 63.2 volts, at the second 86.5 volts, at the third 95 volts, at 
+the fourth 98 volts, and finally at the end of the fifth time constant (50 microseconds), the capacitor is 
+fully charged. This is shown in figure 4-36. 

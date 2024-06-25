@@ -1,0 +1,6 @@
+Because of this reduction, the error probability pe of the digital channel goes up. The question thus becomes
+does channel coding really help: Is the eﬀective error probability lower with channel coding even though the
+error probability for each transmitted bit is larger? The answer is no: Using a repetition code for channel
+coding cannot ultimately reduce the probability that a data bit is received in error. The ultimate reason is
+the repetition code’s ineﬃciency: transmitting one data bit for every three transmitted is too ineﬃcient for
+the amount of error correction provided.

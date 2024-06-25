@@ -1,0 +1,282 @@
+The Earth's gravity field can be described by a potential as follows:
+
+
+
+
+
+g
+
+=
+∇
+W
+=
+
+g
+r
+a
+d
+
+
+W
+=
+
+
+
+∂
+W
+
+
+∂
+X
+
+
+
+
+i
+
++
+
+
+
+∂
+W
+
+
+∂
+Y
+
+
+
+
+j
+
++
+
+
+
+∂
+W
+
+
+∂
+Z
+
+
+
+
+k
+
+
+
+{\displaystyle \mathbf {g} =\nabla W=\mathrm {grad} \ W={\frac {\partial W}{\partial X}}\mathbf {i} +{\frac {\partial W}{\partial Y}}\mathbf {j} +{\frac {\partial W}{\partial Z}}\mathbf {k} }
+
+which expresses the gravity acceleration vector as the gradient of
+
+
+
+W
+
+
+{\displaystyle W}
+, the potential of gravity. The vector triad
+
+
+
+{
+
+i
+
+,
+
+j
+
+,
+
+k
+
+}
+
+
+{\displaystyle \{\mathbf {i} ,\mathbf {j} ,\mathbf {k} \}}
+is the orthonormal set of base vectors in space, pointing along the
+
+
+
+X
+,
+Y
+,
+Z
+
+
+{\displaystyle X,Y,Z}
+coordinate axes.
+Note that both gravity and its potential contain a contribution from the centrifugal pseudo-force due to the Earth's rotation. We can write
+
+
+
+
+W
+=
+V
++
+Φ
+
+
+
+{\displaystyle W=V+\Phi \,}
+
+where
+
+
+
+V
+
+
+{\displaystyle V}
+is the potential of the gravitational field,
+
+
+
+W
+
+
+{\displaystyle W}
+that of the gravity field, and
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+that of the centrifugal force field.
+The centrifugal force -- per unit of mass, i.e., acceleration -- is given by
+
+
+
+
+
+
+g
+
+
+c
+
+
+=
+
+ω
+
+2
+
+
+
+p
+
+,
+
+
+{\displaystyle \mathbf {g} _{c}=\omega ^{2}\mathbf {p} ,}
+
+where
+
+
+
+
+
+p
+
+=
+X
+
+i
+
++
+Y
+
+j
+
++
+0
+⋅
+
+k
+
+
+
+{\displaystyle \mathbf {p} =X\mathbf {i} +Y\mathbf {j} +0\cdot \mathbf {k} }
+
+is the vector pointing to the point considered straight from the Earth's rotational axis. It can be shown that this pseudo-force field, in a reference frame co-rotating with the Earth, has a potential associated with it that looks like this:
+
+
+
+
+Φ
+=
+
+
+1
+2
+
+
+
+ω
+
+2
+
+
+(
+
+X
+
+2
+
+
++
+
+Y
+
+2
+
+
+)
+.
+
+
+{\displaystyle \Phi ={\frac {1}{2}}\omega ^{2}(X^{2}+Y^{2}).}
+
+This can be verified by taking the gradient (
+
+
+
+∇
+
+
+{\displaystyle \nabla }
+) operator of this expression.
+Here,
+
+
+
+X
+
+
+{\displaystyle X}
+,
+
+
+
+Y
+
+
+{\displaystyle Y}
+and
+
+
+
+Z
+
+
+{\displaystyle Z}
+are geocentric coordinates.

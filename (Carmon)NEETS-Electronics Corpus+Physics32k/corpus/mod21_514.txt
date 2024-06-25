@@ -1,0 +1,14 @@
+The information desired from the spectra to be analyzed determines the SPECTRUM ANALYZER 
+requirements. Real-time analysis is used if a particular point in the frequency spectrum is to be analyzed, 
+such as a line spectra display. Continuous- or swept-frequency analysis, which is the most common mode 
+of observation, is used to display a wider portion of the frequency spectrum or (in some cases) the entire 
+range of the spectrum analyzer in use. Changing the spectrum analyzer setting from one mode to another 
+is accomplished by varying the scan time and the bandwidth of the spectrum analyzer or a combination of 
+the two. Most real-time spectrum analyzers, however, are preceded by mechanical filters, which limit the 
+input bandwidth of the spectrum analyzer to the desired spectra to be analyzed. Tunable- or swept-
+spectrum analyzers function basically the same as heterodyne receivers, the difference being that the local 
+oscillator is not used but is replaced by a voltage-controlled oscillator (vco). The vco is swept 
+electronically by a ramp input from a sawtooth generator. The output of the receiver is applied to a crt, 
+which has its horizontal sweep in synchronization with the vco. The lower frequency appears at the left of 
+the crt display. As the trace sweeps to the right, the oscillator increases in frequency. Figure 5-24 is a 
+block diagram of a heterodyne spectrum analyzer. 

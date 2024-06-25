@@ -1,0 +1,221 @@
+Because Open VOGEL deals with several types of panels and boundary conditions, the math and the implemented algorithms are a bit more complex than those required when only working with vortex rings.
+The basic problem when dealing with vortex rings is to find out the circulation associated to the rings where the non-penetration boundary condition has to be imposed (the bounded lattices). Because the velocity associated to a vortex ring at a given point depends linearly on the circulation of that ring, a system of linear equations can be written, so that when solved, it will provide the value of the local circulations that will cancel the normal velocity at each control point. The matrix problem for this situation can be found in the article about the vortex lattice method.
+Now, when closed bodies such as fuselages need to be modeled, the total potential inside the body is required to equal a given constant value (typically chosen as zero). This is a different kind of problem that requires, first of all, calculating the potential of sink/source and doublet panels at a given point located immediately under the surface of the body, and secondly, arranging the new system of equations in the global matrix problem.
+The calculation of the velocity potential associated to constant sink/source panels and vortex rings (constant doublets) at a given point in space is quite complex. Open VOGEL reduces the complexity level by projecting the quadrilateral panels in its normal direction, so that they can be represented by a flat panel (triangular panels do not need to be projected since they are always flat). The calculation of the velocity potential under such situation can be found in this reference. Of course, this method has some associated leakage, which depends on how well panels are approach by their flat counterpart.
+When working with sink/source panels, the intensity vector
+
+
+
+
+s
+
+
+
+{\displaystyle \mathbf {s} }
+associated to them is not an unknown. In fact, when the internal potential is targeted to zero, their intensity depends on the value of the normal free air-stream velocity:
+
+
+
+
+
+s
+
+i
+
+
+=
+−
+
+
+V
+
+
+∞
+
+
+⋅
+
+
+n
+
+
+i
+
+
+
+
+{\displaystyle s_{i}=-\mathbf {V} _{\infty }\cdot \mathbf {n} _{i}}
+
+Therefore, the unit potential corresponding to each one of them at each control point can be calculated once and stored in a source/sink potential matrix
+
+
+
+
+
+M
+
+
+s
+
+
+
+
+{\displaystyle \mathbf {M} _{s}}
+. This matrix is then reused to compute the total sink/source potential when necessary as follows:
+
+
+
+
+
+
+φ
+
+
+s
+
+
+=
+
+
+M
+
+
+s
+
+
+
+s
+
+
+
+{\displaystyle \mathbf {\varphi } _{s}=\mathbf {M} _{s}\mathbf {s} }
+
+The unknowns of the Dirichlet problem are the doublet intensities of each panel surrounding the body, represented here by vector
+
+
+
+
+d
+
+
+
+{\displaystyle \mathbf {d} }
+. Similarly to the sources, we can write a matrix of unit-intensity potential associated to them:
+
+
+
+
+
+
+φ
+
+
+d
+
+
+=
+
+
+M
+
+
+d
+
+
+
+d
+
+
+
+{\displaystyle \mathbf {\varphi } _{d}=\mathbf {M} _{d}\mathbf {d} }
+
+Finally, the potential associated to the wakes needs to be added. Because wakes are constantly changing their shape, in place of building a matrix, we rather include their potential as a summation of individual contributions:
+
+
+
+
+
+
+φ
+
+
+w
+
+
+=
+
+∑
+
+j
+=
+1
+
+
+N
+
+
+
+φ
+
+w
+i
+
+
+
+
+{\displaystyle \mathbf {\varphi } _{w}=\sum _{j=1}^{N}\varphi _{wi}}
+
+Because wakes are shed from lifting surfaces, their potential is only associated to constant doublet panels of known intensity. When wake panels are far enough from the body, they can be approached by point doublets, which have much simpler potential functions. This solution is known as the far field potential.
+The Dirichlet problem is then represented by the next system or linear equations
+
+
+
+
+
+
+M
+
+
+d
+
+
+
+d
+
+=
+−
+
+
+M
+
+
+s
+
+
+
+s
+
+−
+
+∑
+
+j
+=
+1
+
+
+N
+
+
+
+φ
+
+w
+i
+
+
+
+
+{\displaystyle \mathbf {M} _{d}\mathbf {d} =-\mathbf {M} _{s}\mathbf {s} -\sum _{j=1}^{N}\varphi _{wi}}
+
+which needs to be assembled and solved together with the Neumann problem in a global matrix problem.

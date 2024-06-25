@@ -1,0 +1,9 @@
+In 1965, IBM researcher James Cooley21 and Princeton faculty member John Tukey22 developed what is
+now known as the Fast Fourier Transform (FFT). It is an algorithm for computing that DFT that has order
+O (N logN ) for certain length inputs. Now when the length of data doubles, the spectral computational
+time will not quadruple as with the DFT algorithm; instead, it approximately doubles. Later research showed
+that no algorithm for computing the DFT could have a smaller complexity than the FFT. Surprisingly,
+historical work has shown that Gauss23 in the early nineteenth century developed the same algorithm, but
+did not publish it! After the FFT’s rediscovery, not only was the computation of a signal’s spectrum greatly
+speeded, but also the added feature of algorithm meant that computations had ﬂexibility not available to
+analog implementations.

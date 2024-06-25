@@ -1,0 +1,22 @@
+An electrical network is describable by a system of algebraic and differential equations known as the primary
+relations.
+system of equations obtained by applying the Kirchhoff ’s current and voltage laws and the element 
+In the case of linear networks, these equations can be transformed into a system of linear algebraic equations
+by means of the Laplace transformation, which is relatively simple to manipulate. The main drawback is that
+it contains a large number equations. To reduce this number, three secondary systems of equations are available:
+components,
+the nodal system, the cutset system, and the loop system. If a network has 
+linearly independent
+there are 
+equations in loop analysis. These equations can then be solved to yield the Laplace transformed solution. To
+obtain  the  ﬁnal  time-domain  solution,  we  must  take  the  inverse  Laplace  transformation.  For  most  practical
+networks, the procedure is usually long and complicated and requires an excessive amount of computer time.
+As  an  alternative  we  can  formulate  the  network  equations  in  the  time  domain  as  a  system  of  ﬁrst-order
+differential equations, which describe the dynamic behavior of the network. Some advantages of representing
+the network equations in this form are the following. First, such a system has been widely studied in mathe-
+matics, and its solution, both analytic and numerical, is known and readily available. Second, the representation
+can easily and naturally be extended to time-varying and nonlinear networks. In fact, computer-aided solution
+of time-varying, nonlinear network problems is almost always accomplished using the state-variable approach.
+Finally, the ﬁrst-order differential equations can easily be programmed for a digital computer or simulated on
+an analog computer. Even if it were not for the above reasons, the approach provides an alternative view of the
+physical behavior of the network.

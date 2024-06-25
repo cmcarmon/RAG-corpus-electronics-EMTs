@@ -1,0 +1,15 @@
+While there are virtually countless variations in microprocessor circuit conﬁgurations, the
+system architecture of a typical microprocessor is shown in Figure 6.3.2. The arithmetic logic
+unit (ALU) accepts data from the data bus, processes the data as per program-storage instructions
+and/or external control signals, and feeds the results into temporary storage, from which external
+control and actuator control functions can be performed. The accumulators are parallel storage
+registers used for processing the work in progress, temporarily storing addresses and data, and
+housekeeping functions. The stacks provide temporary data storage in a sequential order and are
+of use during the execution of subroutines. A subroutine is a group of instructions that appears
+only once in the program code, but can be executed from different points in the program. The
+program counter is a register/counter that holds the address of the memory location containing
+the next instruction to be executed. The status register contains condition-code bits or ﬂags (set
+to logic 1 or logic 0, depending on the result of the previous instruction) that are used to make
+decisions and redirect the program ﬂow. The control unit (CU), which consists of the timing
+and data-routing circuits, decodes the instruction being processed and properly establishes data
+paths among the various elements of the microprocessor. Interconnections may take the form of

@@ -1,0 +1,9 @@
+Motion Estimation Techniques
+Frame-to-frame  changes  in  luminance  are  generated  when  objects  move  in  video  sequences. The  luminance
+changes can be used to estimate the displacement of the moving objects if an appropriate model of the motion
+is speciﬁed. A variety of motion models have been developed for dynamic scene analysis in machine vision and
+for video communications applications. In fact, motion estimates were ﬁrst used as a control mechanism for
+the efﬁcient coding of a sequence of images in an effort to reduce the temporal redundancy. Motion estimation
+algorithms can be classiﬁed in two broad categories: gradient or differential-based methods and token matching
+or correspondence methods. The gradient methods can be further divided into pel recursive, block matching,
+and optical ﬂow methods.

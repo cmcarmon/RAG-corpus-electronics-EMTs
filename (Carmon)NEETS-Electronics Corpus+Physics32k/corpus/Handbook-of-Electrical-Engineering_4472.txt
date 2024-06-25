@@ -1,0 +1,13 @@
+where 
+ the source ﬁeld given
+ will often be
+by the Biot Savart law. Some care is needed in solving Eq. (44.2) numerically, in practice, as H
+s
+.  For  instance,  in  regions  with  high  permeability  (e.g.,  ferromagnetic
+calculated  to  a  higher  accuracy  than 
+materials),  the  total  ﬁeld  intensity  H  tends  to  a  small  quantity  which  can  lead  to  signiﬁcant  errors  due  to
+, depending upon how the computations are carried out. One approach
+cancellation between grad 
+ in regions that have zero current density [Simkin
+that avoids this difﬁculty is to use the total scalar potential 
+and Trowbridge, 1979], i.e., where H = –

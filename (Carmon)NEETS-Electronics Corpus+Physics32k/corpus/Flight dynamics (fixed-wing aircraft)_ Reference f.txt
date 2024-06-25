@@ -1,0 +1,34 @@
+Three right-handed, Cartesian coordinate systems see frequent use in flight dynamics. The first coordinate system has an origin fixed in the reference frame of the Earth:
+Earth frame
+Origin - arbitrary, fixed relative to the surface of the Earth
+xE axis - positive in the direction of north
+yE axis - positive in the direction of east
+zE axis - positive towards the center of the Earth
+
+In many flight dynamics applications, the Earth frame is assumed to be inertial with a flat xE,yE-plane, though the Earth frame can also be considered a spherical coordinate system with origin at the center of the Earth.
+The other two reference frames are body-fixed, with origins moving along with the aircraft, typically at the center of gravity. For an aircraft that is symmetric from right-to-left, the frames can be defined as:
+Body frame
+Origin - airplane center of gravity
+xb axis - positive out the nose of the aircraft in the plane of symmetry of the aircraft
+zb axis - perpendicular to the xb axis, in the plane of symmetry of the aircraft, positive below the aircraft
+yb axis - perpendicular to the xb,zb-plane, positive determined by the right-hand rule (generally, positive out the right wing)
+
+Wind frame
+Origin - airplane center of gravity
+xw axis - positive in the direction of the velocity vector of the aircraft relative to the air
+zw axis - perpendicular to the xw axis, in the plane of symmetry of the aircraft, positive below the aircraft
+yw axis - perpendicular to the xw,zw-plane, positive determined by the right hand rule (generally, positive to the right)
+
+Asymmetric aircraft have analogous body-fixed frames, but different conventions must be used to choose the precise directions of the x and z axes.
+The Earth frame is a convenient frame to express aircraft translational and rotational kinematics. The Earth frame is also useful in that, under certain assumptions, it can be approximated as inertial. Additionally, one force acting on the aircraft, weight, is fixed in the +zE direction.
+The body frame is often of interest because the origin and the axes remain fixed relative to the aircraft. This means that the relative orientation of the Earth and body frames describes the aircraft attitude. Also, the direction of the force of thrust is generally fixed in the body frame, though some aircraft can vary this direction, for example by thrust vectoring.
+The wind frame is a convenient frame to express the aerodynamic forces and moments acting on an aircraft. In particular, the net aerodynamic force can be divided into components along the wind frame axes, with the drag force in the −xw direction and the lift force in the −zw direction.
+In addition to defining the reference frames, the relative orientation of the reference frames can be determined. The relative orientation can be expressed in a variety of forms, including:
+Direction cosine or rotation matrices
+Euler angles
+Quaternions
+The various Euler angles relating the three reference frames are important to flight dynamics. Many Euler angle conventions exist, but all of the rotation sequences presented below use the z-y'-x" convention. This convention corresponds to a type of Tait-Bryan angles, which are commonly referred to as Euler angles. This convention is described in detail below for the roll, pitch, and yaw Euler angles that describe the body frame orientation relative to the Earth frame. The other sets of Euler angles are described below by analogy.
+To transform from the Earth frame to the body frame using Euler angles, the following rotations are done in the order prescribed. First, rotate the Earth frame axes xE and yE around the zE axis by the yaw angle ψ. This results in an intermediate reference frame with axes denoted x',y',z', where z'=zE. Second, rotate the x' and z' axes around the y' axis by the pitch angle θ. This results in another intermediate reference frame with axes denoted x",y",z", where y"=y'. Finally, rotate the y" and z" axes around the x" axis by the roll angle φ. The reference frame that results after the three rotations is the body frame.
+Based on the rotations and axes conventions above, the yaw angle ψ is the angle between north and the projection of the aircraft longitudinal axis onto the horizontal plane, the pitch angle θ is the angle between the aircraft longitudinal axis and horizontal, and the roll angle φ represents a rotation around the aircraft longitudinal axis after rotating by yaw and pitch.
+To transform from the Earth frame to the wind frame, the three Euler angles are the bank angle μ, the flight path angle γ, and the heading angle σ. When performing the rotations described above to obtain the wind frame from the Earth frame, (μ,γ,σ) are analogous to (φ,θ,ψ), respectively. The heading angle σ is the angle between north and the horizontal component of the velocity vector, which describes which direction the aircraft is moving relative to cardinal directions. The flight path angle γ is the angle between horizontal and the velocity vector, which describes whether the aircraft is climbing or descending. The bank angle μ represents a rotation of the lift force around the velocity vector, which may indicate whether the airplane is turning.
+To transform from the wind frame to the body frame, the two Euler angles are the angle of attack α and the sideslip angle β. When performing the rotations described earlier to obtain the body frame from the wind frame, (α,β) are analogous to (θ,ψ), respectively; the angle analogous to φ in this transformation is always zero. The sideslip angle β is the angle between the velocity vector and the projection of the aircraft longitudinal axis onto the xw,yw-plane, which describes whether there is a lateral component to the aircraft velocity, also known as sideslip. The angle of attack α is the angle between the xw,yw-plane and the aircraft longitudinal axis and, among other things, is an important variable in determining the magnitude of the force of lift.

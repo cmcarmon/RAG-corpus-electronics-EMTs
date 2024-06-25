@@ -1,0 +1,9 @@
+Token Matching Methods
+Token matching methods are often referred to as discrete methods since the goal is to estimate the motion only
+at distinct image features (tokens). The result is a sparse velocity ﬁeld. The algorithms attempt to match the
+set of discrete features in the frame at time t – 1 with a set that best resembles them in the frame at time t.
+Most of the algorithms in this group assume that the estimation will be achieved in a two-step process. In the
+ﬁrst step, the features are identiﬁed. The features could be points, corners, centers of mass, lines, or edges. This
+step typically requires segmentation and/or feature extraction. The second step determines the various velocity
+parameters. The velocity parameters include a translation component, a rotation component, and the rotation
+axis. The token matching algorithms fail if there are no distinct features to use.

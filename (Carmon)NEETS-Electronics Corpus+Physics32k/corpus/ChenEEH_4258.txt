@@ -1,0 +1,8 @@
+Different MAC protocols produce different types of over-
+head. For the contention protocols, like ALOHA, CSMA, and
+CSMA/CD, the overheads are collisions, acknowledgment, and
+waste of slot time. For the token bus protocol, the overheads
+are the passing token (even when the network is idle), token
+transmission, and acknowledgment. For the token ring proto-
+col, the overhead is just waiting for the token when the other
+station has no data to send.

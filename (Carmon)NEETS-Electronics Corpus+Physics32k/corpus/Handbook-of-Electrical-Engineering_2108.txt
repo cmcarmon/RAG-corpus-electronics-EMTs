@@ -1,0 +1,13 @@
+Motion Analysis or Tracking
+The fourth function of underwater acoustic signal processing is to perform contact (or target) motion analysis
+(TMA), that is, to estimate parameters of bearing and speed. Generally, nonlinear ﬁltering methods, including
+Kalman-Bucy  ﬁlters,  are  applied;  typically  these  methods  rely  on  a  state  space  model  for  the  motion  of  the
+contact. For example, the underlying model of motion could assume a straight-line course and constant speed
+of the contact of interest. When the acoustic source of interest behaves like the model, then results consistent
+with the basic theory can be expected. It is also possible to incorporate motion compensation into the signal
+processing detection function. For example, in the active sonar case, proper waveform selection and processing
+can  reduce  the  degradation  of  detector  performance  caused  by  uncompensated  Doppler.  Moreover,  joint
+detection and estimation can provide clues to the TMA and classiﬁcation processes. For example, if the processor
+simultaneously estimates depth in the process of performing detection, then a submerged object would not be
+classiﬁed  as  a  surface  object.  Also,  joint  detection  and  estimation  using  Doppler  for  detection  can  directly
+improve contact motion estimates.

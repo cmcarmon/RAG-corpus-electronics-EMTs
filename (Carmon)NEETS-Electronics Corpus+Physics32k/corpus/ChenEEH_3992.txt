@@ -1,0 +1,13 @@
+DG/SFG Versus DFG
+As deﬁnition 6, the DG with its functional DFG in each DG
+node can be perceived as a complete DG (Kung, 1988) or a
+DFG of a nested Do-loop algorithm. On the other hand, each
+DFG node describing a recurrent algorithm in Section 7.2.3
+corresponds to a set of operations or functions in a processor.
+During the space–time mapping, each DG node or computa-
+tion index is allocated and scheduled to execute at a speciﬁc SFG
+node. In parallel, multiprocessor implementation of recurrent
+DFG can be obtained by scheduling and assignment strategies,
+such as the one proposed by Wang and Hu (1995). As a result,
+several DG nodes correspond to an SFG node (PE), while sev-
+eral DFG nodes can be assigned to the same processor.

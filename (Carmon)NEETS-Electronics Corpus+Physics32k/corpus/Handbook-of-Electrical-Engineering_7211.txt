@@ -1,0 +1,11 @@
+Encoding
+The output of the photosensor array for one scan or row of the subject copy consists of 1728 pels (1s or 0s)
+since Group 3 facsimile recognizes only black or white. Typically, facsimile subject copy is 85% white. The data
+from scanning the subject copy is reduced through run-length encoding. In the encoding process, it is assumed
+that a white pel (0) always occurs ﬁrst. A white run is the number of 0s until the ﬁrst 1 is encountered (the
+run length is 0 if the ﬁrst pel is a 1); after a white run, a black run must follow with length equal to the number
+of 1s until the ﬁrst 0 is encountered. All possible run lengths of white and black are then encoded into a binary
+code  using  a  modiﬁed  Huffman  encoding  technique  [Jayant  and  Noll,  1984].  On  the  average,  fewer  binary
+symbols are needed to encode run lengths of the subject copy than if the binary values of the pels themselves
+were transmitted. For Group 3 facsimile, compression is optionally extended to the vertical dimension through
+employment of a READ (relative element address designate) code.

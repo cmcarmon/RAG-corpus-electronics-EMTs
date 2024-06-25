@@ -1,0 +1,10 @@
+Close inspection of the waveform of vIN2 shown in Figure 12.3 reveals
+that both the correct operation and the speed of the cascaded inverters depends
+on the second-order behavior of the capacitor-inductor-resistor circuit formed
+between the two inverters. The oscillatory character of the waveform of vIN2
+following each rising and falling transition is referred to as ringing. As can be
+seen in Figure 12.3, the output of the first inverter as received by the second
+inverter is valid only after the ringing transitions settle above VOH for a rising
+transition, and below VOL for a falling transition. Waiting for the ringing to settle
+within the output thresholds results in the signal propagation delays tpd,1→0
+and tpd,0→1. This too is analyzed in more detail in Section 12.5.

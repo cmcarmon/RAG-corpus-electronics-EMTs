@@ -1,0 +1,4 @@
+note: We use a discrete set of values for A1 and A2. If we have N1 values for amplitude A1, and N2
+values for A2, we have N1N2 possible symbols that can be sent during each T second interval. To
+convert this number into bits (the fundamental unit of information engineers use to qualify things),
+compute log2 (N1N2).

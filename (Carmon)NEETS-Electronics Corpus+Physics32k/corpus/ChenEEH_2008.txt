@@ -1,0 +1,5 @@
+Algorithm-based fault tolerance (ABFT) refers to techniques
+that use the property of the algorithm or computation to
+check the correctness of output data. This is usually done by
+encoding the input data (e.g., by checksums) and verifying that
+the output also has a valid encoding. Huang and Abraham

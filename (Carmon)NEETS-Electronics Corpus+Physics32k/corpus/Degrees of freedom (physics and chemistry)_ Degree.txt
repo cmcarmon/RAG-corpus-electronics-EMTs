@@ -1,0 +1,124 @@
+In three-dimensional space, three degrees of freedom are associated with the movement of a particle. A diatomic gas molecule has 5 degrees of freedom. This set may be decomposed in terms of translations, rotations, and vibrations of the molecule. The center of mass motion of the entire molecule accounts for 3 degrees of freedom. In addition, the molecule has two rotational degrees of motion and one vibrational mode. The rotations occur around the two axes perpendicular to the line between the two atoms. The rotation around the atom–atom bond is not a physical rotation. This yields, for a diatomic molecule, a decomposition of:
+
+
+
+
+N
+=
+6
+=
+3
++
+2
++
+1.
+
+
+{\displaystyle N=6=3+2+1.}
+
+For a general, non-linear molecule, all 3 rotational degrees of freedom are considered, resulting in the decomposition:
+
+
+
+
+3
+N
+=
+3
++
+3
++
+(
+3
+N
+−
+6
+)
+
+
+{\displaystyle 3N=3+3+(3N-6)}
+
+which means that an N-atom molecule has 3N − 6 vibrational degrees of freedom for N > 2. In special cases, such as adsorbed large molecules, the rotational degrees of freedom can be limited to only one.
+As defined above one can also count degrees of freedom using the minimum number of coordinates required to specify a position. This is done as follows:
+For a single particle we need 2 coordinates in a 2-D plane to specify its position and 3 coordinates in 3-D space. Thus its degree of freedom in a 3-D space is 3.
+For a body consisting of 2 particles (ex. a diatomic molecule) in a 3-D space with constant distance between them (let's say d) we can show (below) its degrees of freedom to be 5.
+Let's say one particle in this body has coordinate (x1, y1, z1) and the other has coordinate (x2, y2, z2) with  z2 unknown. Application of the formula for distance between two coordinates
+
+
+
+
+d
+=
+
+
+(
+
+x
+
+2
+
+
+−
+
+x
+
+1
+
+
+
+)
+
+2
+
+
++
+(
+
+y
+
+2
+
+
+−
+
+y
+
+1
+
+
+
+)
+
+2
+
+
++
+(
+
+z
+
+2
+
+
+−
+
+z
+
+1
+
+
+
+)
+
+2
+
+
+
+
+
+
+{\displaystyle d={\sqrt {(x_{2}-x_{1})^{2}+(y_{2}-y_{1})^{2}+(z_{2}-z_{1})^{2}}}}
+
+results in one equation with one unknown, in which we can solve for z2. One of x1, x2, y1, y2, z1, or z2 can be unknown.
+Contrary to the classical equipartition theorem, at room temperature, the vibrational motion of molecules typically makes negligible contributions to the heat capacity. This is because these degrees of freedom are frozen because the spacing between the energy eigenvalues exceeds the energy corresponding to ambient temperatures (kBT). In the following table such degrees of freedom are disregarded because of their low effect on total energy. Then only the translational and rotational degrees of freedom contribute, in equal amounts, to the heat capacity ratio. This is why γ=5/3 for monatomic gases and γ=7/5 for diatomic gases at room temperature.
+However, at very high temperatures vibrational motion cannot be neglected.

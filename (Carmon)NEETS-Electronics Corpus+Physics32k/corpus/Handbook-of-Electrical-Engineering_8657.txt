@@ -1,0 +1,8 @@
+The next line (3rd for the SPARC) does a comparison between 48 (or 47) and the character. Compare
+is an instruction which subtracts one operand from the other, but instead of putting the results some-
+where, it stores only the facts on whether the operation delivered a negative number or zero or resulted
+in either an overﬂow or a carry. These are stored in ﬂags, single bits associated with the arithmetic unit.
+The  bits  can  contain  only  one  result  at  a  time.  The  68000  and VAX  must  test  immediately  after  the
+comparison  or  they  will  lose  the  bits.  The  SPARC  changes  the  bits  only  when  the  instruction  says  so
+(the CC on the instruction — “change condition codes”). Thus, the subtraction can be remote from the
+test-and-branch.

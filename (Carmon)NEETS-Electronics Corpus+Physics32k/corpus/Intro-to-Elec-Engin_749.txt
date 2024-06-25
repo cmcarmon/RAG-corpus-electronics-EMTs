@@ -1,0 +1,7 @@
+(8.5.20)
+The product AB is known as the loop gain because vf = B(Avd ) = (AB)vd. In order to obtain
+negative feedback, the loop gain must be positive. With AB > 0 in Equation (8.5.19) it follows
+that |Af| < |A|. Thus, a negative feedback ampliﬁer has always less gain than the amplifying unit
+itself. With AB >> 1, Af remains essentially constant, thereby reducing the effect of transistor
+parameter variations in the amplifying unit. If the feedback unit has |B| < 1, one can still obtain
+useful ampliﬁcation since |Af| ∼= 1/|B| > 1.

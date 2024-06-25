@@ -1,0 +1,4 @@
+Since the spectral characteristics of speech may change dramatically in a few milliseconds, the length, type,
+and location of the window function are important considerations. If the window is too long, changing spectral
+characteristics may cause a blurred result; if the window is too short, spectral inaccuracies result. A Hamming
+window of 16 to 32 ms duration is commonly used for speech analysis.

@@ -1,0 +1,6 @@
+The discretized pressure correction equation is same as in the SIMPLE algorithm, except for the d terms which are used in momentum equations.
+p=p*+p' which tells that the under relaxing factor is not there in SIMPLEC as it was in SIMPLE.
+SIMPLEC algorithm is seen to converge 1.2-1.3 times faster than the SIMPLE algorithm
+It doesn't solve extra equations like SIMPLER algorithm.
+The cost per iteration is same as in the case of SIMPLE.
+Like SIMPLE, a bad pressure field guess will destroy a good velocity field.

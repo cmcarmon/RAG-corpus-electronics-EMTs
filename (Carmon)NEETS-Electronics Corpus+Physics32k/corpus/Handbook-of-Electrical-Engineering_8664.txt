@@ -1,0 +1,7 @@
+In the unoptimized mode, VAX and Sparc compilers are among the many which take the easy approach and
+assign variables only to memory locations. In Figs. 87.6 and 87.7, the variable assignments are presented for
+the unoptimized and optimized options. Note that only one or two registers are used, both as scratch pads, in
+the  unoptimized  option,  whereas  the  optimization  assigns  registers  to  all  variables.  The  expected  execution
+time  savings  is  approximately  42  of  the  50  memory  references  per  loop  iteration.  That  does  not  include
+additional savings caused by compact code. Detailed comparisons are not presented since the interpretation of
+architectural comparisons is highly subjective.

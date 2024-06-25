@@ -1,0 +1,10 @@
+To obtain a data sequence that is exactly representable by a  qth-order exponential model, we continue this
+iterative  process  in  an  obvious  manner.  In  particular,  one  sequentially  computes  the  data  matrices  Xk+1  =
+PTP(q)(Xk)  for  k  =  0,  1,  2,  .  .  .  until  the  rank  of  data  matrix  Xk  +  1  is  deemed  sufﬁciently  close  to  q.  Since  the
+projection operator P(q) and PT are each closed, we are assured that this iterative process will eventually converge
+to a Toeplitz-structured data matrix of rank q. It has been empirically determined that the algorithmic process
+converges in a rapid fashion and typically takes from three to ten iterations for small-dimensioned matrices.
+Furthermore, the resulting enhanced data matrix has data elements that generally provide a better representation
+of the underlying signal components than did the original data. The restoration process has therefore effectively
+stripped away noise that contaminates the original data. We will now examine a special case of data restoration
+that has important practical applications.

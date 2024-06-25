@@ -1,0 +1,7 @@
+The noise power output PYY (B) of an actual device is a superposition of the ampliﬁed source thermal noise
+G 2PWW (B) and the device noise, i.e., PYY (B) =  G 2 PWW (B) + (device noise). The output noise across RL can be
+measured by putting a single frequency (in the passband) source generator S(t) as input. First, S(t) is turned
+off, and the output rms voltage Y(t) is measured and the output power PY( W)(B) is recorded. This is the sum
+of the thermal available power and the device noise. Next, S(t) is turned on and adjusted until the output power
+doubles,  i.e.,  until  the  output  power  PY ( W)(B)  +  PY(S)(B)  =  2PY( W)(B).  This  PSS(B)  is  recorded.  Solving  for
+PY(S)(B) = PY( W)(B), we substitute this in F = PY ( W)(B)/(G 2PWW (B)) to obtain

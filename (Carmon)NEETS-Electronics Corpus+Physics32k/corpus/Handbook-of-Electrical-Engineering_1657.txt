@@ -1,0 +1,7 @@
+The above calculation of the Kalman ﬁlter gain is by no means a derivation of the Kalman ﬁlter, but rather
+it is merely a simple heuristic calculation that gives insight into these equations. The error criterion, J, is the
+logarithm of a Gaussian probability density of x conditioned on Zk. A lucid derivation of the Kalman ﬁlter is
+given in Ho and Lee [1964], from a Bayesian viewpoint. In contrast, Kalman’s original derivation does not use
+Bayesian methods; see Kalman [1960]. Other derivations of the Kalman ﬁlter are in Gelb [1974] and Jazwinski
+[1970]. The Kalman ﬁlter is “optimal” in a number of ways, under different assumptions, which are discussed
+in these references.

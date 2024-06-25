@@ -1,0 +1,5 @@
+Parallel Transfer Disks
+Some high-performance disk drives make it possible to read or write from multiple disk surfaces at the same
+time. For example, the Cray DD-19 and DD-49 disks described in the second section have a parallel transfer
+capability. The advantage is that much higher transfer rates can be achieved, but no assistance is provided for
+seek or rotational latency. Thus transfer units are correspondingly larger in these systems.

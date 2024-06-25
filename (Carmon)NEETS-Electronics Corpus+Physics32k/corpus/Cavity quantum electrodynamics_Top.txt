@@ -1,0 +1,137 @@
+Cavity quantum electrodynamics (cavity QED) is the study of the interaction between light confined in a reflective cavity and atoms or other particles, under conditions where the quantum nature of light photons is significant. It could in principle be used to construct a quantum computer.
+The case of a single 2-level atom in the cavity is mathematically described by the Jaynes-Cummings model, and undergoes vacuum Rabi oscillations
+
+
+
+
+|
+
+e
+⟩
+
+|
+
+n
+−
+1
+⟩
+↔
+
+|
+
+g
+⟩
+
+|
+
+n
+⟩
+
+
+{\displaystyle |e\rangle |n-1\rangle \leftrightarrow |g\rangle |n\rangle }
+, that is between an excited atom and n-1 photons, and a ground state atom and n photons.
+If the cavity is in resonance with the atomic transition, a half-cycle of oscillation starting with no photons coherently swaps the atom qubit's state onto the cavity field's,
+
+
+
+(
+α
+
+|
+
+g
+⟩
++
+β
+
+|
+
+e
+⟩
+)
+
+|
+
+0
+⟩
+↔
+
+|
+
+g
+⟩
+(
+α
+
+|
+
+0
+⟩
++
+β
+
+|
+
+1
+⟩
+)
+
+
+{\displaystyle (\alpha |g\rangle +\beta |e\rangle )|0\rangle \leftrightarrow |g\rangle (\alpha |0\rangle +\beta |1\rangle )}
+, and can be repeated to swap it back again; this could be used as a single photon source (starting with an excited atom), or as an interface between an atom or trapped ion quantum computer and optical quantum communication.
+Other interaction durations create entanglement between the atom and cavity field; for example, a quarter-cycle on resonance starting from
+
+
+
+
+|
+
+e
+⟩
+
+|
+
+0
+⟩
+
+
+{\displaystyle |e\rangle |0\rangle }
+gives the maximally entangled state (a Bell state)
+
+
+
+(
+
+|
+
+e
+⟩
+
+|
+
+0
+⟩
++
+
+|
+
+g
+⟩
+
+|
+
+1
+⟩
+)
+
+/
+
+
+
+2
+
+
+
+
+{\displaystyle (|e\rangle |0\rangle +|g\rangle |1\rangle )/{\sqrt {2}}}
+. This can in principle be used as a quantum computer, mathematically equivalent to a trapped ion quantum computer with cavity photons replacing phonons.

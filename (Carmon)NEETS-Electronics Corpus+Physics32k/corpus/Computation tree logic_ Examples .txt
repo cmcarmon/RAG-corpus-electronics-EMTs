@@ -1,0 +1,14 @@
+Let "P" mean "I like chocolate" and Q mean "It's warm outside."
+AG.P
+"I will like chocolate from now on, no matter what happens."
+EF.P
+"It's possible I may like chocolate some day, at least for one day."
+AF.EG.P
+"It's always possible (AF) that I will suddenly start liking chocolate for the rest of time." (Note: not just the rest of my life, since my life is finite, while G is infinite).
+EG.AF.P
+"This is a critical time in my life. Depending on what happens next (E), it's possible that for the rest of time (G), there will always be some time in the future (AF) when I will like chocolate. However, if the wrong thing happens next, then all bets are off and there's no guarantee about whether I'll ever like chocolate."
+The two following examples show the difference between CTL and CTL*, as they allow for the until operator to not be qualified with any path operator (A or E):
+AG(PUQ)
+"From now until it's warm outside, I will like chocolate every single day. Once it's warm outside, all bets are off as to whether I'll like chocolate anymore. Oh, and it's guaranteed to be warm outside eventually, even if only for a single day."
+EF((EX.P)U(AG.Q))
+"It's possible that: there will eventually come a time when it will be warm forever (AG.Q) and that before that time there will always be some way to get me to like chocolate the next day (EX.P)."

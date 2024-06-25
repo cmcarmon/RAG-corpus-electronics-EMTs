@@ -1,0 +1,57 @@
+In electric systems, very often the A, B, and C values are oscillating in such a way that the net vector is spinning. In a balanced system, the vector is spinning about the Z axis. Very often, it is helpful to rotate the reference frame such that the majority of the changes in the abc values, due to this spinning, are canceled out and any finer variations become more obvious.
+The DQZ transformation can be thought of in geometric terms as the projection of the three separate sinusoidal phase quantities onto two axes rotating with the same angular velocity as the sinusoidal phase quantities.
+
+Shown above is the DQZ transform as applied to the stator of a synchronous machine. There are three windings separated by 120 physical degrees. The three phase currents are equal in magnitude and are separated from one another by 120 electrical degrees. The three phase currents lag their corresponding phase voltages by
+
+
+
+δ
+
+
+{\displaystyle \delta }
+. The DQ axes are shown rotating with angular velocity equal to
+
+
+
+ω
+
+
+{\displaystyle \omega }
+, the same angular velocity as the phase voltages and currents. The D axis makes an angle
+
+
+
+θ
+=
+ω
+t
+
+
+{\displaystyle \theta =\omega t}
+with the phase A winding which has been chosen as the reference.The currents
+
+
+
+
+I
+
+D
+
+
+
+
+{\displaystyle I_{D}}
+and
+
+
+
+
+I
+
+Q
+
+
+
+
+{\displaystyle I_{Q}}
+are constant dc quantities.

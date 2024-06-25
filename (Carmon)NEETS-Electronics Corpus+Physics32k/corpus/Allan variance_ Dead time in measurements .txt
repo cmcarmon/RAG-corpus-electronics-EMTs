@@ -1,0 +1,11 @@
+Many measurement instruments of time and frequency have the stages of arming time, time-base time, processing time and may then re-trigger the arming. The arming time is from the time the arming is triggered to when the start event occurs on the start channel. The time-base then ensures that minimal amount of time goes prior to accepting an event on the stop channel as the stop event. The number of events and time elapsed between the start event and stop event is recorded and presented during the processing time. When the processing occurs (also known as the dwell time), the instrument is usually unable to do another measurement. After the processing has occurred, an instrument in continuous mode triggers the arm circuit again. The time between the stop event and the following start event becomes dead time, during which the signal is not being observed. Such dead time introduces systematic measurement biases, which needs to be compensated for in order to get proper results. For such measurement systems will the time T denote the time between the adjacent start events (and thus measurements), while
+
+
+
+τ
+
+
+{\displaystyle \tau }
+denote the time-base length, i.e. the nominal length between the start and stop event of any measurement.
+Dead-time effects on measurements have such an impact on the produced result that much study of the field have been done in order to quantify its properties properly. The introduction of zero-dead-time counters removed the need for this analysis. A zero-dead-time counter has the property that the stop event of one measurement is also being used as the start event of the following event. Such counters create a series of event and time timestamp pairs, one for each channel spaced by the time-base. Such measurements have also proved useful in order forms of time-series analysis.
+Measurements being performed with dead time can be corrected using the bias function B1, B2 and B3. Thus, dead time as such is not prohibiting the access to the Allan variance, but it makes it more problematic. The dead time must be known, such that the time between samples T can be established.

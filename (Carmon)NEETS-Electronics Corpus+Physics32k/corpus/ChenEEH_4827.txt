@@ -1,0 +1,12 @@
+ics), and the rest consist of both hardware and software (specif-
+ically, the software drivers for the actuators and sensors).
+Each of these components can be represented entirely by a
+software model;
+for example, the vehicle dynamics could
+be replaced by a simulation for modeling purposes. The
+resulting modeled software components could be applied
+in numerous aircraft ﬂight control systems, demonstrating
+the reusability of software components. Finally, some of the
+links shown in the ﬁgure may be made along a communication
+network, so these components may be described as distributed
+components.

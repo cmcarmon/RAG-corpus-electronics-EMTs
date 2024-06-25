@@ -1,0 +1,7 @@
+Much recent research in speech coding below 8 kbits/s has focused on multi-mode CELP architectures and
+efﬁcient approaches to source-controlled mode selection [Das et al., 1995]. Multimode coders are able to quickly
+invoke a coding scheme and bit allocation speciﬁcally tailored to the local characteristics of the speech signal.
+This capability has proven useful in optimizing perceptual quality at low coding rates. In fact, the majority of
+algorithms currently proposed for half-rate European and U.S. digital cellular standards, as well as many algo-
+rithms considered for rates below 2.4 kbits/s are multimode coders. The direct coupling between variable-rate
+(multimode) speech coding and the CDMA transmission architecture is an obvious beneﬁt to both technologies.

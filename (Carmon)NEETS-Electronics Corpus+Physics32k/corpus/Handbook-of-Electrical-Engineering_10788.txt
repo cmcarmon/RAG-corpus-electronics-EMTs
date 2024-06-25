@@ -1,0 +1,16 @@
+Electronic systems utilize large numbers of similar components over which the designer has very little control.
+Quality  control  methods  can  be  used  in  the  procurement  and  manufacturing  phases.  However,  the  circuit
+designer  has  no  control  over  the  design  reliability  of  the  devices  except  in  cases  such  as  custom-designed
+integrated  circuits.  In  addition,  electronic  components  cannot  be  inspected  easily  because  of  encapsulation.
+Although  gross  defects  can  be  easily  detected  by  suitable  testing  processes,  defects  that  are  not  immediately
+effective (for example, weak mechanical bond of a lead-in conductor, material ﬂaws in semiconductors, defective
+sealing, etc.) primarily contribute to unreliability. Temperature and voltage are the predominant failure-accel-
+erating stresses for the majority of electronic components. As weaker components fail and are replaced by better
+ones,  the  percentage  of  defects  in  a  population  is  reduced,  resulting  in  a  decreasing  hazard  rate. Wearout  is
+rarely of signiﬁcance in the failure of electronic components and systems. The designer should be careful to
+ensure  that  the  loads  (voltage,  current,  temperature)  are  within  rated  values  and  strive  for  a  design  that
+minimizes hot spots and temperature rises. Parameter drifts and accidental short circuits at connections can
+also lead to system failures. The circuit designer can follow a few basic rules to signiﬁcantly improve electronic
+system reliability: reduce the number of adjustable components; avoid selection of components on the basis of
+parameter  values  obtained  by  testing;  assemble  components  such  that  adjustments  are  easily  accessible;  and
+partition circuits into subassemblies for easy testing and diagnosis of problems.

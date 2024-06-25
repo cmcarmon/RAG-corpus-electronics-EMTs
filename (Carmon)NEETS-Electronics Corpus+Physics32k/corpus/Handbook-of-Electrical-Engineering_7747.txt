@@ -1,0 +1,8 @@
+Disk Scheduling
+The  mechanical  delays  as  seen  by  a  set  of  simultaneous  I/O  requests  can  be  reduced  through  effective  disk
+scheduling.  For  example,  seek  times  can  be  reduced  if  a  shortest-seek-time-ﬁrst  scheduling  algorithm  is  used
+[Smith, 1981]. That is, among the queue of pending I/O requests, the one next selected for service is the one
+that requires the shortest seek time from the current location of the read/write heads. The literature on disk
+scheduling algorithms is vast, and the effectiveness of a particular scheduling approach depends critically on
+the workload. It has been observed that scheduling algorithms work best when there are long queues of pending
+requests; unfortunately, this situation seems to occur rarely in existing systems [Smith, 1981].

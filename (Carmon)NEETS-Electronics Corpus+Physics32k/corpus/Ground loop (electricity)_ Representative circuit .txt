@@ -1,0 +1,270 @@
+The circuit diagram illustrates a simple ground loop. Two circuits share a common path to ground. This path has a resistance of
+
+
+
+
+
+R
+
+G
+
+
+
+
+
+{\displaystyle \scriptstyle R_{G}}
+. Ideally, the ground conductor would have no resistance (
+
+
+
+
+
+R
+
+G
+
+
+
+=
+
+0
+
+
+
+{\displaystyle \scriptstyle R_{G}\;=\;0}
+), yielding no voltage drop across it,
+
+
+
+
+
+V
+
+G
+
+
+=
+0
+
+
+
+{\displaystyle \scriptstyle V_{G}=0}
+, keeping the connection point between the circuits at a constant ground potential. In that case, the output of circuit 2 is simply
+
+
+
+
+
+V
+
+out
+
+
+
+=
+
+
+V
+
+2
+
+
+
+
+
+{\displaystyle \scriptstyle V_{\text{out}}\;=\;V_{2}}
+.
+However, if
+
+
+
+
+
+R
+
+G
+
+
+≠
+0
+
+
+
+{\displaystyle \scriptstyle R_{G}\neq 0}
+, it and
+
+
+
+
+
+R
+
+1
+
+
+
+
+
+{\displaystyle \scriptstyle R_{1}}
+together form a voltage divider. As a result, if a current,
+
+
+
+
+
+I
+
+1
+
+
+
+
+
+{\displaystyle \scriptstyle I_{1}}
+, is flowing through
+
+
+
+
+
+R
+
+G
+
+
+
+
+
+{\displaystyle \scriptstyle R_{G}}
+from circuit 1, a voltage drop
+
+
+
+
+
+V
+
+G
+
+
+
+=
+
+
+I
+
+1
+
+
+
+R
+
+G
+
+
+
+
+
+{\displaystyle \scriptstyle V_{G}\;=\;I_{1}R_{G}}
+, across
+
+
+
+
+
+R
+
+G
+
+
+
+
+
+{\displaystyle \scriptstyle R_{G}}
+occurs and the ground connection of both circuits is no longer at the actual ground potential. This voltage across the ground conductor is applied to circuit 2 and added to the output:
+
+
+
+
+
+V
+
+out
+
+
+=
+
+V
+
+2
+
+
+−
+
+V
+
+G
+
+
+=
+
+V
+
+2
+
+
+−
+
+
+
+R
+
+G
+
+
+
+
+R
+
+G
+
+
++
+
+R
+
+1
+
+
+
+
+
+
+V
+
+1
+
+
+.
+
+
+
+{\displaystyle V_{\text{out}}=V_{2}-V_{G}=V_{2}-{\frac {R_{G}}{R_{G}+R_{1}}}V_{1}.\,}
+
+Thus the two circuits are no longer isolated from each other and circuit 1 can introduce interference into the output of circuit 2. If circuit 2 is an audio system and circuit 1 has large AC currents flowing in it, the interference may be heard as a 50 or 60 Hz hum in the speakers. Also, both circuits have voltage
+
+
+
+
+
+V
+
+G
+
+
+
+
+
+{\displaystyle \scriptstyle V_{G}}
+on their grounded parts that may be exposed to contact, possibly presenting a shock hazard. This is true even if circuit 2 is turned off.
+Although they occur most often in the ground conductors of electrical equipment, ground loops can occur wherever two or more circuits share a common current path, if enough current is flowing to cause a significant voltage drop along the conductor.

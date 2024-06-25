@@ -1,0 +1,8 @@
+Multi-band  coders  perform  a  similar  function  by  characterizing  the  contributions  of  individual  sinusoidal
+components to the short-term speech spectrum. These parameters are then quantized, coded, transmitted, and
+used to conﬁgure a bank of tuned oscillators at the receiver. Outputs of the oscillators are mixed in proportion
+to the distribution of spectral energy present in the original waveform. An important requirement of multi-band
+coders is a capability to precisely determine perceptually signiﬁcant spectral components and track the evolution
+of their energy and phase. Recent developments related to multi-band coding emphasize the use of harmonically
+related components with carefully intermixed spectral regions of bandlimited white noise. Sinusoidal Transform
+Coders (STC) and Multi-Band Excitation coders (MBE) are examples of this type of frequency domain coders.

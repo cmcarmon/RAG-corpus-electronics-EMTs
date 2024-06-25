@@ -1,0 +1,9 @@
+Operating System Support
+One  of  the  ﬁrst  applications,  besides  emulation,  was  to  support  some  operating  system  functions.  Since
+microprograms are closer to the hardware and programming directly in microcode removes the overhead of
+decoding machine-level instructions, it was thought that directly coding operating system (OS) functions would
+improve  their  performance.  Success  was  achieved  in  some  areas,  such  as  virtual  memory.  In  general,  people
+write most OS functions in assembly language, probably because the cost is not offset by the beneﬁts, especially
+with rapidly changing OS versions. The problems raised by the human side of programming have changed the
+question “Should  it  be  in  microcode  or  in  assembler?”  to  the  question “Should  it  be  in  assembler  or  in  C?”
+This parallels the CISC/RISC debate.

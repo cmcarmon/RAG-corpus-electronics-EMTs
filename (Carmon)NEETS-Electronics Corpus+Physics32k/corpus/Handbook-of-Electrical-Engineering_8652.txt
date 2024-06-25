@@ -1,0 +1,6 @@
+To  begin  with,  all  three  do  roughly  the  same  thing.  The  only  noticeable  difference  in  concept  is  that  the
+SPARC compiler chose to compare the incoming character (*source) to 47 (the character before ‘0’) and then
+branch if the result showed the letter to be “less than or equal,” while the other two compared it to ‘0’ as asked
+and then branched if the result was “less than.” No big deal. But let us walk down the several columns to see
+the speciﬁc details. Prior to beginning, note that all three must bring in the character, run one or two tests,
+and then set an integer to either zero (false) or not zero (true). Also, let it be said that each snatch of code is

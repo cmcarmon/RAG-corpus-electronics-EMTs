@@ -1,0 +1,4 @@
+There are two different paradigms expressed in these three examples. One says: “Figure out which thing
+you want to do and then do that one thing.” The other says: “First set the result false and then ﬁgure
+out if you should set it true.” While the second version would seem to do a lot of unnecessary settings
+to  zero,  the  other  algorithm  will  execute  one  less  branch.  That  would  make  it  roughly  equivalent.

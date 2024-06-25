@@ -1,0 +1,16 @@
+. Block-oriented timing analysis
+generates design input (also called primary input) to design output (also called primary output), and propa-
+gation  delays  by  analyzing  the  design  “stage-by-stage”  and  by  summing  up  the  individual  stage  delays.  All
+devices  driven  by  primary  inputs  constitute  stage  1,  all  devices  driven  by  the  outputs  of  stage  1  constitute
+stage 2, and so on. Starting with the ﬁrst stage, all devices associated with a stage are annotated with worst-
+case delays. A worst-case delay is the propagation delay of the device plus the delay of the last input to arrive
+at the device, i.e., the signal path with the longest delay leading up to the device inputs. For example, the device
+labeled  “H”  in  stage  3  in  Fig. 34.12  is  annotated  with  the  worst-case  delay  of  13,  representing  the  device
+propagation delay of 4 and the delay of the last input to arrive through devices “B” and “C” of 9 [McWilliams
+and  Widdoes,  1978].  When  the  devices  associated  with  the  last  stage,  i.e.,  the  devices  driving  the  primary
+outputs,  are  processed,  the  accumulated  worst-case  delays  record  the  longest  delay  from  primary  inputs  to
+primary outputs, also call the critical paths. The critical path for each primary output is highlighted in Fig. 34.12.
+Path-oriented timing analysis generates primary input to primary output propagation delays by traversing
+all  possible  signal  paths  one  at  a  time.  Thus,  ﬁnding  the  critical  path  via  path-oriented  timing  analysis  is
+equivalent to ﬁnding the longest path through a directed acyclic graph, where devices are graph vertices and
+interconnections are graph edges [Sasiki et al., 1978].

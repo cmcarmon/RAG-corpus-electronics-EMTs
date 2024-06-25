@@ -1,0 +1,6 @@
+where the diode current iD is zero (the diode is an open circuit). This suggests
+a very simple analysis technique: Draw two subcircuits corresponding to the
+two diode states, and analyze each subcircuit. Because in each subcircuit the
+diode is either a short or an open circuit, the subcircuits are linear. Hence linear
+analysis methods can again be used to find the output voltage. Some insight is
+then required to piece together a complete solution from these two parts.

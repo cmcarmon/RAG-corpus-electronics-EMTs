@@ -1,0 +1,67 @@
+The double pendulum undergoes chaotic motion, and shows a sensitive dependence on initial conditions. The image to the right shows the amount of elapsed time before the pendulum flips over, as a function of initial position when released at rest. Here, the initial value of θ1 ranges along the x-direction from −3 to 3. The initial value θ2 ranges along the y-direction, from −3 to 3. The colour of each pixel indicates whether either pendulum flips within:
+10√​l⁄g (green)
+100√​l⁄g (red)
+1000√​l⁄g (purple) or
+10000√​l⁄g (blue).
+Initial conditions that do not lead to a flip within 10000√​l⁄g are plotted white.
+The boundary of the central white region is defined in part by energy conservation with the following curve:
+
+
+
+
+3
+cos
+⁡
+
+θ
+
+1
+
+
++
+cos
+⁡
+
+θ
+
+2
+
+
+=
+2.
+
+
+{\displaystyle 3\cos \theta _{1}+\cos \theta _{2}=2.}
+
+Within the region defined by this curve, that is if
+
+
+
+
+3
+cos
+⁡
+
+θ
+
+1
+
+
++
+cos
+⁡
+
+θ
+
+2
+
+
+>
+2
+,
+
+
+{\displaystyle 3\cos \theta _{1}+\cos \theta _{2}>2,}
+
+then it is energetically impossible for either pendulum to flip. Outside this region, the pendulum can flip, but it is a complex question to determine when it will flip. Similar behavior is observed for a double pendulum composed of two point masses rather than two rods with distributed mass.
+The lack of a natural excitation frequency has led to the use of double pendulum systems in seismic resistance designs in buildings, where the building itself is the primary inverted pendulum, and a secondary mass is connected to complete the double pendulum.

@@ -1,0 +1,15 @@
+In an HPrTN, an object is essentially deﬁned by a set of
+tokens related through the same identiﬁer; thus, the sort of any
+predicate p needs to contain a component sort of relevant
+identiﬁers (i.e., Type(p) ¼ P(ID  . . .). Different objects of a
+class share the same class data structure (i.e., tokens with
+different identiﬁers can reside in a predicate at the same time
+in an HPrTN). In general, however, objects of the same class
+cannot interact with each other directly. The above problem
+can be easily solved by deﬁning a subexpression comparing
+token identiﬁers in the constraint of each transition. Move-
+ments of tokens and/or changes of token values while main-
+taining the object identiﬁer indicate state changes of the object.
+In the HPrTN shown in Figure 9.3, there are k philosopher
+objects with identiﬁers of sort PHIL, and there are k chopstick
+objects with identiﬁers of sort CHOP.

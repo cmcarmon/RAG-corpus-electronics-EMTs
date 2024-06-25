@@ -1,0 +1,38 @@
+Data storage 
+ 
+The  semiconductor  ROM  within  a  microprocessor 
+system  provides  storage  for  the  program  code  as 
+well  as  any  permanent  data  that  requires  storage. 
+All  of  this  data  is  referred  to  as  non-volatile 
+because it remains intact when the power supply is 
+disconnected. 
+a 
+  The 
+microprocessor  system  provides  storage  for  the 
+transient  data  and  variables  that  are  used  by 
+programs. Part of the RAM is also be used by the 
+microprocessor as a temporary store for data whilst 
+carrying out its normal processing tasks. 
+ 
+It is important to note that any program or data 
+stored in RAM will be lost when the power supply 
+is switched off or disconnected. The only exception 
+to this is CMOS RAM that is kept alive by means 
+of a small battery. This battery-backed memory is 
+used to retain important data, such as the time and 
+date. 
+  When expressing the amount of storage provided 
+by  a  memory  device  we  usually  use  Kilobytes 
+(Kbyte).  It  is  important  to  note  that  a  Kilobyte  of 
+memory  is  actually  1,024  bytes  (not  1,000  bytes). 
+The reason for choosing the  Kbyte rather than the 
+kbyte (1,000 bytes) is that 1,024 happens to be the 
+nearest power of 2 (note that 210 = 1,024). 
+  The capacity of a semiconductor ROM is usually 
+specified  in  terms  of  an  address  range  and  the 
+number of bits stored at each address. For example, 
+2 K × 8 bits  (capacity  2  Kbytes),  4  K  ×  8  bits 
+(capacity 4 Kbytes), and so on. Note that it  is  not 
+always  necessary  (or  desirable)  for  the  entire 
+memory space of a microprocessor to be populated 
+by memory devices.  

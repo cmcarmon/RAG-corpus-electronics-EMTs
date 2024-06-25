@@ -1,0 +1,7 @@
+Discrete Arrays and Polynomials
+It is common practice to relate discrete arrays to polynomials for array synthesis purposes [Steinberg, 1976].
+For volumetric equispaced arrays (it is only necessary that the spacing be uniform along each coordinate axis
+so  that  the  spatial  sampling  periods  Di  and  Dj  along,  respectively,  the  ith  and  jth  coordinate  axes  could  be
+different  for  i  „  j),  the  weight  associated  with  sensors  located  at  coordinate  (i1D1, i2D2, i3D3)  is  denoted  by
+w(i1, i2, i3). The function in the complex variables (z1, z2, and z3) that is associated with the sequence {w(i1,i2,i3)}
+is the generating function for the sequence and is denoted by

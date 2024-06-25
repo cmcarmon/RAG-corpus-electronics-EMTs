@@ -1,0 +1,7 @@
+dynamic
+method. Active methods achieve fault tolerance by detecting the existence of faults and performing some action
+to  remove  the  faulty  hardware  from  the  system.  In  other  words,  active  techniques  require  that  the  system
+perform reconﬁguration to tolerate faults. Active hardware redundancy uses fault detection, fault location, and
+fault recovery in an attempt to achieve fault tolerance. An example of an active approach to hardware redundancy
+is standby sparing, which is illustrated in Fig. 93.2. In standby sparing one or more units operate as spares and
+replace the primary unit when it fails.

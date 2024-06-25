@@ -1,0 +1,6 @@
+FACTS may be either shunt or branch devices. Shunt devices usually attempt to control busbar voltage by
+varying  their  shunt  susceptance.  The  device  is  therefore  relatively  simple  to  implement  in  a  time  domain
+program. Series devices may be associated with transformers. Stability improvement is achieved by injecting a
+quadrature component of voltage derived from the other two phases rather than by a tap changer which injects
+a direct component of voltage. Fast acting power electronics can inject either or a combination of both direct
+and quadrature voltage to help maintain voltage levels and improve stability margins.

@@ -1,0 +1,37 @@
+The net reproductive rate R0 is the number of offspring an individual is expected to produce during its lifetime (a net reproductive rate of 1 means that the population is at its demographic equilibrium). This definition envisions the generation time as a renewal time of the population. It justifies the very simple definition used in microbiology ("the time it takes for the population to double", or doubling time) since one can consider that during the exponential phase of bacterial growth mortality is very low and as a result a bacterium is expected to be replaced by two bacteria in the next generation (the mother cell and the daughter cell). If the population dynamic is exponential with a growth rate r (i.e. n(t) ~ α.ert, where n(t) is the size of the population at time t), then this measure of the generation time is given by:
+
+
+
+
+T
+=
+
+
+
+log
+⁡
+
+R
+
+0
+
+
+
+r
+
+
+
+
+{\displaystyle T={\frac {\log R_{0}}{r}}}
+.
+Indeed,
+
+
+
+
+T
+
+
+
+{\displaystyle \textstyle T}
+is such that n(t + T) = R0 n(t), i.e. erT = R0.

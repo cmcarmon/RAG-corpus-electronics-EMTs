@@ -1,0 +1,15 @@
+For long interconnects, wire sizing or spacing, explained in
+following subsections, are not sufﬁcient to limit the intercon-
+nect delay. So, buffer insertion is used to trade-off the active
+device area for reduction of interconnect delays. The addi-
+tional inserted buffers increase the overall gate delay. Thus,
+there is an optimal number of repeaters that should be inserted
+into an RC line to minimize the overall propagation delay
+(Ismail and Friedman, 2001). This trend is qualitatively illus-
+trated in Figure 8.7. During the routing of global intercon-
+nects, macroblocks form useful routing regions that allow
+wires to go through but forbid buffers to be inserted. They
+give restrictions on buffer locations. The buffer location re-
+strictions have been taken into consideration and the simul-
+taneous maze routing and buffer insertion problem have been
+solved in polynomial time (Zhou et al., 2000).

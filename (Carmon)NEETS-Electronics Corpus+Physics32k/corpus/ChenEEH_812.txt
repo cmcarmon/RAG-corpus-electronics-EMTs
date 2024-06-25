@@ -1,0 +1,10 @@
+Passing of parameter values is accomplished by means of the
+‘‘generic’’ mechanism of the entity declaration. There is one
+terminal port for the nature Thermal and two terminal ports
+for the nature Electrical. The associated branch quantities are
+deﬁned in the architectural body. In addition, the two free
+quantities Q and VT are deﬁned as well. The ﬁrst three simul-
+taneous equations denote the electrical behavior of the non-
+linear diode. Note the differential equation relating the charge
+Q to the current IC. The thermal voltage is now determined by
+means of the constants Boltzmann and ElemCharge taken

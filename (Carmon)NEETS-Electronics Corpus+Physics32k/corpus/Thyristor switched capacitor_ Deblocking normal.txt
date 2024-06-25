@@ -1,0 +1,2 @@
+When the TSC is turned on ("deblocked") again, care must be taken to choose the correct instant in order to avoid creating very large oscillatory currents. Since the TSC is a resonant circuit, any sudden shock excitation will produce a high frequency ringing effect which could damage the thyristor valve.
+The optimum time to turn on a TSC is when the capacitor is still charged to its normal peak value and the turn-on command is sent at the minimum of valve voltage. If the TSC is deblocked at this point, the transition back into the conducting state will be smooth.

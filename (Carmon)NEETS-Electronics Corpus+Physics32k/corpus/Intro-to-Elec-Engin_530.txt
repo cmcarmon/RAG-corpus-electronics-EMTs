@@ -1,0 +1,8 @@
+equal to the time for information to propagate through the ﬂip-ﬂop.
+Most commercially available ﬂip-ﬂops also include two extra control input signals known as
+preset and clear. When activated, these input signals will set (Q = 1) or clear (Q = 0) the ﬂip-
+ﬂop, regardless of other input signals. Figure 6.1.22(a) shows the block diagram of a positive-edge
+triggered D ﬂip-ﬂop with preset and clear control signals; Figure 6.1.22(b) gives the functional
+truth table for this device. Note that the clock is the synchronizing element in a digital system. The
+particular device described here is said to be positive-edge triggered, or leading-edge triggered,
+since the ﬁnal output of the ﬂip-ﬂop is set on a positive-going clock transition.

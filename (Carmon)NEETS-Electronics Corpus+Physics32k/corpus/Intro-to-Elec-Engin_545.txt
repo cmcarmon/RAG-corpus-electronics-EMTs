@@ -1,0 +1,9 @@
+Figure 6.2.5(a) shows a block diagram of a 3-bit ripple counter using JKFFs. Notice from the
+timing diagram shown in Figure 6.2.5(b) that the output Q0 of the leftmost ﬂip-ﬂop will change
+its state at every clock pulse if the clear signal equals zero. The output Q1, controlled by Q0,
+will change its state every time Q0 changes from 0 to 1. Similarly Q2 is controlled by Q1. Figure
+6.2.5(c) shows the outputs for the ﬁrst 8 clock pulses. Observe that a 3-bit counter will cycle
+through 8 states, 000 through 111. An n-bit ripple counter, in general, will cycle through 2n states;
+it is known as a divide-by-2n counter or modulo-2n binary counter. Taking the outputs from Q2 Q1
+Q0, the counter becomes an up-counter; taking the outputs from ¯Q2
+¯Q0, the counter becomes

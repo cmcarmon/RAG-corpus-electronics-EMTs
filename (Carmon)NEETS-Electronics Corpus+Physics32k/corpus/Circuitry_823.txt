@@ -1,0 +1,23 @@
+Flowcode 
+ 
+Flowcode 
+a  novel 
+programming system that is designed to allow those 
+new  to  PIC  programming  to  develop  complete 
+applications  with  little  or  no  knowledge  of  any 
+higher  level  languages.  However  it  is  possible  to 
+embed  code  written 
+into 
+Flowcode programs.   
+  Programs written in C and Assembly code can be  
+easily embedded in Flowcode. This will allow you 
+to  incorporate  more  complex  and  sophisticated   
+code  in  applications  where  this  might  become 
+necessary.  Note  however  that  the  embedded  code 
+cannot  be  checked  or  simulated  by  Flowcode  but 
+instead it will be passed on to the C compiler when 
+the flowchart is compiled. It is therefore important 
+to  verify  that  the  C  code  entered  is  correct,  as 
+syntax  errors  will  cause  the  compilation  of  the 
+whole flowchart to fail.  
+  To  access  Flowcode  variables,  macro  functions 

@@ -1,0 +1,6 @@
+Dynamic Types
+The carrier sets of dynamic types contain objects of vastly different size. For these types, variables (memory
+space) must be allocated dynamically, i.e., at run time, when the actual sizes of objects are known. Examples
+for dynamic types are character strings, lists, tree structures, sets, and graphs. A classical example of a dynamic
+type is a special type of a list: a queue. As the name suggests, a queue object is a sequence of other objects with
+the particular restrictive property that objects are inspected at and removed from its front and added to its rear.

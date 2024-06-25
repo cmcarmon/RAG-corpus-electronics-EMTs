@@ -1,0 +1,5 @@
+Stabilizable: A system is stabilizable if all its unstable modes are controllable.
+State variables: A set of variables that completely summarize the system’s status in the following sense. If all
+states xi are known at time t0, then the values of all states and outputs can be determined uniquely for
+any time t1 > t0, provided the inputs are known from t0 onward. State variables are components in the
+state vector. State space is a vector space containing the state vectors.

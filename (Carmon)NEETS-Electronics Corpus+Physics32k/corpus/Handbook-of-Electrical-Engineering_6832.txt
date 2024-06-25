@@ -1,0 +1,6 @@
+Detection of Parametrized Signals
+The correlation detector cannot usually be used directly unless the signal is known exactly. If, alternatively, the
+u
+signal is known up to a short vector 
+ of random parameters (such as frequencies or phases) that are independent
+of the noise, then an optimum test can be implemented by threshold comparison of the quantity

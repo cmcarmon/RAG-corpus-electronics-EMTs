@@ -1,0 +1,31 @@
+The principle of a difference engine is Newton's method of divided differences. If the initial value of a polynomial (and of its finite differences) is calculated by some means for some value of X, the difference engine can calculate any number of nearby values, using the method generally known as the method of finite differences. For example, consider the quadratic polynomial
+
+
+
+
+p
+(
+x
+)
+=
+2
+
+x
+
+2
+
+
+−
+3
+x
++
+2
+
+
+
+{\displaystyle p(x)=2x^{2}-3x+2\,}
+
+with the goal of tabulating the values p(0), p(1), p(2), p(3), p(4), and so forth. The table below is constructed as follows: the second column contains the values of the polynomial, the third column contains the differences of the two left neighbors in the second column, and the fourth column contains the differences of the two neighbors in the third column:
+The numbers in the third values-column are constant. In fact, by starting with any polynomial of degree n, the column number n + 1 will always be constant. This is the crucial fact behind the success of the method.
+This table was built from left to right, but it is possible to continue building it from right to left down a diagonal in order to compute more values. To calculate p(5) use the values from the lowest diagonal. Start with the fourth column constant value of 4 and copy it down the column. Then continue the third column by adding 4 to 11 to get 15. Next continue the second column by taking its previous value, 22 and adding the 15 from the third column. Thus p(5) is 22 + 15 = 37. In order to compute p(6), we iterate the same algorithm on the p(5) values: take 4 from the fourth column, add that to the third column's value 15 to get 19, then add that to the second column's value 37 to get 56, which is p(6). This process may be continued ad infinitum. The values of the polynomial are produced without ever having to multiply. A difference engine only needs to be able to add. From one loop to the next, it needs to store 2 numbers—in this example (the last elements in the first and second columns). To tabulate polynomials of degree n, one needs sufficient storage to hold n numbers.
+Babbage's difference engine No. 2, finally built in 1991, could hold 8 numbers of 31 decimal digits each and could thus tabulate 7th degree polynomials to that precision. The best machines from Scheutz could store 4 numbers with 15 digits each.

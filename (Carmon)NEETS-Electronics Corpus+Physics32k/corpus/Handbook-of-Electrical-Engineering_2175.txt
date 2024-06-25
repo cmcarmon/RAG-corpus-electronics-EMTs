@@ -1,0 +1,7 @@
+The PCA network is a one-layer network with linear-processing elements (Fig. 20.14). One can extend Oja’s
+rule  for  many-output  PEs  (less  or  equal  to  the  number  of  input  PEs),  according  to  the  formula  shown  in
+Fig. 20.14 which is called the Sanger’s rule [Haykin, 1994]. The weight matrix rows (that contain the weights
+connected to the output PEs in descending order) are the eigenvectors of the input correlation matrix. If we
+set the number of output PEs equal to M < D, we will be projecting the input data onto the M largest principal
+components. Their outputs will be proportional to the M largest eigenvalues. Note that we are performing an
+eigendecomposition through an iterative procedure.

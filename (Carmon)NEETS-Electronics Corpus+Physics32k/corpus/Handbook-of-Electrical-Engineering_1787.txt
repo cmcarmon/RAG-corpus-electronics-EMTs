@@ -1,0 +1,5 @@
+Motion-compensated prediction algorithms can be divided into two categories. One category estimates the
+motion on a block-by-block basis and the other estimates the motion one pixel at a time. For the block-based
+methods an estimate of the displacement is obtained for each block in the image. The block matching is achieved
+by ﬁnding the maximum correlation between a block in the current frame and a somewhat larger search area
+in the previous frame. A number of researchers have proposed ways to reduce the computational complexity,

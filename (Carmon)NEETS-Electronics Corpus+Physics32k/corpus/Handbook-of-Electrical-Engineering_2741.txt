@@ -1,0 +1,10 @@
+A. Behavioral Speciﬁcation of Function: The behavioral speciﬁcation is essentially a description of the func-
+tion expected to be performed by the IC. The design can be represented by schematic capture, with the
+designer representing the design using block diagrams. High-level description languages (HDLs) such
+as VHDL [Armstrong, 1989; Lipsett et al., 1990; Mazor and Langstraat, 1992] and Verilog [Thomas and
+Moorby,  1991]  are  increasingly  used  to  provide  a  detailed  speciﬁcation  of  the  function  in  a  manner
+which is largely independent of the physical design of the function. VHDL and Verilog are “hardware
+description languages,” representing designs from a variety of viewpoints including behavioral descrip-
+tions, structural descriptions, and logical descriptions. Figure 25.25(a) illustrates the speciﬁcation of the
+overall function in terms of subfunctions (A(s), B(s), …, E(s)) as well as expansion of one subfunction
+(C(s)) into still simpler functions (c1, c2, c3, …, c6).

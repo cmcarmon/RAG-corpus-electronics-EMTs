@@ -1,0 +1,8 @@
+To achieve the required performance levels, database systems have been increasingly required to make use
+of  parallelism.  Two  approaches  were  suggested  to  provide  parallelism  in  database  systems  [Abdelguerﬁ  and
+Lavington, 1995]. The ﬁrst approach uses massively parallel general-purpose hardware platforms. Commercial
+systems, such as Intel’s nCube and IBM’s SP2 follow this approach and support Oracle’s Parallel Server. The
+second approach makes use of arrays of off-the-shelf components to form custom massively parallel systems.
+Usually,  these  hardware  systems  are  based  on  MIMD  parallel  architectures.  The  NCR  3700  and  the  Super
+Database Computer II (SDC-II) are two such systems. The NCR 3700 now supports parallel version of Sybase
+relational DBMS.

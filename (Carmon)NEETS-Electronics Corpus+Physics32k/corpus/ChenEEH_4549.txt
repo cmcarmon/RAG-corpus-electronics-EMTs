@@ -1,0 +1,18 @@
+Such a procedure, namely a relaxation scheme, wherein one
+integrates each of the component differential equations by
+separately iterating through the connection equations to
+obtain the solution of the overall system, was implemented
+over 30 years ago at the Marshall Space Flight Center (Prasad
+and Reiss, 1970; Trauboth and Prasad, 1970; Saeks, 1969). The
+feasibility of the scheme was veriﬁed, and signiﬁcant computer
+memory savings resulted. The key to this approach of the
+numerical analysis of a large-scale system is that numerical
+routines are applied to the decoupled composite component
+differential equations rather than an overall equation for the
+entire system. Thus, the complexity of the numerical compu-
+tations is determined by the complexity of the largest compo-
+nent in the system. In contrast, if the numerical procedures are
+applied directly to a set of differential equations characterizing
+the entire system, the complexity of the numerical computa-
+tions is determined by the complexity of the entire system (the
+sum of the complexities of all the components).

@@ -1,0 +1,7 @@
+The  data  acquisition  system  must  be  designed  to  match  the  process  being  measured  as  well  as  the  end-user
+requirements. The nature of the process is mainly characterized by its speed and number of measuring points,
+whereas the end-user requirement is mainly the ﬂexibility in control. Certain processes require data acquisition
+with no interruption where computers are used in controlling. On the other hand, there are cases where the
+acquisition starts at a certain instance and continues for a deﬁnite period. In this case the acquisition cycle is
+repeated in a periodic manner, and it can be controlled manually or by software. Controllers access the process
+via the analog and digital interface submodules, which are sometimes called analog and digital front ends.

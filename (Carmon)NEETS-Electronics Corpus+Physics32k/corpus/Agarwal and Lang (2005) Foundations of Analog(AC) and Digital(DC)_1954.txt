@@ -1,0 +1,7 @@
+Equation 13.118 indicates that the voltage at the gate of the MOSFET is the
+sum of two components: a DC bias voltage, R2VS/(R1 + R2), and Viω, the
+time-varying component of the input. The values of R1 and R2 can be chosen
+to achieve a desired input DC bias. Thus, from the viewpoint of biasing the
+amplifiers, as shown in Figure 13.44, multiple amplifier stages can be designed
+independently, and cascaded without the output bias of one stage impacting
+the input bias of the next stage.10 The decoupling capacitor is instrumental in

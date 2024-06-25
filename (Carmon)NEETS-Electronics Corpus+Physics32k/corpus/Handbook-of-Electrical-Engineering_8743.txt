@@ -1,0 +1,5 @@
+The  functional  form  will  seem  strange  to  a  procedural  programmer  because  it  is  higher  level,  e.g.,  more
+abstract. It hides more details and uses functional operators HEAD (for returning the ﬁrst element of XList),
+TAIL  (for  returning  the  N–1  tail  elements  of  XList),  and  is  for  binding  a  value  to  a  name.  Also,  notice  the
+disappearance  of  the  loop.  Recursion  on  SUM  is  used  to  run  through  the  entire  list,  one  element  at  a  time.
+Finally, the guard N>0 prevents further recursion when N reaches zero.

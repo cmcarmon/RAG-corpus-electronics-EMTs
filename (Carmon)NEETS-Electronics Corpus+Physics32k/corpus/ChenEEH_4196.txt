@@ -1,0 +1,6 @@
+. Application layer: To provide an entry point for using OSI
+protocols is one task of this layer. This task can be accom-
+plished by providing either the Application Programming
+Interface (API) or standard UNIX I/O functions,
+like
+open(0), close(0), read(), and write() functions.

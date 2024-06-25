@@ -1,0 +1,6 @@
+At low frequencies the capacitive reactance of the coupling capacitor (C2 in figure 2-8) is high. This
+high reactance limits the amount of output signal that is coupled to the next stage. In addition, the RC
+network of the coupling capacitor and the signal-developing resistor of the next stage cause a phase shift
+in the output signal. (Refer to NEETS, Module 2, for a discussion of phase shifts in RC networks.) Both of
+these problems (poor low-frequency response and phase shift) can be solved by adding a parallel RC
+network in series with the load resistor. This is shown in figure 2-9.

@@ -1,0 +1,543 @@
+In the mathematical field of differential calculus, a total derivative or full derivative of a function
+
+
+
+f
+
+
+{\displaystyle f}
+of several variables, e.g.,
+
+
+
+t
+
+
+{\displaystyle t}
+,
+
+
+
+x
+
+
+{\displaystyle x}
+,
+
+
+
+y
+
+
+{\displaystyle y}
+, etc., with respect to an exogenous argument, e.g.,
+
+
+
+t
+
+
+{\displaystyle t}
+, is the limiting ratio of the change in the function's value to the change in the exogenous argument's value (for arbitrarily small changes), taking into account the exogenous argument's direct effect as well as indirect effects via the other arguments of the function.
+The total derivative of a function is different from its corresponding partial derivative (
+
+
+
+∂
+
+
+{\displaystyle \partial }
+). Calculation of the total derivative of
+
+
+
+f
+
+
+{\displaystyle f}
+with respect to
+
+
+
+t
+
+
+{\displaystyle t}
+does not assume that the other arguments are constant while
+
+
+
+t
+
+
+{\displaystyle t}
+varies; instead, it assumes that the other arguments too depend on
+
+
+
+t
+
+
+{\displaystyle t}
+. The total derivative includes these indirect dependencies to find the overall dependency of
+
+
+
+f
+
+
+{\displaystyle f}
+on
+
+
+
+t
+.
+
+
+{\displaystyle t.}
+For example, the total derivative of
+
+
+
+f
+(
+t
+,
+x
+(
+t
+)
+,
+y
+(
+t
+)
+)
+
+
+{\displaystyle f(t,x(t),y(t))}
+with respect to
+
+
+
+t
+
+
+{\displaystyle t}
+is
+
+
+
+
+
+
+
+d
+⁡
+f
+
+
+d
+⁡
+t
+
+
+
+=
+
+
+
+∂
+f
+
+
+∂
+t
+
+
+
+
+
+
+d
+⁡
+t
+
+
+d
+⁡
+t
+
+
+
++
+
+
+
+∂
+f
+
+
+∂
+x
+
+
+
+
+
+
+d
+⁡
+x
+
+
+d
+⁡
+t
+
+
+
++
+
+
+
+∂
+f
+
+
+∂
+y
+
+
+
+
+
+
+d
+⁡
+y
+
+
+d
+⁡
+t
+
+
+
+,
+
+
+{\displaystyle {\frac {\operatorname {d} f}{\operatorname {d} t}}={\frac {\partial f}{\partial t}}{\frac {\operatorname {d} t}{\operatorname {d} t}}+{\frac {\partial f}{\partial x}}{\frac {\operatorname {d} x}{\operatorname {d} t}}+{\frac {\partial f}{\partial y}}{\frac {\operatorname {d} y}{\operatorname {d} t}},}
+
+which simplifies to
+
+
+
+
+
+
+
+d
+⁡
+f
+
+
+d
+⁡
+t
+
+
+
+=
+
+
+
+∂
+f
+
+
+∂
+t
+
+
+
++
+
+
+
+∂
+f
+
+
+∂
+x
+
+
+
+
+
+
+d
+⁡
+x
+
+
+d
+⁡
+t
+
+
+
++
+
+
+
+∂
+f
+
+
+∂
+y
+
+
+
+
+
+
+d
+⁡
+y
+
+
+d
+⁡
+t
+
+
+
+.
+
+
+{\displaystyle {\frac {\operatorname {d} f}{\operatorname {d} t}}={\frac {\partial f}{\partial t}}+{\frac {\partial f}{\partial x}}{\frac {\operatorname {d} x}{\operatorname {d} t}}+{\frac {\partial f}{\partial y}}{\frac {\operatorname {d} y}{\operatorname {d} t}}.}
+
+Consider multiplying both sides of the equation by the differential
+
+
+
+d
+⁡
+t
+
+
+{\displaystyle \operatorname {d} t}
+:
+
+
+
+
+d
+⁡
+f
+=
+
+
+
+∂
+f
+
+
+∂
+t
+
+
+
+d
+⁡
+t
++
+
+
+
+∂
+f
+
+
+∂
+x
+
+
+
+d
+⁡
+x
++
+
+
+
+∂
+f
+
+
+∂
+y
+
+
+
+d
+⁡
+y
+.
+
+
+{\displaystyle \operatorname {d} f={\frac {\partial f}{\partial t}}\operatorname {d} t+{\frac {\partial f}{\partial x}}\operatorname {d} x+{\frac {\partial f}{\partial y}}\operatorname {d} y.}
+
+The result is the differential change
+
+
+
+d
+⁡
+f
+
+
+{\displaystyle \operatorname {d} f}
+in, or total differential of, the function
+
+
+
+f
+
+
+{\displaystyle f}
+. Because
+
+
+
+f
+
+
+{\displaystyle f}
+depends on
+
+
+
+t
+
+
+{\displaystyle t}
+, some of that change will be due to the partial derivative of
+
+
+
+f
+
+
+{\displaystyle f}
+with respect to
+
+
+
+t
+
+
+{\displaystyle t}
+. However, some of that change will also be due to the partial derivatives of
+
+
+
+f
+
+
+{\displaystyle f}
+with respect to the variables
+
+
+
+x
+
+
+{\displaystyle x}
+and
+
+
+
+y
+
+
+{\displaystyle y}
+. So, the differential
+
+
+
+d
+⁡
+t
+
+
+{\displaystyle \operatorname {d} t}
+is applied to the total derivatives of
+
+
+
+x
+
+
+{\displaystyle x}
+and
+
+
+
+y
+
+
+{\displaystyle y}
+to find differentials
+
+
+
+d
+⁡
+x
+
+
+{\displaystyle \operatorname {d} x}
+and
+
+
+
+d
+⁡
+y
+
+
+{\displaystyle \operatorname {d} y}
+, which can then be used to find the contribution to
+
+
+
+d
+⁡
+f
+
+
+{\displaystyle \operatorname {d} f}
+.
+"Total derivative" is sometimes also used as a synonym for the material derivative,
+
+
+
+
+
+D
+
+D
+⁡
+t
+
+
+
+
+
+{\displaystyle {\frac {\operatorname {D} }{\operatorname {D} t}}}
+, in fluid mechanics.

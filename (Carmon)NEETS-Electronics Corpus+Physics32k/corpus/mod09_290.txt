@@ -1,0 +1,21 @@
+Figure 2-16 shows a common-base Colpitts oscillator using a pnp transistor as the amplifying device. 
+Notice in this version of the Colpitts oscillator that regenerative feedback is obtained from the tank circuit 
+and applied to the emitter. Base bias is provided by resistor RB and RF. Resistor R C is the collector load 
+resistor. Resistor RE develops the input signal and also acts as the emitter swamping resistor. The tuned 
+circuit consists of C1 and C2 in parallel with the primary winding of transformer T1. The voltage 
+developed across C2 is the feedback voltage. Either or both capacitors may be adjusted to control the 
+frequency. In the common-base configuration there is no phase difference between the signal at the 
+collector and the emitter signal. Therefore, the phase of the feedback signal does not have to be changed. 
+When the emitter swings negative, the collector also swings negative and C2 charges negatively at the 
+junction of C1 and C2. This negative charge across C2 is fed back to the emitter. This increases the 
+reverse bias on Q1. The collector of Q1 becomes more negative and C2 charges to a negative potential. 
+This feedback effect continues until the collector of Q1 is unable to become any more negative. At that 
+time the primary of T1 will act as a source because of normal tank circuit operation. As its field collapses, 
+the tank potential will reverse and C1 and C2 will begin to discharge. As C2 becomes less negative, the 
+reverse bias on Q1 decreases and its collector voltage swings in the positive direction. C1 and C2 will 
+continue to discharge and then charge in a positive direction. This positive-going voltage across C2 will 
+be fed back to the emitter as regenerative feedback. This will continue until the field around the primary 
+of T1 collapses. At that time the collector of Q1 will be at a maximum positive value. C1 and C2 will 
+begin to discharge and the potential at their junction will become less positive. This increases the reverse 
+bias on Q1 and drives the collector negative, causing C1 and C2 to charge in a negative direction and to 
+repeat the cycle. 

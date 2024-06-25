@@ -1,0 +1,171 @@
+Consider the case where the numerator
+
+
+
+f
+
+
+{\displaystyle f}
+of a rate is a function
+
+
+
+f
+(
+a
+)
+
+
+{\displaystyle f(a)}
+where
+
+
+
+a
+
+
+{\displaystyle a}
+happens to be the denominator of the rate
+
+
+
+δ
+f
+
+/
+
+δ
+a
+
+
+{\displaystyle \delta f/\delta a}
+. A rate of change of
+
+
+
+f
+
+
+{\displaystyle f}
+with respect to
+
+
+
+a
+
+
+{\displaystyle a}
+(where
+
+
+
+a
+
+
+{\displaystyle a}
+is incremented by
+
+
+
+h
+
+
+{\displaystyle h}
+) can be formally defined in two ways:
+
+
+
+
+
+
+
+
+
+
+Average rate of change
+
+
+
+
+
+=
+
+
+
+f
+(
+a
++
+h
+)
+−
+f
+(
+a
+)
+
+h
+
+
+
+
+
+
+
+
+Instantaneous rate of change
+
+
+
+
+
+=
+
+lim
+
+h
+→
+0
+
+
+
+
+
+f
+(
+a
++
+h
+)
+−
+f
+(
+a
+)
+
+h
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}{\mbox{Average rate of change}}&={\frac {f(a+h)-f(a)}{h}}\\{\mbox{Instantaneous rate of change}}&=\lim _{h\to 0}{\frac {f(a+h)-f(a)}{h}}\end{aligned}}}
+
+where f(x) is the function with respect to x over the interval from a to a+h. An instantaneous rate of change is equivalent to a derivative.
+An example to contrast the differences between the unit rates are average and instantaneous definitions: the speed of a car can be calculated:
+An average rate can be calculated using the total distance travelled between a and b, divided by the travel time
+An instantaneous rate can be determined by viewing a speedometer.
+However these two formulas do not directly apply where either the range or the domain of
+
+
+
+f
+(
+)
+
+
+{\displaystyle f()}
+is a set of integers or where there is no given formula (function) for finding the numerator of the ratio from its denominator.

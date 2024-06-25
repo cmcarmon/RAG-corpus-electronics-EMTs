@@ -1,0 +1,17 @@
+The condition-code register is an 8-bit regis-
+ter that allows a programmer to check the status of 
+the microprocessor at a certain point in a program. 
+Depending on the microprocessor, the name of the 
+condition-code register may be the processor-status 
+register, the P-register, the status register, or the flag 
+register. An individual bit in the condition-code reg-
+ister is called a flag bit. The most common flags are 
+carry, zero, and sign. The carry flag is used during an 
+arithmetic operation to determine whether there is a 
+carry or a borrow. The zero flag is used to determine 
+whether the results of an instruction are all zeros. 
+The sign flag is used to indicate whether a number is 
+positive or negative. Of the 8 bits in the code register, 
+the Motorola 6800 and the Zilog Z80 use 6 bits; the 
+Intel 8080A uses 5; and the MOS Technology 6502 
+uses 7.

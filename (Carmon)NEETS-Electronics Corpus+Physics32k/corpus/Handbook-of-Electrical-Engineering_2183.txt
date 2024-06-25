@@ -1,0 +1,6 @@
+Kohonen SOFM networks produce a mapping between the continuous input space to the discrete output
+space preserving topological properties of the input space (i.e., local neighbors in the input space are mapped
+to neighbors in the output space). During training, both the spatial neighborhoods and the learning constant
+are decreased slowly by starting with a large neighborhood s
+0, and decreasing it (N0 controls the scheduling).
+The initial step size h

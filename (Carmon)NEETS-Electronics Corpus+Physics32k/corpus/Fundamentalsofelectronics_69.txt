@@ -1,0 +1,13 @@
+As with analog signals, we seek ways of decomposing real-valued discrete-time signals into simpler com-
+ponents. With this approach leading to a better understanding of signal structure, we can exploit that
+structure to represent information (create ways of representing information with signals) and to extract in-
+formation (retrieve the information thus represented). For symbolic-valued signals, the approach is diﬀerent:
+We develop a common representation of all symbolic-valued signals so that we can embody the information
+they contain in a uniﬁed way. From an information representation perspective, the most important issue
+becomes, for both real-valued and symbolic-valued signals, eﬃciency; What is the most parsimonious and
+compact way to represent information so that it can be extracted later.
+2.4.1 Real- and Complex-valued Signals
+A discrete-time signal is represented symbolically as s (n), where n = {. . . ,−1, 0, 1, . . .}. We usually draw
+discrete-time signals as stem plots to emphasize the fact they are functions deﬁned only on the integers.
+We can delay a discrete-time signal by an integer just as with analog ones. A delayed unit sample has the
+expression δ (n − m), and equals one when n = m.

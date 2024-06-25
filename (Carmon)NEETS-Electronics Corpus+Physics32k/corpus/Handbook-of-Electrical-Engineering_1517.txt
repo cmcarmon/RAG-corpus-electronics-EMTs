@@ -1,0 +1,6 @@
+Transform-Based Adaptation
+Another  category  of  adaptation  technique  uses  a  set  of  regression-based  transforms  to  tune  the  mean  and
+variance of a hidden Markov model to the new speaker. Each of the transformations is applied to a number of
+HMMs and estimated from the corresponding data. Using this sharing of transformations and data, the method
+can produce improvements even if a small amount of adaptation data is available for the new speaker by using
+a global transform for all HMMs in the system. If more data is available, the number of transforms is increased.

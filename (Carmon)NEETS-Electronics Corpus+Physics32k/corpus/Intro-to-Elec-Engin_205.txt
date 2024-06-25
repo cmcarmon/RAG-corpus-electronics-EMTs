@@ -1,0 +1,14 @@
+The response of networks to time-varying sources is considered in this chapter. The special
+case of sinusoidal signals is of particular importance, because the low-frequency signals (i.e.,
+currents and voltages) that appear in electric power systems as well as the high-frequency signals
+in communications are usually sinusoidal. The powerful technique known as phasor analysis,
+which involves the use of complex numbers, is one of the electrical engineer’s most important
+tools developed to solve steady-state ac circuit problems. Since a periodic signal can be expressed
+as a sum of sinusoids through a Fourier series, and superposition applies to linear systems, phasor
+analysis will be used to determine the steady-state response of any linear system excited by a
+periodic signal. Thus the superposition principle allows the phasor technique to be extended to
+determine the system response of a linear system. The sinusoidal steady-state response of linear
+circuits is presented in Section 3.1. The response when the excitation is suddenly applied or
+suddenly changed is examined next in Section 3.2. The total response of a system containing
+energy-storage elements (capacitors and inductors) is analyzed in terms of natural and forced
+responses (or transient and steady-state responses). The Laplace transformation, which provides

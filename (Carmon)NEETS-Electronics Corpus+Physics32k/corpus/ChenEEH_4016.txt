@@ -1,0 +1,11 @@
+Architecture-Driven Synthesis
+One of the well-known DSP synthesis tools is the Cathedral I/
+II/III (De Man et al., 1990, 1988; Note et al., 1991). A DSP
+algorithm is described as a graph with operators as vertices
+and with arcs representing the ﬂow of data in a language
+called SILAGE. The bit-true speciﬁcation of all signal for-
+mats is speciﬁed up to bit-level including quantization and
+overﬂow characteristics. Since Cathedral is characterized as an
+architecture-driven synthesis tool, it supports the following
+architectural styles. Each architecture style is categorized
+by sample rate.

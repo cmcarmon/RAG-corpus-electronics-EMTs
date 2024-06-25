@@ -1,0 +1,62 @@
+The acronym stands for Semi- Implicit method for pressure-linked equations. It is essentially a guess and correct procedure for the calculation of the staggered grid pressure field. These have been illustrated using a two dimensional steady flow.
+
+Step 1 :- A pressure field p* is guessed.
+Step 2 :- The Discretized momentum equations are solved using the value of p* to get velocity components u* and v*.
+Step 3:- Define the correction pressure as p' such that p = p* + p'
+Step 4:- Similarly define the correction values for the velocities as u' and v' such that u = u* + u' and v = v*+ v'
+Step 5:- Substitute the correct pressure field p in the momentum equations to obtain the correct velocity field (u,v).
+Step 6 :- Subtract equations obtained in step 5 from those in step 1. We should get the equations in term of the correction terms (u′ and v′)
+Here we apply an assumption that
+
+
+
+∑
+
+a
+
+n
+b
+
+
+
+u
+
+n
+b
+
+′
+
+
+
+{\displaystyle \sum a_{nb}u'_{nb}}
+and
+
+
+
+∑
+
+a
+
+n
+b
+
+
+
+v
+
+n
+b
+
+′
+
+
+
+{\displaystyle \sum a_{nb}v'_{nb}}
+are 0 . This is the major assumption in the SIMPLE Algorithm. This should then allow us to obtain the correction terms u' and v' of the Momentum Equations.
+We can similarly find the correction terms for all nodes.
+Step 7 :- Solve the continuity equation for the entire control volume. i.e. n,s,e,w nodes surrounding each node of the staggered grid, using the density terms.
+Step 8 :- Substitute the corrected velocity equations in the continuity equations and separate the term containing the correction pressure p'.
+This represents the equation for pressure correction p'.
+Step 9 :- Solve the thus obtained equation to get the correction term and get the correct pressure. Use the new correct pressure to reiterate the entire process till a convergence is obtained.
+Sometimes, the solution might not converge due to a large difference in the guessed field and correct pressure field. The new p= p* + αp'. α is kept between 0 and 1 to ensure convergence.
+The choice of α decides the cost effectiveness of the solution.

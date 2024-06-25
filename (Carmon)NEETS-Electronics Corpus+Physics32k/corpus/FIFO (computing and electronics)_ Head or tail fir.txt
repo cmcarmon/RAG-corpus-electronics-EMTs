@@ -1,0 +1,3 @@
+The ends of a FIFO queue are often referred to as head and tail. Unfortunately, a controversy exists regarding those terms:
+To many people, items should enter a queue at the tail, and remain in the queue until they reach the head and leave the queue from there. This point of view is justified by analogy with queues of people waiting for some kind of service and parallels the use of front and back in the above example.
+Other people believe that items enter a queue at the head and leave at the tail, in the manner of food passing through a snake. Queues written in that way appear in places that could be considered authoritative, such as the operating system Linux.

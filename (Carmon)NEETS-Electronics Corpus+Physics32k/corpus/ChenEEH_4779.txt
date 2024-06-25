@@ -1,0 +1,7 @@
+The qi is the ith hidden node input of the critic network, and
+pi is the corresponding output of the hidden node. The Nh is
+the total number of hidden nodes in the critic network, and
+n þ 1 is the total number of inputs into the critic network
+including the analog action value u(t ) from the action net-
+work. By applying the chain rule, the adaptation of the critic
+network is summarized below.

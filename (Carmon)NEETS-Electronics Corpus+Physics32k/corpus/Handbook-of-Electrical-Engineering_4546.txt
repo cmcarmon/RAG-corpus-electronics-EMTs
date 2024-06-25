@@ -1,0 +1,9 @@
+Weight Function Selection.  The simplest weight that might be used is a delta function which leads to a point-
+sampled  system  of  equations,  but  point  sampling  of  the  ﬁeld  operators  can  be  sensitive  to  any  numerical
+anomalies that might arise as a result of basis function discontinuities. Distributed, multiterm weight functions
+can also be used on either a subdomain or an entire-domain basis to provide a further smoothing of the ﬁnal
+equations to be solved. One example of this is the special case where the same functions are used for both the
+bases  and  weights,  a  procedure  known  as  Galerkin’s  method.  The  kind  of  testing  function  used  ultimately
+determines  the  degree  to  which  the  equations  can  be  matched  for  a  given  basis  function  and  number  of
+unknowns.  Some  speciﬁc  examples  of  basis  and  weight  function  combinations  used  in  electromagnetics  are
+summarized in Table 45.9.

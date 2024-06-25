@@ -1,0 +1,23 @@
+It is composed of all main subsystems required to build a satellite.
+Spacecraft preliminary sizing, in terms of mass, power, volume, area and moments of inertia of S/C body and solar array.
+Attitude control, composed of two sections:
+- Torque estimates: where orbit characteristics, environmental torques and slew characteristics are calculated.
+- Attitude control sizing: evaluating main parameters of Momentum wheel, Reaction wheel, Thrusters and Magnetic Torquer.
+Communications:
+- Uplink: setting ground transmitter parameters, this section evaluates outputs for Ground and spacecraft transmitter, Geometry and Atmosphere perturbations, Link budget in terms of EIRP, space loss, atmospheric attenuation, rain attenuation, G/T, Antenna pointing losses, Eb/No, C/No, Margin.
+- Downlink: setting the Spacecraft Transmitter parameters, this section evaluates outputs for Ground and Spacecraft transmitter, Geometry and Atmosphere perturbations, Link budget in terms of EIRP, space loss, atmospheric attenuation, rain attenuation, G/T, Antenna pointing losses, Eb/No, C/No, Margin.
+Power subsystem sizing, which is subdivided into 3 sections:
+- Solar array;
+- Secondary battery;
+- Other primary sources
+to calculate solar array mass and power budgets, battery capacity and mass, power and mass for fuel cells, solar thermal dynamics, radioisotope, nuclear reactor (if on board).
+Propulsion subsystem, composed of the following sections:
+- Sizing, which principally calculates mass, power, mass flow rate, thrust for both chemical and electric propulsion system;
+- Thermodynamics, evaluating specific impulses, combustion chamber and nozzle characteristics. Additionally, it performs a complete sizing for the liquid propulsion system;
+- Storage and Feed, where oxidiser and fuel characteristics plus bulk density and volume are determined.
+Structural Analysis for:
+- Monocoque Structure;
+- Semi-Monocoque Structure
+to calculate loads, axial and lateral deflections, stress, bending moment, margins of safety.
+Thermal control to perform analyses on the spacecraft body and solar array. Main parameters evaluated are: solar and albedo energy absorbed, maximum and minimum equilibrium temperature, maximum and minimum planet IR energy absorbed, possible changes in S/C to reduce maximum equilibrium temperature to specified upper limit, heater requirements during eclipse.
+System Sizing Summary resuming the main feature of the designed spacecraft.

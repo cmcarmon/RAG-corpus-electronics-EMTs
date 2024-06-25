@@ -1,0 +1,18 @@
+Solution 
+ 
+The  value  of  resistance  required  must  first  be 
+calculated using Ohm’s Law: 
+ 
+R = V / I = 28 V / 100 mA = 280 $
+The nearest preferred value from the E12 series is 
+270  $ (which  will  actually  produce  a  current  of 
+103.7 mA (i.e. within ±4%> of the desired value).  
+If a resistor of ±10% tolerance is used, current will 
+be within the range 94 mA to 115 mA (well within 
+the ±20% accuracy specified).  
+  The  power  dissipated  in  the  resistor  (calculated 
+using  P = I × V) will  be  2.9  W  and  thus  a 
+component rated at 3 W (or more) will be required. 
+This  would  normally  be  a  vitreous  enamel  coated 
+wirewound resistor (see Table 2.1). 
+ 

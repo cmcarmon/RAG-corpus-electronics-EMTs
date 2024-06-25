@@ -1,0 +1,10 @@
+Interrupted Frequency-Modulated CW (IFM/CW)
+To improve isolation during reception, the IFM/CW format involves preventing transmission for a portion of
+the  time  during  the  frequency  change.  Thus,  there  are  frequency  gaps,  or  interruptions,  as  illustrated  in
+Fig. 41.10. This shows a case where the transmit time equals the round-trip propagation time, followed by an
+equal time for reception. This duty factor of 0.5 for the waveform reduces the average transmitted power by
+3 dB relative to using an interrupted transmitter. However, the improvement in the isolation should reduce the
+system noise by more than 3 dB, thus improving the signal-to-noise ratio [Piper, 1987]. For operation at short
+range, Piper points out that a high-speed switch is required [1987]. He also points out that the ratio of frequency
+deviation to beat frequency should be an even integer and that the minimum ratio is typically 6, which produces
+an out-of-band loss of 0.8 dB.

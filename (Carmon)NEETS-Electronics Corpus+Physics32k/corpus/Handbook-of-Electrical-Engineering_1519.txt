@@ -1,0 +1,7 @@
+Cluster-Based Speaker Adaptation
+Yet  another  category  of  speaker  adaptation  methodology  is  based  on  the  fact  that  a  speech  training  corpus
+contains a number of training speakers, some of whom are closer, acoustically, to the test speaker than others.
+Therefore, given a test speaker, if the acoustic models are re-estimated from a subset of the training speakers
+who are acoustically close to the test speaker, the system should be a better match to the test data of the speaker.
+A further improvement is obtained if the acoustic space of each of these selected training speakers is transformed,
+by using transform-based adaptation method, to come closer to the test speaker.

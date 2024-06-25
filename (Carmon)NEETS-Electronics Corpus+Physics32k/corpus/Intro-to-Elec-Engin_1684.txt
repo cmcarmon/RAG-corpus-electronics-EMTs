@@ -1,0 +1,8 @@
+when a conductive surface, such as an airplane, appears in the signal path. While the antenna
+is continuously rotated in search of a target, the antenna is stopped when the target is located.
+It is pointed toward the target by varying its angular direction until a maximum echo is heard.
+The position coordinate θ(t) of the antenna is usually controlled through a gear train by a dc
+servomotor. The motor torque is varied in both magnitude and direction by means of a control
+voltage obtained from the ampliﬁer output. The control problem is then to command the motor
+such that the output θ(t) is nearly the same as the reference angular position θ r(t). The closed
+loop can be controlled by a digital controller.

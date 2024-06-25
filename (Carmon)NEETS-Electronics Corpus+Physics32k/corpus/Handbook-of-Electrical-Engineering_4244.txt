@@ -1,0 +1,3 @@
+Incremental  search  losses  are  suppressed  during  single-target-per-beam  tracking.  The  beam  is  pointed  as
+closely  as  possible  to  the  target  to  suppress  beamshape  loss.  The  tracking  loop  centers  the  range  gate  and
+Doppler ﬁlter on the return. Detection thresholding loss is minimal since the track range window is small.

@@ -1,0 +1,10 @@
+buses). The relative simplicity of the computations involved in
+each iteration step in equations 7.46 to 7.49 implies that the
+algorithm is very fast to implement. On the other hand, the
+error convergence rate is typically linear in the sense that the
+ratios of the error norm from one iteration to the previous
+iteration tend to be constant. Therefore, while the Gauss-Seidel
+algorithm can converge to the proximity of the actual solution
+in tens of iterations,
+it typically takes a large number of
+iterations to get to an accurate solution estimate.

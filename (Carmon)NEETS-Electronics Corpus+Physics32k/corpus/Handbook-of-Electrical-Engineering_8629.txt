@@ -1,0 +1,7 @@
+Calling Conventions
+Whenever you invoke a subroutine in a HLL, the calling routine (caller) must pass to the called routine (callee)
+the parameters that the subroutine requires. These parameters are deﬁned at compile time to be either pass-
+by-value or pass-by-pointer (or pass-by-reference), and they are listed in some particular order. The convention
+for  passing  the  parameters  varies  from  architecture  to  architecture  and  HLL  to  HLL,  but  basically  it  always
+consists of building a call block which contains all of the parameters and which will be found where the recipient
+expects to ﬁnd it.

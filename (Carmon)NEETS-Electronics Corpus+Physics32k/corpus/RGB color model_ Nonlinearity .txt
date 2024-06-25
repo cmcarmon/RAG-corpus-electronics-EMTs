@@ -1,0 +1,10 @@
+In classic cathode ray tube (CRT) devices, the brightness of a given point over the fluorescent screen due to the impact of accelerated electrons is not proportional to the voltages applied to the electron gun control grids, but to an expansive function of that voltage. The amount of this deviation is known as its gamma value (
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+), the argument for a power law function, which closely describes this behavior. A linear response is given by a gamma value of 1.0, but actual CRT nonlinearities have a gamma value around 2.0 to 2.5.
+Similarly, the intensity of the output on TV and computer display devices is not directly proportional to the R, G, and B applied electric signals (or file data values which drive them through Digital-to-Analog Converters). On a typical standard 2.2-gamma CRT display, an input intensity RGB value of (0.5, 0.5, 0.5) only outputs about 22% of full brightness (1.0, 1.0, 1.0), instead of 50%. To obtain the correct response, a gamma correction is used in encoding the image data, and possibly further corrections as part of the color calibration process of the device. Gamma affects black-and-white TV as well as color. In standard color TV, broadcast signals are gamma corrected.

@@ -1,0 +1,5 @@
+Data Services
+Both IS-95 and IS-136 systems presently support a “packet-over-circuit” approach to data services. This employs
+transmitting packet data originating from an application (usually running over TCP/IP) through a dedicated
+wireless  trafﬁc  channel.  Although  such  data  transfer  is  straightforward,  it  is  wasteful  in  that  a  user  may  be
+transmitting or receiving blank trafﬁc frames while waiting for a packet burst from the application.

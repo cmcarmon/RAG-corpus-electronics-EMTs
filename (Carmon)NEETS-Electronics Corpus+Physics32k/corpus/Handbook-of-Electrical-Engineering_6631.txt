@@ -1,0 +1,6 @@
+The payload type ﬁeld in the cell header differentiates the information in the cell payload of one connection
+(e.g., user information, operation and maintenance information for ATM). The value of the cell loss priority
+bit distinguishes cells that can be discarded under some exceptional network conditions without disturbing the
+quality signiﬁcantly from those cells that may not be discarded. The last ﬁeld of the cell header forms the header
+error control ﬁeld. The cell header is protected against errors with a mechanism that allows the correction of
+a single bit error and the detection of multibit errors.

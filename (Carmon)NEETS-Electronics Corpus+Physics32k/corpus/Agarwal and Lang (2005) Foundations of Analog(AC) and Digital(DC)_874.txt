@@ -1,0 +1,8 @@
+lower than the output-low threshold of 0.5 V required by the static
+discipline.20
+For our static discipline, VIH = 4 V. To obey the static discipline the
+inverter must interpret any voltage above 4 V as a logical 1. This is
+certainly true for our inverter.21
+For our static discipline, VIL = 0.9 V. This means that to obey the
+static discipline the inverter must interpret any voltage below 0.9 V as
+a logical 0. This is also true for our inverter.22

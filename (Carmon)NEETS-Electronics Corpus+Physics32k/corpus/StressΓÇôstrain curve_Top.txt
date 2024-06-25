@@ -1,0 +1,58 @@
+The relationship between the stress and strain that a particular material displays is known as that particular material's stress–strain curve. It is unique for each material and is found by recording the amount of deformation (strain) at distinct intervals of tensile or compressive loading (stress). These curves reveal many of the properties of a material (including data to establish the Modulus of Elasticity, E).
+Stress–strain curves of various materials vary widely, and different tensile tests conducted on the same material yield different results, depending upon the temperature of the specimen and the speed of the loading. It is possible, however, to distinguish some common characteristics among the stress–strain curves of various groups of materials and, on this basis, to divide materials into two broad categories; namely, the ductile materials and the brittle materials.
+Consider a bar of cross sectional area A being subjected to equal and opposite forces F pulling at the ends so the bar is under tension. The material is experiencing a stress defined to be the ratio of the force to the cross sectional area of the bar:
+
+
+
+
+
+s
+t
+r
+e
+s
+s
+
+=
+
+
+
+F
+A
+
+
+
+
+
+{\displaystyle \mathrm {stress} ={\tfrac {F}{A}}}
+
+Note that for engineering purposes, we often assume the cross-section area of the material does not change during the whole deformation process, which is not true since the actual area will decrease while deforming due to necking. The one assuming cross-section area fixed is so called “engineering stress-strain curve”, the latter is “true stress-strain curve”. In a tension test, true strain is less than engineering strain. Thus, a point defining true stress-strain curve is displaced upwards and to the left to define the equivalent engineering stress-strain curve. The difference between the true and engineering stresses and strains will increase with plastic deformation. At low strains (such as elastic deformation), the differences between the two is negligible.
+Two important effects necessary to understand the true stress are the effects of strain rate susceptibility and strain rate hardening upon the true stress. Time is often neglected in the initial stress-strain curve relations, but at higher strain rates, higher stresses will occur according to the relationship σT=k'ἕTm where m is the strain rate susceptibility. To account for the resistance to necking, the relationship σT=kεTn must also be considered, where n is the strain hardening coefficient and is typically between 0.02 and 0.50, depending upon the material. By combining these two relationships, a relationship of σT=kεTnἕTm can be found. However, as real stresses and strains do not occur uniaxially, considerations for multiaxial stresses must be added to this relationship to model real stresses.
+
+This stress is called the tensile stress because every part of the object is subjected to tension. The SI unit of stress is the newton per square meter, which is called the pascal.
+1 pascal = 1 Pa = 1 N/m2
+Now consider a force that is applied tangentially to an object. The ratio of the shearing force to the area A is called the shear stress.
+If the object is twisted through an angle q, then the shear strain is:
+
+
+
+
+
+s
+t
+r
+a
+i
+n
+
+=
+tan
+⁡
+
+q
+
+
+
+{\displaystyle \mathrm {strain} =\tan {q}}
+
+Finally, the shear modulus MS of a material is defined as the ratio of shear stress to shear strain at any point in an object made of that material. The shear modulus is also known as the torsion modulus.

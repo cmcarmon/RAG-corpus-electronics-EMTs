@@ -1,0 +1,6 @@
+shows  an  LSSD  circuit  model  and  the  general  form  of  an  SRL.  The  signiﬁcance  of  the  shift-register  (often
+referred  to  as  the  scan-register)  structure  is  that,  during  testing,  it  allows  each  SRL’s  value  to  be  individually
+controllable and observable by shifting (i.e., scanning) a serial vector into/out of the scan register. Hence, the
+SRLs can be treated as pseudo-input/output terminals, and the testing of the digital circuit is reduced to that of
+a combinational circuit only. Figure 85.13(a) shows an LSSD circuit model, and the general form of an SRL is
+given in Fig. 85.13(b). A possible gate-level circuit implementation of an SRL is shown in Fig. 85.13(c).

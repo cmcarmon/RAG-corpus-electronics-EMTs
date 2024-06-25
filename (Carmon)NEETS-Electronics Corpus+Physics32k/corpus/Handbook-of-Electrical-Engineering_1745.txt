@@ -1,0 +1,6 @@
+Edge Detection
+The ability to ﬁnd gray level edge structures in images is an important image processing operation. We shall
+deﬁne  an  edge  to  be  regions  in  the  image  where  there  is  a  large  change  in  gray  level  over  a  relatively  small
+spatial region. The process of ﬁnding edge locations in digital images is known as edge detection. Most edge
+detection  operators,  also  known  as  edge  operators,  use  a  window  operator  to  ﬁrst  enhance  the  edges  in  the
+image, followed by thresholding the enhanced image.

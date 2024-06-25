@@ -1,0 +1,3 @@
+In practice, h must be a low-pass approximation to the true inverse Fourier transform of *w*. This is necessary
+to suppress noise in the projection data. In practice, the choice of h is the most important element in the design
+of the reconstruction algorithm.

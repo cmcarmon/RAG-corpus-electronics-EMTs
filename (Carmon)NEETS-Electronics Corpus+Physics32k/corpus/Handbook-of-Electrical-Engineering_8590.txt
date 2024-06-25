@@ -1,0 +1,7 @@
+To access values within the character array, the normal C paradigm is to step a pointer along the array. Source
+points at the current character in the array; *source is the character (“what source points at”). source is initialized
+at the top of the program before the loop (source = block;) and incremented (source++;) at the bottom of the
+loop.  Note  the  many  repetitions  of  *source.  Each  one  means  the  same  current  character.  If  you  read  that
+expression  as  the  character  which  source  is  pointing  to,  it  looks  like  an  invitation  to  fetch  the  same  character
+from memory eight times. A compiler that optimizes by removing common subexpressions should eliminate all
+but the ﬁrst such fetch. This optimization is one of the things that we want to look for.

@@ -1,0 +1,12 @@
+Here, each bit is represented as a voltage that is either “high” or “low,” thereby representing “1” or “0,”
+respectively. To represent signed values, we tack on a special bit—the sign bit—to express the sign. The
+computer’s memory consists of an ordered sequence of bytes, a collection of eight bits. A byte can therefore
+represent an unsigned number ranging from 0 to 255. If we take one of the bits and make it the sign bit, we
+can make the same byte to represent numbers ranging from −128 to 127. But a computer cannot represent
+all possible real numbers. The fault is not with the binary number system; rather having only a ﬁnite number
+of bytes is the problem. While a gigabyte of memory may seem to be a lot, it takes an inﬁnite number of bits
+to represent π. Since we want to store many numbers in a computer’s memory, we are restricted to those
+that have a ﬁnite binary representation. Large integers can be represented by an ordered sequence of bytes.
+Common lengths, usually expressed in terms of the number of bits, are 16, 32, and 64. Thus, an unsigned
+32-bit number can represent integers ranging between 0 and 232 − 1 (4,294,967,295), a number almost big
+enough to enumerate every human in the world!6

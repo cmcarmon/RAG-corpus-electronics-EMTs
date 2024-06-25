@@ -1,0 +1,8 @@
+A block diagram of a CSM is shown in Fig. 15.3. In general, this model is composed of a set of  M vector
+subsources which are controlled by a switch. The position of the switch at each time instant is chosen randomly,
+and the output of one subsource is provided. The position of the switch deﬁnes the state of the source at each
+time instant. CSMs for speech signals assume that the subsources are Gaussian AR sources, and the switch is
+controlled by a Markov chain. Furthermore, the subsources are usually assumed statistically independent and
+the vectors generated from each subsource are also assumed statistically independent. The resulting model is
+known as a hidden Markov model (HMM) [Rabiner, 1989] since the output of the model does not contain
+the states of the Markovian switch.

@@ -1,0 +1,7 @@
+Here k bits (one input frame) are shifted in each time, and concurrently n bits (the output frame) are shifted
+out, where n > k. Thus, every k-bit input frame produces an n-bit output frame. Redundancy is provided in
+the output, since n > k. Also, there is memory in the coder, since the output frame depends on the previous
+K input frames where K > 1. The code rate is R = k/n, which is 3/4 in this illustration. The constraint length,
+K,  is  the  number  of  input  frames  that  are  held  in  the  kK  bit  shift  register.  Depending  on  the  particular
+convolutional code that is to be generated, data from the kK stages of the shift register are added (modulo 2)
+and used to set the bits in the n-stage output register.

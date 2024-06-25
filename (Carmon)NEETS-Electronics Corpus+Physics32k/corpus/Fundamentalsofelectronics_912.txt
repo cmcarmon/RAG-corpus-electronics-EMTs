@@ -1,0 +1,4 @@
+This corresponds to our decoding table: We associate the parity check matrix multiplication result with
+the error pattern and add this to the received word. If more than one error occurs (unlikely though it may
+be), this “error correction” strategy usually makes the error worse in the sense that more bits are changed
+from what was transmitted.

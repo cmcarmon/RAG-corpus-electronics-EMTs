@@ -1,0 +1,14 @@
+The usage of a p-channel MOSFET as the active load for an n-channel MOSFET leads
+to a logic family known as complementary-symmetry MOS, or CMOS. CMOS technology has
+signiﬁcant advantages and has become most popular. A basic CMOS inverter is shown in Figure
+9.3.2(a), in which both a p-channel and an n-channel enhancement MOSFET are used as a
+symmetrical pair, with each acting as load for the other.
+When the input vin is low, the gate–source voltage of the NMOS is less than the threshold
+voltage and is cut off. The gate–source voltage of the PMOS, on the other hand, is −VSS, where
+∼= VSS), the PMOS turns
+VSS, the supply voltage, is greater than the threshold voltage, VT . Then the PMOS is on, and the
+supply voltage appears at the output vout. When the input vin is high (vin
+off; the NMOS turns on. Then VSS appears across the drain–source terminals of the PMOS and
+the output vout drops to zero. Thus, the circuit functions as an inverter. Figure 9.3.2(b) shows the
+simpliﬁed circuit model of the CMOS inverter by depicting each transistor as either a short or an
+open circuit, depending on its state.

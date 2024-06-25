@@ -1,0 +1,9 @@
+When the switch is ﬁrst closed, the voltage across the inductor will immediately jump to
+battery voltage (acting as though it were an open-circuit) and decay down to zero over time
+(eventually acting as though it were a short-circuit). Voltage across the inductor is determined
+by calculating how much voltage is being dropped across R, given the current through the
+inductor, and subtracting that voltage value from the battery to see what’s left. When the
+switch is ﬁrst closed, the current is zero, then it increases over time until it is equal to the
+battery voltage divided by the series resistance of 1 Ω. This behavior is precisely opposite
+that of the series resistor-capacitor circuit, where current started at a maximum and capacitor
+voltage at zero. Let’s see how this works using real values:

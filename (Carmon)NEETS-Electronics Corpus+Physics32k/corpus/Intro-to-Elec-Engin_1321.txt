@@ -1,0 +1,6 @@
+While the switch is in touch with the upper contact for a short interval of time D << Ts,
+and obtains a sample piece of the input signal x(t) every Ts seconds, the output sampled
+waveform xs(t) will look like a train of pulses with their tops carrying the sample values of
+x(t), as shown in the waveform in Figure 14.2.5(a). This process can be modeled by using
+a switching function s(t), shown in the waveform of Figure 14.2.5(b), and a multiplier in
+the form

@@ -1,0 +1,9 @@
+Interference: Inductors may affect nearby components on a circuit board with their magnetic
+ﬁelds, which can extend signiﬁcant distances beyond the inductor. This is especially true if
+there are other inductors nearby on the circuit board. If the magnetic ﬁelds of two or more
+inductors are able to ”link” with each others’ turns of wire, there will be mutual inductance
+present in the circuit as well as self-inductance, which could very well cause unwanted effects.
+This is another reason why circuit designers tend to choose capacitors over inductors to perform
+similar tasks: capacitors inherently contain their respective electric ﬁelds neatly within the
+component package and therefore do not typically generate any ”mutual” effects with other
+components.

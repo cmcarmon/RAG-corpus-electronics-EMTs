@@ -1,0 +1,10 @@
+To calculate the Thévenin-equivalent input resistance of the inverting Op Amp
+circuit, we apply a test source at the input, and measure the resulting response.
+(There are no internal independent sources to be set to zero.) In Figure 15.12
+we have chosen to drive with a test voltage vt, and calculate the resulting current
+it. As before, it is equally valid to apply a test current source, and calculate the
+resulting voltage. The calculations are greatly simplified if the circuit topology
+is taken into account. The input consists of two elements in series: the resistor
+Rs, and a complicated circuit that will reduce to the Thévenin-equivalent input
+resistance of the rest of the Op Amp circuit. Recognizing this, we can first
+calculate the resistance to the right of the Rs (just set Rs to zero in Figure 15.12)

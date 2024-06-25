@@ -1,0 +1,3 @@
+As already mentioned, a disk cache can also lead to better utilization of the host-to-device pathways. A device
+can transfer data into a cache even if the pathway is in use by another device on the same string. Thus caches
+are effective in avoiding rotational position sensing misses.

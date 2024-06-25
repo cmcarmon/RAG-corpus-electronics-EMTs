@@ -1,0 +1,17 @@
+(IETF) has developed an enhanced Internet service model
+called Integrated Services
+(IntServ) (White, 1997). This
+model is characterized by resource reservations. It requires
+applications to know their trafﬁc characteristics and QoS re-
+quirements beforehand and signal the intermediate network
+routers to reserve resources, like bandwidth and buffers, to
+meet them. Accordingly, if the requested resources are avail-
+able, the routers reserve them and send back a positive ac-
+knowledgment to the source, which allows data to be sent. If,
+on the other hand, sufﬁcient resources are not available at any
+router in the path, the request is turned down, and the source
+has to try again after some time. This model also requires the
+use of packet classiﬁers to identify ﬂows that are to receive a
+certain level of service as well as packet schedulers to handle
+the forwarding of different packets in a manner to ensure that
+the QoS commitments are met.

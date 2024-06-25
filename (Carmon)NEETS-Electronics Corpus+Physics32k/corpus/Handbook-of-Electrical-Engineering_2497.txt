@@ -1,0 +1,8 @@
+A simple example of a VVR application is the electronic gain control
+circuit of Fig. 24.24. The voltage gain is given by AV = 1 + (R F/rds). If,
+for example, RF = 19 kW and rds(on) = 1 kW, then the maximum gain
+will be AVmax = 1 + [R F/rds(on)] = 20. As  VGS approaches VP , rds will
+increase  and  become  very  large  such  that  rds  >>  R F,  so  that  AV  will
+decrease to a minimum value of close to unity. Thus the gain can be
+varied over a 20:1 ratio. Note that VDS @ Vin, so to minimize distortion
+the input signal amplitude should be small compared to VP .

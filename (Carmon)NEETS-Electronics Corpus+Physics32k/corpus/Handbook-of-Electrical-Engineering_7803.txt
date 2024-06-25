@@ -1,0 +1,4 @@
+In  digital  data  storage  applications,  each  track  is  divided  into  small  segments  or  sectors,  intended  for  the
+storage of a single block of data (typically either 512 or 1024 bytes). The physical length of a sector is thus a
+few millimeters. Each sector is preceded by header information such as the identity of the sector, identity of
+the corresponding track, synchronization marks, etc. The header information may be preformatted onto the

@@ -1,0 +1,7 @@
+Wireless Lans
+Wireless LANs use a common radio channel to provide LAN connectivity without any physical wiring. Protocols
+for wireless LANs are currently being standardized as the IEEE 802.11 standard. Although, one might consider
+the use of a CSMA/CD protocol in this environment, stations using radio technology are unable to listen to
+the same channel on which they are transmitting. Thus, it is not possible to implement the collision detection
+(CD) part of CSMA/CD in a radio environment. Therefore, a modiﬁed protocol known as carrier sense multiple
+access with collision avoidance (CSMA/CA) can be used.

@@ -1,0 +1,6 @@
+Before we discuss how to implement memory, let us first define an abstract
+memory element and understand how it can be used in a small system.
+Figure 10.50 shows an abstract memory element that can store one bit of data.
+It has an input dIN, an output dOUT, and a control input called store. As sug-
+gested by the waveforms in Figure 10.50, the input dIN is copied into memory
+when the store signal is high. The value stored in the memory is available to

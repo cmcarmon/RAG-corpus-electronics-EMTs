@@ -1,0 +1,14 @@
+For SMP systems, the operating system is required to schedule
+multiple tasks for execution on multiple processors and to
+allocate resources to support such execution. The scheduling
+and resources allocation should take into account the need for
+load balancing. Since scheduling can be performed by any pro-
+cessor, there should be a mechanism to avoid or resolve conﬂicts.
+The same or different parts of the operating system can be
+executed by many processors, so control information (e.g.,
+operating system tables), storage management (e.g., paging
+facilities), and synchronization between processors need to be
+carefully managed to avoid deadlock or invalid operations.
+Furthermore, the operating system should contribute to failure
+management—for instance, processor failure should lead to
+graceful degradation in services and performance.

@@ -1,0 +1,23 @@
+It can also be shown that equation 9.33 reduces to equation
+9.34 if the Courant factor S and the wave-propagation direc-
+tion are suitably chosen. For example, reduction to the ideal
+dispersion case can be demonstrated for a numerical plane
+p
+wave propagating along a diagonal of a three-dimensional
+cubic lattice (~kkx ¼ ~kky ¼ ~kkz ¼ ~kk=
+ﬃﬃﬃ
+. Similarly,
+ideal dispersion results for a numerical plane wave propa-
+p
+gating along a diagonal of a two-dimensional square grid
+(~kkx ¼ ~kky ¼ ~kk=
+2
+ideal dispersion
+results for any numerical wave in a one-dimensional grid if
+S ¼ 1. These reductions to the ideal case have little practical
+value for two- and three-dimensional simulations, occurring
+only for diagonal propagation. However, the reduction to
+ideal dispersion in one dimension is very interesting, since it
+implies that the Yee algorithm (based on numerical ﬁnite-
+difference approximations) yields an exact solution for wave
+propagation.

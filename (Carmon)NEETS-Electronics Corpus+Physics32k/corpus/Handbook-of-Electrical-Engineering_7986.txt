@@ -1,0 +1,7 @@
+The above result indicates that the add time of a CLA is not only much faster than a ripple-carry adder but
+is also independent of the length (n) of the addends. Hence, one might conclude that CLAs are the ﬁnal answer
+to  the  high-speed  adder  problem.  However,  a  closer  look  at  the  set  of  carry  equations  given  above  quickly
+reveals  that  the  equations  become  progressively  more  complex  in  the  number  of  product  terms  and  literals.
+Therefore, fan-in constraints will eventually limit the practicality of realizing the equations in three-level logic.
+The actual limit is technology dependent. Standard single-chip medium-scale ALUs typically handle four-bit
+operands, although longer lengths are certainly feasible with today’s technology.

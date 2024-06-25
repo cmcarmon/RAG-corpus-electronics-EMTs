@@ -1,0 +1,10 @@
+JFET Biasing
+Voltage Source Biasing
+Now we will consider the biasing of JFETs for operation in the active region. The
+simplest  biasing  method  is  shown  in  Fig.  24.7,  in  which  a  voltage  source VGG  is
+used to provide the quiescent gate-to-source bias voltage VGSQ . In the active region
+the transfer equation for the JFET has been given as IDS = IDSS[1 – (VGS / VP)]2, so
+for a quiescent drain current of IDSQ the corresponding gate voltage will be given
+by VGSQ = VP (1 – 
+. For a Q point in the middle of the active region,
+we have that IDSQ = IDSS/2, so VGSQ = VP (1 – 

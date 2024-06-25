@@ -1,0 +1,8 @@
+yields a consistent linear system with the same number of
+variables as equations where the matrix T
+is the matrix
+Tnbr with the rightmost column deleted. The most efﬁcient
+way to solve the system characterized by equation 4.40 with
+the highest accuracy is by back substitution (only addition/
+subtraction operations are necessary). In the software imple-
+mentation of this algorithm discussed in this work, tcd is

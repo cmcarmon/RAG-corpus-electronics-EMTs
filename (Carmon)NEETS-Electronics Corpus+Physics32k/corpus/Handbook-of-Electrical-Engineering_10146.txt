@@ -1,0 +1,7 @@
+Dynamic Models
+Two of the most popular methods used to obtain dynamic models of the robot are the Newton-Euler method
+and the Lagrange-Euler method. The equations obtained using Lagrangian formulation are more suitable for
+the  application  of  modern  control  theory  than  the  recursive  equations  obtained  using  the  Newton-Euler
+method. In the Lagrangian formulation, the dynamic models are obtained using kinetic and potential energies
+associated with the rigid bodies in motion. The derivation is systematic and conceptually simple. This method
+yields closed-form dynamic equations that explicitly express joint variables in terms of joint torques. To arrive

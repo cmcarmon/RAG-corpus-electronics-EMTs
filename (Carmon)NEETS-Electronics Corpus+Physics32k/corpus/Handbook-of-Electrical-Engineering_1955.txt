@@ -1,0 +1,10 @@
+While look-ahead can transform any recursive digital ﬁlter transfer function to pipelined form, it leads to a
+hardware overhead proportional to N log2 M, where N is the ﬁlter order and M is the speed-up factor. Instead
+of  starting  with  a  sequential  digital  ﬁlter  transfer  function  obtained  by  traditional  design  approaches  and
+transforming it for pipelining, it is more desirable to use a constrained ﬁlter design program that can satisfy
+the  ﬁlter  spectrum  and  the  pipelining  constraint.  The  pipelining  constraint  is  satisﬁed  by  expressing  the
+denominator of the transfer function in scattered look-ahead form. Such ﬁlter design programs have now been
+developed in both time domain and frequency domain. The advantage of the constrained ﬁlter design approach
+is that we can obtain pipelined digital ﬁlters with marginal or zero hardware overhead compared with sequential
+digital ﬁlters. The pipelined transfer functions can also be mapped to pipelined lattice digital ﬁlters. The reader
+might note that the data ﬂow graph of Fig. 18.3(a) was obtained by this approach.

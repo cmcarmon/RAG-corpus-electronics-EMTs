@@ -1,0 +1,27 @@
+A potential  divider  comprising  R1, R2 and  R3
+connected  in  series.  Since  all  three  resistors 
+have  the  same  values  the  input  voltage  (VCC)
+will be divided into thirds, i.e. one third of VCC 
+will appear at the junction of R2 and R3 whilst 
+two thirds of VCC will appear at the junction of 
+R1 and R2.
+Two  operational  amplifiers  connected  as 
+comparators.  The  operational  amplifiers  are 
+used to examine the voltages at the threshold 
+and trigger inputs and compare these with the 
+fixed  voltages  from  the  potential  divider  (two 
+thirds and one third of VCC respectively). 
+An R–S bistable stage. This stage can be either 
+set  or  reset  depending  upon  the  output  from 
+the comparator stage. An external reset input is 
+also provided. 
+An open-collector transistor switch. This stage 
+is used to discharge an external capacitor by 
+effectively shorting it out whenever the base of 
+the transistor is driven positive. 
+An  inverting  power  amplifier.  This  stage  is 
+capable  of  sourcing  and  sinking  enough 
+current  (well  over  100  mA  in  the  case  of  a 
+standard 555 device) to drive a small relay or 
+another  low-resistance  load  connected  to  the 
+output. 

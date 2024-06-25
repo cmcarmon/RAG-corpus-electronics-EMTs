@@ -1,0 +1,12 @@
+A quadratic programming formulation of the clock skew
+scheduling problem was developed in Section 4.3. This QP
+problem can be efﬁciently solved by applying the mathematical
+procedures developed in Section 4.4. Algorithm CSD as ap-
+plied to the QP problem described in Section 5.4.3 has been
+implemented as a C þ þ program and applied to ISCAS’89
+and ISCAS’93 benchmark circuits as well as to industrial
+circuits (IC1, IC2, and IC3). Results from the application of
+this computer program are described in this section. Certain
+characteristics of the implementation are initially described in
+Section 4.6.1. Graphical illustrations of representative results
+are shown in Section 4.6.2.

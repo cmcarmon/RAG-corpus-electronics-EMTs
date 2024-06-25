@@ -1,0 +1,16 @@
+employed a uniform Cartesian grid having rectangular cells.
+Staircasing was used to approximate the surface of structural
+features not parallel to the grid coordinate axes. Later work
+showed that it is possible to modify the size and shape of the
+space cells located immediately adjacent to a structural feature
+to conformally ﬁt its surface (Jurgens et al., 1992; Dey and
+Mittra, 1997). This result is accurate and computationally
+efﬁcient for large structures because the number of modiﬁed
+cells is proportional to the surface area of the structure. Thus,
+the number of modiﬁed cells becomes progressively smaller
+relative to the number of regular cells ﬁlling the structure
+volume as its size increases. As a result, the computer resources
+needed to implement a fully conformal model approximate
+those required for a staircased model. A key disadvantage of
+this technique, however, is that special mesh-generation soft-
+ware must be constructed.

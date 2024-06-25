@@ -1,0 +1,17 @@
+As said earlier, IpSec provides two protocols to secure trafﬁc
+ﬂow. The ﬁrst is the Authenticated Header (AH) whose main
+function is to establish the authenticity of the sender to the
+receiver. It does not provide data conﬁdentiality. In other
+words, AH does not encrypt the payload. It may seem, at
+ﬁrst, that authentication without conﬁdentiality might not be
+useful in the industry. However, there are many applications
+where this does provide a great help. For example, there may
+be many situations, such as news reports, where the data may
+not be encrypted, but it may be necessary to establish the
+authenticity of
+the sender. AH provides signiﬁcantly less
+overhead as compared to ESP. The second protocol is the
+Encapsulated Security Payload (ESP). ESP provides both
+authentication and encryption services to the IP packets.
+Since every packet is encrypted, ESP puts a larger load on the
+processor.

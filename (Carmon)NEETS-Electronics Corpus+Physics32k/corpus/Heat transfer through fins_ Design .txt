@@ -1,0 +1,16 @@
+The momentum conservation equation for this case is given as follows:
+
+This is used in combination with the continuity equation.
+The energy equation is also needed, which is:
+.
+The above equation, on solving, gives the temperature profile for the fluid region.
+When solved as a scalar equation, it can be used to calculate the temperatures at the fin and cylinder surfaces, by reducing to:
+
+Where:
+q = internal heat generation = 0 (in this case).
+Also dT/dt = 0 due to steady state assumption.
+These flow and energy equations can be set up and solved in any simulation software, e.g. Fluent. In order to do so, all parameters of flow and thermal conditions like fluid velocity and temperature of body have to be specified according to the requirement. Also, the boundary conditions and assumptions if any must be specified.
+This results in velocity profiles and temperature profiles for various surfaces and this knowledge can be used to design the fin.
+
+
+== References ==

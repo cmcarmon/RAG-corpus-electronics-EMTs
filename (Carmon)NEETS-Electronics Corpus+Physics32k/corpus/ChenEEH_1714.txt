@@ -1,0 +1,13 @@
+where Rij is a binary random variable taking value 1 if the
+concept i is present in frame j. During the training phase, the
+identiﬁed concepts are given labels, and the corresponding
+Multiject consists of a label along with its probability of occur-
+rence and multimodal feature vector. Multijects are then inte-
+grated at the frame level by deﬁning frame level features
+Fi, i 2 {1 . . . N } (N is the number of concepts the system is
+being trained for) in the same way they are for Rij. If M is the
+number of
+then given
+w ¼ ~XX1, . . . ~XXM
+, the conditional probability of Multiject i
+being present in any region in the current frame is:

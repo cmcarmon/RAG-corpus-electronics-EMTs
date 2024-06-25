@@ -1,0 +1,131 @@
+If the system must remain online, one tuning method is to first set
+
+
+
+
+K
+
+i
+
+
+
+
+{\displaystyle K_{i}}
+and
+
+
+
+
+K
+
+d
+
+
+
+
+{\displaystyle K_{d}}
+values to zero. Increase the
+
+
+
+
+K
+
+p
+
+
+
+
+{\displaystyle K_{p}}
+until the output of the loop oscillates, then the
+
+
+
+
+K
+
+p
+
+
+
+
+{\displaystyle K_{p}}
+should be set to approximately half of that value for a "quarter amplitude decay" type response. Then increase
+
+
+
+
+K
+
+i
+
+
+
+
+{\displaystyle K_{i}}
+until any offset is corrected in sufficient time for the process. However, too much
+
+
+
+
+K
+
+i
+
+
+
+
+{\displaystyle K_{i}}
+will cause instability. Finally, increase
+
+
+
+
+K
+
+d
+
+
+
+
+{\displaystyle K_{d}}
+, if required, until the loop is acceptably quick to reach its reference after a load disturbance. However, too much
+
+
+
+
+K
+
+d
+
+
+
+
+{\displaystyle K_{d}}
+will cause excessive response and overshoot. A fast PID loop tuning usually overshoots slightly to reach the setpoint more quickly; however, some systems cannot accept overshoot, in which case an overdamped closed-loop system is required, which will require a
+
+
+
+
+K
+
+p
+
+
+
+
+{\displaystyle K_{p}}
+setting significantly less than half that of the
+
+
+
+
+K
+
+p
+
+
+
+
+{\displaystyle K_{p}}
+setting that was causing oscillation.

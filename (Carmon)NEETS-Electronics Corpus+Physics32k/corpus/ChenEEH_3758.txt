@@ -1,0 +1,11 @@
+ated with the respective clusters. Only the centroids are kept,
+and collectively they are called a codebook for the vector
+quantizer. Subsequently, any observation vector used for either
+training or recognition is quantized (assigned to the nearest
+code) using this codebook; hence, each feature vector suffers
+some degree of quantization in the feature space. If there are K
+possible vectors (observations) in the codebook, then it is
+sufﬁcient to assign to an observation a single integer, say k,
+where 1  k  K . Formally, the vector random process y is
+replaced by a scalar random process, say y, where each of the
+random variables y

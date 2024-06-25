@@ -1,0 +1,7 @@
+With this manipulation, we are evaluating the number of computations per sample. For any given value
+of the ﬁlter’s order q, the right side, the number of frequency-domain computations, will exceed the left if
+the signal’s duration is long enough. However, for ﬁlter durations greater than about 10, as long as the
+input is at least 10 samples, the frequency-domain approach is faster so long as the FFT’s power-of-two
+constraint is advantageous. Graphically, the parameter range over which the frequency-domain approach
+results in fewer computations is shown in the ﬁgure. As the analysis and the plot shows, only for short ﬁlter
+durations does the diﬀerence equation approach require fewer computations.

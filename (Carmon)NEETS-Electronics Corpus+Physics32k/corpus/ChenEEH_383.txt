@@ -1,0 +1,8 @@
+When analyzing the circuits in Figure 4.2 to obtain equation
+4.8, we did assume ideal op-amps with inﬁnite gain A and
+inﬁnite bandwidth. The designer is cautioned to investigate
+very carefully the validity of such an idealized model. Filters de-
+signed with ideal op-amps will normally not function correctly
+except at the lowest frequencies and for moderate values of Q. A
+more appropriate op-amp model that is adequate for most ﬁlter
+applications uses the ﬁnite and frequency-dependent gain A(s):

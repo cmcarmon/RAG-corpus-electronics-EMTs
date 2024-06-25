@@ -1,0 +1,11 @@
+A novel approach proposed by Liu and Chen (2002) argues
+that at the shot boundary, the contents of new shot differ from
+contents of the whole previous shot instead of just the previous
+frame. They proposed a generic and recursive principal com-
+ponent analysis-based approach that can be built on any fea-
+ture extracted from frames in a shot and that generates a
+model of the shot trained from features in previous frames.
+Features from the current frame are extracted, and a shot
+boundary is declared if the features from the current frame
+do not match the existing model by projecting the current
+feature onto the existing eigenspace.

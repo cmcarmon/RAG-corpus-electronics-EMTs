@@ -1,0 +1,9 @@
+Microprogram Development
+Microassemblers
+The ﬁrst level of speciﬁcation of microinstructions is, just like its counterpart at the machine level, the assembler.
+Although the process and philosophy is exactly the same, it is traditionally called a microassembler. A microas-
+sembler is a software program (it is not relevant to know in which language it is written) whose function is to
+translate a source program into the binary code equivalent. Obviously, to write a source program, a language
+has to be designed. At assembly level, languages are usually very close to the hardware structure, and the objects
+deﬁned  are  microregisters,  gate  level  controls,  and  paths.  Operations  are  the  microoperations  (sometimes
+slightly more sophisticated with a microassembler with macrofacilities).

@@ -1,0 +1,23 @@
+A second question about proof complexity is whether a method is more efficient than another. Since the proof size depends on the formula, it is possible that one method can produce a short proof of a formula and only long proofs of another formula, while a second method can have exactly the opposite behavior. The assumptions of measuring the size of the proofs relative to the size of the formula and considering only the shortest proofs are also used in this context.
+When comparing two proof methods, two outcomes are possible:
+for every proof of a formula produced using the first method, there is a proof of comparable size of the same formula produced by the second method;
+there exists a formula such that the first method can produce a short proof while all proofs obtained by the second method are consistently larger.
+Several proofs of the second kind involve contradictory formulae expressing the negation of the pigeonhole principle, namely that
+
+
+
+n
++
+1
+
+
+{\displaystyle n+1}
+pigeons can fit
+
+
+
+n
+
+
+{\displaystyle n}
+holes with no hole containing two or more pigeons.

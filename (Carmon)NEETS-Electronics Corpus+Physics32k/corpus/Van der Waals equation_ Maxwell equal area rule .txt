@@ -1,0 +1,93 @@
+Below the critical temperature, the van der Waals equation seems to predict qualitatively incorrect relationships. Unlike for ideal gases, the p-V isotherms oscillate with a relative minimum (d) and a relative maximum (e). Any pressure between pd and pe appears to have 3 stable volumes, contradicting the experimental observation that two state variables completely determine a one-component system's state. Moreover, the isothermal compressibility is negative between d and e (equivalently
+
+
+
+
+
+
+(
+
+
+∂
+P
+
+
+/
+
+
+∂
+V
+
+
+)
+
+
+T
+,
+N
+
+
+>
+0
+
+
+
+{\displaystyle \scriptstyle \left({{\partial P}/{\partial V}}\right)_{T,N}>0}
+), which cannot describe a system at equilibrium.
+To address these problems, James Clerk Maxwell replaced the isotherm between points a and c with a horizontal line positioned so that the areas of the two shaded regions would be equal (replacing the a-d-b-e-c curve with a straight line from a to c); this portion of the isotherm corresponds to the liquid-vapor equilibrium. The regions of the isotherm from a–d and from c–e are interpreted as metastable states of super-heated liquid and super-cooled vapor, respectively.  The equal area rule can be expressed as:
+
+
+
+
+
+p
+
+V
+
+
+(
+
+V
+
+G
+
+
+−
+
+V
+
+L
+
+
+)
+=
+
+∫
+
+
+V
+
+L
+
+
+
+
+
+V
+
+G
+
+
+
+
+p
+
+d
+V
+
+
+{\displaystyle p_{V}(V_{G}-V_{L})=\int _{V_{L}}^{V_{G}}p\,dV}
+
+where pV is the vapor pressure (flat portion of the curve), VL is the volume of the pure liquid phase at point a on the diagram, and VG is the volume of the pure gas phase at point c on the diagram. A two-phase mixture at pV will occupy a total volume between VL and VG, as determined by Maxwell's lever rule.
+Maxwell justified the rule based on the fact that the area on a pV diagram corresponds to mechanical work, saying that work done on the system in going from c to b should equal work released on going from a to b. This is because the change in free energy A(T,V) equals the work done during a reversible process, and, as a state variable, the free energy must be path-independent. In particular, the value of A at point b should be the same regardless of whether the path taken is from left or right across the horizontal isobar, or follows the original van der Waals isotherm.
+This derivation is not entirely rigorous, since it requires a reversible path through a region of thermodynamic instability, while b is unstable. Nevertheless, modern derivations from chemical potential reach the same conclusion, and it remains a necessary modification to the van der Waals and to any other analytic equation of state.

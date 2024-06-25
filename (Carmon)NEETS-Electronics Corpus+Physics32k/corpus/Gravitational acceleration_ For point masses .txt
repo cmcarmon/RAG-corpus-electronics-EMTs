@@ -1,0 +1,198 @@
+Newton's law of universal gravitation states that there is a gravitational force between any two masses that is equal in magnitude for each mass, and is aligned to draw the two masses toward each other. The formula is:
+
+
+
+
+F
+=
+G
+
+
+
+
+m
+
+1
+
+
+
+m
+
+2
+
+
+
+
+r
+
+2
+
+
+
+
+
+
+
+{\displaystyle F=G{\frac {m_{1}m_{2}}{r^{2}}}\ }
+
+where
+
+
+
+
+m
+
+1
+
+
+
+
+{\displaystyle m_{1}}
+and
+
+
+
+
+m
+
+2
+
+
+
+
+{\displaystyle m_{2}}
+are the two masses,
+
+
+
+G
+
+
+{\displaystyle G}
+is the gravitational constant, and
+
+
+
+r
+
+
+{\displaystyle r}
+is the distance between the two masses. The formula was derived for planetary motion where the distances between the planets and the Sun made it reasonable to consider the bodies to be point masses. (For a satellite in orbit, the 'distance' refers to the distance from the mass centers rather than, say, the altitude above a planet's surface.)
+If one of the masses is much larger than the other, it is convenient to define a gravitational field around the larger mass as follows:
+
+
+
+
+
+g
+
+=
+−
+
+
+
+G
+M
+
+
+r
+
+2
+
+
+
+
+
+
+
+r
+^
+
+
+
+
+
+{\displaystyle \mathbf {g} =-{GM \over r^{2}}\mathbf {\hat {r}} }
+
+where
+
+
+
+M
+
+
+{\displaystyle M}
+is the mass of the larger body, and
+
+
+
+
+
+
+r
+^
+
+
+
+
+
+{\displaystyle \mathbf {\hat {r}} }
+is a unit vector directed from the large mass to the smaller mass. The negative sign indicates that the force is an attractive force.
+In that way, the force acting upon the smaller mass can be calculated as:
+
+
+
+
+
+F
+
+=
+m
+
+g
+
+
+
+{\displaystyle \mathbf {F} =m\mathbf {g} }
+
+where
+
+
+
+
+F
+
+
+
+{\displaystyle \mathbf {F} }
+is the force vector,
+
+
+
+m
+
+
+{\displaystyle m}
+is the smaller mass, and
+
+
+
+
+g
+
+
+
+{\displaystyle \mathbf {g} }
+is a vector pointing toward the larger body. Note that
+
+
+
+
+g
+
+
+
+{\displaystyle \mathbf {g} }
+has units of acceleration and is a vector function of location relative to the large body, independent of the magnitude (or even the presence) of the smaller mass.
+This model represents the "far-field" gravitational acceleration associated with a massive body. When the dimensions of a body are not trivial compared to the distances of interest, the principle of superposition can be used for differential masses for an assumed density distribution throughout the body in order to get a more detailed model of the "near-field" gravitational acceleration. For satellites in orbit, the far-field model is sufficient for rough calculations of altitude versus period, but not for precision estimation of future location after multiple orbits.
+The more detailed models include (among other things) the bulging at the equator for the Earth, and irregular mass concentrations (due to meteor impacts) for the Moon. The Gravity Recovery And Climate Experiment (GRACE) mission launched in 2002 consists of two probes, nicknamed "Tom" and "Jerry", in polar orbit around the Earth measuring differences in the distance between the two probes in order to more precisely determine the gravitational field around the Earth, and to track changes that occur over time. Similarly, the Gravity Recovery and Interior Laboratory (GRAIL) mission from 2011-2012 consisted of two probes ("Ebb" and "Flow") in polar orbit around the Moon to more precisely determine the gravitational field for future navigational purposes, and to infer information about the Moon's physical makeup.

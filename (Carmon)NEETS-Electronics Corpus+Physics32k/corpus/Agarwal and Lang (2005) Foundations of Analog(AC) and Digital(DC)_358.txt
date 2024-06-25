@@ -1,0 +1,8 @@
+Turning now to the analysis of the circuit in Figure 2.53, we see that it involves the
+determination of 26 branch variables, which seems like a painful task. Fortunately, this
+analysis can be greatly simplified by taking advantage of the symmetry of the circuit, and
+that is the primary observation to be made here. As a consequence of the symmetry of
+the circuit, the three branch currents i1, i2, and i3 are identical, as are the three branch
+currents i4, i5, and i6. Further, KCL applied to the two nodes at the port terminals
+shows that the sum of each group of three branch currents is I, so all six branch currents
+equal I/3.

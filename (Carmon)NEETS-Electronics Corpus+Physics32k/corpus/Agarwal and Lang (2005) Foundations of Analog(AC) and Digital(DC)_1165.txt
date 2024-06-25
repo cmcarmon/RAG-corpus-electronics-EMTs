@@ -1,0 +1,6 @@
+Putting it all together, we combine the small-signal difference-mode circuit from
+Figures 8.32 with the small-signal common-mode circuit in 8.35 and obtain the cir-
+cuit shown in Figure 8.36. Notice that we are able to do such a superposition because of
+the linearity property of our small-signal circuits. The output of the difference amplifier
+is the difference between vx and vy, which gives a difference-mode gain of −gmRL and
+common-mode gain of 0.

@@ -1,0 +1,14 @@
+There are three basic approximation methods for FIR ﬁlters
+satisfying given speciﬁcations. The ﬁrst one, the window
+method, is very simple and well established but generally
+leads to transfer functions that normally have a higher order
+than those obtained by optimization methods. The second
+method, known as minimax method, calculates a transfer
+function that has minimum order to satisfy prescribed speciﬁ-
+cations. The minimax method is an iterative method and is
+available in most ﬁlter design packages. The third method,
+known as weighted least squares-Chebyshev3 (WLS-Cheby-
+shev) is a reliable but not widely known method. The WLS-
+Chebyshev method is particularly suitable for multirate
+systems because the resulting transfer functions might have
+decreasing energy at a prescribed range of frequencies.

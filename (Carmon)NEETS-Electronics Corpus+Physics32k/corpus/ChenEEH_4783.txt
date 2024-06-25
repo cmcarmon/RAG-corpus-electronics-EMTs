@@ -1,0 +1,10 @@
+It is worth pointing out that the existing implementations
+of NDP are usually computationally very intensive (Bertsekas
+and Tsitsiklis, 1996) and often require a considerable amount
+of trial and error. Most of the computations and experi-
+mentations with different approaches were conducted off-
+line. The following paragraphs provide some analytical insight
+on the online learning process for proposed NDP designs
+in this chapter. Speciﬁcally,
+the stochastic approximation
+argument is used to reveal the asymptotic performance of

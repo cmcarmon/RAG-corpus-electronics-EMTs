@@ -1,0 +1,13 @@
+In image restoration, one is usually interested in recovering an
+image from a degraded version of it. It is essentially different
+from image enhancement, which is concerned with accentu-
+ation or extraction of image features. Moreover, in image
+restoration, one usually has mathematical models of the deg-
+radation and a statistical description of the ensemble of images
+used. In this section, we will study one type of restoration
+problem, namely, the recovery of images degraded by a linear
+system and contaminated with additive noise. A linear model
+for degradations is depicted in Figure 4.13. The matrix u(m, n)
+is the original image, h(m, n) is a linear system representing the
+degradation, Z(m, n) is an additive noise, and v(m, n) is the
+observed degraded image. We can write:

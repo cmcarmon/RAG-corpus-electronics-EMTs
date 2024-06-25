@@ -1,0 +1,9 @@
+and takes the ﬁrst 100 lines of inﬁle, adds line numbers, sorts it
+in descending numerical order, and ﬁnally eliminates line
+numbers and writes the result into outﬁle. In fact, this example
+takes the ﬁrst 100 lines from inﬁle and reverses it so that the
+100th line becomes the ﬁrst line and the ﬁrst line becomes the
+100th line in outﬁle. These two examples demonstrate how
+UNIX provides basic building blocks (numerous ﬁlters), each
+of which does one job, as well as provides a mechanism for
+them to be put together in almost limitless ways.

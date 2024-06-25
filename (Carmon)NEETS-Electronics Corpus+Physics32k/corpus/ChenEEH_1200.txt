@@ -1,0 +1,6 @@
+CMOS Inverter Technique
+The CMOS inverter technique (Covino, 1997) uses a PMOS
+transistor for each input, thereby adjusting Vst to equal that of
+a static circuit. This technique cannot be used for dynamic
+NOR-type circuits because certain logic combinations will
+short Vdd to Ground (GND).

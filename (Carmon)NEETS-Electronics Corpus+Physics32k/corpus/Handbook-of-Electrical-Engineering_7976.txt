@@ -1,0 +1,4 @@
+Ripple-carry adders are simple in both operation and structure but are slow since in the worst case (X = 1
+. . . 11 and Y = 0 . . . 01) a carry produced in the least signiﬁcant full adder must propagate through all the
+more signiﬁcant ones. The worst-case add time, tadd, is given below where tpd is the propagation delay introduced
+at each stage.

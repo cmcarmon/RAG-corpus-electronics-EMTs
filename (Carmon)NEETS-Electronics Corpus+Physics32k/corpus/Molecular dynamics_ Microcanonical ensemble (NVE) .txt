@@ -1,0 +1,161 @@
+In the microcanonical ensemble, the system is isolated from changes in moles (N), volume (V), and energy (E). It corresponds to an adiabatic process with no heat exchange. A microcanonical molecular dynamics trajectory may be seen as an exchange of potential and kinetic energy, with total energy being conserved. For a system of N particles with coordinates
+
+
+
+X
+
+
+{\displaystyle X}
+and velocities
+
+
+
+V
+
+
+{\displaystyle V}
+, the following pair of first order differential equations may be written in Newton's notation as
+
+
+
+
+F
+(
+X
+)
+=
+−
+∇
+U
+(
+X
+)
+=
+M
+
+
+
+V
+˙
+
+
+
+(
+t
+)
+
+
+{\displaystyle F(X)=-\nabla U(X)=M{\dot {V}}(t)}
+
+
+
+
+
+V
+(
+t
+)
+=
+
+
+
+X
+˙
+
+
+
+(
+t
+)
+.
+
+
+{\displaystyle V(t)={\dot {X}}(t).}
+
+The potential energy function
+
+
+
+U
+(
+X
+)
+
+
+{\displaystyle U(X)}
+of the system is a function of the particle coordinates
+
+
+
+X
+
+
+{\displaystyle X}
+. It is referred to simply as the potential in physics, or the force field in chemistry. The first equation comes from Newton's laws of motion; the force
+
+
+
+F
+
+
+{\displaystyle F}
+acting on each particle in the system can be calculated as the negative gradient of
+
+
+
+U
+(
+X
+)
+
+
+{\displaystyle U(X)}
+.
+For every time step, each particle's position
+
+
+
+X
+
+
+{\displaystyle X}
+and velocity
+
+
+
+V
+
+
+{\displaystyle V}
+may be integrated with a symplectic integrator method such as Verlet integration. The time evolution of
+
+
+
+X
+
+
+{\displaystyle X}
+and
+
+
+
+V
+
+
+{\displaystyle V}
+is called a trajectory. Given the initial positions (e.g., from theoretical knowledge) and velocities (e.g., randomized Gaussian), we can calculate all future (or past) positions and velocities.
+One frequent source of confusion is the meaning of temperature in MD. Commonly we have experience with macroscopic temperatures, which involve a huge number of particles. But temperature is a statistical quantity. If there is a large enough number of atoms, statistical temperature can be estimated from the instantaneous temperature, which is found by equating the kinetic energy of the system to nkBT/2 where n is the number of degrees of freedom of the system.
+A temperature-related phenomenon arises due to the small number of atoms that are used in MD simulations. For example, consider simulating the growth of a copper film starting with a substrate containing 500 atoms and a deposition energy of 100 eV. In the real world, the 100 eV from the deposited atom would rapidly be transported through and shared among a large number of atoms (
+
+
+
+
+10
+
+10
+
+
+
+
+{\displaystyle 10^{10}}
+or more) with no big change in temperature. When there are only 500 atoms, however, the substrate is almost immediately vaporized by the deposition. Something similar happens in biophysical simulations. The temperature of the system in NVE is naturally raised when macromolecules such as proteins undergo exothermic conformational changes and binding.

@@ -1,0 +1,12 @@
+a ‘‘0,’’ ‘‘1,’’ ‘‘0,’’ ‘‘1,’’ ‘‘0’’ sequence. Figure 5.3b shows the same signal with the
+superposition of some amount of noise, possibly during transmission through
+a noisy environment. The receiver will be able to receive the sequence correctly
+provided the noise levels in Figure 5.3b are small enough that the voltages
+for a logical 0 signal do not exceed 2.5 V, and the voltages for a logical 1 signal
+do not fall below 2.5 V. Specifically, notice that the binary mapping we have
+chosen is immune to symmetric noise with a peak-to-peak value less than 2.5 V.
+Of course, the discrete representation does not come for free. Considering
+our example in Figure 5.1, in the analog case, a single wire could carry any
+value, for example, 1.1, 2.9, or 0.9999999 V. However, in the digital case,
+a wire is restricted to one of only two values: ‘‘0’’ and ‘‘1,’’ thereby losing
+precision significantly.

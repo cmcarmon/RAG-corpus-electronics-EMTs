@@ -1,0 +1,9 @@
+Figure 88.6 shows the structure of a complex interleaved memory system. In such a system, each bank is set
+up to operate on its own, independent of the operation of the other banks. For example, bank 1 could carry
+out a read operation on a particular memory address, and bank 2 carries out a write operation on a completely
+unrelated memory address. (Contrast this with the operation in a simple interleaved memory where all banks
+are  carrying  out  the  same  operation,  read  or  write,  and  the  locations  accessed  within  each  bank  represent  a
+contiguous  block  of  memory.)  Complex  interleaving  is  accomplished  by  providing  an  address  latch  and  a
+read/write command line for each bank. The memory controller handles the overall operation of the interleaved
+memory. The processing unit submits the memory request to the memory controller, which determines which
+bank needs to be accessed. The controller then determines if the bank is busy (by monitoring a busy line for

@@ -1,0 +1,4 @@
+For circuits, interconnection capacitances and fan-out (multiple MOSFET loads) will increase response times
+beyond  the  device  response  time,  even  when  parasitics  are  taken  into  account.  Thus,  we  are  led  to  consider
+interconnection delay, tINT. Although a lumped model suggests, as with Eq. (24.46), that tINT »  (CINT/CG) tG,
+the length of interconnections requires a distributed model. Interconnection delay is then

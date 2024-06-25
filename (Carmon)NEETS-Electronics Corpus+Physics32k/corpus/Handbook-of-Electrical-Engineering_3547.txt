@@ -1,0 +1,8 @@
+ simulation avoids the overhead of event queue
+processing  by  evaluating  all  devices  at  regular  intervals  of  time.  Cycle-driven  simulation  is  efﬁcient  when  a
+design exhibits a high degree of concurrency, i.e., when a large percentage of the devices are active per simulation
+ to determine the order in which they are evaluated
+cycle. Based on the staging of devices, devices are 
+at each time step to ensure the correct causal behavior yielding the proper ordering of events. For functional
+veriﬁcation, logic devices are often assigned zero-delay and memory devices are assigned unit-delay. Thus, any
+number of stages of logic devices may execute between system clock periods. 

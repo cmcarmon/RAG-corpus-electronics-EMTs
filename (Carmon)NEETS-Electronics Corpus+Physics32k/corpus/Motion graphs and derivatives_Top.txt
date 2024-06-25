@@ -1,0 +1,377 @@
+In mechanics, the derivative of the position vs. time graph of an object is equal to the velocity of the object. In the International System of Units, the position of the moving object is measured in meters relative to the origin, while the time is measured in seconds. Placing position on the y-axis and time on the x-axis, the slope of the curve is given by:
+
+
+
+
+v
+=
+
+
+
+Δ
+y
+
+
+Δ
+x
+
+
+
+=
+
+
+
+Δ
+s
+
+
+Δ
+t
+
+
+
+.
+
+
+{\displaystyle v={\frac {\Delta y}{\Delta x}}={\frac {\Delta s}{\Delta t}}.}
+
+Here
+
+
+
+s
+
+
+{\displaystyle s}
+is the position of the object, and
+
+
+
+t
+
+
+{\displaystyle t}
+is the time. Therefore, the slope of the curve gives the change in position (in metres) divided by the change in time (in seconds), which is the definition of the average velocity (in meters per second
+
+
+
+(
+
+
+
+
+
+
+m
+s
+
+
+
+
+
+
+)
+
+
+{\displaystyle ({\begin{matrix}{\frac {m}{s}}\end{matrix}})}
+) for that interval of time on the graph. If this interval is made to be infinitesimally small, such that
+
+
+
+
+Δ
+s
+
+
+
+{\displaystyle {\Delta s}}
+becomes
+
+
+
+
+d
+s
+
+
+
+{\displaystyle {ds}}
+and
+
+
+
+
+Δ
+t
+
+
+
+{\displaystyle {\Delta t}}
+becomes
+
+
+
+
+d
+t
+
+
+
+{\displaystyle {dt}}
+, the result is the instantaneous velocity at time
+
+
+
+t
+
+
+{\displaystyle t}
+, or the derivative of the position with respect to time.
+A similar fact also holds true for the velocity vs. time graph. The slope of a velocity vs. time graph is acceleration, this time, placing velocity on the y-axis and time on the x-axis. Again the slope of a line is change in
+
+
+
+y
+
+
+{\displaystyle y}
+over change in
+
+
+
+x
+
+
+{\displaystyle x}
+:
+
+
+
+
+a
+=
+
+
+
+Δ
+y
+
+
+Δ
+x
+
+
+
+=
+
+
+
+Δ
+v
+
+
+Δ
+t
+
+
+
+.
+
+
+{\displaystyle a={\frac {\Delta y}{\Delta x}}={\frac {\Delta v}{\Delta t}}.}
+
+Where
+
+
+
+v
+
+
+{\displaystyle v}
+is the velocity, measured in
+
+
+
+
+
+
+
+
+
+m
+s
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{matrix}{\frac {m}{s}}\end{matrix}}}
+, and
+
+
+
+t
+
+
+{\displaystyle t}
+is the time measured in seconds. This slope therefore defines the average acceleration over the interval, and reducing the interval infinitesimally gives
+
+
+
+
+
+
+
+
+
+
+d
+v
+
+
+d
+t
+
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{matrix}{\frac {dv}{dt}}\end{matrix}}}
+, the instantaneous acceleration at time
+
+
+
+t
+
+
+{\displaystyle t}
+, or the derivative of the velocity with respect to time (or the second derivative of the position with respect to time). The units of this slope or derivative are in meters per second per second (
+
+
+
+
+
+
+
+
+
+m
+
+s
+
+2
+
+
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{matrix}{\frac {m}{s^{2}}}\end{matrix}}}
+, usually termed "meters per second-squared"), and so, therefore, is the acceleration.
+Since the velocity of the object is the derivative of the position graph, the area under the line in the velocity vs. time graph is the displacement of the object. (Velocity is on the y-axis and time on the x-axis. Multiplying the velocity by the time, the seconds cancel out and only meters remain.
+
+
+
+
+
+
+
+
+
+m
+s
+
+
+
+
+
+
+s
+=
+m
+
+
+{\displaystyle {\begin{matrix}{\frac {m}{s}}\end{matrix}}s=m}
+.)
+The same multiplication rule holds true for acceleration vs. time graphs. When
+
+
+
+(
+
+
+
+
+
+
+m
+
+s
+
+2
+
+
+
+
+
+
+
+
+)
+
+
+{\displaystyle ({\begin{matrix}{\frac {m}{s^{2}}}\end{matrix}})}
+is multiplied by time (s), velocity is obtained. (
+
+
+
+
+
+
+
+
+
+m
+
+s
+
+2
+
+
+
+
+
+
+
+
+s
+=
+
+
+
+
+
+
+m
+s
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{matrix}{\frac {m}{s^{2}}}\end{matrix}}s={\begin{matrix}{\frac {m}{s}}\end{matrix}}}
+).

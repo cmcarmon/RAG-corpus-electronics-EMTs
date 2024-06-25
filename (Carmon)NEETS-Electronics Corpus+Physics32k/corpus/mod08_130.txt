@@ -1,0 +1,7 @@
+To eliminate this negative feedback caused by the emitter resistor, some way must be found to 
+remove the signal from the emitter. If the signal could be coupled to ground (decoupled) the emitter of the 
+transistor would be unaffected. That is exactly what is done. A DECOUPLING CAPACITOR (C3 in 
+view B) is placed between the emitter of Q1 and ground (across the emitter resistor). This capacitor 
+should have a high capacitance so that it will pass the signal to ground easily. The decoupling capacitor 
+(C3) should have the same qualities as the coupling capacitors (C1 and C2) of the circuit. Decoupling 
+capacitors are also called bypass capacitors. 

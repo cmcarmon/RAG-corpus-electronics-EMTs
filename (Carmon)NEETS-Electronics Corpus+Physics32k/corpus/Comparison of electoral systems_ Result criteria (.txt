@@ -1,0 +1,24 @@
+These are criteria that state that, if a certain candidate wins in one circumstance, the same candidate must (or must not) win in a related circumstance.
+Independence of Smith-dominated alternatives (ISDA)
+Does the outcome never change if a Smith-dominated candidate is added or removed (assuming votes regarding the other candidates are unchanged)? Candidate C is Smith-dominated if there is some other candidate A such that C is beaten by A and every candidate B that is not beaten by A etc. Note that although this criterion is classed here as nominee-relative, it has a strong absolute component in excluding Smith-dominated candidates from winning. In fact, it implies all of the absolute criteria above.
+Independence of irrelevant alternatives (IIA)
+Does the outcome never change if a non-winning candidate is added or removed (assuming votes regarding the other candidates are unchanged)? For instance, plurality rule fails IIA; adding a candidate X can cause the winner to change from W to Y even though Y receives no more votes than before.
+Local independence of irrelevant alternatives (LIIA)
+Does the outcome never change if the alternative that would finish last is removed? (And could the alternative that finishes second fail to become the winner if the winner were removed?)
+Independence of clone alternatives (cloneproof)
+Does the outcome never change if non-winning candidates similar to an existing candidate are added? There are three different phenomena which could cause a method to fail this criterion:
+Spoilers
+Candidates which decrease the chance of any of the similar or clone candidates winning, also known as a spoiler effect.
+Teams
+Sets of similar candidates whose mere presence helps the chances of any of them winning.
+Crowds
+Additional candidates who affect the outcome of an election without either helping or harming the chances of their factional group, but instead affecting another group.
+
+Monotonicity criterion (monotone)
+If candidate W wins for one set of ballots, will W still always win if those ballots change to rank W higher? (This also implies that you cannot cause a losing candidate to win by ranking him lower.)
+Consistency criterion (CC)
+If candidate W wins for one set of ballots, will W still always win if those ballots change by adding another set of ballots where W also wins?
+Participation criterion (PC)
+Is voting honestly always better than not voting at all? (This is grouped with the distinct but similar Consistency Criterion in the table below.)
+Reversal symmetry (reversal)
+If individual preferences of each voter are inverted, does the original winner never win?

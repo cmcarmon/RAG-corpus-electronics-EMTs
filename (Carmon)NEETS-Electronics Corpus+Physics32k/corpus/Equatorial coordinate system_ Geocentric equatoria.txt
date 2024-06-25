@@ -1,0 +1,169 @@
+There are a number of rectangular variants of equatorial coordinates. All have:
+The origin at the center of the Earth.
+The fundamental plane in the plane of the Earth's equator.
+The primary direction (the x axis) toward the vernal equinox, that is, the place where the Sun crosses the celestial equator in a northward direction in its annual apparent circuit around the ecliptic.
+A right-handed convention, specifying a y axis 90° to the east in the fundamental plane and a z axis along the north polar axis.
+The reference frames do not rotate with the Earth (in contrast to Earth-Centered, Earth-Fixed frames), remaining always directed toward the equinox, and drifting over time with the motions of precession and nutation.
+In astronomy:The position of the Sun is often specified in the geocentric equatorial rectangular coordinates X, Y, Z and a fourth distance coordinate, R (=√X 2 + Y 2 + Z 2), in units of the astronomical unit.
+The positions of the planets and other Solar System bodies are often specified in the geocentric equatorial rectangular coordinates ξ, η, ζ and a fourth distance coordinate, Δ (=√ξ 2 + η 2 + ζ 2), in units of the astronomical unit.
+
+These rectangular coordinates are related to the corresponding spherical coordinates by
+
+
+
+
+
+
+X
+R
+
+
+
+
+{\displaystyle {X \over R}}
+or
+
+
+
+
+
+ξ
+
+
+Δ
+
+
+
+
+=
+cos
+⁡
+δ
+cos
+⁡
+α
+
+
+{\displaystyle {\xi  \over {\mathit {\Delta }}}=\cos \delta \cos \alpha }
+
+
+
+
+
+
+
+Y
+R
+
+
+
+
+{\displaystyle {Y \over R}}
+or
+
+
+
+
+
+η
+
+
+Δ
+
+
+
+
+=
+cos
+⁡
+δ
+sin
+⁡
+α
+
+
+{\displaystyle {\eta  \over {\mathit {\Delta }}}=\cos \delta \sin \alpha }
+
+
+
+
+
+
+
+Z
+R
+
+
+
+
+{\displaystyle {Z \over R}}
+or
+
+
+
+
+
+ζ
+
+
+Δ
+
+
+
+
+=
+sin
+⁡
+δ
+
+
+{\displaystyle {\zeta  \over {\mathit {\Delta }}}=\sin \delta }
+.
+
+In astrodynamics:The positions of artificial Earth satellites are specified in geocentric equatorial coordinates, also known as geocentric equatorial inertial (GEI), Earth-centered inertial (ECI), and conventional inertial system (CIS), all of which are equivalent in definition to the astronomical geocentric equatorial rectangular frames, above. In the geocentric equatorial frame, the x, y and z axes are often designated I, J and K, respectively, or the frame's basis is specified by the unit vectors
+
+
+
+
+
+
+I
+^
+
+
+
+
+
+{\displaystyle {\hat {I}}}
+,
+
+
+
+
+
+
+J
+^
+
+
+
+
+
+{\displaystyle {\hat {J}}}
+and
+
+
+
+
+
+
+K
+^
+
+
+
+
+
+{\displaystyle {\hat {K}}}
+.
+The Geocentric Celestial Reference Frame (GCRF) is the geocentric equivalent of the International Celestial Reference Frame (ICRF). Its primary direction is the equinox of J2000.0, and does not move with precession and nutation, but it is otherwise equivalent to the above systems.

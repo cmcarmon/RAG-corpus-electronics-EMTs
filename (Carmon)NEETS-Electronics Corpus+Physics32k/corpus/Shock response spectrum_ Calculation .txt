@@ -1,0 +1,7 @@
+The most direct and intuitive way to generate an SRS from a shock waveform is the following procedure:
+Pick a damping ratio (or equivalently, a quality factor Q) for your SRS to be based on;
+Pick a frequency f, and assume that there is a hypothetical Single Degree of Freedom (SDOF) system with a damped natural frequency of f;
+Calculate (by direct time-domain simulation) the maximum instantaneous absolute acceleration experienced by the mass element of your SDOF at any time during (or after) exposure to the shock in question. This acceleration is a;
+Draw a dot at (f,a);
+Repeat steps 2–4 for many other values of f, and connect all the dots together into a smooth curve.
+The resulting plot of peak acceleration vs test system frequency is called a Shock Response Spectrum. It is often plotted with frequency in Hz, and with acceleration in units of g

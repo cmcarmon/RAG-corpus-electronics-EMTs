@@ -1,0 +1,12 @@
+(3.4.2)
+and the phase shift becomes −45° at that cutoff frequency, as shown in Figure 3.4.2. The power
+delivered to the circuit, at this frequency, is one-half the maximum power. As a consequence, ωCO
+is also called the half-power point, or half-power angular frequency. We see that this ﬁlter circuit
+of Figure 3.4.1 is indeed a low-pass ﬁlter because any input signal components at ω << ωCO are
+passed to the output with virtually unchanged amplitude and phase, whereas any components
+at ω >> ωCO have greatly reduced output amplitudes. ωCO roughly divides the passband
+(region of transmitted frequencies) from the stopband (region of high attenuation). The range
+of transmitted frequencies is known as the bandwidth. Note that in Figure 3.4.1 the low-pass
+ﬁltering properties come from the fact that the capacitor is an open circuit for ω = 0 but becomes
+a short circuit for ω → ∞ and “shorts out” any high-frequency voltage components across the
+output.

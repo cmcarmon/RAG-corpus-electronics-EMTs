@@ -1,0 +1,436 @@
+^Galilean transformations (click here to return to main)
+A basic goal is to be able to compare measurements made by observers in relative motion.
+Transformation between Galilean frames is linear. Given that two coordinate systems are in standard configuration, the coordinate transformation in the x-axis is simply
+
+
+
+
+
+x
+′
+
+=
+x
+−
+v
+t
+
+
+{\displaystyle x'=x-vt}
+
+
+Velocities are simply additive. If frame S' is moving at velocity v with respect to frame S, and within frame S', observer O' measures an object moving with velocity u', then
+
+
+
+
+
+u
+′
+
+=
+u
+−
+v
+
+
+{\displaystyle u'=u-v}
+or
+
+
+
+u
+=
+
+u
+′
+
++
+v
+
+
+{\displaystyle u=u'+v}
+
+
+^Relativistic composition of velocities (click here to return to main)
+The relativistic composition of velocities is more complex than the Galilean composition of velocities:
+
+
+
+
+u
+=
+
+
+
+v
++
+
+u
+′
+
+
+
+1
++
+(
+v
+
+u
+′
+
+
+/
+
+
+c
+
+2
+
+
+)
+
+
+
+.
+
+
+{\displaystyle u={v+u' \over 1+(vu'/c^{2})}.}
+
+
+In the low speed limit, the overall result is indistinguishable from the Galilean formula.
+The sum of two velocities cannot be greater than the speed of light.
+^Time dilation and length contraction revisited (click here to return to main)
+The Lorentz factor, gamma
+
+
+
+γ
+,
+
+
+{\displaystyle \gamma ,}
+appears very frequently in relativity. Given
+
+
+
+β
+=
+v
+
+/
+
+c
+,
+
+
+{\displaystyle \beta =v/c,}
+
+
+
+
+
+γ
+=
+
+
+1
+
+1
+−
+
+v
+
+2
+
+
+
+/
+
+
+c
+
+2
+
+
+
+
+
+=
+
+
+1
+
+1
+−
+
+β
+
+2
+
+
+
+
+
+
+
+{\displaystyle \gamma ={\frac {1}{\sqrt {1-v^{2}/c^{2}}}}={\frac {1}{\sqrt {1-\beta ^{2}}}}}
+
+
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+is the time dilation factor, while
+
+
+
+1
+
+/
+
+γ
+
+
+{\displaystyle 1/\gamma }
+is the length contraction factor.
+The Lorentz factor is undefined for
+
+
+
+v
+≥
+c
+.
+
+
+{\displaystyle v\geq c.}
+
+^Lorentz transformations (click here to return to main)
+The Lorentz transformations combine expressions for time dilation, length contraction, and relativity of simultaneity into a unified set of expressions for mapping measurements between two inertial reference frames.
+Given two coordinate systems in standard configuration, the transformation equations for the
+
+
+
+t
+
+
+{\displaystyle t}
+and
+
+
+
+x
+
+
+{\displaystyle x}
+axes are:
+
+
+
+
+
+
+
+
+
+t
+′
+
+
+
+
+=
+γ
+
+(
+
+t
+−
+
+
+
+v
+x
+
+
+c
+
+2
+
+
+
+
+
+)
+
+
+
+
+
+
+x
+′
+
+
+
+
+=
+γ
+
+(
+
+x
+−
+v
+t
+
+)
+
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}t'&=\gamma \left(t-{\frac {vx}{c^{2}}}\right)\\x'&=\gamma \left(x-vt\right)\end{aligned}}}
+
+
+There have been many alternative derivations of the Lorentz transformations since Einstein's original work in 1905.
+The Lorentz transformations have a mathematical property called linearity. Because of this: (i) Spacetime looks the same everywhere. (ii) There is no preferred frame. (iii) If two Lorentz transformations are applied sequentially, the result is also a Lorentz transformation.
+^Doppler effect (click here to return to main)
+The formulas for classical Doppler effect depend on whether it is the source or the receiver that is moving with respect to the medium.
+In relativity, there is no distinction between a source moving away from the receiver or a receiver moving away from the source. For the longitudinal Doppler effect, a single formula holds for both scenarios:
+
+
+
+
+f
+=
+
+
+
+
+1
+−
+β
+
+
+1
++
+β
+
+
+
+
+
+
+f
+
+0
+
+
+.
+
+
+{\displaystyle f={\sqrt {\frac {1-\beta }{1+\beta }}}\,f_{0}.}
+
+
+Transverse Doppler shift is a relativistic effect that has no classical analog. Although there are subtleties involved, the basic scenarios can be analyzed by simple time dilation arguments.
+^Energy and momentum (click here to return to main)
+In relativistic mechanics, the momentum vector is extended to four dimensions. Added to the momentum vector is a time component that allows the spacetime momentum vector to transform like the spacetime position vector.
+The relativistic energy-momentum vector has terms for energy and for spatial momentum. Using an uppercase P to represent the four-momentum and a lowercase p to denote the spatial momentum, the four-momentum may be written as
+
+
+
+
+P
+≡
+(
+E
+
+/
+
+c
+,
+
+
+
+p
+→
+
+
+
+)
+=
+(
+E
+
+/
+
+c
+,
+
+p
+
+x
+
+
+,
+
+p
+
+y
+
+
+,
+
+p
+
+z
+
+
+)
+
+
+{\displaystyle P\equiv (E/c,{\vec {p}})=(E/c,p_{x},p_{y},p_{z})}
+
+
+Consideration of the interrelationships between the various components of the relativistic momentum vector led Einstein to his famous
+
+
+
+E
+=
+m
+
+c
+
+2
+
+
+
+
+{\displaystyle E=mc^{2}}
+equation as well as to his concept of relativistic mass.
+^Conservation laws (click here to return to main)
+The conservation laws arise from fundamental symmetries of nature.
+Classical conservation of mass does not hold true in relativity. Since mass and energy are interconvertible, conservation of mass is replaced by conservation of mass-energy.
+For analysis of energy and momentum problems involving interacting particles, the most convenient frame is usually the "center-of-momentum" frame.
+Newtonian momenta, calculated as
+
+
+
+p
+=
+m
+v
+,
+
+
+{\displaystyle p=mv,}
+fail to behave properly under Lorentzian transformation. The relativistic conservation law for energy and momentum replaces the three classical conservation laws for energy, momentum and mass.
+Return to Introduction

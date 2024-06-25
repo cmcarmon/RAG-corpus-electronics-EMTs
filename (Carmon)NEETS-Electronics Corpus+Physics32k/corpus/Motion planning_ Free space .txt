@@ -1,0 +1,2 @@
+The set of configurations that avoids collision with obstacles is called the free space Cfree. The complement of Cfree in C is called the obstacle or forbidden region.
+Often, it is prohibitively difficult to explicitly compute the shape of Cfree. However, testing whether a given configuration is in Cfree is efficient. First, forward kinematics determine the position of the robot's geometry, and collision detection tests if the robot's geometry collides with the environment's geometry.

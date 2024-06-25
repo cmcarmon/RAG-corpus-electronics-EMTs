@@ -1,0 +1,12 @@
+. Network layer: Responsibilities of this layer include pro-
+viding the data integrity transmission for a point-to-
+point connection so that data will not be lost or dupli-
+cated. The layer accomplishes this task by maintaining a
+sequential order of frames that are transmitted over a data
+link connection and detecting and correcting transmis-
+sion errors with retransmission of the frames, if necessary.
+The other important function in the data link layer is to
+provide ﬂow control, which is a way to allow the receiving
+station to inform the sending station of stopping trans-
+mission for a moment so that the receiver will not over-
+load its buffers.

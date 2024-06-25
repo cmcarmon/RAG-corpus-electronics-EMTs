@@ -1,0 +1,6 @@
+UNIX is not only a time-sharing system; it is also a general-
+purpose multiprogramming system. A single user can run
+several programs at once, each as a separate process. The
+shell syntax for running a process in the background is to
+follow its command with an ampersand (&). Thus, the com-
+mand:

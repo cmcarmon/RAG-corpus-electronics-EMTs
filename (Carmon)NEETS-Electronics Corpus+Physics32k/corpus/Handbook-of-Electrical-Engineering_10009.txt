@@ -1,0 +1,10 @@
+Compensator Design
+Although the design speciﬁcations for a control system are often in terms of step-response behavior, frequency
+domain design methods rely on the premise that the correlation between the frequency and a step response
+yields  a  less  oscillatory  step  response  if  the  gain  and  phase  margins  are  increased.  Therefore  the  design  of  a
+suitable linear compensator for the system of Fig. 100.42 using the DF method, is usually done by selecting for
+example a lead network to provide adequate gain and phase margins for all amplitudes. This approach may be
+used in example 2 of the previous section where a phase lead network could be added to stabilize the system,
+say for a gain of 1.5, for which it is unstable without compensation. Other approaches are the use of additional
+feedback signals or modiﬁcation of the nonlinearity n(x) directly or indirectly [Atherton, 1982; Gelb and van
+der Velde, 1968].

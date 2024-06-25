@@ -1,0 +1,10 @@
+However, to make it possible for devices to reattach to the pathway, the I/O system must support a mechanism
+called rotational position sensing, i.e., the device interrupts the I/O controller when the desired sector is under
+the  heads.  If  the  pathway  is  currently  in  use,  the  device  must  pay  a  full  rotational  delay  before  it  can  again
+attempt to transfer. These rotational positional reconnect miss delays (RPS delays) represent a major source of
+degradation in many existing I/O systems [Buzen and Shum, 1987]. This arises from the lack of device buffering
+and the real-time service requirements of magnetic disks. At the time that these architectures were established,
+buffer  memories  were  expensive  and  the  demands  for  high  I/O  performance  were  less  pressing  with  slower
+speed CPUs. An alternative, made more attractive by today’s relative costs of electronic and mechanical com-
+ponents, is to associate a track buffer with the device that can be ﬁlled immediately. This can then be used as
+the source of the transfer when the pathway becomes available [Houtekamer, 1985].

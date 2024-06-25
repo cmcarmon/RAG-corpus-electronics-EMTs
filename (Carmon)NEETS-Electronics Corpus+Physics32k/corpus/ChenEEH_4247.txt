@@ -1,0 +1,20 @@
+than three consecutive zero bits in a cell, and at least two
+transitions occur in a 5-bit cell. The binary bit values are
+represented with non return to zero inverted (NRZI), where
+the transition at the beginning of the bit time denotes a binary
+1 for that bit time, and no transition indicates a binary 0. Only
+16 out of 32 code patterns are used for data, and other patterns
+are used for control symbols. Timing jitter is one of transmis-
+sion impairments in the data communication. The deviation
+of clock recovery occurs when a receiver attempts to recover
+clocking as well as data. Due to the high speed of transmis-
+sion, the deviation of the clock is more severe for FDDI
+than for IEEE 802.5. The centralized clocking used by the
+IEEE 802.5 network is inappropriate for 100 Mbps, and it
+requires a complicated and expensive phase lock loop circuitry.
+Distributed clocking is therefore used by FDDI. With distrib-
+uted clocking, each station recovers a clock from its incoming
+signal and transmits out at station clock speed. Each station
+also maintains its own elastic buffer, unlike the IEEE 802.5
+network that only designates one station to have the elastic
+buffer.

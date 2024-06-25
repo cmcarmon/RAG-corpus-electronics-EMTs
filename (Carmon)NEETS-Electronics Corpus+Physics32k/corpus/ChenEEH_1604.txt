@@ -1,0 +1,11 @@
+types, tastes, and textures of dishes. The output is a recipe that
+satisﬁes these constraints. For example, the input may be
+‘‘create a crisp pork dish;
+include broccoli; use stir-fry
+method.’’ CHEF looks in its case base for a recipe that makes
+a similar meal and then adapts it to solve the new problem. If it
+already has a recipe for pork with cabbage, it may copy the
+recipe and substitute broccoli for cabbage. However, broccoli
+may not remain crisp if cooked like cabbage. Thus, the way of
+stir-frying may be modiﬁed, for example, by using rules from
+other cases involving crisp broccoli.

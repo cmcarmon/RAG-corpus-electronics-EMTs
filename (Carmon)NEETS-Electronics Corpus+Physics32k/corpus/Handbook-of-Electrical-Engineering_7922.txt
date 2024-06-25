@@ -1,0 +1,8 @@
+shift-in clock operating in conjunction with an input ready signal which indicates whether the memory is able
+to  accept  further  words  or  is  now  full.  The  data  entered  is  automatically  shifted  in  parallel  to  the  adjacent
+memory location if it is empty and as this continues the data words stack up at the output end of the memory.
+At the output port, data transfers are controlled by a shift-out clock and its associated output ready signal. The
+output ready signal indicates either that a data word is ready to be shifted out or that the memory is now empty.
+FIFOs can easily be cascaded to any desired depth and operated in parallel to give any required word length.
+This type of memory is widely used in controlling transfers of data between digital subsystems which operate
+at different clock rates and is often known as an elastic buffer.

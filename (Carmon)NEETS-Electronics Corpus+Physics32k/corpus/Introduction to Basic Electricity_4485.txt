@@ -1,0 +1,8 @@
+Asynchronous means “not occurring at the same 
+time.” With respect to counter operations, asynchro-
+nous means that the flip-flops do not change states 
+at the same time. This is because the clock pulse 
+is not connected to the clock input of each stage. 
+ Figure  44-11 shows a two-stage counter connected for 
+asynchronous operation. Each flip-flop in a counter is 
+referred to as a stage.

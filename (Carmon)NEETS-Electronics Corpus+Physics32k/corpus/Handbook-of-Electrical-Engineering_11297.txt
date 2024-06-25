@@ -1,0 +1,18 @@
+Pulse Generator
+The primary function of the pulse generator is to interpret the information gained from the atrial and ventricular
+electrodes  and  other  sensors  to  determine  if  the  patient  requires  pacing  and  to  deliver  the  pacing  pulses,  if
+necessary. A  number  of  sophisticated  algorithms  are  applied  by  the  pacemaker  to  determine  when  pacing  is
+necessary. The pulse generator also performs several secondary functions, such as telemetry and diagnostics.
+A hermetically sealed titanium shell is used to house the electronics of the pulse generator because titanium is
+a strong, lightweight metal that is biocompatible with human tissue and does not corrode. Figure 115.13 shows
+a block diagram of a typical pacemaker pulse generator. A battery supplies the power for the electronics as well
+as for the pacing pulses. The sensing circuitry is used to amplify the electrical signals that are present on the
+heart in order to determine the heart rate. If rate-adaptive sensors are used (discussed below), additional sensing
+circuitry is needed. The output circuitry generates the pacing pulses by storing a charge on a capacitor so it
+can be delivered to the heart on demand. The backup pacing circuit is capable of asynchronously pacing either
+the atria or the ventricles at a preprogrammed rate in the event of excess noise. It also serves as a rate-limiting
+protection circuit to prevent the heart from being paced at an excessive rate due to a main system failure. The
+pacing control consists of timing circuitry and logic sections; it is responsible for interpreting sensed data and
+reacting with an appropriate pacing response. A microprocessor can be integrated with the pacing control and
+is often utilized as an overall system control to allow for ﬂexibility of design. Memory in the form of RAM and
+ROM  is  required  to  store  the  microprocessor  program,  pacing  parameters,  and  diagnostics.  The  telemetry

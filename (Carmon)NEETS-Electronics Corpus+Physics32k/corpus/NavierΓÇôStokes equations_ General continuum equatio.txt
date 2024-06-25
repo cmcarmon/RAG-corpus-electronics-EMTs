@@ -1,0 +1,47 @@
+The Navier–Stokes momentum equation can be derived as a particular form of the Cauchy momentum equation. In an inertial frame of reference, the conservation form of the equations of continuum motion is:
+
+where
+ρ is the density,
+u is the flow velocity,
+∇ is the divergence,
+p is the pressure,
+t is time,
+I is the identity matrix,
+τ is the deviatoric stress tensor (or Cauchy stress tensor), which has order two,
+g represents body accelerations acting on the continuum, for example gravity, inertial accelerations, electrostatic accelerations, and so on,
+⊗ is the outer product:
+
+
+
+
+
+u
+
+⊗
+
+v
+
+=
+
+u
+
+
+
+v
+
+
+
+T
+
+
+
+.
+
+
+{\displaystyle \mathbf {u} \otimes \mathbf {v} =\mathbf {u} \mathbf {v} ^{\mathrm {T} }.}
+
+
+The left side of the equation describes acceleration, and may be composed of time-dependent and convective components (also the effects of non-inertial coordinates if present). The right side of the equation is in effect a summation of body forces (such as gravity), hydrostatic effects, and divergence of deviatoric stress.
+In the Eulerian forms it is apparent that the assumption of an inviscid fluid, or no deviatoric stress, brings Cauchy equations to the Euler equations.
+All non-relativistic balance equations, such as the Navier–Stokes equations, can be derived by beginning with the Cauchy equations and specifying the stress tensor through a constitutive relation. By expressing the shear tensor in terms of viscosity and fluid velocity, and assuming constant density and viscosity, the Cauchy equations will lead to the Navier–Stokes equations.
+The incompressible case is simpler than the compressible one so for didactical purpose it should be presented before. However, the compressible case is the most general framework of Navier–Stokes equations so where not specified, Navier–Stokes equations are intended to be compressible Navier–Stokes equations.

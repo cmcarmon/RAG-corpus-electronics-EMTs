@@ -1,0 +1,10 @@
+. Time division multiplexing (TDM)—synchronous TDM:
+Multiple digital signals or analog signals carrying digital
+data can be carried on a single transmission path by
+interleaving portions of each signal in time. The inter-
+leaving interval can be one bit, one octet, or one block of
+a ﬁxed size of octets. Each signal or connection path takes
+a ﬁxed time slot but use the whole bandwidth of the link.
+‘‘Dummy’’ information will be sent on the slot even if
+there is no data for the connection. This wastes the
+capacity of the transmission bandwidth.

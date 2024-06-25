@@ -1,0 +1,12 @@
+Sum-of-products As the name implies,
+logic expressions in the sum-of-
+products form are represented using two levels of operations as a set of product
+(AND) terms, each comprising one or more variables in their true forms (for
+example, A) or complement forms (e.g., A), combined using the OR function.
+For example, the logic expression AD + ABC + ABC is in a sum-of-
+products representation containing the sum of three product terms. The first
+term contains two variables, while the latter two terms contain three variables
+each. The expression AB+C+D+B is also in a sum-of-products representation.
+The expression AB + C, however, is not in a sum of products representa-
+tion, and neither is the expression (A+ B)(B+ C). (Section 5.5 will discuss how
+we can convert such expressions to a sum-of-products representation.)

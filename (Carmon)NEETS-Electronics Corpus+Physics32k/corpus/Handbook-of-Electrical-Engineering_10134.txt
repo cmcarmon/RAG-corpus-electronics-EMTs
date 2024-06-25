@@ -1,0 +1,10 @@
+ method and close the loop
+around the joints of the robot. The desired joint positions corresponding to a tool trajectory are either taught
+  or  generated  by  solving  an  inverse  kinematics  problem.  The  independent  joint  control
+by  using  a 
+method, however, is effective only at low speeds. As the speeds increase, the coupling effects between the joints
+increase and warrant the inclusion of these effects in the controller development. Advanced controller devel-
+opment and implementation based on full dynamics is one of the active areas of current research. New advances
+in sensor technology, faster computers, advanced robots such as direct drive arms and industrial competition
+provide new opportunities and motivation for accelerating the development and implementation of advanced
+controllers for robots in the near future.

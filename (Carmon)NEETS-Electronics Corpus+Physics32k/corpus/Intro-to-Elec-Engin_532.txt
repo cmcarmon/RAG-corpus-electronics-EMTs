@@ -1,0 +1,8 @@
+and ¯Q to the J-gate input. Assuming Q ¯Q = 01, gate B is disabled by Q = 0 (i.e., F =
+1). The only way to make the circuit change over is for gate A to be enabled by making
+J = 1 and ¯Q = 1 (which it is already). Then when Ck = 1, all inputs to gate A are 1
+¯Q = 0, so the
+and E goes to zero, which makes Q = 1. With Q and F both equal to 1,
+ﬂip-ﬂop has changed state. Note that the input condition JK = 11 is allowed, and in this
+condition, when the ﬂip-ﬂop is clocked, the output always changes state; thus it is said to
+toggle.

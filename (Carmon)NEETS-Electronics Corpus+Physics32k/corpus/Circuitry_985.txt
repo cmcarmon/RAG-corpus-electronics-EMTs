@@ -1,0 +1,15 @@
+In general, a logic function with n input variables 
+ 
+will  have  2n different  possible  states  for  those 
+inputs. Thus, with two input variables there will be 
+four possible input states, for three input variables 
+there  will  be  eight  possible  states,  and  for  four 
+input variables there will be 16 possible states. 
+  Take  a  look  at  Fig.  A8.20  and  Fig.  A8.21  and 
+compare the output states  for AND  with those  for 
+NAND as well as OR with those for NOR. In every 
+case,  you  should  notice  that  the  output  states  are 
+complementary—in  other  words,  all  of  0’s  in  the 
+AND column have been inverted to become 1’s in 
+the NAND column, and vice versa. The same rule 
+also applies to the OR and NOR columns. 

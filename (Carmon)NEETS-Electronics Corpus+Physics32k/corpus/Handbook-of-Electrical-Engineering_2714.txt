@@ -1,0 +1,6 @@
+In the example of Fig. 25.19, the areas of the cells are nonuniform. However, the assigned cell areas ensure
+that the previously described operation occurs so that the balancing criterion is satisﬁed. (The cell areas are
+omitted in this ﬁgure, but they correspond to the ones given in Fig. 25.15.) Figure 23.19 illustrates a pass of
+the  Fiduccia–Mattheyses  algorithm.  During  this  pass,  six  different  partitions  are  generated,  i.e.,  the  initial
+partition and ﬁve additional ones. Note that according to the description of the pass, the number of additional
+partitions equals the number of cells in the circuit.

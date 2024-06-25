@@ -1,0 +1,13 @@
+found such a code. Shannon’s result proves it exists; seems like there is always more work to do. In any case,
+that should not prevent us from studying commonly used error correcting codes that not only ﬁnd their way
+into all digital communication systems, but also into CDs and bar codes used on merchandise.
+6.25 Repetition Codes33
+Perhaps the simplest error correcting code is the repetition code. Here, the transmitter sends the data
+bit several times, an odd number of times in fact. Because the error probability pe is always less than 1
+2, we
+know that more of the bits should be correct rather than in error. Simple majority voting of the received
+bits (hence the reason for the odd number) determines the transmitted bit more accurately than sending
+it alone. For example, let’s consider the three-fold repetition code: for every bit b (n) emerging from the
+source coder, the channel coder produces three. Thus, the bit stream emerging from the channel coder c (l)
+has a data rate three times higher than that of the original bit stream b (n). The coding table (Table 1.1)
+illustrates when the majority-vote decoder can correct errors and when it can’t.

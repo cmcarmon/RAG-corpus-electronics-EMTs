@@ -1,0 +1,6 @@
+Subband Coding
+Recently,  subband  coding  has  proved  to  be  an  effective  technique  for  image  compression.  Here,  the  original
+video signal is ﬁltered into a set of bandpass signals (subbands), each sampled at successively lower rates. This
+process is known as the subband analysis stage. Each of the bandpass images is then quantized and encoded
+for transmission/storage. At the receiver, the signals must be decoded and then an image reconstructed from
+the  subbands.  The  process  at  the  receiver  is  referred  to  as  the  subband  synthesis  stage. A  one-level  subband

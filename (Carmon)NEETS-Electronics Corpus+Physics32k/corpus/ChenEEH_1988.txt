@@ -1,0 +1,22 @@
+The problem of derived signature-based monitoring of
+processors with built-in caches was, to the best of our know-
+ledge, addressed for the ﬁrst time by Rota (2002). An external
+observer cannot guess the instructions fetched by the processor
+from its cache, and the integration of the WD into the proces-
+sor core cannot be performed in off-the-shelf commercial
+systems. Rota (2002) developed a solution to this problem in
+which the processor explicitly sends information about the
+instructions that are actually being fetched from the cache. A
+very simple solution would be to modify the processor in such
+a way that every instruction fetched from the cache is also
+asserted on the external bus. Unfortunately, it is not realistic to
+assume that the external signature transfer time on the external
+memory bus followed by the concurrent signature computa-
+tion and error analysis that a WD needs to perform is compar-
+able to the processing speed of a pipelined processor with one
+or more cache levels. A solution was needed that would allow
+the watchdog to perform a derived signature control ﬂow
+checking at a reasonable speed. It was assumed that the exter-
+nal watchdog is able to process instructions at the rate of the
+external bus clock frequency, which is usually smaller than the
+processor clock frequency.

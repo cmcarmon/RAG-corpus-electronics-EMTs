@@ -1,0 +1,7 @@
+The operating point of a system is the intersection point of the torque-speed curve of drive and machine. Both devices are linked with a shaft so the speed is always identical. The drive creates the torque which rotates both devices. The machine creates the counter-torque, e.g. by being a moved device which needs permanent energy or a wheel turning against the static friction of the track.
+The drive speed increases when the driving torque is higher than the counter-torque.
+The drive speed decreases when the counter-torque is higher than the driving torque.
+At the operating point the driving torque and the counter-torque are balanced, hence the speed does not change anymore.
+A speed change in a stable operating point creates a torque change which acts against this change of speed.
+A change in speed out of this stable operating point is only possible with a new control intervention. This can be changing the load of the machine or the power of the drive which both changes the torque because it is a change in the characteristic curves. The drive-machine system then runs to a new operating point with a different speed and a different balance of torques.
+Should the drive torque be higher than the counter torque at any time then the system does not have an operating point. The result will be that the speed increases up to the idle speed or even until destruction. Should the counter torque be higher at any times the speed will decrease until the system stops.

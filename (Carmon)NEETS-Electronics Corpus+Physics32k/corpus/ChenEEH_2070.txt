@@ -1,0 +1,7 @@
+A TPrTN net is live lock free if and only if for any transition
+enabled inﬁnitely often with a mode a, the same transition
+with mode a will ﬁre inﬁnitely often. Livelock freedom is a
+liveness property. One of the liveness properties of the Five
+Dining Philosophers problem is that every individual phil-
+osopher will eventually get a piece of a meal (starvation free),
+which can be expressed by the following temporal formula:

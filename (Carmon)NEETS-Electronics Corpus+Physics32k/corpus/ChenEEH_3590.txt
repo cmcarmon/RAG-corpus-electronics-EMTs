@@ -1,0 +1,9 @@
+An example of a discrete-time signal is shown in Figure 2.6. In
+a digital ﬁlter, the input signal x(n) is a sequence of numbers
+indexed by the integer n that can assume only a ﬁnite number
+of amplitude values. Such a sequence might originate from a
+continuous-time signal x(t) by periodically sampling it at the
+time instants t ¼ nT , where T is the sampling interval. The
+output sequence y(n) arises by applying x(n) to the input of
+the digital ﬁlter, with the relationship between x(n) and y(n)
+represented by the operator F as:

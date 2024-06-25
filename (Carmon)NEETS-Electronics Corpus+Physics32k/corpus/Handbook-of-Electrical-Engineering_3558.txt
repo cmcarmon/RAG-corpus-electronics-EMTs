@@ -1,0 +1,7 @@
+Placement transforms a logical hierarchy into a physical hierarchy by deﬁning how hardware elements are
+oriented and arranged relative to each other. Placement determines the overall size, i.e., area, a digital system
+. Mincut placement tech-
+will occupy. Two popular placement algorithms are 
+niques group highly connected cells into clusters. Then, the clusters are sorted and arranged according to user-
+supplied priorities. Simulated annealing conducts a series of trial-and-error experiments by pseudorandomly
+moving cells and evaluating the resulting placements, again according to user-supplied priorities.

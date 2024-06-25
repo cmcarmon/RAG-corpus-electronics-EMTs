@@ -1,0 +1,12 @@
+A ﬁnal issue of signiﬁcance in the use of DTW is the devel-
+opment of an appropriate set of reference strings—the so-called
+training problem. DTW training is a problem to which there is
+no simple or well-formulated solution, and this fact represents
+one of the central contrasts between the DTW method and the
+pervasive HMM approach. Unlike the DTW reference models,
+the HMM can be trained in a ‘‘supervised’’ paradigm in which
+the model can learn the statistical makeup of the exemplars.
+The application of the HMM to speech recognition in the 1980s
+was a revolutionary development, largely because of the super-
+vised training aspect of the model. For more information on
+DTW training, see Deller et al. (2000).

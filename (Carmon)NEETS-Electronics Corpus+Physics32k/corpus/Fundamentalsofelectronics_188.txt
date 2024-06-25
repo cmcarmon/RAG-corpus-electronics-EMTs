@@ -1,0 +1,14 @@
+Because for linear circuit elements the complex amplitude of voltage is proportional to the complex
+amplitude of current— V = ZI — assuming complex exponential sources means circuit elements behave
+as if they were resistors, where instead of resistance, we use impedance. Because complex amplitudes
+for voltage and current also obey Kirchhoﬀ’s laws, we can solve circuits using voltage and
+current divider and the series and parallel combination rules by considering the elements to
+be impedances.
+3.10 Time and Frequency Domains20
+When we ﬁnd the diﬀerential equation relating the source and the output, we are faced with solving the
+circuit in what is known as the time domain. What we emphasize here is that it is often easier to ﬁnd
+the output if we use impedances. Because impedances depend only on frequency, we ﬁnd ourselves in the
+frequency domain. A common error in using impedances is keeping the time-dependent part, the complex
+exponential, in the fray. The entire point of using impedances is to get rid of time and concentrate on
+frequency. Only after we ﬁnd the result in the frequency domain do we go back to the time domain and put
+things back together again.

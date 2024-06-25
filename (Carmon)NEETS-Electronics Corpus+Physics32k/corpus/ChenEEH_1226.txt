@@ -1,0 +1,16 @@
+For example, the postlayout spacing heuristic in work by
+Chaudhary et al. (1993) proposed a postlayout graph-based
+spacing algorithm. The framework spaces out wires after
+detailed routing has been ﬁnished. The cross talk effect is
+based on cross talk voltage glitches because they do not con-
+sider the delay. The cross talk effect from driver to sink is
+simply the superposition of all glitches of wires along the
+path. The potential disadvantage of this greedy operation is
+the poor use of space resources around a timing-critical wire.
+In Tseng et al. (1998), the graph-based optimizer preroutes
+wires on the global routing grids incrementally in two stages—
+net order assignment and space relaxation. The timing delay of
+each critical path is calculated while taking into account inter-
+connect coupling capacitance. The objective is to reduce the
+delays of critical nets with negative timing slack values by
+adding extra wire spacing.

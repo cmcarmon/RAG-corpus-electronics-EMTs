@@ -1,0 +1,11 @@
+One type of constrained information pattern that is of interest in a number of applications is a network consisting
+of a number of distributed or local decision makers, each of which processes a subset of the measurements, and
+a  fusion  center,  which  combines  the  outputs  of  the  distributed  decision  makers  to  produce  a  global  detection
+decision. The communication between the distributed decision makers and the fusion center is constrained, so
+that  each  local  decision  maker  must  reduce  its  subset  of  measurements  to  a  summarizing  local  decision  to  be
+transmitted to the fusion center. Such structures arise in applications such as the testing of large-scale integrated
+circuits, in which data collection is decentralized, or in detection problems involving very large data sets, in which
+it is desirable to distribute the computational work of the detection algorithm. Such problems lie in the ﬁeld of
+distributed  detection.  Except  in  some  trivial  special  cases,  the  constraints  imposed  by  distributing  the  detection
+algorithm  introduce  a  further  level  of  difﬁculty  into  the  design  of  optimum  detection  systems.  Nevertheless,
+considerable progress has been made on this problem, a survey of which can be found in Tsitsiklis [1993].

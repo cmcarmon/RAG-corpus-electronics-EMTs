@@ -1,0 +1,3 @@
+False diffusion with the simple upwind scheme occurs because the scheme does not take into account grid/flow direction inclination. An approximate expression for the false-diffusion term in two dimensions has been given by de Vahl Davis and Mallinson(1972)
+
+where U is the resultant velocity and θ is the angle made by the velocity vector with the x direction. False diffusion is absent when the resultant flow is aligned with either of the sets of grid lines and is greatest when the flow direction is 45˚ to the grid lines.

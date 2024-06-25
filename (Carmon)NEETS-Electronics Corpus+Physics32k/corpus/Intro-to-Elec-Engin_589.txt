@@ -1,0 +1,11 @@
+Architecture
+Replacing the ALU and CU (i.e., CPU) of Figure 6.3.1 by a microprocessor, and storing
+instructions and data in the same memory, one arrives at a stored-program computer or a
+microcomputer. A bus, which is a set of wires carrying address, data, and control signals, is
+employed for interconnecting the major components of a microcomputer system. The address lines
+are unidirectional signals that specify the address of a memory location of an I/O device. With a
+typical 24-bit address bus, the microprocessor can access 224 (over 16 million) memory locations.
+Memory is generally organized in blocks of 8, 16, or 32 bits. The data bus is a bidirectional bus,
+varying in size from 8 to 32 bits, which carries data between the CPU, MU, and I/O units. The
+control bus provides signals to synchronize the memory and I/O operations, select either memory
+or an I/O device, and request either the read or the write operation from the device selected.

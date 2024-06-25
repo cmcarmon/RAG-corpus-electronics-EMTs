@@ -1,0 +1,104 @@
+Let us consider two patterns made of parallel and equidistant lines, e.g., vertical lines. The step of the first pattern is p, the step of the second is p + δp, with 0 < δp < p.
+If the lines of the patterns are superimposed at the left of the figure, the shift between the lines increase when going to the right. After a given number of lines, the patterns are opposed: the lines of the second pattern are between the lines of the first pattern. If we look from a far distance, we have the feeling of pale zones when the lines are superimposed (there is white between the lines), and of dark zones when the lines are "opposed".
+The middle of the first dark zone is when the shift is equal to p/2. The nth line of the second pattern is shifted by n δp compared to the nth line of the first network. The middle of the first dark zone thus corresponds to
+
+
+
+
+n
+⋅
+δ
+p
+=
+
+
+p
+2
+
+
+
+
+{\displaystyle n\cdot \delta p={\frac {p}{2}}}
+
+that is
+
+
+
+
+n
+=
+
+
+p
+
+2
+δ
+p
+
+
+
+.
+
+
+{\displaystyle n={\frac {p}{2\delta p}}.}
+
+The distance d between the middle of a pale zone and a dark zone is
+
+
+
+
+d
+=
+n
+⋅
+p
+=
+
+
+
+p
+
+2
+
+
+
+2
+δ
+p
+
+
+
+
+
+{\displaystyle d=n\cdot p={\frac {p^{2}}{2\delta p}}}
+
+the distance between the middle of two dark zones, which is also the distance between two pale zones, is
+
+
+
+
+2
+d
+=
+
+
+
+p
+
+2
+
+
+
+δ
+p
+
+
+
+
+
+{\displaystyle 2d={\frac {p^{2}}{\delta p}}}
+
+From this formula, we can see that:
+the bigger the step, the bigger the distance between the pale and dark zones;
+the bigger the discrepancy δp, the closer the dark and pale zones; a great spacing between dark and pale zones mean that the patterns have very close steps.
+The principle of the moiré is similar to the Vernier scale.

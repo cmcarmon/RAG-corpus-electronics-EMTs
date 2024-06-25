@@ -1,0 +1,149 @@
+The time ratio (Q) of a four-bar mechanism is a measure of its quick return and is defined as follows:
+
+
+
+
+Q
+=
+
+
+Time of slower stroke
+Time of quicker stroke
+
+
+≥
+1
+
+
+{\displaystyle Q={\frac {\text{Time of slower stroke}}{\text{Time of quicker stroke}}}\geq 1}
+
+With four-bar mechanisms there are two strokes, the forward and return, which when added together create a cycle. Each stroke may be identical or have different average speeds. The time ratio numerically defines how fast the forward stroke is compared to the quicker return stroke. The total cycle time (Δtcycle) for a mechanism is:
+
+
+
+
+Δ
+
+t
+
+cycle
+
+
+=
+
+Time of slower stroke
+
++
+
+Time of quicker stroke
+
+
+
+{\displaystyle \Delta t_{\text{cycle}}={\text{Time of slower stroke}}+{\text{Time of quicker stroke}}}
+
+Most four-bar mechanisms are driven by a rotational actuator, or crank, that requires a specific constant speed. This required speed (ωcrank)is related to the cycle time as follows:
+
+
+
+
+
+ω
+
+crank
+
+
+=
+(
+Δ
+
+t
+
+cycle
+
+
+
+)
+
+−
+1
+
+
+
+
+{\displaystyle \omega _{\text{crank}}=(\Delta t_{\text{cycle}})^{-1}}
+
+Some mechanisms that produce reciprocating, or repeating, motion are designed to produce symmetrical motion. That is, the forward stroke of the machine moves at the same pace as the return stroke. These mechanisms, which are often referred to as in-line design, usually do work in both directions, as they exert the same force in both directions.
+Examples of symmetrical motion mechanisms include:
+Windshield wipers
+Engine mechanisms or pistons
+Automobile window crank
+Other applications require that the mechanism-to-be-designed has a faster average speed in one direction than the other. This category of mechanism is most desired for design when work is only required to operate in one direction. The speed at which this one stroke operates is also very important in certain machine applications. In general, the return and work-non-intensive stroke should be accomplished as fast as possible. This is so the majority of time in each cycle is allotted for the work-intensive stroke. These quick-return mechanisms are often referred to as offset.
+Examples of offset mechanisms include:
+Cutting machines
+Package-moving devices
+With offset mechanisms, it is very important to understand how and to what degree the offset affects the time ratio. To relate the geometry of a specific linkage to the timing of the stroke, an imbalance angle (β) is used. This angle is related to the time ratio, Q, as follows:
+
+
+
+
+Q
+=
+
+
+
+
+180
+
+∘
+
+
++
+β
+
+
+
+180
+
+∘
+
+
+−
+β
+
+
+
+
+
+{\displaystyle Q={\frac {180^{\circ }+\beta }{180^{\circ }-\beta }}}
+
+Through simple algebraic rearrangement, this equation can be rewritten to solve for β:
+
+
+
+
+β
+=
+
+180
+
+∘
+
+
+×
+
+
+
+Q
+−
+1
+
+
+Q
++
+1
+
+
+
+
+
+{\displaystyle \beta =180^{\circ }\times {\frac {Q-1}{Q+1}}}

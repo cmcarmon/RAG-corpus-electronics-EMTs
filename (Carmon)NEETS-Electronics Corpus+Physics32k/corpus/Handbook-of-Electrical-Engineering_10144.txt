@@ -1,0 +1,10 @@
+Similar  considerations  apply  for  other  disturbances  such  as  frictional  torques  and  gravitational  torques.
+Notice  from  Eq. (101.18)  that  the  feedforward  signal  is  a  function  of  the  estimated  torque.  The  burden  of
+determining these torques should not be underestimated. The other factor that was not mentioned earlier is
+the  centrifugal  torque,  a  nonlinear  function  of  velocity.  In  the  case  of  positioning  applications,  the  velocity
+tends to zero as t ﬁ ¥. However, if the robot is required to follow a conveyor with constant speed, then the
+input is a velocity. In this case, the centrifugal contribution will affect the steady-state velocity error. A feed-
+forward compensation can be used in this case as well. Another method of compensating for the steady-state
+errors caused by gravitational and load torque disturbances is by adding an integral feedback (PID control),
+which of course increases the order of the system. The system is no longer stable for all values of the gains and
+thus adds another constraint in the selection of Ka and Kv.

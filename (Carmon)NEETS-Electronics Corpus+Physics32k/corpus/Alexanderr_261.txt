@@ -1,0 +1,13 @@
+5.9
+Op Amp Circuit Analysis with PSpice
+PSpice for Windows does not have a model for an ideal op amp, although
+one  may  create  one  as  a  subcircuit  using  the  Create  Subcircuit line  in
+the Tools menu. Rather than creating an ideal op amp, we will use one
+of  the  four  nonideal,  commercially  available  op  amps  supplied  in  the
+PSpice library eval.slb. The op amp models have the part names LF411,
+LM111,  LM324,  and  uA741,  as  shown  in  Fig.  5.34.  Each  of  them  can
+be obtained from Draw/Get New Part/libraries . . . /eval.lib or by sim-
+ply  selecting  Draw/Get  New  Part and  typing  the  part  name  in  the
+PartName dialog box, as usual. Note that each of them requires dc sup-
+plies, without which the op amp will not work. The dc supplies should
+be connected as shown in Fig. 5.3.

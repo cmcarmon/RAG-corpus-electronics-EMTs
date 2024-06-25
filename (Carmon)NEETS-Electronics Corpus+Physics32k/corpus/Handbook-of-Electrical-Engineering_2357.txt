@@ -1,0 +1,9 @@
+In  FDM,  the  region  under  simulation  is  divided  into  rectangular  or  triangular  areas  for  two-dimensional
+cases or into cubic or tetrahedron volumes in three-dimensional cases. Each corner or vertex is considered as
+a node. The differential equations are modiﬁed using ﬁnite difference approximations, and a set of equations
+is  constructed  in  matrix  form.  The  ﬁnite  difference  equations  are  solved  iteratively  at  only  these  nodes.  The
+most commonly used solvers are Gauss–Seidel/Jacobi (G-S/J) techniques or Newton’s technique (NT) [Banks
+et al., 1983]. FDM has the disadvantage of requiring more nodes than the FEM for the same structure. A new
+variation  of  FDM,  namely  the  ﬁnite  boxes  scheme  [Franz  et al.,  1983],  however,  overcomes  this  problem  by
+enabling local area reﬁnement. The advantage of FDM is that its computational memory requirement is less
+than that required for FEM because of the band structure of the matrix.

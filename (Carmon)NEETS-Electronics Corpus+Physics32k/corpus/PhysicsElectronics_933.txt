@@ -1,0 +1,9 @@
+The information ﬂow on the computer bus is time-multiplexed to allow diﬀerent functional
+units to use the same bus lines at diﬀerent times. We will assume that only one device tries
+to write (drive) a given bus line at any time. A special unit, known as a bus master, has
+the responsibility for controlling the other units, which are correspondingly known as the
+bus slaves. If several units are capable of becoming bus masters these units must arbitrate
+amongst themselves to determine which is to have control of the bus for a given interval of
+time. Often a direct memory access (DMA) unit is allowed to communicate with a slave
+memory without going through the CPU bus master. This allows memory access at a higher
+speed than having to go through the intermediate CPU bus master.

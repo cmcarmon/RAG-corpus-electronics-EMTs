@@ -1,0 +1,11 @@
+We note that the impedance representation does not change the topology
+of the circuit
+devices are simply replaced by their corresponding impedance
+models drawn as boxes. The reason is that KVL and KCL apply to a given
+circuit irrespective of the form of the drive. In other words, KVL and KCL apply
+irrespective of whether the voltages and currents are sinusoids, DC values, or
+any other form, for that matter. The impedance form simply assumes sinusoidal
+drive and response and captures in a convenient form individual device behavior
+when the drives are sinusoids. Thus, because the KVL and KCL equations are
+unchanged for sinusoidal drive, the circuit topology remains the same because
+it captures the same information as expressed by KVL and KCL.

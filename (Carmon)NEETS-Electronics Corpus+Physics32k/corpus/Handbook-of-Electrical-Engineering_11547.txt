@@ -1,0 +1,11 @@
+The preceding discussion primarily considers the high frequency limitations of FDTD calculations, which
+are  based  on  the  size  of  the  object  in  wavelengths.  The  low  frequency  limitation  is  usually  determined  by  a
+combination  of  the  geometry  features  and  time  step.  For  example,  consider  applying  FDTD  for  a  60-Hz
+calculation for a human body. Based on the wavelength, the FDTD cells could be huge, but then the body shape
+would be unrecognizable. Suppose that we pick FDTD cells of 10 cm to at least make a crude body shape. Then
+ s. If we further assume that we need to make FDTD calculations
+the maximum time step would be 19.2 
+for  at  least  one  period  of  the  sine  wave  in  order  to  read  some  semblance  of  steady  state,  this  would  require
+about 86 million time steps, which is not feasible on current computers. This illustrates the difﬁculty of using
+FDTD for extremely low frequencies. For these very low frequencies other methods, such as ﬁnite elements,
+are preferred.

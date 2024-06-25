@@ -1,0 +1,4 @@
+As we might expect, gates are themselves implemented using lumped cir-
+cuit elements, such as resistors and current sources. In other words, a gate
+representing the function F is simply an abstraction for a circuit that performs
+the function F. The circuit for an AND gate produces 5 V at its output when

@@ -1,0 +1,14 @@
+Software faults are unusual entities. Software does not break as hardware does, but instead software faults are
+the  result  of  incorrect  software  designs  or  coding  mistakes.  Therefore,  any  technique  that  detects  faults  in
+software  must  detect  design  ﬂaws. A  simple  duplication  and  comparison  procedure  will  not  detect  software
+faults if the duplicated software modules are identical, because the design mistakes will appear in both modules.
+unique  versions  of  the  program  and  to
+develop a set of acceptance tests for each version. The acceptance tests are essentially checks performed on the
+results produced by the program and may be created using consistency checks and capability checks, for example.
+Selection logic, which may be a program itself, chooses the results from one of the programs that passes the
+acceptance tests. This approach is analogous to the hardware technique known as hot standby sparing. Since
+each program is running simultaneously, the reconﬁguration process can be very fast. Provided that the software
+faults in each version of the program are independent and the faults are detected as they occur by the acceptance
+1  faults.  It  is  important  to  note  that  the  assumptions  of  fault
+tests,  then  this  approach  can  tolerate 
+independence and perfect fault coverage are very big assumptions to make in almost all applications.

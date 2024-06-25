@@ -1,0 +1,15 @@
+The fundamental observation behind the simpliﬁcation pro-
+cess is that quantities present in the realization for GG1
+i reappear
+in the realizations for GG1
+j , j > i. The motivation behind the
+simpliﬁcation process is that in computing the output of a
+given controller component GG1
+i , the most efﬁcient algorithm
+is to compute these repeated quantities only once, store them
+in memory, and then reuse them as needed. The reduction
+process is thus a problem of identifying a set G of elements
+i , i ¼ 1,
+common to a sequence of controller components GG1
+2, 3, . . . , n, and determining which ones to save for later reuse.
+11 ), 1  i  n, of the

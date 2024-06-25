@@ -1,0 +1,4 @@
+1. All  unused  CMOS  inputs  should  be  tied  either  to  VDD  or  VSS,  whichever  is  appropriate  for  proper
+operation of the gate. This rule applies even to inputs of unused gates, not only to protect the inputs
+from possible static charge buildup, but to avoid unnecessary supply current drain. Floating gate inputs
+will cause all the FETs to be conducting, wasting power and heating the chip unnecessarily.

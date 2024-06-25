@@ -1,0 +1,7 @@
+The diode AND circuit of the 74LS00 in place of the multi-emitter transistor will permit maximum input
+levels substantially higher than the 5.5-V limit set for all other TTL families. Input leakage currents for 74LSxx
+are speciﬁed at Vi = 10 V, and input voltage levels up to 15 V are allowed. The 74LSxx has the additional feature
+of the Schottky diode D1 in series with the 100-W output resistor. This allows the output to be pulled up to 10
+V without causing a reverse breakdown of T5. The relative characteristics of the several versions of the TTL
+two-input NAND gate are compared in Table 79.6. The 74F00 represents one of the new technologies that have
+introduced improved Schottky TTL in recent years.

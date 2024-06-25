@@ -1,0 +1,14 @@
+White, Gaussian, and Pink Noise Models
+White noise [see Brown, 1983; Gardner, 1990, p. 234; or Peebles, 1987] is a theoretical model W(t) of noise that
+is ws with zero mean. It has a constant power level no over all frequencies (analogous to white light), so its psdf
+is SWW(w) = no W/(rad/s), –‘ < w < ‘. The inverse Fourier transform of this is the impulse function RWW(t) =
+(no)d(t), which is zero for all offsets except t = 0. Therefore, white noise W(t) is a process that is uncorrelated
+over time, i.e.,  E[W(t1)W(t2)] = 0 for t1 not equal to t2. Figure 73.4(a) shows the autocorrelation and psdf for
+white noise where the offset is s = t. A Gaussian white noise is white noise such that the probability distribution
+of each random variable Wt = W(t) is Gaussian. When two Gaussian random variables W1 and W2 are uncor-
+related, i.e., E[W1W2] = 0, they are independent [see Gardner, 1990, p. 37]. We use Gaussian models because
+of the central limit theorem that states that the sum of a number of random variables is approximately Gaussian.
+Actual circuits attenuate signals above cut-off frequencies, and also the power must be ﬁnite. However, for
+white noise, PWW = RNN(0) = ‘, so we often truncate the white noise spectral density (psdf) at cut-offs –wc to
+wc . The result is known as pink noise, P(t), and is usually taken to be Gaussian because linear ﬁltering of any
+white noise (through the effect of the central limit theorem) tends to make the noise Gaussian [see Gardner,

@@ -1,0 +1,10 @@
+In practice, J (uk) is divided into J (uk) ¼ [J1(uk), J2(uk)],
+with J1(uk) corresponding to the block-diagonal terms and
+J2(uk) the last block matrix column in J (uk). Solving the LLS
+problems with J2(uk) and J1(uk) thus corresponds to updating
+the denominator a and the numerators bjk estimations. More-
+over, due to its block-diagonal structure, the LLS problem with
+J1(uk) should be further decomposed (i.e., the LLS solutions of
+bjk are independently solved for each j and k). Thus, the
+computational cost of the optimization algorithm is signiﬁ-
+cantly reduced.

@@ -1,0 +1,6 @@
+Now that all the components and voltages have been described for the stable state, let us see how the 
+circuit operates (see figure 3-13). Assume that a negative pulse is applied at the input terminal. C2 
+couples this voltage change to the base of Q1 and starts Q1 conducting. Q1 quickly saturates, and its 
+collector voltage immediately rises to ground potential. This sharp voltage increase is coupled through C1 
+to the base of Q2, causing Q2 to cut off; the collector voltage of Q2 immediately drops to VCC. The 
+voltage divider formed by R5 and R3 then holds the base of Q1 negative, and Q1 is locked in saturation. 

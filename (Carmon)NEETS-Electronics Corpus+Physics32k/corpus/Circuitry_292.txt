@@ -1,0 +1,28 @@
+Figure  6.6  shows  a  considerable  improvement  to 
+the circuit of Fig. 6.3. The capacitor, C1, has been 
+added to ensure that the output voltage remains at, 
+or near, the peak voltage even when the diode is not 
+conducting.  When  the  primary  voltage  is  first 
+applied  to  T1,  the  first  positive  half-cycle  output 
+from  the  secondary  will  charge  C1 to  the  peak 
+value seen across RL. Hence C1 charges to 16.3 V 
+at  the  peak  of  the  positive  half-cycle.  Because  C1
+and RL are in parallel, the voltage across RL will be 
+the same as that across C1. 
+  The  time  required  for  C1 to  charge  to  the 
+maximum  (peak) 
+the 
+charging circuit time constant (the series resistance 
+multiplied by the capacitance value). In this circuit, 
+the  secondary 
+the  series  resistance  comprises 
+winding  resistance 
+the  forward 
+resistance of the diode and the (minimal) resistance 
+of  the  wiring  and  connections.  Hence  C1 charges 
+very rapidly as soon as D1 starts to conduct.  
+  The  time  required  for  C1 to  discharge  is,  in 
+contrast,  very  much  greater.  The  discharge  time 
+constant is determined by the capacitance value and 
+the load resistance, RL. In practice, RL is very much 
+larger  than  the  resistance  of  the  secondary  circuit 

@@ -1,0 +1,7 @@
+When  designing  frequency  synthesizers  using  PLLs,  care  must  be  taken  to  prevent  noise  from  the  PLL
+components from introducing excessive noise. The divider ratio (
+) used in the feedback of the loop has the
+effect of multiplying any noise that appears at the input or output of the phase detector by this factor. Frequently,
+ is required to achieve the desired output frequencies. This can cause excessive output noise.
+a large value of 
+All these effects must be taken into account to achieve a PLL design with optimum noise performance.

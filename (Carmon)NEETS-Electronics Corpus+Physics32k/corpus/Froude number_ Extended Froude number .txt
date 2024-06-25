@@ -1,0 +1,59 @@
+Geophysical mass flows such as avalanches and debris flows take place on inclined slopes which then merge into gentle and flat run-out zones. So, these flows are associated with the elevation of the topographic slopes that induce the gravity potential energy together with the pressure potential energy during the flow. Therefore, the classical Froude number should include this additional effect. For such a situation, Froude number needs to be re-defined. The extended Froude number is defined as the ratio between the kinetic and the potential energy:
+
+
+
+
+
+F
+r
+
+=
+
+
+u
+
+β
+h
++
+
+s
+
+g
+
+
+
+(
+
+
+x
+
+d
+
+
+−
+x
+
+)
+
+
+
+
+,
+
+
+{\displaystyle \mathrm {Fr} ={\frac {u}{\sqrt {\beta h+s_{g}\left(x_{d}-x\right)}}},}
+
+where u is the mean flow velocity, β = gK cos ζ, (K is the earth pressure coefficient, ζ is the slope), sg = g sin ζ, x is the channel downslope position and
+
+
+
+
+x
+
+d
+
+
+
+
+{\displaystyle x_{d}}
+is the distance from the point of the mass release along the channel to the point where the flow hits the horizontal reference datum; Eppot = βh and Egpot = sg(xd − x) are the pressure potential and gravity potential energies, respectively. In the classical definition of the shallow-water or granular flow Froude number, the potential energy associated with the surface elevation, Egpot, is not considered. The extended Froude number differs substantially from the classical Froude number for higher surface elevations. The term βh emerges from the change of the geometry of the moving mass along the slope. Dimensional analysis suggests that for shallow flows βh ≪ 1, while u and sg(xd − x) are both of order unity. If the mass is shallow with a virtually bed-parallel free-surface, then βh can be disregarded. In this situation, if the gravity potential is not taken into account, then Fr is unbounded even though the kinetic energy is bounded. So, formally considering the additional contribution due to the gravitational potential energy, the singularity in Fr is removed.

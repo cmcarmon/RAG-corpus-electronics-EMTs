@@ -1,0 +1,8 @@
+The  detection  curves  presented  here  and  in  most  other  references  presuppose  noise-limited  operation.  In
+many cases, the composite interference present at the radar system output will be dominated by clutter returns
+or  electromagnetic  interference  such  as  that  imposed  by  hostile  electronic  countermeasures.  The  standard
+textbook detection curves cannot be applied in these situations unless the composite interference is statistically
+similar to thermal noise with a Gaussian PDF and a white power spectral density. The presence of non-Gaussian
+interference  is  generally  characterized  by  an  elevated  false  alarm  probability.  Adaptive  detection  threshold
+estimation  techniques  are  often  required  to  search  for  targets  in  environments  characterized  by  such
+interference.

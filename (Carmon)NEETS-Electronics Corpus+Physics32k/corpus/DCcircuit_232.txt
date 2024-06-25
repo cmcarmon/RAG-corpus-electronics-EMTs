@@ -1,0 +1,6 @@
+One of the beneﬁts of using a ”primitive” text-based program such as SPICE is that the text
+ﬁles dealt with are extremely small compared to other ﬁle formats, especially graphical formats
+used in other circuit simulation software. Also, the fact that SPICE’s output is plain text means
+you can direct SPICE’s output to another text ﬁle where it may be further manipulated. To do
+this, we re-issue a command to the computer’s operating system to invoke SPICE, this time
+redirecting the output to a ﬁle I’ll call ”output.txt”:

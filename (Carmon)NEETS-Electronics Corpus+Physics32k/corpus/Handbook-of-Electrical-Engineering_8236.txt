@@ -1,0 +1,13 @@
+Once the analog-to-digital conversion is done, the rest of the steps have to deal with digital data only. The
+calendar/clock block shown in Fig 84.1 is used to add the time-of-date information, an important parameter
+of a real-time processing environment, into the half-processed data. The digital processor performs the overall
+system control tasks using a software program, which is usually called system software. These control tasks also
+power
+include  display,  printer,  data  recorder,  and  communication  interface  management.  A  well-regulated 
+supply unit
+  (PSU)  and  a  stable  clock  are  essential  components  in  many  data  acquisition  systems.  There  are
+systems where massive amounts of data points are produced within a very short period of time, and they are
+ so that a considerable amount of data points can be stored locally. Data are
+equipped with 
+transmitted to the host computer once the local storage has reached its full capacity. Historically, data acquisition
+evolved in modular form, until monolithic silicon came along and reduced the size of the modules.

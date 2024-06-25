@@ -1,0 +1,18 @@
+Microprocessors have instruction sets ranging from 20 to several hundred instructions,
+known as microprograms, which are stored in ROM to initiate the microprocessor routines.
+The instructions generally consist of a series of arithmetic and logic type operations, and also
+include directions for fetching and transferring data. Microprocessors are classiﬁed by word size
+in bits, such as 1-, 4-, 8-, and 16-bit microprocessors; generally speaking, the larger the word
+size, the more powerful the processor. Three popular 8-bit microprocessors (µp) are Intel 8085,
+Zilog Z80, and Motorola MC6800; the 16-bit microprocessors dominating the market are Intel
+8086 and 80286, Motorola MC68000, and Zilog Z8000; the powerful 32-bit microprocessors at
+the very high end of the market started with Intel 80386, Intel 80486, Motorola MC68020, and
+National N532032. Still more powerful Intel Pentium processors such as Pentium II and III were
+introduced in the 1990’s, and even these are going to be replaced soon by Intel Itanium Processors.
+A microprocessor system bus consists of three physical buses: the address bus, the data
+bus, and the control bus. The types of circuits connected to microprocessor buses are registers,
+accumulators, or buffer circuits between the bus and the external memory or I/O devices.
+Multiplexing is usually used, which is to connect each register to a bus on a time-shared basis,
+only when it is being read. An operating bus is used to transfer various internal operations
+and commands. An interface bus, such as the IEEE-488 (developed in 1975 by the Institute
+of Electrical and Electronics Engineers) or the GPIB (general-purpose interface bus) provides the

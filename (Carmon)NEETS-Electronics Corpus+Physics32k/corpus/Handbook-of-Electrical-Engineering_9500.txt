@@ -1,0 +1,4 @@
+The  entry  Martin  appears  twice  in  the  result,  because  the  supplier  Martin  supplies  both  beds  and  sofas.
+Removal of duplicates is usually a computationally intensive operation. As a result, duplicate entries are not
+automatically removed by SQL. To ensure uniqueness, the command DISTINCT should be used. In the above
+query, if we want the supplier names to be listed only once, the above query should be modiﬁed as follows:

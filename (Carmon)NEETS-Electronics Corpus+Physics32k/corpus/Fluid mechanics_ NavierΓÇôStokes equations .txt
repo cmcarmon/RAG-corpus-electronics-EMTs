@@ -1,0 +1,83 @@
+The Navier–Stokes equations (named after Claude-Louis Navier and George Gabriel Stokes) are differential equations that describe the force balance at a given point within a fluid. For an incompressible fluid with vector velocity field
+
+
+
+
+u
+
+
+
+{\displaystyle \mathbf {u} }
+, the Navier–Stokes equations are
+
+
+
+
+
+
+
+∂
+
+u
+
+
+
+∂
+t
+
+
+
++
+(
+
+u
+
+⋅
+∇
+)
+
+u
+
+=
+−
+
+
+1
+ρ
+
+
+∇
+P
++
+ν
+
+∇
+
+2
+
+
+
+u
+
+
+
+{\displaystyle {\frac {\partial \mathbf {u} }{\partial t}}+(\mathbf {u} \cdot \nabla )\mathbf {u} =-{\frac {1}{\rho }}\nabla P+\nu \nabla ^{2}\mathbf {u} }
+.
+These differential equations are the analogues for deformable materials to Newton's equations of motion for particles, the Navier–Stokes equations describe changes in momentum (force) in response to pressure
+
+
+
+P
+
+
+{\displaystyle P}
+and viscosity, parameterized, here, by the kinematic viscosity
+
+
+
+ν
+
+
+{\displaystyle \nu }
+. Occasionally, body forces, such as the gravitational force or Lorentz force are added to the equations.
+Solutions of the Navier–Stokes equations for a given physical problem must be sought with the help of calculus. In practical terms only the simplest case can be solved exactly in this way. These cases generally involve non-turbulent, steady flow in which the Reynolds number is small. For more complex cases, especially those involving turbulence, such as global weather systems, aerodynamics, hydrodynamics and many more, solutions of the Navier–Stokes equations can currently only be found with the help of computers. This branch of science is called computational fluid dynamics.

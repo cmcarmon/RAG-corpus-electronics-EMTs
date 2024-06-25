@@ -1,0 +1,12 @@
+where the new symbols are RINT = interconnection resistance, CINT = interconnection capacitance, and we have
+assumed that the interconnection joins a MOSFET driver in saturation to a MOSFET load CG. For small RINT ,
+tINT is dominated by the last term, which resembles Eqs. (24.44) and (24.46). However, unlike the ratio CD/CG
+in  Eq. (24.46),  it  is  difﬁcult  to  reduce  or  even  maintain  the  ratio  CIN T /CG  in  Eq. (24.47)  as  L  is  reduced.
+Remember,  CG  (cid:181)  Z  (L  +  Lovlp)/d.  Reduction  of  L  therefore  tends  to  increase  CIN T /CG ,  especially  because
+interconnect cross sections cannot be reduced without impractical increases in RINT . What is worse, along with
+reduction in  L, chip sizes usually increase, making line lengths longer, increasing RINT even at constant cross
+section. As a result, interconnection delay becomes a major problem as L is reduced. The obvious way to keep
+CIN T /CG under control is to increase the device width Z so that CG (cid:181) Z (L + Lovlp)/d remains constant as L is
+reduced. A better way is to cascade drivers of increasing Z [Chen, 1990; Shoji, 1988]. Either solution requires
+extra area, however, reducing the packing density that is a major objective in decreasing L in the ﬁrst place. An
+alternative is to reduce the oxide thickness d, a major technology objective today.

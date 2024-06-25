@@ -1,0 +1,14 @@
+During the optimization process, power minimization is never
+the only optimization objective. Performance is always impli-
+citly of ultimate importance in the design of any digital system.
+Unfortunately, meeting both requirements is very hard if not
+impossible. Major techniques that target one objective have
+side effects with respect to the other. For this reason, several
+metrics for joint power performance have been proposed in
+the past. In many designs, the power-delay product (PDP, or
+the energy) is an acceptable metric. Energy minimization rules
+outdesign choices that heavily compromise performance to
+reduce power consumption. When performance has priority
+over power consumption, the energy-delay product (EDP) can
+be adopted to tightly control performance degradation (Burd
+and Brodersen, 1996).

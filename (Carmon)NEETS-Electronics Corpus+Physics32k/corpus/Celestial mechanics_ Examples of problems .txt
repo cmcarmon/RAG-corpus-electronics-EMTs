@@ -1,0 +1,26 @@
+Celestial motion without additional forces such as thrust of a rocket, is governed by gravitational acceleration of masses due to other masses. A simplification is the n-body problem, where the problem assumes some number n of spherically symmetric masses. In that case, the integration of the accelerations can be well approximated by relatively simple summations.
+Examples:
+4-body problem: spaceflight to Mars (for parts of the flight the influence of one or two bodies is very small, so that there we have a 2- or 3-body problem; see also the patched conic approximation)
+3-body problem:
+Quasi-satellite
+Spaceflight to, and stay at a Lagrangian point
+
+In the case that n=2 (two-body problem), the situation is much simpler than for larger n. Various explicit formulas apply, where in the more general case typically only numerical solutions are possible. It is a useful simplification that is often approximately valid.
+Examples:
+A binary star, e.g., Alpha Centauri (approx. the same mass)
+A binary asteroid, e.g., 90 Antiope (approx. the same mass)
+
+A further simplification is based on the "standard assumptions in astrodynamics", which include that one body, the orbiting body, is much smaller than the other, the central body. This is also often approximately valid.
+Examples:
+Solar system orbiting the center of the Milky Way
+A planet orbiting the Sun
+A moon orbiting a planet
+A spacecraft orbiting Earth, a moon, or a planet (in the latter cases the approximation only applies after arrival at that orbit)
+
+Either instead of, or on top of the previous simplification, we may assume circular orbits, making distance and orbital speeds, and potential and kinetic energies constant in time. This assumption sacrifices accuracy for simplicity, especially for high eccentricity orbits which are by definition non-circular.
+Examples:
+The orbit of the dwarf planet Pluto, ecc. = 0.2488
+The orbit of Mercury, ecc. = 0.2056
+Hohmann transfer orbit
+Gemini 11 flight
+Suborbital flights

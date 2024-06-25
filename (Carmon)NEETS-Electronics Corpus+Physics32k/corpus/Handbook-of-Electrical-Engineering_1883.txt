@@ -1,0 +1,11 @@
+Many  early  video  processors  were  vector  machines  because  vector  units  provide  high  throughput  with
+relatively small amounts of hardware. Today, most VSPs today make use of very-long instruction word (VLIW)
+processor technology, as shown in Fig. 17.28. The architecture has several function units connected to a single
+register ﬁle. The operations on all the function units are controlled by the instruction decoder based on the
+current instruction. A VLIW machine differs from a SIMD machine in two important ways. First, the VLIW
+machine connects all function units to the same register ﬁle, while the SIMD machine uses separate registers
+for the function units. The common register ﬁle gives the VLIW machine much more ﬂexibility; for example,
+a data value can be used on one function unit on one cycle and on another function unit on the next cycle
+without having to copy the value. Second, the function units in the VLIW machine need not perform the same
+operation. The instruction is divided into ﬁelds, one for each unit. Under control of its instruction ﬁeld, each
+instruction unit can request data from the register ﬁle and perform operations as required.

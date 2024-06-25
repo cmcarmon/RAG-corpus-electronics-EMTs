@@ -1,0 +1,9 @@
+Q1 is biased for slight conduction with no input signal applied. When an input signal appears on the
+base of Q1, it is rectified by the emitter-base junction (operating as a diode) and is developed across R1 as
+a dc bias voltage with a varying af component. This voltage controls bias and collector current for Q1.
+The output is developed by collector current flow through R4. Any rf ripple in the output is bypassed
+across the collector load resistor by capacitor C4. The af variations are not bypassed. After the modulation
+envelope is detected in the base circuit, it is amplified in the output circuit to provide suitable af output.
+The output of this circuit is higher than is possible with a simple detector. Because of the amplification in
+this circuit, weaker signals can be detected than with a simple detector. A higher, more usable output is
+thus developed.

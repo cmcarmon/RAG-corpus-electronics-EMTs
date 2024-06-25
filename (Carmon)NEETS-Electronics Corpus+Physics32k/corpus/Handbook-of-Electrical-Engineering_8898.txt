@@ -1,0 +1,6 @@
+a translation lookaside buffer (TLB). Second, if the system also employs a cache memory, it may be possible to
+overlap the access of the cache memory with the access to the TLB, ideally allowing the requested item to be
+accessed in a single cache access time. The two accesses can be fully overlapped if the virtual address supplies
+sufﬁcient information to fetch the data from the cache before the virtual-to-physical address translation has
+been accomplished. This is true for an M-way set-associative cache of capacity C if the following relationship
+holds:

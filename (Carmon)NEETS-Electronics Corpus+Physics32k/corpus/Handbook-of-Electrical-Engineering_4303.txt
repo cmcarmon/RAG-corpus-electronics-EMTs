@@ -1,0 +1,7 @@
+Another tradeoff involves the choice of FM waveform. Here the use of a triangular waveform is undesirable
+because the Doppler frequency averages out and Doppler compensation is then required. Thus the sawtooth
+version is chosen, but because of the large frequency deviation desired, the difﬁculty of linearizing the frequency
+sweep is made greater. In fact many components must be extremely wideband, and this generally increases cost
+and may adversely affect performance. On the other hand, the difference frequency (Fb) and/or the intermediate
+frequency (FIF) will be higher and thus further from the carrier, so the phase noise will be lower. After discussing
+the other tradeoffs, Piper chose 60 MHz for the beat frequency.

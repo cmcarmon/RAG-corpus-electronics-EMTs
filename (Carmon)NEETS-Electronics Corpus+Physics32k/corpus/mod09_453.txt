@@ -1,0 +1,8 @@
+Changing the value of R and C in the circuit affects linearity since they control the time for 1 time 
+constant. For example, if the value of C2 is increased in the circuit, as shown in figure 3-43, view (A), the 
+time for 1 time constant increases and the number of time constants then decreases. With a decrease in the 
+number of time constants, linearity increases. The reason is that a smaller percentage of VCC is used, and 
+the circuit is operating in a more linear portion of the charge curve. Increasing the value of the TC (C2 or 
+R2) decreases the amplitude of the sawtooth (physical length) because C2 now charges to a smaller 
+percentage VCC for a given time. The electrical length remains the same because the length of time that 
+C2 is allowed to charge has not been changed. 

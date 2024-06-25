@@ -1,0 +1,6 @@
+Computing the Direct Matrix
+We observe that obtaining the coefﬁcients of the direct matrix in IE modeling is generally a two-step process.
+The ﬁrst step is that of evaluating the deﬁning integral operator in which the unknown is replaced by the basis
+functions selected. The second step involves integration of this result multiplied by the weight function selected.
+When using delta-function weights, this second step is numerically trivial, but when using nondelta weights,
+such as the case in a Galerkin approach, this second step can be analytically and numerically challenging.

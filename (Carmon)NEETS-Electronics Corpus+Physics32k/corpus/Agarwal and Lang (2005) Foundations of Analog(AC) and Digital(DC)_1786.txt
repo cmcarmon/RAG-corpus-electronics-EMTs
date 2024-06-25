@@ -1,0 +1,13 @@
+Let us first consider the case where S1 is opened and S2 is kept closed for a long period
+of time. At the instant that S1 is opened and S2 is closed, the inductor has a current
+equal to V/R flowing through it. Since the current flowing through the inductor cannot
+change instantaneously, the same current will flow into the capacitor through the closed
+switch S2. As the capacitor charges, its voltage rises and the current decreases. After
+some amount of time, the current reaches zero. If the capacitor is small enough, or
+if there was a large enough initial voltage on it, its voltage might be at a higher value
+than the voltage of the source V. Let us assume this is the case. Because the capacitor
+voltage reaches a higher value than V, it begins to supply energy and a current begins to
+flow through the inductor in the reverse direction. This process continues as the energy
+oscillates between the inductor and the capacitor. If the given switch settings exist for
+a long enough period of time, the oscillations will die out as the resistor dissipates the
+energy.

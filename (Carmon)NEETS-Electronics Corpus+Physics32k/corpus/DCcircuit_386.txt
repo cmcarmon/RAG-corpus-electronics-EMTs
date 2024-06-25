@@ -1,0 +1,9 @@
+However, even with all that checking, we still haven’t covered all possibilities yet. Remem-
+ber that hazardous voltage can appear between a single wire and ground (in this case, the
+metal frame of the cabinet would be a good ground reference point) in a power system. So, to
+be perfectly safe, we not only have to check between A & B, B & C, and A & C (in both AC
+and DC modes), but we also have to check between A & ground, B & ground, and C & ground
+(in both AC and DC modes)! This makes for a grand total of twelve voltage checks for this
+seemingly simple scenario of only three wires. Then, of course, after we’ve completed all these
+checks, we need to take our multimeter and re-test it against a known source of voltage such
+as a power receptacle to ensure that its still in good working order.

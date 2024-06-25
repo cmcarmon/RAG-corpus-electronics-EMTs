@@ -1,0 +1,5 @@
+The dynamic range of a signal from an input transducer may be too large to process
+through the DAQ system (eg. the ADC is often the limiting factor). One can use a linear
+ampliﬁer and choose to overﬂow or reduce the overall gain. The latter approach will cause
+a loss in precision. Another approach is to use a nonlinear ampliﬁer, such as one with a
+logarithmic gain, Vout = log(Vin).

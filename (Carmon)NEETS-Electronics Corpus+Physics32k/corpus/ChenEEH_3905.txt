@@ -1,0 +1,17 @@
+Illustrated here is the content selection in an example multi-
+media document, as shown in Figure 5.8. The multimedia
+document has two media resources: a video resource ¼ (O00)0
+and a text resource ¼ (O20)1. For each media resource (Oij)n,
+where n 2 {0, 1}, a variation document {Oij}n can be con-
+structed, which gives the different variations of the media re-
+source. The selection process selects the variations (O
+ij)0 and
+(O
+ij)1, respectively, to maximize the total content value.
+Consider the four variations of each media resource with
+content values and data sizes given in Table 5.1. By iterating
+over values for the trade-off l in content value and data size,
+the content selection table of Table 5.2 is obtained which shows
+the media resource variations that maximize the total content
+value max (SnV ( (Oij)n)) for different total maximum data
+sizes DT , as given in equation 5.1.

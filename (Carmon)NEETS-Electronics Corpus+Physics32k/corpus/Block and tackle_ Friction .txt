@@ -1,0 +1,193 @@
+The formula used to find the effort required to raise a given weight using a block and fall:
+
+
+
+
+
+F
+
+a
+
+
+=
+
+
+L
+N
+
+
+
+
+1
+
+eff
+
+
+
+
+
+{\displaystyle F_{a}={\frac {L}{N}}{\frac {1}{\textit {eff}}}}
+
+where
+
+
+
+
+F
+
+a
+
+
+
+
+{\displaystyle F_{a}}
+is the force applied to the hauling part of the line (the input force),
+
+
+
+L
+
+
+{\displaystyle L}
+is the weight of the load (the output force),
+
+
+
+N
+
+
+{\displaystyle N}
+is the ideal mechanical advantage of the system (which is the same as the number of segments of line extending from the moving block), and
+
+
+
+
+
+eff
+
+
+
+
+{\displaystyle {\textit {eff}}}
+is the mechanical efficiency of the system (equal to one for an ideal frictionless system; a fraction less than one for real-world systems with energy losses due to friction and other causes). If
+
+
+
+S
+
+
+{\displaystyle S}
+is the number of sheaves in the purchase, and there is a roughly
+
+
+
+x
+
+
+{\displaystyle x}
+% loss of efficiency at each sheave due to friction, then:
+
+
+
+
+
+
+1
+
+eff
+
+
+
+≈
+1
++
+S
+
+
+x
+100
+
+
+.
+
+
+{\displaystyle {\frac {1}{\textit {eff}}}\approx 1+S{\frac {x}{100}}.}
+
+This approximation is more accurate for smaller values of
+
+
+
+S
+
+
+{\displaystyle S}
+and
+
+
+
+x
+
+
+{\displaystyle x}
+. A more precise estimate of efficiency is possible by use of the sheave friction factor,
+
+
+
+K
+
+
+{\displaystyle K}
+(which may be obtainable from the manufacturer or published tables). The relevant equation is:
+
+
+
+
+
+
+eff
+
+
+=
+
+
+
+
+K
+
+N
+
+
+−
+1
+
+
+
+K
+
+S
+
+
+N
+(
+K
+−
+1
+)
+
+
+
+.
+
+
+{\displaystyle {\textit {eff}}={\frac {K^{N}-1}{K^{S}N(K-1)}}.}
+
+Typical
+
+
+
+K
+
+
+{\displaystyle K}
+values are 1.04 for roller bearing sheaves and 1.09 for plain bearing sheaves (with wire rope).
+The increased force produced by a tackle is offset by both the increased length of rope needed and the friction in the system. In order to raise a block and tackle with a mechanical advantage of 6 a distance of 1 metre, it is necessary to pull 6 metres of rope through the blocks. Frictional losses also mean there is a practical point at which the benefit of adding a further sheave is offset by the incremental increase in friction which would require additional force to be applied in order to lift the load. Too much friction may result in the tackle not allowing the load to be released easily, or by the reduction in force needed to move the load being judged insufficient because undue friction has to be overcome as well.

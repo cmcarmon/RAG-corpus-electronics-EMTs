@@ -1,0 +1,10 @@
+Disk Arrays
+An  alternative  to  the  approaches  just  described  is  to  exploit  parallelism  by  grouping  together  a  number  of
+physical disks and making these appear to applications as a single logical disk. This has the advantage that the
+bandwidth  of  several  disks  can  be  harnessed  to  service  a  single  logical  I/O  request  or  can  support  multiple
+independent I/Os in parallel. Further, arrays can be constructed using existing, widely available disk technology,
+rather  than  the  more  specialized  and  more  expensive  approaches  described  in  the  previous  subsection.  For
+example, Cray offers a device called the DS-40, which appears as a single logical disk device but which is actually
+implemented  internally  as  four  drives. A  logical  track  is  constructed  from  sectors  across  the  four  disks.  The
+DS-40 can transfer at a peak rate of 20 Mbyte/s, with a sustained transfer rate of 9.6 Mbyte/s, and thus is strictly
+faster than the DD-49.

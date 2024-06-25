@@ -1,0 +1,7 @@
+A simple example can illustrate the concept. Consider the situation in which a slurry is flowing into a settling tank to remove the solids in the tank. Solids are collected at the bottom by means of a conveyor belt partially submerged in the tank, and water exits via an overflow outlet.
+In this example, there are two substances: solids and water. The water overflow outlet carries an increased concentration of water relative to solids, as compared to the slurry inlet, and the exit of the conveyor belt carries an increased concentration of solids relative to water.
+Assumptions
+Steady state
+Non-reactive system
+Analysis
+Suppose that the slurry inlet composition (by mass) is 50% solid and 50% water, with a mass flow of 100 kg/min. The tank is assumed to be operating at steady state, and as such accumulation is zero, so input and output must be equal for both the solids and water. If we know that the removal efficiency for the slurry tank is 60%, then the water outlet will contain 20 kg/min of solids (40% times 100 kg/min times 50% solids). If we measure the flow rate of the combined solids and water, and the water outlet is shown to be 65 kg/min, then the amount of water exiting via the conveyor belt must be 5 kg/min. This allows us to completely determine how the mass has been distributed in the system with only limited information and using the mass balance relations across the system boundaries.

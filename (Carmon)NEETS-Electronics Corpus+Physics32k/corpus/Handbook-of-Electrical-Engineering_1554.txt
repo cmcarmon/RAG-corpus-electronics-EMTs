@@ -1,0 +1,7 @@
+One drawback of the Viterbi algorithm is the number of states that have to be evaluated for a bigram language
+model,  even  for  a  practical  vocabulary  size  of  60,000  words. A  shortcut  that  is  commonly  used  is  the  beam
+search. Here, the maximal probability P m
+i–1 of the states at stage i – 1, i.e., maxs1, …, sl P(s1, s2, …, si–1, sl=i, y1, …,
+yi|s0) is computed and used as the basis for computing a dynamic threshold to prune out all states in the trellis
+whose  path  probabilities  fall  below  this  threshold.  Multi-pass  search  strategies  have  been  proposed  over  the
+thresholding used in the beam search to handle more complex language models [6]. 

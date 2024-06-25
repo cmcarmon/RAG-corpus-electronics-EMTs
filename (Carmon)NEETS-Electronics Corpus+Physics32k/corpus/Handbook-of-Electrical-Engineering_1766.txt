@@ -1,0 +1,7 @@
+If the sampling theorem is not satisﬁed, aliasing will occur. Aliasing occurs when the signal is undersampled
+and therefore no longer recoverable by low-pass ﬁltering. Figure 17.11(a) shows the frequency spectrum of a
+sampled bandlimited signal with no aliasing. Figure 17.11(b) shows the frequency response of the same signal
+with aliasing. The aliasing occurs at the points where there is overlap in the diamond-shaped regions. For video
+signals  aliasing  in  the  temporal  direction  will  give  rise  to  ﬂicker  on  the  display.  For  television  systems,  the
+standard  temporal  sampling  rate  is  30  frames  per  second  in  the  United  States  and  Japan  and  25  frames  per
+second in Europe. However, these rates would be insufﬁcient without the use of interlacing.

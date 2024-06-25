@@ -1,0 +1,32 @@
+is 
+generally enhanced by the use of active-low inputs 
+(i.e. a logic 0 state at the input is used to assert the 
+condition required). The debounce circuit shown in 
+Fig.  16.14  is  adequate  for  most  toggle,  slide  and 
+push-button type switches. The value of the 100 D
+resistor takes into account the low-state sink current 
+required  by  IC1  (normally  1.6  mA  for  standard 
+TTL and 400 µA for LS-TTL). This resistor should 
+not  be  allowed  to  exceed  approximately  470  D in 
+order  to  maintain  a  valid  logic  0  input  state.  The 
+values quoted generate an approximate 1 ms delay 
+(during which the switch contacts will have settled 
+into  their  final  state).  It  should  be  noted  that,  on 
+power-up, this circuit generates a logic 1 level for 
+approximately  1  ms  before  the  output  reverts  to  a 
+logic  0  in  the  inactive  state.  The  circuit  obeys  the 
+following state table: 
+ 
+Switch condition 
+ 
+ 
+closed 
+open 
+ 
+ 
+An  alternative,  but  somewhat  more  complex, 
+switch  de-bouncing  arrangement  is  shown  in  Fig. 
+16.15.  Here  a  single-pole  double-throw  (SPDT) 
+changeover  switch  is  employed.  This  arrangement 
+has  the  advantage  of  providing  complementary 
+outputs and it obeys the following state table: 

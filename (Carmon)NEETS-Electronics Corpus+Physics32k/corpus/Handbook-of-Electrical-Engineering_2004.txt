@@ -1,0 +1,13 @@
+1. The functional block diagram of the multirate ﬁlter is shown in Fig. 18.9. The multirate design provides
+a signiﬁcant reduction in processing time and data storage, compared to an equivalent single-rate design.
+With multirate ﬁltering, we can use a decimation operation in order to obtain a sample rate reduction
+or an interpolation operation (as shown in Fig. 18.9) in order to obtain a sample rate increase [Crochiere
+and Rabiner, 1983]. A pseudorandom noise generator implemented in software provides the input noise
+to the ten octave band ﬁlters. Each octave band ﬁlter consists of three 1/3-octave ﬁlters (each with 41
+coefﬁcients), which can be individually controlled. A controlled noise source can be obtained with this
+design.  Since  each  1/3-octave  band  ﬁlter  can  be  turned  on  or  off,  the  noise  spectrum  can  be  shaped
+accordingly. The interpolation ﬁlter is a low-pass FIR ﬁlter with a 2:1 data-rate increase, yielding two
+sample outputs for each input sample. The sample rate of the highest octave-band ﬁlter is set at 32,768
+samples  per  second,  with  each  successively  lower  band  processing  at  half  the  rate  of  the  next-higher
+band.  The  multirate  ﬁlter  (a  nine-band  version)  was  implemented  with  the  TMS320C25  [Chassaing
+et al., 1990]. Figure 18.10 shows the three 1/3-octave band ﬁlters of band 10 implemented with the EVM

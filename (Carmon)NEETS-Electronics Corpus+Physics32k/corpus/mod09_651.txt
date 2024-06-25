@@ -1,0 +1,11 @@
+The POSITIVE-DIODE COUNTER circuit is used in timing or counting circuits in which the 
+number of input pulses are represented by the output voltage. The output may indicate frequency, count 
+the rpm of a shaft, or register a number of operations. The counter establishes a direct relationship 
+between the input frequency and the average dc output voltage. As the input frequency increases, the 
+output voltage also increases; conversely, as the input frequency decreases, the output voltage decreases. 
+In effect, the positive counter counts the number of positive input pulses by producing an average dc 
+output voltage proportional to the repetition frequency of the input signal. For accurate counting, the 
+pulse repetition frequency must be the only variable parameter in the input signal. Therefore, careful 
+shaping and limiting of the input signal is essential for you to ensure that the pulses are of uniform width 
+and that the amplitude is constant. When properly filtered and smoothed, the dc output voltage of the 
+counter may be used to operate a direct reading indicator. 

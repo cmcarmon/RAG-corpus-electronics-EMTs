@@ -1,0 +1,4 @@
+The SUP_LOC relation now contains an extra attribute name, zip_code. In most DBMSs, the zip_code value
+of  existing  tuples  will  automatically  be  assigned  a  null  value.  Other  DBMSs  allow  for  the  assignment  of  an
+initial value to a newly added attribute name. Also, deﬁnitions of attributes can be changed and new constraints
+can be added, or current constraints can be dropped.

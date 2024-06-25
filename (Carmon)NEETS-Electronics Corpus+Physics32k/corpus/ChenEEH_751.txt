@@ -1,0 +1,7 @@
+components fast enough. In addition, the data processing
+components must work fast enough. However, the two can
+be cleanly separated. Most of the transfers can take place
+during the processing of other data; there may be a small
+amount of processing or a small amount of transfers that
+cannot be overlapped, but between these, there is a broad
+range of exploration, as indicated in Subsection 2.5.2.

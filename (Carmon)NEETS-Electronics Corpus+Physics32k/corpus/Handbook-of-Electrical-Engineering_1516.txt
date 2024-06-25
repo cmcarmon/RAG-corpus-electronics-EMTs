@@ -1,0 +1,4 @@
+The problem with MAP is that it adapts only parameters for which explicit training data is available, and it
+converges slowly for tasks where there are limited adaptation data and many parameters to be estimated. Many
+adaptation algorithms [15] [14] have been developed which attempt to generalize from “nearby” training data
+points to overcome this difﬁculty.

@@ -1,0 +1,11 @@
+Robot conﬁguration is an important consideration in the selection of a manipulator. Conﬁguration refers
+to the way the manipulator links are connected at each joint. Each link will be connected to the subsequent
+link by either a linear (sliding or prismatic) joint, which can be abbreviated with a P, or a revolute (or rotary)
+joint, abbreviated with an R. Using this notation, a robot with three revolute joints would be abbreviated as
+RRR,  while  one  with  a  rotary  joint  followed  by  two  linear  (prismatic)  joints  would  be  denoted  RPP.  Each
+conﬁguration type is well suited to certain types of tasks and ill suited to others. Some conﬁgurations are more
+versatile than others. In addition to the geometrical considerations, robot conﬁguration affects the structural
+stiffness of the robot, which may be an important consideration. Also, conﬁguration impacts the complexity
+of the forward and inverse 
+, which are the mappings between the robot actuator (joint) space, and
+the Cartesian position and orientation of the robot end-effector, or tool.

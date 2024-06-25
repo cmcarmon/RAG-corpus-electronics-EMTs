@@ -1,0 +1,5 @@
+The  simple  solution  to  this  problem  is  to  design  an  observer  (or  estimator),  which  produces  an  estimated
+state vector ˆx(t). If this estimate asymptotically approaches the true state x(t), then we can simply combine the
+observer and the state feedback to produce a feedback control u(t) = K ˆx(t). That we can simply substitute the
+observed  value ˆx(t)  for  x(t)  in  the  feedback  function  is  a  fortunate  property  called  the  separation  principle,
+which ensures that our controller calculations and observer calculations do not interfere with one another.

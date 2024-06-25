@@ -1,0 +1,10 @@
+standard resistor, R, is adjusted until the balanced rectifier outputs of Q1 and Q2 are equal (indicated by a 
+null in the deflection of the voltmeter connected between the emitters of Q3 and Q4). The dial setting of R 
+gives the value of ZX. For phase angle determination, the circuit is switched to CAL and the input voltage 
+is adjusted for full-scale voltmeter deflection. The circuit is then switched to PHASE; thus, the paralleled 
+outputs of Q1 and Q2 are applied to rectifier CR1 only. With S2 in the phase position, there is no input to 
+the base of Q4. If Z is purely resistive, the outputs of Q1 and Q2 cancel, and the voltmeter indicates zero 
+deflection. For a complex impedance, the base of Q3 will be unbalanced with respect to the base of Q4; 
+and the voltmeter deflection, calibrated in degrees, determines the phase angle of the unknown 
+impedance. Typical commercial impedance angle meters, operating at 2 MHz, are accurate to within 4% 
+for impedances of from 10 to 500 ohms. 

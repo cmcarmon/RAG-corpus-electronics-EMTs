@@ -1,0 +1,8 @@
+it into a 1-D string of quantized coefﬁcients like in JPEG.
+Finally, the side information for the macroblock, including
+the type, block-pattern and motion vectors, and DCT coefﬁ-
+cients are coded. A unique feature of the MPEG-1 standard is
+the introduction of B-pictures that have access to both past
+and future anchor points. They can either use past frame,
+called forward motion estimation or the future frame, called
+backward motion estimation, as shown in Figure 6.5.

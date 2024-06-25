@@ -1,0 +1,240 @@
+RGB is a color mixture system. Once the color matching function are determined the tristimulus values can be determined easily. Since standardization is required to compare results, CIE established standards to determine color matching function.
+The reference stimuli must be monochromatic lights R, G, B. With wavelengths
+
+
+
+
+λ
+
+R
+
+
+=
+700.0
+n
+m
+,
+
+λ
+
+G
+
+
+=
+546.1
+n
+m
+,
+
+λ
+
+B
+
+
+=
+435.8
+n
+m
+
+
+{\displaystyle \lambda _{R}=700.0nm,\lambda _{G}=546.1nm,\lambda _{B}=435.8nm}
+respectively.
+The basic stimulus is white with equal energy spectrum. Require a ratio of 1.000:4.5907:0.0601 (RGB) to match white point.
+Therefore, a white with equi-energy lights of 1.000 + 4.5907 + 0.0601 = 5.6508 lm can be matched by mixing together R, G and B. Guild and Wright used 17 subjects to determine RGB color matching functions. RGB color matching serve as the base for rg chromaticity. The RGB color matching functions are used to determine the tristimulus RGB values for a spectrum. Normalizing the RGB tristimulus values converts the tristimulus into rgb. Normalized RGB tristimulus value can be plotted on an rg chromaticity diagram.
+An example of color matching function below.
+
+
+
+[
+
+F
+
+λ
+
+
+]
+
+
+{\displaystyle [F_{\lambda }]}
+is any monochromatic. Any monochromatic can be matched by adding reference stimuli
+
+
+
+R
+[
+R
+]
+,
+G
+[
+G
+]
+
+
+{\displaystyle R[R],G[G]}
+and
+
+
+
+B
+[
+B
+]
+
+
+{\displaystyle B[B]}
+. The test light is also to bright to account for this reference stimuli is added to the target to dull the saturation. Thus
+
+
+
+R
+
+
+{\displaystyle R}
+is negative.
+
+
+
+[
+R
+]
+,
+[
+G
+]
+
+
+{\displaystyle [R],[G]}
+and
+
+
+
+[
+B
+]
+
+
+{\displaystyle [B]}
+can be defined as a vector in a three-dimensional space. This three-dimensional space is defined as the color space. Any color
+
+
+
+[
+F
+]
+
+
+{\displaystyle [F]}
+can be reached by matching a given amount of
+
+
+
+[
+R
+]
+,
+[
+G
+]
+
+
+{\displaystyle [R],[G]}
+and
+
+
+
+[
+B
+]
+
+
+{\displaystyle [B]}
+.
+
+
+
+
+[
+
+F
+
+λ
+
+
+]
++
+R
+[
+R
+]
+=
+G
+[
+G
+]
++
+B
+[
+B
+]
+
+
+{\displaystyle [F_{\lambda }]+R[R]=G[G]+B[B]}
+
+
+
+
+
+[
+
+F
+
+λ
+
+
+]
+=
+−
+R
+[
+R
+]
++
+G
+[
+G
+]
++
+B
+[
+B
+]
+
+
+{\displaystyle [F_{\lambda }]=-R[R]+G[G]+B[B]}
+
+
+The negative
+
+
+
+[
+R
+]
+
+
+{\displaystyle [R]}
+calls for color matching functions that are negative at certain wavelengths. This is evidence of why the
+
+
+
+
+
+r
+¯
+
+
+
+
+{\displaystyle {\overline {r}}}
+color matching function appears to have negative tristimulus values.

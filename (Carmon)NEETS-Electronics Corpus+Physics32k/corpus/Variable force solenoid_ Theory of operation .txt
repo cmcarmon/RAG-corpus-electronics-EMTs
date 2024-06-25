@@ -1,0 +1,17 @@
+A variable force solenoid includes:
+Actuator shaft that is aligned with the central axis of the valve and solenoid
+A electrical conducting wire core
+A cylindrical core through which the wire is wound that causes an induced magnetic flux flow
+An actuator that actuates a shaft spaced by a non-functional (fixed) air gap from the case and moves axially from the edge of the core
+Fixed Bearings at the opposite ends of the actuator shaft and compressed spring
+A valve spool that controls output flow and pressure
+In the steady-state condition, the typical VFS design intent is to control pressure by balancing three axial forces:
+A spring force due to spring compression by valve position
+A magnetic force primarily due to regulated current through the solenoid coil
+A pressure force due controlled flow areas and supply pressure, often called line pressure
+The VFS can be designed such that any of these forces act in either axial direction. If the magnetic force acts opposes the pressure force, then increasing current through the solenoid coil will, at steady-state, cause an increase in VFS output pressure. This is commonly called a "proportional" VFS since controlled output pressure increases with controlled current. In the absence of current, this design produces low pressure, so it can also be called a "normally low" solenoid. If magnetic force acts in the same direction as the pressure force, then increasing current will cause a decrease in controlled pressure. This can be called an "inversely proportional" or "normally high" solenoid.
+Other forces can modify the resulting controlled pressure output from the VFS. These include
+friction due to hydraulic or magnetic side loading
+friction due to debris
+steady-state and dynamic flow forces
+A typical design error for variable pressure controlled electrohydraulic devices involves a poorly controlled minimum working air gap. When this occurs, the magnetic circuit reluctance drops rapidly at high current & small working air gaps, and magnetic force rises rapidly. This is observed as a "stuck" valve where pressure follows the design intent until a specific point of operation - typically the highest pressure for a normally high or the lowest pressure for a normally low solenoid - at which point a small reversal of current does not cause the expected change in pressure.

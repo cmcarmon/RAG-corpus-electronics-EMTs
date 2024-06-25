@@ -1,0 +1,9 @@
+Adding Hierarchical Data Reuse Copies
+When the example transformed code 2.2 is executed on a
+processor with a small cache, it will perform much better
+than the initial code. To map it on a custom memory hier-
+archy, however, we have to know the optimal size of the
+different levels of this hierarchy. To this end, signal copies
+(buffers) are added to the code to make the data reuse explicit.
+For the example, this results in the following code (the initial-
+ization of a_buf‘ has been left out for simplicity):

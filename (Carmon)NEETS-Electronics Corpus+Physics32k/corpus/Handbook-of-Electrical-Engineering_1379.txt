@@ -1,0 +1,8 @@
+Gain functions motivated by different perceptual aspects have been used. One of the most popular functions
+results from linear minimum MSE (MMSE) estimation of each spectral component of the clean signal given
+the  corresponding  spectral  component  of  the  noisy  signal.  In  this  case,  the  value  of  the  gain  function  for  a
+given spectral component constitutes the ratio of the variances of the clean and noisy spectral components.
+The variance of the clean spectral component is obtained by subtracting an assumed known variance of the
+noise spectral component from the variance of the noisy spectral component. The resulting variance is guar-
+anteed to be positive by the nulling process mentioned above. The variances of the spectral components of the
+noise process are normally estimated from silence portions of the noisy signal.

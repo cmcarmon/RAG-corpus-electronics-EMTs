@@ -1,0 +1,47 @@
+Like classical digital signatures, quantum digital signatures make use of asymmetric keys. Thus, a person who wants to sign a message creates one or more pairs of sign and corresponding public keys. In general we can divide quantum digital signature schemes into two groups:
+A scheme that creates a public quantum-bit key out of a private classical bit string:
+
+
+
+k
+↦
+
+|
+
+
+f
+
+k
+
+
+⟩
+
+
+{\displaystyle k\mapsto |f_{k}\rangle }
+
+A scheme that creates a public quantum-bit key out of a private quantum bit string:
+
+
+
+
+|
+
+k
+⟩
+↦
+
+|
+
+
+f
+
+k
+
+
+⟩
+
+
+{\displaystyle |k\rangle \mapsto |f_{k}\rangle }
+
+In both cases f is a one-way quantum function that has the same properties as a classical one-way function. That is, the result is easy to compute, but, in contrast to the classical scheme, the function is impossible to invert, even if one uses powerful quantum cheating strategies.
+The most famous scheme for the first method above is provided by Gottesman and Chuang

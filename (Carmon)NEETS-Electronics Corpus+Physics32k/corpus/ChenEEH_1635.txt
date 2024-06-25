@@ -1,0 +1,24 @@
+JPEG: Digital Compression and Coding of
+Continuous-Tone Still Images
+The Joint Photographic Experts Group (JPEG) standard is
+used for compression of continuous-tone still images (ISO
+10918-1, 1994). This compression standard is based on the
+Huffman and run-length encoding of the quantized DCT
+coefﬁcients of image blocks. The widespread use of the JPEG
+standard is motivated by the fact that it consistently produces
+compression ratios in excess of 20:1. The compression algo-
+rithm can be operated on both gray scale as well as multichan-
+nel color
+in psychovisually
+redundant RGB format, is ﬁrst converted to a more ‘‘compres-
+sion-friendly’’ color model like YCbCr or YUV. The image is
+ﬁrst broken down into blocks of size 8  8 called data units.
+After that, depending on color model and decimation scheme
+for chrominance channels involved, minimum code units
+(MCUs) are formed. A minimum code unit is the smallest
+unit that is processed for DCT, quantization, and variable-
+length encoding subsequently. One example for the case of
+the YUV 4:1:1 color model (each of chrominance component
+being half in width and half in length) is shown in Figure 6.1.
+Here the MCU consists of four data units from the Y compon-
+ent and one each from the U and V components.

@@ -1,0 +1,9 @@
+When the operating system gets control after the TRAP, it
+examines the parameters to see if they are valid, and if so,
+performs the work requested. When it is ﬁnished, the operat-
+ing system puts a status code in a register, telling whether it
+succeeded or failed, and executes a return from trap instruc-
+tion to return control back to the library procedure. The
+library procedure then returns to the caller in the usual way,
+returning the status code as a function value. Sometimes ad-
+ditional values are returned in the parameters.

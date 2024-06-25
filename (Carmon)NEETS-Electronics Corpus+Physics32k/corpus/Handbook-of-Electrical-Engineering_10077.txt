@@ -1,0 +1,4 @@
+The neural network is placed in parallel with the system, and the error,  e, between the system outputs, y,
+and  network  outputs, ˆy,  is  used  to  train  the  network.  This  represents  a  classical supervised  learning  problem
+for  which  the  teacher  (i.e.,  the  system)  provides  target  values  (i.e.,  system  outputs)  directly  in  the  output
+coordinate system of the learner (i.e., the network model) [Jordan and Rumelhart, 1991].

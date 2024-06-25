@@ -1,0 +1,12 @@
+Some of the inadequacies of the logic stuck-at-fault model
+are overcome by the transistor stuck-at-fault model that as-
+sumes a fault’s behavior is akin to one or more transistors
+always conducting (stuck-at-on) or always in a nonconducting
+state (stuck-at-off) irrespective of gate inputs. For example,
+the above wire-break fault in the NOR gate can be modeled as
+the corresponding nMOS transistor stuck-at-off. Even this
+model, however, cannot simulate a bridging fault. A clear
+disadvantage of the transistor stuck-at-fault model vis-a-vis
+the logic stuck-at-fault model is the additional complexity in
+terms of the number of components that must be represented,
+manipulated, and simulated (Johnson, 1989).

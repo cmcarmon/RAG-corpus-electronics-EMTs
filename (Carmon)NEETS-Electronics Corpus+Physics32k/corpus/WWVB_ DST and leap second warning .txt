@@ -1,0 +1,9 @@
+The phase-modulated time code contains daylight saving time announcement and leap second warning information equivalent to the amplitude-modulated code, but they are combined into one 5-bit field for error detection purposes.
+There are two DST announcement bits that let a receiver apply U.S. daylight saving time rules:
+dst_on[0] is set if DST was in effect at the beginning of the current UTC day (00:00 UTC).
+dst_on[1] is set if DST will be in effect at the end of the current UTC day (24:00 UTC).
+The two bits differ on days when daylight saving time is changing (at 02:00 local time).
+There are also three leap second warning possibilities (0, +1, or −1 seconds), making twelve possible values that need to be encoded. Eleven of these are encoded as 5-bit codes with odd parity, providing single-bit error detection (a minimum Hamming distance of 2 between any two valid codes).
+Five of the 16 possible odd-parity values (all those differing in one bit from 00011) are not used, and the even-parity value 00011 is used to encode the most common condition: DST in effect, no leap second pending. This provides single-bit error correction (a minimum Hamming distance of 3) whenever this code is transmitted.
+The above example illustrates this common case: DST is in effect, and no leap second is pending (the last leap second was 4 days ago).
+During a leap second, bit 59 (a marker bit with a phase-modulated code of 0) is transmitted again.

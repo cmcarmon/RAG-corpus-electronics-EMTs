@@ -1,0 +1,9 @@
+the diode is OFF, the other when the diode is ON. Analysis of these two
+circuits is trivial in this case: For the diode OFF, Figure 16.8a, vra = 0, and
+for the diode ON, Figure 16.8b, vrb = vi. Now we must apply the diode
+constraints, Equations 4.34 and 4.35, to find which portions of these waveforms
+are valid. The ON circuit applies only for iD positive, hence only for vi positive,
+as indicated by the darker line segments. The OFF circuit applies only for vD
+negative, hence vi negative, so the valid parts of the vr waveform here are again
+darkened. The two parts of the solution can now be combined to yield the
+complete solution for the output wave, Figure 16.8c.

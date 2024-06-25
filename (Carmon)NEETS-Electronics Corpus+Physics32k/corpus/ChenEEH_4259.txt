@@ -1,0 +1,14 @@
+The number of active users in a local network is an important
+parameter that affects the bound of the performance. Under-
+standing the bounds of the performance would help to deter-
+mine the size of a LAN. The stability of a LAN can be at the state
+of either low delay, where the capacity is greater than the offered
+load; of high delay, where more time is spent on controlling
+access to network, and little time is spent on actual data trans-
+mission; or the unbound delay, where the offered load is greater
+than the capacity. The state of the unbound delay must be
+avoided in the design. In general, delay is bounded by the
+number of users (N) multiplied by the transmission time of
+Tmsg. The throughput is bounded by N/(Tidle þ N Tmsg),
+where the Tidle is the mean idle time. The number of active
+stations can be determined by the following equation:

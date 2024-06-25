@@ -1,0 +1,17 @@
+Analytical expressions are preferred in analyzing interconnect
+noise because simulation is always expensive and ineffective to
+use with designs containing millions of transistors and wires.
+Analytical expressions, however, are not sufﬁciently accurate
+and do not consider all of interconnect and driver parameters.
+Different design stages have different requirements for accu-
+racy of modeling interconnect cross talk noise effects. Many
+studies have been conducted to model metal lines and cross
+talk effects. For the purpose of the timing veriﬁcation, ideal
+ground-based RC or RLC-distributed-circuit models for inter-
+connect lines have been widely used (Sakurai). The conven-
+tional ideal RC or RLC transmission line model of the IC
+interconnects without considering that the following detailed
+physical phenomena are not accurate enough to verify the
+picosecond level timing of high performance VLSI circuits
+(Woojin et al., 2000). These phenomena are the silicon sub-
+strate effect, the skin effect, and the proximity effect.

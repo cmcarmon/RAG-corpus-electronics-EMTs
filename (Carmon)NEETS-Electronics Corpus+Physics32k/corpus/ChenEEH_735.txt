@@ -1,0 +1,9 @@
+data locality (box curve). Next, two different optimization paths
+are followed: an energy-optimized one and a performance-
+optimized one. The main difference is the modiﬁed use of the
+available memory hierarchy: using the technique of Diguet et al.
+(1997), another intermediate signal is created and assigned
+differently for the speed-optimized implementation. As a con-
+sequence, an energy-intensive multiport memory is added in
+the memory hierarchy, delivering more bandwidth and improv-
+ing the worst-case execution path of the application.

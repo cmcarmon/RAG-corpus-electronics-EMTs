@@ -1,0 +1,4 @@
+When A, B, and the carry-in are all HIGH, a sum of 1 and a carry-out are produced. First, consider A
+and B. When both are HIGH, the output of gate 1 is LOW, and the output of gate 2 is HIGH, giving us a
+carry-out at gate 5. The carry-in produces a 1 output at gate 3, giving us a sum of 1. The output of the full
+adder is 112. The sum of 12 plus 12 plus 12 is 112.

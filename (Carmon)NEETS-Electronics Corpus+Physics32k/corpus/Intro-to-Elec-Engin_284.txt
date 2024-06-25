@@ -1,0 +1,11 @@
+Since factors of 10 are linear increments on the logarithmic frequency scale, the plot of 20 log
+(ω/ω0) versus ω on a semilog paper is a straight line with a slope of +20 dB/decade or +6
+dB/octave, as shown in Figure 3.4.6. Note that an octave represents a factor of 2 in frequency,
+whereas a decade represents a factor of 10. The angle associated with ¯H1(j ω) is θ1(ω) =
+∼= 90°;
+tan
+and at ω = ω0, θ1 = +45°. This leads to the straight-line approximations for θ1(ω), as shown
+in Figure 3.4.6. For 0.1ω0 ≤ ω ≤ 10ω0, the slope of θ1(ω) versus ω is approximately given by
++45°/decade (over two decades centered at the critical frequency) or +13.5°/octave. Thus the
+asymptotic Bode plot for ¯H1(j ω) = 1 + j ω/ω0 is drawn in Figure 3.4.6. Figure 3.4.7 gives the
+asymptotic Bode plot for ¯H2(j ω) = 1/(1+ j ω/ω0) with a similar kind of reasoning. The student

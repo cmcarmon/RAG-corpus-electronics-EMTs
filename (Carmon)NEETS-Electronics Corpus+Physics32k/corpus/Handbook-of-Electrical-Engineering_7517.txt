@@ -1,0 +1,8 @@
+Figure 79.1 illustrates the transistor circuit blocks used in a standard TTL inverter. Four transistors are used
+to  achieve  the  inverter  function.  The  input  to  the  gate  connects  to  the  emitter  of  transistor  Q1,  the  input
+coupling transistor. A clamping diode on the input prevents negative input voltage spikes from damaging Q1.
+The collector voltage (and current) of Q1 controls Q2, the phase splitter transistor. Q2, in turn, controls the
+Q3 and Q4 transistors forming the output circuit, which is called a totem-pole arrangement. Q4 serves as a
+pull-up transistor to pull the output high when it is turned on. Q3 does just the opposite to the output and
+serves as a pull-down transistor. Q3 pulls the output low when it is turned on. Only one of the two transistors
+in the totem pole may be turned on at a time, which is the function of the phase splitter transistor Q2.

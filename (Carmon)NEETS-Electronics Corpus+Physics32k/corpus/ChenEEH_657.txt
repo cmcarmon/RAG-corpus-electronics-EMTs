@@ -1,0 +1,13 @@
+Apart from the storage architecture itself, the way data are
+mapped to these architecture components is important for a
+good overall memory management solution. Actually, these
+issues are gaining in importance in the current age of deep
+submicron technologies, where technology and circuit solu-
+tions are not sufﬁcient on their own to solve the system design
+bottlenecks. In current practice, designers usually go for the
+highest speed implementation for most submodules of a com-
+plex system, even when real-time constraints apply for the
+global design. Moreover, the design tools for exploration sup-
+port (e.g., compilers and system synthesis tools) focus mainly
+on the performance aspect. The system cost, however can often
+be signiﬁcantly reduced by system-level code transformations

@@ -1,0 +1,8 @@
+Node-Voltage and Mesh-Current Equations with Controlled Sources
+Since a controlled source acts at its terminals in the same manner as does an independent source,
+source conversion and application of KCL and KVL relations are treated identically for both
+types of sources. Because the strength of a controlled source depends on the value of a voltage
+or current elsewhere in the network, a constraint equation is written for each controlled source.
+After combining the constraint equations with the loop or nodal equations based on treating all
+sources as independent sources, the resultant set of equations are solved for the unknown current
+or voltage variables.

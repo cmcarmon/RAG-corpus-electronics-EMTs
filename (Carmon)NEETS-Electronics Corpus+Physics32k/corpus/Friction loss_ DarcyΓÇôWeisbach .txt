@@ -1,0 +1,47 @@
+In many practical engineering applications, the fluid flow is more rapid, therefore turbulent rather than laminar. Under turbulent flow, the friction loss is found to be roughly proportional to the square of the flow velocity and inversely proportional to the pipe diameter, that is, the friction loss follows the phenomenological Darcy–Weisbach equation in which the hydraulic slope S can be expressed
+
+
+
+
+S
+=
+
+f
+
+D
+
+
+
+
+1
+
+2
+g
+
+
+
+
+
+
+V
+
+2
+
+
+D
+
+
+
+
+{\displaystyle S=f_{D}{\frac {1}{2g}}{\frac {V^{2}}{D}}}
+
+where we have introduced the Darcy friction factor fD (but see Confusion with the Fanning friction factor);
+fD = Darcy friction factor
+Note that the value of this dimensionless factor depends on the pipe diameter D and the roughness of the pipe surface ε. Furthermore, it varies as well with the flow velocity V and on the physical properties of the fluid (usually cast together into the Reynolds number Re). Thus, the friction loss is not precisely proportional to the flow velocity squared, nor to the inverse of the pipe diameter: the friction factor takes account of the remaining dependency on these parameters.
+From experimental measurements, the general features of the variation of fD are, for fixed relative roughness ε / D and for Reynolds number Re = V D / ν > ~2000,
+With relative roughness ε / D < 10−6, fD declines in value with increasing Re in an approximate power law, with one order of magnitude change in fD over four orders of magnitude in Re. This is called the "smooth pipe" regime, where the flow is turbulent but not sensitive to the roughness features of the pipe (because the vortices are much larger than those features).
+At higher roughness, with increasing Reynolds number Re, fD climbs from its smooth pipe value, approaching an asymptote that itself varies logarithmically with the relative roughness ε / D; this regime is called "rough pipe" flow.
+The point of departure from smooth flow occurs at a Reynolds number roughly inversely proportional to the value of the relative roughness: the higher the relative roughness, the lower the Re of departure. The range of Re and ε / D between smooth pipe flow and rough pipe flow is labeled "transitional". In this region, the measurements of Nikuradse show a decline in the value of fD with Re, before approaching its asymptotic value from below, although Moody chose not to follow those data in his chart, which is based on the Colebrook–White equation.
+At values of 2000 < Re < 4000, there is a critical zone of flow, a transition from laminar to turbulence, where the value of fD increases from its laminar value of 64 / Re to its smooth pipe value. In this regime, the fluid flow is found to be unstable, with vortices appearing and disappearing within the flow over time.
+The entire dependence of fD on the pipe diameter D is subsumed into the Reynolds number Re and the relative roughness ε / D, likewise the entire dependence on fluid properties density ρ and viscosity μ is subsumed into the Reynolds number Re. This is called scaling.
+The experimentally measured values of fD are fit to reasonable accuracy by the (recursive) Colebrook–White equation, depicted graphically in the Moody chart which plots friction factor fD versus Reynolds number Re for selected values of relative roughness ε / D.

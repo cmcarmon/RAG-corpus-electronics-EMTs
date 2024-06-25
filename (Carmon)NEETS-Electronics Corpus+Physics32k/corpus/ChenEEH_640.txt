@@ -1,0 +1,16 @@
+A different concept than the nonlinear logarithmic transfor-
+mation is followed by mapping of data to appropriately selec-
+ted ﬁnite ﬁelds. This may be achieved through the use of one of
+the many available versions of the residue number system
+(RNS) (Szabo and Tanaka, 1967). RNS arithmetic faces difﬁ-
+culties with sign detection, division, and magnitude compari-
+son. These difﬁculties may outweigh the beneﬁts it presents
+for addition, subtraction, and multiplication as far as general
+computing is concerned. Its use in specialized computations,
+like those for signal processing, offers many advantages. RNS
+has been used to offer superior fault tolerance capabilities
+as well as high-speed, small-area, and/or signiﬁcant power-
+dissipation savings in the design of signal processing architec-
+tures for FIR ﬁlters (Freking and Parhi, 1997) and other cir-
+cuits (Chren, 1998). RNS may even reduce the computational
+load in complex-number processing (Taylor et al., 1985), thus

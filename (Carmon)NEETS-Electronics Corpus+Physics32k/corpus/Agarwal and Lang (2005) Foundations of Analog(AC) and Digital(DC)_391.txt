@@ -1,0 +1,16 @@
+At this point you are probably wondering why it is that we were able to
+adopt such a sequential approach to analyzing the circuit in Figure 2.67. The
+same sequential approach does not work for the circuit in Figure 2.46. The
+intuition behind this useful property is that our idealized dependent source has
+decoupled the circuit into two parts
+an input part and an output part. Because
+our dependent source model has an open circuit at its terminals marked by the
+branch voltage vIN, the behavior of the input part is completely independent
+of the output part of the circuit. In other words, in determining the behavior
+of the input part,
+it is as if the output did not even exist. The output part,
+however, does depend on one of the input variables, namely, vIN. However,
+once the value of the control input vIN is determined through an analysis of
+the input part, it fixes the value of the dependent source. Thus, the dependent
+source can be treated as an independent source for the purpose of analyzing the
+output part.

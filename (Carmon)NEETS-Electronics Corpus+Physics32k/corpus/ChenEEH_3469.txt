@@ -1,0 +1,17 @@
+The most common bus protection principle is the current
+differential approach. All connections to the bus are moni-
+tored through current transformers to detect current imbal-
+ance. If an internal bus fault occurs, the balance between
+incoming and outgoing currents is drastically disturbed, and
+that becomes a criterion for tripping the bus breakers and
+isolating the bus from the rest of the system. This relaying
+principle would be very simple to implement if there were no
+problems with CT saturation. Due to high-fault currents, one
+of the CTs may see extraordinary high currents during a close-
+in external fault. This may cause the CT to saturate, making it
+very difﬁcult to distinguish if the CT was saturated due to high
+currents from an internal or external fault. If air-gap or air-
+core CTs are used, the saturation may not be an issue, and the
+current differential relaying is easily applied. This solution is
+more costly and is used far less frequently than the solu-
+tion using standard iron-core CTs.

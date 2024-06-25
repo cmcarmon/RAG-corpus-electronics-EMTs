@@ -1,0 +1,8 @@
+Even  for  a  system  that  implements  write-through,  care  must  be  exercised  if  memory  requests  bypass  the
+cache. While the main memory is never stale, a write that bypasses the cache, such as from I/O, could have the
+effect of making the cached copy stale. A later access by the CPU could then provide an incorrect value. This
+can  only  be  avoided  by  making  sure  that  cached  entries  are  invalidated  even  if  the  cache  is  bypassed.  The
+problem is relatively easy to solve for a single processor with I/O, but becomes very difﬁcult to solve for multiple
+coherence
+processors, particularly so if multiple caches are involved as well. This is known in general as the cache 
+or 

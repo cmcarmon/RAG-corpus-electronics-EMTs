@@ -1,0 +1,8 @@
+Modulation is used in passband filtered channels such as telephone lines, radio channels and other frequency division multiplex (FDM) channels.
+In a digital modulation method provided by a modem, each symbol is typically a sine wave tone with certain frequency, amplitude and phase. Symbol rate, baud rate, is the number of transmitted tones per second.
+One symbol can carry one or several bits of information. In voiceband modems for the telephone network, it is common for one symbol to carry up to 7 bits.
+Conveying more than one bit per symbol or bit per pulse has advantages. It reduces the time required to send a given quantity of data over a limited bandwidth. A high spectral efficiency in (bit/s)/Hz can be achieved; i.e., a high bit rate in bit/s although the bandwidth in hertz may be low.
+The maximum baud rate for a passband for common modulation methods such as QAM, PSK and OFDM is approximately equal to the passband bandwidth.
+Voiceband modem examples:
+A V.22bis modem transmits 2400 bit/s using 1200 Bd (1200 symbol/s), where each quadrature amplitude modulation symbol carries two bits of information. The modem can generate M=22=4 different symbols. It requires a bandwidth of 1200 Hz (equal to the baud rate). The carrier frequency is 1800 Hz, meaning that the lower cut off frequency is 1,800 − 1,200/2 = 1,200 Hz, and the upper cutoff frequency is 1,800 + 1,200/2 = 2,400 Hz.
+A V.34 modem may transmit symbols at a baud rate of 3,420 Bd, and each symbol can carry up to ten bits, resulting in a gross bit rate of 3420 × 10 = 34,200 bit/s. However, the modem is said to operate at a net bit rate of 33,800 bit/s, excluding physical layer overhead.

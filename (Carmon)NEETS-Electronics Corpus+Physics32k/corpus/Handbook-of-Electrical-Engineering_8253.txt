@@ -1,0 +1,11 @@
+ADCs perform a key function in the data acquisition process. The application of various ADC technologies
+in a data acquisition system depends mainly on the cost, bit resolution, and speed. Successive approximation
+types are more common at high resolution at moderate speeds (<1 MHz). This kind of ADC offers the best
+trade-offs among bit resolution, accuracy, speed, and cost. Flash converters, on the other hand, are best suited
+for high-speed applications. Integrating-type converters are suitable for high-resolution and -accuracy applications.
+Many techniques have been developed in coupling sample-hold circuits and ADCs in data acquisition systems
+because  no  single  ADC  or  sampling  technology  is  able  to  satisfy  the  ever  increasing  requirements  of  data
+acquisition applications. Figure 84.6 illustrates the various sampling and ADC conﬁgurations used in practice.
+It  can  be  seen  that  the  sampling  frequencies  are  increased  because  of  pipelining,  parallelism,  or  concurrent
+architecture. The increase in the sampling frequency improves the bandwidth, improving in turn the SNR in
+the channel.

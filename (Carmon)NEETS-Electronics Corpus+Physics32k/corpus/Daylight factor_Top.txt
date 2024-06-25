@@ -1,0 +1,17 @@
+In architecture, a daylight factor (DF) is the ratio of the light level inside a structure to the light level outside the structure. It is defined as:
+DF = (Ei / Eo) x 100%
+where, Ei = illuminance due to daylight at a point on the indoors working plane, Eo = simultaneous outdoor illuminance on a horizontal plane from an unobstructed hemisphere of overcast sky.
+To calculate Ei, requires knowing the amount of outside light received inside of a building. Light can reach a room via through a glazed window, rooflight, or other aperture via three paths:
+Direct light from a patch of sky visible at the point considered, known as the sky component (SC),
+Light reflected from an exterior surface and then reaching the point considered, known as the externally reflected component (ERC),
+Light entering through the window but reaching the point only after reflection from an internal surface, known as the internally reflected component (IRC).
+The sum of the three components gives the illuminance level (typically measured in lux) at the point considered:
+Illuminance = SC + ERC + IRC
+The daylight factor can be improved by increasing SC (for example placing a window so it "sees" more of the sky rather than adjacent buildings), increasing ERC (for example by painting surrounding buildings white), increasing IRC (for example by using light colours for room surfaces). In most rooms, the ceiling and floor are a fixed colour, and much of the walls are covered by furnishings. This gives less flexibility in changing the daylight factor by using different wall colours than might be expected meaning changing SC is often the key to good daylight design.
+
+Architects and engineers use daylight factors in architecture and building design to assess the internal natural lighting levels as perceived on working planes or surfaces. They use this information to determine if light is sufficient for occupants to carry out normal activities. The design day for daylight factor calculations is based on the standard CIE overcast Sky for 21 September at 12:00pm, and where the Ground Ambient light level is 11921 Lux. CIE being the Commission Internationale de l´Eclairage, or International Commission on Illumination.
+Calculating daylight factors requires complex repetition of calculations and thus is generally undertaken using a complex software product such as Radiance. This is a suite of tools for performing lighting simulation, which includes a renderer as well as many other tools for measuring simulated light levels. It uses ray tracing to perform all lighting calculations. One failing in many of these calculations is that they are often completed without wall hangings or furniture against the walls. This can lead to higher predictions of the daylight factor than is correct.
+To assess the effect of a poor or good daylight factor, one might compare the results for a given calculation against published design guidance. In the UK this is likely to be CIBSE Lighting Guide 10 (LG10-1999), which broadly bands average daylight factors into the following categories:
+Under 2 – Not adequately lit – artificial lighting is required
+Between 2 and 5 – Adequately lit but artificial lighting may be needed part of the time
+Over 5 – Well lit – artificial lighting generally not required, except at dawn and dusk – but glare and solar gain may cause problems

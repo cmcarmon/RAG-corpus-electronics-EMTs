@@ -1,0 +1,13 @@
+Material Handling and Machine Loading/Unloading
+Applications in this category pertain to the grasping and movement of a workpart or item from one location
+to another. General considerations for such applications pertain to the gripper design, distances moved, robot
+weight  capacity,  the  POSE,  and  robot-dependent  issues  pertaining  to  the  conﬁguration,  degrees  of  freedom,
+accuracy and precision, the controller, and programming features. POSE information is particularly important
+if  there  are  no  sensors  (e.g.  vision)  to  provide  such  information  prior  to  pick-up.  Specialized  grippers  have
+been designed for various applications in all three of the listed categories [Engelberger, 1980]. Quick-change
+wrists enabling the robot to change grippers (or tools in processing applications) during the production cycle
+have also become more common since their introduction [Vranich, 1984], as have multiple grippers mounted
+turret-like  at  the  end  of  a  robotic  arm. Various  factors  need  to  be  considered  in  the  selection  and  design  of
+grippers. One such checklist of factors can be found in Groover et al. [1986]. It should be noted that certain
+applications may require a high degree of accuracy and precision whereas others do not. Higher requirements
+result in more sophisticated drive mechanisms and controllers with associated increased costs.

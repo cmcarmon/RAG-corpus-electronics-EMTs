@@ -1,0 +1,287 @@
+Certain special relativity problem setups can lead to insight about phenomena normally associated with general relativity, such as event horizons. In the text accompanying Fig. 2‑7, we had noted that the magenta hyperbolae represented actual paths that are tracked by a constantly accelerating traveler in spacetime. During periods of positive acceleration, the traveler's velocity just approaches the speed of light, while, measured in our frame, the traveler's acceleration constantly decreases.
+
+Fig. 4‑6 details various features of the traveler's motions with more specificity. At any given moment, her space axis is formed by a line passing through the origin and her current position on the hyperbola, while her time axis is the tangent to the hyperbola at her position. The velocity parameter
+
+
+
+β
+
+
+{\displaystyle \beta }
+approaches a limit of one as
+
+
+
+c
+t
+
+
+{\displaystyle ct}
+increases. Likewise,
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+approaches infinity.
+The shape of the invariant hyperbola corresponds to a path of constant proper acceleration. This is demonstrable as follows:
+We remember that
+
+
+
+β
+=
+c
+t
+
+/
+
+x
+.
+
+
+{\displaystyle \beta =ct/x.}
+
+Since
+
+
+
+
+c
+
+2
+
+
+
+t
+
+2
+
+
+−
+
+x
+
+2
+
+
+=
+
+s
+
+2
+
+
+,
+
+
+{\displaystyle c^{2}t^{2}-x^{2}=s^{2},}
+we conclude that
+
+
+
+β
+(
+c
+t
+)
+=
+c
+t
+
+/
+
+
+
+
+c
+
+2
+
+
+
+t
+
+2
+
+
+−
+
+s
+
+2
+
+
+
+
+.
+
+
+{\displaystyle \beta (ct)=ct/{\sqrt {c^{2}t^{2}-s^{2}}}.}
+
+
+
+
+
+γ
+=
+1
+
+/
+
+
+
+1
+−
+
+β
+
+2
+
+
+
+
+=
+
+
+{\displaystyle \gamma =1/{\sqrt {1-\beta ^{2}}}=}
+
+
+
+
+
+
+
+c
+
+2
+
+
+
+t
+
+2
+
+
+−
+
+s
+
+2
+
+
+
+
+
+/
+
+s
+
+
+{\displaystyle {\sqrt {c^{2}t^{2}-s^{2}}}/s}
+
+From the relativistic force law,
+
+
+
+F
+=
+d
+p
+
+/
+
+d
+t
+=
+
+
+{\displaystyle F=dp/dt=}
+
+
+
+
+d
+p
+c
+
+/
+
+d
+(
+c
+t
+)
+=
+d
+(
+β
+γ
+m
+
+c
+
+2
+
+
+)
+
+/
+
+d
+(
+c
+t
+)
+.
+
+
+{\displaystyle dpc/d(ct)=d(\beta \gamma mc^{2})/d(ct).}
+
+Substituting
+
+
+
+β
+(
+c
+t
+)
+
+
+{\displaystyle \beta (ct)}
+from step 2 and the expression for
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+from step 3 yields
+
+
+
+F
+=
+m
+
+c
+
+2
+
+
+
+/
+
+s
+,
+
+
+{\displaystyle F=mc^{2}/s,}
+which is a constant expression.
+Fig. 4‑6 illustrates a specific calculated scenario. Terence (A) and Stella (B) initially stand together 100 light hours from the origin. Stella lifts off at time 0, her spacecraft accelerating at 0.01 c per hour. Every twenty hours, Terence radios updates to Stella about the situation at home (solid green lines). Stella receives these regular transmissions, but the increasing distance (offset in part by time dilation) causes her to receive Terence's communications later and later as measured on her clock, and she never receives any communications from Terence after 100 hours on his clock (dashed green lines).
+After 100 hours according to Terence's clock, Stella enters a dark region. She has traveled outside Terence's timelike future. On the other hand, Terence can continue to receive Stella's messages to him indefinitely. He just has to wait long enough. Spacetime has been divided into distinct regions separated by an apparent event horizon. So long as Stella continues to accelerate, she can never know what takes place behind this horizon.
+Return to Introduction

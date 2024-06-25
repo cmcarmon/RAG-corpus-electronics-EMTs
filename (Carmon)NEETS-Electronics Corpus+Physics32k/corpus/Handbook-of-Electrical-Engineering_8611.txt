@@ -1,0 +1,11 @@
+Figure 87.3 contains a problem for some computers which we alluded to in the discussion of Fig. 87.1. We
+have arranged the bytes to be four in a row as in Fig. 87.1. That is the way that the memory is arranged in two
+of our three machines. (In the 68000, there are only two columns.) A good way to look at the fetch operation
+is that the memory always delivers a whole row and then the processor must acquire the parts that it wants
+and then properly arrange them. (This is the effect if not always the method.) Some processors—the VAX being
+a  conspicuous  example—are  willing  to  undertake  getting  a  longword  by  fetching  two  longwords  and  then
+piecing together the parts that it wants. Others (in our case, the 68000 and the SPARC) are not so accommo-
+dating. Those machines opt for simplicity and speed and require that the program keep its data aligned. To
+use one of those machines, you (or the compiler or assembler) must rearrange Fig. 87.3 by inserting a null byte
+into Fig. 87.2. This modiﬁcation is shown in Fig. 87.4. With this modiﬁcation, all three machines could fetch
+the two numbers in one operation without rearrangement.

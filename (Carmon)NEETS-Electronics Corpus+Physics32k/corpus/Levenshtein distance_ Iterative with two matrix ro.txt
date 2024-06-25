@@ -1,0 +1,4 @@
+It turns out that only two rows of the table are needed for the construction if one does not want to reconstruct the edited input strings (the previous row and the current row being calculated).
+The Levenshtein distance may be calculated iteratively using the following algorithm:
+
+Hirschberg's algorithm combines this method with divide and conquer. It can compute the optimal edit sequence, and not just the edit distance, in the same asymptotic time and space bounds.

@@ -1,0 +1,8 @@
+Resonant-Link DC-DC Converters
+The  use  of  resonant  converter  topologies  would  help  to  reduce  the  switching  losses  in  dc-dc  converters  and
+enable the operation at switching frequencies in the megahertz range. By operating at high frequencies, the size
+of  the  power  supplies  could  be  reduced.  There  are  several  types  of  resonant  converter  topologies.  The  most
+popular conﬁguration is shown in Fig. 30.18. The dc power is converted to high-frequency alternating power
+using the MOSFET half-bridge inverter. The resonant capacitor voltage is transformer-coupled, rectiﬁed using
+the two Schottky diodes, and then ﬁltered to get output dc voltage. The output voltage is regulated by control
+of the inverter switching frequency.

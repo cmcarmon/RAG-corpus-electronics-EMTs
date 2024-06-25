@@ -1,0 +1,248 @@
+Consider a rigid ball of radius
+
+
+
+r
+
+
+{\displaystyle r}
+falling from a height towards a table. Assume that the forces acting on the ball are gravitation and the contact forces of the table preventing penetration. Then the differential equation describing the motion is
+
+
+
+
+m
+
+
+
+
+d
+
+2
+
+
+y
+
+
+d
+
+t
+
+2
+
+
+
+
+
+=
+−
+m
+g
++
+N
+(
+t
+)
+
+
+{\displaystyle m{\frac {d^{2}y}{dt^{2}}}=-mg+N(t)}
+
+where
+
+
+
+m
+
+
+{\displaystyle m}
+is the mass of the ball and
+
+
+
+N
+(
+t
+)
+
+
+{\displaystyle N(t)}
+is the contact force of the table, and
+
+
+
+g
+
+
+{\displaystyle g}
+is the gravitational acceleration. Note that both
+
+
+
+y
+(
+t
+)
+
+
+{\displaystyle y(t)}
+and
+
+
+
+N
+(
+t
+)
+
+
+{\displaystyle N(t)}
+are a priori unknown. While the ball and the table are separated, there is no contact force. There cannot be penetration (for a rigid ball and a rigid table), so
+
+
+
+y
+(
+t
+)
+−
+r
+≥
+0
+
+
+{\displaystyle y(t)-r\geq 0}
+for all
+
+
+
+t
+
+
+{\displaystyle t}
+. If
+
+
+
+y
+(
+t
+)
+−
+r
+>
+0
+
+
+{\displaystyle y(t)-r>0}
+then
+
+
+
+N
+(
+t
+)
+=
+0
+
+
+{\displaystyle N(t)=0}
+. On the other hand, if
+
+
+
+y
+(
+t
+)
+−
+r
+=
+0
+
+
+{\displaystyle y(t)-r=0}
+, then
+
+
+
+N
+(
+t
+)
+
+
+{\displaystyle N(t)}
+can take on any non-negative value. (We do not allow
+
+
+
+N
+(
+t
+)
+<
+0
+
+
+{\displaystyle N(t)<0}
+as this corresponds to some kind of adhesive.) This can be summarized by the complementarity relationship
+
+
+
+
+0
+≤
+y
+(
+t
+)
+−
+r
+
+⊥
+
+N
+(
+t
+)
+≥
+0.
+
+
+{\displaystyle 0\leq y(t)-r\quad \perp \quad N(t)\geq 0.}
+
+In the above formulation, we can set
+
+
+
+K
+=
+{
+
+z
+∣
+z
+≥
+0
+
+}
+
+
+{\displaystyle K=\{\,z\mid z\geq 0\,\}}
+, so that its dual cone
+
+
+
+
+K
+
+∗
+
+
+=
+K
+
+
+{\displaystyle K^{*}=K}
+is also the set of non-negative real numbers; this is a differential complementarity problem.

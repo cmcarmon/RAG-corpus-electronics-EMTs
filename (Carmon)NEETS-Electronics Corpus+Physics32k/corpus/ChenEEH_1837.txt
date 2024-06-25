@@ -1,0 +1,12 @@
+Session Description Protocol
+(Handley and Jacobson, 1998; Garg, 1999), developed
+by IETF, can be used for providing the session description
+functionality (to describe media type and media encoding
+used for that session). It is more of a description syntax
+than a protocol because it does not provide a full-range
+media negotiation capability (this is provided by SIP, as
+discussed in later sections). SDP encodes media descrip-
+tions in simple text format. An SDP message is composed
+of a series of lines, called ﬁelds, whose names are abbre-
+viated by a single lowercase letter and are in a required
+order to facilitate parsing. The ﬁelds are in the form

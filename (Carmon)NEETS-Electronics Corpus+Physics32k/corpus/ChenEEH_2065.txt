@@ -1,0 +1,13 @@
+System behavioral properties can be divided into two major
+categories: safety properties and liveness properties (Manna
+and Pnueli, 1992). Widely accepted formal deﬁnitions of safety
+and liveness properties were given in (Alpern and Schneider,
+1985). A safety property, which is different from the concept
+safeness in Petri net literature (Murata, 1999) needs to hold in
+every state and in every state sequence. The canonical form of a
+safety property is characterized by a temporal formula tuw. A
+liveness property, which is different from the concept transi-
+tion liveness in Petri net literature (Murata, 1989), needs to
+hold in some future state in every state sequence. The canon-
+ical form of a liveness property is characterized by a temporal
+formula }w.

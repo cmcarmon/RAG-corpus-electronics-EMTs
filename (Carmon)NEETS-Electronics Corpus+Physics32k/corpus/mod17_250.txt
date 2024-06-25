@@ -1,0 +1,6 @@
+The beat-frequency oscillator (bfo) is necessary when you want to receive cw signals. Cw signals are
+not modulated with an audio component, you remember, so we must provide one. The action of the rf
+amplifier, mixer, local oscillator, and IF amplifier is the same for both cw and AM; but the cw signal
+reaches the detector as a single frequency signal with no sideband components. To produce an af output,
+you must heterodyne (beat) any cw signal with an rf signal of the proper frequency. This separate signal is
+obtained from an oscillator known as a beat-frequency oscillator.

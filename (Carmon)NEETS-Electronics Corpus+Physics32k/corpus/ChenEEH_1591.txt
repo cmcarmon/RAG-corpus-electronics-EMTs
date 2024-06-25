@@ -1,0 +1,11 @@
+Given a ﬁxed reasoning method, the process of searching
+through alternative solutions can be affected through the
+structuring and ordering of the rules in implementations. For
+example, in production systems, a rule of the form ‘‘if p and q
+and r then s’’ may be interpreted in backward chaining as a
+procedure of four steps: to do s, ﬁrst do p, then do q, then do
+r. Although the procedural interpretation of rules reduces the
+advantages of declarative representation, it can be used to
+reﬂect more efﬁcient heuristic solution strategies. For instance,
+the premises of a rule may be ordered so that the one that is
+most likely to fail or is easiest to be satisﬁed will be tried ﬁrst.

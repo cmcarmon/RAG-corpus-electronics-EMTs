@@ -1,0 +1,8 @@
+An extended form of transparent operation is provided in addressable latches such as the eight-bit 74LS259.
+As well as being able to store successive bits arriving at a single input, D, in the eight addressable latches, using
+a three-bit address, any latch can be selected for output so that the device can also act as a 1-of-8 decoder or
+demultiplexer. Four modes of operation are possible under the control of the  enable and clear inputs. In the
+addressable  latch  mode  the  single-addressed  latch  acts  transparently,  with  all  other  latches  retaining  their
+previous states. When in the memory mode all latches retain their previous states and are unaffected by address
+or data inputs. In the decode mode the output of the addressed latch follows the level at the D input, and in
+the clear mode all outputs are set low.

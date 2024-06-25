@@ -1,0 +1,12 @@
+To data abstraction, object-oriented programming adds the concept of inheritance: From an existing class
+new (sub)classes can be derived by adding additional instance variables and/or methods. Each subclass inherits
+the instance variables and methods of its superclass. This encourages the use of existing code for new purposes.
+With object-oriented programming, classes become the modules of a project. For the most part, the rules
+of hierarchical structuring apply, interfaces should be kept narrow, and nonlocal variables ought to be restricted
+to the instance variables of an object. There are, however, at least two situations, both occurring with modern
+graphical user interfaces, where the strict hierarchical structure is replaced by a structure of mutual referencing.
+Objects—instances of classes—frequently represent visible objects on the screen such as windows, panels,
+menus, or parts thereof. It may now happen that actions (such as mouse clicks) applied to one object inﬂuence
+another  object  and  vice  versa.  For  example,  the  selection  of  an  object,  such  as  a  button  or  a  text  ﬁeld,  may
+launch or modify an inspector panel that, in turn, allows the modiﬁcation of the appearance or function of
+the button or the text ﬁeld (mutual referencing).

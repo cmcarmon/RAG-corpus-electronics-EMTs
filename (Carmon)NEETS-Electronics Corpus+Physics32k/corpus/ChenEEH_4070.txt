@@ -1,0 +1,8 @@
+Figures 2.6 and 2.7 show two ways to eliminate aliasing
+using antialiasing ﬁlters. The analog signal is preﬁltered so
+that the new maximum frequency fm is less than or equal to
+fs=2. Thus, there are no aliasing components seen in Figure 2.6
+0
+because fs > 2f
+m. Eliminating aliasing terms prior to sampling
+is a good engineering practice. When the signal structure is

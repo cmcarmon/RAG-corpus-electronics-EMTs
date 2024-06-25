@@ -1,0 +1,8 @@
+With the availability of edge-triggered D ﬂip-ﬂops and edge-triggered J-K ﬂip-ﬂops in IC packages, a designer
+can choose which ﬂip-ﬂop type to use as the memory devices in the memory section of a synchronous sequential
+logic circuit. Many designers prefer to design with edge-triggered D ﬂip-ﬂops rather than edge-triggered J-K
+ﬂip-ﬂops because D ﬂip-ﬂops are (a) more cost efﬁcient, (b) easier to design with, and (c) more convenient
+since many of the available PAL devices incorporate edge-triggered D ﬂip-ﬂops in the output section of their
+architectures. PAL devices that contain ﬂip-ﬂops in their output section are referred to as registered PALs (or,
+in general, registered PLDs). The synchronous sequential logic circuit shown in Fig. 81.24 using edge-triggered
+D ﬂip-ﬂops functionally performs the same as the circuit in Fig. 81.23.

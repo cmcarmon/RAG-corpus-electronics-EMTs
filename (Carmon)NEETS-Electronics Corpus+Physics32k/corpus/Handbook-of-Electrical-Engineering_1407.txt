@@ -1,0 +1,9 @@
+The  relation  between  signal  classiﬁcation  and  estimation  was  established  in  Kailath  [1969]  for  continuous
+time signals contaminated by additive statistically independent Gaussian white noise. It was shown that min-
+imum probability of error classiﬁcation can be achieved by applying the MAP decision rule to the causal MMSE
+estimator of the clean signal. This interesting theoretical result provides the intuitive basis for a popular approach
+for recognition of noisy speech signals. In this approach, the clean signal or some feature vector of the signal
+is  ﬁrst  estimated  and  then  recognition  is  applied.  In  the  statistical  framework  of  hidden  Markov  modeling,
+however, the direct recognition approach presented earlier is signiﬁcantly simpler since both the clean signal
+and the noisy signal are HMMs [Ephraim, 1992]. Hence, the complexity of recognizing the estimated signal is
+the same as that of recognizing the noisy signal directly.

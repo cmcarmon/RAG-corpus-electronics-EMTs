@@ -1,0 +1,12 @@
+The second complication is that vTH does not step to or from 0 V. Rather it falls from
+5 V to 0.5 V for a falling transition, and rises from 0.5 V to 5 V for a rising transition.
+Because the circuit in Figure 12.37 is linear, we can use the method of superposition to
+decompose this problem into two simpler problems. Accordingly, we will break vTH into
+two component voltage sources connected in series as shown in Figure 12.38. The first
+component, ¯vTH, is constant at 0.5 V. The second component, ˜vTH, steps from 0 V to
+4.5 V for a rising transition, and falls from 4.5 V to 0 V for a falling transition. The circuit
+response to these two components may be superimposed to find the total response. We
+will denote the vC response to ¯vTH by ¯vC, and we will denote the corresponding response
+to ˜vTH by ˜vC. Similarly, we will denote the corresponding iL responses as ¯L and ˜L.
+The circuit response to the constant ¯vTH is most easily determined by observing that
+the capacitor and inductor in Figure 12.37, respectively, behave as an open circuit and a

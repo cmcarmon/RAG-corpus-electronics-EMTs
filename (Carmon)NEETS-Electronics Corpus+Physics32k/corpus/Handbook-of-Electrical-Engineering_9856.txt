@@ -1,0 +1,7 @@
+The basic idea behind lag network design is to reduce the gain at “middle” frequencies such as to reduce the
+crossover frequency to a lower value than for the uncompensated system. If the phase lag is less at this lower
+frequency, then the PM will be increased by use of the lag network. We have seen that is not possible to use a
+lag network in situations in which there is not a frequency where an acceptable PM would exist if this frequency
+were  the  crossover  frequency.  Even  if  use  of  a  lag  network  is  possible,  the  signiﬁcantly  reduced  crossover
+frequency resulting from its use may make the system so slow and sluggish in response to an input that system
+performance is unacceptable even though the relative stability of the system is acceptable.

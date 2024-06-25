@@ -1,0 +1,10 @@
+Multipliers
+Parallel multipliers have more complex structures than parallel
+adders. For example, an array multiplier has Q(n) diagonals of
+linearly connected full adders, where n is the input length in
+bits, whereas the Wallace tree multiplier has a tree structure.
+The trick to applying REMOD to such complex structures is to
+bit-slice them and add some components, if needed, to bit-
+slice i þ 1 so that it can cover bit-slice i. Each bit slice is then
+a cell of the circuit pertaining to the deﬁnition of covering
+and related concepts discussed earlier. Figure 8.3 shows a

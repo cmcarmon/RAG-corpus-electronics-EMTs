@@ -1,0 +1,17 @@
+Additional information pertaining to particular media types
+and compression standards can also be inserted in the RTP
+packets by using proﬁle headers and extensions. Cavusoglu
+et al. (2003) have relied on the information contained in the
+RTP header extensions to provide an adaptive forward error
+correction (FEC) scheme for MPEG-2 video communications
+over RTP networks. This approach relies on the group of pic-
+tures (GOP) sequence and motion information to assign a
+dynamic weight to the video sequence. The ﬂuctuations in the
+weight of the video stream are used to modulate the level of FEC
+assigned to the GOP. Much higher performance is achieved by
+the use of the adaptive FEC scheme in comparison to other
+methods that assign an uneven level of protection to video
+stream. The basic notion presented by the adaptive weight
+assignment procedure presented in Cavusoglu et al. (2003) can
+be employed in other applications such as DiffServ networks and
+selective retransmissions (see discussion on LSP networks later).

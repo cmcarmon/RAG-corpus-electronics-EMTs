@@ -1,0 +1,10 @@
+the Gaussian pulse (i ¼ 90), where S exceeds 1.0, rather than
+along the entirety of the trailing edge. Despite this localization
+of the source of the instability, the noise again grows exponen-
+tially with time-step number n. In this case, the noise propa-
+gates symmetrically in both directions from the unstable point.
+Ultimately, the noise again ﬁlls the entire grid, overwhelms the
+desired numerical results for the propagating Gaussian pulse,
+and causes run-time ﬂoating-point overﬂows.
+Figure 9.11(B) is an expanded view of Figure 9.11(A) be-
+tween grid points i ¼ 70 and i ¼ 110, showing how the calcu-

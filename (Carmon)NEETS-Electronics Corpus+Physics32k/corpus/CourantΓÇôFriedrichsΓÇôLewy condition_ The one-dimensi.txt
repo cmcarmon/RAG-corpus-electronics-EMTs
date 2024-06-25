@@ -1,0 +1,104 @@
+For one-dimensional case, the CFL has the following form:
+
+
+
+
+C
+=
+
+
+
+u
+
+Δ
+t
+
+
+Δ
+x
+
+
+
+≤
+
+C
+
+max
+
+
+
+
+{\displaystyle C={\frac {u\,\Delta t}{\Delta x}}\leq C_{\max }}
+
+where the dimensionless number is called the Courant number,
+
+
+
+
+u
+
+
+{\displaystyle u}
+is the magnitude of the velocity (whose dimension is length/time)
+
+
+
+
+Δ
+t
+
+
+{\displaystyle \Delta t}
+is the time step (whose dimension is time)
+
+
+
+
+Δ
+x
+
+
+{\displaystyle \Delta x}
+is the length interval (whose dimension is length).
+The value of
+
+
+
+
+C
+
+max
+
+
+
+
+{\displaystyle C_{\max }}
+changes with the method used to solve the discretised equation, especially depending on whether the method is explicit or implicit. If an explicit (time-marching) solver is used then typically
+
+
+
+
+C
+
+max
+
+
+=
+1
+
+
+{\displaystyle C_{\max }=1}
+. Implicit (matrix) solvers are usually less sensitive to numerical instability and so larger values of
+
+
+
+
+C
+
+max
+
+
+
+
+{\displaystyle C_{\max }}
+may be tolerated.

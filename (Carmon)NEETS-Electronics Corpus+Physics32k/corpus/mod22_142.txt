@@ -1,0 +1,9 @@
+The arithmetic-logic section performs all arithmetic operations-adding, subtracting, multiplying, and 
+dividing. Through its logic capability, it tests various conditions encountered during processing and takes 
+action based on the result. As indicated by the solid arrows in figure 2-1, data flows between the 
+arithmetic-logic section and the internal storage section during processing. Specifically, data is transferred 
+as needed from the internal storage section to the arithmetic-logic section, processed, and returned to the 
+internal storage section. At no time does processing take place in the storage section. Data may be 
+transferred back and forth between these two sections several times before processing is completed. The 
+results are then transferred from internal storage to an output unit, as indicated by the solid arrow (fig. 
+2-1). 

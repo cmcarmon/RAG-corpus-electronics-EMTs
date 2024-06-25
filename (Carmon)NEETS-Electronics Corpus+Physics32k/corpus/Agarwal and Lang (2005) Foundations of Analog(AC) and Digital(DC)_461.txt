@@ -1,0 +1,12 @@
+e x a m p l e 3.10 f l o a t i n g
+v o l t a g e
+s o u r c e As another example of node analysis applied to a circuit with a floating
+independent voltage source, consider the circuit shown in Figure 3.22. In this circuit, the
+voltage source having value V3 is the only floating independent voltage source. Because
+the source having value V1 is connected to ground at Node 5 it is not a floating source,
+hence Node 1 is labeled with the node voltage V1. Similarly, the source having value V2
+is not a floating source because it is connected to ground through the known voltage
+V1, hence Node 2 is labeled with the known node voltage V1 + V2. Thus, only the
+voltages at Nodes 3 and 4 in the super node are unknown. In Figure 3.22, Node 3 is
+labeled with the unknown node voltage e, and so Node 4 is labeled with the node voltage
+e + V3.

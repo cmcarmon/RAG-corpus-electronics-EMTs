@@ -1,0 +1,33 @@
+The use of a winged launch vehicle allows using lift rather than thrust to overcome gravity, which greatly reduces gravity losses. On the other hand, the reduced gravity losses come at the price of much higher aerodynamic drag and aerodynamic heating due to the need to stay much deeper within the atmosphere than a pure rocket would during the boost phase.
+In order to appreciably reduce the mass of the oxygen carried at launch, a LACE vehicle needs to spend more time in the lower atmosphere to collect enough oxygen to supply the engines during the remainder of the launch. This leads to greatly increased vehicle heating and drag losses, which therefore increases fuel consumption to offset the drag losses and the additional mass of the thermal protection system. This increased fuel consumption offsets somewhat the savings in oxidizer mass; these losses are in turn offset by the higher specific impulse, Isp, of the air-breathing engine. Thus, the engineering trade-offs involved are quite complex, and highly sensitive to the design assumptions made.
+Other issues are introduced by the relative material and logistical properties of LOx versus LH2. LOx is quite cheap; LH2 is nearly two orders of magnitude more expensive. LOx is dense (1.141 kg/L), whereas LH2 has a very low density (0.0678 kg/L) and is therefore very bulky. (The extreme bulkiness of the LH2 tankage tends to increase vehicle drag by increasing the vehicle's frontal area.) Finally, LOx tanks are relatively lightweight and fairly cheap, while the deep cryogenic nature and extreme physical properties of LH2 mandate that LH2 tanks and plumbing must be large and use heavy, expensive, exotic materials and insulation. Hence, much as the costs of using LH2 rather than a hydrocarbon fuel may well outweigh the Isp benefit of using LH2 in a single-stage-to-orbit rocket, the costs of using more LH2 as a propellant and air-liquefaction coolant in LACE may well outweigh the benefits gained by not needing to carry as much LOx on board.
+Most significantly, the LACE system is far heavier than a pure rocket engine having the same thrust (air-breathing engines of almost all types have relatively poor thrust-to-weight ratios compared to rockets), and the performance of launch vehicles of all types is particularly affected by increases in vehicle dry mass (such as engines) that must be carried all the way to orbit, as opposed to oxidizer mass that would be burnt off over the course of the flight. Moreover, the lower thrust-to-weight ratio of an air-breathing engine as compared to a rocket significantly decreases the launch vehicle's maximum possible acceleration, and increases gravity losses since more time must be spent to accelerate to orbital velocity. Also, the higher inlet and airframe drag losses of a lifting, air-breathing vehicle launch trajectory as compared to a pure rocket on a ballistic launch trajectory introduces an additional penalty term
+
+
+
+
+
+1
+
+1
++
+
+
+
+g
+D
+
+
+a
+L
+
+
+
+
+
+
+
+
+{\displaystyle {\frac {1}{1+{\frac {gD}{aL}}}}}
+into the rocket equation known as the air-breather's burden. This term implies that unless the lift-to-drag ratio (L/D) and the acceleration of the vehicle as compared to gravity (a/g) are both implausibly large for a hypersonic air-breathing vehicle, the advantages of the higher Isp of the air-breathing engine and the savings in LOx mass are largely lost.
+Thus, the advantages, or disadvantages, of the LACE design continue to be a matter of some debate.

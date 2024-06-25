@@ -1,0 +1,5 @@
+runs a user program, a.out, from the input ﬁle, inﬁle, then
+writes the result to outﬁle but does it in the background. As
+soon as the command has been typed, the shell displays the
+prompt and is ready to accept and handle the next command.
+Pipelines can also run in the background.

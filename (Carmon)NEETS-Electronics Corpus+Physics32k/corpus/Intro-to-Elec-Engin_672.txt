@@ -1,0 +1,13 @@
+It is the active region beyond pinch-off that is useful for the controlled-source operation, since
+only changes in vGS will produce changes in iD. Figure 7.4.3 illustrates the JFET characteristics.
+Part (a) shows the idealized static characteristics with two regions separated by the dashed line,
+indicating the ohmic (controlled-resistance or triode) region and the active (controlled-source)
+region beyond pinch-off. Note that iD is initially proportional to vDS in the ohmic region where
+the JFET behaves much like a voltage-variable resistance; iD depends on vGS for a given value
+of vDS in the active region. In a practical JFET, however, the curves of iD versus vDS are not
+entirely ﬂat in the active region but tend to increase slightly with vDS, as shown in Figure 7.4.3(b);
+when extended, these curves tend to intersect at a point of −VA on the vDS axis. Another useful
+characteristic indicating the strength of the controlled source is the transfer characteristic, relating
+the drain current iD to the degree of the negative bias vGS applied between gate and source; a cutoff
+region exists, indicated by the pinch-off voltage −VP , for which no drain current ﬂows, because
+both vGS and vDS act to eliminate the conducting channel completely.

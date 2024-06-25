@@ -1,0 +1,7 @@
+Gated agc does not respond to signals that arrive at times other than during the time of a target return
+signal. However, it cannot prevent interference that occurs during the gating period. Neither can gating
+the agc prevent the receiver from overloading because of jamming signal amplitudes far in excess of the
+target return signal. This is because the desired target is gated to set the receiver gain for a signal of that
+particular amplitude. As an aid in preventing radar receiver circuits from overloading during the reception
+of jamming signals, fast-time-constant coupling circuits are used. These circuits connect the video
+detector output to the video amplifier input circuit.

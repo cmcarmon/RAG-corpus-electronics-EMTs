@@ -1,0 +1,9 @@
+The node method begins by ﬁnding all nodes–places where circuit elements attach to each other–in the
+circuit. We call one of the nodes the reference node; the choice of reference node is arbitrary, but it is
+usually chosen to be a point of symmetry or the “bottom” node. For the remaining nodes, we deﬁne node
+voltages en that represent the voltage between the node and the reference. These node voltages constitute
+the only unknowns; all we need is a suﬃcient number of equations to solve for them. In our example, we
+have two node voltages. The very act of deﬁning node voltages is equivalent to using all the KVL
+equations at your disposal. The reason for this simple, but astounding, fact is that a node voltage is
+uniquely deﬁned regardless of what path is traced between the node and the reference. Because two paths
+between a node and reference have the same voltage, the sum of voltages around the loop equals zero.

@@ -1,0 +1,9 @@
+integrating (dual-slope) analog-to-digital converters which give good noise rejection over integer numbers 
+of line cycles. Faster sampling rates for ATE are achieved using successive-approximation or other 
+techniques. User may have to perform averaging as a post-processing step in order to achieve acceptable 
+signal-to-noise ratios.
+Allow sufﬁcient time for transients to settle for both stimulus/response instruments and device under test.
+Automatic measurements can produce large arrays of data at high speeds. Actual throughput to a hard disk 
+may be much less than the maximum sampling rate of a data acquisition element (plug-in board, external 
+instrument).
+Choices between free-running, external, and internal.

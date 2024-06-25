@@ -1,0 +1,9 @@
+Voltage Source Inverter
+A three-phase voltage source inverter conﬁguration is shown in Fig. 30.13(a). The VSIs are controlled either
+in square-wave mode or in pulsewidth-modulated (PWM) mode. In square-wave mode, the frequency of the
+output voltage is controlled within the inverter, the devices being used to switch the output circuit between
+the plus and minus bus. Each device conducts for 180 degrees, and each of the outputs is displaced 120 degrees
+to generate a six-step waveform, as shown in Fig. 30.13(b). The amplitude of the output voltage is controlled
+by varying the dc link voltage. This is done by varying the ﬁring angle of the thyristors of the three-phase bridge
+converter at the input. The square-wave-type VSI is not suitable if the dc source is a battery. The six-step output
+voltage is rich in harmonics and thus needs heavy ﬁltering.

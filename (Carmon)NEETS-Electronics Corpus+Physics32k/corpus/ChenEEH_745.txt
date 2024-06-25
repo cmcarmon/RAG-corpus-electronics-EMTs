@@ -1,0 +1,27 @@
+In data-transfer intensive applications, a very high peak band-
+width to the background memories is needed. Spreading out
+the data transfers over time, as discussed in Subsection 2.5.1,
+helps to alleviate this problem, but the required bandwidth can
+still be high. The high-speed memory required to meet this
+bandwidth is a very important energy consumer and takes
+up much of the chip or board area (implying a higher manu-
+facturing or assembly cost). In addition, purchasing a high-
+performance memory component
+times more
+expensive than a slower memory designed with older technol-
+ogy. The memory organization cost can be heavily reduced if it
+is possible to customize the memory architecture itself. Instead
+of having a single memory operating at high speed, it is better
+in terms of energy consumption, for example, to have two or
+more memories that can be accessed in parallel. Moreover, for
+embedded instruction-set processors, a partly customized
+memory architecture is possible: the processor core can be
+combined with one or more SRAMs or embedded DRAMs
+on the chip, and different conﬁgurations of the off-chip mem-
+ories can also be explored. Although an instruction-set proces-
+sor usually has only a single bus to connect with these
+memories, the clock frequency of the processor and the bus
+is often much higher than that of the memories, thus, the
+accesses to different memories can be interleaved over the bus.
+An example of the impact of a custom memory organization
+is shown in Table 2.3 for the BTPC application introduced in

@@ -1,0 +1,61 @@
+In general, the shooter will have a table of bullet heights with respect to the LOS versus horizontal distance. Historically, this table has been referred to as a "drop table." The drop table can be generated empirically using data taken by the shooter at a rifle range; calculated using a ballistic simulator; or is provided by the rifle/cartridge manufacturer. The drop values are measured or calculated assuming the rifle has been zeroed at a specific range. The bullet will have a drop value of zero at the zero range. Table 1 gives a typical example of a drop table for a rifle zeroed at 100 meters.
+Table 1: Example Bullet Drop Table
+If the shooter is engaging a target on an incline and has a properly zeroed rifle, the shooter goes through the following procedure:
+Determine the slant range to the target (measurement can be performed using various forms of range finders, e.g. laser rangefinder)
+Determine the elevation angle of the target (measurement can be made using various devices, e.g. sight attached unit)
+Apply the "rifleman's rule" to determine the equivalent horizontal range (
+
+
+
+
+R
+
+H
+
+
+=
+
+R
+
+S
+
+
+cos
+⁡
+(
+α
+)
+
+
+{\displaystyle R_{H}=R_{S}\cos(\alpha )}
+)
+Use the bullet drop table to determine the bullet drop over that equivalent horizontal range (interpolation is likely to be required)
+Compute the bore angle correction that is to be applied to the sight. The correction is computed using the equation
+
+
+
+
+
+angle correction
+
+
+=
+−
+
+
+
+bullet drop
+
+
+R
+
+H
+
+
+
+
+
+
+{\displaystyle {\mbox{angle correction}}=-{\frac {\mbox{bullet drop}}{R_{H}}}}
+(in radians).
+Adjust the bore angle by the angle correction.

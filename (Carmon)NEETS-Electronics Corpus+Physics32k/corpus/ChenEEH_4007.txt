@@ -1,0 +1,14 @@
+. A CORDIC arithmetic processor performing polar to
+Cartesian coordinate transformation is
+reported by
+Andraka (1998). The 52-MHz CORDIC processor fea-
+tures pipelined 14-bit 5 iterations per transformation
+and occupies only 50% of a Xilinx XC4013E-2 FPGA.
+. An 8  8-pixel 2-D discrete cosine transform (DCT) im-
+plementation is reported (Woods et al., 1996). The 2-D
+DCT is separated into two passes of 1-D DCT, each
+consisting of bit-serial arithmetic 12 multipliers and 32
+adders/subtractors. The 2-D DCT consumes about 70%
+of a Xilinx XC6216 FPGA. At maximum clock frequency
+of 38 MHz, it can achieve 30 frames/second at 720  480
+pixels.

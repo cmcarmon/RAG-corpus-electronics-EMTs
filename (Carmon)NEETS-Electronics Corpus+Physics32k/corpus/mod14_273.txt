@@ -1,0 +1,7 @@
+In view B, gate 3 has been changed to an AND gate. The outputs of gates 1 and 2 do not change, but
+the output expression of gate 3 does. In this case, the gate 3 output expression is (R+S)(T+V). This
+expression is spoken, "quantity R OR S AND quantity T OR V." The parentheses are used to separate the
+input terms and to indicate the AND function. Without the parentheses the output expression would read
+R+ST+V, which is representative of the circuit in view C. As you can see, this is not the same circuit as
+the one depicted in view B. It is very important that the Boolean expressions be written and spoken
+correctly.

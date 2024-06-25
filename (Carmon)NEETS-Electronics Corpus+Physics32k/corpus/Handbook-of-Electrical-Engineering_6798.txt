@@ -1,0 +1,12 @@
+Other Services
+For alternate billing services, the SCP is essentially designed to perform two functions: carrier identiﬁcation
+and billing authorization. For 800 Service, the SCP provides carrier identiﬁcation and address translation. These
+basic functions of authorization, address translation and carrier identiﬁcation can be used again and again in
+many different ways. For example, the intelligent network has been used to support private virtual networks
+(PVNs). PVNs make use of the public telephone network but, by means of software control, appear to have
+the characteristics of private networks. A PVN serves a closed-user group, and a caller requires authorization
+to  gain  access  to  the  network.  This  screening  function  on  originating  calls  uses  an  authorization  function.
+Second, a PVN may offer an abbreviated dialing plan, for example, four-digit dialing. In this instance, the SCP
+performs an address translation function, converting a four-digit number to a ten-digit POTS number. There
+may also be a customer-speciﬁed routing information function which involves selecting from a hierarchy of
+facilities; this can be accomplished through use of the SCP carrier identiﬁcation function.

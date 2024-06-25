@@ -1,0 +1,10 @@
+13. To ‘assert’ is to set the value to a logical 1, while to ‘de-assert’ is to set the value to a logical 0.
+14. Our circuit shown in Figure 10.51 has one other problem. How do the lights turn off? It
+should be apparent from the circuit that L will go back to 0 when motion is detected during the
+daytime. However, relying on the appearance of signal M during the daytime to turn off the lights is
+unappealing. One solution is to modify our memory abstraction to include a reset signal as follows:
+The value in memory is set to 0 when the reset input is high. (Our memory abstraction can include
+the additional property that the reset signal overrides the store signal if both are on at the same
+time.) Our motion detector circuit output L can now be turned off by asserting the reset signal of
+the memory. The reset terminal of memory can be connected to the signal D so that the memory
+contents and therefore the lights go off whenever it is day.

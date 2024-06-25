@@ -1,0 +1,18 @@
+speech system. Tube models and their differential equations of
+wave propagation proved to be remarkably useful tools in
+understanding the speech production system. Although the
+prevailing DT ‘‘all-pole’’ model of speech production was not
+derived directly from the acoustic tube theory, important in-
+sights and interpretations of the DT model have been obtained
+from classical theory (Deller, 2000; Rabiner and Schafer, 1978).
+A general linear, time-invariant DT model for speech produc-
+tion is shown in the block-diagram form in Figure 3.4. The model
+is a terminal analog, and it is understood to represent only short
+intervals of speech over which signal dynamics are assumed to be
+stationary. Frequent updating or adaptation of model param-
+eters is necessary to properly model the quickly time-varying
+nature of speech. With this caveat, such a system produces
+reasonable quality speech for coding and synthesis purposes
+and serves as a useful analysis model for recognition and related
+tasks, in spite of the fact that there are no provisions for coupling
+or nonlinear effects among subsystems in the model.

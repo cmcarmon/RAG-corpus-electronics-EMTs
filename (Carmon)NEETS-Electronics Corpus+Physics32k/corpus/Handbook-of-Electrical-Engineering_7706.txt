@@ -1,0 +1,9 @@
+The connection pathway between the host and the disk device varies widely depending on the desired level
+of performance. A low-end workstation or personal computer would use a SCSI interface to directly connect the
+device to the host. A higher end ﬁle server or minicomputer would typically use a separate disk controller to
+manage several devices at the same time. These devices attach to the controller through SMD interfaces. It is the
+controller’s responsibility to implement error checking and corrections and direct memory transfer to the host.
+Mainframes tend to have more devices and more complex interconnection schemes to access them. In IBM
+, i.e., the set of cables and associated electronics that
+storage
+ (see Fig. 80.12). The collection of disks that share the same pathway to the head

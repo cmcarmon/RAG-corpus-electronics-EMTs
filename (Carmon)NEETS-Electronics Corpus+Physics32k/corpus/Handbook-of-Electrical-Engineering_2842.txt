@@ -1,0 +1,18 @@
+Step  2  in  the  SMT  process  is  to  deﬁne  all  the  footprints  of  the  SMDs  under  consideration  for  use  in  the
+design. The footprint is the copper pattern or “land”, on the circuit board upon which the SMD will be placed.
+Footprint examples are shown in Figs. 26.5a and 26.5b, and footprint recommendations are available from IC
+manufacturers and in the appropriate data books. They are also available in various ECAD packages used for
+the design process, or in several references that include an overview of the SMT process [Electronic Packaging
+and  Production,  1994].  However,  the  reader  is  seriously  cautioned  about  using  the  general  references  for
+anything other than the most common passive and active packages. Even the position of pin 1 may be different
+among  IC  manufacturers  of  the “same”  chip.  The  footprint  deﬁnition  may  also  include  the  position  of  the
+solder resist pattern surrounding the copper pattern. Footprint deﬁnition sizing will vary depending on whether
+reﬂow or wave solder process is used. Wave solder footprints will require recognition of the direction of travel
+of  the  board  through  the  wave,  to  minimize  solder  shadowing  in  the  ﬁnal  ﬁllet,  as  well  as  requirements  for
+solder thieves. The copper footprint must allow for the formation of an appropriate, inspectable solder ﬁllet.
+If done as part of the EDA process (electronic design automation, using appropriate electronic CAD software),
+the software will automatically assign copper directions to each component footprint, as well as appropriate
+coordinates and dimensions. These may need adjustment based on considerations related to wave soldering,
+test points, RF and/or power issues, and board production limitations. Allowing the software to select 5 mil
+traces when the board production facility to be used can only reliably do 10 mil traces would be inappropriate.
+Likewise, the solder resist patterns must be governed by the production capabilities.

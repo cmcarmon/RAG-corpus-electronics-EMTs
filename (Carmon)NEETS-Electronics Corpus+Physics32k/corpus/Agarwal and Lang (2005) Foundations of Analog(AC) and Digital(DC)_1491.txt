@@ -1,0 +1,7 @@
+As a simple exercise, let us determine the greatest fanout degree that will
+support a clock frequency of 333 MHz. Let us suppose the clock signal is driven
+by an inverter as shown in Figure 10.45. Let us characterize the clock driver
+inverter by RL = 1 k, RON = 100 , and CGS = 100 fF. Let us also assume
+that we desire a symmetric clock. Thus the clock period T must be greater than
+twice the greater of the rise and fall times at the output of the inverter. Since the
+load resistance RL is much bigger than the ON resistance of the MOSFET, the

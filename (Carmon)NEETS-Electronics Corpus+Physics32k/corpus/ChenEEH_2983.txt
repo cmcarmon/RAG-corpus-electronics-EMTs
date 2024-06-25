@@ -1,0 +1,15 @@
+Since small-signal S-parameters are almost always operated
+in large-signal mode, they are typically not sufﬁcient to en-
+sure an accurate design. Other techniques include load-pull
+to determine optimal terminations or large-signal models,
+which are often available from the manufacturer or built into
+popular microwave CAD tools. The most common ﬁgure of
+merit for a microwave power transistor is the 1-dB compres-
+sion point, a measure of the power-handling capabilities of the
+transistor. This is deﬁned as the power where the saturation of
+the transistor reduces the power gain of the transistor by 1 dB
+from the small-signal power gain. This is graphically illustrated
+in Figure 11.9. The dynamic range is the range of linear
+performance that the ampliﬁer provides measured from the
+minimal detectable output signal at the noise power level to
+the 1-dB compression point, P1 dB.

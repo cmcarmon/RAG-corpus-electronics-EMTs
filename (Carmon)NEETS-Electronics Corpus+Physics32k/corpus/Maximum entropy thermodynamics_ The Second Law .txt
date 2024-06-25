@@ -1,0 +1,64 @@
+According to Liouville's theorem for Hamiltonian dynamics, the hyper-volume of a cloud of points in phase space remains constant as the system evolves. Therefore, the information entropy must also remain constant, if we condition on the original information, and then follow each of those microstates forward in time:
+
+
+
+
+Δ
+
+S
+
+I
+
+
+=
+0
+
+
+
+{\displaystyle \Delta S_{I}=0\,}
+
+However, as time evolves, that initial information we had becomes less directly accessible. Instead of being easily summarisable in the macroscopic description of the system, it increasingly relates to very subtle correlations between the positions and momenta of individual molecules. (Compare to Boltzmann's H-theorem.) Equivalently, it means that the probability distribution for the whole system, in 6N-dimensional phase space, becomes increasingly irregular, spreading out into long thin fingers rather than the initial tightly defined volume of possibilities.
+Classical thermodynamics is built on the assumption that entropy is a state function of the macroscopic variables—i.e., that none of the history of the system matters, so that it can all be ignored.
+The extended, wispy, evolved probability distribution, which still has the initial Shannon entropy STh(1), should reproduce the expectation values of the observed macroscopic variables at time t2. However it will no longer necessarily be a maximum entropy distribution for that new macroscopic description. On the other hand, the new thermodynamic entropy STh(2) assuredly will measure the maximum entropy distribution, by construction. Therefore, we expect:
+
+
+
+
+
+
+
+S
+
+T
+h
+
+
+
+
+(
+2
+)
+
+
+≥
+
+
+
+S
+
+T
+h
+
+
+
+
+(
+1
+)
+
+
+
+
+{\displaystyle {S_{Th}}^{(2)}\geq {S_{Th}}^{(1)}}
+
+At an abstract level, this result implies that some of the information we originally had about the system has become "no longer useful" at a macroscopic level. At the level of the 6N-dimensional probability distribution, this result represents coarse graining—i.e., information loss by smoothing out very fine-scale detail.

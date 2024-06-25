@@ -1,0 +1,19 @@
+Early work on transient stability had concentrated on the reaction of one synchronous machine coupled to
+a very large system through a transmission line. The large system can be assumed to be inﬁnite with respect
+to the single machine and hence can be modeled as a pure voltage source. The synchronous machine is modeled
+by the three phase windings of the stator plus windings on the rotor representing the ﬁeld winding and the
+eddy current paths. These are resolved into two axes, one in line with the direct axis of the rotor and the other
+(cid:176)
+in line with the quadrature axis situated 90
+ (electrical) from the direct axis. The ﬁeld winding is on the direct
+axis. Equations can be developed which determine the voltage in any winding depending on the current ﬂows
+in all the other windings. A full set of differential equations can be produced which allows the response of the
+machine to various electrical disturbances to be found. The variables must include rotor angle and rotor speed
+which can be evaluated from a knowledge of the power from the turbine into, and power to the system out of
+the machine. The great disadvantage with this type of analysis is that the rotor position is constantly changing
+as it rotates. As most of the equations involve trigonometrical functions relating to stator and rotor windings,
+the matrices must be constantly reevaluated. In the most severe cases of network faults the results, once the dc
+transients decay, are balanced. Further, on removal of the fault the network is considered to be balanced. There
+is thus much computational effort involved in obtaining detailed information for each of the three phases which
+is of little value to the power system engineer. By contrast, this type of analysis is very important to machine
+designers. However, programs have been written for multi-machine systems using this method.

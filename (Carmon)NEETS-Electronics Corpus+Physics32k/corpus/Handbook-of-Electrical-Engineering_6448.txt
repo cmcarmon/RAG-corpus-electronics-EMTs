@@ -1,0 +1,10 @@
+For  FFH,  where  Rc  =  Rh,  the  spacing  between  FH/MFSK  tones  is  equal  to  the  hop  rate.  Thus,  the  entire
+spread spectrum band is partitioned into a total of Nt = Wss/Rh = Wss/Rc equally spaced FH tones, each of which
+is assigned to a unique k-tuple of the PN code generator that drives the frequency synthesizer. Since for FFH
+there are Rh/Rs hops per symbol, then the metric used to make a noncoherent decision on a particular symbol
+is obtained by summing up Rh/Rs detected chip (hop) energies, resulting in a so-called noncoherent combining loss.
+Time Hopping Modulation
+Time hopping (TH) is to spread spectrum modulation what pulse position modulation (PPM) is to information
+modulation. In particular, consider segmenting time into intervals of Tf seconds and further segment each Tf
+interval into MT increments of width Tf /MT. Assuming a pulse of maximum duration equal to Tf /MT, then a
+time hopping spread spectrum modulation would take the form

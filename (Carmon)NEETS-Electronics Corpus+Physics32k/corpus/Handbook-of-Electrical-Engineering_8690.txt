@@ -1,0 +1,5 @@
+Address error: An exception (error interrupt) caused by a program’s attempt to access unaligned words or
+longwords  on  a  processor  which  does  not  accommodate  such  requests.  The  address  error  is  detected
+within the CPU. This contrasts with problems which arise in accessing the memory itself, where a logic
+circuit  external  to  the  CPU  itself  must  detect  and  signal  the  error  to  cause  the  CPU  to  process  the
+exception. Such external problems are called bus errors.

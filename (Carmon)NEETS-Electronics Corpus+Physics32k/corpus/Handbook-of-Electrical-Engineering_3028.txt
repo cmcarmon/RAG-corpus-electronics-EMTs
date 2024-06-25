@@ -1,0 +1,13 @@
+The  theory  of  ﬁlter  synthesis,  whether  active  or  passive,  involves  the  determination  of  a  suitable  circuit
+topology and the computation of the circuit component values within the topology, such that a required network
+response  is  obtained.  This  response  is  most  commonly  a  voltage  transfer  function  (VTF)  speciﬁed  in  the
+frequency domain. Circuit analysis will allow the performance of a ﬁlter to be evaluated, and this can be done
+by obtaining the VTF,
+s
+, the complex frequency variable. The
+poles
+ of a VTF correspond to the roots of its denominator polynomial. It was established early in the history
+of  ﬁlter  theory  that  a  network  capable  of  yielding  complex-conjugate  transfer  function  (TF)  pole-pairs  is
+required  to  achieve  high  selectivity.  A  highly  selective  network  is  one  that  gives  a  rapid  transition  between
+passband and stopband regions of the frequency response. Figure 29.1(a) gives an example of a passive low-
+pass LCR ladder network capable of producing a VTF with the necessary pole pattern.

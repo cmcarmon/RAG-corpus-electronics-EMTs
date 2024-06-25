@@ -1,0 +1,13 @@
+Another application is modeling. When we buy a ﬂashlight battery, either equivalent circuit can accu-
+rately describe it. These models help us understand the limitations of a battery. Since batteries are labeled
+with a voltage speciﬁcation, they should serve as voltage sources and the Thévenin equivalent serves as the
+natural choice. If a load resistance RL is placed across its terminals, the voltage output can be found using
+veq. If we have a load resistance much larger than the battery’s equivalent
+voltage divider: v =
+resistance, then, to a good approximation, the battery does serve as a voltage source. If the load resistance
+is much smaller, we certainly don’t have a voltage source (the output voltage depends directly on the load
+resistance). Consider now the Mayer-Norton equivalent; the current through the load resistance is given by
+current divider, and equals i = −
+ieq. For a current that does not vary with the load resistance,
+this resistance should be much smaller than the equivalent resistance. If the load resistance is comparable
+to the equivalent resistance, the battery serves neither as a voltage source or a current course. Thus, when

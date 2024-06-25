@@ -1,0 +1,12 @@
+Integrating SYY(w) = (1/[1 +  w 2R2C 2])SWW(w) over all radian frequencies w = 2pf [see Eq. (73.21)], we obtain
+the antiderivative (828 3 10–17)(1/RC)atan(RCw)/2p. Upon substituting the limits w = –‘, this becomes 828 3
+10–17[p/2 + p/2]/2pRC = 414 3 10–17(1/2RC) = 207 3 10–17 3 106 = 2070 3 10–12 W/Hz. Then s
+2 = E[Y(t)2] =
+Y
+PYY(–‘,‘)  =  2070  3  10–12  W,  so  Yrms(t)  =  s
+Y  =  [PYY(–‘,‘)]1/2  =  45.5  mV.  The  half-power  (cut-off)  radian
+frequency is wc = 1/RC = 106 rad/s, or fc = wc /2p = 159.2 kHz. Approximating SYY(w) by the rectangular spectrum
+SYY(w) = no, –106 < w < 106 rad/s (0 elsewhere), we have that RYY(t) = (wc /p)sinc(wc
+t), which has the ﬁrst zeros
+tu = p, that is utu = 1/(2fc) [see Fig. 73.4(b)]. We approximate the autocorrelation by RYY(t) = 0 for usu ‡ 1/2fc .
+at uwc

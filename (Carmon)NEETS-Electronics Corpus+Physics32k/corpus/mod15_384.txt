@@ -1,0 +1,6 @@
+An accelerometer is sensitive to gravity when its sensing axis is positioned so gravity can move or 
+attempt to move the mass. This is useful in that we can use gravity as a reference for testing purposes, but 
+it can be a serious problem because of the errors it may cause in acceleration measurements.  If the unit is 
+placed with the sensing axis vertical, the mass will be displaced such that the output is one "G," or one 
+unit of gravity. This is done during testing. Then when the sensitive axis is turned so it is horizontal to the 
+Earth, the springs center the mass, and the output of the unit is zero. 

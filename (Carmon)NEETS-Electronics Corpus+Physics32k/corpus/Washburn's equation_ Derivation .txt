@@ -1,0 +1,428 @@
+The simplified Washburn's equation is
+
+
+
+
+
+L
+
+2
+
+
+=
+
+
+
+γ
+D
+t
+cos
+⁡
+(
+ϕ
+)
+
+
+4
+η
+
+
+
+
+
+{\displaystyle L^{2}={\frac {\gamma Dt\cos(\phi )}{4\eta }}}
+
+where
+
+
+
+t
+
+
+{\displaystyle t}
+is the time for a liquid of dynamic viscosity
+
+
+
+η
+
+
+{\displaystyle \eta }
+and surface tension
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+to penetrate a distance
+
+
+
+L
+
+
+{\displaystyle L}
+into the capillary whose pore diameter is
+
+
+
+D
+
+
+{\displaystyle D}
+. The contact angle between liquid and solid is
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+. In case of a porous materials many issues have been raised both about the physical meaning of the calculated pore diameter
+
+
+
+D
+
+
+{\displaystyle D}
+and the real possibility to use this equation for the calculation of the contact angle of the solid. The equation is derived for capillary flow in a cylindrical tube in the absence of a gravitational field, but is sufficiently accurate in many cases when the capillary force is still significantly greater than the gravitational force.
+In his paper from 1921 Washburn applies Poiseuille's Law for fluid motion in a circular tube. Inserting the expression for the differential volume in terms of the length
+
+
+
+l
+
+
+{\displaystyle l}
+of fluid in the tube
+
+
+
+d
+V
+=
+π
+
+r
+
+2
+
+
+d
+l
+
+
+{\displaystyle dV=\pi r^{2}dl}
+, one obtains
+
+
+
+
+
+
+
+δ
+l
+
+
+δ
+t
+
+
+
+=
+
+
+
+∑
+P
+
+
+8
+
+r
+
+2
+
+
+η
+l
+
+
+
+(
+
+r
+
+4
+
+
++
+4
+ϵ
+
+r
+
+3
+
+
+)
+
+
+{\displaystyle {\frac {\delta l}{\delta t}}={\frac {\sum P}{8r^{2}\eta l}}(r^{4}+4\epsilon r^{3})}
+
+where
+
+
+
+∑
+P
+
+
+{\displaystyle \sum P}
+is the sum over the participating pressures, such as the atmospheric pressure
+
+
+
+
+P
+
+A
+
+
+
+
+{\displaystyle P_{A}}
+, the hydrostatic pressure
+
+
+
+
+P
+
+h
+
+
+
+
+{\displaystyle P_{h}}
+and the equivalent pressure due to capillary forces
+
+
+
+
+P
+
+c
+
+
+
+
+{\displaystyle P_{c}}
+.
+
+
+
+η
+
+
+{\displaystyle \eta }
+is the viscosity of the liquid, and
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+is the coefficient of slip, which is assumed to be 0 for wetting materials.
+
+
+
+r
+
+
+{\displaystyle r}
+is the radius of the capillary. The pressures in turn can be written as
+
+
+
+
+
+P
+
+h
+
+
+=
+h
+g
+ρ
+−
+l
+g
+ρ
+sin
+⁡
+ψ
+
+
+{\displaystyle P_{h}=hg\rho -lg\rho \sin \psi }
+
+
+
+
+
+
+P
+
+c
+
+
+=
+
+
+
+2
+γ
+
+r
+
+
+cos
+⁡
+ϕ
+
+
+{\displaystyle P_{c}={\frac {2\gamma }{r}}\cos \phi }
+
+where
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+is the density of the liquid and
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+its surface tension.
+
+
+
+ψ
+
+
+{\displaystyle \psi }
+is the angle of the tube with respect to the horizontal axis.
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+is the contact angle of the liquid on the capillary material. Substituting these expressions leads to the first-order differential equation for the distance the fluid penetrates into the tube
+
+
+
+l
+
+
+{\displaystyle l}
+:
+
+
+
+
+
+
+
+δ
+l
+
+
+δ
+t
+
+
+
+=
+
+
+
+[
+
+P
+
+A
+
+
++
+g
+ρ
+(
+h
+−
+l
+sin
+⁡
+ψ
+)
++
+
+
+
+2
+γ
+
+r
+
+
+cos
+⁡
+ϕ
+]
+(
+
+r
+
+4
+
+
++
+4
+ϵ
+
+r
+
+3
+
+
+)
+
+
+8
+
+r
+
+2
+
+
+η
+l
+
+
+
+
+
+{\displaystyle {\frac {\delta l}{\delta t}}={\frac {[P_{A}+g\rho (h-l\sin \psi )+{\frac {2\gamma }{r}}\cos \phi ](r^{4}+4\epsilon r^{3})}{8r^{2}\eta l}}}

@@ -1,0 +1,3 @@
+The ﬁrst instruction does the frame making; the second does the saving of registers. There are multiple steps
+in  each.  Each  double  step  of  decrementing  SP  and  moving  a  value  onto  the  stack  will  be  called  a push.  The
+steps are as follows:

@@ -1,0 +1,16 @@
+Associative Processor
+Associative memories, also known as content-addressable memories, retrieve information on the basis of data
+content rather than addresses. An associative memory performs comparison (i.e., exclusive-OR or equivalence)
+operations at its bit level. The results of the comparison on a group of bits in a word for all words in the memory
+are transmitted to a register called a response register or ﬂag. In addition, there are circuits such as multiple
+match resolver, enable/disable register, a number of temporary registers, as well as appropriate logic gates for
+arithmetic capabilities are
+resolving multiple responses and information retrieval. For 
+added to this unit. The unit can be viewed as consisting of a number of bit-serial PEs. Furthermore, the bit-
+level  logic  is  moved  out  of  the  memory  so  that  the  memory  part  of  the  processor  consists  of  a  number  of
+random-access memories called word modules. A typical associative processor is shown in Fig. 95.5. STARAN
+and  MPP  (Fig.  95.2)  are  representative  of  this  bit-serial,  word-parallel  SIMD  organization.  In  Fig.  95.5  the
+common register is where the common operand is stored and the mask register deﬁnes the bit positions requiring
+operation. The enable/disable register provides local control of individual PEs. Because of its simplicity in design
+the per-PE cost of an associative processor is much lower, but the bit-serial operations slow down the system
+drastically. To compensate for this, these systems are useful only for applications requiring a large number of PEs.

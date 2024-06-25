@@ -1,0 +1,9 @@
+Norton and Thévenin equivalents are particularly useful because often the two
+parameters are easy to find, as a consequence of the strong circuit constraints
+imposed as shown in Figures 3.55 and 3.75. This is best illustrated by an
+example. Suppose we are given the network in Figure 3.89a, and are asked to
+find the voltage across R3 for a number of different values of R3. We could just
+solve the whole network for each value of R3, but a simpler approach is to find
+the Thévenin equivalent of the network driving R3, that is, the network to the
+left of the points x x. For clarity in this first example, we abstract this portion
+of the network in Figure 3.89b.

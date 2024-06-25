@@ -1,0 +1,356 @@
+We first construct the Nyquist contour, a contour that encompasses the right-half of the complex plane:
+a path traveling up the
+
+
+
+j
+ω
+
+
+{\displaystyle j\omega }
+axis, from
+
+
+
+0
+−
+j
+∞
+
+
+{\displaystyle 0-j\infty }
+to
+
+
+
+0
++
+j
+∞
+
+
+{\displaystyle 0+j\infty }
+.
+a semicircular arc, with radius
+
+
+
+r
+→
+∞
+
+
+{\displaystyle r\to \infty }
+, that starts at
+
+
+
+0
++
+j
+∞
+
+
+{\displaystyle 0+j\infty }
+and travels clock-wise to
+
+
+
+0
+−
+j
+∞
+
+
+{\displaystyle 0-j\infty }
+.
+The Nyquist contour mapped through the function
+
+
+
+1
++
+G
+(
+s
+)
+
+
+{\displaystyle 1+G(s)}
+yields a plot of
+
+
+
+1
++
+G
+(
+s
+)
+
+
+{\displaystyle 1+G(s)}
+in the complex plane. By the Argument Principle, the number of clock-wise encirclements of the origin must be the number of zeros of
+
+
+
+1
++
+G
+(
+s
+)
+
+
+{\displaystyle 1+G(s)}
+in the right-half complex plane minus the poles of
+
+
+
+1
++
+G
+(
+s
+)
+
+
+{\displaystyle 1+G(s)}
+in the right-half complex plane. If instead,
+the contour is mapped through the open-loop transfer function
+
+
+
+G
+(
+s
+)
+
+
+{\displaystyle G(s)}
+, the result is the Nyquist Plot of
+
+
+
+G
+(
+s
+)
+
+
+{\displaystyle G(s)}
+. By counting the resulting contour's encirclements of -1, we find the difference between the number of poles and zeros in the right-half complex plane of
+
+
+
+1
++
+G
+(
+s
+)
+
+
+{\displaystyle 1+G(s)}
+. Recalling that the zeros of
+
+
+
+1
++
+G
+(
+s
+)
+
+
+{\displaystyle 1+G(s)}
+are the poles of the closed-loop system, and noting that the poles of
+
+
+
+1
++
+G
+(
+s
+)
+
+
+{\displaystyle 1+G(s)}
+are same as the poles of
+
+
+
+G
+(
+s
+)
+
+
+{\displaystyle G(s)}
+, we now state The Nyquist Criterion:
+
+Given a Nyquist contour
+
+
+
+
+Γ
+
+s
+
+
+
+
+{\displaystyle \Gamma _{s}}
+, let
+
+
+
+P
+
+
+{\displaystyle P}
+be the number of poles of
+
+
+
+G
+(
+s
+)
+
+
+{\displaystyle G(s)}
+encircled by
+
+
+
+
+Γ
+
+s
+
+
+
+
+{\displaystyle \Gamma _{s}}
+, and
+
+
+
+Z
+
+
+{\displaystyle Z}
+be the number of zeros of
+
+
+
+1
++
+G
+(
+s
+)
+
+
+{\displaystyle 1+G(s)}
+encircled by
+
+
+
+
+Γ
+
+s
+
+
+
+
+{\displaystyle \Gamma _{s}}
+. Alternatively, and more importantly,
+
+
+
+Z
+
+
+{\displaystyle Z}
+is the number of poles of the closed loop system in the right half plane. The resultant contour in the
+
+
+
+G
+(
+s
+)
+
+
+{\displaystyle G(s)}
+-plane,
+
+
+
+
+Γ
+
+G
+(
+s
+)
+
+
+
+
+{\displaystyle \Gamma _{G(s)}}
+shall encircle (clock-wise) the point
+
+
+
+(
+−
+1
++
+j
+0
+)
+
+
+{\displaystyle (-1+j0)}
+
+
+
+
+N
+
+
+{\displaystyle N}
+times such that
+
+
+
+N
+=
+Z
+−
+P
+
+
+{\displaystyle N=Z-P}
+.
+
+If the system is originally open-loop unstable, feedback is necessary to stabilize the system. Right-half-plane (RHP) poles represent that instability. For closed-loop stability of a system, the number of closed-loop roots in the right half of the s-plane must be zero. Hence, the number of counter-clockwise encirclements about
+
+
+
+−
+1
++
+j
+0
+
+
+{\displaystyle -1+j0}
+must be equal to the number of open-loop poles in the RHP. Any clockwise encirclements of the critical point by the open-loop frequency response (when judged from low frequency to high frequency) would indicate that the feedback control system would be destabilizing if the loop were closed. (Using RHP zeros to "cancel out" RHP poles does not remove the instability, but rather ensures that the system will remain unstable even in the presence of feedback, since the closed-loop roots travel between open-loop poles and zeros in the presence of feedback. In fact, the RHP zero can make the unstable pole unobservable and therefore not stabilizable through feedback.)

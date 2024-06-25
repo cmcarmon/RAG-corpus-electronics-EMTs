@@ -1,0 +1,295 @@
+The thermodynamic square is mostly used to compute the derivative of any thermodynamic potential of interest. Suppose for example one desires to compute the derivative of the internal energy
+
+
+
+U
+
+
+{\displaystyle U}
+. The following procedure should be considered:
+Place oneself in the thermodynamic potential of interest, namely (
+
+
+
+G
+
+
+{\displaystyle G}
+,
+
+
+
+H
+
+
+{\displaystyle H}
+,
+
+
+
+U
+
+
+{\displaystyle U}
+,
+
+
+
+F
+
+
+{\displaystyle F}
+). In our example, that would be
+
+
+
+U
+
+
+{\displaystyle U}
+.
+The two opposite corners of the potential of interest represent the coefficients of the overall result. If the coefficient lies on the left hand side of the square, a negative sign should be added. In our example, an intermediate result would be
+
+
+
+d
+U
+=
+−
+p
+[
+
+Differential
+
+]
++
+T
+[
+
+Differential
+
+]
+
+
+{\displaystyle dU=-p[{\text{Differential}}]+T[{\text{Differential}}]}
+.
+In the opposite corner of each coefficient, you will find the associated differential. In our example, the opposite corner to
+
+
+
+p
+
+
+{\displaystyle p}
+would be
+
+
+
+V
+
+
+{\displaystyle V}
+(Volume) and the opposite corner for
+
+
+
+T
+
+
+{\displaystyle T}
+would be
+
+
+
+S
+
+
+{\displaystyle S}
+(Entropy). In our example, an interim result would be:
+
+
+
+d
+U
+=
+−
+p
+d
+V
++
+T
+d
+S
+
+
+{\displaystyle dU=-pdV+TdS}
+. Notice that the sign convention will affect only the coefficients and NOT the differentials.
+Finally, always add
+
+
+
+μ
+d
+N
+
+
+{\displaystyle \mu dN}
+, where
+
+
+
+μ
+
+
+{\displaystyle \mu }
+denotes the Chemical potential. Therefore, we would have:
+
+
+
+d
+U
+=
+−
+p
+d
+V
++
+T
+d
+S
++
+μ
+d
+N
+
+
+{\displaystyle dU=-pdV+TdS+\mu dN}
+.
+The Gibbs–Duhem equation can be derived by using this technique. Notice though that the final addition of the differential of the chemical potential has to be generalized.
+The thermodynamic square can also be used to find the Maxwell relations. Looking at the four corners of the square and making a
+
+
+
+⊔
+
+
+{\displaystyle \sqcup }
+shape, one can find
+
+
+
+
+
+(
+
+
+
+∂
+S
+
+
+∂
+p
+
+
+
+)
+
+
+T
+
+
+=
+−
+
+
+(
+
+
+
+∂
+V
+
+
+∂
+T
+
+
+
+)
+
+
+p
+
+
+
+
+{\displaystyle \left({\partial S \over \partial p}\right)_{T}=-\left({\partial V \over \partial T}\right)_{p}}
+. By rotating the
+
+
+
+⊔
+
+
+{\displaystyle \sqcup }
+shape (randomly, for example by 90 degrees counterclockwise into a
+
+
+
+⊐
+
+
+{\displaystyle \sqsupset }
+shape) other relations such as:
+
+
+
+
+
+(
+
+
+
+∂
+p
+
+
+∂
+T
+
+
+
+)
+
+
+V
+
+
+=
+
+
+(
+
+
+
+∂
+S
+
+
+∂
+V
+
+
+
+)
+
+
+T
+
+
+
+
+{\displaystyle \left({\partial p \over \partial T}\right)_{V}=\left({\partial S \over \partial V}\right)_{T}}
+can be found.
+Finally, the potential at the center of each side is a natural function of the variables at the corner of that side. So, G is a natural function of p and T, and U is a natural function of S and V.

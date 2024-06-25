@@ -1,0 +1,7 @@
+In a closed system the data may suggest that cause A * B precedes effect C in a defined interval of time τ. This relationship can determine causality with confidence bounded by τ. However, this same relationship may not be deterministic with confidence in an open system where uncontrolled factors may affect the result.
+An example would be a system of A, B and C, where A, B and C are known. Characteristics are below and limited to a given time (such as 50 ms, or 50 hours):
+^A * ^ B => ^ C (99.9999998027%)
+A * ^B => ^C (99.9999998027%)
+^A * B => ^C (99.9999998027%)
+A * B => C (99.9999998027%)
+One can reasonably claim, within 6 Standard Deviations, that A * B cause C given the time boundary (such as 50 ms, or 50 hours) IF And Only IF A, B and C are the only parts of the system in question. Any result outside of this may be considered a deviation.

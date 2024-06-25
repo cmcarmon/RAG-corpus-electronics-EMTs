@@ -1,0 +1,6 @@
+The  most  fundamental  model  for  speech  signals  is  the  Gaussian  autoregressive (AR) model. This  model
+assumes that each 20- to 40-msec segment of the signal is generated from an excitation signal which is applied
+to a linear time-invariant all-pole ﬁlter. The excitation signal comprises a mixture of white Gaussian noise and
+a periodic sequence of impulses. The period of that sequence is determined by the pitch period of the speech
+signal. This model is described in Fig. 15.2. Generally, the excitation signal represents the ﬂow of air through
+the vocal cords and the all-pole ﬁlter represents the vocal tract. The model for a given sample function of speech

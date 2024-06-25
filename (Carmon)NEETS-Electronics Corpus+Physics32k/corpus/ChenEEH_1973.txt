@@ -1,0 +1,9 @@
+Methods differ in the way the signatures are assigned to the
+nodes and in how the reference information is represented. In
+SIC (Lu, 1982), the nodes are encoded (labeled) by selecting 8-
+bit numbers randomly and independently from a uniform
+distribution. The reference information for the WD is repre-
+sented under the form of a reference program that has the
+same CFG as the checked program. In place of computations,
+it contains statements to receive and check the signatures from
+the main processor.

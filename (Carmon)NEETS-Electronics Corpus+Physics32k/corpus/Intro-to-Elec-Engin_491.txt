@@ -1,0 +1,18 @@
+For converting from decimal to octal form, one follows the same procedure as for conversion
+from decimal to binary; but instead of dividing by 2 for the integer part, one divides by 8
+to obtain the octal equivalent. Also, instead of multiplying by 2 for the fractional part, one
+multiplies by 8 to obtain the fractional octal equivalent of the decimal fraction. However, it
+is more common to convert from binary to octal and vice versa. Binary to octal conversion
+is accomplished by grouping the binary number into groups of 3 bits each, starting from
+the binary point and proceeding to the right as well as to the left; each group is then re-
+placed by its octal equivalent. For example, (100101111011.01011)2 is arranged as 100 101
+111 011 . 010 110↑ (note that a trailing 0 is added to complete the last group in the fractional
+part). Replacing each group by its octal “decimal” equivalent, one obtains (4573.26)8. The
+conversion from octal to binary is done by replacing each octal digit with its 3-bit binary
+equivalent.
+The hexadecimal number system is a base-16 system which has 16 distinct symbols in the
+set: {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F}, where A is equivalent to 10, B to 11, , and F to 15.
+A hexadecimal number is therefore expressed as a string of any combination of the 16 symbols.
+To convert from hexadecimal to decimal, for example,
+(2AB)16 = 2 × 162 + A × 161 + B × 160 = 2 × 162 + 10 × 161 + 11 × 160 = (683)10
+(.F8)16 = F × 16

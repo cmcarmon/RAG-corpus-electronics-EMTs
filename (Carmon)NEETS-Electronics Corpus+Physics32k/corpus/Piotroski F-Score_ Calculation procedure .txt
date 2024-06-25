@@ -1,0 +1,19 @@
+The score is calculated based on 9 criteria divided into 3 groups.
+
+Profitability
+
+Return on Assets (1 point if it is positive in the current year, 0 otherwise);
+Operating Cash Flow (1 point if it is positive in the current year, 0 otherwise);
+Change in Return of Assets (ROA) (1 point if ROA is higher in the current year compared to the previous one, 0 otherwise);
+Accruals (1 point if Operating Cash Flow/Total Assets is higher than ROA in the current year, 0 otherwise);
+Leverage, Liquidity and Source of Funds
+
+Change in Leverage (long-term) ratio (1 point if the ratio is lower this year compared to the previous one, 0 otherwise);
+Change in Current ratio (1 point if it is higher in the current year compared to the previous one, 0 otherwise);
+Change in the number of shares (1 point if no new shares were issued during the last year);
+Operating Efficiency
+
+Change in Gross Margin (1 point if it is higher in the current year compared to the previous one, 0 otherwise);
+Change in Asset Turnover ratio (1 point if it is higher in the current year compared to the previous one, 0 otherwise);
+Some adjustments that were done in calculation of the required financial ratios are discussed in the original paper.
+The score is calculated based on the data from financial statement of a company. A company gets 1 point for each met criteria. Summing up of all achieved points gives Piotroski F-Score (number between 0-9).

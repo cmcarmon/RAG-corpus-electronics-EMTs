@@ -1,0 +1,9 @@
+Devices that obey this representation would be able to communicate with
+each other successfully. In other words, as depicted in Figure 5.4, a sending
+device connected to a receiving device is allowed to output any value between
+0 V and 2.5 V (for example, 0.5 V) for a logical 0, and any value between 2.5 V
+and 5 V (for example, 4 V) for a logical 1. Correspondingly, the receiving device
+must interpret all values between 0 V and 2.5 V as a logical 0, and all values
+between 2.5 V and 5 V as a logical 1. Thus, our simple representation allows
+a fair bit of flexibility because valid logical 1 signals and logical 0 signals can
+occupy a range of values.

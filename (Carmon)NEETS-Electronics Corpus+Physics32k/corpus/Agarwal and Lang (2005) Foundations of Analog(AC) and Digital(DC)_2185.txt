@@ -1,0 +1,11 @@
+Now, since the capacitor voltage vC is higher than the output voltage, the
+capacitor begins to discharge through R3. Figure 15.34 shows that the equiva-
+lent circuit that applies. When the capacitor voltage falls below −VSR1/R1+R2,
+−
+the voltage v
+resulting in a positive voltage difference at
+the Op Amp input. The Op Amp amplifies this positive difference to a positive
+voltage at its output, which when fed back to the non-inverting terminal causes
+a larger positive voltage to appear across the Op Amp input. The resulting pos-
+itive feedback causes the Op Amp output to go into positive saturation. Thus,
+the output voltage reaches VS and that at v

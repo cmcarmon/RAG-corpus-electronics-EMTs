@@ -1,0 +1,8 @@
+The look-ahead pipelining can also be applied for the design of transversal and adaptive lattice digital ﬁlters.
+Although look-ahead transformation can be used to modify the adaptive ﬁlter recursions to create concurrency,
+this  requires  large  hardware  overhead.  The  adaptive  ﬁlters  are  based  on  weight  update  operations,  and  the
+weights are adapted based on the current error. Finally, the error becomes close to zero and the ﬁlter coefﬁcients
+have  been  adapted.  Thus,  making  relaxations  on  the  error  can  reduce  the  hardware  overhead  substantially
+without degradation of the convergence behavior of the adaptive ﬁlter. Three types of relaxations of look-ahead
+are possible. These are referred to as sum relaxation, product relaxation, and delay relaxation. To illustrate these
+three relaxations, consider the weight update recursion

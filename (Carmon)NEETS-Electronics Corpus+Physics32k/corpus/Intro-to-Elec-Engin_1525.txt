@@ -1,0 +1,9 @@
+In order to eliminate the need of a local carrier, DPSK has been developed in which the receiver
+uses the received signal to act as its own carrier. Figure 15.3.17 shows the functions of a DPSK
+system in which the leftmost product operation along with 1-bit delay is the differential encoder.
+The digital signal d(t) is a polar waveform of levels ±1, corresponding to binary digits 1 and
+0, respectively. The output signal a(t) from the differential encoder PSK-modulates a carrier to
+produce the DPSK signal sDPSK(t). The product device followed by the wide-band low-pass ﬁlter
+acts as the coherent detector. The two inputs to the product device are obtained from the output
+of a ﬁlter matched to the input pulse in a single bit interval. Note that the 1-bit delayed input to
+the product device serves the purpose of the local oscillator for the coherent detector; that is to

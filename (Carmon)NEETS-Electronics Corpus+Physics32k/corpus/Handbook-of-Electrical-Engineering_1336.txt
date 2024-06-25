@@ -1,0 +1,10 @@
+the glottal excitation. MBE coders estimate the fundamental frequency and use this estimate to focus subband
+decompositions on harmonics. MELP coders perform pitch-synchronous excitation modeling. Overall coder
+performance is enhanced in the CELP and MBE coders with the use of sub-integer lags [Kroon and Atal, 1991].
+This is equivalent to performing pitch estimation using a signal sampled at a higher sampling rate to improve
+the precision of the spectral estimate. Highly precise glottal frequency estimation improves the “naturalness”
+of coded speech at the expense of increased computational complexity, and in some cases increased bit rate.
+Accurate characterization of pitch and LPC parameters can also be used to good advantage in postﬁltering
+to  reduce  apparent  quantization  noise.  These  ﬁlters,  usually  derived  from  forward-adapted  ﬁlter  coefﬁcients
+transmitted  to  the  receiver  as  side-information,  perform  post-processing  on  the  reconstructed  speech  which
+reduces perceptually annoying noise components [Chen and Gersho, 1995].

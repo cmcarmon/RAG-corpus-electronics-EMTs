@@ -1,0 +1,7 @@
+The second single-stage audio amplifier is shown in figure 1-24. This circuit is a class A, 
+common-source, RC-coupled, FET, audio amplifier. C1 is a coupling capacitor which couples the input 
+signal to the gate of Q1. R1 is used to develop the input signal for the gate of Q1. R2 is used to bias the 
+source of Q1. C2 is used to decouple the signal developed by R2 (and keep it from affecting the source of 
+Q1). R3 is the drain load for Q1 and develops the output signal. C3 couples the output signal to the next 
+stage. VDD is the supply voltage for the drain of Q1. Since this is a common-source configuration, the 
+input and output signals are 180º out of phase. 

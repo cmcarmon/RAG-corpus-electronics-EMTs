@@ -1,0 +1,45 @@
+In order to rewrite Eq.(1) in more familiar form we use the general formula
+
+Here Sm is the molar entropy and Vm the molar volume. With Eq.(2) μ(p,T) can be found by a line integration in the p-T plane. First we integrate from the origin (0,0) to (p,0), so at T =0. Next we integrate from (p,0) to (p,T), so with constant pressure (see figure 6). In the first integral dT=0 and in the second dp=0. With Eq.(2) we obtain
+
+We are interested only in cases where p is small so that Vm is practically constant. So
+
+where Vm0 is the molar volume of the liquid at T =0 and p =0. The other term in Eq.(3) is also written as a product of Vm0 and a quantity pf which has the dimension of pressure
+
+The pressure pf is called the fountain pressure. It can be calculated from the entropy of 4He which, in turn, can be calculated from the heat capacity. For T =Tλ the fountain pressure is equal to 0.692 bar. With a density of liquid helium of 125 kg/m3 and g = 9.8 m/s2 this corresponds with a liquid-helium column of 56 meter height. So, in many experiments, the fountain pressure has a bigger effect on the motion of the superfluid helium than gravity.
+With Eqs.(4) and (5), Eq.(3) obtains the form
+
+Substitution of Eq.(6) in (1) gives
+
+with ρ₀ = M4/Vm0 the density of liquid 4He at zero pressure and temperature.
+Eq.(7) shows that the superfluid component is accelerated by gradients in the pressure and in the gravitational field, as usual, but also by a gradient in the fountain pressure.
+So far Eq.(5) has only mathematical meaning, but in special experimental arrangements pf can show up as a real pressure. Figure 7 shows two vessels both containing He-II. The left vessel is supposed to be at zero kelvins (Tl=0) and zero pressure (pl = 0). The vessels are connected by a so-called superleak. This is a tube, filled with a very fine powder, so the flow of the normal component is blocked. However, the superfluid component can flow through this superleak without any problem (below a critical velocity of about 20 cm/s). In the steady state vs=0 so Eq.(7) implies
+
+where the index l (r) applies to the left (right) side of the superleak. In this particular case pl = 0, zl = zr, and pfl = 0 (since Tl = 0). Consequently,
+
+
+
+
+0
+=
+
+p
+
+r
+
+
+−
+
+p
+
+f
+r
+
+
+.
+
+
+{\displaystyle 0=p_{r}-p_{fr}.}
+
+This means that the pressure in the right vessel is equal to the fountain pressure at Tr.
+In an experiment, arranged as in figure 8, a fountain can be created. The fountain effect is used to drive the circulation of 3He in dilution refrigerators.

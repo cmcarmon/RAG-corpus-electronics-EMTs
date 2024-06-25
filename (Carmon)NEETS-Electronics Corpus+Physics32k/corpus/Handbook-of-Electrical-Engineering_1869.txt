@@ -1,0 +1,5 @@
+data. In a SIMD machine, a single instruction is used to control the operation performed on many data elements.
+Thus, the same operation is performed simultaneously on all that data. Figure 17.24 shows a SIMD structure:
+several  function  units,  each  with  its  own  register  ﬁle,  has  an  ALU  for  performing  operations  on  data;  the
+controller sends identical signals to all function units so that the same operation is performed on all function
+units at the same; there is also a network that allows processing elements to pass data among themselves.

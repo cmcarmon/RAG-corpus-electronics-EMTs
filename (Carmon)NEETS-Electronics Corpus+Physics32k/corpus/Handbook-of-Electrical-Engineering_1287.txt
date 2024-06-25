@@ -1,0 +1,12 @@
+Subsequence Restoration
+It  is  possible  to  obtain  further  performance  improvements  in  modeling  data  as  a  linear  combination  of
+exponentials by employing the concept of data decimation. As an example, any data sequence may be decom-
+posed into two subsequences that are composed of its even and odd samples, respectively. If the data under
+analysis is exactly modeled as a linear combination of exponential signals, it is a simple matter to establish that
+the associated even and odd decimated subsequences are similarly characterized. The component exponentials
+in the even and odd decimated subsequences are found to equal the square of those in the original data. This
+decomposition procedure can be continued in an obvious fashion to generate an additional three subsequences,
+each  of  which  is  composed  of  every  third  sample  of  the  original  data,  and  so  forth.  This  data  decimation
+procedure  has  been  combined  with  the  signal  restoration  technique  presented  in  this  subsection  to  effect
+improved  estimation  performance.  The  interested  reader  will  ﬁnd  this  approach  described  in  Cadzow  and
+Wilkes [1991].

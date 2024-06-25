@@ -1,0 +1,9 @@
+Similar observations might also be made regarding the coefﬁcients of the DE models but whose multiport
+representations describe local rather than global interactions. Because the DE model almost always leads to a
+larger,  albeit  less  dense,  direct  matrix,  its  inverse  (or  equivalent)  is  rarely  computed.  It  is  worth  noting  that
+there are two widely used approaches for DE modeling, ﬁnite-difference (FD) and ﬁnite-element (FE) methods.
+They  differ  primarily  in  how  the  differential  operators  are  approximated  and  the  differential  equations  are
+satisﬁed, i.e., in the order of the basis and weight functions, although the FE method commonly starts from a
+variational viewpoint, while the FD approach begins from the deﬁning differential equations. The FE method
+is generally better suited for modeling problems with complicated boundaries to which it provides a piecewise
+linear or higher order approximation as opposed to the cruder stairstep approximation of FD.

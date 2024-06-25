@@ -1,0 +1,149 @@
+The shape with minimal critical mass and the smallest physical dimensions is a sphere. Bare-sphere critical masses at normal density of some actinides are listed in the following table.
+The critical mass for lower-grade uranium depends strongly on the grade: with 20% 235U it is over 400 kg; with 15% 235U, it is well over 600 kg.
+The critical mass is inversely proportional to the square of the density. If the density is 1% more and the mass 2% less, then the volume is 3% less and the diameter 1% less. The probability for a neutron per cm travelled to hit a nucleus is proportional to the density. It follows that 1% greater density means that the distance travelled before leaving the system is 1% less. This is something that must be taken into consideration when attempting more precise estimates of critical masses of plutonium isotopes than the approximate values given above, because plutonium metal has a large number of different crystal phases which can have widely varying densities.
+Note that not all neutrons contribute to the chain reaction. Some escape and others undergo radiative capture.
+Let q denote the probability that a given neutron induces fission in a nucleus. Let us consider only prompt neutrons, and let ν denote the number of prompt neutrons generated in a nuclear fission. For example, ν ≈ 2.5 for uranium-235. Then, criticality occurs when ν·q = 1. The dependence of this upon geometry, mass, and density appears through the factor q.
+Given a total interaction cross section σ (typically measured in barns), the mean free path of a prompt neutron is
+
+
+
+
+ℓ
+
+−
+1
+
+
+=
+n
+σ
+
+
+{\displaystyle \ell ^{-1}=n\sigma }
+where n is the nuclear number density. Most interactions are scattering events, so that a given neutron obeys a random walk until it either escapes from the medium or causes a fission reaction. So long as other loss mechanisms are not significant, then, the radius of a spherical critical mass is rather roughly given by the product of the mean free path
+
+
+
+ℓ
+
+
+{\displaystyle \ell }
+and the square root of one plus the number of scattering events per fission event (call this s), since the net distance travelled in a random walk is proportional to the square root of the number of steps:
+
+
+
+
+
+R
+
+c
+
+
+≃
+ℓ
+
+
+s
+
+
+≃
+
+
+
+s
+
+
+n
+σ
+
+
+
+
+
+{\displaystyle R_{c}\simeq \ell {\sqrt {s}}\simeq {\frac {\sqrt {s}}{n\sigma }}}
+
+Note again, however, that this is only a rough estimate.
+In terms of the total mass M, the nuclear mass m, the density ρ, and a fudge factor f which takes into account geometrical and other effects, criticality corresponds to
+
+
+
+
+1
+=
+
+
+
+f
+σ
+
+
+m
+
+
+s
+
+
+
+
+
+
+ρ
+
+2
+
+/
+
+3
+
+
+
+M
+
+1
+
+/
+
+3
+
+
+
+
+{\displaystyle 1={\frac {f\sigma }{m{\sqrt {s}}}}\rho ^{2/3}M^{1/3}}
+
+which clearly recovers the aforementioned result that critical mass depends inversely on the square of the density.
+Alternatively, one may restate this more succinctly in terms of the areal density of mass, Σ:
+
+
+
+
+1
+=
+
+
+
+
+f
+′
+
+σ
+
+
+m
+
+
+s
+
+
+
+
+
+Σ
+
+
+{\displaystyle 1={\frac {f'\sigma }{m{\sqrt {s}}}}\Sigma }
+
+where the factor f has been rewritten as f' to account for the fact that the two values may differ depending upon geometrical effects and how one defines Σ. For example, for a bare solid sphere of 239Pu criticality is at 320 kg/m2, regardless of density, and for 235U at 550 kg/m2. In any case, criticality then depends upon a typical neutron "seeing" an amount of nuclei around it such that the areal density of nuclei exceeds a certain threshold.
+This is applied in implosion-type nuclear weapons where a spherical mass of fissile material that is substantially less than a critical mass is made supercritical by very rapidly increasing ρ (and thus Σ as well) (see below). Indeed, sophisticated nuclear weapons programs can make a functional device from less material than more primitive weapons programs require.
+Aside from the math, there is a simple physical analog that helps explain this result. Consider diesel fumes belched from an exhaust pipe. Initially the fumes appear black, then gradually you are able to see through them without any trouble. This is not because the total scattering cross section of all the soot particles has changed, but because the soot has dispersed. If we consider a transparent cube of length L on a side, filled with soot, then the optical depth of this medium is inversely proportional to the square of L, and therefore proportional to the areal density of soot particles: we can make it easier to see through the imaginary cube just by making the cube larger.
+Several uncertainties contribute to the determination of a precise value for critical masses, including (1) detailed knowledge of cross sections, (2) calculation of geometric effects. This latter problem provided significant motivation for the development of the Monte Carlo method in computational physics by Nicholas Metropolis and Stanislaw Ulam. In fact, even for a homogeneous solid sphere, the exact calculation is by no means trivial. Finally note that the calculation can also be performed by assuming a continuum approximation for the neutron transport. This reduces it to a diffusion problem. However, as the typical linear dimensions are not significantly larger than the mean free path, such an approximation is only marginally applicable.
+Finally, note that for some idealized geometries, the critical mass might formally be infinite, and other parameters are used to describe criticality. For example, consider an infinite sheet of fissionable material. For any finite thickness, this corresponds to an infinite mass. However, criticality is only achieved once the thickness of this slab exceeds a critical value.

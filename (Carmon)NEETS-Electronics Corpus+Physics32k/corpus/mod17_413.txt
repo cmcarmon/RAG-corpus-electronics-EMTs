@@ -1,0 +1,6 @@
+More than six channels (perhaps 24 or more) may be used. As we increase the number of channels, 
+the width of each sample segment must be reduced. The problem with reducing the width of the pulse is 
+that the bandwidth (bw) necessary for transmission is greatly increased. Decreasing the pulse width 
+decreases the minimum required rise time of the sampling pulse and increases the required bandwidth. 
+When you increase the number of channels, you increase the bw. The bw is also affected by the shape of 
+the sampling pulse and the method used to vary the pulse. 

@@ -1,0 +1,5 @@
+The model consists of three steps:
+Adsorption of the reacting species CO and O2
+The actual reaction step on the surface: CO + O → CO2
+Desorption of the products.
+The simplest implementation considers the catalyst as simple square two-dimensional lattice, but one can also consider other kinds of underlying lattices. When a gas-phase molecule touches an empty site, adsorption occurs immediately and the chemical reaction is also instantaneous. Furthermore, assumes that the composition of the gas phase remains constant.

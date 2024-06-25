@@ -1,0 +1,122 @@
+Having formulated the relativistic, geometric version of the effects of gravity, the question of gravity's source remains. In Newtonian gravity, the source is mass. In special relativity, mass turns out to be part of a more general quantity called the energy–momentum tensor, which includes both energy and momentum densities as well as stress: pressure and shear. Using the equivalence principle, this tensor is readily generalized to curved spacetime. Drawing further upon the analogy with geometric Newtonian gravity, it is natural to assume that the field equation for gravity relates this tensor and the Ricci tensor, which describes a particular class of tidal effects: the change in volume for a small cloud of test particles that are initially at rest, and then fall freely. In special relativity, conservation of energy–momentum corresponds to the statement that the energy–momentum tensor is divergence-free. This formula, too, is readily generalized to curved spacetime by replacing partial derivatives with their curved-manifold counterparts, covariant derivatives studied in differential geometry. With this additional condition—the covariant divergence of the energy–momentum tensor, and hence of whatever is on the other side of the equation, is zero— the simplest set of equations are what are called Einstein's (field) equations:
+
+On the left-hand side is the Einstein tensor, a specific divergence-free combination of the Ricci tensor
+
+
+
+
+R
+
+μ
+ν
+
+
+
+
+{\displaystyle R_{\mu \nu }}
+and the metric. Where
+
+
+
+
+G
+
+μ
+ν
+
+
+
+
+{\displaystyle G_{\mu \nu }}
+is symmetric. In particular,
+
+
+
+
+R
+=
+
+g
+
+μ
+ν
+
+
+
+R
+
+μ
+ν
+
+
+
+
+
+{\displaystyle R=g^{\mu \nu }R_{\mu \nu }\,}
+
+is the curvature scalar. The Ricci tensor itself is related to the more general Riemann curvature tensor as
+
+
+
+
+
+R
+
+μ
+ν
+
+
+=
+
+
+
+R
+
+α
+
+
+
+
+μ
+α
+ν
+
+
+.
+
+
+
+{\displaystyle R_{\mu \nu }={R^{\alpha }}_{\mu \alpha \nu }.\,}
+
+On the right-hand side,
+
+
+
+
+T
+
+μ
+ν
+
+
+
+
+{\displaystyle T_{\mu \nu }}
+is the energy–momentum tensor. All tensors are written in abstract index notation. Matching the theory's prediction to observational results for planetary orbits or, equivalently, assuring that the weak-gravity, low-speed limit is Newtonian mechanics, the proportionality constant can be fixed as κ = 8πG/c4, with G the gravitational constant and c the speed of light. When there is no matter present, so that the energy–momentum tensor vanishes, the results are the vacuum Einstein equations,
+
+
+
+
+
+R
+
+μ
+ν
+
+
+=
+0.
+
+
+
+{\displaystyle R_{\mu \nu }=0.\,}

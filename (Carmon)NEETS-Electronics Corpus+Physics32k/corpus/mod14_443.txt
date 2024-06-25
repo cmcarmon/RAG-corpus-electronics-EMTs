@@ -1,0 +1,4 @@
+A CLEAR pulse resets all the FFs at CP1. At CP2, the most significant bit of the data is input to
+AND gate 1. This HIGH along with the clock pulse causes AND gate 1 to output a HIGH. The HIGH
+from the AND gate and the clock pulse applied to FF1 cause the FF to set. FFs 2, 3, and 4 are held reset.
+At this point, the MSD of the data has been shifted into the register.

@@ -1,0 +1,13 @@
+these concepts, consider an object-
+oriented model of a typical ﬂight control system. The ﬂight
+control consists of a low-level stability augmentation control as
+well as a high-level control, such as guidance, and each one
+may have a dedicated processor. There are many sensors on
+board such as a GPS, altimeter, and an IMU. The actuators
+are the servomechanisms that drive the control surfaces (the
+ailerons, the rudder, and the elevator). The object-oriented
+modeling method subdivides the ﬂight controls into compo-
+nents as shown in Figure 14.2. Each bubble represents an
+object (or more generally, a component). Some of the com-
+ponents consist of only software (such as the controllers), one
+component consists of physical features (the vehicle dynam-

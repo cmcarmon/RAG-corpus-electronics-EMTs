@@ -1,0 +1,14 @@
+The general problem is the following. When a cell u is
+replaced by another cell v along a reconﬁguration path, a net
+ni connected to u may need its route to be extended to connect
+to v [as shown for u ¼ the dark node B2 and v ¼ C2 in Figure
+8.8(A) if the current route of ni does not include the required
+track segment. The required extension is the CS. For each CS,
+if the required interconnect segment where the CS is to be
+inserted is vacant, the net extension is straightforward, and no
+other nets are disturbed. If the required interconnect segment
+is occupied by another net, then the CS insertion will cause a
+displacement or ‘‘bumping’’ of this net. The net requiring the
+CS extension is termed the CS-net [n1 in Figure 8.8(A)], and
+the net occupying the required track segment is termed the
+occupying net or O-net [n2 in Figure 8.8(A)].

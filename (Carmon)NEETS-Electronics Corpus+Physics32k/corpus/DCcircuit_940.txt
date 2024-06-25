@@ -1,0 +1,6 @@
+Resistors R2 and R3 are no longer in parallel with each other, because B2 has been inserted
+into R3’s branch of the circuit. Upon closer inspection, it appears there are no two resistors
+in this circuit directly in series or parallel with each other. This is the crux of our problem:
+in series-parallel analysis, we started off by identifying sets of resistors that were directly in
+series or parallel with each other, reducing them to single equivalent resistances. If there are
+no resistors in a simple series or parallel conﬁguration with each other, then what can we do?

@@ -1,0 +1,6 @@
+. Fixed routing: A central routing directory is created at
+the network control computer. The directory contains the
+source-destination pairs of LANs and the bridge ID for
+each pair of LANs. Each bridge on the network has a table
+that contains the source-destination pairs of LAN for
+each of LANs attached to the bridge.

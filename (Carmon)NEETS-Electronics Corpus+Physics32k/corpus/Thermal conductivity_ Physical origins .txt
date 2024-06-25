@@ -1,0 +1,6 @@
+At the atomic level, there are no simple, correct expressions for thermal conductivity. Atomically, the thermal conductivity of a system is determined by how atoms composing the system interact. There are two different approaches for calculating the thermal conductivity of a system.
+The first approach employs the Green–Kubo relations. Although this employs analytic expressions, which, in principle, can be solved, calculating the thermal conductivity of a dense fluid or solid using this relation requires the use of molecular dynamics computer simulation.
+The second approach is based on the relaxation time approach. Due to the anharmonicity within the crystal potential, the phonons in the system are known to scatter. There are three main mechanisms for scattering:
+Boundary scattering, a phonon hitting the boundary of a system;
+Mass defect scattering, a phonon hitting an impurity within the system and scattering;
+Phonon-phonon scattering, a phonon breaking into two lower energy phonons or a phonon colliding with another phonon and merging into one higher-energy phonon.

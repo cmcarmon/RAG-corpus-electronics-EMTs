@@ -1,0 +1,11 @@
+A SAW transducer is able to implement an FIR ﬁlter. The electrodes or ﬁngers provide the ability to sample
+or “tap” the SAW and the distance between electrodes provides the relative delay. For a uniformly sampled SAW
+ is
+transducer, the delay between samples, 
+the acoustic velocity. The typical means for providing attenuation or weighting is to vary the overlap between
+adjacent electrodes which provides a spatially weighted sampling of a uniform wave. Figure 47.1 shows a typical
+FIR time response and its equivalent SAW transducer implementation. A SAW ﬁlter is composed of a minimum
+of two transducers and possibly other SAW components. A schematic of a simple SAW bidirectional ﬁlter is
+  radiates  energy  equally  from  each  side  of  the  transducer  (or
+shown  in  Fig. 47.2. A 
+port). Energy not being received is absorbed to eliminate spurious reﬂections.

@@ -1,0 +1,17 @@
+1. When two accesses to the same array occur in parallel, it
+means there is a self-conﬂict, a loop in the conﬂict
+graph. Such a self-conﬂict forces a two-ported memory
+in the memory architecture. Two-ported and multi-
+ported memories are much more costly; therefore self-
+conﬂicts carry a very heavy weight in the cost function.
+2. In the absence of self-conﬂicts, the conﬂict graph’s
+chromatic number indicates the minimal number of
+single-port memories required to provide the necessary
+bandwidth. For example, in Figure 2.22, the chromatic
+number of the graph is three: A, B, and C need three
+different colors to color the graph, for example. That
+means also a minimum of three single-port memories
+are required, even though three accesses never occur in
+parallel. More memories make the design (potentially)
+more costly; therefore, the conﬂict graph’s chromatic
+number is the second component of the cost.

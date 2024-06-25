@@ -1,0 +1,7 @@
+The  Problems. With  optimization  yielding  more  efﬁcient  code  resulting  in  improved  system  performance,
+why  would  you  not  use  it?  Our  favorite,  among  the  several  reasons,  is  the  following  quote  from  compiler
+documentation: “Compiling  with  optimization  may  produce  incorrect  object  code.”  Problems  are  caused  by
+assumptions used by the compiler which are not held by the programmer. For example, an optimization which
+assumes that memory contents do not change with time is erroneous for multi-tasking systems which share
+memory structures and also for memory- mapped I/O devices, where memory contents are changed by external
+events. For these cases, the data in register may not match the newer data in memory.

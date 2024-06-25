@@ -1,0 +1,192 @@
+Consider a situation common in everyday life. Two cars travel along a road, both moving at constant velocities. See Figure 1. At some particular moment, they are separated by 200 metres. The car in front is travelling at 22 metres per second and the car behind is travelling at 30 metres per second. If we want to find out how long it will take the second car to catch up with the first, there are three obvious "frames of reference" that we could choose.
+First, we could observe the two cars from the side of the road. We define our "frame of reference" S as follows. We stand on the side of the road and start a stop-clock at the exact moment that the second car passes us, which happens to be when they are a distance d = 200 m apart. Since neither of the cars is accelerating, we can determine their positions by the following formulas, where
+
+
+
+
+x
+
+1
+
+
+(
+t
+)
+
+
+{\displaystyle x_{1}(t)}
+is the position in meters of car one after time t in seconds and
+
+
+
+
+x
+
+2
+
+
+(
+t
+)
+
+
+{\displaystyle x_{2}(t)}
+is the position of car two after time t.
+
+
+
+
+
+x
+
+1
+
+
+(
+t
+)
+=
+d
++
+
+v
+
+1
+
+
+t
+=
+200
+
++
+
+22
+t
+
+;
+
+
+x
+
+2
+
+
+(
+t
+)
+=
+
+v
+
+2
+
+
+t
+=
+30
+t
+
+
+{\displaystyle x_{1}(t)=d+v_{1}t=200\ +\ 22t\ ;\quad x_{2}(t)=v_{2}t=30t}
+
+Notice that these formulas predict at t = 0 s the first car is 200 m down the road and the second car is right beside us, as expected. We want to find the time at which
+
+
+
+
+x
+
+1
+
+
+=
+
+x
+
+2
+
+
+
+
+{\displaystyle x_{1}=x_{2}}
+. Therefore, we set
+
+
+
+
+x
+
+1
+
+
+=
+
+x
+
+2
+
+
+
+
+{\displaystyle x_{1}=x_{2}}
+and solve for
+
+
+
+t
+
+
+{\displaystyle t}
+, that is:
+
+
+
+
+200
++
+22
+t
+=
+30
+t
+
+
+
+{\displaystyle 200+22t=30t\quad }
+
+
+
+
+
+8
+t
+=
+200
+
+
+
+{\displaystyle 8t=200\quad }
+
+
+
+
+
+t
+=
+25
+
+
+s
+e
+c
+o
+n
+d
+s
+
+
+
+{\displaystyle t=25\quad \mathrm {seconds} }
+
+Alternatively, we could choose a frame of reference S′ situated in the first car. In this case, the first car is stationary and the second car is approaching from behind at a speed of v2 − v1 = 8 m / s. In order to catch up to the first car, it will take a time of d/v2 − v1 = 200/8 s, that is, 25 seconds, as before. Note how much easier the problem becomes by choosing a suitable frame of reference. The third possible frame of reference would be attached to the second car. That example resembles the case just discussed, except the second car is stationary and the first car moves backward towards it at 8 m / s.
+It would have been possible to choose a rotating, accelerating frame of reference, moving in a complicated manner, but this would have served to complicate the problem unnecessarily. It is also necessary to note that one is able to convert measurements made in one coordinate system to another. For example, suppose that your watch is running five minutes fast compared to the local standard time. If you know that this is the case, when somebody asks you what time it is, you are able to deduct five minutes from the time displayed on your watch in order to obtain the correct time. The measurements that an observer makes about a system depend therefore on the observer's frame of reference (you might say that the bus arrived at 5 past three, when in fact it arrived at three).

@@ -1,0 +1,173 @@
+The simplest possible pair distribution function assumes that all object locations are mutually independent, giving:
+
+
+
+
+g
+(
+
+
+
+r
+→
+
+
+
+)
+=
+1
+
+
+{\displaystyle g({\vec {r}})=1}
+,
+where
+
+
+
+
+
+
+r
+→
+
+
+
+
+
+{\displaystyle {\vec {r}}}
+is the separation between a pair of objects. However, this is inaccurate in the case of hard objects as discussed above, because it does not account for the minimum separation required between objects. The hole-correction (HC) approximation provides a better model:
+
+
+
+
+g
+(
+r
+)
+=
+
+
+{
+
+
+
+0
+,
+
+
+r
+<
+b
+,
+
+
+
+
+1
+,
+
+
+r
+≥
+
+
+
+b
+
+
+
+
+
+
+,
+
+
+{\displaystyle g(r)={\begin{cases}0,&r<b,\\1,&r\geq {}b\end{cases}},}
+
+where
+
+
+
+b
+
+
+{\displaystyle b}
+is the diameter of one of the objects.
+Although the HC approximation gives a reasonable description of sparsely packed objects, it breaks down for dense packing. This may be illustrated by considering a box completely filled by identical hard balls so that each ball touches its neighbours. In this case, every pair of balls in the box is separated by a distance of exactly
+
+
+
+r
+=
+n
+b
+
+
+{\displaystyle r=nb}
+where
+
+
+
+n
+
+
+{\displaystyle n}
+is a positive whole number. The pair distribution for a volume completely filled by hard spheres is therefore a set of Dirac delta functions of the form:
+
+
+
+
+g
+(
+r
+)
+=
+
+∑
+
+i
+
+
+δ
+(
+r
+−
+i
+b
+)
+
+
+{\displaystyle g(r)=\sum \limits _{i}\delta (r-ib)}
+.
+Finally, it may be noted that a pair of objects which are separated by a large distance have no influence on each other's position (provided that the container is not completely filled). Therefore,
+
+
+
+
+
+lim
+
+r
+→
+∞
+
+
+g
+(
+r
+)
+=
+1
+
+
+{\displaystyle \lim \limits _{r\to \infty }g(r)=1}
+.
+In general, a pair distribution function will take a form somewhere between the sparsely packed (HC approximation) and the densely packed (delta function) models, depending on the packing density
+
+
+
+f
+
+
+{\displaystyle f}
+.

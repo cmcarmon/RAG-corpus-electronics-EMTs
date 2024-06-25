@@ -1,0 +1,7 @@
+IS-95 also initially employed an 8 Kbps speech coder developed by Qualcomm Inc., QCELP8. In order to evolve
+to higher voice quality, the QCELP13 13 Kbps coder was introduced primarily for PCS applications. Both of these
+codecs employ variable-rate coding, choosing from four different compression rates for each 20-ms frame. This
+is done to enhance capacity, allowing individual users to occupy more of the channel when their voice activity
+was high. However, the evolution to 13 Kbps resulted in weakened error-corrective coding. As a result, another
+variable-rate 8 Kbps codec, EVRC, was introduced. This codec provides comparable voice quality to QCELP13 at
+a lower rate. EVRC uses only three of the original four coding rates used by QCELP8 for each frame.

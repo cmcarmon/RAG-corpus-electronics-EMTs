@@ -1,0 +1,8 @@
+For most antenna-based wireless systems, how the signal diminishes as the receiver moves further from
+the transmitter derives by considering how radiated power changes with distance from the transmitting
+antenna. An antenna radiates a given amount of power into free space, and ideally this power propagates
+without loss in all directions. Considering a sphere centered at the transmitter, the total power, which is
+found by integrating the radiated power over the surface of the sphere, must be constant regardless of the
+sphere’s radius. This requirement results from the conservation of energy. Thus, if p (d) represents the power
+integrated with respect to direction at a distance d from the antenna, the total power will be p (d) 4πd2. For
+this quantity to be a constant, we must have

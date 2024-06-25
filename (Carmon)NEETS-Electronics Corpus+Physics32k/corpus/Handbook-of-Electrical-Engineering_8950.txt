@@ -1,0 +1,6 @@
+The typical trackball has an X and Y optical encoder that generates a pulse for each 0.76 mm of incremental
+motion of the ball. This means that the pulse train may range from 10 to 2500 pulses per second (pps), depending
+on how fast the ball is rotated. This is much more rapid than required for satisfactory updates, which need not
+be greater than about 100 times per second. This can easily be accomodated by the RS-232 protocol using an
+eight-bit  word.  Thus,  the  trackball  is  an  excellent  alternative  for  the  mouse,  and  is  rapidly  returning  to  a
+preferred position as an input device.

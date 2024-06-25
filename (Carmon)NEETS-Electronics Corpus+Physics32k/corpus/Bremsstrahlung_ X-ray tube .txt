@@ -1,0 +1,147 @@
+In an X-ray tube, electrons are accelerated in a vacuum by an electric field towards a piece of metal called the "target." X-rays are emitted as the electrons slow down (decelerate) in the metal. The output spectrum consists of a continuous spectrum of X-rays, with additional sharp peaks at certain energies (see graph on right). The continuous spectrum is due to bremsstrahlung, while the sharp peaks are characteristic X-rays associated with the atoms in the target. For this reason, bremsstrahlung in this context is also called continuous X-rays.
+The shape of this continuum spectrum is approximately described by Kramers' law.
+The formula for Kramers' law is usually given as the distribution of intensity (photon count)
+
+
+
+I
+
+
+{\displaystyle I}
+against the wavelength
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+of the emitted radiation:
+
+
+
+
+I
+(
+λ
+)
+d
+λ
+=
+K
+
+(
+
+
+
+λ
+
+λ
+
+m
+i
+n
+
+
+
+
+−
+1
+
+)
+
+
+
+1
+
+λ
+
+2
+
+
+
+
+d
+λ
+
+
+{\displaystyle I(\lambda )d\lambda =K\left({\frac {\lambda }{\lambda _{min}}}-1\right){\frac {1}{\lambda ^{2}}}d\lambda }
+
+The constant K is proportional to the atomic number of the target element, and
+
+
+
+
+λ
+
+m
+i
+n
+
+
+
+
+{\displaystyle \lambda _{min}}
+is the minimum wavelength given by the Duane–Hunt law.
+The spectrum has a sharp cutoff at
+
+
+
+
+λ
+
+m
+i
+n
+
+
+
+
+{\displaystyle \lambda _{min}}
+, which is due to the limited energy of the incoming electrons. For example, if an electron in the tube is accelerated through 60 kV, then it will acquire a kinetic energy of 60 keV, and when it strikes the target it can create X-rays with energy of at most 60 keV, by conservation of energy. (This upper limit corresponds to the electron coming to a stop by emitting just one X-ray photon. Usually the electron emits many photons, and each has an energy less than 60 keV.) A photon with energy of at most 60 keV has wavelength of at least 21 pm, so the continuous X-ray spectrum has exactly that cutoff, as seen in the graph. More generally the formula for the low-wavelength cutoff, the Duane-Hunt law, is:
+
+
+
+
+
+λ
+
+min
+
+
+=
+
+
+
+h
+c
+
+
+e
+V
+
+
+
+≈
+
+
+
+1239.8
+
+pm
+
+
+
+V
+
+in kV
+
+
+
+
+
+
+
+{\displaystyle \lambda _{\min }={\frac {hc}{eV}}\approx {\frac {1239.8{\text{ pm}}}{V{\text{ in kV}}}}\,}
+
+where h is Planck's constant, c is the speed of light, V is the voltage that the electrons are accelerated through, e is the elementary charge, and pm is picometres.

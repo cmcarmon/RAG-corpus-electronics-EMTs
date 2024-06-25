@@ -1,0 +1,23 @@
+maximum order of the (L/DL) dependency but at the cost, however, of requiring the computation to be repeated
+for  each  RHS.  We  also  emphasize  that  these  comparisons  consider  only  problems  involving  homogeneous
+objects, thereby providing a more favorable situation for IE models because their sampling dimensionality d
+= D – 1 for a problem dimensionality of D but which increases to d = D when an inhomogeneous object is
+modeled. Because of these and other factors that can lead to many different combinations of formulation and
+numerical treatment, the foregoing results should be viewed as only generic guidelines, with the computational
+characteristics of each speciﬁc model requiring individual analysis to obtain numerical values for the various
+Ax coefﬁcients and their (L/DL) dependency. It is relevant to observe that the lowest-order size dependency for
+three-dimensional problems is exhibited by the DE explicit time-domain model which is on the order of (L/DL)4.
+An additional factor that should be considered when choosing among computer models is the information
+needed for a particular application relative to the information provided by the model. A time-domain model,
+for example, can intrinsically provide a frequency response over a band of frequencies from a single calculation,
+whereas a frequency-domain model requires repeated evaluation at each of the frequencies required to deﬁne
+the wideband response. Iterative solution of the direct matrix may be preferable for problems involving only
+2  admittances of
+one, or a few, excitations such as is the case for antenna modeling, to avoid computing all Nx
+the solution matrix when only a single column of that matrix is needed. A DE-based model necessarily provides
+the “near” ﬁelds throughout the region being modeled, while an IE-based model requires additional compu-
+tations essentially the same as those done in ﬁlling the impedance matrix once the sources have been obtained
+to evaluate the near ﬁelds. For applications that require modest computer time and storage, these considerations
+may be relatively less important than those that strain available computer resources. Clearly, the overall objective
+from an applications viewpoint is to obtain the needed information at the required level of accuracy for the
+minimum overall cost.

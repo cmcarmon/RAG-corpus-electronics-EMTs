@@ -1,0 +1,7 @@
+Another method of demodulating pdm is by the use of a low-pass filter. If the voltage of a pulse
+waveform is averaged over both the pulse and no-pulse time, average voltage is the result. Since the
+amplitude of pdm pulses is constant, average voltage is directly proportional to pulse width. The pulse
+width varies with the modulation (intelligence) in pdm. Because the average value of the pulse train
+varies in accordance with the modulation, the intelligence may be extracted by passing the width-
+modulated pulses through a low-pass filter. The components of such a filter must be selected so that the
+filter passes only the desired modulation frequencies. As the varying-width pulses are applied to the low-

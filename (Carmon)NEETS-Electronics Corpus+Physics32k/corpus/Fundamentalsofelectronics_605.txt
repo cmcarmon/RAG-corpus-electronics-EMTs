@@ -1,0 +1,8 @@
+2 -length DFT. The ﬁrst one is a DFT of the even-numbered
+Each term in square brackets has the form of a N
+elements, and the second of the odd-numbered elements. The ﬁrst DFT is combined with the second
+2πk
+multiplied by the complex exponential e
+N . The half-length transforms are each evaluated at frequency
+indices k = 0, . . ., N −1. Normally, the number of frequency indices in a DFT calculation range between zero
+and the transform length minus one. The computational advantage of the FFT comes from recognizing

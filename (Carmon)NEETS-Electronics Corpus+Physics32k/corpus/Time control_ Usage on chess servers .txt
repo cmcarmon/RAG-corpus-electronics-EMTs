@@ -1,0 +1,2 @@
+On chess servers (like Internet Chess Club and Free Internet Chess Server) the time control is usually expressed with a formula: time+increment. Where time is a fixed amount of time (in minutes) assigned at move 0 for the entire game, and increment (in seconds) is the amount added after each move.
+A game can even have a time set to 0: the clock is set to 0 and started after the first move with the increment only on both sides, and each move each player is granted only the increment: a 0+10 is a game where after the first move each player has 10 seconds to move.

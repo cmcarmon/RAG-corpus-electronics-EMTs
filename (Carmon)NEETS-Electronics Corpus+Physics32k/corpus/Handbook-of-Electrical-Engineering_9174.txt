@@ -1,0 +1,5 @@
+The CardTerminal layer plays the role of the driver and the reader manufacturer should provide it. It offers
+an interface that enables the seamless integration of the reader in the OCF environment. With OCF-compliant
+interfaces, a speciﬁc card terminal gives access to the reader and the smart card. A CardTerminal can also act
+as  a  bridge  to  provide  a  transparent  access  to  a  reader  through  the  PCSC  interface  to  take  advantage  of  the
+existing components.

@@ -1,0 +1,13 @@
+The key reason why digital signal processing systems have a technological advantage today is the com-
+puter: computations, like the Fourier transform, can be performed quickly enough to be calculated as the
+signal is produced,2 and programmability means that the signal processing system can be easily changed.
+This ﬂexibility has obvious appeal, and has been widely accepted in the marketplace. Programmability
+means that we can perform signal processing operations impossible with analog systems (circuits). We will
+also discover that digital systems enjoy an algorithmic advantage that contributes to rapid processing
+speeds: Computations can be restructured in non-obvious ways to speed the processing. This ﬂexibility
+comes at a price, a consequence of how computers work. How do computers perform signal processing?
+5.2 Introduction to Computer Organization3
+5.2.1 Computer Architecture
+To understand digital signal processing systems, we must understand a little about how computers compute.
+The modern deﬁnition of a computer is an electronic device that performs calculations on data, presenting
+the results to humans or other computers in a variety of (hopefully useful) ways.

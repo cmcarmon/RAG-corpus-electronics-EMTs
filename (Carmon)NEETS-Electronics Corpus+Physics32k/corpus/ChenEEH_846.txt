@@ -1,0 +1,9 @@
+Technically, the clock skew TSkew (i, j) can be calculated for any
+ordered pair of registers hRi, Rji. However, the clock skew
+between a nonsequential pair of registers has little practical
+value. The clock skew TSkew (i, j) between sequentially adjacent
+pairs of registers Ri?Rj (that is, a local data path) is of
+primary practical importance since TSkew(i, j) is part of the
+timing constraints of these paths (Friedman, 1995, 1990;
+Afghani and Svensson, 1990; Unger and Tan, 1986; Kourtev,
+1999; Kourtev and Friedman, 1996).

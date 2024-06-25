@@ -1,0 +1,24 @@
+■ METHOD 1 One  way  is  to  ﬁrst  do  the  dc  PSpice analysis  to
+determine the initial capacitor voltage. The schematic of the revelant
+circuit  is  in  Fig.  7.68(a).  Two  pseudocomponent  VIEWPOINTs  are
+inserted to measure the voltages at nodes 1 and 2. When the circuit
+is  simulated,  we  obtain  the  displayed  values  in  Fig.  7.68(a)  as
+v(0) ⫽
+V1 ⫽ 0 V
+V1 ⫺ V2  ⫽ ⫺8 V.
+The PSpice transient analysis uses this value along
+with  the  schematic  in  Fig.  7.68(b).  Once  the  circuit  in  Fig.  7.68(b)
+is  drawn,  we  insert  the  capacitor  initial  voltage  as 
+We
+select  Analysis/Setup/Transient and  set  Print  Step to  0.1  s  and
+After saving the circuit, we select Analysis/
+Final Step to 
+Simulate to  simulate  the  circuit.  In  the  PSpice A/D  window,  we
+V(R2:2) ⫺ V(R3:2) or V(C1:1) ⫺
+select  Trace/Add and  display 
+v(t).
+is  shown  in
+as  the  capacitor  voltage 
+V(C1:2)
+Fig.  7.69.  This  agrees  with  the  result  obtained  by  hand  calculation,
+v(t) ⫽ 10 ⫺ 18 e⫺t V.

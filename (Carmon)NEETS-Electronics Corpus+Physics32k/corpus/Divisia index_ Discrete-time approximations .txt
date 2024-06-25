@@ -1,0 +1,53 @@
+In practices, discrete time analogues to Divisia indexes are the ones computed and used. To define and compute changes in a discrete time index closely analogous to a Divisia index from time 0 to time 1:
+Gather price and quantity for each component, using measures that have been adjusted for quality change if possible
+Compute cost/price/expenditure fractions for each component at time 1 and time 2. Average the time-1 and time-2 fractions for each component. Use those averages as the 'weights' for the component. Define the weights to be averages of expenditures shares or cost shares over the period of change:
+
+
+
+
+
+s
+
+j
+,
+t
+
+
+∗
+
+
+=
+
+
+1
+2
+
+
+(
+
+s
+
+j
+,
+t
+
+
++
+
+s
+
+j
+,
+t
+−
+1
+
+
+)
+
+
+{\displaystyle s_{j,t}^{*}={\frac {1}{2}}(s_{j,t}+s_{j,t-1})}
+
+
+(See, for example, Divisia monetary aggregates index.)
+The value of the index at time 0 is an arbitrary normalization, usually chosen to be 1 or 100 which makes it easier to make quick inferences about overall fractional or percentage changes.

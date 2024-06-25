@@ -1,0 +1,10 @@
+The identical circuit can also be used to recover a carrier for
+a GMSK system. (de Buda, 1972; Murota and Hirade, 1981;
+Pasupathy, 1979). The next step is to recover data time or bit
+synchronization. Most communication systems transmit a se-
+quence of zeros and ones in an alternating pattern to enable
+the receiver to maintain bit synchronization. A PLL operating
+at the bit timing is used to maintain timing. Once the PLL is
+synchronized on the received 101010 . . . pattern (Figure 4.17),
+it will remain synchronized on any other patterns except for
+long sequences of all zeros or all ones.

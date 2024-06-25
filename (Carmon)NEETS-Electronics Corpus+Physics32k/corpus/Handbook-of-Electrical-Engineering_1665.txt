@@ -1,0 +1,11 @@
+Nonlinear Filters
+Considering the frequently disappointing performance of the EKF noted in the previous section, there has been
+intense  research  to  develop  better  nonlinear  ﬁlters. An  exact  nonlinear  recursive  ﬁlter  was  derived  by Bene˘s
+(for a certain class of nonlinear problems) in a seminal paper [1981]. The Bene˘s ﬁlter is “exact” in the sense
+that  it  computes  an  optimal  estimate  of  x,  without  any  approximations,  in  contrast  to  the  EKF,  which  uses
+linear approximations. A generalization of the Bene˘s ﬁlter and the Kalman ﬁlter was developed by Daum [1986a;
+1986b]. Figure 16.3 shows the superior performance of this new nonlinear ﬁlter compared to the EKF for certain
+practical applications; see Schmidt [1993] for details. A more general class of exact nonlinear recursive ﬁlters
+is based on the exponential family of probability densities. The  Kalman ﬁlter theory  is  based on a Gaussian
+density, which is a special case of the exponential family; see Daum [1988; 1997a, b] for a development of this
+theory, which is summarized in Table 16.2.

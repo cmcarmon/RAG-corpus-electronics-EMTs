@@ -1,0 +1,33 @@
+Ignoring the torque on an element due to the flow ("extrinsic" torque), the viscous "intrinsic" torque per unit volume on a fluid element is written (as an antisymmetric tensor) as
+
+
+
+
+
+τ
+
+i
+j
+
+
+=
+
+ε
+
+i
+j
+
+
+−
+
+ε
+
+j
+i
+
+
+
+
+{\displaystyle \tau _{ij}=\varepsilon _{ij}-\varepsilon _{ji}}
+
+and represents the rate of change of intrinsic angular momentum density with time. If the particles have rotational degrees of freedom, this will imply an intrinsic angular momentum and if this angular momentum can be changed by collisions, it is possible that this intrinsic angular momentum can change in time, resulting in an intrinsic torque that is not zero, which will imply that the viscous stress tensor will have an antisymmetric component with a corresponding rotational viscosity coefficient. If the fluid particles have negligible angular momentum or if their angular momentum is not appreciably coupled to the external angular momentum, or if the equilibration time between the external and internal degrees of freedom is practically zero, the torque will be zero and the viscous stress tensor will be symmetric. External forces can result in an asymmetric component to the stress tensor (e.g. ferromagnetic fluids which can suffer torque by external magnetic fields).

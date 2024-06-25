@@ -1,0 +1,29 @@
+The primary goal of Sylvester and Keutzer (2000) was to
+examine global interconnect effects and determine if there
+were any signiﬁcant road blocks that would prevent National
+Technology Roadmap for Semiconductors (NTRS) perfor-
+mance expectations from being met. Their analysis revealed
+that due to global RC delays as well as time-of-ﬂight consider-
+ations, the global clock would necessarily be slower than the
+achievable local clock frequency. In addition, they found that
+cross talk at the global level would not be as signiﬁcant as at the
+local level due to the use of large repeaters—their capacitance
+would dampen the effects of coupling capacitance. Sylvester
+and Keutzer (2000) proposed a wiring hierarchy that comple-
+mented the modular design methodology that they proposed
+in 1998. This modular methodology proposed the use of
+50,000 to 100,000 gate modules of logic to eliminate the
+impact of interconnect at the local level. These modules are
+arranged together in isochronous (or locally clocked) regions,
+which run at a higher clock speed than the global clock. These
+isochronous regions come together to form the entire design.
+Cong et al. (2001) presented a multilayer gridless detailed
+routing system for deep submicrometer physical designs. Their
+detailed routing system used a hybrid approach consisting
+of two parts: (1) an efﬁcient variable-width variable-spacing
+detailed routing engine and (2) a wire-planning algorithm
+providing high-level guidance as well as rip-up and reroute
+capabilities. They used a nonuniform grid graph, which has
+proven to guarantee a gridless connection of the minimum
+cost in multilayer variable-width and variable-spacing rout-
+ing problems. They suggested further improving their wire-

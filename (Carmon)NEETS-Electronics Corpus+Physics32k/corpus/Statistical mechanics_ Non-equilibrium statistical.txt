@@ -1,0 +1,10 @@
+There are many physical phenomena of interest that involve quasi-thermodynamic processes out of equilibrium, for example:
+heat transport by the internal motions in a material, driven by a temperature imbalance,
+electric currents carried by the motion of charges in a conductor, driven by a voltage imbalance,
+spontaneous chemical reactions driven by a decrease in free energy,
+friction, dissipation, quantum decoherence,
+systems being pumped by external forces (optical pumping, etc.),
+and irreversible processes in general.
+All of these processes occur over time with characteristic rates, and these rates are of importance for engineering. The field of non-equilibrium statistical mechanics is concerned with understanding these non-equilibrium processes at the microscopic level. (Statistical thermodynamics can only be used to calculate the final result, after the external imbalances have been removed and the ensemble has settled back down to equilibrium.)
+In principle, non-equilibrium statistical mechanics could be mathematically exact: ensembles for an isolated system evolve over time according to deterministic equations such as Liouville's equation or its quantum equivalent, the von Neumann equation. These equations are the result of applying the mechanical equations of motion independently to each state in the ensemble. Unfortunately, these ensemble evolution equations inherit much of the complexity of the underlying mechanical motion, and so exact solutions are very difficult to obtain. Moreover, the ensemble evolution equations are fully reversible and do not destroy information (the ensemble's Gibbs entropy is preserved). In order to make headway in modelling irreversible processes, it is necessary to consider additional factors besides probability and reversible mechanics.
+Non-equilibrium mechanics is therefore an active area of theoretical research as the range of validity of these additional assumptions continues to be explored. A few approaches are described in the following subsections.

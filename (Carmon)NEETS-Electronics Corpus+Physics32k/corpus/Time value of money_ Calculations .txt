@@ -1,0 +1,68 @@
+Time value of money problems involve the net value of cash flows at different points in time.
+In a typical case, the variables might be: a balance (the real or nominal value of a debt or a financial asset in terms of monetary units), a periodic rate of interest, the number of periods, and a series of cash flows. (In the case of a debt, cash flows are payments against principal and interest; in the case of a financial asset, these are contributions to or withdrawals from the balance.) More generally, the cash flows may not be periodic but may be specified individually. Any of these variables may be the independent variable (the sought-for answer) in a given problem. For example, one may know that: the interest is 0.5% per period (per month, say); the number of periods is 60 (months); the initial balance (of the debt, in this case) is 25,000 units; and the final balance is 0 units. The unknown variable may be the monthly payment that the borrower must pay.
+For example, £100 invested for one year, earning 5% interest, will be worth £105 after one year; therefore, £100 paid now and £105 paid exactly one year later both have the same value to a recipient who expects 5% interest assuming that inflation would be zero percent. That is, £100 invested for one year at 5% interest has a future value of £105 under the assumption that inflation would be zero percent.
+This principle allows for the valuation of a likely stream of income in the future, in such a way that annual incomes are discounted and then added together, thus providing a lump-sum "present value" of the entire income stream; all of the standard calculations for time value of money derive from the most basic algebraic expression for the present value of a future sum, "discounted" to the present by an amount equal to the time value of money. For example, the future value sum
+
+
+
+F
+V
+
+
+{\displaystyle FV}
+to be received in one year is discounted at the rate of interest
+
+
+
+r
+
+
+{\displaystyle r}
+to give the present value sum
+
+
+
+P
+V
+
+
+{\displaystyle PV}
+:
+
+
+
+
+P
+V
+=
+
+
+
+F
+V
+
+
+(
+1
++
+r
+)
+
+
+
+
+
+{\displaystyle PV={\frac {FV}{(1+r)}}}
+
+Some standard calculations based on the time value of money are:
+Present value: The current worth of a future sum of money or stream of cash flows, given a specified rate of return. Future cash flows are "discounted" at the discount rate; the higher the discount rate, the lower the present value of the future cash flows. Determining the appropriate discount rate is the key to valuing future cash flows properly, whether they be earnings or obligations.
+Present value of an annuity: An annuity is a series of equal payments or receipts that occur at evenly spaced intervals. Leases and rental payments are examples. The payments or receipts occur at the end of each period for an ordinary annuity while they occur at the beginning of each period for an annuity due.
+Present value of a perpetuity is an infinite and constant stream of identical cash flows.
+Future value: The value of an asset or cash at a specified date in the future, based on the value of that asset in the present.
+Future value of an annuity (FVA): The future value of a stream of payments (annuity), assuming the payments are invested at a given rate of interest.
+There are several basic equations that represent the equalities listed above. The solutions may be found using (in most cases) the formulas, a financial calculator or a spreadsheet. The formulas are programmed into most financial calculators and several spreadsheet functions (such as PV, FV, RATE, NPER, and PMT).
+For any of the equations below, the formula may also be rearranged to determine one of the other unknowns. In the case of the standard annuity formula, there is no closed-form algebraic solution for the interest rate (although financial calculators and spreadsheet programs can readily determine solutions through rapid trial and error algorithms).
+These equations are frequently combined for particular uses. For example, bonds can be readily priced using these equations. A typical coupon bond is composed of two types of payments: a stream of coupon payments similar to an annuity, and a lump-sum return of capital at the end of the bond's maturity—that is, a future payment. The two formulas can be combined to determine the present value of the bond.
+An important note is that the interest rate i is the interest rate for the relevant period. For an annuity that makes one payment per year, i will be the annual interest rate. For an income or payment stream with a different payment schedule, the interest rate must be converted into the relevant periodic interest rate. For example, a monthly rate for a mortgage with monthly payments requires that the interest rate be divided by 12 (see the example below). See compound interest for details on converting between different periodic interest rates.
+The rate of return in the calculations can be either the variable solved for, or a predefined variable that measures a discount rate, interest, inflation, rate of return, cost of equity, cost of debt or any number of other analogous concepts. The choice of the appropriate rate is critical to the exercise, and the use of an incorrect discount rate will make the results meaningless.
+For calculations involving annuities, you must decide whether the payments are made at the end of each period (known as an ordinary annuity), or at the beginning of each period (known as an annuity due). If you are using a financial calculator or a spreadsheet, you can usually set it for either calculation. The following formulas are for an ordinary annuity. If you want the answer for the present value of an annuity due, you can simply multiply the PV of an ordinary annuity by (1 + i).

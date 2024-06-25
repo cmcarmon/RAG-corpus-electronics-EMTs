@@ -1,0 +1,34 @@
+The general solution of the first equation can be expressed as the gradient of a scalar potential U(r):
+
+Inside the magnetic body, the potential Uin is determined by substituting (3) and (4) in (2):
+
+Outside the body, where the magnetization is zero,
+
+At the surface of the magnet, there are two continuity requirements:
+The component of H parallel to the surface must be continuous (no jump in value at the surface).
+The component of B perpendicular to the surface must be continuous.
+This leads to the following boundary conditions at the surface of the magnet:
+
+Here n is the surface normal and
+
+
+
+
+
+(
+
+∂
+
+/
+
+∂
+n
+
+)
+
+
+
+
+{\displaystyle \scriptstyle \left(\partial /\partial n\right)}
+is the derivative with respect to distance from the surface.
+The outer potential Uout must also be regular at infinity: both |r U| and |r2 U| must be bounded as r goes to infinity. This ensures that the magnetic energy is finite. Sufficiently far away, the magnetic field looks like the field of a magnetic dipole with the same moment as the finite body.

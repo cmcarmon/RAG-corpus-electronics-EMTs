@@ -1,0 +1,7 @@
+The major difference between the monopulse receiver and the conventional receiver is the
+requirement for a dc error voltage output from the bearing and elevation channels. The range channel of a
+monopulse receiver is sent to a conventional ranging circuit for presentation are on an indicator or for use
+by a range-tracking circuit. However, since most monopulse radars are automatic tracking radars, the
+outputs of the bearing and elevation channels must be converted to dc error signals for use by automatic
+bearing and elevation tracking systems. The dc error voltages are applied to the antenna bearing and
+elevation positioning servos. These servos reposition the antenna until the errors are nulled.

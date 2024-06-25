@@ -1,0 +1,7 @@
+The functional blocks of a ﬂash A/D converter are shown in Fig. 32.2. The circuitry consists of a precision
+– 1 analog comparators, and a digital priority encoder. The resistor network estab-
+resistor ladder network, 2
+lishes threshold voltages for each allowed quantization level. The analog comparators indicate whether or not
+the input analog voltage is above or below the threshold at each level. The output of the analog comparators
+is input to the digital priority encoder. The priority encoder produces the ﬁnal digital output code that is stored
+in an output latch.

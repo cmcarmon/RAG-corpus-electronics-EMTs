@@ -1,0 +1,46 @@
+Breaking the mechanism up into separate vectors and components allows us to create a kinematic analysis that can solve for the maximum velocity, acceleration, and force the mechanism is capable of in three-dimensional space. Most of the equations involved in the quick return mechanism setup originate from Hamilton's principle.
+The position of the arm can be found at different times using the substitution of Euler's formula:
+
+
+
+
+
+e
+
+i
+θ
+
+
+=
+cos
+⁡
+θ
++
+i
+sin
+⁡
+θ
+
+
+{\displaystyle e^{i\theta }=\cos \theta +i\sin \theta }
+
+into the different components that have been pre-determined, according to the setup.
+This substitution can solve for various radii and components of the displacement of the arm at different values. Trigonometry is needed for the complete understanding of the kinematic analyses of the mechanism, where the entire design can be transcribed onto a plane layout, highlighting all of the vector components.
+An important concept for the analysis of the velocity of the disc relative to the arm is the angular velocity of the disc:
+
+
+
+
+ω
+=
+
+
+v
+r
+
+
+
+
+{\displaystyle \omega ={\frac {v}{r}}}
+
+If one desires to calculate the velocity, one must derive the angles of interaction at a single moment of time, making this equation useful.

@@ -1,0 +1,5 @@
+Although Ncycle seems to depend on the scheduling vector ~ss
+only, the question on how many PEs are used and how the data
+are delivered to the right PE still remain. In the 1-D or linear
+array mapping, the number of PEs, NPE, can be obtained
+explicitly as follows:

@@ -1,0 +1,14 @@
+There are four main components of ABS: wheel speed sensors, valves, a pump, and a controller.
+
+Speed sensors
+A speed sensor is used to determine the acceleration or deceleration of the wheel. These sensors use a magnet and a Hall effect sensor, or a toothed wheel and an electromagnetic coil to generate a signal. The rotation of the wheel or differential induces a magnetic field around the sensor. The fluctuations of this magnetic field generate a voltage in the sensor. Since the voltage induced in the sensor is a result of the rotating wheel, this sensor can become inaccurate at slow speeds. The slower rotation of the wheel can cause inaccurate fluctuations in the magnetic field and thus cause inaccurate readings to the controller.
+Valves
+There is a valve in the brake line of each brake controlled by the ABS. On some systems, the valve has three positions:
+In position one, the valve is open; pressure from the master cylinder is passed right through to the brake.
+In position two, the valve blocks the line, isolating that brake from the master cylinder. This prevents the pressure from rising further should the driver push the brake pedal harder.
+In position three, the valve releases some of the pressure from the brake.
+The majority of problems with the valve system occur due to clogged valves. When a valve is clogged it is unable to open, close, or change position. An inoperable valve will prevent the system from modulating the valves and controlling pressure supplied to the brakes.
+Pump
+The pump in the ABS is used to restore the pressure to the hydraulic brakes after the valves have released it. A signal from the controller will release the valve at the detection of wheel slip. After a valve releases the pressure supplied from the user, the pump is used to restore a desired amount of pressure to the braking system. The controller will modulate the pump's status in order to provide the desired amount of pressure and reduce slipping.
+Controller
+The controller is an ECU type unit in the car which receives information from each individual wheel speed sensor. If a wheel loses traction, the signal is sent to the controller. The controller will then limit the brake force (EBD) and activate the ABS modulator which actuates the braking valves on and off.

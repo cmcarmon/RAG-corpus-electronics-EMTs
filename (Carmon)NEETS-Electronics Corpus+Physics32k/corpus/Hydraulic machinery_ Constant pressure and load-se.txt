@@ -1,0 +1,55 @@
+The closed center circuits exist in two basic configurations, normally related to the regulator for the variable pump that supplies the oil:
+Constant pressure systems (CP-system), standard. Pump pressure always equals the pressure setting for the pump regulator. This setting must cover the maximum required load pressure. Pump delivers flow according to required sum of flow to the consumers. The CP-system generates large power losses if the machine works with large variations in load pressure and the average system pressure is much lower than the pressure setting for the pump regulator. CP is simple in design. Works like a pneumatic system. New hydraulic functions can easily be added and the system is quick in response.
+Constant pressure systems (CP-system), unloaded. Same basic configuration as 'standard' CP-system but the pump is unloaded to a low stand-by pressure when all valves are in neutral position. Not so fast response as standard CP but pump lifetime is prolonged.
+Load-sensing systems (LS-system) generates less power losses as the pump can reduce both flow and pressure to match the load requirements, but requires more tuning than the CP-system with respect to system stability. The LS-system also requires additional logical valves and compensator valves in the directional valves, thus it is technically more complex and more expensive than the CP-system. The LS-system generates a constant power loss related to the regulating pressure drop for the pump regulator :
+
+
+
+
+P
+o
+w
+e
+r
+l
+o
+s
+s
+=
+Δ
+
+p
+
+L
+S
+
+
+⋅
+
+Q
+
+t
+o
+t
+
+
+
+
+{\displaystyle Powerloss=\Delta p_{LS}\cdot Q_{tot}}
+
+The average
+
+
+
+Δ
+
+p
+
+L
+S
+
+
+
+
+{\displaystyle \Delta p_{LS}}
+is around 2 MPa (290 psi). If the pump flow is high the extra loss can be considerable. The power loss also increases if the load pressures vary a lot. The cylinder areas, motor displacements and mechanical torque arms must be designed to match load pressure in order to bring down the power losses. Pump pressure always equals the maximum load pressure when several functions are run simultaneously and the power input to the pump equals the (max. load pressure + ΔpLS) x sum of flow.

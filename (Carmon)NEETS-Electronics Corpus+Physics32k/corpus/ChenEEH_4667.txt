@@ -1,0 +1,10 @@
+In addition, the y(k) is the system output, the u(k) is the
+control input satisfying u(k) 2 Su  R, the Sl and Su denote
+complex sets, the n and m are constants that are not necessarily
+known, and the d is the (known) relative degree of the system.
+The control objective is to have the system output y(k) track
+a known reference input r(k). Speciﬁcally, the objective of
+sliding-mode control is to steer the system state trajectories
+in a sliding surface that is deﬁned in terms of a stable polyno-
+mial of the tracking error and to maintain the subsequent
+motion of the state trajectories on this surface.

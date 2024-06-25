@@ -1,0 +1,7 @@
+Structured Techniques
+An alternate approach to improving the testability of digital circuits is to carry out the circuit design by following
+certain rules that, by construction, assure high testability of the resulting circuits. Since the main problem in
+achieving testability of a digital circuit is achieving adequate controllability/observability of its internal nodes,
+structured DFT approaches [Bardell and McAnney, 1978] follow strict design rules that are aimed at achieving
+this goal. Furthermore, most structured DFT approaches require/recommend additional design rules aimed at
+preventing incorrect circuit operation as a result of signal races and hazards.

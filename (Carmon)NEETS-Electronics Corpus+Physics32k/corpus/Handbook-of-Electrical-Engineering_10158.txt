@@ -1,0 +1,18 @@
+Adaptive Control
+In  an  attempt  to  reduce  the  errors  caused  by  the  mis-
+match of the model with the real system, several adaptive
+control schemes have been investigated. Model reference
+adaptive  control  (MRAC)  is  one  such  approach.
+Dubowsky  and  DesForges  [1979]  were  the  ﬁrst  to  use
+this  method  for  manipulator  control.  This  method  is
+illustrated in Fig. 101.18. They have chosen a linear sec-
+ond-order  system  with  desired z  and wn  as  a  reference
+model for each joint. Their scheme works as long as the
+manipulator changes conﬁguration slowly relative to the
+adaptation  rate.  Since  then  several  researchers  have
+extended the concepts well developed for linear systems
+to manipulator control. Two aspects that are central to
+all these methods are identiﬁcation of the plant or its parameters and use of this new information to update
+the control law. An extensive review of recent work in this area is given by Craig [1988] and Hsia [1986]. In
+spite of many approaches suggested for this problem, no attempt has been made to implement these methods
+by the robot industry.

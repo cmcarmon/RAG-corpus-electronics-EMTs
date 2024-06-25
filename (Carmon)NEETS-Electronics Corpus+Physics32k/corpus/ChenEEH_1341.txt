@@ -1,0 +1,19 @@
+Figure 2.1 shows a block diagram of a typical SMP machine
+as would be found in a Pentium-based ﬁle server. The common
+time-shared bus provides the simplest and most cost-effective
+way to interconnect the processors together. It also, however,
+limits the number of processors that can be used. Since all
+memory and I/O references pass through the shared bus, the
+performance of the system is limited by the maximum band-
+width of this bus. One way to alleviate the shared bus bottle-
+neck is the extensive use of cache memory. Most SMP systems
+have at least two levels of cache memory as shown in Figure
+2.1. Typically level 1 cache is on the same chip as the processor,
+and level 2 cache may or may not be internal to the processor.
+Using cache memory in a multiprocessor system introduces
+the problem of cache coherency: how to guarantee that when a
+data in a speciﬁc cache are altered, this change is reﬂected in
+other caches and in main memory. The problem of cache
+cherency is examined in detail in Section 2.3. Table 2.1 sum-
+marizes the key speciﬁcations of some SMP systems available
+in 1999.

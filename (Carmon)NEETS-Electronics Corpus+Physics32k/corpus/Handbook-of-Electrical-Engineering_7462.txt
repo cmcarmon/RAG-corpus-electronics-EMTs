@@ -1,0 +1,12 @@
+samples of a continuous stochastic process, such as Gaussian noise. A structure for producing these samples is
+shown in Fig. 78.8. In this case the BSR has been replaced by an LCA [Knuth, 1981]. The LCA is very similar
+to BSR in that it requires a seed value, is clocked once for each symbol generated, and will generate a periodic
+sequence.  One  can  generate  a  white  noise  process  with  an  arbitrary  ﬁrst-order  probability  density  function
+(pdf) by passing the output of the LCA through an appropriately designed nonlinear, memoryless mapping.
+Simple and well-documented algorithms exist for the uniform to Gaussian mapping. If one wishes to generate
+a  nonwhite  process,  the  output  can  be  passed  through  the  appropriate  ﬁlter.  Generation  of  a  wide-sense
+stationary  Gaussian  stochastic  process  with  a  speciﬁed  power  spectral  density  is  a  well-understood  and 
+-documented problem. It is also straightforward to generate a white sequence with an arbitrary ﬁrst-order pdf
+or  to  generate  a  speciﬁed  power  spectral  density  if  one  does  not  attempt  to  control  the  pdf.  However,  the
+problem of generating a noise source with an arbitrary pdf and an arbitrary power spectral density is a signiﬁcant
+challenge [Sondhi, 1983].

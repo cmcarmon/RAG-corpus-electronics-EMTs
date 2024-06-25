@@ -1,0 +1,21 @@
+The ‘‘Hidden’’ and Observable Random Processes Associated
+with an HMM
+A diagram of a typical HMM with six states is shown in Figure
+3.11. The states are labeled by integers. The structure, or
+topology, of the HMM is determined by its allowable state
+transitions, and speech-related HMMs almost always have a
+left-to-right or Bakis (Bakis, 1976) topology in keeping with
+the natural temporal ordering of events in an utterance. Two
+slightly different forms of the HMM are used. The one usually
+(but not always) discussed for acoustic processing (modeling
+the signal, as we are doing here) emits an observation upon
+arrival at each successive state. (It also emits one from the
+initial state at the outset.) The alternative form, generally
+employed in language processing, emits an observation during
+the transition. The state emitter form of the model is called
+a Moore machine in automata theory, while the transition
+emitter form is a Mealy machine (Hopcroft and Ullman,
+1979). Throughout the rest of this discussion, we will discuss
+the Moore form. The differences in algorithms associated
+with the two forms are largely a matter of interpretations of
+quantities.

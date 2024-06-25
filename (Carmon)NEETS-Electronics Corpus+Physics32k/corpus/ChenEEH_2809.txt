@@ -1,0 +1,11 @@
+referred to as the ‘‘reﬂection error’’ since it is a nonphysical
+reﬂection due to the PEC wall that backs the PML. We note
+that the reﬂection error is the same for both the split-ﬁeld PML
+and the UPML, because both support the same wave equation.
+This error decreases exponentially with sw and d. However, the
+reﬂection error increases as exp(cos u), reaching the worst case
+for u ¼ 90. At this grazing angle of incidence, R ¼ 1 and the
+PML is completely ineffective. To be useful in an FDTD simula-
+tion, we want R(u) to be as small as possible. Clearly, for a thin
+PML, we must have sw as large as possible to reduce R(u) to
+acceptably small levels, especially for u approaching 908.

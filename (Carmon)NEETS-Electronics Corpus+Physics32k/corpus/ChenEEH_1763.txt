@@ -1,0 +1,24 @@
+Need for Higher Bandwidth
+Multimedia applications require signiﬁcantly higher band-
+widths than conventional textual applications of the past.
+Moreover, media streams are transmitted using UDP that
+does not have any mechanism to control congestion. The
+communication network must be able to handle such high
+bandwidth requirements without being unfair to other con-
+ventional ﬂows. Table 7.5 summarizes the bandwidth require-
+ments of
+some common audio/video media types. We
+discussed several compression schemes that take advantage of
+spatial/temporal redundancy present in audio/video media,
+but the compressed media still requires signiﬁcantly higher
+bandwidth than what is typically required for text-oriented
+services. Moreover, compression schemes cannot be expected
+to be used for all multimedia transmissions. There are two
+types of compression techniques: lossy and lossless. The lossy
+compression techniques eliminate redundant
+information
+from data and subsequently introduce distortion or noise in
+the original data. The lossless compression techniques do
+not loose any information, and data received by the user is
+exactly identical to the original data. Lossy compression usu-
+ally yields signiﬁcantly higher compression ratios than lossless

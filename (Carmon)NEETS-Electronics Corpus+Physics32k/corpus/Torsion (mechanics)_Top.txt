@@ -1,0 +1,55 @@
+In the field of solid mechanics, torsion is the twisting of an object due to an applied torque. Torsion is expressed in newtons per square metre (Pa) or pounds per square inch (psi) while torque is expressed in newton metres (N·m) or foot-pound force (ft·lbf). In sections perpendicular to the torque axis, the resultant shear stress in this section is perpendicular to the radius.
+In non-circular cross-sections, twisting is accompanied by a distortion called warping, in which transverse sections do not remain plane. For shafts of uniform cross-section unrestrained against warping, the torsion is:
+
+
+
+
+T
+=
+
+
+
+J
+
+T
+
+
+r
+
+
+τ
+=
+
+
+
+J
+
+T
+
+
+ℓ
+
+
+G
+φ
+
+
+{\displaystyle T={\frac {J_{\text{T}}}{r}}\tau ={\frac {J_{\text{T}}}{\ell }}G\varphi }
+
+where:
+T is the applied torque or moment of torsion in Nm.
+
+
+
+
+τ
+
+
+{\displaystyle \tau }
+is the maximum shear stress at the outer surface
+JT is the torsion constant for the section. It is almost equal to the second moment of area Jz = Iz for twisting about axis z. For more accuracy, finite element analysis (FEA) is the best method. Other calculation methods include membrane analogy and shear flow approximation.
+r is the distance between the rotational axis and the farthest point in the section (at the outer surface).
+ℓ is the length of the object the torque is being applied to or over.
+φ is the angle of twist in radians.
+G is the shear modulus, also called the modulus of rigidity, and is usually given in gigapascals (GPa), lbf/in2 (psi), or lbf/ft2.
+The product JTG is called the torsional rigidity wT.

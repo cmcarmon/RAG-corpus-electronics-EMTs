@@ -1,0 +1,8 @@
+The Maximum a Posteriori (MAP) framework naturally incorporates prior information into the estimation
+process, which is particularly useful for dealing with problems posed by sparse training data, where ML estimates
+become inaccurate. MAP parameter estimates approah the ML estimates when data is plentiful, but are governed
+by the prior information in the absence of data. If l
+ is the parameter vector to be estimated from the observation
+O with probability density function (pdf) f(O|l ) and g is the prior pdf of l
+, then the MAP estimate is deﬁned
+as the maximum of the posterior pdf of l

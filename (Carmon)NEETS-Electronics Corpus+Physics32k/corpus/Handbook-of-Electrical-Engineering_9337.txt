@@ -1,0 +1,7 @@
+Bottom-up testing proceeds by ﬁrst testing all those modules that do not depend on other modules (except
+library modules). One then proceeds always testing those modules that use only modules already tested earlier.
+Testing of each (sub)program must exercise all statements of the program, and it must ensure that the program
+handles all exceptional responses from supporting subprograms correctly. For each module a driver program
+must  be  written  that  invokes  the  module’s  functions  and  procedures  in  an  appropriate  way.  If  a  program  is
+developed in a top-down fashion, this method cannot be used until a substantial part of the project is completed.
+Thus design ﬂaws may not be detected until corrections have become difﬁcult and costly.

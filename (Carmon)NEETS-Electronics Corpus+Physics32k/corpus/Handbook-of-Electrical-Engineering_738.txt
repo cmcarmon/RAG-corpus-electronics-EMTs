@@ -1,0 +1,9 @@
+Our immediate problem is to choose the network variables as the state variables in order to formulate the state
+  of  the
+equations.  If  we  call  the  set  of  instantaneous  values  of  all  the  branch  currents  and  voltages  the 
+network, then the knowledge of the instantaneous values of all these variables determines this instantaneous
+state. Not all of these instantaneous values are required in order to determine the instantaneous state, however,
+because some can be calculated from the others. For example, the instantaneous voltage of a resistor can be
+obtained from its instantaneous current through Ohm’s law. The question arises as to the minimum number
+of instantaneous values of branch voltages and currents that are sufﬁcient to determine completely the instan-
+taneous state of the network.

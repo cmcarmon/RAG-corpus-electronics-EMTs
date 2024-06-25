@@ -1,0 +1,8 @@
+Level 8 is concerned with communication between pro-
+cesses, which can be arranged through a single mechanism
+called a pipe. A pipe is a one-way channel: data streams in
+one end and out the other. A request to read items is delayed
+until items are actually in the pipe. A pipe can connect two
+processes of the same machine or of different machines equally
+well. Pipes are implemented in UNIX, MS-DOS, and many
+other systems.

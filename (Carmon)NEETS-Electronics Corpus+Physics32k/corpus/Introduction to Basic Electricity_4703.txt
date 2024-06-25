@@ -1,0 +1,8 @@
+The program counter is a 16-bit register that 
+contains the address of the instruction fetched from 
+memory. While the instruction is being carried out, 
+the program counter is incremented by one for the 
+next instruction address. The program counter can 
+only be incremented. However, the sequence of the 
+instructions can be changed by the use of branch or 
+jump instructions.

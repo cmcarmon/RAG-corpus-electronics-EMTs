@@ -1,0 +1,10 @@
+Heap. When a subroutine needs space to store local variables, it acquires that space on the stack. When the
+subroutine  ﬁnishes,  it  returns  that  stack  space  for  use  by  other  routines.  Thus,  local  variable  allocations  live
+and die with their subroutines. It is often necessary to create a data structure which is passed to other routines
+whose lives are independent of the creating routine. This kind of storage must be independent of the creator.
+To meet this need, the heap was invented. This is an expandable storage area managed by the system. You get
+an allocation by asking for it [malloc (structure_size) in C]. You get back a pointer to the allocation and the
+routine  can  pass  that  pointer  to  any  other  routine  and  then  go  away. When  it  comes  time  to  dispose  of  the
+allocation—that is, return the space for other uses—the program must do that actively by a deallocation call
+[free(pointer) in C]. Thus, one function can create a structure, several may use it, and another one can return
+the memory for other uses, all by passing the pointer to the structure from one to another.

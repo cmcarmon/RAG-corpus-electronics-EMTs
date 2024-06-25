@@ -1,0 +1,6 @@
+Interchange Transaction Scheduling
+The contractual exchange of power between utilities has to be taken into account by the LFC and ED functions.
+This is done by calculating the net interchange (sum of all the buy and sale agreements) and adding this to the
+generation  needed  in  both  the  LFC  and  ED.  Since  most  interchanges  begin  and  end  on  the  hour,  the  net
+interchange is ramped from one level to the new over a 10- or 20-min period straddling the hour. The programs
+achieve this automatically from the list of scheduled transactions.

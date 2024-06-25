@@ -1,0 +1,27 @@
+Fault-tolerance (FT) as well as fault-detection (FD) schemes
+can be implemented at various levels of a computing system.
+At the highest level is algorithm/application based fault tol-
+erance (ABFT), where some property of the computation or
+algorithm is used to check the correctness of the results and
+possibly correct erroneous ones (Assaad and Dutt, 1992; Ban-
+erjee et al., 1990; Boley and Luk, 1991; Boley et al., 1995; Dutt
+and Assaad, 1996; Dutt and Boley, 1999; Huang and Abraham,
+1984; Jou and Abraham, 1986; Luk and Park, 1988; Roy-
+Chowdhury and Banerjee, 1993). The most prevalent form of
+redundancies applied here are information and time redun-
+dancies. The next level is the system level, where the control
+and data ﬂow of a computation being executed by a computer
+are concurrently checked for ‘‘reasonableness’’ by various FD
+schemes (DeLord and Saucier, 1991; Lu, 1982; Mahmood and
+McCluskey, 1988; Ohlsson and Rimen, 1995; Rota, 2002;
+Trovo, 2002). If the computation ﬂow is in the given high-
+level speciﬁcations of the program,
+it is deemed correct.
+System level FT techniques include rolling back the state of
+the computer to the state prior to the occurrence of a detected
+error and restarting from that correct state, called microroll-
+back (Tamir and Tremblay, 1990; Trovo, 2002). System-level
+FT and FD techniques primarily use hardware redundancy.
+The third and most detailed level of FT and FD is at the circuit
+level. These include FT and FD techniques for random-
+access memories (RAMs) (Tanner, 1984; Mazumder and

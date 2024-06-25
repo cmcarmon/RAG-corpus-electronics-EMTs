@@ -1,0 +1,46 @@
+The distance correlation  of two random variables is obtained by dividing their distance covariance by the product of their distance standard deviations. The distance correlation is
+
+
+
+
+dCor
+⁡
+(
+X
+,
+Y
+)
+=
+
+
+
+dCov
+⁡
+(
+X
+,
+Y
+)
+
+
+dVar
+⁡
+(
+X
+)
+
+dVar
+⁡
+(
+Y
+)
+
+
+
+,
+
+
+{\displaystyle \operatorname {dCor} (X,Y)={\frac {\operatorname {dCov} (X,Y)}{\sqrt {\operatorname {dVar} (X)\,\operatorname {dVar} (Y)}}},}
+
+and the sample distance correlation is defined by substituting the sample distance covariance and distance variances for the population coefficients above.
+For easy computation of sample distance correlation see the dcor function in the energy package for R.

@@ -1,0 +1,5 @@
+does not receive the ﬁrst change instruction, but it does receive the second one. At the time of the
+second change instruction, Q1 is still 1; it changes to 0 shortly afterward, but by that time FF2
+has already been triggered. Similarly, FF3 is triggered only when Q1 and Q2 are both equal to 1.
+Thus, from the timing diagram, the successive states of Q3 Q2 Q1 can be seen as 000, 001, 010,
+011, 100, 101, 110, 111, 000, 001, . . . , as required for a counter.

@@ -1,0 +1,6 @@
+If we want to see how this simple circuit would respond over a wide range of battery volt-
+ages, we can invoke some of the more advanced options within SPICE. Here, I’ll use the ”.dc”
+analysis option to vary the battery voltage from 0 to 100 volts in 5 volt increments, printing
+out the circuit voltage and current at every step. The lines in the SPICE netlist beginning with
+a star symbol (”*”) are comments. That is, they don’t tell the computer to do anything relating
+to circuit analysis, but merely serve as notes for any human being reading the netlist text.

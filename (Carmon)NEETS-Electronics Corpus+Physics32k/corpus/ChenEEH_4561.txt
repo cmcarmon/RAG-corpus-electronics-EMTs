@@ -1,0 +1,22 @@
+While most research attention has been focused on fault de-
+tection and diagnosis, much less research effort has been
+dedicated to ‘‘general’’ failure accommodation mainly because
+of the lack of well-developed control theory and techniques for
+general nonlinear systems. Because of the inherent complexity
+of nonlinear systems, most of model-based analytical redun-
+dancy fault diagnosis and accommodation studies deal with
+the linear system that is subject to simple additive or multi-
+plicative faults. This assumption has limited the system’s
+effectiveness and usefulness in practical applications. In this
+research work, the online fault accommodation control prob-
+lems under catastrophic system failures are investigated. The
+main interest is dealing with the unanticipated system com-
+ponent failures in the most general formulation. Through
+discrete-time Lyapunov stability theory, the necessary and
+sufﬁcient conditions to guarantee the system online stability
+and performance under failures are derived, and a systematic
+procedure and technique for proper fault accommodation
+under the unanticipated failures are developed. The approach
+is to combine the control technique derived from discrete-time
+Lyapunov theory with the modern intelligent technique that is
+capable of self-optimization and online adaptation for real-

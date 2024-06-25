@@ -1,0 +1,11 @@
+The clock skew scheduling methodology discussed in Sections
+4.3 and 4.4 is based on the assumption that complete connec-
+tivity and timing information is available for all local data
+paths in a circuit. This condition may, however, not be realis-
+tic. Consider, for example, the input and output registers (also
+called the I/O registers) in a VLSI system. Some I/O registers
+are illustrated in Figure 4.13, where the registers R1 and R5 are
+an input register and an output register, respectively, of the
+circuit C. The register R3 shown in Figure 4.13 is an internal
+register because all of the other registers to which R3 is con-
+nected (via local data paths) are inside the circuit C.

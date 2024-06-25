@@ -1,0 +1,5 @@
+Using the jittered samples in the cardinal series results in an interpolation that is not an unbiased estimate
+of x(t). Indeed, if the probability density function of the jitter is the same at all sample locations, the expected
+value of the jittered interpolation is the convolution of x(t) with the probability density function of the jitter.
+This bias can be removed by inverse ﬁltering at a cost of decreasing the signal-to-noise ratio of the interpolation
+[Marks, 1993].

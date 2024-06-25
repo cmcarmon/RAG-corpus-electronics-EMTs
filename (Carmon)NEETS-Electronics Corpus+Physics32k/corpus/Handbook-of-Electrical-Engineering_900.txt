@@ -1,0 +1,4 @@
+4. Nodal  analysis  is  now  used  to  reduce  the  circuit  to  a  linear  algebraic  complex  matrix.  The  AC  node
+voltages may now be found by applying an excitation vector (which represents the independent voltage
+and current sources) and using Gaussian elimination (with complex arithmetic) to calculate the node
+voltages.

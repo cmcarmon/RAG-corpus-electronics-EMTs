@@ -1,0 +1,252 @@
+When a metallic system is heated from absolute zero, not every electron gains an energy
+
+
+
+
+k
+
+B
+
+
+T
+
+
+{\displaystyle k_{B}T}
+as equipartition dictates. Only those electrons in atomic orbitals within an energy range of
+
+
+
+
+
+3
+2
+
+
+
+k
+
+B
+
+
+T
+
+
+{\displaystyle {\frac {3}{2}}k_{B}T}
+of the Fermi level are thermally excited. Electrons, in contrast to a classical gas, can only move into free states in their energetic neighbourhood. The one-electron energy levels are specified by the wave vector
+
+
+
+k
+
+
+{\displaystyle k}
+through the relation
+
+
+
+ϵ
+(
+k
+)
+=
+
+ℏ
+
+2
+
+
+
+k
+
+2
+
+
+
+/
+
+2
+m
+
+
+{\displaystyle \epsilon (k)=\hbar ^{2}k^{2}/2m}
+with
+
+
+
+m
+
+
+{\displaystyle m}
+the electron mass. This relation separates the occupied energy states from the unoccupied ones and corresponds to the spherical surface in k-space. As
+
+
+
+T
+→
+0
+
+
+{\displaystyle T\rightarrow 0}
+the ground state distribution becomes:
+
+
+
+
+f
+=
+
+
+{
+
+
+
+1
+
+
+
+
+if
+
+
+
+ϵ
+
+f
+
+
+<
+μ
+,
+
+
+
+
+0
+
+
+
+
+if
+
+
+
+ϵ
+
+f
+
+
+>
+μ
+.
+
+
+
+
+
+
+
+
+{\displaystyle f={\begin{cases}1&{\mbox{if }}\epsilon _{f}<\mu ,\\0&{\mbox{if }}\epsilon _{f}>\mu .\\\end{cases}}}
+where
+
+
+
+
+f
+
+
+{\displaystyle f}
+is the Fermi-Dirac distribution
+
+
+
+
+
+ϵ
+
+f
+
+
+
+
+{\displaystyle \epsilon _{f}}
+is the energy of the energy level corresponding to the ground state
+
+
+
+
+μ
+
+
+{\displaystyle \mu }
+is the ground state energy in the limit
+
+
+
+T
+→
+0
+
+
+{\displaystyle T\rightarrow 0}
+, which thus still deviates from the true ground state energy.
+This implies that the ground state is the only occupied state for electrons in the limit
+
+
+
+T
+→
+0
+
+
+{\displaystyle T\rightarrow 0}
+, the
+
+
+
+f
+=
+1
+
+
+{\displaystyle f=1}
+takes the Pauli exclusion principle into account. The internal energy
+
+
+
+U
+
+
+{\displaystyle U}
+of a system within the free electron gas model is given by the sum over one-electron levels times the mean number of electrons in that level:
+
+
+
+
+U
+=
+2
+
+∑
+
+k
+
+
+ϵ
+(
+
+k
+
+)
+f
+(
+ϵ
+(
+
+k
+
+)
+)
+
+
+{\displaystyle U=2\sum _{k}\epsilon (\mathbf {k} )f(\epsilon (\mathbf {k} ))}

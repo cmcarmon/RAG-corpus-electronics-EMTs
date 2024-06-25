@@ -1,0 +1,7 @@
+Recognizers can also be categorized by the speaking styles, vocabularies, and language models they accom-
+modate. Isolated word recognizers require speakers to insert brief pauses between individual words. Contin-
+uous speech recognizers operate on ﬂuent speech, but typically employ strict language models, or grammars,
+to limit the number of allowable word sequences. Wordspotters also accept ﬂuent speech as input. However,
+rather than providing full transcription, wordspotters selectively locate relevant words or phrases in an utter-
+ance. Wordspotting is useful both in information-retrieval tasks based on keyword indexing and as an alternative
+to isolated word recogniton in voice command applications.

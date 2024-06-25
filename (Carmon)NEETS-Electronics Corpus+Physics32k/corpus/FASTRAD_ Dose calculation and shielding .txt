@@ -1,0 +1,7 @@
+Once the 3D radiation model is done, the user can perform a deposited dose estimate using the sector analysis module of the software. This ray-tracing module combines the information coming from the radiation model with the information of the radiation environment using a Dose Depth Curve. This dose depth curve gives the deposited dose in a target material (mainly Silicon for electronic devices) behind an Aluminum spherical shielding thickness. This calculation is performed for each detector placed in the 3D model. Even for complex geometries, the efficient and rapid calculation provides two kinds of information:
+the 3D distribution mass around each detector
+the estimated deposited dose in an isotropic radiation environment
+
+Using a post-processing of those results, Fastrad provides information about optimum shielding location using several viewing representation types. Figure 2. presents a mapping of the mass distribution viewed by one component of an electronic board. The red area indicates the critical directions in terms of shielding thickness.
+This helpful tool allows the user to optimize the size of additional shielding that can be used to decrease the received dose on the studied detector.
+The main advantage of this process is the short time needed to complete this task and the well defined mechanical shielding solution provided by the sector analysis post-processing.

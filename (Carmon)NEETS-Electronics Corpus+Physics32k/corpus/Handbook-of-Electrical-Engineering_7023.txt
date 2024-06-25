@@ -1,0 +1,20 @@
+Channel Coding Theorems
+In  information  theory,  the  results  that  give  a  formula  for  channel  capacity  in  terms  of  the  probabilistic
+description of the channel are known as channel coding theorems. They typically involve two parts: an achiev-
+ability part, which shows that codes with vanishing error probability exist for any rate below capacity; and a
+converse part, which shows that if the code rate exceeds capacity, then the probability of error is necessarily
+bounded away from zero. Shannon gave the ﬁrst achievability results in [Shannon, 1948] for discrete memory
+channels. His method of proof, later formalized as the method of “typical sequences” (e.g., [Cover and Thomas,
+1991]), is based on showing that the average probability of error of a code chosen at random vanishes with
+blocklength. Other known achievability proofs such as Feinstein’s [1954], Gallager’s [1968], and the method
+of types [Csiszar and Korner, 1981] are similarly non-constructive. The discipline of coding theory deals with
+constructive methods to design codes that approach the Shannon limit (see Chapter 71.1). The ﬁrst converse
+channel coding theorem was not given by Shannon, but by Fano in 1952. A decade after Shannon’s pioneering
+paper, several authors obtained the ﬁrst channel coding theorems for channels with memory [Dobrushin, 1963].
+The most general formula for channel capacity known to date can be found in [Verdú and Han, 1994]. The
+capacity  of  channels  with  feedback  was  ﬁrst  considered  by  Shannon  in  1961  [Shannon,  1961],  with  later
+developments for Gaussian channels summarized in [Cover and Thomas, 1991]. In his 1961 paper [Shannon,
+1961], Shannon founded the discipline of multiuser information theory by posing several challenging channels
+with more than one transmitter and/or receiver. In contrast to the multiaccess channel (one receiver) which
+has been solved in considerable generality, the capacities of channels involving more than one receiver, such as
+broadcast channels [Cover, 1972] and interference channels remain unsolved except in special cases.

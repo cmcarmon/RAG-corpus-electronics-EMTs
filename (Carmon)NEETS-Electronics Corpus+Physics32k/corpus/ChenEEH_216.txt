@@ -1,0 +1,18 @@
+A multiterminal element is a no-gain element if every
+connected circuit containing that element, positive resistors,
+and independent sources possesses the no-gain property.
+A circuit possesses the no-gain property if, for each solution
+to the dc network equations, the magnitude of the voltage
+between any pair of nodes is not greater than the sum
+of the magnitudes of the voltages appearing across the net-
+work’s independent
+the magnitude
+of the current ﬂowing through any element of the network
+must not be greater than the sum of the magnitudes of
+the currents ﬂowing through the network’s independent
+sources. For example, when considering a multiterminal’s
+large-signal dc behavior, Ebers-Moll modeled bipolar junction
+transistors, ﬁled-effect transistors, silicon-controlled rectiﬁers,
+and many other three-terminal devices are passive and incap-
+able of producing voltage or current gains (Gopinath and
+Mitra, 1971; Willson, 1975).

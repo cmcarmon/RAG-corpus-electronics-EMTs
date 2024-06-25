@@ -1,0 +1,10 @@
+Thus with negative feedback a given percentage change in the Op Amp gain A
+results in a much smaller percentage change in the overall circuit gain G, smaller
+by a factor 1 + AR2/(R1 + R2). Note from Equation 15.7 that this is exactly
+the factor by which the gain is reduced as a result of applying the feedback. By
+inspection of Figure 15.7, the gain term AR2/(R1 + R2) represents the gain for
+a signal traveling all the way around the feedback loop: through the Op Amp
+with its gain of A, then through the feedback resistor network with a ‘‘gain’’ of
+R2/(R1 + R2), (hence called the loop gain). In general, for negative feedback,
+gain changes are suppressed by a factor 1 + (loop gain), and the overall gain is
+reduced by this same factor.

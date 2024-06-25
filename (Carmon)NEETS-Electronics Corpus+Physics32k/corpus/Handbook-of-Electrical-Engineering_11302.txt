@@ -1,0 +1,14 @@
+Output Circuitry
+The output circuitry is responsible for delivering the pacing pulses through the electrodes to the cardiac tissue
+in order to artiﬁcially control (capture) the heart. Because the amount of energy needed for capture can vary
+over the lifetime of a patient (e.g., due to changing electrode impedance or position) and between different
+patients, it is necessary to be able to deliver a controlled amount of energy per pacing pulse. Many pacemakers
+use an output voltage much higher than the pacing threshold to ensure capture for every pulse; however, this
+may unnecessarily waste energy. The minimum reliable pulse voltage necessary for capture is desired in order
+to minimize the current drain on the battery. Autocapture algorithms are capable of monitoring every pulse
+for capture and adjusting the output voltage to the minimum necessary value on demand [Jones et al., 1999].
+This feature will become more prevalent in future pacemakers. Timing circuitry and output ampliﬁers are used
+to control the frequency, pulse width, and amplitude of the stimuli. Capacitors controlled by electronic switches
+physically deliver the energy. The capacitors are charged by the battery up to the desired voltage in between
+pacing pulses and then discharged into the heart by the switches at the proper timing. Voltage multipliers can
+be used to double or triple the battery voltage if necessary.

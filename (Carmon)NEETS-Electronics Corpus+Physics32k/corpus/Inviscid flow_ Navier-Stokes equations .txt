@@ -1,0 +1,66 @@
+In 1845, George Gabriel Stokes published another important set of equations, today known as the Navier-Stokes equations. Claude-Louis Navier developed the equations first using molecular theory, which was further confirmed by Stokes using continuum theory. The Navier-Stokes equations describe the motion of fluids:
+
+
+
+
+ρ
+
+
+
+D
+v
+
+
+D
+t
+
+
+
+=
+−
+∇
+p
++
+μ
+
+∇
+
+2
+
+
+v
++
+ρ
+g
+
+
+{\displaystyle \rho {Dv \over Dt}=-\nabla p+\mu \nabla ^{2}v+\rho g}
+
+When the fluid is inviscid, or the viscosity can be assumed to be negligible, the Navier-Stokes equation simplifies to the Euler equation: This simplification is much easier to solve, and can apply to many types of flow in which viscosity is negligible. Some examples include flow around an airplane wing, upstream flow around bridge supports in a river, and ocean currents.
+The Navier-Stokes equation reduces to the Euler equation when
+
+
+
+μ
+=
+0
+
+
+{\displaystyle \mu =0}
+. Another condition that leads to the elimination of viscous force is
+
+
+
+
+∇
+
+2
+
+
+v
+=
+0
+
+
+{\displaystyle \nabla ^{2}v=0}
+, and this results in an "inviscid flow arrangement". Such flows are found to be vortex-like.

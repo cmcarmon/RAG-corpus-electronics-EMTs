@@ -1,0 +1,41 @@
+Logic probes 
+ 
+The  simplest,  and  by  far  the  most  convenient, 
+method of tracing logic states involves the use of a 
+logic  probe.  This  invaluable  tool  comprises  a 
+compact  hand-held  probe  fitted  with  LEDs  that 
+indicate the logical state of its probe tip. 
+  Unlike  multi-range  meters,  logic  probes  can 
+distinguish  between 
+lines  which  are  actively 
+pulsing  and  those  which  are  in  a  permanently  tri-
+state condition. In the case of a line which is being 
+pulsed, the logic 0 and logic 1 indicators will both 
+be  illuminated  (though  not  necessarily  with  the 
+same brightness) whereas, in the case of a tri-state 
+line neither indicator should be illuminated. 
+  Logic  probes  usually  also  provide  a  means  of 
+displaying  pulses  having  a  very  short  duration 
+which  may  otherwise  go  undetected.  This  is 
+accomplished by the inclusion of a pulse stretching 
+circuit  (i.e.  a  monostable).  This  elongates  short 
+duration  pulses  so  that  a  visible  indication  is 
+produced on a separate ‘pulse’ LED. 
+  Logic  probes  invariably  derive  their  power 
+supply from the circuit under test and are connected 
+by means of a short length of twin flex fitted with 
+insulated  crocodile  clips.  While  almost  any 
+convenient  connecting  point  may  be  used,  the 
+positive  supply  and  ground  terminals  make  ideal 
+connecting points which can be easily identified. 
+  A  typical  logic  probe  circuit  is  shown  in  
+Fig.  15.16.  This  circuit  uses  a  dual  comparator  to 
+sense the logic 0 and logic 1 levels and a timer that 
+acts  as  a  monostable  pulse  stretcher  to  indicate 
+the  presence  of  a  pulse  input  rather  than  a 
+continuous  logic  0  or  logic  1  condition.  Typical 
+logic  probe  indications  and  waveforms  are  shown 
+in Fig. 15.18. 
+  Figure  15.19  shows  how  a  logic  probe  can  be 
+logic 
+used 

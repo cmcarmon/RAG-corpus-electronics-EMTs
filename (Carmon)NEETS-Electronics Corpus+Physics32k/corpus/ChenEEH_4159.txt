@@ -1,0 +1,12 @@
+The basic technique for this combination is called pulse
+code modulation (PCM). PCM takes the samples of analog
+data at the sampling rate that is twice the highest signal
+frequency and then assigns each sample to a binary code.
+The analog data is quantized into 8 steps (0 to 7), an each
+binary code will have 3 bits assigned to it. According to
+the Nyquist’s sampling theorem,
+the samples contain all
+information of the original signal and can be reconstructed
+from these samples. The generated bit
+stream will be
+011110111111110100011100110.

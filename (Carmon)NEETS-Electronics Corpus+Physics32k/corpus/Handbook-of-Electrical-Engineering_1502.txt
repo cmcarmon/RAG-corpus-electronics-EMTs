@@ -1,0 +1,6 @@
+2. A set of observations  O = (O1, O2, …, OT). The observations can be a set of discrete symbols chosen
+from  a  ﬁnite  set,  or  continuous  signals  (or  vectors).  In  speech  recognition  application,  although  it  is
+possible  to  convert  continuous  speech  representations  into  a  sequence  of  discrete  symbols  via  vector
+quantization codebooks and other methods, serious degradation tends to result from such discretization
+of the signal. In this article, we focus on HMMs with continuous observation output densities to model
+continuous signals.

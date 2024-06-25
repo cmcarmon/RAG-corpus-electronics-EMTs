@@ -1,0 +1,21 @@
+Microprogramming designs the control as a program that
+implements the machine instructions in terms of simpler
+microinstructions. Each microinstruction deﬁnes the set of
+data path control signals that must be asserted in a given
+state. The microprogram is a symbolic representation of the
+control that will be translated by a program to control logic. In
+this way, one can choose how many ﬁelds a microinstruction
+should have and what control signals are affected by each ﬁeld.
+The format of the microinstruction should be chosen to sim-
+plify the representation, making it easier to write and under-
+stand the microprogram. For example, it is useful to have one
+ﬁeld that controls the ALU and a set of three ﬁelds that
+determine the two sources for the ALU operation as well as
+the destination of the ALU result. In addition to readability,
+the microprogram format should make it difﬁcult or impos-
+sible to write inconsistent microinstructions. A microinstruc-
+tion is inconsistent if it requires that a given control signal be
+set to two different values. To avoid a format that allows
+inconsistent microinstructions, one can make each ﬁeld of
+the microinstruction responsible for specifying a nonoverlap-
+ping set of control signals.

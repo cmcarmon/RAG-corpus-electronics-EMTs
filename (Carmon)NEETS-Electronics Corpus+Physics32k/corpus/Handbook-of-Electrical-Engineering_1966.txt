@@ -1,0 +1,12 @@
+The simplest arithmetic operation is addition. Multiplication can be realized as a series of add-shift opera-
+tions,  and  division  and  square-root  can  be  realized  as  a  series  of  controlled  add–subtract  operations.  The
+conventional two’s complement adder involves carry ripple operation. This limits the throughput of the adder
+operation.  In  DSP,  however,  the  combined  multiply–add  operation  is  most  common.  Carry–save  operations
+have been used to realize pipelined multiply-adders using fewer pipelining latches. In conventional pipelined
+two’s complement multiplier, the multiplication time is approximately two times the bit-level addition time.
+Recently,  a  technique  has  been  proposed  to  reduce  the  multiplication  time  from 2W  bit-level  binary  adder
+times to 1.25 W bit-level binary adder times where W is the word length. This technique is based on the use of
+hybrid number system representation, where one input operand is in two’s complement number representation
+and  the  other  in  redundant  number  representation  [Srinivas  and  Parhi,  1992].  Using  an  efﬁcient  sign-select
+redundant-to-two’s  complement  conversion  technique,  this  multiplier  can  be  made  to  operate  faster  and,  in
+the pipelined mode, would require fewer pipelining latches and less silicon area.

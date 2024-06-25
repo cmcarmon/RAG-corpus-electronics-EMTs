@@ -1,0 +1,5 @@
+Punched cards, paper tape, and magnetic tape are examples of sequential-access storage media. 
+When operating in a sequential environment, a particular record can be read only by first reading all the 
+records that come before it in the file. When you store a file on tape, the 125th record cannot be read until 
+the 124 records in front of it are read. The records are read in sequence. You cannot read just any record 
+at random. This is also true when reading punched cards or paper tape. 

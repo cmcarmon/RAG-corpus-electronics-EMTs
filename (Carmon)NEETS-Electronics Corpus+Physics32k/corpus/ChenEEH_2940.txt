@@ -1,0 +1,22 @@
+Rigorous Approaches
+Iterative Methods
+As mentioned previously, the inverse scattering problem is in
+general a nonlinear problem in the sense that the unknown
+object function is nonlinearly related to the measured scattered
+ﬁeld. To solve it rigorously, iterative techniques are usually
+applied. Although various algorithms have been proposed,
+they are based on the same principle—taking the variation of
+the nonlinear equation and solving the resulting linearized
+problem at each iterative step to update the solution. For
+illustration, consider a dielectric object of dielectric constant
+Y
+distribution er (Yr) illuminated by the incident ﬁeld
+Ei(Yr).
+Y
+Es(Yr) is related to the dielectric constant
+The scattered ﬁeld
+er (~rr) through equation 10.58. First discretize the object into N
+small cells and assume that the dielectric constant and electric
+ﬁeld are constants in each cell. By the moment method, trans-
+form the integral equation 10.58 into the following algebraic
+matrix equation:

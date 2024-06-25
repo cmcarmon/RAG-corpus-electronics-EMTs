@@ -1,0 +1,9 @@
+observation probabilities, the methods developed for the dis-
+crete-observation case can be applied directly. The resulting
+measure computed for a model, say M, and an observation
+string, say y¼def
+{y1, . . ., yT }, will be P(yjM) for the F–B
+approach and P(y, I minjM) in the Viterbi case. These meas-
+ures will no longer be proper probabilities, but they provide
+meaningful likelihood measures with which appropriate rela-
+tive comparisons across models can be made.

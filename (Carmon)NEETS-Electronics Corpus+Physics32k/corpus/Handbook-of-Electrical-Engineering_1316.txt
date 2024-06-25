@@ -1,0 +1,18 @@
+General Approaches
+Time Domain Coders and Linear Prediction
+Linear  Predictive  Coding  (LPC)  is  a  modeling  technique  that  has  seen  widespread  application  among  time-
+domain speech coders, largely because it is computationally simple and applicable to the mechanisms involved
+in speech production. In LPC, general spectral characteristics are described by a parametric model based on
+autoregressive
+estimates of autocorrelations or autocovariances. The model of choice for speech is the all-pole or 
+(
+ This model is particularly suited for voiced speech because the vocal tract can be well modeled by
+)
+AR
+ model.
+an all-pole transfer function. In this case, the estimated LPC model parameters correspond to an AR process
+which can produce waveforms very similar to the original speech segment. Differential Pulse Code Modulation
+(DPCM)  coders  (i.e.,  ITU-T  G.721  ADPCM  [CCITT,  1984])  and  LPC  vocoders  (i.e.,  U.S.  Federal  Standard
+1015 [National Communications System, 1984]) are examples of this class of time-domain predictive architec-
+ture. Code Excited Coders (i.e., ITU-T G728 [Chen, 1990] and U.S. Federal Standard 1016 [National Commu-
+nications System, 1991]) also utilize LPC spectral modeling techniques.

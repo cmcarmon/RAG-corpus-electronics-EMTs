@@ -1,0 +1,17 @@
+The development of intellectual property (IP) cores is another
+technology that will decrease compilation times. An example is
+the self-implementing modules (SIMs) methodology (Hwang et
+al., 2001). A parametrized core is described in SIMs by assigning
+placement to components in the design; however routing is not
+speciﬁed. Automatic place and route tools are used to route the
+designs that incorporate SIMs, and these modules are then
+routed along with user logic. If routing were speciﬁed along
+with placement, compilation times would decrease; however,
+placement restrictions might be imposed. If at either run time or
+compile time one of the inputs of the SIM remains constant for a
+prolonged period, partial evaluation techniques can be used to
+optimize the SIM. At run time, partial reconﬁguration can be
+used to reconﬁgure between the constant values. It would be
+useful to identify automatically the subcomponents of a SIM
+that remain the same (Shirazi et al., 1998a) when a constant
+value changes to minimize reconﬁguration time.

@@ -1,0 +1,13 @@
+In the 6800 and 6502 microprocessors, the content 
+of the register is stored in the stack, and then the stack 
+pointer is decremented by 1. This allows the stack 
+pointer to point to the next memory location where 
+data can be saved. The stack pointer is a 16-bit register 
+that is used to define the memory location that acts as 
+the top of the stack. When the pull instruction is used, 
+the stack pointer is incremented by 1, and the data are 
+retrieved from the stack and placed in the appropriate 
+register. In the 8080A, the top of the stack contains the 
+pointer to the last memory location. The push instruc-
+tion first decrements the stack pointer by 1 and then 
+stores the register content in the stack.

@@ -1,0 +1,5 @@
+The timer on the left operates at a lower frequency than the timer on the 
+right and is used to modulate (okay, warble) the signal produced by the timer 
+chip on the right. The signal at pin 2 of the 555 chip on the left is a slowly 
+rising and falling ramp voltage, which you connect to pin 5 of the 555 chip on 
+the right.

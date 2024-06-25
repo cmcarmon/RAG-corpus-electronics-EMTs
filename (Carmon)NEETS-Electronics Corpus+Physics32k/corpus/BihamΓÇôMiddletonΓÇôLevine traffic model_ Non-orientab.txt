@@ -1,0 +1,98 @@
+The model is typically studied on the orientable torus, but it is possible to implement the lattice on a Klein bottle. When the red cars reach the right edge, they reappear on the left edge except flipped vertically; the ones at the bottom are now at the top, and vice versa. More formally, for every
+
+
+
+y
+∈
+{
+0
+,
+…
+,
+N
+−
+1
+}
+
+
+{\displaystyle y\in \lbrace 0,\ldots ,N-1\rbrace }
+, a red car exiting the site
+
+
+
+(
+N
+−
+1
+,
+y
+)
+
+
+{\displaystyle (N-1,y)}
+would enter the site
+
+
+
+(
+0
+,
+N
+−
+y
+−
+1
+)
+
+
+{\displaystyle (0,N-y-1)}
+. It is also possible to implement it on the real projective plane. In addition to flipping the red cars, the same is done for the blue cars: for every
+
+
+
+x
+∈
+{
+0
+,
+…
+,
+N
+−
+1
+}
+
+
+{\displaystyle x\in \lbrace 0,\ldots ,N-1\rbrace }
+, a blue car exiting the site
+
+
+
+(
+x
+,
+N
+−
+1
+)
+
+
+{\displaystyle (x,N-1)}
+would enter the site
+
+
+
+(
+N
+−
+x
+−
+1
+,
+0
+)
+
+
+{\displaystyle (N-x-1,0)}
+.
+The behaviour of the system on the Klein bottle is much more similar to the one on the torus than the one on the real projective plane. For the Klein bottle setup, the mobility as a function of density starts to decrease slightly sooner than in the torus case, although the behaviour is similar for densities greater than the critical point. The mobility on the real projective plane decreases more gradually for densities from zero to the critical point. In the real projective plane, local jams may form at the corners of the lattice even though the rest of the lattice is free-flowing.

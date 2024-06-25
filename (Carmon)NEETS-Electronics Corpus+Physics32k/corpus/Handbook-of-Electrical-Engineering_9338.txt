@@ -1,0 +1,5 @@
+Top-down  testing  begins  with  the  modules  that  are  not  used  by  any  other  module.  Since  the  supporting
+modules have not been tested yet (or do not even exist yet), simple stand-in programs must be written that
+simulate the actual programs. This can be done by replacing the computation of the actual program with the
+programmer, who enters the required results from the keyboard in response to the parameter values displayed
+on the screen. This method is nontrivial, especially if the supporting program deals with complex objects.

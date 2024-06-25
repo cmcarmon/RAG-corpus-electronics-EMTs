@@ -1,0 +1,7 @@
+On the other hand, the media of the three types of access protocols provide transmission service in different
+ways, so software is needed to bridge the gap between what the user of the service needs, which is provided by
+the LLC, and how the LLC uses the media to provide the required service. Thus, the MAC sublayer was born.
+This idea has proven to be valuable as new types of technologies have become available. For example, the
+new ﬁber-distributed digital interface (FDDI) uses the LLC of all other LAN protocols, but its MAC is completely
+different  from  the  token  ring  MAC  even  though  FDDI  is  a  token  ring  protocol.  Reasons  for  needing  a  new
+MAC for LLC are provided in Stallings [1990b].

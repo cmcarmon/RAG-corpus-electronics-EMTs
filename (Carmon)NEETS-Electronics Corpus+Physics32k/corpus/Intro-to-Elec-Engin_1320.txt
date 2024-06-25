@@ -1,0 +1,14 @@
+One of the most important results in the analysis of signals is the sampling theorem, which
+is formally presented later. Many modern signal-processing techniques and the whole family
+of digital communication methods are based on the validity of this theorem and the insight it
+provides. The idea leading to the sampling theorem is rather simple and quite intuitive. Let us
+consider a relatively smooth signal x1(t), which varies slowly and has its main frequency content
+at low frequencies, as well as a rapidly changing signal x2(t) due to the presence of high-frequency
+components. Suppose we are to approximate these signals with samples taken at regular intervals,
+so that linear interpolation of the sampled values can be used to obtain an approximation of the
+original signals. It is obvious that the sampling interval for the signal x1(t) can be much larger
+than the sampling interval necessary to reconstruct signal x2(t) with comparable distortion. This
+is simply a direct consequence of the smoothness of the signal x1(t) compared to x2(t). Therefore,
+the sampling interval for the signals of smaller bandwidths can be made larger, or the sampling
+frequency can be made smaller. The sampling theorem is, in fact, a statement of this intuitive
+reasoning.

@@ -1,0 +1,8 @@
+This voltage is normally about 2.5 volts and is commonly termed "stickoff" voltage. It is obtained 
+from the secondary of a small transformer. The voltage induced in the secondary of the transformer shifts 
+the 0º position of the coarse CT To reestablish a new 0º position, the stator of the coarse CT must be 
+turned through an angle that induces an opposing 2.5 volts in the rotor to cancel the stickoff voltage. 
+Therefore, at 0º the two voltages cancel and no input exists to drive the servo amplifier. Should the rotor 
+of the CT stop at 180º, the same 2.5 volts would be induced in the rotor. However, it would be in phase 
+with the stickoff voltage and no cancellation would occur. The end result is an error signal at 180º that 
+drives the dual-speed synchro system out of any false synchronizations. 

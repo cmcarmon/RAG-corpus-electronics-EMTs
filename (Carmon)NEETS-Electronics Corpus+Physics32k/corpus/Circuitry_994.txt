@@ -1,0 +1,52 @@
+Boolean algebra 
+ 
+The  laws  of  Boolean  algebra  are  quite  different 
+from those of ordinary algebra. For example: 
+ 
+A · 0 = 0
+A · 1 = A
+A + 0 = A
+A + 1 = 1
+The Commutative Law shows us that: 
+ 
+A + B = B + A
+and also that: 
+ 
+A · B = B · A
+The Associative Law shows us that: 
+ 
+A + (B + C) = (A + B) + C = A + B + C
+and also that: 
+ 
+A · (B · C ) = (A · B ) · C = A · B · C
+The Distributive Law shows us that: 
+ 
+A · (B + C) = A · B + B · C
+and also that: 
+ 
+A + (B · C ) = (A + B ) · (A + C )
+All  of  the  above  laws  can  be  proved  using  the 
+various techniques that we met earlier. 
+ 
+Boolean simplification 
+ 
+Using 
+laws  of  Boolean  algebra  and  De 
+Morgan’s theorem, A · B = A + B (see earlier) we 
+can reduce complex logical expressions in order to 
+minimize the number of  variables and the  number 
+of terms. For example, the expression that we met 
+earlier can be simplified as follows: 
+ 
+b
+j
+Here  we  have  eliminated  the  variable  C from  the 
+first and second pair of terms and then eliminated B 
+from  the  result.  You  might  like  to  compare  this 
+with  the  Karnaugh  map  that  we  drew  earlier  in 
+Figure A8.30! 
+ 
+Example 15 
+ 
+Part  of  the  control  logic  for  an  intruder  alarm  is 
+shown in Fig. A8.31. Determine the logic required 

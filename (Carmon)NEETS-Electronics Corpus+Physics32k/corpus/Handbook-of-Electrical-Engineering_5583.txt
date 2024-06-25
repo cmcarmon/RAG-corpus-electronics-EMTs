@@ -1,0 +1,20 @@
+Zones of Protection
+To make sure that a protection system removes the min-
+imum amount of equipment from the power system dur-
+ing its operation, the power system is divided into zones
+of  protection.  Each  zone  has  its  associated  protection
+system. A fault inside the zone causes the associated pro-
+tection system to operate. A fault in any other zone must
+not  cause  an  operation.  A  zone  of  protection  usually
+covers  one  piece  of  equipment,  such  as  a  transmission
+line.  The  zone  boundary  is  deﬁned  by  the  location  of
+transducers  (usually  current  transformers)  and  also  by
+circuit breakers that will operate to isolate the zone. A set of zones of protection is shown in Fig. 61.40. Note
+that all zones are shown to overlap with their neighbors. This is to ensure that no point on the system is left
+unprotected. Occasionally, a circuit breaker may not exist at a zone boundary. In such cases, the tripping must
+be done at some other remote circuit breakers. For example, consider protection zone A in Fig. 61.40. A fault
+in that zone must be isolated by tripping circuit breakers X and Y. While the breaker X is near the transformer
+and can be tripped locally, Y is remote from the station, and some form of communication channel must be
+used  to  transfer  the  trip  command  to Y. Although  most  zones  of  protection  have  a  precise  extent,  there  are
+some zones that have a loosely deﬁned reach. These are known as open zones and are most often encountered
+in transmission line protection.

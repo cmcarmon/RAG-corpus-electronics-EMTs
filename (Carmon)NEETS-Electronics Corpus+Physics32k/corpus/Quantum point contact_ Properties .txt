@@ -1,0 +1,164 @@
+Geometrically, a quantum point contact is a constriction in the transverse direction which presents a resistance to the motion of electrons. Applying a voltage
+
+
+
+V
+
+
+{\displaystyle V}
+across the point contact induces a current to flow, the magnitude of this current is given by
+
+
+
+I
+=
+G
+V
+
+
+{\displaystyle I=GV}
+, where
+
+
+
+G
+
+
+{\displaystyle G}
+is the conductance of the contact. This formula resembles Ohm's law for macroscopic resistors. However, there is a fundamental difference here resulting from the small system size which requires a quantum mechanical analysis.
+At low temperatures and voltages, unscattered and untrapped electrons contributing to the current have a certain energy/momentum/wavelength called Fermi energy/momentum/wavelength. Much like in a waveguide, the transverse confinement in the quantum point contact results in a "quantization" of the transverse motion—the transverse motion cannot vary continuously, but has to be one of a series of discrete modes. The waveguide analogy is applicable as long as coherence is not lost through scattering, e.g., by a defect or trapping site. The electron wave can only pass through the constriction if it interferes constructively, which for a given width of constriction, only happens for a certain number of modes
+
+
+
+N
+
+
+{\displaystyle N}
+. The current carried by such a quantum state is the product of the velocity times the electron density. These two quantities by themselves differ from one mode to the other, but their product is mode independent. As a consequence, each state contributes the same amount
+
+
+
+
+e
+
+2
+
+
+
+/
+
+h
+
+
+{\displaystyle e^{2}/h}
+per spin direction to the total conductance
+
+
+
+G
+=
+N
+
+G
+
+Q
+
+
+
+
+{\displaystyle G=NG_{Q}}
+.
+This is a fundamental result; the conductance does not take on arbitrary values but is quantized in multiples of the conductance quantum
+
+
+
+
+G
+
+Q
+
+
+=
+2
+
+e
+
+2
+
+
+
+/
+
+h
+
+
+{\displaystyle G_{Q}=2e^{2}/h}
+, which is expressed through the electron charge
+
+
+
+e
+
+
+{\displaystyle e}
+and the Planck constant
+
+
+
+h
+
+
+{\displaystyle h}
+. The integer number
+
+
+
+N
+
+
+{\displaystyle N}
+is determined by the width of the point contact and roughly equals the width divided by half the electron wavelength. As a function of the width of the point contact (or gate voltage in the case of GaAs/AlGaAs heterostructure devices), the conductance shows a staircase behavior as more and more modes (or channels) contribute to the electron transport. The step-height is given by
+
+
+
+
+G
+
+Q
+
+
+
+
+{\displaystyle G_{Q}}
+.
+An external magnetic field applied to the quantum point contact lifts the spin degeneracy and leads to half-integer steps in the conductance. In addition, the number
+
+
+
+N
+
+
+{\displaystyle N}
+of modes that contribute becomes smaller. For large magnetic fields,
+
+
+
+N
+
+
+{\displaystyle N}
+is independent of the width of the constriction, given by the theory of the quantum Hall effect. An interesting feature, not yet fully understood, is a plateau at
+
+
+
+0.7
+
+G
+
+Q
+
+
+
+
+{\displaystyle 0.7G_{Q}}
+, the so-called 0.7-structure.

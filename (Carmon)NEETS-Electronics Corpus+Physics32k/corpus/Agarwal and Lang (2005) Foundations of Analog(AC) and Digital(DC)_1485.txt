@@ -1,0 +1,7 @@
+Now suppose we did not use a clock. As we saw previously, RC delays
+cause signals to go through invalid signal levels for a finite period of time when
+they transition from one value to another. Without some mechanism such as a
+clock and an associated discipline, there would be no way in which the second
+digital circuit could tell when it was receiving a valid signal. As we shall see in a
+later chapter, telling apart a valid signal from a transitional value is particularly
+difficult when signals display oscillatory or ringing behavior.

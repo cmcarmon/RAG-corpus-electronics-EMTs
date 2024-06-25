@@ -1,0 +1,7 @@
+Conversely, when the store signal goes low, the switch turns off (see
+Figure 10.56). Consequently, the dOUT terminal of the capacitor begins to float
+and the charge previously deposited on the capacitor is held in place. Thus, for
+example, if a high voltage had been previously stored on the capacitor, a high
+voltage will appear at the capacitor terminal dOUT even after the store signal
+goes low. In the ideal case, if the resistance between the dOUT terminal and
+ground is infinite, the capacitor will hold the charge forever.

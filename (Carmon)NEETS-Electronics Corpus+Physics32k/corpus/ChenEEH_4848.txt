@@ -1,0 +1,24 @@
+ClassiX, and QNX) must be used to get hard real-time per-
+formance out of the applications. There are products (rather
+kernels) that can be installed on a system with a non-real-time
+operating system, such as the Real-Time Linux modiﬁcation of
+the popular Linux Operating System. Here, hard real-time
+applications coexist with the normal linux kernel and hard
+real-time tasks are always given priority for execution. The
+normal linux kernel as a whole is only executed when slack
+time is available. Most computers use hardware components to
+perform tasks that need real-time performance, such as video
+cards on desktop machines or DSP boards in signal processing
+applications. These tasks can be performed in parallel without
+the need for the nondeterministic uncertainty introduced by
+scheduling of processor time. Another alternative is to use
+separate dedicated processors to perform each concurrent
+task, such as having one processor perform low-level control
+loops and a separate processor performing high-level loops
+such as fault detection and supervisory control. Moreover, the
+software application must be able to take advantage of real-
+time operations. While C has been used successfully in control
+system implementation, Java lacks good real-time applicability.
+This may change in the near future because there is a large
+effort to develop real-time Java capability as evidenced by the
+release of Real-Time Java Speciﬁcation (Bollella et al., 2000).

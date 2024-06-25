@@ -1,0 +1,6 @@
+An interesting signal processing aspect of this example is demonstrated at the beginning and
+end of the output. The ramping up and down that occurs can be traced to assuming the input is
+zero before it begins and after it ends. The ﬁlter “sees” these initial and ﬁnal values as the diﬀerence
+equation passes over the input. These artifacts can be handled in two ways: we can just ignore the
+edge eﬀects or the data from previous and succeeding years’ last and ﬁrst week, respectively, can
+be placed at the ends.

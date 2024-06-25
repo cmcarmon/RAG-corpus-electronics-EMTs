@@ -1,0 +1,8 @@
+The preceding paragraph addresses nonuniqueness in determining an input-output system description. In
+addition, state models developed from input-output descriptions are not unique. Suppose the transfer function
+of a single-input, single-output linear system is known exactly. The state variable model of this system is not
+unique for at least two reasons. An arbitrarily high-order state variable model can be found that will have this
+same  transfer  function.  There  is,  however,  a  unique  minimal  or  irreducible  order nmin  from  among  all  state
+models that have the speciﬁed transfer function. A state model of this order will have the desirable properties
+of controllability and observability. It is interesting to point out that the minimal order may be less than the
+actual order of the physical system.

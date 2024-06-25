@@ -1,0 +1,6 @@
+Finally,  DSP  chips  typically  have  separate  arithmetic-logic  units  (ALU)  for  data  arithmetic  and  address
+calculations. This serves two purposes: (1) data calculations can proceed unhindered by address calculations,
+maintaining a high throughput, and (2) each unit can be specialized for its particular task. For example, the
+data ALU may have additional circuitry to support saturation arithmetic, whereas the ALU used for address
+calculations  may  provide  indexing,  auto-increment,  or  even  bit-reversal,  an  operation  required  for  the  fast
+Fourier transform (FFT).

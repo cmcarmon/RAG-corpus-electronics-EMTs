@@ -1,0 +1,4 @@
+Block  gaps  are  used  to  allow  the  tape  to  accelerate  to  its  operational  speed  and  for  the  tape  to  decelerate
+when stopping at the end of a block. Block gaps use up to 50% of the tape space available for recording, although
+this  may  be  reduced  by  making  the  block  sizes  larger  but  has  the  disadvantage  of  requiring  larger  memory
+buffers to accommodate the data.

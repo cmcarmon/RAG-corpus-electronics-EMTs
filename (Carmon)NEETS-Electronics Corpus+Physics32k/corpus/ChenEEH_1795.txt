@@ -1,0 +1,6 @@
+An admission control module (refer Figure 7.4) takes as
+input the trafﬁc descriptor and the QoS requirements of the
+ﬂow, and the module outputs its decision of either accepting
+the ﬂow at the requested QoS or rejecting it if that QoS is not
+met (Sun and Jain, 1999). For this it consults admission
+criteria module, which refers to the rules by which an admis-

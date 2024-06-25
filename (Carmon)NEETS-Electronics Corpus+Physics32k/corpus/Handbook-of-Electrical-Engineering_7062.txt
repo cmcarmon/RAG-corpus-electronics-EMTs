@@ -1,0 +1,6 @@
+The algorithm described above is only one of a large class of similar adaptive dictionary-based algorithms,
+which are all rather loosely called Lempel–Ziv. These algorithms are simple and fast and have been implemented
+in both software and hardware, e.g., in the compress command in UNIX and the PKZIP command on PCs. On
+ASCII  text  ﬁles,  the  Lempel–Ziv  algorithm  achieves  compressions  on  the  order  of  50%.  It  has  also  been
+implemented in hardware and has been used to “double” the capacity of data storage media or to “double” the
+effective transmission rate of a modem. Many variations on the basic algorithm can be found in Bell et al. [1990].

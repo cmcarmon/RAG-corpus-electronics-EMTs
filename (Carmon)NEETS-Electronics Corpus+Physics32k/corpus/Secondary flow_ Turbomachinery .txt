@@ -1,0 +1,89 @@
+Secondary flows are important in understanding the performance of turbines and other turbomachinery.
+Many types of secondary flows occur in turbomachinery, including inlet prerotation (intakes vorticity), tip clearance flow (tip leakage), flows at off-design performance (e.g. flow separation), and secondary vorticity flows. Although secondary flows occur in all turbomachinery, it is particularly considered in axial flow compressors because of the thick boundary layers on the annulus walls.
+For such axial-flow compressors, consider a set of guide vanes with an approach velocity c1. The velocity profile will be non-uniform due to friction between the annulus wall and the fluid. The vorticity of this boundary layer is normal to the approach velocity
+
+
+
+
+c
+
+1
+
+
+
+
+{\displaystyle c_{1}}
+and of magnitude
+
+
+
+
+
+w
+
+1
+
+
+=
+
+
+
+d
+
+c
+
+1
+
+
+
+
+d
+z
+
+
+
+
+
+{\displaystyle w_{1}={\frac {dc_{1}}{dz}}}
+
+Where z is the distance to the wall. As the vorticity of each blade onto each other will be of opposite directions, a secondary vorticity will be generated. If the deflection angle, e, between the guide vanes is small, the magnitude of the secondary vorticity is represented as
+
+
+
+
+
+w
+
+s
+
+
+=
+−
+2
+e
+
+(
+
+
+
+d
+
+c
+
+1
+
+
+
+
+d
+z
+
+
+
+)
+
+
+
+{\displaystyle w_{s}=-2e\left({\frac {dc_{1}}{dz}}\right)}
+
+This secondary flow will be the integrated effect of the distribution of secondary vorticity along the blade length.

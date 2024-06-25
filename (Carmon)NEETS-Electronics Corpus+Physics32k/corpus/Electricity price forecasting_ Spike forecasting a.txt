@@ -1,0 +1,150 @@
+When predicting spike occurrences or spot price volatility, one of the most influential fundamental variables is the reserve margin, also called surplus generation. It relates the available capacity (generation, supply),
+
+
+
+
+C
+
+t
+
+
+
+
+{\displaystyle C_{t}}
+, to the demand (load),
+
+
+
+
+D
+
+t
+
+
+
+
+{\displaystyle D_{t}}
+, at a given moment in time
+
+
+
+t
+
+
+{\displaystyle t}
+. The traditional engineering notion of the reserve margin defines it as the difference between the two, i.e.,
+
+
+
+R
+M
+=
+
+C
+
+t
+
+
+−
+
+D
+
+t
+
+
+
+
+{\displaystyle RM=C_{t}-D_{t}}
+, but many authors prefer to work with dimensionless ratios
+
+
+
+
+ρ
+
+t
+
+
+=
+
+D
+
+t
+
+
+
+/
+
+
+C
+
+t
+
+
+
+
+{\displaystyle \rho _{t}=D_{t}/C_{t}}
+,
+
+
+
+
+R
+
+t
+
+
+=
+
+C
+
+t
+
+
+
+/
+
+
+D
+
+t
+
+
+−
+1
+
+
+{\displaystyle R_{t}=C_{t}/D_{t}-1}
+or the so-called capacity utilization
+
+
+
+C
+
+U
+
+t
+
+
+=
+1
+−
+
+D
+
+t
+
+
+
+/
+
+
+C
+
+t
+
+
+
+
+{\displaystyle CU_{t}=1-D_{t}/C_{t}}
+. Its rare application in EPF can be justified only by the difficulty of obtaining good quality reserve margin data. Given that more and more system operators (see e.g. http://www.elexon.co.uk) are disclosing such information nowadays, reserve margin data should be playing a significant role in EPF in the near future.

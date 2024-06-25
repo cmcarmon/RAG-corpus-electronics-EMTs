@@ -1,0 +1,8 @@
+Traces that are placed close together may short out and 
+can electrically short to each other. The traces can also act 
+as antennas and capacitors. High-speed digital lines next 
+to high-impedance analog lines will cause problems. Long 
+traces have the same problems as long wires. They pick 
+up noise and have noticeable impedance. Even though a 
+digital design only runs at 1 MHz, the changing state will 
+cause transients in the GHz range.

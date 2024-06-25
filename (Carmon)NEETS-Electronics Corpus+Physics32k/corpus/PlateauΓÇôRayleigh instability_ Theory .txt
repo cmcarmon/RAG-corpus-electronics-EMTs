@@ -1,0 +1,38 @@
+The explanation of this instability begins with the existence of tiny perturbations in the stream. These are always present, no matter how smooth the stream is. If the perturbations are resolved into sinusoidal components, we find that some components grow with time, while others decay with time. Among those that grow with time, some grow at faster rates than others. Whether a component decays or grows, and how fast it grows is entirely a function of its wave number (a measure of how many peaks and troughs per unit length) and the radius of the original cylindrical stream. The diagram to the right shows an exaggeration of a single component.
+By assuming that all possible components exist initially in roughly equal (but minuscule) amplitudes, the size of the final drops can be predicted by determining by wave number which component grows the fastest. As time progresses, it is the component with the maximal growth rate will come to dominate and will eventually be the one that pinches the stream into drops.
+Although a thorough understanding of how this happens requires a mathematical development (see references), the diagram can provide a conceptual understanding. Observe the two bands shown girdling the stream—one at a peak and the other at a trough of the wave. At the trough, the radius of the stream is smaller, hence according to the Young–Laplace equation the pressure due to surface tension is increased. Likewise at the peak the radius of the stream is greater and, by the same reasoning, pressure due to surface tension is reduced. If this were the only effect, we would expect that the higher pressure in the trough would squeeze liquid into the lower-pressure region in the peak. In this way we see how the wave grows in amplitude over time.
+But the Young-Laplace equation is influenced by two separate radius components. In this case one is the radius, already discussed, of the stream itself. The other is the radius of curvature of the wave itself. The fitted arcs in the diagram show these at a peak and at a trough. Observe that the radius of curvature at the trough is, in fact, negative, meaning that, according to Young–Laplace, it actually decreases the pressure in the trough. Likewise the radius of curvature at the peak is positive and increases the pressure in that region. The effect of these components is opposite the effects of the radius of the stream itself.
+The two effects, in general, do not exactly cancel. One of them will have greater magnitude than the other, depending upon wave number and the initial radius of the stream. When the wave number is such that the radius of curvature of the wave dominates that of the radius of the stream, such components will decay over time. When the effect of the radius of the stream dominates that of the curvature of the wave, such components grow exponentially with time.
+When all the math is done, it is found that unstable components (that is, components that grow over time) are only those where the product of the wave number with the initial radius is less than unity (
+
+
+
+k
+
+R
+
+0
+
+
+<
+1
+
+
+{\displaystyle kR_{0}<1}
+). The component that grows the fastest is the one whose wave number satisfies the equation
+
+
+
+
+k
+
+R
+
+0
+
+
+≃
+0.697.
+
+
+{\displaystyle kR_{0}\simeq 0.697.}

@@ -1,0 +1,9 @@
+but there is an important difference. In the new topology, the resistor RL we
+are trying to drive is now part of the voltage divider feedback network. Thus
+in Figure 15.15a we are using the resistor Rs to sample the current through
+RL, whereas in Figure 15.15b R1 and R2 sample the voltage across RL. The
+distinction seems trivial until we think in terms of RL varying in value, or even
+being nonlinear. Then it is clear that there is a fundamental difference in the
+two topologies.
++ (cid:1) v
+−

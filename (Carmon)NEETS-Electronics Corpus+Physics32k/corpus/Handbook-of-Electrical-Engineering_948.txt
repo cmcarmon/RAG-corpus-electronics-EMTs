@@ -1,0 +1,6 @@
+Assume a collection of measured data, m1, . . ., mn. For simplicity, let these measured data values be functions
+of a single variable, v, which was varied from v1 through vn, measuring each mi data point at each variable value
+vi, i running from 1 to n. For example, the mi data points might be drain current of an MOS transistor, and
+the vi might be the corresponding values of gate voltage. Assume that we have a model for calculating simulated
+values of the measured data points, and let these simulated values be denoted by s1, . . ., sn. We deﬁne the least-
+squares, root mean square (RMS) error as

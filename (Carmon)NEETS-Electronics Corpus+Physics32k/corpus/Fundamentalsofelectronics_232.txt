@@ -1,0 +1,8 @@
+which yields an attenuation (relative to the gain at zero frequency) of about 1/6, and result in
+an output amplitude of 0.3/R relative to the constant term’s amplitude of 3/R. A factor of ten
+diﬀerence between the relative sizes of the two components seems reasonable. Having a 100 mH
+inductor would require a 6.28 Ω resistor. An easily available resistor value is 6.8 Ω; thus, this
+choice results in cheaply and easily purchased parts. To make the resistance bigger would require a
+proportionally larger inductor. Unfortunately, even a 1 H inductor is physically large; consequently
+low cutoﬀ frequencies require small-valued resistors and large-valued inductors. The choice made
+here represents only one compromise.

@@ -1,0 +1,40 @@
+Away from the ends of the pipe, the characteristics of the flow are independent of the position along the pipe. The key quantities are then the pressure drop along the pipe per unit length, Δp/L, and the volumetric flow rate. The flow rate can be converted to a mean flow velocity V by dividing by the wetted area of the flow (which equals the cross-sectional area of the pipe if the pipe is full of fluid).
+Pressure has dimensions of energy per unit volume, therefore the pressure drop between two points must be proportional to 1/2ρ⟨v⟩2, which has the same dimensions as it resembles (see below) the expression for the kinetic energy per unit volume. We also know that pressure must be proportional to the length of the pipe between the two points L as the pressure drop per unit length is a constant. To turn the relationship into a proportionality coefficient of dimensionless quantity, we can divide by the hydraulic diameter of the pipe, D, which is also constant along the pipe. Therefore,
+
+
+
+
+Δ
+p
+∝
+
+
+L
+D
+
+
+⋅
+
+
+1
+2
+
+
+ρ
+
+
+⟨
+v
+⟩
+
+
+2
+
+
+.
+
+
+{\displaystyle \Delta p\propto {\frac {L}{D}}\cdot {\frac {1}{2}}\rho {\langle v\rangle }^{2}.}
+
+The proportionality coefficient is the dimensionless "Darcy friction factor" or "flow coefficient". This dimensionless coefficient will be a combination of geometric factors such as π, the Reynolds number and (outside the laminar regime) the relative roughness of the pipe (the ratio of the roughness height to the hydraulic diameter).
+Note that 1/2ρ⟨v⟩2 is not the kinetic energy of the fluid per unit volume, for the following reasons. Even in the case of laminar flow, where all the flow lines are parallel to the length of the pipe, the velocity of the fluid on the inner surface of the pipe is zero due to viscosity, and the velocity in the center of the pipe must therefore be larger than the average velocity obtained by dividing the volumetric flow rate by the wet area. The average kinetic energy then involves the root mean-square velocity, which always exceeds the mean velocity. In the case of turbulent flow, the fluid acquires random velocity components in all directions, including perpendicular to the length of the pipe, and thus turbulence contributes to the kinetic energy per unit volume but not to the average lengthwise velocity of the fluid.

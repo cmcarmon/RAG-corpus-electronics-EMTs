@@ -1,0 +1,10 @@
+EXAMPLE:	 What is the impedance of a 100- millihenry 
+choke in series with a 470-ohm resistor with 12 volts, 
+60 hertz applied across them?
+Given
+ XL 5 ?
+ p 5 3.14
+ f 5 60 Hz
+ L 5 100 mH 5 0.1 H
+ Z 5 ?
+ R 5 470 V

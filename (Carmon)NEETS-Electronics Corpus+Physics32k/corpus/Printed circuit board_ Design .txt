@@ -1,0 +1,10 @@
+Initially PCBs were designed manually by creating a photomask on a clear mylar sheet, usually at two or four times the true size. Starting from the schematic diagram the component pin pads were laid out on the mylar and then traces were routed to connect the pads. Rub-on dry transfers of common component footprints increased efficiency. Traces were made with self-adhesive tape. Pre-printed non-reproducing grids on the mylar assisted in layout. The finished photomask was photolithographically reproduced onto a photoresist coating on the blank copper-clad boards.
+Modern PCBs are designed with dedicated layout software, generally in the following steps:
+Schematic capture through an electronic design automation (EDA) tool.
+Card dimensions and template are decided based on required circuitry and case of the PCB.
+The positions of the components and heat sinks are determined.
+Layer stack of the PCB is decided, with one to tens of layers depending on complexity. Ground and power planes are decided. A power plane is the counterpart to a ground plane and behaves as an AC signal ground while providing DC power to the circuits mounted on the PCB. Signal interconnections are traced on signal planes. Signal planes can be on the outer as well as inner layers. For optimal EMI performance high frequency signals are routed in internal layers between power or ground planes.
+Line impedance is determined using dielectric layer thickness, routing copper thickness and trace-width. Trace separation is also taken into account in case of differential signals. Microstrip, stripline or dual stripline can be used to route signals.
+Components are placed. Thermal considerations and geometry are taken into account. Vias and lands are marked.
+Signal traces are routed. Electronic design automation tools usually create clearances and connections in power and ground planes automatically.
+Gerber files are generated for manufacturing.

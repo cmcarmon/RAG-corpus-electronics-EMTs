@@ -1,0 +1,12 @@
+A variable-rate speech coding algorithm has been standardized by the CTIA for wideband (CDMA) digital
+mobile  cellular  telephony  under  IS-95.  The  algorithm,  QCELP  [Gardner  et  al.,  1993],  is  the  ﬁrst  practical
+variable-rate speech coder to be incorporated in a digital cellular system. QCELP is a multi-mode, CELP-type
+analysis-by-synthesis coder which uses blockwise spectral energy measurements and a ﬁnite-state machine to
+switch between one of four conﬁgurations. Each conﬁguration has a ﬁxed rate of 1, 2, 4, or 8 kbits/s with a
+predetermined allocation of bits among coder parameters (coefﬁcients, gains, excitation, etc.). The subjective
+performance of QCELP in the presence of low background noise is quite good since the bit allocations per-
+mode and mode-switching logic are well-suited to high-quality speech. In fact, QCELP at an average rate of
+4 kbits/s has been judged to be MOS-equivalent to VSELP, its 8 kbits/s, ﬁxed-rate cellular counterpart. A time-
+averaged encoding rate of 4 to 5 kbits/s is not uncommon for QCELP, however the average rate tends toward
+the 8 kbits/s maximum in the presence of moderate ambient noise. The topic of robust ﬁxed-rate and variable-
+rate speech coding in the presence of signiﬁcant background noise remains an open problem.

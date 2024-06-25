@@ -1,0 +1,12 @@
+A  wide  variety  of  phase  detector  circuits  are  available,  and  the  optimum  type  will  depend  on  the  circuit
+requirements. An  analog  multiplier  (or  mixer)  may  be  used  and  is  most  common  in  applications  where  the
+comparison frequency must be very high. This type of phase detector produces an output that is the multipli-
+cation  of  the  two  input  signals.  If  the  inputs  are  sine  waves,  the  output  will  consist  of  a  double-frequency
+component  as  well  as  a  dc  component  that  is  proportional  to  the  cosine  of  the  input  phase  difference.  The
+low-pass ﬁlter
+double-frequency component can be removed with a 
+, leaving only the dc component. The analog
+–
+multiplier  has  a  somewhat  limited  phase  range  of 
+90  degrees.  The  remainder  of  the  phase  detector  types
+discussed here are digital in nature and operate using digital edges or transitions of the signals to be compared.

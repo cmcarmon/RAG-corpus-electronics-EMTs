@@ -1,0 +1,9 @@
+network:
+(1) Registration server (or registrars): This server keeps
+track of the user location (i.e., the current PC or
+terminal on which the user resides). The user–agent
+sends a registration message to the SIP registrar, and
+the registrar stores the registration information in a
+location service via a non-SIP protocol (e.g., LDAP).
+Once the information is stored, the registrar sends the
+appropriate response back to the user–agent.

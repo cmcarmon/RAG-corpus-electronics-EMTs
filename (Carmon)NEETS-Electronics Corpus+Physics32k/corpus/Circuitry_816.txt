@@ -1,0 +1,22 @@
+PIC programming 
+ 
+PIC  programming  can  be  carried  out  using 
+assembly  language,  C  (see  Table  18.2),  BASIC, 
+and Flowcode (see page 324) or a mixture of these 
+languages.  Software  and  a  programmer  (see  Figs 
+18.6 and 18.7) will be required to do this. The two 
+most  commonly  used  methods  of  programming  a 
+PIC chip are shown in Fig. 18.8. In Fig. 18.8(a) a 
+dedicated  PIC  programmer  is  used  whilst  in  Fig. 
+18.8(b)  the  PIC  is  programmed  whilst  resident  in 
+the target system. In either case, the programming 
+software  and  source  code  is  resident  on  a  PC  and 
+downloaded as hex code into the PIC. The  process 
+of  generating  the  source  code,  compiling  and/or 
+assembling  it  into  hex,  code  (see  Fig.  18.10)  is 
+invariably  performed  by  software  known  as  an 
+Integrated  Development  Environment  (IDE), as 
+shown in Fig. 18.9. Software is also available that 
+can  be  used  to  simulate  a  PIC  (see  Figs  18.11  to 
+18.13)  and  full  development  systems  are  also 
+available (see Figs 18.14 and  18.15). 

@@ -1,0 +1,13 @@
+Typically, every generator in the system consists of two types
+of internal controls, one for maintaining the real power output
+of the generator and the other for regulating the bus voltage
+magnitude. In power ﬂow studies, we usually assume that both
+these control mechanisms are operating perfectly and so the
+real power output PGi and Vi are maintained at their speciﬁed
+values. Again, the load variables PLi and QLi are also assumed
+to be known. This leaves the generator reactive output QGi and
+the voltage phase angle di as the two unknown variables for the
+bus. In terms of injections, the real power injection Pi and the
+bus voltage Vi are then the speciﬁed variables; thus, the gener-
+ator busses are normally denoted PV busses in power ﬂow
+studies.

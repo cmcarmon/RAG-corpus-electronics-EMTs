@@ -1,0 +1,9 @@
+This chapter has presented two methods for the design of state
+estimators; however, the task is not complete. For example, the
+Kalman ﬁlter methodology would require the designer to
+develop and use a full stochastic model of the system, process
+noise, actuators, and sensors. Because the Kalman ﬁlter ap-
+proach assumes a linear model driven by white noise, any
+colored noise process will necessitate the augmentation of
+additional states to the model so that the colored noise process
+is represented as a linear system with white noise inputs.

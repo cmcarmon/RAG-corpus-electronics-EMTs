@@ -1,0 +1,9 @@
+The  ISO/OSI  layered  architecture  described  above  would  appear  to  be  very  rigid,  not  allowing  for  any
+variations in underlying topology or variations in link reliability. However, as we shall see, this is not necessarily
+the case. As an example, ISO 8348, which developed as a result of the X.25 project, provides only connection-
+oriented service, and it was originally intended as the only network layer standard for ISO/OSI. However, ISO
+8473, or ISO-IP, which is virtually identical to the Department of Defense (DoD) internet protocol (DoD-IP)
+developed in the ARPANET project, has since been added to the protocol suite to provide connectionless service
+as  well  as  internet  service.  An  interesting  aside  is  that  because  of  the  addressing  limitations  of  DoD-IP,  the
+Internet Administrative Board (IAB) has recently recommended replacement of the DoD-IP protocol by the
+ISO-IP protocol, thus bringing the process full circle.

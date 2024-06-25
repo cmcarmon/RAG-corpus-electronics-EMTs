@@ -1,0 +1,8 @@
+where earliest is the operator that constructs the ‘‘earliest-
+arrival-highest-possibility distribution’’ from m distributions,
+(Murata, 1996; Murata et al., 1999), min denotes the minimum
+or intersection operation, and  is the extended addition
+(Dubois and Prade, 1989). We compute the fuzzy time stamp
+ptp(t), which is the fuzzy time distribution at which a token
+arrives at the transition t output place p, as follows:
+ptp(t) ¼ ot(t)  dtp(t) ¼ h1(o1, o2, o3, o4)  h2(d1, d2, d3, d4)

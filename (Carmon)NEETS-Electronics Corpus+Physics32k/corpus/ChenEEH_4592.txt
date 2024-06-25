@@ -1,0 +1,21 @@
+the number of layers, number of neurons in each layer, and
+neuron transfer functions have to be speciﬁed). It is known
+that neural networks are sensitive to the number of neurons in
+the hidden layers. Too few neurons can result in underﬁtting
+problems (poor approximation), and too many neurons may
+contribute to an overﬁtting problem, where all the training
+patterns are well ﬁt, but the ﬁtting curve may take wild oscil-
+lations between the training data points (Demuth and Beale,
+1998). The criterion for stopping of the training process is
+another important issue in the real applications. If the mean
+square error of the estimator is forced to reach a very small
+value, the estimator may perform poorly for the new input
+data slightly away from the training patterns. This is the well-
+known generalization problem. Besides, in the real applica-
+tions, the training patterns may contain some noise since
+they are the measurements from real sensors. The estimator
+may adjust itself to ﬁt the noise instead of the real failure
+dynamics. Some methods proposed to improve these prob-
+lems, such as early stopping criterion and generalization net-
+work training algorithms, may be useful to remedy these
+situations (Demoth and Beale, 1998; Mackey, 1992)

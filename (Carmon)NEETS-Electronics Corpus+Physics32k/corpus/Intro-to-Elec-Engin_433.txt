@@ -1,0 +1,4 @@
+Some op amps, such as the 741, have internal RC networks which are intentionally designed to
+reduce gain at high frequency. The result (shown in Figure 5.2.4) is that the open-loop gain begins
+to fall at a few hertz and then has a characteristic falling at 20 dB/decade or 6 dB/octave (i.e.,
+gain ∝ 1/f ) until eventually the gain becomes unity (0 dB) at about 1 MHz.

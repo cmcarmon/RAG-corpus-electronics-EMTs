@@ -1,0 +1,14 @@
+The moment of mean conjunction can easily be computed from an expression for the mean ecliptical longitude of the Moon minus the mean ecliptical longitude of the Sun (Delauney parameter D). Jean Meeus gave formulae to compute this in his Astronomical Formulae for Calculators based on the ephemerides of Brown and Newcomb (ca. 1900); and in his 1st edition of Astronomical Algorithms based on the ELP2000-85 (the 2nd edition uses ELP2000-82 with improved expressions from Chapront et al. in 1998). These are now outdated: Chapront et al. (2002) published improved parameters. Also Meeus's formula uses a fractional variable to allow computation of the four main phases, and uses a second variable for the secular terms. For the convenience of the reader, the formula given above is based on Chapront's latest parameters and expressed with a single integer variable, and the following additional terms have been added:
+constant term:
+Like Meeus, apply the constant terms of the aberration of light for the Sun's motion and light-time correction for the Moon to obtain the apparent difference in ecliptical longitudes:
+Sun: +20.496"
+Moon: −0.704"
+Correction in conjunction: −0.000451 days
+For UT: at 1 January 2000, ΔT (= TT − UT ) was +63.83 s; hence the correction for the clock time UT = TT − ΔT of the conjunction is:
+−0.000739 days.
+quadratic term:
+In ELP2000–85 (see Chapront et alii 1988), D has a quadratic term of −5.8681"T2; expressed in lunations N, this yields a correction of +87.403×10–12N2 days to the time of conjunction. The term includes a tidal contribution of 0.5×(−23.8946 "/cy2). The most current estimate from Lunar Laser Ranging for the acceleration is (see Chapront et alii 2002): (−25.858 ±0.003)"/cy2. Therefore, the new quadratic term of D is = -6.8498"T2. Indeed, the polynomial provided by Chapront et alii (2002) provides the same value (their Table 4). This translates to a correction of +14.622×10−12N2 days to the time of conjunction; the quadratic term now is:
++102.026×10−12N2 days.
+For UT: analysis of historical observations shows that ΔT has a long-term increase of +31 s/cy2. Converted to days and lunations, the correction from ET to UT becomes:
+−235×10−12N2 days.
+The theoretical tidal contribution to ΔT is about +42 s/cy2 the smaller observed value is thought to be mostly due to changes in the shape of the Earth. Because the discrepancy is not fully explained, uncertainty of our prediction of UT (rotation angle of the Earth) may be as large as the difference between these values: 11 s/cy2. The error in the position of the Moon itself is only maybe 0.5"/cy2, or (because the apparent mean angular velocity of the Moon is about 0.5"/s), 1 s/cy2 in the time of conjunction with the Sun.

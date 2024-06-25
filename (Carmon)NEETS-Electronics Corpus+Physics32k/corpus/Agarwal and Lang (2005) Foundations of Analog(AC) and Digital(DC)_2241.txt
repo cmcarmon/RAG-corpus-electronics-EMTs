@@ -1,0 +1,14 @@
+Typical measured v i characteristics for a silicon diode are shown
+−12 amps), as
+in Figure 16.4. If we plot on a current scale of pico-amps (10
+in Figure 16.4a, then the expected exponential shape appears. But if we plot on
+a more typical scale of milliamps (Figure 16.4b), then the curve looks quite
+different. The current appears to be zero until the diode voltage is almost
+0.6 volts, at which point the characteristic rises very sharply. This apparent
+knee is entirely due to the mathematical behavior of exponentials, rather than
+some physically-related threshold in the device. Nonetheless, on the scale of
+milliamperes, silicon diodes appear to have a voltage threshold of 0.6 to 0.7 V,
+(0.2 V for germanium diodes). This threshold has important consequences for
+semiconductor circuit design, some detrimental but others of great value. For
+example, recall that digital logic depends critically on the presence of such a
+threshold, as we saw in Chapter 6.

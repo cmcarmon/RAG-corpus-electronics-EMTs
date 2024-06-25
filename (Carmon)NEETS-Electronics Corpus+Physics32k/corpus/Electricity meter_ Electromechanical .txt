@@ -1,0 +1,37 @@
+The most common type of electricity meter is the electromechanical watt-hour meter.
+On a single-phase AC supply, the electromechanical induction meter operates through electromagnetic induction by counting the revolutions of a non-magnetic, but electrically conductive, metal disc which is made to rotate at a speed proportional to the power passing through the meter. The number of revolutions is thus proportional to the energy usage. The voltage coil consumes a small and relatively constant amount of power, typically around 2 watts which is not registered on the meter. The current coil similarly consumes a small amount of power in proportion to the square of the current flowing through it, typically up to a couple of watts at full load, which is registered on the meter.
+The disc is acted upon by two sets of induction coils, which form, in effect, a two phase linear induction motor. One coil is connected in such a way that it produces a magnetic flux in proportion to the voltage and the other produces a magnetic flux in proportion to the current. The field of the voltage coil is delayed by 90 degrees, due to the coil's inductive nature, and calibrated using a lag coil. This produces eddy currents in the disc and the effect is such that a force is exerted on the disc in proportion to the product of the instantaneous current, voltage and phase angle (power factor) between them. A permanent magnet acts as an eddy current brake, exerting an opposing force proportional to the speed of rotation of the disc. The equilibrium between these two opposing forces results in the disc rotating at a speed proportional to the power or rate of energy usage. The disc drives a register mechanism which counts revolutions, much like the odometer in a car, in order to render a measurement of the total energy used.
+Different phase configurations use additional voltage and current coils.
+
+The disc is supported by a spindle which has a worm gear which drives the register. The register is a series of dials which record the amount of energy used. The dials may be of the cyclometer type, an odometer-like display that is easy to read where for each dial a single digit is shown through a window in the face of the meter, or of the pointer type where a pointer indicates each digit. With the dial pointer type, adjacent pointers generally rotate in opposite directions due to the gearing mechanism.
+The amount of energy represented by one revolution of the disc is denoted by the symbol Kh which is given in units of watt-hours per revolution. The value 7.2 is commonly seen. Using the value of Kh one can determine their power consumption at any given time by timing the disc with a stopwatch.
+
+
+
+
+P
+=
+
+
+
+3600
+⋅
+K
+h
+
+t
+
+
+
+
+{\displaystyle P={{3600\cdot Kh} \over t}}
+.
+Where:
+
+t = time in seconds taken by the disc to complete one revolution,
+P = power in watts.
+
+For example, if Kh = 7.2 as above, and one revolution took place in 14.4 seconds, the power is 1800 watts. This method can be used to determine the power consumption of household devices by switching them on one by one.
+Most domestic electricity meters must be read manually, whether by a representative of the power company or by the customer. Where the customer reads the meter, the reading may be supplied to the power company by telephone, post or over the internet. The electricity company will normally require a visit by a company representative at least annually in order to verify customer-supplied readings and to make a basic safety check of the meter.
+In an induction type meter, creep is a phenomenon that can adversely affect accuracy, that occurs when the meter disc rotates continuously with potential applied and the load terminals open circuited. A test for error due to creep is called a creep test.
+Two standards govern meter accuracy, ANSI C12.20 for North America and IEC 62053.

@@ -1,0 +1,10 @@
+where sx, sy, and sz are deﬁned in equations 9.113. Directly
+inserting equation 9.113 into equation 9.114 and then trans-
+forming into the time domain would lead to a convolution
+between the tensor coefﬁcients and the E-ﬁeld. This is not
+advisable because implementing this convolution would be
+computationally intensive. As
+shown by Gedney (1995,
+1996), a much more efﬁcient approach is to deﬁne the proper
+constitutive relationship to decouple the frequency-dependent
+terms. Speciﬁcally, let:

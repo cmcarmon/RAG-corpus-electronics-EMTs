@@ -1,0 +1,7 @@
+Porter et al. (2000) proposed a frequency domain corre-
+lation approach. This approach relies on motion estimation
+information obtained by use of template matching; that is, for
+each 32  32 block in a given frame, the best matching block in
+a corresponding neighborhood in the next frame is sought by
+calculating the normalized crosscorrelation in the frequency
+domain as:

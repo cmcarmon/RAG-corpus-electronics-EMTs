@@ -1,0 +1,131 @@
+The heat-transfer version of Newton's law, which (as noted) requires a constant heat transfer coefficient, states that the rate of heat loss of a body is proportional to the difference in temperatures between the body and its surroundings.
+The rate of heat transfer in such circumstances is derived below:
+Newton's cooling law in convection is a restatement of the differential equation given by Fourier's law:
+
+
+
+
+
+
+
+
+d
+Q
+
+
+d
+t
+
+
+
+=
+h
+⋅
+A
+⋅
+(
+T
+(
+t
+)
+−
+
+T
+
+env
+
+
+)
+=
+h
+⋅
+A
+Δ
+T
+(
+t
+)
+
+
+
+
+{\displaystyle {{\frac {dQ}{dt}}=h\cdot A\cdot (T(t)-T_{\text{env}})=h\cdot A\Delta T(t)\quad }}
+
+where
+
+
+
+
+Q
+
+
+{\displaystyle Q}
+is the thermal energy in joules
+
+
+
+
+h
+
+
+{\displaystyle h}
+is the heat transfer coefficient (assumed independent of T here) (W/(m2 K))
+
+
+
+
+A
+
+
+{\displaystyle A}
+is the heat transfer surface area (m2)
+
+
+
+
+T
+
+
+{\displaystyle T}
+is the temperature of the object's surface and interior (since these are the same in this approximation)
+
+
+
+
+
+T
+
+env
+
+
+
+
+{\displaystyle T_{\text{env}}}
+is the temperature of the environment; i.e. the temperature suitably far from the surface
+
+
+
+
+Δ
+T
+(
+t
+)
+=
+T
+(
+t
+)
+−
+
+T
+
+env
+
+
+
+
+{\displaystyle \Delta T(t)=T(t)-T_{\text{env}}}
+is the time-dependent thermal gradient between environment and object
+The heat transfer coefficient h depends upon physical properties of the fluid and the physical situation in which convection occurs. Therefore, a single usable heat transfer coefficient (one that does not vary significantly across the temperature-difference ranges covered during cooling and heating) must be derived or found experimentally for every system that can be analyzed using the presumption that Newton's law will hold.
+Formulas and correlations are available in many references to calculate heat transfer coefficients for typical configurations and fluids. For laminar flows, the heat transfer coefficient is rather low compared to turbulent flows; this is due to turbulent flows having a thinner stagnant fluid film layer on the heat transfer surface. However, note that Newton's law breaks down if the flows should transition between laminar or turbulent flow, since this will change the heat transfer coefficient h which is assumed constant in solving the equation.

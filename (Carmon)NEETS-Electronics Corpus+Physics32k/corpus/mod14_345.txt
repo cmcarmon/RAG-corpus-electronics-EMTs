@@ -1,0 +1,5 @@
+Let’s assume that at T0, CLK is 0, D is 1, and Q is 0. Input D remains at 1 for approximately 2 1/2
+clock pulses. At T1, when the clock goes to 1, Q also goes to 1 and remains at 1 even though D goes to 0
+between T2 and T3. At T3, the positive-going pulse of the clock causes Q to go to 0, reflecting the
+condition of D. The positive-going clock pulse at T5 causes no change in the output because D is still
+LOW. Between T5 and T6, D goes HIGH, but Q remains LOW until T7 when the clock goes HIGH.

@@ -1,0 +1,11 @@
+In digital speech transmission over telephone lines via PCM, a standard TDM hierarchy has been
+established for accommodating multiple subscribers. Figure 15.3.11 illustrates the TDM hierarchy
+for the North American telephone system. The output from the channel bank is a digital signal
+(DS) on a line said to carry level 1 multiplexing. In the ﬁrst level of the TDM hierarchy, 24
+digital subscriber signals are time-division multiplexed into a single high-speed data stream of
+1.544 Mbit/s (nominal bit rate). The resulting combined signal is usually called a DS-1 channel.
+In the second level of TDM, four DS-1 channels are multiplexed into a DS-2 channel, having the
+nominal bit rate of 6.312 Mbit/s. In a third level of hierarchy, seven DS-2 channels are combined
+via TDM to produce a DS-3 channel, which has a nominal bit rate of 44.736 Mbit/s. Beyond
+DS-3, there are two more levels, as shown in Figure 15.3.11. All multiplexers except the channel
+bank are asynchronous.

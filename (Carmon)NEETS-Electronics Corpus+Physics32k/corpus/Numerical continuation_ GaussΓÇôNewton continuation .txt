@@ -1,0 +1,1 @@
+This method is a variant of pseudo-arclength continuation. Instead of using the tangent at the initial point in the arclength constraint, the tangent at the current solution is used. This is equivalent to using the pseudo-inverse of the Jacobian in Newton's method, and allows longer steps to be made. [B17]

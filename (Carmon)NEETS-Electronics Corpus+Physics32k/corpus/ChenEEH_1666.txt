@@ -1,0 +1,9 @@
+spatial data structure to preserve the structural information in
+the color image. Based on a perceptually uniform color space
+CIELab*, each image is quantized into k bins to represent k
+different color groups. A color layout corresponding to pixels
+of each color in the whole image is formed for each bin and is
+represented by the corresponding encoded quadtree. This en-
+coded quadtree-based representation not only keeps the spatial
+information intact but also results in a system that is highly
+scalable in terms of query search time.

@@ -1,0 +1,22 @@
+As in the beginning, the capacitor voltage is now lower than the output and
+therefore the capacitor begins to charge up. This cycle repeats and results in a
+square wave at the output of the Op Amp.
+Let us derive the time period of the oscillator in Figure 15.31. Assume that
+at time T1, vO transitions from VS to −VS as illustrated in Figure 15.35. We
+1 , vO = VS and from the voltage-divider relationship, we know
+−
+know that at T
+−
+that v
+1 , and
+that the capacitor voltage is increasing.
+− ≈
+At time T
+VSR1/(R1 + R2). Output vO transitions virtually instantaneously to −VS and
+becomes −R1VS/(R1 + R2). The capacitor now begins to discharge and v
+−
++
+v
+−
+begins to decrease. We know that vO will transition from low to high when v
+falls below v

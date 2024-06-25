@@ -1,0 +1,754 @@
+The worldline of a body in hyperbolic motion having constant proper acceleration
+
+
+
+α
+
+
+{\displaystyle \alpha }
+in the
+
+
+
+X
+
+
+{\displaystyle X}
+-direction as a function of proper time
+
+
+
+τ
+
+
+{\displaystyle \tau }
+and rapidity
+
+
+
+α
+τ
+
+
+{\displaystyle \alpha \tau }
+can be given by
+
+
+
+
+T
+=
+x
+sinh
+⁡
+(
+α
+τ
+)
+,
+
+X
+=
+x
+cosh
+⁡
+(
+α
+τ
+)
+
+
+{\displaystyle T=x\sinh(\alpha \tau ),\quad X=x\cosh(\alpha \tau )}
+
+where
+
+
+
+x
+=
+1
+
+/
+
+α
+
+
+{\displaystyle x=1/\alpha }
+is constant and
+
+
+
+α
+τ
+
+
+{\displaystyle \alpha \tau }
+is variable, with the worldline resembling the hyperbola
+
+
+
+
+X
+
+2
+
+
+−
+
+T
+
+2
+
+
+=
+
+x
+
+2
+
+
+
+
+{\displaystyle X^{2}-T^{2}=x^{2}}
+. Sommerfeld showed that the equations can be reinterpreted by defining
+
+
+
+x
+
+
+{\displaystyle x}
+as variable and
+
+
+
+α
+τ
+
+
+{\displaystyle \alpha \tau }
+as constant, so that it represents the simultaneous "rest shape" of a body in hyperbolic motion measured by a comoving observer. By using the proper time of the observer as the time of the entire hyperbolically accelerated frame by setting
+
+
+
+τ
+=
+t
+
+
+{\displaystyle \tau =t}
+, the transformation formulas between the inertial coordinates and the hyperbolic coordinates are consequently:
+
+with the inverse
+
+
+
+
+t
+=
+
+
+1
+α
+
+
+artanh
+⁡
+
+(
+
+
+T
+X
+
+
+)
+
+,
+
+x
+=
+
+
+
+X
+
+2
+
+
+−
+
+T
+
+2
+
+
+
+
+,
+
+y
+=
+Y
+,
+
+z
+=
+Z
+
+
+{\displaystyle t={\frac {1}{\alpha }}\operatorname {artanh} \left({\frac {T}{X}}\right),\quad x={\sqrt {X^{2}-T^{2}}},\quad y=Y,\quad z=Z}
+
+Differentiated and inserted into the Minkowski metric
+
+
+
+d
+
+s
+
+2
+
+
+=
+−
+d
+
+T
+
+2
+
+
++
+d
+
+X
+
+2
+
+
++
+d
+
+Y
+
+2
+
+
++
+d
+
+Z
+
+2
+
+
+
+
+{\displaystyle ds^{2}=-dT^{2}+dX^{2}+dY^{2}+dZ^{2}}
+, the metric in the hyperbolically accelerated frame follows
+
+These transformations define the Rindler observer as an observer that is "at rest" in Rindler coordinates, i.e., maintaining constant x, y, z and only varying t as time passes. The coordinates are valid in the region
+
+
+
+
+
+0
+
+<
+
+X
+
+<
+
+∞
+,
+
+−
+X
+
+<
+
+T
+
+<
+
+X
+
+
+
+
+{\displaystyle {\scriptstyle 0\,<\,X\,<\,\infty ,\;-X\,<\,T\,<\,X}}
+, which is often called the Rindler wedge, if
+
+
+
+α
+
+
+{\displaystyle \alpha }
+represents the proper acceleration (along the hyperbola
+
+
+
+x
+=
+1
+
+
+{\displaystyle x=1}
+) of the Rindler observer whose proper time is defined to be equal to Rindler coordinate time. To maintain this world line, the observer must accelerate with a constant proper acceleration, with Rindler observers closer to
+
+
+
+x
+=
+0
+
+
+{\displaystyle x=0}
+(the Rindler horizon) having greater proper acceleration. All the Rindler observers are instantaneously at rest at time
+
+
+
+T
+=
+0
+
+
+{\displaystyle T=0}
+in the inertial frame, and at this time a Rindler observer with proper acceleration
+
+
+
+
+α
+
+i
+
+
+
+
+{\displaystyle \alpha _{i}}
+will be at position
+
+
+
+X
+=
+1
+
+/
+
+
+α
+
+i
+
+
+
+
+{\displaystyle X=1/\alpha _{i}}
+(really
+
+
+
+X
+=
+
+c
+
+2
+
+
+
+/
+
+
+α
+
+i
+
+
+
+
+{\displaystyle X=c^{2}/\alpha _{i}}
+, but we assume units where
+
+
+
+c
+=
+1
+
+
+{\displaystyle c=1}
+), which is also that observer's constant distance from the Rindler horizon in Rindler coordinates. If all Rindler observers set their clocks to zero at
+
+
+
+T
+=
+0
+
+
+{\displaystyle T=0}
+, then when defining a Rindler coordinate system we have a choice of which Rindler observer's proper time will be equal to the coordinate time
+
+
+
+t
+
+
+{\displaystyle t}
+in Rindler coordinates, and this observer's proper acceleration defines the value of
+
+
+
+α
+
+
+{\displaystyle \alpha }
+above (for other Rindler observers at different distances from the Rindler horizon, the coordinate time will equal some constant multiple of their own proper time). It is a common convention to define the Rindler coordinate system so that the Rindler observer whose proper time matches coordinate time is the one who has proper acceleration
+
+
+
+α
+=
+1
+
+
+{\displaystyle \alpha =1}
+, so that
+
+
+
+α
+
+
+{\displaystyle \alpha }
+can be eliminated from the equations.
+The above equation has been simplified for
+
+
+
+c
+=
+1
+
+
+{\displaystyle c=1}
+. The unsimplified equation is more convenient for finding the Rindler Horizon distance, given an acceleration
+
+
+
+α
+
+
+{\displaystyle \alpha }
+.
+
+
+
+
+
+
+
+
+t
+
+
+
+=
+
+
+c
+α
+
+
+artanh
+⁡
+
+(
+
+
+
+c
+T
+
+X
+
+
+)
+
+
+
+
+≈
+
+X
+
+≫
+
+c
+T
+
+
+
+
+
+
+
+
+c
+
+2
+
+
+T
+
+
+α
+X
+
+
+
+
+
+
+
+X
+
+
+
+≈
+
+
+
+
+c
+
+2
+
+
+T
+
+
+α
+t
+
+
+
+
+
+
+≈
+
+T
+
+≈
+
+t
+
+
+
+
+
+
+
+c
+
+2
+
+
+α
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}t&={\frac {c}{\alpha }}\operatorname {artanh} \left({\frac {cT}{X}}\right)\;{\overset {X\,\gg \,cT}{\approx }}\;{\frac {c^{2}T}{\alpha X}}\\X&\approx {\frac {c^{2}T}{\alpha t}}\;{\overset {T\,\approx \,t}{\approx }}\;{\frac {c^{2}}{\alpha }}\end{aligned}}}
+
+The remainder of the article will follow the convention of setting both
+
+
+
+α
+=
+1
+
+
+{\displaystyle \alpha =1}
+and
+
+
+
+c
+=
+1
+
+
+{\displaystyle c=1}
+, so units for
+
+
+
+X
+
+
+{\displaystyle X}
+and
+
+
+
+x
+
+
+{\displaystyle x}
+will be 1 unit
+
+
+
+=
+
+c
+
+2
+
+
+
+/
+
+α
+=
+1
+
+
+{\displaystyle =c^{2}/\alpha =1}
+. Be mindful that setting
+
+
+
+α
+=
+1
+
+
+{\displaystyle \alpha =1}
+light-second/second2 is very different from setting
+
+
+
+α
+=
+1
+
+
+{\displaystyle \alpha =1}
+light-year/year2. Even if we pick units where
+
+
+
+c
+=
+1
+
+
+{\displaystyle c=1}
+, the magnitude of the proper acceleration
+
+
+
+α
+
+
+{\displaystyle \alpha }
+will depend on our choice of units: for example, if we use units of light-years for distance, (
+
+
+
+X
+
+
+{\displaystyle X}
+or
+
+
+
+x
+
+
+{\displaystyle x}
+) and years for time, (
+
+
+
+T
+
+
+{\displaystyle T}
+or
+
+
+
+t
+
+
+{\displaystyle t}
+), this would mean
+
+
+
+α
+=
+1
+
+
+{\displaystyle \alpha =1}
+light year/year2, equal to about 9.5 meters/second2, while if we use units of light-seconds for distance, (
+
+
+
+X
+
+
+{\displaystyle X}
+or
+
+
+
+x
+
+
+{\displaystyle x}
+), and seconds for time, (
+
+
+
+T
+
+
+{\displaystyle T}
+or
+
+
+
+t
+
+
+{\displaystyle t}
+), this would mean
+
+
+
+α
+=
+1
+
+
+{\displaystyle \alpha =1}
+light-second/second2, or 299 792 458 meters/second2).

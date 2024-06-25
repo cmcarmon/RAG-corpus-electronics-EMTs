@@ -1,0 +1,4 @@
+The rectiﬁed waveforms still have a lot of ripple that has to be smoothed out in order to
+generate a genuine DC voltage. This we do by tacking on a low-pass ﬁlter. The capacitor
+value is chosen in order to ensure small ripple, by making the time constant for discharging
+much longer than the time between re-charging.

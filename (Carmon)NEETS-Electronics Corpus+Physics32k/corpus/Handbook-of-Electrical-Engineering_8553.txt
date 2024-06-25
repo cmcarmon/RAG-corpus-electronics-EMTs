@@ -1,0 +1,7 @@
+Get ﬁrst part of ﬁrst operand
+Add to ﬁrst part of second operand
+Give low byte of ﬁnal result
+Get second part of ﬁrst operand
+Add to second part of second operand and to carry bit
+Give high byte of ﬁnal result
+Jump to error routine if Result >65536

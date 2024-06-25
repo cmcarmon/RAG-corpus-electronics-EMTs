@@ -1,0 +1,6 @@
+On the other hand, if the size of the network is too large, performance may also suffer. This is the phenomenon
+of overﬁtting that we mentioned above. But one alternative way to control it is to reduce the size of the network.
+There are basically two procedures to set the size of the network: either one starts small and adds new PEs or
+one  starts  with  a  large  network  and  prunes  PEs  [Haykin,  1994].  One  quick  way  to  prune  the  network  is  to
+impose a penalty term in the performance function — a regularizing term — such as limiting the slope of the
+input/output map [Bishop, 1995]. A regularization term that can be implemented locally is

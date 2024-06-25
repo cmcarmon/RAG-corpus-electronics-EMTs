@@ -1,0 +1,3 @@
+Binary searchtree: A tree that accesses a set. A tree t accesses a set s if the root of t is some element a of s,
+and s1, called the left subtree of t, accesses the subset {x * x ˛ s and x < a}, and s2, called the right subtree
+of t, accesses the subset {x * x ˛ s and x > a}.

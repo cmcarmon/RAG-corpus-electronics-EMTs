@@ -1,0 +1,9 @@
+A solution to the general signal restoration problem for the case in which the individual attribute sets are
+closed subspaces formally entails determining the orthogonal projection operator PC on the closed composite
+attribute subspace (14.81). Unfortunately, an analytical expression for PC is typically intractable even when the
+orthogonal projection operators Pk deﬁned on each of the individual attribute subspaces Ck are readily con-
+structed. The natural question arises as to whether it is possible to use these individual orthogonal projection
+operators  to  generate  PC .  In  recognition  of  this  need,  J.  von  Neumann  developed  a  method  for  iteratively
+constructing the required projection operator [von Neumann, 1950] for the case of two (m = 2) closed subspaces
+(p.  55,  theorem  14.7).  This  result  was  later  extended  by  Halperin  [1962]  for  the  multiple  attribute  closed
+subspace case as described in the following theorem.

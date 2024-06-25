@@ -1,0 +1,9 @@
+Coverage of 100% of Transmission Line
+The step-distance scheme utilizes the zone 1 and zone 2 combination to protect 100% of the transmission line.
+The middle portion of the transmission line, which lies in zone 1 of relays at the two ends of the line, is protected
+at high speed from both ends. However, for faults in the remaining portion of the line, the near end clears the
+fault  at  high  speed,  i.e.,  in  zone 1  time,  while  the  remote  end  clears  the  fault  in  zone 2  time.  In  effect,  such
+faults remain on the system for zone 2 time, which may be of the order 0.3 to 0.5 s. This becomes undesirable
+in modern power systems where the margin of stability may be quite limited. In any case, it is good protection
+practice to protect the entire line with high-speed clearing of all internal faults from both ends of the trans-
+mission line. Pilot protection accomplishes this task.

@@ -1,0 +1,37 @@
+Equimolar Counterdiffusion
+There are three different types of Diffusion Molecular, Brownian and Turbulent. Molecular diffusion occurs in gases, liquids, and solids. Diffusion is a result of thermal motion of molecules. Usually, convection occurs as a result of the diffusion process. The rate at which diffusion occurs depends on the state of the molecules: it occurs at a high rate in gases, a slower rate in liquids, and an even slower rate in solids. In gases, molecular diffusion is dependent on pressure and temperature. The higher the pressure, the slower the diffusion takes place, and the higher the temperature, the faster the diffusion takes place. In liquids, an increase in temperature increases the rate of diffusion. However, since liquids are incompressible, the rate of diffusion is not affected by the pressure. The rate of diffusion in solids is also increased by temperature.
+Heat and mass transfer occurs from areas of higher concentration to areas of lower concentration. A simplistic way to picture diffusion is when ink is put on a paper towel; it spreads from areas of high concentration to areas of low concentration. The equation for this is shown below and is similar to the Heat equation.
+
+N = -D dC/dr
+
+where
+N is the rate of mass transfer of the diffusing component (moles per second per unit area)
+D is the diffusivity variable
+dC/dr is the local concentration gradient of the diffusing component
+
+However, if a mixture is not of a pure concentration but consists of two species; then it is a binary flow, and the two flows must balance each other. This type of diffusion is referred to as equimolar counterdiffusion, and the two species, A and B, are in combination with each other. As an example, if there are two groups of mixtures containing species A and B connected by a channel, then species A will diffuse in the direction of species B, and vice versa. Specifically, for gases, assuming ideal behavior(Ideal gas) (P=CRuT), the molar concentration C will remain constant since the pressure and temperature are constant. Therefore, the molar flow rates of each species must be equal in magnitude and opposite in direction:
+
+ṄA+ṄB = 0
+
+In this process, the net molar flow rate of the mixture and the molar-average velocity are equal to zero, and mass transfer occurs by diffusion only without any convection taking place.
+The mole fraction, the molar concentration, and the Partial pressure of both gases involved in equimolar counterdiffusion vary linearly. These relationships can be found in the following equations expressing the molar flow rates for each species, A and B, for a one-dimensional flow through a channel with no homogenous chemical reactions:
+
+Ṅdiff,A =(CDAB A (yA,1-yA,2))/L = (DAB A (CA,1-CA,2))/L = (DAB A (PA,0-PA,L))/(Ru T L)
+
+Ṅdiff,B =(CDBA A (yB,1-yB,2))/L = (DBA A (CB,1-CB,2))/L = (DBA A (PB,0-PB,L))/(Ru T L)
+
+where
+C is the molar concentration
+DAB or DBA is the interdiffusion coefficient
+P is the partial pressure of the gas
+A is the constant cross-sectional area
+L is the length of the channel where the mixtures diffuse
+y is the mole fraction
+
+We can use this equation to calculate the rate of diffusion in the surface of a catalysis thus, the mole fraction yB,1 is the concentration in the bulk fluid and the concentration yB,2 is the concentration of molecule B liquide at the surface of a catalysis. The diffusion in the bulk fluide compensate the utilisation of B at the surface of the catalysis. kg is the mass transfer coefficient .
+
+Ṅdiff,B =kg(yB,1-yB,2)
+
+Although the mixture is stationary due to the molar flow rate and velocity being zero, the net mass flow rate of the mixture is not equal to zero unless the molar mass of A is equal to the molar mass of B. The mass flow rate can be found using the following equation:
+
+ṁ = ṁa+ṁb=Ṅa Ma+Ṅb Mb=Ṅa (Ma+Mb)

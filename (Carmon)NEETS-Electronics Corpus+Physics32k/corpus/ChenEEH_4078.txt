@@ -1,0 +1,13 @@
+. Quantizer saturation: The quantizer allocates L levels to
+the task of approximating the continuous range of inputs
+with a ﬁnite set of outputs (see Figure 2.11). The range of
+inputs for which the difference between the input and
+output is small
+is called the operating range of the
+converter. If the input exceeds this range, the difference
+between the input and output becomes large, and we say
+that the converter is operating in saturation. Saturation
+errors are more objectionable than quantizing noise. Gen-
+erally, saturation is avoided by use of automatic gain
+control (AGC), which effectively extends the operating
+range of the converter.

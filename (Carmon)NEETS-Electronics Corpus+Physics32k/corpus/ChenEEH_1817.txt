@@ -1,0 +1,9 @@
+Disadvantages of the IntServ Service Model for the Internet
+IntServ uses RSVP to make per-ﬂow reservations at routers
+along a network path. Although this allows the network to
+provide service guarantees at the ﬂow level, it causes it to suffer
+from scalability problems. The routers have to maintain per-
+ﬂow state for every ﬂow that passes through the router, which
+can lead to huge overhead. Moreover, RSVP is a soft-state
+protocol, which means that the router state has to be refreshed
+at regular intervals. This increases trafﬁc overhead.

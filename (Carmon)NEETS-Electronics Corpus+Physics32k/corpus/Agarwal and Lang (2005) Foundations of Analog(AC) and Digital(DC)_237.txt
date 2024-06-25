@@ -1,0 +1,12 @@
+When designing a non-native information processing system, there are
+many choices for signal representation. For example, the use of voltage versus
+current, or analog versus discrete signals are two such choices. Each represen-
+tation has its advantages and disadvantages, and facilitates a certain kind of
+processing. For example, digital representations offer noise immunity at the
+expense of precision. How these choices are made is usually application spe-
+cific, and often depends on the availability of convenient transducers, power
+and noise considerations, and the availability of appropriate elements. The use
+of voltage to represent signals is probably most common, and is used routinely
+here. However, we will also encounter situations in which the signal repre-
+sentation switches from a voltage to a current and back again as the signal is
+processed.

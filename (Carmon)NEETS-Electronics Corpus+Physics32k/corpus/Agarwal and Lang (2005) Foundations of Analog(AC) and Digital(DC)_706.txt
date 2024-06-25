@@ -1,0 +1,8 @@
+In our representation with the forbidden region, a sender can output any
+voltage value between VH and 5 V for a logical 1, and any value between 0 V
+and VL for a logical 0. A sender must never output a value in the forbidden
+region. Correspondingly, as illustrated in Figure 5.5, a receiver must interpret
+any voltage value between VH and 5 V as a logical 1, and any value between
+0 V and VL as a logical 0. The behavior of the receiver can be undefined if it sees
+a voltage value between VL and VH because these values are in the forbidden
+region.

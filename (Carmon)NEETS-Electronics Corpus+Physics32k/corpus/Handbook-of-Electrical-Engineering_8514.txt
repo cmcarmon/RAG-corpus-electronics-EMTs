@@ -1,0 +1,6 @@
+This instruction loads a copy of the operand at memory location MEMLOC into the processor register Ri. The
+instruction  requires  a  few  basic  steps  to  be  performed.  First,  the  instruction  must  be  transferred  from  the
+memory into the processor, where it is decoded. Then the operand at location MEMLOC must be fetched into
+the  processor.  Finally,  the  operand  is  placed  into  register  R1.  After  operands  are  loaded  into  the  processor
+registers in this way, instructions such as ADD Ri, Rj, Rk can be used to add the contents of registers Ri and
+Rj, and then place the result into register Rk.

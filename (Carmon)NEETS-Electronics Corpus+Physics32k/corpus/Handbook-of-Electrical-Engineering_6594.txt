@@ -1,0 +1,3 @@
+Intermediate  stations  repeat  the  bits  in  the  packet  and  also “listen”  for  their  own  addresses.  If  a  station
+recognizes its address in the packet header, it copies the packet. When the packet returns to the sender, it serves
+as an acknowledgment, and the sender removes it from the ring, after converting the token back to “0.”

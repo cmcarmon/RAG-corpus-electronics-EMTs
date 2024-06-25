@@ -1,0 +1,13 @@
+Voltage and ground lines must be properly sized to prevent the peak current density exceeding the level at
+which the power lines will be physically “blown out,” leading to rapid and catastrophic failure of the circuit.
+An equally serious problem is gradual deterioration of a voltage or ground line, eventually leading to failure
+as a result of electromigration. Electromigration failure affects both signal and power lines, but is particularly
+important in power lines because of the constant direction of the current. As current ﬂows through an aluminum
+interconnection,  the  average  force  exerted  on  the  metal  atoms  by  the  electrons  leads  to  a  slow  migration  of
+those  atoms  in  the  direction  of  electron  ﬂow,  causing  the  line  to  migrate  in  the  direction  of  the  electrons
+(opposite to the current ﬂow). In regions of the metal line where discontinuities occur (e.g., at the naturally
+occurring grain boundaries), a void can develop, creating an open in the line. Fortunately, there is a current
+density  threshold  level  (about  1 mA/mm)  below  which  electromigration  is  insigniﬁcant.  Notably,  copper,  in
+addition  to  having  a  lower  resistivity  than  aluminum,  has  greater  resistance  to  electromigration.  Accurate
+estimates of power dissipation due to logic switching within logic blocks of the ASIC are also necessary to assess
+thermal heating within the IC.

@@ -1,0 +1,683 @@
+To understand the how the MRI works, we must first understand the conditions inside a perfectly conducting fluid in motion. This is often a good approximation to astrophysical gases. In the presence of a magnetic field
+
+
+
+
+B
+
+
+,
+
+
+{\displaystyle {\boldsymbol {B}}\ ,}
+a moving conductor responds by trying to eliminate the Lorentz force on the free charges. The magnetic force acts in such a way as to locally rearrange these charges to produce an internal electric field of
+
+
+
+
+E
+=
+−
+
+v
+×
+B
+
+
+
+.
+
+
+{\displaystyle {\boldsymbol {E=-{v\times B}}}\ .}
+In this way, the direct Lorentz force on the charges
+
+
+
+
+E
++
+v
+×
+B
+
+
+
+{\displaystyle {\boldsymbol {E+v\times B}}}
+vanishes. (Alternatively, the electric field in the local rest frame of the moving charges vanishes.) This induced electric field can now itself induce further changes in the magnetic field
+
+
+
+
+B
+
+
+
+{\displaystyle {\boldsymbol {B}}}
+according to Faraday's law,
+
+Another way to write this equation is that if in time
+
+
+
+δ
+t
+
+
+{\displaystyle \delta t}
+the fluid makes a displacement
+
+
+
+
+ξ
+
+=
+
+v
+
+δ
+t
+
+,
+
+
+{\displaystyle {\boldsymbol {\xi }}={\boldsymbol {v}}\delta t\ ,}
+then the magnetic field changes by
+
+The equation of a magnetic field in a perfect conductor in motion has a special property: the combination of Faraday induction and zero Lorentz force makes the field lines behave as though they were painted, or "frozen," into the fluid. In particular, if
+
+
+
+
+B
+
+
+
+{\displaystyle {\boldsymbol {B}}}
+is initially nearly constant and
+
+
+
+ξ
+
+
+{\displaystyle \xi }
+is a divergence-free displacement, then our equation reduces to
+
+because of the vector calculus identity
+
+
+
+∇
+×
+(
+
+ξ
+
+×
+
+B
+
+)
+=
+
+ξ
+
+(
+∇
+⋅
+
+B
+
+)
+−
+
+B
+
+(
+∇
+⋅
+
+ξ
+
+)
++
+(
+
+B
+
+⋅
+∇
+)
+
+ξ
+
+−
+(
+
+ξ
+
+⋅
+∇
+)
+
+B
+
+
+.
+
+
+{\displaystyle \nabla \times (\mathbf {\xi } \times \mathbf {B} )=\mathbf {\xi } (\nabla \cdot \mathbf {B} )-\mathbf {B} (\nabla \cdot \mathbf {\xi } )+(\mathbf {B} \cdot \nabla )\mathbf {\xi } -(\mathbf {\xi } \cdot \nabla )\mathbf {B} \ .}
+Out of these 4 terms,
+
+
+
+∇
+⋅
+
+B
+
+=
+0
+
+
+{\displaystyle \nabla \cdot \mathbf {B} =0}
+is one of Maxwell's equations. By the divergence-free assumption,
+
+
+
+∇
+⋅
+
+ξ
+
+=
+0
+
+
+{\displaystyle \nabla \cdot \mathbf {\xi } =0}
+.
+
+
+
+(
+
+ξ
+
+⋅
+∇
+)
+
+B
+
+=
+0
+
+
+{\displaystyle (\mathbf {\xi } \cdot \nabla )\mathbf {B} =0}
+because B is assumed to be nearly constant. Equation 8 shows that
+
+
+
+
+B
+
+
+
+{\displaystyle {\boldsymbol {B}}}
+changes only when there is a shearing displacement along the field line. To understand the MRI, it is sufficient to consider the case in which
+
+
+
+
+B
+
+
+
+{\displaystyle {\boldsymbol {B}}}
+is uniform in vertical
+
+
+
+z
+
+
+{\displaystyle z}
+direction, and
+
+
+
+ξ
+
+
+{\displaystyle \xi }
+varies as
+
+
+
+
+e
+
+i
+k
+z
+
+
+
+.
+
+
+{\displaystyle e^{ikz}\ .}
+Then
+
+where it is understood that the real part of this equation expresses its physical content. (If
+
+
+
+
+ξ
+
+
+
+{\displaystyle {\boldsymbol {\xi }}}
+is proportional to
+
+
+
+cos
+⁡
+(
+k
+z
+)
+
+,
+
+
+{\displaystyle \cos(kz)\ ,}
+for example, then
+
+
+
+δ
+
+B
+
+
+
+{\displaystyle \delta {\boldsymbol {B}}}
+is proportional to
+
+
+
+−
+sin
+⁡
+(
+k
+z
+)
+
+.
+
+
+{\displaystyle -\sin(kz)\ .}
+)
+A magnetic field exerts a force per unit volume on an electrically neutral, conducting fluid equal to
+
+
+
+
+J
+
+×
+
+B
+
+
+.
+
+
+{\displaystyle {\boldsymbol {J}}\times {\boldsymbol {B}}\ .}
+Ampere's circuital law gives
+
+
+
+
+μ
+
+0
+
+
+
+J
+=
+∇
+×
+B
+
+
+,
+
+
+{\displaystyle \mu _{0}{\boldsymbol {J=\nabla \times B}}\ ,}
+because Maxwell's correction is neglected in the MHD approximation. The force per unit volume becomes
+
+where we have used the same vector calculus identity. This equation is fully general, and makes no assumptions about the strength or direction of the magnetic field. The first term on the right is analogous to a pressure gradient. In our problem it may be neglected because it exerts no force in the plane of the disk, perpendicular to
+
+
+
+z
+
+.
+
+
+{\displaystyle z\ .}
+The second term acts like a magnetic tension force, analogous to a taut string. For a small disturbance
+
+
+
+δ
+
+B
+
+
+,
+
+
+{\displaystyle \delta {\boldsymbol {B}}\ ,}
+it exerts an acceleration given by force divided by mass, or equivalently, force per unit volume divided by mass per unit volume:
+
+Thus, a magnetic tension force gives rise to a return force which is directly proportional to the displacement. This means that the oscillation frequency
+
+
+
+ω
+
+
+{\displaystyle \omega }
+for small displacements in the plane of rotation of a disk with a uniform magnetic field in the vertical direction satisfies an equation ("dispersion relation") exactly analogous to equation 5, with the "spring constant"
+
+
+
+K
+=
+
+
+k
+
+2
+
+
+
+B
+
+2
+
+
+
+/
+
+
+μ
+
+0
+
+
+ρ
+
+
+:
+
+
+{\displaystyle K={k^{2}B^{2}/\mu _{0}\rho }\ :}
+
+
+As before, if
+
+
+
+d
+
+Ω
+
+2
+
+
+
+/
+
+d
+R
+<
+0
+
+,
+
+
+{\displaystyle d\Omega ^{2}/dR<0\ ,}
+there is an exponentially growing root of this equation for wavenumbers
+
+
+
+k
+
+
+{\displaystyle k}
+satisfying
+
+
+
+(
+
+k
+
+2
+
+
+
+B
+
+2
+
+
+
+/
+
+
+μ
+
+0
+
+
+ρ
+)
+<
+−
+R
+d
+
+Ω
+
+2
+
+
+
+/
+
+d
+R
+
+.
+
+
+{\displaystyle (k^{2}B^{2}/\mu _{0}\rho )<-Rd\Omega ^{2}/dR\ .}
+This corresponds to the MRI. Notice that the magnetic field appears in equation 12 only as the product
+
+
+
+k
+B
+
+.
+
+
+{\displaystyle kB\ .}
+Thus, even if
+
+
+
+B
+
+
+{\displaystyle B}
+is very small, for very large wavenumbers
+
+
+
+k
+
+
+{\displaystyle k}
+this magnetic tension can be important. This is why the MRI is so sensitive to even very weak magnetic fields: their effect is amplified by multiplication by
+
+
+
+k
+
+.
+
+
+{\displaystyle k\ .}
+Moreover, it can be shown that MRI is present regardless of the magnetic field geometry, as long as the field is not too strong.
+In astrophysics, one is generally interested in the case for which the disk is supported by rotation against the gravitational attraction of a central mass. A balance between the Newtonian gravitational force and the radial centripetal force immediately gives
+
+where
+
+
+
+G
+
+
+{\displaystyle G}
+is the Newtonian gravitational constant,
+
+
+
+M
+
+
+{\displaystyle M}
+is the central mass, and
+
+
+
+R
+
+
+{\displaystyle R}
+is radial location in the disk. Since
+
+
+
+R
+d
+
+Ω
+
+2
+
+
+
+/
+
+d
+R
+=
+−
+3
+
+Ω
+
+2
+
+
+<
+0
+
+,
+
+
+{\displaystyle Rd\Omega ^{2}/dR=-3\Omega ^{2}<0\ ,}
+this so-called Keplerian disk is unstable to the MRI . Without a weak magnetic field, the flow would be stable.
+For a Keplerian disk, the maximum growth rate is
+
+
+
+γ
+=
+3
+Ω
+
+/
+
+4
+
+,
+
+
+{\displaystyle \gamma =3\Omega /4\ ,}
+which occurs at a wavenumber satisfying
+
+
+
+(
+
+k
+
+2
+
+
+
+B
+
+2
+
+
+
+/
+
+
+μ
+
+0
+
+
+ρ
+)
+=
+15
+
+Ω
+
+2
+
+
+
+/
+
+16
+
+.
+
+
+{\displaystyle (k^{2}B^{2}/\mu _{0}\rho )=15\Omega ^{2}/16\ .}
+
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+is very rapid, corresponding to an amplification factor of more than 100 per rotation period. The nonlinear development of the MRI into fully developed turbulence may be followed via large scale numerical computation.

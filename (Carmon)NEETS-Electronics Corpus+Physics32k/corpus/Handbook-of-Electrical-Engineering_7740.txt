@@ -1,0 +1,4 @@
+Further, unlike conventional devices, a transfer between memory and expanded storage is performed syn-
+chronously with the CPU. This is viewed as acceptable, because the transfer requires so little time and does not
+involve the usual operating system overheads of I/O set-up and interrupts. Note that to transfer data from ES
+to disk requires the data to be ﬁrst staged into main memory.

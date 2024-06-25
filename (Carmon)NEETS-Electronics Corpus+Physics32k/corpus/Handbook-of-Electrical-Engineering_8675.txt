@@ -1,0 +1,5 @@
+If each source line is taken in isolation, y appears constant, but y is dependent on the loop index i. Hence before
+removing constant expressions, the compiler must map the dependencies of each variable on the other variables
+and the loop index. Additionally, other not-so-obvious dependencies—such as when two pointers modify the
+same structure—are difﬁcult to map and can result in erroneous object code. This is one of the difﬁculties in
+optimizing compiler operation and why its extent is limited.

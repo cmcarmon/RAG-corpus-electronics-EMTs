@@ -1,0 +1,131 @@
+The term "potential theory" arises from the fact that, in 19th century physics, the fundamental forces of nature were believed to be derived from scalar potentials which satisfied Laplace's equation. Poisson addressed the question of the stability of the planetary orbits, which had already been settled by Lagrange to the first degree of approximation from the perturbation forces, and derived the Poisson's equation, named after him. The general form of this equation is
+
+
+
+
+
+∇
+
+2
+
+
+ϕ
+=
+σ
+
+
+{\displaystyle \nabla ^{2}\phi =\sigma }
+
+where σ is a source function (as a density, a quantity per unit volume) and φ the scalar potential to solve for.
+In Newtonian gravitation; masses are the sources of the field so that field lines terminate at objects that have mass. Similarly, charges are the sources and sinks of electrostatic fields: positive charges emanate electric field lines, and field lines terminate at negative charges. These field concepts are also illustrated in the general divergence theorem, specifically Gauss's law's for gravity and electricity. For the cases of time-independent gravity and electromagnetism, the fields are gradients of corresponding potentials
+
+
+
+
+
+g
+
+=
+−
+∇
+
+ϕ
+
+g
+
+
+
+,
+
+
+E
+
+=
+−
+∇
+
+ϕ
+
+e
+
+
+
+
+{\displaystyle \mathbf {g} =-\nabla \phi _{g}\,,\quad \mathbf {E} =-\nabla \phi _{e}}
+
+so substituting these into Gauss' law for each case obtains
+
+
+
+
+
+∇
+
+2
+
+
+ϕ
+=
+−
+4
+π
+G
+
+ρ
+
+g
+
+
+
+,
+
+
+∇
+
+2
+
+
+ϕ
+=
+−
+
+
+
+ρ
+
+e
+
+
+
+ϵ
+
+0
+
+
+
+
+
+
+{\displaystyle \nabla ^{2}\phi =-4\pi G\rho _{g}\,,\quad \nabla ^{2}\phi =-{\rho _{e} \over \epsilon _{0}}}
+
+where ρg is the mass density and ρe the charge density.
+Incidentally, this similarity arises from the similarity between Newton's law of gravitation and Coulomb's law.
+In the case where there is no source term (e.g. vacuum, or paired charges), these potentials obey Laplace's equation:
+
+
+
+
+
+∇
+
+2
+
+
+ϕ
+=
+0
+
+
+{\displaystyle \nabla ^{2}\phi =0}
+
+For a distribution of mass (or charge), the potential can be expanded in a series of spherical harmonics, and the nth term in the series can be viewed as a potential arising from the 2n-moments (see multipole expansion). For many purposes only the monopole, dipole, and quadrupole terms are needed in calculations.

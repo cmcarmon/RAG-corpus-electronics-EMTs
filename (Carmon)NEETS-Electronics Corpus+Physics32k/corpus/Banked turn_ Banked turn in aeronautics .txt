@@ -1,0 +1,115 @@
+When a fixed-wing aircraft is making a turn (changing its direction) the aircraft must roll to a banked position so that its wings are angled towards the desired direction of the turn. When the turn has been completed the aircraft must roll back to the wings-level position in order to resume straight flight.
+When any moving vehicle is making a turn, it is necessary for the forces acting on the vehicle to add up to a net inward force, to cause centripetal acceleration. In the case of an aircraft making a turn, the force causing centripetal acceleration is the horizontal component of the lift acting on the aircraft.
+In straight, level flight, the lift acting on the aircraft acts vertically upwards to counteract the weight of the aircraft which acts downwards. During a balanced turn where the angle of bank is θ the lift acts at an angle θ away from the vertical. It is useful to resolve the lift into a vertical component and a horizontal component. If the aircraft is to continue in level flight (i.e. at constant altitude), the vertical component must continue to equal the weight of the aircraft and so the pilot must pull back on the stick a little more. The total (now angled) lift is greater than the weight of the aircraft so the vertical component can equal the weight. The horizontal component is unbalanced, and is thus the net force causing the aircraft to accelerate inward and execute the turn.
+
+Because centripetal acceleration is:
+
+
+
+
+a
+=
+
+
+
+v
+
+2
+
+
+r
+
+
+
+
+{\displaystyle a={v^{2} \over r}}
+
+Newton's second law in the horizontal direction can be expressed mathematically as:
+
+
+
+
+L
+sin
+⁡
+θ
+=
+
+
+
+m
+
+v
+
+2
+
+
+
+r
+
+
+
+
+{\displaystyle L\sin \theta ={mv^{2} \over r}}
+
+where:
+L is the lift acting on the aircraft
+θ is the angle of bank of the aircraft
+m is the mass of the aircraft
+v is the true airspeed of the aircraft
+r is the radius of the turn
+In straight level flight, lift is equal to the aircraft weight. In turning flight the lift exceeds the aircraft weight, and is equal to the weight of the aircraft (mg) divided by the cosine of the angle of bank:
+
+
+
+
+L
+=
+
+
+
+m
+g
+
+
+cos
+⁡
+θ
+
+
+
+
+
+{\displaystyle L={mg \over {\cos \theta }}}
+
+where g is the gravitational field strength.
+The radius of the turn can now be calculated:
+
+
+
+
+r
+=
+
+
+
+v
+
+2
+
+
+
+g
+tan
+⁡
+θ
+
+
+
+
+
+{\displaystyle r={v^{2} \over {g\tan \theta }}}
+
+This formula shows that the radius of turn is proportional to the square of the aircraft’s true airspeed. With a higher airspeed the radius of turn is larger, and with a lower airspeed the radius is smaller.
+This formula also shows that the radius of turn decreases with the angle of bank. With a higher angle of bank the radius of turn is smaller, and with a lower angle of bank the radius is greater.
+In a banked turn at constant altitude, the load factor is equal to 1/cosθ. We can see that the load factor in straight and level flight is 1, since cos(0) = 1, and to generate sufficient lift to maintain constant altitude, the load factor must approach infinity as the bank angle approaches 90° and cosθ approaches zero. This is physically impossible, because structural limitations of the aircraft or physical endurance of the occupants will be exceeded well before then.

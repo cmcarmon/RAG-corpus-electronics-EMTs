@@ -1,0 +1,13 @@
+In our direct online learning control design, the controller is
+‘‘naive’’ when it just starts to control; the action network and
+the critic network are both randomly initialized in their
+weights and parameters. Once a system state is observed, an
+action will be subsequently produced based on the parameters
+in the action network. A ‘‘better’’ control value under the
+speciﬁc system state will lead to a more balanced equation of
+the principle of optimality. This set of system operations will
+be reinforced through memory or association between states
+and control output in the action network. Otherwise, the
+control value will be adjusted through tuning the weights in
+the action network to make the equation of the principle of
+optimality more balanced.

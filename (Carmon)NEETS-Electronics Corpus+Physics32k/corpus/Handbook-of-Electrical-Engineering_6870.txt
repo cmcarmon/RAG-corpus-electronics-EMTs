@@ -1,0 +1,9 @@
+Statistics of Noise
+Statistics allow us to analyze the spectra of noise. We model a noise signal by a random (or stochastic) process
+N(t), a function whose realized value N(t) = xt at any time instant t is chosen by the outcome of the random
+variable Nt = N(t). N(t) has a probability distribution for the values x it can assume. Any particular trajectory
+{(t,xt)} of outcomes is called a realization of the noise process. The ﬁrst-order statistic of N(t) is the expected
+t =  E[N(t)].  The  second-order  statistic  is  the  autocorrelation  function  RNN(t,  t  + t)  =  E[N(t)N(t  + t)],
+value  m
+where E[–] is the expected value operator. Autocorrelation measures the extent to which noise random variables
+N1 = N(t1) and N2 = N(t2) at times t1 and t2 depend on each other in an average sense.

@@ -1,0 +1,10 @@
+initial values are assigned to all signals. Initial values include starting values and pending values that constitute
+future  events.  Simulation  time  is  advanced  to  the  next  pending  event(s),  signals  are  updated,  and  sensitized
+models  are  evaluated  [Pooch,  1993].  The  process  of  evaluating  the  sensitized  models  yields  new,  potentially
+different, values for signals, i.e., a new set of pending events. These new events are added to the list of pending
+events, time is advanced to the next pending event(s), and the simulation algorithm repeats. Each pass through
+simulation  cycle
+.
+the  loop  in  Fig. 34.13  of  evaluating  sensitized  models  at  a  particular  time  step  is  called  a 
+Simulation  ends  when  the  design  yields  no  further  activity,  i.e.,  when  there  are  no  more  pending  events  to
+process.

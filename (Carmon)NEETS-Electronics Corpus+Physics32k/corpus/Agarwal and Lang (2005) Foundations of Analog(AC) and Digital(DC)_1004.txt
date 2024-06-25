@@ -1,0 +1,8 @@
+Time-varying signals such as those in Figure 7.35 are characterized by their
+peak-to-peak voltage and their DC offset. For example, the sinusoidal signal
+vIN in Figure 7.35 has a peak-to-peak value of 0.2 V and a DC offset of 1.5 V.
+Since the MOS amplifier is nonlinear, we define the output offset as the value
+of vO when the DC input offset voltage is the only signal applied at the input.
+Although the time-varying portion of the signal is of interest to us, as discussed
+in Section 7.5.1, the DC offset is provided simply to keep the amplifier operating
+in its saturation region.

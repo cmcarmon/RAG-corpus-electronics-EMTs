@@ -1,0 +1,8 @@
+Consider a ﬁrst-order N-state Markov chain as illustrated for N = 3 in Fig. 15.21. Such a random process has
+the simplest memory: the value at time t depends only on the value at the preceding time and on nothing that
+went on before. However, it has a very useful property that leads to its application to speech recognition problem:
+the states of the chain generate observation sequences while the state sequence itself is hidden from the observer.
+The system can be described as being one of the N distinct states, S1, S2, …, SN, at any discrete time instant t.
+We use the state variable qt as the state of the system at time t. Assume that the Markov chain is time invariant
+(homogeneous), so the transition probabilities do not depend on time. The Markov chain is then described by
+a state transition probability matrix A = [aij], where

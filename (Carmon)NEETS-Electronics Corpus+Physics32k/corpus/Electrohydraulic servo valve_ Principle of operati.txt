@@ -1,0 +1,4 @@
+An electric command signal (flow rate set point) is applied to the integrated position controller which drives the pilot stage. The thereby deflected nozzle flapper system produces a pressure difference across the drive areas of the spool and affects its movement. The position transducer (LVDT) which is excited via an oscillator measures the position of the spool (actual value, position voltage). This signal is then demodulated and fed back to the controller where it is compared with the command signal. The controller drives the pilot stage until the error between command signal and feedback signal will be zero. Thus the position of the spool is proportional to the electric command signal.
+
+
+== References ==

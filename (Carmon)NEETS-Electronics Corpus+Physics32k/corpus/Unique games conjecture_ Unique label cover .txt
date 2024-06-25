@@ -1,0 +1,127 @@
+The following formulation of the unique games conjecture is often used in hardness of approximation. The conjecture postulates the NP-hardness of the following promise problem known as label cover with unique constraints. For each edge, the colors on the two vertices are restricted to some particular ordered pairs. Unique constraints means that for each edge none of the ordered pairs have the same color for the same node.
+This means that an instance of label cover with unique constraints over an alphabet of size k can be represented as a directed graph together with a collection of permutations πe: [k] → [k], one for each edge e of the graph. An assignment to a label cover instance gives to each vertex of G a value in the set [k] = {1, 2, ... k}, often called “colours.”
+
+Such instances are strongly constrained in the sense that the colour of a vertex uniquely defines the colours of its neighbours, and hence for its entire connected component. Thus, if the input instance admits a valid assignment, then such an assignment can be found efficiently by iterating over all colours of a single node. In particular, the problem of deciding if a given instance admits a satisfying assignment can be solved in polynomial time.
+
+The value of a unique label cover instance is the fraction of constraints that can be satisfied by any assignment. For satisfiable instances, this value is 1 and is easy to find. On the other hand, it seems to be very difficult to determine the value of an unsatisfiable game, even approximately. The unique games conjecture formalises this difficulty.
+More formally, the (c, s)-gap label-cover problem with unique constraints is the following promise problem (Lyes, Lno):
+Lyes = {G: Some assignment satisfies at least a c-fraction of constraints in G}
+Lno = {G: Every assignment satisfies at most an s-fraction of constraints in G}
+where G is an instance of the label cover problem with unique constraints.
+The unique games conjecture states that for every sufficiently small pair of constants ε, δ > 0, there exists a constant k such that the (1 - δ, ε)-gap label-cover problem with unique constraints over alphabet of size k is NP-hard.
+Instead of graphs, the label cover problem can be formulated in terms of linear equations. For example, suppose that we have a system of linear equations over the integers modulo 7:
+
+
+
+
+
+
+
+
+
+x
+
+1
+
+
+
+
+
+≡
+2
+⋅
+
+x
+
+2
+
+
+
+
+(
+mod
+
+7
+)
+
+
+
+
+
+
+x
+
+2
+
+
+
+
+
+≡
+4
+⋅
+
+x
+
+5
+
+
+
+
+(
+mod
+
+7
+)
+
+
+
+
+
+
+
+
+
+
+
+⋮
+
+
+
+
+
+x
+
+1
+
+
+
+
+
+≡
+2
+⋅
+
+x
+
+7
+
+
+
+
+(
+mod
+
+7
+)
+
+.
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}x_{1}&\equiv 2\cdot x_{2}{\pmod {7}}\\x_{2}&\equiv 4\cdot x_{5}{\pmod {7}}\\&{}\ \ \vdots \\x_{1}&\equiv 2\cdot x_{7}{\pmod {7}}.\end{aligned}}}
+
+This is an instance of the label cover problem with unique constraints. For example, the first equation corresponds to the permutation π(1, 2) where π(1, 2)(x1) = 2x2 modulo 7.

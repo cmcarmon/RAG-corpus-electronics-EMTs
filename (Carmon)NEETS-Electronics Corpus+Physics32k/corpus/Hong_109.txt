@@ -1,0 +1,6 @@
+In analog signal processing, it is often desirable to offset the signal by a known 
+amount. For example, if the signal ranges from -5 V to +5 V and the analog-to-digital 
+converter  is  designed  to  accept  signals  ranging  from  0  V  to  +10  V,  a  +5  V  shift  is 
+required.  Such  signal  offsets  can  be  accomplished  using  an  inverting  or  non-inverting 
+amplifier gain stage and be integrated with modest gain functions. 
+ 

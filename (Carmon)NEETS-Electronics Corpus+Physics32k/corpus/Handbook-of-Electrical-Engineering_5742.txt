@@ -1,0 +1,8 @@
+The  dynamic  voltage  restorer  is  similar  to  the  statcon,  with  a  trans-
+former, converter, and storage, except that the transformer is connected
+in series with the busbar feeding the sensitive load. Compensation occurs in both directions, making up for
+the voltage dips and reducing the overvoltage. The response is very fast, occurring within a few milliseconds.
+The capacity of the dc storage capacitor, in both the statcon and the dynamic voltage restorer, determines
+the duration of the correction provided for individual voltage dips. It can be a few cycles or seconds long. To
+enhance  the  load  support  capability,  a  storage  battery  with  a  booster  electronic  circuit  can  be  connected  in
+parallel with the capacitor.

@@ -1,0 +1,12 @@
+Maximum Entropy based Language Models
+A  maximum-likelihood  approach  for  automatically  constructing  maximum  entropy  models  is  presented  in
+[34].  The  maximum  entropy  method  ﬁnds  a  model  that  simultaneously  satiﬁes  a  set  of  constraints  Such  a
+model is a method of estimating the conditional probability distributions. The principle is simple: model all
+that is known and assume nothing about that which is not known. Let x and y be a set of random variables
+such  that  P(y|ß)  is  the  probability  that  the  model  assigns  an  output  y  given  ß.  Let  f(ß,  y)  be  the  indicator
+function (the expected value of this function is the feature function) that takes a binary value of 1 or 0 to ﬁt
+ P(ß)P(y|ß)f(ß,y) = d(i) where d(i) are the constraints then there must
+the training data. If P(ß) satisﬁes  
+be  a  probability  P(ß)  that  satisﬁes  all  the  constraints  uniformly.  A  mathematical  measure  of  uniformity  of
+conditional distributions is the conditional entropy, H. The solution to this problem is obtained by selecting
+the model with maximum entropy from the set of possible models, C, i.e.,

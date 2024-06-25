@@ -1,0 +1,10 @@
+The update anomalies and data redundancy encountered in PRODUCT are all due to the functional depen-
+dency supplier_name ﬁ location. The right-hand side of this dependency “location” is a nonprime attribute,
+and the left-hand side represents part of the key. Therefore, we have a nonprime attribute that is only partially
+dependent  on  the  key  (supplier_name,  product_name).  As  a  consequence,  the  schema  (supplier_name,
+product_name, price, location) is not in 2NF. The removal of the partial dependency supplier_name ﬁ location
+will eliminate all the above anomalies. The removal of the partial dependency is achieved by decomposing the
+scheme  (supplier_name,  product_name,  price,  quantity)  into  two  2NF  schemes:  (supplier_name,
+product_name, price), and (supplier_name, location). This decomposition results in relations PRO_INFO and
+SUP_LOC  shown  in  Fig.  94.4.  The  keys  of  PRO_INFO  and  SUP_LOC  are  (supplier_name,  product_name),
+and supplier_name, respectively.

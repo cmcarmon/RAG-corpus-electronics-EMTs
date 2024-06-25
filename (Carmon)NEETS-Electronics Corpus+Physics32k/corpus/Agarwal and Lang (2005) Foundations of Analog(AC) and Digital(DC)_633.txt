@@ -1,0 +1,8 @@
+Note that ID is simply the DC bias current related to the DC input voltage
+VD. Accordingly, the DC terms relating ID to VD can be equated as in Equa-
+tion 4.62 because the operating point values ID, VD satisfy Equation 4.1, which
+is the diode equation. When the DC terms are eliminated from both sides of
+Equation 4.61, the incremental relation shown in Equation 4.63 results.
+Thus the response current to an applied voltage VD + vD contains two
+terms: a large DC current ID and a small current proportional to vD, if we
+keep vD small enough.

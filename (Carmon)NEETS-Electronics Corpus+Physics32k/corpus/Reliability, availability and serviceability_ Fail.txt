@@ -1,0 +1,5 @@
+Physical faults can be temporary or permanent.
+Permanent faults lead to a continuing error and are typically due to some physical failure such as metal electromigration or dielectric breakdown.
+Temporary faults include transient and intermittent faults.
+Transient (a.k.a. soft) faults lead to independent one-time errors and are not due to permanent hardware faults: examples include alpha particles flipping a memory bit, electromagnetic noise, or power-supply fluctuations.
+Intermittent faults occur due to a weak system component, e.g. circuit parameters degrading, leading to errors that are likely to recur.

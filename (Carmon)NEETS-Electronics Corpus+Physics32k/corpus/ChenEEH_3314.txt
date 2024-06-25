@@ -1,0 +1,14 @@
+Newton-Raphson Algorithm
+Unlike the Gauss-Seidel algorithm, which was originally
+developed for solving simultaneous linear equations,
+the
+Newton-Raphson (NR) algorithm is speciﬁcally designed for
+solving nonlinear equations. The algorithm proceeds itera-
+tively by linearizing the nonlinear equations into linear equa-
+tions at each step and by solving the linearized equations
+exactly.
+Suppose we want to solve the nonlinear equations F(x) ¼ 0,
+where x is a n  1 vector and where F : R n ! R n is a smooth
+nonlinear function. We have been given an initial condition x0.
+Then, for computing the estimate xkþ1 from xk, we ﬁrst lin-
+earize the functions F(x) at xk as follows:

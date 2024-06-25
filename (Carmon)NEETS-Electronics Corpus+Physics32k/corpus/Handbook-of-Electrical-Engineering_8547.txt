@@ -1,0 +1,6 @@
+speciﬁes  both  operands,  which  register  will  contain  the  result,  whether  or  not  the  result  is  to  be  converted  to
+decimal, and the operation to be performed. If this instruction is, for example, part of a microprogram deﬁning
+a 32-bit addition instruction, assuming a 16-bit path, it is wasteful to specify twice the source and result operands.
+In some cases, it is possible to design a microinstruction that speciﬁes more microcommands than can be
+executed in parallel. In that case, the execution of the microcommand is carried out in more than one clock
+cycle. For this reason they are called polyphase microinstructions (as opposed to monophase).

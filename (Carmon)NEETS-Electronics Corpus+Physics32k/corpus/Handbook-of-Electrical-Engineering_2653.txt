@@ -1,0 +1,12 @@
+Other Limitations
+Besides limitations directly related to the MOSFET, there are some broader difﬁculties in using MOSFETs of
+smaller dimension in chips involving even greater numbers of devices. Already mentioned is the increased delay
+due to interconnections that are lengthening due to increasing chip area and increasing complexity of connec-
+tion. The capacitive loading of MOSFETs that must drive signals down these lines can slow circuit response,
+requiring extra circuitry to compensate. Another limitation is the need to isolate devices from each other [Brews,
+1990; Chen 1990; Einspruch and Gildenblat, 1989; Pimbley et al., 1989; Wolf, 1995], so their actions remain
+uncoupled by parasitics. As isolation structures are reduced in size to increase device densities, new parasitics
+are discovered. A developing solution to this problem is the manufacture of circuits on insulating substrates,
+silicon-on-insulator technology [Colinge, 1991]. To succeed, this approach must deal with new problems, such
+as the electrical quality of the underlying silicon–insulator interface and the defect densities in the silicon layer
+on top of this insulator.

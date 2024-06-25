@@ -1,0 +1,8 @@
+Path Equalization: Lower Vdd
+Between two consecutive registers, one can identify a number
+of paths, the most important of which is the critical path. The
+critical path is characterized by the fact that it takes the most
+time, with respect to the other paths, to traverse between these
+registers. The other paths will be faster, and one can lower the
+supply voltage for these fast paths until their delay becomes
+similar to the critical path, such as in Figure 5.18.

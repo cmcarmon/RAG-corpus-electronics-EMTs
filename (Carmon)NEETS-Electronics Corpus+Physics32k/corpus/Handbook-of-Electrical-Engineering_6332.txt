@@ -1,0 +1,7 @@
+The  encoded  data  signal  forms  the  input  to  the  modulator.  To  further  conserve  bandwidth,  a  type  of
+quadrature modulation is employed. The actual form is 8-VSB, a variation of digital vestigial sideband that
+includes trellis coding. This possesses many of the advantages of guadrature amplitude modulation (QAM).
+The corresponding receiver is shown in Fig. 69.23. The receiver simply forms the inverse of each transmitter
+operation. The received signal is ﬁrst demodulated. The resulting data signal is decoded to remove the redun-
+dancy  and  correct  errors. A  demultiplexer  separates  the  signal  into  the  original  four  (or  more)  data  signals.
+The audio and synchronization signals need no further processing.

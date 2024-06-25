@@ -1,0 +1,12 @@
+. Shunt impedances: Finite permeability implies nonzero
+core reluctance and requires current to magnetize the core
+(i.e., a nonzero mmf). This difference between the pri-
+mary and secondary mmfs can be modeled as a shunt
+inductance. Hysteresis and eddy currents lead to energy
+losses in the core that can be approximately modeled by a
+shunt resistor. Saturation is an important nonlinear effect
+that results in additional losses and the creation of odd
+order harmonics in the current and voltage signals.
+Because in steady-state system analysis only the 60-Hz
+component of the currents and voltages is considered,
+saturation effects are typically ignored.

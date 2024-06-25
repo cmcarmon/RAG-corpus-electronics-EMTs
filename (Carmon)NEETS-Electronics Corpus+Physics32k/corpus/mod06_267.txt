@@ -1,0 +1,4 @@
+Because the screen grid is in the electron stream, it will always draw some current. The current
+drawn by the screen grid will be lost to the plate. This means that the transconductance of a tetrode, which
+is based on the amount of plate current versus control-grid voltage, will be lower in tetrodes than in
+triodes. The formula for transconductance of a triode,

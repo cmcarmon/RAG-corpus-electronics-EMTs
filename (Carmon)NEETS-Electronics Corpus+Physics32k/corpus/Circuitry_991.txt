@@ -1,0 +1,15 @@
+together,  they  reduce  to  an  expression  containing 
+only one variable. 
+ 
+It  is  also  important  to  note  that  the  map  is  a 
+continuous surface  which links edge to edge. This 
+allows  cells  at  opposite  extremes  of  a  row  or 
+column to be linked together. The four corner cells 
+of a  four (or  more)  variable  map  may likewise be 
+grouped together (provided they all contain 1’s). 
+  As an example, consider the following Boolean 
+function: 
+b
+g
+A B C
++

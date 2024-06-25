@@ -1,0 +1,14 @@
+It may seem that ideally the ACE in B would be zero and that
+in A it would precisely match the load change; however, this is
+not practical or particularly necessary. Instead, the ACE is
+integrated over time, and this signal is used to determine the
+generator set points. Integrating the error ensures that the
+actual energy exchange between areas is precisely maintained
+over time. Since the control center must calculate the ACE
+after gathering data from the system, the set point controls are
+discrete. In North America, the AGC signals are fed to the units
+typically, about once every 2–4 sec. In many parts of the world,
+such frequent adjustment is considered excessive, and supple-
+mentary control signals are sent over much less frequent time
+intervals. In each country, regulating agencies determine the
+required performance of the AGC so that utilities do not

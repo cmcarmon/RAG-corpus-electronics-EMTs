@@ -1,0 +1,5 @@
+On-line computer recordings are only practical for short-term recordings or for situations in which the EEG
+is  immediately  processed.  This  limitation  is  primarily  due  to  storage  requirements.  For  example,  a  typical
+sampling rate of 128 Hz yields 128 new samples per second that require storage. For an 8-channel recording,
+1,024 samples are acquired per second. A 10-minute recording period yields 614,400 data points. Assuming 8-
+bit resolution per sample, over 0.5 megabyte (MB) of storage is required to save the 10-minute recording.

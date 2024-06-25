@@ -1,0 +1,494 @@
+Using a Lagrangian specification of the flow field, the motion of fluid parcels is – for a periodic wave on the surface of a fluid layer of infinite depth:
+
+
+
+
+
+
+
+
+X
+(
+a
+,
+b
+,
+t
+)
+
+
+
+=
+a
++
+
+
+
+
+e
+
+
+k
+b
+
+
+k
+
+
+sin
+⁡
+
+(
+
+k
+(
+a
++
+c
+t
+)
+
+)
+
+,
+
+
+
+
+Y
+(
+a
+,
+b
+,
+t
+)
+
+
+
+=
+b
+−
+
+
+
+
+e
+
+
+k
+b
+
+
+k
+
+
+cos
+⁡
+
+(
+
+k
+(
+a
++
+c
+t
+)
+
+)
+
+,
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}X(a,b,t)&=a+{\frac {\mathrm {e} ^{kb}}{k}}\sin \left(k(a+ct)\right),\\Y(a,b,t)&=b-{\frac {\mathrm {e} ^{kb}}{k}}\cos \left(k(a+ct)\right),\end{aligned}}}
+
+where
+
+
+
+x
+=
+X
+(
+a
+,
+b
+,
+t
+)
+
+
+{\displaystyle x=X(a,b,t)}
+and
+
+
+
+y
+=
+Y
+(
+a
+,
+b
+,
+t
+)
+
+
+{\displaystyle y=Y(a,b,t)}
+are the positions of the fluid parcels in the
+
+
+
+(
+x
+,
+y
+)
+
+
+{\displaystyle (x,y)}
+plane at time
+
+
+
+t
+
+
+{\displaystyle t}
+, with
+
+
+
+x
+
+
+{\displaystyle x}
+the horizontal coordinate and
+
+
+
+y
+
+
+{\displaystyle y}
+the vertical coordinate (positive upward, in the direction opposing gravity). The Lagrangian coordinates
+
+
+
+(
+a
+,
+b
+)
+
+
+{\displaystyle (a,b)}
+label the fluid parcels, with
+
+
+
+(
+x
+,
+y
+)
+=
+(
+a
+,
+b
+)
+
+
+{\displaystyle (x,y)=(a,b)}
+the centres of the circular orbits – around which the corresponding fluid parcel moves with constant speed
+
+
+
+c
+
+exp
+⁡
+(
+k
+b
+)
+.
+
+
+{\displaystyle c\,\exp(kb).}
+Further
+
+
+
+k
+=
+2
+π
+
+/
+
+λ
+
+
+{\displaystyle k=2\pi /\lambda }
+is the wavenumber (and
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+the wavelength), while
+
+
+
+c
+
+
+{\displaystyle c}
+is the phase speed with which the wave propagates in the
+
+
+
+x
+
+
+{\displaystyle x}
+-direction. The phase speed satisfies the dispersion relation:
+
+
+
+
+
+c
+
+2
+
+
+=
+
+
+g
+k
+
+
+,
+
+
+{\displaystyle c^{2}={\frac {g}{k}},}
+
+which is independent of the wave nonlinearity (i.e. does not depend on the wave height
+
+
+
+H
+
+
+{\displaystyle H}
+), and this phase speed
+
+
+
+c
+
+
+{\displaystyle c}
+the same as for Airy's linear waves in deep water.
+The free surface is a line of constant pressure, and is found to correspond with a line
+
+
+
+b
+=
+
+b
+
+s
+
+
+
+
+{\displaystyle b=b_{s}}
+, where
+
+
+
+
+b
+
+s
+
+
+
+
+{\displaystyle b_{s}}
+is a (nonpositive) constant. For
+
+
+
+
+b
+
+s
+
+
+=
+0
+
+
+{\displaystyle b_{s}=0}
+the highest waves occur, with a cusp-shaped crest. Note that the highest (irrotational) Stokes wave has a crest angle of 120°, instead of the 0° for the rotational trochoidal wave.
+The wave height of the trochoidal wave is
+
+
+
+H
+=
+(
+2
+
+/
+
+k
+)
+exp
+⁡
+(
+k
+
+b
+
+s
+
+
+)
+.
+
+
+{\displaystyle H=(2/k)\exp(kb_{s}).}
+The wave is periodic in the
+
+
+
+x
+
+
+{\displaystyle x}
+-direction, with wavelength
+
+
+
+λ
+;
+
+
+{\displaystyle \lambda ;}
+and also periodic in time with period
+
+
+
+T
+=
+λ
+
+/
+
+c
+=
+
+
+2
+π
+λ
+
+/
+
+g
+
+
+.
+
+
+{\displaystyle T=\lambda /c={\sqrt {2\pi \lambda /g}}.}
+
+The vorticity
+
+
+
+ϖ
+
+
+{\displaystyle \varpi }
+under the trochoidal wave is:
+
+
+
+
+ϖ
+(
+a
+,
+b
+,
+t
+)
+=
+−
+
+
+
+2
+
+k
+
+c
+
+
+
+e
+
+
+2
+k
+b
+
+
+
+
+1
+−
+
+
+e
+
+
+2
+k
+b
+
+
+
+
+
+,
+
+
+{\displaystyle \varpi (a,b,t)=-{\frac {2\,k\,c\,\mathrm {e} ^{2kb}}{1-\mathrm {e} ^{2kb}}},}
+
+varying with Lagrangian elevation
+
+
+
+b
+
+
+{\displaystyle b}
+and diminishing rapidly with depth below the free surface.

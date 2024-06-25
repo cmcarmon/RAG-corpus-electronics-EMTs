@@ -1,0 +1,11 @@
+is an oriented graph such that the variable xj in S is represented by a node (also denoted by xj) in Gl, and the
+coefﬁcient aij of the variable xj in S by a branch with a branch gain aij connected between nodes xi and xj in Gl
+and directed from xj to xi . Furthermore, a source node is included in Gl such that for each constant bk in S there
+is a node with gain bk in Gl from node 1 to node sk. Graph Gl0 is the subgraph of Gl obtained by deleting the
+source node l and all the branches connected to it. Graph Gij is the subgraph of Gl obtained by ﬁrst removing
+all the outgoing branches from node xj and then short-circuiting node l to node xj. A loop set l is a subgraph
+of Gl0 that contains all the nodes of Gl0 with each node having exactly one incoming and one outgoing branch.
+The product p of the gains of all the branches in l is called a loop-set product. A 2-loop-set I2 is a subgraph of
+Glj containing all the nodes of Glj with each node having exactly one incoming and one outgoing branch. The
+product p2 of the gains of all the branches in l2 is called a 2-loop-set product.
+The modiﬁed Coates gain formula is now stated in the following theorem.

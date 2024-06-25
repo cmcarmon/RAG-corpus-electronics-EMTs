@@ -1,0 +1,13 @@
+torque  region,  whereas  the  ﬁeld  weakening  mode  is  deﬁned  as  the  constant  power  region. At  any  operating
+speed,  the  ﬁeld  can  be  reversed  and  the  converter  ﬁring  angle  can  be  controlled  beyond  90  degrees  for
+regenerative braking mode operation of the drive. In this mode, the motor acts as a generator (with negative
+induced  voltage)  and  the  converter  acts  as  an  inverter  so  that  the  mechanical  energy  stored  in  the  inertia  is
+converted to electrical energy and pumped back to the source. Such two-quadrant operation gives improved
+efﬁciency if the drive accelerates and decelerates frequently. The speed of the machine can be controlled with
+precision by a feedback loop where the command speed is compared with the machine speed measured by a
+tachometer. The speed loop error generally generates the armature current command through a compensator.
+The  current  is  then  feedback  controlled  with  the  ﬁring  angle  control  in  the  inner  loop.  Since  torque  is
+proportional to armature current (with ﬁxed ﬁeld), a current loop provides direct torque control, and the drive
+can accelerate or decelerate with the rated torque. A second bridge converter can be connected in antiparallel
+so that the dual converter can control the machine speed in all the four quadrants (motoring and regeneration
+in forward and reverse speeds).

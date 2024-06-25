@@ -1,0 +1,63 @@
+There are many other important measures of probability distance. Some of these are particularly connected with the Kullback–Leibler divergence. For example:
+The total variation distance,
+
+
+
+δ
+(
+p
+,
+q
+)
+
+
+{\displaystyle \delta (p,q)}
+. This is connected to the divergence through Pinsker's inequality:
+
+
+
+δ
+(
+P
+,
+Q
+)
+≤
+
+
+
+
+1
+2
+
+
+
+D
+
+
+K
+L
+
+
+
+(
+P
+‖
+Q
+)
+
+
+
+
+{\displaystyle \delta (P,Q)\leq {\sqrt {{\frac {1}{2}}D_{\mathrm {KL} }(P\|Q)}}}
+
+The family of Rényi divergences provide generalizations of the Kullback–Leibler divergence. Depending on the value of a certain parameter,
+
+
+
+α
+
+
+{\displaystyle \alpha }
+, various inequalities may be deduced.
+Other notable measures of distance include the Hellinger distance, histogram intersection, Chi-squared statistic, quadratic form distance, match distance, Kolmogorov–Smirnov distance, and earth mover's distance.

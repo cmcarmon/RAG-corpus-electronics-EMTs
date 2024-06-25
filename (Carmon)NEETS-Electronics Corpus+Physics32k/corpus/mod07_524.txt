@@ -1,0 +1,9 @@
+Study the schematic shown in view B. Although this schematic is identical to the other shunt voltage 
+schematics previously illustrated and discussed, the output voltage is different. The load current has 
+increased causing a momentary drop in voltage output to 6.2 volts. Recall that the circuit was designed to 
+ensure a constant output voltage of 6.3 volts. Since the output voltage is less than that required, changes 
+occur in the regulator to restore the output to 6.3 volts. Because of the 0.1 volt drop in the output voltage, 
+the forward bias of Q1 is now 0.6 volt. This decrease in the forward bias increases the resistance of the 
+transistor, thereby reducing the current flow through Q1 by the same amount that the load current 
+increased. The current flow through RS returns to its normal value and restores the output voltage to 6.3 
+volts. 

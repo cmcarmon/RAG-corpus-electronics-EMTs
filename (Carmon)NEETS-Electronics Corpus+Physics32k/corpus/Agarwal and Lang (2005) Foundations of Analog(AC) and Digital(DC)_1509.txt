@@ -1,0 +1,18 @@
+As discussed in Section 6.1, a circuit containing a switch can be ana-
+lyzed by considering two linear subcircuits: one for the switch in its ON state
+(see Figure 10.54) and one for the switch in its OFF state (see Figure 10.56).
+A high on the store terminal turns the switch on, and results in the circuit
+illustrated in Figure 10.54. The capacitor then charges up (or discharges) to
+the value of the input voltage at the dIN terminal when the switch is turned on.
+Remember, the switch is symmetric about its input and output terminals. Thus,
+for example, if the dIN terminal had a high voltage corresponding to a logical
+1 (produced, for example, by a voltage source, as illustrated in Figure 10.55),
+the capacitor will offer a high voltage at the node marked with an asterisk
+when the store signal is asserted. In this situation, the ideal external voltage
+source charges up the capacitor instantly through the ideal switch (assuming
+the capacitor had a low voltage initially). Alternatively, if the dIN terminal had a
+low voltage corresponding to a logical 0, the capacitor will offer a low voltage
+at the node marked with an asterisk when the store signal is asserted. In this
+latter situation, the capacitor discharges instantly through the ideal switch and
+the ideal external voltage source (assuming that the capacitor had a high voltage
+initially) and attains the same voltage as the voltage source.

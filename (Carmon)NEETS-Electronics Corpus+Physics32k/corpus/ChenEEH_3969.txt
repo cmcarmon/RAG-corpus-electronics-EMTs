@@ -1,0 +1,8 @@
+The regular structure of nested Do-loop algorithms has been
+explored extensively for a compiler of general-purpose parallel
+computing (Banerjee, 1993; Wolfe, 1996). With the help of the
+compiler, the algorithms can be executed according to particu-
+lar scheduling and assignment to match the underlying archi-
+tecture such as SIMD, MIMD, and many others. In general,
+without the regular structure of loop indices, such scheduling
+and assignment are NP-hard.

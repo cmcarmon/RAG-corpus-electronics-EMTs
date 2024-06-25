@@ -1,0 +1,8 @@
+The generic timescale can be used as a workaround for
+simulators that do not allow to change the resolution limit
+for the type time. Simulations based on femtoseconds reduce
+the guaranteed simulation time to 2:14 ms—typical application
+employments are several hours or even days. This requires
+range extensions beyond 231 or changing the resolution limit
+to milliseconds. If both are not feasible, a timescale to shrink
+the simulation’s duration may be used.

@@ -1,0 +1,5 @@
+To numerically solve the transport equation using algebraic equations on a computer, the spatial, angular, energy, and time variables must be discretized.
+Spatial variables are typically discretized by simply breaking the geometry into many small regions on a mesh. The balance can then be solved at each mesh point using finite difference or by nodal methods.
+Angular variables can be discretized by discrete ordinates and weighting quadrature sets (giving rise to the SN methods), or by functional expansion methods with the spherical harmonics (leading to the PN methods).
+Energy variables are typically discretized by the multi-group method, where each energy group represents one constant energy. As few as 2 groups can be sufficient for some thermal reactor problems, but fast reactor calculations may require many more.
+The time variable is broken into discrete time steps, with time derivatives replaced with difference formulas.

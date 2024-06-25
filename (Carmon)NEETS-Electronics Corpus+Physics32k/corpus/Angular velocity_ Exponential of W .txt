@@ -1,0 +1,86 @@
+If we know an initial frame A(0) and we are given a constant angular velocity tensor W, we can obtain A(t) for any given t. Since
+
+
+
+
+
+
+d
+A
+(
+t
+)
+
+
+d
+t
+
+
+
+=
+W
+⋅
+A
+(
+t
+)
+
+
+{\displaystyle {\frac {dA(t)}{dt}}=W\cdot A(t)}
+, this can be read as a differential equation that defines A(t) knowing W(t):
+
+
+
+
+
+
+
+d
+A
+(
+t
+)
+
+A
+
+
+=
+W
+⋅
+
+d
+t
+
+.
+
+
+{\displaystyle {\frac {dA(t)}{A}}=W\cdot {dt}.}
+
+And if the angular speed is constant, then W is also constant and the equation can be integrated. The result is:
+
+
+
+
+A
+(
+t
+)
+=
+
+e
+
+W
+⋅
+t
+
+
+A
+(
+0
+)
+,
+
+
+{\displaystyle A(t)=e^{W\cdot t}A(0),}
+
+which shows a connection with the Lie group of rotations.

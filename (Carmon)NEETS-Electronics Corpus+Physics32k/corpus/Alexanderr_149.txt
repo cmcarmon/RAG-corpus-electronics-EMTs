@@ -1,0 +1,14 @@
+It  is  helpful  to  be  familiar  with  both  methods  of  analysis,  for  at
+least  two  reasons.  First,  one  method  can  be  used  to  check  the  results
+from the other method, if possible. Second, since each method has its
+limitations, only one method may be suitable for a particular problem.
+For example, mesh analysis is the only method to use in analyzing tran-
+sistor  circuits,  as  we  shall  see  in  Section  3.9.  But  mesh  analysis  can-
+not easily be used to solve an op amp circuit, as we shall see in Chapter 5,
+because there is no direct way to obtain the voltage across the op amp
+itself.  For  nonplanar  networks,  nodal  analysis  is  the  only  option,
+because  mesh  analysis  only  applies  to  planar  networks.  Also,  nodal
+analysis is more amenable to solution by computer, as it is easy to pro-
+gram.  This  allows  one  to  analyze  complicated  circuits  that  defy  hand
+calculation. A computer  software  package  based  on  nodal  analysis  is
+introduced next.

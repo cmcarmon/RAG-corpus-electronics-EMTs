@@ -1,0 +1,4 @@
+To reduce cache misses, some caches are associative—a cache may place a given block in one of several places,
+collectively called a set. This set is content-addressable; a block may or may not be accessed based on an address
+tag, one of which is coupled with each block. When a new block is brought into a set and the set is full, the
+cache’s replacement policy dictates which of the old blocks should be removed from the cache to make room

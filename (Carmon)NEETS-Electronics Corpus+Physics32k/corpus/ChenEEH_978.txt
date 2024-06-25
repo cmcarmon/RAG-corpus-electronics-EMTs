@@ -1,0 +1,9 @@
+Different objective clock schedule modiﬁcation
+strategies can be used. The most effective strategy to
+modify the objective clock schedule—resulting in the
+fastest convergence toward a feasible schedule—is as
+follows. All objective clock skews are slightly increased
+or decreased depending on whether the respective cal-
+culated clock skew is larger or smaller than the object-
+ive one. Using this strategy, a feasible solution is
+typically reached within a few iterations.

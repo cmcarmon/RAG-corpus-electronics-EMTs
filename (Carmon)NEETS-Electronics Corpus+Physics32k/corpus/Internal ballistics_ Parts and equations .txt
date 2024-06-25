@@ -1,0 +1,12 @@
+Hatcher breaks the duration of interior ballistics into 3 parts:
+Lock time, the time from sear release until the primer is struck
+Ignition time, the time from when the primer is struck until the projectile starts to move
+Barrel time, the time from when the projectile starts to move until it exits the barrel.
+There are many processes that are significant. The source of energy is the burning propellant. It generates hot gases that raise the chamber pressure. That pressure pushes on the base of the projectile, and causes the projectile to accelerate. The chamber pressure depends on many factors. The amount of propellant that has burned, the temperature of the gases, and the volume of the chamber. The burn rate of the propellant depends not only on the chemical make up, but also on the shape of the propellant grains. The temperature depends not only on the energy released, but also the heat lost to the sides of the barrel and chamber. The volume of the chamber is continuously changing: as the propellant burns, there is more volume for the gas to occupy. As the projectile travels down the barrel, the volume behind the projectile also increases. There are still other effects. Some energy is lost in deforming the projectile and causing it to spin. There are also frictional losses between the projectile and the barrel. The projectile, as it travels down the barrel, compresses the air in front of it, which adds resistance to its forward motion.
+Models have been developed for these processes. These processes affect the gun design. The breech and the barrel must resist the high-pressure gases without damage. Although the pressure initially rises to a high value, the pressure starts dropping when the projectile has traveled some distance down the barrel. Consequently, the muzzle end of the barrel does not need to be as strong as the chamber end.
+There are five general equations used in interior ballistics:
+The equation of state of the propellant
+The equation of energy
+The equation of motion
+The burning rate equation
+The equation of the form function

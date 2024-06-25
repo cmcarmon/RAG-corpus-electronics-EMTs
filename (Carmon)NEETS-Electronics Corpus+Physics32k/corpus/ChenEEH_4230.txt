@@ -1,0 +1,14 @@
+The token Passing Ring protocol uses two subﬁelds in the
+frame to recognize whether the frame is copied successfully
+by the destination and whether a duplicated address is
+detected. When a frame is returned to the sender, the subﬁeld
+C indicates that the frame is copied to the destination buffer,
+and the subﬁeld A indicates if the duplicated address condition
+has been detected. A destination station detects the duplicated
+address condition when it ﬁnds out that some other station
+already marks the C bit. Unlike CSMA/CD, Token Passing Ring
+protocol provides the priority and reservation algorithms in
+the protocol. The following steps outline the algorithm with
+notations Pm, which is the priority of the message to transmit;
+Pr, which is the priority of the token protocol; and Rr, which is
+the receive reservation priority.

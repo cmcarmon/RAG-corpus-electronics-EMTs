@@ -1,0 +1,11 @@
+The communication interface is the module through which the acquired data are sent as well as other control tasks
+are  established  between  the  data  acquisition  module  and  the  host  computer  (Fig.  84.1).  There  are  basically  two
+different ways of establishing a data link between the two. One way is to use interrupts and the other is through
+direct memory access
+ (DMA). In the case of an interrupt-driven mode, an interrupt-request signal is sent to the
+computer. Upon receiving it, the computer will ﬁrst ﬁnish the execution of the current instruction, suspend the
+next, and then send an interrupt-acknowledge signal asking the module to send data. The operation is asynchronous
+since  the  sender  sends  data  when  it  wants  to  do  so.  Getting  the  computer  ready  to  receive  data  is  known  as
+handshaking. In the case of a DMA transfer, the DMA controller is given the starting address of the memory location
+where the data have to be written. The DMA controller asks the computer to freeze its operations until it has ﬁnished
+writing data directly into the memory. The operation does not need any waiting time and therefore it is fast.

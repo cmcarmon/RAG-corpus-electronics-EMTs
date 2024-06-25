@@ -1,0 +1,5 @@
+A simple heterogeneous architecture is shown in Fig. 17.26. This machine implements a sum-of-absolute-
+differences  correlation  in  two  dimensions  for  block  motion  estimation.  The  architecture  of  this  machine  is
+derived  from  the  data  ﬂow  of  the  computation,  where  for  each  offset  (r,  s),  the  sum-of-absolute  differences
+between a n × n macroblock and a T × T reference area can be computed:
+)

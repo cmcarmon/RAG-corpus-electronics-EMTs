@@ -1,0 +1,10 @@
+When the AM and ssb transmit modes of operation are used, the output from a handset is applied to 
+the transmitter. The voice signals are amplified and used to modulate a 500-kilohertz local carrier that 
+produces a 500-kilohertz IF. The resulting double sideband signal is filtered in the AM mode, amplified, 
+and converted by a triple-conversion process to the desired rf operating frequency. The rf signal is 
+amplified to a nominal 100 milliwatt level. In cw operation, the 500-kilohertz local carrier is inserted 
+directly into the IF amplifiers. The signal is further processed in the same manner as the voice signals in 
+the AM or ssb modes of operation. In fsk operation, the loop current is converted to audio frequencies 
+representing marks and spaces. These audio signals are applied to the audio circuits of the transmitter. 
+Thereafter, these signals are processed in the same manner as the voice signals in AM or ssb modes of 
+operation. A typical radio transmitting set block diagram is shown in figure 3-9. 

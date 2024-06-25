@@ -1,0 +1,11 @@
+The capacitance load of a circuit is made of two compon-
+ents: intrinsic and extrinsic. Intrinsic capacitance refers to
+internal parasitic capacitances of the circuit, and they consist
+of drain and source to substrate and overlap capacitances. The
+extrinsic capacitances are the parasitic capacitances of the
+fan-out, driven by the circuit (normally gate and overlap
+capacitances) and the routing capacitances resulting from the
+routing between the circuit and its fanout gates (Rabaey,
+1996). Accordingly, capacitances can be kept at a minimum
+by using less logic, smaller devices, and fewer and shorter
+interconnects.

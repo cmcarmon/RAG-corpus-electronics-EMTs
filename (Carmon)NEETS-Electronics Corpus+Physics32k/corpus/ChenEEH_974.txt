@@ -1,0 +1,6 @@
+1. For circuits with more than one connected disjoint
+subcircuit, these connected disjoint parts are identi-
+ﬁed and marked. This step does not incur any com-
+putational overhead—it is an inherent feature of the
+depth-ﬁrst search graph traversal algorithm to separ-
+ate a graph into disjoint pieces (if any).

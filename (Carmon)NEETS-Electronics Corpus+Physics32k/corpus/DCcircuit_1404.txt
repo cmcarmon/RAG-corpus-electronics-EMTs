@@ -1,0 +1,7 @@
+As you can see, I have used the .plot command in the netlist instead of the more familiar
+.print command. This generates a pseudo-graphic plot of ﬁgures on the computer screen us-
+ing text characters. SPICE plots graphs in such a way that time is on the vertical axis (going
+down) and amplitude (voltage/current) is plotted on the horizontal (right=more; left=less). No-
+tice how the voltage increases (to the right of the plot) very quickly at ﬁrst, then tapering off
+as time goes on. Current also changes very quickly at ﬁrst then levels off as time goes on, but
+it is approaching minimum (left of scale) while voltage approaches maximum.

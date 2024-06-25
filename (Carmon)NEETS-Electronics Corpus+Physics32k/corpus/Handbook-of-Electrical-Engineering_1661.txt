@@ -1,0 +1,6 @@
+Extended Kalman Filter
+In  practical  applications,  it  is  rather  rare  to  ﬁnd  a  problem  with  dynamical  equations  and  measurement
+equations that are linear in x. Nevertheless, engineers use the Kalman ﬁlter theory applied to a linear approx-
+imation of the actual nonlinear dynamics and measurements. This approximation is called the extended Kalman
+ﬁlter (EKF); it is very straightforward and popular. The Kalman ﬁlter itself is almost never used in real-world
+applications, but rather the EKF is essentially ubiquitous.

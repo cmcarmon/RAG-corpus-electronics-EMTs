@@ -1,0 +1,5 @@
+It is also because each branch current flows into exactly one node and out from exactly
+one node that summing Equations 2.5 through 2.8 yields 0 = 0. This in turn shows
+that the four KCL equations are dependent. In fact, a circuit with N nodes will have
+only N − 1 independent statements of KCL. Therefore, when fully analyzing a circuit it
+is both necessary and sufficient to apply KCL to all but one node.

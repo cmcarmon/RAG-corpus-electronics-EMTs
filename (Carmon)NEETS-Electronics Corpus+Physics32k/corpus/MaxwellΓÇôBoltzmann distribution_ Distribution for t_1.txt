@@ -1,0 +1,77 @@
+The potential energy is taken to be zero, so that all energy is in the form of kinetic energy. The relationship between kinetic energy and momentum for massive non-relativistic particles is
+
+where p2 is the square of the momentum vector p = [px, py, pz]. We may therefore rewrite Equation (1) as:
+
+where Z is the partition function, corresponding to the denominator in Equation (1). Here m is the molecular mass of the gas, T is the thermodynamic temperature and k is the Boltzmann constant. This distribution of Ni/N is proportional to the probability density function fp for finding a molecule with these values of momentum components, so:
+
+The normalizing constant c, can be determined by recognizing that the probability of a molecule having some momentum must be 1. Therefore the integral of equation (4) over all px, py, and pz must be 1.
+It can be shown that:
+
+Substituting Equation (5) into Equation (4) gives:
+
+The distribution is seen to be the product of three independent normally distributed variables
+
+
+
+
+p
+
+x
+
+
+
+
+{\displaystyle p_{x}}
+,
+
+
+
+
+p
+
+y
+
+
+
+
+{\displaystyle p_{y}}
+, and
+
+
+
+
+p
+
+z
+
+
+
+
+{\displaystyle p_{z}}
+, with variance
+
+
+
+m
+k
+T
+
+
+{\displaystyle mkT}
+. Additionally, it can be seen that the magnitude of momentum will be distributed as a Maxwell–Boltzmann distribution, with
+
+
+
+a
+=
+
+
+m
+k
+T
+
+
+
+
+{\displaystyle a={\sqrt {mkT}}}
+. The Maxwell–Boltzmann distribution for the momentum (or equally for the velocities) can be obtained more fundamentally using the H-theorem at equilibrium within the Kinetic theory of gases framework.

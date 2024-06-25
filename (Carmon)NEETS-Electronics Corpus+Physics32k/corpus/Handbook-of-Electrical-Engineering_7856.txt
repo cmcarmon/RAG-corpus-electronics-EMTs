@@ -1,0 +1,4 @@
+Systematic addition of redundant bits to a block of binary data, as insurance
+against  possible  read/write  errors.  A  given  error-correcting  code  can  recover  the  original  data  from  a
+contaminated  block,  provided  that  the  number  of  erroneous  bits  is  less  than  the  maximum  number
+allowed by that particular code.

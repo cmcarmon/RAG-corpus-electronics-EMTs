@@ -1,0 +1,6 @@
+RZ coding uses only half the bit duration for data transmission. In RZ encoding, a half period optical
+pulse present in the first half of the bit duration represents a binary 1. While an optical pulse is present in
+the first half of the bit duration, the light level returns to zero during the second half. A binary 0 is
+represented by the absence of an optical pulse during the entire bit duration. Because RZ coding uses only
+half the bit duration for data transmission, it requires twice the bandwidth of NRZ coding. Loss of timing
+can occur if long strings of 0s are present.

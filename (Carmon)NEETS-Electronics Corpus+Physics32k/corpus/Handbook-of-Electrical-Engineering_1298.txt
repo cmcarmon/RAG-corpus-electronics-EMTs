@@ -1,0 +1,9 @@
+Example 8.  Let  us  apply  the  above  signal  restoration  procedure  to  model  recursively  an  unknown  system
+when  the  input  signal  x(n)  and  a  noisy  observation  of  the  output  signal  y(n)  are  available.  The  previously
+described  signal-enhanced  data  modeling  technique  will  be  used  with  p  =  q  for  simplicity.  Clearly,  if  the
+excitation-response data were noiseless and the unknown system could be modeled by an autoregressive moving
+average (ARMA) (p,p) system, Dp,p would not have full rank. The presence of noise in the response data will
+cause Dp,p to have full rank, and the signal restoration algorithm will be applied to produce a block Toeplitz
+matrix having nullity s = 1. Since the input data is known exactly, its block will be inserted after each low rank
+approximation step. From (14.145) above it is clear that the resulting solution for the ap and bp coefﬁcients will
+consist of the eigenvector associated with the zero eigenvalue of D*p,pDp,p.

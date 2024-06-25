@@ -1,0 +1,13 @@
+EVM Tools
+The  EVM  package  includes  an  assembler,  a  linker,  a  simulator,  a  C  compiler,  and  a  C  source  debugger.  The
+second-generation  TMS320C25  ﬁxed-point  processor  is  supported  by  C  with  some  degrees  of  success.  The
+architecture  and  instruction  set  of  the  third-generation  TMS320C30  processor  facilitate  the  development  of
+high-level language compilers. An optimizer option is available with the C compiler for the TMS320C30. A C-
+code program can be readily compiled, assembled, linked, and downloaded into either a simulator or the EVM
+for real-time processing. A run-time support library of C functions, included with the EVM package, can be
+used during linking. During simulation, the input data can be retrieved from a ﬁle and the output data written
+into  a  ﬁle.  Input  and  output  port  addresses  can  be  appropriately  speciﬁed.  Within  a  real-time  processing
+environment with the EVM, the C source debugger can be used. One can single-step through a C-code program
+while  observing  the  equivalent  step(s)  through  the  assembly  code.  Both  the  C  code  and  the  corresponding
+assembly code can be viewed through the EVM windows. One can also monitor at the same time the contents
+of registers, memory locations, and so on.

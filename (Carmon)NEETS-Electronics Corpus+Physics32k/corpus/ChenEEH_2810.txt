@@ -1,0 +1,12 @@
+The Discrete Space
+Grading of the PML Loss Parameters
+Theoretically, reﬂectionless wave transmission can take place
+across a PML interface regardless of the local step-discontinu-
+ity in s and s presented to the continuous impinging elec-
+tromagnetic ﬁeld. However,
+in FDTD or any discrete
+representation of Maxwell’s equations, numerical artifacts
+arise due to the ﬁnite spatial sampling. Consequently, imple-
+menting PML as a single-step discontinuity of s and s in the
+FDTD lattice leads to signiﬁcant spurious wave reﬂection at
+the PML surface.

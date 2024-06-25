@@ -1,0 +1,10 @@
+Dynamic power component is the power expended while
+charging and discharging the capacitive nodes. This physical
+capacitance is attributed to the transistor parasitic capacitance
+and the interconnect capacitance. Reducing these capacitive
+nodes could result in substantial power reductions across the
+whole system, as equation 53 shows. So, minimizing capaci-
+tances offers another option for minimizing power consump-
+tion. Estimating this capacitance at the behavioral or logical
+levels of abstraction, however, is difﬁcult and imprecise if gate
+mapping into a cell library is not done (Pedram, 1995).

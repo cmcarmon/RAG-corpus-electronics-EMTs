@@ -1,0 +1,85 @@
+Thermal radiation is one of the principal mechanisms of heat transfer. It entails the emission of a spectrum of electromagnetic radiation due to an object's temperature. Other mechanisms are convection and conduction. The interplay of energy exchange by thermal radiation is characterized by the following equation:
+
+
+
+
+α
++
+ρ
++
+τ
+=
+1.
+
+
+
+{\displaystyle \alpha +\rho +\tau =1.\,}
+
+Here,
+
+
+
+α
+
+
+
+{\displaystyle \alpha \,}
+represents the spectral absorption component,
+
+
+
+ρ
+
+
+
+{\displaystyle \rho \,}
+spectral reflection component and
+
+
+
+τ
+
+
+
+{\displaystyle \tau \,}
+the spectral transmission component. These elements are a function of the wavelength (
+
+
+
+λ
+
+
+
+{\displaystyle \lambda \,}
+) of the electromagnetic radiation. The spectral absorption is equal to the emissivity
+
+
+
+ϵ
+
+
+
+{\displaystyle \epsilon \,}
+; this relation is known as Kirchhoff's law of thermal radiation. An object is called a black body if, for all frequencies, the following formula applies:
+
+
+
+
+α
+=
+ϵ
+=
+1.
+
+
+
+{\displaystyle \alpha =\epsilon =1.\,}
+
+In a practical situation and room-temperature setting, humans lose considerable energy due to thermal radiation. The energy lost by emitting infrared radiation is partially regained by absorbing the heat flow due to conduction from surrounding objects, and the remainder resulting from generated heat through metabolism. Human skin has an emissivity of very close to 1.0. Using the formulas below shows a human, having roughly 2 square meter in surface area, and a temperature of about 307 K, continuously radiates approximately 1000 watts. If people are indoors, surrounded by surfaces at 296 K, they receive back about 900 watts from the wall, ceiling, and other surroundings, so the net loss is only about 100 watts. These heat transfer estimates are highly dependent on extrinsic variables, such as wearing clothes, i.e. decreasing total thermal circuit conductivity, therefore reducing total output heat flux. Only truly gray systems (relative equivalent emissivity/absorptivity and no directional transmissivity dependence in all control volume bodies considered) can achieve reasonable steady-state heat flux estimates through the Stefan-Boltzmann law. Encountering this "ideally calculable" situation is almost impossible (although common engineering procedures surrender the dependency of these unknown variables and "assume" this to be the case). Optimistically, these "gray" approximations will get close to real solutions, as most divergence from Stefan-Boltzmann solutions is very small (especially in most STP lab controlled environments).
+
+If objects appear white (reflective in the visual spectrum), they are not necessarily equally reflective (and thus non-emissive) in the thermal infrared - see the daigram at the left. Most household radiators are painted white but this is sensible given that they are not hot enough to radiate any significant amount of heat, and are not designed as thermal radiators at all - they are actually convectors, and painting them matt black would make little difference to their efficacy. Acrylic and urethane based white paints have 93% blackbody radiation efficiency at room temperature (meaning the term "black body" does not always correspond to the visually perceived color of an object). These materials that do not follow the "black color = high emissivity/absorptivity" caveat will most likely have functional spectral emissivity/absorptivity dependence.
+Calculation of radiative heat transfer between groups of object, including a 'cavity' or 'surroundings' requires solution of a set of simultaneous equations using the radiosity method. In these calculations, the geometrical configuration of the problem is distilled to a set of numbers called view factors, which give the proportion of radiation leaving any given surface that hits another specific surface. These calculations are important in the fields of solar thermal energy, boiler and furnace design and raytraced computer graphics.
+
+A selective surface can be used when energy is being extracted from the sun. For instance, when a green house is made, most of the roof and walls are made out of glass. Glass is transparent in the visible (approximately 0.4 µm<λ<0.8 µm) and near-infrared wavelengths, but opaque to mid- to far-wavelength infrared (approximately λ>3 µm). Therefore, glass lets in radiation in the visible range, allowing us to be able to see through it, but does not let out radiation that is emitted from objects at or close to room temperature. This traps what we feel as heat. This is known as the greenhouse effect and can be observed by getting into a car that has been sitting in the sun. Selective surfaces can also be used on solar collectors. We can find out how much help a selective surface coating is by looking at the equilibrium temperature of a plate that is being heated through solar radiation. If the plate is receiving a solar irradiation of 1350 W/m² (minimum is 1325 W/m² on July 4 and maximum is 1418 W/m² on January 3) from the sun the temperature of the plate where the radiation leaving is equal to the radiation being received by the plate is 393 K (248 °F). If the plate has a selective surface with an emissivity of 0.9 and a cut off wavelength of 2.0 µm, the equilibrium temperature is approximately 1250 K (1790 °F). The calculations were made neglecting convective heat transfer and neglecting the solar irradiation absorbed in the clouds/atmosphere for simplicity, the theory is still the same for an actual problem.
+To reduce the heat transfer from a surface, such as a glass window, a clear reflective film with a low emissivity coating can be placed on the interior of the surface. “Low-emittance (low-E) coatings are microscopically thin, virtually invisible, metal or metallic oxide layers deposited on a window or skylight glazing surface primarily to reduce the U-factor by suppressing radiative heat flow”. By adding this coating we are limiting the amount of radiation that leaves the window thus increasing the amount of heat that is retained inside the window.
+Since any electromagnetic radiation, including thermal radiation, conveys momentum as well as energy, thermal radiation also induces very small forces on the radiating or absorbing objects. Normally these forces are negligible, but they must be taken into account when considering spacecraft navigation. The Pioneer anomaly, where the motion of the craft slightly deviated from that expected from gravity alone, was eventually tracked down to asymmetric thermal radiation from the spacecraft. Similarly, the orbits of asteroids are perturbed since the asteroid absorbs solar radiation on the side facing the sun, but then re-emits the energy at a different angle as the rotation of the asteroid carries the warm surface out of the sun's view (the YORP effect).

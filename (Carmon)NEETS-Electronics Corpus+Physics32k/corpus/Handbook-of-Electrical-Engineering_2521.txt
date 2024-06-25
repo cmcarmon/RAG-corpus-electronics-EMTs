@@ -1,0 +1,4 @@
+In the above design example, the base current IBQ has been included in the current passing through R1. Had
+this not been done, R1 would have worked out at 80 kW. Usually, this difference is not very important because
+discrete (or individual) resistors are available only in a series of nominal values, and each of these is subject to
+a tolerance, including 10, 5, 2, and 1%.

@@ -1,0 +1,20 @@
+Let us summarize these important results. Ignoring the
+technicalities of
+z-transform existence, we assume that
+the output (pressure wave) of the speech production system
+is the result of ﬁltering the appropriate excitation by two
+(in the unvoiced case) or three (voiced) linear, separable
+ﬁlters. Ignoring the developments above momentarily,
+let
+us suppose that we know ‘‘exact’’ or ‘‘true’’
+linear models
+of the various components. By this we mean that we (some-
+how) know models that will exactly produce the speech
+waveform under consideration. These models are only
+constrained to be linear and stable and are otherwise unre-
+stricted. In the unvoiced case S(z) ¼ E(z)T (z)R(z), where E(z)
+represents a partial realization of a white noise process. In the
+voiced case, S(z) ¼ E(z)G(z)T (z)R(z), where E(z) represents
+a DT impulse train of period P, the pitch period of the
+utterance. Accordingly, the true overall system function is as
+follows:

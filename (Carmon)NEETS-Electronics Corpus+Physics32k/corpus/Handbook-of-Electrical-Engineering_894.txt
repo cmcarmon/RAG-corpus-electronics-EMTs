@@ -1,0 +1,7 @@
+A single pole is created by placing a capacitor (C1) in parallel with resistor R1. The pole frequency is therefore
+p
+*R1*C1). Finally, the output is driven by the voltage-controlled voltage source E1 (which has a
+given by 1.0/(2*
+voltage gain of unity), through the output resistor R4. The output resistance of the op amp is therefore equal to R4.
+To observe the output voltage as a function of resistance, the regulator is loaded with a voltage source (VOUT)
+and the voltage source is swept from 0.05 to 6.0 V. A plot of output voltage vs. resistance can then be obtained

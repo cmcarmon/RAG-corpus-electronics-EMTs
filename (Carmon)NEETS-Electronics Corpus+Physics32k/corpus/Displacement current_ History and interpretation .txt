@@ -1,0 +1,160 @@
+Maxwell's displacement current was postulated in part III of his 1861 paper 'On Physical Lines of Force'. Few topics in modern physics have caused as much confusion and misunderstanding as that of displacement current. This is in part due to the fact that Maxwell used a sea of molecular vortices in his derivation, while modern textbooks operate on the basis that displacement current can exist in free space. Maxwell's derivation is unrelated to the modern day derivation for displacement current in the vacuum, which is based on consistency between Ampère's law for the magnetic field and the continuity equation for electric charge.
+Maxwell's purpose is stated by him at (Part I, p. 161):
+
+I propose now to examine magnetic phenomena from a mechanical point of view, and to determine what tensions in, or motions of, a medium are capable of producing the mechanical phenomena observed.
+
+He is careful to point out the treatment is one of analogy:
+
+The author of this method of representation does not attempt to explain the origin of the observed forces by the effects due to these strains in the elastic solid, but makes use of the mathematical analogies of the two problems to assist the imagination in the study of both.
+
+In part III, in relation to displacement current, he says
+
+I conceived the rotating matter to be the substance of certain cells, divided from each other by cell-walls composed of particles which are very small compared with the cells, and that it is by the motions of these particles, and their tangential action on the substance in the cells, that the rotation is communicated from one cell to another.
+
+Clearly Maxwell was driving at magnetization even though the same introduction clearly talks about dielectric polarization.
+Maxwell concluded, using Newton's equation for the speed of sound (Lines of Force, Part III, equation (132)), that “light consists of transverse undulations in the same medium that is the cause of electric and magnetic phenomena.”
+But although the above quotations point towards a magnetic explanation for displacement current, for example, based upon the divergence of the above curl equation, Maxwell's explanation ultimately stressed linear polarization of dielectrics:
+
+This displacement...is the commencement of a current...The amount of displacement depends on the nature of the body, and on the electromotive force so that if h is the displacement, R the electromotive force, and E a coefficient depending on the nature of the dielectric:
+
+
+
+
+R
+=
+−
+4
+π
+
+
+E
+
+
+2
+
+
+h
+
+;
+
+
+{\displaystyle R=-4\pi \mathrm {E} ^{2}h\ ;}
+
+
+and if r is the value of the electric current due to displacement
+
+
+
+
+r
+=
+
+
+
+d
+h
+
+
+d
+t
+
+
+
+
+,
+
+
+{\displaystyle r={\frac {dh}{dt}}\ ,}
+
+
+These relations are independent of any theory about the mechanism of dielectrics; but when we find electromotive force producing electric displacement in a dielectric, and when we find the dielectric recovering from its state of electric displacement...we cannot help regarding the phenomena as those of an elastic body, yielding to a pressure and recovering its form when the pressure is removed.—Part III – The theory of molecular vortices applied to statical electricity , pp. 14–15
+
+With some change of symbols (and units) combined with the results deduced in the section "Current in capacitors" : r → J, R → −E and the material constant E−2 → 4π εrε0 these equations take the familiar form between a parallel plate capacitor with uniform electric field, and neglecting fringing effects around the edges of the plates:
+
+
+
+
+J
+=
+
+
+d
+
+d
+t
+
+
+
+
+
+1
+
+4
+π
+
+
+E
+
+
+2
+
+
+
+
+
+
+
+E
+
+
+=
+
+
+d
+
+d
+t
+
+
+
+
+ε
+
+r
+
+
+
+ε
+
+0
+
+
+
+
+E
+
+
+=
+
+
+d
+
+d
+t
+
+
+
+
+
+D
+
+
+
+.
+
+
+{\displaystyle J={\frac {d}{dt}}{\frac {1}{4\pi \mathrm {E} ^{2}}}{\mathit {E}}={\frac {d}{dt}}\varepsilon _{r}\varepsilon _{0}{\mathit {E}}={\frac {d}{dt}}{\mathit {D}}\ .}
+
+
+When it came to deriving the electromagnetic wave equation from displacement current in his 1865 paper A Dynamical Theory of the Electromagnetic Field, he got around the problem of the non-zero divergence associated with Gauss's law and dielectric displacement by eliminating the Gauss term and deriving the wave equation exclusively for the solenoidal magnetic field vector.
+Maxwell's emphasis on polarization diverted attention towards the electric capacitor circuit, and led to the common belief that Maxwell conceived of displacement current so as to maintain conservation of charge in an electric capacitor circuit. There are a variety of debatable notions about Maxwell's thinking, ranging from his supposed desire to perfect the symmetry of the field equations to the desire to achieve compatibility with the continuity equation.

@@ -1,0 +1,8 @@
+In two’s complement arithmetic, the addition of more than
+two numbers will be correct independently of the order in
+which they are added even if overﬂow occurs in a partial
+summation as long as the overall sum is within the available
+range to represent the numbers. As a result, a simpliﬁed scaling
+technique can be used where only the multiplier inputs require
+scaling. To perform scaling, a multiplier is used at the input of
+the ﬁlter section as illustrated in Figure 2.25.

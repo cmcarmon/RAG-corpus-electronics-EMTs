@@ -1,0 +1,10 @@
+Our receiver has five basic stages excluding the power supply. With the exception of a video 
+amplifier in place of an rf amplifier, the circuits perform the functions normally associated with a typical 
+receiver. Figure 5-6 is a block diagram showing the signal paths of the receiver. The input stage consists 
+of a low-pass filter, an attenuator, a calibration oscillator, and a video amplifier. The low-pass filter passes 
+input frequencies below 900 kilohertz. These frequencies are passed to the attenuator, which sets the 
+signal to the proper level to drive the mixer. This minimizes noise and distortion. The calibration 
+oscillator produces a 250-kilohertz output. It is used to calibrate the receiver level and to check for tuning 
+dial accuracy. The input signal is direct-coupled from the attenuator to the video amplifier. This amplifier 
+is a broadband, constant-impedance driver for the mixer. The oscillator-mixer stage consists of a mixer, 
+phase splitter, local oscillator, and frequency control circuits. 

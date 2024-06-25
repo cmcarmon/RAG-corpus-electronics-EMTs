@@ -1,0 +1,8 @@
+• fI(t): Nearly a VSB signal, when the DSB signal is ﬁltered by the BPF of passband 2–4.2
+MHz to remove part of the USB in the DSB.
+• fQ(t): DSB signal that is produced when the other chrominance signal modulates a quad-
+rature-phase version of the color subcarrier. This DSB signal passes directly through the
+BPF with passband 3–4.2 MHz without any change.
+• fY(t): Filtered luminance signal of mY(t) by an LPF.
+• fc(t): Composite baseband waveform by adding fY(t), fI(t), fQ(t), and sync pulses. This has
+a bandwidth of about 4.2 MHz and modulates a visual carrier by standard AM.

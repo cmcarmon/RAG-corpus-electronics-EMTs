@@ -1,0 +1,13 @@
+Other methods of validation are decidedly less mathematical. One may wish to vary parameters and ascertain
+whether the performance parameter changes in a reasonable manner. For example, small changes in SNR rarely
+cause dramatic changes in system performance. When constructing a simulation, each subsystem, such as ﬁlters,
+nonlinear ampliﬁers, and noise and data sources, should be thoroughly tested before being included in a larger
+simulation. Be aware, however, that correct operation of all the various subsystems that make up a communi-
+cation system does not imply that the overall system performs correctly. If one is writing his or her own code,
+one must verify that there are no software bugs or fundamental design errors. Even if one purchases a commercial
+software package, there is no guarantee that the designer of the software models made the same assumptions
+the user will make when using the model. In most cases it will be far easier to test a module before it is inserted
+into a simulation than it will be to isolate a problem in a complex piece of code. The ﬁnal check one may wish
+to perform is a redundant simulation. There are many methods of simulating a system. One may wish to have
+two teams investigate a problem or have a single team implement a simulation using two different techniques
+to verify that the results are reasonable.

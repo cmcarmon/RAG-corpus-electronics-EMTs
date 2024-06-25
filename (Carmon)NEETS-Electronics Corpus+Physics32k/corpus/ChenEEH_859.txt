@@ -1,0 +1,14 @@
+The graph GC for any circuit C can be determined by either
+direct inspection of C, or by ﬁrst building the circuit multi-
+graph and then modifying the multigraph to satisfy deﬁnition
+4.3. Consider, for example, the circuit multigraph shown in
+Figure 4.3—the corresponding circuit graph is illustrated in
+Figure 4.4. Observe the labelings of the graph edges in Figure
+4.4. Each edge is labeled with the corresponding permissible
+range of the clock skew for the given pair of registers. An arrow
+is drawn next to each edge to indicate the order of the registers
+in this speciﬁc sequentially adjacent pair—recall that the clock
+skew as deﬁned in deﬁnition 4.2 is an algebraic difference. As
+shown in the rest of this section, either direction of an edge can
+be selected as long as the proper choices of lower and upper
+clock skew bounds are made.

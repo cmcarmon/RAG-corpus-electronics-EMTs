@@ -1,0 +1,9 @@
+Variable Allocation. Variables in high-level languages are an abstraction of memory cells or locations. One
+of  the  compiler’s  tasks  is  to  assign  the  abstract  variables  into  physical  locations—either  registers  within  the
+processor  or  locations  within  memory. Assignment  strategies  vary,  but  an  easy  and  often-used  strategy  is  to
+place all variables in memory. Easy, indeed, but wasteful of execution time in that it requires memory fetches
+for all HLL variables. Another assignment strategy is to assign as many variables to the registers as possible and
+then  assign  any  remaining  variables  to  memory;  this  method  is  typically  sufﬁcient,  except  when  there  is  a
+limited number of registers, such as in the 68000. In these cases, the best assignment strategy is to assign registers
+to the variables which have the greatest use and then assign any remaining variables to memory. In examining
+the compilers and architecture used in this article, we ﬁnd examples of all these methods.

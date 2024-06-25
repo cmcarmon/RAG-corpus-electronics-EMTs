@@ -1,0 +1,30 @@
+A symbol may be described as either a pulse in digital baseband transmission or a tone in passband transmission using modems. A symbol is a waveform, a state or a significant condition of the communication channel that persists, for a fixed period of time. A sending device places symbols on the channel at a fixed and known symbol rate, and the receiving device has the job of detecting the sequence of symbols in order to reconstruct the transmitted data. There may be a direct correspondence between a symbol and a small unit of data. For example, each symbol may encode one or several binary digits or 'bits'. The data may also be represented by the transitions between symbols, or even by a sequence of many symbols.
+The symbol duration time, also known as unit interval, can be directly measured as the time between transitions by looking into an eye diagram of an oscilloscope. The symbol duration time Ts can be calculated as:
+
+
+
+
+
+T
+
+s
+
+
+=
+
+
+1
+
+f
+
+s
+
+
+
+
+
+
+{\displaystyle T_{s}={1 \over f_{s}}}
+
+where fs is the symbol rate.
+A simple example: A baud rate of 1 kBd = 1,000 Bd is synonymous to a symbol rate of 1,000 symbols per second. In case of a modem, this corresponds to 1,000 tones per second, and in case of a line code, this corresponds to 1,000 pulses per second. The symbol duration time is 1/1,000 second = 1 millisecond.

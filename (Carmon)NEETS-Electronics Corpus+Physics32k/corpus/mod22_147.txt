@@ -1,0 +1,10 @@
+You already know that the internal storage section is the holding area in which instructions and data 
+are kept. For the control section to control and coordinate all processing activity, it must be able to locate 
+each instruction and data item in storage. About now, you are probably wondering how the control section 
+is able to find these instructions and data items. To understand this, let's look at storage as nothing more 
+than a collection of mailboxes. Each mailbox has a unique address and represents a location in memory as 
+shown in figure 2-2. Like the mail in your mailbox, the contents of a storage location can change, but the 
+number on your mailbox or memory address always remains the same. In this manner, a particular 
+program instruction or data item that is held in storage can be located by knowing its address. Some 
+computers can address each character of data in memory directly. Others address computer words which 
+contain a group of characters at a single address. Each computer word contains a group of characters at a 

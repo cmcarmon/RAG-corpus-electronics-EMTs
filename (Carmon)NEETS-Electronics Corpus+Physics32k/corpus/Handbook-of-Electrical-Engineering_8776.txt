@@ -1,0 +1,5 @@
+We have chosen to deﬁne the level of a HLL in terms of the information content of its syntax and semantics.
+The Halstead measure of language level essentially says that the higher a HLL is, the fewer symbols are needed
+to express an idea. Thus, if language A is higher than language B, a certain program can be expressed more
+succinctly in A than B. This is clearly the case when comparing HLLs with various machine-level languages,
+where a single statement in the HLL requires many statements in the machine-level language.

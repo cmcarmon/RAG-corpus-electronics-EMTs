@@ -1,0 +1,29 @@
+Diffraction Tomography
+The X-ray computerized tomography (CT) has been widely
+used for medical imaging and diagnosis since the 1970s. The
+basic idea of it is that the total attenuation of the X-ray
+traversing the object along some direction is related to the
+integrated absorption by the object along that direction.
+Hence, the attenuation distribution of the transmitted X-ray
+forms a Radon transform of the absorption distribution of the
+object. The projection–slice theorem is used to collect the data
+in the Fourier domain, and then the inverse Fourier transform
+is performed (by FFT) to reconstruct the absorption distribu-
+tion of the object. Now, if the electromagnetic wave is used to
+reconstruct dielectric constant distribution of the object in a
+similar manner, the diffraction effect due to ﬁnite wavelength
+should be taken into account. It is quite complicated to do in
+general. For a weakly inhomogeneous object, however, it is
+possible to formulate the diffraction tomography in a manner
+similar to CT, and the general solution can be obtained. To be
+speciﬁc, here the dielectric object of interest is assumed to be
+Y
+E in the ﬁrst
+weakly inhomogeneous such that the total ﬁeld
+part of equation 10.58 can be approximated by the incident
+Y
+Ei. This is usually referred to as the Born approximation.
+ﬁeld
+Consider a two-dimensional dielectric object illuminated by
+a plane wave incident from the direction ^ii, as shown in
+Figure 10.10.

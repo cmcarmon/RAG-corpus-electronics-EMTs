@@ -1,0 +1,152 @@
+The mobility formula counts the number of parameters that define the configuration of a set of rigid bodies that are constrained by joints connecting these bodies.
+Consider a system of n rigid bodies moving in space has 6n degrees of freedom measured relative to a fixed frame. In order to count the degrees of freedom of this system, include the fixed body in the count of bodies, so that mobility is independent of the choice of the body that forms the fixed frame. Then the degree-of-freedom of the unconstrained system of N = n + 1 is
+
+
+
+
+M
+=
+6
+n
+=
+6
+(
+N
+−
+1
+)
+,
+
+
+
+{\displaystyle M=6n=6(N-1),\!}
+
+because the fixed body has zero degrees of freedom relative to itself.
+Joints that connect bodies in this system remove degrees of freedom and reduce mobility. Specifically, hinges and sliders each impose five constraints and therefore remove five degrees of freedom. It is convenient to define the number of constraints c that a joint imposes in terms of the joint's freedom f, where c = 6 − f. In the case of a hinge or slider, which are one degree of freedom joints, have f = 1 and therefore c = 6 − 1 = 5.
+The result is that the mobility of a system formed from n moving links and j joints each with freedom fi, i = 1, ..., j, is given by
+
+
+
+
+M
+=
+6
+n
+−
+
+∑
+
+i
+=
+1
+
+
+j
+
+
+
+(
+6
+−
+
+f
+
+i
+
+
+)
+=
+6
+(
+N
+−
+1
+−
+j
+)
++
+
+∑
+
+i
+=
+1
+
+
+j
+
+
+
+
+f
+
+i
+
+
+
+
+{\displaystyle M=6n-\sum _{i=1}^{j}\ (6-f_{i})=6(N-1-j)+\sum _{i=1}^{j}\ f_{i}}
+
+Recall that N includes the fixed link.
+There are two important special cases: (i) a simple open chain, and (ii) a simple closed chain. A single open chain consists of n moving links connected end to end by n joints, with one end connected to a ground link. Thus, in this case N = j + 1 and the mobility of the chain is
+
+
+
+
+M
+=
+
+∑
+
+i
+=
+1
+
+
+j
+
+
+
+
+f
+
+i
+
+
+
+
+{\displaystyle M=\sum _{i=1}^{j}\ f_{i}}
+
+For a simple closed chain, n moving links are connected end-to-end by n + 1 joints such that the two ends are connected to the ground link forming a loop. In this case, we have N = j and the mobility of the chain is
+
+
+
+
+M
+=
+
+∑
+
+i
+=
+1
+
+
+j
+
+
+
+
+f
+
+i
+
+
+−
+6
+
+
+{\displaystyle M=\sum _{i=1}^{j}\ f_{i}-6}
+
+An example of a simple open chain is a serial robot manipulator. These robotic systems are constructed from a series of links connected by six one degree-of-freedom revolute or prismatic joints, so the system has six degrees of freedom.
+An example of a simple closed chain is the RSSR spatial four-bar linkage. The sum of the freedom of these joints is eight, so the mobility of the linkage is two, where one of the degrees of freedom is the rotation of the coupler around the line joining the two S joints.

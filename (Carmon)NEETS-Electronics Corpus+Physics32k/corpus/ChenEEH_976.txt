@@ -1,0 +1,10 @@
+Step 6. The Cholesky factorization L2 of N is calculated as
+described by equation 4.82. Simple, yet efﬁcient, algo-
+rithms for computing the Cholesky factorization have
+long been known and can be found in multiple
+sources (Farebrother, 1988; Lawson and Hanson,
+1974; Golub and Loan, 1996; Forsythe and Moler,
+1967; Cormen et al., 1989). Recall that the matrix N
+is guaranteed to be positive-deﬁnite by construction.
+Therefore, the real (no complex numbers) Cholesky
+decomposition is guaranteed to exist.

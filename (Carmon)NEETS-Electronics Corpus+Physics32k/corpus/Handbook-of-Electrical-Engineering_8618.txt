@@ -1,0 +1,10 @@
+In Table 87.2, formats 1.4 and 1.5 and the entries in 4 require some expansion. The others will be clear in
+the  examples  we  will  present.  Base-index  addressing  is  the  mechanism  for  dealing  with  subscripts.  The  base
+points at the starting point of a data structure, such as a string or a vector; the index measures the offset from
+the start of the structure to the element in question. For most machines, the index is simply a separate register
+which counts the bytes from the base to the item in question. If the items in the list are 4 bytes long, then to
+increment the index, you add 4. While that is not hard to remember, the VAX does its multiplication by the
+item length for you. Furthermore, it allows you to index any form of address that you can write. To show you
+what that means, consider expanding numbers stored in words into numbers stored in longwords. The extension
+is to preserve sign. The VAX provides speciﬁc instructions for conversions. If we were moving these words in
+one array to longwords in another array, we would write:

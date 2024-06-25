@@ -1,0 +1,5 @@
+When the user types a command line. The shell extracts the
+ﬁrst word from it, assumes it is the name of a program to be
+run, searches for this program, and runs the program if it ﬁnds
+it. The shell then suspends itself until the program terminates,
+at which time it tries to read the next command.

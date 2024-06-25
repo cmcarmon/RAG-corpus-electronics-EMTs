@@ -1,0 +1,9 @@
+Attribute Sets
+As indicated previously, the concept of signal restoration is directed towards applications in which a measure-
+ment process introduces inevitable distortion in a signal that is being monitored. The fundamental philosophy
+underlying signal restoration is based on the hypothesis that the signal under observation is known or presumed
+to lie in a restricted attribute set C, X. This attribute set is composed of all signals in X that possess a prescribed
+set  of  attributes  (or  properties).  The  measurement  process,  however,  results  in  a  measurement  signal  that  is
+perturbed outside this set. The set C employed in a signal restoration problem is often decomposable as the
+intersection  of  a  ﬁnite  number  of  basic  attribute  sets  that  are  each  describable  by  elementary  attributes  (or
+properties). We will designate these basic attribute sets as

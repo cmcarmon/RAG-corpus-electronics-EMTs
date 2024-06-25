@@ -1,0 +1,8 @@
+Clock Control Requirements. Another very important requirement for implementing DFT is the ability to
+control the clocking of the internal logic of the digital circuit. If the external clock signal is gated with some
+other signals such that it is necessary to determine how to set these other signals to their required values to
+allow the externally applied clock pulse to reach the internal ﬂip-ﬂop clock terminals, then the ATPG program
+has another level of constraints to resolve in generating the test patterns. Furthermore, some of these additional
+requirements  may  pose  difﬁculties  in  satisfying  them  during  component  and/or  system  testing.  Most ATPG
+programs assume that once the test pattern has been applied to the pins of the component, the system’s response
+to  that  pattern  can  be  captured  by  applying  an  external  clock  pulse  which  enables  the  internal  ﬂip-ﬂops  to

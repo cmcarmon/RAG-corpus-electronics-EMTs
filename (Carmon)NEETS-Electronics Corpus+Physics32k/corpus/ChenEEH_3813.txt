@@ -1,0 +1,14 @@
+Then, the spectrum becomes like the one shown in Figure 4.8.
+One particular nonrectangular grid of interest arises when
+we make Ty ¼
+Tx. We refer to it as hexagonal sampling.
+One advantage of using such a sampling grid instead of the
+rectangular one is that, for signals with isotropic frequency
+response, hexagonal sampling needs 13.4% fewer samples than
+the rectangular one for representing them without aliasing
+(Mersereaw and Dudgeon, 1984). Such sampling grid is also
+useful when the continuous signals have a baseband as in
+Figure 4.2, as can be observed from Figures 4.4, 4.5, and 4.8.
+In fact, given the support region of a baseband signal, one can
+always determine the best sampling grid so that aliasing is
+avoided with the smallest possible density of samples.

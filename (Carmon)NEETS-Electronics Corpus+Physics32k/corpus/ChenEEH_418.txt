@@ -1,0 +1,15 @@
+The ﬁnite value of the op-amp’s gain-bandwidth product vt
+causes the frequency range of the active ﬁlters discussed so far
+to be limited to approximately 0:1 vt. Using inexpensive op-
+amps in which f t is of the order 1.5 to 3 MHz is not sufﬁcient
+because the frequency range is too low for most communi-
+cations applications. Although relatively economical wide-
+band ampliﬁers are available with f t values up to about
+100 MHz, a different solution is available that is especially
+attractive for ﬁlter circuits compatible with integrated-circuit
+(IC) technology. For these cases, gain is not obtained from
+operational voltage ampliﬁers but from operational transcon-
+ductance ampliﬁers, also labeled OTAs or transconductors.
+These circuits are voltage-to-current converters characterized
+by their transconductance parameter g m that relates the output
+current to the (normally differential) input voltage:

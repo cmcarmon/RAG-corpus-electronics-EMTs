@@ -1,0 +1,48 @@
+A simple interpretation of the Hamiltonian mechanics comes from its application on a one-dimensional system consisting of one particle of mass m. The Hamiltonian represents the total energy of the system, which is the sum of kinetic and potential energy, traditionally denoted T and V, respectively. Here q is the space coordinate and p is the momentum mv. Then
+
+
+
+
+
+
+H
+
+
+=
+T
++
+V
+
+,
+
+T
+=
+
+
+
+p
+
+2
+
+
+
+2
+m
+
+
+
+
+,
+
+V
+=
+V
+(
+q
+)
+
+
+{\displaystyle {\mathcal {H}}=T+V\quad ,\quad T={\frac {p^{2}}{2m}}\quad ,\quad V=V(q)}
+
+Note that T is a function of p alone, while V is a function of q alone (i.e., T and V are scleronomic).
+In this example, the time derivative of the momentum p equals the Newtonian force, and so the first Hamilton equation means that the force equals the negative gradient of potential energy. The time-derivative of q is the velocity, and so the second Hamilton equation means that the particle’s velocity equals the derivative of its kinetic energy with respect to its momentum.

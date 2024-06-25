@@ -1,0 +1,16 @@
+The integration of the VRM with the processor can take
+either a hybrid or a monolithic approach. In the hybrid ap-
+proach, the VRM can be made as a silicon chip with all the
+control functions. Figure 1.39 shows an integration-packaging
+example. As shown in Figure 1.39(A) and (B), several VRM
+chips can be placed in parallel and be mounted close to the
+microprocessor on the same cartridge. Ceramic capacitors
+with small ESRs and ESLs can be used as the output capacitors
+and can be placed on the PCB board next to the processor. By
+connecting the output of the VRM and the power input of
+the processor via a path through a magnetic material sheet,
+the small output inductor can also be created. With this
+kind of packaging approach, interconnection parasitics can
+be minimized. For future applications, some other advanced
+packaging technologies, such as ﬂip-chip technology, can also
+be used.

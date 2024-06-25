@@ -1,0 +1,78 @@
+When used to calculate the pressure drop using the US customary units system, the equation is:
+
+
+
+
+
+S
+
+
+p
+s
+i
+
+p
+e
+r
+
+f
+o
+o
+t
+
+
+
+=
+
+
+
+P
+
+d
+
+
+L
+
+
+=
+
+
+
+4.52
+
+
+Q
+
+1.852
+
+
+
+
+
+C
+
+1.852
+
+
+
+
+d
+
+4.8704
+
+
+
+
+
+
+
+{\displaystyle S_{\mathrm {psi\ per\ foot} }={\frac {P_{d}}{L}}={\frac {4.52\ Q^{1.852}}{C^{1.852}\ d^{4.8704}}}}
+
+where:
+Spsi per foot = frictional resistance (pressure drop per foot of pipe) in psig/ft (pounds per square inch gauge pressure per foot)
+Pd = pressure drop over the length of pipe in psig (pounds per square inch gauge pressure)
+L = length of pipe in feet
+Q = flow, gpm (gallons per minute)
+C = pipe roughness coefficient
+d = inside pipe diameter, in (inches)
+Note: Caution with U S Customary Units is advised. The equation for head loss in pipes, also referred to as slope, S, expressed in "feet per foot of length" vs. in 'psi per foot of length' as described above, with the inside pipe diameter, d, being entered in feet vs. inches, and the flow rate, Q, being entered in cubic feet per second, cfs, vs. gallons per minute, gpm, appears very similar. However, the constant is 4.73 vs. the 4.52 constant as shown above in the formula as arranged by NFPA for sprinkler system design. The exponents and the Hazen-Williams "C" values are unchanged.

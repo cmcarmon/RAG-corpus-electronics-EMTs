@@ -1,0 +1,9 @@
+Another type of nonstandard information pattern that arises is that in which the number of measurements
+is potentially inﬁnite, but in which there is a cost associated with taking each measurement. This type of model
+arises in applications such as the synchronization of wideband communication signals. In such situations, the
+error  probabilities  alone  do  not  completely  characterize  the  performance  of  a  detection  system,  since
+consideration  must  also  be  given  to  the  cost  of  sampling.  The  ﬁeld  of  sequential  detection  deals  with  the
+optimization of detection systems within such constraints. In sequential detectors, the number of measurements
+taken becomes a random variable depending on the measurements themselves. A typical performance criterion
+for optimizing such a system is to seek a detector that minimizes the expected number of measurements for
+given levels of miss and false-alarm probabilities.

@@ -1,0 +1,5 @@
+3. Current mode control. In this method, a second inner control loop compares the peak inductor current
+with  the  control  voltage  which  provides  improved  open-loop  line  regulation  [Fig. 30.19(c)].  All  the
+problems of the direct duty cycle control method 1 above are corrected with this method. An additional
+advantage of this method is that the two-pole second-order ﬁlter is reduced to a single-pole (the ﬁlter
+capacitor) ﬁrst-order ﬁlter, resulting in simpler compensation networks.

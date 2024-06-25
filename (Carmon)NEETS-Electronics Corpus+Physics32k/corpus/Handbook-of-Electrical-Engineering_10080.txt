@@ -1,0 +1,8 @@
+The inverse modeling structure shown in Fig. 100.60 tends to force the network to represent the inverse of
+the plant, but there are potential drawbacks to this approach. The training signal must be chosen to sample
+over a wide range of system inputs, and the actual operational inputs may be difﬁcult to deﬁne a priori [Jordan
+and Rumelhart, 1991]. This point is strongly related to the concept of persistent excitation discussed in adaptive
+control literature. A second drawback is that an incorrect inverse model can be obtained if the nonlinear system
+mapping is not one-to-one. An approach called specialized inverse modeling has been proposed in an effort to
+overcome these problems. The details of this approach can be found in [Psaltis et al., 1988]. The neural network
+identiﬁcation models can be used in the adaptive control of unknown nonlinear plants.

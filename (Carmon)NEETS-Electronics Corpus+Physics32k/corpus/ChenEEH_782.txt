@@ -1,0 +1,20 @@
+Figure 2.29(D) shows the reduction in memory size for the
+two different steps of in-place data mapping obtained using a
+prototype tool. We observe that the initial algorithm requires
+314K words, the intrasignal in-place mapped version needs
+2387 words, and the intersignal
+in-place mapped version
+(after intrasignal in-place mapping) needs 1130 words. The
+beneﬁts of these two steps are clearly evident. Figure 2.29(E)
+presents the comparison of the number of instructions and
+the code size for different cases. We observe that the overhead
+in code size and instructions are less than 15% for the most
+optimized case (64 words globally optimized), which is very
+acceptable for these application kernels because typically also a
+larger amount of additional purely control dominated code is
+present in the program memory. To conclude, we have exe-
+cuted the different algorithms on three different workstations
+to observe the performance gains. As shown in Figure 2.29(F),
+we observe an increase in performance by 20% on average,
+which is obtained apart from the large gains in power con-
+sumption.

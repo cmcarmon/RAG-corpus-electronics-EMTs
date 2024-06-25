@@ -1,0 +1,11 @@
+. Delivery of session description: Once the user is located,
+SIP performs the second function of delivering a descrip-
+tion of the session that the user is invited to. SIP itself is
+opaque to the session description in the sense that it does
+not know anything about the session. It merely notiﬁes
+the user about the protocol to be used so that the user can
+understand the session description. Session Description
+Protocol (SDP) is the most common protocol used for
+this purpose. SIP can also be used to decide a common
+format to describe a session so that protocols other than
+SDP can also be used.

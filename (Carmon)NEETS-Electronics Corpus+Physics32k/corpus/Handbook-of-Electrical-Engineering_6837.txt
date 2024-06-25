@@ -1,0 +1,7 @@
+Detection of Random Signals
+In  some  applications,  particularly  in  remote  sensing  applications  such  as  sonar  and  radio  astronomy,  it  is
+appropriate to consider the signal sequence S1, S2, . . ., Sn itself to be a random sequence, statistically independent
+of the noise. In such cases, the likelihood ratio formula of (73.6) is still valid with the parameter vector u simply
+taken to be the signal itself. However, for long measurement records (i.e., large n), (73.6) is not a very practical
+formula except in some speciﬁc cases, the most important of which is the case in which the signal is Gaussian.
+D E{SkSl}, then the

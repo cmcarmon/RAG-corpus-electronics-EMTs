@@ -1,0 +1,17 @@
+To help visualize the relationship of the upstream Froude number and the flow depth downstream of the hydraulic jump, it is helpful to plot y2/y1 versus the upstream Froude Number, Fr1. (Figure 8) The value of y2/y1 is a ratio of depths that represent a dimensionless jump height; for example, if y2/y1 = 2, then the jump doubles the depth of flow. As the upstream Froude Number increases (moves toward more supercritical flow), the ratio of the downstream depth to the upstream depth also increases, and the graph verifies the existence of a positive linear relationship between the dimensionless jump height and the upstream Froude Number. This implies that a more supercritical upstream flow, y1, will produce a larger downstream depth, y2, and thus a larger jump. The relationship given in Figure 8 below was developed for a horizontal, rectangular channel with q = 10 ft2/s. This graph is limited by the following due to the nature of a hydraulic jump:
+
+1. y2/y1 > 1: depth increases over the jump so that y2 > y1
+
+2. Fr2 < 1: downstream flow must be subcritical
+
+3. Fr1 > 1: upstream flow must be supercritical
+
+Table 2 shows the calculated values used to develop Figure 8. The values associated with a y1 = 1.5 ft are not valid for use since they violate the above limits. The cusp of the above limits is reached at the critical depth, yc, where all of these values are equal to 1. There will not, however, be a hydraulic jump in the situation where y1 is equal to yc.
+Table 2. Values for Depth and Froude Number over Hydraulic Jump
+q = 10 ft, g = 32.2 ft/s2, yc = 1.46 ft, y values in ft
+
+Figure 8. Dimensionless Jump Height vs. Upstream Froude Number (Please note that this diagram is not fully correct. Other factors taken into account are width and water velocity
+This topic contribution was made in partial fulfillment of the requirements for Virginia Tech, Department of Civil and Environmental Engineering course: CEE 5984 – Open Channel Flow during the Fall 2010 semester.
+
+
+== References ==

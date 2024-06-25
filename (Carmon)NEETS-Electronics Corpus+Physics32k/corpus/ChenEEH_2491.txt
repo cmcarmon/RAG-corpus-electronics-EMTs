@@ -1,0 +1,23 @@
+An arbitrarily shaped multiport (four ports in the following
+example) microwave passive component is depicted in Figure
+7.1, in which the inbound (or incident) power is always equal
+to the outbound (or reﬂected) power plus the possible dissi-
+pated power in the circuit. In most practical applications, a
+microwave circuit is modeled by scattering or S-parameters
+that are deﬁned through the incident and reﬂected measurable
+voltage (or alternatively current) waves V i and V r (or I i and
+I r ) at particular planes of reference for a given mode of
+propagation, such as a transverse electric mode (TEM). Circuit
+properties considering multiple modes of operation (propa-
+gating or evanescent) are described with the generalized
+S-parameter matrix. The difference is that for only one mode
+of propagation, the voltages and S-parameters per port are
+single-valued, whereas for multimode propagation or evanes-
+cent modes, the voltages and S-parameters become vectors and
+submatrices, respectively. For single-mode propagation, the
+S-matrix of the four-port example in Figure 7.1 is given as a
+3
+2
+4  4 matrix with complex elements as follows:
+77775 V i
+66664

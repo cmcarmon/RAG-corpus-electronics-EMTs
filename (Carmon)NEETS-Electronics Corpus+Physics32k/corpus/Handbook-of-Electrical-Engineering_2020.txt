@@ -1,0 +1,8 @@
+Since most of the energy of typical room noise and the highest level of reverberation in a room is at low
+frequencies, one would like to use arrays that have their highest directivity (i.e., narrowest beamwidth) at low
+frequencies.  Unfortunately,  this  need  collides  with  the  physics  of  arrays:  the  smaller  the  array  relative  to  the
+wavelength, the wider the beam. (Again, the corresponding notion in ﬁlter theory is that systems with shorter
+impulse responses have wider bandwidth.) One solution to this problem is to superimpose different-size arrays
+and ﬁlter each output by the appropriate bandpass ﬁlter, similar to a crossover network used in two- or three-
+way loudspeaker designs. Such a superposition of three ﬁve-element arrays is shown in Fig. 19.2. Note that we
+only need nine microphones in this example, instead of 5 

@@ -1,0 +1,16 @@
+The square wave’s spectrum is shown by the bolder set of lines centered about the origin. The dashed
+lines correspond to the frequencies about which the spectral repetitions (due to sampling with Ts = 1)
+occur. As the square wave’s period decreases, the negative frequency lines move to the left and the positive
+frequency ones to the right.
+Solution to Exercise 5.6 (p. 149)
+The simplest bandlimited signal is the sine wave. At the Nyquist frequency, exactly two samples/period
+would occur. Reducing the sampling rate would result in fewer samples/period, and these samples would
+appear to have arisen from a lower frequency sinusoid.
+Solution to Exercise 5.7 (p. 150)
+The plotted temperatures were quantized to the nearest degree. Thus, the high temperature’s amplitude
+was quantized as a form of A/D conversion.
+Solution to Exercise 5.8 (p. 151)
+The signal-to-noise ratio does not depend on the signal amplitude. With an A/D range of [−A, A], the
+quantization interval ∆ =
+Solution to Exercise 5.9 (p. 151)
+Solving 2−B = .001 results in B = 10 bits.

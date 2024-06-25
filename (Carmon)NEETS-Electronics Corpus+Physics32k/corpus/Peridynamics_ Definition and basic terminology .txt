@@ -1,0 +1,242 @@
+The basic equation of peridynamics is the following equation of motion:
+
+
+
+
+ρ
+(
+x
+)
+
+
+
+u
+¨
+
+
+
+(
+x
+,
+t
+)
+=
+
+∫
+
+R
+
+
+f
+(
+u
+(
+
+x
+′
+
+,
+t
+)
+−
+u
+(
+x
+,
+t
+)
+,
+
+x
+′
+
+−
+x
+,
+x
+)
+d
+
+V
+
+
+x
+′
+
+
+
++
+b
+(
+x
+,
+t
+)
+
+
+{\displaystyle \rho (x){\ddot {u}}(x,t)=\int _{R}f(u(x',t)-u(x,t),x'-x,x)dV_{x'}+b(x,t)}
+
+where
+
+
+
+x
+
+
+{\displaystyle x}
+is a point in a body
+
+
+
+R
+
+
+{\displaystyle R}
+,
+
+
+
+t
+
+
+{\displaystyle t}
+is time,
+
+
+
+u
+
+
+{\displaystyle u}
+is the displacement vector field, and
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+is the mass density in the undeformed body.
+
+
+
+
+x
+′
+
+
+
+{\displaystyle x'}
+is a dummy variable of integration.
+The vector valued function
+
+
+
+f
+
+
+{\displaystyle f}
+is the force density that
+
+
+
+
+x
+′
+
+
+
+{\displaystyle x'}
+exerts on
+
+
+
+x
+
+
+{\displaystyle x}
+. This force density depends on the relative displacement and relative position vectors between
+
+
+
+
+x
+′
+
+
+
+{\displaystyle x'}
+and
+
+
+
+x
+
+
+{\displaystyle x}
+. The dimensions of
+
+
+
+f
+
+
+{\displaystyle f}
+are force per volume squared. The function
+
+
+
+f
+
+
+{\displaystyle f}
+is called the "pairwise force function" and contains all the constitutive (material-dependent) properties. It describes how the internal forces depend on the deformation.
+The interaction between any
+
+
+
+x
+
+
+{\displaystyle x}
+and
+
+
+
+
+x
+′
+
+
+
+{\displaystyle x'}
+is called a "bond." The physical mechanism in this interaction need not be specified. It is usually assumed that
+
+
+
+f
+
+
+{\displaystyle f}
+vanishes whenever
+
+
+
+
+x
+′
+
+
+
+{\displaystyle x'}
+is outside a neighborhood of
+
+
+
+x
+
+
+{\displaystyle x}
+(in the undeformed configuration) called the horizon.
+
+The term "peridynamic," an adjective, was proposed in the year 2000 and comes from the prefix peri, which means all around, near, or surrounding; and the root dyna, which means force or power. The term "peridynamics," a noun, is a shortened form of the phrase peridynamic model of solid mechanics.

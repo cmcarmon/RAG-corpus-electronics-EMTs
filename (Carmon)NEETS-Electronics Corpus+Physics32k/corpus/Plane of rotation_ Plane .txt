@@ -1,0 +1,62 @@
+For this article, all planes are planes through the origin, that is they contain the zero vector. Such a plane in n-dimensional space is a two-dimensional linear subspace of the space. It is completely specified by any two non-zero and non-parallel vectors that lie in the plane, that is by any two vectors a and b, such that
+
+
+
+
+
+a
+
+∧
+
+b
+
+≠
+0
+,
+
+
+{\displaystyle \mathbf {a} \wedge \mathbf {b} \neq 0,}
+
+where ∧ is the exterior product from exterior algebra or geometric algebra (in three dimensions the cross product can be used). More precisely, the quantity a ∧ b is the bivector associated with the plane specified by a and b, and has magnitude |a| |b| sin φ, where φ is the angle between the vectors; hence the requirement that the vectors be nonzero and nonparallel.
+If the bivector a ∧ b is written B, then the condition that a point lies on the plane associated with B is simply
+
+
+
+
+
+x
+
+∧
+
+B
+
+=
+0.
+
+
+{\displaystyle \mathbf {x} \wedge \mathbf {B} =0.}
+
+This is true in all dimensions, and can be taken as the definition on the plane. In particular, from the properties of the exterior product it is satisfied by both a and b, and so by any vector of the form
+
+
+
+
+
+c
+
+=
+λ
+
+a
+
++
+μ
+
+b
+
+,
+
+
+{\displaystyle \mathbf {c} =\lambda \mathbf {a} +\mu \mathbf {b} ,}
+
+with λ and μ real numbers. As λ and μ range over all real numbers, c ranges over the whole plane, so this can be taken as another definition of the plane.

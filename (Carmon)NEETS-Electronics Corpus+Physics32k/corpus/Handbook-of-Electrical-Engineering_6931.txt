@@ -1,0 +1,6 @@
+Some properties of autocorrelation functions for ws processes follow. First, *RXX(t)* £ RXX(0), –‘ < t < ‘,
+as can be seen from Eq. (73.42) with *RXX(t)*2 = E[X(0)X(t)] £ E[X(0)2]E[X(t)2] = RXX(0)RXX(t). Next, RXX(t)
+is real and even, i.e., RXX(–t) = RXX(t), which is evident from substituting s = t – t in E[X(s)X(s + t)]and using
+time independence. If X(t) has a periodic component, then RXX(t) will have that same periodic component,
+which follows from the deﬁnition. Finally, if X(t) has a nonzero mean m and no periodic components, then
+the variance goes to zero (the memory fades) and so limtﬁ‘ RXX(t) ﬁ 0 + m2 = m2.

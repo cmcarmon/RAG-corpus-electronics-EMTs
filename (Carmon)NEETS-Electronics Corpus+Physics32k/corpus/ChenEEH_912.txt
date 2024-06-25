@@ -1,0 +1,10 @@
+Note that any minimal set of linearly independent clock
+skews must not contain a cycle (as deﬁned by equation 4.24),
+for if the set contains a cycle, the skews in the set would not be
+linearly independent. Furthermore, any such set must span all
+vertices (registers) of the circuit, or it is not possible to express
+the clock skews of any paths in and out of the vertices not
+spanned by the set. Given a circuit C with r registers and p local
+data paths, these conclusions are formally summarized in the
+following two results from graph theory (West, 1996; Reingold
+et al., 1997):

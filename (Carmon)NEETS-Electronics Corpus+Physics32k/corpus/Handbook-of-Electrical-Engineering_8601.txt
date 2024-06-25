@@ -1,0 +1,11 @@
+A(ddress) register operations are 32 bits wide. Address generation uses A 
+registers as bases. D (data) registers allow byte, word, and longword operations. 
+A7 is SP.
+AP,FP,SP and PC hold the addresses of the argument block, the frame, the stack 
+and the current place in the program, respectively. All data instructions can 
+use any register.
+The 4 groups of eight registers comprise: global (g), incoming parameters (i), 
+local (l) and outgoing parameters (o). g0 is a hardwired 0 as a data source and 
+a wastebasket as a destination. The registers are arranged as a window blind 
+(see text) with the g’s always visible and the others moveable in multiple 
+overlapping frames of 24.

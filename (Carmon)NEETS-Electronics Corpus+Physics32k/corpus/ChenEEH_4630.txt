@@ -1,0 +1,14 @@
+In some cases, scheduling parameters are chosen to be
+functions of the plant variables to make the problem more
+tractable from a design standpoint. Because the scheduling
+parameter is no longer independent of the plant variables
+(e.g., qu=qx 6¼ 0), the closed-loop system formed by the lin-
+earized plant and linear controllers does not match the linear-
+ized closed-loop plant. The differences in the closed-loop
+realizations are due to hidden coupling modes whose presence
+may degrade or limit achievable performance. Although there
+is no comprehensive theory for removing these modes from
+the gain-scheduled design, examples are present in the litera-
+ture (Nichols et al., 1993). As a rule, the designer must exhibit
+additional caution in ensuring that the scheduling parameter
+does not vary too rapidly.

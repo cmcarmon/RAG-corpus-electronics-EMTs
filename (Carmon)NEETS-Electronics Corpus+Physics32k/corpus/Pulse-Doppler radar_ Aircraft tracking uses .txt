@@ -1,0 +1,11 @@
+Pulse-Doppler radar for aircraft detection has two modes.
+Scan
+Track
+Scan mode involves frequency filtering, amplitude thresholding, and ambiguity resolution. Once a reflection has been detected and resolved, the pulse-Doppler radar automatically transitions to tracking mode for the volume of space surrounding the track.
+Track mode works like a phase-locked loop, where Doppler velocity is compared with the range movement on successive scans. Lock indicates the difference between the two measurements is below a threshold, which can only occur with an object that satisfies Newtonian mechanics. Other types of electronic signals cannot produce a lock. Lock exists in no other type of radar.
+The lock criteria needs to be satisfied during normal operation.
+Pulse-Doppler signal processing § Lock
+Lock eliminates the need for human intervention with the exception of helicopters and electronic jamming.
+Weather phenomenon obey adiabatic process associated with air mass and not Newtonian mechanics, so the lock criteria is not normally used for weather radar.
+Pulse-Doppler signal processing selectively excludes low-velocity reflections so that no detections occurs below a threshold velocity. This eliminates terrain, weather, biologicals, and mechanical jamming with the exception of decoy aircraft.
+The target Doppler signal from the detection is converted from frequency domain back into time domain sound for the operator in track mode on some radar systems. The operator uses this sound for passive target classification, such as recognizing helicopters and electronic jamming.

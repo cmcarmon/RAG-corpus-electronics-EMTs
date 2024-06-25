@@ -1,0 +1,11 @@
+If the output voltage tries to increase, the sample volt-
+age also increases. This increases the bias voltage on the 
+base of transistor Q2. The emitter voltage of transistor Q2 
+is held constant by zener diode D1. This results in tran-
+sistor Q2 conducting more and increasing the current 
+through resistor R2. In turn, the voltage on the collector 
+of transistor Q2 and the base of transistor Q1 decreases. 
+This decreases the forward bias of transistor Q1, causing 
+it to conduct less. When transistor Q1 conducts less, less 
+current flows. This causes a smaller voltage drop across 
+the load and cancels the increase in voltage. 

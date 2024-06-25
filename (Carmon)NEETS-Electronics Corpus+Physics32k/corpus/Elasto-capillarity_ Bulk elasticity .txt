@@ -1,0 +1,10 @@
+When depositing a droplet on a solid surface with contact angle θ, horizontal force balance was described by Young's equation. However, there is a vertical force balance which often ignored can be written as:
+Fvertical=γ×sinθ= E×δ
+
+Where
+Fvertical is the force perunit length in the vertical direction
+γ is the surface tension of a liquid
+E is the Young's modulus of a substrate
+δ is deformation of the substrate
+This gives length scale δ~ γ/E sinθ for the deformation of bulk materials caused by the surface tension force.
+For example, if a water (γ ~ 72 mN/m) droplet is deposited on the glass (E~ 700 GPa), this gives δ~10−12m which is typically negligible. However, if a water is deposited on the PDMS (E ~ 300 kPa), this caused the deformation to be δ~10−6m, which is in micron scale, this can have great impact on the micro/nanotechnology applications where length scale is comparable and "soft" photoresists were used.

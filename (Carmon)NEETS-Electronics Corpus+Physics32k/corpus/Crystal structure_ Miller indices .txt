@@ -1,0 +1,38 @@
+Vectors and planes in a crystal lattice are described by the three-value Miller index notation. This syntax uses the indices ℓ, m, and n as directional orthogonal parameters, which are separated by 90°.
+By definition, the syntax (ℓmn) denotes a plane that intercepts the three points a1/ℓ, a2/m, and a3/n, or some multiple thereof. That is, the Miller indices are proportional to the inverses of the intercepts of the plane with the unit cell (in the basis of the lattice vectors). If one or more of the indices is zero, it means that the planes do not intersect that axis (i.e., the intercept is "at infinity"). A plane containing a coordinate axis is translated so that it no longer contains that axis before its Miller indices are determined. The Miller indices for a plane are integers with no common factors. Negative indices are indicated with horizontal bars, as in (123). In an orthogonal coordinate system for a cubic cell, the Miller indices of a plane are the Cartesian components of a vector normal to the plane.
+Considering only (ℓmn) planes intersecting one or more lattice points (the lattice planes), the distance d between adjacent lattice planes is related to the (shortest) reciprocal lattice vector orthogonal to the planes by the formula
+
+
+
+
+d
+=
+
+
+
+2
+π
+
+
+
+|
+
+
+
+g
+
+
+ℓ
+m
+n
+
+
+
+|
+
+
+
+
+
+
+{\displaystyle d={\frac {2\pi }{|\mathbf {g} _{\ell mn}|}}}

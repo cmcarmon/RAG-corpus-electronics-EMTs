@@ -1,0 +1,7 @@
+In figure 3-27, the flip-flop is in the SET state prior to T0 (negative voltage on the "1" output). Now 
+compare the changes in output voltage at each point in time (T0, T1, T2, and T3) with the input pulse. 
+Studying this figure should help you understand how the flip-flop works. The positive pulse at T0 on the 
+CLEAR input shifts the f/f to the CLEAR state (negative voltage at the "0" output). At T1 a positive pulse 
+on the SET input drives the "1" output to the SET state. At T2 a positive pulse on the CLEAR input drives 
+the "0" output to a CLEAR state. At T3 another positive pulse is applied to the CLEAR input. This input 
+has no effect since the f/f is already in the CLEAR state. 

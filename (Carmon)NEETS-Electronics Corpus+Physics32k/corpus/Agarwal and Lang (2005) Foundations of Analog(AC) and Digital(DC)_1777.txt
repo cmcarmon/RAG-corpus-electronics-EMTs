@@ -1,0 +1,6 @@
+Finally, notice that if the ringing is sufficiently under damped then vC can fall below VOL
+and then rise again above VOH one or more times. However, this behavior does not
+violate the combinational gate abstraction because the definition of the combinational
+gate in the presence of delay (see Section 10.4.1) does not constrain the gate’s opera-
+tion following an input transition during a time interval whose length is equal to the
+propagation delay.

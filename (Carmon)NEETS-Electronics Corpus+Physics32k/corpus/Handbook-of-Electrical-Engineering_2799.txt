@@ -1,0 +1,11 @@
+Analog and Mixed-Signal ASICs
+One  of  the  exciting  ASIC  areas  undergoing  rapid  development  is  the  addition  of  analog  integrated  circuits
+[Geiger  et  al.,  1990;  Ismail  and  Fiez,  1994;  Laker  and  Sansen,  1994]  to  the  standard  digital  VLSI  ASIC,
+corresponding to mixed-signal VLSI. Mixed-signal ICs allow the IC to interact directly with the real physical
+(and  analog)  world.  Library  cells  representing  various  analog  circuit  functions  supplement  the  usual  digital
+circuit cells of the library, allowing the ASIC designer to add needed analog circuits within the same general
+framework as the addition of digital circuit cells. Automotive electronics is a representative example, with many
+sensors providing analog information which is converted into a digital format and analyzed using microcom-
+puters or other digital circuits. Mixed-signal library cells include A/D and D/A converters, comparators, analog
+switches, sample-and-hold circuits, etc., while analog library cells include op amps, precision voltage sources,
+and phase-locked loops.

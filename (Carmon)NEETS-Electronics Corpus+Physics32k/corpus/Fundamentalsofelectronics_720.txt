@@ -1,0 +1,10 @@
+Problem 5.32: Echoes
+Echoes not only occur in canyons, but also in auditoriums and telephone circuits. In one situation where
+the echoed signal has been sampled, the input signal x (n) emerges as x (n) + a1x (n − n1) + a2x (n − n2).
+(a) Find the diﬀerence equation of the system that models the production of echoes.
+(b) To simulate this echo system, ELEC 241 students are asked to write the most eﬃcient (quickest)
+program that has the same input-output relationship. Suppose the duration of x (n) is 1,000 and that
+5, and n2 = 25. Half the class votes to just program the diﬀerence equation
+a1 = 1
+while the other half votes to program a frequency domain approach that exploits the speed of the FFT.
+Because of the undecided vote, you must break the tie. Which approach is more eﬃcient and why?

@@ -1,0 +1,319 @@
+In diffusioosmosis, for a surface at rest the velocity increases from zero at the surface to the diffusioosmotic velocity, over the width of the interface between the surface and the solution. Beyond this distance, the diffusioosmotic velocity does not vary with distance from the surface. The driving force for diffusioosmosis is thermodynamic, i.e., it acts to reduce the free energy if the system, and so the direction of flow is away from surface regions of low surface free energy, and towards regions of high surface free energy. For a solute that adsorbs at surface, diffusioosmotic flow is away from regions of high solute concentration, while for solutes that are repelled by the surface, flow is away from regions of low solute concentration.
+
+For gradients that are not-too-large, the diffusioosmotic slip velocity, i.e., the relative flow velocity far from the surface will be proportional to the gradient in the concentration gradient
+
+
+
+
+
+
+
+v
+
+
+
+s
+l
+i
+p
+
+
+=
+−
+K
+∇
+
+c
+
+s
+o
+l
+
+
+
+
+{\displaystyle {\bf {v}}_{slip}=-K\nabla c_{sol}}
+
+where
+
+
+
+K
+
+
+{\displaystyle K}
+is a diffusioosmotic coefficient, and
+
+
+
+
+c
+
+s
+o
+l
+
+
+
+
+{\displaystyle c_{sol}}
+is the solute concentration. When the solute is ideal and interacts with a surface in the
+
+
+
+x
+y
+
+
+{\displaystyle xy}
+plane at
+
+
+
+z
+=
+0
+
+
+{\displaystyle z=0}
+via a potential
+
+
+
+
+ϕ
+
+s
+o
+l
+u
+t
+e
+
+
+(
+z
+)
+
+
+{\displaystyle \phi _{solute}(z)}
+, the coefficient
+
+
+
+K
+
+
+{\displaystyle K}
+is given by
+
+
+
+
+K
+=
+
+
+
+k
+T
+
+η
+
+
+
+∫
+
+0
+
+
+∞
+
+
+z
+
+[
+
+exp
+⁡
+(
+−
+
+ϕ
+
+s
+o
+l
+u
+t
+e
+
+
+
+/
+
+k
+T
+)
+−
+1
+
+]
+
+
+
+d
+
+
+z
+
+
+{\displaystyle K={\frac {kT}{\eta }}\int _{0}^{\infty }z\left[\exp(-\phi _{solute}/kT)-1\right]{\rm {d}}z}
+
+where
+
+
+
+k
+
+
+{\displaystyle k}
+is Boltzmann's constant,
+
+
+
+T
+
+
+{\displaystyle T}
+is the absolute temperature, and
+
+
+
+η
+
+
+{\displaystyle \eta }
+is the viscosity in the interfacial region, assumed to be constant in the interface. This expression assumes that the fluid velocity for fluid in contact with the surface is forced to be zero, by interaction between the fluid and the wall. This is called the no-slip condition.
+To understand these expressions better, we can consider a very simple model, where the surface simply excludes an ideal solute from an interface of width
+
+
+
+R
+
+
+{\displaystyle R}
+, this is would be the Asakura-Oosawa model of an ideal polymer against a hard wall. Then the integral is simply
+
+
+
+−
+(
+1
+
+/
+
+2
+)
+
+R
+
+2
+
+
+
+
+{\displaystyle -(1/2)R^{2}}
+and the diffusioosmotic slip velocity
+
+
+
+
+
+
+
+v
+
+
+
+s
+l
+i
+p
+
+
+=
+
+
+
+k
+T
+
+R
+
+2
+
+
+
+
+2
+η
+
+
+
+∇
+
+c
+
+s
+o
+l
+
+
+
+
+{\displaystyle {\bf {v}}_{slip}={\frac {kTR^{2}}{2\eta }}\nabla c_{sol}}
+
+Note that the slip velocity is directed towards increasing solute concentrations.
+A particle much larger than
+
+
+
+R
+
+
+{\displaystyle R}
+moves with a diffusiophoretic velocity
+
+
+
+
+
+
+v
+
+
+
+d
+p
+
+
+=
+−
+
+
+
+v
+
+
+
+s
+l
+i
+p
+
+
+
+
+{\displaystyle {\bf {v}}_{dp}=-{\bf {v}}_{slip}}
+relative to the surrounding solution. So diffusiophoresis moves particles towards lower solute concentrations, in this case.

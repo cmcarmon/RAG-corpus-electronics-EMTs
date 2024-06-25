@@ -1,0 +1,9 @@
+So, the inductor in this circuit has a starting current of 5 amps and an ending current of
+7.5 amps. Since the ”timing” will take place during the time that the switch is closed and R2
+is shorted past, we need to calculate our time constant from L1 and R1: 1 Henry divided by 2
+Ω, or τ = 1/2 second. With these values, we can calculate what will happen to the current over
+time. The voltage across the inductor will be calculated by multiplying the current by 2 (to
+arrive at the voltage across the 2 Ω resistor), then subtracting that from 15 volts to see what’s
+left. If you realize that the voltage across the inductor starts at 5 volts (when the switch is
+ﬁrst closed) and decays to 0 volts over time, you can also use these ﬁgures for starting/ending
+values in the general formula and derive the same results:

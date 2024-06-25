@@ -1,0 +1,6 @@
+1. While node analysis is generally quite simple,
+it is complicated by the presence of floating
+independent voltage sources and by the presence of dependent sources. Note that a floating inde-
+pendent voltage source is a source that has neither terminal connected to ground, neither directly
+nor through one or more other independent voltage sources. Consequently, we first introduce
+node analysis without these complications, and then treat these complications in succession.

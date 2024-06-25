@@ -1,0 +1,30 @@
+A typical experiment, consists of a glass tube of volume V, and of cross-section A, which is open on one of its end. A ball (or sometimes a piston) of mass m with the same cross-section, creating an air-tight seal, is allowed to fall under gravity g. The entrapped gas is first compressed by the weight of the piston, which leads to an increase in temperature. In the course of the piston falling, a gas cushion is created, and the piston bounces. Harmonic oscillation occurs, which slowly damps. The result is a rapid sequence of expansion and compression of the gas. The picture shows a revised version of the original Rüchardt setup: the sphere oscillating inside the tube is here replaced by a "breast-pump" which acts as an oscillating glass-piston; in this new setup three sensors allow to measure in real-time the piston oscillations as well as the pressure and temperature oscillations of the air inside the bottle (more details may be found in )
+
+According to Figure 1, the piston inside the tube is in equilibrium if the pressure P inside the glass bottle is equal to the sum of the atmospheric pressure P0 and the pressure increase due to the piston weight :
+
+When the piston moves beyond the equilibrium by a distance dx, the pressure changes by dp. A force F will be exerted on the piston, equal to
+
+According to Newton's second law of motion, this force will create an acceleration a equal to
+
+As this process is adiabatic, the equation for ideal gas (Poisson's equation) is:
+
+It follows using differentiation from the equation above that:
+
+If the piston moves by a distance
+
+
+
+d
+x
+
+
+{\displaystyle dx}
+in the glass tube, the corresponding change in volume will be
+
+By substituting equation Eq. 5b into equation Eq. 3, we can rewrite Eq. 3 as follows:
+
+Solving this equation and rearranging terms yields the differential equation of a harmonic oscillation from which the angular frequency ω can be deduced:
+
+From this, the period T of harmonic oscillation performed by the ball is:
+
+Measuring the period of oscillation T and the relative pressure P in the tube yields the equation for the adiabatic exponent:

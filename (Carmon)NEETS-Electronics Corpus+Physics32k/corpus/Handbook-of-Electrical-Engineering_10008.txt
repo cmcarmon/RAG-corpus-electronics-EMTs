@@ -1,0 +1,8 @@
+The  limit-cycle  amplitude  predicted  by  the  DF  is  an  approximation  to  the  fundamental  harmonic.  The
+accuracy of this prediction cannot be assessed by using the peak value of the limit cycle to estimate an equivalent
+sinusoid. It is possible to estimate the limit cycle more accurately by balancing more harmonics, as mentioned
+earlier. Although this is difﬁcult algebraically other than with loops whose nonlinearity is mathematically simply
+described,  for  example  a  cubic,  software  is  available  for  this  purpose  [McNamara  and Atherton,  1987].  The
+procedure  involves  solving  sets  of  nonlinear  algebraic  equations  but  good  starting  guesses  can  usually  be
+obtained for the magnitudes and phases of the other harmonic components from the wave form fedback to
+the nonlinearity, assuming its input is the DF solution.

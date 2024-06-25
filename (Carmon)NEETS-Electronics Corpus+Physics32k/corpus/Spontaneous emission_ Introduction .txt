@@ -1,0 +1,380 @@
+If a light source ('the atom') is in an excited state with energy
+
+
+
+
+E
+
+2
+
+
+
+
+{\displaystyle E_{2}}
+, it may spontaneously decay to a lower lying level (e.g., the ground state) with energy
+
+
+
+
+E
+
+1
+
+
+
+
+{\displaystyle E_{1}}
+, releasing the difference in energy between the two states as a photon. The photon will have angular frequency
+
+
+
+ω
+
+
+{\displaystyle \omega }
+and an energy
+
+
+
+ℏ
+ω
+
+
+{\displaystyle \hbar \omega }
+:
+
+
+
+
+
+E
+
+2
+
+
+−
+
+E
+
+1
+
+
+=
+ℏ
+ω
+,
+
+
+{\displaystyle E_{2}-E_{1}=\hbar \omega ,}
+
+where
+
+
+
+ℏ
+
+
+{\displaystyle \hbar }
+is the reduced Planck constant. Note:
+
+
+
+ℏ
+ω
+=
+h
+ν
+
+
+{\displaystyle \hbar \omega =h\nu }
+, where
+
+
+
+h
+
+
+{\displaystyle h}
+is the Planck constant and
+
+
+
+ν
+
+
+{\displaystyle \nu }
+is the linear frequency. The phase of the photon in spontaneous emission is random as is the direction in which the photon propagates. This is not true for stimulated emission. An energy level diagram illustrating the process of spontaneous emission is shown below:
+
+If the number of light sources in the excited state at time
+
+
+
+t
+
+
+{\displaystyle t}
+is given by
+
+
+
+N
+(
+t
+)
+
+
+{\displaystyle N(t)}
+, the rate at which
+
+
+
+N
+
+
+{\displaystyle N}
+decays is:
+
+
+
+
+
+
+
+∂
+N
+(
+t
+)
+
+
+∂
+t
+
+
+
+=
+−
+
+A
+
+21
+
+
+N
+(
+t
+)
+,
+
+
+{\displaystyle {\frac {\partial N(t)}{\partial t}}=-A_{21}N(t),}
+
+where
+
+
+
+
+A
+
+21
+
+
+
+
+{\displaystyle A_{21}}
+is the rate of spontaneous emission. In the rate-equation
+
+
+
+
+A
+
+21
+
+
+
+
+{\displaystyle A_{21}}
+is a proportionality constant for this particular transition in this particular light source. The constant is referred to as the Einstein A coefficient, and has units
+
+
+
+
+s
+
+−
+1
+
+
+
+
+{\displaystyle s^{-1}}
+. The above equation can be solved to give:
+
+
+
+
+N
+(
+t
+)
+=
+N
+(
+0
+)
+
+e
+
+−
+
+A
+
+21
+
+
+t
+
+
+=
+N
+(
+0
+)
+
+e
+
+−
+
+Γ
+
+r
+a
+d
+
+
+t
+
+
+,
+
+
+{\displaystyle N(t)=N(0)e^{-A_{21}t}=N(0)e^{-\Gamma _{rad}t},}
+
+where
+
+
+
+N
+(
+0
+)
+
+
+{\displaystyle N(0)}
+is the initial number of light sources in the excited state,
+
+
+
+t
+
+
+{\displaystyle t}
+is the time and
+
+
+
+
+Γ
+
+r
+a
+d
+
+
+
+
+{\displaystyle \Gamma _{rad}}
+is the radiative decay rate of the transition. The number of excited states
+
+
+
+N
+
+
+{\displaystyle N}
+thus decays exponentially with time, similar to radioactive decay. After one lifetime, the number of excited states decays to 36.8% of its original value (
+
+
+
+
+
+1
+e
+
+
+
+
+{\displaystyle {\frac {1}{e}}}
+-time). The radiative decay rate
+
+
+
+
+Γ
+
+r
+a
+d
+
+
+
+
+{\displaystyle \Gamma _{rad}}
+is inversely proportional to the lifetime
+
+
+
+
+τ
+
+21
+
+
+
+
+{\displaystyle \tau _{21}}
+:
+
+
+
+
+
+A
+
+21
+
+
+=
+
+Γ
+
+21
+
+
+=
+
+
+1
+
+τ
+
+21
+
+
+
+
+.
+
+
+{\displaystyle A_{21}=\Gamma _{21}={\frac {1}{\tau _{21}}}.}

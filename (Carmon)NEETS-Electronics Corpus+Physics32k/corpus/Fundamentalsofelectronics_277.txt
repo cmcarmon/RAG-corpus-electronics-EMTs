@@ -1,0 +1,16 @@
+Armed with these approximations, let’s return to our original circuit as shown in Figure 3.44. The node
+voltage e is essentially zero, meaning that it is essentially tied to the reference node. Thus, the current
+through the resistor R equals vin
+. Furthermore, the feedback resistor appears in parallel with the load
+R
+resistor. Because the current going into the op-amp is zero, all of the current ﬂowing through R ﬂows
+through the feedback resistor (iF = i)! The voltage across the feedback resistor v equals vinRF
+. Because
+R
+the left end of the feedback resistor is essentially attached to the reference node, the voltage across it equals
+the negative of that across the output resistor: vout = −v = − vinRF
+. Using this approach makes analyzing
+R
+new op-amp circuits much easier. When using this technique, check to make sure the results you obtain
+are consistent with the assumptions of essentially zero current entering the op-amp and nearly zero voltage
+across the op-amp’s inputs.

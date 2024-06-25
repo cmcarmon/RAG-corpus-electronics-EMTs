@@ -1,0 +1,9 @@
+b) Next, let v IN = VIN + vin where vin is considered to be a small perturbation of vIN
+around VIN. Make the substitution for vIN and linearize the resulting expression
+for vOUT. Your answer should take the form vOUT = VOUT + vout, where vout
+takes the form vout = Gvin. Note that vout is the small-signal output and G is the
+small-signal gain. Derive an expression for G.
+For what value of VIN is vOUT biased to VOUT = VS/2? For this value of VIN,
+evaluate Gm using the numerical parameters given in Problem 7.2. You should find
+that this gain is the slope of the input-output graph from Problem 7.3 evaluated at
+the bias point.

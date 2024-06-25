@@ -1,0 +1,8 @@
+This solution suggests that voltages (and currents too) will decrease exponentially along a transmission
+line. The space constant, also known as the attenuation constant, is the distance over which the voltage
+decreases by a factor of 1
+e . It equals the reciprocal of a (f ), which depends on frequency, and is expressed by
+manufacturers in units of dB/m.
+The presence of the imaginary part of γ, b (f ), also provides insight into how transmission lines work.
+Because the solution for x > 0 is proportional to e−jbx, we know that the voltage’s complex amplitude will
+vary sinusoidally in space. The complete solution for the voltage has the form

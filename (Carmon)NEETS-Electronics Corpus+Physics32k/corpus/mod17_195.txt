@@ -1,0 +1,13 @@
+Figure 2-9 shows a block diagram with waveforms of a typical AM superheterodyne receiver
+developed to overcome the disadvantages of earlier type receivers. Let’s assume you are tuning the
+receiver. When doing this you are actually changing the frequency to which the rf amplifier is tuned. The
+rf carrier comes in from the antenna and is applied to the rf amplifier. The output of the amplifier is an
+amplified carrier and is sent to the mixer. The mixer also receives an input from the local oscillator. These
+two signals are beat together to obtain the IF through the process of heterodyning. (Heterodyning will be
+further discussed later in this chapter and was covered in NEETS, Module 12, Modulation Principles.) At
+this time you should note the dotted lines connecting the local oscillator, rf amplifier, and the mixer. This
+is used on block diagrams and schematics to indicate GANGED TUNING. Ganged tuning is the process
+used to tune two or more circuits with a single control. In our example, when you change the frequency of
+the receiver all three stages change by the same amount. There is a fixed difference in frequency between
+the local oscillator and the rf amplifier at all times. This difference in frequency is the IF. This fixed
+difference and ganged tuning ensures a constant IF over the frequency range of the receiver.

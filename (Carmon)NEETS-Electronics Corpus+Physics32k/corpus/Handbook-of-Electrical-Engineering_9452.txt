@@ -1,0 +1,7 @@
+An extremely important parameter in the design and analysis of fault-tolerant systems is fault coverage. The
+fault coverage available in a system can have a tremendous impact on the reliability, safety, and other attributes
+of the system. Fault coverage is mathematically deﬁned as the conditional probability that, given the existence
+of a fault, the system recovers [Bouricius et al., 1969]. The fundamental problem with fault coverage is that it
+is extremely difﬁcult to calculate. Probably the most common approach to estimating fault coverage is to develop
+a list all of the faults that can occur in a system and to form, from that list, a list of faults from which the system
+can recover. The fault coverage factor is then calculated appropriately.

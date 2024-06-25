@@ -1,0 +1,6 @@
+The counter operates as a normal counter until it reaches a count of 10102, or 1010. At that time, both
+inputs to the NAND gate are HIGH, and the output goes LOW. This LOW applied to the CLR input of
+the FFs causes them to reset to 0. Remember from the discussion of J-K FFs that CLR and PS or PR
+override any existing condition of the FF. Once the FFs are reset, the count may begin again. The
+following table shows the binary count and the inputs and outputs of the NAND gate for each count of the
+decade counter:

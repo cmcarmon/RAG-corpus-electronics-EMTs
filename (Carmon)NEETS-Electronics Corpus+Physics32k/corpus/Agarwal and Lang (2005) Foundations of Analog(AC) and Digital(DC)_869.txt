@@ -1,0 +1,9 @@
+Our inverter produces a high output of VS, so it is easy to see that the high
+output can turn the MOSFET in a receiving inverter into its ON state (provided,
+of course, that VS > VT). Because the inverter produces a nonzero low output,
+more care needs to be taken in the choice of resistance values and the MOSFET
+parameters. Specifically, for our inverter design, the voltage output for a logical
+0 must be low enough that the MOSFET in the receiver stays OFF. Because
+the MOSFET turns ON for an input voltage greater than VT, the following
+condition must be met for the low output of one inverter to be able to drive
+the MOSFET in another inverter into its OFF state:

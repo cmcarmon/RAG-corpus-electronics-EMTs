@@ -1,0 +1,9 @@
+The direct-form I and direct-form II IIR ﬁlter realizations generally have very poor performance in terms
+of  all  ﬁnite  wordlength  effects.  Therefore,  alternative  realizations  are  usually  employed.  The  most  common
+alternatives are the cascade and parallel realizations where the direct-form II realization is used for each second-
+order section. By simply factoring or expanding the original transfer function, round-off noise and coefﬁcient
+quantization error are signiﬁcantly reduced. A further improvement is possible by implementing the cascade
+or  parallel  sections  using  state-space  realizations  [Roberts  and  Mullis,  1987].  The  price  paid  for  using  state-
+space realizations is an increase in the computation required to implement each section. Another realization
+that has been used to reduce round-off noise and coefﬁcient quantization error is the lattice realization [Parks
+and Burrus, 1987] which is usually formed directly from the unfactored and unexpanded transfer function.

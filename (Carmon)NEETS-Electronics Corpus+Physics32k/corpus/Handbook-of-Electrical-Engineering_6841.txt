@@ -1,0 +1,9 @@
+If the signal is random but not Gaussian, then its optimum detection [described by (73.6)] typically requires
+more complicated nonlinear processing than the quadratic processing of (73.13) in order to exploit the distri-
+butional differences between signal and noise. This type of processing is often not practical for implementation,
+and thus approximations to the optimum detector are typically used. An interesting family of such detectors
+uses cubic or quartic functions of the measurements, which exploit the higher-order spectral properties of the
+signal [Mendel, 1991]. As with deterministic signals, random signals can be parametrized. In this case, however,
+it is the distribution of the signal that is parametrized. For example, the power spectrum of the signal of interest
+may be known only up to a set of unknown parameters. Generalized likelihood ratio detectors (73.9) are often
+used to detect such signals.

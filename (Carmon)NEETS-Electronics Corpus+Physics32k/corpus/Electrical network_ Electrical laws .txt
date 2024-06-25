@@ -1,0 +1,8 @@
+A number of electrical laws apply to all electrical networks. These include:
+Kirchhoff's current law: The sum of all currents entering a node is equal to the sum of all currents leaving the node.
+Kirchhoff's voltage law: The directed sum of the electrical potential differences around a loop must be zero.
+Ohm's law: The voltage across a resistor is equal to the product of the resistance and the current flowing through it.
+Norton's theorem: Any network of voltage or current sources and resistors is electrically equivalent to an ideal current source in parallel with a single resistor.
+Thévenin's theorem: Any network of voltage or current sources and resistors is electrically equivalent to a single voltage source in series with a single resistor.
+superposition theorem: In a linear network with several independent sources, the response in a particular branch when all the sources are acting simultaneously is equal to the linear sum of individual responses calculated by taking one independent source at a time.
+Other more complex laws may be needed if the network contains nonlinear or reactive components. Non-linear self-regenerative heterodyning systems can be approximated. Applying these laws results in a set of simultaneous equations that can be solved either algebraically or numerically.

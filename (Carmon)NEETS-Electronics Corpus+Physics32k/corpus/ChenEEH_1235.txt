@@ -1,0 +1,13 @@
+An integer linear programming (ILP) formulation that
+yields tight bounds on the quality of the achievable wire-
+packing solution was
+formulated by Kay and Rutenbar
+(2001). The input to cross talk-aware wire packing is com-
+posed of a set of wires, a set of variable tracks (per layer), and a
+cross talk graph XG that determines forbidden wire adjacen-
+cies. The output is a legal assignment such that no forbidden
+adjacencies and no electrical shorts exist, as shown in Figure
+8.11. The key technical insight is to model all constraints (both
+geometric and cross talk conﬂicts) as cliques in an appropriate
+conﬂict graph; these cliques can be extracted quickly from the
+interval structure of the slice.

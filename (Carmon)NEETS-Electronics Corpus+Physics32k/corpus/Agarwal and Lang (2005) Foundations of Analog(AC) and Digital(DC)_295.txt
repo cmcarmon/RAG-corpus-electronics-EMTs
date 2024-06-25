@@ -1,0 +1,8 @@
+For the circuit in Figure 2.25, there are four equations to solve for four
+unknown branch variables. In general, a circuit having B branches will have 2B
+unknown branch variables: B branch currents and B branch voltages. To find
+these variables, 2B independent equations are required, B of which will come
+from element laws, and B of which will come from the application of KVL and
+KCL. Moreover, if the circuit has N nodes, then N−1 equations will come from
+the application of KCL and B− N+ 1 equations will come from the application
+of KVL.

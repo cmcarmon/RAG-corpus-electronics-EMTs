@@ -1,0 +1,22 @@
+Another software-based FT technique is the node-covering
+(NC) method (Hanchek and Dutt, 1998). It has several distin-
+guishing features from other methods of this type. The NC
+method does not require the factory or the user to generate
+new routing maps to reconﬁgure around faulty cells or inter-
+connects, as is required by other techniques (Lach et al.,
+1998; McDonald et al., 1991; Narasimhan et al., 1994; Roy
+and Nag, 1995). Instead, the original conﬁguration data can
+be reused. This FT method involves a routing strategy that
+requires the use of additional interconnect segments at all
+branch points of the original (non-FT) circuit routing. On
+the other hand, no explicit additional tracks are needed in
+the channels to avoid the loss of connection ﬂexibility as
+explained by Hatori et al. (1993). Further, circuit electrical
+properties are minimally affected by these additional intercon-
+nect segments (called cover segments (CSs) or reserved seg-
+ments); reconﬁguration does not involve any rerouting and,
+hence, is very fast. CSs, however, cause some track overhead in
+the routing. This results in retaining total functionality with
+somewhat reduced routability or total routability with reduced
+functionality. We describe this method brieﬂy in the subse-
+quent paragraphs.

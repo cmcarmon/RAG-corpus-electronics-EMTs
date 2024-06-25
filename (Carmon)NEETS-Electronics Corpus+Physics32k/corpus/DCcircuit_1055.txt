@@ -1,0 +1,5 @@
+You may have noticed that the procedure for calculating Thevenin resistance is identical
+to the procedure for calculating Norton resistance: remove all power sources and determine
+resistance between the open load connection points. As such, Thevenin and Norton resistances
+for the same original network must be equal. Using the example circuits from the last two
+sections, we can see that the two resistances are indeed equal:

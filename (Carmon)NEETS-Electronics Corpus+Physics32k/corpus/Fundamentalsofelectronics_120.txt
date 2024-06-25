@@ -1,0 +1,8 @@
+resistor you can hold in your hand is not exactly an ideal 1 kΩ resistor. First of all, physical devices
+are manufactured to close tolerances (the tighter the tolerance, the more money you pay), but never have
+exactly their advertised values. The fourth band on resistors speciﬁes their tolerance; 10% is common. More
+pertinent to the current discussion is another deviation from the ideal: If a sinusoidal voltage is placed across
+a physical resistor, the current will not be exactly proportional to it as frequency becomes high, say above
+1 MHz. At very high frequencies, the way the resistor is constructed introduces inductance and capacitance
+eﬀects. Thus, the smart engineer must be aware of the frequency ranges over which his ideal models match
+reality well.

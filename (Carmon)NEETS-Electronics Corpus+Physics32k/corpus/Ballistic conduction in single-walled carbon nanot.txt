@@ -1,0 +1,59 @@
+CNT FETs with Schottky contacts are easier to fabricate than those with ohmic contacts. In these transistors, the gate voltage controls the thickness of the barrier, and the drain voltage can lower the barrier height at the drain electrode. Quantum tunneling of the electrons through the barrier should also be taken into account here. In order to understand the charge conduction in Schottky barrier CNT FETs, we need to study the band schemes under different bias conditions (Fig 2):
+the net current is a result of electrons tunneling from the source and holes tunneling from the drain
+ON-state: electrons tunneling from the source
+OFF-state: holes tunneling from the drain
+Thus, the Schottky barrier CNT FET is effectively an ambipolar transistor, since the ON electron current is opposed by an OFF hole current, which flows at values smaller than the critical gate voltage value.
+From the band diagrams, one can deduce the
+
+
+
+
+I
+
+d
+
+
+−
+
+V
+
+g
+
+
+
+
+{\displaystyle I_{d}-V_{g}}
+characteristics of the Schottky CNT FETs. Starting at the OFF state, there is hole current, which gradually decreases as the gate voltage is increased until it is opposed with equal strength by the electron current coming from the source. Above the critical gate voltage in the ON state, the electron current prevails and reaches a maximum at
+
+
+
+
+V
+
+g
+
+
+=
+
+V
+
+d
+
+
+
+
+{\displaystyle V_{g}=V_{d}}
+and the
+
+
+
+I
+−
+V
+
+
+{\displaystyle I-V}
+curve will roughly have a V-shape.
+
+
+== References ==

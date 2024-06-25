@@ -1,0 +1,25 @@
+Cavity-Based Devices
+Cavity-based optical logic devices are composed of two highly reﬂective
+mirrors  that  are  separated  by  a  distance  d  [Fig. 79.24(a)].  The  volume
+between the mirrors, referred to as the cavity of the etalon, is ﬁlled with
+a  nonlinear  material  possessing  an  index  of  refraction  that  varies  with
+intensity  according  to  nc  =  n0  +  n2  gc  where  n0  is  the  linear  index  of
+refraction, n2 is the nonlinear index of refraction, and gc is the intensity
+of light within the cavity. In the ideal case, the characteristic response of
+the reﬂectivity of a Fabry-Perot cavity, Rfp, is shown in Fig. 79.24(b). At
+low intensities, the cavity resonance peak is not coincident with the wave-
+length of the incident light; thus the reﬂectivity is high, which allows little
+of the incident light to be transmitted [solid curves in Fig. 79.24(b)]. As
+the intensity of the incident light g increases, so does the intercavity light
+intensity which shifts the resonance peak [dotted curve in Fig. 79.24(b)].
+This shift in the resonant peak increases the transmission which in turn
+reduces the reﬂectivity. This reduction in y will continue with increasing
+g until a minimum value is reached. It should be noted that in practice
+all systems of interest have both intensity-dependent absorption and n2.
+To  implement  a  two-input  NOR  gate  using  the  characteristic  curve
+shown in Fig. 79.24(c) requires a third input which is referred to as the
+bias beam, gb.This energy source biases the etalon at a point on its oper-
+ating curve such that any other input will exceed the nonlinear portion
+of  the  curve  moving  the  etalon  from  the  high  reﬂection  state.  This  is
+illustrated in Fig. 79.24(c) where the gb combines with the inputs g1 and
+g2 to exceed the threshold of the nonlinear characteristic curve.

@@ -1,0 +1,5 @@
+A modem never knows exactly when to expect data; therefore, it must be given some type of signal 
+warning that data is about to be transmitted. This gives the modem time to get itself aligned and in 
+synchronization with the incoming signal. Special characters, known as message characters, provide this 
+warning and are placed in front of and behind the data to mark the beginning and ending of the message. 
+Two methods are used: asynchronous and synchronous. 

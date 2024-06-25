@@ -1,0 +1,12 @@
+AT Attachment Packet Interface (ATAPI)
+The enhanced IDE standard functions as an interface for hard
+drives and PCs. It would be great, however, if other devices
+such as tape drives and CD-ROMs could be controlled through
+the same controller. The AT attachment packet
+interface
+(ATAPI) is an extension to EIDE that enables the interface to
+support CD-ROM players and tape drives. Using ATAPI-
+capable hardware and software drivers, mixing and matching
+different types of drives on the same EIDE controller, are
+possible which are both a convenience and savings in hardware
+costs.

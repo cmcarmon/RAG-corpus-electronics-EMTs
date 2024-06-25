@@ -1,0 +1,7 @@
+Example 13.5.  NMOS IV Curves: The structure generated in the previous SUPREM-IV simulation is now
+passed into the device simulator and bias voltages are applied to the gate and drain. Models were included with
+account for Auger and Shockley Reed Hall recombination, doping and electric ﬁeld-dependent mobility, and
+impact  ionization.  The  set  of  drain  characteristics  obtained  is  shown  in  Fig.  13.11.  Observe  how  the  curves
+bend upward at high Vds  as the device breaks down. The Vg, = 1 curve has a negative slope at Id = 1.5e-4A as
+the device enters snap-back. It is possible to model this type of behavior because impact ionization is included
+in the model.

@@ -1,0 +1,82 @@
+Although at first sight the Brownian ratchet seems to extract useful work from Brownian motion, Feynman demonstrated that if the entire device is at the same temperature, the ratchet will not rotate continuously in one direction but will move randomly back and forth, and therefore will not produce any useful work. The reason is that the pawl, since it is at the same temperature as the paddle, will also undergo Brownian motion, "bouncing" up and down. It therefore will intermittently fail by allowing a ratchet tooth to slip backward under the pawl while it is up. Another issue is that when the pawl rests on the sloping face of the tooth, the spring which returns the pawl exerts a sideways force on the tooth which tends to rotate the ratchet in a backwards direction. Feynman demonstrated that if the temperature
+
+
+
+
+T
+
+2
+
+
+
+
+{\displaystyle T_{2}}
+of the ratchet and pawl is the same as the temperature
+
+
+
+
+T
+
+1
+
+
+
+
+{\displaystyle T_{1}}
+of the paddle, then the failure rate must equal the rate at which the ratchet ratchets forward, so that no net motion results over long enough periods or in an ensemble averaged sense. A simple but rigorous proof that no net motion occurs no matter what shape the teeth are was given by Magnasco.
+If, on the other hand,
+
+
+
+
+T
+
+2
+
+
+
+
+{\displaystyle T_{2}}
+is smaller than
+
+
+
+
+T
+
+1
+
+
+
+
+{\displaystyle T_{1}}
+, the ratchet will indeed move forward, and produce useful work. In this case, though, the energy is extracted from the temperature gradient between the two thermal reservoirs, and some waste heat is exhausted into the lower temperature reservoir by the pawl. In other words, the device functions as a miniature heat engine, in compliance with the second law of thermodynamics. Conversely, if
+
+
+
+
+T
+
+2
+
+
+
+
+{\displaystyle T_{2}}
+is greater than
+
+
+
+
+T
+
+1
+
+
+
+
+{\displaystyle T_{1}}
+, the device will rotate in the opposite direction.
+The Feynman ratchet model led to the similar concept of Brownian motors, nanomachines which can extract useful work not from thermal noise but from chemical potentials and other microscopic nonequilibrium sources, in compliance with the laws of thermodynamics. Diodes are an electrical analog of the ratchet and pawl, and for the same reason cannot produce useful work by rectifying Johnson noise in a circuit at uniform temperature.
+Millonas  as well as Mahato  extended the same notion to correlation ratchets driven by mean-zero (unbiased) nonequilibrium noise with a nonvanishing correlation function of odd order greater than one.

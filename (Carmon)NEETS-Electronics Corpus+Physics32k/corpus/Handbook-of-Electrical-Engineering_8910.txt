@@ -1,0 +1,6 @@
+Main memory, or backing store, consists of banks of dense semiconductor memory. Since each memory chip
+has a small off-chip bandwidth, rows of these chips are placed together to form a bank, and multiple banks are
+used to increase the total bandwidth from main memory. When a bank is accessed, it remains busy for a period
+of time, during which the processor may make no other accesses to that bank. By increasing the number of
+interleaved (parallel) banks, the chance that the processor issues two conﬂicting requests to the same bank is
+reduced.

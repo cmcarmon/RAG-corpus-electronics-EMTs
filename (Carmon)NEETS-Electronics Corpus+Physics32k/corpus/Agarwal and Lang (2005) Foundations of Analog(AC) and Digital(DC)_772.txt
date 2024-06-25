@@ -1,0 +1,8 @@
+e x a m p l e 5.19 a d d i n g a p a i r o f t w o - b i t p o s i t i v e
+Suppose we wish to add a pair of two-bit positive numbers A : A1A0
+i n t e g e r s
+and B : B1B0. We will implement a two-bit adder using two techniques. The first method
+will write the truth table for the entire operation and implement it directly. The second
+method will first implement a one-bit adder using the truth table method, and then
+use the one-bit adder circuit to compose a two-bit adder. Let us denote the answer as
+S : S2S1S0.

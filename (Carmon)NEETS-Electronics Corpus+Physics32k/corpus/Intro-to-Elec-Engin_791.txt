@@ -1,0 +1,9 @@
+While the circuit of Figure 9.3.1(a) functions correctly as an inverter, in order to maintain
+low current consumption, large values of RD are needed, but they are undesirable in ICs because
+they occupy too much space. In order to increase the number of circuits per IC, RD is usually
+replaced by a second MOS transistor, which is known as an active load. When RD is replaced
+by an n-channel MOSFET, it results in the logic family known as NMOS, which is widely used
+in VLSI circuits such as memories and microprocessors. NMOS logic circuits are more compact
+and, as such, more of them can be put on each chip. Also, MOS fabrication is simpler than
+bipolar fabrication; with fewer defects, production costs are less. As mentioned before, the main
+disadvantage of MOS technology, as compared to TTL, is low output current capacity.

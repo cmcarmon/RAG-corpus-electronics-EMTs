@@ -1,0 +1,362 @@
+In the absence of motion, the stress tensors yield only hydrostatic pressure so that
+
+
+
+
+
+σ
+
+i
+j
+
+
+=
+−
+p
+I
+
+
+
+{\displaystyle \scriptstyle \sigma _{ij}=-pI}
+, regardless of fluid type or compressibility. Considering the normal and tangential equations,
+
+
+
+
+
+
+
+p
+¯
+
+
+
+−
+p
+=
+γ
+∇
+⋅
+
+
+
+n
+^
+
+
+
+
+
+{\displaystyle {\bar {p}}-p=\gamma \nabla \cdot \mathbf {\hat {n}} }
+
+
+
+
+
+0
+=
+∇
+γ
+⋅
+
+
+
+t
+^
+
+
+
+
+
+{\displaystyle 0=\nabla \gamma \cdot \mathbf {\hat {t}} }
+
+The first equation establishes that curvature forces are balanced by pressure forces. The second equation implies that a static interface cannot exist in the presence of nonzero surface tension gradient.
+If gravity is the only body force present, the Navier–Stokes equations simplify significantly:
+
+
+
+
+0
+=
+−
+∇
+p
++
+ρ
+
+g
+
+
+
+{\displaystyle 0=-\nabla p+\rho \mathbf {g} }
+
+If coordinates are chosen so that gravity is nonzero only in the
+
+
+
+z
+
+
+{\displaystyle z}
+direction, this equation degrades to a particularly simple form:
+
+
+
+
+
+
+
+d
+p
+
+
+d
+z
+
+
+
+=
+ρ
+g
+
+⇒
+
+p
+=
+ρ
+g
+z
++
+
+p
+
+0
+
+
+
+
+{\displaystyle {\frac {dp}{dz}}=\rho g\quad \Rightarrow \quad p=\rho gz+p_{0}}
+
+where
+
+
+
+
+p
+
+0
+
+
+
+
+{\displaystyle p_{0}}
+is an integration constant that represents some reference pressure at
+
+
+
+z
+=
+0
+
+
+{\displaystyle z=0}
+. Substituting this into the normal stress equation yields what is known as the Young-Laplace equation:
+
+
+
+
+
+
+
+ρ
+¯
+
+
+
+g
+z
++
+
+
+
+
+p
+¯
+
+
+
+
+0
+
+
+−
+(
+ρ
+g
+z
++
+
+p
+
+0
+
+
+)
+=
+γ
+∇
+⋅
+
+
+
+n
+^
+
+
+
+
+⇒
+
+Δ
+ρ
+g
+z
++
+Δ
+p
+=
+γ
+∇
+⋅
+
+
+
+n
+^
+
+
+
+
+
+{\displaystyle {\bar {\rho }}gz+{\bar {p}}_{0}-(\rho gz+p_{0})=\gamma \nabla \cdot \mathbf {\hat {n}} \quad \Rightarrow \quad \Delta \rho gz+\Delta p=\gamma \nabla \cdot \mathbf {\hat {n}} }
+
+where
+
+
+
+Δ
+p
+
+
+{\displaystyle \Delta p}
+is the (constant) pressure difference across the interface, and
+
+
+
+Δ
+ρ
+
+
+{\displaystyle \Delta \rho }
+is the difference in density. Note that, since this equation defines a surface,
+
+
+
+z
+
+
+{\displaystyle z}
+is the
+
+
+
+z
+
+
+{\displaystyle z}
+coordinate of the capillary surface. This nonlinear partial differential equation when supplied with the right boundary conditions will define the static interface.
+The pressure difference above is a constant, but its value will change if the
+
+
+
+z
+
+
+{\displaystyle z}
+coordinate is shifted. The linear solution to pressure implies that, unless the gravity term is absent, it is always possible to define the
+
+
+
+z
+
+
+{\displaystyle z}
+coordinate so that
+
+
+
+Δ
+p
+=
+0
+
+
+{\displaystyle \Delta p=0}
+. Nondimensionalized, the Young-Laplace equation is usually studied in the form
+
+
+
+
+κ
+z
++
+λ
+=
+∇
+⋅
+
+
+
+n
+^
+
+
+
+
+
+{\displaystyle \kappa z+\lambda =\nabla \cdot \mathbf {\hat {n}} }
+
+where (if gravity is in the negative
+
+
+
+z
+
+
+{\displaystyle z}
+direction)
+
+
+
+κ
+
+
+{\displaystyle \kappa }
+is positive if the denser fluid is "inside" the interface, negative if it is "outside", and zero if there is no gravity or if there is no difference in density between the fluids.
+This nonlinear equation has some rich properties, especially in terms of existence of unique solutions. For example, the nonexistence of solution to some boundary value problem implies that, physically, the problem can't be static. If a solution does exist, normally it'll exist for very specific values of
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+, which is representative of the pressure jump across the interface. This is interesting because there isn't another physical equation to determine the pressure difference. In a capillary tube, for example, implementing the contact angle boundary condition will yield a unique solution for exactly one value of
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+. Solutions often aren't unique, this implies that there are multiple static interfaces possible; while they may all solve the same boundary value problem, the minimization of energy will normally favor one. Different solutions are called configurations of the interface.

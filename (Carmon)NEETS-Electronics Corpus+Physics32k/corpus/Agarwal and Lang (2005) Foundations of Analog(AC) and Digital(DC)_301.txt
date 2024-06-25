@@ -1,0 +1,7 @@
+Before moving on to more complex circuits, it is worthwhile to analyze the
+circuit in Figure 2.25 in a more intuitive and efficient manner. Here, the element
+law for the current source directly states that i1 = −I. Next, the application
+of KCL to either node reveals that i2 = −i1 = I. In other words, the current
+from the source flows entirely through the resistor. Next, from the element law
+for the resistor, it follows that v2 = Ri2 = RI. Finally the application of KVL
+to the one loop yields v1 = v2 = RI to complete the analysis.

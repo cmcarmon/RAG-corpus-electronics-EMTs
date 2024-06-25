@@ -1,0 +1,8 @@
+So far we have considered the control of one joint of the robot while the other joints are ﬁxed. Implementation
+of this control by successively positioning each joint while the other joints are ﬁxed slows the robot operation
+and can also result in awkward hand motions, which is undesirable especially when the robot is supposed to
+follow a continuous path. Simultaneous fast motion of the joints, on the other hand, requires the inclusion of
+dynamic interactions between the joints. The controllers designed without considering these dynamic interac-
+tions tend to make the arm move slower and can potentially cause overshoots, oscillations, and path errors. To
+estimate  the  dynamic  effects,  one  needs  to  obtain  the  equations  of  motion  (dynamic  models)  of  the  robot.
+These equations are, in general, complex and take the form of coupled nonlinear differential equations.

@@ -1,0 +1,9 @@
+The f (m,n) variable represents the current block of N 2 pixels at
+coordinates (m, n), and g(m þ i, n þ j) represents the corres-
+ponding block in the previous frame at new coordinates
+(m þ i, n þ j). Motion estimation is one of the most compu-
+tationally intensive parts of video compression standards, and
+some fast algorithms for this have been reported. One such
+algorithm is three-step Search, which is the recommended
+method for H.261 codecs (to be explained subsequently). It
+computes motion displacements up to 6 pixels per frame. In

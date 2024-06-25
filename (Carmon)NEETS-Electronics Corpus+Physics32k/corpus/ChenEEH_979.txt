@@ -1,0 +1,10 @@
+Step 8. The actual clock delays to the individual registers are
+calculated by traversing the spanning tree (basis) of
+the circuit graph. The clock delay of the ﬁrst register is
+arbitrarily chosen (zero in this implementation). As
+the spanning tree is traversed, additional vertices ad-
+jacent to the current vertex are visited. The clock delay
+of the visited vertex is determined trivially because
+both the clock delay of the current vertex and the
+clock skew of the edge between the current and visited
+vertex are known.

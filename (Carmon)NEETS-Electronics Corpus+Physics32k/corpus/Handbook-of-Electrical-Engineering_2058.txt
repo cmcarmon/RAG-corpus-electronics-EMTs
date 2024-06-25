@@ -1,0 +1,8 @@
+The principle of the feedforward control method in ANC is outlined in the lower half of Fig. 19.6(c) and
+(d). The obvious difference to the feedback control method is that the separate reference signal x(t) is used.
+Here, cancellation is achieved for the ﬁlter transfer function W = H(s)/C(s) which is most often implemented
+by an adaptive ﬁlter. The fact that x(t) reaches the ANC system earlier than e(t) allows for a causal ﬁlter, needed
+in  broadband  systems.  However,  a  potential  problem  with  this  method  is  the  possibility  of  feedback  of  the
+secondary source signal $y(t) into the path of the reference signal x(t). This is obviously the case when x(t) is
+picked up by a microphone in a duct just upstream of the secondary source C. An elegant solution for ANC
+in a duct without explicit feedback cancellation is to use a recursive ﬁlter W.

@@ -1,0 +1,7 @@
+protocol data units
+(PDUs)
+, which contain all of the information required for the receiving protocol entity to provide the required
+service. In order to exchange PDUs, entities at a given layer use the services of the next lower layer. The data
+link primitives listed above include both connection-mode primitives and connectionless-mode primitives. For
+connection-mode  communications,  a  connection  must  be  established  between  two  peer  entities  before  they
+can exchange PDUs.

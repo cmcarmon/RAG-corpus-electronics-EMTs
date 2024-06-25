@@ -1,0 +1,531 @@
+Click here for a brief section summaryNote: To avoid navigation issues with the internal wikilinks, mobile phone users should pre-expand all sections from Section Summaries back to the Introduction.
+In three-dimensions, the distance
+
+
+
+Δ
+
+d
+
+
+
+{\displaystyle \Delta {d}}
+between two points can be defined using the Pythagorean theorem:
+
+
+
+
+
+
+
+(
+
+Δ
+
+d
+
+
+)
+
+
+
+2
+
+
+=
+
+
+
+(
+
+Δ
+
+x
+
+
+)
+
+
+
+2
+
+
++
+
+
+
+(
+
+Δ
+
+y
+
+
+)
+
+
+
+2
+
+
++
+
+
+
+(
+
+Δ
+
+z
+
+
+)
+
+
+
+2
+
+
+
+
+{\displaystyle {\left(\Delta {d}\right)}^{2}={\left(\Delta {x}\right)}^{2}+{\left(\Delta {y}\right)}^{2}+{\left(\Delta {z}\right)}^{2}}
+
+Although two viewers may measure the x,y, and z position of the two points using different coordinate systems, the distance between the points will be the same for both (assuming that they are measuring using the same units). The distance is "invariant".
+In special relativity, however, the distance between two points is no longer the same if measured by two different observers when one of the observers is moving, because of the Lorentz contraction. The situation is even more complicated if the two points are separated in time as well as in space. For example, if one observer sees two events occur at the same place, but at different times, a person moving with respect to the first observer will see the two events occurring at different places, because (from their point of view) they are stationary, and the position of the event is receding or approaching. Thus, a different measure must be used to measure the effective "distance" between two events.
+In four-dimensional spacetime, the analog to distance is the interval. Although time comes in as a fourth dimension, it is treated differently than the spatial dimensions. Minkowski space hence differs in important respects from four-dimensional Euclidean space. The fundamental reason for merging space and time into spacetime is that space and time are separately not invariant, which is to say that, under the proper conditions, different observers will disagree on the length of time between two events (because of time dilation) or the distance between the two events (because of length contraction). But special relativity provides a new invariant, called the spacetime interval, which combines distances in space and in time. All observers who measure time and distance carefully will find the same spacetime interval between any two events. Suppose an observer measures two events as being separated in time by
+
+
+
+Δ
+t
+
+
+{\displaystyle \Delta t}
+and a spatial distance
+
+
+
+Δ
+x
+
+
+{\displaystyle \Delta x}
+. Then the spacetime interval
+
+
+
+
+
+
+(
+
+Δ
+
+s
+
+
+)
+
+
+
+2
+
+
+
+
+{\displaystyle {\left(\Delta {s}\right)}^{2}}
+between the two events that are separated by a distance
+
+
+
+Δ
+
+x
+
+
+
+{\displaystyle \Delta {x}}
+in space and by
+
+
+
+Δ
+
+c
+t
+
+=
+c
+Δ
+t
+
+
+{\displaystyle \Delta {ct}=c\Delta t}
+in the
+
+
+
+c
+t
+
+
+{\displaystyle ct}
+-coordinate is:
+
+
+
+
+(
+Δ
+s
+
+)
+
+2
+
+
+=
+(
+Δ
+c
+t
+
+)
+
+2
+
+
+−
+(
+Δ
+x
+
+)
+
+2
+
+
+
+
+{\displaystyle (\Delta s)^{2}=(\Delta ct)^{2}-(\Delta x)^{2}}
+, or for three space dimensions,
+
+
+
+(
+Δ
+s
+
+)
+
+2
+
+
+=
+(
+Δ
+c
+t
+
+)
+
+2
+
+
+−
+(
+Δ
+x
+
+)
+
+2
+
+
+−
+(
+Δ
+y
+
+)
+
+2
+
+
+−
+(
+Δ
+z
+
+)
+
+2
+
+
+
+
+{\displaystyle (\Delta s)^{2}=(\Delta ct)^{2}-(\Delta x)^{2}-(\Delta y)^{2}-(\Delta z)^{2}}
+
+The constant
+
+
+
+
+
+c
+
+
+
+
+{\displaystyle {\textrm {c}}}
+, the speed of light, converts the units used to measure time (seconds) into units used to measure distance (meters).
+Note on nomenclature: Although for brevity, one frequently sees interval expressions expressed without deltas, including in most of the following discussion, it should be understood that in general,
+
+
+
+x
+
+
+{\displaystyle x}
+means
+
+
+
+Δ
+
+x
+
+
+
+{\displaystyle \Delta {x}}
+, etc. We are always concerned with differences of spatial or temporal coordinate values belonging to two events, and since there is no preferred origin, single coordinate values have no essential meaning.
+
+The equation above is similar to the Pythagorean theorem, except with a minus sign between the
+
+
+
+(
+
+
+c
+
+
+
+t
+
+)
+
+2
+
+
+
+
+{\displaystyle ({\textrm {c}}\,t)^{2}}
+and the
+
+
+
+
+x
+
+2
+
+
+
+
+{\displaystyle x^{2}}
+terms. Note also that the spacetime interval is the quantity
+
+
+
+
+s
+
+2
+
+
+
+
+{\displaystyle s^{2}}
+, not
+
+
+
+s
+
+
+{\displaystyle s}
+itself. The reason is that unlike distances in Euclidean geometry, intervals in Minkowski spacetime can be negative. Rather than deal with square roots of negative numbers, physicists customarily regard
+
+
+
+
+s
+
+2
+
+
+
+
+{\displaystyle s^{2}}
+as a distinct symbol in itself, rather than the square of something.
+Because of the minus sign, the spacetime interval between two distinct events can be zero. If
+
+
+
+
+s
+
+2
+
+
+
+
+{\displaystyle s^{2}}
+is positive, the spacetime interval is timelike, meaning that two events are separated by more time than space. If
+
+
+
+
+s
+
+2
+
+
+
+
+{\displaystyle s^{2}}
+is negative, the spacetime interval is spacelike, meaning that two events are separated by more space than time. Spacetime intervals are zero when
+
+
+
+x
+=
+±
+
+
+c
+
+
+
+t
+
+
+{\displaystyle x=\pm {\textrm {c}}\,t}
+. In other words, the spacetime interval between two events on the world line of something moving at the speed of light is zero. Such an interval is termed lightlike or null. A photon arriving in our eye from a distant star will not have aged, despite having (from our perspective) spent years in its passage.
+A spacetime diagram is typically drawn with only a single space and a single time coordinate. Fig. 2‑1 presents a spacetime diagram illustrating the world lines (i.e. paths in spacetime) of two photons, A and B, originating from the same event and going in opposite directions. In addition, C illustrates the world line of a slower-than-light-speed object. The vertical time coordinate is scaled by
+
+
+
+
+
+c
+
+
+
+
+{\displaystyle {\textrm {c}}}
+so that it has the same units (meters) as the horizontal space coordinate. Since photons travel at the speed of light, their world lines have a slope of ±1. In other words, every meter that a photon travels to the left or right requires approximately 3.3 nanoseconds of time.
+Note on nomenclature: There are two sign conventions in use in the relativity literature:
+
+
+
+
+
+s
+
+2
+
+
+=
+(
+
+
+c
+
+
+t
+
+)
+
+2
+
+
+−
+
+x
+
+2
+
+
+−
+
+y
+
+2
+
+
+−
+
+z
+
+2
+
+
+
+
+{\displaystyle s^{2}=({\textrm {c}}t)^{2}-x^{2}-y^{2}-z^{2}}
+
+and
+
+
+
+
+
+s
+
+2
+
+
+=
+−
+(
+
+
+c
+
+
+t
+
+)
+
+2
+
+
++
+
+x
+
+2
+
+
++
+
+y
+
+2
+
+
++
+
+z
+
+2
+
+
+
+
+{\displaystyle s^{2}=-({\textrm {c}}t)^{2}+x^{2}+y^{2}+z^{2}}
+
+These sign conventions are associated with the metric signatures (+ − − −) and (− + + +). A minor variation is to place the time coordinate last rather than first. Both conventions are widely used within the field of study.
+Return to Introduction

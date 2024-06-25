@@ -1,0 +1,17 @@
+The key advantage of directory schemes is the ability to
+restrict coherency communications to only those absolutely
+necessary. There is clearly a trade-off between communication
+overhead and directory size and complexity. One possibility
+for exploring the trade-off is to use limited directory schemes
+(Stenstrom, 1990). In such a scheme, a limit is placed on the
+number of directory entries pointing to a particular block.
+The protocol either does not allow more than this number
+of cache copies of a single line or starts to use broadcasting
+after this limit has been reached. Another possibility is to use
+a linked-list style structure in which each cache line points
+to the next cache to contain a copy of that line. These are
+known as chained directory schemes, one example being the
+scalable coherent interface (SFI) as described by IEEE (1989).
+This approach slows down the coherency communications
+because they may have to go through several stages of cache
+controller.

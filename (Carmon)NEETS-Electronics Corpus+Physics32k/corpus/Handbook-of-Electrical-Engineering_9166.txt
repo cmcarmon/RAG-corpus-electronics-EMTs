@@ -1,0 +1,7 @@
+The IFDHandler allows access to the smart card reader. It is the driver level and the hardware manufacturer
+that will normally provide it. PC/SC deﬁnes the interfaces that the IFDHandler must expose to take place in
+the structure. The IFDHandler is the implementation of the functionality required by the exposed functions
+to transmit commands to the reader and/or the card. The IFDHandler maps the native capabilities of the smart
+card reader to the IFDHandler interface. All distinctions between smart cards based on ISO protocol handling,
+whether  synchronous  or  asynchronous,  are  hidden.  Once  installed,  the  IFDhandler  registers  itself  to  the
+Resource Manager.

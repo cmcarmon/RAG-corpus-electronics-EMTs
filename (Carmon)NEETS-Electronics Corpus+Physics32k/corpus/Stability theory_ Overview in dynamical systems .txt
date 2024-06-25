@@ -1,0 +1,205 @@
+Many parts of the qualitative theory of differential equations and dynamical systems deal with asymptotic properties of solutions and the trajectories—what happens with the system after a long period of time. The simplest kind of behavior is exhibited by equilibrium points, or fixed points, and by periodic orbits. If a particular orbit is well understood, it is natural to ask next whether a small change in the initial condition will lead to similar behavior. Stability theory addresses the following questions: Will a nearby orbit indefinitely stay close to a given orbit? Will it converge to the given orbit? (The latter is a stronger property.) In the former case, the orbit is called stable; in the latter case, it is called asymptotically stable and the given orbit is said to be attracting.
+An equilibrium solution
+
+
+
+
+f
+
+e
+
+
+
+
+{\displaystyle f_{e}}
+to an autonomous system of first order ordinary differential equations is called:
+stable if for every (small)
+
+
+
+ϵ
+>
+0
+
+
+{\displaystyle \epsilon >0}
+, there exists a
+
+
+
+δ
+>
+0
+
+
+{\displaystyle \delta >0}
+such that every solution
+
+
+
+f
+(
+t
+)
+
+
+{\displaystyle f(t)}
+having initial conditions within distance
+
+
+
+δ
+
+
+{\displaystyle \delta }
+i.e.
+
+
+
+‖
+f
+(
+
+t
+
+0
+
+
+)
+−
+
+f
+
+e
+
+
+‖
+<
+δ
+
+
+{\displaystyle \|f(t_{0})-f_{e}\|<\delta }
+of the equilibrium remains within distance
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+i.e.
+
+
+
+‖
+f
+(
+t
+)
+−
+
+f
+
+e
+
+
+‖
+<
+ϵ
+
+
+{\displaystyle \|f(t)-f_{e}\|<\epsilon }
+for all
+
+
+
+t
+≥
+
+t
+
+0
+
+
+
+
+{\displaystyle t\geq t_{0}}
+.
+asymptotically stable if it is stable and, in addition, there exists
+
+
+
+
+δ
+
+0
+
+
+>
+0
+
+
+{\displaystyle \delta _{0}>0}
+such that whenever
+
+
+
+
+δ
+
+0
+
+
+>
+‖
+f
+(
+
+t
+
+0
+
+
+)
+−
+
+f
+
+e
+
+
+‖
+
+
+{\displaystyle \delta _{0}>\|f(t_{0})-f_{e}\|}
+then
+
+
+
+f
+(
+t
+)
+→
+
+f
+
+e
+
+
+
+
+{\displaystyle f(t)\rightarrow f_{e}}
+as
+
+
+
+t
+→
+∞
+
+
+{\displaystyle t\rightarrow \infty }
+.
+Stability means that the trajectories do not change too much under small perturbations. The opposite situation, where a nearby orbit is getting repelled from the given orbit, is also of interest. In general, perturbing the initial state in some directions results in the trajectory asymptotically approaching the given one and in other directions to the trajectory getting away from it. There may also be directions for which the behavior of the perturbed orbit is more complicated (neither converging nor escaping completely), and then stability theory does not give sufficient information about the dynamics.
+One of the key ideas in stability theory is that the qualitative behavior of an orbit under perturbations can be analyzed using the linearization of the system near the orbit. In particular, at each equilibrium of a smooth dynamical system with an n-dimensional phase space, there is a certain n×n matrix A whose eigenvalues characterize the behavior of the nearby points (Hartman–Grobman theorem). More precisely, if all eigenvalues are negative real numbers or complex numbers with negative real parts then the point is a stable attracting fixed point, and the nearby points converge to it at an exponential rate, cf Lyapunov stability and exponential stability. If none of the eigenvalues are purely imaginary (or zero) then the attracting and repelling directions are related to the eigenspaces of the matrix A with eigenvalues whose real part is negative and, respectively, positive. Analogous statements are known for perturbations of more complicated orbits.

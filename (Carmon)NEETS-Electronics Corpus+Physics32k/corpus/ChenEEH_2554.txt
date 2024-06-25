@@ -1,0 +1,10 @@
+The requirements for power dividing on the component
+design may be quite different from power combining even
+though the same component may posses both functions. This
+is because only a single input signal is concerned in the divider
+while two signals are simultaneously injected at the parallel-
+ports of the combiner, and these signals are not necessarily
+equal in magnitude and in phase. This may cause a serious
+problem of power or signal unbalance in the combiner junc-
+tion. The added resistor, however, ensures that the two output/
+input ports are electrically isolated.

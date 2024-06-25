@@ -1,0 +1,5 @@
+CrossCheck  methodology  provides  a  high  degree  of  observability  of  the  ASIC.  Since  it  is  not  possible  to
+provide  observability  of  all  signals  of  a  design,  careful  analysis  must  be  performed  to  determine  the  most
+effective points for inserting the cross-point switches. Similarly, the size of the grid structure for the probe lines
+might be chosen to be design-dependent. However, in many instances it may be better to implement the probe
+lines as part of the IC master slice in order to reduce the amount of customization to a minimum.

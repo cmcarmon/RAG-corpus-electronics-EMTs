@@ -1,0 +1,8 @@
+The key idea in BSP is to decouple communication from
+synchronization in the programming model. A parallel system
+is described as a collection of processors, each with its own
+local memory, and the processors are connected by a commu-
+nication network capable of efﬁcient barrier synchronization.
+A barrier is a method to separate two phases of a computation
+to ensure that messages generated in the two phases are not
+mixed together.

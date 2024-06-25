@@ -1,0 +1,23 @@
+Even though RISC hardware designs have increased performance in essence by reducing the complexity and
+richness  of  the  assembly  language,  back  at  the  ranch  the  unrepentant  assembly  language  programmer  still
+desired complex features. Some of these features were included in the assembly languages not as native machine
+instructions but essentially as a high-level extension to assembly language. A universal extension is the inclusion
+of macros. In some sense, a macro looks like a subroutine, but instead of a call to a distant block of code, the
+macro results in an inline insertion of a predeﬁned block of code. Formally, a macro is a name which identiﬁes
+a particular sequence of assembly instructions. Then, wherever the name of the macro appears in the text, it
+is replaced by the lines of code in the macro deﬁnition. In some sense, macros make assembly language a little
+more like a HLL. It makes code more readable, makes code maintenance a little faster and more reliable (ﬁx
+the macro deﬁnition and you ﬁx all of the invocations of the macro), and it speeds up the programmer’s work.
+Another extension to some assembly languages is extended mnemonics. Here the coder places a mnemonic
+in  place  of  speciﬁc  assembly  language  instructions;  during  code  assembly  the  mnemonic  is  automatically
+translated  to  an  optimal  and  correct  instruction  or  instruction  sequence.  These  free  the  coder  from  the
+management of low-level details, leaving the task to a program where it is better suited. Examples of extended
+mnemonics include get and put, which generate memory transfers by selecting the addressing mode as well as
+the speciﬁc instructions based on the operand locations. An increasingly common feature of assembly languages
+is  the  inclusion  of  structured  control  statements  which  emulate  high-level  language  control-ﬂow  constructs
+such  as:  if  ..  then  ..  else,  for  loops,  while  ..  do  loops,  repeat  ..  until  loops,
+break, and next. These features remove the tedium from the programmer’s task, allow for a more readable
+code, and reduce the cost of code development. An amusing set of examples are found in the assemblers that
+we have used on the SPARC. Architecture not withstanding, the assembly programmers wanted VAX assembly
+code! In spite of the absence of such constructs in the SPARC architecture, you ﬁnd expressions such as CMP
+(compare) and MOV. Since these are easily translated to single lines of real SPARC code, their only raison d’etre

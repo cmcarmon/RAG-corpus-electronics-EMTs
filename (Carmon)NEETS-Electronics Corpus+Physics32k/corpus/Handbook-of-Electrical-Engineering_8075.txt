@@ -1,0 +1,8 @@
+Figure 82.8 shows a four-dimensional hypercube represented as a tesser-
+act. A four-dimensional hypercube has 16 processors, each is connected to
+4  other  processors,  and  the  longest  path  between  any  two  processors
+(shown in bold in Fig. 82.8) is 4. Thus, doubling the number of processors
+results  in  a  unit  increase  in  the  communications  path  length.  This  loga-
+rithmic relationship results in the great advantage of the hypercube: it scales
+well. A system with 1024 processors has a maximum communications path
+length of just 10.

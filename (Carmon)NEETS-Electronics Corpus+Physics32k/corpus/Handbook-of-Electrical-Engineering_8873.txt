@@ -1,0 +1,7 @@
+consistency
+The cache exploits spatial locality by loading an entire cache line after a miss. This tends to result in bursty
+trafﬁc to the main memory, since most accesses are ﬁltered out by the cache. After a miss, however, the memory
+system must provide an entire line at once. Cache memory nicely complements an interleaved, high-bandwidth
+main  memory  (described  in  the  next  section),  since  a  cache  line  can  be  interleaved  across  many  banks  in  a
+regular manner, thus avoiding memory conﬂicts, and thus can be loaded rapidly into the cache. The example
+main memory shown in Fig. 88.3 can provide an entire cache line with two parallel memory accesses.

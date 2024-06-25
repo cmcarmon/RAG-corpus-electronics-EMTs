@@ -1,0 +1,32 @@
+The advantages of one sided flux distributions are twofold:
+The field is twice as large on the side on which the flux is confined (in the idealized case).
+There is no stray field produced (in the ideal case) on the opposite side. This helps with field confinement, usually a problem in the design of magnetic structures.
+Although one-sided flux distributions may seem somewhat abstract, they have a surprising number of applications ranging from the refrigerator magnet through industrial applications such as the brushless AC motor, voice coils, magnetic drug targeting  to high-tech applications such as wiggler magnets which are used in Particle accelerators and Free-electron lasers.
+This device is also a key component of the Inductrack Maglev train and Inductrack rocket launch system.  Wherein the Halbach array repels loops of wire that form the track after the train has been accelerated to a speed able to lift.
+
+The simplest example of a one sided flux magnet is a refrigerator magnet. These are usually composed of powdered ferrite in a binder such as plastic or rubber. The extruded magnet is exposed to a rotating field giving the ferrite particles in the magnetic compound a magnetization resulting in a one-sided flux distribution. This distribution increases the holding force of the magnet when placed on a permeable surface, compared to the holding force from, say, a uniform magnetization of the magnetic compound.
+
+Scaling up this design and adding a top sheet gives a wiggler magnet, used in Synchrotrons and free electron lasers. Wiggler magnets wiggle or oscillate an electron beam perpendicular to the magnetic field. As the electrons are undergoing acceleration they radiate electromagnetic energy in their flight direction, and as they interact with the light already emitted, photons along its line are emitted in phase, resulting in a "laser-like" monochromatic and coherent beam.
+The design shown above is usually known as a Halbach wiggler. The magnetization vectors in the magnetized sheets rotate in the opposite senses to each other; above, the top sheet's magnetization vector rotates clockwise and the bottom sheet's magnetization vector rotates counter-clockwise. This design is chosen so that the x-components of the magnetic fields from the sheets cancel and the y-components reinforce so that the field is given by
+
+
+
+
+
+H
+
+y
+
+
+≈
+cos
+⁡
+(
+k
+x
+)
+
+
+{\displaystyle H_{y}\approx \cos(kx)}
+
+where k is the wavenumber of the magnetic sheet given by the spacing between magnetic blocks with the same magnetization vector.

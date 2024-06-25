@@ -1,0 +1,6 @@
+Linear-Quadratic-Gaussian (LQG) Control
+It can be shown that the Kalman ﬁlter is the optimal estimator for the state of system Eq. (100.156) or (100.164)
+in the sense that it minimizes the squared error due to the noise input terms. Therefore, it becomes a likely candidate
+for  combination  with  the  LQR  of  the  previous  section.  Together,  the  combination  of  LQR  and  Kalman  ﬁlter  is
+known  as  the  LQG  (linear-quadratic-Gaussian)  controller,  and  is  a  useful  controller  in  many  situations.  This
+controller is optimal in the sense that it minimizes the expected root-mean-square value of the optimization criterion

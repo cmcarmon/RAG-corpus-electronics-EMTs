@@ -1,0 +1,12 @@
+The  state  of  the  LFSR  is  denoted  by  the  binary  state  of  its  cells.  In  Fig. 85.6,  the  next  state  of  each  cell  is
+ =
+determined by the implementation given by its polynomial and can be summarized as follows: 
+s
+ at each clock cycle. If the LFSR is initialized in a
+i
+0
+nonzero state, it cycles through a sequence of states and eventually comes back to the initial state, following
+the functionality of the next-state rules implemented by its polynomial description. An LFSR that goes through
+primitive polynomial (see theory of Galois ﬁelds
+all possible 2
+for the deﬁnition of primitive), and such polynomials can be found from tables [Bardell et al., 1987].

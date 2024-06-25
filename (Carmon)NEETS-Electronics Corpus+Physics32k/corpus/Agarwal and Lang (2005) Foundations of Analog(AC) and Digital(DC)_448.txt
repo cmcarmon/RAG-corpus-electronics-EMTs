@@ -1,0 +1,16 @@
+(3.28)
+where ¯e is a column vector of unknown voltages and ¯s is the column vector of
+known source amplitudes. ¯G is called the conductance matrix and ¯S is called
+the source matrix for reasons that will be apparent shortly. In Equation 3.22,
+written at the e1 node, we note from Figure 3.12 that the coefficient of the e1
+term (the first term in the first row of the ¯G matrix) is the sum of the conduc-
+tances connected to the e1 node. Similarly in Equation 3.23, the coefficient of
+the e2 term (the second term in the second row of the ¯G matrix) is the sum
+of the conductances connected to the e2 node. (These terms are often called
+the ‘‘self ’’ conductances.) The off-diagonal coefficients represent conductances
+connected between the corresponding nodes, the ‘‘mutual’’ conductances. In
+Equation 3.22, for example, the coefficient of the e2 term (the second term in
+the first row of the ¯G matrix) is the mutual conductance between the e1 node
+(because this is the e1 equation) and e2. For linear resistive circuits, the off-
+diagonal terms are negative, assuming that the equations have been structured
+to make the main-diagonal terms positive.

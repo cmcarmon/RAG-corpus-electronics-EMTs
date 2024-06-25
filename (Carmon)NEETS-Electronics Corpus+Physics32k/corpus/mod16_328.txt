@@ -1,0 +1,6 @@
+The meter coil has a 0.01 volt drop across it, and, because the shunt and coil are in parallel, the shunt
+also has a voltage drop of 0.01 volt. The current that flows through the shunt is the difference between the
+full-scale meter current and the line current being fed into the shunt. In this case, meter current is 100
+microamperes. Full-scale deflection is desired only when the total current is 1 ampere. Therefore, the
+shunt current must equal 1 ampere minus 100 microamperes, or 0.9999 ampere. Ohm's law is again used
+to provide the approximate value of required shunt resistance (Rshunt), as follows:

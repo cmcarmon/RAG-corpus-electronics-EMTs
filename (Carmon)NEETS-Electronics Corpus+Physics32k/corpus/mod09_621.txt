@@ -1,0 +1,13 @@
+At the first instant of time, 100 volts is applied to the medium time-constant circuit. In this circuit, 
+1TC is exactly equal to the duration of the input pulse. After 1TC the capacitor has charged to 63.2 
+percent of the input voltage (100 volts). Therefore, at the end of 1TC (100 microseconds), the voltage 
+across the capacitor is equal to 63.2 volts. However, as soon as 100 microseconds has elapsed, and the 
+initial charge on the capacitor has risen to 63.2 volts, the input voltage suddenly drops to 0. It remains 
+there for 100 microseconds. The capacitor will now discharge for 100 microseconds. Since the discharge 
+time is 100 microseconds (1TC), the capacitor will discharge 63.2 percent of its total 63.2-volt charge, a 
+value of 23.3 volts. During the next 100 microseconds, the input voltage will increase from 0 to 100 volts 
+instantaneously. The capacitor will again charge for 100 microseconds (1TC). The voltage available for 
+this charge is the difference between the voltage applied and the charge on the capacitor (100 - 23.3 
+volts), or 76.7 volts. Since the capacitor will only be able to charge for 1TC, it will charge to 63.2 percent 
+of the 76.7 volts, or 48.4 volts. The total charge on the capacitor at the end of 300 microseconds will be 
+23.3 + 48.4 volts, or 71.7 volts. 

@@ -1,0 +1,21 @@
+Other  synchronous  machine  models,  besides  that  given  in  Table  66.3,  are  used  in  power  system  analysis.
+Typically, when the network is large and the phenomenon of interest is somewhat localized in nature, machines
+further away from the action can be represented by simpler models to save computation time. On the other
+hand, certain phenomena may require an even more sophisticated model than that given in Table 66.3. Canay
+[1993] described reﬁnements in both the rotor circuit representation and the method of parameter determi-
+nation to obtain a closer ﬁt of the rotor variables. For studying shaft torsion, the damper circuit representation
+should  not  be  ignored.  In  transient  stability  studies,  machines  beyond  the  ﬁrst  two  neighborhoods  of  the
+disturbance can be represented by progressively simpler models with distance from the disturbance. Ignoring
+just the pψ
+e in the stator equations will yield a so-called subtransient
+model of two orders less than the above given model. Further simpliﬁcation by setting pψ′
+kd to zero
+or omitting the damper winding equations will yield a so-called transient model of another two orders less.
+Finally, setting pψ ′
+f  to zero and holding ﬁeld ﬂux linkage constant yields the constant ﬁeld ﬂux linkage model.
+Signiﬁcant savings in computing time can also be made by neglecting the subtransient and transient saliency
+of the machine. When rotor saliency is ignored, the effective stator impedances along the rotor’s qr and dr axes
+are equal. In other words, the stator impedance in the synchronously rotating reference frame of the network
+will not be a function of rotor angle. Because its value need not be updated with the rotor angle at each time
+step of the dynamic simulation, the constant stator impedance of this model can be absorbed into the network’s
+admittance or impedance representation.

@@ -1,0 +1,7 @@
+Perhaps the most common use of declarative languages is for construction of expert systems [Smith, 1988].
+These  kinds  of  applications  are  typically  diagnostic.  That  is,  they  derive  a  conclusion  based  on  assertions  of
+fact. An electrical circuit board might be diagnosed with an expert system that takes symptoms of the ailing
+board as its input and derives a conclusion based on rules of electronic circuits—human rules of thumb given
+it by an experienced technician—and declarative reasoning. In this example, the rules are constraints expressed
+as declarations. The expert system program may derive more than one solution to the problem because many
+solutions may ﬁt the constraints.

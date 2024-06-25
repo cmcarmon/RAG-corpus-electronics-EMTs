@@ -1,0 +1,6 @@
+In a rule-based system, the inference engine usually goes
+through a simple recognize-assert cycle. The control scheme
+is called forward chaining for data-driven reasoning, and back-
+ward chaining for goal-driven reasoning. The basic idea of
+forward chaining is when the premises of a rule (the if por-
+tion) are satisﬁed by the data, the expert system asserts the

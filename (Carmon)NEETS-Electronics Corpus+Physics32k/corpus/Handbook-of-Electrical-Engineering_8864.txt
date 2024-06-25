@@ -1,0 +1,6 @@
+The cache often comprises two conventional memories: the data memory and the tag memory, shown in
+Fig. 88.3. The address of each cache line contained in the data memory is stored in the tag memory, as well as
+  information),  particularly  the  fact  that  a  valid  cache  line  is  present.  The  state  also
+other  information  (
+keeps track of which cache lines the processor has modiﬁed. Each line contained in the data memory is allocated
+a corresponding entry in the tag memory to indicate the full address of the cache line.

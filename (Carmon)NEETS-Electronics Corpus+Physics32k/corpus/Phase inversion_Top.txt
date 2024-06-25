@@ -1,0 +1,90 @@
+Phase inversion is the swapping of the two poles of an alternating current source. A phase inversion is neither a time shift nor a phase shift, but simply a swap of plus and minus.
+For example, in a push–pull power amplifier using vacuum tubes, the signal is most often split by a phase splitter (aka phase inverter) stage which produces two signals, one in phase, and the other out of phase, that is, phase inverted. These two complementary signals then drive the two halves of the first push–pull stage, which may be either the output stage or the driver stage. The other common arrangements for driving a push-pull stage are by using an isolation transformer to produce the split signals, or by using the in-phase half of the first push-pull stage to drive the other half. A common circuit using this last technique is the long-tailed pair, often seen in television sets and oscilloscopes.
+
+In solid-state electronics all of these techniques can be used, and phase inversion can also be produced by the use of NPN/PNP complementary circuitry, which has no corresponding technique in vacuum tube designs.
+Phase inversion may occur with a random or periodic, symmetrical or non-symmetrical waveform, although it is usually produced by the inversion of a symmetrical periodic signal, resulting in a change in sign.
+A symmetrical periodic signal represented by
+
+
+
+f
+(
+t
+)
+=
+A
+
+e
+
+j
+ω
+t
+
+
+
+
+{\displaystyle f(t)=Ae^{j\omega t}}
+, after phase inversion, becomes
+
+
+
+
+f
+
+1
+
+
+(
+t
+)
+=
+A
+
+e
+
+j
+(
+ω
+t
++
+π
+)
+
+
+
+
+{\displaystyle f_{1}(t)=Ae^{j(\omega t+\pi )}}
+where:
+
+t = the time
+A = the magnitude of the vector.
+ω = 2πf, the angular frequency, the rate of change of the function argument in units of radians per second
+f = the ordinary frequency, the number of oscillations (cycles) that occur each second of time.
+Note that the algebraic sum of
+
+
+
+f
+(
+t
+)
+
+
+{\displaystyle f(t)}
+and
+
+
+
+
+f
+
+1
+
+
+(
+t
+)
+
+
+{\displaystyle f_{1}(t)}
+will always equal zero.

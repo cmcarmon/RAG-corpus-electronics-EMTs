@@ -1,0 +1,10 @@
+where the minus sign is for the inverting integrator in Figure
+4.14(A), and the plus sign for the noninverting integrator in
+Figure 4.14(B). We used a scaling resistor Ra
+to deﬁne
+t ¼ CARa, q ¼ Ra=Rq, the gain constants a1 ¼ Ra=R1, and
+a2 ¼ Ra=R2 that multiply the two input voltages V11 and V12.
+These gain constants can be adjusted to maximize the
+dynamic range of the active ﬁlter, but the treatment goes
+beyond the scope of this chapter. We will for simplicity set
+a1 ¼ a2 ¼ 1 by selecting Ra ¼ R1 ¼ R2 ¼ R to get t ¼ CAR

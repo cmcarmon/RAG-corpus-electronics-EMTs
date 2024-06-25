@@ -1,0 +1,7 @@
+Realization of the complete ﬁfth-order Chebyshev VTF requires the design of another second-order section
+to deal with the second quadratic term in Eq. (29.5), together with a simple circuit to realize the ﬁrst-order
+term arising because this is an odd-order VTF. Figure 29.6 shows the form of the overall cascade. Note that the
+op amps at the output of each stage provide the necessary interstage isolation. It is ﬁnally worth noting that
+an extended single-ampliﬁer form of the Sallen and Key network exists—the circuit shown in Fig. 29.2 is an
+example of this—but that the saving in op amps is paid for by higher component spreads, sensitivities, and
+design complexity.

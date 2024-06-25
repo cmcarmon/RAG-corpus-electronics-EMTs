@@ -1,0 +1,67 @@
+Consider a spring, fixed at one end and having a mass attached to the other; this would be a single degree of freedom (SDoF) oscillator. Once set into motion, it will oscillate at its natural frequency. For a single degree of freedom oscillator, a system in which the motion can be described by a single coordinate, the natural frequency depends on two system properties: mass and stiffness; (providing the system is undamped). The radian frequency, ωn, can be found using the following equation:
+
+
+
+
+
+ω
+
+
+n
+
+
+
+2
+
+
+=
+
+
+k
+m
+
+
+
+
+
+{\displaystyle \omega _{\mathrm {n} }^{2}={\frac {k}{m}}\,}
+
+Where:k = stiffness of the springm = massωn = radian frequency (radians per second)
+From the radian frequency, the natural frequency, fn, can be found by simply dividing ωn by 2π. Without first finding the radian frequency, the natural frequency can be found directly using:
+
+
+
+
+
+f
+
+
+n
+
+
+
+=
+
+
+1
+
+2
+π
+
+
+
+
+
+
+k
+m
+
+
+
+
+
+
+{\displaystyle f_{\mathrm {n} }={\frac {1}{2\pi }}{\sqrt {\frac {k}{m}}}\,}
+
+Where:fn = natural frequency in hertz (cycles/second)k = stiffness of the spring (Newtons/meter or N/m)m = mass(kg)
+while doing the modal analysis of structures and mechanical equipment, the frequency of 1st mode is called fundamental frequency.

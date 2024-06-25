@@ -1,0 +1,87 @@
+Imagine a spherical target (outlined in grey in the figure) and a beam of particles (in blue) "flying" at speed v (vector in black) in the direction of the target. We want to know how many particles impact it during time interval dt. To achieve it, the particles have to be in the black cylinder in the figure (volume V). The base of the cylinder is the geometrical cross section of the target perpendicular to the beam (surface σ in red) and its height the length travelled by the particles during dt (length v dt):
+
+
+
+
+V
+=
+σ
+
+v
+
+d
+t
+
+
+{\displaystyle V=\sigma \,v\,dt}
+
+Noting n the number of particles per unit volume, there are n V particles in the volume V, which will, per definition of V, undergo a reaction. Noting r the reaction rate onto one target, it gives:
+
+
+
+
+r
+
+d
+t
+=
+n
+
+V
+=
+n
+
+σ
+
+v
+
+d
+t
+
+
+{\displaystyle r\,dt=n\,V=n\,\sigma \,v\,dt}
+
+It follows directly from the definition of the neutron flux
+
+
+
+Φ
+
+
+{\displaystyle \Phi }
+= n v:
+
+
+
+
+r
+=
+σ
+
+Φ
+
+
+{\displaystyle r=\sigma \,\Phi }
+
+Assuming that there is not one but N targets per unit volume, the reaction rate R per unit volume is:
+
+
+
+
+R
+=
+N
+
+r
+=
+N
+
+Φ
+
+σ
+
+
+{\displaystyle R=N\,r=N\,\Phi \,\sigma }
+
+Knowing that the typical nuclear radius r is of the order of 10−12 cm, the expected nuclear cross section is of the order of π r2 or roughly 10−24 cm2 (thus justifying the definition of the barn). However, if measured experimentally ( σ = R / (Φ N) ), the experimental cross sections vary enormously. As an example, for slow neutrons absorbed by the (n, γ) reaction the cross section in some cases (xenon-135) is as much as 2,650,000 barns, while the cross sections for transmutations by gamma-ray absorption are in the neighborhood of 0.001 barn (See here for more example of cross sections).
+The "nuclear cross section" is consequently a purely conceptual quantity representing how big the nucleus should be to be consistent with this simple mechanical model.

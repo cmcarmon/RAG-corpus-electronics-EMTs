@@ -1,0 +1,3 @@
+Power line hardware, this can generate sparks at either a 100 or 120 Hz rate
+Light dimmers and other solid state power control devices.
+Thyristor and Triac regulators without proper chokes are a common source of EMI as well. It is likely that a thyristor (SCR) power controller using the variable phase angle method will generate harmonics of the mains supply, while the spark at a contact will be a very wide band source whose frequency is not related to the power supply frequency. In Thyristor control systems the potential for EMI problems can be minimised by using zero crossing switching where the thyristor is switched on at the moment of time when the AC voltage changes from one direction to the other.

@@ -1,0 +1,12 @@
+Figure 6.23: The probability of an error occurring in transmitted K = 4 data bits equals 1 − (1 − pe)4
+as (1 − pe)4 equals the probability that the four bits are received without error. The upper curve displays
+how this probability of an error anywhere in the four-bit block varies with the signal-to-noise ratio. When
+a (7,4) single-bit error correcting code is used, the transmitter reduced the energy it expends during a
+single-bit transmission by 4/7, appending three extra bits for error correction. Now the probability of
+any bit in the seven-bit block being in error after error correction equals 1 − (1 − p(cid:48)
+e)6,
+where p(cid:48)
+e is the probability of a bit error occurring in the channel when channel coding occurs. Here
+(7p(cid:48)
+e)6 equals the probability of exactly on in seven bits emerging from the channel in error; The
+channel decoder corrects this type of error, and all data bits in the block are received correctly.

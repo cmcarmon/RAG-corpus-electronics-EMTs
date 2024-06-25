@@ -1,0 +1,15 @@
+Currently, IpSec can operate in transport mode or tunnel
+mode. In transport mode, IpSec takes a packet to be protected,
+preserves the packet’s IP header, and modiﬁes only the upper
+layer portions by adding IpSec headers and the requested kind
+of protection between the upper layers and the original IP
+header. In the tunnel mode, IpSec treats the entire packet as
+a block of data, adds a new packet header, and protects the data
+by making it part of the encrypted payload of the new packet.
+IpSec can be easily integrated into the current operating
+system environment, by either changing the native implemen-
+tation of IP protocol (and subsequent kernel compilation),
+inserting an additional layer below the IP layer of the TCP/IP
+protocol stack (also known as bump-in-the-stack [BITS]), or
+using some external hardware (also known as bump-in-the-
+wire [BITW]).

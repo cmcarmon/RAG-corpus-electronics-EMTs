@@ -1,0 +1,13 @@
+Arithmetic logic unit (ALU) 
+ 
+As its name suggests, the ALU performs arithmetic 
+and logic operations. The ALU has two inputs (in 
+this case these are both 8-bits wide). One of these 
+inputs  is  derived  from  the  Accumulator  whilst  the 
+other  is  taken  from  the  internal  data  bus  via  a 
+temporary  register  (not  shown  in  Fig.  11.3).  The 
+operations  provided  by  the  ALU  usually  include 
+addition,  subtraction,  logical  AND,  logical  OR, 
+logical exclusive-OR, shift left, shift right, etc. The 
+result  of  most  ALU  operations  appears  in  the 
+accumulator. 

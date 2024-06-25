@@ -1,0 +1,4 @@
+The decision to use a common logical link control (LLC) sublayer for all of the LAN protocols apparently
+ushered in the idea of adaption sublayers. The reason for splitting the layer is simple: a user of the data link
+control (DLC) layer need not know what kind of medium provides the communications; all that is necessary
+is that the user understand the interface to the DLC layer.

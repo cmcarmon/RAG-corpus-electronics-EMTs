@@ -1,0 +1,7 @@
+Basic Magnetic Disk System Architecture
+We will review here the basic terminology of magnetic disk devices and controllers and then examine the disk
+subsystems  of  three  manufacturers  (IBM,  Cray,  and  DEC).  Throughout  this  section  we  are  concerned  with
+technologies that support random access, rather than sequential access (e.g., magnetic tape). A more detailed
+discussion,  focusing  on  the  structure  of  small  dimension  disk  drives,  can  be  found  in Vasudeva  [1988].  The
+spindle consists of a collection of platters. Platters are metal disks
+basic concepts are illustrated in Fig. 80.11. A

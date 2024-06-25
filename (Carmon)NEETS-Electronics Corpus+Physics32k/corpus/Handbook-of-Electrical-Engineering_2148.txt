@@ -1,0 +1,11 @@
+i.e., the partial derivative with respect to the weight is the product of the partial derivative with respect to the
+PE state — part 1 in Eq. (20.6) — times the partial derivative of the local activation to the weights — part 2
+), so the big issue is the
+in Eq. (20.6). This last quantity is exactly the same as for the nonlinear PE (
+¶
+J
+computation of 
+¶
+y
+is  evaluated  by  summing  all  the  errors  that  reach  the  PE  from  the  top  layer  through  the  topology  when  the
+injected errors 

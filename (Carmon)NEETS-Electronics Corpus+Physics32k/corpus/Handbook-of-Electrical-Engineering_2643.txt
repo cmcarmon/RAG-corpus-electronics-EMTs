@@ -1,0 +1,8 @@
+Subthreshold Control
+When a MOSFET is in the “off ” condition, that is, when the MOSFET is in subthreshold, the off current drawn
+with the drain at supply voltage must not be too large in order to avoid power consumption and discharge of
+ostensibly isolated nodes [Shoji, 1988]. In small devices, however, the source and drain are closely spaced, so
+there exists a danger of direct interaction of the drain with the source, rather than an interaction mediated by
+the gate and channel. In an extreme case, the drain may draw current directly from the source, even though
+the gate is “off ” (punchthrough). A less extreme but also undesirable case occurs when the drain and gate jointly
+control the carrier density in the channel (drain-induced barrier lowering, or drain control of threshold voltage).

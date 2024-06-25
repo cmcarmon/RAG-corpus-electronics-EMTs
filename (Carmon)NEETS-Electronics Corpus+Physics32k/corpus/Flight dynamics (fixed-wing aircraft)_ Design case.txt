@@ -1,0 +1,12 @@
+In analyzing the stability of an aircraft, it is usual to consider perturbations about a nominal steady flight state. So the analysis would be applied, for example, assuming:
+
+Straight and level flight
+Turn at constant speed
+Approach and landing
+Takeoff
+
+The speed, height and trim angle of attack are different for each flight condition, in addition, the aircraft will be configured differently, e.g. at low speed flaps may be deployed and the undercarriage may be down.
+Except for asymmetric designs (or symmetric designs at significant sideslip), the longitudinal equations of motion (involving pitch and lift forces) may be treated independently of the lateral motion (involving roll and yaw).
+The following considers perturbations about a nominal straight and level flight path.
+To keep the analysis (relatively) simple, the control surfaces are assumed fixed throughout the motion, this is stick-fixed stability. Stick-free analysis requires the further complication of taking the motion of the control surfaces into account.
+Furthermore, the flight is assumed to take place in still air, and the aircraft is treated as a rigid body.

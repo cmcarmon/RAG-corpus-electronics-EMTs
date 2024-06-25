@@ -1,0 +1,7 @@
+where D = C/K is the parameter value of a new component produced by the transformation, which is usually
+referred  to  as  a  frequency-dependent  negative  resistance  (FDNR).  This  name  results  from  the  fact  that  the
+sinusoidal steady-state impedance ZT(jw) = –(1/w2D) is frequency-dependent, negative, and real, hence, resis-
+tive. In practice, the FDNR elements are realized by RC-active subnetworks using op amps, normally two per
+FDNR. Figure 29.11(a) and (b) shows the sequence of circuit changes involved in transforming from a third-
+order LCR prototype ladder to an FDNR circuit. Figure 29.11(c) gives an RC-active realization for the FDNR
+based on the use of a GIC, introduced in the previous subsection.

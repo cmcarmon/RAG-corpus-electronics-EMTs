@@ -1,0 +1,14 @@
+or begin to put out incorrect data. The reason for the Year 2000 problem (as it has come to be called) is because
+of the historical practice of storing all dates in two-digit form. Thus, calendar year “1997” would be stored as
+“97”.  The  obvious  failing  of  the  two-digit  approach  will  occur  when “99”  becomes “00”.  This  will  throw  off
+normal collating sequences and cause major errors. This problem is an interesting one because, although obvious
+for more than 20 years, the problem was never found during testing. The reason for this situation is because
+the  two-digit  form  of  storing  dates  originated  as  a  requirement  and  was  also  included  in  software  designs.
+Therefore, test cases tended to conform to erroneous requirements rather than actually ﬁnd the problem. The
+Year 2000 problem provides a strong lesson to the software community that “quality means conformance to
+user requirements” may sometimes be dangerous. The Year 2000 problem is going to be the most expensive
+software problem in history, and it was caused primarily by conforming to a requirement that was dangerous
+and ﬂawed. Now that the end of the century is rapidly approaching, every corporation and government agency
+in the world is frantically racing to make software repairs before the problem surfaces at the end of 1999. Some
+hidden  and  obscure  instances  of  this  problem  will  almost  certainly  slip  through,  causing  major  errors  and
+probable litigation.

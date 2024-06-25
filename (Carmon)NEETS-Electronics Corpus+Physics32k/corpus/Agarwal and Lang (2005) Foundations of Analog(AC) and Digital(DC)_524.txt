@@ -1,0 +1,11 @@
+There are many approaches that we can take to obtain the current I. For example, we
+could apply the node method and determine the node voltages at nodes a and b and
+thereby determine the current I. However, since we are interested only in the current I,
+a full blown node analysis is not necessary; rather we will find the Thévenin equivalent
+(cid:3)
+network for the subcircuit to the left of the aa
+terminal pair (Network A) and for
+(cid:3)
+the subcircuit to the right of the bb
+terminal pair (Network B), and then using these
+subcircuits solve for the current I.

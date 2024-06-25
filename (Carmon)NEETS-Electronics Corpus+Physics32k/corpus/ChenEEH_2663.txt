@@ -1,0 +1,11 @@
+To achieve an efﬁcient solution through iteration, it is crit-
+ical to reduce the number of iterations and/or to reduce the
+operation count for computing the matrix–vector product.
+The ﬁrst can be achieved by preconditioning, and the second
+can be achieved by using fast Fourier transform (Borup and
+Gandhi, 1984; Zwamborn and van der Berg, 1994; Gan and
+Chew, 1995; Wang and Jin, 1988), the adaptive integral
+method (Wang et al., 1988), the fast multipole method
+(Rokhlin, 1990; Coifman et al., 1993; Lu and Chew, 1993),
+and the multilevel fast multipole algorithm (Song and Chew,
+1993; Dembart and Yip, 1995; Song et al., 1997).

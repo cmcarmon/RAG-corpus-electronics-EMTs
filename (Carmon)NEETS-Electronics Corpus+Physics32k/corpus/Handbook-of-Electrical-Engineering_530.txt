@@ -1,0 +1,12 @@
+Reverse voltage applied to the diode causes a small leakage current (negative according to the sign convention)
+to ﬂow that is typically orders of magnitude lower than current in the forward direction. The diode can withstand
+reverse  voltages  up  to  a  limit  determined  by  its  physical  construction  and  the  semiconductor  material  used.
+Beyond this value the reverse voltage imparts enough energy to the charge carriers to cause large increases in
+current.  The  mechanisms  by  which  this  current  increase  occurs  are  impact  ionization  (avalanche)  [McKay,
+1954] and a tunneling phenomenon (Zener breakdown) [Moll, 1964]. Avalanche breakdown results in large
+power dissipation in the diode, is generally destructive, and should be avoided at all times. Both breakdown
+regions are superimposed in Fig. 5.2 for comparison of their effects on the shape of the diode characteristic
+curve. Avalanche breakdown occurs for reverse applied voltages in the range of volts to kilovolts depending on
+the exact design of the diode. Zener breakdown occurs at much lower voltages than the avalanche mechanism.
+Diodes speciﬁcally designed to operate in the Zener breakdown mode are used extensively as voltage regulators
+in regulator integrated circuits and as discrete components in large regulated power supplies.

@@ -1,0 +1,16 @@
+We  can  illustrate  these  concepts  by  describing  two  ﬁrst-generation  supercomputer  disks,  the  Cray  DD-19
+and  the  CDC  819  [Bucher  and  Hayes,  1980].  These  were  state-of-the-art  disks  around  1980.  Each  disk  has
+40 recording surfaces (20 platters), 411 cylinders, and 18 (DD-19) or 20 (CDC 819) 512-byte sectors per track.
+Both disks possess a limited “parallel read-out” capability. A given data word is actually byte interleaved over
+four surfaces. Rather than a single set of read/write electronics for the actuator, these disks have four sets, so
+head group
+.
+it is possible to read or write with four heads at a time. Four heads on adjacent arms are called a 
+A disk track is thus composed of the stacked recording tracks of four adjacent surfaces, and there are 10 tracks
+per cylinder, spread over 40 surfaces. The advances over the last decade can be illustrated by the Cray DD-49,
+which  is  a  typical  high-end  supercomputer  disk  of  today.  It  consists  of  16  recording  surfaces  (9  platters),
+886 cylinders, 42 4096-byte sectors per track, with 32 read/write heads organized into eight head groups, four
+groups  on  each  of  two  independent  actuators.  Each  actuator  can  sweep  the  entire  range  of  tracks,  and  by
+“scheduling” the arms to position the actuator closest to the target track of the pending request, the average
+seek time can be reduced. The DD-49 has a capacity of 1.2 Gbytes of storage and can transfer at a sustained
+rate of 9.6 Mbytes/s.

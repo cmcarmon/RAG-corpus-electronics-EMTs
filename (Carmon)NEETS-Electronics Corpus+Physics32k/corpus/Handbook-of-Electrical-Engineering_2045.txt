@@ -1,0 +1,11 @@
+z
+(
+H
+) is cancelled by
+$y(t) from the microphone signal y(t).
+modeling 
+The adaptability of the ﬁlter is necessary since H(z) changes appreciably with movement of people or objects
+in the room and because periodic measurements of the room would be impractical. Acoustic echo cancellation
+is more challenging than cancelling line echoes for several reasons. First, room impulse responses h(t) are longer
+than 200 ms compared to less than 20 ms for line echo cancellers. Second, the echo path of a room h(t) is likely
+to change constantly (note that even small changes in temperature can cause signiﬁcant changes of h). Third,

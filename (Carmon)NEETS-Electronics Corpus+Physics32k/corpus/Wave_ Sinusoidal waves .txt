@@ -1,0 +1,256 @@
+Mathematically, the most basic wave is the (spatially) one-dimensional sine wave (or harmonic wave or sinusoid) with an amplitude
+
+
+
+u
+
+
+{\displaystyle u}
+described by the equation:
+
+
+
+
+u
+(
+x
+,
+t
+)
+=
+A
+sin
+⁡
+(
+k
+x
+−
+ω
+t
++
+ϕ
+)
+
+,
+
+
+{\displaystyle u(x,t)=A\sin(kx-\omega t+\phi )\ ,}
+
+where
+
+
+
+
+A
+
+
+{\displaystyle A}
+is the maximum amplitude of the wave, maximum distance from the highest point of the disturbance in the medium (the crest) to the equilibrium point during one wave cycle. In the illustration to the right, this is the maximum vertical distance between the baseline and the wave.
+
+
+
+
+x
+
+
+{\displaystyle x}
+is the space coordinate
+
+
+
+
+t
+
+
+{\displaystyle t}
+is the time coordinate
+
+
+
+
+k
+
+
+{\displaystyle k}
+is the wavenumber
+
+
+
+
+ω
+
+
+{\displaystyle \omega }
+is the angular frequency
+
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+is the phase constant.
+The units of the amplitude depend on the type of wave. Transverse mechanical waves (e.g., a wave on a string) have an amplitude expressed as a distance (e.g., meters), longitudinal mechanical waves (e.g., sound waves) use units of pressure (e.g., pascals), and electromagnetic waves (a form of transverse vacuum wave) express the amplitude in terms of its electric field (e.g., volts/meter).
+The wavelength
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+is the distance between two sequential crests or troughs (or other equivalent points), generally is measured in meters. A wavenumber
+
+
+
+k
+
+
+{\displaystyle k}
+, the spatial frequency of the wave in radians per unit distance (typically per meter), can be associated with the wavelength by the relation
+
+
+
+
+k
+=
+
+
+
+2
+π
+
+λ
+
+
+.
+
+
+
+{\displaystyle k={\frac {2\pi }{\lambda }}.\,}
+
+The period
+
+
+
+T
+
+
+{\displaystyle T}
+is the time for one complete cycle of an oscillation of a wave. The frequency
+
+
+
+f
+
+
+{\displaystyle f}
+is the number of periods per unit time (per second) and is typically measured in hertz denoted as Hz. These are related by:
+
+
+
+
+f
+=
+
+
+1
+T
+
+
+.
+
+
+
+{\displaystyle f={\frac {1}{T}}.\,}
+
+In other words, the frequency and period of a wave are reciprocals.
+The angular frequency
+
+
+
+ω
+
+
+{\displaystyle \omega }
+represents the frequency in radians per second. It is related to the frequency or period by
+
+
+
+
+ω
+=
+2
+π
+f
+=
+
+
+
+2
+π
+
+T
+
+
+.
+
+
+
+{\displaystyle \omega =2\pi f={\frac {2\pi }{T}}.\,}
+
+The wavelength
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+of a sinusoidal waveform traveling at constant speed
+
+
+
+v
+
+
+{\displaystyle v}
+is given by:
+
+
+
+
+λ
+=
+
+
+v
+f
+
+
+,
+
+
+{\displaystyle \lambda ={\frac {v}{f}},}
+
+where
+
+
+
+v
+
+
+{\displaystyle v}
+is called the phase speed (magnitude of the phase velocity) of the wave and
+
+
+
+f
+
+
+{\displaystyle f}
+is the wave's frequency.
+Wavelength can be a useful concept even if the wave is not periodic in space. For example, in an ocean wave approaching shore, the incoming wave undulates with a varying local wavelength that depends in part on the depth of the sea floor compared to the wave height. The analysis of the wave can be based upon comparison of the local wavelength with the local water depth.
+Although arbitrary wave shapes will propagate unchanged in lossless linear time-invariant systems, in the presence of dispersion the sine wave is the unique shape that will propagate unchanged but for phase and amplitude, making it easy to analyze. Due to the Kramers–Kronig relations, a linear medium with dispersion also exhibits loss, so the sine wave propagating in a dispersive medium is attenuated in certain frequency ranges that depend upon the medium. The sine function is periodic, so the sine wave or sinusoid has a wavelength in space and a period in time.
+The sinusoid is defined for all times and distances, whereas in physical situations we usually deal with waves that exist for a limited span in space and duration in time. Fortunately, an arbitrary wave shape can be decomposed into an infinite set of sinusoidal waves by the use of Fourier analysis. As a result, the simple case of a single sinusoidal wave can be applied to more general cases. In particular, many media are linear, or nearly so, so the calculation of arbitrary wave behavior can be found by adding up responses to individual sinusoidal waves using the superposition principle to find the solution for a general waveform. When a medium is nonlinear, the response to complex waves cannot be determined from a sine-wave decomposition.

@@ -1,0 +1,15 @@
+The Figure 16.14 show these waveforms for the case where the transients
+only go part-way to completion,
+that is,
+for the RC time constant long
+compared to the period of the square-wave.
+The input waveform undergoes an abrupt transition at t1, at the end of
+the first half-cycle, dropping to −10 volts. Because vC had been positive, the
+constraint of Equation 16.23 now applies, and the circuit is forced into the ON
+state. Physically, the diode is ON, so the capacitor is connected directly across
+vi, and vo is zero. Note that for this over-idealized circuit the capacitor voltage
+is forced to change instantaneously from some positive voltage to −10 volts
+in response to the input transition. A more realistic model which included
+either diode forward resistance or a resistance associated with the source would
+eliminate this anomaly, and produce a rapid transition in vC rather than an
+instantaneous jump.

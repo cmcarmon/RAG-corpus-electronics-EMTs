@@ -1,0 +1,7 @@
+Hierarchical Databases
+The hierarchical data model [Elmasri and Navathe, 1994] uses a tree data structure to conceptualize associations
+between different record types. In this model, record types are represented as nodes and associations as links.
+Each record type, except the root, has only one parent; that is, only parent-child (or one-to-many) relationships
+are allowed. This restriction gives hierarchical databases their simplicity. Since links are only one way, from a
+parent to a child, the design of hierarchical database management systems is made simpler, and only a small
+set of data manipulation commands are needed.

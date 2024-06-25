@@ -1,0 +1,25 @@
+Each station is connected to a multipoint repeater, and each
+input to the repeater is repeated on every output link. If two
+inputs overlap, a jam signal is transmitted on all output links.
+The class 1 repeater can support mixtures of transmission
+media types; a class 2 repeater can support only the same
+transmission media type, but it can interconnect with another
+class 2 repeater. Each network can be conﬁgured as either a full
+duplex or half duplex. The full duplex operation requires a
+switch hub and not a multipoint repeater. In the full duplex
+operation, each station would own the entire bandwidth of the
+network. In the half duplex operation, each station would
+share the bandwidth of the transmission medium. To support
+a mixture of speeds on a network, each device can send link
+integrity pulses to indicate the speed it supports. The process is
+called autonegotiation. The priority order in the technology
+ability ﬁeld used in the 100BASE-T autonegotiation scheme is
+based on the highest common denominator regarding abilities.
+The 100BASE-T4 medium has the higher priority than the
+100BASE-FX, and the 100BASE-T4 provides for the operation
+over a wider range of twisted pair cables and, therefore, is more
+ﬂexible. The 10BASE-T is the lowest common denominator
+and has the lowest priority. In general, a full-duplex capability
+can also operate in half duplex mode and, hence, has a higher
+priority. The priority is assigned in the following order from
+highest to lowest:

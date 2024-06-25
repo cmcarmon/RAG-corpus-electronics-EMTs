@@ -1,0 +1,16 @@
+Structure of an FDTD Grid Employing Berenger’s PML ABC
+The analysis in the previous paragraphs can be repeated for
+PMLs that are normal to the y direction. This permitted
+Berenger to propose the two-dimensional TEz FDTD grid
+shown in Figure 9.13, which uses PMLs to greatly reduce
+outer-boundary reﬂections. Here, a free-space computation
+zone is surrounded by PML backed by perfect electric con-
+ductor (PEC) walls. At the left and right sides of the grid
+(x1 and x2), each PML has sx and s
+x matched according to
+equation 9.94 along with sy ¼ 0 ¼ s
+y to permit reﬂectionless
+transmission across the interface between the free space and
+PML regions. At the lower and upper sides of the grid
+(y1 and y2), each PML has sy and s
+y matched according to

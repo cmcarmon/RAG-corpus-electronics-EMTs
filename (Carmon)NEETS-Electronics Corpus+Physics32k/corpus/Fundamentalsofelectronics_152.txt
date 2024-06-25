@@ -1,0 +1,6 @@
+Suppose we want to pass the output signal into a voltage measurement device, such as an oscilloscope or
+a voltmeter. In system-theory terms, we want to pass our circuit’s output to a sink. For most applications,
+we can represent these measurement devices as a resistor, with the current passing through it driving the
+measurement device through some type of display. In circuits, a sink is called a load; thus, we describe a
+system-theoretic sink as a load resistance RL. Thus, we have a complete system built from a cascade of
+three systems: a source, a signal processing system (simple as it is), and a sink.

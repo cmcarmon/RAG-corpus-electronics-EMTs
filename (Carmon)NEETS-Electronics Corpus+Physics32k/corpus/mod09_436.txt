@@ -1,0 +1,5 @@
+If the trigger frequency is made slightly higher than the free-running frequency, the blocking 
+oscillator will "lock in" at the higher frequency. For instance, assume the free-running frequency of this 
+blocking oscillator is 2 kilohertz, with a prt of 500 microseconds. If sync pulses with a prt of 400 
+microseconds, or 2.5 kilohertz, are applied to the base, the blocking oscillator will "lock in" and run at 2.5 
+kilohertz. If the sync prf is too high, however, frequency division will occur. This means that if the sync 

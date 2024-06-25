@@ -1,0 +1,8 @@
+Note that in contrast to the speciﬁcation of signature schemes, we do not require universal veriﬁcation. That
+is, only the receiver is required to be able to verify the authentication tags; and the fact that the receiver can
+also produce such tags is of no concern. Thus, schemes for message authentication can be viewed as a private-
+key version of signature schemes. The difference between the two is that, in the setting of message authentication,
+the ability to verify tags can be linked to the ability to authenticate messages; whereas in the setting of signature
+schemes, these abilities are separated (i.e., everybody can verify signatures but only the holder of the signing
+key can produce valid signatures). Hence, digital signatures provide a solution to the message authentication
+problem, but message authentication schemes do not necessarily constitute digital signature schemes.

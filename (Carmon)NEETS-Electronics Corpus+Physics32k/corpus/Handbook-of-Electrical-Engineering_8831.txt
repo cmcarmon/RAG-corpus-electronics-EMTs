@@ -1,0 +1,6 @@
+Frequently domains are far too large for this approach. For example, the symbol table that a compiler of a
+programming language maintains is a function from the set of valid identiﬁers to some set of attributes. The
+set of valid identiﬁers is inﬁnite, or, if some length limitation is imposed, ﬁnite but exceedingly large (there are
+nearly  300  billion  identiﬁers  of  eight  characters  or  less).  For  most  of  its  domain  a  symbol  table  returns  the
+default value new or not found. It is therefore economical to store the mapping only for those domain values
+that map to a value different from the default value. A function of this sort is usually speciﬁed as follows:

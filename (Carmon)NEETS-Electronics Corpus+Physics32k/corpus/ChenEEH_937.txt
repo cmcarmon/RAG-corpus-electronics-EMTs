@@ -1,0 +1,19 @@
+In this section, a computer methodology is presented for the
+solution of the QP clock scheduling problem introduced in
+Section 4.3. Different computer implementations are analyzed
+and compared in detail in Subsection 4.5.1. It is shown that the
+QP problem can be efﬁciently solved, and three computer
+algorithmic procedures for this solution are discussed. These
+three algorithms are demonstrated to have O(r 3) run time
+complexity and O(r 2) storage complexity, where r is the
+number of registers in the circuit. The numerical constants of
+the leading terms in these complexity expressions are derived
+as a function of the ratio of the number of local data paths to
+the number of registers in the circuit, thereby permitting a
+suitable algorithm to be chosen for a speciﬁc circuit. Further-
+more, the methodology presented in Section 4.3 is extended
+here to account for two important details of practical interest.
+The circuit graph model is revisited in Section 4.5.3, where it is
+shown that certain clock skews from the basis are uncon-
+strained18, and this information is integrated into the math-
+ematical framework described in Section 4.3. Section 4.5.4,

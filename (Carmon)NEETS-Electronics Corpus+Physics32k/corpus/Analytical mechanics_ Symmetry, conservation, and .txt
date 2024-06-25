@@ -1,0 +1,58 @@
+Symmetry transformations in classical space and time
+Each transformation can be described by an operator (i.e. function acting on the position r or momentum p variables to change them). The following are the cases when the operator does not change r or p, i.e. symmetries.
+
+where R(n̂, θ) is the rotation matrix about an axis defined by the unit vector n̂ and angle θ.
+Noether's theorem
+Noether's theorem states that a continuous symmetry transformation of the action corresponds to a conservation law, i.e. the action (and hence the Lagrangian) doesn't change under a transformation parameterized by a parameter s:
+
+
+
+
+L
+[
+q
+(
+s
+,
+t
+)
+,
+
+
+
+q
+˙
+
+
+
+(
+s
+,
+t
+)
+]
+=
+L
+[
+q
+(
+t
+)
+,
+
+
+
+q
+˙
+
+
+
+(
+t
+)
+]
+
+
+{\displaystyle L[q(s,t),{\dot {q}}(s,t)]=L[q(t),{\dot {q}}(t)]}
+
+the Lagrangian describes the same motion independent of s, which can be length, angle of rotation, or time. The corresponding momenta to q will be conserved.

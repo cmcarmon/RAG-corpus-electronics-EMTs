@@ -1,0 +1,17 @@
+Main memories are comprised of a series of semiconductor memory chips. A number of these chips, like caches,
+ (or parallel) memory
+form a 
+ requests
+system. Since each bank can service a request, an interleaved memory system with 
+  times  the  bandwidth  of  a  single
+simultaneously,  increasing  the  peak  bandwidth  of  the  memory  system  to 
+n
+-bit
+bank. In most interleaved memory systems, the number of banks is a power of two, that is, 
+m-bit address of a word within a
+memory word address is broken into two parts: a 
+bank. Though the k bits used to select a bank number could be any k bits of the n-bit word address, typical
+interleaved memory systems use the low-order k address bits to select the bank number; the higher order m =
+n – k bits of the word address are used to access a word in the selected bank. The reason for using the low-
+order k bits will be discussed shortly. An interleaved memory system which uses the low-order k bits to select
+the bank is referred to as a low-order or a standard interleaved memory.

@@ -1,0 +1,5 @@
+It is also beneﬁcial to have successive accesses located in a
+single page. Typically a factor 2 to 4 in energy can be saved this
+way. In an initial phase of a memory access, the row is selected.
+This row (¼ page) is sensed6 and partly or entirely stored in a
+local register. Next, the proper column is transferred to the

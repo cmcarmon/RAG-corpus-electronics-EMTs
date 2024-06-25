@@ -1,0 +1,186 @@
+The traditional method to obtain the source direction is using the time difference of arrival (TDOA) method. This method can be used with pressure microphones as well as with particle velocity probes.
+With a sensor array (for instance a microphone array) consisting of at least two probes it is possible to obtain the source direction using the cross-correlation function between each probes' signal. The cross-correlation function between two microphones is defined as
+
+
+
+
+
+R
+
+
+x
+
+1
+
+
+,
+
+x
+
+2
+
+
+
+
+(
+τ
+)
+=
+
+∑
+
+n
+=
+−
+∞
+
+
+∞
+
+
+
+x
+
+1
+
+
+(
+n
+)
+
+x
+
+2
+
+
+(
+n
++
+τ
+)
+
+
+{\displaystyle R_{x_{1},x_{2}}(\tau )=\sum _{n=-\infty }^{\infty }x_{1}(n)x_{2}(n+\tau )}
+
+which defines the level of correlation between the outputs of two sensors
+
+
+
+
+x
+
+1
+
+
+
+
+{\displaystyle x_{1}}
+and
+
+
+
+
+x
+
+2
+
+
+
+
+{\displaystyle x_{2}}
+. In general, a higher level of correlation means that the argument
+
+
+
+τ
+
+
+{\displaystyle \tau }
+is relatively close to the actual time-difference-of-arrival. For two sensors next to each other the TDOA is given by
+
+
+
+
+
+τ
+
+true
+
+
+=
+
+
+
+d
+
+spacing
+
+
+c
+
+
+
+
+{\displaystyle \tau _{\text{true}}={\frac {d_{\text{spacing}}}{c}}}
+
+where
+
+
+
+c
+
+
+{\displaystyle c}
+is the speed of sound in the medium surrounding the sensors and the source.
+A well-known example of TDOA is the interaural time difference. The interaural time difference is the difference in arrival time of a sound between two ears. The interaural time difference is given by
+
+
+
+
+Δ
+t
+=
+
+
+
+x
+sin
+⁡
+θ
+
+c
+
+
+
+
+{\displaystyle \Delta t={\frac {x\sin \theta }{c}}}
+
+where
+
+
+
+
+Δ
+t
+
+
+{\displaystyle \Delta t}
+is the time difference in seconds,
+
+
+
+
+x
+
+
+{\displaystyle x}
+is the distance between the two sensors (ears) in meters,
+
+
+
+
+θ
+
+
+{\displaystyle \theta }
+is the angle between the baseline of the sensors (ears) and the incident sound, in degrees.

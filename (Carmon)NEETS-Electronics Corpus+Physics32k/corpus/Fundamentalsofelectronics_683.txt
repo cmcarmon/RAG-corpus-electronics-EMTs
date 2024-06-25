@@ -1,0 +1,9 @@
+period-17 sinusoid: h (n) = 1
+17
+quency response (determined by computing the discrete Fourier transform) is shown in Figure 5.23.
+To apply, we can select the length of each section so that the frequency-domain ﬁltering approach
+is maximally eﬃcient: Choose the section length Nx so that Nx + q is a power of two. To use
+a length-64 FFT, each section must be 48 samples long. Filtering with the diﬀerence equation
+would require 33 computations per output while the frequency domain requires a little over 16; this
+frequency-domain implementation is over twice as fast! Figure 5.22 shows how frequency-domain
+ﬁltering works.

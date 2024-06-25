@@ -1,0 +1,32 @@
+Suppose we rank a group of five people by height and by weight:
+Here person A is tallest and third-heaviest, and so on.
+In order to calculate the Kendall tau distance, pair each person with every other person and count the number of times the values in list 1 are in the opposite order of the values in list 2.
+Since there are 4 pairs whose values are in opposite order, the Kendall tau distance is 4. The normalized Kendall tau distance is
+
+
+
+
+
+
+4
+
+5
+(
+5
+−
+1
+)
+
+/
+
+2
+
+
+
+=
+0.4.
+
+
+{\displaystyle {\frac {4}{5(5-1)/2}}=0.4.}
+
+A value of 0.4 indicates that 40% of pairs differ in ordering between the two lists.

@@ -1,0 +1,3 @@
+The next bit of data is a 0. The output of AND gate 1 is LOW. Because of the inverter on the K input
+of FF1, the FF senses a HIGH at that input and resets. At the same time this is occurring, the HIGH on the
+J input of FF2 (from FF1) and the CLK cause FF2 to set. The two MSDs, 1 and 0, are now in the register.

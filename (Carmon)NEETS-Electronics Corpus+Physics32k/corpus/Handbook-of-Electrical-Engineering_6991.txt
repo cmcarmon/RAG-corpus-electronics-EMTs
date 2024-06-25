@@ -1,0 +1,6 @@
+4. Papoulis’ generalization.  Shannon  noted  that  a  bandlimited  signal  could  be  restored  when  sampling
+was performed at half the Nyquist rate if, at every sample location, a sample of the signal’s derivative
+were  also  taken.  Recurrent  nonuniform  sampling  is  where  P  samples  are  spaced  the  same  in  every  P
+Nyquist intervals. Another sampling scenario is when a signal and its Hilbert transform are both sampled
+at half their respective Nyquist rates. Restoration of the signal from these and numerous other sampling
+scenarios are subsumed in an eloquent generalization of the sampling theorem by Papoulis.

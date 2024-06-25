@@ -1,0 +1,53 @@
+Integrated circuit faults 
+ 
+Integrated  circuits  may  fail  in  various  ways. 
+Occasionally,  the  manifestation  of  the  fault  is 
+simply  a  chip  which  is  chronically  overheated— 
+the judicious application of a finger tip to the centre 
+of  the  plastic  package  will  usually  help  you  to 
+identify such a failure. Any chip that is noticeably 
+hotter  than  others  of  a  similar  type  should  be 
+considered  suspect.  Where  integrated  circuits  are 
+fitted  in  sockets,  it  will  be  eminently  possible  to 
+remove  and  replace  them  with  known  functional 
+devices  (but,  do  remember  to  switch  ‘off’  and 
+disconnect the supply during the process). 
+ 
+In  the  case  of  digital  circuitry,  the  task  of 
+identifying a logic gate which is failing to perform 
+its logical function can be accomplished by various 
+means but the simplest and most expedient is with 
+the  aid  of  a  logic  probe  (see  page  282).  This 
+invaluable tool comprises a hand-held probe fitted 
+with  LED to indicate the logical state of its probe 
+tip.  
+In  use,  the  logic  probe  is  moved  from  point  to 
+ 
+point  within  a  logic  circuit  and  the  state  of  each 
+node is noted and compared with the expected logic 
+level. In order to carry out checks on more complex 
+logic  arrangements  a  logic  pulser  may  be  used  in 
+conjunction  with  the  logic  probe.  The  pulser 
+provides  a  means  of  momentarily  changing  the 
+state  of  a  node  (regardless  of  its  actual  state)  and 
+thus permits, for example, the clocking of a bistable 
+element (see page 284). 
+  Operational  amplifiers  can  usually  be  checked 
+using  simple  d.c.  voltage  measurements.  The  d.c. 
+voltages  appearing  at  the  inverting  and  non-
+inverting inputs should be accurately measured and 
+compared. Where the voltage at the inverting input 
+is  more  positive  with  respect  to  that  at  the  non-
+inverting  input,  the  output  voltage  will  be  high 
+(positive  if  the  operational  amplifier  is  operated 
+from a dual supply rail).  
+  Conversely, if the  voltage  at the  inverting input 
+is negative, with respect to that at the non-inverting 
+input,  the  output  voltage  will  be  high  (positive  if 
+the  operational  amplifier  is  operating  from  a  dual 
+supply).  
+  Finally,  if  both  inputs  are  at  0  V  and  there  is 
+virtually  no  difference  in  the  input  voltages,  the 
+output should also be close to 0 V. If it is high or 
+low  (or  sitting  at  one  or  other  of  the  supply 
+voltages) the device should be considered suspect. 

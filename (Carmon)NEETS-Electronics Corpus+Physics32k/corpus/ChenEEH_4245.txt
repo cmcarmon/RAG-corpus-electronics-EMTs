@@ -1,0 +1,8 @@
+Fiber data distribution interface (FDDI) is an example of
+MAN that is an ANSI X3T9.5 standard, proposed by the ANSI
+XT9.5 study group. Each ﬁeld in the MAC frame can either be
+represented as a symbol (4 bits, for nondata) or in bits format
+(data or address). The IEEE 802.5 token ring frame format is
+similar to the FDDI frame format. The FDDI frame includes
+a preamble to help in clocking because this is desirable for
+high-speed communication. FDDI does not include an access

@@ -1,0 +1,15 @@
+as shown in Figure 12.30. Because vIN is an impulse, it vanishes for t > 0.
+Therefore, Equation 12.119 reduces to a homogeneous equation for t > 0.
+Thus the impulse response of the circuit is essentially a homogeneous response,
+this response is identical to that studied in Subsection 12.2. In fact, as observed
+in Section 10.6.4 for a first-order circuit, the role of the impulse is to establish
+initial conditions for the subsequent homogeneous response.
+As previously observed on several occasions, the transient behavior of an
+uncharged capacitor is to act as a short circuit during the early part of a transient,
+while the corresponding transient behavior of an uncharged inductor is to act
+as an open circuit. Since the inductor acts as an open circuit during a sudden
+transition, the impulse in vIN falls entirely across the inductor while vC remains
+zero at t = 0. An important consequence of this is that the flux linkage ◦
+delivered by vIN is delivered entirely to the inductor, and so iL steps to −◦/L
+at t = 0. This establishes the initial conditions immediately after the impulse.
+In other words, these will be our initial conditions for the rest of our analysis:

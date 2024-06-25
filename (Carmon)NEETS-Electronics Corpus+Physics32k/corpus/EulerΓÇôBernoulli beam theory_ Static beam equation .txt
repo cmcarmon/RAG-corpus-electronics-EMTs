@@ -1,0 +1,504 @@
+The Euler–Bernoulli equation describes the relationship between the beam's deflection and the applied load:
+
+
+
+
+
+
+
+
+d
+
+
+2
+
+
+
+
+d
+
+
+x
+
+2
+
+
+
+
+
+
+(
+
+E
+I
+
+
+
+
+
+d
+
+
+2
+
+
+w
+
+
+
+d
+
+
+x
+
+2
+
+
+
+
+
+
+)
+
+=
+q
+
+
+
+{\displaystyle {\frac {\mathrm {d} ^{2}}{\mathrm {d} x^{2}}}\left(EI{\frac {\mathrm {d} ^{2}w}{\mathrm {d} x^{2}}}\right)=q\,}
+
+The curve
+
+
+
+w
+(
+x
+)
+
+
+{\displaystyle w(x)}
+describes the deflection of the beam in the
+
+
+
+z
+
+
+{\displaystyle z}
+direction at some position
+
+
+
+x
+
+
+{\displaystyle x}
+(recall that the beam is modeled as a one-dimensional object).
+
+
+
+q
+
+
+{\displaystyle q}
+is a distributed load, in other words a force per unit length (analogous to pressure being a force per area); it may be a function of
+
+
+
+x
+
+
+{\displaystyle x}
+,
+
+
+
+w
+
+
+{\displaystyle w}
+, or other variables.
+Note that
+
+
+
+E
+
+
+{\displaystyle E}
+is the elastic modulus and that
+
+
+
+I
+
+
+{\displaystyle I}
+is the second moment of area of the beam's cross-section.
+
+
+
+I
+
+
+{\displaystyle I}
+must be calculated with respect to the axis which passes through the centroid of the cross-section and which is perpendicular to the applied loading. Explicitly, for a beam whose axis is oriented along x with a loading along z, the beam's cross-section is in the yz plane, and the relevant second moment of area is
+
+
+
+
+I
+=
+∬
+
+z
+
+2
+
+
+
+d
+y
+
+d
+z
+,
+
+
+{\displaystyle I=\iint z^{2}\;dy\;dz,}
+
+where it is assumed that the centroid of the cross-section occurs at y = z = 0.
+Often, the product EI (known as the flexural rigidity) is a constant, so that
+
+
+
+
+E
+I
+
+
+
+
+
+d
+
+
+4
+
+
+w
+
+
+
+d
+
+
+x
+
+4
+
+
+
+
+
+=
+q
+(
+x
+)
+.
+
+
+
+{\displaystyle EI{\frac {\mathrm {d} ^{4}w}{\mathrm {d} x^{4}}}=q(x).\,}
+
+This equation, describing the deflection of a uniform, static beam, is used widely in engineering practice. Tabulated expressions for the deflection
+
+
+
+w
+
+
+{\displaystyle w}
+for common beam configurations can be found in engineering handbooks. For more complicated situations the deflection can be determined by solving the Euler–Bernoulli equation using techniques such as the "slope deflection method", "moment distribution method", "moment area method, "conjugate beam method", "the principle of virtual work", "direct integration", "Castigliano's method", "Macaulay's method" or the "direct stiffness method".
+Sign conventions are defined here since different conventions can be found in the literature. In this article, a right-handed coordinate system is used as shown in the figure, Bending of an Euler–Bernoulli beam. In this figure, the x and z direction of a right-handed coordinate system are shown. Since
+
+
+
+
+
+e
+
+z
+
+
+
+×
+
+
+e
+
+x
+
+
+
+=
+
+
+e
+
+y
+
+
+
+
+
+{\displaystyle \mathbf {e_{z}} \times \mathbf {e_{x}} =\mathbf {e_{y}} }
+where
+
+
+
+
+
+e
+
+x
+
+
+
+
+
+{\displaystyle \mathbf {e_{x}} }
+,
+
+
+
+
+
+e
+
+y
+
+
+
+
+
+{\displaystyle \mathbf {e_{y}} }
+, and
+
+
+
+
+
+e
+
+z
+
+
+
+
+
+{\displaystyle \mathbf {e_{z}} }
+are unit vectors in the direction of the x, y, and z axes respectively, the y axis direction is into the figure. Forces acting in the positive
+
+
+
+x
+
+
+{\displaystyle x}
+and
+
+
+
+z
+
+
+{\displaystyle z}
+directions are assumed positive. The sign of the bending moment
+
+
+
+M
+
+
+{\displaystyle M}
+is positive when the torque vector associated with the bending moment on the right hand side of the section is in the positive y direction (i.e. so that a positive value of
+
+
+
+M
+
+
+{\displaystyle M}
+leads to a compressive stress at the bottom fibers). With this choice of bending moment sign convention, in order to have
+
+
+
+d
+M
+=
+Q
+d
+x
+
+
+{\displaystyle dM=Qdx}
+, it is necessary that
+
+
+
+Q
+
+
+{\displaystyle Q}
+the shear force acting on the right side of the section be positive in the z direction so as to achieve static equilibrium of moments. To have force equilibrium with
+
+
+
+d
+Q
+=
+q
+d
+x
+
+
+{\displaystyle dQ=qdx}
+, q, the loading intensity must be positive in the minus z direction. In addition to these sign conventions for scalar quantities, we also sometimes use vectors in which the directions of the vectors is made clear through the use of the unit vectors,
+
+
+
+
+
+e
+
+x
+
+
+
+
+
+{\displaystyle \mathbf {e_{x}} }
+,
+
+
+
+
+
+e
+
+y
+
+
+
+
+
+{\displaystyle \mathbf {e_{y}} }
+, and
+
+
+
+
+
+e
+
+z
+
+
+
+
+
+{\displaystyle \mathbf {e_{z}} }
+.
+Successive derivatives of the deflection w have important physical meanings: dw/dx is the slope of the beam,
+
+
+
+
+M
+=
+−
+E
+I
+
+
+
+
+d
+
+2
+
+
+w
+
+
+d
+
+x
+
+2
+
+
+
+
+
+
+
+{\displaystyle M=-EI{\frac {d^{2}w}{dx^{2}}}}
+
+is the bending moment in the beam, and
+
+
+
+
+Q
+=
+−
+
+
+d
+
+d
+x
+
+
+
+
+(
+
+E
+I
+
+
+
+
+d
+
+2
+
+
+w
+
+
+d
+
+x
+
+2
+
+
+
+
+
+
+)
+
+
+
+{\displaystyle Q=-{\frac {d}{dx}}\left(EI{\frac {d^{2}w}{dx^{2}}}\right)}
+
+is the shear force in the beam.
+
+The stresses in a beam can be calculated from the above expressions after the deflection due to a given load has been determined.

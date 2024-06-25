@@ -1,0 +1,4 @@
+Given these samples,  f (x,y,t) can be reconstructed by generating a periodic impulse train in which suc-
+cessive  impulses  have  amplitudes  that  are  successive  sample  values.  This  impulse  train  is  then  processed
+through an ideal low-pass ﬁlter with appropriate gain and cut-off frequencies. The resulting output signal
+will be exactly equal to  f (x,y,t). (Source: Oppenheim et al., 1983, p. 519.)

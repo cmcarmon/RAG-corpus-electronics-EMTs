@@ -1,0 +1,8 @@
+Typically the projection method operates as a two-stage fractional step scheme, a method which uses multiple calculation steps for each numerical time-step. In many projection algorithms, the steps are split as follows:
+First the system is progressed in time to a mid-time-step position, solving the above transport equations for mass and momentum using a suitable advection method. This is denoted the predictor step.
+At this point an initial projection may be implemented such that the mid-time-step velocity field is enforced as divergence free.
+The corrector part of the algorithm is then progressed. These use the time-centred estimates of the velocity, density, etc. to form final time-step state.
+A final projection is then applied to enforce the divergence restraint on the velocity field. The system has now been fully updated to the new time.
+
+
+== References ==

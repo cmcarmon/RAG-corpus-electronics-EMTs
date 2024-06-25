@@ -1,0 +1,7 @@
+The philosophy of the ISO/OSI architecture is that in addition to the software being layered, implementations
+are not allowed to bypass entire layers; that is, every layer must appear in the implementation. This approach
+was developed after the approach deﬁned for the ARPANET project, which is hierarchical, was fully developed.
+In the hierarchical approach, the layer interfaces are carefully designed, but any number of layers of software
+can be bypassed by any application (or other higher-layer protocol) that provides the appropriate functionality.
+These two approaches have been hotly debated for a number of years, but as the years pass, the approaches are
+actually beginning to look more and more alike for a variety of reasons that will not be discussed here.

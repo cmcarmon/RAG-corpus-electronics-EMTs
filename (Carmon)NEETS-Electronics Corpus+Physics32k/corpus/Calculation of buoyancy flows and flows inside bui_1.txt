@@ -1,0 +1,30 @@
+Since there is natural driven ventilation resulting from the difference in temperature inside the buildings hence flows inside buildings fall under buoyancy force category. The momentum equation in the direction of gravity should be modeled for buoyant forces resulting from buoyancy. Hence the momentum equation is given by
+∂ρv/∂t + V.∇(ρv)= -g((ρ-ρ°) - ∇P+μ∇2v + Sv
+In the above equation -g((ρ-ρ°) is the buoyancy term, where ρ° is the reference density.
+On discretizing the above equation several instabilities are obtained during the solution process. Hence we use a transient approach as several relaxations are often required in obtaining a steady state solution.
+When applied to turbulent flows some additional modifications are to be applied to the calculation of buoyant flows. Hence an additional term is added, as recommended by Rodi(1978) in the k equation of the k- ε model is used below in modelling turbulent buoyant flows. Therefore, the k-equations takes the form
+∂ρk/∂t + ∇(ρku)= -g((ρ-ρ°) - ∇(τ∇×k) + G + B - ρε
+Where
+G= Usual Production or generation term = 2µE.E
+B = Generation term related to buoyancy
+Also B = βgi (μ/σ) ∂T/∂xi
+Where,
+T = Temperature
+gi = Gravitational acceleration in x-direction
+β = Volumetric expansion coefficient = -(1/ρ) ∂ρ/∂T
+Hence for turbulent kinetic energy the modeled transport equation is given as
+∂ρε/∂t + ∇(ρεu) = ∇(τ∇×k) + C1ε (ε/k)(G+B)(1+C3 Rf ) - C2 ε ρ(ε2/k)
+Where,
+Rf = Flux Richardson number.
+C3 = Additional model constant.
+Flux Richardson number as defined by Hossain and Rodi (1976) is Rf = -B/G.
+As C3 is close to unity in vertical buoyant shear layers and close zero in horizontal shear layers hence a single value of C3 cannot be used as Rf.
+Rf = - Gl/2(G+B)
+Where,
+Gl = Buoyancy production in lateral energy component.
+If we consider the horizontal shear layer where the lateral flow velocity component is in the direction of gravity, the production of buoyancy is given as
+Gl = 2B
+If we consider the vertical shear layer then the direction of gravity and the lateral component are normal to each other. Hence Gl = 0. Therefore, we obtain
+Rf = - B/(B+G) ------------ For horizontal layers
+Rf = 0 ------------- For vertical layers
+Finally in a given flow if vertical shear stresses are dominant then we can set Rf equal to zero and take C3 = 0.8.

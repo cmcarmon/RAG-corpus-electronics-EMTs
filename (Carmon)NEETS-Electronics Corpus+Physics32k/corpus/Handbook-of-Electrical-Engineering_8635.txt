@@ -1,0 +1,3 @@
+The next instruction, jump subroutine (JSR), does three things. It decrements SP (i.e., A7) by 4, stores the return
+address on the top of the stack, and puts the address of NumberCount in the program counter. We have just
+introduced two items which need speciﬁc deﬁnition:

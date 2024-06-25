@@ -1,0 +1,23 @@
+DSP systems implemented in either hardware or software-
+programmable DSP processors are characterized by the
+following common characteristics. First, data ﬂow/real-time
+computing corresponds to its analog counterpart in that an
+output signal is a convolution of an input signal and the
+impulse response of a given analog linear time-invariant
+(LTI) system. The convolution is assumed to take inﬁnitesimal
+time to compute. In a practical DSP system, a stream of output
+data is a discrete convolution sum of another stream of
+sampled/discretized input data and the impulse response of a
+discrete LTI system. Furthermore, the discrete convolution
+sum takes a ﬁnite amount of time to compute a useful
+datum (sampling time period). Hence, the notion of real-
+time computing is imposed. Such DSP systems may involve
+human interface, such as speech recognition for voice dialing
+or audio and video signal processing in Dolby Digital/DVD
+home theaters. Second, some DSP systems have an inﬁnite run
+time. For instance, a particular communication system on
+either the transmitting or receiving end must process the
+transmitted/received signal to maintain the continuous data/
+audio/video stream such as the backbone network of the Inter-
+net. Third, some DSP algorithms can be described in a nested
+Do-loop construct. This includes any vector/matrix multipli-

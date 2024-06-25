@@ -1,0 +1,12 @@
+The cache is intended to hold the most active portions of the memory, and the hardware dynamically selects
+portions of main memory to store in the cache. When the cache is full, bringing in new data must be matched
+by deleting old data. Thus a strategy for cache management is necessary. Cache management strategies exploit
+the principle of locality. Spatial locality is exploited by the choice of what is brought into the cache. Temporal
+locality  is  exploited  in  the  choice  of  which  block  is  removed. When  a  cache  miss  occurs,  hardware  copies  a
+large, contiguous block of memory into the cache, which includes the word requested. This ﬁxed-size region
+, may be as small as a single word, or up to several hundred bytes.
+of memory, known as a cache 
+A block is a set of contiguous memory locations, the number of which is usually a power of two. A block is
+ if the lowest address in the block is exactly divisible by the block size. That is to say, for a
+said to be 
+block of size 

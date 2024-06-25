@@ -1,0 +1,6 @@
+respond  to  the  test  pattern.  Thus,  the  ATPG  programs  assume  that  the  internal  ﬂip-ﬂop  clock  inputs  are
+controlled directly from an external pin of the component. This very desirable characteristic is often expressed
+by stating that externally applied clock pulses are not allowed to be gated by other signals before these reach the
+clock  terminals  of  the  internal  ﬂip-ﬂops.  A  side  beneﬁt  of  this  design  rule  is  that  it  prevents  glitches  (i.e.,
+undesirable pulses) which might be generated at the ﬂip-ﬂop clock terminals due to changing the other inputs
+to the clock gating circuit while the clock pulse is present.

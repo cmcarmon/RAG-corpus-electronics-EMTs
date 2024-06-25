@@ -1,0 +1,10 @@
+11.5 C M O S L O G I C
+Logic gates in the NMOS logic family dissipate static power even when the
+circuit is idle. In the example discussed earlier, the static power was nearly 100
+times larger than the power associated with signal activity. Because the pullup
+MOSFET is always on, the cause of the static power dissipation is the resistive
+path from the power supply to ground when the pulldown MOSFET is on.
+In this section, we introduce another type of logic called CMOS or Comple-
+mentary MOS, which has no static power dissipation. Because of its low static
+power dissipation,4 CMOS logic has all but replaced NMOS in modern VLSI
+chips.

@@ -1,0 +1,15 @@
+When the total variable comprises a DC operating value plus a small pertur-
+bation around the operating point, our models for the response of circuits to the
+perturbations will be linear and hence very simple. However, our incremental
+or small-signal models will apply only over a small range around the operating
+point. In contrast, our models of the previous chapter captured the behavior
+of the amplifier over a wide range of operation, but the models were complex.
+Separate models over different regions had to be spliced together to obtain the
+overall characteristics. Furthermore, the models were nonlinear. Such a tradeoff
+between complexity of the model and the range over which it is valid is not
+uncommon in modeling systems. In engineering practice, both extremes of
+models are useful: complex accurate models and simple approximate models.
+This chapter discusses small-signal models, which are simple models whose
+range of applicability is limited. Despite their limitations, the simple models
+are surprisingly useful engineering tools even when applied outside their strict
+range of validity.

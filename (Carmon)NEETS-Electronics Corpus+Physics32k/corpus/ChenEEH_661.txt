@@ -1,0 +1,8 @@
+A very important difference can be made between memories
+(for frequent and repetitive use) concerning short-term and
+long-term storage. Short-term storage devices are in general
+located very close to the operators and require a very small
+access time. Consequently, they should be limited to a rela-
+tively small capacity (less than 32 words typically) and are
+taken up usually in feedback loops over the operators (e.g.,
+RegfA-BufA-BusA-EXU-RegfA in Figure 2.1) or at the input of

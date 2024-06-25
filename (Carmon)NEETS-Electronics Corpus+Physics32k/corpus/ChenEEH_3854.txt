@@ -1,0 +1,18 @@
+Because the DCT highly concentrates the energy in few
+coefﬁcients, a large number of the DCT coefﬁcients are zero
+after quantization. Therefore, a coding method that avoids
+explicitly encoding the zeros can be very efﬁcient. In practice,
+this is achieved by scanning the quantized DCT coefﬁcients as
+in Figure 4.23 prior to encoding. Then, instead of encoding
+each coefﬁcient, one encodes the pairs (run, level); level indi-
+cates the quantized value of the nonzero coefﬁcient, while run
+indicates the number of zeros that comes before them. The
+encoding is performed using an entropy coder, like a Huffman
+or arithmetic coder. High compression rates can be achieved
+using such schemes. For example,
+the JPEG standard
+(Pennebaker and Mitchell, 1993) is essentially based on the
+above scheme. The same applies to the H.261, H.263, MPEG-1,
+MPEG-2, and MPEG-4 standards. Figure 4.24 shows the LENA
+256  256 image encoded using JPEG with 0.5 bits/pixel and a
+compression ratio of 16:1.

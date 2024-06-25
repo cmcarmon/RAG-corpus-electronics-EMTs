@@ -1,0 +1,9 @@
+When a positive current is applied to terminal G, transistor Q2 is biased into conduction, causing its 
+collector current to rise. Since the current gain of Q2 increases with increased collector current, a point 
+(called the breakover point) is reached where the loop gain equals unity and the circuit becomes 
+regenerative. At this point, collector current of the two transistors rapidly increases to a value limited only 
+by the external circuit. Both transistors are driven into saturation, and the impedance between A and C is 
+very low. The positive current applied to terminal G, which served to trigger the self-regenerative action, 
+is no longer required since the collector of PNP transistor Q1 now supplies more than enough current to 
+drive Q2. The circuit will remain on until it is turned off by a reduction in the collector current to a value 
+below that necessary to maintain conduction. 

@@ -1,0 +1,7 @@
+Let us assume for the moment that {en} is indeed stationary
+white noise, so {sn} is a stationary random process. In light of
+the difference equation 3.8, a natural way to estimate the
+parameters of a signal believed to follow an AR(M) model is
+to design an FIR ﬁlter that attempts to ‘‘predict’’ sn from its
+past M values. Let us denote the estimated ﬁlter parameters by
+{^aai}M

@@ -1,0 +1,5 @@
+To  take  full  advantage  of  a  parallel  computer  will  require  changes  to  the  operating  system  [Boykin  and
+Langerman, 1990] and application programs. Most programs are easily divided into pieces that can each run
+at the same time. If each of these pieces is a separate thread of control, they could run simultaneously on a
+parallel computer. By so dividing the application, the program may run in less time than it would on a single-
+processor (uniprocessor) computer.

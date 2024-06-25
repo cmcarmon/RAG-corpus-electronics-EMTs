@@ -1,0 +1,8 @@
+Extraction (as Opposed to Optimization)
+The  terms  “extraction”  and  “optimization”  are,  unfortunately,  used  interchangeably  in  the  semiconductor
+industry; however, strictly speaking, they are not the same. By optimization, we mean using generalized least-
+squares curve ﬁtting methods such as the Levenberg-Marquardt algorithm [Gill et al., 1981] to ﬁnd a set of
+model parameters. By extraction, we mean any technique that does not use general least-squares ﬁtting methods.
+This is a somewhat loose interpretation of the term extraction. The main point is that we write the equations
+we want and then solve them by whatever approximations we choose, as long as these approximations allow
+us to get the extracted results in closed form. This is parameter extraction.

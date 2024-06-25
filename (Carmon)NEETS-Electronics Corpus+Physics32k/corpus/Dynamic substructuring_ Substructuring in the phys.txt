@@ -1,0 +1,104 @@
+The physical domain is the domain that has the most straightforward physical interpretation. For each discrete linearised dynamic system one is able to write an equilibrium between the externally applied forces and the internal forces originating from intrinsic inertia, viscous damping and elasticity. This relation is governed by one of the most elementary formulas in structural vibrations:
+
+
+
+
+
+M
+
+
+
+
+u
+¨
+
+
+
+(
+t
+)
++
+
+C
+
+
+
+
+u
+˙
+
+
+
+(
+t
+)
++
+
+K
+
+
+u
+
+(
+t
+)
+=
+
+f
+
+(
+t
+)
+
+
+{\displaystyle \mathbf {M} \mathbf {\ddot {u}} (t)+\mathbf {C} \mathbf {\dot {u}} (t)+\mathbf {K} \mathbf {u} (t)=\mathbf {f} (t)}
+
+
+
+
+
+
+M
+
+,
+
+C
+
+,
+
+K
+
+
+
+{\displaystyle \mathbf {M} ,\mathbf {C} ,\mathbf {K} }
+represent the mass, damping and stiffness matrix of the system. These matrices are often obtained from finite element modelling (FEM), and are referred to as the numerical model of the structure. Furthermore,
+
+
+
+
+u
+
+
+
+{\displaystyle \mathbf {u} }
+represents the DoFs and
+
+
+
+
+f
+
+
+
+{\displaystyle \mathbf {f} }
+the force vector which are dependent on time
+
+
+
+(
+t
+)
+
+
+{\displaystyle (t)}
+. This dependency is omitted in the following equations in order to improve readability.

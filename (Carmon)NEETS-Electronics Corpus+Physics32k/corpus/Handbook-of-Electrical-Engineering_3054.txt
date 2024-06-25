@@ -1,0 +1,15 @@
+Active Filters for ICs
+It  was  noted  earlier  that  the  advent  of  the  IC  op  amp  made  the  RC-active  ﬁlter  a  practical  reality. A  typical
+state-of-the-art 1960–70s active ﬁlter would involve a printed circuit board-mounted circuit comprising discrete
+passive components together with IC op amps. Also appearing at this time were hybrid implementations, which
+involve special-purpose discrete components and op amp ICs interconnected on a ceramic or glass substrate.
+It was recognized, however, that there were considerable beneﬁts to be had from producing an all-IC active ﬁlter.
+Production of a quality on-chip capacitor involves substantial chip area, so the scaling techniques referred
+to earlier must be used to keep capacitance values down to the low picofarad range. The consequence of this
+is that, unfortunately, the circuit resistance values become proportionately large so that, again, there is a chip-
+area  problem.  The  solution  to  this  dilemma  emerged  in  the  late  1970s/early  1980s  with  the  advent  of  the
+switched-capacitor  (SC)  active  ﬁlter.  This  device,  a  development  of  the  active-RC  ﬁlter  that  is  speciﬁcally
+intended for use in IC form, replaces prototype circuit resistors with arrangements of switches and capacitors
+that can be shown to simulate resistances, under certain circumstances. The great merit of the scheme is that
+the  values  of  the  capacitors  involved  in  this  process  of  resistor  simulation  are  inversely  proportional  to  the
+values of the prototype resistors; thus, the ﬁnal IC structure involves principal and switched capacitors that are

@@ -1,0 +1,8 @@
+As in the register ﬁle, a DWB is used to support microrollback in
+cache memory. The only modiﬁcation for a cache, presented by
+Tamir and Tremblay (1990), is the use of two CAMs instead of
+one. In this case, each CAM checks only one part of the address,
+and, thus, the response time of the DWB is smaller. This is done
+to achieve better performance on cache microrollback support.
+The cache CAMs’ behavior for R/W operations and for rollback
+is exactly the same as that of the CAM for the register ﬁle.

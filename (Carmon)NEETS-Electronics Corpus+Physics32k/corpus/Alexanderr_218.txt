@@ -1,0 +1,12 @@
+4.10.1 Source Modeling
+Source  modeling  provides  an  example  of  the  usefulness  of  the
+Thevenin or the Norton equivalent. An active source such as a battery
+is often characterized by its Thevenin or Norton equivalent circuit. An
+ideal voltage source provides a constant voltage irrespective of the cur-
+rent  drawn  by  the  load,  while  an  ideal  current  source  supplies  a  con-
+stant  current  regardless  of  the  load  voltage.  As  Fig.  4.58  shows,
+practical  voltage  and  current  sources  are  not  ideal,  due  to  their  inter-
+nal resistances or source resistances
+They become ideal as
+Rs  S  0 and Rp  S  ⬁.
+To show that this is the case, consider the effect

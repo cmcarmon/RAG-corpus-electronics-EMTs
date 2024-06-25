@@ -1,0 +1,33 @@
+When the affinity of two ligands has to be determined, the binding constant must be determined. It is the equilibrium value for the product quotient. This value can also be found using the dynamic SPR parameters and, as in any chemical reaction, it is the dissociation rate divided by the association rate.
+For this, a bait ligand is immobilized on the dextran surface of the SPR crystal. Through a microflow system, a solution with the prey analyte is injected over the bait layer. As the prey analyte binds the bait ligand, an increase in SPR signal (expressed in response units, RU) is observed. After desired association time, a solution without the prey analyte (usually the buffer) is injected on the microfluidics that dissociates the bound complex between bait ligand and prey analyte. Now as the prey analyte dissociates from the bait ligand, a decrease in SPR signal (expressed in resonance units, RU) is observed. From these association ('on rate', ka) and dissociation rates ('off rate', kd), the equilibrium dissociation constant ('binding constant', KD) can be calculated.
+The actual SPR signal can be explained by the electromagnetic 'coupling' of the incident light with the surface plasmon of the gold layer. This plasmon can be influenced by the layer just a few nanometer across the gold–solution interface i.e. the bait protein and possibly the prey protein. Binding makes the reflection angle change;
+
+
+
+
+
+K
+
+D
+
+
+=
+
+
+
+k
+
+d
+
+
+
+k
+
+a
+
+
+
+
+
+
+{\displaystyle K_{D}={\frac {k_{\text{d}}}{k_{\text{a}}}}}

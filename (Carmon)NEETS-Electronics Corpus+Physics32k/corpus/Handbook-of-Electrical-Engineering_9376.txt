@@ -1,0 +1,34 @@
+PHIGS and PHIGS+, the Programmer’s Hierarchical Interactive Graphics System. Both systems support graph-
+ics primitives, such as lines, polygons, and character strings, and their attributes. The GKS system allows for
+groupings into segments with no nesting capabilities. PHIGS supports geometrical transformations (i.e., scaling,
+translating,  and  rotating)  and  a  database  structure  that  allows  for  selective  editing  and  manipulation  of  the
+rendering
+picture.  PHIGS  runs  best  when  there  is  hardware  support  for  the  transformation,  clipping,  and 
+features.  Other  software  include  the  cross-platform  OpenGL,  which  is  a  low-level  graphics  rendering  and
+imaging library, and Inventor, which is object-oriented and built on top of Open GL [Reynolds and Danielson, 1996].
+In  traditional  graphical  systems  development,  image  data  are  stored  either  as  Cartesian  coordinates  or  as
+vectors.  These  data  are  manipulated  through  the  geometrical  transformations  of  scaling,  translating,  and
+(WCS). The units of the WCS system might
+rotating in a reference system known as the 
+screen coordinate
+be inches, millimeters, or miles. Physical devices use their own coordinate systems known as 
+ takes place, which changes the
+systems 
+ or portion of
+window
+image data in the WCS to its corresponding device-speciﬁc screen coordinates in SCS. A 
+. Because some of the
+viewport
+the world picture is chosen to be shown in an area of the display known as the 
+operation is necessary. Clipping will eliminate any
+data in the world could be outside the window, a 
+data points outside the window. These values are then converted to an intermediate coordinate system known
+ (NDC). Values in this system are in the range of 0 to 1. Because a
+as the 
+viewport may be any portion of the display area and the image could be displayed on more than one device,
+the  NDC  values  are  easily  adjusted  to  screen  coordinates.  In  3-D,  the  clipping  volume  uses  the  viewing
+ (i.e., the position from which an object
+transformation which must take into account the 
+ (i.e., the conversion from the object’s 3-D coordinates
+is to be viewed) and the 
+to the screen’s 2-D coordinates).

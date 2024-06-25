@@ -1,0 +1,8 @@
+MPLS also supports label stacking, which can be very useful
+for performing tunneling operations. In label stacking, labels
+are stacked in a FILO order. In any particular domain, only the
+topmost label can be used to make forwarding decisions. This
+functionality can be very useful for providing mobility: a home
+agent can push another label on incoming packets and forward
+the packet to a foreign agent that pops it off and ﬁnally
+forwards the packet to the destination mobile host.

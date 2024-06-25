@@ -1,0 +1,16 @@
+A computer’s representation of integers is either perfect or only approximate, the latter situation occurring
+when the integer exceeds the range of numbers that a limited set of bytes can represent. Floating point
+representations have similar representation problems: if the number x can be multiplied/divided by enough
+powers of two to yield a fraction lying between 1/2 and 1 that has a ﬁnite binary-fraction representation, the
+number is represented exactly in ﬂoating point. Otherwise, we can only represent the number approximately,
+not catastrophically in error as with integers. For example, the number 2.5 equals 0.625 × 22, the fractional
+part of which has an exact binary representation.8 However, the number 2.6 does not have an exact binary
+representation, and only be represented approximately in ﬂoating point. In single precision ﬂoating point
+numbers, which require 32 bits (one byte for the exponent and the remaining 24 bits for the mantissa), the
+number “2.6” will be represented as 2.600000079 . . .. Note that this approximation has a much longer decimal
+expansion. This level of accuracy may not suﬃce in numerical calculations. Double precision ﬂoating
+point numbers consume 8 bytes, and quadruple precision 16 bytes. The more bits used in the mantissa,
+the greater the accuracy. This increasing accuracy means that more numbers can be represented exactly, but
+there are always some that cannot. Such inexact numbers have an inﬁnite binary representation.9 Realizing
+that real numbers can be only represented approximately is quite important, and underlies the entire ﬁeld
+of numerical analysis, which seeks to predict the numerical accuracy of any computation.

@@ -1,0 +1,113 @@
+In 1854, Lord Kelvin found relationships between the three coefficients, implying that the Thomson, Peltier, and Seebeck effects are different manifestations of one effect (uniquely characterized by the Seebeck coefficient).
+The first Thomson relation is
+
+
+
+
+
+
+K
+
+
+≡
+
+
+
+d
+Π
+
+
+d
+T
+
+
+
+−
+S
+,
+
+
+{\displaystyle {\mathcal {K}}\equiv {\frac {d\Pi }{dT}}-S,}
+
+where
+
+
+
+T
+
+
+{\displaystyle T}
+is the absolute temperature,
+
+
+
+
+
+K
+
+
+
+
+{\displaystyle {\mathcal {K}}}
+is the Thomson coefficient,
+
+
+
+Π
+
+
+{\displaystyle \Pi }
+is the Peltier coefficient, and
+
+
+
+S
+
+
+{\displaystyle S}
+is the Seebeck coefficient. This relationship is easily shown given that the Thomson effect is a continuous version of the Peltier effect. Using the second relation (described next), the first Thomson relation becomes
+
+
+
+
+
+K
+
+
+=
+T
+
+
+
+
+d
+S
+
+
+d
+T
+
+
+
+
+
+
+{\displaystyle {\mathcal {K}}=T{\tfrac {dS}{dT}}}
+.
+The second Thomson relation is
+
+
+
+
+Π
+=
+T
+S
+.
+
+
+{\displaystyle \Pi =TS.}
+
+This relation expresses a subtle and fundamental connection between the Peltier and Seebeck effects. It was not satisfactorily proven until the advent of the Onsager relations, and it is worth noting that this second Thomson relation is only guaranteed for a time-reversal symmetric material; if the material is placed in a magnetic field or is itself magnetically ordered (ferromagnetic, antiferromagnetic, etc.), then the second Thomson relation does not take the simple form shown here.
+The Thomson coefficient is unique among the three main thermoelectric coefficients because it is the only one directly measurable for individual materials. The Peltier and Seebeck coefficients can only be easily determined for pairs of materials; hence, it is difficult to find values of absolute Seebeck or Peltier coefficients for an individual material.
+If the Thomson coefficient of a material is measured over a wide temperature range, it can be integrated using the Thomson relations to determine the absolute values for the Peltier and Seebeck coefficients. This needs to be done only for one material, since the other values can be determined by measuring pairwise Seebeck coefficients in thermocouples containing the reference material and then adding back the absolute Seebeck coefficient of the reference material. For more details on absolute Seebeck coefficient determination, see Seebeck coefficient.

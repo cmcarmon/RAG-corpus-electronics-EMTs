@@ -1,0 +1,13 @@
+Special purpose hardware is also possible for implementing
+a digital ﬁlter. Hardware implementations consist of designing
+and possibly integrating a digital circuit with logical gates to
+perform the basic operating blocks inherent to any digital ﬁlter
+structure, namely multiplications, additions, and storage
+elements. Multiplications and additions can be implemented
+using bit-serial or bit-parallel architectures. In general, hard-
+ware implementations of digital ﬁlters are less ﬂexible than
+software (CPU-based) implementations. Special purpose hard-
+ware, however, is usually necessary when high cost of develop-
+ment is offset by a large production and a DSP-based solution
+is too expensive or is incapable of meeting sampling frequency
+speciﬁcations.

@@ -1,0 +1,13 @@
+for failure diagnosis.
+The smaller threshold value gives more restriction in
+failure recognition and thus provides a more conserva-
+tive diagnostic result. It also implies that more com-
+putational cost may possibly be spent due to the
+conservative attitude. On the other hand, if the value
+appears to be too big, large uncertainty may exist in the
+diagnostic result. Thus, the control actions may switch
+among nominal controller, postfailure control actions,
+and intelligent control regulator. The best design of
+these parameters
+should be on system-dependent
+bases.

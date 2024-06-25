@@ -1,0 +1,6 @@
+For our static discipline, VIL = 0.9 V. This means that to obey the
+static discipline the inverter must interpret any voltage below 0.9 V as
+a logical 0. This is true for our inverter. The inverter is off when its
+input voltage is below VT = 1 V, and its output is at 5 V. Since the
+inverter produces a valid (output) high output voltage for input
+voltages below 0.9 V, it satisfies the static discipline.16

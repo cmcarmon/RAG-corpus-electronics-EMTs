@@ -1,0 +1,5 @@
+Constant Expression Removal. The task of allocating program variables to physical locations is accomplished
+by all compilers; we have shown that there are many ways to achieve this goal with varying ease or run-time
+performance.  This  section  explores  a  compiler  task  which  is  done  strictly  for  optimization—the  removal  of
+constant  expressions.  In  exploring  this  task,  we  show  strategies  for  the  recognition  of  this  optimization  and
+also some caveats in their application.

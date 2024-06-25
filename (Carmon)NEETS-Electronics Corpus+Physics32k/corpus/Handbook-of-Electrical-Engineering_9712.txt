@@ -1,0 +1,10 @@
+One of the major components in any computer system is its software. Although software is unlikely to wear
+out in a physical sense, it is still impossible to prove that anything other than the simplest of programs is totally
+free from bugs. Hence, any piece of software will follow the ﬁrst and second parts of the normal bathtub curve
+(Fig. 98.1). The burn-in phase for hardware corresponds to the early release of a complex program, where bugs
+are commonly found and have to be ﬁxed. The useful life phase for hardware corresponds to the time when
+the software can be described as stable, even though bugs may still be found. In this phase, where the failure
+rate can be characterized as constant (even if it is very low), the hardware performance criteria, such as MTTF
+and MTTR can be estimated. They must be included in any estimation of the overall availability for the computer
+system as a whole. Just as with hardware, techniques using redundancy can be used to improve the availability
+through fault tolerance.

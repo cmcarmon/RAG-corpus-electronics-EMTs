@@ -1,0 +1,12 @@
+One way to achieve the speciﬁed goal of higher circuit
+reliability is to artiﬁcially shrink the permissible range of
+each local data path by an equal amount from either side of
+the interval and determine a feasible clock skew schedule based
+on these new timing constraints. This idea has been addressed
+by Fishburn (1990) as the problem of maximizing the min-
+imum slack (over all inequalities of equations 4.5 and 4.6) or
+the amount by which an inequality exceeds the limit. Formally,
+the problem can be expressed as the linear programming
+problem LCSS–SAFE:
+Problem LCSS–SAFE __________ (LP Clock skew scheduling
+for safety)

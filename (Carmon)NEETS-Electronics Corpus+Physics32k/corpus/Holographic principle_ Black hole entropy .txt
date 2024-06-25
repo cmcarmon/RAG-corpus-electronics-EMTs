@@ -1,0 +1,47 @@
+An object with relatively high entropy is microscopically random, like a hot gas. A known configuration of classical fields has zero entropy: there is nothing random about electric and magnetic fields, or gravitational waves. Since black holes are exact solutions of Einstein's equations, they were thought not to have any entropy either.
+But Jacob Bekenstein noted that this leads to a violation of the second law of thermodynamics. If one throws a hot gas with entropy into a black hole, once it crosses the event horizon, the entropy would disappear. The random properties of the gas would no longer be seen once the black hole had absorbed the gas and settled down. One way of salvaging the second law is if black holes are in fact random objects with an entropy that increases by an amount greater than the entropy of the consumed gas.
+Bekenstein assumed that black holes are maximum entropy objects—that they have more entropy than anything else in the same volume. In a sphere of radius R, the entropy in a relativistic gas increases as the energy increases. The only known limit is gravitational; when there is too much energy [entropy?] the gas collapses into a black hole. Bekenstein used this to put an upper bound on the entropy in a region of space, and the bound was proportional to the area of the region. He concluded that the black hole entropy is directly proportional to the area of the event horizon.
+Stephen Hawking had shown earlier that the total horizon area of a collection of black holes always increases with time. The horizon is a boundary defined by light-like geodesics; it is those light rays that are just barely unable to escape. If neighboring geodesics start moving toward each other they eventually collide, at which point their extension is inside the black hole. So the geodesics are always moving apart, and the number of geodesics which generate the boundary, the area of the horizon, always increases. Hawking's result was called the second law of black hole thermodynamics, by analogy with the law of entropy increase, but at first, he did not take the analogy too seriously.
+Hawking knew that if the horizon area were an actual entropy, black holes would have to radiate. When heat is added to a thermal system, the change in entropy is the increase in mass-energy divided by temperature:
+
+
+
+
+
+
+d
+
+
+S
+=
+
+
+
+
+
+δ
+
+
+M
+
+
+c
+
+2
+
+
+
+T
+
+
+.
+
+
+{\displaystyle {\rm {d}}S={\frac {{\rm {\delta }}M\ c^{2}}{T}}.}
+
+
+(Here the term δM c2 is substituted for the thermal energy added to the system, generally by non-integrable random processes, in contrast to dS, which is a function of a few "state variables" only, i.e. in conventional thermodynamics only of the Kelvin temperature T and a few additional state variables as, e.g., the pressure)
+If black holes have a finite entropy, they should also have a finite temperature. In particular, they would come to equilibrium with a thermal gas of photons. This means that black holes would not only absorb photons, but they would also have to emit them in the right amount to maintain detailed balance.
+Time independent solutions to field equations do not emit radiation, because a time independent background conserves energy. Based on this principle, Hawking set out to show that black holes do not radiate. But, to his surprise, a careful analysis convinced him that they do, and in just the right way to come to equilibrium with a gas at a finite temperature. Hawking's calculation fixed the constant of proportionality at 1/4; the entropy of a black hole is one quarter its horizon area in Planck units.
+The entropy is proportional to the logarithm of the number of microstates, the ways a system can be configured microscopically while leaving the macroscopic description unchanged. Black hole entropy is deeply puzzling — it says that the logarithm of the number of states of a black hole is proportional to the area of the horizon, not the volume in the interior.
+Later, Raphael Bousso came up with a covariant version of the bound based upon null sheets.

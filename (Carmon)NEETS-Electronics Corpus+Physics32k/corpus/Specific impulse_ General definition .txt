@@ -1,0 +1,132 @@
+For all vehicles, specific impulse (impulse per unit weight-on-Earth of propellant) in seconds can be defined by the following equation:
+
+
+
+
+
+F
+
+thrust
+
+
+=
+
+g
+
+0
+
+
+⋅
+
+I
+
+sp
+
+
+⋅
+
+
+
+m
+˙
+
+
+
+,
+
+
+{\displaystyle F_{\text{thrust}}=g_{0}\cdot I_{\text{sp}}\cdot {\dot {m}},}
+
+where:
+
+
+
+
+
+F
+
+thrust
+
+
+
+
+{\displaystyle F_{\text{thrust}}}
+is the thrust obtained from the engine, in newtons (or pounds force),
+
+
+
+
+
+g
+
+0
+
+
+
+
+{\displaystyle g_{0}}
+is the standard gravity, which is nominally the gravity at Earth's surface, in m/s2 (or ft/s2),
+
+
+
+
+
+I
+
+sp
+
+
+
+
+{\displaystyle I_{\text{sp}}}
+is the specific impulse measured in seconds,
+
+
+
+
+
+
+
+m
+˙
+
+
+
+
+
+{\displaystyle {\dot {m}}}
+is the mass flow rate in kg/s (or slugs/s), which is the negative of the time-rate of change of the vehicle's mass (since propellant is being expelled).
+The English unit pound mass is more commonly used than the slug, and when using pounds per second for mass flow rate, the conversion constant g0 becomes unnecessary, because the slug is dimensionally equivalent to pounds divided by g0:
+
+
+
+
+
+F
+
+thrust
+
+
+=
+
+I
+
+sp
+
+
+⋅
+
+
+
+m
+˙
+
+
+
+.
+
+
+{\displaystyle F_{\text{thrust}}=I_{\text{sp}}\cdot {\dot {m}}.}
+
+Isp in seconds is the amount of time a rocket engine can generate thrust, given a quantity of propellant whose weight is equal to the engine's thrust.
+The advantage of this formulation is that it may be used for rockets, where all the reaction mass is carried on board, as well as airplanes, where most of the reaction mass is taken from the atmosphere. In addition, it gives a result that is independent of units used (provided the unit of time used is the second).

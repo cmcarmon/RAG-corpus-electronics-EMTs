@@ -1,0 +1,12 @@
+MPEG-4 Multimedia System
+Figure 17.32  shows  an  architectural  overview  of  MPEG-4.  The  standard  deﬁnes  a  set  of  syntax  to  represent
+individual audiovisual objects, with both natural and synthetic contents. These objects are ﬁrst encoded inde-
+pendently into their own elementary streams. Scene description information is provided separately, deﬁning
+the location of these objects in space and time that are composed into the ﬁnal scene presented to the user.
+This representation includes support for user interaction and manipulation. The scene description uses a tree-
+based  structure,  following  the  Virtual  Reality  Modeling  Language  (VRML)  design.  Moving  far  beyond  the
+capabilities of VRML, MPEG-4 scene descriptions can be dynamically constructed and updated, enabling much
+higher levels of interactivity. Object descriptors are used to associate scene description components that relate
+digital video to the actual elementary streams that contain the corresponding coded data. As shown in Fig. 17.32,
+these components are encoded separately and transmitted to the receiver. The receiving terminal then has the
+responsibility of composing the individual objects for presentation and for managing user interaction.

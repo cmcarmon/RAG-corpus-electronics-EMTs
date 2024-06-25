@@ -1,0 +1,17 @@
+Miller’s theorem for shunt feedback this feedback capacitance can
+be  transformed  into  an  equivalent  input  capacitance  CGD ¢  =  (1  –
+AV)CGD  and  an  equivalent  output  capacitance  CG D ¢¢  =  (1  –
+1/AV)CG D , as shown in Fig. 24.20. The net input capacitance is now
+Cin  =  CGS  +  (1  –  AV)CGD  and  the  net  output  capacitance  is  CO  =
+(1 – 1/AV)CGD  +  CL.  Since  the  voltage  gain  AV  is  given  by  AV  =
+–gm Rnet , where Rnet represents the net load resistance, the equations
+for  Cin  and  CO  can  be  written  approximately  as  Cin  =  CGS  +  (1  +
+gm Rnet)CGD and CO = [1 + 1/(gm Rnet)]CGD + CL. Since usually AV =
+gm Rnet >>  1,  CO  can  be  written  as  CO @  CGD  +  CL.  Note  that  the
+voltage  gain  given  by AV  =  –gm Rnet  is  not  valid  in  the  higher  fre-
+quency, where AV will decrease with increasing frequency. Therefore
+the expressions for Cin and CO will not be exact but will still be a
+useful approximation for the determination of the frequency- and
+time-domain responses. We also note that the contribution of CGD
+to the input capacitance is increased by the Miller effect factor of
+1 + gm Rnet .

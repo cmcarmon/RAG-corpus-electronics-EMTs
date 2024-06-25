@@ -1,0 +1,6 @@
+Second, the number of parameters should be kept to a minimum. If more than four or ﬁve parameters seem
+to be required, programmers should seriously consider packaging some of them into a record or an array. Of
+course, only values that in some logical sense belong together should be packaged, while parameters that serve
+different  functions  should  be  kept  separate.  For  example,  suppose  the  operation  updateRecord  is  to  ﬁnd  a
+personnel record with a given identiﬁcation number in a ﬁle or a list and then change certain ﬁelds such as
+the job title, rate of pay, etc. A programmer may be tempted to deﬁne

@@ -1,0 +1,8 @@
+Nonpersistent CSMA
+In nonpersistent CSMA, if a frame is waiting for transmission,
+a station checks if the medium is idle and transmits the frame
+right away if the medium is idle. If the medium is busy, the
+station waits for a random amount of time and then repeats
+the same procedure to check if the medium is idle. The algo-
+rithm can reduce the possibility collisions, but there is waste
+due to the idle time.

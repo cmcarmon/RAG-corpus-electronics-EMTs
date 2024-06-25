@@ -1,0 +1,8 @@
+set to logic 1). Furthermore, whereas it is also necessary to apply the scan-in clk in order to write into the latch,
+no clock is necessary to observe the latch output. This is a convenient feature that allows the latch values to be
+selectively observable even while the regular system operations are being executed. The scan-out values from
+the  individual  latches  are  combined  together  into  a  single  AND  gate  and  brought  out  to  a  primary  output
+terminal of the circuit. This arrangement works since for any given address only one of the addressable latches
+will be selected and the scan-out from all other latches will be forced to the logic 1 state. On the other hand,
+a disadvantage of this approach is that before addressing each latch its proper address must ﬁrst be applied to
+the circuit.

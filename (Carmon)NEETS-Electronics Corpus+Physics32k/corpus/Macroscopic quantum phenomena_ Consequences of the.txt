@@ -1,0 +1,44 @@
+The concept of macroscopically-occupied quantum states is introduced by Fritz London. In this section it will be explained what it means if the ground state is occupied by a very large number of particles. We start with the wave function of the ground state written as
+
+with Ψ₀ the amplitude and
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+the phase. The wave function is normalized so that
+
+The physical interpretation of the quantity
+
+depends on the number of particles. Fig.1 represents a container with a certain number of particles with a small control volume ΔV inside. We check from time to time how many particles are in the control box. We distinguish three cases:
+1. There is only one particle. In this case the control volume is empty most of the time. However, there is a certain chance to find the particle in it given by Eq.(3). The chance is proportional to ΔV. The factor ΨΨ∗ is called the chance density.
+2. If the number of particles is a bit larger there are usually some particles inside the box. We can define an average, but the actual number of particles in the box has relatively large fluctuations around this average.
+3. In the case of a very large number of particles there will always be a lot of particles in the small box. The number will fluctuate but the fluctuations around the average are relatively small. The average number is proportional to ΔV and ΨΨ∗ is now interpreted as the particle density.
+In quantum mechanics the particle probability flow density Jp (unit: particles per second per m²) can be derived from the Schrödinger equation to be
+
+with q the charge of the particle and
+
+
+
+
+
+
+A
+→
+
+
+
+
+
+{\displaystyle {\vec {A}}}
+the vector potential. With Eq.(1)
+
+If the wave function is macroscopically occupied the particle probability flow density becomes a particle flow density. We introduce the fluid velocity vs via the mass flow density
+
+The density (mass per m³) is
+
+so Eq.(5) results in
+
+This important relation connects the velocity, a classical concept, of the condensate with the phase of the wave function, a quantum-mechanical concept.

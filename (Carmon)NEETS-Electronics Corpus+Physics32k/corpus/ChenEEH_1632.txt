@@ -1,0 +1,20 @@
+. Coding redundancy: Consider the case of an 8-bit per
+pixel image (i.e., each pixel in the image is represented
+with an 8-bit value ranging between 0 to 255, depending
+on the local luminosity level in that particular area of the
+image). Because the gray scale value of some of the pixels
+may be small (around zero for a darker pixel), represent-
+ing those pixels with the same number of bits for the ones
+with a higher pixel value (brighter pixels) is not a good
+coding scheme. In addition, some of the gray scale values
+in the image may be occurring more often than others. A
+more realistic approach would be to assign shorter codes
+to the more frequent data. Instead of using ﬁxed-length
+codes as above, the variable length coding schemes (e.g.,
+Shannon-Fano, Huffman, arithmetic, etc.) would be used
+in which the smaller and more frequently occurring gray
+scale values get shorter codes. If the gray levels of an
+image are encoded in such a way that uses more code
+symbols than absolutely necessary to represent each gray
+level, the resulting image is said to contain the coding
+redundancy.

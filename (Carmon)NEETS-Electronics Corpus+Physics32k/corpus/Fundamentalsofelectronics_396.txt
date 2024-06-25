@@ -1,0 +1,10 @@
+is has no eﬀect: Whatever you pick for a value has no practical relevance for either the signal’s spectrum or
+for how a system responds to the signal. The Fourier series value “at” the discontinuity is the average of the
+values on either side of the jump.
+4.6 Encoding Information in the Frequency Domain11
+To emphasize the fact that every periodic signal has both a time and frequency domain representation, we
+can exploit both to encode information into a signal. Refer to the Fundamental Model of Communication
+(Figure 1.3). We have an information source, and want to construct a transmitter that produces a signal
+x (t). For the source, let’s assume we have information to encode every T seconds. For example, we want
+to represent typed letters produced by an extremely good typist (a key is struck every T seconds). Let’s
+consider the Fourier series formula in the light of trying to encode information.

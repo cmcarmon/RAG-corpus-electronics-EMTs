@@ -1,0 +1,12 @@
+In addition, note that the adjacency matrix as deﬁned in
+equation 4.23 is always symmetric. The edges of g C have no
+direction, so each edge between vertices vi and vj is shown in
+both of the rows corresponding to i and j. In addition, all
+diagonal elements of the adjacency matrix are zeros since self-
+loop edges are excluded by the required circuit graph proper-
+ties described in Section 4.2.2. As a ﬁnal reminder and without
+any loss of generality, it is assumed that a circuit has a con-
+nected graph (West, 1996). In other words, a circuit does not
+have isolated groups of registers. If a speciﬁc circuit has a
+disconnected graph, then each connected subgraph (subcir-
+cuit) can be considered separately.

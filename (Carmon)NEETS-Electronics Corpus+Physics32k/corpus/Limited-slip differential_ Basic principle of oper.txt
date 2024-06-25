@@ -1,0 +1,12 @@
+Automotive limited-slip differentials all contain a few basic elements. First, all have a gear train that, like an open differential, allows the output shafts to spin at different speeds while holding the sum of their speeds proportional to that of the input shaft.
+Second, all have some sort of mechanism that applies a torque (internal to the differential) that resists the relative motion of the output shafts. In simple terms, this means they have some mechanism which resists a speed difference between the outputs, by creating a resisting torque between either the two outputs, or the outputs and the differential housing. There are many mechanisms used to create this resisting torque. The type of limited-slip differential typically gets its name from the design of this resisting mechanism. Examples include viscous and clutch-based LSDs. The amount of limiting torque provided by these mechanisms varies by design and is discussed later in the article.
+A limited-slip differential has a more complex torque-split and should be considered in the case when the outputs are spinning the same speed and when spinning at different speeds. The torque difference between the two axles is called Trq d . (In this work it is called Trq f for torque friction). Trq d is the difference in torque delivered to the left and right wheel. The magnitude of Trq d comes from the slip-limiting mechanism in the differential and may be a function of input torque (as in the case of a gear differential), or the difference in the output speeds (as in the case of a viscous differential).
+The torque delivered to the outputs is:
+Trq 1 = ½ Trq in + ½ Trq d for the slower output
+Trq 2 = ½ Trq in – ½ Trq d for the faster output
+When traveling in a straight line, where one wheel starts to slip (and spin faster than the wheel with traction), torque is reduced to the slipping wheel (Trq 2 ) and provided to the slower wheel (Trq 1 ).
+In the case when the vehicle is turning and neither wheel is slipping, the inside wheel will be turning slower than the outside wheel. In this case the inside wheel will receive more torque than the outside wheel, which can result in understeer.
+When both wheels are spinning at the same speed, the torque distribution to each wheel is:
+Trq (1 or 2) = ½ Trq in ±(½ Trq d ) while
+Trq 1 +Trq 2 =Trq in .
+This means the maximum torque to either wheel is statically indeterminate but is in the range of ½ Trq in ±( ½ Trq d ).

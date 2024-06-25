@@ -1,0 +1,8 @@
+The basic building block of any register is the ﬂip-ﬂop, but, just as there are several types of ﬂip-ﬂop, there are
+many different register arrangements, and an idea of the vast range and their interrelationships is given in Fig. 81.27.
+The simplest type of ﬂip-ﬂop is the set-reset ﬂip-ﬂop which can be constructed simply by cross-connecting
+two NAND/NOR gates. This forms an asynchronous ﬂip-ﬂop in which the set or reset signal determines both
+what the ﬂip-ﬂop is to do and when it is to operate. In fact, if a state change is required, the ﬂip-ﬂop begins
+to change state as soon as the input change is detected. This ﬂip-ﬂop is therefore useful as a latch which is used
+to detect when some event has occurred, and is often referred to as a ﬂag since it indicates to other circuitry
+that the event has occurred and remains set until the controlling circuitry responds by resetting it.

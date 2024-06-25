@@ -1,0 +1,10 @@
+Current measurement using a shunt resistor and voltmeter is particularly well-suited for
+applications involving particularly large magnitudes of current.
+In such applications, the
+shunt resistor’s resistance will likely be in the order of milliohms or microohms, so that only a
+modest amount of voltage will be dropped at full current. Resistance this low is comparable to
+wire connection resistance, which means voltage measured across such a shunt must be done
+so in such a way as to avoid detecting voltage dropped across the current-carrying wire con-
+nections, lest huge measurement errors be induced. In order that the voltmeter measure only
+the voltage dropped by the shunt resistance itself, without any stray voltages originating from
+wire or connection resistance, shunts are usually equipped with four connection terminals:

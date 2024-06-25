@@ -1,0 +1,60 @@
+The exchange of gases occurs as a result of diffusion down a concentration gradient. Gas molecules move from a region in which they are at high concentration to one in which they are at low concentration. Diffusion is a passive process, meaning that no energy is required to power the transport, and it follows Fick’s Law:
+
+
+
+
+J
+=
+−
+D
+
+
+
+d
+φ
+
+
+d
+x
+
+
+
+
+
+{\displaystyle J=-D{\frac {d\varphi }{dx}}}
+
+In relation to a typical biological system, where two compartments ('inside' and 'outside'), are separated by a membrane barrier, and where a gas is allowed to spontaneously diffuse down its concentration gradient:
+J is the flux, the amount of gas diffusing per unit area of membrane per unit time. Note that this is already scaled for the area of the membrane.
+D is the diffusion coefficient, which will differ from gas to gas, and from membrane to membrane, according to the size of the gas molecule in question, and the nature of the membrane itself (particularly its viscosity, temperature and hydrophobicity).
+φ is the concentration of the gas.
+x is the position across the thickness of the membrane.
+dφ/dx is therefore the concentration gradient across the membrane. If the two compartments are individually well-mixed, then this is simplifies to the difference in concentration of the gas between the inside and outside compartments divided by the thickness of the membrane.
+The negative sign indicates that the diffusion is always in the direction that - over time - will destroy the concentration gradient, i.e. the gas moves from high concentration to low concentration until eventually the inside and outside compartments reach equilibrium.
+
+Fig. 1. Fick's Law for gas-exchange surface
+Gases must first dissolve in a liquid in order to diffuse across a membrane, so all biological gas exchange systems require a moist environment. In general, the higher the concentration gradient across the gas-exchanging surface, the faster the rate of diffusion across it. Conversely, the thinner the gas-exchanging surface (for the same concentration difference), the faster the gases will diffuse across it.
+In the equation above, J is the flux expressed per unit area, so increasing the area will make no difference to its value. However, an increase in the available surface area, will increase the amount of gas that can diffuse in a given time. This is because the amount of gas diffusing per unit time (dq/dt) is the product of J and the area of the gas-exchanging surface, A:
+
+
+
+
+
+
+
+d
+q
+
+
+d
+t
+
+
+
+=
+J
+A
+
+
+{\displaystyle {\frac {dq}{dt}}=JA}
+
+Single-celled organisms such as bacteria and amoebae do not have specialised gas exchange surfaces, because they can take advantage of the high surface area they have relative to their volume. The amount of gas an organism produces (or requires) in a given time will be in rough proportion to the volume of its cytoplasm. The volume of a unicellular organism is very small, therefore it produces (and requires) a relatively small amount of gas in a given time. In comparison to this small volume, the surface area of its cell membrane is very large, and adequate for its gas-exchange needs without further modification. However, as an organism increases in size, its surface area and volume do not scale in the same way. Consider an imaginary organism that is a cube of side-length, L. Its volume increases with the cube (L3) of its length, but its external surface area increases only with the square (L2) of its length. This means the external surface rapidly becomes inadequate for the rapidly increasing gas-exchange needs of a larger volume of cytoplasm. Additionally, the thickness of the surface that gases must cross (dx in Fick's Law) can also be larger in larger organisms: in the case of a single-celled organism, a typical cell membrane is only 10 nm thick; but in larger organisms such as roundworms (Nematoda) the equivalent exchange surface - the cuticle - is substantially thicker at 0.5 µm.

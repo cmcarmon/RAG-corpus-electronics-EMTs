@@ -1,0 +1,10 @@
+Time Domain
+Time-domain DE modeling can use either implicit or explicit solution methods for developing the time variation
+of the solution. An explicit technique is one whereby the update at each time step is given in terms of solved-
+for past values of the unknowns and the present excitation, with no interaction permitted between unknowns
+within the same time step, and is the approach used in a technique known as ﬁnite-difference time domain
+(FDTD). An implicit technique, on the other hand, does allow for interaction of unknowns within the same
+time  step  but  can  therefore  require  the  solution  of  a  matrix  equation.  In  spite  of  this  disadvantage,  implicit
+techniques are important because they are not subject to Courant instability when cdt > Dc as is an explicit
+approach. Books entirely devoted to FDTD and its applications are now becoming available, one of which is
+by Kunz and Luebbers (1993).

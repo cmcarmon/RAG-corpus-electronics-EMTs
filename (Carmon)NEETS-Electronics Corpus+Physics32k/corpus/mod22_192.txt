@@ -1,0 +1,14 @@
+Two reels are used, tape moves from a supply reel to a take-up reel (both are mounted on hubs). 
+Figure 2-18 shows the basic tape drive mechanism. The magnetic oxide coated side of the tape passes 
+directly over the read/write head assembly, making contact with the heads. The magnetic tape unit reads 
+and writes data in parallel channels or tracks along the length of the tape as shown in figure 2-19, view A. 
+Each channel or track is used by a read/write head (one for each channel), as the tape moves across the 
+magnetic gap of the head. Read/write heads may be either one gap or two gap as shown in figure 2-19, 
+views B and C. The one-gap head has only one magnetic gap at which both reading and writing occur. 
+The two-gap head has one gap for reading and another for writing. Although the one gap is satisfactory, 
+the two-gap head gives increased speed by checking while writing. For example, a tape being written on 
+passes over the write gap where the data is recorded, and then the data is read as it passes over the read 
+gap to make a comparison. With this method, errors are detected almost instantly. When you look closely 
+at figure 2-19, view B (top view), you will notice that there is one read/write coil in the write head for 
+each channel (or track). In this particular case, there are seven. It is the electrical current flowing through 
+these coils that magnetizes the iron-oxide coating on the surface of the tape. 

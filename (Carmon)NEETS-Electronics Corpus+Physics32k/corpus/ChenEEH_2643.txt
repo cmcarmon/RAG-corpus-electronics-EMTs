@@ -1,0 +1,11 @@
+The solution procedure described above is called the
+method of moments because equation 8.10 is equivalent to
+taking the moments of equation 8.9. It is also known as the
+weighted residual method because equation 8.10 can be in-
+terpreted as setting the weighted residual of equation 8.9 to
+zero. The solution procedure works for both differential and
+integral operators. In fact, it is a widely used procedure to
+formulate the well-known ﬁnite element method (Jin, 1993).
+In the computational electromagnetics community, the name
+of the moment method is reserved for the case when L is an
+integral operator involving a Green’s function.

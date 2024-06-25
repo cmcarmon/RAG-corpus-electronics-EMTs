@@ -1,0 +1,5 @@
+Now, the voltmeter can only indicate the voltage its connected across. It has no way of
+”knowing” there was a potential of 12 volts dropped across the lower 250 MΩ resistor before it
+was connected across it. The very act of connecting the voltmeter to the circuit makes it part of
+the circuit, and the voltmeter’s own resistance alters the resistance ratio of the voltage divider
+circuit, consequently affecting the voltage being measured.

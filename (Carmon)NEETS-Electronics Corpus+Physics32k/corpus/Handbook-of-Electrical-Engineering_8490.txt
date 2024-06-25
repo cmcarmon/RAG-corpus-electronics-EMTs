@@ -1,0 +1,7 @@
+The recoding is performed within two steps: encoding and selec-
+tion. The purpose of the encoding is to scan the triplet of bits of the
+multiplier and deﬁne the operation to be performed on the multi-
+plicand, as shown in Table 86.8. This method is actually an applica-
+tion of a sign-digit representation in radix 4. The Booth-MacSorley
+algorithm, usually called the Modiﬁed Booth algorithm or simply the
+Booth algorithm, can be generalized to any radix.

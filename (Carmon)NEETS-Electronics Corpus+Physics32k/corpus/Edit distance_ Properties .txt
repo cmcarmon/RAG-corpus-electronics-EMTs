@@ -1,0 +1,15 @@
+Edit distance with non-negative cost satisfies the axioms of a metric, giving rise to a metric space of strings, when the following conditions are met:
+Every edit operation has positive cost;
+for every operation, there is an inverse operation with equal cost.
+With these properties, the metric axioms are satisfied as follows:
+d(a, b) = 0 if and only if a=b, since each string can be trivially transformed to itself using exactly zero operations.
+d(a, b) > 0 when a ≠ b, since this would require at least one operation at non-zero cost.
+d(a, b) = d(b, a) by equality of the cost of each operation and its inverse.
+Triangle inequality: d(a, c) ≤ d(a, b) + d(b, c).
+Levenshtein distance and LCS distance with unit cost satisfy the above conditions, and therefore the metric axioms. Variants of edit distance that are not proper metrics have also been considered in the literature.
+Other useful properties of unit-cost edit distances include:
+LCS distance is bounded above by the sum of lengths of a pair of strings.
+LCS distance is an upper bound on Levenshtein distance.
+For strings of the same length, Hamming distance is an upper bound on Levenshtein distance.
+Regardless of cost/weights, the following property holds of all edit distances:
+When a and b share a common prefix, this prefix has no effect on the distance. Formally, when a = uv and b = uw, then d(a, b) = d(v, w). This allows speeding up many computations involving edit distance and edit scripts, since common prefixes and suffixes can be skipped in linear time.

@@ -1,0 +1,4 @@
+Since we don’t want to measure these stray wire and connection resistances, but only mea-
+sure Rx, we must ﬁnd some way to connect the null detector so that it won’t be inﬂuenced by
+voltage dropped across them. If we connect the null detector and RM /RN ratio arms directly
+across the ends of Ra and Rx, this gets us closer to a practical solution:

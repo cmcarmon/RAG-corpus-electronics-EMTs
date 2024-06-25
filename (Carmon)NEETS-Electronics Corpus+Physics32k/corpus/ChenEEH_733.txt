@@ -1,0 +1,8 @@
+BTPC is a lossless or lossy image compression algorithm
+based on multiresolution (Robinson, 1997). The image is
+successively split into a high-resolution image and a low-
+resolution quarter image, where the low-resolution image is
+split up further. The pixels in the high-resolution image are
+predicted based on patterns in the neighboring pixels. The
+remaining error is then expected to achieve high compression
+ratios with an adaptive Huffman coder.

@@ -1,0 +1,109 @@
+Once the friction factors of the pipes are obtained (or calculated from pipe friction laws such as the Darcy-Weisbach equation), we can consider how to calculate the flow rates and head losses on the network. Generally the head losses (potential differences) at each node are neglected, and a solution is sought for the steady-state flows on the network, taking into account the pipe specifications (lengths and diameters), pipe friction properties and known flow rates or head losses.
+The steady-state flows on the network must satisfy two conditions:
+At any junction, the total flow into a junction equals the total flow out of that junction (law of conservation of mass, or continuity law, or Kirchhoff's first law)
+Between any two junctions, the head loss is independent of the path taken (law of conservation of energy, or Kirchhoff's second law). This is equivalent mathematically to the statement that on any closed loop in the network, the head loss around the loop must vanish.
+
+If there are sufficient known flow rates, so that the system of equations given by (1) and (2) above is closed (number of unknowns = number of equations), then a deterministic solution can be obtained.
+The classical approach for solving these networks is to use the Hardy Cross method. In this formulation, first you go through and create guess values for the flows in the network. These initial guesses must satisfy the Kirchhoff laws (1). That is, if Q7 enters a junction and Q6 and Q4 leave the same junction, then the initial guess must satisfy Q7 = Q6 + Q4. After the initial guess is made, then, a loop is considered so that we can evaluate our second condition. Given a starting node, we work our way around the loop in a clockwise fashion, as illustrated by Loop 1. We add up the head losses according to the Darcy–Weisbach equation for each pipe if Q is in the same direction as our loop like Q1, and subtract the head loss if the flow is in the reverse direction, like Q4. In other words, we add the head losses around the loop in the direction of the loop; depending on whether the flow is with or against the loop, some pipes will have head losses and some will have head gains (negative losses).
+To satisfy the Kirchhoff's second laws (2), we should end up with 0 about each loop at the steady-state solution. If the actual sum of our head loss is not equal to 0, then we will adjust all the flows in the loop by an amount given by the following formula, where a positive adjustment is in the clockwise direction.
+
+
+
+
+Δ
+Q
+=
+−
+
+
+
+∑
+
+
+
+
+head loss
+
+
+c
+
+
+
+
+−
+∑
+
+
+
+
+head loss
+
+
+c
+c
+
+
+
+
+
+
+n
+⋅
+(
+∑
+
+
+
+
+head loss
+
+
+c
+
+
+
+Q
+
+c
+
+
+
+
++
+∑
+
+
+
+
+head loss
+
+
+c
+c
+
+
+
+Q
+
+c
+c
+
+
+
+
+)
+
+
+
+,
+
+
+{\displaystyle \Delta Q=-{\frac {\sum {\scriptstyle {\text{head loss}}_{c}}-\sum {\scriptstyle {\text{head loss}}_{cc}}}{n\cdot (\sum {\frac {{\text{head loss}}_{c}}{Q_{c}}}+\sum {\frac {{\text{head loss}}_{cc}}{Q_{cc}}})}},}
+
+where
+n is 1.85 for Hazen-Williams and
+n is 2 for Darcy–Weisbach.
+The clockwise specifier (c) means only the flows that are moving clockwise in our loop, while the counter-clockwise specifier (cc) is only the flows that are moving counter-clockwise.
+This adjustment doesn't solve the problem, since most networks have several loops. It is okay to use this adjustment, however, because the flow changes won't alter condition 1, and therefore, the other loops still satisfy condition 1. However, we should use the results from the first loop before we progress to other loops.
+An adaptation of this method is needed to account for water reservoirs attached to the network, which are joined in pairs by the use of 'pseudo-loops' in the Hardy Cross scheme. This is discussed further on the Hardy Cross method site.
+The modern method is simply to create a set of conditions from the above Kirchhoff laws (junctions and head-loss criteria). Then, use a Root-finding algorithm to find Q values that satisfy all the equations. The literal friction loss equations use a term called Q2, but we want to preserve any changes in direction. Create a separate equation for each loop where the head losses are added up, but instead of squaring Q, use |Q|·Q instead (with |Q| the absolute value of Q) for the formulation so that any sign changes reflect appropriately in the resulting head-loss calculation.

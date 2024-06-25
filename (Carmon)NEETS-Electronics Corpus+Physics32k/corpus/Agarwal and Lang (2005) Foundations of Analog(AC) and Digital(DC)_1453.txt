@@ -1,0 +1,7 @@
+Another advantage of the state variable point of view is that it allows us to
+solve transient problems by superposition. Specifically, we find first the zero-
+input response, the response for the true initial conditions, with the input drive
+zero. Then we find the zero-state response, the response of the circuit when
+the initial state is zero, that is, all capacitor voltages and inductor currents are
+initially zero. The total response is the sum of the zero-input response (ZIR)
+and the zero-state response (ZSR).

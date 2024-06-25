@@ -1,0 +1,9 @@
+Let's look at a series-positive limiter with positive bias as shown in figure 4-4, views (A) and (B). 
+The diode will conduct until the input signal exceeds +5 at T1 on the positive alternation of the input 
+signal. When the positive alternation exceeds +5 volts, the diode becomes reverse biased and limits the 
+positive alternation of the output signal to +5 volts. This is because there is no current flow through 
+resistor R1 and battery voltage is felt at point (B). The diode will remain reverse biased until the positive 
+alternation of the input signal decreases to just under +5 volts at T2. At this time, the diode again becomes 
+forward biased and conducts. The diode will remain forward biased from T2 to T3. During this period the 
+negative alternation of the input is passed through the diode without being limited. From T3 to T4 the 
+diode is again reverse biased and the output is again limited. 

@@ -1,0 +1,37 @@
+Einstein's equations are the centerpiece of general relativity. They provide a precise formulation of the relationship between spacetime geometry and the properties of matter, using the language of mathematics. More concretely, they are formulated using the concepts of Riemannian geometry, in which the geometric properties of a space (or a spacetime) are described by a quantity called a metric. The metric encodes the information needed to compute the fundamental geometric notions of distance and angle in a curved space (or spacetime).
+
+A spherical surface like that of the Earth provides a simple example. The location of any point on the surface can be described by two coordinates: the geographic latitude and longitude. Unlike the Cartesian coordinates of the plane, coordinate differences are not the same as distances on the surface, as shown in the diagram on the right: for someone at the equator, moving 30 degrees of longitude westward (magenta line) corresponds to a distance of roughly 3,300 kilometers (2,100 mi). On the other hand, someone at a latitude of 55 degrees, moving 30 degrees of longitude westward (blue line) covers a distance of merely 1,900 kilometers (1,200 mi). Coordinates therefore do not provide enough information to describe the geometry of a spherical surface, or indeed the geometry of any more complicated space or spacetime. That information is precisely what is encoded in the metric, which is a function defined at each point of the surface (or space, or spacetime) and relates coordinate differences to differences in distance. All other quantities that are of interest in geometry, such as the length of any given curve, or the angle at which two curves meet, can be computed from this metric function.
+The metric function and its rate of change from point to point can be used to define a geometrical quantity called the Riemann curvature tensor, which describes exactly how the space or spacetime is curved at each point. In general relativity, the metric and the Riemann curvature tensor are quantities defined at each point in spacetime. As has already been mentioned, the matter content of the spacetime defines another quantity, the energy–momentum tensor T, and the principle that "spacetime tells matter how to move, and matter tells spacetime how to curve" means that these quantities must be related to each other. Einstein formulated this relation by using the Riemann curvature tensor and the metric to define another geometrical quantity G, now called the Einstein tensor, which describes some aspects of the way spacetime is curved. Einstein's equation then states that
+
+
+
+
+
+G
+
+=
+
+
+
+8
+π
+G
+
+
+c
+
+4
+
+
+
+
+
+T
+
+,
+
+
+{\displaystyle \mathbf {G} ={\frac {8\pi G}{c^{4}}}\mathbf {T} ,}
+
+i.e., up to a constant multiple, the quantity G (which measures curvature) is equated with the quantity T (which measures matter content). Here, G is the gravitational constant of Newtonian gravity, and c is the speed of light from special relativity.
+This equation is often referred to in the plural as Einstein's equations, since the quantities G and T are each determined by several functions of the coordinates of spacetime, and the equations equate each of these component functions. A solution of these equations describes a particular geometry of spacetime; for example, the Schwarzschild solution describes the geometry around a spherical, non-rotating mass such as a star or a black hole, whereas the Kerr solution describes a rotating black hole. Still other solutions can describe a gravitational wave or, in the case of the Friedmann–Lemaître–Robertson–Walker solution, an expanding universe. The simplest solution is the uncurved Minkowski spacetime, the spacetime described by special relativity.

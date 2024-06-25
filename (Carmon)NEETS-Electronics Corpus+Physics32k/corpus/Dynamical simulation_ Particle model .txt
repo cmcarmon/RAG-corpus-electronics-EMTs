@@ -1,0 +1,28 @@
+The first model which may be used in physics engines governs the motion of infinitesimal objects with finite mass called “particles.” This equation, called Newton’s Second law (see Newton's laws) or the definition of force, is the fundamental behavior governing all motion:
+
+
+
+
+
+
+
+F
+→
+
+
+
+=
+m
+
+
+
+a
+→
+
+
+
+
+
+{\displaystyle {\vec {F}}=m{\vec {a}}}
+
+This equation will allow us to fully model the behavior of particles, but this is not sufficient for most simulations because it does not account for the rotational motion of rigid bodies. This is the simplest model that can be used in a physics engine and was used extensively in early video games.

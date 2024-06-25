@@ -1,0 +1,9 @@
+As electrical engineers we are often interested in such computations in order
+to design more complex circuits, perhaps involving multiple bulbs and batteries.
+So how do we simplify our task? We observe that if we discipline ourselves to
+asking only simple questions, such as what is the net current flowing through
+the bulb, we can ignore the internal properties of the bulb and represent the
+bulb as a discrete element. Further, for the purpose of computing the current,
+we can create a discrete element known as a resistor and replace the bulb with
+it.2 We define the resistance of the bulb R to be the ratio of the voltage applied
+to the bulb and the resulting current through it. In other words,

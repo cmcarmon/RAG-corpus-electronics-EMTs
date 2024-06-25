@@ -1,0 +1,46 @@
+Marginal stability is also an important concept in the context of stochastic dynamics. For example, some processes may follow a random walk, given in discrete time as
+
+
+
+
+
+x
+
+t
+
+
+=
+
+x
+
+t
+−
+1
+
+
++
+
+e
+
+t
+
+
+,
+
+
+{\displaystyle x_{t}=x_{t-1}+e_{t},}
+
+where
+
+
+
+
+e
+
+t
+
+
+
+
+{\displaystyle e_{t}}
+is an i.i.d. error term. This equation has a unit root (a value of 1 for the eigenvalue of its characteristic equation), and hence exhibits marginal stability, so special time series techniques must be used in empirically modeling a system containing such an equation.

@@ -1,0 +1,12 @@
+Unfocused and Focused SAR
+The ranges between the scatterer and the antenna at different
+ﬂying positions along the synthetic length are not a constant.
+The range when the antenna is at both ends is greater than the
+range when the antenna is at the normal to the ﬂight path.
+When the range difference for the antenna at different posi-
+tions exceeds a range resolution cell, it is called range walk.
+A range walk will cause the reconstructed image to be un-
+focused or obscure. To avoid the range walk, the maximum
+synthetic length should be limited to a length that allows the
+scatterers to always be in the far-ﬁeld of the synthetic antenna.
+The synthetic length should be:

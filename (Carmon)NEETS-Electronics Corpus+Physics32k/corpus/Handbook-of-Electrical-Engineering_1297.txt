@@ -1,0 +1,7 @@
+The  signal  restoration  theorem  ensures  that  the  composite  data  matrix  sequence  (14.147)  will  contain  a
+subsequence that converges to a composite data matrix which satisﬁes the prerequisite block Toeplitz–nullity
+s attributes. The recursive coefﬁcient vectors as speciﬁed by (14.145) when applied to the convergent composite
+data matrix will typically give a satisfactory model of the data. It should be noted that in some applications it
+is known that either the excitation or the response data is accurate and should not be perturbed when applying
+the  operator  P(p+q+2–s).  This  is  readily  accomplished  by  inserting  the  original  block  after  the  rank  reduction
+projection mapping P(p+q+2–s) has been applied to Dk–1. This is illustrated in the following numerical example.

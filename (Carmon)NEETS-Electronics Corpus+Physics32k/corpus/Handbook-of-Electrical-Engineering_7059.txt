@@ -1,0 +1,4 @@
+binary  string  11010011011100  is  parsed  into  1,10,100,11,0,111,00.  Then  instead  of  sending  the  bits  of  each
+phrase, we send a pointer to its preﬁx and the value of the last bit. Thus, if we use three bits for the pointer,
+we will represent this string by (000,1), (001,0), (010,0), (001,1), (000,0), (100,1), (101,0), etc. For this short
+example, the algorithm has not compressed the string—it has in fact expanded it.

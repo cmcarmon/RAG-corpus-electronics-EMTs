@@ -1,0 +1,11 @@
+Solution:
+As  shown  in  Fig.  8.45(a),  we  ﬁrst  locate  nodes  1  and  2  in  the  two
+meshes and also the ground node 0 for the dual circuit. We draw a line
+between one node and another crossing an element. We replace the line
+joining  the  nodes  by  the  duals  of  the  elements  which  it  crosses.  For
+example, a line between nodes 1 and 2 crosses a 2-H inductor, and we
+place  a  2-F  capacitor  (an  inductor’s  dual)  on  the  line. A line  between
+nodes  1  and  0  crossing  the  6-V voltage  source  will  contain  a  6-A
+current source. By drawing lines crossing all the elements, we construct
+the dual circuit on the given circuit as in Fig. 8.45(a). The dual circuit
+is redrawn in Fig. 8.45(b) for clarity.

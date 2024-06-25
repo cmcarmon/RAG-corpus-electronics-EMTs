@@ -1,0 +1,25 @@
+inverse method or model-following method (Gao and Antsak-
+lis, 1991, 1992), eigenstructure assignment (Jiang, 1994), LQC
+(Sauter et al., 1998), additive compensation for sensor and
+actuator failures (Noura et al., 2000; Theilliol et al., 1998),
+reconﬁguration control with parameter identiﬁcation (Rauch,
+1995; Bodson and Grosz-Kiewicz, 1997), state-space pole
+placement (Jiang and Zhao, 1998, 1999); and (interactive)
+multiple model method (IMM) (Maybeck and Stevens, 1991;
+Zhang and Li, 1998; Zhang and Jiang, 1999) as shown in Figure
+8.2. However, this is rarely the case in practice since all the
+systems are inherently nonlinear, and the system dynamics
+under failure situations are more likely to be nonlinear and
+time varying. The failure situations can be further categorized
+into anticipated and unanticipated faults where the anticipated
+ones are referred to as the known faults based on the prior
+knowledge of the system or possibly the history of system
+behavior, and the unanticipated ones are the unexpected fail-
+ure situations, which have to be identiﬁed online. In general,
+the recognition and accommodation of the anticipated failures
+are considered relatively easier to solve because of the avail-
+ability of the prior information and sufﬁcient time for the
+development of solutions (i.e., off-line). The details of the
+systematic procedure of the proper failure isolation and ac-
+commodation for anticipated faults, such as the generation of
+residuals, fault signature identiﬁcation, and the selection logic

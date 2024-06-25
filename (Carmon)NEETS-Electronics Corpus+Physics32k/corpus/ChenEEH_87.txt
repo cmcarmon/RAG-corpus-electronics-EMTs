@@ -1,0 +1,11 @@
+In a directed graph, parallel edges refer to edges connecting
+the same pair of vertices vi and vj the same way from vi to vj or
+from vj to vi. For instance, in the graph of Figure 2.1(A), the
+edges connecting v1 and v2 are parallel edges. In the directed
+graph of Figure 2.1(B), the edges connecting v3 and v4 are
+parallel edges. However, the edges connecting v1 and v2 are not
+parallel edges because they are not oriented in the same way.
+If the end vertices of an edge are not distinct, then the edge
+is called a self-loop. The graph of Figure 2.1(A) has one self
+loop, and the graph of Figure 2.1(B) has two self-loops. An
+edge is said to be incident on its end vertices. In a directed

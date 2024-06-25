@@ -1,0 +1,8 @@
+Because these principles distribute the power consumption
+from a few ‘‘hot spots’’ to all parts of the architecture (Itoh
+et al., 1997), the end result is indeed a very optimized design
+for power where every piece consumes about an equal amount.
+An explicit power distribution is provided by Seki et al. (1993):
+47% for everything to do with address selection and buffering
+(several subparts), 15% in the cells, 15% in the data line and
+sensing, and 23% in the output buffer.

@@ -1,0 +1,8 @@
+Step 9 uses NFS to ﬁt the slope of the log(Ids) vs. Vg s  curve. Often the value of VT0 obtained from step 1 will
+prevent  one  from  obtaining  a  good  ﬁt  in  the  subthreshold  region.  If  this  happens,  try  ﬁtting  with VT0  and
+NFS, but replacing the ﬁnal value of VT0 with that from step 1 at the end, keeping only NFS from this ﬁnal step.
+The above steps illustrate the concepts of ﬁtting relevant subsets of parameters to relevant subsets of data to
+obtain physical values of the parameters, as well as ﬁtting parameters in the proper order so that those obtained
+in the later steps will affect those obtained in earlier steps minimally. Please refer to Figs. 13.13 and 13.14 for
+how  the  resulting  ﬁts  typically  appear  (all  graphs  showing  model  ﬁts  are  provided  by  the  device  modeling
+software package Aurora, from Technology Modeling Associates, Inc., Palo Alto, CA).

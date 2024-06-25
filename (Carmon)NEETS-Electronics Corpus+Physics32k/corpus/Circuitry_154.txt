@@ -1,0 +1,39 @@
+VI
+=
+R
+The total current, Isc, will be given by: 
+ 
+Isc = 4 µA + 10 µA + 5 µA = 19 µA 
+ 
+Next  we  need  to  find  the  Norton  equivalent 
+resistance.  To  do  this,  we  can  redraw  the  circuit 
+showing  each  sensor  replaced  by  its  internal 
+resistance, as shown in Fig. 3.22. 
+  The  equivalent  resistance  of  this  arrangement 
+(think of this as the resistance seen looking into the 
+circuit in the direction of the arrow  shown in Fig. 
+3.22) is given by: 
+1
+1
+R
+R
+3
+where R1 = 5 kF, R2 = 3 kF, R3 = 2 kF. Hence: 
+1
+R
+or 
+1 = 0.0002 + 0.00033 0.0005 0.00103
+R
+from which: 
+ 
+R = 968 F
+The Norton equivalent circuit is shown in Fig. 3.23. 
+To  determine  the  voltage  in  a  l  kF moving  coil 
+meter  connected  between  A  and  B,  we  can  make 
+use  of  the  Norton  equivalent  circuit  by  simply 
+adding  a  1  kF resistor  to  the  circuit  and  applying 
+Ohm’s Law, as shown in Fig. 3.24. 
+  The  voltage  appearing  across  the  moving  coil 
+meter in Fig. 3.25 will be given by: 
+1,000 968
+1,000 + 968

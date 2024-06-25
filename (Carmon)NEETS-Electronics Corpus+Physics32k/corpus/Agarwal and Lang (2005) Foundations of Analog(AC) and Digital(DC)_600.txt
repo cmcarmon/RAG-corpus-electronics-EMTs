@@ -1,0 +1,13 @@
+To solve these expressions graphically, we plot both on the same coor-
+dinates and find the point of intersection. Because we are assuming that we
+have a graph of the nonlinear function, in this case Figure 4.2, the simplest
+course of action is to plot the linear expression, Equation 4.31, on this graph,
+as shown in Figure 4.20. The linear constraint of Equation 4.31 is usually called
+a ‘‘load line’’ for historical reasons arising from amplifier design (as we will see
+in Chapter 7).
+Equation 4.31 plots as a straight line of slope −1/R intersecting the vD
+axis, (iD = 0) at vD = E. (The negative sign may be a bit distressing, but
+does not represent a negative resistance, just the fact that iD and vD are not
+associated variables for the resistors.) For the particular values in this circuit, the
+graph indicates that iD must be about 5 mA, and vD, about 0.6 V. Once we
+know that iD is 5 mA, it immediately follows that

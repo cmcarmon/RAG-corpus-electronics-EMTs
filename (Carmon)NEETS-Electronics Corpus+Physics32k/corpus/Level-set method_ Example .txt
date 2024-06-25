@@ -1,0 +1,17 @@
+Consider a unit circle in
+
+
+
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle \mathbf {R} ^{2}}
+, shrinking in on itself at a constant rate, i.e. each point on the boundary of the circle moves along its inwards pointing normal at some fixed speed. The circle will shrink and eventually collapse down to a point. If an initial distance field is constructed (i.e. a function whose value is the signed euclidean distance to the boundary, positive interior, negative exterior) on the initial circle, the normalised gradient of this field will be the circle normal.
+If the field has a constant value subtracted from it in time, the zero level (which was the initial boundary) of the new fields will also be circular and will similarly collapse to a point. This is due to this being effectively the temporal integration of the Eikonal equation with a fixed front velocity.

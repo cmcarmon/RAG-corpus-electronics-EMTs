@@ -1,0 +1,3 @@
+Tunebot is a Query by humming system. It compares a sung query to a database of musical themes by using the intervals between each note. This allows a user to sing in a different key than the target recording and still produce a match. The intervals are also unquantized to allow for other tunings besides the standard A=440Hz, since not many people in the world have perfect pitch.
+In addition to note intervals, Tunebot compares a query with potential targets by using rhythmic ratios between notes. Since ratios between note lengths are used, the tempo of the performance does not affect the rhythmic similarity measure.
+Queries and targets are then matched by a weighted string alignment algorithm between the note intervals and rhythmic ratios.

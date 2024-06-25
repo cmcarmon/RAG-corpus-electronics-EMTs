@@ -1,0 +1,7 @@
+The decomposition method also requires O(N 3) operations. It
+is about three times faster, however, than the direct inversion.
+Once the system matrix is inverted or factorized, the solution
+for a new source vector {b} can be obtained easily. Therefore,
+the inversion and factorization methods are suitable for cases
+when the solution is sought for many right-hand sides. This is
+their major advantage.

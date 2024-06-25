@@ -1,0 +1,9 @@
+If  FM  is  used  in  the  subcarrier  of  the  transmitter,  the  transducer  signal  modulates  the  frequency  of  the
+subcarrier oscillator. This can be done by a simple resonant circuit that produces a given frequency in the audio
+range,  say  1,000  Hz,  which  is  varied  above  or  below  by  the  signal  from  the  transducer  as  it  responds  to  the
+variable it is measuring. If the signal were fed to a loudspeaker, a rising or falling tone would be heard. The
+subcarrier  oscillator  then  modulates  a  radio  frequency  carrier,  varying  its  frequency  (FM)  or  its  amplitude
+(AM) in accordance with the subcarrier signal. The radio frequency in FM industrial radio telemetry links is
+usually in the 88- to 108-MHz band. At the receiving end of the link, the radio receiver demodulates the signal,
+removing the carrier and feeding the subcarrier to a special discriminator circuit that removes the modulation
+and precisely reproduces the original measurement signal for calibrated indication or recording.

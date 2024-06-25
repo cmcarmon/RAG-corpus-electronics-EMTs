@@ -1,0 +1,4 @@
+Low-Pass to Bandpass Transformation
+To  transform  a  low-pass  ﬁlter  to  a  bandpass  ﬁlter  we  must  ﬁrst  scale  the  low-pass  ﬁlter  so  that  the  cut-off
+frequency is equal to the bandwidth of the normalized bandpass ﬁlter. The normalized center frequency of the
+bandpass ﬁlter is w0= 1 rad/s. Then we apply the transformation s ﬁ s + 1/s. For an inductor

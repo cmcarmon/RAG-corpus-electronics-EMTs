@@ -1,0 +1,8 @@
+the packing and unpacking routines that usually accompany the toolbox code. For example, the packed state-
+space  model  might  have  a  function 
+  to  unpack  it  into  separate
+components as shown in Fig. 112.9. The advantage is that once packed, the state-space model 
+ can be used
+in processing as if it was the single system object it represents. To see this, compare the code for simulation
+and  analysis  of  a  system  given  in  Fig.  112.10(a)  with  the  MATLAB  Control  System  Toolbox  code  given  in
+Fig. 112.10(b).

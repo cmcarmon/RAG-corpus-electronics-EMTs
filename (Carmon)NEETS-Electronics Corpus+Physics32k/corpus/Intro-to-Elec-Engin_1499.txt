@@ -1,0 +1,5 @@
+Source Encoding
+After the quantization of message samples, the digital system will then code each quantized
+sample into a sequence of binary digits (bits) 0 and 1. Using the natural binary code is a simple
+approach. For a code with Nb bits, integers N (from 0 to 2Nb − 1) are represented by a sequence
+of digits, bNb , bNb−1, . . . , b2, b1, such that

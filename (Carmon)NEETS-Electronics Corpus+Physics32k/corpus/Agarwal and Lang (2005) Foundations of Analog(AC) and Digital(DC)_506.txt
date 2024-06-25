@@ -1,0 +1,18 @@
+A simple extension of the concept of superposition yields two additional net-
+work theorems of great power, which allow us to suppress a lot of detail in
+circuit analysis and focus attention only on that part of a network we are really
+interested in. Consider, for example, a battery, or a high-fidelity power ampli-
+fier, or a wall outlet for 110-V AC power, or a power supply for a computer.
+What is the simplest way to describe the electrical properties of each of these
+systems at its output terminals? Is one parameter needed, or ten, or fifty? Clearly
+the voltage measured with a high-quality meter that draws negligible current
+is one important parameter (the open-circuit voltage mentioned in Section 1.7).
+Likewise we would want to know the frequency: zero frequency for the battery,
+60 hertz (or 50 or even 25 in some countries) for the power line, etc. But we
+have already observed another effect that is important. When current is drawn
+from any of these systems, the voltage at the terminals drops. Depending on
+the quality of the wiring in a dormitory, the lights may dim noticeably when a
+toaster is plugged into the same circuit. Or the voltage of the flashlight battery
+will drop when a bulb is connected and current flows, as noted in Section 1.7.
+How can this effect be characterized? For the battery, is it necessary to make
+measurements at 100 current levels, and plot a curve of the characteristic?

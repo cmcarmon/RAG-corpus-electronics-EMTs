@@ -1,0 +1,7 @@
+The effect of cumulative coordination-time delays is slowest clearing of faults with the largest fault currents.
+This is not entirely satisfactory from the system point of view, and wherever possible, the inverse-time relays
+are supplemented by instantaneous overcurrent relays. These relays, as the name implies, have no intentional
+time delays and operate in less than one cycle. However, they cannot coordinate with the downstream relays
+and therefore must not operate (“see”) for faults into the protection zone of the downstream relay. This criterion
+is not always possible to meet. However, whenever it can be met, instantaneous relays are used and provide a
+preferable compromise between fast fault clearing and coordinated backup protection.

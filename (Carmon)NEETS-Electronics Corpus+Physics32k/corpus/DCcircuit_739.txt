@@ -1,0 +1,6 @@
+Not only that, but having such a condition limits the usefulness of the device. If full left-
+of-scale on the meter face represents an inﬁnite amount of resistance, then full right-of-scale
+should represent zero. Currently, our design ”pegs” the meter movement hard to the right when
+zero resistance is attached between the leads. We need a way to make it so that the movement
+just registers full-scale when the test leads are shorted together. This is accomplished by
+adding a series resistance to the meter’s circuit:

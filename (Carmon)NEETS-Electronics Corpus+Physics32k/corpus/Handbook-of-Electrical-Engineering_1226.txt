@@ -1,0 +1,9 @@
+where r designates the rank of matrix A. In this SVD representation, the sk are positive singular values that are
+ordered in the monotonic fashion sk+1 £ sk, while the uk are the m ·  1 pairwise orthogonal left singular vectors
+and the vk are the n ·  1 pairwise orthogonal right singular vectors. Upon examination of SVD representation
+(14.101) it is seen that the mn components of matrix A are equivalently replaced by the r (m + n + 1) elements
+corresponding to the SVD singular values and singular vectors. For low-rank matrices [i.e.,  r (1 + m + n) <
+mn], the SVD provides for a more efﬁcient representation of a matrix. This observation has been effectively
+used for the data compression of digital images. Furthermore, the concept of a low rank data matrix plays a
+vital role in the modeling of empirical data as a sum of weighted exponential signals. With these thoughts in
+mind, the important concept of low rank approximation of matrices is now examined.

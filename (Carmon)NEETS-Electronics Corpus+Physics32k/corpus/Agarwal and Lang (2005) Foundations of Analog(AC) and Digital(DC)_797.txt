@@ -1,0 +1,7 @@
+Suppose we are given the faulty circuit in Figure 5.46a where the output of NAND
+gate N2 is known to have a stuck-at fault. However, we do not know whether it is a
+stuck-at-1 fault or a stuck-at-0 fault. Further, as illustrated in Figure 5.46b, suppose
+that we have access only to the inputs A, B, and C, and the output Z. In other
+words, we are unable to directly observe the output X of the faulty NAND gate
+N2. How would you go about determining whether N2 suffers from a stuck-at-1
+fault or a stuck-at-0 fault?

@@ -1,0 +1,43 @@
+For a bead sliding on a frictionless wire subject only to gravity in 2d space, the constraint on the bead can be stated in the form f(r) = 0, where the position of the bead can be written r = (x(s), y(s)), in which s is a parameter, the arc length s along the curve from some point on the wire. This is a suitable choice of generalized coordinate for the system. Only one coordinate is needed instead of two, because the position of the bead can be parameterized by one number, s, and the constraint equation connects the two coordinates x and y; either one is determined from the other. The constraint force is the reaction force the wire exerts on the bead to keep it on the wire, and the non-constraint applied force is gravity acting on the bead.
+Suppose the wire changes its shape with time, by flexing. Then the constraint equation and position of the particle are respectively
+
+
+
+
+f
+(
+
+r
+
+,
+t
+)
+=
+0
+
+,
+
+
+r
+
+=
+(
+x
+(
+s
+,
+t
+)
+,
+y
+(
+s
+,
+t
+)
+)
+
+
+{\displaystyle f(\mathbf {r} ,t)=0\,,\quad \mathbf {r} =(x(s,t),y(s,t))}
+
+which now both depend on time t due to the changing coordinates as the wire changes its shape. Notice time appears implicitly via the coordinates and explicitly in the constraint equations.

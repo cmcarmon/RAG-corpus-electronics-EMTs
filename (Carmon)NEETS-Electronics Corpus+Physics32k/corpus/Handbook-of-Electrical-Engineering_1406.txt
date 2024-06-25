@@ -1,0 +1,8 @@
+A key issue in applying hidden Markov modeling for recognition of speech signals is the matching of the
+energy contour of the signal to the energy contour of the model for that signal. Energy matching is required
+for two main reasons. First, speech signals are not strictly stationary and hence their energy contours cannot
+be  reliably  estimated  from  training  data.  Second,  recording  conditions  during  training  and  testing  vary.  An
+approach for gain adaptation was developed [Ephraim, 1992]. In this approach, HMMs for gain-normalized
+clean signals are designed and used together with gain contour estimates obtained from the noisy signals. The
+gain  adaptation  approach  is  implemented  using  the  EM  algorithm.  This  approach  provides  robust  speech
+recognition at input SNRs greater than or equal to 10 dB.

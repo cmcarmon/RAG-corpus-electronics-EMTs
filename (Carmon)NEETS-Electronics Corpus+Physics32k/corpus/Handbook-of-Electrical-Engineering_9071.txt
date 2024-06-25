@@ -1,0 +1,8 @@
+Daisywheel Printing. This technology makes use of a “petal-like” rotating print wheel with typically 96 spring-
+like  ﬁngers  or “petals”  radiating  outward  from  a  central  core. An  engraved  raised  character  is  present  at  the
+end of each petal. The wheel is rotated by a dc servomotor to the desired character. A single hammer-actuator
+then  impacts  the  back  side  of  the  petal,  forcing  the  raised  character  into  the  ribbon/paper  set.  The  simplest
+designs  have  a  constant  carriage  speed  and  a  ﬁxed  time  delay  to  allow  for  up  to  180(cid:176)  rotation  of  the  wheel
+between  strokes.  These  systems  are  typically  limited  to  about  30  characters  per  second  (cps).  More  modern
+designs  have  incorporated  microcode  logic  which  slow  down  the  carriage  motor  when  the  next  character
+position is more than, for example, 30(cid:176) away. This can increase the net average speed to as high as 60 cps.

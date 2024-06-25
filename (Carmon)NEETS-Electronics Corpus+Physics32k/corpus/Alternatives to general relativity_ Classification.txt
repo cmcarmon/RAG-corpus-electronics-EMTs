@@ -1,0 +1,341 @@
+Theories of gravity can be classified, loosely, into several categories. Most of the theories described here have:
+an 'action' (see the principle of least action, a variational principle based on the concept of action)
+a Lagrangian density
+a metric
+If a theory has a Lagrangian density for gravity, say
+
+
+
+L
+
+
+
+{\displaystyle L\,}
+, then the gravitational part of the action
+
+
+
+S
+
+
+
+{\displaystyle S\,}
+is the integral of that.
+
+
+
+
+S
+=
+∫
+L
+
+
+−
+g
+
+
+
+
+
+d
+
+
+4
+
+
+x
+
+
+{\displaystyle S=\int L{\sqrt {-g}}\,\mathrm {d} ^{4}x}
+
+In this equation it is usual, though not essential, to have
+
+
+
+g
+=
+−
+1
+
+
+
+{\displaystyle g=-1\,}
+at spatial infinity when using Cartesian coordinates. For example, the Einstein–Hilbert action uses
+
+
+
+
+L
+
+∝
+
+R
+
+
+{\displaystyle L\,\propto \,R}
+
+where R is the scalar curvature, a measure of the curvature of space.
+Almost every theory described in this article has an action. It is the only known way to guarantee that the necessary conservation laws of energy, momentum and angular momentum are incorporated automatically; although it is easy to construct an action where those conservation laws are violated. The original 1983 version of MOND did not have an action.
+A few theories have an action but not a Lagrangian density. A good example is Whitehead (1922), the action there is termed non-local.
+A theory of gravity is a "metric theory" if and only if it can be given a mathematical representation in which two conditions hold:Condition 1: There exists a symmetric metric tensor
+
+
+
+
+g
+
+μ
+ν
+
+
+
+
+
+{\displaystyle g_{\mu \nu }\,}
+of signature (−, +, +, +), which governs proper-length and proper-time measurements in the usual manner of special and general relativity:
+
+
+
+
+
+
+d
+τ
+
+
+2
+
+
+=
+−
+
+g
+
+μ
+ν
+
+
+
+d
+
+x
+
+μ
+
+
+
+d
+
+x
+
+ν
+
+
+
+
+
+{\displaystyle {d\tau }^{2}=-g_{\mu \nu }\,dx^{\mu }\,dx^{\nu }\,}
+
+where there is a summation over indices
+
+
+
+μ
+
+
+{\displaystyle \mu }
+and
+
+
+
+ν
+
+
+{\displaystyle \nu }
+.Condition 2: Stressed matter and fields being acted upon by gravity respond in accordance with the equation:
+
+
+
+
+0
+=
+
+∇
+
+ν
+
+
+
+T
+
+μ
+ν
+
+
+=
+
+
+
+T
+
+μ
+ν
+
+
+
+
+,
+ν
+
+
++
+
+Γ
+
+σ
+ν
+
+
+μ
+
+
+
+T
+
+σ
+ν
+
+
++
+
+Γ
+
+σ
+ν
+
+
+ν
+
+
+
+T
+
+μ
+σ
+
+
+
+
+
+{\displaystyle 0=\nabla _{\nu }T^{\mu \nu }={T^{\mu \nu }}_{,\nu }+\Gamma _{\sigma \nu }^{\mu }T^{\sigma \nu }+\Gamma _{\sigma \nu }^{\nu }T^{\mu \sigma }\,}
+
+where
+
+
+
+
+T
+
+μ
+ν
+
+
+
+
+
+{\displaystyle T^{\mu \nu }\,}
+is the stress–energy tensor for all matter and non-gravitational fields, and where
+
+
+
+
+∇
+
+ν
+
+
+
+
+{\displaystyle \nabla _{\nu }}
+is the covariant derivative with respect to the metric and
+
+
+
+
+Γ
+
+σ
+ν
+
+
+α
+
+
+
+
+
+{\displaystyle \Gamma _{\sigma \nu }^{\alpha }\,}
+is the Christoffel symbol. The stress–energy tensor should also satisfy an energy condition.
+Metric theories include (from simplest to most complex):
+Scalar field theories (includes Conformally flat theories & Stratified theories with conformally flat space slices)
+Bergman
+Coleman
+Einstein (1912)
+Einstein–Fokker theory
+Lee–Lightman–Ni
+Littlewood
+Ni
+Nordström's theory of gravitation (first metric theory of gravity to be developed)
+Page–Tupper
+Papapetrou
+Rosen (1971)
+Whitrow–Morduch
+Yilmaz theory of gravitation (attempted to eliminate event horizons from the theory.)
+
+Quasilinear theories (includes Linear fixed gauge)
+Bollini–Giambiagi–Tiomno
+Deser–Laurent
+Whitehead's theory of gravity (intended to use only retarded potentials)
+
+Tensor theories
+Einstein's GR
+Fourth order gravity (allows the Lagrangian to depend on second-order contractions of the Riemann curvature tensor)
+f(R) gravity (allows the Lagrangian to depend on higher powers of the Ricci scalar)
+Gauss–Bonnet gravity
+Lovelock theory of gravity (allows the Lagrangian to depend on higher-order contractions of the Riemann curvature tensor)
+Infinite derivative theorem gravity
+
+Scalar-tensor theories
+Bekenstein
+Bergmann-Wagoner
+Brans–Dicke theory (the most well-known alternative to GR, intended to be better at applying Mach's principle)
+
+Jordan
+Nordtvedt
+Thiry
+Chameleon
+Pressuron
+
+Vector-tensor theories
+Hellings–Nordtvedt
+Will–Nordtvedt
+
+Bimetric theories
+Lightman–Lee
+Rastall
+Rosen (1975)
+
+Other metric theories
+(see section Modern theories below)
+Non-metric theories include
+Belinfante–Swihart
+Einstein–Cartan theory (intended to handle spin-orbital angular momentum interchange)
+Kustaanheimo (1967)
+Teleparallelism
+Gauge theory gravity
+A word here about Mach's principle is appropriate because a few of these theories rely on Mach's principle (e.g. Whitehead (1922)), and many mention it in passing (e.g. Einstein–Grossmann (1913), Brans–Dicke (1961)). Mach's principle can be thought of a half-way-house between Newton and Einstein. It goes this way:
+Newton: Absolute space and time.
+Mach: The reference frame comes from the distribution of matter in the universe.
+Einstein: There is no reference frame.
+So far, all the experimental evidence points to Mach's principle being wrong, but it has not entirely been ruled out.

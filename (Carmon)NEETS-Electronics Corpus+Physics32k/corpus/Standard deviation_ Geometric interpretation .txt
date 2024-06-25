@@ -1,0 +1,73 @@
+To gain some geometric insights and clarification, we will start with a population of three values, x1, x2, x3. This defines a point P = (x1, x2, x3) in R3. Consider the line L = {(r, r, r) : r ∈ R}. This is the "main diagonal" going through the origin. If our three given values were all equal, then the standard deviation would be zero and P would lie on L. So it is not unreasonable to assume that the standard deviation is related to the distance of P to L. That is indeed the case. To move orthogonally from L to the point P, one begins at the point:
+
+
+
+
+M
+=
+(
+
+
+x
+¯
+
+
+,
+
+
+x
+¯
+
+
+,
+
+
+x
+¯
+
+
+)
+
+
+{\displaystyle M=({\overline {x}},{\overline {x}},{\overline {x}})}
+
+whose coordinates are the mean of the values we started out with.
+
+A little algebra shows that the distance between P and M (which is the same as the orthogonal distance between P and the line L)
+
+
+
+
+
+
+∑
+
+i
+
+
+(
+
+x
+
+i
+
+
+−
+
+
+x
+¯
+
+
+
+)
+
+2
+
+
+
+
+
+
+{\displaystyle {\sqrt {\sum \limits _{i}(x_{i}-{\overline {x}})^{2}}}}
+is equal to the standard deviation of the vector x1, x2, x3, multiplied by the square root of the number of dimensions of the vector (3 in this case.)

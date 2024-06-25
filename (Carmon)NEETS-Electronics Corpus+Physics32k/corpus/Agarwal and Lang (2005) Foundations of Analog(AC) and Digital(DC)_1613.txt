@@ -1,0 +1,10 @@
+inputs that results in the worst-case power dissipation for the circuit. For the
+simple inverter, this estimate is the power dissipated when the input is a logical 1
+and the MOSFET is on, for example, as computed in Equation 11.21. Another
+estimate is statistical, and is based on determining the expected power over
+all possible input sets. Each input set is assigned an occurrence probability and
+the power for that input set is determined. Then the expected power is com-
+puted by averaging the power for each set of inputs weighted by the occurrence
+probability for that input set. Yet another estimate assumes that each input to
+the circuit is a square wave comprising an alternating sequence of logical 1’s
+and 0’s.

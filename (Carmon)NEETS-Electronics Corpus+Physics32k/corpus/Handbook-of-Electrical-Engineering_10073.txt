@@ -1,0 +1,12 @@
+The individual neurons are not very powerful in terms of computation or representation, but the intercon-
+nection  of  neurons  to  form  an  artiﬁcial  neural  network  (ANN)  can  provide  a  means  of  encoding  complex
+relationships between input and output variables. Of the many ANN architectures that have been proposed,
+the multilayer feedforward artiﬁcial neural network (MFANN) shown in Fig. 100.58 is one of the most popular.
+Bias terms have been omitted in Fig. 100.58 for simplicity. The layers between the input and output layers
+of an MFANN are usually referred to as hidden layers because their inputs and outputs are not measurable at
+the  inputs  or  outputs  of  the  network.  It  has  been  shown  that  an  MFANN  with  a  single  hidden  layer  can
+approximate any continuous function to an arbitrary degree of accuracy [Cybenko, 1989; Werbos, 1974]. The
+process of adjusting ANN connection weights in an effort to obtain a desired input/output mapping is usually
+referred to as training. Training represents an optimization problem for which the solution is a set of weights
+that minimizes some measure of approximation error. The choices of activation functions, number of neurons,
+error measures, and optimization methods can signiﬁcantly affect training results.

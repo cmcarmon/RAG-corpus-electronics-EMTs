@@ -1,0 +1,10 @@
+6.30 Noisy Channel Coding Theorem38
+As the block length becomes larger, more error correction will be needed. Do codes exist that can correct
+all errors? Perhaps the crowning achievement of Claude Shannon’s creation of information theory answers
+this question. His result comes in two complementary forms: the Noisy Channel Coding Theorem and its
+converse.
+6.30.1 Statement of the Theorem
+Let E denote the eﬃciency of an error-correcting code: the ratio of the number of data bits to the total
+number of bits used to represent them. If the eﬃciency is less than the capacity of the digital channel, an
+error-correcting code exists that has the property that as the length of the code increases, the probability of
+an error occurring in the decoded block approaches zero.

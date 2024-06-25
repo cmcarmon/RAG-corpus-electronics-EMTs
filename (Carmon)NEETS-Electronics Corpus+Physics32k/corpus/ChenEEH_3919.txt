@@ -1,0 +1,16 @@
+The problem can be described as follows. Given a set of
+zero-mean random variables, X1, X2, . . . , XK , it is desired to
+estimate a random variable S (also zero-mean). The objective
+here is to ﬁnd an estimator ^SS that is linear in Xi and that is
+optimum in some sense, like MMSE.
+Clearly, if ^SS is constrained to be linear in Xi, it can be
+expressed as ^SS ¼
+K
+i¼1 aiXi. This expression can be used inde-
+pendently of the model that governs the relation between X
+and S. One can see that once the coefﬁcients ai, i ¼ 1, 2, . . . , K
+are determined for all i, ^SS is unambiguously (uniquely) speci-
+ﬁed. As such, the problem of ﬁnding an optimum estimator
+becomes one of ﬁnding the optimum set of coefﬁcients, and
+estimation of a random signal becomes estimation of a set of
+deterministic parameters.

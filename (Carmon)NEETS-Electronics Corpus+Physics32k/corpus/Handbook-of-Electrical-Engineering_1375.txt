@@ -1,0 +1,5 @@
+The time-varying AR model for speech signals lacks the “memory’’ which assigns preference to one AR model
+to follow another AR model. This memory could be incorporated, for example, by assuming that the individual
+AR models are chosen in a Markovian manner. That is, given an AR model for the current segment of speech,
+certain AR models for the following segment of speech will be more likely than others. This results in the so-
+called composite source model (CSM) for the speech signal.

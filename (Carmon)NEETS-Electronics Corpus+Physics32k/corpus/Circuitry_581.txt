@@ -1,0 +1,15 @@
+A variable pulse generator 
+ 
+Figure 12.11 shows how a variable pulse generator 
+can be constructed using two 555 timer (or one 556 
+dual timer). The first timer, IC1, operates in astable 
+mode  whilst  the  second  timer,  IC2,  operates  in 
+monostable  mode.  The  p.r.f.  generated  by  IC1  is 
+adjustable by  means of switch selected capacitors, 
+C1 to C3, together  with variable resistor, VR1. The 
+output from IC1 (pin-3) is fed via C5 to the trigger 
+input of IC2 (pin-2).  
+  The  monostable  period  of  IC2  is  adjustable  by 
+means  of  switch  selected  capacitors,  C6 to  C8,
+together  with  variable  resistor,  VR2. The  output 
+from IC2 (pin-3) is fed to the output via VR3.

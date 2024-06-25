@@ -1,0 +1,20 @@
+analysis and theorem, the successful control mission can still
+be achieved provided sufﬁcient online computational power
+and the satisfaction of the necessary and sufﬁcient conditions.
+In other words, a substantial amount of computational cost
+may be paid for maintaining the control mission. In many real
+systems,
+the failures could be well-known or anticipated
+according to the history of system behavior and/or the aging
+degree of the system components. For those known and/or
+expected faults, it is apparently not necessary to waste the
+computational source for failure accommodation. Those fault
+patterns or signatures and the corresponding control actions
+can be developed off-line and prestored in a database for an
+online control purpose. The appropriate online failure accom-
+modation actions are then suggested by a fault detection and
+diagnosis scheme that detects and identiﬁes the failure patterns
+online. This idea has been adopted in many (interactive)
+multiple model-based FTC research works (Maybeck and
+Stevens, 1991; Zhang and Li, 1998; Zhang and Jiang, 1999;
+Laparo et al., 1991).

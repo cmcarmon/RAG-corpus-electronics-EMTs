@@ -1,0 +1,8 @@
+The transient approach can be computationally expensive for circuits that reach their periodic steady state
+after a long simulation time. Results from the Fourier analysis are meaningful only in the periodic steady state,
+and although this approach works well for large levels of distortion it is inaccurate for small distortion levels.
+For small distortion levels accurate distortion analysis can be performed by use of the Volterra series method.
+This  technique  is  a  generalization  of  the  power-series  method  and  is  useful  for  analyzing  harmonic  and
+intermodulation  distortion  due  to  frequency-dependent  nonlinearities.  The  SPICE3  program  supports  this
+analysis technique (in addition to the Fourier analysis of SPICE2) whereby the second and third harmonic and
+intermodulation components can be efﬁciently obtained by three small-signal analyses of the circuit.

@@ -1,0 +1,13 @@
+5.13 Discrete-Time Systems in the Frequency Domain27
+As with analog linear systems, we need to ﬁnd the frequency response of discrete-time systems. We used
+impedances to derive directly from the circuit’s structure the frequency response. The only structure we have
+so far for a discrete-time system is the diﬀerence equation. We proceed as when we used impedances: let the
+input be a complex exponential signal. When we have a linear, shift-invariant system, the output should also
+be a complex exponential of the same frequency, changed in amplitude and phase. These amplitude and phase
+changes comprise the frequency response we seek. The complex exponential input signal is x (n) = Xej2πf n.
+Note that this input occurs for all values of n. No need to worry about initial conditions here. Assume the
+output has a similar form: y (n) = Y ej2πf n. Plugging these signals into the fundamental diﬀerence equation
+(5.42), we have
+Y ej2πf n = a1Y ej2πf (n−1) + ··· + apY ej2πf (n−p) + b0Xej2πf n + b1Xej2πf (n−1) + ··· + bqXej2πf (n−q) (5.47)
+The assumed output does indeed satisfy the diﬀerence equation if the output complex amplitude is related
+to the input amplitude by

@@ -1,0 +1,4 @@
+We have implicitly assumed that instructions are executed one after another. Most modern processors are
+designed to allow the execution of successive instructions to overlap, using a technique known as pipelining.
+In the example in Fig. 86.9, each instruction is broken down into 4 basic steps—fetch, decode, operate, and
+write—and a separate hardware unit is provided to perform each of these steps. As a result, the execution of

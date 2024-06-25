@@ -1,0 +1,6 @@
+It is easy to observe this tendency toward oscillation as K increases, but a problem that is clear from Fig. 100.40
+is that in the steady state there is a persistent error between the response and the reference [r(k) = 1]. Increasing
+the gain K will make this error smaller at the expense of more oscillations. As a remedy for this steady-state
+error  problem  and  control  of  the  dynamics,  a  control  law  transfer  function  D(z)  will  be  sought  that  inserts
+integrator  action  into  the  loop  while  simultaneously  canceling  the  pole  of  the  plant.  This  dictates  that  the
+controller have a transfer function of the form

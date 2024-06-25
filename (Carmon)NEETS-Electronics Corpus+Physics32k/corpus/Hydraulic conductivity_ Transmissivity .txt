@@ -1,0 +1,333 @@
+The transmissivity is a measure of how much water can be transmitted horizontally, such as to a pumping well.
+Transmissivity should not be confused with the similar word transmittance used in optics, meaning the fraction of incident light that passes through a sample.
+An aquifer may consist of
+
+
+
+n
+
+
+{\displaystyle n}
+soil layers. The transmissivity for horizontal flow
+
+
+
+
+T
+
+i
+
+
+
+
+{\displaystyle T_{i}}
+of the
+
+
+
+i
+
+
+-th
+
+
+
+
+{\textstyle i{\mbox{-th}}}
+soil layer with a saturated thickness
+
+
+
+
+d
+
+i
+
+
+
+
+{\displaystyle d_{i}}
+and horizontal hydraulic conductivity
+
+
+
+
+K
+
+i
+
+
+
+
+{\displaystyle K_{i}}
+is:
+
+
+
+
+
+T
+
+i
+
+
+=
+
+K
+
+i
+
+
+
+d
+
+i
+
+
+
+
+{\displaystyle T_{i}=K_{i}d_{i}}
+
+Transmissivity is directly proportional to horizontal hydraulic conductivity
+
+
+
+
+K
+
+i
+
+
+
+
+{\displaystyle K_{i}}
+and thickness
+
+
+
+
+d
+
+i
+
+
+
+
+{\displaystyle d_{i}}
+. Expressing
+
+
+
+
+K
+
+i
+
+
+
+
+{\displaystyle K_{i}}
+in m/day and
+
+
+
+
+d
+
+i
+
+
+
+
+{\displaystyle d_{i}}
+in m, the transmissivity
+
+
+
+
+T
+
+i
+
+
+
+
+{\displaystyle T_{i}}
+is found in units m2/day.
+The total transmissivity
+
+
+
+
+T
+
+t
+
+
+
+
+{\displaystyle T_{t}}
+of the aquifer is:
+
+
+
+
+
+T
+
+t
+
+
+=
+∑
+
+T
+
+i
+
+
+
+
+{\displaystyle T_{t}=\sum T_{i}}
+where
+
+
+
+∑
+
+
+{\displaystyle \sum }
+signifies the summation over all layers
+
+
+
+i
+=
+1
+,
+2
+,
+3
+,
+⋯
+,
+n
+
+
+{\displaystyle i=1,2,3,\cdots ,n}
+.
+The apparent horizontal hydraulic conductivity
+
+
+
+
+K
+
+A
+
+
+
+
+{\displaystyle K_{A}}
+of the aquifer is:
+
+
+
+
+
+K
+
+A
+
+
+=
+
+T
+
+t
+
+
+
+/
+
+
+D
+
+t
+
+
+
+
+{\displaystyle K_{A}=T_{t}/D_{t}}
+
+where
+
+
+
+
+D
+
+t
+
+
+
+
+{\displaystyle D_{t}}
+, the total thickness of the aquifer, is
+
+
+
+
+D
+
+t
+
+
+=
+∑
+
+d
+
+i
+
+
+
+
+{\displaystyle D_{t}=\sum d_{i}}
+, with
+
+
+
+i
+=
+1
+,
+2
+,
+3
+,
+⋯
+,
+n
+
+
+{\displaystyle i=1,2,3,\cdots ,n}
+.
+The transmissivity of an aquifer can be determined from pumping tests.
+Influence of the water table
+When a soil layer is above the water table, it is not saturated and does not contribute to the transmissivity. When the soil layer is entirely below the water table, its saturated thickness corresponds to the thickness of the soil layer itself. When the water table is inside a soil layer, the saturated thickness corresponds to the distance of the water table to the bottom of the layer. As the water table may behave dynamically, this thickness may change from place to place or from time to time, so that the transmissivity may vary accordingly.
+In a semi-confined aquifer, the water table is found within a soil layer with a negligibly small transmissivity, so that changes of the total transmissivity (
+
+
+
+
+D
+
+t
+
+
+
+
+{\textstyle D_{t}}
+) resulting from changes in the level of the water table are negligibly small.
+When pumping water from an unconfined aquifer, where the water table is inside a soil layer with a significant transmissivity, the water table may be drawn down whereby the transmissivity reduces and the flow of water to the well diminishes.

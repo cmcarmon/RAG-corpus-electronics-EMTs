@@ -1,0 +1,8 @@
+Although the quantization curves of figure 2-48 are based on 5- and 10-level quantization, in actual
+practice the levels are usually established at some exponential value of 2, such as 4(22), 8(2 3), 16(24),
+32(25) . . . N(2n). The reason for selecting levels at exponential values of 2 will become evident in the
+discussion of pcm. Quantized fm is similar in every way to quantized AM. That is, the range of frequency
+deviation is divided into a finite number of standard values of deviation. Each sampling pulse results in a
+deviation equal to the standard value nearest the actual deviation at the sampling instant. Similarly, for
+phase modulation, quantization establishes a set of standard values. Quantization is used mostly in
+amplitude- and frequency-modulated pulse systems.

@@ -1,0 +1,6 @@
+In high-energy particle physics we are interested in computing the probability for different outcomes in scattering experiments. These experiments can be broken down into three stages:
+Collide together a collection of incoming particles (usually two particles with high energies).
+Allowing the incoming particles to interact. These interactions may change the types of particles present (e.g. if an electron and a positron annihilate they may produce two photons).
+Measuring the resulting outgoing particles.
+The process by which the incoming particles are transformed (through their interaction) into the outgoing particles is called scattering. For particle physics, a physical theory of these processes must be able to compute the probability for different outgoing particles when different incoming particles collide with different energies.
+The S-matrix in quantum field theory achieves exactly this. It is assumed that the small-energy-density approximation is valid in these cases.

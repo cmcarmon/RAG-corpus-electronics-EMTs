@@ -1,0 +1,4 @@
+To compute the output at some index, this diﬀerence equation says we need to know what the
+previous output y (n − 1) and what the input signal is at that moment of time. In more detail, let’s
+compute this system’s output to a unit-sample input: x (n) = δ (n). Because the input is zero for
+negative indices, we start by trying to compute the output at n = 0.

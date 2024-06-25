@@ -1,0 +1,8 @@
+Note that for matrix multiplication, the error coverage of
+the hybrid test is as high as 97% for a dynamic range of 2 and is
+80% for a dynamic range of 15; this is a much higher error
+coverage than the technique of forward-error propagation
+used with the ﬂoating point checksum test in work by Roy-
+Chowdhury and Banerjee (1993). For LU decomposition, error
+coverage of 90% is obtained for a dynamic range of 7, which is
+similar to Roy-Chowdhury and Banerjee’s results.

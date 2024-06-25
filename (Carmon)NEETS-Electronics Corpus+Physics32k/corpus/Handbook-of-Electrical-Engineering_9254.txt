@@ -1,0 +1,8 @@
+Although not full test case generators, many supplemental testing tools are available that provide services
+such as creating matrices of how test cases interact with functions and modules. Also widely used are record
+and playback tools which capture all events during testing. One of the more widely used testing tool classes is
+that of test coverage analyzers. Test coverage analyzers dynamically monitor the code that is being executed while
+test cases are being run, and then report on any code or paths that may have been missed. Test coverage is not
+the  same  as  removal  efﬁciency:  it  is  possible  to  execute  100%  of  the  instructions  in  a  software  application
+without ﬁnding 100% of the bugs. However, for areas of code that are not executed at all, the removal efﬁciency
+may be zero. Software defect tracking systems are exceptionally useful.

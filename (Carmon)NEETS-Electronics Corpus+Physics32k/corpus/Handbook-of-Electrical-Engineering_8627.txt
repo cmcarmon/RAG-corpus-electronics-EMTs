@@ -1,0 +1,5 @@
+Exactly  what  the  assembler  or  linker  does  to  replace  the  label  references  with  proper  addresses,  while
+interesting, is not particularly germane to our current topic. Note that the range of the branch is somewhat
+limited. In the 68000, the maximum branch is –32K and in the VAX a mere +127 to –128. If you need to go
+further,  you  must  combine  a  branch  with  a  jump.  For  example,  if  you  were  doing  BEQ  farlabel,  you  would
+instead do:

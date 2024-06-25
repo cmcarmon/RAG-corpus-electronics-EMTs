@@ -1,0 +1,14 @@
+Figure 2.2 shows the mechanism behind sampling of continu-
+ous time signals and its effect on the frequency representation.
+Figure 2.2(A) shows that a continuous signal x(t) is multiplied
+in the time domain by a train of unitary impulses xi(t). The
+resulting signal from the multiplication operation is x(t),
+which contains samples of x(t). Figure 2.2(B) shows the fre-
+quency representation of the original signal x(t) before sam-
+pling. Figure 2.2(C) shows the spectrum of the impulse train
+xi(t). Finally, Figure 2.3 shows the spectrum of the sampled
+signal x(t ). According to the convolution theorem, the Fou-
+rier transform of the sampled signal x(t ) should be the convo-
+lution, in the frequency domain, of the Fourier transform of
+the impulse train and the Fourier transform of the original
+signal before sampling. Therefore, it can be shown that:

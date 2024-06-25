@@ -1,0 +1,14 @@
+The Element-Replacement Method
+In a complete analogy to the GIC biquad discussed earlier, we
+now create the inductive impedance ZL at the input of a GIC
+that is loaded by a resistor R [see Figure 4.10(A)]. The GIC
+circuit used here is shown in Figure 4.10(B). Notice that
+compared to Figure 4.7(C), we interchanged the capacitor
+and the resistor in positions 2 and 4. From equation 4.20, the
+time constant equals T ¼ C4R1R3=R2. This change is imma-
+terial as far as ZL is concerned, but the selection is optimal for
+this case. Note that we have attached the label 1:sT to the GIC
+boxes to help us keep track of their orientation in the following
+development: the sT side faces the resistive load. It was shown
+in equation 4.18 that the GIC implements the two-port equa-
+tions for the element choice in Figure 4.10(B):

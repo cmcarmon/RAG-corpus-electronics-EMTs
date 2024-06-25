@@ -1,0 +1,10 @@
+In practice, however, it is not always true that every bit or bit pair that is being processed would be productive.
+Some of the bits produce only repetitious (superﬂuous) or even meaningless results. This happens more often
+and more severely in a parallel processor than in a word-sequential processor. Consider, for example, performing
+ operands, it
+a maximum search operation in a mesh-connected parallel processor (such as ILLIAC IV). For 
+/2  comparisons  for  each  of  log
+ – 1
+takes  (
+2
+comparisons in word-sequential machines. Thus, in effect there are

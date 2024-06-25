@@ -1,0 +1,6 @@
+Notice further that we if choose our digital representation such that the
+logical 1 is represented with a value greater than 1 volt, then the MOSFET
+operates as a switch that turns on when its gate-to-source port has a logical 1
+signal on it. Figure 6.13 shows the lightbulb circuit using MOSFETs to imple-
+ment the AND switching function. In this circuit, the bulb turns on only when
+both A and B are 1.

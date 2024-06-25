@@ -1,0 +1,171 @@
+Orbital mechanics are used to calculate flight in orbit about a central body. For sufficiently high orbits (generally at least 190 kilometers (100 NM) in the case of Earth), aerodynamic force may be assumed to be negligible for relatively short term missions (though a small amount of drag may be present which results in decay of orbital energy over longer periods of time.) When the central body's mass is much larger than the spacecraft, and other bodies are sufficiently far away, the solution of orbital trajectories can be treated as a two-body problem.
+This can be shown to result in the trajectory being ideally a conic section (circle, ellipse, parabola or hyperbola) with the central body located at one focus. Orbital trajectories are either circles or ellipses; the parabolic trajectory represents first escape of the vehicle from the central body's gravitational field. Hyperbolic trajectories are escape trajectories with excess velocity, and will be covered under Interplanetary flight below.
+Elliptical orbits are characterized by three elements. The semi-major axis a is the average of the radius at apoapsis and periapsis:
+
+
+
+
+a
+=
+(
+
+r
+
+a
+
+
++
+
+r
+
+p
+
+
+)
+
+/
+
+2
+
+
+
+{\displaystyle a=(r_{a}+r_{p})/2\,}
+
+The eccentricity e can then be calculated for an ellipse, knowing the apses:
+
+
+
+
+e
+=
+
+r
+
+a
+
+
+
+/
+
+a
+−
+1
+
+
+
+{\displaystyle e=r_{a}/a-1\,}
+
+The time period for a complete orbit is dependent only on the semi-major axis, and is independent of eccentricity:
+
+
+
+
+T
+P
+=
+2
+π
+
+
+
+a
+
+3
+
+
+
+/
+
+μ
+
+
+
+
+
+{\displaystyle TP=2\pi {\sqrt {a^{3}/\mu }}\,}
+
+
+The orientation of the orbit in space is specified by three angles:
+The inclination i, of the orbital plane with the fundamental plane (this is usually a planet or moon's equatorial plane, or in the case of a solar orbit, the Earth's orbital plane around the Sun, known as the ecliptic.) Positive inclination is northward, while negative inclination is southward.
+The longitude of the ascending node Ω, measured in the fundamental plane counter-clockwise looking southward, from a reference direction (usually the vernal equinox) to the line where the spacecraft crosses this plane from south to north. (If inclination is zero, this angle is undefined and taken as 0.)
+The argument of periapsis ω, measured in the orbital plane counter-clockwise looking southward, from the ascending node to the periapsis. If the inclination is 0, there is no ascending node, so ω is measured from the reference direction. For a circular orbit, there is no periapsis, so ω is taken as 0.
+The orbital plane is ideally constant, but is usually subject to small perturbations caused by planetary oblateness and the presence of other bodies.
+The spacecraft's position in orbit is specified by the true anomaly, ν, an angle measured from the periapsis, or for a circular orbit, from the ascending node or reference direction. The semi-latus rectum, or radius at 90 degrees from periapsis, is:
+
+
+
+
+p
+=
+a
+(
+1
+−
+
+e
+
+2
+
+
+)
+
+
+
+{\displaystyle p=a(1-e^{2})\,}
+
+The radius at any position in flight is:
+
+
+
+
+r
+=
+
+
+p
+
+(
+1
++
+e
+cos
+⁡
+ν
+)
+
+
+
+
+
+
+{\displaystyle r={\frac {p}{(1+e\cos \nu )}}\,}
+
+and the velocity at that position is:
+
+
+
+
+v
+=
+
+
+μ
+(
+2
+
+/
+
+r
+−
+1
+
+/
+
+a
+)
+
+
+
+
+
+{\displaystyle v={\sqrt {\mu (2/r-1/a)}}\,}

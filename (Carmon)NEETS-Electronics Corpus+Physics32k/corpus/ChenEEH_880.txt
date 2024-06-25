@@ -1,0 +1,12 @@
+In this section, a different class of clock skew scheduling
+algorithms is introduced. In these algorithms, the primary
+objective is to improve circuit reliability by maximizing the
+tolerance to process parameter variations. Improvements are
+achieved by ﬁrst choosing an objective clock skew value for
+each local data path. A consistent clock schedule is found by
+applying the proposed optimization algorithm. Unlike a per-
+formance optimization approach, the algorithm presented in
+this section minimizes the least square error between the com-
+puted and objective clock skew schedules.8 A secondary ob-
+jective of the clock skew scheduling algorithm developed in
+this chapter is to increase the system-wide clock frequency.

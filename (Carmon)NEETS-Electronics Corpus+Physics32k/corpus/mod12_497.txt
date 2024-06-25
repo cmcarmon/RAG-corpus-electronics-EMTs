@@ -1,0 +1,6 @@
+When the pcm demodulator recognizes the presence or absence of pulses in each position, it
+reproduces the correct standard amplitude represented by the pulse code group. For this reason, noise
+introduces no error if the largest peaks of noise are not mistaken for pulses. The pcm signal can be
+retransmitted as many times as desired without the introduction of additional noise effects so long as the
+signal-to-noise ratio is maintained at a level where noise pulses are not mistaken for a signal pulse. This is
+not the only method for demodulating pcm, but it is one of the simplest.

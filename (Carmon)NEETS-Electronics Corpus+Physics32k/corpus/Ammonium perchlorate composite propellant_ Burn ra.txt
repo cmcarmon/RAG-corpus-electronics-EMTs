@@ -1,0 +1,32 @@
+While the surface area can be easily tailored by careful geometric design of the propellant, the burn rate is dependent on several subtle factors:
+Propellant chemical composition.
+AP, Al, additive particle sizes.
+Combustion pressure.
+Heat transfer characteristics.
+Erosive burning (high velocity flow moving past the propellant).
+Initial temperature of propellant.
+In summary, however, most formulations have a burn rate between 1–3 mm/s at STP and 6–12 mm/s at 68 atm. The burn characteristics (such as linear burn rate) are often determined prior to rocket motor firing using a strand burner test. This test allows the APCP manufacturer to characterize the burn rate as a function of pressure. Empirically, APCP adheres fairly well to the following power-function model:
+
+
+
+
+
+b
+
+r
+
+
+=
+a
+⋅
+
+p
+
+n
+
+
+
+
+{\displaystyle b_{r}=a\cdot p^{n}}
+
+It is worth noting that typically for APCP, 0.3<n<0.5 indicating that APCP is sub-critically pressure sensitive. That is, if surface area were maintained constant during a burn the combustion reaction would not runaway to (theoretically) infinite as the pressure would reach an internal equilibrium. This isn't to say that APCP cannot cause an explosion, but rather that the explosion would be caused by the pressure surpassing the burst pressure of the container (rocket motor).

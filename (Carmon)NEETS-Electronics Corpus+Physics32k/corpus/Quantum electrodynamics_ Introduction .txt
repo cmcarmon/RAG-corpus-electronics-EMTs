@@ -1,0 +1,119 @@
+Near the end of his life, Richard P. Feynman gave a series of lectures on QED intended for the lay public. These lectures were transcribed and published as Feynman (1985), QED: The strange theory of light and matter, a classic non-mathematical exposition of QED from the point of view articulated below.
+The key components of Feynman's presentation of QED are three basic actions.
+A photon goes from one place and time to another place and time.
+An electron goes from one place and time to another place and time.
+An electron emits or absorbs a photon at a certain place and time.
+
+These actions are represented in a form of visual shorthand by the three basic elements of Feynman diagrams: a wavy line for the photon, a straight line for the electron and a junction of two straight lines and a wavy one for a vertex representing emission or absorption of a photon by an electron. These can all be seen in the adjacent diagram.
+It is important not to over-interpret these diagrams. Nothing is implied about how a particle gets from one point to another. The diagrams do not imply that the particles are moving in straight or curved lines. They do not imply that the particles are moving with constant speeds. The fact that the photon is often represented, by convention, by a wavy line and not a straight one does not imply that it is thought that it is more wavelike than is an electron. The images are just symbols to represent the actions above: photons and electrons do, somehow, move from point to point and electrons, somehow, emit and absorb photons. The theory does not explain how these things happen, but it does tell us the probabilities of these things happening in various situations.
+As well as the visual shorthand for the actions Feynman introduces another kind of shorthand for the numerical quantities called probability amplitudes. The probability is the square of the absolute value of total probability amplitude,
+
+
+
+
+P
+r
+o
+b
+.
+
+=
+
+|
+
+f
+(
+
+A
+m
+p
+l
+i
+t
+u
+d
+e
+
+)
+
+
+|
+
+
+2
+
+
+
+
+{\displaystyle \mathrm {Prob.} =|f(\mathrm {Amplitude} )|^{2}}
+. If a photon moves from one place and time—in shorthand,
+
+
+
+A
+
+
+{\displaystyle A}
+—to another place and time—in shorthand,
+
+
+
+B
+
+
+{\displaystyle B}
+—the associated quantity is written in Feynman's shorthand as
+
+
+
+P
+(
+A
+
+
+t
+o
+
+
+B
+)
+
+
+{\displaystyle P(A\ \mathrm {to} \ B)}
+. The similar quantity for an electron moving from
+
+
+
+C
+
+
+{\displaystyle C}
+to
+
+
+
+D
+
+
+{\displaystyle D}
+is written
+
+
+
+E
+(
+C
+
+
+t
+o
+
+
+D
+)
+
+
+{\displaystyle E(C\ \mathrm {to} \ D)}
+. The quantity which tells us about the probability amplitude for the emission or absorption of a photon he calls 'j'. This is related to, but not the same as, the measured electron charge 'e'.
+QED is based on the assumption that complex interactions of many electrons and photons can be represented by fitting together a suitable collection of the above three building blocks, and then using the probability amplitudes to calculate the probability of any such complex interaction. It turns out that the basic idea of QED can be communicated while making the assumption that the square of the total of the probability amplitudes mentioned above (P(A to B), E(C to D) and 'j') acts just like our everyday probability. (A simplification made in Feynman's book.) Later on, this will be corrected to include specifically quantum-style mathematics, following Feynman.
+The basic rules of probability amplitudes that will be used are that a) if an event can happen in a variety of different ways then its probability amplitude is the sum of the probability amplitudes of the possible ways and b) if a process involves a number of independent sub-processes then its probability amplitude is the product of the component probability amplitudes.

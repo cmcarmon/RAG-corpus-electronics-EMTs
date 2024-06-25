@@ -1,0 +1,203 @@
+Following Phillips (1977) and Mei (1989), denote the phase of a wave ray as
+
+
+
+
+S
+=
+S
+(
+
+x
+
+,
+t
+)
+,
+0
+≤
+S
+<
+2
+π
+
+
+{\displaystyle S=S(\mathbf {x} ,t),0\leq S<2\pi }
+.
+The local wave number vector is the gradient of the phase function,
+
+
+
+
+
+k
+
+=
+∇
+S
+
+
+{\displaystyle \mathbf {k} =\nabla S}
+,
+and the angular frequency is proportional to its local rate of change,
+
+
+
+
+ω
+=
+−
+∂
+S
+
+/
+
+∂
+t
+
+
+{\displaystyle \omega =-\partial S/\partial t}
+.
+Simplifying to one dimension and cross-differentiating it is now easily seen that the above definitions indicate simply that the rate of change of wavenumber is balanced by the convergence of the frequency along a ray;
+
+
+
+
+
+
+
+∂
+k
+
+
+∂
+t
+
+
+
++
+
+
+
+∂
+ω
+
+
+∂
+x
+
+
+
+=
+0
+
+
+{\displaystyle {\frac {\partial k}{\partial t}}+{\frac {\partial \omega }{\partial x}}=0}
+.
+Assuming stationary conditions (
+
+
+
+∂
+
+/
+
+∂
+t
+=
+0
+
+
+{\displaystyle \partial /\partial t=0}
+), this implies that wave crests are conserved and the frequency must remain constant along a wave ray as
+
+
+
+∂
+ω
+
+/
+
+∂
+x
+=
+0
+
+
+{\displaystyle \partial \omega /\partial x=0}
+. As waves enter shallower waters, the decrease in group velocity caused by the reduction in water depth leads to a reduction in wave length
+
+
+
+λ
+=
+2
+π
+
+/
+
+k
+
+
+{\displaystyle \lambda =2\pi /k}
+because the nondispersive shallow water limit of the dispersion relation for the wave phase speed,
+
+
+
+
+ω
+
+/
+
+k
+≡
+c
+=
+
+
+g
+h
+
+
+
+
+{\displaystyle \omega /k\equiv c={\sqrt {gh}}}
+
+dictates that
+
+
+
+
+k
+=
+ω
+
+/
+
+
+
+g
+h
+
+
+
+
+{\displaystyle k=\omega /{\sqrt {gh}}}
+,
+i.e., a steady increase in k (decrease in
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+) as the phase speed decreases under constant
+
+
+
+ω
+
+
+{\displaystyle \omega }
+.

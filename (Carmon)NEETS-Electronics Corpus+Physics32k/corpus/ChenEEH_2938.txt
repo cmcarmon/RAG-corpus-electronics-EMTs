@@ -1,0 +1,42 @@
+The forward scattered ﬁeld measured along the line T per-
+pendicular to ^ii can be expressed as the integral of the product
+of the Green’s function, incident ﬁeld and the dielectric constant
+of the object. Taking the one-dimensional Fourier transform of
+the scattered ﬁeld along the line perpendicular to ^ii, one sees that
+the transformed ﬁeld is related to the values of the two-dimen-
+sional Fourier transform of the dielectric constant contrast
+evaluated on a semicircle. The orientation of the semicircle
+depends on the incident direction ^ii, and its radius is fre-
+quency-dependent. Note that this semicircle corresponds to
+the slice for the conventional X-ray CT. If we change the direc-
+tion of the incident wave (and hence the corresponding
+direction of receiving line) over all aspect angles and/or vary
+the frequency of the incident wave, sufﬁcient transformed data
+will be available in the two-dimensional spatial frequency
+domain. After proper interpolation of the data to ﬁt the rect-
+angular coordinates, one can take the two-dimensional inverse
+Fourier transform (by FFT) to obtain the reconstructed dielec-
+tric constant distribution. This is the basic principle of the
+forward-type diffraction tomography. For the reﬂection-type,
+one can measure the back scattered ﬁeld along the line perpen-
+dicular to ^ii and perform similar processes (except that the
+transformed data are now on another semicircle away from
+the origin). This discussion is based on the Born approximation
+that holds only for the case of very weak inhomogeneity of
+the dielectric object. However, one can enlarge the range of
+inhomogeneity a little further such that the Rytov approxima-
+tion is valid. By properly deﬁning the measured quantity
+(taking the logarithm of the total ﬁeld divided by the incident
+ﬁeld), it can be shown that all the aforementioned processes are
+still valid. Therefore, the diffraction tomography can be applied
+to a larger range of inhomogeneity of the dielectric object as
+long as the Rytov approximation is satisﬁed. Note that the idea
+of diffraction tomography can also be applied to inverse scat-
+tering of the conducting object. Under the physical optics
+approximation, the scattered ﬁeld can be approximately ex-
+pressed as a linear function of a properly deﬁned shape function
+of the object. Therefore, the one-dimensional Fourier transform
+of the scattered ﬁeld will be related to the values of the two-
+dimensional Fourier transform of the shape function evaluated
+on a semicircle. This is indeed the basic scheme of the diffrac-
+tion tomography. However, the shape function deﬁned here is

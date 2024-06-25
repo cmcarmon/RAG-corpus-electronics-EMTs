@@ -1,0 +1,19 @@
+The PT IGBT has a thin drift region and better on-state
+performance than NPT IGBT. High gain of the pnp transistor
+can lead to potential thyristor latch-up. For this reason, PT
+IGBT is subjected to lifetime control techniques to reduce the
+gain of the bipolar transistor. On the other hand, NPT IGBT
+has a wide drift region, and the gain is low even without
+lifetime control. Low lifetime and thin drift region make the
+PT IGBT more sensitive to temperature variation than NPT
+IGBT. Further, being bipolar in nature, IGBTs are vulnerable to
+thermal runaway in certain conditions, depending on the
+relative importance of MOSFET and bipolar transistor param-
+eters. Hence, paralleling IGBTs is a challenge. The delay in
+turn-on and current tail during turn-off are signiﬁcant sources
+of power loss in an IGBT. Several structures have been
+designed for faster removal of charge from the drift region
+during turn-off. Controlling the carrier lifetime within a
+tightly controlled band in the drift region has also been used
+to obtain a better turn-off between conduction and switching
+characteristics.

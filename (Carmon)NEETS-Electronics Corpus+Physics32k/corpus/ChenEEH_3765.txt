@@ -1,0 +1,9 @@
+To reduce the computational load and to mitigate the nu-
+merical problems arising from many products of probabilities,
+it is common to sum negative log probabilities rather than to
+multiply probabilities directly. If this strategy is used, the
+problem reverts to a minimal cost path search because high
+probabilities result in small negative logs. The steps of a Viterbi
+search algorithm based on this cost strategy are shown in
+Figure 3.12. Note that a provision for state backtracking is
+included in the algorithm.

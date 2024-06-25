@@ -1,0 +1,159 @@
+Some applications may require the comparison of distributions with different total masses. One approach is to allow for a partial match, where dirt from the most massive distribution is rearranged to make the least massive, and any leftover "dirt" is discarded at no cost. Under this approach, the EMD is no longer a true distance between distributions.
+Another approach is to allow for mass to be created or destroyed, on a global and/or local level, as an alternative to transportation, but with a cost penalty. In that case one must specify a real parameter σ, the ratio between the cost of creating or destroying one unit of "dirt", and the cost of transporting it by a unit distance. This is equivalent to minimizing the sum of the earth moving cost plus σ times the L1 distance between the rearranged pile and the second distribution.
+Notationally, if
+
+
+
+π
+:
+P
+→
+Q
+
+
+{\displaystyle \pi :P\to Q}
+is a partial function which is a bijection on subsets
+
+
+
+
+P
+′
+
+⊂
+P
+
+
+{\displaystyle P'\subset P}
+and
+
+
+
+
+Q
+′
+
+⊂
+Q
+
+
+{\displaystyle Q'\subset Q}
+, then one is interested in the distance function
+
+
+
+
+
+|
+
+P
+−
+Q
+
+
+|
+
+
+π
+
+
+=
+
+|
+
+P
+∖
+
+P
+′
+
+
+|
+
++
+
+|
+
+Q
+∖
+
+Q
+′
+
+
+|
+
+
+
+{\displaystyle |P-Q|_{\pi }=|P\setminus P'|+|Q\setminus Q'|}
+
+where
+
+
+
+P
+∖
+
+P
+′
+
+
+
+{\displaystyle P\setminus P'}
+denotes set minus. Here,
+
+
+
+
+P
+′
+
+
+
+{\displaystyle P'}
+would be the portion of the earth that was moved; thus
+
+
+
+P
+∖
+
+P
+′
+
+
+
+{\displaystyle P\setminus P'}
+would be the portion not moved, and
+
+
+
+
+|
+
+P
+∖
+
+P
+′
+
+
+|
+
+
+
+{\displaystyle |P\setminus P'|}
+the size of the pile not moved. By symmetry, one contemplates
+
+
+
+
+Q
+′
+
+⊂
+Q
+
+
+{\displaystyle Q'\subset Q}
+as the pile at the destination that 'got there' from P, as compared to the total Q that we want to have there. Formally, this distance indicates how much an injective correspondence differs from an isomorphism.

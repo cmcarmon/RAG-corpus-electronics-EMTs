@@ -1,0 +1,14 @@
+Two auxiliary pieces of information are needed to complete
+the characterization of
+the HMM—the initial probability
+vector, say p1, and the number of states, S. The ith element
+of p1 2 RS is the probability that state i is the initial state
+in any path that produces an observation string. In the left-
+to-right model, the starting state is naturally taken to be
+the ‘‘leftmost’’ one, ordinarily numbered ‘‘state 1.’’ Accord-
+ingly, p1 ¼ 1
+. Formally, then, a Moore-form
+½
+n
+o
+HMM, say M, is comprised of the set of elements:

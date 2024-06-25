@@ -1,0 +1,8 @@
+The  equivalent  circuit  model  for  a  MOSFET  is  shown  in  Figure  ###.  In  DC 
+operation,  the  gate  is  an  infinite  impedance  sense  while  the  drain-source  current  is 
+determined  by  a  voltage-dependent  current  source.  This  model  reveals  an  important 
+difference between MOSFET’s and BJT’s. Unlike BJT’s, a MOSFET does not require a 
+DC current to be turned on. However, a MOSFET does have a significant gate to body 
+capacitance and requires a transient current to deposit enough charges at the gate to create 
+a conductive channel from drain to source. 
+ 

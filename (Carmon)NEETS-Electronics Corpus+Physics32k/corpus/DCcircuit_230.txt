@@ -1,0 +1,6 @@
+SPICE begins with a reiteration of the netlist, complete with title line and .end statement.
+About halfway through the simulation it displays the voltage at all nodes with reference to
+node 0. In this example, we only have one node other than node 0, so it displays the voltage
+there: 10.0000 volts. Then it displays the current through each voltage source. Since we only
+have one voltage source in the entire circuit, it only displays the current through that one. In
+this case, the source current is 2 amps. Due to a quirk in the way SPICE analyzes current, the

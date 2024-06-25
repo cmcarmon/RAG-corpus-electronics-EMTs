@@ -1,0 +1,10 @@
+Refer to figure 2-10, view (D), for the following discussion of the circuit operation of the Armstrong 
+oscillator. When VCC is applied to the circuit. a small amount of base current flows through R2 which sets 
+the forward bias on Q1. This forward bias causes collector current to flow from ground through Q1, R1, 
+and L1 to +VCC. The current through L1 develops a magnetic field which induces a voltage into the tank 
+circuit. The voltage is positive at the top of L2 and C1. At this time, two actions occur. First, resonant 
+tank capacitor C1 charges to this voltage; the tank circuit now has stored energy. Second, coupling 
+capacitor C2 couples the positive signal to the base of Q1. With a positive signal on its base, Q1 conducts 
+harder. With Q1 conducting harder, more current flows through L1, a larger voltage is induced into L2, 
+and a larger positive signal is coupled back to the base of Q1. While this is taking place, the frequency-
+determining device is storing more energy and C1 is charging to the voltage induced into L2. 

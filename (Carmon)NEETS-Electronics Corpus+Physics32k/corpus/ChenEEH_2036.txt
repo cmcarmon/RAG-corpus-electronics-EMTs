@@ -1,0 +1,9 @@
+The plots in Figure 8.20 clearly show the signiﬁcant improve-
+ments in coverage of the hybrid checksum test with respect to
+both the mantissa and the ﬂoating point checksum tests. For
+the low false alarm case, the mantissa checksum test has supe-
+rior coverage compared to the ﬂoating point checksum test.
+An important point to be noted that is not apparent from the
+plots of Figure 8.20 is that the mantissa checksum test detects
+100% of all multiplication errors for both matrix multipli-
+cation and LU decomposition.

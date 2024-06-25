@@ -1,0 +1,243 @@
+For example, the Ising model free energy in the vicinity of the phase transition may be written as the following, where the variable
+
+
+
+Ψ
+
+
+{\displaystyle \Psi }
+is the coarse-grained field of spins, known as the order parameter or the total magnetization.
+
+
+
+
+F
+=
+a
++
+r
+
+Ψ
+
+2
+
+
++
+s
+
+Ψ
+
+4
+
+
++
+H
+Ψ
++
+.
+.
+.
+
+
+
+{\displaystyle F=a+r\Psi ^{2}+s\Psi ^{4}+H\Psi +...\,}
+
+We can truncate the free energy to the 4th power in
+
+
+
+Ψ
+
+
+{\displaystyle \Psi }
+without losing the physics of the phase transition, but in general, there are higher order terms present. For the system to be thermodynamically stable, the parameter on the highest even power of the order parameter must be positive. In this case, we find that
+
+
+
+s
+>
+0
+
+
+{\displaystyle s>0}
+, such that the free energy is bounded.
+The phase transition occurs at some critical temperature
+
+
+
+
+T
+
+c
+
+
+
+
+{\displaystyle T_{c}}
+. Noticing that the minimum in the free energy changes from
+
+
+
+Ψ
+=
+0
+
+
+{\displaystyle \Psi =0}
+to
+
+
+
+Ψ
+≠
+0
+
+
+{\displaystyle \Psi \neq 0}
+when the parameter
+
+
+
+r
+
+
+{\displaystyle r}
+changes sign, we can write the parameter
+
+
+
+r
+
+
+{\displaystyle r}
+as a function of temperature as such:
+
+
+
+
+r
+=
+
+r
+
+0
+
+
+(
+T
+−
+
+T
+
+c
+
+
+)
+
+
+
+{\displaystyle r=r_{0}(T-T_{c})\,}
+
+where
+
+
+
+
+r
+
+0
+
+
+
+
+{\displaystyle r_{0}}
+is some temperature independent constant. The constant
+
+
+
+a
+
+
+{\displaystyle a}
+can be safely taken to be zero because it is simply a constant shift in the free energy, which has no effect on the physics of the phase transition.
+The Ising model theory of Landau first raised the order parameter to prominence. Note that the Ising model exhibits the following discrete symmetry: If every spin in the model is flipped, such that
+
+
+
+
+
+S
+
+i
+
+
+
+→
+
+−
+
+S
+
+i
+
+
+
+
+
+{\displaystyle {S_{i}}\rightarrow {-S_{i}}}
+, where
+
+
+
+
+S
+
+i
+
+
+
+
+{\displaystyle S_{i}}
+is the value of the
+
+
+
+
+i
+
+t
+h
+
+
+
+
+{\displaystyle i^{th}}
+spin, the Hamiltonian (and consequently the free energy) remains unchanged for zero external field
+
+
+
+(
+H
+=
+0
+)
+
+
+{\displaystyle (H=0)}
+. This symmetry is reflected in the even powers of
+
+
+
+Ψ
+
+
+{\displaystyle \Psi }
+in
+
+
+
+F
+
+
+{\displaystyle F}
+.

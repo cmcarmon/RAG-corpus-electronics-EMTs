@@ -1,0 +1,5 @@
+With this technique, procedure calls that are nondetermi-
+nistic in the preprocessing phase and interrupt handler pro-
+cedures can be checked. Whether the correct procedure is
+called remains unchecked, but the return address is checked
+using the signature stack.

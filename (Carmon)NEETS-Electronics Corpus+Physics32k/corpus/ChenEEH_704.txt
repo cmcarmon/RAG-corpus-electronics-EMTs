@@ -1,0 +1,6 @@
+In the general case, more than one level of data reuse buffers
+is possible for each signal (see Section 2.4.2 for an example).
+We have developed a formal methodology (Wuytack et al.,
+1998) for which all possible buffers are arranged in a tree.
+For each signal, such a tree is generated, and an optimal
+alternative is selected.

@@ -1,0 +1,14 @@
+An efﬁciently used memory hierarchy is of primary importance
+in optimizing data transfer and storage. To exploit such a
+memory hierarchy, the code to be mapped should expose max-
+imal data reuse possibilities. Code rewriting techniques, con-
+sisting of loop and data ﬂow transformations, are essential to
+achieve this. The primitive loop transformations are also used in
+modern optimizing and parallelizing compilers to enhance the
+temporal and spatial locality for cache performance and to
+expose the inherent parallelism of the algorithm to the outer
+(for asynchronous parallelism) or inner (for synchronous par-
+allelism) loops (Amarasinghe et al., 1995; Wolf, 1992; Banerjee
+et al. 1993). Other application areas are communication-free
+data allocation techniques (Chen and Sheu, 1994) and optimiz-
+ing communications in general (Gupta et al., 1996).

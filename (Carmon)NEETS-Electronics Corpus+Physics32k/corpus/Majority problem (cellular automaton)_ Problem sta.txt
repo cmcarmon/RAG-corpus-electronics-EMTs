@@ -1,0 +1,73 @@
+Given a configuration of a two-state cellular automaton with i + j cells total, i of which are in the zero state and j of which are in the one state, a correct solution to the voting problem must eventually set all cells to zero if i > j and must eventually set all cells to one if i < j. The desired eventual state is unspecified if i = j.
+The problem can also be generalized to testing whether the proportion of zeros and ones is above or below some threshold other than 50%. In this generalization, one is also given a threshold
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+; a correct solution to the voting problem must eventually set all cells to zero if
+
+
+
+
+
+
+i
+
+i
++
+j
+
+
+
+
+<
+ρ
+
+
+{\displaystyle {\tfrac {i}{i+j}}<\rho }
+and must eventually set all cells to one if
+
+
+
+
+
+
+j
+
+i
++
+j
+
+
+
+
+>
+ρ
+
+
+{\displaystyle {\tfrac {j}{i+j}}>\rho }
+. The desired eventual state is unspecified if
+
+
+
+
+
+
+j
+
+i
++
+j
+
+
+
+
+=
+ρ
+
+
+{\displaystyle {\tfrac {j}{i+j}}=\rho }
+.

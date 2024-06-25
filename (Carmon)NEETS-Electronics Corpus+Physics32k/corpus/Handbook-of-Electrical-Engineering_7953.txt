@@ -1,0 +1,8 @@
+PAL devices are available in a wide variety of sizes. Because there is a ﬁxed allocation of products to outputs
+in  a  simple  PAL  device,  more  different  types  are  needed  than  in  the  case  of  PLAs.  This  limitation  has  lately
+been overcome to some extent in some devices by allowing a limited allocation of products between adjacent outputs.
+The ﬂexibility of PAL-structured PLAs can be enhanced by adding controllable three-state output drivers,
+as shown in Fig. 81.44. The drivers, controlled by additional product terms (or control terms), allow those pins
+to which they are connected to act as either inputs, outputs, or both. This feature allows a single device to be
+used in a wider range of applications than would be possible with a device with a ﬁxed allocation of inputs
+and outputs. Note also the polarity control, similar to that in the PLA of Fig. 81.42.

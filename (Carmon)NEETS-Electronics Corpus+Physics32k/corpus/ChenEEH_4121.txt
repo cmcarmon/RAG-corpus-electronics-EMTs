@@ -1,0 +1,9 @@
+In QPSK, the carrier phase can change only once every 2T
+seconds. If from one 2T interval to the next, neither bit stream
+changes sign, the carrier phase remains the same. If one com-
+ponent aI (t ) or aQ(t) changes sign, a phase shift of p=2 occurs.
+If both components, I and Q change sign, however then a phase
+shift of p or 1808 occurs. When this 1808 phase shift is ﬁltered by
+the transmitter and receiver ﬁlters, it generates a change in
+amplitude of the detected signal and causes additional errors.
+Notice the 1808 shift at the end of bit interval 4 in Figure 4.4.

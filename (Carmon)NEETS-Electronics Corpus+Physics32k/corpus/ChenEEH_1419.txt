@@ -1,0 +1,22 @@
+The FPGA board used in Figure 3.5’s hardware platform has
+been also used to implement an image interpolation engine by
+Hudson et al. (1998). They used run-time reconﬁguration to
+reduce the size of their interpolation engine by four times. To
+reduce reconﬁguration time, they used a tool for incorporating
+partial reconﬁguration into their design (Shirazi et al., 2000).
+A further application has been developed for this FPGA
+board by Singh et al. (1998) that involves accelerating Adobe
+Photoshop computations in a software plug-in framework. As
+different ﬁlters are selected in the application, a new design is
+downloaded into the platform. The applications implemented
+include a color to gray scale ﬁlter and 1-D and 2-D image
+convolvers. Partial reconﬁguration is not performed when
+switching between these image processing tasks. By using
+the same method as Hudson et al. (1998), they reduced the
+time required to reconﬁgure to a new image processing task.
+The signiﬁcance of using this FPGA platform with a main-
+stream application is that users do not need to know details
+about the enabling technology to reap its beneﬁts. MacVicar
+and Singh (1998) have also been able to accelerate the
+rendering of Bezier curves, a core function in desktop publish-
+ing applications.

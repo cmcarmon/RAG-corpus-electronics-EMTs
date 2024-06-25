@@ -1,0 +1,6 @@
+the yellow and green LEDs (LED1 and LED2) so that you’re essentially 
+disconnecting 4017 output pins 2, 3, 4, 7, and 10. Replace C1 with a 4.7 μF 
+capacitor. Your red light blinker should cycle on and off every 0.5 to 5 sec-
+onds (depending on the value of the pot, R1). (Of course, this is overkill. 
+You don’t need the 4017 decade counter to do this; you just need a 555 
+timer IC and some resistors and capacitors.)

@@ -1,0 +1,12 @@
+poses an overhead in the most likely scenario of more and
+more image content being stored in compressed form due to
+the success of image coding standards like JPEG and JPEG-
+2000. A better approach toward this issue in many of the
+modern systems is to process compressed domain images as
+a ﬁrst class and default medium (i.e., compressed images
+should be operated upon directly). Since compressed domain
+representation either has all (if it is a lossless coding scheme)
+or most of the important (if it is a lossy scheme, depending on
+the quantization setting in the encoder) image information
+intact, indexing based on image content can be performed
+from minimal decoding of compressed images.

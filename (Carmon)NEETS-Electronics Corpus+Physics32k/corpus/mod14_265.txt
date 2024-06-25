@@ -1,0 +1,4 @@
+As with the NAND gate, one or more inputs to NOR gates may be inverted. Figure 2-22 shows the
+result of inverting a NOR gate input. In this case, because of the inversion of the B input and the inversion
+of the output, the only time this gate will produce a HIGH output is when A is LOW and B is HIGH. The
+output Boolean expression for this gate is f = BA + , spoken “A OR NOT B quantity NOT.”

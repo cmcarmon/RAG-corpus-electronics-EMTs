@@ -1,0 +1,17 @@
+How do we calculate the minimum distance between codewords? Because we have 2K codewords, the number
+procedure is linear, with c = Gb. Therefore (ci ⊕ cj) = G ((bi ⊕ bj)). Because bi ⊕ bj always yields another
+block of data bits, we ﬁnd that the diﬀerence between any two codewords is another codeword! Thus, to
+ﬁnd dmin we need only compute the number of ones that comprise all non-zero codewords. Finding these
+codewords is easy once we examine the coder’s generator matrix. Note that the columns of G are codewords
+(why is this?), and that all codewords can be found by all possible pairwise sums of the columns. To ﬁnd
+dmin, we need only count the number of bits in each column and sums of columns. For our example (7, 4),
+G’s ﬁrst column has three ones, the next one four, and the last two three. Considering sums of column pairs
+next, note that because the upper portion of G is an identity matrix, the corresponding upper portion of all
+column sums must have exactly two bits. Because the bottom portion of each column diﬀers from the other
+columns in at least one place, the bottom portion of a sum of columns must have at least one bit. Triple
+sums will have at least three bits because the upper portion of G is an identity matrix. Thus, no sum of
+columns has fewer than three bits, which means that dmin = 3, and we have a channel coder that can correct
+all occurrences of one error within a received 7-bit block.
+6.28 Error-Correcting Codes: Channel Decoding36
+Because the idea of channel coding has merit (so long as the code is eﬃcient), let’s develop a systematic
+procedure for performing channel decoding. One way of checking for errors is to try recreating the error

@@ -1,0 +1,12 @@
+7.5 T H E M O S F E T A M P L I F I E R
+A MOSFET amplifier circuit is shown in Figure 7.19. Remarkably, this circuit
+is identical to the inverter circuit we saw earlier! Unlike the inverter circuit,
+however, the input and output voltages of the MOSFET amplifier must be
+carefully chosen so that the MOSFET operates in its saturation region. In the
+saturation region of operation, the SCS model can be used to analyze the
+MOSFET amplifier. Constraining the inputs so that the MOSFET is always
+in saturation results in the desired amplifier behavior, and furthermore, it sig-
+nificantly simplifies our analysis. This constraint on how we use a MOSFET
+amplifier is yet another example of a discipline to which we adhere in circuit
+design and analysis. This discipline is called the saturation discipline and is
+discussed further in Section 7.5.2.

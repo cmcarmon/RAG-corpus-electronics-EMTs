@@ -1,0 +1,23 @@
+AC Power Supplies
+Some  applications  of  ac  power  supplies  are  ac  motor  drives,
+uninterruptible power supply (UPS) used as a standby ac source
+for  critical  loads  (e.g.,  in  hospitals,  computers),  and  dc  source-
+to-utility  interface  (either  to  meet  peak  power  demands  or  to
+augment  energy  by  connecting  unconventional  energy  sources
+like photovoltaic arrays to the utility line). In ac induction motor
+drives,  the  ac  power  main  is  rectiﬁed  and  ﬁltered  to  obtain  a
+smooth dc source, and then an inverter (single-phase version is
+shown in Fig. 30.38) is used to obtain a variable-frequency, vari-
+able-voltage  ac  source.  The  sinusoidal  pulsewidth  modulation
+technique described in Section 30.2 can be used to obtain a sinu-
+soidal output voltage. Some other methods used to get sinusoidal
+voltage  output  are  [Rashid,  1988]  a  number  of  phase-shifted
+inverter  outputs  summed  in  an  output  transformer  to  get  a
+stepped waveform that approximates a sine wave and the use of
+a bang-bang controller in Fig. 30.38. All these methods use line-
+frequency (60 Hz) transformers for voltage translation and iso-
+lation  purposes.  To  reduce  the  size,  weight,  and  cost  of  such
+systems, one can use dc-to-dc converters (discussed earlier) as an intermediate stage. Figure 30.39 shows such
+a system in block schematic form. One can use an HF inverter circuit (discussed earlier) followed by a cycloconverter
+stage. The major problem with these schemes is the reduction in efﬁciency due to the extra power stage. Figure
+30.40 shows a typical UPS scheme. The battery shown has to be charged by a separate rectiﬁer circuit.

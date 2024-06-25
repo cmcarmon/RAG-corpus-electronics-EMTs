@@ -1,0 +1,14 @@
+The interesting range of such a Pareto graph on the cycle
+budget axis should be deﬁned from the critical path up to the
+fully sequential memory access path. In the fully sequential
+case, all the memory accesses can be transferred over a single
+port (lowest bandwidth). However, the number of memories is
+fully free, and the memory architecture can be freely deﬁned.
+Therefore, the energy is the lowest. In the other extreme, the
+critical path, only a limited memory access ordering is valid.
+Many memory accesses are performed in parallel. Conse-
+quently, the constraints on the memory system are large, and
+a limited freedom is available. As a result, the energy consump-
+tion goes up. Because of a restricted cycle budget, the power
+itself increases even more of course, but the latter involves a
+more traditional trade-off that is not our focus here.

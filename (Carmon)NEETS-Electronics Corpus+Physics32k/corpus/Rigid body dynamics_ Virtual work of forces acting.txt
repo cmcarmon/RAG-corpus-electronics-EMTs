@@ -1,0 +1,49 @@
+An alternate formulation of rigid body dynamics that has a number of convenient features is obtained by considering the virtual work of forces acting on a rigid body.
+The virtual work of forces acting at various points on a single rigid body can be calculated using the velocities of their point of application and the resultant force and torque. To see this, let the forces F1, F2 ... Fn act on the points R1, R2 ... Rn in a rigid body.
+The trajectories of Ri, i = 1, ..., n are defined by the movement of the rigid body. The velocity of the points Ri along their trajectories are
+
+
+
+
+
+
+V
+
+
+i
+
+
+=
+
+
+
+ω
+→
+
+
+
+×
+(
+
+
+R
+
+
+i
+
+
+−
+
+R
+
+)
++
+
+V
+
+,
+
+
+{\displaystyle \mathbf {V} _{i}={\vec {\omega }}\times (\mathbf {R} _{i}-\mathbf {R} )+\mathbf {V} ,}
+
+where ω is the angular velocity vector of the body.

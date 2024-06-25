@@ -1,0 +1,9 @@
+In a fully systolic SFG, each edge is associated with regis-
+ter(s). The clock cycle time of each SFG node is determined by
+its critical path. The delay of the critical path is determined by
+the maximum computation delay on a zero-register path. On
+the other hand, a recurrent algorithm is constrained by its
+iteration period analogous to a clock period. Other than min-
+imizing the iteration period or cycle time, both space–time
+mapping and multiprocessor implementation try to minimize
+the number of PEs/processors, respectively.

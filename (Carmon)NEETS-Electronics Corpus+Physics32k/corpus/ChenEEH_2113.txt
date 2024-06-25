@@ -1,0 +1,13 @@
+Suppose that a transition t is enabled by n tokens and the
+fuzzy enabling time et (t) of transition t is computed by
+et(t) ¼ latest {pi(t), i ¼ 1, 2, . . ., n}, where latest is the oper-
+ator that constructs the ‘‘latest-arrival-lowest-possibility distri-
+bution’’ from n distributions (Murata, 1996; Murata et al.,
+1999). The pi(t) is the fuzzy time stamp to which the enabling
+token arrives at the ith input place of transition t. When there
+are m transitions in structural conﬂict that are enabled with
+their fuzzy enabling times, ei(t), i ¼ 1, 2, . . ., t, . . ., m, and
+with their possibility intervals, pi[ai, bi], we compute the
+fuzzy occurrence time ot (t) of transition t whose fuzzy enab-
+ling time is et(t) as follows:
+ot(t) ¼ min {et(t)  pi(at, at, bt, bt),

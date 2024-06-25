@@ -1,0 +1,11 @@
+Such problems arise when the test or reference sequence, or
+both, are modeled by stochastic process(es) so that the search
+costs are random variables whose values depend on the out-
+come(s) of the stochastic process(es) to be matched. Given
+random test and reference sequences, the search costs can only
+be modeled as random variables. Once realizations of the test
+and reference sequences are available, however, the search can
+proceed as in the deterministic case with costs determined
+‘‘online.’’ Such a modiﬁed search procedure, called the Viterbi
+algorithm (Viterbi, 1967), plays a key role in the training and
+decoding of the HMM, to which we now turn.

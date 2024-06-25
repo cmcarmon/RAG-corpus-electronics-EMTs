@@ -1,0 +1,8 @@
+Each read/write head is shaped from a ferromagnetic material with an air gap 1 mm wide as seen in Fig. 80.18.
+The writing head is concerned with converting an electrical pulse into a magnetic state and can be magnetized
+in one of two directions. This is done by passing a current through the magnetic coil which sets up a leakage
+ﬁeld across the 1-mm gap. When the current is reversed the ﬁeld across the gap is changed, reversing the polarity
+of the magnetic ﬁeld on the tape. The head magnetizes the passing magnetic tape recording the state of the
+magnetic ﬁeld in the air gap. A logic 1 is recorded as a change in polarity on the tape, and a logic 0 is recorded
+as no change in polarity, as seen in Fig. 80.19. Reading the magnetic tape states from the tape and converting
+them to electrical signals is done by the read head. The bit sequences in Fig. 80.19 show the change in magnetic

@@ -1,0 +1,122 @@
+The Clausius theorem is a mathematical explanation of the second law of thermodynamics. Also referred to as the "inequality of Clausius", the theorem was developed by Rudolf Clausius who intended to explain the relationship between the heat flow in a system and the entropy of the system and its surroundings. Clausius developed this in his efforts to explain entropy and define it quantitatively. In more direct terms, the theorem gives us a way to determine if a cyclical process is reversible or irreversible. The Clausius theorem provides a quantitative formula for understanding the second law.
+Clausius was one of the first to work on the idea of entropy and is even responsible for giving it that name. What is now known as the Clausius theorem was first published in 1862 in Clausius' sixth memoir, "On the Application of the Theorem of the Equivalence of Transformations to Interior Work". Clausius sought to show a proportional relationship between entropy and the energy flow by heating (δQ) into a system. In a system, this heat energy can be transformed into work, and work can be transformed into heat through a cyclical process. Clausius writes that "The algebraic sum of all the transformations occurring in a cyclical process can only be less than zero, or, as an extreme case, equal to nothing." In other words, the equation
+
+
+
+
+
+
+
+∮
+
+
+
+
+
+⁡
+
+
+
+δ
+Q
+
+T
+
+
+=
+0
+
+
+{\displaystyle \oint {\frac {\delta Q}{T}}=0}
+
+with 𝛿Q being energy flow into the system due to heating and T being absolute temperature of the body when that energy is absorbed, is found to be true for any process that is cyclical and reversible. Clausius then took this a step further and determined that the following equation must be found true for any cyclical process that is possible, reversible or not. This equation is the "Clausius inequality".
+
+
+
+
+
+
+
+∮
+
+
+
+
+
+⁡
+
+
+
+δ
+Q
+
+T
+
+
+≤
+0
+
+
+{\displaystyle \oint {\frac {\delta Q}{T}}\leq 0}
+
+Now that this is known, there must be a relation developed between the Clausius inequality and entropy. The amount of entropy S added to the system during the cycle is defined as
+
+
+
+
+Δ
+S
+
+=
+
+
+
+
+∮
+
+
+
+
+
+⁡
+
+
+
+δ
+Q
+
+T
+
+
+
+
+{\displaystyle \Delta S{=}\oint {\frac {\delta Q}{T}}}
+
+It has been determined, as stated in the second law of thermodynamics, that the entropy is a state function: It depends only upon the state that the system is in, and not what path the system took to get there. This is in contrast to the amount of energy added as heat (𝛿Q) and as work (𝛿W), which may vary depending on the path. In a cyclic process, therefore, the entropy of the system at the beginning of the cycle must equal the entropy at the end of the cycle. In the irreversible case, entropy will be created in the system, and more entropy must be extracted than was added
+
+
+
+(
+Δ
+S
+<
+0
+)
+
+
+{\displaystyle (\Delta S<0)}
+in order to return the system to its original state. In the reversible case, no entropy is created and the amount of entropy added is equal to the amount extracted
+
+
+
+(
+Δ
+S
+=
+0
+)
+
+
+{\displaystyle (\Delta S=0)}
+.
+If the amount of energy added by heating can be measured during the process, and the temperature can be measured during the process, the Clausius inequality can be used to determine whether the process is reversible or irreversible by carrying out the integration in the Clausius inequality.

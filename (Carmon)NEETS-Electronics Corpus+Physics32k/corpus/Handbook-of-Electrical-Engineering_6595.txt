@@ -1,0 +1,5 @@
+Commercial token rings use wire interconnections or optical data links to join stations at rates in the 10-
+Mb/s range. Actual network use is less than 10 Mb/s because of the time it takes an empty token to pass around
+the ring. This transit-time delay increases linearly with the number of stations. It includes propagation delay
+between stations and processing delay at each station, which must examine the header of every packet before
+repeating the bits to the next station.

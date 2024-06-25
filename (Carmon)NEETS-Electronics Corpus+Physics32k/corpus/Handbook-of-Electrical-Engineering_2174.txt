@@ -1,0 +1,6 @@
+Principal Component Analysis
+Principal component analysis (PCA) is a well-known technique in signal processing that is used to project a
+signal into a signal-speciﬁc basis. The importance of PCA analysis is that it provides the best linear projection
+to a subspace in terms of preserving the signal energy [Haykin, 1994]. Normally, PCA is computed analytically
+through a singular value decomposition. PCA networks offer an alternative to this computation by providing
+an iterative implementation that may be preferred for real-time operation in embedded systems.

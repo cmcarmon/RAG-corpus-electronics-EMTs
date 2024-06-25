@@ -1,0 +1,11 @@
+(cid:1) The Norton equivalent circuit contains a current source in parallel with a
+resistor. The element value for the Norton equivalent current source can
+be found by calculating or measuring at the designated terminal pair on the
+original network the short circuit current. As with the Thévenin equivalent
+resistance, the Norton equivalent resistance can be calculated or measured
+as the resistance of the network seen from the designated terminal pair with
+all independent sources internal to the network set to zero. Note that the
+value of the equivalent resistance is the same for the Thévenin and Norton
+equivalent circuits, that is, RTH = RN.
+Since the Thévenin equivalent voltage vTH, the Norton equivalent current
+iN, and the equivalent resistance RTH = RN are related as

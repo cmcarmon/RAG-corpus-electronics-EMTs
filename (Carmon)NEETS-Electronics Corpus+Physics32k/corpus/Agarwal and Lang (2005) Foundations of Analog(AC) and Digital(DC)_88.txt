@@ -1,0 +1,9 @@
+The process of discretization can also be viewed as a way of modeling
+physical systems. The resistor is a model for a lightbulb if we are interested in
+finding the current flowing through the lightbulb for a given applied voltage.
+It can even tell us the power consumed by the lightbulb. Similarly, as we will
+see in Section 1.6, a constant voltage source is a good model for the battery
+when its internal resistance is zero. Thus, Figure 1.4b is also called the lumped
+circuit model of the lightbulb circuit. Models must be used only in the domain
+in which they are applicable. For example, the resistor model for a lightbulb
+tells us nothing about its cost or its expected lifetime.

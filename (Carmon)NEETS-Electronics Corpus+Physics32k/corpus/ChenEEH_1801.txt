@@ -1,0 +1,11 @@
+Packet Scheduling
+If differential treatment is to be provided in the network, then
+FIFO scheduling, traditionally used in routers, must be re-
+placed by sophisticated queuing disciplines like priority
+queuing and weighted fair queuing. Priority queuing pro-
+vides different queues for different trafﬁc types. Every queue
+has an associated priority in which it is served. Queues with
+lower priority are served only when there are no packets in all
+the higher priority queues. One disadvantage of priority
+queuing is that it might lead to starvation of some low-priority
+ﬂows.

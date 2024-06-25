@@ -1,0 +1,14 @@
+Based on the rule 2, relay R2 acting as a backup for relay
+R3 has to operate 0.5 sec after relay R3 should have
+operated. This means that relay R2 has to have a delay
+of 0.5 sec for the highest fault current seen by relay R3 to
+meet the above mentioned criteria. Let us assume that the
+highest fault current seen by relay R3 is at location next to
+breaker B34 looking downstream from breaker B34, and
+this current is equal to 306 A. In that case, the primary
+fault current is equal to 306/10 ¼ 30.6 A. The selected
+relay tap setting will produce a pick-up current of 30.6/5
+¼ 6.12 A. From Figure 9.11, the time delay corresponding
+to this pick-up value is 0.2 sec. Hence, if relay R3 fails to
+operate, the relay R2 will operate as a backup with a time
+delay of 0.2 sec þ 0.5 sec ¼ 0.7 sec. According to Figure

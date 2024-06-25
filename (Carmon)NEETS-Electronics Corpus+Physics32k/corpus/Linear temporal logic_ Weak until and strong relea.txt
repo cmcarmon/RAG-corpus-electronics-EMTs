@@ -1,0 +1,7 @@
+Some authors also define a weak until binary operator, denoted W, with semantics similar to that of the until operator but the stop condition is not required to occur (similar to release). It is sometimes useful since both U and R can be defined in terms of the weak until:
+φ W ψ ≡ (φ U ψ) ∨ G φ ≡ φ U (ψ ∨ G φ) ≡ ψ R (ψ ∨ φ)
+φ U ψ ≡ Fψ ∧ (φ W ψ)
+φ R ψ ≡ ψ W (ψ ∧ φ)
+The strong release binary operator, denoted M, is the dual of weak until. It is defined similar to the until operator, so that the release condition has to hold at some point. Therefore, it is stronger than the release operator.
+φ M ψ ≡ ¬(¬φ W ¬ψ) ≡ (φ R ψ) ∧ F φ ≡ φ R (ψ ∧ F φ) ≡ ψ U (φ ∧ ψ)
+The semantics for the temporal operators are pictorially presented as follows.

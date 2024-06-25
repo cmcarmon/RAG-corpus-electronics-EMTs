@@ -1,0 +1,3 @@
+In Step 2 we use LD to ﬁt the slope of the linear region curve, holding U0 ﬁxed from step 1. We also ﬁt with
+VT0 and THETA because without them the ﬁtting will not work. However, we want only the value of LD that
+ﬁts the slope, so we throw away VT0 and THETA, replacing them with the values from step 1.

@@ -1,0 +1,97 @@
+The term Dω/Dt on the left-hand side is the material derivative of the vorticity vector ω. It describes the rate of change of vorticity of the moving fluid particle. This change can be attributed to unsteadiness in the flow (∂ω/∂t, the unsteady term) or due to the motion of the fluid particle as it moves from one point to another (u ∙ (∇ω), the convection term).
+The term (ω ∙ ∇) u on the right-hand side describes the stretching or tilting of vorticity due to the flow velocity gradients. Note that ∇u is an order-2 tensor with nine components.
+The term ω(∇ ∙ u) describes stretching of vorticity due to flow compressibility. It follows from the Navier-Stokes equation for continuity, namely
+
+
+
+
+
+
+
+∂
+ρ
+
+
+∂
+t
+
+
+
++
+∇
+⋅
+
+(
+
+ρ
+
+u
+
+
+)
+
+=
+0
+
+
+{\displaystyle {\frac {\partial \rho }{\partial t}}+\nabla \cdot \left(\rho \mathbf {u} \right)=0}
+
+
+or
+
+
+
+
+∇
+⋅
+
+u
+
+=
+−
+
+
+1
+ρ
+
+
+
+
+
+d
+ρ
+
+
+d
+t
+
+
+
+=
+
+
+1
+v
+
+
+
+
+
+d
+v
+
+
+d
+t
+
+
+
+
+
+{\displaystyle \nabla \cdot \mathbf {u} =-{\frac {1}{\rho }}{\frac {d\rho }{dt}}={\frac {1}{v}}{\frac {dv}{dt}}}
+
+
+where v = 1/ρ is the specific volume of the fluid element. One can think of ∇ ∙ u as a measure of flow compressibility. Sometimes the negative sign is included in the term.
+The term 1/ρ2∇ρ × ∇p is the baroclinic term. It accounts for the changes in the vorticity due to the intersection of density and pressure surfaces.
+The term ∇ × (∇ ∙ τ/ρ), accounts for the diffusion of vorticity due to the viscous effects.
+The term ∇ × B provides for changes due to external body forces. These are forces that are spread over a three-dimensional region of the fluid, such as gravity or electromagnetic forces. (As opposed to forces that act only over a surface (like drag on a wall) or a line (like surface tension around a meniscus).

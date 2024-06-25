@@ -1,0 +1,5 @@
+However, when the input vIN is high (and above the threshold VT), the
+MOSFET is on and displays a resistance RON between its D and S terminals,
+thereby pulling the output voltage lower. However, the output voltage is not
+0 V as predicted by the simpler S model of the MOSFET. Instead, the value of
+the output voltage is given by the voltage-divider relationship:

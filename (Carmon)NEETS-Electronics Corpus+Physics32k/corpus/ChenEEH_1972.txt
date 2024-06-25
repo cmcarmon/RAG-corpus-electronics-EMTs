@@ -1,0 +1,6 @@
+To perform CFC, the source code to be executed by the
+checked system is preprocessed: the CFG is extracted, signa-
+tures are assigned to the nodes (blocks), the blocks are aug-
+mented with these signatures, and possibly the program of the
+main processor is modiﬁed by inserting the statements that
+transfer the signatures to the WD.

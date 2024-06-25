@@ -1,0 +1,8 @@
+The  process  of  generating  the  solution  set  P(xk–1)  from  xk–1  is  to  be  interpreted  in  the  following  sequential
+manner. First, the set Pm(xk–1) is found. This set consists of all signals possessing the mth attribute that lie closest
+to xk–1 in the given signal metric. Next, the set Pm–1(Pm(xk–1)) is formed and consists of all signals possessing
+the (m – 1)th attribute that lie closest to each of the signals in set Pm(xk–1). It is to be noted that although each
+of the signals in Pm–1(Pm(xk–1)) possess the (m – 1)th attribute, they need not possess the mth attribute. This
+process  is  continued  in  this  fashion  until  the  set  P(xk–1)  is  generated.  Finally,  we  arbitrarily  select  one  signal
+from P(xk–1) to be equal to x k. When the individual projection mappings Pk are each point-to-point mappings,
+the signal xk generated in this fashion will be unique.

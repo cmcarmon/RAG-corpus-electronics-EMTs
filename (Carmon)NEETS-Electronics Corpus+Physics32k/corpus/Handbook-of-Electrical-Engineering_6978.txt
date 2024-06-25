@@ -1,0 +1,10 @@
+How can the cardinal series interpolate uniquely the
+bandlimited signal from which the samples were taken?
+Could not the same samples be generated from another
+bandlimited  signal?  The  answer  is  no.  Bandlimited
+functions  are  smooth.  Any  behavior  deviating  from
+smooth  would  result  in  high-frequency  components
+which in turn invalidates the required property of being
+bandlimited.  The  smoothness  of  the  signal  between
+samples  precludes  arbitrary  variation  of  the  signal
+there.

@@ -1,0 +1,13 @@
+As noted in the subsection “Radar Cross Section,” RCS ﬂuctuation effects must be considered in assessing
+detection performance. The Swerling models which use chi-square probability density functions (PDFs) of 2
+and 4 degrees of freedom (DOF) are commonly used for this purpose [Nathanson, 1991]. The Swerling 1 and
+2 models are based on the 2 DOF PDF and can be derived by modeling the target as an ensemble of independent
+scatterers of comparable magnitude. This model is considered representative of complex targets such as aircraft.
+The Swerling 3 and 4 models use the 4 DOF PDF and correspond to a target with a single dominant scatterer
+and  an  ensemble  of  lesser  scatterers.  Missiles  are  sometimes  represented  by  Swerling  2  and  4  models.  The
+Swerling 1 and 3 models presuppose slow ﬂuctuation such that the target RCS is constant from pulse to pulse
+within a scan. In contrast, the RCS of Swerling 2 and 4 targets is modeled as independent on a pulse to pulse basis.
+Single-pulse detection probabilities for nonﬂuctuating, Swerling 1/2, and Swerling 3/4 targets are depicted
+in Fig. 41.4. This curve is based on a typical false alarm number corresponding approximately to a false alarm
+probability  of  10–6.  The  difference  in  S/N  required  for  a  given  detection  probability  for  a  ﬂuctuating  target
+relative to the nonﬂuctuating case is termed the ﬂuctuation loss.

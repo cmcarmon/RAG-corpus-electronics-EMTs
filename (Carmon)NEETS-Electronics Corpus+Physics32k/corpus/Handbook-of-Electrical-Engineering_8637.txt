@@ -1,0 +1,6 @@
+This  register  (which  is  a  general  register  on  the VAX  but  a  special  register  on  the
+other  machines)  points  to  the  place  (memory  location)  in  the  machine  language
+instruction stream where the program is currently operating. As each instruction is
+fetched,  the  PC  is  automatically  incremented.  The  action  of  the  JSR  is  to  save  the
+last version of the PC—the one for the next fetch—and replace it with the starting
+address of the routine to be jumped to.

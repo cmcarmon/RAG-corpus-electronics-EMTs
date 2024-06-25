@@ -1,0 +1,13 @@
+Multiprocessor architectures have been categorized by the
+existence of single or multiple instruction and data streams.
+This chapter has examined multiple-instruction, multiple-
+data, and MIMD architectures in some detail. The most
+common form of MIMD multiprocessor arrangement is one
+of symmetric multiprocessors (SMP). The use of multiproces-
+sors creates the problem of maintaining cache coherence over
+several levels of cache existing at different places in the com-
+puter architecture. This chapter has also presented several
+cache coherence approaches and the common MESI protocol.
+In addition, the discussion has surveyed approaches to soft-
+ware design for multiprocessors and some of the more recent
+problems in multiprocessor design.

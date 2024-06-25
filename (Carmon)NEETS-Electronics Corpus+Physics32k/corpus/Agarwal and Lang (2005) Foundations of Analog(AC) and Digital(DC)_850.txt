@@ -1,0 +1,19 @@
+The SR model is a better approximation of MOSFET behavior than the
+S model. In fact, it is easy to see that the SR model reduces to the S model if
+RON is zero. However, the SR model still is a gross simplification of MOSFET
+behavior. In particular, although the MOSFET displays resistive behavior when
+vDS (cid:2) vGS − VT, the resistance RON is not fixed. Rather, it is a function of
+vGS. Furthermore, when vDS is comparable to, or greater than, vGS − VT, the
+drain-to-source behavior is not resistive at all, rather it is that of a current source.
+However, the fixed resistance model is much simpler and suffices for analyzing
+some aspects of digital circuits because the gate voltage is bimodal
+low or
+high. When the voltage is low, the MOSFET turns off, and when the voltage
+is high, the drain-source connection offers a resistance RON related to the gate
+voltage. Since there is only one value for the gate voltage when the input is high
+(for example VS), and accordingly, one value for the resistance RON, we can
+use this value for RON in our model. In summary, the SR model is valid only
+when vDS (cid:2) vGS − VT, and when there is only one value for the gate voltage
+when the input is high (for example vGS = VS). Chapter 7 will discuss more
+comprehensive models for the MOSFET that are valid across a wider range of
+values for vGS and vDS.

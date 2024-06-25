@@ -1,0 +1,23 @@
+Pulse-code modulation can easily be decoded, provided the pulse-code groups have been transmitted
+in reverse order; that is, if the pulse with the lowest value is transmitted first, the pulse with the highest
+value is transmitted last. A circuit that will provide a constant value of current without regard to its load is
+known as a current source. A current source is used to apply the pcm pulses to an RC circuit, such as that
+shown in figure 3-23, view (A). The current source must be capable of supplying a linear charge to C1
+that will increase each time a pulse is applied if C1 is not allowed to discharge between pulses. In other
+words, if C1 charges to 16 volts during the period of one pulse, then each additional pulse increases the
+charge by 16 volts. Thus, the cumulative value increases by 16 volts for each received pulse. This does
+not provide a usable output unless a resistor is chosen that allows C1 to discharge to one-half its value
+between pulses. If only one pulse is received at T1, C1 charges to 16 volts and then begins to discharge.
+At T2 the charge has decayed to 8 volts and continues to decay unless another pulse is received. At T3 it
+has a 4-volt charge and at T4 it only has a 2-volt charge. At the sampling time, a 1-volt charge remains;
+this charge corresponds to the binary-weighted pulse train of 0001. Now we will apply a pcm signal
+which corresponds to the binary-coded equivalent of 7 volts (0111) in figure 3-23, view (A). View (B) is
+the pulse code that is received. Remember that the pulses are transmitted in reverse order. View (C) is the
+response curve of the circuit. At T1 the pulse corresponding to the least significant digit is applied and C1
+charges to 16 volts. C1 discharges between pulses until it reaches 8 volts at T2. At T2 another pulse
+charges it to 24 volts. At T3, C1 has discharged through R1 to a value of 12 volts. The pulse at T3
+increases the charge on C1 by 16 volts to a total charge of 28 volts. At T4, C1 has discharged to one-half
+its value and is at 14 volts. No pulse is present at T4 so C1 will not receive an additional charge. C1
+continues to discharge until T5 when it has reached 7 volts and is sampled to provide a pam pulse which
+can be peak detected. This sampled output corresponds to the original sampling of the analog voltage in
+the modulation.

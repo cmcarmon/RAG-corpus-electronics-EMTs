@@ -1,0 +1,109 @@
+The original distance covariance has been defined as the square root of
+
+
+
+
+dCov
+
+2
+
+
+⁡
+(
+X
+,
+Y
+)
+
+
+{\displaystyle \operatorname {dCov} ^{2}(X,Y)}
+, rather than the squared coefficient itself.
+
+
+
+dCov
+⁡
+(
+X
+,
+Y
+)
+
+
+{\displaystyle \operatorname {dCov} (X,Y)}
+has the property that it is the energy distance between the joint distribution of
+
+
+
+X
+,
+Y
+
+
+{\displaystyle \operatorname {X} ,Y}
+and the product of its marginals. Under this definition, however, the distance variance, rather than the distance standard deviation, is measured in the same units as the
+
+
+
+X
+
+
+{\displaystyle \operatorname {X} }
+distances.
+Alternately, one could define distance covariance to be the square of the energy distance:
+
+
+
+
+dCov
+
+2
+
+
+⁡
+(
+X
+,
+Y
+)
+.
+
+
+{\displaystyle \operatorname {dCov} ^{2}(X,Y).}
+In this case, the distance standard deviation of
+
+
+
+X
+
+
+{\displaystyle X}
+is measured in the same units as
+
+
+
+X
+
+
+{\displaystyle X}
+distance, and there exists an unbiased estimator for the population distance covariance.
+Under these alternate definitions, the distance correlation is also defined as the square
+
+
+
+
+dCor
+
+2
+
+
+⁡
+(
+X
+,
+Y
+)
+
+
+{\displaystyle \operatorname {dCor} ^{2}(X,Y)}
+, rather than the square root.

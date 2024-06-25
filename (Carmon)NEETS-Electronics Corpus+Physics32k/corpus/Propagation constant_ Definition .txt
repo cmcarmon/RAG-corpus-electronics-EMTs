@@ -1,0 +1,194 @@
+The propagation constant, symbol
+
+
+
+
+γ
+
+
+
+{\displaystyle {\gamma }}
+, for a given system is defined by the ratio of the complex amplitude at the source of the wave to the complex amplitude at some distance x, such that,
+
+
+
+
+
+
+
+A
+
+0
+
+
+
+A
+
+x
+
+
+
+
+=
+
+e
+
+γ
+x
+
+
+
+
+{\displaystyle {\frac {A_{0}}{A_{x}}}=e^{\gamma x}}
+
+Since the propagation constant is a complex quantity we can write:
+
+
+
+
+γ
+=
+α
++
+i
+β
+
+
+
+{\displaystyle \gamma =\alpha +i\beta \,}
+
+where
+α, the real part, is called the attenuation constant
+β, the imaginary part, is called the phase constant
+That β does indeed represent phase can be seen from Euler's formula:
+
+
+
+
+
+e
+
+i
+θ
+
+
+=
+cos
+⁡
+
+θ
+
++
+i
+sin
+⁡
+
+θ
+
+
+
+
+
+{\displaystyle e^{i\theta }=\cos {\theta }+i\sin {\theta }\,\!}
+
+which is a sinusoid which varies in phase as θ varies but does not vary in amplitude because
+
+
+
+
+
+|
+
+e
+
+i
+θ
+
+
+|
+
+=
+
+
+
+cos
+
+2
+
+
+⁡
+
+θ
+
++
+
+sin
+
+2
+
+
+⁡
+
+θ
+
+
+
+=
+1
+
+
+{\displaystyle \left|e^{i\theta }\right|={\sqrt {\cos ^{2}{\theta }+\sin ^{2}{\theta }}}=1}
+
+The reason for the use of base e is also now made clear. The imaginary phase constant, iβ, can be added directly to the attenuation constant, α, to form a single complex number that can be handled in one mathematical operation provided they are to the same base. Angles measured in radians require base e, so the attenuation is likewise in base e.
+The propagation constant for copper (or any other conductor) lines can be calculated from the primary line coefficients by means of the relationship
+
+
+
+
+γ
+=
+
+
+Z
+Y
+
+
+
+
+{\displaystyle \gamma ={\sqrt {ZY}}}
+
+where
+
+
+
+
+Z
+=
+R
++
+i
+ω
+L
+
+
+
+
+{\displaystyle Z=R+i\omega L\,\!}
+, the series impedance of the line per unit length and,
+
+
+
+
+Y
+=
+G
++
+i
+ω
+C
+
+
+
+
+{\displaystyle Y=G+i\omega C\,\!}
+, the shunt admittance of the line per unit length.

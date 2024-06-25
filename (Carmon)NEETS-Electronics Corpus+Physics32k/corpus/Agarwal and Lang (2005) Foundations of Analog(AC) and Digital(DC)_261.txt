@@ -1,0 +1,7 @@
+If some of the branch currents in a circuit are known, then it is possible that KCL alone
+can be used to find other branch currents in the circuit. For example, consider the circuit
+in Figure 2.8 with i1 = 1 A and i3 = 3 A, as shown in Figure 2.9. Using Equation 2.5,
+namely KCL for Node 1, it can be seen that i2 = −4 A. This is all that can be learned
+from KCL alone given the information in Figure 2.9.
+But, if we further know that i5 = −2 A, for example, we can learn from KCL applied
+to the other nodes that i4 = −2 A and i6 = −1 A.

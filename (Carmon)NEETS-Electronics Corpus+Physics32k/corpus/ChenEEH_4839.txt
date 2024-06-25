@@ -1,0 +1,17 @@
+The third common way of integrating components is with
+Java-based technologies. Java is an object-oriented language
+that is platform independent and is open source (meaning that
+the source code is not proprietary), so it has good promise for
+use in middleware development. Java is based on a layered
+architecture with new APIs being developed on a continuing
+basis. Some of the APIs that enable Java to be used for distrib-
+uted applications are the Remote Method Invocation (RMI)
+API, the RMI over Internet Inter-ORB Protocol (IIOP) API,
+and the Java ORB API. The RMI API provides the means for
+distributed objects to interface through remote method calls
+(similar to remote procedure calls but specialized to Java
+objects). The RMI IIOP API provides the remote method call
+capability using a CORBA ORB. The Java ORB API provides a
+Java-based CORBA ORB. It should be noted that Java com-
+ponents can interact with non-Java components (such as those
+written in C) through the use of the Java Native Interface

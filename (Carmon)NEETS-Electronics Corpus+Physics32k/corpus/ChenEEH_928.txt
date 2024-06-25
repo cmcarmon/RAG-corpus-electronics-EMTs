@@ -1,0 +1,30 @@
+?Rjk ) in C, let the lower
+For each local data path pathk(Rik
+bound lik, jk , upper bound uik, jk , width wik, jk , and middle
+mik, jk of the permissible range of this path, respectively,
+be deﬁned as in equations 4.10, 4.11, 4.12 and 4.13, respect-
+ively. For simplicity,
+the permissible
+range are denoted with a single subscript corresponding
+to the number of the respective local data path; that is, for
+?Rjk , lik, jk ¼ lk, uik, jk ¼ uk, wik, jk ¼ wk, and
+the pathk  Rik
+mik, jk ¼ mk. Furthermore, let the circuit graph of C be GC,
+let the skew basis sb and chords sc be identiﬁed in GC
+
+
+
+(according to equation 4.28), and let the corresponding inde-
+ as
+pendent set of cycles be described by the matrix B ¼ I C
+
+deﬁned in equation 4.32. Let an objective clock schedule
+be g ¼ g1 . . . gp
+t¼ m1 . . . mp
+, and let l ¼ l1 . . . lp
+t
+and u ¼ u1 . . . up
+be the vectors of the lower and upper
+bounds, respectively, of the permissible ranges. Find a feasible
+clock schedule s that minimizes the least square error e be-
+tween s and g. Formally, it is shown that:

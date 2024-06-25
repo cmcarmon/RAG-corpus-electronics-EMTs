@@ -1,0 +1,5 @@
+A common feature of many digital circuits is a high-frequency clock with a square wave
+output. If this signal of frequency f drives the clock input of a JKFF wired to toggle on
+each trigger, the output of the ﬂip-ﬂop will be a square wave of frequency f /2. This single
+ﬂip-ﬂop is a divide-by-2 counter. In a similar manner an n ﬂip-ﬂop binary counter will yield
+an output frequency that is f divided by 2n.

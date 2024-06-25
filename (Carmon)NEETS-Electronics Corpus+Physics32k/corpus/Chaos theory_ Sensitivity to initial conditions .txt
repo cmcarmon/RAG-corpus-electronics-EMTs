@@ -1,0 +1,67 @@
+Sensitivity to initial conditions means that each point in a chaotic system is arbitrarily closely approximated by other points with significantly different future paths, or trajectories. Thus, an arbitrarily small change, or perturbation, of the current trajectory may lead to significantly different future behavior.
+Sensitivity to initial conditions is popularly known as the "butterfly effect", so-called because of the title of a paper given by Edward Lorenz in 1972 to the American Association for the Advancement of Science in Washington, D.C., entitled Predictability: Does the Flap of a Butterfly's Wings in Brazil set off a Tornado in Texas?. The flapping wing represents a small change in the initial condition of the system, which causes a chain of events leading to large-scale phenomena. Had the butterfly not flapped its wings, the trajectory of the system might have been vastly different.
+A consequence of sensitivity to initial conditions is that if we start with a limited amount of information about the system (as is usually the case in practice), then beyond a certain time the system is no longer predictable. This is most prevalent in the case of weather, which is generally predictable only about a week ahead. Of course, this does not mean that we cannot say anything about events far in the future; some restrictions on the system are present. With weather, we know that the temperature will not naturally reach 100 °C or fall to −130 °C on earth (during the current geologic era), but we can't say exactly what day will have the hottest temperature of the year.
+In more mathematical terms, the Lyapunov exponent measures the sensitivity to initial conditions. Given two starting trajectories in the phase space that are infinitesimally close, with initial separation
+
+
+
+δ
+
+
+Z
+
+
+0
+
+
+
+
+{\displaystyle \delta \mathbf {Z} _{0}}
+, the two trajectories end up diverging at a rate given by
+
+
+
+
+
+|
+
+δ
+
+Z
+
+(
+t
+)
+
+|
+
+≈
+
+e
+
+λ
+t
+
+
+
+|
+
+δ
+
+
+Z
+
+
+0
+
+
+
+|
+
+,
+
+
+{\displaystyle |\delta \mathbf {Z} (t)|\approx e^{\lambda t}|\delta \mathbf {Z} _{0}|,}
+
+where t is the time and λ is the Lyapunov exponent. The rate of separation depends on the orientation of the initial separation vector, so a whole spectrum of Lyapunov exponents exist. The number of Lyapunov exponents is equal to the number of dimensions of the phase space, though it is common to just refer to the largest one. For example, the maximal Lyapunov exponent (MLE) is most often used because it determines the overall predictability of the system. A positive MLE is usually taken as an indication that the system is chaotic.
+Also, other properties relate to sensitivity of initial conditions, such as measure-theoretical mixing (as discussed in ergodic theory) and properties of a K-system.

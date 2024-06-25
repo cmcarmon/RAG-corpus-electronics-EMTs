@@ -1,0 +1,19 @@
+Note that equation 4.8 can be satisﬁed for each local data path
+Ri?Rf in a circuit if a sufﬁciently large value—larger than the
+greatest value ^DDi; f
+PM in a circuit—is chosen for TCP. Further-
+more, equation 4.9 can be satisﬁed across an entire circuit if it
+Pm  0 for each local data path Ri?Rf in
+can be ensured that ^DDi; f
+the circuit. The timing constraints of these equations can be
+satisﬁed because choosing a sufﬁciently large clock period
+TCP is always possible and ^DDi; f
+Pm is positive for a properly
+designed local data path Ri?Rf . The application of this zero
+clock skew methodology of equations 4.7 through 4.9 has been
+central to the design of fully synchronous digital circuits for
+decades (Friedman, 1995, 1997; Lee and Kong, 1997). By
+requiring the clock signal to arrive at each register Rj with
+approximately the same delay t j
+cd, these design methods have
+become known as zero clock skew methods.7

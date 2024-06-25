@@ -1,0 +1,9 @@
+The Five Dining Philosophers problem is a classical example
+for studying behavioral properties of concurrent processes.
+There are ﬁve philosophers sitting around a round table, and
+there is one chopstick between two adjacent philosophers.
+Each philosopher is either thinking or eating. In order for a
+philosopher to eat, he needs to pick up two chopsticks next to
+him. There are several
+interesting issues with regard to a
+system model of this simple problem:

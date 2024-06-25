@@ -1,0 +1,20 @@
+For simplicity, in views (B) and (C) the capacitive reactance of these capacitors is shown by variable
+resistors R1 (for CEB) and R2 (for CBC). View (B) shows the reactance as high when there is a
+low-frequency input signal. In this case there is very little effect from the reactance on the transistor. The
+transistor amplifies the input signal as shown in view (B). However, when a high-frequency input signal
+is applied to the transistor, as in view (C), things are somewhat different. Now the capacitive reactance is
+low (as shown by the settings of the variable resistors). In this case, as the base of the transistor attempts
+to go positive during the first half of the input signal, a great deal of this positive signal is felt on the
+emitter (through R1). If both the base and the emitter go positive at the same time, there is no change in
+emitter-base bias and the conduction of the transistor will not change. Of course, a small amount of
+change does occur in the emitter-base bias, but not as much as when the capacitive reactance is higher (at
+low frequencies). As an output signal is developed in the collector circuit, part of this signal is fed back to
+the base through R2. Since the signal on the collector is 180 degrees out of phase with the base signal,
+this tends to drive the base negative. The effect of this is to further reduce the emitter-base bias and the
+conduction of the transistor.During the second half of the input signal, the same effect occurs although the
+polarity is reversed. The net effect is a reduction in the gain of the transistor as indicated by the small
+output signal. This decrease in the amplifier output at higher frequencies is caused by the interelectrode
+capacitance. (There are certain special cases in which the feedback signal caused by the interelectrode
+capacitance is in phase with the base signal. However, in most cases, the feedback caused by
+interelectrode capacitance is degenerative and is 180 degrees out of phase with the base signal as
+explained above.)

@@ -1,0 +1,5 @@
+Because of its simplicity, the above scheduling method is very practical. However, it may lead to a deadlock. A
+deadlock  occurs  when  two  transactions  are  waiting  for  each  other  to  release  locks  and  both  cannot  proceed. A
+deadlock prevention (or detection) strategy is needed to handle the situation. For example, this can be achieved by
+requiring that a transactions locks all data items it needs for its execution before it can proceed; when the transaction
+ﬁnds that a needed data item is already locked, then it releases all locks. 

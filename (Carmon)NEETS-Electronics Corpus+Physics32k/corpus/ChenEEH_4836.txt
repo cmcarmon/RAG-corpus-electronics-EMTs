@@ -1,0 +1,19 @@
+Consider the use of object-oriented middleware to provide
+the distributed communication channel for the publish/sub-
+scribe method of communications. Object-oriented middle-
+ware treats the software and hardware components connected
+to it as objects. Ordinarily, when one object on a distributed
+communication network calls a method of another object, it
+would have to know which object had that method and be able
+to locate it on the network. The middleware makes this
+method request transparent to the object that makes the call
+by using remote procedure calls (RPCs). Because all objects
+have a standard interface and all coupling between objects is
+mediated through the communication channel (that is, the
+objects are not required to be coupled together directly),
+adding or removing objects from the overall system can be
+done in a much simpler manner than is possible if the com-
+ponents are all tightly coupled. Consider three different alter-
+natives for object-oriented middleware: DCOM, CORBA, and
+Java-based technologies (including Jini technology) (Szy-
+perski, 1998).

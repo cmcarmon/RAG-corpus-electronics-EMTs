@@ -1,0 +1,7 @@
+This part of the hard disk drive transport positions the magnetic heads so they can write data to and 
+read data from the correct track of the hard disk. It does this by using either a stepper motor or a voice 
+coil servo. A stepper motor is a special type of dc motor which can be moved in very small steps to 
+accurately position the magnetic heads. A voice coil servo by itself cannot move the magnetic heads from 
+track to track. Instead, it must use special signals called servo signals to make sure it's positioning the 
+heads where they should be. The servo signals are pre-recorded signals which are stored on either the 
+same hard disk platter as the data or on a separate hard disk platter. 

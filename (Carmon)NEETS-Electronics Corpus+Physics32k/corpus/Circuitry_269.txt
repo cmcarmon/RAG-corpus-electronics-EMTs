@@ -1,0 +1,13 @@
+where  RID is  the  change  in  drain  current  resulting 
+from a corresponding change in gate-source voltage 
+(RVGS).  The  units  of  forward  transfer  conductance 
+are Siemens (S). 
+  Forward  transfer  conductance  (gfs) varies  with 
+drain  current  collector  current.  For  most  small 
+signal  devices,  gfs  is  quoted  for  values  of  drain 
+current between 1mA and 10 mA.  It’s also worth 
+noting  that  most  FET  parameters  (particularly 
+forward  transfer  conductance)  are  liable  to  wide 
+variation  from  one  device  to  the  next.  It  is, 
+therefore, important to design circuits on the basis 
+of  the  minimum  value  for  gfs  in  order  to  ensure 

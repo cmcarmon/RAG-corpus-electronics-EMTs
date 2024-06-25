@@ -1,0 +1,6 @@
+The need for frequency stability in ssb operations is extremely critical. Even a small deviation from
+the correct value in local oscillator frequency will cause the IF produced by the mixer to be displaced
+from its correct value. In AM reception this is not too damaging, since the carrier and sidebands are all
+present and will all be displaced an equal amount. Therefore, the relative positions of carrier and
+sidebands will be retained. However, in ssb reception there is no carrier, and only one sideband is present
+in the incoming signal.

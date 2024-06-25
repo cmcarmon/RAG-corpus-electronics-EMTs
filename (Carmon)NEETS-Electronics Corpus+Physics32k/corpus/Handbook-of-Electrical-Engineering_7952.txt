@@ -1,0 +1,10 @@
+An important economy is possible by making use of the fact that for many sets of functions the OR array
+is not needed for the sharing of products between outputs. Figure 81.43 shows an example of such a function,
+a  multiplexer.  Such  a  function  can  be  implemented  by  a  PLA  with  only  an  AND  array;  the  OR  array  has
+degenerated into a set of OR gates. The drawback is that the PLA is no longer universal, because a ﬁxed allocation
+of products to OR gates has to be chosen. PLAs of this structure have become known as PAL devices or just
+PALs.  (The  term “PAL,”  which  stands  for “programmable  array  logic,”  is  a  trademark  of  Advanced  Micro
+Devices, Inc.). There are many applications where the product term sharing capability of the full PLA is wasted,
+and  a  PAL-based  solution  is  more  economical.  Also,  because  there  is  only  one  programmable  array,  the
+propagation  delay  will  generally  be  smaller.  Address  decoding  in  microprocessor  systems  is  a  very  common
+application of combinational PAL devices.

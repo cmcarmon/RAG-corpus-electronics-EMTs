@@ -1,0 +1,8 @@
+It is important to explore the ordering freedom of the data
+transfers before scheduling the data processing itself, and not
+to do it the other way around. First of all, the cost of the data
+transfers is much higher than the cost of data processing,
+especially in data-transfer intensive applications. In addition,
+the constraints coming from ﬁrst ordering the data transfers
+do not limit the scheduling freedom of the data processing too
+much, whereas the reverse is certainly not true.

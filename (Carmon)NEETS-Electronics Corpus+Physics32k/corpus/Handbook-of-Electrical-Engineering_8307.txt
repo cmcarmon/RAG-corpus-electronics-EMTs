@@ -1,0 +1,14 @@
+Consider  Fig. 85.9,  which  depicts  a  single  (hypothetical)  integrated  circuit  (IC)  component  and  shows  its
+internal circuitry which uses four NAND gates. The nodes of the circuit are numbered 1 through 12 and the
+external pins of the component are labeled A, B, and  C. To detect if node 7 is stuck at logic 0 (i.e., 7/0), a test
+pattern must be found that sets node 7 (and hence, node 5) to the logic 1 state. This can be achieved by setting
+either or both of the external pins A and B to the logic 0 state. Furthermore, to observe (or deduce) the value
+of node 7 at the only externally visible circuit pin, C, it is necessary to create a condition where the logic state
+of node 12 becomes dependent on the value of node 7. The only path from node 7 to node 12 passes through
+node 10, and since node 10 is the output of a NAND gate the second input to that gate (i.e., node 6) must be
+set to the logic 1 state by setting input pin A to the logic 1 state. Therefore, the only possible test pattern for
+7/0 is A = 1 and B = 0. At this point, we must still continue the analysis to see if indeed node 12 will reﬂect
+the value of node 7. With input terminals A and B set to logic 1 and logic 0, respectively, node 9 will be set to
+logic 0, which causes node 11 to become logic 1. With these settings, the value at node 12 will be determined
+by the value at node 10 and the test pattern is valid. Table 85.2 shows the values of all circuit nodes when this
+test pattern is applied to the circuit of Fig. 85.9.

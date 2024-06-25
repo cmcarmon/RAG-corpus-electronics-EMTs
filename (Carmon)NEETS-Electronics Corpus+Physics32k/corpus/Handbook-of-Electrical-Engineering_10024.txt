@@ -1,0 +1,4 @@
+The block diagram represents an “ideal” relay position control system with velocity feedback. The plant is a
+double  integrator,  ignoring  viscous  (linear)  friction,  hysteresis  in  the  relay,  or  backlash  in  the  gearing.  If  the
+system output is denoted by x1 and its derivative by x2, then the relay switches when –x1 –x2 = –1; the equations
+of the dotted lines are marked switching lines on Fig. 100.53.

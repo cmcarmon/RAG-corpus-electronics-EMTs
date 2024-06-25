@@ -1,0 +1,26 @@
+Example 5.6 
+ 
+An  NPN  transistor  is  to  be  used  in  a  regulator 
+circuit in which a collector current of 1.5 A is to be 
+controlled by a base current of 50 mA. What value 
+of hFE  will be required?  
+If  the  device  is  to  be  operated  with  VCE  = 6 V, 
+ 
+which transistor selected from Table 5.10 would be 
+appropriate for this application and why? 
+ 
+Solution 
+ 
+The required current gain can be found from: 
+ 
+hFE = IC /IB = 1.5 A / 50 mA = 1.5 / 0.05 = 30 
+ 
+The most appropriate device would be the BD131. 
+The  only  other  device  capable  of  operating  at  a 
+collector current of 1.5 A would be a 2N3055.  
+  The collector power dissipation will be given by:  
+ 
+PC = IC × VCE = 1.5 A × 6 V = 9 W
+However, the 2N3055 is rated at 115 W maximum 
+total  power  dissipation  and  this  is  more  than  ten 
+times the power required. 

@@ -1,0 +1,13 @@
+Introduction
+In a typical signal processing application, one is given empirically gathered data that arises from measurements
+made on a signal(s) characterizing a phenomenon under study. These measurements are invariably corrupted
+due to imperfections arising from the measurement instrumentation and environmental inﬂuences. To recover
+a reasonable facsimile of the original signal being monitored, it is generally necessary to process the measurement
+data in a manner that takes into account all information known about the monitored signal, the instrument
+dynamics, and the nature of the corruption. Although it is generally impossible to obtain a perfect recovery,
+remarkable approximations can be made in several important applications by employing the concept of signal
+restoration  (or  signal  recovery).  In  signal  restoration,  a  priori  knowledge  concerning  the  underlying  signal’s
+intrinsic nature may be effectively used to strip away the corruption in the measurement data. The philosophy
+behind this approach is to modify the measurement data to the smallest extent possible so that the modiﬁed
+data possesses the prescribed properties known (or hypothesized) as being possessed by the underlying signal(s).
+This modiﬁcation then serves as a cleansing process whereby the measurement corruption is effectively removed.

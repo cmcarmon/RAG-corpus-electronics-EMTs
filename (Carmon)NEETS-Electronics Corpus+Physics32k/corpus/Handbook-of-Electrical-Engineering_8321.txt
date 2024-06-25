@@ -1,0 +1,9 @@
+Providing Test Points. A test point is an input or output signal to control or observe intermediate signals in
+a logic circuit. For example, if triple redundancy has been used to implement a fault-tolerant circuit, additional
+output signals might be provided so that signal values from the identical functional units become individually
+observable, improving the testability of the overall circuit. Similarly, control signals might be provided so that,
+during  testing,  outputs  from  some  functional  units  may  be  forced  into  certain  states  which  allow  easier
+observation of the outputs from other circuits. Recommended sites for inserting test points include redundant
+nets, nets with large fan-outs, preset and clear inputs of ﬂip-ﬂops, nets that carry system clock signals, (at least
+some of the) inputs to logic circuit gates with large number of inputs (i.e., large fan-in), data and/or address
+lines of bus lines, as well as intermediate points in cascaded circuits (such as long ripple counters, shift registers).

@@ -1,0 +1,10 @@
+4.5 I N C R E M E N T A L A N A L Y S I S
+There are many applications in electronic circuits where nonlinear devices are
+operated only over a very restricted range of voltage or current, as in many sen-
+sor applications and most audio amplifiers, for example. In such cases, it makes
+sense to find a piecewise linear device model in a way that ensures maximum
+accuracy of fit over that narrow operating range. This process of linearizing
+device models over a very narrow operating range is called incremental analysis
+or small-signal analysis. The benefit of incremental analysis is that the incre-
+mental variables satisfy KVL and KCL, as well as linear v i relations over the
+narrow operating range.

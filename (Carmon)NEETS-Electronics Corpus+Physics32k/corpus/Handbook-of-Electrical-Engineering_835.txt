@@ -1,0 +1,8 @@
+After the Second World War systems and control theory ﬂourished. The transfer function representation was
+the most popular representation for systems. To determine the stability of a system we merely had to factor the
+denominator  of  the  transfer  function  (12.9)  and  see  if  all  of  the  poles  were  in  the  left  half  of  the  complex
+frequency plane. However, with manual techniques, factoring polynomials of large order is difﬁcult. So engi-
+neers, being naturally lazy people, developed several ways to determine the stability of a system without factoring
+the polynomials [Dorf, 1992]. First, we have the methods of Routh and Hurwitz, developed a century ago, that
+looked  at  the  coefﬁcients  of  the  characteristic  polynomial.  These  methods  showed  whether  the  system  was
+stable or not, but they did not show how close the system was to being stable.

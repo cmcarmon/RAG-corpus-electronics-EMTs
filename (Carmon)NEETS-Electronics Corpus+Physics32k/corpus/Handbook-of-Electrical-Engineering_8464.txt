@@ -1,0 +1,6 @@
+We also deﬁne explicit value xe and implicit value Xi of a number represented by a bit string x. The implicit
+value is the only value of interest to the user, while the explicit value provides the most direct interpretation of
+the bit string x. Mapping of the explicit value to the implicit value is obtained by an arithmetic function that
+deﬁnes the number representation used. It is a task of the arithmetic designer to devise algorithms that result
+in  the  correct  implicit  value  of  the  result  for  the  operations  on  the  operand  digits  representing  the  explicit
+values. In other words, the arithmetic algorithm needs to satisfy the closure property.

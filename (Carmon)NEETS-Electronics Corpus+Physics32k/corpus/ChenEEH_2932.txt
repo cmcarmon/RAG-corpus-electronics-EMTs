@@ -1,0 +1,30 @@
+Y
+Js is the induced surface current
+In equations 10.57 and 10.58
+¼
+Y
+density on the conductor, G
+is the dyadic Green’s function,
+E
+denotes the total electric ﬁeld in the dielectric object, m is the
+permeability (a constant), and k is the wave number of the
+background medium. For the conductor case, the induced
+Y
+Js is related to shape function through
+surface current density
+the second part of equation 10.57. Then, from the ﬁrst part of
+equation 10.57, it is apparent that the unknown shape function
+is nonlinearly related to the known (measured) scattered
+Y
+E in the dielectric
+ﬁeld. In a similar manner, the total ﬁeld
+object is related to the dielectric constant distribution er
+through the second part of equation 10.58. Therefore, the
+ﬁrst part of equation 10.58 implies that the unknown dielectric
+constant distribution depends nonlinearly on the known
+(measured) scattered ﬁeld. In other words, the inverse scatter-
+ing problem is a nonlinear ill-posed problem and various
+numerical techniques have been developed to tackle it. Note
+also that for the cases of lower dimensionality or under some
+circumstances, integral equations 10.57 and 10.58 can be sim-
+pliﬁed or transformed into other equivalent forms.

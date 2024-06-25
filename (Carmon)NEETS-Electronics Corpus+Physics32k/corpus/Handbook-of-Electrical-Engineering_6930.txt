@@ -1,0 +1,8 @@
+Stationarity of Processes
+A stochastic process is nth order (strongly) stationary whenever all joint pdf’s of n and fewer rv’s are independent
+of all translations of times t1, . . ., tn to times t + t1, . . ., t +  tn . The case of n = 2 is very useful. Another type
+of process is called weakly stationary (ws), or wide-sense stationary, and is deﬁned to have ﬁrst- and second-
+order moments that are independent of time (see Section 73.2 on noise). These satisfy (1) m(t) = m (constant)
+for all t, and (2) RXX(t,  t + t) = RXX(t + s,  t +  s + t) for all values of s. For s = –t, this yields RXX(t, t + t) =
+RXX(0, 0 + t), which is abbreviated to RXX(t). X(t) is uncorrelated whenever CXX(t) = 0 for t not zero [we say
+X(t) has no memory]. If X(t) is correlated, then X(t1) depends on values X(t) for t „ t1 [X(t) has memory].

@@ -1,0 +1,11 @@
+At this level of abstraction, the VLSI designer has a lot of
+freedom in employing many techniques to reduce the power
+dissipation. Normally, decisions at this level have a global effect
+on the whole system. For example, inactive hardware modules
+may be automatically turned off to save power; modules may
+be provided with the optimum supply voltage and interfaced
+by means of level converters. In the following subsections,
+different techniques that are applied at this level are pre-
+sented, namely parallelism and pipelining exploitation, block-
+disabling techniques, clock gating, and intercommunication
+and interconnect optimization.

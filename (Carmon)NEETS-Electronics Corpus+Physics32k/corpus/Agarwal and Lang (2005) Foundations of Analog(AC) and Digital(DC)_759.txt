@@ -1,0 +1,9 @@
+These rules can be used to simplify logic expressions to reduce the number
+of gates required to implement them. For example, a direct implementation of
+the logic expression ABB + BC + C appears to take five 2-input gates as seen
+from Figure 5.22. The implementation used in Figure 5.22 assumes that both
+TRUE and complement forms of each variable are available as inputs. In other
+words, for each variable X, we assume that both X and X are available as inputs.
+Otherwise, we would need two additional inverters.
+To reduce the number of gates required for its implementation, we can
+simplify the expression ABB + BC + C as follows: We first collect terms as

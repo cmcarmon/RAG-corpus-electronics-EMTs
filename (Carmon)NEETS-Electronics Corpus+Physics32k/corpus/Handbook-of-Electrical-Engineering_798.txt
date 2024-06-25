@@ -1,0 +1,9 @@
+Figure 11.3 shows three separate magnitude functions. Curve 1 is trivial; the Bode magnitude of a constant
+K is simply the decibel-scaled constant 20 log10 K, shown for an arbitrary value of K = 5 (20 log10 5 = 13.98).
+Phase is not shown. However, a constant of K > 0 has a phase contribution of 0(cid:176) for all frequencies. For K <
+0, the contribution would be –180(cid:176) (Recall that –cos q = cos (q – 180(cid:176)). Curve 2 shows the magnitude frequency
+response curve for a pole at the origin (1/s). It is a straight line with a slope of –20 dB/decade. The line passes
+through 0 dB at w = 0 rad/s. The phase contribution of a simple pole at the origin is a constant –90(cid:176), independent
+of frequency. The effect of a zero at the origin (s) is shown in Curve 3. It is again a straight line that passes
+through 0 dB at w = 0 rad/s; however, the slope is +20 dB/decade. The phase contribution of a simple zero at
+s = 0 is +90(cid:176), independent of frequency.

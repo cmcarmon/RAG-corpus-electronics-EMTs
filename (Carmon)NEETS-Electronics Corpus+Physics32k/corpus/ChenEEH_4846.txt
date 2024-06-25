@@ -1,0 +1,23 @@
+Consider ﬁrst the network communications. Performance of
+a communication network is commonly measured in terms
+of
+time delays (e.g., due to access delay, message delay,
+transmission delays), reliability or accuracy of data, and
+throughput (e.g., max data rate divided by the data size).
+For control systems, the time delay is the most critical measure
+due to stability and performance considerations. To address
+the special concerns of control systems, some specialized
+protocols have been written that provide for a dedicated
+control area network (such as DeviceNet). The alternative
+is to use a standard data network such as ethernet. Data
+networks typically use protocols (such as TCP/IP) that result
+in a nondeterministic transfer of data, as opposed to the
+smaller but more frequent data packet transfers conducted by
+control area networks. Results examining the use of ethernet
+for real-time applications are given in Schneider et al. (2000),
+while a comparison of ethernet (using CSMA/CD) to a token
+ring bus and to control area networks is given in Fend-Li Lian
+et al. (2001). Networks using ATM technology have good
+performance with other real-time applications, such as video
+and voice, and have good potential for future use in control
+applications.

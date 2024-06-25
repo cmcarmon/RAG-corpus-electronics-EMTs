@@ -1,0 +1,13 @@
+The Method of Moments
+Numerical  implementation  of  the  moment  method  is  a  relatively  straightforward,  and  an  intuitively  logical,
+extension  of  these  basic  elements  of  numerical  analysis,  as  described  in  the  book  by  Harrington  [1968]  and
+discussed and used extensively in CEM [see, for example, Mittra, 1973, 1975; Strait, 1980; Poggio and Miller,
+1988]. Whether it is an integral equation, a differential equation, or another approach that is being used for
+the numerical model, three essential sampling operations are involved in reducing the analytical formulation
+via the moment method to a computer algorithm as outlined in Table 45.7. We note that operator sampling
+can ultimately determine the sampling density needed to achieve a desired accuracy in the source–ﬁeld rela-
+tionships involving integral operators, especially at and near the “self term,” where the observation and source
+points become coincident or nearly so and the integral becomes nearly singular. Whatever the method used
+for these sampling operations, they lead to a linear system of equations or matrix approximation of the original
+integral or differential operators. Because the operations and choices involved in developing this matrix descrip-
+tion are common to all moment-method models, we shall discuss them in somewhat more detail.

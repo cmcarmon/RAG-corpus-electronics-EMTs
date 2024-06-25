@@ -1,0 +1,7 @@
+The last two entries in Table 6.1.3 are known as DeMorgan’s theorems, whose importance
+stems from the fact that they offer a general technique for complementing Boolean expressions.
+They show that any logic function can be implemented using only OR and NOT gates, or using
+only AND and NOT gates. There exists a duality between AND and OR operations; any function
+can be realized by just one of the two basic operations, plus the complement operation. This gives
+rise to two families of logic functions: sum of products (SOP) and product of sums (POS). Any
+logic expression can be reduced to either one of these.

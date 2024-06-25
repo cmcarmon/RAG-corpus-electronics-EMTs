@@ -1,0 +1,15 @@
+Next, with the purpose of improving the controller’s per-
+formance, we follow the guidelines given in subsection 12.2.2
+and change the design constants in the following manner: we
+¼ 1:5,
+let k1 ¼ 1, k2 ¼ 3, k3 ¼ 2:5, gaj
+¼ 0:4, j ¼ 1, . . ., 7. Notice that
+saj
+we have chosen larger constants ki as well as larger gai
+j, which
+we expect should help reduce the size of Wd. At the same
+time, we have set the ratios between sa j
+and their respective
+gaj
+to be less than or equal to one, which was not the case in
+the ﬁrst design.

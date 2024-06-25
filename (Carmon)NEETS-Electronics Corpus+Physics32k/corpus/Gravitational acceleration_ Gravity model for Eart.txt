@@ -1,0 +1,226 @@
+The type of gravity model used for the Earth depends upon the degree of fidelity required for a given problem. For many problems such as aircraft simulation, it may be sufficient to consider gravity to be a constant, defined as:
+
+
+
+
+g
+=
+
+
+{\displaystyle g=}
+9.80655 metres (32.1737 ft) per s2
+based upon data from World Geodetic System 1984 (WGS-84), where
+
+
+
+g
+
+
+{\displaystyle g}
+is understood to be pointing 'down' in the local frame of reference.
+If it is desirable to model an object's weight on Earth as a function of latitude, one could use the following ( p. 41):
+
+
+
+
+g
+=
+
+g
+
+45
+
+
+−
+
+
+
+1
+2
+
+
+
+(
+
+g
+
+
+p
+o
+l
+e
+s
+
+
+
+−
+
+g
+
+
+e
+q
+u
+a
+t
+o
+r
+
+
+
+)
+cos
+⁡
+
+(
+
+2
+
+l
+a
+t
+
+
+
+π
+180
+
+
+
+)
+
+
+
+{\displaystyle g=g_{45}-{\tfrac {1}{2}}(g_{\mathrm {poles} }-g_{\mathrm {equator} })\cos \left(2\,lat\,{\frac {\pi }{180}}\right)}
+
+where
+
+
+
+
+
+g
+
+
+p
+o
+l
+e
+s
+
+
+
+
+
+{\displaystyle g_{\mathrm {poles} }}
+= 9.832 metres (32.26 ft) per s2
+
+
+
+
+
+g
+
+45
+
+
+
+
+{\displaystyle g_{45}}
+= 9.806 metres (32.17 ft) per s2
+
+
+
+
+
+g
+
+
+e
+q
+u
+a
+t
+o
+r
+
+
+
+
+
+{\displaystyle g_{\mathrm {equator} }}
+= 9.780 metres (32.09 ft) per s2
+lat = latitude, between −90 and 90 degrees
+Neither of these accounts for changes in gravity with changes in altitude, but the model with the cosine function does take into account the centrifugal relief that is produced by the rotation of the Earth. For the mass attraction effect by itself, the gravitational acceleration at the equator is about 0.18% less than that at the poles due to being located farther from the mass center. When the rotational component is included (as above), the gravity at the equator is about 0.53% less than that at the poles, with gravity at the poles being unaffected by the rotation. So the rotational component of change due to latitude (0.35%) is about twice as significant as the mass attraction change due to latitude (0.18%), but both reduce strength of gravity at the equator as compared to gravity at the poles.
+Note that for satellites, orbits are decoupled from the rotation of the Earth so the orbital period is not necessarily one day, but also that errors can accumulate over multiple orbits so that accuracy is important. For such problems, the rotation of the Earth would be immaterial unless variations with longitude are modeled. Also, the variation in gravity with altitude becomes important, especially for highly elliptical orbits.
+The Earth Gravitational Model 1996 (EGM96) contains 130,676 coefficients that refine the model of the Earth's gravitational field ( p. 40). The most significant correction term is about two orders of magnitude more significant than the next largest term ( p. 40). That coefficient is referred to as the
+
+
+
+
+J
+
+2
+
+
+
+
+{\displaystyle J_{2}}
+term, and accounts for the flattening of the poles, or the oblateness, of the Earth. (A shape elongated on its axis-of-symmetry, like an American football, would be called prolate.) A gravitational potential function can be written for the change in potential energy for a unit mass that is brought from infinity into proximity to the Earth. Taking partial derivatives of that function with respect to a coordinate system will then resolve the directional components of the gravitational acceleration vector, as a function of location. The component due to the Earth's rotation can then be included, if appropriate, based on a sidereal day relative to the stars (≈366.24 days/year) rather than on a solar day (≈365.24 days/year). That component is perpendicular to the axis of rotation rather than to the surface of the Earth.
+A similar model adjusted for the geometry and gravitational field for Mars can be found in publication NASA SP-8010.
+The barycentric gravitational acceleration at a point in space is given by:
+
+
+
+
+
+g
+
+=
+−
+
+
+
+G
+M
+
+
+r
+
+2
+
+
+
+
+
+
+
+r
+^
+
+
+
+
+
+{\displaystyle \mathbf {g} =-{GM \over r^{2}}\mathbf {\hat {r}} }
+
+where:
+M is the mass of the attracting object,
+
+
+
+
+
+
+
+r
+^
+
+
+
+
+
+
+{\displaystyle \scriptstyle \mathbf {\hat {r}} }
+is the unit vector from center-of-mass of the attracting object to the center-of-mass of the object being accelerated, r is the distance between the two objects, and G is the gravitational constant.
+When this calculation is done for objects on the surface of the Earth, or aircraft that rotate with the Earth, one has to account for the fact that the Earth is rotating and the centrifugal acceleration has to be subtracted from this. For example, the equation above gives the acceleration at 9.820 m/s2, when GM = 3.986×1014 m3/s2, and R=6.371×106 m. The centripetal radius is r = R cos(latitude), and the centripetal time unit is approximately (day / 2π), reduces this, for r = 5×106 metres, to 9.79379 m/s2, which is closer to the observed value.

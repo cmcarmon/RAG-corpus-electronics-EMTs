@@ -1,0 +1,9 @@
+It can be shown that when the process X(t) is memoryless and stationary (i.e., when x1, …, xn are independent,
+identically  distributed)  then  the  ML  estimators  are  consistent,  asymptotically  efﬁcient,  and  asymptotically
+Gaussian.
+i : xi ˛
+Example: Let xi , i = 1,…, n, be Gaussian independent random variables with mean q and variance  s 2
+i ). The mean q is to be estimated and the Rao-Cramèr bound is to be evaluated. Since q is unknown
+N(q,s 2
+but ﬁxed, we will use the maximum likelihood estimation scheme. The random variable xi has the probability
+density function

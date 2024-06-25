@@ -1,0 +1,12 @@
+Images
+A single high-quality color image of 1024 by 1024 pixels with 24 bits per pixel represents about 3 MB of storage
+in an uncompressed form, which will take more than 14 minutes to transmit over a 28800-baud modem. It is
+therefore very important to use compression to save storage and communication capacity for images. Many
+different  algorithms  have  been  proposed  for  image  compression,  and  standards  are  still  being  developed  for
+compression of images. For example, the popular GIF standard uses a patented version of Lempel–Ziv coding,
+and the JPEG standard being developed by the Joint Photographic Experts Group uses an 8 by 8 discrete cosine
+transform  (DCT)  followed  by  quantization  (the  quality  of  which  can  be  chosen  by  the  user)  and  Huffman
+coding.  Newer  compression  algorithms  using  wavelets  or  fractals  offer  higher  compression  than  JPEG.  The
+compression ratios achieved by these algorithms are very dependent on the image being coded. The lossless
+compression  methods  achieve  compression  ratios  of  up  to  about  3:1,  whereas  lossy  compression  methods
+achieve ratios up to 50:1 with very little perceptible loss of quality.

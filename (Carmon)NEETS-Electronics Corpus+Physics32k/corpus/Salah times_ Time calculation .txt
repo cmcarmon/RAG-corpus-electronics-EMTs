@@ -1,0 +1,366 @@
+To calculate prayer times two astronomical measures are necessary, the declination of the sun and the difference between clock time and sundial clock. This difference being the result of the eccentricity of the earth's orbit and the inclination of its axis, it is called the Equation of time. The declination of the sun is the angle between sun's rays and the equator plan.
+In addition to the above measures, to calculate prayer times for a specific location we need its spherical coordinates.
+In the following
+
+
+
+
+T
+
+Z
+
+
+
+
+{\displaystyle T_{Z}}
+is the time zone, and
+
+
+
+
+T
+
+E
+
+
+
+
+{\displaystyle T_{E}}
+the time equation value.
+
+
+
+L
+n
+g
+
+
+{\displaystyle Lng}
+and
+
+
+
+L
+
+
+{\displaystyle L}
+are the Longitude and the Latitude of the considered point, respectively.
+
+
+
+D
+
+
+{\displaystyle D}
+denotes the Declination of the Sun for a given date.
+An other important equation gives the time difference between when the sun hits its highest point in the sky (Dhuhr time) and any other angle
+
+
+
+α
+
+
+{\displaystyle \alpha }
+, as follow:
+
+
+
+T
+(
+α
+)
+=
+
+
+1
+15
+
+
+arccos
+⁡
+
+(
+
+
+
+−
+sin
+⁡
+(
+α
+)
+−
+sin
+⁡
+(
+L
+)
+∗
+sin
+⁡
+(
+D
+)
+
+
+cos
+⁡
+(
+L
+)
+∗
+cos
+⁡
+(
+D
+)
+
+
+
+)
+
+
+
+{\displaystyle T(\alpha )={1 \over 15}\arccos \left({-\sin(\alpha )-\sin(L)*\sin(D) \over \cos(L)*\cos(D)}\right)}
+
+Midday (Dhuhr) time is easily obtained. When the sun reaches the mid sky, time is given by:
+
+
+
+
+T
+
+D
+h
+u
+h
+r
+
+
+=
+12
++
+
+T
+
+Z
+
+
+−
+(
+L
+n
+g
+
+/
+
+15
++
+
+T
+
+E
+
+
+)
+
+
+{\displaystyle T_{Dhuhr}=12+T_{Z}-(Lng/15+T_{E})}
+
+Sunrise (Chorok) and Sunset (Maghreb) time are given by
+
+
+
+T
+(
+0.833
+)
+
+
+{\displaystyle T(0.833)}
+, in fact it is the astronomical sunset/sunrise that occurs for
+
+
+
+α
+=
+0
+
+
+{\displaystyle \alpha =0}
+. 0.833 is a slight correction that gives the actual time. So
+
+
+
+
+T
+
+C
+h
+o
+r
+o
+k
+
+
+=
+
+T
+
+D
+h
+u
+h
+r
+
+
+−
+T
+(
+0.833
+)
+
+
+{\displaystyle T_{Chorok}=T_{Dhuhr}-T(0.833)}
+and
+
+
+
+
+T
+
+S
+u
+n
+s
+e
+t
+
+
+=
+
+T
+
+D
+h
+u
+h
+r
+
+
++
+T
+(
+0.833
+)
+
+
+{\displaystyle T_{Sunset}=T_{Dhuhr}+T(0.833)}
+.
+If we consider the elevation of the point we should add another correction to the constant
+
+
+
+0.0347
+×
+
+
+h
+
+
+
+
+{\displaystyle 0.0347\times {\sqrt {h}}}
+.
+For Fajr and Isha many conventions about the angle
+
+
+
+α
+
+
+{\displaystyle \alpha }
+exist. It is of 17 and 18 degrees respectively for Fadjr and Isha prayers according to the Muslim World League.
+For Asr time according to the majority of Muslim schools, including Shafi'i, Maliki, Ja'fari, and Hanbali, it is when the length of an object shadows became equal to its length plus the length of its shadow at noon. The Hanafi schools states that the time of Asr is when an object's shadow reaches two times the length of the object itself, plus the length of its shadow at noon. The time the shadow of an object reaches
+
+
+
+T
+
+
+{\displaystyle T}
+times its length is given by the equation:
+
+
+
+A
+(
+T
+)
+=
+
+
+1
+15
+
+
+arccos
+⁡
+
+(
+
+
+
+sin
+⁡
+(
+arccot
+⁡
+(
+t
++
+tan
+⁡
+(
+L
+−
+D
+)
+)
+)
+−
+sin
+⁡
+(
+L
+)
+∗
+sin
+⁡
+(
+D
+)
+
+
+cos
+⁡
+(
+L
+)
+∗
+cos
+⁡
+(
+D
+)
+
+
+
+)
+
+
+
+{\displaystyle A(T)={1 \over 15}\arccos \left({\sin(\operatorname {arccot} (t+\tan(L-D)))-\sin(L)*\sin(D) \over \cos(L)*\cos(D)}\right)}
+.
+It is called for the Maghrib prayer when the sun is completely folded behind the horizon, plus 3 minutes by precaution.
+Technological advances have allowed for products such as software-enhanced azan clocks that use a combination of GPS and microchips to calculate these formulas. This allows Muslims to live further away from mosques than previously possible, as they no longer need to rely solely on a muezzin in order to keep an accurate prayer schedule.

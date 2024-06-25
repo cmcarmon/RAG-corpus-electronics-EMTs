@@ -1,0 +1,7 @@
+▶✓ If your circuit uses one or more CMOS chips, insert the CMOS chips 
+last. If you need to, use a dummy TTL IC to make sure that you wired 
+everything properly. TTL chips aren’t nearly as sensitive to static as the 
+CMOS variety. Be sure to provide connections for the positive and nega-
+tive power supply — and to connect all inputs (tie the inputs that you 
+aren’t using to the positive or negative supply rail). When you’re ready to 
+test the circuit, remove the dummy chip and replace it with the CMOS IC.

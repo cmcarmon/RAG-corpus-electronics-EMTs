@@ -1,0 +1,9 @@
+The detector module consists of a series of detectors that are used to determine various characteristics of the radiation and particles as they pass through. Characteristics are determined only for particles that pass through from top to bottom. Particles that enter the detector at any other angles are rejected. From top to bottom the subsystems are identified as:
+Transition radiation detector measures the velocities of the highest energy particles;
+Upper time of flight counter, along with the lower time of flight counter, measures the velocities of lower energy particles;
+Star tracker determines the orientation of the module in space;
+Silicon tracker measures the coordinates of charged particles in the magnetic field;
+Permanent magnet bends the path of charged particles so they can be identified;
+Anti-coincidence counter rejects stray particles that enter through the sides;
+Ring imaging Cherenkov detector measures velocity of fast particles with extreme accuracy;
+Electromagnetic calorimeter measures the total energy of the particles.

@@ -1,0 +1,7 @@
+and VOH to be the same as those used in Section 10.4.2. In other words, VOH = 4V
+and VOL = 1V.
+When the input VIN1 transitions from high to low, Figure 10.26 applies, and we can
+use the results from Section 10.4.2 to compute the propagation delay tpd,1→0 by using
+(RL + Rwire) in place of RL and (CGS2 + Cwire) in place of CGS2. Thus, the propagation
+delay for RL = 10 k, RON = 1 k, CGS2 = 100 fF is given by
+tpd,1→0 = −(RL + Rwire) × (CGS2 + Cwire) ln(11/50)

@@ -1,0 +1,4 @@
+Now look at figure 2-4. Signal A is applied to one input of the AND gate and signal B to the other.
+At time T0, both inputs are LOW (logic 0) and f is LOW. At T1, A goes HIGH (logic 1); B remains LOW;
+and as a result, f remains LOW. At T2, A goes LOW and B goes HIGH; f, however, is still LOW, because
+the proper input conditions have not been satisfied (A and B both HIGH at the same time). At T4, both A

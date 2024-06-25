@@ -1,0 +1,8 @@
+Next, a global loop folding and merging transformation is
+applied to all the y-loops in the algorithm. As a result, the
+functions will not work on a whole image at once anymore but
+on a line-per-line pipelining base. This is shown in Figure 2.12.
+Finally, a similar global loop folding and merging trans-
+formation is applied to the x-loops. The result is that the
+algorithm will now work on a ﬁne-grain (pixel-per-pixel)
+pipelining base, as illustrated in Figure 2.13.

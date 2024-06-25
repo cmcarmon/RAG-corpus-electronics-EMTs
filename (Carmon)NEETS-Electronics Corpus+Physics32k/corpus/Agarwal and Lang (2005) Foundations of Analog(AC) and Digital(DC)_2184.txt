@@ -1,0 +1,21 @@
+This positive voltage at the non-inverting input terminal will result in a positive
+voltage difference at the Op Amp input port (between v
+), and conse-
+quently, the output will continue to be driven to the positive saturation voltage,
+namely VS. The equivalent circuit is as shown in Figure 15.32. The capacitor C
+begins to charge up towards VS through the resistor R3. Since no current flows
+into the v
++ =
+VSR1/(R1 + R2), resulting in an effective negative voltage across the Op Amp
++
+input port, namely across the v
+terminals. The Op Amp amplifies this
+negative voltage difference at its input to a large negative voltage at its output.
+Since the negative voltage at the output is fed back to the non-inverting terminal
+by the voltage divider formed by R1 and R2, the non-inverting terminal voltage
+becomes negative, which makes the voltage difference at the Op Amp input
+even more negative, and which in turn makes the output voltage fall even more.
+This positive feedback process continues until the output reaches the negative
+saturation voltage −VS. At this point, we have
++ = −VSR1
+R1 + R2

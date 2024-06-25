@@ -1,0 +1,15 @@
+In the static method, reconﬁguration paths are predeter-
+mined to conform to a certain pattern, such as from going
+left to right along rows (as depicted in Figure 8.7). CSs are then
+inserted wherever needed along these paths (also shown in
+Figure 8.7) as part of the original routing. This is a static
+approach in the sense that the CS insertion is oblivious to
+the presence and location of faults. Whenever faults occur that
+conform to the predetermined reconﬁgurable pattern (e.g., one
+fault per row), the transposition of conﬁguration bits from
+dependent to cover cells automatically achieves complete re-
+conﬁguration—the interconnect ‘‘hooks’’ needed by the cover
+cells to connect to nets routed to their dependent cells are
+already in place. Thus, reconﬁguration is extremely fast with
+times determined primarily by transposition of cell conﬁgur-
+ation bits.

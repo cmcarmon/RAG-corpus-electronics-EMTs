@@ -1,0 +1,7 @@
+Figure 6.2.9 shows a 4-bit weighted-resistor D/A converter which includes a reference voltage
+source, a set of four electronically controlled switches, a set of four binary-weighted precision
+resistors, and an op amp. Each binary bit of digital input code controls its own switch. The switch
+closes with a bit value of 1, and the switch stays open with binary 0. The resistor connected to
+the most signiﬁcant bit (MSB), b0, has a value of R; b1 is connected to 2R, b2 to 4R, and b3 to 8R.
+Thus, each low-order bit is connected to a resistor that is higher by a factor of 2. For a 4-bit D/A
+converter, the binary input range is from 0000 to 1111.

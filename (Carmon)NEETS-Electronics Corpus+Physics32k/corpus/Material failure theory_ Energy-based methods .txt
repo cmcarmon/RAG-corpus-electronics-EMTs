@@ -1,0 +1,191 @@
+The linear elastic fracture mechanics method is difficult to apply for anisotropic materials (such as composites) or for situations where the loading or the geometry are complex. The strain energy release rate approach has proved quite useful for such situations. The strain energy release rate for a mode I crack which runs through the thickness of a plate is defined as
+
+
+
+
+
+G
+
+I
+
+
+=
+
+
+
+
+
+
+
+
+P
+
+
+
+
+
+
+
+
+
+2
+t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+d
+u
+
+
+
+
+
+
+
+
+
+d
+a
+
+
+
+
+
+
+
+{\displaystyle G_{I}={\cfrac {P}{2t}}~{\cfrac {du}{da}}}
+
+where
+
+
+
+P
+
+
+{\displaystyle P}
+is the applied load,
+
+
+
+t
+
+
+{\displaystyle t}
+is the thickness of the plate,
+
+
+
+u
+
+
+{\displaystyle u}
+is the displacement at the point of application of the load due to crack growth, and
+
+
+
+a
+
+
+{\displaystyle a}
+is the crack length for edge cracks or
+
+
+
+2
+a
+
+
+{\displaystyle 2a}
+is the crack length for plane cracks. The crack is expected to propagate when the strain energy release rate exceeds a critical value
+
+
+
+
+G
+
+
+I
+c
+
+
+
+
+
+{\displaystyle G_{\rm {Ic}}}
+- called the critical strain energy release rate.
+The fracture toughness and the critical strain energy release rate for plane stress are related by
+
+
+
+
+
+G
+
+
+I
+c
+
+
+
+=
+
+
+
+
+
+
+
+
+1
+
+
+
+
+
+
+
+
+
+E
+
+
+
+
+
+
+
+K
+
+
+I
+c
+
+
+
+2
+
+
+
+
+{\displaystyle G_{\rm {Ic}}={\cfrac {1}{E}}~K_{\rm {Ic}}^{2}}
+
+where
+
+
+
+E
+
+
+{\displaystyle E}
+is the Young's modulus. If an initial crack size is known, then a critical stress can be determined using the strain energy release rate criterion.

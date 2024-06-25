@@ -1,0 +1,5 @@
+. Number of active sessions: The physical layer processes
+the packets in the FIFO order. Hence, if there are multiple
+active sessions, this delay becomes quite signiﬁcant, espe-
+cially if the OS does not support real-time scheduling
+algorithms to support multimedia trafﬁc.

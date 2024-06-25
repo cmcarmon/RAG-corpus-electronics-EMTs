@@ -1,0 +1,9 @@
+We now illustrate a simple example (refer to Figure 7.11)
+that captures the essence of SIP operations. Here, a client
+(caller) is inviting a participant (callee) for a call. The SIP
+client creates an INVITE message for callee@uic.edu, which is
+normally sent to a proxy server (step 1). This proxy server tries
+to obtain the IP address of the SIP server that handles requests
+for the requested domain. The proxy server consults a location
+server to determine this next hop server (step 2). The location
+server is a non-SIP server that stores information about the

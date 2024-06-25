@@ -1,0 +1,61 @@
+The most common boundary that comes upon in the confined fluid flow problems is the Wall. This is also commonly known as no-slip boundary condition and this is the appropriate conditions for velocity components at the wall. The normal component could be set to zero straightaway while the tangential component is set to the velocity of the wall.
+
+
+
+
+
+V
+
+
+normal
+
+
+
+=
+0
+
+
+{\displaystyle V_{\textrm {normal}}=0}
+
+
+
+
+
+V
+
+
+tangential
+
+
+
+=
+
+V
+
+
+wall
+
+
+
+
+
+{\displaystyle V_{\textrm {tangential}}=V_{\textrm {wall}}}
+
+Heat transfer through the wall can be specified or if the walls are considered adiabatic, then heat transfer across the wall is set to zero.
+
+
+
+
+
+Q
+
+
+AdiabaticWalls
+
+
+
+=
+0
+
+
+{\displaystyle Q_{\textrm {AdiabaticWalls}}=0}

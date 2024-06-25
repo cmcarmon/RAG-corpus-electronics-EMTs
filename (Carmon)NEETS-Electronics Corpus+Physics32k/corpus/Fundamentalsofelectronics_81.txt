@@ -1,0 +1,8 @@
+Here, τ is the delay. The way to understand this system is to focus on the time origin: The output at time
+t = τ equals the input at time t = 0. Thus, if the delay is positive, the output emerges later than the input,
+and plotting the output amounts to shifting the input plot to the right. The delay can be negative, in which
+case we say the system advances its input. Such systems are diﬃcult to build (they would have to produce
+signal values derived from what the input will be), but we will have occasion to advance signals in time.
+2.6.4 Time Reversal
+With a time-reversal system, the output signal equals the input signal ﬂipped about the vertical axis (the
+time origin).

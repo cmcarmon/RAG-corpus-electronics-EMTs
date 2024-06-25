@@ -1,0 +1,11 @@
+Figure 4.8 shows the p=4-shifted QPSK signal constellation.
+When the phase angles of p=4-shifted QPSK symbols are
+differentially encoded, the resulting modulation is p=4-shifted
+DQPSK. This can be done either by differential encoding of the
+source bits and mapping them onto absolute phase angles or,
+alternately, by directly mapping the pairs of input bits onto
+relative phase (  p=4  3p=4) as shown in Figure 4.8. The
+binary data stream entering the modulator bM (t ) is converted
+by a serial-to-parallel converter into two binary streams
+bo(t) and be(t) before the bits are differentially encoded (see
+Figure 4.9):

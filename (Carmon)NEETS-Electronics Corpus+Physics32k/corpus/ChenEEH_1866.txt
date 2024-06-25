@@ -1,0 +1,6 @@
+SIP is based on an HTTP-like request/response transaction
+model. Each transaction consists of a request that invokes a
+particular method, or function, on the server and at least one
+response. Just as for HTTP, all requests and responses use
+textual encoding for SIP. Some commands and responses of
+SIP and their use are illustrated in Table 7.8.

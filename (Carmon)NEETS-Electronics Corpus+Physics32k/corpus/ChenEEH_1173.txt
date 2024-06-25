@@ -1,0 +1,8 @@
+Charge leakage noise is mainly composed of subthreshold
+conduction in nominally off transistors. This current can
+either charge/discharge a dynamic node or cause the stable
+state of a weakly held node to be signiﬁcantly different from
+rails. This is mainly a concern for wide domino NOR, PLA,
+and memory arrays. This current rises exponentially with
+reduction in the threshold voltage and is becoming very sig-
+niﬁcant in DSM. It is helped greatly by feedback devices.

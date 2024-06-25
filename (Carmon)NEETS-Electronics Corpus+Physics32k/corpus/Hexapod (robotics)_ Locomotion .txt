@@ -1,0 +1,6 @@
+Most often, hexapods are controlled by gaits, which allow the robot to move forward, turn, and perhaps side-step. Some of the most common gaits are as follows:
+Alternating tripod: 3 legs on the ground at a time.
+Quadruped.
+Crawl: move just one leg at a time.
+Gaits for hexapods are often stable, even in slightly rocky and uneven terrain.
+Motion may also be nongaited, which means the sequence of leg motions is not fixed, but rather chosen by the computer in response to the sensed environment. This may be most helpful in very rocky terrain, but existing techniques for motion planning are computationally expensive.

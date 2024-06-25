@@ -1,0 +1,272 @@
+In general, the upper and lower approximations are not equal; in such cases, we say that target set
+
+
+
+X
+
+
+{\displaystyle X}
+is undefinable or roughly definable on attribute set
+
+
+
+P
+
+
+{\displaystyle P}
+. When the upper and lower approximations are equal (i.e., the boundary is empty),
+
+
+
+
+
+P
+¯
+
+
+X
+=
+
+
+P
+_
+
+
+X
+
+
+{\displaystyle {\overline {P}}X={\underline {P}}X}
+, then the target set
+
+
+
+X
+
+
+{\displaystyle X}
+is definable on attribute set
+
+
+
+P
+
+
+{\displaystyle P}
+. We can distinguish the following special cases of undefinability:
+Set
+
+
+
+X
+
+
+{\displaystyle X}
+is internally undefinable if
+
+
+
+
+
+P
+_
+
+
+X
+≠
+∅
+
+
+{\displaystyle {\underline {P}}X\neq \emptyset }
+and
+
+
+
+
+
+P
+¯
+
+
+X
+=
+
+U
+
+
+
+{\displaystyle {\overline {P}}X=\mathbb {U} }
+. This means that on attribute set
+
+
+
+P
+
+
+{\displaystyle P}
+, there are objects which we can be certain belong to target set
+
+
+
+X
+
+
+{\displaystyle X}
+, but there are no objects which we can definitively exclude from set
+
+
+
+X
+
+
+{\displaystyle X}
+.
+Set
+
+
+
+X
+
+
+{\displaystyle X}
+is externally undefinable if
+
+
+
+
+
+P
+_
+
+
+X
+=
+∅
+
+
+{\displaystyle {\underline {P}}X=\emptyset }
+and
+
+
+
+
+
+P
+¯
+
+
+X
+≠
+
+U
+
+
+
+{\displaystyle {\overline {P}}X\neq \mathbb {U} }
+. This means that on attribute set
+
+
+
+P
+
+
+{\displaystyle P}
+, there are no objects which we can be certain belong to target set
+
+
+
+X
+
+
+{\displaystyle X}
+, but there are objects which we can definitively exclude from set
+
+
+
+X
+
+
+{\displaystyle X}
+.
+Set
+
+
+
+X
+
+
+{\displaystyle X}
+is totally undefinable if
+
+
+
+
+
+P
+_
+
+
+X
+=
+∅
+
+
+{\displaystyle {\underline {P}}X=\emptyset }
+and
+
+
+
+
+
+P
+¯
+
+
+X
+=
+
+U
+
+
+
+{\displaystyle {\overline {P}}X=\mathbb {U} }
+. This means that on attribute set
+
+
+
+P
+
+
+{\displaystyle P}
+, there are no objects which we can be certain belong to target set
+
+
+
+X
+
+
+{\displaystyle X}
+, and there are no objects which we can definitively exclude from set
+
+
+
+X
+
+
+{\displaystyle X}
+. Thus, on attribute set
+
+
+
+P
+
+
+{\displaystyle P}
+, we cannot decide whether any object is, or is not, a member of
+
+
+
+X
+
+
+{\displaystyle X}
+.

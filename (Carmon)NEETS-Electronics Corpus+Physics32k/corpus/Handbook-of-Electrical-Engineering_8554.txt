@@ -1,0 +1,11 @@
+High-Level Languages for Microprogramming
+Many higher-level languages have been designed and implemented; see a discussion of some design philosophies
+in  Malik  and  Lewis  [1978].  In  principle,  a  high-level  language  program  is  oriented  toward  the  application  it
+supports and is farther away from the hardware-detailed implementation of the machine it runs on. The appli-
+cations supported are mostly other machine deﬁnitions (emulators) and implementations of some algorithms.
+The objects deﬁned and manipulated by high-level languages for microprogramming are therefore the virtual
+components of virtual machines. They are usually much the same as their real counterparts: registers, paths,
+ALUs, microoperations, etc. Furthermore, writing a microprogram is usually deﬁning a machine architecture.
+It involves a lot of intricate and complicated details, but the algorithms implemented are mostly quite simple.
+The advantages offered by high-level languages to write better algorithms without getting lost in implementation
+details are therefore not exploited.

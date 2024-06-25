@@ -1,0 +1,16 @@
+It is interesting to note that all these methods are developed
+at a ﬁxed angle of attack and, in some cases, are tested at
+another angle close to the design point, which serves to help
+the researchers claim robustness of the designs. Here, the
+problem is considered in a more general setting, where
+the angle of attack is allowed to vary with time according to
+the evolution of an external dynamical system (which may
+represent the commands of the pilot together with the aircraft
+dynamics). As will be noted subsequently, the dynamics of the
+wing rock phenomenon change nonlinearly with the angle of
+attack, which makes the problem of developing controllers that
+are robust against angle of attack a challenging one. However,
+this problem ﬁts the class of time-varying systems (Polycarpou
+and Ioannu, 1991) considered in this chapter, so development
+of a controller that can operate at all angles of attack is greatly
+simpliﬁed by following theorem 1.

@@ -1,0 +1,11 @@
+transistor in the supply voltage (Vdd) or the ground (Gnd)
+path as in. The extra transistor is turned on in the used section
+and off in the unused section gated. It maintains the perform-
+ance and advantages of low-power supply and threshold volt-
+ages while reducing leakage and leakage energy dissipation.
+The fundamental reason for the reduction in leakage is the
+stacking effect of self-reverse-bias series-connected transistors.
+However, the transistor impacts the switching speed due to a
+nonzero voltage drop across the gated-Vdd transistor between
+the supply rails and the ‘‘virtual Gnd’’ for NMOS gated Vdd
+(Figure 7.11) or the ‘‘virtual Vdd’’ for PMOS gated-Vdd.

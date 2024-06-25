@@ -1,0 +1,7 @@
+The schematic shown in figure 4-37 is that of a shunt voltage regulator. Notice that Q1 is in parallel 
+with the load. Components of this circuit are identical with those of the series voltage regulator except for 
+the addition of fixed resistor RS. As you study the schematic, you will see that this resistor is connected in 
+series with the output load resistance. The current limiting resistor (R1) and Zener diode (CR1) provide a 
+constant reference voltage for the base-collector junction of Q1. Notice that the bias of Q1 is determined 
+by the voltage drop across RS and R1. As you should know, the amount of forward bias across a transistor 
+affects its total resistance. In this case, the voltage drop across RS is the key to the total circuit operation. 

@@ -1,0 +1,18 @@
+(1984) presented the seminal work in ABFT in which methods
+of detecting and correcting errors in various matrix computa-
+tions using checksum-encoded matrices were discussed. These
+methods use the linear transformation property of matrix
+computations to detect errors in the result matrix. Subse-
+quently, a number of ABFT schemes were proposed for error
+detection in different computations like Fourier transforms
+(Malek and Choi, 1985) and matrix equation solvers (Luk
+and Park, 1988). Most ABFT schemes use a ﬂoating point
+(FP) checksum equality test that is susceptible to roundoff in
+FP computations of ﬁnite precision. This susceptibility arises
+from the difference in the sequence of operations used in
+computing the two sides of the equality test. Roundoff error
+analysis in Wilkinson (1963) indicates that upper bounds on
+the (roundoff) error in FP operations are dependent on the
+quantities involved, the order in which the intermediate oper-
+ations are performed, and the precision used in the intermedi-
+ate result’s accumulation.

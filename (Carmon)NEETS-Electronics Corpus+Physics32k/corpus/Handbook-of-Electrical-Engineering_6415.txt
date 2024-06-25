@@ -1,0 +1,8 @@
+Fractionally Spaced Equalizers
+The optimum receive ﬁlter in a linear modulation system is the cascade of a ﬁlter matched to the actual channel,
+with a transversal T-spaced equalizer [Forney, 1972]. The fractionally spaced equalizer (FSE), by virtue of its
+sampling rate, can synthesize the best combination of the characteristics of an adaptive matched ﬁlter and a
+T-spaced  equalizer,  within  the  constraints  of  its  length  and  delay.  A  T-spaced  equalizer,  with  symbol-rate
+sampling at its input, cannot perform matched ﬁltering. A fractionally spaced equalizer can effectively compen-
+sate for more severe delay distortion and deal with amplitude distortion with less noise enhancement than a
+T-equalizer.

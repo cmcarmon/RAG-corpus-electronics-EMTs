@@ -1,0 +1,171 @@
+A paper published in 1938 by Albert Einstein, Leopold Infeld and Banesh Hoffmann showed that if elementary particles are treated as singularities in spacetime, it is unnecessary to postulate geodesic motion as part of general relativity. The electron may be treated as such a singularity.
+If one ignores the electron's angular momentum and charge, as well as the effects of quantum mechanics, one can treat the electron as a black hole and attempt to compute its radius. The Schwarzschild radius rs of a mass m is the radius of the event horizon for a non-rotating, uncharged black hole of that mass. It is given by
+
+
+
+
+
+r
+
+s
+
+
+=
+
+
+
+2
+G
+m
+
+
+c
+
+2
+
+
+
+
+
+
+{\displaystyle r_{s}={\frac {2Gm}{c^{2}}}}
+,
+where G is Newton's gravitational constant and c is the speed of light. For the electron,
+m = 9.109×10−31 kg,
+so
+rs = 1.353×10−57 m.
+Thus, if we ignore the electric charge and angular momentum of the electron, and naively apply general relativity on this very small length scale without taking quantum theory into account, a black hole of the electron's mass would have this radius.
+In reality, physicists expect quantum gravity effects to become significant even at much larger length scales, comparable to the Planck length
+
+
+
+
+
+ℓ
+
+P
+
+
+=
+
+
+
+
+G
+ℏ
+
+
+c
+
+3
+
+
+
+
+
+=
+1.616
+×
+
+10
+
+−
+35
+
+
+
+
+{\displaystyle \ell _{P}={\sqrt {\frac {G\hbar }{c^{3}}}}=1.616\times 10^{-35}}
+m
+So, the above purely classical calculation cannot be trusted. Furthermore, even classically, electric charge and angular momentum affect the properties of a black hole. To take them into account, while still ignoring quantum effects, one should use the Kerr–Newman metric. If we do, we find the angular momentum and charge of the electron are too large for a black hole of the electron's mass: a Kerr-Newman object with such a large angular momentum and charge would instead be 'super-extremal', displaying a naked singularity, meaning a singularity not shielded by an event horizon.
+To see that this is so, it suffices to consider the electron's charge and neglect its angular momentum. In the Reissner–Nordström metric, which describes electrically charged but non-rotating black holes, there is a quantity rq, defined by
+
+
+
+
+
+r
+
+q
+
+
+=
+
+
+
+
+
+q
+
+2
+
+
+G
+
+
+4
+π
+
+ϵ
+
+0
+
+
+
+c
+
+4
+
+
+
+
+
+
+
+
+{\displaystyle r_{q}={\sqrt {\frac {q^{2}G}{4\pi \epsilon _{0}c^{4}}}}}
+
+where q is the electron's charge and ε0 is the vacuum permittivity. For an electron with q = −e = −1.602×10−19 C, this gives a value
+rq = 1.3807×10−36 m.
+Since this (vastly) exceeds the Schwarzschild radius, the Reissner–Nordström metric has a naked singularity.
+If we include the effects of the electron's rotation using the Kerr-Newman metric, there is still a naked singularity, which is now a ring singularity, and spacetime also has closed timelike curves. The size of this ring singularity is on the order of
+
+
+
+
+
+r
+
+a
+
+
+=
+
+
+J
+
+m
+c
+
+
+
+
+
+{\displaystyle r_{a}={\frac {J}{mc}}}
+,
+where as before m is the electron's mass and c is the speed of light, but J =
+
+
+
+ℏ
+
+/
+
+2
+
+
+{\displaystyle \hbar /2}
+is the spin angular momentum of the electron. This gives
+ra = 1.9295×10−13 m
+which is much larger than the length scale rq associated to the electron's charge. As noted by Carter, this length ra is on the order of the electron's Compton wavelength. Unlike the Compton wavelength, it is not quantum-mechanical in nature.
+More recently, Alexander Burinskii has pursued the idea of treating the electron as Kerr–Newman naked singularity.

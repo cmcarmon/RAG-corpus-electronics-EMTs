@@ -1,0 +1,20 @@
+The top-level element in iCalendar is the Calendaring and Scheduling Core Object, a collection of calendar and scheduling information. Typically, this information will consist of a single iCalendar object. However, multiple iCalendar objects can be grouped together.
+The first line must be BEGIN:VCALENDAR, and the last line must be END:VCALENDAR; the contents between these lines is called the "icalbody".
+The second line VERSION:2.0 indicates that the data is in iCalendar format. VERSION:1.0 was used to specify that data is in the old vCalendar format.
+The body of the iCalendar object (the icalbody) is made up of a list of calendar properties and one or more calendar components. The calendar properties apply to the entire calendar. The calendar components are several calendar properties which create a calendar schematic (design). For example, the calendar component can specify an event, a to-do list, a journal entry, time zone information, or free/busy time information, or an alarm. Empty lines are not allowed in some versions of usage (Google calendar).
+Here is a simple example of an iCalendar object, "Bastille Day Party" event which occurs July 14, 1997 17:00 (UTC) through July 15, 1997 03:59:59 (UTC):
+
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hacksw/handcal//NONSGML v1.0//EN
+BEGIN:VEVENT
+UID:uid1@example.com
+DTSTAMP:19970714T170000Z
+ORGANIZER:CN=John Doe:MAILTO:john.doe@example.com
+DTSTART:19970714T170000Z
+DTEND:19970715T035959Z
+SUMMARY:Bastille Day Party
+END:VEVENT
+END:VCALENDAR
+
+There are many different types of components which can be used in iCalendar, as described below.

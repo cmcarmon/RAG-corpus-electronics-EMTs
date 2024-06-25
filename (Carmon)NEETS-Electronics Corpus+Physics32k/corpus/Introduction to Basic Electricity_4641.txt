@@ -1,0 +1,10 @@
+The PLA is similar to the PAL but has the additional 
+flexibility of having its AND gates connected to several 
+programmable OR gates. This results in a device that 
+is harder to program than the PAL and the additional 
+level of logic gates increases the overall propagation 
+delay time. Figure 45-35 shows the detailed intercon-
+nections. The interconnections start with all fusible 
+links in place. The programmer decides which fuses 
+will be left intact and which will be blown. The links 
+are blown to represent a logic equation.

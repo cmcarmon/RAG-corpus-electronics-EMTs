@@ -1,0 +1,12 @@
+In MYCIN, the explanation module is invoked at the end of
+every consultation. To explain the result, the module retrieves
+the list of rules that were successfully applied, along with the
+conclusions drawn. It allows the user to interrogate the system
+about the conclusions. Inquiries generally fall into two types:
+why a particular question was put and how a particular con-
+clusion was reached. MYCIN keeps track of the goal–subgoal
+structure of the computation and uses it to answer a why
+question by citing the related rules together with other condi-
+tions. To answer a how question, MYCIN maintains a record of
+the decisions it made and cites the rules that it applied as well
+as the degree of certainty of the decision.

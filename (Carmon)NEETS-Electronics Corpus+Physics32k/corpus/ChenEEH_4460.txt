@@ -1,0 +1,10 @@
+are the Luenberger gain, the steady-state Kalman ﬁlter gain, or
+a curve ﬁt to the time-varying Kalman gain sequence. Iteration
+of equations 4.27 and 4.28 once for the optimal gain sequence
+and once for a suboptimal gain sequence allows analysis of the
+amount of performance degradation expected from the sub-
+optimal approach. Note that this paragraph has only con-
+sidered the case where the design model matches the actual
+system, but a suboptimal gain sequence is used. The case where
+the ﬁlter model is distinct from the system model is discussed
+in the remainder of this section.

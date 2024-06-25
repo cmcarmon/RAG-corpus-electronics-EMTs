@@ -1,0 +1,8 @@
+The  1NF  requires  that  attribute  name  values  be atomic.  That  is,  composite  values  for  attribute  names  are
+not allowed. A 2NF scheme is a 1NF scheme in which all nonprime attributes are fully dependent on the key.
+Consider the relation of Fig. 94.3. Each tuple in PRODUCT gives the name of a supplier, a product name, its
+price, and the supplier’s location. The scheme (supplier_name, product_name, price, quantity) is in 1NF since
+each attribute name is atomic. It is assumed that many products can be supplied by a single supplier, that a
+given  product  can  be  supplied  by  more  than  one  supplier,  and  that  a  supplier  has  only  one  location.  So,
+(supplier_name, product_name) is the relation’s key and the functional dependency supplier_name ﬁ location
+should hold for any instance of PRODUCT.

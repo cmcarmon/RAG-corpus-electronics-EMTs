@@ -1,0 +1,11 @@
+1. All capacitors are removed from the circuit (replaced with opens).
+2. All inductors are replaced with shorts.
+3. Modiﬁed nodal analysis is used to construct the nonlinear circuit equations. This results in one equation
+for each circuit node plus one equation for each voltage source. Modiﬁed nodal analysis is used rather
+than standard nodal analysis because an ideal voltage source or inductance cannot be represented using
+normal nodal analysis. To represent the voltage sources, loop equations (one for each voltage source or
+inductor), are included as well as the standard node equations. The node voltages and voltage source
+x
+. The circuit equations
+currents, then, represent the quantities which are solved for. These form a vector 
+can also be represented as a vector 

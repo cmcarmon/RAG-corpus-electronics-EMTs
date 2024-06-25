@@ -1,0 +1,3 @@
+Usually, the stopping criterion for the while-loop is implemented by recording the cost function’s value at
+the end of each temperature stage of the annealing process. The stopping criterion is satisﬁed when the cost
+function’s value has not changed for a number of consecutive stages.

@@ -1,0 +1,11 @@
+The  MLP  is  the  most  common  neural  network  topology,  but  it  can  only  handle  instantaneous  information,
+since the system has no memory and it is feedforward. In engineering, the processing of signals that exist in
+time  requires  systems  with  memory,  i.e.,  linear  ﬁlters.  Another  alternative  to  implement  memory  is  to  use
+feedback, which gives rise to recurrent networks. Fully recurrent networks are difﬁcult to train and to stabilize,
+so it is preferable to develop topologies based on MLPs but where explicit subsystems to store the past information
+are  included.  These  subsystems  are  called  short-term  memory  structures  [de  Vries  and  Principe,  1992].  The
+combination of an MLP with short-term memory structures is called a time-lagged network (TLN). The memory
+structures can be eventually recurrent, but the feedback is local, so stability is still easy to guarantee. Here, we
+will cover just one TLN topology, called focused, where the memory is at the input layer. The most general TLN
+have memory added anywhere in the network, but they require other more-involved training strategies (BPTT
+[Haykin, 1994]). The interested reader is referred to de Vries and Principe [1992] for further details.

@@ -1,0 +1,12 @@
+These systems are designed to operate with critical damping (z = 1) because an underdamped system (z < 1)
+has fast response but results in an overshoot, whereas an overdamped system (z >  1) is too slow. However, this
+is not always possible, because the damping ratio given by Eq. (101.7) depends on Beff and Jeff which vary during
+the actual operation of the manipulator. Beff changes with age or repeated use of the manipulator. Jeff varies with
+the payload. For example, the variation of Jeff for the Stanford manipulator under various loading conditions
+is shown in Fig. 101.13. Jeff also varies with the conﬁguration of the manipulator during the actual operation.
+So a compromise solution will be to design the controller such that z ‡ 1 throughout the intended operation.
+The  undamped  natural  frequency wn  is  selected  to  be  no  more  than  half  the  resonance  frequency  of  the
+robot  to  avoid  any  structural  damage  to  the  robot  [Paul, 1981].  These  resonances  are  possible  due  to  the
+ﬂexibilities associated with the links of the robot and the shafts within the drive system, to name a few. These
+are called unmodeled resonances because they are not explicitly included in the model. In our case, if Keff and
+Jeff are the effective stiffness and the inertias of the joint, respectively, then the resonance frequency wr is given by

@@ -1,0 +1,9 @@
+The previous section illustrated several ways to represent binary values. The
+representations differed not only in the signal type (for example, current versus
+voltage), but also in the signal values (for example, 5 V versus 4 V to represent a
+logical 1). Because we require that digital devices built by various manufacturers
+talk to each other, the devices must adhere to a common representation. The
+representation must allow for large enough design margins so that devices can
+be built out of a wide range of technologies. Furthermore, the representation
+should be such that the devices operate correctly even in the presence of some
+amount of noise.

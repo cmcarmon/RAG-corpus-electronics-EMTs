@@ -1,0 +1,5 @@
+This assumes that all addend bits are presented to the adder simultaneously. It is important to note that in the
+least signiﬁcant full adder, tpd represents the time to compute c1 from x0 and y0 and in the most signiﬁcant full
+adder the time to compute sn–1 after cn–1 is received. In the intermediate stages, tpd is the time needed to compute
+ci+l  from  ci.  The  propagation  delay  is  approximately  equal  to  the  delay  of  a  three-level  logic  circuit  which  is
+consistent with the realization of a full adder given in Fig. 81.48.

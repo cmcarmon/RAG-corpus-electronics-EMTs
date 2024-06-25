@@ -1,0 +1,22 @@
+For most voice communication, very low speech volumes
+predominate; about 50% of the time, the voltage characteriz-
+ing detected speech energy is less than 1/4 of the root-mean-
+square (rms) value. Large amplitude values are relatively rare;
+only 15% of the time does the voltage exceed the rms value.
+The quantization noise depends on the step size. When the
+steps are uniform in size, the quantization is called the uniform
+quantization. Such a system would be wasteful for speech
+signals; many of the quantizing steps would rarely be used. In
+a system that uses equally spaced quantization levels, the
+quantization noise is same for all signal magnitudes. Thus,
+with uniform quantization, the signal-to-noise ratio (SNR)
+is worse for low-level signals than for high-level signals. Non-
+uniform quantization can provide ﬁne quantization of the
+weak signals and coarse quantization of the strong signals.
+Thus, in the case of nonuniform quantization, quantization
+noise can be made proportional to signal size. Improving the
+overall SNR by reducing the noise for predominant weak
+signals, at the expense of an increase in noise, can be done for
+rarely occurring signals. The nonuniform quantization can
+be used to make the SNR a constant for all signals within the
+input range. For voice, the signal dynamic range is 40 dB.

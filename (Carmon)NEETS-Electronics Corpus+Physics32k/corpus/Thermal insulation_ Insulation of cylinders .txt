@@ -1,0 +1,32 @@
+For insulated cylinders, a critical radius must be reached. Before the critical radius is reached any added insulation increases heat transfer. The convective thermal resistance is inversely proportional to the surface area and therefore the radius of the cylinder, while the thermal resistance of a cylindrical shell (the insulation layer) depends on the ratio between outside and inside radius, not on the radius itself. If the outside radius of a cylinder is increased by applying insulation, a fixed amount of conductive resistance (equal to 2*pi*k*L(Tin-Tout)/ln(Rout/Rin)) is added. However, at the same time, the convective resistance is reduced. This implies that adding insulation below a certain critical radius actually increases the heat transfer. For insulated cylinders, the critical radius is given by the equation
+
+
+
+
+
+
+r
+
+c
+r
+i
+t
+i
+c
+a
+l
+
+
+
+=
+
+
+k
+h
+
+
+
+
+{\displaystyle {r_{critical}}={k \over h}}
+
+This equation shows that the critical radius depends only on the heat transfer coefficient and the thermal conductivity of the insulation. If the radius of the insulated cylinder is smaller than the critical radius for insulation, the addition of any amount of insulation will increase heat transfer.

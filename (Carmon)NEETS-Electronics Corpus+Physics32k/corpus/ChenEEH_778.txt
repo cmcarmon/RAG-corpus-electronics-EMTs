@@ -1,0 +1,9 @@
+overlapped lifetimes (Greef et al., 1997). The criterion that
+identiﬁes (or checks) arrays with disjoint lifetimes is called
+compatibility, and the criterion that identiﬁes arrays with
+partially overlapped life times that can be merged10 is called
+mergeability. This step is illustrated in Figures 2.27(C) and
+2.27(E). In Subsection 2.7.1, the arrays ac_inter‘ and Auto-
+Corr‘ had partially overlapped lifetimes and were mergeable.
+This resulted in the reuse of memory space occupied by array
+ac_inter‘.

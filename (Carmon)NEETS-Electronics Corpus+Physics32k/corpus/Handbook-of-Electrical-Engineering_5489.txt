@@ -1,0 +1,10 @@
+Equal Pulse Spacing Control
+A control system based on the principle of equal spacing of ﬁring pulses at intervals of 60 degrees (electrical)
+independent of ac bus voltages was developed in the late 1960s. The basic components of this system, shown
+in Fig. 61.17, consist of a voltage-controlled oscillator and ring counter. The frequency of the oscillator is directly
+proportional to the dc control voltage Vc. Under steady-state conditions, pulse frequency is precisely 6f, where
+f is the ac system frequency. The phase of each grid pulse will have some arbitrary value relative to the ac bus
+voltage. If the three-phase ac bus voltages are symmetrical sine waves with no distortion, then a is the same
+for all valves. The oscillator will be phase-locked with the ac system frequency to avoid drifting. The dc control
+voltage Vc is derived from a feedback loop for constant current, constant power, or constant extinction angle g.
+The control systems used in recent projects are digital-based and much more sophisticated than the earlier

@@ -1,0 +1,9 @@
+The mean absolute difference is invariant to translations and negation, and varies proportionally to positive scaling. That is to say, if X is a random variable and c is a constant:
+MD(X + c) = MD(X),
+MD(−X) = MD(X), and
+MD(c X) = |c| MD(X).
+The relative mean absolute difference is invariant to positive scaling, commutes with negation, and varies under translation in proportion to the ratio of the original and translated arithmetic means. That is to say, if X is a random variable and c is a constant:
+RMD(X + c) = RMD(X) · mean(X)/(mean(X) + c) = RMD(X) / (1 + c / mean(X)) for c ≠ −mean(X),
+RMD(−X) = −RMD(X), and
+RMD(c X) = RMD(X) for c > 0.
+If a random variable has a positive mean, then its relative mean absolute difference will always be greater than or equal to zero. If, additionally, the random variable can only take on values that are greater than or equal to zero, then its relative mean absolute difference will be less than 2.

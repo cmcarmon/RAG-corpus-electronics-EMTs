@@ -1,0 +1,19 @@
+We will now give an outline of main memory and processor design features that help to achieve this goal.
+The ﬁrst concept is that of a memory hierarchy. We have already noted that access to operands in processor
+registers is signiﬁcantly faster than access to the main memory. Suppose that when instructions and data are
+ﬁrst loaded into the processor, they are stored in a small, fast, cache memory on the processor chip itself. If
+instructions and data in the cache are accessed repeatedly within a short period of time, as happens often with
+program loops, then program execution will be speeded up. The cache can only hold small parts of the executing
+program. When  the  cache  is  full,  its  contents  are  replaced  by  new  instructions  and  data  as  they  are  fetched
+from the main memory. A variety of cache replacement algorithms are in use. The objective of these algorithms
+is to maximize the probability that the instructions and data needed for program execution are found in the
+cache. This probability is known as the cache hit ratio. A higher hit ratio means that a larger percentage of the
+instructions and data are being found in the cache, and do not require access to the slower main memory. This
+leads to a reduction in the memory access basic step time components of S, and hence to a smaller value of T.
+The basic idea of a cache can be applied at different points in a computer system, resulting in a hierarchy
+of storage units. A typical memory hierarchy is shown in Fig. 86.8. Some systems have two levels of cache to
+take the best advantage of size/speed/cost tradeoffs. The main memory is usually not large enough to contain
+all of the programs and their data. Therefore, the highest level in the memory hierarchy is usually magnetic
+disk  storage.  As  the  ﬁgure  indicates,  it  has  the  largest  capacity,  but  the  slowest  access  time.  Segments  of  a
+program, often called pages, are transferred from the disk to the main memory for execution. As other pages
+are needed, they may replace the pages already in the main memory if the main memory is full. The orderly,

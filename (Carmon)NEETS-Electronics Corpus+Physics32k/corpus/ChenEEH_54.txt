@@ -1,0 +1,14 @@
+There are two ways to apply the Laplace transform for the
+solution of electrical circuits. In one method, the differen-
+tial equations for the circuit are ﬁrst obtained, and then the
+differential equations are solved using the Laplace transform.
+In the second method, the circuit elements are converted
+into s-domain functions and KCL and KVL are applied to
+the s-domain circuit to obtain the needed current or voltage
+in the s-domain. The current or voltage in time domain is
+obtained using the inverse Laplace transform. The second
+method is simpler and is illustrated here.
+Let the Laplace transform of {v(t)} ¼ V (s) and Laplace
+transform of {i(t )} ¼ I(s). Then the s-domain voltage current
+relations of the R, L, and C elements are obtained as follows.
+Consider a resistor with the v–i relation:

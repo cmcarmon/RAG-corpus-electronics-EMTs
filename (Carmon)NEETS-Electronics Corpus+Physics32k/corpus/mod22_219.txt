@@ -1,0 +1,7 @@
+Characters are assembled on the screen in much the same way as a dot-matrix print head prints a 
+character. It takes several horizontal lines and picture elements on each line to create a character. Figure 
+2-29 shows the generation of the character A, 7 picture elements wide and 9 horizontal lines high. The 
+character is built using what is, in effect, a 7 by 9 dot matrix. The picture elements used to build the 
+character would be at full intensity; the remaining picture elements in the matrix would be blanked. If 
+dark characters on a lighted screen were desired, then the character picture elements would be blanked 
+and the remainder displayed at full intensity. 

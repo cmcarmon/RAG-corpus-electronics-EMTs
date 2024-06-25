@@ -1,0 +1,12 @@
+Remarks
+For convenience of implementation, the steady-state solution
+obtained in the limit as tf ! 1 is used. The LQG control
+design is optimized to reject white noise disturbances; how-
+ever, it can be modiﬁed to handle constant disturbances via
+feed-forward and integral control. The selection of gains in
+the feed-forward case can be done in a similar way as in the
+case of tracking system design. Prior to implementation, the
+robustness of LQG designs needs to be evaluated since there is
+no guarantee that any useful robustness will be obtained. For
+constant disturbance rejection via integral control, one needs
+to use integral Kalman ﬁlter and also integral state feedback.

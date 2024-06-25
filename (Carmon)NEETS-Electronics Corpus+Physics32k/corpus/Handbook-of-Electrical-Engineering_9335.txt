@@ -1,0 +1,3 @@
+Furthermore, buttons, menus, and the like are library objects. Yet, when operated, they usually activate user
+methods. Again, the user program may then interrogate the button about its state or request that the button
+highlight itself, etc. (mutual referencing).

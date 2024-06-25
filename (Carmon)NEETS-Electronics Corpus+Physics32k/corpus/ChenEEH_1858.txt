@@ -1,0 +1,8 @@
+model, all signaling messages are routed through the gate-
+keeper. In this case, use of RAS is necessary. This model allows
+endpoints to access services provided by the gatekeeper, such
+as address resolution and call routing. It also allows the gate-
+keepers to enforce admission control and bandwidth allocation
+over their respective zones. This model is more suitable for IP
+telephony service providers because they can control the net-
+work and exercise accounting and billing functions.

@@ -1,0 +1,10 @@
+The mantissa checksum test also implicitly detects errors in
+the exponents of the ﬂoating point products. This is done
+during the denormalization process by checking if exp (a)þ
+exp (b) ¼ exp (a  b), which occurs when the ﬂoating point
+multiplier did not need to normalize the product a  b, or if
+exp (a) þ exp (b) ¼ exp (a  b þ 1), meaning that a normaliza-
+tion was needed and the mantissa of a  b needs to be denor-
+malized for use in the mantissa checksum test. If neither of
+these conditions hold, then an error is detected in the expo-
+nent of a  b.

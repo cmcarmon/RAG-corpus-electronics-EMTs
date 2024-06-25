@@ -1,0 +1,168 @@
+In the case of a scale-invariant type of system (where a system of volume
+
+
+
+λ
+V
+
+
+{\displaystyle \lambda V}
+has exactly the same set of microstates as
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+systems of volume
+
+
+
+V
+
+
+{\displaystyle V}
+), then when we grow the system new particles and energy will flow in from the reservoir to fill the new volume with a homogeneous extension of the original system. The pressure then must be constant with respect to changes in volume:
+
+
+
+(
+∂
+⟨
+P
+⟩
+
+/
+
+∂
+V
+
+)
+
+μ
+,
+T
+
+
+=
+0
+
+
+{\displaystyle (\partial \langle P\rangle /\partial V)_{\mu ,T}=0}
+, and the particle and all extensive quantities (particle number, energy, entropy, potentials, ...) must grow linearly with volume, e.g.,
+
+
+
+(
+∂
+⟨
+N
+⟩
+
+/
+
+∂
+V
+
+)
+
+μ
+,
+T
+
+
+=
+N
+
+/
+
+V
+
+
+{\displaystyle (\partial \langle N\rangle /\partial V)_{\mu ,T}=N/V}
+. In this case we have simply
+
+
+
+
+Φ
+
+G
+
+
+=
+−
+⟨
+P
+⟩
+V
+
+
+{\displaystyle \Phi _{G}=-\langle P\rangle V}
+, as well as the familiar relationship
+
+
+
+G
+=
+⟨
+N
+⟩
+μ
+
+
+{\displaystyle G=\langle N\rangle \mu }
+for the Gibbs free energy. The value of
+
+
+
+
+Φ
+
+G
+
+
+
+
+{\displaystyle \Phi _{G}}
+can be understood as the work we can extract from the system by shrinking it down to nothing (putting all the particles and energy back into the reservoir). The fact that
+
+
+
+
+Φ
+
+G
+
+
+=
+−
+⟨
+P
+⟩
+V
+
+
+{\displaystyle \Phi _{G}=-\langle P\rangle V}
+is negative implies that it takes energy to perform this extraction.
+Such homogeneous scaling does not exist in many systems. For example, when analyzing the ensemble of electrons in a single molecule or even a piece of metal floating in space, doubling the volume of the space does double the number of electrons in the material. The problem here is that, although electrons and energy are exchanged with a reservoir, the material host is not allowed to change. Generally in small systems, or systems with long range interactions (those outside the thermodynamic limit),
+
+
+
+
+Φ
+
+G
+
+
+≠
+−
+⟨
+P
+⟩
+V
+
+
+{\displaystyle \Phi _{G}\neq -\langle P\rangle V}
+.

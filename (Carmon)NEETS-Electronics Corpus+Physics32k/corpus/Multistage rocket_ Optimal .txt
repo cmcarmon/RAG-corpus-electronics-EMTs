@@ -1,0 +1,26 @@
+The ultimate goal of optimal staging is to maximize the payload ratio (see ratios under performance), meaning the largest amount of payload is carried up to the required burnout velocity using the least amount of non-payload mass, which comprises everything else. Here are a few quick rules and guidelines to follow in order to reach optimal staging:
+1. Initial stages should have lower Isp, and later/final stages should have higher Isp.
+2. The stages with the lower Isp should contribute more ΔV.
+3. The next stage is always a smaller size than the previous stage.
+4. Similar stages should provide similar ΔV.
+The Payload ratio can be calculated for each individual stage, and when multiplied together in sequence, will yield the overall payload ratio of the entire system. It is important to note that when computing payload ratio for individual stages, the payload includes the mass of all the stages after the current one. The overall payload ratio is
+λ =
+
+
+
+
+∏
+
+i
+=
+1
+
+
+n
+
+
+
+
+{\displaystyle \prod _{i=1}^{n}}
+λi
+Where n is the number of stages the rocket system comprises. Similar stages yielding the same payload ratio simplify this equation, however that is seldom the ideal solution for maximizing payload ratio, and ΔV requirements may have to be partitioned unevenly as suggested in guideline tips 1 and 2 from above. Two common methods of determining this perfect ΔV partition between stages are either a technical algorithm that generates an analytical solution that can be implemented by a program, or simple trial and error. For the trial and error approach, it is best to begin with the final stage, calculating the initial mass which becomes the payload for the previous stage. From there it is easy to progress all the way down to the initial stage in the same manner, sizing all the stages of the rocket system.

@@ -1,0 +1,14 @@
+Navigation  is  with  respect  to  a  coordinate  frame  of  the  designer’s  choice.  Short-range  robots  navigate  with
+respect to the local terrain or a building’s walls. For navigation over hundreds of kilometers (e.g., automobiles
+and trucks), various map grids exist whose coordinates can be calculated from latitude-longitude (Fig. 109.1).
+NATO land vehicles use a Universal Transverse Mercator grid. Long-range aircraft and ships navigate relative
+to an earth-bound coordinate frame, the most common of which are latitude-longitude-altitude and rectangular
+x, y, z (Fig. 109.1). The most accurate world-wide reference ellipsoid is described in [WGS-84, 1991]. Spacecraft
+in orbit around the earth navigate with respect to an earth-centered, inertially nonrotating coordinate frame
+x
+ axis lies along the equator. Interplanetary
+whose 
+z
+ axis  is
+spacecraft  navigate  with  respect  to  a  sun-centered,  inertially  nonrotating  coordinate  frame  whose 
+perpendicular to the 

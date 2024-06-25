@@ -1,0 +1,4 @@
+Competitive networks are used for clustering; i.e., an M output PE net will seek M clusters in the input space.
+The weights of each PE will correspond to the centers of mass of one of the M clusters of input samples. When
+a given pattern is shown to the trained net, only one of the outputs will be active and can be used to label the
+sample as belonging to one of the clusters. No more information about the input data is preserved.

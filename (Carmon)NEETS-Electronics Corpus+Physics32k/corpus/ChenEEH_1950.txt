@@ -1,0 +1,8 @@
+In the overlap graph OG (V, E), the set of nodes V ¼ S[
+{n1, n2, . . ., nm}, where each ni is a routed net of the circuit
+and where S is the set of ‘‘spare’’ track segments as described
+above. There exists an edge between ni and nj in the OG if nets
+ni and nj share a channel2 in the FPGA. Figure 8.8(B) shows
+net n2 and n6 having an edge between them in the OG since
+they are routed through a common vertical channel to the
+right of cell B3.

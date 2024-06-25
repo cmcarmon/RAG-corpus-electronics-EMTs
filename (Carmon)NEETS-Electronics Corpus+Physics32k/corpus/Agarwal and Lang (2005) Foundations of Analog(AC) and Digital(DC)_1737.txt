@@ -1,0 +1,10 @@
+Perhaps the easiest way to determine vC and iL for the case of critical-
+damping is to evaluate Equations 12.63 and 12.64 under the conditions of that
+case. To do so, observe from Equation 12.60 that, for critical-damping ω◦ = α,
+and so ωd = 0. Therefore, we can obtain vC and iL for the case of critical-
+damping by evaluating Equations 12.63 and 12.64 in the limit ωd → 0. To do
+so, substitute the approximations cos(ωdt) ≈ 1 and sin(ωdt) ≈ ωdt, as ωdt → 0,
+into the first equalities in Equations 12.63 and 12.64, and cancel the resulting
+terms involving ωd. This results in
+vC(t) = vC(0)e
+iL(t) = iL(0)e

@@ -1,0 +1,6 @@
+Since use of a variable resistor is not a practical way to control current fluctuation or variation, a 
+transistor and a Zener diode, together with necessary resistors, are used. Recall that the Zener diode 
+provides a constant reference voltage. The schematic shown in figure 4-41 is that of a current regulator 
+circuit. Except for the addition of R1, the circuit shown in the figure is similar to that of a series voltage 
+regulator. The resistor is connected in series with the load and senses any current changes in the load. 
+Notice the voltage drop across R1 and the negative voltage polarity applied to the emitter of Q1. The 

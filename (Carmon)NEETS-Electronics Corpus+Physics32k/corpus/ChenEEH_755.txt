@@ -1,0 +1,6 @@
+The model for the memory bandwidth requirement is that
+of a conﬂict graph. It is derived from the ordering of the
+memory accesses, as shown in Figure 2.22. Its nodes represent
+the application’s arrays, while its edges indicate that two arrays
+are accessed in parallel. It models the constraints on the
+memory architecture (see Subsection 2.6.4). An example is

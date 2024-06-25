@@ -1,0 +1,3 @@
+The result of applying the COUNT aggregation function is a new relation with two attribute names. They are
+a GROUP BY attribute (department in this case) and a new attribute called COUNT. The tuples are ordered
+lexicographically in ascending order according to the ORDER BY attribute, which is department in this case:

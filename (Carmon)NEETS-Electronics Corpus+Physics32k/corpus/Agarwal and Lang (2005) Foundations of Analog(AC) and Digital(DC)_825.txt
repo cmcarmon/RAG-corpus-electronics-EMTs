@@ -1,0 +1,8 @@
+As shown in Figure 6.17, when the input vIN is high, the MOSFET is in
+the ON state (assuming that the high voltage level is above the threshold VT),
+thereby pulling the output voltage to a low value.8 In contrast, when the input
+is low, the MOSFET is off, and the output is raised to a high value by RL. Here
+we see the purpose of the load resistor9 RL
+it provides a logical 1 output
+when the MOSFET is off. Furthermore, RL is usually chosen to be large so
+that the current is limited when the MOSFET is on.10 Because the resistance

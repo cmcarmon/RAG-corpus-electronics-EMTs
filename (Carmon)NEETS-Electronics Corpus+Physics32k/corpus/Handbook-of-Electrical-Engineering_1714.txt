@@ -1,0 +1,8 @@
+Point Operations
+Perhaps the simplest image processing operation is that of modifying the values of individual pixels in an image.
+. A  point  operation  might  be  used  to  highlight
+These  operations  are  commonly  known  as 
+certain  regions  in  an  image.  Suppose  one  wished  to  know  where  all  the  pixels  in  a  certain  gray  level  region
+ located in the image. One would modify all those pixel values to 0 (black) or 255 (white) such
+were 
+that the observer could see where they were located.

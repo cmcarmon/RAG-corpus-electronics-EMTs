@@ -1,0 +1,15 @@
+process, we convert the analog signal in a corresponding se-
+quence of samples that are usually spaced uniformly in time.
+The sampling process can be implemented in several ways, the
+most popular being the sample-and-hold operation. In this
+operation, a switch and storage mechanism (such as a transis-
+tor and a capacitor, or shutter and a ﬁlm strip) form a
+sequence of samples of the continuous input waveform. The
+output of the sampling process is called pulse amplitude
+modulation (PAM) because the successive output intervals
+can be described as a sequence of pulses with amplitudes
+derived from the input waveform samples. The analog wave-
+form can be approximately retrieved from a PAM waveform by
+simple low-pass ﬁltering, provided we choose the sampling
+rate properly. The ideal form of sampling is called instantan-
+eous sampling.

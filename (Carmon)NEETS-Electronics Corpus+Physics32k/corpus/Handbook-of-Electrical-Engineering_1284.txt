@@ -1,0 +1,4 @@
+The mapping PTH(X) determines the block Toeplitz-Hankel matrix that lies closest to matrix X in the Frobenius
+norm.  Implementation  of  PTH(X )  is  realized  in  a  fashion  similar  to  P T(X ).  The  modiﬁed  matrix  achieved
+through iteration (14.139) is then used in expression (14.136) or (14.137) to provide an enhanced coefﬁcient
+vector estimate.

@@ -1,0 +1,18 @@
+where dm0, m1 is the distance between colors m0 and m1
+normalized with respect to the maximum distance. Color
+moments have also been applied in image retrieval. The math-
+ematical foundation of this approach is that any color distri-
+bution can be characterized by its moments. Furthermore,
+since most of the information is concentrated in the low-
+order moments, only the ﬁrst moment (mean) and the second
+and third central moments (variance and skewness) can be
+used for robust and compact color content representation.
+Weighted Euclidean distance is then used to compute color
+similarity. To facilitate fast search over large-scale image col-
+lections, color sets have also been used as approximations to
+color histograms. The color model used is HSV, and the
+histograms are further quantized into bins. A color set is
+deﬁned as a selection of the colors from quantized color
+space. Because color set feature vectors are binary, a binary
+search tree is contructed to allow fast search (Smith and
+Chang, 1996a).

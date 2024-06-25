@@ -1,0 +1,13 @@
+The discipline of digital image processing is a vast one,
+encompassing digital signal processing techniques as well as
+techniques that are speciﬁc to images. An image can be regarded
+as a function f (x, y) of two continuous variables x and y. To be
+processed digitally, it has to be sampled and transformed into a
+matrix of numbers. Since a computer represents the numbers
+using ﬁnite precision, these numbers have to be quantized to be
+represented digitally. Digital image processing consists of the
+manipulation of those ﬁnite precision numbers. The processing
+of digital images can be divided into several classes: image
+enhancement, image restoration, image analysis, and image
+compression. In image enhancement, an image is manipulated,
+mostly by heuristic techniques, so that a human viewer can

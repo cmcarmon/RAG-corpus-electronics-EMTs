@@ -1,0 +1,9 @@
+currents (typically 5 mA, or so, when driven from 5 
+V) and they can thus be readily interfaced with an 
+I/O port that offers sufficient drive current. In other 
+cases, it may be necessary to drive the SSR from an 
+unbuffered  I/O  port  using  an  open-collector  logic 
+gate. Typical arrangements are shown in Fig. 16.33. 
+Finally,  it  is  important  to  note  that,  when  an 
+inductive  load  is  to  be  controlled,  a  snubber 
+network should be fitted, as shown in Fig. 16.34. 

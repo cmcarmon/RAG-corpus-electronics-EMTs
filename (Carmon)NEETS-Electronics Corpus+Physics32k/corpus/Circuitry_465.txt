@@ -1,0 +1,19 @@
+In the simple circuit shown in Fig. 10.1 a battery is 
+connected  to  a  lamp  via  a  switch.  There  are  two 
+possible states for the switch, open and closed but 
+the  lamp  will  only  operate  when  the  switch  is 
+closed.  We can summarize this using Table 10.1.  
+  Since  the  switch  can  only  be  in  one  of  the  two 
+states  (i.e.  open  or  closed)  at  any  given  time,  the 
+open and closed conditions are mutually exclusive. 
+Furthermore,  since  the  switch  cannot  exist  in  any 
+other  state  than  completely  open  or  completely 
+closed  (i.e.  there  is  no  intermediate  or  half-open 
+state)  the  circuit  uses  binary  or  ‘two-state’  logic. 
+The  logical  state  of  the  switch  can  be  represented 
+by  the  binary  digits, 0 and  1.  For  example,  if 
+logical  0  is  synonymous  with  open  (or  ‘off’)  and 
+logical 1 is equivalent to closed (or ‘on’), then: 
+ 
+Switch open (off) = 0 
+Switch closed (on) = 1 

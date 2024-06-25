@@ -1,0 +1,6 @@
+PAL-structured arrays are also manufactured with clocked ﬂip-ﬂops attached to the array outputs. These are
+often known as registered PALs. State machine descriptions map less naturally into these arrays, but this fact is
+of less importance nowadays with the reliance on computer-aided design. Registered PALs ﬁnd wide use in the
+data paths of digital systems, where special-purpose registers, counters, and data routing functions are needed.
+Some PAL devices have enhancements such as the exclusive-ORing of outputs to make them more useful in
+these applications.

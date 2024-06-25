@@ -1,0 +1,22 @@
+When the load on a synchronous machine changes, the load angle changes from one steady
+value to another. During this transition, oscillations in the load angle and consequent associated
+mechanical oscillations (known as hunting) occur. To damp out these oscillations, it is common
+practice to provide an additional short-circuited winding on the ﬁeld structure, made out of copper
+or brass bars located in pole-face slots on the pole shoes of a salient-pole machine and connected
+together at the ends of the machine. This additional winding (known as damper or amortisseur
+winding) is shown in Figure 13.1.4. The winding is also useful in getting a synchronous motor
+started, as explained in the subsection on elementary induction machines. When the machine
+is operating under steady-state conditions at synchronous speed, however, this winding has no
+effect. Because there is no rate of change of ﬂux linkage, no voltage is induced in it.
+As seen in Figure 13.1.3, when δr is ±π/2 or 90°, the maximum torque or power (called pull-
+out torque or pull-out power) is reached for a ﬁxed terminal voltage and a given ﬁeld current. If the
+load requirements exceed this value, the motor slows down because of the excess shaft torque.
+Synchronous-motor action is lost because the rotor and stator ﬁelds are no longer stationary
+with respect to each other. Any load requiring a torque greater than the maximum torque results
+in unstable operation of the machine; the machine pulls out of synchronism, known as pulling
+out of step or losing synchronism. The motor is usually disconnected from the electric supply by
+automatic circuit breakers, and the machine comes to a standstill. Note that the pull-out torque can
+be increased by increasing either the ﬁeld current or the terminal voltage. In the case of a generator
+connected to an inﬁnite bus, synchronism will be lost if the torque applied by the prime mover
+exceeds the maximum generator pull-out torque. The speed will then increase rapidly unless the
+quick-response governor action comes into play on the prime mover to control the speed.

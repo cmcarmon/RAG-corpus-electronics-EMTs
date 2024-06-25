@@ -1,0 +1,10 @@
+One of the most important results of classical algebra is that
+polynomials with real coefﬁcients can be factored into real
+linear factors and real quadratic factors. Any polynomial
+R[l] has at most m roots (or zeros). If the same matrix is
+considered over the ﬁeld of complex numbers C, then it has
+exactly m roots. Nonreal complex roots must occur in complex
+conjugate pairs. Note that there are essentially three problems
+related to polynomials: evaluation, root ﬁnding, and curve
+ﬁtting—and MATLAB functions polyval, roots, and polyﬁt
+address all three.

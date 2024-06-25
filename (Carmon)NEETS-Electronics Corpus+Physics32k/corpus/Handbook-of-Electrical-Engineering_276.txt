@@ -1,0 +1,7 @@
+In  order  to  determine  the  node  voltages  in  a  network,  we  apply
+KCL to every node in the network except the reference node. There-
+fore, given an N-node circuit, we employ N – 1 linearly independent
+simultaneous equations to determine the N – 1 unknown node volt-
+ages.  Graph  theory,  which  is  covered  in  Section  3.6,  can  be  used  to
+prove  that  exactly  N  –  1  linearly  independent  KCL  equations  are
+required to ﬁnd the N – 1 unknown node voltages in a network.

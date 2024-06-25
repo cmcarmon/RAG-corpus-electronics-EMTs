@@ -1,0 +1,9 @@
+In this form, the vector x ∈ ᑬn represents the internal state, u ∈ ᑬp represents the input, and y ∈ ᑬq represents
+the measured outputs. It is well known that if the system in Eq. (100.145) is stabilizable (i.e., its unstable part
+is  controllable),  then  it  can  be  asymptotically  stabilized  with  static  state  feedback.  If  it  is  detectable  (i.e.,  its
+unstable part is observable), then a state estimator can be found, whose state variables asymptotically approach
+the true state variables in Eq. (100.145). However, merely determining the state feedback gain or observer gain
+leaves considerable design freedom for satisfying criteria other than stabilization and asymptotic observation.
+In  this  chapter  section,  we  will  provide  results  of  some  basic  techniques  of  optimal  control  and  estimation,
+which  provide  a  mechanism  to  ﬁnd  optimal  feedback  and  observer  (estimator)  gains  according  to  selected
+optimality criteria.

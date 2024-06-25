@@ -1,0 +1,3 @@
+mechanism that allows a subchannel to change its channel path each time it cycles through a disconnect/recon-
+nect with a given device. Rather than wait for its currently allocated path to become free, it can be assigned to
+another available path.

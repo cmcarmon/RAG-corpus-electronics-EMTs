@@ -1,0 +1,5 @@
+Within the application program, each thread runs as if it were the only thread of control. It may call functions,
+manipulate memory, perform I/O operations, etc. If the threads do not interact with each other, then, to the
+application programmer, there is little change other than determining how to subdivide the program. However,
+it would be unusual for these threads not to interact. It is this interaction that makes parallel programming
+more complex.

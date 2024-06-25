@@ -1,0 +1,6 @@
+The streaming data typical of video is not very well-suited to the caches used in microprocessors. Caches rely
+on  temporal  and  spatial  locality;  they  assume  that  a  variable  is  used  many  times  after  its  initial  use.  In  fact,
+streaming data will be used a certain number of times and then be discarded, to be replaced with a new datum.
+Second, the available parallelism is limited by the width of the data path. A 64-bit data path can exhibit at most
+four-way parallelism when subdivided into 16-bit subwords. Other architectures can be more easily extended
+for greater parallelism when technology and cost permit.

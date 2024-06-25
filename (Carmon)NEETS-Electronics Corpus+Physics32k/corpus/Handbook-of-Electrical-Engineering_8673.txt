@@ -1,0 +1,9 @@
+In translating this line on the SPARC, Fig. 87.9 shows the 32 registers visible at any moment in the window-
+blinding SPARC. The top 24 shift by 16 in a normal call. The eight globals remain the same. The shift of the
+registers is accompanied by copying SP to o6 and the call instruction puts the return address into o7. Accordingly,
+a call wipes out the caller’s o7. Register g0 serves as a 0 (as a source) and as a wastebasket (as a destination). ld
+loads  a  longword,  and  ldsb  sign-extends  a  byte  into  a  longword.  The  instruction  after  a  branch  is  executed
+whether  the  branch  is  taken  or  not  (delayed  branching).  An  instruction  such  as  add  47,  %g0,  %o2  adds  a
+constant to 0 and puts it in the register. This is equivalent to move.l #47, d4 on the 68000. An add or sub with
+cc appended changes the condition codes. To do a compare, one uses addcc or subcc and puts the result in g0
+(the wastebasket).

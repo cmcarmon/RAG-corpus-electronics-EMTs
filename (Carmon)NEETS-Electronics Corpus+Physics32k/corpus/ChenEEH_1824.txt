@@ -1,0 +1,21 @@
+. Expedited forwarding (EF) PHB: EF PHB dictates that
+the departure rate of a trafﬁc class from any router must
+equal or exceed the conﬁgured rate. Thus, for a trafﬁc
+class belonging to EF PHB, during any interval of time, it
+can be conﬁdently said that departure rate from any
+router will equal or exceed the aggregate arrival rate at
+that router. This has strong implications on the queuing
+delay that is experience by the packet. In this case, the
+queuing delay can be guaranteed to be bounded and is
+negligible (limited by the link bandwidth). EF PHB is
+used to provide premium service (having low delay and
+jitter) to the customer. However, EF PHB requires a very
+strong admission control mechanism. The admission
+control algorithm will basically ensure that the arrival
+rate of trafﬁc belonging to EF PHB is less than the
+departure rate conﬁgured at any router in its path. More-
+over, proper functioning of EF PHB demands strict po-
+licing. This job can be carried out by the Ingress routers.
+If packets are found to be in violation of the contract,
+they can be either dropped or demoted to a lower trafﬁc
+class.

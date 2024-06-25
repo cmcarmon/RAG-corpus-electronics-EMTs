@@ -1,0 +1,9 @@
+Notice that the first two constraints follow directly from the corresponding
+constraints applied to lumped elements. Remember that a node is simply a
+junction point of a set of wires, which are themselves lumped elements. So, the
+first two constraints do not imply any new restrictions beyond those already
+assumed for lumped elements.6 The third constraint for circuits, however,
+imposes a stronger restriction on signal timescales than for elements, because a
+circuit can have a much larger physical extent than a single element. The third
+constraint says that the circuit must be much smaller in all its dimensions than
+the wavelength of light at the highest operating frequency of interest.

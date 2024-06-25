@@ -1,0 +1,9 @@
+While an existing converging T-DAG will ultimately be
+found by Conv_T-DAG, it will be time-efﬁcient if some suit-
+able ‘‘cost’’ measure can be used to determine which transi-
+tions are more likely to be successful so that fewer T-DAGs
+are searched and backtracked. A good cost measure will con-
+sider both the ‘‘magnitude’’ of bumpings (total
+length of
+bumped nets) and the likelihood of convergence of these
+bumpings.

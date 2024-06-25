@@ -1,0 +1,7 @@
+Here pn denotes the probability or relative frequency of occurrence of the nth symbol in the source alphabet,
+and  log2(x)  =  ln(x)/ln(2)  is  the  base  2  logarithm  of  x.  The  units  of  H  are  bits/source  symbol.  The  proof  of
+Shannon’s theorem is based on grouping the source symbols into large blocks and assigning binary code words
+of varying length to each block of source symbols. More probable blocks of source symbols are assigned shorter
+code  words,  whereas  less  probable  blocks  are  assigned  longer  code  words.  As  the  block  length  approaches
+inﬁnity, the bit rate tends to H. Huffman determined the optimum variable-length coding scheme for a discrete
+memoryless source using blocks of any ﬁnite length.

@@ -1,0 +1,8 @@
+Monostable multivibrator (one‐shot)
+By configuring the 555 timer as shown in Figure 11-17, you can use it as a 
+monostable multivibrator that generates a single pulse when triggered. This 
+configuration is sometimes called a one‐shot. Without a trigger, this circuit 
+produces a low (zero) voltage; this is its stable state. When triggered by clos-
+ing the switch between pin 2 and ground, this circuit generates an output 
+pulse at the level of the supply voltage, VCC. The width of the pulse, T, is 
+determined by the values of R1 and C1, as follows:

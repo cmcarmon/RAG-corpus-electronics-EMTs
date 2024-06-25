@@ -1,0 +1,38 @@
+log10(1,000) = log10(103) = 3
+and so on. 
+  So far we have used values (10, 100 and 1,000) 
+in our examples that just happen to be exact powers 
+of 10. So how do we cope with a number that isn’t 
+an  exact  power  of  10?  If  you  have  a  scientific 
+calculator  this  is  quite  easy!  Simply  enter  the 
+number  and  press  the  ‘log’  button  to  find  its 
+logarithm  (the  instructions  provided  with  your 
+calculator will tell you how to do this).  
+  You might like to practice with a few values, for 
+example: 
+ 
+log10(56) = 1.748 
+log10(1.35) = 0.1303 
+log10(4,028) = 3.605 
+log10(195,891) = 5.292 
+log10(0.3175) = 20.4983 
+there’s  another  advantage  of  using 
+Finally, 
+in 
+logarithmic  units  (i.e.  Bels  and  decibels) 
+electronics.  If  two  values  are  multiplied  together 
+the  result  is  equivalent  to  adding  their  values 
+expressed in logarithmic units.  
+  To put all of this into context, let’s assume that 
+the following items are connected in the signal path 
+of an amplifier (see Fig. A8.33): 
+ 
+Pre-amplifier; input power = 1 mW, output power 
+= 80 mW 
+Tone control; input power = 80 mW, output power 
+= 20 mW 
+Power  amplifier;  input  power  =  20  mW,  output 
+power = 4 W 
+ 
+The  power  gain  of  each  component,  expressed  as 
+both a ratio and in dB is shown in the table below: 

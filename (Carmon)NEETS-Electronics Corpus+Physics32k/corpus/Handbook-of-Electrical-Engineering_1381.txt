@@ -1,0 +1,11 @@
+of the phase can be shown to be the phase of the noisy signal within the HMM statistical framework. Normally,
+the spectral subtraction approach is used with b = 2, which corresponds to an artiﬁcially elevated noise level.
+The spectral subtraction approach has been very popular since it is relatively easy to implement; it makes
+minimal assumptions about the signal and noise; and when carefully implemented, it results in reasonably clear
+enhanced signals. A major drawback of the spectral subtraction enhancement approach, however, is that the
+residual noise has annoying tonal characteristics referred to as “musical noise.” This noise consists of narrowband
+signals  with  time-varying  frequencies  and  amplitudes.  Another  major  drawback  of  the  spectral  subtraction
+approach is that its optimality in any given sense has never been proven. Thus, no systematic methodology for
+improving  the  performance  of  this  approach  has  been  developed,  and  all  attempts  to  achieve  this  goal  have
+been  based  on  purely  heuristic  arguments. As  a  result,  a  family  of  spectral  subtraction  speech  enhancement
+approaches have been developed and experimentally optimized.

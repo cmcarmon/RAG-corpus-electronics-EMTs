@@ -1,0 +1,7 @@
+(5.54)
+This equation says that the output depends on current and past input values, with the input value q samples
+previous deﬁning the extent of the ﬁlter’s memory of past input values. For example, the output at index
+Nx depends on x (Nx) (which equals zero), x (Nx − 1), through x (Nx − q). Thus, the output returns to zero
+only after the last input value passes through the ﬁlter’s memory. As the input signal’s last value occurs at
+index Nx − 1, the last nonzero output value occurs when n− q = Nx − 1 or n = q + Nx − 1. Thus, the output
+signal’s duration equals q + Nx.

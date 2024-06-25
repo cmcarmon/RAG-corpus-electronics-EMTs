@@ -1,0 +1,5 @@
+Whatever value the output has when C goes to 0 is latched, captured, or stored (memory mode). Like the
+basic latches, the input conditions for S R = 11 are not generally allowed for the gated S-R latches when C goes
+to  1.  The  gated  D  latch  circuit  is  perhaps  the  most  used  latch  circuit  since  the  added  Inverter  shown  in  the
+circuit diagram in Fig. 79.19 ensures that the input conditions for S R = 11 cannot occur when C goes to 1.
+The reduced characteristic table for the gated D latch circuit is shown in Table 79.12.

@@ -1,0 +1,9 @@
+Array Processors
+Because of the need for interprocessor and processor-memory communication for most applications, a parallel
+processor usually has one or more circuits (known as interconnection networks) to support various applications
+ identical PEs under the control of a
+for efﬁcient processing. In general, an 
+single CU and a number of MUs. Within each PE there are circuits for network interface as well as its own
+local memories. The PEs and MUs communicate with each other through an interconnection network. A typical
+array processor organization is shown in Fig. 95.3. Depending on the design, each PE may perform serial-by-
+bit (as in MPP) or parallel-by-bit (as in ILLIAC IV) operations.

@@ -1,0 +1,13 @@
+The signal controlling the input to the register is applied to all ﬂip-ﬂops simultaneously and its action depends
+on the type of ﬂip-ﬂop used. Edge-triggered ﬂip-ﬂops set or reset according to the value on the data inputs at
+the time the control signal changes. These registers are sometimes known as staticizers. After the few nanosec-
+onds required for the ﬂip-ﬂops to settle to their new values, the register content is available at the output gating.
+The correct operation of the circuitry depends upon certain timing criteria being satisﬁed and minimum values
+are quoted by the manufacturers. Each is the smallest time above which the device is guaranteed to operate
+correctly, but in practice the device probably functions satisfactorily with smaller time intervals on at least some
+of  the  parameters.  The  main  timing  constraints  occur  at  the  inputs  to  the  ﬂip-ﬂops  and  are  illustrated  in
+Fig. 81.28. The interval preceding the active transition of the control input is the setup time, tsu, during which
+the data signal must be held steady; th is the hold time and is the interval during which the data signal must
+be retained following the active transition of the control input; tw is a minimum pulse width indication which
+applies to the control inputs such as the clock, reset, and clear. The clock pulse width is usually quoted both for
+the high state and for the low and is related to the maximum clocking frequency of the ﬂip-ﬂops used in the register.

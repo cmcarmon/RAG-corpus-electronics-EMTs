@@ -1,0 +1,298 @@
+In the traditional view, the enormous gap in energy between the mass scales of ordinary particles and the Planck mass is reflected in the fact that virtual processes involving black holes or gravity are strongly suppressed. The suppression of these terms is the principle of renormalizability –  in order to see an interaction at low energy, it must have the property that its coupling only changes logarithmically as a function of the Planck scale. Nonrenormalizable interactions are weak only to the extent that the Planck scale is large.
+Virtual gravitational processes don't conserve anything except gauge charges, because black holes decay into anything with the same charge. So it is difficult to suppress interactions at the gravitational scale. One way to do it is by postulating new gauge symmetries. A different way to suppress these interactions in the context of extra-dimensional models is the "split fermion scenario" proposed by Arkani-Hamed and Schmaltz in their paper "Hierarchies without Symmetries from Extra Dimensions". In this scenario the wavefunctions of particles that are bound to the brane have a finite width significantly smaller than the extra-dimension, but the center (e.g. of a gaussian wave-packet) can be dislocated along the direction of the extra dimension in which is known as a 'fat brane'. Integrating out the additional dimension(s) to obtain the effective coupling of higher-dimensional operators on the brane, the result is suppressed with the exponential of the square of the distance between the centers of the wave-functions, a factor that generates a suppression by many orders of magnitude already by a dislocation of only a few times the typical width of the wave-function.
+In electromagnetism, the electron magnetic moment is described by perturbative processes derived in the QED Lagrangian:
+
+
+
+
+∫
+
+
+
+ψ
+¯
+
+
+
+
+γ
+
+μ
+
+
+
+∂
+
+μ
+
+
+ψ
++
+
+
+1
+4
+
+
+
+F
+
+μ
+ν
+
+
+
+F
+
+μ
+ν
+
+
++
+
+
+
+ψ
+¯
+
+
+
+e
+
+γ
+
+μ
+
+
+
+A
+
+μ
+
+
+ψ
+
+
+
+{\displaystyle \int {\bar {\psi }}\gamma ^{\mu }\partial _{\mu }\psi +{1 \over 4}F^{\mu \nu }F_{\mu \nu }+{\bar {\psi }}e\gamma ^{\mu }A_{\mu }\psi \,}
+
+which is calculated and measured to one part in a trillion. But it is also possible to include a Pauli term in the Lagrangian:
+
+
+
+
+A
+
+
+
+ψ
+¯
+
+
+
+
+F
+
+μ
+ν
+
+
+
+σ
+
+μ
+ν
+
+
+ψ
+
+
+
+{\displaystyle A{\bar {\psi }}F^{\mu \nu }\sigma _{\mu \nu }\psi \,}
+
+and the magnetic moment would change by A. The reason the magnetic moment is correctly calculated without this term is because the coefficient A has the dimension of inverse mass. The mass scale is at most the Planck mass. So A would only be seen at the 20th decimal place with the usual Planck scale.
+Since the electron magnetic moment is measured so accurately, and since the scale where it is measured is at the electron mass, a term of this kind would be visible even if the Planck scale were only about 109 electron masses, which is 1000 TeV. This is much higher than the proposed Planck scale in the ADD model.
+QED is not the full theory, and the standard model does not have many possible Pauli terms. A good rule of thumb is that a Pauli term is like a mass term –  in order to generate it the Higgs must enter. But in the ADD model, the Higgs vacuum expectation value is comparable to the Planck scale, so the Higgs field can contribute to any power without any suppression. One coupling which generates a Pauli term is the same as the electron mass term, except with an extra
+
+
+
+
+Y
+
+μ
+ν
+
+
+
+σ
+
+μ
+ν
+
+
+
+
+{\displaystyle Y^{\mu \nu }\sigma _{\mu \nu }}
+where Y is the U(1) gauge field. This is dimension-six, and it contains one power of the Higgs expectation value, and is suppressed by two powers of the Planck mass. This should start contributing to the electron magnetic moment at the sixth decimal place. A similar term should contribute to the muon magnetic moment at the third or fourth decimal place.
+The neutrinos are only massless because the dimension-five operator
+
+
+
+
+
+
+L
+¯
+
+
+
+H
+H
+L
+
+
+{\displaystyle {\bar {L}}HHL}
+does not appear. But neutrinos have a mass scale of approximately
+
+
+
+
+10
+
+−
+2
+
+
+
+
+{\displaystyle 10^{-2}}
+eV, which is 14 orders of magnitude smaller than the scale of the Higgs expectation value of 1 TeV. This means that the term is suppressed by a mass M such that
+
+
+
+
+
+
+
+H
+
+2
+
+
+M
+
+
+=
+0.01
+
+
+eV
+
+.
+
+
+
+{\displaystyle {\frac {H^{2}}{M}}=0.01\,{\text{eV}}.\,}
+
+Substituting
+
+
+
+H
+≃
+1
+
+
+{\displaystyle H\simeq 1}
+TeV gives
+
+
+
+M
+≃
+
+10
+
+26
+
+
+
+
+{\displaystyle M\simeq 10^{26}}
+eV
+
+
+
+≃
+
+10
+
+17
+
+
+
+
+{\displaystyle \simeq 10^{17}}
+GeV. So this is where the neutrino masses suggest new physics; at close to the traditional GUT scale, a few orders of magnitude less than the traditional Planck scale. The same term in a large extra dimension model would give a mass to the neutrino in the MeV-GeV range, comparable to the mass of the other particles.
+In this view, models with large extra dimensions miscalculate the neutrino masses by inappropriately assuming that the mass is due to interactions with a hypothetical right-handed partner. The only reason to introduce a right-handed partner is to produce neutrino masses in a renormalizable GUT. If the Planck scale is small so that renormalizability is no longer an issue, there are many neutrino mass terms which don't require extra particles.
+For example, at dimension-six, there is a Higgs-free term which couples the lepton doublets to the quark doublets,
+
+
+
+
+
+
+L
+¯
+
+
+
+L
+
+
+
+q
+¯
+
+
+
+q
+
+
+{\displaystyle {\bar {L}}L{\bar {q}}q}
+, which is a coupling to the strong interaction quark condensate. Even with a relatively low energy pion scale, this type of interaction could conceivably give a mass to the neutrino of size
+
+
+
+
+
+
+
+f
+
+π
+
+
+
+
+3
+
+
+
+/
+
+T
+e
+
+V
+
+2
+
+
+
+
+
+{\displaystyle \scriptstyle {f_{\pi }}^{3}/TeV^{2}}
+, which is only a factor of 107 less than the pion condensate itself at 200 MeV. This would be some 10 eV of mass, about a thousand times bigger than what is measured.
+This term also allows for lepton number violating pion decays, and for proton decay. In fact in all operators with dimension greater than four, there are CP, baryon, and lepton-number violations. The only way to suppress them is to deal with them term by term, which nobody has done.
+The popularity, or at least prominence, of these models may have been enhanced because they allow the possibility of black hole production at LHC, which has attracted significant attention.

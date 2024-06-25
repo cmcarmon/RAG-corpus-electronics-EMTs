@@ -1,0 +1,3 @@
+During  decoding,  the  acoustic  models  to  be  used  for  a  given  observation  string  are  chosen  based  on  the
+current acoustic context — that is, by pouring the data down the decision tree until a terminal node is reached
+and using the models at that terminal node to compute the likelihood of the data.

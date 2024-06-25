@@ -1,0 +1,15 @@
+multitude of tasks that a practical DS receiver must perform. In particular, the receiver must ﬁrst acquire the
+PN waveform. That is, the local PN random generator that generates the PN waveform at the receiver used for
+despreading must be aligned (synchronized) to within one chip of the PN waveform of the received DS/BPSK
+signal. This is accomplished by employing some sort of search algorithm which typically steps the local PN
+waveform sequentially in time by a fraction of a chip (e.g., half a chip) and at each position searches for a high
+degree of correlation between the received and local PN reference waveforms. The search terminates when the
+correlation exceeds a given threshold, which is an indication that the alignment has been achieved. After bringing
+the two PN waveforms into coarse alignment, a tracking algorithm is employed to maintain ﬁne alignment.
+The most popular forms of tracking loops are the continuous time delay-locked loop and its time-multiplexed
+version of the tau-dither loop. It is the difﬁculty in synchronizing the receiver PN generator to subnanosecond
+accuracy  that  limits  PN  chip  rates  to  values  on  the  order  of  hundreds  of  Mchips/s,  which  implies  the  same
+limitation on the DS spread spectrum bandwidth Wss.
+Frequency Hopping Modulation
+A  frequency  hopping  (FH)  modulation  c(t)  is  formed  by  nonlinearly  modulating  a  train  of  pulses  with  a
+sequence of pseudorandomly generated frequency shifts {fn}. In mathematical terms, c(t) has the complex form

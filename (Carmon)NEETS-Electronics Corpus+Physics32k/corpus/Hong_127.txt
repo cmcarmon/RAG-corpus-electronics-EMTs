@@ -1,0 +1,8 @@
+The block diagram representation of the op amp non-inverting amplifier is shown 
+in  Figure  10.2.  The  summation  point  has  both  a  non-inverting  and  an  inverting  input 
+corresponding to the plus and minus terminals of the op amp. The open-loop response of 
+the op amp is modeled as a real multiplicative factor A. For ideal op amps, A is infinite, 
+while for real op amps, A is very large, but finite. The output voltage is attenuated by the 
+voltage divider R1/(R1+R2) and fed back to the minus input of the op amp. The transfer 
+function is calculated as, 
+ 

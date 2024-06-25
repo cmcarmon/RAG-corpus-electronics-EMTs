@@ -1,0 +1,5 @@
+A  vector  is  a  data  structure  supported  by  hardware.  The  vector  is  stored  in  memory  as  a  set  of  memory
+locations;  special  vector  registers  are  also  provided  to  hold  the  vectors  for  arithmetic  operations.  Our  ﬁlter
+example could be implemented as a single vector instruction (after loading the vector registers with the c and
+x vectors): a vector multiply-accumulate instruction, similar to scalar multiply-accumulate instructions in DSPs,
+could multiply the xi’s by the ci’s and accumulate the result.

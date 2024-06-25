@@ -1,0 +1,18 @@
+represented as the simple undirected graph g C ¼ {V (C), E(C),
+d }, where VC ¼ {v1, . . ., vr } is the set of
+A(C), h(C)
+vertices of the graph, EC ¼ {e1, . . ., ep} is the set of edges of the
+graph, and the symmetric r  r matrix AC—called the adja-
+cency matrix—contains the graph connectivity (West, 1996).
+Vertices from g C correspond to the registers of the circuit C,
+and the edges reﬂect the fact that pairs of registers are sequen-
+tially adjacent. Note the cardinalities jVCj ¼ r and jECj ¼ p—
+the circuit C has r registers and p local data paths. The adja-
+cency matrix AC ¼ [aij]rr is a square matrix of order r  r
+where both the rows and columns of A correspond to the
+vertices of g C . As previously mentioned, for notational con-
+venience sj denotes the clock skew corresponding to the edge
+ej 2 EC . Speciﬁcally, if the vertices vi1 and vi2 correspond to the
+?Ri2 connected by the
+sequentially adjacent pair of registers Ri1
+j-th edge ej, then:

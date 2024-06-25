@@ -1,0 +1,8 @@
+One of the most commonly used optimization criteria is the
+MSE (i.e., minimizing the error variance). This approach leads
+to the class of Wiener ﬁlters that includes the Kalman ﬁlter as
+a special case. In essence, the Kalman ﬁlter is a realizable
+Wiener ﬁlter as it is derived with a realizable (state-space)
+model. Those linear estimators are much more appealing in
+practice due to reduced implementational complexity and
+relative simplicity of performance analysis.

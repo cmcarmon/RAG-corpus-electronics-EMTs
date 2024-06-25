@@ -1,0 +1,10 @@
+Figure 9.7 represents one of the simplest models used to model real inter-
+connects. For more accuracy, since we can use as many additional lumped
+elements as we wish, we can arbitrarily approach the distributed modeling
+limit, although in general this is not necessary. For example, the two models
+shown in Figure 9.8 do a better job of modeling reality. The interconnect model
+in Figure 9.8a is a ‘‘’’ model in which the resistance and inductance is placed
+between the split capacitance. The interconnect model in Figure 9.8b is a ‘‘T’’
+model in which the capacitance is placed between the split resistance and induc-
+tance. As discussed in Section 9.3.1, we will adopt a similar lumped modeling
+approach to the capacitances at work within the MOSFET.

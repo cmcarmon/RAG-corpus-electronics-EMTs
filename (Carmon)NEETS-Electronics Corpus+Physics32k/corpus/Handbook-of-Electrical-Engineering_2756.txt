@@ -1,0 +1,9 @@
+Figure 25.27 illustrates the transistor-level description of a simple three-input, NAND gate. VLSI ASIC logic
+circuits are dominated by this general structure, with the PMOS transistors (making up the pull-up section)
+connected to the supply voltage Vdd and the NMOS transistors (making up the pull-down section) connected
+to the ground return GND. When the logic function generates a logic “1” output, the pull-up section is shorted
+through  its  PMOS  transistors  to Vdd  leading  to  a  high  output  voltage  while  the  pull-down  section  is  open,
+with no connection of GND to the output. When generating a logic “0” output, the pull-down section is shorted
+to GND while the pull-up section is open (no path to Vdd). Since the output is either a 1 or a 0, only one of
+the sections (pull-up or pull-down) is shorted, with no dc current ﬂowing directly from Vdd to GND through
+the logic circuit pull-up and pull-down sections.

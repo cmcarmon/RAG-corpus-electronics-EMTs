@@ -1,0 +1,42 @@
+This is an expansion of stereoscopic PIV by adding a second plane of investigation directly offset from the first one. Four cameras are required for this analysis. The two planes of laser light are created by splitting the laser emission with a beam splitter into two beams. Each beam is then polarized orthogonally with respect to one another. Next, they are transmitted through a set of optics and used to illuminate one of the two planes simultaneously.
+The four cameras are paired into groups of two. Each pair focuses on one of the laser sheets in the same manner as single-plane stereoscopic PIV. Each of the four cameras has a polarizing filter designed to only let pass the polarized scattered light from the respective planes of interest. This essentially creates a system by which two separate stereoscopic PIV analysis setups are run simultaneously with only a minimal separation distance between the planes of interest.
+This technique allows the determination of the three velocity gradient components single-plane stereoscopic PIV could not calculate:
+
+
+
+
+U
+
+z
+
+
+
+
+{\displaystyle U_{z}}
+,
+
+
+
+
+V
+
+z
+
+
+
+
+{\displaystyle V_{z}}
+, and
+
+
+
+
+W
+
+z
+
+
+
+
+{\displaystyle W_{z}}
+. With this technique, the entire velocity gradient tensor of the fluid at the 2-dimensional plane of interest can be quantified. A difficulty arises in that the laser sheets should be maintained close enough together so as to approximate a two-dimensional plane, yet offset enough that meaningful velocity gradients can be found in the z-direction.

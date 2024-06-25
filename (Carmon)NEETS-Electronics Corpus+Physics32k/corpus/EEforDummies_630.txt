@@ -1,0 +1,10 @@
+Biasing the transistor so it acts like an amplifier
+A transistor must be partially on to work as an amplifier. To put a transis-
+tor in this state, you bias it by applying a small voltage to the base. In the 
+example that was shown in Figure 10-7, resistors R1 and R2 are connected to 
+the base of the transistor and configured as a voltage divider (for more about 
+how a voltage divider works, see Chapter 6), dividing the supply voltage, 
+Vsupply. The output of this voltage divider,  R1
+Vsupply, supplies enough volt-
+age to the base to turn the transistor on and allow current to flow through it, 
+biasing the transistor so it’s in the active mode (that is, partially on).

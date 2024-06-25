@@ -1,0 +1,13 @@
+All of the pulse-modulation systems discussed previously provide methods of converting analog
+wave shapes to digital wave shapes (pulses occurring at discrete intervals, some characteristic of which is
+varied as a continuous function of the analog wave). The entire range of amplitude (frequency or phase)
+values of the analog wave can be arbitrarily divided into a series of standard values. Each pulse of a pulse
+train [figure 2-48, view (B)] takes the standard value nearest its actual value when modulated. The
+modulating wave can be faithfully reproduced, as shown in views (C) and (D). The amplitude range has
+been divided into 5 standard values in view (C). Each pulse is given whatever standard value is nearest its
+actual instantaneous value. In view (D), the same amplitude range has been divided into 10 standard
+levels. The curve of view (D) is a much closer approximation of the modulating wave, view (A), than is
+the 5-level quantized curve in view (C). From this you should see that the greater the number of standard
+levels used, the more closely the quantized wave approximates the original. This is also made evident by
+the fact that an infinite number of standard levels exactly duplicates the conditions of nonquantization
+(the original analog waveform).

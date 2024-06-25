@@ -1,0 +1,7 @@
+The sequence of binary digits from the source encoder, known as the information sequence,
+is passed on to the channel encoder. The purpose of the channel encoder is to introduce some
+redundancy in a controlled manner in the binary information sequence, so that the redundancy
+can be used at the receiver to overcome the effects of noise and interference encountered in the
+transmission of the signal through the channel. Thus, redundancy in the information sequence
+helps the receiver in decoding the desired information sequence, thereby increasing the reliability
+of the received data and improving the ﬁdelity of the received signal.

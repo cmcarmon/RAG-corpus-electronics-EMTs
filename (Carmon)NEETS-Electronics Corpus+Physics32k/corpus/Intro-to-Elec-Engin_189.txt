@@ -1,0 +1,5 @@
+The ﬁrst step for describing the circuit is to number the circuit nodes. The reference node (or
+ground node) is labeled as zero (0), and in PSpice syntax the other node names can be numbers or
+letters. In order to describe the circuit, statements are written with a separate statement for each
+circuit element. The name of an element must begin with a particular letter identifying the kind
+of circuit element. Some of these are listed here:

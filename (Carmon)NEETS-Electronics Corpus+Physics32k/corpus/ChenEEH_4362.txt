@@ -1,0 +1,8 @@
+Whether a linear system is stable or unstable is a property of
+the system itself and does not depend on the input or driving
+function of the system. The poles of the input or driving
+function do not affect the property of stability of the system,
+but they contribute only to steady-state response terms in the
+solution. Thus, the problem of closed-loop stability can be
+solved readily by choosing no closed-loop poles in the right
+half of the s plane, including the jv axis.

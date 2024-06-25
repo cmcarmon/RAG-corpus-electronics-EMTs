@@ -1,0 +1,7 @@
+This allows the output voltage to be higher or lower than the input voltage, based on the duty cycle D. A typical
+buck-boost converter topology is shown in Fig. 30.17(c). When the power device is turned on, the input provides
+energy to the inductor and the diode is reverse biased. When the device is turned off, the energy stored in the
+inductor  is  transferred  to  the  output.  No  energy  is  supplied  by  the  input  during  this  interval.  In  dc  power
+supplies,  the  output  capacitor  is  assumed  to  be  very  large,  which  results  in  a  constant  output  voltage.  In  dc
+drive  systems,  the  chopper  is  operated  in  step-down  mode  during  motoring  and  in  step-up  mode  during
+regeneration operation.

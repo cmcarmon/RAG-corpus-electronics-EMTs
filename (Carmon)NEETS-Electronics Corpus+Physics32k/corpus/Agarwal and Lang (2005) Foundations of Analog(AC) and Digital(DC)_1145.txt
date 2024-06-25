@@ -1,0 +1,9 @@
+From Section 7.6.2, we know that under the saturation discipline, the max-
+imum valid range for the input voltage of the second stage is VT → −1 +
+√
+1 + 2VSRK/RK + VT. Substituting the circuit parameters, the valid input
+range for the second stage comes out to be 1 V → 2.32 V. Since VOA exceeds
+the upper bound (2.8 V > 2.32 V), we conclude that the first stage cannot pro-
+vide a valid input bias voltage for the second stage when the first stage input bias
+is set at 2.2 V. We can correct this situation by increasing VI A, or by increasing
+R for the first stage.

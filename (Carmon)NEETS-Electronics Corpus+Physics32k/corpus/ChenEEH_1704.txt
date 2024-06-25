@@ -1,0 +1,22 @@
+Oh and Chowdary (2002) expressed different motions
+accurately by estimating motions from the camera and object.
+First, the total motion (TM) in a shot is measured. This is
+achieved by computing the accumulated quantized pixel dif-
+ferences on all pairs of frames in the shot. Before computing
+pixel differences, the color at each pixel location is quantized
+into 32 bins to reduce the effect of noise. Once the total
+motion has been estimated, each frame in the shot is checked
+for the presence of camera motion. If pan and tilt of camera,
+are present, the amount and direction of camera motion are
+computed. Object motion (OM) is computed by a technique
+similar to the computation of TM, such as after compensation
+of camera motion. Bouthemy et al. (1999) addressed the prob-
+lem of shot change detection as well as camera motion estima-
+tion in a single framework. The two objectives are met by
+computing, at each time instant, the dominant motion in the
+image sequence represented by a 2-D afﬁne motion model.
+From each frame pair in the video sequence, a statistical
+module estimates the motion model parameters and the sup-
+port for motion (i.e., the area of motion) in the successive
+frame. A least-squares motion estimation module then com-
+putes the conﬁdence of the motion model and maps signiﬁcant

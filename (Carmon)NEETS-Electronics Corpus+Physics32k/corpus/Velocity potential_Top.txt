@@ -1,0 +1,89 @@
+A velocity potential is a scalar potential used in potential flow theory. It was introduced by Joseph-Louis Lagrange in 1788.
+It is used in continuum mechanics, when a continuum occupies a simply-connected region and is irrotational. In such a case,
+
+
+
+
+∇
+×
+
+u
+
+=
+0
+
+,
+
+
+{\displaystyle \nabla \times \mathbf {u} =0\,,}
+
+where u denotes the flow velocity. As a result, u can be represented as the gradient of a scalar function Φ:
+
+
+
+
+
+u
+
+=
+∇
+Φ
+
+=
+
+
+
+∂
+Φ
+
+
+∂
+x
+
+
+
+
+i
+
++
+
+
+
+∂
+Φ
+
+
+∂
+y
+
+
+
+
+j
+
++
+
+
+
+∂
+Φ
+
+
+∂
+z
+
+
+
+
+k
+
+
+.
+
+
+{\displaystyle \mathbf {u} =\nabla \Phi \ ={\frac {\partial \Phi }{\partial x}}\mathbf {i} +{\frac {\partial \Phi }{\partial y}}\mathbf {j} +{\frac {\partial \Phi }{\partial z}}\mathbf {k} \,.}
+
+Φ is known as a velocity potential for u.
+A velocity potential is not unique. If a is a constant, or a function solely of the temporal variable, then Φ + a(t) is also a velocity potential for u. Conversely, if Ψ is a velocity potential for u then Ψ = Φ + b for some constant, or a function solely of the temporal variable b(t). In other words, velocity potentials are unique up to a constant, or a function solely of the temporal variable.
+If a velocity potential satisfies Laplace equation, the flow is incompressible ; one can check this statement by, for instance, developing ∇ × (∇ × u) and using, thanks to the Clairaut-Schwarz's theorem, the commutation between the gradient and the laplacian operators.
+Unlike a stream function, a velocity potential can exist in three-dimensional flow.

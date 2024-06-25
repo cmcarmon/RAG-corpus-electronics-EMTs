@@ -1,0 +1,12 @@
+4. Attempt. The given circuit is drawn using Schematics as in
+Fig. 8.36. The pulse is speciﬁed using VPWL voltage source,
+but VPULSE could be used instead. Using the piecewise linear
+function, we set the attributes of VPWL as 
+T2 ⫽ 0.001,
+Two voltage markers are inserted to plot the input and output
+voltages. Once the circuit is drawn and the attributes are set,
+we select Analysis/Setup/Transient to open up the Transient
+Analysis dialog box. As a parallel RLC circuit, the roots of the
+characteristic equation are 
+Thus, we may set Final
+Time as 4 s (four times the magnitude of the lower root). When

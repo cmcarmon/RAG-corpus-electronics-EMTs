@@ -1,0 +1,91 @@
+The velocity vector
+
+
+
+
+v
+
+
+
+
+{\displaystyle \mathbf {v} \,}
+can be derived from position vector
+
+
+
+
+r
+
+
+
+
+{\displaystyle \mathbf {r} \,}
+by differentiation with respect to time:
+
+
+
+
+
+v
+
+=
+
+
+
+d
+
+r
+
+
+
+d
+t
+
+
+
+
+
+{\displaystyle \mathbf {v} ={d\mathbf {r}  \over {dt}}}
+
+An object's state vector can be used to compute its classical or Keplerian orbital elements and vice versa. Each representation has its advantages. The elements are more descriptive of the size, shape and orientation of an orbit, and may be used to quickly and easily estimate the object's state at any arbitrary time provided its motion is accurately modeled by the two-body problem with only small perturbations.
+On the other hand, the state vector is more directly useful in a numerical integration that accounts for significant, arbitrary, time-varying forces such as drag, thrust and gravitational perturbations from third bodies as well as the gravity of the primary body.
+The state vectors (
+
+
+
+
+r
+
+
+
+{\displaystyle \mathbf {r} }
+and
+
+
+
+
+v
+
+
+
+{\displaystyle \mathbf {v} }
+) can be easily used to compute the angular momentum vector as
+
+
+
+
+h
+
+=
+
+r
+
+×
+
+v
+
+
+
+{\displaystyle \mathbf {h} =\mathbf {r} \times \mathbf {v} }
+.
+Because even satellites in low Earth orbit experience significant perturbations (primarily from Earth's non-spherical shape), the Keplerian elements computed from the state vector at any moment are only valid at that time. Such element sets are known as osculating elements because they coincide with the actual orbit only at that moment.

@@ -1,0 +1,194 @@
+The power Pr returning to the receiving antenna is given by the equation:
+
+
+
+
+
+P
+
+r
+
+
+=
+
+
+
+
+P
+
+t
+
+
+
+G
+
+t
+
+
+
+A
+
+r
+
+
+σ
+
+F
+
+4
+
+
+
+
+
+
+(
+4
+π
+)
+
+
+2
+
+
+
+R
+
+t
+
+
+2
+
+
+
+R
+
+r
+
+
+2
+
+
+
+
+
+
+
+{\displaystyle P_{r}={\frac {P_{t}G_{t}A_{r}\sigma F^{4}}{{(4\pi )}^{2}R_{t}^{2}R_{r}^{2}}}}
+
+where
+Pt = transmitter power
+Gt = gain of the transmitting antenna
+Ar = effective aperture (area) of the receiving antenna; this can also be expressed as
+
+
+
+
+
+
+G
+
+r
+
+
+
+λ
+
+2
+
+
+
+
+
+4
+π
+
+
+
+{\displaystyle {G_{r}\lambda ^{2}} \over {4\pi }}
+, where
+
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+= transmitted wavelength
+Gr = gain of receiving antenna
+
+σ = radar cross section, or scattering coefficient, of the target
+F = pattern propagation factor
+Rt = distance from the transmitter to the target
+Rr = distance from the target to the receiver.
+In the common case where the transmitter and the receiver are at the same location, Rt = Rr and the term Rt² Rr² can be replaced by R4, where R is the range. This yields:
+
+
+
+
+
+P
+
+r
+
+
+=
+
+
+
+
+P
+
+t
+
+
+
+G
+
+t
+
+
+
+A
+
+r
+
+
+σ
+
+F
+
+4
+
+
+
+
+
+
+(
+4
+π
+)
+
+
+2
+
+
+
+R
+
+4
+
+
+
+
+
+.
+
+
+{\displaystyle P_{r}={{P_{t}G_{t}A_{r}\sigma F^{4}} \over {{(4\pi )}^{2}R^{4}}}.}
+
+This shows that the received power declines as the fourth power of the range, which means that the received power from distant targets is relatively very small.
+Additional filtering and pulse integration modifies the radar equation slightly for pulse-Doppler radar performance, which can be used to increase detection range and reduce transmit power.
+The equation above with F = 1 is a simplification for transmission in a vacuum without interference. The propagation factor accounts for the effects of multipath and shadowing and depends on the details of the environment. In a real-world situation, pathloss effects should also be considered.

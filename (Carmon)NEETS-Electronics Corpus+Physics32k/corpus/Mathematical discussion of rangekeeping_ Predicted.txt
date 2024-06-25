@@ -1,0 +1,263 @@
+The target range at the time of projectile impact can be estimated using Equation 1, which is illustrated in Figure 3.
+where
+
+
+
+
+
+R
+
+T
+P
+
+
+
+
+
+{\displaystyle R_{TP}\,}
+is the range to the target at the time of projectile impact.
+
+
+
+
+
+R
+
+T
+
+
+
+
+
+{\displaystyle R_{T}\,}
+is the range to the target at the time of gun firing.
+
+
+
+
+
+t
+
+T
+O
+
+F
+′
+
+
+
+
+
+
+{\displaystyle t_{TOF'}\,}
+is the projectile time of flight
+
+
+
+
+(
+
+t
+
+T
+O
+F
+
+
+)
+
+
+
+
+{\displaystyle \left(t_{TOF}\right)\,}
+plus system
+firing delays
+
+
+
+
+(
+
+t
+
+D
+e
+l
+a
+y
+
+
+)
+
+
+
+
+{\displaystyle \left(t_{Delay}\right)\,}
+, i.e.
+
+
+
+
+t
+
+T
+O
+
+F
+′
+
+
+
+=
+
+t
+
+T
+O
+F
+
+
++
+
+t
+
+D
+e
+l
+a
+y
+
+
+
+
+
+{\displaystyle t_{TOF'}=t_{TOF}+t_{Delay}\,}
+.
+
+The exact prediction of the target range at the time of projectile impact is difficult because it requires knowing the projectile time of flight, which is a function of the projected target position. While this calculation can be performed using a trial and error approach, this was not a practical approach with the analog computer hardware available during World War II. In the case of the Ford Rangekeeper Mk 1, the time of flight was approximated by assuming the time of flight was linearly proportional to range, as is shown in Equation 2.
+where
+
+
+
+
+
+k
+
+T
+O
+F
+
+
+
+
+
+{\displaystyle k_{TOF}\,}
+is the constant of proportionality between time of flight (TOF) and target range.
+
+The assumption of TOF being linearly proportional to range is a crude one and could be improved through the use of more sophisticated means of function evaluation.
+Range prediction requires knowing the rate of range change. As is shown in Figure 3, the rate of range change can be expressed as shown in Equation 3.
+where
+
+
+
+
+
+s
+
+O
+y
+
+
+
+
+
+{\displaystyle s_{Oy}\,}
+is the own ship speed along the LOS where
+
+
+
+
+v
+
+O
+y
+
+
+=
+‖
+
+v
+
+O
+
+
+‖
+⋅
+cos
+⁡
+(
+
+θ
+
+T
+
+
+)
+
+
+{\displaystyle v_{Oy}=\lVert v_{O}\rVert \cdot \cos(\theta _{T})}
+.
+
+
+
+
+
+s
+
+T
+y
+
+
+
+
+
+{\displaystyle s_{Ty}\,}
+is the target ship speed along the LOS where
+
+
+
+
+v
+
+T
+y
+
+
+=
+‖
+
+v
+
+T
+
+
+‖
+⋅
+cos
+⁡
+(
+
+θ
+
+A
+O
+B
+
+
+)
+
+
+{\displaystyle v_{Ty}=\lVert v_{T}\rVert \cdot \cos(\theta _{AOB})}
+.
+
+Equation 4 shows the complete equation for the predicted range.

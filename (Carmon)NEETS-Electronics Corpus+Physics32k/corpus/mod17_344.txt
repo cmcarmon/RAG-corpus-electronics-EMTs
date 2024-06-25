@@ -1,0 +1,12 @@
+The thirty-two possible combinations available from the five-unit code are insufficient to handle the 
+alphabet and numbers since twenty-six combinations are required for the letters of the English alphabet 
+alone. This leaves only six combinations for numerals, symbols, or nonprinting functions. This number of 
+combinations is obviously inadequate; therefore, two of the thirty-two combinations are used as shift 
+signals. The shift signals are often referred to as case-shift signals (one case is a letter shift, and the other 
+a figure shift.) These two shift signals permit the remaining code combination to be used as letter-shift 
+signals for letters and as figure-shift signals for numerals, function signs, and so forth. When a letter shift 
+is transmitted, it sets the receiving instrument in a condition to recognize any letter signal combination. It 
+will recognize letter combinations until a figure shift is received. Then the receiving instrument sets itself 
+in a condition to recognize any figure signal combination received. The interpretation of a signal 
+combination is determined by the previous shift signal. This plan enables 30 of the 32 available 
+combinations to have two meanings. 

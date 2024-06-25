@@ -1,0 +1,23 @@
+the periodic nature of the discrete Fourier transform. The FFT simply reuses the computations made in
+2πk
+the half-length transforms and combines them through additions and the multiplication by e
+N , which is
+not periodic over N
+, to rewrite the length-N DFT. Figure 5.12 illustrates this decomposition. As it stands,
+2
+we now compute two length- N
+2
+exponential (complexity O (N )), and add the results (complexity O (N )). At this point, the total complexity
+is still dominated by the half-length DFT calculations, but the proportionality coeﬃcient has been reduced.
+Now for the fun. Because N = 2L, each of the half-length transforms can be reduced to two quarter-
+length transforms, each of these to two eighth-length ones, etc. This decomposition continues until we are
+left with length-2 transforms. This transform is quite simple, involving only additions. Thus, the ﬁrst stage
+of the FFT has N
+length-2 transforms (see the bottom part of Figure 5.12). Pairs of these transforms are
+2
+combined by adding one to the other multiplied by a complex exponential. Each pair requires 6 additions
+and 4 multiplications, giving a total number of computations equaling 10 · N
+. This number of
+4
+computations does not change from stage to stage. Because the number of stages, the number of times the
+length can be divided by two, equals log2N, the complexity of the FFT is O (N log2N ).

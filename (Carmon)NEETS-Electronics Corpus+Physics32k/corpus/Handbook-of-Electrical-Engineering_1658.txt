@@ -1,0 +1,8 @@
+The  Kalman  ﬁlter  is  stable  under  rather  mild  assumptions,  which  can  always  be  achieved  in  practice,  by
+using a state vector with minimum dimension to realize the linear dynamical model and the linear measurement
+model. This corresponds to a completely controllable dynamical system and a completely observable measurement
+model. Stability of the Kalman ﬁlter under these conditions was proved in a beautiful paper by Kalman (1963).
+Kalman’s  stability  theory  has  great  practical  value  because  engineers  do  not  need  to  check  for  Kalman  ﬁlter
+stability as a separate issue. This result is all the more impressive when we consider that the Kalman ﬁlter is a
+time-varying linear dynamical system that can be very complex and have very high dimension. Nevertheless,
+the Kalman ﬁlter is automatically stable under the simple minimality assumption given above.

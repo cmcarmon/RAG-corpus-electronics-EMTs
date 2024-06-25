@@ -1,0 +1,4 @@
+Another DFT technique is signature analysis, also called built-in self-test (BIST). Signature testing techniques
+use  additional  logic,  typically  linear  feedback  shift  registers,  to  generate  automatically  pseudorandom  test
+vectors. The output responses are compressed into a single vector and compared with a known good vector. If
+the output response vector does not exactly match the known good vector, then the design is considered faulty.

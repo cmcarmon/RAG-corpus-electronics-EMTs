@@ -1,0 +1,20 @@
+0.025  S,  determine  the  change  in  drain  current  if 
+the bias voltage increases to V2.5 V. 
+ 
+Solution 
+ 
+The change in gate-source voltage (RVgs) is V0.5 V 
+and  the  resulting  change  in  drain  current  can  be 
+determined from: 
+ 
+RID = RVGS × gfs = 0.025 S × V0.5 V = V0.0125 A 
+ 
+This RID = V12.5 mA  
+ 
+The  new  value  of  drain  current  will  thus  be  
+(50 mA V 12.5 mA) or 37.5 mA. 
+ 
+The  mutual  characteristic  shown  in  Fig.  5.33 
+illustrates  this  change  in  drain  current.  Note  how 
+the drain current falls in response to the change in 
+gate-source voltage. 

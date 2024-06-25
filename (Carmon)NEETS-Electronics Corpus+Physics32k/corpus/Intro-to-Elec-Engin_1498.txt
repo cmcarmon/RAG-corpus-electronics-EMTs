@@ -1,0 +1,7 @@
+Companding
+In order to lower the crest factor of a waveform, so as to produce better performance, a process
+known as companding is used. It works like a compressor which progressively compresses the
+larger amplitudes of a message when it is passed through a nonlinear network. The inverse
+operation in the receiver is known as an expandor, when it restores the original message. Figure
+15.3.4 illustrates a typical set of input–output characteristics for a form of compandor. One can see
+that the action of the compressor is to increase the rms–signal value for a given peak magnitude.

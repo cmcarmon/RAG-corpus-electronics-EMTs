@@ -1,0 +1,10 @@
+Figure 84.4 shows an instrumentation ampliﬁer with programmable gain where the programs are stored in
+the  channel-gain  list.  The  reason  for  having  such  sophistication  is  to  match  transducer  outputs  with  the
+maximum  allowable  input  range  of  the ADC.  This  is  very  important  in  improving  accuracy  in  cases  where
+transducer output voltage ranges are much smaller than the full-scale input range of an ADC, as is usually the
+case.  Indeed,  this  is  equally  true  for  signals  that  are  larger  than  the  full-scale  range,  and  in  such  cases  the
+ampliﬁer  functions  as  an  attenuator.  Furthermore,  the  instrumentation  ampliﬁer  converts  a  bipolar  voltage
+signal into a unipolar voltage with respect to the system ground. This action will reduce a major control task
+as far as the ADC is concerned; that is, the ADC is always sent unipolar voltages, and hence it is possible to
+maintain unchanged the mode control input which toggles the ADC between the unipolar and bipolar modes
+of an ADC.

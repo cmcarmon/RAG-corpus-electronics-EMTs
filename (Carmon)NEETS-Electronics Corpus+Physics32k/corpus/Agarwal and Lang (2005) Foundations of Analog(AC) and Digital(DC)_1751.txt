@@ -1,0 +1,9 @@
+We will now proceed to find vCP, and then A1 and A2, for two cases of
+vIN, namely a step and an impulse. That is, we will proceed to find the step
+response and the impulse response of the circuit. To simplify matters, we will
+continue to assume that the circuit is under-damped, that both the step and
+the impulse occur at t = 0, and that the circuit is initially at rest prior to that
+time. The latter assumption suggests that we are interested in the zero-state
+response7 and provides these initial conditions
+vC(0) = 0
+iL(0) = 0

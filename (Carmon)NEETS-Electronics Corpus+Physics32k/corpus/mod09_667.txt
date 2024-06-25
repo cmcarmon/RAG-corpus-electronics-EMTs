@@ -1,0 +1,6 @@
+The counting stability of the step counter is dependent upon the exponential charging rate of 
+capacitor C2. As C2 increases to higher steps, the voltage increments are less and less. If the ratio 
+becomes too great, the higher steps become almost indiscernible. For this reason, accuracy decreases as 
+the ratio increases. When you desire to count by a large number, 24 for example, a 6-to-1 counter and a 4-
+to-1 counter are connected in cascade (series). A more stable method of counting 24 would be to use a 
+2:1, 3:1, 4:1 counter connected in cascade. Most step counters operate on a ratio of 5 to 1 or less. 

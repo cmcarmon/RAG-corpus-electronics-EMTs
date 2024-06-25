@@ -1,0 +1,8 @@
+As  shown  in  Fig.  3.23(b),  we  create  a  supermesh  as  the  periphery  of
+the  two  meshes  and  treat  it  differently.  (If  a  circuit  has  two  or  more
+supermeshes  that  intersect,  they  should  be  combined  to  form  a  larger
+supermesh.) Why treat the supermesh differently? Because mesh analy-
+sis applies KVL—which requires that we know the voltage across each
+branch—and  we  do  not  know  the  voltage  across  a  current  source  in
+advance. However, a supermesh must satisfy KVL like any other mesh.
+Therefore, applying KVL to the supermesh in Fig. 3.23(b) gives

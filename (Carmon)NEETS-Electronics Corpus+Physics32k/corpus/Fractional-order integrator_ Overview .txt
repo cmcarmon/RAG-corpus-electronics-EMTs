@@ -1,0 +1,39 @@
+The differintegral function,
+
+
+
+
+
+
+
+
+
+a
+
+
+
+
+D
+
+
+t
+
+
+q
+
+
+
+(
+
+f
+(
+x
+)
+
+)
+
+
+
+{\displaystyle {}_{a}\mathbb {D} _{t}^{q}\left(f(x)\right)}
+
+includes the integer order differentiation and integration functions, and allows a continuous range of functions around them. The differintegral parameters are a, t, and q. The parameters a and t describe the range over which to compute the result. The differintegral parameter q may be any real number or complex number. If q is greater than zero, the differintegral computes a derivative. If q is less than zero, the differintegral computes an integral. The integer order integration can be computed as a Riemann–Liouville differintegral, where the weight of each element in the sum is the constant unit value 1, which is equivalent to the Riemann sum. To compute an integer order derivative, the weights in the summation would be zero, with the exception of the most recent data points, where (in the case of the first unit derivative) the weight of the data point at t − 1 is −1 and the weight of the data point at t is 1. The sum of the points in the input function using these weights results in the difference of the most recent data points. These weights are computed using ratios of the Gamma function incorporating the number of data points in the range [a,t], and the parameter q.

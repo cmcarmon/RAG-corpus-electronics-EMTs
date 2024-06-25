@@ -1,0 +1,8 @@
+—the main memory
+with each write operation—a technique known as 
+locations become stale, that is, memory no longer contains the correct values and must not be relied upon to
+provide data. This is generally permissible, but care must be exercised to make sure that it is always updated
+before the line is purged from the cache and that the cache is never bypassed. Such a bypass could occur with
+), in which the I/O system writes directly into main memory without the involvement
+DMA (
+of the processor.

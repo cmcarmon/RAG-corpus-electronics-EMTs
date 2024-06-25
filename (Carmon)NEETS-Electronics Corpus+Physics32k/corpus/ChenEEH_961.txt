@@ -1,0 +1,7 @@
+Note that since isolated edges do not belong to a cycle, the
+clock skews on these edges are linearly independent of any
+other clock skews in the circuit. Intuitively, the clock skew of
+an isolated edge can be assigned to be any value without
+contradicting the linear dependencies among the skews in a
+circuit. Observe, for example, equation 4.31 written for the
+modiﬁed circuit C1 shown in Figure 4.12:

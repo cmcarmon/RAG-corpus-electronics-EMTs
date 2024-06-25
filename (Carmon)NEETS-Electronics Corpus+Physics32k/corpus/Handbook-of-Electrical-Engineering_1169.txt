@@ -1,0 +1,11 @@
+Metric Space Formulation
+To avail ourselves of the extensive analysis tools found in algebra, it is useful to formulate the basic signal restoration
+problem in a general metric space setting. This has the desirable effect of enabling us to treat a wide variety of
+applications in a single setting. With this in mind, the measurement signals are taken to lie in a metric space which
+is composed of a set of elements designated by X and a metric d(x,y) that measures the distance between any two
+elements x,y ˛X. The elements of the set X are taken to possess a common form such as being composed of all n
+·  1  real-valued  vectors  or  all  complex-valued  continuous  functions  defined  on  a  given  interval.  Moreover,  the
+distance metric identifying this space must satisfy the axioms associated with a distance measure.1 We will inter-
+changeably refer to the elements of the metric space as vectors or signals. Depending on the nature of a particular
+application, the signals can take on such disparate forms as being composed of all real- (or complex-) valued n ·
+1 vectors, m · n matrices, inﬁnite-length sequences, continuous-time functions, and so forth.

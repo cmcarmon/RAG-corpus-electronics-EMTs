@@ -1,0 +1,10 @@
+Many electromagnetic wave interaction problems are deﬁned
+on ‘‘open’’ regions where the spatial domain is partially or
+completely unbounded. Since no computer can store an un-
+limited data set, FDTD space lattices for such problems must
+somehow be truncated without introducing error due to spu-
+rious reﬂection of outward-propagating numerical waves.
+Grid truncation conditions of this type are popularly called
+absorbing boundary conditions (ABCs) because of their re-
+quirement to absorb outward-propagating numerical modes
+with negligible reﬂection.

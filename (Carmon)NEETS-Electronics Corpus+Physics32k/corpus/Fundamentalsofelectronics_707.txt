@@ -1,0 +1,6 @@
+Problem 5.17: DSP Tricks
+Sammy is faced with computing lots of discrete Fourier transforms. He will, of course, use the FFT algorithm,
+but he is behind schedule and needs to get his results as quickly as possible. He gets the idea of computing
+two transforms at one time by computing the transform of s (n) = s1 (n) + js2 (n), where s1 (n) and s2 (n)
+are two real-valued signals of which he needs to compute the spectra. The issue is whether he can retrieve
+the individual DFTs from the result or not.

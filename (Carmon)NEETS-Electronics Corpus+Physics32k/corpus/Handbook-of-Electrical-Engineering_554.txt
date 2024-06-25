@@ -1,0 +1,6 @@
+are  in  many  respects  functionally  equivalent  to  biased  diodes.  Figure  5.14  shows  two  operational  ampliﬁer
+clipping circuits using Zener diodes. The Zener diode conducts like a conventional diode when it is forward
+biased, so it is necessary to connect a reversed diode in series with it to prevent shorting of Rf. When the reverse
+voltage across the Zener diode reaches VZ, the diode breaks down and conducts heavily, while maintaining an
+essentially constant voltage, VZ, across it. Under those conditions, the total voltage across  Rf, i.e., vo, equals VZ
+plus the forward drop, VD, across the conventional diode.

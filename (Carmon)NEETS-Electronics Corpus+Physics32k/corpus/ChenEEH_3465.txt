@@ -1,0 +1,31 @@
+The current differential protection principle is most com-
+monly used to protect against phase faults on the stator,
+which are the most common faults. Other conditions require
+other principles to be used. The loss of ﬁeld and the ground
+protection of the rotor are quite complex and depend on the
+type of the grounding and current sensing arrangement used.
+This subject is well beyond the basic considerations and is
+treated in a variety of specialized literature (IEEE, 1995).
+Protection from the abnormal generator operating condition
+requires the use of relaying principles based on detection of the
+changes in voltage, current, power, or frequency. A reverse
+power relay is used to protect against loss of a prime mover
+known as generator motoring, which is a dangerous condition
+since it can cause damage of the turbine and turbine blades. In
+addition, synchronous generators should not be subjected to
+an overvoltage. With normal operation near the knee of the
+iron saturation curve, small overvoltages result in excessive
+ﬂux densities and abnormal ﬂux patterns, which can cause
+extensive structural damage in the machine. A relaying
+principle based on the ratio between voltage and frequency,
+called a volt-per-hertz principle, is used to detect this condi-
+tion. An inadvertent connection of the generator to the power
+system not meeting the synchronization requirements can
+also cause damage. The overcurrent relaying principle in com-
+bination with the reverse power principle are used to detect
+such conditions. The overload conditions as well as over-
+and under-frequency operations can cause damage from
+overheating, and thermal relays in combination with frequency
+relays are used. Undervoltage and overvoltage protections
+are used for detecting loss of synchronism and overvoltage
+conditions.

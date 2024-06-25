@@ -1,0 +1,76 @@
+The scalar moments of inertia appear as elements in a matrix when a system of particles is assembled into a rigid body that moves in three-dimensional space. This inertia matrix appears in the calculation of the angular momentum, kinetic energy and resultant torque of the rigid system of particles.
+
+Let the system of particles Pi, i = 1, …, n be located at the coordinates ri with velocities vi relative to a fixed reference frame. For a (possibly moving) reference point R, the relative positions are
+
+
+
+
+Δ
+
+
+r
+
+
+i
+
+
+=
+
+
+r
+
+
+i
+
+
+−
+
+R
+
+
+
+{\displaystyle \Delta \mathbf {r} _{i}=\mathbf {r} _{i}-\mathbf {R} }
+
+and the (absolute) velocities are
+
+
+
+
+
+
+v
+
+
+i
+
+
+=
+
+ω
+
+×
+Δ
+
+
+r
+
+
+i
+
+
++
+
+
+V
+
+
+
+R
+
+
+
+
+
+{\displaystyle \mathbf {v} _{i}={\boldsymbol {\omega }}\times \Delta \mathbf {r} _{i}+\mathbf {V} _{\mathbf {R} }}
+
+where ω is the angular velocity of the system, and VR is the velocity of R.

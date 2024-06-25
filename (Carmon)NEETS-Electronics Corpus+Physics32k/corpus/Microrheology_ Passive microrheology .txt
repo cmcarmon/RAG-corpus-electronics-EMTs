@@ -1,0 +1,268 @@
+Passive microrheology uses the thermal energy (kT) to move the tracers, although recent evidence suggest that active random forces inside cells may instead move the tracers in a diffusive-like manner. The trajectories of the tracers are measured optically either by microscopy or by diffusing-wave spectroscopy (DWS). From the mean squared displacement with respect to time (noted MSD or <Δr2> ), one can calculate the visco-elastic moduli G′(ω) and G″(ω) using the generalized Stokes–Einstein relation (GSER). Here is a view of the trajectory of a particle of micrometer size.
+
+In a standard passive microrheology tests, the movement of dozens of tracers is tracked in a single video frame. The motivation is to average the movements of the tracers and calculate a robust MSD profile.
+Observing the MSD for a wide range of integration time scales (or frequencies) gives information on the microstructure of the medium where are diffusing the tracers.
+If the tracers are having a free diffusion in a purely viscous material, the MSD should grows linearly with sampling integration time:
+
+
+
+
+<
+Δ
+
+r
+
+2
+
+
+>=
+4
+D
+t
+
+
+{\displaystyle <\Delta r^{2}>=4Dt}
+.
+If the tracers are moving in a spring-like fashion within a purely elastic material, the MSD should have no time dependence:
+
+
+
+
+<
+Δ
+
+r
+
+2
+
+
+>=
+C
+o
+n
+s
+t
+
+
+{\displaystyle <\Delta r^{2}>=Const}
+
+In most cases the tracers are presenting a sub-linear integration-time dependence, indicating the medium has intermediate viscoelastic properties. Of course, the slope changes in different time scales, as the nature of the response from the material is frequency dependent.
+Microrheology is another way to do linear rheology. Since the force involved is very weak (order of 10−15 N), microrheology is guaranteed to be in the so-called linear region of the strain/stress relationship. It is also able to measure very small volumes (biological cell).
+Given the complex viscoelastic modulus
+
+
+
+G
+(
+ω
+)
+=
+
+G
+′
+
+(
+ω
+)
++
+i
+
+G
+″
+
+(
+ω
+)
+
+
+
+{\displaystyle G(\omega )=G'(\omega )+iG''(\omega )\,}
+with G′(ω) the elastic (conservative) part and G″(ω) the viscous (dissipative) part and ω=2πf the pulsation. The GSER is as follows:
+
+
+
+
+
+
+
+G
+~
+
+
+
+(
+s
+)
+=
+
+
+
+
+k
+
+
+B
+
+
+
+T
+
+
+π
+a
+s
+⟨
+Δ
+
+
+
+
+r
+~
+
+
+
+
+2
+
+
+(
+s
+)
+⟩
+
+
+
+
+
+{\displaystyle {\tilde {G}}(s)={\frac {k_{\mathrm {B} }T}{\pi as\langle \Delta {\tilde {r}}^{2}(s)\rangle }}}
+
+with
+
+
+
+
+
+
+
+G
+~
+
+
+
+(
+s
+)
+
+
+{\displaystyle {\tilde {G}}(s)}
+: Laplace transform of G
+kB: Boltzmann constant
+T: temperature in kelvins
+s: the Laplace frequency
+a: the radius of the tracer
+
+
+
+
+⟨
+Δ
+
+
+
+
+r
+~
+
+
+
+
+2
+
+
+(
+s
+)
+⟩
+
+
+{\displaystyle \langle \Delta {\tilde {r}}^{2}(s)\rangle }
+: the Laplace transform of the mean squared displacement
+A related method of passive microrheology involves the tracking positions of a particle at high frequency, often with a quadrant photodiode. From the position,
+
+
+
+x
+(
+t
+)
+
+
+{\displaystyle x(t)}
+, the power spectrum,
+
+
+
+<
+
+x
+
+ω
+
+
+2
+
+
+>
+
+
+{\displaystyle <x_{\omega }^{2}>}
+can be found, and then related to the real and imaginary parts of the response function,
+
+
+
+α
+(
+ω
+)
+
+
+{\displaystyle \alpha (\omega )}
+. The response function leads directly to a calculation of the complex shear modulus,
+
+
+
+G
+(
+ω
+)
+
+
+{\displaystyle G(\omega )}
+via:
+
+
+
+
+G
+(
+ω
+)
+=
+
+
+1
+
+6
+π
+a
+α
+(
+ω
+)
+
+
+
+
+
+{\displaystyle G(\omega )={\frac {1}{6\pi a\alpha (\omega )}}}

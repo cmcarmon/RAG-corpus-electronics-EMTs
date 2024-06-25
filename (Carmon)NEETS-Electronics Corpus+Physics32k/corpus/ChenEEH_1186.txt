@@ -1,0 +1,11 @@
+The Gray code has only a 1-bit difference in consecutive
+numbers for addressing. Due to locality of program execution,
+Gray code addressing can signiﬁcantly reduce the number of
+bit switches. Experimental results show that for typical pro-
+grams running on an RISC microprocessor, using Gray code
+addressing reduces the switching activity at the address lines by
+30 to 50% compared to using normal binary code addressing.
+In TO Encoding, the bus transitions are reduced by freezing
+the address lines when consecutive patterns are found to be
+sequential. An extra bus line is employed to inform the receiver
+side regardless if the current pattern is sequential.

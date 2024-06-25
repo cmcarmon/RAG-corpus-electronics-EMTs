@@ -1,0 +1,6 @@
+Three central paradigms in the construction of signature schemes are the “refreshing” of the “effective” signing-
+key, the usage of an “authentication tree,” and the “hashing paradigm.” The ﬁrst paradigm is aimed at limiting
+the potential dangers of a chosen message attack by signing the given message using a newly generated (random)
+instance of the signature scheme, and authenticating this random instance relative to the ﬁxed public key. A
+natural way of carrying on the authentication of the many newly generated keys is by using an authentication
+tree [Merkle, 1980]. Finally, the hashing paradigm refers to the common practice of signing real documents

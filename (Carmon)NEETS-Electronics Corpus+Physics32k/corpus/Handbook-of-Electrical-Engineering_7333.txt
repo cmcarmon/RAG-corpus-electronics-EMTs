@@ -1,0 +1,8 @@
+Loop ﬁlters used in PLLs may be either active or passive depending on the speciﬁc application. Active ﬁlters
+are  normally  used  in  more  critical  applications  when  superior  control  of  loop  parameters  and  reference
+frequency suppression is required. The loop ﬁlter is typically followed by a low-pass ﬁlter to remove any residual
+reference  frequency  component  from  the  phase  detector.  This  low-pass  ﬁlter  will  affect  the  calculated  loop
+response and will typically appear to reduce the loop damping factor as its corner frequency is brought closer
+to the loop natural frequency. To avoid this degradation the corner frequency of this ﬁlter should be approxi-
+mately one order of magnitude greater than the loop natural frequency. In some cases a notch ﬁlter may be
+used to reduce the reference frequency when it is close to the reference frequency.

@@ -1,0 +1,8 @@
+it switches to its unstable state. The length of time 
+the circuit is in the unstable state is determined by 
+the RC time constant of resistor R3 and capacitor C1. 
+Capacitor C2 and resistor R4 form a differentiator 
+circuit, which is used to convert the input pulse to a 
+positive spike and a negative spike. Diode D1 allows 
+only the negative spike to pass through to turn on the 
+circuit.

@@ -1,0 +1,5 @@
+Reduced-Rank Approximation
+In various applications, it is frequently desired to ﬁnd a matrix of rank q that best approximates a given matrix
+A ˛  C m · n, where q < rank {A}. If the Frobenius metric (14.66) is used to measure the distance between two
+matrices, it is well known that the best rank-q matrix approximation of A is obtained by simply dropping all
+but the q largest singular-valued weighted outer products in SVD representation (14.101), that is,

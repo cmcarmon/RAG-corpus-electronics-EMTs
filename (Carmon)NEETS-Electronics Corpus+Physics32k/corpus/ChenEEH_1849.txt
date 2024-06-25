@@ -1,0 +1,11 @@
+Mobile IP (Perkins, 1998) is an Internet protocol used to
+support mobility. Its goal is to provide the ability of a host to
+stay connected to the Internet regardless of its location. Every
+site that wants to allow its users to roam has to create a home
+agent (HA) entity, and every site that wants to allow visitors
+has to create a foreign agent (FA) entity. When a mobile host
+(MH) roams into a foreign site (which allows roaming), it
+contacts and registers with the FA for that site. The FA, in
+turn, contacts the HA of that mobile host and gives it a care-
+of address, normally the FA’s own IP address. All packets
+destined for the MH will eventually reach the HA that encap-

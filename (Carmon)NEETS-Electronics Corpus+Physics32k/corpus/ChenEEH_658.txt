@@ -1,0 +1,10 @@
+or trading-off cycles spent in different submodules. Therefore,
+the last four sections of this chapter are devoted to different
+aspects of data transfer and storage exploration: code rewriting
+techniques to improve data reuse and access locality (Section
+4), how to meet real-time bandwidth constraints (Section 5),
+custom memory organization design (Section 6), and data
+layout reorganization for reduced memory size (Section 7).
+The main emphasis lies on custom processor contexts. Realistic
+multimedia and telecom applications are used to demonstrate
+the impressive effects of such techniques.

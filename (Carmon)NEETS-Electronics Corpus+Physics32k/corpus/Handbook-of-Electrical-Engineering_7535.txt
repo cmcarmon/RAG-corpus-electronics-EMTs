@@ -1,0 +1,12 @@
+ (TTL
+ (ECL family) drawn from the power supply. For complex IC devices, the
+family), 
+required  supply  current  is  given  under  speciﬁed  test  conditions.  For  TTL  chips  containing  simple  gates,  the
+ (when all gate outputs
+average power dissipation 
+ (when all gate outputs are low). Table 79.5 compares the static power dissipation of several
+are high) and 
+logic subfamilies. The ECL family has the highest power dissipation, while the lowest is attained with the CMOS
+family. It should be noted that power dissipation for the CMOS family is directly proportional to the gate input
+signal frequency. For example, one would typically ﬁnd that the power dissipation for a CMOS logic circuit
+would increase by a factor of 100 if the input signal frequency is increased from 1 kHz to 100 kHz.

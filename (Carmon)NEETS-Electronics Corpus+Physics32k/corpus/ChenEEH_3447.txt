@@ -1,0 +1,11 @@
+The choices among basic relaying scheme principles are
+inﬂuenced by two factors: the approach in using the commu-
+nication channels and the type of information sent over the
+channel. Regarding the approach for using the channels, one
+option is for the channels to be active during a fault, which
+means sending the information all the time and making sure
+that the communication did not fail. The other option is for
+the communication channels to be activated only when a
+command is to be transmitted and not being activated during
+other intervals or cases related to the fault. Regarding the type
+of information sent, the channels are used for issuing either a

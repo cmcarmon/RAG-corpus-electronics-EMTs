@@ -1,0 +1,196 @@
+There are two main types of ultrasonic flow meters: Doppler and transit time. While they both utilize ultrasound to make measurements and can be non-invasive (measure flow from outside the tube, pipe or vessel), they measure flow by very different methods.
+
+Ultrasonic transit time flow meters measure the difference of the transit time of ultrasonic pulses propagating in and against the direction of flow. This time difference is a measure for the average velocity of the fluid along the path of the ultrasonic beam. By using the absolute transit times both the averaged fluid velocity and the speed of sound can be calculated. Using the two transit times
+
+
+
+
+t
+
+u
+p
+
+
+
+
+{\displaystyle t_{up}}
+and
+
+
+
+
+t
+
+d
+o
+w
+n
+
+
+
+
+{\displaystyle t_{down}}
+and the distance between receiving and transmitting transducers
+
+
+
+L
+
+
+{\displaystyle L}
+and the inclination angle
+
+
+
+α
+
+
+{\displaystyle \alpha }
+one can write the equations:
+
+
+
+
+v
+=
+
+
+L
+
+2
+
+sin
+⁡
+
+(
+α
+)
+
+
+
+
+
+
+
+
+
+t
+
+u
+p
+
+
+−
+
+t
+
+d
+o
+w
+n
+
+
+
+
+
+t
+
+u
+p
+
+
+
+
+t
+
+d
+o
+w
+n
+
+
+
+
+
+
+
+{\displaystyle v={\frac {L}{2\;\sin \left(\alpha \right)}}\;{\frac {t_{up}-t_{down}}{t_{up}\;t_{down}}}}
+and
+
+
+
+c
+=
+
+
+L
+2
+
+
+
+
+
+
+
+t
+
+u
+p
+
+
++
+
+t
+
+d
+o
+w
+n
+
+
+
+
+
+t
+
+u
+p
+
+
+
+
+t
+
+d
+o
+w
+n
+
+
+
+
+
+
+
+{\displaystyle c={\frac {L}{2}}\;{\frac {t_{up}+t_{down}}{t_{up}\;t_{down}}}}
+
+where
+
+
+
+v
+
+
+{\displaystyle v}
+is the average velocity of the fluid along the sound path and
+
+
+
+c
+
+
+{\displaystyle c}
+is the speed of sound.
+With wide-beam illumination transit time ultrasound can also be used to measure volume flow independent of the cross-sectional area of the vessel or tube.
+Ultrasonic Doppler flow meters measure the Doppler shift resulting from reflecting an ultrasonic beam off the particulates in flowing fluid. The frequency of the transmitted beam is affected by the movement of the particles; this frequency shift can be used to calculate the fluid velocity. For the Doppler principle to work there must be a high enough density of sonically reflective materials such as solid particles or air bubbles suspended in the fluid. This is in direct contrast to an ultrasonic transit time flow meter, where bubbles and solid particles reduce the accuracy of the measurement. Due to the dependency on these particles there are limited applications for Doppler flow meters. This technology is also known as acoustic Doppler velocimetry.
+One advantage of ultrasonic flow meters is that they can effectively measure the flow rates for a wide variety of fluids, as long as the speed of sound through that fluid is known. For example, ultrasonic flow meters are used for the measurement of such diverse fluids as liquid natural gas (LNG) and blood. One can also calculate the expected speed of sound for a given fluid; this can be compared to the speed of sound empirically measured by an ultrasonic flow meter for the purposes of monitoring the quality of the flow meter's measurements. A drop in quality (change in the measured speed of sound) is an indication that the meter needs servicing.

@@ -1,0 +1,15 @@
+Two natural questions relevant to the system design are what
+are the dominant error sources causing the growth of the INS
+errors between the 1-Hz corrections during the ﬁrst 60 sec, and
+what are the dominant error sources that cause the INS error
+growth during the period when the position aiding is no
+longer available. Both of these question are answerable by the
+error budgeting analysis described in Section 4.5.1. The error
+budget analysis plot for the position estimate is shown in
+Figure 4.5(D). This ﬁgure shows the error contributions from
+v, n, n, and the total error from all sources. The plot for the
+error contribution from P(0) has not been included because it
+is insigniﬁcant for the time period shown. Note that the ﬁgure
+plots the standard deviations (STDs). To perform the super-
+position check that the errors from the individual sources
+add up to the total error at every time instant, the plotted

@@ -1,0 +1,7 @@
+The nonlinear equation 3.7 is solved numerically using an
+iterative method called the Newton–Raphson (NR) method.
+Let v0 denote the initial guess and vi the result of the ith
+iteration for the solution of equation 3.7. The calculation of
+the next iteration value viþ1 is attempted such that x(viþ1)  0.
+Expanding x(viþ1) in a Taylor series around the point vi gives
+Equation 3.8.

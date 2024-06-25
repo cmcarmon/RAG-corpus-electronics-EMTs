@@ -1,0 +1,5 @@
+The  relation  exhibits  the  following  transitive  dependency:  client_name ﬁ  supplier_name,  supplier_name
+ﬁ location (but not the inverse). The relation CLIENT is clearly in 2NF, but because of the transitive dependency
+of the nonprime attribute location on the key, it is not in 3NF. This is the cause of the anomalies mentioned
+above. Eliminating this transitive dependency by splitting the schema into two components will remove these
+anomalies. Clearly, the resulting two relations SUP_CLI and SUP_LOC are in 3NF (see Fig. 94.6).

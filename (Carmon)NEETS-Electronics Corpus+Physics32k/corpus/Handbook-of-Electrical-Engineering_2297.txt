@@ -1,0 +1,8 @@
+Small-Signal Incremental Model
+In the small-signal incremental model, the diode is represented by linear elements. In small-signal (incremental)
+analysis, the diode voltage signals are assumed to be about VT /2 or less, thus much smaller than the dc voltage
+VD across the diode. In the forward-biased diode, three elements are of practical interest: incremental resistance
+(or small-signal or differential resistance) rd, the diffusion capacitance Cd, and the junction capacitance Cj.
+Incremental Resistance, rd
+For small signals the diode represents a small-signal resistance (often called incremental or differential resis-
+tance) rd in the operating point (ID,VD) where

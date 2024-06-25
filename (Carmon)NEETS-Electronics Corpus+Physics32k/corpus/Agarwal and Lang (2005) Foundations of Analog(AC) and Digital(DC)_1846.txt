@@ -1,0 +1,16 @@
+We wish to show in this chapter that the solution to linear circuit problems
+is greatly simplified by assuming a drive of the form est as illustrated in the center
+panel of Figure 13.1, primarily because under this assumption the differential
+equation is transformed into an algebraic equation, and because the response
+to a sinusoidal drive can be directly obtained from the response to the est drive.
+This leads further to a shorthand solution method involving the concept of
+impedance, whereby the algebraic equation can be found directly from the
+circuit model, without writing the differential equation at all, as diagrammed in
+the lowermost panel of the Figure 13.1.
+The insight behind the employment of a drive of the form est, where s = jω,
+is the following: Recall, we wish to find the system response in the steady
+state1 to a sinusoidal input of the form cos(ωt). We will show that directly
+solving system differential equations with a sinusoidal input leads to a tangle of
+trigonometry and is very complicated. (You have already seen an example of a
+direct solution of an RL circuit for a sinusoidal drive in Section 10.6.7.) Instead,
+we employ the following mathematical trick: Realizing that

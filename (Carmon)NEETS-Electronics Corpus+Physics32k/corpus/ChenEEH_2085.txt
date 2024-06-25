@@ -1,0 +1,13 @@
+Formalizing Invariant Properties
+Let [M0>v denote the set of all valid marking sequences ex-
+tracted from all execution sequences of a given PZ net, and let s
+be a valid marking sequence with jsj as the length of the
+sequence and s(i) as the ith state (marking) in s:W (a ﬁrst
+order logic formula) is an invariant property if and only if
+the following holds: 8s: s 2 [M0>!  (8i: 0  i  jsj  (s(i)
+j¼ W )), where s(i) j¼ W denotes that marking s(i) satisﬁes
+W (i.e., the evaluation of W under marking s(i) yields true).
+Thus, a safety property holds in every state (marking) of every
+valid marking sequence. The above formulation can be simpli-
+ﬁed to the following equivalent version in terms of the set of all
+reachable markings only:

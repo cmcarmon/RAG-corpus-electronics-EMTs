@@ -1,0 +1,6 @@
+Deﬁning the semantics of a language is more difﬁcult because there is no universally accepted metalanguage
+for  expressing  semantics.  Instead,  semantics  is  usually  deﬁned  by  another  program  that  translates  from  the
+HLL into some machine-level language. In a way, the semantics of a certain HLL is deﬁned by writing a program
+that unambiguously maps each statement of the HLL into an equivalent sequence of machine-level statements.
+For  example,  the  FORTRAN  statement  below  is  converted  into  an  equivalent  machine-level  sequence  of
+statements as shown to the right:

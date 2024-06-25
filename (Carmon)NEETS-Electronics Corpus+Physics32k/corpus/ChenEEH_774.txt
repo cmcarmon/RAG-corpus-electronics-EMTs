@@ -1,0 +1,7 @@
+problem. This results both in reduced memory size
+and a reduction in the associated power consumption.
+Note that in Section 2.4, the data reuse step introduces
+additional buffers to exploit the reuse of data in a
+signal, whereas in-place mapping step exploits the
+reuse in as well as between signals to reduce the size
+of the existing signal.

@@ -1,0 +1,6 @@
+Low-pass equivalent (LPE) model: A method of representing bandpass signals and systems by low-pass signals
+and  systems.  This  technique  is  extremely  useful  when  developing  discrete  time  models  of  bandpass
+continuous-time systems. It can substantially reduce the sampling rate required to prevent aliasing and
+does  not  result  in  any  loss  of  information.  This  in  turn  reduces  the  execution  time  required  for  the
+simulation.  This  modeling  technique  is  closely  related  to  the  quadrature  representation  of  bandpass
+signals.

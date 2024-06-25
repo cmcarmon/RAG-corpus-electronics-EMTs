@@ -1,0 +1,5 @@
+Since one numeric character can be represented and stored using only four bits (8-4-2-1), using an 
+8-bit code allows the representation of two numeric characters (decimal digits) as illustrated in figure 4-6. 
+Representing two numeric characters in one byte (eight bits) is referred to as packing or packed data. By 
+packing data (numeric characters only) in this way, it allows us to conserve the amount of storage space 
+required, and at the same time, increases processing speed. 

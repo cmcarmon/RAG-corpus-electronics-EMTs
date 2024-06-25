@@ -1,0 +1,13 @@
+not possible to specify accurate statistical models for signals or noise, and so it is of interest to design detection
+procedures  that  do  not  rely  heavily  on  such  models.  Of  course,  the  parametrized  models  described  in  the
+foregoing  paragraphs  allow  for  uncertainty  in  the  statistics  of  the  observations.  Such  models  are  known  as
+parametric models, because the set of possible distributions can be parametrized by a ﬁnite set of real parameters.
+While parametric models can be used to describe many types of modeling uncertainty, composite models
+in which the set of possible distributions is much broader than a parametric model would allow are sometimed
+more realistic in practice. Such models are termed nonparametric models. For example, one might be able to
+assume only some very coarse model for the noise, such as that it is symmetrically distributed. A wide variety
+of useful and powerful detectors have been developed for signal-detection problems that cannot be parame-
+trized.  These  are  basically  of  two  types:  robust  and  nonparametric.  Robust  detectors  are  those  designed  to
+perform well despite small, but potentially damaging, nonparametric deviations from a nominal parametric
+model,  whereas  nonparametric  detectors  are  designed  to  achieve  constant  false-alarm  probability  over  very
+wide classes of noise statistics.

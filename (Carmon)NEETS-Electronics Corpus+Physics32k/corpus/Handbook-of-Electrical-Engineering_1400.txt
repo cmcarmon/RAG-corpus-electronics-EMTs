@@ -1,0 +1,4 @@
+A useful class of encoders for speech signals are those obtained from vector quantization. Vector quantizers
+are designed using the Lloyd algorithm [Gersho and Gray, 1991]. This is an iterative algorithm in which the
+codewords and the nearest neighbor regions are alternatively optimized. This algorithm can be applied to design
+vector quantizers for clean and noisy signals using the modiﬁed distortion measure.

@@ -1,0 +1,206 @@
+A force
+
+
+
+
+f
+
+(
+t
+)
+∈
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {f} (t)\in \mathbb {R} ^{3}}
+, dependent on time
+
+
+
+t
+∈
+
+R
+
+
+
+{\displaystyle t\in \mathbb {R} }
+, acting on a body of assumed constant mass
+
+
+
+m
+∈
+
+R
+
+
+
+{\displaystyle m\in \mathbb {R} }
+for a time interval
+
+
+
+[
+
+t
+
+0
+
+
+.
+.
+
+t
+
+1
+
+
+]
+
+
+{\displaystyle \lbrack t_{0}..t_{1}\rbrack }
+generates a change in the body’s momentum
+
+
+
+
+p
+
+(
+t
+)
+=
+m
+
+v
+
+(
+t
+)
+
+
+{\displaystyle \mathbf {p} (t)=m\mathbf {v} (t)}
+, where
+
+
+
+
+v
+
+(
+t
+)
+
+
+{\displaystyle \mathbf {v} (t)}
+is the resulting change in velocity. The change in momentum, termed an impulse and denoted by
+
+
+
+j
+∈
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle j\in \mathbb {R} ^{3}}
+is thus computed as
+
+For fixed impulse
+
+
+
+
+j
+
+
+
+{\displaystyle \mathbf {j} }
+, the equation suggests that
+
+
+
+
+t
+
+1
+
+
+→
+
+t
+
+0
+
+
+⇒
+
+|
+
+f
+
+|
+
+→
+∞
+
+
+{\displaystyle t_{1}\rightarrow t_{0}\Rightarrow \left|\mathbf {f} \right|\rightarrow \infty }
+, that is, a smaller time interval must be compensated by a stronger reaction force to achieve the same impulse. When modelling a collision between idealized rigid bodies, it is impractical to simulate the compression and expansion phases of the body geometry over the collision time interval. However, by assuming that a force
+
+
+
+
+f
+
+
+
+{\displaystyle \mathbf {f} }
+can be found which is equal to
+
+
+
+0
+
+
+{\displaystyle 0}
+everywhere except at
+
+
+
+
+t
+
+0
+
+
+
+
+{\displaystyle t_{0}}
+, and such that the limit
+
+exists and is equal to
+
+
+
+
+j
+
+
+
+{\displaystyle \mathbf {j} }
+, the notion of instantaneous impulses may be introduced to simulate an instantaneous change in velocity after a collision.

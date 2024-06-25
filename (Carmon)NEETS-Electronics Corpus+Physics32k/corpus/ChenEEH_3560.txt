@@ -1,0 +1,7 @@
+Consider a signal sampled at equally spaced instants. The
+time separation between two adjacent samples is called sam-
+pling period (T), and its inverse is the sampling rate or
+sampling frequency (fs). Because signal values are retained
+only at sampling instants, the signal information can be cap-
+tured in the product of the continuous-time signal with a
+train, s(t ), of impulses spaced apart by T :

@@ -1,0 +1,11 @@
+The HMM is imagined to ‘‘produce’’ strings of features as
+follows. At each observation time (corresponding to the times
+at which we extract observations), a state transition is assumed
+to occur in the HMM. Upon entering the next
+state,
+an observation is emitted. Accordingly, there are two main
+stochastic processes for which the characterizations must be
+learned (inferred from data) during training. The ﬁrst random
+process models the (hidden) sequence of states that occurs en
+route to generating a given observation sequence. The second
+models the generation of observations by the various states.

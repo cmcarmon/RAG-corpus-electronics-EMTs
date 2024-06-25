@@ -1,0 +1,4 @@
+Power System Dynamic Simulation
+This subsystem simulates the dynamic behavior of the power system. System frequency is simulated using the
+“long-term dynamics” system model, where frequency of all units is assumed to be the same. The prime-mover
+dynamics are represented by models of the units, turbines, governors, boilers, and boiler auxiliaries. The network

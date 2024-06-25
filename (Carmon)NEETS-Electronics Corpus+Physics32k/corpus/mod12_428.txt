@@ -1,0 +1,9 @@
+The COMMON-EMITTER DETECTOR is often used in receivers to supply an amplified detected
+output. The schematic for a typical transistor common-emitter detector is shown in figure 3-7. Input
+transformer T1 has a tuned primary that acts as a frequency-selective device. L2 inductively couples the
+input modulation envelope to the base of transistor Q1. Resistors R1 and R2 are fixed-bias voltage
+dividers that set the bias levels for Q1. Resistor R1 is bypassed by C2 to eliminate rf. This RC
+combination also acts as the load for the diode detector (emitter-base junction of Q1). The detected audio
+is in series with the biasing voltage and controls collector current. The output is developed across R4
+which is also bypassed to remove rf by C4. R3 is a temperature stabilization resistor and C3 bypasses it
+for both rf and af.

@@ -1,0 +1,8 @@
+This expression represents the actual time propagation of the
+real system and the estimate. Since the estimate is calculated
+exactly,2 no process driving noise is represented in the corres-
+ponding rows of equation 4.33. In addition, the zeros concat-
+enated into the estimation gain vector account for the fact that
+the estimator corrections do not affect the state of the actual
+system. For this coupled system, the covariance propagates
+between sampling times according to:

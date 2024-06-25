@@ -1,0 +1,12 @@
+2. Forward error correction (FEC): This second approach
+provides sufﬁcient redundancy in packets so that errors
+can be corrected without the need for retransmissions.
+It can be used by User Datagram Protocol (UDP),
+another transport layer protocol in the TCP/IP proto-
+col stack that provides connectionless unreliable ser-
+vice. Applications that exchange error-tolerant media
+types (both RT and NRT) typically use UDP for trans-
+port because it eliminates time lost in retransmissions.
+Leigh et al. (2001) have conducted experiments using
+FEC along with UDP over a global high-bandwidth
+communication network, STARTAP.

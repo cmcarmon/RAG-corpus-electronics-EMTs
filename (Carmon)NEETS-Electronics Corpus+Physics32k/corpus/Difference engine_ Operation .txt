@@ -1,0 +1,14 @@
+The difference engine consists of a number of columns, numbered from 1 to N. The machine is able to store one decimal number in each column. The machine can only add the value of a column n + 1 to column n to produce the new value of n. Column N can only store a constant, column 1 displays (and possibly prints) the value of the calculation on the current iteration.
+The engine is programmed by setting initial values to the columns. Column 1 is set to the value of the polynomial at the start of computation. Column 2 is set to a value derived from the first and higher derivatives of the polynomial at the same value of X. Each of the columns from 3 to N is set to a value derived from the
+
+
+
+(
+n
+−
+1
+)
+
+
+{\displaystyle (n-1)}
+first and higher derivatives of the polynomial.

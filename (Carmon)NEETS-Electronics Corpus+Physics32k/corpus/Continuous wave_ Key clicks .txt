@@ -1,0 +1,48 @@
+In order to transmit information, the continuous wave must be turned off and on with a telegraph key to produce the different length pulses, "dots" and "dashes", that spell out text messages in Morse code, so a "continuous wave" radiotelegraphy signal consists of pulses of sine waves with a constant amplitude interspersed with gaps of no signal.
+In on-off carrier keying, if the carrier wave is turned on or off abruptly, communications theory can show that the bandwidth will be large; if the carrier turns on and off more gradually, the bandwidth will be smaller. The bandwidth of an on-off keyed signal is related to the data transmission rate as:
+
+
+
+
+B
+
+n
+
+
+=
+B
+K
+
+
+{\displaystyle B_{n}=BK}
+where
+
+
+
+
+B
+
+n
+
+
+
+
+{\displaystyle B_{n}}
+is the necessary bandwidth in hertz,
+
+
+
+B
+
+
+{\displaystyle B}
+is the keying rate in signal changes per second (baud rate), and
+
+
+
+K
+
+
+{\displaystyle K}
+is a constant related to the expected radio propagation conditions; K=1 is difficult for a human ear to decode, K=3 or K=5 is used when fading or multipath propagation is expected.
+The spurious noise emitted by a transmitter which abruptly switches a carrier on and off is called key clicks. The noise occurs in the part of the signal bandwidth further above and below the carrier than required for normal, less abrupt switching. The solution to the problem for CW is to make the transition between on and off to be more gradual, making the edges of pulses soft, appearing more rounded, or to use other modulation methods (e.g. phase modulation). Certain types of power amplifiers used in transmission may aggravate the effect of key clicks.

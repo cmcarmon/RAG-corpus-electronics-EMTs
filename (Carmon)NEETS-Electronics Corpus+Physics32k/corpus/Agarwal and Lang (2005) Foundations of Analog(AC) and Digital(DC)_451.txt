@@ -1,0 +1,5 @@
+Interestingly, the SPICE software package uses the node method to solve
+circuits. The program takes as input a file containing a description of the circuit
+topology and by systematically following the node method produces a matrix
+equation such as that in Equation 3.27. It then solves for the vector of unknowns
+¯e using standard linear algebraic techniques.

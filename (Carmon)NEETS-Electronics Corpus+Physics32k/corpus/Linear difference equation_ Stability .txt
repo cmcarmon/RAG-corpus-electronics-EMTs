@@ -1,0 +1,68 @@
+In the solution equation
+
+
+
+
+x
+
+t
+
+
+=
+
+c
+
+1
+
+
+
+λ
+
+1
+
+
+t
+
+
++
+⋯
++
+
+c
+
+n
+
+
+
+λ
+
+n
+
+
+t
+
+
+,
+
+
+{\displaystyle x_{t}=c_{1}\lambda _{1}^{t}+\cdots +c_{n}\lambda _{n}^{t},}
+a term with real characteristic roots converges to 0 as t grows indefinitely large if the absolute value of the characteristic root is less than 1. If the absolute value equals 1, the term will stay constant as t grows if the root is +1 but will fluctuate between two values if the root is –1. If the absolute value of the root is greater than 1 the term will become larger and larger over time. A pair of terms with complex conjugate characteristic roots will converge to 0 with dampening fluctuations if the absolute value of the modulus M of the roots is less than 1; if the modulus equals 1 then constant amplitude fluctuations in the combined terms will persist; and if the modulus is greater than 1, the combined terms will show fluctuations of ever-increasing magnitude.
+Thus the evolving variable x will converge to 0 if all of the characteristic roots have magnitude less than 1.
+If the largest root has absolute value 1, neither convergence to 0 nor divergence to infinity will occur. If all roots with magnitude 1 are real and positive, x will converge to the sum of their constant terms
+
+
+
+
+c
+
+i
+
+
+;
+
+
+{\displaystyle c_{i};}
+unlike in the stable case, this converged value depends on the initial conditions: different starting points lead to different points in the long run. If any root is –1, its term will contribute permanent fluctuations between two values. If any of the unit-magnitude roots are complex then constant-amplitude fluctuations of x will persist.
+Finally, if any characteristic root has magnitude greater than 1, then x will diverge to infinity as time goes to infinity, or will fluctuate between increasingly large positive and negative values.
+A theorem of Issai Schur states that all roots have magnitude less than 1 (the stable case) if and only if a particular string of determinants are all positive.
+If a non-homogeneous linear difference equation has been converted to homogeneous form which has been analyzed as above, then the stability and cyclicality properties of the original non-homogeneous equation will be the same as those of the derived homogeneous form, with convergence in the stable case being to the steady-state value y* instead of to 0.

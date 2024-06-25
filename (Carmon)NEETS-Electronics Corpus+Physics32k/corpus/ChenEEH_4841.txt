@@ -1,0 +1,11 @@
+The following example illustrates how middleware can be
+used to facilitate control system integration and evolution of
+the system as new hardware components or new software
+algorithms become available. Consider the ﬂight control
+example introduced in Figure 14.2. This control system is
+shown in Figure 14.4 integrated into a publish/subscribe
+model. The publishing components (those that produce
+data) are shown with arrows pointing away from them, and
+the subscribing components (those that require data) are
+shown with arrows pointing toward them. Note that some
+components are both publishers and subscribers.

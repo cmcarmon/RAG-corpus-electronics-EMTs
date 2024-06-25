@@ -1,0 +1,5 @@
+In audio coding, irrelevant portions of an audio signal can be removed without
+perceptual effect. Once removed, however, they cannot be regenerated in the decoder. Contrary to this,
+redundant portions of a signal that have been removed in the encoder can be regenerated in the decoder.
+The “lacking” irrelevant parts of an original signal constitute the major cause for a (misleadingly) low
+signal-to-noise ratio (SNR) of the decoded signal while its subjective quality can still be high.

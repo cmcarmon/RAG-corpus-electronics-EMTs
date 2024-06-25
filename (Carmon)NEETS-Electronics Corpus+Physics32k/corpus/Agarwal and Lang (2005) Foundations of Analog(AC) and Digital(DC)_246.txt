@@ -1,0 +1,9 @@
+To make the problem specific, suppose that we wish to find the current
+i4 in Figure 2.1, given the values of the voltage source and the resistors. In
+general, we can resort to Maxwell’s Equations to solve the circuit. But this
+approach is really impractical. Instead, when circuits obey the lumped matter
+discipline, Maxwell’s Equations can be dramatically simplified into two algebraic
+relationships stated as Kirchhoff’s voltage law (KVL) and Kirchhoff’s current law
+(KCL). This chapter introduces these algebraic relationships and then uses them
+to develop a systematic approach to solving circuits, thereby finding the current
+i4 in our specific example.

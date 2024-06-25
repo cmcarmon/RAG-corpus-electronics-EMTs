@@ -1,0 +1,14 @@
+. The redundant array of inexpensive disks (RAID) was
+introduced by David Patterson and other researchers at
+the University of California, Berkeley, in the late 1980s. It
+is a method where two or more disks are used to store
+data. Data can be read simultaneously from more than
+one drive, which improves the performance. Data can
+also be split among all drives in bits, bytes, or blocks.
+Typically two or more disks are connected together. A
+single controller can be used to connect the drives so that
+they function together as one drive. For extra safety, a
+second interface controller can be installed to duplex the
+drives and increase read performance. The major advan-
+tages of RAID are improvement in reliability and protec-
+tion for data in mass storage systems.

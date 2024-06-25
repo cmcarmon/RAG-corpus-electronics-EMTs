@@ -1,0 +1,247 @@
+The simplest algorithm for generating a representation of the Mandelbrot set is known as the "escape time" algorithm. A repeating calculation is performed for each x, y point in the plot area and based on the behavior of that calculation, a color is chosen for that pixel.
+The x and y locations of each point are used as starting values in a repeating, or iterating calculation (described in detail below). The result of each iteration is used as the starting values for the next. The values are checked during each iteration to see whether they have reached a critical "escape" condition, or "bailout". If that condition is reached, the calculation is stopped, the pixel is drawn, and the next x, y point is examined. For some starting values, escape occurs quickly, after only a small number of iterations. For starting values very close to but not in the set, it may take hundreds or thousands of iterations to escape. For values within the Mandelbrot set, escape will never occur. The programmer or user must choose how much iteration, or "depth", they wish to examine. The higher the maximal number of iterations, the more detail and subtlety emerge in the final image, but the longer time it will take to calculate the fractal image.
+Escape conditions can be simple or complex. Because no complex number with a real or imaginary part greater than 2 can be part of the set, a common bailout is to escape when either coefficient exceeds 2. A more computationally complex method that detects escapes sooner, is to compute distance from the origin using the Pythagorean theorem, i.e., to determine the absolute value, or modulus, of the complex number. If this value exceeds 2, or equivalently, when the sum of the squares of the real and imaginary parts exceed 4, the point has reached escape. More computationally intensive rendering variations include the Buddhabrot method, which finds escaping points and plots their iterated coordinates.
+The color of each point represents how quickly the values reached the escape point. Often black is used to show values that fail to escape before the iteration limit, and gradually brighter colors are used for points that escape. This gives a visual representation of how many cycles were required before reaching the escape condition.
+To render such an image, the region of the complex plane we are considering is subdivided into a certain number of pixels. To color any such pixel, let
+
+
+
+c
+
+
+{\displaystyle c}
+be the midpoint of that pixel. We now iterate the critical point 0 under
+
+
+
+
+P
+
+c
+
+
+
+
+{\displaystyle P_{c}}
+, checking at each step whether the orbit point has modulus larger than 2. When this is the case, we know that
+
+
+
+c
+
+
+{\displaystyle c}
+does not belong to the Mandelbrot set, and we color our pixel according to the number of iterations used to find out. Otherwise, we keep iterating up to a fixed number of steps, after which we decide that our parameter is "probably" in the Mandelbrot set, or at least very close to it, and color the pixel black.
+In pseudocode, this algorithm would look as follows. The algorithm does not use complex numbers and manually simulates complex-number operations using two real numbers, for those who do not have a complex data type. The program may be simplified if the programming language includes complex-data-type operations.
+
+For each pixel (Px, Py) on the screen, do:
+{
+x0 = scaled x coordinate of pixel (scaled to lie in the Mandelbrot X scale (-2.5, 1))
+y0 = scaled y coordinate of pixel (scaled to lie in the Mandelbrot Y scale (-1, 1))
+x = 0.0
+y = 0.0
+iteration = 0
+max_iteration = 1000
+while (x*x + y*y < 2*2  AND  iteration < max_iteration) {
+xtemp = x*x - y*y + x0
+y = 2*x*y + y0
+x = xtemp
+iteration = iteration + 1
+}
+color = palette[iteration]
+plot(Px, Py, color)
+}
+
+Here, relating the pseudocode to
+
+
+
+c
+
+
+{\displaystyle c}
+,
+
+
+
+z
+
+
+{\displaystyle z}
+and
+
+
+
+
+P
+
+c
+
+
+
+
+{\displaystyle P_{c}}
+:
+
+
+
+
+z
+=
+x
++
+i
+y
+
+
+
+{\displaystyle z=x+iy\ }
+
+
+
+
+
+
+z
+
+2
+
+
+=
+
+x
+
+2
+
+
++
+i
+2
+x
+y
+−
+
+y
+
+2
+
+
+
+
+
+{\displaystyle z^{2}=x^{2}+i2xy-y^{2}\ }
+
+
+
+
+
+c
+=
+
+x
+
+0
+
+
++
+i
+
+y
+
+0
+
+
+
+
+
+{\displaystyle c=x_{0}+iy_{0}\ }
+
+and so, as can be seen in the pseudocode in the computation of x and y:
+
+
+
+
+x
+=
+
+
+R
+e
+
+
+⁡
+(
+
+z
+
+2
+
+
++
+c
+)
+=
+
+x
+
+2
+
+
+−
+
+y
+
+2
+
+
++
+
+x
+
+0
+
+
+
+
+{\displaystyle x=\mathop {\mathrm {Re} } (z^{2}+c)=x^{2}-y^{2}+x_{0}}
+and
+
+
+
+y
+=
+
+
+I
+m
+
+
+⁡
+(
+
+z
+
+2
+
+
++
+c
+)
+=
+2
+x
+y
++
+
+y
+
+0
+
+
+.
+
+
+
+{\displaystyle y=\mathop {\mathrm {Im} } (z^{2}+c)=2xy+y_{0}.\ }
+
+To get colorful images of the set, the assignment of a color to each value of the number of executed iterations can be made using one of a variety of functions (linear, exponential, etc.). One practical way, without slowing down calculations, is to use the number of executed iterations as an entry to a look-up color palette table initialized at startup. If the color table has, for instance, 500 entries, then the color selection is n mod 500, where n is the number of iterations.

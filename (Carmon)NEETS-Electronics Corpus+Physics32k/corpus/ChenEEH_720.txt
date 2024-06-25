@@ -1,0 +1,16 @@
+Cost Model for High-Speed Memory Architectures
+New memory architectures are developed to provide a higher
+basic access speed. To have a better understanding, we ﬁrst
+brieﬂy explain a model reﬂecting the virtual operation of a
+modern SDRAM5 (see Figure 2.14). We abstract the physical
+implementation details that we cannot inﬂuence (e.g., the
+bitwidth, the circuits used, the ﬂoor-plan, and the memory
+plane organization). Some of these have already been men-
+tioned in Subsection 2.3.1. The SDRAM consists of several
+banks that are accessed in an interleaved fashion to sustain a
+high throughput (pipelining principle). Every bank typically
+has several planes that can be activated separately. The virtual
+plane is deﬁned as the total storage matrix entity that is
+activated (and consumes energy) when a particular memory
+access is performed. The planes contain a page that is copied to
+a local latch register for fast access.

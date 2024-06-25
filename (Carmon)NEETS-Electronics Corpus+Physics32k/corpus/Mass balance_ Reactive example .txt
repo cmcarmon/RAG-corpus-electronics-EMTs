@@ -1,0 +1,60 @@
+In the first example, we will show how to use a mass balance to derive a relationship between the percent excess air for the combustion of a hydrocarbon-base fuel oil and the percent oxygen in the combustion product gas. First, normal dry air contains 0.2095 mol of oxygen per mole of air, so there is one mole of O2 in 4.773 mol of dry air. For stoichiometric combustion, the relationships between the mass of air and the mass of each combustible element in a fuel oil are:
+
+
+
+
+
+Considering the accuracy of typical analytical procedures, an equation for the mass of air per mass of fuel at stoichiometric combustion is:
+
+where wC, wH, wS, and wO refer to the mass fraction of each element in the fuel oil, sulfur burning to SO2, and AFRmass refers to the air-fuel ratio in mass units.
+For 1 kg of fuel oil containing 86.1% C, 13.6% H, 0.2% O, and 0.1% S the stoichiometric mass of air is 14.56 kg, so AFR = 14.56. The combustion product mass is then 15.56 kg. At exact stoichiometry, O2 should be absent. At 15 percent excess air, the AFR = 16.75, and the mass of the combustion product gas is 17.75 kg, which contains 0.505 kg of excess oxygen. The combustion gas thus contains 2.84 percent O2 by mass. The relationships between percent excess air and %O2 in the combustion gas are accurately expressed by quadratic equations, valid over the range 0–30 percent excess air:
+
+
+
+In the second example we will use the law of mass action to derive the expression for a chemical equilibrium constant.
+Assume we have a closed reactor in which the following liquid phase reversible reaction occurs:
+
+The mass balance for substance A becomes
+
+
+
+As we have a liquid phase reaction we can (usually) assume a constant volume and since
+
+
+
+
+n
+
+
+A
+
+
+
+=
+V
+∗
+
+C
+
+
+A
+
+
+
+
+
+{\displaystyle n_{\mathrm {A} }=V*C_{\mathrm {A} }}
+we get
+
+or
+
+In many text books this is given as the definition of reaction rate without specifying the implicit assumption that we are talking about reaction rate in a closed system with only one reaction. This is an unfortunate mistake that has confused many students over the years.
+According to the law of mass action the forward reaction rate can be written as
+
+and the backward reaction rate as
+
+The rate at which substance A is produced is thus
+
+and since, at equilibrium, the concentration of A is constant we get
+
+or, rearranged

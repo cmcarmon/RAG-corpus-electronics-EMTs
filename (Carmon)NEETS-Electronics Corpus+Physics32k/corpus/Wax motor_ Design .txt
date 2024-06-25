@@ -1,0 +1,19 @@
+The principal components of a wax motor are:
+An enclosed volume of wax
+A plunger or stroke-rod to convert the thermo-hydraulic force from the wax into a useful mechanical output
+A source of heat such as:
+Electric current; typically a PTC thermistor, that heats the wax
+Solar radiation; e.g. greenhouse vents
+Combustion heat; e.g. excess heat from internal combustion engines
+Ambient heat
+
+A sink to reject heat energy such as:
+Convection to cooler ambient air
+Peltier effect device arranged to transfer heat energy away
+
+When the heat source is energized, the wax block is heated and it expands, driving the plunger outwards by volume displacement. When the heat source is removed, the wax block contracts as it cools and the wax solidifies. For the plunger to withdraw, a biasing force is usually required to overcome the mechanical resistance of seals that contain the liquid wax. The biasing force is typically 20% to 30% of the operating force and often provided by a mechanical spring or gravity-fed dead weight applied externally into the wax motor (Duerig 1990, p. 214).
+Depending on the particular application, wax motors potentially have advantages over magnetic solenoids:
+They provide a large hydraulic force from the expansion of the wax in the order of 4000N (Tibbitts 1988, p. 13).
+Both the application and the release of the wax motor is not instantaneous, but rather, smooth and gentle.
+Because the wax motor is a resistive load rather than an inductive load, wax motors controlled by TRIACs do not require snubber circuits.
+Wax motors can be operated entirely passively by exploting ambient sources of energy. Given that a variety of melting-points are possible for the wax used inside the motor, one can be selected to match the range of ambient operating temperatures in a given application. In this way the wax can be melted and solidified within this range by the transfer of thermal energy. When co-located with the heat source, wax motors can be operated without the need for an additional external power source.

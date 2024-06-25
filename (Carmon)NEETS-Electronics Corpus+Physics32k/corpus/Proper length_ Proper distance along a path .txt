@@ -1,0 +1,57 @@
+The above formula for the proper distance between two events assumes that the spacetime in which the two events occur is flat. Hence, the above formula cannot in general be used in general relativity, in which curved spacetimes are considered. It is, however, possible to define the proper distance along a path in any spacetime, curved or flat. In a flat spacetime, the proper distance between two events is the proper distance along a straight path between the two events. In a curved spacetime, there may be more than one straight path (geodesic) between two events, so the proper distance along a straight path between two events would not uniquely define the proper distance between the two events.
+Along an arbitrary spacelike path P, the proper distance is given in tensor syntax by the line integral
+
+
+
+
+L
+=
+c
+
+∫
+
+P
+
+
+
+
+−
+
+g
+
+μ
+ν
+
+
+d
+
+x
+
+μ
+
+
+d
+
+x
+
+ν
+
+
+
+
+
+
+{\displaystyle L=c\int _{P}{\sqrt {-g_{\mu \nu }dx^{\mu }dx^{\nu }}}}
+,
+where
+gμν is the metric tensor for the current spacetime and coordinate mapping, and
+dxμ is the coordinate separation between neighboring events along the path P.
+In the equation above, the metric tensor is assumed to use the +−−− metric signature, and is assumed to be normalized to return a time instead of a distance. The − sign in the equation should be dropped with a metric tensor that instead uses the −+++ metric signature. Also, the
+
+
+
+c
+
+
+{\displaystyle c}
+should be dropped with a metric tensor that is normalized to use a distance, or that uses geometrized units.

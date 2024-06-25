@@ -1,0 +1,13 @@
+A less obvious but equally important application of amplifiers is buffering.
+As the name implies, a buffer isolates one part of a system from another. Buffers
+allow us to compose complicated systems from smaller components by isolat-
+ing the behavior of the individual components from each other. Many sensors,
+for example, produce a voltage signal, but cannot supply a large amount of
+current. (For instance, they might have a high Thévenin resistance.) However,
+later processing stages might require that the device supply a given amount of
+current. If this high current is drawn, a large voltage drop across the internal
+resistance of the sensor seriously attenuates the output voltage. In such situa-
+tions, we might employ a buffer device that replicates the sensor’s voltage signal
+at its output but can also provide a large amount of current. In such buffering
+applications, we shall often see amplifiers with less than unity voltage gain, but
+greater than unit current and power gain.

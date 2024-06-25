@@ -1,0 +1,17 @@
+The ﬁrst problem involves the relatively straightforward task
+of determining a measure of similarity between sets of features
+resulting from the analysis of two frames of speech. When
+features composing the feature vectors represent uncorrelated
+pieces of information with similar scales (e.g., outcomes of
+uncorrelated random variables with equal variances), then the
+widely used Euclidean distance is an appropriate measure of
+similarity between the vectors. Such is the case, for example,
+with cepstral coefﬁcients because the parameters are coefﬁ-
+cients of a Fourier series and, therefore, represent an expansion
+on an orthogonal set of basis functions. Determining the
+‘‘distance’’ between (models represented by) two sets of LP
+parameters, however, is a common task for which the Euclid-
+ean distance is not appropriate because the LP parameters are
+highly correlated. For this problem, some variation of the
+Itakura distance measure (Itakura, 1975) (discussed next) is
+often used.

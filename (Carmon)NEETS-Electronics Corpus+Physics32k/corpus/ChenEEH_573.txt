@@ -1,0 +1,8 @@
+For higher current or voltage-handling capability, devices
+can be connected in parallel or series. Connecting BJTs in
+parallel can lead to instabilities because of a negative tempera-
+ture coefﬁcient of the on-state resistance. During conduction,
+if the temperature of one device rises, its resistance reduces,
+causing it to pass more current than other transistors. This, in
+turn, leads to a further rise in current, eventually resulting in a
+thermal runaway condition that destroys the device.

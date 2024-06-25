@@ -1,0 +1,12 @@
+Step 2 in signal detection process consists of comparing the
+z(T) to a threshold level l in block 2 of Figure 3.1 to estimate
+which signal, s1(t ) or s2(t ), has been transmitted. The ﬁltering
+operation in block 1 does not depend on the decision criterion
+in block 2. Thus, the choice of how best to implement block
+1 can be independent of the particular decision choice of the
+threshold setting, l. After a received waveform, r(t), is trans-
+formed to z(T), the actual shape of the waveform is no longer
+important. The signal energy (not its shape) is the important
+parameter in the detection process. Thus, the detection analy-
+sis for baseband signals is the same as that for bandpass
+signals. The ﬁnal step in block II is to make the detection.

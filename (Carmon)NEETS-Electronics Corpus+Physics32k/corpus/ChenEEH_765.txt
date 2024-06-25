@@ -1,0 +1,14 @@
+Both the memory allocation and the signal-to-memory as-
+signment have to take into account the constraints generated
+by the SCBD tool to meet the real-time requirements. For the
+memory allocation,
+this means that a certain minimum
+number of memories is needed (again, for multiport memo-
+ries, the situation is more complicated). This minimum is
+derived from the conﬂict graph’s chromatic number and
+is also indicated in Figure 2.23. For the signal-to-memory
+assignment, conﬂicting arrays cannot be assigned to the same
+memory. When there is a conﬂict between two arrays that in
+the optimal assignment were stored in the same memory, a less
+efﬁcient assignment must be accepted. Thus, more conﬂicts
+make the memory organization potentially more expensive.

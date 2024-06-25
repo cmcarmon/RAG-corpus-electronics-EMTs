@@ -1,0 +1,5 @@
+Even if the model is accurate, the ability to compute the dynamics at sample rate (60 to100 Hz is typical) is
+still a problem. It is estimated that the Stanford manipulator requires 2000 ﬂoating-point additions and 1500
+multiplications  to  compute  all  joint  torques.  A  way  to  overcome  this  problem  is  to  use  the  control  scheme
+where  the  model  is  outside  the  feedback  loop  shown  in  Fig. 101.17,  [Craig, 1989].  In  this  case,  the  desired
+torques are calculated a priori using the model given in Eq. (101.26) as follows:

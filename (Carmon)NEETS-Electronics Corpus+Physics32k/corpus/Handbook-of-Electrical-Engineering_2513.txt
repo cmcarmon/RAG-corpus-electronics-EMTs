@@ -1,0 +1,5 @@
+This is actually a case of current-derived negative feedback, and it successfully holds the collector current
+near the quiescent value IQ. Furthermore, it does so in spite of different transistors with different values of hFE
+being used and in spite of temperature variations. Actually, VBE itself falls with temperature at about –2.2 mV/(cid:176)C
+for constant IC , and the circuit will compensate for this, too. The degree of success of the negative feedback in
+holding IQ constant is called the bias stability.

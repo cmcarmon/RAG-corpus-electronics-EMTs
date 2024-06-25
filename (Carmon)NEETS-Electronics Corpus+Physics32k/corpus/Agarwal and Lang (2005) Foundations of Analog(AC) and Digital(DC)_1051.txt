@@ -1,0 +1,9 @@
+Equations 7.60 through 7.62 are valid only as long as both MOSFETs remain in their
+saturation region of operation. One requirement for saturation operation is that |vIN1 −
+(cid:8)
+vIN2| must not be so large that either MOSFET is cut off. Thus,
+(cid:8)
+2iD2/K, and similarly
+2iD1/K, must be positive. From Equations 7.53 and 7.54, this is equivalent to vGS1 >
+VT and vGS2 > VT. From Equations 7.60 and 7.62, cutoff is therefore avoided as
+long as

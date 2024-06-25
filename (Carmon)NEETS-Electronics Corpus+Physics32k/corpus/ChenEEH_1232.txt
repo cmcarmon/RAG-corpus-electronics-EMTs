@@ -1,0 +1,12 @@
+interconnects are largely determined by ﬂoor planning, it be-
+comes critical for ﬂoor planning engines to be able to handle
+efﬁcient interconnect planning and optimizations so that the
+overall timing and design convergence can be achieved. Due to
+the inherent complexity of the interconnect driven ﬂoor plan-
+ning (IDFP) problem, designers use multistage, adaptive cost
+functions in IDFP to gradually consider more interconnect
+optimization, planning, and/or global routing features. Using
+the adaptive cost functions gives designers ﬂexibility to tune
+for different design objectives and to trade-off between per-
+formance and run time. They use a simulated annealing algo-
+rithm to achieve this ﬂow.

@@ -1,0 +1,9 @@
+The frequency discriminator controls the varicap in this receiver. A varicap is used to keep the IF
+stable. You may want to review varicap theory in chapter 3 of NEETS, Module 7, Introduction to Solid-
+State Devices and Power Supplies at this point. The varicap application here produces an apparent
+reactance, which is included in the oscillator frequency control circuitry. For example, let’s assume the IF
+is 455 kilohertz and the local oscillator (lo) is tracking below the incoming station. When the lo output
+decreases slightly in frequency, the IF will rise. This causes the output of the discriminator to increase the
+capacitive reactance of the varicap, which increases the oscillator frequency to the desired value. Now
+let’s assume the lo output increases. The IF will then decrease. This causes the discriminator output to
+decrease the capacitive reactance of the varicap. This will cause the oscillator frequency to decrease.

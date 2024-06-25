@@ -1,0 +1,9 @@
+that the output for the next state is reset. For S R = 10, Q = 1, indicating that the output for the next state is
+set. In most cases the input conditions S R = 11 are not allowed for two reasons. If S R = 11, then the alternate
+output  for  the  bistable,  shown  in  parentheses  as 
+  in  Fig. 79.16,  is  not  logically  correct  as  it  is  for  all  other
+input combinations. The second reason is more subtle since the next state of the bistable can be set or reset
+due to a critical race condition when the inputs are changed from 11 to 00. Such unpredictability is not desirable
+Q
+and therefore the S R = 11 condition is generally not allowed. Latches and ﬂip-ﬂops that contain a Q and a 
+output (complementary outputs) provide double-rail outputs.

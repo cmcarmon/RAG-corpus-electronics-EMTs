@@ -1,0 +1,4 @@
+Quantum Readout of PUFs achieves
+Hands-off object authentication without trusted hardware at the side of the object.
+Authentication of a quantum communication channel without a priori shared secrets and without shared entangled particles. The authentication is based on public information.
+Imagine Alice and Bob wish to engage in Quantum key distribution on an ad hoc basis, i.e. without ever having exchanged data or matter in the past. They both have an enrolled optical PUF. They look up each other's PUF enrollment data from a trusted source. They run quantum key distribution through both optical PUFs; with a slight modification of the protocol, they get quantum key distribution and two-way authentication. The security of their key distribution is unconditional, but the security of the authentication is conditional on the two assumptions mentioned above.

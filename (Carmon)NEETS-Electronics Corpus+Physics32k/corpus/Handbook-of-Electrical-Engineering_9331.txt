@@ -1,0 +1,4 @@
+New  objects  of  a  class  are  created—usually  dynamically—by  factory  methods  addressed  to  the  class  itself.
+These  methods  allocate  the  equivalent  of  a  record  whose  ﬁelds  are  the  instance  variables  of  the  object  and
+return  a  reference  to  this  record,  which  represents  the  new  object.  After  its  creation,  an  object  can  receive
+messages from other objects.

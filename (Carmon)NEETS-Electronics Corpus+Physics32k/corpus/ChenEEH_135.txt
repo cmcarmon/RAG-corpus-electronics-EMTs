@@ -1,0 +1,13 @@
+Note that the last column in the table shows that the right-
+hand side of equation 3.9 approaches zero with each iteration,
+indicating that the ﬁnal value is being reached and the iter-
+ations can be stopped when the value is sufﬁciently close to
+zero. Also note that with each iteration, the change in the
+solution is becoming smaller, indicating that one is getting
+closer to the exact solution. Since the circuit is nonlinear, the
+Jacobian must be computed for each iteration and is usually
+the most expensive portion of the entire solution method. If a
+better initial guess is made, such as v0 ¼ 1:0
+T ,
+then the NR method will converge to the ﬁnal value in fewer
+iterations.

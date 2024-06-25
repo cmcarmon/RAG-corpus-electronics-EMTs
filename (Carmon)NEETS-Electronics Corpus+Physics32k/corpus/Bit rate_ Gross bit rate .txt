@@ -1,0 +1,101 @@
+In digital communication systems, the physical layer gross bitrate, raw bitrate, data signaling rate, gross data transfer rate or uncoded transmission rate (sometimes written as a variable Rb or fb) is the total number of physically transferred bits per second over a communication link, including useful data as well as protocol overhead.
+In case of serial communications, the gross bit rate is related to the bit transmission time
+
+
+
+
+T
+
+b
+
+
+
+
+{\displaystyle T_{b}}
+as:
+
+
+
+
+
+R
+
+b
+
+
+=
+
+
+1
+
+T
+
+b
+
+
+
+
+,
+
+
+{\displaystyle R_{b}={1 \over T_{b}},}
+
+The gross bit rate is related to the symbol rate or modulation rate, which is expressed in bauds or symbols per second. However, the gross bit rate and the baud value are equal only when there are only two levels per symbol, representing 0 and 1, meaning that each symbol of a data transmission system carries exactly one bit of data; for example, this is not the case for modern modulation systems used in modems and LAN equipment.
+For most line codes and modulation methods:
+Symbol rate ≤ Gross bit rate
+More specifically, a line code (or baseband transmission scheme) representing the data using pulse-amplitude modulation with 2N different voltage levels, can transfer N bit/pulse. A digital modulation method (or passband transmission scheme) using 2N different symbols, for example 2N amplitudes, phases or frequencies, can transfer N bit/symbol. This results in:
+Gross bit rate = Symbol rate · N
+An exception from the above is some self-synchronizing line codes, for example Manchester coding and return-to-zero (RTZ) coding, where each bit is represented by two pulses (signal states), resulting in:
+Gross bit rate = Symbol rate/2
+A theoretical upper bound for the symbol rate in baud, symbols/s or pulses/s for a certain spectral bandwidth in hertz is given by the Nyquist law:
+Symbol rate ≤ Nyquist rate = 2 · bandwidth
+In practice this upper bound can only be approached for line coding schemes and for so-called vestigal sideband digital modulation. Most other digital carrier-modulated schemes, for example ASK, PSK, QAM and OFDM, can be characterized as double sideband modulation, resulting in the following relation:
+Symbol rate ≤ Bandwidth
+In case of parallel communication, the gross bit rate is given by
+
+
+
+
+
+∑
+
+i
+=
+1
+
+
+n
+
+
+
+
+
+
+log
+
+2
+
+
+⁡
+
+
+M
+
+i
+
+
+
+
+
+T
+
+i
+
+
+
+
+
+
+{\displaystyle \sum _{i=1}^{n}{\frac {\log _{2}{M_{i}}}{T_{i}}}}
+
+where n is the number of parallel channels, Mi is the number of symbols or levels of the modulation in the i-th channel, and Ti is the symbol duration time, expressed in seconds, for the i-th channel.

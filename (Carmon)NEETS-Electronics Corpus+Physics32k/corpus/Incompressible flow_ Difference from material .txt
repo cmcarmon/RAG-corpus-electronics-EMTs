@@ -1,0 +1,212 @@
+As defined earlier, an incompressible (isochoric) flow is the one in which
+
+
+
+
+∇
+⋅
+
+u
+
+=
+0.
+
+
+
+{\displaystyle \nabla \cdot \mathbf {u} =0.\,}
+
+This is equivalent to saying that
+
+
+
+
+
+
+
+D
+ρ
+
+
+D
+t
+
+
+
+=
+
+
+
+∂
+ρ
+
+
+∂
+t
+
+
+
++
+
+u
+
+⋅
+∇
+ρ
+=
+0
+
+
+{\displaystyle {\frac {D\rho }{Dt}}={\frac {\partial \rho }{\partial t}}+\mathbf {u} \cdot \nabla \rho =0}
+
+i.e. the material derivative of the density is zero. Thus if we follow a material element, its mass density remains constant. Note that the material derivative consists of two terms. The first term
+
+
+
+
+
+
+
+∂
+ρ
+
+
+∂
+t
+
+
+
+
+
+
+{\displaystyle {\tfrac {\partial \rho }{\partial t}}}
+describes how the density of the material element changes with time. This term is also known as the unsteady term. The second term,
+
+
+
+
+u
+
+⋅
+∇
+ρ
+
+
+{\displaystyle \mathbf {u} \cdot \nabla \rho }
+describes the changes in the density as the material element moves from one point to another. This is the advection term (convection term for scalar field). For a flow to be incompressible the sum of these terms should be zero.
+On the other hand, a homogeneous, incompressible material is one that has constant density throughout. For such a material,
+
+
+
+ρ
+=
+
+constant
+
+
+
+{\displaystyle \rho ={\text{constant}}}
+. This implies that,
+
+
+
+
+
+
+
+∂
+ρ
+
+
+∂
+t
+
+
+
+=
+0
+
+
+{\displaystyle {\frac {\partial \rho }{\partial t}}=0}
+and
+
+
+
+
+∇
+ρ
+=
+0
+
+
+{\displaystyle \nabla \rho =0}
+independently.
+From the continuity equation it follows that
+
+
+
+
+
+
+
+D
+ρ
+
+
+D
+t
+
+
+
+=
+
+
+
+∂
+ρ
+
+
+∂
+t
+
+
+
++
+
+u
+
+⋅
+∇
+ρ
+=
+0
+⇒
+∇
+⋅
+
+u
+
+=
+0
+
+
+{\displaystyle {\frac {D\rho }{Dt}}={\frac {\partial \rho }{\partial t}}+\mathbf {u} \cdot \nabla \rho =0\Rightarrow \nabla \cdot \mathbf {u} =0}
+
+Thus homogeneous materials always undergo flow that is incompressible, but the converse is not true.
+It is common to find references where the author mentions incompressible flow and assumes that density is constant. Even though this is technically incorrect, it is an accepted practice. One of the advantages of using the incompressible material assumption over the incompressible flow assumption is in the momentum equation where the kinematic viscosity (
+
+
+
+ν
+=
+
+
+
+μ
+ρ
+
+
+
+
+
+{\displaystyle \nu ={\tfrac {\mu }{\rho }}}
+) can be assumed constant. The subtlety above is frequently a source of confusion. Therefore, many people prefer to refer explicitly to incompressible materials or isochoric flow when being descriptive about the mechanics.

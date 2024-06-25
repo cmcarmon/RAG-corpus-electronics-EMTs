@@ -1,0 +1,16 @@
+Dynamic Programming
+Dynamic programming (DP) has a rich and varied history in
+mathematics (Silverman and Morgan, 1990; Bellman, 1957).
+DP as we discuss it here is actually a special class of DP
+problems that is concerned with discrete sequential decisions.
+Let us ﬁrst view DP in a general framework. Consider a
+‘‘grid’’ in the plane where discrete points or nodes of interest
+are, for convenience, indexed by ordered pairs of non-negative
+integers as though they are points in the ﬁrst quadrant of the
+Cartesian plane. The basic problem is to ﬁnd a ‘‘shortest
+distance’’ or ‘‘least cost’’ path through the grid that begins at
+a designated original node, (0,0), and ends at a designated
+terminal node, (I, J). A path from node (i0, j0) to node
+(iN , jN ) is an ordered set of nodes (index pairs) of the form
+(i0, j0), (i1, j1), (i2, j2), (i3, j3), . . . , (iN , jN ), where the inter-
+mediate (ik, jk) pairs are not, in general, restricted.

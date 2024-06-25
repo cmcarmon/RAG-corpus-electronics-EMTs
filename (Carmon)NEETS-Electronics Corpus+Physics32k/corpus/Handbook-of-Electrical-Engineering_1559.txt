@@ -1,0 +1,7 @@
+The methods described in [14] incorporate the deﬁnition of an envelope that is used to mark partial paths
+in  the  stack  as alive  or  dead;  these  considerably  speed  up  the  search.  In  [13],  a  tree  search  strategy  called  the
+envelope search is presented. This is a time-asynchronous search that combines aspects of the A* search with the
+time-synchronous Viterbi  search.  Several  bi-directional  search  strategies  have  been  proposed  by  Li  et al.  [18].
+Kenny et al. discuss several aspects of A* algorithms in [12]. A different approach involving majority decisions
+on observed discrete acoustic output strings leading to a polling fast match is introduced by Bahl et al. in [15].
+The use of multiple stacks is yet another way to control the search procedure and is presented in [13].

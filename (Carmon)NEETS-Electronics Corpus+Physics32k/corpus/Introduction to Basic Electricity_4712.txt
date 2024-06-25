@@ -1,0 +1,7 @@
+has a 1s complement instruction. The 6800 and the 
+Z80 have both 1s and 2s complement. Complementing 
+provides a method of representing signed numbers. 
+Complementing numbers allow the ALU to perform 
+subtract operations using an adder circuit. Therefore, 
+the MPU can use the same circuits for addition and 
+subtraction.

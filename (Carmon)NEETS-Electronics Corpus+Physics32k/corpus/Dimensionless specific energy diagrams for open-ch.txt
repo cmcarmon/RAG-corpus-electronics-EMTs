@@ -1,0 +1,46 @@
+Energy conservation is an important concept when analyzing open channel flows. For the purposes of the following analysis, energy is conserved for a fluid in an open channel flow, and head losses due to friction will be neglected. The energy calculated at one location in the flow will be equal to the energy calculated at any other location in the same flow.
+
+The energy for the flow will have a potential energy component calculated from the depth of water in the flow, a pressure component, and a kinetic energy component calculated from the velocity of the flow moving through the channel. This is depicted through the Bernoulli equation:
+
+where:
+E = energy [=] Length*Force,
+v = velocity [=] Length/Time,
+g = acceleration due to gravity [=] Length/Time2,
+y = depth of water in the flow [=] Length,
+p = pressure [=] Force/Length2, and
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+= specific gravity of the fluid [=] Force/Length3,
+For two locations in the system with the datum chosen as the bottom of a channel with no slope:
+
+For an open channel flow the fluid, water, is open to the atmosphere so that the pressure throughout the system can be considered equal to atmospheric pressure. Therefore, the pressure term will be the same (hydrostatic) at all points in the system, reducing the equation to:
+
+For a rectangular channel the flow velocity can be related to a discharge rate per unit width, q, such that:
+
+and
+
+For given values of unit discharge, q, a specific energy diagram depicting energy and the depth of water, y, can be developed. The specific energy is the energy above the datum, which we have chosen as the bottom of the channel.
+
+For each value of unit discharge, there is an associated critical depth, yc. Flow travelling at a depth greater than the critical depth is subcritical, and flow travelling at a depth less than the critical depth is supercritical. Subcritical flow has a larger potential energy component, and supercritical flow has a larger kinetic energy component. For a given energy value there will generally be two possible depths, a subcritical depth and a supercritical depth. These depths are related by the alternate depth equation:
+
+Either alternate depth value can be found with the alternate depth equation if the unit discharge and one of the depth values is known.
+
+The critical depth is the smallest energy value on the specific energy diagram. Therefore, we can take the first derivative of the energy equation with respect to depth to determine the critical depth (dE/dy) and equate it to zero to determine the minimum value.
+
+Solving for the critical depth we obtain:
+
+and
+
+The energy associated with the critical depth can be determined by substituting Equation 11 into Equation 7 to reveal the following:
+
+In addition the dimensionless Froude number is defined as follows:
+
+where:
+Fr =1 at critical conditions,
+Fr<1 at subcritical conditions, and
+Fr>1 at supercritical conditions.

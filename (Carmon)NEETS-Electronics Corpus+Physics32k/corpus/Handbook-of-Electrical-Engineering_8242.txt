@@ -1,0 +1,12 @@
+In some data acquisition applications the data acquisition module is a plugged-in card in a computer, which
+is installed far away from the process. In such cases, transducers—the process sensing elements—are connected
+to the data acquisition module using transmission lines or a radio link. In the latter case a complete demodu-
+lating unit is required at the input. When transmission lines are used in the interconnection, care must be taken
+to minimize electromagnetic interference since transmission lines pick up noise easily. In the case of a single-
+ended transducer output conﬁguration, a single wire is adequate for the signal transmission, but a common
+ground must be established between the two ends as given in Fig. 84.3(a). For the transducers that have common
+mode  outputs,  a  shielded  twisted  pair  of  wires  will  carry  the  signal.  In  this  case,  the  shield,  the  transducer’s
+encasing chassis, and the data acquisition module’s reference may be connected to the same ground as shown
+in Fig. 84.3(c). In high-speed applications the transmission line impedance should be matched with the output
+impedance of the transducer in order to prevent reﬂected traveling waves. If the transducer output is not strong
+enough to transmit for a long distance, then it is best to amplify it before transmission.

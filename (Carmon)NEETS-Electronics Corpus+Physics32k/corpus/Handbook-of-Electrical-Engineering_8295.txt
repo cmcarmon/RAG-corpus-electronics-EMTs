@@ -1,0 +1,5 @@
+As for LFSRs, LCARs are fully described by a characteristic polynomial, and through it any linear ﬁnite state
+machine can be built either as an LFSR or as an LCAR. It is, however, more difﬁcult, given a polynomial, to
+derive  the  corresponding  LCAR,  and  tables  are  now  used.  The  main  disadvantage  of  LCARs  is  in  the  area
+overhead incurred by the extra EXOR gates necessary for the implementation of the cell rules. This is offset by
+their better performance. The corresponding multiple-output compactor is called a MICA.

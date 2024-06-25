@@ -1,0 +1,6 @@
+The back-propagation training algorithm can be used to adapt neural networks for the identiﬁcation and
+control of nonlinear plants [Teeter and Chow, 1998; Werbos, 1990]. For system identiﬁcation, a network can
+be trained ofﬂine using plant input/output data obtained from simulation of a mathematical model or from
+observation  of  the  physical  system.  When  the  network  is  used  for  adaptive  identiﬁcation,  training  can  be
+performed using batch update with a window of sampled data, or with the pattern update method in which
+training patterns consist of past inputs and outputs measured at each sample time.

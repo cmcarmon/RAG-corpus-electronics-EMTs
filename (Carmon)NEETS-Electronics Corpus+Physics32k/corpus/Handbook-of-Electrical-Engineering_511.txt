@@ -1,0 +1,6 @@
+Low-Pass to High-Pass Transformation
+To transform a low-pass ﬁlter to high-pass, we ﬁrst scale it to
+a cut-off frequency of 1 rad/s if it is not already at 1 rad/s. This
+allows  a  simple  frequency  rotation  about  1  rad/s  of s ﬁ  1/s.
+All L’s become C’s, all C’s become L’s, and all values reciprocate.
+The cut-off frequency does not change.

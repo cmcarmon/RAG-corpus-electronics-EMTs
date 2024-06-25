@@ -1,0 +1,386 @@
+Relative growth rate (RGR) is growth rate relative to size. It is also called the exponential growth rate, or the continuous growth rate. In terms of differential equations, if
+
+
+
+W
+
+
+{\displaystyle W}
+is the current size, and
+
+
+
+
+
+
+d
+W
+
+
+d
+t
+
+
+
+
+
+{\displaystyle {\frac {dW}{dt}}}
+its growth rate, then relative growth rate is
+
+
+
+
+
+1
+W
+
+
+
+
+
+d
+W
+
+
+d
+t
+
+
+
+
+
+{\displaystyle {\frac {1}{W}}{\frac {dW}{dt}}}
+. If the relative growth rate is constant, i.e.,
+
+
+
+
+
+1
+W
+
+
+
+
+
+d
+W
+
+
+d
+t
+
+
+
+=
+k
+
+
+{\displaystyle {\frac {1}{W}}{\frac {dW}{dt}}=k}
+, it is not difficult to verify that a solution to this equation is
+
+
+
+W
+(
+t
+)
+=
+exp
+⁡
+(
+k
+t
+)
+
+
+{\displaystyle W(t)=\exp(kt)}
+. When calculating or discussing relative growth rate, it is important to pay attention to the units of time being considered.
+For example, if an initial population of
+
+
+
+
+P
+
+0
+
+
+
+
+{\displaystyle P_{0}}
+bacteria doubles every twenty minutes, then at time
+
+
+
+t
+
+
+{\displaystyle t}
+it is given by the equation
+
+
+
+P
+(
+t
+)
+=
+
+P
+
+0
+
+
+
+2
+
+t
+
+
+=
+
+P
+
+0
+
+
+exp
+⁡
+(
+ln
+⁡
+(
+2
+)
+t
+)
+
+
+{\displaystyle P(t)=P_{0}2^{t}=P_{0}\exp(\ln(2)t)}
+where
+
+
+
+t
+
+
+{\displaystyle t}
+is the number of twenty-minute intervals that have passed. However, we usually prefer to measure time in hours or minutes, and it is not difficult to change the units of time. For example, since 1 hour is 3 twenty-minute intervals, the population in one hour is
+
+
+
+P
+(
+3
+)
+=
+
+P
+
+0
+
+
+
+2
+
+3
+
+
+
+
+{\displaystyle P(3)=P_{0}2^{3}}
+. The hourly growth factor is 8, which means that for every 1 at the beginning of the hour, there are 8 by the end. Indeed,
+
+
+
+P
+(
+T
+)
+=
+
+P
+
+0
+
+
+
+8
+
+T
+
+
+=
+
+P
+
+0
+
+
+exp
+⁡
+(
+ln
+⁡
+(
+8
+)
+T
+)
+
+
+{\displaystyle P(T)=P_{0}8^{T}=P_{0}\exp(\ln(8)T)}
+where
+
+
+
+T
+
+
+{\displaystyle T}
+is measured in hours, and the relative growth rate may be expressed as
+
+
+
+ln
+⁡
+(
+2
+)
+
+
+{\displaystyle \ln(2)}
+or approximately 69% per twenty minutes, and as
+
+
+
+ln
+⁡
+(
+8
+)
+
+
+{\displaystyle \ln(8)}
+or approximately 208% per hour.
+In plant physiology, RGR is a measure used to quantify the speed of plant growth. It is measured as the mass increase per aboveground biomass per day, for example as g g−1 d−1. It is considered to be the most widely used way of estimating plant growth, but has been criticised as calculations typically involve the destructive harvest of plants. Another problem is that RGR nearly always decreases over time as the biomass of a plant increases, but traditionally this has been ignored when modelling plant growth. The RGR decreases for several reasons - non-photosynthetic biomass (roots and stems) increases, the top leaves of a plant begin to shade lower leaves and soil nutrients can become limiting. Overall, respiration scales with total biomass, but photosynthesis only scales with photosynthetic biomass and as a result biomass accumulates more slowly as total biomass increases. The RGR of trees in particular slow with increasing size due in part to the large allocation to structural material of the trunk required to hold photosynthetic material up in the canopy. A novel approach to separate size effects from intrinsic growth differences is implemented and described in detail in Philipson et al. (2012).
+RGR is calculated using the following equation:
+
+
+
+
+R
+G
+R
+=
+(
+ln
+⁡
+
+W
+
+2
+
+
+−
+ln
+⁡
+
+W
+
+1
+
+
+)
+
+/
+
+(
+
+t
+
+2
+
+
+−
+
+t
+
+1
+
+
+)
+
+
+{\displaystyle RGR=(\ln W_{2}-\ln W_{1})/(t_{2}-t_{1})}
+
+Where:
+
+
+
+
+ln
+
+
+{\displaystyle \ln }
+= natural logarithm
+
+
+
+
+
+t
+
+1
+
+
+
+
+{\displaystyle t_{1}}
+= time one (e.g. in days)
+
+
+
+
+
+t
+
+2
+
+
+
+
+{\displaystyle t_{2}}
+= time two (e.g. in days)
+
+
+
+
+
+W
+
+1
+
+
+
+
+{\displaystyle W_{1}}
+= Size at time one
+
+
+
+
+
+W
+
+2
+
+
+
+
+{\displaystyle W_{2}}
+= Size at time two
+
+
+== References ==

@@ -1,0 +1,122 @@
+Boundary conditions for stress balance describe the capillary surface at the contact line: the line where a solid meets the capillary interface; also, volume constraints can serve as boundary conditions (a suspended drop, for example, has no contact line but clearly must admit a unique solution).
+For static surfaces, the most common contact line boundary condition is the implementation of the contact angle, which specifies the angle that one of the fluids meets the solid wall. The contact angle condition on the surface
+
+
+
+S
+
+
+{\displaystyle S}
+is normally written as:
+
+
+
+
+
+
+
+n
+^
+
+
+
+⋅
+
+
+
+v
+^
+
+
+
+=
+cos
+⁡
+(
+θ
+)
+
+
+
+{\displaystyle \mathbf {\hat {n}} \cdot \mathbf {\hat {v}} =\cos(\theta )\,}
+
+where
+
+
+
+θ
+
+
+{\displaystyle \theta }
+is the contact angle. This condition is imposed on the boundary (or boundaries)
+
+
+
+
+∂
+S
+
+
+
+{\displaystyle \scriptstyle \partial S}
+of the surface.
+
+
+
+
+
+
+
+v
+^
+
+
+
+
+
+
+{\displaystyle \scriptstyle {\hat {v}}}
+is the unit outward normal to the solid surface, and
+
+
+
+
+
+
+
+n
+^
+
+
+
+
+
+
+{\displaystyle \scriptstyle {\hat {n}}}
+is a unit normal to
+
+
+
+S
+
+
+{\displaystyle S}
+. Choice of
+
+
+
+
+
+
+
+n
+^
+
+
+
+
+
+
+{\displaystyle \scriptstyle {\hat {n}}}
+depends on which fluid the contact angle is specified for.
+For dynamic interfaces, the boundary condition showed above works well if the contact line velocity is low. If the velocity is high, the contact angle will change ("dynamic contact angle"), and as of 2007 the mechanics of the moving contact line (or even the validity of the contact angle as a parameter) is not known and an area of active research.

@@ -1,0 +1,12 @@
+For example, suppose a network layer entity in Host A wishes to be connected to a network layer entity in
+Host B, as shown in Fig. 72.6. Then the connection would be accomplished by the concatenation of two data
+link connections: one between A and C, and one between C and B. In order to establish the connection, the
+network layer entity in Host A would issue a DL_CONNECT.request to its associated data link entity, providing
+the required parameters. This data link entity would then transmit this request to a data link entity in C, which
+would issue a DL_CONNECT.indication to a network entity in C. The network entity in C would then analyze
+the parameters of the DL_CONNECT.indication and realize that the target destination is B. This network layer
+entity would then reissue the DL_CONNECT.request to its data link entity, which would transmit the request
+to a data link entity in B. The data link entity in B would send a DL_CONNECT.indication to a network layer
+entity  in  B,  and  this  entity  would  issue  a  DL_CONNECT.response  back  to  the  data  link  entity  in  B.  This
+DL_CONNECT.response  would  be  relayed  back  to  the  data  link  entity  in A  following  the  same  sequence  of
+events  as  in  the  forward  path.  Eventually,  this  DL_CONNECT.response  would  be  converted  to  a

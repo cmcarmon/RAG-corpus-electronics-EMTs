@@ -1,0 +1,7 @@
+This circuit can be made linear by replacing the forward-biased base-emitter diode with a low-value resistor,
+rp,  while  the  reverse-biased  base-collector  diode  is  replaced  with  a  high-value  resistor,  rm.  The  junction  and
+diffusion  capacitors  are  lumped  together  to  form Cp  and Cm,  while  the  two  current  sources  are  lumped  into
+one  source  (gmFVF  –  gmRVR),  where  gmF  and  gmR  are  the  transistor  forward  and  reverse  transconductances,
+respectively. VF and VR are the voltages across the forward- and reverse-biased diodes, represented by rp and rm,
+respectively. rp is typically about 3 kW, while rm is more than a few megohms, and Cp is about 120 pF. The linear
+circuit representation is illustrated in Fig. 22.24.

@@ -1,0 +1,31 @@
+The quality of representation of the image is determined by how close spatially the pixels are located and
+how  many  levels  or  numbers  are  used  in  the  quantization,  i.e.,  how  coarse  or  ﬁne  is  the  quantization.  The
+sampling accuracy is usually measured in how many pixels there are in a given area and is cited in pixels/unit
+ One would desire to use the lowest rate possible
+length, i.e., pixels/cm. This is known as the 
+to minimize the number of pixels needed to represent the object. If the sampling rate is too low, then obviously
+some  details  of  the  object  to  be  imaged  will  not  be  represented  very  well.  In  fact,  there  is  a  mathematical
+theorem which determines the lowest sampling rate possible to preserve details in the object. This rate is known
+  sampling  rate  (named  after  the  late  Bell  Laboratories  engineer  Harry  Nyquist).  The  theorem
+as  the 
+ the highest possible detail one expects to image in the object. If the
+states that the sampling rate must be 
+object has details closer than, say 1 mm, one must take at least 2 pixels/mm. (The Nyquist theorem actually
+says more than this, but a discussion of the entire theorem is beyond the scope of this section.) If we sample
+at a lower rate than the theoretical lowest limit, the resulting digital representation of the object will be distorted.
+ errors. Aliasing errors usually manifest themselves
+This type of distortion or sampling error is known as 
+ to
+in the image as moiré patterns (Fig. 17.2). The important point to remember is that there is a 
+the spatial sampling rate such that object detail can be maintained. The sampling rate can also be stated as the
+total number of pixels needed to represent the digital image, i.e., the matrix size (or grid size). One often sees
+these sampling rates cited as 256 
+ 512, and so on. If the same object is imaged with a large matrix
+  512,  or
+size,  the  sampling  rate  has  obviously  increased.  Typically,  images  are  sampled  on  256 
+ 1024 grids, depending on the application and type of modality. One immediately observes an important
+1024 
+issue in digital representation of images: that of the large number of pixels needed to represent the image. A
+ 512 image has 262,144 pixels! We shall return to this point
+256 
+later when we discuss processing or storage of these images.

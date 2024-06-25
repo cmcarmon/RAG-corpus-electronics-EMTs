@@ -1,0 +1,11 @@
+This conﬁguration has many advantages and is quite popular in industry. The conﬁguration was designed
+speciﬁcally for assembly tasks [Truman, 1990], so has distinct advantages when applied in this area. Because
+of the vertical orientation of the joints, gravity does not affect the dynamics of the ﬁrst two joints. In fact, for
+these joints, the actuators can be shut off and the arm will not fall, even without the application of brakes. As
+the name SCARA implies, this allows compliance in the horizontal directions to be selectively varied; therefore,
+the robot can comply to horizontal forces. Horizontal compliance is important for vertical assembly operations.
+Because of the vertical linear joint, straight-line vertical motions are simple. Also, SCARA robots typically have
+high positional repeatability. The revolute joints allow high-speed motion. On the negative side, the resolution
+of the arm is not constant throughout the workspace, and the kinematic equations are relatively complex. In
+addition, the vertical motion of the SCARA conﬁguration is typically quite limited. While the SCARA robot
+can reach around objects, it cannot reach over them in the same manner as an articulated arm.

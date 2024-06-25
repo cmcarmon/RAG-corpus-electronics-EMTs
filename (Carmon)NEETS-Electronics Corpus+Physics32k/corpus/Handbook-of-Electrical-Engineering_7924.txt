@@ -1,0 +1,7 @@
+Here in the declaration statement we refer to the D-type ﬂip-ﬂop as a single-bit register. Simultaneous processes
+are  separated  by  a  comma;  sequential  processes  would  be  separated  by  a  semicolon.  The  symbol “%”  is  the
+exclusive-or  (XOR)  operator.  Other  logical  operations  include  NOT,  AND,  OR.  The  AND  operation  is  also
+called the masking operation because it can be used to remove (or select) speciﬁc sections of data from a register.
+Thus the operation A[8] ‹ A[8] &3CH will result in the most signiﬁcant two bits and the least signiﬁcant two
+bits  of  the  eight-bit  register  A  being  set  to  zero.  Note  that  3CH  refers  to  the  hexadecimal  number  3C,  i.e.,
+00111100 in binary. Some other terms commonly used are as follows:

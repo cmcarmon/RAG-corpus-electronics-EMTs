@@ -1,0 +1,7 @@
+S1 Closed, S2 Open During this initial interval, because S1 is closed and S2 is open,
+the DC voltage V appears directly across the inductor, and the inductor current iL ramps
+up. This aspect of charge pump operation has already been analyzed in Subsection 9.4.2.
+In particular, if we define t = 0 to occur at the beginning of a cycle, then iL is given by
+Equation 9.78 for 0 ≤ t ≤ T. Thus, iL builds up as a ramp.
+Now suppose that we wish to find the capacitor voltage vC at the end of the nth cycle.
+This is most easily done through energy considerations. From Equation 9.36 we see that

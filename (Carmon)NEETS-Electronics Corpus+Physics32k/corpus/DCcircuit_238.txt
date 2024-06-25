@@ -1,0 +1,7 @@
+Just as we expected, the current tripled with the voltage increase. Current used to be
+2 amps, but now it has increased to 6 amps (-6.000 x 100). Note also how the total power
+dissipation in the circuit has increased. It was 20 watts before, but now is 180 watts (1.8 x
+102). Recalling that power is related to the square of the voltage (Joule’s Law: P=E2/R), this
+makes sense. If we triple the circuit voltage, the power should increase by a factor of nine (32
+= 9). Nine times 20 is indeed 180, so SPICE’s output does indeed correlate with what we know
+about power in electric circuits.

@@ -1,0 +1,4 @@
+The  predictors  can  include  pixels  from  the  present  frame  as  well  as  those  from  previous  frames  (see
+Fig. 17.17). If the motion and the spatial detail are not too high, frame (or ﬁeld) prediction works well. If the
+motion is high and/or the spatial detail is high, intraﬁeld prediction generally works better. A primary reason
+is that there is less correlation between frames and ﬁelds when the motion is high.

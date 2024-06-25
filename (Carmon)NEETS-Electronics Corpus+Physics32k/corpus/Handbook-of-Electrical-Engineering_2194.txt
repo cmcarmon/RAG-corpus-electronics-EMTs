@@ -1,0 +1,8 @@
+One of the most common DSP applications is the analysis of signals that have been collected from experiments
+or from a physical environment. These signals are typically stored in data ﬁles, and often need preprocessing
+steps applied to them before we are able to extract the desired information. Preprocessing can include removing
+means or linear trends, ﬁltering noise, removing anomalies, and interpolating for missing data. Once the data
+is ready to analyze, we are usually interested in statistical information (mean, median, variance, autocorrelation,
+etc.) along with an estimate of the distribution of the values (uniform, Gaussian, etc.). The frequency content
+of a signal is also important to determine; if the signal is non-stationary, the frequency content needs to be
+determined using short time windows.

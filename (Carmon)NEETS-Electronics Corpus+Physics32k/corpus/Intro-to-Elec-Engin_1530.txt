@@ -1,0 +1,8 @@
+Figure 15.3.20 gives the plots of Equation (15.3.24). Of the PCM (noncarrier) systems, the
+polar and Manchester-formatted systems are superior to the unipolar system, since no energy is
+transmitted during half the bits (on average) in the unipolar system. Of the carrier-modulated
+systems, coherent systems perform slightly better (by about 1 dB) than their corresponding
+noncoherent versions. However, in practice, to avoid having to generate a local carrier in the
+receiver, it may be worth the expense of 1 dB more in transmitted power. The PSK system can
+be seen to be superior by about 3 dB for a given Pe to both FSK and ASK (which exhibit nearly
+the same performance).

@@ -1,0 +1,11 @@
+With the IEEE 802.4 Token Passing Bus Protocol, each station
+is assigned a logical position in an ordered sequence in a
+physical bus topology and a logical ring. Each station knows
+its logical preceding and successor addresses. A token frame
+regulates the access of medium. When ﬁnishing a transmission
+or when time elapses, a token is passed to the next station in
+the logical ordering. Each station can only transmit a frame
+when it holds a token except when a non token-holding station
+responds to a poll or a request for acknowledgment. There are
+several token maintenance events described in the following
+paragraphs.

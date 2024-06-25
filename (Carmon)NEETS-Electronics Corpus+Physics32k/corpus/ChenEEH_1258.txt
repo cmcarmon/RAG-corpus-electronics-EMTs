@@ -1,0 +1,13 @@
+In writing the microprogram, there are two situations in
+which one may want to leave a ﬁeld of the microinstruction
+blank. When a ﬁeld that controls a functional unit or that
+causes state to be written (such as the memory ﬁeld of the
+ALU destination ﬁeld) is blank, no control signals should be
+asserted. When a ﬁeld only speciﬁes the control of a multi-
+plexor that determines the input to a functional unit, leaving it
+blank means that one does not care about the input to the
+functional unit. The easiest way to understand the micropro-
+gram is to break in into pieces that deal with each component
+of instruction execution. The ﬁrst component of every instruc-
+tion execution is to fetch the instructions, decode them, and
+compute both the sequential PC and branch target PC.

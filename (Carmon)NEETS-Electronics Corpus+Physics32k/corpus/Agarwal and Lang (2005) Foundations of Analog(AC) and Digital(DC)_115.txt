@@ -1,0 +1,7 @@
+12. In case you are wondering how the Pentium IV and similar chips get away with high clock
+speeds, the key lies in designing circuits and laying them out on the chip in a way that most signals
+traverse a relatively small fraction of the chip in a clock cycle. To enable succeeding generations
+of the chip to be clocked faster, signals must traverse progressively shorter distances. A technique
+called pipelining is the key enabling mechanism that accomplishes this. The few circuits in which
+signals travel the length of the chip must be designed with extreme care using transmission line
+analysis.

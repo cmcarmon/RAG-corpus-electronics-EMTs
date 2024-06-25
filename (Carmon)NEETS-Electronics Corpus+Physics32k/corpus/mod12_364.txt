@@ -1,0 +1,10 @@
+PULSE-DURATION MODULATION.—Pdm and pwm are designations for a single type of
+modulation. The width of each pulse in a train is made proportional to the instantaneous value of the
+modulating signal at the instant of the pulse. Either the leading edges, the trailing edges, or both edges of
+the pulses may be modulated to produce the variation in pulse width. Pdm can be obtained in a number of
+ways, one of which is illustrated in views (A) through (D) in figure 2-44. A circuit to produce pdm is
+shown in figure 2-45. Adding the modulating signal [figure 2-44, view (A)] to a repetitive sawtooth [view
+(B)] will result in the waveform shown in view (C). This waveform is then applied to a circuit which
+changes state when the input signal exceeds a specific threshold level. This action produces pulses with
+widths that are determined by the length of time that the input waveform exceeds the threshold level. The
+resulting waveform is shown in view (D).

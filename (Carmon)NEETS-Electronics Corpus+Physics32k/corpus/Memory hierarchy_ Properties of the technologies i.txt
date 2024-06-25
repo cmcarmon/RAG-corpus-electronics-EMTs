@@ -1,0 +1,6 @@
+Adding complexity slows down the memory hierarchy.
+CMOx memory technology stretches the Flash space in the memory hierarchy
+One of the main ways to increase system performance is minimising how far down the memory hierarchy one has to go to manipulate data.
+Latency and bandwidth are two metrics associated with caches and. Neither of them is uniform, but is specific to a particular component of the memory hierarchy.
+Predicting where in the memory hierarchy the data resides is difficult.
+...the location in the memory hierarchy dictates the time required for the prefetch to occur.

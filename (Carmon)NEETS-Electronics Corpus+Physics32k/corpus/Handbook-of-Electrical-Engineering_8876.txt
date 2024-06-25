@@ -1,0 +1,9 @@
+Caches that appear on the CPU chip are manufactured by the CPU vendor. Off-chip caches, however, are a
+commodity part sold in large volume. An incomplete list of major cache manufacturers is Hitachi, IBM Micro,
+Micron, Motorola, NEC, Samsung, SGS-Thomson, Sony, and Toshiba. Although most personal computers and
+all major workstations now contain caches, very high-end machines (such as multi-million dollar supercom-
+puters)  do  not  usually  have  caches.  These  ultra-expensive  computers  can  afford  to  implement  their  main
+memory  in  a  comparatively  fast  semiconductor  technology  such  as  static  RAM  (SRAM),  and  can  afford  so
+many banks that cacheless bandwidth out of the main memory system is sufﬁcient. Massively parallel processors
+(MPPs), however, are often constructed out of workstation-like nodes to reduce cost. MPPs therefore contain
+cache hierarchies similar to those found in the workstations on which the nodes of the MPPs are based.

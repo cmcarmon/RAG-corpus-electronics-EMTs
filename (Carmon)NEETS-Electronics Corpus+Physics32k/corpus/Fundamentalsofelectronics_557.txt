@@ -1,0 +1,10 @@
+Figure 5.5: A three-bit A/D converter assigns voltage in the range [−1, 1] to one of eight integers
+between 0 and 7. For example, all inputs having values lying between 0.5 and 0.75 are assigned the
+integer value six and, upon conversion back to an analog value, they all become 0.625. The width of a
+single quantization interval ∆ equals 2
+2B . The bottom panel shows a signal going through the analog-
+to-digital converter, where B is the number of bits used in the A/D conversion process (3 in the case
+depicted here). First it is sampled, then amplitude-quantized to three bits. Note how the sampled signal
+waveform becomes distorted after amplitude quantization. For example the two signal values between 0.5
+and 0.75 become 0.625. This distortion is irreversible; it can be reduced (but not eliminated) by using
+more bits in the A/D converter.

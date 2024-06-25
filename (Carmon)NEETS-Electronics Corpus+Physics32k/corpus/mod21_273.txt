@@ -1,0 +1,11 @@
+The psp is easy to use. You have a choice of three pcb connectors (located on the top panel of the
+test set) into which you insert the pcb being tested. The software program, which is provided on magnetic
+tape cartridges, is then loaded into the test set. The test set automatically tests the pcb by applying input
+signals to the appropriate pins while monitoring the output signal for a correct indication. An LED display
+will give you a pass or fail indication. If a pcb fails the operational test, the psp tells you (via LED
+display) what troubleshooting steps must be taken. The psp uses a guided probe fault isolation technique
+that tells you what test points to check on the faulty pcb. The software program guides you from the faulty
+output backwards toward the input until the fault is located. The probe is a standard 10 megohm, 10 to 1
+oscilloscope probe. The guided probe circuitry and software is also unique because it is capable of
+locating faults within feedback loops and can sense when you have placed the probe at an incorrect test
+point.

@@ -1,0 +1,18 @@
+We raise the issue of LMs in the present context because the
+HMM is, in fact, formally equivalent to one of the most
+prominent LMs used in practice—the so-called ‘‘regular’’ or
+‘‘ﬁnite state’’ grammar (Hopcroft and Ullman, 1979; Fu, 1982).
+Because of its simplicity, regular grammar is often used to
+model the speech production code at several levels of linguistic
+and acoustic processing. This is why the HMM ﬁgures so
+prominently in the continuous speech recognition (CSR)
+problem. The general idea is straightforward: an HMM for
+syntax (word ordering) in a speech recognizer would have
+dynamics (states and transitions) very much like the HMMs
+we described for the word model. The difference would be that
+the observations ‘‘emitted’’ by the model would be words,
+which, in turn, would be represented by an acoustic HMM
+(probably further decomposed into phonetic HMMs). It is
+possible, therefore, to envision this type of speech recognizer
+as a large graph (or grid) consisting of HMMs embedded
+inside of HMMs several levels ‘‘deep.’’

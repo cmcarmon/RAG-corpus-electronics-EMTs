@@ -1,0 +1,5 @@
+The Functional Description of Symbols
+The  BEACON  code  generator  will  process  a  netlist  into  FORTRAN, Ada,  C,  or  68000  code.  It  accomplishes
+this by merging the block ordering information, the connectivity information, and the block-speciﬁc parameter
+values found in the netlist with block-speciﬁc functional descriptions of each block type. These block descrip-
+tions are stored separately from the netlist. This process is illustrated in Fig. 112.16.

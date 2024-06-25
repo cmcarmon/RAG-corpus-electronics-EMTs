@@ -1,0 +1,11 @@
+Controlled Load Service
+Controlled Load service is an enhanced quality of service
+intended to support RTT applications requiring better per-
+formance than that provided by the traditional best-effort
+service. It approximates the end-to-end behavior provided by
+best effort under unloaded conditions. The assumption here is
+that under unloaded conditions, a very high percentage of the
+transmitted packets are successfully delivered to the end nodes,
+and the transmission delay experienced by a very high percent-
+age of the delivered packets will not vary much from the
+minimum transit delay.

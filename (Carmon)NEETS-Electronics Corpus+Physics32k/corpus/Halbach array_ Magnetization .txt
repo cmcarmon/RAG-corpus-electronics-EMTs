@@ -1,0 +1,174 @@
+Although this magnetic flux distribution seems somewhat counter-intuitive to those familiar with simple bar magnets or solenoids, the reason for this flux distribution can be intuitively visualised using Mallinson's original diagram (note this uses the negative y-component, unlike the diagram in Mallinson's paper). The diagram shows the field from a strip of ferromagnetic material with alternating magnetization in the y direction (top left) and in the x direction (top right). Note that the field above the plane is in the same direction for both structures, but the field below the plane is in opposite directions. The effect of superimposing both of these structures is shown in the figure:
+The crucial point is that the flux will cancel below the plane and reinforce itself above the plane. In fact, any magnetization pattern where the components of magnetization are
+
+
+
+
+
+
+π
+2
+
+
+
+
+
+{\displaystyle \scriptstyle {\frac {\pi }{2}}}
+out of phase with each other will result in a one-sided flux. The mathematical transform which shifts the phase of all components of some function by
+
+
+
+
+
+
+π
+2
+
+
+
+
+
+{\displaystyle \scriptstyle {\frac {\pi }{2}}}
+is called a Hilbert transform; the components of the magnetization vector can therefore be any Hilbert transform pair (the simplest of which is simply
+
+
+
+
+sin
+⁡
+(
+x
+)
+cos
+⁡
+(
+y
+)
+
+
+
+{\displaystyle \scriptstyle \sin(x)\cos(y)}
+, as shown in the diagram above).
+
+The field on the non-cancelling side of the ideal, continuously varying, infinite array is of the form:
+
+
+
+
+F
+(
+x
+,
+y
+)
+=
+
+F
+
+0
+
+
+
+e
+
+i
+k
+x
+
+
+
+e
+
+−
+k
+y
+
+
+
+
+{\displaystyle F(x,y)=F_{0}e^{ikx}e^{-ky}}
+
+Where:
+
+
+
+
+
+F
+(
+x
+,
+y
+)
+
+
+
+{\displaystyle \scriptstyle F(x,y)}
+is the field in the form
+
+
+
+
+
+F
+
+x
+
+
++
+i
+
+F
+
+y
+
+
+
+
+
+{\displaystyle \scriptstyle F_{x}+iF_{y}}
+
+
+
+
+
+
+
+F
+
+0
+
+
+
+
+
+{\displaystyle \scriptstyle F_{0}}
+is the magnitude of the field at the surface of the array
+
+
+
+
+
+k
+
+
+
+{\displaystyle \scriptstyle k}
+is the spatial wavenumber, (i.e., the spatial frequency)
+
+
+
+
+
+
+
+2
+π
+
+λ
+
+
+
+
+
+{\displaystyle \scriptstyle {\frac {2\pi }{\lambda }}}

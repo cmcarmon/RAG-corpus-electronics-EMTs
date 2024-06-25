@@ -1,0 +1,20 @@
+A sequence of connected logic gates (no registers) is called a
+signal path. For example, in Figure 4.1, one signal path begins
+at the register R1 and propagates through the logic gates G1
+and G2 before reaching the register R3. Other signal paths can
+also be identiﬁed in the system shown in Figure 4.1. Every
+signal path in a synchronous system is delimited by a pair of
+registers—one register each for the start and the end of the
+path. Such a pair of registers is called a sequentially adjacent
+pair and is deﬁned next:
+Sequentially adjacent pair of registers: For
+an arbitrary ordered pair of registers hRi, Rf i in a synchronous
+circuit, one of the following two situations can be observed. Either
+there exists at least one signal path that connects some output of
+Ri to some input of Rf , or inputs of Rf cannot be reached from
+outputs of Ri through a signal path.1 In the former case—
+denoted by Ri ?Rf —the pair of registers hRi, Rf i is called a
+sequentially adjacent pair of registers, and switching events at
+the output of Ri can possibly affect the input of Rf during the
+same clock period. A sequentially adjacent pair of registers is also
+referred to as a local data path (Friedman, 1995).

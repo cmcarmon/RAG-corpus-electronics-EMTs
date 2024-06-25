@@ -1,0 +1,24 @@
+The true language of computers is a stream of 1s and 0s—bits. Everything in the computer, be it numbers or
+text or program, spreadsheet or database or 3-D rendering, is nothing but an array of bits. The meaning of the
+bits is in the “eye of the beholder”; it is determined entirely by context. Bits are not a useful medium for human
+ read be formatted spatially and presented in a modest range of
+consumption. Instead, we insist that what 
+visually distinguishable characters. 0 and 1 arranged in a dense, page-ﬁlling array do not fulﬁll these require-
+. The several languages that are presented in this handbook are all intended to make something
+ments 
+readable to two quite different readers. On the one hand, they serve the human reader with his/her requirements
+on  symbols  and  layout;  on  the  other,  they  provide  a  grammatically  regular  language  for  interpretation  by  a
+compiler
+. A compiler, of course, is normally a program running on a computer, but human beings can and
+sometimes do play both sides of this game. They want to play with both the input and output. Such accessibility
+requires that not only the input but the output of the compilation process be comfortably readable by humans.
+). Examples are C, Pascal, Ada and Modula II.
+The language of the input is called a 
+They are designed to express both regularly and concisely the kinds of operations and the kinds of constructs
+—a generally unreadable,
+that programmers manipulate. The output end of the compiler generates 
+ to turn it into true machine
+binary representation of machine language, lacking only the services of a 
+assembly
+language. The language that has been constructed to represent object code for human consumption is 
+language

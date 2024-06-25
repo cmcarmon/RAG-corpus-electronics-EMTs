@@ -1,0 +1,9 @@
+Due to the nonperiodic property of chaotic signals, the energy of chaotic sample functions varies from one
+sample  function  to  the  next,  even  if  the  same  symbol  is  transmitted.  If  the  mean  bit  energies ∫
+2(t)dt  and
+∫
+2(t)dt associated with symbols “1” and “0,” respectively, are sufﬁciently different, then a CSK transmission
+T g2
+can be demodulated without synchronization. In this case, the bit energy can be estimated by a correlator at
+the  receiver,  as  shown  in  Fig.  5.28,  without  recovering  the  basis  functions.  The  decision  as  to  which  symbol
+was transmitted is made by comparing this estimate against a threshold.

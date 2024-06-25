@@ -1,0 +1,4 @@
+NRZ code represents binary 1s and 0s by two different light levels that are constant during a bit
+duration. The presence of a high-light level in the bit duration represents a binary 1, while a low-light
+level represents a binary 0. NRZ codes make the most efficient use of system bandwidth. However, loss
+of timing may result if long strings of 1s and 0s are present causing a lack of level transitions.

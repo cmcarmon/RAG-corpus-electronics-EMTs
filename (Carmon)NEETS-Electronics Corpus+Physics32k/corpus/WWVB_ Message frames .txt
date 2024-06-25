@@ -1,0 +1,3 @@
+A small percentage of the time code frames (typically less than 10%) may be replaced by one-minute message frames, containing other information, such as emergency broadcasts.
+The details of such frames has not been finalized, but they will begin with an alternate synchronization word (1101000111010, and a 0 during second 59), and include 42 bits of non-time data in the non-marker bits of the time code. Message frames still contain time[0] during second 19 and the notice bit during second 49, so a receiver which knows the time to within ±1 minute can synchronize to them.
+Messages are expected to span multiple message frames.

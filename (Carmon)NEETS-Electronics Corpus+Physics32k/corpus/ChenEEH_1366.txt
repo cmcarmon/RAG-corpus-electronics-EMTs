@@ -1,0 +1,12 @@
+Since communication and synchronization are decoupled in
+a BSP program, the programmer does not have to worry about
+problems such as deadlock, which can occur with synchronous
+message passing. Debugging a BSP program is also simpler: the
+barrier at the end of a superstep provides an appropriate break
+point at which the global state of the parallel computation
+is well-deﬁned and can be interrogated. Debugging and
+reasoning about the correctness of a BSP program are hence
+not much more difﬁcult than for a sequential program. In
+addition, BSP provides an analytical cost model to assess the
+performance of parallel algorithms, to facilitate analyzing, and
+to predict their performance.

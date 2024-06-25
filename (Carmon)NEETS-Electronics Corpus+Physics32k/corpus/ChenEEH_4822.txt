@@ -1,0 +1,7 @@
+these methods. These methods form the interface that all
+other objects can use to interact with these sensors (such as a
+control algorithm reading the current data). A Java example
+of a method call made from a control algorithm is y ¼
+gps.readData(), where gps is an object of the GPS class and
+readData() is the method within the object that can be
+accessed publicly by other objects.

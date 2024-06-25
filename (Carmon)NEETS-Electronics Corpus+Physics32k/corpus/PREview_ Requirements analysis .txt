@@ -1,0 +1,13 @@
+The requirements collected during the discovery phase are integrated and analysed. Usually, this will result in the identification of missing requirements, inconsistencies and requirements conflicts.
+Typically, the requirements in a large system will be documented by a mixture of natural language, semi-formal, formal and graphical notation. A systematic approach to discovering inconsistency is used in PREview, loosely based on the House of Quality used by Quality Function Deployment (QFD). The table below shows an example for an on-board train protection system (GAAP), taken from [1]. Here the safe state assurance concerns (SS1, SS2, SS3) are plotted against the external requirements from, in this case, safety and compatibility concerns (ER1-7).
+SS1: Detection of excess speed.
+SS2: Detection of overshooting.
+ER1: The system shall detect the occurrence of excess speed.
+ER2: The system shall detect the occurrence of overshoot.
+ER3: The system shall apply emergency braking when either excess speed or overshoot is detected.
+As can be expected, SS1 shows a reinforcing effect on ER1 and ER3, and SS2 shows a reinforcing effect on ER2 and ER3. A zero means there is no relation, or a neutral effect. More interesting of course are the possible conflicts that arise.
+In this case, SS3 shows conflicts with the following external requirements:
+ER5: The GAAP software must execute within the application cycle of the existing onboard software.
+ER6: The reaction time of the GAAP software to the change of state of one bit in the variants table must be 312ms.
+ER7: The real-time performance of the existing on-board software must be maintained.
+All conflicting, redundant and non-compliant requirements will be moved to the next stage of the PREview process: Requirements Negotiation. Compliant and mutually consistent requirements will be moved to the final stage of the PREview: #Requirements definition.

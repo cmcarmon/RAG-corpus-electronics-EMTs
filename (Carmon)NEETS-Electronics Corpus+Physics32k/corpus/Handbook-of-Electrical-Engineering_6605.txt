@@ -1,0 +1,5 @@
+The switch at the end of the bus replaces the source address with the destination address and transmits the
+packet on the broadcast bus, where the appropriate module records the destination address and sends the packet
+to the remote station over the ﬁber link. Because the switch establishes a correspondence between source and
+destination at the beginning of a session (as in a circuit switch), source modules need not know the bus position
+of destination modules. The switch has a directory of positions and terminal names.

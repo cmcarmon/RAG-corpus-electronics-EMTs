@@ -1,0 +1,15 @@
+Methods of Analysis
+Just as differential equations are used to represent systems with analog signals, difference
+equations are used for systems with discrete or digital data. Difference equations are also used
+to approximate differential equations, since the former are more easily programmed on a digital
+computer, and are generally easier to solve.
+One of the mathematical tools devised for the analysis and design of discrete-data systems
+is the z-transform with z = eT s. The role of the z-transform for digital systems is similar to that
+of the Laplace transform for continuous-data systems. While the Laplace transform can be used
+to solve linear ordinary differential equations, for linear difference equations and linear systems
+with discrete or digital data, the z-transform becomes more appropriate to use. Since it is not a
+simple matter to perform an inverse Laplace transform on transcendental functions which involve
+−kT s, the need arises to convert transcendental functions in s into algebraic ones in
+terms like e
+z. The development of z-transform methods of analysis are considered to be outside the scope of
+this book.

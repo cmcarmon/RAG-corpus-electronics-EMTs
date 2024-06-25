@@ -1,0 +1,100 @@
+A hypoelastic material can be rigorously defined as one that is modeled using a constitutive equation satisfying the following two criteria:
+1. The Cauchy stress
+
+
+
+
+σ
+
+
+
+{\displaystyle {\boldsymbol {\sigma }}}
+at time
+
+
+
+t
+
+
+{\displaystyle t}
+depends only on the order in which the body has occupied its past configurations, but not on the time rate at which these past configurations were traversed. As a special case, this criterion includes a Cauchy elastic material, for which the current stress depends only on the current configuration rather than the history of past configurations.
+2. There is a tensor-valued function
+
+
+
+G
+
+
+{\displaystyle G}
+such that
+
+
+
+
+
+
+σ
+˙
+
+
+
+=
+G
+(
+
+σ
+
+,
+
+L
+
+)
+
+,
+
+
+{\displaystyle {\dot {\boldsymbol {\sigma }}}=G({\boldsymbol {\sigma }},{\boldsymbol {L}})\,,}
+in which
+
+
+
+
+
+
+σ
+˙
+
+
+
+
+
+{\displaystyle {\dot {\boldsymbol {\sigma }}}}
+is the material rate of the Cauchy stress tensor, and
+
+
+
+
+L
+
+
+
+{\displaystyle {\boldsymbol {L}}}
+is the spatial velocity gradient tensor.
+If only these two original criteria are used to define hypoelasticity, then hyperelasticity would be included as a special case, which prompts some constitutive modelers to append a third criterion that specifically requires a hypoelastic model to not be hyperelastic (i.e., hypoelasticity implies that stress is not derivable from an energy potential). If this third criterion is adopted, it follows that a hypoelastic material might admit nonconservative adiabatic loading paths that start and end with the same deformation gradient but do not start and end at the same internal energy.
+Note that the second criterion requires only that the function
+
+
+
+G
+
+
+{\displaystyle G}
+exists. As detailed in the main Hypoelastic material article, specific formulations of hypoelastic models typically employ so-called objective rates so that the
+
+
+
+G
+
+
+{\displaystyle G}
+function exists only implicitly and is typically needed explicitly only for numerical stress updates performed via direct integration of the actual (not objective) stress rate.

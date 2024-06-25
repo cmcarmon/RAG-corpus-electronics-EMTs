@@ -1,0 +1,8 @@
+(12.16)
+as the solution for v given that we know v and dv/dt at t = 0. It both satisfies
+Equation 12.4 and matches the initial conditions.
+While Equation 12.16 is the solution for v, it is not expressed in terms of
+the state variables iL and vC evaluated at t = 0, which is often more useful.
+To make it so, we must determine v and dv/dt in terms of iL and vC. From
+Equation 12.1 we can immediately determine v in terms of vC. Thus evaluating
+v(t) at t = 0, we get

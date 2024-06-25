@@ -1,0 +1,807 @@
+The following analysis is taken largely from the work of Burton and Bush, and offers some mathematical insight into the role that flexibility plays in improving load-bearing characteristics of floating objects.
+Consider two plates of infinite width, thickness
+
+
+
+t
+
+
+{\displaystyle t}
+, and length
+
+
+
+b
+
+
+{\displaystyle b}
+that are connected by a torsional spring with spring constant per unit width
+
+
+
+
+K
+
+s
+
+
+
+
+{\displaystyle K_{s}}
+. Furthermore, let
+
+
+
+α
+
+
+{\displaystyle \alpha }
+be the angle between a plate and the horizontal, and
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+the from where the meniscus meets the plate to the horizontal. The distance from the undisturbed water line to the plate's outer edge is
+
+
+
+h
+
+
+{\displaystyle h}
+. The density of water is
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+, the density of air is considered negligible, and the plate density,
+
+
+
+
+ρ
+
+s
+
+
+
+
+{\displaystyle \rho _{s}}
+, shall be varied. All systems naturally assume a configuration that minimizes total energy. Thus, the goal of this analysis is to identify the configurations (i.e., values of
+
+
+
+h
+
+
+{\displaystyle h}
+and
+
+
+
+α
+
+
+{\displaystyle \alpha }
+) that result in a stable equilibrium for a given value of
+
+
+
+
+ρ
+
+s
+
+
+
+
+{\displaystyle \rho _{s}}
+.
+For a total system energy of
+
+
+
+Π
+
+
+{\displaystyle \Pi }
+, it is natural to distinguish sub-components:
+
+
+
+
+Π
+=
+U
+−
+V
+
+
+{\displaystyle \Pi =U-V}
+
+
+
+
+
+V
+
+
+{\displaystyle V}
+: Work done on the system
+
+
+
+
+U
+
+
+{\displaystyle U}
+: System potential energy
+In defining
+
+
+
+V
+
+
+{\displaystyle V}
+, there are several associated components:
+
+
+
+
+V
+=
+
+W
+
+H
+,
+i
+
+
++
+
+W
+
+H
+,
+p
+
+
+−
+
+W
+
+g
+,
+p
+
+
++
+
+W
+
+σ
+
+
+
+
+{\displaystyle V=W_{H,i}+W_{H,p}-W_{g,p}+W_{\sigma }}
+
+
+
+
+
+
+W
+
+H
+,
+i
+
+
+
+
+{\displaystyle W_{H,i}}
+is the work done on the interface by hydrostatic pressure
+
+
+
+
+
+W
+
+H
+,
+p
+
+
+
+
+{\displaystyle W_{H,p}}
+is the work done on the plates by hydrostatic pressure
+
+
+
+
+
+W
+
+g
+,
+p
+
+
+
+
+{\displaystyle W_{g,p}}
+is the work done on the plates by gravitational force
+
+
+
+
+
+W
+
+σ
+
+
+
+
+{\displaystyle W_{\sigma }}
+is the work done on the plates by surface tension forces
+Similarly, the system potential energy,
+
+
+
+U
+
+
+{\displaystyle U}
+, is taken to be composed of two terms:
+
+
+
+U
+=
+S
++
+
+E
+
+s
+
+
+
+
+{\displaystyle U=S+E_{s}}
+
+
+
+
+
+S
+
+
+{\displaystyle S}
+is the surface energy of the water/air interface
+
+
+
+
+
+E
+
+s
+
+
+
+
+{\displaystyle E_{s}}
+is the energy stored in the torsional spring and is equal to
+
+
+
+
+E
+
+s
+
+
+=
+
+K
+
+s
+
+
+(
+2
+α
+
+)
+
+2
+
+
+
+/
+
+2
+
+
+{\displaystyle E_{s}=K_{s}(2\alpha )^{2}/2}
+
+There are two ways in which the system energy can change by an incremental amount. The first is a translation of the center of mass of the plates by some distance
+
+
+
+δ
+h
+
+
+{\displaystyle \delta h}
+. The second is an incremental change,
+
+
+
+δ
+α
+
+
+{\displaystyle \delta \alpha }
+in the hinge angle. Such a change will induce a new moment.
+As mentioned, the system will seek the orientation that minimizes
+
+
+
+δ
+Π
+=
+δ
+U
+−
+δ
+V
+
+
+{\displaystyle \delta \Pi =\delta U-\delta V}
+in order to find point of stable equilibrium. Writing out these terms more explicitly:
+
+
+
+
+δ
+V
+=
+δ
+
+W
+
+H
+,
+i
+
+
++
+δ
+
+W
+
+H
+,
+p
+
+
+−
+δ
+
+W
+
+g
+,
+p
+
+
++
+δ
+
+W
+
+σ
+
+
+
+
+{\displaystyle \delta V=\delta W_{H,i}+\delta W_{H,p}-\delta W_{g,p}+\delta W_{\sigma }}
+
+
+
+
+
+δ
+
+W
+
+H
+,
+i
+
+
+=
+ρ
+g
+∫
+η
+(
+x
+)
+d
+x
+δ
+ϵ
+
+
+{\displaystyle \delta W_{H,i}=\rho g\int \eta (x)dx\delta \epsilon }
+
+
+
+
+
+δ
+
+W
+
+H
+,
+p
+
+
+=
+ρ
+g
+
+(
+
+
+(
+
+2
+b
+h
+
+cos
+
+α
++
+
+b
+
+2
+
+
+
+cos
+
+α
+
+sin
+
+α
+
+)
+
+δ
+h
++
+
+(
+
+
+
+
+b
+
+3
+
+
+3
+
+
+
+sin
+
+α
++
+
+b
+
+2
+
+
+h
+
+)
+
+δ
+α
+
+)
+
+
+
+{\displaystyle \delta W_{H,p}=\rho g\left(\left(2bh{\text{cos}}\alpha +b^{2}{\text{cos}}\alpha {\text{sin}}\alpha \right)\delta h+\left({\frac {b^{3}}{3}}{\text{sin}}\alpha +b^{2}h\right)\delta \alpha \right)}
+
+
+
+
+
+δ
+
+W
+
+g
+,
+p
+
+
+=
+
+ρ
+
+s
+
+
+g
+t
+
+(
+
+2
+b
+δ
+h
++
+
+b
+
+2
+
+
+
+cos
+
+
+(
+α
+)
+
+δ
+α
+
+)
+
+
+
+{\displaystyle \delta W_{g,p}=\rho _{s}gt\left(2b\delta h+b^{2}{\text{cos}}\left(\alpha \right)\delta \alpha \right)}
+
+
+
+
+
+δ
+
+W
+
+σ
+
+
+=
+2
+σ
+
+(
+
+
+sin
+
+ϕ
+δ
+h
++
+b
+
+(
+
+
+sin
+
+
+(
+
+ϕ
+−
+α
+
+)
+
+δ
+α
+
+)
+
+
+)
+
+
+
+{\displaystyle \delta W_{\sigma }=2\sigma \left({\text{sin}}\phi \delta h+b\left({\text{sin}}\left(\phi -\alpha \right)\delta \alpha \right)\right)}
+
+
+
+
+
+δ
+U
+=
+σ
+δ
+
+
+L
+
+
++
+4
+
+K
+
+s
+
+
+α
+δ
+α
+
+
+{\displaystyle \delta U=\sigma \delta {\mathcal {L}}+4K_{s}\alpha \delta \alpha }
+
+Here,
+
+
+
+η
+(
+x
+)
+
+
+{\displaystyle \eta (x)}
+is the equation air/water interface,
+
+
+
+δ
+ϵ
+
+
+{\displaystyle \delta \epsilon }
+is the incremental displacement of the interface, and
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+is the surface tension of water.
+For a given value of
+
+
+
+
+ρ
+
+s
+
+
+
+
+{\displaystyle \rho _{s}}
+, stable equilibrium configurations are identified as being those values of
+
+
+
+h
+
+
+{\displaystyle h}
+and
+
+
+
+α
+
+
+{\displaystyle \alpha }
+that satisfy
+
+
+
+
+
+
+
+δ
+Π
+
+
+δ
+h
+
+
+
+=
+0
+
+
+{\displaystyle {\frac {\delta \Pi }{\delta h}}=0}
+
+
+
+
+
+
+
+δ
+Π
+
+
+δ
+α
+
+
+
+=
+0
+
+
+{\displaystyle {\frac {\delta \Pi }{\delta \alpha }}=0}
+
+Taken in a different light, these conditions can be seen as identifying
+
+
+
+h
+
+
+{\displaystyle h}
+and
+
+
+
+α
+
+
+{\displaystyle \alpha }
+that result in zero net force and zero net torque for a given
+
+
+
+
+ρ
+
+s
+
+
+
+
+{\displaystyle \rho _{s}}
+.

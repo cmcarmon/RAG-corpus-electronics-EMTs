@@ -1,0 +1,10 @@
+A simple method is basic path signature analysis (BPSA), in
+which the nodes of the CFG are a branch-free sequence of
+assembly level instructions, and the reference information is
+given by embedded signatures inserted at the beginning of each
+block (Mahmood and McCluskey, 1988); see Figure 8.12. The
+WD monitors the memory data bus of the processor and
+captures the reference signatures using tag bits to differentiate
+them from the normal instructions. At the end of each block,
+this signature is compared to the concurrently computed one
+(from the read instruction sequence).

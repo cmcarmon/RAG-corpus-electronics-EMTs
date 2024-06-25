@@ -1,0 +1,25 @@
+Temporal redundancy is removed by using the differences
+between successive images. For static parts of the image se-
+quence, temporal differences will be close to zero and, hence,
+are not coded. Those parts that change between frames, either
+due to illumination variation or motion of objects, result in
+signiﬁcant image error that needs to be coded. Image changes
+due to motion can be signiﬁcantly reduced if the motion of the
+object can be estimated and the difference can be taken on a
+motion-compensated image. To carry out motion compen-
+sation, the amount and direction of moving objects has to be
+estimated ﬁrst. This is called motion estimation. The com-
+monly used motion estimation technique in all the standard
+video codecs is the block matching algorithm (BMA). In a
+typical BMA, a frame is divided into square blocks of N 2
+pixels. Then, for a maximum motion displacement of w pixels
+per frame, the current block of pixels is matched against a
+corresponding block at the same coordinates but in a previous
+frame in the square window of width N þ 2w. The best match
+on the basis of a matching criterion yields the displacement.
+Various measures such as cross correlation function (CCF),
+mean squared error (MSE) and mean absolute error (MAE)
+can be used in the matching criteria. In practical coders, MSE
+and MAE are more often used since it is believed that CCF
+does not give good motion tracking, especially when the dis-
+placement is not quite large. MSE and MAE are deﬁned as:

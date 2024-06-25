@@ -1,0 +1,257 @@
+In its simplest form, an orbit model can be created by assuming that only two bodies are involved, both behave as spherical point-masses, and that no other forces act on the bodies. For this case the model is simplified to a Kepler orbit.
+Keplerian orbits follow conic sections. The mathematical model of the orbit which gives the distance between a central body and an orbiting body can be expressed as:
+
+
+
+
+r
+(
+ν
+)
+=
+
+
+
+a
+(
+1
+−
+
+e
+
+2
+
+
+)
+
+
+1
++
+e
+cos
+⁡
+(
+ν
+)
+
+
+
+
+
+{\displaystyle r(\nu )={\frac {a(1-e^{2})}{1+e\cos(\nu )}}}
+
+Where:
+
+
+
+
+r
+
+
+{\displaystyle r}
+is the distance
+
+
+
+
+a
+
+
+{\displaystyle a}
+is the semi-major axis, which defines the size of the orbit
+
+
+
+
+e
+
+
+{\displaystyle e}
+is the eccentricity, which defines the shape of the orbit
+
+
+
+
+ν
+
+
+{\displaystyle \nu }
+is the true anomaly, which is the angle between the current position of the orbiting object and the location in the orbit at it is closest to the central body (called the periapsis)
+Alternately, the equation can be expressed as:
+
+
+
+
+r
+(
+ν
+)
+=
+
+
+p
+
+1
++
+e
+cos
+⁡
+(
+ν
+)
+
+
+
+
+
+{\displaystyle r(\nu )={\frac {p}{1+e\cos(\nu )}}}
+
+Where
+
+
+
+p
+
+
+{\displaystyle p}
+is called the semi-latus rectum of the curve. This form of the equation is particularly useful when dealing with parabolic trajectories, for which the semi-major axis is infinite.
+An alternate approach uses Isaac Newton's law of universal gravitation as defined below:
+
+
+
+
+F
+=
+G
+
+
+
+
+m
+
+1
+
+
+
+m
+
+2
+
+
+
+
+r
+
+2
+
+
+
+
+
+
+{\displaystyle F=G{\frac {m_{1}m_{2}}{r^{2}}}}
+
+where:
+
+
+
+
+F
+
+
+{\displaystyle F}
+is the magnitude of the gravitational force between the two point masses
+
+
+
+
+G
+
+
+{\displaystyle G}
+is the gravitational constant
+
+
+
+
+
+m
+
+1
+
+
+
+
+{\displaystyle m_{1}}
+is the mass of the first point mass
+
+
+
+
+
+m
+
+2
+
+
+
+
+{\displaystyle m_{2}}
+is the mass of the second point mass
+
+
+
+
+r
+
+
+{\displaystyle r}
+is the distance between the two point masses
+Making an additional assumption that the mass of the primary body is much greater than the mass of the secondary body and substituting in Newton's second law of motion, results in the following differential equation
+
+
+
+
+
+
+
+
+r
+
+¨
+
+
+
+=
+
+
+
+G
+
+m
+
+1
+
+
+
+
+r
+
+2
+
+
+
+
+
+
+
+r
+^
+
+
+
+
+
+{\displaystyle {\ddot {\mathbf {r} }}={\frac {Gm_{1}}{r^{2}}}\mathbf {\hat {r}} }
+
+Solving this differential equation results in Keplerian motion for an orbit. In practice, Keplerian orbits are typically only useful for first-order approximations, special cases, or as the base model for a perturbed orbit.

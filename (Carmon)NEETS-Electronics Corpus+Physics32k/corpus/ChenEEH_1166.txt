@@ -1,0 +1,15 @@
+With technology scaling, noise is a problem affecting all
+types of designs from custom microprocessors to standard-
+cell application speciﬁc integrated circuits (ASICs). A noise
+analysis solution must be capable of analyzing tens of millions
+of transistors, considering both circuit and interconnect noise,
+and evaluating the distinct noise tolerances of each node in the
+circuit. Successful design methodologies incorporate a three-
+level noise strategy. The ﬁrst line of defense is a set of noise
+avoidance rules to guide circuit and interconnect design. These
+rules should prevent most noise problems without introducing
+too much area or timing constraints. Next, a detailed static
+noise analysis of the design should ﬁnd all possible noise
+failures. Finally, careful circuit simulation should determine
+whether the design could tolerate some failures ﬂagged by
+static noise analysis.

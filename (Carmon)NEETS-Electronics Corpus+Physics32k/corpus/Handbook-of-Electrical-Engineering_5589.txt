@@ -1,0 +1,13 @@
+Coordination Principles
+Consider  the  radial  transmission  system  shown  in  Fig. 61.42.  The  transformer  supplies  power  to  the  feeder,
+which has four loads at buses A, B, C, and D. For a fault at F1, the relay Rcd must operate to open the circuit
+breaker Bcd. The relay Rbc is responsible for a zone of protection, which includes the entire zone of  Rcd. This
+constitutes a remote backup for the protection at bus C. The backup relay (Rbc) must be slower than the primary
+relay (Rcd), its associated circuit breaker, with a safety margin. This delay in operating of the backup relay is
+known as the coordination delay and is usually about 0.3 s. In a similar fashion, Rab backs up Rbc. The magnitude
+of the fault current varies as shown in Fig. 61.42(b), as the location of the fault is moved along the length of
+the feeder. We may plot the inverse time characteristic of the relay with the fault location as the abscissa, recalling
+that a smaller current magnitude gives rise to a longer operating time for the relay. The coordinating time delay
+between the primary and backup relays is also shown. It can be seen that, as we move from the far end of the
+feeder toward the source, the fault clearing time becomes progressively longer. The coordination is achieved
+by selecting relays with a time dial setting that will provide the proper separation in operating times.

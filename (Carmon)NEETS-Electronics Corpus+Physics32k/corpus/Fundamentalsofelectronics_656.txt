@@ -1,0 +1,19 @@
+Computing the inverse DFT yields a length-N signal no matter what the actual duration of the unit-
+sample response might be. If the unit-sample response has a duration less than or equal to N (it’s a FIR
+ﬁlter), computing the inverse DFT of the sampled frequency response indeed yields the unit-sample response.
+If, however, the duration exceeds N, errors are encountered. The nature of these errors is easily explained
+by appealing to the Sampling Theorem. By sampling in the frequency domain, we have the potential for
+aliasing in the time domain (sampling in one domain, be it time or frequency, can result in aliasing in the
+other) unless we sample fast enough. Here, the duration of the unit-sample response determines the minimal
+sampling rate that prevents aliasing. For FIR systems — they by deﬁnition have ﬁnite-duration unit sample
+responses — the number of required DFT samples equals the unit-sample response’s duration: N ≥ q.
+Exercise 5.29
+(Solution on p. 193.)
+Derive the minimal DFT length for a length-q unit-sample response using the Sampling Theorem.
+Because sampling in the frequency domain causes repetitions of the unit-sample response in the
+time domain, sketch the time-domain result for various choices of the DFT length N.
+Exercise 5.30
+(Solution on p. 193.)
+Express the unit-sample response of a FIR ﬁlter in terms of diﬀerence equation coeﬃcients. Note
+that the corresponding question for IIR ﬁlters is far more diﬃcult to answer: Consider the example
+(Example 5.5).

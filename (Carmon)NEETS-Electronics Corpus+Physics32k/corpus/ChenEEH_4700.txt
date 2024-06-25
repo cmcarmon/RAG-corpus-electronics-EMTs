@@ -1,0 +1,16 @@
+A power series expansion, provided it exists, often provides a
+useful representation of a nonlinear plant. The same can be
+said for the desired closed-loop input/output map of a feed-
+back control system. Given a Volterra series representation for
+each of these components, then Volterra feedback synthesis
+(VFS) can be used to design and realize a nonlinear controller
+that uses a ﬁnite consecutive number of Volterra kernels of the
+plant and desired closed-loop input/output map. A striking
+feature of this method is that it permits the speciﬁcation of a
+nonlinear desired closed-loop behavior. The control design
+takes place in the frequency domain and is realized as an
+interconnected set of linear systems. The controller possesses
+an interesting recursive structure that is readily exploited to
+produce an equivalent reduced-order realization. In fact, this
+simpliﬁed controller implementation can be computed to an
+arbitrarily high order in an automatic manner.

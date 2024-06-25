@@ -1,0 +1,12 @@
+Once a Boolean function is represented in a K map and its different subcubes are formed,
+that Boolean function can be expressed as the logic SOP terms corresponding to the minimum
+set of subcubes that cover all its 1 cells. Obviously then, in forming a subcube, one should not
+select a subcube that is totally contained in another subcube. The product term representing the
+subcube containing the maximum possible number of adjacent 1 cells in the map is called a prime
+implicant. A prime implicant is known as an essential prime implicant if the subcube represented
+by the prime implicant contains at least one 1 cell that is not covered by any other subcube. If,
+on the other hand, all the 1 cells of a subcube of a prime implicant are covered by some other
+subcubes, then such a prime implicant is known as an optional prime implicant. The minimized
+Boolean expression is obtained by the logic sum (OR) of all the essential prime implicants and
+some other optional prime implicants that cover any remaining 1 cells that are not covered by the
+essential prime implicants.

@@ -1,0 +1,19 @@
+Laubscher developed the Mining Rock Mass Rating (MRMR) system by modifying the Rock Mass Rating (RMR) system of Bieniawski. In the MRMR system the stability and support are determined with the following equations:
+RMR = IRS + RQD + spacing + condition
+
+in which:
+RMR = Laubschers Rock Mass Rating
+IRS = Intact Rock Strength
+RQD = Rock Quality Designation
+spacing = expression for the spacing of discontinuities
+condition = condition of discontinuities (parameter also dependent on groundwater presence, pressure, or quantity of groundwater inflow in the underground excavation)
+
+MRMR = RMR * adjustment factors
+in which:
+adjustment factors = factors to compensate for: the method of excavation, orientation of discontinuities and excavation, induced stresses, and future weathering
+
+The parameters to calculate the RMR value are similar to those used in the RMR system of Bieniawski. This may be confusing, as some of the parameters in the MRMR system are modified, such as the condition parameter that includes groundwater presence and pressure in the MRMR system whereas groundwater is a separate parameter in the RMR system of Bieniawski. The number of classes for the parameters and the detail of the description of the parameters are also more extensive than in the RMR system of Bieniawski.
+The adjustment factors depend on future (susceptibility to) weathering, stress environment, orientation,
+The combination of values of RMR and MRMR determines the so-called reinforcement potential. A rock mass with a high RMR before the adjustment factors are applied has a high reinforcement potential, and can be reinforced by, for example, rock bolts, whatever the MRMR value might be after excavation. Contrariwise, rock bolts are not a suitable reinforcement for a rock mass with a low RMR (i.e. has a low reinforcement potential).
+Laubscher uses a graph for the spacing parameter. The parameter is dependent on a maximum of three discontinuity sets that determine the size and the form of the rock blocks. The condition parameter is determined by the discontinuity set with the most adverse influence on the stability.
+The concept of adjustment factors for the rock mass before and after excavation is very attractive. This allows for compensation of local variations, which may be present at the location of the rock mass observed, but might not be present at the location of the proposed excavation or vice versa. In addition, this allows for quantification of the influence of excavation and excavation induced stresses, excavation methods, and the influence of past and future weathering of the rock mass.

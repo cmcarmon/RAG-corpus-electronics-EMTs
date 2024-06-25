@@ -1,0 +1,7 @@
+The quantities containing noise terms cause errors in the receiver’s decision-making process. Because they
+involve noise, the values of these integrals are random quantities drawn from some probability distribution
+that vary erratically from bit interval to bit interval. Because the noise has zero average value and has an
+equal amount of power in all frequency bands, the values of the integrals will hover about zero. What is
+important is how much they vary. If the noise is such that its integral term is more negative than αA2T ,
+then the receiver will make an error, deciding that the transmitted zero-valued bit was indeed a one. The
+probability that this situation occurs depends on three factors:

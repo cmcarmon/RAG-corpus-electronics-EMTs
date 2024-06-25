@@ -1,0 +1,4 @@
+Distributivity
+Another local transformation that is often useful is distributivity. In this transformation, a computation (A 2
+B) + (A 2 C ) may be reorganized as A 2 (B + C ). Thus, the number of hardware units can be reduced from
+two multipliers and one adder to one multiplier and one adder.

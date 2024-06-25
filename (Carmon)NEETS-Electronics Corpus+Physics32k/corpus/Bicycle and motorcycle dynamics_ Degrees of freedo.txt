@@ -1,0 +1,9 @@
+The number of degrees of freedom of a bike depends on the particular model being used. The simplest model that captures the key dynamic features, called the "Whipple model" after Francis Whipple who first developed the equations for it, has four rigid bodies with knife edge wheels rolling without slip on a flat smooth surface, and has 7 degrees of freedom (configuration variables required to completely describe the location and orientation of all 4 bodies):
+x coordinate of rear wheel contact point
+y coordinate of rear wheel contact point
+orientation angle of rear frame (yaw)
+rotation angle of rear wheel
+rotation angle of front wheel
+lean angle of rear frame (roll)
+steering angle between rear frame and front end
+Adding complexity to the model, such as rider movement, suspension movement, tire compliance, or frame flex, adds degrees of freedom. While the rear frame does pitch with leaning and steering, the pitch angle is completely constrained by the requirement for both wheels to remain on the ground, and so can be calculated geometrically from the other seven variables. If the location of the bike and the rotation of the wheels are ignored, the first five degrees of freedom can also be ignored, and the bike can be described by just two variables: lean angle and steer angle.

@@ -1,0 +1,10 @@
+Equations (73.20) are known as the Wiener-Khinchin relations that establish that SNN(w) and RNN(t) are a
+Fourier transform pair for ws random processes [Brown, 1983; Gardner, 1990, p. 230; Peebles, 1987]. The psdf
+SNN(w) has units of W/(rad/s), whereas the autocorrelation function RNN(t) has units of watts. When t = 0 in
+the  second  integral  of  Eq.  (73.20),  the  exponential  becomes  e0  =  1,  so  that  RNN(0)  (=  E[N(t)2]  = s
+2)  is  the
+N
+integral of the psdf SNN(w) over all radian frequencies, –‘ < w < ‘. The rms (root-mean-square) voltage is
+Nrms = s
+N (the standard deviation). The power spectrum in W/(rad/s) is a density that is summed up via an
+integral over the radian frequency band w1 to w2 to obtain the total power over that band.

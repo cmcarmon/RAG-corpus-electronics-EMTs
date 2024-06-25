@@ -1,0 +1,34 @@
+The tunnel junction is, in its simplest form, a thin insulating barrier between two conducting electrodes. If the electrodes are superconducting, Cooper pairs (with a charge of two elementary charges) carry the current. In the case that the electrodes are normalconducting, i.e. neither superconducting nor semiconducting, electrons (with a charge of one elementary charge) carry the current. The following reasoning is for the case of tunnel junctions with an insulating barrier between two normal conducting electrodes (NIN junctions).
+According to the laws of classical electrodynamics, no current can flow through an insulating barrier. According to the laws of quantum mechanics, however, there is a nonvanishing (larger than zero) probability for an electron on one side of the barrier to reach the other side (see quantum tunnelling). When a bias voltage is applied, this means that there will be a current, and, neglecting additional effects, the tunnelling current will be proportional to the bias voltage. In electrical terms, the tunnel junction behaves as a resistor with a constant resistance, also known as an ohmic resistor. The resistance depends exponentially on the barrier thickness. Typical barrier thicknesses are on the order of one to several nanometers.
+An arrangement of two conductors with an insulating layer in between not only has a resistance, but also a finite capacitance. The insulator is also called dielectric in this context, the tunnel junction behaves as a capacitor.
+Due to the discreteness of electrical charge, current through a tunnel junction is a series of events in which exactly one electron passes (tunnels) through the tunnel barrier (we neglect cotunneling, in which two electrons tunnel simultaneously). The tunnel junction capacitor is charged with one elementary charge by the tunnelling electron, causing a voltage buildup
+
+
+
+U
+=
+e
+
+/
+
+C
+
+
+{\displaystyle U=e/C}
+, where
+
+
+
+e
+
+
+{\displaystyle e}
+is the elementary charge of 1.6×10−19 coulomb and
+
+
+
+C
+
+
+{\displaystyle C}
+the capacitance of the junction. If the capacitance is very small, the voltage buildup can be large enough to prevent another electron from tunnelling. The electric current is then suppressed at low bias voltages and the resistance of the device is no longer constant. The increase of the differential resistance around zero bias is called the Coulomb blockade.

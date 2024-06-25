@@ -1,0 +1,9 @@
+hashing  functions  may  determine  where  a  block  should  be  placed  in  the  cache,  as  opposed  to  just  the  one
+hashing function (low-order index bits) that traditional caches use. An important cache-related research topic
+is prefetching [Mowry, 1992], in which the processor issues requests for data well before the data are actually
+needed. Speculative prefetching is also a current research topic. In speculative prefetching, prefetches are issued
+based on guesses as to which data will be needed soon. Other cache-related research examines placing special
+structures  in  parallel  with  the  cache,  trying  to  optimize  for  workloads  that  do  not  lend  themselves  well  to
+caches.  Stream  buffers  [Jouppi,  1990]  are  one  such  example.  A  stream  buffer  automatically  detects  when  a
+linear access through a data structure is occurring. The stream buffer issues multiple sequential prefetches upon
+detection of a linear array access.

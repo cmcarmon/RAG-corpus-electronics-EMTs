@@ -1,0 +1,34 @@
+In 1995, Land and Belew showed that no two-state rule with radius r and density ρ correctly solves the voting problem on all starting configurations when the number of cells is sufficiently large (larger than about 4r/ρ).
+Their argument shows that because the system is deterministic, every cell surrounded entirely by zeros or ones must then become a zero. Likewise, any perfect rule can never make the ratio of ones go above
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+if it was below (or vice versa). They then show that any assumed perfect rule will either cause an isolated one that pushed the ratio over
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+to be cancelled out or, if the ratio of ones is less than
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+, will cause an isolated one to introduce spurious ones into a block of zeros causing the ratio of ones to be become greater than
+
+
+
+ρ
+
+
+{\displaystyle \rho }
+.

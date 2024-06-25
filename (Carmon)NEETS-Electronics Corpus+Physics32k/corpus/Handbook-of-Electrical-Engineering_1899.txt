@@ -1,0 +1,8 @@
+There is no one best way to design a video processing architecture. The structure of the architecture depends
+on the intended application environment, algorithms to be run, performance requirements, cost constraints,
+and  other  factors.  Computer  architects  have  developed  a  range  of  techniques  that  span  a  wide  range  of  this
+design space: heterogeneous multiprocessors handle low-cost applications effectively; VLIW video signal pro-
+cessors  provide  specialized  video  processing;  instruction  set  extensions  to  microprocessors  enhance  video
+performance  on  traditional  microprocessors. As VLSI  technology  improves  further,  these  techniques  will  be
+extended  to  create  machines  that  hold  signiﬁcant  amounts  of  video  memory  on-chip  with  the  processing
+elements that operate on the video data.

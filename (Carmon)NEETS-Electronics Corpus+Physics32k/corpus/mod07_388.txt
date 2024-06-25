@@ -1,0 +1,14 @@
+Now that you know what each section does, let's trace an ac signal through the power supply. At this 
+point you need to see how this signal is altered within each section of the power supply. Later on in the 
+chapter you will see how these changes take place. In view B of figure 4-1, an input signal of 115 volts ac 
+is applied to the primary of the transformer. The transformer is a step-up transformer with a turns ratio of 
+1:3. You can calculate the output for this transformer by multiplying the input voltage by the ratio of turns 
+in the primary to the ratio of turns in the secondary; therefore, 115 volts ac × 3 = 345 volts ac (peak-to-
+peak) at the output. Because each diode in the rectifier section conducts for 180 degrees of the 360-degree 
+input, the output of the rectifier will be one-half, or approximately 173 volts of pulsating dc. The filter 
+section, a network of resistors, capacitors, or inductors, controls the rise and fall time of the varying 
+signal; consequently, the signal remains at a more constant dc level. You will see the filter process more 
+clearly in the discussion of the actual filter circuits. The output of the filter is a signal of 110 volts dc, 
+with ac ripple riding on the dc. The reason for the lower voltage (average voltage) will be explained later 
+in this chapter. The regulator maintains its output at a constant 110-volt dc level, which is used by the 
+electronic equipment (more commonly called the load). 

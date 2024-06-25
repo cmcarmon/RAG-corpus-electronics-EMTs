@@ -1,0 +1,8 @@
+MATLAB’s fft function automatically zero-pads its input if the speciﬁed transform length (its
+second argument) exceeds the signal’s length. The frequency domain result will have a small
+imaginary component — largest value is 2.2 × 10−11 — because of the inherent ﬁnite precision
+nature of computer arithmetic. Because of the unfortunate misﬁt between signal lengths and
+favored FFT lengths, the number of arithmetic operations in the time-domain implementation is
+far less than those required by the frequency domain version: 514 versus 62,271. If the input signal
+had been one sample shorter, the frequency-domain computations would have been more than a
+factor of two less (28,696), but far more than in the time-domain implementation.

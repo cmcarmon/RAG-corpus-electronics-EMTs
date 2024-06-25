@@ -1,0 +1,4 @@
+Aircraft (usually not missiles) operate at a nominally constant "trim" angle of attack. The angle of the nose (the X Axis) does not align with the direction of the oncoming air. The difference in these directions is the angle of attack. So, for many purposes, parameters are defined in terms of a slightly modified axis system called "stability axes". The stability axis system is used to get the X axis aligned with the oncoming flow direction. Essentially, the body axis system is rotated about the Y body axis by the trim angle of attack and then "re-fixed" to the body of the aircraft:
+X stability axis is aligned into the direction of the oncoming air in steady flight. (It is projected into the plane made by the X and Z body axes if there is sideslip).
+Y stability axis is the same as the Y body-fixed axis.
+Z stability axis is perpendicular to the plane made by the X stability axis and the Y body axis.

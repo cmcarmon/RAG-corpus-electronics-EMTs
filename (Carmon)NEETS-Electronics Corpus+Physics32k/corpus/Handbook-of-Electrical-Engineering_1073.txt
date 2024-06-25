@@ -1,0 +1,9 @@
+Note that the time-differentiation and time-integration properties of the CT Fourier transform do not have
+analogous counterparts in the DTFT because time-domain differentiation and integration are not deﬁned for
+DT signals. When working with DT systems practitioners must often manipulate difference equations in the
+frequency domain. For this purpose Property 1 (linearity) and Property 2 (index shifting) are important. As
+with the CT Fourier transform, Property 4 (time-domain convolution) is very important for DT systems because
+it allows engineers to work with the frequency response of the system in order to achieve proper shaping of
+the  input  spectrum,  or  to  achieve  frequency  selective  ﬁltering  for  noise  reduction  or  signal  detection.  Also,
+Property 3 (frequency shifting) is useful for the analysis of modulation and ﬁltering common in both analog
+and digital communication systems.

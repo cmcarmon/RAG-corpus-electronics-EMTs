@@ -1,0 +1,6 @@
+The CardService layer is deﬁned as a high-level application programming interface that hides the character-
+istics of a particular provider’s components (speciﬁc to a type of smart card and/or smart card reader) from
+the application and service developers. Card services are standard APIs regrouping functions to access resources
+of a card operating system. Thus, a card issuer will provide the users with a card services allowing access to the
+ﬁles (FileAccessCardService), to the signature functions (SignatureCardService), to PKCS#11 functions, to the
+ISO7816 ﬁle system, and to purse functions.

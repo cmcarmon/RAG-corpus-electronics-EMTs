@@ -1,0 +1,12 @@
+If a transaction fails for whatever reason after (partially committed) or (active) while updating the database,
+it  may  be  necessary  to  bring  the  database  to  its  previous  (original)  state  by  undoing  the  transaction.  This
+operation is called roll-back. A roll-back operation requires some information about the changes made on the
+data items during a transaction. Such information is usually kept outside the database in a system log. Generally,
+roll-back operations are part of the techniques used to recover from transaction failures.
+Database Security
+A  database  needs  to  be  protected  against  unauthorized  access.  It  is  the  responsibility  of  the  DBA  to  create
+account numbers and passwords for legitimate users. The DBA can also specify the type of privileges a particular
+account has. In relational databases, this includes the privilege to create base relations, create views, alter relations
+by adding or dropping a column, and delete relations. The DBA can also revoke privileges that were granted
+previously. In SQL, the command GRANT is used to grant privileges and the REVOKE command to revoke
+privileges that have been granted.

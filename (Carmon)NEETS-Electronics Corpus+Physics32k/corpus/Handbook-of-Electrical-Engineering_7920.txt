@@ -1,0 +1,10 @@
+Another set of sequences is obtained if the feedback arrangements are restricted to the use of exclusive-OR,
+that  is  modulo-2  functions,  and,  by  correct  choice  of  function,  the linear feedback shift register (LFSR)  so
+formed generates a maximal length sequence, or m-sequence. A maximal length sequence has a length of 2n – 1
+bits (the all-zeros state is not included, since the mod-2 feedback would not allow any escape from that state,
+so the sequence has a 0 missing) with useful properties of repeatable randomness and is, therefore, described
+as a pseudorandom binary sequence (PRBS). The number of maximal length sequences for a register of length
+n, and the feedback arrangements to achieve them, are not at all obvious, but have been worked out for a large
+number of cases [Messina, 1972]. A 4-bit LFSR will produce only one maximal length sequence, but a 10-bit
+register  can  produce  30  distinct  m-sequences,  and  a  30-bit  register  produces  no  less  than  8,910,000  distinct
+sequences!

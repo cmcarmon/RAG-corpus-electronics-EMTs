@@ -1,0 +1,6 @@
+load balancing is often achieved by
+automatically including information about node availability
+in the scheduling process so that the system can be incremen-
+tally scalable. There should be facilities to manage services
+offered by one or more nodes in the cluster, and such services
+may also migrate from one node to another.

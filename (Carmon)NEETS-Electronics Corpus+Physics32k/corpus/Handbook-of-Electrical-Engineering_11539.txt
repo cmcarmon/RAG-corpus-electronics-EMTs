@@ -1,0 +1,6 @@
+In some situations there is a speciﬁc region of the object where smaller FDTD cells are needed, for example,
+a region of high dielectric material, or of ﬁne geometry features such as eyes. But if uniform FDTD cells are
+used  throughout  the  computation,  then  these  small  cells  must  be  used  even  in  regions  where  they  are  not
+needed. One approach to reduce the total number of FDTD cells for these situations is to mesh local regions
+with smaller cells than in the main mesh [Kim and Hoefer, 1990; Zivanovic et al., 1991]. All of the commercial
+FDTD software referenced above has this local grid capability.

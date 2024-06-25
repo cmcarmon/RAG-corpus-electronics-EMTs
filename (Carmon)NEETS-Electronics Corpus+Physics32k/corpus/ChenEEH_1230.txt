@@ -1,0 +1,13 @@
+It has been shown that signal ordering can effectively reduce
+the cross talk noise on interconnects. In other words, arranging
+signals in an order that does not let a wire ﬁght against its
+neighbor, making a transition in the same direction, can
+reduce the cross talk noise. For example, two interconnect
+layout design methodologies
+for minimizing the cross-
+coupling capacitance effect in the design of a full-custom
+data path have been proposed by Yim and Kyung (1999).
+These are the control-signal ordering scheme and the track
+assignment algorithm. Figure 8.10 shows how the control
+signal for a multiplexer can be ordered to decrease the cross
+talk effect.

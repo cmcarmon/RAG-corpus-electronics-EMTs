@@ -1,0 +1,7 @@
+This printout is telling us the battery voltage is 9 volts, and the voltage drops across R1, R2,
+and R3 are 1.5 volts, 5 volts, and 2.5 volts, respectively. Voltage drops across any component in
+SPICE are referenced by the node numbers the component lies between, so v(1,2) is referencing
+the voltage between nodes 1 and 2 in the circuit, which are the points between which R1 is
+located. The order of node numbers is important: when SPICE outputs a ﬁgure for v(1,2), it
+regards the polarity the same way as if we were holding a voltmeter with the red test lead on
+node 1 and the black test lead on node 2.

@@ -1,0 +1,588 @@
+The effect of the reaction force
+
+
+
+
+
+f
+
+
+r
+
+
+(
+t
+)
+∈
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {f} _{r}(t)\in \mathbb {R} ^{3}}
+over the interval of collision
+
+
+
+[
+
+t
+
+0
+
+
+.
+.
+
+t
+
+1
+
+
+]
+
+
+{\displaystyle [t_{0}..t_{1}]}
+may hence be represented by an instantaneous reaction impulse
+
+
+
+
+
+j
+
+
+r
+
+
+(
+t
+)
+∈
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {j} _{r}(t)\in \mathbb {R} ^{3}}
+, computed as
+
+By deduction from the principle of action and reaction, if the collision impulse applied by the first body on the second body at a contact point
+
+
+
+
+
+p
+
+
+r
+
+
+∈
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {p} _{r}\in \mathbb {R} ^{3}}
+is
+
+
+
+
+
+j
+
+
+r
+
+
+
+
+{\displaystyle \mathbf {j} _{r}}
+, the counter impulse applied by the second body on the first is
+
+
+
+−
+
+
+j
+
+
+r
+
+
+
+
+{\displaystyle -\mathbf {j} _{r}}
+. The decomposition
+
+
+
+±
+
+
+j
+
+
+r
+
+
+=
+±
+
+j
+
+r
+
+
+
+
+
+n
+^
+
+
+
+
+
+{\displaystyle \pm \mathbf {j} _{r}=\pm j_{r}\mathbf {\hat {n}} }
+into the impulse magnitude
+
+
+
+
+j
+
+r
+
+
+∈
+
+R
+
+
+
+{\displaystyle j_{r}\in \mathbb {R} }
+and direction along the contact normal
+
+
+
+
+
+
+n
+^
+
+
+
+
+
+{\displaystyle \mathbf {\hat {n}} }
+and its negation
+
+
+
+−
+
+
+
+n
+^
+
+
+
+
+
+{\displaystyle -\mathbf {\hat {n}} }
+allows for the derivation of a formula to compute the change in linear and angular velocities of the bodies resulting from the collision impulses. In the subsequent formulas,
+
+
+
+
+
+
+n
+^
+
+
+
+
+
+{\displaystyle \mathbf {\hat {n}} }
+is always assumed to point away from body 1 and towards body 2 at the contact point.
+Assuming the collision impulse magnitude
+
+
+
+
+
+j
+
+
+r
+
+
+
+
+{\displaystyle \mathbf {j} _{r}}
+is given and using Newton's laws of motion the relation between the bodies' pre- and post- linear velocities are as follows
+where, for the
+
+
+
+i
+
+
+{\displaystyle i}
+th body,
+
+
+
+
+
+v
+
+
+i
+
+
+∈
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {v} _{i}\in \mathbb {R} ^{3}}
+is the pre-collision linear velocity,
+
+
+
+
+
+
+v
+′
+
+
+
+i
+
+
+∈
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {v'} _{i}\in \mathbb {R} ^{3}}
+is the post-collision linear velocity.
+Similarly for the angular velocities
+where, for the
+
+
+
+i
+
+
+{\displaystyle i}
+th body,
+
+
+
+
+
+ω
+
+
+i
+
+
+∈
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle {\omega }_{i}\in \mathbb {R} ^{3}}
+is the angular pre-collision velocity,
+
+
+
+
+
+
+ω
+′
+
+
+
+i
+
+
+∈
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle {\omega '}_{i}\in \mathbb {R} ^{3}}
+is the angular post-collision velocity,
+
+
+
+
+
+I
+
+
+i
+
+
+∈
+
+
+R
+
+
+3
+×
+3
+
+
+
+
+{\displaystyle \mathbf {I} _{i}\in \mathbb {R} ^{3\times 3}}
+is the inertia tensor in the world frame of reference, and
+
+
+
+
+
+r
+
+
+i
+
+
+∈
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle \mathbf {r} _{i}\in \mathbb {R} ^{3}}
+is offset of the shared contact point
+
+
+
+
+p
+
+
+
+{\displaystyle \mathbf {p} }
+from the centre of mass.
+The velocities
+
+
+
+
+v
+
+p
+1
+
+
+,
+
+v
+
+p
+2
+
+
+∈
+
+
+R
+
+
+3
+
+
+
+
+{\displaystyle v_{p1},v_{p2}\in \mathbb {R} ^{3}}
+of the bodies at the point of contact may be computed in terms of the respective linear and angular velocities, using
+for
+
+
+
+i
+=
+1
+,
+2
+
+
+{\displaystyle i=1,2}
+. The coefficient of restitution
+
+
+
+e
+
+
+{\displaystyle e}
+relates the pre-collision relative velocity
+
+
+
+
+
+v
+
+
+r
+
+
+=
+
+
+v
+
+
+p
+2
+
+
+−
+
+
+v
+
+
+p
+1
+
+
+
+
+{\displaystyle \mathbf {v} _{r}=\mathbf {v} _{p2}-\mathbf {v} _{p1}}
+of the contact point to the post-collision relative velocity
+
+
+
+
+
+
+v
+′
+
+
+
+r
+
+
+=
+
+
+
+v
+′
+
+
+
+p
+2
+
+
+−
+
+
+
+v
+′
+
+
+
+p
+1
+
+
+
+
+{\displaystyle \mathbf {v'} _{r}=\mathbf {v'} _{p2}-\mathbf {v'} _{p1}}
+along the contact normal
+
+
+
+
+
+
+n
+^
+
+
+
+
+
+{\displaystyle \mathbf {\hat {n}} }
+as follows
+Substituting equations (1a), (1b), (2a), (2b) and (3) into equation (4) and solving for the reaction impulse magnitude
+
+
+
+
+j
+
+r
+
+
+
+
+{\displaystyle j_{r}}
+yields

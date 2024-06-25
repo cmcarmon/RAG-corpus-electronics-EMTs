@@ -1,0 +1,7 @@
+Although  this  matrix  is  positive  semideﬁnite,  it  is  not  Toeplitz,  thereby  necessitating  the  use  of  a  signal
+restoration algorithm for ﬁnding a suitably close positive-semideﬁnite Toeplitz-Hermitian matrix approxima-
+tion.  The  sequence  of  successive  projections  algorithm  (14.128)  has  guaranteed  convergence  to  a  positive-
+semideﬁnite Toeplitz matrix approximation. To be assured of ﬁnding the positive-semideﬁnite Toeplitz matrix
+that  lies  closest  to  X  in  the  Frobenius  norm  sense,  however,  it  is  generally  necessary  to  employ  the  Dykstra
+algorithm (14.97). Using the given matrix X as the initial condition, the positive-semideﬁnite Toeplitz matrices
+to which these two algorithms converge are found to be

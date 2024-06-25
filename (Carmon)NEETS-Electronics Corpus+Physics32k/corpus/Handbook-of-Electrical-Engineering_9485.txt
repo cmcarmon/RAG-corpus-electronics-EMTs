@@ -1,0 +1,6 @@
+The structure of the relation of Fig. 94.3 does not allow a supplier to appear in the relation unless it offers
+at least one product. Even the use of null values is not of much help in this case as product_name is part of a
+key and therefore cannot be assigned a null value. Another anomaly can be encountered during the deletion
+process. For instance, deleting the last tuple in the relation results in the loss of the information that Rudd is
+a  supplier  located  in  Metairie.  It  is  seen  that  the  relation  PRODUCT  suffers  from  insertion  and  deletion
+anomalies.

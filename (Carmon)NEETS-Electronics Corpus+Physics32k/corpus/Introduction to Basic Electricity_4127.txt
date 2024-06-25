@@ -1,0 +1,13 @@
+A basic flip-flop circuit produces a square or rect-
+angular waveform for use in gating or timing signals 
+or for on–off switching operations in binary counter 
+circuits. A binary counter circuit is essentially two 
+transistor amplifiers, with the output of each transis-
+tor coupled to the input of the other transistor. When 
+an input signal is applied to the set input, transistor Q1 
+turns on, which turns transistor Q2 off. When transis-
+tor Q2 turns off, it places a positive potential on the 
+base of transistor Q1, holding it on. If a pulse is applied 
+to the reset input, it causes transistor Q2 to conduct, 
+turning off transistor Q1. Turning off transistor Q1 
+holds transistor Q2 on.

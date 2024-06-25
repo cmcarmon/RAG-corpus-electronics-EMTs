@@ -1,0 +1,3 @@
+The machine executes one column of the computation per clock cycle: n absolute differences are formed and
+then  passed  onto  a  summation  unit.  This  machine  is  not  a  SIMD  architecture  because  it  does  not  execute
+instructions — it is designed to perform one algorithm.

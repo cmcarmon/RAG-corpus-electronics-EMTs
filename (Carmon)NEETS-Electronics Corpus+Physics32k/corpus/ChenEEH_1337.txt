@@ -1,0 +1,8 @@
+2. Single instruction, multiple data (SIMD) machines
+allow a single instruction stream to control many pro-
+cessing elements in a lockstep fashion. Each processor
+has its own data memory so that during each instruc-
+tion step, many sets of data are processed simultan-
+eously. Both vector processors, such as the CRAY T80,
+and array processors, such as the Connection Machine
+(Hillis, 1986), are SIMD machines.

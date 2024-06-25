@@ -1,0 +1,17 @@
+Rolling resistance can be expressed by the rolling resistance coefficient (RRC or Crr), which is the value of the rolling resistance force divided by the wheel load. A lower coefficient means the tires will use less energy to travel a certain distance. The coefficient is mostly considered as independent of speed, but for precise calculations it is tabled at several speeds or an additional speed-dependent part is used. The Society of Automotive Engineers (SAE) has developed test practices to measure the RRC of tires. These tests (SAE J1269 and SAE J2452) are usually performed on new tires.
+When measured by using these standard test practices, most new passenger tires have reported RRCs ranging from 0.007 to 0.014. In the case of bicycle tires, values of 0.0025 to 0.005 are achieved. These coefficients are measured on rollers, with power meters on road surfaces, or with coast-down tests. In the latter two cases, the effect of air resistance must be subtracted or the tests performed at very low speeds. In 2009 The CEC used a rating called Rolling Resistance Force RRF. RRF and RRC, rolling resistance coefficient are very similar. Difference is taking the RRF and dividing it by the load(weight) to get RRC. So a Michelin Harmony tire rated at 9.45 RRF at 1000 pounds load would be .0095 RRC.
+In Canada, Transport Canada tests will be conducted on a number of different tires mounted on 15 and 16-inch rims – the most common tire sizes in Canada – to determine how rolling resistance is influenced by vehicle size, tire width and profile. Results will be used to inform Canadians about the types of low rolling resistance tires available in Canada, and whether they can help reduce fuel consumption and pollutants from passenger vehicles. SAE J2452 is a standard defined by the Society of Automotive Engineers to define the rolling resistance of tires.
+The rolling resistance coefficient (RRC) indicates the amount of force required to overcome the hysteresis of the material as the tire rolls. Tire pressure, vehicle weight and velocity all play a role in how much force is lost to rolling resistance.
+The basic model equation for SAE J2452 is:
+
+Rolling Resistance ( N / Lbs) = Pα x Zβ x (a + bxV + cxVxV)
+
+where:
+
+P is the tire inflation pressure ( kPa / psi)
+Z is the applied load for vehicle weight ( N /Lbs)
+V is the vehicle speed ( km/h / mph)
+alpha, beta, a, b, c are the coefficients for the model.
+
+The units of the coefficients are matched to the units used in the model, i.e. ( metric / Imperial)
+This model is newer than SAE J1269 and provides more accuracy over a range of different vehicle loads (weight), tire pressures and vehicle speeds.

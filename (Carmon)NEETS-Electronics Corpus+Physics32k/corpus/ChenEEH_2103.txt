@@ -1,0 +1,8 @@
+It is easy to model a class reference by adding some arc when
+a class needs to access some public attribute of another class.
+For example, Figure 9.4 illustrates simple class reference rela-
+tionships where some operation in class C1 (p1 and t1) uses
+some public attributes deﬁned in class C2 (p2 and t2), and
+some operation in class C2 uses some public attributes deﬁned
+in class C1. Figure 9.3 contains simple reference relationships
+between classes Phil and Chop.

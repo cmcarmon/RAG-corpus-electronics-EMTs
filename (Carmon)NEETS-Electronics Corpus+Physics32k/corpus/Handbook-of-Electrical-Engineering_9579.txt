@@ -1,0 +1,26 @@
+A  computer  usually  consists  of  four  major  components:  the  arithmetic-logic  unit  (ALU),  the  main  memory
+unit (MU), the input/output unit (I/O), and the control unit (CU). Such a computer is known as a uniprocessor
+since  the  processing  is  achieved  by  operating  on  one  word  or  word  pair  at  a  time.  In  order  to  increase  the
+computer  performance,  we  may  improve  the  device  technology  to  reduce  the  switching  (gate  delay)  time.
+Indeed,  for  the  past  half  century  we  have  seen  switching  speeds  improve  from  200  to  300 ms  for  relays  to
+present-day subnanosecond very large scale integration (VLSI) circuits. As the switching speeds of computer
+devices approach a limit, however, any further signiﬁcant improvement in performance is more likely to be in
+increasing the number of words or word pairs that can be processed simultaneously. For example, we may use
+N
+ times in a uniprocessor, or we may design a computer system with
+one ALU to compute 
+N
+N
+  sets  once.  Conceptually,  such  a  computer  system  may  still  consist  of  the  four  major
+N
+ ALUs. An organization with multiple ALUs under
+components mentioned previously except that there are 
+parallel processor. 
+To make a parallel processor more efﬁcient and cost-
+the control of a single CU is called a 
+is usually required to facilitate the inter-
+effective, a ﬁfth major component, called 
+processor and processor-memory communications. In addition, each ALU requires not only its own registers
+(PE). Figure 95.1 shows a
+but also network interfaces; the expanded ALU is then called a 
+block diagram of a parallel processor.

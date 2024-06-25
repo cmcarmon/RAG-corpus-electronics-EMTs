@@ -1,0 +1,150 @@
+There are three types of radial trajectories (orbits).
+Radial elliptic trajectory: an orbit corresponding to the part of a degenerate ellipse from the moment the bodies touch each other and move away from each other until they touch each other again. The relative speed of the two objects is less than the escape velocity. This is an elliptic orbit with semi-minor axis = 0 and eccentricity = 1. Although the eccentricity is 1 this is not a parabolic orbit. If the coefficient of restitution of the two bodies is 1 (perfectly elastic) this orbit is periodic. If the coefficient of restitution is less than 1 (inelastic) this orbit is non-periodic.
+Radial parabolic trajectory, a non-periodic orbit where the relative speed of the two objects is always equal to the escape velocity. There are two cases: the bodies move away from each other or towards each other.
+Radial hyperbolic trajectory: a non-periodic orbit where the relative speed of the two objects always exceeds the escape velocity. There are two cases: the bodies move away from each other or towards each other. This is a hyperbolic orbit with semi-minor axis = 0 and eccentricity = 1. Although the eccentricity is 1 this is not a parabolic orbit.
+Unlike standard orbits which are classified by their orbital eccentricity, radial orbits are classified by their specific orbital energy, the constant sum of the total kinetic and potential energy, divided by the reduced mass:
+
+
+
+
+ϵ
+=
+
+
+
+v
+
+2
+
+
+2
+
+
+−
+
+
+μ
+x
+
+
+
+
+{\displaystyle \epsilon ={\frac {v^{2}}{2}}-{\frac {\mu }{x}}}
+
+where x is the distance between the centers of the masses, v is the relative velocity, and
+
+
+
+μ
+=
+
+G
+
+(
+
+m
+
+1
+
+
++
+
+m
+
+2
+
+
+)
+
+
+{\displaystyle \mu ={G}(m_{1}+m_{2})}
+is the standard gravitational parameter.
+Another constant is given by:
+
+
+
+
+w
+=
+
+
+1
+x
+
+
+−
+
+
+
+v
+
+2
+
+
+
+2
+μ
+
+
+
+=
+
+
+
+−
+ϵ
+
+μ
+
+
+
+
+{\displaystyle w={\frac {1}{x}}-{\frac {v^{2}}{2\mu }}={\frac {-\epsilon }{\mu }}}
+
+For elliptic trajectories, w is positive. It is the inverse of the apoapsis distance (maximum distance).
+For parabolic trajectories, w is zero.
+For hyperbolic trajectories, w is negative, It is
+
+
+
+
+
+
+
+−
+
+v
+
+∞
+
+
+2
+
+
+
+
+2
+μ
+
+
+
+
+
+
+{\displaystyle \textstyle {\frac {-v_{\infty }^{2}}{2\mu }}}
+where
+
+
+
+
+
+v
+
+∞
+
+
+
+
+
+{\displaystyle \textstyle v_{\infty }}
+is the velocity at infinite distance.

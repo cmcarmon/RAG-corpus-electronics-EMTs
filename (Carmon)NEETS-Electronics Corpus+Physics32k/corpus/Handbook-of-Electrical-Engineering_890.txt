@@ -1,0 +1,4 @@
+The IC itself contains a voltage reference source and operational ampliﬁer. Simple models for these elements
+are used here rather than representing them in their full form, using transistors, to illustrate model development.
+The use of simpliﬁed models can also greatly reduce the simulation effort. (For example, the simple op amp
+used here requires only eight nodes and ten components, yet realizes many advanced features.)

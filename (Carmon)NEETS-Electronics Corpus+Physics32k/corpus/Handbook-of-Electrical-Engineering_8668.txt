@@ -1,0 +1,3 @@
+In the optimized case, a slightly different register assignment is used. This is because the optimizer created
+another character variable—*source—which it assigned to a register. The motivation for its creation and its
+assignment to a register is shown in the next section on constant expression removal.

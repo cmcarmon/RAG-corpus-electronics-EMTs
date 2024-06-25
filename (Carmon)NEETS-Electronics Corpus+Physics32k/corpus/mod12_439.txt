@@ -1,0 +1,8 @@
+The FOSTER-SEELEY DISCRIMINATOR is also known as the PHASE-SHIFT
+DISCRIMINATOR. It uses a double-tuned rf transformer to convert frequency variations in the received
+fm signal to amplitude variations. These amplitude variations are then rectified and filtered to provide a
+dc output voltage. This voltage varies in both amplitude and polarity as the input signal varies in
+frequency. A typical discriminator response curve is shown in figure 3-10. The output voltage is 0 when
+the input frequency is equal to the carrier frequency (fr). When the input frequency rises above the center
+frequency, the output increases in the positive direction. When the input frequency drops below the center
+frequency, the output increases in the negative direction.

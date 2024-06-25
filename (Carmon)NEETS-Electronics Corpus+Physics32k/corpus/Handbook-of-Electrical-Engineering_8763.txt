@@ -1,0 +1,13 @@
+The objects in an object-oriented world use inheritance to relate to one another. That is, objects of the same
+class all inherit the same functions. These functions are called methods in SmallTalk and member functions in
+C++[Ellis  and  Stroustrup,  1990].  However,  the  state  or  storage  attributes  of  objects  cloned  from  the  same  class
+differ. The storage components of an object are called instance variables in SmallTalk and member ﬁelds in C++.
+The wholism of combining data with instructions is known as ADTs; the concept of sending messages instead
+of  calling  procedures  is  the  message-passing  paradigm;  the  concept  of  interactive,  nonlinear,  and  iterative
+development  of  a  program  is  a  consequence  of  an  object’s  interface  speciﬁcation  being  separated  from  its
+implementation part; the notion of modeling the real world as a network of interacting objects is called OOD
+(object-oriented design); the concept of specialization and reuse is known as inheritance; and OOP is the act
+of writing a program in an object-oriented language while adhering to an object-oriented view of the world.
+Perhaps  an  analogy  will  add  a  touch  of  concreteness  to  these  vague  concepts.  Suppose  automobiles  were
+constructed  using  both  technologies.  Table  87.6  repeats  the  comparison  of  Table  87.5  using  an  automobile
+design and manufacturing analogy.

@@ -1,0 +1,8 @@
+For discrete scheduling designs, abrupt changes in the con-
+troller output can occur at switching instants. These changes
+may cause excitation of unmodeled plant dynamics, degrading
+performance and possibly leading to catastrophic failure. To
+mitigate these risks, one must resort to techniques such as
+bumpless transfer (Hanus et al., 1987) or ensure that the
+design can tolerate the switching through other methods
+(Bett and Lemon, 1999).

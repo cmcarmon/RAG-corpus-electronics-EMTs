@@ -1,0 +1,7 @@
+A number of interesting conclusions can be drawn from this simple example. First, we
+really do not have to repeat the load line construction fifty times to visualize the output
+wave. It is clear from the graph that whenever the input voltage is negative, the diode
+current is so small that vO is almost zero. Also, for large positive values of vI, the diode
+voltage stays relatively constant at about 0.6 volts (due to the nature of the exponential),
+so the voltage across the resistor will be approximately vI − 0.6 V. This kind of insight
+is the principal value of the graphical method.

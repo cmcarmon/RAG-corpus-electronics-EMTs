@@ -1,0 +1,6 @@
+Continue this process, wire by wire, until all connections in the schematic diagram have
+been accounted for. It might be helpful to regard common wires in a SPICE-like fashion: make
+all connections to a common wire in the circuit as one step, making sure each and every com-
+ponent with a connection to that wire actually has a connection to that wire before proceeding
+to the next. For the next step, I’ll show how the top sides of the remaining two resistors are
+connected together, being common with the wire secured in the previous step:

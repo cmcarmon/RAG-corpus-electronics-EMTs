@@ -1,0 +1,4 @@
+An  implementation  based  on  these  axioms  amounts  to  representing  a  function  as  a  list  of  those  of  its
+individual  mappings  that  differ  from  default  and  leads  to  an  O(1)  performance  for  update  and  an  O(n)
+performance of apply. Better is an implementation by binary searchtrees with a performance of O(log(n)) for
+both apply and update.

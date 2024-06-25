@@ -1,0 +1,18 @@
+becomes forward biased and the NPN transistor 
+ conducts. This causes base current to flow through the 
+PNP transistor, which in turn allows the PNP transis-
+tor to conduct. The collector current flowing through 
+the PNP transistor causes the base current to flow 
+through the NPN transistor. The two transistors hold 
+each other in the conducting state, allowing current 
+to flow continuously from the cathode to the anode. 
+This action takes place even though the gate voltage 
+is  applied only momentarily. The momentary gate 
+ voltage causes the circuit to switch to the  conducting 
+state and the circuit to continue conducting even 
+though the gate voltage is removed. The anode current 
+is limited only by the external circuit. To switch the 
+SCR off, it is necessary to reduce the anode-to-cathode 
+ voltage below the hold-on value, typically close to 0. 
+This causes both transistors to turn off and remain off 
+until a gate voltage is again applied.

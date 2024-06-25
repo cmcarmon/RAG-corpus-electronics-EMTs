@@ -1,0 +1,15 @@
+Each minute, WWVB broadcasts the current time in a binary-coded decimal format. While this is based on the IRIG timecode, the bit encoding and the order of the transmitted bits differs from any current or past IRIG time distribution standard.
+Markers are sent during seconds 0, 9, 19, 29, 39, 49 and 59 of each minute. Thus, the start of the second of two consecutive markers indicates the top of the minute, and serves as the on-time marker for the next frame of time code. Markers are important to allow receivers to properly frame the time code.
+A marker is also sent during leap seconds. In this exceptional event, three consecutive markers will be transmitted: one in second 59, one in second 60, and one in second 0. The start of the third marker indicates the start of the minute.
+There are 11 unused bits, transmitted as binary 0.
+The remaining 42 bits, zeros and ones, carry the binary time code and other information.
+The on-time marker, the exact moment which the time code identifies, is the leading (negative-going) edge of the frame reference marker. Thus the time code is always transmitted in the minute immediately after the moment it represents, and matches the hours and minutes of the time of day a clock should be displaying at that moment in UTC (before any time zone or daylight saving offsets are applied).
+In the following diagram, the cyan (0 dBr) blocks indicate the full strength carrier, and the dark blue (−17 dBr) blocks indicate the reduced strength carrier. The widest dark blue blocks—the longest intervals (0.8 s) of reduced carrier strength—are the markers, occurring in seconds 0, 9, 19, 29, 39, 49, and 59. Of the remaining dark blue blocks, the narrowest represent reduced carrier strength of 0.2 seconds duration, hence data bits of value zero. Those of intermediate width (for example, in seconds :02 and :03) represent reduced carrier strength of 0.5 seconds duration, hence data bits of value one.
+
+The example above encodes the following:
+day 66 (March 6) of 2008
+for the minute beginning at 07:30:00 UTC
+DUT1 is −0.3 seconds (therefore, UT1 is 07:29:59.7)
+DST is not in effect today, nor is it coming into effect
+there is no leap second scheduled, but the current year is a leap year
+The table below shows this in more detail, with the "Ex" column being the bits from the example above:

@@ -1,0 +1,79 @@
+In this electric motor design, the force is produced by a linearly moving magnetic field acting on conductors in the field. Any conductor, be it a loop, a coil, or simply a piece of plate metal, that is placed in this field will have eddy currents induced in it thus creating an opposing magnetic field in accordance with Lenz's law. The two opposing fields will repel each other, creating motion as the magnetic field sweeps through the metal.
+
+
+
+
+
+n
+
+s
+
+
+=
+2
+
+f
+
+s
+
+
+
+/
+
+p
+
+
+{\displaystyle n_{s}=2f_{s}/p}
+
+where fs is supply frequency in Hz, p is the number of poles, and ns is the synchronous speed of the magnetic field in revolutions per second.
+The travelling field pattern has a velocity of:
+
+
+
+
+
+v
+
+s
+
+
+=
+2
+t
+
+f
+
+s
+
+
+
+
+{\displaystyle v_{s}=2tf_{s}}
+
+where vs is velocity of the linear travelling field in m/s, and t is the pole pitch.
+For a slip of s, the speed of the secondary in a linear motor is given by
+
+
+
+
+
+v
+
+r
+
+
+=
+(
+1
+−
+s
+)
+
+v
+
+s
+
+
+
+
+{\displaystyle v_{r}=(1-s)v_{s}}

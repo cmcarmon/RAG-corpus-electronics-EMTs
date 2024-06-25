@@ -1,0 +1,20 @@
+Pipelining
+Pipelining
+ can increase the amount of concurrency (or the number of activities performed simultaneously) in
+an algorithm. Pipelining is accomplished by placing latches at appropriate intermediate points in a data ﬂow
+graph that describes the algorithm. Each latch also refers to a storage unit or buffer or register. The latches can
+ of the data ﬂow graph. In synchronous hardware implementations, pipelining
+be placed at 
+can  increase  the  clock  rate  of  the  system  (and  therefore  the  sample  rate).  The  drawbacks  associated  with
+pipelining are the increase in system latency and the increase in the number of registers. To illustrate the speed
+increase  using  pipelining,  consider  the  second-order  three-tap  ﬁnite  impulse  response  (FIR)  ﬁlter  shown  in
+  in  this  system  can  be  sampled  at  a  rate  limited  by  the  throughput  of  one
+Fig.  18.1(a).  The  signal 
+multiplication  and  two  additions.  For  simplicity,  if  we  assume  the  multiplication  time  to  be  two  times  the
+. By placing latches as shown in
+addition time (
+Fig.  18.1(b)  at  the  cutset  shown  in  the  dashed  line,  the  sample  rate  can  be  improved  to  the  rate  of  one
+multiplication or two additions. While pipelining can be easily applied to all algorithms with no feedback loops
+by the appropriate placement of latches, it cannot easily be applied to algorithms with feedback loops. This is
+because the cutsets in feedback algorithms contain feed-forward and feedback data ﬂow and cannot be con-
+sidered as feed-forward cutsets.

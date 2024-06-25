@@ -1,0 +1,10 @@
+At this point you should protest. No waveform measured in the labora-
+tory will have a ‘‘j ’’ associated with it. The problem arises because we have
+used a complex rather than a real drive. That is, we have analyzed the cir-
+cuit shown in Figure 13.4a, rather than Figure 13.3. The complex exponential
+drive ˜vi can be represented by the Euler relation as the sum of two sources
+as depicted in Figure 13.4a. If the circuit is linear, the two-source circuit can
+be analyzed by superposition, as suggested in Figure 13.4b and 13.4c. Specifi-
+cally, the voltage ˜vcp can be found by summing the response to Vi cos(ωt), as
+obtained from Figure 13.4b with j times the response to Vi sin(ωt), as found from
+Figure 13.4c:

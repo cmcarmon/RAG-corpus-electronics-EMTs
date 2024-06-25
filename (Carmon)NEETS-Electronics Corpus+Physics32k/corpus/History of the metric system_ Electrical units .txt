@@ -1,0 +1,370 @@
+In the 1820s Georg Ohm formulated Ohms Law which can be extended to relate power to current, electric potential (voltage) and resistance. During the following decades the realisation of a coherent system of units that incorporated the measurement of electromagnetic phenomena and Ohm's law was beset with problems – several different systems of units were devised.
+Electromagnetic (absolute) system of units (EMU)
+The Electromagnetic system of units (EMU) was developed from André-Marie Ampère's discovery in the 1820s of a relationship between currents in two conductors and the force between them now known as Ampere's law:
+
+
+
+
+
+
+
+F
+
+m
+
+
+L
+
+
+=
+2
+
+k
+
+m
+
+
+
+
+
+
+I
+
+1
+
+
+
+I
+
+2
+
+
+
+r
+
+
+
+
+{\displaystyle {\frac {F_{\text{m}}}{L}}=2k_{\text{m}}{\frac {I_{1}I_{2}}{r}}}
+where
+
+
+
+
+k
+
+m
+
+
+=
+
+
+
+μ
+
+0
+
+
+
+4
+π
+
+
+
+
+
+
+{\displaystyle k_{\text{m}}={\frac {\mu _{0}}{4\pi }}\ }
+(SI units)
+
+In 1833 Gauss pointed out the possibility of equating this force with its mechanical equivalent. This proposal received further support from Wilhelm Weber in 1851. In this system, current is defined by setting the magnetic force constant
+
+
+
+
+k
+
+
+m
+
+
+
+
+
+{\displaystyle k_{\mathrm {m} }}
+to unity and electric potential is defined in such a way as to ensure the unit of power calculated by the relation
+
+
+
+P
+=
+V
+I
+
+
+{\displaystyle P=VI}
+is an erg/second. The electromagnetic units of measure were known as the abampere, abvolt, and so on. These units were later scaled for use in the International System.
+Electrostatic system of units (ESU)
+The Electrostatic system of units (ESU) was based on Coulomb's quantification in 1783 of the force acting between two charged bodies. This relationship, now known as Coulomb's law can be written
+
+
+
+
+
+F
+
+
+e
+
+
+
+=
+
+k
+
+e
+
+
+
+
+
+
+q
+
+1
+
+
+
+q
+
+2
+
+
+
+
+r
+
+2
+
+
+
+
+,
+
+
+{\displaystyle F_{\mathrm {e} }=k_{\text{e}}{\frac {q_{1}q_{2}}{r^{2}}},}
+where
+
+
+
+
+k
+
+e
+
+
+=
+
+
+1
+
+4
+π
+
+ϵ
+
+0
+
+
+
+
+
+
+
+{\displaystyle k_{\text{e}}={\frac {1}{4\pi \epsilon _{0}}}}
+(SI units)
+
+In this system, the unit for charge is defined by setting the Coulomb force constant (
+
+
+
+
+k
+
+e
+
+
+
+
+{\displaystyle k_{\text{e}}}
+) to unity and the unit for electric potential was defined to ensure the unit of energy calculated by the relation
+
+
+
+E
+=
+Q
+V
+
+
+{\displaystyle E=QV}
+is one erg. The electrostatic units of measure were the statampere, statvolt, and so on.
+Gaussian system of units
+The Gaussian system of units was based on Heinrich Hertz's realisation while verifying Maxwell's Equations in 1888, that the electromagnetic and electrostatic units were related by:
+
+
+
+
+
+c
+
+2
+
+
+=
+
+
+1
+
+
+ϵ
+
+0
+
+
+
+μ
+
+0
+
+
+
+
+
+
+
+{\displaystyle c^{2}={\frac {1}{\epsilon _{0}\mu _{0}}}}
+
+
+Using this relationship, he proposed merging the EMU and the ESU systems into one system using the EMU units for magnetic quantities (subsequently named the gauss and maxwell) and ESU units elsewhere. He named this combined set of units "Gaussian units". This set of units has been recognised as being particularly useful in theoretical physics.
+Quad-eleventhgram-second (QES) or International system of units
+The CGS units of measure used in scientific work were not practical for engineering, leading to development of a more applicable system of electric units especially for telegraphy. The unit of length was 107 m (approx. the length of the Earth's quadrant), the unit of mass was an unnamed unit equal to 10−11 g and the unit of time was the second. The units of mass and length were scaled incongruously to yield more consistent and usable electric units in terms of mechanical measures. Informally called the "practical" system, it was properly termed the quad-eleventhgram-second (QES) system of units according to convention.
+The definitions of electrical units incorporated the magnetic constant like the EMU system, and the names of the units were carried over from that system, but scaled according to the defined mechanical units. The system was formalised as the International system late in the 19th century and its units later designated the "international ampere", "international volt", etc.
+Heaviside-Lorentz system of units
+The factor
+
+
+
+4
+π
+
+
+{\displaystyle 4\pi }
+occurs in Maxwell's equations and reflects that there are
+
+
+
+4
+π
+
+
+{\displaystyle 4\pi }
+steradians surrounding a point, such as a point electric charge. This factor can be eliminated from contexts that don't actually involve spherical coordinates by incorporating the factor into the unit definitions. The system was proposed by Oliver Heaviside in 1883 and is also known as the "rationalised gaussian system of units". The SI later adopted rationalised units according to the gaussian rationalisation scheme.
+In the three CGS systems, the constants
+
+
+
+
+k
+
+e
+
+
+
+
+{\displaystyle k_{\text{e}}}
+and
+
+
+
+
+k
+
+m
+
+
+
+
+{\displaystyle k_{\text{m}}}
+and consequently
+
+
+
+
+ϵ
+
+0
+
+
+
+
+{\displaystyle \epsilon _{0}}
+and
+
+
+
+
+μ
+
+0
+
+
+
+
+{\displaystyle \mu _{0}}
+were dimensionless.
+The electrical units of measure did not easily fit into the coherent system of mechanical units defined by the BAAS. Using dimensional analysis, the dimensions of voltage
+
+
+
+
+
+
+M
+
+
+
+
+1
+2
+
+
+
+
+
+
+L
+
+
+
+
+1
+2
+
+
+
+
+
+
+T
+
+
+
+−
+1
+
+
+
+
+{\displaystyle {\mathsf {M}}^{\frac {1}{2}}{\mathsf {L}}^{\frac {1}{2}}{\mathsf {T}}^{-1}}
+in the ESU system were identical to the dimensions of current in the EMU system, while resistance had dimensions of velocity in the EMU system, but the inverse of velocity in the ESU system.

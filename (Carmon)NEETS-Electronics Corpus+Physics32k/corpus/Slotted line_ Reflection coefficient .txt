@@ -1,0 +1,67 @@
+The reflection coefficient, ρ, is the ratio of the reflected wave to the incident wave. In general it is a complex number. The magnitude of the reflection coeffient can be calculated from the VSWR measurement by,
+
+
+
+
+
+|
+
+ρ
+
+|
+
+=
+
+
+
+
+V
+S
+W
+R
+
+−
+1
+
+
+
+V
+S
+W
+R
+
++
+1
+
+
+
+
+
+{\displaystyle |\rho |={\frac {\mathrm {VSWR} -1}{\mathrm {VSWR} +1}}}
+
+where VSWR is the standing wave ratio expressed as a voltage ratio (not in decibels). However, to completely characterise the reflection coefficient, the phase of ρ must also be found. This is done on a slotted line by measuring the distance of the first minimum from the DUT. Moving the probe right up to the DUT is not practicable so a different approach is usually adopted. The position of the first minimum when the reference short is in place is noted. The distance back along the line from this reference point to the next minimum when the DUT is in place will be the same as the distance from the DUT to the first minimum. This is so because the reference short guarantees a minimum at the DUT position.
+The phase part of ρ is given by,
+
+
+
+
+∠
+ρ
+=
+
+
+
+4
+π
+
+λ
+
+
+x
+−
+π
+
+
+{\displaystyle \angle \rho ={\frac {4\pi }{\lambda }}x-\pi }
+
+where λ is the wavelength and x is the distance to the first minimum as described earlier. The magnitude and phase representation of ρ can, if required, be expressed as real and imaginary parts instead by the usual manipulation of complex numbers.

@@ -1,0 +1,5 @@
+The importance of Lee’s algorithm is that it always ﬁnds the shortest path between two points. Since it routes
+one net at a time, however, there is a possibility of having some nets unrouted at the end of the routing process.
+The other weak points of this technique are the requirements of a large memory space and long execution time.
+For this reason, the maze router is often used as a side router for the routing of critical nets and/or routing of
+leftover unrouted nets.

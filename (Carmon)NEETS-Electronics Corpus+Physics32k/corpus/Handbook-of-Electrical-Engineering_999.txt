@@ -1,0 +1,13 @@
+The triplet sets of parameters for incorporating geometry dependence into the BSIM model, (13.6), allow
+an alternate strategy. We obtain sets of parameters without geometry dependence by ﬁtting to individual devices
+without  using  the  ParL  and  ParW  terms.  We  do  this  for  each  device  size  individually.  This  produces  sets  of
+parameters relevant to each individual device. So, for device number 1 of width W(1) and length L(1) we would
+have a value for the parameter VFB which we will call VFB(1); for device number n of width W(n) and length
+L(n) we will have VFB(n). To get the Par0, ParL, and VFBW we ﬁt to the “data points” VFB(1), . . .,VFB(n) with
+parameters VFB0, VFBL, and VFBW using (13.6) where Leff and Weff are different for each index, 1 through n.
+Note that as L and W become very large, the parameters must approach Par0. This suggests that we use the
+parameter values for the wide-long device as the Par0 terms and only ﬁt the other geometry sizes to get the
+ParL  and  ParW  terms.  For  example,  if  we  have  obtained VFB(1)  for  our  ﬁrst  device  which  is  our  wide-long
+device, we would set VFB0 = VFB(1), and then ﬁt to VFB(2), . . .,VBF(n) with parameters VFBL and VFBW, and
+similarly for all the other triplets of parameters. In order to use a general least-squares optimization program
+in this way the software must be capable of specifying parameters as targets, as well as measured data points.

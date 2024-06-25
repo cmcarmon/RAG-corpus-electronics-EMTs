@@ -1,0 +1,20 @@
+Voltage-Fed Inverter Induction Motor Drive
+A simple and popular converter system for speed control of an induction motor is shown in Fig. 30.43. The
+front-end diode rectiﬁer converts 60 Hz ac to dc, which is then ﬁltered to remove the ripple. The dc voltage is
+then converted to variable-frequency, variable-voltage output for the machine through a PWM bridge inverter.
+Among a number of PWM techniques, the sinusoidal PWM is common, and it is illustrated in Fig. 30.44 for
+one phase only. The stator sinusoidal reference phase voltage signal is compared with a high-frequency carrier
+wave, and the comparator logic output controls switching of the upper and lower transistors in a phase leg.
+The phase voltage wave shown refers to the ﬁctitious center tap of the ﬁlter capacitor. With the PWM technique,
+the fundamental voltage and frequency can be easily varied. The stator voltage wave contains high-frequency
+ripple, which is easily ﬁltered by the machine leakage inductance. The voltage-to-frequency ratio is kept constant
+to provide constant airgap ﬂux in the machine. The machine voltage-frequency relation, and the corresponding
+torque, stator current, and slip, are shown in Fig. 30.45. Up to the base or rated frequency wb, the machine can
+develop  constant  torque.  Then,  the  ﬁeld  ﬂux  weakens  as  the  frequency  is  increased  at  constant  voltage.  The
+speed  of  the  machine  can  be  controlled  in  a  simple  open-loop  manner  by  controlling  the  frequency  and
+maintaining the proportionality between the voltage and frequency. During acceleration, machine-developed
+torque should be limited so that the inverter current rating is not exceeded. By controlling the frequency, the
+operation can be extended in the ﬁeld weakening region. If the supply frequency is controlled to be lower than
+the machine speed (equivalent frequency), the motor will act as a generator and the inverter will act as a rectiﬁer,
+and energy from the motor will be pumped back to the dc link. The dynamic brake shown is nothing but a
+buck converter with resistive load that dissipates excess power to maintain the dc bus voltage constant. When

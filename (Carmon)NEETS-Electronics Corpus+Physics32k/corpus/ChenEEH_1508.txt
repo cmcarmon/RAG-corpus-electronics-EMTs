@@ -1,0 +1,6 @@
+Process management in UNIX uses two key data structures,
+the process table and the user structure. The former is always
+in memory, but the latter can be swapped or paged out.
+Process creation is done by duplicating the process table
+entry and then the memory image. Scheduling is done using
+a priority-based algorithm that favors interactive users.

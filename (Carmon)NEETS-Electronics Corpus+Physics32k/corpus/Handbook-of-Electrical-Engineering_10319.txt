@@ -1,0 +1,10 @@
+In the transit chain the signals are modulated, combined, and frequency-shifted with an upconverter to the
+desired satellite transmit frequency. After upconversion, the signals are ampliﬁed by HPAs. In a large earth station,
+there may be many HPAs which feed to a single antenna. These signals must be switched and combined appro-
+priately. At microwave frequencies, waveguide combiners are used to route the output of the HPAs to the antenna.
+In the receive chain, the counterpart to the HPA is the low-noise ampliﬁer (LNA), which is used to amplify
+the signals received from the antenna. This ampliﬁer must be designed for maximum gain with a very small
+noise contribution. The noise generated in this unit contributes signiﬁcantly to the overall performance of the
+receive side of the earth station. Gallium arsenide (GaAs) FETs are commonly used in the ampliﬁer section of
+the LNA because of their low-noise characteristics. The LNA feeds the signal to the frequency downconverter,
+which converts it to IF frequency suitable for demodulator.

@@ -1,0 +1,7 @@
+In case of a baseband channel such as a telegraph line, a serial cable or a Local Area Network twisted pair cable, data is transferred using line codes; i.e., pulses rather than sinewave tones. In this case, the baud rate is synonymous to the pulse rate in pulses/second.
+The maximum baud rate or pulse rate for a base band channel is called the Nyquist rate, and is double the bandwidth (double the cut-off frequency).
+The simplest digital communication links (such as individual wires on a motherboard or the RS-232 serial port/COM port) typically have a symbol rate equal to the gross bit rate.
+Common communication links such as 10 Mbit/s Ethernet (10Base-T), USB, and FireWire typically have a symbol rate slightly lower than the data bit rate, due to the overhead of extra non-data symbols used for self-synchronizing code and error detection.
+J. M. Emile Baudot (1845–1903) worked out a five-level code (five bits per character) for telegraphs which was standardized internationally and is commonly called Baudot code.
+More than two voltage levels are used in advanced techniques such as FDDI and 100/1,000 Mbit/s Ethernet LANs, and others, to achieve high data rates.
+1,000 Mbit/s Ethernet LAN cables use four wire pairs in full duplex (250 Mbit/s per pair in both directions simultaneously), and many bits per symbol to encode their data payloads.

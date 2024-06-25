@@ -1,0 +1,11 @@
+Each timing pulse from the 555 chip triggers the decade counter to count, 
+so the 10 outputs of the decade counter go high one at a time every 3 to 10 
+seconds (depending on the value of R1). Because the first four outputs of the 
+4017 chip (pins 3, 2, 4, and 7, in that order) are connected (through diodes) 
+to the green LED (LED1), the green LED will light up and remain lit during the 
+first four pulses from the 555 timer chip. The fifth output of the 4017 chip 
+(pin 10) is connected to the yellow LED (LED2), so it will light up for the dura-
+tion of the fifth timing pulse. Because the sixth through tenth outputs (pins 
+1, 5, 6, 9, and 11, in that order) of the 4017 chip are tied (through diodes) to 
+the red LED (LED3), the red LED will light up and stay lit for the sixth through 
+tenth timing pulses. Then, the cycle will repeat. (See Figure 17-11.)

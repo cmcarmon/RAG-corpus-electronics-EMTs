@@ -1,0 +1,8 @@
+When using IE techniques, the coefﬁcient matrix in the linear system of equations that results is most often
+referred to as an impedance matrix because in the case of the E-ﬁeld form, its multiplication of the vector of
+unknown currents equals a vector of electric ﬁelds or voltages. The inverse matrix similarly is often called an
+admittance matrix because its multiplication of the electric-ﬁeld or voltage vector yields the unknown-current
+vector.  In  this  discussion  we  instead  use  the  terms  direct  matrix  and  solution  matrix  because  they  are  more
+generic descriptions whatever the forms of the originating integral or differential equations. As illustrated in
+the following, development of the direct matrix and solution matrix dominates both the computer time and
+storage requirements of numerical modeling.

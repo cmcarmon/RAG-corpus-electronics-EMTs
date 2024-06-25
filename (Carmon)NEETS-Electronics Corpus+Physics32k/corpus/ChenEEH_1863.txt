@@ -1,0 +1,10 @@
+. Active session management: Once the session descrip-
+tion is delivered, SIP conveys the response (accept or
+reject) to the session initiation point (the caller). If
+the response is ‘‘accept,’’ the session becomes active. If
+the session involves multimedia, media streams can now
+be exchanged between the two users. RTP and RTCP are
+some common protocols for transporting real-time data.
+SIP can also be used to change the parameters of an active
+session, such as removing some video media stream or
+reducing the quality of the audio stream.

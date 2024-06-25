@@ -1,0 +1,7 @@
+When  applying  the  reduced-rank  approximation  of  a  matrix  as  speciﬁed  by  relationship  (14.103),  it  is
+desirable that the gap between the so-called signal-level singular values and noise-level singular values be large
+(i.e., sq – sq+1 >> 0). If this is true, then the issues of nonuniqueness and continuity of mapping do not arise.
+Unfortunately, in many challenging applications, this gap is often small, and one must carefully examine the
+consequences of this fact on the underlying problem being addressed. For example, in modeling empirical data
+as a sum of exponentials, this gap is typically small, which in turn leads to potential undesirable algorithmic
+sensitivities. We will examine the exponential modeling problem in a later subsection.

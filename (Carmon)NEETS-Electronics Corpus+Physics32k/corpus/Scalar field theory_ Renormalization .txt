@@ -1,0 +1,85 @@
+The integrals over unconstrained momenta, called "loop integrals", in the Feynman graphs typically diverge. This is normally handled by renormalization, which is a procedure of adding divergent counter-terms to the Lagrangian in such a way that the diagrams constructed from the original Lagrangian and counter-terms is finite. A renormalization scale must be introduced in the process, and the coupling constant and mass become dependent upon it.
+The dependence of a coupling constant g on the scale λ is encoded by a beta function, β(g), defined by
+
+
+
+
+β
+(
+g
+)
+=
+λ
+
+
+
+
+∂
+g
+
+
+∂
+λ
+
+
+
+
+.
+
+
+{\displaystyle \beta (g)=\lambda \,{\frac {\partial g}{\partial \lambda }}~.}
+
+This dependence on the energy scale is known as "the running of the coupling parameter", and theory of this systematic scale-dependence in quantum field theory is described by the renormalization group.
+Beta-functions are usually computed in an approximation scheme, most commonly perturbation theory, where one assumes that the coupling constant is small. One can then make an expansion in powers of the coupling parameters and truncate the higher-order terms (also known as higher loop contributions, due to the number of loops in the corresponding Feynman graphs).
+The β-function at one loop (the first perturbative contribution) for the φ4 theory is
+
+
+
+
+β
+(
+g
+)
+=
+
+
+3
+
+16
+
+π
+
+2
+
+
+
+
+
+
+g
+
+2
+
+
++
+O
+
+(
+
+g
+
+3
+
+
+)
+
+
+.
+
+
+{\displaystyle \beta (g)={\frac {3}{16\pi ^{2}}}g^{2}+O\left(g^{3}\right)~.}
+
+The fact that the sign in front of the lowest-order term is positive suggests that the coupling constant increases with energy. If this behavior persisted at large couplings, this would indicate the presence of a Landau pole at finite energy, arising from quantum triviality. However, the question can only be answered non-perturbatively, since it involves strong coupling.
+A quantum field theory is said to be trivial when the renormalized coupling, computed through its beta function, goes to zero when the ultraviolet cutoff is removed. Consequently, the propagator becomes that of a free particle and the field is no longer interacting.
+For a φ4 interaction, Michael Aizenman proved that the theory is indeed trivial, for space-time dimension D ≥ 5.
+For D = 4, the triviality has yet to be proven rigorously, but lattice computations have provided strong evidence for this. This fact is important as quantum triviality can be used to bound or even predict parameters such as the Higgs boson mass. This can also lead to a predictable Higgs mass in asymptotic safety scenarios.

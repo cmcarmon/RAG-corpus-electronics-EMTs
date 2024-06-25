@@ -1,0 +1,24 @@
+‘PIC16F877’  from  the  list  and  click  on  the  Select 
+button.  Next  click  on  File  and  Load  Program.  
+Select the file named adc.hex (generated as a result 
+of  compiling  the  BASIC  source  code  shown  in 
+Table 18.4) and click on Open. This  will load the 
+program 
+the  PIC’s  program  memory.  
+  Click  on  Tools  and  Microcontroller  View  in 
+order to open the window shown in Fig. 18.18).  If 
+necessary, reposition the windows on the screen so 
+that you can see both of them then Select the Rate 
+and  Extremely  Fast  before  clicking  on  Simulation 
+and Start. The simulation will start immediately.  
+  To  set  an  analogue  input  voltage,  click  on  the 
+analogue (A) button associated with the RA0/AN0 
+pin then use the slider to change the analogue value 
+on this pin and click on Accept button to accept the 
+value.  The  state  of  the  PORTB  pins  should 
+immediately reflect this value. Repeat with several 
+different  analogue  input  values  and  at  reduced 
+simulation speeds in order to examine the effect of 
+each program instruction.  
+ 
+A further program 

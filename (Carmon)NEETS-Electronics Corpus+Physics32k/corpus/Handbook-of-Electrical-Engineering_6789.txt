@@ -1,0 +1,9 @@
+The Service Control Point
+The “brains” of the intelligent network is the SCP. It is an on-line, fault-tolerant, transaction-processing database
+which provides call handling information in response to network queries. The SCP deployed for 800 Service
+is a high-capacity system capable of handling more than 900 queries per second or 3 million per hour. It is a
+real-time system with a response time of less than one half second, and it is a high-availability system with a
+downtime  of  less  than  3  minutes  per  year  for  a  mated  SCP  pair.  The  SCP  is  also  designed  to  accommodate
+growth, which means that processing power or memory can be added to an in-service system without inter-
+rupting service. In addition, it is designed to accommodate graceful retroﬁt, which means that a new software
+program can be loaded into an in-service SCP without disrupting service.

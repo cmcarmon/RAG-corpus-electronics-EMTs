@@ -1,0 +1,11 @@
+• Propagation delay td is a certain amount of delay for a change to occur. It is deﬁned here
+as the time to change from 0 to 10% of the ﬁnal value. (Sometimes propagation delay is
+deﬁned as the time between the 50% level of Vi and the 50% level of Vo.) When Vi abruptly
+changes from 0 to 5 V, note that the output voltage and collector current do not initially
+change during the propagation delay time.
+• Rise time tr is the time needed to change from 10 to 90% of the ﬁnal level.
+• Propagation delay ts occurs when the input pulse returns to 0 V (i.e., logic level 0). This is
+a result of the time required to remove charge stored in the base region before the transistor
+begins to switch out of saturation and is usually longer than td.
+• Fall time tf is the time required for the output voltage and the collector current to change
+state. That is the time required to switch through the active region from saturation to cutoff.

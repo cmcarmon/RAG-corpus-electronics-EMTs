@@ -1,0 +1,10 @@
+Bandwidth and Capacity
+The foregoing formulas for discrete channels do not lead to the capacity of continuous-time channels such as
+Example 5. We have seen that in the case of the telephone channel whose bandwidth is approximately equal to
+3 kHz, capacity is lower bounded by 28,800 bits per second. How does bandwidth translate into capacity? The
+answer depends on the noise level and distribution. For example, if in the channel of Example 5, the noise is
+absent, capacity is inﬁnite regardless of bandwidth. We can encode any amount of information as the binary
+expansion of a single scalar, which can be sent over the channel as the amplitude or phase of a single sinusoid;
+knowing the channel transfer function, the decoder can recover the transmitted scalar error-free. Clearly, such
+a  transmission  method  is  not  recommended  in  practice  because  it  hinges  on  the  non-physical  scenario  of
+noiseless transmission.

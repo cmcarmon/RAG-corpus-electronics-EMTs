@@ -1,0 +1,44 @@
+set of variables, the principal components (PCs), that are
+uncorrelated and ordered so the ﬁrst few retain most of the
+variation present in all of the original variables. Computation
+of the principal components reduces to the solution of an
+eigenvalue–eigenvector problem for a positive–semideﬁnite
+symmetric matrix. Given that x is a vector of p random
+variables, the ﬁrst step in a PCA evaluation is to look for a
+linear function a0
+1x of the elements of x that have maximum
+variance, where a1 is a vector of p constants a11, a12 . . . a1p .
+Next,
+2x, uncorrelated with
+a0
+1x, which has maximum variance and so on. The kth derived
+variable a0
+kx is the kth PC. Up to p PCs can be found, but in
+general most of the variation in x can be accounted for by m
+PCs, where m  p. If the vector x has known covariance
+matrix S, then the kth PC is given by an orthonormal linear
+transformation of x as yk ¼ a0
+kx, where ak is an eigenvector of
+S corresponding to its kth largest eigenvalue lk. Consider an
+orthogonal matrix Fq with ak as the kth column and contain-
+ing q  p columns corresponding to q PCs; it can be shown
+that for the transformation y ¼ Fqx, the determinant of co-
+variance matrix for transformed data set y, det (Sy) is maxi-
+mized. The statistical
+importance of this property follows
+because the determinant of a covariance matrix, which is called
+the generalized variance can be used as a single measure of
+spread for a multivariate random variable. The square root of
+the generalized variance for a multivariate normal distribution
+is proportional to the volume in p-dimensional space, which
+encloses a ﬁxed proportion of the probability distribution of x.
+For a multivariate normal x, the ﬁrst q PCs are therefore q
+linear functions of x whose joint probability distribution has
+contours of ﬁxed probability that enclose the maximum
+volume (Joliffe, 1986). If the data vector x is normalized by
+its variance and autocorrelation matrix instead of covariance
+matrix is used, then above mentioned optimality property and
+derivation of PCs still hold. For the efﬁcient computation of
+PCs, at least in context of PCA rather than general eigenvalue
+problems, singular value decomposition (SVD) has been
+termed as the best approach available (Chambers, 1997).

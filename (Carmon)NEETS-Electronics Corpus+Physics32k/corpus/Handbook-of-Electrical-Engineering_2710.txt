@@ -1,0 +1,5 @@
+Several heuristics have been proposed for each of the preceding partitioning methods. Here, for example,
+we  emphasize  the  work  of  Fiduccia–Mattheyses  [Fiduccia  and  Mattheyses,  1982],  which  uses  the  quadratic
+method. For simplicity, their algorithm is only explained for one step of this method. Initially the set of cells
+is randomly divided into two sets, A and B. Each set represents a subarea of the layout and has size equal to
+the area it represents. A cell is selected from one of these sets to be moved to the other set. The selection of the

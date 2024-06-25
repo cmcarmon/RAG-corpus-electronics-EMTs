@@ -1,0 +1,7 @@
+(cid:1) We have chosen to model the Op Amp by the dependent source of
+Figure 15.6, which is a voltage-controlled voltage source, for obvious
+reasons.
+(cid:1) Although the +12 volt and −12 volt DC power supplies are obviously
+necessary for Op Amp operation, (they power the voltage-controlled
+voltage source), their inclusion in the circuit model we use for analysis is
+not very helpful, because the KCL calculation does not yield a

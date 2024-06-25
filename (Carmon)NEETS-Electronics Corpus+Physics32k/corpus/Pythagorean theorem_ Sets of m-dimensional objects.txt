@@ -1,0 +1,182 @@
+Another generalization of the Pythagorean theorem, introduced by Donald R. Conant and William A. Beyer, applies to a wide range of objects and sets of objects in any number of dimensions. Specifically, the square of the measure of an m-dimensional set of objects in one or more parallel m-dimensional flats in n-dimensional Euclidean space is equal to the sum of the squares of the measures of the orthogonal projections of the object(s) onto all m-dimensional coordinate subspaces.
+In mathematical terms:
+
+
+
+
+
+μ
+
+m
+s
+
+
+2
+
+
+=
+
+∑
+
+i
+=
+1
+
+
+x
+
+
+
+
+
+μ
+
+2
+
+
+
+
+m
+
+p
+
+i
+
+
+
+
+
+
+{\displaystyle \mu _{ms}^{2}=\sum _{i=1}^{x}\mathbf {\mu ^{2}} _{mp_{i}}}
+
+where:
+
+
+
+
+
+μ
+
+m
+
+
+
+
+{\displaystyle \mu _{m}}
+is a measure in m-dimensions (a length in one dimension, an area in two dimensions, a volume in three dimensions, etc.).
+
+
+
+
+s
+
+
+{\displaystyle s}
+is a set of one or more non-overlapping m-dimensional objects in one or more parallel m-dimensional flats in n-dimensional Euclidean space.
+
+
+
+
+
+μ
+
+m
+s
+
+
+
+
+{\displaystyle \mu _{ms}}
+is the total measure (sum) of the set of m-dimensional objects.
+
+
+
+
+p
+
+
+{\displaystyle p}
+represents an m-dimensional projection of the original set onto an orthogonal coordinate subspace.
+
+
+
+
+
+μ
+
+m
+
+p
+
+i
+
+
+
+
+
+
+{\displaystyle \mu _{mp_{i}}}
+is the measure of the m-dimensional set projection onto m-dimensional coordinate subspace
+
+
+
+i
+
+
+{\displaystyle i}
+. Because object projections can overlap on a coordinate subspace, the measure of each object projection in the set must be calculated individually, then measures of all projections added together to provide the total measure for the set of projections on the given coordinate subspace.
+
+
+
+
+x
+
+
+{\displaystyle x}
+is the number of orthogonal, m-dimensional coordinate subspaces in n-dimensional space (Rn) onto which the m-dimensional objects are projected (m ≤ n):
+
+
+
+
+x
+=
+
+
+
+(
+
+
+n
+m
+
+
+)
+
+
+
+=
+
+
+
+n
+!
+
+
+m
+!
+(
+n
+−
+m
+)
+!
+
+
+
+
+
+{\displaystyle x={\binom {n}{m}}={\frac {n!}{m!(n-m)!}}}
+
+
+For example, for a set of one or more two-dimensional parallel objects in three-dimensional space, m = 2 and n = 3. Therefore, the coordinate subspace calculation for this scenario is: x = 3!/2!(3-2)! = 3*2*1/2*1*1 = 6/2 = 3
+Thus, three coordinate planes (xy-plane, xz-plane, and yz-plane) are required to capture the necessary projections for calculating the area of the set. If the set contained one-dimensional parallel line segments instead, three coordinate axes (x, y, and z), rather than planes, would be needed to capture the projections for calculating the length of the set.

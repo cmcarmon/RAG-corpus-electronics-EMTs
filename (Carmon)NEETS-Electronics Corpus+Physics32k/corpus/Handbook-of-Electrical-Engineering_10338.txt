@@ -1,0 +1,7 @@
+In lieu of performing the VSAT demodulation function via the traditional analog circuit techniques, an all-
+digital implementation using digital signal processing (DSP) techniques may be considered. The merits of DSP
+include the development of a more testable, producible, maintainable, conﬁgurable, and cost-effective demod-
+ulator. Figure 102.9 presents an illustration of the DSP demodulator functions to be implemented using the DSP
+processor(s). The functions of the major blocks are as follows: phase locked loop (PLL) for carrier acquisition,
+narrowband Costas loop for data detection, external automatic gain control (AGC), dynamically advance/retard
+sampling to achieve optimum data sampling, and A/D converters for signal analog-to-digital conversion.

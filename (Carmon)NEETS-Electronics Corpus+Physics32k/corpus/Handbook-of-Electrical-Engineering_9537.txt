@@ -1,0 +1,7 @@
+The notion of “object” is central to OODBMS. An object can be seen as being an entity consisting of its own
+private memory and external interface (or protocol). The private memory is used to store the state of the object,
+and  the  external  interface  consists  of  a  set  of  operations  that  can  be  performed  on  the  object.  An  object
+communicates  with  other  objects  through  messages  sent  to  its  external  interface. When  an  object  receives  a
+message, it responds by using its own procedures, known as methods. The methods are responsible for processing
+the data in the object’s private memory and sending messages to other objects to perform speciﬁc tasks and
+possibly send back appropriate results.

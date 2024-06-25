@@ -1,0 +1,208 @@
+The equations of motion are used to describe the dynamic behavior of a multibody system. Each multibody system formulation may lead to a different mathematical appearance of the equations of motion while the physics behind is the same. The motion of the constrained bodies is described by means of equations that result basically from Newton’s second law. The equations are written for general motion of the single bodies with the addition of constraint conditions. Usually the equations of motions are derived from the Newton-Euler equations or Lagrange’s equations.
+The motion of rigid bodies is described by means of
+
+
+
+
+
+M
+(
+q
+)
+
+
+
+
+
+q
+
+¨
+
+
+
+−
+
+
+Q
+
+
+v
+
+
++
+
+
+
+C
+
+q
+
+
+
+
+T
+
+
+
+λ
+
+=
+
+F
+
+,
+
+
+{\displaystyle \mathbf {M(q)} {\ddot {\mathbf {q} }}-\mathbf {Q} _{v}+\mathbf {C_{q}} ^{T}\mathbf {\lambda } =\mathbf {F} ,}
+(1)
+
+
+
+
+
+C
+
+(
+
+q
+
+,
+
+
+
+
+q
+
+˙
+
+
+
+)
+=
+0
+
+
+{\displaystyle \mathbf {C} (\mathbf {q} ,{\dot {\mathbf {q} }})=0}
+(2)
+These types of equations of motion are based on so-called redundant coordinates, because the equations use more coordinates than degrees of freedom of the underlying system. The generalized coordinates are denoted by
+
+
+
+
+q
+
+
+
+{\displaystyle \mathbf {q} }
+, the mass matrix is represented by
+
+
+
+
+M
+
+(
+
+q
+
+)
+
+
+{\displaystyle \mathbf {M} (\mathbf {q} )}
+which may depend on the generalized coordinates.
+
+
+
+
+C
+
+
+
+{\displaystyle \mathbf {C} }
+represents the constraint conditions and the matrix
+
+
+
+
+
+C
+
+q
+
+
+
+
+
+{\displaystyle \mathbf {C_{q}} }
+(sometimes termed the Jacobian) is the derivation of the constraint conditions with respect to the coordinates. This matrix is used to apply constraint forces
+
+
+
+
+λ
+
+
+
+{\displaystyle \mathbf {\lambda } }
+to the according equations of the bodies. The components of the vector
+
+
+
+
+λ
+
+
+
+{\displaystyle \mathbf {\lambda } }
+are also denoted as Lagrange multipliers. In a rigid body, possible coordinates could be split into two parts,
+
+
+
+
+
+q
+
+=
+
+
+[
+
+
+u
+
+
+
+Ψ
+
+
+]
+
+
+T
+
+
+
+
+{\displaystyle \mathbf {q} =\left[\mathbf {u} \quad \mathbf {\Psi } \right]^{T}}
+
+where
+
+
+
+
+u
+
+
+
+{\displaystyle \mathbf {u} }
+represents translations and
+
+
+
+
+Ψ
+
+
+
+{\displaystyle \mathbf {\Psi } }
+describes the rotations.

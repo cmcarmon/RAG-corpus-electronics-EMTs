@@ -1,0 +1,19 @@
+Model Adaptation
+Adaptation algorithms for coder predictor or quantizer parameters can be loosely grouped based on the signals
+ coder elements analyze the input speech
+that are used as the basis for adaptation. Generally, 
+(or a ﬁltered version of it) to characterize predictor coefﬁcients, spectral components, or quantizer parameters
+  coder  elements  analyze  a  reconstructed  signal,  which  contains
+in  a  blockwise  fashion. 
+quantization noise, to adjust coder parameters in a sequential fashion. Forward adaptive coder elements can
+produce a more efﬁcient model of speech signal characteristics, but introduce delay into the coder’s operation
+due to buffering of the signal. Backward adaptive coder elements do not introduce delay, but produce signal
+models  that  have  lower  ﬁdelity  with  respect  to  the  original  speech  due  to  the  dependence  on  the  noisy
+reconstructed signal. Most low-rate coders rely on some form of forward adaptation. This requires moderate
+to high delay in processing for accuracy of parameter estimation (autocorrelations/autocovariances for LPC-
+based coders, sinusoidal resolution for frequency-domain coders). The allowance of signiﬁcant delay for many
+coder architectures has enabled a spectrally matched pre- or post-processing step to reduce apparent quanti-
+zation  noise  and  provide  signiﬁcant  perceptual  improvements.  Perceptual  enhancements  combined  with
+analysis-by-synthesis
+  optimization,  and  enabled  by  recent  advances  in  high-power  computing  architectures
+such as digital signal processors, have tremendously improved speech coding results at medium and low rates.

@@ -1,0 +1,5 @@
+By definition, g(r) is related to the average number of particles found within a given volume of shell located at a distance r from the center. The average density of atoms at a given radial distance from another atom is given by the formula:
+
+where n(r) is the mean number of atoms in a shell of width Δr at distance r. The g(r) of a simulation box can be calculated easily by histograming the particle separations using the following equation
+
+where Na is the number of a particles, |rij| is the magnitude of the separation of the pair of particles i,j. Atomistic simulations can also be used in conjunction with interatomic pair potential functions in order to calculate macroscopic thermodynamic parameters such as the internal energy, Gibbs free energy, entropy and enthalpy of the system.

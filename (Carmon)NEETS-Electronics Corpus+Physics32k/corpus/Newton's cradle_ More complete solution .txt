@@ -1,0 +1,48 @@
+A cradle that best follows the simple solution needs to have an initial separation between the balls that is at least twice the distance that the surface of balls compresses, but most do not. This section describes the action when the initial separation is not enough and in subsequent collisions that involve more than 2 balls even when there is an initial separation. This solution simplifies to the simple solution when only 2 balls touch during a collision. It applies to all perfectly elastic identical balls that have no energy losses due to friction and can be approximated by materials such as steel, glass, plastic, and rubber.
+For two balls colliding, only the two equations for conservation of momentum and energy are needed to solve the two unknown resulting velocities. For three or more simultaneously colliding elastic balls, the relative compressibilities of the colliding surfaces are the additional variables that determine the outcome. For example, five balls have four colliding points and scaling (dividing) three of them by the fourth will give the three extra variables needed to solve for all five post-collision velocities.
+Newtonian, Lagrangian, Hamiltonian, and stationary action are the different ways of mathematically expressing classical mechanics. They describe the same physics but must be solved by different methods. All enforce the conservation of energy and momentum. Newton's law has been used in research papers. It is applied to each ball and the sum of forces is made equal to zero. So there are 5 equations, one for each ball, and 5 unknowns, one for each velocity. If the balls are identical, the absolute compressibility of the surfaces becomes irrelevant because it can be divided out of both sides of all 5 equations, into zero.
+Determining the velocities for the case of one ball striking four initially-touching balls is found by modeling the balls as weights with non-traditional springs on their colliding surfaces. Most materials like steel that are efficiently elastic will approximately follows Hooke's force law for springs,
+
+
+
+F
+=
+k
+⋅
+x
+
+
+{\displaystyle F=k\cdot x}
+, but because the area of contact for a sphere increases as the force increases, colliding elastic balls will follow Hertz's adjustment to Hooke's law,
+
+
+
+
+F
+=
+k
+⋅
+
+x
+
+1.5
+
+
+
+
+{\displaystyle \ F=k\cdot x^{1.5}}
+. This and Newton's law for motion (
+
+
+
+F
+=
+m
+⋅
+a
+
+
+{\displaystyle F=m\cdot a}
+) are applied to each ball, giving five simple but interdependent differential equations that are solved numerically. When the fifth ball begins accelerating, it is receiving momentum and energy from the third and fourth balls through the spring action of their compressed surfaces. For identical elastic balls of any type with initially touching balls the action is the same for the first strike, except the time to complete a collision will decrease in softer materials. 40% to 50% of the kinetic energy of the initial ball from a single-ball strike is stored in the ball surfaces as potential energy for most of the collision process. 13% of the initial velocity is imparted to the fourth ball (which can be seen as a 3.3 degree movement if the fifth ball moves out 25 degrees) and there is a slight reverse velocity in the first three balls, the first ball having the largest at −7% of the initial velocity. This separates the balls, but they will come back together just before as the fifth ball returns. This is due to the pendulum phenomenon of different small angle disturbances having approximately the same time to return to the center. When balls are "touching" in subsequent collisions is complex, but still determinable by this method, especially if friction losses is included and the pendulum timing is calculated exactly instead of relying on the small angle approximation.
+The differential equations with the initial separations are needed if there is less than 10 µm separation (less than width of a human hair) when using 100 gram steel balls with an initial 1 m/s strike speed.
+The Hertzian differential equations predict that if two balls strike three, the fifth and fourth balls will leave with velocities of 1.14 and 0.80 times the initial velocity. This is 2.03 times more kinetic energy in the fifth ball than the fourth ball, which means the fifth ball would swing twice as high in the vertically direction as the fourth ball. But in a real Newton's cradle the fourth ball swings out as far as the fifth ball. In order to explain the difference between theory and experiment, the two striking balls must have at least ≈10 µm separation (given steel, 100 g, and 1 m/s). This shows that in the common case of steel balls, unnoticed separations can be important and must be included in the Hertzian differential equations, or the simple solution gives a more accurate result.

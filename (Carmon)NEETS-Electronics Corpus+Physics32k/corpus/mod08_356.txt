@@ -1,0 +1,8 @@
+As you can see in figure 3-13, the output signal is 180 degrees out of phase with the input signal. The
+feedback signal is a portion of the output signal and, therefore, also 180 degrees out of phase with the
+input signal. Whenever the input signal goes positive, the output signal and the feedback signal go
+negative. The result of this is that the inverting input to the operational amplifier is always very close to 0
+volts with this configuration. In fact, with the noninverting input grounded, the voltage at the inverting
+input to the operational amplifier is so small compared to other voltages in the circuit that it is considered
+to be VIRTUAL GROUND. (Remember, in a closed-loop operation the inverting and noninverting inputs
+are at the same potential.)

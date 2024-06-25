@@ -1,0 +1,52 @@
+microprocessor.  In  a  simple  microprocessor,  the 
+address  buffer  is  unidirectional  with  addresses 
+placed  on  the  address  bus  during  both  read  and 
+write operations. The address bus lines are labelled 
+A0  to  A15,  where  A0  is  the  least-significant 
+address  bus  line  and  A16  is  the  most  significant 
+address bus line. Note that a 16-bit address bus can 
+be  used  to  communicate  with  65,536  individual 
+memory locations. At each location a single byte of 
+data is stored. 
+ 
+Control bus 
+ 
+The control bus is a collection of signal lines that 
+are both used to control the transfer of data around 
+the  system  and  also  to  interact  with  external 
+devices. 
+by 
+microprocessors tend to differ with different types, 
+however the following are commonly found: 
+ 
+READ 
+ 
+ 
+WRITE  an output signal from the microprocessor 
+that indicates that the  current operation 
+ 
+is a write operation 
+ 
+a  signal  that  resets  the  internal  registers 
+RESET 
+ 
+and  initializes  the  program  counter  so 
+that  the  program  can  be  re-started  from 
+ 
+the beginning 
+ 
+interrupt request from an external device 
+IRQ  
+ 
+attempting  to  gain  the  attention  of  the 
+microprocessor  (the  request  may  be 
+ 
+obeyed  or  ignored  according  to  the 
+ 
+state  of  the  microprocessor  at  the  time 
+ 
+ 
+that the interrupt request is received). 
+NMI  
+ 
+ 

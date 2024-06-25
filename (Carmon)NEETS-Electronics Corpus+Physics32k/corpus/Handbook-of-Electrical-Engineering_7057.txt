@@ -1,0 +1,10 @@
+The  essential  idea  of  arithmetic  coding  is  to  represent  a  sequence  x n =  x1,  x2 ,  .  .  .,  xn  by  the  cumulative
+distribution function F(x n) (the sum of the probability of all sequences less than x n) expressed to an appropriate
+accuracy. The cumulative distribution function for x n is illustrated in Fig. 73.22. We can use any real number
+in the interval [F(x n) – p(x n), F(x n)] as the code for x n. Expressing F(x n) to an accuracy of Ølog 1/p(x n)ø will
+give us a code for the source. The receiver can draw the cumulative distribution function, draw a horizontal
+line corresponding to the truncated value ºF(x n)ß that was sent, and read off the corresponding x n. (This code
+is  not  preﬁx-free  but  can  be  easily  modiﬁed  to  construct  a  preﬁx-free  code  [Cover  and  Thomas,  1991]).  To
+implement arithmetic coding, however, we need efﬁcient algorithms to calculate p(x n) and F(x n) to the appro-
+priate accuracy based on a probabilistic model for the source. Details can be found in Langdon [1984] and Bell
+et al. [1990].

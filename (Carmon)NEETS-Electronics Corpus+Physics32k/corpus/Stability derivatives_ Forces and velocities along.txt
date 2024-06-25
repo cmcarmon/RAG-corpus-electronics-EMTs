@@ -1,0 +1,9 @@
+Forces on the vehicle along the body axes are called "Body-axis Forces":
+X, or FX, is used to indicate forces on the vehicle along the X axis
+Y, or FY, is used to indicate forces on the vehicle along the Y axis
+Z, or FZ, is used to indicate forces on the vehicle along the Z axis
+u (lower case) is used for speed of the oncoming flow along the X body axis
+v (lower case) is used for speed of the oncoming flow along the Y body axis
+w (lower case) is used for speed of the oncoming flow along the Z body axis
+
+It is helpful to think of these speeds as projections of the relative wind vector on to the three body axes, rather than in terms of the translational motion of the vehicle relative to the fluid. As the body rotates relative to direction of the relative wind, these components change, even when there is no net change in speed.

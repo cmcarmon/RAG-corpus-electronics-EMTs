@@ -1,0 +1,7 @@
+The  methods  of  Thévenin  and  Norton  equivalent  circuits  continue  to  be  very  powerful  with  controlled
+sources in the circuits, but some complications arise. The controlled sources must be left on for calculation of
+the Thévenin (open-circuit) voltage or Norton (short-circuit) current and also for the calculation of the output
+impedance  of  the  circuit.  This  usually  eliminates  the  method  of  combining  elements  in  series  or  parallel  to
+determine the output impedance of the circuit, and one must either determine the output impedance from the
+ratio of the Thévenin voltage to the Norton current or else excite the circuit with an external source and calculate
+the response.

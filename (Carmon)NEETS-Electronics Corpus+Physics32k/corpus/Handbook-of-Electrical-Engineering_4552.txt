@@ -1,0 +1,3 @@
+matrices increases sensitivity of the results to roundoff errors. This is especially the case when the direct matrix is
+not well conditioned. It is therefore advisable to perform some sensitivity analyses to determine the direct-matrix
+condition number and to ascertain the possible need for performing some of the computations in double precision.

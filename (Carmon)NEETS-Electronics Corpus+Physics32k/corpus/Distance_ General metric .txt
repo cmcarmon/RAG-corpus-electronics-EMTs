@@ -1,0 +1,5 @@
+In mathematics, in particular geometry, a distance function on a given set M is a function d: M × M → R, where R denotes the set of real numbers, that satisfies the following conditions:
+d(x,y) ≥ 0, and d(x,y) = 0 if and only if x = y. (Distance is positive between two different points, and is zero precisely from a point to itself.)
+It is symmetric: d(x,y) = d(y,x). (The distance between x and y is the same in either direction.)
+It satisfies the triangle inequality: d(x,z) ≤ d(x,y) + d(y,z). (The distance between two points is the shortest distance along any path). Such a distance function is known as a metric. Together with the set, it makes up a metric space.
+For example, the usual definition of distance between two real numbers x and y is: d(x,y) = |x − y|. This definition satisfies the three conditions above, and corresponds to the standard topology of the real line. But distance on a given set is a definitional choice. Another possible choice is to define: d(x,y) = 0 if x = y, and 1 otherwise. This also defines a metric, but gives a completely different topology, the "discrete topology"; with this definition numbers cannot be arbitrarily close.

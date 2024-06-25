@@ -1,0 +1,6 @@
+Using the shift register shown in figure 3-31 for scaling a number is quite simple. The number to be
+scaled is loaded into the register either in serial or parallel form. Once the data is in the register, the
+scaling takes place in the same manner as that for shifting the data for serial output. A single clock pulse
+will cause each bit of data to shift one place to the left. Remember that each shift is the equivalent of
+increasing the value by a power of 2. The scaled data is read from the parallel outputs. Care must be taken
+not to over shift the data to the point that the MSDs are shifted out of the register.

@@ -1,0 +1,7 @@
+A  typical  use  of  a  complex  interleaved  memory  system  is  in  a  vector  processor.  In  a  vector  processor,  the
+processing units operate on a vector, for example a portion of a row or a column of a matrix. If consecutive
+elements of a vector are present in different memory banks, then the memory system can sustain a bandwidth
+of one element per clock cycle. By arranging the data suitably in memory and using standard interleaving (for
+example, storing the matrix in row-major order will place consecutive elements in consecutive memory banks),
+the vector can be accessed at the rate of one element per clock cycle as long as the number of banks is greater
+than the bank busy time.

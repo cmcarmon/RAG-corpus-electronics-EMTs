@@ -1,0 +1,10 @@
+a high rate. One way that the controller can get its data quickly
+is for the middleware to duplicate the data and the sensor
+methods in the memory that is local to the controller program.
+The middleware can update the data at the speciﬁed rate by
+putting this information into a memory location that is ac-
+cessed by the subscribing object. Hence, the stabilizing con-
+troller can call a method of a sensor object, and it is actually
+calling the duplicate (also called the replicate or the cache
+copy). Such a local method call is much faster than a remote
+method call across the communication channel.

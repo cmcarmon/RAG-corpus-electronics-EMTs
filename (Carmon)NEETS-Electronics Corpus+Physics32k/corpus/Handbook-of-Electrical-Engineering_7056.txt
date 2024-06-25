@@ -1,0 +1,4 @@
+It is therefore desirable to have an efﬁcient coding procedure that works for long blocks of source symbols.
+Huffman coding is not ideal for this situation, since it is a bottom-up procedure with a complexity that grows
+rapidly with the block length. Arithmetic coding is an incremental coding algorithm that works efﬁciently for
+long block lengths and achieves an average length within one bit of the entropy for the block.

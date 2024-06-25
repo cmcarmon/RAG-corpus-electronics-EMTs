@@ -1,0 +1,11 @@
+**RG2] = 10 MW. If
+the JFET gate current is speciﬁed as 1 nA (max), and for good bias stability the change in gate voltage due to
+**RG2] is given by IG ·
+the gate current should not exceed *VP
+**RG2] < 0.4 V/1 nA = 0.4 GW = 400 MW. Therefore RG1 and RG2 can each be allowed
+[RG1
+to be as large as 800 MW, and very large values for Rin can thus be obtained. At higher frequencies the input
+capacitance Cin must be considered, and Cin will ultimately limit the input impedance of the circuit. Since the
+input capacitance of the FET will be comparable to that of the BJT, the advantage of the FET source follower
+over the BJT emitter follower from the standpoint of input impedance will be obtained only at relatively low
+frequencies.

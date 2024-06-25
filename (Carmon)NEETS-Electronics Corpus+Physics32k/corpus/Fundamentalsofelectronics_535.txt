@@ -1,0 +1,6 @@
+While this system represents integers well, how about numbers having nonzero digits to the right of the
+decimal point? In other words, how are numbers that have fractional parts represented? For such numbers,
+the binary representation system is used, but with a little more complexity. The ﬂoating-point system
+uses a number of bytes—typically 4 or 8—to represent the number, but with one byte (sometimes two
+bytes) reserved to represent the exponent e of a power-of-two multiplier for the number—the mantissa
+m—expressed by the remaining bytes.

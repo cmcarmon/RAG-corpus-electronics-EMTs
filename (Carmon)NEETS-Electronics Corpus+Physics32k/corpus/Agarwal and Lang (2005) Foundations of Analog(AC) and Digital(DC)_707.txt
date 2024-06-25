@@ -1,0 +1,8 @@
+It often turns out that practical circuits are able to correctly interpret values
+outside the extremum points (below 0 volts for a logical 0 and above 5 V
+for a logical 1), within certain limits, of course. When devices can make this
+interpretation, our representation with the forbidden region allows senders to
+output any voltage value above VH for a logical 1. Similarly, senders can output
+any value below VL for a logical 0. We will assume throughout this book that
+devices can make this interpretation safely. Figure 5.6 illustrates a simple and
+practical representation that uses this assumption.

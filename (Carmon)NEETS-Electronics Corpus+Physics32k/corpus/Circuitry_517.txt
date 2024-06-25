@@ -1,0 +1,22 @@
+A byte of data can be stored at each address within 
+the total memory space of a microprocessor system. 
+Hence one byte can be stored at each of the 65,536 
+memory  locations  within  a  microprocessor  system 
+having a 16-bit address bus.   
+ 
+Individual bits within a byte are numbered from 
+0 (least significant bit) to 7 (most significant bit). In 
+the  case  of  16-bit  words,  the  bits  are  numbered 
+from 0 (least significant bit) to 15 (most significant 
+bit).  
+  Negative (or signed) numbers can be represented 
+using  two’s  complement  notation  where 
+the 
+leading  (most  significant)  bit  indicates  the  sign  of 
+the  number  (1  =  negative,  0  =  positive).  For 
+example, 
+the  signed  8-bit  number  10000001 
+represents the denary number G1. 
+  The  range  of  integer  data  values  that  can  be 
+represented  as  bytes,  words  and  long  words  are 
+shown in Table 11.2. 

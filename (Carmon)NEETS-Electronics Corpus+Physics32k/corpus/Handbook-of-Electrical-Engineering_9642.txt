@@ -1,0 +1,5 @@
+The lowest level of the operating system interfaces directly with the computer hardware. For each physical
+device, such as a disk, tape, or serial line, a device driver must exist to communicate with the hardware. Device
+drivers accept requests to read or write data or determine the status of the device. They may do polled I/O or
+be interrupt driven, although polled I/O is usually only done on small personal computers. Writing a device
+driver requires a thorough knowledge of the hardware as well as the interface to the operating system.

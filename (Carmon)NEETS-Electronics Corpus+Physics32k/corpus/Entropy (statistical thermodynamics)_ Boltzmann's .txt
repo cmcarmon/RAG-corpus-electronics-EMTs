@@ -1,0 +1,35 @@
+In Boltzmann's definition, entropy is a measure of the number of possible microscopic states (or microstates) of a system in thermodynamic equilibrium, consistent with its macroscopic thermodynamic properties (or macrostate). To understand what microstates and macrostates are, consider the example of a gas in a container. At a microscopic level, the gas consists of a vast number of freely moving atoms, which occasionally collide with one another and with the walls of the container. The microstate of the system is a description of the positions and momenta of all the atoms. In principle, all the physical properties of the system are determined by its microstate. However, because the number of atoms is so large, the details of the motion of individual atoms is mostly irrelevant to the behavior of the system as a whole. Provided the system is in thermodynamic equilibrium, the system can be adequately described by a handful of macroscopic quantities, called "thermodynamic variables": the total energy E, volume V, pressure P, temperature T, and so forth. The macrostate of the system is a description of its thermodynamic variables.
+There are three important points to note. Firstly, to specify any one microstate, we need to write down an impractically long list of numbers, whereas specifying a macrostate requires only a few numbers (E, V, etc.). However, and this is the second point, the usual thermodynamic equations only describe the macrostate of a system adequately when this system is in equilibrium; non-equilibrium situations can generally not be described by a small number of variables. As a simple example, consider adding a drop of food coloring to a glass of water. The food coloring diffuses in a complicated matter, which is in practice very difficult to precisely predict. However, after sufficient time has passed the system will reach a uniform color, which is much less complicated to describe. Actually, the macroscopic state of the system will be described by a small number of variables only if the system is at global thermodynamic equilibrium. Thirdly, more than one microstate can correspond to a single macrostate. In fact, for any given macrostate, there will be a huge number of microstates that are consistent with the given values of E, V, etc.
+We are now ready to provide a definition of entropy. The entropy S is defined as
+
+
+
+
+S
+=
+
+k
+
+B
+
+
+ln
+⁡
+Ω
+
+
+{\displaystyle S=k_{\text{B}}\ln \Omega }
+
+where
+kB is Boltzmann's constant and
+
+
+
+
+Ω
+
+
+{\displaystyle \Omega }
+is the number of microstates consistent with the given macrostate.
+The statistical entropy reduces to Boltzmann's entropy when all the accessible microstates of the system are equally likely. It is also the configuration corresponding to the maximum of a system's entropy for a given set of accessible microstates, in other words the macroscopic configuration in which the lack of information is maximal. As such, according to the second law of thermodynamics, it is the equilibrium configuration of an isolated system. Boltzmann's entropy is the expression of entropy at thermodynamic equilibrium in the canonical ensemble.
+This postulate, which is known as Boltzmann's principle, may be regarded as the foundation of statistical mechanics, which describes thermodynamic systems using the statistical behavior of its constituents. It turns out that S is itself a thermodynamic property, just like E or V. Therefore, it acts as a link between the microscopic world and the macroscopic. One important property of S follows readily from the definition: since Ω is a natural number (1,2,3,...), S is either zero or positive (ln(1) = 0, ln Ω ≥ 0.)

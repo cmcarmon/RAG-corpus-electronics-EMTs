@@ -1,0 +1,10 @@
+(1) The thresholded ﬂoating point checksum test is
+used with the lower 24 bits masked in the checksum
+comparison for matrix multiplication and 12 bits for
+LU decomposition. The threshold of the ﬂoating
+point checksum test component of
+the hybrid
+checksum test was chosen to correspond to masking
+the lower 24 (12) bits, which guarantees almost
+zero false alarm in matrix multiplication (LU decom-
+position).

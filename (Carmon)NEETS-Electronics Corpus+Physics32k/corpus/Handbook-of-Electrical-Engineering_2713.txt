@@ -1,0 +1,4 @@
+The  balancing  criterion  in  the  Fiduccia–Mattheyses  algorithm  is  easily  maintained  when  the  cells  have
+uniform areas. The only way a pass can be implemented to satisfy the criterion is to start with a random initial
+partition in which the two sets differ by one cell, each time select the cell of maximum gain from the larger
+sized set, move the cell and generate a new partition, and repeat until no free cells are left.

@@ -1,0 +1,7 @@
+Figure 14.16 gives a block diagram realizing the ﬁlter’s difference equation. This structure is referred to as
+the direct-form I realization. Notice that this block diagram can be separated into two parts, giving two cascaded
+networks, one of which realizes the ﬁlter zeros and the other the ﬁlter poles. The order of these networks can
+be reversed without changing the transfer function. This results in a structure where the two strings of delays
+are storing the same values, so a single string of delays of length max(M, N) is sufﬁcient, as shown in Fig. 14.17.
+The realization of Fig. 14.17 requires the minimum number of z  –1 delay operations and is referred to as the
+direct-form II realization.

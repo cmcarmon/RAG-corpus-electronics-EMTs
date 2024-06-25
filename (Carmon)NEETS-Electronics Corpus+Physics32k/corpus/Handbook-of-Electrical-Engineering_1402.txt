@@ -1,0 +1,16 @@
+The estimation-quantization approach has been most popular in designing encoders for speech signals given
+noisy  signals.  Since  such  design  requires  explicit  knowledge  of  the  statistics  of  the  clean  signal  and  the  noise
+process, but this knowledge is not available as argued in the second section, a variety of suboptimal encoders
+were proposed. Most of the research in this area focused on designing encoders for the AR model of the signal
+due to the importance of such encoders in low bit-rate speech coding. The proposed encoders mainly differ in
+the estimators they used and the functionals of the speech signal these estimators have been applied to. Important
+examples  of  functionals  which  have  commonly  been  estimated  include  the  signal  waveform,  autocorrelation,
+and the spectral magnitude. The primarily set of estimators used for this application were obtained from the
+spectral subtraction approach and its derivatives. A version of the sample average estimator was also developed
+and applied to AR modeling by Juang and Rabiner in 1987 [Ephraim, 1992]. Recently, the HMM-based estimator
+of the autocorrelation function of the clean signal was used in AR model vector quantization [Ephraim, 1992].
+Designing of AR model-based encoders from noisy signals has been a very successful application of speech
+enhancement. In this case both the quality and intelligibility of the encoded signal can be improved compared
+to the case where the encoder is designed for the clean signal and the input noise is simply ignored. The reason
+is  that  the  input  noise  has  devastating  effects  of  the  performance  of  AR  model-based  speech  coders,  and  any
+“reasonable” estimation approach can signiﬁcantly improve the performance of those coders in noisy environments.

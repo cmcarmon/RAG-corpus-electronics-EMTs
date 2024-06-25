@@ -1,0 +1,6 @@
+Design with Root Locus
+The root locus diagram of the characteristic equation of a closed-loop control system can be used for design
+purposes. The roots of the characteristic equation can be positioned in the s plane (or the z plane for digital
+control  systems)  to  realize  a  certain  desired  relative  stability  or  damping  of  the  system.  It  should  be  kept  in
+mind that the zeros of the closed-loop transfer function also affect the relative stability of the system, although
+the absolute stability is strictly governed by the characteristic equation roots.

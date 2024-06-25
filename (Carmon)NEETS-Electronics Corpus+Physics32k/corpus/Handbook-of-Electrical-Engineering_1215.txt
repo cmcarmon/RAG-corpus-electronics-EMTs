@@ -1,0 +1,11 @@
+Closed Projection Operators
+A solution to the signal restoration problem (14.73) is generally intractable unless restrictive assumptions are
+made on the constituent attribute sets. In the previous two subsections, the method of successive projections
+and its variations were presented for iteratively ﬁnding a solution when the underlying attribute sets are closed
+subspaces, closed linear varieties, or closed convex sets. Unfortunately, some of the more important attribute
+sets encountered in signal processing do not fall into any of these categories. This is illustrated by the case in
+which the Hilbert space is taken to be Cm · n and one of the attribute sets corresponds to all  m · n matrices
+which have rank q where q < min(m,n). It is readily shown that this set is neither a subspace nor a linear variety,
+nor is it convex. Thus, use of the extremely important rank q attribute set cannot be justiﬁed for any of the
+algorithms considered up to this point. This is a serious shortcoming when it is realized that this attribute set
+is used so extensively in many contemporary signal processing applications.

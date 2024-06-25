@@ -1,0 +1,14 @@
+If  signals  are  represented  by  voltage  in  a  circuit,  the  power  of  the  signal  is 
+proportional  to  the  amount  of  current  drawn  by  the  circuit.  Since  current  draw  is 
+dependent on the impedance of the circuit, a high impedance circuit has less power, while 
+a low impedance circuit has more power. The function of a buffer amplifier in this case is 
+to convert a high impedance circuit to a low impedance circuit. This buffering scenario is 
+represented by an equivalent circuit shown in Figure 5.1 where a voltage output electronic 
+sensor has relatively high output impedance ZOUT1. If the sensor output is used to drive a 
+load impedance, ZLOAD, directly, much of the voltage signal may be lost to attenuation. In 
+order to remedy this problem, a buffer amplifier is inserted between the sensor output and 
+ZLOAD. The input of the buffer amplifier measures this voltage signal with a high input 
+impedance  ZIN,  and  replicates  the  signal  VIN  with  an  output  impedance  ZOUT2.  Since 
+ZOUT2  is  smaller  than  ZOUT1,  the  sensor  signal  can  be  used  to  drive  ZLOAD  without 
+suffering significant attenuation. 
+ 

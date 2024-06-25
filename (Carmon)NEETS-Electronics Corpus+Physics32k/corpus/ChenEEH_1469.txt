@@ -1,0 +1,8 @@
+In modern operating systems, applications are separated from
+the operating system itself. The operating system code runs in
+a privileged processor mode known as kernel mode and has
+access to system data and hardware. Applications run in a
+nonprivileged processor mode are known as user mode and
+have limited access to system data and hardware by making
+system calls, which are actually a set of tightly controlled
+application programming interfaces (APIs).

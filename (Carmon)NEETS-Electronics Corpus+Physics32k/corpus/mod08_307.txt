@@ -1,0 +1,11 @@
+From the above example, you can see that when the input signals are equal in amplitude and in
+phase, there is no output from the difference amplifier because there is no difference between the two
+inputs. You also know that when the input signals are equal in amplitude but 180 degrees out of phase,
+the output looks just like the input except for amplitude and a 180-degree phase reversal with respect to
+input signal number one. What happens if the input signals are equal in amplitude but different in phase
+by something other than 180 degrees? This would mean that sometimes one signal would be going
+negative while the other would be going positive; sometimes both signals would be going positive; and
+sometimes both signals would be going negative. Would the output signal still look like the input signals?
+The answer is "no," because figure 3-5 shows a difference amplifier with two input signals that are equal
+in amplitude but 90 degrees out of phase. From the figure you can see that at time zero (T0) input number
+one is at 0 volts and input number two is at -1 volt. The base-to-emitter bias is found to be +1 volt.

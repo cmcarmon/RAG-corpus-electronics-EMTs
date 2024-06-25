@@ -1,0 +1,16 @@
+Timing Results
+Note that part of the overhead of a mantissa checksum test is
+extracting the mantissas of the input matrices or vectors and
+also extracting and denormalizing the mantissas of the inter-
+mediate multiplications ai, j  bj, k. The latter overhead can be
+eliminated by a very simple modiﬁcation to the ﬂoating point
+multiplication unit that is shown in Figure 8.21. With this
+modiﬁcation, the mantissa that is not normalized is also avail-
+able (along with the normalized mantissa) as an output of the
+ﬂoating point multiplier. In many computers, the ﬂoating
+point product is also available in the form that is not normal-
+ized by using the appropriate multiply instruction—this
+requires tinkering with the compiler in such a machine to
+use the non-normalized multiply instruction where appropri-
+ate. No hardware modiﬁcation is needed in this case to extract
+the mantissa for free.

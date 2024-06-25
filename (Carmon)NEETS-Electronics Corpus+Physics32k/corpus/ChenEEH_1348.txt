@@ -1,0 +1,16 @@
+Software-based approaches use compiler and operating
+system techniques to analyze data ﬂow in the processes and
+act accordingly. Typically, a compiler will mark data as ‘‘non-
+cachable’’ during periods when the data are both shared by
+multiple processes and being written to at least one process;
+the compiler marks the data ‘‘cachable’’ during other periods,
+such as when one process has exclusive use of the data or read-
+only sharing is in operation (Lilja, 1993). The advantages of
+using a software approach are clear—by solving the problem at
+compile-time, it is not necessary to design complex and ex-
+pensive coherence-preserving hardware. For software with
+complex control structures, however, it becomes difﬁcult or
+impossible to analyze which processes have use of which blocks
+of memory at compile time. The compiler is therefore forced
+to produce conservative solutions to preserve correctness,
+leading to signiﬁcant lost opportunities for caching.

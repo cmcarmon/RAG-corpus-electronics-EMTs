@@ -1,0 +1,4 @@
+RISCs abhor instructions which do two unrelated things. Instead of using a dynamic stack, they use a quasi-
+static stack. If a subroutine needs 12 bytes of stack space, it explicitly subtracts 12 from SP. Then it works from
+there with the base-displacement format (1.3) to reference any place in the block of bytes just deﬁned. If you
+want to use a pointer and then increment the pointer, RISCs will do that as two independent instructions.

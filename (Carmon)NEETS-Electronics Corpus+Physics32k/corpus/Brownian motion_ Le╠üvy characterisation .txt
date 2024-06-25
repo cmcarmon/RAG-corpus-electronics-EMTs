@@ -1,0 +1,6 @@
+The French mathematician Paul Lévy proved the following theorem, which gives a necessary and sufficient condition for a continuous Rn-valued stochastic process X to actually be n-dimensional Brownian motion. Hence, Lévy's condition can actually be used as an alternative definition of Brownian motion.
+Let X = (X1, ..., Xn) be a continuous stochastic process on a probability space (Ω, Σ, P) taking values in Rn. Then the following are equivalent:
+X is a Brownian motion with respect to P, i.e., the law of X with respect to P is the same as the law of an n-dimensional Brownian motion, i.e., the push-forward measure X∗(P) is classical Wiener measure on C0([0, +∞); Rn).
+both
+X is a martingale with respect to P (and its own natural filtration); and
+for all 1 ≤ i, j ≤ n, Xi(t)Xj(t) −δijt is a martingale with respect to P (and its own natural filtration), where δij denotes the Kronecker delta.

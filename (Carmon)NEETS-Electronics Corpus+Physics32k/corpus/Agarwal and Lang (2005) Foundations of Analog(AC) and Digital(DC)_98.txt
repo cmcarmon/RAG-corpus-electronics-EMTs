@@ -1,0 +1,11 @@
+Let us dwell for a little longer on the third constraint. The lumped element
+approximation requires that we be able to define a voltage V between a pair of
+element terminals (for example, the two ends of a bulb filament) and a current
+through the terminal pair. Defining a current through the element means that
+the current in must equal the current out. Now consider the following thought
+experiment. Apply a current pulse at one terminal of the filament at time instant
+t and observe both the current into this terminal and the current out of the
+other terminal at a time instant t + dt very close to t. If the filament were
+long enough, or if dt were small enough, the finite speed of electromagnetic
+waves might result in our measuring different values for the current in and the
+current out.

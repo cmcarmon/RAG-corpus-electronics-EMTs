@@ -1,0 +1,8 @@
+• fL(t), fR(t): Left and right messages that undergo preemphasis and are then added to yield
+f 1(t) and differenced to give fd(t).
+• f 2(t): Given by signal fd(t) when it DSB-modulates (with carrier suppressed) a 38-kHz
+subcarrier.
+• f 3(t): A low-level pilot carrier at 19 kHz that is included to aid in the receiver’s demodulation
+process.
+• fs(t): Final composite message when f 1(t), f 2(t), f 3(t), and SCA (subsidiary communications
+authorization) are all added up.

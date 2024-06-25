@@ -1,0 +1,10 @@
+In every Go-Onto-Target system there are three subsystems:
+
+Target tracker
+Missile tracker
+Guidance computer
+
+The way these three subsystems are distributed between the missile and the launcher result in two different categories:
+
+Remote Control Guidance: The guidance computer is on the launcher. The target tracker is also placed on the launching platform.
+Homing Guidance: The guidance computers are in the missile and in the target tracker.

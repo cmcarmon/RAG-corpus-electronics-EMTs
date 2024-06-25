@@ -1,0 +1,32 @@
+As  well  as  their  application  as  a  general-purpose 
+amplifying  device,  operational  amplifiers  have  a 
+number of other uses, including voltage followers, 
+differentiators, 
+and 
+summing amplifiers. We shall conclude this section 
+by taking a brief look at each of these applications. 
+ 
+Voltage followers 
+ 
+A voltage follower using an operational amplifier is 
+shown  in  Fig.  8.11.  This  circuit  is  essentially  an 
+inverting amplifier in which 100% of the output is 
+fed back to the input. The result is an amplifier that 
+has a voltage gain of 1 (i.e. unity), a very high input 
+resistance  and  a  very  high  output  resistance.  This 
+stage is often referred to as a buffer and is used for 
+matching  a  high-impedance  circuit  to  a  low-
+impedance circuit.  
+  Typical  input  and  output  waveforms  for  a 
+voltage  follower  are  shown  in  Fig.  8.12.  Notice 
+how  the  input  and  output  waveforms  are  both  in-
+phase (they rise and fall together) and that they are 
+identical in amplitude. 
+ 
+Differentiators 
+ 
+A differentiator  using  an  operational  amplifier  is 
+shown  in  Fig.  8.13.  A  differentiator  produces  an 
+output  voltage  that  is  equivalent  to  the  rate  of 
+change of its input. This may sound a little complex 
+but  it  simply  means  that,  if  the  input  voltage 

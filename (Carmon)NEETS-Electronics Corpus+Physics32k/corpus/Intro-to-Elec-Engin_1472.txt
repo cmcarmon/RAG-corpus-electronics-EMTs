@@ -1,0 +1,8 @@
+The image is scanned left to right and top to bottom in a system of closely spaced parallel
+lines. When 242.5 lines are completed at the rate of 15,734.264 lines per second (63.556 µs per
+line), the raster’s visual area is scanned once; this scan is called a ﬁeld. While the next 20 lines
+are not used for visual information, during that time of 1.27 ms special signals (testing, closed
+captions, etc.) are inserted and the beam is retraced vertically to begin a new ﬁeld (shown as the
+second ﬁeld in Figure 15.2.26). The raster (TV image area) has a standardized aspect ratio of
+four units of width for each three units of height. Good performance is achieved when the raster
+is scanned with 525 lines at a rate of 29.97 frames per second.

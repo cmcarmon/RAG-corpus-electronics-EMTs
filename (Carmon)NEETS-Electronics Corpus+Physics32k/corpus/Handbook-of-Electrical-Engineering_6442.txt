@@ -1,0 +1,6 @@
+where p(t) is again the basic pulse shape having a duration Th, called the hop time and {fn} is a sequence of
+random phases associated with the generation of the hops. FH modulation is traditionally used with multiple-
+frequency-shift-keyed (MFSK) information signals, which have the complex form exp{j[2p(fc + d(t))t]}, where
+d(t) is an M-level digital waveform (M denotes the symbol alphabet size) representing the information frequency
+modulation at a rate 1/Ts symbols/s (sps). As such, an FH/MFSK signal is formed by complex multiplying the
+MFSK signal by c(t) resulting in the real transmitted signal 

@@ -1,0 +1,18 @@
+Gantry robots have many advantageous properties. They are geometrically simple, like the Cartesian robot,
+with the corresponding kinematic and dynamic simplicity. For the same reasons, the gantry robot has a constant
+arm resolution throughout the workspace. The gantry robot has better dynamics than the pedestal-mounted
+Cartesian  robot,  as  its  links  are  not  cantilevered.  One  major  advantage  over  revolute-base  robots  is  that  its
+dynamics  vary  much  less  over  the  workspace.  This  leads  to  less  vibration  and  more  even  performance  than
+typical pedestal-mounted robots in full extension. Gantry robots are much stiffer than other robot conﬁgura-
+tions,  although  they  are  still  much  less  stiff  than  Numerical  Control  (NC)  machines.  The  gantry  robot  can
+straddle a workstation, or several workstations for a large system, so that one gantry robot can perform the
+work of several pedestal-mounted robots. As with the Cartesian robot, the gantry robot’s simple geometry is
+similar to that of an NC machine, so technicians will be more familiar with the system and require less training
+time. Also, there is no need for special path or trajectory computations. A gantry robot can be programmed
+directly from a Computer-Aided Design (CAD) system with the appropriate interface, and straight-line motions
+are  particularly  simple  to  program.  Large  gantry  robots  have  a  very  high  payload  capacity.  Small,  table-top
+systems  can  achieve  linear  speeds  of  up  to  40 in./s  (1.025 m/s),  with  a  payload  capacity  of  5.0 lb  (2.26 kg),
+making them suitable for assembly operations. However, most gantry robot systems are not as precise as other
+conﬁgurations, such as the SCARA conﬁguration. Additionally, it is sometimes more difﬁcult to apply a gantry
+robot to an existing workstation, as the workpieces must be brought into the gantry’s work envelope, which
+may be harder to do than for a pedestal-mounted manipulator.

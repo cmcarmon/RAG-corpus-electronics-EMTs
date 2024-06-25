@@ -1,0 +1,288 @@
+Frequency shift is caused by motion that changes the number of wavelengths between the reflector and the radar. This can degrade or enhance radar performance depending upon how it affects the detection process. As an example, Moving Target Indication can interact with Doppler to produce signal cancellation at certain radial velocities, which degrades performance.
+Sea-based radar systems, semi-active radar homing, active radar homing, weather radar, military aircraft, and radar astronomy rely on the Doppler effect to enhance performance. This produces information about target velocity during the detection process. This also allows small objects to be detected in an environment containing much larger nearby slow moving objects.
+Doppler shift depends upon whether the radar configuration is active or passive. Active radar transmits a signal that is reflected back to the receiver. Passive radar depends upon the object sending a signal to the receiver.
+The Doppler frequency shift for active radar is as follows, where
+
+
+
+
+F
+
+D
+
+
+
+
+{\displaystyle F_{D}}
+is Doppler frequency,
+
+
+
+
+F
+
+T
+
+
+
+
+{\displaystyle F_{T}}
+is transmit frequency,
+
+
+
+
+V
+
+R
+
+
+
+
+{\displaystyle V_{R}}
+is radial velocity, and
+
+
+
+C
+
+
+{\displaystyle C}
+is the speed of light:
+
+
+
+
+
+F
+
+D
+
+
+=
+2
+×
+
+F
+
+T
+
+
+×
+
+(
+
+
+
+V
+
+R
+
+
+C
+
+
+)
+
+
+
+{\displaystyle F_{D}=2\times F_{T}\times \left({\frac {V_{R}}{C}}\right)}
+.
+Passive radar is applicable to electronic countermeasures and radio astronomy as follows:
+
+
+
+
+
+F
+
+D
+
+
+=
+
+F
+
+T
+
+
+×
+
+(
+
+
+
+V
+
+R
+
+
+C
+
+
+)
+
+
+
+{\displaystyle F_{D}=F_{T}\times \left({\frac {V_{R}}{C}}\right)}
+.
+Only the radial component of the velocity is relevant. When the reflector is moving at right angle to the radar beam, it has no relative velocity. Vehicles and weather moving parallel to the radar beam produce the maximum Doppler frequency shift.
+When the transmit frequency (
+
+
+
+
+F
+
+T
+
+
+
+
+{\displaystyle F_{T}}
+) is pulsed, using a pulse repeat frequency of
+
+
+
+
+F
+
+R
+
+
+
+
+{\displaystyle F_{R}}
+, the resulting frequency spectrum will contain harmonic frequencies above and below
+
+
+
+
+F
+
+T
+
+
+
+
+{\displaystyle F_{T}}
+with a distance of
+
+
+
+
+F
+
+R
+
+
+
+
+{\displaystyle F_{R}}
+. As a result, the Doppler measurement is only non-ambiguous if the Doppler frequency shift is less than half of
+
+
+
+
+F
+
+R
+
+
+
+
+{\displaystyle F_{R}}
+, called the Nyquist frequency, since the returned frequency otherwise cannot be distinguished from shifting of a harmonic frequency above or below, thus requiring:
+
+
+
+
+
+|
+
+
+F
+
+D
+
+
+
+|
+
+<
+
+
+
+F
+
+R
+
+
+2
+
+
+
+
+{\displaystyle |F_{D}|<{\frac {F_{R}}{2}}}
+
+Or when substituting with
+
+
+
+
+F
+
+D
+
+
+
+
+{\displaystyle F_{D}}
+:
+
+
+
+
+
+|
+
+
+V
+
+R
+
+
+
+|
+
+<
+
+
+
+
+F
+
+R
+
+
+×
+
+
+C
+
+F
+
+T
+
+
+
+
+
+4
+
+
+
+
+{\displaystyle |V_{R}|<{\frac {F_{R}\times {\frac {C}{F_{T}}}}{4}}}
+
+As an example, a Doppler weather radar with a pulse rate of 2 kHz and transmit frequency of 1 GHz can reliably measure weather speed up to at most 150 m/s (340 mph), thus cannot reliably determine radial velocity of aircraft moving 1,000 m/s (2,200 mph).

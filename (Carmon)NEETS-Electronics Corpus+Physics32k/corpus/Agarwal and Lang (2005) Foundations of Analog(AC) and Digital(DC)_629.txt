@@ -1,0 +1,10 @@
+We will discuss incremental analysis using the diode as an example.
+Suppose we wish to determine the value of the diode current iD in the cir-
+cuit in Figure 4.37. Here we have a diode and a pair of voltage sources as in
+many previous examples, but in this case one source, VI, is fixed at a value of,
+say, 0.7 V, and the other, vI, is a 1-mV sinusoid. Inputs of this form a DC
+value plus a small time-varying component
+occur frequently in practice, and
+so it is important to find a simple way to solve for the circuit response for this
+type of input. We could, of course, take the obvious analytical approach and
+write

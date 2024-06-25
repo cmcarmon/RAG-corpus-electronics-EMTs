@@ -1,0 +1,267 @@
+Thermal radiation power of a black body per unit area of radiating surface per unit of solid angle and per unit frequency
+
+
+
+ν
+
+
+{\displaystyle \nu }
+is given by Planck's law as:
+
+
+
+
+u
+(
+ν
+,
+T
+)
+=
+
+
+
+2
+h
+
+ν
+
+3
+
+
+
+
+c
+
+2
+
+
+
+
+⋅
+
+
+1
+
+
+e
+
+h
+ν
+
+/
+
+
+k
+
+B
+
+
+T
+
+
+−
+1
+
+
+
+
+
+{\displaystyle u(\nu ,T)={\frac {2h\nu ^{3}}{c^{2}}}\cdot {\frac {1}{e^{h\nu /k_{B}T}-1}}}
+
+or instead of per unit frequency, per unit wavelength as
+
+
+
+
+u
+(
+λ
+,
+T
+)
+=
+
+
+
+2
+h
+
+c
+
+2
+
+
+
+
+λ
+
+5
+
+
+
+
+⋅
+
+
+1
+
+
+e
+
+h
+c
+
+/
+
+
+k
+
+B
+
+
+T
+λ
+
+
+−
+1
+
+
+
+
+
+{\displaystyle u(\lambda ,T)={\frac {2hc^{2}}{\lambda ^{5}}}\cdot {\frac {1}{e^{hc/k_{B}T\lambda }-1}}}
+
+This formula mathematically follows from calculation of spectral distribution of energy in quantized electromagnetic field which is in complete thermal equilibrium with the radiating object. The equation is derived as an infinite sum over all possible frequencies. The energy,
+
+
+
+E
+=
+h
+ν
+
+
+{\displaystyle E=h\nu }
+, of each photon is multiplied by the number of states available at that frequency, and the probability that each of those states will be occupied.
+Integrating the above equation over
+
+
+
+ν
+
+
+{\displaystyle \nu }
+the power output given by the Stefan–Boltzmann law is obtained, as:
+
+
+
+
+P
+=
+σ
+⋅
+A
+⋅
+
+T
+
+4
+
+
+
+
+{\displaystyle P=\sigma \cdot A\cdot T^{4}}
+
+where the constant of proportionality
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+is the Stefan–Boltzmann constant and
+
+
+
+A
+
+
+{\displaystyle A}
+is the radiating surface area.
+The wavelength
+
+
+
+λ
+
+
+
+{\displaystyle \lambda \,}
+, for which the emission intensity is highest, is given by Wien's displacement law as:
+
+
+
+
+
+λ
+
+max
+
+
+=
+
+
+b
+T
+
+
+
+
+{\displaystyle \lambda _{\text{max}}={\frac {b}{T}}}
+
+For surfaces which are not black bodies, one has to consider the (generally frequency dependent) emissivity factor
+
+
+
+ϵ
+(
+ν
+)
+
+
+{\displaystyle \epsilon (\nu )}
+. This factor has to be multiplied with the radiation spectrum formula before integration. If it is taken as a constant, the resulting formula for the power output can be written in a way that contains
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+as a factor:
+
+
+
+
+P
+=
+ϵ
+⋅
+σ
+⋅
+A
+⋅
+
+T
+
+4
+
+
+
+
+{\displaystyle P=\epsilon \cdot \sigma \cdot A\cdot T^{4}}
+
+This type of theoretical model, with frequency-independent emissivity lower than that of a perfect black body, is often known as a grey body. For frequency-dependent emissivity, the solution for the integrated power depends on the functional form of the dependence, though in general there is no simple expression for it. Practically speaking, if the emissivity of the body is roughly constant around the peak emission wavelength, the gray body model tends to work fairly well since the weight of the curve around the peak emission tends to dominate the integral.

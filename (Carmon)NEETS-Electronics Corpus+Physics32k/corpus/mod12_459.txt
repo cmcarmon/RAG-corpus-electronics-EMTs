@@ -1,0 +1,4 @@
+When the input signal reverses polarity, the secondary voltage across L2 also reverses. The diodes
+will be reverse biased and no current will flow. Meanwhile, C5 retains most of its charge because of the
+long time constant offered in combination with R1 and R2. This slow discharge helps to maintain the
+output.

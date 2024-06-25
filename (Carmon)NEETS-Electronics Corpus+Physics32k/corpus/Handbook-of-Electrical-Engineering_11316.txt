@@ -1,0 +1,7 @@
+Figure 115.16 shows a block diagram of the key components of a typical ICD pulse generator. The brain of
+the ICD is the microprocessor. Most ICD manufacturers use industry-standard microprocessors, such as the
+Z80, 6502, or 8852, to control the ICD [Warren et al., 1996]. In order to conserve energy, it is desirable to put
+the microprocessor into a sleep mode as often as possible and to wake it only when necessary, such as when
+an arrhythmia is suspected. To accomplish this, many of the monitoring and pacing functions are implemented
+using analog and digital circuits. Modern ICD designs have reduced the size of the circuitry to a small number
+of integrated circuits on a hybrid chip [Warren et al., 1996].

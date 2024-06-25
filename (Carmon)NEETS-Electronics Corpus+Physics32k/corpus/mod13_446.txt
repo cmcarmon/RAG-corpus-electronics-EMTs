@@ -1,0 +1,4 @@
+The remaining bit is shifted into the register by CP5. FF1 remains set, FF2 sets, FF3 resets, and FF4
+sets. At this point, the serial transfer is complete. The binary word can be sampled on the parallel output
+lines. Once the parallel data is transferred, a CLEAR pulse resets the FFs (CP6), and the register is ready
+to input the next word.

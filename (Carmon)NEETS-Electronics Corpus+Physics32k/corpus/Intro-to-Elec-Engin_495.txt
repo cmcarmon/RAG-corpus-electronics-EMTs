@@ -1,0 +1,20 @@
+blocks: logic (combinational) blocks and sequential blocks (known as ﬂip-ﬂops). Logic blocks
+are electronic circuits that usually have several inputs and one output. The physical devices that
+perform the basic Boolean operations are known as logic gates. The basic logic gates are OR,
+AND, and NOT, the interconnections of which form a logic network (also known as combinational
+network), which does not generally contain memory devices. The Boolean function describing a
+combinational network can be easily derived by systematically progressing from the input(s) to
+the output on the logic gates.
+The logic OR gate is an electronic circuit realization of the Boolean OR operation, which is
+represented by the symbol +. F = A + B, for example, is read as “F is equal to A OR B.” The
+OR operation yields 1 if the value of any of its arguments is 1. Figure 6.1.1 shows a two-input OR
+gate along with its truth table (table of combinations for the gate) and an illustration of the OR
+operation. A three-input OR gate with F = A+ B+ C would have a truth table with eight entries,
+which can be developed by the reader as an exercise.
+The logic AND gate is an electronic circuit realization of the Boolean AND operation, which
+is represented by the symbol · or by the absence of an operator. Thus, for example, F = A · B
+(also written simply as F = AB) is read as “F is equal to A AND B.” The AND operation yields 1
+if and only if the values of all its arguments are 1s. Figure 6.1.2 shows a two-input AND gate, its
+truth table, and an illustration of the AND operation. A three-input AND gate with F = A· B · C
+would have a truth table with 23 = 8 possible entries, which can be developed by the reader as a
+desirable exercise.

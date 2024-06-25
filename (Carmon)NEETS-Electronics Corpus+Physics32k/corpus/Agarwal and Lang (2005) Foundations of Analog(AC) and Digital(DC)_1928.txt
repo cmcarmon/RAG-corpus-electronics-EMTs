@@ -1,0 +1,18 @@
+Examination of Equations 13.16 and 13.47 (or Equations 13.21 and 13.50
+for the corresponding time functions) shows that the RC circuit of Figure 13.3
+and the RL circuit of Figure 13.11 will have frequency response plots of the same
+form: unit magnitude and zero phase at low frequencies, and magnitude falling
+as 1/ω (slope of −1 in log-log plot) with −90
+phase shift at high frequencies.
+These functions are called low-pass filters, because in signal-processing terms
+they pass low frequencies and reject high frequencies. In other words, they do
+not affect low frequencies, while they provide a low gain for high frequencies.
+However, in many circuit applications the opposite effect is desired. We wish
+to get rid of low frequencies, and pass high frequencies. Decoupling amplifier
+stages so that the DC offset from one stage does not affect the next stage is a
+case in point. We will study these and other filters in more detail in Section 13.5.
+To summarize, the frequency response of circuits containing a single stor-
+age element and a single (Thévenin ) resistor is of the form 1/(s + a), (s + a),
+s/(s + a), (s + a)/s, where a is some constant, and can be sketched intuitively as
+follows:
+(cid:1) Magnitude Plot

@@ -1,0 +1,7 @@
+Solution:
+Note  that  meshes  1  and  2  form  a  supermesh  since  they  have  an
+independent  current  source  in  common.  Also,  meshes  2  and  3  form
+another  supermesh  because  they  have  a  dependent  current  source  in
+common. The two supermeshes intersect and form a larger supermesh
+as shown. Applying KVL to the larger supermesh,
+2i1 ⫹ 4i3 ⫹ 8(i3 ⫺ i4) ⫹ 6i2 ⫽ 0

@@ -1,0 +1,13 @@
+The integrated enterprise modeling (IEM) method uses an object-oriented approach and adapts this for the enterprise description. An application-oriented division of all elements of an enterprise forms the core of the method in generic object classes "product", "resource" and "order".
+Product
+The object class "product" represents all objects whose production and sale are the aim of the looked-at-enterprise as well as all objects which flow into the end product. Raw materials, intermediate products, components and end products as well as services and the describing data are included.
+Order
+The object class "order" describes all types of a commissioning in the enterprise. The objects of the class "order" represent the information which is relevant from the point of view of planning, control and supervision of the enterprise processes. One understands by it what, when, at which objects, in whose responsibility and with which resources it will be executed.
+Resource
+The IEM class "resource" contains all necessary key players which are required in the enterprise for the execution or support of activities. Among other things these are employees, business partner, all kinds of documents as well as information systems or operating supplies.
+The classes "product", "order", and "resource" can gradually be given full particulars and specified. Through this it is possible to show both line of business typical and enterprise specific product, order and resource subclasses. Structures (e.g. parts lists or organisation charts) can be shown as relational features of the classes with the help of being-part-of- and consists-of-relations between different subclasses.
+Action
+The activities which are necessary for the production of products and to the provision of services can be described as follows: an activity is the purposeful change of objects. The aim orientation of the activities causes an explicit or implicit planning and control. The execution of the activities is incumbent by the capable key players. From these considerations the definitions can be derived for the following constructs:
+An action is an object neutral description of activities: a verbal description of a work task, a lawsuit or proceeding;
+A function describes the change of state of a defined status into another defined one of objects of a class by using an action;
+An activity specifies necessary resources for the state transformation of objects of a class the controlling order described by a function and these for the execution of this transformation in the enterprise, in each case represented by an object state description.

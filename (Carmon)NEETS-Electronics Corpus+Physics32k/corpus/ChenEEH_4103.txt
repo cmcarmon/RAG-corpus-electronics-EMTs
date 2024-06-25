@@ -1,0 +1,10 @@
+The zero-forcing equations do not account for the effects of
+noise. In addition, the ﬁnite-length transversal ﬁlter equalizer
+can minimize worst-case ISI only if the peak distortion is less
+than 100% of the eye opening. Another type of equalizer is the
+minimum mean square error (MMSE) equalizer. In these
+equalizers, coefﬁcients are selected to minimize the mean
+square error that consists of the sum of the square of all the
+ISI terms plus noise power at the equalizer output. The MMSE
+equalizer maximizes the signal-to-distortion ratio at its output
+within the constraints of equalizer length and delay.

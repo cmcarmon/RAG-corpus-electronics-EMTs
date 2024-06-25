@@ -1,0 +1,9 @@
+In view (A) a common-emitter transistor amplifier is shown. An emitter resistor (R2) has been 
+placed in this circuit to provide proper biasing and temperature stability. An undesired effect of this 
+resistor is the development of a signal at the emitter in phase with the input signal on the base. This signal 
+is caused by the changing current through the emitter resistor (R2) as the current through the transistor 
+changes. You might think that this signal on the emitter is a form of positive feedback since it is in phase 
+with the input signal. But the emitter signal is really negative feedback. Current through the transistor is 
+controlled by the base-to-emitter bias. If both the base and emitter become more positive by the same 
+amount at the same time, current will not increase. It is the difference between the base and emitter 
+voltages that controls the current flow through the transistor. 

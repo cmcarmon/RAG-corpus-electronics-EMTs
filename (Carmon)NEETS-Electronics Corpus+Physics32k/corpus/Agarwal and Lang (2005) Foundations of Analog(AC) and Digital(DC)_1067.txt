@@ -1,0 +1,15 @@
+(cid:1) The SU model provides accurate models of the MOSFET in both the triode
+and the saturation regions, but is more complicated. In its saturation region,
+it behaves as the SCS model. So, for analog circuits that are designed to
+adhere to the saturation discipline its use is no different than the use of
+the SCS model. Thus the SU model is useful when the designer wishes
+to conduct very accurate analyses of digital or analog circuits in which
+the MOSFETs are allowed to operate in both their triode and saturation
+regions. To analyze a circuit containing MOSFETs, the designer first makes
+an educated guess as to the region
+in
+which each of the MOSFETs operates. Then, the designer writes node
+equations for the circuit, selecting appropriate device equations for each of
+the MOSFETs. After solving the set of equations for the node voltages and
+edge currents, the designer must confirm that their initial guess as to the
+state of the MOSFET is consistent with the final node voltages. We leave a

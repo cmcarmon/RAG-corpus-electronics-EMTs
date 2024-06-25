@@ -1,0 +1,7 @@
+This time around, since there is an initial condition on the capacitor, we are no
+longer dealing with just the zero-state response, so we cannot simply take the
+integral. One approach is to notice that Equation 10.124 is in effect the zero-
+state response, so if we find the zero-input response corresponding to the initial
+condition of Equation 10.125, then the complete solution is the sum of these
+two responses. We know from previous examples, or from Equation 10.97,
+that the ZIR for an RC circuit with an initial voltage V0 is

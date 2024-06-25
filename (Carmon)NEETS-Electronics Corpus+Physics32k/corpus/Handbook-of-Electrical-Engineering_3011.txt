@@ -1,0 +1,11 @@
+The common base stage is often used to broadband the common emitter ampliﬁer by forming the common
+emitter–common base cascode, whose ac schematic diagram is given in Fig. 28.17. The broadbanding afforded
+by the cascode structure stems from the fact that the effective low frequency load resistance, say RLe, seen by
+the common emitter transistor, QE, is the small driving point input resistance of the common base ampliﬁer,
+QB. This effective load resistance, as witnessed by Cm of the common emitter transistor, is much smaller than
+the  actual  load  resistance  that  terminates  the  output  port  of  the  ampliﬁer,  thereby  decreasing  the  Miller
+multiplication of the Cm in QE. If the time constant savings afforded by decreased Miller multiplication is larger
+than  the  sum  of  the  additional  time  constants  presented  to  the  circuit  by  the  common  base  transistor,  an
+enhancement of common emitter bandwidth occurs. Note that such bandwidth enhancement is realized without
+compromising  the  common  emitter  gain-bandwidth  product,  since  the  voltage  gain  of  the  common  emit-
+ter–common base unit is almost identical to that of the common emitter ampliﬁer alone.

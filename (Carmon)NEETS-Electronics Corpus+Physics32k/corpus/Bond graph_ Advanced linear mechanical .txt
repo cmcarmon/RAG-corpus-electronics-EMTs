@@ -1,0 +1,9 @@
+A more advanced linear mechanical system can be seen below.
+
+Just like the above example, the first step is to make 1-junctions at each of the distant velocities. In this example there are three distant velocity, Mass 1, Mass 2, and the wall. Then you connect all of the bonds and assign power flow. The bond can be seen below.
+
+Next you start the process of simplifying the bond graph, by removing the 1-junction of the wall, and removing junctions with less than three bonds. The bond graph can be seen below.
+
+It should be noted that there is parallel power in the bond graph. Solving parallel power was explained above. The result of solving it can be seen below.
+
+Lastly, apply causality, the final bond graph can be seen below.

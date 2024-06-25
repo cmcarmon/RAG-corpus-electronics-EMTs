@@ -1,0 +1,8 @@
+To compare the results with the well-known LQG controller,
+the system was simulated with an LQG controller. The u
+approached inﬁnity in equation 5.36. Note that equation 5.36
+becomes a classical Riccati equation as u goes to inﬁnity. This
+is shown in Figure 5.3. Note that in LQG case, it takes longer
+for yaw and roll angles to fall below 0.1 degree, and the
+variation in the angles are larger than the RS case. Thus, in
+this sense, RS controller outperforms the LQG controller.

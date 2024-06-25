@@ -1,0 +1,11 @@
+Architecture of a DBMS
+A DBMS is a complicated software structure that includes several components (see Fig. 94.10). The DBMS has
+to interact with the operating system for secondary storage access. The data manager is usually the interface
+between the DBMS and the operating system. The DDL compiler converts schema deﬁnitions, expressed using
+DDL statements, into a collection of metadata tables that are stored in the data dictionary. The design of the
+schemas is the function of the database administrator (DBA). The DBA is also responsible for specifying the
+data  storage  structure  and  access  methodology  and  granting  and  revoking  access  authorizations.  The  query
+processor converts high-level DML statements into low-level instructions that the database manager can inter-
+pret. The DML preprocessor separates embedded DML statements from the rest of an application program. The
+resulting DML commands are processed by a DML compiler, and the rest of the application program is compiled
+by a host compiler. The object codes of the two components are then linked.

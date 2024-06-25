@@ -1,0 +1,11 @@
+Spectral Subtraction
+The spectral subtraction approach [Weiss, 1974] is the simplest and most intuitive and popular speech enhance-
+ment approach. This approach provides estimates of the clean signal as well as of the short time spectrum of
+that signal. Estimation is performed on a frame-by-frame basis, where each frame consists of 20–40 msec of
+speech samples. In the spectral subtraction approach the signal is Fourier transformed, and spectral components
+whose variance is smaller than that of the noise are nulled. The surviving spectral components are modiﬁed
+by  an  appropriately  chosen  gain  function.  The  resulting  set  of  nulled  and  modiﬁed  spectral  components
+constitute the spectral components of the enhanced signal. The signal estimate is obtained from inverse Fourier
+transform of the enhanced spectral components. The short time spectrum estimate of the signal is obtained
+from  squaring  the  enhanced  spectral  components.  A  block  diagram  of  the  spectral  subtraction  approach  is
+shown in Fig. 15.4.

@@ -1,0 +1,43 @@
+A generalization of the edit distance between strings is the language edit distance between a string and a language, usually a formal language. Instead of considering the edit distance between one string and another, the language edit distance is the minimum edit distance that can be attained between a fixed string and any string taken from a set of strings. More formally, for any language L and string x over an alphabet Σ, the language edit distance d(L, x) is given by
+
+
+
+d
+(
+L
+,
+x
+)
+=
+
+min
+
+y
+∈
+L
+
+
+d
+(
+x
+,
+y
+)
+
+
+{\displaystyle d(L,x)=\min _{y\in L}d(x,y)}
+, where
+
+
+
+d
+(
+x
+,
+y
+)
+
+
+{\displaystyle d(x,y)}
+is the string edit distance. When the language L is context free, there is a cubic time dynamic programming algorithm proposed by Aho and Peterson in 1972 which computes the language edit distance.  For less expressive families of grammars, such as the regular grammars, faster algorithms exist for computing the edit distance.
+Language edit distance has found many diverse applications, such as RNA folding, error correction, and solutions to the Optimum Stack Generation problem.

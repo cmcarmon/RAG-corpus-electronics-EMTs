@@ -1,0 +1,8 @@
+- 28 + 2I2 + 4I1 = 0
+You might be wondering why we went through all the trouble of manipulating this equation
+from its initial form (-28 + ER2 + ER1). After all, the last two terms are still unknown, so what
+advantage is there to expressing them in terms of unknown voltages or as unknown currents
+(multiplied by resistances)? The purpose in doing this is to get the KVL equation expressed
+using the same unknown variables as the KCL equation, for this is a necessary requirement
+for any simultaneous equation solution method. To solve for three unknown currents (I1, I2,
+and I3), we must have three equations relating these three currents (not voltages!) together.

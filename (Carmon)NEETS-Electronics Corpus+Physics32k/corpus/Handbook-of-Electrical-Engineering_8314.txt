@@ -1,0 +1,8 @@
+Circuit/System Reset Requirements. A simple and straightforward mechanism for resetting a digital circuit
+to a known state is an essential requirement for testability. It should be noted that the requirement is not only
+for having the reset function provided but further that it should be simple to execute. For example, applying
+a deﬁned sequence of external signals to a circuit which must be synchronized with a free-running clock signal
+would not be considered a simple reset mechanism. Instead, keeping an external signal at some logic value for
+a  minimum  duration  is  a  much  more  desirable  approach.  It  is  very  desirable  that  the  reset  function  be
+asynchronous (i.e., not require system clock pulses to execute) since during power-up a circuit may need to be
+reset even before free-running clock pulses can be started.

@@ -1,0 +1,42 @@
+ is the angle from perigee that would be traversed by a satellite moving at its mean
+, usually taken as 0 for a particular epoch (time) at perigee, the
+n
+. Given an initial value 
+M
+angular velocity 
+o
+ = 
+n
+), where 
+t
+t
+ may then be found
+(
+n
+ – 
+mean anomaly at time 
+o
+e
+  sin
+M
+  = 
+E
+  which  must  be  solved  numerically  by,  for  example,
+E
+from  Kepler’s  transcendental  equation 
+ and using a root ﬁnding method. For small eccentricities, the series approximation
+E
+guessing an initial value for 
+M
+/2)sin2
+E
+M
+)  yields  good  accuracy  [Morgan  and  Gordon,  1989,
+ 
+p
+],
+) = 2
+r
+, the period, 
+p. 806]. Other useful quantities include the orbit radius, 
+the velocity, 

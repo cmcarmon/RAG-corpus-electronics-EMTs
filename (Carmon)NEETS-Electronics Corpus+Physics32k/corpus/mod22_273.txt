@@ -1,0 +1,8 @@
+In our example (fig. 3-1), we summarized requisitions based on unit identification codes (UIC). We 
+first sorted the input data file on the field that contains the UIC. We provided specifications to the RPG 
+program to tell it to accumulate totals from the detail (individual) data records until the UIC changed. We 
+then told it to print the total number of requisitions and total cost for that UIC. We did not have it print 
+each detail record, although we could have. The UIC is called the control field. Each time the control field 
+changes, there is a control break. Each time there is a control break, the program prints the summary 
+information. After all records are read and processed, it prints a summary line (TOTALS) for all UICs. 
+You can also use RPGs to generate a program to update data files. 

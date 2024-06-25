@@ -1,0 +1,25 @@
+Figure 7.4.5 illustrates the cross-sectional structure of an n-channel enhancement MOSFET
+and its symbol showing as a normally off device when used for switching purposes. When the
+gate-to-source voltage vGS > 0, an electric ﬁeld is established pushing holes in the substrate
+away from the gate and drawing mobile electrons toward it, as shown in Figure 7.4.6(a). When
+vGS exceeds the threshold voltage VT of the MOSFET, an n-type channel is formed along the gate
+and a depletion region separates the channel from the rest of the substrate, as shown in Figure
+7.4.6(b). With vGS > VT and vDS > 0, electrons are injected into the channel from the heavily doped
++
+drain region, thereby forming drain-to-source current iD,
+n
+as shown in Figure 7.4.6(b). Note that none of the electrons comes from the p-type portion of the
+substrate, which now forms a reverse-biased junction with the n-type channel. As the gate voltage
+increases above VT, the electric ﬁeld increases the channel depth and enhances conduction. For
+a ﬁxed vGS and small vDS, the channel has uniform depth d, acting like a resistance connected
+between the drain and source terminals. The MOSFET is then said to be operating in the ohmic
+state.
+With a ﬁxed vGS > VT , increasing vDS will reduce the gate-to-drain voltage vGD(= vGS −
+vDS ), thereby reducing the ﬁeld strength and channel depth at the drain end of the substrate. When
+vDS > (vGS − VT ), i.e., vGD < VT , a pinched-down condition occurs when the electron ﬂow is
+limited due to the narrowed neck of the channel, as shown in Figure 7.4.6(c). The MOSFET is
+then said to be operating in a constant-current state, when iD is essentially constant, independent
+of vDS.
+Figure 7.4.7 illustrates the MOSFET behavior explained so far. When vGS ≤ VT , however,
+the ﬁeld is insufﬁcient to form a channel so that the iD–vDS curve for the normally off state is
+simply a horizontal line at iD = 0. The drain breakdown voltage BVDS ranges between 20 and

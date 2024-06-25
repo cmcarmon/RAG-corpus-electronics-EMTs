@@ -1,0 +1,11 @@
+The control-grid modulator uses a variation of grid bias (at the frequency of the modulating signal) 
+to vary the instantaneous plate voltage and current. These variations cause modulation of the carrier 
+frequency. The carrier frequency is introduced through coupling capacitor Cc. The modulating frequency 
+is introduced in series with the grid bias through T1. As the modulating signal increases and decreases 
+(positive and negative), it will add to or subtract from the bias on rf amplifier V1. This change in bias 
+causes a corresponding change in plate voltage and current. These changes in plate voltage and current 
+add vectorially to the carrier frequency and provide a modulation envelope in the same fashion as does 
+the plate modulator. Since changes in the plate circuit of the rf amplifier are controlled by changes in the 
+grid bias, the gain of the tube requires only a low-level modulating signal. Even when the input signals 
+are at these low levels, occasional modulation voltage peaks will occur that will cause V1 to saturate. This 
+creates distortion in the output. Care must be taken to bias the rf amplifier tube for maximum power out 

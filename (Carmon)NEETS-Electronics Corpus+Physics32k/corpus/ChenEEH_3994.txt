@@ -1,0 +1,9 @@
+Cut-Set and Retiming
+The primary methods of SFG optimization employed are cut-
+set and retiming (Kung, 1988). The objective is to convert an
+SFG into a fully pipelined form so that all the edges between
+modular sections have at least one delay element. A cut-set is a
+minimal set of edges including the target edge, non-zero-delay
+edges going in either direction, and zero-delay edges going in
+the same direction as the target edge. The procedure consists of
+these three steps:

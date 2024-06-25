@@ -1,0 +1,4 @@
+Because of pulse delays, the counter will show a transient and incorrect result for short time
+periods. If the result is used to drive additional logic elements, these transient states may
+lead to a spurious pulse. This problem is avoided by the synchronous clocking scheme shown
+in ﬁgure 7.30. All output signals will change state at essentially the same time.

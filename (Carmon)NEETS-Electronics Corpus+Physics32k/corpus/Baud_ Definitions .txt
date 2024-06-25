@@ -1,0 +1,35 @@
+The symbol duration time, also known as unit interval, can be directly measured as the time between transitions by looking into an eye diagram of an oscilloscope. The symbol duration time Ts can be calculated as:
+
+
+
+
+
+T
+
+s
+
+
+=
+
+
+1
+
+f
+
+s
+
+
+
+
+,
+
+
+{\displaystyle T_{s}={1 \over f_{s}},}
+
+where fs is the symbol rate. There is also a chance of miscommunication which leads to ambiguity.
+Example: a baud of 1 kBd = 1,000 Bd is synonymous to a symbol rate of 1,000 symbols per second. In case of a modem, this corresponds to 1,000 tones per second, and in case of a line code, this corresponds to 1,000 pulses per second. The symbol duration time is 1/1,000 second = 1 millisecond.
+In digital systems (i.e., using discrete/discontinuous values) with binary code, 1 Bd = 1 bit/s. By contrast, non-digital (or analog) systems use a continuous range of values to represent information and in these systems the exact informational size of 1 Bd varies.
+The baud is scaled using standard metric prefixes, so that for example
+1 kBd (kilobaud) = 1000 Bd
+1 MBd (megabaud) = 1000 kBd
+1 GBd (gigabaud) = 1000 MBd.

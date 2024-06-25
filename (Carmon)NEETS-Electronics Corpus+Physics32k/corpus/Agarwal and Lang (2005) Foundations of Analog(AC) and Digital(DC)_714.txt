@@ -1,0 +1,11 @@
+2. As mentioned earlier, because most practical receiver circuits are able to correctly interpret values
+outside the extremum points (below 0 volts for a logical 0 and above 5 volts for a logical 1), we
+concern ourselves with providing for a noise margin only between the output value range and the
+forbidden region, and ignore the effect of noise that tends to push a value outside the extremum
+bounds.
+3. Notice that the signal voltages in the figure are taken with respect to a ground node that is
+common to both the sender and the receiver. This ground node that is common to senders and
+receivers is often not shown explicitly, but it is always present! Many a novice designer has forgotten
+to connect together a common ground between subsystems and has found that the system does
+not work. Remember, currents flow in loops and the ground connection provides a return path for
+the current.

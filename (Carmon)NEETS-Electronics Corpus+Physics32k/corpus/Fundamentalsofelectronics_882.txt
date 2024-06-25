@@ -1,0 +1,6 @@
+Figure 6.21: The upper portion depicts the result of directly modulating the bit stream b (n) into a
+transmitted signal x (t) using a baseband BPSK signal set. R’ is the datarate produced by the source
+coder. If that bit stream passes through a (3,1) channel coder to yield the bit stream c (l), the resulting
+transmitted signal requires a bit interval T three times smaller than the uncoded version. This reduction
+in the bit interval means that the transmitted energy/bit decreases by a factor of three, which results in
+an increased error probability in the receiver.

@@ -1,0 +1,15 @@
+Glitch Avoidance and Local Transformations
+Spurious switching, as mentioned before, is due to the exis-
+tence of unequal paths to outputs. Path equalization tech-
+niques help in reducing these glitches, consequently resulting
+in less power dissipation. Other logic-level power minimiza-
+tion techniques involve local transformations, including refac-
+toring, remapping, phase assignment, and pin swapping. All
+the material in this section is from Benini et al. (2001). All
+these techniques can be classiﬁed as local transformations.
+They are applied on gate net-lists and focus on nets with
+large switching capacitance. Most of these techniques replace
+a gate or a small group of gates around the target net in an
+effort to reduce capacitance and switching activity. Similarly to
+resizing, local transformations must carefully balance short
+circuit and output power consumption.

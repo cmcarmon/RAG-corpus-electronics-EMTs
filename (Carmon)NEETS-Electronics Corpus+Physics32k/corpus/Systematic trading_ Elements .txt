@@ -1,0 +1,6 @@
+Following the ideas of Irene Aldridge's, who describes a specific HFT system, a more general systematic trading system should include these elements:
+Data management (in real time and for backtesting purposes)
+A signal generation system (to create, buy and sell signals according to predefined strategies using quantitative methods)
+A portfolio and P&L tracking system
+A quantitative risk management system (defining exposure per market, group, or portfolio)
+A routing and execution subsystem (usually containing execution trading algorithms, like TWAP, VWAP...)

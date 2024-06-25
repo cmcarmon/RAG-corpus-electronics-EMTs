@@ -1,0 +1,17 @@
+p
+-channel MOSFET Q1 will be turned on and
+ through the low
+the 
+resistance path of Q1’s channel. The turned off Q2 has a very high channel resistance and acts nearly like an open.
+p
+-channel MOSFETs, one for each input, and putting in
+n
+-channel MOSFET for each input, as shown in the block diagram and schematic of Fig. 79.3. The
+series an 
+NAND  gate  will  produce  a  low  output  only  when  both  Q3  and  Q4  are  turned  on,  creating  a  low  resistance
+path from the output to ground through the two series channels. This can be accomplished by having a high
+on both input A and input B. This input condition will also turn off Q1 and Q2 . If either input A or input B
+or both is low, the respective parallel MOSFET will be turned on, providing a low resistance path for the output
+. This will also turn off at least one of the series MOSFETs, resulting in a high resistance path for the
+to 
+output to ground.

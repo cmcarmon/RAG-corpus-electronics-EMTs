@@ -1,0 +1,6 @@
+• S [Gx (t)] = GS [x (t)] The colloquialism summarizing this property is “Double the input, you double
+the output.” Note that this property is consistent with alternate ways of expressing gain changes:
+Since 2x (t) also equals x (t) + x (t), the linear system deﬁnition provides the same output no matter
+which of these is used to express a given signal.
+• S [0] = 0 If the input is identically zero for all time, the output of a linear system must be zero.
+This property follows from the simple derivation S [0] = S [x (t) − x (t)] = S [x (t)] − S [x (t)] = 0.

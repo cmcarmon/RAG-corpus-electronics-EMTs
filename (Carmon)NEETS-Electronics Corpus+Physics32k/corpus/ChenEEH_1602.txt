@@ -1,0 +1,12 @@
+To retrieve relevant cases, one technique is to assign indexes
+(or labels) to all cases. Indexes represent an interpretation of a
+situation and determine under what conditions a case can be
+used to make useful inferences (Kolodner, 1993). Assigning
+indexes is problem dependent, requiring a good understanding
+of the problem domain. Another technique is to compute the
+relevance of a case based on similarity measures. For example,
+in nearest-neighbor matching, each corresponding feature of a
+new case and a retrieved case is compared by looking at the
+ﬁeld type and values. Each feature gets a similarity score, and
+the weighted sum of the feature scores is the overall similarity
+score of the two cases.

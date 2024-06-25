@@ -1,0 +1,8 @@
+A SCADA system consists of a master station that communicates with 
+(RTUs) for the
+purpose  of  allowing  operators  to  observe  and  control  physical  plants.  Generating  plants  and  transmission
+substations certainly justify RTUs, and their installation is becoming more common in distribution substations
+as costs decrease. RTUs transmit device status and measurements to, and receive control commands and setpoint
+data from, the master station. Communication is generally via dedicated circuits operating in the range of 600
+to 4800 bits/s with the RTU responding to periodic requests initiated from the master station (polling) every
+2 to 10 s, depending on the criticality of the data.

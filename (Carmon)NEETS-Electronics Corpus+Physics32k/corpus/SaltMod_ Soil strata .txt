@@ -1,0 +1,11 @@
+Saltmod accepts four different reservoirs, three of which are in the soil profile:
+a surface reservoir
+an upper (shallow) soil reservoir or root zone
+an intermediate soil reservoir or transition zone
+a deep reservoir or aquifer.
+The upper soil reservoir is defined by the soil depth from which water can evaporate or be taken up by plant roots. It can be equal to the rootzone.
+The root zone can be saturated, unsaturated, or partly saturated, depending on the water balance. All water movements in this zone are vertical, either upward or downward, depending on the water balance. (In a future version of Saltmod, the upper soil reservoir may be divided into two equal parts to detect the trend in the vertical salinity distribution.)
+The transition zone can also be saturated, unsaturated or partly saturated. All flows in this zone are vertical, except the flow to subsurface drains.
+If a horizontal subsurface drainage system is present, this must be placed in the transition zone, which is then divided into two parts: an upper transition zone (above drain level) and a lower transition zone (below drain level).
+If one wishes to distinguish an upper and lower part of the transition zone in the absence of a subsurface drainage system, one may specify in the input data a drainage system with zero intensity.
+The aquifer has mainly horizontal flow. Pumped wells, if present, receive their water from the aquifer only.

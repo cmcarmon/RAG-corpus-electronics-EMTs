@@ -1,0 +1,17 @@
+In general a tapped delay line contains a number of cells with well defined delay times
+
+
+
+τ
+
+
+{\displaystyle \tau }
+. Propagating through this line the start signal is delayed. The state of the line is sampled at the time of the arrival of the stop signal. This can be realized for example with a line of D-flip-flop cells with a delay time
+
+
+
+τ
+
+
+{\displaystyle \tau }
+. The start signal propagates through this line of transparent flip-flops and is delayed by a certain number of them. The output of each flip-flop is sampled on the fly. The stop signal latches all flip-flops while propagating through its channel undelayed and the start signal cannot propagate further. Now the time interval between start and stop signal is proportional to the number of flip-flops that were sampled as transparent.

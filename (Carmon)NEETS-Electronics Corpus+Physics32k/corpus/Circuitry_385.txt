@@ -1,0 +1,54 @@
+Power amplifiers 
+ 
+The  term  ‘power  amplifier’  can  be  applied  to  any 
+amplifier that is designed to deliver an appreciable 
+level  of  power.  There  are  several 
+important 
+considerations for amplifiers of this type, including 
+the ability to deliver current (as well as voltage) to 
+a load,  and  also  the  need  to  operate  with  a 
+reasonable  degree  of  efficiency 
+that 
+conventional Class A amplifiers are inefficient). 
+ 
+In order to deliver sufficient current to the load, 
+power  amplifiers  must  have  a  very  low  value  of 
+output impedance. Thus the final stage (or output 
+stage) is  usually  based  on  a  device  operating  in 
+emitter-follower  configuration.  In  order  to  operate 
+at a reasonable level of efficiency, the output stage 
+must  operate  in  Class  AB  or  Class  B  mode  (see 
+page  133).  One  means  of  satisfying  both  of  these 
+requirements  is  with  the  use  of  a  symmetrical 
+output  stage  based  on  complementary  NPN  and 
+PNP devices. 
+  A simple  complementary  output  stage  is 
+shown    in  Fig.  7.45. TR1  is a  suitably  rated  NPN 
+device  whilst  TR2  is  an  identically  rated  PNP 
+device.  Both  TR1  and  TR2  operate  as  emitter 
+followers  (i.e.  common-collector  mode)  with  the 
+output taken from the two emitters, coupled via C2 
+to the load. In order to bias TR1 and TR2 into Class 
+AB mode two silicon diodes (D1 and D2) are used 
+to provide a constant voltage drop of approximately 
+1.2 V between the two bases. This voltage drop is 
+required  between  the  bases  of  TR1  and  TR2  in 
+order  to  bring  them  to  conduction.  Since  D1  and 
+D2  are  both  in  forward  conduction  (with  current 
+supplied  via  R1 and  R2)  they  have  little  effect  on  
+the input signal (apart from shifting the d.c. level). 
+  Figure 7.46 shows an improvement of the basic 
+complementary output stage with the addition of a 
+driver  stage  (TR1)  and  a  means  of  adjusting  the 
+bias  (i.e.  operating  point)  of  the  two  output  
+transistors.  VR1  is  typically  adjusted  in  order  to  
+produce  an  output  stage  collector  current  of 
+between 15 mA and 50 mA (required for Class AB 
+operation).  With  VR1  set  to  minimum  resistance, 
+the  output  stage  will  operate  in  Class  B  (this  will 
+produce  significantly  more  cross-over  distortion 
+because the two devices may both be cut-off for a 
+brief period of each cycle). Figure 7.47 shows how 
+negative  feedback  bias  (via  R2)  can  be  added  in 
+order to stabilize the output stage. Practical power 
+amplifiers are shown in Figs 7.48 and 7.49. 

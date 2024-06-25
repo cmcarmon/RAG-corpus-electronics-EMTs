@@ -1,0 +1,14 @@
+stack instructions allow the storage and retrieval 
+of different microprocessor registers in the stack. 
+The stack is a temporary memory location that is used 
+for storing the contents of the program counter dur-
+ing a jump to a subroutine program. The difference 
+between a stack and other forms of memory is the 
+method in which the data is accessed or addressed. A 
+push instruction stores the register content, and a pull 
+instruction retrieves the register content. There is an 
+advantage with the stack because data can be stored 
+into it or read from it with single-byte instructions. All 
+data transfers are between the top of the stack and the 
+accumulator. That is, the accumulator communicates 
+only with the top location of the stack.

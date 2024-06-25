@@ -1,0 +1,27 @@
+The O-net needs to be moved out of its current track to
+Tj
+make space for the CS. We use n
+to denote a net ni on track
+i
+Tj. Let a transition be deﬁned as the movement of net ni on a
+track Tj to another track Tk and that is denoted by n
+. This
+transition may result in net ni bumping into one or more nets
+on track Tk. These nets will have to move out of their current
+track Tk, giving rise to a transition for each of them. This
+transition sequence is shown in Figure 8.8(B) by dark arcs,
+where net n2 initiates a set of transitions that ﬁnally terminate
+in spare track segments, which are vacant segments of appro-
+priate total lengths into which bumped nets can move without
+bumping other nets. As seen in the ﬁgure, the set of transitions
+take on a directed-acyclic graph (DAG) structure, termed a
+transition DAG (T-DAG), with the spares forming the leaf
+nodes. The CS insertion is successful if a T-DAG rooted at
+the corresponding O-net can be found whose leaves are spare
+segments; such a T-DAG is termed a converging T-DAG.
+As stated earlier, because net bumpings only involve nets
+changing their track positions but not their topologies, their
+timing and power properties remain intact. Because CS inser-
+tions affect CS-net delays minimally (by about 7% [Hanchek
+and Dutt, 1998]), the B&R incremental rerouting approach
+only marginally affects FPGA performance.

@@ -1,0 +1,9 @@
+Normal  execution  of  programs  may  sometimes  be  preempted  if  some  I/O  device  requires  urgent  control
+action or servicing. For example, a monitoring device in a computer-controlled industrial process may detect
+a dangerous condition that requires the execution of a special service program dedicated to the device. To cause
+this  service  program  to  be  executed,  the  device  sends  an  interrupt  signal  to  the  processor.  The  processor
+temporarily suspends the program that is being executed and executes the special interrupt service routine. After
+providing  the  required  service,  the  processor  switches  back  to  the  interrupted  program.  To  appreciate  the
+complexity of the computer system software programs needed to control such switching from one program
+task to another and to manage the general movement of programs and data between primary and secondary
+storage, consult Tanenbaum [1990].

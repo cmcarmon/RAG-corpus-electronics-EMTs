@@ -1,0 +1,9 @@
+APDU: Application  Protocol  Data  Unit  is  a  set  of  bytes  forming  a  unitary “container”  used  to  send  to  or
+receive data from a card. There are two types of APDUs: command APDU (sent to a card) and response
+APDU (sent by a card). Formats of both APDUs are different, however, no mismatch is possible as the
+communication between a card and the reader is ruled by a sequence: command (reader)-response (card).
+API: Application Programming Interface. In general terms, API is a set of functionalities (library) loadable
+or preloaded available for a programmer developing the application. In smart card technology, APIs are
+found on board the card (e.g., Java Card) as well as on the system side (reader APIs). The goal of creating
+API  is  to  free  the  developer  from  card-related  speciﬁc  knowledge  allowing  him/her  to  develop  on  the
+higher level of abstraction.

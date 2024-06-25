@@ -1,0 +1,26 @@
+and then extract visual features from segmented objects. Un-
+constrained segmentation of an object from the background,
+however, is often not possible because there generally is no
+particular object in the image. Therefore, segmentation in such
+a case is of very limited use as a stage preceding feature
+extraction. The images thus need to be described as a whole
+unit, and one should devise feature extraction schemes that do
+not require segmentation. This restriction excludes a vast
+number of well-known feature extraction techniques from
+low-level
+feature-based representation: all boundary-based
+methods and many area-based methods. Basic pixel-value-
+based statistics, possibly combined with edge detection tech-
+niques, that reﬂect the properties of human visual system in
+discriminating between image patches can be used. Invariance
+to speciﬁc transforms is an issue of interest in feature extrac-
+tion as well. Feature extraction methods that are global in their
+nature or perform averaging over the whole image area are
+often inherently translation invariant. Other types of invari-
+ances (e.g., invariance to scaling, rotation, and occlusion) can
+be obtained with some feature extraction schemes by using
+proper transformations. Because of the perception subjectivity,
+there does not exist a single best representation for a given
+feature. For any given feature, there exist multiple representa-
+tions that characterize the feature from different perspectives.
+The main features used in CBIR systems can be categorized

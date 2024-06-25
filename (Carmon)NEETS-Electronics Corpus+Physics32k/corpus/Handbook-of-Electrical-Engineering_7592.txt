@@ -1,0 +1,18 @@
+All  CMOS  inputs  are  diode  protected  to  prevent  static  charge
+from accumulating on the FET gates and causing punch-through of
+the  oxide  insulating  layer.  A  typical  conﬁguration  is  illustrated  in
+Fig. 79.14. Diodes D1 and D2 clamp the transistor gates between VDD
+and VSS. Care must be taken to avoid input voltages that would cause
+excessive diode currents. For this reason manufacturers specify an
+input  voltage  constraint  from  VSS  –  0.5  V  to  VDD  +  0.5  V.  The
+resistance Rs helps protect the diodes from excessive currents but is
+introduced at the expense of switching speed, which is deteriorated
+by the time constant of this resistance and the junction capacitances.
+Advanced  versions  of  CMOS  have  been  developed  which  are
+faster than standard CMOS. The ﬁrst of these to appear were des-
+ignated  74HCxx  and  74HCTxx.  The  supply  voltage  range  for  this
+series is limited to 2 V £ VDD – VSS £ 6 V. The pin numbering of a
+given chip is the same as its correspondingly numbered TTL device.
+Furthermore, gates with the HCT code have skewed transfer char-
+acteristics which match those of its TTL cousin, so that these chips
+can be directly interchanged with low-power Schottky TTL.

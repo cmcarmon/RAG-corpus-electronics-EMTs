@@ -1,0 +1,16 @@
+nearly only DRAMs. In that category, the most important
+subclass is becoming the SDRAMs (see previous section). In
+that case, the bus protocol
+is fully synchronous, but the
+internal operation of the DRAM is still partly asynchronous.
+For the more conventional DRAMs that also have an asyn-
+chronous interface, the internal organization involves special
+ﬂags, which signal the completion of a read or write and thus
+the ‘‘readiness’’ for a new data and/or address word. In this
+case, a distinction has to be made between the address access
+delay tAA from the moment when the address changes and
+when the actual data are available at the output buffer and
+the chip (RAM) access delay tACS from the moment when the
+chip select (CS) goes up and the data are available. Ideally,
+tACS ¼ tAA, but in practice t ACS is the largest. So special
+‘‘tricks’’ have to be applied to approach this ideal.

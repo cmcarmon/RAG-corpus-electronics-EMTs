@@ -1,0 +1,98 @@
+In the second installment of "Calcul des teintes" (June 1821), Fresnel supposed, by analogy with sound waves, that the density of the aether in a refractive medium was inversely proportional to the square of the wave velocity, and therefore directly proportional to the square of the refractive index. For reflection and refraction at the surface between two isotropic media of different indices, Fresnel decomposed the transverse vibrations into two perpendicular components, now known as the s and p components, which are parallel to the surface and the plane of incidence, respectively; in other words, the s and p components are respectively square and parallel to the plane of incidence. For the s component, Fresnel supposed that the interaction between the two media was analogous to an elastic collision, and obtained a formula for what we now call the reflectivity: the ratio of the reflected intensity to the incident intensity. The predicted reflectivity was non-zero at all angles.
+The third installment (July 1821) was a short "postscript" in which Fresnel announced that he had found, by a "mechanical solution", a formula for the reflectivity of the p component, which predicted that the reflectivity was zero at the Brewster angle. So polarization by reflection had been accounted for, with the proviso that the direction of vibration in Fresnel's model was perpendicular to the plane of polarization as defined by Malus. (On the ensuing controversy, see Plane of polarization.) For other angles of incidence, the technology of the time did not allow the s and p reflectivities to be measured accurately enough to test Fresnel's formulae. But the formulae could be rewritten in terms of what we now call the reflection coefficient: the signed ratio of the reflected amplitude to the incident amplitude. Then, if the plane of polarization of the incident ray was at 45° to the plane of incidence, the tangent of the corresponding angle for the reflected ray was obtainable from the ratio of the two reflection coefficients, and this angle could be measured. Fresnel measured it for a range of angles of incidence, for glass and water, and the agreement between the calculated and measured angles was better than 1.5° in all cases.
+Fresnel gave details of the "mechanical solution" in a memoir read to the Académie des Sciences on 7 January 1823. Conservation of energy was combined with continuity of the tangential vibration at the interface. The resulting formulae for the reflection coefficients and reflectivities became known as the Fresnel equations. The reflection coefficients for the s and p polarizations are most succinctly expressed as
+
+
+
+
+
+r
+
+s
+
+
+=
+−
+
+
+
+sin
+⁡
+(
+i
+−
+r
+)
+
+
+sin
+⁡
+(
+i
++
+r
+)
+
+
+
+
+
+{\displaystyle r_{s}=-{\frac {\sin(i-r)}{\sin(i+r)}}}
+and
+
+
+
+
+r
+
+p
+
+
+=
+
+
+
+tan
+⁡
+(
+i
+−
+r
+)
+
+
+tan
+⁡
+(
+i
++
+r
+)
+
+
+
+
+,
+
+
+{\displaystyle r_{p}={\frac {\tan(i-r)}{\tan(i+r)}}\,,}
+
+
+where
+
+
+
+i
+
+
+{\displaystyle i}
+and
+
+
+
+r
+
+
+{\displaystyle r}
+are the angles of incidence and refraction. By allowing the coefficients to be complex, Fresnel even accounted for the different phase shifts of the s and p components due to total internal reflection.
+Nowadays the Fresnel equations are extended to opaque media by using a complex refractive index. The equations are fundamental in predicting the appearance of objects under illumination — for example, in computer graphics (see Physically based rendering).

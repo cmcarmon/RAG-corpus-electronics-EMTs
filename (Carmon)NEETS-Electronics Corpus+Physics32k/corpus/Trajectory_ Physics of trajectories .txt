@@ -1,0 +1,129 @@
+A familiar example of a trajectory is the path of a projectile, such as a thrown ball or rock. In a significantly simplified model, the object moves only under the influence of a uniform gravitational force field. This can be a good approximation for a rock that is thrown for short distances, for example at the surface of the moon. In this simple approximation, the trajectory takes the shape of a parabola. Generally when determining trajectories, it may be necessary to account for nonuniform gravitational forces and air resistance (drag and aerodynamics). This is the focus of the discipline of ballistics.
+One of the remarkable achievements of Newtonian mechanics was the derivation of the laws of Kepler. In the gravitational field of a point mass or a spherically-symmetrical extended mass (such as the Sun), the trajectory of a moving object is a conic section, usually an ellipse or a hyperbola. This agrees with the observed orbits of planets, comets, and artificial spacecraft to a reasonably good approximation, although if a comet passes close to the Sun, then it is also influenced by other forces such as the solar wind and radiation pressure, which modify the orbit and cause the comet to eject material into space.
+Newton's theory later developed into the branch of theoretical physics known as classical mechanics. It employs the mathematics of differential calculus (which was also initiated by Newton in his youth). Over the centuries, countless scientists have contributed to the development of these two disciplines. Classical mechanics became a most prominent demonstration of the power of rational thought, i.e. reason, in science as well as technology. It helps to understand and predict an enormous range of phenomena; trajectories are but one example.
+Consider a particle of mass
+
+
+
+m
+
+
+{\displaystyle m}
+, moving in a potential field
+
+
+
+V
+
+
+{\displaystyle V}
+. Physically speaking, mass represents inertia, and the field
+
+
+
+V
+
+
+{\displaystyle V}
+represents external forces of a particular kind known as "conservative". Given
+
+
+
+V
+
+
+{\displaystyle V}
+at every relevant position, there is a way to infer the associated force that would act at that position, say from gravity. Not all forces can be expressed in this way, however.
+The motion of the particle is described by the second-order differential equation
+
+
+
+
+m
+
+
+
+
+
+d
+
+
+2
+
+
+
+
+
+x
+→
+
+
+
+(
+t
+)
+
+
+
+d
+
+
+t
+
+2
+
+
+
+
+
+=
+−
+∇
+V
+(
+
+
+
+x
+→
+
+
+
+(
+t
+)
+)
+
+with
+
+
+
+
+x
+→
+
+
+
+=
+(
+x
+,
+y
+,
+z
+)
+.
+
+
+{\displaystyle m{\frac {\mathrm {d} ^{2}{\vec {x}}(t)}{\mathrm {d} t^{2}}}=-\nabla V({\vec {x}}(t)){\text{ with }}{\vec {x}}=(x,y,z).}
+
+On the right-hand side, the force is given in terms of
+
+
+
+∇
+V
+
+
+{\displaystyle \nabla V}
+, the gradient of the potential, taken at positions along the trajectory. This is the mathematical form of Newton's second law of motion: force equals mass times acceleration, for such situations.

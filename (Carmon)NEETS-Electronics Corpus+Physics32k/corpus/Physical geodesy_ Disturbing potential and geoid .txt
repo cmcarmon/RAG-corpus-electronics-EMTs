@@ -1,0 +1,150 @@
+Once a clean, smooth geopotential field
+
+
+
+U
+
+
+{\displaystyle U}
+has been constructed matching the known GRS80 reference ellipsoid with an equipotential surface (we call such a field a normal potential) we can subtract it from the true (measured) potential
+
+
+
+W
+
+
+{\displaystyle W}
+of the real Earth. The result is defined as T, the disturbing potential:
+
+
+
+
+T
+=
+W
+−
+U
+
+
+{\displaystyle T=W-U}
+
+The disturbing potential T is numerically a great deal smaller than U or W, and captures the detailed, complex variations of the true gravity field of the actually existing Earth from point-to-point, as distinguished from the overall global trend captured by the smooth mathematical ellipsoid of the normal potential.
+Due to the irregularity of the Earth's true gravity field, the equilibrium figure of sea water, or the geoid, will also be of irregular form. In some places, like west of Ireland, the geoid—mathematical mean sea level—sticks out as much as 100 m above the regular, rotationally symmetric reference ellipsoid of GRS80; in other places, like close to Ceylon, it dives under the ellipsoid by nearly the same amount. The separation between these two surfaces is called the undulation of the geoid, symbol
+
+
+
+N
+
+
+{\displaystyle N}
+, and is closely related to the disturbing potential.
+According to the famous Bruns formula, we have
+
+
+
+
+N
+=
+T
+
+/
+
+γ
+
+,
+
+
+{\displaystyle N=T/\gamma \,,}
+
+where
+
+
+
+γ
+
+
+{\displaystyle \gamma }
+is the force of gravity computed from the normal field potential
+
+
+
+U
+
+
+{\displaystyle U}
+.
+In 1849, the mathematician George Gabriel Stokes published the following formula named after him:
+
+
+
+
+N
+=
+
+
+R
+
+4
+π
+
+γ
+
+0
+
+
+
+
+
+
+∬
+
+σ
+
+
+Δ
+g
+
+S
+(
+ψ
+)
+
+d
+σ
+.
+
+
+{\displaystyle N={\frac {R}{4\pi \gamma _{0}}}\iint _{\sigma }\Delta g\,S(\psi )\,d\sigma .}
+
+In this formula,
+
+
+
+Δ
+g
+
+
+{\displaystyle \Delta g}
+stands for gravity anomalies, differences between true and normal (reference) gravity, and S is the Stokes function, a kernel function derived by Stokes in closed analytical form.
+Note that determining
+
+
+
+N
+
+
+{\displaystyle N}
+anywhere on Earth by this formula requires
+
+
+
+Δ
+g
+
+
+{\displaystyle \Delta g}
+to be known everywhere on Earth, including oceans, polar areas, and deserts. For terrestrial gravimetric measurements this is a near-impossibility, in spite of close international co-operation within the International Association of Geodesy (IAG), e.g., through the International Gravity Bureau (BGI, Bureau Gravimétrique International).
+Another approach is to combine multiple information sources: not just terrestrial gravimetry, but also satellite geodetic data on the figure of the Earth, from analysis of satellite orbital perturbations, and lately from satellite gravity missions such as GOCE and GRACE. In such combination solutions, the low-resolution part of the geoid solution is provided by the satellite data, while a 'tuned' version of the above Stokes equation is used to calculate the high-resolution part, from terrestrial gravimetric data from a neighbourhood of the evaluation point only.
+The geoid, or mathematical mean sea surface, is defined not only on the seas, but also under land; it is the equilibrium water surface that would result, would sea water be allowed to move freely (e.g., through tunnels) under the land. Technically, an equipotential surface of the true geopotential, chosen to coincide (on average) with mean sea level.
+As mean sea level is physically realized by tide gauge bench marks on the coasts of different countries and continents, a number of slightly incompatible "near-geoids" will result, with differences of several decimetres to over one metre between them, due to the dynamic sea surface topography. These are referred to as vertical or height datums.
+For every point on Earth, the local direction of gravity or vertical direction, materialized with the plumb line, is perpendicular to the geoid. On this is based a method, astrogeodetic levelling, for deriving the local figure of the geoid by measuring deflections of the vertical by astronomical means over an area.

@@ -1,0 +1,7 @@
+sion control scheme accepts or rejects a ﬂow. Since the network
+resources are shared by all admitted ﬂows, the decision to
+accept a new ﬂow may affect the QoS commitments made to
+the admitted ﬂows. Therefore, an admission control decision is
+usually made based on an estimation of the effect the new ﬂow
+will have on other ﬂows and the utilization target of the
+network.

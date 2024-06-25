@@ -1,0 +1,9 @@
+8. Continuous sampling. When a signal is known on one or more disjoint intervals, it is said to have been
+continuously sampled. Divide the time line into intervals of T. Periodic continuous sampling assumes
+that the signal is known on each interval over an interval of aT where a is the duty cycle. Continuously
+sampled  signals  can  be  accurately  interpolated  even  in  the  presence  of  aliasing.  Other  continuously
+sampled cases, each of which can be considered as a limiting case of continuously periodically sampled
+restoration, include
+(a) Interpolation. The tails of a signal are known and we wish to restore the middle.
+(b) Extrapolation. We wish to generate the tails of a function with knowledge of the middle.
+(c) Prediction. A signal for  t > 0 is to be estimated from knowledge of the signal for  t < 0.

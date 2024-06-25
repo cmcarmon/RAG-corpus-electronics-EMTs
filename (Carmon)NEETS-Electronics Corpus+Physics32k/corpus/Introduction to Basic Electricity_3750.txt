@@ -1,0 +1,8 @@
+The zener diode establishes the voltage level at 
+which the SCR turns on. It protects the load from 
+voltage above the zener voltage. As long as the supply 
+voltage is less than the zener diode voltage rating, the 
+diode does not conduct. This keeps the SCR turned off.
+If the supply voltage rises above the zener voltage due 
+to a malfunction, the zener diode conducts. This creates 
+a gate current to the SCR, turning it on and shorting out 

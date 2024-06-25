@@ -1,0 +1,17 @@
+Recognition Using the HMM
+Discrete-Observation Case
+We assume that we have a population of M HMMs, say
+{M‘}M
+‘¼1, each of which represents a word and each of which
+has been trained (we will discuss how in subsequent para-
+graphs) with appropriate probabilities. Every HMM represents
+a word in a vocabulary, V. Given a (vector-quantized) observa-
+tion sequence, say y¼def
+{y1, y2, . . . , yt , . . . , yT }, which is a real-
+ization of random process y, we seek to deduce which of the
+words in V is represented by y. That is, we want to determine
+the likelihood with which each of the M‘ produces y.
+Available data will generally not allow us to characterize the
+more intuitive a posteriori probability P(Mjy ¼ y) to use as a
+likelihood measure, so the measure P(y ¼ yjM), the probabil-
+ity that the observation sequence y is produced given the

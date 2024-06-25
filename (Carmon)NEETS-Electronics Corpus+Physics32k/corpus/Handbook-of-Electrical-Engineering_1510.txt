@@ -1,0 +1,5 @@
+Viterbi Algorithm: One Solution for the Decoding Problem
+We deﬁne the optimal state sequence q* = (q1*, …, qT*) is deﬁned as the sequence which maximizes P(q|O, l ),
+or equivalently P(q, O| l ). Let d
+t(i) be the joint probability of the optimal state sequence and the observation
+up to time t, ending in state Si at time t. Then,

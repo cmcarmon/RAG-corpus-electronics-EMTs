@@ -1,0 +1,5 @@
+At T2, PS goes HIGH, CLR goes LOW, Q goes LOW, and Q  goes HIGH. At this point the FF is
+CLEARED (line 3 of the Truth Table). The condition of the CLK, J, and K inputs have no effect on the
+PS and CLR actions since these inputs override the other inputs. Starting at T3, PS and CLR will be held
+at HIGHs so as not to override the other actions of the FF. Using the PS and CLR inputs only, the circuit
+will function as an R-S FF.

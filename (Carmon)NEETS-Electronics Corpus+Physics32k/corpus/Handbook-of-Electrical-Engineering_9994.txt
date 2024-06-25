@@ -1,0 +1,7 @@
+Autotuning in Process Control
+In 1943 Ziegler and Nichols [1943] suggested a technique for tuning the parameters of a PID controller. Their
+method was based on testing the plant in a closed loop with the PID controller in the proportional mode. The
+proportional gain was increased until the loop started to oscillate and then the value of gain and the oscillation
+frequency were measured. Formulae were given for setting the controller parameters based on the gain named
+the critical gain, Kc, and the frequency called the critical frequency, w
+c.

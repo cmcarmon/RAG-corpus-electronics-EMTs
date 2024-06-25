@@ -1,0 +1,3 @@
+All processors require an external clock, typically a crystal. The processor internal circuits run at this speed,
+but external devices usually use a submultiple of this rate, the bus clock, which is usually 2 to 4 times slower.
+The advertised clock rate is usually the external clock rate, not the bus cycle speed.

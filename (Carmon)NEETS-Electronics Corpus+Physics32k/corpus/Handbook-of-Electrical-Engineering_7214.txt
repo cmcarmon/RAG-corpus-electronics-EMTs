@@ -1,0 +1,5 @@
+Demodulation and Decoding
+Demodulation consists of the inverse of the modulation process. Standard techniques are used to demodulate
+the phase-modulated or QAM signals. Also included in the demodulation process is equalization. The decoding
+process converts the run-length encoded information to a series of 1s and 0s corresponding to the black and
+white pels of the image. The demodulated and decoded signal is then used to control the recording of the image.

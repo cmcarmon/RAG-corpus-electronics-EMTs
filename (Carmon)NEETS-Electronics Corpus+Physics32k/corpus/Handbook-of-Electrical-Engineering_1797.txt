@@ -1,0 +1,5 @@
+Pel Recursive Methods
+Netravali and Robbins [1979] developed the ﬁrst pel recursive method for television signal compression. The
+algorithm begins with an initial estimate of the displacement, then iterates recursively to update the estimate.
+The iterations can be performed at a single pixel or at successive pixels along a scan line. The true displacement
+D at each pixel is estimated by

@@ -1,0 +1,23 @@
+where {~cc} denotes an approximate solution. Commonly used
+iterative methods include the conjugate gradient (Hestenes
+and Stiefel, 1952), the biconjugate gradient (Fletcher, 1975),
+the quasiminimal residual (Freund and Nachtigal, 1991),
+the generalized minimal residual (Saad, 1986), and their
+variations, such as the conjugate gradient stabilized (Sonne-
+veld, 1989), the conjugate gradient normal residual (Green-
+baum, 1997), the biconjugate gradient stabilized (van der
+Vorst, 1992), and the transpose-free quasiminimal residual
+(Freund, 1993). The algorithms implementing these methods
+can be found in public literature and software packages of
+Barret (1993) and Saad (1995). For positive deﬁnite systems,
+the conjugate gradient method is the optimum iterative solver.
+For indeﬁnite systems, such as most matrix equations for elec-
+tromagnetic problems, it is not clear which is optimum. An
+iterative solver calculates one or two matrix-vector products for
+each iteration. Hence, it requires O(N 2) operations per iter-
+ation, and the total computing time is proportional to NiterN 2,
+where Niter denotes the total number of iterations for conver-
+gence. If Niter is small, an iterative solver can be faster than the
+LU decomposition method for one right-hand side. The intera-
+tive solver, however, must repeat the process for every new
+right-hand side.

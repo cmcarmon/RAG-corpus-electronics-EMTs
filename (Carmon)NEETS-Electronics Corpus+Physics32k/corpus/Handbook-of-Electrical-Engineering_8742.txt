@@ -1,0 +1,5 @@
+One of the most difﬁcult concepts to adjust to when using the procedural paradigm is the idea that all things
+are  functions.  The  most  signiﬁcant  implication  of  this  kind  of  thinking  is  the  replacement  of  loops  with
+recursion and branches with guards. Recall that everything is a function that must return a value—even control
+structures. To illustrate, consider the functional (non-LISP) equivalent of the summation loop in FORTRAN,
+below.

@@ -1,0 +1,395 @@
+Fluid flow is governed by the Navier-Stokes equation for momentum. The flow velocity
+
+
+
+
+
+
+u
+→
+
+
+
+
+
+{\displaystyle {\vec {u}}}
+of a fluid with viscosity
+
+
+
+ν
+
+
+{\displaystyle \nu }
+under pressure
+
+
+
+P
+
+
+{\displaystyle P}
+and rotating at rate
+
+
+
+Ω
+
+
+{\displaystyle \Omega }
+changes over time
+
+
+
+t
+
+
+{\displaystyle t}
+according to
+
+
+
+
+
+
+
+∂
+
+
+
+u
+→
+
+
+
+
+
+∂
+t
+
+
+
++
+(
+
+
+
+u
+→
+
+
+
+⋅
+
+
+
+∇
+→
+
+
+
+)
+
+
+
+u
+→
+
+
+
+=
+−
+
+
+1
+ρ
+
+
+
+
+
+∇
+→
+
+
+
+P
++
+ν
+
+∇
+
+2
+
+
+
+
+
+u
+→
+
+
+
+−
+2
+
+
+
+Ω
+→
+
+
+
+×
+
+
+
+u
+→
+
+
+
+.
+
+
+{\displaystyle {\frac {\partial {\vec {u}}}{\partial t}}+({\vec {u}}\cdot {\vec {\nabla }}){\vec {u}}=-{\frac {1}{\rho }}{\vec {\nabla }}P+\nu \nabla ^{2}{\vec {u}}-2{\vec {\Omega }}\times {\vec {u}}.}
+
+The first term on the right accounts for pressure, the second accounts for viscous diffusion and the third (last) term on the right side of the momentum equation (above) is the Coriolis term.
+To be precise,
+
+
+
+
+
+
+u
+→
+
+
+
+
+
+{\displaystyle {\vec {u}}}
+is the flow velocity as observed in the rotating frame of reference. Since a rotating frame of reference is accelerating (i.e. non-inertial frame), two additional (pseudo) forces (as mentioned above) emerge as a result of this coordinate transformation: the centrifugal force and the Coriolis force. In the equation above, the centrifugal force is included as a part of the generalized pressure
+
+
+
+P
+
+
+{\displaystyle P}
+, that is,
+
+
+
+P
+
+
+{\displaystyle P}
+is related to the usual pressure
+
+
+
+p
+
+
+{\displaystyle p}
+, depending on the distance from the rotation axis
+
+
+
+r
+
+
+{\displaystyle r}
+, by
+
+
+
+
+P
+=
+p
++
+
+
+1
+2
+
+
+ρ
+
+r
+
+2
+
+
+
+Ω
+
+2
+
+
+.
+
+
+{\displaystyle P=p+{\frac {1}{2}}\rho r^{2}\Omega ^{2}.}
+
+In the case where the rotation rate is large, the Coriolis force and the centrifugal force become large compared to the other terms. Being small in comparison, diffusion and the "convective derivative" (second term on the left) can be left out. Taking a curl of both sides and applying a few vector identities, the result is
+
+
+
+
+
+
+∂
+
+∂
+t
+
+
+
+∇
+×
+
+
+
+u
+→
+
+
+
+=
+2
+(
+
+
+
+Ω
+→
+
+
+
+⋅
+
+
+
+∇
+→
+
+
+
+)
+
+
+
+u
+→
+
+
+
+.
+
+
+{\displaystyle {\frac {\partial }{\partial t}}\nabla \times {\vec {u}}=2({\vec {\Omega }}\cdot {\vec {\nabla }}){\vec {u}}.}
+
+One class of solutions to this equation are waves that satisfy two conditions. First, if
+
+
+
+
+
+
+k
+→
+
+
+
+
+
+{\displaystyle {\vec {k}}}
+is the wave vector,
+
+
+
+
+
+
+
+u
+→
+
+
+
+⋅
+
+
+
+k
+→
+
+
+
+=
+0
+,
+
+
+{\displaystyle {\vec {u}}\cdot {\vec {k}}=0,}
+
+that is, the waves must be transverse, as mentioned above. Second, solutions are required to have a frequency
+
+
+
+ω
+
+
+{\displaystyle \omega }
+that satisfies the dispersion relation
+
+
+
+
+ω
+=
+2
+
+
+
+k
+^
+
+
+
+⋅
+
+
+
+Ω
+→
+
+
+
+=
+2
+Ω
+cos
+⁡
+
+θ
+
+,
+
+
+{\displaystyle \omega =2{\hat {k}}\cdot {\vec {\Omega }}=2\Omega \cos {\theta },}
+
+where
+
+
+
+θ
+
+
+{\displaystyle \theta }
+is the angle between the axis of rotation and the direction of the wave. These particular solutions are known as inertial waves.
+The dispersion relation looks much like the Coriolis term in the momentum equation—notice the rotation rate and the factor of two. It immediately implies the range of possible frequencies for inertial waves, as well as the dependence of their frequency on their direction.

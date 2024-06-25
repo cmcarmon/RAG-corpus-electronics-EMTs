@@ -1,0 +1,74 @@
+Particle decay is a Poisson process, and hence the probability that a particle survives for time t before decaying is given by an exponential distribution whose time constant depends on the particle's velocity:
+
+
+
+
+P
+(
+t
+)
+=
+
+e
+
+−
+t
+
+/
+
+(
+γ
+τ
+)
+
+
+
+
+
+{\displaystyle P(t)=e^{-t/(\gamma \tau )}\,}
+
+
+where
+
+
+
+
+τ
+
+
+{\displaystyle \tau }
+is the mean lifetime of the particle (when at rest), and
+
+
+
+
+γ
+=
+
+
+1
+
+1
+−
+
+v
+
+2
+
+
+
+/
+
+
+c
+
+2
+
+
+
+
+
+
+
+{\displaystyle \gamma ={\frac {1}{\sqrt {1-v^{2}/c^{2}}}}}
+is the Lorentz factor of the particle.

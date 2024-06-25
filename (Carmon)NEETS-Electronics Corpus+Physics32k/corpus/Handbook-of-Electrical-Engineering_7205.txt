@@ -1,0 +1,12 @@
+Assume  that  a  spectral  bandwidth  of  1.2  MHz  can  be  divided  into  120  radio  channels  with  a  channel
+bandwidth of 10 kHz. This is an FDMA scheme. A spectral bandwidth of 1.2 MHz can also be divided into 40
+radio  channels  with  a  radio  channel  bandwidth  of  30  kHz  but  each  radio  channel  carries  three  time  slots.
+Therefore,  a  total  of  120  time-slot  channels  is  obtained.  This  is  a  TDMA  scheme.  A  spectral  bandwidth  of
+1.2 MHz can also be used as one radio channel but provide 40 code-sequence trafﬁc channels for each sector
+of a cell. A cell of three sectors will have a total of 120 trafﬁc channels. This is a CDMA scheme. Now we can
+visualize that as far as channel efﬁciency is concerned, TDMA, FDMA, and CDMA provide the same number
+frequency reuse
+of trafﬁc channels. However, in FDMA or TDMA, frequency reuse has to be applied. Let the 
+‡
+factor
+ 18 dB; then the total channels will be divided by 7 as:

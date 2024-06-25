@@ -1,0 +1,9 @@
+where −01,−02, . . . ,−0m are the zeros, and −p1,−p2, . . . ,−pn are the poles of the network
+function. Equation (3.4.6) is clearly the product of a constant and a group of terms having the form
+(1 + j ω/ω0) or 1/(1 + j ω/ω0). Each of these terms can be considered as an individual phasor,
+and ¯H (j ω) has a magnitude given by the product of the individual magnitudes (or the sum of the
+individual terms expressed in dB) and an angle given by the sum of the individual angles. Thus
+the behavior of functions (1 + j ω/ω0) and 1/(1 + j ω/ω0) is to be clearly understood for the
+construction of Bode plots.
+¯H1(j ω) = 1 + j ω/ω0. For ω/ω0 << 1 (i.e., low frequencies), the
+magnitude H1(ω) ∼= 1, or H1(ω)dB = 20 log 1 = 0 dB. The break frequency is ω = ω0. At high

@@ -1,0 +1,12 @@
+The Discrete-Observation Model
+The discrete-observation HMM, a special case of model set
+3.38, is restricted to the production of a ﬁnite set of observa-
+tions. In this case, the naturally occurring observation vectors
+are quantized into one of the permissible sets using a technique
+known as vector quantization (VQ). In the VQ process, a large
+population of continuous-observation vectors, assumed to be
+statistically representative of all the features to be encountered
+in a speech-recognition task, is partitioned into a ﬁxed number
+of clusters, say K, typically using the K-means algorithm (Del-
+ler et al., 2000; Devijver and Kittler, 1982). The centroids of the
+clusters are assumed to be representative of the sounds associ-

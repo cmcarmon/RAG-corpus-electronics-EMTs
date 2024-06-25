@@ -1,0 +1,24 @@
+This fault model, however, does not cover all types of faults.
+One example is that of two signal wires X and Y being shorted
+to each other (called a bridging fault). If the driver strength of
+X is signiﬁcantly greater then that of Y, then Y ’s logic value will
+follow X’s, which can take on either 0 or 1 values depending on
+the input to the circuit. Thus Y is neither stuck-at-0 nor stuck-
+at-1 permanently, though, of course, it can cause an error in
+the circuit output. This fault cannot be modeled by the logical
+stuck-at-fault model. Another example is that of a CMOS
+NOR gate with inputs A and B. This gate has two pMOS
+transistors in series connected to the supply voltage and two
+nMOS transistors in parallel connected to ground. The A input
+feeds a pMOS and an nMOS transistor. If the branch of the A
+wire that feeds the nMOS transistor is broken, then the gate of
+this transistor is at logic 0, and it never conducts. When the
+inputs are A, B ¼ 1, 0, the pMOS network is not conducting,
+and the nMOS network is not connected to ground (the latter
+due to the wire break—the correct operation would have been
+for the nMOS network to conduct). This leaves the output of
+the NOR gate connected to neither supply voltage nor ground,
+and it assumes the voltage is stored at its load capacitance,
+which is its previous value. Thus, this fault does not manifests
+itself as the NOR gate’s output (or for that matter any of its
+inputs) being either stuck-at-0 or stuck-at-1.

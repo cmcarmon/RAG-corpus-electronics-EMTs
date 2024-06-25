@@ -1,0 +1,196 @@
+GTO is a highly elliptical Earth orbit with an apogee of 42,164 km (26,199 mi), or 35,786 km (22,236 mi) above sea level, which corresponds to the geostationary altitude. The period of a standard geosynchronous transfer orbit is about 10.5 hours. The argument of perigee is such that apogee occurs on or near the equator. Perigee can be anywhere above the atmosphere, but is usually restricted to a few hundred kilometers above the Earth's surface to reduce launcher delta-V (
+
+
+
+Δ
+V
+
+
+{\displaystyle \Delta V}
+) requirements and to limit the orbital lifetime of the spent booster so as to curtail space junk. If using low-thrust engines such as electrical propulsion to get from the transfer orbit to geostationary orbit, the transfer orbit can be supersynchronous (having an apogee above the final geosynchronous orbit). However, this method takes much longer to achieve due to the low thrust injected into the orbit. The typical launch vehicle injects the satellite to a supersynchronous orbit having the apogee above 42,164 km. The satellite's low-thrust engines are thrusted continuously around the geostationary transfer orbits in an inertial direction. This inertial direction is set to be in the velocity vector at apogee but with an outer plane direction. The outer plane direction removes the initial inclination set by the initial transfer orbit, while the inner plane direction raises simultaneously the perigee and lowers the apogee of the intermediate geostationary transfer orbit. In case of using the Hohmann transfer orbit, only a few days are required to reach the geosynchronous orbit. By using low-thrust engines or electrical propulsion, months are required until the satellite reaches its final orbit.
+The orbital inclination of a GTO is the angle between the orbit plane and the Earth's equatorial plane. It is determined by the latitude of the launch site and the launch azimuth (direction). The inclination and eccentricity must both be reduced to zero to obtain a geostationary orbit. If only the eccentricity of the orbit is reduced to zero, the result may be a geosynchronous orbit but will not be geostationary. Because the
+
+
+
+Δ
+V
+
+
+{\displaystyle \Delta V}
+required for a plane change is proportional to the instantaneous velocity, the inclination and eccentricity are usually changed together in a single maneuver at apogee, where velocity is lowest.
+The required
+
+
+
+Δ
+V
+
+
+{\displaystyle \Delta V}
+for an inclination change at either the ascending or descending node of the orbit is calculated as follows:
+
+
+
+
+Δ
+V
+=
+2
+V
+sin
+⁡
+
+
+
+Δ
+i
+
+2
+
+
+.
+
+
+{\displaystyle \Delta V=2V\sin {\frac {\Delta i}{2}}.}
+
+For a typical GTO with a semi-major axis of 24,582 km, perigee velocity is 9.88 km/s and apogee velocity is 1.64 km/s, clearly making the inclination change far less costly at apogee. In practice, the inclination change is combined with the orbital circularization (or "apogee kick") burn to reduce the total
+
+
+
+Δ
+V
+
+
+{\displaystyle \Delta V}
+for the two maneuvers. The combined
+
+
+
+Δ
+V
+
+
+{\displaystyle \Delta V}
+is the vector sum of the inclination change
+
+
+
+Δ
+V
+
+
+{\displaystyle \Delta V}
+and the circularization
+
+
+
+Δ
+V
+
+
+{\displaystyle \Delta V}
+, and as the sum of the lengths of two sides of a triangle will always exceed the remaining side's length, total
+
+
+
+Δ
+V
+
+
+{\displaystyle \Delta V}
+in a combined maneuver will always be less than in two maneuvers. The combined
+
+
+
+Δ
+V
+
+
+{\displaystyle \Delta V}
+can be calculated as follows:
+
+
+
+
+Δ
+V
+=
+
+
+
+V
+
+t
+,
+a
+
+
+2
+
+
++
+
+V
+
+GEO
+
+
+2
+
+
+−
+2
+
+V
+
+t
+,
+a
+
+
+
+V
+
+GEO
+
+
+cos
+⁡
+Δ
+i
+
+
+,
+
+
+{\displaystyle \Delta V={\sqrt {V_{t,a}^{2}+V_{\text{GEO}}^{2}-2V_{t,a}V_{\text{GEO}}\cos \Delta i}},}
+
+where
+
+
+
+
+V
+
+t
+,
+a
+
+
+
+
+{\displaystyle V_{t,a}}
+is the velocity magnitude at the apogee of the transfer orbit and
+
+
+
+
+V
+
+GEO
+
+
+
+
+{\displaystyle V_{\text{GEO}}}
+is the velocity in GEO.

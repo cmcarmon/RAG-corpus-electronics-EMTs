@@ -1,0 +1,15 @@
+In the circuit of figure 2-45, a series of sawtooth pulses, occurring at the sampling rate, is applied to
+a one-shot multivibrator. The multivibrator has the signal voltage Essuperimposed on the bias voltage Ein.
+Each pulse triggers a cycle of multivibrator operation which terminates after a time interval and varies
+linearly with the voltage Es. The pulse of plate voltage produced by the multivibrator will have a leading
+edge at T1. The leading edge will vary in position with the signal voltage, while the trailing edge at T2 is
+fixed by the termination of the sawtooth pulse. The length of the output pulse is thus duration or width
+modulated. If the sawtooth has an instantaneous buildup and a sloping trailing edge, then the leading edge
+(T1) is fixed and the trailing edge (T2) varies. If the sawtooth generator produces a slope on both leading
+and trailing edges, both T1 and T2 are variable in position, but the result is still pdm. Pdm is often used
+because it is of a constant amplitude and is, therefore, less susceptible to noise. When compared with
+ppm, pdm has the disadvantage of a varying pulse, width and, therefore, of varying power content. This
+means that the transmitter must be powerful enough to handle the maximum-width pulses, although the
+average power transmitted is much less than peak power. On the other hand, pdm will still work if the
+synchronization between the transmitter and receiver fails; in ppm it will not, as will be seen in the next
+section.

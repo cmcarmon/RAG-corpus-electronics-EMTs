@@ -1,0 +1,9 @@
+Because the gate-to-source voltage is reverse  biased, 
+the JFET has an extremely high input resistance. If the 
+gate-to-source voltage were forward biased, a large 
+current would flow through the channel, causing the 
+input resistance to drop and reducing the gain of the 
+device. The amount of gate-to-source voltage required 
+to reduce ID to zero is called the gate-to-source	
+	cutoff	voltage	(EGS(off)). The manufacturer of the 
+device specifies this value.

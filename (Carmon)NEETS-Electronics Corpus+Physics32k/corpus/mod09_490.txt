@@ -1,0 +1,5 @@
+At T1, the input gate ends and Q1 begins to conduct heavily. C2 discharges through R3 and Q1. The 
+time required to discharge C2 is primarily determined by the values of R3 and C2. The minimum 
+discharge time (in this circuit) is 500 microseconds (5KΩ × .02µF × 5). At T2, the capacitor has 
+discharged back to 0 volts and the circuit is quiescent. It remains in this condition until T3 when another 
+gate is applied to the transistor. 

@@ -1,0 +1,6 @@
+Boundary scan has become an important tool in achieving design for testability following the adoption of
+the IEEE 1149.1 Test Access Port and Boundary-Scan Architecture in 1990. The IEEE 1149.1 Standard deﬁnes
+a mandatory four-pin (plus an optional ﬁfth pin) test access port (TAP) for providing the interface between
+the IC component and a digital tester. TAP signals comprise test data input (TDI), test data output (TDO),
+test  clock  (TCK),  and  test  mode  select  (TMS)  plus  an  optional  asynchronous  tap  reset  (TRST*)  signal.  The
+overall IEEE 1149.1 test architecture (see Fig. 85.17) includes:

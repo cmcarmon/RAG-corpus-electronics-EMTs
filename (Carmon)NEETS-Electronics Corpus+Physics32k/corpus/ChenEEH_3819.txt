@@ -1,0 +1,12 @@
+Histogram Equalization
+By looking at Figure 4.11(A), one notices that the image is too
+dark. This can be conﬁrmed by the image’s histogram in Figure
+4.11(B), where one can see that the most frequent gray levels
+have low values. To enhance the appearance of the image, one
+would need to re-map the image’s gray levels so that they
+become more uniformly distributed. Ideally, one would need
+to apply a transformation that would make the histogram of
+the image look uniform. If FU (u) ¼
+u
+0 pU (x)dx is the distri-
+bution function of the image, then this transformation would

@@ -1,0 +1,21 @@
+going link. This process introduces some latency because the
+routing tables are very large and table lookups take time. The
+same process also needs to be repeated independently for every
+incoming packet, even though all packets may belong to the
+same ﬂow and may be going toward the same destination. This
+shortcoming of IP routing can be removed by using IP switch-
+ing, in which a short label is attached to a packet and updated
+at every hop. When this modiﬁed packet arrives at a switch
+(router in our previous description), this label is used to index
+into a short switching table [an O(1) operation] to determine
+the outgoing link and new label for the next hop. The old label
+is then replaced by new label, and the packet is forwarded to
+the next hop. All this can be easily done in hardware and
+results in very high speeds. This concept was applied earlier
+in ATM for cell switching that used the VPI/VCI ﬁeld in the
+packet as the label. MPLS introduces the same switching con-
+cept in IP networks. It is called Multi-Protocol because this
+technique can also be used with any network layer protocol
+other than IP. Label switching provides a low-cost hardware
+implementation, scalability to very high speeds, and ﬂexibility
+in the management of trafﬁc ﬂows.

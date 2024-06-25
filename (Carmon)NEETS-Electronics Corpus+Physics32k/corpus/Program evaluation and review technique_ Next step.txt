@@ -1,0 +1,17 @@
+The next step is to determine the critical path and if any activities have slack. The critical path is the path that takes the longest to complete. To determine the path times, add the task durations for all available paths. Activities that have slack can be delayed without changing the overall time of the project. Slack is computed in one of two ways, slack = LF − EF or slack = LS − ES. Activities that are on the critical path have a slack of zero (0).
+The duration of path adf is 14.83 work days.
+The duration of path aceg is 19.51 work days.
+The duration of path beg is 15.67 work days.
+The critical path is aceg and the critical time is 19.51 work days. It is important to note that there can be more than one critical path (in a project more complex than this example) or that the critical path can change. For example, let's say that activities d and f take their pessimistic (b) times to complete instead of their expected (TE) times. The critical path is now adf and the critical time is 22 work days. On the other hand, if activity c can be reduced to one work day, the path time for aceg is reduced to 15.34 work days, which is slightly less than the time of the new critical path, beg (15.67 work days).
+Assuming these scenarios do not happen, the slack for each activity can now be determined.
+Start and finish are milestones and by definition have no duration, therefore they can have no slack (0 work days).
+The activities on the critical path by definition have a slack of zero; however, it is always a good idea to check the math anyway when drawing by hand.
+LFa – EFa = 4 − 4 = 0
+LFc – EFc = 9.17 − 9.17 = 0
+LFe – EFe = 14.34 − 14.34 = 0
+LFg – EFg = 19.51 − 19.51 = 0
+
+Activity b has an LF of 9.17 and an EF of 5.33, so the slack is 3.84 work days.
+Activity d has an LF of 15.01 and an EF of 10.33, so the slack is 4.68 work days.
+Activity f has an LF of 19.51 and an EF of 14.83, so the slack is 4.68 work days.
+Therefore, activity b can be delayed almost 4 work days without delaying the project. Likewise, activity d or activity f can be delayed 4.68 work days without delaying the project (alternatively, d and f can be delayed 2.34 work days each).

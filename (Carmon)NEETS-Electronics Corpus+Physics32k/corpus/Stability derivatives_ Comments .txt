@@ -1,0 +1,23 @@
+The state variables were chosen to be the angle of attack
+
+
+
+β
+
+
+{\displaystyle \beta }
+and the yaw rate r, and have omitted the speed perturbation u, together with the associated derivatives e.g.
+
+
+
+
+Y
+
+u
+
+
+
+
+{\displaystyle Y_{u}}
+. This may appear arbitrary. However, since the timescale of the speed variation is much greater than that of the variation in angle of attack, its effects are negligible as far as the directional stability of the vehicle is concerned. Similarly, the effect of roll on yawing motion was also ignored, because missiles generally have low aspect ratio configurations and the roll inertia is much less than the yaw inertia, consequently the roll loop is expected to be much faster than the yaw response, and is ignored. These simplifications of the problem based on a priori knowledge, represent an engineer's approach. Mathematicians prefer to keep the problem as general as possible and only simplify it at the end of the analysis, if at all.
+Aircraft dynamics is more complex than missile dynamics, mainly because the simplifications, such as separation of fast and slow modes, and the similarity between pitch and yaw motions, are not obvious from the equations of motion, and are consequently deferred until a late stage of the analysis. Subsonic transport aircraft have high aspect ratio configurations, so that yaw and roll cannot be treated as decoupled. However, this is merely a matter of degree; the basic ideas needed to understand aircraft dynamics are covered in this simpler analysis of missile motion.

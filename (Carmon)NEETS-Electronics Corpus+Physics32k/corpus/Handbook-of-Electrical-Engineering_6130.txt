@@ -1,0 +1,11 @@
+The communication link between the monitoring point and the control center can now be very sophisticated
+and can utilize satellites. This technology has led to the development of systems to analyze the power quality
+of  a  system.  Harmonic  measurement  and  analysis  has  now  reached  a  high  level  of  maturity.  Many  different
+pieces of information can be monitored and the results over time stored in a database. Algorithms based on
+the fast Fourier transform can then be used to convert this data from the time domain to the frequency domain.
+Computing techniques coupled with fast and often parallel computing allows this information to be displayed
+in  real  time.  By  utilizing  the  time  stamping  capability  of  the  global  positioning  system  (GPS),  information
+gathered at remote sites can be linked together. Using the GPS time stamp, samples taken exactly simultaneously
+can be feed to a harmonic state estimator which can even determine the position and magnitude of harmonics
+entering the system as well as the harmonic voltages and currents at points not monitored (provided enough
+initial monitoring points exist).

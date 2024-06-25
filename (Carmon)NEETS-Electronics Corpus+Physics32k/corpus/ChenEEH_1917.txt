@@ -1,0 +1,11 @@
+Array of Independent Cells
+In Figure 8.2, each cell i is covered by cell i þ 1. Suppose that
+all inputs are available to the circuit at time t and that the
+maximum propagation delay of a cell is d. Then all original
+outputs are available from the primary cells at time t þ d. At
+time t þ d, the outputs are latched, and the inputs are for-
+warded to the cover cells for the checking computation. At
+time t þ 2d, the checking outputs are available from the cover
+cells. These are compared with the latched original outputs,
+which have also been forwarded to the cover cells, and any
+error signals are latched.

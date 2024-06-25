@@ -1,0 +1,8 @@
+Let us first compute the static power dissipated in an inverter. The static
+power can be determined by removing all capacitive and inductive elements
+from the circuit (remember, this means that we replace capacitors with open
+circuits and inductors with short circuits). Accordingly, we will assume that
+CL = 0 for our static power calculation. When the MOSFET in the inverter is
+turned on, a resistive path exists between power and ground. So current flows
+through RL and the on resistance of the MOSFET, RON, causing static power
+dissipation:

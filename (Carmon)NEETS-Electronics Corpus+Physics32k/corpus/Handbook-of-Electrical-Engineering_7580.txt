@@ -1,0 +1,9 @@
+Emitter-Coupled Logic
+ECL  is  a  nonsaturated  logic  family  where  saturation  is  avoided  by  operating  the  transistors  in  the  common
+collector conﬁguration. This feature, in combination with a smaller difference between the HIGH and LOW
+voltage levels (less than 1 V) than other logic families, makes ECL the fastest logic available at this time. The
+circuit  diagram  of  a  widely  used  version  of  the  basic  two-input  ECL  gate  is  given  in  Fig. 79.12.  The  power
+supply terminals VCC1, VCC2, VEE, and VTT are available for ﬂexibility in biasing. In normal operation, VCC1 and
+VCC2 are connected to a common ground, VEE is biased to –5.2 V, and VTT is biased to –2 V. With these values
+the nominal voltage for the logical 0 and 1 are, respectively, –1.75 and –0.9 V. Operation with the VCC terminals
+grounded maximizes the immunity from noise interference.

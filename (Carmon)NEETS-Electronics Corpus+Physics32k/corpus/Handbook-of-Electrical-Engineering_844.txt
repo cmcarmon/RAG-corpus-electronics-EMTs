@@ -1,0 +1,11 @@
+Sometimes, some poles could be canceled in the rational function form of TF(s) so that they would not be
+explicitly shown. However, even if some poles could be canceled by zeros, we still have to consider all poles in
+the following criteria which is the statement of Theorem 12.5. The equilibrium state of the continuous system
+[Eq. (12.7)] with constant input is unstable if at least one pole has a positive real part, and is stable if all poles
+of  TF(s)  have  nonpositive  real  parts  and  all  poles  with  zero  real  parts  are  single.  The  equilibrium  state  is
+asymptotically stable if and only if all poles of TF(s) have negative real parts; that is, all poles are in the left
+half of the s-plane. Similarly, the equilibrium state of the discrete system [Eq. (12.8)] with constant input is
+unstable if the absolute value of at least one pole is greater than one, and is stable if all poles of TF(z) have
+absolute  values  less  than  or  equal  to  one  and  all  poles  with  unit  absolute  values  are  single.  The  equilibrium
+state is asymptotically stable if and only if all poles of TF(z) have absolute values less than one; that is, the poles
+are all inside the unit circle of the z-plane.

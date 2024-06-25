@@ -1,0 +1,8 @@
+By isolating the capacitor from the circuit that reads the stored value, the
+buffer offers added advantages. As shown in Figure 10.58, devices that read the
+value stored on the capacitor might have relatively low resistances associated
+with them, thereby discharging the capacitor in our original unbuffered memory
+circuit. In contrast, the buffered design of the memory element circuit shown in
+Figure 10.59 protects the capacitor’s charge from the external circuit. By careful
+design of the memory element, the input resistance of the buffer can be made
+to be very large, thereby ensuring a large discharge time constant.

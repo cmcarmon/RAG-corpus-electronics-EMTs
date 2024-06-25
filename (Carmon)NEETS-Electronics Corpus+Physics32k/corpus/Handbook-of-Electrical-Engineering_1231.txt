@@ -1,0 +1,19 @@
+is satisﬁed for all vectors x ˛ C n. Furthermore, if the only vector that causes this quadratic form to be zero is
+the zero vector, then A is said to be positive deﬁnite. Since this quadratic form is real valued, we can further
+infer  that  any  positive-semideﬁnite  matrix  must  be  Hermitian  so  that  A*  =  A.  Moreover,  using  elementary
+reasoning it directly follows that the set of positive-deﬁnite matrices contained in Cn is a closed convex cone.
+In many practical applications, there is given empirical time series data to be analyzed. This analysis is often
+predicated on one’s having knowledge of the time series-associated correlation matrices or orthogonal projection
+matrices. Since such knowledge is generally unknown, these matrices must be estimated from the empirical data
+^
+xx of a corre-
+under analysis. These estimates, however, are almost always in error. For example, the estimate R
+lation  matrix  Rxx  is  often  Hermitian  but  not  positive  semideﬁnite.  To  mitigate  the  effects  of  these  errors,  an
+^
+xx that possesses the two prerequisite
+intuitively appealing procedure would be to ﬁnd a matrix lying close to R
+properties of being (1) Hermitian and (2) positive semideﬁnite. The concept of signal restoration can be used
+for  this  purpose  if  it  is  possible  to  develop  a  closed-form  expression  for  the  operator  that  maps  a  general
+Hermitian matrix into the closest positive-semideﬁnite Hermitian matrix in the Frobenius matrix norm sense.
+As  is  now  shown,  a  simple  expression  for  this  operator  is  available  using  the  SVD  of  the  Hermitian  matrix
+being approximated.

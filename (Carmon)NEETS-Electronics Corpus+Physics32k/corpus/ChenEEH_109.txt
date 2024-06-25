@@ -1,0 +1,17 @@
+variables in this case. It is assumed that the electrical network
+N is connected and that N consists of only resistances, (R),
+capacitances (C), inductances (L), including mutual induct-
+ances, and independent voltage and current sources. It is also
+assumed that all initial inductor currents and initial capacitor
+voltages have been replaced by appropriate sources. Further,
+the voltage and current variables are all Laplace transforms of
+the complex frequency variable s. In N, there can be no circuit
+consisting of only independent voltage sources, for if such a
+circuit of sources were present, then by KVL, there would be a
+linear relationship among the corresponding voltages; this
+would violate the independence of the voltage sources. For
+the same reason, in N, there can be no cutset consisting of
+only independent current sources. Hence, there exists in N a
+spanning tree containing all the voltage sources but not current
+sources. Such a tree is the starting point for the development of
+both the loop and cutset systems of equations.

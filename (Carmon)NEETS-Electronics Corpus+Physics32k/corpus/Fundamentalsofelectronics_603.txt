@@ -1,0 +1,6 @@
+Exercise 5.18
+(Solution on p. 192.)
+Before developing the FFT, let’s try to appreciate the algorithm’s impact. Suppose a short-length
+transform takes 1 ms. We want to calculate a transform of a signal that is 10 times longer. Compare
+how much longer a straightforward implementation of the DFT would take in comparison to an
+FFT, both of which compute exactly the same quantity.

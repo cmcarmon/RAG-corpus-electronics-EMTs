@@ -1,0 +1,11 @@
+Microcontrollers
+Microprocessors  designed  especially  for  use  in  control  applications  are  called  microcontrollers.  Typically,  the
+major difference between a microcontroller and a standard microprocessor is the presence of scratchpad RAM,
+input and output ports, timers, and even analog-to-digital (A/D) and digital-to-analog (D/A) converters on-chip.
+Figure 82.4 shows a simpliﬁed microcontroller architecture. The process to be controlled is monitored by
+means  of  sensors.  The  outputs  from  the  sensors  are  fed  to A/D  converters  which  convert  the  analog  signals
+from  the  sensors  to  digital  signals  appropriate  for  use  in  the  microprocessor.  The  microprocessor  reads  the
+digital signal from the A/D converter and uses it for input to a control program stored in the microprocessor
+memory. The program produces digital outputs which are fed to D/A converters. The analog outputs from the
+D/A converters (which are typically low power) are fed to ampliﬁers, and the ampliﬁed signal is used to control
+actuators that affect the process being controlled.

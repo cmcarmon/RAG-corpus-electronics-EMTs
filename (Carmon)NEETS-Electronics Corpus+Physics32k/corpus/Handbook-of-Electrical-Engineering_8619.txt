@@ -1,0 +1,7 @@
+The actual address written into the instruction.
+Meaning “the address is in register 3.”
+Meaning “12 bytes before the address in register 3.”
+Meaning make an address by adding the contents of r3 and r4. This mode has many 
+variations which are discussed below.
+Very uncommon! Means calculate an address as in 1.3, then fetch the longword 
+there, and then use it as the address of what you really want.

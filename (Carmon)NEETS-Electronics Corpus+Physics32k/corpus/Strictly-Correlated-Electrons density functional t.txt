@@ -1,0 +1,203 @@
+To understand how the SCE system is constructed, it is useful to first think in terms of a simple example. Consider a collection of
+
+
+
+N
+
+
+{\displaystyle N}
+identical classical charges (with repulsive Coulomb interaction) confined in some container with a given shape. If let alone, the charges will distribute themselves within the container until they reach the spatial configuration that minimizes their interaction energy (in equilibrium, their kinetic energy is zero). Of course, the equilibrium position of the charges will depend on the shape of the container.
+Suppose now that in this classical system one of the
+
+
+
+N
+
+
+{\displaystyle N}
+charges, which we can label as number “1”, is pinned at some arbitrary position
+
+
+
+
+
+r
+
+
+1
+
+
+=
+
+r
+
+
+
+{\displaystyle \mathbf {r} _{1}=\mathbf {r} }
+inside the container. Clearly, the equilibrium position of the other
+
+
+
+N
+−
+1
+
+
+{\displaystyle N-1}
+charges will now not only depend on the shape of the container, but also on the position
+
+
+
+
+r
+
+
+
+{\displaystyle \mathbf {r} }
+of the pinned charge. Thus, for a given confining geometry, one can write the position of the
+
+
+
+i
+
+
+{\displaystyle i}
+-th particle
+
+
+
+(
+i
+=
+2
+,
+.
+.
+,
+N
+)
+
+
+{\displaystyle (i=2,..,N)}
+,
+
+
+
+
+
+r
+
+
+i
+
+
+
+
+{\displaystyle \mathbf {r} _{i}}
+, as a function of
+
+
+
+
+r
+
+
+
+{\displaystyle \mathbf {r} }
+:
+
+
+
+
+
+r
+
+
+i
+
+
+=
+
+
+f
+
+
+i
+
+
+(
+
+r
+
+)
+
+
+{\displaystyle \mathbf {r} _{i}=\mathbf {f} _{i}(\mathbf {r} )}
+.
+In the SCE system, as in the classical example described above, the position
+
+
+
+
+
+r
+
+
+1
+
+
+=
+
+r
+
+
+
+{\displaystyle \mathbf {r} _{1}=\mathbf {r} }
+of a reference electron determines the position of the remaining ones. The analogue role of the confining container is now played by the condition that the density at each point must be the same as that of the real system,
+
+
+
+n
+(
+
+r
+
+)
+
+
+{\displaystyle n(\mathbf {r} )}
+: the electrons will always try to be as far apart from each other as possible, in order to minimize their repulsion, but always restricted by this condition. The positions
+
+
+
+
+
+r
+
+
+i
+
+
+=
+
+
+f
+
+
+i
+
+
+(
+
+
+r
+
+
+1
+
+
+)
+
+
+{\displaystyle \mathbf {r} _{i}=\mathbf {f} _{i}(\mathbf {r} _{1})}
+are called co-motion functions and play a fundamental role in the SCE formalism, analogue to the one of the Kohn-Sham single-particle orbitals in Kohn-Sham DFT [2-4].

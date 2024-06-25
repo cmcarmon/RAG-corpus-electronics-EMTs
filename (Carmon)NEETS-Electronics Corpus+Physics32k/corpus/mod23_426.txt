@@ -1,0 +1,6 @@
+The FM method of encoding digital data onto a disk uses two pulse periods to represent each bit of 
+data (a pulse period is the time span of one pulse). The first pulse period always contains a clock pulse. 
+The second pulse-period may, or may not, contain a data pulse. If the digital data is a "1," a data pulse 
+will be present in the second pulse-period. But, if the digital data is a "0," then there's no pulse present. 
+Figure 8-7 shows this. The clock pulse, which is always present, tells the disk drive's interface that the 
+next pulse is a data pulse. It is used to compensate for changes in the disk's rotation speed. 

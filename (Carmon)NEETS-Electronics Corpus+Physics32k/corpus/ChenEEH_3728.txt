@@ -1,0 +1,8 @@
+) ! (iN , jN )
+(3:33)
+for any i0, j0, i0, j0, iN, and jN , such that 0  i0, i0, iN  I and
+0  j0, j0, jN  J ; the  denotes concatenation of the path
+segments. In words, the BOP asserts that the best path from
+node (i0, j0) to node (iN , jN ) that includes node (i0, j0) is
+obtained by concatenating the best paths from (i0, j0) to
+(i0, j0) and from (i0, j0) to (iN , jN ).

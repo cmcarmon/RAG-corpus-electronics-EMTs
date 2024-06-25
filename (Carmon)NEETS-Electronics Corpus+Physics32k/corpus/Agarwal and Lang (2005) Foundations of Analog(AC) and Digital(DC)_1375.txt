@@ -1,0 +1,11 @@
+This is plotted in Figure 10.2c.
+Some comments at this point help to give perspective. First, notice that
+capacitor voltage starts from a zero value at t = 0 and reaches its final value
+of I0R for large t. The increase from 0 to I0R has a time constant RC. The
+final value of I0R for the capacitor voltage implies that all of the current from
+the current source flows through the resistor, and the capacitor behaves like an
+open circuit (for large t).
+Second, the initial value of 0 for the capacitor voltage implies that at t = 0
+all of the current from the current source must be flowing through the capacitor,
+and none through the resistor. Thus the capacitor behaves like an instantaneous
+short circuit at t = 0.

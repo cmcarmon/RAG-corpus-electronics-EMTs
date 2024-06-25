@@ -1,0 +1,6 @@
+The (second) shell just processes them in order, the same as it
+would with commands typed on the keyboard. Files containing
+shell commands are called shell scripts. Shell scripts may assign
+values to shell variables and then read them later. They may also
+have parameters and use if, for, while and case constructs. Thus
+a shell script is really a program written in a shell language.

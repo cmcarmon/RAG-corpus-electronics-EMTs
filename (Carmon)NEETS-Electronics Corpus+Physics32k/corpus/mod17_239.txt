@@ -1,0 +1,11 @@
+TRANSISTOR AMPLIFIER GAIN.—You have seen how a dc voltage that is obtained at the
+output of the agc network is proportional to, and will reflect, the average variations of the average signal
+level. Now all we have to do is use this agc voltage to control the amplification of one or more of the
+preceding amplifiers. Figure 2-17 illustrates a common-emitter amplifier with agc applied to the base
+element. A change in the agc voltage will change the operating point of the transistor and the dc emitter
+current. In this circuit, R1 and R4 form a voltage divider and establish no-signal (forward) bias on the
+base. Since a pnp transistor is used, the base has a negative potential. The agc voltage from the detector is
+positive with respect to ground and is fed to the base through dropping resistor R2. You will find when
+the dc output of the detector increases (because of an increase in the average signal level) the agc voltage
+will become more positive. This increased positive potential is applied to the base of Q1, which decreases
+the forward bias of Q1 and decreases the gain of the amplifier. Agc, in this application, works with

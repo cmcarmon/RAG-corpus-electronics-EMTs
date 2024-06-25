@@ -1,0 +1,4 @@
+BCNF  is  a  stricter  form  of  3NF,  where  a  relation  r  on  a  schema  R  is  in  BCNF  if  whenever  a  functional
+dependency X ﬁ Y exists in r (R), then X is a superkey of R. The condition of 3NF, which allows Y to be prime
+if X is not a superkey, does not exist in BCNF. Thus, every scheme in BCNF is also in 3NF, but the opposite is
+not always true.

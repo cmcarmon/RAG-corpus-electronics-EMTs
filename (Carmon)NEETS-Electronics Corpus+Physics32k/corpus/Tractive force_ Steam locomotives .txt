@@ -1,0 +1,44 @@
+An estimate for the tractive effort of a single cylinder steam locomotive can be obtained from the cylinder pressure, cylinder bore, stroke of the piston and the diameter of the wheel. The torque developed by the linear motion of the piston depends on the angle that the driving rod makes with the tangent of the radius on the driving wheel. For a more useful value an average value over the rotation of the wheel is used. The driving force is the torque divided by the wheel radius.
+As an approximation, the following formula can be used (for a two-cylinder locomotive):
+
+
+
+
+t
+=
+
+
+
+85
+
+d
+
+2
+
+
+s
+p
+
+
+100
+w
+
+
+
+
+
+{\displaystyle t={\frac {85d^{2}sp}{100w}}}
+
+where
+t is tractive effort
+d is the piston diameter in inches (bore)
+s is the piston stroke in inches
+p is the working pressure in Pounds per square inch
+w is the diameter of driving wheel in inches
+The constant 0.85 was the Association of American Railroads (AAR) standard for such calculations, and overestimated the efficiency of some locomotives and underestimated that of others. Modern locomotives with roller bearings were probably underestimated.
+European designers used a constant of 0.6 instead of 0.85, so the two cannot be compared without a conversion factor. In Britain main-line railways generally used a constant of 0.85 but builders of industrial locomotives often used a lower figure, typically 0.75.
+The constant c also depends on the cylinder dimensions and the time at which the steam inlet valves are open; if the steam inlet valves are closed immediately after obtaining full cylinder pressure the piston force can be expected to have dropped to less than half the initial force. giving a low c value. If the cylinder valves are left open for longer the value of c will rise nearer to one.
+Three or four cylinders (simple)
+The result should be multiplied by 1.5 for a three-cylinder locomotive and by two for a four-cylinder locomotive.
+Multiple cylinders (compound)
+For other numbers and combinations of cylinders, including double and triple expansion engines the tractive effort can be estimated by adding the tractive efforts due to the individual cylinders at their respective pressures and cylinder strokes.

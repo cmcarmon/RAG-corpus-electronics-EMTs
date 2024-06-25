@@ -1,0 +1,1 @@
+The simulation must keep track of the current simulation time, in whatever measurement units are suitable for the system being modeled. In discrete-event simulations, as opposed to continuous simulations, time 'hops' because events are instantaneous – the clock skips to the next event start time as the simulation proceeds.

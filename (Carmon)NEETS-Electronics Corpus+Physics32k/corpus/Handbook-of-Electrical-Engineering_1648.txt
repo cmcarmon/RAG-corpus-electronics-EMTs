@@ -1,0 +1,7 @@
+Most real-world engineering problems have measurement equations or dynamical system equations that are
+nonlinear  in  the  state  vector.  Therefore,  the  Kalman  ﬁlter  equations  cannot  be  applied  directly;  rather,  the
+problem must be approximated using linear equations. This linear approximation is very straightforward, and
+it is called the “extended Kalman ﬁlter” (EKF). One of the main reasons for the wide application of the Kalman
+ﬁlter is the ease with which a nonlinear system can be approximated by a linear system. The resulting approx-
+imation  is  often  very  good,  resulting  in  good  EKF  performance.  Unfortunately,  the  EKF  performance  is
+sometimes poor, in which case a plethora of alternative approximations can be attempted.

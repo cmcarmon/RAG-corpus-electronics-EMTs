@@ -1,0 +1,15 @@
+PCM is a technique where an analog signal is sampled, quantized, and then encoded as a digital word. The
+PCM IC can include successive approximation techniques or other techniques to accomplish the PCM encoding.
+, if it is
+In addition, the PCM codec may employ nonlinear data compression techniques, such as 
+necessary to minimize the number of bits in the output digital code. Companding is a logarithmic technique
+used to compress a code to fewer bits before transmission. The inverse logarithmic function is then used to
+expand the code to its original number of bits before converting it to the analog signal. Companding is typically
+used in telecommunications transmission systems to minimize data transmission rates without degrading the
+resolution of low-amplitude signals. Two standardized companding techniques are used extensively: A-law and
+m
+m
+-law  is  used  predominantly  in  the  U.S.  and
+-law.  The  A-law  companding  is  used  in  Europe,  whereas  the 
+Japan. Linear PCM conversion is used in high-ﬁdelity audio systems to preserve the integrity of the audio signal
+throughout the entire analog range.

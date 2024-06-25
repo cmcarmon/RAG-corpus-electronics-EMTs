@@ -1,0 +1,180 @@
+Definition 1: A system mapping
+
+
+
+x
+
+
+{\displaystyle x}
+to
+
+
+
+y
+
+
+{\displaystyle y}
+is causal if and only if, for any pair of input signals
+
+
+
+
+x
+
+1
+
+
+(
+t
+)
+
+
+{\displaystyle x_{1}(t)}
+and
+
+
+
+
+x
+
+2
+
+
+(
+t
+)
+
+
+{\displaystyle x_{2}(t)}
+such that
+
+
+
+
+
+x
+
+1
+
+
+(
+t
+)
+=
+
+x
+
+2
+
+
+(
+t
+)
+,
+
+∀
+
+t
+≤
+
+t
+
+0
+
+
+,
+
+
+{\displaystyle x_{1}(t)=x_{2}(t),\quad \forall \ t\leq t_{0},}
+
+the corresponding outputs satisfy
+
+
+
+
+
+y
+
+1
+
+
+(
+t
+)
+=
+
+y
+
+2
+
+
+(
+t
+)
+,
+
+∀
+
+t
+≤
+
+t
+
+0
+
+
+.
+
+
+{\displaystyle y_{1}(t)=y_{2}(t),\quad \forall \ t\leq t_{0}.}
+
+Definition 2: Suppose
+
+
+
+h
+(
+t
+)
+
+
+{\displaystyle h(t)}
+is the impulse response of the system
+
+
+
+H
+
+
+{\displaystyle H}
+. (only fully accurate for a system described by linear constant coefficient differential equation). The system
+
+
+
+H
+
+
+{\displaystyle H}
+is causal if and only if
+
+
+
+
+h
+(
+t
+)
+=
+0
+,
+
+∀
+
+t
+<
+0
+
+
+{\displaystyle h(t)=0,\quad \forall \ t<0}
+
+otherwise it is non-causal.

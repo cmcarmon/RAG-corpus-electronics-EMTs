@@ -1,0 +1,14 @@
+For a cell to cover another cell (the dependent cell), the
+cover cell must be able to duplicate the functionality of the
+dependent cell. In an FPGA, all cells are identical, so conﬁgu-
+ration data for the dependent cell can simply be transposed to
+the cover cell. The cover cell must also be able to duplicate the
+connectivity of the dependent cell with respect to the rest of
+the array. This is accomplished by ensuring that each net
+connected to a cell through a channel segment also includes
+the corresponding cover segment, CS, bordering the cover cell.
+Cover segments are included in a net in one of two ways. First,
+segments in the net may already be in positions to act as
+covers. In case the above condition does not hold, additional
+segments should be attached to the net to provide covers.
+Figure 8.7 illustrates the use of CSs.

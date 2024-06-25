@@ -1,0 +1,17 @@
+Figure 88.2 depicts a common construction of a memory hierarchy. At the top of the hierarchy are the CPU
+registers, which are small and extremely fast. The next level down in the hierarchy is a special, high-speed semi-
+. The cache can actually be divided into multiple distinct levels;
+conductor memory known as a 
+most current systems have between one and three levels of cache. Some of the levels of cache may be on the
+CPU chip itself, they may be on the same module as the CPU, or they all may be entirely distinct. Below the
+ Like a cache, main memory
+cache is the conventional memory, referred to as 
+is semiconductor memory, but it is slower, cheaper, and denser than a cache. Below the main memory is the
+virtual memory, which is generally stored on magnetic or optical disk. Accessing the virtual memory can be
+tens of thousands times slower than accessing the main memory because it involves moving mechanical parts.
+As requests go deeper into the memory hierarchy, they encounter levels that are larger (in terms of capacity)
+and slower than the higher levels (moving left to right in Fig. 88.2). In addition to size and speed, the bandwidth
+in-between adjacent levels in the memory hierarchy is smaller for the lower levels. The bandwidth in-between
+the registers and top cache level, for example, is higher than that between cache and main memory or main
+memory and virtual memory. Since each level presumably intercepts a fraction of the requests, the bandwidth
+to the level below need not be as great as that to the intercepting level.

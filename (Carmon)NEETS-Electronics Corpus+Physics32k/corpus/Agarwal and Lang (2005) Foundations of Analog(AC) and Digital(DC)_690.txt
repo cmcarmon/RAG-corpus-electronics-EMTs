@@ -1,0 +1,10 @@
+Although the digital approach seems wasteful of signal dynamic range, it
+has a significant advantage over analog transmission in the presence of noise.
+Notice, this representation is immune to symmetric noise with a peak to peak
+value less than 2.5 V. To illustrate, consider the situation depicted in Figure 5.2
+in which a sender desires to transmit a value A to a receiver. The figure illustrates
+both an analog case and a digital case. In the analog case, let us suppose that
+the value A is 2.4 V. The sender transmits A by representing it as a voltage
+level of 2.4 V on a wire. Noise during transmission (represented as a 0.2-V
+noise voltage source in the figure) changes this voltage to 2.6 V at the receiver,
+resulting in the receiver interpreting the value incorrectly as 2.6.

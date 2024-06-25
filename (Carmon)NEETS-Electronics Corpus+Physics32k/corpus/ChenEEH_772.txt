@@ -1,0 +1,8 @@
+Hamwind, with respective sizes of 26,400 and 2400
+integer elements. Observe that the loop nest has non-
+rectangular access patterns dominated by accesses to
+the temporary variable ac_inter‘. Thus to reduce
+power, we need to reduce the number of memory
+accesses to ac_inter‘. This is possible only by ﬁrst
+reducing the size of ac_inter‘ and then placing this
+signal in a local memory.

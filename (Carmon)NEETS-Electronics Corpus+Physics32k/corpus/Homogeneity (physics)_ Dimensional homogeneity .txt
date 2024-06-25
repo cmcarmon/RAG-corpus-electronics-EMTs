@@ -1,0 +1,63 @@
+As said in the introduction, dimensional homogeneity is the quality of an equation having quantities of same units on both sides. A valid equation in physics must be homogeneous, since equality cannot apply between quantities of different nature. This can be used to spot errors in formula or calculations. For example, if one is calculating a speed, units must always combine to [length]/[time]; if one is calculating an energy, units must always combine to [mass]•[length]²/[time]², etc. For example, the following formulae could be valid expressions for some energy:
+
+
+
+
+
+E
+
+k
+
+
+=
+
+
+1
+2
+
+
+m
+
+v
+
+2
+
+
+;
+
+
+E
+=
+m
+
+c
+
+2
+
+
+;
+
+
+E
+=
+p
+v
+;
+
+
+E
+=
+h
+c
+
+/
+
+λ
+
+
+{\displaystyle E_{k}={\frac {1}{2}}mv^{2};~~E=mc^{2};~~E=pv;~~E=hc/\lambda }
+
+if m is a mass, v and c are velocities, p is a momentum, h is Planck's constant, λ a length. On the other hand, if the units of the right hand side do not combine to [mass]•[length]2/[time]2, it cannot be a valid expression for some energy.
+Being homogeneous does not necessarily mean the equation will be true, since it does not take into account numerical factors. For example, E = m•v2 could be or could not be the correct formula for the energy of a particle of mass m traveling at speed v, and one cannot know if h•c/λ should be divided or multiplied by 2π.
+Nevertheless, this is a very powerful tool in finding characteristic units of a given problem, see dimensional analysis.
+Theoretical physicists tend to express everything in natural units given by constants of nature, for example by taking c = ħ = k = 1; once this is done, one partly loses the possibility of the above checking.

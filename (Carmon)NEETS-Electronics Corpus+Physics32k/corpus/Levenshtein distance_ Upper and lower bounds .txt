@@ -1,0 +1,7 @@
+The Levenshtein distance has several simple upper and lower bounds. These include:
+It is at least the difference of the sizes of the two strings.
+It is at most the length of the longer string.
+It is zero if and only if the strings are equal.
+If the strings are the same size, the Hamming distance is an upper bound on the Levenshtein distance.
+The Levenshtein distance between two strings is no greater than the sum of their Levenshtein distances from a third string (triangle inequality).
+An example where the Levenshtein distance between two strings of the same length is strictly less than the Hamming distance is given by the pair "flaw" and "lawn". Here the Levenshtein distance equals 2 (delete "f" from the front; insert "n" at the end). The Hamming distance is 4.

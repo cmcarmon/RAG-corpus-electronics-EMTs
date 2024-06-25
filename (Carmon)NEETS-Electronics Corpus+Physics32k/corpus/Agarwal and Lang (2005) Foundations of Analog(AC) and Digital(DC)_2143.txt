@@ -1,0 +1,6 @@
+Equation 15.31 is in fact a general result. For any linear circuit in which the
+feedback resistor is sampling the output node voltage (rather than the output
+current), the Thévenin equivalent output resistance with feedback is equal to the
+output resistance without feedback, divided by a factor 1+ (loop gain), the same
+factor involved in gain calculations and calculation of sensitivity to changes in
+the gain constant A.

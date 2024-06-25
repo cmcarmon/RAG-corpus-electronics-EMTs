@@ -1,0 +1,18 @@
+This limitation stems from today’s power devices’ technol-
+ogy. Based on vertical power MOSFET technology, most of
+today’s low-voltage power MOSFETs are available at a rating
+of 30 V. Roughly, the total power loss of a power device can
+be divided into three parts: conduction loss, gate drive loss,
+and switching loss. Figure 1.11 shows the relationship be-
+tween conduction loss, gate drive loss, and switching loss.
+For this kind of low-voltage, high-current application, con-
+duction loss contributes a large percentage of the total loss.
+When only one IRL3803 is used, the MOSFET’s conduction
+loss is 25 times the gate drive loss plus the switching loss. To
+reduce conduction and total loss, more switches need to be
+paralleled. This does not necessarily mean, however, that
+more parallel switches equals lower total
+loss. When ﬁve
+IRL3803 are paralleled, the total loss is reduced to the min-
+imum. After this point, adding more switches will not im-
+prove efﬁciency. Figure 1.12 shows the number of parallel

@@ -1,0 +1,453 @@
+One concrete version of the above impossibility claim is Groenewold's theorem, which we describe for a system with one degree of freedom for simplicity. Let us accept the following "ground rules" for the map
+
+
+
+Q
+
+
+{\displaystyle Q}
+. First,
+
+
+
+Q
+
+
+{\displaystyle Q}
+should send the constant function 1 to the identity operator. Second,
+
+
+
+Q
+
+
+{\displaystyle Q}
+should take
+
+
+
+x
+
+
+{\displaystyle x}
+and
+
+
+
+p
+
+
+{\displaystyle p}
+to the usual position and momentum operators
+
+
+
+X
+
+
+{\displaystyle X}
+and
+
+
+
+P
+
+
+{\displaystyle P}
+. Third,
+
+
+
+Q
+
+
+{\displaystyle Q}
+should take a polynomial in
+
+
+
+x
+
+
+{\displaystyle x}
+and
+
+
+
+p
+
+
+{\displaystyle p}
+to a "polynomial" in
+
+
+
+X
+
+
+{\displaystyle X}
+and
+
+
+
+P
+
+
+{\displaystyle P}
+, that is, a finite linear combinations of products of
+
+
+
+X
+
+
+{\displaystyle X}
+and
+
+
+
+P
+
+
+{\displaystyle P}
+, which may be taken in any desired order. In its simplest form, Groenewold's theorem says that there is no map satisfying the above ground rules and also the bracket condition
+
+
+
+
+
+Q
+
+{
+f
+,
+g
+}
+
+
+=
+
+
+1
+
+i
+ℏ
+
+
+
+[
+
+Q
+
+f
+
+
+,
+
+Q
+
+g
+
+
+]
+
+
+{\displaystyle Q_{\{f,g\}}={\frac {1}{i\hbar }}[Q_{f},Q_{g}]}
+
+for all polynomials
+
+
+
+f
+
+
+{\displaystyle f}
+and
+
+
+
+g
+
+
+{\displaystyle g}
+.
+Actually, the nonexistence of such a map occurs already by the time we reach polynomials of degree four. Note that the Poisson bracket of two polynomials of degree four has degree six, so it does not exactly make sense to require a map on polynomials of degree four to respect the bracket condition. We can, however, require that the bracket condition holds when
+
+
+
+f
+
+
+{\displaystyle f}
+and
+
+
+
+g
+
+
+{\displaystyle g}
+have degree three. Groenewold's theorem can be stated as follows:
+Theorem: There is no quantization map
+
+
+
+Q
+
+
+{\displaystyle Q}
+(following the above ground rules) on polynomials of degree less than or equal to four that satisfies
+
+
+
+
+
+
+Q
+
+{
+f
+,
+g
+}
+
+
+=
+
+
+1
+
+i
+ℏ
+
+
+
+[
+
+Q
+
+f
+
+
+,
+
+Q
+
+g
+
+
+]
+
+
+{\displaystyle \quad Q_{\{f,g\}}={\frac {1}{i\hbar }}[Q_{f},Q_{g}]}
+
+whenever
+
+
+
+f
+
+
+{\displaystyle f}
+and
+
+
+
+g
+
+
+{\displaystyle g}
+have degree less than or equal to three. (Note that in this case,
+
+
+
+{
+f
+,
+g
+}
+
+
+{\displaystyle \{f,g\}}
+has degree less than or equal to four.)
+The proof can be outlined as follows. Suppose we first try to find a quantization map on polynomials of degree less than or equal to three satisfying the bracket condition whenever
+
+
+
+f
+
+
+{\displaystyle f}
+has degree less than or equal to two and
+
+
+
+g
+
+
+{\displaystyle g}
+has degree less than or equal to two. Then there is precisely one such map, and it is the Weyl quantization. The impossibility result now is obtained by writing the same polynomial of degree four as a Poisson bracket of polynomials of degree three in two different ways. Specifically, we have
+
+
+
+
+
+x
+
+2
+
+
+
+p
+
+2
+
+
+=
+
+
+1
+9
+
+
+{
+
+x
+
+3
+
+
+,
+
+p
+
+3
+
+
+}
+=
+
+
+1
+3
+
+
+{
+
+x
+
+2
+
+
+p
+,
+x
+
+p
+
+2
+
+
+}
+
+
+{\displaystyle x^{2}p^{2}={\frac {1}{9}}\{x^{3},p^{3}\}={\frac {1}{3}}\{x^{2}p,xp^{2}\}}
+
+On the other hand, we have already seen that if there is going to be a quantization map on polynomials of degree three, it must be the Weyl quantization; that is, we have already determined the only possible quantization of all the cubic polynomials above.
+The argument is finished by computing by brute force that
+
+
+
+
+
+
+1
+9
+
+
+[
+Q
+(
+
+x
+
+3
+
+
+)
+,
+Q
+(
+
+p
+
+3
+
+
+)
+]
+
+
+{\displaystyle {\frac {1}{9}}[Q(x^{3}),Q(p^{3})]}
+
+does not coincide with
+
+
+
+
+
+
+1
+3
+
+
+[
+Q
+(
+
+x
+
+2
+
+
+p
+)
+,
+Q
+(
+x
+
+p
+
+2
+
+
+)
+]
+
+
+{\displaystyle {\frac {1}{3}}[Q(x^{2}p),Q(xp^{2})]}
+.
+Thus, we have two incompatible requirements for the value of
+
+
+
+Q
+(
+
+x
+
+2
+
+
+
+p
+
+2
+
+
+)
+
+
+{\displaystyle Q(x^{2}p^{2})}
+.

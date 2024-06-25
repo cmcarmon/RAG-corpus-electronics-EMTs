@@ -1,0 +1,20 @@
+Level 1 represents systems that model raw image data using
+features such as color histogram, shape, and texture descrip-
+tors. This model can be used to serve the queries like ‘‘ﬁnd
+pictures with dominant red color on a white background.’’
+Content-based image indexing and retrieval (CBIR) systems
+based on these models operate directly on the data, employing
+techniques from the signal processing domain. Level 2 consists
+of derived or logical features involving some degree of statis-
+tical and logical inference about the identity of objects depicted
+by visual media. An example query at this level can be ‘‘ﬁnd
+pictures of Eiffel Tower.’’ Using these models, systems normally
+operate on low-level feature representation, though they can
+also use image data directly. Level 3 deals with semantic
+abstractions involving a signiﬁcant amount of high-level
+reasoning about the meaning and purpose of the objects or
+scenes depicted. An example of a query at this level can be
+‘‘ﬁnd pictures of laughing children.’’ As indicated at level 3 of
+the ﬁgure, the artiﬁcial intelligence (AI) community has had
+the leading role in this effort. Systems at this level can take
+semantic representation based on input generated at level 2.

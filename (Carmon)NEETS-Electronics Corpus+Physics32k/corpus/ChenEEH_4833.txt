@@ -1,0 +1,13 @@
+Integrating different software applications either in a single
+processor or across a network requires detailed knowledge of
+the operating systems on the connected machines. Moreover,
+the use of networks requires knowledge of communication
+protocols that dictate how packets of data are sent and veriﬁed.
+Programming at the operating system level or at the network
+level adds a layer of complexity to the process that most
+control engineers would prefer to avoid. As an alternative, a
+new layer, called middleware, is inserted between the operat-
+ing system and the application software as shown in Figure
+14.3. The middleware sets up the communication protocols
+and interfaces with the operating systems for the machines on
+the network to allow different software applications on the

@@ -1,0 +1,23 @@
+In this chapter, emphasis has been placed on using middle-
+ware for integrating complex control systems. As mentioned
+previously, middleware is beneﬁcial for its ability to hide the
+network communications decisions from the user, its reuse in
+integrating multiple control system applications, and its ease
+of system evolution and reconﬁguration. A further beneﬁt
+from some middleware is its ability to integrate software writ-
+ten in different languages and running on different platforms.
+The development of middleware for control system applica-
+tions is rather new. One commercial product that uses a real-
+time publish and subscribe communication model is NDDS
+made by Real-Time Innovations (RTI). NDDS has good per-
+formance for relatively fast periodic events, which is the case
+for the low-level stability augmentation controller used in
+ﬂight controls. RTI also markets ControlShell, a graphics tool
+that allows integration of control systems in an object-oriented
+fashion. Consult the RTI Web site for more information on the
+publish and subscribe communications model for use in con-
+trols. While no commercial products currently use CORBA for
+control systems, a CORBA-based software substrate for con-
+trols is under development (Wills et al., 2001). Extensions to
+CORBA and links to CORBA-based products for other appli-
+cations can be found on the OMG Web site.

@@ -1,0 +1,54 @@
+The term baud rate has sometimes incorrectly been used to mean bit rate, since these rates are the same in old modems as well as in the simplest digital communication links using only one bit per symbol, such that binary "0" is represented by one symbol, and binary "1" by another symbol. In more advanced modems and data transmission techniques, a symbol may have more than two states, so it may represent more than one binary digit (a binary digit always represents one of exactly two states). For this reason, the baud rate value will often be lower than the gross bit rate.
+Example of use and misuse of "baud rate": It is correct to write "the baud rate of my COM port is 9,600" if we mean that the bit rate is 9,600 bit/s, since there is one bit per symbol in this case. It is not correct to write "the baud rate of Ethernet is 100 megabaud" or "the baud rate of my modem is 56,000" if we mean bit rate. See below for more details on these techniques.
+The difference between baud (or signalling rate) and the data rate (or bit rate) is like a man using a single semaphore flag who can move his arm to a new position once each second, so his signalling rate (baud) is one symbol per second. The flag can be held in one of eight distinct positions: Straight up, 45° left, 90° left, 135° left, straight down (which is the rest state, where he is sending no signal), 135° right, 90° right, and 45° right. Each signal (symbol) carries three bits of information. It takes three binary digits to encode eight states. The data rate is three bits per second. In the Navy, more than one flag pattern and arm can be used at once, so the combinations of these produce many symbols, each conveying several bits, a higher data rate.
+If N bits are conveyed per symbol, and the gross bit rate is R, inclusive of channel coding overhead, the symbol rate can be calculated as:
+
+
+
+
+
+f
+
+s
+
+
+=
+
+
+R
+N
+
+
+
+
+{\displaystyle f_{s}={R \over N}}
+
+In that case M = 2N different symbols are used. In a modem, these may be sinewave tones with unique combinations of amplitude, phase and/or frequency. For example, in a 64QAM modem, M = 64. In a line code, these may be M different voltage levels.
+By taking information per pulse N in bit/pulse to be the base-2-logarithm of the number of distinct messages M that could be sent, Hartley constructed a measure of the gross bitrate R as:
+
+
+
+
+R
+=
+
+f
+
+s
+
+
+
+log
+
+2
+
+
+⁡
+(
+M
+)
+
+
+{\displaystyle R=f_{s}\log _{2}(M)}
+
+where fs is the baud rate in symbols/second or pulses/second. (See Hartley's law).

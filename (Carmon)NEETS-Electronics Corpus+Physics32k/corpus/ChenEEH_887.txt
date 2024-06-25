@@ -1,0 +1,15 @@
+An alternative way to refer to a clock skew schedule is to
+specify the vector of all clock skews in a circuit corresponding
+to a set of clock delays tcd as speciﬁed above. Denoted by s, the
+vector column of clock skews is s ¼ s1 s2 . . . ]t
+where the
+skews s1, s2, . . . sn of all
+local data paths in the circuit are
+enumerated. Typically, the dimension of s is different from
+the dimension of tcd for the same circuit. If a circuit consists
+of r registers and p local data paths,
+for example, then
+s ¼ s1 . . . sp
+for this circuit. There-
+fore, the clock skew schedule refers to either tcd or s, where
+the precise reference is usually apparent from the context.

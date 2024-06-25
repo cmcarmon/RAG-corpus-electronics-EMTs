@@ -1,0 +1,5 @@
+Assume the liquid exhibits laminar flow. Laminar flow in a round pipe prescribes that there are a bunch of circular layers (lamina) of liquid, each having a velocity determined only by their radial distance from the center of the tube. Also assume the center is moving fastest while the liquid touching the walls of the tube is stationary (due to the no-slip condition).
+To figure out the motion of the liquid, all forces acting on each lamina must be known:
+The pressure force pushing the liquid through the tube is the change in pressure multiplied by the area: F = −A ΔP. This force is in the direction of the motion of the liquid. The negative sign comes from the conventional way we define ΔP = Pend − Ptop < 0.
+Viscosity effects will pull from the faster lamina immediately closer to the center of the tube.
+Viscosity effects will drag from the slower lamina immediately closer to the walls of the tube.

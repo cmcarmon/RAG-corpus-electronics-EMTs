@@ -1,0 +1,13 @@
+Interleaved memory systems found in high-end vector supercomputers are slight variants on the basic complex
+interleaved  memory  system  of  Fig.  88.6.  Such  memory  systems  may  have  hundreds  of  banks,  with  multiple
+memory  controllers  that  allow  multiple  independent  memory  requests  to  be  made  every  clock  cycle.  Two
+examples of modern vector supercomputers are the Cray T-90 series and the NEC SX series. The Cray T-90
+models  come  with  varying  numbers  of  processors—up  to  32  in  the  largest  conﬁguration.  Each  of  these
+processors is coupled with 256 Mbyte of memory, split into 16 banks of 16 Mbyte each. The T-90 has complex
+interleaving among banks. the largest conﬁguration (the T-932) has 32 processors, for a total of 512 banks and
+8 Gbyte of main memory. The T-932 can provide a peak of 800 Gbyte/s bandwidth out of its memory system.
+NEC’s SX-4 product line, their most recent vector supercomputer series, has numerous models. Their largest
+single-node  model  (with  one  processor  per  node)  contains  32  processors,  with  a  maximum  of  8  Gbyte  of
+memory, and a peak bandwidth of 512 Gbyte/s out of main memory. Although the sizes of the memory systems
+are vastly different between workstations and vector machines, the techniques that both use to increase total
+bandwidth and minimize bank conﬂicts are similar.

@@ -1,0 +1,10 @@
+The block diagram of Figure 16.3.3 is a functional representation of a type of digital control
+system, in which G and H serve the same function as in any feedback system. Note that the
+error signal is sampled and a digital processor is used. The controller in this system is the digital
+processor whose output, reconverted to an analog signal, becomes the excitation for the block G.
+As usual, G is the subsystem that provides the output to be controlled. A central computer which
+controls several functions could be used as a digital processor; or a microprocessor (special-
+purpose computer) designed for the particular control function may also be used as a digital
+processor. Large, high-speed computers with their speed, memory, and computational ability,
+as well as programmability, are utilized for central control in large automated manufacturing
+facilities. The control process may be summarized as follows:

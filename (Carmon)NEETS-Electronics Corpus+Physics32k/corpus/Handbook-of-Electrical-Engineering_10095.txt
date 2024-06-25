@@ -1,0 +1,7 @@
+The simple PI-type controller satisﬁes the conservative performance speciﬁcations for the cases tested, but
+does not always use its resources efﬁciently. For example, if the outside air temperature of the HVAC system is
+close to the steady-state reference temperature, it may be more efﬁcient to increase the room volumetric ﬂow
+rate for a period of time in order to reduce the amount of heating or cooling performed by the heat exchanger.
+The  neural  and  PI-type  control  schemes  are  tested  using  initial  conditions T3(0) =  15°C,  a  constant  outside
+temperature of 22°C, and a steady-state reference value of 20°C. The tracking errors and heat exchanger outputs
+for both methods are shown in Figs. 100.68 and 100.69, respectively.

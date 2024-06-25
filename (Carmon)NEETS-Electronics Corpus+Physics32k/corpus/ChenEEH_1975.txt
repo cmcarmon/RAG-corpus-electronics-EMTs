@@ -1,0 +1,6 @@
+then the actual state (pointer to the previous signature) is
+pushed to a WD internal stack and the reference state corres-
+ponding to the called procedure is reached. After an EOP
+signature (return from a procedure call), the original state
+(pointer to the original reference signature) is popped from
+the stack.

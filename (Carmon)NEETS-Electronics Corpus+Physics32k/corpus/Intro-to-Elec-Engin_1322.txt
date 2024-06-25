@@ -1,0 +1,8 @@
+By employing the frequency-domain methods, one can gain insight for signal analysis and easily
+interpret the results. Supposing that x(t) has a low-pass amplitude spectrum, as shown in Figure
+14.2.6(a), the corresponding spectrum of the sampled signal xs(t) is depicted in Figure 14.2.6(b).
+Taking Equation (14.2.7) term by term the ﬁrst term will have the same spectrum as x(t) scaled by
+the factor a0; the second term corresponds to product modulation with a scale factor a1 and carrier
+frequency fs, so that it will have a DSB spectrum over the range fs − W ≤ f ≤ fs + W ; the
+third and all other terms will have the same DSB interpretation with progressively higher carrier
+frequencies 2fs, 3fs, . . . .

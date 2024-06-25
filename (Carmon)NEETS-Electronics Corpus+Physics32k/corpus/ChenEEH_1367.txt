@@ -1,0 +1,10 @@
+Machine-speciﬁc libraries for process creation, remote data
+access, and bulk synchronization have been developed to assist
+BSP programmers. There are native libraries for IBM’s SP2,
+Cray’s T3D, and Silicon Graphics’s Power Challenge and other
+parallel systems. There is also a generic version for any homo-
+geneous parallel Unix machine that has access to PARMACS,
+PVM, TCP/IP, or System V Shared Memory primitives (Poun-
+tain, 1996). These libraries simplify parallel program develop-
+ment: they also facilitate performance estimation for speciﬁc
+parallel machines.

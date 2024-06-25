@@ -1,0 +1,14 @@
+Two important issues in transform coding are the choice of trans-
+formation and the allocation of bits in the quantizer. The most com-
+monly used transform is the discrete cosine transform (DCT). In fact,
+many of the proposed image and video standards utilize the DCT. The
+reasons  for  choosing  a  DCT  include:  its  performance  is  superior  to
+the other fast transforms and is very close to the optimal Karhunen-
+Loeve transform, it produces real-valued transform coefﬁcients, and
+it has good symmetry properties, thus reducing the blocking artifacts
+inherent in block-based algorithms. One way to reduce these artifacts
+is by using a transform whose basis functions are even, i.e., the DCT,
+and another is to use overlapping blocks. For bit allocation, one can
+determine the variance of the transform coefﬁcients and then assign
+the  bits  so  the  distortion  is  minimized. An  example  of  a  typical  bit
+allocation map is shown in Fig. 17.18.

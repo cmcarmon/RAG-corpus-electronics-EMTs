@@ -1,0 +1,9 @@
+Extraction vs. Optimization
+Extraction has the advantage of being much faster than optimization, but it is not always as accurate. It is also
+much harder to supply extraction routines for models that are being developed. Each time you make a change
+in  the  model,  you  must  make  suitable  changes  in  the  corresponding  extraction  routine.  For  optimization,
+however, no changes are necessary other than the change in the model itself, because least-squares curve ﬁtting
+routines are completely general. Also, if anything goes wrong in the extraction algorithm (and no access to the
+source code is available), almost nothing can be done to correct the problem. With optimization, one can always
+change the range of data, weighting, upper and lower bounds, etc. A least-squares curve ﬁtting program can
+be steered toward a correct solution.

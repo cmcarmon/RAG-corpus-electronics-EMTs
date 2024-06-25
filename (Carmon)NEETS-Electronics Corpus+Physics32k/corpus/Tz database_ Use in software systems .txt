@@ -1,0 +1,29 @@
+The tz database is used for time zone processing and conversions in many computer software systems, including:
+BSD-derived systems, including FreeBSD, NetBSD, OpenBSD, DragonFly BSD, and macOS (they also use the reference TZ database processing code as their TZ POSIX API implementation);
+the GNU C Library and systems that use it, including GNU, most Linux distributions, BeOS, Haiku, Nexenta OS, and Cygwin;
+System V Release 4-derived systems, such as Solaris and UnixWare;
+AIX 6.1 and later (earlier versions of AIX, starting with AIX 5.2, include zoneinfo, for support of third-party applications such as MySQL, but do not use it themselves);
+several other Unix systems, including Tru64, and UNICOS/mp (also IRIX, still maintained but no longer shipped);
+OpenVMS;
+the Java Runtime Environment since release 1.4 (2002);
+the Java library Joda-Time;
+the Perl modules DateTime::TimeZone and DateTime::LeapSecond since 2003;
+PHP releases since 5.1.0 (2005);
+the Ruby Gem TZInfo;
+the Python module pytz;
+the JavaScript libraries timezone-js, BigEasy/TimeZone, WallTime-js and moment-timezone;
+the Pandas (Python) module [1];
+the .NET Framework libraries NodaTime, TZ4Net and zoneinfo;
+the Haskell libraries timezone-series and timezone-olson;
+the Erlang module ezic;
+The Go standard library time package;
+The Squeak Smalltalk time package;
+The C++ libraries Boost and Qt;
+The Delphi library TZDB;
+The Free Pascal library PascalTZ;
+Oracle releases since 10g (2004);
+PostgreSQL since release 8.0 (2005);
+the Microsoft SQL Server library SQL Server Time Zone Support
+MongoDB since release 3.6;
+embedded software such as the firmware used in IP clocks.
+The Olson timezone IDs are also used by the Unicode Common Locale Data Repository (CLDR) and International Components for Unicode (ICU). For example, the CLDR Windows–Tzid table maps Microsoft Windows time zone IDs to the standard Olson names.

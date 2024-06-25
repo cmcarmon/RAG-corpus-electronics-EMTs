@@ -1,0 +1,9 @@
+Example 5.7
+Suppose we want to average daily stock prices taken over last year to yield a running weekly
+average (average over ﬁve trading sessions). The ﬁlter we want is a length-5 averager (as shown in
+Figure 5.19), and the input’s duration is 253 (365 calendar days minus weekend days and holidays).
+The output duration will be 253 + 5 − 1 = 257, and this determines the transform length we need
+to use. Because we want to use the FFT, we are restricted to power-of-two transform lengths. We
+need to choose any FFT length that exceeds the required DFT length. As it turns out, 256 is a
+power of two (28 = 256), and this length just undershoots our required length. To use frequency
+domain techniques, we must use length-512 fast Fourier transforms.

@@ -1,0 +1,17 @@
+The most common SAW UDTs are called the three-phase UDT (3PUDT) and the group type UDT (GUDT).
+The 3PUDT has the broadest bandwidth and requires multilevel metal structures with crossovers. The GUDT
+uses a single-level metal but has a narrower unidirectional bandwidth due to its structure. In addition, there
+are  other  UDT  or  equivalent  embodiments  which  can  be  implemented  but  will  not  be  discussed  [Morgan,
+1985].  The  basic  structure  of  a  3PUDT  is  shown  in  Fig. 47.8.  A  unit  cell  consists  of  three  electrodes,  each
+connected to a separate bus bar, where the electrode period is l0/3. One bus bar is grounded and the other two
+bus bars will be driven by an electrical network where V1 = V2 — 60(cid:176). The transducer analysis can be accom-
+plished similar to a simple IDT by considering the 3PUDT as three collinear IDTs with a spatial phase shift, as
+shown  in  Fig. 47.8.  The  electrical  phasing  network,  typically  consisting  of  one  or  two  reactive  elements,  in
+conjunction  with  the  spatial  offset  results  in  energy  being  launched  in  only  one  direction  from  the  SAW
+transducer. The transducer can then be matched to the required load impedance with one or two additional
+reactive elements. The effective unidirectional bandwidth of the 3PUDT is typically 20% or less, beyond which
+the  transducer  behaves  as  a  normal  bidirectional  transducer.  Figure  47.9  shows  a  3PUDT  ﬁlter  schematic
+consisting of two transducers and their associated matching and phasing networks. The overall ﬁlter must be
+analyzed with all external electrical components in place for accurate prediction of performance. The external
+components  can  be  miniaturized  and  may  be  fabricated  using  only  printed  circuit  board  material  and  area.
+This type of device has demonstrated as low as 2 dB insertion loss.

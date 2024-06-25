@@ -1,0 +1,2 @@
+The density at a site can be found by counting the number of particles at each site. If the particles are multiplied with the unit velocity before being summed, one can obtain the momentum at the site.
+However, calculating density, momentum, and velocity for individual sites is subject to a large amount of noise, and in practice, one would average over a larger region to obtain more reasonable results. Ensemble averaging is often used to reduce the statistical noise further.

@@ -1,0 +1,9 @@
+Note that in general, a and b are chosen to be the smallest
+numbers such that H(k) has as large row and column ranks
+are possible. Additional suggestions to determine their optimal
+values are given in Juang (1994). Let the singular value decom-
+position of H(0) be H(0) ¼ U SV T , and let n denote the index
+where the singular values have the largest drop in magnitude.
+Then, H(0) can be approximated by:
+H(0)  UnSnV T
+n ,

@@ -1,0 +1,242 @@
+FTLE ridges have proven to be a simple and efficient tool for the visualize hyperbolic LCSs in a number of physical problems, yielding intriguing images of initial positions of hyperbolic LCSs in different applications (see, e.g., Figs. 5a-b). However, FTLE ridges obtained over sliding time windows
+
+
+
+[
+
+t
+
+0
+
+
++
+T
+,
+
+t
+
+1
+
+
++
+T
+]
+
+
+{\displaystyle [t_{0}+T,t_{1}+T]}
+do not form material surfaces. Thus, ridges of
+
+
+
+
+
+F
+T
+L
+E
+
+
+
+t
+
+0
+
+
++
+T
+
+
+
+t
+
+1
+
+
++
+T
+
+
+(
+
+x
+
+0
+
+
+)
+
+
+{\displaystyle \mathrm {FTLE} _{t_{0}+T}^{t_{1}+T}(x_{0})}
+under varying
+
+
+
+T
+
+
+{\displaystyle T}
+cannot be used to define Lagrangian objects, such as hyperbolic LCSs. Indeed, a locally strongest repelling material surface over
+
+
+
+[
+
+t
+
+0
+
+
+,
+
+t
+
+1
+
+
+]
+
+
+{\displaystyle [t_{0},t_{1}]}
+will generally not play the same role over
+
+
+
+[
+
+t
+
+0
+
+
++
+T
+,
+
+t
+
+1
+
+
++
+T
+]
+
+
+{\displaystyle [t_{0}+T,t_{1}+T]}
+and hence its evolving position at time
+
+
+
+
+t
+
+0
+
+
++
+T
+
+
+{\displaystyle t_{0}+T}
+will not be a ridge for
+
+
+
+
+
+F
+T
+L
+E
+
+
+
+t
+
+0
+
+
++
+T
+
+
+
+t
+
+1
+
+
++
+T
+
+
+
+
+{\displaystyle \mathrm {FTLE} _{t_{0}+T}^{t_{1}+T}}
+. Nonetheless, evolving second-derivative FTLE ridges computed over sliding intervals of the form
+
+
+
+[
+
+t
+
+0
+
+
++
+T
+,
+
+t
+
+1
+
+
++
+T
+]
+
+
+{\displaystyle [t_{0}+T,t_{1}+T]}
+have been identified by some authors broadly with LCSs. In support of this identification, it is also often argued that the material flux over such sliding-window FTLE ridges should necessarily be small.
+The "FTLE ridge=LCS" identification, however, suffers form the following conceptual and mathematical problems:
+Second-derivative FTLE ridges are necessarily straight lines and hence do not exist in physical problems.
+FTLE ridges computed over sliding time windows
+
+
+
+[
+
+t
+
+0
+
+
++
+T
+,
+
+t
+
+1
+
+
++
+T
+]
+
+
+{\displaystyle [t_{0}+T,t_{1}+T]}
+with a varying
+
+
+
+T
+
+
+{\displaystyle T}
+are generally not Lagrangian and the flux through them is generally not small.
+In particular, a broadly referenced material flux formula for FTLE ridges is incorrect, even for straight FTLE ridges
+FTLE ridges mark hyperbolic LCS positions, but also highlight surfaces of high shear. A convoluted mixture of both types of surfaces often arises in applications (see Fig. 6 for an example).
+There are several other types LCSs (elliptic and parabolic) beyond the hyperbolic LCSs highlighted by FTLE ridges

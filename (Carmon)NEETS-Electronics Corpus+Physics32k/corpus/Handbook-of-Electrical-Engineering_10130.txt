@@ -1,0 +1,4 @@
+A redundant manipulator contains more than six DOF.
+ is a location in the workspace of the manipulator at which the robot loses one or
+more DOF in Cartesian space, i.e., there is some direction (or directions) in Cartesian space along which
+it is impossible to move the robot end-effector no matter which robot joints are moved.

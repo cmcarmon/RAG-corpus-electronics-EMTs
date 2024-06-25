@@ -1,0 +1,9 @@
+Example 13.3.
+  Figure  13.7  shows  the  phase-locked  loop  circuit.  The  phase
+detector and voltage-controlled oscillator are modeled in separate subcircuits. Examine the VCO subcircuit and
+note the PULSE-type current source ISTART connected across the capacitor. The source gives a current pulse
+03.E-6 s wide at the start of the simulation to start the VCO running. To start a transient simulation SPICE
+ on the capacitors). As this DC point is a
+ﬁrst computes a DC operating point (to ﬁnd the initial voltages 
+valid, although not necessarily stable, solution, an oscillator will remain at this point indeﬁnitely unless some
+perturbation is applied to start the oscillations. Remember, this is an ideal mathematical model and no noise

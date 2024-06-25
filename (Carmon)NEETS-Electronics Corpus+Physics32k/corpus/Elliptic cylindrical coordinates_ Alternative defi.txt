@@ -1,0 +1,334 @@
+An alternative and geometrically intuitive set of elliptic coordinates
+
+
+
+(
+σ
+,
+τ
+,
+z
+)
+
+
+{\displaystyle (\sigma ,\tau ,z)}
+are sometimes used, where
+
+
+
+σ
+=
+cosh
+⁡
+μ
+
+
+{\displaystyle \sigma =\cosh \mu }
+and
+
+
+
+τ
+=
+cos
+⁡
+ν
+
+
+{\displaystyle \tau =\cos \nu }
+. Hence, the curves of constant
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+are ellipses, whereas the curves of constant
+
+
+
+τ
+
+
+{\displaystyle \tau }
+are hyperbolae. The coordinate
+
+
+
+τ
+
+
+{\displaystyle \tau }
+must belong to the interval [-1, 1], whereas the
+
+
+
+σ
+
+
+{\displaystyle \sigma }
+coordinate must be greater than or equal to one.
+The coordinates
+
+
+
+(
+σ
+,
+τ
+,
+z
+)
+
+
+{\displaystyle (\sigma ,\tau ,z)}
+have a simple relation to the distances to the foci
+
+
+
+
+F
+
+1
+
+
+
+
+{\displaystyle F_{1}}
+and
+
+
+
+
+F
+
+2
+
+
+
+
+{\displaystyle F_{2}}
+. For any point in the (x,y) plane, the sum
+
+
+
+
+d
+
+1
+
+
++
+
+d
+
+2
+
+
+
+
+{\displaystyle d_{1}+d_{2}}
+of its distances to the foci equals
+
+
+
+2
+a
+σ
+
+
+{\displaystyle 2a\sigma }
+, whereas their difference
+
+
+
+
+d
+
+1
+
+
+−
+
+d
+
+2
+
+
+
+
+{\displaystyle d_{1}-d_{2}}
+equals
+
+
+
+2
+a
+τ
+
+
+{\displaystyle 2a\tau }
+. Thus, the distance to
+
+
+
+
+F
+
+1
+
+
+
+
+{\displaystyle F_{1}}
+is
+
+
+
+a
+(
+σ
++
+τ
+)
+
+
+{\displaystyle a(\sigma +\tau )}
+, whereas the distance to
+
+
+
+
+F
+
+2
+
+
+
+
+{\displaystyle F_{2}}
+is
+
+
+
+a
+(
+σ
+−
+τ
+)
+
+
+{\displaystyle a(\sigma -\tau )}
+. (Recall that
+
+
+
+
+F
+
+1
+
+
+
+
+{\displaystyle F_{1}}
+and
+
+
+
+
+F
+
+2
+
+
+
+
+{\displaystyle F_{2}}
+are located at
+
+
+
+x
+=
+−
+a
+
+
+{\displaystyle x=-a}
+and
+
+
+
+x
+=
++
+a
+
+
+{\displaystyle x=+a}
+, respectively.)
+A drawback of these coordinates is that they do not have a 1-to-1 transformation to the Cartesian coordinates
+
+
+
+
+x
+=
+a
+σ
+τ
+
+
+{\displaystyle x=a\sigma \tau }
+
+
+
+
+
+
+y
+
+2
+
+
+=
+
+a
+
+2
+
+
+
+(
+
+
+σ
+
+2
+
+
+−
+1
+
+)
+
+
+(
+
+1
+−
+
+τ
+
+2
+
+
+
+)
+
+
+
+{\displaystyle y^{2}=a^{2}\left(\sigma ^{2}-1\right)\left(1-\tau ^{2}\right)}

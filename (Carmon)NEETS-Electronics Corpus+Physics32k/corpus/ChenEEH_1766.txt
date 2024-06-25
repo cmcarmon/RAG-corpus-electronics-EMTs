@@ -1,0 +1,13 @@
+Multicasting is relatively easier to achieve for one-way com-
+munication than for two-way communication. For example, in
+the case of Internet radio, multicasting can be achieved by
+creating a spanning tree consisting of the sender at the root
+and the receiver at the leaves as well as replicating packets over
+all links that reach the receivers. In the case of two-way com-
+munication like Internet telephony among multiple parties,
+however, some form of audio mixing functionality is required
+that mixes the audios from all participants and only relays the
+correct information. Without this audio mixer, a two-way
+communication channel needs to be established between
+each participant in an all-to-all mesh fashion, which may
+amount to waste of bandwidth.

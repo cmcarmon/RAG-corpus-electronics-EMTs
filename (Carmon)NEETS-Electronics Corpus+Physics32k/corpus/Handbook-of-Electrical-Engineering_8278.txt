@@ -1,0 +1,15 @@
+Test Pattern Generation
+Test pattern
+ generation is the process of generating a (minimal) set of input patterns to stimulate the inputs
+of a circuit such that detectable faults can be exercised (if present) [Abramovici et al., 1992]. The process can
+be divided in two distinct phases: (1) derivation of a test and (2) application of a test. For (1), one must ﬁrst
+select appropriate models for the circuit (gate or transistor level) and for faults; one must construct the test
+such that the output signal from a faulty circuit is different from that of a good circuit. This can be computa-
+tionally very expensive, but one must remember that the process is done only once at the end of the design
+stage. The generation of a test set can be obtained either by manual methods, by algorithmic methods (with
+or without heuristics), or by pseudo-random methods. On the other hand, for (2), a test is subsequently applied
+many times to each IC and thus must be efﬁcient both in space (storage requirements for the patterns) and in
+time.  Often  such  a  set  is  not  minimal,  as  near  minimality  may  be  sufﬁcient.  The  main  considerations  in
+evaluating a test set are the time to construct a minimal test set; the size of the test pattern generator, i.e., the
+software or hardware module used to stimulate the circuit under test; the size of the test set itself; the time to
+load the test patterns; and the equipment required (if external) or the BIST overhead.

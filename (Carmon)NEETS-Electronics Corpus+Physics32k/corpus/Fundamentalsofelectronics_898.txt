@@ -1,0 +1,8 @@
+Introducing code bits increases the probability that any bit arrives in error (because bit interval durations
+decrease). However, using a well-designed error-correcting code corrects bit reception errors. Do we win or
+lose by using an error-correcting code? The answer is that we can win if the code is well-designed. The (3,1)
+repetition code demonstrates that we can lose (Exercise 6.28). To develop good channel coding, we need to
+develop ﬁrst a general framework for channel codes and discover what it takes for a code to be maximally
+eﬃcient: Correct as many errors as possible using the fewest error correction bits as possible (making the
+eﬃciency K/N as large as possible.) We also need a systematic way of ﬁnding the codeword closest to any
+received data word. A much better code than our (3,1) repetition code is the following (7,4) code.

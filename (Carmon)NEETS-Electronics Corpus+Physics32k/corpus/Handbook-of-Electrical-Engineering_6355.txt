@@ -1,0 +1,10 @@
+The  channel  encoder  uses  sophisticated  modulating  techniques  to  accomplish  the  goals  of  interference
+cancellation and high spectral efﬁciency. Methods of interference cancellation include expansion of time and
+frequency diversity of the transmitted information, as well as the inclusion of error correction codes in the data
+stream.  Time  diversity  involves  transmitting  the  same  information  multiple  times  by  using  a  predetermined
+time interval. Frequency diversity, such as that produced by spread-spectrum, multiple-carrier, or frequency-
+hopping  systems,  provides  the  means  to  transmit  identical  data  on  several  different  frequencies  within  the
+bandwidth of the system. At the receiver, real-time mathematical processes are used to locate the required data
+on a known frequency at a known time. If the initial information is found to be unusable because of signal
+interference,  the  receiver  simply  uses  the  same  data  found  on  another  frequency  and/or  at  another  time,
+producing seamless demodulation.

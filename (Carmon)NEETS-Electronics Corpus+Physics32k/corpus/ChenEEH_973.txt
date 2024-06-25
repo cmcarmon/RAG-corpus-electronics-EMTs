@@ -1,0 +1,8 @@
+Step 4. The circuit graph is traversed to determine the edges
+in the skew basis sb and in the skew chords sc. This
+graph traversal is accomplished by using a depth-ﬁrst
+search (West, 1996; Reingold et al., 1997; Cormen
+et al., 1989) algorithm—the classical traversal algo-
+rithm of choice for building a spanning tree. Three
+additional important tasks are accomplished during
+the traversal step:

@@ -1,0 +1,12 @@
+By using the constant matrices B and B in equation 7.60, the
+time taken for evaluating one iteration for the fast decoupled
+algorithm is considerably less than that of
+the Newton-
+Raphson algorithm. In repeated power ﬂow runs of the same
+power system, the inverses of the matrices B and B can directly
+be stored, which enables the implementation to be very fast.
+However, the convergence speed of the fast decoupled algo-
+rithm is not quadratic, and it takes considerably more iter-
+ations to converge to an accurate power ﬂow solution. Fast
+decoupled algorithm is used in applications where quick
+approximate estimates of power ﬂow solutions are required.

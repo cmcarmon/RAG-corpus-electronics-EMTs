@@ -1,0 +1,10 @@
+Figure 6.3.1 illustrates the basic organization of a digital computer. The MU stores both data
+and programs that are currently processed and executed. The ALU processes the data obtained
+from the MU and/or input devices, and puts the processed data back into the MU and/or output
+devices. The CU coordinates the operations of the MU, ALU, and I/O units. While retrieving
+instructions from programs resident in the MU, the CU decodes these instructions and directs the
+ALU to perform the corresponding processing; it also oversees the I/O operations. Input devices
+may consist of card readers, keyboards, magnetic tape readers, and A/D converters; output devices
+may consist of line printers, plotters, and D/A converters. Devices such as terminals and magnetic
+disk drives have both input and output capabilities. For communicating with the external world
+and for storing large quantities of data, a variety of I/O devices are used.

@@ -1,0 +1,12 @@
+The  beneﬁt  offered  by  the  CrossCheck  technique  is  due  to  the  potential  for  the  reduced  number  of  test
+patterns necessary to test an ASIC. This is due to the fact that as observability of internal nodes is increased it
+becomes easier to generate efﬁcient test patterns which can detect many faults simultaneously. Furthermore,
+increased observability of internal nodes also improves diagnosability and may help determine the root cause
+of a failure sooner. On the negative side, the CrossCheck technique does not help improve controllability of
+internal nodes as achieved using scan-path techniques. Also, a primary disadvantage of the CrossCheck meth-
+odology  is  area  penalty  due  to  routing  channels  that  must  be  set  aside  for  the  grid  structure.  Furthermore,
+added capacitance of the cross-point switches may affect performance, especially in high-speed applications.
+In addition, since the technique offers very good observability but no controllability of the internal nodes, it
+lacks the advantage offered by scan-based approaches for system debug and internal path-delay testing [Der-
+visoglu and Stong, 1991]. However, recent advances have been made that improve the controllability of internal
+nodes using the CrossCheck technique in gate-array ICs.

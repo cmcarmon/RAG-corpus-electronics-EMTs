@@ -1,0 +1,8 @@
+Locking is one of the most popular approachs to achieving serializability. Locking is the process of ensuring
+that some actions are not performed on a data item. Therefore, a transaction may request a lock on a data item
+to prevent it from being either accessed or modiﬁed by other transactions. There are two basic types of locks.
+A shared lock allows other transactions to read but not write to the data item. An exclusive lock allows only a
+single transaction to read and write a data item. To achieve a high degree of concurrency, the locked data item
+size must be as small as possible. A data item can range from the whole database to a particular ﬁeld in a record.
+Large  data  items  limit  concurrency,  while  small  data  items  result  in  a  large  storage  overhead  and  a  greater
+number of lock and unlock operations that the system will have to handle.

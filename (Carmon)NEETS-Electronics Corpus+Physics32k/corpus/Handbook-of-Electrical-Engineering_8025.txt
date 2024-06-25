@@ -1,0 +1,6 @@
+The most important support software for a designer is programs for checking the system, both for logical
+ﬂow and for cycle-by-cycle activity. Often subtle errors and data dependencies will occur; ﬁnding them may
+be a daunting task. Simulators are the ﬁrst-level checkout tools for programs. Simulators do not use the actual
+hardware; rather they use a software model of it. They calculate and show the contents of all computer registers,
+of ports and selected memory locations, so that an effective check of the internal operations can be made. Most
+simulators are from third-party vendors.

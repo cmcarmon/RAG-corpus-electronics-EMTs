@@ -1,0 +1,9 @@
+where p denotes a step in the parameter space and where
+Fk, gk, and Gk denote the value, gradient, and Hessian of the
+objective function at uk. Equation 6.22 indicates that to ﬁnd a
+local minimum of the objective function, an iterative searching
+procedure is required. The celebrated Newton’s method is
+deﬁned by choosing the step p ¼ pk so that uk þ pk
+is a
+stationary point of the quadratic model in 6.22. This amounts
+to solving the following linear equation:

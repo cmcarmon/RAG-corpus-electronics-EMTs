@@ -1,0 +1,10 @@
+Figure 5.5 shows the transcoding of the image without using
+transcoding hints. In this case, the original image is adapted to
+the screen sizes by globally rescaling the image to ﬁt the screen.
+The drawback of this type of adaptation is that the image
+details are lost when the size of the output image is small.
+For example, it is difﬁcult to discern any details from the image
+displayed on the PDA screen (far right). The result is an equal
+loss of detail for all regions including those important regions,
+which results in a lower overall content value of the image for a
+display size.

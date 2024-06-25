@@ -1,0 +1,3 @@
+Unlike the VAX and Sparc compilers, the 68000 compiler assigns variables to registers in both the unoptimized
+and  unoptimized  options;  these  assignments  are  depicted  in  Figs.  87.7  and  87.8.  Since  there  are  only  eight
+general-purpose data registers in the 68000 and two are assigned as scratch pads, only six of the program’s ten

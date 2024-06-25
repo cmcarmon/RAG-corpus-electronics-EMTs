@@ -1,0 +1,6 @@
+Doing an example will make computational savings more obvious. Let’s look at the details of a length-8
+DFT. As shown on Figure 5.13, we ﬁrst decompose the DFT into two length-4 DFTs, with the outputs added
+and subtracted together in pairs. Considering Figure 5.13 as the frequency index goes from 0 through 7,
+we recycle values from the length-4 DFTs into the ﬁnal calculation because of the periodicity of the DFT
+output. Examining how pairs of outputs are collected together, we create the basic computational element
+known as a butterﬂy(Figure 5.13).

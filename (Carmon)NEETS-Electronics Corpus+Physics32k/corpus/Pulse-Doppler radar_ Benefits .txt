@@ -1,0 +1,102 @@
+Rejection speed is selectable on pulse-Doppler aircraft-detection systems so nothing below that speed will be detected. A one degree antenna beam illuminates millions of square feet of terrain at 10 miles (16 km) range, and this produces thousands of detections at or below the horizon if Doppler is not used.
+Pulse-Doppler radar uses the following signal processing criteria to exclude unwanted signals from slow-moving objects. This is also known as clutter rejection. Rejection velocity is usually set just above the prevailing wind speed (10 to 100 mile/hour or 15 to 150 km/hour). The velocity threshold is much lower for weather radar.
+
+
+
+
+
+|
+
+
+
+
+Doppler frequency
+
+×
+C
+
+
+2
+×
+
+transmit frequency
+
+
+
+
+|
+
+>
+
+velocity  threshold
+
+.
+
+
+{\displaystyle \left\vert {\frac {{\text{Doppler frequency}}\times C}{2\times {\text{transmit frequency}}}}\right\vert >{\text{velocity  threshold}}.}
+
+In airborne pulse-Doppler radar, the velocity threshold is offset by the speed of the aircraft relative to the ground.
+
+
+
+
+
+|
+
+
+
+
+
+Doppler frequency
+
+×
+C
+
+
+2
+×
+
+transmit frequency
+
+
+
+
+−
+
+ground speed
+
+×
+cos
+⁡
+Θ
+
+|
+
+>
+
+velocity threshold
+
+,
+
+
+{\displaystyle \left\vert {\frac {{\text{Doppler frequency}}\times C}{2\times {\text{transmit frequency}}}}-{\text{ground speed}}\times \cos \Theta \right\vert >{\text{velocity threshold}},}
+
+where
+
+
+
+Θ
+
+
+{\displaystyle \Theta }
+is the angle offset between the antenna position and the aircraft flight trajectory.
+Surface reflections appear in almost all radar. Ground clutter generally appears in a circular region within a radius of about 25 miles (40 km) near ground-based radar. This distance extends much further in airborne and space radar. Clutter results from radio energy being reflected from the earth surface, buildings, and vegetation. Clutter includes weather in radar intended to detect and report aircraft and spacecraft.
+Clutter creates a vulnerability region in pulse-amplitude time-domain radar. Non-Doppler radar systems cannot be pointed directly at the ground due to excessive false alarms, which overwhelm computers and operators. Sensitivity must be reduced near clutter to avoid overload. This vulnerability begins in the low-elevation region several beam widths above the horizon, and extends downward. This also exists throughout the volume of moving air associated with weather phenomenon.
+Pulse-Doppler radar corrects this as follows.
+Allows the radar antenna to be pointed directly at the ground without overwhelming the computer and without reducing sensitivity.
+Fills in the vulnerability region associated with pulse-amplitude time-domain radar for small object detection near terrain and weather.
+Increases detection range by 300% or more in comparison to moving target indication (MTI) by improving sub-clutter visibility.
+Clutter rejection capability of about 60 dB is needed for look-down/shoot-down capability, and pulse-Doppler is the only strategy that can satisfy this requirement. This eliminates vulnerabilities associated with the low-elevation and below-horizon environment.
+Pulse compression, and moving target indicator (MTI) provide up to 25 dB sub-clutter visibility. MTI antenna beam is aimed above horizon to avoid excessive false alarm rate, which renders systems vulnerable. Aircraft and some missiles exploit this weakness using a technique called flying below the radar to avoid detection (Nap-of-the-earth). This flying technique is ineffective against pulse-Doppler radar.
+Pulse-Doppler provides an advantage when attempting to detect missiles and low observability aircraft flying near terrain, sea surface, and weather.
+Audible Doppler and target size support passive vehicle type classification when identification friend or foe is not available from a transponder signal. Medium pulse repetition frequency (PRF) reflected microwave signals fall between 1,500 and 15,000 cycle per second, which is audible. This means a helicopter sounds like a helicopter, a jet sounds like a jet, and propeller aircraft sound like propellers. Aircraft with no moving parts produce a tone. The actual size of the target can be calculated using the audible signal.

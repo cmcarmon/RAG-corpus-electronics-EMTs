@@ -1,0 +1,14 @@
+We now focus on the transmission of digital data over a base-
+band channel. Digital data have a broad spectrum with a
+signiﬁcant low-frequency content. Baseband transmission of
+digital data requires the use of a low-pass channel with a
+bandwidth large enough to include the essential frequency
+content of the data stream. The channel is dispersive in that
+its frequency response deviates from that of an ideal low-pass
+ﬁlter. The result of data transmission over such a channel is
+that each received pulse is affected somewhat by adjacent
+pulses, thereby giving rise to intersymbol interference (ISI).
+ISI is a major source of bit errors in the reconstructed data
+stream at the receiver output. Another source of bit errors in a
+baseband data transmission system is the ubiquitous channel
+noise. Noise and ISI arise in the system simultaneously.

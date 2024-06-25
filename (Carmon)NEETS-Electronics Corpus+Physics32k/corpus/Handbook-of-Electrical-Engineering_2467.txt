@@ -1,0 +1,14 @@
+The dynamic drain-to-source conductance is deﬁned as gds = dID S /dVDS and can be obtained from the modiﬁed
+transfer equation IDS = IDSS [1 – (VG S /VP)]2 [1 + VD S /VA] as simply gds = ID S /VA. The reciprocal of gds is dynamic
+drain-to-source resistance rds , so rds = 1/gds = VA /IDS. If, for example, VA = 100 V, we have that rds = 100 V/IDS.
+At IDS = 1 mA, rds = 100 V/1 mA = 100 kW, and at IDS = 10 mA, rds = 10 kW.
+Equivalent Circuit Model of CS Ampliﬁer Stage
+A small-signal equivalent circuit model of a CS FET ampliﬁer stage is shown in Fig. 24.15. The ac small-signal
+**RL] is the net load driven by the drain for the
+voltage gain is given by AV = –gm · Rnet, where Rnet = [rds
+**RL], it
+FET and includes the dynamic drain-to-source resistance rds. Since rds is generally much larger than [RD
+**RL], and rds can be neglected. There are, however, some cases in which
+will usually be the case that Rnet @ [RD
+rds must be taken into account. This is especially true for the case in which an active load is used, as shown in
+Fig. 24.16. For this case Rnet = [rds1

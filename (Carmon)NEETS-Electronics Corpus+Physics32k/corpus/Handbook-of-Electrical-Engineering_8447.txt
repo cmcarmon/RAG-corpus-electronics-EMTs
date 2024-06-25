@@ -1,0 +1,4 @@
+Also, the mantissa F is represented in sign-magnitude from. The normalized format for a 32-bit ﬂoating-point
+number in binary, which agrees with the IEEE standard [IEEE, 1985], is shown in Fig. 86.1. Here, the sign bit
+(1  if  negative  or  0  if  positive)  is  placed  at  bit  position  0  to  indicate  the  sign  of  the  fraction.  Notice  that  the
+radix point is assumed to lie between bit positions 8 and 9 to separate the  E bit-ﬁeld from the F bit-ﬁeld.

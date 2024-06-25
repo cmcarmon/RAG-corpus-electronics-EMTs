@@ -1,0 +1,9 @@
+Astable multivibrator (oscillator)
+The 555 can behave as an astable multivibrator, which is just a fancy term 
+to describe a sort of electronic metronome. By connecting components 
+to the chip (as shown in Figure 11-15), you configure the 555 to produce a 
+ continuous series of voltage pulses that automatically alternate between low 
+(0 volts) and high (the positive supply voltage, VCC), as shown in Figure 11-16. 
+(The term astable refers to the fact that this circuit does not settle down into 
+a stable state, but keeps changing on its own between two different states.) 
+This self‐triggering circuit is also known as an oscillator.

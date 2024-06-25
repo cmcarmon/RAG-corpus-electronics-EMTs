@@ -1,0 +1,26 @@
+Monostable pulse generator 
+ 
+Figure  12.3  shows  a  standard  555  timer  operating 
+as a monostable pulse generator. The monostable 
+timing period (i.e. the time for which the output is 
+high)  is  initiated  by  a  falling  edge  trigger  pulse 
+applied to the trigger input (pin-2), see Fig. 12.4. 
+  When  this  falling  edge  trigger  pulse  is  received 
+and falls below one-third of the supply voltage, the 
+output  of  IC2  goes  high  and  the  bistable  will  be 
+placed in the set state. The inverted Q output of the 
+bistable  then  goes  low, TR1  is  placed  in  the  off 
+(non-conducting) state and the output voltage (pin-
+3) goes high. 
+  The capacitor, C, then charges through the series 
+resistor, R, until the voltage  at the threshold input 
+reaches  two-thirds  of  the  supply  voltage  (Vcc).  At 
+this  point,  the  output  of  the  upper  comparator 
+changes state and the bistable is reset. The inverted 
+Q output  then  goes  high,  TR1  is  driven  into 
+conduction  and  the  final  output  goes  low. The 
+device  then  remains  in  the  inactive  state  until 
+another falling trigger pulse is received. 
+  The  trigger  and  output  waveforms  produced  by 
+the circuit of Fig. 12.3 are shown in Fig. 12.4. The 
+waveform has the following properties: 

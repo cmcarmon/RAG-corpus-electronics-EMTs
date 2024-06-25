@@ -1,0 +1,13 @@
+The Y combinator is an implementation of a fixed-point combinator in lambda calculus. Fixed-point combinators may also be easily defined in other functional and imperative languages. The implementation in lambda calculus is more difficult due to limitations in lambda calculus.
+The fixed combinator may be used in a number of different areas,
+General mathematics
+Untyped lambda calculus
+Typed lambda calculus
+Functional programming
+Imperative programming
+Fixed point combinators may be applied to a range of different functions, but normally will not terminate unless there is an extra parameter. When the function to be fixed refers to its parameter, another call to the function is invoked, so the calculation never gets started. Instead, the extra parameter is used to trigger the start of the calculation.
+The type of the fixed point is the return type of the function being fixed. This may be a real or a function or any other type.
+In the untyped lambda calculus, the function to apply the fix point combinator to may be expressed using an encoding, like Church encoding. In this case particular lambda terms (which define functions) are considered as values. "Running" (beta reducing) the fixed point combinator on the encoding gives a lambda term for the result which may then be interpreted as fixed point value.
+Alternately a function may be considered as a lambda term defined purely in lambda calculus.
+These different approaches affect how a mathematician and a programmer may regard a fixed point combinator. A lambda calculus mathematician may see the Y combinator applied to a function as being an expression satisfying the fixed point equation, and therefore a solution.
+In contrast a person only wanting to apply a fixed point combinator to some general programming task may see it only as a means of implementing recursion.

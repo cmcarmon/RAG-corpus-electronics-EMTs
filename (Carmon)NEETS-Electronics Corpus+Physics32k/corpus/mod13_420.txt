@@ -1,0 +1,3 @@
+To begin the operation, we apply a reset pulse to the RESET input of all the FFs, clearing the Q
+outputs to LOWs. This step ensures against any erroneous data transfer that would occur because of the
+states of FF2 and FF4.

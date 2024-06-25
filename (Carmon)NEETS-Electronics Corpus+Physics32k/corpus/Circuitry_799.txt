@@ -1,0 +1,15 @@
+program is as follows: 
+CE AMPLIFIER 
+VCC  5  0  -5 
+VIN  1  0  AC 1 
+R1  1  2  10K 
+R2  3  5  1K 
+R3  2  3  1M 
+Q1  3  2  0  MOD1 
+MODEL  MOD1  PNP  BF=75  VAF=50 
+IS=1.E-12 RB=100 CJC=.5PF TF=.6NS 
+.TF V(5) VIN 
+.AC DEC 10 1 10MEG 
+.END 
+Sketch  the  corresponding  circuit  diagram 
+and label the nodes. 

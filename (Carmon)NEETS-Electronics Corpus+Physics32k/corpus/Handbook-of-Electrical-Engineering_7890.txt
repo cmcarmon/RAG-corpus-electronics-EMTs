@@ -1,0 +1,11 @@
+Notice  that  in  general  more  combinational  logic  gates  will  be  required  for  D  ﬂip-ﬂop  implementations
+compared  to  J-K  ﬂip-ﬂop  implementations  of  the  same  synchronous  sequential  function.  Using  a  registered
+PAL  such  as  a  PAL16RP4A  would  only  require  one  IC  package  to  implement  the  circuit  in  Fig. 81.24.  The
+PAL16RP4A has four edge-triggered D ﬂip-ﬂops in its output section, of which only two are required for this design.
+Generally  speaking,  synchronous  sequential  logic  circuits  can  be  designed  much  more  easily  (considering
+design time as the criteria) than fundamental-mode asynchronous sequential logic circuits. With a system clock
+and edge-triggered ﬂip-ﬂops, a designer does not have to worry about hazards or glitches (momentary error
+conditions that occur at the outputs of combinational logic circuits), since outputs are allowed to become stable
+before the next clock edge occurs. Thus, sequential logic circuit designs allow the use of combinational hazardous
+circuits as well as the use of arbitrary state assignments, provided the resulting combinational logic gate count
+or package count is acceptable.

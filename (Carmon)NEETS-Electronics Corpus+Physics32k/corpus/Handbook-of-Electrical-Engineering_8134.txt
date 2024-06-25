@@ -1,0 +1,6 @@
+Figure  83.18  illustrates  the  additional  complexity  that  would  be  required  by  even  a  simple  multiplexed
+addressing  system.  The  backplane  and  segment  drivers  might  correspond  to  rows  and  columns  of  a  dot
+matrix,  as  implied  in  the  diagram,  or  the  backplanes  may  identify  speciﬁc  characters  of  an  alphanumeric
+display. Calculating the rms values of the difference voltages shown gives 0.42 Vtc for the on pixels and 0.24
+Vtc for off, from which Vtc can be calculated for reliable operation if the critical voltage is known for the LCD
+to be used.

@@ -1,0 +1,6 @@
+Figure 72.1 also shows the individual subﬁelds of the cell header. The ﬁrst ﬁeld, called generic ﬂow control
+(GFC), is only available at the user-network interface (UNI). Its main purpose is media access control in shared
+medium conﬁgurations (LAN-like conﬁgurations) within the customer premises [Göldner and Huber, 1991].
+The proposed GFC procedures are based either on the distributed queue algorithm or the reset timer control
+mechanism [Händel and Huber, 1991a]. At the network-node interface (NNI) these bits are part of the virtual
+path identiﬁer (VPI).

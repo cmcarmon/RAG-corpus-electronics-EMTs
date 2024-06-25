@@ -1,0 +1,3 @@
+For ideal low-pass, high-pass, bandpass, and band-reject frequency-selective ﬁlters, the integral can be solved
+in closed form. The impulse response of the ﬁlter is then found by multiplying this ideal impulse response with
+a window w(n) that is identically zero for n < 0 and for n >  N:

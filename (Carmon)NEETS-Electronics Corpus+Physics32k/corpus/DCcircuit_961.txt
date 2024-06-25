@@ -1,0 +1,6 @@
+ER3 = I3R3 = (1 A)(1 Ω) = 1 V
+Let us now analyze this network using SPICE to verify our voltage ﬁgures.[2] We could ana-
+lyze current as well with SPICE, but since that requires the insertion of extra components into
+the circuit, and because we know that if the voltages are all the same and all the resistances
+are the same, the currents must all be the same, I’ll opt for the less complex analysis. Here’s a
+re-drawing of our circuit, complete with node numbers for SPICE to reference:

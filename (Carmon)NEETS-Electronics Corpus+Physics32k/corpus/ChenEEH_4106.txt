@@ -1,0 +1,15 @@
+The digital signals that are generated in the process of trans-
+mitting voice, data, and signaling information are generated at
+low data rates. These data rates, typically 1 to 50 kbps, are low
+enough in frequency that their transmission directly from the
+transmitter to the receiver would require antennas that are
+thousands of meters long. Furthermore, the signals from one
+transmitter would interfere with the signals from another
+transmitter if they all used the same frequency band. There-
+fore, the baseband signals are modulated onto a radio fre-
+quency carrier for transmission from the transmitter to the
+receiver. The radio environment at 800 to 2000 MHz is hostile.
+We must therefore choose modulation methods that are robust
+in this hostile environment. In addition to the modulation
+methods, we must also choose encoding algorithms that im-
+prove the performance of the system.

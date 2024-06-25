@@ -1,0 +1,9 @@
+Particularly  in  missile  telemetry,  it  is  important  that  multiple  measurements  be  transmitted  over  a  single
+carrier  to  save  power  and  minimize  electronic  equipment  and  antennas.  Such  simultaneous  transmission  of
+signals over a common path, called multiplexing, is sometimes used in industrial telemetry. When concurrent
+data about several simultaneous events are transmitted by several subcarriers, each subcarrier oscillator has a
+distinctive reference frequency and swings from this center frequency toward arbitrary maximum and minimum
+frequencies in response to signals from a corresponding transducer. Thus a number of separate audio frequency
+bands are sent over the radio frequency carrier. This is called frequency division multiplexing. The frequency
+division  multiplex  requires  careful  adjustment  of  subcarrier  frequencies  and  the  corresponding  ﬁlters  at  the
+receiver and strong suppression of harmonics to avoid cross talk or interaction between channels.

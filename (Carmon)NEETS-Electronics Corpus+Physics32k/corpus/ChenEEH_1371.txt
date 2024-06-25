@@ -1,0 +1,16 @@
+Traces are detailed logs of program execution. Whenever a
+meaningful event takes place, such as a message passed be-
+tween two processes or the entry and exit of a procedure, the
+event is logged and time-stamped. Analysis tools are then
+heavily relied upon to extract some meaningful information
+from these logs or to at least reduce the dimensionality of the
+data such that visualization tools can be used to explore the
+information present. The main disadvantage to the use of
+traces is the huge amount of data that can be created; Foster
+(1995) gives the example of a 20-byte record on every message
+on a 128-processor system with messages produced every
+10 ms. For this system, a volume of 1 GB of data would be
+produced per hour. In addition to the storage and postproces-
+sing requirements necessary,
+logging this much data could
+itself change performance signiﬁcantly.

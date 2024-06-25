@@ -1,0 +1,138 @@
+In the optical instrumentation industry the term field of view (FOV) is most often used, though the measurements are still expressed as angles. Optical tests are commonly used for measuring the FOV of UV, visible, and infrared (wavelengths about 0.1–20 µm in the electromagnetic spectrum) sensors and cameras.
+The purpose of this test is to measure the horizontal and vertical FOV of a lens and sensor used in an imaging system, when the lens focal length or sensor size is not known (that is, when the calculation above is not immediately applicable). Although this is one typical method that the optics industry uses to measure the FOV, there exist many other possible methods.
+UV/visible light from an integrating sphere (and/or other source such as a black body) is focused onto a square test target at the focal plane of a collimator (the mirrors in the diagram), such that a virtual image of the test target will be seen infinitely far away by the camera under test. The camera under test senses a real image of the virtual image of the target, and the sensed image is displayed on a monitor.
+
+The sensed image, which includes the target, is displayed on a monitor, where it can be measured. Dimensions of the full image display and of the portion of the image that is the target are determined by inspection (measurements are typically in pixels, but can just as well be inches or cm).
+
+
+
+
+D
+
+
+{\displaystyle D}
+= dimension of full image
+
+
+
+
+d
+
+
+{\displaystyle d}
+= dimension of image of target
+
+The collimator's distant virtual image of the target subtends a certain angle, referred to as the angular extent of the target, that depends on the collimator focal length and the target size. Assuming the sensed image includes the whole target, the angle seen by the camera, its FOV, is this angular extent of the target times the ratio of full image size to target image size.
+The target's angular extent is:
+
+
+
+
+α
+=
+2
+arctan
+⁡
+
+
+L
+
+2
+
+f
+
+c
+
+
+
+
+
+
+
+{\displaystyle \alpha =2\arctan {\frac {L}{2f_{c}}}}
+
+
+where
+
+
+
+L
+
+
+{\displaystyle L}
+is the dimension of the target and
+
+
+
+
+f
+
+c
+
+
+
+
+{\displaystyle f_{c}}
+is the focal length of collimator.
+
+The total field of view is then approximately:
+
+
+
+
+
+F
+O
+V
+
+=
+α
+
+
+D
+d
+
+
+
+
+{\displaystyle \mathrm {FOV} =\alpha {\frac {D}{d}}}
+
+
+or more precisely, if the imaging system is rectilinear:
+
+
+
+
+
+F
+O
+V
+
+=
+2
+arctan
+⁡
+
+
+
+L
+D
+
+
+2
+
+f
+
+c
+
+
+d
+
+
+
+
+
+{\displaystyle \mathrm {FOV} =2\arctan {\frac {LD}{2f_{c}d}}}
+
+
+This calculation could be a horizontal or a vertical FOV, depending on how the target and image are measured.

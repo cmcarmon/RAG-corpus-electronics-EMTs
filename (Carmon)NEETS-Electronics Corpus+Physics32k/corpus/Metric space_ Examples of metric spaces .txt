@@ -1,0 +1,734 @@
+The real numbers with the distance function
+
+
+
+d
+(
+x
+,
+y
+)
+=
+|
+y
+−
+x
+|
+
+
+{\displaystyle d(x,y)=\vert y-x\vert }
+given by the absolute difference, and, more generally, Euclidean n-space with the Euclidean distance, are complete metric spaces. The rational numbers with the same distance function also form a metric space, but not a complete one.
+The positive real numbers with distance function
+
+
+
+d
+(
+x
+,
+y
+)
+=
+|
+log
+⁡
+(
+y
+
+/
+
+x
+)
+|
+
+
+{\displaystyle d(x,y)=\vert \log(y/x)\vert }
+is a complete metric space.
+Any normed vector space is a metric space by defining
+
+
+
+d
+(
+x
+,
+y
+)
+=
+‖
+y
+−
+x
+‖
+
+
+{\displaystyle d(x,y)=\lVert y-x\rVert }
+, see also metrics on vector spaces. (If such a space is complete, we call it a Banach space.) Examples:
+The Manhattan norm gives rise to the Manhattan distance, where the distance between any two points, or vectors, is the sum of the differences between corresponding coordinates.
+The maximum norm gives rise to the Chebyshev distance or chessboard distance, the minimal number of moves a chess king would take to travel from
+
+
+
+x
+
+
+{\displaystyle x}
+to
+
+
+
+y
+
+
+{\displaystyle y}
+.
+
+The British Rail metric (also called the Post Office metric or the SNCF metric) on a normed vector space is given by
+
+
+
+d
+(
+x
+,
+y
+)
+=
+‖
+x
+‖
++
+‖
+y
+‖
+
+
+{\displaystyle d(x,y)=\lVert x\rVert +\lVert y\rVert }
+for distinct points
+
+
+
+x
+
+
+{\displaystyle x}
+and
+
+
+
+y
+
+
+{\displaystyle y}
+, and
+
+
+
+d
+(
+x
+,
+x
+)
+=
+0
+
+
+{\displaystyle d(x,x)=0}
+. More generally
+
+
+
+‖
+.
+‖
+
+
+{\displaystyle \lVert .\rVert }
+can be replaced with a function
+
+
+
+f
+
+
+{\displaystyle f}
+taking an arbitrary set
+
+
+
+S
+
+
+{\displaystyle S}
+to non-negative reals and taking the value
+
+
+
+0
+
+
+{\displaystyle 0}
+at most once: then the metric is defined on
+
+
+
+S
+
+
+{\displaystyle S}
+by
+
+
+
+d
+(
+x
+,
+y
+)
+=
+f
+(
+x
+)
++
+f
+(
+y
+)
+
+
+{\displaystyle d(x,y)=f(x)+f(y)}
+for distinct points
+
+
+
+x
+
+
+{\displaystyle x}
+and
+
+
+
+y
+
+
+{\displaystyle y}
+, and
+
+
+
+d
+(
+x
+,
+x
+)
+=
+0
+
+
+{\displaystyle d(x,x)=0}
+. The name alludes to the tendency of railway journeys (or letters) to proceed via London (or Paris) irrespective of their final destination.
+If
+
+
+
+(
+M
+,
+d
+)
+
+
+{\displaystyle (M,d)}
+is a metric space and
+
+
+
+X
+
+
+{\displaystyle X}
+is a subset of
+
+
+
+M
+
+
+{\displaystyle M}
+, then
+
+
+
+(
+X
+,
+d
+)
+
+
+{\displaystyle (X,d)}
+becomes a metric space by restricting the domain of
+
+
+
+d
+
+
+{\displaystyle d}
+to
+
+
+
+X
+×
+X
+
+
+{\displaystyle X\times X}
+.
+The discrete metric, where
+
+
+
+d
+(
+x
+,
+y
+)
+=
+0
+
+
+{\displaystyle d(x,y)=0}
+if
+
+
+
+x
+=
+y
+
+
+{\displaystyle x=y}
+and
+
+
+
+d
+(
+x
+,
+y
+)
+=
+1
+
+
+{\displaystyle d(x,y)=1}
+otherwise, is a simple but important example, and can be applied to all sets. This, in particular, shows that for any set, there is always a metric space associated to it. Using this metric, any point is an open ball, and therefore every subset is open and the space has the discrete topology.
+A finite metric space is a metric space having a finite number of points. Not every finite metric space can be isometrically embedded in a Euclidean space.
+The hyperbolic plane is a metric space. More generally:
+If
+
+
+
+M
+
+
+{\displaystyle M}
+is any connected Riemannian manifold, then we can turn
+
+
+
+M
+
+
+{\displaystyle M}
+into a metric space by defining the distance of two points as the infimum of the lengths of the paths (continuously differentiable curves) connecting them.
+If
+
+
+
+X
+
+
+{\displaystyle X}
+is some set and
+
+
+
+M
+
+
+{\displaystyle M}
+is a metric space, then, the set of all bounded functions
+
+
+
+f
+:
+X
+→
+M
+
+
+{\displaystyle f\colon X\rightarrow M}
+(i.e. those functions whose image is a bounded subset of
+
+
+
+M
+
+
+{\displaystyle M}
+) can be turned into a metric space by defining
+
+
+
+d
+(
+f
+,
+g
+)
+=
+
+sup
+
+x
+∈
+X
+
+
+d
+(
+f
+(
+x
+)
+,
+g
+(
+x
+)
+)
+
+
+{\displaystyle d(f,g)=\sup _{x\in X}d(f(x),g(x))}
+for any two bounded functions
+
+
+
+f
+
+
+{\displaystyle f}
+and
+
+
+
+g
+
+
+{\displaystyle g}
+(where
+
+
+
+sup
+
+
+{\displaystyle \sup }
+is supremum). This metric is called the uniform metric or supremum metric, and If
+
+
+
+M
+
+
+{\displaystyle M}
+is complete, then this function space is complete as well. If X is also a topological space, then the set of all bounded continuous functions from
+
+
+
+X
+
+
+{\displaystyle X}
+to
+
+
+
+M
+
+
+{\displaystyle M}
+(endowed with the uniform metric), will also be a complete metric if M is.
+If
+
+
+
+G
+
+
+{\displaystyle G}
+is an undirected connected graph, then the set
+
+
+
+V
+
+
+{\displaystyle V}
+of vertices of
+
+
+
+G
+
+
+{\displaystyle G}
+can be turned into a metric space by defining
+
+
+
+d
+(
+x
+,
+y
+)
+
+
+{\displaystyle d(x,y)}
+to be the length of the shortest path connecting the vertices
+
+
+
+x
+
+
+{\displaystyle x}
+and
+
+
+
+y
+
+
+{\displaystyle y}
+. In geometric group theory this is applied to the Cayley graph of a group, yielding the word metric.
+Graph edit distance is a measure of dissimilarity between two graphs, defined as the minimal number of graph edit operations required to transform one graph into another.
+The Levenshtein distance is a measure of the dissimilarity between two strings
+
+
+
+u
+
+
+{\displaystyle u}
+and
+
+
+
+v
+
+
+{\displaystyle v}
+, defined as the minimal number of character deletions, insertions, or substitutions required to transform
+
+
+
+u
+
+
+{\displaystyle u}
+into
+
+
+
+v
+
+
+{\displaystyle v}
+. This can be thought of as a special case of the shortest path metric in a graph and is one example of an edit distance.
+Given a metric space
+
+
+
+(
+X
+,
+d
+)
+
+
+{\displaystyle (X,d)}
+and an increasing concave function
+
+
+
+f
+:
+[
+0
+,
+∞
+)
+→
+[
+0
+,
+∞
+)
+
+
+{\displaystyle f\colon [0,\infty )\rightarrow [0,\infty )}
+such that
+
+
+
+f
+(
+x
+)
+=
+0
+
+
+{\displaystyle f(x)=0}
+if and only if
+
+
+
+x
+=
+0
+
+
+{\displaystyle x=0}
+, then
+
+
+
+f
+∘
+d
+
+
+{\displaystyle f\circ d}
+is also a metric on
+
+
+
+X
+
+
+{\displaystyle X}
+.
+Given an injective function
+
+
+
+f
+
+
+{\displaystyle f}
+from any set
+
+
+
+A
+
+
+{\displaystyle A}
+to a metric space
+
+
+
+(
+X
+,
+d
+)
+
+
+{\displaystyle (X,d)}
+,
+
+
+
+d
+(
+f
+(
+x
+)
+,
+f
+(
+y
+)
+)
+
+
+{\displaystyle d(f(x),f(y))}
+defines a metric on
+
+
+
+A
+
+
+{\displaystyle A}
+.
+Using T-theory, the tight span of a metric space is also a metric space. The tight span is useful in several types of analysis.
+The set of all
+
+
+
+m
+
+
+{\displaystyle m}
+by
+
+
+
+n
+
+
+{\displaystyle n}
+matrices over some field is a metric space with respect to the rank distance
+
+
+
+d
+(
+X
+,
+Y
+)
+=
+
+r
+a
+n
+k
+
+(
+Y
+−
+X
+)
+
+
+{\displaystyle d(X,Y)=\mathrm {rank} (Y-X)}
+.
+The Helly metric is used in game theory.

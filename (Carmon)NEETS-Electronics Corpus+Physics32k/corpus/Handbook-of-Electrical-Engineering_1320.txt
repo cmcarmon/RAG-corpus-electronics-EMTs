@@ -1,0 +1,9 @@
+Subband coders digitally ﬁlter the speech into nonoverlapping (as nearly as possible) frequency bands. After
+ﬁltering, each band is decimated (effectively sampled at a lower rate) and coded separately using PCM, DPCM,
+or  some  other  method. At  the  receiver,  the  bands  are  decoded,  upsampled,  and  summed  to  reconstruct  the
+speech. By allocating a different number of bits per sample to the subbands, the perceptually more important
+frequency bands can be coded with greater accuracy. The design and implementation of subband coders and
+the speech quality produced have been greatly improved by the development of digital ﬁlters called quadrature
+mirror ﬁlters (QMFs) [Johnston, 1980] and polyphase ﬁlters. These ﬁlters allow subband overlap at the encoder,
+which  causes  aliasing,  but  the  reconstruction  ﬁlters  at  the  receiver  can  be  chosen  to  eliminate  the  aliasing  if
+quantization errors are small.

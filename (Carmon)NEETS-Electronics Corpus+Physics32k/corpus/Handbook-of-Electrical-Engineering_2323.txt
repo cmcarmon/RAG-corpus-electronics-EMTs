@@ -1,0 +1,13 @@
+Overview of Equivalent Circuit Models
+Circuit analysis is an important tool in circuit design. It saves considerable time, at the circuit design stage, by
+providing the designer with a tool for predicting the circuit behavior without actually processing the circuit.
+An electronic circuit usually contains active devices, in addition to passive components. While the current
+and voltage behavior of passive devices is deﬁned by simple relationships, the equivalent relationships in active
+devices are quite complicated in nature. Therefore, in order to analyze an active circuit, the devices are replaced
+by equivalent circuit models that give the same output characteristics as the active device itself. These models
+are made up of passive elements, voltage sources, and current sources. Equivalent circuit models provide the
+designer with reasonably accurate values for frequencies below 1 GHz for bipolar junction transistors (BJTs),
+and their use is quite popular in circuit analysis software. Some ﬁeld-effect transistor (FET) models are accurate
+up to 10 GHz. As the analysis frequency increases, however, so does the model complexity. Since the equivalent
+circuit models are based on some fundamental equations describing the device behavior, they can also be used
+to predict the characteristics of the device itself.

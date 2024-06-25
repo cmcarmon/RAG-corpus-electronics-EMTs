@@ -1,0 +1,8 @@
+Before embarking on a detailed static analysis of our inverter, let us con-
+duct a simple electrical switching analysis to build intuition. In particular, we
+will analyze the relationship between VT, VS, RL, and RON, and the switching
+behavior of the inverter. As a minimum, when a sending inverter drives a receiv-
+ing inverter, the sender must be able to switch the MOSFET in the receiving
+inverter into its ON state when the sender produces a high voltage. Similarly,
+the sender must be able to switch the MOSFET in the receiving inverter into
+its OFF state when the sender produces a low voltage.

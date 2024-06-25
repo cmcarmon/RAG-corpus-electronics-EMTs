@@ -1,0 +1,5 @@
+peak, the capacitor starts to discharge, but from Equation 16.14 this forces iD
+to zero, and the diode changes to the OFF state. A simple exponential discharge
+follows of the form given in Equation 16.10. At some later point in the cycle, the
+input voltage rises up to the capacitor voltage, the constraint of Equation 16.13
+is no longer met, and the diode switches back to the ON state.

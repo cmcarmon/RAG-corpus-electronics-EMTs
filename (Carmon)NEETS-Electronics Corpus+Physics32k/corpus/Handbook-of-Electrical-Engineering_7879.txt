@@ -1,0 +1,10 @@
+The propagation delays of logic circuits are seldom shown on logic circuit diagrams; however, these delays
+are inherent in each logic element and must be considered in systems designs. This gate-level combinational
+logic circuit converts the binary input code 0000 though 1111 represented on the signal inputs D(MSB) C B
+A(LSB)  to  the  binary  code  on  the  signal  outputs  OA  through  OG.  These  outputs  generate  the  hexadecimal
+characters 0 through F when applied to a seven-segment common cathode LED display. Each of the signal lines
+  must  be  capable  of  driving  the  number  of  gate  inputs  shown  in  the  brackets  (fan-out
+D, 
+requirement) to both the high-level and low-level required voltages. The output equations for the circuit in
+Fig. 81.17  are  the  minimum  sum of products  (SOP)  equations  for  the  1’s  of  the  functions  OA  though  OG,
+respectively, represented by the truth table in Table 81.4.

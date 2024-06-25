@@ -1,0 +1,10 @@
+In QoS-based routing, paths for different trafﬁc ﬂows are
+determined based on some knowledge of resource availability
+in the network as well as the QoS requirement of the ﬂows. For
+example, in Figure 7.5, suppose there is a trafﬁc ﬂow from host
+X to host Y, which requires 4 Mbps bandwidth. Although path
+A–B–C is shorter (with just two hops), it will not be selected
+because it does not have enough bandwidth. Instead, path
+A–E–D–C is
+the bandwidth
+requirement.

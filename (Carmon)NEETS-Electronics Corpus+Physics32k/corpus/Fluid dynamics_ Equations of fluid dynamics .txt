@@ -1,0 +1,30 @@
+The foundational axioms of fluid dynamics are the conservation laws, specifically, conservation of mass, conservation of linear momentum (also known as Newton's Second Law of Motion), and conservation of energy (also known as First Law of Thermodynamics). These are based on classical mechanics and are modified in quantum mechanics and general relativity. They are expressed using the Reynolds transport theorem.
+In addition to the above, fluids are assumed to obey the continuum assumption. Fluids are composed of molecules that collide with one another and solid objects. However, the continuum assumption assumes that fluids are continuous, rather than discrete. Consequently, it is assumed that properties such as density, pressure, temperature, and flow velocity are well-defined at infinitesimally small points in space and vary continuously from one point to another. The fact that the fluid is made up of discrete molecules is ignored.
+For fluids that are sufficiently dense to be a continuum, do not contain ionized species, and have flow velocities small in relation to the speed of light, the momentum equations for Newtonian fluids are the Navier–Stokes equations—which is a non-linear set of differential equations that describes the flow of a fluid whose stress depends linearly on flow velocity gradients and pressure. The unsimplified equations do not have a general closed-form solution, so they are primarily of use in Computational Fluid Dynamics. The equations can be simplified in a number of ways, all of which make them easier to solve. Some of the simplifications allow some simple fluid dynamics problems to be solved in closed form.
+In addition to the mass, momentum, and energy conservation equations, a thermodynamic equation of state that gives the pressure as a function of other thermodynamic variables is required to completely describe the problem. An example of this would be the perfect gas equation of state:
+
+
+
+
+p
+=
+
+
+
+ρ
+
+R
+
+u
+
+
+T
+
+M
+
+
+
+
+{\displaystyle p={\frac {\rho R_{u}T}{M}}}
+
+where p is pressure, ρ is density, T the absolute temperature, while Ru is the gas constant and M is molar mass for a particular gas.

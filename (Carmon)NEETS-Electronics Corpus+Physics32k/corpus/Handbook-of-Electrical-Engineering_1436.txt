@@ -1,0 +1,4 @@
+In addition to pitch and voicing estimation, a smooth log magnitude function may be obtained by windowing
+or “liftering” the cepstrum to eliminate the terms which contain the pitch information. Figure 15.14 is one such
+smoothed spectrum. It was obtained from the DFT of the cepstrum of Fig. 15.13 after ﬁrst setting all terms of
+the cepstrum to zero except for the ﬁrst 16.

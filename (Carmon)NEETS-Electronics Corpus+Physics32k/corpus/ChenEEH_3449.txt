@@ -1,0 +1,7 @@
+1. Blocking/unblocking: The blocking solution tends to
+provide higher dependability than security. Failure to
+establish a blocking signal from a remote end can result
+in overtripping for external faults. The unblocking
+solution offers a good compromise of both high de-
+pendability (channel not required to trip) and high
+security (blocking is continuous).

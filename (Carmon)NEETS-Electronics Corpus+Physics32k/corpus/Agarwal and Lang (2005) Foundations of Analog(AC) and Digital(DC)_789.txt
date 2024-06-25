@@ -1,0 +1,22 @@
+p r o b l e m 5.7
+Implement the four-input ‘‘odd’’ or ‘‘odd parity’’ circuit depicted
+in Figure 5.39 using NOR gates. In this circuit, the output Z is high if an odd number of
+the inputs are high, otherwise the output Z is low. How would you use the four-input
+‘‘odd’’ circuit module shown in Figure 5.39 to implement a three-input ‘‘odd’’ circuit?
+If this cannot be done, discuss why not.
+p r o b l e m 5.8
+Figure 5.40 depicts a four-input majority circuit module. The
+output Z of this circuit module is high if a majority of the inputs are high. Write a
+boolean expression for Z in terms of A0, A1, A2, and A3. How would you use the
+four-input majority circuit module shown in Figure 5.40 to implement a three-input
+majority circuit and a two-input majority circuit? If either of these cannot be done,
+discuss why not.
+p r o b l e m 5.9
+Figure 5.41 illustrates a two-bit grey code converter. Its outputs
+OUT0, and OUT1, are equal to the inputs when the IN0, IN1 are 00 or 01. However,
+when the inputs IN0, IN1 are 10 and 11, the outputs OUT0 and OUT1 are 11 and 10,
+respectively. Implement the grey code converter using two-input NAND gates.
+p r o b l e m 5.10
+Figure 5.42 illustrates input-output voltage transfer functions
+for several one-input one-output devices. For the voltage thresholds VOL, VIL, VOH,
+and VIH as shown, which of the devices can serve as valid inverters?

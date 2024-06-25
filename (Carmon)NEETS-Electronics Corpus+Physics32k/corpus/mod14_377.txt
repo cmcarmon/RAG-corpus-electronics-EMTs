@@ -1,0 +1,4 @@
+Figure 3-23, view A, shows a basic four-stage, or modulo-16, ripple counter. The inputs and outputs
+are shown in view B. The four J-K FFs are connected to perform a toggle function; which, you will recall,
+divides the input by 2. The HIGHs on the J and K inputs enable the FFs to toggle. The inverters on the
+clock inputs indicate that the FFs change state on the negative-going pulse.

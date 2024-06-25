@@ -1,0 +1,6 @@
+to  list  L.  Thus,  cells  1  and  3  are  appended  to  list  L.  Moreover,  cell  2  is  erased  from  list  L.  Appending  the
+immediate neighbors of the cells in L to L¢, we ﬁnd that list L¢ now contains entries 4 and 8. Note that cell 8
+has  a  weight  of  1;  this  is  because  a  wire  must  be  crossed  in  order  to  reach  to  this  cell. Again  the  cells  with
+minimum  weight  in  list  L¢  are  appended  to  list  L,  and  cell  3  and  cell  1  are  erased  from  L.  Now  L  contains
+entry {4}. The above procedure is repeated until it reaches to the ﬁnal cell B. Then a solution is found by tracing
+the chain coordinated from cell B to cell A as shown in Fig. 25.22.

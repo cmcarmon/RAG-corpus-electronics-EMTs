@@ -1,0 +1,10 @@
+A watchdog processor (WD) is a relatively small and simple
+coprocessor used to perform concurrent system-level error
+detection by monitoring the behavior of the main processor.
+Because the WD is much simpler than the processor being
+tested, this approach is signiﬁcantly more inexpensive than
+if system-level redundancy techniques, like duplication, were
+used. A WD can also be added incrementally to an existing
+processor system without requiring any signiﬁcant modiﬁca-
+tion to it. The general conﬁguration of a system with a WD is
+shown in Figure 8.10.

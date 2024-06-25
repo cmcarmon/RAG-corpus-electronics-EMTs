@@ -1,0 +1,4 @@
+array[1 .. k–1]. In order to compute apply(f,x) or update(f,x,y), the list at A[hash(x)] is searched or updated.
+If the hash function has been properly chosen and if k and the number of function values different from default
+are of similar size, then the individual lists can be expected to be very short and independent of the number
+of nondefault entries of the function; thus performance for apply and update is O(1).

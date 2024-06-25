@@ -1,0 +1,6 @@
+5.10 Spectrograms24
+We know how to acquire analog signals for digital processing by A/D conversion (Section 5.4), consisting
+of pre-ﬁltering, sampling and amplitude quantization, and to compute spectra of discrete-time signals using
+the FFT algorithm (Section 5.9). Let’s put these various components together to learn how the spectrogram
+shown in Figure 5.14, which is used to analyze speech, is calculated. The speech was sampled at a rate of
+11.025 kHz and passed through a 16-bit A/D converter.

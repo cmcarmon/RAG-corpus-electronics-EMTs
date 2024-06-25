@@ -1,0 +1,5 @@
+Some unijunction circuits are triggered to obtain a very stable prf. One method is to apply triggers to 
+B2, as shown in figure 3-46. Negative triggers applied to B2 reduce the inter-base voltage enough to 
+cause a forward bias condition in the emitter circuit. This cuts off the sweep and allows C1 to discharge 
+through the B1-to-emitter circuit. Then, C1 recharges until the next trigger arrives and C1 discharges. 
+Circuit operation and parameters are figured in the same manner as in the previous sawtooth circuits. 

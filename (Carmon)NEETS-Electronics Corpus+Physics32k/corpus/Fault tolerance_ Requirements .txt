@@ -1,0 +1,7 @@
+The basic characteristics of fault tolerance require:
+No single point of failure – If a system experiences a failure, it must continue to operate without interruption during the repair process.
+Fault isolation to the failing component – When a failure occurs, the system must be able to isolate the failure to the offending component. This requires the addition of dedicated failure detection mechanisms that exist only for the purpose of fault isolation. Recovery from a fault condition requires classifying the fault or failing component. The National Institute of Standards and Technology (NIST) categorizes faults based on locality, cause, duration, and effect.
+Fault containment to prevent propagation of the failure – Some failure mechanisms can cause a system to fail by propagating the failure to the rest of the system. An example of this kind of failure is the "rogue transmitter" that can swamp legitimate communication in a system and cause overall system failure. Firewalls or other mechanisms that isolate a rogue transmitter or failing component to protect the system are required.
+Availability of reversion modes
+In addition, fault-tolerant systems are characterized in terms of both planned service outages and unplanned service outages. These are usually measured at the application level and not just at a hardware level. The figure of merit is called availability and is expressed as a percentage. For example, a five nines system would statistically provide 99.999% availability.
+Fault-tolerant systems are typically based on the concept of redundancy.

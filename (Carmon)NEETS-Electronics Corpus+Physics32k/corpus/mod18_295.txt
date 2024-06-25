@@ -1,0 +1,7 @@
+The mixer-amplifier stage receives three signals: the coherent rf pulse, the local oscillator cw rf
+signal, and a dc modulating pulse from the low-voltage modulator. The coherent and local oscillator
+signals are mixed to produce sum and difference frequency signals. Either of these may be selected as the
+output. The modulator pulse serves the same purpose as in the keyed-oscillator transmitter, because it
+determines the pulse width and power level. The mixer stage functions only during the modulator pulse
+time. Thus the mixer amplifier produces an output of rf pulses in which the frequency may be either the
+sum or difference of the coherent and local oscillator signals.

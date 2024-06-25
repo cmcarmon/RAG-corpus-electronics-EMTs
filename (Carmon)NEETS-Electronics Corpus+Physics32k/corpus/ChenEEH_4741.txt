@@ -1,0 +1,37 @@
+let a
+the parameter
+2 N are optimum in the sense
+vectors u
+aj
+1
+that they minimize the representation error da1 over the set
+Sx1  Sv1 and suitable compact parameter spaces Vaj
+, in add-
+ition, zaj
+(x1, v) are deﬁned via the choice of the approximator
+structure [see Ordon˜ez and Passino (2000b) for an example of
+a choice for zaj
+are simply math-
+ematical artifacts. As a result of the stability proof, the approx-
+imator parameters are bounded using the adaptation laws in
+theorem 1, so Vaj
+does not need to be deﬁned explicitly, and
+no parameter projection (or any other ‘‘artiﬁcial’’ means of
+keeping the parameters bounded) is required. The representa-
+tion error da1 arises because the sizes Naj
+are ﬁnite, but it
+may be made arbitrarily small within Sx1  Sv1 by increasing
+Naj
+(i.e., we assume the chosen approximator structures pos-
+sess the universal approximation property). In this way, there
+exists a constant bound da1 > 0 such that jda1j  da1 < 1. To
+make the proof logically consistent, however, we need to
+assume that some knowledge about this bound and a bound
+on u
+is available (since, in this case, it becomes possible to
+guarantee a priori that Sx1  Sv1 is large enough). However, in
+aj
+1
+practice, some amount of redesign may be required because
+P
+these bounds are typically guessed by the designer.

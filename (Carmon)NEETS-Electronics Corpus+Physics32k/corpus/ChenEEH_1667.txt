@@ -1,0 +1,44 @@
+Texture
+An image can be considered as a mosaic of regions with
+different appearances, and the image features associated with
+these regions can be used for search and retrieval. Although no
+formal deﬁnition of texture exists, intuitively this descriptor
+provides measures of properties such as smoothness, coarse-
+ness, and regularity. These properties can generally not be
+attributed to the presence of any particular color or intensity.
+Texture corresponds to repetition of basic texture elements
+called texels. A texel consists of several pixels and can be
+periodic, quasiperiodic, or random in nature. Texture is an
+innate property of virtually all surfaces, including such ele-
+ments as clouds, trees, bricks, hair, and fabric. It contains
+important information about the structural arrangement of
+surfaces and their relationship to the surrounding environ-
+ment. The three principal approaches used in practice to
+describe the texture of a region are statistical, structural, and
+spectral. Statistical approaches yield characterization of tex-
+tures as smooth, coarse, grainy, and so on. Structural tech-
+niques deal with the arrangement of image primitives, such as
+description of texture based on regularly spaced parallel lines.
+Spectral techniques are based on properties of Fourier spec-
+trum and are used primarily to detect global periodicity in an
+image by identifying high-energy, narrow peaks in the spec-
+trum (Gonzalez, 1992) Haralick et al. (1973) proposed the
+co-occurrence matrix representation of texture feature. This
+method of texture description is based on the repeated occur-
+rence of some gray-level conﬁguration in the texture; this
+conﬁguration varies rapidly with distance in ﬁne textures
+and slowly in coarse textures. This approach explores the
+gray-level spatial dependence of texture. It ﬁrst constructs a
+co-occurrence matrix based on the orientation and distance
+between image pixels and then extracts meaningful statistics
+from the matrix as texture representation. Motivated by the
+psychological studies in human visual perception of texture,
+Tamura et al. (1978) have proposed the texture representation
+from a different angle. They developed computational ap-
+proximations to the visual texture properties found to be
+important in psychology studies. The six visual texture prop-
+erties are coarseness, contrast, directionality, linelikeness,
+regularity, and roughness. One major distinction between
+the Tamura texture representation and co-occurrence matrix
+representation is that all the texture properties in Tamura
+representation are visually meaningful, whereas some of the

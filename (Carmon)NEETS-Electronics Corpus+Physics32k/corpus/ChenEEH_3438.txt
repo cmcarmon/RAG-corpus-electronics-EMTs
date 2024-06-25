@@ -1,0 +1,9 @@
+Step 1: Settings for Relay R3
+The relay has to operate for all currents above 156 A. For
+reliability, one-third of the minimum fault current is selected.
+This yields a primary fault current of 156/3 ¼ 52 A. Based on
+this, a CT ratio of 50/5 ¼ 10 is selected. This yields a secondary
+current of 52/10 ¼ 5.2 A. To match this, the relay tap (pick-up
+value) is selected to be 5.0 A. To ensure the fastest tripping for
+faults downstream from relay R3, the time dial of 0.05 is
+selected (see Figure 9.11).

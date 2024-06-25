@@ -1,0 +1,19 @@
+The feed-forward complementary ﬁlter to combine pc and
+pm to estimate p is shown in Figure 4.4. In this ﬁgure, all
+signals are illustrated in continuous time to clearly show the
+integrals involved. Both the INS and the ﬁlter would typically
+be implemented via computer in discrete-time representation.
+The analysis that follows will also be performed in discrete
+time. This feed-forward complementary ﬁlter implementation
+has several useful features in addition to those previously
+noted. First, the inputs to the ﬁlter H(s) are stationary sto-
+chastic quantities unaffected by p, v, or a. In typical INS
+applications, this independence is not true. Second, in the
+discrete-time implementation, the INS update rate can be
+much higher that the rate at which the position measurements
+are made. For Kalman ﬁlter implementations, this fact signiﬁ-
+cantly reduces the computational load because the time propa-
+gation and measurement updates of the estimation error
+covariance matrices, which are the most computationally ex-
+pensive portion of the algorithm, occur at the lower rate of the
+position measurement.

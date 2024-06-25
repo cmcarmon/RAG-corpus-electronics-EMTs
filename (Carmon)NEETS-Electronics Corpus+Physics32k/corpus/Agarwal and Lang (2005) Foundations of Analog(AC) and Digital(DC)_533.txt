@@ -1,0 +1,8 @@
+To determine the Norton parameters for some circuit, again two indepen-
+dent measurements are required. The source parameter isc could be found by
+applying a short to the circuit terminals and measuring the resultant current.
+The resistance parameter is measured as before in Equation 3.117. Note that
+the source parameters isc, voc are related by Equation 3.122, so measuring or
+calculating any two of voc, isc and Rt is sufficient to characterize both the Norton
+and the Thévenin model. In particular, it is often convenient to find Rt from
+two simple terminal measurements on the circuit

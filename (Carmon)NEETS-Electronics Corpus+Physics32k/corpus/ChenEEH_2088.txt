@@ -1,0 +1,14 @@
+Furthermore, we only need to consider the ﬁring of a relevant
+transition and the associated Z schema with regard to the given
+property under the guidance of the net structure during step 3.
+For example, a system deadlock may occur when a particular
+place has a special marking. To show the system does not have
+the deadlock, we only need to show that transitions connected
+to this place cannot result in this special marking. Therefore,
+the proof is in general local in the sense that only a subset of
+transitions needs to be considered. Similar ideas have been also
+explored in other temporal analysis techniques (He and Lee,
+1990; He and Ding, 1992). In general, logical, net structural,
+and net behavioral reasonings are needed to prove an invariant
+property. The above temporal induction technique is demon-
+strated in the following example.

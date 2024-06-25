@@ -1,0 +1,535 @@
+In accordance with both Newtonian mechanics and SR, three-acceleration or coordinate acceleration
+
+
+
+
+a
+
+=
+
+(
+
+
+a
+
+x
+
+
+,
+
+
+a
+
+y
+
+
+,
+
+
+a
+
+z
+
+
+
+)
+
+
+
+{\displaystyle \mathbf {a} =\left(a_{x},\ a_{y},\ a_{z}\right)}
+is the first derivative of velocity
+
+
+
+
+u
+
+=
+
+(
+
+
+u
+
+x
+
+
+,
+
+
+u
+
+y
+
+
+,
+
+
+u
+
+z
+
+
+
+)
+
+
+
+{\displaystyle \mathbf {u} =\left(u_{x},\ u_{y},\ u_{z}\right)}
+with respect to coordinate time or the second derivative of the location
+
+
+
+
+r
+
+=
+
+(
+
+x
+,
+
+y
+,
+
+z
+
+)
+
+
+
+{\displaystyle \mathbf {r} =\left(x,\ y,\ z\right)}
+with respect to coordinate time:
+
+
+
+
+
+a
+
+=
+
+
+
+d
+
+u
+
+
+
+d
+t
+
+
+
+=
+
+
+
+
+d
+
+2
+
+
+
+r
+
+
+
+d
+
+t
+
+2
+
+
+
+
+
+
+
+{\displaystyle \mathbf {a} ={\frac {d\mathbf {u} }{dt}}={\frac {d^{2}\mathbf {r} }{dt^{2}}}}
+.
+However, the theories sharply differ in their predictions in terms of the relation between three-accelerations measured in different inertial frames. In Newtonian mechanics, time is absolute by
+
+
+
+
+t
+′
+
+=
+t
+
+
+{\displaystyle t'=t}
+in accordance with the Galilean transformation, therefore the three-acceleration derived from it is equal too in all inertial frames:
+
+
+
+
+
+a
+
+=
+
+
+a
+
+′
+
+
+
+{\displaystyle \mathbf {a} =\mathbf {a} '}
+.
+On the contrary in SR, both
+
+
+
+
+r
+
+
+
+{\displaystyle \mathbf {r} }
+and
+
+
+
+t
+
+
+{\displaystyle t}
+depend on the Lorentz transformation, therefore also three-acceleration
+
+
+
+
+a
+
+
+
+{\displaystyle \mathbf {a} }
+and its components vary in different inertial frames. When the relative velocity between the frames is directed in the x-direction by
+
+
+
+v
+=
+
+v
+
+x
+
+
+
+
+{\displaystyle v=v_{x}}
+with
+
+
+
+
+γ
+
+v
+
+
+=
+1
+
+/
+
+
+
+1
+−
+
+v
+
+2
+
+
+
+/
+
+
+c
+
+2
+
+
+
+
+
+
+{\displaystyle \gamma _{v}=1/{\sqrt {1-v^{2}/c^{2}}}}
+as Lorentz factor, the Lorentz transformation has the form
+
+or for arbitrary velocities
+
+
+
+
+v
+
+=
+
+(
+
+
+v
+
+x
+
+
+,
+
+
+v
+
+y
+
+
+,
+
+
+v
+
+z
+
+
+
+)
+
+
+
+{\displaystyle \mathbf {v} =\left(v_{x},\ v_{y},\ v_{z}\right)}
+of magnitude
+
+
+
+
+|
+
+
+v
+
+
+|
+
+=
+v
+
+
+{\displaystyle |\mathbf {v} |=v}
+:
+
+In order to find out the transformation of three-acceleration, one has to differentiate the spatial coordinates
+
+
+
+
+r
+
+
+
+{\displaystyle \mathbf {r} }
+and
+
+
+
+
+
+r
+
+′
+
+
+
+{\displaystyle \mathbf {r} '}
+of the Lorentz transformation with respect to
+
+
+
+t
+
+
+{\displaystyle t}
+and
+
+
+
+
+t
+′
+
+
+
+{\displaystyle t'}
+, from which the transformation of three-velocity (also called velocity-addition formula) between
+
+
+
+
+u
+
+
+
+{\displaystyle \mathbf {u} }
+and
+
+
+
+
+
+u
+
+′
+
+
+
+{\displaystyle \mathbf {u} '}
+follows, and eventually by another differentiation with respect to
+
+
+
+t
+
+
+{\displaystyle t}
+and
+
+
+
+
+t
+′
+
+
+
+{\displaystyle t'}
+the transformation of three-acceleration between
+
+
+
+
+a
+
+
+
+{\displaystyle \mathbf {a} }
+and
+
+
+
+
+
+a
+
+′
+
+
+
+{\displaystyle \mathbf {a} '}
+follows. Starting from (1a), this procedure gives the transformation where the accelerations are parallel (x-direction) or perpendicular (y-, z-direction) to the velocity:
+
+or starting from (1b) this procedure gives the result for the general case of arbitrary directions of velocities and accelerations:
+
+This means, if there are two inertial frames
+
+
+
+S
+
+
+{\displaystyle S}
+and
+
+
+
+
+S
+′
+
+
+
+{\displaystyle S'}
+with relative velocity
+
+
+
+
+v
+
+
+
+{\displaystyle \mathbf {v} }
+, then in
+
+
+
+S
+
+
+{\displaystyle S}
+the acceleration
+
+
+
+
+a
+
+
+
+{\displaystyle \mathbf {a} }
+of an object with momentary velocity
+
+
+
+
+u
+
+
+
+{\displaystyle \mathbf {u} }
+is measured, while in
+
+
+
+
+S
+′
+
+
+
+{\displaystyle S'}
+the same object is accelerated by
+
+
+
+
+
+a
+
+′
+
+
+
+{\displaystyle \mathbf {a} '}
+and has the momentary velocity
+
+
+
+
+
+u
+
+′
+
+
+
+{\displaystyle \mathbf {u} '}
+. As with the velocity addition formulas, also these acceleration transformations guarantee that the resultant speed of the accelerated object can never reach or surpass the speed of light.

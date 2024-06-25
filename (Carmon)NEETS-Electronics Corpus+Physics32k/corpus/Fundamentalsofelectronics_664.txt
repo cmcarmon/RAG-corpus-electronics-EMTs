@@ -1,0 +1,8 @@
+Before detailing this procedure, let’s clarify why so many new issues arose in trying to develop a frequency-
+domain implementation of linear ﬁltering. The frequency-domain relationship between a ﬁlter’s input and
+n x (n) e−j2πf n. Unfortunately, using this relationship
+to perform ﬁltering is restricted to the situation when we have analytic formulas for the frequency response
+and the input signal. The reason why we had to “invent” the discrete Fourier transform (DFT) has the
+same origin: The spectrum resulting from the discrete-time Fourier transform depends on the continuous
+frequency variable f. That’s ﬁne for analytic calculation, but computationally we would have to make an
+uncountably inﬁnite number of computations.

@@ -1,0 +1,15 @@
+Fawcett (1994) describes several applications that have been
+implemented using reconﬁgurable logic. He has categorized
+the applications based on how the FPGAs are reconﬁgured.
+These categories are systems with built-in diagnostics, adapt-
+able systems, and multi-purpose hardware. The examples
+provided are all implemented using nonpartially reconﬁgur-
+able FPGAs. By using appropriate tools (2000), designers can
+retarget these designs on partially reconﬁgurable FPGAs. For
+instance, system diagnostics can be performed by partially
+reconﬁguring a portion of the FPGA to perform a boundary
+scan operation, while the rest of the design continues to oper-
+ate. An example of an adaptable system that is partially recon-
+ﬁgurable is a network card that changes its back-end functions
+to support different protocols and that keeps its front-end bus
+interface functional to service the host’s demands.

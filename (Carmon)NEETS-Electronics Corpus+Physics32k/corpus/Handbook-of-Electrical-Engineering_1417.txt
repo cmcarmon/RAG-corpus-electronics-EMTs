@@ -1,0 +1,7 @@
+After  an  acoustic  speech  signal  is  converted  to  an  electrical  signal  by  a  microphone,  it  may  be  desirable  to
+analyze  the  electrical  signal  to  estimate  some  time-varying  parameters  which  provide  information  about  a
+model  of  the  speech  production  mechanism.  Speech  analysis  is  the  process  of  estimating  such  parameters.
+Similarly, given some parametric model of speech production and a sequence of parameters for that model,
+speech synthesis is the process of creating an electrical signal which approximates speech. While analysis and
+synthesis techniques may be done either on the continuous signal or on a sampled version of the signal, most
+modern analysis and synthesis methods are based on digital signal processing.

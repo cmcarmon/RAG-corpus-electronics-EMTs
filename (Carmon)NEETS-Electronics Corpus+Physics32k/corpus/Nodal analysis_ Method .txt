@@ -1,0 +1,6 @@
+Note all connected wire segments in the circuit. These are the nodes of nodal analysis.
+Select one node as the ground reference. The choice does not affect the result and is just a matter of convention. Choosing the node with the most connections can simplify the analysis. For a circuit of N nodes the number of nodal equations is N−1.
+Assign a variable for each node whose voltage is unknown. If the voltage is already known, it is not necessary to assign a variable.
+For each unknown voltage, form an equation based on Kirchhoff's current law. Basically, add together all currents leaving from the node and mark the sum equal to zero. Finding the current between two nodes is nothing more than "the node with the higher potential, minus the node with the lower potential, divided by the resistance between the two nodes."
+If there are voltage sources between two unknown voltages, join the two nodes as a supernode. The currents of the two nodes are combined in a single equation, and a new equation for the voltages is formed.
+Solve the system of simultaneous equations for each unknown voltage.

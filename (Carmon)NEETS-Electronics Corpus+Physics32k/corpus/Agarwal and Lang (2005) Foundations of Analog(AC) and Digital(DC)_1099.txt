@@ -1,0 +1,15 @@
+8.2 T H E S M A L L - S I G N A L M O D E L
+Many circuit applications, such as audio amplifiers, demand a linear amplifier
+of the form depicted in Figure 8.3. The amplifier shown in the figure has a
+constant gain A that is independent of the input voltage. Does that mean we
+cannot use the MOSFET amplifier in these linear applications? It turns out
+that total variables representing signals such as those input to an audio ampli-
+fier commonly consist of two components: a DC offset (or an average value),
+plus a time-varying component with a zero average. We will show that if the
+time-varying component is small, then the incremental amplification provided
+by the MOSFET amplifier to the time-varying component about the operating
+point defined by the input DC offset will be approximately linear. As we saw in
+Section 4.5, this observation actually generalizes to arbitrary nonlinear circuits:
+The response of a circuit to small perturbations about an operating point will
+be linear. Thus, if the signals of interest to us can be represented as small per-
+turbations about an operating point, then the response of arbitrary nonlinear

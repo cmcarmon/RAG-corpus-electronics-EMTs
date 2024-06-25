@@ -1,0 +1,7 @@
+We are so lazy that we enter reciprocal resistances and sums of reciprocal resistances into
+the octave “A” matrix, letting octave compute the matrix of conductances after “A=”.[4] The
+initial entry line was so long that it was split into three rows. This is different than previous
+examples. The entered “A” matrix is delineated by starting and ending square brackets. Col-
+umn elements are space separated. Rows are “new line” separated. Commas and semicolons
+are not need as separators. Though, the current vector at “b” is semicolon separated to yield a
+column vector of currents.

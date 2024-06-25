@@ -1,0 +1,5 @@
+Although keeping time can be done without an RTC, using one has benefits:
+Low power consumption (important when running from alternate power)
+Frees the main system for time-critical tasks
+Sometimes more accurate than other methods
+A GPS receiver can shorten its startup time by comparing the current time, according to its RTC, with the time at which it last had a valid signal. If it has been less than a few hours, then the previous ephemeris is still usable.

@@ -1,0 +1,12 @@
+Without power, a gliding aircraft has only gravity to propel it. At a glide angle of θ, the weight has two components, W.cos θ at right angles to the flight line and W.sin θ parallel to it. These are balanced by the force and lift components respectively, so
+
+W.cos θ = (ρ/2).S.V2.CL and
+
+W. sin θ = (ρ/2).S.V2.CD.
+
+Dividing one equation by the other shows that the glide angle is given by tan θ = CD/CL. The performance characteristics of most interest in unpowered flight are the speed across the ground, Vg say, and the sink speed Vs; these are displayed by plotting V.sin θ = Vs against V.cos θ = Vg. Such plots are generally termed polars, and to produce them the glide angle as a function of V is required.
+One way of finding solutions to the two force equations is to square them both then add together; this shows the possible CL, CD values lie on a circle of radius 2.W / S.ρ.V2. When this is plotted on the drag polar, the intersection of the two curves locates the solution and its θ value read off. Alternatively, bearing in mind that glides are usually shallow, the approximation cos θ ≃ 1, good for θ less than 10°, can be used in the lift equation and the value of CL for a chosen V calculated, finding CL from the drag polar and then calculating θ.
+The example polar here shows the gliding performance of the aircraft analysed above, assuming its drag polar is not much altered by the stationary propeller. A straight line from the origin to some point on the curve has a gradient equal to the glide angle at that speed, so the corresponding tangent shows the best glide angle tan−1(CD/CL)min ≃ 3.3°. This is not the lowest rate of sink but provides the greatest range, requiring a speed of 240  km/h (149 mph); the minimum sink rate of about 3.5 m/s is at 180 km/h (112 mph), speeds seen in the previous, powered plots.
+
+
+== References ==

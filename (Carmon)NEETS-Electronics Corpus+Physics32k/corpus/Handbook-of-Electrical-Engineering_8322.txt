@@ -1,0 +1,14 @@
+Logic  Partitioning.  Traditionally  logic  partitioning  has  been  used  as  a  strategy  when  the  circuit  is  too
+large/complex  for  the  test  generation  tools  to  handle.  Thus,  its  objective  is  to  reduce  the  number  of  circuit
+nodes that must be considered jointly in order to generate test patterns. The partitioning process identiﬁes the
+logic  cones,  which  are  sections  of  logic  receiving  inputs  from  multiple  input  sources  and  generating  a  single
+output. Thus, a digital circuit would be broken into as many individual logic cones as there are individually
+observable output signals. Obviously, the logic cones may (and often do) overlap with each other since they
+share common input signals or intermediate signals generated from inside one partition and used in another
+partition. This is illustrated in Fig. 85.11(a), where two overlapping cones of logic are shown. Here, logic cones
+O1 and O2 contain primary inputs I1, I2 , I3 , I4 and I3 , I4 , I5 , I6 , respectively. When either partition is dependent
+on more inputs than what the ATPG tools or the tester can accommodate, it is possible to insert an additional
+gate, controlled by a tester input in order to test each partition independently of the other. This is illustrated
+in Fig. 85.11(b), where an additional input pin It has been added such that with It set to logic 0 by the tester,
+it is possible to test either partition without requiring to control shared inputs I3 or I4. Logic partitioning has
+become more important as a result of increased use of pseudo-exhaustive testing (to be described later).

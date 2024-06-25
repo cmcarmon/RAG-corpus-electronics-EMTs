@@ -1,0 +1,238 @@
+Spontaneous transitions were not explainable within the framework of the Schrödinger equation, in which the electronic energy levels were quantized, but the electromagnetic field was not. Given that the eigenstates of an atom are properly diagonalized, the overlap of the wavefunctions between the excited state and the ground state of the atom is zero. Thus, in the absence of a quantized electromagnetic field, the excited state atom cannot decay to the ground state. In order to explain spontaneous transitions, quantum mechanics must be extended to a quantum field theory, wherein the electromagnetic field is quantized at every point in space. The quantum field theory of electrons and electromagnetic fields is known as quantum electrodynamics.
+In quantum electrodynamics (or QED), the electromagnetic field has a ground state, the QED vacuum, which can mix with the excited stationary states of the atom. As a result of this interaction, the "stationary state" of the atom is no longer a true eigenstate of the combined system of the atom plus electromagnetic field. In particular, the electron transition from the excited state to the electronic ground state mixes with the transition of the electromagnetic field from the ground state to an excited state, a field state with one photon in it. Spontaneous emission in free space depends upon vacuum fluctuations to get started.
+Although there is only one electronic transition from the excited state to ground state, there are many ways in which the electromagnetic field may go from the ground state to a one-photon state. That is, the electromagnetic field has infinitely more degrees of freedom, corresponding to the different directions in which the photon can be emitted. Equivalently, one might say that the phase space offered by the electromagnetic field is infinitely larger than that offered by the atom. This infinite degree of freedom for the emission of the photon results in the apparent irreversible decay, i.e., spontaneous emission.
+In the presence of electromagnetic vacuum modes, the combined atom-vacuum system is explained by the superposition of the wavefunctions of the excited state atom with no photon and the ground state atom with a single emitted photon:
+
+
+
+
+
+|
+
+ψ
+(
+t
+)
+⟩
+=
+a
+(
+t
+)
+
+e
+
+−
+i
+
+ω
+
+0
+
+
+t
+
+
+
+|
+
+e
+;
+0
+⟩
++
+
+∑
+
+k
+,
+s
+
+
+
+b
+
+k
+s
+
+
+(
+t
+)
+
+e
+
+−
+i
+
+ω
+
+k
+
+
+t
+
+
+
+|
+
+g
+;
+
+1
+
+k
+s
+
+
+⟩
+
+
+{\displaystyle |\psi (t)\rangle =a(t)e^{-i\omega _{0}t}|e;0\rangle +\sum _{k,s}b_{ks}(t)e^{-i\omega _{k}t}|g;1_{ks}\rangle }
+
+where
+
+
+
+
+|
+
+e
+;
+0
+⟩
+
+
+{\displaystyle |e;0\rangle }
+and
+
+
+
+a
+(
+t
+)
+
+
+{\displaystyle a(t)}
+are the atomic excited state-electromagnetic vacuum wavefunction and its probability amplitude,
+
+
+
+
+|
+
+g
+;
+
+1
+
+k
+s
+
+
+⟩
+
+
+{\displaystyle |g;1_{ks}\rangle }
+and
+
+
+
+
+b
+
+k
+s
+
+
+(
+t
+)
+
+
+{\displaystyle b_{ks}(t)}
+are the ground state atom with a single photon (of mode
+
+
+
+k
+s
+
+
+{\displaystyle ks}
+) wavefunction and its probability amplitude,
+
+
+
+
+ω
+
+0
+
+
+
+
+{\displaystyle \omega _{0}}
+is the atomic transition frequency, and
+
+
+
+
+ω
+
+k
+
+
+=
+c
+
+|
+
+k
+
+|
+
+
+
+{\displaystyle \omega _{k}=c|k|}
+is the frequency of the photon. The sum is over
+
+
+
+k
+
+
+{\displaystyle k}
+and
+
+
+
+s
+
+
+{\displaystyle s}
+, which are the wavenumber and polarization of the emitted photon, respectively. As mentioned above, the emitted photon has a chance to be emitted with different wavenumbers and polarizations, and the resulting wavefunction is a superposition of these possibilities. To calculate the probability of the atom at the ground state (
+
+
+
+
+|
+
+b
+(
+t
+)
+
+
+|
+
+
+2
+
+
+
+
+{\displaystyle |b(t)|^{2}}
+), one needs to solve the time evolution of the wavefunction with an appropriate Hamiltonian. To solve for the transition amplitude, one needs to average over (integrate over) all the vacuum modes, since one must consider the probabilities that the emitted photon occupies various parts of phase space equally. The "spontaneously" emitted photon has infinite different modes to propagate into, thus the probability of the atom re-absorbing the photon and returning to the original state is negligible, making the atomic decay practically irreversible. Such irreversible time evolution of the atom-vacuum system is responsible for the apparent spontaneous decay of an excited atom. If one were to keep track of all the vacuum modes, the combined atom-vacuum system would undergo unitary time evolution, making the decay process reversible. Cavity quantum electrodynamics is one such system where the vacuum modes are modified resulting in the reversible decay process, see also Quantum revival. The theory of the spontaneous emission under the QED framework was first calculated by Weisskopf and Wigner.
+In spectroscopy one can frequently find that atoms or molecules in the excited states dissipate their energy in the absence of any external source of photons. This is not spontaneous emission, but is actually nonradiative relaxation of the atoms or molecules caused by the fluctuation of the surrounding molecules present inside the bulk.

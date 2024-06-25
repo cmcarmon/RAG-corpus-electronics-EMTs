@@ -1,0 +1,10 @@
+Basis  Function  Selection.  We  note  that  there  are  two  classes  of  bases  used  in  MoM  modeling,  subdomain
+and entire-domain functions. The former involves the use of bases that are applied in a repetitive fashion over
+subdomains or sections (segments for wires, patches for surfaces, cells for volumes) of the object being modeled.
+The simplest example of a subdomain basis is the single-term basis given by the pulse or stairstep function,
+which leads to a single, unknown constant for each subdomain. Multiterm bases involving two or more functions
+on each subdomain and an equivalent number of unknowns are more often used for subdomain expansions.
+The entire-domain basis, on the other hand, uses multiterm expansions extending over the entire object, for
+example, a circular harmonic expansion in azimuth for a body of revolution. As for subdomain expansions,
+an unknown is associated with each term in the expansion. Examples of hybrid bases can also be found, where
+subdomain and entire-domain bases are used on different parts of an object.

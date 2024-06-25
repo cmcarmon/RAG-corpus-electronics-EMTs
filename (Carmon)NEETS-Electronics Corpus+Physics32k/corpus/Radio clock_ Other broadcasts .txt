@@ -1,0 +1,14 @@
+Attached to other broadcast stations
+Broadcast stations in many countries have carriers precisely synchronized to a standard phase and frequency, such as the BBC Radio 4 longwave service on 198 kHz, and some also transmit sub-audible or even inaudible time-code information, like the Radio France longwave transmitter on 162 kHz. Attached time signal systems generally use audible tones or phase modulation of the carrier wave.
+Teletext (TTX)
+Digital text pages embedded in television video also provide accurate time. Many modern TV sets and VCRs with TTX decoders can obtain accurate time from Teletext and set the internal clock. However the TTX time can vary up to 5 minutes.
+
+Many digital radio and digital television schemes also include provisions for time-code transmission.
+Digital Terrestrial Television
+The DVB and ATSC standards have 2 packet types that send time and date information to the receiver. Digital television systems can equal GPS stratum 2 accuracy (with short term clock discipline) and stratum 1 (with long term clock discipline) provided the transmitter site (or network) supports that level of functionality.
+VHF FM Radio Data System (RDS)
+RDS can send a clock signal with sub-second precision but with an accuracy no greater than 100 ms and with no indication of clock stratum. Not all RDS networks or stations using RDS send accurate time signals. The time stamp format for this technology is Modified Julian Date (MJD) plus UTC hours, UTC minutes and a local time offset.
+L-band and VHF Digital Audio Broadcasting
+DAB systems provide a time signal that has a precision equal to or better than Digital Radio Mondiale (DRM) but like FM RDS do not indicate clock stratum. DAB systems can equal GPS stratum 2 accuracy (short term clock discipline) and stratum 1 (long term clock discipline) provided the transmitter site (or network) supports that level of functionality. The time stamp format for this technology is BCD.
+Digital Radio Mondiale (DRM)
+DRM is able to send a clock signal, but one not as precise as navigation satellite clock signals. DRM timestamps received via shortwave (or multiple hop mediumwave) can be up to 200 ms off due to path delay. The time stamp format for this technology is BCD.

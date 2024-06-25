@@ -1,0 +1,11 @@
+The frequency response of a filter is specified by its stop-band attenuation above 
+the cutoff frequency. For example, a single-pole filter will attenuate signals in the stop-
+band by an additional factor of 10 (20dB) for every decade above the cutoff frequency. 
+Therefore,  for  the  low-pass  filter  in  the  previous  example,  at ω  =  0.1 ωc,  the  transfer 
+function  is  approximately  equal  to  0.1;  at  ω  =  0.01  ωc,  the  transfer  function  is 
+approximately equal to 0.01. If more stop-band attenuation is desired, then a filter with 
+more poles in the transfer function is needed. As shown in Figure ###, a 2-pole filter will 
+attenuate stop-band signals by a factor of 100 (40dB) for every decade above the cutoff 
+frequency; a 3-pole filter will attenuate stop-band signals by a factor of 1000 (60dB) for 
+every decade above the cutoff frequency. 
+ 

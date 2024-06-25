@@ -1,0 +1,73 @@
+The pressure head is dependent on the density of water, which can vary depending on both the temperature and chemical composition (salinity, in particular). This means that the hydraulic head calculation is dependent on the density of the water within the piezometer. If one or more hydraulic head measurements are to be compared, they need to be standardized, usually to their fresh water head, which can be calculated as:
+
+
+
+
+
+h
+
+
+f
+w
+
+
+
+=
+ψ
+
+
+ρ
+
+ρ
+
+
+f
+w
+
+
+
+
+
++
+z
+
+
+{\displaystyle h_{\mathrm {fw} }=\psi {\frac {\rho }{\rho _{\mathrm {fw} }}}+z}
+
+where
+
+
+
+
+
+h
+
+
+f
+w
+
+
+
+
+
+
+{\displaystyle h_{\mathrm {fw} }\,}
+is the fresh water head (Length, measured in m or ft), and
+
+
+
+
+
+ρ
+
+
+f
+w
+
+
+
+
+
+
+{\displaystyle \rho _{\mathrm {fw} }\,}
+is the density of fresh water (Mass per unit volume, typically in kg·m−3)

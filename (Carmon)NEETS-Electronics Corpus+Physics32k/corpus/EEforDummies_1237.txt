@@ -1,0 +1,8 @@
+There’s no rule that says you have to use a single resistor between pins 7 
+and 2. The total resistance between the pins helps determine the frequency. 
+In this circuit, you use a series of eight pushbutton switches to select a series 
+of resistors in such a way that the total resistance between pins 7 and 2 helps 
+generate a frequency that corresponds to a specific note. You use a 10 kΩ 
+resistor (R2) as the base resistance, a 10 kΩ potentiometer (R3) to tweak, or 
+tune, all the notes in the scale, and additive resistors (R4–R10) for the total 
+resistance required for each individual note in the C‐major scale.

@@ -1,0 +1,21 @@
+Yield Improvement
+In addition to increasing the reliability and availability of a
+circuit, improvement in chip yield is another important beneﬁt
+of fault tolerance. With the aid of a model relating yield to
+circuit area and defect density, the yield improvement pro-
+vided by a REMOD implementation has been analyzed taking
+into account the possibility of faults due to defects in the
+redundant portions of
+the circuitry (Dutt and Hanchek,
+1997). Chip yield is deﬁned as the percentage of usable chips.
+The Poisson yield model (Cunningham, 1990) was used for
+defect distribution where defects are assumed to occur uni-
+formly and independently.1 For a k-FT circuit, the yield is the
+sum of the circuit yields for each number of faulty cells up to k.
+For adders, which have small, relatively simple cells, the
+yield improvement obtained is small. For a circuit with rea-
+sonably complex cells, however, very good yield improvement
+is obtained. This is shown in Figure 8.5 for 32-bit Wallace
+tree multipliers. It is also apparent in this ﬁgure that greater
+degrees of FT do provide greater yield improvement of well
+over 50%.

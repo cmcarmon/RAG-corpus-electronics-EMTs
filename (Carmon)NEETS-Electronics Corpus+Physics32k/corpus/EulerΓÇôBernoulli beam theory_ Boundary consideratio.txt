@@ -1,0 +1,404 @@
+The beam equation contains a fourth-order derivative in
+
+
+
+x
+
+
+{\displaystyle x}
+. To find a unique solution
+
+
+
+w
+(
+x
+,
+t
+)
+
+
+{\displaystyle w(x,t)}
+we need four boundary conditions. The boundary conditions usually model supports, but they can also model point loads, distributed loads and moments. The support or displacement boundary conditions are used to fix values of displacement (
+
+
+
+w
+
+
+{\displaystyle w}
+) and rotations (
+
+
+
+
+d
+
+w
+
+/
+
+
+d
+
+x
+
+
+{\displaystyle \mathrm {d} w/\mathrm {d} x}
+) on the boundary. Such boundary conditions are also called Dirichlet boundary conditions. Load and moment boundary conditions involve higher derivatives of
+
+
+
+w
+
+
+{\displaystyle w}
+and represent momentum flux. Flux boundary conditions are also called Neumann boundary conditions.
+As an example consider a cantilever beam that is built-in at one end and free at the other as shown in the adjacent figure. At the built-in end of the beam there cannot be any displacement or rotation of the beam. This means that at the left end both deflection and slope are zero. Since no external bending moment is applied at the free end of the beam, the bending moment at that location is zero. In addition, if there is no external force applied to the beam, the shear force at the free end is also zero.
+Taking the
+
+
+
+x
+
+
+{\displaystyle x}
+coordinate of the left end as
+
+
+
+0
+
+
+{\displaystyle 0}
+and the right end as
+
+
+
+L
+
+
+{\displaystyle L}
+(the length of the beam), these statements translate to the following set of boundary conditions (assume
+
+
+
+E
+I
+
+
+{\displaystyle EI}
+is a constant):
+
+
+
+
+w
+
+
+|
+
+
+x
+=
+0
+
+
+=
+0
+
+;
+
+
+
+
+∂
+w
+
+
+∂
+x
+
+
+
+
+
+
+|
+
+
+
+x
+=
+0
+
+
+=
+0
+
+
+
+(fixed end)
+
+
+
+
+
+{\displaystyle w|_{x=0}=0\quad ;\quad {\frac {\partial w}{\partial x}}{\bigg |}_{x=0}=0\qquad {\mbox{(fixed end)}}\,}
+
+
+
+
+
+
+
+
+
+∂
+
+2
+
+
+w
+
+
+∂
+
+x
+
+2
+
+
+
+
+
+
+
+
+|
+
+
+
+x
+=
+L
+
+
+=
+0
+
+;
+
+
+
+
+
+∂
+
+3
+
+
+w
+
+
+∂
+
+x
+
+3
+
+
+
+
+
+
+
+
+|
+
+
+
+x
+=
+L
+
+
+=
+0
+
+
+
+(free end)
+
+
+
+
+
+{\displaystyle {\frac {\partial ^{2}w}{\partial x^{2}}}{\bigg |}_{x=L}=0\quad ;\quad {\frac {\partial ^{3}w}{\partial x^{3}}}{\bigg |}_{x=L}=0\qquad {\mbox{(free end)}}\,}
+
+A simple support (pin or roller) is equivalent to a point force on the beam which is adjusted in such a way as to fix the position of the beam at that point. A fixed support or clamp, is equivalent to the combination of a point force and a point torque which is adjusted in such a way as to fix both the position and slope of the beam at that point. Point forces and torques, whether from supports or directly applied, will divide a beam into a set of segments, between which the beam equation will yield a continuous solution, given four boundary conditions, two at each end of the segment. Assuming that the product EI is a constant, and defining
+
+
+
+λ
+=
+F
+
+/
+
+E
+I
+
+
+{\displaystyle \lambda =F/EI}
+where F is the magnitude of a point force, and
+
+
+
+τ
+=
+M
+
+/
+
+E
+I
+
+
+{\displaystyle \tau =M/EI}
+where M is the magnitude of a point torque, the boundary conditions appropriate for some common cases is given in the table below. The change in a particular derivative of w across the boundary as x increases is denoted by
+
+
+
+Δ
+
+
+{\displaystyle \Delta }
+followed by that derivative. For example,
+
+
+
+Δ
+
+w
+″
+
+=
+
+w
+″
+
+(
+x
++
+)
+−
+
+w
+″
+
+(
+x
+−
+)
+
+
+{\displaystyle \Delta w''=w''(x+)-w''(x-)}
+where
+
+
+
+
+w
+″
+
+(
+x
++
+)
+
+
+{\displaystyle w''(x+)}
+is the value of
+
+
+
+
+w
+″
+
+
+
+{\displaystyle w''}
+at the lower boundary of the upper segment, while
+
+
+
+
+w
+″
+
+(
+x
+−
+)
+
+
+{\displaystyle w''(x-)}
+is the value of
+
+
+
+
+w
+″
+
+
+
+{\displaystyle w''}
+at the upper boundary of the lower segment. When the values of the particular derivative are not only continuous across the boundary, but fixed as well, the boundary condition is written e.g.,
+
+
+
+Δ
+
+w
+″
+
+=
+
+0
+
+∗
+
+
+
+
+{\displaystyle \Delta w''=0^{*}}
+which actually constitutes two separate equations (e.g.,
+
+
+
+
+w
+″
+
+(
+x
+−
+)
+=
+
+w
+″
+
+(
+x
++
+)
+
+
+{\displaystyle w''(x-)=w''(x+)}
+= fixed).
+
+Note that in the first cases, in which the point forces and torques are located between two segments, there are four boundary conditions, two for the lower segment, and two for the upper. When forces and torques are applied to one end of the beam, there are two boundary conditions given which apply at that end. The sign of the point forces and torques at an end will be positive for the lower end, negative for the upper end.

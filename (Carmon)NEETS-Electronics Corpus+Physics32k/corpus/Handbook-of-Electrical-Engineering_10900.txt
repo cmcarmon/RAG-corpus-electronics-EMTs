@@ -1,0 +1,8 @@
+The  graphical  modeling  environments  cannot  be  viewed  as  replacements  for  the  matrix  environments
+described  in  the  previous  sections,  as  most  of  the  block-diagram  environments  have  very  limited  analytical
+capabilities  (usually  only  simulation  and  linearization).  However,  many  of  today’s  block  diagram  tools  have
+been developed as companion packages by the same commercial vendors that also sell matrix environments.
+Through linearization, it thus becomes possible to transform a non-linear block diagram to a linear represen-
+tation which can then be analyzed and used for design in the matrix environment. Unfortunately, such automatic
+transformations are only available between tools from the same vendor, cross-translations between arbitrary
+tools are not possible.

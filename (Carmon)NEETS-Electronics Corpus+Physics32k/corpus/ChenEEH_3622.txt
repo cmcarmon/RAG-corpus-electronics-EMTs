@@ -1,0 +1,7 @@
+When there is an input signal applied to a digital ﬁlter,
+overﬂow might occur. As a result, input signal scaling is re-
+quired to reduce the probability of overﬂow to an acceptable
+level. Ideally, signal scaling should be applied to ensure that the
+probability of overﬂow is the same at each internal node of the
+digital ﬁlter. This way, the signal-to-noise ratio is maximized in
+ﬁxed-point implementations.

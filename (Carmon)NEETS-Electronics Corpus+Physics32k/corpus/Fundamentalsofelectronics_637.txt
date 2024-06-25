@@ -1,0 +1,8 @@
+An important detail emerges when we consider making this program work; in fact, as written it has (at
+least) two bugs. What input and output values enter into the computation of y (1)? We need values for
+y (0) , y (−1) , . . . values we have not yet computed. To compute them, we would need more previous values of
+the output, which we have not yet computed. To compute these values, we would need even earlier values, ad
+inﬁnitum. The way out of this predicament is to specify the system’s initial conditions: we must provide
+the p output values that occurred before the input started. These values can be arbitrary, but the choice
+does impact how the system responds to a given input. One choice gives rise to a linear system: Make the
+initial conditions zero. The reason lies in the deﬁnition of a linear system: The only way that the output to

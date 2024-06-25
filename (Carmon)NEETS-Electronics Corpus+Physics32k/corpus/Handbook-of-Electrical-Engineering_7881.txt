@@ -1,0 +1,6 @@
+The decoder circuit in Fig. 81.19 requires only 8 IC packages compared to the gate-level circuit in Fig. 81.17
+which  requires  18  IC  packages.  Functionally,  both  circuits  perform  the  same.  The  output  equations  for  the
+circuit in Fig. 81.19 are the canonical or standard SOP equations for the 0’s of the functions OA though OG,
+respectively,  represented  by  the  truth  table  (Table  81.4).  The  gates  shown  in  Fig. 81.19  with  more  than  four
+inputs are eight-input NAND gates with each unused input tied to VCC via a pull-up resistor (not shown on
+the logic diagram).

@@ -1,0 +1,14 @@
+Ideally, the static power consumption of static CMOS circuits
+is assumed to be zero, as the PMOS and the NMOS devices are
+never on simultaneously in steady-state operation. But in
+reality, the drain current through the CMOS transistor does
+not drop to zero once the gate voltage goes below the threshold
+voltage. There is, unfortunately, always a leakage current,
+which is primarily determined by the fabrication technology.
+Historically, the contribution of the static power dissipation to
+the overall power dissipation is in general very small and can
+be ignored. However, with the current technologies, for which
+reductions in the device threshold voltage are employed for
+achieving better performance, the percentage of the static
+power dissipation from the total power has increased as
+shown in Figure 5.11.

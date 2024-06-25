@@ -1,0 +1,11 @@
+vertical speed as constant as possible while touching the ground (support phase)
+while the foot is not touching the ground, it should move as fast as possible
+constant torque/force input (or at least no extreme spikes/changes)
+stride height (enough for clearance, not too much to conserve energy)
+the foot has to touch the ground for at least half of the cycle for a two/four leg mechanism or respectively, a third of the cycle for a three/six leg mechanism
+minimized moving mass
+vertical center of mass always inside the base of support
+the speed of each leg or group of legs should be separately controllable for steering
+the leg mechanism should allow forward and backward walking
+Another design goal can be, that stride height and length etc. can be controlled by the operator. This can relatively easily be achieved with a hydraulic leg mechanism, but is not practicable with a crank-based leg mechanism.
+The optimization has to be done for the whole vehicle – ideally the force/torque variation during a rotation should cancel each other out.

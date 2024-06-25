@@ -1,0 +1,12 @@
+inputs are provided to the devices, the discipline also requires the devices to
+produce valid output voltages (in a finite amount of time) that satisfy the output
+thresholds (VOL and VOH).
+We can also refine our combinational gate abstraction to include the notion
+of a propagation delay, so that the abstraction remains valid in the presence of
+transitioning signals. Recall, the properties of a combinational gate as previously
+defined in Chapter 5.3: (1) The gate’s outputs are a function of its inputs alone
+and (2) the gate must satisfy the static discipline. In the presence of a finite gate
+delay, there is a small period of time following an input transition in which the
+outputs do not reflect the new inputs; rather they reflect the old inputs. Thus our
+previously defined gate abstraction is violated. We negotiate this inconsistency
+by introducing a timing specification into our gate abstraction.

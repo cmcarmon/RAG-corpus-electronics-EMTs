@@ -1,0 +1,7 @@
+Competition  is  a  very  efﬁcient  way  to  divide  the  computing  resources  of  a  network.  Instead  of  having  each
+output PE more or less sensitive to the full input space, as in the associative memories, in a competitive network
+each PE specializes into a piece of the input space and represents it [Haykin, 1994]. Competitive networks are
+linear, single-layer nets (Fig. 20.17). Their functionality is directly related to the competitive learning rule, which
+belongs to the unsupervised category. First, only the PE that has the largest output gets its weights updated.
+The  weights  of  the  winning  PE  are  updated  according  to  the  formula  in  Fig. 20.17  in  such  a  way  that  they
+approach the present input. The step size exactly controls how much is this adjustment (see Fig. 20.17).

@@ -1,0 +1,9 @@
+There are all sorts of little details in this short example. For example, a common way to indicate a comment
+is to start with a “;”. The assembler will ignore your comments. The “#” indicates a literal, and the “$” that the
+literal is written in hexadecimal notation. The VAX would use #^x to express the same idea. “Compare” means
+“subtract but save only the condition codes of the result” (v or overﬂow, n or negative, z or zero, and c or carry).
+Thus, the ﬁrst two lines do a subtraction of whatever A4 is pointing at (*source) from the ASCII value for ‘E’
+and  then,  if  the  two  were  equal  (the  result,  zero),  the  program  jumps  to  line  5.  If  *source  is  not ‘E’,  then  it
+simply goes to the next line, line 3. The instruction, TST.W D6, is quite equivalent to CMPI.W D6, #0, but the
+TST instruction is inherently shorter and faster. On a SPARC, where it would be neither shorter nor faster, TST
+does not exist.

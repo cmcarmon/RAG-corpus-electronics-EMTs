@@ -1,0 +1,10 @@
+Power-Series Method
+In this method a truncated power-series expansion of the dc transfer characteristics of a nonlinear circuit is
+used. Therefore, the method is suitable only when energy storage effects in the nonlinear circuit are negligible
+and  the  input  signal  is  small.  In  general,  the  input  and  output  signals  comprise  both  dc  and  time-varying
+components. For distortion calculation we are interested in the time-varying or incremental components around
+a quiescent1 operating point. For the transfer characteristic of Fig. 5.19, denote the quiescent operating condi-
+–
+tions by X0 and
+Y0 and the incremental variables by x(t) and y(t), at the input and output, respectively. The
+output can be expressed as a function of the input using a series expansion

@@ -1,0 +1,6 @@
+excessive amplitude variations from signals. The collector circuit tank consists of C1 and L1. C2 and L2
+form the secondary tank circuit. Both tank circuits are tuned to the center frequency of the incoming fm
+signal. Choke L3 is the dc return path for diode rectifiers CR1 and CR2. R1 and R2 are not always
+necessary but are usually used when the back (reverse bias) resistance of the two diodes is different.
+Resistors R3 and R4 are the load resistors and are bypassed by C3 and C4 to remove rf. C5 is the output
+coupling capacitor.

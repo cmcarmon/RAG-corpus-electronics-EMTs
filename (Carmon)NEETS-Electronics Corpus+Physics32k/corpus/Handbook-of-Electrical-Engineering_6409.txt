@@ -1,0 +1,5 @@
+The  most  popular  equalizer  adjustment  method  involves  updates  to  each  tap  gain  during  each  symbol
+interval. The adjustment to each tap gain is in a direction opposite to an estimate of the gradient of the MSE
+with respect to that tap gain. The idea is to move the set of equalizer coefﬁcients closer to the unique optimum
+set corresponding to the minimum MSE. This symbol-by-symbol procedure developed by Widrow and Hoff
+[Feher, 1987] is commonly referred to as the stochastic gradient method.

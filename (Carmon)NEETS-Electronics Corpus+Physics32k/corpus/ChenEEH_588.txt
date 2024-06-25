@@ -1,0 +1,13 @@
+Example 7.5. The MOSFET designed in example 7.4
+has a parasitic capacitance of CISS ¼ 2:5 nF, CRSS ¼
+200 pF, and COSS ¼ 600 pF. A gate pulse of 10 V is ap-
+plied through a gate resistor of 10 V to the MOSFET
+to turn it on from an off-state voltage of 100 V to an
+on-state current of 500 mA. Based on example 7.4, the
+VGS, on of the MOSFET at this current level is about 7 V.
+During the turn-off phase, the current rapidly rises to its
+on-state value. The device voltage then reduces from
+100 V to the on-state value in the phase of the Miller
+plateau. Then, according to equation 7.18, the time
+required for the device voltage to drop is 67 ns. Accord-
+ingly, the turn-on energy loss is as follows:

@@ -1,0 +1,23 @@
+Internally, communication networks do have point-to-point communication links between network nodes
+well described by the Fundamental Model of Communications. However, many messages share the com-
+munications channel between nodes using what we call time-domain multiplexing: Rather than the
+continuous communications mode implied in the Model as presented, message sequences are sent, sharing
+in time the channel’s capacity. At a grander viewpoint, the network must route messages—decide what
+nodes and links to use—based on destination information—the address—that is usually separate from the
+message information. Routing in networks is necessarily dynamic: The complete route taken by messages is
+formed as the network handles the message, with nodes relaying the message having some notion of the best
+possible path at the time of transmission. Note that no omnipotent router views the network as a whole and
+pre-determines every message’s route. Certainly in the case of the postal system dynamic routing occurs,
+and can consider issues like inoperative and overly busy links. In the telephone system, routing takes place
+when you place the call; the route is ﬁxed once the phone starts ringing. Modern communication networks
+strive to achieve the most eﬃcient (timely) and most reliable information delivery system possible.
+6.34 Message Routing43
+Focusing on electrical networks, most analog ones make ineﬃcient use of communication links because truly
+dynamic routing is diﬃcult, if not impossible, to obtain. In radio networks, such as commercial television,
+each station has a dedicated portion of the electromagnetic spectrum, and this spectrum cannot be shared
+with other stations or used in any other than the regulated way. The telephone network is more dynamic,
+but once it establishes a call the path through the network is ﬁxed. The users of that path control its
+use, and may not make eﬃcient use of it (long pauses while one person thinks, for example). Telephone
+network customers would be quite upset if the telephone company momentarily disconnected the path so
+that someone else could use it. This kind of connection through a network—ﬁxed for the duration of the
+communication session—is known as a circuit-switched connection.

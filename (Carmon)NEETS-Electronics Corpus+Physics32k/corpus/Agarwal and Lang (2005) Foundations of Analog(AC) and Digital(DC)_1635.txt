@@ -1,0 +1,9 @@
+3. NMOS logic families actually use a special kind of pullup called a depletion-mode MOSFET,
+which has a negative threshold voltage. The MOSFETs that we have been dealing with thus far
+are called enhancement-mode MOSFETs. The depletion-mode MOSFET is used as a pullup with
+its gate connected to its source instead of the power supply. One of its advantages is that it does
+not require a second supply voltage.
+4. Although the static power for CMOS is significantly lower than NMOS, sources of static power
+loss still remain, such as leakage currents.
+5. We saw the p-channel MOSFET briefly in the context of amplifiers in Chapter 7 in Example 7.7.
+Here we will focus on its use in digital circuits.

@@ -1,0 +1,12 @@
+Costs in Highly Parallel Memory Architectures
+The throughput can be enlarged by increasing the number of
+bits being transferred per access. Different signals can be trans-
+ferred from different memories. Moreover, multiport memories
+can provide a higher memory bandwidth. The main problem
+here is creating the parallelism and efﬁcient use of parallel data.
+Increasing the number of memories has a positive inﬂuence
+on both bandwidth and memory energy consumption. But the
+interconnect complexity increases, causing higher costs. Obvi-
+ously, there must be a trade-off. The deﬁnition of the memory
+architecture and assignment of signals to these memories has a
+large impact on the available bandwidth.

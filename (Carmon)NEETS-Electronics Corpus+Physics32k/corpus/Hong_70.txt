@@ -1,0 +1,15 @@
+At 300 K room temperature, Vt = 26 mV. This means that for every increase of Vt 
+in  voltage,  the  current  drawn  by  the  diode  scales  by  a  factor  of  e.  For  most  design 
+purposes, the detailed exponential behavior of a diode can be approximated as a perfect 
+conductor above a certain voltage and a perfect insulator below this voltage (Figure 6.4). 
+This  transition  voltage  is  known  as  the  “knee”  or  “turn-on”  voltage.  For  silicon  (Si) 
+diodes, the knee voltage is 0.7 V; for Schottky barrier and germanium (Ge) diodes, the 
+knee voltage is 0.3 V; and for gallium-arsenide (GaAs), gallium-nitride (GaN), and other 
+hetero-junction light-emitting diodes, the knee voltage can range from 2 to 4 V. 
+ 
+ 
+When a reverse voltage is applied to a diode, the resistance of the diode is very 
+large. The exponential current-voltage behavior predicts a constant reverse current that is 
+approximately equal to Io. In reality, the mechanisms responsible for reverse conduction 
+© 2005 Hongshen Ma 
+ 

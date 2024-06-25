@@ -1,0 +1,19 @@
+(i.e.  inverts)  the  data  (by  changing  0’s  to  1’s  and 
+1’s to 0’s in every bit position) and then outputs the 
+result  to  an  output  port  (Port  B).  The  program 
+repeats indefinitely. 
+  Just 
+instructions  are 
+required to carry out this task together with a fourth 
+(jump) instruction that causes the three instructions 
+to be repeated over and over again.  A program of 
+this  sort  is  most  easily  written  in  assembly  code 
+which  consists  of  a  series  of  easy  to  remember 
+mnemonics.  The  flowchart  for  the  program  is 
+shown in Fig. 11.10(a). 
+  The  program  occupies  a  total  of  eight  bytes  of 
+memory, starting at a hexadecimal address of 2000 
+as  shown  in  Fig.  11.10(b).  You  should  also  note 
+that  the  two  ports,  A  and  B,  each  have  unique 
+addresses;  Port  A  is  at  hexadecimal  address  FF 
+whilst Port B is at hexadecimal address FE. 

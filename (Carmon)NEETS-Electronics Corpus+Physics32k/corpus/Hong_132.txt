@@ -1,0 +1,5 @@
+Since the open-loop gain A for an op amp is typically 105-106, the output follows 
+the  input  almost  exactly  while  the  diode  voltage  drop  is  attenuated  by  A+1,  which  is 
+negligibly small compared to the signal amplitude. Therefore, Vout = Vin when the diode is 
+forward biased. 
+ 

@@ -1,0 +1,610 @@
+The algorithm can be summed up as follows:
+Set the boundary conditions.
+Solve the discretized momentum equation to compute an intermediate velocity field.
+Compute the mass fluxes at the cells faces.
+Solve the pressure equation.
+Correct the mass fluxes at the cell faces.
+Correct the velocities on the basis of the new pressure field.
+Update the boundary conditions.
+Repeat from 3 for the prescribed number of times.
+Increase the time step and repeat from 1.
+As already seen for the SIMPLE algorithm, the steps 4 and 5 can be repeated for a prescribed number of times to correct for non-orthogonality.Predictor step
+Guess the pressure field
+
+
+
+
+p
+
+∗
+
+
+
+
+{\displaystyle p^{*}}
+and get velocity field components
+
+
+
+
+u
+
+∗
+
+
+
+
+{\displaystyle u^{*}}
+and
+
+
+
+
+v
+
+∗
+
+
+
+
+{\displaystyle v^{*}}
+using Discretized momentum equation.The initial guess for the pressure may or may not be correct.Corrector step 1
+Velocity component obtained from predictor step may not satisfy the continuity equation, so we define correction factors p',v',u' for the pressure field and velocity field. Solve the momentum equation by inserting correct pressure field
+
+
+
+
+p
+
+∗
+∗
+
+
+
+
+{\displaystyle p^{**}}
+and get the corresponding correct velocity components
+
+
+
+
+u
+
+∗
+∗
+
+
+
+
+{\displaystyle u^{**}}
+and
+
+
+
+
+v
+
+∗
+∗
+
+
+
+
+{\displaystyle v^{**}}
+.
+
+
+
+
+p
+′
+
+=
+
+p
+
+∗
+∗
+
+
+−
+
+p
+
+∗
+
+
+
+
+{\displaystyle p'=p^{**}-p^{*}}
+
+
+
+
+
+v
+′
+
+=
+
+v
+
+∗
+∗
+
+
+−
+
+v
+
+∗
+
+
+
+
+{\displaystyle v'=v^{**}-v^{*}}
+
+
+
+
+
+u
+′
+
+=
+
+u
+
+∗
+∗
+
+
+−
+
+u
+
+∗
+
+
+
+
+{\displaystyle u'=u^{**}-u^{*}}
+
+where ;
+
+
+
+
+p
+
+∗
+∗
+
+
+,
+
+u
+
+∗
+∗
+
+
+,
+
+v
+
+∗
+∗
+
+
+
+
+{\displaystyle p^{**},u^{**},v^{**}}
+:correct pressure field and velocity component
+
+
+
+
+p
+′
+
+,
+
+u
+′
+
+,
+
+v
+′
+
+
+
+{\displaystyle p',u',v'}
+:correction in pressure field and correction in velocity components
+
+
+
+
+p
+
+∗
+
+
+,
+
+u
+
+∗
+
+
+,
+
+v
+
+∗
+
+
+
+
+{\displaystyle p^{*},u^{*},v^{*}}
+:guessed pressure field and velocity component
+We define
+
+
+
+
+p
+′
+
+,
+
+u
+′
+
+,
+
+v
+′
+
+
+
+{\displaystyle p',u',v'}
+as above. By putting the correct pressure field
+
+
+
+
+p
+
+∗
+∗
+
+
+
+
+{\displaystyle p^{**}}
+into the discretized momentum equation we get the correct velocity components
+
+
+
+
+v
+
+∗
+∗
+
+
+
+
+{\displaystyle v^{**}}
+and
+
+
+
+
+u
+
+∗
+∗
+
+
+
+
+{\displaystyle u^{**}}
+. Once the pressure correction
+
+
+
+
+p
+′
+
+
+
+{\displaystyle p'}
+is known we can find the correction components for the velocity:
+
+
+
+
+u
+′
+
+
+
+{\displaystyle u'}
+and
+
+
+
+
+v
+′
+
+
+
+{\displaystyle v'}
+.
+Corrector step 2 In piso another corrector step can be used.
+
+
+
+
+p
+
+∗
+∗
+∗
+
+
+=
+
+p
+
+∗
+∗
+
+
++
+
+p
+″
+
+
+
+{\displaystyle p^{***}=p^{**}+p''}
+;
+
+
+
+
+p
+″
+
+=
+
+p
+
+∗
+
+
++
+
+p
+′
+
+
+
+{\displaystyle p''=p^{*}+p'}
+
+
+
+
+
+u
+
+∗
+∗
+∗
+
+
+=
+
+u
+
+∗
+∗
+
+
++
+
+u
+″
+
+
+
+{\displaystyle u^{***}=u^{**}+u''}
+;
+
+
+
+
+u
+″
+
+=
+
+u
+
+∗
+
+
++
+
+u
+′
+
+
+
+{\displaystyle u''=u^{*}+u'}
+
+
+
+
+
+v
+
+∗
+∗
+∗
+
+
+=
+
+v
+
+∗
+∗
+
+
++
+
+v
+″
+
+
+
+{\displaystyle v^{***}=v^{**}+v''}
+;
+
+
+
+
+v
+″
+
+=
+
+v
+
+∗
+
+
++
+
+v
+′
+
+
+
+{\displaystyle v''=v^{*}+v'}
+
+where :
+
+
+
+
+p
+
+∗
+∗
+∗
+
+
+,
+
+v
+
+∗
+∗
+∗
+
+
+,
+
+u
+
+∗
+∗
+∗
+
+
+
+
+{\displaystyle p^{***},v^{***},u^{***}}
+are the correct pressure field and the correct velocity components, respectively
+and
+
+
+
+
+p
+″
+
+,
+
+v
+″
+
+,
+
+u
+″
+
+
+
+{\displaystyle p'',v'',u''}
+are second corrections to the pressure and velocity field.
+Set
+
+
+
+p
+=
+
+p
+
+∗
+∗
+∗
+
+
+,
+v
+=
+
+v
+
+∗
+∗
+∗
+
+
+,
+u
+=
+
+u
+
+∗
+∗
+∗
+
+
+
+
+{\displaystyle p=p^{***},v=v^{***},u=u^{***}}
+where ;
+
+
+
+p
+,
+v
+,
+u
+
+
+{\displaystyle p,v,u}
+are correct pressure and velocity field

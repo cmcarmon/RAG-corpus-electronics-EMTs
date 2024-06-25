@@ -1,0 +1,48 @@
+Another method of flow measurement involves placing a bluff body (called a shedder bar) in the path of the fluid. As the fluid passes this bar, disturbances in the flow called vortices are created. The vortices trail behind the cylinder, alternatively from each side of the bluff body. This vortex trail is called the Von Kármán vortex street after von Kármán's 1912 mathematical description of the phenomenon. The frequency at which these vortices alternate sides is essentially proportional to the flow rate of the fluid. Inside, atop, or downstream of the shedder bar is a sensor for measuring the frequency of the vortex shedding. This sensor is often a piezoelectric crystal, which produces a small, but measurable, voltage pulse every time a vortex is created. Since the frequency of such a voltage pulse is also proportional to the fluid velocity, a volumetric flow rate is calculated using the cross sectional area of the flow meter. The frequency is measured and the flow rate is calculated by the flowmeter electronics using the equation
+
+
+
+f
+=
+S
+V
+
+/
+
+L
+
+
+{\displaystyle f=SV/L}
+where
+
+
+
+f
+
+
+{\displaystyle f}
+is the frequency of the vortices,
+
+
+
+L
+
+
+{\displaystyle L}
+the characteristic length of the bluff body,
+
+
+
+V
+
+
+{\displaystyle V}
+is the velocity of the flow over the bluff body, and
+
+
+
+S
+
+
+{\displaystyle S}
+is the Strouhal number, which is essentially a constant for a given body shape within its operating limits.

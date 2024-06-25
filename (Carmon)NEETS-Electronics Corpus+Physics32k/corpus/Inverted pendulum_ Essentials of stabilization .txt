@@ -1,0 +1,78 @@
+The essentials of stabilizing the inverted pendulum can be summarized qualitatively in three steps.
+
+1. If the tilt angle
+
+
+
+θ
+
+
+{\displaystyle \theta }
+is to the right, the cart must accelerate to the right and vice versa.
+2. The position of the cart
+
+
+
+x
+
+
+{\displaystyle x}
+relative to track center is stabilized by slightly modulating the null angle (the angle error that the control system tries to null) by the position of the cart, that is, null angle
+
+
+
+=
+θ
++
+k
+x
+
+
+{\displaystyle =\theta +kx}
+where
+
+
+
+k
+
+
+{\displaystyle k}
+is small. This makes the pole want to lean slightly toward track center and stabilize at track center where the tilt angle is exactly vertical. Any offset in the tilt sensor or track slope that would otherwise cause instability translates into a stable position offset. A further added offset gives position control.
+3. A normal pendulum subject to a moving pivot point such as a load lifted by a crane, has a peaked response at the pendulum radian frequency of
+
+
+
+
+ω
+
+p
+
+
+=
+
+
+g
+
+/
+
+ℓ
+
+
+
+
+{\displaystyle \omega _{p}={\sqrt {g/\ell }}}
+. To prevent uncontrolled swinging, the frequency spectrum of the pivot motion should be suppressed near
+
+
+
+
+ω
+
+p
+
+
+
+
+{\displaystyle \omega _{p}}
+. The inverted pendulum requires the same suppression filter to achieve stability.
+Note that, as a consequence of the null angle modulation strategy, the position feedback is positive, that is, a sudden command to move right will produce an initial cart motion to the left followed by a move right to rebalance the pendulum. The interaction of the pendulum instability and the positive position feedback instability to produce a stable system is a feature that makes the mathematical analysis an interesting and challenging problem.

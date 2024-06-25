@@ -1,0 +1,11 @@
+Marking your ground
+Ready for some electronics schematic double‐talk? When it comes to labeling 
+ground connections in schematics, it’s common practice to use the symbol 
+for earth ground (which is a real connection to the earth) to represent the 
+common ground (the reference point for zero volts) in a circuit. (Chapter 3 
+details these two types of grounds.) More often than not, the “ground” points 
+in low‐voltage circuits are not connected to earth ground; instead, they’re 
+tied to each other — hence the term common ground (or simply common). 
+Any voltages labeled at specific points in a circuit are assumed to be relative 
+to this common ground. (Remember, voltage is really a differential measure-
+ment between two points in a circuit.)

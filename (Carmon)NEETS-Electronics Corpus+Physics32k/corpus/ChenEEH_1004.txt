@@ -1,0 +1,12 @@
+The dynamic power dissipation equation is derived usually
+by assuming that the inputs have zero rise and fall times,
+or, in other words, that the NMOS and PMOS devices are
+never on simultaneously. But in reality, such assumption is
+not valid, and input signals have nonzero rise and fall times;
+hence, a direct current path exists between Vdd and GND
+for a short period of time during input switching, in which
+case the PMOS and the NMOS devices are simultaneously
+conducting. This power component is consumed without
+attributing to the circuit behavior; thus,
+it is considered
+redundant.

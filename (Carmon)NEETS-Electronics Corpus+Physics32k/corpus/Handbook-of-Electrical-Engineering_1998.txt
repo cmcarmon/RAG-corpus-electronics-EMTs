@@ -1,0 +1,5 @@
+Implementation of a Finite Impulse Response Filter with the TMS320C30
+Consider  again  the  convolution  equation,  Eq.  (18.1),  which  represents  an  FIR  ﬁlter.  Table  18.2  shows  the
+TMS320C30 memory organization used for the coefﬁcients and the input samples. Initially, all the input samples
+can  be  set  to  zero.  The  newest  sample  x(n),  at  time  n,  can  be  retrieved  from  an  ADC  using  the  following
+instructions:

@@ -1,0 +1,7 @@
+In ﬁgure 5.7a the only path for DC bias current into the base is through RB. VCC is a
+power supply voltage which is generally greater than 10 V such that VP N can be ignored. The
+DC voltage at the collector should be large enough to provide at least a 2 V drop between
+collector and emitter and clearly must be less than VCC.
+In the absence of other circuit
+requirements, a convenient algebraic choice for VC is VCC/2. DC circuit analysis results in
+the following relative sizes of the two resistors:

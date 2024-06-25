@@ -1,0 +1,19 @@
+Simultaneous statements can be either simple or compound.
+The latter form may consist of a procedural, a case, or an if
+statement. The simple statement as deﬁned above unveils two
+interesting properties. First, it is a noncausal formulation of an
+equation. This means that the ¼¼ symbol denotes equality in
+the mathematical sense and not an assignment such as the <¼
+symbol in digital data ﬂow descriptions. As a consequence, the
+modeler does not need to formulate explicit equations. The
+more general implicit differential algebraic equation (DAE)
+form may be used directly instead. Second, the other interest-
+ing property is related to the optional tolerance aspect of the
+statement. This is intended to specify the numerical accuracy
+of the equality, which is a very general way to deal with
+numerical problems. Usually, a modeler is interested only in
+accuracy aspects but not in selecting solution methods for
+(e.g., numerical) integration. The implementors of a VHDL–
+AMS simulation engine can provide the appropriate algo-
+rithms, whereas a modeler can specify accuracy levels only by
+means of tolerance aspects.

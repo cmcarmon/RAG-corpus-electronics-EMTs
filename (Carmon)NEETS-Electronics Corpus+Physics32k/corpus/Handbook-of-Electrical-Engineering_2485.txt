@@ -1,0 +1,31 @@
+2 = 30 ns due
+to the combination of load resistance and output capacitance. If we now consider a signal-source resistance of
+1 kW, the input circuit time constant will be  t
+1 = R1 · Cin = 1000 W · 50.4 pF = 50.4 ns. The corresponding
+breakpoint  frequencies  are  f1  =  1/(2p  ·  50.4  ns)  =  3.16  MHz  and  f2  =  1/(2p  ·  30  ns)  =  5.3  MHz.  The  3-dB
+frequency is now f3dB @ 2.7 MHz, and the rise time is trise @ 129 ns. If R1 is further increased to 10 kW, we obtain
+t
+1 = R1 · Cin = 10 kW · 50.4 pF = 504 ns, giving breakpoint frequencies of f1 = 1/(2p · 504 ns) = 316 kHz and
+f2 = 1/(2p · 30 ns) = 5.3 MHz. Now t1 is clearly the dominant time constant, the 3-dB frequency is now down
+to  f3dB @  f1  =  316  kHz,  and  the  rise  time  is  up  to  trise @  1.1 ms.  Finally,  for  the  case  of  R1  =  1  MW,  the  3-dB
+frequency will be only 3.16 kHz and the rise time will be 111 ms.
+Use of Source Follower for Impedance Transformation
+We see that large values of signal-source resistance can seriously limit
+the ampliﬁer bandwidth and increase the rise time. In these cases, the
+use of an impedance transforming circuit such as an FET source fol-
+lower or a BJT emitter follower can be very useful. Let’s consider the
+use  of  a  source  follower  as  shown  in  Fig.  24.22. We  will  assume  that
+both FETs are identical to the one in the preceding examples and are
+biased  at  IDSQ  =  5 mA.  The  source  follower  Q1  will  have  an  input
+capacitance of Cin = CGD + (1 – AV 1)CGS @ CGD = 5 pF, since AV will be
+very close to unity for a source follower that is driving a CS ampliﬁer.
+The source-follower output resistance will be rO = 1/gm = 1/3.535 mS
+= 283 W. Let’s again consider the case of R1 = 1 MW. The time constant
+due to the combination of R1 and the input capacitance of the source follower is t
+SF = 1 MW · 5 pf = 5 ms. The
+time constant due to the combination of the source-follower output resistance rO and the input capacitance of
+the CS stage is t
+2 = 30 ns,
+as before. The breakpoint frequencies are fSF = 31.8 kHz, f1 = 11 MHz, and f2 = 5.3 MHz. The 3-dB frequency
+of the system is now f3dB @ fSF = 31.8 kHz, and the rise time is trise @ 11 ms. The use of the source follower thus
+results in an improvement by a factor of 10:1 over the preceding circuit.

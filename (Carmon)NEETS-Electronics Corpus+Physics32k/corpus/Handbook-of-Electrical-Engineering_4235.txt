@@ -1,0 +1,13 @@
+Resolution and Accuracy
+The fundamental resolution capabilities of a radar system are summarized in Table 41.5. In general, there is a
+trade-off between mainlobe resolution corresponding to the nominal range, Doppler, and angle resolution, and
+effective  dynamic  range  corresponding  to  suppression  of  sidelobe  components.  This  is  evident  in  the  use  of
+weighting to suppress Doppler sidebands and angle sidelobes at the expense of broadening the mainlobe and
+N
+ loss.
+/
+S
+Cross range denotes either of the two dimensions orthogonal to the radar line of sight. Cross-range resolution
+in real-aperture antenna systems is closely approximated by the product of target range and radar beamwidth
+in  radians.  Attainment  of  the  nominal  ISAR/SAR  cross-range  resolution  generally  requires  complex  signal
+processing to generate a focused image, including correction for scatterer change in range over the CPI.

@@ -1,0 +1,13 @@
+5.5.6 Symbolic Signals
+An interesting aspect of discrete-time signals is that their values do not need to be real numbers. We do
+have real-valued discrete-time signals like the sinusoid, but we also have signals that denote the sequence of
+characters typed on the keyboard. Such characters certainly aren’t real numbers, and as a collection of pos-
+sible signal values, they have little mathematical structure other than that they are members of a set. More
+formally, each element of the symbolic-valued signal s (n) takes on one of the values {a1, . . . , aK} which
+comprise the alphabet A. This technical terminology does not mean we restrict symbols to being mem-
+bers of the English or Greek alphabet. They could represent keyboard characters, bytes (8-bit quantities),
+integers that convey daily temperature. Whether controlled by software or not, discrete-time systems are
+ultimately constructed from digital circuits, which consist entirely of analog circuit elements. Furthermore,
+the transmission and reception of discrete-time signals, like e-mail, is accomplished with analog signals and
+systems. Understanding how discrete-time and analog signals and systems intertwine is perhaps the main
+goal of this course.

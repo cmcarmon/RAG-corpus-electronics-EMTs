@@ -1,0 +1,56 @@
+As a reduced particle approach, BioMOCA replaces the explicit water molecules with continuum background and handles the ion-water interactions using BTMC method, in which, appropriate scattering rates should be chosen. In other words, ion trajectories are randomly interrupted by scattering events that account for the ions’ diffusive motion in water. In between these scattering events, ions follow the Newtonian forces. The free flight times, Tf, are generated statistically from the total scattering rate according to
+
+
+
+
+−
+ln
+⁡
+(
+r
+)
+=
+
+∫
+
+0
+
+
+
+T
+
+f
+
+
+
+
+λ
+(
+
+
+
+p
+→
+
+
+
+(
+t
+)
+)
+
+d
+t
+
+
+{\displaystyle -\ln(r)=\int _{0}^{T_{f}}\lambda ({\vec {p}}(t))\,dt}
+
+where r is a random number uniformly distributed on the unit interval.
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+, a function of momentum, is the total scattering rate for all collision mechanisms. At the end of each free flight, the ion’s velocity is reselected randomly from a Maxwellian distribution. As the correct scattering mechanism for ion-water interactions in nonbulk electrolyte solutions has yet to be developed, a position dependent scattering rate linked to the local diffusivity is used in our model. This dependency on position comes from the fact that water molecules can have different order of organization in different regions, which will affect the scattering rate.

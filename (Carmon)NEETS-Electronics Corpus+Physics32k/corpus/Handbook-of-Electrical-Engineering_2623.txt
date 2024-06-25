@@ -1,0 +1,10 @@
+which shows that channel strength above threshold is proportional to VG – VTH, an approximation often used in
+this article. Thus, the switch in balancing gate charge from the depletion layer to the inversion layer causes Ninv
+to switch from an exponential gate-voltage dependence in subthreshold to a linear dependence above threshold.
+For circuit analysis Eq. (24.41) is a convenient deﬁnition of VTH because it ﬁts current-voltage curves. If this
+deﬁnition is chosen instead of the charge-balance deﬁnition of Eq. (24.32), then Eqs. (24.32) and (24.38) result
+in an approximation to fTH .
+Driving Ability and ID,sat
+The driving ability of the MOSFET is proportional to the current it can provide at a given gate bias. One might
+anticipate  that  the  larger  this  current,  the  faster  the  circuit.  Here  this  current  is  used  to  ﬁnd  some  response
+times governing MOSFET circuits.

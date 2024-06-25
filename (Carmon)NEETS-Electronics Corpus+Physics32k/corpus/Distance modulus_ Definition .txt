@@ -1,0 +1,337 @@
+The distance modulus
+
+
+
+μ
+=
+m
+−
+M
+
+
+{\displaystyle \mu =m-M}
+is the difference between the apparent magnitude
+
+
+
+m
+
+
+{\displaystyle m}
+(ideally, corrected from the effects of interstellar absorption) and the absolute magnitude
+
+
+
+M
+
+
+{\displaystyle M}
+of an astronomical object. It is related to the distance
+
+
+
+d
+
+
+{\displaystyle d}
+in parsecs by:
+
+
+
+
+
+log
+
+10
+
+
+⁡
+(
+d
+)
+=
+1
++
+
+
+μ
+5
+
+
+
+
+{\displaystyle \log _{10}(d)=1+{\frac {\mu }{5}}}
+
+
+
+
+
+μ
+=
+5
+
+log
+
+10
+
+
+⁡
+(
+d
+)
+−
+5
+
+
+{\displaystyle \mu =5\log _{10}(d)-5}
+
+This definition is convenient because the observed brightness of a light source is related to its distance by the inverse square law (a source twice as far away appears one quarter as bright) and because brightnesses are usually expressed not directly, but in magnitudes.
+Absolute magnitude
+
+
+
+M
+
+
+{\displaystyle M}
+is defined as the apparent magnitude of an object when seen at a distance of 10 parsecs. Suppose a light source has luminosity L(d) when observed from a distance of
+
+
+
+d
+
+
+{\displaystyle d}
+parsecs, and luminosity L(10) when observed from a distance of 10 parsecs. The inverse-square law is then written like:
+
+
+
+
+L
+(
+d
+)
+=
+
+
+
+L
+(
+10
+)
+
+
+(
+
+
+d
+10
+
+
+
+)
+
+2
+
+
+
+
+
+
+
+{\displaystyle L(d)={\frac {L(10)}{({\frac {d}{10}})^{2}}}}
+
+The magnitudes and flux are related by:
+
+
+
+
+m
+=
+−
+2.5
+
+log
+
+10
+
+
+⁡
+F
+(
+d
+)
+
+
+{\displaystyle m=-2.5\log _{10}F(d)}
+
+
+
+
+
+M
+=
+−
+2.5
+
+log
+
+10
+
+
+⁡
+F
+(
+d
+=
+10
+)
+
+
+{\displaystyle M=-2.5\log _{10}F(d=10)}
+
+Substituting and rearranging, we get:
+
+
+
+
+μ
+=
+m
+−
+M
+=
+5
+
+log
+
+10
+
+
+⁡
+(
+d
+)
+−
+5
+=
+5
+
+log
+
+10
+
+
+⁡
+
+(
+
+
+d
+
+10
+
+
+p
+c
+
+
+
+
+)
+
+
+
+{\displaystyle \mu =m-M=5\log _{10}(d)-5=5\log _{10}\left({\frac {d}{10\,\mathrm {pc} }}\right)}
+
+which means that the apparent magnitude is the absolute magnitude plus the distance modulus.
+Isolating
+
+
+
+d
+
+
+{\displaystyle d}
+from the equation
+
+
+
+5
+
+log
+
+10
+
+
+⁡
+(
+d
+)
+−
+5
+=
+μ
+
+
+{\displaystyle 5\log _{10}(d)-5=\mu }
+, we find that the distance (or, the luminosity distance) in parsecs is given by
+
+
+
+
+d
+=
+
+10
+
+
+
+μ
+5
+
+
++
+1
+
+
+
+
+{\displaystyle d=10^{{\frac {\mu }{5}}+1}}
+
+The uncertainty in the distance in parsecs (δd) can be computed from the uncertainty in the distance modulus (δμ) using
+
+
+
+
+δ
+d
+=
+0.2
+ln
+⁡
+(
+10
+)
+
+10
+
+0.2
+μ
++
+1
+
+
+δ
+μ
+=
+0.461
+d
+
+δ
+μ
+
+
+{\displaystyle \delta d=0.2\ln(10)10^{0.2\mu +1}\delta \mu =0.461d\ \delta \mu }
+
+which is derived using standard error analysis.

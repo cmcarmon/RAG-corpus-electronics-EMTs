@@ -1,0 +1,7 @@
+Generally, we are interested in minimizing the intersymbol
+interference at the time when we do our detection (the sample
+time in a sample and hold circuit). Thus, we can model the
+equalizer as a series of equal time delays (rather than random
+as in the general case) with the shortest delay interval being a
+bit interval. We then construct a receiver that determines req,
+the equalized signal:

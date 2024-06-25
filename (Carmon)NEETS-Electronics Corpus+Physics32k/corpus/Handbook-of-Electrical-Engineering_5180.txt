@@ -1,0 +1,10 @@
+Structural Engineering Applications
+Figure  58.4  illustrates  a  smart  vibration  control  strategy  in  structural  beams.  Normally,  the  parent  beam  is
+made  of  conventional  materials,  and  its  vibrational  characteristics  are  decided  by  the  elastic  behavior  of  the
+constituent materials. Suppose a smart material is imbedded in the test beam. This material could be one of
+the  types  indicated  in  Fig.  58.2.  A  vibration  sensor  yields  an  electric  output  proportional  to  the  vibration.
+Suppose the dynamic response of the beam (as observed at the output of the sensor) deviates from the desired
+characteristics. Then an error signal can be generated, which in turn can be used to develop an optimal control
+signal and this control signal can be fed back to the smart material whose elastic behavior is then altered as a
+function  of  the  control  input.  As  a  result,  the  vibration  characteristics  of  the  entire  (parent)  structure  are
+modiﬁed, or the system is dynamically tuned in an adaptive manner.

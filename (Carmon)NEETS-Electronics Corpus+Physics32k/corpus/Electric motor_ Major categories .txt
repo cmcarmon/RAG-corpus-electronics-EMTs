@@ -1,0 +1,35 @@
+Electric motors operate on three different physical principles: magnetism, electrostatics and piezoelectricity. By far, the most common is magnetism.
+In magnetic motors, magnetic fields are formed in both the rotor and the stator. The product between these two fields gives rise to a force, and thus a torque on the motor shaft. One, or both, of these fields must be made to change with the rotation of the motor. This is done by switching the poles on and off at the right time, or varying the strength of the pole.
+The main types are DC motors and AC motors, the former increasingly being displaced by the latter.
+AC electric motors are either asynchronous or synchronous.
+Once started, a synchronous motor requires synchronism with the moving magnetic field's synchronous speed for all normal torque conditions.
+In synchronous machines, the magnetic field must be provided by means other than induction such as from separately excited windings or permanent magnets.
+A fractional-horsepower (FHP) motor either has a rating below about 1 horsepower (0.746 kW), or is manufactured with a standard-frame size smaller than a standard 1 HP motor. Many household and industrial motors are in the fractional-horsepower class.
+Notes:
+Rotation is independent of the frequency of the AC voltage.
+Rotation is equal to synchronous speed (motor-stator-field speed).
+In SCIM, fixed-speed operation rotation is equal to synchronous speed, less slip speed.
+In non-slip energy-recovery systems, WRIM is usually used for motor-starting but can be used to vary load speed.
+Variable-speed operation.
+Whereas induction- and synchronous-motor drives are typically with either six-step or sinusoidal-waveform output, BLDC-motor drives are usually with trapezoidal-current waveform; the behavior of both sinusoidal and trapezoidal PM machines is, however, identical in terms of their fundamental aspects.
+In variable-speed operation, WRIM is used in slip-energy recovery and double-fed induction-machine applications.
+A cage winding is a shorted-circuited squirrel-cage rotor, a wound winding is connected externally through slip rings.
+Mostly single-phase with some three-phase.
+Abbreviations:
+BLAC - Brushless AC
+BLDC - Brushless DC
+BLDM - Brushless DC motor
+EC - Electronic commutator
+PM - Permanent magnet
+IPMSM - Interior permanent-magnet synchronous motor
+PMSM - Permanent magnet synchronous motor
+SPMSM - Surface permanent magnet synchronous motor
+SCIM - Squirrel-cage induction motor
+SRM - Switched reluctance motor
+SyRM - Synchronous reluctance motor
+VFD - Variable-frequency drive
+WRIM - Wound-rotor induction motor
+WRSM - Wound-rotor synchronous motor
+LRA - Locked-Rotor Amps: The current you can expect under starting conditions when you apply full voltage. It occurs instantly during start-up.
+RLA - Rated-Load Amps: The maximum current a motor should draw under any operating conditions. Often mistakenly called running-load amps, which leads people to believe, incorrectly, that the motor should always pull these amps.
+FLA - Full-Load Amps: Changed in 1976 to "RLA - Rated-Load Amps".

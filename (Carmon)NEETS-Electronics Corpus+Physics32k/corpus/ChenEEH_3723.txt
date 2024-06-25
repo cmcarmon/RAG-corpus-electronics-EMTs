@@ -1,0 +1,18 @@
+The sense of the Itakura distance is to measure similarity
+between models, but it is based, in fact, on the measurements
+of the distances from sequences to models. These measure-
+ments indirectly provide the intermodel distance. Assessment
+of sequence-to-model similarity is a third important class of
+pattern-matching problems occurring in speech processing.
+Such problems ﬁgure prominently in an array of modern
+speech-processing technologies, including speech and speaker
+recognition, speaker identiﬁcation, speaker veriﬁcation, lan-
+guage identiﬁcation, and accent recognition (Rabiner and
+Juang, 1993). In nearly every case, the model is a statistical
+representation of the production of sequences associated with
+that model’s class or entity (e.g., a word, a language, a speaker).
+The ‘‘distance’’ between a sequence consists of some likelihood
+measure that the model in question is coherent with the given
+sequence. The discussion later in this chapter of speech recog-
+nition using the HMM provides a prime example of this
+strategy.

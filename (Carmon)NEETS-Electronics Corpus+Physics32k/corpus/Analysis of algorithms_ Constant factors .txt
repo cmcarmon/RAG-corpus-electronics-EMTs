@@ -1,0 +1,83 @@
+Analysis of algorithms typically focuses on the asymptotic performance, particularly at the elementary level, but in practical applications constant factors are important, and real-world data is in practice always limited in size. The limit is typically the size of addressable memory, so on 32-bit machines 232 = 4 GiB (greater if segmented memory is used) and on 64-bit machines 264 = 16 EiB. Thus given a limited size, an order of growth (time or space) can be replaced by a constant factor, and in this sense all practical algorithms are O(1) for a large enough constant, or for small enough data.
+This interpretation is primarily useful for functions that grow extremely slowly: (binary) iterated logarithm (log*) is less than 5 for all practical data (265536 bits); (binary) log-log (log log n) is less than 6 for virtually all practical data (264 bits); and binary log (log n) is less than 64 for virtually all practical data (264 bits). An algorithm with non-constant complexity may nonetheless be more efficient than an algorithm with constant complexity on practical data if the overhead of the constant time algorithm results in a larger constant factor, e.g., one may have
+
+
+
+K
+>
+k
+log
+⁡
+log
+⁡
+n
+
+
+{\displaystyle K>k\log \log n}
+so long as
+
+
+
+K
+
+/
+
+k
+>
+6
+
+
+{\displaystyle K/k>6}
+and
+
+
+
+n
+<
+
+2
+
+
+2
+
+6
+
+
+
+
+=
+
+2
+
+64
+
+
+
+
+{\displaystyle n<2^{2^{6}}=2^{64}}
+.
+For large data linear or quadratic factors cannot be ignored, but for small data an asymptotically inefficient algorithm may be more efficient. This is particularly used in hybrid algorithms, like Timsort, which use an asymptotically efficient algorithm (here merge sort, with time complexity
+
+
+
+n
+log
+⁡
+n
+
+
+{\displaystyle n\log n}
+), but switch to an asymptotically inefficient algorithm (here insertion sort, with time complexity
+
+
+
+
+n
+
+2
+
+
+
+
+{\displaystyle n^{2}}
+) for small data, as the simpler algorithm is faster on small data.

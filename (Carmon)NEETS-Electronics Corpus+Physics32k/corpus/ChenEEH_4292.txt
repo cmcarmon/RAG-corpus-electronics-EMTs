@@ -1,0 +1,17 @@
+The core SIP protocol, speciﬁed in Internet Engineering Task
+Force (IETF) Request for Comments (RFC) 2543, is built on
+foundation IP protocols, such as HTTP and Simple Mail Trans-
+fer Protocol (SMTP). As such, it supports a request/response
+transaction model that is text-based, similar to e-mail, and self-
+describing; in addition, SIP inherited many of the features from
+standard Internet protocols. For example, it uses many of
+HTTPv1.1 header ﬁelds, supports Uniform Resource Identi-
+ﬁer/Universal Resource Locator (URI/URL) for addressing,
+and employs the Multimedia Internet Mail Encapsulation
+(MIME) protocol for message payload description. It is light-
+weight as the baseline SIP consists only of six methods. Exten-
+sions are being proposed by adding new methods, new headers,
+and new message body types to support additional applications
+such as interworking with legacy systems, cable, or wireless
+applications. An SIP initiation scenario is shown in Figure 8.1.
+the

@@ -1,0 +1,10 @@
+Deﬁnition 9 Signal Flow Graph
+A signal ﬂow graph (SFG) (Kung, 1988) shown by G ¼ (V, L)
+is a directed graph consisting of a set of vertices, (PEs) V and a
+set of edges (links) L. Each variable v 2 V has its own set of
+edges Lv such that an edge lv 2 Lv associated with r(ev) delay
+elements of direction ev connect two PEs vi and vj, where
+vi, vj 2 V. Based on shift-invariant DG, the resulting SFG
+after space–time mapping is considered structurally time-in-
+&
+variant in which only edge structures remain invariant.

@@ -1,0 +1,11 @@
+Circuit Matrix
+Consider a circuit C in a connected directed graph G with n
+vertices and m edges. This circuit can be traversed in one of two
+directions, clockwise or counterclockwise. The direction chosen
+for traversing C is called the orientation of C. If an edge
+e ¼ (vi, vj) directed from vi to vj is in C, and if vi appears
+before vj in traversing C in the direction speciﬁed by the orien-
+tation of C, then the orientation agrees with the orientation of e.
+The circuit matrix Bc ¼ [bij] of G has m columns, one for
+each edge, and has one row for each circuit in G. The element
+bij is deﬁned as follows:

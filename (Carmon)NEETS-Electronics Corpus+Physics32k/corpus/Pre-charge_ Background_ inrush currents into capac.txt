@@ -1,0 +1,23 @@
+Inrush currents into capacitive components are a key concern in power-up stress to components. When DC input power is applied to a capacitive load, the step response of the voltage input will cause the input capacitor to charge. The capacitor charging starts with an inrush current and ends with an exponential decay down to the steady state condition. When the magnitude of the inrush peak is very large compared to the maximum rating of the components, then component stress is to be expected. The current into a capacitor is known to be
+
+
+
+I
+=
+C
+(
+d
+V
+
+/
+
+d
+T
+)
+
+
+{\displaystyle I=C(dV/dT)}
+: the peak inrush current will depend upon the capacitance C and the rate of change of the voltage (dV/dT). The inrush current will increase as the capacitance value increases, and the inrush current will increase as the voltage of the power source increases. This second parameter is of primary concern in high voltage power distribution systems. By their nature, high voltage power sources will deliver high voltage into the distribution system. Capacitive loads will then be subject to high inrush currents upon power-up. The stress to the components must be understood and minimized.
+The objective of a pre-charge function is to limit the magnitude of the inrush current into capacitive loads during power-up. This may take several seconds depending on the system. In general, higher voltage systems benefit from longer pre-charge times during power-up.
+
+Consider an example where a high voltage source powers up a typical electronics control unit which has an internal power supply with 11000 µF input capacitance. When powered from a 28 V source, the inrush current into the electronics unit would approach 31 amperes in 10 milliseconds. If that same circuit is activated by a 610 V source, then the inrush current would approach 670 A in 10 milliseconds. It is wise not to allow unlimited inrush currents from high voltage power distribution system activation into capacitive loads: instead the inrush current should be controlled to avoid power-up stress to components.

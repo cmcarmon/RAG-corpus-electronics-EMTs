@@ -1,0 +1,9 @@
+The MMX extension is based on the well-known Intel architecture. It supports operations on 8-bit bytes,
+16-bit words, 32-bit doublewords, and 64-bit quadwords. All these data types are packed into 64-bit words. All
+MMX operations are performed in the ﬂoating-point registers; this means that the ﬂoating-point registers must
+be  saved  at  the  beginning  of  MMX  code  and  restored  at  its  end.  (Although  ﬂoating-point  operations  access
+these  registers  as  a  stack,  MMX  instructions  can  arbitrarily  address  the  registers.)  MMX  supports  addition,
+subtraction, comparison, multiplication, shifts, and logical operations. Arithmetic can optionally be performed
+in saturation mode. There are also instructions for packing and unpacking subwords into words. Some con-
+version operations are provided so that intermediate calculations can be performed at higher precisions and
+then converted to a smaller format.

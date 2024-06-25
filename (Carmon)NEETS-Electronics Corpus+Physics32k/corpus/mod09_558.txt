@@ -1,0 +1,6 @@
+The positive clamper circuit is self-adjusting. This means that the bottom of the output waveform 
+remains clamped at 0 volts during changes in input signal amplitude. Also, the output wave shape retains 
+the form and peak-to-peak amplitude (50 volts in this case) of the input wave shape. When the input 
+amplitude becomes greater, the charge of the capacitor becomes greater and the output amplitude 
+becomes larger. When the input amplitude decreases, the capacitor does not charge as high as before and 
+clamping occurs at a lower output voltage. The capacitor charge, therefore, changes with signal strength. 

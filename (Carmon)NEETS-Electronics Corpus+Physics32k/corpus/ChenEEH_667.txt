@@ -1,0 +1,11 @@
+5. Internal organization of the memories: The memory
+can be meant for capacities that remain small or that
+can become large. Here, a trade-off is usually involved
+between speed and area efﬁciency. The registerﬁles in
+subsection 2.2.2 constitute an example of the fast small
+capacity organizations that are usually also dual-ported
+or even multiported. The queues and stacks are meant
+for medium-sized capacities. The RAMs in subsection
+2.2.3 can become extremely large (up to 256 Mb for
+the state-of-the-art RAM) but are also much slower in
+random access.

@@ -1,0 +1,8 @@
+]
+/Setup/	[
+int	ret
+USB_initialize
+clock_setup	(div1);
+BL_off	(1),	BL_on	(0);
+ret	=	digitizer_USB_initialize	();
+		if	(ret)

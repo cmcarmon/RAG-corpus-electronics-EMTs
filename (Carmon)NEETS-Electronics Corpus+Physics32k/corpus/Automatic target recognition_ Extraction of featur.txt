@@ -1,0 +1,6 @@
+Studies have been done that take audio features used in speech recognition to build automated target recognition systems that will identify targets based on these audio inspired coefficients. These coefficients include the
+Linear predictive coding (LPC) coefficients
+Cepstral linear predictive coding (LPCC) coefficients
+Mel-frequency cepstral coefficients (MFCC).
+The baseband signal is processed to obtain these coefficients, then a statistical process is used to decide which target in the database is most similar to the coefficients obtained. The choice of which features and which decision scheme to use depends on the system and application.
+The features used to classify a target are not limited to speech inspired coefficients. A wide range of features and detection algorithms can be used to accomplish ATR.

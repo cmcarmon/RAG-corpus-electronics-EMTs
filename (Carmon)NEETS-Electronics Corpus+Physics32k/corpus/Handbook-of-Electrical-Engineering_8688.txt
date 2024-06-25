@@ -1,0 +1,13 @@
+• HLLs  provide  only  limited  access  to  certain  hardware  features  of  the  underlying  machine.  Assembly
+language may be required to access these features. Again, this makes the code unportable and hard to
+maintain, but small stubs of assembly code may be required to invoke hardware actions which have no
+representation  in  a  HLL.  For  example,  setting  or  clearing  certain  bits  in  a  special  register  may  not  be
+expressible in C. While any address can be explicitly included in C code, how do you reference a register
+which has no address? An example of such usage is writing or reading into or out of the status register.
+Some machines map these transactions into special addresses so that C could be used to access them,
+but  for  the  majority  of  machines  which  do  not  provide  this  route  to  the  hardware,  the  only  way  to
+accomplish  these  actions  is  with  assembly  code.  To  this  end,  some  C  compilers  provide  an  inline
+assembler. You can insert a few lines of assembly language right in the C code, get your datum into or
+out of the special register, and move right back to HLL. Those compilers which provide this nonstandard
+extension also provide a rational paradigm for using HLL variable names in the assembly statements.
+Where necessary, the name gets expanded to allow the variable to be fetched and then used.

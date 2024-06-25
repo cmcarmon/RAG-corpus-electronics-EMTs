@@ -1,0 +1,4 @@
+Data that must be retained across multiple clock cycles are identiﬁed, and registers are allocated to hold the
+data. Finally, ﬁnite-state machine synthesis involves state minimization and state assignment. State minimization
+seeks to eliminate redundant or equivalent states, and state assignment assigns binary encodings for states to
+minimize combinational logic [Brayton et al., 1992; Sasao, 1993].

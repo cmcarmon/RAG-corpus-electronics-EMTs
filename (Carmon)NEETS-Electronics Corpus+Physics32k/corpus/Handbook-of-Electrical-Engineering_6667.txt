@@ -1,0 +1,8 @@
+In many packet-switched networks, the path traversed by a packet through the network is established during
+a  call  set-up  procedure,  and  the  network  is  referred  to  as  a  virtual  circuit  packet  switching  network.  Other
+networks provide datagram service, a service that allows users to transmit individually addressed packets without
+the need for call set-up. Datagram networks have the advantage of not having to establish connections before
+communication takes place, but they have the disadvantage that every packet must contain complete addressing
+information. Virtual circuit networks have the advantage that addressing information is not required in each
+packet, but have the disadvantage that a call set-up must take place before communication can occur. Datagram
+is an example of 

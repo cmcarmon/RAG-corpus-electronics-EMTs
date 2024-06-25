@@ -1,0 +1,9 @@
+The problem of designing vector quantizers for noisy signals is related to the problem of estimating the clean
+signals from the noisy signals, as was shown by Wolf and Ziv in 1970 and Ephraim and Gray in 1988 [Ephraim,
+1992]. Speciﬁcally, optimal waveform vector quantizers in the MMSE sense can be designed by ﬁrst estimating
+the clean signal and then quantizing the estimated signal. Both estimation and quantization are performed in
+the MMSE sense. Similarly, optimal quantization of the vector of parameters of the AR model for the speech
+signal  in  the  Itakura-Saito  sense  can  be  performed  in  two  steps  of  estimation  and  quantization.  Speciﬁcally,
+the autocorrelation function of the clean signal, which approximately constitutes the sufﬁcient statistics of that
+signal for estimating the AR model, is ﬁrst estimated in the MMSE sense. Then, optimal vector quantization
+in the Itakura-Saito sense is applied to the estimated autocorrelation.

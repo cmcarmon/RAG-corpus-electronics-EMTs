@@ -1,0 +1,5 @@
+11. Notice that if both switches are off, the voltage at the node connecting M1 and M2 appears to
+be undefined. Therefore vGS for M1 also appears to be undefined. In practice, however, MOSFET
+switches are not perfect open circuits, rather they have a very high resistance between their drain
+and source in the off state. Thus, the voltage between M1 and M2 will be given by a voltage divider
+relationship. In any case, vGS for M1 will not impact the output voltage of the gate.

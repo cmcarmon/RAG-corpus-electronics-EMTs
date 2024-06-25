@@ -1,0 +1,12 @@
+N(s) and D(s), the numerator
+and denominator polynomials of the transfer function. The factorization results in four standard forms. These
+are (1) a constant K; (2) a simple s term corresponding to either a zero (if in the numerator) or a pole (if in
+the denominator) at the origin; (3) a term such as (st + 1) corresponding to a real valued (nonzero) pole or
+zero; and (4) a quadratic term with a possible standard form of [(s/wn)2 + (2z/wn)s + 1] corresponding to a
+pair  of  complex  conjugate  poles  or  zeros.  The  Bode  magnitude  and  phase  curves  for  these  possibilities  are
+displayed in Figs. 11.3–11.5. Note that both decibel magnitude and phase are plotted semilogarithmically. The
+frequency axis is logarithmically scaled so that every tenfold, or decade, change in frequency occurs over an
+equal distance. The magnitude axis is given in decibels. Customarily, this axis is marked in 20-dB increments.
+Positive decibel magnitudes correspond to ampliﬁcations between input and output that are greater than one
+(output  amplitude  larger  than  input).  Negative  decibel  gains  correspond  to  attenuation  between  input  and
+output.

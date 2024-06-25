@@ -1,0 +1,17 @@
+R-S bistables 
+ 
+The  simplest  form  of  bistable  is  the  R-S  bistable. 
+This device has two inputs, SET and RESET, and 
+complementary outputs, Q and    . A logic 1 applied 
+to the SET input will cause the Q output to become 
+(or remain at) logic 1 while a logic 1 applied to the 
+RESET input will cause the Q output to become (or 
+remain at) logic 0. In either case, the bistable will 
+remain in its SET or RESET state until an input is 
+applied in such a sense as to change the state. 
+  Two  simple  forms  of  R-S  bistable  based  on 
+cross-coupled logic gates are shown in Fig. 10.19. 
+Figure 10.19(a) is based on NAND gates while Fig. 
+10.19(b) is based on NOR gates. 
+  The simple cross-coupled logic gate bistable has 
+a number  of  serious  shortcomings  (consider  what 

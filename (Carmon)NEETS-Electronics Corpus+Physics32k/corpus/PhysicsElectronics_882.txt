@@ -1,0 +1,5 @@
+The parallel-encoding or ﬂash ADC design provides the fastest operation at the expense of
+high component count and high cost (ﬁgure 8.5).
+The resistor network sets discrete thresholds for a number of comparators. All comparators
+with thresholds above the input signal go false while those below go true. Then digital
+encoding logic converts the result to a digital number.

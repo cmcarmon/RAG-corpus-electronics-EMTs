@@ -1,0 +1,11 @@
+The circuit shown in figure 4-49 is that of a full-wave voltage doubler. The main advantage of a 
+full-wave doubler over a half-wave doubler is better voltage regulation, as a result of reduction in the 
+output ripple amplitude and an increase in the ripple frequency. The circuit is, in fact, two half-wave 
+rectifiers. These rectifiers function as series-aiding devices except in a slightly different way. During the 
+alternation when the secondary of the transformer is positive at the top, C1 charges to 200 volts through 
+CR1. Then, when the transformer secondary is negative at the top, C2 charges to 200 volts through CR2. 
+R1 and R2 are equal value, balancing resistors that stabilize the charges of the two capacitors. Resistive 
+load RL is connected across C1 and C2 so that R L receives the total charge of both capacitors. The output 
+voltage is +400 volts when measured at the top of R L, or point "A" with respect to point "B." If the output 
+is measured at the bottom of RL, it is −400 volts. Either way, the output is twice the peak value of the ac 
+secondary voltage. As you can imagine, the possibilities for voltage multiplication are extensive. 

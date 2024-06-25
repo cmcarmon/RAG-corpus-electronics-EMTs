@@ -1,0 +1,10 @@
+Two fundamental characteristics of video processing make it challenging and different than applications like
+database processing. First, the video processor must handle streaming data that arrives constantly. Traditional
+applications assume that data has a known, ﬁxed location. In video processing, not only are new input samples
+always arriving, but our time reference in the stream is constantly changing. At one time instant, we may consider
+a  sample  xt,  but  at  the  next  sampling  interval  that  sample  becomes  xt–1.  The  need  to  sweep  through  the  data
+stream puts additional demands on the memory system. Since streaming data must be processed in realtime. If
+the deadline for completing an output is missed, the results will be visible on the screen. When designing realtime
+systems, it is not sufﬁcient to look at aggregate throughput because data can become backed up for a period and
+still meet some long-term timing requirements. Processing must complete every realtime result by the appointed
+deadline. Architectures must provide underlying support for predictable computation times.

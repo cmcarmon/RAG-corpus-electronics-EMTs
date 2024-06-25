@@ -1,0 +1,139 @@
+The Poincaré map is constructed by plotting the value of the function every time it passes through a set plane in a specific direction. An example would be plotting the
+
+
+
+y
+,
+z
+
+
+{\displaystyle y,z}
+value every time it passes through the
+
+
+
+x
+=
+0
+
+
+{\displaystyle x=0}
+plane where
+
+
+
+x
+
+
+{\displaystyle x}
+is changing from negative to positive, commonly done when studying the Lorenz attractor. In the case of the Rössler attractor, the
+
+
+
+x
+=
+0
+
+
+{\displaystyle x=0}
+plane is uninteresting, as the map always crosses the
+
+
+
+x
+=
+0
+
+
+{\displaystyle x=0}
+plane at
+
+
+
+z
+=
+0
+
+
+{\displaystyle z=0}
+due to the nature of the Rössler equations. In the
+
+
+
+x
+=
+0.1
+
+
+{\displaystyle x=0.1}
+plane for
+
+
+
+a
+=
+0.1
+
+
+{\displaystyle a=0.1}
+,
+
+
+
+b
+=
+0.1
+
+
+{\displaystyle b=0.1}
+,
+
+
+
+c
+=
+14
+
+
+{\displaystyle c=14}
+, the Poincaré map shows the upswing in
+
+
+
+z
+
+
+{\displaystyle z}
+values as
+
+
+
+x
+
+
+{\displaystyle x}
+increases, as is to be expected due to the upswing and twist section of the Rössler plot. The number of points in this specific Poincaré plot is infinite, but when a different
+
+
+
+c
+
+
+{\displaystyle c}
+value is used, the number of points can vary. For example, with a
+
+
+
+c
+
+
+{\displaystyle c}
+value of 4, there is only one point on the Poincaré map, because the function yields a periodic orbit of period one, or if the
+
+
+
+c
+
+
+{\displaystyle c}
+value is set to 12.8, there would be six points corresponding to a period six orbit.

@@ -1,0 +1,19 @@
+A curve in the plane can be approximated by connecting a finite number of points on the curve using line segments to create a polygonal path. Since it is straightforward to calculate the length of each linear segment (using the Pythagorean theorem in Euclidean space, for example), the total length of the approximation can be found by summing the lengths of each linear segment; that approximation is known as the (cumulative) chordal distance.
+If the curve is not already a polygonal path, using a progressively larger number of segments of smaller lengths will result in better approximations. The lengths of the successive approximations will not decrease and may keep increasing indefinitely, but for smooth curves they will tend to a finite limit as the lengths of the segments get arbitrarily small.
+For some curves there is a smallest number
+
+
+
+L
+
+
+{\displaystyle L}
+that is an upper bound on the length of any polygonal approximation. These curves are called rectifiable and the number
+
+
+
+L
+
+
+{\displaystyle L}
+is defined as the arc length.

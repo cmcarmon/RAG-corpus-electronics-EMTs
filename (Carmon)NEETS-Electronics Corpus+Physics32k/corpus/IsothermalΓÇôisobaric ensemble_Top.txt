@@ -1,0 +1,244 @@
+The isothermal–isobaric ensemble (constant temperature and constant pressure ensemble) is a statistical mechanical ensemble that maintains constant temperature
+
+
+
+T
+
+
+
+{\displaystyle T\,}
+and constant pressure
+
+
+
+P
+
+
+
+{\displaystyle P\,}
+applied. It is also called the
+
+
+
+N
+p
+T
+
+
+{\displaystyle NpT}
+-ensemble, where the number of particles
+
+
+
+N
+
+
+
+{\displaystyle N\,}
+is also kept as a constant. This ensemble plays an important role in chemistry as chemical reactions are usually carried out under constant pressure condition. The partition function can be written as the weighted sum of the partition function of canonical ensemble,
+
+
+
+Z
+(
+N
+,
+V
+,
+T
+)
+
+
+
+{\displaystyle Z(N,V,T)\,}
+.
+
+
+
+
+Δ
+(
+N
+,
+P
+,
+T
+)
+=
+∫
+Z
+(
+N
+,
+V
+,
+T
+)
+exp
+⁡
+(
+−
+β
+P
+V
+)
+C
+d
+V
+.
+
+
+
+
+{\displaystyle \Delta (N,P,T)=\int Z(N,V,T)\exp(-\beta PV)CdV.\,\;}
+
+where
+
+
+
+β
+=
+1
+
+/
+
+
+k
+
+B
+
+
+T
+
+
+
+{\displaystyle \beta =1/k_{B}T\,}
+(
+
+
+
+
+k
+
+B
+
+
+
+
+
+{\displaystyle k_{B}\,}
+is the Boltzmann constant), and
+
+
+
+V
+
+
+
+{\displaystyle V\,}
+is volume of the system.
+There are several candidates for the normalization factor
+
+
+
+C
+
+
+
+{\displaystyle C\,}
+, e.g.,
+
+
+
+C
+=
+N
+
+/
+
+V
+
+
+
+{\displaystyle C=N/V\,}
+, or
+
+
+
+C
+=
+β
+P
+
+
+
+{\displaystyle C=\beta P\,}
+. These choices make the partition function a nondimensional quantity. The differences vanish in the thermodynamic limit, i.e., in the limit of infinite number of particles.
+The characteristic state function of this ensemble is the Gibbs free energy,
+
+
+
+
+G
+(
+N
+,
+P
+,
+T
+)
+=
+−
+
+k
+
+B
+
+
+T
+ln
+⁡
+Δ
+(
+N
+,
+P
+,
+T
+)
+
+
+
+
+{\displaystyle G(N,P,T)=-k_{B}T\ln \Delta (N,P,T)\;\,}
+
+This thermodynamic potential is related to the Helmholtz free energy (logarithm of the canonical partition function),
+
+
+
+F
+
+
+
+{\displaystyle F\,}
+, in the following way:
+
+
+
+
+G
+=
+F
++
+P
+V
+.
+
+
+
+
+{\displaystyle G=F+PV.\;\,}
+
+
+
+== References ==

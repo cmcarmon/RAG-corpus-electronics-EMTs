@@ -1,0 +1,4 @@
+The Sun VIS extension also uses the ﬂoating-point registers. The MAX-2 extension  is the latest extension
+to the HP architecture. It uses integer registers rather than ﬂoating-point registers. It does not directly implement
+multiplication, but instead provides a shift-and-add operation for software-driven multiplication. MAX-2 also
+supports a permutation operation to allow subwords to be rearranged in a word.

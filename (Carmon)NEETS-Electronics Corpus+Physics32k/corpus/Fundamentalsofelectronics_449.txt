@@ -1,0 +1,18 @@
+frequency F0. The primary diﬀerence between adult male and female/prepubescent speech is pitch. Before
+puberty, pitch frequency for normal speech ranges between 150–400 Hz for both males and females. After
+puberty, the vocal cords of males undergo a physical change, which has the eﬀect of lowering their pitch
+frequency to the range 80–160 Hz. If we could examine the vocal cord output, we could probably discern
+whether the speaker was male or female. This diﬀerence is also readily apparent in the speech signal itself.
+To simplify our speech modeling eﬀort, we shall assume that the pitch period is constant. With this
+simpliﬁcation, we collapse the vocal-cord-lung system as a simple source that produces the periodic pulse
+signal (Figure 4.14). The sound pressure signal thus produced enters the mouth behind the tongue, creates
+acoustic disturbances, and exits primarily through the lips and to some extent through the nose. Speech
+specialists tend to name the mouth, tongue, teeth, lips, and nasal cavity the vocal tract. The physics
+governing the sound disturbances produced in the vocal tract and those of an organ pipe are quite similar.
+Whereas the organ pipe has the simple physical structure of a straight tube, the cross-section of the vocal
+tract “tube” varies along its length because of the positions of the tongue, teeth, and lips. It is these positions
+that are controlled by the brain to produce the vowel sounds. Spreading the lips, bringing the teeth together,
+and bringing the tongue toward the front portion of the roof of the mouth produces the sound “ee.” Rounding
+the lips, spreading the teeth, and positioning the tongue toward the back of the oral cavity produces the
+sound “oh.” These variations result in a linear, time-invariant system that has a frequency response typiﬁed
+by several peaks, as shown in Figure 4.15.

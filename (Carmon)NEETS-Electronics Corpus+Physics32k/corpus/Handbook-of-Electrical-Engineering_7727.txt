@@ -1,0 +1,8 @@
+I/O  intensive  applications  vary  widely  in  the  demand  they  place  on  the  I/O  system.  They  run  the  gamut
+from processing small numbers of bulk I/Os that must be handled with minimum delay (supercomputer I/O)
+to  large  numbers  of  simple  tasks  that  touch  small  amounts  of  data  (transaction  processing).  An  important
+design challenge is to develop an I/O system that can handle the performance needs of these diverse workloads.
+A given workload’s demand for I/O service can be speciﬁed in terms of three metrics: throughput, latency,
+and bandwidth. Throughput refers to the number of requests for service made per unit time. Latency measures
+how  long  it  takes  to  service  an  individual  request.  Bandwidth  gauges  the  amount  of  data  ﬂowing  between
+service requesters (i.e., applications) and service providers (i.e., devices).

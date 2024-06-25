@@ -1,0 +1,17 @@
+In cryptanalysis, entropy is often roughly used as a measure of the unpredictability of a cryptographic key, though its real uncertainty is unmeasurable. For example, a 128-bit key that is uniformly randomly generated has 128 bits of entropy. It also takes (on average)
+
+
+
+
+2
+
+128
+−
+1
+
+
+
+
+{\displaystyle 2^{128-1}}
+guesses to break by brute force. However, entropy fails to capture the number of guesses required if the possible keys are not chosen uniformly. Instead, a measure called guesswork can be used to measure the effort required for a brute force attack.
+Other problems may arise from non-uniform distributions used in cryptography. For example, consider a 1000000-digit binary one-time pad using exclusive or. If the pad has 1000000 bits of entropy, it is perfect. If the pad has 999999 bits of entropy, evenly distributed (each individual bit of the pad having 0.999999 bits of entropy) it may provide good security. But if the pad has 999999 bits of entropy, where the first bit is fixed and the remaining 999999 bits are perfectly random, then the first bit of the ciphertext will not be encrypted at all.

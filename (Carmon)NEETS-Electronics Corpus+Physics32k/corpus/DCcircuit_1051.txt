@@ -1,0 +1,7 @@
+As with the Thevenin equivalent circuit, the only useful information from this analysis is
+the voltage and current values for R2; the rest of the information is irrelevant to the original
+circuit. However, the same advantages seen with Thevenin’s Theorem apply to Norton’s as
+well: if we wish to analyze load resistor voltage and current over several different values of
+load resistance, we can use the Norton equivalent circuit again and again, applying nothing
+more complex than simple parallel circuit analysis to determine what’s happening with each
+trial load.

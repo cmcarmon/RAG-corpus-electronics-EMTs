@@ -1,0 +1,18 @@
+Battery
+The design for an ICD battery has many stringent requirements and presents a unique challenge to the engineer.
+While the pacemaker battery is optimized for high energy density, a deﬁbrillator battery must sacriﬁce some
+energy  density  for  high  current  capability.  An  average  deﬁbrillator  battery  must  be  able  to  supply  a  steady
+background current of 10 to 20 µA for at least 5 years for monitoring and pacing functions, as well as, provide
+around 200, 2-A pulses for 10 to 15 seconds each in order to charge the capacitors for multiple deﬁbrillation
+shocks [Holmes, 1996]. All of these criteria must be met while minimizing the size of the battery and maximizing
+its safety and reliability. In addition, it is necessary to be able to reliably predict the end of life of the battery.
+Nearly all modern ICDs use lithium silver vanadium oxide battery technology to accomplish these requirements
+[Liang et al., 1982]. Lithium pressed into a nickel current collector serves as the anode, and silver vanadium
+oxide serves as the active cathode. The electrolyte is generally a lithium salt dissolved in a mixed organic solvent.
+This produces approximately 3.2 V, but two cells are often connected in series to give around 6 V. Some newer
+systems  are  using  single  battery  technology.  A  large  electrode  surface  area  and  low  internal  impedance  are
+required to achieve the high current pulses [Holmes, 1996]. This is accomplished by folding the anode in an
+accordion-like fashion and placing cathode plates in the folds. A disadvantage of this battery is that it exhibits
+a phenomenon in its mid-life known as voltage delay, in which the voltage goes low in the ﬁrst second or two
+during a charging pulse. This can cause a prolongation of the capacitor charging time, which can be dangerous
+to the patient. It is due to an initial high resistance caused by a chemical buildup on the cathode in the cell

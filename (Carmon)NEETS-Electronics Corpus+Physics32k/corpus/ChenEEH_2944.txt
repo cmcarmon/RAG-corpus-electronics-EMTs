@@ -1,0 +1,25 @@
+Regularization
+Inverse scattering is an ill-posed problem in the sense that its
+solution is unstable with respect to the perturbation of the
+measured data. Explicit evidence is the occurrence of inverting
+an ill-conditioned matrix during the inversion process. For
+example, matrix [At] in equation 10.69 is usually of high
+condition-number inducing errors at each iterative step. To
+address the ill-posed problem the regularization process is
+usually used. The basic idea of regularization is to compute a
+meaningful
+the high-
+frequency components associated with the small singular
+values. If the inverse scattering problem is so formulated that
+the convolution or Fourier transform is involved, the regular-
+ization is realized by introducing a low-pass ﬁlter during the
+deconvolution or inverse Fourier transform process. If the
+matrix inversion is involved in the inverse scattering problem,
+one can take the pseudoinverse transformation or, equiva-
+lently, singular value decomposition method to regularize the
+problem. In this approach, the effect of singular values smaller
+than some threshold is neglected to obtain the well-behaved
+solution. Another equivalent technique, known as Tikhonov
+method, has also been proposed. It incorporates a properly
+chosen well-posed problem into the original ill-posed one
+to increase the stability of the resulting solution. All of the

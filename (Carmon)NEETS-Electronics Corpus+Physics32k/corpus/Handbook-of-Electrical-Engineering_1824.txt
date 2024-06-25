@@ -1,0 +1,18 @@
+Multidimensional signal processing techniques have found wide application in seismology—where a group
+of identical seismometers, called seismic arrays, are used for event location, studies of the earth’s sedimentation
+structure, and separation of coherent signals from noise, which sometimes may also propagate coherently across
+the array but with different horizontal velocities—by employing velocity ﬁltering [Claerbout, 1976]. Velocity
+ﬁltering is performed by multidimensional ﬁlters and allows also for the enhancement of signals which may
+occupy the same wavenumber range as noise or undesired signals do. In a broader context, beamforming can
+be used to separate signals received by sensor arrays based on frequency, wavenumber, and velocity (speed as
+well as direction) of propagation. Both the transfer and unit impulse-response functions of a velocity ﬁlter are
+two-dimensional functions in the case of one-dimensional arrays. The transfer function involves frequency and
+wavenumber  (due  to  spatial  sampling  by  equally  spaced  sensors)  as  independent  variables,  whereas  the  unit
+impulse response depends upon time and location within the array. Two-dimensional ﬁltering is not limited
+to velocity ﬁltering by means of seismic array. Two-dimensional spatial ﬁlters are frequently used, for example,
+in the interpretation of gravity and magnetic maps to differentiate between regional and local features. Input
+data for these ﬁlters may be observations in the survey of an area conducted over a planar grid over the earth’s
+surface. Two-dimensional wavenumber digital ﬁltering principles are useful for this purpose. Velocity ﬁltering
+by means of two-dimensional arrays may be accomplished by properly shaping a three-dimensional response
+function  H(k1,k2,w).  Velocity  ﬁltering  by  three-dimensional  arrays  may  be  accomplished  through  a  four-
+dimensional function H(k1,k2,k3,w) as explained in the following subsection.

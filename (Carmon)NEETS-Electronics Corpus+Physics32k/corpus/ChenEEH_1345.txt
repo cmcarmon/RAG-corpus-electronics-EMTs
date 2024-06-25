@@ -1,0 +1,6 @@
+For many years, cache has been used to speed up memory access
+and overcome bottlenecks in a uniprocessor computer systems.
+All the reasons for using caches with uniprocessors also exist
+with multiprocessor systems but exist more acutely. A typical
+shared-bus SMP system will have its performance severely
+limited by bus cycle time without using local cache memory.

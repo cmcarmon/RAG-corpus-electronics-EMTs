@@ -1,0 +1,6 @@
+The function hamming_distance(), implemented in Python 2.3+, computes the Hamming distance between two strings (or other iterable objects) of equal length by creating a sequence of Boolean values indicating mismatches and matches between corresponding positions in the two inputs and then summing the sequence with False and True values being interpreted as zero and one.
+
+where the zip() function merges two equal-length collections in pairs.
+The following C function will compute the Hamming distance of two integers (considered as binary values, that is, as sequences of bits). The running time of this procedure is proportional to the Hamming distance rather than to the number of bits in the inputs. It computes the bitwise exclusive or of the two inputs, and then finds the Hamming weight of the result (the number of nonzero bits) using an algorithm of Wegner (1960) that repeatedly finds and clears the lowest-order nonzero bit. Some compilers support the __builtin_popcount function which can calculate this using specialized processor hardware where available.
+
+Or, a much faster hardware alternative (for compilers that support builtins) is to use popcount like so.

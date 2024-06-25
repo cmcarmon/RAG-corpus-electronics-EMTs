@@ -1,0 +1,15 @@
+In astronomy, equinox is a moment when the vernal point, celestial equator, and other such elements are taken to be used in the definition of a celestial coordinate system. The position at other equinoxes can be computed by taking into account precession, nutation, and aberration, which directly affect e.g. right ascension and declination.
+Contrastingly, epoch is a moment for when a given position of an astronomical object is valid. The position at other epochs can be computed by taking into account proper motion, parallax, and orbital elements.
+In the case of orbital elements for objects within the Solar System, only a few of the classical orbital elements are affected by a switch of equinox: the longitude of the ascending node and (to a much lesser extent) the inclination. If another set of orbital elements are used, such as the position and velocity vectors for a particular epoch, all components can be affected by a switch of equinox.
+Equinox is often confused with epoch, with the difference between the two being that the equinox addresses changes in the coordinate system, while the epoch addresses changes in the position of the celestial body itself. The currently used standard equinox and epoch is J2000.0, which is January 1, 2000 at 12:00 TT. The prefix "J" indicates that it is a Julian epoch. The previous standard equinox and epoch was B1950.0, with the prefix "B" indicating it was a Besselian epoch. Before 1984 Besselian equinoxes and epochs were used. Since that time Julian equinoxes and epochs have been used.
+Other equinoxes and epochs that have been used include:
+The Bonner Durchmusterung started by Friedrich Wilhelm August Argelander uses B1855.0
+The Henry Draper Catalog uses B1900.0
+Constellation boundaries were defined in 1930 along lines of right ascension and declination for the B1875.0 epoch.
+Occasionally, non-standard equinoxes have been used, such as B1925.0 and B1970.0
+The Hipparcos Catalog uses the International Celestial Reference System (ICRS) coordinate system (which is essentially equinox J2000.0) but uses an epoch of J1991.25. For objects with a significant proper motion, assuming that the epoch is J2000.0 leads to a large position error. Assuming that the equinox is J1991.25 leads to a large error for nearly all objects.
+Epochs and equinoxes for orbital elements are usually given in Terrestrial Time, in several different formats, including:
+Gregorian date with 24-hour time: 2000 January 1, 12:00 TT
+Gregorian date with fractional day: 2000 January 1.5 TT
+Julian day with fractional day: JDT 2451545.0
+NASA/NORAD's Two-line elements format with fractional day: 00001.50000000

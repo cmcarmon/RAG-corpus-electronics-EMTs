@@ -1,0 +1,4 @@
+The training algorithm resembles methods used by Nguyen and Widrow [1990] and others for training a
+neural controller to achieve an end goal. In this case, however, the output trajectory is of interest and the training
+is  performed  in  realtime  (i.e.,  output  values  must  be  repeatedly  predicted  rather  than  observed  over  several
+trials). A ﬂowchart of the control methodology is shown in Fig. 100.64.

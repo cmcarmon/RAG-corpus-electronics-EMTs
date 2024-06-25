@@ -1,0 +1,11 @@
+Let us study a MOSFET version of the difference amplifier. The amplifier employs a pair
+of matching transistors called the source-coupled pair. The source-coupled amplifier is
+shown in Figure 8.28. vA and vB are the inputs, and vX and vY are the outputs. Assume
+vA and vB are the input voltages measured with respect to ground. Also assume that
+va and vb are small variations in the inputs, and that vx and vy are the corresponding
+small-signal variations in the output. The source-coupled pair is connected in series with
+a DC current source with a high internal resistance Ri. (We can implement the current
+source using a MOSFET biased to operate in its saturation region, but we do not show it
+here. For simplicity, we use an abstract non-ideal current source instead. In other words,
+the current source has a finite resistance, Ri.) Let the current provided by the DC current
+source be I.

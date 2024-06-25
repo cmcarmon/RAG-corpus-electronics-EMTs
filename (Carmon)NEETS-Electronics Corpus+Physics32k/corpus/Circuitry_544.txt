@@ -1,0 +1,27 @@
+level  outputs  (such  as  float  switches,  proximity 
+detectors, light sensors, etc). 
+It  is  important  to  note  that,  in  order  to  be 
+ 
+connected  directly 
+input  port  of  a 
+microcontroller,  an  input  device  must  provide  a 
+logic 
+is  because 
+microcontroller inputs can only accept digital input 
+signals  with  the  same  voltage  levels  as  the  logic 
+power source. The 0 V ground level (often referred 
+to  as  VSS  in  the  case  of  a  CMOS  microcontroller) 
+and  the  positive  supply  (VDD  in  the  case  of  a 
+CMOS microcontroller) is invariably 5 V ± 5%. A 
+level of approximately 0V indicates a logic 0 signal 
+and  a  voltage  approximately  equal  to  the  positive 
+power supply indicates a logic 1 signal. 
+input  devices  may  sense  analogue 
+  Other 
+quantities (such as velocity) but use a digital code 
+to  represent 
+the 
+microcontroller  system.  Some  microcontrollers 
+provide  an  internal  analogue-to-digital  converter 
+(ADC)  in  order  to  greatly  simplify  the  connection 
+of analogue sensors as input devices but where this 

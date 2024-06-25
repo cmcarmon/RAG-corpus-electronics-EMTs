@@ -1,0 +1,162 @@
+We model forces as Euclidean vectors or members of
+
+
+
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {R} ^{2}}
+. Our first assumption is that the resultant of two forces is in fact another force, so that for any two forces
+
+
+
+
+F
+
+,
+
+G
+
+∈
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle \mathbf {F} ,\mathbf {G} \in \mathbb {R} ^{2}}
+there is another force
+
+
+
+
+F
+
+⊕
+
+G
+
+∈
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle \mathbf {F} \oplus \mathbf {G} \in \mathbb {R} ^{2}}
+. We assume commutativity, as these are forces being applied concurrently, so the order shouldn't matter
+
+
+
+
+F
+
+⊕
+
+G
+
+=
+
+G
+
+⊕
+
+F
+
+
+
+{\displaystyle \mathbf {F} \oplus \mathbf {G} =\mathbf {G} \oplus \mathbf {F} }
+.
+Consider the map
+If
+
+
+
+⊕
+
+
+{\displaystyle \oplus }
+is associative, then this map will be linear. Since it also sends
+
+
+
+
+
+e
+
+
+1
+
+
+
+
+{\displaystyle \mathbf {e} _{1}}
+to
+
+
+
+
+
+e
+
+
+1
+
+
+
+
+{\displaystyle \mathbf {e} _{1}}
+and
+
+
+
+
+
+e
+
+
+2
+
+
+
+
+{\displaystyle \mathbf {e} _{2}}
+to
+
+
+
+
+
+e
+
+
+2
+
+
+
+
+{\displaystyle \mathbf {e} _{2}}
+, it must also be the identity map. Thus
+
+
+
+⊕
+
+
+{\displaystyle \oplus }
+must be equivalent to the normal vector addition operator.

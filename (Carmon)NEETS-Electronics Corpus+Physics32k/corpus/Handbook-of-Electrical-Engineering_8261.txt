@@ -1,0 +1,4 @@
+A unity gain ampliﬁer with a mode control switch where the input of
+the ampliﬁer is connected to a time-varying voltage signal. A trigger pulse at the mode control switch
+causes it to read the input at the instance of the trigger and maintain that value until the next trigger pulse.
+The ratio between the signal power and the noise power at a point in the signal

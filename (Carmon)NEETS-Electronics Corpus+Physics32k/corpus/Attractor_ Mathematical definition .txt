@@ -1,0 +1,39 @@
+Let t represent time and let f(t, •) be a function which specifies the dynamics of the system. That is, if a is a point in an n-dimensional phase space, representing the initial state of the system, then f(0, a) = a and, for a positive value of t, f(t, a) is the result of the evolution of this state after t units of time. For example, if the system describes the evolution of a free particle in one dimension then the phase space is the plane R2 with coordinates (x,v), where x is the position of the particle, v is its velocity, a = (x,v), and the evolution is given by
+
+
+
+
+f
+(
+t
+,
+(
+x
+,
+v
+)
+)
+=
+(
+x
++
+t
+v
+,
+v
+)
+.
+
+
+
+{\displaystyle f(t,(x,v))=(x+tv,v).\ }
+
+An attractor is a subset A of the phase space characterized by the following three conditions:
+A is forward invariant under f: if a is an element of A then so is f(t,a), for all t > 0.
+There exists a neighborhood of A, called the basin of attraction for A and denoted B(A), which consists of all points b that "enter A in the limit t → ∞". More formally, B(A) is the set of all points b in the phase space with the following property:
+
+For any open neighborhood N of A, there is a positive constant T such that f(t,b) ∈ N for all real t > T.
+
+There is no proper (non-empty) subset of A having the first two properties.
+Since the basin of attraction contains an open set containing A, every point that is sufficiently close to A is attracted to A. The definition of an attractor uses a metric on the phase space, but the resulting notion usually depends only on the topology of the phase space. In the case of Rn, the Euclidean norm is typically used.
+Many other definitions of attractor occur in the literature. For example, some authors require that an attractor have positive measure (preventing a point from being an attractor), others relax the requirement that B(A) be a neighborhood

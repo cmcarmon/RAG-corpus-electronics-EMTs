@@ -1,0 +1,6 @@
+The  second  most  noticeable  feature  on  DSP  chips  is  the  existence  of  multiple  data  buses  and  memories.
+Many chips have two data memories, each with a data bus, allowing the simultaneous fetch of two operands
+for the multiply-accumulate operation. Furthermore, most chips use the Harvard architecture, characterized
+by separate program and data memories, so that instructions and data can be fetched simultaneously. Others
+use a modiﬁed Harvard architecture, where data can be stored in slower, cheaper program memory and moved
+to the faster data memory as needed.

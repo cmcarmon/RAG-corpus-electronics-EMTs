@@ -1,0 +1,21 @@
+12.9 S T A T E - V A R I A B L E M E T H O D
+In the preceding sections of this chapter, we used the node method to analyze
+the behavior of various second-order circuits. This form of analysis directly yields
+the node voltages within a circuit expressed as functions of time. However, as
+noted earlier, we are often more interested in the circuit states than we are in
+the node voltages. In this case, we must use the node voltages to determine the
+states, and this takes additional effort. As we shall see shortly, there exists an
+alternative method of analysis that is particularly useful when the circuit states
+are of primary interest. We will refer to this method as state-variable analysis.
+Its principal advantage is that it offers a more direct way to obtain the equations
+which govern state evolution, and hence a more direct way to determine the
+states themselves. Of course, to determine the node voltages from the results
+of a state-variable analysis also requires additional effort. Thus, when both the
+states and node voltages are of interest, there may be no best choice of analysis.
+The first step of a state-variable analysis is to derive the differential equations
+that explicitly govern the evolution of the circuit states. The second step is to
+solve these state equations for the states as functions of time. The states may
+then be used to determine any other branch variables of interest. Here, we
+will focus only on the first step since the solution of the differential equations
+that are the state equations may be executed using the same method employed
+earlier in this chapter, or the method developed in Section 12.10.

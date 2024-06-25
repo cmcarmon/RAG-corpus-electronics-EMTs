@@ -1,0 +1,6 @@
+Provided that aliasing is avoided, the sampled signal has to
+be processed by a two-dimensional low-pass ﬁlter to obtain the
+image signal back into its analog form. This ﬁlter should
+ideally have a transfer function with an amplitude spectrum
+equal to one in the support region of the Fourier transform of
+the original image and zero outside that region.

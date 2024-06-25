@@ -1,0 +1,17 @@
+In the rest of this example, we will discuss the piecewise-linear model for the BJT pre-
+sented in Figure 7.49c and compare its predictions with the measured characteristics
+(iC versus vCE for various values of iB) shown in Figure 7.48. We will plot the
+characteristics predicted by the piecewise-linear model assuming β = 100.
+To plot the characteristics, we identify BJT behavior in the two piecewise-linear regions
+of operation that are of interest to us, and shown in Figure 7.50: cutoff and active.
+We first observe that iC is zero when the BJT is in cutoff, that is, when iB = 0 (see
+Figure 7.50a). The curve labeled ‘‘Cutoff region’’ in Figure 7.51 depicts this situation.
+Next, when iB > 0 and vCE > vBE−0.4 V (or, equivalently, vCE > 0.2 V), the collector
+current is a constant at β times the base current (Figure 7.50b). In the iC versus vCE plot
+in Figure 7.51, these constant current curves appear as horizontal lines. Because β is a
+constant, the iC versus iB relationship is linear, and so the lines are equally spaced for
+equal increments in iB.
+Finally, when iB > 0 and vCE = vBE − 0.4 V (or, equivalently, when vCE = 0.2 V), the
+saturation region model applies (Figure 7.50c). vCE is correctly shown as being pinned at
+0.2 V. The vertical line at vCE = 0.2 V corresponding to iC indicates a short-circuit-like
+behavior in which the collector current is limited only by external circuit constraints.

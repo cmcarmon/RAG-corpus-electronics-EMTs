@@ -1,0 +1,19 @@
+Directionality of a relay operation is quite important in
+many applications. It is established based on the angle of the
+fault current with the respect to the line voltage. It can be
+established for current alone or for impedance. In the latter
+case, the directionality is detected by looking at the angle
+between the reference voltages and fault current. In the imped-
+ance plane, the directionality is detected by the quadrant where
+the impedance falls. Whether the calculated fault impedance
+is in a forward (ﬁrst-quadrant) or reverse (third-quadrant)
+zone determines the directions of the fault. Typically, the zone
+associated with the reverse direction is called a reverse zone
+and is numbered in a sequence after the forward zones are
+numbered ﬁrst. The directionality may also be based on
+the power calculation, which in turn determines the direction
+of the power ﬂow to/from a given power system component.
+Besides being used for implementation of the transmission
+line relaying schemes, directionality is quite important when
+applying overcurrent principle and is often used when imple-
+menting various approaches to ground protection.

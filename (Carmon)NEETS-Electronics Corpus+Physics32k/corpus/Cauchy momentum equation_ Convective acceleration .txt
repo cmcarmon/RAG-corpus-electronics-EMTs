@@ -1,0 +1,10 @@
+A significant feature of the Navier–Stokes equations is the presence of convective acceleration: the effect of time-independent acceleration of a flow with respect to space. While individual continuum particles indeed experience time dependent-acceleration, the convective acceleration of the flow field is a spatial effect, one example being fluid speeding up in a nozzle.
+Regardless of what kind of continuum is being dealt with, convective acceleration is a nonlinear effect. Convective acceleration is present in most flows (exceptions include one-dimensional incompressible flow), but its dynamic effect is disregarded in creeping flow (also called Stokes flow). Convective acceleration is represented by the nonlinear quantity u · ∇u, which may be interpreted either as (u · ∇)u or as u · (∇u), with ∇u the tensor derivative of the velocity vector u. Both interpretations give the same result, independent of the coordinate system — provided
+
+
+
+∇
+
+
+{\displaystyle \nabla }
+is interpreted as the covariant derivative.

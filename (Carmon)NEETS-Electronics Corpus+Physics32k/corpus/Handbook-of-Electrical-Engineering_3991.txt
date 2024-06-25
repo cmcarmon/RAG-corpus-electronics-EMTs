@@ -1,0 +1,21 @@
+Tunnel Diodes
+Tunnel diodes [Sze, 1981] generate active characteristics by a mechanism involving the physical tunneling of
+electrons between energy bands in highly doped semiconductors. For example, if a pn junction diode is heavily
+doped,  the  conduction  and  valence  bands  will  be  located  in  close  proximity  and charge carriers  can  tunnel
+through the electrostatic barrier separating the p-type and n-type regions, rather than be thermionically emitted
+over the barrier as generally occurs in this type of diode. When the diode is biased (either forward or reverse
+bias)  current  immediately  ﬂows  and  junction  conduction  is  basically  ohmic.  In  the  forward  bias  direction,
+conduction  occurs  until  the  applied  bias  forces  the  conduction  and  valence  bands  to  separate.  The  tunnel
+current then decreases and normal junction conduction occurs. In the forward bias region where the tunnel
+current is decreasing with increasing bias voltage, a negative immittance characteristic is generated. The immit-
+tance is called “N-type” because the I-V characteristic “looks like” the letter N. This type of active element is
+short-circuit stable and is described by a negative conductance in shunt with a capacitance. Tunnel diodes are
+limited in operation frequency by the time it takes for charge carriers to tunnel through the junction. Since
+this time is very short (on the order of 10–12 s) operation frequency can be very high, approaching 1000 GHz.
+Tunnel  diodes  have  been  operated  at  hundreds  of  gigahertz,  limited  by  practical  packaging  and  parasitic
+impedance considerations. The RF power available from a tunnel diode is limited (hundreds of milliwatts level)
+since the maximum RF voltage swing that can be applied across the junction is limited by the forward turn-
+on characteristics of the device (typically 0.6–0.9 V). Increased RF power can only be obtained by increasing
+device area to increase RF current, but device area is limited by operation frequency according to an inverse
+scaling law. Tunnel diodes have moderate dc-to-RF conversion efﬁciency (<10%), very low noise ﬁgures, and
+are useful in low-noise systems applications, such as microwave and millimeter-wave receivers.

@@ -1,0 +1,111 @@
+The imaging system's resolution can be limited either by aberration or by diffraction causing blurring of the image. These two phenomena have different origins and are unrelated. Aberrations can be explained by geometrical optics and can in principle be solved by increasing the optical quality — and consequently the cost — of the system. On the other hand, diffraction comes from the wave nature of light and is determined by the finite aperture of the optical elements. The lens' circular aperture is analogous to a two-dimensional version of the single-slit experiment. Light passing through the lens interferes with itself creating a ring-shape diffraction pattern, known as the Airy pattern, if the wavefront of the transmitted light is taken to be spherical or plane over the exit aperture.
+The interplay between diffraction and aberration can be characterised by the point spread function (PSF). The narrower the aperture of a lens the more likely the PSF is dominated by diffraction. In that case, the angular resolution of an optical system can be estimated (from the diameter of the aperture and the wavelength of the light) by the Rayleigh criterion defined by Lord Rayleigh: two point sources are regarded as just resolved when the principal diffraction maximum of one image coincides with the first minimum of the other. If the distance is greater, the two points are well resolved and if it is smaller, they are regarded as not resolved. Rayleigh defended this criteria on sources of equal strength.
+Considering diffraction through a circular aperture, this translates into:
+
+
+
+
+θ
+=
+1.220
+
+
+λ
+D
+
+
+
+
+{\displaystyle \theta =1.220{\frac {\lambda }{D}}}
+
+where θ is the angular resolution (radians), λ is the wavelength of light, and D is the diameter of the lens' aperture. The factor 1.220 is derived from a calculation of the position of the first dark circular ring surrounding the central Airy disc of the diffraction pattern. This number is more precisely 1.21966989... ( A245461), the first zero of the order-one Bessel function of the first kind
+
+
+
+
+J
+
+1
+
+
+(
+x
+)
+
+
+{\displaystyle J_{1}(x)}
+divided by π.
+The formal Rayleigh criterion is close to the empirical resolution limit found earlier by the English astronomer W. R. Dawes who tested human observers on close binary stars of equal brightness. The result, θ = 4.56/D, with D in inches and θ in arcseconds is slightly narrower than calculated with the Rayleigh criterion: A calculation using Airy discs as point spread function shows that at Dawes' limit there is a 5% dip between the two maxima, whereas at Rayleigh's criterion there is a 26.3% dip. Modern image processing techniques including deconvolution of the point spread function allow resolution of binaries with even less angular separation.
+The angular resolution may be converted into a spatial resolution, Δℓ, by multiplication of the angle (in radians) with the distance to the object. For a microscope, that distance is close to the focal length f of the objective. For this case, the Rayleigh criterion reads:
+
+
+
+
+Δ
+ℓ
+=
+1.220
+
+
+
+f
+λ
+
+D
+
+
+
+
+{\displaystyle \Delta \ell =1.220{\frac {f\lambda }{D}}}
+.
+This is the size, in the imaging plane, of smallest object that the lens can resolve, and also the radius of the smallest spot to which a collimated beam of light can be focused. The size is proportional to wavelength, λ, and thus, for example, blue light can be focused to a smaller spot than red light. If the lens is focusing a beam of light with a finite extent (e.g., a laser beam), the value of D corresponds to the diameter of the light beam, not the lens.Note Since the spatial resolution is inversely proportional to D, this leads to the slightly surprising result that a wide beam of light may be focused to a smaller spot than a narrow one. This result is related to the Fourier properties of a lens.
+A similar result holds for a small sensor imaging a subject at infinity: The angular resolution can be converted to a spatial resolution on the sensor by using f as the distance to the image sensor; this relates the spatial resolution of the image to the f-number, f/#:
+
+
+
+
+Δ
+ℓ
+≈
+1.220
+
+
+
+f
+λ
+
+D
+
+
+=
+1.22
+λ
+⋅
+(
+f
+
+/
+
+#
+)
+
+
+{\displaystyle \Delta \ell \approx 1.220{\frac {f\lambda }{D}}=1.22\lambda \cdot (f/\#)}
+.
+Since this is the radius of the Airy disk, the resolution is better estimated by the diameter,
+
+
+
+2.44
+λ
+⋅
+(
+f
+
+/
+
+#
+)
+
+
+{\displaystyle 2.44\lambda \cdot (f/\#)}

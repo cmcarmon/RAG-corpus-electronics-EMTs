@@ -1,0 +1,279 @@
+Let the object be in contact at a finite number of points
+
+
+
+
+C
+
+1
+
+
+,
+…
+,
+
+C
+
+N
+
+
+
+
+{\displaystyle C_{1},\ldots ,C_{N}}
+. At each point
+
+
+
+
+C
+
+k
+
+
+
+
+{\displaystyle C_{k}}
+, let
+
+
+
+F
+
+C
+
+k
+
+
+
+
+{\displaystyle FC_{k}}
+be the set of forces that can be applied on the object at that point. Here,
+
+
+
+F
+
+C
+
+k
+
+
+
+
+{\displaystyle FC_{k}}
+is known as the friction cone, and for the Coulomb model of friction, is actually a cone with apex at the origin, extending to infinity in the normal direction of the contact.
+Let
+
+
+
+
+f
+
+1
+
+
+,
+…
+,
+
+f
+
+N
+
+
+
+
+{\displaystyle f_{1},\ldots ,f_{N}}
+be the (unspecified) forces at the contact points. To balance the object in static equilibrium, the following Newton-Euler equations must be met on
+
+
+
+
+f
+
+1
+
+
+,
+…
+,
+
+f
+
+N
+
+
+
+
+{\displaystyle f_{1},\ldots ,f_{N}}
+:
+
+
+
+
+
+∑
+
+k
+=
+1
+
+
+N
+
+
+
+f
+
+k
+
+
++
+G
+=
+0
+
+
+{\displaystyle \sum _{k=1}^{N}f_{k}+G=0}
+
+
+
+
+
+
+∑
+
+k
+=
+1
+
+
+N
+
+
+
+f
+
+k
+
+
+×
+
+C
+
+k
+
+
++
+G
+×
+C
+M
+=
+0
+
+
+{\displaystyle \sum _{k=1}^{N}f_{k}\times C_{k}+G\times CM=0}
+
+
+
+
+
+
+f
+
+k
+
+
+∈
+F
+
+C
+
+k
+
+
+
+
+{\displaystyle f_{k}\in FC_{k}}
+for all
+
+
+
+k
+
+
+{\displaystyle k}
+
+where
+
+
+
+G
+
+
+{\displaystyle G}
+is the force of gravity on the object, and
+
+
+
+C
+M
+
+
+{\displaystyle CM}
+is its center of mass. The first two equations are the Newton-Euler equations, and the third requires all forces to be valid. If there is no set of forces
+
+
+
+
+f
+
+1
+
+
+,
+…
+,
+
+f
+
+N
+
+
+
+
+{\displaystyle f_{1},\ldots ,f_{N}}
+that meet all these conditions, the object will not be in equilibrium.
+The second equation has no dependence on the vertical component of the center of mass, and thus if a solution exists for one
+
+
+
+C
+M
+
+
+{\displaystyle CM}
+, the same solution works for all
+
+
+
+C
+M
++
+α
+G
+
+
+{\displaystyle CM+\alpha G}
+. Therefore, the set of all
+
+
+
+C
+M
+
+
+{\displaystyle CM}
+that have solutions to the above conditions is a set that extends infinitely in the up and down directions. The support polygon is simply the projection of this set on the horizontal plane.
+These results can easily be extended to different friction models and an infinite number of contact ponts (i.e. a region of contact).

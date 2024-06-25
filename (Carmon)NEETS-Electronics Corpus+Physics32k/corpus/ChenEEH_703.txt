@@ -1,0 +1,7 @@
+the image is computed, and each pixel is replaced by the
+difference between this maximum value and itself. Next, for
+each pixel we look at whether a neighbor pixel is larger than
+itself. If this is the case, the output pixel is false; otherwise it is
+true. The complete cavity detection algorithm contains some
+more functions, but these have been left out here for simpli-
+city:

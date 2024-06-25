@@ -1,0 +1,8 @@
+Obtaining the Solution
+When a solution matrix has been developed using inversion or factorization, subsequently obtaining the solution
+(most often a current) is computationally straightforward, involving multiplication of the right-hand side (RHS)
+source vector by the solution matrix. When an iterative approach is used, a solution matrix is not computed,
+but the solution is instead developed from RHS-dependent manipulation of the direct matrix. Motivation for
+3 dependency of the direct procedure. As problem size
+the latter comes from the possibility of reducing the Nx
+increases, the computation cost will be increasingly dominated by the solution time.

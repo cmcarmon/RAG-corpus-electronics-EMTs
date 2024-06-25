@@ -1,0 +1,6 @@
+Mean-Square Estimation
+For the simplicity of our discussion we consider the case of estimating a single continuous type random variable
+q with density p(q) instead of estimating a random vector. We also reduce the dimensionality of the observation
+space to one. In this framework the penalty function will be the square of the estimation error (q – q^ )2 and
+the performance or optimality criterion will be the minimization of the mean (expected) square value of the
+estimation error.

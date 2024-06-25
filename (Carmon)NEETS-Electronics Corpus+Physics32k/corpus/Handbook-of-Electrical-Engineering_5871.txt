@@ -1,0 +1,20 @@
+Dynamic  models.  When  a  power  system  is  in  a  steady  state  (i.e.,
+operated at an equilibrium), the electrical output of each generator is
+equal to the power applied to the rotor shaft. (Various losses have been
+neglected without affecting the essential ideas provided in this discus-
+sion.)  Disturbances  occur  frequently  in  power  systems,  however.
+Examples of disturbances are load changes, short circuits, and equip-
+ment outages. A disturbance results in a mismatch between the power
+input and output of generators, and therefore the rotors depart from
+their  synchronous-speed  operation.  Intuitively,  the  impact  is  more
+severe for machines closer to the disturbance. When a system is per-
+turbed, there are several possibilities for its subsequent behavior. If the
+disturbance is small, the machines may soon reach a new steady speed,
+which is close to or identical to their synchronous speed, in which case
+the system is said to be stable. It may also happen that some machines speed up while others slow down. In a
+more complicated situation, a rotor may oscillate about its synchronous speed. This results in an unstable case.
+An  unstable  situation  can  result  in  abnormal  changes  in  system  frequency  and  voltage  and,  unless  properly
+controlled, may lead to damage to machines (e.g., broken shafts). To study these phenomena, dynamic models
+are required. Details of a dynamic model depend on a number of factors such as location of disturbance and
+time duration of interest. An overview of dynamic generator models is given here. In essence, there are two
+aspects that need be modeled: electromechanical and electromagnetic.

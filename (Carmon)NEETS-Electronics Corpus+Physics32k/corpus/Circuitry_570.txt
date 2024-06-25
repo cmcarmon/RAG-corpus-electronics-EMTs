@@ -1,0 +1,19 @@
+normally-open (NO) actions. 
+  The  value  of  monostable  timing  period  can  be 
+calculated from the formula: 
+ 
+ton = 1.1 C R
+We need to choose an appropriate value for C that 
+is  in  the  range  stated  earlier.  Since  we  require  a 
+fairly long time period we will choose a relatively 
+large value of C in order to avoid making the value 
+of  R too  high.  A  value  of  100  µF  should  be 
+appropriate  and  should  also  be  easy  to  obtain. 
+Making  R the  subject  of 
+the  formula  and 
+substituting for C = 100 µF gives: 
+60
+1.1 100 µF 110 10
+6
+(cid:2)
+×

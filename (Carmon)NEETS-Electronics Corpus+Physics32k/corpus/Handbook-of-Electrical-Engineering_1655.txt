@@ -1,0 +1,7 @@
+best prediction of x(tk) given x(tk–1), assuming that wk is a zero-mean random variable uncorrelated with x(tk–1).
+Hence, the state vector prediction in the Kalman ﬁlter is intuitively exactly what one would expect. The state
+vector update is also intuitively reasonable. In particular, it is a linear combination of the predicted value of x
+and  the  latest  measurement  zk.  This  linear  combination  of  xk  and  zk  is  computed  as  a  compromise  between
+prediction errors in xk and the measurement noise errors in zk. That is, the Kalman ﬁlter gain is computed to
+optimally combine xk and zk, using the known models of system dynamics and measurements. More speciﬁcally,
+the Kalman ﬁlter gain is computed to minimize the following error criterion at the time of the kth measurement:

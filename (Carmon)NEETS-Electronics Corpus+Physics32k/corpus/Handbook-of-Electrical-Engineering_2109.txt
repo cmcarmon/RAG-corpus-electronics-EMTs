@@ -1,0 +1,10 @@
+Normalization
+Another important signal processing function for the detection of weak signals in the presence of unknown
+and (temporal and spatial) varying noise is normalization. The statistics of noise or reverberation for oceans
+typically varies in time, frequency, and/or bearing from measurement to measurement and location to location.
+To detect a weak signal in a broadband, nonstationary, and inhomogeneous background, it is usually desirable
+to  make  the  noise  background  statistics  as  uniform  as  possible  for  the  variations  in  time,  frequency,  and/or
+bearing. The noise background estimates are ﬁrst obtained from a window of resolution cells (which usually
+surrounds the test data cell). These estimates are then used to normalize the test cell, thus reducing the effects
+of the background noise on detection. Window length and distance from the test cell are two of the parameters
+that can be adjusted to obtain accurate estimates of the different types of stationary or nonstationary noise.

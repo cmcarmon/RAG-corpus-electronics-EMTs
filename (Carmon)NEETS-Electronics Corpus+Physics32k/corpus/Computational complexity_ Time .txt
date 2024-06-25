@@ -1,0 +1,2 @@
+The resource that is most commonly considered is the time, and one talks of time complexity. When "complexity" is used without being qualified, this generally means time complexity.
+The usual units of time are not used in complexity theory, because they are too dependent on the choice of a specific computer and of the evolution of the technology. Therefore, instead of the real time, one generally consider the elementary operations that are done during the computation. These operations are supposed to take a constant time on a given machine, and are often called steps.

@@ -1,0 +1,4 @@
+The ssb generator (modulator) combines its audio input and its carrier input to produce the two
+sidebands. The two sidebands are then fed to a filter that selects the desired sideband and suppresses the
+other one. By eliminating the carrier and one of the sidebands, intelligence is transmitted at a savings in
+power and frequency bandwidth.

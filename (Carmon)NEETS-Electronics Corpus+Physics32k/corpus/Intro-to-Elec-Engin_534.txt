@@ -1,0 +1,10 @@
+Figure 6.1.25 illustrates a master–slave JKFF, in which gates A, B, C, and D form the master
+ﬂip-ﬂop and T, U, V, and W form the slave. The output of the master–slave JKFF can be predicted
+for all combinations of J and K and for any duration of clock pulse. Thus it is the most versatile
+and universal type of ﬂip-ﬂop. SRFFs are also available in master–slave conﬁguration.
+¯Ck = 0 disables the slave. Let Q ¯Q = 10 and J K = 11 before
+the occurrence of a clock pulse. B is enabled by Q = 1 so that when the clock pulse arrives
+(i.e., Ck = 1), F goes to zero and ¯QM to 1. Now with E = 1 and ¯QM = 1, QM goes to zero so
+that the slave, at this stage, is essentially an SRFF with inputs S and R equal to QM and ¯QM,
+¯Ck goes to 1 and the slave is now reset by its inputs
+¯QM = 01. But the feedback to J and K cannot cause a race because, with Ck = 0, the master

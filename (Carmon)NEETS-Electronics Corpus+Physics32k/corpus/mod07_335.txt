@@ -1,0 +1,10 @@
+When it is necessary to block the voltage between one electronic circuit and another, and transfer the 
+signal at the same time, an amplifier coupling capacitor is often used as shown in figure 3-36. Although 
+this method of coupling does block dc between the circuits, voltage isolation is not complete. A newer 
+method, making use of optoelectronic devices to achieve electrical isolation, is the optical coupler, shown 
+in figure 3-37. The coupler is composed of an LED and a photodiode contained in a light-conducting 
+medium. As the polarity signs in figure 3-37 show, the LED is forward biased, while the photodiode is 
+reverse biased. When the input signal causes current through the LED to increase, the light produce by the 
+LED increases. This increased light intensity causes current flow through the photodiode to increase. In 
+this way, changes in input current produce proportional changes in the output, even though the two 
+circuits are electrically isolated. 

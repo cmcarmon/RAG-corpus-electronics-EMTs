@@ -1,0 +1,9 @@
+Examination of the constraints, 4.5 and 4.6, reveals a pro-
+cedure for preventing clock hazards. Assuming equation 4.5 is
+not satisﬁed, a suitably large value of TCP can be chosen to
+satisfy constraint 4.5 and prevent zero clocking. Also note that
+unlike equation 4.5, equation 4.6 is independent of the clock
+period TCP (or the clock frequency). Therefore, TCP cannot be
+changed to correct a double clocking hazard. Rather, a redesign
+of the entire clock distribution network may be required
+(Neves and Friedman, 1996a).

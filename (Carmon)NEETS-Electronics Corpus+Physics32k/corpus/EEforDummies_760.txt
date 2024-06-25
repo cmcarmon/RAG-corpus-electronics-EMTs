@@ -1,0 +1,8 @@
+You can use various types of 555 timer circuits to trigger other 555 timer cir-
+cuits. For instance, you can use an oscillator to trigger a flip‐flop (useful for 
+clocking registers). Or you can use a one‐shot to produce a temporary low‐
+volume tone — and when it ends, change the state of a flip‐flop, whose output 
+triggers an oscillator that pulses a speaker on and off. Such a circuit might be 
+used in a home alarm system: Upon entering the home, the homeowner (or 
+intruder) has 10 seconds or so to deactivate the system (while hearing a low‐
+volume warning tone) before the siren wakes up the neighbors.

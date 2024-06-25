@@ -1,0 +1,9 @@
+To be more realistic, both a sensor noise and an actuator
+noise have been added to the state measurements and the
+action network output. Speciﬁcally, the actuator noise has
+been implemented through u(t) ¼ u(t) þ r, where r is a uni-
+formly distributed random variable. For the sensor noise, both
+uniform and Gaussian random variables were added to the
+angle measurements u. The uniform state sensor noise was
+implemented through u ¼ (1 þ noise percentage)  u. Gaus-
+sian sensor noise was zero mean with speciﬁed variance.

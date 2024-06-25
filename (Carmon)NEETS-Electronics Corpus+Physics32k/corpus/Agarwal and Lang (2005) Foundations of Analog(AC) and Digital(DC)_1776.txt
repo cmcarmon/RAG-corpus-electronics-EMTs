@@ -1,0 +1,13 @@
+Interestingly, when ringing occurs during the transient, calculating the propagation delay
+is not as straightforward as in the RC case. In the RC case, the propagation delay of the
+driving inverter was simply the time required for the output voltage to fall below the
+valid output low threshold, VOL (see Section 10.4.2). For our discussion, we will assume
+that when the inductance of the connecting wire is relevant, the delay associated with
+the driving inverter includes the effect of both the inductor LI and the gate capacitance
+CGS2. Accordingly, we can see from the circuit model in Figure 12.37 that the relevant
+output node for computing the propagation delay of the driving inverter is vIN2 = vC.
+With ringing behavior during a falling transition, this output is a valid low only when all
+oscillations remain below the VOL threshold. The corresponding tpd,0→1 propagation
+delay is depicted in Figure 12.39; recall that for an inverter tpd,0→1 is the delay of the
+inverter for a low to high transition at the input, and hence a high to low transition at
+the output.

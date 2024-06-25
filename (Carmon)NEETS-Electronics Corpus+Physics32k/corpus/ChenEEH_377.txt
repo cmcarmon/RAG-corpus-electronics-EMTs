@@ -1,0 +1,24 @@
+Typically, ﬁlter applications have sharp transitions between
+passbands and stopbands and have complex poles close to
+the jv axis; that is, their quality factors, Qi, are large. The
+realization of such high-Q poles requires circuit impedances
+that change their values with frequency very rapidly. This
+problem has been solved traditionally with resonance: the
+implementation requires inductors, L, and capacitors, C,
+because RC circuits have poles only on the negative real axis
+in the s-plane where Q  1=2. Because inductors are large and
+bulky, LC circuits cannot easily be miniaturized (except at the
+highest frequencies) so that other approaches are needed for
+ﬁlters in modern communications and controls systems. A
+popular and widely used solution that avoids bulky inductors
+makes use of the fact that complex high-Q pole pairs can be
+implemented by combining RC circuits with gain. Gain in
+active circuits is most commonly provided by the operational
+ampliﬁer, the op-amp, or sometimes by the operational trans-
+conductance ampliﬁer (OTA). It is very easy to see that com-
+plex poles can indeed be obtained from active RC circuits.
+Consider an inverting lossy integrator, as shown in Figure
+4.2(A), and a noninverting lossless (ideal) integrator, as
+shown in Figure 4.2(B). Using conductances, G ¼ 1=R, and
+assuming the op-amps are ideal, the lossy and lossless integra-
+tors, respectively, realize the functions:

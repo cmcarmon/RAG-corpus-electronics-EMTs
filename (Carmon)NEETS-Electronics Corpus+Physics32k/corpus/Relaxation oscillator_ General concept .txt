@@ -1,0 +1,19 @@
+The system is in unstable equilibrium if both the inputs and outputs of the comparator are at zero volts. The moment any sort of noise, be it thermal or electromagnetic noise brings the output of the comparator above zero (the case of the comparator output going below zero is also possible, and a similar argument to what follows applies), the positive feedback in the comparator results in the output of the comparator saturating at the positive rail.
+In other words, because the output of the comparator is now positive, the non-inverting input to the comparator is also positive, and continues to increase as the output increases, due to the voltage divider. After a short time, the output of the comparator is the positive voltage rail,
+
+
+
+
+V
+
+D
+D
+
+
+
+
+{\displaystyle V_{DD}}
+.
+
+The inverting input and the output of the comparator are linked by a series RC circuit. Because of this, the inverting input of the comparator asymptotically approaches the comparator output voltage with a time constant RC. At the point where voltage at the inverting input is greater than the non-inverting input, the output of the comparator falls quickly due to positive feedback.
+This is because the non-inverting input is less than the inverting input, and as the output continues to decrease, the difference between the inputs gets more and more negative. Again, the inverting input approaches the comparator's output voltage asymptotically, and the cycle repeats itself once the non-inverting input is greater than the inverting input, hence the system oscillates.

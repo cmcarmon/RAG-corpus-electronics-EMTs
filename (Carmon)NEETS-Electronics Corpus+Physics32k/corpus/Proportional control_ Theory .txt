@@ -1,0 +1,171 @@
+In the proportional control algorithm, the controller output is proportional to the error signal, which is the difference between the setpoint and the process variable. In other words, the output of a proportional controller is the multiplication product of the error signal and the proportional gain.
+This can be mathematically expressed as,
+
+
+
+
+
+P
+
+
+o
+u
+t
+
+
+
+=
+
+K
+
+p
+
+
+
+
+e
+(
+t
+)
++
+p
+0
+
+
+
+{\displaystyle P_{\mathrm {out} }=K_{p}\,{e(t)+p0}}
+
+where
+
+
+
+
+p
+0
+
+
+{\displaystyle p0}
+: Controller output with zero error.
+
+
+
+
+
+P
+
+
+o
+u
+t
+
+
+
+
+
+{\displaystyle P_{\mathrm {out} }}
+: Output of the proportional controller
+
+
+
+
+
+K
+
+p
+
+
+
+
+{\displaystyle K_{p}}
+: Proportional gain
+
+
+
+
+e
+(
+t
+)
+
+
+{\displaystyle e(t)}
+: Instantaneous process error at time t.
+
+
+
+e
+(
+t
+)
+=
+S
+P
+−
+P
+V
+
+
+{\displaystyle e(t)=SP-PV}
+
+SP: Set point
+PV: Process variable
+Constraints: In a real plant, actuators have physical limitations that can be expressed as constraints on
+
+
+
+
+P
+
+
+o
+u
+t
+
+
+
+
+
+{\displaystyle P_{\mathrm {out} }}
+. For example,
+
+
+
+
+P
+
+
+o
+u
+t
+
+
+
+
+
+{\displaystyle P_{\mathrm {out} }}
+may be bounded between −1 and +1 if those are the maximum output limits.
+Qualifications: It is preferable to express
+
+
+
+
+K
+
+p
+
+
+
+
+{\displaystyle K_{p}}
+as a unitless number. To do this, we can express
+
+
+
+e
+(
+t
+)
+
+
+{\displaystyle e(t)}
+as a ratio with the span of the instrument. This span is in the same units as error (e.g. C degrees) so the ratio has no units.

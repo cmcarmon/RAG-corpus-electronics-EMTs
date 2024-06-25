@@ -1,0 +1,17 @@
+signal, STB. When the central processor is ready for the data it selects the port by setting the correct address
+bits on the device select inputs. This enables the 3S output buffers and data is routed to the processor data bus
+via  the  DO  lines.  This  device  also  includes  a  service  request  ﬂip-ﬂop  to  generate  an  interrupt  signal  to  the
+processor when the data is ready. In the alternative mode of use, with the mode input at 1, the device select
+logic routes data from the processor, now connected to the DI inputs, so the 8212 acts as an output port. The
+data is immediately available to the peripheral unit on the DO lines, as the 3S output buffers are permanently
+enabled. A more sophisticated range of input and output facilities is provided by most microprocessor manu-
+facturers in the form of programmable input/output ports or peripheral interfaces. These are special registers
+with appropriate buffers and additional built-in control and status registers to facilitate proper system operation.
+The majority of input/output devices use 3S bidirectional buffers which switch to the high-impedance state
+when not enabled. Some input/output ports, however, such as the 8051 family of microcontrollers and deriv-
+atives, are provided with quasi-bidirectional ports. In this construction, each port pin has an internal pull-up
+transistor, as shown in Fig. 81.36. For the port pin to be operative as an input the port latch must contain a 1,
+so that the output FET driver is turned off. (All port latches in the 8051 are set by the reset function.) Under
+this condition, the pin voltage is pulled high but can be taken low by an external signal when required. These
+inputs can, therefore, be driven in a normal way by TTL and MOS circuits and can also cope with open-collector
+or open-drain circuits using the pull-up transistors as load resistors.

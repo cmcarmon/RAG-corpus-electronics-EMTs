@@ -1,0 +1,6 @@
+To perform decoding when errors occur, we want to ﬁnd the codeword (one of the ﬁlled circles in Fig-
+ure 6.22) that has the highest probability of occurring: the one closest to the one received. Note that if a data
+word lies a distance of one from two codewords, it is impossible to determine which codeword was actually
+sent. This criterion means that if any two codewords are two bits apart, then the code cannot correct the
+channel-induced error. Thus, to have a code that can correct all single-bit errors, codewords must
+have a minimum separation of three. Our repetition code has this property.

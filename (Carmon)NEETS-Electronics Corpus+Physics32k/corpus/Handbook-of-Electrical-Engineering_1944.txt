@@ -1,0 +1,8 @@
+The folding transformation can be applied to fold a bit-parallel architecture to a digit-serial or bit-serial one
+or to fold a digit-serial architecture to a bit-serial one. It can also be applied to fold an algorithm data ﬂow
+graph to a hardware data ﬂow for a speciﬁed folding set. The folding set indicates the processor in which and
+the time partition at which a task is executed. A speciﬁed folding set may be infeasible, and this needs to be
+detected ﬁrst. The folding transformation performs a preprocessing step to detect feasibility and in the feasible
+case transforms the algorithm data ﬂow graph to an equivalent pipelined/retimed data ﬂow graph that can be
+folded.  For  the  special  case  of  regular  data  ﬂow  graphs  and  for  linear  space–time  mappings,  the  folding
+tranformation reduces to 

@@ -1,0 +1,7 @@
+The frequency response is the summation of the individual frequency responses in each track, which may be
+widely varying depending on the required impulse response. This spatial weighting complicates the calculations
+of the equivalent circuit for the transducer. Each track must be evaluated separately for its acoustic conductance,
+acoustic  capacitance,  and  acoustic  susceptance.  The  transducer  elements  are  then  obtained  by  summing  the
+individual  track  values  yielding  the  ﬁnal  transducer  equivalent  circuit  parameters.  These  parameters  can  be
+solved analytically for simple impulse response shapes (such as the rect, triangle, cosine, etc.) but are usually
+solved numerically on a computer [Richie et al., 1988].

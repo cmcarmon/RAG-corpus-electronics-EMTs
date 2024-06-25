@@ -1,0 +1,29 @@
+First, we consider an approach based on the likelihood that
+the observations could have been produced using any state
+sequence (path) through a given model. The most common
+technique applied to this problem is the so-called the forward–
+backward (F–B) algorithm, also called Baum-Welch re-
+estimation. The full F–B algorithm was developed in the series
+of papers by Baum and colleagues (Baum, 1972). The under-
+lying principles described in these papers are well beyond the
+scope of this treatment. The interested reader is referred, for
+example, to Deller et al. (2000) and Rabiner and Juang (1993).
+We simply note that the method represents an enormous
+savings in computation with respect to the effort required by
+exhaustive evaluation of all paths in each model. For S ¼ 5 and
+T ¼ 100, for example, the F–B method yields an improvement
+of 69 orders of magnitude with respect to the same computa-
+tion carried out directly.
+The second approach evaluates the likelihood be based on
+only the best state sequence through M. A Viterbi search
+provides a slightly more cost-efﬁcient alternative to the F–B
+method, with typically 10 to 25% fewer computations re-
+quired. Recalling that the Viterbi algorithm amounts to a DP
+search with stochastic costs, it is not surprising that Viterbi
+search returns a total cost based on the single best state path
+through the HMM. Formally, given observation string y of
+length T and HMM M, the Viterbi search returns the likeli-
+hood P(y, IjM), where I¼def
+arg maxI2ST P(y, IjM) in
+which ST represents the set of legal state sequences (paths)
+of duration T.

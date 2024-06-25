@@ -1,0 +1,15 @@
+Training and Searching the Language Model
+Training methods akin to those studied in previous sections
+are available for constructing LMs (e.g., see Chapter 13 of
+Deller et al., 2000). Both F–B-like and Viterbi-like approaches
+exist for the inference of the probabilities of the production
+rules of a stochastic grammar, given the characteristic gram-
+mar (rules without probabilities) (Fu, 1982; Levinson, 1985).
+For a regular grammar, this task is equivalent to the problem of
+ﬁnding the probabilities associated with an HMM or an FSA
+with a ﬁxed structure. Consequently,
+these
+training algorithms exist is not surprising. In fact, however,
+any stochastic grammar may be shown to have a correlative
+doubly stochastic (HMM-like) process. A discussion of this
+issue and related references are found in Levinson (1985).

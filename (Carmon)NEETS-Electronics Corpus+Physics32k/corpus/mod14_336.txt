@@ -1,0 +1,4 @@
+When RB0 is HIGH and SB0 is LOW, RBO being LOW drives the output, Q , to a HIGH
+condition. The HIGH Q  and HIGH SBO  inputs to gate 1 cause the output, Q, to go LOW. This LOW is
+also fed to NAND gate 2 to be used as the latch signal. Since SB0 is LOW, the FF will again go into the
+latched mode if RB0 goes LOW.

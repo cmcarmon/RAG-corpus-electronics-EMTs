@@ -1,0 +1,38 @@
+The  inputs  of  the  address  decoding  logic  are 
+derived from one, or more, of the address bus lines. 
+The  address  decoder  effectively  divides 
+the 
+available  memory  into  blocks  corresponding  to  a 
+particular function (ROM, RAM, I/O, etc). Hence, 
+where the processor is reading and writing to RAM, 
+for example, the address decoding logic will ensure 
+that only the RAM is selected whilst the ROM and 
+I/O remain isolated from the data bus. 
+  Within  the  CPU,  data  is  stored  in  several 
+registers. Registers themselves can be thought of as 
+a simple pigeon-hole arrangement that can store as 
+many  bits  as  there  are  holes  available.  Generally, 
+these devices can store groups of sixteen or thirty-
+two  bits.  Additionally,  some  registers  may  be 
+configured as either one register of sixteen bits or 
+two registers of thirty-two bits. 
+  Some  microprocessor  registers  are  accessible  to 
+the  programmer  whereas  others  are  used  by  the 
+microprocessor  itself.  Registers  may  be  classified 
+as either general purpose or dedicated. In the latter 
+case  a  particular  function  is  associated  with  the 
+register, such as holding the result of an operation 
+or signalling the result of a comparison.  A typical 
+microprocessor  and  its  register  model  is  shown  in 
+Fig. 11.8. 
+ 
+The arithmetic logic unit 
+ 
+The  ALU  can  perform  arithmetic  operations 
+(addition 
+logic 
+(complementation,  logical  AND,  logical  OR,  etc). 
+The ALU operates on two inputs (sixteen or thirty-
+two  bits  in  length  depending  upon  the  CPU  type) 
+and  it  provides  one  output  (again  of  sixteen  or 
+thirty-two  bits).  In  addition,  the  ALU  status  is 

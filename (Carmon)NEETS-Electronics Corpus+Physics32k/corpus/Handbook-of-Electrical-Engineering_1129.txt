@@ -1,0 +1,9 @@
+The step-invariant and impulse-invariant techniques perform a time domain matching of the analog and
+digital  ﬁlters  but  can  produce  aliasing  in  the  frequency  domain.  For  frequency-selective  ﬁlters  it  is  better  to
+attempt matching frequency responses. This task is complicated by the fact that the analog ﬁlter response is
+deﬁned for an inﬁnite range of frequencies (W = 0 to ¥), while the digital ﬁlter response is deﬁned for a ﬁnite
+range of frequencies (w = 0 to p). Therefore, a method for mapping the inﬁnite range of analog frequencies
+W into the finite range from w = 0 to p, termed the bilinear transform, is employed.
+Bilinear Transform Design of IIR Filters
+Let Ha(s) be the Laplace transform transfer function of an analog ﬁlter with frequency response Ha(j W). The
+bilinear transform method obtains the digital ﬁlter transfer function H(z) from Ha(s) using the substitution

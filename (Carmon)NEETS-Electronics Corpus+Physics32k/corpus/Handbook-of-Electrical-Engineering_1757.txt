@@ -1,0 +1,7 @@
+Considerable understanding of a video signal processing system can be gained by representing the system
+with  the  block  diagram  given  in  Fig. 17.10.  Light  from  a  real-world  scene  is  captured  by  a scanning system
+and causes an image frame f (x,y,t0) to be formed on a focal plane. A video signal is a sequence of image frames
+that are created when a scanning system captures a new image frame at periodic intervals in time. In general,
+each frame of the video sequence is a function of two spatial variables x and y and one temporal variable t. An
+integral part of the scanning system is the process of converting the original analog signal into an appropriate
+digital representation. The conversion process includes the operations of sampling and quantization. Sampling

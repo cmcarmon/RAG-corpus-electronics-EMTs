@@ -1,0 +1,8 @@
+Equivalent Input Noise
+Shot noise (see below) and other noise can be modeled by equivalent thermal noise that would be generated
+in an input resistor by increased temperature. Recall that the (maximum) incremental available power (output)
+in a frequency bandwidth df is PWW(df ) = kTdf from Eq. (73.27). Figure 73.8(b) presents the situation. Let the
+resistor be the noise source at temperature To with thermal noise W(t). Then E[W(t)2] = 4kToRdf, by Eq. (73.24)
+(Nyquist’s result). Let the open circuit output noise power at RL be E[Y(t)2]. The incremental available noise
+power PYY(df ) at the output (RL = R) can be considered to be due to the resistor R having a higher temperature
+and an ideal (noiseless) device, usually an ampliﬁer. We must ﬁnd a temperature Te at which a pseudothermal

@@ -1,0 +1,2 @@
+Instead of hours and minutes, the mean solar day is divided into 1,000 parts called ".beats". Each .beat lasts 1 minute and 26.4 seconds. One .beat is equal to one decimal minute in French decimal time.
+Although Swatch does not specify units smaller than one .beat, third party implementations have extended the standard by adding "centibeats" or "sub-beats", for extended precision: @248.00. Each "centibeat" is a hundredth of a .beat and is therefore equal to one decimal second (0.864 seconds).

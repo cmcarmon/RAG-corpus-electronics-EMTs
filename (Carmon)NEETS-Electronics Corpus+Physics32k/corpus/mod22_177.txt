@@ -1,0 +1,7 @@
+All magnetic tape must be moving at a predetermined speed for data to be read from or written on 
+the tape. Data cannot be read or written while the tape is coming up to speed, slowing down, or stopped. 
+During this time delay, the tape moves a short distance creating a blank spot on the tape. This interrecord 
+gap or interblock gap separates each single record or block of records on the tape. The length of the gap 
+varies, depending upon the particular system and method of recording, but is approximately 2/5 to 3/4 
+inch in length. If single records are stored on the tape, the interrecord gap may be longer than the portion 
+of tape used to store the record. Therefore, much of the tape's recording surface is wasted. 

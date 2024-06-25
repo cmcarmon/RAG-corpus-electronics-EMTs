@@ -1,0 +1,18 @@
+As far as the symbol encoding is concerned, the standard
+speciﬁes the use of either Huffman or arithmetic encoding.
+Realizing the fact that image data applications are computa-
+tion intensive and performing the Huffman encoding for each
+block of 8  8 pixels might not be practical in most situations,
+the specs provide standard Huffman encoding tables for lumi-
+nance (Y) and for chrominance (U and V) data. The experi-
+mentally proven code tables based on the average statistics of a
+large number of video images with 8 bits per pixel depth yield
+satisfactory results in most practical situations. For the dc
+encoding, the difference of each block’s dc coefﬁcient with
+the previous one is encoded. This code is then output in two
+successive bunches: one for the size of this code and the
+succeeding one for the most signiﬁcant bits of the exact code.
+Since ac coefﬁcients normally contain many zeros scattered
+between nonzero coefﬁcients, the technique to encode ac coef-
+ﬁcients takes into account the run of zeros between current
+and upcoming ac coefﬁcients.

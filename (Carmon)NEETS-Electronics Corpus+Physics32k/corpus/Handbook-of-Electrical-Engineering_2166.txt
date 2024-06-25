@@ -1,0 +1,5 @@
+A different mechanism for linear memory is the feedback (Fig. 20.11). Feedback allows the system to remem-
+ber past events because of the exponential decay of the response. This memory has limited resolution because
+of the low pass required for long memories. But notice that unlike the memory by delay, memory by feedback
+provides  the  learning  system  with  a  free  parameter  m  that  controls  the  length  of  the  memory.  Memory  by
+feedback has been used in Elman and Jordan networks [Haykin, 1994].

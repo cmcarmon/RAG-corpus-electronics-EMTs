@@ -1,0 +1,492 @@
+An estimate of the time for a body to become tidally locked can be obtained using the following formula:
+
+
+
+
+
+t
+
+lock
+
+
+≈
+
+
+
+ω
+
+a
+
+6
+
+
+I
+Q
+
+
+3
+G
+
+m
+
+p
+
+
+2
+
+
+
+k
+
+2
+
+
+
+R
+
+5
+
+
+
+
+
+
+
+{\displaystyle t_{\text{lock}}\approx {\frac {\omega a^{6}IQ}{3Gm_{p}^{2}k_{2}R^{5}}}}
+
+where
+
+
+
+
+ω
+
+
+
+{\displaystyle \omega \,}
+is the initial spin rate expressed in radians per second,
+
+
+
+
+a
+
+
+
+{\displaystyle a\,}
+is the semi-major axis of the motion of the satellite around the planet (given by the average of the periapsis and apoapsis distances),
+
+
+
+
+I
+
+
+
+{\displaystyle I\,}
+
+
+
+
+≈
+0.4
+
+m
+
+s
+
+
+
+R
+
+2
+
+
+
+
+{\displaystyle \approx 0.4m_{s}R^{2}}
+is the moment of inertia of the satellite, where
+
+
+
+
+m
+
+s
+
+
+
+
+
+{\displaystyle m_{s}\,}
+is the mass of the satellite and
+
+
+
+R
+
+
+
+{\displaystyle R\,}
+is the mean radius of the satellite,
+
+
+
+
+Q
+
+
+
+{\displaystyle Q\,}
+is the dissipation function of the satellite,
+
+
+
+
+G
+
+
+
+{\displaystyle G\,}
+is the gravitational constant,
+
+
+
+
+
+m
+
+p
+
+
+
+
+
+{\displaystyle m_{p}\,}
+is the mass of the planet, and
+
+
+
+
+
+k
+
+2
+
+
+
+
+
+{\displaystyle k_{2}\,}
+is the tidal Love number of the satellite.
+
+
+
+
+Q
+
+
+{\displaystyle Q}
+and
+
+
+
+
+k
+
+2
+
+
+
+
+{\displaystyle k_{2}}
+are generally very poorly known except for the Moon, which has
+
+
+
+
+k
+
+2
+
+
+
+/
+
+Q
+=
+0.0011
+
+
+{\displaystyle k_{2}/Q=0.0011}
+. For a really rough estimate it is common to take
+
+
+
+Q
+≈
+100
+
+
+{\displaystyle Q\approx 100}
+(perhaps conservatively, giving overestimated locking times), and
+
+
+
+
+
+k
+
+2
+
+
+≈
+
+
+1.5
+
+1
++
+
+
+
+19
+μ
+
+
+2
+ρ
+g
+R
+
+
+
+
+
+
+,
+
+
+{\displaystyle k_{2}\approx {\frac {1.5}{1+{\frac {19\mu }{2\rho gR}}}},}
+
+where
+
+
+
+
+ρ
+
+
+
+{\displaystyle \rho \,}
+is the density of the satellite
+
+
+
+
+g
+≈
+G
+
+m
+
+s
+
+
+
+/
+
+
+R
+
+2
+
+
+
+
+{\displaystyle g\approx Gm_{s}/R^{2}}
+is the surface gravity of the satellite
+
+
+
+
+μ
+
+
+
+{\displaystyle \mu \,}
+is the rigidity of the satellite. This can be roughly taken as 3×1010 N·m−2 for rocky objects and 4×109 N·m−2 for icy ones.
+Even knowing the size and density of the satellite leaves many parameters that must be estimated (especially ω, Q, and μ), so that any calculated locking times obtained are expected to be inaccurate, even to factors of ten. Further, during the tidal locking phase the semi-major axis
+
+
+
+a
+
+
+{\displaystyle a}
+may have been significantly different from that observed nowadays due to subsequent tidal acceleration, and the locking time is extremely sensitive to this value.
+Because the uncertainty is so high, the above formulas can be simplified to give a somewhat less cumbersome one. By assuming that the satellite is spherical,
+
+
+
+
+k
+
+2
+
+
+≪
+1
+
+,
+Q
+=
+100
+
+
+{\displaystyle k_{2}\ll 1\,,Q=100}
+, and it is sensible to guess one revolution every 12 hours in the initial non-locked state (most asteroids have rotational periods between about 2 hours and about 2 days)
+
+
+
+
+
+t
+
+lock
+
+
+≈
+6
+
+
+
+
+
+a
+
+6
+
+
+R
+μ
+
+
+
+m
+
+s
+
+
+
+m
+
+p
+
+
+2
+
+
+
+
+
+×
+
+10
+
+10
+
+
+
+
+years
+
+,
+
+
+{\displaystyle t_{\text{lock}}\approx 6\ {\frac {a^{6}R\mu }{m_{s}m_{p}^{2}}}\times 10^{10}\ {\text{years}},}
+
+with masses in kilograms, distances in meters, and
+
+
+
+μ
+
+
+{\displaystyle \mu }
+in newtons per meter squared;
+
+
+
+μ
+
+
+{\displaystyle \mu }
+can be roughly taken as 3×1010 N·m−2 for rocky objects and 4×109 N·m−2 for icy ones.
+There is an extremely strong dependence on semi-major axis
+
+
+
+a
+
+
+{\displaystyle a}
+.
+For the locking of a primary body to its satellite as in the case of Pluto, the satellite and primary body parameters can be swapped.
+One conclusion is that, other things being equal (such as
+
+
+
+Q
+
+
+{\displaystyle Q}
+and
+
+
+
+μ
+
+
+{\displaystyle \mu }
+), a large moon will lock faster than a smaller moon at the same orbital distance from the planet because
+
+
+
+
+m
+
+s
+
+
+
+
+
+{\displaystyle m_{s}\,}
+grows as the cube of the satellite radius
+
+
+
+R
+
+
+{\displaystyle R}
+. A possible example of this is in the Saturn system, where Hyperion is not tidally locked, whereas the larger Iapetus, which orbits at a greater distance, is. However, this is not clear cut because Hyperion also experiences strong driving from the nearby Titan, which forces its rotation to be chaotic.
+The above formulae for the timescale of locking may be off by orders of magnitude, because they ignore the frequency dependence of
+
+
+
+
+k
+
+2
+
+
+
+/
+
+Q
+
+
+{\displaystyle k_{2}/Q}
+. More importantly, they may be inapplicable to viscous binaries (double stars, or double asteroids that are rubble), because the spin–orbit dynamics of such bodies is defined mainly by their viscosity, not rigidity.

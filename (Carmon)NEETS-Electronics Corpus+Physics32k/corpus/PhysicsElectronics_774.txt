@@ -1,0 +1,7 @@
+Example: Suppose that the 2-bit binary number AB must be transmitted between
+devices in a noisy environment. To reduce undetected errors introduced by the
+transmission, an extra bit P is often included to add redundancy to the informa-
+tion. Assume that P is set true or false as needed to make an odd number of
+true bits in the resulting 3-bit number ABP . When the number is received, logic
+circuits are required to generate an error signal E whenever the odd number of
+bits condition is not met.

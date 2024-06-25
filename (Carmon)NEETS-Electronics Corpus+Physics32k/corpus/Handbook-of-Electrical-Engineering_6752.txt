@@ -1,0 +1,11 @@
+Specialized LAN Services
+LAN  users  have  special  communication  requirements  that  must  be  supported  by  the  physical  and  data  link
+layers.  In  particular,  the  MAC  sublayer  is  responsible  for  providing  specialized  services.  Although  all  MAC
+sublayers support asynchronous trafﬁc by providing for the simple, best-effort delivery of packets, some MAC
+sublayers also support other classes of trafﬁc. To synchronous trafﬁc, which requires a set amount of preallocated
+bandwidth, the properly designed MAC sublayer guarantees a maximum packet response time. The adaptively
+timed token-passing protocol of FDDI is capable of supporting synchronous trafﬁc, i.e., at token-capture time
+the  station  has  a  ﬁxed  amount  of  time  during  which  to  transmit  synchronous  packets,  and  the  token  is
+guaranteed to return within a certain amount of time. Isochronous trafﬁc, which requires a ﬁxed amount of
+trafﬁc  to  be  periodically  delivered,  is  also  accommodated  by  some  MAC  sublayers.  DQDB  uses  preallocated
+time slots to provide isochronous service.

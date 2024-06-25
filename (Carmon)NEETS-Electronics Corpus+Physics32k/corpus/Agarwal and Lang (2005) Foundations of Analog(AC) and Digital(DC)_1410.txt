@@ -1,0 +1,18 @@
+which is the voltage across the resistor (V − VO) divided by the resistance (R).
+Thus, at the instant that the switch S1 is closed, the capacitor behaves like
+an instantaneous voltage source with voltage VO. In like manner, if the initial
+voltage on the capacitor were zero (that is, VO = 0), then the capacitor would
+behave like an instantaneous short circuit. In either case, notice that the capacitor
+current is not necessarily continuous, only the state variable. In our example,
+the capacitor current jumps from 0 to (V − VO)/R at t = 0. The current decays
+exponentially with time constant RC from the initial value of (V − VO)/R at
+t = 0 to its final value of zero. The current response is plotted in Figure 10.12.
+Inductors can be treated in a similar manner. The key difference is that the
+state variable for an inductor is its current. Accordingly, the inductor current
+is continuous (recall, from Equation 9.26, an instantaneous jump in induc-
+tor current requires an infinite spike, that is, an impulse, in the voltage). To
+determine initial and final values of the inductor current, remember that the
+inductor behaves like a long-term short circuit for DC current sources, and like
+an instantaneous open circuit for abrupt transitions.5 The time constant for
+circuits containing an inductor and a resistor is L/R. With these definitions,
+Equation 10.61 is equally applicable to inductor-resistor circuits.

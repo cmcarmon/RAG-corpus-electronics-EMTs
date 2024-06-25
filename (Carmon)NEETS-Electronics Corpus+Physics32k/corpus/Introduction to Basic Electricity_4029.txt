@@ -1,0 +1,16 @@
+A Wien-bridge	oscillator is a two-stage amplifier 
+with a lead-lag network and voltage divider  (Figure 39-12).  
+The lead-lag network consists of a  series RC network 
+(R1C1) and a parallel network. It is called a lead-lag 
+network because the output phase angle leads for 
+some frequencies and lags for other frequencies. At 
+the resonant frequency, the phase shift is 0°, and the 
+output voltage is maximum. Resistors R2 and R4 form 
+the voltage divider network, which is used to develop 
+the degenerative feedback. Regenerative feedback is 
+applied to the base, and degenerative feedback is ap-
+plied to the emitter of oscillator transistor Q1. The out-
+put of transistor Q1 is capacitively coupled to the base 
+of transistor Q2, where it is amplified and shifted and 
+rotated 180°. The output is coupled by capacitor C4 to 
+the bridge network.

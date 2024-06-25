@@ -1,0 +1,6 @@
+The AT&T Datakit [Fraser, 1983] packet switch behaves as a virtual circuit switch (VCS) in that a reliable
+data path is set up for each session, and packet retransmission because of collisions is not required. Remote
+stations  that  may  consist  of  mainframe  computers,  concentrators  that  bring  together  many  terminals,  or
+gateways to other networks are connected by 8-Mb/s ﬁber-optic data links to individual electronic modules at
+the central node as shown in Fig. 71.10 [Kaminow, 1988]. These modules plug into two electronic buses that
+are short (about 1 m) compared to a packet propagation length (16 bytes).

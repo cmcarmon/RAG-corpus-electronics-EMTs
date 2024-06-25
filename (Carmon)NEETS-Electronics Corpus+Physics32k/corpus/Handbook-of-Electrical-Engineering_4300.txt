@@ -1,0 +1,12 @@
+Millimeter-Wave Seeker for Terminal Guidance Missile
+Terminal guidance for short-range (less than 2 km) air-to-surface missiles has seen extensive development in
+the last decade. Targets such as tanks are frequently immersed in a clutter background which may give a radar
+return that is comparable to that of the target. To reduce the clutter return in the antenna footprint, the antenna
+beamwidth  is  reduced  by  going  to  millimeter  wavelengths.  For  a  variety  of  reasons  the  choice  is  usually  a
+frequency near 35 or 90 GHz. Antenna beamwidth is inversely proportional to frequency, so in order to get a
+reduced beamwidth we would normally choose 90 GHz; however, more deleterious effects at 90 GHz due to
+atmospheric absorption and scattering can modify that choice. In spite of small beamwidths, the clutter is a
+signiﬁcant  problem,  and  in  most  cases  signal-to-clutter  is  a  more  limiting  condition  than  signal-to-noise  in
+determining range performance. Piper [1987] has done an excellent job of analyzing the situation for 35- and
+90-GHz pulse radar seekers and comparing those with a 90-GHz FM/CW seeker. His FM/CW results will be
+summarized below.

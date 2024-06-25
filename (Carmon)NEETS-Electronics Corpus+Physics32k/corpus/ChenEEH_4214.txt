@@ -1,0 +1,15 @@
+P-Persistent CSMA
+The p-persistent CSMA algorithm takes a moderate approach
+between nonpersistent and 1-persistent CSMA. It speciﬁes a
+value;
+transmission after detecting the
+medium is idle. The station ﬁrst checks if the medium is idle,
+transmits a frame with the probability P if it is idle, and delays
+one time unit of maximum propagation delay with 1-P. If the
+medium is busy, the station continues to listen until the
+channel is idle and repeats the same procedure when the
+medium is idle. In general, at the heavier load, decreasing P
+would reduce the number of collisions. At the lighter load,
+increasing P would avoid the delay and improve the utilization.
+The value of P can be dynamically adjusted based on the trafﬁc
+load of the network.

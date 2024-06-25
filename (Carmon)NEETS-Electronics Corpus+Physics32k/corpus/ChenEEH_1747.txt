@@ -1,0 +1,6 @@
+The audio media type has loose requirements on packet
+loss/errors (or loss/error tolerance) in the sense that it can
+tolerate up to 1 to 2% packet loss/error without much degra-
+dation. Today, most multimedia applications that use audio
+have built-in mechanisms to deal with the lost packets using
+advanced interpolation techniques.

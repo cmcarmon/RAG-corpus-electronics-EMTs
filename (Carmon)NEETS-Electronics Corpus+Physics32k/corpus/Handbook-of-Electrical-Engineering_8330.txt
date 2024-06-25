@@ -1,0 +1,7 @@
+1. All internal storage is implemented using SRLs. Each SRL operates such that the L1 latch accepts one
+or the other of the system data-in or the scan-in data values depending upon whether the system clk or
+the scan-in clk clock pulse is applied, respectively. The L2 latch accepts the L1 latch value when the scan-
+out clk clock pulse is applied. The L1 and L2 latches are stable (i.e., cannot change) when the clocks are off.
+2. The  SRL  clocks  system  clk,  scan-in  clk,  and  scan-out  clk  must  be  controlled  from  primary  circuit
+terminals and must be operated in nonoverlapping fashion. This eliminates dependency on minimum
+circuit delay and assures hazard-free (i.e, level-sensitive) operation.

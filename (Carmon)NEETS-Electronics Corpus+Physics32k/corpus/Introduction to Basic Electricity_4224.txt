@@ -1,0 +1,13 @@
+Decimal number 25 is equal to binary number 11001.
+Fractional numbers are done a little differently: The 
+number is multiplied by 2 and the carry is recorded as 
+the binary fraction.
+EXAMPLE:  To convert decimal 0.85 to a binary frac-
+tion, progressively multiply by 2.
+ 
+0.85 3 2 5 1.70 5 0.70 with a carry of 1
+0.70 3 2 5 1.40 5 0.40 with a carry of 1
+0.40 3 2 5 0.80 5 0.80 with a carry of 0
+0.80 3 2 5 1.60 5 0.60 with a carry of 1
+0.60 3 2 5 1.20 5 0.20 with a carry of 1
+0.20 3 2 5 0.40 5 0.40 with a carry of 0

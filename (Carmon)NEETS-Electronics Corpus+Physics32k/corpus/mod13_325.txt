@@ -1,0 +1,9 @@
+Now let’s subtract 102 from 112 using the adder/subtracter circuit. The minuend (112) is input on the
+A terminals, and the subtrahend (102) is input on the B terminals. In the subtract mode, a 1 from the
+control circuit is input to each of the X-OR gates and to the C0 carry input. By applying a 1 to each of the
+X-OR gates, you find the output will be the complement of the subtrahend input at B1 and B2. Since B1 is
+a 0, the output of X-OR 1 will be 1. The input B2 to X-OR 2 will be inverted to a 0. The HIGH input to C0
+acts as a carry from a previous circuit. The combination of the X-OR gates and the HIGH at C0 produces
+the R’s complement of the subtrahend. The full adders add the minuend and the R’s complement of the
+subtrahend and produce the difference. The output of C2 is not used. The outputs of S2 and S1 are 0 and 1,
+respectively, indicating a difference of 012. Therefore, 112 minus 102 equals 012.

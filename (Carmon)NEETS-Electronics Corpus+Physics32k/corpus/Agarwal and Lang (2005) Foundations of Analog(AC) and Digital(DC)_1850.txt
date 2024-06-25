@@ -1,0 +1,12 @@
+Suppose, now, that we wish to find the first-stage output voltage vo in
+response to vi, a small sinusoidal signal applied to the input of the amplifier. In
+particular, we are interested in determining how the presence of the capacitor
+CGS affects the amplification afforded by the first amplifier stage. Suppose,
+further, that we do not care about initial transients, rather, we are interested
+in the steady-state behavior when all transients have died out. Experimental
+application of a sinusoid to the input and measurement of the response vo will
+show very different behavior as the frequency of the input is swept from a low
+to a high value. We will observe that for low-frequency signals the gain of the
+first stage is no different from our earlier calculations in Chapter 8 in the absence
+of the capacitor CGS. However, we will also observe that the presence of the
+capacitor makes the gain of the amplifier fall off rapidly at high frequencies.

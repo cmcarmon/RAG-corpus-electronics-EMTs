@@ -1,0 +1,6 @@
+When the desired mapping is described by a set of input/output data, weights are usually modiﬁed after the
+presentation  of  each  input/output  pattern.  This  method  is  referred  to  as  pattern  update  and  represents  an
+approximation of true gradient descent that is generally valid when a sufﬁciently small stepsize is used. Batch
+update, for which weight changes are accumulated over one sweep of the set of training patterns before being
+applied, is sometimes used in an effort to more closely mimic true gradient descent. Variants of back-propa-
+gation and other training methods can be found in [Zurada, 1992].

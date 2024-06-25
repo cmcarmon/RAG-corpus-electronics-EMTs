@@ -1,0 +1,11 @@
+Application of computers to the ECG for machine interpretation was one of the earliest uses of computers
+in  medicine  [Jenkins,  1981].  Of  primary  interest  in  the  computer-based  systems  was  the  replacement  of  the
+human reader and the elucidation of the standard waves and intervals. Originally this was performed by linking
+the ECG machine to a centralized computer via phone lines. The modern ECG machine is completely integrated
+with an analog front end, a 12- to 16-bit A/D converter, a computational microprocessor, and dedicated I/O
+processors. These systems compute a measurement matrix derived from the 12 lead signals and analyze this
+matrix with a set of rules to obtain the ﬁnal set of interpretive statements. The depiction of the 12 analog signals
+and this set of interpretive statements form the ﬁnal output, with an example shown in Fig. 115.7. The physician
+will over-read each ECG and modify or correct those statements which are deemed inappropriate. The larger
+hospital-based system will record these corrections and maintain a large database of all ECGs accessible by any
+combination of parameters, e.g., all males, older than 50, with an inferior myocardial infarction.

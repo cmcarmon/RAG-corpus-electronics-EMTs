@@ -1,0 +1,13 @@
+Estimation/Localization
+The second function of underwater acoustic signal processing estimates the parameters that localize the position
+of  the  detected  object.  The  source  position  is  estimated  in  range,  bearing,  and  depth,  typically  from  the
+underlying parameter of time delay associated with the acoustic wavefront. The statistical uncertainty of the
+positional  estimates  is  important.  Knowledge  of  the  ﬁrst  order  probability  density  function  or  its  ﬁrst-  and
+second-order moments, the mean (expected value) and the variance, are vital to understanding the expected
+performance of the processing system. In the passive case, the ability to estimate range is extremely limited by
+the  geometry  of  the  measurements;  indeed,  the  variance  of  passive  range  estimates  can  be  extremely  large,
+especially when the true range to the acoustic source is long when compared with the aperture length of the
+receiving array. Figure 19.16 depicts direct path passive ranging uncertainty from a collinear array with sensors
+clustered so as to minimize the bearing and uncertainty region. Beyond the direct path, multipath signals can
+be processed to estimate source depth covertly. Range estimation accuracy is not difﬁcult with the active sonar,
+but active sonar is not covert, which for some applications can be important.

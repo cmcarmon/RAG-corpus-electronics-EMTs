@@ -1,0 +1,46 @@
+Hamiltonian simulation is used to transform the Hermitian matrix
+
+
+
+A
+
+
+{\displaystyle A}
+into a unitary operator, which can then be applied at will. This is possible if A is s-sparse and efficiently row computable, meaning it has at most s nonzero entries per row and given a row index these entries can be computed in time O(s). Under these assumptions, quantum Hamiltonian simulation allows
+
+
+
+
+e
+
+i
+A
+t
+
+
+
+
+{\displaystyle e^{iAt}}
+to be simulated in time
+
+
+
+O
+(
+log
+⁡
+(
+N
+)
+
+s
+
+2
+
+
+t
+)
+
+
+{\displaystyle O(\log(N)s^{2}t)}
+.

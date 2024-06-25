@@ -1,0 +1,8 @@
+Observe that either knowing or deliberately choosing sb not
+only provides sufﬁcient information to determine the cor-
+responding sc (respectively, the entire s) but also permits
+computation of the clock delays tcd to implement the desired
+clock schedule s. Speciﬁcally, the dependencies among the
+clock skews in the branches (the local data paths) and
+the clock delays to the vertices (the registers) can be described
+in matrix form as follows:

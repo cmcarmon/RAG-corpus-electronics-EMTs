@@ -1,0 +1,6 @@
+This equation cannot be solved in closed form. We must understand what is going on from basic principles,
+using computational and graphical aids. As an approximation, when vin is positive, current ﬂows through
+the diode so long as the voltage vout is smaller than vin (so the diode is forward biased). If the source is
+negative or vout “tries” to be bigger than vin, the diode is reverse-biased, and the reverse-bias current ﬂows
+through the diode. Thus, at this level of analysis, positive input voltages result in positive output voltages
+with negative ones resulting in vout = −RI0.

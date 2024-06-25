@@ -1,0 +1,5 @@
+Utilizing an "Ashby chart" is a common method for choosing the appropriate material. First, three different sets of variables are identified:
+Material variables are the inherent properties of a material such as density, modulus, yield stress, and many others.
+Free variables are quantities that can change during the loading cycle, for example, applied force.
+Design variables are limits imposed on the design, such as how thick the beam can be or how much it can deflect
+Next, an equation for the performance index is derived. This equation numerically quantifies how desirable the material will be for a specific situation. By convention, a higher performance index denotes a better material. Lastly, the performance index is plotted on the Ashby chart. Visual inspection reveals the most desirable material.

@@ -1,0 +1,237 @@
+In general, a particle Reynolds Number has the form:
+
+
+
+
+
+
+R
+e
+
+
+p
+
+
+=
+
+
+
+
+U
+
+p
+
+
+D
+
+ν
+
+
+
+
+{\displaystyle \mathrm {Re} _{p}={\frac {U_{p}D}{\nu }}}
+
+Where
+
+
+
+
+U
+
+p
+
+
+
+
+{\displaystyle U_{p}}
+is a characteristic particle velocity,
+
+
+
+D
+
+
+{\displaystyle D}
+is the grain diameter (a characteristic particle size), and
+
+
+
+ν
+
+
+{\displaystyle \nu }
+is the kinematic viscosity, which is given by the dynamic viscosity,
+
+
+
+μ
+
+
+{\displaystyle \mu }
+, divided by the fluid density,
+
+
+
+
+
+ρ
+
+f
+
+
+
+
+
+{\displaystyle {\rho _{f}}}
+.
+
+
+
+
+ν
+=
+
+
+μ
+
+ρ
+
+f
+
+
+
+
+
+
+{\displaystyle \nu ={\frac {\mu }{\rho _{f}}}}
+
+The specific particle Reynolds number of interest is called the boundary Reynolds number, and it is formed by replacing the velocity term in the Particle Reynolds number by the shear velocity,
+
+
+
+
+u
+
+∗
+
+
+
+
+{\displaystyle u_{*}}
+, which is a way of rewriting shear stress in terms of velocity.
+
+
+
+
+
+u
+
+∗
+
+
+=
+
+
+
+
+τ
+
+b
+
+
+
+ρ
+
+f
+
+
+
+
+
+=
+κ
+z
+
+
+
+∂
+u
+
+
+∂
+z
+
+
+
+
+
+{\displaystyle u_{*}={\sqrt {\frac {\tau _{b}}{\rho _{f}}}}=\kappa z{\frac {\partial u}{\partial z}}}
+
+where
+
+
+
+
+τ
+
+b
+
+
+
+
+{\displaystyle \tau _{b}}
+is the bed shear stress (described below), and
+
+
+
+κ
+
+
+{\displaystyle \kappa }
+is the von Kármán constant, where
+
+
+
+
+κ
+=
+
+0.407
+
+
+
+{\displaystyle \kappa ={0.407}}
+.
+The particle Reynolds number is therefore given by:
+
+
+
+
+
+
+R
+e
+
+
+p
+
+
+∗
+=
+
+
+
+
+u
+
+∗
+
+
+D
+
+ν
+
+
+
+
+{\displaystyle \mathrm {Re} _{p}*={\frac {u_{*}D}{\nu }}}

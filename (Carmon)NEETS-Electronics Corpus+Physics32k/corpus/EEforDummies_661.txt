@@ -1,0 +1,10 @@
+If you touch the unconnected lead of the 100 kΩ resistor (without closing the 
+circuit), you may see the LED light up briefly and go out (especially if you 
+shuffle your feet on a carpet first). That’s because you’ve built up a minute 
+amount of charge on your finger, and when you touch the resistor, the charge 
+flows into the base of the first transistor and is amplified enough by the 
+Darlington pair to light the LED. (If the nominal gain, hFE, of your transistors is 
+100, the total gain of the Darlington pair is 100 100 10 000
+.) After the charge 
+has dissipated, the LED goes out. (Note that if you use an antistatic wrist 
+strap when you touch the resistor, the LED will not light.)

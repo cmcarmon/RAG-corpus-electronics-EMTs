@@ -1,0 +1,129 @@
+Objects can be given literally, like the literal four-letter genome of a mouse, or the literal text of War and Peace by Tolstoy. For simplicity we take it that all meaning of the object is represented by the literal object itself. Objects can also be given by name, like "the four-letter genome of a mouse," or "the text of `War and Peace' by Tolstoy." There are also objects that cannot be given literally, but only by name, and that acquire their meaning from their contexts in background common knowledge in humankind, like "home" or "red." We are interested in semantic similarity. Using code-word lengths obtained from the page-hit counts returned by Google from the web, we obtain a semantic distance using the NCD formula and viewing Google as a compressor useful for data mining, text comprehension, classification, and translation. The associated NCD, called the normalized Google distance (NGD) can be rewritten as
+
+
+
+
+N
+G
+D
+(
+x
+,
+y
+)
+=
+
+
+
+max
+{
+log
+⁡
+f
+(
+x
+)
+,
+log
+⁡
+f
+(
+y
+)
+}
+−
+log
+⁡
+f
+(
+x
+,
+y
+)
+
+
+log
+⁡
+N
+−
+min
+{
+log
+⁡
+f
+(
+x
+)
+,
+log
+⁡
+f
+(
+y
+)
+}
+
+
+
+,
+
+
+{\displaystyle NGD(x,y)={\frac {\max\{\log f(x),\log f(y)\}-\log f(x,y)}{\log N-\min\{\log f(x),\log f(y)\}}},}
+
+where
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+denotes the number of pages containing the search term
+
+
+
+x
+
+
+{\displaystyle x}
+, and
+
+
+
+f
+(
+x
+,
+y
+)
+
+
+{\displaystyle f(x,y)}
+denotes the number of pages containing both
+
+
+
+x
+
+
+{\displaystyle x}
+and
+
+
+
+y
+
+
+{\displaystyle y}
+,) as returned by Google or any search engine capable of returning an aggregate page count. The number
+
+
+
+N
+
+
+{\displaystyle N}
+can be set to the number of pages indexed although it is more proper to count each page according to the number of search terms or phrases it contains. As rule of the thumb one can multiply the number of pages by, say, a thousand...

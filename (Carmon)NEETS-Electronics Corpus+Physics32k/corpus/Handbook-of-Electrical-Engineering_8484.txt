@@ -1,0 +1,6 @@
+Implementation of the Multiplication Algorithm
+Speed of multiply operation is of utmost importance in digital signal processors (DSP) today as well as in the
+general purpose processors. Therefore, research in building a fast parallel multiplier has been going on since
+such  a  paper  was  published  by  Wallace  [1964]  in  1964.  In  his  historic  paper,  Wallace  introduced  a  way  of
+summing the partial product bits in parallel using a tree of carry-save adders which became generally known
+as the “Wallace Tree” (Fig. 86.4).

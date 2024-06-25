@@ -1,0 +1,5 @@
+This section describes a scheme that performs Chebyshev
+approximation as a limit of a special sequence of weighted
+least-squares approximations. The algorithm is implemented
+by a series of WLS approximations using a varying weight
+matrix W k, whose elements are calculated by:

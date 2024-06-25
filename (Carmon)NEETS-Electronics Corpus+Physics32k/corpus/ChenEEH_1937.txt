@@ -1,0 +1,9 @@
+A newer approach of partial rerouting only in faulty tiles—a
+tile is a subarray of logic cells including a spare cell—has been
+proposed by Lach et al. (1998); this is a signiﬁcant improve-
+ment over past full rerouting methods. In this technique, fast
+reconﬁguration is achieved by precomputing all possible con-
+ﬁgurations of a tile (assuming one fault in it) and storing them
+for loading into the tile as and when a fault is detected.
+However, this technique has some of the other disadvantages
+of full rerouting methods. A rip-up-and-reroute approach for

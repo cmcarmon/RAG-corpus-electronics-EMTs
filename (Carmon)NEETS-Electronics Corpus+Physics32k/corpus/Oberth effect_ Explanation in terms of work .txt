@@ -1,0 +1,302 @@
+Rocket engines produce the same force regardless of their velocity. A rocket acting on a fixed object, as in a static firing, does no useful work at all; the rocket's stored energy is entirely expended on accelerating its propellant in the form of exhaust. But when the rocket moves, its thrust acts through the distance it moves. Force multiplied by distance is the definition of mechanical energy or work. So the farther the rocket and payload move during the burn (i.e. the faster they move), the greater the kinetic energy imparted to the rocket and its payload and the less to its exhaust.
+This is shown as follows. The mechanical work done on the rocket (
+
+
+
+W
+
+
+{\displaystyle W}
+), is defined as the dot product of the force of the engine's thrust (
+
+
+
+
+
+F
+→
+
+
+
+
+{\displaystyle {\overrightarrow {F}}}
+), and the distance it travels during the burn (
+
+
+
+
+
+s
+→
+
+
+
+
+{\displaystyle {\overrightarrow {s}}}
+).
+
+
+
+
+W
+=
+
+
+F
+→
+
+
+⋅
+
+
+s
+→
+
+
+
+
+{\displaystyle W={\overrightarrow {F}}\cdot {\overrightarrow {s}}}
+
+If the burn is made in the prograde direction,
+
+
+
+
+
+F
+→
+
+
+⋅
+
+
+s
+→
+
+
+=
+‖
+F
+‖
+⋅
+‖
+s
+‖
+=
+F
+⋅
+s
+
+
+{\displaystyle {\overrightarrow {F}}\cdot {\overrightarrow {s}}=\|F\|\cdot \|s\|=F\cdot s}
+, and we know all the work ends up as a change in kinetic energy,
+
+
+
+Δ
+
+E
+
+k
+
+
+
+
+{\displaystyle \Delta E_{k}}
+, leaving us with:
+
+
+
+
+Δ
+
+E
+
+k
+
+
+=
+F
+⋅
+s
+
+
+{\displaystyle \Delta E_{k}=F\cdot s}
+
+Differentiating with respect to time, we obtain
+
+
+
+
+
+
+
+
+d
+
+
+E
+
+k
+
+
+
+
+
+d
+
+t
+
+
+
+=
+F
+⋅
+
+
+
+
+d
+
+s
+
+
+
+d
+
+t
+
+
+
+
+
+{\displaystyle {\frac {\mathrm {d} E_{k}}{\mathrm {d} t}}=F\cdot {\frac {\mathrm {d} s}{\mathrm {d} t}}}
+
+or
+
+
+
+
+
+
+
+
+d
+
+
+E
+
+k
+
+
+
+
+
+d
+
+t
+
+
+
+=
+F
+⋅
+v
+
+
+{\displaystyle {\frac {\mathrm {d} E_{k}}{\mathrm {d} t}}=F\cdot v}
+
+where
+
+
+
+v
+
+
+{\displaystyle v}
+is the velocity. Dividing by the instantaneous mass
+
+
+
+m
+
+
+{\displaystyle m}
+to express this in terms of specific energy (
+
+
+
+
+e
+
+k
+
+
+
+
+{\displaystyle e_{k}}
+), we get
+
+
+
+
+
+
+
+
+d
+
+
+e
+
+k
+
+
+
+
+
+d
+
+t
+
+
+
+=
+
+
+F
+m
+
+
+⋅
+v
+=
+a
+⋅
+v
+
+
+{\displaystyle {\frac {\mathrm {d} e_{k}}{\mathrm {d} t}}={\frac {F}{m}}\cdot v=a\cdot v}
+
+where
+
+
+
+a
+
+
+{\displaystyle a}
+is the acceleration vector.
+Thus it can be readily seen that the rate of gain of specific energy of every part of the rocket is proportional to speed, and given this the equation can be integrated to calculate the overall increase in specific energy of the rocket.
+However, integrating this is often unnecessary if the burn duration is short. For example, as a vehicle falls towards periapsis in any orbit (closed or escape orbits) the velocity relative to the central body increases. Briefly burning the engine (an "impulsive burn") prograde at periapsis increases the velocity by the same increment as at any other time (
+
+
+
+Δ
+v
+
+
+{\displaystyle \Delta v}
+). However, since the vehicle's kinetic energy is related to the square of its velocity, this increase in velocity has a non-linear effect on the vehicle's kinetic energy, leaving it with higher energy than if the burn were achieved at any other time.
+It may seem that the rocket is getting energy for free, which would violate conservation of energy. However, any gain to the rocket's kinetic energy is balanced by a relative decrease in the kinetic energy the exhaust is left with (the kinetic energy of the exhaust may still increase but it does not increase as much). Contrast this to the situation of static firing where the speed of the engine is fixed at zero. This means its kinetic energy does not increase at all and all the chemical energy released by the fuel is converted to the exhaust's kinetic energy (and heat).
+At very high speeds the mechanical power imparted to the rocket can exceed the total power liberated in the combustion of the propellant; this may also seem to violate conservation of energy. But the propellants in a fast moving rocket carry energy not only chemically but also in their own kinetic energy, which at speeds above a few km/s exceed the chemical component. When these propellants are burned, some of this kinetic energy is transferred to the rocket along with the chemical energy released by burning. This can partly make up for what is extremely low efficiency early in the rocket's flight when it is moving only slowly. Most of the work done by a rocket early in flight is "invested" in the kinetic energy of the propellant not yet burned, part of which they will release later when they are burned.

@@ -1,0 +1,8 @@
+Recall from Section 4.2.3 that it is frequently possible to make
+two simple choices (concerning equation 4.7) characterizing
+the clock skews and delays in a circuit, such that both zero and
+double clocking violations are avoided. Speciﬁcally, if equal
+values are chosen for all clock delays and a sufﬁciently large
+value—larger than the longest delay ^DDi, f
+PM —is chosen for TCP,
+neither of these two clocking hazards will occur. Formally,

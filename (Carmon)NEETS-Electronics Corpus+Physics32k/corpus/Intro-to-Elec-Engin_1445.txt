@@ -1,0 +1,7 @@
+Demodulation of VSB signals generally uses a synchronous detector in the conﬁguration of
+Figure 15.2.10. In VSB, a carrier component is generally transmitted along with the message
+sidebands. The existence of the carrier component makes it possible to extract a phase-coherent
+reference for demodulation in a balanced modulator. In some applications, such as television
+broadcasting, however, a large carrier component is transmitted along with the message in the
+VSB signal, and in such a case it is possible to recover the message by passing the received signal
+through an envelope detector.

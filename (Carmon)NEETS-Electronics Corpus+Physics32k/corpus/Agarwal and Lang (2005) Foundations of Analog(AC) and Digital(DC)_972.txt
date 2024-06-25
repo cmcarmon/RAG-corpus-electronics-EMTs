@@ -1,0 +1,10 @@
+Much like the gate abstraction went hand in hand with the static
+discipline which dictated the valid range for applied inputs and expected
+the amplifier abstraction is associated with the saturation discipline,
+outputs
+which prescribes constraints on the valid set of applied input signals and
+expected output signals. The saturation discipline simply says that the ampli-
+fier be operated in the saturation region of the MOSFET. As we shall see shortly,
+we choose this definition of the saturation discipline, because the amplifier pro-
+vides a good amount of power gain in the saturation region, thereby operating
+well as an amplifier.

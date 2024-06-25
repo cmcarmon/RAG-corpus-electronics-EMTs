@@ -1,0 +1,171 @@
+The law of conservation of mass can only be formulated in classical mechanics when the energy scales associated to an isolated system are much smaller than
+
+
+
+m
+
+c
+
+2
+
+
+
+
+{\displaystyle mc^{2}}
+, where
+
+
+
+m
+
+
+{\displaystyle m}
+is the mass of a typical object in the system, measured in the frame of reference where the object is at rest, and
+
+
+
+c
+
+
+{\displaystyle c}
+is the speed of light.
+The law can be formulated mathematically in the fields of fluid mechanics and continuum mechanics, where the conservation of mass is usually expressed using the continuity equation, given in differential form as
+
+
+
+
+
+
+
+∂
+ρ
+
+
+∂
+t
+
+
+
++
+∇
+⋅
+(
+ρ
+
+v
+
+)
+=
+0
+,
+
+
+{\displaystyle {\frac {\partial \rho }{\partial t}}+\nabla \cdot (\rho \mathbf {v} )=0,}
+
+
+where
+
+
+
+ρ
+
+
+{\textstyle \rho }
+is the density (mass per unit volume),
+
+
+
+t
+
+
+{\textstyle t}
+is the time,
+
+
+
+∇
+⋅
+
+
+{\textstyle \nabla \cdot }
+is the divergence, and
+
+
+
+
+v
+
+
+
+{\textstyle \mathbf {v} }
+is the flow velocity field. The interpretation of the continuity equation for mass is the following: For a given closed surface in the system, the change in time of the mass enclosed by the surface is equal to the mass that traverses the surface, positive if matter goes in and negative if matter goes out. For the whole isolated system, this condition implies that the total mass
+
+
+
+M
+
+
+{\textstyle M}
+, sum of the masses of all components in the system, does not change in time, i.e.
+
+
+
+
+
+
+
+
+d
+
+M
+
+
+
+d
+
+t
+
+
+
+=
+
+
+d
+
+
+d
+
+t
+
+
+
+∫
+ρ
+
+d
+
+V
+=
+0
+
+
+{\displaystyle {\frac {{\text{d}}M}{{\text{d}}t}}={\frac {\text{d}}{{\text{d}}t}}\int \rho {\text{d}}V=0}
+,
+
+where
+
+
+
+
+d
+
+V
+
+
+{\textstyle {\text{d}}V}
+is the differential that defines the integral over the whole volume of the system.
+The continuity equation for the mass is part of Euler equations of fluid dynamics. Many other convection–diffusion equations describe the conservation and flow of mass and matter in a given system.
+In chemistry, the calculation of the amount of reactant and products in a chemical reaction, or stoichiometry, is founded on the principle of conservation of mass. The principle implies that during a chemical reaction the total mass of the reactant is equal to the total mass of the products. For example, in the following reaction
+CH4 + 2 O2 → CO2 + 2 H2O,
+where one molecule of methane (CH4) and two oxygen molecules O2 are converted into one molecule of carbon dioxide (CO2) and two of water (H2O). The number of molecules as result from the reaction can be derived from the principle of conservation of mass, as initially four hydrogen atoms, 4 oxygen atoms and one carbon atom are present (as well as in the final state), then the number water molecules produced must be exactly two per molecule of carbon dioxide produced.
+Many engineering problems are solved by following the mass distribution in time of a given system, this practice is known as mass balance.

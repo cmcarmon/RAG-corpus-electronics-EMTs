@@ -1,0 +1,8 @@
+MELP
+The MELP coder [McCree and Barnwell, 1995] is based on the traditional LPC vocoder model where an LPC
+synthesis  ﬁlter  is  excited  by  an  impulse  train  (voiced  speech)  or  white  noise  (unvoiced  speech).  The  MELP
+excitation, however, has characteristics that are more similar to natural human speech. In particular, the MELP
+excitation  can  be  a  mixture  of  (possibly  aperiodic)  pulses  with  bandlimited  noise.  In  MELP,  the  excitation
+spectrum is explicitly modeled using Fourier series coefﬁcients and bandpass voicing strengths, and the time-
+domain  excitation  sequence  is  produced  from  the  spectral  model  via  an  inverse  transform.  The  synthetic
+excitation sequence is then used to drive an LPC synthesizer which introduces formant spectral shaping.

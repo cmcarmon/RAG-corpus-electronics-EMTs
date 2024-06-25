@@ -1,0 +1,9 @@
+The  emitter  resistor  RE  was  included  for  biasing  reasons
+(although  there  are  other  bias  circuits  that  omit  it),  but  for
+signal  ampliﬁcation  purposes  it  must  be  shunted  by  a  high-
+value capacitor CE so that the signal current can ﬂow down to ground without producing a signal voltage drop
+leading to negative feedback (as did the bias current). The value of CE must be much greater than is apparent
+at ﬁrst sight, and this point will be developed later; for the present, it will be assumed that it is large enough
+to constitute a short circuit at all the signal frequencies of interest. So, for ac signals RE is short-circuited and
+only RC acts as a load. This implies that a signal or ac load line comes into operation with a slope of –1/R C, as
+shown in Fig. 24.30.

@@ -1,0 +1,9 @@
+First, a procedure (function) should address a single problem. If more than one problem is addressed by the
+same  procedure,  a  reader  of  the  program  text  experiences  a  distracting  shift  in  subject,  which  makes  the
+comprehension  of  the  text  unnecessarily  difﬁcult.  For  example,  a  program  involved  in  interest  calculations
+should not also solve calendar problems (such as how many days are between March 15 and June 27) but use
+a calendar module that provides the abstract data type Date to obtain the desired results. Similarly, a sorting
+procedure should not be burdened with the details of comparing records. Instead, a different function should
+be written that contains the details of the comparison, and this function should then be invoked by the sorting
+program. The program fragments in Example 1, written in the programming language C, illustrate the sepa-
+ration of these levels of concern.

@@ -1,0 +1,9 @@
+Other protection mechanisms are used to tolerate cable breaks and station malfunctions. The use of fully
+broadcast  media  makes  a  LAN  vulnerable  to  media  failure,  since  this  effectively  partitions  the  stations  into
+noncommunicating groups. To cope with this problem, redundant cables are provided and a mechanism for
+reconﬁguring from the bad to the good cable is built into the LAN protocols. A popular approach for the token
+ring can be seen in the counter-rotating dual-ring scheme, which is illustrated in Fig. 72.11. If a cable segment
+or an active station fails, the stations adjacent to the failure can reconﬁgure the ring by executing “wrap-around”
+operations. The new conﬁguration uses the spare cable in conjunction with the original cable to form a new
+ring. Given the complexity of such a reconﬁguration procedure, it is usually necessary for station management
+to coordinate the actions of the stations.

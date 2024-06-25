@@ -1,0 +1,16 @@
+How small should the error probability be? Out of N transmitted bits, on the average N pe bits will be
+received in error. Do note the phrase “on the average” here: Errors occur randomly because of the noise
+introduced by the channel, and we can only predict the probability of occurrence. Since bits are transmitted
+at a rate R, errors occur at an average frequency of Rpe. Suppose the error probability is an impressively
+small number like 10−6. Data on a computer network like Ethernet is transmitted at a rate R = 100Mbps,
+which means that errors would occur at a rate of roughly 100 per second. This error rate is very high,
+requiring a much smaller pe to achieve a more acceptable average occurrence rate for errors occurring.
+Because Ethernet is a wireline channel, which means the channel noise is small and the attenuation low,
+obtaining very small error probabilities is not diﬃcult. We do have some tricks up our sleeves, however, that
+can essentially reduce the error rate to zero without resorting to expending a large amount of energy at
+the transmitter. We need to understand digital channels and what implications Shannon’s Noisy Channel
+Coding Theorem has for them.
+6.19 Digital Channels25
+Let’s review how digital communication systems work within the Fundamental Model of Communication
+(Figure 1.3). As depicted in Figure 6.17, the message is a single bit. The analog components of a digital
+transmission/reception system can be lumped into a single system known as the digital channel.

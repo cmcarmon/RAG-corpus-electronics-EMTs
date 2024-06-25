@@ -1,0 +1,10 @@
+By placing resistors R3 and R4 in the circuit, you can control the voltage 
+gain, or how much the input signal is amplified — without worrying about 
+the exact current gain of the specific transistor at the heart of your circuit. 
+(This is truly amazing stuff!) The AC voltage gain of a transistor circuit with 
+resistors as shown in Figure 10-7 is –R4/R3. The negative sign just means that 
+the input signal is inverted: As the input voltage varies up and then down, the 
+output voltage varies down and then up, as shown by the input and output 
+signal waveforms in Figure 10-7. Before sending the output signal to, say, a 
+speaker, you pass it through another blocking capacitor (C2) to remove any 
+DC offset.

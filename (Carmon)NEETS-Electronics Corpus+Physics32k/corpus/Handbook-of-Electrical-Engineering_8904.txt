@@ -1,0 +1,8 @@
+Research  issues  associated  with  improving  the  performance  of  the  virtual  memory  system  fall  under  the
+domain  of  operating  system  research.  One  proposed  strategy  for  reducing  page  faults  allows  each  running
+program to specify its own page replacement algorithm, enabling each program to optimize the choice of page
+replacements based on its reference pattern [Engler et al., 1995]. Other recent research focuses on improving
+the performance of the TLB. Two techniques for doing this are the use of a two-level TLB (the motivation is
+similar  to  that  for  a  two-level  cache),  and  the  use  of  superpages  [Talluri,  1994]. With  superpages,  each  TLB
+entry  may  represent  a  mapping  for  more  than  one  consecutive  page,  thus  increasing  the  total  address  range
+that a ﬁxed number of TLB entries may cover.

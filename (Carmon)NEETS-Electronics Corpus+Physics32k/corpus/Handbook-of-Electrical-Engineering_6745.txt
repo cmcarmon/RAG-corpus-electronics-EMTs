@@ -1,0 +1,4 @@
+A variation of the token ring protocol is the token bus protocol, which allows the token to be passed in a
+speciﬁed order. In the token bus protocol, which is often used with the bus or tree topologies, a station broadcasts
+the token, specifying the successor station in an address ﬁeld of the token packet. Although all stations receive
+the token, only the addressed successor station can seize it.

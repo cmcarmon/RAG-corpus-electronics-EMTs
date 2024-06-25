@@ -1,0 +1,5 @@
+As an illustration of the notion of noise margins, consider the two sit-
+uations in Figure 5.7.3 In the first instance, the sender sends a 0 by placing
+vOUT = 0.5 V (corresponding to the highest legal output voltage for a logic 0)
+on the wire. The receiver is able to interpret the value as a 0 because the
+received value is within the low input voltage threshold of 2 V.

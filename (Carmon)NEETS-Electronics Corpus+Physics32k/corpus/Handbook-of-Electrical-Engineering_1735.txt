@@ -1,0 +1,6 @@
+distance can be decreased to 1/L binary digits. Note the subtle distinction here between bits, which are units
+of  information,  a  property  of  the  source  alone,  and  binary  digits,  which  are  units  of  code  word  length,  and
+hence only a property of the code used to represent the source. Also note that the Huffman code satisﬁes the
+preﬁx condition, i.e., no code word is the preﬁx of another longer code word. This means that a stream of 0’s
+and  1’s  may  be  uniquely  decoded  into  the  corresponding  sequence  of  source  symbols  without  the  need  for
+markers to delineate boundaries between code words.

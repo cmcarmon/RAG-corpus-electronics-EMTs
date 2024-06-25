@@ -1,0 +1,11 @@
+Normalization is one of the most useful concepts in linear
+networks. It allows us to reduce one frequency and the network
+impedance to unit values without losing any information.
+Consider ﬁrst the scaling of impedances. If we increase (de-
+crease) the impedance of every element of a ﬁlter described by
+its voltage or current transfer function, the input–output rela-
+tionship should not change. It is thus customary to apply
+scaling, which reduces one (any) resistor to the value of 1.
+We can also scale the frequency so that the cutoff frequency of
+a low-pass ﬁlter or the center frequency of a band-pass ﬁlter is
+reduced to 1 rad/s.

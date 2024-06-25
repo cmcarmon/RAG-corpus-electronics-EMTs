@@ -1,0 +1,11 @@
+property of the HMM comes to our aid in this situation.
+Researchers have discovered that HMMs can be trained in
+context (i.e., hooked together in the language graph) as long
+as reasonable ‘‘seed’’ models are used to initiate the estimation
+procedure. This means that the entire observation sequence
+for a sentence can be presented to the appropriate string of
+HMMs, and the models will tend to ‘‘soak up’’ the parts of
+the observation sequence corresponding to their words or
+phones, for example. This ability of the HMM has revolution-
+ized the CSR ﬁeld because it obviates the time-consuming
+procedure of temporally marking a database.

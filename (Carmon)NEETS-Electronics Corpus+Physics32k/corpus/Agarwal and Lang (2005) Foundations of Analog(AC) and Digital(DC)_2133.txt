@@ -1,0 +1,14 @@
+(15.18)
+−5 or so, the output voltage is equal to the input
+That is, within a part of 10
+voltage. An obvious question: Why not just use a piece of copper wire to
+get the gain of one in Equation 15.18? To answer, we need only look at the
+currents. The current that must be supplied by the input source is i
+, hence is
+a few nanoamps. The maximum current that can be supplied to some load by
+the Op Amp output circuit is a few milliamperes. Thus for a one-volt signal
+−8 watts from the signal source, but can
+level, the circuit is drawing perhaps 10
+−3 watts to the load resistor RL. A piece of wire obviously produces
+deliver 10
+no such power gain. Said in another way, the Op Amp is providing isolation

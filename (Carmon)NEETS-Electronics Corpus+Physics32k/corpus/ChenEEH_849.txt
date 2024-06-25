@@ -1,0 +1,5 @@
+2 Section 4.2 later shows that it is more appropriate to refer to the permis-
+sible range of a sequentially adjacent pair of registers. There may be more than
+one local data path between the same pair of registers, but circuit performance
+is ultimately determined by the permissible ranges of the clock skew between
+pairs of registers.

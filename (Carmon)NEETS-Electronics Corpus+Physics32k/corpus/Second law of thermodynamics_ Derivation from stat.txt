@@ -1,0 +1,150 @@
+The first mechanical argument of the Kinetic theory of gases that molecular collisions entail an equalization of temperatures and hence a tendency towards equilibrium was due to James Clerk Maxwell in 1860; Ludwig Boltzmann with his H-theorem of 1872 also argued that due to collisions gases should over time tend toward the Maxwell-Boltzmann distribution.
+Due to Loschmidt's paradox, derivations of the Second Law have to make an assumption regarding the past, namely that the system is uncorrelated at some time in the past; this allows for simple probabilistic treatment. This assumption is usually thought as a boundary condition, and thus the second Law is ultimately a consequence of the initial conditions somewhere in the past, probably at the beginning of the universe (the Big Bang), though other scenarios have also been suggested.
+Given these assumptions, in statistical mechanics, the Second Law is not a postulate, rather it is a consequence of the fundamental postulate, also known as the equal prior probability postulate, so long as one is clear that simple probability arguments are applied only to the future, while for the past there are auxiliary sources of information which tell us that it was low entropy. The first part of the second law, which states that the entropy of a thermally isolated system can only increase, is a trivial consequence of the equal prior probability postulate, if we restrict the notion of the entropy to systems in thermal equilibrium. The entropy of an isolated system in thermal equilibrium containing an amount of energy of
+
+
+
+E
+
+
+{\displaystyle E}
+is:
+
+
+
+
+S
+=
+
+k
+
+
+B
+
+
+
+ln
+⁡
+
+[
+
+Ω
+
+(
+E
+)
+
+
+]
+
+
+
+
+{\displaystyle S=k_{\mathrm {B} }\ln \left[\Omega \left(E\right)\right]\,}
+
+where
+
+
+
+Ω
+
+(
+E
+)
+
+
+
+{\displaystyle \Omega \left(E\right)}
+is the number of quantum states in a small interval between
+
+
+
+E
+
+
+{\displaystyle E}
+and
+
+
+
+E
++
+δ
+E
+
+
+{\displaystyle E+\delta E}
+. Here
+
+
+
+δ
+E
+
+
+{\displaystyle \delta E}
+is a macroscopically small energy interval that is kept fixed. Strictly speaking this means that the entropy depends on the choice of
+
+
+
+δ
+E
+
+
+{\displaystyle \delta E}
+. However, in the thermodynamic limit (i.e. in the limit of infinitely large system size), the specific entropy (entropy per unit volume or per unit mass) does not depend on
+
+
+
+δ
+E
+
+
+{\displaystyle \delta E}
+.
+Suppose we have an isolated system whose macroscopic state is specified by a number of variables. These macroscopic variables can, e.g., refer to the total volume, the positions of pistons in the system, etc. Then
+
+
+
+Ω
+
+
+{\displaystyle \Omega }
+will depend on the values of these variables. If a variable is not fixed, (e.g. we do not clamp a piston in a certain position), then because all the accessible states are equally likely in equilibrium, the free variable in equilibrium will be such that
+
+
+
+Ω
+
+
+{\displaystyle \Omega }
+is maximized as that is the most probable situation in equilibrium.
+If the variable was initially fixed to some value then upon release and when the new equilibrium has been reached, the fact the variable will adjust itself so that
+
+
+
+Ω
+
+
+{\displaystyle \Omega }
+is maximized, implies that the entropy will have increased or it will have stayed the same (if the value at which the variable was fixed happened to be the equilibrium value). Suppose we start from an equilibrium situation and we suddenly remove a constraint on a variable. Then right after we do this, there are a number
+
+
+
+Ω
+
+
+{\displaystyle \Omega }
+of accessible microstates, but equilibrium has not yet been reached, so the actual probabilities of the system being in some accessible state are not yet equal to the prior probability of
+
+
+
+1
+
+/
+
+Ω
+
+
+{\displaystyle 1/\Omega }
+. We have already seen that in the final equilibrium state, the entropy will have increased or have stayed the same relative to the previous equilibrium state. Boltzmann's H-theorem, however, proves that the quantity H increases monotonically as a function of time during the intermediate out of equilibrium state.

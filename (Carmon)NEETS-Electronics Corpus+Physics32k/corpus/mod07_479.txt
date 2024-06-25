@@ -1,0 +1,5 @@
+ripple senses a voltage divider consisting of R1 and C2 between the output of the rectifier and ground. 
+Therefore, most of the ripple voltage is dropped across R1. Only a trace of the ripple voltage can be seen 
+across C2 and the load. In extreme cases where the ripple must be held to an absolute minimum, a second 
+stage of RC filtering can be added. In practice, the second stage is rarely required. The RC filter is 
+extremely popular because smaller capacitors can be used with good results. 

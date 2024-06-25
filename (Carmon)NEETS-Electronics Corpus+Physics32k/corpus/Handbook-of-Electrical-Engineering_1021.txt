@@ -1,0 +1,8 @@
+Obtaining realistic skew parameter values, taking into account all the subtle correlations between parameters,
+is more difﬁcult. In fact, skew model generation is often more an art than a science. Many attempts have been
+made to utilize techniques from a branch of statistics called multivariate analysis [Dillon and Goldstein, 1984].
+In this approach principal component or factor analysis is used to ﬁnd parameters that are linear combinations
+of the original parameters. Only the ﬁrst few of these new parameters will be kept; the others will be discarded
+because they have less signiﬁcance. This new set will have fewer parameters than the original set and therefore
+will be more manageable in terms of ﬁnding their skews. The user sometimes must make many choices in the
+way the common factors are utilized, resulting in different users obtaining different results.

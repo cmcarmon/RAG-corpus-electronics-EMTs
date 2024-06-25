@@ -1,0 +1,18 @@
+Transmission of B-ISDN Signals
+Transmission systems at the UNI provide bit rates of around 150 and 622 Mbit/s. In addition to these rates, at
+the NNI around 2.5 Gbit/s and up to 10 Gbit/s will be used in the future [Baur, 1991]. In addition to the high-
+capacity switching and multiplexing technology, high-speed transmission systems are required. Optical ﬁbers
+are  especially  suitable  for  this  purpose;  however,  for  the  lower  bit  rates  coaxial  cables  can  be  used.  Optical
+transmission uses optical ﬁbers as the transmission medium in low-diameter and low-weight cables to provide
+large transmission capacities over long distances without the need for repeaters. Optical transmission equipment
+currently tends to mono-mode ﬁber and laser diodes with wavelengths of around 1310 nm. For both directions
+in a transmission system either two separate ﬁbers or one common ﬁber with wavelength division multiplexing
+can be used. The second solution may be a good alternative for subscriber lines and short trunk lines [Bauch, 1991].
+For ATM cell transmission, two possibilities exist, which are shown in Fig. 72.2: synchronous pulse frame
+synchronous digital
+or continuous cell stream (cell-based). The basis for the pulse frame concept is the existing 
+hierarchy
+  (SDH).  In  SDH  the  cells  are  transported  within  the  SDH  payload;  the  frame  overhead  includes
+operation  and  maintenance  (OAM)  of  the  transmission  system.  In  the  cell-based  system  the  OAM  for  the
+transmission  system  is  transported  within  cells.  The  SDH  solution  is  already  deﬁned,  whereas  for  cell-based
+transmission some problems remain to be solved (e.g., OAM is not yet fully deﬁned).

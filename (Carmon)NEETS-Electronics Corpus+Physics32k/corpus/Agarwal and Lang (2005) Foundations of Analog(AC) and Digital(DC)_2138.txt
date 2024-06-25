@@ -1,0 +1,10 @@
+as before. The voltage constraint of Equation 15.19 is also called the virtual
+ground constraint,2 and can be interpreted in physical terms by noting that the
+output of a circuit with negative feedback must adjust itself to force (v
+) to
+be nearly zero, because that nearly-zero voltage is in turn multiplied by 100,000
+to become the output voltage.
+− (cid:1) 0 constraint can be applied only if the Op Amp is not saturated
+The v
+and the feedback is negative; that is, the net feedback signal comes from the
+output back to the negative input terminal.

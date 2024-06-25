@@ -1,0 +1,9 @@
+Standard defenses are (1) shielding of lines and circuits, (2) twisted wire pairs or coaxial cables, (3) short lines
+and  leads,  (4)  digital  regeneration  at  waypoints  of  digital  signals,  (5)  narrowband  signals,  (6)  correlation  of
+received signals with multipaths, and (7) adaptive notch ﬁltering to eliminate interference at known frequencies;
+e.g., the second harmonic of 60-Hz ac power lines may interfere with biological microvoltage measurements
+but  could  be  eliminated  via  adaptive  notch  ﬁltering.  Ferrite  beads  can  dampen  interference  [Barnes,  1987].
+Digital  signal  processing,  spectral  shaping  ﬁlters  [see  Brown,  1983],  and  frequency-shift  ﬁlters  [see  Gardner,
+1990, p. 400] can be used to lower noise power. Kalman ﬁltering is a powerful estimation method, and frequency-
+shift ﬁltering is a newer technique for discriminating against both measurement error (e.g., in system identi-
+ﬁcation applications) and extrinsic sources of both noise and interference [Gardner, 1990, p. 400].

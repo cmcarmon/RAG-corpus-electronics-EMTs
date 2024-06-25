@@ -1,0 +1,10 @@
+Fixed-Capacitor, Thyristor-Controlled Reactor (FC-TCR) Scheme
+This scheme was originally developed for industrial applications, such as arc furnace “ﬂicker” control [Gyugyi
+and  Taylor,  1980].  It  is  essentially  a  TCR  (controlled  by  a  delay  angle  a)  in  parallel  with  a  ﬁxed  capacitor.
+Figure 61.27 shows a basic ﬁxed-capacitor, thyristor-controlled reactor-type compensator and associated wave-
+forms. Figure 61.28 displays the steady-state reactive power versus terminal voltage characteristics of a static
+VAR compensator. In the ﬁgure, BC is the imaginary part of the admittance of the capacitor C, and BL is the
+imaginary part of the equivalent admittance of the reactor L at delay angle a. The relation between the output
+VARs and the applied voltage is linear over the voltage band of regulation. In practice, the ﬁxed capacitor is
+usually replaced by a ﬁlter network that has the required capacitive reactance at the power system frequency
+but exhibits a low impedance at selected frequencies to absorb troublesome harmonics.

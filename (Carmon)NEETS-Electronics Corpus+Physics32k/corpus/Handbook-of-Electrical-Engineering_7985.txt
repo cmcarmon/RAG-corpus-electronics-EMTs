@@ -1,0 +1,6 @@
+Now let’s examine the add-time, tadd, for a CLA. Assume that both addends are applied to the CLA simul-
+taneously and that c0 = 0. Also, let tpd represent the propagation delay of a three-level logic circuit. There are
+two components that contribute to the add time. First, the three-level carry lookahead logic must produce the
+carries. This takes tpd. Then, the summation unit must produce the ﬁnal values of the sum bits. This step takes
+a  time  equal  to  the  propagation  delay  of  the  exclusive-OR  gate  in  the  summation  unit  which  is tpd  since  an
+exclusive-OR gate can be realized as a three-level combinational logic circuit. Hence, the add time for a CLA is

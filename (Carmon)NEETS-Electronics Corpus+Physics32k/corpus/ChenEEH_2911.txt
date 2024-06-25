@@ -1,0 +1,24 @@
+Amplitude ﬂuctuation, angle ﬂuctuation, receiver thermal
+noise, and servo-noise limit the tracking accuracy. Amplitude
+ﬂuctuation of an echo signal is an important limitation factor
+to the lobe switching and conical scan radars but not an
+important factor to the monopulse radar. In a tracking radar,
+the apparent angle of arrival (AOA) of a target is at the direc-
+tion of the antenna with zero error signal. The apparent AOA
+may not be conﬁned to the physical extent of the target and
+may be off the target. Changes in the target aspect with respect
+to the radar may cause the apparent AOA to wander from one
+direction to another direction. This random wandering of the
+apparent AOA is called angle ﬂuctuation or target glint. The
+glint phenomenon is more pronounced when a relatively large
+target is at short range, which may make the radar unable to
+track the target and may be the chief factor limiting tracking
+accuracy. The angular error due to glint varies inversely with
+distance. Different carrier frequencies may produce different
+glint errors. The glint error can be reduced by averaging the
+independent measurements obtained with frequency agility
+over a bandwidth greater than c/2D, where D is the target
+depth. The qualitative angular error as a function of range is
+shown in Figure 10.6. The thermal noise term is inversely
+proportional to R2, the glint error is inversely proportional
+to R, and the servo-noise is independent of range.

@@ -1,0 +1,2 @@
+ChaNGa (Charm N-body GrAvity solver) is a computer program to perform collisionless N-body simulations. It can perform cosmological simulations with periodic boundary conditions in comoving coordinates or simulations of isolated stellar systems. It is based on the Barnes–Hut algorithm and uses Ewald summation for periodic forces.
+ChaNGa makes use of the Charm++ parallel programming system, including its dynamic load balancing schemes, in order to scale to large processor configurations. Simulation results have been reported on up to 20,000 IBM Bluegene/L processors [1].

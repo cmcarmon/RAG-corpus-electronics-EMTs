@@ -1,0 +1,8 @@
+Another way to physically organize data on the disk pack (and on diskettes) is to use the sector 
+method. This requires that each of the tracks be divided into individual storage areas called sectors 
+(shown in figure 2-10, view B). The number of sectors varies with the disk system used; however, there 
+are usually eight or more. Each sector holds a specific number of characters. Before a record can be 
+accessed, a computer program must again give the disk drive the record's address specifying the track 
+number, the surface number, and the sector number of the record. One or more read/write heads are then 
+moved to the proper track, the head over the specified surface is activated, and the data is read from or 
+written to the designated sector as it spins under the head. 

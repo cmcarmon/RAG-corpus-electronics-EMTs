@@ -1,0 +1,9 @@
+Now, assuming that the input signal is a small-signal sinusoid superimposed
+on the DC offset of 2.2 V, let us determine the maximum valid peak-to-peak
+swing for the sinusoid. We refer back to Section 7.6.2 to answer this question.
+From Section 7.6.2, we know that under the saturation discipline, the maximum
+For the given parameters, the valid range for input voltages is 1 V →
+2.32 V. In other words, as discussed in Section 7.6.2, input voltages under 1 V
+will result in cutoff region operation of the MOSFET, while those over 2.32 V
+will result in triode region operation. Operation in either the cutoff region or
+the triode region will result in severe signal distortion.

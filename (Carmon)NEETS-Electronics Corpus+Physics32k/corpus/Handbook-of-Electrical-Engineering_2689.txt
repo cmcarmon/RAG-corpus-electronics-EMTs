@@ -1,0 +1,17 @@
+In addition to the drawing commands, often a layout system provides tools for minimizing the overall area
+of the layout (i.e., size of the chip). Today a VLSI chip consists of a lot of individual cells, with each one laid
+out separately. A cell can be an inverter, a NAND gate, a multiplier, a memory unit, etc. The designer can make
+the layout of a cell and then store it in a ﬁle called the 
+ Later, each time the designer wants to design
+a  circuit  that  requires  the  stored  cell,  he  or  she  simply  copies  the  layout  from  the  cell  library. A  layout  may
+routing
+consist of many cells. Most of the layout systems provide routines, called 
+routines, for placing the cells and then interconnecting them with wires in such a way that minimizes the layout
+area.  As  an  example,  Fig. 25.8  presents  the  placement  of  three  cells.  The  area  between  the  cells  is  used  for
+routing. The entire routing surface is divided into a set of rectangular routing areas called channels. The sides
+ID is called a
+ 
+of each channel consist of a set of terminals. A wire that connects the terminals with the same
+net. The router ﬁnds a location for the wire segments of each net within the channel. The following sections
+classify various types of placement and routing techniques and provide an overview of the main steps of some
+of these techniques.

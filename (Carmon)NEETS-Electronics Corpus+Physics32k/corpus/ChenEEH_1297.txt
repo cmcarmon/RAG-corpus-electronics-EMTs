@@ -1,0 +1,6 @@
+. 16-Meg addressable: This limits ﬁrst-party DMA trans-
+fers to the lower 16 Megs of address space. There are
+various software methods to overcome this problem
+when more than 16 Megs of main memory are available.
+This has no effect on the ability of the processor to reach
+all of the main memory.

@@ -1,0 +1,13 @@
+sion. We can deﬁne similar packet processing delay at the
+receiver in the reverse direction. Usually this delay is the
+characteristic of the operating system (OS) and the multimedia
+application under consideration. For a lightly loaded system,
+this delay can be considered as negligible; however, with in-
+creasing load, this delay can become signiﬁcant. Packet pro-
+cessing delay is independent of the Internet model (whether
+best-effort or any other enhanced version), and any reductions
+in this delay would imply software enhancements to the OS
+kernel—such OSs are called multimedia operating systems
+(Steinmetz, 1995) that provide enhanced process-, resource-,
+ﬁle-, and memory-management techniques with real-time
+scheduling—and the application.

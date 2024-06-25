@@ -1,0 +1,8 @@
+As evident from the previous examples, CMOS logic gates can be visualized as
+comprising two complementary modules: the familiar pulldown circuit com-
+prising NFETs, and a complementary pullup module using PFETs. If we are
+interested in implementing the logic function f, the NFET pulldown network is
+designed so it offers a short circuit when f is FALSE and an open circuit when
+f is TRUE. Similarly, the PFET pullup network is designed so it offers a short
+circuit when f is TRUE and an open circuit when f is FALSE. Thus, the CMOS
+implementation of logic function f will assume the form shown in Figure 11.26.

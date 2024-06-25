@@ -1,0 +1,10 @@
+For longer devices the current-voltage curves saturate for a different reason. Consider the potential along
+the insulator-channel interface, the surface potential. Whatever the surface potential is at the source end of the
+channel, it varies from the source end to a value larger at the drain end by VD because the drain potential is
+VD higher than the source. The gate, on the other hand, is at the same potential everywhere. Thus, the difference
+in potential between the gate and the source is larger than that between the gate and the drain. Correspondingly,
+the oxide ﬁeld at the source is larger than that at the drain, and as a result less charge can be supported at the
+drain. This reduction in attractive power of the gate reduces the number of carriers in the channel at the drain
+end, increasing channel resistance. In short, we have ID »VD /Rch, but the channel resistance Rch = Rch (VD) is
+increasing with VD. As a result, the current-voltage curves do not continue along the initial straight line, but
+bend over and saturate.

@@ -1,0 +1,12 @@
+The Op Amp is a multistage two-input differential amplifier that is designed
+to be an almost ideal control device, specifically, a voltage-controlled volt-
+age source. An abstract representation of the operational amplifier shown in
+Figure 15.1 suggests it is a four-port device. The four ports are an input port,
+an output port, and a pair of power ports. A+VS-voltage (for example, 15 volts)
+is applied at the plus power port and a −VS-voltage (for example, −15 volts) is
+applied at the minus power port. An input voltage (the control) applied across
+the non-inverting and inverting input terminals of the Op Amp is amplified by
+a large amount and appears at the output port. In the operational amplifier
+abstraction, the input impedance across the input port is infinity, and the out-
+put impedance is zero. The gain, or the factor by which the input voltage is
+amplified, is also infinity.

@@ -1,0 +1,75 @@
+ 
+ 
+ 
+ 
+ 
+ 
+15. Lay out the 0 V and positive supply rails first. 
+  Then  turn  your  attention  to  linking  to  the  pads 
+or edge connectors used for connecting the off-
+ 
+ 
+board components. Minimize, as far as possible, 
+the number of links required. Do not use links in 
+ 
+the 0 V rail and avoid using them in the positive 
+ 
+ 
+supply rail. 
+16. Experiment  with  positioning  of 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+the  pin  spacing  used  by 
+17. Be  aware  of 
+components  and  try  to  keep  this  consistent 
+ 
+ 
+throughout.  With  the  exception  of  the  larger 
+  wirewound resistors (which should be mounted 
+on  ceramic 
+ 
+lead 
+ 
+components should be mounted flat against the 
+  PCB  (with  their  leads  bent  at  right  angles). 
+  Axial  lead  components  should  not  be  mounted 
+ 
+18. Do  not  forget  that  tracks  may  be  conveniently 
+ 
+routed  beneath  other  components.  Supply  rails 
+in  particular  can  be  routed  between  opposite 
+ 
+rows  of  pads  of  D1L  integrated  circuits;  this 
+ 
+permits  very  effective  supply  distribution  and 
+ 
+ 
+decoupling. 
+19. Minimize  track  runs  as  far  as  possible  and 
+  maintain constant spacing between parallel runs 
+of  track.  Corners  should  be  radiused  and  acute 
+ 
+internal and external angles should be avoided. 
+ 
+ 
+In  exceptional  circumstances, 
+it  may  be 
+necessary to run a track between adjacent pads 
+ 
+of  a  DIL  integrated  circuit.  In  such  cases,  the 
+ 
+track should not be a common 0 V path, neither 
+ 
+ 
+should it be a supply rail. 
+ 
+Figure  19.8  shows  examples  of  good  and  bad 
+practice associated with PCB layout while Fig. 19.9 
+shows  an  example  of  a  PCB  layout  and  matching 
+component  overlay  that  embodies  most  of  the 
+techniques and principles discussed. 

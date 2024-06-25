@@ -1,0 +1,15 @@
+Subsection 2.5.2. The application’s many memory accesses put
+a heavy load on the memory system. Therefore, the default
+memory conﬁguration contains a high-speed off-chip DRAM
+as bulk memory and a dual-port SRAM for the arrays that are
+small enough to ﬁt there. For this conﬁguration, we have
+estimated the area of the on-chip SRAM and the energy con-
+sumption of both, based on the vendor’s data-sheets and how
+many times each array is accessed. Then, we have also designed
+a custom memory organization for this application. In con-
+trast to the default memory architecture, the custom memory
+organization can meet the real-time constraint with a much
+lower energy consumption and area cost. Slower, smaller, and
+more energy-efﬁcient memories can be used. These results,
+however, are only attainable by careful systematic exploration
+of the alternatives, as the following subsection shows.

@@ -1,0 +1,12 @@
+The third-generation TMS320C30 (by TI) supports ﬁxed- as well as ﬂoating-point operations [Chassaing,
+1992]. Features of this processor include 32-bit by 32-bit ﬂoating-point multiply operations in one instruction
+cycle time of 60 ns. Since a number of instructions, such as load and store, multiply and add, can be performed
+in parallel (in one cycle time), the TMS320C30 can execute a pair of parallel instructions in 30 ns, allowing
+for 33.3 MIPS. The Harvard-based architecture of the ﬁxed-point processors was abandoned for one allowing
+four  levels  of  pipelining  with  three  subsequent  instructions  being  consequently  fetched,  decoded,  and  read
+while the current instruction is being executed. The TMS320C30 has 2 K words of on-chip memory and a total
+of 16 million words of addressable memory spaces for program, data, and input/output. Specialized instructions
+are available to make common DSP algorithms such as ﬁltering and spectral analysis execute fast and efﬁciently.
+The architecture of the TMS320C30 was designed to take advantage of higher-level languages such as C and
+ADA.  The  TMS320C31  and  TMS320C32,  recent  members  of  the  third-generation  ﬂoating-point  processors,
+are available with a 40 ns instruction cycle time.

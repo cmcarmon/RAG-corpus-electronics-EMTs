@@ -1,0 +1,7 @@
+Compression algorithms can be divided into two major categories: information-preserving, or lossless, and
+lossy  techniques.  Information-preserving  techniques  introduce  no  errors  in  the  encoding/decoding  process;
+thus, the original signal can be reconstructed exactly. Unfortunately, the achievable compression rate, i.e., the
+reduction in bit rate, is quite small, typically on the order of 3:1. On the other hand, lossy techniques introduce
+errors in the coding/decoding process; thus, the received signal cannot be reconstructed exactly. The advantage
+of  the  lossy  techniques  is  the  ability  to  achieve  much  higher  compression  ratios.  The  limiting  factor  on  the
+compression ratio is the required quality of the video signal in a speciﬁc application.

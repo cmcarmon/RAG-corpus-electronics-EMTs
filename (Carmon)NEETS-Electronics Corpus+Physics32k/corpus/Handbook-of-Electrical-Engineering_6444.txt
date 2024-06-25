@@ -1,0 +1,5 @@
+At  the  receiver,  the  sum  of  the  transmitted  FH/MFSK  signal  and  the  channel  interference  I(t)  is  ideally
+complex multiplied by the identical FH modulation (this operation is known as dehopping), which returns
+the FH/MFSK signal to its original MFSK form, whereas the real interference signal is now the wideband (in
+the  average  sense)  signal  Re{I(t)c(t)}. Analogous  to  the  DS  case,  the  receiver  must  acquire  and  track  the  FH
+signal so that the dehopping waveform is as close to the hopping waveform c(t) as possible.

@@ -1,0 +1,5 @@
+CLAs may be cascaded to produce an adder for longer operands. Figure 81.53 shows a cascade of four 4-bit
+CLAs to produce a 16-bit adder. Carries are produced using carry lookahead logic within each CLA stage but
+must propagate between stages in a manner reminiscent of a ripple-carry adder. Hence the add time of cascaded
+CLAs  is  dependent  on  the  number  of  stages  in  the  cascade.  The  four-stage  adder  shown  in  Fig. 81.53  has  a
+worst-case add time of 5tpd. In general, the add time of an m-stage cascade is (m + 1)tpd.

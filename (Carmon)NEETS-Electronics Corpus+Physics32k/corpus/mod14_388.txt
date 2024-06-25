@@ -1,0 +1,5 @@
+Clock pulse 3 toggles FF1 again and lights lamp A. Since the J and K inputs to FF2 were LOW when
+pulse 3 occurred, FF2 does not toggle but remains set. Lamps A and B are lit, indicating a count of 0112.
+With both FF1 and FF2 set, HIGHs are input to both inputs of the AND gate, resulting in HIGHs to J and
+K of FF3. No change occurred in the output of FF3 on clock pulse 3 because the J and K inputs were
+LOW at the time.

@@ -1,0 +1,19 @@
+The electrodynamic wattmeter is used to measure power taken from ac or dc power sources. The 
+electrodynamic wattmeter, shown in figure 3-10, uses the reaction between the magnetic fields of two 
+current-carrying coils (or sets of coils), one fixed and the other movable. When the current through the 
+fixed-position field winding(s) is the same as current through the load and the current through the moving 
+coil is proportional to the load voltage, then the instantaneous pointer deflection is proportional to the 
+instantaneous power. Since the moving pointer cannot follow the rapid variations in torque because of its 
+momentum, it assumes a deflection proportional to the average power. The dynamometer-type wattmeter 
+automatically compensates for the power factor error of the circuit under test. It indicates only the 
+instantaneous power resulting from in-phase values of current and voltage. With out-of-phase 
+relationships, a current peak through the moving coil never occurs at the same instant as the voltage peak 
+across the load, resulting in less pointer deflection than when the current and voltage are in phase. The 
+simple meter shown in figure 3-10 is not compensated. When the load is disconnected, this meter will still 
+indicate that power is being consumed in the circuit. This difficulty can be eliminated by incorporating 
+two compensating windings, mounted with the primary fixed-coil current windings, as shown in figure 3-
+11. These stationary windings are used to produce a magnetic flux proportional to the current through the 
+movable coil. As shown by the arrows, the currents through the primary movable coil and the 
+compensating coil flow in opposite directions, producing a torque caused by the opposing magnetic 
+fields. These opposing fields cancel. Hence, with the load removed from the circuit, the meter will 
+indicate zero power through the load. 

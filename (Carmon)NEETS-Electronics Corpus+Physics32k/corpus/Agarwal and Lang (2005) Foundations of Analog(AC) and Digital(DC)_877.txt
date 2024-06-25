@@ -1,0 +1,7 @@
+Let us begin by comparing the transfer characteristics of our inverter against the voltage
+thresholds of the given static discipline. As shown in Figure 6.40, recall that our inverter
+produces a high output of 5 V, and a low output of 0.33 V. It can interpret voltages
+below VT = 1 V as a logical 0 and voltages above VT = 1 V as a logical 1.
+1. When outputting a logical 1, the voltage produced by our inverter must be greater
+than VOH = 4.5 V. Since our inverters produce a 5-V output for a logical 1, they
+satisfy this condition.

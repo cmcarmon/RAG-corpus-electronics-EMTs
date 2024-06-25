@@ -1,0 +1,20 @@
+OPM has two main parts: the language and the methodology. The language is bimodal—it is expressed in two complementary ways (modalities): the visual, graphical part—a set of one or more Object-Process Diagrams (OPDs), and a corresponding textual part—a set of sentences in Object-Process Language (OPL), which is a subset of English.
+The top-level OPD is the system diagram (SD), which provides the context for the system's function. For man-made systems this function is expected to benefit a person or a group of people—the beneficiary. The function is the main process in SD, which also contains the objects involved in this process: the beneficiary, the operand (the object upon which the process operates), and possibly the attribute whose value the process changes.
+OPM graphical elements are divided into entities, expressed as closed shapes, and relations, expressed as links that connect entities.
+Entities
+Entities are the building blocks of OPM. They include objects and processes, collectively called things, and object states.
+Object
+An object is a thing, which once constructed, exists or can exist physically or informatically. Associations among objects constitute the object structure of the system being modeled. In OPL text, the object name shall appear in bold face with capitalization of each word.
+Object state
+An object state is a particular situation classification of an object at some point during its lifetime. At every point in time, the object is in one of its states or in transition between two of its states—from its input state to its output state.
+Process
+A process is an expression of the pattern of transformation of objects in the system. A process does not exist in isolation; it is always associated with and occurs or happens to one or more objects. A process transforms objects by creating them, consuming them, or changing their state. Thus, processes complement objects by providing the dynamic, behavioral aspect of the system. In OPL text, the process name shall appear in bold face with capitalization of each word.
+Links
+
+Structural link
+A structural links defines a structural relation. A structural relation shall specify an association that persists in the system for at least some interval of time.
+Procedural link
+A procedural link defines procedural relation. A procedural relation shall specify how the system operates to attain its function, designating time dependent or conditional triggering of processes, which transform objects.
+Event and condition
+The Event-Condition-Action paradigm provides the OPM operational semantics and flow of control. An event is a point in time at which an object is created (or appears to be created from the system's perspective) or an object enters a specified state. At runtime, this process triggering initiates evaluation of the process precondition. Thus, starting a process execution has two prerequisites: (1) a triggering event, and (2) satisfaction of a precondition.
+Once the event triggers a process, the event ceases to exist. The precondition is the existence of the required object instances in the preprocess object set, possibly in specific states, as modeled. If and only if the evaluation reveals satisfaction of the precondition, the process starts executing.

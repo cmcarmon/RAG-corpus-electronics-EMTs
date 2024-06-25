@@ -1,0 +1,6 @@
+The performance evaluation of communications systems can be done analytically only in the simplest cases;
+usually,  computer  simulation  is  required.  However,  if  computer  simulations  of  RF  communications  systems
+are performed directly in the RF domain, then the sampling frequency for the simulation depends on both the
+carrier  frequency  and  the  bandwidth  of  the  transmitted  signal.  The  high  carrier  frequency  results  in  a  high
+sampling frequency and consequently a long simulation time. On the other hand, the parameters of a bandpass
+system do not depend on the actual value of the carrier frequency.

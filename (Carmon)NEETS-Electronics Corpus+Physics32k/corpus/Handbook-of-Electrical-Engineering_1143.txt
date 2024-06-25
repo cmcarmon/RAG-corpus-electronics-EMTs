@@ -1,0 +1,6 @@
+Implementation of FIR Filters Using the Discrete Fourier Transform
+A method for implementing FIR ﬁlters that can have computational advantages over direct-form convolution
+involves processing the input data in blocks using the discrete Fourier transform (DFT) via the overlap-save
+method. The computational advantage arises primarily from use of the fast Fourier transform (FFT) algorithm
+(discussed in Section 14.2) to compute the DFTs of the individual data blocks. In this method, the input data
+sequence {x(n); – ¥ < n < ¥} is divided into  L-point blocks

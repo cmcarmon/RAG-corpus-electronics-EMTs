@@ -1,0 +1,9 @@
+(cid:1) The power supply voltage VS is 5 V.
+(cid:1) RL = 100 k and RON = 10 k for each of the MOSFETs.
+Equation 11.27 applies when T/2 (cid:3) RTHCL and T/2 (cid:3) RLCL. First, let us confirm
+that these relationships hold. Since RL is greater than RTH,
+it is sufficient to verify
+that T/2 (cid:3) RLCL. For the parameters supplied, T/2 = 1/(20 × 106) = 50 ns and
+RLCL = 100× 103 × 0.01× 10
+−12 = 1 ns. Clearly, the circuit time constants are much
+smaller than the signal intervals.

@@ -1,0 +1,130 @@
+Where rpm is shaft speed and T is torque, a motor's mechanical power output Pem is given by,
+in British units with T expressed in foot-pounds,
+
+
+
+
+
+P
+
+e
+m
+
+
+=
+
+
+
+r
+p
+m
+×
+T
+
+5252
+
+
+
+
+{\displaystyle P_{em}={\frac {rpm\times T}{5252}}}
+(horsepower), and,
+in SI units with shaft angular speed expressed in radians per second, and T expressed in newton-meters,
+
+
+
+
+
+P
+
+e
+m
+
+
+=
+
+a
+n
+g
+u
+l
+a
+r
+s
+p
+e
+e
+d
+×
+T
+
+
+
+{\displaystyle P_{em}={angularspeed\times T}}
+(watts).
+For a linear motor, with force F expressed in newtons and velocity v expressed in meters per second,
+
+
+
+
+
+P
+
+e
+m
+
+
+=
+F
+×
+
+v
+
+
+
+{\displaystyle P_{em}=F\times {v}}
+(watts).
+In an asynchronous or induction motor, the relationship between motor speed and air gap power is, neglecting skin effect, given by the following:
+
+
+
+
+
+P
+
+a
+i
+r
+g
+a
+p
+
+
+=
+
+
+
+R
+
+r
+
+
+s
+
+
+∗
+
+I
+
+r
+
+
+2
+
+
+
+
+{\displaystyle P_{airgap}={\frac {R_{r}}{s}}*I_{r}^{2}}
+, where
+Rr - rotor resistance
+Ir2 - square of current induced in the rotor
+s - motor slip; ie, difference between synchronous speed and slip speed, which provides the relative movement needed for current induction in the rotor.

@@ -1,0 +1,65 @@
+In three-dimensional space there are an infinite number of planes of rotation, only one of which is involved in any given rotation. That is for a general rotation there is precisely one plane which is associated with it or which the rotation takes place in. The only exception is the trivial rotation, corresponding to the identity matrix, in which no rotation takes place.
+In any rotation in three dimensions there is always a fixed axis, the axis of rotation. The rotation can described by giving this axis, with the angle through which the rotation turns about it; this is the axis angle representation of a rotation. The plane of rotation is the plane orthogonal to this axis, so the axis is a surface normal of the plane. The rotation then rotates this plane through the same angle as it rotates around the axis, that is everything in the plane rotates by the same angle about the origin.
+One example is shown in the diagram, where the rotation takes place about the z-axis. The plane of rotation is the xy-plane, so everything in that plane it kept in the plane by the rotation. This could be described by a matrix like the following, with the rotation being through an angle θ (about the axis or in the plane):
+
+
+
+
+
+
+(
+
+
+
+cos
+⁡
+θ
+
+
+−
+sin
+⁡
+θ
+
+
+0
+
+
+
+
+sin
+⁡
+θ
+
+
+cos
+⁡
+θ
+
+
+0
+
+
+
+
+0
+
+
+0
+
+
+1
+
+
+
+)
+
+
+.
+
+
+{\displaystyle {\begin{pmatrix}\cos \theta &-\sin \theta &0\\\sin \theta &\cos \theta &0\\0&0&1\end{pmatrix}}.}
+
+
+Another example is the Earth's rotation. The axis of rotation is the line joining the North Pole and South Pole and the plane of rotation is the plane through the equator between the Northern and Southern Hemispheres. Other examples include mechanical devices like a gyroscope or flywheel which store rotational energy in mass usually along the plane of rotation.
+In any three dimensional rotation the plane of rotation is uniquely defined. Together with the angle of rotation it fully describes the rotation. Or in a continuously rotating object the rotational properties such as the rate of rotation can be described in terms of the plane of rotation. It is perpendicular to, and so is defined by and defines, an axis of rotation, so any description of a rotation in terms of a plane of rotation can be described in terms of an axis of rotation, and vice versa. But unlike the axis of rotation the plane generalises into other, in particular higher, dimensions.

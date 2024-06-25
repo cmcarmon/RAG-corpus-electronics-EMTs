@@ -1,0 +1,8 @@
+As the name suggests, the noise margin allows the receiver to interpret a
+value correctly even if some amount of noise is imposed on a sender’s signal.
+Figure 5.9a illustrates a scenario in which a sender outputs a 01010 sequence
+by producing the appropriate output voltage levels (between VOH and 5 V for
+a logical 1, and between 0 V and VOL for a logical 0). Provided that the noise
+does not exceed the noise margins (voltages for a logical 0 do not exceed VIL
+and voltages for a logical 1 do not fall below VIH), a receiver is able to correctly
+interpret the signal as illustrated in Figure 5.9b.

@@ -1,0 +1,11 @@
+Special Notes on Using Latches and Flip-Flops
+Since bistable devices are asynchronous fundamental mode sequential logic circuits, only one input is allowed
+to change at a time. This means that for proper operation for a basic latch, only one of the data inputs S or R
+for  a  S-R  NOR  latch  (~S  or  ~R  for  a  S-R  NAND  latch)  may  be  changed  at  one  time.  For  a  gated  latch  this
+means for proper operation the data inputs S and R or data input D must meet a minimum setup (tsu) and
+hold  time  (th)  requirement,  i.e.,  the  data  input(s)  must  be  stable  for  a  minimum  time  period,  prior  to  the
+control input C changing the latch from the transparent mode to the memory mode. For proper operation of
+an  edge-triggered  ﬂip-ﬂop  this  means  that  the  data  input D  or  data  inputs  J  and  K  must  meet  a  minimum
+setup  time  and  hold  time  requirement  relative  to  the  control  input  C  changing  from  0  to  1  (positive  edge-
+triggered) or from 1 to 0 (negative edge-triggered). In manufacturers’ data books, the control input C is often
+named the enable input for latches and the clock (CLK) input for ﬂip-ﬂops.

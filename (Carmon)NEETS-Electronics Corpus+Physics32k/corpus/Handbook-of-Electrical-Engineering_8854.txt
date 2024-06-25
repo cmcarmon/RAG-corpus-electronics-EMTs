@@ -1,0 +1,9 @@
+Building  an  ideal  memory  system  (inﬁnite  capacity,  zero  latency  and  inﬁnite  bandwidth,  with  affordable
+cost)  is  not  feasible.  The  challenge  is,  given  a  set  of  cost  and  technology  constraints,  to  engineer  a  memory
+system  whose  abilities  match  the  abilities  that  the  processor  demands  of  it.  That  is,  engineering  a  memory
+system that performs as close to an ideal memory system (for the given processing unit) as is possible. For a
+processor that stalls when it makes a memory request (some current microprocessors are in this category), it
+is important to engineer a memory system with the lowest possible latency. For those processors that can handle
+multiple  outstanding  memory  requests  (vector  processors  and  high-end  CPUs),  it  is  important  not  only  to
+reduce latency, but also to increase bandwidth (over what is possible by latency reduction alone) by designing
+a memory system that is capable of servicing multiple requests simultaneously.

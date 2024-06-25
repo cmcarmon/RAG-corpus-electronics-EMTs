@@ -1,0 +1,6 @@
+Kalman ﬁltering addresses these shortcomings at the cost of signiﬁcantly greater computational complexity.
+Target equations of motion are modeled explicitly such that the position, velocity, and potentially higher-order
+derivatives of each measurement dimension are estimated by the track ﬁlter as a state vector. The error associated
+with the estimated state vector is modeled via a covariance matrix that is also updated with each iteration of
+the track ﬁlter. The covariance matrix determines the weight vector used to update the smoothed state vector
+in order to incorporate such factors as measurement  S/N and dynamic target maneuvering.

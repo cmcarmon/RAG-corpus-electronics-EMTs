@@ -1,0 +1,6 @@
+Note that the weights in the action and the critic networks
+were trained using their internal cycles, Na and Nc , respec-
+tively. That is, within each time-step, the weights of the two
+networks were updated for at most Na and Nc times, respec-
+tively, or stopped once the internal training error threshold Ta
+and Tc has been met.

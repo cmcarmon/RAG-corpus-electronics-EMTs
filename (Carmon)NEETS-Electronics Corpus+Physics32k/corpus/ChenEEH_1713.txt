@@ -1,0 +1,19 @@
+features and high-level semantics often called the semantic
+gap. This effort has to take into account the information
+from audio as well as from video sources. Naphade et al.
+(1998b) have proposed the concept of Multiject, a multimedia
+object. A Multiject is the high-level representation of a certain
+object, event, or site having features from audio as well as from
+video. It has a semantic label, that describes the object in
+words. It also has associated multimodal features (including
+both audio and video features) that represent its physical
+appearance. Multiject also has an associated probability of
+occurrence in conjunction with other objects in the same
+domain (shot). Experiments using Multiject concepts from
+three main categories of objects (e.g., airplane), sites (e.g.,
+indoor), and events (e.g., gunshot) have been conducted.
+Given the multimodal feature vector ~XXj of the jth frame and
+assuming uniform priors on the presence or absence of any
+concept
+the probability of occurrence of
+each concept in the jth frame is obtained from Bayes’ rule as:

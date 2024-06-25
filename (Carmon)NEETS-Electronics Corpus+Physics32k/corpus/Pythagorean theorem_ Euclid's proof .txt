@@ -1,0 +1,25 @@
+In outline, here is how the proof in Euclid's Elements proceeds. The large square is divided into a left and right rectangle. A triangle is constructed that has half the area of the left rectangle. Then another triangle is constructed that has half the area of the square on the left-most side. These two triangles are shown to be congruent, proving this square has the same area as the left rectangle. This argument is followed by a similar version for the right rectangle and the remaining square. Putting the two rectangles together to reform the square on the hypotenuse, its area is the same as the sum of the area of the other two squares. The details follow.
+Let A, B, C be the vertices of a right triangle, with a right angle at A. Drop a perpendicular from A to the side opposite the hypotenuse in the square on the hypotenuse. That line divides the square on the hypotenuse into two rectangles, each having the same area as one of the two squares on the legs.
+For the formal proof, we require four elementary lemmata:
+If two triangles have two sides of the one equal to two sides of the other, each to each, and the angles included by those sides equal, then the triangles are congruent (side-angle-side).
+The area of a triangle is half the area of any parallelogram on the same base and having the same altitude.
+The area of a rectangle is equal to the product of two adjacent sides.
+The area of a square is equal to the product of two of its sides (follows from 3).
+Next, each top square is related to a triangle congruent with another triangle related in turn to one of two rectangles making up the lower square.
+
+The proof is as follows:
+Let ACB be a right-angled triangle with right angle CAB.
+On each of the sides BC, AB, and CA, squares are drawn, CBDE, BAGF, and ACIH, in that order. The construction of squares requires the immediately preceding theorems in Euclid, and depends upon the parallel postulate.
+From A, draw a line parallel to BD and CE. It will perpendicularly intersect BC and DE at K and L, respectively.
+Join CF and AD, to form the triangles BCF and BDA.
+Angles CAB and BAG are both right angles; therefore C, A, and G are collinear. Similarly for B, A, and H.
+Angles CBD and FBA are both right angles; therefore angle ABD equals angle FBC, since both are the sum of a right angle and angle ABC.
+Since AB is equal to FB and BD is equal to BC, triangle ABD must be congruent to triangle FBC.
+Since A-K-L is a straight line, parallel to BD, then rectangle BDLK has twice the area of triangle ABD because they share the base BD and have the same altitude BK, i.e., a line normal to their common base, connecting the parallel lines BD and AL. (lemma 2)
+Since C is collinear with A and G, square BAGF must be twice in area to triangle FBC.
+Therefore, rectangle BDLK must have the same area as square BAGF = AB2.
+Similarly, it can be shown that rectangle CKLE must have the same area as square ACIH = AC2.
+Adding these two results, AB2 + AC2 = BD × BK + KL × KC
+Since BD = KL, BD × BK + KL × KC = BD(BK + KC) = BD × BC
+Therefore, AB2 + AC2 = BC2, since CBDE is a square.
+This proof, which appears in Euclid's Elements as that of Proposition 47 in Book 1, demonstrates that the area of the square on the hypotenuse is the sum of the areas of the other two squares. This is quite distinct from the proof by similarity of triangles, which is conjectured to be the proof that Pythagoras used.

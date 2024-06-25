@@ -1,0 +1,6 @@
+In selecting a time base, you should select one that is lower in frequency than the input signal. If the
+input signal requires 5 milliseconds to complete one cycle and the sawtooth is set for 0.5 milliseconds per
+centimeter with a 10-centimeter-wide graticule, then approximately one cycle will be displayed. If the
+time base is set for 1 millisecond per centimeter, approximately two cycles will be displayed. If the time
+base is set at a frequency higher than the input frequency, only a portion of the input signal will be
+displayed.

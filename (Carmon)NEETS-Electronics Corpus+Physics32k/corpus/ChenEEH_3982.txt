@@ -1,0 +1,7 @@
+Partitioning the same DG to several blocks is considered a
+special case of multistage systolic mapping MSSM (Hwang and
+Hu, 1992), where each stage is characterized by a different DG of
+a different nested Do-loop algorithm. It can be viewed as an
+locally parallel globally parallel (LPGP). Scheduling problem for
+parallel processing of a complex operation chain. After mapping
+consecutive stages, it may result in mismatched I/O operations.

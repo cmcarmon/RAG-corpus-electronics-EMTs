@@ -1,0 +1,11 @@
+function, whereas the natural frequency ωn of a system provides a measure of the settling time
+(see Figure 16.2.6). The settling time is no greater than ts = 3/ξ ωn for the response to a step input
+to reach 95% of its steady-state value. For a 1% tolerance band, the settling time is no greater than
+ts = 5/ξ ωn. Figure 16.2.10 depicts the percent maximum overshoot as a function of the damping
+ratio ξ for a linear second-order system. For two different systems having the same damping ratio
+ξ, the one with the larger natural frequency will have the smaller settling time in responding to
+input commands or load disturbances.
+The particular form of the forced solution of Equation (16.2.26) depends upon the type of
+forcing function used. If a step input of magnitude r0 is applied, then R(s) = r0/s, so that the
+complete transformed solution becomes
+C(s) =

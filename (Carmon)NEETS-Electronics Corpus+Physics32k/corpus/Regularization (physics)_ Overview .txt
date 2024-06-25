@@ -1,0 +1,108 @@
+Regularization procedures deal with infinite, divergent, and nonsensical expressions by introducing an auxiliary concept of a regulator (for example, the minimal distance
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+in space which is useful, in case the divergences arise from short-distance physical effects). The correct physical result is obtained in the limit in which the regulator goes away (in our example,
+
+
+
+ϵ
+→
+0
+
+
+{\displaystyle \epsilon \to 0}
+), but the virtue of the regulator is that for its finite value, the result is finite.
+However, the result usually includes terms proportional to expressions like
+
+
+
+1
+
+/
+
+ϵ
+
+
+{\displaystyle 1/\epsilon }
+which are not well-defined in the limit
+
+
+
+ϵ
+→
+0
+
+
+{\displaystyle \epsilon \to 0}
+. Regularization is the first step towards obtaining a completely finite and meaningful result; in quantum field theory it must be usually followed by a related, but independent technique called renormalization. Renormalization is based on the requirement that some physical quantities — expressed by seemingly divergent expressions such as
+
+
+
+1
+
+/
+
+ϵ
+
+
+{\displaystyle 1/\epsilon }
+— are equal to the observed values. Such a constraint allows one to calculate a finite value for many other quantities that looked divergent.
+The existence of a limit as ε goes to zero and the independence of the final result from the regulator are nontrivial facts. The underlying reason for them lies in universality as shown by Kenneth Wilson and Leo Kadanoff and the existence of a second order phase transition. Sometimes, taking the limit as ε goes to zero is not possible. This is the case when we have a Landau pole and for nonrenormalizable couplings like the Fermi interaction. However, even for these two examples, if the regulator only gives reasonable results for
+
+
+
+ϵ
+≫
+1
+
+/
+
+Λ
+
+
+{\displaystyle \epsilon \gg 1/\Lambda }
+and we are working with scales of the order of
+
+
+
+1
+
+/
+
+
+Λ
+′
+
+
+
+{\displaystyle 1/\Lambda '}
+, regulators with
+
+
+
+1
+
+/
+
+Λ
+≪
+ϵ
+≪
+1
+
+/
+
+
+Λ
+′
+
+
+
+{\displaystyle 1/\Lambda \ll \epsilon \ll 1/\Lambda '}
+still give pretty accurate approximations. The physical reason why we can't take the limit of ε going to zero is the existence of new physics below Λ.
+It is not always possible to define a regularization such that the limit of ε going to zero is independent of the regularization. In this case, one says that the theory contains an anomaly. Anomalous theories have been studied in great detail and are often founded on the celebrated Atiyah–Singer index theorem or variations thereof (see, for example, the chiral anomaly).

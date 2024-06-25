@@ -1,0 +1,8 @@
+A simple circuit model for a specific type of MOSFET device called the
+n-channel MOSFET is depicted in Figure 6.10.3 This model based on the
+simple switch is called the MOSFET’s Switch Model, or S Model for short.4
+The device is in the ON state when vGS crosses a threshold voltage VT,
+otherwise it is off. A typical value for VT for n-channel MOSFETs is 0.7 volts,
+but it can be varied by the manufacturing process.5 In the ON state, the S model
+approximates the connection between the drain and the source as a short circuit.
+In practice, there is some nonzero resistance between the drain and the source,

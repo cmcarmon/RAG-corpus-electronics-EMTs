@@ -1,0 +1,19 @@
+Nowadays, the crosscoupling capacitance between parallel
+neighboring wires, which can get routed together for long
+distances, is gaining great importance compared to the self-
+capacitance wires. The crosscoupling can either lead to a large
+increase in delay, coupling noise, min delay, or power con-
+sumption problems, depending on the switching direction of
+neighboring wires. Avoiding these delay and noise problems
+would involve drastically increased wire spacing or extensive
+shielding. Further, studies on both the Pentium III and Pen-
+tium IV processor ﬂoor plans have clearly shown that they
+tend to be interconnect-limited for die area, which increases
+the penalty for spacing and shielding. Thus, there is a funda-
+mental design trade-off between a simple, robust wiring solu-
+tion employing extensive spacing and shielding versus an
+aggressive solution employing short wiring with only judicious
+shielding leading to high density. The latter requires sophisti-
+cated CAD tools, has more risks, but ultimately is much more
+optimal for a high-volume product. It was therefore the choice
+for the Intel Pentium IV processor (Intel, 2001).

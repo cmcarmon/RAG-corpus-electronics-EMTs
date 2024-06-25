@@ -1,0 +1,8 @@
+When possible, the full-bridge conﬁguration is the best to use. This is true not only because
+it is more sensitive than the others, but because it is linear while the others are not. Quarter-
+bridge and half-bridge circuits provide an output (imbalance) signal that is only approximately
+proportional to applied strain gauge force. Linearity, or proportionality, of these bridge circuits
+is best when the amount of resistance change due to applied force is very small compared to the
+nominal resistance of the gauge(s). With a full-bridge, however, the output voltage is directly
+proportional to applied force, with no approximation (provided that the change in resistance
+caused by the applied force is equal for all four strain gauges!).

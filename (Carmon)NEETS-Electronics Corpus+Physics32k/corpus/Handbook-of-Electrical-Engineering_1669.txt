@@ -1,0 +1,8 @@
+Practical Issues
+Data Association
+One of the best ways to ruin the performance of a Kalman ﬁlter is to put the wrong data into it. In a dense
+multiple-target environment, for applications with sensors such as radar, passive infrared, sonar, acoustic, or
+optical, the question of which measurement originated from which target is a very serious issue. In addition,
+the measurements could be unresolved mixtures from two or more objects. There is a plethora of algorithms
+to mitigate these problems, as well as a vast literature on this subject, including Blackman [1986]; Blackman
+et al. [1999], Bar-Shalom [1995], and Daum [1992].

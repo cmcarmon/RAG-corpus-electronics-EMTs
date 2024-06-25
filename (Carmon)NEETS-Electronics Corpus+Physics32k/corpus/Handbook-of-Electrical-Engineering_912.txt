@@ -1,0 +1,7 @@
+Pitfalls.
+Occasionally SPICE will fail and give the message “Timestep too small in transient analysis”, which
+means that the process of Newton iterations at certain time steps could not be made to converge. One of the
+most common causes of this is the speciﬁcation of a capacitor with a value that is much too large, for example,
+specifying a 1-F capacitor instead of a 1 pF capacitor (an easy mistake to make by not adding the “p” in the
+value speciﬁcation). Unfortunately, we usually have no way to tell which capacitor is at fault from the type of
+failure generated other than to manually search the input deck.

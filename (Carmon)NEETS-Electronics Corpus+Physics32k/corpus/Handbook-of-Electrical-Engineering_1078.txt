@@ -1,0 +1,12 @@
+Regardless of whether s[n] is a ﬁnite-length or a periodic sequence, the DFT treats the N samples of s[n] as
+though they characterize one period of a periodic sequence. This is an important feature of the DFT, and one
+that must be handled properly in signal processing to prevent the introduction of artifacts. Important properties
+of the DFT are summarized in Table 14.5. The notation (k)N denotes k modulo N, and RN[n] is a rectangular
+window such that RN[n] = 1 for n = 0, …, N – 1, and RN[n] = 0 for n < 0 and n ‡ N. The transform relationship
+given by Eqs. (14.17a) and (14.17b) is also valid when s[n] and S[k] are periodic sequences, each of period N.
+In this case, n and k are permitted to range over the complete set of real integers, and S[k] is referred to as the
+discrete Fourier series (DFS). The DFS is developed by some authors as a distinct transform pair in its own
+right [Oppenheim and Schafer, 1975]. Whether or not the DFT and the DFS are considered identical or distinct
+is not very important in this discussion. The important point to be emphasized here is that the DFT treats s[n]
+as  though  it  were  a  single  period  of  a  periodic  sequence,  and  all  signal  processing  done  with  the  DFT  will
+inherit the consequences of this assumed periodicity.

@@ -1,0 +1,11 @@
+the output of which is obtained by transforming h[n] and s[n] into H[k] and S[k] via the DFT (FFT), multiplying
+the transforms point-wise to obtain Y[k] = H[k]S[k], and then using the inverse DFT (FFT) to obtain y[n] =
+IDFT{Y[k]}. If s[n] is a ﬁnite sequence of length M, then the result of the circular convolution implemented
+by  the  DFT  will  correspond  to  the  desired  linear  convolution  if  and  only  if  the  block  length  of  the  DFT  is
+chosen so that NDFT ‡ N + M – 1 and both h[n] and s[n] are padded with zeros to form blocks of length NDFT . 
+Relationships among Fourier Transforms
+Figure 14.8 illustrates the functional relationships among the various forms of CT and DT Fourier transforms
+that have been discussed in the previous sections. The family of CT is shown on the left side of Fig. 14.8, whereas
+the right side of the ﬁgure shows the hierarchy of DTFTs. Fourier transforms. The complex Fourier transform
+is identical to the bilateral Laplace transform, and it is at this level that the classical Laplace transform techniques
+and the Fourier transform techniques become identical.

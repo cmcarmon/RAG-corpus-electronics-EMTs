@@ -1,0 +1,5 @@
+In implementing discrete-time LSI systems, we need to com-
+pute the convolution sum, otherwise called linear convolution,
+of the input signal x[n] and the impulse response h[n] of the
+system. For ﬁnite duration sequences, this convolution can be
+carried out using DFT computation.

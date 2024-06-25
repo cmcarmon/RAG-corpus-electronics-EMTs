@@ -1,0 +1,11 @@
+Figure 45-10 shows the decoding logic circuit re-
+quired to produce the output for a seven-segment dis-
+play with a BCD input. Referring to Figure 45-7, notice 
+that segment a is activated for digits 0, 2, 3, 5, 7, 8, and 
+9; segment b is activated for digits 0, 1, 2, 3, 4, 7, 8, 
+and 9; and so on. Boolean expressions can be formed 
+to determine the logic circuitry needed to drive each 
+segment of the display. The logic symbol for a BCD-
+to-seven-segment decoder is shown in Figure 45-11. 
+This represents the circuit contained in an integrated 
+circuit.

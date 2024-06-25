@@ -1,0 +1,8 @@
+There’s a sure way to calculate any of the values in a reactive DC circuit over time. The
+ﬁrst step is to identify the starting and ﬁnal values for whatever quantity the capacitor or
+inductor opposes change in; that is, whatever quantity the reactive component is trying to hold
+constant. For capacitors, this quantity is voltage; for inductors, this quantity is current. When
+the switch in a circuit is closed (or opened), the reactive component will attempt to maintain
+that quantity at the same level as it was before the switch transition, so that value is to be
+used for the ”starting” value. The ﬁnal value for this quantity is whatever that quantity will
+be after an inﬁnite amount of time. This can be determined by analyzing a capacitive circuit as

@@ -1,0 +1,715 @@
+In the ideal case
+
+
+
+
+m
+
+1
+
+
+
+
+{\displaystyle m_{1}}
+is useful payload and
+
+
+
+
+m
+
+0
+
+
+−
+
+m
+
+1
+
+
+
+
+{\displaystyle m_{0}-m_{1}}
+is reaction mass (this corresponds to empty tanks having no mass, etc.). The energy required can simply be computed as
+
+
+
+
+
+
+1
+2
+
+
+(
+
+m
+
+0
+
+
+−
+
+m
+
+1
+
+
+)
+
+v
+
+e
+
+
+2
+
+
+
+
+{\displaystyle {\frac {1}{2}}(m_{0}-m_{1})v_{\text{e}}^{2}}
+
+This corresponds to the kinetic energy the expelled reaction mass would have at a speed equal to the exhaust speed. If the reaction mass had to be accelerated from zero speed to the exhaust speed, all energy produced would go into the reaction mass and nothing would be left for kinetic energy gain by the rocket and payload. However, if the rocket already moves and accelerates (the reaction mass is expelled in the direction opposite to the direction in which the rocket moves) less kinetic energy is added to the reaction mass. To see this, if, for example,
+
+
+
+
+v
+
+e
+
+
+
+
+{\displaystyle v_{e}}
+=10 km/s and the speed of the rocket is 3 km/s, then the speed of a small amount of expended reaction mass changes from 3 km/s forwards to 7 km/s rearwards. Thus, although the energy required is 50 MJ per kg reaction mass, only 20 MJ is used for the increase in speed of the reaction mass. The remaining 30 MJ is the increase of the kinetic energy of the rocket and payload.
+In general:
+
+
+
+
+d
+
+(
+
+
+
+1
+2
+
+
+
+v
+
+2
+
+
+
+)
+
+=
+v
+d
+v
+=
+v
+
+v
+
+e
+
+
+
+
+
+d
+m
+
+m
+
+
+=
+
+
+1
+2
+
+
+
+[
+
+
+v
+
+e
+
+
+2
+
+
+−
+
+
+(
+
+v
+−
+
+v
+
+e
+
+
+
+)
+
+
+2
+
+
++
+
+v
+
+2
+
+
+
+]
+
+
+
+
+d
+m
+
+m
+
+
+
+
+{\displaystyle d\left({\frac {1}{2}}v^{2}\right)=vdv=vv_{\text{e}}{\frac {dm}{m}}={\frac {1}{2}}\left[v_{\text{e}}^{2}-\left(v-v_{\text{e}}\right)^{2}+v^{2}\right]{\frac {dm}{m}}}
+
+Thus the specific energy gain of the rocket in any small time interval is the energy gain of the rocket including the remaining fuel, divided by its mass, where the energy gain is equal to the energy produced by the fuel minus the energy gain of the reaction mass. The larger the speed of the rocket, the smaller the energy gain of the reaction mass; if the rocket speed is more than half of the exhaust speed the reaction mass even loses energy on being expelled, to the benefit of the energy gain of the rocket; the larger the speed of the rocket, the larger the energy loss of the reaction mass.
+We have
+
+
+
+
+Δ
+ϵ
+=
+∫
+v
+
+d
+(
+Δ
+v
+)
+
+
+{\displaystyle \Delta \epsilon =\int v\,d(\Delta v)}
+
+where
+
+
+
+ϵ
+
+
+{\displaystyle \epsilon }
+is the specific energy of the rocket (potential plus kinetic energy) and
+
+
+
+Δ
+v
+
+
+{\displaystyle \Delta v}
+is a separate variable, not just the change in
+
+
+
+v
+
+
+{\displaystyle v}
+. In the case of using the rocket for deceleration; i.e., expelling reaction mass in the direction of the velocity,
+
+
+
+v
+
+
+{\displaystyle v}
+should be taken negative.
+The formula is for the ideal case again, with no energy lost on heat, etc. The latter causes a reduction of thrust, so it is a disadvantage even when the objective is to lose energy (deceleration).
+If the energy is produced by the mass itself, as in a chemical rocket, the fuel value has to be
+
+
+
+
+
+
+v
+
+e
+
+
+2
+
+
+
+/
+
+2
+
+
+
+
+{\displaystyle \scriptstyle {v_{\text{e}}^{2}/2}}
+, where for the fuel value also the mass of the oxidizer has to be taken into account. A typical value is
+
+
+
+
+v
+
+e
+
+
+
+
+{\displaystyle v_{\text{e}}}
+= 4.5 km/s, corresponding to a fuel value of 10.1 MJ/kg. The actual fuel value is higher, but much of the energy is lost as waste heat in the exhaust that the nozzle was unable to extract.
+The required energy
+
+
+
+E
+
+
+{\displaystyle E}
+is
+
+
+
+
+E
+=
+
+
+1
+2
+
+
+
+m
+
+1
+
+
+
+(
+
+
+e
+
+
+
+Δ
+v
+
+
+v
+
+e
+
+
+
+
+
+−
+1
+
+)
+
+
+v
+
+e
+
+
+2
+
+
+
+
+{\displaystyle E={\frac {1}{2}}m_{1}\left(e^{\frac {\Delta v}{v_{\text{e}}}}-1\right)v_{\text{e}}^{2}}
+
+Conclusions:
+for
+
+
+
+Δ
+v
+≪
+
+v
+
+e
+
+
+
+
+{\displaystyle \Delta v\ll v_{e}}
+we have
+
+
+
+E
+≈
+
+
+1
+2
+
+
+
+m
+
+1
+
+
+
+v
+
+e
+
+
+Δ
+v
+
+
+{\displaystyle E\approx {\frac {1}{2}}m_{1}v_{\text{e}}\Delta v}
+
+for a given
+
+
+
+Δ
+v
+
+
+{\displaystyle \Delta v}
+, the minimum energy is needed if
+
+
+
+
+v
+
+e
+
+
+=
+0.6275
+Δ
+v
+
+
+{\displaystyle v_{\text{e}}=0.6275\Delta v}
+, requiring an energy of
+
+
+
+
+E
+=
+0.772
+
+m
+
+1
+
+
+(
+Δ
+v
+
+)
+
+2
+
+
+
+
+{\displaystyle E=0.772m_{1}(\Delta v)^{2}}
+.
+In the case of acceleration in a fixed direction, and starting from zero speed, and in the absence of other forces, this is 54.4% more than just the final kinetic energy of the payload. In this optimal case the initial mass is 4.92 times the final mass.
+These results apply for a fixed exhaust speed.
+Due to the Oberth effect and starting from a nonzero speed, the required potential energy needed from the propellant may be less than the increase in energy in the vehicle and payload. This can be the case when the reaction mass has a lower speed after being expelled than before – rockets are able to liberate some or all of the initial kinetic energy of the propellant.
+Also, for a given objective such as moving from one orbit to another, the required
+
+
+
+Δ
+v
+
+
+{\displaystyle \Delta v}
+may depend greatly on the rate at which the engine can produce
+
+
+
+Δ
+v
+
+
+{\displaystyle \Delta v}
+and maneuvers may even be impossible if that rate is too low. For example, a launch to Low Earth orbit (LEO) normally requires a
+
+
+
+Δ
+v
+
+
+{\displaystyle \Delta v}
+of ca. 9.5 km/s (mostly for the speed to be acquired), but if the engine could produce
+
+
+
+Δ
+v
+
+
+{\displaystyle \Delta v}
+at a rate of only slightly more than g, it would be a slow launch requiring altogether a very large
+
+
+
+Δ
+v
+
+
+{\displaystyle \Delta v}
+(think of hovering without making any progress in speed or altitude, it would cost a
+
+
+
+Δ
+v
+
+
+{\displaystyle \Delta v}
+of 9.8 m/s each second). If the possible rate is only
+
+
+
+g
+
+
+{\displaystyle g}
+or less, the maneuver can not be carried out at all with this engine.
+The power is given by
+
+
+
+
+P
+=
+
+
+1
+2
+
+
+m
+a
+
+v
+
+e
+
+
+=
+
+
+1
+2
+
+
+F
+
+v
+
+e
+
+
+
+
+{\displaystyle P={\frac {1}{2}}mav_{\text{e}}={\frac {1}{2}}Fv_{\text{e}}}
+
+where
+
+
+
+F
+
+
+{\displaystyle F}
+is the thrust and
+
+
+
+a
+
+
+{\displaystyle a}
+the acceleration due to it. Thus the theoretically possible thrust per unit power is 2 divided by the specific impulse in m/s. The thrust efficiency is the actual thrust as percentage of this.
+If, e.g., solar power is used, this restricts
+
+
+
+a
+
+
+{\displaystyle a}
+; in the case of a large
+
+
+
+
+v
+
+e
+
+
+
+
+{\displaystyle v_{\text{e}}}
+the possible acceleration is inversely proportional to it, hence the time to reach a required delta-v is proportional to
+
+
+
+
+v
+
+e
+
+
+
+
+{\displaystyle v_{\text{e}}}
+; with 100% efficiency:
+for
+
+
+
+Δ
+v
+≪
+
+v
+
+e
+
+
+
+
+{\displaystyle \Delta v\ll v_{\text{e}}}
+we have
+
+
+
+t
+≈
+
+
+
+m
+
+v
+
+e
+
+
+Δ
+v
+
+
+2
+P
+
+
+
+
+
+{\displaystyle t\approx {\frac {mv_{\text{e}}\Delta v}{2P}}}
+
+Examples:
+power, 1000 W; mass, 100 kg;
+
+
+
+Δ
+v
+
+
+{\displaystyle \Delta v}
+= 5 km/s,
+
+
+
+
+v
+
+e
+
+
+
+
+{\displaystyle v_{\text{e}}}
+= 16 km/s, takes 1.5 months.
+power, 1000 W; mass, 100 kg;
+
+
+
+Δ
+v
+
+
+{\displaystyle \Delta v}
+= 5 km/s,
+
+
+
+
+v
+
+e
+
+
+
+
+{\displaystyle v_{\text{e}}}
+= 50 km/s, takes 5 months.
+Thus
+
+
+
+
+v
+
+e
+
+
+
+
+{\displaystyle v_{\text{e}}}
+should not be too large.

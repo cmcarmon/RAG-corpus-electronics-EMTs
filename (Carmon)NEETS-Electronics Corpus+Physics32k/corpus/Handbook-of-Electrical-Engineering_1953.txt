@@ -1,0 +1,6 @@
+and is obtained by using a pole-zero cancellation at –a. In the modiﬁed system, x(n) is computed using x (n – 2)
+as opposed to x (n – 1); thus we look ahead. The modiﬁed system has two delays in the multiply–add feedback
+loop, and these two delays can be distributed to pipeline the multiply–add operation by two stages. Of course,
+the additional multiply–add operation that represents one zero would also need to be pipelined by two stages
+to keep up with the sample rate of the system. To increase the speed by four times, we can rewrite the transfer
+function as:

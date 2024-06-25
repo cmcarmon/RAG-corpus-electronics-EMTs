@@ -1,0 +1,10 @@
+A lag network used for series compensation will result in a reduction in the ﬁxed plant gain *GMu(w)* at all
+high frequencies. This can only be achieved if the minor-loop transfer gain Gm(s) is constant for high frequencies.
+In some cases this may be achievable but often will not be. It is possible to realize the equivalent of lag network
+series  equalization  by  means  of  a  minor-loop  equalization  for  systems  where  the  low-  and  high-frequency
+behavior of GMu(s), or Gf(s), and GMc(s) are the same and where the gain magnitude of the compensated system
+*GMc(s)* is at no frequency any greater than is the gain magnitude of the fixed plant *Gf(s)* or the minor-loop–open
+major-loop transfer function *GMu(s)*. Thus we see that lag-lead network series equalization is an ideal type of
+equalization  to  realize  by  means  of  equivalent  minor-loop  equalization.  Figures  100.9  and  100.19  represent
+ﬂowcharts of a suggested general design procedure for minor-loop compensator design as well as for the series
+equalization approaches we examined previously.

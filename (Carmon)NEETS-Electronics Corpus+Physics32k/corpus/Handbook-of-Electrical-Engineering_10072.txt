@@ -1,0 +1,5 @@
+The inputs x to the neuron model are scaled by connection weights w and summed. An additional input b,
+often referred to as a bias, is added to this sum and the result becomes the input to a function f(·), called the
+activation  function,  which  computes  the  output  of  the  neuron.  The  bias  can  be  considered  as  a  connection
+weight for a constant input of +1. The terms neuron model and neuron are used interchangeably in this chapter
+section.

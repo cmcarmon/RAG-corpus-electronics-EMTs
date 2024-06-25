@@ -1,0 +1,13 @@
+When metal intercell interconnections cannot be safely routed over cells, interconnection channels must be
+provided between rows of logic cells, leading to the wiring channels above and/or below rows of logic cells as
+shown  in  Fig. 25.29.  In  this  approach,  all  connections  to  and  from  a  logic  cell  are  fed  from  the  top  and/or
+bottom wiring channel. The width of the wiring channel is adjusted to provide space for the number of intercell
+interconnections required in the channel. Special cells providing through-cell routing can be used to support
+short interconnections between adjacent rows of cells. Given this layout style at the lowest level of cells, larger
+functions can be readily constructed, as illustrated in Fig. 25.30(a). Figure 25.29(b) illustrates interconnections
+(provided in the polysilicon layer under the metal layers) to the logic cells from the wiring channel. For classical
+CMOS logic cells, the same set of input signals are applied to both the pull-up and pull-down sections, as in
+the example in Fig. 25.27(b). By organizing the sequence of transistors along the pull-up and pull-down sections
+properly, inputs can extend vertically between a PMOS transistor in the pull-up section and a corresponding
+NMOS  transistor  in  the  pull-down  section. Algorithms  to  determine  the  appropriate  ordering  of  transistors
+evolved early in CAD tools.

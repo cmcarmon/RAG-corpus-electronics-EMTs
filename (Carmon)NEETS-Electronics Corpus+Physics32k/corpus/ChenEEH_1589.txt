@@ -1,0 +1,13 @@
+conclusions of the rule (the then portion) as true. A forward-
+chaining reasoning system starts by placing initial data in its
+working memory. Then the system goes through a cycle of
+matching the premises of rules with the facts in the working
+memory, selecting one rule, and placing its conclusion in the
+working memory. This inference process is useful in searching
+for a goal or an interpretation, given a set of data. For example,
+XCON is a forward-chaining rule-based system (McDermott,
+1982) that contains several thousand rules for designing con-
+ﬁgurations of computer components for individual customers.
+It was one of the ﬁrst clear commercial successes of expert
+systems. Its underlying technology has been implemented in
+the general-purpose language OPS-5.

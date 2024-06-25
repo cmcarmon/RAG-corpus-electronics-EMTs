@@ -1,0 +1,16 @@
+In the conversion of analog audio signals to digital form, with the development of the compact
+disc (CD) player and the digital audio tape recorder, the most dramatic changes and beneﬁts
+have been experienced by the entertainment industry. The CD system, from a systems point
+of view, embodies most of the elements of a modern digital communication system: A/D and
+D/A conversion, modulation/demodulation, and channel coding/decoding. Figure 15.3.12 shows
+a general block diagram of the elements of a CD digital audio system. The sampling rate in a
+CD system is chosen to be 44.1 kHz, which is compatible with the video recording equipment
+commonly used for digital recording of audio signals on magnetic tape. The samples of both the L
+and R signals are quantized using PCM with 16 bits per sample. While the D/A conversion of the
+two 16-bit signals at the 44.1-kHz sampling rate is relatively simple, the practical implementation
+of a 16-bit D/A converter is very expensive. Because inexpensive D/A converters with 12-bit (or
+less) precision are readily available, a method is to be devised for D/A conversion that employs
+a low precision (and hence a low-cost D/A converter), while maintaining the 16-bit precision
+of the digital audio signal. Without going into details, the practical solution to this problem is
+to expand the bandwidth of the digital audio signal by oversampling through interpolation and
+digital ﬁltering prior to analog conversion.

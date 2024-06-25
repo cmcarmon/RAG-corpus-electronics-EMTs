@@ -1,0 +1,12 @@
+Most implementations of arithmetic units for RNS consist of
+an accumulator and a multiplier and are based on ROMs or
+PLAs. Bayoumi et al. (1983) have analyzed the efﬁciency of
+various VLSI implementations of RNS adders. Moreover, im-
+plementations of arithmetic units that operate in a ﬁnite integer
+ring R(m) and that are called AUms are offered in the literature
+(Stouraitis, 1993). They are less costly and require less area and
+lower hardware complexity and power consumption. They are
+based on continuously decomposing the residue bits that cor-
+respond to powers of 2 that are larger than or equal to 2n, until
+they are reduced to a set of bits that correspond to a sum of
+powers of 2 that is less than 2n, where n ¼ dlog2 me. This

@@ -1,0 +1,10 @@
+Digital signals are commonly implemented using voltage levels, for exam-
+ple, 0 V to represent FALSE, and 5 V to represent TRUE. We observe, however,
+that our choice of representing logical values with specific physical values (for
+example, representing a logical TRUE with 5 V and a logical FALSE with 0 V)
+is rather arbitrary. We can equivalently choose to represent a logical TRUE with
+0 V and a logical FALSE with 5 V. Unless specifically mentioned otherwise, this
+book adopts the convention that TRUE and high correspond to the logical 1,
+and conversely, FALSE and low correspond to the logical 0. Table 5.1 depicts
+these and several other physical realizations of the binary signals, TRUE and
+FALSE.

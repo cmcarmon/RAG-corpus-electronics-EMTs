@@ -1,0 +1,5 @@
+Fiber optic transmitters using LDs require more complex circuitry than transmitters using LEDs. The
+basic requirement for digital systems is for drive circuitry to switch the optical output on and off at high
+speeds in response to logic voltage levels at the input of the source drive circuit. Because LDs are
+threshold devices, LDs are supplied with a bias just below the threshold in the off state. This bias is often
+referred to as prebias. One reason for prebiasing the LD is to reduce the turn-on delay in digital systems.

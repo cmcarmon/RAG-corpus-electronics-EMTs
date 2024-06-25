@@ -1,0 +1,8 @@
+The  op  amp’s  power  supply  terminals  are  typically  omitted  from  conceptual 
+circuit  sketches;  although,  the  power  supply  is  often  a  source  of  circuit  problems  and 
+requires special attention from the designer. Typically, op amps are powered by bipolar 
+supplies  such  as  ±12  V  or  ±5  V.  The  op  amp’s  maximum  output  cannot  exceed  the 
+supply voltage range, and is usually at least 1V less than either supply limit. When the op 
+amp’s output has reached its positive or negative maximum, the output has “railed”.  This 
+condition should be avoided in most instances. 
+ 

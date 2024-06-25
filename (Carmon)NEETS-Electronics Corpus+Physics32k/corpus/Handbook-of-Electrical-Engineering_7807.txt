@@ -1,0 +1,23 @@
+Disk Rotation Speed
+When a disk rotates at a constant angular velocity w, a track
+of radius r moves with the constant linear velocity V = rw .
+Ideally, one would like to have the same linear velocity for
+all  the  tracks,  but  this  is  impractical  except  in  a  limited
+number of situations. For instance, when the desired mode
+of access to the various tracks is sequential, such as in audio
+and video disk applications, it is possible to place the head
+in the beginning at the inner radius and move outward from
+the  center  thereafter  while  continuously  decreasing  the
+angular velocity. By keeping the product of r and w constant,
+one  can  thus  achieve  constant  linear  velocity  for  all  the
+tracks.1  Sequential  access  mode,  however,  is  the  exception
+rather than the norm in data storage systems. In most appli-
+cations, the tracks are accessed randomly with such rapidity
+that it becomes impossible to adjust the rotation speed for
+constant  linear  velocity.  Under  these  circumstances,  the
+angular  velocity  is  best  kept  constant  during  the  normal
+operation of the disk. Typical rotation speeds are 1200 and
+1800 rpm for slower drives and 3600 rpm for the high data
+rate systems. Higher rotation rates (5000 rpm and beyond)
+are certainly feasible and will likely appear in future storage
+devices.

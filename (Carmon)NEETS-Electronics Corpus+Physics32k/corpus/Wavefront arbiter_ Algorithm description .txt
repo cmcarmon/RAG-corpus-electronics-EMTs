@@ -1,0 +1,9 @@
+A wavefront arbiter is a particular type of arbiter that is optimized for high-speed operation. For a unicast switch, the algorithm is as follows:
+The decision starts at a single point in the x-y matrix which represents the physical switches, for example the upper left hand corner.
+Based on the requests, a decision is made whether to close that switch, connecting the corresponding input and output.
+The result of this decision is then fed to the right along the matrix axis representing the input, and down along the matrix axis representing the output.
+The results of the first computation then enable the next computation at the point to the right and at the point below and switch closing decision is made at each of those two points.
+The results of these subsequent two calculations then are then fed to the points below and to the right of them. These results then enable the decisions at the next three points which are to the right and below.
+These results are again fed to the right and below.
+In the case where the calculation did not start in the upper left hand corner, the results wrap around the right back to the first left column and around the bottom to the top row.
+The calculation continues until all of the decisions have been made.

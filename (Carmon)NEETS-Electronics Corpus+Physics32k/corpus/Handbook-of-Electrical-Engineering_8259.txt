@@ -1,0 +1,10 @@
+lines of code, whereas the user interface is built using a high-level software development tool. One main part
+of system software is written to handle the input–output (I/O) operations. The use of assembly language results
+in  the  fast  execution  of  I/O  commands.  The  I/O  software  has  to  deal  with  how  the  basic  input–output
+programming tasks such as interrupt and DMA handling are done. The other aspects of system software are
+to perform the internal control tasks such as providing trigger pulses for the ADC and SHA, addressing the
+input multiplexer, the accessing and editing of the channel-gain list, transferring data into the on-board memory,
+and the addition of the clock/calendar information into data. Multitasking software programs are best suited
+for many data acquisition systems because it may be necessary to read data from the data acquisition module
+and  display  and  print  it  at  the  same  time.  Menu-driven  user  interfaces  are  common  and  have  a  variety  of
+functions built into them.

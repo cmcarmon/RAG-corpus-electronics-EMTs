@@ -1,0 +1,8 @@
+We can create an encoding scheme in the frequency domain (p. 111) to represent an alphabet of letters. But,
+as this information-encoding scheme stands, we can represent one letter for all time. However, we note that
+the Fourier coeﬃcients depend only on the signal’s characteristics over a single period. We could change
+the signal’s spectrum every T as each letter is typed. In this way, we turn spectral coeﬃcients on and oﬀ as
+letters are typed, thereby encoding the entire typed document. For the receiver in the Fundamental Model
+of Communication (Figure 1.3) to retrieve the typed letter, it would simply use the Fourier formula for the
+Fourier spectrum12 for each T -second interval to determine what each typed letter was. Figure 4.9 shows
+such a signal in the time-domain.

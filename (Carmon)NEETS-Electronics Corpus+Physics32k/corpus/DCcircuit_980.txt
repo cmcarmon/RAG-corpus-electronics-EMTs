@@ -1,0 +1,5 @@
+Notice something very important here: at resistor R4, the polarities for the respective mesh
+currents do not agree. This is because those mesh currents (I2 and I3) are going through R4 in
+different directions. This does not preclude the use of the Mesh Current method of analysis,
+but it does complicate it a bit. Though later, we will show how to avoid the R4 current clash.
+(See Example below)

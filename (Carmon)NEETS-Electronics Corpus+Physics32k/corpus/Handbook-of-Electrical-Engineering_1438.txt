@@ -1,0 +1,7 @@
+In the ﬁrst level of processing, abbreviations such as “Dr.” (which could mean “doctor” or “drive”), numbers
+(“1492”  could  be  a  year  or  a  quantity),  special  symbols  such  as “$”,  upper  case  acronyms  (e.g.,  NASA),  and
+nonspoken  symbols  such  as  “’”  (apostrophe)  are  converted  to  a  standard  form.  Next  preﬁxes  and  perhaps
+sufﬁxes are removed from the body of words prior to searching for the root word in a lexicon, which deﬁnes
+the phonetic representation for the word. The lexicon includes words which do not obey the normal rules of
+pronunciation, such as “of ”. If the word is not contained in the lexicon, it is processed by an algorithm which
+contains a large set of rules of pronunciation.
